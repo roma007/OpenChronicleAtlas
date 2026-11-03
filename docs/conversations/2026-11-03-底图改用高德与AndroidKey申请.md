@@ -73,7 +73,9 @@
 
 | 提交 | 内容 | GitHub | Gitee |
 | --- | --- | --- | --- |
-| 待回填 | docs: 底图改用高德地图并补充 Key 申请指南 |  |  |
+| `a72a66a` | docs: 底图改用高德地图并补充 Key 与签名指南 | ✅ | ✅ |
+
+**同步核对**：本地 HEAD、GitHub `main`、Gitee `main` 均为 `a72a66ab0366f574085ae68a0dfdf5732567dd7a`；Gitee `master` 镜像同步至同一提交。
 
 ## 6. 待办（TODO）
 
