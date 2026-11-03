@@ -51,6 +51,7 @@ docs/
 ### 对话档案
 - [2026-11-03 项目启动与 M1 方案](conversations/2026-11-03-项目启动与M1方案.md)
 - [2026-11-03 底图改用高德与 Android Key 申请](conversations/2026-11-03-底图改用高德与AndroidKey申请.md)
+- [2026-11-03 iOS 高德 Key 申请](conversations/2026-11-03-iOSKey申请.md)
 
 ### 计划与方案
 - [2026-11-03 M1 初始化脚手架 - 计划](plans/2026-11-03-M1-初始化脚手架-plan.md)

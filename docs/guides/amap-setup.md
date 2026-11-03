@@ -27,7 +27,7 @@
 | --- | --- | --- | --- | --- |
 | Android | PackageName + 发布版 SHA1 + 调试版 SHA1 | 地图 SDK（后续可加定位 SDK） | **申请中** | `EXPO_PUBLIC_AMAP_ANDROID_KEY` |
 | Web 端 (JS API) | 域名白名单 + 安全密钥 | Web 地图 | 待申请 | `VITE_AMAP_KEY` / `VITE_AMAP_SECURITY_CODE` |
-| iOS | Bundle ID | iOS 地图 SDK | 待申请（M4 前） | `EXPO_PUBLIC_AMAP_IOS_KEY` |
+| iOS | Bundle ID | iOS 地图 SDK | **申请中** | `EXPO_PUBLIC_AMAP_IOS_KEY` |
 | Web 服务 | IP / 域名白名单 | 可选：地理编码、REST 检索 | 按需 | 服务端环境变量 |
 
 ---
@@ -133,11 +133,26 @@ const AMap = await AMapLoader.load({
 
 ---
 
-## 6. iOS Key（M4 前完成）
+## 6. iOS Key（M4 前完成，当前申请中）
 
-1. 控制台新建 Key → 服务平台选 **iOS 平台**。
-2. 填写 **Bundle ID**：`com.openchronicle.atlas`。
-3. 注入 `EXPO_PUBLIC_AMAP_IOS_KEY`，通过 `expo-gaode-map` 的 Config Plugin 写入原生工程。
+对照控制台「为「史迹」添加 Key」页面：
+
+| 表单项 | 填写值 / 操作 |
+| --- | --- |
+| **Key 名称** | `atlas-ios` |
+| **服务平台** | 选择 **iOS 平台** |
+| **可使用服务** | 勾选 **iOS 地图 SDK**；定位 SDK 待启用「我的位置」时再加 |
+| **安全码 Bundle ID** | `com.openchronicle.atlas` |
+| 协议 | 勾选同意《高德地图开放平台服务协议》与《隐私权政策》 |
+
+要点：
+
+1. iOS Key **不需要 SHA1**，只绑定 **Bundle ID**；必须与 Xcode 工程的 Bundle Identifier 完全一致（区分大小写）。
+2. Expo 项目在 `app.config.ts` 中设置 `ios.bundleIdentifier: 'com.openchronicle.atlas'`，`expo prebuild` 后写入原生工程。
+3. 该 Bundle ID 需在 **Apple Developer 后台**注册（EAS Build 可自动注册）；免费个人账号也可用，但上架需付费开发者账号。
+4. 若后续增加 Share Extension / Widget 等扩展，扩展有独立 Bundle ID（如 `com.openchronicle.atlas.share`），高德主 Key 不覆盖扩展；扩展内若用地图需单独申请。
+5. 注入 `EXPO_PUBLIC_AMAP_IOS_KEY`，通过 `expo-gaode-map` 的 Config Plugin 写入原生工程；修改后必须重新 prebuild + 重建，热更新不生效。
+6. iOS Key 不能用于 Android 或 Web；三端 Key 各自独立。
 
 ---
 
