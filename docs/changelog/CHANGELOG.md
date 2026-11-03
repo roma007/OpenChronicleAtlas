@@ -10,6 +10,7 @@
 - 建立根 `README.md`：双仓库地址、双推配置、技术栈、数据契约速览、里程碑状态。
 - 建立数据契约 `atlas-schema v1.0.0` 文档。
 - 产出 M1 plan 与 design 文档、ADR-0001/0002/0003。
+- 初始化 git 仓库并完成 GitHub / Gitee 首次双推（`4c73ba6`），统一开发分支为 `main`。
 
 ### Changed
 - 无。
