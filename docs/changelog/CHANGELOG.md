@@ -13,6 +13,7 @@
 - 初始化 git 仓库并完成 GitHub / Gitee 首次双推（`4c73ba6`），统一开发分支为 `main`。
 - 底图改用高德地图：新增 ADR-0004、`docs/guides/amap-setup.md`，更新 M1 plan/design 与 README（GCJ-02 坐标转换、分平台 Key）。
 - 补充 iOS 高德 Key 申请说明（Bundle ID `com.openchronicle.atlas`、`atlas-ios`）。
+- 补充 Web 端 Key 类型说明（JS API vs Web 服务）。
 
 ### Changed
 - 无。

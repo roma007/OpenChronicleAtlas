@@ -112,6 +112,21 @@ keytool -printcert -jarfile app-release.apk | grep "SHA1:"
 
 ## 5. Web 端 (JS API) Key
 
+### 5.1 为什么选「Web 端 (JS API)」而不是「Web 服务」
+
+| 对比项 | **Web 端 (JS API)** | **Web 服务** |
+| --- | --- | --- |
+| 运行位置 | 浏览器前端 | 服务端（Node / Java / Nginx 代理等） |
+| 典型用途 | 交互地图渲染、Marker / Polyline、前端地图插件 | REST 接口：地理编码、POI 搜索、路径规划、静态地图、坐标转换 |
+| 鉴权方式 | Key + **安全密钥 `securityJsCode`** + **域名白名单** | Key + **IP 白名单**（或服务端签名） |
+| 能否直接显示交互地图 | ✅ 能 | ❌ 不能，只返回数据/图片 |
+| Key 暴露风险 | 必然出现在前端，靠域名白名单 + jscode 限制 | 绝不可出现在前端 |
+
+本项目 Web 端要在浏览器里显示可交互地图、路线和事件 Marker，因此**必须使用 JS API Key**。
+「Web 服务」Key 用于后端调用 REST（例如 M3 若做服务端搜索代理、地理编码），两者是**互补关系，不是替代关系**；需要时可以再申请一个 Web 服务 Key，放在服务端环境变量中。
+
+### 5.2 申请步骤
+
 1. 控制台新建 Key → 服务平台选 **Web 端 (JS API)**。
 2. 记录 **Key** 与 **安全密钥 `securityJsCode`**（2021-12-02 后申请的 Key 必须配套使用）。
 3. 配置**域名白名单**：开发用 `localhost` / `127.0.0.1`，生产填实际域名（如 `atlas.example.com`）。
