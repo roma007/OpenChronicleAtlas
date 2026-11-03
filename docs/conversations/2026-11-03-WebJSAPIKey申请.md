@@ -62,7 +62,9 @@
 
 | 提交 | 内容 | GitHub | Gitee |
 | --- | --- | --- | --- |
-| 待回填 | docs: 补充 Web JS API Key 申请说明 |  |  |
+| `0449ffa` | docs: 补充 Web JS API Key 申请说明 | ✅ | ✅ |
+
+**同步核对**：本地 HEAD、GitHub `main`、Gitee `main` 均为 `0449ffa584979e4ae335756c7ce2bea735c6a34c`。
 
 ## 6. 待办（TODO）
 
