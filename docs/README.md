@@ -55,16 +55,20 @@ docs/
 - [2026-11-03 Web Key 类型选择（JS API vs Web 服务）](conversations/2026-11-03-WebKey类型选择说明.md)
 - [2026-11-03 Web 端 (JS API) Key 申请](conversations/2026-11-03-WebJSAPIKey申请.md)
 - [2026-11-03 三端 Key 交付与 M1 启动](conversations/2026-11-03-Key交付与M1启动.md)
+- [2026-11-03 M2 启动与通用时间轴方案](conversations/2026-11-03-M2启动与时间轴方案.md)
 
 ### 计划与方案
 - [2026-11-03 M1 初始化脚手架 - 计划](plans/2026-11-03-M1-初始化脚手架-plan.md)
 - [2026-11-03 M1 初始化脚手架 - 方案](plans/2026-11-03-M1-初始化脚手架-design.md)
+- [2026-11-03 M2 通用时间轴 - 计划](plans/2026-11-03-M2-通用时间轴-plan.md)
+- [2026-11-03 M2 通用时间轴 - 方案](plans/2026-11-03-M2-通用时间轴-design.md)
 
 ### 架构决策
 - [ADR-0001 三端技术选型与 monorepo 架构](decisions/ADR-0001-三端技术选型与monorepo架构.md)
 - [ADR-0002 数据契约与 schema 版本策略](decisions/ADR-0002-数据契约与schema版本策略.md)
 - [ADR-0003 双远程仓库同步策略](decisions/ADR-0003-双远程仓库同步策略.md)
 - [ADR-0004 底图改用高德地图与坐标体系](decisions/ADR-0004-底图改用高德地图与坐标体系.md)
+- [ADR-0005 时间轴与路线生长动画方案](decisions/ADR-0005-时间轴与路线动画方案.md)
 
 ### 配置指南
 - [高德地图 Key 与签名配置](guides/amap-setup.md)

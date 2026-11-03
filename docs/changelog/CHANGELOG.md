@@ -6,7 +6,7 @@
 ## [Unreleased]
 
 ### Added
-- 无。
+- M2 方案：通用时间轴、路线生长动画、事件显隐与气泡；新增 plan/design/ADR-0005（待确认后实施）。
 
 ### Changed
 - 无。
