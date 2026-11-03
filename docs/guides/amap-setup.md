@@ -26,7 +26,7 @@
 | 平台 | 绑定信息 | 用途 | 状态 | 注入方式 |
 | --- | --- | --- | --- | --- |
 | Android | PackageName + 发布版 SHA1 + 调试版 SHA1 | 地图 SDK（后续可加定位 SDK） | **申请中** | `EXPO_PUBLIC_AMAP_ANDROID_KEY` |
-| Web 端 (JS API) | 域名白名单 + 安全密钥 | Web 地图 | 待申请 | `VITE_AMAP_KEY` / `VITE_AMAP_SECURITY_CODE` |
+| Web 端 (JS API) | 域名白名单 + 安全密钥 | Web 地图 | **申请中** | `VITE_AMAP_KEY` / `VITE_AMAP_SECURITY_CODE` |
 | iOS | Bundle ID | iOS 地图 SDK | **申请中** | `EXPO_PUBLIC_AMAP_IOS_KEY` |
 | Web 服务 | IP / 域名白名单 | 可选：地理编码、REST 检索 | 按需 | 服务端环境变量 |
 
@@ -127,22 +127,46 @@ keytool -printcert -jarfile app-release.apk | grep "SHA1:"
 
 ### 5.2 申请步骤
 
-1. 控制台新建 Key → 服务平台选 **Web 端 (JS API)**。
-2. 记录 **Key** 与 **安全密钥 `securityJsCode`**（2021-12-02 后申请的 Key 必须配套使用）。
-3. 配置**域名白名单**：开发用 `localhost` / `127.0.0.1`，生产填实际域名（如 `atlas.example.com`）。
-4. 前端加载（开发环境明文方式）：
+对照控制台「为「史迹」添加 Key」页面：
 
-```ts
-// apps/web/src/map/amap.ts
-window._AMapSecurityConfig = { securityJsCode: import.meta.env.VITE_AMAP_SECURITY_CODE };
-const AMap = await AMapLoader.load({
-  key: import.meta.env.VITE_AMAP_KEY,
-  version: '2.0',
-  plugins: ['AMap.Scale', 'AMap.ToolBar'],
-});
-```
+| 表单项 | 填写值 / 操作 |
+| --- | --- |
+| **Key 名称** | `atlas-web` |
+| **服务平台** | 选择 **Web 端 (JS API)** |
+| **可使用服务** | 只勾选 **JavaScript API 地图组件**；室内地图 / 地铁图暂不需要 |
+| **域名白名单** | 开发期可留空（无域名限制）；建议至少填 `localhost`、`127.0.0.1`，生产再加正式域名 |
+| 协议 | 勾选同意《高德地图开放平台服务协议》与《隐私权政策》 |
 
-5. **生产环境**：按官方文档用 Nginx/Node 代理 `/_AMapService/` 转发并注入 `jscode`，避免安全密钥明文暴露。
+域名白名单说明：
+
+- 留空 = 任何域名都能用这个 Key，开发方便但泄露风险高；**仅建议用于开发 Key**。
+- 生产环境填正式域名，如 `atlas.example.com`；支持子域名通配符 `*.example.com`。
+- 白名单只校验浏览器 `Referer`，不能阻止服务端盗用；生产还需配合 `securityJsCode` 代理。
+- 若本地开发填 `localhost` 后仍鉴权失败，可先留空，或改用 `127.0.0.1` 再试。
+
+申请完成后的操作：
+
+1. 在 Key 详情页复制 **Key** 与 **安全密钥 `securityJsCode`**（2021-12-02 后申请的 Key 必须配套使用；安全密钥不在申请表单里，创建后在详情页查看）。
+2. 写入 `apps/web/.env.local`（已 gitignore）：
+
+   ```bash
+   VITE_AMAP_KEY=你的Web端Key
+   VITE_AMAP_SECURITY_CODE=你的安全密钥
+   ```
+
+3. 前端加载（开发环境明文方式）：
+
+   ```ts
+   // apps/web/src/map/amap.ts
+   window._AMapSecurityConfig = { securityJsCode: import.meta.env.VITE_AMAP_SECURITY_CODE };
+   const AMap = await AMapLoader.load({
+     key: import.meta.env.VITE_AMAP_KEY,
+     version: '2.0',
+     plugins: ['AMap.Scale', 'AMap.ToolBar'],
+   });
+   ```
+
+4. **生产环境**：按官方文档用 Nginx/Node 代理 `/_AMapService/` 转发并注入 `jscode`，避免安全密钥明文暴露。
 
 > Web Key 与 Android Key **不能混用**；用错平台的 Key 会报 `INVALID_USER_KEY` / 鉴权失败。
 

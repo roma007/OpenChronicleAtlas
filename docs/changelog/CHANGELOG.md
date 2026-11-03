@@ -14,6 +14,7 @@
 - 底图改用高德地图：新增 ADR-0004、`docs/guides/amap-setup.md`，更新 M1 plan/design 与 README（GCJ-02 坐标转换、分平台 Key）。
 - 补充 iOS 高德 Key 申请说明（Bundle ID `com.openchronicle.atlas`、`atlas-ios`）。
 - 补充 Web 端 Key 类型说明（JS API vs Web 服务）。
+- 补充 Web 端 (JS API) Key 申请说明（`atlas-web`、域名白名单、安全密钥）。
 
 ### Changed
 - 无。
