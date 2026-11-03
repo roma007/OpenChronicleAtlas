@@ -1,6 +1,6 @@
 # ADR-0001：三端技术选型与 monorepo 架构
 
-- **状态**：已接受（待用户最终确认）
+- **状态**：已接受（待用户最终确认）；**地图选型部分已被 [ADR-0004](ADR-0004-底图改用高德地图与坐标体系.md) 取代**
 - **日期**：2026-11-03
 - **决策者**：项目负责人 + AI 开发助手
 - **关联**：`docs/plans/2026-11-03-M1-初始化脚手架-design.md`
@@ -35,6 +35,8 @@
 4. 共享层：`packages/shared` 为**框架无关纯 TS 包**，只依赖标准 Web API 子集（`fetch` 由调用方注入），不引入 React / RN / DOM 类型。
 5. 构建编排：M1 仅用 pnpm workspace scripts；M2 若构建耗时明显再评估 Turborepo。
 6. 包命名统一 `@atlas/shared`、`@atlas/web`、`@atlas/mobile`，内部通过 `workspace:*` 引用。
+
+> **2026-11-03 更新**：第 2、3 条中的地图库（MapLibre GL JS / maplibre-react-native）已被 [ADR-0004](ADR-0004-底图改用高德地图与坐标体系.md) 取代，改为高德 JS API 2.0 + `expo-gaode-map`；monorepo、React/Expo、shared 边界等结论仍然有效。
 
 ## 后果（Consequences）
 

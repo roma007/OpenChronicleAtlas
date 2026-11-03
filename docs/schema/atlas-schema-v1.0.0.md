@@ -153,6 +153,7 @@ type LocalizedString = string | { zh: string; en?: string };
 - 顶层 `type` 必须为 `FeatureCollection`。
 - `geometry.type` 仅支持 `LineString`（v1.0.0）；`MultiLineString` 预留到 MINOR 版本。
 - 坐标顺序为 `[lng, lat]`，WGS84（EPSG:4326）。
+- **展示层**：高德地图使用 GCJ-02，渲染前由 `packages/shared/src/geo/coordinate.ts` 统一转换；数据文件本身不得写入 GCJ-02。
 - `properties` 字段：
 
 | 字段 | 类型 | 必填 | 说明 |

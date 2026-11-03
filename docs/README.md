@@ -23,6 +23,8 @@ docs/
 ├── releases/                       # 里程碑与发布说明
 │   ├── _TEMPLATE.md
 │   └── YYYY-MM-DD-<版本>-<里程碑>.md
+├── guides/                         # 配置与操作指南（高德 Key、签名等）
+│   └── amap-setup.md
 └── schema/                         # 数据契约（版本化）
     └── atlas-schema-v1.0.0.md
 ```
@@ -48,6 +50,7 @@ docs/
 
 ### 对话档案
 - [2026-11-03 项目启动与 M1 方案](conversations/2026-11-03-项目启动与M1方案.md)
+- [2026-11-03 底图改用高德与 Android Key 申请](conversations/2026-11-03-底图改用高德与AndroidKey申请.md)
 
 ### 计划与方案
 - [2026-11-03 M1 初始化脚手架 - 计划](plans/2026-11-03-M1-初始化脚手架-plan.md)
@@ -57,6 +60,10 @@ docs/
 - [ADR-0001 三端技术选型与 monorepo 架构](decisions/ADR-0001-三端技术选型与monorepo架构.md)
 - [ADR-0002 数据契约与 schema 版本策略](decisions/ADR-0002-数据契约与schema版本策略.md)
 - [ADR-0003 双远程仓库同步策略](decisions/ADR-0003-双远程仓库同步策略.md)
+- [ADR-0004 底图改用高德地图与坐标体系](decisions/ADR-0004-底图改用高德地图与坐标体系.md)
+
+### 配置指南
+- [高德地图 Key 与签名配置](guides/amap-setup.md)
 
 ### 数据契约
 - [Atlas Schema v1.0.0](schema/atlas-schema-v1.0.0.md)
