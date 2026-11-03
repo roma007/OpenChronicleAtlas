@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0.0",
+  "atlases": [
+    {
+      "id": "long-march",
+      "title": {
+        "zh": "长征",
+        "en": "The Long March"
+      },
+      "subtitle": {
+        "zh": "1934—1936",
+        "en": "1934–1936"
+      },
+      "cover": "long-march/assets/cover.svg",
+      "timeRange": {
+        "start": "1934-10-10",
+        "end": "1936-10-22"
+      },
+      "tags": [
+        "中国近代史",
+        "军事"
+      ],
+      "path": "long-march/manifest.json"
+    }
+  ]
+}

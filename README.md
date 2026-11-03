@@ -3,7 +3,7 @@
 > 通用历史事件时空地图平台：以「地图 + 时间轴」为核心交互，展示任意历史专题的路线、事件与时空演变。
 > 平台不绑定任何单一历史事件，长征、抗战、丝绸之路、大航海等均作为可插拔的「专题数据集（Atlas Dataset）」接入。
 
-当前状态：**M1 规划阶段（文档已留档，编码待确认）**
+当前状态：**M1 已完成（v0.1.0-m1）：Web 静态地图 + 长征示例数据包；M2 时间轴待开始**
 数据契约版本：**atlas-schema v1.0.0**
 
 ---
@@ -76,8 +76,8 @@ git ls-remote gitee  refs/heads/main   # 两值应与本地 HEAD 相同
 | --- | --- |
 | 包管理 / monorepo | pnpm workspaces + Turborepo（可选） |
 | 语言 | TypeScript 5.x（strict） |
-| Web | React 18 + Vite + **高德地图 JS API 2.0** + Tailwind CSS + Zustand |
-| 移动端 | React Native + Expo（dev build）+ **`expo-gaode-map`**，一套代码出 Android / iOS |
+| Web | React 19 + Vite + **高德地图 JS API 2.0** + Tailwind CSS + Zustand |
+| 移动端 | React Native 0.88 + Expo SDK 58（dev build）+ **`expo-gaode-map`**（M4 接入），一套代码出 Android / iOS |
 | 底图 | **高德地图**（Android/iOS SDK + Web JS API 2.0）；数据保持 WGS84，渲染前转 GCJ-02 |
 | 共享层 | `packages/shared`：纯 TS，无 DOM / RN 依赖 |
 | 数据校验 | zod（schema v1.0.0） |
@@ -94,7 +94,7 @@ git ls-remote gitee  refs/heads/main   # 两值应与本地 HEAD 相同
 OpenChronicleAtlas/
 ├── apps/
 │   ├── web/                 # Web 端（React + Vite + 高德 JS API 2.0）
-│   └── mobile/              # React Native (Expo) + android/ + ios/
+│   └── mobile/              # React Native (Expo) 空壳；android/ios 由 prebuild 生成
 ├── packages/
 │   └── shared/              # 共享逻辑：类型、schema 校验、数据加载、时间轴计算、筛选
 ├── data/
@@ -140,11 +140,43 @@ OpenChronicleAtlas/
 
 ---
 
-## 六、里程碑
+## 六、快速开始
+
+```bash
+pnpm install          # 安装依赖
+pnpm dev              # 启动 Web（默认 http://localhost:5173）
+pnpm validate:data    # 校验 data/atlases 下全部专题
+pnpm -r typecheck     # 三包类型检查
+pnpm test             # shared 单测
+pnpm build            # Web 生产构建（含数据拷贝到 dist/data）
+```
+
+本地密钥（已 gitignore，不会入库）：
+
+```bash
+# apps/web/.env.local
+VITE_AMAP_KEY=...
+VITE_AMAP_SECURITY_CODE=...
+
+# apps/mobile/.env.local
+EXPO_PUBLIC_AMAP_ANDROID_KEY=...
+EXPO_PUBLIC_AMAP_IOS_KEY=...
+```
+
+移动端：
+
+```bash
+pnpm --filter @atlas/mobile start        # Expo dev server
+pnpm --filter @atlas/mobile exec expo prebuild   # 生成 android/ios（已 gitignore）
+```
+
+---
+
+## 七、里程碑
 
 | 里程碑 | 内容 | 状态 |
 | --- | --- | --- |
-| M1 | 仓库与双远程 + monorepo 脚手架 + 留档体系 + 数据加载器 + Web 静态地图/路线/节点 | 规划完成，待确认 |
+| M1 | 仓库与双远程 + monorepo 脚手架 + 留档体系 + 数据加载器 + Web 静态地图/路线/节点 | ✅ v0.1.0-m1 |
 | M2 | 通用时间轴（拖动/播放/刻度自适应）+ 路线动画 + 节点高亮（Web） | 未开始 |
 | M3 | 事件详情 + 搜索/筛选 + 分享（Web） | 未开始 |
 | M4 | 共享层抽离 + Android APK + iOS IPA + 三端一致性验证 | 未开始 |

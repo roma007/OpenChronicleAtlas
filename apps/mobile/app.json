@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "史迹",
+    "slug": "openchronicle-atlas",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "atlas",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.openchronicle.atlas"
+    },
+    "android": {
+      "package": "com.openchronicle.atlas"
+    },
+    "plugins": []
+  }
+}

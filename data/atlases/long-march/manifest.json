@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "long-march",
+  "title": {
+    "zh": "长征",
+    "en": "The Long March"
+  },
+  "subtitle": {
+    "zh": "1934—1936",
+    "en": "1934–1936"
+  },
+  "timeRange": {
+    "start": "1934-10-10",
+    "end": "1936-10-22"
+  },
+  "cover": "assets/cover.svg",
+  "description": {
+    "zh": "1934 年 10 月至 1936 年 10 月，中国工农红军主力从长江南北各根据地向陕北和川陕甘地区进行战略转移。\n\n> 本数据为 M1 示例初稿：路线为示意简化，事件日期、地点与表述待史料校订。",
+    "en": "From October 1934 to October 1936, the main forces of the Chinese Red Army moved from their bases in southern and central China to northern Shaanxi."
+  },
+  "defaultView": {
+    "center": [
+      106.5,
+      32
+    ],
+    "zoom": 4
+  },
+  "routes": [
+    "routes/central-red-army.geojson",
+    "routes/red-25-army.geojson",
+    "routes/red-2-and-4.geojson"
+  ],
+  "events": [
+    "events/events.json"
+  ],
+  "entities": [
+    {
+      "id": "central-red-army",
+      "name": {
+        "zh": "中央红军（红一方面军）",
+        "en": "Central Red Army"
+      },
+      "color": "#b22222",
+      "order": 1,
+      "description": {
+        "zh": "长征主线，1934 年 10 月从瑞金出发，1935 年 10 月到达吴起镇。"
+      }
+    },
+    {
+      "id": "red-2-army",
+      "name": {
+        "zh": "红二方面军",
+        "en": "Red Second Front Army"
+      },
+      "color": "#c47f2a",
+      "order": 2,
+      "description": {
+        "zh": "1935 年 11 月从湘鄂川黔根据地出发，1936 年 10 月到达将台堡。"
+      }
+    },
+    {
+      "id": "red-4-army",
+      "name": {
+        "zh": "红四方面军",
+        "en": "Red Fourth Front Army"
+      },
+      "color": "#7a5c3e",
+      "order": 3,
+      "description": {
+        "zh": "从川陕根据地出发，1935 年 6 月与中央红军在懋功会师。"
+      }
+    },
+    {
+      "id": "red-25-army",
+      "name": {
+        "zh": "红二十五军",
+        "en": "Red 25th Army"
+      },
+      "color": "#5b7f6b",
+      "order": 4,
+      "description": {
+        "zh": "1934 年 11 月从鄂豫皖根据地出发，1935 年 9 月到达陕北永坪。"
+      }
+    },
+    {
+      "id": "shaanxi-red-army",
+      "name": {
+        "zh": "陕北红军",
+        "en": "Shaanxi Red Army"
+      },
+      "color": "#8a6d3b",
+      "order": 5,
+      "description": {
+        "zh": "陕北根据地地方红军，与红二十五军、中央红军会师。"
+      }
+    },
+    {
+      "id": "kmt-army",
+      "name": {
+        "zh": "国民党追堵部队",
+        "en": "KMT Forces"
+      },
+      "color": "#4a4a4a",
+      "order": 6,
+      "description": {
+        "zh": "用于标示追击与封锁方向，M1 暂不绘制路线。"
+      }
+    }
+  ],
+  "tags": [
+    "中国近代史",
+    "军事",
+    "长征"
+  ],
+  "license": "CC-BY-4.0（数据初稿，待校订）",
+  "updatedAt": "2026-11-03"
+}

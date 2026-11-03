@@ -14,14 +14,9 @@ out/
 .env.*
 !.env.example
 
-# native
-apps/mobile/android/.gradle/
-apps/mobile/android/app/build/
-apps/mobile/android/local.properties
-apps/mobile/ios/Pods/
-apps/mobile/ios/build/
-apps/mobile/ios/*.xcworkspace/xcuserdata/
-apps/mobile/ios/*.xcodeproj/xcuserdata/
+# native (Expo prebuild / CNG generates these; M4 build artifacts only)
+apps/mobile/android/
+apps/mobile/ios/
 
 # signing secrets (NEVER commit)
 *.keystore
