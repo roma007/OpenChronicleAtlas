@@ -6,7 +6,7 @@
 ## [Unreleased]
 
 ### Added
-- 无。
+- M3 方案：事件详情 Markdown/图片/关联事件、全局搜索、专题内筛选、URL 分享与深链；新增 plan/design/ADR-0006（待确认后实施）。
 
 ### Changed
 - 无。
