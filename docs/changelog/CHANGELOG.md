@@ -6,7 +6,7 @@
 ## [Unreleased]
 
 ### Added
-- 无。
+- M4 方案：移动端 React Navigation + expo-gaode-map、同一套数据、双端打包与三端一致性；新增 plan/design/ADR-0007（待确认后实施）。
 
 ### Changed
 - 无。
