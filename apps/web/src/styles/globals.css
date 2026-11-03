@@ -57,8 +57,40 @@
     border-radius: 9999px;
   }
 
+  .atlas-marker--active .atlas-marker__dot {
+    transform: scale(1.45);
+    box-shadow:
+      0 0 0 6px rgba(140, 47, 36, 0.18),
+      0 4px 14px rgba(35, 28, 21, 0.5);
+    animation: atlas-pulse 1.8s ease-out infinite;
+  }
+
   .atlas-scrollbar {
     scrollbar-width: thin;
     scrollbar-color: rgba(140, 47, 36, 0.4) transparent;
+  }
+}
+
+@keyframes atlas-pulse {
+  0% {
+    box-shadow:
+      0 0 0 0 rgba(140, 47, 36, 0.35),
+      0 4px 14px rgba(35, 28, 21, 0.5);
+  }
+  70% {
+    box-shadow:
+      0 0 0 12px rgba(140, 47, 36, 0),
+      0 4px 14px rgba(35, 28, 21, 0.5);
+  }
+  100% {
+    box-shadow:
+      0 0 0 0 rgba(140, 47, 36, 0),
+      0 4px 14px rgba(35, 28, 21, 0.5);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .atlas-marker--active .atlas-marker__dot {
+    animation: none;
   }
 }

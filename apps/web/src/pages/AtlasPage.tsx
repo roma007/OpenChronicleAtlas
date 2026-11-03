@@ -2,8 +2,9 @@ import { resolveLocalized } from '@atlas/shared';
 import { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { EventDetailPanel } from '../components/detail/EventDetailPanel';
+import { EventBubble } from '../components/map/EventBubble';
 import { Legend } from '../components/layout/Legend';
-import { TimelinePlaceholder } from '../components/layout/TimelinePlaceholder';
+import { Timeline } from '../components/timeline/Timeline';
 import { MapCanvas } from '../components/map/MapCanvas';
 import { useAtlasStore } from '../stores/useAtlasStore';
 
@@ -55,11 +56,10 @@ export function AtlasPage() {
 
       <Legend />
 
-      {manifest ? (
-        <TimelinePlaceholder start={manifest.timeRange.start} end={manifest.timeRange.end} />
-      ) : null}
+      {manifest ? <Timeline /> : null}
 
       <EventDetailPanel />
+      <EventBubble />
 
       {loading ? (
         <div className="absolute inset-0 z-40 grid place-items-center bg-parchment/85 backdrop-blur-sm">

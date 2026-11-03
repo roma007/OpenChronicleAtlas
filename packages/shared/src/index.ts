@@ -4,5 +4,6 @@ export * from './schema/validate';
 export * from './data/source';
 export * from './data/loader';
 export * from './time/date';
+export * from './timeline';
 export * from './geo/coordinate';
 export * from './i18n/localized';

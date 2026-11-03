@@ -43,7 +43,7 @@ export function EventDetailPanel() {
   return (
     <aside
       aria-label="事件详情"
-      className="atlas-scrollbar absolute inset-x-0 bottom-0 z-40 max-h-[72vh] overflow-y-auto rounded-t-2xl border-t border-ink/10 bg-parchment p-5 shadow-panel md:inset-y-auto md:bottom-28 md:left-auto md:right-6 md:top-24 md:max-h-[calc(100vh-13rem)] md:w-[26rem] md:rounded-2xl md:border"
+      className="atlas-scrollbar absolute inset-x-0 bottom-0 z-40 max-h-[72vh] overflow-y-auto rounded-t-2xl border-t border-ink/10 bg-parchment p-5 shadow-panel md:inset-y-auto md:bottom-44 md:left-auto md:right-6 md:top-24 md:max-h-[calc(100vh-16rem)] md:w-[26rem] md:rounded-2xl md:border"
     >
       <div className="flex items-start justify-between gap-4">
         <span className="rounded-full bg-cinnabar/10 px-2.5 py-1 text-[11px] tracking-wider text-cinnabar">
