@@ -25,10 +25,12 @@
 
 | 平台 | 绑定信息 | 用途 | 状态 | 注入方式 |
 | --- | --- | --- | --- | --- |
-| Android | PackageName + 发布版 SHA1 + 调试版 SHA1 | 地图 SDK（后续可加定位 SDK） | **申请中** | `EXPO_PUBLIC_AMAP_ANDROID_KEY` |
-| Web 端 (JS API) | 域名白名单 + 安全密钥 | Web 地图 | **申请中** | `VITE_AMAP_KEY` / `VITE_AMAP_SECURITY_CODE` |
-| iOS | Bundle ID | iOS 地图 SDK | **申请中** | `EXPO_PUBLIC_AMAP_IOS_KEY` |
+| Android | PackageName + 发布版 SHA1 + 调试版 SHA1 | 地图 SDK（后续可加定位 SDK） | **已配置（本地）** | `EXPO_PUBLIC_AMAP_ANDROID_KEY` |
+| Web 端 (JS API) | 域名白名单 + 安全密钥 | Web 地图 | **已配置（本地）** | `VITE_AMAP_KEY` / `VITE_AMAP_SECURITY_CODE` |
+| iOS | Bundle ID | iOS 地图 SDK | **已配置（本地）** | `EXPO_PUBLIC_AMAP_IOS_KEY` |
 | Web 服务 | IP / 域名白名单 | 可选：地理编码、REST 检索 | 按需 | 服务端环境变量 |
+
+> 三端 Key 与 Web 安全密钥均已申请，**值只存放于本地 `.env.local`，本文与仓库不记录明文**。上线前建议重置 Web 安全密钥（曾在聊天中传递）。
 
 ---
 
@@ -259,6 +261,6 @@ plugins: [
 ## 10. 待回填
 
 - [x] Android 发布版 SHA1：`EA:94:B4:C2:A2:44:ED:D6:D9:65:84:6C:3A:D2:80:11:8F:46:F9:96`
-- [ ] Android Key 值：仅存本地 `.env`，不回填本文
-- [ ] Web Key / 安全密钥：仅存本地 `.env`
+- [x] Android Key 值：已写入本地 `apps/mobile/.env.local`（不入库）
+- [x] Web Key / 安全密钥：已写入本地 `apps/web/.env.local`（不入库）
 - [ ] 自定义地图样式 ID

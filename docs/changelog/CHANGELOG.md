@@ -15,6 +15,7 @@
 - 补充 iOS 高德 Key 申请说明（Bundle ID `com.openchronicle.atlas`、`atlas-ios`）。
 - 补充 Web 端 Key 类型说明（JS API vs Web 服务）。
 - 补充 Web 端 (JS API) Key 申请说明（`atlas-web`、域名白名单、安全密钥）。
+- 三端 Key 交付并写入本地 `.env.local`（不入库），M1 实施启动。
 
 ### Changed
 - 无。

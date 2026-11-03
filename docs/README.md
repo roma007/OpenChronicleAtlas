@@ -54,6 +54,7 @@ docs/
 - [2026-11-03 iOS 高德 Key 申请](conversations/2026-11-03-iOSKey申请.md)
 - [2026-11-03 Web Key 类型选择（JS API vs Web 服务）](conversations/2026-11-03-WebKey类型选择说明.md)
 - [2026-11-03 Web 端 (JS API) Key 申请](conversations/2026-11-03-WebJSAPIKey申请.md)
+- [2026-11-03 三端 Key 交付与 M1 启动](conversations/2026-11-03-Key交付与M1启动.md)
 
 ### 计划与方案
 - [2026-11-03 M1 初始化脚手架 - 计划](plans/2026-11-03-M1-初始化脚手架-plan.md)
