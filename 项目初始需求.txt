@@ -1,0 +1,189 @@
+# 项目：OpenChronicle Atlas（史迹·时空地图）—— 通用历史事件时空地图平台
+
+## 〇、铁律（最高优先级，任何任务不得违反）
+1. 每次对话都应留档：每一轮与用户的对话（需求、决策、变更、疑问、答复）都必须记录到仓库文档中，形成可追溯的对话档案。
+2. 每次开发都应先设计计划、方案并留档，再实施：任何代码改动、数据变更、配置调整前，必须先产出书面计划与方案文档并提交留档，经确认后再进入实施阶段；禁止"先写代码后补文档"。
+3. 文档留档是交付物的一部分，缺失文档视为任务未完成。
+4. 以上铁律优先级高于进度要求：宁可延期，不可无档开发。
+
+### 留档目录与规范
+/docs
+  /conversations/          对话档案
+    YYYY-MM-DD-<主题>.md    每轮对话一个文件，含时间、参与者、原始需求、决策、待办
+  /plans/                  计划与方案
+    YYYY-MM-DD-<任务名>-plan.md     开发计划（目标、范围、步骤、风险、验收标准）
+    YYYY-MM-DD-<任务名>-design.md   技术方案（架构、数据结构、接口、取舍）
+  /decisions/              架构决策记录 ADR
+    ADR-0001-<标题>.md      背景、选项、决策、后果
+  /changelog/              变更记录
+    CHANGELOG.md            按版本记录功能与修复
+  /releases/               里程碑与发布说明
+
+### 留档执行流程（每个任务强制）
+1. 记录对话：将本轮需求与决策写入 /docs/conversations/。
+2. 编写计划：在 /docs/plans/ 产出 plan 与 design 文档，明确目标、范围、步骤、风险、验收标准。
+3. 提交留档：将上述文档单独提交并推送到 GitHub 与 Gitee 两个仓库。
+4. 实施开发：按计划编码，偏离计划需先更新文档并说明原因。
+5. 更新记录：完成后更新 CHANGELOG 与相关文档，再提交代码。
+6. 里程碑归档：每个里程碑在 /docs/releases/ 写发布说明并打 tag。
+
+## 一、项目定位
+开发一个跨三端（Web 网站、Android APP、iOS APP）的通用平台，以「地图 + 时间轴」为核心交互，展示任意历史专题的路线、事件与时空演变。平台不绑定单一历史事件：长征、抗战、丝绸之路、大航海等均作为可插拔的「专题数据集（Atlas Dataset）」接入。用户可选择专题，沿时间轴拖动/播放，观察路线动态推进，点击节点查看事件详情。
+
+## 二、代码仓库与提交规范（重要）
+本项目使用双远程仓库，所有代码与文档提交必须同时推送到以下两个仓库：
+
+- GitHub: git@github.com:roma007/OpenChronicleAtlas.git
+- Gitee:  git@gitee.com:roma007007/OpenChronicleAtlas.git
+
+### 远程仓库配置（每个开发者克隆后执行一次）
+git remote add github git@github.com:roma007/OpenChronicleAtlas.git
+git remote add gitee  git@gitee.com:roma007007/OpenChronicleAtlas.git
+
+推荐做法：origin 指向 GitHub，另加 gitee 远程，推送时：
+git push origin <branch>
+git push gitee  <branch>
+或将 pushurl 配置为多地址（一个 remote 同时推送两个仓库）：
+git remote set-url --add --push origin git@github.com:roma007/OpenChronicleAtlas.git
+git remote set-url --add --push origin git@gitee.com:roma007007/OpenChronicleAtlas.git
+
+### 提交要求
+- 每次功能完成后必须推送到 GitHub 和 Gitee 两个仓库，保证双端同步。
+- 提交信息使用约定式提交（feat/fix/docs/refactor/chore），需清晰描述变更；docs 类提交专用于留档。
+- 每个里程碑结束时在两个仓库打 tag（如 v0.1.0-m1）。
+- 不提交敏感信息、密钥、大体积二进制素材；素材走 assets 目录并标注来源。
+- README 中写明双仓库地址、同步推送方法、留档规范入口。
+
+## 三、三端交付范围（重要）
+本项目必须同时交付以下三个客户端，且共享同一套数据 schema 与业务逻辑：
+
+1. Web 端：桌面浏览器为主，兼容移动浏览器；响应式布局。
+2. Android 版：原生/跨端打包 APK，支持 Android 8.0+。
+3. iOS 版：打包 IPA，支持 iOS 14+，符合 App Store 审核规范。
+
+### 三端技术选型建议
+- Web 端：React + TypeScript + MapLibre GL JS + Tailwind CSS + Zustand
+- 移动端（Android + iOS）：推荐 React Native (Expo) 一套代码双端打包，地图使用 @maplibre/maplibre-react-native；或 Flutter + maplibre。二者择一，需在 M1 前确定并写入 README 与 design 文档。
+- 共享层：将数据加载、时间轴计算、事件筛选等纯逻辑抽为 shared 包（TypeScript），Web 与 RN 共同引用，避免三端重复实现。
+- 打包与签名：
+  - Android：配置 Gradle 签名，产出 release APK/AAB，提供签名配置说明（密钥不入库）。
+  - iOS：配置 Xcode 工程、Bundle ID、证书与 Provisioning Profile 说明（证书不入库），产出 IPA。
+- 上架准备：提供应用图标、启动图、隐私政策页面、权限说明（定位权限仅用于地图定位，需在隐私政策声明）。
+
+### 三端一致性要求
+- 交互一致：时间轴拖动/播放、路线动画、节点详情在三端行为一致。
+- 数据一致：三端读取同一套 /data/atlases 数据包，禁止各端各自维护数据副本。
+- UI 适配：Web 用侧栏+底部时间轴；移动端用全屏地图+底部抽屉式时间轴与详情，触屏手势适配。
+
+## 四、核心设计原则
+1. 数据与平台解耦：平台只认统一的数据 schema，任何历史专题按 schema 提供数据即可上线。
+2. 专题可插拔：新增专题 = 新增一个数据包（manifest + 路线 GeoJSON + 事件 JSON + 资源），无需改代码。
+3. 时间轴通用：支持跨年、跨月、跨日的任意时间跨度，刻度自适应。
+4. 多路线/多主体：一个专题可含多条路线（不同部队、商队、航线等），分色分图层。
+
+## 五、数据 Schema（平台核心契约）
+
+### 专题清单 manifest.json
+{
+  "id": "long-march",
+  "title": "长征",
+  "subtitle": "1934—1936",
+  "timeRange": { "start": "1934-10-10", "end": "1936-10-22" },
+  "cover": "url",
+  "description": "Markdown 简介",
+  "defaultView": { "center": [108, 30], "zoom": 5 },
+  "routes": ["routes/central-red-army.geojson"],
+  "events": ["events/events.json"],
+  "entities": [ { "id": "central-red-army", "name": "中央红军", "color": "#b22222" } ]
+}
+
+### 路线 GeoJSON（每段带时间属性）
+Feature.properties: { "entityId": "central-red-army", "startDate": "...", "endDate": "...", "order": 1, "name": "段落名" }
+
+### 事件 JSON
+{
+  "id": "zunyi-1935-01",
+  "atlasId": "long-march",
+  "name": "遵义会议",
+  "date": "1935-01-15",
+  "endDate": "1935-01-17",
+  "location": { "lng": 106.92, "lat": 27.72, "place": "贵州遵义" },
+  "entityIds": ["central-red-army"],
+  "category": "重要会议",
+  "summary": "一句话概述",
+  "description": "详细经过（Markdown）",
+  "images": [],
+  "sources": [],
+  "relatedIds": []
+}
+
+## 六、核心功能（三端均需实现）
+
+### 1. 专题选择与管理
+- 首页：专题卡片墙（封面 + 标题 + 时间跨度 + 简介），点击进入地图浏览。
+- 专题内可切换路线图层、实体筛选。
+
+### 2. 地图与路线
+- 底图：MapLibre GL（Web 用 maplibre-gl，移动端用 maplibre-react-native），瓦片可用天地图/MapTiler/OSM。
+- 路线按时间顺序分段渲染，支持沿线生长动画；多实体多颜色，图层可开关。
+- 节点 Marker/聚合，按时间排序，点击弹出详情。
+
+### 3. 通用时间轴（核心交互）
+- 时间范围由专题 manifest 动态生成，刻度自适应（年/月/日）。
+- 拖动、播放/暂停、倍速（0.5/1/2/4x）。
+- 拖动时只显示该时间点之前的路线与节点，当前事件高亮；播放时路线动态延伸并弹出事件气泡。
+- 支持时间轴缩放与跳转到指定日期。
+
+### 4. 事件详情
+- 图文、时间、地点、所属实体、事件类型、关联事件跳转、史料来源。
+- 详情面板可分享（生成带时间点+视图的链接；移动端支持系统分享）。
+
+### 5. 检索与筛选
+- 全局搜索（跨专题可选）：事件名/地名/时间。
+- 专题内筛选：实体、事件类型、时间段。
+
+### 6. 多语言
+- 中文为主，预留 i18n（英文），数据字段支持多语言对象（如 name: {zh, en}）。
+
+## 七、技术栈与目录建议
+- 仓库结构（monorepo 推荐）：
+  /apps/web          Web 端
+  /apps/mobile       React Native (Expo) 或 Flutter，含 android/ 与 ios/
+  /packages/shared   共享逻辑（数据加载、时间轴计算、类型定义）
+  /data/atlases/{atlasId}/manifest.json、routes/、events/、assets/
+  /docs              对话档案、计划方案、ADR、CHANGELOG、发布说明
+- 数据托管：初期纯静态（JSON/GeoJSON + CDN），后续可接 Supabase/Postgres
+- 部署：Web 用 Vercel / Cloudflare Pages；移动端通过 EAS Build / 本地打包产出 APK 与 IPA
+
+## 八、数据内容要求
+- 平台自身提供 1–2 个示例专题（如「长征」「丝绸之路」）验证通用性，每个专题至少 20–30 个事件节点，含完整 schema 字段。
+- 路线 GeoJSON 按时间分段，每段带 startDate/endDate，保证动画可驱动。
+- 史料标注来源，优先公有领域或授权素材。
+
+## 九、UI/UX
+- 风格：庄重、历史感，低饱和度底图突出路线与节点；暗红/土黄/墨色主色。
+- Web：左侧地图 + 右侧详情侧栏 + 底部时间轴，响应式兼容移动浏览器。
+- 移动端（Android/iOS）：全屏地图 + 底部抽屉式时间轴与详情，触屏手势适配。
+- 无障碍：键盘可操作时间轴（Web），对比度达标；移动端支持系统字体缩放。
+
+## 十、交付里程碑（每个里程碑前必须先提交计划与方案文档）
+1. M1：初始化仓库与双远程配置 + monorepo 脚手架（web / mobile / shared）+ 留档目录与模板建立 + 专题数据加载器 + Web 端地图渲染与静态路线节点展示（用示例专题验证）
+2. M2：通用时间轴（拖动/播放/刻度自适应）+ 路线动画 + 节点高亮（Web 完成）
+3. M3：事件详情 + 搜索/筛选 + 分享（Web 完成）
+4. M4：共享层抽离 + Android 版打包（APK）+ iOS 版打包（IPA）+ 三端交互一致性验证
+5. M5：第二个专题接入验证通用性 + 上架准备（图标、隐私政策、权限说明）+ 部署上线 + 双仓库同步打 tag
+
+## 十一、注意事项
+- 平台代码不得硬编码任何具体历史专题的内容；所有专题信息来自数据包。
+- 数据 schema 写入 README 并做版本号，保证后续专题接入兼容。
+- 先完成 Web MVP，再基于 shared 包开发移动端双端，降低重复劳动。
+- 历史表述以权威史料为准，数据与展示分离便于校对。
+- 每次提交后确认 GitHub 与 Gitee 两个仓库均已同步，避免分叉。
+- 移动端签名密钥/证书不得入库，需在 docs 中提供配置说明。
+- 严格执行〇章铁律：无对话档案、无计划方案文档，不得开始编码。
+
+请先执行以下启动动作，再输出其余内容：
+1. 在 /docs 下建立 conversations、plans、decisions、changelog、releases 目录及文档模板；
+2. 将本轮对话写入 /docs/conversations/ 并提交双仓库；
+3. 输出 M1 的 plan 与 design 文档并提交双仓库；
+4. 然后输出：monorepo 目录结构、双远程仓库配置步骤、数据 schema 定义（含版本）、shared 包设计、M1 实现计划与关键代码骨架。
