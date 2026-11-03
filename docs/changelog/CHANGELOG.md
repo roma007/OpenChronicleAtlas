@@ -6,13 +6,45 @@
 ## [Unreleased]
 
 ### Added
-- M3 方案：事件详情 Markdown/图片/关联事件、全局搜索、专题内筛选、URL 分享与深链；新增 plan/design/ADR-0006（待确认后实施）。
+- 无。
 
 ### Changed
 - 无。
 
 ### Fixed
 - 无。
+
+---
+
+## [v0.3.0-m3] - 2026-11-03
+
+### Added
+- shared 检索：`buildSearchIndex` / `searchEvents`（中英文、字段评分、片段、过滤）。
+- shared 筛选：`applyEventFilters` / `collectCategories`。
+- shared 分享：`encodeShareState` / `decodeShareState` / `buildShareUrl`。
+- 事件详情 Markdown 渲染（`react-markdown` + `remark-gfm` + `rehype-sanitize`），按需加载。
+- 详情图片、图注、来源、关联事件与分享按钮。
+- `/search` 全局搜索页：专题筛选、关键词高亮、空状态、错误重试。
+- 专题侧栏筛选：类型多选、时间段、命中数量、重置；移动端筛选浮层。
+- 分享链接与深链恢复（时间、事件、地图视野）。
+- 新增 18 个检索/筛选/分享单测（shared 共 57 个）。
+
+### Changed
+- 深链带 `view` 时视野优先于事件定位。
+- Web Share 1.5 秒超时后降级复制；剪贴板失败用 `execCommand` 兜底。
+- Markdown 组件 React.lazy 拆包，主包体积保持可控。
+
+### Fixed
+- 修复深链设置事件时间被 StrictMode 二次加载覆盖的问题。
+- 修复深链选中事件在 map ready 前设置导致地图不居中的问题。
+- 修复分享链接缺少地图视野参数的问题。
+
+### Docs
+- `docs/plans/2026-11-03-M3-检索筛选与分享-plan.md`
+- `docs/plans/2026-11-03-M3-检索筛选与分享-design.md`
+- `docs/decisions/ADR-0006-检索与分享状态方案.md`
+- `docs/conversations/2026-11-03-M3启动与检索分享方案.md`
+- `docs/releases/2026-11-03-v0.3.0-m3.md`
 
 ---
 
