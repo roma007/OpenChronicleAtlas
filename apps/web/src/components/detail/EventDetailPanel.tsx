@@ -1,11 +1,20 @@
-import { formatDate, parseDateString, resolveLocalized } from '@atlas/shared';
-import { useEffect } from 'react';
+import { formatDate, parseDateString, resolveLocalized, toDateString } from '@atlas/shared';
+import { lazy, Suspense, useEffect } from 'react';
+import { dataUrl } from '../../data/client';
+import { useShare } from '../../hooks/useShare';
 import { useAtlasStore } from '../../stores/useAtlasStore';
+
+const Markdown = lazy(() =>
+  import('../common/Markdown').then((module) => ({ default: module.Markdown })),
+);
 
 export function EventDetailPanel() {
   const dataset = useAtlasStore((state) => state.dataset);
   const selectedEventId = useAtlasStore((state) => state.selectedEventId);
   const selectEvent = useAtlasStore((state) => state.selectEvent);
+  const currentTime = useAtlasStore((state) => state.currentTime);
+  const mapView = useAtlasStore((state) => state.mapView);
+  const { share, lastResult } = useShare();
 
   const event =
     selectedEventId && dataset ? dataset.eventsById.get(selectedEventId) : undefined;
@@ -36,9 +45,15 @@ export function EventDetailPanel() {
     .map((id) => dataset.eventsById.get(id))
     .filter((item): item is NonNullable<typeof item> => Boolean(item));
 
-  const description = resolveLocalized(event.description)
-    .split(/\n{2,}/)
-    .filter(Boolean);
+  const description = resolveLocalized(event.description);
+
+  const handleShare = () => {
+    void share(dataset.manifest.id, {
+      time: toDateString(currentTime),
+      eventId: event.id,
+      view: mapView ?? undefined,
+    });
+  };
 
   return (
     <aside
@@ -49,14 +64,24 @@ export function EventDetailPanel() {
         <span className="rounded-full bg-cinnabar/10 px-2.5 py-1 text-[11px] tracking-wider text-cinnabar">
           {event.category}
         </span>
-        <button
-          type="button"
-          aria-label="关闭详情"
-          onClick={() => selectEvent(null)}
-          className="grid h-8 w-8 place-items-center rounded-full border border-ink/10 text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
-        >
-          ✕
-        </button>
+
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={handleShare}
+            className="rounded-full border border-ink/10 px-3 py-1 text-[11px] text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
+          >
+            {lastResult === 'copied' || lastResult === 'shared' ? '已分享' : '分享'}
+          </button>
+          <button
+            type="button"
+            aria-label="关闭详情"
+            onClick={() => selectEvent(null)}
+            className="grid h-8 w-8 place-items-center rounded-full border border-ink/10 text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
+          >
+            ✕
+          </button>
+        </div>
       </div>
 
       <h2 className="mt-3 font-serif text-2xl font-semibold leading-snug tracking-wide text-ink">
@@ -98,11 +123,11 @@ export function EventDetailPanel() {
         {resolveLocalized(event.summary)}
       </p>
 
-      {description.length > 0 ? (
-        <div className="mt-4 space-y-3 text-sm leading-7 text-ink-soft">
-          {description.map((paragraph, index) => (
-            <p key={index}>{paragraph}</p>
-          ))}
+      {description ? (
+        <div className="mt-4">
+          <Suspense fallback={<p className="text-sm text-ink-soft/70">正在渲染详情…</p>}>
+            <Markdown>{description}</Markdown>
+          </Suspense>
         </div>
       ) : null}
 
@@ -111,7 +136,11 @@ export function EventDetailPanel() {
           {event.images.map((image) => (
             <figure key={image.src}>
               <img
-                src={image.src}
+                src={
+                  image.src.startsWith('http')
+                    ? image.src
+                    : dataUrl(`${dataset.manifest.id}/${image.src}`)
+                }
                 alt={resolveLocalized(image.caption)}
                 loading="lazy"
                 referrerPolicy="no-referrer"

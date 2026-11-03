@@ -1,5 +1,6 @@
 import type { AtlasEvent, AtlasRouteFeature, RouteGeometry } from '@atlas/shared';
 import {
+  applyEventFilters,
   buildRouteGeometry,
   eventStart,
   latestEventAt,
@@ -49,9 +50,11 @@ export function MapCanvas() {
 
   const dataset = useAtlasStore((state) => state.dataset);
   const activeEntityIds = useAtlasStore((state) => state.activeEntityIds);
+  const filters = useAtlasStore((state) => state.filters);
   const currentTime = useAtlasStore((state) => state.currentTime);
   const playing = useAtlasStore((state) => state.playing);
   const selectedEventId = useAtlasStore((state) => state.selectedEventId);
+  const viewRequest = useAtlasStore((state) => state.viewRequest);
 
   const clearBubble = () => {
     if (bubbleTimerRef.current !== null) {
@@ -79,6 +82,17 @@ export function MapCanvas() {
         });
         map.addControl(new AMap.Scale());
         map.on('click', () => useAtlasStore.getState().selectEvent(null));
+
+        const syncView = () => {
+          const center = map.getCenter();
+          useAtlasStore.getState().setMapView({
+            lng: center.getLng(),
+            lat: center.getLat(),
+            zoom: map.getZoom(),
+          });
+        };
+        map.on('moveend', syncView);
+        map.on('zoomend', syncView);
 
         mapRef.current = map;
         setReady(true);
@@ -144,7 +158,7 @@ export function MapCanvas() {
       overlays.push(line);
     }
 
-    for (const event of dataset.events) {
+    for (const event of applyEventFilters(dataset.events, filters)) {
       if (!event.entityIds.some((entityId) => activeEntityIds.has(entityId))) continue;
 
       const primaryEntityId = event.entityIds[0];
@@ -179,13 +193,15 @@ export function MapCanvas() {
     }
 
     if (overlays.length > 0 && fittedAtlasIdRef.current !== dataset.manifest.id) {
-      map.setFitView(overlays, true, [90, 90, 150, 90], 10);
-      if (map.getZoom() < 4.5) {
-        map.setZoomAndCenter(4.5, map.getCenter());
+      if (!useAtlasStore.getState().selectedEventId) {
+        map.setFitView(overlays, true, [90, 90, 150, 90], 10);
+        if (map.getZoom() < 4.5) {
+          map.setZoomAndCenter(4.5, map.getCenter());
+        }
       }
       fittedAtlasIdRef.current = dataset.manifest.id;
     }
-  }, [dataset, activeEntityIds, ready]);
+  }, [dataset, activeEntityIds, filters, ready]);
 
   // 时间变化：更新路线截断与 Marker 可见性
   useEffect(() => {
@@ -224,7 +240,7 @@ export function MapCanvas() {
     }
 
 
-    const activeEvents = dataset.events.filter((event) =>
+    const activeEvents = applyEventFilters(dataset.events, filters).filter((event) =>
       event.entityIds.some((entityId) => activeEntityIds.has(entityId)),
     );
     const latest = latestEventAt(activeEvents, currentTime);
@@ -237,7 +253,7 @@ export function MapCanvas() {
         visible && entry.event.id === latest?.id,
       );
     }
-  }, [currentTime, dataset, activeEntityIds, ready]);
+  }, [currentTime, dataset, activeEntityIds, filters, ready]);
 
   // 播放跨过事件时弹出气泡（固定 UI，避免 InfoWindow 被视口裁切）
   useEffect(() => {
@@ -249,7 +265,7 @@ export function MapCanvas() {
       return;
     }
 
-    const activeEvents = dataset.events.filter((event) =>
+    const activeEvents = applyEventFilters(dataset.events, filters).filter((event) =>
       event.entityIds.some((entityId) => activeEntityIds.has(entityId)),
     );
     const latest = latestEventAt(activeEvents, currentTime);
@@ -269,19 +285,41 @@ export function MapCanvas() {
       useAtlasStore.getState().setBubbleEvent(null);
       bubbleTimerRef.current = null;
     }, BUBBLE_DURATION_MS);
-  }, [currentTime, playing, dataset, activeEntityIds, ready]);
+  }, [currentTime, playing, dataset, activeEntityIds, filters, ready]);
 
-  // 选中事件后定位
+  // 选中事件后定位（深链带 view 时优先恢复视野）
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !dataset || !selectedEventId) return;
+    if (useAtlasStore.getState().viewRequest) return;
 
     const event = dataset.eventsById.get(selectedEventId);
     if (!event) return;
 
     const point = wgs84ToGcj02(event.location.lng, event.location.lat);
-    map.setZoomAndCenter(Math.max(map.getZoom(), 6), [point.lng, point.lat], true);
-  }, [selectedEventId, dataset]);
+    const zoom = Math.max(map.getZoom(), 6);
+
+    // 放到下一帧，确保不会被同批 effect 里的 fitView 覆盖
+    const frame = window.requestAnimationFrame(() => {
+      if (mapRef.current === map) {
+        map.setZoomAndCenter(zoom, [point.lng, point.lat], true);
+      }
+    });
+
+    return () => window.cancelAnimationFrame(frame);
+  }, [selectedEventId, dataset, ready]);
+
+  // 深链恢复视野
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !viewRequest) return;
+    map.setZoomAndCenter(
+      viewRequest.view.zoom,
+      [viewRequest.view.lng, viewRequest.view.lat],
+      true,
+    );
+    useAtlasStore.setState({ viewRequest: null });
+  }, [viewRequest, ready]);
 
   return (
     <div className="absolute inset-0">

@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { useAtlasStore } from '../stores/useAtlasStore';
 import { AtlasCard } from '../components/atlas/AtlasCard';
 
@@ -23,11 +24,19 @@ export function AtlasGalleryPage() {
                 以地图与时间轴浏览历史专题的路线、事件与时空演变。专题以数据包接入，平台不绑定单一历史叙事。
               </p>
             </div>
-            <p className="text-xs leading-6 text-ink-soft/80 md:text-right">
-              数据契约 v1.0.0
-              <br />
-              地图服务 · 高德
-            </p>
+            <div className="flex flex-col items-start gap-3 md:items-end">
+              <Link
+                to="/search"
+                className="rounded-full border border-ink/15 px-4 py-2 text-sm text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
+              >
+                搜索事件 →
+              </Link>
+              <p className="text-xs leading-6 text-ink-soft/80 md:text-right">
+                数据契约 v1.0.0
+                <br />
+                地图服务 · 高德
+              </p>
+            </div>
           </div>
         </div>
       </header>

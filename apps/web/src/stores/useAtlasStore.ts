@@ -1,5 +1,13 @@
-import type { AtlasDataset, AtlasSummary, AtlasTime, Timeline } from '@atlas/shared';
+import type {
+  AtlasDataset,
+  AtlasFilters,
+  AtlasSummary,
+  AtlasTime,
+  ShareView,
+  Timeline,
+} from '@atlas/shared';
 import {
+  EMPTY_FILTERS,
   clampToTimeline,
   createTimeline,
   ratioToTime,
@@ -10,6 +18,11 @@ import { fetchAtlas, fetchAtlasIndex } from '../data/client';
 
 export type PlaybackSpeed = 0.5 | 1 | 2 | 4;
 
+interface ViewRequest {
+  view: ShareView;
+  nonce: number;
+}
+
 interface AtlasState {
   index: AtlasSummary[] | null;
   dataset: AtlasDataset | null;
@@ -17,6 +30,7 @@ interface AtlasState {
   error: string | null;
   selectedEventId: string | null;
   activeEntityIds: Set<string>;
+  filters: AtlasFilters;
 
   timeline: Timeline | null;
   currentTime: AtlasTime;
@@ -24,10 +38,21 @@ interface AtlasState {
   speed: PlaybackSpeed;
   bubbleEventId: string | null;
 
+  mapView: ShareView | null;
+  viewRequest: ViewRequest | null;
+
+  searchDatasets: AtlasDataset[] | null;
+  searchLoading: boolean;
+  searchError: string | null;
+
   loadIndex(): Promise<void>;
   loadAtlas(atlasId: string): Promise<void>;
   selectEvent(eventId: string | null): void;
   toggleEntity(entityId: string): void;
+
+  setFilters(filters: AtlasFilters): void;
+  toggleCategory(category: string): void;
+  resetFilters(): void;
 
   setCurrentTime(time: AtlasTime): void;
   seekRatio(ratio: number): void;
@@ -38,6 +63,11 @@ interface AtlasState {
   setSpeed(speed: PlaybackSpeed): void;
   resetPlayback(): void;
   setBubbleEvent(eventId: string | null): void;
+
+  setMapView(view: ShareView): void;
+  requestView(view: ShareView): void;
+
+  loadSearchData(): Promise<void>;
 }
 
 export const useAtlasStore = create<AtlasState>((set, get) => ({
@@ -47,12 +77,20 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
   error: null,
   selectedEventId: null,
   activeEntityIds: new Set(),
+  filters: EMPTY_FILTERS,
 
   timeline: null,
   currentTime: 0,
   playing: false,
   speed: 1,
   bubbleEventId: null,
+
+  mapView: null,
+  viewRequest: null,
+
+  searchDatasets: null,
+  searchLoading: false,
+  searchError: null,
 
   async loadIndex() {
     if (get().loading || get().index) return;
@@ -73,7 +111,10 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
       selectedEventId: null,
       playing: false,
       timeline: null,
+      filters: EMPTY_FILTERS,
       bubbleEventId: null,
+      mapView: null,
+      viewRequest: null,
     });
     try {
       const dataset = await fetchAtlas(atlasId);
@@ -100,6 +141,22 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
     if (next.has(entityId)) next.delete(entityId);
     else next.add(entityId);
     set({ activeEntityIds: next });
+  },
+
+  setFilters(filters) {
+    set({ filters });
+  },
+
+  toggleCategory(category) {
+    const current = get().filters;
+    const categories = current.categories.includes(category)
+      ? current.categories.filter((item) => item !== category)
+      : [...current.categories, category];
+    set({ filters: { ...current, categories } });
+  },
+
+  resetFilters() {
+    set({ filters: EMPTY_FILTERS });
   },
 
   setCurrentTime(time) {
@@ -153,4 +210,25 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
   setBubbleEvent(eventId) {
     set({ bubbleEventId: eventId });
   },
+
+  setMapView(view) {
+    set({ mapView: view });
+  },
+
+  requestView(view) {
+    set({ viewRequest: { view, nonce: (get().viewRequest?.nonce ?? 0) + 1 }, mapView: view });
+  },
+
+  async loadSearchData() {
+    if (get().searchLoading || get().searchDatasets) return;
+    set({ searchLoading: true, searchError: null });
+    try {
+      const index = await fetchAtlasIndex();
+      const datasets = await Promise.all(index.atlases.map((atlas) => fetchAtlas(atlas.id)));
+      set({ searchDatasets: datasets, searchLoading: false });
+    } catch (error) {
+      set({ searchError: (error as Error).message, searchLoading: false });
+    }
+  },
 }));
+

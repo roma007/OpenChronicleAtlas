@@ -1,6 +1,6 @@
-import { resolveLocalized } from '@atlas/shared';
-import { useEffect } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { decodeShareState, parseDateString, resolveLocalized } from '@atlas/shared';
+import { useEffect, useRef, useState } from 'react';
+import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { EventDetailPanel } from '../components/detail/EventDetailPanel';
 import { EventBubble } from '../components/map/EventBubble';
 import { Legend } from '../components/layout/Legend';
@@ -10,14 +10,41 @@ import { useAtlasStore } from '../stores/useAtlasStore';
 
 export function AtlasPage() {
   const { atlasId } = useParams<{ atlasId: string }>();
+  const [searchParams] = useSearchParams();
   const dataset = useAtlasStore((state) => state.dataset);
   const loading = useAtlasStore((state) => state.loading);
   const error = useAtlasStore((state) => state.error);
   const loadAtlas = useAtlasStore((state) => state.loadAtlas);
+  const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
+  const selectEvent = useAtlasStore((state) => state.selectEvent);
+  const requestView = useAtlasStore((state) => state.requestView);
+  const pause = useAtlasStore((state) => state.pause);
+
+  const appliedShareRef = useRef(false);
+  const [filtersOpen, setFiltersOpen] = useState(false);
 
   useEffect(() => {
     if (atlasId) void loadAtlas(atlasId);
   }, [atlasId, loadAtlas]);
+
+  useEffect(() => {
+    appliedShareRef.current = false;
+  }, [atlasId, dataset]);
+
+  useEffect(() => {
+    if (!dataset || appliedShareRef.current) return;
+    appliedShareRef.current = true;
+
+    const state = decodeShareState(searchParams);
+    if (!state) return;
+
+    pause();
+    if (state.time) setCurrentTime(parseDateString(state.time));
+    if (state.eventId && dataset.eventsById.has(state.eventId)) {
+      selectEvent(state.eventId);
+    }
+    if (state.view) requestView(state.view);
+  }, [dataset, searchParams, pause, setCurrentTime, selectEvent, requestView]);
 
   const manifest = dataset && dataset.manifest.id === atlasId ? dataset.manifest : null;
 
@@ -34,6 +61,12 @@ export function AtlasPage() {
             >
               ← 专题
             </Link>
+            <Link
+              to="/search"
+              className="shrink-0 rounded-full border border-ink/10 px-3 py-1.5 text-xs text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
+            >
+              搜索
+            </Link>
             <div className="min-w-0">
               <h1 className="truncate font-serif text-lg font-semibold tracking-wider text-ink">
                 {manifest ? resolveLocalized(manifest.title) : '加载中…'}
@@ -46,20 +79,50 @@ export function AtlasPage() {
             </div>
           </div>
 
-          <div className="hidden shrink-0 text-right text-[11px] leading-5 text-ink-soft/60 md:block">
-            高德地图 · 坐标 WGS84 → GCJ-02
-            <br />
-            数据初稿 · 待史料校订
+          <div className="flex shrink-0 items-center gap-3">
+            <button
+              type="button"
+              onClick={() => setFiltersOpen(true)}
+              className="rounded-full border border-ink/10 px-3 py-1.5 text-xs text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar md:hidden"
+            >
+              筛选
+            </button>
+            <div className="hidden text-right text-[11px] leading-5 text-ink-soft/60 md:block">
+              高德地图 · 坐标 WGS84 → GCJ-02
+              <br />
+              数据初稿 · 待史料校订
+            </div>
           </div>
         </div>
       </header>
 
-      <Legend />
+      <Legend className="absolute left-4 top-24 z-20 hidden w-64 md:block" />
 
       {manifest ? <Timeline /> : null}
 
       <EventDetailPanel />
       <EventBubble />
+
+      {filtersOpen ? (
+        <div
+          className="fixed inset-0 z-50 flex items-start justify-center bg-ink/40 p-4 pt-20 md:hidden"
+          onClick={() => setFiltersOpen(false)}
+        >
+          <div className="w-full max-w-sm" onClick={(event) => event.stopPropagation()}>
+            <div className="mb-2 flex justify-end">
+              <button
+                type="button"
+                aria-label="关闭筛选"
+                onClick={() => setFiltersOpen(false)}
+                className="grid h-8 w-8 place-items-center rounded-full bg-parchment text-ink-soft shadow"
+              >
+                ✕
+              </button>
+            </div>
+            <Legend className="max-h-[75vh] overflow-y-auto" />
+          </div>
+        </div>
+      ) : null}
 
       {loading ? (
         <div className="absolute inset-0 z-40 grid place-items-center bg-parchment/85 backdrop-blur-sm">
