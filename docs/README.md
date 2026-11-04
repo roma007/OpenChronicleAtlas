@@ -96,3 +96,4 @@ docs/
 - [v0.4.0-m4（M4）](releases/2026-11-04-v0.4.0-m4.md)
 - [v0.5.0-m5（M5）](releases/2026-11-04-v0.5.0-m5.md)
 - [商店上架元数据（草稿）](releases/store-metadata.md)
+- [商店截图（准备中）](releases/screenshots/README.md)

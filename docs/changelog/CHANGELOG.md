@@ -27,6 +27,7 @@
 - 移动端 0.5.0 / versionCode 2，Android APK 重建。
 - Vercel 临时预览部署（两专题、隐私页、深链）。
 - Vercel SPA rewrites（/search、/privacy、/atlas/*）。
+- 商店截图（Web 移动端占位，iOS/Android 各 4 张）与 Feature Graphic。
 
 ### Changed
 - 首页页脚更新为 M5 示例数据。
