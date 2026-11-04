@@ -51,6 +51,43 @@
     box-shadow: 0 4px 14px rgba(35, 28, 21, 0.55);
   }
 
+  .atlas-marker--cluster {
+    width: 32px;
+    height: 32px;
+    transform: translateY(-6px);
+  }
+
+  .atlas-marker__count {
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 9999px;
+    border: 2px solid #f3ead9;
+    background: var(--marker-color, #8c2f24);
+    color: #f3ead9;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    box-shadow: 0 3px 12px rgba(35, 28, 21, 0.5);
+    pointer-events: none;
+    transition:
+      transform 120ms ease,
+      box-shadow 120ms ease;
+  }
+
+  .atlas-marker--cluster:hover .atlas-marker__count,
+  .atlas-marker--cluster:focus-visible .atlas-marker__count {
+    transform: scale(1.12);
+    box-shadow: 0 5px 16px rgba(35, 28, 21, 0.58);
+  }
+
+  .atlas-marker--cluster.atlas-marker--active .atlas-marker__count {
+    box-shadow:
+      0 0 0 6px rgba(140, 47, 36, 0.18),
+      0 4px 14px rgba(35, 28, 21, 0.5);
+  }
+
   .atlas-marker:focus-visible {
     outline: 2px solid #8c2f24;
     outline-offset: 2px;

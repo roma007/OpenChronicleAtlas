@@ -1,6 +1,7 @@
 import {
   applyEventFilters,
   buildRouteGeometry,
+  clusterEvents,
   eventStart,
   latestEventAt,
   partialPathAt,
@@ -30,6 +31,8 @@ export function AtlasMap() {
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const pause = useAtlasStore((state) => state.pause);
   const setMapView = useAtlasStore((state) => state.setMapView);
+  const mapView = useAtlasStore((state) => state.mapView);
+  const zoom = mapView?.zoom ?? dataset?.manifest.defaultView.zoom ?? 4;
 
   const geometries = useMemo(() => {
     if (!dataset) return new Map();
@@ -49,6 +52,18 @@ export function AtlasMap() {
         eventStart(event) <= currentTime,
     );
   }, [dataset, filters, activeEntityIds, currentTime]);
+
+  const filteredEvents = useMemo(() => {
+    if (!dataset) return [];
+    return applyEventFilters(dataset.events, filters).filter((event) =>
+      event.entityIds.some((entityId) => activeEntityIds.has(entityId)),
+    );
+  }, [dataset, filters, activeEntityIds]);
+
+  const clusters = useMemo(
+    () => clusterEvents(filteredEvents, zoom),
+    [filteredEvents, zoom],
+  );
 
   const latest = useMemo(
     () => latestEventAt(visibleEvents, currentTime),
@@ -154,27 +169,60 @@ export function AtlasMap() {
           />
         ))}
 
-        {visibleEvents.map((event) => {
-          const entity = dataset.entitiesById.get(event.entityIds[0] ?? '');
-          const point = toGcj(event.location.lng, event.location.lat);
-          const active = latest?.id === event.id;
+        {clusters.map((cluster) => {
+          const visible = cluster.events.filter((event) => eventStart(event) <= currentTime);
+          if (visible.length === 0) return null;
+
+          const isCluster = visible.length > 1;
+          let lng = 0;
+          let lat = 0;
+          for (const event of visible) {
+            lng += event.location.lng;
+            lat += event.location.lat;
+          }
+          const center: [number, number] = isCluster
+            ? [lng / visible.length, lat / visible.length]
+            : [visible[0]!.location.lng, visible[0]!.location.lat];
+          const point = toGcj(center[0], center[1]);
+          const entity = dataset.entitiesById.get(visible[0]!.entityIds[0] ?? '');
+          const active = visible.some((event) => event.id === latest?.id);
+
           return (
             <Marker
-              key={event.id}
+              key={cluster.id}
               position={point}
-              cacheKey={event.id}
+              cacheKey={`${cluster.id}:${visible.length}:${active ? 1 : 0}`}
               onMarkerPress={() => {
-                pause();
-                selectEvent(event.id);
+                if (visible.length === 1) {
+                  pause();
+                  selectEvent(visible[0]!.id);
+                  return;
+                }
+                void mapRef.current?.moveCamera(
+                  { target: point, zoom: Math.min(zoom + 2, 12) },
+                  300,
+                );
               }}
             >
-              <View
-                style={[
-                  styles.dot,
-                  { backgroundColor: entity?.color ?? colors.cinnabar },
-                  active && styles.dotActive,
-                ]}
-              />
+              {isCluster ? (
+                <View
+                  style={[
+                    styles.cluster,
+                    { backgroundColor: entity?.color ?? colors.cinnabar },
+                    active && styles.clusterActive,
+                  ]}
+                >
+                  <Text style={styles.clusterText}>{visible.length}</Text>
+                </View>
+              ) : (
+                <View
+                  style={[
+                    styles.dot,
+                    { backgroundColor: entity?.color ?? colors.cinnabar },
+                    active && styles.dotActive,
+                  ]}
+                />
+              )}
             </Marker>
           );
         })}
@@ -206,6 +254,25 @@ const styles = StyleSheet.create({
     borderRadius: 11,
     borderWidth: 3,
     borderColor: colors.ochre,
+  },
+  cluster: {
+    minWidth: 30,
+    height: 30,
+    borderRadius: 15,
+    paddingHorizontal: 6,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 2,
+    borderColor: colors.parchment,
+  },
+  clusterActive: {
+    borderWidth: 3,
+    borderColor: colors.ochre,
+  },
+  clusterText: {
+    color: colors.parchment,
+    fontSize: 11,
+    fontWeight: '700',
   },
   currentBadge: {
     position: 'absolute',

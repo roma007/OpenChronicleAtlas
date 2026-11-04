@@ -1,12 +1,17 @@
 import {
+  MAX_TIMELINE_ZOOM,
   applyEventFilters,
+  centerViewportStart,
+  createViewport,
   formatDate,
   generateTicks,
   latestEventAt,
   parseDateString,
+  ratioToTime,
   resolveLocalized,
   timeToRatio,
   toDateString,
+  type Timeline as AtlasTimeline,
 } from '@atlas/shared';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import {
@@ -36,7 +41,6 @@ export function Timeline() {
   const togglePlay = useAtlasStore((state) => state.togglePlay);
   const pause = useAtlasStore((state) => state.pause);
   const setSpeed = useAtlasStore((state) => state.setSpeed);
-  const seekRatio = useAtlasStore((state) => state.seekRatio);
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
 
   usePlayback();
@@ -44,10 +48,43 @@ export function Timeline() {
   const [width, setWidth] = useState(0);
   const widthRef = useRef(0);
   const [dateDraft, setDateDraft] = useState('');
+  const [zoomLevel, setZoomLevel] = useState(0);
+  const [viewStart, setViewStart] = useState<number | null>(null);
+
+  useEffect(() => {
+    setZoomLevel(0);
+    setViewStart(null);
+  }, [timeline]);
+
+  const viewport = useMemo(
+    () => (timeline ? createViewport(timeline, zoomLevel, viewStart) : null),
+    [timeline, zoomLevel, viewStart],
+  );
+
+  const viewportRef = useRef<AtlasTimeline | null>(viewport);
+  viewportRef.current = viewport;
+
+  useEffect(() => {
+    if (!timeline || !viewport || viewStart === null) return;
+    if (currentTime >= viewport.start && currentTime <= viewport.end) return;
+    setViewStart(centerViewportStart(timeline, zoomLevel, currentTime));
+  }, [currentTime, timeline, viewport, viewStart, zoomLevel]);
+
+  const changeZoom = (delta: number) => {
+    if (!timeline) return;
+    const nextLevel = Math.min(
+      MAX_TIMELINE_ZOOM,
+      Math.max(0, zoomLevel + delta),
+    );
+    if (nextLevel === zoomLevel) return;
+    setZoomLevel(nextLevel);
+    setViewStart(centerViewportStart(timeline, nextLevel, currentTime));
+  };
 
   const seekFromX = (x: number) => {
-    if (widthRef.current <= 0) return;
-    seekRatio(Math.min(1, Math.max(0, x / widthRef.current)));
+    const vp = viewportRef.current;
+    if (!vp || widthRef.current <= 0) return;
+    setCurrentTime(ratioToTime(Math.min(1, Math.max(0, x / widthRef.current)), vp));
   };
 
   const panResponder = useMemo(
@@ -68,9 +105,9 @@ export function Timeline() {
   );
 
   const ticks = useMemo(() => {
-    if (!timeline) return [];
-    return generateTicks(timeline, width || 340, { minLabelPx: 56 });
-  }, [timeline, width]);
+    if (!viewport) return [];
+    return generateTicks(viewport, width || 340, { minLabelPx: 56 });
+  }, [viewport, width]);
 
   const currentEvent = useMemo(() => {
     if (!dataset) return undefined;
@@ -82,7 +119,7 @@ export function Timeline() {
     return latestEventAt(events, currentTime);
   }, [dataset, filters, activeEntityIds, currentTime]);
 
-  const ratio = timeline ? timeToRatio(currentTime, timeline) : 0;
+  const ratio = viewport ? timeToRatio(currentTime, viewport) : 0;
   const dateValue = toDateString(currentTime);
 
   useEffect(() => {
@@ -154,6 +191,30 @@ export function Timeline() {
             keyboardType="numbers-and-punctuation"
             accessibilityLabel="跳转到日期"
           />
+          <View style={styles.zoom}>
+            <Pressable
+              onPress={() => changeZoom(-1)}
+              disabled={zoomLevel === 0}
+              style={[styles.zoomButton, zoomLevel === 0 && styles.zoomButtonDisabled]}
+              accessibilityRole="button"
+              accessibilityLabel="缩小时间轴"
+            >
+              <Text style={styles.zoomButtonText}>−</Text>
+            </Pressable>
+            <Text style={styles.zoomLabel}>
+              {zoomLevel === 0 ? '全' : `${2 ** zoomLevel}×`}
+            </Text>
+            <Pressable
+              onPress={() => changeZoom(1)}
+              disabled={zoomLevel === 8}
+              style={[styles.zoomButton, zoomLevel === 8 && styles.zoomButtonDisabled]}
+              accessibilityRole="button"
+              accessibilityLabel="放大时间轴"
+            >
+              <Text style={styles.zoomButtonText}>+</Text>
+            </Pressable>
+          </View>
+
           <View style={styles.speeds}>
             {SPEEDS.map((value) => (
               <Pressable
@@ -261,6 +322,25 @@ const styles = StyleSheet.create({
     fontSize: 11,
     color: colors.inkSoft,
     minWidth: 100,
+  },
+  zoom: { flexDirection: 'row', alignItems: 'center', gap: 2 },
+  zoomButton: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: colors.ink + '18',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  zoomButtonDisabled: { opacity: 0.35 },
+  zoomButtonText: { fontSize: 13, color: colors.inkSoft, lineHeight: 15 },
+  zoomLabel: {
+    minWidth: 26,
+    textAlign: 'center',
+    fontSize: 9,
+    color: colors.inkSoft,
+    fontVariant: ['tabular-nums'],
   },
   speeds: { flexDirection: 'row', gap: 4 },
   speedButton: { paddingHorizontal: 8, paddingVertical: 4, borderRadius: radii.pill },

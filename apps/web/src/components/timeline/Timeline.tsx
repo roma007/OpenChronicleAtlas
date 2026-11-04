@@ -1,8 +1,12 @@
 import {
+  MAX_TIMELINE_ZOOM,
+  centerViewportStart,
+  createViewport,
   formatDate,
   generateTicks,
   latestEventAt,
   parseDateString,
+  ratioToTime,
   resolveLocalized,
   timeToRatio,
   toDateString,
@@ -24,7 +28,6 @@ export function Timeline() {
   const togglePlay = useAtlasStore((state) => state.togglePlay);
   const pause = useAtlasStore((state) => state.pause);
   const setSpeed = useAtlasStore((state) => state.setSpeed);
-  const seekRatio = useAtlasStore((state) => state.seekRatio);
   const stepDays = useAtlasStore((state) => state.stepDays);
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
 
@@ -33,6 +36,8 @@ export function Timeline() {
   const trackRef = useRef<HTMLDivElement>(null);
   const draggingRef = useRef(false);
   const [trackWidth, setTrackWidth] = useState(0);
+  const [zoomLevel, setZoomLevel] = useState(0);
+  const [viewStart, setViewStart] = useState<number | null>(null);
 
   useEffect(() => {
     const element = trackRef.current;
@@ -47,13 +52,40 @@ export function Timeline() {
     return () => observer.disconnect();
   }, [timeline]);
 
+  useEffect(() => {
+    setZoomLevel(0);
+    setViewStart(null);
+  }, [timeline]);
+
+  const viewport = useMemo(
+    () => (timeline ? createViewport(timeline, zoomLevel, viewStart) : null),
+    [timeline, zoomLevel, viewStart],
+  );
+
+  useEffect(() => {
+    if (!timeline || !viewport || viewStart === null) return;
+    if (currentTime >= viewport.start && currentTime <= viewport.end) return;
+    setViewStart(centerViewportStart(timeline, zoomLevel, currentTime));
+  }, [currentTime, timeline, viewport, viewStart, zoomLevel]);
+
+  const changeZoom = (delta: number) => {
+    if (!timeline) return;
+    const nextLevel = Math.min(
+      MAX_TIMELINE_ZOOM,
+      Math.max(0, zoomLevel + delta),
+    );
+    if (nextLevel === zoomLevel) return;
+    setZoomLevel(nextLevel);
+    setViewStart(centerViewportStart(timeline, nextLevel, currentTime));
+  };
+
   const ticks = useMemo(() => {
-    if (!timeline) return [];
+    if (!viewport) return [];
     const width = trackWidth || 800;
-    return generateTicks(timeline, width, {
+    return generateTicks(viewport, width, {
       minLabelPx: width < 640 ? 56 : 72,
     });
-  }, [timeline, trackWidth]);
+  }, [viewport, trackWidth]);
 
   const currentEvent = useMemo(() => {
     if (!dataset) return undefined;
@@ -65,15 +97,15 @@ export function Timeline() {
 
   if (!dataset || !timeline) return null;
 
-  const ratio = timeToRatio(currentTime, timeline);
+  const ratio = viewport ? timeToRatio(currentTime, viewport) : 0;
   const dateValue = toDateString(currentTime);
 
   const seekFromClientX = (clientX: number) => {
     const element = trackRef.current;
-    if (!element) return;
+    if (!element || !viewport) return;
     const rect = element.getBoundingClientRect();
     if (rect.width === 0) return;
-    seekRatio((clientX - rect.left) / rect.width);
+    setCurrentTime(ratioToTime((clientX - rect.left) / rect.width, viewport));
   };
 
   const handlePointerDown = (event: ReactPointerEvent<HTMLDivElement>) => {
@@ -173,7 +205,7 @@ export function Timeline() {
                 {currentEvent ? resolveLocalized(currentEvent.name) : '拖动时间轴或播放'}
               </span>
               <span className="hidden shrink-0 tabular-nums text-ink-soft/60 sm:inline">
-                {formatDate(timeline.end, 'zh-CN')}
+                {formatDate(viewport?.end ?? timeline.end, 'zh-CN')}
               </span>
             </div>
 
@@ -182,8 +214,8 @@ export function Timeline() {
               role="slider"
               tabIndex={0}
               aria-label="专题时间轴"
-              aria-valuemin={timeline.start}
-              aria-valuemax={timeline.end}
+              aria-valuemin={viewport?.start ?? timeline.start}
+              aria-valuemax={viewport?.end ?? timeline.end}
               aria-valuenow={currentTime}
               aria-valuetext={formatDate(currentTime, 'zh-CN')}
               onPointerDown={handlePointerDown}
@@ -225,6 +257,30 @@ export function Timeline() {
             </div>
           </div>
 
+          <div className="flex shrink-0 items-center gap-1">
+            <button
+              type="button"
+              aria-label="缩小时间轴"
+              disabled={zoomLevel === 0}
+              onClick={() => changeZoom(-1)}
+              className="grid h-7 w-7 place-items-center rounded-full border border-ink/15 text-sm text-ink-soft transition hover:bg-ink/5 disabled:cursor-not-allowed disabled:opacity-35"
+            >
+              −
+            </button>
+            <span className="w-8 text-center text-[10px] tabular-nums text-ink-soft/70">
+              {zoomLevel === 0 ? '全' : `${2 ** zoomLevel}×`}
+            </span>
+            <button
+              type="button"
+              aria-label="放大时间轴"
+              disabled={zoomLevel === 8}
+              onClick={() => changeZoom(1)}
+              className="grid h-7 w-7 place-items-center rounded-full border border-ink/15 text-sm text-ink-soft transition hover:bg-ink/5 disabled:cursor-not-allowed disabled:opacity-35"
+            >
+              +
+            </button>
+          </div>
+
           <div className="hidden shrink-0 items-center gap-1 sm:flex">
             {SPEEDS.map((value) => (
               <button
@@ -246,7 +302,7 @@ export function Timeline() {
 
         <div className="mt-1 flex items-center justify-between gap-2">
           <span className="text-[10px] tabular-nums text-ink-soft/60">
-            {formatDate(timeline.start, 'zh-CN')}
+            {formatDate(viewport?.start ?? timeline.start, 'zh-CN')}
           </span>
 
           <div className="flex items-center gap-1 sm:hidden">
