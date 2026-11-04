@@ -16,6 +16,25 @@
 
 ---
 
+## [v0.13.0-m13] - 2026-11-04
+
+### Added
+- 共享 `timelineEventMarkers` 事件标记计算与单测。
+- Web 时间轴事件点：当前事件高亮、点击跳转并打开详情。
+- 移动端时间轴事件点：点击跳转并打开详情。
+- 事件点随图层/筛选/缩放联动。
+
+### Changed
+- 四包版本统一为 `0.13.0`；Android `versionCode` 升为 10。
+
+### Docs
+- `docs/plans/2026-11-04-M13-时间轴事件标记-plan.md`
+- `docs/plans/2026-11-04-M13-时间轴事件标记-design.md`
+- `docs/releases/2026-11-04-v0.13.0-m13.md`
+- `docs/conversations/2026-11-04-M13启动与时间轴事件标记方案.md`
+
+---
+
 ## [v0.12.0-m12] - 2026-11-04
 
 ### Added
