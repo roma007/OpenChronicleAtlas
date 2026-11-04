@@ -48,7 +48,7 @@
 | `pnpm lint` | ✅ 0 error |
 | `pnpm test` | ✅ 57 tests passed |
 | `pnpm build` | ✅ Web 构建成功，Markdown 分块 |
-| `pnpm validate:data` | ✅ 2 专题 / 54 事件 / 17 路线段 |
+| `pnpm validate:data` | ✅ 2 专题 / 54 事件 / 41 路线段 |
 | `apps/web/dist/data` | ✅ 含 long-march、zheng-he |
 
 **结论**：主线质量门禁全部通过。
@@ -59,7 +59,7 @@
 
 | 专题 | 事件 | 路线段 | 实体 | 状态 |
 | --- | --- | --- | --- | --- |
-| 长征 | 28 | 9 | 6 | 示意初稿，待史料校订 |
+| 长征 | 28 | 33 | 6 | 示意初稿，事件时间已抽查 |
 | 郑和下西洋 | 26 | 8 | 3 | 示意初稿，待史料校订 |
 
 - 两专题均通过 schema 校验；
