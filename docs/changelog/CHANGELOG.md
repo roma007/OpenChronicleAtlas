@@ -16,6 +16,27 @@
 
 ---
 
+## [v0.9.0-m9] - 2026-11-04
+
+### Added
+- 中文全拼检索（`zunyi` / `zun yi`）。
+- 事件名首字母检索（`zy` → 遵义会议），按前缀匹配降低噪音。
+- 中英文混合查询。
+- `pinyin-pro` 依赖与独立构建 chunk。
+
+### Changed
+- 搜索提示与占位符更新为支持拼音/首字母。
+- 拼音匹配片段回退原文，不高亮拼音。
+- 四包版本统一为 `0.9.0`；Android `versionCode` 升为 6。
+
+### Docs
+- `docs/plans/2026-11-04-M9-检索增强-plan.md`
+- `docs/plans/2026-11-04-M9-检索增强-design.md`
+- `docs/releases/2026-11-04-v0.9.0-m9.md`
+- `docs/conversations/2026-11-04-M9启动与检索增强方案.md`
+
+---
+
 ## [v0.8.0-m8] - 2026-11-04
 
 ### Added
