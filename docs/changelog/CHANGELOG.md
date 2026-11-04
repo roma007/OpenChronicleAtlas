@@ -16,6 +16,28 @@
 
 ---
 
+## [v0.6.0-m6] - 2026-11-04
+
+### Added
+- 共享事件聚合算法 `clusterEvents(events, zoom)`，Web / 移动端复用。
+- Web 地图 Marker 聚合：聚合点显示数量，点击放大。
+- 移动端地图 Marker 聚合：复用共享算法，点击放大。
+- Web / 移动端时间轴 0—8 级缩放，刻度与拖动自适应。
+- 共享时间轴视口工具 `createViewport` / `centerViewportStart` / `timelineSpan`。
+- 聚合与视口单测（`cluster.test.ts`、`viewport.test.ts`）。
+
+### Changed
+- 四包版本统一为 `0.6.0`；Android `versionCode` 升为 3。
+- 时间轴缩放后，起止日期显示当前视口范围。
+
+### Docs
+- `docs/plans/2026-11-04-M6-地图聚合与时间轴缩放-plan.md`
+- `docs/plans/2026-11-04-M6-地图聚合与时间轴缩放-design.md`
+- `docs/releases/2026-11-04-v0.6.0-m6.md`
+- `docs/conversations/2026-11-04-M6启动与地图聚合缩放方案.md`
+
+---
+
 ## [v0.5.0-m5] - 2026-11-04
 
 ### Added
