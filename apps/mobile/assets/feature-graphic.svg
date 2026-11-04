@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 500" width="1024" height="500">
+  <rect width="1024" height="500" fill="#231c15"/>
+  <path d="M 60 380 C 220 330, 320 420, 460 350 S 700 220, 900 170"
+        fill="none" stroke="#8c2f24" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="60" cy="380" r="16" fill="#8c2f24"/>
+  <circle cx="900" cy="170" r="16" fill="#8c2f24"/>
+  <circle cx="900" cy="170" r="30" fill="none" stroke="#b8863b" stroke-width="4" opacity="0.8"/>
+  <text x="60" y="150" font-family="Songti SC, STSong, Noto Serif SC, serif" font-size="76" font-weight="700" fill="#f3ead9" letter-spacing="8">史迹 · 时空地图</text>
+  <text x="64" y="205" font-family="PingFang SC, sans-serif" font-size="26" fill="#d8c8ae" letter-spacing="4">地图 + 时间轴，浏览历史专题</text>
+  <text x="64" y="250" font-family="PingFang SC, sans-serif" font-size="18" fill="#b9a88e" letter-spacing="3">OPENCHRONICLE ATLAS</text>
+</svg>

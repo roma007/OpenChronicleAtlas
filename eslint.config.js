@@ -8,6 +8,7 @@ export default tseslint.config(
       '**/dist/**',
       '**/build/**',
       '**/.expo/**',
+      '**/.vercel/**',
       'data/**',
       'docs/**',
     ],
@@ -25,7 +26,7 @@ export default tseslint.config(
     },
   },
   {
-    files: ['**/*.config.{js,ts}', 'scripts/**/*.ts', 'apps/mobile/scripts/**/*.mjs'],
+    files: ['**/*.config.{js,ts}', 'scripts/**/*.ts', 'apps/mobile/scripts/**/*.mjs', 'scripts/**/*.mjs'],
     languageOptions: {
       globals: { process: 'readonly', console: 'readonly', __dirname: 'readonly' },
     },
