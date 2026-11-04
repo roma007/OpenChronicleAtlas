@@ -7,6 +7,7 @@ const zh = {
   'app.footer': '史迹 · 时空地图 — M7 示例数据',
   'app.footerData': '数据为示意初稿，待史料校订',
   'privacy.link': '隐私政策',
+  'offline.banner': '当前离线，已缓存内容仍可浏览。',
 
   'nav.backToAtlases': '← 专题',
   'nav.search': '搜索',
@@ -135,6 +136,7 @@ const en: Record<keyof typeof zh, string> = {
   'app.footer': 'Chronicles Atlas — M7 sample data',
   'app.footerData': 'Illustrative draft data, pending historical review',
   'privacy.link': 'Privacy Policy',
+  'offline.banner': 'You are offline. Cached content is still available.',
 
   'nav.backToAtlases': '← Atlases',
   'nav.search': 'Search',
