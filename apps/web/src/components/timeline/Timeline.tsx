@@ -1,13 +1,16 @@
 import {
   MAX_TIMELINE_ZOOM,
+  applyEventFilters,
   centerViewportStart,
   createViewport,
+  eventStart,
   formatDate,
   generateTicks,
   latestEventAt,
   parseDateString,
   ratioToTime,
   resolveLocalized,
+  timelineEventMarkers,
   timeToRatio,
   toDateString,
 } from '@atlas/shared';
@@ -26,6 +29,8 @@ export function Timeline() {
   const playing = useAtlasStore((state) => state.playing);
   const speed = useAtlasStore((state) => state.speed);
   const activeEntityIds = useAtlasStore((state) => state.activeEntityIds);
+  const filters = useAtlasStore((state) => state.filters);
+  const selectEvent = useAtlasStore((state) => state.selectEvent);
   const togglePlay = useAtlasStore((state) => state.togglePlay);
   const pause = useAtlasStore((state) => state.pause);
   const setSpeed = useAtlasStore((state) => state.setSpeed);
@@ -96,6 +101,16 @@ export function Timeline() {
     );
     return latestEventAt(activeEvents, currentTime);
   }, [dataset, activeEntityIds, currentTime]);
+
+  const markers = useMemo(() => {
+    if (!dataset || !viewport) return [];
+    const events = applyEventFilters(dataset.events, filters).filter((event) =>
+      event.entityIds.some((id) => activeEntityIds.has(id)),
+    );
+    return timelineEventMarkers(events, viewport).filter(
+      (marker) => marker.ratio >= 0 && marker.ratio <= 1,
+    );
+  }, [dataset, filters, activeEntityIds, viewport]);
 
   if (!dataset || !timeline) return null;
 
@@ -211,6 +226,37 @@ export function Timeline() {
               </span>
             </div>
 
+            <div className="relative mt-1 h-4">
+              {markers.map((marker) => {
+                const active = marker.event.id === currentEvent?.id;
+                const past = eventStart(marker.event) <= currentTime;
+                return (
+                  <button
+                    key={marker.event.id}
+                    type="button"
+                    aria-label={`${resolveLocalized(marker.event.name, locale)}，${formatDate(
+                      eventStart(marker.event),
+                      dateLocale,
+                    )}`}
+                    title={resolveLocalized(marker.event.name, locale)}
+                    onClick={() => {
+                      pause();
+                      setCurrentTime(eventStart(marker.event));
+                      selectEvent(marker.event.id);
+                    }}
+                    className={`absolute top-1/2 h-2 w-2 -translate-x-1/2 -translate-y-1/2 rounded-full transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cinnabar ${
+                      active
+                        ? 'z-10 scale-150 bg-cinnabar ring-2 ring-cinnabar/20'
+                        : past
+                          ? 'bg-cinnabar/70 hover:scale-125'
+                          : 'bg-ink/25 hover:bg-cinnabar/50'
+                    }`}
+                    style={{ left: `${marker.ratio * 100}%` }}
+                  />
+                );
+              })}
+            </div>
+
             <div
               ref={trackRef}
               role="slider"
@@ -225,7 +271,7 @@ export function Timeline() {
               onPointerUp={endDrag}
               onPointerCancel={endDrag}
               onKeyDown={handleKeyDown}
-              className="relative mt-2 h-10 cursor-pointer touch-none select-none rounded-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cinnabar"
+              className="relative mt-1 h-10 cursor-pointer touch-none select-none rounded-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cinnabar"
             >
               <div className="absolute inset-x-0 top-1/2 h-1.5 -translate-y-1/2 rounded-full bg-ink/15" />
               <div

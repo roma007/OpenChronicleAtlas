@@ -3,12 +3,14 @@ import {
   applyEventFilters,
   centerViewportStart,
   createViewport,
+  eventStart,
   formatDate,
   generateTicks,
   latestEventAt,
   parseDateString,
   ratioToTime,
   resolveLocalized,
+  timelineEventMarkers,
   timeToRatio,
   toDateString,
   type Timeline as AtlasTimeline,
@@ -43,6 +45,7 @@ export function Timeline() {
   const pause = useAtlasStore((state) => state.pause);
   const setSpeed = useAtlasStore((state) => state.setSpeed);
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
+  const selectEvent = useAtlasStore((state) => state.selectEvent);
 
   usePlayback();
   const { locale, t, dateLocale } = useI18n();
@@ -121,6 +124,16 @@ export function Timeline() {
     return latestEventAt(events, currentTime);
   }, [dataset, filters, activeEntityIds, currentTime]);
 
+  const markers = useMemo(() => {
+    if (!dataset || !viewport) return [];
+    const events = applyEventFilters(dataset.events, filters).filter((event) =>
+      event.entityIds.some((id) => activeEntityIds.has(id)),
+    );
+    return timelineEventMarkers(events, viewport).filter(
+      (marker) => marker.ratio >= 0 && marker.ratio <= 1,
+    );
+  }, [dataset, filters, activeEntityIds, viewport]);
+
   const ratio = viewport ? timeToRatio(currentTime, viewport) : 0;
   const dateValue = toDateString(currentTime);
 
@@ -149,6 +162,35 @@ export function Timeline() {
               <Text style={styles.eventLabel} numberOfLines={1}>
                 {currentEvent ? resolveLocalized(currentEvent.name, locale) : t('timeline.hint')}
               </Text>
+            </View>
+
+            <View style={styles.markerLane}>
+              {markers.map((marker) => {
+                const active = marker.event.id === currentEvent?.id;
+                const past = eventStart(marker.event) <= currentTime;
+                return (
+                  <Pressable
+                    key={marker.event.id}
+                    onPress={() => {
+                      pause();
+                      setCurrentTime(eventStart(marker.event));
+                      selectEvent(marker.event.id);
+                    }}
+                    hitSlop={6}
+                    accessibilityRole="button"
+                    accessibilityLabel={`${resolveLocalized(marker.event.name, locale)}，${formatDate(
+                      eventStart(marker.event),
+                      dateLocale,
+                    )}`}
+                    style={[
+                      styles.marker,
+                      past ? styles.markerPast : styles.markerFuture,
+                      active && styles.markerActive,
+                      { left: `${marker.ratio * 100}%` },
+                    ]}
+                  />
+                );
+              })}
             </View>
 
             <View
@@ -270,6 +312,27 @@ const styles = StyleSheet.create({
   labelRow: { flexDirection: 'row', justifyContent: 'space-between', gap: spacing.sm },
   dateLabel: { fontSize: 11, color: colors.ink, fontWeight: '600' },
   eventLabel: { flex: 1, textAlign: 'right', fontSize: 10, color: colors.inkSoft },
+  markerLane: { height: 14, marginTop: 2 },
+  marker: {
+    position: 'absolute',
+    top: 4,
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    marginLeft: -4,
+  },
+  markerPast: { backgroundColor: colors.cinnabar + 'B3' },
+  markerFuture: { backgroundColor: colors.ink + '33' },
+  markerActive: {
+    width: 12,
+    height: 12,
+    borderRadius: 6,
+    marginLeft: -6,
+    top: 2,
+    backgroundColor: colors.cinnabar,
+    borderWidth: 2,
+    borderColor: colors.ochre,
+  },
   track: { height: 38, marginTop: 2, justifyContent: 'center' },
   trackBg: {
     position: 'absolute',
