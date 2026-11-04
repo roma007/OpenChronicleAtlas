@@ -41,7 +41,15 @@ VITE_AMAP_SECURITY_CODE=...
 VITE_AMAP_STYLE_ID=（可选）
 ```
 
-6. 无账号时可先创建临时预览（60 分钟，需 claim）：
+6. 当前生产部署（已认领）：
+
+```
+https://open-chronicle-atlas-mengfeng007-7858.vercel.app
+```
+
+> 中国大陆网络可能对 `*.vercel.app` 存在 DNS 污染或不可达；建议在 Vercel 绑定自定义域名后使用自有域名访问。
+
+7. 无账号时可先创建临时预览（60 分钟，需 claim）：
 
 ```bash
 npx vercel deploy --temporary --yes \
@@ -49,7 +57,7 @@ npx vercel deploy --temporary --yes \
   --build-env VITE_AMAP_SECURITY_CODE=...
 ```
 
-7. 部署后访问：
+8. 部署后访问：
    - `https://<domain>/`
    - `https://<domain>/search`
    - `https://<domain>/privacy`
@@ -87,7 +95,16 @@ EXPO_PUBLIC_PRIVACY_URL=https://<domain>/privacy
 
 ---
 
-## 5. 校验清单
+## 5. 常见问题
+
+| 现象 | 原因 | 处理 |
+| --- | --- | --- |
+| 打开旧 `*.tmp.now` 显示「应用配置错误」 | 旧别名指向匿名空部署 | 使用新的 production URL |
+| 页面要求 Vercel 登录 | Deployment Protection / SSO | `vercel project protection disable --sso` |
+| 中国大陆无法解析 `*.vercel.app` | DNS 污染/网络限制 | 绑定自定义域名，或使用 Cloudflare Pages / VPN |
+| 构建报 100MB 文件限制 | 上传了 APK/原生目录 | 保留 `.vercelignore`（已排除 apps/mobile、docs、dist、APK） |
+
+## 6. 校验清单
 
 - [ ] `/data/atlases/index.json` 返回 200，包含两个专题。
 - [ ] 首页显示两张卡片。
