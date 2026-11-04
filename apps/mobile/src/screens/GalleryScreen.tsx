@@ -1,8 +1,9 @@
 import { resolveLocalized, tagLabel } from '@atlas/shared';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import {
   ActivityIndicator,
+  Alert,
   FlatList,
   Image,
   Pressable,
@@ -25,7 +26,10 @@ export function GalleryScreen({ navigation }: Props) {
   const loading = useAtlasStore((state) => state.loading);
   const error = useAtlasStore((state) => state.error);
   const loadIndex = useAtlasStore((state) => state.loadIndex);
+  const fromCache = useAtlasStore((state) => state.fromCache);
+  const clearCache = useAtlasStore((state) => state.clearCache);
   const { locale, t } = useI18n();
+  const [cleared, setCleared] = useState(false);
 
   useEffect(() => {
     void loadIndex();
@@ -44,6 +48,11 @@ export function GalleryScreen({ navigation }: Props) {
               <LanguageToggle />
             </View>
             <Text style={styles.title}>{t('app.title')}</Text>
+            {fromCache ? (
+              <View style={styles.cacheBadge}>
+                <Text style={styles.cacheBadgeText}>{t('offline.cacheBadge')}</Text>
+              </View>
+            ) : null}
             <Text style={styles.subtitle}>{t('app.tagline')}</Text>
             <Pressable
               style={styles.searchButton}
@@ -53,6 +62,32 @@ export function GalleryScreen({ navigation }: Props) {
             </Pressable>
             <Text style={styles.sectionTitle}>{t('gallery.subtitle')}</Text>
           </View>
+        }
+        ListFooterComponent={
+          index && index.length > 0 ? (
+            <View style={styles.cacheFooter}>
+              <Pressable
+                style={styles.cacheButton}
+                onPress={() => {
+                  Alert.alert(t('cache.clear'), t('cache.clearConfirm'), [
+                    { text: t('cache.cancel'), style: 'cancel' },
+                    {
+                      text: t('cache.clear'),
+                      style: 'destructive',
+                      onPress: () => {
+                        void clearCache().then(() => setCleared(true));
+                      },
+                    },
+                  ]);
+                }}
+              >
+                <Text style={styles.cacheButtonText}>
+                  {cleared ? t('cache.cleared') : t('cache.clear')}
+                </Text>
+              </Pressable>
+              <Text style={styles.cacheHint}>{t('cache.clearHint')}</Text>
+            </View>
+          ) : undefined
         }
         ListEmptyComponent={
           loading ? (
@@ -118,6 +153,24 @@ const styles = StyleSheet.create({
   list: { padding: spacing.lg, paddingBottom: 40, gap: spacing.lg },
   header: { gap: spacing.sm, marginBottom: spacing.sm },
   headerTop: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+  cacheBadge: {
+    alignSelf: 'flex-start',
+    backgroundColor: colors.ochre + '22',
+    borderRadius: radii.pill,
+    paddingHorizontal: 10,
+    paddingVertical: 3,
+  },
+  cacheBadgeText: { fontSize: 10, color: colors.inkSoft },
+  cacheFooter: { alignItems: 'center', gap: spacing.xs, paddingTop: spacing.md },
+  cacheButton: {
+    borderWidth: 1,
+    borderColor: colors.ink + '18',
+    borderRadius: radii.pill,
+    paddingHorizontal: 14,
+    paddingVertical: 7,
+  },
+  cacheButtonText: { fontSize: 11, color: colors.inkSoft },
+  cacheHint: { fontSize: 10, color: colors.inkSoft, opacity: 0.6, textAlign: 'center' },
   kicker: { fontSize: 10, letterSpacing: 3, color: colors.cinnabar, fontWeight: '600' },
   title: { fontSize: 32, fontWeight: '700', color: colors.ink },
   subtitle: { fontSize: 14, lineHeight: 22, color: colors.inkSoft },

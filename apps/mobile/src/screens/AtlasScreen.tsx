@@ -32,6 +32,7 @@ export function AtlasScreen({ route, navigation }: Props) {
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const pause = useAtlasStore((state) => state.pause);
+  const fromCache = useAtlasStore((state) => state.fromCache);
   const { locale, t } = useI18n();
 
   const appliedRef = useRef(false);
@@ -85,6 +86,9 @@ export function AtlasScreen({ route, navigation }: Props) {
               <Text style={styles.subtitle} numberOfLines={1}>
                 {resolveLocalized(manifest.subtitle, locale)}
               </Text>
+            ) : null}
+            {fromCache ? (
+              <Text style={styles.cacheBadge}>{t('offline.cacheBadge')}</Text>
             ) : null}
           </View>
 
@@ -146,6 +150,17 @@ const styles = StyleSheet.create({
   titleBlock: { flex: 1, marginLeft: spacing.xs },
   title: { fontSize: 17, fontWeight: '700', color: colors.ink },
   subtitle: { fontSize: 10, color: colors.inkSoft },
+  cacheBadge: {
+    alignSelf: 'flex-start',
+    marginTop: 2,
+    fontSize: 9,
+    color: colors.inkSoft,
+    backgroundColor: colors.ochre + '22',
+    borderRadius: radii.pill,
+    paddingHorizontal: 6,
+    paddingVertical: 1,
+    overflow: 'hidden',
+  },
   overlay: {
     position: 'absolute',
     top: 0,

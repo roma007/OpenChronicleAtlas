@@ -11,11 +11,18 @@ import {
   EMPTY_FILTERS,
   clampToTimeline,
   createTimeline,
+  normalizeLocale,
   ratioToTime,
   stepDays as addDays,
 } from '@atlas/shared';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
 import { fetchAtlas, fetchAtlasIndex } from '../data/client';
+import {
+  clearAtlasCache,
+  consumeCacheHit,
+  resetCacheHit,
+} from '../data/cache';
 
 export type PlaybackSpeed = 0.5 | 1 | 2 | 4;
 
@@ -35,6 +42,7 @@ interface MobileAtlasState {
   activeEntityIds: Set<string>;
   filters: AtlasFilters;
   locale: Locale;
+  fromCache: boolean;
   mapView: ShareView | null;
 
   searchDatasets: AtlasDataset[] | null;
@@ -47,6 +55,8 @@ interface MobileAtlasState {
   setBubbleEvent(eventId: string | null): void;
   toggleEntity(entityId: string): void;
   setLocale(locale: Locale): void;
+  hydrateLocale(): Promise<void>;
+  clearCache(): Promise<void>;
   setFilters(filters: AtlasFilters): void;
   toggleCategory(category: string): void;
   resetFilters(): void;
@@ -77,6 +87,7 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
   activeEntityIds: new Set(),
   filters: EMPTY_FILTERS,
   locale: 'zh',
+  fromCache: false,
   mapView: null,
 
   searchDatasets: null,
@@ -86,9 +97,10 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
   async loadIndex() {
     if (get().loading || get().index) return;
     set({ loading: true, error: null });
+    resetCacheHit();
     try {
       const index = await fetchAtlasIndex();
-      set({ index: index.atlases, loading: false });
+      set({ index: index.atlases, loading: false, fromCache: consumeCacheHit() });
     } catch (error) {
       set({ error: (error as Error).message, loading: false });
     }
@@ -105,7 +117,9 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
       timeline: null,
       filters: EMPTY_FILTERS,
       mapView: null,
+      fromCache: false,
     });
+    resetCacheHit();
     try {
       const dataset = await fetchAtlas(atlasId);
       const timeline = createTimeline(dataset.manifest.timeRange);
@@ -116,6 +130,7 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
         timeline,
         currentTime: timeline.start,
         playing: false,
+        fromCache: consumeCacheHit(),
       });
     } catch (error) {
       set({ error: (error as Error).message, loading: false });
@@ -139,6 +154,21 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
 
   setLocale(locale) {
     set({ locale });
+    void AsyncStorage.setItem('atlas-locale', locale).catch(() => {});
+  },
+
+  async hydrateLocale() {
+    try {
+      const stored = await AsyncStorage.getItem('atlas-locale');
+      if (stored) set({ locale: normalizeLocale(stored) });
+    } catch {
+      // 读取失败时保持默认中文
+    }
+  },
+
+  async clearCache() {
+    await clearAtlasCache();
+    set({ fromCache: false });
   },
 
   setFilters(filters) {
@@ -207,10 +237,15 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
   async loadSearchData() {
     if (get().searchLoading || get().searchDatasets) return;
     set({ searchLoading: true, searchError: null });
+    resetCacheHit();
     try {
       const index = await fetchAtlasIndex();
       const datasets = await Promise.all(index.atlases.map((atlas) => fetchAtlas(atlas.id)));
-      set({ searchDatasets: datasets, searchLoading: false });
+      set({
+        searchDatasets: datasets,
+        searchLoading: false,
+        fromCache: consumeCacheHit(),
+      });
     } catch (error) {
       set({ searchError: (error as Error).message, searchLoading: false });
     }

@@ -22,6 +22,7 @@ import { SearchScreen } from './screens/SearchScreen';
 import { colors, radii, spacing } from './theme';
 import { LanguageToggle } from './components/common/LanguageToggle';
 import { useI18n } from './hooks/useI18n';
+import { useAtlasStore } from './stores/useAtlasStore';
 import type { RootStackParamList } from './navigation/types';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -47,6 +48,11 @@ function parseDeepLink(url: string): { atlasId: string; t?: string; event?: stri
 export default function App() {
   const [privacyReady, setPrivacyReady] = useState(false);
   const { t } = useI18n();
+  const hydrateLocale = useAtlasStore((state) => state.hydrateLocale);
+
+  useEffect(() => {
+    void hydrateLocale();
+  }, [hydrateLocale]);
 
   useEffect(() => {
     try {
