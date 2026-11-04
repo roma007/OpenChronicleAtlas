@@ -16,6 +16,29 @@
 
 ---
 
+## [v0.10.0-m10] - 2026-11-04
+
+### Added
+- 郑和专题航线补齐去程/返程，共 20 段。
+- 郑和航线名称与描述英文。
+- `extensions.routeEvent = false` 支持标记非路线事件。
+
+### Changed
+- 郑和 26 个事件与航线时间对齐；出发事件 2—12km，其余路线事件 0km。
+- 分䑸访问榜葛剌事件只绑定 `detached-squadron`。
+- 四包版本统一为 `0.10.0`；Android `versionCode` 升为 7。
+
+### Fixed
+- 修复郑和返航事件偏离航线 9342km、港口事件偏离 721—1428km 的问题。
+
+### Docs
+- `docs/plans/2026-11-04-M10-郑和航线时间校正-plan.md`
+- `docs/plans/2026-11-04-M10-郑和航线时间校正-design.md`
+- `docs/releases/2026-11-04-v0.10.0-m10.md`
+- `docs/conversations/2026-11-04-M10启动与郑和航线校正方案.md`
+
+---
+
 ## [v0.9.0-m9] - 2026-11-04
 
 ### Added

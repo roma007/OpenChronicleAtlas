@@ -118,6 +118,7 @@ docs/
 - [v0.7.0-m7（M7）](releases/2026-11-04-v0.7.0-m7.md)
 - [v0.8.0-m8（M8）](releases/2026-11-04-v0.8.0-m8.md)
 - [v0.9.0-m9（M9）](releases/2026-11-04-v0.9.0-m9.md)
+- [v0.10.0-m10（M10）](releases/2026-11-04-v0.10.0-m10.md)
 - [全项目收尾审计（M1–M5）](releases/2026-11-04-final-audit.md)
 - [商店上架元数据（草稿）](releases/store-metadata.md)
 - [商店截图（准备中）](releases/screenshots/README.md)
