@@ -16,6 +16,29 @@
 
 ---
 
+## [v0.11.0-m11] - 2026-11-04
+
+### Added
+- 移动端语言持久化：AsyncStorage `atlas-locale` + 启动 `hydrateLocale()`。
+- 缓存命中检测与「离线缓存」徽标（首页、专题页）。
+- 首页「清除离线缓存」入口与确认弹窗。
+- 缓存/离线相关中英文案。
+
+### Changed
+- 四包版本统一为 `0.11.0`；Android `versionCode` 升为 8。
+
+### Fixed
+- 修复移动端重启后语言恢复默认中文的问题。
+- 修复清除缓存可能误删语言设置的风险（仅删除 `atlas-cache:v1:`）。
+
+### Docs
+- `docs/plans/2026-11-04-M11-移动端体验收尾-plan.md`
+- `docs/plans/2026-11-04-M11-移动端体验收尾-design.md`
+- `docs/releases/2026-11-04-v0.11.0-m11.md`
+- `docs/conversations/2026-11-04-M11启动与移动端体验收尾方案.md`
+
+---
+
 ## [v0.10.0-m10] - 2026-11-04
 
 ### Added
