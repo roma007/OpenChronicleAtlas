@@ -57,6 +57,10 @@
     {
       "source": "/atlas/:path*",
       "destination": "/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/index.html"
     }
   ]
 }

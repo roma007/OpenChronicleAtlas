@@ -15,3 +15,5 @@ interface Window {
   _AMapSecurityConfig?: { securityJsCode: string };
   AMap?: any;
 }
+
+declare const __APP_VERSION__: string;

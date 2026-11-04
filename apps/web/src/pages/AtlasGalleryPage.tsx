@@ -106,6 +106,13 @@ export function AtlasGalleryPage() {
           className="underline decoration-ink/20 underline-offset-2 hover:text-cinnabar"
         >
           {t('privacy.link')}
+        </Link>{' '}
+        ·{' '}
+        <Link
+          to="/about"
+          className="underline decoration-ink/20 underline-offset-2 hover:text-cinnabar"
+        >
+          {t('about.link')}
         </Link>
       </footer>
     </div>

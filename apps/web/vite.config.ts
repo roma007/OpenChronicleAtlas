@@ -7,6 +7,9 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 const rootDir = path.dirname(fileURLToPath(import.meta.url));
 const dataDir = path.resolve(rootDir, '../../data');
+const pkg = JSON.parse(
+  fs.readFileSync(path.resolve(rootDir, '../../package.json'), 'utf8'),
+) as { version: string };
 
 const MIME: Record<string, string> = {
   '.json': 'application/json; charset=utf-8',
@@ -54,7 +57,7 @@ export default defineConfig({
     react(),
     atlasDataPlugin(),
     VitePWA({
-      registerType: 'autoUpdate',
+      registerType: 'prompt',
       injectRegister: 'auto',
       manifest: {
         name: '史迹 · 时空地图',
@@ -82,8 +85,6 @@ export default defineConfig({
         navigateFallback: '/index.html',
         navigateFallbackDenylist: [/^\/data\//, /^\/api\//],
         cleanupOutdatedCaches: true,
-        clientsClaim: true,
-        skipWaiting: true,
         runtimeCaching: [
           {
             urlPattern: /\/data\/atlases\/.*\.(json|geojson)$/,
@@ -152,6 +153,9 @@ export default defineConfig({
       },
     }),
   ],
+  define: {
+    __APP_VERSION__: JSON.stringify(pkg.version),
+  },
   resolve: {
     alias: {
       '@': path.resolve(rootDir, 'src'),
