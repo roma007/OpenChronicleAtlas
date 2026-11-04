@@ -16,6 +16,25 @@
 
 ---
 
+## [v0.17.0-m17] - 2026-11-05
+
+### Added
+- 共享 `neighborEvents` 事件前后邻居计算与单测。
+- Web 详情「上一事件 / 下一事件」与 Alt+← / Alt+→ 快捷键。
+- 移动端详情上一/下一事件导航。
+- 导航按当前筛选与图层集合计算，首尾禁用。
+
+### Changed
+- 四包版本统一为 `0.17.0`；Android `versionCode` 升为 14。
+
+### Docs
+- `docs/plans/2026-11-05-M17-事件前后导航-plan.md`
+- `docs/plans/2026-11-05-M17-事件前后导航-design.md`
+- `docs/releases/2026-11-05-v0.17.0-m17.md`
+- `docs/conversations/2026-11-05-M17启动与事件前后导航方案.md`
+
+---
+
 ## [v0.16.0-m16] - 2026-11-05
 
 ### Added
