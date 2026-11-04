@@ -17,39 +17,21 @@
           [
             109.22,
             13.77
-          ],
-          [
-            102.25,
-            2.2
-          ],
-          [
-            79.86,
-            6.93
-          ],
-          [
-            75.78,
-            11.25
-          ],
-          [
-            56.46,
-            27.1
-          ],
-          [
-            40.12,
-            -3.22
           ]
         ]
       },
       "properties": {
         "entityId": "ming-fleet",
         "startDate": "1405-07-11",
-        "endDate": "1407-10-02",
+        "endDate": "1405-10-01",
         "order": 1,
         "name": {
-          "zh": "第一次下西洋"
+          "zh": "太仓—占城",
+          "en": "Taicang–Champa"
         },
         "description": {
-          "zh": "示意简化航线，待史料校订。"
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
         }
       }
     },
@@ -59,45 +41,31 @@
         "type": "LineString",
         "coordinates": [
           [
-            121.1,
-            31.45
-          ],
-          [
-            118.6,
-            24.9
-          ],
-          [
             109.22,
             13.77
           ],
           [
+            104.5,
+            10.5
+          ],
+          [
             102.25,
             2.2
-          ],
-          [
-            79.86,
-            6.93
-          ],
-          [
-            75.78,
-            11.25
-          ],
-          [
-            56.46,
-            27.1
           ]
         ]
       },
       "properties": {
         "entityId": "ming-fleet",
-        "startDate": "1407-10-03",
-        "endDate": "1409-08-15",
+        "startDate": "1405-10-02",
+        "endDate": "1406-01-15",
         "order": 2,
         "name": {
-          "zh": "第二次下西洋"
+          "zh": "占城—满剌加",
+          "en": "Champa–Malacca"
         },
         "description": {
-          "zh": "示意简化航线，待史料校订。"
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
         }
       }
     },
@@ -107,45 +75,267 @@
         "type": "LineString",
         "coordinates": [
           [
-            121.1,
-            31.45
-          ],
-          [
-            118.6,
-            24.9
-          ],
-          [
-            109.22,
-            13.77
-          ],
-          [
             102.25,
             2.2
           ],
           [
+            97.15,
+            5.18
+          ],
+          [
             79.86,
             6.93
-          ],
-          [
-            75.78,
-            11.25
-          ],
-          [
-            56.46,
-            27.1
           ]
         ]
       },
       "properties": {
         "entityId": "ming-fleet",
-        "startDate": "1409-10-01",
-        "endDate": "1411-07-06",
+        "startDate": "1406-01-16",
+        "endDate": "1406-06-01",
         "order": 3,
         "name": {
-          "zh": "第三次下西洋"
+          "zh": "满剌加—锡兰山",
+          "en": "Malacca–Ceylon"
         },
         "description": {
-          "zh": "示意简化航线，待史料校订。"
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.86,
+            6.93
+          ],
+          [
+            75.78,
+            11.25
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-fleet",
+        "startDate": "1406-06-02",
+        "endDate": "1406-12-01",
+        "order": 4,
+        "name": {
+          "zh": "锡兰山—古里",
+          "en": "Ceylon–Calicut"
+        },
+        "description": {
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.78,
+            11.25
+          ],
+          [
+            79.86,
+            6.93
+          ],
+          [
+            102.25,
+            2.2
+          ],
+          [
+            109.22,
+            13.77
+          ],
+          [
+            118.6,
+            24.9
+          ],
+          [
+            121.1,
+            31.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-fleet",
+        "startDate": "1406-12-02",
+        "endDate": "1407-10-02",
+        "order": 5,
+        "name": {
+          "zh": "古里—太仓（第一次返航）",
+          "en": "Calicut–Taicang (first return)"
+        },
+        "description": {
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.1,
+            31.45
+          ],
+          [
+            118.6,
+            24.9
+          ],
+          [
+            109.22,
+            13.77
+          ],
+          [
+            102.25,
+            2.2
+          ],
+          [
+            79.86,
+            6.93
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-fleet",
+        "startDate": "1408-10-01",
+        "endDate": "1409-02-01",
+        "order": 6,
+        "name": {
+          "zh": "太仓—锡兰山（第二次去程）",
+          "en": "Taicang–Ceylon (second outbound)"
+        },
+        "description": {
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.86,
+            6.93
+          ],
+          [
+            102.25,
+            2.2
+          ],
+          [
+            109.22,
+            13.77
+          ],
+          [
+            118.6,
+            24.9
+          ],
+          [
+            121.1,
+            31.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-fleet",
+        "startDate": "1409-02-02",
+        "endDate": "1409-08-15",
+        "order": 7,
+        "name": {
+          "zh": "锡兰山—太仓（第二次返航）",
+          "en": "Ceylon–Taicang (second return)"
+        },
+        "description": {
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.1,
+            31.45
+          ],
+          [
+            118.6,
+            24.9
+          ],
+          [
+            109.22,
+            13.77
+          ],
+          [
+            102.25,
+            2.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-fleet",
+        "startDate": "1410-01-01",
+        "endDate": "1410-06-01",
+        "order": 8,
+        "name": {
+          "zh": "太仓—满剌加（第三次去程）",
+          "en": "Taicang–Malacca (third outbound)"
+        },
+        "description": {
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.25,
+            2.2
+          ],
+          [
+            109.22,
+            13.77
+          ],
+          [
+            118.6,
+            24.9
+          ],
+          [
+            121.1,
+            31.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-fleet",
+        "startDate": "1410-06-02",
+        "endDate": "1411-07-06",
+        "order": 9,
+        "name": {
+          "zh": "满剌加—太仓（第三次返航）",
+          "en": "Malacca–Taicang (third return)"
+        },
+        "description": {
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
         }
       }
     },
@@ -181,23 +371,113 @@
           [
             56.46,
             27.1
-          ],
-          [
-            40.12,
-            -3.22
           ]
         ]
       },
       "properties": {
         "entityId": "ming-fleet",
         "startDate": "1413-12-01",
-        "endDate": "1415-08-12",
-        "order": 4,
+        "endDate": "1414-05-01",
+        "order": 10,
         "name": {
-          "zh": "第四次下西洋"
+          "zh": "太仓—忽鲁谟斯（第四次去程）",
+          "en": "Taicang–Hormuz (fourth outbound)"
         },
         "description": {
-          "zh": "示意简化航线，待史料校订。"
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            56.46,
+            27.1
+          ],
+          [
+            45.03,
+            12.79
+          ],
+          [
+            40.12,
+            -3.22
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-fleet",
+        "startDate": "1414-05-02",
+        "endDate": "1415-01-01",
+        "order": 11,
+        "name": {
+          "zh": "忽鲁谟斯—麻林地",
+          "en": "Hormuz–Malindi"
+        },
+        "description": {
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            40.12,
+            -3.22
+          ],
+          [
+            45.03,
+            12.79
+          ],
+          [
+            56.46,
+            27.1
+          ],
+          [
+            75.78,
+            11.25
+          ],
+          [
+            79.86,
+            6.93
+          ],
+          [
+            102.25,
+            2.2
+          ],
+          [
+            109.22,
+            13.77
+          ],
+          [
+            118.6,
+            24.9
+          ],
+          [
+            121.1,
+            31.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-fleet",
+        "startDate": "1415-01-02",
+        "endDate": "1415-08-12",
+        "order": 12,
+        "name": {
+          "zh": "麻林地—太仓（第四次返航）",
+          "en": "Malindi–Taicang (fourth return)"
+        },
+        "description": {
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
         }
       }
     },
@@ -235,21 +515,77 @@
             27.1
           ],
           [
-            40.12,
-            -3.22
+            45.03,
+            12.79
           ]
         ]
       },
       "properties": {
         "entityId": "ming-fleet",
         "startDate": "1417-12-01",
-        "endDate": "1419-08-15",
-        "order": 5,
+        "endDate": "1418-06-01",
+        "order": 13,
         "name": {
-          "zh": "第五次下西洋"
+          "zh": "太仓—阿丹（第五次去程）",
+          "en": "Taicang–Aden (fifth outbound)"
         },
         "description": {
-          "zh": "示意简化航线，待史料校订。"
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            45.03,
+            12.79
+          ],
+          [
+            56.46,
+            27.1
+          ],
+          [
+            75.78,
+            11.25
+          ],
+          [
+            79.86,
+            6.93
+          ],
+          [
+            102.25,
+            2.2
+          ],
+          [
+            109.22,
+            13.77
+          ],
+          [
+            118.6,
+            24.9
+          ],
+          [
+            121.1,
+            31.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-fleet",
+        "startDate": "1418-06-02",
+        "endDate": "1419-08-15",
+        "order": 14,
+        "name": {
+          "zh": "阿丹—太仓（第五次返航）",
+          "en": "Aden–Taicang (fifth return)"
+        },
+        "description": {
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
         }
       }
     },
@@ -273,31 +609,59 @@
           [
             102.25,
             2.2
-          ],
-          [
-            79.86,
-            6.93
-          ],
-          [
-            75.78,
-            11.25
-          ],
-          [
-            56.46,
-            27.1
           ]
         ]
       },
       "properties": {
         "entityId": "ming-fleet",
         "startDate": "1421-03-01",
-        "endDate": "1422-09-03",
-        "order": 6,
+        "endDate": "1421-11-01",
+        "order": 15,
         "name": {
-          "zh": "第六次下西洋"
+          "zh": "太仓—满剌加（第六次去程）",
+          "en": "Taicang–Malacca (sixth outbound)"
         },
         "description": {
-          "zh": "示意简化航线，待史料校订。"
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.25,
+            2.2
+          ],
+          [
+            109.22,
+            13.77
+          ],
+          [
+            118.6,
+            24.9
+          ],
+          [
+            121.1,
+            31.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-fleet",
+        "startDate": "1421-11-02",
+        "endDate": "1422-09-03",
+        "order": 16,
+        "name": {
+          "zh": "满剌加—太仓（第六次返航）",
+          "en": "Malacca–Taicang (sixth return)"
+        },
+        "description": {
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
         }
       }
     },
@@ -329,27 +693,67 @@
           [
             75.78,
             11.25
-          ],
-          [
-            56.46,
-            27.1
-          ],
-          [
-            40.12,
-            -3.22
           ]
         ]
       },
       "properties": {
         "entityId": "ming-fleet",
         "startDate": "1431-01-01",
-        "endDate": "1433-07-22",
-        "order": 7,
+        "endDate": "1433-04-01",
+        "order": 17,
         "name": {
-          "zh": "第七次下西洋"
+          "zh": "太仓—古里（第七次去程）",
+          "en": "Taicang–Calicut (seventh outbound)"
         },
         "description": {
-          "zh": "示意简化航线，待史料校订。"
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.78,
+            11.25
+          ],
+          [
+            79.86,
+            6.93
+          ],
+          [
+            102.25,
+            2.2
+          ],
+          [
+            109.22,
+            13.77
+          ],
+          [
+            118.6,
+            24.9
+          ],
+          [
+            121.1,
+            31.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-fleet",
+        "startDate": "1433-04-02",
+        "endDate": "1433-07-22",
+        "order": 18,
+        "name": {
+          "zh": "古里—太仓（第七次返航）",
+          "en": "Calicut–Taicang (seventh return)"
+        },
+        "description": {
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
         }
       }
     },
@@ -374,14 +778,50 @@
       },
       "properties": {
         "entityId": "detached-squadron",
-        "startDate": "1417-12-01",
-        "endDate": "1419-08-15",
+        "startDate": "1421-03-01",
+        "endDate": "1421-11-01",
         "order": 1,
         "name": {
-          "zh": "分䑸访问榜葛剌（示意）"
+          "zh": "满剌加—榜葛剌（分䑸）",
+          "en": "Malacca–Bengal (detachment)"
         },
         "description": {
-          "zh": "示意简化航线，待史料校订。"
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            90.4,
+            23.8
+          ],
+          [
+            97.15,
+            5.18
+          ],
+          [
+            102.25,
+            2.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "detached-squadron",
+        "startDate": "1421-11-02",
+        "endDate": "1422-09-03",
+        "order": 2,
+        "name": {
+          "zh": "榜葛剌—满剌加（分䑸返航）",
+          "en": "Bengal–Malacca (detachment return)"
+        },
+        "description": {
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
         }
       }
     }

@@ -916,7 +916,6 @@
       }
     },
     "entityIds": [
-      "ming-fleet",
       "detached-squadron"
     ],
     "category": "外交",
@@ -1033,7 +1032,10 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "depart-1431-01",
