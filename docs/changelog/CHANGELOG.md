@@ -16,6 +16,29 @@
 
 ---
 
+## [v0.12.0-m12] - 2026-11-04
+
+### Added
+- 分享链接保存语言（`lang`）、图层（`entities`）、类型（`categories`）与时间段（`from`/`to`）。
+- Web 打开分享链接后恢复语言、图层、筛选与时间点。
+- 移动端深链复用 `decodeShareState` 并恢复分享状态。
+- 两端 store 新增 `setActiveEntities`。
+
+### Changed
+- 四包版本统一为 `0.12.0`；Android `versionCode` 升为 9。
+- 旧分享链接保持兼容。
+
+### Fixed
+- 修复分享链接打开后语言、图层与筛选丢失的问题。
+
+### Docs
+- `docs/plans/2026-11-04-M12-分享链接增强-plan.md`
+- `docs/plans/2026-11-04-M12-分享链接增强-design.md`
+- `docs/releases/2026-11-04-v0.12.0-m12.md`
+- `docs/conversations/2026-11-04-M12启动与分享链接增强方案.md`
+
+---
+
 ## [v0.11.0-m11] - 2026-11-04
 
 ### Added
