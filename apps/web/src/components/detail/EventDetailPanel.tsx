@@ -1,11 +1,15 @@
 import {
+  applyEventFilters,
   categoryLabel,
+  eventStart,
   formatDate,
+  type AtlasEvent,
+  neighborEvents,
   parseDateString,
   resolveLocalized,
   toDateString,
 } from '@atlas/shared';
-import { lazy, Suspense, useEffect, useRef } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useRef } from 'react';
 import { dataUrl } from '../../data/client';
 import { useShare } from '../../hooks/useShare';
 import { useAtlasStore } from '../../stores/useAtlasStore';
@@ -19,6 +23,8 @@ export function EventDetailPanel() {
   const dataset = useAtlasStore((state) => state.dataset);
   const selectedEventId = useAtlasStore((state) => state.selectedEventId);
   const selectEvent = useAtlasStore((state) => state.selectEvent);
+  const pause = useAtlasStore((state) => state.pause);
+  const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const currentTime = useAtlasStore((state) => state.currentTime);
   const mapView = useAtlasStore((state) => state.mapView);
   const activeEntityIds = useAtlasStore((state) => state.activeEntityIds);
@@ -30,6 +36,27 @@ export function EventDetailPanel() {
 
   const event =
     selectedEventId && dataset ? dataset.eventsById.get(selectedEventId) : undefined;
+
+  const filtered = dataset
+    ? applyEventFilters(dataset.events, filters).filter((item) =>
+        item.entityIds.some((id) => activeEntityIds.has(id)),
+      )
+    : [];
+  const pool =
+    event && filtered.some((item) => item.id === event.id)
+      ? filtered
+      : (dataset?.events ?? []);
+  const neighbors = event ? neighborEvents(pool, event.id) : {};
+
+  const goToEvent = useCallback(
+    (target?: AtlasEvent) => {
+      if (!target) return;
+      pause();
+      setCurrentTime(eventStart(target));
+      selectEvent(target.id);
+    },
+    [pause, setCurrentTime, selectEvent],
+  );
 
   useEffect(() => {
     if (!event) return;
@@ -49,6 +76,22 @@ export function EventDetailPanel() {
       if (previous && document.contains(previous)) previous.focus();
     };
   }, [event, selectEvent]);
+
+  useEffect(() => {
+    if (!event) return;
+    const onKeyDown = (keyboardEvent: KeyboardEvent) => {
+      if (keyboardEvent.altKey && keyboardEvent.key === 'ArrowLeft') {
+        keyboardEvent.preventDefault();
+        goToEvent(neighbors.previous);
+      }
+      if (keyboardEvent.altKey && keyboardEvent.key === 'ArrowRight') {
+        keyboardEvent.preventDefault();
+        goToEvent(neighbors.next);
+      }
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [event, neighbors.previous, neighbors.next, goToEvent]);
 
   if (!event || !dataset) return null;
 
@@ -208,6 +251,35 @@ export function EventDetailPanel() {
           </div>
         </div>
       ) : null}
+
+      <div className="mt-5 flex items-center justify-between gap-2 border-t border-ink/10 pt-4">
+        <button
+          type="button"
+          disabled={!neighbors.previous}
+          onClick={() => goToEvent(neighbors.previous)}
+          title={
+            neighbors.previous
+              ? `${t('event.previous')}: ${resolveLocalized(neighbors.previous.name, locale)} (Alt+←)`
+              : undefined
+          }
+          className="rounded-full border border-ink/10 px-3 py-1 text-xs text-ink-soft transition enabled:hover:border-cinnabar/40 enabled:hover:text-cinnabar disabled:opacity-35"
+        >
+          ← {t('event.previous')}
+        </button>
+        <button
+          type="button"
+          disabled={!neighbors.next}
+          onClick={() => goToEvent(neighbors.next)}
+          title={
+            neighbors.next
+              ? `${t('event.next')}: ${resolveLocalized(neighbors.next.name, locale)} (Alt+→)`
+              : undefined
+          }
+          className="rounded-full border border-ink/10 px-3 py-1 text-xs text-ink-soft transition enabled:hover:border-cinnabar/40 enabled:hover:text-cinnabar disabled:opacity-35"
+        >
+          {t('event.next')} →
+        </button>
+      </div>
 
       {event.sources && event.sources.length > 0 ? (
         <div className="mt-5 border-t border-ink/10 pt-4">

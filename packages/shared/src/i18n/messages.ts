@@ -105,6 +105,8 @@ const zh = {
   'detail.title': '事件详情',
   'detail.close': '关闭详情',
   'detail.rendering': '正在渲染详情…',
+  'event.previous': '上一事件',
+  'event.next': '下一事件',
 
   'map.title': '历史专题地图',
   'map.errorTitle': '地图加载失败',
@@ -264,6 +266,8 @@ const en: Record<keyof typeof zh, string> = {
   'detail.title': 'Event details',
   'detail.close': 'Close details',
   'detail.rendering': 'Rendering details…',
+  'event.previous': 'Previous event',
+  'event.next': 'Next event',
 
   'map.title': 'Historical atlas map',
   'map.errorTitle': 'Failed to load map',

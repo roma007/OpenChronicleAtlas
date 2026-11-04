@@ -1,6 +1,9 @@
 import {
+  applyEventFilters,
   categoryLabel,
+  eventStart,
   formatDate,
+  neighborEvents,
   parseDateString,
   resolveLocalized,
   toDateString,
@@ -18,6 +21,8 @@ export function EventSheet() {
   const dataset = useAtlasStore((state) => state.dataset);
   const selectedEventId = useAtlasStore((state) => state.selectedEventId);
   const selectEvent = useAtlasStore((state) => state.selectEvent);
+  const pause = useAtlasStore((state) => state.pause);
+  const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const currentTime = useAtlasStore((state) => state.currentTime);
   const mapView = useAtlasStore((state) => state.mapView);
   const activeEntityIds = useAtlasStore((state) => state.activeEntityIds);
@@ -28,6 +33,19 @@ export function EventSheet() {
     selectedEventId && dataset ? dataset.eventsById.get(selectedEventId) : undefined;
 
   if (!event || !dataset) return null;
+
+  const filtered = applyEventFilters(dataset.events, filters).filter((item) =>
+    item.entityIds.some((id) => activeEntityIds.has(id)),
+  );
+  const pool = filtered.some((item) => item.id === event.id) ? filtered : dataset.events;
+  const neighbors = neighborEvents(pool, event.id);
+
+  const goToEvent = (target: typeof neighbors.previous) => {
+    if (!target) return;
+    pause();
+    setCurrentTime(eventStart(target));
+    selectEvent(target.id);
+  };
 
   const dateText = event.endDate
     ? `${formatDate(parseDateString(event.date), dateLocale)} — ${formatDate(
@@ -148,6 +166,27 @@ export function EventSheet() {
               ))}
             </View>
           ) : null}
+
+          <View style={styles.navRow}>
+            <Pressable
+              style={[styles.navButton, !neighbors.previous && styles.navButtonDisabled]}
+              disabled={!neighbors.previous}
+              onPress={() => goToEvent(neighbors.previous)}
+              accessibilityRole="button"
+              accessibilityLabel={t('event.previous')}
+            >
+              <Text style={styles.navText}>← {t('event.previous')}</Text>
+            </Pressable>
+            <Pressable
+              style={[styles.navButton, !neighbors.next && styles.navButtonDisabled]}
+              disabled={!neighbors.next}
+              onPress={() => goToEvent(neighbors.next)}
+              accessibilityRole="button"
+              accessibilityLabel={t('event.next')}
+            >
+              <Text style={styles.navText}>{t('event.next')} →</Text>
+            </Pressable>
+          </View>
         </ScrollView>
       </SafeAreaView>
     </Modal>
@@ -223,4 +262,22 @@ const styles = StyleSheet.create({
   },
   relatedText: { fontSize: 12, color: colors.inkSoft },
   source: { fontSize: 11, lineHeight: 18, color: colors.inkSoft, marginTop: 6 },
+  navRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    gap: spacing.sm,
+    marginTop: spacing.lg,
+    paddingTop: spacing.md,
+    borderTopWidth: 1,
+    borderTopColor: colors.ink + '14',
+  },
+  navButton: {
+    borderWidth: 1,
+    borderColor: colors.ink + '18',
+    borderRadius: radii.pill,
+    paddingHorizontal: 14,
+    paddingVertical: 7,
+  },
+  navButtonDisabled: { opacity: 0.35 },
+  navText: { fontSize: 12, color: colors.inkSoft },
 });

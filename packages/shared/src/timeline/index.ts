@@ -6,3 +6,4 @@ export * from './events';
 export * from './playback';
 export * from './viewport';
 export * from './markers';
+export * from './neighbors';
