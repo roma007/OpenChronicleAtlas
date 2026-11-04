@@ -84,6 +84,7 @@ docs/
 
 ### 配置指南
 - [高德地图 Key 与签名配置](guides/amap-setup.md)
+- [部署指南（Vercel / Cloudflare）](guides/deployment.md)
 
 ### 数据契约
 - [Atlas Schema v1.0.0](schema/atlas-schema-v1.0.0.md)
@@ -93,3 +94,5 @@ docs/
 - [v0.2.0-m2（M2）](releases/2026-11-03-v0.2.0-m2.md)
 - [v0.3.0-m3（M3）](releases/2026-11-03-v0.3.0-m3.md)
 - [v0.4.0-m4（M4）](releases/2026-11-04-v0.4.0-m4.md)
+- [v0.5.0-m5（M5）](releases/2026-11-04-v0.5.0-m5.md)
+- [商店上架元数据（草稿）](releases/store-metadata.md)

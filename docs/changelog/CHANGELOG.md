@@ -6,13 +6,37 @@
 ## [Unreleased]
 
 ### Added
-- M5 方案：第二专题（郑和下西洋）、图标/启动图、隐私政策、Vercel/Cloudflare 部署；新增 plan/design/ADR-0008（待确认后实施）。
+- 无。
 
 ### Changed
 - 无。
 
 ### Fixed
 - 无。
+
+---
+
+## [v0.5.0-m5] - 2026-11-04
+
+### Added
+- 第二专题「郑和下西洋」：3 实体 / 8 段航线 / 26 事件 / 封面。
+- 多专题首页与跨专题搜索验证。
+- Web `/privacy` 隐私政策页与页脚入口。
+- 应用图标、Android 自适应图标、启动图、favicon。
+- `vercel.json`、`wrangler.toml`、部署指南与商店元数据草稿。
+- 移动端 0.5.0 / versionCode 2，Android APK 重建。
+
+### Changed
+- 首页页脚更新为 M5 示例数据。
+- 移动端隐私同意页支持 `EXPO_PUBLIC_PRIVACY_URL`。
+
+### Docs
+- `docs/plans/2026-11-04-M5-第二专题与上架部署-plan.md`
+- `docs/plans/2026-11-04-M5-第二专题与上架部署-design.md`
+- `docs/decisions/ADR-0008-静态部署与资源托管方案.md`
+- `docs/guides/deployment.md`
+- `docs/releases/store-metadata.md`
+- `docs/releases/2026-11-04-v0.5.0-m5.md`
 
 ---
 
