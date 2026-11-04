@@ -16,6 +16,31 @@
 
 ---
 
+## [v0.7.0-m7] - 2026-11-04
+
+### Added
+- Web / 移动端中英文切换，Web 语言持久化到 `localStorage`。
+- 共享 i18n 模块：`locale`、`messages`、`categories`、`tags`。
+- 54 个事件的英文名称、摘要、描述与地点。
+- 郑和专题英文标题、副标题、描述与实体名称/描述。
+- 英文日期格式、英文分类名、英文专题标签。
+- 英文检索：分类字段同时索引中英文。
+
+### Changed
+- 四包版本统一为 `0.7.0`；Android `versionCode` 升为 4。
+- 专题索引 `index.json` 同步英文标题与副标题。
+
+### Fixed
+- 修复专题卡片只读取中文标题、英文切换后仍显示中文的问题。
+
+### Docs
+- `docs/plans/2026-11-04-M7-中英双语-plan.md`
+- `docs/plans/2026-11-04-M7-中英双语-design.md`
+- `docs/releases/2026-11-04-v0.7.0-m7.md`
+- `docs/conversations/2026-11-04-M7启动与中英双语方案.md`
+
+---
+
 ## [v0.6.0-m6] - 2026-11-04
 
 ### Added
