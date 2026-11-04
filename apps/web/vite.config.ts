@@ -157,6 +157,16 @@ export default defineConfig({
       '@': path.resolve(rootDir, 'src'),
     },
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('pinyin-pro')) return 'pinyin';
+          return undefined;
+        },
+      },
+    },
+  },
   server: {
     port: 5173,
   },

@@ -1,6 +1,7 @@
 import type { AtlasDataset, LocalizedString } from '../types';
 import { resolveLocalized } from '../i18n/localized';
 import { categorySearchText } from '../i18n/categories';
+import { pinyin } from 'pinyin-pro';
 import type { SearchEntry, SearchIndex } from './types';
 
 /** 索引时把所有语言变体拼在一起，保证中英文都能搜到 */
@@ -29,6 +30,27 @@ export function stripMarkdown(value: string): string {
     .trim();
 }
 
+function toSyllables(text: string): string[] {
+  const cjk = text.match(/[\u4e00-\u9fff]+/g);
+  if (!cjk) return [];
+  return pinyin(cjk.join(' '), { toneType: 'none', type: 'array' });
+}
+
+/** 全拼：空格形式 + 连写形式，支持 zun yi / zunyi 两种输入 */
+function toPinyin(text: string): string {
+  const syllables = toSyllables(text);
+  if (syllables.length === 0) return '';
+  return normalizeText(`${syllables.join(' ')} ${syllables.join('')}`);
+}
+
+/** 首字母只取事件名，降低短查询的误命中 */
+function toInitials(text: string): string {
+  const syllables = toSyllables(text);
+  if (syllables.length === 0) return '';
+  const initials = syllables.map((syllable) => syllable[0] ?? '').join('');
+  return normalizeText(`${initials} ${syllables.map((syllable) => syllable[0] ?? '').join(' ')}`);
+}
+
 export function buildSearchIndex(datasets: AtlasDataset[], locale = 'zh'): SearchIndex {
   const entries: SearchEntry[] = [];
 
@@ -42,18 +64,31 @@ export function buildSearchIndex(datasets: AtlasDataset[], locale = 'zh'): Searc
         .map((entity) => allLocalized(entity.name))
         .join(' ');
 
+      const name = allLocalized(event.name);
+      const place = allLocalized(event.location.place);
+      const summary = allLocalized(event.summary);
+      const description = stripMarkdown(allLocalized(event.description));
+      const category = categorySearchText(event.category);
+
+      const pinyinText = toPinyin(
+        [name, place, summary, description, category, entities].join(' '),
+      );
+      const initials = toInitials(name);
+
       entries.push({
         atlasId: dataset.manifest.id,
         atlasTitle,
         event,
         fields: {
-          name: allLocalized(event.name),
-          place: allLocalized(event.location.place),
-          summary: allLocalized(event.summary),
-          description: stripMarkdown(allLocalized(event.description)),
-          category: categorySearchText(event.category),
+          name,
+          place,
+          summary,
+          description,
+          category,
           entities,
           date: event.date,
+          pinyin: pinyinText,
+          initials,
         },
       });
     }

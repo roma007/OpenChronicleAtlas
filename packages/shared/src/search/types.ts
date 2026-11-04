@@ -12,6 +12,8 @@ export interface SearchEntry {
     category: string;
     entities: string;
     date: string;
+    pinyin: string;
+    initials: string;
   };
 }
 

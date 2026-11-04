@@ -91,6 +91,27 @@ describe('searchEvents', () => {
     expect(searchEvents('Key meeting', index)[0]?.event.id).toBe('zunyi-1935-01');
   });
 
+  it('按全拼搜索', () => {
+    const hits = searchEvents('xiangjiang', index);
+    expect(hits[0]?.event.id).toBe('xiangjiang-1934-11');
+    expect(hits[0]?.field).toBe('pinyin');
+  });
+
+  it('按首字母搜索', () => {
+    const hits = searchEvents('zy', index);
+    expect(hits.some((hit) => hit.event.id === 'zunyi-1935-01')).toBe(true);
+  });
+
+  it('按全拼词组搜索', () => {
+    const hits = searchEvents('zunyi huiyi', index);
+    expect(hits[0]?.event.id).toBe('zunyi-1935-01');
+  });
+
+  it('原文匹配优先于拼音', () => {
+    const hits = searchEvents('遵义', index);
+    expect(hits[0]?.field).toBe('name');
+  });
+
   it('英文不区分大小写', () => {
     const hits = searchEvents('zunyi', index);
     expect(hits[0]?.event.id).toBe('zunyi-1935-01');

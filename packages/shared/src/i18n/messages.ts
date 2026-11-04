@@ -43,7 +43,7 @@ const zh = {
 
   'search.title': '检索',
   'search.subtitle': '按事件名、地名、类型或日期查找，点击结果直接跳到对应时间点。',
-  'search.placeholder': '例如：遵义、贵州、1935',
+  'search.placeholder': '例如：遵义、zunyi、1935',
   'search.allAtlases': '全部专题',
   'search.result': '找到 {count} 条结果',
   'search.results': '找到 {count} 条结果',
@@ -52,7 +52,7 @@ const zh = {
   'search.emptyTitle': '没有找到匹配事件',
   'search.emptyBody': '试试更短的关键词，或切换到「全部专题」。',
   'search.clear': '清空搜索',
-  'search.note': '检索为子串匹配，暂不支持拼音与分词。',
+  'search.note': '检索支持中文、拼音、首字母与英文子串匹配；暂不支持分词与纠错。',
   'search.errorTitle': '搜索数据加载失败',
   'search.atlasFilter': '按专题筛选',
 
@@ -174,7 +174,7 @@ const en: Record<keyof typeof zh, string> = {
   'search.title': 'Search',
   'search.subtitle':
     'Find events by name, place, category, or date. Click a result to jump to that point in time.',
-  'search.placeholder': 'e.g. Zunyi, Guizhou, 1935',
+  'search.placeholder': 'e.g. Zunyi, zunyi, 1935',
   'search.allAtlases': 'All atlases',
   'search.result': '{count} result',
   'search.results': '{count} results',
@@ -184,7 +184,8 @@ const en: Record<keyof typeof zh, string> = {
   'search.emptyTitle': 'No matching events',
   'search.emptyBody': 'Try a shorter keyword, or switch to “All atlases”.',
   'search.clear': 'Clear search',
-  'search.note': 'Search uses substring matching; pinyin and word segmentation are not yet supported.',
+  'search.note':
+    'Search supports Chinese, pinyin, initials, and English substring matching; word segmentation and spell correction are not yet supported.',
   'search.errorTitle': 'Failed to load search data',
   'search.atlasFilter': 'Filter by atlas',
 

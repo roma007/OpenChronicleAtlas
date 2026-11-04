@@ -10,6 +10,8 @@ const FIELD_BASE: Record<keyof SearchEntry['fields'], number> = {
   summary: 25,
   date: 20,
   description: 15,
+  pinyin: 18,
+  initials: 10,
 };
 
 interface Match {
@@ -23,11 +25,19 @@ function matchField(
   query: string,
 ): Match | null {
   if (!text) return null;
-  const normalized = normalizeText(text);
-  if (!normalized.includes(query)) return null;
+  const isPinyin = field === 'pinyin';
+  const isInitials = field === 'initials';
+  const normalized =
+    isPinyin || isInitials
+      ? normalizeText(text).replace(/\s+/g, '')
+      : normalizeText(text);
+  const needle = isPinyin || isInitials ? query.replace(/\s+/g, '') : query;
+  if (isInitials ? !normalized.startsWith(needle) : !normalized.includes(needle)) {
+    return null;
+  }
 
   const base = FIELD_BASE[field];
-  const score = normalized === query ? base + 20 : base;
+  const score = normalized === needle ? base + 20 : base;
   return { score, field };
 }
 
@@ -80,7 +90,12 @@ export function searchEvents(
       event: entry.event,
       score: match.score,
       field: match.field,
-      snippet: makeSnippet(entry.fields[match.field], normalized),
+      snippet: makeSnippet(
+        match.field === 'pinyin' || match.field === 'initials'
+          ? entry.fields.name || entry.fields.summary
+          : entry.fields[match.field],
+        normalized,
+      ),
     });
   }
 
