@@ -16,6 +16,26 @@
 
 ---
 
+## [v0.16.0-m16] - 2026-11-05
+
+### Added
+- Web Skip Link「跳到主要内容」与各页面主内容 landmark。
+- 事件详情打开时焦点进入、关闭后恢复。
+- 时间轴当前事件 `aria-live="polite"` 与事件点 `aria-current`。
+- 移动端专题卡片/时间轴事件点可访问标签。
+- PWA 更新提示 `role="status"`。
+
+### Changed
+- 四包版本统一为 `0.16.0`；Android `versionCode` 升为 13。
+
+### Docs
+- `docs/plans/2026-11-05-M16-无障碍键盘体验-plan.md`
+- `docs/plans/2026-11-05-M16-无障碍键盘体验-design.md`
+- `docs/releases/2026-11-05-v0.16.0-m16.md`
+- `docs/conversations/2026-11-05-M16启动与无障碍键盘体验方案.md`
+
+---
+
 ## [v0.15.0-m15] - 2026-11-05
 
 ### Added
