@@ -16,6 +16,30 @@
 
 ---
 
+## [v0.8.0-m8] - 2026-11-04
+
+### Added
+- Web PWA 离线支持：应用壳预缓存、专题数据/封面/地图瓦片运行时缓存。
+- Web 离线提示 `OfflineBanner` 与 `useOnlineStatus`。
+- PWA manifest 与 192/512/1024 图标。
+- 移动端 `CachedHttpDataSource`：AsyncStorage 缓存专题数据，断网回退。
+- `@react-native-async-storage/async-storage@2.2.0` 依赖。
+
+### Changed
+- 四包版本统一为 `0.8.0`；Android `versionCode` 升为 5。
+- `vercel.json` 为 `sw.js` / `manifest.webmanifest` 增加 no-cache 头。
+
+### Fixed
+- 弱网/断网时专题数据与详情不可用的问题。
+
+### Docs
+- `docs/plans/2026-11-04-M8-离线与弱网体验-plan.md`
+- `docs/plans/2026-11-04-M8-离线与弱网体验-design.md`
+- `docs/releases/2026-11-04-v0.8.0-m8.md`
+- `docs/conversations/2026-11-04-M8启动与离线弱网方案.md`
+
+---
+
 ## [v0.7.0-m7] - 2026-11-04
 
 ### Added
