@@ -24,6 +24,7 @@ import {
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { usePlayback } from '../../hooks/usePlayback';
+import { useI18n } from '../../hooks/useI18n';
 import { useAtlasStore, type PlaybackSpeed } from '../../stores/useAtlasStore';
 import { colors, radii, spacing } from '../../theme';
 
@@ -44,6 +45,7 @@ export function Timeline() {
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
 
   usePlayback();
+  const { locale, t, dateLocale } = useI18n();
 
   const [width, setWidth] = useState(0);
   const widthRef = useRef(0);
@@ -136,16 +138,16 @@ export function Timeline() {
             style={styles.playButton}
             onPress={togglePlay}
             accessibilityRole="button"
-            accessibilityLabel={playing ? '暂停' : '播放'}
+            accessibilityLabel={playing ? t('timeline.pause') : t('timeline.play')}
           >
             <Text style={styles.playIcon}>{playing ? '❚❚' : '▶'}</Text>
           </Pressable>
 
           <View style={styles.main}>
             <View style={styles.labelRow}>
-              <Text style={styles.dateLabel}>{formatDate(currentTime, 'zh-CN')}</Text>
+              <Text style={styles.dateLabel}>{formatDate(currentTime, dateLocale)}</Text>
               <Text style={styles.eventLabel} numberOfLines={1}>
-                {currentEvent ? resolveLocalized(currentEvent.name) : '拖动时间轴或播放'}
+                {currentEvent ? resolveLocalized(currentEvent.name, locale) : t('timeline.hint')}
               </Text>
             </View>
 
@@ -189,7 +191,7 @@ export function Timeline() {
             }}
             style={styles.dateInput}
             keyboardType="numbers-and-punctuation"
-            accessibilityLabel="跳转到日期"
+            accessibilityLabel={t('timeline.jumpToDate')}
           />
           <View style={styles.zoom}>
             <Pressable
@@ -197,19 +199,19 @@ export function Timeline() {
               disabled={zoomLevel === 0}
               style={[styles.zoomButton, zoomLevel === 0 && styles.zoomButtonDisabled]}
               accessibilityRole="button"
-              accessibilityLabel="缩小时间轴"
+              accessibilityLabel={t('timeline.zoomOut')}
             >
               <Text style={styles.zoomButtonText}>−</Text>
             </Pressable>
             <Text style={styles.zoomLabel}>
-              {zoomLevel === 0 ? '全' : `${2 ** zoomLevel}×`}
+              {zoomLevel === 0 ? t('timeline.zoomAll') : `${2 ** zoomLevel}×`}
             </Text>
             <Pressable
               onPress={() => changeZoom(1)}
               disabled={zoomLevel === 8}
               style={[styles.zoomButton, zoomLevel === 8 && styles.zoomButtonDisabled]}
               accessibilityRole="button"
-              accessibilityLabel="放大时间轴"
+              accessibilityLabel={t('timeline.zoomIn')}
             >
               <Text style={styles.zoomButtonText}>+</Text>
             </Pressable>

@@ -1,10 +1,12 @@
-import { resolveLocalized, type AtlasSummary } from '@atlas/shared';
+import { resolveLocalized, tagLabel, type AtlasSummary } from '@atlas/shared';
 import { Link } from 'react-router-dom';
 import { dataUrl } from '../../data/client';
+import { useI18n } from '../../hooks/useI18n';
 
 export function AtlasCard({ atlas }: { atlas: AtlasSummary }) {
-  const title = resolveLocalized(atlas.title);
-  const subtitle = resolveLocalized(atlas.subtitle);
+  const { locale, t } = useI18n();
+  const title = resolveLocalized(atlas.title, locale);
+  const subtitle = resolveLocalized(atlas.subtitle, locale);
 
   return (
     <Link
@@ -15,7 +17,7 @@ export function AtlasCard({ atlas }: { atlas: AtlasSummary }) {
         {atlas.cover ? (
           <img
             src={dataUrl(atlas.cover)}
-            alt={`${title} 封面`}
+            alt={t('card.coverAlt', { title })}
             loading="lazy"
             className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
           />
@@ -41,13 +43,13 @@ export function AtlasCard({ atlas }: { atlas: AtlasSummary }) {
               key={tag}
               className="rounded-full border border-ink/10 bg-parchment-deep/60 px-2.5 py-1 text-[11px] text-ink-soft"
             >
-              {tag}
+              {tagLabel(tag, locale)}
             </span>
           ))}
         </div>
 
         <span className="text-xs font-medium tracking-widest text-cinnabar">
-          进入专题 <span aria-hidden>→</span>
+          {t('card.enter')} <span aria-hidden>→</span>
         </span>
       </div>
     </Link>

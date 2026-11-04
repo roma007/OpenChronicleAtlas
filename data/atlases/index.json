@@ -4,10 +4,12 @@
     {
       "id": "long-march",
       "title": {
-        "zh": "长征"
+        "zh": "长征",
+        "en": "The Long March"
       },
       "subtitle": {
-        "zh": "1934—1936"
+        "zh": "1934—1936",
+        "en": "1934–1936"
       },
       "cover": "long-march/assets/cover.jpg",
       "timeRange": {
@@ -16,17 +18,20 @@
       },
       "tags": [
         "中国近代史",
-        "军事"
+        "军事",
+        "长征"
       ],
       "path": "long-march/manifest.json"
     },
     {
       "id": "zheng-he",
       "title": {
-        "zh": "郑和下西洋"
+        "zh": "郑和下西洋",
+        "en": "Zheng He’s Voyages"
       },
       "subtitle": {
-        "zh": "1405—1433"
+        "zh": "1405—1433",
+        "en": "1405–1433"
       },
       "cover": "zheng-he/assets/cover.jpg",
       "timeRange": {
@@ -35,7 +40,8 @@
       },
       "tags": [
         "中国历史",
-        "航海"
+        "航海",
+        "明代"
       ],
       "path": "zheng-he/manifest.json"
     }

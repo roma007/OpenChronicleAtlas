@@ -1,5 +1,6 @@
 import type { AtlasDataset, LocalizedString } from '../types';
 import { resolveLocalized } from '../i18n/localized';
+import { categorySearchText } from '../i18n/categories';
 import type { SearchEntry, SearchIndex } from './types';
 
 /** 索引时把所有语言变体拼在一起，保证中英文都能搜到 */
@@ -50,7 +51,7 @@ export function buildSearchIndex(datasets: AtlasDataset[], locale = 'zh'): Searc
           place: allLocalized(event.location.place),
           summary: allLocalized(event.summary),
           description: stripMarkdown(allLocalized(event.description)),
-          category: event.category,
+          category: categorySearchText(event.category),
           entities,
           date: event.date,
         },

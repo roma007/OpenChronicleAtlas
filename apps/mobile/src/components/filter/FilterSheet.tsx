@@ -1,5 +1,6 @@
 import {
   applyEventFilters,
+  categoryLabel,
   collectCategories,
   resolveLocalized,
 } from '@atlas/shared';
@@ -17,6 +18,7 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { colors, radii, spacing } from '../../theme';
+import { useI18n } from '../../hooks/useI18n';
 
 interface FilterSheetProps {
   visible: boolean;
@@ -31,6 +33,7 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
   const setFilters = useAtlasStore((state) => state.setFilters);
   const toggleCategory = useAtlasStore((state) => state.toggleCategory);
   const resetFilters = useAtlasStore((state) => state.resetFilters);
+  const { locale, t } = useI18n();
 
   const [fromDraft, setFromDraft] = useState(filters.from ?? '');
   const [toDraft, setToDraft] = useState(filters.to ?? '');
@@ -62,7 +65,7 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
     <Modal visible={visible} animationType="slide" presentationStyle={Platform.OS === 'ios' ? 'pageSheet' : 'fullScreen'} onRequestClose={onClose}>
       <SafeAreaView style={styles.safe} edges={['top', 'left', 'right', 'bottom']}>
         <View style={styles.header}>
-          <Text style={styles.title}>筛选</Text>
+          <Text style={styles.title}>{t('atlas.filters')}</Text>
           <Pressable style={styles.close} onPress={onClose}>
             <Text style={styles.closeText}>✕</Text>
           </Pressable>
@@ -70,7 +73,7 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
 
         <ScrollView contentContainerStyle={styles.content}>
           <View style={styles.sectionHeader}>
-            <Text style={styles.sectionTitle}>路线主体</Text>
+            <Text style={styles.sectionTitle}>{t('legend.layers')}</Text>
             <Text style={styles.count}>{filtered.length} / {dataset.events.length}</Text>
           </View>
           {entities.map((entity) => {
@@ -90,7 +93,7 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
                   ]}
                 />
                 <Text style={[styles.entityName, !active && styles.dim]}>
-                  {resolveLocalized(entity.name)}
+                  {resolveLocalized(entity.name, locale)}
                 </Text>
                 <Text style={styles.check}>{active ? '✓' : ''}</Text>
               </Pressable>
@@ -99,7 +102,7 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
 
           <View style={styles.divider} />
 
-          <Text style={styles.sectionTitle}>事件类型</Text>
+          <Text style={styles.sectionTitle}>{t('common.category')}</Text>
           <View style={styles.chips}>
             {categories.map((category) => {
               const active = filters.categories.includes(category);
@@ -112,7 +115,7 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
                   accessibilityState={{ selected: active }}
                 >
                   <Text style={[styles.chipText, active && styles.chipTextActive]}>
-                    {category}
+                    {categoryLabel(category, locale)}
                   </Text>
                 </Pressable>
               );
@@ -121,13 +124,13 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
 
           <View style={styles.divider} />
 
-          <Text style={styles.sectionTitle}>时间段</Text>
+          <Text style={styles.sectionTitle}>{t('common.time')}</Text>
           <View style={styles.dateRow}>
             <TextInput
               value={fromDraft}
               onChangeText={setFromDraft}
               onEndEditing={applyDates}
-              placeholder="开始 YYYY-MM-DD"
+              placeholder={`${t('common.start')} YYYY-MM-DD`}
               placeholderTextColor={colors.inkSoft + '66'}
               style={styles.dateInput}
               keyboardType="numbers-and-punctuation"
@@ -136,14 +139,14 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
               value={toDraft}
               onChangeText={setToDraft}
               onEndEditing={applyDates}
-              placeholder="结束 YYYY-MM-DD"
+              placeholder={`${t('common.end')} YYYY-MM-DD`}
               placeholderTextColor={colors.inkSoft + '66'}
               style={styles.dateInput}
               keyboardType="numbers-and-punctuation"
             />
           </View>
 
-          <Text style={styles.hint}>与时间轴叠加：只显示已发生且符合条件的事件。</Text>
+          <Text style={styles.hint}>{t('legend.hint')}</Text>
 
           <Pressable
             style={styles.reset}
@@ -153,7 +156,7 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
               setToDraft('');
             }}
           >
-            <Text style={styles.resetText}>重置筛选</Text>
+            <Text style={styles.resetText}>{t('legend.reset')}</Text>
           </Pressable>
         </ScrollView>
       </SafeAreaView>

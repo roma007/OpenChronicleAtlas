@@ -1,4 +1,4 @@
-import { resolveLocalized } from '@atlas/shared';
+import { resolveLocalized, tagLabel } from '@atlas/shared';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { useEffect } from 'react';
 import {
@@ -15,6 +15,8 @@ import { DATA_BASE } from '../data/client';
 import type { RootStackParamList } from '../navigation/types';
 import { useAtlasStore } from '../stores/useAtlasStore';
 import { colors, radii, spacing } from '../theme';
+import { LanguageToggle } from '../components/common/LanguageToggle';
+import { useI18n } from '../hooks/useI18n';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Gallery'>;
 
@@ -23,6 +25,7 @@ export function GalleryScreen({ navigation }: Props) {
   const loading = useAtlasStore((state) => state.loading);
   const error = useAtlasStore((state) => state.error);
   const loadIndex = useAtlasStore((state) => state.loadIndex);
+  const { locale, t } = useI18n();
 
   useEffect(() => {
     void loadIndex();
@@ -36,18 +39,19 @@ export function GalleryScreen({ navigation }: Props) {
         contentContainerStyle={styles.list}
         ListHeaderComponent={
           <View style={styles.header}>
-            <Text style={styles.kicker}>OPENCHRONICLE ATLAS</Text>
-            <Text style={styles.title}>史迹 · 时空地图</Text>
-            <Text style={styles.subtitle}>
-              以地图与时间轴浏览历史专题的路线、事件与时空演变。
-            </Text>
+            <View style={styles.headerTop}>
+              <Text style={styles.kicker}>OPENCHRONICLE ATLAS</Text>
+              <LanguageToggle />
+            </View>
+            <Text style={styles.title}>{t('app.title')}</Text>
+            <Text style={styles.subtitle}>{t('app.tagline')}</Text>
             <Pressable
               style={styles.searchButton}
               onPress={() => navigation.navigate('Search')}
             >
-              <Text style={styles.searchButtonText}>搜索事件 →</Text>
+              <Text style={styles.searchButtonText}>{t('gallery.searchEvents')}</Text>
             </Pressable>
-            <Text style={styles.sectionTitle}>专题</Text>
+            <Text style={styles.sectionTitle}>{t('gallery.subtitle')}</Text>
           </View>
         }
         ListEmptyComponent={
@@ -55,18 +59,18 @@ export function GalleryScreen({ navigation }: Props) {
             <ActivityIndicator color={colors.cinnabar} style={styles.loading} />
           ) : error ? (
             <View style={styles.errorBox}>
-              <Text style={styles.errorTitle}>专题索引加载失败</Text>
+              <Text style={styles.errorTitle}>{t('gallery.errorTitle')}</Text>
               <Text style={styles.errorText}>{error}</Text>
               <Pressable style={styles.retry} onPress={() => void loadIndex()}>
-                <Text style={styles.retryText}>重试</Text>
+                <Text style={styles.retryText}>{t('nav.retry')}</Text>
               </Pressable>
             </View>
           ) : (
-            <Text style={styles.empty}>还没有专题数据包。</Text>
+            <Text style={styles.empty}>{t('gallery.empty')}</Text>
           )
         }
         renderItem={({ item }) => {
-          const title = resolveLocalized(item.title);
+          const title = resolveLocalized(item.title, locale);
           return (
             <Pressable
               style={styles.card}
@@ -91,12 +95,12 @@ export function GalleryScreen({ navigation }: Props) {
                   </Text>
                 </View>
                 {item.subtitle ? (
-                  <Text style={styles.cardSubtitle}>{resolveLocalized(item.subtitle)}</Text>
+                  <Text style={styles.cardSubtitle}>{resolveLocalized(item.subtitle, locale)}</Text>
                 ) : null}
                 <View style={styles.tags}>
                   {(item.tags ?? []).map((tag) => (
                     <Text key={tag} style={styles.tag}>
-                      {tag}
+                      {tagLabel(tag, locale)}
                     </Text>
                   ))}
                 </View>
@@ -113,6 +117,7 @@ const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: colors.parchment },
   list: { padding: spacing.lg, paddingBottom: 40, gap: spacing.lg },
   header: { gap: spacing.sm, marginBottom: spacing.sm },
+  headerTop: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
   kicker: { fontSize: 10, letterSpacing: 3, color: colors.cinnabar, fontWeight: '600' },
   title: { fontSize: 32, fontWeight: '700', color: colors.ink },
   subtitle: { fontSize: 14, lineHeight: 22, color: colors.inkSoft },

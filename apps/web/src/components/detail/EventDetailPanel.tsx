@@ -1,8 +1,15 @@
-import { formatDate, parseDateString, resolveLocalized, toDateString } from '@atlas/shared';
+import {
+  categoryLabel,
+  formatDate,
+  parseDateString,
+  resolveLocalized,
+  toDateString,
+} from '@atlas/shared';
 import { lazy, Suspense, useEffect } from 'react';
 import { dataUrl } from '../../data/client';
 import { useShare } from '../../hooks/useShare';
 import { useAtlasStore } from '../../stores/useAtlasStore';
+import { useI18n } from '../../hooks/useI18n';
 
 const Markdown = lazy(() =>
   import('../common/Markdown').then((module) => ({ default: module.Markdown })),
@@ -15,6 +22,7 @@ export function EventDetailPanel() {
   const currentTime = useAtlasStore((state) => state.currentTime);
   const mapView = useAtlasStore((state) => state.mapView);
   const { share, lastResult } = useShare();
+  const { locale, t, dateLocale } = useI18n();
 
   const event =
     selectedEventId && dataset ? dataset.eventsById.get(selectedEventId) : undefined;
@@ -31,11 +39,11 @@ export function EventDetailPanel() {
   if (!event || !dataset) return null;
 
   const dateText = event.endDate
-    ? `${formatDate(parseDateString(event.date), 'zh-CN')} — ${formatDate(
+    ? `${formatDate(parseDateString(event.date), dateLocale)} — ${formatDate(
         parseDateString(event.endDate),
-        'zh-CN',
+        dateLocale,
       )}`
-    : formatDate(parseDateString(event.date), 'zh-CN');
+    : formatDate(parseDateString(event.date), dateLocale);
 
   const entities = event.entityIds
     .map((id) => dataset.entitiesById.get(id))
@@ -45,7 +53,7 @@ export function EventDetailPanel() {
     .map((id) => dataset.eventsById.get(id))
     .filter((item): item is NonNullable<typeof item> => Boolean(item));
 
-  const description = resolveLocalized(event.description);
+  const description = resolveLocalized(event.description, locale);
 
   const handleShare = () => {
     void share(dataset.manifest.id, {
@@ -57,12 +65,12 @@ export function EventDetailPanel() {
 
   return (
     <aside
-      aria-label="事件详情"
+      aria-label={t('detail.title')}
       className="atlas-scrollbar absolute inset-x-0 bottom-0 z-40 max-h-[72vh] overflow-y-auto rounded-t-2xl border-t border-ink/10 bg-parchment p-5 shadow-panel md:inset-y-auto md:bottom-44 md:left-auto md:right-6 md:top-24 md:max-h-[calc(100vh-16rem)] md:w-[26rem] md:rounded-2xl md:border"
     >
       <div className="flex items-start justify-between gap-4">
         <span className="rounded-full bg-cinnabar/10 px-2.5 py-1 text-[11px] tracking-wider text-cinnabar">
-          {event.category}
+          {categoryLabel(event.category, locale)}
         </span>
 
         <div className="flex items-center gap-2">
@@ -71,11 +79,11 @@ export function EventDetailPanel() {
             onClick={handleShare}
             className="rounded-full border border-ink/10 px-3 py-1 text-[11px] text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
           >
-            {lastResult === 'copied' || lastResult === 'shared' ? '已分享' : '分享'}
+            {lastResult === 'copied' || lastResult === 'shared' ? t('common.shared') : t('common.share')}
           </button>
           <button
             type="button"
-            aria-label="关闭详情"
+            aria-label={t('detail.close')}
             onClick={() => selectEvent(null)}
             className="grid h-8 w-8 place-items-center rounded-full border border-ink/10 text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
           >
@@ -85,22 +93,22 @@ export function EventDetailPanel() {
       </div>
 
       <h2 className="mt-3 font-serif text-2xl font-semibold leading-snug tracking-wide text-ink">
-        {resolveLocalized(event.name)}
+        {resolveLocalized(event.name, locale)}
       </h2>
 
       <dl className="mt-4 space-y-2 text-sm">
         <div className="flex gap-3">
-          <dt className="w-14 shrink-0 text-ink-soft/60">时间</dt>
+          <dt className="w-14 shrink-0 text-ink-soft/60">{t('common.time')}</dt>
           <dd className="text-ink-soft">{dateText}</dd>
         </div>
         <div className="flex gap-3">
-          <dt className="w-14 shrink-0 text-ink-soft/60">地点</dt>
+          <dt className="w-14 shrink-0 text-ink-soft/60">{t('common.place')}</dt>
           <dd className="text-ink-soft">
-            {resolveLocalized(event.location.place) || `${event.location.lng}, ${event.location.lat}`}
+            {resolveLocalized(event.location.place, locale) || `${event.location.lng}, ${event.location.lat}`}
           </dd>
         </div>
         <div className="flex gap-3">
-          <dt className="w-14 shrink-0 text-ink-soft/60">主体</dt>
+          <dt className="w-14 shrink-0 text-ink-soft/60">{t('common.entity')}</dt>
           <dd className="flex flex-wrap gap-1.5">
             {entities.map((entity) => (
               <span
@@ -112,7 +120,7 @@ export function EventDetailPanel() {
                   className="h-1.5 w-1.5 rounded-full"
                   style={{ backgroundColor: entity.color }}
                 />
-                {resolveLocalized(entity.name)}
+                {resolveLocalized(entity.name, locale)}
               </span>
             ))}
           </dd>
@@ -120,12 +128,12 @@ export function EventDetailPanel() {
       </dl>
 
       <p className="mt-4 border-l-2 border-cinnabar/40 pl-3 text-sm leading-7 text-ink">
-        {resolveLocalized(event.summary)}
+        {resolveLocalized(event.summary, locale)}
       </p>
 
       {description ? (
         <div className="mt-4">
-          <Suspense fallback={<p className="text-sm text-ink-soft/70">正在渲染详情…</p>}>
+          <Suspense fallback={<p className="text-sm text-ink-soft/70">{t('detail.rendering')}</p>}>
             <Markdown>{description}</Markdown>
           </Suspense>
         </div>
@@ -141,14 +149,14 @@ export function EventDetailPanel() {
                     ? image.src
                     : dataUrl(`${dataset.manifest.id}/${image.src}`)
                 }
-                alt={resolveLocalized(image.caption)}
+                alt={resolveLocalized(image.caption, locale)}
                 loading="lazy"
                 referrerPolicy="no-referrer"
                 className="w-full rounded-lg border border-ink/10"
               />
               {image.caption ? (
                 <figcaption className="mt-1 text-[11px] text-ink-soft/70">
-                  {resolveLocalized(image.caption)}
+                  {resolveLocalized(image.caption, locale)}
                   {image.credit ? ` · ${image.credit}` : ''}
                 </figcaption>
               ) : null}
@@ -159,7 +167,7 @@ export function EventDetailPanel() {
 
       {related.length > 0 ? (
         <div className="mt-5">
-          <h3 className="text-xs tracking-[0.2em] text-ink-soft/60">关联事件</h3>
+          <h3 className="text-xs tracking-[0.2em] text-ink-soft/60">{t('common.relatedEvents')}</h3>
           <div className="mt-2 flex flex-wrap gap-2">
             {related.map((item) => (
               <button
@@ -168,7 +176,7 @@ export function EventDetailPanel() {
                 onClick={() => selectEvent(item.id)}
                 className="rounded-full border border-ink/10 px-3 py-1 text-xs text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
               >
-                {resolveLocalized(item.name)}
+                {resolveLocalized(item.name, locale)}
               </button>
             ))}
           </div>
@@ -177,7 +185,7 @@ export function EventDetailPanel() {
 
       {event.sources && event.sources.length > 0 ? (
         <div className="mt-5 border-t border-ink/10 pt-4">
-          <h3 className="text-xs tracking-[0.2em] text-ink-soft/60">史料来源</h3>
+          <h3 className="text-xs tracking-[0.2em] text-ink-soft/60">{t('common.sources')}</h3>
           <ul className="mt-2 space-y-1.5 text-[11px] leading-5 text-ink-soft/80">
             {event.sources.map((source) => (
               <li key={`${source.title}-${source.year ?? ''}`}>

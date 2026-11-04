@@ -1,5 +1,6 @@
 import {
   buildSearchIndex,
+  categoryLabel,
   resolveLocalized,
   searchEvents,
   type SearchHit,
@@ -20,6 +21,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import type { RootStackParamList } from '../navigation/types';
 import { useAtlasStore } from '../stores/useAtlasStore';
 import { colors, radii, spacing } from '../theme';
+import { LanguageToggle } from '../components/common/LanguageToggle';
+import { useI18n } from '../hooks/useI18n';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Search'>;
 
@@ -28,6 +31,7 @@ export function SearchScreen({ navigation }: Props) {
   const loading = useAtlasStore((state) => state.searchLoading);
   const error = useAtlasStore((state) => state.searchError);
   const loadSearchData = useAtlasStore((state) => state.loadSearchData);
+  const { locale, t } = useI18n();
 
   const [query, setQuery] = useState('');
   const [debounced, setDebounced] = useState('');
@@ -42,7 +46,10 @@ export function SearchScreen({ navigation }: Props) {
     return () => clearTimeout(timer);
   }, [query]);
 
-  const index = useMemo(() => (datasets ? buildSearchIndex(datasets) : null), [datasets]);
+  const index = useMemo(
+    () => (datasets ? buildSearchIndex(datasets, locale) : null),
+    [datasets, locale],
+  );
 
   const hits = useMemo(() => {
     if (!index || !debounced) return [];
@@ -55,7 +62,7 @@ export function SearchScreen({ navigation }: Props) {
   const atlases =
     datasets?.map((dataset) => ({
       id: dataset.manifest.id,
-      title: resolveLocalized(dataset.manifest.title),
+      title: resolveLocalized(dataset.manifest.title, locale),
     })) ?? [];
 
   const openHit = (hit: SearchHit) => {
@@ -69,16 +76,19 @@ export function SearchScreen({ navigation }: Props) {
   return (
     <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
       <View style={styles.header}>
-        <Pressable style={styles.back} onPress={() => navigation.goBack()}>
-          <Text style={styles.backText}>← 专题</Text>
-        </Pressable>
-        <Text style={styles.title}>检索</Text>
-        <Text style={styles.subtitle}>按事件名、地名、类型或日期查找。</Text>
+        <View style={styles.topRow}>
+          <Pressable style={styles.back} onPress={() => navigation.goBack()}>
+            <Text style={styles.backText}>{t('nav.backToAtlases')}</Text>
+          </Pressable>
+          <LanguageToggle />
+        </View>
+        <Text style={styles.title}>{t('search.title')}</Text>
+        <Text style={styles.subtitle}>{t('search.subtitle')}</Text>
 
         <TextInput
           value={query}
           onChangeText={setQuery}
-          placeholder="例如：遵义、贵州、1935"
+          placeholder={t('search.placeholder')}
           placeholderTextColor={colors.inkSoft + '77'}
           style={styles.input}
           autoFocus
@@ -90,7 +100,7 @@ export function SearchScreen({ navigation }: Props) {
             onPress={() => setAtlasFilter('')}
             style={[styles.chip, !atlasFilter && styles.chipActive]}
           >
-            <Text style={[styles.chipText, !atlasFilter && styles.chipTextActive]}>全部专题</Text>
+            <Text style={[styles.chipText, !atlasFilter && styles.chipTextActive]}>{t('search.allAtlases')}</Text>
           </Pressable>
           {atlases.map((atlas) => (
             <Pressable
@@ -112,17 +122,17 @@ export function SearchScreen({ navigation }: Props) {
         <ActivityIndicator color={colors.cinnabar} style={styles.loading} />
       ) : error ? (
         <View style={styles.emptyBox}>
-          <Text style={styles.emptyTitle}>搜索数据加载失败</Text>
+          <Text style={styles.emptyTitle}>{t('search.errorTitle')}</Text>
           <Text style={styles.emptyText}>{error}</Text>
           <Pressable style={styles.retry} onPress={() => void loadSearchData()}>
-            <Text style={styles.retryText}>重试</Text>
+            <Text style={styles.retryText}>{t('nav.retry')}</Text>
           </Pressable>
         </View>
       ) : !debounced ? (
         <View style={styles.emptyBox}>
-          <Text style={styles.emptyTitle}>输入关键词开始检索</Text>
+          <Text style={styles.emptyTitle}>{t('search.promptTitle')}</Text>
           <Text style={styles.emptyText}>
-            支持事件名、地名、类型与日期，例如「遵义」「贵州」「1935」「重要会议」。
+            {t('search.promptBody')}
           </Text>
         </View>
       ) : (
@@ -131,27 +141,29 @@ export function SearchScreen({ navigation }: Props) {
           keyExtractor={(item) => `${item.atlasId}:${item.event.id}`}
           contentContainerStyle={styles.results}
           ListHeaderComponent={
-            <Text style={styles.count}>找到 {hits.length} 条结果</Text>
+            <Text style={styles.count}>{t(hits.length === 1 ? 'search.result' : 'search.results', {
+              count: hits.length,
+            })}</Text>
           }
           ListEmptyComponent={
             <View style={styles.emptyBox}>
-              <Text style={styles.emptyTitle}>没有找到匹配事件</Text>
-              <Text style={styles.emptyText}>试试更短的关键词，或切换到「全部专题」。</Text>
+              <Text style={styles.emptyTitle}>{t('search.emptyTitle')}</Text>
+              <Text style={styles.emptyText}>{t('search.emptyBody')}</Text>
             </View>
           }
           renderItem={({ item }) => (
             <Pressable style={styles.result} onPress={() => openHit(item)}>
               <View style={styles.resultTitleRow}>
-                <Text style={styles.resultTitle}>{resolveLocalized(item.event.name)}</Text>
+                <Text style={styles.resultTitle}>{resolveLocalized(item.event.name, locale)}</Text>
                 <Text style={styles.resultDate}>{item.event.date}</Text>
               </View>
               <Text style={styles.resultSnippet} numberOfLines={2}>
                 {item.snippet}
               </Text>
               <Text style={styles.resultMeta}>
-                {item.atlasTitle} · {item.event.category}
-                {resolveLocalized(item.event.location.place)
-                  ? ` · ${resolveLocalized(item.event.location.place)}`
+                {item.atlasTitle} · {categoryLabel(item.event.category, locale)}
+                {resolveLocalized(item.event.location.place, locale)
+                  ? ` · ${resolveLocalized(item.event.location.place, locale)}`
                   : ''}
               </Text>
             </Pressable>
@@ -165,6 +177,7 @@ export function SearchScreen({ navigation }: Props) {
 const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: colors.parchment },
   header: { padding: spacing.lg, gap: spacing.sm },
+  topRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
   back: { alignSelf: 'flex-start', paddingVertical: 6 },
   backText: { color: colors.inkSoft, fontSize: 13 },
   title: { fontSize: 30, fontWeight: '700', color: colors.ink },

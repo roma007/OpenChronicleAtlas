@@ -3,6 +3,7 @@ import type {
   AtlasFilters,
   AtlasSummary,
   AtlasTime,
+  Locale,
   ShareView,
   Timeline,
 } from '@atlas/shared';
@@ -10,6 +11,7 @@ import {
   EMPTY_FILTERS,
   clampToTimeline,
   createTimeline,
+  normalizeLocale,
   ratioToTime,
   stepDays as addDays,
 } from '@atlas/shared';
@@ -17,6 +19,15 @@ import { create } from 'zustand';
 import { fetchAtlas, fetchAtlasIndex } from '../data/client';
 
 export type PlaybackSpeed = 0.5 | 1 | 2 | 4;
+
+function initialLocale(): Locale {
+  if (typeof window === 'undefined') return 'zh';
+  try {
+    return normalizeLocale(window.localStorage.getItem('atlas-locale'));
+  } catch {
+    return 'zh';
+  }
+}
 
 interface ViewRequest {
   view: ShareView;
@@ -31,6 +42,7 @@ interface AtlasState {
   selectedEventId: string | null;
   activeEntityIds: Set<string>;
   filters: AtlasFilters;
+  locale: Locale;
 
   timeline: Timeline | null;
   currentTime: AtlasTime;
@@ -50,6 +62,7 @@ interface AtlasState {
   selectEvent(eventId: string | null): void;
   toggleEntity(entityId: string): void;
 
+  setLocale(locale: Locale): void;
   setFilters(filters: AtlasFilters): void;
   toggleCategory(category: string): void;
   resetFilters(): void;
@@ -78,6 +91,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
   selectedEventId: null,
   activeEntityIds: new Set(),
   filters: EMPTY_FILTERS,
+  locale: initialLocale(),
 
   timeline: null,
   currentTime: 0,
@@ -141,6 +155,15 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
     if (next.has(entityId)) next.delete(entityId);
     else next.add(entityId);
     set({ activeEntityIds: next });
+  },
+
+  setLocale(locale) {
+    set({ locale });
+    try {
+      window.localStorage.setItem('atlas-locale', locale);
+    } catch {
+      // 忽略隐私模式下的写入失败
+    }
   },
 
   setFilters(filters) {

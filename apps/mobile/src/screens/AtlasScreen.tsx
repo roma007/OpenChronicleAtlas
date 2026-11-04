@@ -16,11 +16,13 @@ import { Timeline } from '../components/timeline/Timeline';
 import type { RootStackParamList } from '../navigation/types';
 import { useAtlasStore } from '../stores/useAtlasStore';
 import { colors, radii, spacing } from '../theme';
+import { LanguageToggle } from '../components/common/LanguageToggle';
+import { useI18n } from '../hooks/useI18n';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Atlas'>;
 
 export function AtlasScreen({ route, navigation }: Props) {
-  const { atlasId, t, event: eventId } = route.params;
+  const { atlasId, t: initialTime, event: eventId } = route.params;
   const insets = useSafeAreaInsets();
 
   const dataset = useAtlasStore((state) => state.dataset);
@@ -30,6 +32,7 @@ export function AtlasScreen({ route, navigation }: Props) {
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const pause = useAtlasStore((state) => state.pause);
+  const { locale, t } = useI18n();
 
   const appliedRef = useRef(false);
   const [filterOpen, setFilterOpen] = useState(false);
@@ -47,9 +50,9 @@ export function AtlasScreen({ route, navigation }: Props) {
     appliedRef.current = true;
 
     pause();
-    if (t) {
+    if (initialTime) {
       try {
-        setCurrentTime(parseDateString(t));
+        setCurrentTime(parseDateString(initialTime));
       } catch {
         // 非法时间忽略
       }
@@ -57,7 +60,7 @@ export function AtlasScreen({ route, navigation }: Props) {
     if (eventId && dataset.eventsById.has(eventId)) {
       selectEvent(eventId);
     }
-  }, [dataset, t, eventId, pause, setCurrentTime, selectEvent]);
+  }, [dataset, initialTime, eventId, pause, setCurrentTime, selectEvent]);
 
   const manifest = dataset && dataset.manifest.id === atlasId ? dataset.manifest : null;
 
@@ -68,25 +71,26 @@ export function AtlasScreen({ route, navigation }: Props) {
       <View style={[styles.header, { paddingTop: insets.top + 8 }]}>
         <View style={styles.headerRow}>
           <Pressable style={styles.pill} onPress={() => navigation.goBack()}>
-            <Text style={styles.pillText}>← 专题</Text>
+            <Text style={styles.pillText}>{t('nav.backToAtlases')}</Text>
           </Pressable>
           <Pressable style={styles.pill} onPress={() => navigation.navigate('Search')}>
-            <Text style={styles.pillText}>搜索</Text>
+            <Text style={styles.pillText}>{t('nav.search')}</Text>
           </Pressable>
 
           <View style={styles.titleBlock}>
             <Text style={styles.title} numberOfLines={1}>
-              {manifest ? resolveLocalized(manifest.title) : '加载中…'}
+              {manifest ? resolveLocalized(manifest.title, locale) : t('common.loading')}
             </Text>
             {manifest?.subtitle ? (
               <Text style={styles.subtitle} numberOfLines={1}>
-                {resolveLocalized(manifest.subtitle)}
+                {resolveLocalized(manifest.subtitle, locale)}
               </Text>
             ) : null}
           </View>
 
+          <LanguageToggle />
           <Pressable style={styles.pill} onPress={() => setFilterOpen(true)}>
-            <Text style={styles.pillText}>筛选</Text>
+            <Text style={styles.pillText}>{t('atlas.filters')}</Text>
           </Pressable>
         </View>
       </View>
@@ -98,17 +102,17 @@ export function AtlasScreen({ route, navigation }: Props) {
       {loading ? (
         <View style={styles.overlay}>
           <ActivityIndicator color={colors.cinnabar} />
-          <Text style={styles.overlayText}>正在加载专题数据…</Text>
+          <Text style={styles.overlayText}>{t('atlas.loading')}</Text>
         </View>
       ) : null}
 
       {error ? (
         <View style={styles.overlay}>
           <View style={styles.errorBox}>
-            <Text style={styles.errorTitle}>专题加载失败</Text>
+            <Text style={styles.errorTitle}>{t('atlas.errorTitle')}</Text>
             <Text style={styles.errorText}>{error}</Text>
             <Pressable style={styles.retry} onPress={() => void loadAtlas(atlasId)}>
-              <Text style={styles.retryText}>重试</Text>
+              <Text style={styles.retryText}>{t('nav.retry')}</Text>
             </Pressable>
           </View>
         </View>

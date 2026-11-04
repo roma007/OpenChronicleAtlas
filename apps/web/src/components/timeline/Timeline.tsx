@@ -14,6 +14,7 @@ import {
 import type { KeyboardEvent as ReactKeyboardEvent, PointerEvent as ReactPointerEvent } from 'react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { usePlayback } from '../../hooks/usePlayback';
+import { useI18n } from '../../hooks/useI18n';
 import { useAtlasStore, type PlaybackSpeed } from '../../stores/useAtlasStore';
 
 const SPEEDS: PlaybackSpeed[] = [0.5, 1, 2, 4];
@@ -32,6 +33,7 @@ export function Timeline() {
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
 
   usePlayback();
+  const { locale, t, dateLocale } = useI18n();
 
   const trackRef = useRef<HTMLDivElement>(null);
   const draggingRef = useRef(false);
@@ -180,7 +182,7 @@ export function Timeline() {
 
   return (
     <section
-      aria-label="专题时间轴"
+      aria-label={t('timeline.label')}
       className="pointer-events-none absolute inset-x-0 bottom-0 z-30 px-3 pb-3 md:px-6 md:pb-5"
     >
       <div className="pointer-events-auto mx-auto max-w-4xl rounded-2xl border border-ink/10 bg-parchment/95 px-3 py-3 shadow-panel backdrop-blur md:px-4">
@@ -188,7 +190,7 @@ export function Timeline() {
           <button
             type="button"
             onClick={togglePlay}
-            aria-label={playing ? '暂停' : '播放'}
+            aria-label={playing ? t('timeline.pause') : t('timeline.play')}
             className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-cinnabar text-parchment shadow-sm transition hover:bg-cinnabar/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cinnabar"
           >
             <span aria-hidden className="text-[13px] leading-none">
@@ -199,13 +201,13 @@ export function Timeline() {
           <div className="min-w-0 flex-1">
             <div className="flex items-baseline justify-between gap-2 text-[11px]">
               <span className="shrink-0 font-medium tabular-nums text-ink">
-                {formatDate(currentTime, 'zh-CN')}
+                {formatDate(currentTime, dateLocale)}
               </span>
               <span className="truncate text-ink-soft/70">
-                {currentEvent ? resolveLocalized(currentEvent.name) : '拖动时间轴或播放'}
+                {currentEvent ? resolveLocalized(currentEvent.name, locale) : t('timeline.hint')}
               </span>
               <span className="hidden shrink-0 tabular-nums text-ink-soft/60 sm:inline">
-                {formatDate(viewport?.end ?? timeline.end, 'zh-CN')}
+                {formatDate(viewport?.end ?? timeline.end, dateLocale)}
               </span>
             </div>
 
@@ -213,11 +215,11 @@ export function Timeline() {
               ref={trackRef}
               role="slider"
               tabIndex={0}
-              aria-label="专题时间轴"
+              aria-label={t('timeline.label')}
               aria-valuemin={viewport?.start ?? timeline.start}
               aria-valuemax={viewport?.end ?? timeline.end}
               aria-valuenow={currentTime}
-              aria-valuetext={formatDate(currentTime, 'zh-CN')}
+              aria-valuetext={formatDate(currentTime, dateLocale)}
               onPointerDown={handlePointerDown}
               onPointerMove={handlePointerMove}
               onPointerUp={endDrag}
@@ -260,7 +262,7 @@ export function Timeline() {
           <div className="flex shrink-0 items-center gap-1">
             <button
               type="button"
-              aria-label="缩小时间轴"
+              aria-label={t('timeline.zoomOut')}
               disabled={zoomLevel === 0}
               onClick={() => changeZoom(-1)}
               className="grid h-7 w-7 place-items-center rounded-full border border-ink/15 text-sm text-ink-soft transition hover:bg-ink/5 disabled:cursor-not-allowed disabled:opacity-35"
@@ -268,11 +270,11 @@ export function Timeline() {
               −
             </button>
             <span className="w-8 text-center text-[10px] tabular-nums text-ink-soft/70">
-              {zoomLevel === 0 ? '全' : `${2 ** zoomLevel}×`}
+              {zoomLevel === 0 ? t('timeline.zoomAll') : `${2 ** zoomLevel}×`}
             </span>
             <button
               type="button"
-              aria-label="放大时间轴"
+              aria-label={t('timeline.zoomIn')}
               disabled={zoomLevel === 8}
               onClick={() => changeZoom(1)}
               className="grid h-7 w-7 place-items-center rounded-full border border-ink/15 text-sm text-ink-soft transition hover:bg-ink/5 disabled:cursor-not-allowed disabled:opacity-35"
@@ -302,7 +304,7 @@ export function Timeline() {
 
         <div className="mt-1 flex items-center justify-between gap-2">
           <span className="text-[10px] tabular-nums text-ink-soft/60">
-            {formatDate(viewport?.start ?? timeline.start, 'zh-CN')}
+            {formatDate(viewport?.start ?? timeline.start, dateLocale)}
           </span>
 
           <div className="flex items-center gap-1 sm:hidden">
@@ -325,7 +327,7 @@ export function Timeline() {
 
           <input
             type="date"
-            aria-label="跳转到日期"
+            aria-label={t('timeline.jumpToDate')}
             min={toDateString(timeline.start)}
             max={toDateString(timeline.end)}
             value={dateValue}

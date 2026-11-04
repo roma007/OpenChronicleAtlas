@@ -3,6 +3,7 @@ import type {
   AtlasFilters,
   AtlasSummary,
   AtlasTime,
+  Locale,
   ShareView,
   Timeline,
 } from '@atlas/shared';
@@ -33,6 +34,7 @@ interface MobileAtlasState {
 
   activeEntityIds: Set<string>;
   filters: AtlasFilters;
+  locale: Locale;
   mapView: ShareView | null;
 
   searchDatasets: AtlasDataset[] | null;
@@ -44,6 +46,7 @@ interface MobileAtlasState {
   selectEvent(eventId: string | null): void;
   setBubbleEvent(eventId: string | null): void;
   toggleEntity(entityId: string): void;
+  setLocale(locale: Locale): void;
   setFilters(filters: AtlasFilters): void;
   toggleCategory(category: string): void;
   resetFilters(): void;
@@ -73,6 +76,7 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
 
   activeEntityIds: new Set(),
   filters: EMPTY_FILTERS,
+  locale: 'zh',
   mapView: null,
 
   searchDatasets: null,
@@ -131,6 +135,10 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
     if (next.has(entityId)) next.delete(entityId);
     else next.add(entityId);
     set({ activeEntityIds: next });
+  },
+
+  setLocale(locale) {
+    set({ locale });
   },
 
   setFilters(filters) {

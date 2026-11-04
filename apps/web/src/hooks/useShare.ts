@@ -1,4 +1,5 @@
-import { buildShareUrl, type ShareState } from '@atlas/shared';
+import { buildShareUrl, translate, type ShareState } from '@atlas/shared';
+import { useAtlasStore } from '../stores/useAtlasStore';
 import { useState } from 'react';
 
 export type ShareResult = 'shared' | 'copied' | 'failed';
@@ -53,13 +54,14 @@ function shareWithTimeout(
 /** Web Share API 优先，不支持或超时则复制链接。 */
 export function useShare() {
   const [lastResult, setLastResult] = useState<ShareResult | null>(null);
+  const locale = useAtlasStore((state) => state.locale);
 
   const share = async (atlasId: string, state: Omit<ShareState, 'atlasId'>) => {
     const url = buildShareUrl(window.location.origin, atlasId, { ...state, atlasId });
 
     const nav = navigator as Navigator & { share?: (data: ShareData) => Promise<void> };
     if (typeof nav.share === 'function') {
-      const shared = await shareWithTimeout({ title: '史迹 · 时空地图', url });
+      const shared = await shareWithTimeout({ title: translate(locale, 'app.title'), url });
       if (shared) {
         setLastResult('shared');
         return 'shared' as const;

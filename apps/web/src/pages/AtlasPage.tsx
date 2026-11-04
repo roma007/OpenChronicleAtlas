@@ -7,6 +7,8 @@ import { Legend } from '../components/layout/Legend';
 import { Timeline } from '../components/timeline/Timeline';
 import { MapCanvas } from '../components/map/MapCanvas';
 import { useAtlasStore } from '../stores/useAtlasStore';
+import { LanguageToggle } from '../components/layout/LanguageToggle';
+import { useI18n } from '../hooks/useI18n';
 
 export function AtlasPage() {
   const { atlasId } = useParams<{ atlasId: string }>();
@@ -19,6 +21,7 @@ export function AtlasPage() {
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const requestView = useAtlasStore((state) => state.requestView);
   const pause = useAtlasStore((state) => state.pause);
+  const { locale, t } = useI18n();
 
   const appliedShareRef = useRef(false);
   const [filtersOpen, setFiltersOpen] = useState(false);
@@ -59,38 +62,39 @@ export function AtlasPage() {
               to="/"
               className="shrink-0 rounded-full border border-ink/10 px-3 py-1.5 text-xs text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
             >
-              ← 专题
+              {t('nav.backToAtlases')}
             </Link>
             <Link
               to="/search"
               className="shrink-0 rounded-full border border-ink/10 px-3 py-1.5 text-xs text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
             >
-              搜索
+              {t('nav.search')}
             </Link>
             <div className="min-w-0">
               <h1 className="truncate font-serif text-lg font-semibold tracking-wider text-ink">
-                {manifest ? resolveLocalized(manifest.title) : '加载中…'}
+                {manifest ? resolveLocalized(manifest.title, locale) : t('common.loading')}
               </h1>
               {manifest?.subtitle ? (
                 <p className="truncate text-[11px] tracking-wider text-ink-soft/70">
-                  {resolveLocalized(manifest.subtitle)}
+                  {resolveLocalized(manifest.subtitle, locale)}
                 </p>
               ) : null}
             </div>
           </div>
 
           <div className="flex shrink-0 items-center gap-3">
+            <LanguageToggle />
             <button
               type="button"
               onClick={() => setFiltersOpen(true)}
               className="rounded-full border border-ink/10 px-3 py-1.5 text-xs text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar md:hidden"
             >
-              筛选
+              {t('atlas.filters')}
             </button>
             <div className="hidden text-right text-[11px] leading-5 text-ink-soft/60 md:block">
-              高德地图 · 坐标 WGS84 → GCJ-02
+              {t('atlas.mapAttribution')}
               <br />
-              数据初稿 · 待史料校订
+              {t('atlas.draft')}
             </div>
           </div>
         </div>
@@ -112,7 +116,7 @@ export function AtlasPage() {
             <div className="mb-2 flex justify-end">
               <button
                 type="button"
-                aria-label="关闭筛选"
+                aria-label={t('nav.closeFilters')}
                 onClick={() => setFiltersOpen(false)}
                 className="grid h-8 w-8 place-items-center rounded-full bg-parchment text-ink-soft shadow"
               >
@@ -128,7 +132,7 @@ export function AtlasPage() {
         <div className="absolute inset-0 z-40 grid place-items-center bg-parchment/85 backdrop-blur-sm">
           <div className="flex flex-col items-center gap-3">
             <span className="h-8 w-8 animate-spin rounded-full border-2 border-cinnabar/30 border-t-cinnabar" />
-            <p className="text-sm tracking-widest text-ink-soft">正在加载专题数据…</p>
+            <p className="text-sm tracking-widest text-ink-soft">{t('atlas.loading')}</p>
           </div>
         </div>
       ) : null}
@@ -136,7 +140,7 @@ export function AtlasPage() {
       {error ? (
         <div className="absolute inset-0 z-50 grid place-items-center bg-parchment p-6">
           <div className="max-w-lg rounded-2xl border border-cinnabar/30 bg-parchment p-6 shadow-panel">
-            <h2 className="font-serif text-xl text-cinnabar">专题加载失败</h2>
+            <h2 className="font-serif text-xl text-cinnabar">{t('atlas.errorTitle')}</h2>
             <p className="mt-3 break-words text-sm leading-6 text-ink-soft">{error}</p>
             <div className="mt-5 flex gap-3">
               <button
@@ -144,13 +148,13 @@ export function AtlasPage() {
                 onClick={() => atlasId && void loadAtlas(atlasId)}
                 className="rounded-full bg-cinnabar px-4 py-2 text-sm text-parchment transition hover:bg-cinnabar/90"
               >
-                重试
+                {t('nav.retry')}
               </button>
               <Link
                 to="/"
                 className="rounded-full border border-ink/15 px-4 py-2 text-sm text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
               >
-                返回专题列表
+                {t('atlas.backToGallery')}
               </Link>
             </div>
           </div>

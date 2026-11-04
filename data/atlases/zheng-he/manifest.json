@@ -2,10 +2,12 @@
   "schemaVersion": "1.0.0",
   "id": "zheng-he",
   "title": {
-    "zh": "郑和下西洋"
+    "zh": "郑和下西洋",
+    "en": "Zheng He’s Voyages"
   },
   "subtitle": {
-    "zh": "1405—1433"
+    "zh": "1405—1433",
+    "en": "1405–1433"
   },
   "timeRange": {
     "start": "1405-07-11",
@@ -13,7 +15,8 @@
   },
   "cover": "assets/cover.jpg",
   "description": {
-    "zh": "1405 年至 1433 年，明朝郑和率船队七次远航，经东南亚、印度洋到达波斯湾与非洲东岸。\n\n> 本数据为 M5 示例初稿：航线为示意简化，事件日期、地点与表述待史料校订。"
+    "zh": "1405 年至 1433 年，明朝郑和率船队七次远航，经东南亚、印度洋到达波斯湾与非洲东岸。\n\n> 本数据为 M5 示例初稿：航线为示意简化，事件日期、地点与表述待史料校订。",
+    "en": "From 1405 to 1433, Zheng He led the Ming treasure fleet on seven voyages across Southeast Asia and the Indian Ocean to the Persian Gulf and the east coast of Africa.\n\n> This is an M5 illustrative draft: routes are simplified, and dates, places, and wording await historical review."
   },
   "defaultView": {
     "center": [
@@ -32,34 +35,40 @@
     {
       "id": "ming-fleet",
       "name": {
-        "zh": "明朝宝船队"
+        "zh": "明朝宝船队",
+        "en": "Ming Treasure Fleet"
       },
       "color": "#1f5f8b",
       "order": 1,
       "description": {
-        "zh": "郑和统率的主力船队，七下西洋。"
+        "zh": "郑和统率的主力船队，七下西洋。",
+        "en": "The main treasure fleet commanded by Zheng He on seven voyages."
       }
     },
     {
       "id": "detached-squadron",
       "name": {
-        "zh": "分䑸"
+        "zh": "分䑸",
+        "en": "Detached Squadron"
       },
       "color": "#b8863b",
       "order": 2,
       "description": {
-        "zh": "分头访问沿途邦国的支队。"
+        "zh": "分头访问沿途邦国的支队。",
+        "en": "Detachments sent to visit states along the route."
       }
     },
     {
       "id": "port-states",
       "name": {
-        "zh": "沿途邦国"
+        "zh": "沿途邦国",
+        "en": "Port States"
       },
       "color": "#5b7f6b",
       "order": 3,
       "description": {
-        "zh": "满剌加、古里、忽鲁谟斯等港口与邦国。"
+        "zh": "满剌加、古里、忽鲁谟斯等港口与邦国。",
+        "en": "Ports and states such as Malacca, Calicut, and Hormuz."
       }
     }
   ],

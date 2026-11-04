@@ -87,6 +87,10 @@ describe('searchEvents', () => {
     expect(searchEvents('中央红军', index)).toHaveLength(3);
   });
 
+  it('按英文类型搜索', () => {
+    expect(searchEvents('Key meeting', index)[0]?.event.id).toBe('zunyi-1935-01');
+  });
+
   it('英文不区分大小写', () => {
     const hits = searchEvents('zunyi', index);
     expect(hits[0]?.event.id).toBe('zunyi-1935-01');

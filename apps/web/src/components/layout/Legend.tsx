@@ -1,9 +1,11 @@
 import {
   applyEventFilters,
+  categoryLabel,
   collectCategories,
   resolveLocalized,
 } from '@atlas/shared';
 import { useAtlasStore } from '../../stores/useAtlasStore';
+import { useI18n } from '../../hooks/useI18n';
 
 interface LegendProps {
   className?: string;
@@ -17,6 +19,7 @@ export function Legend({ className = '' }: LegendProps) {
   const setFilters = useAtlasStore((state) => state.setFilters);
   const toggleCategory = useAtlasStore((state) => state.toggleCategory);
   const resetFilters = useAtlasStore((state) => state.resetFilters);
+  const { locale, t } = useI18n();
 
   if (!dataset) return null;
 
@@ -32,10 +35,10 @@ export function Legend({ className = '' }: LegendProps) {
 
   return (
     <section
-      aria-label="路线图层与筛选"
+      aria-label={t('legend.layers')}
       className={`rounded-2xl border border-ink/10 bg-parchment/95 p-4 shadow-panel backdrop-blur ${className}`}
     >
-      <h2 className="font-serif text-sm tracking-[0.2em] text-ink">路线图层</h2>
+      <h2 className="font-serif text-sm tracking-[0.2em] text-ink">{t('legend.layers')}</h2>
       <ul className="mt-3 space-y-1">
         {entities.map((entity) => {
           const active = activeEntityIds.has(entity.id);
@@ -61,9 +64,13 @@ export function Legend({ className = '' }: LegendProps) {
                     opacity: active ? 1 : 0.35,
                   }}
                 />
-                <span className="flex-1 truncate">{resolveLocalized(entity.name)}</span>
+                <span className="flex-1 truncate">{resolveLocalized(entity.name, locale)}</span>
                 <span className="text-[10px] tabular-nums text-ink-soft/70">
-                  {segments > 0 ? `${segments} 段` : '—'}
+                  {segments > 0
+                    ? t(segments === 1 ? 'common.segment' : 'common.segments', {
+                        count: segments,
+                      })
+                    : '—'}
                 </span>
               </button>
             </li>
@@ -73,7 +80,7 @@ export function Legend({ className = '' }: LegendProps) {
 
       <div className="mt-3 border-t border-ink/10 pt-3">
         <div className="flex items-baseline justify-between gap-2">
-          <h2 className="font-serif text-sm tracking-[0.2em] text-ink">筛选</h2>
+          <h2 className="font-serif text-sm tracking-[0.2em] text-ink">{t('legend.filters')}</h2>
           <span className="text-[10px] tabular-nums text-ink-soft/70">
             {filteredEvents.length} / {dataset.events.length}
           </span>
@@ -94,7 +101,7 @@ export function Legend({ className = '' }: LegendProps) {
                     : 'border-ink/10 text-ink-soft hover:border-cinnabar/30'
                 }`}
               >
-                {category}
+                {categoryLabel(category, locale)}
               </button>
             );
           })}
@@ -102,7 +109,7 @@ export function Legend({ className = '' }: LegendProps) {
 
         <div className="mt-3 grid grid-cols-2 gap-2">
           <label className="text-[10px] text-ink-soft/70">
-            开始
+            {t('common.start')}
             <input
               type="date"
               value={filters.from ?? ''}
@@ -115,7 +122,7 @@ export function Legend({ className = '' }: LegendProps) {
             />
           </label>
           <label className="text-[10px] text-ink-soft/70">
-            结束
+            {t('common.end')}
             <input
               type="date"
               value={filters.to ?? ''}
@@ -131,7 +138,7 @@ export function Legend({ className = '' }: LegendProps) {
 
         <div className="mt-3 flex items-center justify-between gap-2">
           <p className="text-[10px] leading-4 text-ink-soft/60">
-            与时间轴叠加：只显示已发生且符合条件的事件。
+            {t('legend.hint')}
           </p>
           <button
             type="button"
@@ -139,7 +146,7 @@ export function Legend({ className = '' }: LegendProps) {
             disabled={!hasFilters}
             className="shrink-0 rounded-full border border-ink/10 px-2.5 py-1 text-[10px] text-ink-soft transition enabled:hover:border-cinnabar/40 enabled:hover:text-cinnabar disabled:opacity-40"
           >
-            重置
+            {t('legend.reset')}
           </button>
         </div>
       </div>

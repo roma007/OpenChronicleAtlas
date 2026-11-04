@@ -13,3 +13,7 @@ export * from './search/query';
 export * from './filters';
 export * from './share/state';
 export * from './i18n/localized';
+export * from './i18n/locale';
+export * from './i18n/messages';
+export * from './i18n/categories';
+export * from './i18n/tags';

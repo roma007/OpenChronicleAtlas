@@ -13,12 +13,15 @@ import {
   ScrollView,
   StyleSheet,
   Text,
+  View,
 } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { AtlasScreen } from './screens/AtlasScreen';
 import { GalleryScreen } from './screens/GalleryScreen';
 import { SearchScreen } from './screens/SearchScreen';
 import { colors, radii, spacing } from './theme';
+import { LanguageToggle } from './components/common/LanguageToggle';
+import { useI18n } from './hooks/useI18n';
 import type { RootStackParamList } from './navigation/types';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -43,6 +46,7 @@ function parseDeepLink(url: string): { atlasId: string; t?: string; event?: stri
 
 export default function App() {
   const [privacyReady, setPrivacyReady] = useState(false);
+  const { t } = useI18n();
 
   useEffect(() => {
     try {
@@ -86,20 +90,19 @@ export default function App() {
       <SafeAreaProvider>
         <SafeAreaView style={styles.safe}>
           <ScrollView contentContainerStyle={styles.privacyContent}>
-            <Text style={styles.kicker}>OPENCHRONICLE ATLAS</Text>
-            <Text style={styles.title}>隐私说明</Text>
-            <Text style={styles.paragraph}>
-              本应用使用高德地图 SDK 提供地图展示服务。SDK 可能收集设备信息、网络信息与地图交互所需的位置信息（本版本不申请定位权限）。
-            </Text>
-            <Text style={styles.paragraph}>
-              我们不会将上述信息用于广告或出售。继续使用前，请阅读并同意高德地图开放平台隐私权政策。
-            </Text>
+            <View style={styles.privacyHeader}>
+              <Text style={styles.kicker}>OPENCHRONICLE ATLAS</Text>
+              <LanguageToggle />
+            </View>
+            <Text style={styles.title}>{t('consent.title')}</Text>
+            <Text style={styles.paragraph}>{t('consent.body1')}</Text>
+            <Text style={styles.paragraph}>{t('consent.body2')}</Text>
             <Pressable
               onPress={() => {
                 void RNLinking.openURL('https://lbs.amap.com/pages/privacy/');
               }}
             >
-              <Text style={styles.link}>查看《高德地图开放平台隐私权政策》</Text>
+              <Text style={styles.link}>{t('consent.amapPolicy')}</Text>
             </Pressable>
             {process.env.EXPO_PUBLIC_PRIVACY_URL ? (
               <Pressable
@@ -107,13 +110,13 @@ export default function App() {
                   void RNLinking.openURL(process.env.EXPO_PUBLIC_PRIVACY_URL!);
                 }}
               >
-                <Text style={styles.link}>查看本应用隐私政策</Text>
+                <Text style={styles.link}>{t('consent.ourPolicy')}</Text>
               </Pressable>
             ) : null}
             <Pressable style={styles.primaryButton} onPress={agreePrivacy}>
-              <Text style={styles.primaryButtonText}>同意并继续</Text>
+              <Text style={styles.primaryButtonText}>{t('consent.agree')}</Text>
             </Pressable>
-            <Text style={styles.note}>拒绝将无法加载地图，但可返回退出应用。</Text>
+            <Text style={styles.note}>{t('consent.rejectNote')}</Text>
           </ScrollView>
         </SafeAreaView>
       </SafeAreaProvider>
@@ -137,6 +140,7 @@ export default function App() {
 const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: colors.parchment },
   privacyContent: { padding: spacing.xl, gap: spacing.md },
+  privacyHeader: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
   kicker: { fontSize: 11, letterSpacing: 4, color: colors.cinnabar, fontWeight: '600' },
   title: { fontSize: 30, fontWeight: '700', color: colors.ink, marginTop: spacing.sm },
   paragraph: { fontSize: 14, lineHeight: 23, color: colors.inkSoft },

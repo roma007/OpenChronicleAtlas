@@ -14,6 +14,7 @@ import {
 import { useEffect, useRef, useState } from 'react';
 import { amapStyleId, loadAMap } from '../../map/amap';
 import { useAtlasStore } from '../../stores/useAtlasStore';
+import { useI18n } from '../../hooks/useI18n';
 
 const INITIAL_CENTER: [number, number] = [106.5, 32];
 const BUBBLE_DURATION_MS = 4000;
@@ -59,6 +60,7 @@ export function MapCanvas() {
   const playing = useAtlasStore((state) => state.playing);
   const selectedEventId = useAtlasStore((state) => state.selectedEventId);
   const viewRequest = useAtlasStore((state) => state.viewRequest);
+  const { locale, t } = useI18n();
 
   const clearBubble = () => {
     if (bubbleTimerRef.current !== null) {
@@ -205,8 +207,8 @@ export function MapCanvas() {
       element.setAttribute(
         'aria-label',
         isCluster
-          ? `${cluster.events.length} 个事件，点击放大`
-          : `${resolveLocalized(cluster.events[0]!.name)}，查看详情`,
+          ? t('map.clusterLabel', { count: cluster.events.length })
+          : t('map.eventLabel', { name: resolveLocalized(cluster.events[0]!.name, locale) }),
       );
 
       const countEl = isCluster
@@ -256,7 +258,7 @@ export function MapCanvas() {
 
       markerEntriesRef.current.set(cluster.id, { cluster, marker, element, countEl });
     }
-  }, [dataset, activeEntityIds, filters, ready, zoom]);
+  }, [dataset, activeEntityIds, filters, ready, zoom, locale]);
 
   // 时间变化：更新路线截断与 Marker 可见性
   useEffect(() => {
@@ -389,15 +391,15 @@ export function MapCanvas() {
 
   return (
     <div className="absolute inset-0">
-      <div ref={containerRef} className="h-full w-full" aria-label="历史专题地图" />
+      <div ref={containerRef} className="h-full w-full" aria-label={t('map.title')} />
 
       {error ? (
         <div className="absolute inset-0 grid place-items-center bg-parchment/95 p-6">
           <div className="max-w-md rounded-2xl border border-cinnabar/30 bg-parchment p-6 text-center shadow-panel">
-            <h2 className="font-serif text-xl text-cinnabar">地图加载失败</h2>
+            <h2 className="font-serif text-xl text-cinnabar">{t('map.errorTitle')}</h2>
             <p className="mt-3 text-sm leading-6 text-ink-soft">{error}</p>
             <p className="mt-3 text-xs leading-5 text-ink-soft/70">
-              请检查 apps/web/.env.local 中的 VITE_AMAP_KEY / VITE_AMAP_SECURITY_CODE，以及高德控制台的域名白名单。
+              {t('map.errorBody')}
             </p>
           </div>
         </div>

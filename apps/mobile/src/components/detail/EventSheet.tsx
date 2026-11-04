@@ -1,4 +1,5 @@
 import {
+  categoryLabel,
   formatDate,
   parseDateString,
   resolveLocalized,
@@ -11,6 +12,7 @@ import { DATA_BASE } from '../../data/client';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { colors, radii, spacing } from '../../theme';
 import { Markdown } from '../common/Markdown';
+import { useI18n } from '../../hooks/useI18n';
 
 export function EventSheet() {
   const dataset = useAtlasStore((state) => state.dataset);
@@ -18,6 +20,7 @@ export function EventSheet() {
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const currentTime = useAtlasStore((state) => state.currentTime);
   const mapView = useAtlasStore((state) => state.mapView);
+  const { locale, t, dateLocale } = useI18n();
 
   const event =
     selectedEventId && dataset ? dataset.eventsById.get(selectedEventId) : undefined;
@@ -25,11 +28,11 @@ export function EventSheet() {
   if (!event || !dataset) return null;
 
   const dateText = event.endDate
-    ? `${formatDate(parseDateString(event.date), 'zh-CN')} — ${formatDate(
+    ? `${formatDate(parseDateString(event.date), dateLocale)} — ${formatDate(
         parseDateString(event.endDate),
-        'zh-CN',
+        dateLocale,
       )}`
-    : formatDate(parseDateString(event.date), 'zh-CN');
+    : formatDate(parseDateString(event.date), dateLocale);
 
   const entities = event.entityIds
     .map((id) => dataset.entitiesById.get(id))
@@ -48,17 +51,17 @@ export function EventSheet() {
       queryParams.view = `${mapView.lng.toFixed(6)},${mapView.lat.toFixed(6)},${mapView.zoom.toFixed(2)}`;
     }
     const url = Linking.createURL(`/atlas/${dataset.manifest.id}`, { queryParams });
-    await Share.share({ title: resolveLocalized(event.name), message: url, url });
+    await Share.share({ title: resolveLocalized(event.name, locale), message: url, url });
   };
 
   return (
     <Modal visible animationType="slide" presentationStyle={Platform.OS === 'ios' ? 'pageSheet' : 'fullScreen'} onRequestClose={() => selectEvent(null)}>
       <SafeAreaView style={styles.safe} edges={['top', 'left', 'right', 'bottom']}>
         <View style={styles.header}>
-          <Text style={styles.category}>{event.category}</Text>
+          <Text style={styles.category}>{categoryLabel(event.category, locale)}</Text>
           <View style={styles.actions}>
             <Pressable style={styles.action} onPress={() => void share()}>
-              <Text style={styles.actionText}>分享</Text>
+              <Text style={styles.actionText}>{t('common.share')}</Text>
             </Pressable>
             <Pressable style={styles.close} onPress={() => selectEvent(null)}>
               <Text style={styles.closeText}>✕</Text>
@@ -67,31 +70,31 @@ export function EventSheet() {
         </View>
 
         <ScrollView contentContainerStyle={styles.content}>
-          <Text style={styles.title}>{resolveLocalized(event.name)}</Text>
+          <Text style={styles.title}>{resolveLocalized(event.name, locale)}</Text>
 
           <View style={styles.meta}>
-            <Text style={styles.metaLabel}>时间</Text>
+            <Text style={styles.metaLabel}>{t('common.time')}</Text>
             <Text style={styles.metaValue}>{dateText}</Text>
           </View>
           <View style={styles.meta}>
-            <Text style={styles.metaLabel}>地点</Text>
+            <Text style={styles.metaLabel}>{t('common.place')}</Text>
             <Text style={styles.metaValue}>
-              {resolveLocalized(event.location.place) ||
+              {resolveLocalized(event.location.place, locale) ||
                 `${event.location.lng}, ${event.location.lat}`}
             </Text>
           </View>
           <View style={styles.meta}>
-            <Text style={styles.metaLabel}>主体</Text>
+            <Text style={styles.metaLabel}>{t('common.entity')}</Text>
             <Text style={styles.metaValue}>
-              {entities.map((entity) => resolveLocalized(entity.name)).join('、')}
+              {entities.map((entity) => resolveLocalized(entity.name, locale)).join(locale === 'en' ? ', ' : '、')}
             </Text>
           </View>
 
-          <Text style={styles.summary}>{resolveLocalized(event.summary)}</Text>
+          <Text style={styles.summary}>{resolveLocalized(event.summary, locale)}</Text>
 
-          {resolveLocalized(event.description) ? (
+          {resolveLocalized(event.description, locale) ? (
             <View style={styles.markdown}>
-              <Markdown>{resolveLocalized(event.description)}</Markdown>
+              <Markdown>{resolveLocalized(event.description, locale)}</Markdown>
             </View>
           ) : null}
 
@@ -103,7 +106,7 @@ export function EventSheet() {
               <View key={image.src} style={styles.imageBlock}>
                 <Image source={{ uri }} style={styles.image} resizeMode="cover" />
                 {image.caption ? (
-                  <Text style={styles.caption}>{resolveLocalized(image.caption)}</Text>
+                  <Text style={styles.caption}>{resolveLocalized(image.caption, locale)}</Text>
                 ) : null}
                 <Text style={styles.imageUri}>{uri}</Text>
               </View>
@@ -112,11 +115,11 @@ export function EventSheet() {
 
           {related.length > 0 ? (
             <View style={styles.section}>
-              <Text style={styles.sectionTitle}>关联事件</Text>
+              <Text style={styles.sectionTitle}>{t('common.relatedEvents')}</Text>
               <View style={styles.relatedRow}>
                 {related.map((item) => (
                   <Pressable key={item.id} style={styles.related} onPress={() => selectEvent(item.id)}>
-                    <Text style={styles.relatedText}>{resolveLocalized(item.name)}</Text>
+                    <Text style={styles.relatedText}>{resolveLocalized(item.name, locale)}</Text>
                   </Pressable>
                 ))}
               </View>
@@ -125,7 +128,7 @@ export function EventSheet() {
 
           {event.sources?.length ? (
             <View style={styles.section}>
-              <Text style={styles.sectionTitle}>史料来源</Text>
+              <Text style={styles.sectionTitle}>{t('common.sources')}</Text>
               {event.sources.map((source) => (
                 <Text key={`${source.title}-${source.year ?? ''}`} style={styles.source}>
                   {source.title}
