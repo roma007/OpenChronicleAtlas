@@ -109,6 +109,8 @@ export function GalleryScreen({ navigation }: Props) {
           return (
             <Pressable
               style={styles.card}
+              accessibilityRole="button"
+              accessibilityLabel={title}
               onPress={() => navigation.navigate('Atlas', { atlasId: item.id })}
             >
               {item.cover ? (

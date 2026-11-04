@@ -11,7 +11,11 @@ export function PwaUpdatePrompt() {
   if (!needRefresh) return null;
 
   return (
-    <div className="fixed left-1/2 top-20 z-[70] w-[min(92vw,28rem)] -translate-x-1/2 rounded-2xl border border-cinnabar/20 bg-parchment/95 p-3 shadow-panel backdrop-blur">
+    <div
+      role="status"
+      aria-live="polite"
+      className="fixed left-1/2 top-20 z-[70] w-[min(92vw,28rem)] -translate-x-1/2 rounded-2xl border border-cinnabar/20 bg-parchment/95 p-3 shadow-panel backdrop-blur"
+    >
       <div className="flex flex-wrap items-center gap-2">
         <p className="min-w-0 flex-1 text-sm font-medium text-ink">
           {t('pwa.updateAvailable')}

@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { OfflineBanner } from './components/layout/OfflineBanner';
+import { SkipLink } from './components/layout/SkipLink';
 import { PwaUpdatePrompt } from './components/layout/PwaUpdatePrompt';
 import { AboutPage } from './pages/AboutPage';
 import { AtlasGalleryPage } from './pages/AtlasGalleryPage';
@@ -10,6 +11,7 @@ import { SearchPage } from './pages/SearchPage';
 export function App() {
   return (
     <>
+      <SkipLink />
       <OfflineBanner />
       <PwaUpdatePrompt />
       <Routes>

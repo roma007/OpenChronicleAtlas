@@ -123,7 +123,7 @@ export function SearchPage() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-4xl px-5 py-8 sm:px-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-4xl px-5 py-8 sm:px-8">
         {loading && !datasets ? (
           <div className="space-y-3">
             {[0, 1, 2].map((item) => (

@@ -34,7 +34,7 @@ export function PrivacyPage() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-3xl space-y-6 px-5 py-8 text-sm leading-7 text-ink-soft sm:px-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-3xl space-y-6 px-5 py-8 text-sm leading-7 text-ink-soft sm:px-8">
         {SECTIONS.map((section, index) => (
           <section key={section.title}>
             <h2 className="font-serif text-lg font-semibold text-ink">

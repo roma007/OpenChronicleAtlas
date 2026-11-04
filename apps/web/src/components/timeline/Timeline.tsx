@@ -218,7 +218,7 @@ export function Timeline() {
               <span className="shrink-0 font-medium tabular-nums text-ink">
                 {formatDate(currentTime, dateLocale)}
               </span>
-              <span className="truncate text-ink-soft/70">
+              <span className="truncate text-ink-soft/70" aria-live="polite" aria-atomic="true">
                 {currentEvent ? resolveLocalized(currentEvent.name, locale) : t('timeline.hint')}
               </span>
               <span className="hidden shrink-0 tabular-nums text-ink-soft/60 sm:inline">
@@ -261,6 +261,7 @@ export function Timeline() {
                       eventStart(marker.event),
                       dateLocale,
                     )}`}
+                    aria-current={active ? 'true' : undefined}
                     title={resolveLocalized(marker.event.name, locale)}
                     onClick={() => {
                       pause();

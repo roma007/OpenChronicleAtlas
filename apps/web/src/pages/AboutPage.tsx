@@ -46,7 +46,7 @@ export function AboutPage() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-3xl space-y-4 px-5 py-8 text-sm leading-7 text-ink-soft sm:px-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-3xl space-y-4 px-5 py-8 text-sm leading-7 text-ink-soft sm:px-8">
         <section className="rounded-2xl border border-ink/10 bg-parchment p-5 shadow-sm">
           <dl className="space-y-2">
             <div className="flex justify-between gap-4">

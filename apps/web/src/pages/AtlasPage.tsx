@@ -80,7 +80,7 @@ export function AtlasPage() {
   const manifest = dataset && dataset.manifest.id === atlasId ? dataset.manifest : null;
 
   return (
-    <div className="relative h-screen w-screen overflow-hidden bg-ink">
+    <div id="main-content" tabIndex={-1} className="relative h-screen w-screen overflow-hidden bg-ink outline-none">
       <MapCanvas />
 
       <header className="pointer-events-none absolute inset-x-0 top-0 z-30">

@@ -49,7 +49,7 @@ export function AtlasGalleryPage() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-6xl px-5 py-10 sm:px-8 md:py-14">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-6xl px-5 py-10 sm:px-8 md:py-14">
         <div className="mb-6 flex items-baseline justify-between">
           <h2 className="font-serif text-xl tracking-widest text-ink">{t('gallery.subtitle')}</h2>
           <span className="text-xs text-ink-soft">

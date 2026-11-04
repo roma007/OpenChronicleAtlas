@@ -5,7 +5,7 @@ import {
   resolveLocalized,
   toDateString,
 } from '@atlas/shared';
-import { lazy, Suspense, useEffect } from 'react';
+import { lazy, Suspense, useEffect, useRef } from 'react';
 import { dataUrl } from '../../data/client';
 import { useShare } from '../../hooks/useShare';
 import { useAtlasStore } from '../../stores/useAtlasStore';
@@ -25,17 +25,29 @@ export function EventDetailPanel() {
   const filters = useAtlasStore((state) => state.filters);
   const { share, lastResult } = useShare();
   const { locale, t, dateLocale } = useI18n();
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
+  const previousFocusRef = useRef<HTMLElement | null>(null);
 
   const event =
     selectedEventId && dataset ? dataset.eventsById.get(selectedEventId) : undefined;
 
   useEffect(() => {
     if (!event) return;
+    previousFocusRef.current =
+      document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    const frame = window.requestAnimationFrame(() => closeButtonRef.current?.focus());
+
     const onKeyDown = (keyboardEvent: KeyboardEvent) => {
       if (keyboardEvent.key === 'Escape') selectEvent(null);
     };
     window.addEventListener('keydown', onKeyDown);
-    return () => window.removeEventListener('keydown', onKeyDown);
+
+    return () => {
+      window.cancelAnimationFrame(frame);
+      window.removeEventListener('keydown', onKeyDown);
+      const previous = previousFocusRef.current;
+      if (previous && document.contains(previous)) previous.focus();
+    };
   }, [event, selectEvent]);
 
   if (!event || !dataset) return null;
@@ -72,7 +84,10 @@ export function EventDetailPanel() {
 
   return (
     <aside
-      aria-label={t('detail.title')}
+      role="dialog"
+      aria-modal="false"
+      aria-labelledby="event-detail-title"
+      aria-label={t('a11y.eventDialog')}
       className="atlas-scrollbar absolute inset-x-0 bottom-0 z-40 max-h-[72vh] overflow-y-auto rounded-t-2xl border-t border-ink/10 bg-parchment p-5 shadow-panel md:inset-y-auto md:bottom-44 md:left-auto md:right-6 md:top-24 md:max-h-[calc(100vh-16rem)] md:w-[26rem] md:rounded-2xl md:border"
     >
       <div className="flex items-start justify-between gap-4">
@@ -89,6 +104,7 @@ export function EventDetailPanel() {
             {lastResult === 'copied' || lastResult === 'shared' ? t('common.shared') : t('common.share')}
           </button>
           <button
+            ref={closeButtonRef}
             type="button"
             aria-label={t('detail.close')}
             onClick={() => selectEvent(null)}
@@ -99,7 +115,10 @@ export function EventDetailPanel() {
         </div>
       </div>
 
-      <h2 className="mt-3 font-serif text-2xl font-semibold leading-snug tracking-wide text-ink">
+      <h2
+        id="event-detail-title"
+        className="mt-3 font-serif text-2xl font-semibold leading-snug tracking-wide text-ink"
+      >
         {resolveLocalized(event.name, locale)}
       </h2>
 

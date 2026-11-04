@@ -159,7 +159,11 @@ export function Timeline() {
           <View style={styles.main}>
             <View style={styles.labelRow}>
               <Text style={styles.dateLabel}>{formatDate(currentTime, dateLocale)}</Text>
-              <Text style={styles.eventLabel} numberOfLines={1}>
+              <Text
+                style={styles.eventLabel}
+                numberOfLines={1}
+                accessibilityLiveRegion="polite"
+              >
                 {currentEvent ? resolveLocalized(currentEvent.name, locale) : t('timeline.hint')}
               </Text>
             </View>
@@ -201,6 +205,7 @@ export function Timeline() {
                     }}
                     hitSlop={6}
                     accessibilityRole="button"
+                    accessibilityState={{ selected: active }}
                     accessibilityLabel={`${resolveLocalized(marker.event.name, locale)}，${formatDate(
                       eventStart(marker.event),
                       dateLocale,
