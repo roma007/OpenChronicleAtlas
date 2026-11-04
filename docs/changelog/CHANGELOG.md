@@ -6,13 +6,47 @@
 ## [Unreleased]
 
 ### Added
-- M4 方案：移动端 React Navigation + expo-gaode-map、同一套数据、双端打包与三端一致性；新增 plan/design/ADR-0007（待确认后实施）。
+- 无。
 
 ### Changed
 - 无。
 
 ### Fixed
 - 无。
+
+---
+
+## [v0.4.0-m4] - 2026-11-04
+
+### Added
+- 移动端 React Navigation（Gallery / Atlas / Search）与高德地图 `expo-gaode-map`。
+- 移动端时间轴：拖动、播放/暂停、倍速、日期输入、刻度自适应。
+- 移动端详情底部抽屉：Markdown、图片、来源、关联事件、系统分享。
+- 移动端搜索与筛选（实体、类型、时间段）。
+- 隐私同意页；Android 屏蔽定位权限。
+- 深链 `atlas://` 与 `Share.share`。
+- Android release APK（release keystore 签名）、`configure-android-release.mjs` 构建脚本。
+- 封面 JPEG（RN 不支持 SVG）。
+
+### Changed
+- shared 中文日期改为手动格式化，兼容 Hermes 缺少 locale 数据。
+- Android release 使用全屏 Modal 展示详情/筛选。
+- Android 开发数据允许 cleartext（`expo-build-properties`）。
+
+### Fixed
+- 修复 Metro 在 pnpm monorepo 下无法解析 `invariant` 的问题（移除 `disableHierarchicalLookup`）。
+- 修复 R8 缺少 AMap 可选类导致的 release 构建失败（ProGuard `-dontwarn`）。
+
+### Known Issues
+- iOS 因 AMap SDK 无 arm64 模拟器切片，当前 arm64 Mac 模拟器无法运行；需真机 + Apple 账号出 IPA。
+- Android 详情抽屉在 TV 模拟器上宽度异常，待手机真机复验。
+
+### Docs
+- `docs/plans/2026-11-03-M4-移动端打包与三端一致性-plan.md`
+- `docs/plans/2026-11-03-M4-移动端打包与三端一致性-design.md`
+- `docs/decisions/ADR-0007-移动端架构与构建发布方案.md`
+- `docs/conversations/2026-11-03-M4启动与移动端打包方案.md`
+- `docs/releases/2026-11-04-v0.4.0-m4.md`
 
 ---
 
