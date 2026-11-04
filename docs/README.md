@@ -134,6 +134,7 @@ docs/
 - [v0.11.0-m11（M11）](releases/2026-11-04-v0.11.0-m11.md)
 - [v0.12.0-m12（M12）](releases/2026-11-04-v0.12.0-m12.md)
 - [v0.13.0-m13（M13）](releases/2026-11-04-v0.13.0-m13.md)
+- [v0.14.0-m14（M14）](releases/2026-11-04-v0.14.0-m14.md)
 - [全项目收尾审计（M1–M5）](releases/2026-11-04-final-audit.md)
 - [商店上架元数据（草稿）](releases/store-metadata.md)
 - [商店截图（准备中）](releases/screenshots/README.md)
