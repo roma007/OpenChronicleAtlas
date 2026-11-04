@@ -227,6 +227,29 @@ export function Timeline() {
             </div>
 
             <div className="relative mt-1 h-4">
+              {markers
+                .filter((marker) => marker.endRatio > marker.ratio)
+                .map((marker) => {
+                  const active = marker.event.id === currentEvent?.id;
+                  const past = eventStart(marker.event) <= currentTime;
+                  return (
+                    <div
+                      key={`bar-${marker.event.id}`}
+                      aria-hidden
+                      className={`absolute top-1/2 h-1 -translate-y-1/2 rounded-full ${
+                        active
+                          ? 'bg-cinnabar/40'
+                          : past
+                            ? 'bg-cinnabar/20'
+                            : 'bg-ink/10'
+                      }`}
+                      style={{
+                        left: `${marker.ratio * 100}%`,
+                        width: `${Math.max(0.2, (marker.endRatio - marker.ratio) * 100)}%`,
+                      }}
+                    />
+                  );
+                })}
               {markers.map((marker) => {
                 const active = marker.event.id === currentEvent?.id;
                 const past = eventStart(marker.event) <= currentTime;

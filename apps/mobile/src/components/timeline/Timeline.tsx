@@ -165,6 +165,29 @@ export function Timeline() {
             </View>
 
             <View style={styles.markerLane}>
+              {markers
+                .filter((marker) => marker.endRatio > marker.ratio)
+                .map((marker) => {
+                  const active = marker.event.id === currentEvent?.id;
+                  const past = eventStart(marker.event) <= currentTime;
+                  return (
+                    <View
+                      key={`bar-${marker.event.id}`}
+                      style={[
+                        styles.markerBar,
+                        active
+                          ? styles.markerBarActive
+                          : past
+                            ? styles.markerBarPast
+                            : styles.markerBarFuture,
+                        {
+                          left: `${marker.ratio * 100}%`,
+                          width: `${Math.max(0.2, (marker.endRatio - marker.ratio) * 100)}%`,
+                        },
+                      ]}
+                    />
+                  );
+                })}
               {markers.map((marker) => {
                 const active = marker.event.id === currentEvent?.id;
                 const past = eventStart(marker.event) <= currentTime;
@@ -313,6 +336,16 @@ const styles = StyleSheet.create({
   dateLabel: { fontSize: 11, color: colors.ink, fontWeight: '600' },
   eventLabel: { flex: 1, textAlign: 'right', fontSize: 10, color: colors.inkSoft },
   markerLane: { height: 14, marginTop: 2 },
+  markerBar: {
+    position: 'absolute',
+    top: 5,
+    height: 3,
+    borderRadius: 2,
+    minWidth: 2,
+  },
+  markerBarPast: { backgroundColor: colors.cinnabar + '33' },
+  markerBarFuture: { backgroundColor: colors.ink + '18' },
+  markerBarActive: { backgroundColor: colors.cinnabar + '66' },
   marker: {
     position: 'absolute',
     top: 4,
