@@ -38,6 +38,12 @@ export function diffDays(a: AtlasTime, b: AtlasTime): number {
 }
 
 export function formatDate(t: AtlasTime, locale = 'zh-CN'): string {
+  // Hermes 的 Intl 可能缺少中文 locale 数据，中文走手动格式化保证三端一致
+  if (locale.toLowerCase().startsWith('zh')) {
+    const date = new Date(t);
+    return `${date.getUTCFullYear()}年${date.getUTCMonth() + 1}月${date.getUTCDate()}日`;
+  }
+
   return new Intl.DateTimeFormat(locale, {
     year: 'numeric',
     month: 'long',

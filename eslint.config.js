@@ -25,7 +25,10 @@ export default tseslint.config(
     },
   },
   {
-    files: ['**/*.config.{js,ts}', 'scripts/**/*.ts'],
+    files: ['**/*.config.{js,ts}', 'scripts/**/*.ts', 'apps/mobile/scripts/**/*.mjs'],
+    languageOptions: {
+      globals: { process: 'readonly', console: 'readonly', __dirname: 'readonly' },
+    },
     rules: { '@typescript-eslint/no-require-imports': 'off' },
   },
   {
