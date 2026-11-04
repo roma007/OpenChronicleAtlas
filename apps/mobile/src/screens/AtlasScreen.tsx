@@ -1,4 +1,4 @@
-import { parseDateString, resolveLocalized } from '@atlas/shared';
+import { EMPTY_FILTERS, parseDateString, resolveLocalized } from '@atlas/shared';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { useEffect, useRef, useState } from 'react';
 import {
@@ -22,7 +22,7 @@ import { useI18n } from '../hooks/useI18n';
 type Props = NativeStackScreenProps<RootStackParamList, 'Atlas'>;
 
 export function AtlasScreen({ route, navigation }: Props) {
-  const { atlasId, t: initialTime, event: eventId } = route.params;
+  const { atlasId, t: initialTime, event: eventId, share } = route.params;
   const insets = useSafeAreaInsets();
 
   const dataset = useAtlasStore((state) => state.dataset);
@@ -33,6 +33,9 @@ export function AtlasScreen({ route, navigation }: Props) {
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const pause = useAtlasStore((state) => state.pause);
   const fromCache = useAtlasStore((state) => state.fromCache);
+  const setLocale = useAtlasStore((state) => state.setLocale);
+  const setActiveEntities = useAtlasStore((state) => state.setActiveEntities);
+  const setFilters = useAtlasStore((state) => state.setFilters);
   const { locale, t } = useI18n();
 
   const appliedRef = useRef(false);
@@ -51,6 +54,16 @@ export function AtlasScreen({ route, navigation }: Props) {
     appliedRef.current = true;
 
     pause();
+    if (share?.locale) setLocale(share.locale);
+    if (share?.entities) setActiveEntities(share.entities);
+    if (share?.categories || share?.from || share?.to) {
+      setFilters({
+        ...EMPTY_FILTERS,
+        categories: share.categories ?? [],
+        from: share.from,
+        to: share.to,
+      });
+    }
     if (initialTime) {
       try {
         setCurrentTime(parseDateString(initialTime));
@@ -61,7 +74,18 @@ export function AtlasScreen({ route, navigation }: Props) {
     if (eventId && dataset.eventsById.has(eventId)) {
       selectEvent(eventId);
     }
-  }, [dataset, initialTime, eventId, pause, setCurrentTime, selectEvent]);
+  }, [
+    dataset,
+    initialTime,
+    eventId,
+    share,
+    pause,
+    setLocale,
+    setActiveEntities,
+    setFilters,
+    setCurrentTime,
+    selectEvent,
+  ]);
 
   const manifest = dataset && dataset.manifest.id === atlasId ? dataset.manifest : null;
 

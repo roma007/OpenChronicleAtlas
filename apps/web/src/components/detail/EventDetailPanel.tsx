@@ -21,6 +21,8 @@ export function EventDetailPanel() {
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const currentTime = useAtlasStore((state) => state.currentTime);
   const mapView = useAtlasStore((state) => state.mapView);
+  const activeEntityIds = useAtlasStore((state) => state.activeEntityIds);
+  const filters = useAtlasStore((state) => state.filters);
   const { share, lastResult } = useShare();
   const { locale, t, dateLocale } = useI18n();
 
@@ -60,6 +62,11 @@ export function EventDetailPanel() {
       time: toDateString(currentTime),
       eventId: event.id,
       view: mapView ?? undefined,
+      locale,
+      entities: [...activeEntityIds],
+      categories: filters.categories,
+      from: filters.from,
+      to: filters.to,
     });
   };
 

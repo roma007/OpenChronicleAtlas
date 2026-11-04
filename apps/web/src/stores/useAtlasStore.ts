@@ -61,6 +61,7 @@ interface AtlasState {
   loadAtlas(atlasId: string): Promise<void>;
   selectEvent(eventId: string | null): void;
   toggleEntity(entityId: string): void;
+  setActiveEntities(ids: string[]): void;
 
   setLocale(locale: Locale): void;
   setFilters(filters: AtlasFilters): void;
@@ -148,6 +149,15 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
 
   selectEvent(eventId) {
     set({ selectedEventId: eventId });
+  },
+
+  setActiveEntities(ids) {
+    const dataset = get().dataset;
+    if (!dataset) return;
+    const valid = new Set(dataset.manifest.entities.map((entity) => entity.id));
+    const next = ids.filter((id) => valid.has(id));
+    if (next.length === 0) return;
+    set({ activeEntityIds: new Set(next) });
   },
 
   toggleEntity(entityId) {

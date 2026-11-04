@@ -54,6 +54,7 @@ interface MobileAtlasState {
   selectEvent(eventId: string | null): void;
   setBubbleEvent(eventId: string | null): void;
   toggleEntity(entityId: string): void;
+  setActiveEntities(ids: string[]): void;
   setLocale(locale: Locale): void;
   hydrateLocale(): Promise<void>;
   clearCache(): Promise<void>;
@@ -143,6 +144,15 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
 
   setBubbleEvent(eventId) {
     set({ bubbleEventId: eventId });
+  },
+
+  setActiveEntities(ids) {
+    const dataset = get().dataset;
+    if (!dataset) return;
+    const valid = new Set(dataset.manifest.entities.map((entity) => entity.id));
+    const next = ids.filter((id) => valid.has(id));
+    if (next.length === 0) return;
+    set({ activeEntityIds: new Set(next) });
   },
 
   toggleEntity(entityId) {

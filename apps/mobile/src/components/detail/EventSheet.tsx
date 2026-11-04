@@ -20,6 +20,8 @@ export function EventSheet() {
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const currentTime = useAtlasStore((state) => state.currentTime);
   const mapView = useAtlasStore((state) => state.mapView);
+  const activeEntityIds = useAtlasStore((state) => state.activeEntityIds);
+  const filters = useAtlasStore((state) => state.filters);
   const { locale, t, dateLocale } = useI18n();
 
   const event =
@@ -46,7 +48,14 @@ export function EventSheet() {
     const queryParams: Record<string, string> = {
       t: toDateString(currentTime),
       event: event.id,
+      lang: locale,
+      entities: [...activeEntityIds].join(','),
     };
+    if (filters.categories.length > 0) {
+      queryParams.categories = filters.categories.join(',');
+    }
+    if (filters.from) queryParams.from = filters.from;
+    if (filters.to) queryParams.to = filters.to;
     if (mapView) {
       queryParams.view = `${mapView.lng.toFixed(6)},${mapView.lat.toFixed(6)},${mapView.zoom.toFixed(2)}`;
     }

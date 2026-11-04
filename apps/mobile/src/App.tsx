@@ -24,21 +24,30 @@ import { LanguageToggle } from './components/common/LanguageToggle';
 import { useI18n } from './hooks/useI18n';
 import { useAtlasStore } from './stores/useAtlasStore';
 import type { RootStackParamList } from './navigation/types';
+import { decodeShareState, type ShareState } from '@atlas/shared';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 const navigationRef = createNavigationContainerRef<RootStackParamList>();
 
-function parseDeepLink(url: string): { atlasId: string; t?: string; event?: string } | null {
+function parseDeepLink(
+  url: string,
+): { atlasId: string; t?: string; event?: string; share?: ShareState } | null {
   try {
     const parsed = Linking.parse(url);
     const path = parsed.path ?? '';
     const match = /^atlas\/([a-z0-9-]+)$/.exec(path);
     if (!match) return null;
     const query = parsed.queryParams ?? {};
+    const params = new URLSearchParams();
+    for (const [key, value] of Object.entries(query)) {
+      if (typeof value === 'string') params.set(key, value);
+    }
+    const share = decodeShareState(params) ?? undefined;
     return {
       atlasId: match[1]!,
-      t: typeof query.t === 'string' ? query.t : undefined,
-      event: typeof query.event === 'string' ? query.event : undefined,
+      t: share?.time,
+      event: share?.eventId,
+      share,
     };
   } catch {
     return null;

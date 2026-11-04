@@ -1,4 +1,9 @@
-import { decodeShareState, parseDateString, resolveLocalized } from '@atlas/shared';
+import {
+  EMPTY_FILTERS,
+  decodeShareState,
+  parseDateString,
+  resolveLocalized,
+} from '@atlas/shared';
 import { useEffect, useRef, useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { EventDetailPanel } from '../components/detail/EventDetailPanel';
@@ -21,6 +26,9 @@ export function AtlasPage() {
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const requestView = useAtlasStore((state) => state.requestView);
   const pause = useAtlasStore((state) => state.pause);
+  const setLocale = useAtlasStore((state) => state.setLocale);
+  const setActiveEntities = useAtlasStore((state) => state.setActiveEntities);
+  const setFilters = useAtlasStore((state) => state.setFilters);
   const { locale, t } = useI18n();
 
   const appliedShareRef = useRef(false);
@@ -42,12 +50,32 @@ export function AtlasPage() {
     if (!state) return;
 
     pause();
+    if (state.locale) setLocale(state.locale);
+    if (state.entities) setActiveEntities(state.entities);
+    if (state.categories || state.from || state.to) {
+      setFilters({
+        ...EMPTY_FILTERS,
+        categories: state.categories ?? [],
+        from: state.from,
+        to: state.to,
+      });
+    }
     if (state.time) setCurrentTime(parseDateString(state.time));
     if (state.eventId && dataset.eventsById.has(state.eventId)) {
       selectEvent(state.eventId);
     }
     if (state.view) requestView(state.view);
-  }, [dataset, searchParams, pause, setCurrentTime, selectEvent, requestView]);
+  }, [
+    dataset,
+    searchParams,
+    pause,
+    setLocale,
+    setActiveEntities,
+    setFilters,
+    setCurrentTime,
+    selectEvent,
+    requestView,
+  ]);
 
   const manifest = dataset && dataset.manifest.id === atlasId ? dataset.manifest : null;
 
