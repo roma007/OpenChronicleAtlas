@@ -28,6 +28,7 @@
 - Vercel 临时预览部署（两专题、隐私页、深链）。
 - Vercel SPA rewrites（/search、/privacy、/atlas/*）。
 - 商店截图（Web 移动端占位，iOS/Android 各 4 张）与 Feature Graphic。
+- 全项目收尾审计报告（M1–M5），四包版本统一为 0.5.0。
 
 ### Changed
 - 首页页脚更新为 M5 示例数据。
