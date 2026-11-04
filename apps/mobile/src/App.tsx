@@ -101,6 +101,15 @@ export default function App() {
             >
               <Text style={styles.link}>查看《高德地图开放平台隐私权政策》</Text>
             </Pressable>
+            {process.env.EXPO_PUBLIC_PRIVACY_URL ? (
+              <Pressable
+                onPress={() => {
+                  void RNLinking.openURL(process.env.EXPO_PUBLIC_PRIVACY_URL!);
+                }}
+              >
+                <Text style={styles.link}>查看本应用隐私政策</Text>
+              </Pressable>
+            ) : null}
             <Pressable style={styles.primaryButton} onPress={agreePrivacy}>
               <Text style={styles.primaryButtonText}>同意并继续</Text>
             </Pressable>

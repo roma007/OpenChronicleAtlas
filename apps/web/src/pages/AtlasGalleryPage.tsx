@@ -88,9 +88,9 @@ export function AtlasGalleryPage() {
       </main>
 
       <footer className="border-t border-ink/10 px-5 py-8 text-center text-xs leading-6 text-ink-soft/70">
-        史迹 · 时空地图 — M1 静态地图验证版
+        史迹 · 时空地图 — M5 示例数据
         <br />
-        数据为示意初稿，待史料校订
+        数据为示意初稿，待史料校订 · <Link to="/privacy" className="underline decoration-ink/20 underline-offset-2 hover:text-cinnabar">隐私政策</Link>
       </footer>
     </div>
   );

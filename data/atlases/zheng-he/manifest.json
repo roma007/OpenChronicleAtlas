@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "zheng-he",
+  "title": {
+    "zh": "郑和下西洋"
+  },
+  "subtitle": {
+    "zh": "1405—1433"
+  },
+  "timeRange": {
+    "start": "1405-07-11",
+    "end": "1433-07-22"
+  },
+  "cover": "assets/cover.jpg",
+  "description": {
+    "zh": "1405 年至 1433 年，明朝郑和率船队七次远航，经东南亚、印度洋到达波斯湾与非洲东岸。\n\n> 本数据为 M5 示例初稿：航线为示意简化，事件日期、地点与表述待史料校订。"
+  },
+  "defaultView": {
+    "center": [
+      80,
+      12
+    ],
+    "zoom": 3
+  },
+  "routes": [
+    "routes/voyages.geojson"
+  ],
+  "events": [
+    "events/events.json"
+  ],
+  "entities": [
+    {
+      "id": "ming-fleet",
+      "name": {
+        "zh": "明朝宝船队"
+      },
+      "color": "#1f5f8b",
+      "order": 1,
+      "description": {
+        "zh": "郑和统率的主力船队，七下西洋。"
+      }
+    },
+    {
+      "id": "detached-squadron",
+      "name": {
+        "zh": "分䑸"
+      },
+      "color": "#b8863b",
+      "order": 2,
+      "description": {
+        "zh": "分头访问沿途邦国的支队。"
+      }
+    },
+    {
+      "id": "port-states",
+      "name": {
+        "zh": "沿途邦国"
+      },
+      "color": "#5b7f6b",
+      "order": 3,
+      "description": {
+        "zh": "满剌加、古里、忽鲁谟斯等港口与邦国。"
+      }
+    }
+  ],
+  "tags": [
+    "中国历史",
+    "航海",
+    "明代"
+  ],
+  "license": "CC-BY-4.0（数据初稿，待校订）",
+  "updatedAt": "2026-11-04"
+}
