@@ -6,7 +6,7 @@
 ## [Unreleased]
 
 ### Added
-- 无。
+- M5 方案：第二专题（郑和下西洋）、图标/启动图、隐私政策、Vercel/Cloudflare 部署；新增 plan/design/ADR-0008（待确认后实施）。
 
 ### Changed
 - 无。
