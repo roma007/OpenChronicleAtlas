@@ -41,7 +41,15 @@ VITE_AMAP_SECURITY_CODE=...
 VITE_AMAP_STYLE_ID=（可选）
 ```
 
-6. 部署后访问：
+6. 无账号时可先创建临时预览（60 分钟，需 claim）：
+
+```bash
+npx vercel deploy --temporary --yes \
+  --build-env VITE_AMAP_KEY=... \
+  --build-env VITE_AMAP_SECURITY_CODE=...
+```
+
+7. 部署后访问：
    - `https://<domain>/`
    - `https://<domain>/search`
    - `https://<domain>/privacy`

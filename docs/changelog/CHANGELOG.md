@@ -25,6 +25,8 @@
 - 应用图标、Android 自适应图标、启动图、favicon。
 - `vercel.json`、`wrangler.toml`、部署指南与商店元数据草稿。
 - 移动端 0.5.0 / versionCode 2，Android APK 重建。
+- Vercel 临时预览部署（两专题、隐私页、深链）。
+- Vercel SPA rewrites（/search、/privacy、/atlas/*）。
 
 ### Changed
 - 首页页脚更新为 M5 示例数据。
