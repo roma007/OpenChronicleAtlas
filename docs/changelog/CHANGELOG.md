@@ -16,6 +16,30 @@
 
 ---
 
+## [v0.15.0-m15] - 2026-11-05
+
+### Added
+- PWA 新版本提示与手动刷新（`registerType: 'prompt'`）。
+- `/about` 关于页：版本、数据契约、地图服务、缓存管理、仓库链接。
+- Web 缓存占用/条目显示与清除入口。
+- 关于/更新/缓存相关中英文案。
+
+### Changed
+- 四包版本统一为 `0.15.0`；Android `versionCode` 升为 12。
+- 新增依赖 `workbox-window`。
+- `vercel.json` 增加 `/about` rewrite。
+
+### Fixed
+- 修复 PWA 新版本静默接管、用户无法选择刷新时机的问题。
+
+### Docs
+- `docs/plans/2026-11-05-M15-更新提示与关于页-plan.md`
+- `docs/plans/2026-11-05-M15-更新提示与关于页-design.md`
+- `docs/releases/2026-11-05-v0.15.0-m15.md`
+- `docs/conversations/2026-11-05-M15启动与更新提示关于页方案.md`
+
+---
+
 ## [v0.14.0-m14] - 2026-11-04
 
 ### Added
