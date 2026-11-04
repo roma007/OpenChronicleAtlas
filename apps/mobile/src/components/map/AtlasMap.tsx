@@ -64,11 +64,13 @@ export function AtlasMap() {
         const geometry = geometries.get(key);
         const start = new Date(`${route.properties.startDate}T00:00:00Z`).getTime();
         const end = new Date(`${route.properties.endDate}T00:00:00Z`).getTime();
-        const progress =
-          end === start ? (currentTime >= end ? 1 : 0) : (currentTime - start) / (end - start);
+        const rawProgress =
+          end === start ? (currentTime >= end ? 1 : -1) : (currentTime - start) / (end - start);
+        // 起点当天也显示一小段，避免路线在出发日完全消失
+        const progress = rawProgress === 0 ? 0.001 : Math.min(1, rawProgress);
         const points =
           geometry && progress > 0
-            ? partialPathAt(geometry, Math.min(1, progress)).map(([lng, lat]) => toGcj(lng, lat))
+            ? partialPathAt(geometry, progress).map(([lng, lat]) => toGcj(lng, lat))
             : [];
         const entity = dataset.entitiesById.get(route.properties.entityId);
         return { key, points, color: entity?.color ?? colors.cinnabar };

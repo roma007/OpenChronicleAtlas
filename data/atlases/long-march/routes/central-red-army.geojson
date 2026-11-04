@@ -13,36 +13,16 @@
           [
             115.41,
             25.95
-          ],
-          [
-            113.68,
-            25.55
-          ],
-          [
-            112.95,
-            25.4
-          ],
-          [
-            111.6,
-            25.53
-          ],
-          [
-            111.07,
-            25.93
-          ],
-          [
-            110.67,
-            25.61
           ]
         ]
       },
       "properties": {
         "entityId": "central-red-army",
         "startDate": "1934-10-10",
-        "endDate": "1934-11-30",
+        "endDate": "1934-10-17",
         "order": 1,
         "name": {
-          "zh": "突破封锁线至湘江"
+          "zh": "瑞金—于都"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
@@ -55,9 +35,97 @@
         "type": "LineString",
         "coordinates": [
           [
-            110.67,
-            25.61
+            115.41,
+            25.95
           ],
+          [
+            113.68,
+            25.55
+          ],
+          [
+            112.95,
+            25.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1934-10-18",
+        "endDate": "1934-11-13",
+        "order": 2,
+        "name": {
+          "zh": "于都—宜章（突破第三道封锁线）"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.95,
+            25.4
+          ],
+          [
+            111.6,
+            25.53
+          ],
+          [
+            111.07,
+            25.93
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1934-11-14",
+        "endDate": "1934-11-27",
+        "order": 3,
+        "name": {
+          "zh": "宜章—湘江"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.07,
+            25.93
+          ],
+          [
+            109.78,
+            26.16
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1934-11-28",
+        "endDate": "1934-12-12",
+        "order": 4,
+        "name": {
+          "zh": "湘江—通道"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             109.78,
             26.16
@@ -65,7 +133,55 @@
           [
             109.14,
             26.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1934-12-13",
+        "endDate": "1934-12-18",
+        "order": 5,
+        "name": {
+          "zh": "通道—黎平"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.14,
+            26.23
           ],
+          [
+            107.47,
+            27.07
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1934-12-19",
+        "endDate": "1934-12-31",
+        "order": 6,
+        "name": {
+          "zh": "黎平—猴场"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             107.47,
             27.07
@@ -78,11 +194,11 @@
       },
       "properties": {
         "entityId": "central-red-army",
-        "startDate": "1934-12-01",
-        "endDate": "1935-01-14",
-        "order": 2,
+        "startDate": "1935-01-01",
+        "endDate": "1935-01-15",
+        "order": 7,
         "name": {
-          "zh": "通道—黎平—猴场—遵义"
+          "zh": "猴场—遵义"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
@@ -94,26 +210,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            106.92,
-            27.72
-          ],
-          [
-            106.19,
-            28.33
-          ],
-          [
-            105.7,
-            28.58
-          ],
-          [
-            105.81,
-            28.18
-          ],
-          [
-            106.4,
-            27.79
-          ],
           [
             106.92,
             27.72
@@ -126,11 +222,11 @@
       },
       "properties": {
         "entityId": "central-red-army",
-        "startDate": "1935-01-15",
-        "endDate": "1935-03-21",
-        "order": 3,
+        "startDate": "1935-01-16",
+        "endDate": "1935-01-28",
+        "order": 8,
         "name": {
-          "zh": "四渡赤水（示意）"
+          "zh": "遵义—土城"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
@@ -145,6 +241,122 @@
           [
             106.19,
             28.33
+          ],
+          [
+            105.81,
+            28.18
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-01-29",
+        "endDate": "1935-02-18",
+        "order": 9,
+        "name": {
+          "zh": "土城—太平渡（一渡、二渡）"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.81,
+            28.18
+          ],
+          [
+            106.92,
+            27.72
+          ],
+          [
+            106.83,
+            27.95
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-02-19",
+        "endDate": "1935-02-25",
+        "order": 10,
+        "name": {
+          "zh": "太平渡—娄山关"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.83,
+            27.95
+          ],
+          [
+            106.4,
+            27.79
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-02-26",
+        "endDate": "1935-03-16",
+        "order": 11,
+        "name": {
+          "zh": "娄山关—茅台（三渡）"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.4,
+            27.79
+          ],
+          [
+            105.81,
+            28.18
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-03-17",
+        "endDate": "1935-03-21",
+        "order": 12,
+        "name": {
+          "zh": "茅台—太平渡（四渡）"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.81,
+            28.18
           ],
           [
             106.63,
@@ -163,8 +375,8 @@
       "properties": {
         "entityId": "central-red-army",
         "startDate": "1935-03-22",
-        "endDate": "1935-05-08",
-        "order": 4,
+        "endDate": "1935-05-03",
+        "order": 13,
         "name": {
           "zh": "佯攻贵阳—巧渡金沙江"
         },
@@ -185,7 +397,63 @@
           [
             102.25,
             26.66
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-05-04",
+        "endDate": "1935-05-12",
+        "order": 14,
+        "name": {
+          "zh": "金沙江—会理"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.25,
+            26.66
           ],
+          [
+            102.27,
+            27.89
+          ],
+          [
+            102.17,
+            28.55
+          ],
+          [
+            102.36,
+            29.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-05-13",
+        "endDate": "1935-05-25",
+        "order": 15,
+        "name": {
+          "zh": "会理—安顺场（强渡大渡河）"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             102.36,
             29.23
@@ -193,7 +461,59 @@
           [
             102.23,
             29.91
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-05-26",
+        "endDate": "1935-05-29",
+        "order": 16,
+        "name": {
+          "zh": "安顺场—泸定（飞夺泸定桥）"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.23,
+            29.91
           ],
+          [
+            102.76,
+            30.07
+          ],
+          [
+            102.81,
+            30.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-05-30",
+        "endDate": "1935-06-12",
+        "order": 17,
+        "name": {
+          "zh": "泸定—夹金山"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             102.81,
             30.75
@@ -206,11 +526,11 @@
       },
       "properties": {
         "entityId": "central-red-army",
-        "startDate": "1935-05-09",
-        "endDate": "1935-06-13",
-        "order": 5,
+        "startDate": "1935-06-13",
+        "endDate": "1935-06-18",
+        "order": 18,
         "name": {
-          "zh": "会理—大渡河—泸定—夹金山"
+          "zh": "夹金山—懋功"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
@@ -229,7 +549,55 @@
           [
             103.6,
             32.65
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-06-19",
+        "endDate": "1935-08-20",
+        "order": 19,
+        "name": {
+          "zh": "懋功—毛儿盖"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.6,
+            32.65
           ],
+          [
+            102.96,
+            33.58
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-08-21",
+        "endDate": "1935-08-31",
+        "order": 20,
+        "name": {
+          "zh": "毛儿盖—若尔盖（过草地）"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             102.96,
             33.58
@@ -237,10 +605,70 @@
           [
             103.22,
             34.06
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-09-01",
+        "endDate": "1935-09-17",
+        "order": 21,
+        "name": {
+          "zh": "若尔盖—腊子口"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.22,
+            34.06
           ],
           [
             104.39,
             34.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-09-17",
+        "endDate": "1935-09-18",
+        "order": 22,
+        "name": {
+          "zh": "腊子口—哈达铺"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.39,
+            34.23
+          ],
+          [
+            105.24,
+            35.21
+          ],
+          [
+            105.73,
+            35.52
+          ],
+          [
+            107.31,
+            36.57
           ],
           [
             108.18,
@@ -250,11 +678,99 @@
       },
       "properties": {
         "entityId": "central-red-army",
-        "startDate": "1935-06-19",
+        "startDate": "1935-09-19",
         "endDate": "1935-10-19",
-        "order": 6,
+        "order": 23,
         "name": {
-          "zh": "草地—腊子口—吴起镇"
+          "zh": "哈达铺—吴起镇"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.18,
+            36.93
+          ],
+          [
+            109.38,
+            36
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-10-20",
+        "endDate": "1935-11-21",
+        "order": 24,
+        "name": {
+          "zh": "吴起—直罗镇"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.38,
+            36
+          ],
+          [
+            107.64,
+            35.71
+          ],
+          [
+            105.05,
+            35.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-11-22",
+        "endDate": "1936-10-09",
+        "order": 25,
+        "name": {
+          "zh": "直罗镇—会宁"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.05,
+            35.7
+          ],
+          [
+            105.73,
+            35.87
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1936-10-10",
+        "endDate": "1936-10-22",
+        "order": 26,
+        "name": {
+          "zh": "会宁—将台堡"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"

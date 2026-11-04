@@ -499,10 +499,10 @@
     },
     "date": "1935-03-21",
     "location": {
-      "lng": 106.19,
-      "lat": 28.33,
+      "lng": 105.81,
+      "lat": 28.18,
       "place": {
-        "zh": "贵州习水"
+        "zh": "四川古蔺太平渡"
       }
     },
     "entityIds": [
@@ -826,7 +826,7 @@
     "name": {
       "zh": "过草地"
     },
-    "date": "1935-08-21",
+    "date": "1935-08-31",
     "location": {
       "lng": 102.96,
       "lat": 33.58,
@@ -958,7 +958,8 @@
       }
     },
     "entityIds": [
-      "central-red-army"
+      "central-red-army",
+      "shaanxi-red-army"
     ],
     "category": "会师",
     "summary": {
@@ -1042,8 +1043,7 @@
     },
     "entityIds": [
       "central-red-army",
-      "red-4-army",
-      "red-2-army"
+      "red-4-army"
     ],
     "category": "会师",
     "summary": {

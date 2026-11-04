@@ -28,7 +28,8 @@
   "routes": [
     "routes/central-red-army.geojson",
     "routes/red-25-army.geojson",
-    "routes/red-2-and-4.geojson"
+    "routes/red-2-and-4.geojson",
+    "routes/shaanxi-red-army.geojson"
   ],
   "events": [
     "events/events.json"
@@ -113,5 +114,5 @@
     "长征"
   ],
   "license": "CC-BY-4.0（数据初稿，待校订）",
-  "updatedAt": "2026-11-03"
+  "updatedAt": "2026-11-04"
 }

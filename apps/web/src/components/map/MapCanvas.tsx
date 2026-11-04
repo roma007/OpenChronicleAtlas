@@ -210,19 +210,22 @@ export function MapCanvas() {
     for (const [key, entry] of lineEntriesRef.current) {
       const start = parseDateString(entry.feature.properties.startDate);
       const end = parseDateString(entry.feature.properties.endDate);
-      const progress =
+      const rawProgress =
         end === start
           ? currentTime >= end
             ? 1
-            : 0
-          : Math.min(1, Math.max(0, (currentTime - start) / (end - start)));
+            : -1
+          : (currentTime - start) / (end - start);
 
       const previous = lastProgressRef.current.get(key) ?? -1;
-      if (progress <= 0) {
+      if (rawProgress < 0) {
         entry.line.hide();
         lastProgressRef.current.set(key, 0);
         continue;
       }
+
+      // 起点当天也显示一小段，避免路线在出发日完全消失
+      const progress = rawProgress === 0 ? 0.001 : Math.min(1, rawProgress);
 
       if (Math.abs(progress - previous) < 0.001) {
         entry.line.show();
