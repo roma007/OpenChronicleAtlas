@@ -11,6 +11,46 @@
             31.91
           ],
           [
+            106.29,
+            32.23
+          ],
+          [
+            105.52,
+            32.29
+          ],
+          [
+            104.75,
+            31.78
+          ],
+          [
+            103.85,
+            31.68
+          ],
+          [
+            102.36,
+            30.99
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-4-army",
+        "startDate": "1935-05-01",
+        "endDate": "1935-06-18",
+        "order": 1,
+        "name": {
+          "zh": "川陕—懋功（示意）"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             102.36,
             30.99
           ],
@@ -34,11 +74,11 @@
       },
       "properties": {
         "entityId": "red-4-army",
-        "startDate": "1935-05-01",
+        "startDate": "1935-06-19",
         "endDate": "1936-10-09",
-        "order": 1,
+        "order": 2,
         "name": {
-          "zh": "川陕—懋功—会宁（示意）"
+          "zh": "懋功—会宁（示意）"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
