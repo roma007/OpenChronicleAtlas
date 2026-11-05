@@ -450,6 +450,63 @@
     "importance": 2
   },
   {
+    "id": "xinkou-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "忻口会战",
+      "en": "Battle of Xinkou"
+    },
+    "date": "1937-10-13",
+    "endDate": "1937-11-02",
+    "location": {
+      "lng": 112.72,
+      "lat": 38.95,
+      "place": {
+        "zh": "山西忻口",
+        "en": "Xinkou, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "中国军队在忻口阻击日军，激战近一个月，忻口最终失守，太原随后沦陷。",
+      "en": "Chinese forces blocked the Japanese at Xinkou for nearly a month before the position fell and Taiyuan was lost."
+    },
+    "description": {
+      "zh": "1937 年 10 月，日军第五师团等部沿同蒲铁路南下，进攻忻口。中国第二战区部队在卫立煌指挥下依托阵地顽强抵抗，双方在忻口一线激战。日军久攻不下，后因娘子关失守、中国军队侧后受威胁，中国军队于 11 月 2 日撤退，太原于 11 月 8 日失守。此役是太原会战的重要组成部分。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
+      "en": "In October 1937, Japanese forces including the 5th Division advanced south along the Datong–Pukou railway and attacked Xinkou. Chinese troops of the Second War Zone, commanded by Wei Lihuang, resisted stubbornly from prepared positions in fierce fighting around Xinkou. Unable to break through quickly, the Japanese exploited the fall of Niangziguan and threatened the Chinese flank and rear; Chinese forces withdrew on 2 November, and Taiyuan fell on 8 November. The battle was an important part of the Taiyuan campaign.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国事变陆军作战史》",
+        "author": "日本防卫厅防卫研修所战史室",
+        "year": 1979,
+        "note": "日方作战记录参考"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "战役背景参考"
+      }
+    ],
+    "relatedIds": [
+      "pingxingguan-1937-09",
+      "nanjing-fall-1937-12"
+    ],
+    "importance": 1
+  },
+  {
     "id": "nanjing-fall-1937-12",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -915,6 +972,63 @@
       "pingxingguan-1937-09"
     ],
     "importance": 1
+  },
+  {
+    "id": "shanggao-1941-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "上高会战",
+      "en": "Battle of Shanggao"
+    },
+    "date": "1941-03-15",
+    "endDate": "1941-04-09",
+    "location": {
+      "lng": 114.92,
+      "lat": 28.24,
+      "place": {
+        "zh": "江西上高",
+        "en": "Shanggao, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军进攻上高，中国军队包围反击，取得上高大捷。",
+      "en": "Japanese forces attacked Shanggao; Chinese troops encircled and counterattacked, winning a major victory."
+    },
+    "description": {
+      "zh": "1941 年 3 月，日军第十一军向江西上高地区进攻，企图打击中国第九战区部队。中国军队依托地形逐次抵抗，诱敌深入后实施包围反击，至 4 月上旬收复失地，取得上高会战胜利。此役是抗战中期正面战场的一次重要胜利。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
+      "en": "In March 1941, the Japanese 11th Army attacked the Shanggao area of Jiangxi, seeking to strike Chinese forces of the Ninth War Zone. Chinese troops resisted in stages using the terrain, drew the Japanese in, then counterattacked and encircled them, recovering the lost ground by early April and winning the Battle of Shanggao. It was an important victory on China’s frontal battlefield in the middle years of the war.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国事变陆军作战史》",
+        "author": "日本防卫厅防卫研修所战史室",
+        "year": 1979,
+        "note": "日方作战记录参考"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "战役背景参考"
+      }
+    ],
+    "relatedIds": [
+      "changsha-1939-09",
+      "changsha-1941-09"
+    ],
+    "importance": 2
   },
   {
     "id": "zhongtiaoshan-1941-05",
@@ -1642,6 +1756,63 @@
       "north-burma-offensive-1943-10"
     ],
     "importance": 2
+  },
+  {
+    "id": "xiangxi-1945-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "湘西会战",
+      "en": "Battle of West Hunan"
+    },
+    "date": "1945-04-09",
+    "endDate": "1945-06-07",
+    "location": {
+      "lng": 109.68,
+      "lat": 27.44,
+      "place": {
+        "zh": "湖南芷江",
+        "en": "Zhijiang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军进攻湘西芷江机场，中国军队反击，取得湘西会战胜利。",
+      "en": "Japanese forces attacked the Zhijiang airfield in western Hunan; Chinese troops counterattacked and won the Battle of West Hunan."
+    },
+    "description": {
+      "zh": "1945 年 4 月，日军发动湘西会战，企图破坏芷江空军基地。中国军队依托雪峰山地形顽强抵抗并反击，至 6 月收复失地，日军伤亡惨重。此役是抗战后期正面战场的一次重要胜利，也是日本投降前中国军队的最后一次大规模攻势防御作战。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
+      "en": "In April 1945, Japanese forces launched the Battle of West Hunan in an attempt to destroy the Zhijiang air base. Chinese troops used the terrain of the Xuefeng Mountains to resist stubbornly and counterattack, recovering the lost ground by June and inflicting heavy casualties on the Japanese. It was an important victory on China’s frontal battlefield in the final year of the war and one of the Chinese army’s last large-scale defensive-offensive operations before Japan’s surrender.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国事变陆军作战史》",
+        "author": "日本防卫厅防卫研修所战史室",
+        "year": 1979,
+        "note": "日方作战记录参考"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "战役背景参考"
+      }
+    ],
+    "relatedIds": [
+      "hengyang-1944-06",
+      "japan-surrender-1945-08"
+    ],
+    "importance": 1
   },
   {
     "id": "guilin-counteroffensive-1945-05",
