@@ -16,6 +16,26 @@
 
 ---
 
+## [v0.34.0-m34] - 2026-11-05
+
+### Added
+- `SearchEvent` 摘要类型，搜索索引不再保存完整事件对象。
+- 搜索索引瘦身测试与发布说明 `docs/releases/2026-11-05-v0.34.0-m34.md`。
+
+### Changed
+- 搜索索引体积 323.7 KB → 228.6 KB（-29.4%）。
+- `SearchEntry.event` / `SearchHit.event` 改为 `SearchEvent`。
+- `eventStart`、`eventEnd`、`collectCategories` 接受更窄类型。
+- 四包版本统一为 `0.34.0`；Android `versionCode` 升为 31；iOS build 31。
+
+### Docs
+- `docs/plans/2026-11-05-M34-搜索索引瘦身-plan.md`
+- `docs/plans/2026-11-05-M34-搜索索引瘦身-design.md`
+- `docs/releases/2026-11-05-v0.34.0-m34.md`
+- `docs/conversations/2026-11-05-M34启动与搜索索引瘦身.md`
+
+---
+
 ## [v0.33.0-m33] - 2026-11-05
 
 ### Added
