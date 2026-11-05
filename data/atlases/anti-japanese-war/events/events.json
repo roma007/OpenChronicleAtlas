@@ -1111,6 +1111,63 @@
     "importance": 2
   },
   {
+    "id": "changde-1943-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "常德会战",
+      "en": "Battle of Changde"
+    },
+    "date": "1943-11-02",
+    "endDate": "1943-12-20",
+    "location": {
+      "lng": 111.69,
+      "lat": 29.03,
+      "place": {
+        "zh": "湖南常德",
+        "en": "Changde, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军进攻常德，中国守军坚守多日后突围，中国军队随后反攻收复常德。",
+      "en": "Japanese forces attacked Changde; the Chinese garrison held out for days before breaking out, and Chinese troops counterattacked to recover the city."
+    },
+    "description": {
+      "zh": "1943 年 11 月，日军第十一军向常德地区发起进攻，企图牵制中国军队并夺取洞庭湖周边粮区。中国第 74 军第 57 师坚守常德城，与日军激战多日，伤亡惨重后突围。中国军队外围部队随即反攻，12 月收复常德。此役战斗激烈，双方均有重大伤亡。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
+      "en": "In November 1943, the Japanese 11th Army attacked the Changde area, seeking to pin down Chinese forces and seize the rice-producing region around Dongting Lake. The 57th Division of the Chinese 74th Army defended Changde in bitter fighting for many days before breaking out with heavy losses. Chinese forces on the periphery counterattacked and recovered the city in December. Both sides suffered major casualties.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国事变陆军作战史》",
+        "author": "日本防卫厅防卫研修所战史室",
+        "year": 1979,
+        "note": "日方作战记录参考"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "战役背景参考"
+      }
+    ],
+    "relatedIds": [
+      "changsha-1941-12",
+      "hengyang-1944-06"
+    ],
+    "importance": 2
+  },
+  {
     "id": "cairo-conference-1943-11",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -1261,6 +1318,63 @@
       "north-burma-offensive-1943-10"
     ],
     "importance": 2
+  },
+  {
+    "id": "hengyang-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "衡阳保卫战",
+      "en": "Defense of Hengyang"
+    },
+    "date": "1944-06-22",
+    "endDate": "1944-08-08",
+    "location": {
+      "lng": 112.57,
+      "lat": 26.89,
+      "place": {
+        "zh": "湖南衡阳",
+        "en": "Hengyang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "中国第 10 军坚守衡阳 47 天，重创日军，最终衡阳失守。",
+      "en": "The Chinese 10th Army held Hengyang for 47 days, inflicting heavy losses on Japanese forces before the city fell."
+    },
+    "description": {
+      "zh": "1944 年 6 月，日军在豫湘桂战役中进攻衡阳。中国第 10 军约一万七千人坚守衡阳，面对优势日军的围攻，苦战 47 天，伤亡惨重，弹尽援绝，衡阳于 8 月 8 日失守。此役迟滞了日军南进，是抗战后期著名的城市防御战。\n\n本事件日期、地点与战果为通行说法，路线为城防示意，待史料校订。",
+      "en": "In June 1944, Japanese forces attacked Hengyang during Operation Ichi-Go. The Chinese 10th Army, about 17,000 strong, defended the city against a numerically superior Japanese siege for 47 days. With heavy casualties, ammunition exhausted, and no relief in sight, Hengyang fell on 8 August. The defense delayed the Japanese advance south and became one of the best-known urban defense battles of the later war years.\n\nDates, location, and assessments follow conventional accounts; the route is a sketch of the city defense and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国事变陆军作战史》",
+        "author": "日本防卫厅防卫研修所战史室",
+        "year": 1979,
+        "note": "日方作战记录参考"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "战役背景参考"
+      }
+    ],
+    "relatedIds": [
+      "ichigo-offensive-1944-04",
+      "changde-1943-11"
+    ],
+    "importance": 1
   },
   {
     "id": "nanning-fall-1944-11",

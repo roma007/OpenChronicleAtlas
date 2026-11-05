@@ -633,6 +633,40 @@
         "type": "LineString",
         "coordinates": [
           [
+            112.94,
+            28.23
+          ],
+          [
+            112.36,
+            28.55
+          ],
+          [
+            111.69,
+            29.03
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1943-11-02",
+        "endDate": "1943-12-20",
+        "order": 18,
+        "name": {
+          "zh": "常德会战（中国军队反击）",
+          "en": "Battle of Changde (Chinese Counterattack)"
+        },
+        "description": {
+          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
+          "en": "Campaign route based on common historical maps; page-level verification pending."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             113.66,
             34.9
           ],
@@ -650,7 +684,7 @@
         "entityId": "china-resistance",
         "startDate": "1944-04-18",
         "endDate": "1944-06-04",
-        "order": 18,
+        "order": 19,
         "name": {
           "zh": "河南—松山",
           "en": "Henan–Songshan"
@@ -658,6 +692,44 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.57,
+            26.89
+          ],
+          [
+            112.5,
+            26.95
+          ],
+          [
+            112.62,
+            26.98
+          ],
+          [
+            112.57,
+            26.89
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1944-06-22",
+        "endDate": "1944-08-08",
+        "order": 20,
+        "name": {
+          "zh": "衡阳保卫战（城防）",
+          "en": "Defense of Hengyang (City Perimeter)"
+        },
+        "description": {
+          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
+          "en": "Campaign route based on common historical maps; page-level verification pending."
         }
       }
     },
@@ -684,7 +756,7 @@
         "entityId": "china-resistance",
         "startDate": "1944-06-05",
         "endDate": "1945-05-01",
-        "order": 19,
+        "order": 21,
         "name": {
           "zh": "松山—桂林",
           "en": "Songshan–Guilin"

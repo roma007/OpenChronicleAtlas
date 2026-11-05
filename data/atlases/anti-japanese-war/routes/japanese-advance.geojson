@@ -299,6 +299,40 @@
         "type": "LineString",
         "coordinates": [
           [
+            112.23,
+            30.06
+          ],
+          [
+            111.76,
+            29.63
+          ],
+          [
+            111.69,
+            29.03
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1943-11-02",
+        "endDate": "1943-12-20",
+        "order": 9,
+        "name": {
+          "zh": "常德会战",
+          "en": "Battle of Changde"
+        },
+        "description": {
+          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
+          "en": "Campaign route based on common historical maps; page-level verification pending."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             113.66,
             34.9
           ],
@@ -348,7 +382,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1944-04-17",
         "endDate": "1944-11-24",
-        "order": 9,
+        "order": 10,
         "name": {
           "zh": "豫湘桂—南宁",
           "en": "Henan–Hunan–Guangxi–Nanning"
