@@ -80,6 +80,9 @@ const zh = {
   'search.note': '检索支持中文、拼音、首字母与英文子串匹配；暂不支持分词与纠错。',
   'search.errorTitle': '搜索数据加载失败',
   'search.atlasFilter': '按专题筛选',
+  'search.filters': '筛选',
+  'search.allCategories': '全部类型',
+  'search.resetFilters': '重置筛选',
 
   'atlas.loading': '正在加载专题数据…',
   'atlas.errorTitle': '专题加载失败',
@@ -240,6 +243,9 @@ const en: Record<keyof typeof zh, string> = {
     'Search supports Chinese, pinyin, initials, and English substring matching; word segmentation and spell correction are not yet supported.',
   'search.errorTitle': 'Failed to load search data',
   'search.atlasFilter': 'Filter by atlas',
+  'search.filters': 'Filters',
+  'search.allCategories': 'All categories',
+  'search.resetFilters': 'Reset filters',
 
   'atlas.loading': 'Loading atlas data…',
   'atlas.errorTitle': 'Failed to load atlas',

@@ -1,6 +1,8 @@
 import {
   buildSearchIndex,
   categoryLabel,
+  collectCategories,
+  parseDateString,
   resolveLocalized,
   searchEvents,
   type SearchHit,
@@ -37,6 +39,9 @@ export function SearchPage() {
   const [query, setQuery] = useState('');
   const [debounced, setDebounced] = useState('');
   const [atlasFilter, setAtlasFilter] = useState('');
+  const [category, setCategory] = useState('');
+  const [from, setFrom] = useState('');
+  const [to, setTo] = useState('');
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -53,13 +58,37 @@ export function SearchPage() {
     [datasets, locale],
   );
 
+  const toTime = (value: string) => {
+    if (!value) return undefined;
+    try {
+      return parseDateString(value);
+    } catch {
+      return undefined;
+    }
+  };
+
   const hits = useMemo(() => {
     if (!index || !debounced) return [];
     return searchEvents(debounced, index, {
       atlasId: atlasFilter || undefined,
+      category: category || undefined,
+      from: toTime(from),
+      to: toTime(to),
       limit: 50,
     });
-  }, [index, debounced, atlasFilter]);
+  }, [index, debounced, atlasFilter, category, from, to]);
+
+  const categories = useMemo(
+    () => (datasets ? collectCategories(datasets.flatMap((dataset) => dataset.events)) : []),
+    [datasets],
+  );
+
+  const resetFilters = () => {
+    setAtlasFilter('');
+    setCategory('');
+    setFrom('');
+    setTo('');
+  };
 
   const atlases =
     datasets?.map((dataset) => ({
@@ -119,6 +148,65 @@ export function SearchPage() {
                 </option>
               ))}
             </select>
+          </div>
+
+          <div className="mt-3 flex flex-wrap items-center gap-2">
+            <span className="text-[11px] text-ink-soft/60">{t('search.filters')}</span>
+            <button
+              type="button"
+              aria-pressed={category === ''}
+              onClick={() => setCategory('')}
+              className={`rounded-full border px-2.5 py-1 text-[11px] transition ${
+                category === ''
+                  ? 'border-cinnabar/40 bg-cinnabar/10 text-cinnabar'
+                  : 'border-ink/10 text-ink-soft hover:border-cinnabar/30'
+              }`}
+            >
+              {t('search.allCategories')}
+            </button>
+            {categories.map((item) => (
+              <button
+                key={item}
+                type="button"
+                aria-pressed={category === item}
+                onClick={() => setCategory(item)}
+                className={`rounded-full border px-2.5 py-1 text-[11px] transition ${
+                  category === item
+                    ? 'border-cinnabar/40 bg-cinnabar/10 text-cinnabar'
+                    : 'border-ink/10 text-ink-soft hover:border-cinnabar/30'
+                }`}
+              >
+                {categoryLabel(item, locale)}
+              </button>
+            ))}
+          </div>
+
+          <div className="mt-2 flex flex-wrap items-center gap-2 text-[11px] text-ink-soft/70">
+            <label className="flex items-center gap-1">
+              {t('common.start')}
+              <input
+                type="date"
+                value={from}
+                onChange={(event) => setFrom(event.target.value)}
+                className="rounded-md border border-ink/15 bg-parchment px-2 py-1 text-[11px] text-ink-soft focus:border-cinnabar/50 focus:outline-none"
+              />
+            </label>
+            <label className="flex items-center gap-1">
+              {t('common.end')}
+              <input
+                type="date"
+                value={to}
+                onChange={(event) => setTo(event.target.value)}
+                className="rounded-md border border-ink/15 bg-parchment px-2 py-1 text-[11px] text-ink-soft focus:border-cinnabar/50 focus:outline-none"
+              />
+            </label>
+            <button
+              type="button"
+              onClick={resetFilters}
+              className="rounded-full border border-ink/10 px-2.5 py-1 text-[10px] text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
+            >
+              {t('search.resetFilters')}
+            </button>
           </div>
         </div>
       </header>

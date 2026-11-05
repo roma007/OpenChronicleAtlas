@@ -1,6 +1,8 @@
 import {
   buildSearchIndex,
   categoryLabel,
+  collectCategories,
+  parseDateString,
   resolveLocalized,
   searchEvents,
   type SearchHit,
@@ -36,6 +38,9 @@ export function SearchScreen({ navigation }: Props) {
   const [query, setQuery] = useState('');
   const [debounced, setDebounced] = useState('');
   const [atlasFilter, setAtlasFilter] = useState('');
+  const [category, setCategory] = useState('');
+  const [from, setFrom] = useState('');
+  const [to, setTo] = useState('');
 
   useEffect(() => {
     void loadSearchData();
@@ -51,13 +56,37 @@ export function SearchScreen({ navigation }: Props) {
     [datasets, locale],
   );
 
+  const toTime = (value: string) => {
+    if (!value) return undefined;
+    try {
+      return parseDateString(value);
+    } catch {
+      return undefined;
+    }
+  };
+
   const hits = useMemo(() => {
     if (!index || !debounced) return [];
     return searchEvents(debounced, index, {
       atlasId: atlasFilter || undefined,
+      category: category || undefined,
+      from: toTime(from),
+      to: toTime(to),
       limit: 50,
     });
-  }, [index, debounced, atlasFilter]);
+  }, [index, debounced, atlasFilter, category, from, to]);
+
+  const categories = useMemo(
+    () => (datasets ? collectCategories(datasets.flatMap((dataset) => dataset.events)) : []),
+    [datasets],
+  );
+
+  const resetFilters = () => {
+    setAtlasFilter('');
+    setCategory('');
+    setFrom('');
+    setTo('');
+  };
 
   const atlases =
     datasets?.map((dataset) => ({
@@ -116,6 +145,50 @@ export function SearchScreen({ navigation }: Props) {
             </Pressable>
           ))}
         </ScrollView>
+
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.chips}>
+          <Pressable
+            onPress={() => setCategory('')}
+            style={[styles.chip, !category && styles.chipActive]}
+          >
+            <Text style={[styles.chipText, !category && styles.chipTextActive]}>
+              {t('search.allCategories')}
+            </Text>
+          </Pressable>
+          {categories.map((item) => (
+            <Pressable
+              key={item}
+              onPress={() => setCategory(item)}
+              style={[styles.chip, category === item && styles.chipActive]}
+            >
+              <Text style={[styles.chipText, category === item && styles.chipTextActive]}>
+                {categoryLabel(item, locale)}
+              </Text>
+            </Pressable>
+          ))}
+        </ScrollView>
+
+        <View style={styles.dateRow}>
+          <TextInput
+            value={from}
+            onChangeText={setFrom}
+            placeholder={`${t('common.start')} YYYY-MM-DD`}
+            placeholderTextColor={colors.inkSoft + '66'}
+            style={styles.dateInput}
+            keyboardType="numbers-and-punctuation"
+          />
+          <TextInput
+            value={to}
+            onChangeText={setTo}
+            placeholder={`${t('common.end')} YYYY-MM-DD`}
+            placeholderTextColor={colors.inkSoft + '66'}
+            style={styles.dateInput}
+            keyboardType="numbers-and-punctuation"
+          />
+          <Pressable onPress={resetFilters} style={styles.reset}>
+            <Text style={styles.resetText}>{t('search.resetFilters')}</Text>
+          </Pressable>
+        </View>
       </View>
 
       {loading && !datasets ? (
@@ -194,6 +267,26 @@ const styles = StyleSheet.create({
     backgroundColor: colors.white,
   },
   chips: { gap: spacing.sm, paddingVertical: spacing.sm },
+  dateRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
+  dateInput: {
+    flex: 1,
+    borderWidth: 1,
+    borderColor: colors.ink + '18',
+    borderRadius: radii.sm,
+    paddingHorizontal: 8,
+    paddingVertical: 6,
+    fontSize: 10,
+    color: colors.inkSoft,
+    backgroundColor: colors.white,
+  },
+  reset: {
+    borderWidth: 1,
+    borderColor: colors.ink + '18',
+    borderRadius: radii.pill,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+  },
+  resetText: { fontSize: 10, color: colors.inkSoft },
   chip: {
     borderWidth: 1,
     borderColor: colors.ink + '22',
