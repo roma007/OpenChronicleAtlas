@@ -697,6 +697,63 @@
     "importance": 1
   },
   {
+    "id": "zaoyi-1940-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "枣宜会战",
+      "en": "Battle of Zaoyang–Yichang"
+    },
+    "date": "1940-05-01",
+    "endDate": "1940-06-18",
+    "location": {
+      "lng": 112.77,
+      "lat": 32.13,
+      "place": {
+        "zh": "湖北枣阳",
+        "en": "Zaoyang, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军进攻枣阳、宜昌地区，中国军队顽强抵抗，张自忠殉国，宜昌最终失守。",
+      "en": "Japanese forces attacked the Zaoyang and Yichang areas; Chinese troops resisted stubbornly, Zhang Zizhong was killed, and Yichang eventually fell."
+    },
+    "description": {
+      "zh": "1940 年 5 月，日军第十一军向枣阳、襄阳、宜昌地区发动进攻，企图歼灭中国第五战区主力并控制长江上游门户。中国军队在枣阳、襄阳一线抵抗，第 33 集团军总司令张自忠在宜城南瓜店战斗中殉国。6 月，宜昌失守。此役中国军队伤亡重大，但保持了战区主力。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
+      "en": "In May 1940, the Japanese 11th Army attacked the Zaoyang, Xiangyang, and Yichang areas, seeking to destroy the main forces of China’s Fifth War Zone and control the upper Yangtze gateway. Chinese troops resisted along the Zaoyang–Xiangyang line, and Zhang Zizhong, commander of the 33rd Army Group, was killed in action near Nanguadian in Yicheng. Yichang fell in June. Chinese forces suffered heavy casualties but preserved the bulk of the war zone’s strength.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国事变陆军作战史》",
+        "author": "日本防卫厅防卫研修所战史室",
+        "year": 1979,
+        "note": "日方作战记录参考"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "战役背景参考"
+      }
+    ],
+    "relatedIds": [
+      "wuhan-fall-1938-10",
+      "hundred-regiments-1940-08"
+    ],
+    "importance": 1
+  },
+  {
     "id": "changsha-1941-09",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -856,6 +913,63 @@
     ],
     "relatedIds": [
       "pingxingguan-1937-09"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "zhongtiaoshan-1941-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "中条山战役",
+      "en": "Battle of South Shanxi"
+    },
+    "date": "1941-05-07",
+    "endDate": "1941-06-15",
+    "location": {
+      "lng": 111.5,
+      "lat": 35.0,
+      "place": {
+        "zh": "山西中条山",
+        "en": "Zhongtiao Mountains, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军围攻中条山中国守军，中国军队遭受重大损失，被迫南渡黄河突围。",
+      "en": "Japanese forces besieged Chinese troops in the Zhongtiao Mountains; the Chinese army suffered heavy losses and was forced to break out south across the Yellow River."
+    },
+    "description": {
+      "zh": "1941 年 5 月，日军集中兵力围攻山西南部中条山地区的中国军队。中国守军补给困难、指挥协同不足，在日军多路进攻下遭受重大损失，部分部队南渡黄河突围。此役是抗战中期中国正面战场的一次严重失利。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
+      "en": "In May 1941, Japanese forces concentrated their strength to besiege Chinese troops in the Zhongtiao Mountains of southern Shanxi. Hampered by supply difficulties and poor coordination, the Chinese defenders suffered heavy losses under multiple Japanese attacks, and part of the force broke out south across the Yellow River. It was a serious setback for China’s frontal battlefield in the middle years of the war.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国事变陆军作战史》",
+        "author": "日本防卫厅防卫研修所战史室",
+        "year": 1979,
+        "note": "日方作战记录参考"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "战役背景参考"
+      }
+    ],
+    "relatedIds": [
+      "zaoyi-1940-05",
+      "hundred-regiments-1940-08"
     ],
     "importance": 1
   },
@@ -1057,6 +1171,63 @@
     ],
     "relatedIds": [
       "burma-expedition-1942-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "exi-1943-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "鄂西会战",
+      "en": "Battle of West Hubei"
+    },
+    "date": "1943-05-05",
+    "endDate": "1943-06-12",
+    "location": {
+      "lng": 111.28,
+      "lat": 30.78,
+      "place": {
+        "zh": "湖北宜昌石牌",
+        "en": "Shipai, Yichang, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军进攻鄂西，中国军队在石牌要塞一带顽强阻击，挫败日军攻势。",
+      "en": "Japanese forces attacked western Hubei; Chinese troops stubbornly defended the Shipai fortress area and thwarted the offensive."
+    },
+    "description": {
+      "zh": "1943 年 5 月，日军第十一军向鄂西地区进攻，企图夺取石牌要塞、威胁重庆。中国第六战区部队依托长江三峡地形顽强抵抗，在石牌一带与日军激战，最终迫使日军撤退。此役是抗战后期正面战场的一次重要防御胜利。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
+      "en": "In May 1943, the Japanese 11th Army attacked western Hubei, seeking to seize the Shipai fortress and threaten Chongqing. Chinese troops of the Sixth War Zone used the terrain of the Three Gorges to resist stubbornly, fighting fierce actions around Shipai and eventually forcing the Japanese to withdraw. It was an important defensive victory on China’s frontal battlefield in the later war years.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国事变陆军作战史》",
+        "author": "日本防卫厅防卫研修所战史室",
+        "year": 1979,
+        "note": "日方作战记录参考"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "战役背景参考"
+      }
+    ],
+    "relatedIds": [
+      "changde-1943-11",
+      "zaoyi-1940-05"
     ],
     "importance": 2
   },

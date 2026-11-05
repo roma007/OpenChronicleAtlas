@@ -455,6 +455,146 @@
         "type": "LineString",
         "coordinates": [
           [
+            111.29,
+            30.69
+          ],
+          [
+            112.14,
+            32.04
+          ],
+          [
+            112.77,
+            32.13
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1940-05-01",
+        "endDate": "1940-06-18",
+        "order": 13,
+        "name": {
+          "zh": "枣宜会战（中国军队防御与反击）",
+          "en": "Battle of Zaoyang–Yichang (Chinese Defense and Counterattack)"
+        },
+        "description": {
+          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
+          "en": "Campaign route based on common historical maps; page-level verification pending."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.58,
+            37.86
+          ],
+          [
+            113.88,
+            37.96
+          ],
+          [
+            114.51,
+            38.04
+          ],
+          [
+            112.75,
+            37.69
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1940-08-20",
+        "endDate": "1941-01-24",
+        "order": 14,
+        "name": {
+          "zh": "百团大战",
+          "en": "Hundred Regiments Offensive"
+        },
+        "description": {
+          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
+          "en": "Campaign route based on common historical maps; page-level verification pending."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.58,
+            37.86
+          ],
+          [
+            106.55,
+            29.56
+          ],
+          [
+            102.83,
+            24.88
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1940-08-21",
+        "endDate": "1942-02-01",
+        "order": 15,
+        "name": {
+          "zh": "华北—云南（远征军）",
+          "en": "North China–Yunnan (Expeditionary Force)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.5,
+            35.0
+          ],
+          [
+            111.76,
+            34.76
+          ],
+          [
+            112.45,
+            34.62
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1941-05-07",
+        "endDate": "1941-06-15",
+        "order": 16,
+        "name": {
+          "zh": "中条山战役（中国军队突围）",
+          "en": "Battle of South Shanxi (Chinese Breakout)"
+        },
+        "description": {
+          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
+          "en": "Campaign route based on common historical maps; page-level verification pending."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             112.94,
             28.23
           ],
@@ -472,7 +612,7 @@
         "entityId": "china-resistance",
         "startDate": "1941-09-07",
         "endDate": "1941-10-08",
-        "order": 13,
+        "order": 17,
         "name": {
           "zh": "第二次长沙会战（中国军队反击）",
           "en": "Second Battle of Changsha (Chinese Counterattack)"
@@ -510,7 +650,7 @@
         "entityId": "china-resistance",
         "startDate": "1941-12-24",
         "endDate": "1942-01-15",
-        "order": 14,
+        "order": 18,
         "name": {
           "zh": "第三次长沙会战（中国军队反击）",
           "en": "Third Battle of Changsha (Chinese Counterattack)"
@@ -518,78 +658,6 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            113.58,
-            37.86
-          ],
-          [
-            113.88,
-            37.96
-          ],
-          [
-            114.51,
-            38.04
-          ],
-          [
-            112.75,
-            37.69
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "china-resistance",
-        "startDate": "1940-08-20",
-        "endDate": "1941-01-24",
-        "order": 15,
-        "name": {
-          "zh": "百团大战",
-          "en": "Hundred Regiments Offensive"
-        },
-        "description": {
-          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
-          "en": "Campaign route based on common historical maps; page-level verification pending."
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            113.58,
-            37.86
-          ],
-          [
-            106.55,
-            29.56
-          ],
-          [
-            102.83,
-            24.88
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "china-resistance",
-        "startDate": "1940-08-21",
-        "endDate": "1942-02-01",
-        "order": 16,
-        "name": {
-          "zh": "华北—云南（远征军）",
-          "en": "North China–Yunnan (Expeditionary Force)"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
         }
       }
     },
@@ -616,7 +684,7 @@
         "entityId": "china-resistance",
         "startDate": "1942-02-02",
         "endDate": "1944-04-17",
-        "order": 17,
+        "order": 19,
         "name": {
           "zh": "云南—河南",
           "en": "Yunnan–Henan"
@@ -624,6 +692,40 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.49,
+            30.27
+          ],
+          [
+            111.29,
+            30.69
+          ],
+          [
+            111.28,
+            30.78
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1943-05-05",
+        "endDate": "1943-06-12",
+        "order": 20,
+        "name": {
+          "zh": "鄂西会战（中国军队增援与反击）",
+          "en": "Battle of West Hubei (Chinese Reinforcement and Counterattack)"
+        },
+        "description": {
+          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
+          "en": "Campaign route based on common historical maps; page-level verification pending."
         }
       }
     },
@@ -650,7 +752,7 @@
         "entityId": "china-resistance",
         "startDate": "1943-11-02",
         "endDate": "1943-12-20",
-        "order": 18,
+        "order": 21,
         "name": {
           "zh": "常德会战（中国军队反击）",
           "en": "Battle of Changde (Chinese Counterattack)"
@@ -684,10 +786,44 @@
         "entityId": "china-resistance",
         "startDate": "1944-04-18",
         "endDate": "1944-06-04",
-        "order": 19,
+        "order": 22,
         "name": {
           "zh": "河南—松山",
           "en": "Henan–Songshan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.79,
+            24.75
+          ],
+          [
+            105,
+            25
+          ],
+          [
+            110.29,
+            25.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1944-06-05",
+        "endDate": "1945-05-01",
+        "order": 23,
+        "name": {
+          "zh": "松山—桂林",
+          "en": "Songshan–Guilin"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -722,7 +858,7 @@
         "entityId": "china-resistance",
         "startDate": "1944-06-22",
         "endDate": "1944-08-08",
-        "order": 20,
+        "order": 24,
         "name": {
           "zh": "衡阳保卫战（城防）",
           "en": "Defense of Hengyang (City Perimeter)"
@@ -730,40 +866,6 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            98.79,
-            24.75
-          ],
-          [
-            105,
-            25
-          ],
-          [
-            110.29,
-            25.27
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "china-resistance",
-        "startDate": "1944-06-05",
-        "endDate": "1945-05-01",
-        "order": 21,
-        "name": {
-          "zh": "松山—桂林",
-          "en": "Songshan–Guilin"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
         }
       }
     }
