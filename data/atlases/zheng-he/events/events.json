@@ -1008,6 +1008,104 @@
     "importance": 2
   },
   {
+    "id": "dhofar-1415-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "祖法儿",
+      "en": "Dhofar"
+    },
+    "date": "1415-01-01",
+    "location": {
+      "lng": 54.09,
+      "lat": 17.02,
+      "place": {
+        "zh": "祖法儿（今阿曼佐法尔）",
+        "en": "Dhofar (modern Oman)"
+      }
+    },
+    "entityIds": [
+      "ming-fleet"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队访问祖法儿，开展乳香贸易。",
+      "en": "The fleet visited Dhofar and traded for frankincense."
+    },
+    "description": {
+      "zh": "1415 年，郑和船队访问祖法儿，与当地进行乳香等贸易。地名采用古今对照，待史料校订。",
+      "en": "In 1415, Zheng He’s fleet visited Dhofar and traded for frankincense and other goods. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "航线走向参考，坐标为示意简化"
+      }
+    ],
+    "relatedIds": [
+      "hormuz-1414-05",
+      "aden-1418-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "juba-1415-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "竹步",
+      "en": "Juba"
+    },
+    "date": "1415-01-01",
+    "location": {
+      "lng": 42.77,
+      "lat": 0.49,
+      "place": {
+        "zh": "竹步（今索马里朱巴）",
+        "en": "Juba (modern Somalia)"
+      }
+    },
+    "entityIds": [
+      "ming-fleet"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队访问东非竹步，继续沿非洲东岸航行。",
+      "en": "The fleet visited Juba on the East African coast."
+    },
+    "description": {
+      "zh": "1415 年，郑和船队访问东非竹步，与当地进行贸易并继续沿非洲东岸航行。地名采用古今对照，待史料校订。",
+      "en": "In 1415, Zheng He’s fleet visited Juba on the East African coast, trading and continuing along the coast. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "航线走向参考，坐标为示意简化"
+      }
+    ],
+    "relatedIds": [
+      "brava-1415-01",
+      "malindi-1415-01"
+    ],
+    "importance": 2
+  },
+  {
     "id": "return-1415-08",
     "atlasId": "zheng-he",
     "name": {

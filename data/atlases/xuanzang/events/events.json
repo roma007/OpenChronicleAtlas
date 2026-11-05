@@ -1059,6 +1059,104 @@
     "importance": 2
   },
   {
+    "id": "sravasti-632-09",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "祇园精舍",
+      "en": "Jetavana"
+    },
+    "date": "0632-09-01",
+    "location": {
+      "lng": 82.05,
+      "lat": 27.51,
+      "place": {
+        "zh": "祇园精舍（今印度舍卫城）",
+        "en": "Jetavana (modern Sravasti, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访祇园精舍，参访佛陀说法地。",
+      "en": "Xuanzang visited Jetavana, where the Buddha taught."
+    },
+    "description": {
+      "zh": "632 年，玄奘到访祇园精舍，参访佛陀说法地及周边寺院。地名采用古今对照，待史料校订。",
+      "en": "In 632, Xuanzang visited Jetavana, where the Buddha taught, and nearby monasteries. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "lumbini-632-08",
+      "sankassa-632-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sankassa-632-10",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "僧伽施",
+      "en": "Sankassa"
+    },
+    "date": "0632-10-01",
+    "location": {
+      "lng": 79.5,
+      "lat": 27.3,
+      "place": {
+        "zh": "僧伽施（今印度法鲁卡巴德）",
+        "en": "Sankassa (modern Farrukhabad, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访僧伽施，参访佛陀降天处。",
+      "en": "Xuanzang visited Sankassa, the site of the Buddha’s descent from heaven."
+    },
+    "description": {
+      "zh": "632 年，玄奘到访僧伽施，参访佛陀降天处及周边圣迹。地名采用古今对照，待史料校订。",
+      "en": "In 632, Xuanzang visited Sankassa, the site of the Buddha’s descent from heaven, and nearby sacred sites. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "sravasti-632-09",
+      "kanauj-633-01"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kanauj-633-01",
     "atlasId": "xuanzang",
     "name": {
