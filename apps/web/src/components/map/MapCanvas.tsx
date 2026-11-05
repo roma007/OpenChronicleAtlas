@@ -8,6 +8,7 @@ import {
   parseDateString,
   partialPathAt,
   resolveLocalized,
+  routeStyleForSegmentType,
   wgs84ToGcj02,
   type AtlasEventCluster,
 } from '@atlas/shared';
@@ -144,11 +145,15 @@ export function MapCanvas() {
       if (!entity || !activeEntityIds.has(entity.id)) continue;
 
       const geometry = buildRouteGeometry(route);
+      const style = routeStyleForSegmentType(route.properties.segmentType);
       const line = new AMap.Polyline({
         path: route.geometry.coordinates.map(toGcjPoint),
         strokeColor: entity.color,
-        strokeWeight: 4,
-        strokeOpacity: 0.85,
+        strokeWeight: style.weight,
+        strokeOpacity: style.opacity,
+        strokeStyle: style.dash === 'solid' ? 'solid' : 'dashed',
+        strokeDasharray:
+          style.dash === 'dotted' ? [2, 4] : style.dash === 'dashed' ? [10, 6] : undefined,
         lineJoin: 'round',
         lineCap: 'round',
         showDir: true,

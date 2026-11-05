@@ -6,6 +6,7 @@ import {
   latestEventAt,
   partialPathAt,
   resolveLocalized,
+  routeStyleForSegmentType,
   wgs84ToGcj02,
 } from '@atlas/shared';
 import { MapView, Marker, Polyline, type MapViewRef } from 'expo-gaode-map';
@@ -88,7 +89,14 @@ export function AtlasMap() {
             ? partialPathAt(geometry, progress).map(([lng, lat]) => toGcj(lng, lat))
             : [];
         const entity = dataset.entitiesById.get(route.properties.entityId);
-        return { key, points, color: entity?.color ?? colors.cinnabar };
+        const style = routeStyleForSegmentType(route.properties.segmentType);
+        return {
+          key,
+          points,
+          color: entity?.color ?? colors.cinnabar,
+          strokeWidth: style.weight,
+          dotted: style.dash !== 'solid',
+        };
       })
       .filter((shape) => shape.points.length >= 2);
   }, [dataset, activeEntityIds, geometries, currentTime]);
@@ -164,7 +172,8 @@ export function AtlasMap() {
             key={shape.key}
             points={shape.points}
             strokeColor={shape.color}
-            strokeWidth={4}
+            strokeWidth={shape.strokeWidth}
+            dotted={shape.dotted}
             zIndex={50}
           />
         ))}

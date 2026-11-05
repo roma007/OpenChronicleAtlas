@@ -3,6 +3,8 @@ import {
   categoryLabel,
   collectCategories,
   resolveLocalized,
+  routeStyleForSegmentType,
+  segmentTypeLabel,
 } from '@atlas/shared';
 import { useEffect, useState } from 'react';
 import {
@@ -49,6 +51,13 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
     (a, b) => (a.order ?? 0) - (b.order ?? 0),
   );
   const categories = collectCategories(dataset.events);
+  const segmentTypes = [
+    ...new Set(
+      dataset.routes
+        .map((route) => route.properties.segmentType)
+        .filter((type): type is NonNullable<typeof type> => Boolean(type)),
+    ),
+  ];
   const filtered = applyEventFilters(dataset.events, filters).filter((event) =>
     event.entityIds.some((id) => activeEntityIds.has(id)),
   );
@@ -99,6 +108,34 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
               </Pressable>
             );
           })}
+
+          <View style={styles.divider} />
+
+          <Text style={styles.sectionTitle}>{t('legend.routeStyles')}</Text>
+          <View style={styles.segmentList}>
+            {segmentTypes.map((type) => {
+              const style = routeStyleForSegmentType(type);
+              return (
+                <View key={type} style={styles.segmentRow}>
+                  <View
+                    style={[
+                      styles.segmentLine,
+                      {
+                        borderStyle:
+                          style.dash === 'dotted'
+                            ? 'dotted'
+                            : style.dash === 'dashed'
+                              ? 'dashed'
+                              : 'solid',
+                        borderTopWidth: style.weight,
+                      },
+                    ]}
+                  />
+                  <Text style={styles.segmentLabel}>{segmentTypeLabel(type, locale)}</Text>
+                </View>
+              );
+            })}
+          </View>
 
           <View style={styles.divider} />
 
@@ -198,6 +235,14 @@ const styles = StyleSheet.create({
   entityName: { flex: 1, fontSize: 14, color: colors.ink },
   dim: { opacity: 0.4 },
   check: { fontSize: 13, color: colors.cinnabar },
+  segmentList: { marginTop: spacing.sm, gap: spacing.xs },
+  segmentRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
+  segmentLine: {
+    width: 24,
+    borderTopColor: colors.cinnabar,
+    marginTop: -1,
+  },
+  segmentLabel: { fontSize: 12, color: colors.inkSoft },
   divider: { height: 1, backgroundColor: colors.ink + '12', marginVertical: spacing.md },
   chips: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm, marginTop: spacing.sm },
   chip: {

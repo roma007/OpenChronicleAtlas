@@ -99,6 +99,7 @@ const zh = {
   'atlas.filters': '筛选',
 
   'legend.layers': '路线图层',
+  'legend.routeStyles': '路线样式',
   'legend.filters': '筛选',
   'legend.hint': '与时间轴叠加：只显示已发生且符合条件的事件。',
   'legend.reset': '重置',
@@ -269,6 +270,7 @@ const en: Record<keyof typeof zh, string> = {
   'atlas.filters': 'Filters',
 
   'legend.layers': 'Route layers',
+  'legend.routeStyles': 'Route styles',
   'legend.filters': 'Filters',
   'legend.hint':
     'Combined with the timeline: only events that have occurred and match the filters are shown.',

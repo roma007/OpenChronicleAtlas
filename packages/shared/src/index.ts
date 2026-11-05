@@ -7,6 +7,7 @@ export * from './data/version';
 export * from './time/date';
 export * from './timeline';
 export * from './qa/routes';
+export * from './route-style';
 export * from './geo/coordinate';
 export * from './geo/cluster';
 export * from './search/types';

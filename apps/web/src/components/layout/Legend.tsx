@@ -3,6 +3,8 @@ import {
   categoryLabel,
   collectCategories,
   resolveLocalized,
+  routeStyleForSegmentType,
+  segmentTypeLabel,
 } from '@atlas/shared';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { useI18n } from '../../hooks/useI18n';
@@ -27,6 +29,13 @@ export function Legend({ className = '' }: LegendProps) {
     (a, b) => (a.order ?? 0) - (b.order ?? 0),
   );
   const categories = collectCategories(dataset.events);
+  const segmentTypes = [
+    ...new Set(
+      dataset.routes
+        .map((route) => route.properties.segmentType)
+        .filter((type): type is NonNullable<typeof type> => Boolean(type)),
+    ),
+  ];
   const filteredEvents = applyEventFilters(dataset.events, filters).filter((event) =>
     event.entityIds.some((entityId) => activeEntityIds.has(entityId)),
   );
@@ -77,6 +86,40 @@ export function Legend({ className = '' }: LegendProps) {
           );
         })}
       </ul>
+
+      {segmentTypes.length > 0 ? (
+        <div className="mt-3 border-t border-ink/10 pt-3">
+          <h2 className="font-serif text-sm tracking-[0.2em] text-ink">
+            {t('legend.routeStyles')}
+          </h2>
+          <ul className="mt-2 space-y-1.5">
+            {segmentTypes.map((type) => {
+              const style = routeStyleForSegmentType(type);
+              return (
+                <li
+                  key={type}
+                  className="flex items-center gap-2.5 text-[11px] text-ink-soft"
+                >
+                  <span
+                    aria-hidden
+                    className="w-6 shrink-0 border-t-2 border-cinnabar"
+                    style={{
+                      borderStyle:
+                        style.dash === 'dotted'
+                          ? 'dotted'
+                          : style.dash === 'dashed'
+                            ? 'dashed'
+                            : 'solid',
+                      borderTopWidth: style.weight,
+                    }}
+                  />
+                  <span>{segmentTypeLabel(type, locale)}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      ) : null}
 
       <div className="mt-3 border-t border-ink/10 pt-3">
         <div className="flex items-baseline justify-between gap-2">
