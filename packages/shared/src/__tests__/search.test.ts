@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { AtlasDataset, AtlasEvent } from '../types';
-import { buildSearchIndex } from '../search/index';
+import { buildSearchIndex, loadPinyinProvider } from '../search/index';
 import { searchEvents } from '../search/query';
 
 function makeEvent(partial: Partial<AtlasEvent> & Pick<AtlasEvent, 'id' | 'name' | 'date'>): AtlasEvent {
@@ -61,7 +61,9 @@ const dataset: AtlasDataset = {
   warnings: [],
 };
 
-const index = buildSearchIndex([dataset]);
+const pinyinProvider = await loadPinyinProvider();
+const index = buildSearchIndex([dataset], 'zh', pinyinProvider);
+const baseIndex = buildSearchIndex([dataset]);
 
 describe('searchEvents', () => {
   it('按事件名搜索', () => {
@@ -89,6 +91,12 @@ describe('searchEvents', () => {
 
   it('按英文类型搜索', () => {
     expect(searchEvents('Key meeting', index)[0]?.event.id).toBe('zunyi-1935-01');
+  });
+
+  it('未提供拼音 provider 时不生成拼音字段', () => {
+    expect(baseIndex.entries.every((entry) => entry.fields.pinyin === '')).toBe(true);
+    expect(baseIndex.entries.every((entry) => entry.fields.initials === '')).toBe(true);
+    expect(searchEvents('xiangjiang', baseIndex)).toEqual([]);
   });
 
   it('按全拼搜索', () => {

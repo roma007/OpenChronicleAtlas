@@ -2,9 +2,11 @@ import {
   buildSearchIndex,
   categoryLabel,
   collectCategories,
+  loadPinyinProvider,
   parseDateString,
   resolveLocalized,
   searchEvents,
+  type PinyinProvider,
   type SearchHit,
 } from '@atlas/shared';
 import { useEffect, useMemo, useState } from 'react';
@@ -42,6 +44,7 @@ export function SearchPage() {
   const [category, setCategory] = useState('');
   const [from, setFrom] = useState('');
   const [to, setTo] = useState('');
+  const [pinyinProvider, setPinyinProvider] = useState<PinyinProvider | null>(null);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -53,9 +56,23 @@ export function SearchPage() {
     return () => window.clearTimeout(timer);
   }, [query]);
 
+  useEffect(() => {
+    let cancelled = false;
+    void loadPinyinProvider()
+      .then((provider) => {
+        if (!cancelled) setPinyinProvider(provider);
+      })
+      .catch(() => {
+        // 拼音增强失败时保留基础索引，不影响普通搜索。
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   const index = useMemo(
-    () => (datasets ? buildSearchIndex(datasets, locale) : null),
-    [datasets, locale],
+    () => (datasets ? buildSearchIndex(datasets, locale, pinyinProvider) : null),
+    [datasets, locale, pinyinProvider],
   );
 
   const toTime = (value: string) => {

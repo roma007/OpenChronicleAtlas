@@ -2,9 +2,11 @@ import {
   buildSearchIndex,
   categoryLabel,
   collectCategories,
+  loadPinyinProvider,
   parseDateString,
   resolveLocalized,
   searchEvents,
+  type PinyinProvider,
   type SearchHit,
 } from '@atlas/shared';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
@@ -41,6 +43,7 @@ export function SearchScreen({ navigation }: Props) {
   const [category, setCategory] = useState('');
   const [from, setFrom] = useState('');
   const [to, setTo] = useState('');
+  const [pinyinProvider, setPinyinProvider] = useState<PinyinProvider | null>(null);
 
   useEffect(() => {
     void loadSearchData();
@@ -51,9 +54,23 @@ export function SearchScreen({ navigation }: Props) {
     return () => clearTimeout(timer);
   }, [query]);
 
+  useEffect(() => {
+    let cancelled = false;
+    void loadPinyinProvider()
+      .then((provider) => {
+        if (!cancelled) setPinyinProvider(provider);
+      })
+      .catch(() => {
+        // 拼音增强失败时保留基础索引，不影响普通搜索。
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   const index = useMemo(
-    () => (datasets ? buildSearchIndex(datasets, locale) : null),
-    [datasets, locale],
+    () => (datasets ? buildSearchIndex(datasets, locale, pinyinProvider) : null),
+    [datasets, locale, pinyinProvider],
   );
 
   const toTime = (value: string) => {
