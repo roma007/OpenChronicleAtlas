@@ -7,16 +7,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            110.67,
-            25.61
-          ],
-          [
             111.07,
             25.93
           ],
           [
-            111.3,
-            25.7
+            110.67,
+            25.61
+          ],
+          [
+            110.4,
+            25.5
           ]
         ]
       },
@@ -27,8 +27,46 @@
         "order": 1,
         "segmentType": "defense",
         "name": {
-          "zh": "湘江封锁线（湘军、桂军）",
-          "en": "Xiang River Blockade Line"
+          "zh": "湘江封锁线（湘军）",
+          "en": "Xiang River Blockade Line (Hunan Army)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.07,
+            25.93
+          ],
+          [
+            111.16,
+            25.49
+          ],
+          [
+            110.9,
+            25.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-army",
+        "startDate": "1934-11-27",
+        "endDate": "1934-12-01",
+        "order": 2,
+        "segmentType": "defense",
+        "name": {
+          "zh": "湘江封锁线（桂军）",
+          "en": "Xiang River Blockade Line (Guangxi Army)"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -62,7 +100,7 @@
         "entityId": "kmt-army",
         "startDate": "1935-01-01",
         "endDate": "1935-01-06",
-        "order": 2,
+        "order": 3,
         "segmentType": "defense",
         "name": {
           "zh": "乌江防线（黔军）",
@@ -100,7 +138,7 @@
         "entityId": "kmt-army",
         "startDate": "1935-05-01",
         "endDate": "1935-05-09",
-        "order": 3,
+        "order": 4,
         "segmentType": "defense",
         "name": {
           "zh": "金沙江防线（滇军）",
@@ -138,7 +176,7 @@
         "entityId": "kmt-army",
         "startDate": "1935-05-25",
         "endDate": "1935-05-29",
-        "order": 4,
+        "order": 5,
         "segmentType": "defense",
         "name": {
           "zh": "大渡河防线（川军）",
@@ -176,7 +214,7 @@
         "entityId": "kmt-army",
         "startDate": "1935-09-16",
         "endDate": "1935-09-17",
-        "order": 5,
+        "order": 6,
         "segmentType": "defense",
         "name": {
           "zh": "腊子口防线（鲁大昌部）",
@@ -210,7 +248,7 @@
         "entityId": "kmt-army",
         "startDate": "1935-11-20",
         "endDate": "1935-11-24",
-        "order": 6,
+        "order": 7,
         "segmentType": "advance",
         "name": {
           "zh": "直罗镇进攻（东北军第109师）",
@@ -248,7 +286,7 @@
         "entityId": "kmt-army",
         "startDate": "1935-10-06",
         "endDate": "1935-10-07",
-        "order": 7,
+        "order": 8,
         "segmentType": "advance",
         "name": {
           "zh": "六盘山骑兵追击（东北军骑兵）",
@@ -294,11 +332,91 @@
         "entityId": "kmt-army",
         "startDate": "1934-10-10",
         "endDate": "1935-01-15",
-        "order": 8,
+        "order": 9,
         "segmentType": "advance",
         "name": {
           "zh": "追击路线（赣—湘—黔）",
           "en": "Pursuit Route (Jiangxi–Hunan–Guizhou)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.94,
+            28.23
+          ],
+          [
+            111.69,
+            29.03
+          ],
+          [
+            109.44,
+            29.46
+          ],
+          [
+            106.63,
+            26.65
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-army",
+        "startDate": "1935-11-19",
+        "endDate": "1936-10-22",
+        "order": 10,
+        "segmentType": "advance",
+        "name": {
+          "zh": "追击红二、六军团",
+          "en": "Pursuit of the Red Second and Sixth Army Groups"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.07,
+            30.67
+          ],
+          [
+            102.36,
+            30.99
+          ],
+          [
+            99.99,
+            31.62
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-army",
+        "startDate": "1935-05-01",
+        "endDate": "1936-10-09",
+        "order": 11,
+        "segmentType": "defense",
+        "name": {
+          "zh": "堵截红四方面军",
+          "en": "Blockade of the Red Fourth Front Army"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",

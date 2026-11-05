@@ -954,6 +954,62 @@
     "importance": 2
   },
   {
+    "id": "kmt-red4-blockade-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "国民党军堵截红四方面军",
+      "en": "KMT Blockade of the Red Fourth Front Army"
+    },
+    "date": "1935-05-01",
+    "endDate": "1936-10-09",
+    "location": {
+      "lng": 102.36,
+      "lat": 30.99,
+      "place": {
+        "zh": "四川懋功",
+        "en": "Maogong, Sichuan"
+      }
+    },
+    "entityIds": [
+      "kmt-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "国民党军对红四方面军进行堵截，企图阻止其与中央红军会师。",
+      "en": "KMT forces blockaded the Red Fourth Front Army, attempting to prevent it from joining the Central Red Army."
+    },
+    "description": {
+      "zh": "1935 年 5 月至 1936 年 10 月，国民党军对红四方面军进行堵截与追击，红军在川陕甘边地区与国民党军周旋，最终北上会宁。部队番号与指挥关系为通行说法，待页码级核对。",
+      "en": "From May 1935 to October 1936, KMT forces blockaded and pursued the Red Fourth Front Army. The Red Army maneuvered in the Sichuan-Shaanxi-Gansu border region and eventually moved north to Huining. Unit designations and command relationships follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对国民党军追堵方向"
+      }
+    ],
+    "relatedIds": [
+      "maogong-1935-06",
+      "huining-1936-10"
+    ],
+    "importance": 2
+  },
+  {
     "id": "jinsha-1935-05",
     "atlasId": "long-march",
     "name": {
@@ -1876,6 +1932,62 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "kmt-red2-pursuit-1935-11",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "国民党军追堵红二、六军团",
+      "en": "KMT Pursuit of the Red Second and Sixth Army Groups"
+    },
+    "date": "1935-11-19",
+    "endDate": "1936-10-22",
+    "location": {
+      "lng": 109.44,
+      "lat": 29.46,
+      "place": {
+        "zh": "湖南龙山",
+        "en": "Longshan, Hunan"
+      }
+    },
+    "entityIds": [
+      "kmt-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "国民党军对红二、六军团进行追堵，企图将其围歼于湘鄂川黔地区。",
+      "en": "KMT forces pursued the Red Second and Sixth Army Groups, attempting to destroy them in the Hunan-Hubei-Sichuan-Guizhou area."
+    },
+    "description": {
+      "zh": "1935 年 11 月至 1936 年 10 月，国民党军调集兵力对红二、六军团进行追堵，红军突围西进，最终与红四方面军会师。部队番号与指挥关系为通行说法，待页码级核对。",
+      "en": "From November 1935 to October 1936, KMT forces concentrated troops to pursue the Red Second and Sixth Army Groups. The Red Army broke out westward and eventually joined the Red Fourth Front Army. Unit designations and command relationships follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对国民党军追堵方向"
+      }
+    ],
+    "relatedIds": [
+      "huining-1936-10",
+      "jiangtaibao-1936-10"
+    ],
+    "importance": 2
   },
   {
     "id": "zhiluozhen-1935-11",
