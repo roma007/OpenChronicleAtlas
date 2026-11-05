@@ -16,6 +16,26 @@
 
 ---
 
+## [v0.31.0-m31] - 2026-11-05
+
+### Added
+- 共享事件-路线 QA 模块 `packages/shared/src/qa/routes.ts`。
+- `pnpm check:routes` 命令，支持 `--atlas`、`--threshold`、`--json`。
+- 路线 QA 单测 `route-qa.test.ts`。
+- 发布说明 `docs/releases/2026-11-05-v0.31.0-m31.md`。
+
+### Changed
+- 四包版本统一为 `0.31.0`；Android `versionCode` 升为 28；iOS build 28。
+- 完整开发计划中的「数据 QA 脚本产品化」标记为完成。
+
+### Docs
+- `docs/plans/2026-11-05-M31-数据QA脚本产品化-plan.md`
+- `docs/plans/2026-11-05-M31-数据QA脚本产品化-design.md`
+- `docs/releases/2026-11-05-v0.31.0-m31.md`
+- `docs/conversations/2026-11-05-M31启动与数据QA脚本产品化.md`
+
+---
+
 ## [v0.30.0-m30] - 2026-11-05
 
 ### Added

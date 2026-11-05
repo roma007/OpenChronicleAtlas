@@ -3,7 +3,7 @@
 > 通用历史事件时空地图平台：以「地图 + 时间轴」为核心交互，展示任意历史专题的路线、事件与时空演变。
 > 平台不绑定任何单一历史事件，长征、抗战、丝绸之路、大航海等均作为可插拔的「专题数据集（Atlas Dataset）」接入。
 
-当前状态：**M30 已完成（v0.30.0-m30）：抗战路线精修第七批；iOS 真机、正式域名与商店提交待账号/许可**
+当前状态：**M31 已完成（v0.31.0-m31）：数据 QA 脚本产品化；iOS 真机、正式域名与商店提交待账号/许可**
 数据契约版本：**atlas-schema v1.0.0**
 
 ---
@@ -146,6 +146,7 @@ OpenChronicleAtlas/
 pnpm install          # 安装依赖
 pnpm dev              # 启动 Web（默认 http://localhost:5173）
 pnpm validate:data    # 校验 data/atlases 下全部专题
+pnpm check:routes     # 检查事件-路线距离（默认 30km）
 pnpm -r typecheck     # 三包类型检查
 pnpm test             # shared 单测
 pnpm build            # Web 生产构建（含数据拷贝到 dist/data）
