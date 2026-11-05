@@ -629,6 +629,63 @@
     "importance": 1
   },
   {
+    "id": "lanfeng-1938-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "兰封会战",
+      "en": "Battle of Lanfeng"
+    },
+    "date": "1938-05-21",
+    "endDate": "1938-06-06",
+    "location": {
+      "lng": 114.82,
+      "lat": 34.82,
+      "place": {
+        "zh": "河南兰封（今兰考）",
+        "en": "Lanfeng (now Lankao), Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "中国军队围攻兰封日军第 14 师团，因日军增援与协同问题未能全歼，最终撤退。",
+      "en": "Chinese forces besieged the Japanese 14th Division at Lanfeng; Japanese reinforcements and coordination problems prevented a full encirclement, and the Chinese withdrew."
+    },
+    "description": {
+      "zh": "1938 年 5 月，徐州会战后期，中国军队在兰封地区围攻日军第 14 师团。中国军队一度收复兰封，但日军增援逼近，中国军队侧背受威胁，被迫撤退。此役是徐州会战的重要组成部分，也暴露了指挥协同与装备差距。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
+      "en": "In May 1938, late in the Xuzhou campaign, Chinese forces besieged the Japanese 14th Division around Lanfeng. Chinese troops briefly recovered Lanfeng, but as Japanese reinforcements approached and threatened their flank and rear, they were forced to withdraw. The battle was an important part of the Xuzhou campaign and exposed gaps in command coordination and equipment.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国事变陆军作战史》",
+        "author": "日本防卫厅防卫研修所战史室",
+        "year": 1979,
+        "note": "日方作战记录参考"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "战役背景参考"
+      }
+    ],
+    "relatedIds": [
+      "taierzhuang-1938-03",
+      "wuhan-fall-1938-10"
+    ],
+    "importance": 2
+  },
+  {
     "id": "guangzhou-fall-1938-10",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -727,6 +784,63 @@
     "importance": 1
   },
   {
+    "id": "suizao-1939-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "随枣会战",
+      "en": "Battle of Suizao"
+    },
+    "date": "1939-05-01",
+    "endDate": "1939-05-24",
+    "location": {
+      "lng": 113.38,
+      "lat": 31.69,
+      "place": {
+        "zh": "湖北随县（今随州）",
+        "en": "Suixian (now Suizhou), Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军进攻随县、枣阳地区，中国军队逐次抵抗并反击，恢复原阵地。",
+      "en": "Japanese forces attacked the Suixian and Zaoyang areas; Chinese troops resisted in stages, counterattacked, and restored the original line."
+    },
+    "description": {
+      "zh": "1939 年 5 月，日军第 11 军向随县、枣阳地区进攻，企图打击中国第五战区主力。中国军队依托地形逐次抵抗，并在日军补给困难时反击，至 5 月下旬恢复原阵地。此役是抗战进入相持阶段后的重要作战。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
+      "en": "In May 1939, the Japanese 11th Army attacked the Suixian and Zaoyang areas, seeking to strike the main forces of China’s Fifth War Zone. Chinese troops used the terrain to resist in stages and counterattacked as Japanese supply lines became strained, restoring the original line by late May. It was an important operation after the war entered the stalemate phase.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国事变陆军作战史》",
+        "author": "日本防卫厅防卫研修所战史室",
+        "year": 1979,
+        "note": "日方作战记录参考"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "战役背景参考"
+      }
+    ],
+    "relatedIds": [
+      "zaoyi-1940-05",
+      "wuhan-fall-1938-10"
+    ],
+    "importance": 2
+  },
+  {
     "id": "changsha-1939-09",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -780,6 +894,63 @@
     "relatedIds": [
       "wuhan-fall-1938-10",
       "ichigo-offensive-1944-04"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "kunlun-1939-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "昆仑关战役",
+      "en": "Battle of Kunlun Pass"
+    },
+    "date": "1939-12-18",
+    "endDate": "1940-01-11",
+    "location": {
+      "lng": 108.65,
+      "lat": 23.05,
+      "place": {
+        "zh": "广西南宁昆仑关",
+        "en": "Kunlun Pass, Nanning, Guangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "中国军队反攻昆仑关，经过激战收复关隘，取得昆仑关大捷。",
+      "en": "Chinese forces counterattacked at Kunlun Pass and recaptured the strategic pass after fierce fighting."
+    },
+    "description": {
+      "zh": "1939 年 12 月，中国军队为收复南宁、夺回昆仑关，对日军发起反攻。中国第 5 军等部在昆仑关与日军激战，反复争夺，最终于 1940 年 1 月收复昆仑关，击毙日军旅团长中村正雄。此役是抗战中期中国军队的一次重要攻坚胜利。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
+      "en": "In December 1939, Chinese forces launched a counteroffensive to recover Nanning and retake Kunlun Pass. The Chinese 5th Army and other units fought fierce, seesaw battles against the Japanese at the pass, finally recapturing it in January 1940 and killing the Japanese brigade commander Nakamura Masao. It was an important Chinese offensive victory in the middle years of the war.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国事变陆军作战史》",
+        "author": "日本防卫厅防卫研修所战史室",
+        "year": 1979,
+        "note": "日方作战记录参考"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "战役背景参考"
+      }
+    ],
+    "relatedIds": [
+      "guangzhou-fall-1938-10",
+      "wuhan-fall-1938-10"
     ],
     "importance": 1
   },

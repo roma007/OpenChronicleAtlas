@@ -151,6 +151,40 @@
         "type": "LineString",
         "coordinates": [
           [
+            115.65,
+            34.41
+          ],
+          [
+            114.82,
+            34.82
+          ],
+          [
+            114.31,
+            34.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-05-21",
+        "endDate": "1938-06-06",
+        "order": 5,
+        "name": {
+          "zh": "兰封会战",
+          "en": "Battle of Lanfeng"
+        },
+        "description": {
+          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
+          "en": "Campaign route based on common historical maps; page-level verification pending."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             117.05,
             30.53
           ],
@@ -176,7 +210,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1938-06-12",
         "endDate": "1938-10-25",
-        "order": 5,
+        "order": 6,
         "name": {
           "zh": "武汉会战",
           "en": "Battle of Wuhan"
@@ -206,7 +240,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1938-10-21",
         "endDate": "1938-10-21",
-        "order": 6,
+        "order": 7,
         "name": {
           "zh": "广州",
           "en": "Guangzhou"
@@ -214,6 +248,44 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3,
+            30.59
+          ],
+          [
+            113.69,
+            31.26
+          ],
+          [
+            113.38,
+            31.69
+          ],
+          [
+            112.77,
+            32.13
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-05-01",
+        "endDate": "1939-05-24",
+        "order": 8,
+        "name": {
+          "zh": "随枣会战",
+          "en": "Battle of Suizao"
+        },
+        "description": {
+          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
+          "en": "Campaign route based on common historical maps; page-level verification pending."
         }
       }
     },
@@ -240,10 +312,44 @@
         "entityId": "japanese-invasion",
         "startDate": "1939-09-14",
         "endDate": "1939-10-08",
-        "order": 7,
+        "order": 9,
         "name": {
           "zh": "第一次长沙会战",
           "en": "First Battle of Changsha"
+        },
+        "description": {
+          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
+          "en": "Campaign route based on common historical maps; page-level verification pending."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.65,
+            21.95
+          ],
+          [
+            108.32,
+            22.82
+          ],
+          [
+            108.65,
+            23.05
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-12-18",
+        "endDate": "1940-01-11",
+        "order": 10,
+        "name": {
+          "zh": "昆仑关战役",
+          "en": "Battle of Kunlun Pass"
         },
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
@@ -282,7 +388,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1940-05-01",
         "endDate": "1940-06-18",
-        "order": 8,
+        "order": 11,
         "name": {
           "zh": "枣宜会战",
           "en": "Battle of Zaoyang–Yichang"
@@ -316,7 +422,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1941-03-15",
         "endDate": "1941-04-09",
-        "order": 9,
+        "order": 12,
         "name": {
           "zh": "上高会战",
           "en": "Battle of Shanggao"
@@ -354,7 +460,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1941-05-07",
         "endDate": "1941-06-15",
-        "order": 10,
+        "order": 13,
         "name": {
           "zh": "中条山战役",
           "en": "Battle of South Shanxi"
@@ -392,7 +498,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1941-09-07",
         "endDate": "1941-10-08",
-        "order": 11,
+        "order": 14,
         "name": {
           "zh": "第二次长沙会战",
           "en": "Second Battle of Changsha"
@@ -434,7 +540,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1941-12-24",
         "endDate": "1942-01-15",
-        "order": 12,
+        "order": 15,
         "name": {
           "zh": "第三次长沙会战",
           "en": "Third Battle of Changsha"
@@ -468,7 +574,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1943-05-05",
         "endDate": "1943-06-12",
-        "order": 13,
+        "order": 16,
         "name": {
           "zh": "鄂西会战",
           "en": "Battle of West Hubei"
@@ -502,7 +608,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1943-11-02",
         "endDate": "1943-12-20",
-        "order": 14,
+        "order": 17,
         "name": {
           "zh": "常德会战",
           "en": "Battle of Changde"
@@ -568,7 +674,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1944-04-17",
         "endDate": "1944-11-24",
-        "order": 15,
+        "order": 18,
         "name": {
           "zh": "豫湘桂—南宁",
           "en": "Henan–Hunan–Guangxi–Nanning"
@@ -602,7 +708,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1945-04-09",
         "endDate": "1945-06-07",
-        "order": 16,
+        "order": 19,
         "name": {
           "zh": "湘西会战",
           "en": "Battle of West Hunan"
