@@ -159,6 +159,8 @@ docs/
 - [v0.17.0-m17（M17）](releases/2026-11-05-v0.17.0-m17.md)
 - [v0.18.0-m18（M18）](releases/2026-11-05-v0.18.0-m18.md)
 - [v0.19.0-m19（M19）](releases/2026-11-05-v0.19.0-m19.md)
+- [v0.20.0-m20（M20 并行批次）](releases/2026-11-05-v0.20.0-m20.md)
+- [抗日战争数据草稿 QA](releases/2026-11-05-抗日战争数据草稿QA.md)
 - [全项目收尾审计（M1–M5）](releases/2026-11-04-final-audit.md)
 - [商店上架元数据（草稿）](releases/store-metadata.md)
 - [商店截图（准备中）](releases/screenshots/README.md)

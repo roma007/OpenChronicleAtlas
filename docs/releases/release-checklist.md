@@ -1,7 +1,7 @@
 # 发布前检查清单（M20）
 
 - **日期**：2026-11-05
-- **适用版本**：源码 `0.19.0`；M20 候选版本号与 tag 待用户确认（建议 `v0.20.0-m20`）
+- **适用版本**：源码 `0.20.0`；M20 发布说明已定为 `v0.20.0-m20`，双仓 tag 待创建/确认
 - **范围**：iOS / Android / Web / 合规 / 文档与回滚
 - **状态**：**未达发布条件**。五项外部阻塞（iOS 账号、真机、商店账号、正式域名、高德商用许可）未解除
 - **关联文档**：
@@ -22,14 +22,15 @@
 | 项目 | 现状 | 证据 |
 | --- | --- | --- |
 | 分支 / HEAD | `main` / `9183bbf` | `git log` |
-| 最新 tag | `v0.19.0-m19` | `git tag` |
+| 最新 tag | `v0.19.0-m19`（M20 发布说明已写 `v0.20.0-m20`，tag 尚未创建） | `git tag` |
 | 双仓 remote | `origin` 双 pushurl（GitHub + Gitee），另有 `gitee` fetch | `git remote -v` |
-| 源码版本 | 根包 / Web / Shared / Mobile 均为 `0.19.0` | `package.json` |
-| Android 源配置 | `versionName 0.19.0` / `versionCode 16` | `apps/mobile/android/app/build.gradle` |
-| Android 上次产物 | `0.5.0` / `versionCode 2` 的 APK；**0.19.0 APK 未重建** | 全项目审计 + `output-metadata.json` |
-| iOS 源配置 | `CFBundleShortVersionString 0.5.0` / `CFBundleVersion 1`；**与 0.19.0 不一致** | `apps/mobile/ios/app/Info.plist` |
+| 源码版本 | 根包 / Web / Shared / Mobile 均为 `0.20.0` | `package.json` |
+| Android 源配置 | `versionName 0.20.0` / `versionCode 17` | `apps/mobile/android/app/build.gradle` |
+| Android 上次产物 | `0.5.0` / `versionCode 2` 的 APK；**0.20.0 APK 未重建** | 全项目审计 + `output-metadata.json` |
+| iOS 源配置 | `CFBundleShortVersionString 0.5.0` / `CFBundleVersion 1`；**与 0.20.0 不一致** | `apps/mobile/ios/app/Info.plist` |
 | iOS 产物 | 无 IPA；AMap iOS SDK 无 arm64 模拟器切片 | 全项目审计 |
-| 专题数据 | 3 个专题 / 74 事件 / 72 路线段 | `data/atlases/index.json` 及 manifest 统计 |
+| 专题数据（应用内） | 3 个已索引专题 / 74 事件 / 72 路线段 | `data/atlases/index.json` 及 manifest 统计 |
+| 专题数据（含草稿） | 4 个专题 / 103 事件 / 81 路线段；抗战专题未加入 `index.json`，首页不显示 | M20 发布说明 + `validate:data` |
 | Web 生产地址 | `https://open-chronicle-atlas-mengfeng007-7858.vercel.app` | M19 发布说明 |
 | 正式域名 | **未绑定** | 部署指南 |
 | 隐私政策 | Web `/privacy` 与移动端首启隐私说明均含高德披露 | 代码核验 |
@@ -55,8 +56,8 @@
 
 | 编号 | 待办 | 当前状态 | 说明 |
 | --- | --- | --- | --- |
-| B6 | iOS 版本号对齐 | ⚠️ `0.5.0 (1)` | 必须改为 `0.19.0` 并递增 build |
-| B7 | Android 0.19.0 APK/AAB 重建 | ⚠️ 仅有 0.5.0 APK | 重建后真机验收 |
+| B6 | iOS 版本号对齐 | ⚠️ `0.5.0 (1)` | 必须改为 `0.20.0` 并递增 build |
+| B7 | Android 0.20.0 APK/AAB 重建 | ⚠️ 仅有 0.5.0 APK | 重建后真机验收 |
 | B8 | 真机截图替换 | ⛔ 依赖 B2 | 当前为 Web 占位图 |
 | B9 | Web 安全密钥重置 | ⚠️ 曾出现在临时构建/聊天 | 重置 `securityJsCode`，配置代理 |
 | B10 | Android 敏感权限清理 | ⚠️ `SYSTEM_ALERT_WINDOW` 仍在主 manifest | 确认用途；不需要则移除 |
@@ -87,7 +88,7 @@
 
 ### 2.3 构建与版本
 
-- [ ] ⚠️ `CFBundleShortVersionString` 从 `0.5.0` 对齐为 `0.19.0`
+- [ ] ⚠️ `CFBundleShortVersionString` 从 `0.5.0` 对齐为 `0.20.0`
 - [ ] ⚠️ `CFBundleVersion` 从 `1` 递增（每次上传必须唯一且递增）
 - [ ] ⚠️ 统一最低系统：Xcode `IPHONEOS_DEPLOYMENT_TARGET` 为 16.4，Info.plist `LSMinimumSystemVersion` 仍为 12.0
 - [ ] 使用 Release 配置 archive，确认无 Dev Menu、无调试浮层
@@ -164,9 +165,9 @@
 
 ### 3.3 构建与版本
 
-- [ ] ⚠️ `versionName` 为 `0.19.0`
-- [ ] ⚠️ `versionCode` 为 `16`；若已上传过同码，必须递增
-- [ ] ⚠️ 重新构建 0.19.0 release 产物（当前仅有 0.5.0 APK）
+- [ ] ⚠️ `versionName` 为 `0.20.0`
+- [ ] ⚠️ `versionCode` 为 `17`；若已上传过同码，必须递增
+- [ ] ⚠️ 重新构建 0.20.0 release 产物（当前仅有 0.5.0 APK）
 - [ ] Play 上传使用 `.aab`；侧载/国内商店按需提供 `.apk`
 - [ ] Release 签名生效，安装包签名校验通过
 - [ ] `minifyEnabled` / `shrinkResources` 策略确认（当前关闭；开启后需回归地图/反射/序列化）

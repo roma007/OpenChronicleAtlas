@@ -16,6 +16,31 @@
 
 ---
 
+## [v0.20.0-m20] - 2026-11-05
+
+### Added
+- M21：搜索拼音 chunk 懒加载，`loadPinyinProvider()` 动态加载 `pinyin-pro`。
+- M20：`store-metadata-en.md` 英文商店元数据与 `release-checklist.md` 发布检查清单。
+- M22：`anti-japanese-war` 数据草稿（29 事件 / 9 路线段，未索引）。
+- 抗战数据 QA 报告与草稿说明。
+
+### Changed
+- `buildSearchIndex` 支持可选拼音 provider；未提供时不生成拼音字段。
+- 四包版本统一为 `0.20.0`；Android `versionCode` 升为 17。
+- 移除 Vite pinyin `manualChunks` 配置。
+
+### Fixed
+- 拼音 chunk 不再进入首屏加载路径。
+
+### Docs
+- `docs/plans/2026-11-05-并行开发与无人值守-plan.md`
+- `docs/releases/store-metadata-en.md`
+- `docs/releases/release-checklist.md`
+- `docs/releases/2026-11-05-抗日战争数据草稿QA.md`
+- `docs/releases/2026-11-05-v0.20.0-m20.md`
+
+---
+
 ## [v0.19.0-m19] - 2026-11-05
 
 ### Added
