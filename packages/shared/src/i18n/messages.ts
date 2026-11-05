@@ -66,9 +66,9 @@ const zh = {
   'gallery.subtitle': '历史专题',
   'gallery.count': '{count} 个专题',
   'gallery.searchEvents': '搜索事件 →',
-  'gallery.dataContract': '数据契约 v1.0.0',
+  'gallery.dataContract': '数据契约 v1.1.0',
   'gallery.mapService': '地图服务 · 高德',
-  'gallery.empty': '还没有专题数据包。请按 docs/schema/atlas-schema-v1.0.0.md 添加。',
+  'gallery.empty': '还没有专题数据包。请按 docs/schema/atlas-schema-v1.1.0.md 添加。',
   'gallery.errorTitle': '专题索引加载失败',
 
   'search.title': '检索',
@@ -230,10 +230,10 @@ const en: Record<keyof typeof zh, string> = {
   'gallery.subtitle': 'Historical atlases',
   'gallery.count': '{count} atlases',
   'gallery.searchEvents': 'Search events →',
-  'gallery.dataContract': 'Data contract v1.0.0',
+  'gallery.dataContract': 'Data contract v1.1.0',
   'gallery.mapService': 'Map service · AMap',
   'gallery.empty':
-    'No atlas data packages yet. Add one following docs/schema/atlas-schema-v1.0.0.md.',
+    'No atlas data packages yet. Add one following docs/schema/atlas-schema-v1.1.0.md.',
   'gallery.errorTitle': 'Failed to load atlas index',
 
   'search.title': 'Search',

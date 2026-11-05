@@ -58,11 +58,21 @@ export interface AtlasIndex {
   atlases: AtlasSummary[];
 }
 
+export type RouteSegmentType =
+  | 'advance'
+  | 'retreat'
+  | 'defense'
+  | 'counterattack'
+  | 'naval'
+  | 'supply'
+  | 'other';
+
 export interface AtlasRouteProperties {
   entityId: string;
   startDate: DateString;
   endDate: DateString;
   order: number;
+  segmentType?: RouteSegmentType;
   name?: LocalizedString;
   description?: LocalizedString;
   extensions?: Record<string, unknown>;
@@ -100,6 +110,7 @@ export interface AtlasEvent {
   id: string;
   atlasId: string;
   name: LocalizedString;
+  aliases?: LocalizedString[];
   date: DateString;
   endDate?: DateString;
   location: { lng: number; lat: number; place?: LocalizedString };

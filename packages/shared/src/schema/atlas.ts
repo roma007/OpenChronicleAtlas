@@ -21,6 +21,16 @@ export const hexColorSchema = z
   .string()
   .regex(/^#[0-9a-fA-F]{6}([0-9a-fA-F]{2})?$/, '颜色应为 #RRGGBB 或 #RRGGBBAA');
 
+export const routeSegmentTypeSchema = z.enum([
+  'advance',
+  'retreat',
+  'defense',
+  'counterattack',
+  'naval',
+  'supply',
+  'other',
+]);
+
 export const entitySchema = z
   .object({
     id: z.string().regex(/^[a-z0-9][a-z0-9-]*$/, 'id 只能包含小写字母、数字、连字符'),
@@ -70,6 +80,7 @@ export const routeFeatureSchema = z
         startDate: dateStringSchema,
         endDate: dateStringSchema,
         order: z.number(),
+        segmentType: routeSegmentTypeSchema.optional(),
         name: localizedStringSchema.optional(),
         description: localizedStringSchema.optional(),
         extensions: z.record(z.unknown()).optional(),
@@ -90,6 +101,7 @@ export const eventSchema = z
     id: z.string().regex(/^[a-z0-9][a-z0-9-]*$/),
     atlasId: z.string(),
     name: localizedStringSchema,
+    aliases: z.array(localizedStringSchema).optional(),
     date: dateStringSchema,
     endDate: dateStringSchema.optional(),
     location: z.object({

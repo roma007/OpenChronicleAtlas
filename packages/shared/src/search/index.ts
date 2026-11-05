@@ -83,7 +83,10 @@ export function buildSearchIndex(
         .map((entity) => allLocalized(entity.name))
         .join(' ');
 
-      const name = allLocalized(event.name);
+      const name = [
+        allLocalized(event.name),
+        ...(event.aliases ?? []).map((alias) => allLocalized(alias)),
+      ].join(' ');
       const place = allLocalized(event.location.place);
       const summary = allLocalized(event.summary);
       const description = stripMarkdown(allLocalized(event.description));

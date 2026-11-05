@@ -55,7 +55,7 @@ export function AboutPage() {
             </div>
             <div className="flex justify-between gap-4">
               <dt className="text-ink-soft/60">{t('about.dataContract')}</dt>
-              <dd className="font-medium text-ink">v1.0.0</dd>
+              <dd className="font-medium text-ink">v1.1.0</dd>
             </div>
             <div className="flex justify-between gap-4">
               <dt className="text-ink-soft/60">{t('about.mapService')}</dt>
