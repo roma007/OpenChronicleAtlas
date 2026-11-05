@@ -16,6 +16,26 @@
 
 ---
 
+## [v0.33.0-m33] - 2026-11-05
+
+### Added
+- Web 错误记录模块 `apps/web/src/lib/observability.ts`。
+- Web ErrorBoundary 与中英文兜底页。
+- 全局 `error` / `unhandledrejection` 监听。
+- 发布说明 `docs/releases/2026-11-05-v0.33.0-m33.md`。
+
+### Changed
+- 四包版本统一为 `0.33.0`；Android `versionCode` 升为 30；iOS build 30。
+- 完整开发计划中的「Web 错误边界与基础可观测性」标记为完成。
+
+### Docs
+- `docs/plans/2026-11-05-M33-Web错误边界与可观测性-plan.md`
+- `docs/plans/2026-11-05-M33-Web错误边界与可观测性-design.md`
+- `docs/releases/2026-11-05-v0.33.0-m33.md`
+- `docs/conversations/2026-11-05-M33启动与Web错误边界.md`
+
+---
+
 ## [v0.32.0-m32] - 2026-11-05
 
 ### Added
