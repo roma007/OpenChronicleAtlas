@@ -5,6 +5,7 @@ export * from './data/source';
 export * from './data/loader';
 export * from './time/date';
 export * from './timeline';
+export * from './qa/routes';
 export * from './geo/coordinate';
 export * from './geo/cluster';
 export * from './search/types';

@@ -1,6 +1,6 @@
 {
   "name": "open-chronicle-atlas",
-  "version": "0.30.0",
+  "version": "0.31.0",
   "private": true,
   "type": "module",
   "packageManager": "pnpm@10.30.3",
@@ -12,7 +12,8 @@
     "lint": "eslint .",
     "validate:data": "tsx scripts/validate-data.ts",
     "check:versions": "tsx scripts/check-versions.ts",
-    "build:search-index": "tsx scripts/build-search-index.ts"
+    "build:search-index": "tsx scripts/build-search-index.ts",
+    "check:routes": "tsx scripts/check-event-routes.ts"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
