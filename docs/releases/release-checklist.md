@@ -1,16 +1,16 @@
-# 发布前检查清单（M20）
+# 发布前检查清单（M32）
 
 - **日期**：2026-11-05
-- **适用版本**：源码 `0.20.0`；M20 发布说明 `v0.20.0-m20`，双仓 tag 已创建
+- **适用版本**：源码 `0.32.0`；M32 发布说明 `v0.32.0-m32`，双仓 tag 已创建
 - **范围**：iOS / Android / Web / 合规 / 文档与回滚
 - **状态**：**未达发布条件**。五项外部阻塞（iOS 账号、真机、商店账号、正式域名、高德商用许可）未解除
 - **关联文档**：
   - [英文商店元数据](store-metadata-en.md)
   - [中文商店元数据草稿](store-metadata.md)
-  - [M19 发布说明](2026-11-05-v0.19.0-m19.md)
+  - [M32 发布说明](2026-11-05-v0.32.0-m32.md)
   - [全项目收尾审计](2026-11-04-final-audit.md)
   - [部署指南](../guides/deployment.md)
-  - [M20 路线图](../plans/2026-11-05-项目路线图-M20及后续-plan.md)
+  - [完整开发计划与进度清单](../plans/2026-11-05-完整开发计划与进度清单-plan.md)
 
 > 用法：`[x]` 表示已核验；`[ ]` 表示未完成/未复验；`⛔` 表示当前阻塞；`⚠️` 表示高风险待办。
 > 本文档只做检查与记录，不执行安装、构建、部署、提交或推送。
@@ -22,16 +22,16 @@
 | 项目 | 现状 | 证据 |
 | --- | --- | --- |
 | 分支 / HEAD | `main`（最终提交以 `git log` 为准） | `git log` |
-| 最新 tag | `v0.20.0-m20` | `git tag` |
+| 最新 tag | `v0.32.0-m32` | `git tag` |
 | 双仓 remote | `origin` 双 pushurl（GitHub + Gitee），另有 `gitee` fetch | `git remote -v` |
-| 源码版本 | 根包 / Web / Shared / Mobile 均为 `0.20.0` | `package.json` |
-| Android 源配置 | `versionName 0.20.0` / `versionCode 17` | `apps/mobile/android/app/build.gradle` |
-| Android 上次产物 | `0.5.0` / `versionCode 2` 的 APK；**0.20.0 APK 未重建** | 全项目审计 + `output-metadata.json` |
-| iOS 源配置 | `CFBundleShortVersionString 0.5.0` / `CFBundleVersion 1`；**与 0.20.0 不一致** | `apps/mobile/ios/app/Info.plist` |
+| 源码版本 | 根包 / Web / Shared / Mobile 均为 `0.32.0` | `package.json` |
+| Android 源配置 | `versionName 0.32.0` / `versionCode 29` | `apps/mobile/android/app/build.gradle` |
+| Android 上次产物 | `0.5.0` / `versionCode 2` 的 APK；**0.32.0 APK 未重建** | 全项目审计 + `output-metadata.json` |
+| iOS 源配置 | `CFBundleShortVersionString 0.32.0` / `CFBundleVersion 29`；已对齐 | `apps/mobile/ios/app/Info.plist` |
 | iOS 产物 | 无 IPA；AMap iOS SDK 无 arm64 模拟器切片 | 全项目审计 |
-| 专题数据（应用内） | 3 个已索引专题 / 74 事件 / 72 路线段 | `data/atlases/index.json` 及 manifest 统计 |
-| 专题数据（含草稿） | 4 个专题 / 103 事件 / 81 路线段；抗战专题未加入 `index.json`，首页不显示 | M20 发布说明 + `validate:data` |
-| Web 生产地址 | `https://open-chronicle-atlas-mengfeng007-7858.vercel.app` | M19 发布说明 |
+| 专题数据（应用内） | 4 个已索引专题 / 114 事件 / 118 路线段 | `data/atlases/index.json` 及 manifest 统计 |
+| 专题数据（含草稿） | 4 个专题 / 114 事件 / 118 路线段；全部已加入 `index.json` | M32 发布说明 + `validate:data` |
+| Web 生产地址 | `https://open-chronicle-atlas-mengfeng007-7858.vercel.app` | M31 发布说明 |
 | 正式域名 | **未绑定** | 部署指南 |
 | 隐私政策 | Web `/privacy` 与移动端首启隐私说明均含高德披露 | 代码核验 |
 | 定位权限 | Android manifest 显式移除；iOS 无 `NSLocation*` | 代码核验 |
@@ -56,12 +56,12 @@
 
 | 编号 | 待办 | 当前状态 | 说明 |
 | --- | --- | --- | --- |
-| B6 | iOS 版本号对齐 | ⚠️ `0.5.0 (1)` | 必须改为 `0.20.0` 并递增 build |
-| B7 | Android 0.20.0 APK/AAB 重建 | ⚠️ 仅有 0.5.0 APK | 重建后真机验收 |
+| B6 | iOS 版本号对齐 | ✅ `0.32.0 (29)` | 已对齐 |
+| B7 | Android 0.32.0 APK/AAB 重建 | ⚠️ 仅有 0.5.0 APK | 重建后真机验收 |
 | B8 | 真机截图替换 | ⛔ 依赖 B2 | 当前为 Web 占位图 |
 | B9 | Web 安全密钥重置 | ⚠️ 曾出现在临时构建/聊天 | 重置 `securityJsCode`，配置代理 |
-| B10 | Android 敏感权限清理 | ⚠️ `SYSTEM_ALERT_WINDOW` 仍在主 manifest | 确认用途；不需要则移除 |
-| B11 | Android 明文流量关闭 | ⚠️ `usesCleartextTraffic="true"` | 生产必须 false |
+| B10 | Android 敏感权限清理 | ✅ 已在 `blockedPermissions` 屏蔽 | 已处理 |
+| B11 | Android 明文流量关闭 | ✅ `usesCleartextTraffic="false"` | 已处理 |
 
 ---
 
@@ -88,8 +88,8 @@
 
 ### 2.3 构建与版本
 
-- [ ] ⚠️ `CFBundleShortVersionString` 从 `0.5.0` 对齐为 `0.20.0`
-- [ ] ⚠️ `CFBundleVersion` 从 `1` 递增（每次上传必须唯一且递增）
+- [x] `CFBundleShortVersionString` 已对齐为 `0.32.0`
+- [x] `CFBundleVersion` 已递增为 `29`
 - [ ] ⚠️ 统一最低系统：Xcode `IPHONEOS_DEPLOYMENT_TARGET` 为 16.4，Info.plist `LSMinimumSystemVersion` 仍为 12.0
 - [ ] 使用 Release 配置 archive，确认无 Dev Menu、无调试浮层
 - [ ] archive 内 `Info.plist` 版本号、Bundle ID、显示名与商店记录一致
@@ -105,8 +105,8 @@
 ### 2.4 真机验收
 
 - [ ] iPhone 真机安装成功（非模拟器；AMap iOS SDK 无 arm64 模拟器切片）
-- [ ] 首页 3 个专题卡片正常加载
-- [ ] 长征 / 郑和 / 玄奘三个专题均可打开
+- [ ] 首页 4 个专题卡片正常加载
+- [ ] 长征 / 郑和 / 玄奘 / 抗日战争四个专题均可打开
 - [ ] 时间轴播放、暂停、拖动、缩放、事件点点击正常
 - [ ] 事件详情、史料来源、关联事件、前后导航正常
 - [ ] 搜索关键词 `1935`、类型筛选、日期区间筛选、重置筛选正常
@@ -165,17 +165,17 @@
 
 ### 3.3 构建与版本
 
-- [ ] ⚠️ `versionName` 为 `0.20.0`
-- [ ] ⚠️ `versionCode` 为 `17`；若已上传过同码，必须递增
-- [ ] ⚠️ 重新构建 0.20.0 release 产物（当前仅有 0.5.0 APK）
+- [x] `versionName` 为 `0.32.0`
+- [x] `versionCode` 为 `29`；若已上传过同码，必须递增
+- [ ] ⚠️ 重新构建 0.32.0 release 产物（当前仅有 0.5.0 APK）
 - [ ] Play 上传使用 `.aab`；侧载/国内商店按需提供 `.apk`
 - [ ] Release 签名生效，安装包签名校验通过
 - [ ] `minifyEnabled` / `shrinkResources` 策略确认（当前关闭；开启后需回归地图/反射/序列化）
 - [ ] `targetSdkVersion 36`，`minSdkVersion 24`
 - [ ] 包含 64 位架构；Play 64 位要求满足
-- [ ] ⚠️ 移除或说明 `SYSTEM_ALERT_WINDOW`（主 manifest 仍存在）
+- [x] `SYSTEM_ALERT_WINDOW` 已在 `blockedPermissions` 屏蔽
 - [ ] ⚠️ 复核 `READ/WRITE_EXTERNAL_STORAGE`（maxSdk 32）与 `VIBRATE` 是否业务必需
-- [ ] ⚠️ `android:usesCleartextTraffic` 改为 `false`
+- [x] `android:usesCleartextTraffic` 已为 `false`
 - [ ] `allowBackup` 策略确认（当前 true；如含敏感缓存需排除）
 - [ ] 高德 Key 不写入日志、不进入截图、不进入公开文档
 - [ ] `EXPO_PUBLIC_DATA_BASE_URL` 指向正式 HTTPS 域名
@@ -184,8 +184,8 @@
 ### 3.4 真机验收
 
 - [ ] Android 手机真机安装成功（当前仅 TV 模拟器验证）
-- [ ] 首页 3 个专题卡片正常加载
-- [ ] 长征 / 郑和 / 玄奘三个专题均可打开
+- [ ] 首页 4 个专题卡片正常加载
+- [ ] 长征 / 郑和 / 玄奘 / 抗日战争四个专题均可打开
 - [ ] 时间轴播放、暂停、拖动、缩放、事件点点击正常
 - [ ] 事件详情、史料来源、关联事件、前后导航正常
 - [ ] 搜索关键词、类型筛选、日期区间、重置筛选正常
@@ -242,7 +242,7 @@
 - [ ] ⚠️ `/_AMapService/` 代理已配置，securityJsCode 不以前端明文暴露
 - [ ] 高德 Web Key 域名白名单绑定正式域名
 - [ ] 构建命令 `pnpm --filter @atlas/web build` 可复现
-- [ ] 产物包含 `data/atlases/index.json` 与 3 个专题
+- [ ] 产物包含 `data/atlases/index.json` 与 4 个专题
 - [ ] SPA rewrites 正常（`/search`、`/privacy`、`/atlas/*` 直接访问不 404）
 - [ ] `/data/*` 缓存头生效；HTML 不长期缓存
 - [ ] PWA manifest、图标、主题色正确；离线策略符合预期
@@ -250,11 +250,11 @@
 
 ### 4.3 线上冒烟
 
-- [ ] `/` 返回 200，显示 3 张专题卡片
-- [ ] `/atlas/long-march`、`/atlas/zheng-he`、`/atlas/xuanzang` 可打开
+- [ ] `/` 返回 200，显示 4 张专题卡片
+- [ ] `/atlas/long-march`、`/atlas/zheng-he`、`/atlas/xuanzang`、`/atlas/anti-japanese-war` 可打开
 - [ ] `/search` 关键词、类型、日期筛选、重置正常
 - [ ] `/privacy` 返回 200，中英文内容完整，高德链接可点
-- [ ] `/data/atlases/index.json` 返回 200，含 3 个专题
+- [ ] `/data/atlases/index.json` 返回 200，含 4 个专题
 - [ ] 深链/分享链接可还原专题、时间点、事件、地图视野
 - [ ] 未知路径回退首页，不白屏
 - [ ] 移动端视口布局、触控、时间轴拖动正常
@@ -342,29 +342,30 @@
 
 - [x] 英文商店元数据初稿已创建：[store-metadata-en.md](store-metadata-en.md)
 - [x] 发布检查清单初稿已创建：本文档
-- [ ] ⚠️ 中文商店元数据同步到 0.20.0 / 3 个已索引专题（现有 [store-metadata.md](store-metadata.md) 仍为 0.5.0 / 2 个专题）
-- [x] M20 发布说明初稿已创建：[2026-11-05-v0.20.0-m20.md](2026-11-05-v0.20.0-m20.md)
-- [x] `CHANGELOG.md` 已记录 M20（待发布确认）
+- [x] 中文商店元数据已同步到 0.32.0 / 4 个专题
+- [x] M32 发布说明已创建：[2026-11-05-v0.32.0-m32.md](2026-11-05-v0.32.0-m32.md)
+- [x] `CHANGELOG.md` 已记录 M32（待发布确认）
 - [ ] ⚠️ 截图 README 更新为真机截图与最终尺寸
 - [ ] ⚠️ 部署指南补充正式域名、DNS、HTTPS、代理配置
 - [ ] ⚠️ 隐私政策文档与应用内文案同步
-- [x] README 状态已更新为 M20 / 发布候选
+- [x] README 状态已更新为 M32 / 发布候选
 - [ ] 全仓 Markdown 内部链接扫描 0 断链
 - [ ] 文档中无 Key、口令、个人信息、未确认的账号/许可声明
 
 ### 6.2 版本一致性
 
-- [x] 根 `package.json`、`apps/web`、`apps/shared`、`apps/mobile` 版本一致（均为 `0.20.0`）
-- [x] `apps/mobile/app.json` 的 `version` 与包版本一致（`0.20.0`）
-- [x] `apps/mobile/android/app/build.gradle` 的 `versionName 0.20.0` / `versionCode 17` 正确（产物待重建）
-- [ ] ⚠️ `apps/mobile/ios/app/Info.plist` 的 `CFBundleShortVersionString` / `CFBundleVersion` 正确
+- [x] 根 `package.json`、`apps/web`、`apps/shared`、`apps/mobile` 版本一致（均为 `0.32.0`）
+- [x] `apps/mobile/app.json` 的 `version` 与包版本一致（`0.32.0`）
+- [x] `apps/mobile/android/app/build.gradle` 的 `versionName 0.32.0` / `versionCode 29` 正确（产物待重建）
+- [x] `apps/mobile/ios/app/Info.plist` 的 `CFBundleShortVersionString 0.32.0` / `CFBundleVersion 29` 正确
 - [x] 数据契约版本 `atlas-schema v1.0.0` 未意外变更
-- [ ] 如变更数据，`pnpm validate:data` 通过（4 专题 / 103 事件 / 81 路线段；应用内索引 3 专题 / 74 / 72）
+- [ ] 如变更数据，`pnpm validate:data` 通过（4 专题 / 114 事件 / 118 路线段；应用内索引 4 专题）
+- [ ] 如变更数据，`pnpm check:routes` 通过（事件-路线 0 个 >30km）
 
 ### 6.3 双仓与 tag
 
 - [x] 最终提交已评审，工作区干净
-- [x] 版本号与 tag 名称已确认（`v0.20.0-m20`）
+- [x] 版本号与 tag 名称已确认（`v0.32.0-m32`）
 - [x] GitHub `main` 与 Gitee `master`/`main` 同步
 - [x] 双仓均推送 tag，且指向同一 commit
 - [x] `git ls-remote` 校验两仓 refs 一致
@@ -388,7 +389,7 @@
 - [ ] Web：保留上一个生产 deployment；回滚时 promote 上一版本，验证 `/`、`/privacy`、`/data/atlases/index.json`
 - [ ] Android：保留上一版 AAB/APK；Play 分阶段发布可暂停；**不能降 versionCode**，严重问题用更高 versionCode 发 hotfix
 - [ ] iOS：保留上一版 archive/IPA；暂停分阶段发布；严重问题提交更高 build 的 hotfix；必要时下架
-- [ ] 数据：保留上一 tag 的 `data/atlases`；回滚后刷新 CDN 缓存，验证 3 个专题
+- [ ] 数据：保留上一 tag 的 `data/atlases`；回滚后刷新 CDN 缓存，验证 4 个专题
 - [ ] 域名/DNS：切换前低 TTL；保留旧部署可访问；回滚 DNS 记录
 - [ ] 回滚演练一次，记录耗时与负责人
 - [ ] 对外沟通模板（GitHub Issue / 商店更新说明）
@@ -409,7 +410,7 @@
 | U8 | 著作权主体/版权行文案 | Copyright 字段 | — |
 | U9 | 是否支持 iPad/Android 平板 | 截图与布局范围 | — |
 | U10 | 是否做中国大陆发行 | APP 备案、审图号、商店选择 | B5 |
-| U11 | M20 最终版本号与 tag | 发布与双仓 tag | — |
+| U11 | M32 最终版本号与 tag | 发布与双仓 tag | — |
 
 ---
 
@@ -423,4 +424,4 @@
 4. 正式域名与 HTTPS；
 5. 高德商用许可。
 
-在上述条件满足前，可继续完成不依赖外部账号的内部项：iOS 版本号对齐、Android 0.20.0 构建、敏感权限清理、明文流量关闭、Web 密钥重置与回滚演练。
+在上述条件满足前，可继续完成不依赖外部账号的内部项：Android 0.32.0 构建、真机截图替换、Web 密钥重置与回滚演练。

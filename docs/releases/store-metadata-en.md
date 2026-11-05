@@ -1,13 +1,12 @@
-# 商店元数据（英文版）— v0.20.0
+# 商店元数据（英文版）— v0.32.0
 
 - **日期**：2026-11-05
-- **适用版本**：`0.20.0`（Android `versionCode 17`；iOS 原生工程版本号待对齐，见 §2）
+- **适用版本**：`0.32.0`（Android `versionCode 29`；iOS build `29`）
 - **适用商店**：Apple App Store、Google Play、国内应用商店（如适用）
-- **状态**：M20 提审草稿。账号、真机截图、自定义域名、高德商用许可均未确认，**不可直接提交**
+- **状态**：M32 提审草稿。账号、真机截图、自定义域名、高德商用许可均未确认，**不可直接提交**
 - **关联文档**：
-  - [中文商店元数据草稿](store-metadata.md)（版本仍为 0.5.0、2 个专题，提审前需同步更新）
-  - [M19 发布说明](2026-11-05-v0.19.0-m19.md)
-  - [M20 发布说明](2026-11-05-v0.20.0-m20.md)
+  - [中文商店元数据草稿](store-metadata.md)（已同步为 0.32.0、4 个专题）
+  - [M32 发布说明](2026-11-05-v0.32.0-m32.md)
   - [全项目收尾审计](2026-11-04-final-audit.md)
   - [部署指南](../guides/deployment.md)
   - [截图目录](screenshots/README.md)
@@ -48,9 +47,9 @@ Google Play 无独立副标题字段，可将同一句放入短描述开头。
 
 ### 1.4 Promotional text（Apple，可选，≤ 170 字符）
 
-> **Three atlases, one timeline: trace the Long March, follow Zheng He’s fleet, and walk the Silk Road with Xuanzang. Search by category or date.**
+> **Four atlases, one timeline: the Long March, Zheng He’s voyages, Xuanzang’s Silk Road, and China’s War of Resistance. Search by category or date.**
 
-141 / 170 字符。该字段可在不重新提审的情况下更新，但不得包含价格、排名或未经验证的宣传语。
+148 / 170 字符。该字段可在不重新提审的情况下更新，但不得包含价格、排名或未经验证的宣传语。
 
 ### 1.5 Long description（≤ 4000 字符）
 
@@ -65,6 +64,7 @@ Google Play 无独立副标题字段，可将同一句放入短描述开头。
 > • The Long March (1934–1936)
 > • Zheng He’s Voyages (1405–1433)
 > • Silk Road: Xuanzang’s Journey (629–645)
+> • The War of Resistance Against Japan (1931–1945)
 >
 > **Features**
 >
@@ -87,11 +87,11 @@ Google Play 无独立副标题字段，可将同一句放入短描述开头。
 - 不写「离线可用」作为通用卖点（当前仅 Web PWA 有离线能力，移动端未做完整离线地图）；
 - 不写「无追踪」绝对表述；准确说法是「除隐私政策披露的地图 SDK 外，不集成广告、统计或用户画像 SDK」；
 - 历史数据明确标注为示意初稿，避免误导；
-- 商店文案仍按 **3 个已索引专题** 编写；`data/atlases/anti-japanese-war` 是未加入 `index.json` 的草稿，首页不显示，不得提前写入商店描述。
+- 商店文案按 **4 个已索引专题** 编写；四个专题均已加入 `index.json`，首页正常显示。
 
 ### 1.6 Keywords（Apple，≤ 100 字符，逗号分隔）
 
-> **history,historical map,timeline,atlas,China,Long March,Zheng He,Silk Road,education**
+> **history,historical map,timeline,atlas,China,Long March,Zheng He,Silk Road,War of Resistance,education**
 
 83 / 100 字符。
 
@@ -119,11 +119,11 @@ Google Play 无关键词字段，依靠标题、短描述和长描述覆盖上�
 | In-app purchases | None | 已确定 |
 | Ads | None | 已确定 |
 
-### 1.9 What’s New（0.20.0）
+### 1.9 What’s New（0.32.0）
 
-> **Search now supports category and date-range filters on web and mobile, with faster search loading. Minor copy updates.**
+> **More Anti-Japanese War campaigns, a built-in route QA command, and refreshed release documentation. Search and timeline behavior unchanged.**
 
-如后续发布 M20 候选版本，需按实际变更重写，不得沿用本段。
+如后续发布新版本，需按实际变更重写，不得沿用本段。
 
 ### 1.10 中文商店文案（参考，非英文版主体）
 
@@ -132,10 +132,10 @@ Google Play 无关键词字段，依靠标题、短描述和长描述覆盖上�
 | 应用名称 | 史迹 · 时空地图 |
 | 副标题 | 历史事件时空地图 |
 | 短描述 | 以地图与时间轴浏览历史专题：拖动时间轴，看路线生长、事件浮现。 |
-| 长描述 | 史迹 · 时空地图是一个通用历史事件时空地图平台。选择专题后，拖动或播放时间轴，观察路线随历史推进而生长；点击节点查看事件详情、史料来源与关联事件。平台不绑定单一历史叙事，专题以数据包接入，可扩展至更多历史主题。当前示例专题：长征（1934—1936）、郑和下西洋（1405—1433）、丝绸之路·玄奘西行（629—645）。地图服务由高德地图提供，当前版本不申请定位权限。历史数据为示意初稿，仅供学习与探索，请以引用史料为准。 |
+| 长描述 | 史迹 · 时空地图是一个通用历史事件时空地图平台。选择专题后，拖动或播放时间轴，观察路线随历史推进而生长；点击节点查看事件详情、史料来源与关联事件。平台不绑定单一历史叙事，专题以数据包接入，可扩展至更多历史主题。当前专题：长征（1934—1936）、郑和下西洋（1405—1433）、丝绸之路·玄奘西行（629—645）、抗日战争（1931—1945）。地图服务由高德地图提供，当前版本不申请定位权限。历史数据为示意初稿，仅供学习与探索，请以引用史料为准。 |
 | 分类 | 教育 / 参考 |
 
-> 中文文案中的专题数量、版本信息必须与英文版一致；现有 [store-metadata.md](store-metadata.md) 仍写「两个专题 / 0.5.0」，提审前需同步更新。
+> 中文文案中的专题数量、版本信息必须与英文版一致；[store-metadata.md](store-metadata.md) 已同步为「四个专题 / 0.32.0」。
 
 ---
 
@@ -147,9 +147,9 @@ Google Play 无关键词字段，依靠标题、短描述和长描述覆盖上�
 | Bundle ID / package | `com.openchronicle.atlas` | `com.openchronicle.atlas` |
 | 商店显示名 | OpenChronicle Atlas | OpenChronicle Atlas |
 | 设备桌面名 | 史迹（`CFBundleDisplayName`） | 史迹（`app_name`） |
-| 版本号（源配置） | `CFBundleShortVersionString` 当前为 **0.5.0**，需改为 `0.20.0` | `versionName` 为 **0.20.0** |
-| 构建号 | `CFBundleVersion` 当前为 **1**，每次上传必须递增 | `versionCode` 为 **17**，每次上传必须递增 |
-| 最低系统 | iOS 16.4（Xcode `IPHONEOS_DEPLOYMENT_TARGET`；Info.plist `LSMinimumSystemVersion` 仍写 12.0，建议对齐） | Android 7.0 / API 24（`minSdkVersion 24`） |
+| 版本号（源配置） | `CFBundleShortVersionString` 为 **0.32.0** | `versionName` 为 **0.32.0** |
+| 构建号 | `CFBundleVersion` 为 **29**，每次上传必须递增 | `versionCode` 为 **29**，每次上传必须递增 |
+| 最低系统 | iOS 16.4（`IPHONEOS_DEPLOYMENT_TARGET` 与 `LSMinimumSystemVersion` 均为 16.4） | Android 7.0 / API 24（`minSdkVersion 24`） |
 | 目标 SDK | 以当前 Xcode 正式版为准 | `targetSdkVersion 36` |
 | 架构 | 要求 arm64；AMap iOS SDK 无 arm64 模拟器切片，**必须真机验证** | 确认包含 64 位；Play 要求 64 位 |
 | 平板 | `supportsTablet: true`，需 iPad 截图与布局验收 | 未限制平板，建议补 7"/10" 截图与验收 |
@@ -158,11 +158,11 @@ Google Play 无关键词字段，依靠标题、短描述和长描述覆盖上�
 | 产物 | `.xcarchive` / `.ipa`（TestFlight 或 App Store） | `.aab`（Play）；`.apk` 仅侧载/国内商店按需 |
 | 深链 scheme | `atlas://`、`com.openchronicle.atlas://` | `atlas://` |
 | 定位权限 | 未申请（Info.plist 无 `NSLocation*`） | 未申请（manifest 用 `tools:node="remove"` 移除粗略/精确定位） |
-| 明文 HTTP | ATS 默认阻断；仅允许本地网络调试 | `usesCleartextTraffic="true"` **当前仍开启，提审前必须改为 false** |
-| 当前发布状态 | ⛔ 无账号/证书/真机，未产出 IPA | ⚠️ 源配置为 0.20.0 / versionCode 17，但上次实际 APK 为 0.5.0 / versionCode 2，需重建 |
+| 明文 HTTP | ATS 默认阻断；仅允许本地网络调试 | `usesCleartextTraffic="false"` 已关闭 |
+| 当前发布状态 | ⛔ 无账号/证书/真机，未产出 IPA | ⚠️ 源配置为 0.32.0 / versionCode 29，但上次实际 APK 为 0.5.0 / versionCode 2，需重建 |
 
-> **iOS 版本号不一致是当前明确的提审阻塞项**：`apps/mobile/ios/app/Info.plist` 仍为 `0.5.0 (1)`，而 JS/Android 已为 `0.20.0`。重新 prebuild 或手动修改后，必须确认 archive 中的版本号。
-> 另：Xcode 工程最低系统为 iOS 16.4，但 `LSMinimumSystemVersion` 仍写 12.0；提审前应统一，避免商店页最低系统与实际安装条件不一致。
+> **版本号已对齐**：iOS `0.32.0 (29)`、Android `0.32.0 (29)`。archive 前仍需确认构建产物中的版本号。
+> 最低系统已统一为 iOS 16.4（`IPHONEOS_DEPLOYMENT_TARGET` 与 `LSMinimumSystemVersion` 一致）。
 
 ---
 
@@ -254,12 +254,13 @@ Google Play 无关键词字段，依靠标题、短描述和长描述覆盖上�
 
 | 序号 | 画面 | 英文 caption 建议 | iOS 尺寸 | Android 尺寸 |
 | --- | --- | --- | --- | --- |
-| 1 | 首页专题卡片墙（3 个专题） | Three atlases, one timeline | 1320×2868 | 1080×1920 |
+| 1 | 首页专题卡片墙（4 个专题） | Four atlases, one timeline | 1320×2868 | 1080×1920 |
 | 2 | 长征专题：地图 + 时间轴播放中 | Watch the Long March unfold | 1320×2868 | 1080×1920 |
 | 3 | 事件详情：描述 + 史料来源 | Every event has its sources | 1320×2868 | 1080×1920 |
 | 4 | 搜索：关键词 + 类型/日期筛选 | Search by keyword, category, or date | 1320×2868 | 1080×1920 |
 | 5 | 郑和专题：航线 + 时间轴 | Follow Zheng He’s voyages | 1320×2868 | 1080×1920 |
 | 6 | 玄奘专题或中英文切换 | A bilingual historical atlas | 1320×2868 | 1080×1920 |
+| 7 | 抗日战争专题：路线 + 时间轴 | Follow China’s War of Resistance | 1320×2868 | 1080×1920 |
 
 ### 5.2 当前素材
 
@@ -333,9 +334,9 @@ Google Play 无关键词字段，依靠标题、短描述和长描述覆盖上�
 | 风险 | 说明 | 处理 |
 | --- | --- | --- |
 | 截图非真机 | 当前为 Web 占位图，商店可能拒审 | 真机重拍后再提交 |
-| iOS 版本号不一致 | Info.plist 为 0.5.0 / build 1 | 对齐 0.20.0 并递增 build |
-| `SYSTEM_ALERT_WINDOW` | 敏感权限，审核员可能询问用途 | 不需要则移除；需要则准备说明 |
-| 明文流量 | Android `usesCleartextTraffic=true` | 生产关闭，全部走 HTTPS |
+| iOS 版本号 | 已对齐 0.32.0 / build 29 | 无 |
+| `SYSTEM_ALERT_WINDOW` | 已在 `blockedPermissions` 屏蔽 | 无 |
+| 明文流量 | Android `usesCleartextTraffic=false` | 已关闭 |
 | 高德商用许可 | 未确认 | 取得书面许可后再公开上架 |
 | 隐私表单与 SDK 行为不一致 | 默认「不收集」可能不实 | 按高德合规文档填写 |
 | iPad 截图缺失 | `supportsTablet: true` | 补 iPad 13" 截图或关闭平板支持 |
@@ -357,7 +358,7 @@ Google Play 无关键词字段，依靠标题、短描述和长描述覆盖上�
 | U8 | 著作权主体/版权行文案 | Copyright 字段 | 待确认 |
 | U9 | 是否支持 iPad/Android 平板 | 截图与布局范围 | 待确认 |
 | U10 | 是否做中国大陆发行 | APP 备案、审图号、商店选择 | 待确认 |
-| U11 | 确认 `v0.20.0-m20` 的双仓 tag | 发布与双仓 tag | 待确认 |
+| U11 | 确认 `v0.32.0-m32` 的双仓 tag | 发布与双仓 tag | 待确认 |
 
 ---
 
