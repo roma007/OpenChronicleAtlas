@@ -132,6 +132,7 @@ docs/
 - [ADR-0006 检索与分享状态方案](decisions/ADR-0006-检索与分享状态方案.md)
 - [ADR-0007 移动端架构与构建发布方案](decisions/ADR-0007-移动端架构与构建发布方案.md)
 - [ADR-0008 静态部署与资源托管方案](decisions/ADR-0008-静态部署与资源托管方案.md)
+- [ADR-0009 Schema v1.1 演进](decisions/ADR-0009-Schema-v1.1演进.md)
 
 ### 配置指南
 - [高德地图 Key 与签名配置](guides/amap-setup.md)
@@ -139,6 +140,7 @@ docs/
 
 ### 数据契约
 - [Atlas Schema v1.0.0](schema/atlas-schema-v1.0.0.md)
+- [Atlas Schema v1.1.0](schema/atlas-schema-v1.1.0.md)
 
 ### 发布说明
 - [v0.1.0-m1（M1）](releases/2026-11-03-v0.1.0-m1.md)
