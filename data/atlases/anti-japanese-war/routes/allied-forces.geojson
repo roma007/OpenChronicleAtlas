@@ -87,6 +87,48 @@
         "type": "LineString",
         "coordinates": [
           [
+            99.17,
+            25.12
+          ],
+          [
+            98.79,
+            24.75
+          ],
+          [
+            98.69,
+            24.59
+          ],
+          [
+            98.58,
+            24.43
+          ],
+          [
+            98.07,
+            24.08
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "allied-forces",
+        "startDate": "1944-05-11",
+        "endDate": "1945-01-27",
+        "order": 3,
+        "name": {
+          "zh": "滇西反攻（盟军/远征军西线）",
+          "en": "Western Yunnan Counteroffensive (Allied/Expeditionary Western Axis)"
+        },
+        "description": {
+          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
+          "en": "Campaign route based on common historical maps; page-level verification pending."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             99.5,
             25.1
           ],
@@ -100,7 +142,7 @@
         "entityId": "allied-forces",
         "startDate": "1944-06-04",
         "endDate": "1944-06-04",
-        "order": 3,
+        "order": 4,
         "name": {
           "zh": "松山",
           "en": "Songshan"

@@ -1762,6 +1762,65 @@
     "importance": 1
   },
   {
+    "id": "dianxi-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "滇西反攻",
+      "en": "Western Yunnan Counteroffensive"
+    },
+    "date": "1944-05-11",
+    "endDate": "1945-01-27",
+    "location": {
+      "lng": 98.69,
+      "lat": 24.59,
+      "place": {
+        "zh": "云南龙陵",
+        "en": "Longling, Yunnan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance",
+      "allied-forces"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "中国远征军强渡怒江，反攻腾冲、龙陵、松山，至 1945 年初收复滇西。",
+      "en": "The Chinese Expeditionary Force crossed the Salween and counterattacked toward Tengchong, Longling, and Songshan, recovering western Yunnan by early 1945."
+    },
+    "description": {
+      "zh": "1944 年 5 月，中国远征军强渡怒江，向腾冲、龙陵、松山等地日军发起反攻。中国军队与盟军协同，经过松山、腾冲、龙陵等激战，至 1945 年 1 月收复畹町，打通中印公路。此役是抗战后期中国军队在滇西的重要反攻，与缅北反攻相互配合。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
+      "en": "In May 1944, the Chinese Expeditionary Force crossed the Salween and launched a counteroffensive against Japanese forces at Tengchong, Longling, Songshan, and other points. Working with Allied forces, Chinese troops fought fierce battles at Songshan, Tengchong, and Longling, recovered Wanding in January 1945, and opened the Ledo Road. The campaign was an important Chinese counteroffensive in western Yunnan in the later war years, coordinated with the northern Burma offensive.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国远征军战史》",
+        "author": "徐康明",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "滇西反攻背景参考"
+      },
+      {
+        "title": "《第二次世界大战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1995,
+        "note": "中缅印战区背景参考"
+      }
+    ],
+    "relatedIds": [
+      "songshan-1944-06",
+      "north-burma-offensive-1943-10",
+      "mandalay-1945-03"
+    ],
+    "importance": 1
+  },
+  {
     "id": "songshan-1944-06",
     "atlasId": "anti-japanese-war",
     "name": {

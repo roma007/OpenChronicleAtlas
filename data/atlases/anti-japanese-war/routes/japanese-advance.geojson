@@ -691,6 +691,44 @@
         "type": "LineString",
         "coordinates": [
           [
+            98.07,
+            24.08
+          ],
+          [
+            98.58,
+            24.43
+          ],
+          [
+            98.69,
+            24.59
+          ],
+          [
+            98.49,
+            25.02
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-05-11",
+        "endDate": "1945-01-27",
+        "order": 19,
+        "name": {
+          "zh": "滇西反攻（日军防御线）",
+          "en": "Western Yunnan Counteroffensive (Japanese Defense Line)"
+        },
+        "description": {
+          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
+          "en": "Campaign route based on common historical maps; page-level verification pending."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             111.47,
             27.24
           ],
@@ -708,7 +746,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1945-04-09",
         "endDate": "1945-06-07",
-        "order": 19,
+        "order": 20,
         "name": {
           "zh": "湘西会战",
           "en": "Battle of West Hunan"

@@ -973,6 +973,48 @@
         "type": "LineString",
         "coordinates": [
           [
+            99.17,
+            25.12
+          ],
+          [
+            98.49,
+            25.02
+          ],
+          [
+            98.69,
+            24.59
+          ],
+          [
+            98.58,
+            24.43
+          ],
+          [
+            98.07,
+            24.08
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1944-05-11",
+        "endDate": "1945-01-27",
+        "order": 28,
+        "name": {
+          "zh": "滇西反攻（中国军队东线）",
+          "en": "Western Yunnan Counteroffensive (Chinese Eastern Axis)"
+        },
+        "description": {
+          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
+          "en": "Campaign route based on common historical maps; page-level verification pending."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             98.79,
             24.75
           ],
@@ -990,7 +1032,7 @@
         "entityId": "china-resistance",
         "startDate": "1944-06-05",
         "endDate": "1945-05-01",
-        "order": 28,
+        "order": 29,
         "name": {
           "zh": "松山—桂林",
           "en": "Songshan–Guilin"
@@ -1028,7 +1070,7 @@
         "entityId": "china-resistance",
         "startDate": "1944-06-22",
         "endDate": "1944-08-08",
-        "order": 29,
+        "order": 30,
         "name": {
           "zh": "衡阳保卫战（城防）",
           "en": "Defense of Hengyang (City Perimeter)"
@@ -1062,7 +1104,7 @@
         "entityId": "china-resistance",
         "startDate": "1945-04-09",
         "endDate": "1945-06-07",
-        "order": 30,
+        "order": 31,
         "name": {
           "zh": "湘西会战（中国军队反击）",
           "en": "Battle of West Hunan (Chinese Counterattack)"
