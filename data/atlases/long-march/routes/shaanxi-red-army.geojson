@@ -25,11 +25,15 @@
         "startDate": "1935-09-01",
         "endDate": "1935-09-15",
         "order": 1,
+        "segmentType": "advance",
         "name": {
           "zh": "瓦窑堡—永坪"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -61,11 +65,15 @@
         "startDate": "1935-09-16",
         "endDate": "1935-10-19",
         "order": 2,
+        "segmentType": "advance",
         "name": {
           "zh": "永坪—吴起"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -93,11 +101,15 @@
         "startDate": "1935-10-20",
         "endDate": "1935-11-21",
         "order": 3,
+        "segmentType": "advance",
         "name": {
           "zh": "吴起—直罗镇"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     }

@@ -21,6 +21,7 @@
         "startDate": "1931-09-18",
         "endDate": "1931-09-18",
         "order": 1,
+        "segmentType": "advance",
         "name": {
           "zh": "沈阳",
           "en": "Shenyang"
@@ -28,6 +29,9 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -51,6 +55,7 @@
         "startDate": "1932-01-28",
         "endDate": "1932-01-28",
         "order": 2,
+        "segmentType": "advance",
         "name": {
           "zh": "上海（一·二八）",
           "en": "Shanghai (January 28 Incident)"
@@ -58,6 +63,9 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -85,6 +93,7 @@
         "startDate": "1937-07-07",
         "endDate": "1937-08-13",
         "order": 3,
+        "segmentType": "advance",
         "name": {
           "zh": "北平—上海",
           "en": "Beiping–Shanghai"
@@ -92,6 +101,9 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -131,6 +143,7 @@
         "startDate": "1937-08-13",
         "endDate": "1937-11-12",
         "order": 4,
+        "segmentType": "advance",
         "name": {
           "zh": "淞沪会战",
           "en": "Battle of Shanghai"
@@ -138,6 +151,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -165,6 +181,7 @@
         "startDate": "1937-08-14",
         "endDate": "1937-09-25",
         "order": 5,
+        "segmentType": "counterattack",
         "name": {
           "zh": "上海—平型关",
           "en": "Shanghai–Pingxingguan"
@@ -172,6 +189,9 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -203,6 +223,7 @@
         "startDate": "1937-09-25",
         "endDate": "1937-09-25",
         "order": 6,
+        "segmentType": "counterattack",
         "name": {
           "zh": "平型关战斗",
           "en": "Battle of Pingxingguan"
@@ -210,6 +231,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -237,6 +261,7 @@
         "startDate": "1937-09-26",
         "endDate": "1937-12-13",
         "order": 7,
+        "segmentType": "counterattack",
         "name": {
           "zh": "平型关—南京",
           "en": "Pingxingguan–Nanjing"
@@ -244,6 +269,9 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -271,6 +299,7 @@
         "startDate": "1937-10-13",
         "endDate": "1937-11-02",
         "order": 8,
+        "segmentType": "counterattack",
         "name": {
           "zh": "忻口会战（中国军队防御与反击）",
           "en": "Battle of Xinkou (Chinese Defense and Counterattack)"
@@ -278,6 +307,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -317,6 +349,7 @@
         "startDate": "1937-12-01",
         "endDate": "1937-12-13",
         "order": 9,
+        "segmentType": "defense",
         "name": {
           "zh": "南京保卫战",
           "en": "Defense of Nanjing"
@@ -324,6 +357,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -363,6 +399,7 @@
         "startDate": "1937-12-14",
         "endDate": "1938-03-16",
         "order": 10,
+        "segmentType": "advance",
         "name": {
           "zh": "南京—台儿庄",
           "en": "Nanjing–Taierzhuang"
@@ -370,6 +407,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -409,6 +449,7 @@
         "startDate": "1938-03-17",
         "endDate": "1938-10-25",
         "order": 11,
+        "segmentType": "advance",
         "name": {
           "zh": "台儿庄—武汉",
           "en": "Taierzhuang–Wuhan"
@@ -416,6 +457,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -443,6 +487,7 @@
         "startDate": "1938-05-21",
         "endDate": "1938-06-06",
         "order": 12,
+        "segmentType": "counterattack",
         "name": {
           "zh": "兰封会战（中国军队反击）",
           "en": "Battle of Lanfeng (Chinese Counterattack)"
@@ -450,6 +495,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -473,6 +521,7 @@
         "startDate": "1938-10-26",
         "endDate": "1940-08-20",
         "order": 13,
+        "segmentType": "counterattack",
         "name": {
           "zh": "武汉—华北（百团大战）",
           "en": "Wuhan–North China (Hundred Regiments)"
@@ -480,6 +529,9 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -507,6 +559,7 @@
         "startDate": "1939-05-01",
         "endDate": "1939-05-24",
         "order": 14,
+        "segmentType": "counterattack",
         "name": {
           "zh": "随枣会战（中国军队防御与反击）",
           "en": "Battle of Suizao (Chinese Defense and Counterattack)"
@@ -514,6 +567,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -541,6 +597,7 @@
         "startDate": "1939-09-14",
         "endDate": "1939-10-08",
         "order": 15,
+        "segmentType": "counterattack",
         "name": {
           "zh": "第一次长沙会战（中国军队反击）",
           "en": "First Battle of Changsha (Chinese Counterattack)"
@@ -548,6 +605,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -575,6 +635,7 @@
         "startDate": "1939-12-18",
         "endDate": "1940-01-11",
         "order": 16,
+        "segmentType": "counterattack",
         "name": {
           "zh": "昆仑关战役（中国军队反攻）",
           "en": "Battle of Kunlun Pass (Chinese Counterattack)"
@@ -582,6 +643,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -609,6 +673,7 @@
         "startDate": "1940-05-01",
         "endDate": "1940-06-18",
         "order": 17,
+        "segmentType": "counterattack",
         "name": {
           "zh": "枣宜会战（中国军队防御与反击）",
           "en": "Battle of Zaoyang–Yichang (Chinese Defense and Counterattack)"
@@ -616,6 +681,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -647,6 +715,7 @@
         "startDate": "1940-08-20",
         "endDate": "1941-01-24",
         "order": 18,
+        "segmentType": "counterattack",
         "name": {
           "zh": "百团大战",
           "en": "Hundred Regiments Offensive"
@@ -654,6 +723,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -681,6 +753,7 @@
         "startDate": "1940-08-21",
         "endDate": "1942-02-01",
         "order": 19,
+        "segmentType": "advance",
         "name": {
           "zh": "华北—云南（远征军）",
           "en": "North China–Yunnan (Expeditionary Force)"
@@ -688,6 +761,9 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -715,6 +791,7 @@
         "startDate": "1941-03-15",
         "endDate": "1941-04-09",
         "order": 20,
+        "segmentType": "counterattack",
         "name": {
           "zh": "上高会战（中国军队反击）",
           "en": "Battle of Shanggao (Chinese Counterattack)"
@@ -722,6 +799,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -749,6 +829,7 @@
         "startDate": "1941-05-07",
         "endDate": "1941-06-15",
         "order": 21,
+        "segmentType": "retreat",
         "name": {
           "zh": "中条山战役（中国军队突围）",
           "en": "Battle of South Shanxi (Chinese Breakout)"
@@ -756,6 +837,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -783,6 +867,7 @@
         "startDate": "1941-09-07",
         "endDate": "1941-10-08",
         "order": 22,
+        "segmentType": "counterattack",
         "name": {
           "zh": "第二次长沙会战（中国军队反击）",
           "en": "Second Battle of Changsha (Chinese Counterattack)"
@@ -790,6 +875,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -821,6 +909,7 @@
         "startDate": "1941-12-24",
         "endDate": "1942-01-15",
         "order": 23,
+        "segmentType": "counterattack",
         "name": {
           "zh": "第三次长沙会战（中国军队反击）",
           "en": "Third Battle of Changsha (Chinese Counterattack)"
@@ -828,6 +917,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -855,6 +947,7 @@
         "startDate": "1942-02-02",
         "endDate": "1944-04-17",
         "order": 24,
+        "segmentType": "advance",
         "name": {
           "zh": "云南—河南",
           "en": "Yunnan–Henan"
@@ -862,6 +955,9 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -889,6 +985,7 @@
         "startDate": "1943-05-05",
         "endDate": "1943-06-12",
         "order": 25,
+        "segmentType": "counterattack",
         "name": {
           "zh": "鄂西会战（中国军队增援与反击）",
           "en": "Battle of West Hubei (Chinese Reinforcement and Counterattack)"
@@ -896,6 +993,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -923,6 +1023,7 @@
         "startDate": "1943-11-02",
         "endDate": "1943-12-20",
         "order": 26,
+        "segmentType": "counterattack",
         "name": {
           "zh": "常德会战（中国军队反击）",
           "en": "Battle of Changde (Chinese Counterattack)"
@@ -930,6 +1031,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -957,6 +1061,7 @@
         "startDate": "1944-04-18",
         "endDate": "1944-06-04",
         "order": 27,
+        "segmentType": "advance",
         "name": {
           "zh": "河南—松山",
           "en": "Henan–Songshan"
@@ -964,6 +1069,9 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -999,6 +1107,7 @@
         "startDate": "1944-05-11",
         "endDate": "1945-01-27",
         "order": 28,
+        "segmentType": "counterattack",
         "name": {
           "zh": "滇西反攻（中国军队东线）",
           "en": "Western Yunnan Counteroffensive (Chinese Eastern Axis)"
@@ -1006,6 +1115,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -1033,6 +1145,7 @@
         "startDate": "1944-06-05",
         "endDate": "1945-05-01",
         "order": 29,
+        "segmentType": "advance",
         "name": {
           "zh": "松山—桂林",
           "en": "Songshan–Guilin"
@@ -1040,6 +1153,9 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -1071,6 +1187,7 @@
         "startDate": "1944-06-22",
         "endDate": "1944-08-08",
         "order": 30,
+        "segmentType": "defense",
         "name": {
           "zh": "衡阳保卫战（城防）",
           "en": "Defense of Hengyang (City Perimeter)"
@@ -1078,6 +1195,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -1105,6 +1225,7 @@
         "startDate": "1945-04-09",
         "endDate": "1945-06-07",
         "order": 31,
+        "segmentType": "counterattack",
         "name": {
           "zh": "湘西会战（中国军队反击）",
           "en": "Battle of West Hunan (Chinese Counterattack)"
@@ -1112,6 +1233,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     }

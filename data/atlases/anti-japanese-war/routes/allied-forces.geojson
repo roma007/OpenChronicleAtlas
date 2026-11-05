@@ -29,6 +29,7 @@
         "startDate": "1942-02-01",
         "endDate": "1942-08-01",
         "order": 1,
+        "segmentType": "advance",
         "name": {
           "zh": "云南—印度",
           "en": "Yunnan–India"
@@ -36,6 +37,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -71,6 +75,7 @@
         "startDate": "1943-10-01",
         "endDate": "1945-03-20",
         "order": 2,
+        "segmentType": "advance",
         "name": {
           "zh": "缅北反攻",
           "en": "Northern Burma Counteroffensive"
@@ -78,6 +83,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -113,6 +121,7 @@
         "startDate": "1944-05-11",
         "endDate": "1945-01-27",
         "order": 3,
+        "segmentType": "counterattack",
         "name": {
           "zh": "滇西反攻（盟军/远征军西线）",
           "en": "Western Yunnan Counteroffensive (Allied/Expeditionary Western Axis)"
@@ -120,6 +129,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -143,6 +155,7 @@
         "startDate": "1944-06-04",
         "endDate": "1944-06-04",
         "order": 4,
+        "segmentType": "counterattack",
         "name": {
           "zh": "松山",
           "en": "Songshan"
@@ -150,6 +163,9 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     }

@@ -29,6 +29,7 @@
         "startDate": "1931-09-18",
         "endDate": "1932-02-05",
         "order": 1,
+        "segmentType": "advance",
         "name": {
           "zh": "沈阳—哈尔滨",
           "en": "Shenyang–Harbin"
@@ -36,6 +37,9 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -59,6 +63,7 @@
         "startDate": "1932-01-28",
         "endDate": "1932-01-28",
         "order": 2,
+        "segmentType": "advance",
         "name": {
           "zh": "上海（一·二八）",
           "en": "Shanghai (January 28 Incident)"
@@ -66,6 +71,9 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -97,6 +105,7 @@
         "startDate": "1937-07-07",
         "endDate": "1937-12-13",
         "order": 3,
+        "segmentType": "advance",
         "name": {
           "zh": "北平—南京",
           "en": "Beiping–Nanjing"
@@ -104,6 +113,9 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -135,6 +147,7 @@
         "startDate": "1937-10-13",
         "endDate": "1937-11-02",
         "order": 4,
+        "segmentType": "advance",
         "name": {
           "zh": "忻口会战",
           "en": "Battle of Xinkou"
@@ -142,6 +155,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -169,6 +185,7 @@
         "startDate": "1938-05-21",
         "endDate": "1938-06-06",
         "order": 5,
+        "segmentType": "advance",
         "name": {
           "zh": "兰封会战",
           "en": "Battle of Lanfeng"
@@ -176,6 +193,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -211,6 +231,7 @@
         "startDate": "1938-06-12",
         "endDate": "1938-10-25",
         "order": 6,
+        "segmentType": "advance",
         "name": {
           "zh": "武汉会战",
           "en": "Battle of Wuhan"
@@ -218,6 +239,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -241,6 +265,7 @@
         "startDate": "1938-10-21",
         "endDate": "1938-10-21",
         "order": 7,
+        "segmentType": "advance",
         "name": {
           "zh": "广州",
           "en": "Guangzhou"
@@ -248,6 +273,9 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -279,6 +307,7 @@
         "startDate": "1939-05-01",
         "endDate": "1939-05-24",
         "order": 8,
+        "segmentType": "advance",
         "name": {
           "zh": "随枣会战",
           "en": "Battle of Suizao"
@@ -286,6 +315,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -313,6 +345,7 @@
         "startDate": "1939-09-14",
         "endDate": "1939-10-08",
         "order": 9,
+        "segmentType": "advance",
         "name": {
           "zh": "第一次长沙会战",
           "en": "First Battle of Changsha"
@@ -320,6 +353,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -347,6 +383,7 @@
         "startDate": "1939-12-18",
         "endDate": "1940-01-11",
         "order": 10,
+        "segmentType": "advance",
         "name": {
           "zh": "昆仑关战役",
           "en": "Battle of Kunlun Pass"
@@ -354,6 +391,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -389,6 +429,7 @@
         "startDate": "1940-05-01",
         "endDate": "1940-06-18",
         "order": 11,
+        "segmentType": "advance",
         "name": {
           "zh": "枣宜会战",
           "en": "Battle of Zaoyang–Yichang"
@@ -396,6 +437,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -423,6 +467,7 @@
         "startDate": "1941-03-15",
         "endDate": "1941-04-09",
         "order": 12,
+        "segmentType": "advance",
         "name": {
           "zh": "上高会战",
           "en": "Battle of Shanggao"
@@ -430,6 +475,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -461,6 +509,7 @@
         "startDate": "1941-05-07",
         "endDate": "1941-06-15",
         "order": 13,
+        "segmentType": "advance",
         "name": {
           "zh": "中条山战役",
           "en": "Battle of South Shanxi"
@@ -468,6 +517,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -499,6 +551,7 @@
         "startDate": "1941-09-07",
         "endDate": "1941-10-08",
         "order": 14,
+        "segmentType": "advance",
         "name": {
           "zh": "第二次长沙会战",
           "en": "Second Battle of Changsha"
@@ -506,6 +559,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -541,6 +597,7 @@
         "startDate": "1941-12-24",
         "endDate": "1942-01-15",
         "order": 15,
+        "segmentType": "advance",
         "name": {
           "zh": "第三次长沙会战",
           "en": "Third Battle of Changsha"
@@ -548,6 +605,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -575,6 +635,7 @@
         "startDate": "1943-05-05",
         "endDate": "1943-06-12",
         "order": 16,
+        "segmentType": "advance",
         "name": {
           "zh": "鄂西会战",
           "en": "Battle of West Hubei"
@@ -582,6 +643,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -609,6 +673,7 @@
         "startDate": "1943-11-02",
         "endDate": "1943-12-20",
         "order": 17,
+        "segmentType": "advance",
         "name": {
           "zh": "常德会战",
           "en": "Battle of Changde"
@@ -616,6 +681,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -675,6 +743,7 @@
         "startDate": "1944-04-17",
         "endDate": "1944-11-24",
         "order": 18,
+        "segmentType": "advance",
         "name": {
           "zh": "豫湘桂—南宁",
           "en": "Henan–Hunan–Guangxi–Nanning"
@@ -682,6 +751,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -713,6 +785,7 @@
         "startDate": "1944-05-11",
         "endDate": "1945-01-27",
         "order": 19,
+        "segmentType": "defense",
         "name": {
           "zh": "滇西反攻（日军防御线）",
           "en": "Western Yunnan Counteroffensive (Japanese Defense Line)"
@@ -720,6 +793,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     },
@@ -747,6 +823,7 @@
         "startDate": "1945-04-09",
         "endDate": "1945-06-07",
         "order": 20,
+        "segmentType": "advance",
         "name": {
           "zh": "湘西会战",
           "en": "Battle of West Hunan"
@@ -754,6 +831,9 @@
         "description": {
           "zh": "战役路线（据常见战史地图整理，待页码核对）。",
           "en": "Campaign route based on common historical maps; page-level verification pending."
+        },
+        "extensions": {
+          "precision": "campaign"
         }
       }
     }

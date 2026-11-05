@@ -61,11 +61,15 @@
         "startDate": "1934-11-16",
         "endDate": "1935-09-15",
         "order": 1,
+        "segmentType": "advance",
         "name": {
           "zh": "鄂豫皖—陕北永坪（示意）"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     }

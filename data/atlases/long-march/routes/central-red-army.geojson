@@ -25,11 +25,15 @@
         "startDate": "1934-10-10",
         "endDate": "1934-10-17",
         "order": 1,
+        "segmentType": "advance",
         "name": {
           "zh": "瑞金—于都"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -65,11 +69,15 @@
         "startDate": "1934-10-18",
         "endDate": "1934-11-13",
         "order": 2,
+        "segmentType": "advance",
         "name": {
           "zh": "于都—宜章（突破第三道封锁线）"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -101,11 +109,15 @@
         "startDate": "1934-11-14",
         "endDate": "1934-11-27",
         "order": 3,
+        "segmentType": "advance",
         "name": {
           "zh": "宜章—湘江"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -133,11 +145,15 @@
         "startDate": "1934-11-28",
         "endDate": "1934-12-12",
         "order": 4,
+        "segmentType": "advance",
         "name": {
           "zh": "湘江—通道"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -165,11 +181,15 @@
         "startDate": "1934-12-13",
         "endDate": "1934-12-18",
         "order": 5,
+        "segmentType": "advance",
         "name": {
           "zh": "通道—黎平"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -205,11 +225,15 @@
         "startDate": "1934-12-19",
         "endDate": "1934-12-31",
         "order": 6,
+        "segmentType": "advance",
         "name": {
           "zh": "黎平—猴场"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -241,11 +265,15 @@
         "startDate": "1935-01-01",
         "endDate": "1935-01-15",
         "order": 7,
+        "segmentType": "advance",
         "name": {
           "zh": "猴场—遵义"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -277,11 +305,15 @@
         "startDate": "1935-01-16",
         "endDate": "1935-01-28",
         "order": 8,
+        "segmentType": "advance",
         "name": {
           "zh": "遵义—土城"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -309,11 +341,15 @@
         "startDate": "1935-01-29",
         "endDate": "1935-02-18",
         "order": 9,
+        "segmentType": "advance",
         "name": {
           "zh": "土城—太平渡（一渡、二渡）"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -349,11 +385,15 @@
         "startDate": "1935-02-19",
         "endDate": "1935-02-25",
         "order": 10,
+        "segmentType": "advance",
         "name": {
           "zh": "太平渡—娄山关"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -385,11 +425,15 @@
         "startDate": "1935-02-26",
         "endDate": "1935-03-16",
         "order": 11,
+        "segmentType": "advance",
         "name": {
           "zh": "娄山关—茅台（三渡）"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -417,11 +461,15 @@
         "startDate": "1935-03-17",
         "endDate": "1935-03-21",
         "order": 12,
+        "segmentType": "advance",
         "name": {
           "zh": "茅台—太平渡（四渡）"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -473,11 +521,15 @@
         "startDate": "1935-03-22",
         "endDate": "1935-05-03",
         "order": 13,
+        "segmentType": "advance",
         "name": {
           "zh": "佯攻贵阳—巧渡金沙江"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -505,11 +557,15 @@
         "startDate": "1935-05-04",
         "endDate": "1935-05-12",
         "order": 14,
+        "segmentType": "advance",
         "name": {
           "zh": "金沙江—会理"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -549,11 +605,15 @@
         "startDate": "1935-05-13",
         "endDate": "1935-05-25",
         "order": 15,
+        "segmentType": "advance",
         "name": {
           "zh": "会理—安顺场（强渡大渡河）"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -581,11 +641,15 @@
         "startDate": "1935-05-26",
         "endDate": "1935-05-29",
         "order": 16,
+        "segmentType": "advance",
         "name": {
           "zh": "安顺场—泸定（飞夺泸定桥）"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -617,11 +681,15 @@
         "startDate": "1935-05-30",
         "endDate": "1935-06-12",
         "order": 17,
+        "segmentType": "advance",
         "name": {
           "zh": "泸定—夹金山"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -649,11 +717,15 @@
         "startDate": "1935-06-13",
         "endDate": "1935-06-18",
         "order": 18,
+        "segmentType": "advance",
         "name": {
           "zh": "夹金山—懋功"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -689,11 +761,15 @@
         "startDate": "1935-06-19",
         "endDate": "1935-08-20",
         "order": 19,
+        "segmentType": "advance",
         "name": {
           "zh": "懋功—毛儿盖"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -721,11 +797,15 @@
         "startDate": "1935-08-21",
         "endDate": "1935-08-31",
         "order": 20,
+        "segmentType": "advance",
         "name": {
           "zh": "毛儿盖—若尔盖（过草地）"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -753,11 +833,15 @@
         "startDate": "1935-09-01",
         "endDate": "1935-09-17",
         "order": 21,
+        "segmentType": "advance",
         "name": {
           "zh": "若尔盖—腊子口"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -785,11 +869,15 @@
         "startDate": "1935-09-17",
         "endDate": "1935-09-18",
         "order": 22,
+        "segmentType": "advance",
         "name": {
           "zh": "腊子口—哈达铺"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -829,11 +917,15 @@
         "startDate": "1935-09-19",
         "endDate": "1935-10-19",
         "order": 23,
+        "segmentType": "advance",
         "name": {
           "zh": "哈达铺—吴起镇"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -865,11 +957,15 @@
         "startDate": "1935-10-20",
         "endDate": "1935-11-21",
         "order": 24,
+        "segmentType": "advance",
         "name": {
           "zh": "吴起—直罗镇"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -905,11 +1001,15 @@
         "startDate": "1935-11-22",
         "endDate": "1936-10-09",
         "order": 25,
+        "segmentType": "advance",
         "name": {
           "zh": "直罗镇—会宁"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -937,11 +1037,15 @@
         "startDate": "1936-10-10",
         "endDate": "1936-10-22",
         "order": 26,
+        "segmentType": "advance",
         "name": {
           "zh": "会宁—将台堡"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     }

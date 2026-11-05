@@ -25,6 +25,7 @@
         "startDate": "1405-07-11",
         "endDate": "1405-10-01",
         "order": 1,
+        "segmentType": "naval",
         "name": {
           "zh": "太仓—占城",
           "en": "Taicang–Champa"
@@ -32,6 +33,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -59,6 +63,7 @@
         "startDate": "1405-10-02",
         "endDate": "1406-01-15",
         "order": 2,
+        "segmentType": "naval",
         "name": {
           "zh": "占城—满剌加",
           "en": "Champa–Malacca"
@@ -66,6 +71,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -93,6 +101,7 @@
         "startDate": "1406-01-16",
         "endDate": "1406-06-01",
         "order": 3,
+        "segmentType": "naval",
         "name": {
           "zh": "满剌加—锡兰山",
           "en": "Malacca–Ceylon"
@@ -100,6 +109,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -123,6 +135,7 @@
         "startDate": "1406-06-02",
         "endDate": "1406-12-01",
         "order": 4,
+        "segmentType": "naval",
         "name": {
           "zh": "锡兰山—古里",
           "en": "Ceylon–Calicut"
@@ -130,6 +143,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -169,6 +185,7 @@
         "startDate": "1406-12-02",
         "endDate": "1407-10-02",
         "order": 5,
+        "segmentType": "naval",
         "name": {
           "zh": "古里—太仓（第一次返航）",
           "en": "Calicut–Taicang (first return)"
@@ -176,6 +193,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -211,6 +231,7 @@
         "startDate": "1408-10-01",
         "endDate": "1409-02-01",
         "order": 6,
+        "segmentType": "naval",
         "name": {
           "zh": "太仓—锡兰山（第二次去程）",
           "en": "Taicang–Ceylon (second outbound)"
@@ -218,6 +239,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -253,6 +277,7 @@
         "startDate": "1409-02-02",
         "endDate": "1409-08-15",
         "order": 7,
+        "segmentType": "naval",
         "name": {
           "zh": "锡兰山—太仓（第二次返航）",
           "en": "Ceylon–Taicang (second return)"
@@ -260,6 +285,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -291,6 +319,7 @@
         "startDate": "1410-01-01",
         "endDate": "1410-06-01",
         "order": 8,
+        "segmentType": "naval",
         "name": {
           "zh": "太仓—满剌加（第三次去程）",
           "en": "Taicang–Malacca (third outbound)"
@@ -298,6 +327,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -329,6 +361,7 @@
         "startDate": "1410-06-02",
         "endDate": "1411-07-06",
         "order": 9,
+        "segmentType": "naval",
         "name": {
           "zh": "满剌加—太仓（第三次返航）",
           "en": "Malacca–Taicang (third return)"
@@ -336,6 +369,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -379,6 +415,7 @@
         "startDate": "1413-12-01",
         "endDate": "1414-05-01",
         "order": 10,
+        "segmentType": "naval",
         "name": {
           "zh": "太仓—忽鲁谟斯（第四次去程）",
           "en": "Taicang–Hormuz (fourth outbound)"
@@ -386,6 +423,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -413,6 +453,7 @@
         "startDate": "1414-05-02",
         "endDate": "1415-01-01",
         "order": 11,
+        "segmentType": "naval",
         "name": {
           "zh": "忽鲁谟斯—麻林地",
           "en": "Hormuz–Malindi"
@@ -420,6 +461,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -471,6 +515,7 @@
         "startDate": "1415-01-02",
         "endDate": "1415-08-12",
         "order": 12,
+        "segmentType": "naval",
         "name": {
           "zh": "麻林地—太仓（第四次返航）",
           "en": "Malindi–Taicang (fourth return)"
@@ -478,6 +523,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -525,6 +573,7 @@
         "startDate": "1417-12-01",
         "endDate": "1418-06-01",
         "order": 13,
+        "segmentType": "naval",
         "name": {
           "zh": "太仓—阿丹（第五次去程）",
           "en": "Taicang–Aden (fifth outbound)"
@@ -532,6 +581,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -579,6 +631,7 @@
         "startDate": "1418-06-02",
         "endDate": "1419-08-15",
         "order": 14,
+        "segmentType": "naval",
         "name": {
           "zh": "阿丹—太仓（第五次返航）",
           "en": "Aden–Taicang (fifth return)"
@@ -586,6 +639,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -617,6 +673,7 @@
         "startDate": "1421-03-01",
         "endDate": "1421-11-01",
         "order": 15,
+        "segmentType": "naval",
         "name": {
           "zh": "太仓—满剌加（第六次去程）",
           "en": "Taicang–Malacca (sixth outbound)"
@@ -624,6 +681,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -655,6 +715,7 @@
         "startDate": "1421-11-02",
         "endDate": "1422-09-03",
         "order": 16,
+        "segmentType": "naval",
         "name": {
           "zh": "满剌加—太仓（第六次返航）",
           "en": "Malacca–Taicang (sixth return)"
@@ -662,6 +723,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -701,6 +765,7 @@
         "startDate": "1431-01-01",
         "endDate": "1433-04-01",
         "order": 17,
+        "segmentType": "naval",
         "name": {
           "zh": "太仓—古里（第七次去程）",
           "en": "Taicang–Calicut (seventh outbound)"
@@ -708,6 +773,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -747,6 +815,7 @@
         "startDate": "1433-04-02",
         "endDate": "1433-07-22",
         "order": 18,
+        "segmentType": "naval",
         "name": {
           "zh": "古里—太仓（第七次返航）",
           "en": "Calicut–Taicang (seventh return)"
@@ -754,6 +823,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -781,6 +853,7 @@
         "startDate": "1421-03-01",
         "endDate": "1421-11-01",
         "order": 1,
+        "segmentType": "naval",
         "name": {
           "zh": "满剌加—榜葛剌（分䑸）",
           "en": "Malacca–Bengal (detachment)"
@@ -788,6 +861,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -815,6 +891,7 @@
         "startDate": "1421-11-02",
         "endDate": "1422-09-03",
         "order": 2,
+        "segmentType": "naval",
         "name": {
           "zh": "榜葛剌—满剌加（分䑸返航）",
           "en": "Bengal–Malacca (detachment return)"
@@ -822,6 +899,9 @@
         "description": {
           "zh": "示意简化航线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     }

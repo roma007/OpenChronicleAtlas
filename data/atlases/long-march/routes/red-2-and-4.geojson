@@ -41,11 +41,15 @@
         "startDate": "1935-05-01",
         "endDate": "1935-06-18",
         "order": 1,
+        "segmentType": "advance",
         "name": {
           "zh": "川陕—懋功（示意）"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -97,11 +101,15 @@
         "startDate": "1935-06-19",
         "endDate": "1936-10-09",
         "order": 2,
+        "segmentType": "advance",
         "name": {
           "zh": "懋功—会宁（示意）"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -213,11 +221,15 @@
         "startDate": "1935-11-19",
         "endDate": "1936-10-22",
         "order": 1,
+        "segmentType": "advance",
         "name": {
           "zh": "湘鄂川黔—甘孜—将台堡（示意）"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。"
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     }
