@@ -9,7 +9,7 @@ export interface AtlasFilters {
 
 export const EMPTY_FILTERS: AtlasFilters = { categories: [] };
 
-export function collectCategories(events: AtlasEvent[]): string[] {
+export function collectCategories(events: Array<{ category: string }>): string[] {
   return [...new Set(events.map((event) => event.category))].sort((a, b) => a.localeCompare(b));
 }
 

@@ -1,12 +1,12 @@
 import type { AtlasEvent, AtlasTime } from '../types';
 import { DAY_MS, parseDateString } from '../time/date';
 
-export function eventStart(event: AtlasEvent): AtlasTime {
+export function eventStart(event: { date: string }): AtlasTime {
   return parseDateString(event.date);
 }
 
 /** 无 endDate 的事件视为持续一天 */
-export function eventEnd(event: AtlasEvent): AtlasTime {
+export function eventEnd(event: { date: string; endDate?: string }): AtlasTime {
   return event.endDate ? parseDateString(event.endDate) : eventStart(event) + DAY_MS;
 }
 

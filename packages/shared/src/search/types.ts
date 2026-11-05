@@ -1,9 +1,21 @@
-import type { AtlasDataset, AtlasEvent, AtlasTime, LocalizedString } from '../types';
+import type { AtlasDataset, AtlasTime, LocalizedString } from '../types';
+
+export interface SearchEvent {
+  id: string;
+  name: LocalizedString;
+  date: string;
+  endDate?: string;
+  location: { lng: number; lat: number; place?: LocalizedString };
+  entityIds: string[];
+  category: string;
+  summary: LocalizedString;
+  importance?: 1 | 2 | 3;
+}
 
 export interface SearchEntry {
   atlasId: string;
   atlasTitle: LocalizedString;
-  event: AtlasEvent;
+  event: SearchEvent;
   fields: {
     name: string;
     place: string;
@@ -38,7 +50,7 @@ export interface SearchOptions {
 export interface SearchHit {
   atlasId: string;
   atlasTitle: LocalizedString;
-  event: AtlasEvent;
+  event: SearchEvent;
   score: number;
   field: keyof SearchEntry['fields'];
   snippet: string;

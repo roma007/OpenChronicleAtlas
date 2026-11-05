@@ -145,3 +145,24 @@ describe('searchEvents', () => {
     expect(hit.snippet).toContain('遵义');
   });
 });
+
+describe('搜索索引瘦身', () => {
+  it('索引事件只保留搜索与展示所需字段', () => {
+    const event = baseIndex.entries[0]!.event;
+    expect(event).toHaveProperty('id');
+    expect(event).toHaveProperty('name');
+    expect(event).toHaveProperty('date');
+    expect(event).toHaveProperty('location');
+    expect(event).toHaveProperty('category');
+    expect(event).toHaveProperty('summary');
+    expect(Object.prototype.hasOwnProperty.call(event, 'description')).toBe(false);
+    expect(Object.prototype.hasOwnProperty.call(event, 'sources')).toBe(false);
+    expect(Object.prototype.hasOwnProperty.call(event, 'images')).toBe(false);
+    expect(Object.prototype.hasOwnProperty.call(event, 'relatedIds')).toBe(false);
+  });
+
+  it('描述文本仍保留在搜索字段中', () => {
+    const entry = baseIndex.entries.find((item) => item.event.id === 'zunyi-1935-01');
+    expect(entry?.fields.description).toContain('遵义');
+  });
+});

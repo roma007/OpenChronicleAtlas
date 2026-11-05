@@ -1,10 +1,24 @@
-import type { AtlasDataset, LocalizedString } from '../types';
+import type { AtlasDataset, AtlasEvent, LocalizedString } from '../types';
 import { categorySearchText } from '../i18n/categories';
 import type { PinyinProvider } from './pinyin';
-import type { SearchEntry, SearchIndex } from './types';
+import type { SearchEntry, SearchEvent, SearchIndex } from './types';
 
 export type { PinyinProvider } from './pinyin';
 export { loadPinyinProvider } from './pinyin';
+
+function toSearchEvent(event: AtlasEvent): SearchEvent {
+  return {
+    id: event.id,
+    name: event.name,
+    date: event.date,
+    endDate: event.endDate,
+    location: event.location,
+    entityIds: event.entityIds,
+    category: event.category,
+    summary: event.summary,
+    importance: event.importance,
+  };
+}
 
 /** 索引时把所有语言变体拼在一起，保证中英文都能搜到 */
 function allLocalized(value: LocalizedString | undefined): string {
@@ -86,7 +100,7 @@ export function buildSearchIndex(
       entries.push({
         atlasId: dataset.manifest.id,
         atlasTitle,
-        event,
+        event: toSearchEvent(event),
         fields: {
           name,
           place,
