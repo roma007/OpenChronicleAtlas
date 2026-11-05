@@ -16,6 +16,26 @@
 
 ---
 
+## [v0.36.0-m36] - 2026-11-05
+
+### Added
+- 构建期 `dataVersion`（`index.json` 与 `search-index.json`）。
+- 共享 `isDataVersionNewer` 与单测。
+- Web `DataUpdatePrompt` 与移动端首页更新横幅。
+- 发布说明 `docs/releases/2026-11-05-v0.36.0-m36.md`。
+
+### Changed
+- 四包版本统一为 `0.36.0`；Android `versionCode` 升为 33；iOS build 33。
+- 完整开发计划中的「多专题数据版本与更新提示」标记为完成。
+
+### Docs
+- `docs/plans/2026-11-05-M36-数据版本与更新提示-plan.md`
+- `docs/plans/2026-11-05-M36-数据版本与更新提示-design.md`
+- `docs/releases/2026-11-05-v0.36.0-m36.md`
+- `docs/conversations/2026-11-05-M36启动与数据版本更新提示.md`
+
+---
+
 ## [v0.35.0-m35] - 2026-11-05
 
 ### Added
