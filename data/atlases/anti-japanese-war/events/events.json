@@ -61,6 +61,12 @@
       "zh": "一·二八事变",
       "en": "January 28 Incident"
     },
+    "aliases": [
+      {
+        "zh": "淞沪抗战",
+        "en": "January 28 Resistance"
+      }
+    ],
     "date": "1932-01-28",
     "endDate": "1932-03-03",
     "location": {
@@ -369,6 +375,16 @@
       "zh": "淞沪会战",
       "en": "Battle of Shanghai"
     },
+    "aliases": [
+      {
+        "zh": "八一三事变",
+        "en": "August 13 Incident"
+      },
+      {
+        "zh": "淞沪抗战",
+        "en": "Battle of Shanghai"
+      }
+    ],
     "date": "1937-08-13",
     "endDate": "1937-11-12",
     "location": {
@@ -423,12 +439,16 @@
       {
         "zh": "平型关战斗",
         "en": "Pingxingguan Ambush"
+      },
+      {
+        "zh": "平型关伏击战",
+        "en": "Pingxingguan Ambush"
       }
     ],
     "date": "1937-09-25",
     "location": {
-      "lng": 113.95,
-      "lat": 39.35,
+      "lng": 113.75,
+      "lat": 39.34,
       "place": {
         "zh": "山西灵丘平型关",
         "en": "Pingxingguan, Lingqiu, Shanxi"
@@ -474,6 +494,12 @@
       "zh": "忻口会战",
       "en": "Battle of Xinkou"
     },
+    "aliases": [
+      {
+        "zh": "忻口战役",
+        "en": "Xinkou Campaign"
+      }
+    ],
     "date": "1937-10-13",
     "endDate": "1937-11-02",
     "location": {
@@ -531,6 +557,16 @@
       "zh": "南京沦陷与南京大屠杀",
       "en": "Fall of Nanjing and the Nanjing Massacre"
     },
+    "aliases": [
+      {
+        "zh": "南京大屠杀",
+        "en": "Nanjing Massacre"
+      },
+      {
+        "zh": "南京保卫战",
+        "en": "Defense of Nanjing"
+      }
+    ],
     "date": "1937-12-13",
     "location": {
       "lng": 118.8,
@@ -584,6 +620,10 @@
       {
         "zh": "台儿庄大捷",
         "en": "Taierzhuang Victory"
+      },
+      {
+        "zh": "鲁南会战",
+        "en": "Battle of South Shandong"
       }
     ],
     "date": "1938-03-16",
@@ -635,6 +675,12 @@
       "zh": "兰封会战",
       "en": "Battle of Lanfeng"
     },
+    "aliases": [
+      {
+        "zh": "兰封战役",
+        "en": "Lanfeng Campaign"
+      }
+    ],
     "date": "1938-05-21",
     "endDate": "1938-06-06",
     "location": {
@@ -740,6 +786,16 @@
       "zh": "武汉失守",
       "en": "Fall of Wuhan"
     },
+    "aliases": [
+      {
+        "zh": "武汉会战",
+        "en": "Battle of Wuhan"
+      },
+      {
+        "zh": "武汉保卫战",
+        "en": "Defense of Wuhan"
+      }
+    ],
     "date": "1938-10-25",
     "location": {
       "lng": 114.3,
@@ -790,6 +846,12 @@
       "zh": "随枣会战",
       "en": "Battle of Suizao"
     },
+    "aliases": [
+      {
+        "zh": "随枣战役",
+        "en": "Suizao Campaign"
+      }
+    ],
     "date": "1939-05-01",
     "endDate": "1939-05-24",
     "location": {
@@ -851,6 +913,10 @@
       {
         "zh": "长沙会战",
         "en": "First Changsha Campaign"
+      },
+      {
+        "zh": "第一次长沙战役",
+        "en": "First Changsha Campaign"
       }
     ],
     "date": "1939-09-14",
@@ -904,6 +970,12 @@
       "zh": "昆仑关战役",
       "en": "Battle of Kunlun Pass"
     },
+    "aliases": [
+      {
+        "zh": "昆仑关大捷",
+        "en": "Kunlun Pass Victory"
+      }
+    ],
     "date": "1939-12-18",
     "endDate": "1940-01-11",
     "location": {
@@ -961,6 +1033,12 @@
       "zh": "枣宜会战",
       "en": "Battle of Zaoyang–Yichang"
     },
+    "aliases": [
+      {
+        "zh": "枣宜战役",
+        "en": "Zaoyi Campaign"
+      }
+    ],
     "date": "1940-05-01",
     "endDate": "1940-06-18",
     "location": {
@@ -1012,120 +1090,6 @@
     "importance": 1
   },
   {
-    "id": "changsha-1941-09",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "第二次长沙会战",
-      "en": "Second Battle of Changsha"
-    },
-    "date": "1941-09-07",
-    "endDate": "1941-10-08",
-    "location": {
-      "lng": 113.13,
-      "lat": 29.36,
-      "place": {
-        "zh": "湖南岳阳新墙河一线",
-        "en": "Xinqiang River line, Yueyang, Hunan"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion",
-      "china-resistance"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军再次进攻长沙，中国军队逐次抵抗并反击，日军于 10 月上旬退回原阵地。",
-      "en": "Japanese forces again attacked Changsha; Chinese troops resisted in stages and counterattacked, forcing a Japanese withdrawal to the original line in early October."
-    },
-    "description": {
-      "zh": "1941 年 9 月，日军第十一军向新墙河、汨罗江一线发起进攻，企图击破中国第九战区主力并攻取长沙。中国军队逐次抵抗，双方在长沙外围激战；日军因补给困难和中国军队侧击，于 10 月上旬退回原阵地。此役双方均有较大伤亡。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
-      "en": "In September 1941, the Japanese 11th Army attacked across the Xinqiang and Miluo rivers, aiming to destroy the main forces of China’s Ninth War Zone and take Changsha. Chinese troops resisted in stages and fought fierce actions on the city’s outskirts. Hampered by supply difficulties and Chinese flank attacks, the Japanese withdrew to their original line in early October. Both sides suffered considerable casualties.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《中国抗日战争史》",
-        "author": "张宪文等",
-        "year": 2001,
-        "note": "示意初稿，待史料校订"
-      },
-      {
-        "title": "《长沙会战史料》",
-        "author": "湖南省档案馆等编",
-        "year": 1990,
-        "note": "会战经过参考"
-      },
-      {
-        "title": "《中国事变陆军作战史》",
-        "author": "日本防卫厅防卫研修所战史室",
-        "year": 1979,
-        "note": "日方作战记录参考"
-      }
-    ],
-    "relatedIds": [
-      "changsha-1939-09",
-      "changsha-1941-12"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "changsha-1941-12",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "第三次长沙会战",
-      "en": "Third Battle of Changsha"
-    },
-    "date": "1941-12-24",
-    "endDate": "1942-01-15",
-    "location": {
-      "lng": 112.94,
-      "lat": 28.23,
-      "place": {
-        "zh": "湖南长沙",
-        "en": "Changsha, Hunan"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion",
-      "china-resistance"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军第三次进攻长沙，中国军队以“天炉战法”诱敌深入并反击，取得长沙大捷。",
-      "en": "Japan attacked Changsha for the third time; Chinese forces drew the Japanese in and counterattacked, winning a major victory."
-    },
-    "description": {
-      "zh": "1941 年 12 月 24 日，日军第十一军再次向长沙进攻。中国第九战区司令长官薛岳采取“天炉战法”，以一部兵力逐次抵抗、诱敌深入，主力从外围侧击、合围。日军攻入长沙外围后补给困难，被迫撤退；中国军队追击，至 1942 年 1 月中旬恢复原阵地。此役是太平洋战争爆发后中国正面战场的一次重要胜利。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
-      "en": "On 24 December 1941, the Japanese 11th Army attacked Changsha again. Xue Yue, commander of China’s Ninth War Zone, employed the “heavenly furnace” tactic: a covering force resisted in stages and drew the Japanese inward while the main force struck the flanks and closed the ring. After reaching the outskirts of Changsha, the Japanese faced supply difficulties and were forced to retreat. Chinese forces pursued and restored the original line by mid-January 1942. It was an important victory on China’s frontal battlefield after the outbreak of the Pacific War.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《中国抗日战争史》",
-        "author": "张宪文等",
-        "year": 2001,
-        "note": "示意初稿，待史料校订"
-      },
-      {
-        "title": "《长沙会战史料》",
-        "author": "湖南省档案馆等编",
-        "year": 1990,
-        "note": "会战经过参考"
-      },
-      {
-        "title": "《中国事变陆军作战史》",
-        "author": "日本防卫厅防卫研修所战史室",
-        "year": 1979,
-        "note": "日方作战记录参考"
-      }
-    ],
-    "relatedIds": [
-      "changsha-1941-09",
-      "ichigo-offensive-1944-04"
-    ],
-    "importance": 1
-  },
-  {
     "id": "hundred-regiments-1940-08",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -1136,6 +1100,10 @@
       {
         "zh": "百团战役",
         "en": "Hundred Regiments Campaign"
+      },
+      {
+        "zh": "正太路破袭战",
+        "en": "Zhengding–Taiyuan Railway Sabotage"
       }
     ],
     "date": "1940-08-20",
@@ -1187,6 +1155,12 @@
       "zh": "上高会战",
       "en": "Battle of Shanggao"
     },
+    "aliases": [
+      {
+        "zh": "上高大捷",
+        "en": "Shanggao Victory"
+      }
+    ],
     "date": "1941-03-15",
     "endDate": "1941-04-09",
     "location": {
@@ -1244,6 +1218,12 @@
       "zh": "中条山战役",
       "en": "Battle of South Shanxi"
     },
+    "aliases": [
+      {
+        "zh": "晋南会战",
+        "en": "Battle of South Shanxi"
+      }
+    ],
     "date": "1941-05-07",
     "endDate": "1941-06-15",
     "location": {
@@ -1293,6 +1273,69 @@
       "hundred-regiments-1940-08"
     ],
     "importance": 1
+  },
+  {
+    "id": "changsha-1941-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第二次长沙会战",
+      "en": "Second Battle of Changsha"
+    },
+    "aliases": [
+      {
+        "zh": "第二次长沙战役",
+        "en": "Second Changsha Campaign"
+      }
+    ],
+    "date": "1941-09-07",
+    "endDate": "1941-10-08",
+    "location": {
+      "lng": 113.13,
+      "lat": 29.36,
+      "place": {
+        "zh": "湖南岳阳新墙河一线",
+        "en": "Xinqiang River line, Yueyang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军再次进攻长沙，中国军队逐次抵抗并反击，日军于 10 月上旬退回原阵地。",
+      "en": "Japanese forces again attacked Changsha; Chinese troops resisted in stages and counterattacked, forcing a Japanese withdrawal to the original line in early October."
+    },
+    "description": {
+      "zh": "1941 年 9 月，日军第十一军向新墙河、汨罗江一线发起进攻，企图击破中国第九战区主力并攻取长沙。中国军队逐次抵抗，双方在长沙外围激战；日军因补给困难和中国军队侧击，于 10 月上旬退回原阵地。此役双方均有较大伤亡。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
+      "en": "In September 1941, the Japanese 11th Army attacked across the Xinqiang and Miluo rivers, aiming to destroy the main forces of China’s Ninth War Zone and take Changsha. Chinese troops resisted in stages and fought fierce actions on the city’s outskirts. Hampered by supply difficulties and Chinese flank attacks, the Japanese withdrew to their original line in early October. Both sides suffered considerable casualties.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《长沙会战史料》",
+        "author": "湖南省档案馆等编",
+        "year": 1990,
+        "note": "会战经过参考"
+      },
+      {
+        "title": "《中国事变陆军作战史》",
+        "author": "日本防卫厅防卫研修所战史室",
+        "year": 1979,
+        "note": "日方作战记录参考"
+      }
+    ],
+    "relatedIds": [
+      "changsha-1939-09",
+      "changsha-1941-12"
+    ],
+    "importance": 2
   },
   {
     "id": "pearl-harbor-1941-12",
@@ -1396,6 +1439,73 @@
     "extensions": {
       "routeEvent": false
     }
+  },
+  {
+    "id": "changsha-1941-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第三次长沙会战",
+      "en": "Third Battle of Changsha"
+    },
+    "aliases": [
+      {
+        "zh": "长沙大捷",
+        "en": "Changsha Victory"
+      },
+      {
+        "zh": "第三次长沙战役",
+        "en": "Third Changsha Campaign"
+      }
+    ],
+    "date": "1941-12-24",
+    "endDate": "1942-01-15",
+    "location": {
+      "lng": 112.94,
+      "lat": 28.23,
+      "place": {
+        "zh": "湖南长沙",
+        "en": "Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军第三次进攻长沙，中国军队以“天炉战法”诱敌深入并反击，取得长沙大捷。",
+      "en": "Japan attacked Changsha for the third time; Chinese forces drew the Japanese in and counterattacked, winning a major victory."
+    },
+    "description": {
+      "zh": "1941 年 12 月 24 日，日军第十一军再次向长沙进攻。中国第九战区司令长官薛岳采取“天炉战法”，以一部兵力逐次抵抗、诱敌深入，主力从外围侧击、合围。日军攻入长沙外围后补给困难，被迫撤退；中国军队追击，至 1942 年 1 月中旬恢复原阵地。此役是太平洋战争爆发后中国正面战场的一次重要胜利。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
+      "en": "On 24 December 1941, the Japanese 11th Army attacked Changsha again. Xue Yue, commander of China’s Ninth War Zone, employed the “heavenly furnace” tactic: a covering force resisted in stages and drew the Japanese inward while the main force struck the flanks and closed the ring. After reaching the outskirts of Changsha, the Japanese faced supply difficulties and were forced to retreat. Chinese forces pursued and restored the original line by mid-January 1942. It was an important victory on China’s frontal battlefield after the outbreak of the Pacific War.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《长沙会战史料》",
+        "author": "湖南省档案馆等编",
+        "year": 1990,
+        "note": "会战经过参考"
+      },
+      {
+        "title": "《中国事变陆军作战史》",
+        "author": "日本防卫厅防卫研修所战史室",
+        "year": 1979,
+        "note": "日方作战记录参考"
+      }
+    ],
+    "relatedIds": [
+      "changsha-1941-09",
+      "ichigo-offensive-1944-04"
+    ],
+    "importance": 1
   },
   {
     "id": "burma-expedition-1942-02",
@@ -1502,6 +1612,12 @@
       "zh": "鄂西会战",
       "en": "Battle of West Hubei"
     },
+    "aliases": [
+      {
+        "zh": "石牌保卫战",
+        "en": "Defense of Shipai"
+      }
+    ],
     "date": "1943-05-05",
     "endDate": "1943-06-12",
     "location": {
@@ -1609,6 +1725,12 @@
       "zh": "常德会战",
       "en": "Battle of Changde"
     },
+    "aliases": [
+      {
+        "zh": "常德保卫战",
+        "en": "Defense of Changde"
+      }
+    ],
     "date": "1943-11-02",
     "endDate": "1943-12-20",
     "location": {
@@ -1718,6 +1840,12 @@
       "zh": "豫湘桂战役",
       "en": "Operation Ichi-Go"
     },
+    "aliases": [
+      {
+        "zh": "一号作战",
+        "en": "Operation Ichi-Go"
+      }
+    ],
     "date": "1944-04-17",
     "endDate": "1944-12-10",
     "location": {
@@ -1768,6 +1896,12 @@
       "zh": "滇西反攻",
       "en": "Western Yunnan Counteroffensive"
     },
+    "aliases": [
+      {
+        "zh": "滇西缅北反攻",
+        "en": "Yunnan–Burma Counteroffensive"
+      }
+    ],
     "date": "1944-05-11",
     "endDate": "1945-01-27",
     "location": {
@@ -1827,6 +1961,12 @@
       "zh": "松山战役",
       "en": "Battle of Songshan"
     },
+    "aliases": [
+      {
+        "zh": "松山攻坚战",
+        "en": "Songshan Offensive"
+      }
+    ],
     "date": "1944-06-04",
     "endDate": "1944-09-07",
     "location": {
@@ -1877,6 +2017,12 @@
       "zh": "衡阳保卫战",
       "en": "Defense of Hengyang"
     },
+    "aliases": [
+      {
+        "zh": "衡阳会战",
+        "en": "Hengyang Campaign"
+      }
+    ],
     "date": "1944-06-22",
     "endDate": "1944-08-08",
     "location": {
@@ -2030,6 +2176,12 @@
       "zh": "湘西会战",
       "en": "Battle of West Hunan"
     },
+    "aliases": [
+      {
+        "zh": "雪峰山会战",
+        "en": "Battle of Xuefeng Mountains"
+      }
+    ],
     "date": "1945-04-09",
     "endDate": "1945-06-07",
     "location": {
@@ -2087,6 +2239,12 @@
       "zh": "桂柳反攻",
       "en": "Guilin–Liuzhou Counteroffensive"
     },
+    "aliases": [
+      {
+        "zh": "广西反攻",
+        "en": "Guangxi Counteroffensive"
+      }
+    ],
     "date": "1945-05-01",
     "endDate": "1945-08-15",
     "location": {
