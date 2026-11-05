@@ -1,0 +1,229 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.67,
+            25.61
+          ],
+          [
+            111.07,
+            25.93
+          ],
+          [
+            111.3,
+            25.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-army",
+        "startDate": "1934-11-27",
+        "endDate": "1934-12-01",
+        "order": 1,
+        "segmentType": "defense",
+        "name": {
+          "zh": "湘江封锁线",
+          "en": "Xiang River Blockade Line"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.89,
+            27.22
+          ],
+          [
+            107.18,
+            27.18
+          ],
+          [
+            106.8,
+            27.1
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-army",
+        "startDate": "1935-01-01",
+        "endDate": "1935-01-06",
+        "order": 2,
+        "segmentType": "defense",
+        "name": {
+          "zh": "乌江防线",
+          "en": "Wu River Defense Line"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.47,
+            26.55
+          ],
+          [
+            101.8,
+            26.6
+          ],
+          [
+            101.2,
+            26.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-army",
+        "startDate": "1935-05-01",
+        "endDate": "1935-05-09",
+        "order": 3,
+        "segmentType": "defense",
+        "name": {
+          "zh": "金沙江防线",
+          "en": "Jinsha River Blockade Line"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.36,
+            29.23
+          ],
+          [
+            102.23,
+            29.91
+          ],
+          [
+            101.96,
+            30.05
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-army",
+        "startDate": "1935-05-25",
+        "endDate": "1935-05-29",
+        "order": 4,
+        "segmentType": "defense",
+        "name": {
+          "zh": "大渡河防线",
+          "en": "Dadu River Defense Line"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.22,
+            34.06
+          ],
+          [
+            104.04,
+            34.43
+          ],
+          [
+            104.39,
+            34.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-army",
+        "startDate": "1935-09-16",
+        "endDate": "1935-09-17",
+        "order": 5,
+        "segmentType": "defense",
+        "name": {
+          "zh": "腊子口防线",
+          "en": "Lazikou Defense Line"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.35,
+            36.28
+          ],
+          [
+            109.38,
+            36.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-army",
+        "startDate": "1935-11-20",
+        "endDate": "1935-11-24",
+        "order": 6,
+        "segmentType": "advance",
+        "name": {
+          "zh": "直罗镇进攻",
+          "en": "Zhiluozhen Offensive"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    }
+  ]
+}

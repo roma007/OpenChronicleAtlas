@@ -223,6 +223,61 @@
     "endDate": "1934-12-01"
   },
   {
+    "id": "kmt-xiangjiang-blockade-1934-11",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "国民党军湘江封锁线",
+      "en": "KMT Xiang River Blockade"
+    },
+    "date": "1934-11-27",
+    "endDate": "1934-12-01",
+    "location": {
+      "lng": 111.07,
+      "lat": 25.93,
+      "place": {
+        "zh": "广西全州",
+        "en": "Quanzhou, Guangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "国民党军以湘江为第四道封锁线，企图围歼中央红军；红军突破封锁线但损失惨重。",
+      "en": "KMT forces used the Xiang River as a fourth blockade line to encircle the Central Red Army; the Red Army broke through at heavy cost."
+    },
+    "description": {
+      "zh": "1934 年 11 月，国民党军依托湘江构筑第四道封锁线，集结重兵堵截中央红军。红军在全州、兴安之间强渡湘江，突破封锁线，但伤亡重大。",
+      "en": "In November 1934, KMT forces established a fourth blockade line along the Xiang River and concentrated troops to intercept the Central Red Army. The Red Army crossed the river between Quanzhou and Xing’an, breaking the blockade but suffering heavy casualties."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对国民党军封锁与追堵方向"
+      }
+    ],
+    "relatedIds": [
+      "xiangjiang-1934-11"
+    ],
+    "importance": 1
+  },
+  {
     "id": "tongdao-1934-12",
     "atlasId": "long-march",
     "name": {
@@ -435,6 +490,61 @@
     "relatedIds": [
       "houchang-1934-12",
       "zunyi-1935-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-wujiang-defense-1935-01",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "国民党军乌江防线",
+      "en": "KMT Wu River Defense Line"
+    },
+    "date": "1935-01-01",
+    "endDate": "1935-01-06",
+    "location": {
+      "lng": 107.18,
+      "lat": 27.18,
+      "place": {
+        "zh": "贵州瓮安江界河",
+        "en": "Jiangjiehe, Weng’an, Guizhou"
+      }
+    },
+    "entityIds": [
+      "kmt-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "国民党黔军依托乌江设防，企图阻止红军北上遵义。",
+      "en": "KMT Guizhou forces defended the Wu River to block the Red Army’s advance toward Zunyi."
+    },
+    "description": {
+      "zh": "1935 年 1 月，国民党黔军在乌江沿岸设防，企图阻止中央红军北上。红军在江界河等渡口突破防线，打开进军遵义的门户。",
+      "en": "In January 1935, KMT Guizhou forces set up defenses along the Wu River to block the Central Red Army’s northward advance. The Red Army broke through at Jiangjiehe and other crossings, opening the way to Zunyi."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对国民党军封锁与追堵方向"
+      }
+    ],
+    "relatedIds": [
+      "wujiang-1935-01"
     ],
     "importance": 2
   },
@@ -789,6 +899,61 @@
     "relatedIds": []
   },
   {
+    "id": "kmt-jinsha-blockade-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "国民党军金沙江封锁",
+      "en": "KMT Jinsha River Blockade"
+    },
+    "date": "1935-05-01",
+    "endDate": "1935-05-09",
+    "location": {
+      "lng": 102.47,
+      "lat": 26.55,
+      "place": {
+        "zh": "云南禄劝皎平渡",
+        "en": "Jiaopingdu, Luquan, Yunnan"
+      }
+    },
+    "entityIds": [
+      "kmt-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "国民党军企图封锁金沙江渡口，阻止红军北上川西。",
+      "en": "KMT forces tried to blockade the Jinsha River crossings to stop the Red Army from moving into western Sichuan."
+    },
+    "description": {
+      "zh": "1935 年 5 月，国民党军追堵中央红军，企图封锁金沙江渡口。红军在皎平渡等渡口巧渡金沙江，摆脱追敌。",
+      "en": "In May 1935, KMT forces pursued the Central Red Army and tried to blockade the Jinsha River crossings. The Red Army crossed at Jiaopingdu and other points, escaping its pursuers."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对国民党军封锁与追堵方向"
+      }
+    ],
+    "relatedIds": [
+      "jinsha-1935-05"
+    ],
+    "importance": 2
+  },
+  {
     "id": "jinsha-1935-05",
     "atlasId": "long-march",
     "name": {
@@ -952,6 +1117,62 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "kmt-dadu-defense-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "国民党军大渡河防线",
+      "en": "KMT Dadu River Defense Line"
+    },
+    "date": "1935-05-25",
+    "endDate": "1935-05-29",
+    "location": {
+      "lng": 102.36,
+      "lat": 29.23,
+      "place": {
+        "zh": "四川石棉安顺场",
+        "en": "Anshunchang, Shimian, Sichuan"
+      }
+    },
+    "entityIds": [
+      "kmt-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "国民党川军沿大渡河设防，企图阻止红军渡河北上。",
+      "en": "Sichuan KMT forces defended the Dadu River to block the Red Army’s crossing."
+    },
+    "description": {
+      "zh": "1935 年 5 月，国民党川军沿大渡河设防，企图阻止中央红军渡河。红军在安顺场强渡大渡河，并夺取泸定桥。",
+      "en": "In May 1935, Sichuan KMT forces set up defenses along the Dadu River to block the Central Red Army. The Red Army forced the crossing at Anshunchang and captured Luding Bridge."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对国民党军封锁与追堵方向"
+      }
+    ],
+    "relatedIds": [
+      "dadu-1935-05",
+      "luding-1935-05"
+    ],
+    "importance": 2
   },
   {
     "id": "luding-1935-05",
@@ -1330,6 +1551,61 @@
     "relatedIds": []
   },
   {
+    "id": "kmt-lazikou-blockade-1935-09",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "国民党军腊子口封锁",
+      "en": "KMT Lazikou Blockade"
+    },
+    "date": "1935-09-16",
+    "endDate": "1935-09-17",
+    "location": {
+      "lng": 103.22,
+      "lat": 34.06,
+      "place": {
+        "zh": "甘肃迭部腊子口",
+        "en": "Lazikou, Diebu, Gansu"
+      }
+    },
+    "entityIds": [
+      "kmt-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "国民党军据守腊子口天险，企图阻止红军进入甘南。",
+      "en": "KMT forces held the Lazikou pass to block the Red Army’s entry into southern Gansu."
+    },
+    "description": {
+      "zh": "1935 年 9 月，国民党军据守腊子口天险，企图阻止红军北上。红军经过激战夺取腊子口，打开进入甘南的通道。",
+      "en": "In September 1935, KMT forces held the natural stronghold at Lazikou to block the Red Army’s northward advance. After fierce fighting, the Red Army captured the pass and opened the route into southern Gansu."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对国民党军封锁与追堵方向"
+      }
+    ],
+    "relatedIds": [
+      "lazigou-1935-09"
+    ],
+    "importance": 2
+  },
+  {
     "id": "lazigou-1935-09",
     "atlasId": "long-march",
     "name": {
@@ -1569,7 +1845,8 @@
     },
     "entityIds": [
       "central-red-army",
-      "shaanxi-red-army"
+      "shaanxi-red-army",
+      "kmt-army"
     ],
     "category": "战斗",
     "summary": {

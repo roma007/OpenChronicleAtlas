@@ -15,7 +15,7 @@
   },
   "cover": "assets/cover.jpg",
   "description": {
-    "zh": "1934 年 10 月至 1936 年 10 月，中国工农红军主力从长江南北各根据地向陕北和川陕甘地区进行战略转移。\n\n> 本数据为 M1 示例初稿：路线为示意简化，事件日期、地点与表述待史料校订。",
+    "zh": "1934 年 10 月至 1936 年 10 月，中国工农红军主力从长江南北各根据地向陕北和川陕甘地区进行战略转移。\n\n> 本数据为 M1 示例初稿：路线为示意简化，并标示国民党军追堵与封锁方向；事件日期、地点与表述待史料校订。",
     "en": "From October 1934 to October 1936, the main forces of the Chinese Red Army moved from their bases in southern and central China to northern Shaanxi."
   },
   "defaultView": {
@@ -27,6 +27,7 @@
   },
   "routes": [
     "routes/central-red-army.geojson",
+    "routes/kmt-army.geojson",
     "routes/red-25-army.geojson",
     "routes/red-2-and-4.geojson",
     "routes/shaanxi-red-army.geojson"
@@ -109,8 +110,8 @@
       "color": "#4a4a4a",
       "order": 6,
       "description": {
-        "zh": "用于标示追击与封锁方向，M1 暂不绘制路线。",
-        "en": "Used to indicate pursuit and blockade directions; no route is drawn in this version."
+        "zh": "标示国民党军对长征红军的追击、封锁与堵截方向；路线为示意简化，待史料校订。",
+        "en": "Indicates Kuomintang pursuit, blockade, and interception directions against the Red Army; routes are simplified and await historical review."
       }
     }
   ],
