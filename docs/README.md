@@ -163,6 +163,7 @@ docs/
 - [v0.21.0-m21（M21）](releases/2026-11-05-v0.21.0-m21.md)
 - [v0.22.0-m22（M22）](releases/2026-11-05-v0.22.0-m22.md)
 - [v0.23.0-m23（M23）](releases/2026-11-05-v0.23.0-m23.md)
+- [v0.24.0-m24（M24）](releases/2026-11-05-v0.24.0-m24.md)
 - [抗日战争数据草稿 QA](releases/2026-11-05-抗日战争数据草稿QA.md)
 - [全项目收尾审计（M1–M5）](releases/2026-11-04-final-audit.md)
 - [商店上架元数据（草稿）](releases/store-metadata.md)
