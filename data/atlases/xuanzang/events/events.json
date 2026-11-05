@@ -705,6 +705,56 @@
     "relatedIds": []
   },
   {
+    "id": "gandhara-631-10",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "健陀罗",
+      "en": "Gandhara"
+    },
+    "date": "0631-10-01",
+    "endDate": "0631-10-01",
+    "location": {
+      "lng": 71.58,
+      "lat": 34.02,
+      "place": {
+        "zh": "健陀罗（今巴基斯坦白沙瓦一带）",
+        "en": "Gandhara (Peshawar region)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘进入健陀罗地区，参访佛教圣迹。",
+      "en": "Xuanzang entered Gandhara and visited its Buddhist sites."
+    },
+    "description": {
+      "zh": "631 年，玄奘进入健陀罗地区，参访白沙瓦一带的佛教寺院与圣迹。",
+      "en": "In 631, Xuanzang entered the Gandhara region and visited Buddhist monasteries and sacred sites around Peshawar."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "kapisa-631-09",
+      "nalanda-632-01"
+    ],
+    "importance": 2
+  },
+  {
     "id": "nalanda-632-01",
     "atlasId": "xuanzang",
     "name": {
@@ -760,6 +810,106 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "varanasi-632-06",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "波罗奈",
+      "en": "Varanasi"
+    },
+    "date": "0632-06-01",
+    "endDate": "0632-06-01",
+    "location": {
+      "lng": 83.0,
+      "lat": 25.3,
+      "place": {
+        "zh": "波罗奈（今印度瓦拉纳西）",
+        "en": "Varanasi, India"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访波罗奈，参访鹿野苑等佛教圣地。",
+      "en": "Xuanzang visited Varanasi and sites such as Sarnath."
+    },
+    "description": {
+      "zh": "632 年，玄奘到访波罗奈，参访鹿野苑等佛教圣地，记录当地佛教状况。",
+      "en": "In 632, Xuanzang visited Varanasi and such Buddhist sites as Sarnath, recording the local state of Buddhism."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "nalanda-632-01",
+      "kanauj-633-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kushinagar-632-08",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "拘尸那迦",
+      "en": "Kushinagar"
+    },
+    "date": "0632-08-01",
+    "endDate": "0632-08-01",
+    "location": {
+      "lng": 83.91,
+      "lat": 26.74,
+      "place": {
+        "zh": "拘尸那迦（今印度拘尸那迦）",
+        "en": "Kushinagar, India"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访拘尸那迦，参访佛陀涅槃地。",
+      "en": "Xuanzang visited Kushinagar, the site of the Buddha’s parinirvana."
+    },
+    "description": {
+      "zh": "632 年，玄奘到访拘尸那迦，参访佛陀涅槃地及周边寺院。",
+      "en": "In 632, Xuanzang visited Kushinagar, the site of the Buddha’s parinirvana, and nearby monasteries."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "varanasi-632-06",
+      "kanauj-633-01"
+    ],
+    "importance": 2
   },
   {
     "id": "kanauj-633-01",

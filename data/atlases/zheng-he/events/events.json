@@ -147,6 +147,56 @@
     "relatedIds": []
   },
   {
+    "id": "samudera-1406-03",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "苏门答剌",
+      "en": "Samudera"
+    },
+    "date": "1406-03-01",
+    "endDate": "1406-03-01",
+    "location": {
+      "lng": 97.15,
+      "lat": 5.18,
+      "place": {
+        "zh": "苏门答剌（今印尼苏门答腊）",
+        "en": "Samudera, Sumatra"
+      }
+    },
+    "entityIds": [
+      "ming-fleet"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队访问苏门答剌，开展贸易与外交。",
+      "en": "The fleet visited Samudera for trade and diplomacy."
+    },
+    "description": {
+      "zh": "1406 年，郑和船队访问苏门答剌，与当地建立贸易与外交联系。",
+      "en": "In 1406, Zheng He’s fleet visited Samudera and established trade and diplomatic contacts with local authorities."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "航线走向参考，坐标为示意简化"
+      }
+    ],
+    "relatedIds": [
+      "malacca-1406-01",
+      "ceylon-1406-06"
+    ],
+    "importance": 2
+  },
+  {
     "id": "ceylon-1406-06",
     "atlasId": "zheng-he",
     "name": {
@@ -241,6 +291,56 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "palembang-1407-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "旧港",
+      "en": "Palembang"
+    },
+    "date": "1407-01-01",
+    "endDate": "1407-03-01",
+    "location": {
+      "lng": 104.75,
+      "lat": -2.99,
+      "place": {
+        "zh": "旧港（今印尼巨港）",
+        "en": "Palembang (modern Indonesia)"
+      }
+    },
+    "entityIds": [
+      "ming-fleet"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "郑和船队在旧港击败陈祖义势力，保障海峡通道。",
+      "en": "Zheng He’s fleet defeated Chen Zuyi’s forces at Palembang, securing the strait route."
+    },
+    "description": {
+      "zh": "1407 年，郑和船队在旧港击败陈祖义为首的海盗势力，维护了马六甲海峡的航行安全。",
+      "en": "In 1407, Zheng He’s fleet defeated the pirate forces led by Chen Zuyi at Palembang, helping secure navigation through the Strait of Malacca."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "航线走向参考，坐标为示意简化"
+      }
+    ],
+    "relatedIds": [
+      "champa-1405-10",
+      "malacca-1406-01"
+    ],
+    "importance": 2
   },
   {
     "id": "return-1407-10",
@@ -709,6 +809,56 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "mogadishu-1415-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "木骨都束",
+      "en": "Mogadishu"
+    },
+    "date": "1415-01-01",
+    "endDate": "1415-01-01",
+    "location": {
+      "lng": 45.34,
+      "lat": 2.05,
+      "place": {
+        "zh": "木骨都束（今索马里摩加迪沙）",
+        "en": "Mogadishu (modern Somalia)"
+      }
+    },
+    "entityIds": [
+      "ming-fleet"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵达东非木骨都束，明朝影响力到达非洲东岸。",
+      "en": "The fleet reached Mogadishu, extending Ming influence to the East African coast."
+    },
+    "description": {
+      "zh": "1415 年，郑和船队沿东非海岸抵达木骨都束，与当地进行贸易并建立联系。",
+      "en": "In 1415, Zheng He’s fleet sailed along the East African coast to Mogadishu, trading and establishing contacts with local authorities."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "航线走向参考，坐标为示意简化"
+      }
+    ],
+    "relatedIds": [
+      "malindi-1415-01",
+      "aden-1418-06"
+    ],
+    "importance": 2
   },
   {
     "id": "return-1415-08",

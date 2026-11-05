@@ -383,6 +383,62 @@
     "endDate": "1935-01-01"
   },
   {
+    "id": "wujiang-1935-01",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "强渡乌江",
+      "en": "Forcing the Wu River"
+    },
+    "date": "1935-01-01",
+    "endDate": "1935-01-06",
+    "location": {
+      "lng": 107.18,
+      "lat": 27.18,
+      "place": {
+        "zh": "贵州瓮安江界河",
+        "en": "Jiangjiehe, Weng’an, Guizhou"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "中央红军在江界河等渡口突破乌江，打开进军遵义的门户。",
+      "en": "The Central Red Army crossed the Wu River at Jiangjiehe and other crossings, opening the way to Zunyi."
+    },
+    "description": {
+      "zh": "1935 年 1 月，中央红军在贵州瓮安江界河、余庆回龙场等渡口强渡乌江，突破黔军防线，为遵义会议的召开创造了条件。",
+      "en": "In January 1935, the Central Red Army forced the Wu River at Jiangjiehe in Weng’an and Huilongchang in Yuqing, broke through the Guizhou army’s defenses, and opened the way for the Zunyi Conference."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《红军长征·文献》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 1995,
+        "note": "用于核对行军日期、渡口/山口与路线走向"
+      }
+    ],
+    "relatedIds": [
+      "houchang-1934-12",
+      "zunyi-1935-01"
+    ],
+    "importance": 2
+  },
+  {
     "id": "zunyi-1935-01",
     "atlasId": "long-march",
     "name": {
@@ -1109,6 +1165,62 @@
     "relatedIds": []
   },
   {
+    "id": "baozuo-1935-08",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "包座战役",
+      "en": "Battle of Baozuo"
+    },
+    "date": "1935-08-29",
+    "endDate": "1935-08-31",
+    "location": {
+      "lng": 103.4,
+      "lat": 33.4,
+      "place": {
+        "zh": "四川若尔盖包座",
+        "en": "Baozuo, Zoigê, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红军在包座地区击溃国民党军堵截，打开北上甘南通道。",
+      "en": "The Red Army defeated Nationalist blocking forces at Baozuo, opening the route north into southern Gansu."
+    },
+    "description": {
+      "zh": "1935 年 8 月底，红军在四川若尔盖包座地区与国民党军展开激战，歼灭其一部，打开了红军北上甘南的通道。",
+      "en": "In late August 1935, the Red Army fought Nationalist forces at Baozuo in Zoigê, Sichuan, destroying part of the blocking force and opening the route north into southern Gansu."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《红军长征·文献》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 1995,
+        "note": "用于核对行军日期、渡口/山口与路线走向"
+      }
+    ],
+    "relatedIds": [
+      "maoergai-1935-08",
+      "lazigou-1935-09"
+    ],
+    "importance": 2
+  },
+  {
     "id": "caodi-1935-08",
     "atlasId": "long-march",
     "name": {
@@ -1324,6 +1436,62 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "bangluo-1935-09",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "榜罗镇会议",
+      "en": "Bangluo Town Meeting"
+    },
+    "date": "1935-09-27",
+    "endDate": "1935-09-27",
+    "location": {
+      "lng": 105.0,
+      "lat": 35.0,
+      "place": {
+        "zh": "甘肃通渭榜罗镇",
+        "en": "Bangluo, Tongwei, Gansu"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "中共中央在榜罗镇确定把红军长征落脚点放在陕北。",
+      "en": "The CCP Central Committee decided at Bangluo that the Long March would end in northern Shaanxi."
+    },
+    "description": {
+      "zh": "1935 年 9 月 27 日，中共中央在甘肃通渭榜罗镇召开会议，决定把红军长征的落脚点放在陕北，以陕北作为领导中国革命的大本营。",
+      "en": "On 27 September 1935, the CCP Central Committee met at Bangluo in Tongwei, Gansu, and decided to make northern Shaanxi the destination of the Long March and the base for leading the Chinese revolution."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《红军长征·文献》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 1995,
+        "note": "用于核对行军日期、渡口/山口与路线走向"
+      }
+    ],
+    "relatedIds": [
+      "hadapu-1935-09",
+      "wuqi-1935-10"
+    ],
+    "importance": 1
   },
   {
     "id": "wuqi-1935-10",
