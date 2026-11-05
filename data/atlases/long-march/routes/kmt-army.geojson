@@ -27,7 +27,7 @@
         "order": 1,
         "segmentType": "defense",
         "name": {
-          "zh": "湘江封锁线",
+          "zh": "湘江封锁线（湘军、桂军）",
           "en": "Xiang River Blockade Line"
         },
         "description": {
@@ -65,7 +65,7 @@
         "order": 2,
         "segmentType": "defense",
         "name": {
-          "zh": "乌江防线",
+          "zh": "乌江防线（黔军）",
           "en": "Wu River Defense Line"
         },
         "description": {
@@ -103,7 +103,7 @@
         "order": 3,
         "segmentType": "defense",
         "name": {
-          "zh": "金沙江防线",
+          "zh": "金沙江防线（滇军）",
           "en": "Jinsha River Blockade Line"
         },
         "description": {
@@ -141,7 +141,7 @@
         "order": 4,
         "segmentType": "defense",
         "name": {
-          "zh": "大渡河防线",
+          "zh": "大渡河防线（川军）",
           "en": "Dadu River Defense Line"
         },
         "description": {
@@ -179,7 +179,7 @@
         "order": 5,
         "segmentType": "defense",
         "name": {
-          "zh": "腊子口防线",
+          "zh": "腊子口防线（鲁大昌部）",
           "en": "Lazikou Defense Line"
         },
         "description": {
@@ -213,8 +213,92 @@
         "order": 6,
         "segmentType": "advance",
         "name": {
-          "zh": "直罗镇进攻",
+          "zh": "直罗镇进攻（东北军第109师）",
           "en": "Zhiluozhen Offensive"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.28,
+            36.0
+          ],
+          [
+            106.2,
+            35.7
+          ],
+          [
+            106.0,
+            35.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-army",
+        "startDate": "1935-10-06",
+        "endDate": "1935-10-07",
+        "order": 7,
+        "segmentType": "advance",
+        "name": {
+          "zh": "六盘山骑兵追击（东北军骑兵）",
+          "en": "Liupanshan Cavalry Pursuit (Northeast Army Cavalry)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.89,
+            28.68
+          ],
+          [
+            114.0,
+            27.8
+          ],
+          [
+            112.6,
+            26.9
+          ],
+          [
+            110.29,
+            25.27
+          ],
+          [
+            106.63,
+            26.65
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-army",
+        "startDate": "1934-10-10",
+        "endDate": "1935-01-15",
+        "order": 8,
+        "segmentType": "advance",
+        "name": {
+          "zh": "追击路线（赣—湘—黔）",
+          "en": "Pursuit Route (Jiangxi–Hunan–Guizhou)"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
