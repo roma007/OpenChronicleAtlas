@@ -1,12 +1,12 @@
-# 商店元数据（英文版）— v0.32.0
+# 商店元数据（英文版）— v0.42.0
 
 - **日期**：2026-11-05
-- **适用版本**：`0.32.0`（Android `versionCode 29`；iOS build `29`）
+- **适用版本**：`0.42.0`（Android `versionCode 39`；iOS build `39`）
 - **适用商店**：Apple App Store、Google Play、国内应用商店（如适用）
-- **状态**：M32 提审草稿。账号、真机截图、自定义域名、高德商用许可均未确认，**不可直接提交**
+- **状态**：M42 提审草稿。账号、真机截图、自定义域名、高德商用许可均未确认，**不可直接提交**
 - **关联文档**：
-  - [中文商店元数据草稿](store-metadata.md)（已同步为 0.32.0、4 个专题）
-  - [M32 发布说明](2026-11-05-v0.32.0-m32.md)
+  - [中文商店元数据草稿](store-metadata.md)（已同步为 0.42.0、4 个专题）
+  - [M42 发布说明](2026-11-05-v0.42.0-m42.md)
   - [全项目收尾审计](2026-11-04-final-audit.md)
   - [部署指南](../guides/deployment.md)
   - [截图目录](screenshots/README.md)
@@ -119,7 +119,7 @@ Google Play 无关键词字段，依靠标题、短描述和长描述覆盖上�
 | In-app purchases | None | 已确定 |
 | Ads | None | 已确定 |
 
-### 1.9 What’s New（0.32.0）
+### 1.9 What’s New（0.42.0）
 
 > **More Anti-Japanese War campaigns, a built-in route QA command, and refreshed release documentation. Search and timeline behavior unchanged.**
 
@@ -135,7 +135,7 @@ Google Play 无关键词字段，依靠标题、短描述和长描述覆盖上�
 | 长描述 | 史迹 · 时空地图是一个通用历史事件时空地图平台。选择专题后，拖动或播放时间轴，观察路线随历史推进而生长；点击节点查看事件详情、史料来源与关联事件。平台不绑定单一历史叙事，专题以数据包接入，可扩展至更多历史主题。当前专题：长征（1934—1936）、郑和下西洋（1405—1433）、丝绸之路·玄奘西行（629—645）、抗日战争（1931—1945）。地图服务由高德地图提供，当前版本不申请定位权限。历史数据为示意初稿，仅供学习与探索，请以引用史料为准。 |
 | 分类 | 教育 / 参考 |
 
-> 中文文案中的专题数量、版本信息必须与英文版一致；[store-metadata.md](store-metadata.md) 已同步为「四个专题 / 0.32.0」。
+> 中文文案中的专题数量、版本信息必须与英文版一致；[store-metadata.md](store-metadata.md) 已同步为「四个专题 / 0.42.0」。
 
 ---
 
@@ -147,8 +147,8 @@ Google Play 无关键词字段，依靠标题、短描述和长描述覆盖上�
 | Bundle ID / package | `com.openchronicle.atlas` | `com.openchronicle.atlas` |
 | 商店显示名 | OpenChronicle Atlas | OpenChronicle Atlas |
 | 设备桌面名 | 史迹（`CFBundleDisplayName`） | 史迹（`app_name`） |
-| 版本号（源配置） | `CFBundleShortVersionString` 为 **0.32.0** | `versionName` 为 **0.32.0** |
-| 构建号 | `CFBundleVersion` 为 **29**，每次上传必须递增 | `versionCode` 为 **29**，每次上传必须递增 |
+| 版本号（源配置） | `CFBundleShortVersionString` 为 **0.42.0** | `versionName` 为 **0.42.0** |
+| 构建号 | `CFBundleVersion` 为 **39**，每次上传必须递增 | `versionCode` 为 **39**，每次上传必须递增 |
 | 最低系统 | iOS 16.4（`IPHONEOS_DEPLOYMENT_TARGET` 与 `LSMinimumSystemVersion` 均为 16.4） | Android 7.0 / API 24（`minSdkVersion 24`） |
 | 目标 SDK | 以当前 Xcode 正式版为准 | `targetSdkVersion 36` |
 | 架构 | 要求 arm64；AMap iOS SDK 无 arm64 模拟器切片，**必须真机验证** | 确认包含 64 位；Play 要求 64 位 |
@@ -159,9 +159,9 @@ Google Play 无关键词字段，依靠标题、短描述和长描述覆盖上�
 | 深链 scheme | `atlas://`、`com.openchronicle.atlas://` | `atlas://` |
 | 定位权限 | 未申请（Info.plist 无 `NSLocation*`） | 未申请（manifest 用 `tools:node="remove"` 移除粗略/精确定位） |
 | 明文 HTTP | ATS 默认阻断；仅允许本地网络调试 | `usesCleartextTraffic="false"` 已关闭 |
-| 当前发布状态 | ⛔ 无账号/证书/真机，未产出 IPA | ⚠️ 源配置为 0.32.0 / versionCode 29，但上次实际 APK 为 0.5.0 / versionCode 2，需重建 |
+| 当前发布状态 | ⛔ 无账号/证书/真机，未产出 IPA | ⚠️ 源配置为 0.42.0 / versionCode 39，但上次实际 APK 为 0.5.0 / versionCode 2，需重建 |
 
-> **版本号已对齐**：iOS `0.32.0 (29)`、Android `0.32.0 (29)`。archive 前仍需确认构建产物中的版本号。
+> **版本号已对齐**：iOS `0.42.0 (39)`、Android `0.42.0 (39)`。archive 前仍需确认构建产物中的版本号。
 > 最低系统已统一为 iOS 16.4（`IPHONEOS_DEPLOYMENT_TARGET` 与 `LSMinimumSystemVersion` 一致）。
 
 ---
@@ -334,7 +334,7 @@ Google Play 无关键词字段，依靠标题、短描述和长描述覆盖上�
 | 风险 | 说明 | 处理 |
 | --- | --- | --- |
 | 截图非真机 | 当前为 Web 占位图，商店可能拒审 | 真机重拍后再提交 |
-| iOS 版本号 | 已对齐 0.32.0 / build 29 | 无 |
+| iOS 版本号 | 已对齐 0.42.0 / build 39 | 无 |
 | `SYSTEM_ALERT_WINDOW` | 已在 `blockedPermissions` 屏蔽 | 无 |
 | 明文流量 | Android `usesCleartextTraffic=false` | 已关闭 |
 | 高德商用许可 | 未确认 | 取得书面许可后再公开上架 |
@@ -358,7 +358,7 @@ Google Play 无关键词字段，依靠标题、短描述和长描述覆盖上�
 | U8 | 著作权主体/版权行文案 | Copyright 字段 | 待确认 |
 | U9 | 是否支持 iPad/Android 平板 | 截图与布局范围 | 待确认 |
 | U10 | 是否做中国大陆发行 | APP 备案、审图号、商店选择 | 待确认 |
-| U11 | 确认 `v0.32.0-m32` 的双仓 tag | 发布与双仓 tag | 待确认 |
+| U11 | 确认 `v0.42.0-m42` 的双仓 tag | 发布与双仓 tag | 待确认 |
 
 ---
 

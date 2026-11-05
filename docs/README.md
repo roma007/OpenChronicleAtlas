@@ -188,6 +188,7 @@ docs/
 - [抗日战争数据草稿 QA](releases/2026-11-05-抗日战争数据草稿QA.md)
 - [抗日战争史料与坐标校订](releases/2026-11-05-抗日战争史料与坐标校订.md)
 - [长征/郑和/玄奘史料与坐标校订](releases/2026-11-05-三专题史料与坐标校订.md)
+- [四专题史料校订总表](releases/2026-11-05-四专题史料校订总表.md)
 - [全项目收尾审计（M1–M5）](releases/2026-11-04-final-audit.md)
 - [商店上架元数据（草稿）](releases/store-metadata.md)
 - [商店截图（准备中）](releases/screenshots/README.md)
