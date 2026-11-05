@@ -1,7 +1,7 @@
 # 发布前检查清单（M20）
 
 - **日期**：2026-11-05
-- **适用版本**：源码 `0.20.0`；M20 发布说明已定为 `v0.20.0-m20`，双仓 tag 待创建/确认
+- **适用版本**：源码 `0.20.0`；M20 发布说明 `v0.20.0-m20`，双仓 tag 已创建
 - **范围**：iOS / Android / Web / 合规 / 文档与回滚
 - **状态**：**未达发布条件**。五项外部阻塞（iOS 账号、真机、商店账号、正式域名、高德商用许可）未解除
 - **关联文档**：
@@ -21,8 +21,8 @@
 
 | 项目 | 现状 | 证据 |
 | --- | --- | --- |
-| 分支 / HEAD | `main` / `9183bbf` | `git log` |
-| 最新 tag | `v0.19.0-m19`（M20 发布说明已写 `v0.20.0-m20`，tag 尚未创建） | `git tag` |
+| 分支 / HEAD | `main`（最终提交以 `git log` 为准） | `git log` |
+| 最新 tag | `v0.20.0-m20` | `git tag` |
 | 双仓 remote | `origin` 双 pushurl（GitHub + Gitee），另有 `gitee` fetch | `git remote -v` |
 | 源码版本 | 根包 / Web / Shared / Mobile 均为 `0.20.0` | `package.json` |
 | Android 源配置 | `versionName 0.20.0` / `versionCode 17` | `apps/mobile/android/app/build.gradle` |
@@ -363,11 +363,11 @@
 
 ### 6.3 双仓与 tag
 
-- [ ] 最终提交已评审，工作区干净
-- [x] 版本号与 tag 名称已确认（发布说明为 `v0.20.0-m20`；tag 待创建）
-- [ ] GitHub `main` 与 Gitee `master`/`main` 同步
-- [ ] 双仓均推送 tag，且指向同一 commit
-- [ ] `git ls-remote` 校验两仓 refs 一致
+- [x] 最终提交已评审，工作区干净
+- [x] 版本号与 tag 名称已确认（`v0.20.0-m20`）
+- [x] GitHub `main` 与 Gitee `master`/`main` 同步
+- [x] 双仓均推送 tag，且指向同一 commit
+- [x] `git ls-remote` 校验两仓 refs 一致
 - [ ] Release notes 关联 tag、commit、构建产物
 - [ ] 构建产物校验和（APK/AAB/IPA）记录并归档
 
