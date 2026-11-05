@@ -26,7 +26,7 @@
 | 双仓 remote | `origin` 双 pushurl（GitHub + Gitee），另有 `gitee` fetch | `git remote -v` |
 | 源码版本 | 根包 / Web / Shared / Mobile 均为 `0.42.0` | `package.json` |
 | Android 源配置 | `versionName 0.42.0` / `versionCode 39` | `apps/mobile/android/app/build.gradle` |
-| Android 上次产物 | `0.5.0` / `versionCode 2` 的 APK；**0.42.0 APK 未重建** | 全项目审计 + `output-metadata.json` |
+| Android 上次产物 | `0.5.0` / `versionCode 2` 的 APK；**0.42.0 构建失败：dl.google.com 依赖下载超时** | 全项目审计 + Gradle 日志 |
 | iOS 源配置 | `CFBundleShortVersionString 0.42.0` / `CFBundleVersion 39`；已对齐 | `apps/mobile/ios/app/Info.plist` |
 | iOS 产物 | 无 IPA；AMap iOS SDK 无 arm64 模拟器切片 | 全项目审计 |
 | 专题数据（应用内） | 4 个已索引专题 / 118 事件 / 127 路线段 | `data/atlases/index.json` 及 manifest 统计 |
@@ -57,7 +57,7 @@
 | 编号 | 待办 | 当前状态 | 说明 |
 | --- | --- | --- | --- |
 | B6 | iOS 版本号对齐 | ✅ `0.42.0 (39)` | 已对齐 |
-| B7 | Android 0.42.0 APK/AAB 重建 | ⚠️ 仅有 0.5.0 APK | 重建后真机验收 |
+| B7 | Android 0.42.0 APK/AAB 重建 | ⚠️ 构建失败：dl.google.com 依赖下载超时 | 网络恢复后重试 |
 | B8 | 真机截图替换 | ⛔ 依赖 B2 | 当前为 Web 占位图 |
 | B9 | Web 安全密钥重置 | ⚠️ 曾出现在临时构建/聊天 | 重置 `securityJsCode`，配置代理 |
 | B10 | Android 敏感权限清理 | ✅ 已在 `blockedPermissions` 屏蔽 | 已处理 |
@@ -167,7 +167,7 @@
 
 - [x] `versionName` 为 `0.42.0`
 - [x] `versionCode` 为 `39`；若已上传过同码，必须递增
-- [ ] ⚠️ 重新构建 0.42.0 release 产物（当前仅有 0.5.0 APK）
+- [ ] ⚠️ 重新构建 0.42.0 release 产物（2026-11-05 尝试失败：dl.google.com 依赖下载超时）
 - [ ] Play 上传使用 `.aab`；侧载/国内商店按需提供 `.apk`
 - [ ] Release 签名生效，安装包签名校验通过
 - [ ] `minifyEnabled` / `shrinkResources` 策略确认（当前关闭；开启后需回归地图/反射/序列化）
