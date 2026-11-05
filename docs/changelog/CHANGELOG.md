@@ -16,6 +16,30 @@
 
 ---
 
+## [v0.25.0-m25] - 2026-11-05
+
+### Added
+- 构建期搜索索引 `data/atlases/search-index.json`（4 专题 / 103 事件 / 270.2 KB）。
+- `build:search-index` 脚本与 Vercel 构建集成。
+- 共享 `loadSearchIndex` 与 `SearchIndexFile` 类型。
+
+### Changed
+- Web / 移动端搜索页只请求索引文件，不再加载全部专题数据。
+- `SearchEntry.atlasTitle` 改为多语言对象，英文界面显示英文专题名。
+- 搜索拼音在构建期写入，运行时不再加载 pinyin-pro。
+- 四包版本统一为 `0.25.0`；Android `versionCode` 升为 22；iOS build 22。
+
+### Fixed
+- 修复搜索页随专题增多而线性加载全部数据的问题。
+
+### Docs
+- `docs/plans/2026-11-05-M25-构建期搜索索引-plan.md`
+- `docs/plans/2026-11-05-M25-构建期搜索索引-design.md`
+- `docs/releases/2026-11-05-v0.25.0-m25.md`
+- `docs/conversations/2026-11-05-M25启动与构建期搜索索引.md`
+
+---
+
 ## [v0.24.0-m24] - 2026-11-05
 
 ### Added
