@@ -155,7 +155,7 @@ export function SearchScreen({ navigation }: Props) {
             <Pressable style={styles.result} onPress={() => openHit(item)}>
               <View style={styles.resultTitleRow}>
                 <Text style={styles.resultTitle}>{resolveLocalized(item.event.name, locale)}</Text>
-                <Text style={styles.resultDate}>{item.event.date}</Text>
+                <Text style={styles.resultDate}>{item.event.date.replace(/^0+/, '')}</Text>
               </View>
               <Text style={styles.resultSnippet} numberOfLines={2}>
                 {item.snippet}

@@ -195,7 +195,7 @@ export function SearchPage() {
                   <Highlight text={resolveLocalized(hit.event.name, locale)} query={debounced} />
                 </span>
                 <span className="shrink-0 text-[11px] tabular-nums text-ink-soft/60">
-                  {hit.event.date}
+                  {hit.event.date.replace(/^0+/, '')}
                 </span>
               </div>
 

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "xuanzang",
+  "title": {
+    "zh": "丝绸之路：玄奘西行",
+    "en": "Silk Road: Xuanzang’s Journey"
+  },
+  "subtitle": {
+    "zh": "629—645",
+    "en": "629–645"
+  },
+  "timeRange": {
+    "start": "0629-08-01",
+    "end": "0645-01-24"
+  },
+  "cover": "assets/cover.jpg",
+  "description": {
+    "zh": "629 年至 645 年，唐代高僧玄奘从长安出发，经河西走廊、西域、中亚进入印度，在那烂陀寺求学，后携佛经归国。\n\n> 本数据为 M18 示例初稿：路线为示意简化，事件日期、地点与表述待史料校订。",
+    "en": "From 629 to 645, the Tang monk Xuanzang traveled from Chang’an through the Hexi Corridor, the Western Regions, and Central Asia to India, studied at Nalanda, and returned with Buddhist scriptures.\n\n> M18 illustrative draft: routes are simplified; dates, places, and wording await historical review."
+  },
+  "defaultView": {
+    "center": [
+      82,
+      34
+    ],
+    "zoom": 3.5
+  },
+  "routes": [
+    "routes/journey.geojson"
+  ],
+  "events": [
+    "events/events.json"
+  ],
+  "entities": [
+    {
+      "id": "xuanzang",
+      "name": {
+        "zh": "玄奘",
+        "en": "Xuanzang"
+      },
+      "color": "#8c2f24",
+      "order": 1,
+      "description": {
+        "zh": "唐代高僧，西行求法十七年。",
+        "en": "A Tang dynasty monk who traveled west for seventeen years in search of Buddhist scriptures."
+      }
+    }
+  ],
+  "tags": [
+    "中国历史",
+    "丝绸之路",
+    "佛教"
+  ],
+  "license": "CC-BY-4.0（数据初稿，待校订）",
+  "updatedAt": "2026-11-05"
+}

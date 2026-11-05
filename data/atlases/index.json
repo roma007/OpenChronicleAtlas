@@ -44,6 +44,28 @@
         "明代"
       ],
       "path": "zheng-he/manifest.json"
+    },
+    {
+      "id": "xuanzang",
+      "title": {
+        "zh": "丝绸之路：玄奘西行",
+        "en": "Silk Road: Xuanzang’s Journey"
+      },
+      "subtitle": {
+        "zh": "629—645",
+        "en": "629–645"
+      },
+      "cover": "xuanzang/assets/cover.jpg",
+      "timeRange": {
+        "start": "0629-08-01",
+        "end": "0645-01-24"
+      },
+      "tags": [
+        "中国历史",
+        "丝绸之路",
+        "佛教"
+      ],
+      "path": "xuanzang/manifest.json"
     }
   ]
 }

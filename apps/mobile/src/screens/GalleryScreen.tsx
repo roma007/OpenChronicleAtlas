@@ -106,6 +106,8 @@ export function GalleryScreen({ navigation }: Props) {
         }
         renderItem={({ item }) => {
           const title = resolveLocalized(item.title, locale);
+          const startYear = String(Number(item.timeRange.start.slice(0, 4)));
+          const endYear = String(Number(item.timeRange.end.slice(0, 4)));
           return (
             <Pressable
               style={styles.card}
@@ -128,7 +130,7 @@ export function GalleryScreen({ navigation }: Props) {
                 <View style={styles.cardTitleRow}>
                   <Text style={styles.cardTitle}>{title}</Text>
                   <Text style={styles.cardYears}>
-                    {item.timeRange.start.slice(0, 4)} — {item.timeRange.end.slice(0, 4)}
+                    {startYear} — {endYear}
                   </Text>
                 </View>
                 {item.subtitle ? (

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3ead9"/>
+      <stop offset="1" stop-color="#e0cda8"/>
+    </linearGradient>
+    <linearGradient id="dune" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c9a66b"/>
+      <stop offset="1" stop-color="#a97d43"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <circle cx="960" cy="150" r="78" fill="#c47f2a" opacity="0.28"/>
+  <circle cx="960" cy="150" r="52" fill="#b8863b" opacity="0.5"/>
+  <path d="M0 520 C 180 440, 300 500, 430 455 C 560 410, 660 470, 780 420 C 930 355, 1040 390, 1200 320 L1200 675 L0 675 Z" fill="url(#dune)" opacity="0.55"/>
+  <path d="M0 590 C 220 520, 380 570, 540 520 C 720 465, 880 520, 1200 430 L1200 675 L0 675 Z" fill="#8a6d3b" opacity="0.28"/>
+  <path d="M90 520 C 240 470, 340 500, 460 430 C 580 360, 700 400, 820 330 C 940 260, 1030 270, 1120 210" fill="none" stroke="#8c2f24" stroke-width="5" stroke-linecap="round" stroke-dasharray="14 12"/>
+  <g fill="#8c2f24">
+    <circle cx="90" cy="520" r="9"/>
+    <circle cx="460" cy="430" r="8"/>
+    <circle cx="820" cy="330" r="8"/>
+    <circle cx="1120" cy="210" r="10"/>
+  </g>
+  <text x="80" y="130" font-family="Songti SC, STSong, serif" font-size="72" font-weight="700" fill="#231c15">玄奘西行</text>
+  <text x="84" y="178" font-family="Georgia, serif" font-size="22" letter-spacing="4" fill="#4a3d30">XUANZANG'S JOURNEY · 629—645</text>
+  <text x="84" y="235" font-family="Songti SC, STSong, serif" font-size="26" fill="#4a3d30">长安 → 那烂陀 → 长安</text>
+  <text x="84" y="275" font-family="Georgia, serif" font-size="18" fill="#4a3d30" opacity="0.8">Chang'an → Nalanda → Chang'an</text>
+  <text x="84" y="625" font-family="Georgia, serif" font-size="16" letter-spacing="3" fill="#f3ead9">OPENCHRONICLE ATLAS · 史迹 · 时空地图</text>
+</svg>

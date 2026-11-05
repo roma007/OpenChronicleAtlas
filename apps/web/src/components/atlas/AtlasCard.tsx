@@ -7,6 +7,8 @@ export function AtlasCard({ atlas }: { atlas: AtlasSummary }) {
   const { locale, t } = useI18n();
   const title = resolveLocalized(atlas.title, locale);
   const subtitle = resolveLocalized(atlas.subtitle, locale);
+  const startYear = String(Number(atlas.timeRange.start.slice(0, 4)));
+  const endYear = String(Number(atlas.timeRange.end.slice(0, 4)));
 
   return (
     <Link
@@ -27,7 +29,7 @@ export function AtlasCard({ atlas }: { atlas: AtlasSummary }) {
           </div>
         )}
         <span className="absolute right-3 top-3 rounded-full bg-ink/70 px-3 py-1 text-[11px] tracking-wider text-parchment">
-          {atlas.timeRange.start.slice(0, 4)} — {atlas.timeRange.end.slice(0, 4)}
+          {startYear} — {endYear}
         </span>
       </div>
 

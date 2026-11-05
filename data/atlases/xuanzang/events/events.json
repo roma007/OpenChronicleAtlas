@@ -1,0 +1,914 @@
+[
+  {
+    "id": "changan-629-08",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "长安出发",
+      "en": "Departure from Chang’an"
+    },
+    "date": "0629-08-01",
+    "location": {
+      "lng": 108.94,
+      "lat": 34.34,
+      "place": {
+        "zh": "长安",
+        "en": "Chang’an"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘从长安出发，踏上西行求法之路。",
+      "en": "Xuanzang leaves Chang’an on his pilgrimage to the west in search of Buddhist scriptures."
+    },
+    "description": {
+      "zh": "629 年秋，玄奘从长安出发，经秦州、兰州、凉州，向西域行进。",
+      "en": "In autumn 629, Xuanzang left Chang’an and traveled through Qinzhou, Lanzhou, and Liangzhou toward the Western Regions."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "qinzhou-629-09",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "秦州",
+      "en": "Qinzhou"
+    },
+    "date": "0629-09-01",
+    "location": {
+      "lng": 105.72,
+      "lat": 34.58,
+      "place": {
+        "zh": "秦州",
+        "en": "Qinzhou"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘抵达秦州，继续西行。",
+      "en": "Xuanzang reaches Qinzhou and continues west."
+    },
+    "description": {
+      "zh": "玄奘沿丝绸之路南道西行，抵达秦州。",
+      "en": "Xuanzang traveled west along the southern route of the Silk Road and reached Qinzhou."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "lanzhou-629-10",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "兰州",
+      "en": "Lanzhou"
+    },
+    "date": "0629-10-01",
+    "location": {
+      "lng": 103.83,
+      "lat": 36.06,
+      "place": {
+        "zh": "兰州",
+        "en": "Lanzhou"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘抵达兰州，渡过黄河。",
+      "en": "Xuanzang reaches Lanzhou and crosses the Yellow River."
+    },
+    "description": {
+      "zh": "玄奘经兰州渡黄河，继续向河西走廊前进。",
+      "en": "Xuanzang crossed the Yellow River at Lanzhou and continued toward the Hexi Corridor."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "liangzhou-629-11",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "凉州",
+      "en": "Liangzhou"
+    },
+    "date": "0629-11-01",
+    "location": {
+      "lng": 102.64,
+      "lat": 37.93,
+      "place": {
+        "zh": "凉州",
+        "en": "Liangzhou"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘抵达凉州，讲经并准备出关。",
+      "en": "Xuanzang reaches Liangzhou, preaches, and prepares to leave the frontier."
+    },
+    "description": {
+      "zh": "玄奘在凉州停留讲经，随后前往瓜州。",
+      "en": "Xuanzang stayed at Liangzhou to preach before heading to Guazhou."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "guazhou-629-12",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "瓜州",
+      "en": "Guazhou"
+    },
+    "date": "0629-12-01",
+    "location": {
+      "lng": 95.78,
+      "lat": 40.52,
+      "place": {
+        "zh": "瓜州",
+        "en": "Guazhou"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘抵达瓜州，准备偷渡玉门关。",
+      "en": "Xuanzang reaches Guazhou and prepares to cross Yumen Pass."
+    },
+    "description": {
+      "zh": "瓜州是唐代河西通往西域的要冲，玄奘在此准备出关。",
+      "en": "Guazhou was a key gateway from the Hexi Corridor to the Western Regions; Xuanzang prepared to cross the frontier there."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "yumen-630-01",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "玉门关",
+      "en": "Yumen Pass"
+    },
+    "date": "0630-01-01",
+    "location": {
+      "lng": 93.87,
+      "lat": 40.36,
+      "place": {
+        "zh": "玉门关",
+        "en": "Yumen Pass"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘夜渡玉门关，进入西域。",
+      "en": "Xuanzang crosses Yumen Pass at night and enters the Western Regions."
+    },
+    "description": {
+      "zh": "玄奘在向导帮助下绕过玉门关，进入莫贺延碛。",
+      "en": "With a guide, Xuanzang bypassed Yumen Pass and entered the Moheyan Desert."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "gaochang-630-02",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "高昌",
+      "en": "Gaochang"
+    },
+    "date": "0630-02-01",
+    "location": {
+      "lng": 89.19,
+      "lat": 42.95,
+      "place": {
+        "zh": "高昌",
+        "en": "Gaochang"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "高昌王麴文泰礼遇玄奘，资助西行。",
+      "en": "King Qu Wentai of Gaochang welcomes Xuanzang and supports his journey."
+    },
+    "description": {
+      "zh": "玄奘抵达高昌，高昌王麴文泰与之结为兄弟，提供人马与物资。",
+      "en": "Xuanzang reached Gaochang, where King Qu Wentai befriended him and provided men, horses, and supplies."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "yanqi-630-04",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "焉耆",
+      "en": "Karasahr"
+    },
+    "date": "0630-04-01",
+    "location": {
+      "lng": 86.57,
+      "lat": 42.06,
+      "place": {
+        "zh": "焉耆",
+        "en": "Karasahr"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘抵达焉耆，继续前往龟兹。",
+      "en": "Xuanzang reaches Karasahr and continues to Kucha."
+    },
+    "description": {
+      "zh": "玄奘经焉耆进入塔里木盆地北道。",
+      "en": "Xuanzang passed through Karasahr into the northern route of the Tarim Basin."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "kucha-630-06",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "龟兹",
+      "en": "Kucha"
+    },
+    "date": "0630-06-01",
+    "location": {
+      "lng": 82.96,
+      "lat": 41.72,
+      "place": {
+        "zh": "龟兹",
+        "en": "Kucha"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘抵达龟兹，参加无遮大会。",
+      "en": "Xuanzang reaches Kucha and attends a great assembly."
+    },
+    "description": {
+      "zh": "玄奘在龟兹停留，观察当地佛教与音乐，随后翻越凌山。",
+      "en": "Xuanzang stayed at Kucha, observed local Buddhism and music, and then crossed the Bedel Pass."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "lingshan-630-08",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "凌山",
+      "en": "Bedel Pass"
+    },
+    "date": "0630-08-01",
+    "location": {
+      "lng": 80.5,
+      "lat": 42.2,
+      "place": {
+        "zh": "凌山",
+        "en": "Bedel Pass"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘翻越凌山，进入中亚。",
+      "en": "Xuanzang crosses the Bedel Pass into Central Asia."
+    },
+    "description": {
+      "zh": "凌山即今别迭里山口，玄奘一行翻越天山，进入中亚草原。",
+      "en": "The Bedel Pass, known as Lingshan in Tang sources, took Xuanzang across the Tianshan into the Central Asian steppe."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "suyab-630-10",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "碎叶",
+      "en": "Suyab"
+    },
+    "date": "0630-10-01",
+    "location": {
+      "lng": 75.2,
+      "lat": 42.8,
+      "place": {
+        "zh": "碎叶",
+        "en": "Suyab"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘抵达碎叶，见到西突厥可汗。",
+      "en": "Xuanzang reaches Suyab and meets the Western Turkic khagan."
+    },
+    "description": {
+      "zh": "玄奘在碎叶见到西突厥统叶护可汗，获准继续西行。",
+      "en": "At Suyab, Xuanzang met the Western Turkic khagan Tong Yabghu and received permission to continue west."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "samarkand-630-12",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "撒马尔罕",
+      "en": "Samarkand"
+    },
+    "date": "0630-12-01",
+    "location": {
+      "lng": 66.96,
+      "lat": 39.65,
+      "place": {
+        "zh": "撒马尔罕",
+        "en": "Samarkand"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘抵达撒马尔罕，访问佛教寺院。",
+      "en": "Xuanzang reaches Samarkand and visits Buddhist monasteries."
+    },
+    "description": {
+      "zh": "撒马尔罕是粟特重镇，玄奘在此了解中亚佛教与商业。",
+      "en": "Samarkand was a major Sogdian city; Xuanzang studied Central Asian Buddhism and trade there."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "iron-gate-631-03",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "铁门",
+      "en": "Iron Gate"
+    },
+    "date": "0631-03-01",
+    "location": {
+      "lng": 66.9,
+      "lat": 38.2,
+      "place": {
+        "zh": "铁门",
+        "en": "Iron Gate"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘穿越铁门，进入吐火罗。",
+      "en": "Xuanzang passes through the Iron Gate into Tokharistan."
+    },
+    "description": {
+      "zh": "铁门是撒马尔罕以南的重要关隘，玄奘由此进入吐火罗地区。",
+      "en": "The Iron Gate was a key pass south of Samarkand; Xuanzang entered Tokharistan through it."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "bamiyan-631-06",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "巴米扬",
+      "en": "Bamiyan"
+    },
+    "date": "0631-06-01",
+    "location": {
+      "lng": 67.83,
+      "lat": 34.82,
+      "place": {
+        "zh": "巴米扬",
+        "en": "Bamiyan"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘抵达巴米扬，瞻仰大佛。",
+      "en": "Xuanzang reaches Bamiyan and visits the great Buddhas."
+    },
+    "description": {
+      "zh": "玄奘在巴米扬瞻仰石窟大佛，记录当地佛教盛况。",
+      "en": "At Bamiyan, Xuanzang visited the colossal cliff Buddhas and recorded the flourishing local Buddhism."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "kapisa-631-09",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "迦毕试",
+      "en": "Kapisa"
+    },
+    "date": "0631-09-01",
+    "location": {
+      "lng": 69.2,
+      "lat": 34.9,
+      "place": {
+        "zh": "迦毕试",
+        "en": "Kapisa"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘抵达迦毕试，继续向印度腹地前进。",
+      "en": "Xuanzang reaches Kapisa and continues into the Indian interior."
+    },
+    "description": {
+      "zh": "迦毕试是古代犍陀罗地区的重要佛教中心。",
+      "en": "Kapisa was an important Buddhist center in the ancient Gandhara region."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "nalanda-632-01",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "那烂陀",
+      "en": "Nalanda"
+    },
+    "date": "0632-01-01",
+    "location": {
+      "lng": 85.44,
+      "lat": 25.14,
+      "place": {
+        "zh": "那烂陀",
+        "en": "Nalanda"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘入那烂陀寺，师从戒贤。",
+      "en": "Xuanzang enters Nalanda Monastery and studies under Silabhadra."
+    },
+    "description": {
+      "zh": "玄奘在那烂陀寺学习瑜伽行派经典，成为著名僧人。",
+      "en": "Xuanzang studied Yogacara texts at Nalanda and became a renowned monk."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      },
+      {
+        "title": "《中国佛教史》",
+        "author": "任继愈",
+        "year": 1985,
+        "note": "那烂陀与印度佛教背景参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "kanauj-633-01",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "曲女城",
+      "en": "Kanauj"
+    },
+    "date": "0633-01-01",
+    "location": {
+      "lng": 79.9,
+      "lat": 27,
+      "place": {
+        "zh": "曲女城",
+        "en": "Kanauj"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "曲女城法会，玄奘声名远播。",
+      "en": "At the Kanauj assembly, Xuanzang’s reputation spreads."
+    },
+    "description": {
+      "zh": "戒日王在曲女城举行法会，玄奘参与论辩，声名远播。",
+      "en": "King Harsha held a great assembly at Kanauj, where Xuanzang took part in debates and won wide renown."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      },
+      {
+        "title": "《中国佛教史》",
+        "author": "任继愈",
+        "year": 1985,
+        "note": "曲女城法会背景参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "return-635-01",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "启程归国",
+      "en": "Departure for home"
+    },
+    "date": "0635-01-01",
+    "location": {
+      "lng": 85.44,
+      "lat": 25.14,
+      "place": {
+        "zh": "那烂陀",
+        "en": "Nalanda"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘从那烂陀启程归国。",
+      "en": "Xuanzang sets out from Nalanda for China."
+    },
+    "description": {
+      "zh": "635 年，玄奘携带大量佛经与佛像，踏上归途。",
+      "en": "In 635, Xuanzang began his return journey with a large collection of scriptures and Buddhist images."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "khotan-643-01",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "于阗",
+      "en": "Khotan"
+    },
+    "date": "0643-01-01",
+    "location": {
+      "lng": 79.92,
+      "lat": 37.11,
+      "place": {
+        "zh": "于阗",
+        "en": "Khotan"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘抵达于阗，等待朝廷准许归国。",
+      "en": "Xuanzang reaches Khotan and waits for permission to return."
+    },
+    "description": {
+      "zh": "玄奘经帕米尔高原抵达于阗，上表请求归国。",
+      "en": "Xuanzang crossed the Pamirs to Khotan and sent a memorial requesting permission to return to China."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "changan-645-01",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "归抵长安",
+      "en": "Return to Chang’an"
+    },
+    "date": "0645-01-24",
+    "location": {
+      "lng": 108.94,
+      "lat": 34.34,
+      "place": {
+        "zh": "长安",
+        "en": "Chang’an"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘回到长安，带回大量佛经。",
+      "en": "Xuanzang returns to Chang’an with a large collection of Buddhist scriptures."
+    },
+    "description": {
+      "zh": "645 年，玄奘回到长安，受到盛大欢迎，随后主持译经。",
+      "en": "In 645, Xuanzang returned to Chang’an to a grand welcome and later led the translation of Buddhist texts."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": []
+  }
+]
