@@ -16,6 +16,29 @@
 
 ---
 
+## [v0.22.0-m22] - 2026-11-05
+
+### Added
+- `pnpm check:versions` 三端版本一致性检查脚本。
+
+### Changed
+- iOS `CFBundleShortVersionString` 对齐 0.22.0，build 19，最低系统 16.4。
+- Android 主 manifest 关闭明文流量、移除悬浮窗权限；debug manifest 保留调试配置。
+- `app.config.ts` 同步 `usesCleartextTraffic: false` 与 `blockedPermissions`。
+- 四包版本统一为 `0.22.0`；Android `versionCode` 升为 19。
+
+### Fixed
+- 修复 iOS 版本仍为 0.5.0、与源码不一致的问题。
+- 修复 Android 生产 manifest 允许明文流量与保留悬浮窗权限的问题。
+
+### Docs
+- `docs/plans/2026-11-05-M22-发布阻塞项内部修复-plan.md`
+- `docs/plans/2026-11-05-M22-发布阻塞项内部修复-design.md`
+- `docs/releases/2026-11-05-v0.22.0-m22.md`
+- `docs/conversations/2026-11-05-M22启动与发布阻塞项修复.md`
+
+---
+
 ## [v0.21.0-m21] - 2026-11-05
 
 ### Added
