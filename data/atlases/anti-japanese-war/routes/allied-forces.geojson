@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [102.83, 24.88],
+          [97.75, 22.94],
+          [96.08, 21.98],
+          [93.94, 24.82]
+        ]
+      },
+      "properties": {
+        "entityId": "allied-forces",
+        "startDate": "1942-02-01",
+        "endDate": "1942-08-01",
+        "order": 1,
+        "name": {
+          "zh": "中国远征军入缅与撤往印度",
+          "en": "Chinese Expeditionary Force enters Burma and withdraws to India"
+        },
+        "description": {
+          "zh": "示意初稿，待史料校订：远征军自昆明入缅作战，失利后部分撤往印度。",
+          "en": "Illustrative draft pending historical review: the expeditionary force entered Burma from Kunming and, after setbacks, partly withdrew to India."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [95.74, 27.3],
+          [97.4, 25.38],
+          [97.24, 24.27],
+          [97.75, 22.94],
+          [96.08, 21.98]
+        ]
+      },
+      "properties": {
+        "entityId": "allied-forces",
+        "startDate": "1943-10-01",
+        "endDate": "1945-03-20",
+        "order": 2,
+        "name": {
+          "zh": "缅北反攻",
+          "en": "Northern Burma Counteroffensive"
+        },
+        "description": {
+          "zh": "示意初稿，待史料校订：中国驻印军与盟军自印度利多反攻缅北，1945 年 3 月收复曼德勒。",
+          "en": "Illustrative draft pending historical review: Chinese forces in India and Allied troops counterattacked from Ledo, recovering Mandalay in March 1945."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="抗日战争 1931—1945 专题封面">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eee3d0"/>
+      <stop offset="0.55" stop-color="#dfcfb4"/>
+      <stop offset="1" stop-color="#c4ad8c"/>
+    </linearGradient>
+    <pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.7" fill="#7a6248" opacity="0.12"/>
+      <circle cx="4" cy="4" r="0.5" fill="#5c452c" opacity="0.1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#paper)"/>
+  <rect width="1200" height="675" fill="url(#grain)"/>
+
+  <!-- 日军进攻方向 -->
+  <path d="M 250 150 C 330 190, 360 250, 430 285 S 520 330, 585 390"
+        fill="none" stroke="#7a2e2e" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+  <!-- 中国抗战力量 -->
+  <path d="M 760 470 C 700 420, 660 360, 610 330 S 520 300, 470 250"
+        fill="none" stroke="#b8863b" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  <!-- 盟军 / 远征军 -->
+  <path d="M 930 500 C 880 450, 840 400, 790 370 S 700 330, 650 300"
+        fill="none" stroke="#3f6b7d" stroke-width="6" stroke-linecap="round" opacity="0.65"/>
+
+  <circle cx="250" cy="150" r="9" fill="#7a2e2e"/>
+  <circle cx="470" cy="250" r="9" fill="#b8863b"/>
+  <circle cx="930" cy="500" r="9" fill="#3f6b7d"/>
+  <circle cx="585" cy="390" r="5" fill="#7a2e2e" opacity="0.8"/>
+  <circle cx="760" cy="470" r="5" fill="#b8863b" opacity="0.9"/>
+
+  <text x="120" y="190" font-family="Songti SC, STSong, Noto Serif SC, serif" font-size="120" font-weight="700" fill="#2b2119" letter-spacing="14">抗日战争</text>
+  <text x="124" y="252" font-family="Songti SC, STSong, Noto Serif SC, serif" font-size="34" fill="#6b4f32" letter-spacing="6">1931 — 1945</text>
+  <text x="124" y="302" font-family="PingFang SC, Helvetica Neue, sans-serif" font-size="20" fill="#7a6248" letter-spacing="2">十四年抗战 · 时空地图　OpenChronicle Atlas</text>
+
+  <g opacity="0.5">
+    <line x1="120" y1="610" x2="1080" y2="610" stroke="#8b7355" stroke-width="1"/>
+    <text x="120" y="640" font-family="PingFang SC, sans-serif" font-size="16" fill="#7a6248">示意图 · 数据待史料校订</text>
+  </g>
+</svg>

@@ -1,0 +1,82 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [116.21, 39.85],
+          [117.2, 39.13],
+          [121.47, 31.23]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1937-07-07",
+        "endDate": "1937-08-13",
+        "order": 1,
+        "name": {
+          "zh": "平津抵抗与淞沪会战",
+          "en": "Resistance at Beiping–Tianjin and the Battle of Shanghai"
+        },
+        "description": {
+          "zh": "示意初稿，待史料校订：第 29 军守卢沟桥、平津，随后战事扩大至上海。",
+          "en": "Illustrative draft pending historical review: the 29th Army defended the Marco Polo Bridge and Beiping–Tianjin before fighting spread to Shanghai."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [121.47, 31.23],
+          [118.8, 32.06],
+          [117.18, 34.26],
+          [114.3, 30.59],
+          [106.55, 29.56]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1937-08-13",
+        "endDate": "1938-10-25",
+        "order": 2,
+        "name": {
+          "zh": "淞沪—南京—武汉—重庆",
+          "en": "Shanghai–Nanjing–Wuhan–Chongqing"
+        },
+        "description": {
+          "zh": "示意初稿，待史料校订：淞沪会战后中国军队西撤，国民政府机关逐步迁往重庆。",
+          "en": "Illustrative draft pending historical review: after Shanghai, Chinese forces withdrew west and government organs gradually relocated to Chongqing."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [110.29, 25.27],
+          [109.41, 24.33],
+          [108.32, 22.82]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1945-05-01",
+        "endDate": "1945-08-15",
+        "order": 3,
+        "name": {
+          "zh": "桂柳反攻",
+          "en": "Guilin–Liuzhou Counteroffensive"
+        },
+        "description": {
+          "zh": "示意初稿，待史料校订：1945 年夏中国军队在广西发起局部反攻，先后收复桂柳、南宁。",
+          "en": "Illustrative draft pending historical review: in summer 1945 Chinese forces counterattacked in Guangxi and recovered Guilin, Liuzhou, and Nanning."
+        }
+      }
+    }
+  ]
+}
