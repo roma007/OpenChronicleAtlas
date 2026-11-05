@@ -143,8 +143,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            114.8,
-            30.8
+            117.05,
+            30.53
+          ],
+          [
+            116,
+            29.7
+          ],
+          [
+            115.68,
+            29.67
+          ],
+          [
+            115.21,
+            29.83
           ],
           [
             114.3,
@@ -154,16 +166,16 @@
       },
       "properties": {
         "entityId": "japanese-invasion",
-        "startDate": "1938-10-25",
+        "startDate": "1938-06-12",
         "endDate": "1938-10-25",
         "order": 5,
         "name": {
-          "zh": "武汉",
-          "en": "Wuhan"
+          "zh": "武汉会战",
+          "en": "Battle of Wuhan"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
+          "en": "Campaign route based on common historical maps; page-level verification pending."
         }
       }
     },
