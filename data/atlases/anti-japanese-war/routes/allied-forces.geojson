@@ -6,10 +6,22 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [102.83, 24.88],
-          [97.75, 22.94],
-          [96.08, 21.98],
-          [93.94, 24.82]
+          [
+            102.83,
+            24.88
+          ],
+          [
+            97.75,
+            22.94
+          ],
+          [
+            96.08,
+            21.98
+          ],
+          [
+            93.94,
+            24.82
+          ]
         ]
       },
       "properties": {
@@ -18,12 +30,12 @@
         "endDate": "1942-08-01",
         "order": 1,
         "name": {
-          "zh": "中国远征军入缅与撤往印度",
-          "en": "Chinese Expeditionary Force enters Burma and withdraws to India"
+          "zh": "云南—印度",
+          "en": "Yunnan–India"
         },
         "description": {
-          "zh": "示意初稿，待史料校订：远征军自昆明入缅作战，失利后部分撤往印度。",
-          "en": "Illustrative draft pending historical review: the expeditionary force entered Burma from Kunming and, after setbacks, partly withdrew to India."
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
         }
       }
     },
@@ -32,11 +44,26 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [95.74, 27.3],
-          [97.4, 25.38],
-          [97.24, 24.27],
-          [97.75, 22.94],
-          [96.08, 21.98]
+          [
+            95.74,
+            27.3
+          ],
+          [
+            97.4,
+            25.38
+          ],
+          [
+            97.24,
+            24.27
+          ],
+          [
+            97.75,
+            22.94
+          ],
+          [
+            96.08,
+            21.98
+          ]
         ]
       },
       "properties": {
@@ -49,8 +76,38 @@
           "en": "Northern Burma Counteroffensive"
         },
         "description": {
-          "zh": "示意初稿，待史料校订：中国驻印军与盟军自印度利多反攻缅北，1945 年 3 月收复曼德勒。",
-          "en": "Illustrative draft pending historical review: Chinese forces in India and Allied troops counterattacked from Ledo, recovering Mandalay in March 1945."
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.5,
+            25.1
+          ],
+          [
+            98.79,
+            24.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "allied-forces",
+        "startDate": "1944-06-04",
+        "endDate": "1944-06-04",
+        "order": 3,
+        "name": {
+          "zh": "松山",
+          "en": "Songshan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
         }
       }
     }

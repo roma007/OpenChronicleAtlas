@@ -66,6 +66,29 @@
         "佛教"
       ],
       "path": "xuanzang/manifest.json"
+    },
+    {
+      "id": "anti-japanese-war",
+      "title": {
+        "zh": "抗日战争",
+        "en": "The War of Resistance Against Japan"
+      },
+      "subtitle": {
+        "zh": "1931—1945",
+        "en": "1931–1945"
+      },
+      "cover": "anti-japanese-war/assets/cover.jpg",
+      "timeRange": {
+        "start": "1931-09-18",
+        "end": "1945-09-02"
+      },
+      "tags": [
+        "中国近代史",
+        "军事",
+        "抗日战争",
+        "第二次世界大战"
+      ],
+      "path": "anti-japanese-war/manifest.json"
     }
   ]
 }

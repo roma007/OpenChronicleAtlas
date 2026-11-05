@@ -6,10 +6,22 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [123.43, 41.8],
-          [124.8, 43.2],
-          [125.32, 43.82],
-          [126.53, 45.8]
+          [
+            123.43,
+            41.8
+          ],
+          [
+            124.8,
+            43.2
+          ],
+          [
+            125.32,
+            43.82
+          ],
+          [
+            126.53,
+            45.8
+          ]
         ]
       },
       "properties": {
@@ -18,12 +30,12 @@
         "endDate": "1932-02-05",
         "order": 1,
         "name": {
-          "zh": "九一八事变后侵占东北",
-          "en": "Occupation of the Northeast after the Mukden Incident"
+          "zh": "沈阳—哈尔滨",
+          "en": "Shenyang–Harbin"
         },
         "description": {
-          "zh": "示意初稿，待史料校订：自沈阳沿铁路北犯，1932 年 2 月占领哈尔滨。",
-          "en": "Illustrative draft pending historical review: advance north along the railway from Shenyang, occupying Harbin in February 1932."
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
         }
       }
     },
@@ -32,24 +44,66 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [116.21, 39.85],
-          [117.2, 39.13],
-          [121.47, 31.23],
-          [118.8, 32.06]
+          [
+            122,
+            31.4
+          ],
+          [
+            121.47,
+            31.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1932-01-28",
+        "endDate": "1932-01-28",
+        "order": 2,
+        "name": {
+          "zh": "上海（一·二八）",
+          "en": "Shanghai (January 28 Incident)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.21,
+            39.85
+          ],
+          [
+            117.2,
+            39.13
+          ],
+          [
+            117.2,
+            34.2
+          ],
+          [
+            118.8,
+            32.06
+          ]
         ]
       },
       "properties": {
         "entityId": "japanese-invasion",
         "startDate": "1937-07-07",
         "endDate": "1937-12-13",
-        "order": 2,
+        "order": 3,
         "name": {
-          "zh": "全面侵华：平津—淞沪—南京",
-          "en": "Full-scale invasion: Beiping–Tianjin, Shanghai, Nanjing"
+          "zh": "北平—南京",
+          "en": "Beiping–Nanjing"
         },
         "description": {
-          "zh": "示意初稿，待史料校订：自卢沟桥事变后南下，经平津、淞沪进攻南京。",
-          "en": "Illustrative draft pending historical review: advance south after the Marco Polo Bridge Incident, through Beiping–Tianjin and Shanghai to Nanjing."
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
         }
       }
     },
@@ -58,24 +112,28 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [118.8, 32.06],
-          [117.18, 34.26],
-          [114.3, 30.59],
-          [113.26, 23.13]
+          [
+            113.8,
+            22.8
+          ],
+          [
+            113.26,
+            23.13
+          ]
         ]
       },
       "properties": {
         "entityId": "japanese-invasion",
-        "startDate": "1937-12-13",
-        "endDate": "1938-10-25",
-        "order": 3,
+        "startDate": "1938-10-21",
+        "endDate": "1938-10-21",
+        "order": 4,
         "name": {
-          "zh": "沿长江与华南推进",
-          "en": "Advance along the Yangtze and into South China"
+          "zh": "广州",
+          "en": "Guangzhou"
         },
         "description": {
-          "zh": "示意初稿，待史料校订：1938 年日军沿长江进攻武汉，并于 10 月 21 日占领广州。",
-          "en": "Illustrative draft pending historical review: Japanese forces advanced up the Yangtze toward Wuhan in 1938 and took Guangzhou on 21 October."
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
         }
       }
     },
@@ -84,26 +142,74 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [113.66, 34.9],
-          [114.3, 30.59],
-          [112.94, 28.23],
-          [112.57, 26.89],
-          [110.29, 25.27],
-          [108.32, 22.82]
+          [
+            114.8,
+            30.8
+          ],
+          [
+            114.3,
+            30.59
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-25",
+        "endDate": "1938-10-25",
+        "order": 5,
+        "name": {
+          "zh": "武汉",
+          "en": "Wuhan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.66,
+            34.9
+          ],
+          [
+            114.3,
+            30.59
+          ],
+          [
+            112.94,
+            28.23
+          ],
+          [
+            112.57,
+            26.89
+          ],
+          [
+            110.29,
+            25.27
+          ],
+          [
+            108.32,
+            22.82
+          ]
         ]
       },
       "properties": {
         "entityId": "japanese-invasion",
         "startDate": "1944-04-17",
         "endDate": "1944-11-24",
-        "order": 4,
+        "order": 6,
         "name": {
-          "zh": "豫湘桂战役进攻方向",
-          "en": "Operation Ichi-Go advance"
+          "zh": "豫湘桂—南宁",
+          "en": "Henan–Hunan–Guangxi–Nanning"
         },
         "description": {
-          "zh": "示意初稿，待史料校订：1944 年日军发动豫湘桂战役，自河南沿湘桂铁路南犯至南宁。",
-          "en": "Illustrative draft pending historical review: the 1944 Ichi-Go offensive pushed south from Henan along the Hunan–Guangxi railway to Nanning."
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
         }
       }
     }

@@ -9,6 +9,8 @@ const TAG_LABELS: Record<string, { zh: string; en: string }> = {
   明代: { zh: '明代', en: 'Ming dynasty' },
   丝绸之路: { zh: '丝绸之路', en: 'Silk Road' },
   佛教: { zh: '佛教', en: 'Buddhism' },
+  抗日战争: { zh: '抗日战争', en: 'War of Resistance' },
+  第二次世界大战: { zh: '第二次世界大战', en: 'World War II' },
 };
 
 export function tagLabel(tag: string, locale: Locale): string {

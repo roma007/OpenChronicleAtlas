@@ -6,75 +6,390 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [116.21, 39.85],
-          [117.2, 39.13],
-          [121.47, 31.23]
+          [
+            123.8,
+            41.6
+          ],
+          [
+            123.43,
+            41.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1931-09-18",
+        "endDate": "1931-09-18",
+        "order": 1,
+        "name": {
+          "zh": "沈阳",
+          "en": "Shenyang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            122,
+            31.4
+          ],
+          [
+            121.47,
+            31.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1932-01-28",
+        "endDate": "1932-01-28",
+        "order": 2,
+        "name": {
+          "zh": "上海（一·二八）",
+          "en": "Shanghai (January 28 Incident)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.21,
+            39.85
+          ],
+          [
+            117.2,
+            39.13
+          ],
+          [
+            121.47,
+            31.23
+          ]
         ]
       },
       "properties": {
         "entityId": "china-resistance",
         "startDate": "1937-07-07",
         "endDate": "1937-08-13",
-        "order": 1,
-        "name": {
-          "zh": "平津抵抗与淞沪会战",
-          "en": "Resistance at Beiping–Tianjin and the Battle of Shanghai"
-        },
-        "description": {
-          "zh": "示意初稿，待史料校订：第 29 军守卢沟桥、平津，随后战事扩大至上海。",
-          "en": "Illustrative draft pending historical review: the 29th Army defended the Marco Polo Bridge and Beiping–Tianjin before fighting spread to Shanghai."
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [121.47, 31.23],
-          [118.8, 32.06],
-          [117.18, 34.26],
-          [114.3, 30.59],
-          [106.55, 29.56]
-        ]
-      },
-      "properties": {
-        "entityId": "china-resistance",
-        "startDate": "1937-08-13",
-        "endDate": "1938-10-25",
-        "order": 2,
-        "name": {
-          "zh": "淞沪—南京—武汉—重庆",
-          "en": "Shanghai–Nanjing–Wuhan–Chongqing"
-        },
-        "description": {
-          "zh": "示意初稿，待史料校订：淞沪会战后中国军队西撤，国民政府机关逐步迁往重庆。",
-          "en": "Illustrative draft pending historical review: after Shanghai, Chinese forces withdrew west and government organs gradually relocated to Chongqing."
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [110.29, 25.27],
-          [109.41, 24.33],
-          [108.32, 22.82]
-        ]
-      },
-      "properties": {
-        "entityId": "china-resistance",
-        "startDate": "1945-05-01",
-        "endDate": "1945-08-15",
         "order": 3,
         "name": {
-          "zh": "桂柳反攻",
-          "en": "Guilin–Liuzhou Counteroffensive"
+          "zh": "北平—上海",
+          "en": "Beiping–Shanghai"
         },
         "description": {
-          "zh": "示意初稿，待史料校订：1945 年夏中国军队在广西发起局部反攻，先后收复桂柳、南宁。",
-          "en": "Illustrative draft pending historical review: in summer 1945 Chinese forces counterattacked in Guangxi and recovered Guilin, Liuzhou, and Nanning."
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47,
+            31.23
+          ],
+          [
+            117.2,
+            36
+          ],
+          [
+            113.95,
+            39.35
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1937-08-14",
+        "endDate": "1937-09-25",
+        "order": 4,
+        "name": {
+          "zh": "上海—平型关",
+          "en": "Shanghai–Pingxingguan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.95,
+            39.35
+          ],
+          [
+            116,
+            36
+          ],
+          [
+            118.8,
+            32.06
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1937-09-26",
+        "endDate": "1937-12-13",
+        "order": 5,
+        "name": {
+          "zh": "平型关—南京",
+          "en": "Pingxingguan–Nanjing"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8,
+            32.06
+          ],
+          [
+            117.73,
+            34.56
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1937-12-14",
+        "endDate": "1938-03-16",
+        "order": 6,
+        "name": {
+          "zh": "南京—台儿庄",
+          "en": "Nanjing–Taierzhuang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.73,
+            34.56
+          ],
+          [
+            117.18,
+            34.26
+          ],
+          [
+            114.3,
+            30.59
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1938-03-17",
+        "endDate": "1938-10-25",
+        "order": 7,
+        "name": {
+          "zh": "台儿庄—武汉",
+          "en": "Taierzhuang–Wuhan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3,
+            30.59
+          ],
+          [
+            113.58,
+            37.86
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1938-10-26",
+        "endDate": "1940-08-20",
+        "order": 8,
+        "name": {
+          "zh": "武汉—华北（百团大战）",
+          "en": "Wuhan–North China (Hundred Regiments)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.58,
+            37.86
+          ],
+          [
+            106.55,
+            29.56
+          ],
+          [
+            102.83,
+            24.88
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1940-08-21",
+        "endDate": "1942-02-01",
+        "order": 9,
+        "name": {
+          "zh": "华北—云南（远征军）",
+          "en": "North China–Yunnan (Expeditionary Force)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.83,
+            24.88
+          ],
+          [
+            106.55,
+            29.56
+          ],
+          [
+            113.66,
+            34.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1942-02-02",
+        "endDate": "1944-04-17",
+        "order": 10,
+        "name": {
+          "zh": "云南—河南",
+          "en": "Yunnan–Henan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.66,
+            34.9
+          ],
+          [
+            106.55,
+            29.56
+          ],
+          [
+            98.79,
+            24.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1944-04-18",
+        "endDate": "1944-06-04",
+        "order": 11,
+        "name": {
+          "zh": "河南—松山",
+          "en": "Henan–Songshan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.79,
+            24.75
+          ],
+          [
+            105,
+            25
+          ],
+          [
+            110.29,
+            25.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1944-06-05",
+        "endDate": "1945-05-01",
+        "order": 12,
+        "name": {
+          "zh": "松山—桂林",
+          "en": "Songshan–Guilin"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
         }
       }
     }
