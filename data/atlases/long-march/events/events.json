@@ -6,6 +6,12 @@
       "zh": "中央红军从瑞金出发",
       "en": "Central Red Army departs Ruijin"
     },
+    "aliases": [
+      {
+        "zh": "中央红军长征出发",
+        "en": "Central Red Army Departure"
+      }
+    ],
     "date": "1934-10-10",
     "location": {
       "lng": 116.03,
@@ -57,6 +63,12 @@
       "zh": "于都河集结出发",
       "en": "Assembly at the Yudu River"
     },
+    "aliases": [
+      {
+        "zh": "于都集结",
+        "en": "Yudu Assembly"
+      }
+    ],
     "date": "1934-10-17",
     "location": {
       "lng": 115.41,
@@ -159,6 +171,12 @@
       "zh": "湘江战役",
       "en": "Battle of the Xiang River"
     },
+    "aliases": [
+      {
+        "zh": "湘江血战",
+        "en": "Battle of the Xiang River"
+      }
+    ],
     "date": "1934-11-27",
     "location": {
       "lng": 111.07,
@@ -211,6 +229,12 @@
       "zh": "通道会议",
       "en": "Tongdao meeting"
     },
+    "aliases": [
+      {
+        "zh": "通道转兵",
+        "en": "Tongdao Turn"
+      }
+    ],
     "date": "1934-12-12",
     "location": {
       "lng": 109.78,
@@ -365,6 +389,12 @@
       "zh": "遵义会议",
       "en": "Zunyi meeting"
     },
+    "aliases": [
+      {
+        "zh": "遵义政治局扩大会议",
+        "en": "Zunyi Politburo Enlarged Meeting"
+      }
+    ],
     "date": "1935-01-15",
     "location": {
       "lng": 106.92,
@@ -423,6 +453,12 @@
       "zh": "土城战役",
       "en": "Battle of Tucheng"
     },
+    "aliases": [
+      {
+        "zh": "土城战斗",
+        "en": "Battle of Tucheng"
+      }
+    ],
     "date": "1935-01-28",
     "location": {
       "lng": 106.19,
@@ -474,6 +510,12 @@
       "zh": "二渡赤水",
       "en": "Second crossing of the Chishui River"
     },
+    "aliases": [
+      {
+        "zh": "二渡赤水河",
+        "en": "Second Crossing of the Chishui"
+      }
+    ],
     "date": "1935-02-18",
     "location": {
       "lng": 105.81,
@@ -525,6 +567,12 @@
       "zh": "娄山关战斗",
       "en": "Battle of Loushan Pass"
     },
+    "aliases": [
+      {
+        "zh": "娄山关大捷",
+        "en": "Loushan Pass Victory"
+      }
+    ],
     "date": "1935-02-25",
     "location": {
       "lng": 106.83,
@@ -577,6 +625,12 @@
       "zh": "三渡赤水",
       "en": "Third crossing of the Chishui River"
     },
+    "aliases": [
+      {
+        "zh": "三渡赤水河",
+        "en": "Third Crossing of the Chishui"
+      }
+    ],
     "date": "1935-03-16",
     "location": {
       "lng": 106.4,
@@ -628,6 +682,12 @@
       "zh": "四渡赤水",
       "en": "Fourth crossing of the Chishui River"
     },
+    "aliases": [
+      {
+        "zh": "四渡赤水战役",
+        "en": "Four Crossings of the Chishui"
+      }
+    ],
     "date": "1935-03-21",
     "location": {
       "lng": 105.81,
@@ -679,6 +739,12 @@
       "zh": "巧渡金沙江",
       "en": "Crossing the Jinsha River"
     },
+    "aliases": [
+      {
+        "zh": "金沙江渡口",
+        "en": "Jinsha River Crossing"
+      }
+    ],
     "date": "1935-05-03",
     "location": {
       "lng": 102.47,
@@ -781,6 +847,12 @@
       "zh": "强渡大渡河",
       "en": "Forcing the Dadu River"
     },
+    "aliases": [
+      {
+        "zh": "安顺场强渡",
+        "en": "Anshunchang Crossing"
+      }
+    ],
     "date": "1935-05-25",
     "location": {
       "lng": 102.36,
@@ -832,6 +904,12 @@
       "zh": "飞夺泸定桥",
       "en": "Seizing Luding Bridge"
     },
+    "aliases": [
+      {
+        "zh": "泸定桥战斗",
+        "en": "Battle of Luding Bridge"
+      }
+    ],
     "date": "1935-05-29",
     "location": {
       "lng": 102.23,
@@ -1037,6 +1115,12 @@
       "zh": "过草地",
       "en": "Crossing the grasslands"
     },
+    "aliases": [
+      {
+        "zh": "松潘草地行军",
+        "en": "Songpan Grassland March"
+      }
+    ],
     "date": "1935-08-31",
     "location": {
       "lng": 102.96,
@@ -1082,12 +1166,70 @@
     "relatedIds": []
   },
   {
+    "id": "yongping-1935-09",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "永坪会师",
+      "en": "Yongping link-up"
+    },
+    "date": "1935-09-15",
+    "location": {
+      "lng": 110.03,
+      "lat": 36.87,
+      "place": {
+        "zh": "陕西延川永坪",
+        "en": "Yongping, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "red-25-army",
+      "shaanxi-red-army"
+    ],
+    "category": "会师",
+    "summary": {
+      "zh": "红二十五军到达陕北，与陕北红军会师。",
+      "en": "The 25th Army reaches northern Shaanxi and joins the Shaanxi Red Army."
+    },
+    "description": {
+      "zh": "1935 年 9 月 15 日，红二十五军到达陕西延川永坪镇，与陕北红军会师，组成红十五军团。",
+      "en": "On September 15, 1935, the 25th Army reached Yongping, Yanchuan, Shaanxi, joined the Shaanxi Red Army, and formed the 15th Army Corps."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对「永坪会师」的会师时间、部队番号与地点"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
     "id": "lazigou-1935-09",
     "atlasId": "long-march",
     "name": {
       "zh": "腊子口战斗",
       "en": "Battle of Lazikou"
     },
+    "aliases": [
+      {
+        "zh": "腊子口战役",
+        "en": "Battle of Lazikou"
+      }
+    ],
     "date": "1935-09-17",
     "location": {
       "lng": 103.22,
@@ -1242,6 +1384,12 @@
       "zh": "直罗镇战役",
       "en": "Battle of Zhiluozhen"
     },
+    "aliases": [
+      {
+        "zh": "直罗镇战斗",
+        "en": "Battle of Zhiluo"
+      }
+    ],
     "date": "1935-11-21",
     "location": {
       "lng": 109.38,
@@ -1295,6 +1443,12 @@
       "zh": "会宁会师",
       "en": "Huining link-up"
     },
+    "aliases": [
+      {
+        "zh": "三大主力会师",
+        "en": "Meeting of the Three Main Forces"
+      }
+    ],
     "date": "1936-10-09",
     "location": {
       "lng": 105.05,
@@ -1388,58 +1542,6 @@
         "author": "中国人民解放军历史资料丛书编审委员会",
         "year": 2016,
         "note": "用于核对「将台堡会师」的会师时间、部队番号与地点"
-      }
-    ],
-    "relatedIds": []
-  },
-  {
-    "id": "yongping-1935-09",
-    "atlasId": "long-march",
-    "name": {
-      "zh": "永坪会师",
-      "en": "Yongping link-up"
-    },
-    "date": "1935-09-15",
-    "location": {
-      "lng": 110.03,
-      "lat": 36.87,
-      "place": {
-        "zh": "陕西延川永坪",
-        "en": "Yongping, Shaanxi"
-      }
-    },
-    "entityIds": [
-      "red-25-army",
-      "shaanxi-red-army"
-    ],
-    "category": "会师",
-    "summary": {
-      "zh": "红二十五军到达陕北，与陕北红军会师。",
-      "en": "The 25th Army reaches northern Shaanxi and joins the Shaanxi Red Army."
-    },
-    "description": {
-      "zh": "1935 年 9 月 15 日，红二十五军到达陕西延川永坪镇，与陕北红军会师，组成红十五军团。",
-      "en": "On September 15, 1935, the 25th Army reached Yongping, Yanchuan, Shaanxi, joined the Shaanxi Red Army, and formed the 15th Army Corps."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《中国共产党历史》第一卷",
-        "author": "中共中央党史研究室",
-        "year": 2011,
-        "note": "事件日期与地点为初稿，待逐条校订"
-      },
-      {
-        "title": "《红军长征史》",
-        "author": "中共中央党史研究室第一研究部",
-        "year": 2006,
-        "note": "路线走向参考，坐标为示意简化"
-      },
-      {
-        "title": "《中国工农红军长征史料丛书》",
-        "author": "中国人民解放军历史资料丛书编审委员会",
-        "year": 2016,
-        "note": "用于核对「永坪会师」的会师时间、部队番号与地点"
       }
     ],
     "relatedIds": []
