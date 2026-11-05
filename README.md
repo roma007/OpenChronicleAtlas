@@ -174,6 +174,8 @@ pnpm --filter @atlas/mobile exec expo prebuild   # 生成 android/ios（已 giti
 
 ## 七、里程碑
 
+> 完整进度与待办清单见 [`docs/plans/2026-11-05-完整开发计划与进度清单-plan.md`](docs/plans/2026-11-05-完整开发计划与进度清单-plan.md)。
+
 | 里程碑 | 内容 | 状态 |
 | --- | --- | --- |
 | M1 | 仓库与双远程 + monorepo 脚手架 + 留档体系 + 数据加载器 + Web 静态地图/路线/节点 | ✅ v0.1.0-m1 |
