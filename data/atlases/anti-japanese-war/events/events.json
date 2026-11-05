@@ -646,6 +646,57 @@
     "importance": 1
   },
   {
+    "id": "changsha-1939-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第一次长沙会战",
+      "en": "First Battle of Changsha"
+    },
+    "date": "1939-09-14",
+    "endDate": "1939-10-08",
+    "location": {
+      "lng": 113.13,
+      "lat": 29.36,
+      "place": {
+        "zh": "湖南新墙河一线",
+        "en": "Xinqiang River line, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "日军进攻长沙，中国军队在新墙河、汨罗江一线阻击并反击，恢复原阵地。",
+      "en": "Japanese forces attacked Changsha; Chinese troops blocked and counterattacked along the Xinqiang and Miluo rivers, restoring their original positions."
+    },
+    "description": {
+      "zh": "1939 年 9 月 14 日，日军集中兵力向湖南新墙河一线发起进攻，企图攻取长沙。中国军队第九战区部队逐次阻击，诱敌深入后侧击、反击，迫使日军于 10 月上旬退回原阵地。此役是抗战进入相持阶段后中国正面战场的一次重要防御作战。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
+      "en": "On 14 September 1939, Japanese forces launched an offensive across the Xinqiang River in Hunan in an attempt to take Changsha. Chinese troops of the Ninth War Zone resisted in stages, drew the Japanese forward, then struck their flanks and counterattacked, forcing a withdrawal to the original line in early October. It was an important defensive battle on China’s frontal battlefield during the stalemate phase.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《长沙会战史料》",
+        "author": "湖南省档案馆等编",
+        "year": 1990,
+        "note": "会战经过参考"
+      }
+    ],
+    "relatedIds": [
+      "wuhan-fall-1938-10",
+      "ichigo-offensive-1944-04"
+    ],
+    "importance": 1
+  },
+  {
     "id": "hundred-regiments-1940-08",
     "atlasId": "anti-japanese-war",
     "name": {

@@ -185,6 +185,40 @@
         "type": "LineString",
         "coordinates": [
           [
+            113.13,
+            29.36
+          ],
+          [
+            113.08,
+            28.81
+          ],
+          [
+            112.94,
+            28.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-09-14",
+        "endDate": "1939-10-08",
+        "order": 6,
+        "name": {
+          "zh": "第一次长沙会战",
+          "en": "First Battle of Changsha"
+        },
+        "description": {
+          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
+          "en": "Campaign route based on common historical maps; page-level verification pending."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             113.66,
             34.9
           ],
@@ -234,7 +268,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1944-04-17",
         "endDate": "1944-11-24",
-        "order": 6,
+        "order": 7,
         "name": {
           "zh": "豫湘桂—南宁",
           "en": "Henan–Hunan–Guangxi–Nanning"

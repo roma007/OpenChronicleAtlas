@@ -185,6 +185,44 @@
             39.35
           ],
           [
+            113.85,
+            39.3
+          ],
+          [
+            113.78,
+            39.28
+          ],
+          [
+            113.72,
+            39.25
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1937-09-25",
+        "endDate": "1937-09-25",
+        "order": 6,
+        "name": {
+          "zh": "平型关战斗",
+          "en": "Battle of Pingxingguan"
+        },
+        "description": {
+          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
+          "en": "Campaign route based on common historical maps; page-level verification pending."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.95,
+            39.35
+          ],
+          [
             116,
             36
           ],
@@ -198,7 +236,7 @@
         "entityId": "china-resistance",
         "startDate": "1937-09-26",
         "endDate": "1937-12-13",
-        "order": 6,
+        "order": 7,
         "name": {
           "zh": "平型关—南京",
           "en": "Pingxingguan–Nanjing"
@@ -244,7 +282,7 @@
         "entityId": "china-resistance",
         "startDate": "1937-12-01",
         "endDate": "1937-12-13",
-        "order": 7,
+        "order": 8,
         "name": {
           "zh": "南京保卫战",
           "en": "Defense of Nanjing"
@@ -273,6 +311,10 @@
             34.26
           ],
           [
+            118.35,
+            35.05
+          ],
+          [
             117.15,
             35.08
           ],
@@ -286,7 +328,7 @@
         "entityId": "china-resistance",
         "startDate": "1937-12-14",
         "endDate": "1938-03-16",
-        "order": 8,
+        "order": 9,
         "name": {
           "zh": "南京—台儿庄",
           "en": "Nanjing–Taierzhuang"
@@ -311,6 +353,10 @@
             34.26
           ],
           [
+            115.65,
+            34.41
+          ],
+          [
             113.66,
             34.75
           ],
@@ -328,7 +374,7 @@
         "entityId": "china-resistance",
         "startDate": "1938-03-17",
         "endDate": "1938-10-25",
-        "order": 9,
+        "order": 10,
         "name": {
           "zh": "台儿庄—武汉",
           "en": "Taierzhuang–Wuhan"
@@ -358,7 +404,7 @@
         "entityId": "china-resistance",
         "startDate": "1938-10-26",
         "endDate": "1940-08-20",
-        "order": 10,
+        "order": 11,
         "name": {
           "zh": "武汉—华北（百团大战）",
           "en": "Wuhan–North China (Hundred Regiments)"
@@ -366,6 +412,40 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.94,
+            28.23
+          ],
+          [
+            113.08,
+            28.81
+          ],
+          [
+            113.13,
+            29.36
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1939-09-14",
+        "endDate": "1939-10-08",
+        "order": 12,
+        "name": {
+          "zh": "第一次长沙会战（中国军队反击）",
+          "en": "First Battle of Changsha (Chinese Counterattack)"
+        },
+        "description": {
+          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
+          "en": "Campaign route based on common historical maps; page-level verification pending."
         }
       }
     },
@@ -396,7 +476,7 @@
         "entityId": "china-resistance",
         "startDate": "1940-08-20",
         "endDate": "1941-01-24",
-        "order": 11,
+        "order": 13,
         "name": {
           "zh": "百团大战",
           "en": "Hundred Regiments Offensive"
@@ -430,7 +510,7 @@
         "entityId": "china-resistance",
         "startDate": "1940-08-21",
         "endDate": "1942-02-01",
-        "order": 12,
+        "order": 14,
         "name": {
           "zh": "华北—云南（远征军）",
           "en": "North China–Yunnan (Expeditionary Force)"
@@ -464,7 +544,7 @@
         "entityId": "china-resistance",
         "startDate": "1942-02-02",
         "endDate": "1944-04-17",
-        "order": 13,
+        "order": 15,
         "name": {
           "zh": "云南—河南",
           "en": "Yunnan–Henan"
@@ -498,7 +578,7 @@
         "entityId": "china-resistance",
         "startDate": "1944-04-18",
         "endDate": "1944-06-04",
-        "order": 14,
+        "order": 16,
         "name": {
           "zh": "河南—松山",
           "en": "Henan–Songshan"
@@ -532,7 +612,7 @@
         "entityId": "china-resistance",
         "startDate": "1944-06-05",
         "endDate": "1945-05-01",
-        "order": 15,
+        "order": 17,
         "name": {
           "zh": "松山—桂林",
           "en": "Songshan–Guilin"
