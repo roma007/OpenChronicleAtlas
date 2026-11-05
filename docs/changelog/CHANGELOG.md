@@ -16,6 +16,26 @@
 
 ---
 
+## [v0.41.0-m41] - 2026-11-05
+
+### Added
+- 全部 127 段路线补 `segmentType`。
+- 全部 127 段路线补 `extensions.precision`（campaign 40 / schematic 87）。
+- Schema v1.1 文档新增 `precision` 推荐扩展字段。
+- 发布说明 `docs/releases/2026-11-05-v0.41.0-m41.md`。
+
+### Changed
+- 搜索索引数据版本更新为 `2026-11-05-c8af60569011`。
+- 四包版本统一为 `0.41.0`；Android `versionCode` 升为 38；iOS build 38。
+
+### Docs
+- `docs/plans/2026-11-05-M41-路线分段类型与精度标注-plan.md`
+- `docs/plans/2026-11-05-M41-路线分段类型与精度标注-design.md`
+- `docs/releases/2026-11-05-v0.41.0-m41.md`
+- `docs/conversations/2026-11-05-M41启动与路线语义标注.md`
+
+---
+
 ## [v0.40.0-m40] - 2026-11-05
 
 ### Added

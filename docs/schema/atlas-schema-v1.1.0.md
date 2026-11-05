@@ -113,6 +113,24 @@ segmentType?: RouteSegmentType;
 - 当前只做契约与校验，UI 图例与线型后续接入；
 - 不得用 `segmentType` 替代 `name` 或 `description`。
 
+### 3.4 推荐扩展字段：precision
+
+```ts
+extensions?: {
+  precision?: 'campaign' | 'schematic';
+};
+```
+
+| 值 | 含义 |
+| --- | --- |
+| `campaign` | 战役路线，有较明确战役范围与常见战史地图可参照 |
+| `schematic` | 示意简化路线，仅表示战略方向或长距离移动 |
+
+- 写入 `properties.extensions.precision`；
+- 该字段只表达精度层级，不改变几何、日期或名称；
+- 旧客户端忽略该字段；
+- 当前四专题 127 段路线均已标注：campaign 40 / schematic 87。
+
 ---
 
 ## 4. 兼容性
