@@ -755,6 +755,55 @@
     "importance": 2
   },
   {
+    "id": "taxila-631-11",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "呾叉始罗",
+      "en": "Taxila"
+    },
+    "date": "0631-11-01",
+    "location": {
+      "lng": 72.83,
+      "lat": 33.75,
+      "place": {
+        "zh": "呾叉始罗（今巴基斯坦塔克西拉）",
+        "en": "Taxila (modern Pakistan)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访呾叉始罗，参访佛教寺院与圣迹。",
+      "en": "Xuanzang visited Taxila and its Buddhist monasteries and sites."
+    },
+    "description": {
+      "zh": "631 年，玄奘到访呾叉始罗，参访当地佛教寺院与圣迹。地名采用古今对照，待史料校订。",
+      "en": "In 631, Xuanzang visited Taxila and its Buddhist monasteries and sacred sites. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "gandhara-631-10",
+      "nalanda-632-01"
+    ],
+    "importance": 2
+  },
+  {
     "id": "nalanda-632-01",
     "atlasId": "xuanzang",
     "name": {
@@ -862,6 +911,55 @@
     "importance": 2
   },
   {
+    "id": "vaishali-632-07",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "吠舍离",
+      "en": "Vaishali"
+    },
+    "date": "0632-07-01",
+    "location": {
+      "lng": 85.13,
+      "lat": 25.99,
+      "place": {
+        "zh": "吠舍离（今印度比哈尔邦）",
+        "en": "Vaishali (modern Bihar, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访吠舍离，参访佛教圣迹。",
+      "en": "Xuanzang visited Vaishali and its Buddhist sites."
+    },
+    "description": {
+      "zh": "632 年，玄奘到访吠舍离，参访当地佛教圣迹。地名采用古今对照，待史料校订。",
+      "en": "In 632, Xuanzang visited Vaishali and its Buddhist sites. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "nalanda-632-01",
+      "kushinagar-632-08"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kushinagar-632-08",
     "atlasId": "xuanzang",
     "name": {
@@ -908,6 +1006,55 @@
     "relatedIds": [
       "varanasi-632-06",
       "kanauj-633-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lumbini-632-08",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "蓝毗尼",
+      "en": "Lumbini"
+    },
+    "date": "0632-08-15",
+    "location": {
+      "lng": 83.05,
+      "lat": 27.48,
+      "place": {
+        "zh": "蓝毗尼（今尼泊尔蓝毗尼）",
+        "en": "Lumbini (modern Nepal)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访蓝毗尼，参访佛陀诞生地。",
+      "en": "Xuanzang visited Lumbini, the birthplace of the Buddha."
+    },
+    "description": {
+      "zh": "632 年，玄奘到访蓝毗尼，参访佛陀诞生地及周边圣迹。地名采用古今对照，待史料校订。",
+      "en": "In 632, Xuanzang visited Lumbini, the birthplace of the Buddha, and nearby sacred sites. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "kushinagar-632-08",
+      "vaishali-632-07"
     ],
     "importance": 2
   },

@@ -134,7 +134,7 @@
         "entityId": "ming-fleet",
         "startDate": "1406-06-02",
         "endDate": "1406-12-01",
-        "order": 4,
+        "order": 5,
         "segmentType": "naval",
         "name": {
           "zh": "锡兰山—古里",
@@ -188,7 +188,7 @@
         "entityId": "ming-fleet",
         "startDate": "1406-12-02",
         "endDate": "1407-10-02",
-        "order": 5,
+        "order": 6,
         "segmentType": "naval",
         "name": {
           "zh": "古里—太仓（第一次返航）",
@@ -234,7 +234,7 @@
         "entityId": "ming-fleet",
         "startDate": "1408-10-01",
         "endDate": "1409-02-01",
-        "order": 6,
+        "order": 7,
         "segmentType": "naval",
         "name": {
           "zh": "太仓—锡兰山（第二次去程）",
@@ -280,7 +280,7 @@
         "entityId": "ming-fleet",
         "startDate": "1409-02-02",
         "endDate": "1409-08-15",
-        "order": 7,
+        "order": 8,
         "segmentType": "naval",
         "name": {
           "zh": "锡兰山—太仓（第二次返航）",
@@ -322,7 +322,7 @@
         "entityId": "ming-fleet",
         "startDate": "1410-01-01",
         "endDate": "1410-06-01",
-        "order": 8,
+        "order": 9,
         "segmentType": "naval",
         "name": {
           "zh": "太仓—满剌加（第三次去程）",
@@ -364,7 +364,7 @@
         "entityId": "ming-fleet",
         "startDate": "1410-06-02",
         "endDate": "1411-07-06",
-        "order": 9,
+        "order": 10,
         "segmentType": "naval",
         "name": {
           "zh": "满剌加—太仓（第三次返航）",
@@ -405,6 +405,10 @@
             6.93
           ],
           [
+            73.51,
+            4.18
+          ],
+          [
             75.78,
             11.25
           ],
@@ -418,7 +422,7 @@
         "entityId": "ming-fleet",
         "startDate": "1413-12-01",
         "endDate": "1414-05-01",
-        "order": 10,
+        "order": 11,
         "segmentType": "naval",
         "name": {
           "zh": "太仓—忽鲁谟斯（第四次去程）",
@@ -451,6 +455,10 @@
             2.05
           ],
           [
+            43.33,
+            1.11
+          ],
+          [
             40.12,
             -3.22
           ]
@@ -460,7 +468,7 @@
         "entityId": "ming-fleet",
         "startDate": "1414-05-02",
         "endDate": "1415-01-01",
-        "order": 11,
+        "order": 12,
         "segmentType": "naval",
         "name": {
           "zh": "忽鲁谟斯—麻林地",
@@ -522,7 +530,7 @@
         "entityId": "ming-fleet",
         "startDate": "1415-01-02",
         "endDate": "1415-08-12",
-        "order": 12,
+        "order": 13,
         "segmentType": "naval",
         "name": {
           "zh": "麻林地—太仓（第四次返航）",
@@ -580,7 +588,7 @@
         "entityId": "ming-fleet",
         "startDate": "1417-12-01",
         "endDate": "1418-06-01",
-        "order": 13,
+        "order": 14,
         "segmentType": "naval",
         "name": {
           "zh": "太仓—阿丹（第五次去程）",
@@ -638,7 +646,7 @@
         "entityId": "ming-fleet",
         "startDate": "1418-06-02",
         "endDate": "1419-08-15",
-        "order": 14,
+        "order": 15,
         "segmentType": "naval",
         "name": {
           "zh": "阿丹—太仓（第五次返航）",
@@ -680,7 +688,7 @@
         "entityId": "ming-fleet",
         "startDate": "1421-03-01",
         "endDate": "1421-11-01",
-        "order": 15,
+        "order": 16,
         "segmentType": "naval",
         "name": {
           "zh": "太仓—满剌加（第六次去程）",
@@ -722,7 +730,7 @@
         "entityId": "ming-fleet",
         "startDate": "1421-11-02",
         "endDate": "1422-09-03",
-        "order": 16,
+        "order": 17,
         "segmentType": "naval",
         "name": {
           "zh": "满剌加—太仓（第六次返航）",
@@ -772,7 +780,7 @@
         "entityId": "ming-fleet",
         "startDate": "1431-01-01",
         "endDate": "1433-04-01",
-        "order": 17,
+        "order": 18,
         "segmentType": "naval",
         "name": {
           "zh": "太仓—古里（第七次去程）",
@@ -822,7 +830,7 @@
         "entityId": "ming-fleet",
         "startDate": "1433-04-02",
         "endDate": "1433-07-22",
-        "order": 18,
+        "order": 19,
         "segmentType": "naval",
         "name": {
           "zh": "古里—太仓（第七次返航）",
@@ -903,6 +911,44 @@
         "name": {
           "zh": "榜葛剌—满剌加（分䑸返航）",
           "en": "Bengal–Malacca (detachment return)"
+        },
+        "description": {
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.25,
+            2.2
+          ],
+          [
+            104.75,
+            -2.99
+          ],
+          [
+            112.37,
+            -7.56
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-fleet",
+        "startDate": "1406-01-16",
+        "endDate": "1406-06-01",
+        "order": 4,
+        "segmentType": "naval",
+        "name": {
+          "zh": "满剌加—爪哇",
+          "en": "Malacca–Java"
         },
         "description": {
           "zh": "示意简化航线，待史料校订。",

@@ -242,6 +242,55 @@
     "relatedIds": []
   },
   {
+    "id": "java-1406-06",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "爪哇",
+      "en": "Java"
+    },
+    "date": "1406-06-01",
+    "location": {
+      "lng": 112.37,
+      "lat": -7.56,
+      "place": {
+        "zh": "满者伯夷（今印尼东爪哇）",
+        "en": "Majapahit (modern East Java)"
+      }
+    },
+    "entityIds": [
+      "ming-fleet"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "郑和船队访问爪哇，与满者伯夷等地方势力交往。",
+      "en": "Zheng He’s fleet visited Java and engaged with Majapahit and other local powers."
+    },
+    "description": {
+      "zh": "1406 年，郑和船队访问爪哇，与满者伯夷等地方势力进行贸易与外交活动。地名采用古今对照，待史料校订。",
+      "en": "In 1406, Zheng He’s fleet visited Java and conducted trade and diplomacy with Majapahit and other local powers. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "航线走向参考，坐标为示意简化"
+      }
+    ],
+    "relatedIds": [
+      "malacca-1406-01",
+      "palembang-1407-01"
+    ],
+    "importance": 2
+  },
+  {
     "id": "calicut-1406-12",
     "atlasId": "zheng-he",
     "name": {
@@ -760,6 +809,55 @@
     "relatedIds": []
   },
   {
+    "id": "maldives-1414-05",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "溜山",
+      "en": "Maldives"
+    },
+    "date": "1414-05-01",
+    "location": {
+      "lng": 73.51,
+      "lat": 4.18,
+      "place": {
+        "zh": "溜山（今马尔代夫马累）",
+        "en": "Maldives (modern Malé)"
+      }
+    },
+    "entityIds": [
+      "ming-fleet"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队访问溜山，开展印度洋贸易。",
+      "en": "The fleet visited the Maldives and conducted Indian Ocean trade."
+    },
+    "description": {
+      "zh": "1414 年，郑和船队访问溜山，与当地进行贸易并补充给养。地名采用古今对照，待史料校订。",
+      "en": "In 1414, Zheng He’s fleet visited the Maldives, trading and replenishing supplies. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "航线走向参考，坐标为示意简化"
+      }
+    ],
+    "relatedIds": [
+      "ceylon-1406-06",
+      "hormuz-1414-05"
+    ],
+    "importance": 2
+  },
+  {
     "id": "malindi-1415-01",
     "atlasId": "zheng-he",
     "name": {
@@ -857,6 +955,55 @@
     "relatedIds": [
       "malindi-1415-01",
       "aden-1418-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "brava-1415-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "卜剌哇",
+      "en": "Brava"
+    },
+    "date": "1415-01-01",
+    "location": {
+      "lng": 43.33,
+      "lat": 1.11,
+      "place": {
+        "zh": "卜剌哇（今索马里布拉瓦）",
+        "en": "Brava (modern Somalia)"
+      }
+    },
+    "entityIds": [
+      "ming-fleet"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队访问东非卜剌哇，继续沿非洲东岸航行。",
+      "en": "The fleet visited Brava on the East African coast."
+    },
+    "description": {
+      "zh": "1415 年，郑和船队访问东非卜剌哇，与当地进行贸易并继续沿非洲东岸航行。地名采用古今对照，待史料校订。",
+      "en": "In 1415, Zheng He’s fleet visited Brava on the East African coast, trading and continuing along the coast. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "航线走向参考，坐标为示意简化"
+      }
+    ],
+    "relatedIds": [
+      "mogadishu-1415-01",
+      "malindi-1415-01"
     ],
     "importance": 2
   },
