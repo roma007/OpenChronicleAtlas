@@ -1526,6 +1526,55 @@
     "relatedIds": []
   },
   {
+    "id": "mecca-1432-06",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "天方",
+      "en": "Mecca"
+    },
+    "date": "1432-06-01",
+    "location": {
+      "lng": 39.83,
+      "lat": 21.42,
+      "place": {
+        "zh": "天方（今沙特麦加）",
+        "en": "Mecca (modern Saudi Arabia)"
+      }
+    },
+    "entityIds": [
+      "ming-fleet"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "郑和船队分遣队访问天方，完成朝觐与贸易。",
+      "en": "A detachment of Zheng He’s fleet visited Mecca for pilgrimage and trade."
+    },
+    "description": {
+      "zh": "1432 年，郑和船队分遣队访问天方，完成朝觐并开展贸易。该路线为分遣队示意路线，待史料校订。",
+      "en": "In 1432, a detachment of Zheng He’s fleet visited Mecca, performing pilgrimage and conducting trade. The route is an illustrative detachment route and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "航线走向参考，坐标为示意简化"
+      }
+    ],
+    "relatedIds": [
+      "aden-1418-06",
+      "calicut-1433-04"
+    ],
+    "importance": 2
+  },
+  {
     "id": "calicut-1433-04",
     "atlasId": "zheng-he",
     "name": {

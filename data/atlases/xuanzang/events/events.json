@@ -804,6 +804,104 @@
     "importance": 2
   },
   {
+    "id": "udyana-631-11",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "乌仗那",
+      "en": "Udyana"
+    },
+    "date": "0631-11-15",
+    "location": {
+      "lng": 72.36,
+      "lat": 34.77,
+      "place": {
+        "zh": "乌仗那（今巴基斯坦斯瓦特）",
+        "en": "Udyana (modern Swat, Pakistan)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访乌仗那，参访佛教圣迹。",
+      "en": "Xuanzang visited Udyana and its Buddhist sites."
+    },
+    "description": {
+      "zh": "631 年，玄奘到访乌仗那，参访当地佛教圣迹。地名采用古今对照，待史料校订。",
+      "en": "In 631, Xuanzang visited Udyana and its Buddhist sites. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "taxila-631-11",
+      "kashmir-631-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kashmir-631-12",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "迦湿弥罗",
+      "en": "Kashmir"
+    },
+    "date": "0631-12-01",
+    "location": {
+      "lng": 74.8,
+      "lat": 34.1,
+      "place": {
+        "zh": "迦湿弥罗（今克什米尔）",
+        "en": "Kashmir"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访迦湿弥罗，学习佛教经典。",
+      "en": "Xuanzang visited Kashmir and studied Buddhist texts."
+    },
+    "description": {
+      "zh": "631 年，玄奘到访迦湿弥罗，学习佛教经典并参访寺院。地名采用古今对照，待史料校订。",
+      "en": "In 631, Xuanzang visited Kashmir, studied Buddhist texts, and visited monasteries. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "udyana-631-11",
+      "taxila-631-11"
+    ],
+    "importance": 2
+  },
+  {
     "id": "nalanda-632-01",
     "atlasId": "xuanzang",
     "name": {
@@ -859,6 +957,55 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "magadha-632-02",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "摩揭陀",
+      "en": "Magadha"
+    },
+    "date": "0632-02-01",
+    "location": {
+      "lng": 84.99,
+      "lat": 24.7,
+      "place": {
+        "zh": "摩揭陀（今印度菩提伽耶）",
+        "en": "Magadha (modern Bodh Gaya, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访摩揭陀，参访菩提伽耶金刚座。",
+      "en": "Xuanzang visited Magadha and the Vajrasana at Bodh Gaya."
+    },
+    "description": {
+      "zh": "632 年，玄奘到访摩揭陀，参访菩提伽耶金刚座等佛教圣迹。地名采用古今对照，待史料校订。",
+      "en": "In 632, Xuanzang visited Magadha and the Vajrasana at Bodh Gaya, among other Buddhist sites. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "nalanda-632-01",
+      "vaishali-632-07"
+    ],
+    "importance": 2
   },
   {
     "id": "varanasi-632-06",

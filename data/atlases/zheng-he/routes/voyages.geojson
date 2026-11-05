@@ -838,7 +838,7 @@
         "entityId": "ming-fleet",
         "startDate": "1433-04-02",
         "endDate": "1433-07-22",
-        "order": 19,
+        "order": 20,
         "segmentType": "naval",
         "name": {
           "zh": "古里—太仓（第七次返航）",
@@ -957,6 +957,44 @@
         "name": {
           "zh": "满剌加—爪哇",
           "en": "Malacca–Java"
+        },
+        "description": {
+          "zh": "示意简化航线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            45.03,
+            12.79
+          ],
+          [
+            42.0,
+            17.0
+          ],
+          [
+            39.83,
+            21.42
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-fleet",
+        "startDate": "1432-01-01",
+        "endDate": "1432-06-01",
+        "order": 19,
+        "segmentType": "naval",
+        "name": {
+          "zh": "阿丹—天方",
+          "en": "Aden–Mecca"
         },
         "description": {
           "zh": "示意简化航线，待史料校订。",
