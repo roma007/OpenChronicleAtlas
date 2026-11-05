@@ -342,29 +342,29 @@
 
 - [x] 英文商店元数据初稿已创建：[store-metadata-en.md](store-metadata-en.md)
 - [x] 发布检查清单初稿已创建：本文档
-- [ ] ⚠️ 中文商店元数据同步到 0.19.0 / 3 个专题（现有 [store-metadata.md](store-metadata.md) 仍为 0.5.0 / 2 个专题）
-- [ ] M20 发布说明（按 `_TEMPLATE.md` 编写）
-- [ ] `CHANGELOG.md` 记录 M20 变更
-- [ ] 截图 README 更新为真机截图与最终尺寸
-- [ ] 部署指南补充正式域名、DNS、HTTPS、代理配置
-- [ ] 隐私政策文档与应用内文案同步
-- [ ] README 状态更新为 M20 / 发布候选
+- [ ] ⚠️ 中文商店元数据同步到 0.20.0 / 3 个已索引专题（现有 [store-metadata.md](store-metadata.md) 仍为 0.5.0 / 2 个专题）
+- [x] M20 发布说明初稿已创建：[2026-11-05-v0.20.0-m20.md](2026-11-05-v0.20.0-m20.md)
+- [x] `CHANGELOG.md` 已记录 M20（待发布确认）
+- [ ] ⚠️ 截图 README 更新为真机截图与最终尺寸
+- [ ] ⚠️ 部署指南补充正式域名、DNS、HTTPS、代理配置
+- [ ] ⚠️ 隐私政策文档与应用内文案同步
+- [x] README 状态已更新为 M20 / 发布候选
 - [ ] 全仓 Markdown 内部链接扫描 0 断链
 - [ ] 文档中无 Key、口令、个人信息、未确认的账号/许可声明
 
 ### 6.2 版本一致性
 
-- [ ] 根 `package.json`、`apps/web`、`apps/shared`、`apps/mobile` 版本一致
-- [ ] `apps/mobile/app.json` 的 `version` 与包版本一致
-- [ ] ⚠️ `apps/mobile/android/app/build.gradle` 的 `versionName` / `versionCode` 正确
+- [x] 根 `package.json`、`apps/web`、`apps/shared`、`apps/mobile` 版本一致（均为 `0.20.0`）
+- [x] `apps/mobile/app.json` 的 `version` 与包版本一致（`0.20.0`）
+- [x] `apps/mobile/android/app/build.gradle` 的 `versionName 0.20.0` / `versionCode 17` 正确（产物待重建）
 - [ ] ⚠️ `apps/mobile/ios/app/Info.plist` 的 `CFBundleShortVersionString` / `CFBundleVersion` 正确
-- [ ] 数据契约版本 `atlas-schema v1.0.0` 未意外变更
-- [ ] 如变更数据，`pnpm validate:data` 通过（3 专题 / 74 事件 / 72 路线段）
+- [x] 数据契约版本 `atlas-schema v1.0.0` 未意外变更
+- [ ] 如变更数据，`pnpm validate:data` 通过（4 专题 / 103 事件 / 81 路线段；应用内索引 3 专题 / 74 / 72）
 
 ### 6.3 双仓与 tag
 
 - [ ] 最终提交已评审，工作区干净
-- [ ] 版本号与 tag 名称已确认（建议 `v0.20.0-m20`，以用户确认为准）
+- [x] 版本号与 tag 名称已确认（发布说明为 `v0.20.0-m20`；tag 待创建）
 - [ ] GitHub `main` 与 Gitee `master`/`main` 同步
 - [ ] 双仓均推送 tag，且指向同一 commit
 - [ ] `git ls-remote` 校验两仓 refs 一致
@@ -423,4 +423,4 @@
 4. 正式域名与 HTTPS；
 5. 高德商用许可。
 
-在上述条件满足前，可继续完成不依赖外部账号的内部项：iOS 版本号对齐、Android 0.19.0 构建、敏感权限清理、明文流量关闭、Web 密钥重置与回滚演练。
+在上述条件满足前，可继续完成不依赖外部账号的内部项：iOS 版本号对齐、Android 0.20.0 构建、敏感权限清理、明文流量关闭、Web 密钥重置与回滚演练。
