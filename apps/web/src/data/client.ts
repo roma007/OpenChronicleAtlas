@@ -1,4 +1,4 @@
-import { loadAtlas, loadAtlasIndex } from '@atlas/shared';
+import { loadAtlas, loadAtlasIndex, loadSearchIndex } from '@atlas/shared';
 
 const RAW_BASE = import.meta.env.VITE_DATA_BASE_URL ?? '/data/atlases';
 
@@ -16,4 +16,8 @@ export function fetchAtlasIndex() {
 
 export function fetchAtlas(atlasId: string) {
   return loadAtlas(dataUrl(`${atlasId}/manifest.json`));
+}
+
+export function fetchSearchIndex() {
+  return loadSearchIndex(dataUrl('search-index.json'));
 }

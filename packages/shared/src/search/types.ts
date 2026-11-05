@@ -1,8 +1,8 @@
-import type { AtlasDataset, AtlasEvent, AtlasTime } from '../types';
+import type { AtlasDataset, AtlasEvent, AtlasTime, LocalizedString } from '../types';
 
 export interface SearchEntry {
   atlasId: string;
-  atlasTitle: string;
+  atlasTitle: LocalizedString;
   event: AtlasEvent;
   fields: {
     name: string;
@@ -21,6 +21,11 @@ export interface SearchIndex {
   entries: SearchEntry[];
 }
 
+export interface SearchIndexFile extends SearchIndex {
+  schemaVersion: string;
+  generatedAt: string;
+}
+
 export interface SearchOptions {
   atlasId?: string;
   category?: string;
@@ -32,7 +37,7 @@ export interface SearchOptions {
 
 export interface SearchHit {
   atlasId: string;
-  atlasTitle: string;
+  atlasTitle: LocalizedString;
   event: AtlasEvent;
   score: number;
   field: keyof SearchEntry['fields'];

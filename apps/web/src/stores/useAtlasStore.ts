@@ -4,6 +4,7 @@ import type {
   AtlasSummary,
   AtlasTime,
   Locale,
+  SearchIndexFile,
   ShareView,
   Timeline,
 } from '@atlas/shared';
@@ -16,7 +17,7 @@ import {
   stepDays as addDays,
 } from '@atlas/shared';
 import { create } from 'zustand';
-import { fetchAtlas, fetchAtlasIndex } from '../data/client';
+import { fetchAtlas, fetchAtlasIndex, fetchSearchIndex } from '../data/client';
 
 export type PlaybackSpeed = 0.5 | 1 | 2 | 4;
 
@@ -53,7 +54,7 @@ interface AtlasState {
   mapView: ShareView | null;
   viewRequest: ViewRequest | null;
 
-  searchDatasets: AtlasDataset[] | null;
+  searchIndex: SearchIndexFile | null;
   searchLoading: boolean;
   searchError: string | null;
 
@@ -103,7 +104,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
   mapView: null,
   viewRequest: null,
 
-  searchDatasets: null,
+  searchIndex: null,
   searchLoading: false,
   searchError: null,
 
@@ -253,12 +254,11 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
   },
 
   async loadSearchData() {
-    if (get().searchLoading || get().searchDatasets) return;
+    if (get().searchLoading || get().searchIndex) return;
     set({ searchLoading: true, searchError: null });
     try {
-      const index = await fetchAtlasIndex();
-      const datasets = await Promise.all(index.atlases.map((atlas) => fetchAtlas(atlas.id)));
-      set({ searchDatasets: datasets, searchLoading: false });
+      const searchIndex = await fetchSearchIndex();
+      set({ searchIndex, searchLoading: false });
     } catch (error) {
       set({ searchError: (error as Error).message, searchLoading: false });
     }

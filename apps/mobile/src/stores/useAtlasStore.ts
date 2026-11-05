@@ -4,6 +4,7 @@ import type {
   AtlasSummary,
   AtlasTime,
   Locale,
+  SearchIndexFile,
   ShareView,
   Timeline,
 } from '@atlas/shared';
@@ -17,7 +18,7 @@ import {
 } from '@atlas/shared';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { fetchAtlas, fetchAtlasIndex } from '../data/client';
+import { fetchAtlas, fetchAtlasIndex, fetchSearchIndex } from '../data/client';
 import {
   clearAtlasCache,
   consumeCacheHit,
@@ -45,7 +46,7 @@ interface MobileAtlasState {
   fromCache: boolean;
   mapView: ShareView | null;
 
-  searchDatasets: AtlasDataset[] | null;
+  searchIndex: SearchIndexFile | null;
   searchLoading: boolean;
   searchError: string | null;
 
@@ -91,7 +92,7 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
   fromCache: false,
   mapView: null,
 
-  searchDatasets: null,
+  searchIndex: null,
   searchLoading: false,
   searchError: null,
 
@@ -245,14 +246,13 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
   },
 
   async loadSearchData() {
-    if (get().searchLoading || get().searchDatasets) return;
+    if (get().searchLoading || get().searchIndex) return;
     set({ searchLoading: true, searchError: null });
     resetCacheHit();
     try {
-      const index = await fetchAtlasIndex();
-      const datasets = await Promise.all(index.atlases.map((atlas) => fetchAtlas(atlas.id)));
+      const searchIndex = await fetchSearchIndex();
       set({
-        searchDatasets: datasets,
+        searchIndex,
         searchLoading: false,
         fromCache: consumeCacheHit(),
       });

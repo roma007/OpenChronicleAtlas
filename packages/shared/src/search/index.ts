@@ -1,5 +1,4 @@
 import type { AtlasDataset, LocalizedString } from '../types';
-import { resolveLocalized } from '../i18n/localized';
 import { categorySearchText } from '../i18n/categories';
 import type { PinyinProvider } from './pinyin';
 import type { SearchEntry, SearchIndex } from './types';
@@ -56,13 +55,12 @@ function toInitials(text: string, provider: PinyinProvider): string {
  */
 export function buildSearchIndex(
   datasets: AtlasDataset[],
-  locale = 'zh',
   pinyinProvider?: PinyinProvider | null,
 ): SearchIndex {
   const entries: SearchEntry[] = [];
 
   for (const dataset of datasets) {
-    const atlasTitle = resolveLocalized(dataset.manifest.title, locale);
+    const atlasTitle = dataset.manifest.title;
 
     for (const event of dataset.events) {
       const entities = event.entityIds

@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm --filter @atlas/web build",
+  "buildCommand": "pnpm build:search-index && pnpm --filter @atlas/web build",
   "outputDirectory": "apps/web/dist",
   "installCommand": "pnpm install --frozen-lockfile",
   "framework": "vite",

@@ -1,12 +1,9 @@
 import {
-  buildSearchIndex,
   categoryLabel,
   collectCategories,
-  loadPinyinProvider,
   parseDateString,
   resolveLocalized,
   searchEvents,
-  type PinyinProvider,
   type SearchHit,
 } from '@atlas/shared';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
@@ -31,7 +28,7 @@ import { useI18n } from '../hooks/useI18n';
 type Props = NativeStackScreenProps<RootStackParamList, 'Search'>;
 
 export function SearchScreen({ navigation }: Props) {
-  const datasets = useAtlasStore((state) => state.searchDatasets);
+  const searchIndex = useAtlasStore((state) => state.searchIndex);
   const loading = useAtlasStore((state) => state.searchLoading);
   const error = useAtlasStore((state) => state.searchError);
   const loadSearchData = useAtlasStore((state) => state.loadSearchData);
@@ -43,7 +40,6 @@ export function SearchScreen({ navigation }: Props) {
   const [category, setCategory] = useState('');
   const [from, setFrom] = useState('');
   const [to, setTo] = useState('');
-  const [pinyinProvider, setPinyinProvider] = useState<PinyinProvider | null>(null);
 
   useEffect(() => {
     void loadSearchData();
@@ -53,25 +49,6 @@ export function SearchScreen({ navigation }: Props) {
     const timer = setTimeout(() => setDebounced(query.trim()), 200);
     return () => clearTimeout(timer);
   }, [query]);
-
-  useEffect(() => {
-    let cancelled = false;
-    void loadPinyinProvider()
-      .then((provider) => {
-        if (!cancelled) setPinyinProvider(provider);
-      })
-      .catch(() => {
-        // 拼音增强失败时保留基础索引，不影响普通搜索。
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
-  const index = useMemo(
-    () => (datasets ? buildSearchIndex(datasets, locale, pinyinProvider) : null),
-    [datasets, locale, pinyinProvider],
-  );
 
   const toTime = (value: string) => {
     if (!value) return undefined;
@@ -83,19 +60,22 @@ export function SearchScreen({ navigation }: Props) {
   };
 
   const hits = useMemo(() => {
-    if (!index || !debounced) return [];
-    return searchEvents(debounced, index, {
+    if (!searchIndex || !debounced) return [];
+    return searchEvents(debounced, searchIndex, {
       atlasId: atlasFilter || undefined,
       category: category || undefined,
       from: toTime(from),
       to: toTime(to),
       limit: 50,
     });
-  }, [index, debounced, atlasFilter, category, from, to]);
+  }, [searchIndex, debounced, atlasFilter, category, from, to]);
 
   const categories = useMemo(
-    () => (datasets ? collectCategories(datasets.flatMap((dataset) => dataset.events)) : []),
-    [datasets],
+    () =>
+      searchIndex
+        ? collectCategories(searchIndex.entries.map((entry) => entry.event))
+        : [],
+    [searchIndex],
   );
 
   const resetFilters = () => {
@@ -105,11 +85,18 @@ export function SearchScreen({ navigation }: Props) {
     setTo('');
   };
 
-  const atlases =
-    datasets?.map((dataset) => ({
-      id: dataset.manifest.id,
-      title: resolveLocalized(dataset.manifest.title, locale),
-    })) ?? [];
+  const atlases = useMemo(() => {
+    const map = new Map<string, { id: string; title: string }>();
+    for (const entry of searchIndex?.entries ?? []) {
+      if (!map.has(entry.atlasId)) {
+        map.set(entry.atlasId, {
+          id: entry.atlasId,
+          title: resolveLocalized(entry.atlasTitle, locale),
+        });
+      }
+    }
+    return [...map.values()];
+  }, [searchIndex, locale]);
 
   const openHit = (hit: SearchHit) => {
     navigation.navigate('Atlas', {
@@ -208,7 +195,7 @@ export function SearchScreen({ navigation }: Props) {
         </View>
       </View>
 
-      {loading && !datasets ? (
+      {loading && !searchIndex ? (
         <ActivityIndicator color={colors.cinnabar} style={styles.loading} />
       ) : error ? (
         <View style={styles.emptyBox}>
@@ -251,7 +238,7 @@ export function SearchScreen({ navigation }: Props) {
                 {item.snippet}
               </Text>
               <Text style={styles.resultMeta}>
-                {item.atlasTitle} · {categoryLabel(item.event.category, locale)}
+                {resolveLocalized(item.atlasTitle, locale)} · {categoryLabel(item.event.category, locale)}
                 {resolveLocalized(item.event.location.place, locale)
                   ? ` · ${resolveLocalized(item.event.location.place, locale)}`
                   : ''}

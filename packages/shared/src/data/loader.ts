@@ -13,6 +13,7 @@ import {
   routeFileSchema,
 } from '../schema/atlas';
 import { validateCrossFile } from '../schema/validate';
+import type { SearchIndexFile } from '../search/types';
 import { HttpDataSource, AtlasDataError, type DataSource } from './source';
 
 export { AtlasDataError };
@@ -175,4 +176,21 @@ export async function loadAtlasIndex(
     throw new AtlasValidationError(toIssues(parsed.error, 'index'));
   }
   return parsed.data as AtlasIndex;
+}
+
+/** 加载构建期搜索索引；只做最小结构校验 */
+export async function loadSearchIndex(
+  indexUrl: string,
+  options: LoadAtlasOptions = {},
+): Promise<SearchIndexFile> {
+  const dataSource = options.dataSource ?? new HttpDataSource();
+  const raw = await readJson(dataSource, indexUrl);
+  if (
+    typeof raw !== 'object' ||
+    raw === null ||
+    !Array.isArray((raw as { entries?: unknown }).entries)
+  ) {
+    throw new AtlasDataError('搜索索引格式错误：缺少 entries 数组');
+  }
+  return raw as SearchIndexFile;
 }

@@ -1,12 +1,9 @@
 import {
-  buildSearchIndex,
   categoryLabel,
   collectCategories,
-  loadPinyinProvider,
   parseDateString,
   resolveLocalized,
   searchEvents,
-  type PinyinProvider,
   type SearchHit,
 } from '@atlas/shared';
 import { useEffect, useMemo, useState } from 'react';
@@ -32,7 +29,7 @@ function Highlight({ text, query }: { text: string; query: string }) {
 }
 
 export function SearchPage() {
-  const datasets = useAtlasStore((state) => state.searchDatasets);
+  const searchIndex = useAtlasStore((state) => state.searchIndex);
   const loading = useAtlasStore((state) => state.searchLoading);
   const error = useAtlasStore((state) => state.searchError);
   const loadSearchData = useAtlasStore((state) => state.loadSearchData);
@@ -44,36 +41,16 @@ export function SearchPage() {
   const [category, setCategory] = useState('');
   const [from, setFrom] = useState('');
   const [to, setTo] = useState('');
-  const [pinyinProvider, setPinyinProvider] = useState<PinyinProvider | null>(null);
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (!datasets && !loading) void loadSearchData();
-  }, [datasets, loading, loadSearchData]);
+    if (!searchIndex && !loading) void loadSearchData();
+  }, [searchIndex, loading, loadSearchData]);
 
   useEffect(() => {
     const timer = window.setTimeout(() => setDebounced(query.trim()), 200);
     return () => window.clearTimeout(timer);
   }, [query]);
-
-  useEffect(() => {
-    let cancelled = false;
-    void loadPinyinProvider()
-      .then((provider) => {
-        if (!cancelled) setPinyinProvider(provider);
-      })
-      .catch(() => {
-        // 拼音增强失败时保留基础索引，不影响普通搜索。
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
-  const index = useMemo(
-    () => (datasets ? buildSearchIndex(datasets, locale, pinyinProvider) : null),
-    [datasets, locale, pinyinProvider],
-  );
 
   const toTime = (value: string) => {
     if (!value) return undefined;
@@ -85,19 +62,22 @@ export function SearchPage() {
   };
 
   const hits = useMemo(() => {
-    if (!index || !debounced) return [];
-    return searchEvents(debounced, index, {
+    if (!searchIndex || !debounced) return [];
+    return searchEvents(debounced, searchIndex, {
       atlasId: atlasFilter || undefined,
       category: category || undefined,
       from: toTime(from),
       to: toTime(to),
       limit: 50,
     });
-  }, [index, debounced, atlasFilter, category, from, to]);
+  }, [searchIndex, debounced, atlasFilter, category, from, to]);
 
   const categories = useMemo(
-    () => (datasets ? collectCategories(datasets.flatMap((dataset) => dataset.events)) : []),
-    [datasets],
+    () =>
+      searchIndex
+        ? collectCategories(searchIndex.entries.map((entry) => entry.event))
+        : [],
+    [searchIndex],
   );
 
   const resetFilters = () => {
@@ -107,11 +87,18 @@ export function SearchPage() {
     setTo('');
   };
 
-  const atlases =
-    datasets?.map((dataset) => ({
-      id: dataset.manifest.id,
-      title: resolveLocalized(dataset.manifest.title, locale),
-    })) ?? [];
+  const atlases = useMemo(() => {
+    const map = new Map<string, { id: string; title: string }>();
+    for (const entry of searchIndex?.entries ?? []) {
+      if (!map.has(entry.atlasId)) {
+        map.set(entry.atlasId, {
+          id: entry.atlasId,
+          title: resolveLocalized(entry.atlasTitle, locale),
+        });
+      }
+    }
+    return [...map.values()];
+  }, [searchIndex, locale]);
 
   const openHit = (hit: SearchHit) => {
     const params = new URLSearchParams({ t: hit.event.date, event: hit.event.id });
@@ -229,7 +216,7 @@ export function SearchPage() {
       </header>
 
       <main id="main-content" tabIndex={-1} className="mx-auto max-w-4xl px-5 py-8 sm:px-8">
-        {loading && !datasets ? (
+        {loading && !searchIndex ? (
           <div className="space-y-3">
             {[0, 1, 2].map((item) => (
               <div
@@ -309,7 +296,7 @@ export function SearchPage() {
               </p>
 
               <div className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-[10px] text-ink-soft/60">
-                <span>{hit.atlasTitle}</span>
+                <span>{resolveLocalized(hit.atlasTitle, locale)}</span>
                 <span>{categoryLabel(hit.event.category, locale)}</span>
                 {resolveLocalized(hit.event.location.place, locale) ? (
                   <span>{resolveLocalized(hit.event.location.place, locale)}</span>

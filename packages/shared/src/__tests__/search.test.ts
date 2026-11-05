@@ -62,7 +62,7 @@ const dataset: AtlasDataset = {
 };
 
 const pinyinProvider = await loadPinyinProvider();
-const index = buildSearchIndex([dataset], 'zh', pinyinProvider);
+const index = buildSearchIndex([dataset], pinyinProvider);
 const baseIndex = buildSearchIndex([dataset]);
 
 describe('searchEvents', () => {
