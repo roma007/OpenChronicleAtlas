@@ -16,6 +16,27 @@
 
 ---
 
+## [v0.42.0-m42] - 2026-11-05
+
+### Added
+- 共享路线样式与中英文标签 `route-style.ts`。
+- Web 地图按 `segmentType` 显示实线/虚线/点线。
+- Web 图例新增「路线样式」区块。
+- 移动端地图线宽/虚线，筛选面板新增路线样式图例。
+- 发布说明 `docs/releases/2026-11-05-v0.42.0-m42.md`。
+
+### Changed
+- 四包版本统一为 `0.42.0`；Android `versionCode` 升为 39；iOS build 39。
+- 完整开发计划新增并完成「路线样式与图例」条目。
+
+### Docs
+- `docs/plans/2026-11-05-M42-路线样式与图例-plan.md`
+- `docs/plans/2026-11-05-M42-路线样式与图例-design.md`
+- `docs/releases/2026-11-05-v0.42.0-m42.md`
+- `docs/conversations/2026-11-05-M42启动与路线样式图例.md`
+
+---
+
 ## [v0.41.0-m41] - 2026-11-05
 
 ### Added
