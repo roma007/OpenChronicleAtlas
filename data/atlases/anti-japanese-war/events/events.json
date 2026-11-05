@@ -697,6 +697,120 @@
     "importance": 1
   },
   {
+    "id": "changsha-1941-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第二次长沙会战",
+      "en": "Second Battle of Changsha"
+    },
+    "date": "1941-09-07",
+    "endDate": "1941-10-08",
+    "location": {
+      "lng": 113.13,
+      "lat": 29.36,
+      "place": {
+        "zh": "湖南岳阳新墙河一线",
+        "en": "Xinqiang River line, Yueyang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军再次进攻长沙，中国军队逐次抵抗并反击，日军于 10 月上旬退回原阵地。",
+      "en": "Japanese forces again attacked Changsha; Chinese troops resisted in stages and counterattacked, forcing a Japanese withdrawal to the original line in early October."
+    },
+    "description": {
+      "zh": "1941 年 9 月，日军第十一军向新墙河、汨罗江一线发起进攻，企图击破中国第九战区主力并攻取长沙。中国军队逐次抵抗，双方在长沙外围激战；日军因补给困难和中国军队侧击，于 10 月上旬退回原阵地。此役双方均有较大伤亡。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
+      "en": "In September 1941, the Japanese 11th Army attacked across the Xinqiang and Miluo rivers, aiming to destroy the main forces of China’s Ninth War Zone and take Changsha. Chinese troops resisted in stages and fought fierce actions on the city’s outskirts. Hampered by supply difficulties and Chinese flank attacks, the Japanese withdrew to their original line in early October. Both sides suffered considerable casualties.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《长沙会战史料》",
+        "author": "湖南省档案馆等编",
+        "year": 1990,
+        "note": "会战经过参考"
+      },
+      {
+        "title": "《中国事变陆军作战史》",
+        "author": "日本防卫厅防卫研修所战史室",
+        "year": 1979,
+        "note": "日方作战记录参考"
+      }
+    ],
+    "relatedIds": [
+      "changsha-1939-09",
+      "changsha-1941-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "changsha-1941-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第三次长沙会战",
+      "en": "Third Battle of Changsha"
+    },
+    "date": "1941-12-24",
+    "endDate": "1942-01-15",
+    "location": {
+      "lng": 112.94,
+      "lat": 28.23,
+      "place": {
+        "zh": "湖南长沙",
+        "en": "Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军第三次进攻长沙，中国军队以“天炉战法”诱敌深入并反击，取得长沙大捷。",
+      "en": "Japan attacked Changsha for the third time; Chinese forces drew the Japanese in and counterattacked, winning a major victory."
+    },
+    "description": {
+      "zh": "1941 年 12 月 24 日，日军第十一军再次向长沙进攻。中国第九战区司令长官薛岳采取“天炉战法”，以一部兵力逐次抵抗、诱敌深入，主力从外围侧击、合围。日军攻入长沙外围后补给困难，被迫撤退；中国军队追击，至 1942 年 1 月中旬恢复原阵地。此役是太平洋战争爆发后中国正面战场的一次重要胜利。\n\n本事件日期、地点与战果为通行说法，路线为战役示意，待史料校订。",
+      "en": "On 24 December 1941, the Japanese 11th Army attacked Changsha again. Xue Yue, commander of China’s Ninth War Zone, employed the “heavenly furnace” tactic: a covering force resisted in stages and drew the Japanese inward while the main force struck the flanks and closed the ring. After reaching the outskirts of Changsha, the Japanese faced supply difficulties and were forced to retreat. Chinese forces pursued and restored the original line by mid-January 1942. It was an important victory on China’s frontal battlefield after the outbreak of the Pacific War.\n\nDates, location, and assessments follow conventional accounts; the route is a campaign sketch and awaits historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《长沙会战史料》",
+        "author": "湖南省档案馆等编",
+        "year": 1990,
+        "note": "会战经过参考"
+      },
+      {
+        "title": "《中国事变陆军作战史》",
+        "author": "日本防卫厅防卫研修所战史室",
+        "year": 1979,
+        "note": "日方作战记录参考"
+      }
+    ],
+    "relatedIds": [
+      "changsha-1941-09",
+      "ichigo-offensive-1944-04"
+    ],
+    "importance": 1
+  },
+  {
     "id": "hundred-regiments-1940-08",
     "atlasId": "anti-japanese-war",
     "name": {
