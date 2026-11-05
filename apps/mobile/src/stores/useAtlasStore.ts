@@ -12,13 +12,14 @@ import {
   EMPTY_FILTERS,
   clampToTimeline,
   createTimeline,
+  isDataVersionNewer,
   normalizeLocale,
   ratioToTime,
   stepDays as addDays,
 } from '@atlas/shared';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { fetchAtlas, fetchAtlasIndex, fetchSearchIndex } from '../data/client';
+import { DATA_BASE, fetchAtlas, fetchAtlasIndex, fetchSearchIndex } from '../data/client';
 import {
   clearAtlasCache,
   consumeCacheHit,
@@ -50,6 +51,9 @@ interface MobileAtlasState {
   searchLoading: boolean;
   searchError: string | null;
 
+  dataVersion: string | null;
+  dataUpdateAvailable: boolean;
+
   loadIndex(): Promise<void>;
   loadAtlas(atlasId: string): Promise<void>;
   selectEvent(eventId: string | null): void;
@@ -71,6 +75,8 @@ interface MobileAtlasState {
   setSpeed(speed: PlaybackSpeed): void;
   setMapView(view: ShareView): void;
   loadSearchData(): Promise<void>;
+  checkDataUpdate(): Promise<void>;
+  applyDataUpdate(): Promise<void>;
 }
 
 export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
@@ -96,13 +102,21 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
   searchLoading: false,
   searchError: null,
 
+  dataVersion: null,
+  dataUpdateAvailable: false,
+
   async loadIndex() {
     if (get().loading || get().index) return;
     set({ loading: true, error: null });
     resetCacheHit();
     try {
       const index = await fetchAtlasIndex();
-      set({ index: index.atlases, loading: false, fromCache: consumeCacheHit() });
+      set({
+        index: index.atlases,
+        dataVersion: index.dataVersion ?? null,
+        loading: false,
+        fromCache: consumeCacheHit(),
+      });
     } catch (error) {
       set({ error: (error as Error).message, loading: false });
     }
@@ -245,6 +259,34 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
     set({ mapView: view });
   },
 
+  async checkDataUpdate() {
+    const current = get().dataVersion;
+    if (!current) return;
+    try {
+      const response = await fetch(`${DATA_BASE}/index.json?t=${Date.now()}`);
+      if (!response.ok) return;
+      const raw = (await response.json()) as { dataVersion?: string };
+      if (isDataVersionNewer(current, raw.dataVersion)) {
+        set({ dataUpdateAvailable: true });
+      }
+    } catch {
+      // 网络失败时保持现状，下次再检查
+    }
+  },
+
+  async applyDataUpdate() {
+    await clearAtlasCache();
+    set({
+      dataUpdateAvailable: false,
+      index: null,
+      dataset: null,
+      searchIndex: null,
+      error: null,
+      fromCache: false,
+    });
+    await get().loadIndex();
+  },
+
   async loadSearchData() {
     if (get().searchLoading || get().searchIndex) return;
     set({ searchLoading: true, searchError: null });
@@ -253,6 +295,7 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
       const searchIndex = await fetchSearchIndex();
       set({
         searchIndex,
+        dataVersion: searchIndex.dataVersion ?? get().dataVersion,
         searchLoading: false,
         fromCache: consumeCacheHit(),
       });

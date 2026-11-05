@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import {
   ActivityIndicator,
   Alert,
+  AppState,
   FlatList,
   Image,
   Pressable,
@@ -28,12 +29,19 @@ export function GalleryScreen({ navigation }: Props) {
   const loadIndex = useAtlasStore((state) => state.loadIndex);
   const fromCache = useAtlasStore((state) => state.fromCache);
   const clearCache = useAtlasStore((state) => state.clearCache);
+  const dataUpdateAvailable = useAtlasStore((state) => state.dataUpdateAvailable);
+  const checkDataUpdate = useAtlasStore((state) => state.checkDataUpdate);
+  const applyDataUpdate = useAtlasStore((state) => state.applyDataUpdate);
   const { locale, t } = useI18n();
   const [cleared, setCleared] = useState(false);
 
   useEffect(() => {
-    void loadIndex();
-  }, [loadIndex]);
+    void loadIndex().then(() => checkDataUpdate());
+    const subscription = AppState.addEventListener('change', (state) => {
+      if (state === 'active') void checkDataUpdate();
+    });
+    return () => subscription.remove();
+  }, [loadIndex, checkDataUpdate]);
 
   return (
     <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
@@ -51,6 +59,17 @@ export function GalleryScreen({ navigation }: Props) {
             {fromCache ? (
               <View style={styles.cacheBadge}>
                 <Text style={styles.cacheBadgeText}>{t('offline.cacheBadge')}</Text>
+              </View>
+            ) : null}
+            {dataUpdateAvailable ? (
+              <View style={styles.updateBanner}>
+                <Text style={styles.updateText}>{t('dataUpdate.available')}</Text>
+                <Pressable
+                  style={styles.updateButton}
+                  onPress={() => void applyDataUpdate()}
+                >
+                  <Text style={styles.updateButtonText}>{t('dataUpdate.refresh')}</Text>
+                </Pressable>
               </View>
             ) : null}
             <Text style={styles.subtitle}>{t('app.tagline')}</Text>
@@ -165,6 +184,23 @@ const styles = StyleSheet.create({
     paddingVertical: 3,
   },
   cacheBadgeText: { fontSize: 10, color: colors.inkSoft },
+  updateBanner: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: spacing.sm,
+    backgroundColor: colors.cinnabar + '12',
+    borderRadius: radii.md,
+    padding: spacing.md,
+  },
+  updateText: { flex: 1, fontSize: 12, lineHeight: 18, color: colors.inkSoft },
+  updateButton: {
+    backgroundColor: colors.cinnabar,
+    borderRadius: radii.pill,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+  },
+  updateButtonText: { color: colors.parchment, fontSize: 12, fontWeight: '600' },
   cacheFooter: { alignItems: 'center', gap: spacing.xs, paddingTop: spacing.md },
   cacheButton: {
     borderWidth: 1,

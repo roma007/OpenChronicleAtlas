@@ -2,6 +2,7 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import { OfflineBanner } from './components/layout/OfflineBanner';
 import { SkipLink } from './components/layout/SkipLink';
 import { PwaUpdatePrompt } from './components/layout/PwaUpdatePrompt';
+import { DataUpdatePrompt } from './components/layout/DataUpdatePrompt';
 import { AboutPage } from './pages/AboutPage';
 import { AtlasGalleryPage } from './pages/AtlasGalleryPage';
 import { AtlasPage } from './pages/AtlasPage';
@@ -14,6 +15,7 @@ export function App() {
       <SkipLink />
       <OfflineBanner />
       <PwaUpdatePrompt />
+      <DataUpdatePrompt />
       <Routes>
         <Route path="/" element={<AtlasGalleryPage />} />
         <Route path="/search" element={<SearchPage />} />

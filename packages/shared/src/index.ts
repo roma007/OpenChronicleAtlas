@@ -3,6 +3,7 @@ export * from './schema/atlas';
 export * from './schema/validate';
 export * from './data/source';
 export * from './data/loader';
+export * from './data/version';
 export * from './time/date';
 export * from './timeline';
 export * from './qa/routes';

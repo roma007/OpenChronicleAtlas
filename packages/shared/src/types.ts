@@ -55,6 +55,7 @@ export interface AtlasSummary {
 
 export interface AtlasIndex {
   schemaVersion: string;
+  dataVersion?: string;
   atlases: AtlasSummary[];
 }
 

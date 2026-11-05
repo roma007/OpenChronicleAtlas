@@ -11,13 +11,14 @@ import type {
 import {
   EMPTY_FILTERS,
   clampToTimeline,
+  isDataVersionNewer,
   createTimeline,
   normalizeLocale,
   ratioToTime,
   stepDays as addDays,
 } from '@atlas/shared';
 import { create } from 'zustand';
-import { fetchAtlas, fetchAtlasIndex, fetchSearchIndex } from '../data/client';
+import { dataUrl, fetchAtlas, fetchAtlasIndex, fetchSearchIndex } from '../data/client';
 
 export type PlaybackSpeed = 0.5 | 1 | 2 | 4;
 
@@ -58,6 +59,9 @@ interface AtlasState {
   searchLoading: boolean;
   searchError: string | null;
 
+  dataVersion: string | null;
+  dataUpdateAvailable: boolean;
+
   loadIndex(): Promise<void>;
   loadAtlas(atlasId: string): Promise<void>;
   selectEvent(eventId: string | null): void;
@@ -83,6 +87,8 @@ interface AtlasState {
   requestView(view: ShareView): void;
 
   loadSearchData(): Promise<void>;
+  checkDataUpdate(): Promise<void>;
+  applyDataUpdate(): void;
 }
 
 export const useAtlasStore = create<AtlasState>((set, get) => ({
@@ -108,12 +114,19 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
   searchLoading: false,
   searchError: null,
 
+  dataVersion: null,
+  dataUpdateAvailable: false,
+
   async loadIndex() {
     if (get().loading || get().index) return;
     set({ loading: true, error: null });
     try {
       const index = await fetchAtlasIndex();
-      set({ index: index.atlases, loading: false });
+      set({
+        index: index.atlases,
+        dataVersion: index.dataVersion ?? null,
+        loading: false,
+      });
     } catch (error) {
       set({ error: (error as Error).message, loading: false });
     }
@@ -253,12 +266,35 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
     set({ viewRequest: { view, nonce: (get().viewRequest?.nonce ?? 0) + 1 }, mapView: view });
   },
 
+  async checkDataUpdate() {
+    const current = get().dataVersion;
+    if (!current) return;
+    try {
+      const response = await fetch(dataUrl('index.json'), { cache: 'no-store' });
+      if (!response.ok) return;
+      const raw = (await response.json()) as { dataVersion?: string };
+      if (isDataVersionNewer(current, raw.dataVersion)) {
+        set({ dataUpdateAvailable: true });
+      }
+    } catch {
+      // 网络失败时保持现状，下次再检查
+    }
+  },
+
+  applyDataUpdate() {
+    if (typeof window !== 'undefined') window.location.reload();
+  },
+
   async loadSearchData() {
     if (get().searchLoading || get().searchIndex) return;
     set({ searchLoading: true, searchError: null });
     try {
       const searchIndex = await fetchSearchIndex();
-      set({ searchIndex, searchLoading: false });
+      set({
+        searchIndex,
+        dataVersion: searchIndex.dataVersion ?? get().dataVersion,
+        searchLoading: false,
+      });
     } catch (error) {
       set({ searchError: (error as Error).message, searchLoading: false });
     }

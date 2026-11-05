@@ -36,6 +36,7 @@ export interface SearchIndex {
 export interface SearchIndexFile extends SearchIndex {
   schemaVersion: string;
   generatedAt: string;
+  dataVersion?: string;
 }
 
 export interface SearchOptions {
