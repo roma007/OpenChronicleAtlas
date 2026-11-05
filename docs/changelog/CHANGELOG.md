@@ -16,6 +16,29 @@
 
 ---
 
+## [v0.35.0-m35] - 2026-11-05
+
+### Added
+- 事件别名 `AtlasEvent.aliases`，6 个事件补充别名并进入搜索索引。
+- 路线分段类型 `RouteSegmentType` / `segmentType`。
+- ADR-0009 与 `docs/schema/atlas-schema-v1.1.0.md`。
+- 发布说明 `docs/releases/2026-11-05-v0.35.0-m35.md`。
+
+### Changed
+- 4 个 manifest 与 `data/atlases/index.json` 的 `schemaVersion` 升为 `1.1.0`。
+- 搜索索引包含别名，体积 229.0 KB。
+- 四包版本统一为 `0.35.0`；Android `versionCode` 升为 32；iOS build 32。
+
+### Docs
+- `docs/decisions/ADR-0009-Schema-v1.1演进.md`
+- `docs/schema/atlas-schema-v1.1.0.md`
+- `docs/plans/2026-11-05-M35-Schema演进评估-plan.md`
+- `docs/plans/2026-11-05-M35-Schema演进评估-design.md`
+- `docs/releases/2026-11-05-v0.35.0-m35.md`
+- `docs/conversations/2026-11-05-M35启动与Schema演进.md`
+
+---
+
 ## [v0.34.0-m34] - 2026-11-05
 
 ### Added
