@@ -57,12 +57,12 @@
             25.93
           ],
           [
-            110.67,
-            25.61
+            111.16,
+            25.49
           ],
           [
-            110.4,
-            25.5
+            110.9,
+            25.2
           ]
         ]
       },
@@ -73,8 +73,8 @@
         "order": 2,
         "segmentType": "defense",
         "name": {
-          "zh": "湘江封锁线（湘军）",
-          "en": "Xiang River Blockade Line (Hunan Army)"
+          "zh": "湘江封锁线（桂军）",
+          "en": "Xiang River Blockade Line (Guangxi Army)"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -95,12 +95,12 @@
             25.93
           ],
           [
-            111.16,
-            25.49
+            110.67,
+            25.61
           ],
           [
-            110.9,
-            25.2
+            110.4,
+            25.5
           ]
         ]
       },
@@ -111,8 +111,8 @@
         "order": 3,
         "segmentType": "defense",
         "name": {
-          "zh": "湘江封锁线（桂军）",
-          "en": "Xiang River Blockade Line (Guangxi Army)"
+          "zh": "湘江封锁线（湘军）",
+          "en": "Xiang River Blockade Line (Hunan Army)"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -205,44 +205,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            102.47,
-            26.55
-          ],
-          [
-            101.8,
-            26.6
-          ],
-          [
-            101.2,
-            26.5
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "kmt-army",
-        "startDate": "1935-05-01",
-        "endDate": "1935-05-09",
-        "order": 6,
-        "segmentType": "defense",
-        "name": {
-          "zh": "金沙江防线（滇军）",
-          "en": "Jinsha River Blockade Line"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             104.07,
             30.67
           ],
@@ -260,11 +222,49 @@
         "entityId": "kmt-army",
         "startDate": "1935-05-01",
         "endDate": "1936-10-09",
-        "order": 7,
+        "order": 6,
         "segmentType": "defense",
         "name": {
           "zh": "堵截红四方面军",
           "en": "Blockade of the Red Fourth Front Army"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.47,
+            26.55
+          ],
+          [
+            101.8,
+            26.6
+          ],
+          [
+            101.2,
+            26.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-army",
+        "startDate": "1935-05-01",
+        "endDate": "1935-05-09",
+        "order": 7,
+        "segmentType": "defense",
+        "name": {
+          "zh": "金沙江防线（滇军）",
+          "en": "Jinsha River Blockade Line"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -319,6 +319,44 @@
         "type": "LineString",
         "coordinates": [
           [
+            108.94,
+            34.34
+          ],
+          [
+            109.1,
+            35.4
+          ],
+          [
+            109.49,
+            36.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-army",
+        "startDate": "1935-07-01",
+        "endDate": "1935-10-31",
+        "order": 9,
+        "segmentType": "advance",
+        "name": {
+          "zh": "西安—延安（第三次“围剿”）",
+          "en": "Xi'an–Yan'an (third encirclement campaign)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             103.22,
             34.06
           ],
@@ -336,7 +374,7 @@
         "entityId": "kmt-army",
         "startDate": "1935-09-16",
         "endDate": "1935-09-17",
-        "order": 9,
+        "order": 10,
         "segmentType": "defense",
         "name": {
           "zh": "腊子口防线（鲁大昌部）",
@@ -374,7 +412,7 @@
         "entityId": "kmt-army",
         "startDate": "1935-10-06",
         "endDate": "1935-10-07",
-        "order": 10,
+        "order": 11,
         "segmentType": "advance",
         "name": {
           "zh": "六盘山骑兵追击（东北军骑兵）",
@@ -416,7 +454,7 @@
         "entityId": "kmt-army",
         "startDate": "1935-11-19",
         "endDate": "1936-10-22",
-        "order": 11,
+        "order": 12,
         "segmentType": "advance",
         "name": {
           "zh": "追击红二、六军团",
@@ -450,7 +488,7 @@
         "entityId": "kmt-army",
         "startDate": "1935-11-20",
         "endDate": "1935-11-24",
-        "order": 12,
+        "order": 13,
         "segmentType": "advance",
         "name": {
           "zh": "直罗镇进攻（东北军第109师）",

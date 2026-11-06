@@ -7,6 +7,140 @@
         "type": "LineString",
         "coordinates": [
           [
+            108.65,
+            34.95
+          ],
+          [
+            108.4,
+            35.5
+          ],
+          [
+            108.3,
+            36.35
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shaanxi-red-army",
+        "startDate": "1934-02-01",
+        "endDate": "1934-11-06",
+        "order": 1,
+        "segmentType": "defense",
+        "name": {
+          "zh": "照金—南梁",
+          "en": "Zhaojin–Nanliang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.3,
+            36.35
+          ],
+          [
+            108.77,
+            36.82
+          ],
+          [
+            109.6,
+            37.15
+          ],
+          [
+            110.0,
+            37.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shaanxi-red-army",
+        "startDate": "1934-11-06",
+        "endDate": "1935-02-05",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南梁—白庙岔—周家硷",
+          "en": "Nanliang–Baimiaocha–Zhoujiachan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.0,
+            37.6
+          ],
+          [
+            109.6,
+            37.15
+          ],
+          [
+            109.24,
+            37.14
+          ],
+          [
+            108.77,
+            36.82
+          ],
+          [
+            109.49,
+            36.6
+          ],
+          [
+            109.35,
+            36.28
+          ],
+          [
+            110.03,
+            36.87
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shaanxi-red-army",
+        "startDate": "1935-02-01",
+        "endDate": "1935-09-14",
+        "order": 3,
+        "segmentType": "defense",
+        "name": {
+          "zh": "苏区反“围剿”机动",
+          "en": "Maneuvers during the counter-encirclement campaigns"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             109.24,
             37.14
           ],
@@ -24,7 +158,7 @@
         "entityId": "shaanxi-red-army",
         "startDate": "1935-09-01",
         "endDate": "1935-09-15",
-        "order": 1,
+        "order": 4,
         "segmentType": "advance",
         "name": {
           "zh": "瓦窑堡—永坪"
@@ -64,7 +198,7 @@
         "entityId": "shaanxi-red-army",
         "startDate": "1935-09-16",
         "endDate": "1935-10-19",
-        "order": 2,
+        "order": 5,
         "segmentType": "advance",
         "name": {
           "zh": "永坪—吴起"
@@ -100,7 +234,7 @@
         "entityId": "shaanxi-red-army",
         "startDate": "1935-10-20",
         "endDate": "1935-11-21",
-        "order": 3,
+        "order": 6,
         "segmentType": "advance",
         "name": {
           "zh": "吴起—直罗镇"

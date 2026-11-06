@@ -1,5 +1,60 @@
 [
   {
+    "id": "zhaojin-1934-02",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "陕甘边第一次反“围剿”",
+      "en": "First counter-encirclement campaign in the Shaanxi-Gansu border area"
+    },
+    "date": "1934-02-01",
+    "location": {
+      "lng": 108.65,
+      "lat": 34.95,
+      "place": {
+        "zh": "陕西耀县照金",
+        "en": "Zhaojin, Yao County, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "shaanxi-red-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红二十六军与游击队抗击国民党军对陕甘边根据地的第一次“围剿”。",
+      "en": "The 26th Red Army and local guerrillas resisted the first KMT encirclement campaign against the Shaanxi-Gansu border base."
+    },
+    "description": {
+      "zh": "1934 年 2 月起，国民党军对陕甘边革命根据地发动第一次“围剿”，红二十六军主力转入外线作战，地方游击队坚持照金、南梁一带。起止月份为通行说法，待页码级核对。",
+      "en": "From February 1934, KMT forces launched the first encirclement campaign against the Shaanxi-Gansu border revolutionary base. The main force of the 26th Red Army moved to exterior lines while local guerrillas held the Zhaojin and Nanliang areas. Start and end months follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对陕甘苏区、陕北红军与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "nanliang-1934-11"
+    ],
+    "importance": 2,
+    "endDate": "1934-06-30"
+  },
+  {
     "id": "red6-breakout-1934-08",
     "atlasId": "long-march",
     "name": {
@@ -228,6 +283,61 @@
         "en": "Red Second and Sixth Army Group link-up"
       }
     ]
+  },
+  {
+    "id": "nanliang-1934-11",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "陕甘边区苏维埃政府成立",
+      "en": "Founding of the Shaanxi-Gansu Border Soviet Government"
+    },
+    "date": "1934-11-06",
+    "location": {
+      "lng": 108.3,
+      "lat": 36.35,
+      "place": {
+        "zh": "甘肃华池南梁",
+        "en": "Nanliang, Huachi, Gansu"
+      }
+    },
+    "entityIds": [
+      "shaanxi-red-army"
+    ],
+    "category": "政权",
+    "summary": {
+      "zh": "陕甘边工农兵代表大会在南梁召开，成立边区苏维埃政府，习仲勋任主席。",
+      "en": "The Shaanxi-Gansu Border Soviet Government was founded at Nanliang, with Xi Zhongxun as chairman."
+    },
+    "description": {
+      "zh": "1934 年 11 月 1 日至 6 日，陕甘边工农兵代表大会在甘肃华池南梁荔园堡召开，选举产生陕甘边区苏维埃政府，习仲勋任主席。日期为通行说法，待页码级核对。",
+      "en": "From November 1 to 6, 1934, a congress of workers, peasants and soldiers at Liyuanpu, Nanliang, Huachi, Gansu, elected the Shaanxi-Gansu Border Soviet Government, with Xi Zhongxun as chairman. Dates follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对陕甘苏区、陕北红军与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "zhaojin-1934-02",
+      "red27-1935-01"
+    ],
+    "importance": 2
   },
   {
     "id": "yizhang-1934-11",
@@ -847,6 +957,61 @@
     "relatedIds": []
   },
   {
+    "id": "red27-1935-01",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "红二十七军成立",
+      "en": "Establishment of the Red 27th Army"
+    },
+    "date": "1935-01-30",
+    "location": {
+      "lng": 109.6,
+      "lat": 37.15,
+      "place": {
+        "zh": "陕西安定白庙岔",
+        "en": "Baimiaocha, Anding, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "shaanxi-red-army"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "陕北游击队合编为红二十七军第八十四师。",
+      "en": "Northern Shaanxi guerrilla units were reorganized as the 84th Division of the Red 27th Army."
+    },
+    "description": {
+      "zh": "1935 年 1 月 30 日，陕北特委在安定县白庙岔将陕北游击队各支队合编为中国工农红军第二十七军第八十四师。番号与日期为通行说法，待页码级核对。",
+      "en": "On January 30, 1935, the Northern Shaanxi Special Committee reorganized guerrilla detachments at Baimiaocha, Anding County, into the 84th Division of the Chinese Workers’ and Peasants’ Red 27th Army. Designations and dates follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对陕甘苏区、陕北红军与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "nanliang-1934-11",
+      "zhoujiachan-1935-02"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kmt-xiangechuanqian-1935-02",
     "atlasId": "long-march",
     "name": {
@@ -902,6 +1067,117 @@
     ],
     "importance": 2,
     "endDate": "1935-04-30"
+  },
+  {
+    "id": "second-encirclement-1935-02",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "陕甘苏区第二次反“围剿”",
+      "en": "Second counter-encirclement campaign in the Shaanxi-Gansu Soviet area"
+    },
+    "date": "1935-02-01",
+    "location": {
+      "lng": 108.77,
+      "lat": 36.82,
+      "place": {
+        "zh": "陕西保安（今志丹）",
+        "en": "Bao'an (now Zhidan), Shaanxi"
+      }
+    },
+    "entityIds": [
+      "shaanxi-red-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红二十六、二十七军抗击国民党军第二次“围剿”。",
+      "en": "The 26th and 27th Red Armies resisted the second KMT encirclement campaign."
+    },
+    "description": {
+      "zh": "1935 年 2 月起，国民党军调集兵力对陕甘苏区发动第二次“围剿”，红二十六军、红二十七军并肩作战，至 6 月先后攻克多座县城。兵力与起止月份为通行说法，待页码级核对。",
+      "en": "From February 1935, KMT forces concentrated troops for a second encirclement campaign against the Shaanxi-Gansu Soviet area. The 26th and 27th Red Armies fought side by side and took several county seats by June. Troop strengths and start/end months follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对陕甘苏区、陕北红军与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "zhoujiachan-1935-02",
+      "xibei-command-1935-05"
+    ],
+    "importance": 2,
+    "endDate": "1935-06-30"
+  },
+  {
+    "id": "zhoujiachan-1935-02",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "周家硷会议",
+      "en": "Zhoujiachan Conference"
+    },
+    "date": "1935-02-05",
+    "location": {
+      "lng": 110.0,
+      "lat": 37.6,
+      "place": {
+        "zh": "陕西子洲周家硷",
+        "en": "Zhoujiachan, Zizhou, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "shaanxi-red-army"
+    ],
+    "category": "会议",
+    "summary": {
+      "zh": "陕甘边、陕北两特委联席会议统一两根据地领导。",
+      "en": "A joint meeting of the Shaanxi-Gansu border and northern Shaanxi special committees unified leadership of the two base areas."
+    },
+    "description": {
+      "zh": "1935 年 2 月 5 日，中共陕甘边特委与陕北特委在子洲周家硷召开联席会议，成立中共西北工作委员会和西北革命军事委员会，统一两根据地党和红军的领导。机构名称为通行说法，待页码级核对。",
+      "en": "On February 5, 1935, the Shaanxi-Gansu border and northern Shaanxi special committees held a joint meeting at Zhoujiachan, Zizhou, establishing the Northwest Working Committee and the Northwest Revolutionary Military Commission to unify Party and Red Army leadership across the two base areas. Institution names follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对陕甘苏区、陕北红军与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "red27-1935-01",
+      "second-encirclement-1935-02"
+    ],
+    "importance": 2
   },
   {
     "id": "erdu-chishui-1935-02",
@@ -1295,6 +1571,61 @@
     "relatedIds": [
       "maogong-1935-06",
       "huining-1936-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xibei-command-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "西北军委前敌总指挥部成立",
+      "en": "Establishment of the Northwest Military Commission Front Command"
+    },
+    "date": "1935-05-01",
+    "location": {
+      "lng": 108.77,
+      "lat": 36.82,
+      "place": {
+        "zh": "陕西保安（今志丹）",
+        "en": "Bao'an (now Zhidan), Shaanxi"
+      }
+    },
+    "entityIds": [
+      "shaanxi-red-army"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "西北军委前敌总指挥部成立，统一指挥红二十六、二十七军。",
+      "en": "A front command was established to direct the 26th and 27th Red Armies."
+    },
+    "description": {
+      "zh": "1935 年 5 月，中共西北工委决定成立西北革命军事委员会前敌总指挥部，统一指挥红二十六军、红二十七军，刘志丹任总指挥。月份与职务为通行说法，待页码级核对。",
+      "en": "In May 1935, the Northwest Working Committee established a front command under the Northwest Revolutionary Military Commission to direct the 26th and 27th Red Armies, with Liu Zhidan as commander. The month and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对陕甘苏区、陕北红军与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "second-encirclement-1935-02",
+      "six-counties-1935-06"
     ],
     "importance": 2
   },
@@ -1735,6 +2066,173 @@
     "relatedIds": []
   },
   {
+    "id": "six-counties-1935-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "连克六城",
+      "en": "Capture of six county seats"
+    },
+    "date": "1935-06-30",
+    "location": {
+      "lng": 108.77,
+      "lat": 36.82,
+      "place": {
+        "zh": "陕西保安（今志丹）",
+        "en": "Bao'an (now Zhidan), Shaanxi"
+      }
+    },
+    "entityIds": [
+      "shaanxi-red-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "反“围剿”中连克六座县城，陕甘边与陕北苏区连成一片。",
+      "en": "Six county seats were taken, linking the Shaanxi-Gansu border and northern Shaanxi base areas."
+    },
+    "description": {
+      "zh": "1935 年 2 月至 6 月，红二十六军、红二十七军在第二次反“围剿”中先后攻克安定、延长、延川、安塞、保安、靖边等县城，使陕甘边与陕北苏区连成一片。县城名单为通行说法，待页码级核对。",
+      "en": "From February to June 1935, the 26th and 27th Red Armies took Anding, Yanchang, Yanchuan, Ansai, Bao’an and Jingbian county seats during the second counter-encirclement campaign, linking the Shaanxi-Gansu border and northern Shaanxi base areas. The list of county seats follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对陕甘苏区、陕北红军与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "xibei-command-1935-05",
+      "third-encirclement-1935-07"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-shaanxi-third-1935-07",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "国民党军第三次“围剿”陕甘苏区",
+      "en": "KMT third encirclement campaign against the Shaanxi-Gansu Soviet area"
+    },
+    "date": "1935-07-01",
+    "location": {
+      "lng": 109.49,
+      "lat": 36.6,
+      "place": {
+        "zh": "陕西延安",
+        "en": "Yan’an, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "kmt-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "国民党军对陕甘苏区发动第三次“围剿”。",
+      "en": "KMT forces launch a third encirclement campaign against the Shaanxi-Gansu Soviet area."
+    },
+    "description": {
+      "zh": "1935 年 7 月起，国民党军调集兵力对陕甘苏区发动第三次“围剿”，企图在红二十五军、中央红军到达前消灭陕北红军。兵力与指挥关系为通行说法，待页码级核对。",
+      "en": "From July 1935, KMT forces concentrated troops for a third encirclement campaign against the Shaanxi-Gansu Soviet area, attempting to destroy the Shaanxi Red Army before the 25th Army and the Central Red Army could arrive. Troop strengths and command relationships follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对陕甘苏区、陕北红军与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "third-encirclement-1935-07",
+      "yongping-1935-09"
+    ],
+    "importance": 2,
+    "endDate": "1935-10-31"
+  },
+  {
+    "id": "third-encirclement-1935-07",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "陕甘苏区第三次反“围剿”",
+      "en": "Third counter-encirclement campaign in the Shaanxi-Gansu Soviet area"
+    },
+    "date": "1935-07-01",
+    "location": {
+      "lng": 109.49,
+      "lat": 36.6,
+      "place": {
+        "zh": "陕西延安",
+        "en": "Yan’an, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "shaanxi-red-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "陕北红军抗击国民党军第三次“围剿”，直至红二十五军、中央红军到达。",
+      "en": "The Shaanxi Red Army resisted the third KMT encirclement campaign until the 25th Army and the Central Red Army arrived."
+    },
+    "description": {
+      "zh": "1935 年 7 月起，国民党军对陕甘苏区发动第三次“围剿”，陕北红军展开反“围剿”作战。9 月红二十五军到达永坪，10 月中央红军到达吴起镇。兵力与起止月份为通行说法，待页码级核对。",
+      "en": "From July 1935, KMT forces launched a third encirclement campaign against the Shaanxi-Gansu Soviet area, and the Shaanxi Red Army fought back. The 25th Army reached Yongping in September and the Central Red Army reached Wuqi in October. Troop strengths and start/end months follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对陕甘苏区、陕北红军与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "six-counties-1935-06",
+      "yongping-1935-09"
+    ],
+    "importance": 2,
+    "endDate": "1935-10-31"
+  },
+  {
     "id": "banliyuan-1935-08",
     "atlasId": "long-march",
     "name": {
@@ -1975,12 +2473,12 @@
     ],
     "category": "会师",
     "summary": {
-      "zh": "红二十五军到达陕北，与陕北红军会师。",
-      "en": "The 25th Army reaches northern Shaanxi and joins the Shaanxi Red Army."
+      "zh": "红二十五军到达永坪与陕北红军会合，随后成立红十五军团。",
+      "en": "The 25th Army reached Yongping and joined the Shaanxi Red Army; the 15th Army Corps was formed shortly afterwards."
     },
     "description": {
-      "zh": "1935 年 9 月 15 日，红二十五军到达陕西延川永坪镇，与陕北红军会师，组成红十五军团。",
-      "en": "On September 15, 1935, the 25th Army reached Yongping, Yanchuan, Shaanxi, joined the Shaanxi Red Army, and formed the 15th Army Corps."
+      "zh": "1935 年 9 月 15 日，红二十五军到达陕西延川永坪镇，与陕北红军会合；9 月 18 日召开会师大会，宣布成立红十五军团。会师大会与军团成立日期为通行说法，待页码级核对。",
+      "en": "On September 15, 1935, the 25th Army reached Yongping, Yanchuan, Shaanxi, and joined the Shaanxi Red Army. On September 18 a link-up rally was held and the 15th Army Corps was proclaimed. The rally and corps founding dates follow conventional accounts and await page-level verification."
     },
     "images": [],
     "sources": [
