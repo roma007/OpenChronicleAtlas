@@ -147,6 +147,55 @@
     "relatedIds": []
   },
   {
+    "id": "lamuri-1406-02",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "南巫里",
+      "en": "Lamuri"
+    },
+    "date": "1406-02-01",
+    "location": {
+      "lng": 95.3,
+      "lat": 5.52,
+      "place": {
+        "zh": "南巫里（今印尼苏门答腊班达亚齐）",
+        "en": "Lamuri (modern Banda Aceh, Indonesia)"
+      }
+    },
+    "entityIds": [
+      "ming-fleet"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队过南巫里，开展贸易与补给。",
+      "en": "The fleet passed Lamuri for trade and supplies."
+    },
+    "description": {
+      "zh": "1406 年，郑和船队经过南巫里，与当地进行贸易并补充给养。地名采用古今对照，待史料校订。",
+      "en": "In 1406, Zheng He’s fleet passed Lamuri, trading and replenishing supplies. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "航线走向参考，坐标为示意简化"
+      }
+    ],
+    "relatedIds": [
+      "malacca-1406-01",
+      "ceylon-1406-06"
+    ],
+    "importance": 2
+  },
+  {
     "id": "samudera-1406-03",
     "atlasId": "zheng-he",
     "name": {
@@ -903,6 +952,104 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "cambay-1414-03",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "甘巴里",
+      "en": "Cambay"
+    },
+    "date": "1414-03-01",
+    "location": {
+      "lng": 72.63,
+      "lat": 22.3,
+      "place": {
+        "zh": "甘巴里（今印度古吉拉特坎贝）",
+        "en": "Cambay (modern Khambhat, India)"
+      }
+    },
+    "entityIds": [
+      "ming-fleet"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队访问甘巴里，开展古吉拉特贸易。",
+      "en": "The fleet visited Cambay for Gujarat trade."
+    },
+    "description": {
+      "zh": "1414 年，郑和船队访问甘巴里，与古吉拉特商人贸易。地名采用古今对照，待史料校订。",
+      "en": "In 1414, Zheng He’s fleet visited Cambay and traded with Gujarat merchants. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "航线走向参考，坐标为示意简化"
+      }
+    ],
+    "relatedIds": [
+      "calicut-1406-12",
+      "ahmadabad-1414-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ahmadabad-1414-03",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "阿拨把丹",
+      "en": "Ahmadabad"
+    },
+    "date": "1414-03-10",
+    "location": {
+      "lng": 72.58,
+      "lat": 23.03,
+      "place": {
+        "zh": "阿拨把丹（今印度古吉拉特艾哈迈达巴德）",
+        "en": "Ahmadabad (modern India)"
+      }
+    },
+    "entityIds": [
+      "ming-fleet"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队分遣访问阿拨把丹，采购织物。",
+      "en": "A detachment visited Ahmadabad for textiles."
+    },
+    "description": {
+      "zh": "1414 年，郑和船队分遣人员访问阿拨把丹，采购当地织物。地名采用古今对照，待史料校订。",
+      "en": "In 1414, a detachment of Zheng He’s fleet visited Ahmadabad to procure local textiles. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "航线走向参考，坐标为示意简化"
+      }
+    ],
+    "relatedIds": [
+      "cambay-1414-03",
+      "hormuz-1414-05"
+    ],
+    "importance": 2
   },
   {
     "id": "hormuz-1414-05",

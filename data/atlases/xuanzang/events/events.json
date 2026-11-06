@@ -609,6 +609,55 @@
     "relatedIds": []
   },
   {
+    "id": "balkh-631-04",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "缚喝",
+      "en": "Balkh"
+    },
+    "date": "0631-04-15",
+    "location": {
+      "lng": 66.9,
+      "lat": 36.76,
+      "place": {
+        "zh": "缚喝（今阿富汗巴尔赫）",
+        "en": "Balkh (modern Afghanistan)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访缚喝，参访佛教寺院。",
+      "en": "Xuanzang visited Balkh and its Buddhist monasteries."
+    },
+    "description": {
+      "zh": "631 年，玄奘到访缚喝，参访当地佛教寺院与圣迹。地名采用古今对照，待史料校订。",
+      "en": "In 631, Xuanzang visited Balkh and its Buddhist monasteries and sacred sites. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "iron-gate-631-03",
+      "bamiyan-631-06"
+    ],
+    "importance": 2
+  },
+  {
     "id": "bamiyan-631-06",
     "atlasId": "xuanzang",
     "name": {
@@ -898,6 +947,104 @@
     "relatedIds": [
       "udyana-631-11",
       "taxila-631-11"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sthaneshvara-631-12",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "萨他泥湿伐罗",
+      "en": "Sthaneshvara"
+    },
+    "date": "0631-12-10",
+    "location": {
+      "lng": 76.82,
+      "lat": 29.97,
+      "place": {
+        "zh": "萨他泥湿伐罗（今印度塔内萨尔）",
+        "en": "Sthaneshvara (modern Thanesar, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访萨他泥湿伐罗，参访佛教遗址。",
+      "en": "Xuanzang visited Sthaneshvara and its Buddhist remains."
+    },
+    "description": {
+      "zh": "631 年，玄奘到访萨他泥湿伐罗，参访当地佛教遗址。地名采用古今对照，待史料校订。",
+      "en": "In 631, Xuanzang visited Sthaneshvara and its Buddhist remains. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "mathura-631-12",
+      "kanauj-633-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "mathura-631-12",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "秣兔罗",
+      "en": "Mathura"
+    },
+    "date": "0631-12-20",
+    "location": {
+      "lng": 77.67,
+      "lat": 27.5,
+      "place": {
+        "zh": "秣兔罗（今印度马图拉）",
+        "en": "Mathura (modern India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访秣兔罗，参访佛教寺院。",
+      "en": "Xuanzang visited Mathura and its Buddhist monasteries."
+    },
+    "description": {
+      "zh": "631 年，玄奘到访秣兔罗，参访当地佛教寺院与圣迹。地名采用古今对照，待史料校订。",
+      "en": "In 631, Xuanzang visited Mathura and its Buddhist monasteries and sacred sites. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "sthaneshvara-631-12",
+      "nalanda-632-01"
     ],
     "importance": 2
   },
