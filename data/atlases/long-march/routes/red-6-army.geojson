@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.17,
+            26.32
+          ],
+          [
+            113.5,
+            26.5
+          ],
+          [
+            112.5,
+            26.8
+          ],
+          [
+            111.5,
+            27.0
+          ],
+          [
+            110.5,
+            27.5
+          ],
+          [
+            109.5,
+            27.8
+          ],
+          [
+            108.56,
+            27.99
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-6-army",
+        "startDate": "1934-08-07",
+        "endDate": "1934-10-24",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "遂川—木黄（红六军团西征）",
+          "en": "Suichuan–Muhuang (Red Sixth Army Group westward expedition)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    }
+  ]
+}

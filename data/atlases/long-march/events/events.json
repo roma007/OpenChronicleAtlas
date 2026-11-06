@@ -1,5 +1,59 @@
 [
   {
+    "id": "red6-breakout-1934-08",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "红六军团西征出发",
+      "en": "Red Sixth Army Group sets out westward"
+    },
+    "date": "1934-08-07",
+    "location": {
+      "lng": 114.17,
+      "lat": 26.32,
+      "place": {
+        "zh": "江西遂川",
+        "en": "Suichuan, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "red-6-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红六军团从湘赣苏区突围，开始西征。",
+      "en": "The Red Sixth Army Group broke out of the Hunan-Jiangxi Soviet area and began its westward expedition."
+    },
+    "description": {
+      "zh": "1934 年 8 月 7 日，红六军团从湘赣苏区遂川一带出发西征，为中央红军战略转移探路。日期与出发地点为通行说法，待页码级核对。",
+      "en": "On August 7, 1934, the Red Sixth Army Group set out westward from the Suichuan area of the Hunan-Jiangxi Soviet area, scouting the way for the Central Red Army’s strategic transfer. Dates and departure points follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二、六军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "muhuang-1934-10"
+    ],
+    "importance": 2
+  },
+  {
     "id": "ruijin-1934-10",
     "atlasId": "long-march",
     "name": {
@@ -114,6 +168,68 @@
     "relatedIds": []
   },
   {
+    "id": "muhuang-1934-10",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "木黄会师",
+      "en": "Muhuang link-up"
+    },
+    "date": "1934-10-24",
+    "location": {
+      "lng": 108.56,
+      "lat": 27.99,
+      "place": {
+        "zh": "贵州印江木黄",
+        "en": "Muhuang, Yinjiang, Guizhou"
+      }
+    },
+    "entityIds": [
+      "red-2-army",
+      "red-6-army"
+    ],
+    "category": "会师",
+    "summary": {
+      "zh": "红六军团与红二军团在木黄会师。",
+      "en": "The Red Sixth and Second Army Groups meet at Muhuang."
+    },
+    "description": {
+      "zh": "1934 年 10 月 24 日，红六军团与红二军团在贵州印江木黄会师，随后共同创建湘鄂川黔苏区。",
+      "en": "On October 24, 1934, the Red Sixth and Second Army Groups met at Muhuang, Yinjiang, Guizhou, and went on to establish the Hunan-Hubei-Sichuan-Guizhou Soviet area together."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二、六军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "red6-breakout-1934-08",
+      "shiwangping-1934-11"
+    ],
+    "importance": 3,
+    "aliases": [
+      {
+        "zh": "红二、六军团会师",
+        "en": "Red Second and Sixth Army Group link-up"
+      }
+    ]
+  },
+  {
     "id": "yizhang-1934-11",
     "atlasId": "long-march",
     "name": {
@@ -163,6 +279,122 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "shiwangping-1934-11",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "十万坪大捷",
+      "en": "Victory at Shiwangping"
+    },
+    "date": "1934-11-16",
+    "location": {
+      "lng": 109.95,
+      "lat": 29.15,
+      "place": {
+        "zh": "湖南永顺十万坪",
+        "en": "Shiwangping, Yongshun, Hunan"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红二、六军团在永顺十万坪伏击国民党军，取得大捷。",
+      "en": "The Red Second and Sixth Army Groups ambushed KMT forces at Shiwangping and won a major victory."
+    },
+    "description": {
+      "zh": "1934 年 11 月 16 日，红二、六军团在湖南永顺龙家寨十万坪伏击国民党军，取得湘鄂川黔苏区创建后的首次大捷。",
+      "en": "On November 16, 1934, the Red Second and Sixth Army Groups ambushed KMT forces at Shiwangping, Longjiazhai, Yongshun, Hunan, winning the first major victory after the creation of the Hunan-Hubei-Sichuan-Guizhou Soviet area."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二、六军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "muhuang-1934-10",
+      "chenjiahe-1935-04"
+    ],
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "龙家寨战斗",
+        "en": "Battle of Longjiazhai"
+      }
+    ]
+  },
+  {
+    "id": "kmt-xiangjiang-blockade-1934-11",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "国民党军湘江封锁线（湘军、桂军）",
+      "en": "KMT Xiang River Blockade"
+    },
+    "date": "1934-11-27",
+    "endDate": "1934-12-01",
+    "location": {
+      "lng": 111.07,
+      "lat": 25.93,
+      "place": {
+        "zh": "广西全州",
+        "en": "Quanzhou, Guangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "国民党军以湘江为第四道封锁线，企图围歼中央红军；红军突破封锁线但损失惨重。",
+      "en": "KMT forces used the Xiang River as a fourth blockade line to encircle the Central Red Army; the Red Army broke through at heavy cost."
+    },
+    "description": {
+      "zh": "1934 年 11 月，国民党军以第四路军（何键部）和桂军（白崇禧部）等依托湘江构筑第四道封锁线，集结重兵堵截中央红军。红军在全州、兴安之间强渡湘江，突破封锁线，但伤亡重大。部队番号与指挥关系为通行说法，待页码级核对。",
+      "en": "In November 1934, KMT forces including the Fourth Route Army (He Jian) and Guangxi forces (Bai Chongxi) established a fourth blockade line along the Xiang River and concentrated troops to intercept the Central Red Army. The Red Army crossed between Quanzhou and Xing’an, breaking the blockade but suffering heavy casualties. Unit designations and command relationships follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对国民党军封锁与追堵方向"
+      }
+    ],
+    "relatedIds": [
+      "xiangjiang-1934-11"
+    ],
+    "importance": 1
   },
   {
     "id": "xiangjiang-1934-11",
@@ -221,61 +453,6 @@
     ],
     "relatedIds": [],
     "endDate": "1934-12-01"
-  },
-  {
-    "id": "kmt-xiangjiang-blockade-1934-11",
-    "atlasId": "long-march",
-    "name": {
-      "zh": "国民党军湘江封锁线（湘军、桂军）",
-      "en": "KMT Xiang River Blockade"
-    },
-    "date": "1934-11-27",
-    "endDate": "1934-12-01",
-    "location": {
-      "lng": 111.07,
-      "lat": 25.93,
-      "place": {
-        "zh": "广西全州",
-        "en": "Quanzhou, Guangxi"
-      }
-    },
-    "entityIds": [
-      "kmt-army"
-    ],
-    "category": "军事",
-    "summary": {
-      "zh": "国民党军以湘江为第四道封锁线，企图围歼中央红军；红军突破封锁线但损失惨重。",
-      "en": "KMT forces used the Xiang River as a fourth blockade line to encircle the Central Red Army; the Red Army broke through at heavy cost."
-    },
-    "description": {
-      "zh": "1934 年 11 月，国民党军以第四路军（何键部）和桂军（白崇禧部）等依托湘江构筑第四道封锁线，集结重兵堵截中央红军。红军在全州、兴安之间强渡湘江，突破封锁线，但伤亡重大。部队番号与指挥关系为通行说法，待页码级核对。",
-      "en": "In November 1934, KMT forces including the Fourth Route Army (He Jian) and Guangxi forces (Bai Chongxi) established a fourth blockade line along the Xiang River and concentrated troops to intercept the Central Red Army. The Red Army crossed between Quanzhou and Xing’an, breaking the blockade but suffering heavy casualties. Unit designations and command relationships follow conventional accounts and await page-level verification."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《中国共产党历史》第一卷",
-        "author": "中共中央党史研究室",
-        "year": 2011,
-        "note": "事件日期与地点为初稿，待逐条校订"
-      },
-      {
-        "title": "《红军长征史》",
-        "author": "中共中央党史研究室第一研究部",
-        "year": 2006,
-        "note": "路线走向参考，坐标为示意简化"
-      },
-      {
-        "title": "《中国工农红军长征史料丛书》",
-        "author": "中国人民解放军历史资料丛书编审委员会",
-        "year": 2016,
-        "note": "用于核对国民党军封锁与追堵方向"
-      }
-    ],
-    "relatedIds": [
-      "xiangjiang-1934-11"
-    ],
-    "importance": 1
   },
   {
     "id": "tongdao-1934-12",
@@ -438,6 +615,61 @@
     "endDate": "1935-01-01"
   },
   {
+    "id": "kmt-wujiang-defense-1935-01",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "国民党军乌江防线（黔军）",
+      "en": "KMT Wu River Defense Line"
+    },
+    "date": "1935-01-01",
+    "endDate": "1935-01-06",
+    "location": {
+      "lng": 107.18,
+      "lat": 27.18,
+      "place": {
+        "zh": "贵州瓮安江界河",
+        "en": "Jiangjiehe, Weng’an, Guizhou"
+      }
+    },
+    "entityIds": [
+      "kmt-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "国民党黔军依托乌江设防，企图阻止红军北上遵义。",
+      "en": "KMT Guizhou forces defended the Wu River to block the Red Army’s advance toward Zunyi."
+    },
+    "description": {
+      "zh": "1935 年 1 月，国民党黔军王家烈部在乌江沿岸设防，企图阻止中央红军北上。红军在江界河等渡口突破防线，打开进军遵义的门户。部队番号与指挥关系为通行说法，待页码级核对。",
+      "en": "In January 1935, KMT Guizhou forces under Wang Jialie set up defenses along the Wu River to block the Central Red Army’s northward advance. The Red Army broke through at Jiangjiehe and other crossings, opening the way to Zunyi. Unit designations and command relationships follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对国民党军封锁与追堵方向"
+      }
+    ],
+    "relatedIds": [
+      "wujiang-1935-01"
+    ],
+    "importance": 2
+  },
+  {
     "id": "wujiang-1935-01",
     "atlasId": "long-march",
     "name": {
@@ -490,61 +722,6 @@
     "relatedIds": [
       "houchang-1934-12",
       "zunyi-1935-01"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "kmt-wujiang-defense-1935-01",
-    "atlasId": "long-march",
-    "name": {
-      "zh": "国民党军乌江防线（黔军）",
-      "en": "KMT Wu River Defense Line"
-    },
-    "date": "1935-01-01",
-    "endDate": "1935-01-06",
-    "location": {
-      "lng": 107.18,
-      "lat": 27.18,
-      "place": {
-        "zh": "贵州瓮安江界河",
-        "en": "Jiangjiehe, Weng’an, Guizhou"
-      }
-    },
-    "entityIds": [
-      "kmt-army"
-    ],
-    "category": "军事",
-    "summary": {
-      "zh": "国民党黔军依托乌江设防，企图阻止红军北上遵义。",
-      "en": "KMT Guizhou forces defended the Wu River to block the Red Army’s advance toward Zunyi."
-    },
-    "description": {
-      "zh": "1935 年 1 月，国民党黔军王家烈部在乌江沿岸设防，企图阻止中央红军北上。红军在江界河等渡口突破防线，打开进军遵义的门户。部队番号与指挥关系为通行说法，待页码级核对。",
-      "en": "In January 1935, KMT Guizhou forces under Wang Jialie set up defenses along the Wu River to block the Central Red Army’s northward advance. The Red Army broke through at Jiangjiehe and other crossings, opening the way to Zunyi. Unit designations and command relationships follow conventional accounts and await page-level verification."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《中国共产党历史》第一卷",
-        "author": "中共中央党史研究室",
-        "year": 2011,
-        "note": "事件日期与地点为初稿，待逐条校订"
-      },
-      {
-        "title": "《红军长征史》",
-        "author": "中共中央党史研究室第一研究部",
-        "year": 2006,
-        "note": "路线走向参考，坐标为示意简化"
-      },
-      {
-        "title": "《中国工农红军长征史料丛书》",
-        "author": "中国人民解放军历史资料丛书编审委员会",
-        "year": 2016,
-        "note": "用于核对国民党军封锁与追堵方向"
-      }
-    ],
-    "relatedIds": [
-      "wujiang-1935-01"
     ],
     "importance": 2
   },
@@ -668,6 +845,63 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "kmt-xiangechuanqian-1935-02",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "国民党军“围剿”湘鄂川黔苏区",
+      "en": "KMT encirclement of the Hunan-Hubei-Sichuan-Guizhou Soviet area"
+    },
+    "date": "1935-02-01",
+    "location": {
+      "lng": 109.95,
+      "lat": 29.15,
+      "place": {
+        "zh": "湖南永顺",
+        "en": "Yongshun, Hunan"
+      }
+    },
+    "entityIds": [
+      "kmt-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "国民党军对湘鄂川黔苏区发动“围剿”。",
+      "en": "KMT forces launch an encirclement campaign against the Hunan-Hubei-Sichuan-Guizhou Soviet area."
+    },
+    "description": {
+      "zh": "1935 年 2 月起，国民党军调集兵力对湘鄂川黔苏区发动“围剿”，红二、六军团展开反“围剿”作战。部队番号与指挥关系为通行说法，待页码级核对。",
+      "en": "From February 1935, KMT forces concentrated troops for an encirclement campaign against the Hunan-Hubei-Sichuan-Guizhou Soviet area, and the Red Second and Sixth Army Groups fought back. Unit designations and command relationships follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二、六军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "shiwangping-1934-11",
+      "chenjiahe-1935-04",
+      "zhongbao-1935-06"
+    ],
+    "importance": 2,
+    "endDate": "1935-04-30"
   },
   {
     "id": "erdu-chishui-1935-02",
@@ -897,6 +1131,61 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "chenjiahe-1935-04",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "陈家河战斗",
+      "en": "Battle of Chenjiahe"
+    },
+    "date": "1935-04-13",
+    "location": {
+      "lng": 110.0,
+      "lat": 29.5,
+      "place": {
+        "zh": "湖南桑植陈家河",
+        "en": "Chenjiahe, Sangzhi, Hunan"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红二、六军团在桑植陈家河歼灭国民党军一部。",
+      "en": "The Red Second and Sixth Army Groups destroyed a KMT unit at Chenjiahe."
+    },
+    "description": {
+      "zh": "1935 年 4 月 13 日，红二、六军团在湖南桑植陈家河地区歼灭国民党军第 58 师第 172 旅。番号为通行说法，待页码级核对。",
+      "en": "On April 13, 1935, the Red Second and Sixth Army Groups destroyed the 172nd Brigade of the KMT 58th Division at Chenjiahe, Sangzhi, Hunan. Unit designations follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二、六军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "shiwangping-1934-11",
+      "zhongbao-1935-06"
+    ],
+    "importance": 2
   },
   {
     "id": "kmt-jinsha-blockade-1935-05",
@@ -1339,6 +1628,61 @@
     "relatedIds": []
   },
   {
+    "id": "zhongbao-1935-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "忠堡大捷",
+      "en": "Victory at Zhongbao"
+    },
+    "date": "1935-06-12",
+    "location": {
+      "lng": 109.15,
+      "lat": 29.55,
+      "place": {
+        "zh": "湖北咸丰忠堡",
+        "en": "Zhongbao, Xianfeng, Hubei"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红二、六军团在咸丰忠堡歼灭国民党军第 41 师。",
+      "en": "The Red Second and Sixth Army Groups destroyed the KMT 41st Division at Zhongbao."
+    },
+    "description": {
+      "zh": "1935 年 6 月 12 日，红二、六军团在湖北咸丰忠堡地区歼灭国民党军第 41 师，俘师长张振汉。番号与俘获情况为通行说法，待页码级核对。",
+      "en": "On June 12, 1935, the Red Second and Sixth Army Groups destroyed the KMT 41st Division at Zhongbao, Xianfeng, Hubei, and captured its commander Zhang Zhenhan. Unit designations and capture details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二、六军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "chenjiahe-1935-04",
+      "banliyuan-1935-08"
+    ],
+    "importance": 2
+  },
+  {
     "id": "maogong-1935-06",
     "atlasId": "long-march",
     "name": {
@@ -1389,6 +1733,61 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "banliyuan-1935-08",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "板栗园大捷",
+      "en": "Victory at Banliyuan"
+    },
+    "date": "1935-08-03",
+    "location": {
+      "lng": 109.49,
+      "lat": 29.99,
+      "place": {
+        "zh": "湖北宣恩板栗园",
+        "en": "Banliyuan, Xuan’en, Hubei"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红二、六军团在宣恩板栗园歼灭国民党军第 85 师。",
+      "en": "The Red Second and Sixth Army Groups destroyed the KMT 85th Division at Banliyuan."
+    },
+    "description": {
+      "zh": "1935 年 8 月 3 日，红二、六军团在湖北宣恩板栗园地区歼灭国民党军第 85 师，击毙师长谢彬。番号与战果为通行说法，待页码级核对。",
+      "en": "On August 3, 1935, the Red Second and Sixth Army Groups destroyed the KMT 85th Division at Banliyuan, Xuan’en, Hubei, killing its commander Xie Bin. Unit designations and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二、六军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "zhongbao-1935-06",
+      "sangzhi-1935-11"
+    ],
+    "importance": 2
   },
   {
     "id": "maoergai-1935-08",
@@ -1990,6 +2389,61 @@
     "importance": 2
   },
   {
+    "id": "sangzhi-1935-11",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "桑植出发长征",
+      "en": "Setting out from Sangzhi"
+    },
+    "date": "1935-11-19",
+    "location": {
+      "lng": 110.16,
+      "lat": 29.4,
+      "place": {
+        "zh": "湖南桑植刘家坪",
+        "en": "Liujiaping, Sangzhi, Hunan"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红二、六军团从桑植刘家坪出发长征。",
+      "en": "The Red Second and Sixth Army Groups set out from Liujiaping, Sangzhi, on the Long March."
+    },
+    "description": {
+      "zh": "1935 年 11 月 19 日，红二、六军团从湖南桑植刘家坪、瑞塔铺出发，开始长征。",
+      "en": "On November 19, 1935, the Red Second and Sixth Army Groups set out from Liujiaping and Ruipu, Sangzhi, Hunan, beginning the Long March."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二、六军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "banliyuan-1935-08",
+      "wumeng-1936-02"
+    ],
+    "importance": 3
+  },
+  {
     "id": "zhiluozhen-1935-11",
     "atlasId": "long-march",
     "name": {
@@ -2050,6 +2504,228 @@
     "endDate": "1935-11-24"
   },
   {
+    "id": "wumeng-1936-02",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "乌蒙山回旋战",
+      "en": "Wumeng Mountains maneuvering battle"
+    },
+    "date": "1936-02-27",
+    "location": {
+      "lng": 104.73,
+      "lat": 27.12,
+      "place": {
+        "zh": "贵州赫章",
+        "en": "Hezhang, Guizhou"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红二、六军团在乌蒙山区与国民党军回旋作战。",
+      "en": "The Red Second and Sixth Army Groups maneuvered against KMT forces in the Wumeng Mountains."
+    },
+    "description": {
+      "zh": "1936 年 2 月至 3 月，红二、六军团在贵州赫章、云南镇雄、彝良一带的乌蒙山区与国民党军回旋作战，摆脱追堵。日期为通行说法，待页码级核对。",
+      "en": "From February to March 1936, the Red Second and Sixth Army Groups maneuvered against KMT forces in the Wumeng Mountains around Hezhang, Guizhou, and Zhenxiong and Yiliang, Yunnan, escaping pursuit. Dates follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二、六军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "sangzhi-1935-11",
+      "shigu-1936-04"
+    ],
+    "importance": 2,
+    "endDate": "1936-03-28"
+  },
+  {
+    "id": "shigu-1936-04",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "石鼓渡金沙江",
+      "en": "Crossing the Jinsha River at Shigu"
+    },
+    "date": "1936-04-25",
+    "location": {
+      "lng": 99.97,
+      "lat": 26.87,
+      "place": {
+        "zh": "云南丽江石鼓",
+        "en": "Shigu, Lijiang, Yunnan"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红二、六军团在丽江石鼓渡过金沙江。",
+      "en": "The Red Second and Sixth Army Groups crossed the Jinsha River at Shigu."
+    },
+    "description": {
+      "zh": "1936 年 4 月 25 日前后，红二、六军团在云南丽江石鼓渡过金沙江，北上会师。",
+      "en": "Around April 25, 1936, the Red Second and Sixth Army Groups crossed the Jinsha River at Shigu, Lijiang, Yunnan, and headed north to link up."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二、六军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "wumeng-1936-02",
+      "ganzi-1936-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ganzi-1936-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "甘孜会师",
+      "en": "Ganzi link-up"
+    },
+    "date": "1936-07-02",
+    "location": {
+      "lng": 99.99,
+      "lat": 31.62,
+      "place": {
+        "zh": "四川甘孜",
+        "en": "Ganzi, Sichuan"
+      }
+    },
+    "entityIds": [
+      "red-2-army",
+      "red-4-army"
+    ],
+    "category": "会师",
+    "summary": {
+      "zh": "红二、六军团与红四方面军在甘孜会师。",
+      "en": "The Red Second and Sixth Army Groups meet the Fourth Front Army at Ganzi."
+    },
+    "description": {
+      "zh": "1936 年 7 月初，红二、六军团到达四川甘孜，与红四方面军会师。会师日期有 6 月底至 7 月初的不同说法，待页码级核对。",
+      "en": "In early July 1936, the Red Second and Sixth Army Groups reached Ganzi, Sichuan, and met the Fourth Front Army. Accounts differ between late June and early July for the exact date, pending page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二、六军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "shigu-1936-04",
+      "red2-front-1936-07"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "red2-front-1936-07",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "红二方面军成立",
+      "en": "Establishment of the Red Second Front Army"
+    },
+    "date": "1936-07-05",
+    "location": {
+      "lng": 99.99,
+      "lat": 31.62,
+      "place": {
+        "zh": "四川甘孜",
+        "en": "Ganzi, Sichuan"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "红二、六军团与红三十二军组成红二方面军。",
+      "en": "The Red Second and Sixth Army Groups and the 32nd Army form the Red Second Front Army."
+    },
+    "description": {
+      "zh": "1936 年 7 月 5 日，根据中革军委命令，红二、六军团与红三十二军组成红二方面军，贺龙任总指挥，任弼时任政治委员。",
+      "en": "On July 5, 1936, by order of the Central Revolutionary Military Commission, the Red Second and Sixth Army Groups and the 32nd Army formed the Red Second Front Army, with He Long as commander and Ren Bishi as political commissar."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二、六军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "ganzi-1936-06",
+      "jiangtaibao-1936-10"
+    ],
+    "importance": 3
+  },
+  {
     "id": "huining-1936-10",
     "atlasId": "long-march",
     "name": {
@@ -2077,12 +2753,12 @@
     ],
     "category": "会师",
     "summary": {
-      "zh": "红一、红二、红四方面军在会宁会师。",
-      "en": "The First, Second, and Fourth Front Armies meet at Huining."
+      "zh": "红一、红四方面军在会宁会师；红二方面军随后在将台堡与红一方面军会师。",
+      "en": "The First and Fourth Front Armies meet at Huining; the Second Front Army later meets the First at Jiangtaibao."
     },
     "description": {
-      "zh": "1936 年 10 月 9 日，红一方面军与红四方面军在甘肃会宁会师，长征取得决定性胜利。",
-      "en": "On October 9, 1936, the First Front Army and the Fourth Front Army met at Huining, Gansu, a decisive victory of the Long March."
+      "zh": "1936 年 10 月 9 日，红一方面军与红四方面军在甘肃会宁会师。10 月 22 日，红二方面军与红一方面军在宁夏西吉将台堡会师，长征胜利结束。",
+      "en": "On October 9, 1936, the First and Fourth Front Armies met at Huining, Gansu. On October 22, the Second Front Army met the First at Jiangtaibao, Xiji, Ningxia, bringing the Long March to a victorious end."
     },
     "images": [],
     "sources": [

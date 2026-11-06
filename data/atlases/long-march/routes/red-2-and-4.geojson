@@ -119,6 +119,234 @@
         "type": "LineString",
         "coordinates": [
           [
+            102.36,
+            30.99
+          ],
+          [
+            101.5,
+            31.5
+          ],
+          [
+            100.5,
+            31.5
+          ],
+          [
+            99.99,
+            31.62
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-4-army",
+        "startDate": "1935-07-01",
+        "endDate": "1936-07-05",
+        "order": 3,
+        "segmentType": "advance",
+        "name": {
+          "zh": "懋功—甘孜（南下）",
+          "en": "Maogong–Ganzi (southward)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.56,
+            27.99
+          ],
+          [
+            109.2,
+            28.5
+          ],
+          [
+            109.95,
+            29.15
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1934-10-24",
+        "endDate": "1934-11-16",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "木黄—永顺",
+          "en": "Muhuang–Yongshun"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.95,
+            29.15
+          ],
+          [
+            110.05,
+            29.3
+          ],
+          [
+            110.16,
+            29.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1934-11-16",
+        "endDate": "1935-11-19",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "永顺—桑植",
+          "en": "Yongshun–Sangzhi"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.95,
+            29.15
+          ],
+          [
+            110.0,
+            29.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1935-04-12",
+        "endDate": "1935-04-14",
+        "order": 3,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "永顺—陈家河",
+          "en": "Yongshun–Chenjiahe"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.95,
+            29.15
+          ],
+          [
+            109.5,
+            29.4
+          ],
+          [
+            109.15,
+            29.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1935-06-11",
+        "endDate": "1935-06-13",
+        "order": 4,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "永顺—忠堡",
+          "en": "Yongshun–Zhongbao"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.95,
+            29.15
+          ],
+          [
+            109.7,
+            29.6
+          ],
+          [
+            109.49,
+            29.99
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1935-08-02",
+        "endDate": "1935-08-04",
+        "order": 5,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "永顺—板栗园",
+          "en": "Yongshun–Banliyuan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             110.16,
             29.4
           ],
@@ -128,7 +356,7 @@
           ],
           [
             109.15,
-            29.67
+            29.55
           ],
           [
             108.77,
@@ -149,6 +377,40 @@
           [
             105.29,
             27.3
+          ],
+          [
+            104.73,
+            27.12
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1935-11-19",
+        "endDate": "1936-02-27",
+        "order": 6,
+        "segmentType": "advance",
+        "name": {
+          "zh": "桑植—乌蒙山",
+          "en": "Sangzhi–Wumeng Mountains"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.73,
+            27.12
           ],
           [
             104.47,
@@ -177,6 +439,36 @@
           [
             99.97,
             26.87
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1936-02-27",
+        "endDate": "1936-04-25",
+        "order": 7,
+        "segmentType": "advance",
+        "name": {
+          "zh": "乌蒙山—石鼓",
+          "en": "Wumeng Mountains–Shigu"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.97,
+            26.87
           ],
           [
             99.7,
@@ -186,6 +478,36 @@
             100.5,
             30.05
           ],
+          [
+            99.99,
+            31.62
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1936-04-25",
+        "endDate": "1936-07-05",
+        "order": 8,
+        "segmentType": "advance",
+        "name": {
+          "zh": "石鼓—甘孜",
+          "en": "Shigu–Ganzi"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             99.99,
             31.62
@@ -218,15 +540,17 @@
       },
       "properties": {
         "entityId": "red-2-army",
-        "startDate": "1935-11-19",
+        "startDate": "1936-07-05",
         "endDate": "1936-10-22",
-        "order": 1,
+        "order": 9,
         "segmentType": "advance",
         "name": {
-          "zh": "湘鄂川黔—甘孜—将台堡（示意）"
+          "zh": "甘孜—将台堡",
+          "en": "Ganzi–Jiangtaibao"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
         },
         "extensions": {
           "precision": "schematic"

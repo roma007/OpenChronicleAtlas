@@ -10,12 +10,12 @@
     "en": "1934–1936"
   },
   "timeRange": {
-    "start": "1934-10-10",
+    "start": "1934-08-07",
     "end": "1936-10-22"
   },
   "cover": "assets/cover.jpg",
   "description": {
-    "zh": "1934 年 10 月至 1936 年 10 月，中国工农红军主力从长江南北各根据地向陕北和川陕甘地区进行战略转移。\n\n> 本数据为 M1 示例初稿：路线为示意简化，并标示国民党军追堵与封锁方向；事件日期、地点与表述待史料校订。",
+    "zh": "1934 年 8 月至 1936 年 10 月，中国工农红军主力从长江南北各根据地向陕北和川陕甘地区进行战略转移。\n\n> 本数据为初稿：路线为示意简化，并标示国民党军追堵与封锁方向；红二、六军团主线已补入，事件日期、地点与表述待史料校订。",
     "en": "From October 1934 to October 1936, the main forces of the Chinese Red Army moved from their bases in southern and central China to northern Shaanxi."
   },
   "defaultView": {
@@ -30,6 +30,7 @@
     "routes/kmt-army.geojson",
     "routes/red-25-army.geojson",
     "routes/red-2-and-4.geojson",
+    "routes/red-6-army.geojson",
     "routes/shaanxi-red-army.geojson"
   ],
   "events": [
@@ -63,13 +64,26 @@
       }
     },
     {
+      "id": "red-6-army",
+      "name": {
+        "zh": "红六军团",
+        "en": "Red Sixth Army Group"
+      },
+      "color": "#d4a017",
+      "order": 3,
+      "description": {
+        "zh": "1934 年 8 月从湘赣苏区西征，10 月在贵州木黄与红二军团会师，随后共同长征。",
+        "en": "Set out westward from the Hunan-Jiangxi Soviet area in August 1934, met the Second Army Group at Muhuang, Guizhou, in October, and joined the Long March."
+      }
+    },
+    {
       "id": "red-4-army",
       "name": {
         "zh": "红四方面军",
         "en": "Red Fourth Front Army"
       },
       "color": "#7a5c3e",
-      "order": 3,
+      "order": 4,
       "description": {
         "zh": "从川陕根据地出发，1935 年 6 月与中央红军在懋功会师。",
         "en": "Departed the Sichuan-Shaanxi base area and met the Central Red Army at Maogong in June 1935."
@@ -82,7 +96,7 @@
         "en": "Red 25th Army"
       },
       "color": "#5b7f6b",
-      "order": 4,
+      "order": 5,
       "description": {
         "zh": "1934 年 11 月从鄂豫皖根据地出发，1935 年 9 月到达陕北永坪。",
         "en": "Departed the Hubei-Henan-Anhui base area in November 1934 and reached Yongping in northern Shaanxi in September 1935."
@@ -95,7 +109,7 @@
         "en": "Shaanxi Red Army"
       },
       "color": "#8a6d3b",
-      "order": 5,
+      "order": 6,
       "description": {
         "zh": "陕北根据地地方红军，与红二十五军、中央红军会师。",
         "en": "Local Red Army of the northern Shaanxi base area; met the 25th Army and the Central Red Army."
@@ -108,7 +122,7 @@
         "en": "KMT Forces"
       },
       "color": "#4a4a4a",
-      "order": 6,
+      "order": 7,
       "description": {
         "zh": "标示国民党军对长征红军的追击、封锁与堵截方向；路线为示意简化，待史料校订。",
         "en": "Indicates Kuomintang pursuit, blockade, and interception directions against the Red Army; routes are simplified and await historical review."
