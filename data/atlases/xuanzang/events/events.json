@@ -1206,6 +1206,55 @@
     "importance": 2
   },
   {
+    "id": "kapilavastu-632-08",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "迦毗罗卫",
+      "en": "Kapilavastu"
+    },
+    "date": "0632-08-20",
+    "location": {
+      "lng": 83.0,
+      "lat": 27.5,
+      "place": {
+        "zh": "迦毗罗卫（今尼泊尔/印度边境）",
+        "en": "Kapilavastu (modern Nepal-India border)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访迦毗罗卫，参访佛陀故里。",
+      "en": "Xuanzang visited Kapilavastu, the Buddha’s homeland."
+    },
+    "description": {
+      "zh": "632 年，玄奘到访迦毗罗卫，参访佛陀故里及周边圣迹。地名采用古今对照，待史料校订。",
+      "en": "In 632, Xuanzang visited Kapilavastu, the Buddha’s homeland, and nearby sacred sites. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "lumbini-632-08",
+      "ayodhya-632-09"
+    ],
+    "importance": 2
+  },
+  {
     "id": "sravasti-632-09",
     "atlasId": "xuanzang",
     "name": {
@@ -1255,6 +1304,55 @@
     "importance": 2
   },
   {
+    "id": "ayodhya-632-09",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "阿逾陀",
+      "en": "Ayodhya"
+    },
+    "date": "0632-09-10",
+    "location": {
+      "lng": 82.2,
+      "lat": 26.8,
+      "place": {
+        "zh": "阿逾陀（今印度阿约提亚）",
+        "en": "Ayodhya (modern India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访阿逾陀，参访佛教寺院。",
+      "en": "Xuanzang visited Ayodhya and its Buddhist monasteries."
+    },
+    "description": {
+      "zh": "632 年，玄奘到访阿逾陀，参访当地佛教寺院与圣迹。地名采用古今对照，待史料校订。",
+      "en": "In 632, Xuanzang visited Ayodhya and its Buddhist monasteries and sacred sites. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "kapilavastu-632-08",
+      "sravasti-632-09"
+    ],
+    "importance": 2
+  },
+  {
     "id": "sankassa-632-10",
     "atlasId": "xuanzang",
     "name": {
@@ -1300,6 +1398,55 @@
     "relatedIds": [
       "sravasti-632-09",
       "kanauj-633-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kaushambi-632-10",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "憍赏弥",
+      "en": "Kaushambi"
+    },
+    "date": "0632-10-10",
+    "location": {
+      "lng": 81.4,
+      "lat": 25.3,
+      "place": {
+        "zh": "憍赏弥（今印度科沙姆）",
+        "en": "Kaushambi (modern India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访憍赏弥，参访佛教遗址。",
+      "en": "Xuanzang visited Kaushambi and its Buddhist remains."
+    },
+    "description": {
+      "zh": "632 年，玄奘到访憍赏弥，参访当地佛教遗址。地名采用古今对照，待史料校订。",
+      "en": "In 632, Xuanzang visited Kaushambi and its Buddhist remains. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "sankassa-632-10",
+      "sravasti-632-09"
     ],
     "importance": 2
   },

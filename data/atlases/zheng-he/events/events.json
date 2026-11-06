@@ -291,6 +291,153 @@
     "importance": 2
   },
   {
+    "id": "kayal-1406-08",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "加异勒",
+      "en": "Kayal"
+    },
+    "date": "1406-08-01",
+    "location": {
+      "lng": 78.1,
+      "lat": 8.9,
+      "place": {
+        "zh": "加异勒（今印度卡亚尔）",
+        "en": "Kayal (modern India)"
+      }
+    },
+    "entityIds": [
+      "ming-fleet"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队访问加异勒，开展印度洋贸易。",
+      "en": "The fleet visited Kayal and conducted Indian Ocean trade."
+    },
+    "description": {
+      "zh": "1406 年，郑和船队访问加异勒，与当地进行贸易。地名采用古今对照，待史料校订。",
+      "en": "In 1406, Zheng He’s fleet visited Kayal and traded with local merchants. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "航线走向参考，坐标为示意简化"
+      }
+    ],
+    "relatedIds": [
+      "ceylon-1406-06",
+      "quilon-1406-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "quilon-1406-09",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "小葛兰",
+      "en": "Quilon"
+    },
+    "date": "1406-09-01",
+    "location": {
+      "lng": 76.6,
+      "lat": 8.88,
+      "place": {
+        "zh": "小葛兰（今印度奎隆）",
+        "en": "Quilon (modern Kollam, India)"
+      }
+    },
+    "entityIds": [
+      "ming-fleet"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队访问小葛兰，开展贸易与补给。",
+      "en": "The fleet visited Quilon for trade and supplies."
+    },
+    "description": {
+      "zh": "1406 年，郑和船队访问小葛兰，与当地进行贸易并补充给养。地名采用古今对照，待史料校订。",
+      "en": "In 1406, Zheng He’s fleet visited Quilon, trading and replenishing supplies. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "航线走向参考，坐标为示意简化"
+      }
+    ],
+    "relatedIds": [
+      "kayal-1406-08",
+      "cochin-1406-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "cochin-1406-10",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "柯枝",
+      "en": "Cochin"
+    },
+    "date": "1406-10-01",
+    "location": {
+      "lng": 76.27,
+      "lat": 9.93,
+      "place": {
+        "zh": "柯枝（今印度科钦）",
+        "en": "Cochin (modern Kochi, India)"
+      }
+    },
+    "entityIds": [
+      "ming-fleet"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队访问柯枝，开展贸易并建立联系。",
+      "en": "The fleet visited Cochin for trade and contacts."
+    },
+    "description": {
+      "zh": "1406 年，郑和船队访问柯枝，与当地进行贸易并建立联系。地名采用古今对照，待史料校订。",
+      "en": "In 1406, Zheng He’s fleet visited Cochin, trading and establishing contacts. Place names use modern equivalents and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "航线走向参考，坐标为示意简化"
+      }
+    ],
+    "relatedIds": [
+      "quilon-1406-09",
+      "calicut-1406-12"
+    ],
+    "importance": 2
+  },
+  {
     "id": "calicut-1406-12",
     "atlasId": "zheng-he",
     "name": {
