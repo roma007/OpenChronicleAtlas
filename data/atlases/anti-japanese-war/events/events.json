@@ -313,6 +313,61 @@
     }
   },
   {
+    "id": "kmt-29th-army-1937-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第29军与卢沟桥抗战",
+      "en": "The 29th Army and the defense of Lugouqiao"
+    },
+    "date": "1937-07-07",
+    "location": {
+      "lng": 116.2,
+      "lat": 39.85,
+      "place": {
+        "zh": "北平卢沟桥",
+        "en": "Lugouqiao, Beiping"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "第29军在卢沟桥奋起抵抗日军。",
+      "en": "The 29th Army resisted the Japanese at Lugouqiao."
+    },
+    "description": {
+      "zh": "1937 年 7 月 7 日卢沟桥事变后，第29军奋起抵抗，副军长佟麟阁、师长赵登禹在后续作战中阵亡。日期与主官为通行说法，待页码级核对。",
+      "en": "After the Lugouqiao Incident on July 7, 1937, the 29th Army resisted the Japanese; deputy commander Tong Linge and division commander Zhao Dengyu were killed in subsequent fighting. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "lugouqiao-incident-1937-07",
+      "kmt-1st-war-zone-1937-08"
+    ],
+    "importance": 3
+  },
+  {
     "id": "lugouqiao-incident-1937-07",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -482,6 +537,60 @@
       "nanjing-fall-1937-12"
     ],
     "importance": 1
+  },
+  {
+    "id": "japanese-shanghai-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻淞沪",
+      "en": "Japanese attack on Shanghai"
+    },
+    "date": "1937-08-13",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻上海，淞沪会战爆发。",
+      "en": "Japanese forces attacked Shanghai, beginning the Battle of Shanghai."
+    },
+    "description": {
+      "zh": "1937 年 8 月 13 日，日军进攻上海，淞沪会战爆发。日期与经过为通行说法，待页码级核对。",
+      "en": "On August 13, 1937, Japanese forces attacked Shanghai, beginning the Battle of Shanghai. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "battle-shanghai-1937-08"
+    ],
+    "importance": 2
   },
   {
     "id": "kmt-jianqiao-1937-08",
@@ -757,6 +866,62 @@
       "pingxingguan-1937-09"
     ],
     "importance": 3
+  },
+  {
+    "id": "kmt-18th-group-army-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第18集团军成立",
+      "en": "Establishment of the 18th Group Army"
+    },
+    "date": "1937-09-11",
+    "location": {
+      "lng": 109.49,
+      "lat": 36.6,
+      "place": {
+        "zh": "陕西延安",
+        "en": "Yan’an, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "kmt-forces",
+      "eighth-route-army"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "八路军改称国民革命军第18集团军。",
+      "en": "The Eighth Route Army was redesignated the 18th Group Army of the National Revolutionary Army."
+    },
+    "description": {
+      "zh": "1937 年 9 月 11 日，国民政府军事委员会将八路军改称国民革命军第18集团军，朱德任总司令，彭德怀任副总司令。日期与主官为通行说法，待页码级核对。",
+      "en": "On September 11, 1937, the National Military Council redesignated the Eighth Route Army as the 18th Group Army of the National Revolutionary Army, with Zhu De as commander-in-chief and Peng Dehuai as deputy commander-in-chief. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "eighth-route-army-formed-1937-08",
+      "pingxingguan-1937-09"
+    ],
+    "importance": 2
   },
   {
     "id": "pingxingguan-1937-09",
@@ -1275,6 +1440,60 @@
     "importance": 1
   },
   {
+    "id": "japanese-xuzhou-1938-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻徐州",
+      "en": "Japanese attack on Xuzhou"
+    },
+    "date": "1938-03-17",
+    "location": {
+      "lng": 117.3,
+      "lat": 34.8,
+      "place": {
+        "zh": "山东枣庄",
+        "en": "Zaozhuang, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻徐州，徐州会战展开。",
+      "en": "Japanese forces attacked Xuzhou, opening the Xuzhou campaign."
+    },
+    "description": {
+      "zh": "1938 年 3 月，日军进攻徐州，徐州会战展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In March 1938, Japanese forces attacked Xuzhou, opening the Xuzhou campaign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "taierzhuang-1938-03"
+    ],
+    "importance": 2
+  },
+  {
     "id": "jinjiluyu-1938-04",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -1499,6 +1718,60 @@
     "relatedIds": [
       "changsha-1939-09",
       "changsha-1941-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "japanese-wuhan-1938-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻武汉",
+      "en": "Japanese attack on Wuhan"
+    },
+    "date": "1938-06-12",
+    "location": {
+      "lng": 117.05,
+      "lat": 30.53,
+      "place": {
+        "zh": "安徽安庆",
+        "en": "Anqing, Anhui"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻安庆，武汉会战开始。",
+      "en": "Japanese forces attacked Anqing, beginning the Wuhan campaign."
+    },
+    "description": {
+      "zh": "1938 年 6 月 12 日，日军进攻安庆，武汉会战开始。日期与经过为通行说法，待页码级核对。",
+      "en": "On June 12, 1938, Japanese forces attacked Anqing, beginning the Wuhan campaign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "wuhan-fall-1938-10"
     ],
     "importance": 2
   },
@@ -1898,6 +2171,115 @@
     "importance": 1
   },
   {
+    "id": "japanese-changsha-1939-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军第一次进攻长沙",
+      "en": "First Japanese attack on Changsha"
+    },
+    "date": "1939-09-14",
+    "location": {
+      "lng": 113.13,
+      "lat": 29.36,
+      "place": {
+        "zh": "湖南新墙河",
+        "en": "Xinqiang River, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻新墙河，第一次长沙会战开始。",
+      "en": "Japanese forces attacked the Xinqiang River line, beginning the first Battle of Changsha."
+    },
+    "description": {
+      "zh": "1939 年 9 月 14 日，日军进攻湖南新墙河一线，第一次长沙会战开始。日期与经过为通行说法，待页码级核对。",
+      "en": "On September 14, 1939, Japanese forces attacked the Xinqiang River line in Hunan, beginning the first Battle of Changsha. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "changsha-1939-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-5th-army-kunlun-1939-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第5军与昆仑关战役",
+      "en": "The 5th Army at Kunlun Pass"
+    },
+    "date": "1939-12-18",
+    "location": {
+      "lng": 108.2,
+      "lat": 22.9,
+      "place": {
+        "zh": "广西南宁昆仑关",
+        "en": "Kunlun Pass, Nanning, Guangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第5军在昆仑关重创日军。",
+      "en": "The 5th Army inflicted heavy losses on Japanese forces at Kunlun Pass."
+    },
+    "description": {
+      "zh": "1939 年 12 月，第5军（军长杜聿明）在昆仑关战役中重创日军第5师团第21旅团。日期与战果为通行说法，待页码级核对。",
+      "en": "In December 1939, the 5th Army under Du Yuming inflicted heavy losses on the Japanese 5th Division’s 21st Brigade at Kunlun Pass. Dates and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "kunlun-1939-12",
+      "kmt-200th-division-1938-01"
+    ],
+    "importance": 3
+  },
+  {
     "id": "kunlun-1939-12",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -2247,6 +2629,60 @@
       "cheqiao-1944-03"
     ],
     "importance": 3
+  },
+  {
+    "id": "kmt-74th-army-shanggao-1941-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第74军与上高会战",
+      "en": "The 74th Army at Shanggao"
+    },
+    "date": "1941-03-15",
+    "location": {
+      "lng": 114.92,
+      "lat": 28.24,
+      "place": {
+        "zh": "江西上高",
+        "en": "Shanggao, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第74军参加上高会战，重创日军。",
+      "en": "The 74th Army fought in the Shanggao campaign and inflicted heavy losses on Japanese forces."
+    },
+    "description": {
+      "zh": "1941 年 3 月，第74军（军长王耀武）参加上高会战，与友军协同重创日军。日期与战果为通行说法，待页码级核对。",
+      "en": "In March 1941, the 74th Army under Wang Yaowu fought in the Shanggao campaign, cooperating with other Chinese units to inflict heavy losses on Japanese forces. Dates and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "shanggao-1941-03"
+    ],
+    "importance": 2
   },
   {
     "id": "shanggao-1941-03",
@@ -3266,6 +3702,60 @@
     "importance": 2
   },
   {
+    "id": "kmt-10th-army-changde-1943-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第10军与常德会战",
+      "en": "The 10th Army at Changde"
+    },
+    "date": "1943-11-02",
+    "location": {
+      "lng": 111.7,
+      "lat": 29.0,
+      "place": {
+        "zh": "湖南常德",
+        "en": "Changde, Hunan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第10军参加常德会战。",
+      "en": "The 10th Army fought in the Battle of Changde."
+    },
+    "description": {
+      "zh": "1943 年 11 月，第10军（军长方先觉）参加常德会战，守城部队与日军激战。日期与主官为通行说法，待页码级核对。",
+      "en": "In November 1943, the 10th Army under Fang Xianjue fought in the Battle of Changde, with its garrison engaging Japanese forces in fierce combat. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "changde-1943-11"
+    ],
+    "importance": 2
+  },
+  {
     "id": "cairo-conference-1943-11",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -3778,6 +4268,115 @@
     "importance": 1
   },
   {
+    "id": "kmt-10th-army-hengyang-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第10军与衡阳保卫战",
+      "en": "The 10th Army and the defense of Hengyang"
+    },
+    "date": "1944-06-22",
+    "location": {
+      "lng": 112.57,
+      "lat": 26.9,
+      "place": {
+        "zh": "湖南衡阳",
+        "en": "Hengyang, Hunan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第10军坚守衡阳四十七天。",
+      "en": "The 10th Army held Hengyang for forty-seven days."
+    },
+    "description": {
+      "zh": "1944 年 6 月，第10军（军长方先觉）坚守衡阳四十七天，是豫湘桂战役中的重要防御战。日期与战果为通行说法，待页码级核对。",
+      "en": "In June 1944, the 10th Army under Fang Xianjue held Hengyang for forty-seven days, an important defensive battle in the Henan-Hunan-Guangxi campaign. Dates and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "hengyang-1944-06",
+      "kmt-10th-army-changde-1943-11"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "zhujiang-column-1944-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "珠江纵队成立",
+      "en": "Establishment of the Zhujiang Column"
+    },
+    "date": "1944-10-01",
+    "location": {
+      "lng": 113.4,
+      "lat": 22.4,
+      "place": {
+        "zh": "广东中山五桂山",
+        "en": "Wuguishan, Zhongshan, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "广东人民抗日游击队珠江纵队在五桂山成立。",
+      "en": "The Zhujiang Column of the Guangdong People’s Anti-Japanese Guerrillas was established at Wuguishan."
+    },
+    "description": {
+      "zh": "1944 年 10 月，广东人民抗日游击队珠江纵队在广东中山五桂山成立，林锵云任司令员。日期与主官为通行说法，待页码级核对。",
+      "en": "In October 1944, the Zhujiang Column of the Guangdong People’s Anti-Japanese Guerrillas was established at Wuguishan, Zhongshan, Guangdong, with Lin Qiangyun as commander. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dongjiang-column-1943-12"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kmt-guilin-liuzhou-1944-11",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -3878,6 +4477,114 @@
     ],
     "relatedIds": [
       "ichigo-offensive-1944-04"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hanjiang-column-1945-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "韩江纵队成立",
+      "en": "Establishment of the Hanjiang Column"
+    },
+    "date": "1945-01-01",
+    "location": {
+      "lng": 116.6,
+      "lat": 23.6,
+      "place": {
+        "zh": "广东潮汕",
+        "en": "Chaoshan, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "广东人民抗日游击队韩江纵队在潮汕成立。",
+      "en": "The Hanjiang Column was established in the Chaoshan area."
+    },
+    "description": {
+      "zh": "1945 年 1 月，广东人民抗日游击队韩江纵队在广东潮汕地区成立。日期与地点为通行说法，待页码级核对。",
+      "en": "In January 1945, the Hanjiang Column of the Guangdong People’s Anti-Japanese Guerrillas was established in the Chaoshan area of Guangdong. Dates and places follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "zhujiang-column-1944-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "nanlu-army-1945-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "南路人民抗日解放军成立",
+      "en": "Establishment of the Nanlu People’s Anti-Japanese Liberation Army"
+    },
+    "date": "1945-01-01",
+    "location": {
+      "lng": 110.25,
+      "lat": 21.38,
+      "place": {
+        "zh": "广东遂溪",
+        "en": "Suixi, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "南路人民抗日解放军在遂溪成立。",
+      "en": "The Nanlu People’s Anti-Japanese Liberation Army was established at Suixi."
+    },
+    "description": {
+      "zh": "1945 年 1 月，南路人民抗日解放军在广东遂溪成立。日期与地点为通行说法，待页码级核对。",
+      "en": "In January 1945, the Nanlu People’s Anti-Japanese Liberation Army was established at Suixi, Guangdong. Dates and places follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "zhujiang-column-1944-10"
     ],
     "importance": 2
   },

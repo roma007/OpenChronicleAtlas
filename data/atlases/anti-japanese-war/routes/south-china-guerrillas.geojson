@@ -110,6 +110,112 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.4,
+            22.4
+          ],
+          [
+            113.6,
+            22.3
+          ],
+          [
+            113.8,
+            22.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "south-china-guerrillas",
+        "startDate": "1944-10-01",
+        "endDate": "1945-08-15",
+        "order": 4,
+        "segmentType": "advance",
+        "name": {
+          "zh": "五桂山—珠江口",
+          "en": "Wuguishan–Pearl River estuary"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.6,
+            23.6
+          ],
+          [
+            116.8,
+            23.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "south-china-guerrillas",
+        "startDate": "1945-01-01",
+        "endDate": "1945-08-15",
+        "order": 5,
+        "segmentType": "advance",
+        "name": {
+          "zh": "潮汕—韩江",
+          "en": "Chaoshan–Hanjiang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.25,
+            21.38
+          ],
+          [
+            110.1,
+            20.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "south-china-guerrillas",
+        "startDate": "1945-01-01",
+        "endDate": "1945-08-15",
+        "order": 6,
+        "segmentType": "advance",
+        "name": {
+          "zh": "遂溪—雷州",
+          "en": "Suixi–Leizhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
