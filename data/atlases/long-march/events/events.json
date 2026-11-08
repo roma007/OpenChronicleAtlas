@@ -391,6 +391,60 @@
     "relatedIds": []
   },
   {
+    "id": "red25-depart-1934-11",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "红二十五军长征出发",
+      "en": "The Red 25th Army sets out on the Long March"
+    },
+    "date": "1934-11-16",
+    "location": {
+      "lng": 114.3,
+      "lat": 31.9,
+      "place": {
+        "zh": "河南罗山何家冲",
+        "en": "Hejiachong, Luoshan, Henan"
+      }
+    },
+    "entityIds": [
+      "red-25-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红二十五军从河南罗山何家冲出发长征。",
+      "en": "The Red 25th Army set out from Hejiachong, Luoshan, Henan, on the Long March."
+    },
+    "description": {
+      "zh": "1934 年 11 月 16 日，红二十五军从河南罗山县何家冲出发，开始长征。出发地与日期为通行说法，待页码级核对。",
+      "en": "On November 16, 1934, the Red 25th Army set out from Hejiachong, Luoshan County, Henan, beginning the Long March. The departure site and date follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二十五军与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "dushuzhen-1934-11"
+    ],
+    "importance": 3
+  },
+  {
     "id": "shiwangping-1934-11",
     "atlasId": "long-march",
     "name": {
@@ -450,6 +504,118 @@
         "en": "Battle of Longjiazhai"
       }
     ]
+  },
+  {
+    "id": "dushuzhen-1934-11",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "独树镇战斗",
+      "en": "Battle of Dushuzhen"
+    },
+    "date": "1934-11-26",
+    "location": {
+      "lng": 113.0,
+      "lat": 33.3,
+      "place": {
+        "zh": "河南方城独树镇",
+        "en": "Dushuzhen, Fangcheng, Henan"
+      }
+    },
+    "entityIds": [
+      "red-25-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红二十五军在独树镇遭国民党军堵击，激战突围。",
+      "en": "The Red 25th Army broke through a KMT blockade at Dushuzhen."
+    },
+    "description": {
+      "zh": "1934 年 11 月 26 日，红二十五军在河南方城县独树镇遭国民党军堵击，经激战突围。番号与战果为通行说法，待页码级核对。",
+      "en": "On November 26, 1934, the Red 25th Army was intercepted by KMT forces at Dushuzhen, Fangcheng, Henan, and broke through after fierce fighting. Designations and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二十五军与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "red25-depart-1934-11",
+      "yujiahe-1934-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-red25-pursuit-1934-11",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "国民党军追堵红二十五军",
+      "en": "KMT pursuit of the Red 25th Army"
+    },
+    "date": "1934-11-26",
+    "location": {
+      "lng": 113.0,
+      "lat": 33.3,
+      "place": {
+        "zh": "河南方城独树镇",
+        "en": "Dushuzhen, Fangcheng, Henan"
+      }
+    },
+    "entityIds": [
+      "kmt-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "国民党军对红二十五军进行追堵。",
+      "en": "KMT forces pursued and intercepted the Red 25th Army."
+    },
+    "description": {
+      "zh": "1934 年 11 月至 1935 年 9 月，国民党军对红二十五军进行追堵，红军经豫陕甘边进入陕北。部队番号与指挥关系为通行说法，待页码级核对。",
+      "en": "From November 1934 to September 1935, KMT forces pursued and intercepted the Red 25th Army, which moved through the Henan-Shaanxi-Gansu border region into northern Shaanxi. Unit designations and command relationships follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二十五军与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "dushuzhen-1934-11",
+      "yujiahe-1934-12",
+      "sipocun-1935-08"
+    ],
+    "importance": 2,
+    "endDate": "1935-09-15"
   },
   {
     "id": "kmt-xiangjiang-blockade-1934-11",
@@ -563,6 +729,61 @@
     ],
     "relatedIds": [],
     "endDate": "1934-12-01"
+  },
+  {
+    "id": "yujiahe-1934-12",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "庾家河战斗",
+      "en": "Battle of Yujiahe"
+    },
+    "date": "1934-12-10",
+    "location": {
+      "lng": 110.2,
+      "lat": 34.0,
+      "place": {
+        "zh": "陕西洛南庾家河",
+        "en": "Yujiahe, Luonan, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "red-25-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红二十五军在庾家河与国民党军激战，军长、副军长负伤。",
+      "en": "The Red 25th Army fought a fierce battle at Yujiahe; its commander and deputy commander were wounded."
+    },
+    "description": {
+      "zh": "1934 年 12 月 10 日，红二十五军在陕西洛南县庾家河与国民党军激战，军长程子华、副军长徐海东负伤。番号与伤情为通行说法，待页码级核对。",
+      "en": "On December 10, 1934, the Red 25th Army fought a fierce battle with KMT forces at Yujiahe, Luonan, Shaanxi; commander Cheng Zihua and deputy commander Xu Haidong were wounded. Designations and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二十五军与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "dushuzhen-1934-11",
+      "eyushan-1935-01"
+    ],
+    "importance": 2
   },
   {
     "id": "tongdao-1934-12",
@@ -832,6 +1053,61 @@
     "relatedIds": [
       "houchang-1934-12",
       "zunyi-1935-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "eyushan-1935-01",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "鄂豫陕苏区创建",
+      "en": "Creation of the Hubei-Henan-Shaanxi Soviet area"
+    },
+    "date": "1935-01-15",
+    "location": {
+      "lng": 109.94,
+      "lat": 33.87,
+      "place": {
+        "zh": "陕西商洛",
+        "en": "Shangluo, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "red-25-army"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "红二十五军在陕南创建鄂豫陕苏区。",
+      "en": "The Red 25th Army established the Hubei-Henan-Shaanxi Soviet area in southern Shaanxi."
+    },
+    "description": {
+      "zh": "1935 年 1 月，红二十五军在陕西商洛一带创建鄂豫陕苏区，开展游击战争。月份与范围为通行说法，待页码级核对。",
+      "en": "In January 1935, the Red 25th Army established the Hubei-Henan-Shaanxi Soviet area around Shangluo, Shaanxi, and conducted guerrilla warfare. The month and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二十五军与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "yujiahe-1934-12",
+      "yuanjiagoukou-1935-07"
     ],
     "importance": 2
   },
@@ -2233,6 +2509,116 @@
     "endDate": "1935-10-31"
   },
   {
+    "id": "yuanjiagoukou-1935-07",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "袁家沟口战斗",
+      "en": "Battle of Yuanjiagoukou"
+    },
+    "date": "1935-07-02",
+    "location": {
+      "lng": 109.9,
+      "lat": 33.5,
+      "place": {
+        "zh": "陕西山阳袁家沟口",
+        "en": "Yuanjiagoukou, Shanyang, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "red-25-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红二十五军在袁家沟口歼灭国民党军陕军警备第一旅。",
+      "en": "The Red 25th Army destroyed the KMT Shaanxi 1st Security Brigade at Yuanjiagoukou."
+    },
+    "description": {
+      "zh": "1935 年 7 月 2 日，红二十五军在陕西山阳县袁家沟口歼灭国民党军陕军警备第一旅，俘旅长唐嗣桐。番号与战果为通行说法，待页码级核对。",
+      "en": "On July 2, 1935, the Red 25th Army destroyed the KMT Shaanxi 1st Security Brigade at Yuanjiagoukou, Shanyang, Shaanxi, capturing its commander Tang Sitong. Designations and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二十五军与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "eyushan-1935-01",
+      "red25-west-1935-07"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "red25-west-1935-07",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "红二十五军西征",
+      "en": "The Red 25th Army’s westward expedition"
+    },
+    "date": "1935-07-16",
+    "location": {
+      "lng": 108.85,
+      "lat": 34.05,
+      "place": {
+        "zh": "陕西长安沣峪口",
+        "en": "Fengyukou, Chang’an, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "red-25-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红二十五军从沣峪口出发西征北上。",
+      "en": "The Red 25th Army set out westward from Fengyukou."
+    },
+    "description": {
+      "zh": "1935 年 7 月 16 日，红二十五军从陕西长安县沣峪口出发西征北上，向陕甘苏区挺进。日期与出发地为通行说法，待页码级核对。",
+      "en": "On July 16, 1935, the Red 25th Army set out westward from Fengyukou, Chang’an, Shaanxi, advancing toward the Shaanxi-Gansu Soviet area. The date and departure site follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二十五军与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "yuanjiagoukou-1935-07",
+      "sipocun-1935-08"
+    ],
+    "importance": 2
+  },
+  {
     "id": "banliyuan-1935-08",
     "atlasId": "long-march",
     "name": {
@@ -2337,6 +2723,61 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "sipocun-1935-08",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "四坡村战斗",
+      "en": "Battle of Sipocun"
+    },
+    "date": "1935-08-21",
+    "location": {
+      "lng": 107.4,
+      "lat": 35.3,
+      "place": {
+        "zh": "甘肃泾川四坡村",
+        "en": "Sipocun, Jingchuan, Gansu"
+      }
+    },
+    "entityIds": [
+      "red-25-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红二十五军在四坡村遭国民党军袭击，政委吴焕先牺牲。",
+      "en": "The Red 25th Army was attacked at Sipocun; political commissar Wu Huanxian was killed."
+    },
+    "description": {
+      "zh": "1935 年 8 月 21 日，红二十五军在甘肃泾川县四坡村汭河渡河时遭国民党军袭击，政委吴焕先牺牲。日期与地点为通行说法，待页码级核对。",
+      "en": "On August 21, 1935, the Red 25th Army was attacked by KMT forces while crossing the Rui River at Sipocun, Jingchuan, Gansu; political commissar Wu Huanxian was killed. The date and site follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红二十五军与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "red25-west-1935-07",
+      "yongping-1935-09"
+    ],
+    "importance": 3
   },
   {
     "id": "baozuo-1935-08",
@@ -2501,7 +2942,9 @@
         "note": "用于核对「永坪会师」的会师时间、部队番号与地点"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "sipocun-1935-08"
+    ]
   },
   {
     "id": "kmt-lazikou-blockade-1935-09",

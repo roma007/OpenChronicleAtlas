@@ -7,44 +7,232 @@
         "type": "LineString",
         "coordinates": [
           [
-            114.53,
-            32.2
+            114.3,
+            31.9
           ],
           [
-            113.42,
-            32.38
+            113.8,
+            32.4
           ],
           [
-            113,
-            33.25
-          ],
+            113.0,
+            33.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-25-army",
+        "startDate": "1934-11-16",
+        "endDate": "1934-11-26",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "何家冲—独树镇",
+          "en": "Hejiachong–Dushuzhen"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
-            112.9,
-            33.74
+            113.0,
+            33.3
           ],
           [
             111.6,
             33.78
           ],
           [
-            111.05,
-            34.05
+            110.2,
+            34.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-25-army",
+        "startDate": "1934-11-27",
+        "endDate": "1934-12-10",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "独树镇—庾家河",
+          "en": "Dushuzhen–Yujiahe"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.2,
+            34.0
           ],
           [
-            110.15,
-            34.09
-          ],
+            109.94,
+            33.87
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-25-army",
+        "startDate": "1934-12-11",
+        "endDate": "1935-01-15",
+        "order": 3,
+        "segmentType": "advance",
+        "name": {
+          "zh": "庾家河—商洛（鄂豫陕苏区）",
+          "en": "Yujiahe–Shangluo (Hubei-Henan-Shaanxi Soviet area)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             109.94,
             33.87
           ],
           [
-            109.32,
-            34.15
+            109.9,
+            33.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-25-army",
+        "startDate": "1935-01-16",
+        "endDate": "1935-07-02",
+        "order": 4,
+        "segmentType": "advance",
+        "name": {
+          "zh": "商洛—袁家沟口",
+          "en": "Shangluo–Yuanjiagoukou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.9,
+            33.5
           ],
           [
-            108.33,
-            35.11
+            109.0,
+            33.9
+          ],
+          [
+            108.85,
+            34.05
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-25-army",
+        "startDate": "1935-07-03",
+        "endDate": "1935-07-16",
+        "order": 5,
+        "segmentType": "advance",
+        "name": {
+          "zh": "袁家沟口—沣峪口",
+          "en": "Yuanjiagoukou–Fengyukou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.85,
+            34.05
+          ],
+          [
+            107.5,
+            34.5
+          ],
+          [
+            107.4,
+            35.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-25-army",
+        "startDate": "1935-07-17",
+        "endDate": "1935-08-21",
+        "order": 6,
+        "segmentType": "advance",
+        "name": {
+          "zh": "沣峪口—四坡村",
+          "en": "Fengyukou–Sipocun"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4,
+            35.3
+          ],
+          [
+            108.0,
+            35.8
           ],
           [
             108.77,
@@ -58,15 +246,17 @@
       },
       "properties": {
         "entityId": "red-25-army",
-        "startDate": "1934-11-16",
+        "startDate": "1935-08-22",
         "endDate": "1935-09-15",
-        "order": 1,
+        "order": 7,
         "segmentType": "advance",
         "name": {
-          "zh": "鄂豫皖—陕北永坪（示意）"
+          "zh": "四坡村—永坪",
+          "en": "Sipocun–Yongping"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
         },
         "extensions": {
           "precision": "schematic"
