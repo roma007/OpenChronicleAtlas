@@ -424,6 +424,115 @@
     "importance": 1
   },
   {
+    "id": "japanese-nankou-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻南口",
+      "en": "Japanese attack on Nankou"
+    },
+    "date": "1937-08-08",
+    "location": {
+      "lng": 115.9,
+      "lat": 40.3,
+      "place": {
+        "zh": "河北南口",
+        "en": "Nankou, Hebei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻南口，平绥线作战展开。",
+      "en": "Japanese forces attacked Nankou, opening operations along the Beiping-Suiyuan railway."
+    },
+    "description": {
+      "zh": "1937 年 8 月，日军进攻河北南口，平绥线作战展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In August 1937, Japanese forces attacked Nankou, Hebei, opening operations along the Beiping-Suiyuan railway. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-13th-army-nankou-1937-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-13th-army-nankou-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第13军与南口战役",
+      "en": "The 13th Army at Nankou"
+    },
+    "date": "1937-08-08",
+    "location": {
+      "lng": 115.9,
+      "lat": 40.3,
+      "place": {
+        "zh": "河北南口",
+        "en": "Nankou, Hebei"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第13军在南口抗击日军，掩护平绥线。",
+      "en": "The 13th Army resisted the Japanese at Nankou, covering the Beiping-Suiyuan railway."
+    },
+    "description": {
+      "zh": "1937 年 8 月，第13军（军长汤恩伯）在河北南口抗击日军，掩护平绥线。日期与主官为通行说法，待页码级核对。",
+      "en": "In August 1937, the 13th Army under Tang Enbo resisted Japanese forces at Nankou, Hebei, covering the Beiping-Suiyuan railway. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-nankou-1937-08",
+      "kmt-1st-war-zone-1937-08"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kmt-jiangyin-1937-08",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -809,6 +918,61 @@
     "relatedIds": [
       "battle-shanghai-1937-08",
       "kmt-1st-war-zone-1937-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-18th-army-luodian-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第18军与罗店争夺战",
+      "en": "The 18th Army at Luodian"
+    },
+    "date": "1937-08-23",
+    "location": {
+      "lng": 121.35,
+      "lat": 31.4,
+      "place": {
+        "zh": "上海罗店",
+        "en": "Luodian, Shanghai"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第18军在罗店与日军反复争夺。",
+      "en": "The 18th Army fought repeated battles for Luodian."
+    },
+    "description": {
+      "zh": "1937 年 8 月 23 日，第18军（军长罗卓英）在上海罗店与日军反复争夺。日期与主官为通行说法，待页码级核对。",
+      "en": "On August 23, 1937, the 18th Army under Luo Zhuoying fought repeated battles with Japanese forces at Luodian, Shanghai. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "battle-shanghai-1937-08",
+      "japanese-shanghai-1937-08"
     ],
     "importance": 2
   },
@@ -1381,6 +1545,115 @@
     "importance": 2
   },
   {
+    "id": "japanese-linyi-1938-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻临沂",
+      "en": "Japanese attack on Linyi"
+    },
+    "date": "1938-03-14",
+    "location": {
+      "lng": 118.35,
+      "lat": 35.05,
+      "place": {
+        "zh": "山东临沂",
+        "en": "Linyi, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第5师团进攻临沂。",
+      "en": "The Japanese 5th Division attacked Linyi."
+    },
+    "description": {
+      "zh": "1938 年 3 月，日军第5师团进攻山东临沂，与中国守军激战。日期与部队为通行说法，待页码级核对。",
+      "en": "In March 1938, the Japanese 5th Division attacked Linyi, Shandong, fighting fiercely with Chinese defenders. Dates and units follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-59th-army-linyi-1938-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-59th-army-linyi-1938-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第59军与临沂保卫战",
+      "en": "The 59th Army at Linyi"
+    },
+    "date": "1938-03-14",
+    "location": {
+      "lng": 118.35,
+      "lat": 35.05,
+      "place": {
+        "zh": "山东临沂",
+        "en": "Linyi, Shandong"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第59军增援临沂，与第40军击退日军。",
+      "en": "The 59th Army reinforced Linyi and, with the 40th Army, repulsed the Japanese."
+    },
+    "description": {
+      "zh": "1938 年 3 月，第59军（军长张自忠）增援山东临沂，与第40军庞炳勋部协同击退日军。日期与主官为通行说法，待页码级核对。",
+      "en": "In March 1938, the 59th Army under Zhang Zizhong reinforced Linyi, Shandong, and cooperated with Pang Bingxun’s 40th Army to repulse the Japanese. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-linyi-1938-03",
+      "taierzhuang-1938-03"
+    ],
+    "importance": 3
+  },
+  {
     "id": "taierzhuang-1938-03",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -1492,6 +1765,61 @@
       "taierzhuang-1938-03"
     ],
     "importance": 2
+  },
+  {
+    "id": "kmt-52nd-army-taierzhuang-1938-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第52军与台儿庄战役",
+      "en": "The 52nd Army at Taierzhuang"
+    },
+    "date": "1938-03-24",
+    "location": {
+      "lng": 117.73,
+      "lat": 34.55,
+      "place": {
+        "zh": "山东台儿庄",
+        "en": "Taierzhuang, Shandong"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第52军参加台儿庄战役。",
+      "en": "The 52nd Army fought in the Battle of Taierzhuang."
+    },
+    "description": {
+      "zh": "1938 年 3 月至 4 月，第52军（军长关麟征）参加台儿庄战役，与友军协同重创日军。日期与主官为通行说法，待页码级核对。",
+      "en": "From March to April 1938, the 52nd Army under Guan Linzheng fought in the Battle of Taierzhuang, cooperating with other Chinese units to inflict heavy losses on the Japanese. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "taierzhuang-1938-03",
+      "kmt-59th-army-linyi-1938-03"
+    ],
+    "importance": 3
   },
   {
     "id": "jinjiluyu-1938-04",
@@ -2343,6 +2671,114 @@
     "importance": 1
   },
   {
+    "id": "japanese-wuyuan-1940-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻五原",
+      "en": "Japanese attack on Wuyuan"
+    },
+    "date": "1940-03-20",
+    "location": {
+      "lng": 108.27,
+      "lat": 41.1,
+      "place": {
+        "zh": "内蒙古五原",
+        "en": "Wuyuan, Inner Mongolia"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻绥远五原。",
+      "en": "Japanese forces attacked Wuyuan in Suiyuan."
+    },
+    "description": {
+      "zh": "1940 年 3 月，日军进攻绥远五原，中国军队随后反击。日期与经过为通行说法，待页码级核对。",
+      "en": "In March 1940, Japanese forces attacked Wuyuan in Suiyuan, and Chinese forces counterattacked afterwards. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-35th-army-wuyuan-1940-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-35th-army-wuyuan-1940-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第35军与五原战役",
+      "en": "The 35th Army at Wuyuan"
+    },
+    "date": "1940-03-20",
+    "location": {
+      "lng": 108.27,
+      "lat": 41.1,
+      "place": {
+        "zh": "内蒙古五原",
+        "en": "Wuyuan, Inner Mongolia"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第35军收复五原。",
+      "en": "The 35th Army recaptured Wuyuan."
+    },
+    "description": {
+      "zh": "1940 年 3 月，第35军（军长傅作义）在绥远五原地区反击日军，收复五原。日期与战果为通行说法，待页码级核对。",
+      "en": "In March 1940, the 35th Army under Fu Zuoyi counterattacked Japanese forces at Wuyuan, Suiyuan, and recaptured the town. Dates and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-wuyuan-1940-03"
+    ],
+    "importance": 2
+  },
+  {
     "id": "zaoyi-1940-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -2464,6 +2900,60 @@
       "pingxingguan-1937-09"
     ],
     "importance": 1
+  },
+  {
+    "id": "dongjiang-base-1940-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "东江抗日根据地",
+      "en": "Dongjiang anti-Japanese base area"
+    },
+    "date": "1940-09-01",
+    "location": {
+      "lng": 113.9,
+      "lat": 22.6,
+      "place": {
+        "zh": "广东宝安",
+        "en": "Bao’an, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "广东人民抗日游击队在宝安、惠阳一带建立根据地。",
+      "en": "The Guangdong People’s Anti-Japanese Guerrillas established a base area around Bao’an and Huiyang."
+    },
+    "description": {
+      "zh": "1940 年 9 月，广东人民抗日游击队第五大队在宝安、惠阳一带建立东江抗日根据地。时间与范围为通行说法，待页码级核对。",
+      "en": "In September 1940, the 5th Detachment of the Guangdong People’s Anti-Japanese Guerrillas established the Dongjiang base area around Bao’an and Huiyang. Dates and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dongjiang-column-1943-12"
+    ],
+    "importance": 2
   },
   {
     "id": "huangqiao-1940-10",
@@ -2629,6 +3119,61 @@
       "cheqiao-1944-03"
     ],
     "importance": 3
+  },
+  {
+    "id": "qiongya-base-1941-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "琼崖抗日根据地",
+      "en": "Qiongya anti-Japanese base area"
+    },
+    "date": "1941-02-01",
+    "location": {
+      "lng": 109.5,
+      "lat": 18.9,
+      "place": {
+        "zh": "海南五指山",
+        "en": "Wuzhishan, Hainan"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "琼崖抗日根据地以五指山为中心逐步形成。",
+      "en": "The Qiongya base area took shape around the Wuzhishan Mountains."
+    },
+    "description": {
+      "zh": "1941 年 2 月，琼崖抗日根据地以海南五指山为中心逐步形成。时间与范围为通行说法，待页码级核对。",
+      "en": "In February 1941, the Qiongya anti-Japanese base area gradually took shape around the Wuzhishan Mountains in Hainan. Dates and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "qiongya-independent-1938-12",
+      "qiongya-counter-1942-05"
+    ],
+    "importance": 2
   },
   {
     "id": "kmt-74th-army-shanggao-1941-03",
@@ -2870,6 +3415,116 @@
     "relatedIds": [
       "changsha-1939-09",
       "changsha-1941-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "japanese-changsha-1941-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军第二次进攻长沙",
+      "en": "Second Japanese attack on Changsha"
+    },
+    "date": "1941-09-07",
+    "location": {
+      "lng": 113.13,
+      "lat": 29.36,
+      "place": {
+        "zh": "湖南新墙河",
+        "en": "Xinqiang River, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻新墙河，第二次长沙会战开始。",
+      "en": "Japanese forces attacked the Xinqiang River line, beginning the second Battle of Changsha."
+    },
+    "description": {
+      "zh": "1941 年 9 月 7 日，日军进攻湖南新墙河一线，第二次长沙会战开始。日期与经过为通行说法，待页码级核对。",
+      "en": "On September 7, 1941, Japanese forces attacked the Xinqiang River line in Hunan, beginning the second Battle of Changsha. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "changsha-1941-09",
+      "kmt-20th-army-changsha-1941-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-20th-army-changsha-1941-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第20军与第二次长沙会战",
+      "en": "The 20th Army in the second Battle of Changsha"
+    },
+    "date": "1941-09-07",
+    "location": {
+      "lng": 113.13,
+      "lat": 29.36,
+      "place": {
+        "zh": "湖南新墙河",
+        "en": "Xinqiang River, Hunan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第20军在新墙河一线参加第二次长沙会战。",
+      "en": "The 20th Army fought along the Xinqiang River in the second Battle of Changsha."
+    },
+    "description": {
+      "zh": "1941 年 9 月，第20军（军长杨森）在湖南新墙河一线参加第二次长沙会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In September 1941, the 20th Army under Yang Sen fought along the Xinqiang River in Hunan during the second Battle of Changsha. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-changsha-1941-09",
+      "changsha-1941-09"
     ],
     "importance": 2
   },
