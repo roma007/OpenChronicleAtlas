@@ -369,6 +369,61 @@
     "importance": 1
   },
   {
+    "id": "kmt-jiangyin-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "江阴封锁线",
+      "en": "Jiangyin blockade line"
+    },
+    "date": "1937-08-12",
+    "location": {
+      "lng": 120.28,
+      "lat": 31.91,
+      "place": {
+        "zh": "江苏江阴",
+        "en": "Jiangyin, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "中国海军在江阴段沉船封江，阻止日军溯江而上。",
+      "en": "The Chinese navy sank ships to block the Yangtze at Jiangyin and halt the Japanese advance upstream."
+    },
+    "description": {
+      "zh": "1937 年 8 月 12 日，中国海军在长江江阴段沉船封江，构筑封锁线，迟滞日军溯江进攻。舰艇数量与封锁细节为通行说法，待页码级核对。",
+      "en": "On August 12, 1937, the Chinese navy sank ships to block the Yangtze at Jiangyin, constructing a blockade line to delay the Japanese advance upstream. Ship numbers and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "battle-shanghai-1937-08",
+      "kmt-jianqiao-1937-08"
+    ],
+    "importance": 2
+  },
+  {
     "id": "battle-shanghai-1937-08",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -429,6 +484,116 @@
     "importance": 1
   },
   {
+    "id": "kmt-jianqiao-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "笕桥空战",
+      "en": "Battle of Jianqiao"
+    },
+    "date": "1937-08-14",
+    "location": {
+      "lng": 120.23,
+      "lat": 30.33,
+      "place": {
+        "zh": "浙江杭州笕桥",
+        "en": "Jianqiao, Hangzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "中国空军在笕桥上空迎战日军，取得空战战果。",
+      "en": "Chinese air forces engaged Japanese aircraft over Jianqiao and scored a combat success."
+    },
+    "description": {
+      "zh": "1937 年 8 月 14 日，中国空军第四大队在浙江杭州笕桥上空迎战日军飞机，取得空战战果。大队长高志航率队参战。战果数字为通行说法，待页码级核对。",
+      "en": "On August 14, 1937, the Chinese Air Force’s 4th Group engaged Japanese aircraft over Jianqiao, Hangzhou, Zhejiang, scoring a combat success. Group commander Gao Zhihang led the sortie. Casualty figures follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "battle-shanghai-1937-08",
+      "kmt-jiangyin-1937-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "eighth-route-army-formed-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "八路军成立",
+      "en": "Establishment of the Eighth Route Army"
+    },
+    "date": "1937-08-25",
+    "location": {
+      "lng": 109.49,
+      "lat": 36.6,
+      "place": {
+        "zh": "陕西延安",
+        "en": "Yan’an, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "eighth-route-army"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "红军主力改编为国民革命军第八路军。",
+      "en": "The main Red Army forces were reorganized as the Eighth Route Army of the National Revolutionary Army."
+    },
+    "description": {
+      "zh": "1937 年 8 月 25 日，中共中央军委发布命令，将中国工农红军主力改编为国民革命军第八路军，朱德任总指挥，彭德怀任副总指挥。日期与主官为通行说法，待页码级核对。",
+      "en": "On August 25, 1937, the Central Revolutionary Military Commission ordered the main forces of the Chinese Workers’ and Peasants’ Red Army reorganized as the Eighth Route Army of the National Revolutionary Army, with Zhu De as commander and Peng Dehuai as deputy commander. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "lugouqiao-incident-1937-07",
+      "pingxingguan-1937-09"
+    ],
+    "importance": 3
+  },
+  {
     "id": "pingxingguan-1937-09",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -455,7 +620,8 @@
       }
     },
     "entityIds": [
-      "china-resistance"
+      "china-resistance",
+      "eighth-route-army"
     ],
     "category": "战斗",
     "summary": {
@@ -486,6 +652,61 @@
       "hundred-regiments-1940-08"
     ],
     "importance": 2
+  },
+  {
+    "id": "new-fourth-army-formed-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "新四军成立",
+      "en": "Establishment of the New Fourth Army"
+    },
+    "date": "1937-10-12",
+    "location": {
+      "lng": 114.3,
+      "lat": 30.6,
+      "place": {
+        "zh": "湖北汉口",
+        "en": "Hankou, Hubei"
+      }
+    },
+    "entityIds": [
+      "new-fourth-army"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "南方八省红军游击队改编为国民革命军陆军新编第四军。",
+      "en": "Red Army guerrillas from eight southern provinces were reorganized as the New Fourth Army."
+    },
+    "description": {
+      "zh": "1937 年 10 月 12 日，国民政府军事委员会宣布将南方八省红军游击队改编为国民革命军陆军新编第四军，叶挺任军长，项英任副军长。日期与主官为通行说法，待页码级核对。",
+      "en": "On October 12, 1937, the National Military Council announced the reorganization of Red Army guerrillas from eight southern provinces as the New Fourth Army of the National Revolutionary Army, with Ye Ting as commander and Xiang Ying as deputy commander. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "lugouqiao-incident-1937-07",
+      "huangqiao-1940-10"
+    ],
+    "importance": 3
   },
   {
     "id": "xinkou-1937-10",
@@ -551,6 +772,61 @@
     "importance": 1
   },
   {
+    "id": "jinchaji-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "晋察冀军区成立",
+      "en": "Establishment of the Jin-Cha-Ji Military Region"
+    },
+    "date": "1937-11-07",
+    "location": {
+      "lng": 114.19,
+      "lat": 38.85,
+      "place": {
+        "zh": "河北阜平",
+        "en": "Fuping, Hebei"
+      }
+    },
+    "entityIds": [
+      "eighth-route-army"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "晋察冀军区在阜平成立，开辟华北敌后根据地。",
+      "en": "The Jin-Cha-Ji Military Region was established at Fuping, opening a base area behind Japanese lines in North China."
+    },
+    "description": {
+      "zh": "1937 年 11 月 7 日，晋察冀军区在河北阜平成立，聂荣臻任司令员兼政治委员，开辟华北第一个敌后抗日根据地。日期与主官为通行说法，待页码级核对。",
+      "en": "On November 7, 1937, the Jin-Cha-Ji Military Region was established at Fuping, Hebei, with Nie Rongzhen as commander and political commissar, opening North China’s first anti-Japanese base area behind enemy lines. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "pingxingguan-1937-09",
+      "jinsui-1938-01"
+    ],
+    "importance": 3
+  },
+  {
     "id": "nanjing-fall-1937-12",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -610,6 +886,171 @@
     "importance": 1
   },
   {
+    "id": "kmt-5th-war-zone-1938-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第五战区司令长官部",
+      "en": "Headquarters of the Fifth War Zone"
+    },
+    "date": "1938-01-01",
+    "location": {
+      "lng": 117.18,
+      "lat": 34.26,
+      "place": {
+        "zh": "江苏徐州",
+        "en": "Xuzhou, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "第五战区司令长官部驻徐州，统一指挥津浦线作战。",
+      "en": "The Fifth War Zone headquarters was based at Xuzhou, directing operations along the Jinpu railway."
+    },
+    "description": {
+      "zh": "1938 年初，第五战区司令长官部驻江苏徐州，李宗仁任司令长官，统一指挥津浦铁路沿线作战。时间与主官为通行说法，待页码级核对。",
+      "en": "In early 1938, the Fifth War Zone headquarters was based at Xuzhou, Jiangsu, with Li Zongren as commander, directing operations along the Jinpu railway. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "taierzhuang-1938-03",
+      "kmt-60th-army-1938-04"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jinsui-1938-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "晋绥根据地",
+      "en": "Jin-Sui base area"
+    },
+    "date": "1938-01-15",
+    "location": {
+      "lng": 111.13,
+      "lat": 38.46,
+      "place": {
+        "zh": "山西兴县",
+        "en": "Xingxian, Shanxi"
+      }
+    },
+    "entityIds": [
+      "eighth-route-army"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "八路军第一二〇师在晋西北开辟晋绥根据地。",
+      "en": "The 120th Division opened the Jin-Sui base area in northwestern Shanxi."
+    },
+    "description": {
+      "zh": "1938 年初，八路军第一二〇师在山西兴县一带开辟晋绥抗日根据地。时间与范围为通行说法，待页码级核对。",
+      "en": "In early 1938, the Eighth Route Army’s 120th Division opened the Jin-Sui anti-Japanese base area around Xingxian, Shanxi. Dates and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "jinchaji-1937-11",
+      "jinjiluyu-1938-04"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-200th-division-1938-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第 200 师成立",
+      "en": "Establishment of the 200th Division"
+    },
+    "date": "1938-01-15",
+    "location": {
+      "lng": 112.94,
+      "lat": 27.83,
+      "place": {
+        "zh": "湖南湘潭",
+        "en": "Xiangtan, Hunan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "中国第一个机械化师第 200 师在湘潭成立。",
+      "en": "The 200th Division, China’s first mechanized division, was formed at Xiangtan."
+    },
+    "description": {
+      "zh": "1938 年 1 月，中国第一个机械化师第 200 师在湖南湘潭成立，杜聿明任师长。成立时间与主官为通行说法，待页码级核对。",
+      "en": "In January 1938, China’s first mechanized division, the 200th Division, was formed at Xiangtan, Hunan, with Du Yuming as commander. The date and appointment follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "kunlun-1939-12",
+      "burma-expedition-1942-02"
+    ],
+    "importance": 2
+  },
+  {
     "id": "taierzhuang-1938-03",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -667,6 +1108,116 @@
       "wuhan-fall-1938-10"
     ],
     "importance": 1
+  },
+  {
+    "id": "jinjiluyu-1938-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "晋冀鲁豫根据地",
+      "en": "Jin-Ji-Lu-Yu base area"
+    },
+    "date": "1938-04-01",
+    "location": {
+      "lng": 113.3,
+      "lat": 37.0,
+      "place": {
+        "zh": "山西辽县",
+        "en": "Liaoxian, Shanxi"
+      }
+    },
+    "entityIds": [
+      "eighth-route-army"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "八路军第一二九师在晋东南开辟晋冀鲁豫根据地。",
+      "en": "The 129th Division opened the Jin-Ji-Lu-Yu base area in southeastern Shanxi."
+    },
+    "description": {
+      "zh": "1938 年 4 月前后，八路军第一二九师在山西辽县一带开辟晋冀鲁豫抗日根据地。时间与范围为通行说法，待页码级核对。",
+      "en": "Around April 1938, the Eighth Route Army’s 129th Division opened the Jin-Ji-Lu-Yu anti-Japanese base area around Liaoxian, Shanxi. Dates and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "jinsui-1938-01",
+      "shandong-column-1938-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-60th-army-1938-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "滇军第 60 军出滇",
+      "en": "The Yunnan 60th Army leaves Yunnan"
+    },
+    "date": "1938-04-01",
+    "location": {
+      "lng": 102.83,
+      "lat": 24.88,
+      "place": {
+        "zh": "云南昆明",
+        "en": "Kunming, Yunnan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "滇军第 60 军从昆明出发，开赴徐州会战前线。",
+      "en": "The Yunnan 60th Army set out from Kunming for the Xuzhou front."
+    },
+    "description": {
+      "zh": "1938 年 4 月，滇军第 60 军在卢汉率领下从云南昆明出发，开赴徐州会战前线。时间与主官为通行说法，待页码级核对。",
+      "en": "In April 1938, the Yunnan 60th Army under Lu Han set out from Kunming, Yunnan, for the Xuzhou front. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-5th-war-zone-1938-01",
+      "taierzhuang-1938-03"
+    ],
+    "importance": 2
   },
   {
     "id": "lanfeng-1938-05",
@@ -838,6 +1389,61 @@
       "guangzhou-fall-1938-10"
     ],
     "importance": 1
+  },
+  {
+    "id": "shandong-column-1938-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "山东纵队成立",
+      "en": "Establishment of the Shandong Column"
+    },
+    "date": "1938-12-27",
+    "location": {
+      "lng": 118.6,
+      "lat": 35.8,
+      "place": {
+        "zh": "山东沂水",
+        "en": "Yishui, Shandong"
+      }
+    },
+    "entityIds": [
+      "eighth-route-army"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "八路军山东纵队在沂水成立。",
+      "en": "The Eighth Route Army’s Shandong Column was established at Yishui."
+    },
+    "description": {
+      "zh": "1938 年 12 月 27 日，八路军山东纵队在山东沂水成立，统一指挥山东各地抗日武装。日期与地点为通行说法，待页码级核对。",
+      "en": "On December 27, 1938, the Eighth Route Army’s Shandong Column was established at Yishui, Shandong, to unify command of anti-Japanese forces across the province. Dates and places follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "jinjiluyu-1938-04",
+      "huangyadong-1941-11"
+    ],
+    "importance": 2
   },
   {
     "id": "suizao-1939-05",
@@ -1117,7 +1723,8 @@
       }
     },
     "entityIds": [
-      "china-resistance"
+      "china-resistance",
+      "eighth-route-army"
     ],
     "category": "战役",
     "summary": {
@@ -1147,6 +1754,171 @@
       "pingxingguan-1937-09"
     ],
     "importance": 1
+  },
+  {
+    "id": "huangqiao-1940-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "黄桥战役",
+      "en": "Battle of Huangqiao"
+    },
+    "date": "1940-10-04",
+    "location": {
+      "lng": 120.2,
+      "lat": 32.2,
+      "place": {
+        "zh": "江苏泰兴黄桥",
+        "en": "Huangqiao, Taixing, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "new-fourth-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "新四军在黄桥反击国民党军，打开苏北局面。",
+      "en": "The New Fourth Army counterattacked KMT forces at Huangqiao, opening up northern Jiangsu."
+    },
+    "description": {
+      "zh": "1940 年 10 月，新四军苏北指挥部在江苏泰兴黄桥地区反击国民党军韩德勤部，取得黄桥战役胜利。日期与战果为通行说法，待页码级核对。",
+      "en": "In October 1940, the New Fourth Army’s Northern Jiangsu Command counterattacked KMT forces under Han Deqin at Huangqiao, Taixing, Jiangsu, winning the Battle of Huangqiao. Dates and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "new-fourth-army-formed-1937-10",
+      "wannan-incident-1941-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "wannan-incident-1941-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "皖南事变",
+      "en": "Wannan Incident"
+    },
+    "date": "1941-01-06",
+    "location": {
+      "lng": 118.4,
+      "lat": 30.6,
+      "place": {
+        "zh": "安徽泾县茂林",
+        "en": "Maolin, Jing County, Anhui"
+      }
+    },
+    "entityIds": [
+      "new-fourth-army"
+    ],
+    "category": "事变",
+    "summary": {
+      "zh": "新四军军部及所属部队在皖南遭国民党军围攻。",
+      "en": "The New Fourth Army headquarters and its units were encircled by KMT forces in southern Anhui."
+    },
+    "description": {
+      "zh": "1941 年 1 月，新四军军部及所属皖南部队在安徽泾县茂林地区遭国民党军围攻，损失惨重，史称皖南事变。日期与经过为通行说法，待页码级核对。",
+      "en": "In January 1941, the New Fourth Army headquarters and its Southern Anhui units were encircled by KMT forces in the Maolin area of Jing County, Anhui, suffering heavy losses; this became known as the Wannan Incident. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "huangqiao-1940-10",
+      "new-fourth-army-rebuild-1941-01"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "new-fourth-army-rebuild-1941-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "新四军重建军部",
+      "en": "Reestablishment of the New Fourth Army headquarters"
+    },
+    "date": "1941-01-25",
+    "location": {
+      "lng": 120.16,
+      "lat": 33.35,
+      "place": {
+        "zh": "江苏盐城",
+        "en": "Yancheng, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "new-fourth-army"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "新四军在盐城重建军部，继续华中抗战。",
+      "en": "The New Fourth Army reestablished its headquarters at Yancheng and continued fighting in Central China."
+    },
+    "description": {
+      "zh": "1941 年 1 月 25 日，新四军在江苏盐城重建军部，陈毅任代军长，刘少奇任政治委员。日期与主官为通行说法，待页码级核对。",
+      "en": "On January 25, 1941, the New Fourth Army reestablished its headquarters at Yancheng, Jiangsu, with Chen Yi as acting commander and Liu Shaoqi as political commissar. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "wannan-incident-1941-01",
+      "cheqiao-1944-03"
+    ],
+    "importance": 3
   },
   {
     "id": "shanggao-1941-03",
@@ -1338,6 +2110,61 @@
     "importance": 2
   },
   {
+    "id": "huangyadong-1941-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "黄崖洞保卫战",
+      "en": "Defense of Huangyadong"
+    },
+    "date": "1941-11-10",
+    "location": {
+      "lng": 113.4,
+      "lat": 36.6,
+      "place": {
+        "zh": "山西黎城",
+        "en": "Licheng, Shanxi"
+      }
+    },
+    "entityIds": [
+      "eighth-route-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "八路军总部特务团在黄崖洞保卫兵工厂。",
+      "en": "The Eighth Route Army headquarters guard regiment defended the Huangyadong arsenal."
+    },
+    "description": {
+      "zh": "1941 年 11 月，八路军总部特务团在山西黎城黄崖洞与日军激战，保卫兵工厂。日期与战果为通行说法，待页码级核对。",
+      "en": "In November 1941, the Eighth Route Army headquarters guard regiment fought Japanese forces at Huangyadong, Licheng, Shanxi, defending the arsenal. Dates and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "shandong-column-1938-12",
+      "shiziling-1942-05"
+    ],
+    "importance": 2
+  },
+  {
     "id": "pearl-harbor-1941-12",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -1525,7 +2352,8 @@
     },
     "entityIds": [
       "allied-forces",
-      "china-resistance"
+      "china-resistance",
+      "kmt-forces"
     ],
     "category": "军事",
     "summary": {
@@ -1556,6 +2384,61 @@
       "north-burma-offensive-1943-10"
     ],
     "importance": 1
+  },
+  {
+    "id": "shiziling-1942-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "十字岭战斗",
+      "en": "Battle of Shiziling"
+    },
+    "date": "1942-05-25",
+    "location": {
+      "lng": 113.3,
+      "lat": 37.0,
+      "place": {
+        "zh": "山西辽县",
+        "en": "Liaoxian, Shanxi"
+      }
+    },
+    "entityIds": [
+      "eighth-route-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "八路军总部在十字岭突围，左权牺牲。",
+      "en": "The Eighth Route Army headquarters broke out at Shiziling; Zuo Quan was killed."
+    },
+    "description": {
+      "zh": "1942 年 5 月 25 日，八路军总部在山西辽县十字岭一带遭日军合围，副参谋长左权在突围中牺牲。日期与地点为通行说法，待页码级核对。",
+      "en": "On May 25, 1942, the Eighth Route Army headquarters was encircled by Japanese forces near Shiziling, Liaoxian, Shanxi; deputy chief of staff Zuo Quan was killed during the breakout. Dates and places follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "huangyadong-1941-11",
+      "hundred-regiments-1940-08"
+    ],
+    "importance": 3
   },
   {
     "id": "burma-retreat-1942-08",
@@ -1834,6 +2717,61 @@
     }
   },
   {
+    "id": "cheqiao-1944-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "车桥战役",
+      "en": "Battle of Cheqiao"
+    },
+    "date": "1944-03-05",
+    "location": {
+      "lng": 119.3,
+      "lat": 33.4,
+      "place": {
+        "zh": "江苏淮安车桥",
+        "en": "Cheqiao, Huai’an, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "new-fourth-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "新四军在车桥歼灭日伪军，扩大苏中根据地。",
+      "en": "The New Fourth Army destroyed Japanese and puppet forces at Cheqiao, expanding the Central Jiangsu base area."
+    },
+    "description": {
+      "zh": "1944 年 3 月 5 日，新四军第一师在江苏淮安车桥地区歼灭日伪军，扩大苏中抗日根据地。日期与战果为通行说法，待页码级核对。",
+      "en": "On March 5, 1944, the New Fourth Army’s 1st Division destroyed Japanese and puppet forces at Cheqiao, Huai’an, Jiangsu, expanding the Central Jiangsu anti-Japanese base area. Dates and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "new-fourth-army-rebuild-1941-01",
+      "xiangxi-1945-04"
+    ],
+    "importance": 2
+  },
+  {
     "id": "ichigo-offensive-1944-04",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -1915,7 +2853,8 @@
     "entityIds": [
       "japanese-invasion",
       "china-resistance",
-      "allied-forces"
+      "allied-forces",
+      "kmt-forces"
     ],
     "category": "战役",
     "summary": {
@@ -1979,7 +2918,8 @@
     },
     "entityIds": [
       "allied-forces",
-      "china-resistance"
+      "china-resistance",
+      "kmt-forces"
     ],
     "category": "战役",
     "summary": {
@@ -2072,6 +3012,62 @@
       "changde-1943-11"
     ],
     "importance": 1
+  },
+  {
+    "id": "kmt-guilin-liuzhou-1944-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "桂林柳州失守",
+      "en": "Fall of Guilin and Liuzhou"
+    },
+    "date": "1944-11-10",
+    "location": {
+      "lng": 110.29,
+      "lat": 25.27,
+      "place": {
+        "zh": "广西桂林",
+        "en": "Guilin, Guangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-forces",
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "豫湘桂战役中桂林、柳州相继失守。",
+      "en": "Guilin and Liuzhou fell in succession during the Henan-Hunan-Guangxi campaign."
+    },
+    "description": {
+      "zh": "1944 年 11 月，豫湘桂战役中桂林、柳州相继失守，中国军队向桂西、黔南撤退。日期与战果为通行说法，待页码级核对。",
+      "en": "In November 1944, Guilin and Liuzhou fell in succession during the Henan-Hunan-Guangxi campaign, and Chinese forces withdrew toward western Guangxi and southern Guizhou. Dates and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "ichigo-offensive-1944-04",
+      "guilin-counteroffensive-1945-05"
+    ],
+    "importance": 2
   },
   {
     "id": "nanning-fall-1944-11",

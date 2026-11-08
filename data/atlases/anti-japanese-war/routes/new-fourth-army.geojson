@@ -1,0 +1,187 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3,
+            30.6
+          ],
+          [
+            116.5,
+            30.5
+          ],
+          [
+            118.4,
+            30.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "new-fourth-army",
+        "startDate": "1937-10-12",
+        "endDate": "1940-10-03",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "汉口—云岭",
+          "en": "Hankou–Yunling"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.4,
+            30.6
+          ],
+          [
+            119.5,
+            31.5
+          ],
+          [
+            120.2,
+            32.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "new-fourth-army",
+        "startDate": "1940-10-04",
+        "endDate": "1940-10-31",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "云岭—黄桥",
+          "en": "Yunling–Huangqiao"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.2,
+            32.2
+          ],
+          [
+            120.16,
+            33.35
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "new-fourth-army",
+        "startDate": "1940-11-01",
+        "endDate": "1941-01-25",
+        "order": 3,
+        "segmentType": "advance",
+        "name": {
+          "zh": "黄桥—盐城",
+          "en": "Huangqiao–Yancheng"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.16,
+            33.35
+          ],
+          [
+            119.8,
+            33.4
+          ],
+          [
+            119.3,
+            33.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "new-fourth-army",
+        "startDate": "1941-01-26",
+        "endDate": "1944-03-05",
+        "order": 4,
+        "segmentType": "advance",
+        "name": {
+          "zh": "盐城—车桥",
+          "en": "Yancheng–Cheqiao"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.4,
+            30.6
+          ],
+          [
+            118.35,
+            30.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "new-fourth-army",
+        "startDate": "1941-01-04",
+        "endDate": "1941-01-14",
+        "order": 5,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "云岭—茂林（皖南事变）",
+          "en": "Yunling–Maolin (Wannan Incident)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    }
+  ]
+}

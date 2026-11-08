@@ -805,6 +805,40 @@
         "type": "LineString",
         "coordinates": [
           [
+            110.29,
+            25.27
+          ],
+          [
+            109.4,
+            24.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-11-10",
+        "endDate": "1944-11-11",
+        "order": 20,
+        "segmentType": "advance",
+        "name": {
+          "zh": "桂林—柳州（1944）",
+          "en": "Guilin–Liuzhou (1944)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             111.47,
             27.24
           ],
@@ -822,7 +856,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1945-04-09",
         "endDate": "1945-06-07",
-        "order": 20,
+        "order": 21,
         "segmentType": "advance",
         "name": {
           "zh": "湘西会战",

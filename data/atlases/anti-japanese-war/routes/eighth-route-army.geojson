@@ -1,0 +1,305 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.49,
+            36.6
+          ],
+          [
+            111.0,
+            37.5
+          ],
+          [
+            113.0,
+            38.5
+          ],
+          [
+            113.75,
+            39.34
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1937-08-25",
+        "endDate": "1937-09-25",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "延安—平型关",
+          "en": "Yan’an–Pingxingguan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.75,
+            39.34
+          ],
+          [
+            114.19,
+            38.85
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1937-09-26",
+        "endDate": "1937-11-07",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "平型关—阜平",
+          "en": "Pingxingguan–Fuping"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.19,
+            38.85
+          ],
+          [
+            112.5,
+            38.7
+          ],
+          [
+            111.13,
+            38.46
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1937-11-08",
+        "endDate": "1938-01-15",
+        "order": 3,
+        "segmentType": "advance",
+        "name": {
+          "zh": "阜平—兴县",
+          "en": "Fuping–Xingxian"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.13,
+            38.46
+          ],
+          [
+            112.0,
+            37.8
+          ],
+          [
+            113.3,
+            37.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1938-01-16",
+        "endDate": "1938-04-01",
+        "order": 4,
+        "segmentType": "advance",
+        "name": {
+          "zh": "兴县—辽县",
+          "en": "Xingxian–Liaoxian"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.3,
+            37.0
+          ],
+          [
+            115.0,
+            36.5
+          ],
+          [
+            117.0,
+            36.0
+          ],
+          [
+            118.6,
+            35.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1938-04-02",
+        "endDate": "1938-12-27",
+        "order": 5,
+        "segmentType": "advance",
+        "name": {
+          "zh": "辽县—沂水",
+          "en": "Liaoxian–Yishui"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.6,
+            35.8
+          ],
+          [
+            116.0,
+            36.2
+          ],
+          [
+            113.4,
+            36.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1938-12-28",
+        "endDate": "1941-11-10",
+        "order": 6,
+        "segmentType": "advance",
+        "name": {
+          "zh": "沂水—黎城",
+          "en": "Yishui–Licheng"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.4,
+            36.6
+          ],
+          [
+            113.3,
+            37.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1941-11-11",
+        "endDate": "1942-05-25",
+        "order": 7,
+        "segmentType": "advance",
+        "name": {
+          "zh": "黎城—辽县",
+          "en": "Licheng–Liaoxian"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.3,
+            37.0
+          ],
+          [
+            113.58,
+            37.86
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1940-08-20",
+        "endDate": "1940-12-31",
+        "order": 8,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "辽县—阳泉（百团大战）",
+          "en": "Liaoxian–Yangquan (Hundred Regiments Offensive)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    }
+  ]
+}
