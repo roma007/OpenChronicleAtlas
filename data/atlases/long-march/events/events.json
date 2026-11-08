@@ -2667,6 +2667,61 @@
     "relatedIds": []
   },
   {
+    "id": "red15-formed-1935-09",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "红十五军团成立",
+      "en": "Establishment of the Red 15th Army Corps"
+    },
+    "date": "1935-09-18",
+    "location": {
+      "lng": 110.03,
+      "lat": 36.87,
+      "place": {
+        "zh": "陕西延川永坪",
+        "en": "Yongping, Yanchuan, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "red-15-army"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "红二十五军与红二十六、二十七军在永坪合编为红十五军团。",
+      "en": "The 25th, 26th and 27th Red Armies were combined into the Red 15th Army Corps at Yongping."
+    },
+    "description": {
+      "zh": "1935 年 9 月 18 日，红二十五军与红二十六、二十七军在陕西延川永坪镇合编为红十五军团，徐海东任军团长，程子华任政治委员，刘志丹任副军团长兼参谋长。番号与职务为通行说法，待页码级核对。",
+      "en": "On September 18, 1935, the 25th, 26th and 27th Red Armies were combined into the Red 15th Army Corps at Yongping, Yanchuan, Shaanxi, with Xu Haidong as commander, Cheng Zihua as political commissar, and Liu Zhidan as deputy commander and chief of staff. Designations and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红十五军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "yongping-1935-09",
+      "laoshan-1935-10"
+    ],
+    "importance": 3
+  },
+  {
     "id": "bangluo-1935-09",
     "atlasId": "long-march",
     "name": {
@@ -2721,6 +2776,61 @@
       "wuqi-1935-10"
     ],
     "importance": 1
+  },
+  {
+    "id": "laoshan-1935-10",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "劳山战役",
+      "en": "Battle of Laoshan"
+    },
+    "date": "1935-10-01",
+    "location": {
+      "lng": 109.35,
+      "lat": 36.28,
+      "place": {
+        "zh": "陕西甘泉劳山",
+        "en": "Laoshan, Ganquan, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "red-15-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红十五军团在劳山伏击国民党军第 110 师。",
+      "en": "The Red 15th Army Corps ambushed the KMT 110th Division at Laoshan."
+    },
+    "description": {
+      "zh": "1935 年 10 月 1 日，红十五军团在陕西甘泉劳山地区伏击国民党军第 110 师，歼灭其主力，击毙师长何立中。番号与战果为通行说法，待页码级核对。",
+      "en": "On October 1, 1935, the Red 15th Army Corps ambushed the KMT 110th Division at Laoshan, Ganquan, Shaanxi, destroying its main force and killing its commander He Lizhong. Designations and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红十五军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "red15-formed-1935-09",
+      "yulinqiao-1935-10"
+    ],
+    "importance": 2
   },
   {
     "id": "kmt-qingshizui-1935-10",
@@ -2829,6 +2939,61 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "yulinqiao-1935-10",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "榆林桥战役",
+      "en": "Battle of Yulinqiao"
+    },
+    "date": "1935-10-25",
+    "location": {
+      "lng": 109.4,
+      "lat": 36.1,
+      "place": {
+        "zh": "陕西甘泉榆林桥",
+        "en": "Yulinqiao, Ganquan, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "red-15-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红十五军团在榆林桥歼灭国民党军第 107 师一部。",
+      "en": "The Red 15th Army Corps destroyed part of the KMT 107th Division at Yulinqiao."
+    },
+    "description": {
+      "zh": "1935 年 10 月 25 日，红十五军团在陕西甘泉榆林桥歼灭国民党军第 107 师第 619 团及第 620 团一部，俘团长高福源。番号与战果为通行说法，待页码级核对。",
+      "en": "On October 25, 1935, the Red 15th Army Corps destroyed the 619th Regiment and part of the 620th Regiment of the KMT 107th Division at Yulinqiao, Ganquan, Shaanxi, capturing regimental commander Gao Fuyuan. Designations and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红十五军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "laoshan-1935-10",
+      "zhiluozhen-1935-11"
+    ],
+    "importance": 2
   },
   {
     "id": "kmt-red2-pursuit-1935-11",
@@ -2966,7 +3131,8 @@
     "entityIds": [
       "central-red-army",
       "shaanxi-red-army",
-      "kmt-army"
+      "kmt-army",
+      "red-15-army"
     ],
     "category": "战斗",
     "summary": {

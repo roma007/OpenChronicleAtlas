@@ -1,0 +1,111 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.03,
+            36.87
+          ],
+          [
+            109.8,
+            36.6
+          ],
+          [
+            109.35,
+            36.28
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-15-army",
+        "startDate": "1935-09-18",
+        "endDate": "1935-10-01",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "永坪—劳山",
+          "en": "Yongping–Laoshan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.35,
+            36.28
+          ],
+          [
+            109.4,
+            36.1
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-15-army",
+        "startDate": "1935-10-02",
+        "endDate": "1935-10-25",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "劳山—榆林桥",
+          "en": "Laoshan–Yulinqiao"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.4,
+            36.1
+          ],
+          [
+            109.38,
+            36.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-15-army",
+        "startDate": "1935-10-26",
+        "endDate": "1935-11-21",
+        "order": 3,
+        "segmentType": "advance",
+        "name": {
+          "zh": "榆林桥—直罗镇",
+          "en": "Yulinqiao–Zhiluozhen"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    }
+  ]
+}

@@ -15,7 +15,7 @@
   },
   "cover": "assets/cover.jpg",
   "description": {
-    "zh": "1934 年 2 月至 1936 年 10 月，中国工农红军主力从长江南北各根据地向陕北和川陕甘地区进行战略转移。\n\n> 本数据为初稿：路线为示意简化，并标示国民党军追堵与封锁方向；红二、六军团与陕北红军苏区前置节点已补入，事件日期、地点与表述待史料校订。",
+    "zh": "1934 年 2 月至 1936 年 10 月，中国工农红军主力从长江南北各根据地向陕北和川陕甘地区进行战略转移。\n\n> 本数据为初稿：路线为示意简化，并标示国民党军追堵与封锁方向；红二、六军团、陕北红军与红十五军团节点已补入，事件日期、地点与表述待史料校订。",
     "en": "From October 1934 to October 1936, the main forces of the Chinese Red Army moved from their bases in southern and central China to northern Shaanxi."
   },
   "defaultView": {
@@ -29,6 +29,7 @@
     "routes/central-red-army.geojson",
     "routes/kmt-army.geojson",
     "routes/red-25-army.geojson",
+    "routes/red-15-army.geojson",
     "routes/red-2-and-4.geojson",
     "routes/red-6-army.geojson",
     "routes/shaanxi-red-army.geojson"
@@ -103,13 +104,26 @@
       }
     },
     {
+      "id": "red-15-army",
+      "name": {
+        "zh": "红十五军团",
+        "en": "Red 15th Army Corps"
+      },
+      "color": "#7b4f9d",
+      "order": 6,
+      "description": {
+        "zh": "1935 年 9 月由红二十五军与红二十六、二十七军在永坪合编，徐海东任军团长，程子华任政委，刘志丹任副军团长兼参谋长；随后参加劳山、榆林桥、直罗镇战役。",
+        "en": "Formed at Yongping in September 1935 from the 25th, 26th and 27th Red Armies, with Xu Haidong as commander, Cheng Zihua as political commissar, and Liu Zhidan as deputy commander and chief of staff; later fought at Laoshan, Yulinqiao and Zhiluozhen."
+      }
+    },
+    {
       "id": "shaanxi-red-army",
       "name": {
         "zh": "陕北红军",
         "en": "Shaanxi Red Army"
       },
       "color": "#8a6d3b",
-      "order": 6,
+      "order": 7,
       "description": {
         "zh": "陕北根据地地方红军，包括红二十六军、红二十七军及陕甘边、陕北地方武装；与红二十五军、中央红军会师。",
         "en": "Local Red Army of the northern Shaanxi base area, including the 26th and 27th Red Armies and Shaanxi-Gansu border / northern Shaanxi local forces; met the 25th Army and the Central Red Army."
@@ -122,7 +136,7 @@
         "en": "KMT Forces"
       },
       "color": "#4a4a4a",
-      "order": 7,
+      "order": 8,
       "description": {
         "zh": "标示国民党军对长征红军的追击、封锁与堵截方向；路线为示意简化，待史料校订。",
         "en": "Indicates Kuomintang pursuit, blockade, and interception directions against the Red Army; routes are simplified and await historical review."
@@ -135,5 +149,5 @@
     "长征"
   ],
   "license": "CC-BY-4.0（数据初稿，待校订）",
-  "updatedAt": "2026-11-06"
+  "updatedAt": "2026-11-08"
 }
