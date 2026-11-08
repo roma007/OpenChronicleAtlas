@@ -45,24 +45,62 @@
         "type": "LineString",
         "coordinates": [
           [
-            117.18,
-            34.26
+            115.46,
+            38.87
           ],
           [
-            117.73,
-            34.55
+            114.5,
+            38.0
           ]
         ]
       },
       "properties": {
         "entityId": "kmt-forces",
-        "startDate": "1938-01-01",
-        "endDate": "1938-05-19",
+        "startDate": "1937-08-20",
+        "endDate": "1937-11-05",
         "order": 2,
         "segmentType": "defense",
         "name": {
-          "zh": "徐州—台儿庄",
-          "en": "Xuzhou–Taierzhuang"
+          "zh": "保定—石家庄",
+          "en": "Baoding–Shijiazhuang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.55,
+            37.87
+          ],
+          [
+            112.7,
+            38.5
+          ],
+          [
+            112.73,
+            38.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1937-08-20",
+        "endDate": "1937-11-02",
+        "order": 3,
+        "segmentType": "defense",
+        "name": {
+          "zh": "太原—忻口",
+          "en": "Taiyuan–Xinkou"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -83,24 +121,20 @@
             34.26
           ],
           [
-            115.0,
-            33.0
-          ],
-          [
-            114.3,
-            30.6
+            117.73,
+            34.55
           ]
         ]
       },
       "properties": {
         "entityId": "kmt-forces",
-        "startDate": "1938-05-20",
-        "endDate": "1938-10-25",
-        "order": 3,
+        "startDate": "1938-01-01",
+        "endDate": "1938-05-19",
+        "order": 4,
         "segmentType": "defense",
         "name": {
-          "zh": "徐州—武汉",
-          "en": "Xuzhou–Wuhan"
+          "zh": "徐州—台儿庄",
+          "en": "Xuzhou–Taierzhuang"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -134,95 +168,11 @@
         "entityId": "kmt-forces",
         "startDate": "1938-01-15",
         "endDate": "1944-08-08",
-        "order": 4,
+        "order": 5,
         "segmentType": "defense",
         "name": {
           "zh": "湘潭—长沙—新墙河",
           "en": "Xiangtan–Changsha–Xinqiang River"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            112.94,
-            28.23
-          ],
-          [
-            111.0,
-            26.5
-          ],
-          [
-            110.29,
-            25.27
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "kmt-forces",
-        "startDate": "1944-08-09",
-        "endDate": "1944-11-10",
-        "order": 5,
-        "segmentType": "retreat",
-        "name": {
-          "zh": "长沙—桂林",
-          "en": "Changsha–Guilin"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            102.83,
-            24.88
-          ],
-          [
-            101.0,
-            25.0
-          ],
-          [
-            98.9,
-            25.0
-          ],
-          [
-            98.79,
-            24.75
-          ],
-          [
-            98.69,
-            24.59
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "kmt-forces",
-        "startDate": "1942-02-01",
-        "endDate": "1945-01-27",
-        "order": 6,
-        "segmentType": "counterattack",
-        "name": {
-          "zh": "昆明—滇西",
-          "en": "Kunming–Western Yunnan"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -268,11 +218,137 @@
         "entityId": "kmt-forces",
         "startDate": "1938-04-01",
         "endDate": "1938-05-19",
-        "order": 7,
+        "order": 6,
         "segmentType": "advance",
         "name": {
           "zh": "昆明—徐州（滇军出滇）",
           "en": "Kunming–Xuzhou (Yunnan army)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.18,
+            34.26
+          ],
+          [
+            115.0,
+            33.0
+          ],
+          [
+            114.3,
+            30.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1938-05-20",
+        "endDate": "1938-10-25",
+        "order": 7,
+        "segmentType": "defense",
+        "name": {
+          "zh": "徐州—武汉",
+          "en": "Xuzhou–Wuhan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.83,
+            24.88
+          ],
+          [
+            101.55,
+            25.03
+          ],
+          [
+            101.0,
+            25.0
+          ],
+          [
+            98.9,
+            25.0
+          ],
+          [
+            98.79,
+            24.75
+          ],
+          [
+            98.69,
+            24.59
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1942-02-01",
+        "endDate": "1945-01-27",
+        "order": 8,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "昆明—滇西",
+          "en": "Kunming–Western Yunnan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.94,
+            28.23
+          ],
+          [
+            111.0,
+            26.5
+          ],
+          [
+            110.29,
+            25.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1944-08-09",
+        "endDate": "1944-11-10",
+        "order": 9,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "长沙—桂林",
+          "en": "Changsha–Guilin"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",

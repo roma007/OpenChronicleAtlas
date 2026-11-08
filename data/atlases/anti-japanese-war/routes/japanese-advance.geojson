@@ -251,6 +251,44 @@
         "type": "LineString",
         "coordinates": [
           [
+            114.5,
+            22.7
+          ],
+          [
+            113.8,
+            22.9
+          ],
+          [
+            113.26,
+            23.13
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-12",
+        "endDate": "1938-10-21",
+        "order": 7,
+        "segmentType": "advance",
+        "name": {
+          "zh": "大亚湾—广州",
+          "en": "Dayawan–Guangzhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             113.8,
             22.8
           ],
@@ -264,7 +302,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1938-10-21",
         "endDate": "1938-10-21",
-        "order": 7,
+        "order": 8,
         "segmentType": "advance",
         "name": {
           "zh": "广州",
@@ -306,7 +344,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1939-05-01",
         "endDate": "1939-05-24",
-        "order": 8,
+        "order": 9,
         "segmentType": "advance",
         "name": {
           "zh": "随枣会战",
@@ -344,7 +382,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1939-09-14",
         "endDate": "1939-10-08",
-        "order": 9,
+        "order": 10,
         "segmentType": "advance",
         "name": {
           "zh": "第一次长沙会战",
@@ -382,7 +420,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1939-12-18",
         "endDate": "1940-01-11",
-        "order": 10,
+        "order": 11,
         "segmentType": "advance",
         "name": {
           "zh": "昆仑关战役",
@@ -428,7 +466,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1940-05-01",
         "endDate": "1940-06-18",
-        "order": 11,
+        "order": 12,
         "segmentType": "advance",
         "name": {
           "zh": "枣宜会战",
@@ -466,7 +504,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1941-03-15",
         "endDate": "1941-04-09",
-        "order": 12,
+        "order": 13,
         "segmentType": "advance",
         "name": {
           "zh": "上高会战",
@@ -508,7 +546,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1941-05-07",
         "endDate": "1941-06-15",
-        "order": 13,
+        "order": 14,
         "segmentType": "advance",
         "name": {
           "zh": "中条山战役",
@@ -550,7 +588,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1941-09-07",
         "endDate": "1941-10-08",
-        "order": 14,
+        "order": 15,
         "segmentType": "advance",
         "name": {
           "zh": "第二次长沙会战",
@@ -562,6 +600,40 @@
         },
         "extensions": {
           "precision": "campaign"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.1,
+            22.55
+          ],
+          [
+            114.17,
+            22.32
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-12-08",
+        "endDate": "1941-12-25",
+        "order": 16,
+        "segmentType": "advance",
+        "name": {
+          "zh": "深圳—香港",
+          "en": "Shenzhen–Hong Kong"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -596,7 +668,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1941-12-24",
         "endDate": "1942-01-15",
-        "order": 15,
+        "order": 17,
         "segmentType": "advance",
         "name": {
           "zh": "第三次长沙会战",
@@ -608,6 +680,44 @@
         },
         "extensions": {
           "precision": "campaign"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            96.16,
+            16.87
+          ],
+          [
+            96.1,
+            19.0
+          ],
+          [
+            96.08,
+            21.98
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1942-01-20",
+        "endDate": "1942-05-01",
+        "order": 18,
+        "segmentType": "advance",
+        "name": {
+          "zh": "仰光—曼德勒",
+          "en": "Yangon–Mandalay"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -634,7 +744,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1943-05-05",
         "endDate": "1943-06-12",
-        "order": 16,
+        "order": 19,
         "segmentType": "advance",
         "name": {
           "zh": "鄂西会战",
@@ -672,7 +782,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1943-11-02",
         "endDate": "1943-12-20",
-        "order": 17,
+        "order": 20,
         "segmentType": "advance",
         "name": {
           "zh": "常德会战",
@@ -742,7 +852,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1944-04-17",
         "endDate": "1944-11-24",
-        "order": 18,
+        "order": 21,
         "segmentType": "advance",
         "name": {
           "zh": "豫湘桂—南宁",
@@ -754,6 +864,40 @@
         },
         "extensions": {
           "precision": "campaign"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.65,
+            34.76
+          ],
+          [
+            112.45,
+            34.62
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-04-17",
+        "endDate": "1944-05-25",
+        "order": 22,
+        "segmentType": "advance",
+        "name": {
+          "zh": "郑州—洛阳",
+          "en": "Zhengzhou–Luoyang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -784,7 +928,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1944-05-11",
         "endDate": "1945-01-27",
-        "order": 19,
+        "order": 23,
         "segmentType": "defense",
         "name": {
           "zh": "滇西反攻（日军防御线）",
@@ -796,6 +940,40 @@
         },
         "extensions": {
           "precision": "campaign"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.13,
+            29.36
+          ],
+          [
+            112.94,
+            28.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-06-18",
+        "endDate": "1944-08-08",
+        "order": 24,
+        "segmentType": "advance",
+        "name": {
+          "zh": "岳阳—长沙",
+          "en": "Yueyang–Changsha"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -818,7 +996,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1944-11-10",
         "endDate": "1944-11-11",
-        "order": 20,
+        "order": 25,
         "segmentType": "advance",
         "name": {
           "zh": "桂林—柳州（1944）",
@@ -856,7 +1034,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1945-04-09",
         "endDate": "1945-06-07",
-        "order": 21,
+        "order": 26,
         "segmentType": "advance",
         "name": {
           "zh": "湘西会战",

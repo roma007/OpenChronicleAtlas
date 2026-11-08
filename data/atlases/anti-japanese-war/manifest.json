@@ -31,7 +31,8 @@
     "routes/allied-forces.geojson",
     "routes/kmt-forces.geojson",
     "routes/eighth-route-army.geojson",
-    "routes/new-fourth-army.geojson"
+    "routes/new-fourth-army.geojson",
+    "routes/south-china-guerrillas.geojson"
   ],
   "events": [
     "events/events.json"
@@ -113,6 +114,19 @@
       "description": {
         "zh": "国民革命军陆军新编第四军及其华中敌后根据地；路线为示意简化，待史料校订。",
         "en": "The New Fourth Army and its base areas in Central China; routes are simplified and await historical review."
+      }
+    },
+    {
+      "id": "south-china-guerrillas",
+      "name": {
+        "zh": "华南抗日游击队",
+        "en": "South China Guerrillas"
+      },
+      "color": "#6b8e23",
+      "order": 7,
+      "description": {
+        "zh": "东江纵队、琼崖纵队等华南抗日武装；路线为示意简化，待史料校订。",
+        "en": "South China anti-Japanese forces including the Dongjiang and Qiongya columns; routes are simplified and await historical review."
       }
     }
   ],

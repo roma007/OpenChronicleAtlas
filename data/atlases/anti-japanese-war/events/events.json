@@ -539,6 +539,171 @@
     "importance": 2
   },
   {
+    "id": "kmt-1st-war-zone-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第一战区成立",
+      "en": "Establishment of the First War Zone"
+    },
+    "date": "1937-08-20",
+    "location": {
+      "lng": 115.46,
+      "lat": 38.87,
+      "place": {
+        "zh": "河北保定",
+        "en": "Baoding, Hebei"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "第一战区成立，负责平汉线北段作战。",
+      "en": "The First War Zone was established to direct operations along the northern Jin-Pu railway."
+    },
+    "description": {
+      "zh": "1937 年 8 月 20 日，国民政府军事委员会划分战区，第一战区负责平汉线北段，蒋介石兼任司令长官，后由程潜接任。日期与主官为通行说法，待页码级核对。",
+      "en": "On August 20, 1937, the National Military Council divided the front into war zones. The First War Zone was responsible for the northern section of the Beijing-Hankou railway, with Chiang Kai-shek concurrently as commander and later Cheng Qian. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-2nd-war-zone-1937-08",
+      "kmt-3rd-war-zone-1937-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-2nd-war-zone-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第二战区成立",
+      "en": "Establishment of the Second War Zone"
+    },
+    "date": "1937-08-20",
+    "location": {
+      "lng": 112.55,
+      "lat": 37.87,
+      "place": {
+        "zh": "山西太原",
+        "en": "Taiyuan, Shanxi"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "第二战区成立，负责山西、绥远方向作战。",
+      "en": "The Second War Zone was established for operations in Shanxi and Suiyuan."
+    },
+    "description": {
+      "zh": "1937 年 8 月 20 日，第二战区成立，负责山西、绥远方向，阎锡山任司令长官。日期与主官为通行说法，待页码级核对。",
+      "en": "On August 20, 1937, the Second War Zone was established for the Shanxi and Suiyuan directions, with Yan Xishan as commander. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-1st-war-zone-1937-08",
+      "xinkou-1937-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-3rd-war-zone-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第三战区成立",
+      "en": "Establishment of the Third War Zone"
+    },
+    "date": "1937-08-20",
+    "location": {
+      "lng": 118.8,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏南京",
+        "en": "Nanjing, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "第三战区成立，负责淞沪方向作战。",
+      "en": "The Third War Zone was established for operations around Shanghai."
+    },
+    "description": {
+      "zh": "1937 年 8 月 20 日，第三战区成立，负责淞沪方向，冯玉祥任司令长官，后由顾祝同接任。日期与主官为通行说法，待页码级核对。",
+      "en": "On August 20, 1937, the Third War Zone was established for the Shanghai direction, with Feng Yuxiang as commander and later Gu Zhutong. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "battle-shanghai-1937-08",
+      "kmt-1st-war-zone-1937-08"
+    ],
+    "importance": 2
+  },
+  {
     "id": "eighth-route-army-formed-1937-08",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -1283,6 +1448,115 @@
     "importance": 2
   },
   {
+    "id": "kmt-9th-war-zone-1938-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第九战区成立",
+      "en": "Establishment of the Ninth War Zone"
+    },
+    "date": "1938-06-01",
+    "location": {
+      "lng": 112.94,
+      "lat": 28.23,
+      "place": {
+        "zh": "湖南长沙",
+        "en": "Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "第九战区成立，负责长江以南、鄱阳湖以西地区。",
+      "en": "The Ninth War Zone was established for the area south of the Yangtze and west of Poyang Lake."
+    },
+    "description": {
+      "zh": "1938 年 6 月，第九战区成立，负责长江以南、鄱阳湖以西地区，陈诚任司令长官，后由薛岳接任。日期与主官为通行说法，待页码级核对。",
+      "en": "In June 1938, the Ninth War Zone was established for the area south of the Yangtze River and west of Poyang Lake, with Chen Cheng as commander and later Xue Yue. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "changsha-1939-09",
+      "changsha-1941-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "japanese-guangzhou-1938-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻广州",
+      "en": "Japanese attack on Guangzhou"
+    },
+    "date": "1938-10-12",
+    "location": {
+      "lng": 114.5,
+      "lat": 22.7,
+      "place": {
+        "zh": "广东大亚湾",
+        "en": "Dayawan, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军在大亚湾登陆，进攻广州。",
+      "en": "Japanese forces landed at Dayawan and attacked Guangzhou."
+    },
+    "description": {
+      "zh": "1938 年 10 月 12 日，日军第 21 军在大亚湾登陆，10 月 21 日广州失守。日期与部队为通行说法，待页码级核对。",
+      "en": "On October 12, 1938, the Japanese 21st Army landed at Dayawan and took Guangzhou on October 21. Dates and units follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "guangzhou-fall-1938-10"
+    ],
+    "importance": 2
+  },
+  {
     "id": "guangzhou-fall-1938-10",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -1389,6 +1663,60 @@
       "guangzhou-fall-1938-10"
     ],
     "importance": 1
+  },
+  {
+    "id": "qiongya-independent-1938-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "琼崖抗日独立队成立",
+      "en": "Establishment of the Qiongya Independent Detachment"
+    },
+    "date": "1938-12-05",
+    "location": {
+      "lng": 110.4,
+      "lat": 19.9,
+      "place": {
+        "zh": "海南琼山云龙",
+        "en": "Yunlong, Qiongshan, Hainan"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "琼崖红军游击队改编为抗日独立队，冯白驹任队长。",
+      "en": "The Qiongya Red Army guerrillas were reorganized as an anti-Japanese independent detachment under Feng Baiju."
+    },
+    "description": {
+      "zh": "1938 年 12 月 5 日，琼崖工农红军游击队在海南琼山云龙改编为广东民众抗日自卫团第十四区独立队，冯白驹任队长。日期与主官为通行说法，待页码级核对。",
+      "en": "On December 5, 1938, the Qiongya Workers’ and Peasants’ Red Army guerrillas were reorganized at Yunlong, Qiongshan, Hainan, as the Independent Detachment of the 14th District of the Guangdong People’s Anti-Japanese Self-Defense Corps, with Feng Baiju as commander. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "qiongya-counter-1942-05"
+    ],
+    "importance": 2
   },
   {
     "id": "shandong-column-1938-12",
@@ -2217,6 +2545,60 @@
     }
   },
   {
+    "id": "japanese-hongkong-1941-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻香港",
+      "en": "Japanese attack on Hong Kong"
+    },
+    "date": "1941-12-08",
+    "location": {
+      "lng": 114.17,
+      "lat": 22.32,
+      "place": {
+        "zh": "香港",
+        "en": "Hong Kong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻香港，12 月 25 日香港沦陷。",
+      "en": "Japanese forces attacked Hong Kong, which fell on December 25."
+    },
+    "description": {
+      "zh": "1941 年 12 月 8 日，日军第 23 军进攻香港，12 月 25 日香港沦陷。日期与部队为通行说法，待页码级核对。",
+      "en": "On December 8, 1941, the Japanese 23rd Army attacked Hong Kong, which fell on December 25. Dates and units follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "dongjiang-rescue-1941-12"
+    ],
+    "importance": 2
+  },
+  {
     "id": "china-declares-war-1941-12",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -2335,6 +2717,116 @@
     "importance": 1
   },
   {
+    "id": "dongjiang-rescue-1941-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "东江纵队营救文化名人",
+      "en": "Dongjiang guerrillas rescue cultural figures"
+    },
+    "date": "1941-12-25",
+    "location": {
+      "lng": 114.17,
+      "lat": 22.32,
+      "place": {
+        "zh": "香港",
+        "en": "Hong Kong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "香港沦陷后，东江游击队营救文化界人士和爱国民主人士撤离。",
+      "en": "After the fall of Hong Kong, Dongjiang guerrillas helped cultural figures and democrats escape."
+    },
+    "description": {
+      "zh": "1941 年 12 月香港沦陷后，广东人民抗日游击队（东江纵队前身）营救何香凝、茅盾等文化界人士及爱国民主人士撤离香港。日期与人员为通行说法，待页码级核对。",
+      "en": "After the fall of Hong Kong in December 1941, the Guangdong People’s Anti-Japanese Guerrillas, predecessor of the Dongjiang Column, helped cultural figures such as He Xiangning and Mao Dun and other democrats escape Hong Kong. Dates and individuals follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-hongkong-1941-12",
+      "dongjiang-column-1943-12"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "japanese-burma-1942-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻缅甸",
+      "en": "Japanese invasion of Burma"
+    },
+    "date": "1942-01-20",
+    "location": {
+      "lng": 96.16,
+      "lat": 16.87,
+      "place": {
+        "zh": "缅甸仰光",
+        "en": "Yangon, Burma"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻缅甸，3 月占领仰光。",
+      "en": "Japanese forces invaded Burma and captured Yangon in March."
+    },
+    "description": {
+      "zh": "1942 年 1 月，日军第 15 军进攻缅甸，3 月占领仰光，5 月推进至曼德勒。日期与部队为通行说法，待页码级核对。",
+      "en": "In January 1942, the Japanese 15th Army invaded Burma, captured Yangon in March, and advanced to Mandalay in May. Dates and units follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "burma-expedition-1942-02",
+      "burma-retreat-1942-08"
+    ],
+    "importance": 2
+  },
+  {
     "id": "burma-expedition-1942-02",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -2384,6 +2876,60 @@
       "north-burma-offensive-1943-10"
     ],
     "importance": 1
+  },
+  {
+    "id": "qiongya-counter-1942-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "琼崖反“扫荡”",
+      "en": "Qiongya counter-mopping operations"
+    },
+    "date": "1942-05-01",
+    "location": {
+      "lng": 110.35,
+      "lat": 19.98,
+      "place": {
+        "zh": "海南琼山",
+        "en": "Qiongshan, Hainan"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "琼崖抗日武装在海南展开反“扫荡”作战。",
+      "en": "Qiongya anti-Japanese forces fought counter-mopping operations in Hainan."
+    },
+    "description": {
+      "zh": "1942 年 5 月起，日军对琼崖抗日根据地发动“扫荡”，琼崖独立总队展开反“扫荡”作战。时间与战果为通行说法，待页码级核对。",
+      "en": "From May 1942, Japanese forces launched mopping-up operations against the Qiongya anti-Japanese base area, and the Qiongya Independent Corps fought back. Dates and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "qiongya-independent-1938-12"
+    ],
+    "importance": 2
   },
   {
     "id": "shiziling-1942-05",
@@ -2485,6 +3031,61 @@
     ],
     "relatedIds": [
       "burma-expedition-1942-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-expeditionary-force-1943-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "远征军司令长官部成立",
+      "en": "Establishment of the Chinese Expeditionary Force headquarters"
+    },
+    "date": "1943-04-01",
+    "location": {
+      "lng": 101.55,
+      "lat": 25.03,
+      "place": {
+        "zh": "云南楚雄",
+        "en": "Chuxiong, Yunnan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "中国远征军司令长官部在楚雄成立。",
+      "en": "The Chinese Expeditionary Force headquarters was established at Chuxiong."
+    },
+    "description": {
+      "zh": "1943 年 4 月，中国远征军司令长官部在云南楚雄成立，陈诚任司令长官，后由卫立煌接任。日期与主官为通行说法，待页码级核对。",
+      "en": "In April 1943, the Chinese Expeditionary Force headquarters was established at Chuxiong, Yunnan, with Chen Cheng as commander and later Wei Lihuang. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "burma-expedition-1942-02",
+      "dianxi-1944-05"
     ],
     "importance": 2
   },
@@ -2717,6 +3318,60 @@
     }
   },
   {
+    "id": "dongjiang-column-1943-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "东江纵队成立",
+      "en": "Establishment of the Dongjiang Column"
+    },
+    "date": "1943-12-02",
+    "location": {
+      "lng": 114.4,
+      "lat": 22.8,
+      "place": {
+        "zh": "广东惠阳",
+        "en": "Huiyang, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "广东人民抗日游击队东江纵队在惠阳成立。",
+      "en": "The Dongjiang Column of the Guangdong People’s Anti-Japanese Guerrillas was established at Huiyang."
+    },
+    "description": {
+      "zh": "1943 年 12 月 2 日，广东人民抗日游击队东江纵队在广东惠阳成立，曾生任司令员，尹林平任政治委员。日期与主官为通行说法，待页码级核对。",
+      "en": "On December 2, 1943, the Dongjiang Column of the Guangdong People’s Anti-Japanese Guerrillas was established at Huiyang, Guangdong, with Zeng Sheng as commander and Yin Linping as political commissar. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dongjiang-rescue-1941-12"
+    ],
+    "importance": 3
+  },
+  {
     "id": "cheqiao-1944-03",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -2826,6 +3481,60 @@
       "nanning-fall-1944-11"
     ],
     "importance": 1
+  },
+  {
+    "id": "japanese-henan-1944-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻河南",
+      "en": "Japanese offensive in Henan"
+    },
+    "date": "1944-04-17",
+    "location": {
+      "lng": 113.65,
+      "lat": 34.76,
+      "place": {
+        "zh": "河南郑州",
+        "en": "Zhengzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军发动豫中会战，进攻河南。",
+      "en": "Japanese forces launched the Central Henan campaign."
+    },
+    "description": {
+      "zh": "1944 年 4 月 17 日，日军发动豫中会战，进攻河南。日期与战果为通行说法，待页码级核对。",
+      "en": "On April 17, 1944, Japanese forces launched the Central Henan campaign. Dates and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "ichigo-offensive-1944-04"
+    ],
+    "importance": 2
   },
   {
     "id": "dianxi-1944-05",
@@ -2947,6 +3656,61 @@
     ],
     "relatedIds": [
       "north-burma-offensive-1943-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "japanese-changsha-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻长沙",
+      "en": "Japanese attack on Changsha"
+    },
+    "date": "1944-06-18",
+    "location": {
+      "lng": 112.94,
+      "lat": 28.23,
+      "place": {
+        "zh": "湖南长沙",
+        "en": "Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军发动长衡会战，6 月 19 日长沙失守。",
+      "en": "Japanese forces launched the Changsha-Hengyang campaign; Changsha fell on June 19."
+    },
+    "description": {
+      "zh": "1944 年 6 月，日军发动长衡会战，6 月 19 日长沙失守。日期与战果为通行说法，待页码级核对。",
+      "en": "In June 1944, Japanese forces launched the Changsha-Hengyang campaign, and Changsha fell on June 19. Dates and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "hengyang-1944-06",
+      "ichigo-offensive-1944-04"
     ],
     "importance": 2
   },
