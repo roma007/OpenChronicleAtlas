@@ -544,6 +544,78 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.55,
+            37.87
+          ],
+          [
+            111.7,
+            37.1
+          ],
+          [
+            110.83,
+            37.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-army",
+        "startDate": "1936-02-20",
+        "endDate": "1936-05-05",
+        "order": 15,
+        "segmentType": "advance",
+        "name": {
+          "zh": "太原—石楼（追堵东征）",
+          "en": "Taiyuan–Shilou (pursuit of the Eastern Expedition)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.23,
+            38.49
+          ],
+          [
+            107.4,
+            37.78
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-army",
+        "startDate": "1936-05-19",
+        "endDate": "1936-07-27",
+        "order": 16,
+        "segmentType": "advance",
+        "name": {
+          "zh": "银川—盐池（堵截西征）",
+          "en": "Yinchuan–Yanchi (blocking the westward expedition)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

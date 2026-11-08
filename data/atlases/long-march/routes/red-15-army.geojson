@@ -106,6 +106,268 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.38,
+            36.0
+          ],
+          [
+            109.8,
+            36.4
+          ],
+          [
+            110.19,
+            36.88
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-15-army",
+        "startDate": "1935-11-22",
+        "endDate": "1936-02-19",
+        "order": 4,
+        "segmentType": "advance",
+        "name": {
+          "zh": "直罗镇—延川",
+          "en": "Zhiluozhen–Yanchuan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.19,
+            36.88
+          ],
+          [
+            110.5,
+            37.0
+          ],
+          [
+            110.83,
+            37.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-15-army",
+        "startDate": "1936-02-20",
+        "endDate": "1936-02-24",
+        "order": 5,
+        "segmentType": "advance",
+        "name": {
+          "zh": "延川—石楼（东渡黄河）",
+          "en": "Yanchuan–Shilou (eastward crossing of the Yellow River)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.83,
+            37.0
+          ],
+          [
+            111.2,
+            37.35
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-15-army",
+        "startDate": "1936-02-25",
+        "endDate": "1936-03-09",
+        "order": 6,
+        "segmentType": "advance",
+        "name": {
+          "zh": "石楼—关上村",
+          "en": "Shilou–Guanshangcun"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.2,
+            37.35
+          ],
+          [
+            111.7,
+            37.1
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-15-army",
+        "startDate": "1936-03-10",
+        "endDate": "1936-05-04",
+        "order": 7,
+        "segmentType": "advance",
+        "name": {
+          "zh": "关上村—兑九峪",
+          "en": "Guanshangcun–Duijiuyu"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.7,
+            37.1
+          ],
+          [
+            110.83,
+            37.0
+          ],
+          [
+            110.19,
+            36.88
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-15-army",
+        "startDate": "1936-05-05",
+        "endDate": "1936-05-18",
+        "order": 8,
+        "segmentType": "advance",
+        "name": {
+          "zh": "兑九峪—延川（回师）",
+          "en": "Duijiuyu–Yanchuan (return)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.19,
+            36.88
+          ],
+          [
+            109.0,
+            37.0
+          ],
+          [
+            108.0,
+            37.5
+          ],
+          [
+            107.4,
+            37.78
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-15-army",
+        "startDate": "1936-05-19",
+        "endDate": "1936-06-21",
+        "order": 9,
+        "segmentType": "advance",
+        "name": {
+          "zh": "延川—盐池（西征）",
+          "en": "Yanchuan–Yanchi (westward expedition)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4,
+            37.78
+          ],
+          [
+            106.8,
+            37.3
+          ],
+          [
+            106.3,
+            36.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-15-army",
+        "startDate": "1936-06-22",
+        "endDate": "1936-07-27",
+        "order": 10,
+        "segmentType": "advance",
+        "name": {
+          "zh": "盐池—豫旺堡",
+          "en": "Yanchi–Yuwangbao"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

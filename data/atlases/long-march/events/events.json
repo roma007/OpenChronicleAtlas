@@ -3611,6 +3611,173 @@
     "endDate": "1935-11-24"
   },
   {
+    "id": "dongzheng-1936-02",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "东征战役",
+      "en": "Eastern Expedition"
+    },
+    "date": "1936-02-20",
+    "location": {
+      "lng": 110.83,
+      "lat": 37.0,
+      "place": {
+        "zh": "山西石楼",
+        "en": "Shilou, Shanxi"
+      }
+    },
+    "entityIds": [
+      "red-15-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红十五军团随红一方面军东渡黄河，参加东征战役。",
+      "en": "The Red 15th Army Corps crossed the Yellow River eastward with the First Front Army and joined the Eastern Expedition."
+    },
+    "description": {
+      "zh": "1936 年 2 月 20 日，红一方面军以中国人民红军抗日先锋军名义东渡黄河，红十五军团作为红一方面军一部参加东征，进入山西石楼、中阳一带。日期与部队关系为通行说法，待页码级核对。",
+      "en": "On February 20, 1936, the First Front Army crossed the Yellow River eastward as the Chinese People’s Red Army Anti-Japanese Vanguard. The Red 15th Army Corps, as part of the First Front Army, joined the Eastern Expedition and entered the Shilou and Zhongyang areas of Shanxi. Dates and command relationships follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红十五军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "zhiluozhen-1935-11",
+      "guanshang-1936-02"
+    ],
+    "importance": 2,
+    "endDate": "1936-05-05"
+  },
+  {
+    "id": "kmt-dongzheng-1936-02",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "国民党军追堵东征红军",
+      "en": "KMT pursuit of the Eastern Expedition"
+    },
+    "date": "1936-02-20",
+    "location": {
+      "lng": 110.83,
+      "lat": 37.0,
+      "place": {
+        "zh": "山西石楼",
+        "en": "Shilou, Shanxi"
+      }
+    },
+    "entityIds": [
+      "kmt-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "国民党军调集晋绥军等部追堵东征红军。",
+      "en": "KMT forces, including the Shanxi-Suiyuan Army, pursued the Eastern Expedition."
+    },
+    "description": {
+      "zh": "1936 年 2 月至 5 月，国民党军调集晋绥军等部追堵东征红军。部队番号与指挥关系为通行说法，待页码级核对。",
+      "en": "From February to May 1936, KMT forces, including the Shanxi-Suiyuan Army, pursued the Eastern Expedition. Unit designations and command relationships follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红十五军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "dongzheng-1936-02",
+      "guanshang-1936-02"
+    ],
+    "importance": 2,
+    "endDate": "1936-05-05"
+  },
+  {
+    "id": "guanshang-1936-02",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "关上村战斗",
+      "en": "Battle of Guanshangcun"
+    },
+    "date": "1936-02-25",
+    "location": {
+      "lng": 111.2,
+      "lat": 37.35,
+      "place": {
+        "zh": "山西中阳关上村",
+        "en": "Guanshangcun, Zhongyang, Shanxi"
+      }
+    },
+    "entityIds": [
+      "red-15-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红十五军团在关上村歼灭晋绥军一部。",
+      "en": "The Red 15th Army Corps destroyed a Shanxi-Suiyuan Army unit at Guanshangcun."
+    },
+    "description": {
+      "zh": "1936 年 2 月 25 日，红十五军团在山西中阳县关上村歼灭晋绥军独立第 2 旅一部。番号与战果为通行说法，待页码级核对。",
+      "en": "On February 25, 1936, the Red 15th Army Corps destroyed part of the Independent 2nd Brigade of the Shanxi-Suiyuan Army at Guanshangcun, Zhongyang, Shanxi. Designations and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红十五军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "dongzheng-1936-02",
+      "duijiuyu-1936-03"
+    ],
+    "importance": 2
+  },
+  {
     "id": "wumeng-1936-02",
     "atlasId": "long-march",
     "name": {
@@ -3667,6 +3834,61 @@
     "endDate": "1936-03-28"
   },
   {
+    "id": "duijiuyu-1936-03",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "兑九峪战斗",
+      "en": "Battle of Duijiuyu"
+    },
+    "date": "1936-03-10",
+    "location": {
+      "lng": 111.7,
+      "lat": 37.1,
+      "place": {
+        "zh": "山西孝义兑九峪",
+        "en": "Duijiuyu, Xiaoyi, Shanxi"
+      }
+    },
+    "entityIds": [
+      "red-15-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红一方面军在兑九峪与晋绥军激战，红十五军团参战。",
+      "en": "The First Front Army fought a fierce battle with the Shanxi-Suiyuan Army at Duijiuyu; the Red 15th Army Corps took part."
+    },
+    "description": {
+      "zh": "1936 年 3 月 10 日，红一方面军在山西孝义兑九峪与晋绥军激战，红十五军团参战。番号与战果为通行说法，待页码级核对。",
+      "en": "On March 10, 1936, the First Front Army fought a fierce battle with the Shanxi-Suiyuan Army at Duijiuyu, Xiaoyi, Shanxi, with the Red 15th Army Corps taking part. Designations and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红十五军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "guanshang-1936-02",
+      "huishi-1936-05"
+    ],
+    "importance": 2
+  },
+  {
     "id": "shigu-1936-04",
     "atlasId": "long-march",
     "name": {
@@ -3718,6 +3940,228 @@
     "relatedIds": [
       "wumeng-1936-02",
       "ganzi-1936-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "huishi-1936-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "东征回师",
+      "en": "Return from the Eastern Expedition"
+    },
+    "date": "1936-05-05",
+    "location": {
+      "lng": 110.19,
+      "lat": 36.88,
+      "place": {
+        "zh": "陕西延川",
+        "en": "Yanchuan, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "red-15-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "东征红军回师河西，红十五军团返回陕北。",
+      "en": "The Eastern Expedition returned west of the Yellow River, and the Red 15th Army Corps returned to northern Shaanxi."
+    },
+    "description": {
+      "zh": "1936 年 5 月 5 日，东征红军回师河西，红十五军团随红一方面军返回陕北。日期为通行说法，待页码级核对。",
+      "en": "On May 5, 1936, the Eastern Expedition returned west of the Yellow River, and the Red 15th Army Corps returned to northern Shaanxi with the First Front Army. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红十五军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "duijiuyu-1936-03",
+      "xizheng-1936-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-xizheng-1936-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "国民党军堵截西征红军",
+      "en": "KMT blocking of the Western Expedition"
+    },
+    "date": "1936-05-19",
+    "location": {
+      "lng": 107.4,
+      "lat": 37.78,
+      "place": {
+        "zh": "宁夏盐池",
+        "en": "Yanchi, Ningxia"
+      }
+    },
+    "entityIds": [
+      "kmt-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "国民党军调集兵力堵截西征红军。",
+      "en": "KMT forces concentrated troops to block the Western Expedition."
+    },
+    "description": {
+      "zh": "1936 年 5 月至 7 月，国民党军调集兵力堵截西征红军。部队番号与指挥关系为通行说法，待页码级核对。",
+      "en": "From May to July 1936, KMT forces concentrated troops to block the Western Expedition. Unit designations and command relationships follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红十五军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "xizheng-1936-05",
+      "yanchi-1936-06"
+    ],
+    "importance": 2,
+    "endDate": "1936-07-27"
+  },
+  {
+    "id": "xizheng-1936-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "西征战役",
+      "en": "Western Expedition"
+    },
+    "date": "1936-05-19",
+    "location": {
+      "lng": 110.19,
+      "lat": 36.88,
+      "place": {
+        "zh": "陕西延川",
+        "en": "Yanchuan, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "red-15-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红十五军团随红一方面军参加西征战役。",
+      "en": "The Red 15th Army Corps joined the Western Expedition with the First Front Army."
+    },
+    "description": {
+      "zh": "1936 年 5 月 19 日，红一方面军开始西征，红十五军团参加，向陕甘宁边界地区推进。日期与部队关系为通行说法，待页码级核对。",
+      "en": "On May 19, 1936, the First Front Army began the Western Expedition. The Red 15th Army Corps took part and advanced toward the Shaanxi-Gansu-Ningxia border region. Dates and command relationships follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红十五军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "huishi-1936-05",
+      "yanchi-1936-06"
+    ],
+    "importance": 2,
+    "endDate": "1936-07-27"
+  },
+  {
+    "id": "yanchi-1936-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "解放盐池",
+      "en": "Liberation of Yanchi"
+    },
+    "date": "1936-06-21",
+    "location": {
+      "lng": 107.4,
+      "lat": 37.78,
+      "place": {
+        "zh": "宁夏盐池",
+        "en": "Yanchi, Ningxia"
+      }
+    },
+    "entityIds": [
+      "red-15-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红十五军团解放宁夏盐池县城。",
+      "en": "The Red 15th Army Corps liberated Yanchi County in Ningxia."
+    },
+    "description": {
+      "zh": "1936 年 6 月 21 日，红十五军团解放宁夏盐池县城。日期与部队为通行说法，待页码级核对。",
+      "en": "On June 21, 1936, the Red 15th Army Corps liberated Yanchi County in Ningxia. The date and unit follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红十五军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "xizheng-1936-05",
+      "xizheng-end-1936-07"
     ],
     "importance": 2
   },
@@ -3831,6 +4275,60 @@
       "jiangtaibao-1936-10"
     ],
     "importance": 3
+  },
+  {
+    "id": "xizheng-end-1936-07",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "西征结束",
+      "en": "End of the Western Expedition"
+    },
+    "date": "1936-07-27",
+    "location": {
+      "lng": 106.3,
+      "lat": 36.8,
+      "place": {
+        "zh": "宁夏豫旺堡",
+        "en": "Yuwangbao, Ningxia"
+      }
+    },
+    "entityIds": [
+      "red-15-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "西征战役结束，红十五军团在豫旺堡一带集结。",
+      "en": "The Western Expedition ended, and the Red 15th Army Corps assembled around Yuwangbao."
+    },
+    "description": {
+      "zh": "1936 年 7 月 27 日，西征战役结束，红十五军团在豫旺堡、同心城一带集结。日期与地点为通行说法，待页码级核对。",
+      "en": "On July 27, 1936, the Western Expedition ended, and the Red 15th Army Corps assembled around Yuwangbao and Tongxincheng. Dates and places follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件日期与地点为初稿，待逐条校订"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "路线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红十五军团与国民党军行动"
+      }
+    ],
+    "relatedIds": [
+      "yanchi-1936-06"
+    ],
+    "importance": 2
   },
   {
     "id": "huining-1936-10",
