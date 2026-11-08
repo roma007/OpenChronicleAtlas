@@ -702,6 +702,61 @@
     "importance": 2
   },
   {
+    "id": "kmt-8th-group-army-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第8集团军与淞沪会战",
+      "en": "The 8th Group Army at Shanghai"
+    },
+    "date": "1937-08-13",
+    "location": {
+      "lng": 121.55,
+      "lat": 31.2,
+      "place": {
+        "zh": "上海浦东",
+        "en": "Pudong, Shanghai"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第8集团军参加淞沪会战，在浦东方向作战。",
+      "en": "The 8th Group Army fought in the Battle of Shanghai in the Pudong sector."
+    },
+    "description": {
+      "zh": "1937 年 8 月，第8集团军（总司令张发奎）参加淞沪会战，在浦东方向作战。日期与主官为通行说法，待页码级核对。",
+      "en": "In August 1937, the 8th Group Army under Zhang Fakui fought in the Battle of Shanghai in the Pudong sector. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "battle-shanghai-1937-08",
+      "japanese-shanghai-1937-08"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kmt-jianqiao-1937-08",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -753,6 +808,61 @@
     "relatedIds": [
       "battle-shanghai-1937-08",
       "kmt-jiangyin-1937-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-9th-group-army-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第9集团军与淞沪会战",
+      "en": "The 9th Group Army at Shanghai"
+    },
+    "date": "1937-08-15",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第9集团军参加淞沪会战，进攻虹口、杨树浦。",
+      "en": "The 9th Group Army fought in the Battle of Shanghai, attacking Hongkou and Yangshupu."
+    },
+    "description": {
+      "zh": "1937 年 8 月，第9集团军（总司令张治中）参加淞沪会战，进攻虹口、杨树浦方向。日期与主官为通行说法，待页码级核对。",
+      "en": "In August 1937, the 9th Group Army under Zhang Zhizhong fought in the Battle of Shanghai, attacking toward Hongkou and Yangshupu. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "battle-shanghai-1937-08",
+      "kmt-8th-group-army-1937-08"
     ],
     "importance": 2
   },
@@ -1203,6 +1313,116 @@
     "importance": 3
   },
   {
+    "id": "japanese-xinkou-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻忻口",
+      "en": "Japanese attack on Xinkou"
+    },
+    "date": "1937-10-13",
+    "location": {
+      "lng": 112.73,
+      "lat": 38.75,
+      "place": {
+        "zh": "山西忻口",
+        "en": "Xinkou, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻忻口，忻口会战展开。",
+      "en": "Japanese forces attacked Xinkou, opening the Battle of Xinkou."
+    },
+    "description": {
+      "zh": "1937 年 10 月 13 日，日军进攻山西忻口，忻口会战展开。日期与经过为通行说法，待页码级核对。",
+      "en": "On October 13, 1937, Japanese forces attacked Xinkou, Shanxi, opening the Battle of Xinkou. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "xinkou-1937-10",
+      "kmt-14th-group-army-1937-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-14th-group-army-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第14集团军与忻口会战",
+      "en": "The 14th Group Army at Xinkou"
+    },
+    "date": "1937-10-13",
+    "location": {
+      "lng": 112.73,
+      "lat": 38.75,
+      "place": {
+        "zh": "山西忻口",
+        "en": "Xinkou, Shanxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第14集团军参加忻口会战。",
+      "en": "The 14th Group Army fought in the Battle of Xinkou."
+    },
+    "description": {
+      "zh": "1937 年 10 月，第14集团军（总司令卫立煌）参加忻口会战，在山西忻口一线抗击日军。日期与主官为通行说法，待页码级核对。",
+      "en": "In October 1937, the 14th Group Army under Wei Lihuang fought in the Battle of Xinkou, resisting Japanese forces along the Xinkou line in Shanxi. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "xinkou-1937-10",
+      "japanese-xinkou-1937-10"
+    ],
+    "importance": 3
+  },
+  {
     "id": "xinkou-1937-10",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -1319,6 +1539,116 @@
       "jinsui-1938-01"
     ],
     "importance": 3
+  },
+  {
+    "id": "japanese-taiyuan-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻太原",
+      "en": "Japanese attack on Taiyuan"
+    },
+    "date": "1937-11-08",
+    "location": {
+      "lng": 112.55,
+      "lat": 37.87,
+      "place": {
+        "zh": "山西太原",
+        "en": "Taiyuan, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻太原，太原失守。",
+      "en": "Japanese forces attacked Taiyuan, which fell."
+    },
+    "description": {
+      "zh": "1937 年 11 月，日军进攻山西太原，11 月 8 日太原失守。日期与经过为通行说法，待页码级核对。",
+      "en": "In November 1937, Japanese forces attacked Taiyuan, Shanxi, which fell on November 8. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-7th-group-army-1937-11",
+      "xinkou-1937-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-7th-group-army-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第7集团军与太原保卫战",
+      "en": "The 7th Group Army and the defense of Taiyuan"
+    },
+    "date": "1937-11-08",
+    "location": {
+      "lng": 112.55,
+      "lat": 37.87,
+      "place": {
+        "zh": "山西太原",
+        "en": "Taiyuan, Shanxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第7集团军参加太原保卫战。",
+      "en": "The 7th Group Army fought in the defense of Taiyuan."
+    },
+    "description": {
+      "zh": "1937 年 11 月，第7集团军（总司令傅作义）参加太原保卫战。日期与主官为通行说法，待页码级核对。",
+      "en": "In November 1937, the 7th Group Army under Fu Zuoyi fought in the defense of Taiyuan. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-taiyuan-1937-11",
+      "kmt-14th-group-army-1937-10"
+    ],
+    "importance": 2
   },
   {
     "id": "nanjing-fall-1937-12",
@@ -1765,6 +2095,116 @@
       "taierzhuang-1938-03"
     ],
     "importance": 2
+  },
+  {
+    "id": "japanese-taierzhuang-1938-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻台儿庄",
+      "en": "Japanese attack on Taierzhuang"
+    },
+    "date": "1938-03-24",
+    "location": {
+      "lng": 117.73,
+      "lat": 34.55,
+      "place": {
+        "zh": "山东台儿庄",
+        "en": "Taierzhuang, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻台儿庄，台儿庄战役展开。",
+      "en": "Japanese forces attacked Taierzhuang, opening the Battle of Taierzhuang."
+    },
+    "description": {
+      "zh": "1938 年 3 月，日军进攻山东台儿庄，台儿庄战役展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In March 1938, Japanese forces attacked Taierzhuang, Shandong, opening the Battle of Taierzhuang. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "taierzhuang-1938-03",
+      "kmt-2nd-group-army-1938-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-2nd-group-army-1938-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第2集团军与台儿庄战役",
+      "en": "The 2nd Group Army at Taierzhuang"
+    },
+    "date": "1938-03-24",
+    "location": {
+      "lng": 117.73,
+      "lat": 34.55,
+      "place": {
+        "zh": "山东台儿庄",
+        "en": "Taierzhuang, Shandong"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第2集团军坚守台儿庄。",
+      "en": "The 2nd Group Army held Taierzhuang."
+    },
+    "description": {
+      "zh": "1938 年 3 月至 4 月，第2集团军（总司令孙连仲）坚守台儿庄，与日军展开巷战。日期与主官为通行说法，待页码级核对。",
+      "en": "From March to April 1938, the 2nd Group Army under Sun Lianzhong held Taierzhuang and fought Japanese forces in street battles. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "taierzhuang-1938-03",
+      "japanese-taierzhuang-1938-03"
+    ],
+    "importance": 3
   },
   {
     "id": "kmt-52nd-army-taierzhuang-1938-03",
@@ -2371,6 +2811,116 @@
     "relatedIds": [
       "jinjiluyu-1938-04",
       "huangyadong-1941-11"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "japanese-suizao-1939-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻随枣",
+      "en": "Japanese attack on Suizao"
+    },
+    "date": "1939-05-01",
+    "location": {
+      "lng": 113.38,
+      "lat": 31.69,
+      "place": {
+        "zh": "湖北随县",
+        "en": "Suixian, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻随枣地区。",
+      "en": "Japanese forces attacked the Suizao area."
+    },
+    "description": {
+      "zh": "1939 年 5 月，日军进攻湖北随县、枣阳地区，随枣会战展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In May 1939, Japanese forces attacked the Suixian and Zaoyang areas of Hubei, opening the Suizao campaign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "suizao-1939-05",
+      "kmt-31st-group-army-1939-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-31st-group-army-1939-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第31集团军与随枣会战",
+      "en": "The 31st Group Army at Suizao"
+    },
+    "date": "1939-05-01",
+    "location": {
+      "lng": 113.38,
+      "lat": 31.69,
+      "place": {
+        "zh": "湖北随县",
+        "en": "Suixian, Hubei"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第31集团军参加随枣会战。",
+      "en": "The 31st Group Army fought in the Suizao campaign."
+    },
+    "description": {
+      "zh": "1939 年 5 月，第31集团军（总司令汤恩伯）参加随枣会战，在湖北随县一带作战。日期与主官为通行说法，待页码级核对。",
+      "en": "In May 1939, the 31st Group Army under Tang Enbo fought in the Suizao campaign around Suixian, Hubei. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "suizao-1939-05",
+      "japanese-suizao-1939-05"
     ],
     "importance": 2
   },
@@ -3007,6 +3557,61 @@
     "relatedIds": [
       "new-fourth-army-formed-1937-10",
       "wannan-incident-1941-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "qiongya-meihe-1940-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "美合事变",
+      "en": "Meihe Incident"
+    },
+    "date": "1940-12-15",
+    "location": {
+      "lng": 109.9,
+      "lat": 19.6,
+      "place": {
+        "zh": "海南澄迈美合",
+        "en": "Meihe, Chengmai, Hainan"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "事变",
+    "summary": {
+      "zh": "琼崖独立总队在美合遭国民党军袭击。",
+      "en": "The Qiongya Independent Corps was attacked by KMT forces at Meihe."
+    },
+    "description": {
+      "zh": "1940 年 12 月，琼崖抗日独立总队在海南澄迈美合地区遭国民党军袭击，史称美合事变。日期与经过为通行说法，待页码级核对。",
+      "en": "In December 1940, the Qiongya Anti-Japanese Independent Corps was attacked by KMT forces at Meihe, Chengmai, Hainan, an event known as the Meihe Incident. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "qiongya-independent-1938-12",
+      "qiongya-base-1941-02"
     ],
     "importance": 2
   },

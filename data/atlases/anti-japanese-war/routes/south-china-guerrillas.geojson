@@ -83,6 +83,40 @@
         "type": "LineString",
         "coordinates": [
           [
+            110.4,
+            19.9
+          ],
+          [
+            109.9,
+            19.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "south-china-guerrillas",
+        "startDate": "1940-12-15",
+        "endDate": "1940-12-31",
+        "order": 3,
+        "segmentType": "advance",
+        "name": {
+          "zh": "琼山—美合",
+          "en": "Qiongshan–Meihe"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             114.4,
             22.8
           ],
@@ -96,7 +130,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1941-12-20",
         "endDate": "1941-12-31",
-        "order": 3,
+        "order": 4,
         "segmentType": "advance",
         "name": {
           "zh": "惠阳—香港",
@@ -134,7 +168,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1943-12-02",
         "endDate": "1945-08-15",
-        "order": 4,
+        "order": 5,
         "segmentType": "advance",
         "name": {
           "zh": "惠阳—东江",
@@ -172,7 +206,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1944-10-01",
         "endDate": "1945-08-15",
-        "order": 5,
+        "order": 6,
         "segmentType": "advance",
         "name": {
           "zh": "五桂山—珠江口",
@@ -206,7 +240,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-01",
         "endDate": "1945-08-15",
-        "order": 6,
+        "order": 7,
         "segmentType": "advance",
         "name": {
           "zh": "潮汕—韩江",
@@ -240,7 +274,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-01",
         "endDate": "1945-08-15",
-        "order": 7,
+        "order": 8,
         "segmentType": "advance",
         "name": {
           "zh": "遂溪—雷州",

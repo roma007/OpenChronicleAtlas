@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47,
+            31.23
+          ],
+          [
+            121.35,
+            31.4
+          ],
+          [
+            121.2,
+            31.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1937-08-13",
+        "endDate": "1937-11-12",
+        "order": 1,
+        "segmentType": "defense",
+        "name": {
+          "zh": "上海—淞沪",
+          "en": "Shanghai–Songhu"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.73,
+            38.75
+          ],
+          [
+            112.55,
+            37.87
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1937-10-13",
+        "endDate": "1937-11-08",
+        "order": 2,
+        "segmentType": "defense",
+        "name": {
+          "zh": "忻口—太原",
+          "en": "Xinkou–Taiyuan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.18,
+            34.26
+          ],
+          [
+            117.73,
+            34.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1938-01-01",
+        "endDate": "1938-05-19",
+        "order": 3,
+        "segmentType": "defense",
+        "name": {
+          "zh": "徐州—台儿庄",
+          "en": "Xuzhou–Taierzhuang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.14,
+            32.04
+          ],
+          [
+            112.77,
+            32.13
+          ],
+          [
+            113.38,
+            31.69
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1939-05-01",
+        "endDate": "1939-05-24",
+        "order": 4,
+        "segmentType": "defense",
+        "name": {
+          "zh": "襄阳—随县",
+          "en": "Xiangyang–Suixian"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    }
+  ]
+}
