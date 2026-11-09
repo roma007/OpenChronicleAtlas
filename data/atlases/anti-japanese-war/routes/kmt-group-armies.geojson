@@ -671,6 +671,44 @@
         "type": "LineString",
         "coordinates": [
           [
+            117.81,
+            30.94
+          ],
+          [
+            117.5,
+            30.7
+          ],
+          [
+            117.49,
+            30.66
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1939-12-16",
+        "endDate": "1940-01-20",
+        "order": 19,
+        "segmentType": "defense",
+        "name": {
+          "zh": "铜陵—贵池",
+          "en": "Tongling–Guichi"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             108.32,
             22.82
           ],
@@ -684,11 +722,45 @@
         "entityId": "kmt-group-armies",
         "startDate": "1939-12-18",
         "endDate": "1940-01-11",
-        "order": 19,
+        "order": 20,
         "segmentType": "defense",
         "name": {
           "zh": "南宁—昆仑关",
           "en": "Nanning–Kunlun Pass"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.81,
+            23.22
+          ],
+          [
+            108.65,
+            23.05
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1939-12-18",
+        "endDate": "1940-02-13",
+        "order": 21,
+        "segmentType": "defense",
+        "name": {
+          "zh": "宾阳—昆仑关",
+          "en": "Binyang–Kunlun Pass"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -722,7 +794,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1939-12-19",
         "endDate": "1940-01-31",
-        "order": 20,
+        "order": 22,
         "segmentType": "defense",
         "name": {
           "zh": "包头—五原（1939）",
@@ -760,7 +832,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1940-03-20",
         "endDate": "1940-04-03",
-        "order": 21,
+        "order": 23,
         "segmentType": "defense",
         "name": {
           "zh": "五原—包头",
@@ -794,7 +866,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1940-05-01",
         "endDate": "1940-06-18",
-        "order": 22,
+        "order": 24,
         "segmentType": "defense",
         "name": {
           "zh": "襄阳—宜城",
@@ -828,7 +900,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1941-01-25",
         "endDate": "1941-02-11",
-        "order": 23,
+        "order": 25,
         "segmentType": "defense",
         "name": {
           "zh": "息县—信阳",
@@ -866,7 +938,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1941-01-25",
         "endDate": "1941-02-11",
-        "order": 24,
+        "order": 26,
         "segmentType": "defense",
         "name": {
           "zh": "舞阳—南阳",
@@ -904,7 +976,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1941-03-15",
         "endDate": "1941-04-09",
-        "order": 25,
+        "order": 27,
         "segmentType": "defense",
         "name": {
           "zh": "南昌—上高",
@@ -942,7 +1014,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1941-05-07",
         "endDate": "1941-06-15",
-        "order": 26,
+        "order": 28,
         "segmentType": "defense",
         "name": {
           "zh": "洛阳—中条山",
@@ -980,11 +1052,49 @@
         "entityId": "kmt-group-armies",
         "startDate": "1941-09-07",
         "endDate": "1941-10-08",
-        "order": 27,
+        "order": 29,
         "segmentType": "defense",
         "name": {
           "zh": "平江—长沙",
           "en": "Pingjiang–Changsha"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.29,
+            30.69
+          ],
+          [
+            111.5,
+            30.8
+          ],
+          [
+            111.79,
+            30.82
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1941-09-28",
+        "endDate": "1941-10-13",
+        "order": 30,
+        "segmentType": "defense",
+        "name": {
+          "zh": "宜昌—当阳",
+          "en": "Yichang–Dangyang"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -1014,7 +1124,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1941-10-02",
         "endDate": "1941-11-01",
-        "order": 28,
+        "order": 31,
         "segmentType": "defense",
         "name": {
           "zh": "郑州—中牟",
@@ -1052,7 +1162,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1941-12-24",
         "endDate": "1942-01-15",
-        "order": 29,
+        "order": 32,
         "segmentType": "defense",
         "name": {
           "zh": "长沙—平江（1941）",
@@ -1086,7 +1196,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1942-05-15",
         "endDate": "1942-07-28",
-        "order": 30,
+        "order": 33,
         "segmentType": "defense",
         "name": {
           "zh": "丽水—金华",
@@ -1124,7 +1234,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1942-05-15",
         "endDate": "1942-07-28",
-        "order": 31,
+        "order": 34,
         "segmentType": "defense",
         "name": {
           "zh": "徽州—上饶",
@@ -1158,7 +1268,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1942-05-15",
         "endDate": "1942-07-28",
-        "order": 32,
+        "order": 35,
         "segmentType": "defense",
         "name": {
           "zh": "淳安—衢州",
@@ -1192,7 +1302,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1942-05-15",
         "endDate": "1942-07-28",
-        "order": 33,
+        "order": 36,
         "segmentType": "defense",
         "name": {
           "zh": "衢州—江山",
@@ -1230,7 +1340,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1943-04-20",
         "endDate": "1943-05-31",
-        "order": 34,
+        "order": 37,
         "segmentType": "defense",
         "name": {
           "zh": "林县—太行山",
@@ -1264,7 +1374,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1943-05-05",
         "endDate": "1943-06-12",
-        "order": 35,
+        "order": 38,
         "segmentType": "defense",
         "name": {
           "zh": "宜昌—石牌",
@@ -1298,7 +1408,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1943-11-02",
         "endDate": "1943-12-20",
-        "order": 36,
+        "order": 39,
         "segmentType": "defense",
         "name": {
           "zh": "常德—桃源",
@@ -1336,7 +1446,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1944-04-17",
         "endDate": "1944-05-25",
-        "order": 37,
+        "order": 40,
         "segmentType": "defense",
         "name": {
           "zh": "许昌—洛阳",
@@ -1374,7 +1484,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1944-05-11",
         "endDate": "1944-09-14",
-        "order": 38,
+        "order": 41,
         "segmentType": "defense",
         "name": {
           "zh": "保山—腾冲",
@@ -1412,7 +1522,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1944-05-11",
         "endDate": "1944-11-03",
-        "order": 39,
+        "order": 42,
         "segmentType": "defense",
         "name": {
           "zh": "保山—龙陵",
@@ -1450,11 +1560,49 @@
         "entityId": "kmt-group-armies",
         "startDate": "1944-05-21",
         "endDate": "1944-06-10",
-        "order": 40,
+        "order": 43,
         "segmentType": "defense",
         "name": {
           "zh": "洛阳—陕县",
           "en": "Luoyang–Shanxian"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.17,
+            25.12
+          ],
+          [
+            99.0,
+            24.95
+          ],
+          [
+            98.9,
+            24.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1944-06-04",
+        "endDate": "1944-09-07",
+        "order": 44,
+        "segmentType": "defense",
+        "name": {
+          "zh": "保山—松山",
+          "en": "Baoshan–Songshan"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -1484,7 +1632,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1944-11-10",
         "endDate": "1944-11-24",
-        "order": 41,
+        "order": 45,
         "segmentType": "defense",
         "name": {
           "zh": "桂林—柳州",
@@ -1522,7 +1670,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1945-03-21",
         "endDate": "1945-04-08",
-        "order": 42,
+        "order": 46,
         "segmentType": "defense",
         "name": {
           "zh": "南阳—老河口",
@@ -1560,7 +1708,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1945-03-21",
         "endDate": "1945-04-08",
-        "order": 43,
+        "order": 47,
         "segmentType": "defense",
         "name": {
           "zh": "襄阳—老河口",

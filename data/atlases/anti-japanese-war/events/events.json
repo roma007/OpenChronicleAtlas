@@ -4641,6 +4641,115 @@
     "importance": 2
   },
   {
+    "id": "japanese-tongling-1939-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻铜陵",
+      "en": "Japanese attack on Tongling"
+    },
+    "date": "1939-12-16",
+    "location": {
+      "lng": 117.81,
+      "lat": 30.94,
+      "place": {
+        "zh": "安徽铜陵",
+        "en": "Tongling, Anhui"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军在皖南铜陵方向作战。",
+      "en": "Japanese forces operated toward Tongling in southern Anhui."
+    },
+    "description": {
+      "zh": "1939 年 12 月，日军在皖南铜陵方向作战。日期与经过为通行说法，待页码级核对。",
+      "en": "In December 1939, Japanese forces operated toward Tongling in southern Anhui. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-23rd-group-army-winter-1939-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-23rd-group-army-winter-1939-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第23集团军与冬季攻势",
+      "en": "The 23rd Group Army in the 1939 winter offensive"
+    },
+    "date": "1939-12-16",
+    "location": {
+      "lng": 117.81,
+      "lat": 30.94,
+      "place": {
+        "zh": "安徽铜陵",
+        "en": "Tongling, Anhui"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第23集团军在皖南铜陵、贵池方向参加冬季攻势。",
+      "en": "The 23rd Group Army fought toward Tongling and Guichi in southern Anhui during the winter offensive."
+    },
+    "description": {
+      "zh": "1939 年 12 月，第23集团军（总司令唐式遵）在皖南铜陵、贵池方向参加冬季攻势。日期与主官为通行说法，待页码级核对。",
+      "en": "In December 1939, the 23rd Group Army under Tang Shizun fought toward Tongling and Guichi in southern Anhui during the winter offensive. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-tongling-1939-12",
+      "kmt-23rd-group-army-zhegan-1942-05"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kmt-16th-group-army-kunlun-1939-12",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -4748,6 +4857,62 @@
     "relatedIds": [
       "kunlun-1939-12",
       "japanese-guinan-1939-11",
+      "kmt-16th-group-army-kunlun-1939-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-37th-group-army-guinan-1939-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第37集团军与桂南会战",
+      "en": "The 37th Group Army in the Battle of Guinan"
+    },
+    "date": "1939-12-18",
+    "location": {
+      "lng": 108.81,
+      "lat": 23.22,
+      "place": {
+        "zh": "广西宾阳",
+        "en": "Binyang, Guangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第37集团军在宾阳方向参加桂南会战。",
+      "en": "The 37th Group Army fought toward Binyang in the Battle of Guinan."
+    },
+    "description": {
+      "zh": "1939 年 12 月，第37集团军（总司令叶肇）在宾阳方向参加桂南会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In December 1939, the 37th Group Army under Ye Zhao fought toward Binyang in the Battle of Guinan. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "kunlun-1939-12",
+      "japanese-binyang-1940-01",
       "kmt-16th-group-army-kunlun-1939-12"
     ],
     "importance": 2
@@ -5032,6 +5197,61 @@
     "relatedIds": [
       "japanese-baotou-1939-12",
       "kmt-35th-army-wuyuan-1940-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "japanese-binyang-1940-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻宾阳",
+      "en": "Japanese attack on Binyang"
+    },
+    "date": "1940-01-28",
+    "location": {
+      "lng": 108.81,
+      "lat": 23.22,
+      "place": {
+        "zh": "广西宾阳",
+        "en": "Binyang, Guangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻宾阳，企图迂回昆仑关后路。",
+      "en": "Japanese forces attacked Binyang, attempting to outflank Kunlun Pass."
+    },
+    "description": {
+      "zh": "1940 年 1 月，日军进攻广西宾阳，企图迂回昆仑关后路。日期与经过为通行说法，待页码级核对。",
+      "en": "In January 1940, Japanese forces attacked Binyang, Guangxi, attempting to outflank Kunlun Pass. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-37th-group-army-guinan-1939-12",
+      "kunlun-1939-12"
     ],
     "importance": 2
   },
@@ -6825,6 +7045,115 @@
     "relatedIds": [
       "changsha-1941-09",
       "japanese-changsha-1941-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "japanese-yichang-1941-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军防守宜昌",
+      "en": "Japanese defense of Yichang"
+    },
+    "date": "1941-09-28",
+    "location": {
+      "lng": 111.29,
+      "lat": 30.69,
+      "place": {
+        "zh": "湖北宜昌",
+        "en": "Yichang, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军在宜昌一线防御中国军队反攻。",
+      "en": "Japanese forces defended the Yichang line against the Chinese counteroffensive."
+    },
+    "description": {
+      "zh": "1941 年 9 月，日军在湖北宜昌一线防御中国军队反攻。日期与经过为通行说法，待页码级核对。",
+      "en": "In September 1941, Japanese forces defended the Yichang line in Hubei against the Chinese counteroffensive. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-26th-group-army-yichang-1941-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-26th-group-army-yichang-1941-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第26集团军与宜昌反攻",
+      "en": "The 26th Group Army in the Yichang counteroffensive"
+    },
+    "date": "1941-09-28",
+    "location": {
+      "lng": 111.29,
+      "lat": 30.69,
+      "place": {
+        "zh": "湖北宜昌",
+        "en": "Yichang, Hubei"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第26集团军参加第六战区反攻宜昌。",
+      "en": "The 26th Group Army took part in the Sixth War Area counteroffensive against Yichang."
+    },
+    "description": {
+      "zh": "1941 年 9 月，第26集团军（总司令周碞）参加第六战区反攻宜昌。日期与主官为通行说法，待页码级核对。",
+      "en": "In September 1941, the 26th Group Army under Zhou Yan took part in the Sixth War Area counteroffensive against Yichang. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-yichang-1941-09",
+      "exi-1943-05"
     ],
     "importance": 2
   },
@@ -8970,6 +9299,61 @@
     "importance": 2
   },
   {
+    "id": "zeng-sheng-dongjiang-1943-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "曾生任东江纵队司令员",
+      "en": "Zeng Sheng appointed commander of the Dongjiang Column"
+    },
+    "date": "1943-12-02",
+    "location": {
+      "lng": 114.4,
+      "lat": 22.8,
+      "place": {
+        "zh": "广东惠阳",
+        "en": "Huiyang, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "东江纵队成立，曾生任司令员。",
+      "en": "The Dongjiang Column was established with Zeng Sheng as commander."
+    },
+    "description": {
+      "zh": "1943 年 12 月 2 日，广东人民抗日游击队东江纵队在惠阳成立，曾生任司令员。日期与任职为通行说法，待页码级核对。",
+      "en": "On December 2, 1943, the Dongjiang Column of the Guangdong People’s Anti-Japanese Guerrillas was established at Huiyang, with Zeng Sheng as commander. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dongjiang-column-1943-12",
+      "yin-linping-dongjiang-1943-12"
+    ],
+    "importance": 2
+  },
+  {
     "id": "gangjiu-rescue-pilots-1944-02",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -9639,6 +10023,117 @@
     "relatedIds": [
       "japanese-luoyang-1944-05",
       "japanese-yuzhong-1944-04"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "japanese-songshan-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军松山防御",
+      "en": "Japanese defense of Songshan"
+    },
+    "date": "1944-06-04",
+    "location": {
+      "lng": 98.9,
+      "lat": 24.8,
+      "place": {
+        "zh": "云南松山",
+        "en": "Songshan, Yunnan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军在松山构筑工事，防御中国远征军。",
+      "en": "Japanese forces fortified Songshan and defended it against the Chinese Expeditionary Force."
+    },
+    "description": {
+      "zh": "1944 年 6 月，日军在云南松山构筑工事，防御中国远征军反攻。日期与经过为通行说法，待页码级核对。",
+      "en": "In June 1944, Japanese forces fortified Songshan in Yunnan and defended it against the Chinese Expeditionary Force counteroffensive. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "songshan-1944-06",
+      "kmt-11th-group-army-songshan-1944-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-11th-group-army-songshan-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第11集团军与松山战役",
+      "en": "The 11th Group Army in the Battle of Songshan"
+    },
+    "date": "1944-06-04",
+    "location": {
+      "lng": 98.9,
+      "lat": 24.8,
+      "place": {
+        "zh": "云南松山",
+        "en": "Songshan, Yunnan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第11集团军所部主攻松山。",
+      "en": "Units of the 11th Group Army led the attack on Songshan."
+    },
+    "description": {
+      "zh": "1944 年 6 月，第11集团军（总司令宋希濂）所部在滇西反攻中主攻松山。日期与主官为通行说法，待页码级核对。",
+      "en": "In June 1944, units of the 11th Group Army under Song Xilian led the attack on Songshan during the western Yunnan counteroffensive. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "songshan-1944-06",
+      "dianxi-1944-05",
+      "japanese-songshan-1944-06"
     ],
     "importance": 3
   },
@@ -11100,6 +11595,61 @@
     "description": {
       "zh": "1945 年 6 月，琼崖纵队由白沙向乐东尖峰岭山区发展，扩大抗日根据地。日期与经过为通行说法，待页码级核对。",
       "en": "In June 1945, the Qiongya Column advanced from Baisha into the Jianfeng Ridge area of Ledong, expanding the anti-Japanese base area. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "qiongya-base-1941-02",
+      "qiongya-column-wuzhishan-1944-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "feng-baiju-qiongya-1945-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "冯白驹任琼崖纵队司令员",
+      "en": "Feng Baiju appointed commander of the Qiongya Column"
+    },
+    "date": "1945-07-01",
+    "location": {
+      "lng": 109.45,
+      "lat": 19.22,
+      "place": {
+        "zh": "海南白沙",
+        "en": "Baisha, Hainan"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "琼崖抗日独立纵队在白沙成立，冯白驹任司令员。",
+      "en": "The Qiongya Anti-Japanese Independent Column was established at Baisha with Feng Baiju as commander."
+    },
+    "description": {
+      "zh": "1945 年 7 月，琼崖抗日独立纵队在海南白沙成立，冯白驹任司令员。日期与任职为通行说法，待页码级核对。",
+      "en": "In July 1945, the Qiongya Anti-Japanese Independent Column was established at Baisha, Hainan, with Feng Baiju as commander. Dates and appointments follow conventional accounts and await page-level verification."
     },
     "images": [],
     "sources": [
