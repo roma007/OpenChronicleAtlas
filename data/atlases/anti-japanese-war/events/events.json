@@ -3870,6 +3870,114 @@
     "importance": 2
   },
   {
+    "id": "japanese-yuebei-1939-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻粤北",
+      "en": "Japanese attack in northern Guangdong"
+    },
+    "date": "1939-12-15",
+    "location": {
+      "lng": 113.58,
+      "lat": 23.55,
+      "place": {
+        "zh": "广东从化",
+        "en": "Conghua, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻粤北，第一次粤北会战展开。",
+      "en": "Japanese forces attacked northern Guangdong, opening the first northern Guangdong campaign."
+    },
+    "description": {
+      "zh": "1939 年 12 月，日军进攻广东粤北地区，第一次粤北会战展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In December 1939, Japanese forces attacked northern Guangdong, opening the first northern Guangdong campaign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-12th-group-army-yuebei-1939-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-12th-group-army-yuebei-1939-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第12集团军与第一次粤北会战",
+      "en": "The 12th Group Army in the first northern Guangdong campaign"
+    },
+    "date": "1939-12-15",
+    "location": {
+      "lng": 113.6,
+      "lat": 24.8,
+      "place": {
+        "zh": "广东韶关",
+        "en": "Shaoguan, Guangdong"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第12集团军在粤北抗击日军，保卫韶关。",
+      "en": "The 12th Group Army resisted Japanese forces in northern Guangdong and defended Shaoguan."
+    },
+    "description": {
+      "zh": "1939 年 12 月，第12集团军（总司令余汉谋）在粤北从化、韶关一带抗击日军，取得第一次粤北会战胜利。日期与主官为通行说法，待页码级核对。",
+      "en": "In December 1939, the 12th Group Army under Yu Hanmou resisted Japanese forces around Conghua and Shaoguan in northern Guangdong, winning the first northern Guangdong campaign. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-yuebei-1939-12"
+    ],
+    "importance": 3
+  },
+  {
     "id": "kmt-16th-group-army-kunlun-1939-12",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -4659,6 +4767,114 @@
     "importance": 3
   },
   {
+    "id": "japanese-yunan-1941-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻豫南",
+      "en": "Japanese attack in southern Henan"
+    },
+    "date": "1941-01-25",
+    "location": {
+      "lng": 114.09,
+      "lat": 32.15,
+      "place": {
+        "zh": "河南信阳",
+        "en": "Xinyang, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻豫南，豫南会战展开。",
+      "en": "Japanese forces attacked southern Henan, opening the South Henan campaign."
+    },
+    "description": {
+      "zh": "1941 年 1 月，日军进攻河南南部，豫南会战展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In January 1941, Japanese forces attacked southern Henan, opening the South Henan campaign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-31st-group-army-yunan-1941-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-31st-group-army-yunan-1941-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第31集团军与豫南会战",
+      "en": "The 31st Group Army in the South Henan campaign"
+    },
+    "date": "1941-01-25",
+    "location": {
+      "lng": 113.6,
+      "lat": 33.44,
+      "place": {
+        "zh": "河南舞阳",
+        "en": "Wuyang, Henan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第31集团军在豫南会战中机动转移，避实击虚。",
+      "en": "The 31st Group Army maneuvered and avoided the Japanese main force in the South Henan campaign."
+    },
+    "description": {
+      "zh": "1941 年 1 月，第31集团军（总司令汤恩伯）在豫南会战中于舞阳、上蔡一带机动转移，避开日军合围。日期与主官为通行说法，待页码级核对。",
+      "en": "In January 1941, the 31st Group Army under Tang Enbo maneuvered around Wuyang and Shangcai during the South Henan campaign, avoiding Japanese encirclement. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-yunan-1941-01"
+    ],
+    "importance": 2
+  },
+  {
     "id": "new-fourth-army-rebuild-1941-01",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -4878,6 +5094,62 @@
       "japanese-shanggao-1941-03"
     ],
     "importance": 3
+  },
+  {
+    "id": "kmt-30th-group-army-shanggao-1941-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第30集团军与上高会战",
+      "en": "The 30th Group Army in the Battle of Shanggao"
+    },
+    "date": "1941-03-15",
+    "location": {
+      "lng": 114.92,
+      "lat": 28.24,
+      "place": {
+        "zh": "江西上高",
+        "en": "Shanggao, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第30集团军第72军驰援上高会战。",
+      "en": "The 72nd Army of the 30th Group Army reinforced the Battle of Shanggao."
+    },
+    "description": {
+      "zh": "1941 年 3 月，第30集团军（总司令王陵基）所部第72军由修水驰援上高，参加上高会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In March 1941, the 72nd Army of the 30th Group Army under Wang Lingji reinforced Shanggao from Xiushui during the Battle of Shanggao. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "shanggao-1941-03",
+      "kmt-19th-group-army-shanggao-1941-03",
+      "japanese-shanggao-1941-03"
+    ],
+    "importance": 2
   },
   {
     "id": "kmt-74th-army-shanggao-1941-03",
@@ -5223,6 +5495,61 @@
       "hundred-regiments-1940-08"
     ],
     "importance": 1
+  },
+  {
+    "id": "liulianling-base-1941-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "六连岭抗日根据地",
+      "en": "Liulian Ridge anti-Japanese base area"
+    },
+    "date": "1941-06-01",
+    "location": {
+      "lng": 110.4,
+      "lat": 18.8,
+      "place": {
+        "zh": "海南万宁",
+        "en": "Wanning, Hainan"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "琼崖抗日武装在六连岭建立根据地。",
+      "en": "Qiongya anti-Japanese forces established a base area at Liulian Ridge."
+    },
+    "description": {
+      "zh": "1941 年 6 月，琼崖抗日武装在海南万宁六连岭建立抗日根据地。时间与范围为通行说法，待页码级核对。",
+      "en": "In June 1941, Qiongya anti-Japanese forces established a base area at Liulian Ridge in Wanning, Hainan. Dates and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "qiongya-base-1941-02",
+      "qiongya-counter-1942-05"
+    ],
+    "importance": 2
   },
   {
     "id": "wuguishan-base-1941-09",
@@ -5785,6 +6112,61 @@
       "ichigo-offensive-1944-04"
     ],
     "importance": 1
+  },
+  {
+    "id": "kmt-27th-group-army-changsha-1941-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第27集团军与第三次长沙会战",
+      "en": "The 27th Group Army in the third Battle of Changsha"
+    },
+    "date": "1941-12-24",
+    "location": {
+      "lng": 112.94,
+      "lat": 28.23,
+      "place": {
+        "zh": "湖南长沙",
+        "en": "Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第27集团军在第三次长沙会战中担任北方堵击。",
+      "en": "The 27th Group Army served as the northern blocking force in the third Battle of Changsha."
+    },
+    "description": {
+      "zh": "1941 年 12 月，第27集团军（总司令杨森）在第三次长沙会战中担任北方堵击军，于新墙河、汨罗江一线截击日军。日期与主官为通行说法，待页码级核对。",
+      "en": "In December 1941, the 27th Group Army under Yang Sen served as the northern blocking force in the third Battle of Changsha, intercepting Japanese forces along the Xinqiang and Miluo rivers. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "changsha-1941-12",
+      "kmt-27th-group-army-changsha-1941-09"
+    ],
+    "importance": 3
   },
   {
     "id": "dongjiang-rescue-1941-12",
@@ -6483,6 +6865,61 @@
     ],
     "relatedIds": [
       "japanese-taihang-1943-04"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dapeng-base-1943-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "大鹏半岛抗日根据地",
+      "en": "Dapeng Peninsula anti-Japanese base area"
+    },
+    "date": "1943-05-01",
+    "location": {
+      "lng": 114.5,
+      "lat": 22.6,
+      "place": {
+        "zh": "广东宝安大鹏",
+        "en": "Dapeng, Bao’an, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "东江纵队在大鹏半岛建立抗日根据地。",
+      "en": "The Dongjiang Column established a base area on the Dapeng Peninsula."
+    },
+    "description": {
+      "zh": "1943 年 5 月，东江抗日游击队在大鹏半岛一带建立抗日根据地。时间与范围为通行说法，待页码级核对。",
+      "en": "In May 1943, the Dongjiang anti-Japanese guerrillas established a base area on the Dapeng Peninsula. Dates and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dongjiang-base-1940-09",
+      "daling-shan-base-1940-10"
     ],
     "importance": 2
   },

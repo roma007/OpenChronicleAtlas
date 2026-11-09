@@ -151,6 +151,44 @@
         "type": "LineString",
         "coordinates": [
           [
+            110.35,
+            19.98
+          ],
+          [
+            110.4,
+            19.4
+          ],
+          [
+            110.4,
+            18.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "south-china-guerrillas",
+        "startDate": "1941-06-01",
+        "endDate": "1945-08-15",
+        "order": 5,
+        "segmentType": "advance",
+        "name": {
+          "zh": "琼山—六连岭",
+          "en": "Qiongshan–Liulian Ridge"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             113.39,
             22.52
           ],
@@ -164,7 +202,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1941-09-01",
         "endDate": "1945-08-15",
-        "order": 5,
+        "order": 6,
         "segmentType": "advance",
         "name": {
           "zh": "中山—五桂山",
@@ -198,7 +236,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1941-12-20",
         "endDate": "1941-12-31",
-        "order": 6,
+        "order": 7,
         "segmentType": "advance",
         "name": {
           "zh": "惠阳—香港",
@@ -232,7 +270,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1942-02-03",
         "endDate": "1945-08-15",
-        "order": 7,
+        "order": 8,
         "segmentType": "advance",
         "name": {
           "zh": "西贡—九龙",
@@ -270,7 +308,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1943-08-01",
         "endDate": "1945-08-15",
-        "order": 8,
+        "order": 9,
         "segmentType": "advance",
         "name": {
           "zh": "琼山—白沙",
@@ -308,7 +346,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1943-12-02",
         "endDate": "1945-08-15",
-        "order": 9,
+        "order": 10,
         "segmentType": "advance",
         "name": {
           "zh": "惠阳—东江",
@@ -342,7 +380,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1944-08-01",
         "endDate": "1945-08-15",
-        "order": 10,
+        "order": 11,
         "segmentType": "advance",
         "name": {
           "zh": "白沙—五指山",
@@ -380,7 +418,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1944-10-01",
         "endDate": "1945-08-15",
-        "order": 11,
+        "order": 12,
         "segmentType": "advance",
         "name": {
           "zh": "五桂山—珠江口",
@@ -414,7 +452,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-01",
         "endDate": "1945-08-15",
-        "order": 12,
+        "order": 13,
         "segmentType": "advance",
         "name": {
           "zh": "潮汕—韩江",
@@ -448,7 +486,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-01",
         "endDate": "1945-08-15",
-        "order": 13,
+        "order": 14,
         "segmentType": "advance",
         "name": {
           "zh": "遂溪—雷州",
@@ -486,7 +524,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-15",
         "endDate": "1945-08-15",
-        "order": 14,
+        "order": 15,
         "segmentType": "advance",
         "name": {
           "zh": "中山—新会",

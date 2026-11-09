@@ -771,6 +771,48 @@
         "type": "LineString",
         "coordinates": [
           [
+            113.26,
+            23.13
+          ],
+          [
+            113.58,
+            23.55
+          ],
+          [
+            113.6,
+            24.2
+          ],
+          [
+            113.6,
+            24.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-12-15",
+        "endDate": "1940-01-16",
+        "order": 21,
+        "segmentType": "advance",
+        "name": {
+          "zh": "广州—韶关",
+          "en": "Guangzhou–Shaoguan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             108.65,
             21.95
           ],
@@ -788,7 +830,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1939-12-18",
         "endDate": "1940-01-11",
-        "order": 21,
+        "order": 22,
         "segmentType": "advance",
         "name": {
           "zh": "昆仑关战役",
@@ -826,7 +868,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1940-03-20",
         "endDate": "1940-04-03",
-        "order": 22,
+        "order": 23,
         "segmentType": "advance",
         "name": {
           "zh": "包头—五原",
@@ -872,7 +914,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1940-05-01",
         "endDate": "1940-06-18",
-        "order": 23,
+        "order": 24,
         "segmentType": "advance",
         "name": {
           "zh": "枣宜会战",
@@ -884,6 +926,44 @@
         },
         "extensions": {
           "precision": "campaign"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.09,
+            32.15
+          ],
+          [
+            113.8,
+            32.8
+          ],
+          [
+            113.6,
+            33.44
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-01-25",
+        "endDate": "1941-02-11",
+        "order": 25,
+        "segmentType": "advance",
+        "name": {
+          "zh": "信阳—舞阳",
+          "en": "Xinyang–Wuyang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     },
@@ -910,7 +990,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1941-03-15",
         "endDate": "1941-04-09",
-        "order": 24,
+        "order": 26,
         "segmentType": "advance",
         "name": {
           "zh": "上高会战",
@@ -952,7 +1032,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1941-05-07",
         "endDate": "1941-06-15",
-        "order": 25,
+        "order": 27,
         "segmentType": "advance",
         "name": {
           "zh": "中条山战役",
@@ -994,7 +1074,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1941-09-07",
         "endDate": "1941-10-08",
-        "order": 26,
+        "order": 28,
         "segmentType": "advance",
         "name": {
           "zh": "第二次长沙会战",
@@ -1028,7 +1108,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1941-12-08",
         "endDate": "1941-12-25",
-        "order": 27,
+        "order": 29,
         "segmentType": "advance",
         "name": {
           "zh": "深圳—香港",
@@ -1074,7 +1154,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1941-12-24",
         "endDate": "1942-01-15",
-        "order": 28,
+        "order": 30,
         "segmentType": "advance",
         "name": {
           "zh": "第三次长沙会战",
@@ -1112,7 +1192,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1942-01-20",
         "endDate": "1942-05-01",
-        "order": 29,
+        "order": 31,
         "segmentType": "advance",
         "name": {
           "zh": "仰光—曼德勒",
@@ -1158,7 +1238,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1942-05-15",
         "endDate": "1942-07-28",
-        "order": 30,
+        "order": 32,
         "segmentType": "advance",
         "name": {
           "zh": "杭州—南昌",
@@ -1196,7 +1276,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1943-04-20",
         "endDate": "1943-05-31",
-        "order": 31,
+        "order": 33,
         "segmentType": "advance",
         "name": {
           "zh": "安阳—林县",
@@ -1234,7 +1314,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1943-05-05",
         "endDate": "1943-06-12",
-        "order": 32,
+        "order": 34,
         "segmentType": "advance",
         "name": {
           "zh": "鄂西会战",
@@ -1272,7 +1352,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1943-11-02",
         "endDate": "1943-12-20",
-        "order": 33,
+        "order": 35,
         "segmentType": "advance",
         "name": {
           "zh": "常德会战",
@@ -1342,7 +1422,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1944-04-17",
         "endDate": "1944-11-24",
-        "order": 34,
+        "order": 36,
         "segmentType": "advance",
         "name": {
           "zh": "豫湘桂—南宁",
@@ -1376,7 +1456,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1944-04-17",
         "endDate": "1944-05-25",
-        "order": 35,
+        "order": 37,
         "segmentType": "advance",
         "name": {
           "zh": "郑州—洛阳",
@@ -1418,7 +1498,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1944-05-11",
         "endDate": "1945-01-27",
-        "order": 36,
+        "order": 38,
         "segmentType": "defense",
         "name": {
           "zh": "滇西反攻（日军防御线）",
@@ -1452,7 +1532,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1944-06-18",
         "endDate": "1944-08-08",
-        "order": 37,
+        "order": 39,
         "segmentType": "advance",
         "name": {
           "zh": "岳阳—长沙",
@@ -1486,7 +1566,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1944-11-10",
         "endDate": "1944-11-11",
-        "order": 38,
+        "order": 40,
         "segmentType": "advance",
         "name": {
           "zh": "桂林—柳州（1944）",
@@ -1524,7 +1604,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1945-04-09",
         "endDate": "1945-06-07",
-        "order": 39,
+        "order": 41,
         "segmentType": "advance",
         "name": {
           "zh": "湘西会战",

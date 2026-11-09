@@ -409,6 +409,44 @@
         "type": "LineString",
         "coordinates": [
           [
+            113.6,
+            24.8
+          ],
+          [
+            113.6,
+            24.2
+          ],
+          [
+            113.58,
+            23.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1939-12-15",
+        "endDate": "1940-01-16",
+        "order": 12,
+        "segmentType": "defense",
+        "name": {
+          "zh": "韶关—从化",
+          "en": "Shaoguan–Conghua"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             108.32,
             22.82
           ],
@@ -422,7 +460,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1939-12-18",
         "endDate": "1940-01-11",
-        "order": 12,
+        "order": 13,
         "segmentType": "defense",
         "name": {
           "zh": "南宁—昆仑关",
@@ -456,11 +494,49 @@
         "entityId": "kmt-group-armies",
         "startDate": "1940-05-01",
         "endDate": "1940-06-18",
-        "order": 13,
+        "order": 14,
         "segmentType": "defense",
         "name": {
           "zh": "襄阳—宜城",
           "en": "Xiangyang–Yicheng"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.6,
+            33.44
+          ],
+          [
+            113.0,
+            33.2
+          ],
+          [
+            112.53,
+            33.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1941-01-25",
+        "endDate": "1941-02-11",
+        "order": 15,
+        "segmentType": "defense",
+        "name": {
+          "zh": "舞阳—南阳",
+          "en": "Wuyang–Nanyang"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -494,7 +570,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1941-03-15",
         "endDate": "1941-04-09",
-        "order": 14,
+        "order": 16,
         "segmentType": "defense",
         "name": {
           "zh": "南昌—上高",
@@ -532,7 +608,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1941-05-07",
         "endDate": "1941-06-15",
-        "order": 15,
+        "order": 17,
         "segmentType": "defense",
         "name": {
           "zh": "洛阳—中条山",
@@ -570,11 +646,49 @@
         "entityId": "kmt-group-armies",
         "startDate": "1941-09-07",
         "endDate": "1941-10-08",
-        "order": 16,
+        "order": 18,
         "segmentType": "defense",
         "name": {
           "zh": "平江—长沙",
           "en": "Pingjiang–Changsha"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.94,
+            28.23
+          ],
+          [
+            113.2,
+            28.5
+          ],
+          [
+            113.58,
+            28.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1941-12-24",
+        "endDate": "1942-01-15",
+        "order": 19,
+        "segmentType": "defense",
+        "name": {
+          "zh": "长沙—平江（1941）",
+          "en": "Changsha–Pingjiang (1941)"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -604,7 +718,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1942-05-15",
         "endDate": "1942-07-28",
-        "order": 17,
+        "order": 20,
         "segmentType": "defense",
         "name": {
           "zh": "淳安—衢州",
@@ -638,7 +752,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1942-05-15",
         "endDate": "1942-07-28",
-        "order": 18,
+        "order": 21,
         "segmentType": "defense",
         "name": {
           "zh": "衢州—江山",
@@ -676,7 +790,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1943-04-20",
         "endDate": "1943-05-31",
-        "order": 19,
+        "order": 22,
         "segmentType": "defense",
         "name": {
           "zh": "林县—太行山",
@@ -710,7 +824,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1943-05-05",
         "endDate": "1943-06-12",
-        "order": 20,
+        "order": 23,
         "segmentType": "defense",
         "name": {
           "zh": "宜昌—石牌",
@@ -744,7 +858,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1943-11-02",
         "endDate": "1943-12-20",
-        "order": 21,
+        "order": 24,
         "segmentType": "defense",
         "name": {
           "zh": "常德—桃源",
@@ -778,7 +892,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1944-11-10",
         "endDate": "1944-11-24",
-        "order": 22,
+        "order": 25,
         "segmentType": "defense",
         "name": {
           "zh": "桂林—柳州",
