@@ -1845,6 +1845,44 @@
         "type": "LineString",
         "coordinates": [
           [
+            112.14,
+            32.04
+          ],
+          [
+            111.9,
+            32.2
+          ],
+          [
+            111.67,
+            32.36
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1945-03-21",
+        "endDate": "1945-04-08",
+        "order": 48,
+        "segmentType": "advance",
+        "name": {
+          "zh": "襄阳—老河口",
+          "en": "Xiangyang–Laohekou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             111.47,
             27.24
           ],
@@ -1862,7 +1900,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1945-04-09",
         "endDate": "1945-06-07",
-        "order": 48,
+        "order": 49,
         "segmentType": "advance",
         "name": {
           "zh": "湘西会战",

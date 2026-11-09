@@ -4753,6 +4753,62 @@
     "importance": 2
   },
   {
+    "id": "kmt-38th-group-army-kunlun-1939-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第38集团军与昆仑关战役",
+      "en": "The 38th Group Army in the Battle of Kunlun Pass"
+    },
+    "date": "1939-12-18",
+    "location": {
+      "lng": 108.65,
+      "lat": 23.05,
+      "place": {
+        "zh": "广西昆仑关",
+        "en": "Kunlun Pass, Guangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第38集团军为北路主攻部队，参加昆仑关战役。",
+      "en": "The 38th Group Army was the northern main attack force in the Battle of Kunlun Pass."
+    },
+    "description": {
+      "zh": "1939 年 12 月，第38集团军（总司令徐庭瑶）为北路主攻部队，参加昆仑关战役。日期与主官为通行说法，待页码级核对。",
+      "en": "In December 1939, the 38th Group Army under Xu Tingyao served as the northern main attack force in the Battle of Kunlun Pass. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "kunlun-1939-12",
+      "kmt-5th-army-kunlun-1939-12",
+      "japanese-guinan-1939-11"
+    ],
+    "importance": 3
+  },
+  {
     "id": "kmt-5th-army-kunlun-1939-12",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -7487,6 +7543,61 @@
     "importance": 2
   },
   {
+    "id": "japanese-jinhua-1942-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻金华",
+      "en": "Japanese attack on Jinhua"
+    },
+    "date": "1942-05-15",
+    "location": {
+      "lng": 119.65,
+      "lat": 29.08,
+      "place": {
+        "zh": "浙江金华",
+        "en": "Jinhua, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻金华、兰溪方向，浙赣会战展开。",
+      "en": "Japanese forces attacked toward Jinhua and Lanxi, opening the Zhejiang-Jiangxi campaign."
+    },
+    "description": {
+      "zh": "1942 年 5 月，日军进攻浙江金华、兰溪方向，浙赣会战展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In May 1942, Japanese forces attacked toward Jinhua and Lanxi in Zhejiang, opening the Zhejiang-Jiangxi campaign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-25th-group-army-zhegan-1942-05",
+      "japanese-zhegan-1942-05"
+    ],
+    "importance": 2
+  },
+  {
     "id": "japanese-zhegan-1942-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -7597,6 +7708,116 @@
     "importance": 3
   },
   {
+    "id": "kmt-23rd-group-army-zhegan-1942-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第23集团军与浙赣会战",
+      "en": "The 23rd Group Army in the Zhejiang-Jiangxi campaign"
+    },
+    "date": "1942-05-15",
+    "location": {
+      "lng": 117.97,
+      "lat": 28.45,
+      "place": {
+        "zh": "江西上饶",
+        "en": "Shangrao, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第23集团军在皖南、赣东方向参加浙赣会战。",
+      "en": "The 23rd Group Army fought in southern Anhui and eastern Jiangxi during the Zhejiang-Jiangxi campaign."
+    },
+    "description": {
+      "zh": "1942 年 5 月，第23集团军（总司令唐式遵）在皖南、赣东上饶方向参加浙赣会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In May 1942, the 23rd Group Army under Tang Shizun fought in southern Anhui and toward Shangrao in eastern Jiangxi during the Zhejiang-Jiangxi campaign. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-shangrao-1942-06",
+      "japanese-zhegan-1942-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-25th-group-army-zhegan-1942-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第25集团军与浙赣会战",
+      "en": "The 25th Group Army in the Zhejiang-Jiangxi campaign"
+    },
+    "date": "1942-05-15",
+    "location": {
+      "lng": 119.65,
+      "lat": 29.08,
+      "place": {
+        "zh": "浙江金华",
+        "en": "Jinhua, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第25集团军在浙西金华方向参加浙赣会战。",
+      "en": "The 25th Group Army fought toward Jinhua in western Zhejiang during the Zhejiang-Jiangxi campaign."
+    },
+    "description": {
+      "zh": "1942 年 5 月，第25集团军（总司令李觉）在浙西金华方向参加浙赣会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In May 1942, the 25th Group Army under Li Jue fought toward Jinhua in western Zhejiang during the Zhejiang-Jiangxi campaign. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-jinhua-1942-05",
+      "japanese-zhegan-1942-05"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kmt-32nd-group-army-zhegan-1942-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -7704,6 +7925,61 @@
       "hundred-regiments-1940-08"
     ],
     "importance": 3
+  },
+  {
+    "id": "japanese-shangrao-1942-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻上饶",
+      "en": "Japanese attack on Shangrao"
+    },
+    "date": "1942-06-01",
+    "location": {
+      "lng": 117.97,
+      "lat": 28.45,
+      "place": {
+        "zh": "江西上饶",
+        "en": "Shangrao, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军沿浙赣铁路进攻上饶方向。",
+      "en": "Japanese forces advanced toward Shangrao along the Zhejiang-Jiangxi railway."
+    },
+    "description": {
+      "zh": "1942 年 6 月，日军沿浙赣铁路进攻江西上饶方向。日期与经过为通行说法，待页码级核对。",
+      "en": "In June 1942, Japanese forces advanced toward Shangrao in Jiangxi along the Zhejiang-Jiangxi railway. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-23rd-group-army-zhegan-1942-05",
+      "japanese-zhegan-1942-05"
+    ],
+    "importance": 2
   },
   {
     "id": "burma-retreat-1942-08",
@@ -8639,6 +8915,61 @@
     "importance": 3
   },
   {
+    "id": "yin-linping-dongjiang-1943-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "尹林平任东江纵队政治委员",
+      "en": "Yin Linping appointed political commissar of the Dongjiang Column"
+    },
+    "date": "1943-12-02",
+    "location": {
+      "lng": 114.4,
+      "lat": 22.8,
+      "place": {
+        "zh": "广东惠阳",
+        "en": "Huiyang, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "东江纵队成立，尹林平任政治委员。",
+      "en": "The Dongjiang Column was established with Yin Linping as political commissar."
+    },
+    "description": {
+      "zh": "1943 年 12 月 2 日，广东人民抗日游击队东江纵队在惠阳成立，尹林平任政治委员。日期与任职为通行说法，待页码级核对。",
+      "en": "On December 2, 1943, the Dongjiang Column of the Guangdong People’s Anti-Japanese Guerrillas was established at Huiyang, with Yin Linping as political commissar. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dongjiang-column-1943-12",
+      "dongjiang-rescue-1941-12"
+    ],
+    "importance": 2
+  },
+  {
     "id": "gangjiu-rescue-pilots-1944-02",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -8969,6 +9300,61 @@
     "importance": 2
   },
   {
+    "id": "japanese-luoyang-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻洛阳",
+      "en": "Japanese attack on Luoyang"
+    },
+    "date": "1944-05-09",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "河南洛阳",
+        "en": "Luoyang, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻洛阳，豫中会战扩大。",
+      "en": "Japanese forces attacked Luoyang, expanding the Central Henan campaign."
+    },
+    "description": {
+      "zh": "1944 年 5 月，日军进攻河南洛阳，豫中会战扩大。日期与经过为通行说法，待页码级核对。",
+      "en": "In May 1944, Japanese forces attacked Luoyang, Henan, expanding the Central Henan campaign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-36th-group-army-yuzhong-1944-05",
+      "japanese-yuzhong-1944-04"
+    ],
+    "importance": 2
+  },
+  {
     "id": "dianxi-1944-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -9198,6 +9584,61 @@
     "relatedIds": [
       "dianxi-1944-05",
       "japanese-dianxi-1944-05"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "kmt-36th-group-army-yuzhong-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第36集团军与豫中会战",
+      "en": "The 36th Group Army in the Central Henan campaign"
+    },
+    "date": "1944-05-21",
+    "location": {
+      "lng": 111.1,
+      "lat": 34.7,
+      "place": {
+        "zh": "河南陕县",
+        "en": "Shanxian, Henan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第36集团军在豫中会战后期掩护友军转移，总司令李家钰殉国。",
+      "en": "The 36th Group Army covered friendly retreats in the later stage of the Central Henan campaign; commander Li Jiayu was killed."
+    },
+    "description": {
+      "zh": "1944 年 5 月，第36集团军（总司令李家钰）在豫中会战后期于陕县一带掩护友军转移，李家钰于 5 月 21 日殉国。日期与经过为通行说法，待页码级核对。",
+      "en": "In May 1944, the 36th Group Army under Li Jiayu covered friendly retreats around Shanxian in the later stage of the Central Henan campaign; Li was killed on May 21. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-luoyang-1944-05",
+      "japanese-yuzhong-1944-04"
     ],
     "importance": 3
   },
@@ -9483,6 +9924,61 @@
     "relatedIds": [
       "qiongya-base-1941-02",
       "baisha-base-1943-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lin-qiangyun-zhujiang-1944-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "林锵云任珠江纵队司令员",
+      "en": "Lin Qiangyun appointed commander of the Zhujiang Column"
+    },
+    "date": "1944-10-01",
+    "location": {
+      "lng": 113.4,
+      "lat": 22.45,
+      "place": {
+        "zh": "广东中山",
+        "en": "Zhongshan, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "珠江纵队成立，林锵云任司令员。",
+      "en": "The Zhujiang Column was established with Lin Qiangyun as commander."
+    },
+    "description": {
+      "zh": "1944 年 10 月，珠江纵队在中山五桂山成立，林锵云任司令员。日期与任职为通行说法，待页码级核对。",
+      "en": "In October 1944, the Zhujiang Column was established in the Wugui Mountains of Zhongshan, with Lin Qiangyun as commander. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "zhujiang-column-1944-10",
+      "wuguishan-base-1941-09"
     ],
     "importance": 2
   },
@@ -10180,6 +10676,116 @@
       }
     ],
     "relatedIds": [
+      "kmt-2nd-group-army-yuxi-1945-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "japanese-xiangyang-1945-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻襄阳",
+      "en": "Japanese attack on Xiangyang"
+    },
+    "date": "1945-03-21",
+    "location": {
+      "lng": 112.14,
+      "lat": 32.04,
+      "place": {
+        "zh": "湖北襄阳",
+        "en": "Xiangyang, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻襄阳、老河口方向。",
+      "en": "Japanese forces attacked toward Xiangyang and Laohekou."
+    },
+    "description": {
+      "zh": "1945 年 3 月，日军进攻湖北襄阳、老河口方向，豫西鄂北会战展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In March 1945, Japanese forces attacked toward Xiangyang and Laohekou in Hubei, opening the western Henan-northern Hubei campaign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-22nd-group-army-yuxi-1945-03",
+      "kmt-2nd-group-army-yuxi-1945-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-22nd-group-army-yuxi-1945-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第22集团军与豫西鄂北会战",
+      "en": "The 22nd Group Army in the western Henan-northern Hubei campaign"
+    },
+    "date": "1945-03-21",
+    "location": {
+      "lng": 112.14,
+      "lat": 32.04,
+      "place": {
+        "zh": "湖北襄阳",
+        "en": "Xiangyang, Hubei"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第22集团军在襄阳、老河口方向参加豫西鄂北会战。",
+      "en": "The 22nd Group Army fought toward Xiangyang and Laohekou in the western Henan-northern Hubei campaign."
+    },
+    "description": {
+      "zh": "1945 年 3 月，第22集团军（总司令孙震）在襄阳、老河口方向参加豫西鄂北会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In March 1945, the 22nd Group Army under Sun Zhen fought toward Xiangyang and Laohekou in the western Henan-northern Hubei campaign. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-xiangyang-1945-03",
       "kmt-2nd-group-army-yuxi-1945-03"
     ],
     "importance": 2
