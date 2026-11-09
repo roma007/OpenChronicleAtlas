@@ -1423,6 +1423,61 @@
     "importance": 3
   },
   {
+    "id": "kmt-6th-group-army-xinkou-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第6集团军与忻口会战",
+      "en": "The 6th Group Army at Xinkou"
+    },
+    "date": "1937-10-13",
+    "location": {
+      "lng": 112.73,
+      "lat": 38.75,
+      "place": {
+        "zh": "山西忻口",
+        "en": "Xinkou, Shanxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第6集团军在忻口右翼参加会战。",
+      "en": "The 6th Group Army fought on the right flank at Xinkou."
+    },
+    "description": {
+      "zh": "1937 年 10 月，第6集团军（总司令杨爱源）在忻口右翼参加会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In October 1937, the 6th Group Army under Yang Aiyuan fought on the right flank at Xinkou. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "xinkou-1937-10",
+      "kmt-14th-group-army-1937-10"
+    ],
+    "importance": 2
+  },
+  {
     "id": "xinkou-1937-10",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -1484,6 +1539,61 @@
       "nanjing-fall-1937-12"
     ],
     "importance": 1
+  },
+  {
+    "id": "kmt-10th-group-army-songhu-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第10集团军与淞沪会战",
+      "en": "The 10th Group Army at Shanghai"
+    },
+    "date": "1937-11-05",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第10集团军参加淞沪会战后期作战。",
+      "en": "The 10th Group Army fought in the later stage of the Battle of Shanghai."
+    },
+    "description": {
+      "zh": "1937 年 11 月，第10集团军（总司令刘建绪）参加淞沪会战后期作战。日期与主官为通行说法，待页码级核对。",
+      "en": "In November 1937, the 10th Group Army under Liu Jianxu fought in the later stage of the Battle of Shanghai. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "battle-shanghai-1937-08",
+      "kmt-9th-group-army-1937-08"
+    ],
+    "importance": 2
   },
   {
     "id": "jinchaji-1937-11",
@@ -1982,6 +2092,116 @@
       "taierzhuang-1938-03"
     ],
     "importance": 3
+  },
+  {
+    "id": "japanese-lunan-1938-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻鲁南",
+      "en": "Japanese attack in southern Shandong"
+    },
+    "date": "1938-03-16",
+    "location": {
+      "lng": 117.16,
+      "lat": 35.08,
+      "place": {
+        "zh": "山东滕县",
+        "en": "Tengxian, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻鲁南滕县，徐州会战展开。",
+      "en": "Japanese forces attacked Tengxian in southern Shandong, opening the Xuzhou campaign."
+    },
+    "description": {
+      "zh": "1938 年 3 月，日军进攻山东滕县，徐州会战展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In March 1938, Japanese forces attacked Tengxian, Shandong, opening the Xuzhou campaign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "taierzhuang-1938-03",
+      "kmt-3rd-group-army-lunan-1938-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-3rd-group-army-lunan-1938-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第3集团军与鲁南作战",
+      "en": "The 3rd Group Army in southern Shandong"
+    },
+    "date": "1938-03-16",
+    "location": {
+      "lng": 117.16,
+      "lat": 35.08,
+      "place": {
+        "zh": "山东滕县",
+        "en": "Tengxian, Shandong"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第3集团军在鲁南滕县一带作战。",
+      "en": "The 3rd Group Army fought around Tengxian in southern Shandong."
+    },
+    "description": {
+      "zh": "1938 年 3 月，第3集团军（总司令孙桐萱）在鲁南滕县一带作战，配合徐州会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In March 1938, the 3rd Group Army under Sun Tongxuan fought around Tengxian in southern Shandong as part of the Xuzhou campaign. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "taierzhuang-1938-03",
+      "japanese-lunan-1938-03"
+    ],
+    "importance": 2
   },
   {
     "id": "taierzhuang-1938-03",
@@ -2539,6 +2759,61 @@
       }
     ],
     "relatedIds": [
+      "wuhan-fall-1938-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-20th-group-army-wuhan-1938-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第20集团军与武汉会战",
+      "en": "The 20th Group Army at Wuhan"
+    },
+    "date": "1938-06-12",
+    "location": {
+      "lng": 115.66,
+      "lat": 29.67,
+      "place": {
+        "zh": "江西瑞昌",
+        "en": "Ruichang, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第20集团军在瑞昌一线参加武汉会战。",
+      "en": "The 20th Group Army fought along the Ruichang line in the Battle of Wuhan."
+    },
+    "description": {
+      "zh": "1938 年 6 月，第20集团军（总司令商震）在江西瑞昌一线参加武汉会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In June 1938, the 20th Group Army under Shang Zhen fought along the Ruichang line in Jiangxi during the Battle of Wuhan. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-wuhan-1938-06",
       "wuhan-fall-1938-10"
     ],
     "importance": 2
@@ -3329,6 +3604,116 @@
     "importance": 2
   },
   {
+    "id": "japanese-zaoyi-1940-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻枣宜",
+      "en": "Japanese attack on Zaoyi"
+    },
+    "date": "1940-05-01",
+    "location": {
+      "lng": 112.77,
+      "lat": 32.13,
+      "place": {
+        "zh": "湖北枣阳",
+        "en": "Zaoyang, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻枣阳、宜昌方向，枣宜会战展开。",
+      "en": "Japanese forces attacked toward Zaoyang and Yichang, opening the Zaoyi campaign."
+    },
+    "description": {
+      "zh": "1940 年 5 月，日军进攻湖北枣阳、宜昌方向，枣宜会战展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In May 1940, Japanese forces attacked toward Zaoyang and Yichang in Hubei, opening the Zaoyi campaign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "zaoyi-1940-05",
+      "kmt-33rd-group-army-zaoyi-1940-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-33rd-group-army-zaoyi-1940-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第33集团军与枣宜会战",
+      "en": "The 33rd Group Army at Zaoyi"
+    },
+    "date": "1940-05-01",
+    "location": {
+      "lng": 112.26,
+      "lat": 31.72,
+      "place": {
+        "zh": "湖北宜城",
+        "en": "Yicheng, Hubei"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第33集团军参加枣宜会战，总司令张自忠殉国。",
+      "en": "The 33rd Group Army fought in the Zaoyi campaign; its commander Zhang Zizhong was killed."
+    },
+    "description": {
+      "zh": "1940 年 5 月，第33集团军（总司令张自忠）参加枣宜会战，张自忠于 5 月 16 日在宜城附近殉国。日期与经过为通行说法，待页码级核对。",
+      "en": "In May 1940, the 33rd Group Army under Zhang Zizhong fought in the Zaoyi campaign; Zhang was killed near Yicheng on May 16. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "zaoyi-1940-05",
+      "japanese-zaoyi-1940-05"
+    ],
+    "importance": 3
+  },
+  {
     "id": "zaoyi-1940-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -3501,6 +3886,61 @@
       }
     ],
     "relatedIds": [
+      "dongjiang-column-1943-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "daling-shan-base-1940-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "大岭山抗日根据地",
+      "en": "Daling Mountain anti-Japanese base area"
+    },
+    "date": "1940-10-01",
+    "location": {
+      "lng": 113.85,
+      "lat": 22.9,
+      "place": {
+        "zh": "广东东莞",
+        "en": "Dongguan, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "东江抗日游击队在大岭山建立根据地。",
+      "en": "The Dongjiang guerrillas established a base area in the Daling Mountains."
+    },
+    "description": {
+      "zh": "1940 年 10 月，东江抗日游击队在大岭山一带建立抗日根据地。时间与范围为通行说法，待页码级核对。",
+      "en": "In October 1940, the Dongjiang anti-Japanese guerrillas established a base area in the Daling Mountains. Dates and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dongjiang-base-1940-09",
       "dongjiang-column-1943-12"
     ],
     "importance": 2
@@ -3894,6 +4334,116 @@
     "relatedIds": [
       "changsha-1939-09",
       "changsha-1941-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "japanese-zhongtiaoshan-1941-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻中条山",
+      "en": "Japanese attack on the Zhongtiao Mountains"
+    },
+    "date": "1941-05-07",
+    "location": {
+      "lng": 111.55,
+      "lat": 35.05,
+      "place": {
+        "zh": "山西中条山",
+        "en": "Zhongtiao Mountains, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻中条山，中条山战役展开。",
+      "en": "Japanese forces attacked the Zhongtiao Mountains, opening the Zhongtiao campaign."
+    },
+    "description": {
+      "zh": "1941 年 5 月 7 日，日军进攻山西中条山，中条山战役展开。日期与经过为通行说法，待页码级核对。",
+      "en": "On May 7, 1941, Japanese forces attacked the Zhongtiao Mountains in Shanxi, opening the Zhongtiao campaign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "zhongtiaoshan-1941-05",
+      "kmt-5th-group-army-zhongtiaoshan-1941-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-5th-group-army-zhongtiaoshan-1941-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第5集团军与中条山会战",
+      "en": "The 5th Group Army at Zhongtiao"
+    },
+    "date": "1941-05-07",
+    "location": {
+      "lng": 111.55,
+      "lat": 35.05,
+      "place": {
+        "zh": "山西中条山",
+        "en": "Zhongtiao Mountains, Shanxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第5集团军在中条山地区抗击日军。",
+      "en": "The 5th Group Army resisted Japanese forces in the Zhongtiao Mountains."
+    },
+    "description": {
+      "zh": "1941 年 5 月，第5集团军（总司令曾万钟）在中条山地区抗击日军。日期与主官为通行说法，待页码级核对。",
+      "en": "In May 1941, the 5th Group Army under Zeng Wanzhong resisted Japanese forces in the Zhongtiao Mountains. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "zhongtiaoshan-1941-05",
+      "japanese-zhongtiaoshan-1941-05"
     ],
     "importance": 2
   },
@@ -4628,6 +5178,61 @@
     "importance": 2
   },
   {
+    "id": "japanese-zhegan-1942-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻浙赣",
+      "en": "Japanese attack in Zhejiang and Jiangxi"
+    },
+    "date": "1942-05-15",
+    "location": {
+      "lng": 118.87,
+      "lat": 28.97,
+      "place": {
+        "zh": "浙江衢州",
+        "en": "Quzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军发动浙赣作战，进攻衢州、南昌方向。",
+      "en": "Japanese forces launched the Zhejiang-Jiangxi operation toward Quzhou and Nanchang."
+    },
+    "description": {
+      "zh": "1942 年 5 月，日军发动浙赣作战，进攻浙江衢州、江西南昌方向。日期与经过为通行说法，待页码级核对。",
+      "en": "In May 1942, Japanese forces launched the Zhejiang-Jiangxi operation toward Quzhou in Zhejiang and Nanchang in Jiangxi. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "shanggao-1941-03",
+      "japanese-changsha-1941-09"
+    ],
+    "importance": 2
+  },
+  {
     "id": "shiziling-1942-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -4845,6 +5450,61 @@
     "relatedIds": [
       "changde-1943-11",
       "zaoyi-1940-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "baisha-base-1943-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "琼崖白沙抗日根据地",
+      "en": "Baisha anti-Japanese base area"
+    },
+    "date": "1943-08-01",
+    "location": {
+      "lng": 109.45,
+      "lat": 19.22,
+      "place": {
+        "zh": "海南白沙",
+        "en": "Baisha, Hainan"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "琼崖纵队开辟白沙抗日根据地。",
+      "en": "The Qiongya Column opened the Baisha anti-Japanese base area."
+    },
+    "description": {
+      "zh": "1943 年 8 月，琼崖纵队在海南白沙地区开辟抗日根据地。时间与范围为通行说法，待页码级核对。",
+      "en": "In August 1943, the Qiongya Column opened an anti-Japanese base area in Baisha, Hainan. Dates and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "qiongya-base-1941-02",
+      "qiongya-counter-1942-05"
     ],
     "importance": 2
   },
