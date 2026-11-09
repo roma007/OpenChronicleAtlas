@@ -2985,6 +2985,116 @@
     "importance": 2
   },
   {
+    "id": "kmt-2nd-group-army-wuhan-1938-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第2集团军与武汉会战",
+      "en": "The 2nd Group Army in the Battle of Wuhan"
+    },
+    "date": "1938-06-12",
+    "location": {
+      "lng": 115.4,
+      "lat": 31.8,
+      "place": {
+        "zh": "河南商城",
+        "en": "Shangcheng, Henan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第2集团军在大别山北麓参加武汉会战。",
+      "en": "The 2nd Group Army fought on the northern slopes of the Dabie Mountains in the Battle of Wuhan."
+    },
+    "description": {
+      "zh": "1938 年 6 月，第2集团军（总司令孙连仲）在大别山北麓商城、麻城一带参加武汉会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In June 1938, the 2nd Group Army under Sun Lianzhong fought around Shangcheng and Macheng on the northern slopes of the Dabie Mountains during the Battle of Wuhan. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-wuhan-1938-06",
+      "kmt-2nd-group-army-suizao-1939-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-3rd-group-army-wuhan-1938-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第3集团军与武汉会战",
+      "en": "The 3rd Group Army in the Battle of Wuhan"
+    },
+    "date": "1938-06-12",
+    "location": {
+      "lng": 115.66,
+      "lat": 29.67,
+      "place": {
+        "zh": "江西瑞昌",
+        "en": "Ruichang, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第3集团军第12军在瑞昌方向参加武汉会战。",
+      "en": "The 12th Army of the 3rd Group Army fought toward Ruichang in the Battle of Wuhan."
+    },
+    "description": {
+      "zh": "1938 年 6 月，第3集团军（总司令孙桐萱）所部第12军在江西瑞昌方向参加武汉会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In June 1938, the 12th Army of the 3rd Group Army under Sun Tongxuan fought toward Ruichang, Jiangxi, during the Battle of Wuhan. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-wuhan-1938-06",
+      "kmt-9th-group-army-wuhan-1938-06"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kmt-9th-group-army-wuhan-1938-06",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -3749,6 +3859,61 @@
     "importance": 2
   },
   {
+    "id": "japanese-tongbai-1939-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻桐柏",
+      "en": "Japanese attack on Tongbai"
+    },
+    "date": "1939-05-01",
+    "location": {
+      "lng": 113.42,
+      "lat": 32.36,
+      "place": {
+        "zh": "河南桐柏",
+        "en": "Tongbai, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻桐柏，随枣会战展开。",
+      "en": "Japanese forces attacked Tongbai, opening the Suizao campaign."
+    },
+    "description": {
+      "zh": "1939 年 5 月，日军进攻河南桐柏，随枣会战展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In May 1939, Japanese forces attacked Tongbai, Henan, opening the Suizao campaign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "suizao-1939-05",
+      "kmt-2nd-group-army-suizao-1939-05"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kmt-21st-group-army-suizao-1939-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -3802,6 +3967,61 @@
       "kmt-31st-group-army-1939-05"
     ],
     "importance": 2
+  },
+  {
+    "id": "kmt-2nd-group-army-suizao-1939-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第2集团军与随枣会战",
+      "en": "The 2nd Group Army in the Suizao campaign"
+    },
+    "date": "1939-05-01",
+    "location": {
+      "lng": 113.42,
+      "lat": 32.36,
+      "place": {
+        "zh": "河南桐柏",
+        "en": "Tongbai, Henan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第2集团军在桐柏山北麓参加随枣会战。",
+      "en": "The 2nd Group Army fought on the northern slopes of the Tongbai Mountains in the Suizao campaign."
+    },
+    "description": {
+      "zh": "1939 年 5 月，第2集团军（总司令孙连仲）在桐柏山北麓南阳、唐河、桐柏一线参加随枣会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In May 1939, the 2nd Group Army under Sun Lianzhong fought along the Nanyang, Tanghe and Tongbai line on the northern slopes of the Tongbai Mountains during the Suizao campaign. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "suizao-1939-05",
+      "japanese-tongbai-1939-05"
+    ],
+    "importance": 3
   },
   {
     "id": "kmt-31st-group-army-1939-05",
@@ -4203,6 +4423,61 @@
     "importance": 2
   },
   {
+    "id": "japanese-sanshui-1939-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻三水",
+      "en": "Japanese attack on Sanshui"
+    },
+    "date": "1939-12-15",
+    "location": {
+      "lng": 112.9,
+      "lat": 23.16,
+      "place": {
+        "zh": "广东三水",
+        "en": "Sanshui, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻三水，第一次粤北会战展开。",
+      "en": "Japanese forces attacked Sanshui, opening the first northern Guangdong campaign."
+    },
+    "description": {
+      "zh": "1939 年 12 月，日军进攻广东三水，第一次粤北会战展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In December 1939, Japanese forces attacked Sanshui, Guangdong, opening the first northern Guangdong campaign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-35th-group-army-yuebei-1939-12",
+      "kmt-12th-group-army-yuebei-1939-12"
+    ],
+    "importance": 2
+  },
+  {
     "id": "japanese-yuebei-1939-12",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -4311,6 +4586,61 @@
     "importance": 3
   },
   {
+    "id": "kmt-35th-group-army-yuebei-1939-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第35集团军与第一次粤北会战",
+      "en": "The 35th Group Army in the first northern Guangdong campaign"
+    },
+    "date": "1939-12-15",
+    "location": {
+      "lng": 112.9,
+      "lat": 23.16,
+      "place": {
+        "zh": "广东三水",
+        "en": "Sanshui, Guangdong"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第35集团军在三水、花县间阻击日军。",
+      "en": "The 35th Group Army blocked Japanese forces between Sanshui and Huaxian."
+    },
+    "description": {
+      "zh": "1939 年 12 月，第35集团军（总司令邓龙光）在三水、花县间阻击北援日军，配合第一次粤北会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In December 1939, the 35th Group Army under Deng Longguang blocked Japanese reinforcements between Sanshui and Huaxian, supporting the first northern Guangdong campaign. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-sanshui-1939-12",
+      "kmt-12th-group-army-yuebei-1939-12"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kmt-16th-group-army-kunlun-1939-12",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -4365,6 +4695,62 @@
       "japanese-guinan-1939-11"
     ],
     "importance": 3
+  },
+  {
+    "id": "kmt-35th-group-army-guinan-1939-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第35集团军与桂南会战",
+      "en": "The 35th Group Army in the Battle of Guinan"
+    },
+    "date": "1939-12-18",
+    "location": {
+      "lng": 108.32,
+      "lat": 22.82,
+      "place": {
+        "zh": "广西南宁",
+        "en": "Nanning, Guangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第35集团军在桂南会战中驰援甘棠、南宁方向。",
+      "en": "The 35th Group Army reinforced the Gantang and Nanning sectors in the Battle of Guinan."
+    },
+    "description": {
+      "zh": "1939 年 12 月，第35集团军（总司令邓龙光）在桂南会战中率第64军驰援甘棠、南宁方向。日期与主官为通行说法，待页码级核对。",
+      "en": "In December 1939, the 35th Group Army under Deng Longguang led the 64th Army to reinforce the Gantang and Nanning sectors during the Battle of Guinan. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "kunlun-1939-12",
+      "japanese-guinan-1939-11",
+      "kmt-16th-group-army-kunlun-1939-12"
+    ],
+    "importance": 2
   },
   {
     "id": "kmt-5th-army-kunlun-1939-12",
@@ -4589,6 +4975,61 @@
     ],
     "relatedIds": [
       "japanese-wuyuan-1940-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-7th-group-army-wuyuan-1940-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第7集团军与五原战役",
+      "en": "The 7th Group Army in the Battle of Wuyuan"
+    },
+    "date": "1940-03-20",
+    "location": {
+      "lng": 108.27,
+      "lat": 41.1,
+      "place": {
+        "zh": "内蒙古五原",
+        "en": "Wuyuan, Inner Mongolia"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第7集团军收复五原。",
+      "en": "The 7th Group Army recaptured Wuyuan."
+    },
+    "description": {
+      "zh": "1940 年 3 月，第7集团军（总司令傅作义）在绥西五原地区反击日军，收复五原。日期与战果为通行说法，待页码级核对。",
+      "en": "In March 1940, the 7th Group Army under Fu Zuoyi counterattacked Japanese forces at Wuyuan in Suiyuan and recaptured the town. Dates and results follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-wuyuan-1940-03",
+      "kmt-35th-army-wuyuan-1940-03"
     ],
     "importance": 2
   },
@@ -9416,6 +9857,61 @@
     "importance": 2
   },
   {
+    "id": "zhujiang-yunfu-1945-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "珠江纵队挺进云雾山",
+      "en": "The Zhujiang Column advances into the Yunwu Mountains"
+    },
+    "date": "1945-04-01",
+    "location": {
+      "lng": 112.04,
+      "lat": 22.93,
+      "place": {
+        "zh": "广东云浮",
+        "en": "Yunfu, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "珠江纵队向云雾山一带发展。",
+      "en": "The Zhujiang Column advanced into the Yunwu Mountains."
+    },
+    "description": {
+      "zh": "1945 年 4 月，珠江纵队由粤中向云雾山一带发展，扩大抗日游击区。日期与经过为通行说法，待页码级核对。",
+      "en": "In April 1945, the Zhujiang Column advanced from central Guangdong into the Yunwu Mountains, expanding anti-Japanese guerrilla areas. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "zhujiang-column-1944-10",
+      "wuguishan-base-1941-09"
+    ],
+    "importance": 2
+  },
+  {
     "id": "xiangxi-1945-04",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -9531,6 +10027,61 @@
     "relatedIds": [
       "nanning-fall-1944-11",
       "japan-surrender-1945-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "qiongya-jianfengling-1945-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "琼崖纵队挺进尖峰岭",
+      "en": "The Qiongya Column advances into the Jianfeng Ridge"
+    },
+    "date": "1945-06-01",
+    "location": {
+      "lng": 109.17,
+      "lat": 18.75,
+      "place": {
+        "zh": "海南乐东",
+        "en": "Ledong, Hainan"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "琼崖纵队向尖峰岭山区发展。",
+      "en": "The Qiongya Column advanced into the Jianfeng Ridge area."
+    },
+    "description": {
+      "zh": "1945 年 6 月，琼崖纵队由白沙向乐东尖峰岭山区发展，扩大抗日根据地。日期与经过为通行说法，待页码级核对。",
+      "en": "In June 1945, the Qiongya Column advanced from Baisha into the Jianfeng Ridge area of Ledong, expanding the anti-Japanese base area. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "qiongya-base-1941-02",
+      "qiongya-column-wuzhishan-1944-08"
     ],
     "importance": 2
   },

@@ -614,6 +614,82 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.4,
+            22.45
+          ],
+          [
+            112.7,
+            22.7
+          ],
+          [
+            112.04,
+            22.93
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "south-china-guerrillas",
+        "startDate": "1945-04-01",
+        "endDate": "1945-08-15",
+        "order": 18,
+        "segmentType": "advance",
+        "name": {
+          "zh": "中山—云雾山",
+          "en": "Zhongshan–Yunwu Mountain"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.45,
+            19.22
+          ],
+          [
+            109.2,
+            19.0
+          ],
+          [
+            109.17,
+            18.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "south-china-guerrillas",
+        "startDate": "1945-06-01",
+        "endDate": "1945-08-15",
+        "order": 19,
+        "segmentType": "advance",
+        "name": {
+          "zh": "白沙—尖峰岭",
+          "en": "Baisha–Jianfeng Ridge"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
