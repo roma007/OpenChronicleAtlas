@@ -2819,6 +2819,169 @@
     "importance": 2
   },
   {
+    "id": "kmt-9th-group-army-wuhan-1938-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第9集团军与武汉会战",
+      "en": "The 9th Group Army in the Battle of Wuhan"
+    },
+    "date": "1938-06-12",
+    "location": {
+      "lng": 115.75,
+      "lat": 29.33,
+      "place": {
+        "zh": "江西德安",
+        "en": "De’an, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第9集团军在赣北参加武汉会战。",
+      "en": "The 9th Group Army fought in northern Jiangxi during the Battle of Wuhan."
+    },
+    "description": {
+      "zh": "1938 年 6 月，第9集团军（总司令吴奇伟）在赣北德安一带参加武汉会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In June 1938, the 9th Group Army under Wu Qiwei fought around De’an in northern Jiangxi during the Battle of Wuhan. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-wuhan-1938-06",
+      "kmt-20th-group-army-wuhan-1938-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "japanese-dabie-1938-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻大别山",
+      "en": "Japanese attack in the Dabie Mountains"
+    },
+    "date": "1938-08-27",
+    "location": {
+      "lng": 116.5,
+      "lat": 31.75,
+      "place": {
+        "zh": "安徽六安",
+        "en": "Lu’an, Anhui"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻大别山地区，与第21集团军作战。",
+      "en": "Japanese forces attacked the Dabie Mountains and fought the 21st Group Army."
+    },
+    "description": {
+      "zh": "1938 年 8 月，日军进攻安徽大别山地区，与第21集团军等部作战。日期与经过为通行说法，待页码级核对。",
+      "en": "In August 1938, Japanese forces attacked the Dabie Mountains in Anhui, fighting the 21st Group Army and other Chinese units. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-21st-group-army-dabie-1938-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-21st-group-army-dabie-1938-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第21集团军与大别山作战",
+      "en": "The 21st Group Army in the Dabie Mountains"
+    },
+    "date": "1938-08-27",
+    "location": {
+      "lng": 115.93,
+      "lat": 31.72,
+      "place": {
+        "zh": "安徽立煌",
+        "en": "Lihuang, Anhui"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第21集团军在大别山地区建立敌后根据地。",
+      "en": "The 21st Group Army established a base area in the Dabie Mountains."
+    },
+    "description": {
+      "zh": "1938 年 8 月，第21集团军（总司令廖磊）进入安徽大别山地区，经营敌后根据地并开展游击作战。日期与主官为通行说法，待页码级核对。",
+      "en": "In August 1938, the 21st Group Army under Liao Lei entered the Dabie Mountains in Anhui, establishing a base area and conducting guerrilla operations. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-dabie-1938-08"
+    ],
+    "importance": 2
+  },
+  {
     "id": "japanese-guangzhou-1938-10",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -3253,6 +3416,61 @@
     "importance": 2
   },
   {
+    "id": "kmt-21st-group-army-suizao-1939-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第21集团军与随枣会战",
+      "en": "The 21st Group Army in the Suizao campaign"
+    },
+    "date": "1939-05-01",
+    "location": {
+      "lng": 113.38,
+      "lat": 31.69,
+      "place": {
+        "zh": "湖北随县",
+        "en": "Suixian, Hubei"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第21集团军在随枣会战中配合作战。",
+      "en": "The 21st Group Army fought in the Suizao campaign."
+    },
+    "description": {
+      "zh": "1939 年 5 月，第21集团军（总司令李品仙）在湖北随县、枣阳地区参加随枣会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In May 1939, the 21st Group Army under Li Pinxian fought in the Suizao campaign around Suixian and Zaoyang, Hubei. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "suizao-1939-05",
+      "kmt-31st-group-army-1939-05"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kmt-31st-group-army-1939-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -3537,6 +3755,117 @@
     "relatedIds": [
       "changsha-1939-09",
       "japanese-changsha-1939-09"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "japanese-guinan-1939-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻桂南",
+      "en": "Japanese attack on Guangxi"
+    },
+    "date": "1939-11-15",
+    "location": {
+      "lng": 108.6,
+      "lat": 21.9,
+      "place": {
+        "zh": "广西钦州湾",
+        "en": "Qinzhou Bay, Guangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军在钦州湾登陆，进攻桂南。",
+      "en": "Japanese forces landed at Qinzhou Bay and attacked Guangxi."
+    },
+    "description": {
+      "zh": "1939 年 11 月，日军在广西钦州湾登陆，进攻桂南，随后攻占南宁。日期与经过为通行说法，待页码级核对。",
+      "en": "In November 1939, Japanese forces landed at Qinzhou Bay in Guangxi and attacked the Guinan region, later capturing Nanning. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-16th-group-army-kunlun-1939-12",
+      "kunlun-1939-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-16th-group-army-kunlun-1939-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第16集团军与桂南会战",
+      "en": "The 16th Group Army in the Battle of Guinan"
+    },
+    "date": "1939-12-18",
+    "location": {
+      "lng": 108.65,
+      "lat": 23.05,
+      "place": {
+        "zh": "广西昆仑关",
+        "en": "Kunlun Pass, Guangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第16集团军在桂南配合昆仑关反攻。",
+      "en": "The 16th Group Army supported the Kunlun Pass counteroffensive in Guangxi."
+    },
+    "description": {
+      "zh": "1939 年 12 月，第16集团军（总司令夏威）在桂南配合昆仑关反攻，与第5军等部协同作战。日期与主官为通行说法，待页码级核对。",
+      "en": "In December 1939, the 16th Group Army under Xia Wei supported the Kunlun Pass counteroffensive in Guangxi, cooperating with the 5th Army and other units. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "kunlun-1939-12",
+      "kmt-5th-army-kunlun-1939-12",
+      "japanese-guinan-1939-11"
     ],
     "importance": 3
   },
@@ -4840,6 +5169,61 @@
     "importance": 1
   },
   {
+    "id": "wuguishan-base-1941-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "五桂山抗日根据地",
+      "en": "Wugui Mountain anti-Japanese base area"
+    },
+    "date": "1941-09-01",
+    "location": {
+      "lng": 113.4,
+      "lat": 22.45,
+      "place": {
+        "zh": "广东中山",
+        "en": "Zhongshan, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "珠江地区游击队在五桂山建立抗日根据地。",
+      "en": "Guerrillas in the Pearl River area established a base in the Wugui Mountains."
+    },
+    "description": {
+      "zh": "1941 年 9 月，珠江地区抗日游击队在广东中山五桂山建立抗日根据地。时间与范围为通行说法，待页码级核对。",
+      "en": "In September 1941, anti-Japanese guerrillas in the Pearl River area established a base area in the Wugui Mountains, Zhongshan, Guangdong. Dates and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "zhujiang-column-1944-10",
+      "dongjiang-column-1943-12"
+    ],
+    "importance": 2
+  },
+  {
     "id": "changsha-1941-09",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -5672,6 +6056,60 @@
     "importance": 2
   },
   {
+    "id": "kmt-32nd-group-army-zhegan-1942-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第32集团军与浙赣会战",
+      "en": "The 32nd Group Army in the Zhejiang-Jiangxi campaign"
+    },
+    "date": "1942-05-15",
+    "location": {
+      "lng": 118.87,
+      "lat": 28.97,
+      "place": {
+        "zh": "浙江衢州",
+        "en": "Quzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第32集团军在浙赣会战中担任衢州以北作战。",
+      "en": "The 32nd Group Army operated north of Quzhou during the Zhejiang-Jiangxi campaign."
+    },
+    "description": {
+      "zh": "1942 年 5 月，第32集团军（总司令上官云相）在浙赣会战中担任衢州以北作战。日期与主官为通行说法，待页码级核对。",
+      "en": "In May 1942, the 32nd Group Army under Shangguan Yunxiang operated north of Quzhou during the Zhejiang-Jiangxi campaign. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-zhegan-1942-05"
+    ],
+    "importance": 2
+  },
+  {
     "id": "shiziling-1942-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -6329,6 +6767,61 @@
     "importance": 3
   },
   {
+    "id": "gangjiu-rescue-pilots-1944-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "港九大队营救美军飞行员",
+      "en": "Gangjiu Brigade rescues American pilots"
+    },
+    "date": "1944-02-11",
+    "location": {
+      "lng": 114.27,
+      "lat": 22.38,
+      "place": {
+        "zh": "香港西贡",
+        "en": "Sai Kung, Hong Kong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "港九大队营救跳伞的美军飞行员。",
+      "en": "The Gangjiu Brigade rescued downed American pilots."
+    },
+    "description": {
+      "zh": "1944 年 2 月，东江纵队港九大队在香港西贡一带营救跳伞的美军飞行员。日期与经过为通行说法，待页码级核对。",
+      "en": "In February 1944, the Gangjiu Brigade of the Dongjiang Column rescued downed American pilots around Sai Kung, Hong Kong. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "gangjiu-brigade-1942-02",
+      "dongjiang-rescue-1941-12"
+    ],
+    "importance": 2
+  },
+  {
     "id": "cheqiao-1944-03",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -6840,6 +7333,61 @@
     ],
     "relatedIds": [
       "dongjiang-column-1943-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-16th-group-army-guilin-1944-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第16集团军与桂柳会战",
+      "en": "The 16th Group Army in the Guilin-Liuzhou campaign"
+    },
+    "date": "1944-11-10",
+    "location": {
+      "lng": 110.29,
+      "lat": 25.27,
+      "place": {
+        "zh": "广西桂林",
+        "en": "Guilin, Guangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第16集团军在桂林、柳州地区参加桂柳会战。",
+      "en": "The 16th Group Army fought in the Guilin-Liuzhou campaign."
+    },
+    "description": {
+      "zh": "1944 年 11 月，第16集团军（总司令夏威）在桂林、柳州地区参加桂柳会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In November 1944, the 16th Group Army under Xia Wei fought in the Guilin-Liuzhou campaign in Guangxi. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-guilin-liuzhou-1944-11",
+      "ichigo-offensive-1944-04"
     ],
     "importance": 2
   },
