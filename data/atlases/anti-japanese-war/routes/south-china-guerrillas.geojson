@@ -507,6 +507,44 @@
         "type": "LineString",
         "coordinates": [
           [
+            113.8,
+            23.3
+          ],
+          [
+            114.0,
+            24.2
+          ],
+          [
+            114.31,
+            25.12
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "south-china-guerrillas",
+        "startDate": "1945-01-15",
+        "endDate": "1945-08-15",
+        "order": 15,
+        "segmentType": "advance",
+        "name": {
+          "zh": "东江—粤北",
+          "en": "Dongjiang–northern Guangdong"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             113.4,
             22.45
           ],
@@ -524,11 +562,49 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-15",
         "endDate": "1945-08-15",
-        "order": 15,
+        "order": 16,
         "segmentType": "advance",
         "name": {
           "zh": "中山—新会",
           "en": "Zhongshan–Xinhui"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.4,
+            22.8
+          ],
+          [
+            114.9,
+            22.8
+          ],
+          [
+            115.33,
+            22.79
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "south-china-guerrillas",
+        "startDate": "1945-03-01",
+        "endDate": "1945-08-15",
+        "order": 17,
+        "segmentType": "advance",
+        "name": {
+          "zh": "惠阳—海陆丰",
+          "en": "Huiyang–Haifeng-Lufeng"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",

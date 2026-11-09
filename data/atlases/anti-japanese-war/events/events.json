@@ -1198,6 +1198,116 @@
     "importance": 2
   },
   {
+    "id": "japanese-pingxingguan-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻平型关",
+      "en": "Japanese attack on Pingxing Pass"
+    },
+    "date": "1937-09-25",
+    "location": {
+      "lng": 113.9,
+      "lat": 39.3,
+      "place": {
+        "zh": "山西平型关",
+        "en": "Pingxing Pass, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻平型关，平型关战役展开。",
+      "en": "Japanese forces attacked Pingxing Pass, opening the Battle of Pingxing Pass."
+    },
+    "description": {
+      "zh": "1937 年 9 月，日军进攻山西平型关，平型关战役展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In September 1937, Japanese forces attacked Pingxing Pass in Shanxi, opening the Battle of Pingxing Pass. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "pingxingguan-1937-09",
+      "kmt-6th-group-army-pingxingguan-1937-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-6th-group-army-pingxingguan-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第6集团军与平型关战役",
+      "en": "The 6th Group Army in the Battle of Pingxing Pass"
+    },
+    "date": "1937-09-25",
+    "location": {
+      "lng": 113.9,
+      "lat": 39.3,
+      "place": {
+        "zh": "山西平型关",
+        "en": "Pingxing Pass, Shanxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第6集团军任右地区总司令，防守平型关一线。",
+      "en": "The 6th Group Army commanded the right sector, defending the Pingxing Pass line."
+    },
+    "description": {
+      "zh": "1937 年 9 月，第6集团军（总司令杨爱源）任右地区总司令，指挥平型关东西一线防御。日期与主官为通行说法，待页码级核对。",
+      "en": "In September 1937, the 6th Group Army under Yang Aiyuan commanded the right sector, directing the defense of the Pingxing Pass line. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "pingxingguan-1937-09",
+      "japanese-pingxingguan-1937-09"
+    ],
+    "importance": 2
+  },
+  {
     "id": "pingxingguan-1937-09",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -2764,6 +2874,62 @@
     "importance": 2
   },
   {
+    "id": "kmt-1st-group-army-wuhan-1938-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第1集团军与武汉会战",
+      "en": "The 1st Group Army in the Battle of Wuhan"
+    },
+    "date": "1938-06-12",
+    "location": {
+      "lng": 115.21,
+      "lat": 29.83,
+      "place": {
+        "zh": "湖北阳新",
+        "en": "Yangxin, Hubei"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第1集团军在阳新、排市一带参加武汉会战。",
+      "en": "The 1st Group Army fought around Yangxin and Paishi in the Battle of Wuhan."
+    },
+    "description": {
+      "zh": "1938 年 6 月，第1集团军（总司令卢汉）所部滇军在湖北阳新、排市一带参加武汉会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In June 1938, the 1st Group Army under Lu Han fought around Yangxin and Paishi in Hubei during the Battle of Wuhan. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-wuhan-1938-06",
+      "kmt-9th-group-army-wuhan-1938-06",
+      "kmt-20th-group-army-wuhan-1938-06"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kmt-20th-group-army-wuhan-1938-06",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -2870,6 +3036,173 @@
     "relatedIds": [
       "japanese-wuhan-1938-06",
       "kmt-20th-group-army-wuhan-1938-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "japanese-zhongtiao-1938-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻中条山（1938）",
+      "en": "Japanese attack on the Zhongtiao Mountains (1938)"
+    },
+    "date": "1938-07-01",
+    "location": {
+      "lng": 111.21,
+      "lat": 34.83,
+      "place": {
+        "zh": "山西平陆",
+        "en": "Pinglu, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻中条山，与第4、第5集团军作战。",
+      "en": "Japanese forces attacked the Zhongtiao Mountains, fighting the 4th and 5th Group Armies."
+    },
+    "description": {
+      "zh": "1938 年 7 月，日军进攻山西中条山，与第4、第5集团军等部作战。日期与经过为通行说法，待页码级核对。",
+      "en": "In July 1938, Japanese forces attacked the Zhongtiao Mountains in Shanxi, fighting the 4th and 5th Group Armies and other Chinese units. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-4th-group-army-zhongtiao-1938-07",
+      "kmt-5th-group-army-zhongtiao-1938-07"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-4th-group-army-zhongtiao-1938-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第4集团军与中条山作战",
+      "en": "The 4th Group Army in the Zhongtiao Mountains"
+    },
+    "date": "1938-07-01",
+    "location": {
+      "lng": 111.21,
+      "lat": 34.83,
+      "place": {
+        "zh": "山西平陆",
+        "en": "Pinglu, Shanxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第4集团军在中条山西段坚持抗战近三年。",
+      "en": "The 4th Group Army held the western Zhongtiao Mountains for nearly three years."
+    },
+    "description": {
+      "zh": "1938 年 7 月，第4集团军（总司令孙蔚如）东渡黄河，进入中条山西段平陆一带，坚持抗战近三年。日期与主官为通行说法，待页码级核对。",
+      "en": "In July 1938, the 4th Group Army under Sun Weiru crossed the Yellow River into the western Zhongtiao Mountains around Pinglu, holding the area for nearly three years. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-zhongtiao-1938-07",
+      "kmt-5th-group-army-zhongtiao-1938-07",
+      "zhongtiaoshan-1941-05"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "kmt-5th-group-army-zhongtiao-1938-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第5集团军与中条山防御",
+      "en": "The 5th Group Army defends the Zhongtiao Mountains"
+    },
+    "date": "1938-07-01",
+    "location": {
+      "lng": 111.22,
+      "lat": 35.35,
+      "place": {
+        "zh": "山西闻喜",
+        "en": "Wenxi, Shanxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第5集团军在中条山中段闻喜、夏县一带设防。",
+      "en": "The 5th Group Army defended the central Zhongtiao Mountains around Wenxi and Xiaxian."
+    },
+    "description": {
+      "zh": "1938 年 7 月，第5集团军（总司令曾万钟）在中条山中段闻喜、夏县一带设防。日期与主官为通行说法，待页码级核对。",
+      "en": "In July 1938, the 5th Group Army under Zeng Wanzhong defended the central Zhongtiao Mountains around Wenxi and Xiaxian. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-zhongtiao-1938-07",
+      "kmt-4th-group-army-zhongtiao-1938-07",
+      "kmt-5th-group-army-zhongtiaoshan-1941-05"
     ],
     "importance": 2
   },
@@ -8815,6 +9148,61 @@
     "importance": 2
   },
   {
+    "id": "dongjiang-yuebei-1945-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "东江纵队挺进粤北",
+      "en": "The Dongjiang Column advances into northern Guangdong"
+    },
+    "date": "1945-01-15",
+    "location": {
+      "lng": 114.31,
+      "lat": 25.12,
+      "place": {
+        "zh": "广东南雄",
+        "en": "Nanxiong, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "东江纵队一部挺进粤北，开辟抗日游击区。",
+      "en": "Part of the Dongjiang Column advanced into northern Guangdong, opening anti-Japanese guerrilla areas."
+    },
+    "description": {
+      "zh": "1945 年 1 月，东江纵队一部挺进粤北南雄一带，开辟抗日游击区。日期与经过为通行说法，待页码级核对。",
+      "en": "In January 1945, part of the Dongjiang Column advanced into the Nanxiong area of northern Guangdong, opening anti-Japanese guerrilla areas. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dongjiang-column-1943-12",
+      "luofushan-base-1945-01"
+    ],
+    "importance": 2
+  },
+  {
     "id": "luofushan-base-1945-01",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -8921,6 +9309,61 @@
     "relatedIds": [
       "zhujiang-column-1944-10",
       "wuguishan-base-1941-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "haifeng-lufeng-base-1945-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "海陆丰抗日根据地",
+      "en": "Haifeng-Lufeng anti-Japanese base area"
+    },
+    "date": "1945-03-01",
+    "location": {
+      "lng": 115.33,
+      "lat": 22.79,
+      "place": {
+        "zh": "广东海丰",
+        "en": "Haifeng, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "东江纵队在海陆丰建立抗日根据地。",
+      "en": "The Dongjiang Column established a base area in Haifeng and Lufeng."
+    },
+    "description": {
+      "zh": "1945 年 3 月，东江纵队在海丰、陆丰一带建立抗日根据地。时间与范围为通行说法，待页码级核对。",
+      "en": "In March 1945, the Dongjiang Column established a base area around Haifeng and Lufeng. Dates and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dongjiang-column-1943-12",
+      "dongjiang-base-1940-09"
     ],
     "importance": 2
   },
