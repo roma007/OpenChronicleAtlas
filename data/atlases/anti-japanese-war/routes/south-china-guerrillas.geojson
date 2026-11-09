@@ -659,6 +659,40 @@
         "type": "LineString",
         "coordinates": [
           [
+            109.58,
+            19.52
+          ],
+          [
+            109.69,
+            19.91
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "south-china-guerrillas",
+        "startDate": "1945-05-01",
+        "endDate": "1945-08-15",
+        "order": 19,
+        "segmentType": "advance",
+        "name": {
+          "zh": "儋州—临高",
+          "en": "Danzhou–Lingao"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             109.45,
             19.22
           ],
@@ -676,11 +710,49 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-06-01",
         "endDate": "1945-08-15",
-        "order": 19,
+        "order": 20,
         "segmentType": "advance",
         "name": {
           "zh": "白沙—尖峰岭",
           "en": "Baisha–Jianfeng Ridge"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.31,
+            25.12
+          ],
+          [
+            114.6,
+            24.8
+          ],
+          [
+            114.94,
+            24.44
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "south-china-guerrillas",
+        "startDate": "1945-07-01",
+        "endDate": "1945-08-15",
+        "order": 21,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南雄—和平",
+          "en": "Nanxiong–Heping"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",

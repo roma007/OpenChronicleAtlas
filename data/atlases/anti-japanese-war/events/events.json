@@ -4871,6 +4871,115 @@
     "importance": 1
   },
   {
+    "id": "japanese-baotou-1939-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻包头",
+      "en": "Japanese attack on Baotou"
+    },
+    "date": "1939-12-19",
+    "location": {
+      "lng": 109.84,
+      "lat": 40.66,
+      "place": {
+        "zh": "内蒙古包头",
+        "en": "Baotou, Inner Mongolia"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻包头，绥西战役展开。",
+      "en": "Japanese forces attacked Baotou, opening the Suiyuan campaign."
+    },
+    "description": {
+      "zh": "1939 年 12 月，日军进攻内蒙古包头，绥西战役展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In December 1939, Japanese forces attacked Baotou, Inner Mongolia, opening the Suiyuan campaign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-7th-group-army-baotou-1939-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-7th-group-army-baotou-1939-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第7集团军与包头战役",
+      "en": "The 7th Group Army in the Battle of Baotou"
+    },
+    "date": "1939-12-19",
+    "location": {
+      "lng": 109.84,
+      "lat": 40.66,
+      "place": {
+        "zh": "内蒙古包头",
+        "en": "Baotou, Inner Mongolia"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第7集团军袭击包头，展开绥西抗战。",
+      "en": "The 7th Group Army attacked Baotou, opening the Suiyuan campaign."
+    },
+    "description": {
+      "zh": "1939 年 12 月，第7集团军（总司令傅作义）袭击包头，展开绥西抗战。日期与主官为通行说法，待页码级核对。",
+      "en": "In December 1939, the 7th Group Army under Fu Zuoyi attacked Baotou, opening the Suiyuan campaign. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-baotou-1939-12",
+      "kmt-35th-army-wuyuan-1940-03"
+    ],
+    "importance": 2
+  },
+  {
     "id": "japanese-wuyuan-1940-03",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -6660,6 +6769,116 @@
     "relatedIds": [
       "changsha-1941-09",
       "japanese-changsha-1941-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "japanese-zhengzhou-1941-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻郑州",
+      "en": "Japanese attack on Zhengzhou"
+    },
+    "date": "1941-10-02",
+    "location": {
+      "lng": 113.65,
+      "lat": 34.76,
+      "place": {
+        "zh": "河南郑州",
+        "en": "Zhengzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻郑州，策应第二次长沙会战。",
+      "en": "Japanese forces attacked Zhengzhou in support of the second Battle of Changsha."
+    },
+    "description": {
+      "zh": "1941 年 10 月，日军进攻河南郑州，策应第二次长沙会战。日期与经过为通行说法，待页码级核对。",
+      "en": "In October 1941, Japanese forces attacked Zhengzhou, Henan, in support of the second Battle of Changsha. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-3rd-group-army-zhengzhou-1941-10",
+      "changsha-1941-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-3rd-group-army-zhengzhou-1941-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第3集团军与郑州战役",
+      "en": "The 3rd Group Army in the Battle of Zhengzhou"
+    },
+    "date": "1941-10-02",
+    "location": {
+      "lng": 113.65,
+      "lat": 34.76,
+      "place": {
+        "zh": "河南郑州",
+        "en": "Zhengzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第3集团军在郑州、中牟间反击日军，收复郑州。",
+      "en": "The 3rd Group Army counterattacked between Zhengzhou and Zhongmu and recaptured Zhengzhou."
+    },
+    "description": {
+      "zh": "1941 年 10 月，第3集团军（总司令孙桐萱）在郑州、中牟间反击日军，11 月初收复郑州。日期与主官为通行说法，待页码级核对。",
+      "en": "In October 1941, the 3rd Group Army under Sun Tongxuan counterattacked between Zhengzhou and Zhongmu, recapturing Zhengzhou in early November. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-zhengzhou-1941-10",
+      "changsha-1941-09"
     ],
     "importance": 2
   },
@@ -9377,6 +9596,61 @@
     "importance": 2
   },
   {
+    "id": "kmt-35th-group-army-guiliu-1944-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第35集团军与桂柳会战",
+      "en": "The 35th Group Army in the Guilin-Liuzhou campaign"
+    },
+    "date": "1944-11-10",
+    "location": {
+      "lng": 109.41,
+      "lat": 24.33,
+      "place": {
+        "zh": "广西柳州",
+        "en": "Liuzhou, Guangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第35集团军在柳州方向参加桂柳会战。",
+      "en": "The 35th Group Army fought toward Liuzhou in the Guilin-Liuzhou campaign."
+    },
+    "description": {
+      "zh": "1944 年 11 月，第35集团军（总司令邓龙光）在柳州方向参加桂柳会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In November 1944, the 35th Group Army under Deng Longguang fought toward Liuzhou in the Guilin-Liuzhou campaign. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-guilin-liuzhou-1944-11",
+      "kmt-16th-group-army-guilin-1944-11"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kmt-guilin-liuzhou-1944-11",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -9857,6 +10131,114 @@
     "importance": 2
   },
   {
+    "id": "japanese-nanyang-1945-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻南阳",
+      "en": "Japanese attack on Nanyang"
+    },
+    "date": "1945-03-21",
+    "location": {
+      "lng": 112.53,
+      "lat": 33.0,
+      "place": {
+        "zh": "河南南阳",
+        "en": "Nanyang, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻南阳、老河口方向，豫西鄂北会战展开。",
+      "en": "Japanese forces attacked toward Nanyang and Laohekou, opening the western Henan-northern Hubei campaign."
+    },
+    "description": {
+      "zh": "1945 年 3 月，日军进攻河南南阳、老河口方向，豫西鄂北会战展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In March 1945, Japanese forces attacked toward Nanyang and Laohekou in Henan, opening the western Henan-northern Hubei campaign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-2nd-group-army-yuxi-1945-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-2nd-group-army-yuxi-1945-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第2集团军与豫西鄂北会战",
+      "en": "The 2nd Group Army in the western Henan-northern Hubei campaign"
+    },
+    "date": "1945-03-21",
+    "location": {
+      "lng": 112.53,
+      "lat": 33.0,
+      "place": {
+        "zh": "河南南阳",
+        "en": "Nanyang, Henan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第2集团军在南阳、老河口方向参加豫西鄂北会战。",
+      "en": "The 2nd Group Army fought toward Nanyang and Laohekou in the western Henan-northern Hubei campaign."
+    },
+    "description": {
+      "zh": "1945 年 3 月，第2集团军（总司令刘汝明）在南阳、老河口方向参加豫西鄂北会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In March 1945, the 2nd Group Army under Liu Ruming fought toward Nanyang and Laohekou in the western Henan-northern Hubei campaign. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-nanyang-1945-03"
+    ],
+    "importance": 2
+  },
+  {
     "id": "zhujiang-yunfu-1945-04",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -10031,6 +10413,61 @@
     "importance": 2
   },
   {
+    "id": "qiongya-lingao-1945-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "临高抗日根据地",
+      "en": "Lingao anti-Japanese base area"
+    },
+    "date": "1945-05-01",
+    "location": {
+      "lng": 109.69,
+      "lat": 19.91,
+      "place": {
+        "zh": "海南临高",
+        "en": "Lingao, Hainan"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "琼崖纵队在临高建立抗日根据地。",
+      "en": "The Qiongya Column established an anti-Japanese base in Lingao."
+    },
+    "description": {
+      "zh": "1945 年 5 月，琼崖纵队在海南临高一带建立抗日根据地。时间与范围为通行说法，待页码级核对。",
+      "en": "In May 1945, the Qiongya Column established an anti-Japanese base area around Lingao, Hainan. Dates and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "qiongya-base-1941-02",
+      "qiongya-danzhou-1943-09"
+    ],
+    "importance": 2
+  },
+  {
     "id": "qiongya-jianfengling-1945-06",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -10082,6 +10519,61 @@
     "relatedIds": [
       "qiongya-base-1941-02",
       "qiongya-column-wuzhishan-1944-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yueganxiang-base-1945-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "粤赣湘边抗日根据地",
+      "en": "Yue-Gan-Xiang border anti-Japanese base area"
+    },
+    "date": "1945-07-01",
+    "location": {
+      "lng": 114.94,
+      "lat": 24.44,
+      "place": {
+        "zh": "广东和平",
+        "en": "Heping, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "东江纵队向粤赣湘边发展，建立根据地。",
+      "en": "The Dongjiang Column advanced into the Guangdong-Jiangxi-Hunan border area and established a base."
+    },
+    "description": {
+      "zh": "1945 年 7 月，东江纵队向粤赣湘边和平一带发展，建立抗日根据地。时间与范围为通行说法，待页码级核对。",
+      "en": "In July 1945, the Dongjiang Column advanced into the Guangdong-Jiangxi-Hunan border area around Heping, establishing an anti-Japanese base. Dates and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dongjiang-column-1943-12",
+      "dongjiang-yuebei-1945-01"
     ],
     "importance": 2
   },
