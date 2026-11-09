@@ -439,6 +439,44 @@
         "type": "LineString",
         "coordinates": [
           [
+            109.45,
+            19.22
+          ],
+          [
+            109.0,
+            19.1
+          ],
+          [
+            108.65,
+            19.1
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "south-china-guerrillas",
+        "startDate": "1944-12-01",
+        "endDate": "1945-08-15",
+        "order": 13,
+        "segmentType": "advance",
+        "name": {
+          "zh": "白沙—昌感",
+          "en": "Baisha–Changgan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             116.6,
             23.6
           ],
@@ -452,7 +490,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-01",
         "endDate": "1945-08-15",
-        "order": 13,
+        "order": 14,
         "segmentType": "advance",
         "name": {
           "zh": "潮汕—韩江",
@@ -486,7 +524,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-01",
         "endDate": "1945-08-15",
-        "order": 14,
+        "order": 15,
         "segmentType": "advance",
         "name": {
           "zh": "遂溪—雷州",
@@ -524,7 +562,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-15",
         "endDate": "1945-08-15",
-        "order": 15,
+        "order": 16,
         "segmentType": "advance",
         "name": {
           "zh": "东江—粤北",
@@ -562,7 +600,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-15",
         "endDate": "1945-08-15",
-        "order": 16,
+        "order": 17,
         "segmentType": "advance",
         "name": {
           "zh": "中山—新会",
@@ -600,7 +638,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-03-01",
         "endDate": "1945-08-15",
-        "order": 17,
+        "order": 18,
         "segmentType": "advance",
         "name": {
           "zh": "惠阳—海陆丰",
@@ -638,11 +676,49 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-04-01",
         "endDate": "1945-08-15",
-        "order": 18,
+        "order": 19,
         "segmentType": "advance",
         "name": {
           "zh": "中山—云雾山",
           "en": "Zhongshan–Yunwu Mountain"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.04,
+            22.93
+          ],
+          [
+            112.2,
+            23.0
+          ],
+          [
+            112.46,
+            23.03
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "south-china-guerrillas",
+        "startDate": "1945-05-01",
+        "endDate": "1945-08-15",
+        "order": 20,
+        "segmentType": "advance",
+        "name": {
+          "zh": "云雾山—高要",
+          "en": "Yunwu Mountain–Gaoyao"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -672,7 +748,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-05-01",
         "endDate": "1945-08-15",
-        "order": 19,
+        "order": 21,
         "segmentType": "advance",
         "name": {
           "zh": "儋州—临高",
@@ -710,7 +786,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-06-01",
         "endDate": "1945-08-15",
-        "order": 20,
+        "order": 22,
         "segmentType": "advance",
         "name": {
           "zh": "白沙—尖峰岭",
@@ -748,7 +824,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-07-01",
         "endDate": "1945-08-15",
-        "order": 21,
+        "order": 23,
         "segmentType": "advance",
         "name": {
           "zh": "南雄—和平",

@@ -1669,6 +1669,44 @@
         "type": "LineString",
         "coordinates": [
           [
+            111.29,
+            30.69
+          ],
+          [
+            111.1,
+            30.7
+          ],
+          [
+            111.0,
+            30.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1943-05-25",
+        "endDate": "1943-06-12",
+        "order": 44,
+        "segmentType": "advance",
+        "name": {
+          "zh": "宜昌—石牌",
+          "en": "Yichang–Shipai"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             112.23,
             30.06
           ],
@@ -1686,7 +1724,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1943-11-02",
         "endDate": "1943-12-20",
-        "order": 44,
+        "order": 45,
         "segmentType": "advance",
         "name": {
           "zh": "常德会战",
@@ -1756,7 +1794,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1944-04-17",
         "endDate": "1944-11-24",
-        "order": 45,
+        "order": 46,
         "segmentType": "advance",
         "name": {
           "zh": "豫湘桂—南宁",
@@ -1790,7 +1828,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1944-04-17",
         "endDate": "1944-05-25",
-        "order": 46,
+        "order": 47,
         "segmentType": "advance",
         "name": {
           "zh": "郑州—洛阳",
@@ -1832,7 +1870,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1944-05-11",
         "endDate": "1945-01-27",
-        "order": 47,
+        "order": 48,
         "segmentType": "defense",
         "name": {
           "zh": "滇西反攻（日军防御线）",
@@ -1870,7 +1908,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1944-06-04",
         "endDate": "1944-09-07",
-        "order": 48,
+        "order": 49,
         "segmentType": "defense",
         "name": {
           "zh": "龙陵—松山",
@@ -1904,11 +1942,49 @@
         "entityId": "japanese-invasion",
         "startDate": "1944-06-18",
         "endDate": "1944-08-08",
-        "order": 49,
+        "order": 50,
         "segmentType": "advance",
         "name": {
           "zh": "岳阳—长沙",
           "en": "Yueyang–Changsha"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.69,
+            24.59
+          ],
+          [
+            98.6,
+            24.8
+          ],
+          [
+            98.49,
+            25.02
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-06-25",
+        "endDate": "1944-09-14",
+        "order": 51,
+        "segmentType": "defense",
+        "name": {
+          "zh": "龙陵—腾冲",
+          "en": "Longling–Tengchong"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -1938,7 +2014,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1944-11-10",
         "endDate": "1944-11-11",
-        "order": 50,
+        "order": 52,
         "segmentType": "advance",
         "name": {
           "zh": "桂林—柳州（1944）",
@@ -1976,7 +2052,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1945-03-21",
         "endDate": "1945-04-08",
-        "order": 51,
+        "order": 53,
         "segmentType": "advance",
         "name": {
           "zh": "南阳—老河口",
@@ -2014,7 +2090,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1945-03-21",
         "endDate": "1945-04-08",
-        "order": 52,
+        "order": 54,
         "segmentType": "advance",
         "name": {
           "zh": "襄阳—老河口",
@@ -2052,7 +2128,7 @@
         "entityId": "japanese-invasion",
         "startDate": "1945-04-09",
         "endDate": "1945-06-07",
-        "order": 53,
+        "order": 55,
         "segmentType": "advance",
         "name": {
           "zh": "湘西会战",

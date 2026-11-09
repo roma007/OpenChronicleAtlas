@@ -5256,6 +5256,62 @@
     "importance": 2
   },
   {
+    "id": "kmt-37th-group-army-binyang-1940-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第37集团军与宾阳战役",
+      "en": "The 37th Group Army in the Battle of Binyang"
+    },
+    "date": "1940-02-02",
+    "location": {
+      "lng": 108.81,
+      "lat": 23.22,
+      "place": {
+        "zh": "广西宾阳",
+        "en": "Binyang, Guangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第37集团军在宾阳方向参加桂南会战后期作战。",
+      "en": "The 37th Group Army fought toward Binyang in the later stage of the Battle of Guinan."
+    },
+    "description": {
+      "zh": "1940 年 2 月，第37集团军（总司令叶肇）在宾阳方向参加桂南会战后期作战。日期与主官为通行说法，待页码级核对。",
+      "en": "In February 1940, the 37th Group Army under Ye Zhao fought toward Binyang in the later stage of the Battle of Guinan. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "kunlun-1939-12",
+      "japanese-binyang-1940-01",
+      "kmt-37th-group-army-guinan-1939-12"
+    ],
+    "importance": 2
+  },
+  {
     "id": "japanese-wuyuan-1940-03",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -8750,6 +8806,117 @@
     "importance": 2
   },
   {
+    "id": "japanese-shipai-1943-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻石牌",
+      "en": "Japanese attack on Shipai"
+    },
+    "date": "1943-05-25",
+    "location": {
+      "lng": 111.0,
+      "lat": 30.7,
+      "place": {
+        "zh": "湖北石牌",
+        "en": "Shipai, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻石牌，鄂西会战进入决战阶段。",
+      "en": "Japanese forces attacked Shipai, bringing the Western Hubei campaign to its decisive stage."
+    },
+    "description": {
+      "zh": "1943 年 5 月，日军进攻湖北石牌，鄂西会战进入决战阶段。日期与经过为通行说法，待页码级核对。",
+      "en": "In May 1943, Japanese forces attacked Shipai, Hubei, bringing the Western Hubei campaign to its decisive stage. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "exi-1943-05",
+      "kmt-26th-group-army-shipai-1943-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-26th-group-army-shipai-1943-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第26集团军与石牌保卫战",
+      "en": "The 26th Group Army in the defense of Shipai"
+    },
+    "date": "1943-05-25",
+    "location": {
+      "lng": 111.0,
+      "lat": 30.7,
+      "place": {
+        "zh": "湖北石牌",
+        "en": "Shipai, Hubei"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第26集团军在鄂西会战中守卫石牌。",
+      "en": "The 26th Group Army defended Shipai in the Western Hubei campaign."
+    },
+    "description": {
+      "zh": "1943 年 5 月，第26集团军（总司令周碞）在鄂西会战中守卫石牌。日期与主官为通行说法，待页码级核对。",
+      "en": "In May 1943, the 26th Group Army under Zhou Yan defended Shipai during the Western Hubei campaign. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "exi-1943-05",
+      "japanese-shipai-1943-05",
+      "kmt-26th-group-army-exi-1943-05"
+    ],
+    "importance": 3
+  },
+  {
     "id": "baisha-base-1943-08",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -10195,6 +10362,117 @@
     "importance": 2
   },
   {
+    "id": "japanese-longling-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻龙陵",
+      "en": "Japanese attack on Longling"
+    },
+    "date": "1944-06-10",
+    "location": {
+      "lng": 98.69,
+      "lat": 24.59,
+      "place": {
+        "zh": "云南龙陵",
+        "en": "Longling, Yunnan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军在龙陵一线防御中国远征军。",
+      "en": "Japanese forces defended the Longling line against the Chinese Expeditionary Force."
+    },
+    "description": {
+      "zh": "1944 年 6 月，日军在云南龙陵一线防御中国远征军反攻。日期与经过为通行说法，待页码级核对。",
+      "en": "In June 1944, Japanese forces defended the Longling line in Yunnan against the Chinese Expeditionary Force counteroffensive. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "dianxi-1944-05",
+      "kmt-11th-group-army-longling-1944-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-11th-group-army-longling-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第11集团军与龙陵战役",
+      "en": "The 11th Group Army in the Battle of Longling"
+    },
+    "date": "1944-06-10",
+    "location": {
+      "lng": 98.69,
+      "lat": 24.59,
+      "place": {
+        "zh": "云南龙陵",
+        "en": "Longling, Yunnan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第11集团军在滇西反攻中主攻龙陵。",
+      "en": "The 11th Group Army led the attack on Longling during the western Yunnan counteroffensive."
+    },
+    "description": {
+      "zh": "1944 年 6 月，第11集团军（总司令宋希濂）在滇西反攻中主攻龙陵。日期与主官为通行说法，待页码级核对。",
+      "en": "In June 1944, the 11th Group Army under Song Xilian led the attack on Longling during the western Yunnan counteroffensive. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dianxi-1944-05",
+      "japanese-longling-1944-06",
+      "kmt-11th-group-army-songshan-1944-06"
+    ],
+    "importance": 3
+  },
+  {
     "id": "japanese-changsha-1944-06",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -10364,6 +10642,117 @@
     "relatedIds": [
       "hengyang-1944-06",
       "kmt-10th-army-changde-1943-11"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "japanese-tengchong-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻腾冲",
+      "en": "Japanese attack on Tengchong"
+    },
+    "date": "1944-06-25",
+    "location": {
+      "lng": 98.49,
+      "lat": 25.02,
+      "place": {
+        "zh": "云南腾冲",
+        "en": "Tengchong, Yunnan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军在腾冲一线防御中国远征军。",
+      "en": "Japanese forces defended the Tengchong line against the Chinese Expeditionary Force."
+    },
+    "description": {
+      "zh": "1944 年 6 月，日军在云南腾冲一线防御中国远征军反攻。日期与经过为通行说法，待页码级核对。",
+      "en": "In June 1944, Japanese forces defended the Tengchong line in Yunnan against the Chinese Expeditionary Force counteroffensive. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "dianxi-1944-05",
+      "kmt-20th-group-army-tengchong-1944-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-20th-group-army-tengchong-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第20集团军与腾冲战役",
+      "en": "The 20th Group Army in the Battle of Tengchong"
+    },
+    "date": "1944-06-25",
+    "location": {
+      "lng": 98.49,
+      "lat": 25.02,
+      "place": {
+        "zh": "云南腾冲",
+        "en": "Tengchong, Yunnan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第20集团军在滇西反攻中主攻腾冲。",
+      "en": "The 20th Group Army led the attack on Tengchong during the western Yunnan counteroffensive."
+    },
+    "description": {
+      "zh": "1944 年 6 月，第20集团军（总司令霍揆彰）在滇西反攻中主攻腾冲。日期与主官为通行说法，待页码级核对。",
+      "en": "In June 1944, the 20th Group Army under Huo Kuizhang led the attack on Tengchong during the western Yunnan counteroffensive. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dianxi-1944-05",
+      "japanese-tengchong-1944-06",
+      "kmt-20th-group-army-dianxi-1944-05"
     ],
     "importance": 3
   },
@@ -10742,6 +11131,61 @@
     ],
     "relatedIds": [
       "ichigo-offensive-1944-04"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "qiongya-changgan-1944-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "昌感抗日根据地",
+      "en": "Changgan anti-Japanese base area"
+    },
+    "date": "1944-12-01",
+    "location": {
+      "lng": 108.65,
+      "lat": 19.1,
+      "place": {
+        "zh": "海南东方",
+        "en": "Dongfang, Hainan"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "琼崖纵队在昌感地区建立抗日根据地。",
+      "en": "The Qiongya Column established an anti-Japanese base in the Changgan area."
+    },
+    "description": {
+      "zh": "1944 年 12 月，琼崖纵队在海南昌江、感恩地区建立抗日根据地。时间与范围为通行说法，待页码级核对。",
+      "en": "In December 1944, the Qiongya Column established an anti-Japanese base in the Changjiang-Gan’en area of Hainan. Dates and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "qiongya-base-1941-02",
+      "qiongya-jianfengling-1945-06"
     ],
     "importance": 2
   },
@@ -11565,6 +12009,61 @@
     "relatedIds": [
       "qiongya-base-1941-02",
       "qiongya-danzhou-1943-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhujiang-gaoyao-1945-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "高要抗日根据地",
+      "en": "Gaoyao anti-Japanese base area"
+    },
+    "date": "1945-05-01",
+    "location": {
+      "lng": 112.46,
+      "lat": 23.03,
+      "place": {
+        "zh": "广东高要",
+        "en": "Gaoyao, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "珠江纵队向高要一带发展，建立根据地。",
+      "en": "The Zhujiang Column advanced toward Gaoyao and established a base area."
+    },
+    "description": {
+      "zh": "1945 年 5 月，珠江纵队向广东高要一带发展，建立抗日根据地。时间与范围为通行说法，待页码级核对。",
+      "en": "In May 1945, the Zhujiang Column advanced toward Gaoyao, Guangdong, and established an anti-Japanese base area. Dates and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "zhujiang-column-1944-10",
+      "zhujiang-yunfu-1945-04"
     ],
     "importance": 2
   },
