@@ -3759,6 +3759,62 @@
     "importance": 3
   },
   {
+    "id": "kmt-30th-group-army-changsha-1939-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第30集团军与第一次长沙会战",
+      "en": "The 30th Group Army in the first Battle of Changsha"
+    },
+    "date": "1939-09-14",
+    "location": {
+      "lng": 114.55,
+      "lat": 29.03,
+      "place": {
+        "zh": "江西修水",
+        "en": "Xiushui, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第30集团军在赣北参加第一次长沙会战。",
+      "en": "The 30th Group Army fought in northern Jiangxi during the first Battle of Changsha."
+    },
+    "description": {
+      "zh": "1939 年 9 月，第30集团军（总司令王陵基）在赣北修水一带参加第一次长沙会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In September 1939, the 30th Group Army under Wang Lingji fought around Xiushui in northern Jiangxi during the first Battle of Changsha. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "changsha-1939-09",
+      "japanese-changsha-1939-09",
+      "kmt-15th-group-army-changsha-1939-09"
+    ],
+    "importance": 2
+  },
+  {
     "id": "japanese-guinan-1939-11",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -6056,6 +6112,61 @@
     "importance": 2
   },
   {
+    "id": "kmt-10th-group-army-zhegan-1942-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第10集团军与浙赣会战",
+      "en": "The 10th Group Army in the Zhejiang-Jiangxi campaign"
+    },
+    "date": "1942-05-15",
+    "location": {
+      "lng": 118.63,
+      "lat": 28.74,
+      "place": {
+        "zh": "浙江江山",
+        "en": "Jiangshan, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第10集团军在衢州以南参加浙赣会战。",
+      "en": "The 10th Group Army fought south of Quzhou in the Zhejiang-Jiangxi campaign."
+    },
+    "description": {
+      "zh": "1942 年 5 月，第10集团军（总司令王敬久）在浙赣会战中负责衢州以南作战，指挥第86军等部。日期与主官为通行说法，待页码级核对。",
+      "en": "In May 1942, the 10th Group Army under Wang Jingjiu operated south of Quzhou during the Zhejiang-Jiangxi campaign, commanding the 86th Army and other units. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-zhegan-1942-05",
+      "kmt-32nd-group-army-zhegan-1942-05"
+    ],
+    "importance": 3
+  },
+  {
     "id": "kmt-32nd-group-army-zhegan-1942-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -6439,6 +6550,116 @@
     "importance": 2
   },
   {
+    "id": "japanese-exi-1943-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻鄂西",
+      "en": "Japanese attack in western Hubei"
+    },
+    "date": "1943-05-05",
+    "location": {
+      "lng": 111.29,
+      "lat": 30.69,
+      "place": {
+        "zh": "湖北宜昌",
+        "en": "Yichang, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻鄂西，鄂西会战展开。",
+      "en": "Japanese forces attacked western Hubei, opening the Western Hubei campaign."
+    },
+    "description": {
+      "zh": "1943 年 5 月，日军进攻湖北鄂西地区，鄂西会战展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In May 1943, Japanese forces attacked western Hubei, opening the Western Hubei campaign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "exi-1943-05",
+      "kmt-26th-group-army-exi-1943-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-26th-group-army-exi-1943-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第26集团军与鄂西会战",
+      "en": "The 26th Group Army in the Western Hubei campaign"
+    },
+    "date": "1943-05-05",
+    "location": {
+      "lng": 111.29,
+      "lat": 30.69,
+      "place": {
+        "zh": "湖北宜昌",
+        "en": "Yichang, Hubei"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第26集团军在鄂西会战中守卫宜昌以东。",
+      "en": "The 26th Group Army defended east of Yichang in the Western Hubei campaign."
+    },
+    "description": {
+      "zh": "1943 年 5 月，第26集团军（总司令周碞）在鄂西会战中守卫宜昌以东地区。日期与主官为通行说法，待页码级核对。",
+      "en": "In May 1943, the 26th Group Army under Zhou Yan defended the area east of Yichang during the Western Hubei campaign. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "exi-1943-05",
+      "japanese-exi-1943-05"
+    ],
+    "importance": 2
+  },
+  {
     "id": "baisha-base-1943-08",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -6607,6 +6828,61 @@
     "importance": 2
   },
   {
+    "id": "japanese-changde-1943-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻常德",
+      "en": "Japanese attack on Changde"
+    },
+    "date": "1943-11-02",
+    "location": {
+      "lng": 111.69,
+      "lat": 29.03,
+      "place": {
+        "zh": "湖南常德",
+        "en": "Changde, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻常德，常德会战展开。",
+      "en": "Japanese forces attacked Changde, opening the Battle of Changde."
+    },
+    "description": {
+      "zh": "1943 年 11 月，日军进攻湖南常德，常德会战展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In November 1943, Japanese forces attacked Changde, Hunan, opening the Battle of Changde. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "changde-1943-11",
+      "kmt-29th-group-army-changde-1943-11"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kmt-10th-army-changde-1943-11",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -6659,6 +6935,62 @@
       "changde-1943-11"
     ],
     "importance": 2
+  },
+  {
+    "id": "kmt-29th-group-army-changde-1943-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第29集团军与常德会战",
+      "en": "The 29th Group Army in the Battle of Changde"
+    },
+    "date": "1943-11-02",
+    "location": {
+      "lng": 111.69,
+      "lat": 29.03,
+      "place": {
+        "zh": "湖南常德",
+        "en": "Changde, Hunan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第29集团军在常德会战中阻击日军。",
+      "en": "The 29th Group Army resisted Japanese forces in the Battle of Changde."
+    },
+    "description": {
+      "zh": "1943 年 11 月，第29集团军（总司令王缵绪）在常德会战中于常德外围阻击日军。日期与主官为通行说法，待页码级核对。",
+      "en": "In November 1943, the 29th Group Army under Wang Zuanxu resisted Japanese forces on the outskirts of Changde during the Battle of Changde. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "changde-1943-11",
+      "kmt-10th-army-changde-1943-11",
+      "japanese-changde-1943-11"
+    ],
+    "importance": 3
   },
   {
     "id": "cairo-conference-1943-11",
@@ -7283,6 +7615,61 @@
     "importance": 3
   },
   {
+    "id": "qiongya-column-wuzhishan-1944-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "琼崖纵队挺进五指山",
+      "en": "The Qiongya Column advances into the Wuzhi Mountains"
+    },
+    "date": "1944-08-01",
+    "location": {
+      "lng": 109.5,
+      "lat": 18.9,
+      "place": {
+        "zh": "海南五指山",
+        "en": "Wuzhi Mountains, Hainan"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "琼崖纵队向五指山山区发展。",
+      "en": "The Qiongya Column advanced into the Wuzhi Mountains."
+    },
+    "description": {
+      "zh": "1944 年 8 月，琼崖纵队由白沙向五指山山区发展，扩大抗日根据地。日期与经过为通行说法，待页码级核对。",
+      "en": "In August 1944, the Qiongya Column advanced from Baisha into the Wuzhi Mountains, expanding the anti-Japanese base area. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "qiongya-base-1941-02",
+      "baisha-base-1943-08"
+    ],
+    "importance": 2
+  },
+  {
     "id": "zhujiang-column-1944-10",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -7600,6 +7987,61 @@
     ],
     "relatedIds": [
       "zhujiang-column-1944-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhujiang-column-yuezhong-1945-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "珠江纵队挺进粤中",
+      "en": "The Zhujiang Column advances into central Guangdong"
+    },
+    "date": "1945-01-15",
+    "location": {
+      "lng": 113.03,
+      "lat": 22.46,
+      "place": {
+        "zh": "广东新会",
+        "en": "Xinhui, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "珠江纵队由五桂山向粤中新会一带发展。",
+      "en": "The Zhujiang Column advanced from the Wugui Mountains toward Xinhui in central Guangdong."
+    },
+    "description": {
+      "zh": "1945 年 1 月，珠江纵队由五桂山向粤中新会一带发展，开辟抗日游击区。日期与经过为通行说法，待页码级核对。",
+      "en": "In January 1945, the Zhujiang Column advanced from the Wugui Mountains toward Xinhui in central Guangdong, opening anti-Japanese guerrilla areas. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "zhujiang-column-1944-10",
+      "wuguishan-base-1941-09"
     ],
     "importance": 2
   },

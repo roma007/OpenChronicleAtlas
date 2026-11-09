@@ -329,6 +329,40 @@
         "type": "LineString",
         "coordinates": [
           [
+            109.45,
+            19.22
+          ],
+          [
+            109.5,
+            18.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "south-china-guerrillas",
+        "startDate": "1944-08-01",
+        "endDate": "1945-08-15",
+        "order": 10,
+        "segmentType": "advance",
+        "name": {
+          "zh": "白沙—五指山",
+          "en": "Baisha–Wuzhi Mountain"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             113.4,
             22.4
           ],
@@ -346,7 +380,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1944-10-01",
         "endDate": "1945-08-15",
-        "order": 10,
+        "order": 11,
         "segmentType": "advance",
         "name": {
           "zh": "五桂山—珠江口",
@@ -380,7 +414,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-01",
         "endDate": "1945-08-15",
-        "order": 11,
+        "order": 12,
         "segmentType": "advance",
         "name": {
           "zh": "潮汕—韩江",
@@ -414,11 +448,49 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-01",
         "endDate": "1945-08-15",
-        "order": 12,
+        "order": 13,
         "segmentType": "advance",
         "name": {
           "zh": "遂溪—雷州",
           "en": "Suixi–Leizhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.4,
+            22.45
+          ],
+          [
+            113.1,
+            22.45
+          ],
+          [
+            113.03,
+            22.46
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "south-china-guerrillas",
+        "startDate": "1945-01-15",
+        "endDate": "1945-08-15",
+        "order": 14,
+        "segmentType": "advance",
+        "name": {
+          "zh": "中山—新会",
+          "en": "Zhongshan–Xinhui"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
