@@ -4821,6 +4821,61 @@
     "importance": 2
   },
   {
+    "id": "kmt-21st-group-army-yunan-1941-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第21集团军与豫南会战",
+      "en": "The 21st Group Army in the South Henan campaign"
+    },
+    "date": "1941-01-25",
+    "location": {
+      "lng": 114.74,
+      "lat": 32.34,
+      "place": {
+        "zh": "河南息县",
+        "en": "Xixian, Henan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第21集团军第84军在息县方向参加豫南会战。",
+      "en": "The 84th Army of the 21st Group Army fought toward Xixian in the South Henan campaign."
+    },
+    "description": {
+      "zh": "1941 年 1 月，第21集团军（总司令李品仙）所部第84军在河南息县方向参加豫南会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In January 1941, the 84th Army of the 21st Group Army under Li Pinxian fought toward Xixian, Henan, during the South Henan campaign. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-yunan-1941-01",
+      "kmt-31st-group-army-yunan-1941-01"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kmt-31st-group-army-yunan-1941-01",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -7152,6 +7207,61 @@
     "importance": 2
   },
   {
+    "id": "qiongya-danzhou-1943-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "儋州抗日根据地",
+      "en": "Danzhou anti-Japanese base area"
+    },
+    "date": "1943-09-01",
+    "location": {
+      "lng": 109.58,
+      "lat": 19.52,
+      "place": {
+        "zh": "海南儋州",
+        "en": "Danzhou, Hainan"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "琼崖抗日武装在儋州建立根据地。",
+      "en": "Qiongya anti-Japanese forces established a base area in Danzhou."
+    },
+    "description": {
+      "zh": "1943 年 9 月，琼崖抗日武装在海南儋州一带建立抗日根据地。时间与范围为通行说法，待页码级核对。",
+      "en": "In September 1943, Qiongya anti-Japanese forces established a base area around Danzhou, Hainan. Dates and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "qiongya-base-1941-02",
+      "baisha-base-1943-08"
+    ],
+    "importance": 2
+  },
+  {
     "id": "north-burma-offensive-1943-10",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -7756,6 +7866,116 @@
     "importance": 2
   },
   {
+    "id": "japanese-yuzhong-1944-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻豫中",
+      "en": "Japanese attack in central Henan"
+    },
+    "date": "1944-04-17",
+    "location": {
+      "lng": 113.65,
+      "lat": 34.76,
+      "place": {
+        "zh": "河南郑州",
+        "en": "Zhengzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军发动豫中作战，进攻郑州、许昌方向。",
+      "en": "Japanese forces launched the Central Henan operation toward Zhengzhou and Xuchang."
+    },
+    "description": {
+      "zh": "1944 年 4 月，日军发动豫中作战，进攻河南郑州、许昌方向。日期与经过为通行说法，待页码级核对。",
+      "en": "In April 1944, Japanese forces launched the Central Henan operation toward Zhengzhou and Xuchang, Henan. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-henan-1944-04",
+      "kmt-31st-group-army-yuzhong-1944-04"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-31st-group-army-yuzhong-1944-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第31集团军与豫中会战",
+      "en": "The 31st Group Army in the Central Henan campaign"
+    },
+    "date": "1944-04-17",
+    "location": {
+      "lng": 113.85,
+      "lat": 34.04,
+      "place": {
+        "zh": "河南许昌",
+        "en": "Xuchang, Henan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第31集团军在豫中会战中于许昌、洛阳间作战。",
+      "en": "The 31st Group Army fought between Xuchang and Luoyang in the Central Henan campaign."
+    },
+    "description": {
+      "zh": "1944 年 4 月，第31集团军（总司令汤恩伯）在豫中会战中于许昌、洛阳间作战。日期与主官为通行说法，待页码级核对。",
+      "en": "In April 1944, the 31st Group Army under Tang Enbo fought between Xuchang and Luoyang during the Central Henan campaign. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-yuzhong-1944-04",
+      "japanese-henan-1944-04"
+    ],
+    "importance": 2
+  },
+  {
     "id": "dianxi-1944-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -7820,6 +8040,173 @@
       "mandalay-1945-03"
     ],
     "importance": 1
+  },
+  {
+    "id": "japanese-dianxi-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军滇西防御",
+      "en": "Japanese defense in western Yunnan"
+    },
+    "date": "1944-05-11",
+    "location": {
+      "lng": 98.69,
+      "lat": 24.59,
+      "place": {
+        "zh": "云南龙陵",
+        "en": "Longling, Yunnan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军在滇西龙陵、腾冲一线组织防御。",
+      "en": "Japanese forces defended the Longling-Tengchong line in western Yunnan."
+    },
+    "description": {
+      "zh": "1944 年 5 月，日军在滇西龙陵、腾冲一线组织防御，抗击中国远征军反攻。日期与经过为通行说法，待页码级核对。",
+      "en": "In May 1944, Japanese forces defended the Longling-Tengchong line in western Yunnan against the Chinese Expeditionary Force counteroffensive. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "dianxi-1944-05",
+      "kmt-11th-group-army-dianxi-1944-05",
+      "kmt-20th-group-army-dianxi-1944-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-11th-group-army-dianxi-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第11集团军与滇西反攻",
+      "en": "The 11th Group Army in the western Yunnan counteroffensive"
+    },
+    "date": "1944-05-11",
+    "location": {
+      "lng": 98.69,
+      "lat": 24.59,
+      "place": {
+        "zh": "云南龙陵",
+        "en": "Longling, Yunnan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第11集团军在滇西反攻中主攻龙陵。",
+      "en": "The 11th Group Army led the attack on Longling during the western Yunnan counteroffensive."
+    },
+    "description": {
+      "zh": "1944 年 5 月，第11集团军（总司令宋希濂）在滇西反攻中主攻龙陵方向。日期与主官为通行说法，待页码级核对。",
+      "en": "In May 1944, the 11th Group Army under Song Xilian led the attack toward Longling during the western Yunnan counteroffensive. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dianxi-1944-05",
+      "songshan-1944-06",
+      "japanese-dianxi-1944-05"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "kmt-20th-group-army-dianxi-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第20集团军与滇西反攻",
+      "en": "The 20th Group Army in the western Yunnan counteroffensive"
+    },
+    "date": "1944-05-11",
+    "location": {
+      "lng": 98.49,
+      "lat": 25.02,
+      "place": {
+        "zh": "云南腾冲",
+        "en": "Tengchong, Yunnan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第20集团军在滇西反攻中主攻腾冲。",
+      "en": "The 20th Group Army led the attack on Tengchong during the western Yunnan counteroffensive."
+    },
+    "description": {
+      "zh": "1944 年 5 月，第20集团军（总司令霍揆彰）在滇西反攻中主攻腾冲方向。日期与主官为通行说法，待页码级核对。",
+      "en": "In May 1944, the 20th Group Army under Huo Kuizhang led the attack toward Tengchong during the western Yunnan counteroffensive. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dianxi-1944-05",
+      "japanese-dianxi-1944-05"
+    ],
+    "importance": 3
   },
   {
     "id": "songshan-1944-06",
@@ -8424,6 +8811,61 @@
     ],
     "relatedIds": [
       "zhujiang-column-1944-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "luofushan-base-1945-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "罗浮山抗日根据地",
+      "en": "Luofu Mountain anti-Japanese base area"
+    },
+    "date": "1945-01-15",
+    "location": {
+      "lng": 114.1,
+      "lat": 23.1,
+      "place": {
+        "zh": "广东博罗",
+        "en": "Boluo, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "东江纵队在罗浮山建立抗日根据地。",
+      "en": "The Dongjiang Column established a base area in the Luofu Mountains."
+    },
+    "description": {
+      "zh": "1945 年 1 月，东江纵队在广东博罗罗浮山一带建立抗日根据地。时间与范围为通行说法，待页码级核对。",
+      "en": "In January 1945, the Dongjiang Column established a base area in the Luofu Mountains around Boluo, Guangdong. Dates and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dongjiang-column-1943-12",
+      "dongjiang-base-1940-09"
     ],
     "importance": 2
   },

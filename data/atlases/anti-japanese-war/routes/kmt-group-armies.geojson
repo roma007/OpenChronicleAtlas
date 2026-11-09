@@ -515,6 +515,40 @@
         "type": "LineString",
         "coordinates": [
           [
+            114.74,
+            32.34
+          ],
+          [
+            114.09,
+            32.15
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1941-01-25",
+        "endDate": "1941-02-11",
+        "order": 15,
+        "segmentType": "defense",
+        "name": {
+          "zh": "息县—信阳",
+          "en": "Xixian–Xinyang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             113.6,
             33.44
           ],
@@ -532,7 +566,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1941-01-25",
         "endDate": "1941-02-11",
-        "order": 15,
+        "order": 16,
         "segmentType": "defense",
         "name": {
           "zh": "舞阳—南阳",
@@ -570,7 +604,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1941-03-15",
         "endDate": "1941-04-09",
-        "order": 16,
+        "order": 17,
         "segmentType": "defense",
         "name": {
           "zh": "南昌—上高",
@@ -608,7 +642,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1941-05-07",
         "endDate": "1941-06-15",
-        "order": 17,
+        "order": 18,
         "segmentType": "defense",
         "name": {
           "zh": "洛阳—中条山",
@@ -646,7 +680,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1941-09-07",
         "endDate": "1941-10-08",
-        "order": 18,
+        "order": 19,
         "segmentType": "defense",
         "name": {
           "zh": "平江—长沙",
@@ -684,7 +718,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1941-12-24",
         "endDate": "1942-01-15",
-        "order": 19,
+        "order": 20,
         "segmentType": "defense",
         "name": {
           "zh": "长沙—平江（1941）",
@@ -718,7 +752,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1942-05-15",
         "endDate": "1942-07-28",
-        "order": 20,
+        "order": 21,
         "segmentType": "defense",
         "name": {
           "zh": "淳安—衢州",
@@ -752,7 +786,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1942-05-15",
         "endDate": "1942-07-28",
-        "order": 21,
+        "order": 22,
         "segmentType": "defense",
         "name": {
           "zh": "衢州—江山",
@@ -790,7 +824,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1943-04-20",
         "endDate": "1943-05-31",
-        "order": 22,
+        "order": 23,
         "segmentType": "defense",
         "name": {
           "zh": "林县—太行山",
@@ -824,7 +858,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1943-05-05",
         "endDate": "1943-06-12",
-        "order": 23,
+        "order": 24,
         "segmentType": "defense",
         "name": {
           "zh": "宜昌—石牌",
@@ -858,11 +892,125 @@
         "entityId": "kmt-group-armies",
         "startDate": "1943-11-02",
         "endDate": "1943-12-20",
-        "order": 24,
+        "order": 25,
         "segmentType": "defense",
         "name": {
           "zh": "常德—桃源",
           "en": "Changde–Taoyuan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.85,
+            34.04
+          ],
+          [
+            113.65,
+            34.76
+          ],
+          [
+            112.45,
+            34.62
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1944-04-17",
+        "endDate": "1944-05-25",
+        "order": 26,
+        "segmentType": "defense",
+        "name": {
+          "zh": "许昌—洛阳",
+          "en": "Xuchang–Luoyang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.17,
+            25.12
+          ],
+          [
+            98.8,
+            25.08
+          ],
+          [
+            98.49,
+            25.02
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1944-05-11",
+        "endDate": "1944-09-14",
+        "order": 27,
+        "segmentType": "defense",
+        "name": {
+          "zh": "保山—腾冲",
+          "en": "Baoshan–Tengchong"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.17,
+            25.12
+          ],
+          [
+            98.79,
+            24.75
+          ],
+          [
+            98.69,
+            24.59
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1944-05-11",
+        "endDate": "1944-11-03",
+        "order": 28,
+        "segmentType": "defense",
+        "name": {
+          "zh": "保山—龙陵",
+          "en": "Baoshan–Longling"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -892,7 +1040,7 @@
         "entityId": "kmt-group-armies",
         "startDate": "1944-11-10",
         "endDate": "1944-11-24",
-        "order": 25,
+        "order": 29,
         "segmentType": "defense",
         "name": {
           "zh": "桂林—柳州",
