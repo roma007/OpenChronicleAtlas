@@ -3090,6 +3090,114 @@
     "importance": 2
   },
   {
+    "id": "japanese-nanchang-1939-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻南昌",
+      "en": "Japanese attack on Nanchang"
+    },
+    "date": "1939-03-17",
+    "location": {
+      "lng": 115.89,
+      "lat": 28.68,
+      "place": {
+        "zh": "江西南昌",
+        "en": "Nanchang, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻南昌，南昌会战展开。",
+      "en": "Japanese forces attacked Nanchang, opening the Battle of Nanchang."
+    },
+    "description": {
+      "zh": "1939 年 3 月，日军进攻江西南昌，南昌会战展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In March 1939, Japanese forces attacked Nanchang, Jiangxi, opening the Battle of Nanchang. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-19th-group-army-nanchang-1939-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-19th-group-army-nanchang-1939-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第19集团军与南昌会战",
+      "en": "The 19th Group Army in the Battle of Nanchang"
+    },
+    "date": "1939-03-17",
+    "location": {
+      "lng": 115.89,
+      "lat": 28.68,
+      "place": {
+        "zh": "江西南昌",
+        "en": "Nanchang, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第19集团军在赣北参加南昌会战。",
+      "en": "The 19th Group Army fought in the Battle of Nanchang in northern Jiangxi."
+    },
+    "description": {
+      "zh": "1939 年 3 月，第19集团军（总司令罗卓英）在赣北参加南昌会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In March 1939, the 19th Group Army under Luo Zhuoying fought in the Battle of Nanchang in northern Jiangxi. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-nanchang-1939-03"
+    ],
+    "importance": 2
+  },
+  {
     "id": "japanese-suizao-1939-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -3376,6 +3484,61 @@
       "changsha-1939-09"
     ],
     "importance": 2
+  },
+  {
+    "id": "kmt-15th-group-army-changsha-1939-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第15集团军与第一次长沙会战",
+      "en": "The 15th Group Army in the first Battle of Changsha"
+    },
+    "date": "1939-09-14",
+    "location": {
+      "lng": 112.94,
+      "lat": 28.23,
+      "place": {
+        "zh": "湖南长沙",
+        "en": "Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第15集团军在湘北参加第一次长沙会战。",
+      "en": "The 15th Group Army fought in northern Hunan during the first Battle of Changsha."
+    },
+    "description": {
+      "zh": "1939 年 9 月，第15集团军（总司令关麟征）在湘北参加第一次长沙会战，在新墙河一线抗击日军。日期与主官为通行说法，待页码级核对。",
+      "en": "In September 1939, the 15th Group Army under Guan Linzheng fought in northern Hunan during the first Battle of Changsha, resisting Japanese forces along the Xinqiang River. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "changsha-1939-09",
+      "japanese-changsha-1939-09"
+    ],
+    "importance": 3
   },
   {
     "id": "kmt-5th-army-kunlun-1939-12",
@@ -4221,6 +4384,117 @@
     "importance": 2
   },
   {
+    "id": "japanese-shanggao-1941-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻上高",
+      "en": "Japanese attack on Shanggao"
+    },
+    "date": "1941-03-15",
+    "location": {
+      "lng": 114.92,
+      "lat": 28.24,
+      "place": {
+        "zh": "江西上高",
+        "en": "Shanggao, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻上高，上高会战展开。",
+      "en": "Japanese forces attacked Shanggao, opening the Battle of Shanggao."
+    },
+    "description": {
+      "zh": "1941 年 3 月，日军进攻江西上高，上高会战展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In March 1941, Japanese forces attacked Shanggao, Jiangxi, opening the Battle of Shanggao. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "shanggao-1941-03",
+      "kmt-19th-group-army-shanggao-1941-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-19th-group-army-shanggao-1941-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第19集团军与上高会战",
+      "en": "The 19th Group Army in the Battle of Shanggao"
+    },
+    "date": "1941-03-15",
+    "location": {
+      "lng": 114.92,
+      "lat": 28.24,
+      "place": {
+        "zh": "江西上高",
+        "en": "Shanggao, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第19集团军在上高会战中抗击日军。",
+      "en": "The 19th Group Army resisted Japanese forces in the Battle of Shanggao."
+    },
+    "description": {
+      "zh": "1941 年 3 月，第19集团军（总司令罗卓英）在江西上高参加上高会战，与第74军等部协同作战。日期与主官为通行说法，待页码级核对。",
+      "en": "In March 1941, the 19th Group Army under Luo Zhuoying fought in the Battle of Shanggao in Jiangxi, cooperating with the 74th Army and other units. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "shanggao-1941-03",
+      "kmt-74th-army-shanggao-1941-03",
+      "japanese-shanggao-1941-03"
+    ],
+    "importance": 3
+  },
+  {
     "id": "kmt-74th-army-shanggao-1941-03",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -4334,6 +4608,61 @@
     "relatedIds": [
       "changsha-1939-09",
       "changsha-1941-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yangtaishan-base-1941-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "阳台山抗日根据地",
+      "en": "Yangtaishan anti-Japanese base area"
+    },
+    "date": "1941-05-01",
+    "location": {
+      "lng": 113.95,
+      "lat": 22.65,
+      "place": {
+        "zh": "广东宝安",
+        "en": "Bao’an, Guangdong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "东江游击队在阳台山建立抗日根据地。",
+      "en": "The Dongjiang guerrillas established an anti-Japanese base area in the Yangtai Mountains."
+    },
+    "description": {
+      "zh": "1941 年 5 月，东江抗日游击队在广东宝安阳台山一带建立抗日根据地。时间与范围为通行说法，待页码级核对。",
+      "en": "In May 1941, the Dongjiang anti-Japanese guerrillas established a base area in the Yangtai Mountains around Bao’an, Guangdong. Dates and extent follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dongjiang-base-1940-09",
+      "daling-shan-base-1940-10"
     ],
     "importance": 2
   },
@@ -4680,6 +5009,61 @@
     "relatedIds": [
       "japanese-changsha-1941-09",
       "changsha-1941-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-27th-group-army-changsha-1941-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第27集团军与第二次长沙会战",
+      "en": "The 27th Group Army in the second Battle of Changsha"
+    },
+    "date": "1941-09-07",
+    "location": {
+      "lng": 113.58,
+      "lat": 28.7,
+      "place": {
+        "zh": "湖南平江",
+        "en": "Pingjiang, Hunan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第27集团军在湘北参加第二次长沙会战。",
+      "en": "The 27th Group Army fought in northern Hunan during the second Battle of Changsha."
+    },
+    "description": {
+      "zh": "1941 年 9 月，第27集团军（总司令杨森）在湘北平江一带参加第二次长沙会战。日期与主官为通行说法，待页码级核对。",
+      "en": "In September 1941, the 27th Group Army under Yang Sen fought around Pingjiang in northern Hunan during the second Battle of Changsha. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "changsha-1941-09",
+      "japanese-changsha-1941-09"
     ],
     "importance": 2
   },
@@ -5124,6 +5508,61 @@
     "importance": 1
   },
   {
+    "id": "gangjiu-brigade-1942-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "港九大队成立",
+      "en": "Establishment of the Gangjiu Brigade"
+    },
+    "date": "1942-02-03",
+    "location": {
+      "lng": 114.27,
+      "lat": 22.38,
+      "place": {
+        "zh": "香港西贡",
+        "en": "Sai Kung, Hong Kong"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "东江纵队港九大队在香港西贡成立。",
+      "en": "The Gangjiu Brigade of the Dongjiang Column was established at Sai Kung, Hong Kong."
+    },
+    "description": {
+      "zh": "1942 年 2 月，广东人民抗日游击队港九大队在香港西贡成立，活动于港九地区。日期与经过为通行说法，待页码级核对。",
+      "en": "In February 1942, the Gangjiu Brigade of the Guangdong People’s Anti-Japanese Guerrillas was established at Sai Kung, Hong Kong, operating in Hong Kong and Kowloon. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dongjiang-column-1943-12",
+      "dongjiang-rescue-1941-12"
+    ],
+    "importance": 2
+  },
+  {
     "id": "qiongya-counter-1942-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -5387,6 +5826,114 @@
     "relatedIds": [
       "burma-expedition-1942-02",
       "dianxi-1944-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "japanese-taihang-1943-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻太行山",
+      "en": "Japanese attack in the Taihang Mountains"
+    },
+    "date": "1943-04-20",
+    "location": {
+      "lng": 113.82,
+      "lat": 36.05,
+      "place": {
+        "zh": "河南林县",
+        "en": "Linxian, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻太行山地区，与第24集团军作战。",
+      "en": "Japanese forces attacked the Taihang Mountains and fought the 24th Group Army."
+    },
+    "description": {
+      "zh": "1943 年 4 月，日军进攻河南林县太行山地区，与第24集团军等部作战。日期与经过为通行说法，待页码级核对。",
+      "en": "In April 1943, Japanese forces attacked the Taihang Mountains around Linxian, Henan, fighting the 24th Group Army and other Chinese units. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "kmt-24th-group-army-taihang-1943-04"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kmt-24th-group-army-taihang-1943-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第24集团军与太行山作战",
+      "en": "The 24th Group Army in the Taihang Mountains"
+    },
+    "date": "1943-04-20",
+    "location": {
+      "lng": 113.82,
+      "lat": 36.05,
+      "place": {
+        "zh": "河南林县",
+        "en": "Linxian, Henan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第24集团军在太行山地区与日军作战。",
+      "en": "The 24th Group Army fought Japanese forces in the Taihang Mountains."
+    },
+    "description": {
+      "zh": "1943 年 4 月，第24集团军（总司令庞炳勋）在河南林县太行山地区与日军作战。日期与主官为通行说法，待页码级核对。",
+      "en": "In April 1943, the 24th Group Army under Pang Bingxun fought Japanese forces in the Taihang Mountains around Linxian, Henan. Dates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件背景与时间参考"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-taihang-1943-04"
     ],
     "importance": 2
   },
