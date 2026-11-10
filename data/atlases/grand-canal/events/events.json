@@ -270,6 +270,66 @@
     "importance": 2
   },
   {
+    "id": "luoyang-canal-800",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "洛阳隋唐运河中心",
+      "en": "Luoyang as the center of the Sui-Tang canal"
+    },
+    "date": "0800-01-01",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "河南洛阳",
+        "en": "Luoyang, Henan"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "唐代洛阳仍是运河漕运中心。",
+      "en": "In the Tang dynasty, Luoyang remained the center of canal grain transport."
+    },
+    "description": {
+      "zh": "8 世纪，唐代洛阳仍是运河漕运中心，江淮粮米经汴河、黄河转运关中。日期与规模为通行说法，待页码级核对。",
+      "en": "In the eighth century, Luoyang remained the center of Tang canal grain transport, with grain from the Jiang-Huai region moved via the Bian and Yellow rivers to the Guanzhong plain. Dates and scale follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      },
+      {
+        "title": "《明史·食货志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "漕运制度与仓场参考"
+      }
+    ],
+    "relatedIds": [
+      "tang-canal-730"
+    ],
+    "importance": 2
+  },
+  {
     "id": "song-canal-960",
     "atlasId": "grand-canal",
     "name": {
@@ -320,6 +380,126 @@
     ],
     "relatedIds": [
       "huitong-canal-1289"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kaifeng-canal-1100",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "开封汴河市镇",
+      "en": "Kaifeng and the Bian River towns"
+    },
+    "date": "1100-01-01",
+    "location": {
+      "lng": 114.3,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南开封",
+        "en": "Kaifeng, Henan"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "北宋开封依赖汴河，沿线市镇繁荣。",
+      "en": "Northern Song Kaifeng relied on the Bian River, and towns along it flourished."
+    },
+    "description": {
+      "zh": "11 世纪，北宋开封依赖汴河漕运，沿线市镇繁荣。日期与规模为通行说法，待页码级核对。",
+      "en": "In the eleventh century, Northern Song Kaifeng relied on Bian River grain transport, and towns along the river flourished. Dates and scale follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      },
+      {
+        "title": "《明史·食货志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "漕运制度与仓场参考"
+      }
+    ],
+    "relatedIds": [
+      "song-canal-960"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hangzhou-canal-1200",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "杭州南宋漕运",
+      "en": "Hangzhou and Southern Song grain transport"
+    },
+    "date": "1200-01-01",
+    "location": {
+      "lng": 120.15,
+      "lat": 30.27,
+      "place": {
+        "zh": "浙江杭州",
+        "en": "Hangzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "南宋临安依赖江南运河与浙东水系。",
+      "en": "Southern Song Lin’an relied on the Jiangnan Canal and the eastern Zhejiang waterways."
+    },
+    "description": {
+      "zh": "12 世纪，南宋临安（杭州）依赖江南运河与浙东水系维持漕运。日期与规模为通行说法，待页码级核对。",
+      "en": "In the twelfth century, Southern Song Lin’an (Hangzhou) relied on the Jiangnan Canal and eastern Zhejiang waterways for grain transport. Dates and scale follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      },
+      {
+        "title": "《明史·食货志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "漕运制度与仓场参考"
+      }
+    ],
+    "relatedIds": [
+      "grand-canal-1293"
     ],
     "importance": 2
   },
@@ -486,6 +666,126 @@
     "importance": 3
   },
   {
+    "id": "jining-canal-1300",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "济宁会通河枢纽",
+      "en": "Jining as the Huitong Canal hub"
+    },
+    "date": "1300-01-01",
+    "location": {
+      "lng": 116.59,
+      "lat": 35.41,
+      "place": {
+        "zh": "山东济宁",
+        "en": "Jining, Shandong"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "水利",
+    "summary": {
+      "zh": "济宁成为会通河与泗水水系交汇的枢纽。",
+      "en": "Jining became the hub where the Huitong Canal met the Si River system."
+    },
+    "description": {
+      "zh": "14 世纪初，济宁成为会通河与泗水水系交汇的枢纽，是山东段运河的重要码头。日期与规模为通行说法，待页码级核对。",
+      "en": "In the early fourteenth century, Jining became the hub where the Huitong Canal met the Si River system and an important wharf on the Shandong section. Dates and scale follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      },
+      {
+        "title": "《明史·食货志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "漕运制度与仓场参考"
+      }
+    ],
+    "relatedIds": [
+      "huitong-canal-1289"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tianjin-canal-1300",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "天津海漕交汇",
+      "en": "Tianjin as the junction of sea and canal transport"
+    },
+    "date": "1300-01-01",
+    "location": {
+      "lng": 117.2,
+      "lat": 39.13,
+      "place": {
+        "zh": "天津",
+        "en": "Tianjin"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "元代天津成为海漕与运河交汇点。",
+      "en": "In the Yuan dynasty, Tianjin became the junction of sea and canal transport."
+    },
+    "description": {
+      "zh": "14 世纪初，元代天津成为海漕与运河交汇点，南北粮运在此转运。日期与规模为通行说法，待页码级核对。",
+      "en": "In the early fourteenth century, Tianjin became the junction of Yuan sea and canal transport, where north-south grain shipments were transshipped. Dates and scale follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      },
+      {
+        "title": "《明史·食货志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "漕运制度与仓场参考"
+      }
+    ],
+    "relatedIds": [
+      "grand-canal-1293"
+    ],
+    "importance": 2
+  },
+  {
     "id": "ming-canal-1415",
     "atlasId": "grand-canal",
     "name": {
@@ -540,6 +840,306 @@
     "importance": 2
   },
   {
+    "id": "dezhou-canal-1450",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "德州仓",
+      "en": "The Dezhou granary"
+    },
+    "date": "1450-01-01",
+    "location": {
+      "lng": 116.36,
+      "lat": 37.45,
+      "place": {
+        "zh": "山东德州",
+        "en": "Dezhou, Shandong"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "明代德州设仓，转运漕粮。",
+      "en": "In the Ming dynasty, Dezhou had a granary for transshipping grain."
+    },
+    "description": {
+      "zh": "15 世纪中期，明代德州设仓，转运漕粮，是运河山东段的重要仓场。日期与规模为通行说法，待页码级核对。",
+      "en": "In the mid-fifteenth century, Ming Dezhou had a granary for transshipping grain and was an important storage site on the Shandong section. Dates and scale follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      },
+      {
+        "title": "《明史·食货志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "漕运制度与仓场参考"
+      }
+    ],
+    "relatedIds": [
+      "ming-canal-1415"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "huaian-canal-1450",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "淮安漕运总督",
+      "en": "The Huai’an grain transport governor"
+    },
+    "date": "1450-01-01",
+    "location": {
+      "lng": 119.02,
+      "lat": 33.6,
+      "place": {
+        "zh": "江苏淮安",
+        "en": "Huai’an, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "明代淮安设漕运总督，统管运河漕运。",
+      "en": "In the Ming dynasty, the grain transport governor was stationed at Huai’an."
+    },
+    "description": {
+      "zh": "15 世纪中期，明代淮安设漕运总督，统管运河漕运与河道。日期与制度为通行说法，待页码级核对。",
+      "en": "In the mid-fifteenth century, the Ming grain transport governor was stationed at Huai’an, overseeing canal grain transport and waterways. Dates and institutions follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      },
+      {
+        "title": "《明史·食货志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "漕运制度与仓场参考"
+      }
+    ],
+    "relatedIds": [
+      "ming-canal-1415"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "linqing-canal-1450",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "临清钞关",
+      "en": "The Linqing customs house"
+    },
+    "date": "1450-01-01",
+    "location": {
+      "lng": 115.7,
+      "lat": 36.84,
+      "place": {
+        "zh": "山东临清",
+        "en": "Linqing, Shandong"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "明代临清设钞关，成为运河税关重镇。",
+      "en": "In the Ming dynasty, Linqing had a customs house and became a key canal tax town."
+    },
+    "description": {
+      "zh": "15 世纪中期，明代临清设钞关，成为运河税关重镇与南北货物集散地。日期与规模为通行说法，待页码级核对。",
+      "en": "In the mid-fifteenth century, Ming Linqing had a customs house and became a key canal tax town and entrepôt for north-south goods. Dates and scale follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      },
+      {
+        "title": "《明史·食货志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "漕运制度与仓场参考"
+      }
+    ],
+    "relatedIds": [
+      "ming-canal-1415"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tongzhou-canal-1450",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "通州仓",
+      "en": "The Tongzhou granary"
+    },
+    "date": "1450-01-01",
+    "location": {
+      "lng": 116.66,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京通州",
+        "en": "Tongzhou, Beijing"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "明代通州设仓，漕粮由此入京。",
+      "en": "In the Ming dynasty, Tongzhou had granaries where grain entered the capital."
+    },
+    "description": {
+      "zh": "15 世纪中期，明代通州设仓，漕粮经通惠河由此入京。日期与规模为通行说法，待页码级核对。",
+      "en": "In the mid-fifteenth century, Ming Tongzhou had granaries, and grain entered the capital via the Tonghui Canal. Dates and scale follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      },
+      {
+        "title": "《明史·食货志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "漕运制度与仓场参考"
+      }
+    ],
+    "relatedIds": [
+      "ming-canal-1415"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhenjiang-canal-1450",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "镇江入江口",
+      "en": "Zhenjiang as the canal’s Yangtze entrance"
+    },
+    "date": "1450-01-01",
+    "location": {
+      "lng": 119.45,
+      "lat": 32.2,
+      "place": {
+        "zh": "江苏镇江",
+        "en": "Zhenjiang, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "水利",
+    "summary": {
+      "zh": "镇江是江南运河入长江口，南北转运要冲。",
+      "en": "Zhenjiang was the Jiangnan Canal’s entrance to the Yangtze and a key transshipment point."
+    },
+    "description": {
+      "zh": "15 世纪中期，镇江是江南运河入长江口，南北粮运在此转运。日期与规模为通行说法，待页码级核对。",
+      "en": "In the mid-fifteenth century, Zhenjiang was the Jiangnan Canal’s entrance to the Yangtze and a key transshipment point for north-south grain. Dates and scale follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      },
+      {
+        "title": "《明史·食货志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "漕运制度与仓场参考"
+      }
+    ],
+    "relatedIds": [
+      "jiangnan-canal-610"
+    ],
+    "importance": 2
+  },
+  {
     "id": "qing-canal-1750",
     "atlasId": "grand-canal",
     "name": {
@@ -590,6 +1190,126 @@
     ],
     "relatedIds": [
       "yellow-river-1855"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "suzhou-canal-1750",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "苏州丝米市",
+      "en": "Suzhou’s silk and rice markets"
+    },
+    "date": "1750-01-01",
+    "location": {
+      "lng": 120.62,
+      "lat": 31.3,
+      "place": {
+        "zh": "江苏苏州",
+        "en": "Suzhou, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "清代苏州丝米市繁荣，依赖江南运河。",
+      "en": "In the Qing dynasty, Suzhou’s silk and rice markets flourished, relying on the Jiangnan Canal."
+    },
+    "description": {
+      "zh": "18 世纪中期，清代苏州丝米市繁荣，依赖江南运河与周边水网。日期与规模为通行说法，待页码级核对。",
+      "en": "In the mid-eighteenth century, Suzhou’s silk and rice markets flourished, relying on the Jiangnan Canal and surrounding waterways. Dates and scale follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      },
+      {
+        "title": "《明史·食货志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "漕运制度与仓场参考"
+      }
+    ],
+    "relatedIds": [
+      "qing-canal-1750"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yangzhou-canal-1750",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "扬州盐运",
+      "en": "Yangzhou and salt transport"
+    },
+    "date": "1750-01-01",
+    "location": {
+      "lng": 119.42,
+      "lat": 32.39,
+      "place": {
+        "zh": "江苏扬州",
+        "en": "Yangzhou, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "清代扬州盐运与运河漕运相互支撑。",
+      "en": "In the Qing dynasty, Yangzhou’s salt trade and canal grain transport supported each other."
+    },
+    "description": {
+      "zh": "18 世纪中期，清代扬州盐运与运河漕运相互支撑，扬州成为运河沿线重要商业城市。日期与规模为通行说法，待页码级核对。",
+      "en": "In the mid-eighteenth century, Yangzhou’s salt trade and canal grain transport supported each other, making Yangzhou an important commercial city along the canal. Dates and scale follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      },
+      {
+        "title": "《明史·食货志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "漕运制度与仓场参考"
+      }
+    ],
+    "relatedIds": [
+      "qing-canal-1750"
     ],
     "importance": 2
   },

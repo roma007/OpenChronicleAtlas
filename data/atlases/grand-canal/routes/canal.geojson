@@ -197,6 +197,40 @@
         "type": "LineString",
         "coordinates": [
           [
+            120.15,
+            30.27
+          ],
+          [
+            119.45,
+            32.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "0960-01-01",
+        "endDate": "1293-01-01",
+        "order": 6,
+        "segmentType": "advance",
+        "name": {
+          "zh": "杭州—镇江（南宋）",
+          "en": "Hangzhou–Zhenjiang (Southern Song)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             116.59,
             35.41
           ],
@@ -210,7 +244,7 @@
         "entityId": "grand-canal",
         "startDate": "1289-01-01",
         "endDate": "1293-01-01",
-        "order": 6,
+        "order": 7,
         "segmentType": "advance",
         "name": {
           "zh": "济宁—临清（会通河）",
@@ -244,11 +278,79 @@
         "entityId": "grand-canal",
         "startDate": "1293-01-01",
         "endDate": "1293-06-01",
-        "order": 7,
+        "order": 8,
         "segmentType": "advance",
         "name": {
           "zh": "北京—通州（通惠河）",
           "en": "Beijing–Tongzhou (Tonghui Canal)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.7,
+            36.84
+          ],
+          [
+            116.59,
+            35.41
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "1293-06-01",
+        "endDate": "1901-01-01",
+        "order": 9,
+        "segmentType": "advance",
+        "name": {
+          "zh": "临清—济宁",
+          "en": "Linqing–Jining"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            117.2,
+            39.13
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "1293-06-01",
+        "endDate": "1901-01-01",
+        "order": 10,
+        "segmentType": "advance",
+        "name": {
+          "zh": "北京—天津",
+          "en": "Beijing–Tianjin"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -302,11 +404,249 @@
         "entityId": "grand-canal",
         "startDate": "1293-06-01",
         "endDate": "1901-01-01",
-        "order": 8,
+        "order": 11,
         "segmentType": "advance",
         "name": {
           "zh": "北京—杭州（京杭大运河）",
           "en": "Beijing–Hangzhou (Grand Canal)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.2,
+            39.13
+          ],
+          [
+            116.36,
+            37.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "1293-06-01",
+        "endDate": "1901-01-01",
+        "order": 12,
+        "segmentType": "advance",
+        "name": {
+          "zh": "天津—德州",
+          "en": "Tianjin–Dezhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.36,
+            37.45
+          ],
+          [
+            115.7,
+            36.84
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "1293-06-01",
+        "endDate": "1901-01-01",
+        "order": 13,
+        "segmentType": "advance",
+        "name": {
+          "zh": "德州—临清",
+          "en": "Dezhou–Linqing"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.42,
+            32.39
+          ],
+          [
+            119.45,
+            32.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "1293-06-01",
+        "endDate": "1901-01-01",
+        "order": 14,
+        "segmentType": "advance",
+        "name": {
+          "zh": "扬州—镇江",
+          "en": "Yangzhou–Zhenjiang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.59,
+            35.41
+          ],
+          [
+            119.02,
+            33.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "1293-06-01",
+        "endDate": "1901-01-01",
+        "order": 15,
+        "segmentType": "advance",
+        "name": {
+          "zh": "济宁—淮安",
+          "en": "Jining–Huai’an"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.02,
+            33.6
+          ],
+          [
+            119.42,
+            32.39
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "1293-06-01",
+        "endDate": "1901-01-01",
+        "order": 16,
+        "segmentType": "advance",
+        "name": {
+          "zh": "淮安—扬州",
+          "en": "Huai’an–Yangzhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.62,
+            31.3
+          ],
+          [
+            120.15,
+            30.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "1293-06-01",
+        "endDate": "1901-01-01",
+        "order": 17,
+        "segmentType": "advance",
+        "name": {
+          "zh": "苏州—杭州",
+          "en": "Suzhou–Hangzhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.45,
+            32.2
+          ],
+          [
+            120.62,
+            31.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "1293-06-01",
+        "endDate": "1901-01-01",
+        "order": 18,
+        "segmentType": "advance",
+        "name": {
+          "zh": "镇江—苏州",
+          "en": "Zhenjiang–Suzhou"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -340,7 +680,7 @@
         "entityId": "grand-canal",
         "startDate": "1855-01-01",
         "endDate": "1901-12-31",
-        "order": 9,
+        "order": 19,
         "segmentType": "advance",
         "name": {
           "zh": "兰考—济宁（黄河改道影响）",
