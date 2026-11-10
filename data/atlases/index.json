@@ -135,7 +135,30 @@
         "隋唐至清"
       ],
       "path": "grand-canal/manifest.json"
+    },
+    {
+      "id": "three-kingdoms",
+      "title": {
+        "zh": "三国",
+        "en": "Three Kingdoms"
+      },
+      "subtitle": {
+        "zh": "190—280",
+        "en": "190–280"
+      },
+      "cover": "three-kingdoms/assets/cover.svg",
+      "timeRange": {
+        "start": "0190-02-01",
+        "end": "0280-03-31"
+      },
+      "tags": [
+        "中国历史",
+        "三国",
+        "军事",
+        "战役"
+      ],
+      "path": "three-kingdoms/manifest.json"
     }
   ],
-  "dataVersion": "2026-11-10-0e25348c8b02"
+  "dataVersion": "2026-11-10-e69beb5e4825"
 }

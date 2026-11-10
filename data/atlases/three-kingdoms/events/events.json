@@ -1,0 +1,1136 @@
+[
+  {
+    "id": "cao-chenliu-190",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "曹操陈留起兵",
+      "en": "Cao Cao raises troops at Chenliu"
+    },
+    "date": "0190-02-01",
+    "location": {
+      "lng": 114.55,
+      "lat": 34.75,
+      "place": {
+        "zh": "河南陈留",
+        "en": "Chenliu, Henan"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "曹操在陈留起兵，参与讨伐董卓。",
+      "en": "Cao Cao raised troops at Chenliu and joined the campaign against Dong Zhuo."
+    },
+    "description": {
+      "zh": "190 年，曹操在陈留己吾起兵，响应关东诸侯讨伐董卓。日期与路线为通行说法，待页码级核对。",
+      "en": "In 190, Cao Cao raised troops at Jiwu in Chenliu in response to the eastern warlords’ campaign against Dong Zhuo. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "guandu-200"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "sunce-jiangdong-195",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "孙策定江东",
+      "en": "Sun Ce secures Jiangdong"
+    },
+    "date": "0195-08-01",
+    "location": {
+      "lng": 119.6,
+      "lat": 32.0,
+      "place": {
+        "zh": "江苏曲阿",
+        "en": "Qü’a, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "wu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "孙策渡江，击败刘繇，奠定江东基业。",
+      "en": "Sun Ce crossed the Yangtze, defeated Liu Yao, and laid the foundation of Jiangdong."
+    },
+    "description": {
+      "zh": "195 年，孙策自历阳渡江，进攻曲阿刘繇，逐步控制江东。日期与路线为通行说法，待页码级核对。",
+      "en": "In 195, Sun Ce crossed the Yangtze from Liyang, attacked Liu Yao at Qü’a, and gradually took control of Jiangdong. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "chibi-wu-208"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "guandu-200",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "官渡之战",
+      "en": "The Battle of Guandu"
+    },
+    "date": "0200-10-01",
+    "location": {
+      "lng": 113.95,
+      "lat": 34.72,
+      "place": {
+        "zh": "河南官渡",
+        "en": "Guandu, Henan"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "曹操在官渡击败袁绍，统一北方的基础奠定。",
+      "en": "Cao Cao defeated Yuan Shao at Guandu, laying the basis for unifying the north."
+    },
+    "description": {
+      "zh": "200 年，曹操与袁绍在官渡对峙，曹军奇袭乌巢粮仓，袁绍军溃败。日期与经过为通行说法，待页码级核对。",
+      "en": "In 200, Cao Cao faced Yuan Shao at Guandu. Cao’s forces raided Yuan’s grain depot at Wuchao, and Yuan’s army collapsed. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "white-wolf-207"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "sangu-maolu-207",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "三顾茅庐",
+      "en": "Liu Bei’s three visits to Zhuge Liang"
+    },
+    "date": "0207-02-01",
+    "location": {
+      "lng": 112.0,
+      "lat": 32.0,
+      "place": {
+        "zh": "湖北隆中",
+        "en": "Longzhong, Hubei"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "刘备三次拜访诸葛亮，诸葛亮提出隆中对策。",
+      "en": "Liu Bei visited Zhuge Liang three times, and Zhuge presented the Longzhong Plan."
+    },
+    "description": {
+      "zh": "207 年，刘备在隆中三次拜访诸葛亮，诸葛亮提出联吴抗曹、跨有荆益的策略。日期与经过为通行说法，待页码级核对。",
+      "en": "In 207, Liu Bei visited Zhuge Liang three times at Longzhong. Zhuge proposed allying with Wu against Cao Cao and holding Jing and Yi provinces. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "chibi-cao-208"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "white-wolf-207",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "白狼山之战",
+      "en": "The Battle of White Wolf Mountain"
+    },
+    "date": "0207-08-01",
+    "location": {
+      "lng": 120.45,
+      "lat": 41.57,
+      "place": {
+        "zh": "辽宁柳城",
+        "en": "Liucheng, Liaoning"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "曹操北征乌桓，在白狼山击败乌桓骑兵。",
+      "en": "Cao Cao’s northern campaign defeated Wuhuan cavalry at White Wolf Mountain."
+    },
+    "description": {
+      "zh": "207 年，曹操率军出卢龙塞，北征乌桓，在白狼山击败乌桓与袁氏残部。日期与路线为通行说法，待页码级核对。",
+      "en": "In 207, Cao Cao marched through the Lulong Pass against the Wuhuan and defeated Wuhuan and Yuan remnants at White Wolf Mountain. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "guandu-200"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "chibi-cao-208",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "赤壁之战（曹操）",
+      "en": "The Battle of Red Cliffs (Cao Cao)"
+    },
+    "date": "0208-12-01",
+    "location": {
+      "lng": 113.9,
+      "lat": 29.72,
+      "place": {
+        "zh": "湖北赤壁",
+        "en": "Red Cliffs, Hubei"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "曹操南下荆州，在赤壁被孙刘联军击败。",
+      "en": "Cao Cao moved south into Jing Province and was defeated by the Sun-Liu alliance at Red Cliffs."
+    },
+    "description": {
+      "zh": "208 年冬，曹操率军自江陵顺江东下，在赤壁与孙刘联军交战，曹军战船被火攻，退守南郡。日期与路线为通行说法，待页码级核对。",
+      "en": "In the winter of 208, Cao Cao’s army moved east from Jiangling and fought the Sun-Liu alliance at Red Cliffs. Fire attacks destroyed Cao’s fleet, and he withdrew to Nanjun. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "chibi-wu-208"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "chibi-wu-208",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "赤壁之战（孙权）",
+      "en": "The Battle of Red Cliffs (Sun Quan)"
+    },
+    "date": "0208-12-01",
+    "location": {
+      "lng": 113.9,
+      "lat": 29.72,
+      "place": {
+        "zh": "湖北赤壁",
+        "en": "Red Cliffs, Hubei"
+      }
+    },
+    "entityIds": [
+      "wu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "孙权派周瑜率军与刘备联合，在赤壁击败曹操。",
+      "en": "Sun Quan sent Zhou Yu to join Liu Bei and defeat Cao Cao at Red Cliffs."
+    },
+    "description": {
+      "zh": "208 年冬，孙权命周瑜、程普率水军与刘备联合，在赤壁以火攻击败曹军。日期与路线为通行说法，待页码级核对。",
+      "en": "In the winter of 208, Sun Quan ordered Zhou Yu and Cheng Pu to lead the navy alongside Liu Bei and defeat Cao’s army at Red Cliffs with fire attacks. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "chibi-cao-208"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "tongguan-211",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "潼关之战",
+      "en": "The Battle of Tong Pass"
+    },
+    "date": "0211-09-01",
+    "location": {
+      "lng": 110.25,
+      "lat": 34.55,
+      "place": {
+        "zh": "陕西潼关",
+        "en": "Tong Pass, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "曹操西征关中，在潼关击败马超、韩遂。",
+      "en": "Cao Cao’s western campaign defeated Ma Chao and Han Sui at Tong Pass."
+    },
+    "description": {
+      "zh": "211 年，曹操率军西征关中，在潼关一带击败马超、韩遂联军。日期与路线为通行说法，待页码级核对。",
+      "en": "In 211, Cao Cao led a western campaign into Guanzhong and defeated the allied forces of Ma Chao and Han Sui near Tong Pass. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "hanzhong-cao-219"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ru-shu-211",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "刘备入蜀",
+      "en": "Liu Bei enters Yi Province"
+    },
+    "date": "0211-12-01",
+    "location": {
+      "lng": 104.75,
+      "lat": 31.47,
+      "place": {
+        "zh": "四川涪城",
+        "en": "Fucheng, Sichuan"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "刘备应刘璋之邀入蜀，随后夺取益州。",
+      "en": "Liu Bei entered Yi Province at Liu Zhang’s invitation and later took it."
+    },
+    "description": {
+      "zh": "211 年，刘备应刘璋之邀率军入蜀，驻涪城，此后与刘璋决裂并于 214 年夺取成都。日期与路线为通行说法，待页码级核对。",
+      "en": "In 211, Liu Bei entered Yi Province at Liu Zhang’s invitation and camped at Fucheng. He later broke with Liu Zhang and took Chengdu in 214. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "hanzhong-shu-219"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "hefei-215",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "合肥之战",
+      "en": "The Battle of Hefei"
+    },
+    "date": "0215-08-01",
+    "location": {
+      "lng": 117.23,
+      "lat": 31.82,
+      "place": {
+        "zh": "安徽合肥",
+        "en": "Hefei, Anhui"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "张辽在合肥以少胜多，击退孙权大军。",
+      "en": "Zhang Liao defended Hefei with a smaller force and repelled Sun Quan’s army."
+    },
+    "description": {
+      "zh": "215 年，孙权率大军攻合肥，张辽率敢死队突袭，吴军退走。日期与经过为通行说法，待页码级核对。",
+      "en": "In 215, Sun Quan attacked Hefei with a large army. Zhang Liao led a surprise attack with a small force, and the Wu army withdrew. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "jingzhou-wu-219"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "hanzhong-cao-219",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "汉中之战（曹操）",
+      "en": "The Hanzhong Campaign (Cao Cao)"
+    },
+    "date": "0219-05-01",
+    "location": {
+      "lng": 107.03,
+      "lat": 33.07,
+      "place": {
+        "zh": "陕西汉中",
+        "en": "Hanzhong, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "曹操自长安出斜谷救汉中，最终撤军。",
+      "en": "Cao Cao marched from Chang’an to relieve Hanzhong but eventually withdrew."
+    },
+    "description": {
+      "zh": "219 年，曹操自长安经斜谷道救援汉中，与刘备军相持，因补给困难与夏侯渊战死而撤军。日期与路线为通行说法，待页码级核对。",
+      "en": "In 219, Cao Cao marched from Chang’an through the Xie Valley to relieve Hanzhong. He faced Liu Bei’s army but withdrew after supply difficulties and Xiahou Yuan’s death. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "hanzhong-shu-219"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hanzhong-shu-219",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "定军山之战",
+      "en": "The Battle of Dingjun Mountain"
+    },
+    "date": "0219-05-01",
+    "location": {
+      "lng": 107.03,
+      "lat": 33.07,
+      "place": {
+        "zh": "陕西汉中",
+        "en": "Hanzhong, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "黄忠在定军山斩杀夏侯渊，刘备夺取汉中。",
+      "en": "Huang Zhong killed Xiahou Yuan at Dingjun Mountain, and Liu Bei took Hanzhong."
+    },
+    "description": {
+      "zh": "219 年，刘备军自成都北上，黄忠在定军山斩杀曹军主帅夏侯渊，曹操随后退军，刘备占据汉中。日期与路线为通行说法，待页码级核对。",
+      "en": "In 219, Liu Bei’s army moved north from Chengdu. Huang Zhong killed the Wei commander Xiahou Yuan at Dingjun Mountain, and Cao Cao withdrew, leaving Hanzhong to Liu Bei. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "hanzhong-cao-219"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "guan-yu-219",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "关羽北伐",
+      "en": "Guan Yu’s northern campaign"
+    },
+    "date": "0219-08-01",
+    "location": {
+      "lng": 112.13,
+      "lat": 32.03,
+      "place": {
+        "zh": "湖北樊城",
+        "en": "Fancheng, Hubei"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "关羽自荆州北伐，围攻樊城，水淹七军。",
+      "en": "Guan Yu marched north from Jing Province, besieged Fancheng, and flooded the Wei relief army."
+    },
+    "description": {
+      "zh": "219 年，关羽自江陵北上围攻樊城，利用汉水暴涨水淹于禁七军，威震华夏，后被吕蒙袭取荆州。日期与路线为通行说法，待页码级核对。",
+      "en": "In 219, Guan Yu marched north from Jiangling and besieged Fancheng. Using the flooded Han River, he destroyed Yu Jin’s relief army, but Lü Meng later seized Jing Province. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "jingzhou-wu-219"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "jingzhou-wu-219",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "吕蒙袭荆州",
+      "en": "Lü Meng seizes Jing Province"
+    },
+    "date": "0219-11-01",
+    "location": {
+      "lng": 112.2,
+      "lat": 30.35,
+      "place": {
+        "zh": "湖北江陵",
+        "en": "Jiangling, Hubei"
+      }
+    },
+    "entityIds": [
+      "wu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "吕蒙白衣渡江，袭取江陵，关羽败走。",
+      "en": "Lü Meng crossed the Yangtze in disguise and seized Jiangling, forcing Guan Yu’s retreat."
+    },
+    "description": {
+      "zh": "219 年，吕蒙率吴军自陆口西上，袭取江陵、公安，关羽后方失守，败走麦城。日期与路线为通行说法，待页码级核对。",
+      "en": "In 219, Lü Meng led Wu forces west from Lukou and seized Jiangling and Gong’an. Guan Yu lost his rear base and was defeated at Maicheng. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "guan-yu-219"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "yiling-shu-221",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "夷陵之战（刘备）",
+      "en": "The Battle of Yiling (Liu Bei)"
+    },
+    "date": "0221-07-01",
+    "location": {
+      "lng": 111.28,
+      "lat": 30.7,
+      "place": {
+        "zh": "湖北夷陵",
+        "en": "Yiling, Hubei"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "刘备东征孙权，在夷陵被陆逊击败。",
+      "en": "Liu Bei campaigned east against Sun Quan and was defeated by Lu Xun at Yiling."
+    },
+    "description": {
+      "zh": "221 年，刘备称帝后率军东征孙权，沿三峡推进至夷陵，次年被陆逊火攻击败，退守白帝城。日期与路线为通行说法，待页码级核对。",
+      "en": "In 221, after declaring himself emperor, Liu Bei campaigned east against Sun Quan, advancing through the Three Gorges to Yiling. The next year Lu Xun defeated him with fire attacks, and he withdrew to Baidi City. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "yiling-wu-222"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "yiling-wu-222",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "夷陵之战（陆逊）",
+      "en": "The Battle of Yiling (Lu Xun)"
+    },
+    "date": "0222-06-01",
+    "location": {
+      "lng": 111.4,
+      "lat": 30.6,
+      "place": {
+        "zh": "湖北猇亭",
+        "en": "Xiaoting, Hubei"
+      }
+    },
+    "entityIds": [
+      "wu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "陆逊在猇亭火攻刘备连营，吴军大胜。",
+      "en": "Lu Xun burned Liu Bei’s camps at Xiaoting and won a decisive victory."
+    },
+    "description": {
+      "zh": "222 年，陆逊在猇亭坚守待机，待蜀军疲惫后火攻连营，刘备大败退走。日期与经过为通行说法，待页码级核对。",
+      "en": "In 222, Lu Xun held his position at Xiaoting until the Shu army was exhausted, then attacked the linked camps with fire and routed Liu Bei. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "yiling-shu-221"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "qishan-228",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "诸葛亮出祁山",
+      "en": "Zhuge Liang’s Qishan campaign"
+    },
+    "date": "0228-02-01",
+    "location": {
+      "lng": 105.2,
+      "lat": 34.2,
+      "place": {
+        "zh": "甘肃祁山",
+        "en": "Qishan, Gansu"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "诸葛亮首次北伐，出祁山，南安、天水、安定响应。",
+      "en": "Zhuge Liang’s first northern expedition reached Qishan, and three commanderies responded."
+    },
+    "description": {
+      "zh": "228 年春，诸葛亮率军自汉中出祁山，南安、天水、安定三郡响应，后因街亭失守退军。日期与路线为通行说法，待页码级核对。",
+      "en": "In spring 228, Zhuge Liang marched from Hanzhong to Qishan. Nan’an, Tianshui, and Anding commanderies responded, but the loss of Jieting forced a retreat. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "wuzhangyuan-234"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "wuzhangyuan-234",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "五丈原",
+      "en": "Zhuge Liang at Wuzhang Plain"
+    },
+    "date": "0234-04-01",
+    "location": {
+      "lng": 107.65,
+      "lat": 34.27,
+      "place": {
+        "zh": "陕西五丈原",
+        "en": "Wuzhang Plain, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "诸葛亮最后一次北伐，驻军五丈原，病逝军中。",
+      "en": "Zhuge Liang’s final northern expedition camped at Wuzhang Plain, where he died."
+    },
+    "description": {
+      "zh": "234 年，诸葛亮率军出斜谷，驻五丈原与司马懿对峙，因积劳成疾病逝军中，蜀军退走。日期与路线为通行说法，待页码级核对。",
+      "en": "In 234, Zhuge Liang marched through the Xie Valley and camped at Wuzhang Plain facing Sima Yi. He died of illness in camp, and the Shu army withdrew. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "qishan-228"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "mie-shu-263",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "魏灭蜀之战",
+      "en": "Wei conquers Shu"
+    },
+    "date": "0263-11-01",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "邓艾偷渡阴平，直取成都，蜀汉灭亡。",
+      "en": "Deng Ai crossed Yinping by a side route and took Chengdu, ending Shu Han."
+    },
+    "description": {
+      "zh": "263 年，魏军分路伐蜀，邓艾偷渡阴平，击败诸葛瞻，进逼成都，刘禅投降。日期与路线为通行说法，待页码级核对。",
+      "en": "In 263, Wei launched a multi-pronged invasion of Shu. Deng Ai crossed Yinping by an unexpected route, defeated Zhuge Zhan, and advanced on Chengdu, where Liu Shan surrendered. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "jianye-280"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "mie-wu-279",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "晋灭吴之战",
+      "en": "Jin conquers Wu"
+    },
+    "date": "0279-11-01",
+    "location": {
+      "lng": 112.14,
+      "lat": 32.02,
+      "place": {
+        "zh": "湖北襄阳",
+        "en": "Xiangyang, Hubei"
+      }
+    },
+    "entityIds": [
+      "jin"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "西晋六路伐吴，王濬楼船顺江东下。",
+      "en": "Western Jin attacked Wu along six routes, and Wang Jun’s fleet sailed east down the Yangtze."
+    },
+    "description": {
+      "zh": "279 年冬，西晋分六路伐吴，杜预出襄阳，王濬自益州顺江东下，吴军长江防线崩溃。日期与路线为通行说法，待页码级核对。",
+      "en": "In the winter of 279, Western Jin attacked Wu along six routes. Du Yu advanced from Xiangyang, and Wang Jun’s fleet sailed east from Yi Province, collapsing Wu’s Yangtze defenses. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "jianye-280"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "jianye-280",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "孙皓降晋",
+      "en": "Sun Hao surrenders to Jin"
+    },
+    "date": "0280-03-01",
+    "location": {
+      "lng": 118.8,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏建业",
+        "en": "Jianye, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "jin"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "王濬兵临建业，孙皓投降，三国归晋。",
+      "en": "Wang Jun reached Jianye, and Sun Hao surrendered, reuniting the realm under Jin."
+    },
+    "description": {
+      "zh": "280 年三月，王濬水军抵达建业，吴主孙皓出降，东吴灭亡，三国时代结束。日期与经过为通行说法，待页码级核对。",
+      "en": "In March 280, Wang Jun’s fleet reached Jianye. Sun Hao, ruler of Wu, surrendered, ending Eastern Wu and the Three Kingdoms period. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "mie-wu-279"
+    ],
+    "importance": 3
+  }
+]

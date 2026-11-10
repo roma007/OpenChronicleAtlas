@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "three-kingdoms",
+  "title": {
+    "zh": "三国",
+    "en": "Three Kingdoms"
+  },
+  "subtitle": {
+    "zh": "190—280",
+    "en": "190–280"
+  },
+  "timeRange": {
+    "start": "0190-02-01",
+    "end": "0280-03-31"
+  },
+  "cover": "assets/cover.svg",
+  "description": {
+    "zh": "190 年曹操在陈留起兵，此后群雄割据、官渡与赤壁两战奠定南北格局，魏、蜀、吴三国鼎立。263 年魏灭蜀，280 年西晋灭吴，三国时代结束。\n\n> 本数据为 M77 示例初稿：路线为示意简化，事件日期、地点与表述待史料校订。",
+    "en": "In 190 Cao Cao raised troops at Chenliu. Warlords then divided the empire, and the battles of Guandu and Red Cliffs shaped a north-south balance. Wei, Shu, and Wu formed the Three Kingdoms. Wei conquered Shu in 263, and Western Jin conquered Wu in 280, ending the period.\n\n> M77 illustrative draft: routes are simplified; dates, places, and wording await historical review."
+  },
+  "defaultView": {
+    "center": [
+      110,
+      32
+    ],
+    "zoom": 3.2
+  },
+  "routes": [
+    "routes/campaigns.geojson"
+  ],
+  "events": [
+    "events/events.json"
+  ],
+  "entities": [
+    {
+      "id": "cao-wei",
+      "name": {
+        "zh": "曹魏",
+        "en": "Cao Wei"
+      },
+      "color": "#2c5282",
+      "order": 1,
+      "description": {
+        "zh": "曹操集团及其后的曹魏政权。",
+        "en": "Cao Cao’s faction and the later state of Wei."
+      }
+    },
+    {
+      "id": "shu-han",
+      "name": {
+        "zh": "蜀汉",
+        "en": "Shu Han"
+      },
+      "color": "#c53030",
+      "order": 2,
+      "description": {
+        "zh": "刘备集团及其后的蜀汉政权。",
+        "en": "Liu Bei’s faction and the later state of Shu Han."
+      }
+    },
+    {
+      "id": "wu",
+      "name": {
+        "zh": "东吴",
+        "en": "Eastern Wu"
+      },
+      "color": "#2f855a",
+      "order": 3,
+      "description": {
+        "zh": "孙氏集团及其后的东吴政权。",
+        "en": "The Sun family’s faction and the later state of Eastern Wu."
+      }
+    },
+    {
+      "id": "jin",
+      "name": {
+        "zh": "西晋",
+        "en": "Western Jin"
+      },
+      "color": "#6b46c1",
+      "order": 4,
+      "description": {
+        "zh": "司马氏建立的西晋政权。",
+        "en": "The Western Jin dynasty founded by the Sima family."
+      }
+    }
+  ],
+  "tags": [
+    "中国历史",
+    "三国",
+    "军事",
+    "战役"
+  ],
+  "license": "CC-BY-4.0（数据初稿，待校订）",
+  "updatedAt": "2026-11-10"
+}
