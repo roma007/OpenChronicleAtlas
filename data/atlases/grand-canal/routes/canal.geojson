@@ -1,0 +1,359 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.45,
+            34.62
+          ],
+          [
+            114.3,
+            34.8
+          ],
+          [
+            116.0,
+            34.0
+          ],
+          [
+            119.02,
+            33.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "0605-01-01",
+        "endDate": "0611-01-01",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "洛阳—淮安（通济渠）",
+          "en": "Luoyang–Huai’an (Tongji Canal)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.45,
+            34.62
+          ],
+          [
+            114.3,
+            34.8
+          ],
+          [
+            116.0,
+            37.0
+          ],
+          [
+            116.4,
+            39.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "0608-01-01",
+        "endDate": "0611-01-01",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "洛阳—涿郡（永济渠）",
+          "en": "Luoyang–Zhuojun (Yongji Canal)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.45,
+            32.2
+          ],
+          [
+            120.15,
+            30.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "0610-01-01",
+        "endDate": "0611-01-01",
+        "order": 3,
+        "segmentType": "advance",
+        "name": {
+          "zh": "京口—余杭（江南河）",
+          "en": "Jingkou–Yuhang (Jiangnan Canal)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.45,
+            34.62
+          ],
+          [
+            114.3,
+            34.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "0611-01-01",
+        "endDate": "0960-01-01",
+        "order": 4,
+        "segmentType": "advance",
+        "name": {
+          "zh": "洛阳—开封（汴河）",
+          "en": "Luoyang–Kaifeng (Bian River)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3,
+            34.8
+          ],
+          [
+            116.0,
+            34.0
+          ],
+          [
+            119.02,
+            33.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "0960-01-01",
+        "endDate": "1289-01-01",
+        "order": 5,
+        "segmentType": "advance",
+        "name": {
+          "zh": "开封—淮安（汴河）",
+          "en": "Kaifeng–Huai’an (Bian River)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.59,
+            35.41
+          ],
+          [
+            115.7,
+            36.84
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "1289-01-01",
+        "endDate": "1293-01-01",
+        "order": 6,
+        "segmentType": "advance",
+        "name": {
+          "zh": "济宁—临清（会通河）",
+          "en": "Jining–Linqing (Huitong Canal)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            116.66,
+            39.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "1293-01-01",
+        "endDate": "1293-06-01",
+        "order": 7,
+        "segmentType": "advance",
+        "name": {
+          "zh": "北京—通州（通惠河）",
+          "en": "Beijing–Tongzhou (Tonghui Canal)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            116.66,
+            39.9
+          ],
+          [
+            116.59,
+            35.41
+          ],
+          [
+            115.7,
+            36.84
+          ],
+          [
+            117.2,
+            34.3
+          ],
+          [
+            119.02,
+            33.6
+          ],
+          [
+            119.45,
+            32.2
+          ],
+          [
+            120.15,
+            30.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "1293-06-01",
+        "endDate": "1901-01-01",
+        "order": 8,
+        "segmentType": "advance",
+        "name": {
+          "zh": "北京—杭州（京杭大运河）",
+          "en": "Beijing–Hangzhou (Grand Canal)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.8,
+            34.8
+          ],
+          [
+            116.0,
+            35.0
+          ],
+          [
+            116.59,
+            35.41
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "grand-canal",
+        "startDate": "1855-01-01",
+        "endDate": "1901-12-31",
+        "order": 9,
+        "segmentType": "advance",
+        "name": {
+          "zh": "兰考—济宁（黄河改道影响）",
+          "en": "Lankao–Jining (Yellow River shift)"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    }
+  ]
+}

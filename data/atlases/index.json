@@ -112,7 +112,30 @@
         "游记"
       ],
       "path": "xu-xiake/manifest.json"
+    },
+    {
+      "id": "grand-canal",
+      "title": {
+        "zh": "京杭大运河",
+        "en": "The Grand Canal"
+      },
+      "subtitle": {
+        "zh": "605—1901",
+        "en": "605–1901"
+      },
+      "cover": "grand-canal/assets/cover.svg",
+      "timeRange": {
+        "start": "0605-01-01",
+        "end": "1901-12-31"
+      },
+      "tags": [
+        "中国历史",
+        "水利",
+        "漕运",
+        "隋唐至清"
+      ],
+      "path": "grand-canal/manifest.json"
     }
   ],
-  "dataVersion": "2026-11-10-6147c343bcd7"
+  "dataVersion": "2026-11-10-ac3656978b36"
 }

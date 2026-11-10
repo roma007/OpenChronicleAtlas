@@ -1,0 +1,758 @@
+[
+  {
+    "id": "tongji-canal-605",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "隋炀帝开凿通济渠",
+      "en": "Emperor Yang of Sui opens the Tongji Canal"
+    },
+    "date": "0605-01-01",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "河南洛阳",
+        "en": "Luoyang, Henan"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "水利",
+    "summary": {
+      "zh": "隋炀帝开凿通济渠，连接洛阳与淮河。",
+      "en": "Emperor Yang of Sui opened the Tongji Canal, linking Luoyang with the Huai River."
+    },
+    "description": {
+      "zh": "605 年，隋炀帝下令开凿通济渠，自洛阳西苑引谷、洛水入黄河，再引黄河水入淮河。日期与路线为通行说法，待页码级核对。",
+      "en": "In 605, Emperor Yang of Sui ordered the Tongji Canal to be dug, linking Luoyang with the Yellow River and then the Huai River. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      }
+    ],
+    "relatedIds": [
+      "yongji-canal-608"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "yongji-canal-608",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "开凿永济渠",
+      "en": "Opening the Yongji Canal"
+    },
+    "date": "0608-01-01",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "河南洛阳",
+        "en": "Luoyang, Henan"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "水利",
+    "summary": {
+      "zh": "隋炀帝开凿永济渠，北通涿郡。",
+      "en": "Emperor Yang of Sui opened the Yongji Canal northward to Zhuojun."
+    },
+    "description": {
+      "zh": "608 年，隋炀帝下令开凿永济渠，引沁水南达黄河，北通涿郡。日期与路线为通行说法，待页码级核对。",
+      "en": "In 608, Emperor Yang of Sui ordered the Yongji Canal to be dug, connecting the Yellow River with Zhuojun in the north. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      }
+    ],
+    "relatedIds": [
+      "tongji-canal-605"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jiangnan-canal-610",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "开凿江南河",
+      "en": "Opening the Jiangnan Canal"
+    },
+    "date": "0610-01-01",
+    "location": {
+      "lng": 119.45,
+      "lat": 32.2,
+      "place": {
+        "zh": "江苏镇江",
+        "en": "Zhenjiang, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "水利",
+    "summary": {
+      "zh": "隋炀帝开凿江南河，连接京口与余杭。",
+      "en": "Emperor Yang of Sui opened the Jiangnan Canal between Jingkou and Yuhang."
+    },
+    "description": {
+      "zh": "610 年，隋炀帝下令开凿江南河，自京口至余杭，沟通长江与钱塘江。日期与路线为通行说法，待页码级核对。",
+      "en": "In 610, Emperor Yang of Sui ordered the Jiangnan Canal to be dug from Jingkou to Yuhang, linking the Yangtze and Qiantang rivers. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      }
+    ],
+    "relatedIds": [
+      "sui-canal-611"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sui-canal-611",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "隋唐大运河贯通",
+      "en": "The Sui-Tang Grand Canal takes shape"
+    },
+    "date": "0611-01-01",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "河南洛阳",
+        "en": "Luoyang, Henan"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "水利",
+    "summary": {
+      "zh": "通济渠、永济渠、江南河相继完成，隋唐大运河形成。",
+      "en": "The Tongji, Yongji, and Jiangnan canals were completed, forming the Sui-Tang Grand Canal."
+    },
+    "description": {
+      "zh": "611 年前后，通济渠、永济渠、江南河相继完成，以洛阳为中心的隋唐大运河形成。日期与路线为通行说法，待页码级核对。",
+      "en": "Around 611, the Tongji, Yongji, and Jiangnan canals were completed, forming the Sui-Tang Grand Canal centered on Luoyang. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      }
+    ],
+    "relatedIds": [
+      "tang-canal-730"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "tang-canal-730",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "唐代漕运兴盛",
+      "en": "Tang dynasty grain transport flourishes"
+    },
+    "date": "0730-01-01",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "河南洛阳",
+        "en": "Luoyang, Henan"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "唐代以洛阳、长安为中心，漕运依赖运河。",
+      "en": "In the Tang dynasty, grain transport centered on Luoyang and Chang’an relied on the canal."
+    },
+    "description": {
+      "zh": "8 世纪前期，唐代漕运以洛阳、长安为中心，江淮粮米经运河转运关中。日期与规模为通行说法，待页码级核对。",
+      "en": "In the early eighth century, Tang grain transport centered on Luoyang and Chang’an, moving grain from the Jiang-Huai region to the Guanzhong plain via the canal. Dates and scale follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      }
+    ],
+    "relatedIds": [
+      "song-canal-960"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "song-canal-960",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "宋代汴河漕运",
+      "en": "Song dynasty grain transport on the Bian River"
+    },
+    "date": "0960-01-01",
+    "location": {
+      "lng": 114.3,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南开封",
+        "en": "Kaifeng, Henan"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "北宋以开封为中心，汴河成为漕运主干。",
+      "en": "The Northern Song centered on Kaifeng, with the Bian River as the main grain transport artery."
+    },
+    "description": {
+      "zh": "北宋建立后，以开封为中心，汴河成为连接江淮与京师的漕运主干。日期与规模为通行说法，待页码级核对。",
+      "en": "After the Northern Song was founded, Kaifeng became the capital and the Bian River became the main grain transport artery linking the Jiang-Huai region with the capital. Dates and scale follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      }
+    ],
+    "relatedIds": [
+      "huitong-canal-1289"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "huitong-canal-1289",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "元代会通河开凿",
+      "en": "The Yuan dynasty opens the Huitong Canal"
+    },
+    "date": "1289-01-01",
+    "location": {
+      "lng": 116.59,
+      "lat": 35.41,
+      "place": {
+        "zh": "山东济宁",
+        "en": "Jining, Shandong"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "水利",
+    "summary": {
+      "zh": "元代开凿会通河，打通山东段运河。",
+      "en": "The Yuan dynasty opened the Huitong Canal through Shandong."
+    },
+    "description": {
+      "zh": "1289 年，元代开凿会通河，自济宁至临清，打通山东段运河。日期与路线为通行说法，待页码级核对。",
+      "en": "In 1289, the Yuan dynasty opened the Huitong Canal from Jining to Linqing, connecting the Shandong section of the canal. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      }
+    ],
+    "relatedIds": [
+      "tonghui-canal-1293"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "tonghui-canal-1293",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "元代通惠河开凿",
+      "en": "The Yuan dynasty opens the Tonghui Canal"
+    },
+    "date": "1293-01-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "水利",
+    "summary": {
+      "zh": "元代开凿通惠河，连接大都与通州。",
+      "en": "The Yuan dynasty opened the Tonghui Canal, linking Dadu with Tongzhou."
+    },
+    "description": {
+      "zh": "1293 年，元代开凿通惠河，连接大都与通州，使运河船只可直达都城。日期与路线为通行说法，待页码级核对。",
+      "en": "In 1293, the Yuan dynasty opened the Tonghui Canal, linking Dadu with Tongzhou so that canal boats could reach the capital. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      }
+    ],
+    "relatedIds": [
+      "grand-canal-1293"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "grand-canal-1293",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "京杭大运河全线贯通",
+      "en": "The Beijing-Hangzhou Grand Canal is completed"
+    },
+    "date": "1293-06-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "水利",
+    "summary": {
+      "zh": "会通河、通惠河与旧有运河连接，京杭大运河全线贯通。",
+      "en": "With the Huitong and Tonghui canals linked to older waterways, the Beijing-Hangzhou Grand Canal was completed."
+    },
+    "description": {
+      "zh": "1293 年，会通河、通惠河与旧有运河连接，北京至杭州的京杭大运河全线贯通。日期与路线为通行说法，待页码级核对。",
+      "en": "In 1293, the Huitong and Tonghui canals were linked with older waterways, completing the Beijing-Hangzhou Grand Canal. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      }
+    ],
+    "relatedIds": [
+      "ming-canal-1415"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "ming-canal-1415",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "明代漕运制度",
+      "en": "Ming dynasty grain transport system"
+    },
+    "date": "1415-01-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "明代确立以运河为主的漕运制度。",
+      "en": "The Ming dynasty established a grain transport system centered on the canal."
+    },
+    "description": {
+      "zh": "15 世纪初，明代确立以运河为主的漕运制度，每年转运数百万石粮米至北京。日期与规模为通行说法，待页码级核对。",
+      "en": "In the early fifteenth century, the Ming dynasty established a grain transport system centered on the canal, moving millions of shi of grain to Beijing each year. Dates and scale follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      }
+    ],
+    "relatedIds": [
+      "qing-canal-1750"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "qing-canal-1750",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "清代漕运鼎盛",
+      "en": "Qing dynasty grain transport at its height"
+    },
+    "date": "1750-01-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "清代前期漕运达到鼎盛，运河沿线市镇繁荣。",
+      "en": "In the early and mid-Qing, grain transport reached its height and canal towns flourished."
+    },
+    "description": {
+      "zh": "18 世纪中期，清代漕运达到鼎盛，运河沿线市镇繁荣。日期与规模为通行说法，待页码级核对。",
+      "en": "In the mid-eighteenth century, Qing grain transport reached its height and towns along the canal flourished. Dates and scale follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      }
+    ],
+    "relatedIds": [
+      "yellow-river-1855"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yellow-river-1855",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "黄河改道冲击运河",
+      "en": "The Yellow River changes course and damages the canal"
+    },
+    "date": "1855-01-01",
+    "location": {
+      "lng": 114.8,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南兰考",
+        "en": "Lankao, Henan"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "水利",
+    "summary": {
+      "zh": "黄河在铜瓦厢改道，冲断运河，漕运受阻。",
+      "en": "The Yellow River changed course at Tongwaxiang, breaking the canal and disrupting grain transport."
+    },
+    "description": {
+      "zh": "1855 年，黄河在河南兰考铜瓦厢改道，冲断运河，山东段漕运受到严重影响。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1855, the Yellow River changed course at Tongwaxiang in Lankao, Henan, breaking the canal and severely disrupting grain transport in Shandong. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      }
+    ],
+    "relatedIds": [
+      "canal-stop-1901"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "canal-stop-1901",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "漕运停止",
+      "en": "The grain transport system ends"
+    },
+    "date": "1901-01-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "清末漕运停止，运河失去主要功能。",
+      "en": "In the late Qing, grain transport ended and the canal lost its main function."
+    },
+    "description": {
+      "zh": "1901 年，清廷下令停止漕运，运河失去主要功能。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1901, the Qing court ordered grain transport to stop, and the canal lost its main function. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      }
+    ],
+    "relatedIds": [
+      "canal-decline-1901"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "canal-decline-1901",
+    "atlasId": "grand-canal",
+    "name": {
+      "zh": "近代运河衰落",
+      "en": "The canal declines in modern times"
+    },
+    "date": "1901-06-01",
+    "location": {
+      "lng": 116.59,
+      "lat": 35.41,
+      "place": {
+        "zh": "山东济宁",
+        "en": "Jining, Shandong"
+      }
+    },
+    "entityIds": [
+      "grand-canal"
+    ],
+    "category": "水利",
+    "summary": {
+      "zh": "漕运停止后，运河失修，部分河段淤塞。",
+      "en": "After grain transport ended, the canal fell into disrepair and some sections silted up."
+    },
+    "description": {
+      "zh": "1901 年以后，漕运停止，运河失修，部分河段淤塞，沿线市镇衰落。日期与经过为通行说法，待页码级核对。",
+      "en": "After 1901, with grain transport ended, the canal fell into disrepair, some sections silted up, and canal towns declined. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "运河开凿时间参考，路线为示意简化"
+      },
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "会通河、通惠河参考"
+      },
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明清漕运参考"
+      }
+    ],
+    "relatedIds": [
+      "canal-stop-1901"
+    ],
+    "importance": 2
+  }
+]
