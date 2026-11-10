@@ -89,7 +89,30 @@
         "第二次世界大战"
       ],
       "path": "anti-japanese-war/manifest.json"
+    },
+    {
+      "id": "xu-xiake",
+      "title": {
+        "zh": "徐霞客游记",
+        "en": "Xu Xiake’s Travels"
+      },
+      "subtitle": {
+        "zh": "1607—1640",
+        "en": "1607–1640"
+      },
+      "cover": "xu-xiake/assets/cover.svg",
+      "timeRange": {
+        "start": "1607-03-01",
+        "end": "1640-06-01"
+      },
+      "tags": [
+        "中国历史",
+        "明代",
+        "地理",
+        "游记"
+      ],
+      "path": "xu-xiake/manifest.json"
     }
   ],
-  "dataVersion": "2026-11-10-4775f3b6965a"
+  "dataVersion": "2026-11-10-6147c343bcd7"
 }

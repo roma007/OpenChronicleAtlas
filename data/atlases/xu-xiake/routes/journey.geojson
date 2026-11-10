@@ -1,0 +1,783 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.28,
+            31.9
+          ],
+          [
+            120.2,
+            31.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1607-03-01",
+        "endDate": "1607-04-01",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "江阴—太湖",
+          "en": "Jiangyin–Lake Tai"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.28,
+            31.9
+          ],
+          [
+            118.8,
+            33.0
+          ],
+          [
+            117.1,
+            36.25
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1608-03-01",
+        "endDate": "1608-04-01",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "江阴—泰山",
+          "en": "Jiangyin–Mount Tai"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.28,
+            31.9
+          ],
+          [
+            120.8,
+            30.3
+          ],
+          [
+            121.05,
+            29.25
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1609-04-01",
+        "endDate": "1609-04-20",
+        "order": 3,
+        "segmentType": "advance",
+        "name": {
+          "zh": "江阴—天台山",
+          "en": "Jiangyin–Tiantai"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.05,
+            29.25
+          ],
+          [
+            121.0,
+            28.35
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1609-04-20",
+        "endDate": "1609-05-10",
+        "order": 4,
+        "segmentType": "advance",
+        "name": {
+          "zh": "天台山—雁荡山",
+          "en": "Tiantai–Yandang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.28,
+            31.9
+          ],
+          [
+            117.2,
+            30.5
+          ],
+          [
+            115.98,
+            29.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1613-08-01",
+        "endDate": "1613-08-20",
+        "order": 5,
+        "segmentType": "advance",
+        "name": {
+          "zh": "江阴—庐山",
+          "en": "Jiangyin–Mount Lu"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.28,
+            31.9
+          ],
+          [
+            118.8,
+            30.8
+          ],
+          [
+            118.17,
+            30.13
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1616-02-10",
+        "endDate": "1616-02-25",
+        "order": 6,
+        "segmentType": "advance",
+        "name": {
+          "zh": "江阴—黄山",
+          "en": "Jiangyin–Mount Huang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.17,
+            30.13
+          ],
+          [
+            118.0,
+            28.8
+          ],
+          [
+            118.03,
+            27.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1616-03-01",
+        "endDate": "1616-03-20",
+        "order": 7,
+        "segmentType": "advance",
+        "name": {
+          "zh": "黄山—武夷山",
+          "en": "Mount Huang–Mount Wuyi"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.28,
+            31.9
+          ],
+          [
+            114.0,
+            34.0
+          ],
+          [
+            110.09,
+            34.48
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1618-04-01",
+        "endDate": "1618-04-20",
+        "order": 8,
+        "segmentType": "advance",
+        "name": {
+          "zh": "江阴—华山",
+          "en": "Jiangyin–Mount Hua"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.28,
+            31.9
+          ],
+          [
+            115.0,
+            34.0
+          ],
+          [
+            113.0,
+            34.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1623-03-01",
+        "endDate": "1623-03-15",
+        "order": 9,
+        "segmentType": "advance",
+        "name": {
+          "zh": "江阴—嵩山",
+          "en": "Jiangyin–Mount Song"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.28,
+            31.9
+          ],
+          [
+            120.15,
+            30.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1636-09-19",
+        "endDate": "1636-10-01",
+        "order": 10,
+        "segmentType": "advance",
+        "name": {
+          "zh": "江阴—杭州",
+          "en": "Jiangyin–Hangzhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.15,
+            30.27
+          ],
+          [
+            119.65,
+            29.08
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1636-10-01",
+        "endDate": "1636-10-15",
+        "order": 11,
+        "segmentType": "advance",
+        "name": {
+          "zh": "杭州—金华",
+          "en": "Hangzhou–Jinhua"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.65,
+            29.08
+          ],
+          [
+            118.8,
+            28.4
+          ],
+          [
+            118.03,
+            27.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1636-10-15",
+        "endDate": "1636-11-05",
+        "order": 12,
+        "segmentType": "advance",
+        "name": {
+          "zh": "金华—武夷山",
+          "en": "Jinhua–Mount Wuyi"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.03,
+            27.75
+          ],
+          [
+            115.5,
+            27.0
+          ],
+          [
+            112.57,
+            26.89
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1636-11-05",
+        "endDate": "1637-02-10",
+        "order": 13,
+        "segmentType": "advance",
+        "name": {
+          "zh": "武夷山—衡阳",
+          "en": "Mount Wuyi–Hengyang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.57,
+            26.89
+          ],
+          [
+            110.29,
+            25.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1637-02-10",
+        "endDate": "1637-05-01",
+        "order": 14,
+        "segmentType": "advance",
+        "name": {
+          "zh": "衡阳—桂林",
+          "en": "Hengyang–Guilin"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.29,
+            25.27
+          ],
+          [
+            108.3,
+            25.5
+          ],
+          [
+            106.63,
+            26.65
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1637-05-01",
+        "endDate": "1638-04-01",
+        "order": 15,
+        "segmentType": "advance",
+        "name": {
+          "zh": "桂林—贵阳",
+          "en": "Guilin–Guiyang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.63,
+            26.65
+          ],
+          [
+            104.5,
+            25.5
+          ],
+          [
+            102.83,
+            24.88
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1638-04-01",
+        "endDate": "1638-09-01",
+        "order": 16,
+        "segmentType": "advance",
+        "name": {
+          "zh": "贵阳—昆明",
+          "en": "Guiyang–Kunming"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.83,
+            24.88
+          ],
+          [
+            101.5,
+            25.2
+          ],
+          [
+            100.27,
+            25.61
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1638-09-01",
+        "endDate": "1639-01-10",
+        "order": 17,
+        "segmentType": "advance",
+        "name": {
+          "zh": "昆明—大理",
+          "en": "Kunming–Dali"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.27,
+            25.61
+          ],
+          [
+            100.23,
+            26.86
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1639-01-10",
+        "endDate": "1639-02-01",
+        "order": 18,
+        "segmentType": "advance",
+        "name": {
+          "zh": "大理—丽江",
+          "en": "Dali–Lijiang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.23,
+            26.86
+          ],
+          [
+            99.0,
+            25.8
+          ],
+          [
+            98.49,
+            25.02
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1639-02-01",
+        "endDate": "1639-04-01",
+        "order": 19,
+        "segmentType": "advance",
+        "name": {
+          "zh": "丽江—腾冲",
+          "en": "Lijiang–Tengchong"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.49,
+            25.02
+          ],
+          [
+            100.0,
+            25.0
+          ],
+          [
+            102.83,
+            24.88
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1639-04-01",
+        "endDate": "1640-01-01",
+        "order": 20,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "腾冲—昆明",
+          "en": "Tengchong–Kunming"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.83,
+            24.88
+          ],
+          [
+            108.0,
+            28.0
+          ],
+          [
+            114.0,
+            30.0
+          ],
+          [
+            120.28,
+            31.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xu-xiake",
+        "startDate": "1640-01-01",
+        "endDate": "1640-06-01",
+        "order": 21,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "昆明—江阴",
+          "en": "Kunming–Jiangyin"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    }
+  ]
+}

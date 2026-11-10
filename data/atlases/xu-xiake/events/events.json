@@ -1,0 +1,1244 @@
+[
+  {
+    "id": "jiangyin-1607-03",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "江阴出发",
+      "en": "Departure from Jiangyin"
+    },
+    "date": "1607-03-01",
+    "location": {
+      "lng": 120.28,
+      "lat": 31.9,
+      "place": {
+        "zh": "江苏江阴",
+        "en": "Jiangyin, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "徐霞客从江阴出发，开始早期游历。",
+      "en": "Xu Xiake left Jiangyin to begin his early travels."
+    },
+    "description": {
+      "zh": "1607 年春，徐霞客从南直隶江阴出发，游历太湖流域。日期与行程为通行说法，待页码级核对。",
+      "en": "In spring 1607, Xu Xiake left Jiangyin in Nan Zhili and traveled through the Lake Tai region. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "taihu-1607-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "taihu-1607-03",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "泛舟太湖",
+      "en": "Boating on Lake Tai"
+    },
+    "date": "1607-03-15",
+    "location": {
+      "lng": 120.2,
+      "lat": 31.2,
+      "place": {
+        "zh": "江苏太湖",
+        "en": "Lake Tai, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "考察",
+    "summary": {
+      "zh": "徐霞客泛舟太湖，考察湖中山泉。",
+      "en": "Xu Xiake boated on Lake Tai and examined its islands and springs."
+    },
+    "description": {
+      "zh": "1607 年 3 月，徐霞客泛舟太湖，游东西洞庭山。日期与行程为通行说法，待页码级核对。",
+      "en": "In March 1607, Xu Xiake boated on Lake Tai and visited the East and West Dongting hills. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "jiangyin-1607-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "taishan-1608-03",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "登泰山",
+      "en": "Climbing Mount Tai"
+    },
+    "date": "1608-03-10",
+    "location": {
+      "lng": 117.1,
+      "lat": 36.25,
+      "place": {
+        "zh": "山东泰山",
+        "en": "Mount Tai, Shandong"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "考察",
+    "summary": {
+      "zh": "徐霞客登泰山，考察山势与古迹。",
+      "en": "Xu Xiake climbed Mount Tai and studied its terrain and historic sites."
+    },
+    "description": {
+      "zh": "1608 年春，徐霞客登山东泰山，考察山势、泉石与古迹。日期与行程为通行说法，待页码级核对。",
+      "en": "In spring 1608, Xu Xiake climbed Mount Tai in Shandong, studying its terrain, springs, rocks, and historic sites. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "jiangyin-1607-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tiantai-1609-04",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "游天台山",
+      "en": "Visiting Mount Tiantai"
+    },
+    "date": "1609-04-10",
+    "location": {
+      "lng": 121.05,
+      "lat": 29.25,
+      "place": {
+        "zh": "浙江天台",
+        "en": "Tiantai, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "考察",
+    "summary": {
+      "zh": "徐霞客游天台山，考察石梁飞瀑。",
+      "en": "Xu Xiake visited Mount Tiantai and studied the Shiliang waterfall."
+    },
+    "description": {
+      "zh": "1609 年 4 月，徐霞客游浙江天台山，考察石梁飞瀑与山间寺观。日期与行程为通行说法，待页码级核对。",
+      "en": "In April 1609, Xu Xiake visited Mount Tiantai in Zhejiang, studying the Shiliang waterfall and mountain temples. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "yandang-1609-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yandang-1609-05",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "探雁荡山",
+      "en": "Exploring Mount Yandang"
+    },
+    "date": "1609-05-01",
+    "location": {
+      "lng": 121.0,
+      "lat": 28.35,
+      "place": {
+        "zh": "浙江雁荡",
+        "en": "Yandang, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "考察",
+    "summary": {
+      "zh": "徐霞客探雁荡山，考察峰洞与瀑布。",
+      "en": "Xu Xiake explored Mount Yandang and studied its peaks, caves, and waterfalls."
+    },
+    "description": {
+      "zh": "1609 年 5 月，徐霞客探浙江雁荡山，考察峰洞、瀑布与山路。日期与行程为通行说法，待页码级核对。",
+      "en": "In May 1609, Xu Xiake explored Mount Yandang in Zhejiang, studying its peaks, caves, waterfalls, and mountain paths. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "tiantai-1609-04"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lushan-1613-08",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "游庐山",
+      "en": "Visiting Mount Lu"
+    },
+    "date": "1613-08-10",
+    "location": {
+      "lng": 115.98,
+      "lat": 29.55,
+      "place": {
+        "zh": "江西庐山",
+        "en": "Mount Lu, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "考察",
+    "summary": {
+      "zh": "徐霞客游庐山，考察瀑布与云海。",
+      "en": "Xu Xiake visited Mount Lu and studied its waterfalls and clouds."
+    },
+    "description": {
+      "zh": "1613 年 8 月，徐霞客游江西庐山，考察瀑布、云海与山南诸胜。日期与行程为通行说法，待页码级核对。",
+      "en": "In August 1613, Xu Xiake visited Mount Lu in Jiangxi, studying its waterfalls, cloud seas, and southern scenic sites. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "huangshan-1616-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "huangshan-1616-02",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "登黄山",
+      "en": "Climbing Mount Huang"
+    },
+    "date": "1616-02-20",
+    "location": {
+      "lng": 118.17,
+      "lat": 30.13,
+      "place": {
+        "zh": "安徽黄山",
+        "en": "Mount Huang, Anhui"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "考察",
+    "summary": {
+      "zh": "徐霞客登黄山，考察奇松怪石。",
+      "en": "Xu Xiake climbed Mount Huang and studied its pines and rock formations."
+    },
+    "description": {
+      "zh": "1616 年 2 月，徐霞客登安徽黄山，考察奇松、怪石与云海。日期与行程为通行说法，待页码级核对。",
+      "en": "In February 1616, Xu Xiake climbed Mount Huang in Anhui, studying its pines, rocks, and cloud seas. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "wuyishan-1616-03"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "wuyishan-1616-03",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "游武夷山",
+      "en": "Visiting Mount Wuyi"
+    },
+    "date": "1616-03-15",
+    "location": {
+      "lng": 118.03,
+      "lat": 27.75,
+      "place": {
+        "zh": "福建武夷山",
+        "en": "Mount Wuyi, Fujian"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "考察",
+    "summary": {
+      "zh": "徐霞客游武夷山，考察九曲溪。",
+      "en": "Xu Xiake visited Mount Wuyi and studied the Nine-Bend Stream."
+    },
+    "description": {
+      "zh": "1616 年 3 月，徐霞客游福建武夷山，考察九曲溪与三十六峰。日期与行程为通行说法，待页码级核对。",
+      "en": "In March 1616, Xu Xiake visited Mount Wuyi in Fujian, studying the Nine-Bend Stream and its peaks. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "huangshan-1616-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "huashan-1618-04",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "登华山",
+      "en": "Climbing Mount Hua"
+    },
+    "date": "1618-04-10",
+    "location": {
+      "lng": 110.09,
+      "lat": 34.48,
+      "place": {
+        "zh": "陕西华山",
+        "en": "Mount Hua, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "考察",
+    "summary": {
+      "zh": "徐霞客登华山，考察险道与峰顶。",
+      "en": "Xu Xiake climbed Mount Hua and studied its steep paths and summit."
+    },
+    "description": {
+      "zh": "1618 年 4 月，徐霞客登陕西华山，考察险道、峰顶与山间寺观。日期与行程为通行说法，待页码级核对。",
+      "en": "In April 1618, Xu Xiake climbed Mount Hua in Shaanxi, studying its steep paths, summit, and mountain temples. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "songshan-1623-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "songshan-1623-03",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "游嵩山",
+      "en": "Visiting Mount Song"
+    },
+    "date": "1623-03-10",
+    "location": {
+      "lng": 113.0,
+      "lat": 34.5,
+      "place": {
+        "zh": "河南嵩山",
+        "en": "Mount Song, Henan"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "考察",
+    "summary": {
+      "zh": "徐霞客游嵩山，考察少林、太室、少室。",
+      "en": "Xu Xiake visited Mount Song and studied Shaolin, Taishi, and Shaoshi."
+    },
+    "description": {
+      "zh": "1623 年 3 月，徐霞客游河南嵩山，考察少林寺、太室山与少室山。日期与行程为通行说法，待页码级核对。",
+      "en": "In March 1623, Xu Xiake visited Mount Song in Henan, studying Shaolin Temple, Taishi, and Shaoshi. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "huashan-1618-04"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jiangyin-1636-09",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "西南万里行出发",
+      "en": "Departure on the great southwestern journey"
+    },
+    "date": "1636-09-19",
+    "location": {
+      "lng": 120.28,
+      "lat": 31.9,
+      "place": {
+        "zh": "江苏江阴",
+        "en": "Jiangyin, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "徐霞客从江阴出发，开始西南万里行。",
+      "en": "Xu Xiake left Jiangyin on his great southwestern journey."
+    },
+    "description": {
+      "zh": "1636 年 9 月 19 日，徐霞客从江阴出发，开始历时四年的西南万里行。日期与行程为通行说法，待页码级核对。",
+      "en": "On September 19, 1636, Xu Xiake left Jiangyin on a four-year journey through southwestern China. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "hangzhou-1636-10"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "hangzhou-1636-10",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "抵杭州",
+      "en": "Arriving in Hangzhou"
+    },
+    "date": "1636-10-01",
+    "location": {
+      "lng": 120.15,
+      "lat": 30.27,
+      "place": {
+        "zh": "浙江杭州",
+        "en": "Hangzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "徐霞客抵杭州，沿钱塘江上行。",
+      "en": "Xu Xiake reached Hangzhou and traveled up the Qiantang River."
+    },
+    "description": {
+      "zh": "1636 年 10 月，徐霞客抵浙江杭州，随后沿钱塘江上行。日期与行程为通行说法，待页码级核对。",
+      "en": "In October 1636, Xu Xiake reached Hangzhou, Zhejiang, and then traveled up the Qiantang River. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "jinhua-1636-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jinhua-1636-10",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "游金华三洞",
+      "en": "Visiting the three caves of Jinhua"
+    },
+    "date": "1636-10-15",
+    "location": {
+      "lng": 119.65,
+      "lat": 29.08,
+      "place": {
+        "zh": "浙江金华",
+        "en": "Jinhua, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "考察",
+    "summary": {
+      "zh": "徐霞客游金华三洞，考察喀斯特洞穴。",
+      "en": "Xu Xiake visited the three caves of Jinhua and studied the karst caves."
+    },
+    "description": {
+      "zh": "1636 年 10 月，徐霞客游浙江金华三洞，考察喀斯特洞穴。日期与行程为通行说法，待页码级核对。",
+      "en": "In October 1636, Xu Xiake visited the three caves of Jinhua in Zhejiang, studying the karst caves. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "wuyishan-1636-11"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "wuyishan-1636-11",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "再游武夷",
+      "en": "Returning to Mount Wuyi"
+    },
+    "date": "1636-11-01",
+    "location": {
+      "lng": 118.03,
+      "lat": 27.75,
+      "place": {
+        "zh": "福建武夷山",
+        "en": "Mount Wuyi, Fujian"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "考察",
+    "summary": {
+      "zh": "徐霞客再游武夷山，继续考察九曲溪。",
+      "en": "Xu Xiake returned to Mount Wuyi and continued studying the Nine-Bend Stream."
+    },
+    "description": {
+      "zh": "1636 年 11 月，徐霞客再游福建武夷山，继续考察九曲溪。日期与行程为通行说法，待页码级核对。",
+      "en": "In November 1636, Xu Xiake returned to Mount Wuyi in Fujian and continued studying the Nine-Bend Stream. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "hengyang-1637-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hengyang-1637-02",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "抵衡阳",
+      "en": "Arriving in Hengyang"
+    },
+    "date": "1637-02-10",
+    "location": {
+      "lng": 112.57,
+      "lat": 26.89,
+      "place": {
+        "zh": "湖南衡阳",
+        "en": "Hengyang, Hunan"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "徐霞客抵湖南衡阳，准备进入广西。",
+      "en": "Xu Xiake reached Hengyang, Hunan, preparing to enter Guangxi."
+    },
+    "description": {
+      "zh": "1637 年 2 月，徐霞客抵湖南衡阳，随后南下进入广西。日期与行程为通行说法，待页码级核对。",
+      "en": "In February 1637, Xu Xiake reached Hengyang, Hunan, and then traveled south into Guangxi. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "guilin-1637-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "guilin-1637-05",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "抵桂林",
+      "en": "Arriving in Guilin"
+    },
+    "date": "1637-05-01",
+    "location": {
+      "lng": 110.29,
+      "lat": 25.27,
+      "place": {
+        "zh": "广西桂林",
+        "en": "Guilin, Guangxi"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "考察",
+    "summary": {
+      "zh": "徐霞客抵桂林，考察漓江与岩溶地貌。",
+      "en": "Xu Xiake reached Guilin and studied the Li River and karst landforms."
+    },
+    "description": {
+      "zh": "1637 年 5 月，徐霞客抵广西桂林，考察漓江与岩溶地貌。日期与行程为通行说法，待页码级核对。",
+      "en": "In May 1637, Xu Xiake reached Guilin, Guangxi, and studied the Li River and karst landforms. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "guiyang-1638-04"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "guiyang-1638-04",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "抵贵阳",
+      "en": "Arriving in Guiyang"
+    },
+    "date": "1638-04-01",
+    "location": {
+      "lng": 106.63,
+      "lat": 26.65,
+      "place": {
+        "zh": "贵州贵阳",
+        "en": "Guiyang, Guizhou"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "徐霞客抵贵阳，继续向云南行进。",
+      "en": "Xu Xiake reached Guiyang and continued toward Yunnan."
+    },
+    "description": {
+      "zh": "1638 年 4 月，徐霞客抵贵州贵阳，继续向云南行进。日期与行程为通行说法，待页码级核对。",
+      "en": "In April 1638, Xu Xiake reached Guiyang, Guizhou, and continued toward Yunnan. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "kunming-1638-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kunming-1638-09",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "抵昆明",
+      "en": "Arriving in Kunming"
+    },
+    "date": "1638-09-01",
+    "location": {
+      "lng": 102.83,
+      "lat": 24.88,
+      "place": {
+        "zh": "云南昆明",
+        "en": "Kunming, Yunnan"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "徐霞客抵昆明，开始滇中考察。",
+      "en": "Xu Xiake reached Kunming and began his surveys in central Yunnan."
+    },
+    "description": {
+      "zh": "1638 年 9 月，徐霞客抵云南昆明，开始滇中考察。日期与行程为通行说法，待页码级核对。",
+      "en": "In September 1638, Xu Xiake reached Kunming, Yunnan, and began his surveys in central Yunnan. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dali-1639-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dali-1639-01",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "抵大理",
+      "en": "Arriving in Dali"
+    },
+    "date": "1639-01-10",
+    "location": {
+      "lng": 100.27,
+      "lat": 25.61,
+      "place": {
+        "zh": "云南大理",
+        "en": "Dali, Yunnan"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "考察",
+    "summary": {
+      "zh": "徐霞客抵大理，考察苍山洱海。",
+      "en": "Xu Xiake reached Dali and studied Cangshan and Erhai."
+    },
+    "description": {
+      "zh": "1639 年 1 月，徐霞客抵云南大理，考察苍山、洱海与点苍山。日期与行程为通行说法，待页码级核对。",
+      "en": "In January 1639, Xu Xiake reached Dali, Yunnan, and studied Cangshan, Erhai, and the Diancang Mountains. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "lijiang-1639-02"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "lijiang-1639-02",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "抵丽江",
+      "en": "Arriving in Lijiang"
+    },
+    "date": "1639-02-01",
+    "location": {
+      "lng": 100.23,
+      "lat": 26.86,
+      "place": {
+        "zh": "云南丽江",
+        "en": "Lijiang, Yunnan"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "考察",
+    "summary": {
+      "zh": "徐霞客抵丽江，考察纳西地区山川。",
+      "en": "Xu Xiake reached Lijiang and studied the mountains and rivers of the Naxi region."
+    },
+    "description": {
+      "zh": "1639 年 2 月，徐霞客抵云南丽江，考察纳西地区山川与民俗。日期与行程为通行说法，待页码级核对。",
+      "en": "In February 1639, Xu Xiake reached Lijiang, Yunnan, and studied the mountains, rivers, and customs of the Naxi region. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "tengchong-1639-04"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "tengchong-1639-04",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "抵腾冲",
+      "en": "Arriving in Tengchong"
+    },
+    "date": "1639-04-01",
+    "location": {
+      "lng": 98.49,
+      "lat": 25.02,
+      "place": {
+        "zh": "云南腾冲",
+        "en": "Tengchong, Yunnan"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "考察",
+    "summary": {
+      "zh": "徐霞客抵腾冲，考察火山与地热。",
+      "en": "Xu Xiake reached Tengchong and studied its volcanoes and hot springs."
+    },
+    "description": {
+      "zh": "1639 年 4 月，徐霞客抵云南腾冲，考察火山、地热与边地风物。日期与行程为通行说法，待页码级核对。",
+      "en": "In April 1639, Xu Xiake reached Tengchong, Yunnan, and studied its volcanoes, hot springs, and borderland customs. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "kunming-1640-01"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "kunming-1640-01",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "东归昆明",
+      "en": "Returning to Kunming"
+    },
+    "date": "1640-01-01",
+    "location": {
+      "lng": 102.83,
+      "lat": 24.88,
+      "place": {
+        "zh": "云南昆明",
+        "en": "Kunming, Yunnan"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "徐霞客因病东归昆明。",
+      "en": "Xu Xiake returned east to Kunming due to illness."
+    },
+    "description": {
+      "zh": "1640 年 1 月，徐霞客因病东归云南昆明。日期与行程为通行说法，待页码级核对。",
+      "en": "In January 1640, Xu Xiake returned east to Kunming, Yunnan, due to illness. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "jiangyin-1640-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jiangyin-1640-06",
+    "atlasId": "xu-xiake",
+    "name": {
+      "zh": "归抵江阴",
+      "en": "Returning to Jiangyin"
+    },
+    "date": "1640-06-01",
+    "location": {
+      "lng": 120.28,
+      "lat": 31.9,
+      "place": {
+        "zh": "江苏江阴",
+        "en": "Jiangyin, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "xu-xiake"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "徐霞客归抵江阴，结束万里行。",
+      "en": "Xu Xiake returned to Jiangyin, ending his great journey."
+    },
+    "description": {
+      "zh": "1640 年 6 月，徐霞客归抵江苏江阴，结束西南万里行。日期与行程为通行说法，待页码级核对。",
+      "en": "In June 1640, Xu Xiake returned to Jiangyin, Jiangsu, ending his great southwestern journey. Dates and itinerary follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐霞客游记》",
+        "author": "徐弘祖",
+        "year": 1641,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《徐霞客游记校注》",
+        "author": "朱惠荣",
+        "year": 1985,
+        "note": "行程与地名参考"
+      },
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "时代背景参考"
+      }
+    ],
+    "relatedIds": [
+      "kunming-1640-01"
+    ],
+    "importance": 3
+  }
+]

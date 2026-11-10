@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8f0e6"/>
+      <stop offset="1" stop-color="#c9d8c3"/>
+    </linearGradient>
+    <linearGradient id="ridge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7d9b7a"/>
+      <stop offset="1" stop-color="#4f6f5a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <circle cx="960" cy="140" r="70" fill="#d8b36a" opacity="0.35"/>
+  <path d="M0 520 C 160 430, 300 500, 450 430 C 600 360, 720 450, 860 380 C 1000 310, 1100 350, 1200 300 L1200 675 L0 675 Z" fill="url(#ridge)" opacity="0.45"/>
+  <path d="M0 590 C 220 520, 380 570, 540 510 C 720 445, 880 510, 1200 410 L1200 675 L0 675 Z" fill="#355043" opacity="0.32"/>
+  <path d="M90 520 C 240 470, 340 500, 460 430 C 580 360, 700 400, 820 330 C 940 260, 1030 270, 1120 210" fill="none" stroke="#2f6b5e" stroke-width="5" stroke-linecap="round" stroke-dasharray="14 12"/>
+  <g fill="#2f6b5e">
+    <circle cx="90" cy="520" r="9"/>
+    <circle cx="460" cy="430" r="8"/>
+    <circle cx="820" cy="330" r="8"/>
+    <circle cx="1120" cy="210" r="10"/>
+  </g>
+  <text x="80" y="130" font-family="Songti SC, STSong, serif" font-size="72" font-weight="700" fill="#1f2e24">徐霞客游记</text>
+  <text x="84" y="178" font-family="Georgia, serif" font-size="22" letter-spacing="4" fill="#3f5146">XU XIAKE'S TRAVELS · 1607—1640</text>
+  <text x="84" y="235" font-family="Songti SC, STSong, serif" font-size="26" fill="#3f5146">江阴 → 天台 → 桂林 → 腾冲 → 江阴</text>
+  <text x="84" y="275" font-family="Georgia, serif" font-size="18" fill="#3f5146" opacity="0.8">Jiangyin → Tiantai → Guilin → Tengchong → Jiangyin</text>
+  <text x="84" y="625" font-family="Georgia, serif" font-size="16" letter-spacing="3" fill="#e8f0e6">OPENCHRONICLE ATLAS · 史迹 · 时空地图</text>
+</svg>
