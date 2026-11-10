@@ -54,6 +54,60 @@
     "importance": 3
   },
   {
+    "id": "qingzhou-troops-192",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "曹操收编青州兵",
+      "en": "Cao Cao incorporates the Qingzhou troops"
+    },
+    "date": "0192-04-01",
+    "location": {
+      "lng": 115.03,
+      "lat": 35.76,
+      "place": {
+        "zh": "山东濮阳",
+        "en": "Puyang, Shandong"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "曹操击败青州黄巾，收编精锐为青州兵。",
+      "en": "Cao Cao defeated the Qingzhou Yellow Turbans and incorporated their elite as the Qingzhou troops."
+    },
+    "description": {
+      "zh": "192 年，曹操入兖州，击败青州黄巾，收编降众三十余万，选其精锐组成青州兵，成为此后征战的核心力量。日期与规模为通行说法，待页码级核对。",
+      "en": "In 192, Cao Cao entered Yan Province, defeated the Qingzhou Yellow Turbans, and incorporated more than 300,000 surrendered followers, selecting the elite as the Qingzhou troops who became the core of his later armies. Dates and scale follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "guandu-200"
+    ],
+    "importance": 2
+  },
+  {
     "id": "sunce-jiangdong-195",
     "atlasId": "three-kingdoms",
     "name": {
@@ -103,6 +157,115 @@
       }
     ],
     "relatedIds": [
+      "chibi-wu-208"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "xiapi-198",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "下邳之战",
+      "en": "The Battle of Xiapi"
+    },
+    "date": "0198-09-01",
+    "location": {
+      "lng": 117.95,
+      "lat": 34.3,
+      "place": {
+        "zh": "江苏下邳",
+        "en": "Xiapi, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "曹操围攻下邳，水淹城池，擒杀吕布。",
+      "en": "Cao Cao besieged Xiapi, flooded the city, and captured and executed Lü Bu."
+    },
+    "description": {
+      "zh": "198 年，曹操率军东征吕布，围攻下邳，引沂水、泗水灌城，吕布部将叛降，吕布被擒杀。日期与经过为通行说法，待页码级核对。",
+      "en": "In 198, Cao Cao campaigned east against Lü Bu and besieged Xiapi, diverting the Yi and Si rivers to flood the city. Lü Bu’s officers defected, and he was captured and executed. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "guandu-200"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sunce-death-200",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "孙策遇刺",
+      "en": "Sun Ce is assassinated"
+    },
+    "date": "0200-04-01",
+    "location": {
+      "lng": 119.45,
+      "lat": 32.2,
+      "place": {
+        "zh": "江苏丹徒",
+        "en": "Dantu, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "wu"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "孙策在丹徒狩猎时遇刺，孙权继领江东。",
+      "en": "Sun Ce was assassinated while hunting at Dantu, and Sun Quan succeeded him in Jiangdong."
+    },
+    "description": {
+      "zh": "200 年，孙策在丹徒山中狩猎时被许贡门客刺伤，不久去世，其弟孙权继领江东。日期与经过为通行说法，待页码级核对。",
+      "en": "In 200, Sun Ce was wounded by retainers of Xu Gong while hunting in the hills at Dantu and died soon after. His younger brother Sun Quan succeeded him in Jiangdong. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "sunce-jiangdong-195",
       "chibi-wu-208"
     ],
     "importance": 3
@@ -160,6 +323,61 @@
       "white-wolf-207"
     ],
     "importance": 3
+  },
+  {
+    "id": "yecheng-204",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "邺城之战",
+      "en": "The Battle of Ye"
+    },
+    "date": "0204-05-01",
+    "location": {
+      "lng": 114.4,
+      "lat": 36.3,
+      "place": {
+        "zh": "河北临漳",
+        "en": "Yecheng, Hebei"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "曹操攻破邺城，占据河北重心。",
+      "en": "Cao Cao captured Ye and took control of the Hebei heartland."
+    },
+    "description": {
+      "zh": "204 年，曹操围困邺城，引漳水灌城，袁尚部将审配坚守，最终城破，曹操据有冀州。日期与经过为通行说法，待页码级核对。",
+      "en": "In 204, Cao Cao besieged Ye and diverted the Zhang River to flood it. Shen Pei held out for Yuan Shang, but the city eventually fell and Cao Cao took Ji Province. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "guandu-200",
+      "white-wolf-207"
+    ],
+    "importance": 2
   },
   {
     "id": "sangu-maolu-207",
@@ -266,6 +484,60 @@
     ],
     "relatedIds": [
       "guandu-200"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "changban-208",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "长坂坡之战",
+      "en": "The Battle of Changban"
+    },
+    "date": "0208-09-01",
+    "location": {
+      "lng": 111.79,
+      "lat": 30.82,
+      "place": {
+        "zh": "湖北当阳",
+        "en": "Changban, Hubei"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "曹操轻骑追刘备于长坂坡，刘备败走。",
+      "en": "Cao Cao’s fast cavalry caught Liu Bei at Changban, and Liu Bei fled."
+    },
+    "description": {
+      "zh": "208 年，曹操率轻骑自襄阳追击刘备，在当阳长坂坡击溃其部众，刘备与诸葛亮、张飞等退往夏口。日期与路线为通行说法，待页码级核对。",
+      "en": "In 208, Cao Cao led light cavalry from Xiangyang in pursuit of Liu Bei and routed his forces at Changban in Dangyang. Liu Bei, Zhuge Liang, Zhang Fei, and others retreated toward Xiakou. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "chibi-cao-208"
     ],
     "importance": 2
   },
@@ -481,6 +753,61 @@
       }
     ],
     "relatedIds": [
+      "hanzhong-shu-219"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "chengdu-214",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "刘备取成都",
+      "en": "Liu Bei takes Chengdu"
+    },
+    "date": "0214-06-01",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "刘备围成都，刘璋出降，益州归刘备。",
+      "en": "Liu Bei besieged Chengdu, and Liu Zhang surrendered, bringing Yi Province under Liu Bei."
+    },
+    "description": {
+      "zh": "214 年，刘备军围困成都，马超来降，刘璋出降，刘备取得益州，奠定蜀汉基业。日期与经过为通行说法，待页码级核对。",
+      "en": "In 214, Liu Bei’s army besieged Chengdu. Ma Chao came over, Liu Zhang surrendered, and Liu Bei took Yi Province, laying the foundation of Shu Han. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "ru-shu-211",
       "hanzhong-shu-219"
     ],
     "importance": 3
@@ -918,6 +1245,114 @@
     "importance": 3
   },
   {
+    "id": "jieting-228",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "街亭之战",
+      "en": "The Battle of Jieting"
+    },
+    "date": "0228-03-01",
+    "location": {
+      "lng": 105.9,
+      "lat": 35.0,
+      "place": {
+        "zh": "甘肃街亭",
+        "en": "Jieting, Gansu"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "马谡失守街亭，诸葛亮首次北伐退军。",
+      "en": "Ma Su lost Jieting, forcing Zhuge Liang’s first northern expedition to retreat."
+    },
+    "description": {
+      "zh": "228 年，诸葛亮出祁山，命马谡守街亭。马谡舍水上山，被张郃断绝水道击溃，诸葛亮退军。日期与经过为通行说法，待页码级核对。",
+      "en": "In 228, Zhuge Liang advanced to Qishan and ordered Ma Su to hold Jieting. Ma Su abandoned the water source and camped on a hill; Zhang He cut his supply of water and defeated him, forcing Zhuge Liang to withdraw. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "qishan-228"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "shiting-228",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "石亭之战",
+      "en": "The Battle of Shiting"
+    },
+    "date": "0228-08-01",
+    "location": {
+      "lng": 116.58,
+      "lat": 30.63,
+      "place": {
+        "zh": "安徽石亭",
+        "en": "Shiting, Anhui"
+      }
+    },
+    "entityIds": [
+      "wu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "陆逊在石亭大败曹休，吴军巩固江淮。",
+      "en": "Lu Xun defeated Cao Xiu at Shiting, securing the Wu position along the Huai and Yangtze."
+    },
+    "description": {
+      "zh": "228 年，曹休率军南下，陆逊在石亭设伏，大败魏军，曹休退走。日期与经过为通行说法，待页码级核对。",
+      "en": "In 228, Cao Xiu marched south. Lu Xun set an ambush at Shiting and routed the Wei army, forcing Cao Xiu to withdraw. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "dongxing-252"
+    ],
+    "importance": 2
+  },
+  {
     "id": "wuzhangyuan-234",
     "atlasId": "three-kingdoms",
     "name": {
@@ -972,6 +1407,168 @@
     "importance": 3
   },
   {
+    "id": "gaopingling-249",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "高平陵之变",
+      "en": "The Gaopingling Incident"
+    },
+    "date": "0249-02-01",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "河南洛阳",
+        "en": "Luoyang, Henan"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "司马懿发动政变，控制曹魏朝政。",
+      "en": "Sima Yi launched a coup and took control of the Wei court."
+    },
+    "description": {
+      "zh": "249 年，曹爽陪魏帝曹芳出城谒高平陵，司马懿在洛阳发动政变，控制都城与禁军，曹爽投降后被诛，司马氏专权自此开始。日期与经过为通行说法，待页码级核对。",
+      "en": "In 249, Cao Shuang accompanied Emperor Cao Fang to Gaopingling. Sima Yi launched a coup in Luoyang, seized the capital and palace guards, and had Cao Shuang executed after his surrender, beginning Sima family dominance. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "jin-founded-265"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "dongxing-252",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "东兴之战",
+      "en": "The Battle of Dongxing"
+    },
+    "date": "0252-11-01",
+    "location": {
+      "lng": 117.6,
+      "lat": 31.7,
+      "place": {
+        "zh": "安徽东兴",
+        "en": "Dongxing, Anhui"
+      }
+    },
+    "entityIds": [
+      "wu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "诸葛恪在东兴堤击败魏军，吴军大胜。",
+      "en": "Zhuge Ke defeated the Wei army at the Dongxing dike."
+    },
+    "description": {
+      "zh": "252 年，魏军分路进攻东兴，诸葛恪率吴军据堤迎战，大败魏军。日期与经过为通行说法，待页码级核对。",
+      "en": "In 252, Wei forces attacked Dongxing along several routes. Zhuge Ke led the Wu army to hold the dike and routed the Wei forces. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "shiting-228"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "huainan-255",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "淮南二叛",
+      "en": "The second Huainan rebellion"
+    },
+    "date": "0255-01-01",
+    "location": {
+      "lng": 117.27,
+      "lat": 32.58,
+      "place": {
+        "zh": "安徽寿春",
+        "en": "Shouchun, Anhui"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "毌丘俭、文钦在寿春起兵讨司马氏，兵败。",
+      "en": "Guanqiu Jian and Wen Qin rose at Shouchun against the Sima family and were defeated."
+    },
+    "description": {
+      "zh": "255 年，毌丘俭、文钦在寿春起兵，讨伐司马师，司马师率军亲征，叛军内讧后失败。日期与经过为通行说法，待页码级核对。",
+      "en": "In 255, Guanqiu Jian and Wen Qin rose at Shouchun against Sima Shi. Sima Shi led a campaign in person, and the rebels collapsed after internal strife. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "gaopingling-249"
+    ],
+    "importance": 2
+  },
+  {
     "id": "mie-shu-263",
     "atlasId": "three-kingdoms",
     "name": {
@@ -1021,6 +1618,171 @@
       }
     ],
     "relatedIds": [
+      "jianye-280"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "jin-founded-265",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "司马炎称帝",
+      "en": "Sima Yan founds Jin"
+    },
+    "date": "0265-12-01",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "河南洛阳",
+        "en": "Luoyang, Henan"
+      }
+    },
+    "entityIds": [
+      "jin"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "司马炎代魏称帝，建立西晋。",
+      "en": "Sima Yan replaced Wei and founded Western Jin."
+    },
+    "description": {
+      "zh": "265 年，司马炎接受魏元帝禅让，称帝建立西晋，改元泰始，曹魏灭亡。日期与经过为通行说法，待页码级核对。",
+      "en": "In 265, Sima Yan accepted the abdication of the Wei emperor, declared himself emperor, founded Western Jin, and changed the era name to Taishi, ending Cao Wei. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "gaopingling-249",
+      "mie-shu-263"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "xiling-272",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "西陵之战",
+      "en": "The Battle of Xiling"
+    },
+    "date": "0272-10-01",
+    "location": {
+      "lng": 111.28,
+      "lat": 30.7,
+      "place": {
+        "zh": "湖北西陵",
+        "en": "Xiling, Hubei"
+      }
+    },
+    "entityIds": [
+      "wu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "陆抗在西陵击败晋军，收复西陵。",
+      "en": "Lu Kang defeated Jin forces at Xiling and recovered the city."
+    },
+    "description": {
+      "zh": "272 年，吴将步阐据西陵降晋，陆抗率军围攻，击退晋军援兵，收复西陵。日期与经过为通行说法，待页码级核对。",
+      "en": "In 272, the Wu general Bu Chan held Xiling and defected to Jin. Lu Kang besieged the city, repelled the Jin relief force, and recovered Xiling. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "yiling-wu-222",
+      "mie-wu-279"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "wangjun-fleet-279",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "王濬造楼船",
+      "en": "Wang Jun builds his river fleet"
+    },
+    "date": "0279-08-01",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "jin"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "王濬在益州造楼船，顺江东下伐吴。",
+      "en": "Wang Jun built a tower-ship fleet in Yi Province and sailed east against Wu."
+    },
+    "description": {
+      "zh": "279 年，王濬在益州督造楼船，训练水军，随后顺长江东下，成为灭吴之战的关键力量。日期与规模为通行说法，待页码级核对。",
+      "en": "In 279, Wang Jun supervised the construction of tower ships and trained a river fleet in Yi Province. The fleet later sailed east down the Yangtze and became a decisive force in the conquest of Wu. Dates and scale follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      },
+      {
+        "title": "《后汉书》",
+        "author": "范晔",
+        "year": 445,
+        "note": "汉末背景参考"
+      }
+    ],
+    "relatedIds": [
+      "mie-wu-279",
       "jianye-280"
     ],
     "importance": 3

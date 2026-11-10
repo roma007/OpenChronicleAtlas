@@ -45,6 +45,116 @@
         "type": "LineString",
         "coordinates": [
           [
+            114.55,
+            34.75
+          ],
+          [
+            115.03,
+            35.76
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0192-04-01",
+        "endDate": "0192-12-31",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "陈留—濮阳",
+          "en": "Chenliu–Puyang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.35,
+            31.72
+          ],
+          [
+            119.6,
+            32.0
+          ],
+          [
+            120.6,
+            31.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wu",
+        "startDate": "0195-08-01",
+        "endDate": "0196-08-31",
+        "order": 3,
+        "segmentType": "advance",
+        "name": {
+          "zh": "历阳—曲阿—吴",
+          "en": "Liyang–Qü’a–Wu"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.85,
+            34.03
+          ],
+          [
+            115.5,
+            34.3
+          ],
+          [
+            117.95,
+            34.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0198-09-01",
+        "endDate": "0198-12-31",
+        "order": 4,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "许昌—下邳",
+          "en": "Xuchang–Xiapi"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             113.85,
             34.03
           ],
@@ -62,11 +172,113 @@
         "entityId": "cao-wei",
         "startDate": "0199-06-01",
         "endDate": "0200-10-31",
-        "order": 2,
+        "order": 5,
         "segmentType": "counterattack",
         "name": {
           "zh": "许昌—官渡—乌巢",
           "en": "Xuchang–Guandu–Wuchao"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.6,
+            32.0
+          ],
+          [
+            119.45,
+            32.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wu",
+        "startDate": "0200-04-01",
+        "endDate": "0200-05-31",
+        "order": 6,
+        "segmentType": "advance",
+        "name": {
+          "zh": "曲阿—丹徒",
+          "en": "Qü’a–Dantu"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.85,
+            34.03
+          ],
+          [
+            114.4,
+            36.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0204-05-01",
+        "endDate": "0204-08-31",
+        "order": 7,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "许昌—邺",
+          "en": "Xuchang–Ye"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.36,
+            32.52
+          ],
+          [
+            112.0,
+            32.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0207-01-01",
+        "endDate": "0207-03-31",
+        "order": 8,
+        "segmentType": "advance",
+        "name": {
+          "zh": "新野—隆中",
+          "en": "Xinye–Longzhong"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -104,7 +316,7 @@
         "entityId": "cao-wei",
         "startDate": "0207-05-01",
         "endDate": "0207-08-31",
-        "order": 3,
+        "order": 9,
         "segmentType": "advance",
         "name": {
           "zh": "邺—易县—柳城",
@@ -146,11 +358,83 @@
         "entityId": "cao-wei",
         "startDate": "0208-07-01",
         "endDate": "0208-12-31",
-        "order": 4,
+        "order": 10,
         "segmentType": "naval",
         "name": {
           "zh": "许昌—江陵—赤壁",
           "en": "Xuchang–Jiangling–Red Cliffs"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.98,
+            29.7
+          ],
+          [
+            114.3,
+            30.6
+          ],
+          [
+            113.9,
+            29.72
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wu",
+        "startDate": "0208-09-01",
+        "endDate": "0208-12-31",
+        "order": 11,
+        "segmentType": "naval",
+        "name": {
+          "zh": "柴桑—夏口—赤壁",
+          "en": "Chaisang–Xiakou–Red Cliffs"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.14,
+            32.02
+          ],
+          [
+            111.79,
+            30.82
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0208-09-01",
+        "endDate": "0208-10-31",
+        "order": 12,
+        "segmentType": "advance",
+        "name": {
+          "zh": "襄阳—当阳",
+          "en": "Xiangyang–Dangyang"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -188,11 +472,53 @@
         "entityId": "cao-wei",
         "startDate": "0211-03-01",
         "endDate": "0211-09-30",
-        "order": 5,
+        "order": 13,
         "segmentType": "counterattack",
         "name": {
           "zh": "邺—洛阳—潼关—长安",
           "en": "Ye–Luoyang–Tong Pass–Chang’an"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.2,
+            30.35
+          ],
+          [
+            106.55,
+            29.56
+          ],
+          [
+            104.75,
+            31.47
+          ],
+          [
+            104.07,
+            30.67
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0211-12-01",
+        "endDate": "0214-06-30",
+        "order": 14,
+        "segmentType": "advance",
+        "name": {
+          "zh": "荆州—江州—涪城—成都",
+          "en": "Jingzhou–Jiangzhou–Fucheng–Chengdu"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -222,11 +548,49 @@
         "entityId": "cao-wei",
         "startDate": "0215-08-01",
         "endDate": "0234-12-31",
-        "order": 6,
+        "order": 15,
         "segmentType": "defense",
         "name": {
           "zh": "合肥—逍遥津",
           "en": "Hefei–Xiaoyao Ford"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.07,
+            30.67
+          ],
+          [
+            105.5,
+            32.2
+          ],
+          [
+            107.03,
+            33.07
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0217-03-01",
+        "endDate": "0219-05-31",
+        "order": 16,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "成都—剑阁—汉中",
+          "en": "Chengdu–Jiange–Hanzhong"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -260,11 +624,401 @@
         "entityId": "cao-wei",
         "startDate": "0218-03-01",
         "endDate": "0219-05-31",
-        "order": 7,
+        "order": 17,
         "segmentType": "advance",
         "name": {
           "zh": "长安—汉中",
           "en": "Chang’an–Hanzhong"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.2,
+            30.35
+          ],
+          [
+            112.14,
+            32.02
+          ],
+          [
+            112.13,
+            32.03
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0219-07-01",
+        "endDate": "0219-12-31",
+        "order": 18,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "江陵—襄阳—樊城",
+          "en": "Jiangling–Xiangyang–Fancheng"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.7,
+            29.9
+          ],
+          [
+            112.2,
+            30.35
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wu",
+        "startDate": "0219-10-01",
+        "endDate": "0219-12-31",
+        "order": 19,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "陆口—江陵",
+          "en": "Lukou–Jiangling"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.07,
+            30.67
+          ],
+          [
+            109.57,
+            31.05
+          ],
+          [
+            111.28,
+            30.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0221-04-01",
+        "endDate": "0222-08-31",
+        "order": 20,
+        "segmentType": "advance",
+        "name": {
+          "zh": "成都—白帝城—夷陵",
+          "en": "Chengdu–Baidi City–Yiling"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.28,
+            30.7
+          ],
+          [
+            111.4,
+            30.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wu",
+        "startDate": "0221-07-01",
+        "endDate": "0222-08-31",
+        "order": 21,
+        "segmentType": "defense",
+        "name": {
+          "zh": "夷陵—猇亭",
+          "en": "Yiling–Xiaoting"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.03,
+            33.07
+          ],
+          [
+            106.2,
+            33.7
+          ],
+          [
+            105.2,
+            34.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0228-01-01",
+        "endDate": "0228-03-31",
+        "order": 22,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "汉中—祁山",
+          "en": "Hanzhong–Qishan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.2,
+            34.2
+          ],
+          [
+            105.9,
+            35.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0228-02-01",
+        "endDate": "0228-03-31",
+        "order": 23,
+        "segmentType": "advance",
+        "name": {
+          "zh": "祁山—街亭",
+          "en": "Qishan–Jieting"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.47,
+            30.55
+          ],
+          [
+            116.58,
+            30.63
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wu",
+        "startDate": "0228-08-01",
+        "endDate": "0228-09-30",
+        "order": 24,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "皖口—石亭",
+          "en": "Wankou–Shiting"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.03,
+            33.07
+          ],
+          [
+            107.65,
+            34.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0234-02-01",
+        "endDate": "0234-10-31",
+        "order": 25,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "汉中—五丈原",
+          "en": "Hanzhong–Wuzhang Plain"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.45,
+            34.62
+          ],
+          [
+            112.5,
+            34.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0249-02-01",
+        "endDate": "0249-02-28",
+        "order": 26,
+        "segmentType": "advance",
+        "name": {
+          "zh": "洛阳—高平陵",
+          "en": "Luoyang–Gaopingling"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8,
+            32.06
+          ],
+          [
+            117.6,
+            31.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wu",
+        "startDate": "0252-11-01",
+        "endDate": "0252-12-31",
+        "order": 27,
+        "segmentType": "defense",
+        "name": {
+          "zh": "建业—东兴",
+          "en": "Jianye–Dongxing"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.45,
+            34.62
+          ],
+          [
+            114.3,
+            32.6
+          ],
+          [
+            117.27,
+            32.58
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0255-01-01",
+        "endDate": "0255-03-31",
+        "order": 28,
+        "segmentType": "advance",
+        "name": {
+          "zh": "洛阳—寿春",
+          "en": "Luoyang–Shouchun"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -306,7 +1060,7 @@
         "entityId": "cao-wei",
         "startDate": "0263-09-01",
         "endDate": "0263-11-30",
-        "order": 8,
+        "order": 29,
         "segmentType": "counterattack",
         "name": {
           "zh": "洛阳—长安—汉中—成都",
@@ -327,24 +1081,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            112.36,
-            32.52
+            112.45,
+            34.62
           ],
           [
-            112.0,
-            32.0
+            112.45,
+            34.5
           ]
         ]
       },
       "properties": {
-        "entityId": "shu-han",
-        "startDate": "0207-01-01",
-        "endDate": "0207-03-31",
-        "order": 9,
+        "entityId": "jin",
+        "startDate": "0265-12-01",
+        "endDate": "0265-12-31",
+        "order": 30,
         "segmentType": "advance",
         "name": {
-          "zh": "新野—隆中",
-          "en": "Xinye–Longzhong"
+          "zh": "洛阳—南郊",
+          "en": "Luoyang–southern suburbs"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -363,128 +1117,6 @@
           [
             112.2,
             30.35
-          ],
-          [
-            106.55,
-            29.56
-          ],
-          [
-            104.75,
-            31.47
-          ],
-          [
-            104.07,
-            30.67
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "shu-han",
-        "startDate": "0211-12-01",
-        "endDate": "0214-06-30",
-        "order": 10,
-        "segmentType": "advance",
-        "name": {
-          "zh": "荆州—江州—涪城—成都",
-          "en": "Jingzhou–Jiangzhou–Fucheng–Chengdu"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            104.07,
-            30.67
-          ],
-          [
-            105.5,
-            32.2
-          ],
-          [
-            107.03,
-            33.07
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "shu-han",
-        "startDate": "0217-03-01",
-        "endDate": "0219-05-31",
-        "order": 11,
-        "segmentType": "counterattack",
-        "name": {
-          "zh": "成都—剑阁—汉中",
-          "en": "Chengdu–Jiange–Hanzhong"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            112.2,
-            30.35
-          ],
-          [
-            112.14,
-            32.02
-          ],
-          [
-            112.13,
-            32.03
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "shu-han",
-        "startDate": "0219-07-01",
-        "endDate": "0219-12-31",
-        "order": 12,
-        "segmentType": "counterattack",
-        "name": {
-          "zh": "江陵—襄阳—樊城",
-          "en": "Jiangling–Xiangyang–Fancheng"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            104.07,
-            30.67
-          ],
-          [
-            109.57,
-            31.05
           ],
           [
             111.28,
@@ -493,124 +1125,14 @@
         ]
       },
       "properties": {
-        "entityId": "shu-han",
-        "startDate": "0221-04-01",
-        "endDate": "0222-08-31",
-        "order": 13,
-        "segmentType": "advance",
-        "name": {
-          "zh": "成都—白帝城—夷陵",
-          "en": "Chengdu–Baidi City–Yiling"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.03,
-            33.07
-          ],
-          [
-            106.2,
-            33.7
-          ],
-          [
-            105.2,
-            34.2
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "shu-han",
-        "startDate": "0228-01-01",
-        "endDate": "0228-03-31",
-        "order": 14,
-        "segmentType": "counterattack",
-        "name": {
-          "zh": "汉中—祁山",
-          "en": "Hanzhong–Qishan"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.03,
-            33.07
-          ],
-          [
-            107.65,
-            34.27
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "shu-han",
-        "startDate": "0234-02-01",
-        "endDate": "0234-10-31",
-        "order": 15,
-        "segmentType": "counterattack",
-        "name": {
-          "zh": "汉中—五丈原",
-          "en": "Hanzhong–Wuzhang Plain"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            118.35,
-            31.72
-          ],
-          [
-            119.6,
-            32.0
-          ],
-          [
-            120.6,
-            31.3
-          ]
-        ]
-      },
-      "properties": {
         "entityId": "wu",
-        "startDate": "0195-08-01",
-        "endDate": "0196-08-31",
-        "order": 16,
+        "startDate": "0272-10-01",
+        "endDate": "0272-12-31",
+        "order": 31,
         "segmentType": "advance",
         "name": {
-          "zh": "历阳—曲阿—吴",
-          "en": "Liyang–Qü’a–Wu"
+          "zh": "江陵—西陵",
+          "en": "Jiangling–Xiling"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -627,96 +1149,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            115.98,
-            29.7
+            104.07,
+            30.67
+          ],
+          [
+            109.5,
+            31.0
+          ],
+          [
+            112.2,
+            30.35
           ],
           [
             114.3,
             30.6
           ],
           [
-            113.9,
-            29.72
+            118.8,
+            32.06
           ]
         ]
       },
       "properties": {
-        "entityId": "wu",
-        "startDate": "0208-09-01",
-        "endDate": "0208-12-31",
-        "order": 17,
+        "entityId": "jin",
+        "startDate": "0279-08-01",
+        "endDate": "0280-03-31",
+        "order": 32,
         "segmentType": "naval",
         "name": {
-          "zh": "柴桑—夏口—赤壁",
-          "en": "Chaisang–Xiakou–Red Cliffs"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            113.7,
-            29.9
-          ],
-          [
-            112.2,
-            30.35
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "wu",
-        "startDate": "0219-10-01",
-        "endDate": "0219-12-31",
-        "order": 18,
-        "segmentType": "counterattack",
-        "name": {
-          "zh": "陆口—江陵",
-          "en": "Lukou–Jiangling"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            111.28,
-            30.7
-          ],
-          [
-            111.4,
-            30.6
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "wu",
-        "startDate": "0221-07-01",
-        "endDate": "0222-08-31",
-        "order": 19,
-        "segmentType": "defense",
-        "name": {
-          "zh": "夷陵—猇亭",
-          "en": "Yiling–Xiaoting"
+          "zh": "成都—永安",
+          "en": "Chengdu–Yong’an"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -758,7 +1220,7 @@
         "entityId": "jin",
         "startDate": "0279-11-01",
         "endDate": "0280-03-31",
-        "order": 20,
+        "order": 33,
         "segmentType": "naval",
         "name": {
           "zh": "洛阳—襄阳—江陵—夏口—建业",
