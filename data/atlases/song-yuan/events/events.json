@@ -60,6 +60,66 @@
     "importance": 3
   },
   {
+    "id": "dali-song-965",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "大理遣使入宋",
+      "en": "Dali sends envoys to Song"
+    },
+    "date": "0965-01-01",
+    "location": {
+      "lng": 100.2,
+      "lat": 25.6,
+      "place": {
+        "zh": "云南大理",
+        "en": "Dali, Yunnan"
+      }
+    },
+    "entityIds": [
+      "dali"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "大理国遣使向北宋贡方物，宋廷册封。",
+      "en": "The Dali Kingdom sent envoys and tribute to the Northern Song court."
+    },
+    "description": {
+      "zh": "965 年，大理国遣使向北宋贡方物，宋廷予以册封，双方保持通使与贸易关系。日期与经过为通行说法，待页码级核对。",
+      "en": "In 965, the Dali Kingdom sent envoys and local products to the Northern Song court, which granted titles in return, maintaining diplomatic and trade relations. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "dali-gao-1096"
+    ],
+    "importance": 2
+  },
+  {
     "id": "gaolianghe-979",
     "atlasId": "song-yuan",
     "name": {
@@ -236,6 +296,66 @@
     ],
     "relatedIds": [
       "chanyuan-liao-1004"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "xixia-founded-1038",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "西夏立国",
+      "en": "The founding of Western Xia"
+    },
+    "date": "1038-10-01",
+    "location": {
+      "lng": 106.23,
+      "lat": 38.49,
+      "place": {
+        "zh": "宁夏兴庆府",
+        "en": "Xingqing, Ningxia"
+      }
+    },
+    "entityIds": [
+      "western-xia"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "李元昊称帝，国号大夏，定都兴庆府。",
+      "en": "Li Yuanhao proclaimed himself emperor, founded the state of Daxia, and made Xingqing his capital."
+    },
+    "description": {
+      "zh": "1038 年，党项首领李元昊在兴庆府称帝，国号大夏，宋称西夏，与宋、辽形成鼎立。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1038, the Tangut leader Li Yuanhao proclaimed himself emperor at Xingqing, named his state Daxia, and formed a tripartite balance with Song and Liao. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "xixia-fall-1227"
     ],
     "importance": 3
   },
@@ -420,6 +540,186 @@
     "importance": 2
   },
   {
+    "id": "lingzhou-1081",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "灵州之战",
+      "en": "The Battle of Lingzhou"
+    },
+    "date": "1081-10-01",
+    "location": {
+      "lng": 106.34,
+      "lat": 38.1,
+      "place": {
+        "zh": "宁夏灵州",
+        "en": "Lingzhou, Ningxia"
+      }
+    },
+    "entityIds": [
+      "western-xia"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "宋军围攻灵州，西夏决黄河水灌宋营，宋军溃退。",
+      "en": "Song forces besieged Lingzhou; Western Xia diverted the Yellow River and routed them."
+    },
+    "description": {
+      "zh": "1081 年，北宋五路伐夏，刘昌祚部进围灵州，西夏决黄河水灌宋军营地，宋军补给断绝，大败而退。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1081, the Northern Song launched a five-route campaign against Western Xia. Liu Changzuo besieged Lingzhou, but Western Xia diverted the Yellow River into the Song camps, cutting supplies and forcing a retreat. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "yongle-1082"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yongle-1082",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "永乐城之战",
+      "en": "The Battle of Yongle"
+    },
+    "date": "1082-09-01",
+    "location": {
+      "lng": 110.18,
+      "lat": 37.76,
+      "place": {
+        "zh": "陕西永乐城",
+        "en": "Yongle, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "western-xia"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "西夏倾国进攻永乐城，宋军大败。",
+      "en": "Western Xia attacked Yongle with its full strength and destroyed the Song garrison."
+    },
+    "description": {
+      "zh": "1082 年，宋将徐禧在永乐川筑城，西夏倾国来攻，切断水源，宋军大败，永乐城陷落。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1082, the Song general Xu Xi built a fortress at Yongle. Western Xia attacked with its full strength, cut off the water supply, and destroyed the Song force, taking the fortress. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "lingzhou-1081"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dali-gao-1096",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "高升泰代立",
+      "en": "Gao Shengtai usurps the Dali throne"
+    },
+    "date": "1096-01-01",
+    "location": {
+      "lng": 100.2,
+      "lat": 25.6,
+      "place": {
+        "zh": "云南大理",
+        "en": "Dali, Yunnan"
+      }
+    },
+    "entityIds": [
+      "dali"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "权臣高升泰废段正明，建立大中国，后还政段氏。",
+      "en": "The minister Gao Shengtai deposed Duan Zhengming and briefly founded the state of Dazhong."
+    },
+    "description": {
+      "zh": "1096 年，大理权臣高升泰废段正明，自立为帝，国号大中国；其后高氏还政段氏，大理国进入后理国时期。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1096, the Dali minister Gao Shengtai deposed Duan Zhengming and proclaimed himself emperor of Dazhong. The Gao family later returned power to the Duan, beginning the Later Dali period. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "dali-song-965"
+    ],
+    "importance": 2
+  },
+  {
     "id": "ningjiangzhou-1114",
     "atlasId": "song-yuan",
     "name": {
@@ -536,6 +836,66 @@
     ],
     "relatedIds": [
       "jingkang-1127"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xixia-jin-1124",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "西夏附金",
+      "en": "Western Xia submits to Jin"
+    },
+    "date": "1124-01-01",
+    "location": {
+      "lng": 106.23,
+      "lat": 38.49,
+      "place": {
+        "zh": "宁夏兴庆府",
+        "en": "Xingqing, Ningxia"
+      }
+    },
+    "entityIds": [
+      "western-xia"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "金灭辽后，西夏向金称臣。",
+      "en": "After Jin destroyed Liao, Western Xia submitted to Jin."
+    },
+    "description": {
+      "zh": "1124 年，金灭辽后，西夏审时度势向金称臣，保持割据，金夏之间形成长期的和战关系。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1124, after Jin destroyed Liao, Western Xia submitted to Jin while retaining autonomy, beginning a long relationship of peace and war. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "xixia-fall-1227"
     ],
     "importance": 2
   },
@@ -1260,6 +1620,66 @@
     "importance": 2
   },
   {
+    "id": "mongol-xixia-1209",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "蒙古攻西夏",
+      "en": "The Mongols invade Western Xia"
+    },
+    "date": "1209-05-01",
+    "location": {
+      "lng": 106.23,
+      "lat": 38.49,
+      "place": {
+        "zh": "宁夏兴庆府",
+        "en": "Xingqing, Ningxia"
+      }
+    },
+    "entityIds": [
+      "mongol-yuan"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "成吉思汗攻西夏，围中兴府，西夏纳女求和。",
+      "en": "Genghis Khan invaded Western Xia, besieged Zhongxing, and accepted a marriage peace."
+    },
+    "description": {
+      "zh": "1209 年，成吉思汗率蒙古军攻西夏，包围中兴府，西夏献女求和，暂避灭国之祸。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1209, Genghis Khan led Mongol forces against Western Xia and besieged Zhongxing. Western Xia sued for peace by offering a princess, postponing its destruction. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "xixia-fall-1227"
+    ],
+    "importance": 2
+  },
+  {
     "id": "yehuling-1211",
     "atlasId": "song-yuan",
     "name": {
@@ -1378,6 +1798,66 @@
       "caizhou-1234"
     ],
     "importance": 2
+  },
+  {
+    "id": "xixia-fall-1227",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "蒙古灭西夏",
+      "en": "The Mongols destroy Western Xia"
+    },
+    "date": "1227-07-01",
+    "location": {
+      "lng": 106.23,
+      "lat": 38.49,
+      "place": {
+        "zh": "宁夏兴庆府",
+        "en": "Xingqing, Ningxia"
+      }
+    },
+    "entityIds": [
+      "mongol-yuan"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "蒙古军围中兴府，西夏末帝投降，西夏灭亡。",
+      "en": "Mongol forces took Zhongxing and ended Western Xia."
+    },
+    "description": {
+      "zh": "1227 年，蒙古军围困中兴府，西夏末帝李睍投降，西夏灭亡；成吉思汗也在同年去世。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1227, Mongol forces besieged Zhongxing, and the last Western Xia emperor Li Xian surrendered, ending the state. Genghis Khan died the same year. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "mongol-xixia-1209"
+    ],
+    "importance": 3
   },
   {
     "id": "sanfengshan-1231",
@@ -1558,6 +2038,126 @@
       "xiangyang-1273"
     ],
     "importance": 3
+  },
+  {
+    "id": "dali-fall-1253",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "大理城陷落",
+      "en": "The fall of Dali"
+    },
+    "date": "1253-12-01",
+    "location": {
+      "lng": 100.2,
+      "lat": 25.6,
+      "place": {
+        "zh": "云南大理",
+        "en": "Dali, Yunnan"
+      }
+    },
+    "entityIds": [
+      "dali"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "忽必烈率蒙古军攻破大理城，大理国灭亡。",
+      "en": "Kublai’s Mongol forces captured Dali, ending the kingdom."
+    },
+    "description": {
+      "zh": "1253 年，忽必烈率蒙古军经川西高原南下，革囊渡江，攻破大理城，大理国灭亡。日期与路线为通行说法，待页码级核对。",
+      "en": "In 1253, Kublai led Mongol forces south through the western Sichuan plateau, crossed the Yangtze with inflated skins, and captured Dali, ending the kingdom. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "dali-surrender-1254"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "dali-surrender-1254",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "大理段氏降蒙",
+      "en": "The Duan family submits to the Mongols"
+    },
+    "date": "1254-01-01",
+    "location": {
+      "lng": 100.2,
+      "lat": 25.6,
+      "place": {
+        "zh": "云南大理",
+        "en": "Dali, Yunnan"
+      }
+    },
+    "entityIds": [
+      "dali"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "段兴智被俘后降蒙，受命管理大理。",
+      "en": "Duan Xingzhi was captured and submitted, later governing Dali for the Mongols."
+    },
+    "description": {
+      "zh": "1254 年，大理末主段兴智被俘后降蒙，蒙古任命段氏继续管理大理，段氏世袭土官地位由此延续。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1254, the last Dali ruler Duan Xingzhi was captured and submitted to the Mongols, who let the Duan family continue to administer Dali, beginning their long hereditary role. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "dali-fall-1253"
+    ],
+    "importance": 2
   },
   {
     "id": "diaoyucheng-1259",
