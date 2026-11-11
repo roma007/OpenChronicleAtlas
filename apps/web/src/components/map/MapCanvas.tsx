@@ -177,8 +177,8 @@ export function MapCanvas() {
           fillColor: entity.color,
           fillOpacity: feature.properties.opacity ?? 0.16,
           strokeColor: entity.color,
-          strokeOpacity: 0.4,
-          strokeWeight: 1,
+          strokeOpacity: 0.55,
+          strokeWeight: 1.2,
           bubble: true,
           zIndex: 10,
         });
