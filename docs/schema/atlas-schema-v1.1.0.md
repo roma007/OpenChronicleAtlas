@@ -154,6 +154,8 @@ interface AtlasTerritoryFeature {
     order?: number;
     name?: LocalizedString;
     description?: LocalizedString;
+    label?: LocalizedString; // 地图短标识，如「魏」「汉」「吴」
+    labelPoint?: [number, number]; // 标识落点，缺省取外环顶点平均值
     opacity?: number; // 0—0.6，默认 0.16
     extensions?: Record<string, unknown>;
   };
@@ -184,6 +186,8 @@ interface AtlasTerritoryFeature {
         "startDate": "0618-06-01",
         "endDate": "0907-04-30",
         "name": { "zh": "唐前期疆域（示意）", "en": "Early Tang territory (schematic)" },
+        "label": { "zh": "唐", "en": "Tang" },
+        "labelPoint": [101, 39],
         "opacity": 0.14,
         "extensions": { "precision": "schematic" }
       }
@@ -197,6 +201,8 @@ interface AtlasTerritoryFeature {
 - 环至少 4 个点，首尾应闭合；
 - 经纬度范围：经度 -180—180，纬度 -85—85；
 - `endDate` 不得早于 `startDate`；
+- `label` 可选，缺省回退到 `name`，再回退到实体 `name`；
+- `labelPoint` 可选，经纬度范围与坐标一致，缺省取外环顶点平均值；
 - 允许同一实体在不同时段使用多个面；
 - 旧客户端忽略 `territories` 时不影响路线、事件与时间轴。
 

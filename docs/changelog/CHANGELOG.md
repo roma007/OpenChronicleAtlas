@@ -16,6 +16,31 @@
 
 ---
 
+## [v0.84.0-m84] - 2026-11-11
+
+### Added
+- 疆域遮罩新增文字标识：隋唐 5、宋元 6、三国 4，共 15 个。
+- 数据契约新增可选 `label` 与 `labelPoint`，支持中英文短标识与手动落点。
+- 地图新增 `AMap.Text` 文字层，与疆域面同步显隐。
+- 新增标识 schema 测试（合法标识、越界落点）。
+- 发布说明 `docs/releases/2026-11-11-v0.84.0-m84.md`。
+
+### Fixed
+- 修复语言切换后疆域层重建、文字与面全部隐藏的问题（时间显隐 effect 依赖 locale）。
+
+### Changed
+- 四包版本统一为 `0.84.0`；Android `versionCode` 升为 81；iOS build 81。
+- 数据版本更新为 `2026-11-11-a8869724e8a4`。
+
+### Docs
+- `docs/plans/2026-11-11-M84-疆域文字标识-plan.md`
+- `docs/plans/2026-11-11-M84-疆域文字标识-design.md`
+- `docs/releases/2026-11-11-v0.84.0-m84.md`
+- `docs/conversations/2026-11-11-M84-疆域文字标识.md`
+- `docs/schema/atlas-schema-v1.1.0.md` 补充 `label` / `labelPoint`
+
+---
+
 ## [v0.83.0-m83] - 2026-11-11
 
 ### Added
