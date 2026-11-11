@@ -3839,6 +3839,250 @@
     "importance": 2
   },
   {
+    "id": "jian-dashi-1895",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "简大狮抗日",
+      "en": "Jian Dashi’s resistance"
+    },
+    "date": "1895-12-31",
+    "location": {
+      "lng": 121.51,
+      "lat": 25.06,
+      "place": {
+        "zh": "台北大稻埕",
+        "en": "Dadaocheng, Taipei"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "简大狮在台北一带起事抗日。",
+      "en": "Jian Dashi rose against the Japanese in the Taipei area."
+    },
+    "description": {
+      "zh": "1895 年底，简大狮在台北一带起事抗日，袭击日军据点，后转战台湾北部，最终失败并内渡。日期与经过为通行说法，待页码级核对。",
+      "en": "At the end of 1895 Jian Dashi rose against Japanese rule in the Taipei area, attacking Japanese posts and later moving across northern Taiwan before his ultimate defeat and return to the mainland. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "yiwei-war-1895",
+      "taiwan-governor-1895"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhishanyan-1896",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "芝山岩事件",
+      "en": "The Zhishanyan incident"
+    },
+    "date": "1896-01-01",
+    "location": {
+      "lng": 121.53,
+      "lat": 25.1,
+      "place": {
+        "zh": "台北士林",
+        "en": "Shilin, Taipei"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "台北芝山岩的日本教师遭袭击，日方展开报复。",
+      "en": "Japanese teachers at Zhishanyan were attacked, prompting reprisals."
+    },
+    "description": {
+      "zh": "1896 年 1 月，台北士林芝山岩的日本小学教师遭抗日民众袭击，多人死亡，日方随后展开报复性扫荡。日期与经过为通行说法，待页码级核对。",
+      "en": "In January 1896 Japanese schoolteachers at Zhishanyan in Shilin, Taipei, were attacked by anti-Japanese locals, and several were killed. Japanese forces responded with reprisal sweeps. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "yiwei-war-1895",
+      "taiwan-governor-1895"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yunlin-1896",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "云林事件",
+      "en": "The Yunlin incident"
+    },
+    "date": "1896-06-19",
+    "location": {
+      "lng": 120.54,
+      "lat": 23.71,
+      "place": {
+        "zh": "台湾云林",
+        "en": "Yunlin, Taiwan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "日军在云林进行报复性扫荡。",
+      "en": "Japanese forces carried out reprisal sweeps in Yunlin."
+    },
+    "description": {
+      "zh": "1896 年 6 月，日军在云林一带进行报复性扫荡，造成大量平民死亡，史称云林事件（云林大屠杀）。具体死亡人数仍有争议，本文只记事件性质。日期与经过为通行说法，待页码级核对。",
+      "en": "In June 1896 Japanese forces carried out reprisal sweeps in the Yunlin area, causing heavy civilian deaths, an event known as the Yunlin incident (or Yunlin massacre). Casualty figures remain disputed; this entry records only the nature of the event. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "tieguoshan-1896",
+      "yiwei-war-1895"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "tieguoshan-1896",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "铁国山抗日",
+      "en": "The Tieguoshan resistance"
+    },
+    "date": "1896-06-30",
+    "location": {
+      "lng": 120.63,
+      "lat": 23.64,
+      "place": {
+        "zh": "台湾古坑",
+        "en": "Gukeng, Taiwan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "柯铁虎等据铁国山坚持抗日游击。",
+      "en": "Ke Tiehu and others based their resistance at Tieguoshan."
+    },
+    "description": {
+      "zh": "1896 年，柯铁虎等人在云林古坑铁国山建立抗日据点，坚持游击战，多次击退日军围剿，成为台湾中部抗日的重要力量。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1896 Ke Tiehu and other fighters established a resistance base at Tieguoshan in Gukeng, Yunlin, waging guerrilla warfare and repelling repeated Japanese sweeps, becoming a major force in central Taiwan. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "yunlin-1896",
+      "lin-shaomao-1898"
+    ],
+    "importance": 2
+  },
+  {
     "id": "scramble-1898",
     "atlasId": "ming-qing",
     "name": {
@@ -3957,6 +4201,66 @@
       "boxer-1900"
     ],
     "importance": 3
+  },
+  {
+    "id": "lin-shaomao-1898",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "林少猫抗日",
+      "en": "Lin Shaomao’s resistance"
+    },
+    "date": "1898-12-01",
+    "location": {
+      "lng": 120.54,
+      "lat": 22.55,
+      "place": {
+        "zh": "台湾屏东",
+        "en": "Pingtung, Taiwan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "林少猫在阿猴一带组织抗日。",
+      "en": "Lin Shaomao organized resistance around Akau (Pingtung)."
+    },
+    "description": {
+      "zh": "1898 年，林少猫在阿猴（今屏东）一带组织抗日，控制地方并袭击日军，后与日方谈判，1902 年失败。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1898 Lin Shaomao organized resistance around Akau (modern Pingtung), controlling local areas and attacking Japanese forces. He later negotiated with the Japanese and was defeated in 1902. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "tieguoshan-1896"
+    ],
+    "importance": 2
   },
   {
     "id": "boxer-1900",
@@ -4139,6 +4443,248 @@
     "importance": 2
   },
   {
+    "id": "abolish-exam-1905",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "废科举",
+      "en": "The abolition of the imperial examinations"
+    },
+    "date": "1905-09-02",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "清廷诏废科举，千年科举制终结。",
+      "en": "The Qing abolished the imperial examinations after a millennium."
+    },
+    "description": {
+      "zh": "1905 年 9 月，清廷诏令自 1906 年起停止科举，延续千年的科举制度终结，新式学堂成为主要上升通道。日期与经过为通行说法，待页码级核对。",
+      "en": "In September 1905 the Qing court ordered the imperial examinations stopped from 1906, ending a system that had lasted a millennium and making modern schools the main path to advancement. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "xinzheng-1901",
+      "five-ministers-1905"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "shanghai-works-1905",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "上海城厢内外总工程局",
+      "en": "The Shanghai General Works Bureau"
+    },
+    "date": "1905-10-01",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "上海绅商成立城厢内外总工程局。",
+      "en": "Shanghai elites founded the General Works Bureau."
+    },
+    "description": {
+      "zh": "1905 年 10 月，上海地方绅商成立城厢内外总工程局，办理市政、警务与公益，是清末地方自治的重要实践。日期与经过为通行说法，待页码级核对。",
+      "en": "In October 1905 Shanghai elites founded the General Works Bureau for the city’s inner and outer districts, handling municipal administration, policing, and public welfare—an important experiment in late Qing local self-government. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "local-autonomy-1909"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "five-ministers-1905",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "五大臣出洋考察",
+      "en": "The five ministers’ overseas mission"
+    },
+    "date": "1905-12-07",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "清廷派五大臣出洋考察宪政。",
+      "en": "The Qing sent five ministers abroad to study constitutional government."
+    },
+    "description": {
+      "zh": "1905 年 12 月，清廷派载泽、端方等五大臣出洋考察宪政，为预备立宪做准备，回国后推动了 1906 年的预备立宪诏。日期与经过为通行说法，待页码级核对。",
+      "en": "In December 1905 the Qing sent ministers including Zaitze and Duanfang abroad to study constitutional government, preparing for the 1906 announcement of preparations for a constitution. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "preparatory-constitution-1906",
+      "abolish-exam-1905"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tianjin-autonomy-1906",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "天津自治局",
+      "en": "The Tianjin Self-Government Bureau"
+    },
+    "date": "1906-08-01",
+    "location": {
+      "lng": 117.2,
+      "lat": 39.13,
+      "place": {
+        "zh": "天津",
+        "en": "Tianjin"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "袁世凯在天津试办地方自治。",
+      "en": "Yuan Shikai experimented with local self-government in Tianjin."
+    },
+    "description": {
+      "zh": "1906 年，袁世凯在天津试办地方自治，设立天津自治局，推行议事会与董事会，成为清末地方自治的样板。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1906 Yuan Shikai experimented with local self-government in Tianjin, establishing the Tianjin Self-Government Bureau with councils and boards, a model for late Qing local autonomy. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "local-autonomy-1909"
+    ],
+    "importance": 2
+  },
+  {
     "id": "preparatory-constitution-1906",
     "atlasId": "ming-qing",
     "name": {
@@ -4314,6 +4860,67 @@
       }
     ],
     "relatedIds": [
+      "consultative-1909"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "autonomy-institute-1909",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "各省自治研究所",
+      "en": "Provincial self-government institutes"
+    },
+    "date": "1909-06-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "清廷令各省设立自治研究所。",
+      "en": "The Qing ordered provinces to establish self-government institutes."
+    },
+    "description": {
+      "zh": "1909 年，清廷令各省设立自治研究所，培养地方自治人才，为城镇乡自治的推行做准备。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1909 the Qing ordered provinces to establish self-government institutes to train local personnel for implementing urban and rural self-government. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "local-autonomy-1909",
       "consultative-1909"
     ],
     "importance": 2
@@ -4869,6 +5476,67 @@
     "importance": 3
   },
   {
+    "id": "hankou-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "汉口之战",
+      "en": "The Battle of Hankou"
+    },
+    "date": "1911-10-18",
+    "location": {
+      "lng": 114.3,
+      "lat": 30.6,
+      "place": {
+        "zh": "湖北汉口",
+        "en": "Hankou, Hubei"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "革命军与清军在汉口激战。",
+      "en": "Revolutionary and Qing forces fought for Hankou."
+    },
+    "description": {
+      "zh": "1911 年 10 月，革命军与清军在汉口激战，冯国璋率北洋军进攻，汉口一度失守，战火波及租界。日期与经过为通行说法，待页码级核对。",
+      "en": "In October 1911 revolutionary and Qing forces fought bitterly for Hankou. Feng Guozhang’s Beiyang troops attacked, the city briefly fell, and the fighting spread to the foreign concessions. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "wuchang-1911",
+      "hanyang-1911"
+    ],
+    "importance": 3
+  },
+  {
     "id": "luanzhou-1911",
     "atlasId": "ming-qing",
     "name": {
@@ -4987,6 +5655,67 @@
     "relatedIds": [
       "luanzhou-1911",
       "royal-cabinet-1911"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "hanyang-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "汉阳之战",
+      "en": "The Battle of Hanyang"
+    },
+    "date": "1911-11-17",
+    "location": {
+      "lng": 114.27,
+      "lat": 30.55,
+      "place": {
+        "zh": "湖北汉阳",
+        "en": "Hanyang, Hubei"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "黄兴率革命军在汉阳与北洋军激战。",
+      "en": "Huang Xing’s revolutionary forces fought the Beiyang army at Hanyang."
+    },
+    "description": {
+      "zh": "1911 年 11 月，黄兴率革命军在汉阳与北洋军激战，最终失利，革命军退守武昌，武汉战局转入僵持。日期与经过为通行说法，待页码级核对。",
+      "en": "In November 1911 Huang Xing led revolutionary forces in a fierce battle against the Beiyang army at Hanyang. After defeat the revolutionaries withdrew to Wuchang, and the Wuhan front settled into stalemate. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "hankou-1911",
+      "north-south-talks-1911"
     ],
     "importance": 3
   },
