@@ -16,6 +16,29 @@
 
 ---
 
+## [v0.83.0-m83] - 2026-11-11
+
+### Added
+- 地图新增「时代疆域遮罩」：半透明 Polygon 随历史时段显示，位于路线与标记之下。
+- 数据契约新增可选 `manifest.territories` 与 `AtlasTerritoryFeature`（Polygon / MultiPolygon）。
+- 图例新增「时代疆域遮罩」显示开关，默认开启。
+- 隋唐 5 面、宋元 6 面、三国 4 面示意疆域数据。
+- 新增 `territory.test.ts` 契约与校验测试。
+- 发布说明 `docs/releases/2026-11-11-v0.83.0-m83.md`。
+
+### Changed
+- 搜索索引指纹纳入疆域数据；数据版本更新为 `2026-11-11-b4cc5bd726a2`。
+- 四包版本统一为 `0.83.0`；Android `versionCode` 升为 80；iOS build 80。
+
+### Docs
+- `docs/plans/2026-11-11-M83-地图时代疆域遮罩-plan.md`
+- `docs/plans/2026-11-11-M83-地图时代疆域遮罩-design.md`
+- `docs/releases/2026-11-11-v0.83.0-m83.md`
+- `docs/conversations/2026-11-11-M83-地图时代疆域遮罩.md`
+- `docs/schema/atlas-schema-v1.1.0.md` 新增疆域遮罩章节
+
+---
+
 ## [v0.82.0-m82] - 2026-11-11
 
 ### Added
