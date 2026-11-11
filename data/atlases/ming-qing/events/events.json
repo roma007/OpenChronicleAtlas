@@ -480,6 +480,311 @@
     "importance": 3
   },
   {
+    "id": "yangzhou-1645",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "扬州十日",
+      "en": "The Yangzhou massacre"
+    },
+    "date": "1645-04-25",
+    "location": {
+      "lng": 119.42,
+      "lat": 32.39,
+      "place": {
+        "zh": "江苏扬州",
+        "en": "Yangzhou, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "清军攻破扬州，史可法殉国，随后屠城。",
+      "en": "Qing forces took Yangzhou, Shi Kefa died, and the city was massacred."
+    },
+    "description": {
+      "zh": "1645 年 4 月，清军攻破扬州，史可法殉国，随后清军在城中进行大规模屠杀，史称扬州十日。具体死亡人数为通行说法，本文只记事件性质。日期与经过待页码级核对。",
+      "en": "In April 1645 Qing forces breached Yangzhou and Shi Kefa died; the city was then subjected to a large-scale massacre, known as the Ten Days of Yangzhou. Casualty figures follow conventional accounts; this entry records only the nature of the event. Dates and details await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "shanhaiguan-1644",
+      "jiading-1645"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "jiading-1645",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "嘉定三屠",
+      "en": "The three massacres of Jiading"
+    },
+    "date": "1645-07-01",
+    "location": {
+      "lng": 121.27,
+      "lat": 31.38,
+      "place": {
+        "zh": "上海嘉定",
+        "en": "Jiading, Shanghai"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "嘉定民众抗清，清军三次屠城。",
+      "en": "Jiading resisted Qing rule and was massacred three times."
+    },
+    "description": {
+      "zh": "1645 年夏秋，嘉定民众抗清，清军三次攻破嘉定并屠城，史称嘉定三屠。日期与经过为通行说法，待页码级核对。",
+      "en": "In the summer and autumn of 1645 Jiading’s residents resisted Qing rule; Qing forces breached the town three times and carried out massacres, known as the Three Massacres of Jiading. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "yangzhou-1645",
+      "jiangyin-1645"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "jiangyin-1645",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "江阴八十一日",
+      "en": "The eighty-one days of Jiangyin"
+    },
+    "date": "1645-08-01",
+    "location": {
+      "lng": 120.28,
+      "lat": 31.92,
+      "place": {
+        "zh": "江苏江阴",
+        "en": "Jiangyin, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "江阴民众抗清八十一日，城破遭屠。",
+      "en": "Jiangyin resisted for eighty-one days before the city fell and was massacred."
+    },
+    "description": {
+      "zh": "1645 年，江阴民众在阎应元等率领下抗清八十一日，城破后遭屠。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1645 Jiangyin’s residents, led by figures such as Yan Yingyuan, resisted Qing forces for eighty-one days before the city fell and was massacred. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "jiading-1645",
+      "zheng-nanjing-1659"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "zheng-nanjing-1659",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "郑成功南京之役",
+      "en": "Zheng Chenggong’s Nanjing campaign"
+    },
+    "date": "1659-08-01",
+    "location": {
+      "lng": 118.8,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏南京",
+        "en": "Nanjing, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "ming-zheng"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "郑成功率军北伐，围攻南京失利。",
+      "en": "Zheng Chenggong’s northern expedition besieged Nanjing but failed."
+    },
+    "description": {
+      "zh": "1659 年，郑成功率军北伐，围攻南京，因轻敌与补给不继失利，退回厦门，北伐就此结束。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1659 Zheng Chenggong led a northern expedition and besieged Nanjing. Overconfidence and supply problems led to defeat, and he withdrew to Xiamen, ending the campaign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "zheng-taiwan-1662",
+      "jiangyin-1645"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "qianjie-1661",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "迁界禁海",
+      "en": "The coastal evacuation and sea ban"
+    },
+    "date": "1661-01-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "清廷下令东南沿海迁界禁海。",
+      "en": "The Qing ordered coastal evacuation and a maritime ban."
+    },
+    "description": {
+      "zh": "1661 年，清廷为切断郑氏补给，下令东南沿海迁界禁海，居民内迁，沿海经济受到重创。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1661 the Qing court ordered coastal evacuation and a maritime ban to cut off Zheng Chenggong’s supplies. Residents were moved inland and the coastal economy suffered heavily. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "zheng-taiwan-1662",
+      "taiwan-1683"
+    ],
+    "importance": 3
+  },
+  {
     "id": "zheng-taiwan-1662",
     "atlasId": "ming-qing",
     "name": {
@@ -780,6 +1085,249 @@
     "importance": 2
   },
   {
+    "id": "ulangbudong-1690",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "乌兰布通之战",
+      "en": "The Battle of Ulan Butung"
+    },
+    "date": "1690-09-03",
+    "location": {
+      "lng": 117.0,
+      "lat": 42.5,
+      "place": {
+        "zh": "内蒙古克什克腾",
+        "en": "Ulan Butung, Inner Mongolia"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "清军在乌兰布通与噶尔丹激战。",
+      "en": "Qing forces fought Galdan at Ulan Butung."
+    },
+    "description": {
+      "zh": "1690 年，清军在乌兰布通与噶尔丹激战，噶尔丹败退，清廷由此加强对漠北的经营。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1690 Qing forces fought a fierce battle with Galdan at Ulan Butung. Galdan withdrew, and the Qing strengthened its engagement in Mongolia. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "dolon-1691",
+      "zhaomodo-1696"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "dolon-1691",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "多伦会盟",
+      "en": "The Dolon congress"
+    },
+    "date": "1691-05-01",
+    "location": {
+      "lng": 116.5,
+      "lat": 42.2,
+      "place": {
+        "zh": "内蒙古多伦",
+        "en": "Dolon, Inner Mongolia"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "康熙与喀尔喀蒙古各部在多伦会盟。",
+      "en": "The Kangxi Emperor met Khalkha Mongol leaders at Dolon."
+    },
+    "description": {
+      "zh": "1691 年，康熙帝与喀尔喀蒙古各部在多伦会盟，确立对喀尔喀的管辖，强化北部边疆秩序。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1691 the Kangxi Emperor and Khalkha Mongol leaders held a congress at Dolon, establishing Qing authority over the Khalkha and strengthening the northern frontier. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "ulangbudong-1690",
+      "zhaomodo-1696"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhaomodo-1696",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "昭莫多之战",
+      "en": "The Battle of Jao Modo"
+    },
+    "date": "1696-06-12",
+    "location": {
+      "lng": 105.0,
+      "lat": 47.5,
+      "place": {
+        "zh": "蒙古昭莫多",
+        "en": "Jao Modo, Mongolia"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "清军在昭莫多大败噶尔丹。",
+      "en": "Qing forces decisively defeated Galdan at Jao Modo."
+    },
+    "description": {
+      "zh": "1696 年，清军在昭莫多大败噶尔丹，噶尔丹势力瓦解，清廷对漠北的控制进一步加强。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1696 Qing forces decisively defeated Galdan at Jao Modo. His power collapsed, and Qing control over Mongolia was further consolidated. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "ulangbudong-1690",
+      "dzungar-1755"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "tanding-1712",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "摊丁入亩",
+      "en": "The single tax in silver"
+    },
+    "date": "1712-01-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "康熙宣布滋生人丁永不加赋，为摊丁入亩奠基。",
+      "en": "The Kangxi Emperor froze the head tax, paving the way for tax reform."
+    },
+    "description": {
+      "zh": "1712 年，康熙宣布“滋生人丁永不加赋”，其后雍正推行摊丁入亩，将丁银摊入田赋，赋税制度发生重大变化。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1712 the Kangxi Emperor declared that additional population would not increase the head tax. Under the Yongzheng Emperor the head tax was merged into the land tax, a major change in taxation. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "yongzheng-1722"
+    ],
+    "importance": 2
+  },
+  {
     "id": "yongzheng-1722",
     "atlasId": "ming-qing",
     "name": {
@@ -838,6 +1386,67 @@
       "junji-1729"
     ],
     "importance": 3
+  },
+  {
+    "id": "gaituguiliu-1726",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "改土归流",
+      "en": "The replacement of native chieftains"
+    },
+    "date": "1726-01-01",
+    "location": {
+      "lng": 106.63,
+      "lat": 26.65,
+      "place": {
+        "zh": "贵州贵阳",
+        "en": "Guiyang, Guizhou"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "雍正帝在西南推行改土归流。",
+      "en": "The Yongzheng Emperor replaced native chieftains with appointed officials in the southwest."
+    },
+    "description": {
+      "zh": "1726 年起，雍正帝在西南推行改土归流，废除土司，改设流官，加强对云南、贵州、广西等地的直接治理。日期与经过为通行说法，待页码级核对。",
+      "en": "From 1726 the Yongzheng Emperor promoted the replacement of native chieftains with appointed officials in the southwest, abolishing hereditary tusi and strengthening direct governance in Yunnan, Guizhou, and Guangxi. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "yongzheng-1722",
+      "junji-1729"
+    ],
+    "importance": 2
   },
   {
     "id": "junji-1729",
@@ -1020,6 +1629,67 @@
     "importance": 2
   },
   {
+    "id": "canton-1757",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "广州一口通商",
+      "en": "The Canton single-port system"
+    },
+    "date": "1757-01-01",
+    "location": {
+      "lng": 113.26,
+      "lat": 23.13,
+      "place": {
+        "zh": "广东广州",
+        "en": "Guangzhou, Guangdong"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "清廷限定广州一口对外通商。",
+      "en": "The Qing restricted foreign trade to Canton alone."
+    },
+    "description": {
+      "zh": "1757 年，清廷限定广州一口对外通商，由十三行垄断贸易，闭关政策进一步强化，直至鸦片战争后被打破。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1757 the Qing restricted foreign trade to Canton, with the Thirteen Factories monopolizing commerce. The closed-door policy hardened until it was broken after the Opium War. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "macartney-1793",
+      "opium-1840"
+    ],
+    "importance": 3
+  },
+  {
     "id": "zhungar-1759",
     "atlasId": "ming-qing",
     "name": {
@@ -1078,6 +1748,67 @@
       "dzungar-1755"
     ],
     "importance": 2
+  },
+  {
+    "id": "siku-1773",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "四库全书",
+      "en": "The Complete Library of the Four Treasuries"
+    },
+    "date": "1773-01-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "文化",
+    "summary": {
+      "zh": "清廷开馆编纂《四库全书》。",
+      "en": "The Qing court began compiling the Complete Library of the Four Treasuries."
+    },
+    "description": {
+      "zh": "1773 年，清廷开馆编纂《四库全书》，汇集历代典籍，同时大量禁毁“违碍”书籍，成为清代文化控制与文献整理的双重象征。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1773 the Qing court began compiling the Complete Library of the Four Treasuries, gathering texts from across history while also banning and destroying many works deemed objectionable—a dual symbol of literary compilation and cultural control. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "junji-1729",
+      "macartney-1793"
+    ],
+    "importance": 3
   },
   {
     "id": "gurkha-1792",
