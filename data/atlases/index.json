@@ -182,7 +182,31 @@
         "元"
       ],
       "path": "song-yuan/manifest.json"
+    },
+    {
+      "id": "sui-tang",
+      "title": {
+        "zh": "隋唐",
+        "en": "Sui–Tang"
+      },
+      "subtitle": {
+        "zh": "581—907",
+        "en": "581–907"
+      },
+      "cover": "sui-tang/assets/cover.svg",
+      "timeRange": {
+        "start": "0581-02-01",
+        "end": "0907-04-30"
+      },
+      "tags": [
+        "中国历史",
+        "隋",
+        "唐",
+        "长安",
+        "丝绸之路"
+      ],
+      "path": "sui-tang/manifest.json"
     }
   ],
-  "dataVersion": "2026-11-11-6b840a9dfb7c"
+  "dataVersion": "2026-11-11-15dd00629428"
 }

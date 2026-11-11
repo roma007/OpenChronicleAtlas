@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3e8d6"/>
+      <stop offset="1" stop-color="#dfc9a8"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5e3c"/>
+      <stop offset="1" stop-color="#c49a6c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <circle cx="970" cy="140" r="82" fill="#b83232" opacity="0.14"/>
+  <path d="M0 470 C 160 390, 300 450, 450 380 C 610 310, 750 410, 910 340 C 1040 285, 1120 300, 1200 250 L1200 675 L0 675 Z" fill="#6b7256" opacity="0.22"/>
+  <path d="M0 560 C 220 500, 380 540, 540 470 C 720 395, 880 470, 1200 380 L1200 675 L0 675 Z" fill="#414b38" opacity="0.28"/>
+  <path d="M60 520 C 240 470, 380 510, 540 440 C 700 370, 840 420, 1000 340 C 1090 295, 1140 290, 1170 250" fill="none" stroke="url(#river)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M60 520 C 240 470, 380 510, 540 440 C 700 370, 840 420, 1000 340 C 1090 295, 1140 290, 1170 250" fill="none" stroke="#f6ead6" stroke-width="2" stroke-dasharray="6 10"/>
+  <g fill="#2a241d" opacity="0.85">
+    <rect x="880" y="300" width="24" height="120" rx="6"/>
+    <rect x="916" y="270" width="24" height="150" rx="6"/>
+    <rect x="952" y="240" width="24" height="180" rx="6"/>
+    <path d="M868 430 L984 430 L976 410 L876 410 Z"/>
+  </g>
+  <g stroke-width="3" fill="none">
+    <path d="M500 400 L640 330 L790 370" stroke="#8b5e3c"/>
+    <path d="M650 450 L780 390 L930 420" stroke="#b83232"/>
+    <path d="M560 530 L720 470 L880 510" stroke="#2f855a"/>
+  </g>
+  <g fill="#23201b">
+    <circle cx="500" cy="400" r="7"/><circle cx="650" cy="450" r="7"/><circle cx="560" cy="530" r="7"/>
+  </g>
+  <text x="80" y="128" font-family="Songti SC, STSong, serif" font-size="78" font-weight="700" fill="#241f1a">隋唐</text>
+  <text x="84" y="178" font-family="Georgia, serif" font-size="22" letter-spacing="5" fill="#4a4036">SUI–TANG · 581—907</text>
+  <text x="84" y="235" font-family="Songti SC, STSong, serif" font-size="26" fill="#4a4036">长安 · 洛阳 · 贞观 · 开元</text>
+  <text x="84" y="275" font-family="Georgia, serif" font-size="18" fill="#4a4036" opacity="0.8">Chang’an · Luoyang · Zhenguan · Kaiyuan</text>
+  <text x="84" y="625" font-family="Georgia, serif" font-size="16" letter-spacing="3" fill="#f3e8d6">OPENCHRONICLE ATLAS · 史迹 · 时空地图</text>
+</svg>

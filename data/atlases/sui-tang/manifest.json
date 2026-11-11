@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "sui-tang",
+  "title": {
+    "zh": "隋唐",
+    "en": "Sui–Tang"
+  },
+  "subtitle": {
+    "zh": "581—907",
+    "en": "581–907"
+  },
+  "timeRange": {
+    "start": "0581-02-01",
+    "end": "0907-04-30"
+  },
+  "cover": "assets/cover.svg",
+  "description": {
+    "zh": "581 年杨坚代周建隋，589 年灭陈统一南北；618 年李渊建立唐朝，经贞观之治、开元盛世成为当时东亚最强盛的帝国之一。755 年安史之乱爆发，唐朝由盛转衰，763 年吐蕃一度攻陷长安，875 年黄巢起义，907 年朱温灭唐。\n\n> 本数据为 M81 示例初稿：路线为示意简化，事件日期、地点与表述待史料校订。",
+    "en": "Yang Jian founded the Sui in 581 and reunified China in 589. Li Yuan founded the Tang in 618, which became one of the strongest empires in East Asia during the Zhenguan and Kaiyuan eras. The An–Shi Rebellion broke out in 755 and began the Tang’s decline. Tibetan forces briefly took Chang’an in 763, Huang Chao rose in 875, and Zhu Wen ended the Tang in 907.\n\n> M81 illustrative draft: routes are simplified; dates, places, and wording await historical review."
+  },
+  "defaultView": {
+    "center": [
+      108,
+      34
+    ],
+    "zoom": 3.2
+  },
+  "routes": [
+    "routes/campaigns.geojson"
+  ],
+  "events": [
+    "events/events.json"
+  ],
+  "entities": [
+    {
+      "id": "sui",
+      "name": {
+        "zh": "隋",
+        "en": "Sui"
+      },
+      "color": "#8b5e3c",
+      "order": 1,
+      "description": {
+        "zh": "581—618 年的隋朝。",
+        "en": "The Sui dynasty, 581–618."
+      }
+    },
+    {
+      "id": "tang",
+      "name": {
+        "zh": "唐",
+        "en": "Tang"
+      },
+      "color": "#b83232",
+      "order": 2,
+      "description": {
+        "zh": "618—907 年的唐朝。",
+        "en": "The Tang dynasty, 618–907."
+      }
+    },
+    {
+      "id": "tubo",
+      "name": {
+        "zh": "吐蕃",
+        "en": "Tubo"
+      },
+      "color": "#2f855a",
+      "order": 3,
+      "description": {
+        "zh": "7—9 世纪青藏高原的吐蕃政权。",
+        "en": "The Tubo polity of the Tibetan Plateau, 7th–9th centuries."
+      }
+    },
+    {
+      "id": "an-shi",
+      "name": {
+        "zh": "安史叛军",
+        "en": "An–Shi rebels"
+      },
+      "color": "#4a5568",
+      "order": 4,
+      "description": {
+        "zh": "755—763 年安禄山、史思明及其部众。",
+        "en": "An Lushan, Shi Siming, and their forces, 755–763."
+      }
+    }
+  ],
+  "tags": [
+    "中国历史",
+    "隋",
+    "唐",
+    "长安",
+    "丝绸之路"
+  ],
+  "license": "CC-BY-4.0（数据初稿，待校订）",
+  "updatedAt": "2026-11-11"
+}
