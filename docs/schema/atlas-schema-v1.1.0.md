@@ -19,6 +19,7 @@
 | --- | --- | --- | --- |
 | 事件别名 `aliases` | `AtlasEvent` | ⬜ | 同一事件的其他通行名称 |
 | 路线分段类型 `segmentType` | `AtlasRouteProperties` | ⬜ | 进攻、撤退、防御、反击等语义 |
+| 时代疆域遮罩 `territories` | `manifest.json` / `AtlasTerritoryFeature` | ⬜ | 半透明多边形表示当时代地理分布 |
 | `schemaVersion` | `manifest.json` / `index.json` | ✅ | 新数据建议写 `1.1.0` |
 
 未变化：
@@ -133,7 +134,75 @@ extensions?: {
 
 ---
 
-## 4. 兼容性
+## 4. 时代地理分布遮罩（territories）
+
+### 4.1 定义
+
+```ts
+// manifest.json
+territories?: string[]; // 相对 manifest 的 GeoJSON 文件路径
+
+interface AtlasTerritoryFeature {
+  type: 'Feature';
+  geometry:
+    | { type: 'Polygon'; coordinates: [number, number][][] }
+    | { type: 'MultiPolygon'; coordinates: [number, number][][][] };
+  properties: {
+    entityId: string;
+    startDate: DateString;
+    endDate: DateString;
+    order?: number;
+    name?: LocalizedString;
+    description?: LocalizedString;
+    opacity?: number; // 0—0.6，默认 0.16
+    extensions?: Record<string, unknown>;
+  };
+}
+```
+
+- 文件为 `FeatureCollection`，建议放在 `<atlas>/territories/territories.geojson`；
+- 每个面的 `entityId` 必须存在于 `manifest.entities`；
+- 地图按时间轴与实体图层显隐：`startDate <= 当前时间 <= endDate` 且对应实体开启时显示；
+- 填充色取实体 `color`，透明度取 `opacity`；
+- 面只作时代背景，不参与事件-路线距离校验；
+- 数据须在 `description` 中注明「示意简化疆域，待史料校订」。
+
+### 4.2 示例
+
+```jsonc
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[100, 30], [110, 30], [110, 40], [100, 40], [100, 30]]]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0618-06-01",
+        "endDate": "0907-04-30",
+        "name": { "zh": "唐前期疆域（示意）", "en": "Early Tang territory (schematic)" },
+        "opacity": 0.14,
+        "extensions": { "precision": "schematic" }
+      }
+    }
+  ]
+}
+```
+
+### 4.3 约束
+
+- 环至少 4 个点，首尾应闭合；
+- 经纬度范围：经度 -180—180，纬度 -85—85；
+- `endDate` 不得早于 `startDate`；
+- 允许同一实体在不同时段使用多个面；
+- 旧客户端忽略 `territories` 时不影响路线、事件与时间轴。
+
+---
+
+## 5. 兼容性
 
 - v1.0.0 数据无需修改即可被 v1.1 读取方加载；
 - v1.1 数据在旧读取方中会忽略新增字段，仍可正常展示；
@@ -142,7 +211,7 @@ extensions?: {
 
 ---
 
-## 5. 公元前日期（未支持）
+## 6. 公元前日期（未支持）
 
 v1.1 仍不支持公元前日期。相关评估与后续计划见 [ADR-0009](../decisions/ADR-0009-Schema-v1.1演进.md)。
 
