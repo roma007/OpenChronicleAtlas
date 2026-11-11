@@ -6,6 +6,11 @@
 ## [Unreleased]
 
 ### Added
+- 新增 `apps/desktop`：Tauri 2 桌面端，一套代码构建 macOS / Windows，复用 `apps/web` 构建产物。
+- 新增 macOS App Sandbox entitlement、桌面图标集与 Tauri 权限配置。
+- 新增 `.github/workflows/build-installers.yml`：push main 自动产出 Web、macOS（arm64/x64）、Windows、Android 安装包，tag 自动创建 GitHub Release；iOS 在配置签名 secrets 后出 IPA。
+- 新增 `docs/guides/store-submission.md`：Apple、华为 AppGallery、Microsoft Store 提交步骤。
+- 新增 `apps/mobile/eas.json` 与 `apps/mobile/plugins/with-ipad-orientations.js`：iPad 横竖屏、分屏与 EAS 构建配置。
 - 明清专题新增 12 个事件：芝山岩事件、云林事件、铁国山抗日、简大狮抗日、林少猫抗日、废科举、上海城厢内外总工程局、五大臣出洋考察、天津自治局、各省自治研究所、汉口之战、汉阳之战。
 - 新增 12 段路线，覆盖乙未台湾义军、清末地方自治与辛亥革命战役。
 - 辛亥革命各省光复新增 12 个事件：长沙光复、西安光复、太原光复、昆明重九起义、南昌光复、上海光复、杭州光复、苏州光复、福州光复、广州光复、成都独立、南京之战。
@@ -15,10 +20,20 @@
 - 明清专题 84 → 108 事件，83 → 107 路线段。
 - 全项目 625 → 649 事件，535 → 559 路线段。
 - 搜索索引：10 专题 / 649 事件 / 1231.1 KB；数据版本 `2026-11-11-12db939f0bb6`。
+- Web `vite.config.ts` 支持 `desktop` 模式：关闭 PWA、使用 HashRouter、外链交给系统浏览器。
+- 根 `build` 改为只构建 Web，避免 Vercel 误触发 Tauri 编译；桌面构建使用 `bundle:*` 脚本。
+- iPad 允许四方向与分屏，iPhone 保持竖屏；图鉴页在 iPad 宽度下自动 2–3 列。
 - 本轮不升版本、不部署、不打 tag，随下个发布窗口统一处理。
 
 ### Fixed
 - 无。
+
+### Docs
+- `docs/plans/2026-11-11-M98-桌面端Tauri与多商店发布-plan.md`
+- `docs/plans/2026-11-11-M98-桌面端Tauri与多商店发布-design.md`
+- `docs/conversations/2026-11-11-M98-桌面端Tauri与多商店发布.md`
+- `docs/guides/store-submission.md`
+- `docs/decisions/ADR-0010-桌面端采用Tauri2复用Web构建.md`
 
 ---
 

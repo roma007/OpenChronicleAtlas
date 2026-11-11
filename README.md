@@ -3,7 +3,7 @@
 > 通用历史事件时空地图平台：以「地图 + 时间轴」为核心交互，展示任意历史专题的路线、事件与时空演变。
 > 平台不绑定任何单一历史事件，长征、抗战、丝绸之路、大航海等均作为可插拔的「专题数据集（Atlas Dataset）」接入。
 
-当前状态：**M95 已完成（v0.95.0-m95）：明清扩充至 84 事件；iOS 真机、正式域名与商店提交待账号/许可**
+当前状态：**M98 代码完成：新增 Tauri 2 桌面端（macOS / Windows），补齐 iPad 与 Apple/华为/微软提交指南；macOS release 包已本机验证，Windows 构建与商店提审待账号/许可**
 数据契约版本：**atlas-schema v1.1.0**
 
 ---
@@ -65,6 +65,7 @@ git ls-remote gitee  refs/heads/main   # 两值应与本地 HEAD 相同
 - 留档总则：[`docs/README.md`](docs/README.md)
 - 数据契约：[`docs/schema/atlas-schema-v1.0.0.md`](docs/schema/atlas-schema-v1.0.0.md)
 - 高德 Key 与签名指南：[`docs/guides/amap-setup.md`](docs/guides/amap-setup.md)
+- 多商店提交指南：[`docs/guides/store-submission.md`](docs/guides/store-submission.md)
 - M1 计划：[`docs/plans/2026-11-03-M1-初始化脚手架-plan.md`](docs/plans/2026-11-03-M1-初始化脚手架-plan.md)
 - M1 方案：[`docs/plans/2026-11-03-M1-初始化脚手架-design.md`](docs/plans/2026-11-03-M1-初始化脚手架-design.md)
 
@@ -77,14 +78,25 @@ git ls-remote gitee  refs/heads/main   # 两值应与本地 HEAD 相同
 | 包管理 / monorepo | pnpm workspaces + Turborepo（可选） |
 | 语言 | TypeScript 5.x（strict） |
 | Web | React 19 + Vite + **高德地图 JS API 2.0** + Tailwind CSS + Zustand |
-| 移动端 | React Native 0.88 + Expo SDK 58（dev build）+ **`expo-gaode-map`**（M4 接入），一套代码出 Android / iOS |
+| 移动端 | React Native 0.88 + Expo SDK 58（dev build）+ **`expo-gaode-map`**（M4 接入），一套代码出 Android / iOS / iPadOS |
+| 桌面端 | **Tauri 2**（Rust + 系统 WebView）复用 `apps/web` 构建产物，一套代码出 macOS / Windows |
 | 底图 | **高德地图**（Android/iOS SDK + Web JS API 2.0）；数据保持 WGS84，渲染前转 GCJ-02 |
 | 共享层 | `packages/shared`：纯 TS，无 DOM / RN 依赖 |
 | 数据校验 | zod（schema v1.0.0） |
 | 数据托管 | 纯静态 JSON / GeoJSON（`/data/atlases`），后续可迁移 Supabase |
-| 部署 | Web：Vercel / Cloudflare Pages；移动端：EAS Build 产出 APK / IPA |
+| 部署 | Web：Vercel / Cloudflare Pages；移动端：Xcode / EAS Build 产出 IPA、AAB；桌面端：Tauri 产出 DMG / MSI，GitHub Actions 构建 Windows |
 
 **高德 Key 配置**：Web 用 `VITE_AMAP_KEY` + `VITE_AMAP_SECURITY_CODE`；移动端用 `EXPO_PUBLIC_AMAP_ANDROID_KEY` / `EXPO_PUBLIC_AMAP_IOS_KEY`。申请与填写步骤见 [`docs/guides/amap-setup.md`](docs/guides/amap-setup.md)。
+
+### 桌面端命令
+
+```bash
+pnpm desktop:dev            # 启动 Tauri + Vite
+pnpm desktop:bundle:mac     # macOS .app / .dmg（需在 macOS 执行）
+pnpm desktop:bundle:win     # Windows .msi / .exe（需在 Windows 执行）
+```
+
+推送到 GitHub `main` 会自动运行 `.github/workflows/build-installers.yml`，产出 Web、macOS（arm64/x64）、Windows、Android 安装包；推送 `v*-m*` tag 会自动创建 GitHub Release。iOS 配置 Apple 签名 secrets 后自动产出 IPA。首次构建需下载 Rust crates，约 5–10 分钟；后续增量构建会快很多。
 
 ---
 
@@ -94,7 +106,8 @@ git ls-remote gitee  refs/heads/main   # 两值应与本地 HEAD 相同
 OpenChronicleAtlas/
 ├── apps/
 │   ├── web/                 # Web 端（React + Vite + 高德 JS API 2.0）
-│   └── mobile/              # React Native (Expo) 空壳；android/ios 由 prebuild 生成
+│   ├── mobile/              # React Native (Expo)，覆盖 iOS / iPadOS / Android；android/ios 由 prebuild 生成
+│   └── desktop/             # Tauri 2 桌面端（macOS / Windows），复用 web 构建产物
 ├── packages/
 │   └── shared/              # 共享逻辑：类型、schema 校验、数据加载、时间轴计算、筛选
 ├── data/

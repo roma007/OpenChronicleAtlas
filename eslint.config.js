@@ -26,9 +26,21 @@ export default tseslint.config(
     },
   },
   {
-    files: ['**/*.config.{js,ts}', 'scripts/**/*.ts', 'apps/mobile/scripts/**/*.mjs', 'scripts/**/*.mjs'],
+    files: [
+      '**/*.config.{js,ts}',
+      'scripts/**/*.ts',
+      'apps/mobile/scripts/**/*.mjs',
+      'apps/mobile/plugins/**/*.js',
+      'scripts/**/*.mjs',
+    ],
     languageOptions: {
-      globals: { process: 'readonly', console: 'readonly', __dirname: 'readonly' },
+      globals: {
+        process: 'readonly',
+        console: 'readonly',
+        __dirname: 'readonly',
+        require: 'readonly',
+        module: 'readonly',
+      },
     },
     rules: { '@typescript-eslint/no-require-imports': 'off' },
   },

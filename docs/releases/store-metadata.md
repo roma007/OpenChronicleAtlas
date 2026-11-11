@@ -11,7 +11,7 @@
 | 应用名称 | 史迹 · 时空地图 |
 | 副标题 | 历史事件时空地图 |
 | 包名 / Bundle ID | `com.openchronicle.atlas` |
-| 版本 | 0.93.0 |
+| 版本 | 0.95.0 |
 | 数据规模 | 10 个专题 / 605 个事件 / 515 段路线 |
 | 分类 | 教育 / 参考 |
 | 年龄分级 | 4+（无用户生成内容、无广告） |
@@ -66,12 +66,22 @@
 | `ACCESS_NETWORK_STATE` / `ACCESS_WIFI_STATE` | 高德 SDK 网络状态 |
 | 定位权限 | **未申请**（`blockedPermissions` 屏蔽） |
 
-### iOS
+### iOS / iPadOS
 
 | 权限 | 用途 |
 | --- | --- |
 | 网络 | 加载地图与专题数据 |
 | 定位 | **未申请** |
+
+### macOS / Windows
+
+| 权限 | 用途 |
+| --- | --- |
+| 网络（沙盒出网） | 加载高德地图瓦片与专题数据 |
+| 文件读写 | **未申请**；不导出、不上传本地文件 |
+| 定位 | **未申请** |
+
+> 桌面端 Bundle ID：`com.openchronicle.atlas.desktop`；分类：教育；最低系统：macOS 13.0 / Windows 10 1809（WebView2）。
 
 ## 5. 高德 SDK 合规披露
 
@@ -92,3 +102,6 @@
 - [ ] 真机测试通过（Android/iOS）
 - [ ] 版本号与 build number 递增
 - [ ] 签名密钥/证书离线备份
+- [ ] macOS 包通过 App Sandbox 与出网权限检查
+- [ ] Windows 包在干净 Windows 10/11 上安装验证
+- [ ] 桌面截图与真桌面一致（3 张以上）

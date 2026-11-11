@@ -5,6 +5,7 @@ interface ImportMetaEnv {
   readonly VITE_AMAP_SECURITY_CODE?: string;
   readonly VITE_AMAP_STYLE_ID?: string;
   readonly VITE_DATA_BASE_URL?: string;
+  readonly VITE_SHARE_BASE_URL?: string;
 }
 
 interface ImportMeta {

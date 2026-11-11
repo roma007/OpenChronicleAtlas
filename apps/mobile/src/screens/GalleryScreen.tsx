@@ -10,6 +10,7 @@ import {
   Pressable,
   StyleSheet,
   Text,
+  useWindowDimensions,
   View,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -33,6 +34,8 @@ export function GalleryScreen({ navigation }: Props) {
   const checkDataUpdate = useAtlasStore((state) => state.checkDataUpdate);
   const applyDataUpdate = useAtlasStore((state) => state.applyDataUpdate);
   const { locale, t } = useI18n();
+  const { width } = useWindowDimensions();
+  const columns = width >= 1000 ? 3 : width >= 680 ? 2 : 1;
   const [cleared, setCleared] = useState(false);
 
   useEffect(() => {
@@ -46,8 +49,11 @@ export function GalleryScreen({ navigation }: Props) {
   return (
     <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
       <FlatList
+        key={`gallery-${columns}`}
         data={index ?? []}
         keyExtractor={(item) => item.id}
+        numColumns={columns}
+        columnWrapperStyle={columns > 1 ? styles.gridRow : undefined}
         contentContainerStyle={styles.list}
         ListHeaderComponent={
           <View style={styles.header}>
@@ -129,7 +135,7 @@ export function GalleryScreen({ navigation }: Props) {
           const endYear = String(Number(item.timeRange.end.slice(0, 4)));
           return (
             <Pressable
-              style={styles.card}
+              style={[styles.card, columns > 1 && styles.cardGrid]}
               accessibilityRole="button"
               accessibilityLabel={title}
               onPress={() => navigation.navigate('Atlas', { atlasId: item.id })}
@@ -174,6 +180,8 @@ export function GalleryScreen({ navigation }: Props) {
 const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: colors.parchment },
   list: { padding: spacing.lg, paddingBottom: 40, gap: spacing.lg },
+  gridRow: { gap: spacing.lg },
+  cardGrid: { flex: 1, minWidth: 0 },
   header: { gap: spacing.sm, marginBottom: spacing.sm },
   headerTop: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
   cacheBadge: {

@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "史迹桌面端默认权限：核心能力与系统浏览器打开外链",
+  "windows": ["main"],
+  "permissions": ["core:default", "opener:default"]
+}

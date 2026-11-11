@@ -6,7 +6,10 @@
   "packageManager": "pnpm@10.30.3",
   "scripts": {
     "dev": "pnpm --filter @atlas/web dev",
-    "build": "pnpm build:search-index && pnpm -r build",
+    "build": "pnpm build:search-index && pnpm --filter @atlas/web build",
+    "desktop:dev": "pnpm --filter @atlas/desktop dev",
+    "desktop:bundle:mac": "pnpm --filter @atlas/desktop bundle:mac",
+    "desktop:bundle:win": "pnpm --filter @atlas/desktop bundle:win",
     "typecheck": "pnpm -r typecheck",
     "test": "pnpm -r test",
     "lint": "eslint .",

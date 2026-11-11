@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
+    "build:desktop": "tsc --noEmit && vite build --mode desktop",
     "typecheck": "tsc --noEmit",
     "preview": "vite preview",
     "test": "vitest run --passWithNoTests"
@@ -13,6 +14,7 @@
   "dependencies": {
     "@amap/amap-jsapi-loader": "^1.0.1",
     "@atlas/shared": "workspace:*",
+    "@tauri-apps/plugin-opener": "^2.5.0",
     "react": "19.3.0",
     "react-dom": "19.3.0",
     "react-markdown": "^10.1.0",

@@ -154,6 +154,7 @@ docs/
 - [对话档案：M95 明清专题补乙未战事与立宪节点](conversations/2026-11-11-M95-明清专题补乙未战事与立宪节点.md)
 - [对话档案：M96 乙未台湾义军与清末地方自治](conversations/2026-11-11-M96-乙未台湾义军与清末地方自治.md)
 - [对话档案：M97 辛亥革命各省光复与南京之战](conversations/2026-11-11-M97-辛亥革命各省光复与南京之战.md)
+- [对话档案：M98 桌面端 Tauri 与多商店发布](conversations/2026-11-11-M98-桌面端Tauri与多商店发布.md)
 
 ### 计划与方案
 - [2026-11-03 M1 初始化脚手架 - 计划](plans/2026-11-03-M1-初始化脚手架-plan.md)
@@ -352,6 +353,8 @@ docs/
 - [M96 乙未台湾义军与清末地方自治 — 方案](plans/2026-11-11-M96-乙未台湾义军与清末地方自治-design.md)
 - [M97 辛亥革命各省光复与南京之战 — 计划](plans/2026-11-11-M97-辛亥革命各省光复与南京之战-plan.md)
 - [M97 辛亥革命各省光复与南京之战 — 方案](plans/2026-11-11-M97-辛亥革命各省光复与南京之战-design.md)
+- [M98 桌面端 Tauri 与多商店发布 — 计划](plans/2026-11-11-M98-桌面端Tauri与多商店发布-plan.md)
+- [M98 桌面端 Tauri 与多商店发布 — 方案](plans/2026-11-11-M98-桌面端Tauri与多商店发布-design.md)
 - [M49 郑和/玄奘节点扩充（第三批）— 计划](plans/2026-11-06-M49-郑和玄奘节点扩充第三批-plan.md)
 
 ### 架构决策
@@ -364,10 +367,12 @@ docs/
 - [ADR-0007 移动端架构与构建发布方案](decisions/ADR-0007-移动端架构与构建发布方案.md)
 - [ADR-0008 静态部署与资源托管方案](decisions/ADR-0008-静态部署与资源托管方案.md)
 - [ADR-0009 Schema v1.1 演进](decisions/ADR-0009-Schema-v1.1演进.md)
+- [ADR-0010 桌面端采用 Tauri 2 复用 Web 构建](decisions/ADR-0010-桌面端采用Tauri2复用Web构建.md)
 
 ### 配置指南
 - [高德地图 Key 与签名配置](guides/amap-setup.md)
 - [部署指南（Vercel / Cloudflare）](guides/deployment.md)
+- [多商店提交指南（Apple / 华为 / 微软）](guides/store-submission.md)
 
 ### 数据契约
 - [Atlas Schema v1.0.0](schema/atlas-schema-v1.0.0.md)

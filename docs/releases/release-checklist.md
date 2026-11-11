@@ -394,6 +394,27 @@
 - [ ] 回滚演练一次，记录耗时与负责人
 - [ ] 对外沟通模板（GitHub Issue / 商店更新说明）
 
+### 6.6 桌面端（M98 新增）
+
+- [ ] `pnpm --filter @atlas/desktop bundle:mac` 通过，产出 `.app` / `.dmg`
+- [ ] `pnpm --filter @atlas/desktop bundle:win` 或 GitHub Actions 通过，产出 `.msi` / `.exe`
+- [ ] macOS 包在 Apple Silicon 与 Intel（或 Rosetta）验证
+- [ ] Windows 包在干净 Windows 10/11 验证，WebView2 自动安装
+- [ ] 桌面端可加载高德地图、10 个专题与时间轴
+- [ ] 外链由系统浏览器打开，不在 WebView 内跳走
+- [ ] Mac App Store：App ID `com.openchronicle.atlas.desktop`、证书、Provisioning Profile 就绪
+- [ ] Mac App Store：App Sandbox + 出网 entitlement 生效
+- [ ] Microsoft Store：Partner Center 账号与 MSI 提交资料就绪
+- [ ] 桌面截图 3 张以上，分辨率不低于 1280×800
+
+### 6.7 移动端发布补充（M98）
+
+- [ ] iPad 四方向与分屏在真机/模拟器验证
+- [ ] `apps/mobile/plugins/with-ipad-orientations.js` 已生效（检查 `Info.plist`）
+- [ ] `eas.json` 的 `production` profile 可构建 IPA/AAB
+- [ ] 华为 AppGallery：软著、APP 备案、实名认证就绪
+- [ ] 华为渠道确认接受 AAB 或需改用 APK
+
 ---
 
 ## 7. 仍需用户提供
