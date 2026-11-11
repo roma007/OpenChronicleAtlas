@@ -99,6 +99,32 @@
         "zh": "蒙古帝国至元朝，1206—1279 年。",
         "en": "The Mongol Empire and Yuan dynasty, 1206–1279."
       }
+    },
+    {
+      "id": "western-xia",
+      "name": {
+        "zh": "西夏",
+        "en": "Western Xia"
+      },
+      "color": "#6b7c3a",
+      "order": 6,
+      "description": {
+        "zh": "党项建立的西夏政权，1038—1227 年。",
+        "en": "The Tangut Western Xia state, 1038–1227."
+      }
+    },
+    {
+      "id": "dali",
+      "name": {
+        "zh": "大理",
+        "en": "Dali"
+      },
+      "color": "#c05621",
+      "order": 7,
+      "description": {
+        "zh": "云南大理国，937—1253 年。",
+        "en": "The Dali Kingdom in Yunnan, 937–1253."
+      }
     }
   ],
   "tags": [
@@ -108,6 +134,6 @@
     "金",
     "元"
   ],
-  "license": "CC-BY-4.0（数据初稿，待校订）",
+  "license": "CC-BY-4.0（疆域面含 Seshat Cliopatria 数据，CC BY 4.0；事件与路线为示意初稿）",
   "updatedAt": "2026-11-11"
 }
