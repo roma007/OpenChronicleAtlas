@@ -2897,6 +2897,67 @@
     "importance": 3
   },
   {
+    "id": "penghu-1895",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "澎湖之役",
+      "en": "The Battle of Penghu"
+    },
+    "date": "1895-03-24",
+    "location": {
+      "lng": 119.57,
+      "lat": 23.57,
+      "place": {
+        "zh": "台湾澎湖",
+        "en": "Penghu, Taiwan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军进攻澎湖，清军抵抗失利。",
+      "en": "Japanese forces attacked Penghu and defeated the Qing garrison."
+    },
+    "description": {
+      "zh": "1895 年 3 月，日军进攻澎湖，清军抵抗失利，马公陷落。澎湖失守使清廷在《马关条约》谈判中更为被动。日期与经过为通行说法，待页码级核对。",
+      "en": "In March 1895 Japanese forces attacked Penghu. The Qing garrison resisted but was defeated and Magong fell, weakening China’s position in the Shimonoseki negotiations. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "shimonoseki-1895",
+      "yiwei-war-1895"
+    ],
+    "importance": 2
+  },
+  {
     "id": "shimonoseki-1895",
     "atlasId": "ming-qing",
     "name": {
@@ -3016,6 +3077,67 @@
       "scramble-1898"
     ],
     "importance": 2
+  },
+  {
+    "id": "taiwan-governor-1895",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "台湾总督府设立",
+      "en": "The establishment of the Taiwan Governor-General’s Office"
+    },
+    "date": "1895-05-21",
+    "location": {
+      "lng": 121.56,
+      "lat": 25.03,
+      "place": {
+        "zh": "台湾台北",
+        "en": "Taipei, Taiwan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "日本在台北设立台湾总督府。",
+      "en": "Japan established the Governor-General’s Office in Taipei."
+    },
+    "description": {
+      "zh": "1895 年 5 月，日本在台北设立台湾总督府，桦山资纪任首任总督，开始对台湾的殖民统治，与台湾民主国的抵抗同时展开。日期与经过为通行说法，待页码级核对。",
+      "en": "In May 1895 Japan established the Taiwan Governor-General’s Office in Taipei, with Kabayama Sukenori as first governor-general, beginning colonial rule even as the Republic of Formosa resisted. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "taiwan-republic-1895",
+      "yiwei-war-1895"
+    ],
+    "importance": 3
   },
   {
     "id": "taiwan-republic-1895",
@@ -3145,6 +3267,128 @@
     "importance": 3
   },
   {
+    "id": "hsinchu-1895",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "新竹保卫战",
+      "en": "The defense of Hsinchu"
+    },
+    "date": "1895-07-10",
+    "location": {
+      "lng": 120.97,
+      "lat": 24.8,
+      "place": {
+        "zh": "台湾新竹",
+        "en": "Hsinchu, Taiwan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军进攻新竹，台湾义军与黑旗军抵抗。",
+      "en": "Japanese forces attacked Hsinchu; Taiwanese militia and the Black Flag Army resisted."
+    },
+    "description": {
+      "zh": "1895 年 7 月，日军进攻新竹，台湾义军与黑旗军据城抵抗，激战后新竹失守，日军继续向南推进。日期与经过为通行说法，待页码级核对。",
+      "en": "In July 1895 Japanese forces attacked Hsinchu. Taiwanese militia and the Black Flag Army defended the town, but it fell after heavy fighting and the Japanese advanced southward. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "yiwei-war-1895",
+      "miaoli-1895"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sanxia-1895",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "三角涌战役",
+      "en": "The Battle of Sanxia"
+    },
+    "date": "1895-07-13",
+    "location": {
+      "lng": 121.37,
+      "lat": 24.93,
+      "place": {
+        "zh": "台湾三峡",
+        "en": "Sanxia, Taiwan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军在三角涌遭台湾义军伏击。",
+      "en": "Japanese forces were ambushed by Taiwanese militia at Sanxia."
+    },
+    "description": {
+      "zh": "1895 年 7 月，日军在三角涌（今三峡）一带遭台湾义军伏击，伤亡较重，随后调集援军反攻，三角涌一带成为乙未战争的重要战场。日期与经过为通行说法，待页码级核对。",
+      "en": "In July 1895 Japanese forces were ambushed by Taiwanese militia near Sanxia (then Sanshiayong), suffering notable casualties before reinforcements counterattacked. The area became an important battlefield of the Yiwei War. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "hsinchu-1895",
+      "miaoli-1895"
+    ],
+    "importance": 2
+  },
+  {
     "id": "hubei-arsenal-1895",
     "atlasId": "ming-qing",
     "name": {
@@ -3201,6 +3445,128 @@
     ],
     "relatedIds": [
       "hanyang-1890"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "miaoli-1895",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "苗栗之战",
+      "en": "The Battle of Miaoli"
+    },
+    "date": "1895-08-14",
+    "location": {
+      "lng": 120.82,
+      "lat": 24.56,
+      "place": {
+        "zh": "台湾苗栗",
+        "en": "Miaoli, Taiwan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军进攻苗栗，义军抵抗后撤退。",
+      "en": "Japanese forces attacked Miaoli; the militia resisted and withdrew."
+    },
+    "description": {
+      "zh": "1895 年 8 月，日军进攻苗栗，台湾义军与黑旗军抵抗后撤退，苗栗失守，日军逼近大甲溪。日期与经过为通行说法，待页码级核对。",
+      "en": "In August 1895 Japanese forces attacked Miaoli. Taiwanese militia and the Black Flag Army resisted before withdrawing, Miaoli fell, and the Japanese approached the Dajia River. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "hsinchu-1895",
+      "dajia-1895"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dajia-1895",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "大甲溪之战",
+      "en": "The Battle of the Dajia River"
+    },
+    "date": "1895-08-22",
+    "location": {
+      "lng": 120.62,
+      "lat": 24.35,
+      "place": {
+        "zh": "台湾大甲溪",
+        "en": "Dajia River, Taiwan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军渡大甲溪，义军阻击失利。",
+      "en": "Japanese forces crossed the Dajia River after defeating the militia."
+    },
+    "description": {
+      "zh": "1895 年 8 月，日军渡大甲溪进攻台中，台湾义军与黑旗军依托河岸阻击，最终失利，台中门户洞开。日期与经过为通行说法，待页码级核对。",
+      "en": "In August 1895 Japanese forces crossed the Dajia River toward Taichung. Taiwanese militia and the Black Flag Army defended the riverbank but were defeated, opening the route to Taichung. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "miaoli-1895",
+      "baguashan-1895"
     ],
     "importance": 2
   },
@@ -4073,6 +4439,67 @@
     "importance": 2
   },
   {
+    "id": "consultative-federation-1910",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "各省咨议局联合会",
+      "en": "The federation of provincial assemblies"
+    },
+    "date": "1910-08-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "各省咨议局代表在北京成立联合会。",
+      "en": "Delegates from provincial assemblies formed a federation in Beijing."
+    },
+    "description": {
+      "zh": "1910 年 8 月，各省咨议局代表在北京成立联合会，协调请愿速开国会与立宪事宜，成为立宪派跨省联合的重要平台。日期与经过为通行说法，待页码级核对。",
+      "en": "In August 1910 delegates from provincial assemblies formed a federation in Beijing to coordinate petitions for an early parliament and constitutional government, creating an important cross-provincial platform for constitutionalists. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "consultative-1909",
+      "parliament-petition-1910"
+    ],
+    "importance": 2
+  },
+  {
     "id": "zizhengyuan-1910",
     "atlasId": "ming-qing",
     "name": {
@@ -4136,6 +4563,67 @@
     "relatedIds": [
       "consultative-1909",
       "parliament-petition-1910"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "censure-1910",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "资政院弹劾军机大臣",
+      "en": "The Advisory Council impeaches the Grand Council"
+    },
+    "date": "1910-12-18",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "资政院弹劾军机大臣，要求责任内阁。",
+      "en": "The Advisory Council impeached the Grand Council and demanded a responsible cabinet."
+    },
+    "description": {
+      "zh": "1910 年 12 月，资政院第一次常年会弹劾军机大臣，要求设立责任内阁，与清廷发生正面冲突，显示资政院与皇权的张力。日期与经过为通行说法，待页码级核对。",
+      "en": "In December 1910 the Advisory Council’s first annual session impeached the Grand Council and demanded a responsible cabinet, clashing directly with the court and revealing the tension between the council and imperial authority. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "zizhengyuan-1910",
+      "royal-cabinet-1911"
     ],
     "importance": 2
   },
@@ -4260,6 +4748,67 @@
     "importance": 2
   },
   {
+    "id": "xianyouhui-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "宪友会成立",
+      "en": "The founding of the Xianyouhui"
+    },
+    "date": "1911-06-04",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "立宪派在北京成立宪友会。",
+      "en": "Constitutionalists founded the Xianyouhui in Beijing."
+    },
+    "description": {
+      "zh": "1911 年 6 月，宪友会在北京成立，试图整合立宪派力量，推动宪政，但清廷随即成立皇族内阁，立宪派进一步失望。日期与经过为通行说法，待页码级核对。",
+      "en": "In June 1911 the Xianyouhui was founded in Beijing to unite constitutionalist forces and promote constitutional government. The court’s formation of the Royal Cabinet soon afterward deepened their disillusionment. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "consultative-federation-1910",
+      "royal-cabinet-1911"
+    ],
+    "importance": 2
+  },
+  {
     "id": "wuchang-1911",
     "atlasId": "ming-qing",
     "name": {
@@ -4315,6 +4864,189 @@
       }
     ],
     "relatedIds": [
+      "abdication-1912"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "luanzhou-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "滦州兵谏",
+      "en": "The Luanzhou remonstrance"
+    },
+    "date": "1911-10-29",
+    "location": {
+      "lng": 118.7,
+      "lat": 39.75,
+      "place": {
+        "zh": "河北滦州",
+        "en": "Luanzhou, Hebei"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "新军第二十镇在滦州发动兵谏。",
+      "en": "The 20th Division staged a remonstrance at Luanzhou."
+    },
+    "description": {
+      "zh": "1911 年 10 月，新军第二十镇在滦州发动兵谏，要求清廷速行立宪、组织责任内阁，与武昌起义后的政治危机相互激荡。日期与经过为通行说法，待页码级核对。",
+      "en": "In October 1911 the 20th Division staged a remonstrance at Luanzhou, demanding immediate constitutional government and a responsible cabinet, interacting with the political crisis after the Wuchang uprising. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "wuchang-1911",
+      "constitution-19-1911"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "constitution-19-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "宪法重大信条十九条",
+      "en": "The Nineteen Articles"
+    },
+    "date": "1911-11-03",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "清廷颁布《宪法重大信条十九条》。",
+      "en": "The Qing court issued the Nineteen Articles."
+    },
+    "description": {
+      "zh": "1911 年 11 月，清廷颁布《宪法重大信条十九条》，承认君主立宪、限制君权，试图挽回立宪派，但为时已晚。日期与经过为通行说法，待页码级核对。",
+      "en": "In November 1911 the Qing court issued the Nineteen Articles, accepting constitutional monarchy and limiting imperial power in an attempt to win back constitutionalists, but too late. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "luanzhou-1911",
+      "royal-cabinet-1911"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "north-south-talks-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "南北议和",
+      "en": "The north–south peace talks"
+    },
+    "date": "1911-12-18",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "南北双方在上海开始议和。",
+      "en": "North and south began peace talks in Shanghai."
+    },
+    "description": {
+      "zh": "1911 年 12 月，清廷与南方革命政权在上海开始议和，讨论停战、政体与清帝退位安排，为 1912 年清帝退位铺路。日期与经过为通行说法，待页码级核对。",
+      "en": "In December 1911 the Qing court and the southern revolutionary government opened peace talks in Shanghai on a ceasefire, the form of government, and the abdication of the Qing emperor, paving the way for the 1912 abdication. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "wuchang-1911",
       "abdication-1912"
     ],
     "importance": 3
