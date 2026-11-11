@@ -16,6 +16,33 @@
 
 ---
 
+## [v0.86.0-m86] - 2026-11-11
+
+### Added
+- 新增 `scripts/import-cliopatria-territories.py`，可从 Seshat Cliopatria 原始 GeoJSON 复现导入。
+- 新增 `data/atlases/ATTRIBUTION.md`，记录 CC BY 4.0 署名与修改说明。
+- 宋元新增实体 `western-xia`（西夏）与 `dali`（大理）。
+- 发布说明 `docs/releases/2026-11-11-v0.86.0-m86.md`。
+
+### Changed
+- 三国疆域由 4 个手绘面升级为 11 个 Cliopatria 时段面。
+- 隋唐疆域由 5 个手绘面升级为 63 个 Cliopatria 时段面（安史控制区保留示意面）。
+- 宋元疆域由 6 个手绘面升级为 42 个 Cliopatria 时段面。
+- 疆域面统一写入 `extensions.precision = "dataset"` 与 `extensions.sourceFeature`。
+- 三个专题 manifest 的 `license` 更新为 CC BY 4.0 + Cliopatria 署名。
+- 四包版本统一为 `0.86.0`；Android `versionCode` 升为 83；iOS build 83。
+- 数据版本更新为 `2026-11-11-4ea1bc9845bb`。
+
+### Docs
+- `docs/plans/2026-11-11-M86-疆域数据升级Cliopatria-plan.md`
+- `docs/plans/2026-11-11-M86-疆域数据升级Cliopatria-design.md`
+- `docs/releases/2026-11-11-v0.86.0-m86.md`
+- `docs/conversations/2026-11-11-M86-疆域数据升级Cliopatria.md`
+- `docs/schema/atlas-schema-v1.1.0.md` 补充 `precision: dataset`
+- README 新增「数据来源与许可」
+
+---
+
 ## [v0.85.0-m85] - 2026-11-11
 
 ### Fixed

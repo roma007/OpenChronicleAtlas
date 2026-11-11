@@ -3,7 +3,7 @@
 > 通用历史事件时空地图平台：以「地图 + 时间轴」为核心交互，展示任意历史专题的路线、事件与时空演变。
 > 平台不绑定任何单一历史事件，长征、抗战、丝绸之路、大航海等均作为可插拔的「专题数据集（Atlas Dataset）」接入。
 
-当前状态：**M85 已完成（v0.85.0-m85）：修正三国、宋元、隋唐疆域遮罩重叠；iOS 真机、正式域名与商店提交待账号/许可**
+当前状态：**M86 已完成（v0.86.0-m86）：疆域升级为 Seshat Cliopatria（CC BY 4.0）；iOS 真机、正式域名与商店提交待账号/许可**
 数据契约版本：**atlas-schema v1.1.0**
 
 ---
@@ -221,6 +221,17 @@ pnpm --filter @atlas/mobile exec expo prebuild   # 生成 android/ios（已 giti
 | M40 | 长征/郑和/玄奘史料细化 | ✅ v0.40.0-m40 |
 | M41 | 路线分段类型与精度标注 | ✅ v0.41.0-m41 |
 | M42 | 路线样式与图例 | ✅ v0.42.0-m42 |
+
+---
+
+## 八、数据来源与许可
+
+- 事件、路线与专题文本：项目自行整理，示意初稿，待史料页码级校订；
+- 时代疆域面（隋唐、宋元、三国）：**Seshat Cliopatria**，CC BY 4.0；
+  - 仓库：https://github.com/Seshat-Global-History-Databank/cliopatria
+  - 引用：Bennett, J. S., Mutch, E., & Chalstrey, E. (2025). Cliopatria. *Scientific Data*.
+- 详细修改说明与署名见 [`data/atlases/ATTRIBUTION.md`](data/atlases/ATTRIBUTION.md)；
+- Cliopatria 边界为学术估算，不是精确国界，不应作为边界测量或领土主张的依据。
 
 ---
 

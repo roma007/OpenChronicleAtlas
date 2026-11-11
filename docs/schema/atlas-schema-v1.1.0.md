@@ -167,7 +167,23 @@ interface AtlasTerritoryFeature {
 - 地图按时间轴与实体图层显隐：`startDate <= 当前时间 <= endDate` 且对应实体开启时显示；
 - 填充色取实体 `color`，透明度取 `opacity`；
 - 面只作时代背景，不参与事件-路线距离校验；
-- 数据须在 `description` 中注明「示意简化疆域，待史料校订」。
+- 数据须在 `description` 中注明数据性质（示意或数据集来源）；
+- 推荐在 `extensions` 中写入精度与来源：
+
+```ts
+extensions?: {
+  precision?: 'schematic' | 'dataset';
+  source?: string;
+  sourceFeature?: Record<string, unknown>;
+};
+```
+
+| 精度值 | 含义 |
+| --- | --- |
+| `schematic` | 手绘示意面，仅表示大致方位 |
+| `dataset` | 来自公开历史 GIS 数据集，经裁剪与映射 |
+
+当前隋唐、宋元、三国的疆域面来自 **Seshat Cliopatria（CC BY 4.0）**，详见 [data/atlases/ATTRIBUTION.md](../../data/atlases/ATTRIBUTION.md)。
 
 ### 4.2 示例
 
