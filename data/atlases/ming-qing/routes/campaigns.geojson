@@ -299,6 +299,40 @@
         "type": "LineString",
         "coordinates": [
           [
+            118.8,
+            32.06
+          ],
+          [
+            118.81,
+            32.07
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming",
+        "startDate": "1644-06-01",
+        "endDate": "1644-07-31",
+        "order": 9,
+        "segmentType": "other",
+        "name": {
+          "zh": "南京—弘光朝廷",
+          "en": "Nanjing–Hongguang Court"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             119.42,
             32.39
           ],
@@ -312,7 +346,7 @@
         "entityId": "qing",
         "startDate": "1645-04-20",
         "endDate": "1645-05-31",
-        "order": 9,
+        "order": 10,
         "segmentType": "defense",
         "name": {
           "zh": "扬州城内",
@@ -346,7 +380,7 @@
         "entityId": "qing",
         "startDate": "1645-07-01",
         "endDate": "1645-08-31",
-        "order": 10,
+        "order": 11,
         "segmentType": "defense",
         "name": {
           "zh": "嘉定城内",
@@ -380,11 +414,147 @@
         "entityId": "qing",
         "startDate": "1645-08-01",
         "endDate": "1645-09-30",
-        "order": 11,
+        "order": 12,
         "segmentType": "defense",
         "name": {
           "zh": "江阴城内",
           "en": "Within Jiangyin"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.3,
+            26.08
+          ],
+          [
+            119.31,
+            26.09
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming",
+        "startDate": "1645-08-01",
+        "endDate": "1645-09-30",
+        "order": 13,
+        "segmentType": "other",
+        "name": {
+          "zh": "福州—隆武朝廷",
+          "en": "Fuzhou–Longwu Court"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.47,
+            23.05
+          ],
+          [
+            112.48,
+            23.06
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming",
+        "startDate": "1646-12-01",
+        "endDate": "1647-01-31",
+        "order": 14,
+        "segmentType": "other",
+        "name": {
+          "zh": "肇庆—永历朝廷",
+          "en": "Zhaoqing–Yongli Court"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.29,
+            25.27
+          ],
+          [
+            110.3,
+            25.28
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming",
+        "startDate": "1652-07-01",
+        "endDate": "1652-07-31",
+        "order": 15,
+        "segmentType": "defense",
+        "name": {
+          "zh": "桂林城内",
+          "en": "Within Guilin"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.57,
+            26.89
+          ],
+          [
+            112.58,
+            26.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming",
+        "startDate": "1652-11-01",
+        "endDate": "1652-11-30",
+        "order": 16,
+        "segmentType": "defense",
+        "name": {
+          "zh": "衡州城内",
+          "en": "Within Hengzhou"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -414,7 +584,7 @@
         "entityId": "ming-zheng",
         "startDate": "1659-06-01",
         "endDate": "1659-09-30",
-        "order": 12,
+        "order": 17,
         "segmentType": "advance",
         "name": {
           "zh": "厦门—南京",
@@ -448,7 +618,7 @@
         "entityId": "qing",
         "startDate": "1661-01-01",
         "endDate": "1661-12-31",
-        "order": 13,
+        "order": 18,
         "segmentType": "other",
         "name": {
           "zh": "北京—福州",
@@ -486,11 +656,147 @@
         "entityId": "ming-zheng",
         "startDate": "1661-03-01",
         "endDate": "1662-02-28",
-        "order": 14,
+        "order": 19,
         "segmentType": "naval",
         "name": {
           "zh": "厦门—热兰遮",
           "en": "Xiamen–Fort Zeelandia"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.71,
+            25.04
+          ],
+          [
+            102.72,
+            25.05
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming",
+        "startDate": "1662-05-01",
+        "endDate": "1662-06-30",
+        "order": 20,
+        "segmentType": "other",
+        "name": {
+          "zh": "昆明—篦子坡",
+          "en": "Kunming–Bizi Slope"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.1,
+            24.48
+          ],
+          [
+            118.11,
+            24.49
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-zheng",
+        "startDate": "1662-06-01",
+        "endDate": "1662-07-31",
+        "order": 21,
+        "segmentType": "other",
+        "name": {
+          "zh": "厦门—思明",
+          "en": "Xiamen–Siming"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.56,
+            21.48
+          ],
+          [
+            101.57,
+            21.49
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming",
+        "startDate": "1662-08-01",
+        "endDate": "1662-08-31",
+        "order": 22,
+        "segmentType": "other",
+        "name": {
+          "zh": "勐腊—军中",
+          "en": "Mengla–Army Camp"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.16,
+            30.27
+          ],
+          [
+            120.17,
+            30.28
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming",
+        "startDate": "1664-10-01",
+        "endDate": "1664-10-31",
+        "order": 23,
+        "segmentType": "other",
+        "name": {
+          "zh": "杭州—弼教坊",
+          "en": "Hangzhou–Bijiaofang"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -524,11 +830,45 @@
         "entityId": "qing",
         "startDate": "1673-12-01",
         "endDate": "1678-08-31",
-        "order": 15,
+        "order": 24,
         "segmentType": "counterattack",
         "name": {
           "zh": "昆明—衡州",
           "en": "Kunming–Hengzhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.1,
+            24.48
+          ],
+          [
+            118.6,
+            24.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-zheng",
+        "startDate": "1674-05-01",
+        "endDate": "1674-12-31",
+        "order": 25,
+        "segmentType": "advance",
+        "name": {
+          "zh": "厦门—泉州",
+          "en": "Xiamen–Quanzhou"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -562,11 +902,79 @@
         "entityId": "qing",
         "startDate": "1683-06-01",
         "endDate": "1683-07-31",
-        "order": 16,
+        "order": 26,
         "segmentType": "naval",
         "name": {
           "zh": "厦门—台南",
           "en": "Xiamen–Tainan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.57,
+            23.57
+          ],
+          [
+            119.58,
+            23.56
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1683-07-10",
+        "endDate": "1683-07-31",
+        "order": 27,
+        "segmentType": "naval",
+        "name": {
+          "zh": "澎湖—妈宫",
+          "en": "Penghu–Magong"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.2,
+            23.0
+          ],
+          [
+            120.21,
+            23.01
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-zheng",
+        "startDate": "1683-10-01",
+        "endDate": "1683-10-31",
+        "order": 28,
+        "segmentType": "other",
+        "name": {
+          "zh": "台南—承天府",
+          "en": "Tainan–Chengtian Prefecture"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -600,7 +1008,7 @@
         "entityId": "qing",
         "startDate": "1685-05-01",
         "endDate": "1685-07-31",
-        "order": 17,
+        "order": 29,
         "segmentType": "advance",
         "name": {
           "zh": "瑷珲—雅克萨",
@@ -638,7 +1046,7 @@
         "entityId": "qing",
         "startDate": "1689-06-01",
         "endDate": "1689-09-30",
-        "order": 18,
+        "order": 30,
         "segmentType": "other",
         "name": {
           "zh": "北京—尼布楚",
@@ -672,7 +1080,7 @@
         "entityId": "qing",
         "startDate": "1690-08-01",
         "endDate": "1690-09-30",
-        "order": 19,
+        "order": 31,
         "segmentType": "advance",
         "name": {
           "zh": "北京—乌兰布通",
@@ -706,7 +1114,7 @@
         "entityId": "qing",
         "startDate": "1691-04-01",
         "endDate": "1691-05-31",
-        "order": 20,
+        "order": 32,
         "segmentType": "other",
         "name": {
           "zh": "北京—多伦",
@@ -740,7 +1148,7 @@
         "entityId": "qing",
         "startDate": "1696-05-01",
         "endDate": "1696-06-30",
-        "order": 21,
+        "order": 33,
         "segmentType": "advance",
         "name": {
           "zh": "北京—昭莫多",
@@ -774,7 +1182,7 @@
         "entityId": "qing",
         "startDate": "1712-01-01",
         "endDate": "1712-12-31",
-        "order": 22,
+        "order": 34,
         "segmentType": "other",
         "name": {
           "zh": "北京—户部",
@@ -808,7 +1216,7 @@
         "entityId": "qing",
         "startDate": "1722-11-01",
         "endDate": "1723-01-31",
-        "order": 23,
+        "order": 35,
         "segmentType": "other",
         "name": {
           "zh": "北京—乾清宫",
@@ -842,7 +1250,7 @@
         "entityId": "qing",
         "startDate": "1726-01-01",
         "endDate": "1726-12-31",
-        "order": 24,
+        "order": 36,
         "segmentType": "other",
         "name": {
           "zh": "贵阳—改土归流",
@@ -876,7 +1284,7 @@
         "entityId": "qing",
         "startDate": "1729-01-01",
         "endDate": "1729-12-31",
-        "order": 25,
+        "order": 37,
         "segmentType": "other",
         "name": {
           "zh": "北京—军机处",
@@ -914,7 +1322,7 @@
         "entityId": "qing",
         "startDate": "1747-01-01",
         "endDate": "1749-12-31",
-        "order": 26,
+        "order": 38,
         "segmentType": "advance",
         "name": {
           "zh": "成都—金川",
@@ -952,7 +1360,7 @@
         "entityId": "qing",
         "startDate": "1755-03-01",
         "endDate": "1755-06-30",
-        "order": 27,
+        "order": 39,
         "segmentType": "advance",
         "name": {
           "zh": "北京—伊犁",
@@ -986,7 +1394,7 @@
         "entityId": "qing",
         "startDate": "1757-01-01",
         "endDate": "1757-12-31",
-        "order": 28,
+        "order": 40,
         "segmentType": "other",
         "name": {
           "zh": "广州—十三行",
@@ -1024,7 +1432,7 @@
         "entityId": "qing",
         "startDate": "1758-10-01",
         "endDate": "1759-02-28",
-        "order": 29,
+        "order": 41,
         "segmentType": "advance",
         "name": {
           "zh": "伊犁—喀什",
@@ -1058,7 +1466,7 @@
         "entityId": "qing",
         "startDate": "1773-01-01",
         "endDate": "1773-12-31",
-        "order": 30,
+        "order": 42,
         "segmentType": "other",
         "name": {
           "zh": "北京—四库全书",
@@ -1096,7 +1504,7 @@
         "entityId": "qing",
         "startDate": "1792-06-01",
         "endDate": "1792-09-30",
-        "order": 31,
+        "order": 43,
         "segmentType": "advance",
         "name": {
           "zh": "拉萨—聂拉木",
@@ -1134,7 +1542,7 @@
         "entityId": "qing",
         "startDate": "1793-08-01",
         "endDate": "1793-10-31",
-        "order": 32,
+        "order": 44,
         "segmentType": "other",
         "name": {
           "zh": "北京—承德",
@@ -1168,7 +1576,7 @@
         "entityId": "qing",
         "startDate": "1796-01-01",
         "endDate": "1796-12-31",
-        "order": 33,
+        "order": 45,
         "segmentType": "defense",
         "name": {
           "zh": "襄阳城内",
@@ -1202,7 +1610,7 @@
         "entityId": "qing",
         "startDate": "1813-09-01",
         "endDate": "1813-10-31",
-        "order": 34,
+        "order": 46,
         "segmentType": "defense",
         "name": {
           "zh": "北京—紫禁城",
@@ -1236,7 +1644,7 @@
         "entityId": "qing",
         "startDate": "1839-06-01",
         "endDate": "1839-06-30",
-        "order": 35,
+        "order": 47,
         "segmentType": "other",
         "name": {
           "zh": "虎门海滩",
@@ -1270,7 +1678,7 @@
         "entityId": "qing",
         "startDate": "1840-06-01",
         "endDate": "1840-07-31",
-        "order": 36,
+        "order": 48,
         "segmentType": "defense",
         "name": {
           "zh": "广州—虎门",
@@ -1304,7 +1712,7 @@
         "entityId": "qing",
         "startDate": "1851-01-01",
         "endDate": "1851-09-30",
-        "order": 37,
+        "order": 49,
         "segmentType": "defense",
         "name": {
           "zh": "金田—永安",
@@ -1338,7 +1746,7 @@
         "entityId": "qing",
         "startDate": "1861-01-01",
         "endDate": "1861-12-31",
-        "order": 38,
+        "order": 50,
         "segmentType": "other",
         "name": {
           "zh": "北京—总理衙门",
@@ -1372,7 +1780,7 @@
         "entityId": "qing",
         "startDate": "1862-08-01",
         "endDate": "1862-12-31",
-        "order": 39,
+        "order": 51,
         "segmentType": "other",
         "name": {
           "zh": "北京—同文馆",
@@ -1406,7 +1814,7 @@
         "entityId": "qing",
         "startDate": "1863-03-01",
         "endDate": "1863-06-30",
-        "order": 40,
+        "order": 52,
         "segmentType": "other",
         "name": {
           "zh": "上海—广方言馆",
@@ -1440,7 +1848,7 @@
         "entityId": "qing",
         "startDate": "1865-09-01",
         "endDate": "1865-12-31",
-        "order": 41,
+        "order": 53,
         "segmentType": "other",
         "name": {
           "zh": "上海—江南制造总局",
@@ -1474,7 +1882,7 @@
         "entityId": "qing",
         "startDate": "1866-12-01",
         "endDate": "1867-12-31",
-        "order": 42,
+        "order": 54,
         "segmentType": "other",
         "name": {
           "zh": "福州—马尾",
@@ -1508,7 +1916,7 @@
         "entityId": "qing",
         "startDate": "1867-01-01",
         "endDate": "1867-12-31",
-        "order": 43,
+        "order": 55,
         "segmentType": "other",
         "name": {
           "zh": "马尾—船政学堂",
@@ -1542,7 +1950,7 @@
         "entityId": "qing",
         "startDate": "1872-08-01",
         "endDate": "1872-09-30",
-        "order": 44,
+        "order": 56,
         "segmentType": "naval",
         "name": {
           "zh": "上海—吴淞口",
@@ -1576,7 +1984,7 @@
         "entityId": "qing",
         "startDate": "1872-12-01",
         "endDate": "1873-06-30",
-        "order": 45,
+        "order": 57,
         "segmentType": "other",
         "name": {
           "zh": "上海—轮船招商局",
@@ -1614,7 +2022,7 @@
         "entityId": "qing",
         "startDate": "1876-04-01",
         "endDate": "1878-01-31",
-        "order": 46,
+        "order": 58,
         "segmentType": "advance",
         "name": {
           "zh": "兰州—乌鲁木齐",
@@ -1648,7 +2056,7 @@
         "entityId": "qing",
         "startDate": "1878-07-01",
         "endDate": "1878-12-31",
-        "order": 47,
+        "order": 59,
         "segmentType": "other",
         "name": {
           "zh": "天津—开平",
@@ -1682,7 +2090,7 @@
         "entityId": "qing",
         "startDate": "1880-08-01",
         "endDate": "1880-12-31",
-        "order": 48,
+        "order": 60,
         "segmentType": "other",
         "name": {
           "zh": "天津—水师学堂",
@@ -1716,7 +2124,7 @@
         "entityId": "qing",
         "startDate": "1884-08-01",
         "endDate": "1884-09-30",
-        "order": 49,
+        "order": 61,
         "segmentType": "naval",
         "name": {
           "zh": "马尾—福州",
@@ -1750,7 +2158,7 @@
         "entityId": "qing",
         "startDate": "1885-10-01",
         "endDate": "1885-12-31",
-        "order": 50,
+        "order": 62,
         "segmentType": "other",
         "name": {
           "zh": "台北城内",
@@ -1784,7 +2192,7 @@
         "entityId": "qing",
         "startDate": "1888-12-01",
         "endDate": "1888-12-31",
-        "order": 51,
+        "order": 63,
         "segmentType": "naval",
         "name": {
           "zh": "威海—刘公岛",
@@ -1818,7 +2226,7 @@
         "entityId": "qing",
         "startDate": "1890-12-01",
         "endDate": "1891-06-30",
-        "order": 52,
+        "order": 64,
         "segmentType": "other",
         "name": {
           "zh": "汉阳—铁厂",
@@ -1856,7 +2264,7 @@
         "entityId": "qing",
         "startDate": "1894-07-01",
         "endDate": "1894-09-30",
-        "order": 53,
+        "order": 65,
         "segmentType": "naval",
         "name": {
           "zh": "丹东—威海",
@@ -1890,7 +2298,7 @@
         "entityId": "qing",
         "startDate": "1894-07-20",
         "endDate": "1894-07-31",
-        "order": 54,
+        "order": 66,
         "segmentType": "naval",
         "name": {
           "zh": "牙山—丰岛",
@@ -1924,7 +2332,7 @@
         "entityId": "qing",
         "startDate": "1894-07-28",
         "endDate": "1894-07-31",
-        "order": 55,
+        "order": 67,
         "segmentType": "retreat",
         "name": {
           "zh": "牙山—成欢",
@@ -1958,7 +2366,7 @@
         "entityId": "qing",
         "startDate": "1894-09-01",
         "endDate": "1894-10-31",
-        "order": 56,
+        "order": 68,
         "segmentType": "naval",
         "name": {
           "zh": "威海—黄海",
@@ -1992,7 +2400,7 @@
         "entityId": "qing",
         "startDate": "1894-09-01",
         "endDate": "1894-09-30",
-        "order": 57,
+        "order": 69,
         "segmentType": "defense",
         "name": {
           "zh": "平壤城内",
@@ -2030,7 +2438,7 @@
         "entityId": "qing",
         "startDate": "1894-10-01",
         "endDate": "1894-11-30",
-        "order": 58,
+        "order": 70,
         "segmentType": "advance",
         "name": {
           "zh": "鸭绿江—旅顺",
@@ -2064,7 +2472,7 @@
         "entityId": "qing",
         "startDate": "1894-10-24",
         "endDate": "1894-10-31",
-        "order": 59,
+        "order": 71,
         "segmentType": "defense",
         "name": {
           "zh": "鸭绿江—九连城",
@@ -2098,7 +2506,7 @@
         "entityId": "qing",
         "startDate": "1895-01-01",
         "endDate": "1895-02-28",
-        "order": 60,
+        "order": 72,
         "segmentType": "defense",
         "name": {
           "zh": "威海卫城内",
@@ -2132,7 +2540,7 @@
         "entityId": "qing",
         "startDate": "1895-03-23",
         "endDate": "1895-03-31",
-        "order": 61,
+        "order": 73,
         "segmentType": "defense",
         "name": {
           "zh": "澎湖—马公",
@@ -2166,7 +2574,7 @@
         "entityId": "qing",
         "startDate": "1895-04-01",
         "endDate": "1895-05-31",
-        "order": 62,
+        "order": 74,
         "segmentType": "other",
         "name": {
           "zh": "北京—东交民巷",
@@ -2200,7 +2608,7 @@
         "entityId": "qing",
         "startDate": "1895-04-01",
         "endDate": "1895-04-30",
-        "order": 63,
+        "order": 75,
         "segmentType": "other",
         "name": {
           "zh": "马关—春帆楼",
@@ -2234,7 +2642,7 @@
         "entityId": "qing",
         "startDate": "1895-05-21",
         "endDate": "1895-06-30",
-        "order": 64,
+        "order": 76,
         "segmentType": "other",
         "name": {
           "zh": "台北—总督府",
@@ -2272,7 +2680,7 @@
         "entityId": "qing",
         "startDate": "1895-05-25",
         "endDate": "1895-10-31",
-        "order": 65,
+        "order": 77,
         "segmentType": "retreat",
         "name": {
           "zh": "台北—台南",
@@ -2310,7 +2718,7 @@
         "entityId": "qing",
         "startDate": "1895-05-29",
         "endDate": "1895-07-31",
-        "order": 66,
+        "order": 78,
         "segmentType": "retreat",
         "name": {
           "zh": "台北—新竹",
@@ -2344,7 +2752,7 @@
         "entityId": "qing",
         "startDate": "1895-07-01",
         "endDate": "1895-07-31",
-        "order": 67,
+        "order": 79,
         "segmentType": "defense",
         "name": {
           "zh": "新竹城内",
@@ -2378,7 +2786,7 @@
         "entityId": "qing",
         "startDate": "1895-07-12",
         "endDate": "1895-07-16",
-        "order": 68,
+        "order": 80,
         "segmentType": "retreat",
         "name": {
           "zh": "三角涌—台北",
@@ -2412,7 +2820,7 @@
         "entityId": "qing",
         "startDate": "1895-08-01",
         "endDate": "1895-12-31",
-        "order": 69,
+        "order": 81,
         "segmentType": "other",
         "name": {
           "zh": "汉阳—枪炮厂",
@@ -2446,7 +2854,7 @@
         "entityId": "qing",
         "startDate": "1895-08-10",
         "endDate": "1895-08-20",
-        "order": 70,
+        "order": 82,
         "segmentType": "defense",
         "name": {
           "zh": "苗栗城内",
@@ -2480,7 +2888,7 @@
         "entityId": "qing",
         "startDate": "1895-08-20",
         "endDate": "1895-08-31",
-        "order": 71,
+        "order": 83,
         "segmentType": "retreat",
         "name": {
           "zh": "大甲溪—台中",
@@ -2514,7 +2922,7 @@
         "entityId": "qing",
         "startDate": "1895-08-27",
         "endDate": "1895-08-31",
-        "order": 72,
+        "order": 84,
         "segmentType": "defense",
         "name": {
           "zh": "彰化—八卦山",
@@ -2548,7 +2956,7 @@
         "entityId": "qing",
         "startDate": "1895-10-18",
         "endDate": "1895-10-31",
-        "order": 73,
+        "order": 85,
         "segmentType": "defense",
         "name": {
           "zh": "台南城内",
@@ -2582,7 +2990,7 @@
         "entityId": "qing",
         "startDate": "1895-11-01",
         "endDate": "1895-11-30",
-        "order": 74,
+        "order": 86,
         "segmentType": "other",
         "name": {
           "zh": "北京—辽南条约",
@@ -2616,7 +3024,7 @@
         "entityId": "qing",
         "startDate": "1895-12-01",
         "endDate": "1896-01-31",
-        "order": 75,
+        "order": 87,
         "segmentType": "other",
         "name": {
           "zh": "旅顺—船坞",
@@ -2650,7 +3058,7 @@
         "entityId": "qing",
         "startDate": "1895-12-25",
         "endDate": "1896-01-31",
-        "order": 76,
+        "order": 88,
         "segmentType": "defense",
         "name": {
           "zh": "大稻埕—台北",
@@ -2684,7 +3092,7 @@
         "entityId": "qing",
         "startDate": "1896-01-01",
         "endDate": "1896-01-31",
-        "order": 77,
+        "order": 89,
         "segmentType": "other",
         "name": {
           "zh": "士林—芝山岩",
@@ -2718,7 +3126,7 @@
         "entityId": "qing",
         "startDate": "1896-06-15",
         "endDate": "1896-06-30",
-        "order": 78,
+        "order": 90,
         "segmentType": "defense",
         "name": {
           "zh": "云林城内",
@@ -2752,7 +3160,7 @@
         "entityId": "qing",
         "startDate": "1896-06-25",
         "endDate": "1896-07-31",
-        "order": 79,
+        "order": 91,
         "segmentType": "defense",
         "name": {
           "zh": "古坑—铁国山",
@@ -2786,7 +3194,7 @@
         "entityId": "qing",
         "startDate": "1898-03-01",
         "endDate": "1898-04-30",
-        "order": 80,
+        "order": 92,
         "segmentType": "other",
         "name": {
           "zh": "北京—使馆区",
@@ -2820,7 +3228,7 @@
         "entityId": "qing",
         "startDate": "1898-06-01",
         "endDate": "1898-09-30",
-        "order": 81,
+        "order": 93,
         "segmentType": "other",
         "name": {
           "zh": "北京—颐和园",
@@ -2854,7 +3262,7 @@
         "entityId": "qing",
         "startDate": "1898-12-01",
         "endDate": "1899-01-31",
-        "order": 82,
+        "order": 94,
         "segmentType": "defense",
         "name": {
           "zh": "潮州城内",
@@ -2888,7 +3296,7 @@
         "entityId": "qing",
         "startDate": "1900-06-01",
         "endDate": "1900-07-31",
-        "order": 83,
+        "order": 95,
         "segmentType": "other",
         "name": {
           "zh": "上海—南京",
@@ -2926,7 +3334,7 @@
         "entityId": "qing",
         "startDate": "1900-06-01",
         "endDate": "1900-08-31",
-        "order": 84,
+        "order": 96,
         "segmentType": "advance",
         "name": {
           "zh": "天津—北京",
@@ -2960,7 +3368,7 @@
         "entityId": "qing",
         "startDate": "1901-01-01",
         "endDate": "1901-12-31",
-        "order": 85,
+        "order": 97,
         "segmentType": "other",
         "name": {
           "zh": "北京—宪政编查馆",
@@ -2994,7 +3402,7 @@
         "entityId": "qing",
         "startDate": "1905-09-01",
         "endDate": "1905-09-30",
-        "order": 86,
+        "order": 98,
         "segmentType": "other",
         "name": {
           "zh": "北京—废科举",
@@ -3028,7 +3436,7 @@
         "entityId": "qing",
         "startDate": "1905-10-01",
         "endDate": "1905-10-31",
-        "order": 87,
+        "order": 99,
         "segmentType": "other",
         "name": {
           "zh": "上海—总工程局",
@@ -3062,7 +3470,7 @@
         "entityId": "qing",
         "startDate": "1905-12-01",
         "endDate": "1905-12-31",
-        "order": 88,
+        "order": 100,
         "segmentType": "other",
         "name": {
           "zh": "北京—五大臣出洋",
@@ -3096,7 +3504,7 @@
         "entityId": "qing",
         "startDate": "1906-08-01",
         "endDate": "1906-08-31",
-        "order": 89,
+        "order": 101,
         "segmentType": "other",
         "name": {
           "zh": "天津—自治局",
@@ -3130,7 +3538,7 @@
         "entityId": "qing",
         "startDate": "1906-09-01",
         "endDate": "1908-09-30",
-        "order": 90,
+        "order": 102,
         "segmentType": "other",
         "name": {
           "zh": "北京—资政院",
@@ -3164,7 +3572,7 @@
         "entityId": "qing",
         "startDate": "1909-01-01",
         "endDate": "1909-02-28",
-        "order": 91,
+        "order": 103,
         "segmentType": "other",
         "name": {
           "zh": "北京—民政部",
@@ -3198,7 +3606,7 @@
         "entityId": "qing",
         "startDate": "1909-06-01",
         "endDate": "1909-06-30",
-        "order": 92,
+        "order": 104,
         "segmentType": "other",
         "name": {
           "zh": "北京—自治研究所",
@@ -3232,7 +3640,7 @@
         "entityId": "qing",
         "startDate": "1909-10-01",
         "endDate": "1909-11-30",
-        "order": 93,
+        "order": 105,
         "segmentType": "other",
         "name": {
           "zh": "北京—咨议局",
@@ -3266,7 +3674,7 @@
         "entityId": "qing",
         "startDate": "1910-01-01",
         "endDate": "1910-02-28",
-        "order": 94,
+        "order": 106,
         "segmentType": "other",
         "name": {
           "zh": "北京—请愿国会",
@@ -3300,7 +3708,7 @@
         "entityId": "qing",
         "startDate": "1910-07-15",
         "endDate": "1910-08-31",
-        "order": 95,
+        "order": 107,
         "segmentType": "other",
         "name": {
           "zh": "北京—咨议局联合会",
@@ -3334,7 +3742,7 @@
         "entityId": "qing",
         "startDate": "1910-09-15",
         "endDate": "1910-10-31",
-        "order": 96,
+        "order": 108,
         "segmentType": "other",
         "name": {
           "zh": "北京—资政院开院",
@@ -3368,7 +3776,7 @@
         "entityId": "qing",
         "startDate": "1910-12-01",
         "endDate": "1910-12-31",
-        "order": 97,
+        "order": 109,
         "segmentType": "other",
         "name": {
           "zh": "北京—资政院弹劾",
@@ -3402,7 +3810,7 @@
         "entityId": "qing",
         "startDate": "1911-05-01",
         "endDate": "1911-06-30",
-        "order": 98,
+        "order": 110,
         "segmentType": "other",
         "name": {
           "zh": "北京—皇族内阁",
@@ -3436,7 +3844,7 @@
         "entityId": "qing",
         "startDate": "1911-06-01",
         "endDate": "1911-06-30",
-        "order": 99,
+        "order": 111,
         "segmentType": "other",
         "name": {
           "zh": "北京—宪友会",
@@ -3474,7 +3882,7 @@
         "entityId": "qing",
         "startDate": "1911-06-01",
         "endDate": "1911-10-31",
-        "order": 100,
+        "order": 112,
         "segmentType": "other",
         "name": {
           "zh": "成都—武昌",
@@ -3508,7 +3916,7 @@
         "entityId": "qing",
         "startDate": "1911-10-01",
         "endDate": "1911-11-30",
-        "order": 101,
+        "order": 113,
         "segmentType": "other",
         "name": {
           "zh": "武昌城内",
@@ -3542,7 +3950,7 @@
         "entityId": "qing",
         "startDate": "1911-10-15",
         "endDate": "1911-11-01",
-        "order": 102,
+        "order": 114,
         "segmentType": "defense",
         "name": {
           "zh": "汉口城内",
@@ -3576,7 +3984,7 @@
         "entityId": "qing",
         "startDate": "1911-10-20",
         "endDate": "1911-10-31",
-        "order": 103,
+        "order": 115,
         "segmentType": "defense",
         "name": {
           "zh": "西安城内",
@@ -3610,7 +4018,7 @@
         "entityId": "qing",
         "startDate": "1911-10-20",
         "endDate": "1911-10-31",
-        "order": 104,
+        "order": 116,
         "segmentType": "defense",
         "name": {
           "zh": "长沙城内",
@@ -3644,7 +4052,7 @@
         "entityId": "qing",
         "startDate": "1911-10-25",
         "endDate": "1911-11-05",
-        "order": 105,
+        "order": 117,
         "segmentType": "advance",
         "name": {
           "zh": "滦州—北京",
@@ -3678,7 +4086,7 @@
         "entityId": "qing",
         "startDate": "1911-10-27",
         "endDate": "1911-11-05",
-        "order": 106,
+        "order": 118,
         "segmentType": "defense",
         "name": {
           "zh": "太原城内",
@@ -3712,7 +4120,7 @@
         "entityId": "qing",
         "startDate": "1911-10-28",
         "endDate": "1911-11-05",
-        "order": 107,
+        "order": 119,
         "segmentType": "defense",
         "name": {
           "zh": "昆明城内",
@@ -3746,7 +4154,7 @@
         "entityId": "qing",
         "startDate": "1911-10-29",
         "endDate": "1911-11-05",
-        "order": 108,
+        "order": 120,
         "segmentType": "defense",
         "name": {
           "zh": "南昌城内",
@@ -3780,7 +4188,7 @@
         "entityId": "qing",
         "startDate": "1911-11-01",
         "endDate": "1911-11-10",
-        "order": 109,
+        "order": 121,
         "segmentType": "advance",
         "name": {
           "zh": "上海—制造局",
@@ -3814,7 +4222,7 @@
         "entityId": "qing",
         "startDate": "1911-11-01",
         "endDate": "1911-11-30",
-        "order": 110,
+        "order": 122,
         "segmentType": "other",
         "name": {
           "zh": "北京—十九信条",
@@ -3848,7 +4256,7 @@
         "entityId": "qing",
         "startDate": "1911-11-02",
         "endDate": "1911-11-10",
-        "order": 111,
+        "order": 123,
         "segmentType": "defense",
         "name": {
           "zh": "杭州城内",
@@ -3882,7 +4290,7 @@
         "entityId": "qing",
         "startDate": "1911-11-03",
         "endDate": "1911-11-10",
-        "order": 112,
+        "order": 124,
         "segmentType": "defense",
         "name": {
           "zh": "苏州城内",
@@ -3916,7 +4324,7 @@
         "entityId": "qing",
         "startDate": "1911-11-07",
         "endDate": "1911-11-15",
-        "order": 113,
+        "order": 125,
         "segmentType": "defense",
         "name": {
           "zh": "广州城内",
@@ -3950,7 +4358,7 @@
         "entityId": "qing",
         "startDate": "1911-11-07",
         "endDate": "1911-11-15",
-        "order": 114,
+        "order": 126,
         "segmentType": "defense",
         "name": {
           "zh": "福州城内",
@@ -3984,7 +4392,7 @@
         "entityId": "qing",
         "startDate": "1911-11-15",
         "endDate": "1911-11-30",
-        "order": 115,
+        "order": 127,
         "segmentType": "defense",
         "name": {
           "zh": "汉阳城内",
@@ -4018,7 +4426,7 @@
         "entityId": "qing",
         "startDate": "1911-11-20",
         "endDate": "1911-12-05",
-        "order": 116,
+        "order": 128,
         "segmentType": "advance",
         "name": {
           "zh": "镇江—南京",
@@ -4052,7 +4460,7 @@
         "entityId": "qing",
         "startDate": "1911-11-25",
         "endDate": "1911-12-05",
-        "order": 117,
+        "order": 129,
         "segmentType": "defense",
         "name": {
           "zh": "成都城内",
@@ -4086,7 +4494,7 @@
         "entityId": "qing",
         "startDate": "1911-12-10",
         "endDate": "1911-12-31",
-        "order": 118,
+        "order": 130,
         "segmentType": "other",
         "name": {
           "zh": "上海—南北议和",
@@ -4120,7 +4528,7 @@
         "entityId": "qing",
         "startDate": "1912-01-01",
         "endDate": "1912-02-12",
-        "order": 119,
+        "order": 131,
         "segmentType": "other",
         "name": {
           "zh": "北京城内",

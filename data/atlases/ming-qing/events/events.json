@@ -480,6 +480,67 @@
     "importance": 3
   },
   {
+    "id": "hongguang-1644",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "弘光政权建立",
+      "en": "The Hongguang regime"
+    },
+    "date": "1644-06-19",
+    "location": {
+      "lng": 118.8,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏南京",
+        "en": "Nanjing, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "福王朱由崧在南京即位，建立弘光政权。",
+      "en": "Prince Fu ascended the throne in Nanjing, founding the Hongguang regime."
+    },
+    "description": {
+      "zh": "1644 年 6 月，福王朱由崧在南京即位，改元弘光，南明第一个政权建立，仍控制江南部分地区。日期与经过为通行说法，待页码级核对。",
+      "en": "In June 1644 Prince Fu of Zhu ascended the throne in Nanjing and adopted the era name Hongguang, founding the first Southern Ming regime, which still controlled parts of Jiangnan. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "shanhaiguan-1644",
+      "longwu-1645"
+    ],
+    "importance": 3
+  },
+  {
     "id": "yangzhou-1645",
     "atlasId": "ming-qing",
     "name": {
@@ -659,6 +720,250 @@
     "relatedIds": [
       "jiading-1645",
       "zheng-nanjing-1659"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "longwu-1645",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "隆武政权建立",
+      "en": "The Longwu regime"
+    },
+    "date": "1645-08-18",
+    "location": {
+      "lng": 119.3,
+      "lat": 26.08,
+      "place": {
+        "zh": "福建福州",
+        "en": "Fuzhou, Fujian"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "唐王朱聿键在福州称帝，建立隆武政权。",
+      "en": "Prince Tang proclaimed himself emperor in Fuzhou, founding the Longwu regime."
+    },
+    "description": {
+      "zh": "1645 年 8 月，唐王朱聿键在福州称帝，改元隆武，继续抗清，倚重郑芝龙、黄道周等人。日期与经过为通行说法，待页码级核对。",
+      "en": "In August 1645 Prince Tang proclaimed himself emperor in Fuzhou with the era name Longwu and continued resistance to the Qing, relying on figures such as Zheng Zhilong and Huang Daozhou. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "hongguang-1644",
+      "yongli-1646"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yongli-1646",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "永历政权建立",
+      "en": "The Yongli regime"
+    },
+    "date": "1646-12-24",
+    "location": {
+      "lng": 112.47,
+      "lat": 23.05,
+      "place": {
+        "zh": "广东肇庆",
+        "en": "Zhaoqing, Guangdong"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "桂王朱由榔在肇庆即位，建立永历政权。",
+      "en": "Prince Gui ascended the throne in Zhaoqing, founding the Yongli regime."
+    },
+    "description": {
+      "zh": "1646 年 12 月，桂王朱由榔在肇庆即位，改元永历，成为南明存续最久、辗转西南的政权。日期与经过为通行说法，待页码级核对。",
+      "en": "In December 1646 Prince Gui ascended the throne in Zhaoqing with the era name Yongli, becoming the longest-lasting Southern Ming regime, based in the southwest. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "longwu-1645",
+      "li-dingguo-guilin-1652"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "li-dingguo-guilin-1652",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "李定国桂林之战",
+      "en": "Li Dingguo’s victory at Guilin"
+    },
+    "date": "1652-07-04",
+    "location": {
+      "lng": 110.29,
+      "lat": 25.27,
+      "place": {
+        "zh": "广西桂林",
+        "en": "Guilin, Guangxi"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "李定国攻桂林，清定南王孔有德自尽。",
+      "en": "Li Dingguo took Guilin; Kong Youde took his own life."
+    },
+    "description": {
+      "zh": "1652 年 7 月，李定国率大西军余部攻桂林，清定南王孔有德兵败自尽，南明抗清声势大振。日期与经过为通行说法，待页码级核对。",
+      "en": "In July 1652 Li Dingguo led the remnants of the Daxi army against Guilin. Qing Prince Kong Youde was defeated and took his own life, greatly boosting Southern Ming resistance. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "yongli-1646",
+      "li-dingguo-hengzhou-1652"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "li-dingguo-hengzhou-1652",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "李定国衡州之战",
+      "en": "Li Dingguo’s victory at Hengzhou"
+    },
+    "date": "1652-11-24",
+    "location": {
+      "lng": 112.57,
+      "lat": 26.89,
+      "place": {
+        "zh": "湖南衡阳",
+        "en": "Hengyang, Hunan"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "李定国在衡州设伏，清亲王尼堪战死。",
+      "en": "Li Dingguo ambushed Qing forces at Hengzhou, killing Prince Nikan."
+    },
+    "description": {
+      "zh": "1652 年 11 月，李定国在衡州设伏，清敬谨亲王尼堪战死，南明抗清声势达到高峰。日期与经过为通行说法，待页码级核对。",
+      "en": "In November 1652 Li Dingguo ambushed Qing forces at Hengzhou and killed Prince Nikan, bringing Southern Ming resistance to its height. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "li-dingguo-guilin-1652",
+      "yongli-captured-1662"
     ],
     "importance": 3
   },
@@ -845,6 +1150,250 @@
     "importance": 3
   },
   {
+    "id": "yongli-captured-1662",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "永历帝被俘",
+      "en": "The capture of the Yongli Emperor"
+    },
+    "date": "1662-06-01",
+    "location": {
+      "lng": 102.71,
+      "lat": 25.04,
+      "place": {
+        "zh": "云南昆明",
+        "en": "Kunming, Yunnan"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "吴三桂在昆明缢杀永历帝，南明终结。",
+      "en": "Wu Sangui executed the Yongli Emperor in Kunming, ending the Southern Ming."
+    },
+    "description": {
+      "zh": "1662 年 6 月，吴三桂在昆明缢杀永历帝，南明政权终结，西南抗清力量随之瓦解。日期与经过为通行说法，待页码级核对。",
+      "en": "In June 1662 Wu Sangui had the Yongli Emperor strangled in Kunming, ending the Southern Ming and causing the collapse of resistance in the southwest. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "li-dingguo-hengzhou-1652",
+      "li-dingguo-death-1662"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "zheng-jing-1662",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "郑经嗣位",
+      "en": "Zheng Jing succeeds"
+    },
+    "date": "1662-06-01",
+    "location": {
+      "lng": 118.1,
+      "lat": 24.48,
+      "place": {
+        "zh": "福建厦门",
+        "en": "Xiamen, Fujian"
+      }
+    },
+    "entityIds": [
+      "ming-zheng"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "郑成功去世后，郑经在厦门嗣位。",
+      "en": "After Zheng Chenggong’s death, Zheng Jing succeeded him in Xiamen."
+    },
+    "description": {
+      "zh": "1662 年 6 月，郑成功去世后，郑经在厦门嗣位，与叔父郑袭争位，最终控制台湾与沿海据点。日期与经过为通行说法，待页码级核对。",
+      "en": "In June 1662, after Zheng Chenggong’s death, Zheng Jing succeeded him in Xiamen. He contested power with his uncle Zheng Xi and eventually controlled Taiwan and coastal strongholds. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "zheng-taiwan-1662",
+      "zheng-jing-fujian-1674"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "li-dingguo-death-1662",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "李定国病逝",
+      "en": "The death of Li Dingguo"
+    },
+    "date": "1662-08-10",
+    "location": {
+      "lng": 101.56,
+      "lat": 21.48,
+      "place": {
+        "zh": "云南勐腊",
+        "en": "Mengla, Yunnan"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "李定国在勐腊病逝。",
+      "en": "Li Dingguo died of illness at Mengla."
+    },
+    "description": {
+      "zh": "1662 年 8 月，李定国在勐腊病逝，临终嘱部众勿降清，南明在西南的抵抗基本结束。日期与经过为通行说法，待页码级核对。",
+      "en": "In August 1662 Li Dingguo died of illness at Mengla, telling his followers not to surrender to the Qing. Southern Ming resistance in the southwest effectively ended. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "yongli-captured-1662",
+      "zhang-huangyan-1664"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "zhang-huangyan-1664",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "张煌言就义",
+      "en": "The execution of Zhang Huangyan"
+    },
+    "date": "1664-10-25",
+    "location": {
+      "lng": 120.16,
+      "lat": 30.27,
+      "place": {
+        "zh": "浙江杭州",
+        "en": "Hangzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "张煌言在杭州就义。",
+      "en": "Zhang Huangyan was executed in Hangzhou."
+    },
+    "description": {
+      "zh": "1664 年 10 月，张煌言在杭州就义，南明抗清力量基本瓦解，仅余台湾郑氏。日期与经过为通行说法，待页码级核对。",
+      "en": "In October 1664 Zhang Huangyan was executed in Hangzhou. Southern Ming resistance largely collapsed, leaving only the Zheng regime in Taiwan. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "li-dingguo-death-1662",
+      "zheng-taiwan-1662"
+    ],
+    "importance": 2
+  },
+  {
     "id": "sanfan-1673",
     "atlasId": "ming-qing",
     "name": {
@@ -905,6 +1454,67 @@
     "importance": 3
   },
   {
+    "id": "zheng-jing-fujian-1674",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "郑经反攻福建",
+      "en": "Zheng Jing’s offensive in Fujian"
+    },
+    "date": "1674-05-01",
+    "location": {
+      "lng": 118.1,
+      "lat": 24.48,
+      "place": {
+        "zh": "福建厦门",
+        "en": "Xiamen, Fujian"
+      }
+    },
+    "entityIds": [
+      "ming-zheng"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "三藩之乱爆发后，郑经反攻福建。",
+      "en": "After the Revolt of the Three Feudatories, Zheng Jing attacked Fujian."
+    },
+    "description": {
+      "zh": "1674 年，三藩之乱爆发后，郑经率军反攻福建，一度占领泉州、漳州等地，后与耿精忠冲突，最终退回厦门。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1674, after the Revolt of the Three Feudatories broke out, Zheng Jing led forces into Fujian and briefly took Quanzhou and Zhangzhou. After clashes with Geng Jingzhong he withdrew to Xiamen. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "sanfan-1673",
+      "penghu-1683"
+    ],
+    "importance": 2
+  },
+  {
     "id": "taiwan-1683",
     "atlasId": "ming-qing",
     "name": {
@@ -961,6 +1571,128 @@
     ],
     "relatedIds": [
       "nerchinsk-1689"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "penghu-1683",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "澎湖海战",
+      "en": "The Battle of Penghu"
+    },
+    "date": "1683-07-16",
+    "location": {
+      "lng": 119.57,
+      "lat": 23.57,
+      "place": {
+        "zh": "台湾澎湖",
+        "en": "Penghu, Taiwan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "施琅率清军水师在澎湖击败刘国轩。",
+      "en": "Shi Lang’s fleet defeated Liu Guoxuan at Penghu."
+    },
+    "description": {
+      "zh": "1683 年 7 月，施琅率清军水师在澎湖击败刘国轩，郑军主力受挫，为清廷统一台湾奠定基础。日期与经过为通行说法，待页码级核对。",
+      "en": "In July 1683 Shi Lang’s Qing fleet defeated Liu Guoxuan at Penghu, crippling the Zheng navy and paving the way for the Qing conquest of Taiwan. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "taiwan-1683",
+      "zheng-keshuang-1683"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "zheng-keshuang-1683",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "郑克塽降清",
+      "en": "Zheng Keshuang surrenders"
+    },
+    "date": "1683-10-03",
+    "location": {
+      "lng": 120.2,
+      "lat": 23.0,
+      "place": {
+        "zh": "台湾台南",
+        "en": "Tainan, Taiwan"
+      }
+    },
+    "entityIds": [
+      "ming-zheng"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "郑克塽在承天府降清，明郑结束。",
+      "en": "Zheng Keshuang surrendered at Chengtian Prefecture, ending the Zheng regime."
+    },
+    "description": {
+      "zh": "1683 年 10 月，郑克塽在承天府降清，明郑政权结束，台湾纳入清朝版图。日期与经过为通行说法，待页码级核对。",
+      "en": "In October 1683 Zheng Keshuang surrendered at Chengtian Prefecture, ending the Zheng regime and bringing Taiwan under Qing rule. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "penghu-1683",
+      "taiwan-1683"
     ],
     "importance": 3
   },
