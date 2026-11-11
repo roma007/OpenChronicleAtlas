@@ -70,8 +70,8 @@
 | 提交 | 内容 | GitHub | Gitee |
 | --- | --- | --- | --- |
 | `3c8fb69` | docs: M86 疆域数据升级计划 | ✅ | ✅ |
-| 待回填 | data: 疆域数据升级为 Cliopatria |  |  |
-| 待回填 | docs: M86 发布说明与归档 |  |  |
+| `e90f9d0` | data: 疆域数据升级为 Cliopatria | ✅ | ✅ |
+| `cbbfc49` | docs: M86 发布说明与归档 | ✅ | ✅ |
 
 ## 8. 验收结果
 
@@ -80,4 +80,5 @@
 - 安史控制区保留为有意叠加；
 - 共享测试 20 个文件 / 119 项通过；
 - 数据版本 `2026-11-11-4ea1bc9845bb`；
-- 版本 `0.86.0` / build 83。
+- 版本 `0.86.0` / build 83；
+- Vercel production 已部署：`open-chronicle-atlas-3e6cyhk6o`。
