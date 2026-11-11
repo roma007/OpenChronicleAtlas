@@ -18,7 +18,7 @@
 | macOS | `pnpm --filter @atlas/desktop bundle:mac` | `.app` / `.dmg` / `.pkg` | Mac App Store / 官网 |
 | Android | `pnpm --filter @atlas/mobile android:bundle` | `.aab` | 华为 AppGallery / Google Play |
 | Android 侧载 | `pnpm --filter @atlas/mobile android:apk` | `.apk` | 官网 / 国内商店 |
-| Windows | `pnpm --filter @atlas/desktop bundle:win` 或 GitHub Actions | `.msi` / `.exe` | Microsoft Store |
+| Windows | `pnpm --filter @atlas/desktop bundle:win` 或 GitHub Actions | NSIS `.exe` | Microsoft Store |
 
 ---
 
@@ -45,7 +45,7 @@
 | --- | --- | --- |
 | `atlas-web` | Web/PWA 静态包 zip | 始终 |
 | `atlas-macos-arm64` / `atlas-macos-x64` | `.dmg` + `.app.tar.gz` | 始终 |
-| `atlas-windows` | `.msi` + NSIS `.exe` | 始终 |
+| `atlas-windows` | NSIS `.exe` | 始终 |
 | `atlas-android-debug` | 可安装的 debug APK | 始终 |
 | `atlas-android-release` | 签名 AAB + APK | 配置 Android keystore secrets |
 | `atlas-ios` | 签名 IPA + dSYM | 配置 Apple 签名 secrets |
@@ -255,7 +255,7 @@ pnpm --filter @atlas/mobile android:bundle
 
 ## 4. Microsoft Store
 
-当前暂无 Partner Center 账号，先用 GitHub Actions 产出 MSI/NSIS，账号就绪后提交。
+当前暂无 Partner Center 账号，先用 GitHub Actions 产出 NSIS `.exe`，账号就绪后提交。
 
 ### 4.1 构建
 
@@ -267,21 +267,22 @@ pnpm --filter @atlas/desktop bundle:win
 
 产物：
 
-- `apps/desktop/src-tauri/target/release/bundle/msi/史迹_0.95.0_x64_en-US.msi`
 - `apps/desktop/src-tauri/target/release/bundle/nsis/史迹_0.95.0_x64-setup.exe`
+
+> Tauri 的 WiX MSI 在中文 `productName` 下会报 `LGHT0311`（代码页 1252），因此默认只出 NSIS。若必须 MSI，可把 `productName` 改为 ASCII，或为 WiX 配置中文代码页后单独启用。
 
 ### 4.2 提交
 
 1. 注册 Microsoft Partner Center 开发者账号（个人或企业，按当前政策验证）；
 2. 预留应用名称“史迹 · 时空地图”；
-3. 选择 Win32 应用（MSI/EXE）提交方式；
+3. 选择 Win32 应用（EXE）提交方式；
 4. 填写隐私政策 URL、支持 URL、系统要求（Windows 10 1809+，WebView2）；
-5. 上传 MSI/NSIS，填写年龄分级与商店截图；
+5. 上传 NSIS EXE，填写年龄分级与商店截图；
 6. 提交认证。
 
 ### 4.3 签名建议
 
-未签名的 MSI/EXE 会触发 SmartScreen 警告。正式发布建议购买代码签名证书（EV 或 OV），或在 Partner Center 使用商店签名。GitHub Actions 中通过 Secrets 注入证书与密码，不得写入仓库。
+未签名的 EXE 会触发 SmartScreen 警告。正式发布建议购买代码签名证书（EV 或 OV），或在 Partner Center 使用商店签名。GitHub Actions 中通过 Secrets 注入证书与密码，不得写入仓库。
 
 ---
 

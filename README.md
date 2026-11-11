@@ -84,7 +84,7 @@ git ls-remote gitee  refs/heads/main   # 两值应与本地 HEAD 相同
 | 共享层 | `packages/shared`：纯 TS，无 DOM / RN 依赖 |
 | 数据校验 | zod（schema v1.0.0） |
 | 数据托管 | 纯静态 JSON / GeoJSON（`/data/atlases`），后续可迁移 Supabase |
-| 部署 | Web：Vercel / Cloudflare Pages；移动端：Xcode / EAS Build 产出 IPA、AAB；桌面端：Tauri 产出 DMG / MSI，GitHub Actions 构建 Windows |
+| 部署 | Web：Vercel / Cloudflare Pages；移动端：Xcode / EAS Build 产出 IPA、AAB；桌面端：Tauri 产出 DMG / NSIS EXE，GitHub Actions 构建 Windows |
 
 **高德 Key 配置**：Web 用 `VITE_AMAP_KEY` + `VITE_AMAP_SECURITY_CODE`；桌面端优先用 `VITE_AMAP_DESKTOP_KEY` + `VITE_AMAP_DESKTOP_SECURITY_CODE`（未配置时回退 Web Key）；移动端用 `EXPO_PUBLIC_AMAP_ANDROID_KEY` / `EXPO_PUBLIC_AMAP_IOS_KEY`。申请与填写步骤见 [`docs/guides/amap-setup.md`](docs/guides/amap-setup.md)。
 
@@ -93,7 +93,7 @@ git ls-remote gitee  refs/heads/main   # 两值应与本地 HEAD 相同
 ```bash
 pnpm desktop:dev            # 启动 Tauri + Vite
 pnpm desktop:bundle:mac     # macOS .app / .dmg（需在 macOS 执行）
-pnpm desktop:bundle:win     # Windows .msi / .exe（需在 Windows 执行）
+pnpm desktop:bundle:win     # Windows NSIS .exe（需在 Windows 执行）
 ```
 
 推送到 GitHub `main` 会自动运行 `.github/workflows/build-installers.yml`，产出 Web、macOS（arm64/x64）、Windows、Android 安装包；推送 `v*-m*` tag 会自动创建 GitHub Release。iOS 配置 Apple 签名 secrets 后自动产出 IPA。首次构建需下载 Rust crates，约 5–10 分钟；后续增量构建会快很多。

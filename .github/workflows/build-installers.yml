@@ -163,14 +163,12 @@ jobs:
           VITE_AMAP_DESKTOP_KEY: ${{ secrets.VITE_AMAP_DESKTOP_KEY }}
           VITE_AMAP_DESKTOP_SECURITY_CODE: ${{ secrets.VITE_AMAP_DESKTOP_SECURITY_CODE }}
           VITE_SHARE_BASE_URL: ${{ vars.SHARE_BASE_URL }}
-        run: pnpm --filter @atlas/desktop exec tauri build --bundles msi,nsis
+        run: pnpm --filter @atlas/desktop exec tauri build --bundles nsis
 
       - uses: actions/upload-artifact@v4
         with:
           name: atlas-windows
-          path: |
-            apps/desktop/src-tauri/target/release/bundle/msi/*.msi
-            apps/desktop/src-tauri/target/release/bundle/nsis/*.exe
+          path: apps/desktop/src-tauri/target/release/bundle/nsis/*.exe
           retention-days: 30
           if-no-files-found: error
 
@@ -180,6 +178,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       EXPO_PUBLIC_AMAP_ANDROID_KEY: ${{ secrets.EXPO_PUBLIC_AMAP_ANDROID_KEY }}
+      ANDROID_HOME: /usr/local/lib/android/sdk
+      ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
     steps:
       - uses: actions/checkout@v4
 
@@ -197,7 +197,10 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - uses: android-actions/setup-android@v3
+      - name: Verify Android SDK
+        run: |
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          ls "$ANDROID_HOME"
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile

@@ -9,7 +9,7 @@
     "bundle": "tauri build",
     "bundle:debug": "tauri build --debug",
     "bundle:mac": "tauri build --bundles app,dmg",
-    "bundle:win": "tauri build --bundles msi,nsis",
+    "bundle:win": "tauri build --bundles nsis",
     "web:build": "pnpm --filter @atlas/web build:desktop",
     "icon": "tauri icon ../mobile/assets/icon.png",
     "tauri": "tauri"

@@ -16,7 +16,7 @@
 | iPhone + iPad | `apps/mobile` | 通用 `.ipa` | App Store Connect |
 | Android 手机/平板 | `apps/mobile` | `.aab` / `.apk` | Google Play、华为 AppGallery、国内商店 |
 | macOS | `apps/desktop` | `.app` / `.dmg` / Mac App Store 包 | Mac App Store、官网直发 |
-| Windows | `apps/desktop` | `.msi` / `.exe`（NSIS） | Microsoft Store（Win32 提交） |
+| Windows | `apps/desktop` | NSIS `.exe` | Microsoft Store（Win32 提交） |
 
 ## 2. 为什么桌面端用 Tauri 复用 Web
 
@@ -68,7 +68,7 @@ apps/desktop/
 | macOS 最低版本 | 13.0 |
 | macOS 沙盒 | `com.apple.security.app-sandbox` + `com.apple.security.network.client` |
 | Windows WebView2 | `downloadBootstrapper` |
-| 安装包目标 | macOS：app/dmg；Windows：msi/nsis |
+| 安装包目标 | macOS：app/dmg；Windows：NSIS（中文 productName 下 WiX MSI 不可用） |
 
 > Identifier 与移动端 `com.openchronicle.atlas` 区分，避免 App Store Connect 中 iOS 与 macOS 记录冲突。
 
@@ -88,8 +88,8 @@ apps/desktop/
 
 ### 5.3 Microsoft Store
 
-- 暂无 Partner Center 账号，先产出 MSI/NSIS；
-- 后续注册后以 Win32（MSI/EXE）方式提交，或改用 MSIX 打包；
+- 暂无 Partner Center 账号，先产出 NSIS；
+- 后续注册后以 Win32（EXE）方式提交，或改用 MSIX 打包；
 - 需要 Privacy Policy URL、支持 URL、商店截图。
 
 ## 6. 风险

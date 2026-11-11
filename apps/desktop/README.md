@@ -27,7 +27,7 @@ pnpm --filter @atlas/desktop bundle:win
 产物位于 `src-tauri/target/release/bundle/`：
 
 - macOS：`macos/史迹.app`、`dmg/史迹_*.dmg`
-- Windows：`msi/史迹_*.msi`、`nsis/史迹_*_x64-setup.exe`
+- Windows：`nsis/史迹_*_x64-setup.exe`（NSIS 支持中文；WiX MSI 在中文 productName 下会触发代码页错误）
 
 ## 图标
 
@@ -41,7 +41,7 @@ pnpm --filter @atlas/desktop icon
 
 - Apple / 华为 / 微软的提交步骤见 [`docs/guides/store-submission.md`](../../docs/guides/store-submission.md)；
 - macOS 已启用 App Sandbox 与出网权限，供 Mac App Store 使用；
-- Windows 商店暂无 Partner Center 账号，先产出 MSI/NSIS。
+- Windows 商店暂无 Partner Center 账号，先产出 NSIS `.exe`；Partner Center 支持 Win32 EXE 提交。
 
 ## 注意
 
