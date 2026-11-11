@@ -28,6 +28,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   plugins: [
     './plugins/with-ipad-orientations',
+    './plugins/with-android-gradle',
     [
       'expo-build-properties',
       { android: { usesCleartextTraffic: false }, ios: { deploymentTarget: '16.4' } },
