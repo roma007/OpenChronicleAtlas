@@ -120,6 +120,66 @@
     "importance": 3
   },
   {
+    "id": "chanyuan-liao-1004",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "澶渊之盟（辽）",
+      "en": "The Chanyuan Treaty (Liao)"
+    },
+    "date": "1004-12-01",
+    "location": {
+      "lng": 115.03,
+      "lat": 35.76,
+      "place": {
+        "zh": "河南澶州",
+        "en": "Chanzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "liao"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "辽军南下至澶州，与宋订立澶渊之盟。",
+      "en": "Liao forces advanced to Chanzhou and concluded the Chanyuan Treaty with Song."
+    },
+    "description": {
+      "zh": "1004 年，辽承天太后与辽圣宗率军南下，攻至澶州，与宋议和，获得岁币并维持边界。日期与条款为通行说法，待页码级核对。",
+      "en": "In 1004, Empress Dowager Chengtian and Emperor Shengzong of Liao led forces south to Chanzhou and negotiated with Song, securing annual payments while maintaining the border. Dates and terms follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "chanyuan-song-1004"
+    ],
+    "importance": 2
+  },
+  {
     "id": "chanyuan-song-1004",
     "atlasId": "song-yuan",
     "name": {
@@ -180,32 +240,32 @@
     "importance": 3
   },
   {
-    "id": "chanyuan-liao-1004",
+    "id": "haoshuichuan-1040",
     "atlasId": "song-yuan",
     "name": {
-      "zh": "澶渊之盟（辽）",
-      "en": "The Chanyuan Treaty (Liao)"
+      "zh": "好水川之战",
+      "en": "The Battle of Haoshuichuan"
     },
-    "date": "1004-12-01",
+    "date": "1040-02-01",
     "location": {
-      "lng": 115.03,
-      "lat": 35.76,
+      "lng": 106.1,
+      "lat": 35.6,
       "place": {
-        "zh": "河南澶州",
-        "en": "Chanzhou, Henan"
+        "zh": "宁夏好水川",
+        "en": "Haoshuichuan, Ningxia"
       }
     },
     "entityIds": [
-      "liao"
+      "northern-song"
     ],
-    "category": "政治",
+    "category": "战役",
     "summary": {
-      "zh": "辽军南下至澶州，与宋订立澶渊之盟。",
-      "en": "Liao forces advanced to Chanzhou and concluded the Chanyuan Treaty with Song."
+      "zh": "宋军在好水川被西夏军伏击，损失惨重。",
+      "en": "The Song army was ambushed by Western Xia forces at Haoshuichuan and suffered heavy losses."
     },
     "description": {
-      "zh": "1004 年，辽承天太后与辽圣宗率军南下，攻至澶州，与宋议和，获得岁币并维持边界。日期与条款为通行说法，待页码级核对。",
-      "en": "In 1004, Empress Dowager Chengtian and Emperor Shengzong of Liao led forces south to Chanzhou and negotiated with Song, securing annual payments while maintaining the border. Dates and terms follow conventional accounts and await page-level verification."
+      "zh": "1040 年，西夏李元昊率军南下，宋军任福部追击至好水川，被西夏军伏击，宋军大败。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1040, Li Yuanhao of Western Xia led forces south. The Song commander Ren Fu pursued to Haoshuichuan and was ambushed, suffering a major defeat. Dates and details follow conventional accounts and await page-level verification."
     },
     "images": [],
     "sources": [
@@ -235,7 +295,67 @@
       }
     ],
     "relatedIds": [
-      "chanyuan-song-1004"
+      "qingli-1044"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "qingli-1044",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "庆历和议",
+      "en": "The Qingli Peace"
+    },
+    "date": "1044-10-01",
+    "location": {
+      "lng": 114.3,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南开封",
+        "en": "Kaifeng, Henan"
+      }
+    },
+    "entityIds": [
+      "northern-song"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "宋夏议和，西夏向宋称臣，宋每年赐予银绢。",
+      "en": "Song and Western Xia made peace, with Xia nominally submitting and Song paying annual silver and silk."
+    },
+    "description": {
+      "zh": "1044 年，宋夏经过长期战争后议和，西夏向宋称臣，宋每年赐银、绢、茶，史称庆历和议。日期与条款为通行说法，待页码级核对。",
+      "en": "In 1044, after years of war, Song and Western Xia negotiated peace. Xia nominally submitted to Song, which provided annual silver, silk, and tea. Dates and terms follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "haoshuichuan-1040"
     ],
     "importance": 2
   },
@@ -300,6 +420,126 @@
     "importance": 2
   },
   {
+    "id": "ningjiangzhou-1114",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "宁江州之战",
+      "en": "The Battle of Ningjiangzhou"
+    },
+    "date": "1114-09-01",
+    "location": {
+      "lng": 124.8,
+      "lat": 45.2,
+      "place": {
+        "zh": "吉林宁江州",
+        "en": "Ningjiangzhou, Jilin"
+      }
+    },
+    "entityIds": [
+      "liao"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "完颜阿骨打起兵攻辽，攻克宁江州。",
+      "en": "Wanyan Aguda rose against Liao and captured Ningjiangzhou."
+    },
+    "description": {
+      "zh": "1114 年，女真完颜部首领阿骨打起兵反辽，率军攻克宁江州，成为金灭辽战争的起点。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1114, Wanyan Aguda, leader of the Jurchen Wanyan tribe, rose against Liao and captured Ningjiangzhou, beginning the war that would destroy Liao. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "liao-fall-1125"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "fangla-1120",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "方腊起义",
+      "en": "The Fang La rebellion"
+    },
+    "date": "1120-10-01",
+    "location": {
+      "lng": 119.4,
+      "lat": 29.5,
+      "place": {
+        "zh": "浙江睦州",
+        "en": "Muzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "northern-song"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "方腊在睦州起义，攻占江南多州。",
+      "en": "Fang La rose at Muzhou and captured several prefectures in Jiangnan."
+    },
+    "description": {
+      "zh": "1120 年，方腊在睦州青溪起义，以摩尼教组织民众，攻占杭州等地，宋廷调军镇压。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1120, Fang La rose in Qingxi, Muzhou, organized followers through Manichaeism, and captured Hangzhou and other places before the Song court sent troops to suppress the rebellion. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "jingkang-1127"
+    ],
+    "importance": 2
+  },
+  {
     "id": "liao-fall-1125",
     "atlasId": "song-yuan",
     "name": {
@@ -326,6 +566,66 @@
     "description": {
       "zh": "1125 年，金军继续西进，辽天祚帝在应州被俘，辽朝灭亡，金与北宋直接接壤。日期与经过为通行说法，待页码级核对。",
       "en": "In 1125, Jin forces advanced west and captured Emperor Tianzuo of Liao at Yingzhou, ending the Liao dynasty and bringing Jin into direct contact with the Northern Song. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "jingkang-1127"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "taiyuan-1126",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "太原之战",
+      "en": "The Siege of Taiyuan"
+    },
+    "date": "1126-09-01",
+    "location": {
+      "lng": 112.55,
+      "lat": 37.87,
+      "place": {
+        "zh": "山西太原",
+        "en": "Taiyuan, Shanxi"
+      }
+    },
+    "entityIds": [
+      "jin"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "金军围攻太原，宋军坚守多月后城破。",
+      "en": "Jin forces besieged Taiyuan, which fell after months of Song resistance."
+    },
+    "description": {
+      "zh": "1126 年，金军分路南下，围攻太原，宋军坚守数月，最终城破，金军得以长驱南下。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1126, Jin forces advanced south along several routes and besieged Taiyuan. The Song garrison held out for months before the city fell, opening the way for a deeper Jin advance. Dates and details follow conventional accounts and await page-level verification."
     },
     "images": [],
     "sources": [
@@ -480,6 +780,126 @@
     "importance": 2
   },
   {
+    "id": "fuping-1130",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "富平之战",
+      "en": "The Battle of Fuping"
+    },
+    "date": "1130-09-01",
+    "location": {
+      "lng": 109.18,
+      "lat": 34.75,
+      "place": {
+        "zh": "陕西富平",
+        "en": "Fuping, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "jin"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "金军在富平击败宋军，控制陕西。",
+      "en": "Jin forces defeated the Song army at Fuping and took control of Shaanxi."
+    },
+    "description": {
+      "zh": "1130 年，金军进攻陕西，宋军集结富平迎战，因指挥失误被金军击败，陕西大部落入金朝控制。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1130, Jin forces attacked Shaanxi. The Song army massed at Fuping but was defeated through command failures, leaving most of Shaanxi under Jin control. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "shunchang-1140"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "shunchang-1140",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "顺昌之战",
+      "en": "The Battle of Shunchang"
+    },
+    "date": "1140-05-01",
+    "location": {
+      "lng": 115.8,
+      "lat": 32.9,
+      "place": {
+        "zh": "安徽顺昌",
+        "en": "Shunchang, Anhui"
+      }
+    },
+    "entityIds": [
+      "jin"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "刘锜在顺昌以少胜多，击退金军。",
+      "en": "Liu Qi defeated a larger Jin force at Shunchang."
+    },
+    "description": {
+      "zh": "1140 年，金军南下，刘锜率宋军坚守顺昌，以少胜多击退金军，成为宋金战争中的著名防御战。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1140, Jin forces advanced south. Liu Qi led the Song defense at Shunchang and defeated a larger Jin army, making it a famous defensive battle of the Song-Jin wars. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "yancheng-1140"
+    ],
+    "importance": 3
+  },
+  {
     "id": "yancheng-1140",
     "atlasId": "song-yuan",
     "name": {
@@ -538,6 +958,186 @@
       "caishi-song-1161"
     ],
     "importance": 3
+  },
+  {
+    "id": "shaoxing-1141",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "绍兴和议",
+      "en": "The Shaoxing Peace"
+    },
+    "date": "1141-11-01",
+    "location": {
+      "lng": 120.15,
+      "lat": 30.27,
+      "place": {
+        "zh": "浙江临安",
+        "en": "Lin’an, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "southern-song"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "南宋与金议和，以淮水、大散关为界。",
+      "en": "The Southern Song and Jin made peace, fixing the border at the Huai River and Dasan Pass."
+    },
+    "description": {
+      "zh": "1141 年，南宋与金达成绍兴和议，东以淮水、西以大散关为界，宋向金称臣纳贡。日期与条款为通行说法，待页码级核对。",
+      "en": "In 1141, the Southern Song and Jin concluded the Shaoxing Peace, fixing the border along the Huai River in the east and Dasan Pass in the west, with Song as a subordinate paying tribute. Dates and terms follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "yuefei-death-1142"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "yuefei-death-1142",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "岳飞之死",
+      "en": "The death of Yue Fei"
+    },
+    "date": "1142-01-01",
+    "location": {
+      "lng": 120.15,
+      "lat": 30.27,
+      "place": {
+        "zh": "浙江临安",
+        "en": "Lin’an, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "southern-song"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "岳飞被以“莫须有”罪名杀害。",
+      "en": "Yue Fei was executed on fabricated charges."
+    },
+    "description": {
+      "zh": "1142 年，南宋朝廷在议和背景下将岳飞下狱，以“莫须有”罪名杀害，成为宋金和议的悲剧注脚。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1142, amid the peace negotiations, the Southern Song court imprisoned Yue Fei and executed him on fabricated charges, a tragic episode of the Song-Jin peace. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "shaoxing-1141"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "caishi-jin-1161",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "采石之战（金）",
+      "en": "The Battle of Caishi (Jin)"
+    },
+    "date": "1161-11-01",
+    "location": {
+      "lng": 118.5,
+      "lat": 31.7,
+      "place": {
+        "zh": "安徽采石",
+        "en": "Caishi, Anhui"
+      }
+    },
+    "entityIds": [
+      "jin"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "完颜亮南侵，在采石渡江失败。",
+      "en": "Wanyan Liang’s southern campaign failed in its Yangtze crossing at Caishi."
+    },
+    "description": {
+      "zh": "1161 年，金主完颜亮率大军南下，企图自采石渡江，被宋军水师击退，随后金军内部发生政变，完颜亮被杀。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1161, Jin emperor Wanyan Liang led a major southern campaign and attempted to cross the Yangtze at Caishi. The Song navy repelled the crossing, and a coup soon led to Wanyan Liang’s death. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "caishi-song-1161"
+    ],
+    "importance": 2
   },
   {
     "id": "caishi-song-1161",
@@ -600,32 +1200,32 @@
     "importance": 3
   },
   {
-    "id": "caishi-jin-1161",
+    "id": "longxing-1163",
     "atlasId": "song-yuan",
     "name": {
-      "zh": "采石之战（金）",
-      "en": "The Battle of Caishi (Jin)"
+      "zh": "隆兴北伐",
+      "en": "The Longxing northern expedition"
     },
-    "date": "1161-11-01",
+    "date": "1163-05-01",
     "location": {
-      "lng": 118.5,
-      "lat": 31.7,
+      "lng": 116.98,
+      "lat": 33.63,
       "place": {
-        "zh": "安徽采石",
-        "en": "Caishi, Anhui"
+        "zh": "安徽宿州",
+        "en": "Suzhou, Anhui"
       }
     },
     "entityIds": [
-      "jin"
+      "southern-song"
     ],
     "category": "战役",
     "summary": {
-      "zh": "完颜亮南侵，在采石渡江失败。",
-      "en": "Wanyan Liang’s southern campaign failed in its Yangtze crossing at Caishi."
+      "zh": "宋孝宗发动隆兴北伐，在宿州失利。",
+      "en": "Emperor Xiaozong of Song launched the Longxing expedition, which failed at Suzhou."
     },
     "description": {
-      "zh": "1161 年，金主完颜亮率大军南下，企图自采石渡江，被宋军水师击退，随后金军内部发生政变，完颜亮被杀。日期与经过为通行说法，待页码级核对。",
-      "en": "In 1161, Jin emperor Wanyan Liang led a major southern campaign and attempted to cross the Yangtze at Caishi. The Song navy repelled the crossing, and a coup soon led to Wanyan Liang’s death. Dates and details follow conventional accounts and await page-level verification."
+      "zh": "1163 年，宋孝宗即位后发动隆兴北伐，宋军初胜后因将领不和在宿州大败，最终与金朝再订和议。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1163, Emperor Xiaozong launched the Longxing northern expedition. After initial success, the Song army was routed at Suzhou because of disagreements among commanders, leading to another peace with Jin. Dates and details follow conventional accounts and await page-level verification."
     },
     "images": [],
     "sources": [
@@ -655,7 +1255,7 @@
       }
     ],
     "relatedIds": [
-      "caishi-song-1161"
+      "shaoxing-1141"
     ],
     "importance": 2
   },
@@ -780,6 +1380,66 @@
     "importance": 2
   },
   {
+    "id": "sanfengshan-1231",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "三峰山之战",
+      "en": "The Battle of Sanfeng Mountain"
+    },
+    "date": "1231-02-01",
+    "location": {
+      "lng": 113.4,
+      "lat": 34.1,
+      "place": {
+        "zh": "河南三峰山",
+        "en": "Sanfeng Mountain, Henan"
+      }
+    },
+    "entityIds": [
+      "mongol-yuan"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "蒙古军在三峰山歼灭金军主力。",
+      "en": "The Mongols destroyed the main Jin army at Sanfeng Mountain."
+    },
+    "description": {
+      "zh": "1231 年，蒙古军追击金军至三峰山，乘大雪包围并歼灭金军主力，金朝精锐损失殆尽。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1231, Mongol forces pursued the Jin army to Sanfeng Mountain and, in heavy snow, surrounded and destroyed its main force, leaving Jin without its elite troops. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "caizhou-1234"
+    ],
+    "importance": 3
+  },
+  {
     "id": "caizhou-1234",
     "atlasId": "song-yuan",
     "name": {
@@ -836,6 +1496,66 @@
     ],
     "relatedIds": [
       "jingkang-1127"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "dali-1253",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "蒙古灭大理",
+      "en": "The Mongols conquer Dali"
+    },
+    "date": "1253-12-01",
+    "location": {
+      "lng": 100.2,
+      "lat": 25.6,
+      "place": {
+        "zh": "云南大理",
+        "en": "Dali, Yunnan"
+      }
+    },
+    "entityIds": [
+      "mongol-yuan"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "蒙古军攻灭大理国，形成对南宋的西南包围。",
+      "en": "The Mongols conquered the Dali Kingdom, creating a southwestern flank against the Southern Song."
+    },
+    "description": {
+      "zh": "1253 年，忽必烈率蒙古军经川西高原南下，攻灭大理国，为蒙古从西南包抄南宋创造条件。日期与路线为通行说法，待页码级核对。",
+      "en": "In 1253, Kublai led Mongol forces south through the western Sichuan plateau and conquered the Dali Kingdom, creating a southwestern route around the Southern Song. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "xiangyang-1273"
     ],
     "importance": 3
   },
@@ -926,6 +1646,126 @@
     "description": {
       "zh": "1273 年，元军长期围困襄阳，使用回回炮攻破樊城、襄阳，南宋长江中游门户洞开。日期与经过为通行说法，待页码级核对。",
       "en": "In 1273, Yuan forces broke the long siege of Xiangyang, using counterweight trebuchets to take Fancheng and Xiangyang and opening the middle Yangtze to invasion. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "linan-1276"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "ezhou-1274",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "元军渡江",
+      "en": "Yuan forces cross the Yangtze"
+    },
+    "date": "1274-12-01",
+    "location": {
+      "lng": 114.3,
+      "lat": 30.6,
+      "place": {
+        "zh": "湖北鄂州",
+        "en": "Ezhou, Hubei"
+      }
+    },
+    "entityIds": [
+      "mongol-yuan"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "元军自襄阳南下，渡江攻占鄂州。",
+      "en": "Yuan forces moved south from Xiangyang, crossed the Yangtze, and took Ezhou."
+    },
+    "description": {
+      "zh": "1274 年，元军在襄阳陷落后沿汉水南下，渡长江攻占鄂州，南宋长江防线全面动摇。日期与路线为通行说法，待页码级核对。",
+      "en": "In 1274, after the fall of Xiangyang, Yuan forces moved down the Han River, crossed the Yangtze, and captured Ezhou, shaking the entire Southern Song river defense. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《宋史》",
+        "author": "脱脱等",
+        "year": 1346,
+        "note": "宋代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《辽史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "辽代事件参考"
+      },
+      {
+        "title": "《金史》",
+        "author": "脱脱等",
+        "year": 1344,
+        "note": "金代事件参考"
+      },
+      {
+        "title": "《元史》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "蒙古与元代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "dingjiazhou-1275"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "dingjiazhou-1275",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "丁家洲之战",
+      "en": "The Battle of Dingjiazhou"
+    },
+    "date": "1275-02-01",
+    "location": {
+      "lng": 117.5,
+      "lat": 30.6,
+      "place": {
+        "zh": "安徽丁家洲",
+        "en": "Dingjiazhou, Anhui"
+      }
+    },
+    "entityIds": [
+      "southern-song"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "元军在丁家洲大败南宋水军，直逼临安。",
+      "en": "Yuan forces routed the Southern Song navy at Dingjiazhou and advanced on Lin’an."
+    },
+    "description": {
+      "zh": "1275 年，元军沿江东下，在丁家洲击败南宋水军主力，宋军溃败，临安门户洞开。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1275, Yuan forces advanced east along the Yangtze and defeated the main Southern Song fleet at Dingjiazhou. The Song army collapsed, leaving Lin’an exposed. Dates and details follow conventional accounts and await page-level verification."
     },
     "images": [],
     "sources": [
