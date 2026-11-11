@@ -364,8 +364,8 @@ jobs:
 
   release:
     name: GitHub Release (tags)
-    if: startsWith(github.ref, 'refs/tags/')
-    needs: [web, desktop-macos, desktop-windows, android]
+    if: ${{ always() && startsWith(github.ref, 'refs/tags/') && needs.web.result == 'success' }}
+    needs: [web, desktop-macos, desktop-windows, android, ios]
     runs-on: ubuntu-latest
     permissions:
       contents: write
