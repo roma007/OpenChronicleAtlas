@@ -143,6 +143,7 @@ docs/
 - [对话档案：M84 疆域文字标识](conversations/2026-11-11-M84-疆域文字标识.md)
 - [对话档案：M85 疆域重叠修正](conversations/2026-11-11-M85-疆域重叠修正.md)
 - [对话档案：M86 疆域数据升级为 Cliopatria](conversations/2026-11-11-M86-疆域数据升级Cliopatria.md)
+- [对话档案：M87 修正疆域标识落点](conversations/2026-11-11-M87-修正疆域标识落点.md)
 
 ### 计划与方案
 - [2026-11-03 M1 初始化脚手架 - 计划](plans/2026-11-03-M1-初始化脚手架-plan.md)
@@ -319,6 +320,8 @@ docs/
 - [M85 疆域重叠修正 — 方案](plans/2026-11-11-M85-疆域重叠修正-design.md)
 - [M86 疆域数据升级为 Cliopatria — 计划](plans/2026-11-11-M86-疆域数据升级Cliopatria-plan.md)
 - [M86 疆域数据升级为 Cliopatria — 方案](plans/2026-11-11-M86-疆域数据升级Cliopatria-design.md)
+- [M87 修正疆域标识落点 — 计划](plans/2026-11-11-M87-修正疆域标识落点-plan.md)
+- [M87 修正疆域标识落点 — 方案](plans/2026-11-11-M87-修正疆域标识落点-design.md)
 - [M49 郑和/玄奘节点扩充（第三批）— 计划](plans/2026-11-06-M49-郑和玄奘节点扩充第三批-plan.md)
 
 ### 架构决策
