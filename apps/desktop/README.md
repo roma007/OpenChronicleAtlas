@@ -45,6 +45,7 @@ pnpm --filter @atlas/desktop icon
 
 ## 注意
 
-- 桌面端复用 Web 的高德 Key；上线前需在高德控制台确认 Key 的域名/来源限制与商用许可；
+- 桌面端优先读取 `VITE_AMAP_DESKTOP_KEY` / `VITE_AMAP_DESKTOP_SECURITY_CODE`，未配置时回退 `VITE_AMAP_KEY`；
+- 上线前需在高德控制台确认桌面 Key 的来源限制与商用许可；
 - 桌面构建会关闭 PWA、改用 HashRouter；
 - 不包含自动更新与遥测。

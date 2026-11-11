@@ -56,8 +56,10 @@
 
 | Secret | 用途 |
 | --- | --- |
-| `VITE_AMAP_KEY` | Web / 桌面高德 JS Key |
-| `VITE_AMAP_SECURITY_CODE` | Web / 桌面高德安全密钥 |
+| `VITE_AMAP_KEY` | Web 高德 JS Key |
+| `VITE_AMAP_SECURITY_CODE` | Web 高德安全密钥 |
+| `VITE_AMAP_DESKTOP_KEY` | 桌面端高德 JS Key（未配置时回退 Web Key） |
+| `VITE_AMAP_DESKTOP_SECURITY_CODE` | 桌面端安全密钥 |
 | `EXPO_PUBLIC_AMAP_ANDROID_KEY` | Android 高德 Key |
 | `EXPO_PUBLIC_AMAP_IOS_KEY` | iOS 高德 Key |
 | `ANDROID_KEYSTORE_BASE64` | Android release keystore（base64） |
@@ -71,6 +73,15 @@
 | `APPLE_PROVISIONING_PROFILE_NAME` | profile 名称（需与安装后一致） |
 
 可选 Repository variable：`SHARE_BASE_URL`（桌面端分享链接的正式 Web 域名）。
+
+配置完本地 `.env.local` 后，可直接运行：
+
+```bash
+gh auth login
+bash scripts/set-github-secrets.sh
+```
+
+脚本只上传 Secret 名称与值，不会把 Key 写入仓库；检测到 `~/.openchronicle/atlas-keystore.properties` 时会一并上传 Android 签名。
 
 > 未配置高德 Key 时，CI 仍会产出安装包，但地图无法加载；未配置 Android keystore 时只产出 debug APK；未配置 Apple 签名时 iOS job 自动跳过。
 

@@ -27,6 +27,7 @@
 | --- | --- | --- | --- | --- |
 | Android | PackageName + 发布版 SHA1 + 调试版 SHA1 | 地图 SDK（后续可加定位 SDK） | **已配置（本地）** | `EXPO_PUBLIC_AMAP_ANDROID_KEY` |
 | Web 端 (JS API) | 域名白名单 + 安全密钥 | Web 地图 | **已配置（本地）** | `VITE_AMAP_KEY` / `VITE_AMAP_SECURITY_CODE` |
+| 桌面端 (JS API) | 来源白名单 + 安全密钥 | macOS / Windows 地图 | **已配置（本地）** | `VITE_AMAP_DESKTOP_KEY` / `VITE_AMAP_DESKTOP_SECURITY_CODE` |
 | iOS | Bundle ID | iOS 地图 SDK | **已配置（本地）** | `EXPO_PUBLIC_AMAP_IOS_KEY` |
 | Web 服务 | IP / 域名白名单 | 可选：地理编码、REST 检索 | 按需 | 服务端环境变量 |
 
@@ -204,8 +205,12 @@ keytool -printcert -jarfile app-release.apk | grep "SHA1:"
 ```bash
 VITE_AMAP_KEY=你的Web端Key
 VITE_AMAP_SECURITY_CODE=你的安全密钥
+VITE_AMAP_DESKTOP_KEY=你的桌面端Web Key
+VITE_AMAP_DESKTOP_SECURITY_CODE=你的桌面端安全密钥
 VITE_AMAP_STYLE_ID=自定义样式ID（可选）
 ```
+
+桌面端（Tauri）优先使用 `VITE_AMAP_DESKTOP_*`；未配置时回退 `VITE_AMAP_*`。桌面 Key 的来源白名单建议允许 `localhost` 与 `tauri.localhost`，或按高德控制台实际支持的来源配置。
 
 ### 7.2 移动端（`apps/mobile/.env.local`，已 gitignore）
 

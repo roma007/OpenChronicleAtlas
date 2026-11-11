@@ -86,7 +86,7 @@ git ls-remote gitee  refs/heads/main   # 两值应与本地 HEAD 相同
 | 数据托管 | 纯静态 JSON / GeoJSON（`/data/atlases`），后续可迁移 Supabase |
 | 部署 | Web：Vercel / Cloudflare Pages；移动端：Xcode / EAS Build 产出 IPA、AAB；桌面端：Tauri 产出 DMG / MSI，GitHub Actions 构建 Windows |
 
-**高德 Key 配置**：Web 用 `VITE_AMAP_KEY` + `VITE_AMAP_SECURITY_CODE`；移动端用 `EXPO_PUBLIC_AMAP_ANDROID_KEY` / `EXPO_PUBLIC_AMAP_IOS_KEY`。申请与填写步骤见 [`docs/guides/amap-setup.md`](docs/guides/amap-setup.md)。
+**高德 Key 配置**：Web 用 `VITE_AMAP_KEY` + `VITE_AMAP_SECURITY_CODE`；桌面端优先用 `VITE_AMAP_DESKTOP_KEY` + `VITE_AMAP_DESKTOP_SECURITY_CODE`（未配置时回退 Web Key）；移动端用 `EXPO_PUBLIC_AMAP_ANDROID_KEY` / `EXPO_PUBLIC_AMAP_IOS_KEY`。申请与填写步骤见 [`docs/guides/amap-setup.md`](docs/guides/amap-setup.md)。
 
 ### 桌面端命令
 
@@ -171,6 +171,8 @@ pnpm build            # Web 生产构建（含数据拷贝到 dist/data）
 # apps/web/.env.local
 VITE_AMAP_KEY=...
 VITE_AMAP_SECURITY_CODE=...
+VITE_AMAP_DESKTOP_KEY=...
+VITE_AMAP_DESKTOP_SECURITY_CODE=...
 
 # apps/mobile/.env.local
 EXPO_PUBLIC_AMAP_ANDROID_KEY=...

@@ -113,6 +113,8 @@ jobs:
         env:
           VITE_AMAP_KEY: ${{ secrets.VITE_AMAP_KEY }}
           VITE_AMAP_SECURITY_CODE: ${{ secrets.VITE_AMAP_SECURITY_CODE }}
+          VITE_AMAP_DESKTOP_KEY: ${{ secrets.VITE_AMAP_DESKTOP_KEY }}
+          VITE_AMAP_DESKTOP_SECURITY_CODE: ${{ secrets.VITE_AMAP_DESKTOP_SECURITY_CODE }}
           VITE_SHARE_BASE_URL: ${{ vars.SHARE_BASE_URL }}
         run: pnpm --filter @atlas/desktop exec tauri build --target ${{ matrix.target }} --bundles app,dmg
 
@@ -158,6 +160,8 @@ jobs:
         env:
           VITE_AMAP_KEY: ${{ secrets.VITE_AMAP_KEY }}
           VITE_AMAP_SECURITY_CODE: ${{ secrets.VITE_AMAP_SECURITY_CODE }}
+          VITE_AMAP_DESKTOP_KEY: ${{ secrets.VITE_AMAP_DESKTOP_KEY }}
+          VITE_AMAP_DESKTOP_SECURITY_CODE: ${{ secrets.VITE_AMAP_DESKTOP_SECURITY_CODE }}
           VITE_SHARE_BASE_URL: ${{ vars.SHARE_BASE_URL }}
         run: pnpm --filter @atlas/desktop exec tauri build --bundles msi,nsis
 

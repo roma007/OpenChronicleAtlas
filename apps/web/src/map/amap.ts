@@ -6,12 +6,22 @@ let loaderPromise: Promise<any> | null = null;
 export function loadAMap(): Promise<any> {
   if (loaderPromise) return loaderPromise;
 
-  const key = import.meta.env.VITE_AMAP_KEY;
-  const securityJsCode = import.meta.env.VITE_AMAP_SECURITY_CODE;
+  const isDesktop = import.meta.env.MODE === 'desktop';
+  const key = isDesktop
+    ? import.meta.env.VITE_AMAP_DESKTOP_KEY || import.meta.env.VITE_AMAP_KEY
+    : import.meta.env.VITE_AMAP_KEY;
+  const securityJsCode = isDesktop
+    ? import.meta.env.VITE_AMAP_DESKTOP_SECURITY_CODE ||
+      import.meta.env.VITE_AMAP_SECURITY_CODE
+    : import.meta.env.VITE_AMAP_SECURITY_CODE;
 
   if (!key) {
     return Promise.reject(
-      new Error('未配置 VITE_AMAP_KEY。请在 apps/web/.env.local 中填写高德 Web 端 Key。'),
+      new Error(
+        isDesktop
+          ? '未配置 VITE_AMAP_DESKTOP_KEY 或 VITE_AMAP_KEY。请在 apps/web/.env.local 中填写桌面端 Key。'
+          : '未配置 VITE_AMAP_KEY。请在 apps/web/.env.local 中填写高德 Web 端 Key。',
+      ),
     );
   }
 
