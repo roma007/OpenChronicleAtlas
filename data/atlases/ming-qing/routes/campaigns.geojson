@@ -1503,6 +1503,40 @@
         "type": "LineString",
         "coordinates": [
           [
+            126.99,
+            36.8
+          ],
+          [
+            127.12,
+            36.92
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1894-07-28",
+        "endDate": "1894-07-31",
+        "order": 43,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "牙山—成欢",
+          "en": "Asan–Seonghwan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             122.12,
             37.51
           ],
@@ -1516,7 +1550,7 @@
         "entityId": "qing",
         "startDate": "1894-09-01",
         "endDate": "1894-10-31",
-        "order": 43,
+        "order": 44,
         "segmentType": "naval",
         "name": {
           "zh": "威海—黄海",
@@ -1550,7 +1584,7 @@
         "entityId": "qing",
         "startDate": "1894-09-01",
         "endDate": "1894-09-30",
-        "order": 44,
+        "order": 45,
         "segmentType": "defense",
         "name": {
           "zh": "平壤城内",
@@ -1588,11 +1622,45 @@
         "entityId": "qing",
         "startDate": "1894-10-01",
         "endDate": "1894-11-30",
-        "order": 45,
+        "order": 46,
         "segmentType": "advance",
         "name": {
           "zh": "鸭绿江—旅顺",
           "en": "Yalu–Lüshun"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            124.4,
+            40.1
+          ],
+          [
+            124.38,
+            40.13
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1894-10-24",
+        "endDate": "1894-10-31",
+        "order": 47,
+        "segmentType": "defense",
+        "name": {
+          "zh": "鸭绿江—九连城",
+          "en": "Yalu–Jiuliancheng"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -1622,7 +1690,7 @@
         "entityId": "qing",
         "startDate": "1895-01-01",
         "endDate": "1895-02-28",
-        "order": 46,
+        "order": 48,
         "segmentType": "defense",
         "name": {
           "zh": "威海卫城内",
@@ -1656,7 +1724,7 @@
         "entityId": "qing",
         "startDate": "1895-04-01",
         "endDate": "1895-05-31",
-        "order": 47,
+        "order": 49,
         "segmentType": "other",
         "name": {
           "zh": "北京—东交民巷",
@@ -1690,7 +1758,7 @@
         "entityId": "qing",
         "startDate": "1895-04-01",
         "endDate": "1895-04-30",
-        "order": 48,
+        "order": 50,
         "segmentType": "other",
         "name": {
           "zh": "马关—春帆楼",
@@ -1728,11 +1796,49 @@
         "entityId": "qing",
         "startDate": "1895-05-25",
         "endDate": "1895-10-31",
-        "order": 49,
+        "order": 51,
         "segmentType": "retreat",
         "name": {
           "zh": "台北—台南",
           "en": "Taipei–Tainan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.56,
+            25.03
+          ],
+          [
+            121.3,
+            24.9
+          ],
+          [
+            121.0,
+            24.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1895-05-29",
+        "endDate": "1895-07-31",
+        "order": 52,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "台北—新竹",
+          "en": "Taipei–Hsinchu"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -1762,11 +1868,147 @@
         "entityId": "qing",
         "startDate": "1895-08-01",
         "endDate": "1895-12-31",
-        "order": 50,
+        "order": 53,
         "segmentType": "other",
         "name": {
           "zh": "汉阳—枪炮厂",
           "en": "Hanyang–Arsenal"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.54,
+            24.08
+          ],
+          [
+            120.55,
+            24.07
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1895-08-27",
+        "endDate": "1895-08-31",
+        "order": 54,
+        "segmentType": "defense",
+        "name": {
+          "zh": "彰化—八卦山",
+          "en": "Changhua–Bagua Mountain"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.2,
+            23.0
+          ],
+          [
+            120.21,
+            23.01
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1895-10-18",
+        "endDate": "1895-10-31",
+        "order": 55,
+        "segmentType": "defense",
+        "name": {
+          "zh": "台南城内",
+          "en": "Within Tainan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            116.41,
+            39.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1895-11-01",
+        "endDate": "1895-11-30",
+        "order": 56,
+        "segmentType": "other",
+        "name": {
+          "zh": "北京—辽南条约",
+          "en": "Beijing–Treaty of Liaonan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.26,
+            38.81
+          ],
+          [
+            121.25,
+            38.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1895-12-01",
+        "endDate": "1896-01-31",
+        "order": 57,
+        "segmentType": "other",
+        "name": {
+          "zh": "旅顺—船坞",
+          "en": "Lüshun–Dockyard"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -1796,7 +2038,7 @@
         "entityId": "qing",
         "startDate": "1898-03-01",
         "endDate": "1898-04-30",
-        "order": 51,
+        "order": 58,
         "segmentType": "other",
         "name": {
           "zh": "北京—使馆区",
@@ -1830,7 +2072,7 @@
         "entityId": "qing",
         "startDate": "1898-06-01",
         "endDate": "1898-09-30",
-        "order": 52,
+        "order": 59,
         "segmentType": "other",
         "name": {
           "zh": "北京—颐和园",
@@ -1864,7 +2106,7 @@
         "entityId": "qing",
         "startDate": "1900-06-01",
         "endDate": "1900-07-31",
-        "order": 53,
+        "order": 60,
         "segmentType": "other",
         "name": {
           "zh": "上海—南京",
@@ -1902,7 +2144,7 @@
         "entityId": "qing",
         "startDate": "1900-06-01",
         "endDate": "1900-08-31",
-        "order": 54,
+        "order": 61,
         "segmentType": "advance",
         "name": {
           "zh": "天津—北京",
@@ -1936,7 +2178,7 @@
         "entityId": "qing",
         "startDate": "1901-01-01",
         "endDate": "1901-12-31",
-        "order": 55,
+        "order": 62,
         "segmentType": "other",
         "name": {
           "zh": "北京—宪政编查馆",
@@ -1970,7 +2212,7 @@
         "entityId": "qing",
         "startDate": "1906-09-01",
         "endDate": "1908-09-30",
-        "order": 56,
+        "order": 63,
         "segmentType": "other",
         "name": {
           "zh": "北京—资政院",
@@ -2004,7 +2246,7 @@
         "entityId": "qing",
         "startDate": "1909-01-01",
         "endDate": "1909-02-28",
-        "order": 57,
+        "order": 64,
         "segmentType": "other",
         "name": {
           "zh": "北京—民政部",
@@ -2038,7 +2280,7 @@
         "entityId": "qing",
         "startDate": "1909-10-01",
         "endDate": "1909-11-30",
-        "order": 58,
+        "order": 65,
         "segmentType": "other",
         "name": {
           "zh": "北京—咨议局",
@@ -2072,11 +2314,45 @@
         "entityId": "qing",
         "startDate": "1910-01-01",
         "endDate": "1910-02-28",
-        "order": 59,
+        "order": 66,
         "segmentType": "other",
         "name": {
           "zh": "北京—请愿国会",
           "en": "Beijing–Parliament Petition"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            116.39,
+            39.91
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1910-09-15",
+        "endDate": "1910-10-31",
+        "order": 67,
+        "segmentType": "other",
+        "name": {
+          "zh": "北京—资政院开院",
+          "en": "Beijing–Advisory Council Opening"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -2106,7 +2382,7 @@
         "entityId": "qing",
         "startDate": "1911-05-01",
         "endDate": "1911-06-30",
-        "order": 60,
+        "order": 68,
         "segmentType": "other",
         "name": {
           "zh": "北京—皇族内阁",
@@ -2144,7 +2420,7 @@
         "entityId": "qing",
         "startDate": "1911-06-01",
         "endDate": "1911-10-31",
-        "order": 61,
+        "order": 69,
         "segmentType": "other",
         "name": {
           "zh": "成都—武昌",
@@ -2178,7 +2454,7 @@
         "entityId": "qing",
         "startDate": "1911-10-01",
         "endDate": "1911-11-30",
-        "order": 62,
+        "order": 70,
         "segmentType": "other",
         "name": {
           "zh": "武昌城内",
@@ -2212,7 +2488,7 @@
         "entityId": "qing",
         "startDate": "1912-01-01",
         "endDate": "1912-02-12",
-        "order": 63,
+        "order": 71,
         "segmentType": "other",
         "name": {
           "zh": "北京城内",

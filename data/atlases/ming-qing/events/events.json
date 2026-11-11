@@ -2521,6 +2521,73 @@
     "importance": 3
   },
   {
+    "id": "chenghuan-1894",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "成欢之战",
+      "en": "The Battle of Seonghwan"
+    },
+    "date": "1894-07-29",
+    "location": {
+      "lng": 127.12,
+      "lat": 36.92,
+      "place": {
+        "zh": "朝鲜成欢",
+        "en": "Seonghwan, Korea"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军进攻成欢，清军败退牙山。",
+      "en": "Japanese forces attacked Seonghwan and drove the Qing army back to Asan."
+    },
+    "description": {
+      "zh": "1894 年 7 月 29 日，日军进攻驻守朝鲜成欢的清军，清军战败后向牙山方向退却，聂士成等率部突围，甲午陆战由此展开。日期与经过为通行说法，待页码级核对。",
+      "en": "On 29 July 1894 Japanese forces attacked the Qing garrison at Seonghwan. After defeat the Qing troops withdrew toward Asan, with Nie Shicheng’s units breaking out, opening the land war of 1894–95. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "fengdao-1894",
+      "pyongyang-1894"
+    ],
+    "importance": 2
+  },
+  {
     "id": "pyongyang-1894",
     "atlasId": "ming-qing",
     "name": {
@@ -2640,6 +2707,73 @@
       "weihaiwei-1895"
     ],
     "importance": 3
+  },
+  {
+    "id": "jiuliancheng-1894",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "九连城之战",
+      "en": "The Battle of Jiuliancheng"
+    },
+    "date": "1894-10-26",
+    "location": {
+      "lng": 124.38,
+      "lat": 40.13,
+      "place": {
+        "zh": "辽宁丹东",
+        "en": "Dandong, Liaoning"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军突破鸭绿江防线，攻占九连城。",
+      "en": "Japanese forces broke the Yalu defense line and captured Jiuliancheng."
+    },
+    "description": {
+      "zh": "1894 年 10 月，日军在鸭绿江架桥渡江，进攻九连城与安东，清军防线崩溃，鸭绿江防线失守，日军由此进入辽东。日期与经过为通行说法，待页码级核对。",
+      "en": "In October 1894 Japanese forces bridged the Yalu, attacked Jiuliancheng and Andong, and broke the Qing river defense, opening the way into Liaodong. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "pyongyang-1894",
+      "liaodong-1894"
+    ],
+    "importance": 2
   },
   {
     "id": "liaodong-1894",
@@ -2944,6 +3078,73 @@
     "importance": 2
   },
   {
+    "id": "yiwei-war-1895",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "乙未战争",
+      "en": "The Yiwei War"
+    },
+    "date": "1895-05-29",
+    "location": {
+      "lng": 121.56,
+      "lat": 25.03,
+      "place": {
+        "zh": "台湾台北",
+        "en": "Taipei, Taiwan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军登陆台湾，台湾军民展开乙未战争。",
+      "en": "Japanese forces landed in Taiwan, beginning the Yiwei War of resistance."
+    },
+    "description": {
+      "zh": "1895 年 5 月 29 日，日军在澳底登陆，台湾军民展开乙未战争，历经台北、新竹、苗栗、彰化、台南等战，至 10 月台南陷落而告终。日期与经过为通行说法，待页码级核对。",
+      "en": "On 29 May 1895 Japanese forces landed at Aodi, beginning the Yiwei War. Taiwanese and Qing forces fought through Taipei, Hsinchu, Miaoli, Changhua, and Tainan until the fall of Tainan in October. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "taiwan-republic-1895",
+      "baguashan-1895"
+    ],
+    "importance": 3
+  },
+  {
     "id": "hubei-arsenal-1895",
     "atlasId": "ming-qing",
     "name": {
@@ -3000,6 +3201,274 @@
     ],
     "relatedIds": [
       "hanyang-1890"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "baguashan-1895",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "八卦山战役",
+      "en": "The Battle of Bagua Mountain"
+    },
+    "date": "1895-08-28",
+    "location": {
+      "lng": 120.55,
+      "lat": 24.07,
+      "place": {
+        "zh": "台湾彰化",
+        "en": "Changhua, Taiwan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军进攻八卦山，台湾义军与黑旗军激战。",
+      "en": "Japanese forces attacked Bagua Mountain; Taiwanese militia and the Black Flag Army fought back."
+    },
+    "description": {
+      "zh": "1895 年 8 月，日军进攻彰化八卦山，台湾义军与黑旗军据险抵抗，激战后彰化失守，吴汤兴、徐骧等阵亡。日期与经过为通行说法，待页码级核对。",
+      "en": "In August 1895 Japanese forces attacked Bagua Mountain at Changhua. Taiwanese militia and the Black Flag Army resisted from strong positions, but Changhua fell after heavy fighting and leaders such as Wu Tangxing and Xu Xiang were killed. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "yiwei-war-1895",
+      "tainan-fall-1895"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tainan-fall-1895",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "台南陷落",
+      "en": "The fall of Tainan"
+    },
+    "date": "1895-10-21",
+    "location": {
+      "lng": 120.2,
+      "lat": 23.0,
+      "place": {
+        "zh": "台湾台南",
+        "en": "Tainan, Taiwan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军攻占台南，乙未战争结束。",
+      "en": "Japanese forces captured Tainan, ending the Yiwei War."
+    },
+    "description": {
+      "zh": "1895 年 10 月，日军进攻台南，刘永福内渡，台湾民主国灭亡，乙未战争结束，台湾进入日本殖民统治时期。日期与经过为通行说法，待页码级核对。",
+      "en": "In October 1895 Japanese forces took Tainan. Liu Yongfu fled to the mainland, the Republic of Formosa collapsed, and the Yiwei War ended, beginning the period of Japanese colonial rule in Taiwan. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "baguashan-1895",
+      "shimonoseki-1895"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "liaonan-treaty-1895",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "辽南条约",
+      "en": "The Treaty of Liaonan"
+    },
+    "date": "1895-11-08",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "清廷以赎金换回辽东半岛。",
+      "en": "The Qing redeemed the Liaodong Peninsula with an indemnity."
+    },
+    "description": {
+      "zh": "1895 年 11 月，中日签订《辽南条约》，清廷以三千万两白银赎回辽东半岛，日军撤出旅顺、大连，三国干涉还辽至此落地。日期与经过为通行说法，待页码级核对。",
+      "en": "In November 1895 China and Japan signed the Treaty of Liaonan. The Qing paid a 30-million-tael indemnity to redeem the Liaodong Peninsula, and Japanese forces withdrew from Lüshun and Dalian, concluding the Triple Intervention settlement. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "triple-intervention-1895",
+      "lushun-aftermath-1895"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lushun-aftermath-1895",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "旅顺善后",
+      "en": "The recovery of Lüshun"
+    },
+    "date": "1895-12-21",
+    "location": {
+      "lng": 121.26,
+      "lat": 38.81,
+      "place": {
+        "zh": "辽宁旅顺",
+        "en": "Lüshun, Liaoning"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "清军接收旅顺，处理善后与海防重建。",
+      "en": "Qing forces recovered Lüshun and began postwar reconstruction."
+    },
+    "description": {
+      "zh": "1895 年 12 月，清军接收旅顺，处理日军撤离后的善后事宜，重建海防与地方秩序，但北洋海防已难以恢复旧观。日期与经过为通行说法，待页码级核对。",
+      "en": "In December 1895 Qing forces recovered Lüshun and handled postwar matters after the Japanese withdrawal, rebuilding coastal defense and local order, though the Beiyang defense system never regained its former strength. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "liaonan-treaty-1895",
+      "liaodong-1894"
     ],
     "importance": 2
   },
@@ -3600,6 +4069,73 @@
     ],
     "relatedIds": [
       "consultative-1909"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zizhengyuan-1910",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "资政院选举",
+      "en": "The election of the Advisory Council"
+    },
+    "date": "1910-10-03",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "资政院议员选举后开院，立宪派进入中央议事机构。",
+      "en": "After elections, the Advisory Council opened, bringing constitutionalists into a central deliberative body."
+    },
+    "description": {
+      "zh": "1909 年各省选举资政院议员，1910 年 10 月资政院开院，成为清末立宪派参与中央政治的重要平台，但权限有限，未能满足速开国会的要求。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1909 the provinces elected members of the Advisory Council, which opened in October 1910 as a central deliberative body for constitutionalists. Its powers were limited, however, and it failed to satisfy demands for a parliament. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "台湾乙未战争与地方史参考"
+      }
+    ],
+    "relatedIds": [
+      "consultative-1909",
+      "parliament-petition-1910"
     ],
     "importance": 2
   },
