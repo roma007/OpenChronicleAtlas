@@ -5537,6 +5537,128 @@
     "importance": 3
   },
   {
+    "id": "changsha-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "长沙光复",
+      "en": "The recovery of Changsha"
+    },
+    "date": "1911-10-22",
+    "location": {
+      "lng": 112.94,
+      "lat": 28.23,
+      "place": {
+        "zh": "湖南长沙",
+        "en": "Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "湖南革命党人与新军起义，攻占长沙。",
+      "en": "Hunan revolutionaries and the New Army rose and took Changsha."
+    },
+    "description": {
+      "zh": "1911 年 10 月 22 日，湖南革命党人与新军起义，攻占长沙，成立湖南军政府，焦达峰、陈作新任正副都督。日期与经过为通行说法，待页码级核对。",
+      "en": "On 22 October 1911 Hunan revolutionaries and New Army units rose, captured Changsha, and established the Hunan military government with Jiao Dafeng and Chen Zuoxin as governors. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《辛亥革命史》",
+        "author": "章开沅等",
+        "year": 1980,
+        "note": "辛亥革命与各省光复参考"
+      }
+    ],
+    "relatedIds": [
+      "wuchang-1911",
+      "hanyang-1911"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xian-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "西安光复",
+      "en": "The recovery of Xi’an"
+    },
+    "date": "1911-10-22",
+    "location": {
+      "lng": 108.94,
+      "lat": 34.34,
+      "place": {
+        "zh": "陕西西安",
+        "en": "Xi’an, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "陕西新军起义，攻占西安。",
+      "en": "Shaanxi’s New Army rose and took Xi’an."
+    },
+    "description": {
+      "zh": "1911 年 10 月 22 日，陕西新军起义，攻占西安，成立秦陇复汉军政府，张凤翙任大统领。日期与经过为通行说法，待页码级核对。",
+      "en": "On 22 October 1911 Shaanxi’s New Army rose, captured Xi’an, and established the Qinlong revolutionary military government under Zhang Fenghui. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《辛亥革命史》",
+        "author": "章开沅等",
+        "year": 1980,
+        "note": "辛亥革命与各省光复参考"
+      }
+    ],
+    "relatedIds": [
+      "wuchang-1911",
+      "taiyuan-1911"
+    ],
+    "importance": 2
+  },
+  {
     "id": "luanzhou-1911",
     "atlasId": "ming-qing",
     "name": {
@@ -5594,6 +5716,189 @@
     "relatedIds": [
       "wuchang-1911",
       "constitution-19-1911"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "taiyuan-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "太原光复",
+      "en": "The recovery of Taiyuan"
+    },
+    "date": "1911-10-29",
+    "location": {
+      "lng": 112.55,
+      "lat": 37.87,
+      "place": {
+        "zh": "山西太原",
+        "en": "Taiyuan, Shanxi"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "山西新军起义，攻占太原。",
+      "en": "Shanxi’s New Army rose and took Taiyuan."
+    },
+    "description": {
+      "zh": "1911 年 10 月 29 日，山西新军起义，攻占太原，成立山西军政府，阎锡山任都督。日期与经过为通行说法，待页码级核对。",
+      "en": "On 29 October 1911 Shanxi’s New Army rose, captured Taiyuan, and established the Shanxi military government with Yan Xishan as governor. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《辛亥革命史》",
+        "author": "章开沅等",
+        "year": 1980,
+        "note": "辛亥革命与各省光复参考"
+      }
+    ],
+    "relatedIds": [
+      "xian-1911",
+      "luanzhou-1911"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kunming-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "昆明重九起义",
+      "en": "The Double Ninth uprising in Kunming"
+    },
+    "date": "1911-10-30",
+    "location": {
+      "lng": 102.71,
+      "lat": 25.04,
+      "place": {
+        "zh": "云南昆明",
+        "en": "Kunming, Yunnan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "云南新军重九起义，攻占昆明。",
+      "en": "Yunnan’s New Army rose on the Double Ninth festival and took Kunming."
+    },
+    "description": {
+      "zh": "1911 年 10 月 30 日（农历九月初九），云南新军起义，攻占昆明，成立云南军政府，蔡锷任都督。日期与经过为通行说法，待页码级核对。",
+      "en": "On 30 October 1911, the Double Ninth festival, Yunnan’s New Army rose, captured Kunming, and established the Yunnan military government with Cai E as governor. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《辛亥革命史》",
+        "author": "章开沅等",
+        "year": 1980,
+        "note": "辛亥革命与各省光复参考"
+      }
+    ],
+    "relatedIds": [
+      "wuchang-1911",
+      "chengdu-1911"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "nanchang-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "南昌光复",
+      "en": "The recovery of Nanchang"
+    },
+    "date": "1911-10-31",
+    "location": {
+      "lng": 115.89,
+      "lat": 28.68,
+      "place": {
+        "zh": "江西南昌",
+        "en": "Nanchang, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "江西新军起义，攻占南昌。",
+      "en": "Jiangxi’s New Army rose and took Nanchang."
+    },
+    "description": {
+      "zh": "1911 年 10 月底，江西新军起义，攻占南昌，成立江西军政府，李烈钧等参与。日期与经过为通行说法，待页码级核对。",
+      "en": "At the end of October 1911 Jiangxi’s New Army rose, captured Nanchang, and established the Jiangxi military government, with figures such as Li Liejun involved. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《辛亥革命史》",
+        "author": "章开沅等",
+        "year": 1980,
+        "note": "辛亥革命与各省光复参考"
+      }
+    ],
+    "relatedIds": [
+      "wuchang-1911",
+      "changsha-1911"
     ],
     "importance": 2
   },
@@ -5659,6 +5964,311 @@
     "importance": 3
   },
   {
+    "id": "shanghai-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "上海光复",
+      "en": "The recovery of Shanghai"
+    },
+    "date": "1911-11-03",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "上海革命党人与商团起义，攻占制造总局。",
+      "en": "Shanghai revolutionaries and militia rose and seized the Arsenal."
+    },
+    "description": {
+      "zh": "1911 年 11 月 3 日，上海革命党人与商团起义，攻占江南制造总局，成立沪军都督府，陈其美任都督。日期与经过为通行说法，待页码级核对。",
+      "en": "On 3 November 1911 Shanghai revolutionaries and militia rose, seized the Jiangnan Arsenal, and established the Shanghai military government under Chen Qimei. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《辛亥革命史》",
+        "author": "章开沅等",
+        "year": 1980,
+        "note": "辛亥革命与各省光复参考"
+      }
+    ],
+    "relatedIds": [
+      "wuchang-1911",
+      "hangzhou-1911"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "hangzhou-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "杭州光复",
+      "en": "The recovery of Hangzhou"
+    },
+    "date": "1911-11-04",
+    "location": {
+      "lng": 120.16,
+      "lat": 30.27,
+      "place": {
+        "zh": "浙江杭州",
+        "en": "Hangzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "浙江革命党人与新军起义，攻占杭州。",
+      "en": "Zhejiang revolutionaries and the New Army rose and took Hangzhou."
+    },
+    "description": {
+      "zh": "1911 年 11 月 4 日，浙江革命党人与新军起义，攻占杭州，成立浙江军政府，汤寿潜任都督。日期与经过为通行说法，待页码级核对。",
+      "en": "On 4 November 1911 Zhejiang revolutionaries and New Army units rose, captured Hangzhou, and established the Zhejiang military government with Tang Shouqian as governor. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《辛亥革命史》",
+        "author": "章开沅等",
+        "year": 1980,
+        "note": "辛亥革命与各省光复参考"
+      }
+    ],
+    "relatedIds": [
+      "shanghai-1911",
+      "suzhou-1911"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "suzhou-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "苏州光复",
+      "en": "The recovery of Suzhou"
+    },
+    "date": "1911-11-05",
+    "location": {
+      "lng": 120.62,
+      "lat": 31.3,
+      "place": {
+        "zh": "江苏苏州",
+        "en": "Suzhou, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "江苏巡抚程德全宣布独立，苏州光复。",
+      "en": "Governor Cheng Dequan declared independence and Suzhou was recovered."
+    },
+    "description": {
+      "zh": "1911 年 11 月 5 日，江苏巡抚程德全宣布独立，苏州光复，成立江苏军政府。日期与经过为通行说法，待页码级核对。",
+      "en": "On 5 November 1911 Jiangsu governor Cheng Dequan declared independence, Suzhou was recovered, and the Jiangsu military government was established. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《辛亥革命史》",
+        "author": "章开沅等",
+        "year": 1980,
+        "note": "辛亥革命与各省光复参考"
+      }
+    ],
+    "relatedIds": [
+      "hangzhou-1911",
+      "nanjing-1911"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fuzhou-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "福州光复",
+      "en": "The recovery of Fuzhou"
+    },
+    "date": "1911-11-09",
+    "location": {
+      "lng": 119.3,
+      "lat": 26.08,
+      "place": {
+        "zh": "福建福州",
+        "en": "Fuzhou, Fujian"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "福建革命党人与新军起义，攻占福州。",
+      "en": "Fujian revolutionaries and the New Army rose and took Fuzhou."
+    },
+    "description": {
+      "zh": "1911 年 11 月 9 日，福建革命党人与新军起义，攻占福州，成立福建军政府，孙道仁任都督。日期与经过为通行说法，待页码级核对。",
+      "en": "On 9 November 1911 Fujian revolutionaries and New Army units rose, captured Fuzhou, and established the Fujian military government with Sun Daoren as governor. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《辛亥革命史》",
+        "author": "章开沅等",
+        "year": 1980,
+        "note": "辛亥革命与各省光复参考"
+      }
+    ],
+    "relatedIds": [
+      "wuchang-1911",
+      "guangzhou-1911"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "guangzhou-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "广州光复",
+      "en": "The recovery of Guangzhou"
+    },
+    "date": "1911-11-09",
+    "location": {
+      "lng": 113.26,
+      "lat": 23.13,
+      "place": {
+        "zh": "广东广州",
+        "en": "Guangzhou, Guangdong"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "广东各界宣布独立，广州光复。",
+      "en": "Guangdong notables declared independence and Guangzhou was recovered."
+    },
+    "description": {
+      "zh": "1911 年 11 月 9 日，广东各界宣布独立，广州光复，成立广东军政府，胡汉民任都督。日期与经过为通行说法，待页码级核对。",
+      "en": "On 9 November 1911 Guangdong notables declared independence, Guangzhou was recovered, and the Guangdong military government was established with Hu Hanmin as governor. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《辛亥革命史》",
+        "author": "章开沅等",
+        "year": 1980,
+        "note": "辛亥革命与各省光复参考"
+      }
+    ],
+    "relatedIds": [
+      "fuzhou-1911",
+      "nanjing-1911"
+    ],
+    "importance": 2
+  },
+  {
     "id": "hanyang-1911",
     "atlasId": "ming-qing",
     "name": {
@@ -5715,6 +6325,128 @@
     ],
     "relatedIds": [
       "hankou-1911",
+      "north-south-talks-1911"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "chengdu-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "成都独立",
+      "en": "The independence of Chengdu"
+    },
+    "date": "1911-11-27",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "四川军政府在成都成立，宣布独立。",
+      "en": "The Sichuan military government was established in Chengdu and declared independence."
+    },
+    "description": {
+      "zh": "1911 年 11 月 27 日，四川军政府在成都成立，宣布独立，赵尔丰政权结束，四川保路运动转入革命阶段。日期与经过为通行说法，待页码级核对。",
+      "en": "On 27 November 1911 the Sichuan military government was established in Chengdu and declared independence, ending Zhao Erfeng’s administration and turning the railway-protection movement into revolution. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《辛亥革命史》",
+        "author": "章开沅等",
+        "year": 1980,
+        "note": "辛亥革命与各省光复参考"
+      }
+    ],
+    "relatedIds": [
+      "baolu-1911",
+      "kunming-1911"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "nanjing-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "南京之战",
+      "en": "The Battle of Nanjing"
+    },
+    "date": "1911-12-02",
+    "location": {
+      "lng": 118.8,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏南京",
+        "en": "Nanjing, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "江浙联军攻克南京。",
+      "en": "The Jiangsu–Zhejiang allied forces captured Nanjing."
+    },
+    "description": {
+      "zh": "1911 年 11 月至 12 月，江浙联军进攻南京，12 月 2 日攻克南京，为中华民国临时政府定都南京奠定基础。日期与经过为通行说法，待页码级核对。",
+      "en": "From November to December 1911 the Jiangsu–Zhejiang allied forces attacked Nanjing and captured it on 2 December, paving the way for the Provisional Government of the Republic of China to choose Nanjing as its capital. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《辛亥革命史》",
+        "author": "章开沅等",
+        "year": 1980,
+        "note": "辛亥革命与各省光复参考"
+      }
+    ],
+    "relatedIds": [
+      "suzhou-1911",
       "north-south-talks-1911"
     ],
     "importance": 3

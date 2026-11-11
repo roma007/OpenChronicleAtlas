@@ -3155,6 +3155,74 @@
         "type": "LineString",
         "coordinates": [
           [
+            108.94,
+            34.34
+          ],
+          [
+            108.95,
+            34.35
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1911-10-20",
+        "endDate": "1911-10-31",
+        "order": 91,
+        "segmentType": "defense",
+        "name": {
+          "zh": "西安城内",
+          "en": "Within Xi’an"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.94,
+            28.23
+          ],
+          [
+            112.95,
+            28.24
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1911-10-20",
+        "endDate": "1911-10-31",
+        "order": 92,
+        "segmentType": "defense",
+        "name": {
+          "zh": "长沙城内",
+          "en": "Within Changsha"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             118.7,
             39.75
           ],
@@ -3168,11 +3236,147 @@
         "entityId": "qing",
         "startDate": "1911-10-25",
         "endDate": "1911-11-05",
-        "order": 91,
+        "order": 93,
         "segmentType": "advance",
         "name": {
           "zh": "滦州—北京",
           "en": "Luanzhou–Beijing"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.55,
+            37.87
+          ],
+          [
+            112.56,
+            37.88
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1911-10-27",
+        "endDate": "1911-11-05",
+        "order": 94,
+        "segmentType": "defense",
+        "name": {
+          "zh": "太原城内",
+          "en": "Within Taiyuan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.71,
+            25.04
+          ],
+          [
+            102.72,
+            25.05
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1911-10-28",
+        "endDate": "1911-11-05",
+        "order": 95,
+        "segmentType": "defense",
+        "name": {
+          "zh": "昆明城内",
+          "en": "Within Kunming"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.89,
+            28.68
+          ],
+          [
+            115.9,
+            28.69
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1911-10-29",
+        "endDate": "1911-11-05",
+        "order": 96,
+        "segmentType": "defense",
+        "name": {
+          "zh": "南昌城内",
+          "en": "Within Nanchang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47,
+            31.23
+          ],
+          [
+            121.49,
+            31.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1911-11-01",
+        "endDate": "1911-11-10",
+        "order": 97,
+        "segmentType": "advance",
+        "name": {
+          "zh": "上海—制造局",
+          "en": "Shanghai–Arsenal"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -3202,11 +3406,147 @@
         "entityId": "qing",
         "startDate": "1911-11-01",
         "endDate": "1911-11-30",
-        "order": 92,
+        "order": 98,
         "segmentType": "other",
         "name": {
           "zh": "北京—十九信条",
           "en": "Beijing–Nineteen Articles"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.16,
+            30.27
+          ],
+          [
+            120.17,
+            30.28
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1911-11-02",
+        "endDate": "1911-11-10",
+        "order": 99,
+        "segmentType": "defense",
+        "name": {
+          "zh": "杭州城内",
+          "en": "Within Hangzhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.62,
+            31.3
+          ],
+          [
+            120.63,
+            31.31
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1911-11-03",
+        "endDate": "1911-11-10",
+        "order": 100,
+        "segmentType": "defense",
+        "name": {
+          "zh": "苏州城内",
+          "en": "Within Suzhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.26,
+            23.13
+          ],
+          [
+            113.27,
+            23.14
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1911-11-07",
+        "endDate": "1911-11-15",
+        "order": 101,
+        "segmentType": "defense",
+        "name": {
+          "zh": "广州城内",
+          "en": "Within Guangzhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.3,
+            26.08
+          ],
+          [
+            119.31,
+            26.09
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1911-11-07",
+        "endDate": "1911-11-15",
+        "order": 102,
+        "segmentType": "defense",
+        "name": {
+          "zh": "福州城内",
+          "en": "Within Fuzhou"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -3236,11 +3576,79 @@
         "entityId": "qing",
         "startDate": "1911-11-15",
         "endDate": "1911-11-30",
-        "order": 93,
+        "order": 103,
         "segmentType": "defense",
         "name": {
           "zh": "汉阳城内",
           "en": "Within Hanyang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.45,
+            32.2
+          ],
+          [
+            118.8,
+            32.06
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1911-11-20",
+        "endDate": "1911-12-05",
+        "order": 104,
+        "segmentType": "advance",
+        "name": {
+          "zh": "镇江—南京",
+          "en": "Zhenjiang–Nanjing"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.07,
+            30.67
+          ],
+          [
+            104.08,
+            30.68
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1911-11-25",
+        "endDate": "1911-12-05",
+        "order": 105,
+        "segmentType": "defense",
+        "name": {
+          "zh": "成都城内",
+          "en": "Within Chengdu"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -3270,7 +3678,7 @@
         "entityId": "qing",
         "startDate": "1911-12-10",
         "endDate": "1911-12-31",
-        "order": 94,
+        "order": 106,
         "segmentType": "other",
         "name": {
           "zh": "上海—南北议和",
@@ -3304,7 +3712,7 @@
         "entityId": "qing",
         "startDate": "1912-01-01",
         "endDate": "1912-02-12",
-        "order": 95,
+        "order": 107,
         "segmentType": "other",
         "name": {
           "zh": "北京城内",
