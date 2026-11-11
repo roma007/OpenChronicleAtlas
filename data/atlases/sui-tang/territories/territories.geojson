@@ -1,0 +1,440 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74,
+              40
+            ],
+            [
+              86,
+              41
+            ],
+            [
+              96,
+              42
+            ],
+            [
+              106,
+              42
+            ],
+            [
+              116,
+              42
+            ],
+            [
+              122,
+              41
+            ],
+            [
+              124,
+              38
+            ],
+            [
+              123,
+              34
+            ],
+            [
+              121,
+              31
+            ],
+            [
+              119,
+              27
+            ],
+            [
+              115,
+              23
+            ],
+            [
+              110,
+              22
+            ],
+            [
+              105,
+              24
+            ],
+            [
+              100,
+              27
+            ],
+            [
+              96,
+              30
+            ],
+            [
+              91,
+              33
+            ],
+            [
+              84,
+              36
+            ],
+            [
+              77,
+              38
+            ],
+            [
+              74,
+              40
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "sui",
+        "startDate": "0581-02-01",
+        "endDate": "0618-05-31",
+        "name": {
+          "zh": "隋疆域（示意）",
+          "en": "Sui territory (schematic)"
+        },
+        "description": {
+          "zh": "示意简化疆域，待史料校订。仅用于时代背景参考，不作为边界依据。",
+          "en": "Illustrative simplified territory, pending historical review. For period context only; not a boundary reference."
+        },
+        "opacity": 0.15,
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              68,
+              42
+            ],
+            [
+              80,
+              45
+            ],
+            [
+              92,
+              47
+            ],
+            [
+              104,
+              48
+            ],
+            [
+              116,
+              47
+            ],
+            [
+              126,
+              45
+            ],
+            [
+              130,
+              43
+            ],
+            [
+              128,
+              38
+            ],
+            [
+              124,
+              33
+            ],
+            [
+              122,
+              28
+            ],
+            [
+              119,
+              22
+            ],
+            [
+              113,
+              20
+            ],
+            [
+              108,
+              21
+            ],
+            [
+              102,
+              23
+            ],
+            [
+              97,
+              26
+            ],
+            [
+              93,
+              29
+            ],
+            [
+              88,
+              32
+            ],
+            [
+              83,
+              35
+            ],
+            [
+              76,
+              37
+            ],
+            [
+              70,
+              39
+            ],
+            [
+              68,
+              42
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0618-06-01",
+        "endDate": "0755-12-31",
+        "name": {
+          "zh": "唐前期疆域（示意）",
+          "en": "Early Tang territory (schematic)"
+        },
+        "description": {
+          "zh": "示意简化疆域，待史料校订。仅用于时代背景参考，不作为边界依据。",
+          "en": "Illustrative simplified territory, pending historical review. For period context only; not a boundary reference."
+        },
+        "opacity": 0.14,
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              97,
+              40
+            ],
+            [
+              104,
+              42
+            ],
+            [
+              111,
+              42
+            ],
+            [
+              118,
+              41
+            ],
+            [
+              123,
+              39
+            ],
+            [
+              122,
+              35
+            ],
+            [
+              121,
+              31
+            ],
+            [
+              119,
+              26
+            ],
+            [
+              114,
+              23
+            ],
+            [
+              109,
+              23
+            ],
+            [
+              104,
+              25
+            ],
+            [
+              100,
+              28
+            ],
+            [
+              97,
+              32
+            ],
+            [
+              96,
+              36
+            ],
+            [
+              97,
+              40
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0756-01-01",
+        "endDate": "0907-04-30",
+        "name": {
+          "zh": "唐后期疆域（示意）",
+          "en": "Late Tang territory (schematic)"
+        },
+        "description": {
+          "zh": "示意简化疆域，待史料校订。仅用于时代背景参考，不作为边界依据。",
+          "en": "Illustrative simplified territory, pending historical review. For period context only; not a boundary reference."
+        },
+        "opacity": 0.14,
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77,
+              36
+            ],
+            [
+              84,
+              37
+            ],
+            [
+              91,
+              37
+            ],
+            [
+              97,
+              35
+            ],
+            [
+              101,
+              32
+            ],
+            [
+              103,
+              28
+            ],
+            [
+              101,
+              25
+            ],
+            [
+              96,
+              24
+            ],
+            [
+              91,
+              26
+            ],
+            [
+              85,
+              29
+            ],
+            [
+              80,
+              32
+            ],
+            [
+              77,
+              36
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "tubo",
+        "startDate": "0620-01-01",
+        "endDate": "0850-12-31",
+        "name": {
+          "zh": "吐蕃疆域（示意）",
+          "en": "Tubo territory (schematic)"
+        },
+        "description": {
+          "zh": "示意简化疆域，待史料校订。仅用于时代背景参考，不作为边界依据。",
+          "en": "Illustrative simplified territory, pending historical review. For period context only; not a boundary reference."
+        },
+        "opacity": 0.15,
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112,
+              41
+            ],
+            [
+              117,
+              41
+            ],
+            [
+              120,
+              38
+            ],
+            [
+              118,
+              35
+            ],
+            [
+              114,
+              34
+            ],
+            [
+              111,
+              36
+            ],
+            [
+              111,
+              39
+            ],
+            [
+              112,
+              41
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "an-shi",
+        "startDate": "0755-11-01",
+        "endDate": "0763-03-31",
+        "name": {
+          "zh": "安史叛军控制区（示意）",
+          "en": "An–Shi rebel control (schematic)"
+        },
+        "description": {
+          "zh": "示意简化疆域，待史料校订。仅用于时代背景参考，不作为边界依据。",
+          "en": "Illustrative simplified territory, pending historical review. For period context only; not a boundary reference."
+        },
+        "opacity": 0.2,
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    }
+  ]
+}

@@ -38,6 +38,7 @@ const fingerprint = createHash('sha256')
         manifest: dataset.manifest,
         routes: dataset.routes,
         events: dataset.events,
+        territories: dataset.territories,
       })),
     ),
   )

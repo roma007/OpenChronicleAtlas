@@ -99,6 +99,9 @@ const zh = {
   'atlas.filters': '筛选',
 
   'legend.layers': '路线图层',
+  'legend.territories': '时代疆域遮罩',
+  'legend.on': '显示',
+  'legend.off': '隐藏',
   'legend.routeStyles': '路线样式',
   'legend.filters': '筛选',
   'legend.hint': '与时间轴叠加：只显示已发生且符合条件的事件。',
@@ -270,6 +273,9 @@ const en: Record<keyof typeof zh, string> = {
   'atlas.filters': 'Filters',
 
   'legend.layers': 'Route layers',
+  'legend.territories': 'Period territories',
+  'legend.on': 'On',
+  'legend.off': 'Off',
   'legend.routeStyles': 'Route styles',
   'legend.filters': 'Filters',
   'legend.hint':

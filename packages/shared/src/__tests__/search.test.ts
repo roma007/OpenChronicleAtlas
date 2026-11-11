@@ -55,6 +55,7 @@ const dataset: AtlasDataset = {
   },
   routes: [],
   events,
+  territories: [],
   eventsById: new Map(events.map((event) => [event.id, event])),
   entitiesById: new Map([['central', { id: 'central', name: { zh: '中央红军' }, color: '#b22222' }]]),
   eventsByEntity: new Map([['central', events]]),

@@ -59,6 +59,7 @@ export const manifestSchema = z
     }),
     routes: z.array(z.string()).min(1),
     events: z.array(z.string()).min(1),
+    territories: z.array(z.string()).optional(),
     entities: z.array(entitySchema).min(1),
     tags: z.array(z.string()).optional(),
     license: z.string().optional(),
@@ -93,6 +94,45 @@ export const routeFileSchema = z
   .object({
     type: z.literal('FeatureCollection'),
     features: z.array(routeFeatureSchema),
+  })
+  .passthrough();
+
+const ringSchema = z
+  .array(z.tuple([z.number().min(-180).max(180), z.number().min(-85).max(85)]))
+  .min(4);
+
+export const territoryFeatureSchema = z
+  .object({
+    type: z.literal('Feature'),
+    geometry: z.union([
+      z.object({
+        type: z.literal('Polygon'),
+        coordinates: z.array(ringSchema).min(1),
+      }),
+      z.object({
+        type: z.literal('MultiPolygon'),
+        coordinates: z.array(z.array(ringSchema).min(1)).min(1),
+      }),
+    ]),
+    properties: z
+      .object({
+        entityId: z.string(),
+        startDate: dateStringSchema,
+        endDate: dateStringSchema,
+        order: z.number().optional(),
+        name: localizedStringSchema.optional(),
+        description: localizedStringSchema.optional(),
+        opacity: z.number().min(0).max(0.6).optional(),
+        extensions: z.record(z.unknown()).optional(),
+      })
+      .passthrough(),
+  })
+  .passthrough();
+
+export const territoryFileSchema = z
+  .object({
+    type: z.literal('FeatureCollection'),
+    features: z.array(territoryFeatureSchema),
   })
   .passthrough();
 

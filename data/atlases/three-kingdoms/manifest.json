@@ -31,6 +31,9 @@
   "events": [
     "events/events.json"
   ],
+  "territories": [
+    "territories/territories.geojson"
+  ],
   "entities": [
     {
       "id": "cao-wei",

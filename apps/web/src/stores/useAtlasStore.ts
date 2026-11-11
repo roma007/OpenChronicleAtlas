@@ -45,6 +45,7 @@ interface AtlasState {
   activeEntityIds: Set<string>;
   filters: AtlasFilters;
   locale: Locale;
+  showTerritories: boolean;
 
   timeline: Timeline | null;
   currentTime: AtlasTime;
@@ -67,6 +68,7 @@ interface AtlasState {
   selectEvent(eventId: string | null): void;
   toggleEntity(entityId: string): void;
   setActiveEntities(ids: string[]): void;
+  toggleTerritories(): void;
 
   setLocale(locale: Locale): void;
   setFilters(filters: AtlasFilters): void;
@@ -100,6 +102,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
   activeEntityIds: new Set(),
   filters: EMPTY_FILTERS,
   locale: initialLocale(),
+  showTerritories: true,
 
   timeline: null,
   currentTime: 0,
@@ -179,6 +182,10 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
     if (next.has(entityId)) next.delete(entityId);
     else next.add(entityId);
     set({ activeEntityIds: next });
+  },
+
+  toggleTerritories() {
+    set({ showTerritories: !get().showTerritories });
   },
 
   setLocale(locale) {

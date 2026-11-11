@@ -73,6 +73,7 @@ describe('别名搜索', () => {
       },
       routes: [],
       events: [event as AtlasEvent],
+      territories: [],
       eventsById: new Map([['lugouqiao-incident-1937-07', event as AtlasEvent]]),
       entitiesById: new Map([['force', { id: 'force', name: 'Force', color: '#000000' }]]),
       eventsByEntity: new Map([['force', [event as AtlasEvent]]]),

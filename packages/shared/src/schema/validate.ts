@@ -3,6 +3,7 @@ import type {
   AtlasIssue,
   AtlasManifest,
   AtlasRouteFeature,
+  AtlasTerritoryFeature,
 } from '../types';
 import { parseDateString } from '../time/date';
 
@@ -13,6 +14,7 @@ export function validateCrossFile(
   manifest: AtlasManifest,
   routes: AtlasRouteFeature[],
   events: AtlasEvent[],
+  territories: AtlasTerritoryFeature[] = [],
 ): AtlasIssue[] {
   const issues: AtlasIssue[] = [];
   const entityIds = new Set(manifest.entities.map((e) => e.id));
@@ -121,6 +123,37 @@ export function validateCrossFile(
         level: 'warning',
         path: `${path}.date`,
         message: `事件日期 ${event.date} 超出 manifest.timeRange`,
+      });
+    }
+  });
+
+  territories.forEach((territory, index) => {
+    const p = territory.properties;
+    const path = `territories[${index}].properties`;
+
+    if (!entityIds.has(p.entityId)) {
+      issues.push({
+        level: 'error',
+        path: `${path}.entityId`,
+        message: `entityId "${p.entityId}" 不存在于 manifest.entities`,
+      });
+    }
+
+    const start = parseDateString(p.startDate);
+    const end = parseDateString(p.endDate);
+    if (start > end) {
+      issues.push({
+        level: 'error',
+        path: `${path}.endDate`,
+        message: 'endDate 不能早于 startDate',
+      });
+    }
+
+    if (end < rangeStart || start > rangeEnd) {
+      issues.push({
+        level: 'warning',
+        path: `${path}.startDate`,
+        message: `疆域时间段 ${p.startDate} → ${p.endDate} 与 manifest.timeRange 无重叠`,
       });
     }
   });

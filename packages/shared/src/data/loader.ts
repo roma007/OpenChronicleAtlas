@@ -5,12 +5,14 @@ import type {
   AtlasIssue,
   AtlasManifest,
   AtlasRouteFeature,
+  AtlasTerritoryFeature,
 } from '../types';
 import {
   atlasIndexSchema,
   eventSchema,
   manifestSchema,
   routeFileSchema,
+  territoryFileSchema,
 } from '../schema/atlas';
 import { validateCrossFile } from '../schema/validate';
 import type { SearchIndexFile } from '../search/types';
@@ -128,7 +130,23 @@ export async function loadAtlas(
     events.push(...(parsed.data as AtlasEvent[]));
   });
 
-  issues.push(...validateCrossFile(manifest, routes, events));
+  const territoryFiles = await Promise.all(
+    (manifest.territories ?? []).map((territoryPath) =>
+      readJson(dataSource, dataSource.resolve(baseDir, territoryPath)),
+    ),
+  );
+
+  const territories: AtlasTerritoryFeature[] = [];
+  territoryFiles.forEach((file, index) => {
+    const parsed = territoryFileSchema.safeParse(file);
+    if (!parsed.success) {
+      issues.push(...toIssues(parsed.error, `territories[${index}]`));
+      return;
+    }
+    territories.push(...(parsed.data.features as AtlasTerritoryFeature[]));
+  });
+
+  issues.push(...validateCrossFile(manifest, routes, events, territories));
 
   const errors = issues.filter((issue) => issue.level === 'error');
   if (errors.length > 0) {
@@ -159,6 +177,7 @@ export async function loadAtlas(
     manifest,
     routes,
     events,
+    territories,
     eventsById,
     entitiesById,
     eventsByEntity,

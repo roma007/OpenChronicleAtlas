@@ -17,6 +17,8 @@ export function Legend({ className = '' }: LegendProps) {
   const dataset = useAtlasStore((state) => state.dataset);
   const activeEntityIds = useAtlasStore((state) => state.activeEntityIds);
   const toggleEntity = useAtlasStore((state) => state.toggleEntity);
+  const showTerritories = useAtlasStore((state) => state.showTerritories);
+  const toggleTerritories = useAtlasStore((state) => state.toggleTerritories);
   const filters = useAtlasStore((state) => state.filters);
   const setFilters = useAtlasStore((state) => state.setFilters);
   const toggleCategory = useAtlasStore((state) => state.toggleCategory);
@@ -48,6 +50,33 @@ export function Legend({ className = '' }: LegendProps) {
       className={`rounded-2xl border border-ink/10 bg-parchment/95 p-4 shadow-panel backdrop-blur ${className}`}
     >
       <h2 className="font-serif text-sm tracking-[0.2em] text-ink">{t('legend.layers')}</h2>
+
+      {dataset.territories.length > 0 ? (
+        <button
+          type="button"
+          aria-pressed={showTerritories}
+          onClick={toggleTerritories}
+          className={`mt-2 flex w-full items-center gap-2.5 rounded-lg border px-2 py-1.5 text-left text-[11px] transition ${
+            showTerritories
+              ? 'border-cinnabar/30 bg-cinnabar/10 text-cinnabar'
+              : 'border-ink/10 text-ink-soft/60 hover:border-cinnabar/30'
+          }`}
+        >
+          <span
+            aria-hidden
+            className="h-3 w-3 shrink-0 rounded-sm border border-current"
+            style={{
+              backgroundColor: showTerritories ? 'currentColor' : 'transparent',
+              opacity: 0.35,
+            }}
+          />
+          <span className="flex-1">{t('legend.territories')}</span>
+          <span className="tabular-nums opacity-70">
+            {t(showTerritories ? 'legend.on' : 'legend.off')}
+          </span>
+        </button>
+      ) : null}
+
       <ul className="mt-3 space-y-1">
         {entities.map((entity) => {
           const active = activeEntityIds.has(entity.id);

@@ -55,6 +55,7 @@ function makeDataset(
     },
     routes,
     events,
+    territories: [],
     eventsById: new Map(events.map((event) => [event.id, event])),
     entitiesById: new Map([[entity.id, entity]]),
     eventsByEntity: new Map([['force', events]]),

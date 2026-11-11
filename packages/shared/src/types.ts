@@ -35,6 +35,8 @@ export interface AtlasManifest {
   defaultView: { center: [number, number]; zoom: number };
   routes: string[];
   events: string[];
+  /** 可选：时代地理分布（半透明疆域遮罩）数据文件，相对 manifest 路径 */
+  territories?: string[];
   entities: AtlasEntity[];
   tags?: string[];
   license?: string;
@@ -90,6 +92,34 @@ export interface AtlasRouteFile {
   features: AtlasRouteFeature[];
 }
 
+/** 面环：[[lng, lat], ...]，首尾应闭合 */
+export type AtlasRing = [number, number][];
+
+export interface AtlasTerritoryProperties {
+  entityId: string;
+  startDate: DateString;
+  endDate: DateString;
+  order?: number;
+  name?: LocalizedString;
+  description?: LocalizedString;
+  /** 填充不透明度，0—0.6，默认 0.16 */
+  opacity?: number;
+  extensions?: Record<string, unknown>;
+}
+
+export interface AtlasTerritoryFeature {
+  type: 'Feature';
+  geometry:
+    | { type: 'Polygon'; coordinates: AtlasRing[] }
+    | { type: 'MultiPolygon'; coordinates: AtlasRing[][] };
+  properties: AtlasTerritoryProperties;
+}
+
+export interface AtlasTerritoryFile {
+  type: 'FeatureCollection';
+  features: AtlasTerritoryFeature[];
+}
+
 export interface AtlasImage {
   src: string;
   caption?: LocalizedString;
@@ -130,6 +160,7 @@ export interface AtlasDataset {
   manifest: AtlasManifest;
   routes: AtlasRouteFeature[];
   events: AtlasEvent[];
+  territories: AtlasTerritoryFeature[];
   eventsById: ReadonlyMap<string, AtlasEvent>;
   entitiesById: ReadonlyMap<string, AtlasEntity>;
   eventsByEntity: ReadonlyMap<string, AtlasEvent[]>;

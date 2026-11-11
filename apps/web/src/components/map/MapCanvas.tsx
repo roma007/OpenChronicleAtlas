@@ -1,4 +1,8 @@
-import type { AtlasRouteFeature, RouteGeometry } from '@atlas/shared';
+import type {
+  AtlasRouteFeature,
+  AtlasTerritoryFeature,
+  RouteGeometry,
+} from '@atlas/shared';
 import {
   applyEventFilters,
   buildRouteGeometry,
@@ -34,6 +38,11 @@ interface MarkerEntry {
   countEl: HTMLSpanElement | null;
 }
 
+interface TerritoryEntry {
+  feature: AtlasTerritoryFeature;
+  polygons: any[];
+}
+
 function toGcjPoint(coordinate: [number, number]): [number, number] {
   const point = wgs84ToGcj02(coordinate[0], coordinate[1]);
   return [point.lng, point.lat];
@@ -45,6 +54,7 @@ export function MapCanvas() {
   const amapRef = useRef<any>(null);
   const lineEntriesRef = useRef<Map<string, LineEntry>>(new Map());
   const markerEntriesRef = useRef<Map<string, MarkerEntry>>(new Map());
+  const territoryEntriesRef = useRef<Map<string, TerritoryEntry>>(new Map());
   const lastProgressRef = useRef<Map<string, number>>(new Map());
   const fittedAtlasIdRef = useRef<string | null>(null);
   const bubbleTimerRef = useRef<number | null>(null);
@@ -60,6 +70,7 @@ export function MapCanvas() {
   const currentTime = useAtlasStore((state) => state.currentTime);
   const playing = useAtlasStore((state) => state.playing);
   const selectedEventId = useAtlasStore((state) => state.selectedEventId);
+  const showTerritories = useAtlasStore((state) => state.showTerritories);
   const viewRequest = useAtlasStore((state) => state.viewRequest);
   const { locale, t } = useI18n();
 
@@ -118,11 +129,54 @@ export function MapCanvas() {
       amapRef.current = null;
       lineEntriesRef.current.clear();
       markerEntriesRef.current.clear();
+      territoryEntriesRef.current.clear();
       lastProgressRef.current.clear();
       fittedAtlasIdRef.current = null;
       setReady(false);
     };
   }, []);
+
+  // 建立/重建时代疆域遮罩：多边形置于路线与标记之下
+  useEffect(() => {
+    const map = mapRef.current;
+    const AMap = amapRef.current;
+    if (!map || !AMap || !dataset || !ready) return;
+
+    const oldPolygons = Array.from(territoryEntriesRef.current.values()).flatMap(
+      (entry) => entry.polygons,
+    );
+    if (oldPolygons.length > 0) map.remove(oldPolygons);
+    territoryEntriesRef.current.clear();
+
+    dataset.territories.forEach((feature, index) => {
+      const entity = dataset.entitiesById.get(feature.properties.entityId);
+      if (!entity) return;
+
+      const parts =
+        feature.geometry.type === 'Polygon'
+          ? [feature.geometry.coordinates]
+          : feature.geometry.coordinates;
+
+      const polygons = parts.map((rings) => {
+        const polygon = new AMap.Polygon({
+          path: rings.map((ring) => ring.map(toGcjPoint)),
+          fillColor: entity.color,
+          fillOpacity: feature.properties.opacity ?? 0.16,
+          strokeColor: entity.color,
+          strokeOpacity: 0.4,
+          strokeWeight: 1,
+          bubble: true,
+          zIndex: 10,
+        });
+        polygon.hide();
+        map.add(polygon);
+        return polygon;
+      });
+
+      const key = `${feature.properties.entityId}:${index}`;
+      territoryEntriesRef.current.set(key, { feature, polygons });
+    });
+  }, [dataset, ready]);
 
   // 建立/重建路线：只在专题或图层开关变化时执行
   useEffect(() => {
@@ -305,6 +359,20 @@ export function MapCanvas() {
     }
 
 
+    for (const entry of territoryEntriesRef.current.values()) {
+      const { feature } = entry;
+      const start = parseDateString(feature.properties.startDate);
+      const end = parseDateString(feature.properties.endDate);
+      const visible =
+        showTerritories &&
+        activeEntityIds.has(feature.properties.entityId) &&
+        currentTime >= start &&
+        currentTime <= end;
+      for (const polygon of entry.polygons) {
+        polygon[visible ? 'show' : 'hide']();
+      }
+    }
+
     const activeEvents = applyEventFilters(dataset.events, filters).filter((event) =>
       event.entityIds.some((entityId) => activeEntityIds.has(entityId)),
     );
@@ -326,7 +394,7 @@ export function MapCanvas() {
         visibleEvents.some((event) => event.id === latest?.id),
       );
     }
-  }, [currentTime, dataset, activeEntityIds, filters, ready]);
+  }, [currentTime, dataset, activeEntityIds, filters, ready, showTerritories]);
 
   // 播放跨过事件时弹出气泡（固定 UI，避免 InfoWindow 被视口裁切）
   useEffect(() => {

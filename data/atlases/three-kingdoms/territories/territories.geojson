@@ -1,0 +1,297 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              104,
+              41
+            ],
+            [
+              110,
+              42
+            ],
+            [
+              117,
+              42
+            ],
+            [
+              122,
+              41
+            ],
+            [
+              122,
+              37
+            ],
+            [
+              120,
+              33
+            ],
+            [
+              116,
+              32
+            ],
+            [
+              111,
+              32
+            ],
+            [
+              106,
+              34
+            ],
+            [
+              103,
+              37
+            ],
+            [
+              104,
+              41
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0220-12-01",
+        "endDate": "0266-02-28",
+        "name": {
+          "zh": "曹魏疆域（示意）",
+          "en": "Cao Wei territory (schematic)"
+        },
+        "description": {
+          "zh": "示意简化疆域，待史料校订。仅用于时代背景参考，不作为边界依据。",
+          "en": "Illustrative simplified territory, pending historical review. For period context only; not a boundary reference."
+        },
+        "opacity": 0.16,
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              97,
+              34
+            ],
+            [
+              102,
+              35
+            ],
+            [
+              106,
+              34
+            ],
+            [
+              109,
+              32
+            ],
+            [
+              108,
+              28
+            ],
+            [
+              104,
+              26
+            ],
+            [
+              100,
+              27
+            ],
+            [
+              97,
+              30
+            ],
+            [
+              97,
+              34
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0221-04-01",
+        "endDate": "0263-11-30",
+        "name": {
+          "zh": "蜀汉疆域（示意）",
+          "en": "Shu Han territory (schematic)"
+        },
+        "description": {
+          "zh": "示意简化疆域，待史料校订。仅用于时代背景参考，不作为边界依据。",
+          "en": "Illustrative simplified territory, pending historical review. For period context only; not a boundary reference."
+        },
+        "opacity": 0.18,
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              108,
+              32
+            ],
+            [
+              114,
+              33
+            ],
+            [
+              120,
+              32
+            ],
+            [
+              122,
+              29
+            ],
+            [
+              120,
+              25
+            ],
+            [
+              116,
+              22
+            ],
+            [
+              111,
+              21
+            ],
+            [
+              108,
+              23
+            ],
+            [
+              106,
+              27
+            ],
+            [
+              107,
+              30
+            ],
+            [
+              108,
+              32
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wu",
+        "startDate": "0229-04-01",
+        "endDate": "0280-03-31",
+        "name": {
+          "zh": "东吴疆域（示意）",
+          "en": "Eastern Wu territory (schematic)"
+        },
+        "description": {
+          "zh": "示意简化疆域，待史料校订。仅用于时代背景参考，不作为边界依据。",
+          "en": "Illustrative simplified territory, pending historical review. For period context only; not a boundary reference."
+        },
+        "opacity": 0.16,
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              104,
+              41
+            ],
+            [
+              110,
+              42
+            ],
+            [
+              117,
+              42
+            ],
+            [
+              122,
+              41
+            ],
+            [
+              122,
+              37
+            ],
+            [
+              120,
+              33
+            ],
+            [
+              117,
+              30
+            ],
+            [
+              113,
+              27
+            ],
+            [
+              109,
+              25
+            ],
+            [
+              104,
+              26
+            ],
+            [
+              100,
+              28
+            ],
+            [
+              97,
+              31
+            ],
+            [
+              98,
+              35
+            ],
+            [
+              101,
+              38
+            ],
+            [
+              104,
+              41
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "jin",
+        "startDate": "0266-02-01",
+        "endDate": "0280-03-31",
+        "name": {
+          "zh": "西晋疆域（示意）",
+          "en": "Western Jin territory (schematic)"
+        },
+        "description": {
+          "zh": "示意简化疆域，待史料校订。仅用于时代背景参考，不作为边界依据。",
+          "en": "Illustrative simplified territory, pending historical review. For period context only; not a boundary reference."
+        },
+        "opacity": 0.12,
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              104,
+              40
+            ],
+            [
+              110,
+              42
+            ],
+            [
+              117,
+              42
+            ],
+            [
+              122,
+              41
+            ],
+            [
+              122,
+              37
+            ],
+            [
+              121,
+              33
+            ],
+            [
+              120,
+              30
+            ],
+            [
+              116,
+              27
+            ],
+            [
+              111,
+              26
+            ],
+            [
+              106,
+              28
+            ],
+            [
+              103,
+              32
+            ],
+            [
+              103,
+              36
+            ],
+            [
+              104,
+              40
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "northern-song",
+        "startDate": "0960-02-01",
+        "endDate": "1127-03-31",
+        "name": {
+          "zh": "北宋疆域（示意）",
+          "en": "Northern Song territory (schematic)"
+        },
+        "description": {
+          "zh": "示意简化疆域，待史料校订。仅用于时代背景参考，不作为边界依据。",
+          "en": "Illustrative simplified territory, pending historical review. For period context only; not a boundary reference."
+        },
+        "opacity": 0.15,
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100,
+              47
+            ],
+            [
+              110,
+              48
+            ],
+            [
+              120,
+              48
+            ],
+            [
+              127,
+              46
+            ],
+            [
+              130,
+              43
+            ],
+            [
+              126,
+              41
+            ],
+            [
+              122,
+              40
+            ],
+            [
+              118,
+              39
+            ],
+            [
+              114,
+              38
+            ],
+            [
+              110,
+              37
+            ],
+            [
+              104,
+              38
+            ],
+            [
+              100,
+              42
+            ],
+            [
+              100,
+              47
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "liao",
+        "startDate": "0960-02-01",
+        "endDate": "1125-03-31",
+        "name": {
+          "zh": "辽疆域（示意）",
+          "en": "Liao territory (schematic)"
+        },
+        "description": {
+          "zh": "示意简化疆域，待史料校订。仅用于时代背景参考，不作为边界依据。",
+          "en": "Illustrative simplified territory, pending historical review. For period context only; not a boundary reference."
+        },
+        "opacity": 0.15,
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105,
+              43
+            ],
+            [
+              112,
+              45
+            ],
+            [
+              120,
+              46
+            ],
+            [
+              128,
+              45
+            ],
+            [
+              130,
+              41
+            ],
+            [
+              126,
+              38
+            ],
+            [
+              122,
+              36
+            ],
+            [
+              118,
+              34
+            ],
+            [
+              114,
+              33
+            ],
+            [
+              110,
+              34
+            ],
+            [
+              106,
+              37
+            ],
+            [
+              104,
+              40
+            ],
+            [
+              105,
+              43
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "jin",
+        "startDate": "1115-01-01",
+        "endDate": "1234-02-28",
+        "name": {
+          "zh": "金疆域（示意）",
+          "en": "Jin territory (schematic)"
+        },
+        "description": {
+          "zh": "示意简化疆域，待史料校订。仅用于时代背景参考，不作为边界依据。",
+          "en": "Illustrative simplified territory, pending historical review. For period context only; not a boundary reference."
+        },
+        "opacity": 0.15,
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              104,
+              34
+            ],
+            [
+              110,
+              35
+            ],
+            [
+              116,
+              35
+            ],
+            [
+              121,
+              33
+            ],
+            [
+              121,
+              29
+            ],
+            [
+              119,
+              25
+            ],
+            [
+              115,
+              22
+            ],
+            [
+              110,
+              22
+            ],
+            [
+              106,
+              25
+            ],
+            [
+              103,
+              29
+            ],
+            [
+              104,
+              34
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "southern-song",
+        "startDate": "1127-06-01",
+        "endDate": "1279-03-31",
+        "name": {
+          "zh": "南宋疆域（示意）",
+          "en": "Southern Song territory (schematic)"
+        },
+        "description": {
+          "zh": "示意简化疆域，待史料校订。仅用于时代背景参考，不作为边界依据。",
+          "en": "Illustrative simplified territory, pending historical review. For period context only; not a boundary reference."
+        },
+        "opacity": 0.15,
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88,
+              47
+            ],
+            [
+              100,
+              50
+            ],
+            [
+              112,
+              50
+            ],
+            [
+              122,
+              48
+            ],
+            [
+              126,
+              44
+            ],
+            [
+              120,
+              42
+            ],
+            [
+              112,
+              42
+            ],
+            [
+              104,
+              43
+            ],
+            [
+              96,
+              45
+            ],
+            [
+              88,
+              47
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "mongol-yuan",
+        "startDate": "1206-01-01",
+        "endDate": "1271-12-31",
+        "name": {
+          "zh": "蒙古本部（示意）",
+          "en": "Mongol homeland (schematic)"
+        },
+        "description": {
+          "zh": "示意简化疆域，待史料校订。仅用于时代背景参考，不作为边界依据。",
+          "en": "Illustrative simplified territory, pending historical review. For period context only; not a boundary reference."
+        },
+        "opacity": 0.15,
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70,
+              45
+            ],
+            [
+              85,
+              48
+            ],
+            [
+              100,
+              50
+            ],
+            [
+              115,
+              49
+            ],
+            [
+              128,
+              47
+            ],
+            [
+              132,
+              43
+            ],
+            [
+              128,
+              38
+            ],
+            [
+              122,
+              35
+            ],
+            [
+              116,
+              33
+            ],
+            [
+              110,
+              32
+            ],
+            [
+              104,
+              33
+            ],
+            [
+              98,
+              35
+            ],
+            [
+              92,
+              38
+            ],
+            [
+              84,
+              41
+            ],
+            [
+              76,
+              43
+            ],
+            [
+              70,
+              45
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "mongol-yuan",
+        "startDate": "1271-12-01",
+        "endDate": "1279-03-31",
+        "name": {
+          "zh": "元朝疆域（示意）",
+          "en": "Yuan territory (schematic)"
+        },
+        "description": {
+          "zh": "示意简化疆域，待史料校订。仅用于时代背景参考，不作为边界依据。",
+          "en": "Illustrative simplified territory, pending historical review. For period context only; not a boundary reference."
+        },
+        "opacity": 0.14,
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    }
+  ]
+}
