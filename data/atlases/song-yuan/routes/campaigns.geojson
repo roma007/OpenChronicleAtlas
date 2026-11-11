@@ -1,0 +1,595 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.5,
+            35.0
+          ],
+          [
+            114.3,
+            34.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "northern-song",
+        "startDate": "0960-02-02",
+        "endDate": "0960-02-05",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "陈桥驿—开封",
+          "en": "Chenqiao Post–Kaifeng"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3,
+            34.8
+          ],
+          [
+            112.55,
+            37.87
+          ],
+          [
+            116.4,
+            39.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "northern-song",
+        "startDate": "0979-05-01",
+        "endDate": "0979-07-31",
+        "order": 2,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "开封—太原—幽州",
+          "en": "Kaifeng–Taiyuan–Youzhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3,
+            34.8
+          ],
+          [
+            115.03,
+            35.76
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "northern-song",
+        "startDate": "1004-09-01",
+        "endDate": "1004-12-31",
+        "order": 3,
+        "segmentType": "advance",
+        "name": {
+          "zh": "开封—澶州",
+          "en": "Kaifeng–Chanzhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3,
+            34.8
+          ],
+          [
+            114.35,
+            34.85
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "northern-song",
+        "startDate": "1069-02-01",
+        "endDate": "1069-12-31",
+        "order": 4,
+        "segmentType": "advance",
+        "name": {
+          "zh": "开封城内",
+          "en": "Within Kaifeng"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.0,
+            41.6
+          ],
+          [
+            116.4,
+            39.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "liao",
+        "startDate": "1122-01-01",
+        "endDate": "1125-02-28",
+        "order": 5,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "中京—燕京",
+          "en": "Zhongjing–Yanjing"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            115.03,
+            35.76
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "liao",
+        "startDate": "1004-09-01",
+        "endDate": "1004-12-31",
+        "order": 6,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "燕京—澶州",
+          "en": "Yanjing–Chanzhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.97,
+            45.54
+          ],
+          [
+            116.4,
+            39.9
+          ],
+          [
+            114.3,
+            34.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "jin",
+        "startDate": "1125-10-01",
+        "endDate": "1127-01-31",
+        "order": 7,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "会宁—燕京—开封",
+          "en": "Huining–Yanjing–Kaifeng"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            118.5,
+            31.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "jin",
+        "startDate": "1161-09-01",
+        "endDate": "1161-11-30",
+        "order": 8,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "燕京—采石",
+          "en": "Yanjing–Caishi"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.35,
+            33.0
+          ],
+          [
+            114.4,
+            33.05
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "jin",
+        "startDate": "1233-01-01",
+        "endDate": "1234-02-28",
+        "order": 9,
+        "segmentType": "defense",
+        "name": {
+          "zh": "蔡州防御",
+          "en": "Defense of Caizhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.0,
+            42.0
+          ],
+          [
+            114.9,
+            40.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "mongol-yuan",
+        "startDate": "1211-06-01",
+        "endDate": "1211-08-31",
+        "order": 10,
+        "segmentType": "advance",
+        "name": {
+          "zh": "草原—野狐岭",
+          "en": "Steppe–Yehuling"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.9,
+            40.8
+          ],
+          [
+            116.4,
+            39.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "mongol-yuan",
+        "startDate": "1211-08-01",
+        "endDate": "1215-06-30",
+        "order": 11,
+        "segmentType": "advance",
+        "name": {
+          "zh": "野狐岭—中都",
+          "en": "Yehuling–Zhongdu"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.2,
+            35.6
+          ],
+          [
+            106.3,
+            30.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "mongol-yuan",
+        "startDate": "1258-07-01",
+        "endDate": "1259-07-31",
+        "order": 12,
+        "segmentType": "advance",
+        "name": {
+          "zh": "六盘山—钓鱼城",
+          "en": "Liupanshan–Diaoyucheng"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.53,
+            33.0
+          ],
+          [
+            112.14,
+            32.02
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "mongol-yuan",
+        "startDate": "1272-09-01",
+        "endDate": "1273-03-31",
+        "order": 13,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南阳—襄阳",
+          "en": "Nanyang–Xiangyang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8,
+            32.06
+          ],
+          [
+            119.0,
+            32.15
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "southern-song",
+        "startDate": "1130-03-01",
+        "endDate": "1130-04-30",
+        "order": 14,
+        "segmentType": "defense",
+        "name": {
+          "zh": "建康—黄天荡",
+          "en": "Jiankang–Huangtiandang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3,
+            30.6
+          ],
+          [
+            114.0,
+            33.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "southern-song",
+        "startDate": "1140-06-01",
+        "endDate": "1140-07-31",
+        "order": 15,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "鄂州—郾城",
+          "en": "Ezhou–Yancheng"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8,
+            32.06
+          ],
+          [
+            118.5,
+            31.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "southern-song",
+        "startDate": "1161-10-01",
+        "endDate": "1161-11-30",
+        "order": 16,
+        "segmentType": "defense",
+        "name": {
+          "zh": "建康—采石",
+          "en": "Jiankang–Caishi"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.15,
+            30.27
+          ],
+          [
+            119.3,
+            26.08
+          ],
+          [
+            113.1,
+            22.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "southern-song",
+        "startDate": "1276-02-01",
+        "endDate": "1279-03-31",
+        "order": 17,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "临安—福州—崖山",
+          "en": "Lin’an–Fuzhou–Yamen"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    }
+  ]
+}

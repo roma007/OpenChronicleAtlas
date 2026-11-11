@@ -158,7 +158,31 @@
         "战役"
       ],
       "path": "three-kingdoms/manifest.json"
+    },
+    {
+      "id": "song-yuan",
+      "title": {
+        "zh": "宋元",
+        "en": "Song–Yuan"
+      },
+      "subtitle": {
+        "zh": "960—1279",
+        "en": "960–1279"
+      },
+      "cover": "song-yuan/assets/cover.svg",
+      "timeRange": {
+        "start": "0960-02-01",
+        "end": "1279-03-31"
+      },
+      "tags": [
+        "中国历史",
+        "宋",
+        "辽",
+        "金",
+        "元"
+      ],
+      "path": "song-yuan/manifest.json"
     }
   ],
-  "dataVersion": "2026-11-10-7f43cf92f202"
+  "dataVersion": "2026-11-10-e33694ed4185"
 }

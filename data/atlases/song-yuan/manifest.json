@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "song-yuan",
+  "title": {
+    "zh": "宋元",
+    "en": "Song–Yuan"
+  },
+  "subtitle": {
+    "zh": "960—1279",
+    "en": "960–1279"
+  },
+  "timeRange": {
+    "start": "0960-02-01",
+    "end": "1279-03-31"
+  },
+  "cover": "assets/cover.svg",
+  "description": {
+    "zh": "960 年陈桥兵变建立北宋，与辽形成对峙；1125 年金灭辽，1127 年靖康之变后南宋建立；蒙古崛起后于 1234 年灭金，1276 年临安降元，1279 年崖山海战南宋灭亡。\n\n> 本数据为 M79 示例初稿：路线为示意简化，事件日期、地点与表述待史料校订。",
+    "en": "The Chenqiao mutiny founded the Northern Song in 960, which faced the Liao across the north. Jin destroyed Liao in 1125, and the Southern Song emerged after the Jingkang Incident in 1127. The Mongols rose, destroyed Jin in 1234, took Lin’an in 1276, and ended the Southern Song at the Battle of Yamen in 1279.\n\n> M79 illustrative draft: routes are simplified; dates, places, and wording await historical review."
+  },
+  "defaultView": {
+    "center": [
+      112,
+      32
+    ],
+    "zoom": 3.2
+  },
+  "routes": [
+    "routes/campaigns.geojson"
+  ],
+  "events": [
+    "events/events.json"
+  ],
+  "entities": [
+    {
+      "id": "northern-song",
+      "name": {
+        "zh": "北宋",
+        "en": "Northern Song"
+      },
+      "color": "#b7791f",
+      "order": 1,
+      "description": {
+        "zh": "960—1127 年的北宋政权。",
+        "en": "The Northern Song dynasty, 960–1127."
+      }
+    },
+    {
+      "id": "southern-song",
+      "name": {
+        "zh": "南宋",
+        "en": "Southern Song"
+      },
+      "color": "#2b6cb0",
+      "order": 2,
+      "description": {
+        "zh": "1127—1279 年的南宋政权。",
+        "en": "The Southern Song dynasty, 1127–1279."
+      }
+    },
+    {
+      "id": "liao",
+      "name": {
+        "zh": "辽",
+        "en": "Liao"
+      },
+      "color": "#4a5568",
+      "order": 3,
+      "description": {
+        "zh": "契丹建立的辽朝，916—1125 年。",
+        "en": "The Khitan Liao dynasty, 916–1125."
+      }
+    },
+    {
+      "id": "jin",
+      "name": {
+        "zh": "金",
+        "en": "Jin"
+      },
+      "color": "#9b2c2c",
+      "order": 4,
+      "description": {
+        "zh": "女真建立的金朝，1115—1234 年。",
+        "en": "The Jurchen Jin dynasty, 1115–1234."
+      }
+    },
+    {
+      "id": "mongol-yuan",
+      "name": {
+        "zh": "蒙古 / 元",
+        "en": "Mongol / Yuan"
+      },
+      "color": "#553c9a",
+      "order": 5,
+      "description": {
+        "zh": "蒙古帝国至元朝，1206—1279 年。",
+        "en": "The Mongol Empire and Yuan dynasty, 1206–1279."
+      }
+    }
+  ],
+  "tags": [
+    "中国历史",
+    "宋",
+    "辽",
+    "金",
+    "元"
+  ],
+  "license": "CC-BY-4.0（数据初稿，待校订）",
+  "updatedAt": "2026-11-10"
+}
