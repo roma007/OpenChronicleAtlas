@@ -240,6 +240,226 @@
     "importance": 3
   },
   {
+    "id": "wang-yangming-1519",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "王阳明平定宁王之乱",
+      "en": "Wang Yangming suppresses the Prince of Ning"
+    },
+    "date": "1519-07-26",
+    "location": {
+      "lng": 115.89,
+      "lat": 28.68,
+      "place": {
+        "zh": "江西南昌",
+        "en": "Nanchang, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "宁王朱宸濠起兵，王阳明三十余日平定。",
+      "en": "Prince of Ning rose in rebellion and Wang Yangming suppressed him in about a month."
+    },
+    "description": {
+      "zh": "1519 年，宁王朱宸濠在南昌起兵反明，王阳明调集兵力，三十余日平定，朱宸濠被俘。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1519 Prince of Ning Zhu Chenhao rose against the Ming in Nanchang. Wang Yangming rallied forces and suppressed the rebellion in about a month, capturing the prince. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《明实录》",
+        "author": "明代官修",
+        "year": 1640,
+        "note": "明代诏令与事件参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "tumu-1449",
+      "gengxu-1550"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "gengxu-1550",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "庚戌之变",
+      "en": "The Gengxu crisis"
+    },
+    "date": "1550-08-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "俺答汗率军逼近北京，明廷戒严。",
+      "en": "Altan Khan’s forces approached Beijing and the Ming court imposed martial law."
+    },
+    "description": {
+      "zh": "1550 年，俺答汗率蒙古军队逼近北京，明廷戒严，史称庚戌之变，暴露了明朝北部防务的虚弱。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1550 Altan Khan led Mongol forces close to Beijing, prompting martial law and revealing the weakness of Ming northern defenses; the episode is known as the Gengxu crisis. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《明实录》",
+        "author": "明代官修",
+        "year": 1640,
+        "note": "明代诏令与事件参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "wang-yangming-1519",
+      "taizhou-1561"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "taizhou-1561",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "台州大捷",
+      "en": "The Taizhou victories"
+    },
+    "date": "1561-05-01",
+    "location": {
+      "lng": 121.42,
+      "lat": 28.66,
+      "place": {
+        "zh": "浙江台州",
+        "en": "Taizhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "戚继光率戚家军在台州九战九捷。",
+      "en": "Qi Jiguang’s army won nine victories at Taizhou."
+    },
+    "description": {
+      "zh": "1561 年，戚继光率戚家军在台州九战九捷，重创倭寇，戚家军由此声名大振。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1561 Qi Jiguang’s army won nine successive victories at Taizhou, badly damaging the wokou pirates and earning the Qi army great renown. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《明实录》",
+        "author": "明代官修",
+        "year": 1640,
+        "note": "明代诏令与事件参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "gengxu-1550",
+      "hengyu-1562"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "hengyu-1562",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "横屿之战",
+      "en": "The Battle of Hengyu"
+    },
+    "date": "1562-08-01",
+    "location": {
+      "lng": 119.53,
+      "lat": 26.66,
+      "place": {
+        "zh": "福建宁德",
+        "en": "Ningde, Fujian"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "戚继光攻破横屿倭巢。",
+      "en": "Qi Jiguang destroyed the pirate base at Hengyu."
+    },
+    "description": {
+      "zh": "1562 年，戚继光率军攻破福建宁德横屿倭巢，收复被倭寇盘踞的岛屿，为平定福建倭患奠定基础。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1562 Qi Jiguang’s forces destroyed the wokou base at Hengyu in Ningde, Fujian, recovering the island and paving the way for pacifying Fujian’s pirate troubles. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《明实录》",
+        "author": "明代官修",
+        "year": 1640,
+        "note": "明代诏令与事件参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "taizhou-1561",
+      "zhang-juzheng-1572"
+    ],
+    "importance": 2
+  },
+  {
     "id": "longqing-1571",
     "atlasId": "ming-qing",
     "name": {
@@ -296,6 +516,391 @@
     ],
     "relatedIds": [
       "tumu-1449"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhang-juzheng-1572",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "张居正改革",
+      "en": "Zhang Juzheng’s reforms"
+    },
+    "date": "1572-06-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "张居正任首辅，推行考成法与一条鞭法。",
+      "en": "Zhang Juzheng became chief grand secretary and pushed reforms."
+    },
+    "description": {
+      "zh": "1572 年，张居正任首辅，推行考成法、一条鞭法等改革，整顿吏治与财政，万历初年出现中兴局面。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1572 Zhang Juzheng became chief grand secretary and promoted reforms including the examination-of-achievements system and the single-whip tax method, tightening administration and finances and producing a brief revival in the early Wanli reign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《明实录》",
+        "author": "明代官修",
+        "year": 1640,
+        "note": "明代诏令与事件参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "hengyu-1562",
+      "ningxia-1592"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "ningxia-1592",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "宁夏之役",
+      "en": "The Ningxia campaign"
+    },
+    "date": "1592-03-01",
+    "location": {
+      "lng": 106.23,
+      "lat": 38.49,
+      "place": {
+        "zh": "宁夏银川",
+        "en": "Yinchuan, Ningxia"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "明军平定宁夏哱拜叛乱。",
+      "en": "Ming forces suppressed the rebellion of Bobai in Ningxia."
+    },
+    "description": {
+      "zh": "1592 年，宁夏哱拜叛乱，明军围攻银川并最终平定，为万历三大征之一。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1592 Bobai rebelled in Ningxia. Ming forces besieged Yinchuan and eventually suppressed the revolt, one of the three great campaigns of the Wanli reign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《明实录》",
+        "author": "明代官修",
+        "year": 1640,
+        "note": "明代诏令与事件参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "zhang-juzheng-1572",
+      "imjin-war-1592"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "imjin-war-1592",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "万历朝鲜战争",
+      "en": "The Imjin War"
+    },
+    "date": "1592-05-23",
+    "location": {
+      "lng": 129.04,
+      "lat": 35.1,
+      "place": {
+        "zh": "朝鲜釜山",
+        "en": "Busan, Korea"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日本入侵朝鲜，明廷派军援朝。",
+      "en": "Japan invaded Korea and the Ming sent forces to aid Korea."
+    },
+    "description": {
+      "zh": "1592 年，日本丰臣秀吉入侵朝鲜，明廷派军援朝，战争持续至 1598 年，史称万历朝鲜战争（壬辰倭乱）。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1592 Toyotomi Hideyoshi’s Japan invaded Korea. The Ming sent forces to aid Korea, and the war continued until 1598, known as the Imjin War. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《明实录》",
+        "author": "明代官修",
+        "year": 1640,
+        "note": "明代诏令与事件参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "ningxia-1592",
+      "pyongyang-1593"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "pyongyang-1593",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "平壤大捷",
+      "en": "The recapture of Pyongyang"
+    },
+    "date": "1593-02-08",
+    "location": {
+      "lng": 125.75,
+      "lat": 39.03,
+      "place": {
+        "zh": "朝鲜平壤",
+        "en": "Pyongyang, Korea"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "李如松率明军收复平壤。",
+      "en": "Li Rusong’s Ming army recaptured Pyongyang."
+    },
+    "description": {
+      "zh": "1593 年，李如松率明军收复平壤，击败日军，扭转了朝鲜战场的局势。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1593 Li Rusong’s Ming army recaptured Pyongyang and defeated Japanese forces, turning the tide in Korea. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《明实录》",
+        "author": "明代官修",
+        "year": 1640,
+        "note": "明代诏令与事件参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "imjin-war-1592",
+      "noryang-1598"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "noryang-1598",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "露梁海战",
+      "en": "The Battle of Noryang"
+    },
+    "date": "1598-11-19",
+    "location": {
+      "lng": 128.0,
+      "lat": 34.9,
+      "place": {
+        "zh": "朝鲜露梁",
+        "en": "Noryang, Korea"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "中朝联军在露梁海域击败日军。",
+      "en": "Ming and Korean fleets defeated the Japanese at Noryang."
+    },
+    "description": {
+      "zh": "1598 年，中朝联军在露梁海域截击撤退的日军，重创日本水师，明将邓子龙与朝鲜李舜臣战死，战争随之结束。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1598 the Ming and Korean fleets intercepted retreating Japanese forces at Noryang, badly damaging the Japanese navy. Ming general Deng Zilong and Korean admiral Yi Sun-sin died in the battle, which ended the war. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《明实录》",
+        "author": "明代官修",
+        "year": 1640,
+        "note": "明代诏令与事件参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "pyongyang-1593",
+      "bozhou-1600"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "bozhou-1600",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "播州之役",
+      "en": "The Bozhou campaign"
+    },
+    "date": "1600-06-01",
+    "location": {
+      "lng": 106.93,
+      "lat": 27.73,
+      "place": {
+        "zh": "贵州遵义",
+        "en": "Zunyi, Guizhou"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "明军平定播州杨应龙。",
+      "en": "Ming forces suppressed Yang Yinglong of Bozhou."
+    },
+    "description": {
+      "zh": "1600 年，明军平定播州杨应龙，攻破海龙屯，为万历三大征之一。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1600 Ming forces suppressed Yang Yinglong of Bozhou and captured Hailong Fort, one of the three great campaigns of the Wanli reign. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《明实录》",
+        "author": "明代官修",
+        "year": 1640,
+        "note": "明代诏令与事件参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "noryang-1598",
+      "donglin-1604"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "donglin-1604",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "东林书院重建",
+      "en": "The revival of the Donglin Academy"
+    },
+    "date": "1604-01-01",
+    "location": {
+      "lng": 120.3,
+      "lat": 31.57,
+      "place": {
+        "zh": "江苏无锡",
+        "en": "Wuxi, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "顾宪成等重建无锡东林书院。",
+      "en": "Gu Xiancheng and others revived the Donglin Academy in Wuxi."
+    },
+    "description": {
+      "zh": "1604 年，顾宪成等重建无锡东林书院，讲学议政，形成东林党，成为晚明政治的重要力量。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1604 Gu Xiancheng and others revived the Donglin Academy in Wuxi, where scholars lectured and discussed politics, forming the Donglin faction and becoming a major force in late Ming politics. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《明实录》",
+        "author": "明代官修",
+        "year": 1640,
+        "note": "明代诏令与事件参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "bozhou-1600",
+      "jiashen-1644"
     ],
     "importance": 2
   },
@@ -415,6 +1020,61 @@
       }
     ],
     "relatedIds": [
+      "shanhaiguan-1644"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "jiashen-1644",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "甲申之变",
+      "en": "The Jiashen catastrophe"
+    },
+    "date": "1644-04-25",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "事件",
+    "summary": {
+      "zh": "李自成攻入北京，崇祯帝自缢，明朝灭亡。",
+      "en": "Li Zicheng took Beijing; the Chongzhen Emperor hanged himself, ending the Ming."
+    },
+    "description": {
+      "zh": "1644 年 4 月，李自成率大顺军攻入北京，崇祯帝在煤山自缢，明朝灭亡，随后清军入关。日期与经过为通行说法，待页码级核对。",
+      "en": "In April 1644 Li Zicheng’s Dashun army entered Beijing. The Chongzhen Emperor hanged himself on Coal Hill, ending the Ming dynasty, and Qing forces soon entered China proper. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考"
+      },
+      {
+        "title": "《明实录》",
+        "author": "明代官修",
+        "year": 1640,
+        "note": "明代诏令与事件参考"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "donglin-1604",
       "shanhaiguan-1644"
     ],
     "importance": 3
