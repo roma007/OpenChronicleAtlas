@@ -900,6 +900,66 @@
     "importance": 2
   },
   {
+    "id": "jinchuan-1747",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "大小金川之役",
+      "en": "The Jinchuan campaigns"
+    },
+    "date": "1747-01-01",
+    "location": {
+      "lng": 102.0,
+      "lat": 31.5,
+      "place": {
+        "zh": "四川金川",
+        "en": "Jinchuan, Sichuan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "乾隆两次用兵金川，至 1776 年平定。",
+      "en": "The Qianlong Emperor campaigned twice in Jinchuan, pacifying it by 1776."
+    },
+    "description": {
+      "zh": "1747 年起，乾隆帝两次对大小金川用兵，至 1776 年最终平定，是乾隆“十全武功”中耗时最长、耗费最大的一役。日期与经过为通行说法，待页码级核对。",
+      "en": "From 1747 the Qianlong Emperor launched two campaigns against the Jinchuan chiefdoms, finally pacifying them in 1776. It was the longest and most costly of the “Ten Great Campaigns.” Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "gurkha-1792"
+    ],
+    "importance": 2
+  },
+  {
     "id": "dzungar-1755",
     "atlasId": "ming-qing",
     "name": {
@@ -1020,6 +1080,66 @@
     "importance": 2
   },
   {
+    "id": "gurkha-1792",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "平定廓尔喀",
+      "en": "The Qing campaign against the Gurkhas"
+    },
+    "date": "1792-08-01",
+    "location": {
+      "lng": 91.1,
+      "lat": 29.65,
+      "place": {
+        "zh": "西藏拉萨",
+        "en": "Lhasa, Tibet"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "福康安率军入藏，击退廓尔喀。",
+      "en": "Fu Kang’an led Qing forces into Tibet and repelled the Gurkhas."
+    },
+    "description": {
+      "zh": "1792 年，廓尔喀入侵西藏，福康安率清军入藏反击，收复失地并逼近廓尔喀，随后订立《钦定藏内善后章程》。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1792 the Gurkhas invaded Tibet. Fu Kang’an led Qing forces into Tibet, recovered the lost territory, and advanced toward Nepal, leading to the Qing regulations for Tibet. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "jinchuan-1747"
+    ],
+    "importance": 2
+  },
+  {
     "id": "macartney-1793",
     "atlasId": "ming-qing",
     "name": {
@@ -1078,6 +1198,186 @@
       "opium-1840"
     ],
     "importance": 2
+  },
+  {
+    "id": "bailian-1796",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "白莲教起义",
+      "en": "The White Lotus Rebellion"
+    },
+    "date": "1796-01-01",
+    "location": {
+      "lng": 112.14,
+      "lat": 32.04,
+      "place": {
+        "zh": "湖北襄阳",
+        "en": "Xiangyang, Hubei"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "白莲教在湖北起事，波及川楚陕。",
+      "en": "The White Lotus uprising began in Hubei and spread across Sichuan, Hubei, and Shaanxi."
+    },
+    "description": {
+      "zh": "1796 年，白莲教在湖北襄阳等地起事，迅速波及四川、湖北、陕西，清廷调集重兵镇压，至 1804 年才基本平定。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1796 the White Lotus movement rose in Xiangyang and other parts of Hubei, spreading quickly into Sichuan and Shaanxi. The Qing deployed large forces and suppressed the rebellion only around 1804. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "tianli-1813"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "tianli-1813",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "天理教起义",
+      "en": "The Eight Trigrams uprising"
+    },
+    "date": "1813-09-15",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "天理教攻入紫禁城，失败。",
+      "en": "The Eight Trigrams sect attacked the Forbidden City but was defeated."
+    },
+    "description": {
+      "zh": "1813 年，天理教（八卦教）在林清等率领下攻入紫禁城，与清军激战失败，史称癸酉之变。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1813 the Eight Trigrams sect, led by Lin Qing and others, attacked the Forbidden City. After fierce fighting the uprising failed, an event known as the Guiyou incident. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "bailian-1796"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "humen-1839",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "虎门销烟",
+      "en": "The destruction of opium at Humen"
+    },
+    "date": "1839-06-03",
+    "location": {
+      "lng": 113.7,
+      "lat": 22.8,
+      "place": {
+        "zh": "广东虎门",
+        "en": "Humen, Guangdong"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "林则徐在虎门销毁鸦片。",
+      "en": "Lin Zexu destroyed confiscated opium at Humen."
+    },
+    "description": {
+      "zh": "1839 年 6 月，钦差大臣林则徐在广东虎门海滩当众销毁收缴的鸦片，成为鸦片战争的直接导火索之一。日期与经过为通行说法，待页码级核对。",
+      "en": "In June 1839 Imperial Commissioner Lin Zexu publicly destroyed confiscated opium at Humen, an event that helped trigger the First Opium War. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "opium-1840"
+    ],
+    "importance": 3
   },
   {
     "id": "opium-1840",
@@ -1260,6 +1560,186 @@
     "importance": 3
   },
   {
+    "id": "jiangnan-1865",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "江南制造总局",
+      "en": "The Jiangnan Arsenal"
+    },
+    "date": "1865-09-01",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "李鸿章创办江南制造总局。",
+      "en": "Li Hongzhang founded the Jiangnan Arsenal in Shanghai."
+    },
+    "description": {
+      "zh": "1865 年，李鸿章在上海创办江南制造总局，制造枪炮、弹药与轮船，是洋务运动最重要的军工企业之一。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1865 Li Hongzhang founded the Jiangnan Arsenal in Shanghai to produce firearms, ammunition, and ships. It became one of the most important military enterprises of the Self-Strengthening Movement. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "fuzhou-1866"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fuzhou-1866",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "福州船政局",
+      "en": "The Fuzhou Navy Yard"
+    },
+    "date": "1866-12-01",
+    "location": {
+      "lng": 119.3,
+      "lat": 26.08,
+      "place": {
+        "zh": "福建福州",
+        "en": "Fuzhou, Fujian"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "左宗棠创办福州船政局。",
+      "en": "Zuo Zongtang founded the Fuzhou Navy Yard."
+    },
+    "description": {
+      "zh": "1866 年，左宗棠在福州马尾创办福州船政局，附设船政学堂，培养海军与造船人才，是洋务运动的重要海军基地。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1866 Zuo Zongtang founded the Fuzhou Navy Yard at Mawei, with a naval school attached. It trained naval officers and shipbuilders and became a key base of the Self-Strengthening Movement. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "zhaoshang-1872"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhaoshang-1872",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "轮船招商局",
+      "en": "The China Merchants’ Steam Navigation Company"
+    },
+    "date": "1872-12-01",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "李鸿章创办轮船招商局。",
+      "en": "Li Hongzhang founded the China Merchants’ Steam Navigation Company."
+    },
+    "description": {
+      "zh": "1872 年，李鸿章在上海创办轮船招商局，经营江海航运，与外国轮船公司竞争，是洋务运动“官督商办”的代表企业。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1872 Li Hongzhang founded the China Merchants’ Steam Navigation Company in Shanghai to operate river and coastal shipping in competition with foreign firms, a representative “official supervision and merchant management” enterprise. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "jiangnan-1865"
+    ],
+    "importance": 2
+  },
+  {
     "id": "jiawu-1894",
     "atlasId": "ming-qing",
     "name": {
@@ -1316,6 +1796,126 @@
     ],
     "relatedIds": [
       "wuchang-1911"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "triple-intervention-1895",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "三国干涉还辽",
+      "en": "The Triple Intervention"
+    },
+    "date": "1895-04-23",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "俄德法干涉，日本归还辽东。",
+      "en": "Russia, Germany, and France forced Japan to return the Liaodong Peninsula."
+    },
+    "description": {
+      "zh": "1895 年《马关条约》签订后，俄、德、法三国干涉，迫使日本将辽东半岛归还清朝，清廷以额外赔款赎回。日期与经过为通行说法，待页码级核对。",
+      "en": "After the Treaty of Shimonoseki in 1895, Russia, Germany, and France intervened and forced Japan to return the Liaodong Peninsula to the Qing, which paid an additional indemnity. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "scramble-1898"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "scramble-1898",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "列强租借港湾",
+      "en": "The scramble for concessions"
+    },
+    "date": "1898-03-06",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "德国租借胶州湾，列强掀起瓜分狂潮。",
+      "en": "Germany leased Jiaozhou Bay, setting off a scramble for concessions."
+    },
+    "description": {
+      "zh": "1898 年，德国强迫清廷租借胶州湾，俄、英、法、日等国随后纷纷租借港湾、划分势力范围，中国面临被瓜分的危机。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1898 Germany forced the Qing to lease Jiaozhou Bay. Russia, Britain, France, and Japan soon leased ports and carved out spheres of influence, confronting China with the threat of partition. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "triple-intervention-1895"
     ],
     "importance": 3
   },
@@ -1496,6 +2096,126 @@
     ],
     "relatedIds": [
       "wuchang-1911"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "preparatory-constitution-1906",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "预备立宪",
+      "en": "The preparation for constitutional government"
+    },
+    "date": "1906-09-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "清廷宣布预备立宪。",
+      "en": "The Qing court announced preparations for constitutional government."
+    },
+    "description": {
+      "zh": "1906 年，清廷在五大臣出洋考察后宣布“预备仿行宪政”，推行官制改革，但进展缓慢，未能挽回人心。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1906, after the five ministers’ overseas investigations, the Qing court announced preparations for constitutional government and reformed the bureaucracy, but progress was slow and failed to restore public confidence. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "constitution-outline-1908"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "constitution-outline-1908",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "钦定宪法大纲",
+      "en": "The Principles of the Constitution"
+    },
+    "date": "1908-08-27",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "清廷颁布《钦定宪法大纲》。",
+      "en": "The Qing court issued the Principles of the Constitution."
+    },
+    "description": {
+      "zh": "1908 年，清廷颁布《钦定宪法大纲》，规定君上大权，并以九年为预备立宪期限，被立宪派批评为“假立宪”。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1908 the Qing court issued the Principles of the Constitution, preserving broad imperial powers and setting a nine-year preparatory period. Constitutionalists criticized it as “fake constitutionalism.” Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      }
+    ],
+    "relatedIds": [
+      "preparatory-constitution-1906"
     ],
     "importance": 2
   },
