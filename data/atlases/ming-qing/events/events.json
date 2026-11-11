@@ -1620,6 +1620,66 @@
     "importance": 2
   },
   {
+    "id": "guangfangguan-1863",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "上海广方言馆",
+      "en": "The Shanghai Foreign Language School"
+    },
+    "date": "1863-03-28",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "李鸿章奏设上海广方言馆，培养外语人才。",
+      "en": "Li Hongzhang founded the Shanghai Foreign Language School to train interpreters."
+    },
+    "description": {
+      "zh": "1863 年，李鸿章在上海奏设广方言馆，招收学生研习外语与西学，后并入江南制造总局翻译馆，是洋务教育的重要机构。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1863 Li Hongzhang founded the Shanghai Foreign Language School to teach foreign languages and Western learning. It later merged with the Jiangnan Arsenal’s translation department and became an important institution of Self-Strengthening education. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "tongwenguan-1862"
+    ],
+    "importance": 2
+  },
+  {
     "id": "jiangnan-1865",
     "atlasId": "ming-qing",
     "name": {
@@ -1736,6 +1796,66 @@
     ],
     "relatedIds": [
       "zhaoshang-1872"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "chuanzheng-1867",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "福州船政学堂",
+      "en": "The Fuzhou Naval School"
+    },
+    "date": "1867-01-06",
+    "location": {
+      "lng": 119.45,
+      "lat": 26.0,
+      "place": {
+        "zh": "福建马尾",
+        "en": "Mawei, Fujian"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "福州船政学堂开学，培养海军与造船人才。",
+      "en": "The Fuzhou Naval School opened to train naval officers and shipbuilders."
+    },
+    "description": {
+      "zh": "1867 年，福州船政学堂（求是堂艺局）在马尾开学，分前学堂与后学堂，分别培养造船与驾驶人才，被誉为中国近代海军的摇篮。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1867 the Fuzhou Naval School opened at Mawei with separate departments for shipbuilding and navigation, earning a reputation as the cradle of China’s modern navy. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "fuzhou-1866"
     ],
     "importance": 2
   },
@@ -1980,6 +2100,66 @@
     "importance": 2
   },
   {
+    "id": "tianjin-naval-1880",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "天津水师学堂",
+      "en": "The Tianjin Naval Academy"
+    },
+    "date": "1880-08-19",
+    "location": {
+      "lng": 117.2,
+      "lat": 39.13,
+      "place": {
+        "zh": "天津",
+        "en": "Tianjin"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "李鸿章创办天津水师学堂。",
+      "en": "Li Hongzhang founded the Tianjin Naval Academy."
+    },
+    "description": {
+      "zh": "1880 年，李鸿章在天津创办水师学堂，由严复任总教习，培养北洋海军军官，是继福州船政学堂之后又一座海军学校。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1880 Li Hongzhang founded the Tianjin Naval Academy, with Yan Fu as chief instructor, to train officers for the Beiyang Navy. It was the second major naval school after Fuzhou. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "beiyang-navy-1888"
+    ],
+    "importance": 2
+  },
+  {
     "id": "sino-french-1884",
     "atlasId": "ming-qing",
     "name": {
@@ -2098,6 +2278,66 @@
       "sino-french-1884"
     ],
     "importance": 2
+  },
+  {
+    "id": "beiyang-navy-1888",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "北洋海军成军",
+      "en": "The Beiyang Navy is established"
+    },
+    "date": "1888-12-17",
+    "location": {
+      "lng": 122.19,
+      "lat": 37.5,
+      "place": {
+        "zh": "山东威海",
+        "en": "Weihai, Shandong"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "清廷颁布《北洋海军章程》，北洋海军正式成军。",
+      "en": "The Qing promulgated the Beiyang Navy regulations, formally establishing the fleet."
+    },
+    "description": {
+      "zh": "1888 年，清廷颁布《北洋海军章程》，北洋海军正式成军，拥有定远、镇远等铁甲舰，一度号称亚洲第一，但此后军费与训练渐弛。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1888 the Qing promulgated the Beiyang Navy regulations, formally establishing the fleet with the ironclads Dingyuan and Zhenyuan. Briefly rated the strongest in Asia, it later suffered from declining funding and training. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "fengdao-1894"
+    ],
+    "importance": 3
   },
   {
     "id": "hanyang-1890",
@@ -2220,6 +2460,128 @@
     "importance": 3
   },
   {
+    "id": "fengdao-1894",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "丰岛海战",
+      "en": "The Battle of Fengdao"
+    },
+    "date": "1894-07-25",
+    "location": {
+      "lng": 126.9,
+      "lat": 36.9,
+      "place": {
+        "zh": "朝鲜丰岛",
+        "en": "Fengdao, Korea"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日本舰队在丰岛附近袭击清军运兵船。",
+      "en": "The Japanese fleet attacked Chinese transports near Fengdao."
+    },
+    "description": {
+      "zh": "1894 年 7 月 25 日，日本联合舰队在朝鲜丰岛附近袭击清军运兵船，击沉高升号，甲午战争由此爆发。日期与经过为通行说法，待页码级核对。",
+      "en": "On 25 July 1894 the Japanese Combined Fleet attacked Chinese transports near Fengdao off Korea and sank the Kowshing, marking the outbreak of the First Sino-Japanese War. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "jiawu-1894",
+      "pyongyang-1894"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "pyongyang-1894",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "平壤战役",
+      "en": "The Battle of Pyongyang"
+    },
+    "date": "1894-09-15",
+    "location": {
+      "lng": 125.75,
+      "lat": 39.03,
+      "place": {
+        "zh": "朝鲜平壤",
+        "en": "Pyongyang, Korea"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "清军与日军在平壤激战，清军败退。",
+      "en": "Qing and Japanese forces fought at Pyongyang, and the Qing army retreated."
+    },
+    "description": {
+      "zh": "1894 年 9 月，清军集结平壤与日军决战，激战一日后败退，退回鸭绿江以北，朝鲜战局急转直下。日期与经过为通行说法，待页码级核对。",
+      "en": "In September 1894 Qing forces concentrated at Pyongyang for a decisive battle. After a day of fighting they were defeated and withdrew north of the Yalu, and the war in Korea turned sharply against China. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "fengdao-1894",
+      "liaodong-1894"
+    ],
+    "importance": 3
+  },
+  {
     "id": "yellow-sea-1894",
     "atlasId": "ming-qing",
     "name": {
@@ -2275,6 +2637,67 @@
       }
     ],
     "relatedIds": [
+      "weihaiwei-1895"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "liaodong-1894",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "辽东战役",
+      "en": "The Liaodong campaign"
+    },
+    "date": "1894-11-21",
+    "location": {
+      "lng": 121.26,
+      "lat": 38.81,
+      "place": {
+        "zh": "辽宁旅顺",
+        "en": "Lüshun, Liaoning"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军突破鸭绿江，攻占旅顺。",
+      "en": "Japanese forces crossed the Yalu and captured Lüshun."
+    },
+    "description": {
+      "zh": "1894 年 10 月起，日军突破鸭绿江防线，接连攻占安东、金州与旅顺，并在旅顺制造大屠杀，北洋海防体系崩溃。日期与经过为通行说法，待页码级核对。",
+      "en": "From October 1894 Japanese forces broke through the Yalu defenses and captured Andong, Jinzhou, and Lüshun, carrying out a massacre at Lüshun and collapsing the Beiyang coastal defense system. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "pyongyang-1894",
       "weihaiwei-1895"
     ],
     "importance": 3
@@ -2340,6 +2763,67 @@
     "importance": 3
   },
   {
+    "id": "shimonoseki-1895",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "马关条约",
+      "en": "The Treaty of Shimonoseki"
+    },
+    "date": "1895-04-17",
+    "location": {
+      "lng": 130.94,
+      "lat": 33.95,
+      "place": {
+        "zh": "日本马关",
+        "en": "Shimonoseki, Japan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "李鸿章与日本签订《马关条约》。",
+      "en": "Li Hongzhang signed the Treaty of Shimonoseki with Japan."
+    },
+    "description": {
+      "zh": "1895 年 4 月，李鸿章在日本马关与日方签订《马关条约》，割让台湾、澎湖与辽东半岛，赔款二亿两，允许日本在华设厂，震动朝野。日期与经过为通行说法，待页码级核对。",
+      "en": "In April 1895 Li Hongzhang signed the Treaty of Shimonoseki at Shimonoseki, ceding Taiwan, the Penghu Islands, and the Liaodong Peninsula, imposing a 200-million-tael indemnity, and permitting Japanese factories in China, shocking the Qing court and public. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "jiawu-1894",
+      "taiwan-republic-1895"
+    ],
+    "importance": 3
+  },
+  {
     "id": "triple-intervention-1895",
     "atlasId": "ming-qing",
     "name": {
@@ -2396,6 +2880,126 @@
     ],
     "relatedIds": [
       "scramble-1898"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "taiwan-republic-1895",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "台湾民主国",
+      "en": "The Republic of Formosa"
+    },
+    "date": "1895-05-25",
+    "location": {
+      "lng": 121.56,
+      "lat": 25.03,
+      "place": {
+        "zh": "台湾台北",
+        "en": "Taipei, Taiwan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "台湾士绅宣布成立台湾民主国，抵抗日军。",
+      "en": "Taiwanese elites proclaimed the Republic of Formosa to resist the Japanese invasion."
+    },
+    "description": {
+      "zh": "1895 年 5 月，台湾士绅与官员在台北宣布成立台湾民主国，年号永清，试图阻止日本接收台湾，随后展开乙未战争，至同年 10 月失败。日期与经过为通行说法，待页码级核对。",
+      "en": "In May 1895 Taiwanese elites and officials in Taipei proclaimed the Republic of Formosa, with the era name Yongqing, to resist Japanese annexation. The subsequent Yiwei War ended in defeat by October. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "shimonoseki-1895"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hubei-arsenal-1895",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "湖北枪炮厂",
+      "en": "The Hubei Arsenal"
+    },
+    "date": "1895-08-01",
+    "location": {
+      "lng": 114.27,
+      "lat": 30.55,
+      "place": {
+        "zh": "湖北汉阳",
+        "en": "Hanyang, Hubei"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "张之洞奏设湖北枪炮厂。",
+      "en": "Zhang Zhidong established the Hubei Arsenal."
+    },
+    "description": {
+      "zh": "1895 年，张之洞在汉阳奏设湖北枪炮厂，引进德国机器制造枪炮，后称汉阳兵工厂，其“汉阳造”步枪长期装备中国军队。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1895 Zhang Zhidong established the Hubei Arsenal at Hanyang with German machinery to produce rifles and artillery. Later known as the Hanyang Arsenal, its “Hanyang” rifle equipped Chinese armies for decades. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "hanyang-1890"
     ],
     "importance": 2
   },
@@ -2820,6 +3424,66 @@
     "importance": 2
   },
   {
+    "id": "local-autonomy-1909",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "城镇乡地方自治章程",
+      "en": "The Regulations on Local Self-Government"
+    },
+    "date": "1909-01-18",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "清廷颁布城镇乡地方自治章程。",
+      "en": "The Qing promulgated regulations on urban and rural local self-government."
+    },
+    "description": {
+      "zh": "1909 年 1 月，清廷颁布《城镇乡地方自治章程》，推行地方自治，设立议事会与董事会，为立宪派参与地方政治提供制度空间。日期与经过为通行说法，待页码级核对。",
+      "en": "In January 1909 the Qing promulgated regulations on local self-government in towns and villages, establishing councils and boards and giving constitutionalists an institutional foothold in local politics. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "consultative-1909"
+    ],
+    "importance": 2
+  },
+  {
     "id": "consultative-1909",
     "atlasId": "ming-qing",
     "name": {
@@ -2876,6 +3540,66 @@
     ],
     "relatedIds": [
       "royal-cabinet-1911"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "parliament-petition-1910",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "国会请愿运动",
+      "en": "The petition movement for a parliament"
+    },
+    "date": "1910-01-16",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "各省代表赴京请愿，要求速开国会。",
+      "en": "Provincial delegates petitioned Beijing for an early national parliament."
+    },
+    "description": {
+      "zh": "1910 年，各省咨议局与商会、教育会等团体发起三次国会请愿运动，要求缩短预备立宪期限、速开国会，清廷仅小幅让步，立宪派日益失望。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1910 provincial assemblies, chambers of commerce, and educational associations launched three petition campaigns demanding that the Qing shorten the preparatory period and convene a parliament. The court made only minor concessions, and constitutionalists grew increasingly disillusioned. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      },
+      {
+        "title": "《甲午战争史》",
+        "author": "戚其章",
+        "year": 2005,
+        "note": "甲午战争战役与人物参考"
+      }
+    ],
+    "relatedIds": [
+      "consultative-1909"
     ],
     "importance": 2
   },
