@@ -206,7 +206,31 @@
         "丝绸之路"
       ],
       "path": "sui-tang/manifest.json"
+    },
+    {
+      "id": "ming-qing",
+      "title": {
+        "zh": "明清",
+        "en": "Ming–Qing"
+      },
+      "subtitle": {
+        "zh": "1368—1912",
+        "en": "1368–1912"
+      },
+      "cover": "ming-qing/assets/cover.svg",
+      "timeRange": {
+        "start": "1368-01-01",
+        "end": "1912-02-12"
+      },
+      "tags": [
+        "中国历史",
+        "明",
+        "清",
+        "北京",
+        "海禁"
+      ],
+      "path": "ming-qing/manifest.json"
     }
   ],
-  "dataVersion": "2026-11-11-2a489df3f0c8"
+  "dataVersion": "2026-11-11-b92eae132d9b"
 }

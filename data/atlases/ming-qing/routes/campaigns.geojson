@@ -1,0 +1,585 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8,
+            32.06
+          ],
+          [
+            118.82,
+            32.08
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming",
+        "startDate": "1368-01-01",
+        "endDate": "1368-12-31",
+        "order": 1,
+        "segmentType": "other",
+        "name": {
+          "zh": "应天城内",
+          "en": "Within Yingtian"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            117.2,
+            36.0
+          ],
+          [
+            118.8,
+            32.06
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming",
+        "startDate": "1402-06-01",
+        "endDate": "1402-07-31",
+        "order": 2,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "北平—南京",
+          "en": "Beiping–Nanjing"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8,
+            32.06
+          ],
+          [
+            117.2,
+            36.0
+          ],
+          [
+            116.4,
+            39.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming",
+        "startDate": "1421-01-01",
+        "endDate": "1421-12-31",
+        "order": 3,
+        "segmentType": "other",
+        "name": {
+          "zh": "南京—北京",
+          "en": "Nanjing–Beijing"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            115.5,
+            40.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming",
+        "startDate": "1449-07-01",
+        "endDate": "1449-08-31",
+        "order": 4,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "北京—土木堡",
+          "en": "Beijing–Tumu"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            114.5,
+            40.5
+          ],
+          [
+            111.75,
+            40.84
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "ming",
+        "startDate": "1571-01-01",
+        "endDate": "1571-12-31",
+        "order": 5,
+        "segmentType": "other",
+        "name": {
+          "zh": "北京—归化",
+          "en": "Beijing–Hohhot"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.0,
+            41.7
+          ],
+          [
+            125.02,
+            41.72
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1616-01-01",
+        "endDate": "1616-12-31",
+        "order": 6,
+        "segmentType": "other",
+        "name": {
+          "zh": "赫图阿拉城内",
+          "en": "Within Hetu Ala"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.0,
+            41.7
+          ],
+          [
+            124.5,
+            41.8
+          ],
+          [
+            123.9,
+            41.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1619-03-01",
+        "endDate": "1619-04-30",
+        "order": 7,
+        "segmentType": "advance",
+        "name": {
+          "zh": "赫图阿拉—萨尔浒",
+          "en": "Hetu Ala–Sarhu"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            123.43,
+            41.8
+          ],
+          [
+            121.5,
+            40.8
+          ],
+          [
+            119.75,
+            40.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1644-04-01",
+        "endDate": "1644-05-31",
+        "order": 8,
+        "segmentType": "advance",
+        "name": {
+          "zh": "盛京—山海关",
+          "en": "Shengjing–Shanhaiguan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.1,
+            24.5
+          ],
+          [
+            119.2,
+            23.8
+          ],
+          [
+            120.2,
+            23.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1683-06-01",
+        "endDate": "1683-07-31",
+        "order": 9,
+        "segmentType": "naval",
+        "name": {
+          "zh": "厦门—台南",
+          "en": "Xiamen–Tainan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            119.0,
+            45.0
+          ],
+          [
+            116.6,
+            52.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1689-06-01",
+        "endDate": "1689-09-30",
+        "order": 10,
+        "segmentType": "other",
+        "name": {
+          "zh": "北京—尼布楚",
+          "en": "Beijing–Nerchinsk"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            105.0,
+            42.0
+          ],
+          [
+            81.3,
+            43.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1755-03-01",
+        "endDate": "1755-06-30",
+        "order": 11,
+        "segmentType": "advance",
+        "name": {
+          "zh": "北京—伊犁",
+          "en": "Beijing–Ili"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.3,
+            23.1
+          ],
+          [
+            113.7,
+            22.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1840-06-01",
+        "endDate": "1840-07-31",
+        "order": 12,
+        "segmentType": "defense",
+        "name": {
+          "zh": "广州—虎门",
+          "en": "Guangzhou–Humen"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.1,
+            23.4
+          ],
+          [
+            110.5,
+            24.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1851-01-01",
+        "endDate": "1851-09-30",
+        "order": 13,
+        "segmentType": "defense",
+        "name": {
+          "zh": "金田—永安",
+          "en": "Jintian–Yongan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            124.4,
+            40.1
+          ],
+          [
+            123.0,
+            38.8
+          ],
+          [
+            122.1,
+            37.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1894-07-01",
+        "endDate": "1894-09-30",
+        "order": 14,
+        "segmentType": "naval",
+        "name": {
+          "zh": "丹东—威海",
+          "en": "Dandong–Weihai"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3,
+            30.5
+          ],
+          [
+            114.32,
+            30.52
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1911-10-01",
+        "endDate": "1911-11-30",
+        "order": 15,
+        "segmentType": "other",
+        "name": {
+          "zh": "武昌城内",
+          "en": "Within Wuchang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            116.42,
+            39.92
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1912-01-01",
+        "endDate": "1912-02-12",
+        "order": 16,
+        "segmentType": "other",
+        "name": {
+          "zh": "北京城内",
+          "en": "Within Beijing"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    }
+  ]
+}

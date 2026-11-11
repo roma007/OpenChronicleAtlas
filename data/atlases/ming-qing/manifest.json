@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "ming-qing",
+  "title": {
+    "zh": "明清",
+    "en": "Ming–Qing"
+  },
+  "subtitle": {
+    "zh": "1368—1912",
+    "en": "1368–1912"
+  },
+  "timeRange": {
+    "start": "1368-01-01",
+    "end": "1912-02-12"
+  },
+  "cover": "assets/cover.svg",
+  "description": {
+    "zh": "1368 年朱元璋建立明朝，定都应天；1421 年明成祖迁都北京。1449 年土木堡之变后明朝转入守势，1571 年隆庆和议开放互市。1616 年努尔哈赤建立后金，1644 年清军入关，1683 年统一台湾，1689 年签订尼布楚条约，1755 年平定准噶尔。1840 年鸦片战争后清朝进入近代转型，1911 年辛亥革命爆发，1912 年清帝退位。\\n\\n> 本数据为 M89 示例初稿：路线为示意简化，事件日期、地点与表述待史料校订；疆域面来自 World Empires 快照（基于 Seshat Cliopatria，CC BY 4.0）。",
+    "en": "Zhu Yuanzhang founded the Ming in 1368 with its capital at Yingtian; the Yongle Emperor moved the capital to Beijing in 1421. After the Tumu crisis in 1449 the Ming shifted to defense, and the Longqing peace opened border markets in 1571. Nurhaci founded the Later Jin in 1616; Qing forces entered China in 1644, took Taiwan in 1683, signed the Treaty of Nerchinsk in 1689, and conquered the Dzungars in 1755. After the Opium War in 1840 the Qing entered a period of modern transformation; the 1911 Revolution led to the emperor’s abdication in 1912.\\n\\n> M89 illustrative draft: routes are simplified; dates, places, and wording await historical review. Territory polygons come from World Empires snapshots based on Seshat Cliopatria (CC BY 4.0)."
+  },
+  "defaultView": {
+    "center": [
+      110,
+      34
+    ],
+    "zoom": 3.2
+  },
+  "routes": [
+    "routes/campaigns.geojson"
+  ],
+  "events": [
+    "events/events.json"
+  ],
+  "territories": [
+    "territories/territories.geojson"
+  ],
+  "entities": [
+    {
+      "id": "ming",
+      "name": {
+        "zh": "明",
+        "en": "Ming"
+      },
+      "color": "#b7791f",
+      "order": 1,
+      "description": {
+        "zh": "1368—1644 年的明朝。",
+        "en": "The Ming dynasty, 1368–1644."
+      }
+    },
+    {
+      "id": "qing",
+      "name": {
+        "zh": "清",
+        "en": "Qing"
+      },
+      "color": "#9b2c2c",
+      "order": 2,
+      "description": {
+        "zh": "1636—1912 年的清朝。",
+        "en": "The Qing dynasty, 1636–1912."
+      }
+    }
+  ],
+  "tags": [
+    "中国历史",
+    "明",
+    "清",
+    "北京",
+    "海禁"
+  ],
+  "license": "CC-BY-4.0（疆域面含 Seshat Cliopatria 数据，CC BY 4.0；事件与路线为示意初稿）",
+  "updatedAt": "2026-11-11"
+}

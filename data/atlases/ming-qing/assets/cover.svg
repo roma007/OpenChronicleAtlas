@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2e6d2"/>
+      <stop offset="1" stop-color="#dcc4a2"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2c5f6f"/>
+      <stop offset="1" stop-color="#5d8a8f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <circle cx="980" cy="130" r="78" fill="#9b2c2c" opacity="0.12"/>
+  <path d="M0 470 C 180 400, 320 450, 470 390 C 620 330, 760 410, 920 350 C 1050 300, 1130 310, 1200 270 L1200 675 L0 675 Z" fill="#6b7256" opacity="0.22"/>
+  <path d="M0 570 C 220 510, 380 545, 540 480 C 720 405, 880 470, 1200 390 L1200 675 L0 675 Z" fill="#3d4a3a" opacity="0.26"/>
+  <path d="M0 610 C 200 560, 360 590, 520 530 C 700 465, 880 520, 1200 450" fill="none" stroke="url(#sea)" stroke-width="12" stroke-linecap="round"/>
+  <g fill="#2a241d" opacity="0.85">
+    <rect x="860" y="300" width="26" height="130" rx="6"/>
+    <rect x="900" y="265" width="26" height="165" rx="6"/>
+    <rect x="940" y="230" width="26" height="200" rx="6"/>
+    <path d="M846 440 L970 440 L960 416 L856 416 Z"/>
+    <path d="M840 230 L970 230 L955 210 L855 210 Z" fill="#9b2c2c" opacity="0.8"/>
+  </g>
+  <g stroke-width="3" fill="none">
+    <path d="M470 420 L620 350 L780 390" stroke="#b7791f"/>
+    <path d="M640 480 L780 420 L940 450" stroke="#9b2c2c"/>
+    <path d="M520 550 L700 490 L880 530" stroke="#2c5f6f"/>
+  </g>
+  <g fill="#23201b">
+    <circle cx="470" cy="420" r="7"/><circle cx="640" cy="480" r="7"/><circle cx="520" cy="550" r="7"/>
+  </g>
+  <text x="80" y="128" font-family="Songti SC, STSong, serif" font-size="78" font-weight="700" fill="#241f1a">明清</text>
+  <text x="84" y="178" font-family="Georgia, serif" font-size="22" letter-spacing="5" fill="#4a4036">MING–QING · 1368—1912</text>
+  <text x="84" y="235" font-family="Songti SC, STSong, serif" font-size="26" fill="#4a4036">南京 · 北京 · 海禁 · 近代</text>
+  <text x="84" y="275" font-family="Georgia, serif" font-size="18" fill="#4a4036" opacity="0.8">Nanjing · Beijing · Maritime ban · Modernity</text>
+  <text x="84" y="625" font-family="Georgia, serif" font-size="16" letter-spacing="3" fill="#f3e8d6">OPENCHRONICLE ATLAS · 史迹 · 时空地图</text>
+</svg>
