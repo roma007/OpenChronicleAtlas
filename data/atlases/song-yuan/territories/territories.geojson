@@ -77,7 +77,15 @@
         "opacity": 0.15,
         "extensions": {
           "precision": "schematic"
-        }
+        },
+        "label": {
+          "zh": "北宋",
+          "en": "Northern Song"
+        },
+        "labelPoint": [
+          112,
+          34.5
+        ]
       }
     },
     {
@@ -156,7 +164,15 @@
         "opacity": 0.15,
         "extensions": {
           "precision": "schematic"
-        }
+        },
+        "label": {
+          "zh": "辽",
+          "en": "Liao"
+        },
+        "labelPoint": [
+          113,
+          42.5
+        ]
       }
     },
     {
@@ -235,7 +251,15 @@
         "opacity": 0.15,
         "extensions": {
           "precision": "schematic"
-        }
+        },
+        "label": {
+          "zh": "金",
+          "en": "Jin"
+        },
+        "labelPoint": [
+          114,
+          39.5
+        ]
       }
     },
     {
@@ -306,7 +330,15 @@
         "opacity": 0.15,
         "extensions": {
           "precision": "schematic"
-        }
+        },
+        "label": {
+          "zh": "南宋",
+          "en": "Southern Song"
+        },
+        "labelPoint": [
+          113,
+          29
+        ]
       }
     },
     {
@@ -373,7 +405,15 @@
         "opacity": 0.15,
         "extensions": {
           "precision": "schematic"
-        }
+        },
+        "label": {
+          "zh": "蒙古",
+          "en": "Mongols"
+        },
+        "labelPoint": [
+          106,
+          45
+        ]
       }
     },
     {
@@ -464,7 +504,15 @@
         "opacity": 0.14,
         "extensions": {
           "precision": "schematic"
-        }
+        },
+        "label": {
+          "zh": "元",
+          "en": "Yuan"
+        },
+        "labelPoint": [
+          105,
+          38
+        ]
       }
     }
   ]

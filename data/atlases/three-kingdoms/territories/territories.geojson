@@ -69,7 +69,15 @@
         "opacity": 0.16,
         "extensions": {
           "precision": "schematic"
-        }
+        },
+        "label": {
+          "zh": "魏",
+          "en": "Wei"
+        },
+        "labelPoint": [
+          112,
+          37
+        ]
       }
     },
     {
@@ -132,7 +140,15 @@
         "opacity": 0.18,
         "extensions": {
           "precision": "schematic"
-        }
+        },
+        "label": {
+          "zh": "汉",
+          "en": "Han"
+        },
+        "labelPoint": [
+          104,
+          30
+        ]
       }
     },
     {
@@ -203,7 +219,15 @@
         "opacity": 0.16,
         "extensions": {
           "precision": "schematic"
-        }
+        },
+        "label": {
+          "zh": "吴",
+          "en": "Wu"
+        },
+        "labelPoint": [
+          116,
+          28
+        ]
       }
     },
     {
@@ -290,7 +314,15 @@
         "opacity": 0.12,
         "extensions": {
           "precision": "schematic"
-        }
+        },
+        "label": {
+          "zh": "晋",
+          "en": "Jin"
+        },
+        "labelPoint": [
+          109,
+          35.5
+        ]
       }
     }
   ]

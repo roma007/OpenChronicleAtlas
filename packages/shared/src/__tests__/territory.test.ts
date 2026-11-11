@@ -61,6 +61,39 @@ describe('territory schema', () => {
     ).toBe(true);
   });
 
+  it('接受文字标识与落点', () => {
+    const withLabel = {
+      type: 'FeatureCollection',
+      features: [
+        {
+          ...polygonTerritory,
+          properties: {
+            ...polygonTerritory.properties,
+            label: { zh: '魏', en: 'Wei' },
+            labelPoint: [112, 37],
+          },
+        },
+      ],
+    };
+    expect(territoryFileSchema.safeParse(withLabel).success).toBe(true);
+  });
+
+  it('拒绝越界的标识落点', () => {
+    const invalid = {
+      type: 'FeatureCollection',
+      features: [
+        {
+          ...polygonTerritory,
+          properties: {
+            ...polygonTerritory.properties,
+            labelPoint: [200, 37],
+          },
+        },
+      ],
+    };
+    expect(territoryFileSchema.safeParse(invalid).success).toBe(false);
+  });
+
   it('拒绝过高的不透明度', () => {
     const invalid = {
       type: 'FeatureCollection',

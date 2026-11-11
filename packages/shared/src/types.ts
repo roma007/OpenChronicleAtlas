@@ -102,6 +102,10 @@ export interface AtlasTerritoryProperties {
   order?: number;
   name?: LocalizedString;
   description?: LocalizedString;
+  /** 地图上的短标识，如「魏」「汉」「吴」 */
+  label?: LocalizedString;
+  /** 标识落点 [lng, lat]，缺省取外环顶点平均值 */
+  labelPoint?: [number, number];
   /** 填充不透明度，0—0.6，默认 0.16 */
   opacity?: number;
   extensions?: Record<string, unknown>;

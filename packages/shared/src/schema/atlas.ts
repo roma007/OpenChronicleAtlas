@@ -122,6 +122,10 @@ export const territoryFeatureSchema = z
         order: z.number().optional(),
         name: localizedStringSchema.optional(),
         description: localizedStringSchema.optional(),
+        label: localizedStringSchema.optional(),
+        labelPoint: z
+          .tuple([z.number().min(-180).max(180), z.number().min(-85).max(85)])
+          .optional(),
         opacity: z.number().min(0).max(0.6).optional(),
         extensions: z.record(z.unknown()).optional(),
       })

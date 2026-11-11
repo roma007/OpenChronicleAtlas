@@ -41,6 +41,19 @@ interface MarkerEntry {
 interface TerritoryEntry {
   feature: AtlasTerritoryFeature;
   polygons: any[];
+  label: any;
+}
+
+function ringCenter(rings: [number, number][][]): [number, number] {
+  const ring = rings[0] ?? [];
+  if (ring.length === 0) return [0, 0];
+  let lng = 0;
+  let lat = 0;
+  for (const [x, y] of ring) {
+    lng += x;
+    lat += y;
+  }
+  return [lng / ring.length, lat / ring.length];
 }
 
 function toGcjPoint(coordinate: [number, number]): [number, number] {
@@ -142,10 +155,11 @@ export function MapCanvas() {
     const AMap = amapRef.current;
     if (!map || !AMap || !dataset || !ready) return;
 
-    const oldPolygons = Array.from(territoryEntriesRef.current.values()).flatMap(
-      (entry) => entry.polygons,
-    );
-    if (oldPolygons.length > 0) map.remove(oldPolygons);
+    const oldOverlays = Array.from(territoryEntriesRef.current.values()).flatMap((entry) => [
+      ...entry.polygons,
+      entry.label,
+    ]);
+    if (oldOverlays.length > 0) map.remove(oldOverlays);
     territoryEntriesRef.current.clear();
 
     dataset.territories.forEach((feature, index) => {
@@ -173,10 +187,34 @@ export function MapCanvas() {
         return polygon;
       });
 
+      const labelSource = feature.properties.label ?? feature.properties.name ?? entity.name;
+      const labelPoint = feature.properties.labelPoint ?? ringCenter(parts[0] ?? []);
+      const label = new AMap.Text({
+        text: resolveLocalized(labelSource, locale),
+        position: toGcjPoint(labelPoint),
+        anchor: 'center',
+        zIndex: 20,
+        bubble: true,
+        style: {
+          'font-size': '12px',
+          'font-family': '"Songti SC", "STSong", serif',
+          'font-weight': '600',
+          color: entity.color,
+          'background-color': 'rgba(247, 241, 229, 0.78)',
+          border: `1px solid ${entity.color}55`,
+          'border-radius': '999px',
+          padding: '1px 6px',
+          'white-space': 'nowrap',
+          'pointer-events': 'none',
+        },
+      });
+      label.hide();
+      map.add(label);
+
       const key = `${feature.properties.entityId}:${index}`;
-      territoryEntriesRef.current.set(key, { feature, polygons });
+      territoryEntriesRef.current.set(key, { feature, polygons, label });
     });
-  }, [dataset, ready]);
+  }, [dataset, ready, locale]);
 
   // 建立/重建路线：只在专题或图层开关变化时执行
   useEffect(() => {
@@ -371,6 +409,7 @@ export function MapCanvas() {
       for (const polygon of entry.polygons) {
         polygon[visible ? 'show' : 'hide']();
       }
+      entry.label[visible ? 'show' : 'hide']();
     }
 
     const activeEvents = applyEventFilters(dataset.events, filters).filter((event) =>
@@ -394,7 +433,7 @@ export function MapCanvas() {
         visibleEvents.some((event) => event.id === latest?.id),
       );
     }
-  }, [currentTime, dataset, activeEntityIds, filters, ready, showTerritories]);
+  }, [currentTime, dataset, activeEntityIds, filters, ready, showTerritories, locale]);
 
   // 播放跨过事件时弹出气泡（固定 UI，避免 InfoWindow 被视口裁切）
   useEffect(() => {
