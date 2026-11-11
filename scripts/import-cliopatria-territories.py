@@ -150,16 +150,97 @@ def ring_area(ring):
     return abs(area) / 2
 
 
+def point_in_ring(x, y, ring):
+    inside = False
+    for i in range(len(ring)):
+        x1, y1 = ring[i]
+        x2, y2 = ring[(i + 1) % len(ring)]
+        if (y1 > y) != (y2 > y) and x < (x2 - x1) * (y - y1) / (y2 - y1) + x1:
+            inside = not inside
+    return inside
+
+
+def point_in_part(x, y, rings):
+    if not point_in_ring(x, y, rings[0]):
+        return False
+    return not any(point_in_ring(x, y, hole) for hole in rings[1:])
+
+
+def distance_to_segment(x, y, x1, y1, x2, y2):
+    dx = x2 - x1
+    dy = y2 - y1
+    if dx == 0 and dy == 0:
+        return ((x - x1) ** 2 + (y - y1) ** 2) ** 0.5
+    t = ((x - x1) * dx + (y - y1) * dy) / (dx * dx + dy * dy)
+    t = max(0.0, min(1.0, t))
+    px = x1 + t * dx
+    py = y1 + t * dy
+    return ((x - px) ** 2 + (y - py) ** 2) ** 0.5
+
+
+def distance_to_boundary(x, y, rings):
+    best = float('inf')
+    for ring in rings:
+        for i in range(len(ring)):
+            x1, y1 = ring[i]
+            x2, y2 = ring[(i + 1) % len(ring)]
+            best = min(best, distance_to_segment(x, y, x1, y1, x2, y2))
+    return best
+
+
+def interior_point(rings):
+    """在面内寻找离边界尽量远的点（近似 pole of inaccessibility）。"""
+    outer = rings[0]
+    min_x = min(p[0] for p in outer)
+    max_x = max(p[0] for p in outer)
+    min_y = min(p[1] for p in outer)
+    max_y = max(p[1] for p in outer)
+    if max_x == min_x or max_y == min_y:
+        return [round(outer[0][0], 2), round(outer[0][1], 2)]
+
+    best = None
+    best_score = -1.0
+    steps = 48
+    for i in range(steps + 1):
+        x = min_x + (max_x - min_x) * i / steps
+        for j in range(steps + 1):
+            y = min_y + (max_y - min_y) * j / steps
+            if not point_in_part(x, y, rings):
+                continue
+            score = distance_to_boundary(x, y, rings)
+            if score > best_score:
+                best_score = score
+                best = (x, y)
+
+    if best is None:
+        return [round(outer[0][0], 2), round(outer[0][1], 2)]
+
+    # 在最优点附近再做一轮细化
+    step_x = (max_x - min_x) / steps
+    step_y = (max_y - min_y) / steps
+    cx, cy = best
+    for i in range(-5, 6):
+        for j in range(-5, 6):
+            x = cx + step_x * i / 5
+            y = cy + step_y * j / 5
+            if not point_in_part(x, y, rings):
+                continue
+            score = distance_to_boundary(x, y, rings)
+            if score > best_score:
+                best_score = score
+                best = (x, y)
+
+    return [round(best[0], 2), round(best[1], 2)]
+
+
 def label_point(geometry):
     parts = (
         [geometry['coordinates']]
         if geometry['type'] == 'Polygon'
         else geometry['coordinates']
     )
-    best = max((part[0] for part in parts), key=ring_area)
-    lng = sum(p[0] for p in best) / len(best)
-    lat = sum(p[1] for p in best) / len(best)
-    return [round(lng, 2), round(lat, 2)]
+    best = max(parts, key=lambda part: ring_area(part[0]))
+    return interior_point(best)
 
 
 def main():
@@ -234,9 +315,20 @@ def main():
                     'precision': 'schematic',
                     'source': '本项目示意数据',
                 }
+                feature['properties']['labelPoint'] = label_point(feature['geometry'])
                 by_atlas.setdefault('sui-tang', []).append(feature)
 
     for atlas, features in by_atlas.items():
+        for feature in features:
+            geometry = feature['geometry']
+            parts = (
+                [geometry['coordinates']]
+                if geometry['type'] == 'Polygon'
+                else geometry['coordinates']
+            )
+            lng, lat = feature['properties']['labelPoint']
+            if not any(point_in_part(lng, lat, part) for part in parts):
+                print(f"⚠️ 标识点落在面外：{atlas} {feature['properties']['name']['zh']} {feature['properties']['labelPoint']}")
         features.sort(key=lambda f: (f['properties']['startDate'], f['properties']['entityId']))
         out = {'type': 'FeatureCollection', 'features': features}
         path = ATLASES / atlas / 'territories' / 'territories.geojson'
