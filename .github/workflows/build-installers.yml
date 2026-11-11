@@ -14,10 +14,6 @@ concurrency:
   group: installers-${{ github.ref }}
   cancel-in-progress: true
 
-env:
-  NODE_VERSION: '22'
-  PNPM_VERSION: '10.30.3'
-
 jobs:
   check-secrets:
     name: Check signing secrets
@@ -51,11 +47,11 @@ jobs:
 
       - uses: pnpm/action-setup@v4
         with:
-          version: ${{ env.PNPM_VERSION }}
+          version: 10.30.3
 
       - uses: actions/setup-node@v4
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version: '22'
           cache: pnpm
 
       - name: Install dependencies
@@ -94,11 +90,11 @@ jobs:
 
       - uses: pnpm/action-setup@v4
         with:
-          version: ${{ env.PNPM_VERSION }}
+          version: 10.30.3
 
       - uses: actions/setup-node@v4
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version: '22'
           cache: pnpm
 
       - uses: dtolnay/rust-toolchain@stable
@@ -142,11 +138,11 @@ jobs:
 
       - uses: pnpm/action-setup@v4
         with:
-          version: ${{ env.PNPM_VERSION }}
+          version: 10.30.3
 
       - uses: actions/setup-node@v4
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version: '22'
           cache: pnpm
 
       - uses: dtolnay/rust-toolchain@stable
@@ -185,11 +181,11 @@ jobs:
 
       - uses: pnpm/action-setup@v4
         with:
-          version: ${{ env.PNPM_VERSION }}
+          version: 10.30.3
 
       - uses: actions/setup-node@v4
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version: '22'
           cache: pnpm
 
       - uses: actions/setup-java@v4
@@ -258,6 +254,7 @@ jobs:
     if: needs.check-secrets.outputs.apple == 'true'
     runs-on: macos-15
     env:
+      LANG: en_US.UTF-8
       EXPO_PUBLIC_AMAP_IOS_KEY: ${{ secrets.EXPO_PUBLIC_AMAP_IOS_KEY }}
       APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
       APPLE_CERTIFICATE_BASE64: ${{ secrets.APPLE_CERTIFICATE_BASE64 }}
@@ -269,11 +266,11 @@ jobs:
 
       - uses: pnpm/action-setup@v4
         with:
-          version: ${{ env.PNPM_VERSION }}
+          version: 10.30.3
 
       - uses: actions/setup-node@v4
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version: '22'
           cache: pnpm
 
       - name: Install dependencies

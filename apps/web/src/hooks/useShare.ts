@@ -57,7 +57,7 @@ export function useShare() {
     // 桌面端没有可分享的 Web 域名，回退到线上 Web 地址；绑定正式域名后可用
     // VITE_SHARE_BASE_URL 覆盖。
     const baseUrl =
-      import.meta.env.VITE_SHARE_BASE_URL ??
+      import.meta.env.VITE_SHARE_BASE_URL ||
       (import.meta.env.MODE === 'desktop'
         ? 'https://open-chronicle-atlas-mengfeng007-7858.vercel.app'
         : window.location.origin);
