@@ -480,6 +480,126 @@
     "importance": 3
   },
   {
+    "id": "zheng-taiwan-1662",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "郑成功收复台湾",
+      "en": "Zheng Chenggong recovers Taiwan"
+    },
+    "date": "1662-02-01",
+    "location": {
+      "lng": 120.2,
+      "lat": 23.0,
+      "place": {
+        "zh": "台湾台南",
+        "en": "Tainan, Taiwan"
+      }
+    },
+    "entityIds": [
+      "ming-zheng"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "郑成功渡海攻台，荷兰殖民者投降。",
+      "en": "Zheng Chenggong crossed the sea, besieged the Dutch, and recovered Taiwan."
+    },
+    "description": {
+      "zh": "1661 年郑成功率军自厦门渡海进攻台湾，围攻热兰遮城；1662 年荷兰殖民者投降，郑氏收复台湾。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1661 Zheng Chenggong led his forces from Xiamen across the sea to Taiwan and besieged Fort Zeelandia. In 1662 the Dutch surrendered, and the Zheng regime took control of Taiwan. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾事件参考"
+      }
+    ],
+    "relatedIds": [
+      "taiwan-1683"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "sanfan-1673",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "三藩之乱",
+      "en": "The Revolt of the Three Feudatories"
+    },
+    "date": "1673-12-01",
+    "location": {
+      "lng": 102.7,
+      "lat": 25.0,
+      "place": {
+        "zh": "云南昆明",
+        "en": "Kunming, Yunnan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "吴三桂在云南起兵，三藩之乱爆发。",
+      "en": "Wu Sangui rose in Yunnan, beginning the Revolt of the Three Feudatories."
+    },
+    "description": {
+      "zh": "1673 年，平西王吴三桂在云南起兵反清，耿精忠、尚之信等响应，三藩之乱爆发，至 1681 年才被平定。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1673 Wu Sangui, Prince of Pingxi, rose against the Qing in Yunnan; Geng Jingzhong and Shang Zhixin soon joined, beginning the Revolt of the Three Feudatories, which was suppressed only in 1681. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾事件参考"
+      }
+    ],
+    "relatedIds": [
+      "taiwan-1683"
+    ],
+    "importance": 3
+  },
+  {
     "id": "taiwan-1683",
     "atlasId": "ming-qing",
     "name": {
@@ -538,6 +658,66 @@
       "nerchinsk-1689"
     ],
     "importance": 3
+  },
+  {
+    "id": "albazin-1685",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "雅克萨之战",
+      "en": "The Siege of Albazin"
+    },
+    "date": "1685-06-01",
+    "location": {
+      "lng": 123.0,
+      "lat": 53.0,
+      "place": {
+        "zh": "黑龙江雅克萨",
+        "en": "Albazin, Heilongjiang"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "清军围攻雅克萨，俄军投降。",
+      "en": "Qing forces besieged Albazin and forced the Russian garrison to surrender."
+    },
+    "description": {
+      "zh": "1685 年，清军围攻雅克萨，俄军投降；俄军随后重占，1686 年清军再次围攻，最终促成尼布楚谈判。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1685 Qing forces besieged Albazin and forced the Russian garrison to surrender. The Russians later reoccupied it, leading to a second siege in 1686 and eventually the Nerchinsk negotiations. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾事件参考"
+      }
+    ],
+    "relatedIds": [
+      "nerchinsk-1689"
+    ],
+    "importance": 2
   },
   {
     "id": "nerchinsk-1689",
@@ -600,6 +780,126 @@
     "importance": 2
   },
   {
+    "id": "yongzheng-1722",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "雍正即位",
+      "en": "The Yongzheng Emperor ascends"
+    },
+    "date": "1722-12-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "康熙帝去世，胤禛即位，是为雍正帝。",
+      "en": "The Kangxi Emperor died and Yinzhen ascended as the Yongzheng Emperor."
+    },
+    "description": {
+      "zh": "1722 年，康熙帝去世，皇四子胤禛即位，次年改元雍正；其即位过程与遗诏真伪长期存在争议。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1722 the Kangxi Emperor died and his fourth son Yinzhen ascended the throne, adopting the Yongzheng era name the following year. The succession and the authenticity of the edict have long been debated. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾事件参考"
+      }
+    ],
+    "relatedIds": [
+      "junji-1729"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "junji-1729",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "军机处设立",
+      "en": "The Grand Council is established"
+    },
+    "date": "1729-01-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "雍正设军机处，强化皇权与政务效率。",
+      "en": "The Yongzheng Emperor established the Grand Council to centralize decision-making."
+    },
+    "description": {
+      "zh": "1729 年，雍正帝因西北用兵设立军机处，后成为清朝最高决策机构，强化了皇权与政务效率。日期与制度为通行说法，待页码级核对。",
+      "en": "In 1729, during the northwestern campaigns, the Yongzheng Emperor established the Grand Council, which became the Qing’s highest decision-making body and strengthened imperial control. Dates and institutions follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾事件参考"
+      }
+    ],
+    "relatedIds": [
+      "yongzheng-1722"
+    ],
+    "importance": 2
+  },
+  {
     "id": "dzungar-1755",
     "atlasId": "ming-qing",
     "name": {
@@ -652,6 +952,126 @@
         "author": "清代官修",
         "year": 1900,
         "note": "清代诏令与事件参考"
+      }
+    ],
+    "relatedIds": [
+      "opium-1840"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhungar-1759",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "清平大小和卓",
+      "en": "The Qing defeat the Khojas"
+    },
+    "date": "1759-01-01",
+    "location": {
+      "lng": 75.99,
+      "lat": 39.47,
+      "place": {
+        "zh": "新疆喀什",
+        "en": "Kashgar, Xinjiang"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "清军平定大小和卓，控制新疆。",
+      "en": "Qing forces defeated the Khoja brothers and consolidated control of Xinjiang."
+    },
+    "description": {
+      "zh": "1759 年，清军平定大小和卓叛乱，控制天山南路，与 1755 年平定准噶尔一起构成乾隆“十全武功”的重要部分。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1759 Qing forces suppressed the Khoja brothers’ rebellion and consolidated control of the southern Tian Shan, completing the conquest of Xinjiang alongside the 1755 campaign against the Dzungars. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾事件参考"
+      }
+    ],
+    "relatedIds": [
+      "dzungar-1755"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "macartney-1793",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "马戛尔尼使华",
+      "en": "The Macartney embassy"
+    },
+    "date": "1793-09-01",
+    "location": {
+      "lng": 117.94,
+      "lat": 40.99,
+      "place": {
+        "zh": "河北承德",
+        "en": "Chengde, Hebei"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "英国使团觐见乾隆，通商请求被拒。",
+      "en": "The British Macartney embassy met the Qianlong Emperor, but its trade requests were refused."
+    },
+    "description": {
+      "zh": "1793 年，英国马戛尔尼使团在承德觐见乾隆帝，提出通商、设馆等请求，被清廷拒绝，成为中西外交观念冲突的典型案例。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1793 the British Macartney embassy met the Qianlong Emperor at Chengde and requested trade and residence rights, which the Qing court refused, a classic case of conflicting diplomatic assumptions. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾事件参考"
       }
     ],
     "relatedIds": [
@@ -780,6 +1200,66 @@
     "importance": 3
   },
   {
+    "id": "yangwu-1861",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "洋务运动",
+      "en": "The Self-Strengthening Movement"
+    },
+    "date": "1861-01-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "总理衙门设立，洋务运动兴起。",
+      "en": "The Zongli Yamen was established, launching the Self-Strengthening Movement."
+    },
+    "description": {
+      "zh": "1861 年，清廷设立总理各国事务衙门，随后创办近代军工、民用企业与新式学堂，史称洋务运动，试图“师夷长技以自强”。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1861 the Qing established the Zongli Yamen (Foreign Office), followed by modern arsenals, enterprises, and schools. The Self-Strengthening Movement sought to adopt Western technology while preserving Qing rule. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾事件参考"
+      }
+    ],
+    "relatedIds": [
+      "jiawu-1894"
+    ],
+    "importance": 3
+  },
+  {
     "id": "jiawu-1894",
     "atlasId": "ming-qing",
     "name": {
@@ -838,6 +1318,246 @@
       "wuchang-1911"
     ],
     "importance": 3
+  },
+  {
+    "id": "wuxu-1898",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "戊戌变法",
+      "en": "The Hundred Days’ Reform"
+    },
+    "date": "1898-06-11",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "光绪帝下诏变法，百日维新开始。",
+      "en": "The Guangxu Emperor issued reform edicts, beginning the Hundred Days’ Reform."
+    },
+    "description": {
+      "zh": "1898 年 6 月 11 日，光绪帝颁布“明定国是”诏书，开始变法；9 月慈禧太后发动政变，变法失败，史称戊戌变法或百日维新。日期与经过为通行说法，待页码级核对。",
+      "en": "On 11 June 1898 the Guangxu Emperor issued the reform edict, beginning the Hundred Days’ Reform. In September the Empress Dowager Cixi staged a coup and ended the reforms. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾事件参考"
+      }
+    ],
+    "relatedIds": [
+      "boxer-1900"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "boxer-1900",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "义和团与八国联军",
+      "en": "The Boxer Uprising and the Eight-Nation Alliance"
+    },
+    "date": "1900-06-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "义和团进入北京，八国联军侵华。",
+      "en": "The Boxers entered Beijing and the Eight-Nation Alliance intervened."
+    },
+    "description": {
+      "zh": "1900 年，义和团运动高涨并进入北京，清廷对列强宣战；八国联军攻占北京，慈禧太后西逃，次年签订《辛丑条约》。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1900 the Boxer movement spread to Beijing and the Qing court declared war on the powers. The Eight-Nation Alliance captured Beijing, the court fled west, and the Boxer Protocol was signed in 1901. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾事件参考"
+      }
+    ],
+    "relatedIds": [
+      "xinzheng-1901"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "xinzheng-1901",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "清末新政",
+      "en": "The Late Qing reforms"
+    },
+    "date": "1901-01-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "清廷推行新政，废科举、练新军。",
+      "en": "The Qing launched the New Policies, abolishing the civil service exams and creating a modern army."
+    },
+    "description": {
+      "zh": "1901 年起，清廷推行新政，包括改革官制、废科举、练新军、兴学堂等，试图挽救统治危机，但未能阻止革命。日期与经过为通行说法，待页码级核对。",
+      "en": "From 1901 the Qing implemented the New Policies, reforming the bureaucracy, abolishing the civil service examinations, creating a modern army, and founding schools. The reforms failed to prevent revolution. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾事件参考"
+      }
+    ],
+    "relatedIds": [
+      "wuchang-1911"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "baolu-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "保路运动",
+      "en": "The Railway Protection Movement"
+    },
+    "date": "1911-06-01",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "四川保路运动爆发，成为辛亥革命导火索。",
+      "en": "The Sichuan Railway Protection Movement erupted, helping trigger the 1911 Revolution."
+    },
+    "description": {
+      "zh": "1911 年，清廷宣布铁路国有，激起四川保路运动，清廷调湖北新军入川镇压，削弱了武汉防务，为武昌起义创造了条件。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1911 the Qing move to nationalize railways sparked the Sichuan Railway Protection Movement. Troops were drawn from Hubei to suppress it, weakening Wuhan’s defenses and creating conditions for the Wuchang Uprising. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "明代事件与人物参考，路线为示意简化"
+      },
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《台湾通史》",
+        "author": "连横",
+        "year": 1920,
+        "note": "明郑与台湾事件参考"
+      }
+    ],
+    "relatedIds": [
+      "wuchang-1911"
+    ],
+    "importance": 2
   },
   {
     "id": "wuchang-1911",
