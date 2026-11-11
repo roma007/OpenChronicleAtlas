@@ -315,20 +315,28 @@
             34.27
           ],
           [
-            108.49,
-            34.3
+            100.5,
+            39.5
+          ],
+          [
+            87.6,
+            43.8
+          ],
+          [
+            81.32,
+            43.92
           ]
         ]
       },
       "properties": {
         "entityId": "tang",
-        "startDate": "0756-06-01",
-        "endDate": "0756-07-31",
+        "startDate": "0657-01-01",
+        "endDate": "0657-12-31",
         "order": 9,
-        "segmentType": "retreat",
+        "segmentType": "advance",
         "name": {
-          "zh": "长安—马嵬驿",
-          "en": "Chang’an–Mawei Post"
+          "zh": "长安—碎叶",
+          "en": "Chang’an–Suyab"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -345,24 +353,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            115.65,
-            34.4
+            120.75,
+            37.8
           ],
           [
-            115.7,
-            34.45
+            122.5,
+            37.0
+          ],
+          [
+            126.5,
+            36.0
           ]
         ]
       },
       "properties": {
         "entityId": "tang",
-        "startDate": "0757-01-01",
-        "endDate": "0757-10-31",
+        "startDate": "0663-07-01",
+        "endDate": "0663-09-30",
         "order": 10,
-        "segmentType": "defense",
+        "segmentType": "naval",
         "name": {
-          "zh": "睢阳防御",
-          "en": "Defense of Suiyang"
+          "zh": "登州—白江口",
+          "en": "Dengzhou–Baekgang"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -379,28 +391,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            115.2,
-            35.2
-          ],
-          [
-            114.3,
-            34.8
-          ],
-          [
             112.45,
             34.62
+          ],
+          [
+            112.47,
+            34.64
           ]
         ]
       },
       "properties": {
         "entityId": "tang",
-        "startDate": "0875-06-01",
-        "endDate": "0880-11-30",
+        "startDate": "0690-09-01",
+        "endDate": "0690-10-31",
         "order": 11,
-        "segmentType": "counterattack",
+        "segmentType": "other",
         "name": {
-          "zh": "冤句—洛阳",
-          "en": "Yuanju–Luoyang"
+          "zh": "洛阳—明堂",
+          "en": "Luoyang–Mingtang"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -421,58 +429,62 @@
             34.62
           ],
           [
-            110.5,
-            34.5
-          ],
+            112.43,
+            34.61
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0705-01-01",
+        "endDate": "0705-03-31",
+        "order": 12,
+        "segmentType": "other",
+        "name": {
+          "zh": "洛阳—上阳宫",
+          "en": "Luoyang–Shangyang Palace"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             108.95,
             34.27
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "tang",
-        "startDate": "0880-11-01",
-        "endDate": "0881-01-31",
-        "order": 12,
-        "segmentType": "counterattack",
-        "name": {
-          "zh": "洛阳—长安",
-          "en": "Luoyang–Chang’an"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            112.45,
-            34.62
           ],
           [
-            112.5,
-            34.65
+            100.5,
+            39.5
+          ],
+          [
+            87.6,
+            43.8
+          ],
+          [
+            72.25,
+            42.52
           ]
         ]
       },
       "properties": {
         "entityId": "tang",
-        "startDate": "0904-01-01",
-        "endDate": "0907-04-30",
+        "startDate": "0751-05-01",
+        "endDate": "0751-08-31",
         "order": 13,
-        "segmentType": "advance",
+        "segmentType": "counterattack",
         "name": {
-          "zh": "洛阳城内",
-          "en": "Within Luoyang"
+          "zh": "长安—怛罗斯",
+          "en": "Chang’an–Talas"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -527,6 +539,74 @@
         "type": "LineString",
         "coordinates": [
           [
+            108.95,
+            34.27
+          ],
+          [
+            108.49,
+            34.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0756-06-01",
+        "endDate": "0756-07-31",
+        "order": 15,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "长安—马嵬驿",
+          "en": "Chang’an–Mawei Post"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.65,
+            34.4
+          ],
+          [
+            115.7,
+            34.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0757-01-01",
+        "endDate": "0757-10-31",
+        "order": 16,
+        "segmentType": "defense",
+        "name": {
+          "zh": "睢阳防御",
+          "en": "Defense of Suiyang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             112.45,
             34.62
           ],
@@ -544,7 +624,7 @@
         "entityId": "an-shi",
         "startDate": "0763-01-01",
         "endDate": "0763-03-31",
-        "order": 15,
+        "order": 17,
         "segmentType": "retreat",
         "name": {
           "zh": "洛阳—范阳",
@@ -582,11 +662,379 @@
         "entityId": "tubo",
         "startDate": "0763-10-01",
         "endDate": "0763-11-30",
-        "order": 16,
+        "order": 18,
         "segmentType": "counterattack",
         "name": {
           "zh": "拉萨—长安",
           "en": "Lhasa–Chang’an"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            115.5,
+            38.5
+          ],
+          [
+            114.9,
+            36.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0781-01-01",
+        "endDate": "0781-12-31",
+        "order": 19,
+        "segmentType": "other",
+        "name": {
+          "zh": "幽州—魏州",
+          "en": "Youzhou–Weizhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.35,
+            35.33
+          ],
+          [
+            108.2,
+            34.8
+          ],
+          [
+            108.95,
+            34.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0783-10-01",
+        "endDate": "0783-11-30",
+        "order": 20,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "泾州—长安",
+          "en": "Jingzhou–Chang’an"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.95,
+            34.27
+          ],
+          [
+            100.0,
+            33.0
+          ],
+          [
+            91.1,
+            29.65
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0821-01-01",
+        "endDate": "0821-12-31",
+        "order": 21,
+        "segmentType": "other",
+        "name": {
+          "zh": "长安—逻些",
+          "en": "Chang’an–Lhasa"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.95,
+            34.27
+          ],
+          [
+            108.96,
+            34.29
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0835-11-01",
+        "endDate": "0835-12-31",
+        "order": 22,
+        "segmentType": "other",
+        "name": {
+          "zh": "长安—大明宫",
+          "en": "Chang’an–Daming Palace"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.95,
+            34.27
+          ],
+          [
+            108.96,
+            34.22
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0845-01-01",
+        "endDate": "0845-12-31",
+        "order": 23,
+        "segmentType": "other",
+        "name": {
+          "zh": "长安—大慈恩寺",
+          "en": "Chang’an–Daci’en Temple"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.66,
+            40.14
+          ],
+          [
+            95.78,
+            40.52
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0848-01-01",
+        "endDate": "0848-12-31",
+        "order": 24,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "沙州—瓜州",
+          "en": "Shazhou–Guazhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.3,
+            25.27
+          ],
+          [
+            113.0,
+            28.2
+          ],
+          [
+            115.9,
+            30.6
+          ],
+          [
+            117.18,
+            34.26
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0868-07-01",
+        "endDate": "0869-09-30",
+        "order": 25,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "桂州—徐州",
+          "en": "Guizhou–Xuzhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.2,
+            35.2
+          ],
+          [
+            114.3,
+            34.8
+          ],
+          [
+            112.45,
+            34.62
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0875-06-01",
+        "endDate": "0880-11-30",
+        "order": 26,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "冤句—洛阳",
+          "en": "Yuanju–Luoyang"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.45,
+            34.62
+          ],
+          [
+            110.5,
+            34.5
+          ],
+          [
+            108.95,
+            34.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0880-11-01",
+        "endDate": "0881-01-31",
+        "order": 27,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "洛阳—长安",
+          "en": "Luoyang–Chang’an"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.45,
+            34.62
+          ],
+          [
+            112.5,
+            34.65
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0904-01-01",
+        "endDate": "0907-04-30",
+        "order": 28,
+        "segmentType": "advance",
+        "name": {
+          "zh": "洛阳城内",
+          "en": "Within Luoyang"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",

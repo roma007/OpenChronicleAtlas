@@ -420,6 +420,67 @@
     "importance": 3
   },
   {
+    "id": "zhenguan-627",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "贞观之治",
+      "en": "The Zhenguan era"
+    },
+    "date": "0627-01-01",
+    "location": {
+      "lng": 108.95,
+      "lat": 34.27,
+      "place": {
+        "zh": "陕西长安",
+        "en": "Chang’an, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "唐太宗励精图治，出现政治清明、经济发展的贞观之治。",
+      "en": "Emperor Taizong’s conscientious rule produced the orderly and prosperous Zhenguan era."
+    },
+    "description": {
+      "zh": "627 年起，唐太宗重用魏徵、房玄龄等，轻徭薄赋、完善制度，史称贞观之治。年份为通行说法，具体起讫待史料校订。",
+      "en": "From 627, Emperor Taizong relied on ministers such as Wei Zheng and Fang Xuanling, lightened taxes, and improved institutions, an era later called the Zhenguan governance. Dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "隋代事件参考，路线为示意简化"
+      },
+      {
+        "title": "《旧唐书》",
+        "author": "刘昫等",
+        "year": 945,
+        "note": "唐代事件与人物参考"
+      },
+      {
+        "title": "《新唐书》",
+        "author": "欧阳修等",
+        "year": 1060,
+        "note": "唐代制度与事件参考"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "xuanwumen-626",
+      "kaiyuan-713"
+    ],
+    "importance": 3
+  },
+  {
     "id": "tujue-630",
     "atlasId": "sui-tang",
     "name": {
@@ -536,6 +597,366 @@
     ],
     "relatedIds": [
       "tubo-changan-763"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xitujue-657",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "唐灭西突厥",
+      "en": "The Tang defeat the Western Turks"
+    },
+    "date": "0657-01-01",
+    "location": {
+      "lng": 81.32,
+      "lat": 43.92,
+      "place": {
+        "zh": "西域伊犁",
+        "en": "Ili, Western Regions"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "苏定方率唐军击败西突厥，唐朝控制西域。",
+      "en": "Su Dingfang defeated the Western Turks, extending Tang control over the Western Regions."
+    },
+    "description": {
+      "zh": "657 年，唐将苏定方率军进攻西突厥，在伊犁河流域击败阿史那贺鲁，西突厥汗国灭亡，唐朝随后设都护府管理西域。日期与路线为通行说法，待页码级核对。",
+      "en": "In 657, the Tang general Su Dingfang campaigned against the Western Turks, defeated Ashina Helu in the Ili region, and ended the Western Turkic Khaganate. Tang subsequently established protectorates in the Western Regions. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "隋代事件参考，路线为示意简化"
+      },
+      {
+        "title": "《旧唐书》",
+        "author": "刘昫等",
+        "year": 945,
+        "note": "唐代事件与人物参考"
+      },
+      {
+        "title": "《新唐书》",
+        "author": "欧阳修等",
+        "year": 1060,
+        "note": "唐代制度与事件参考"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "wencheng-641"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "baijiangkou-663",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "白江口之战",
+      "en": "The Battle of Baekgang"
+    },
+    "date": "0663-08-01",
+    "location": {
+      "lng": 126.5,
+      "lat": 36.0,
+      "place": {
+        "zh": "朝鲜锦江",
+        "en": "Geum River, Korea"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "唐与新罗联军在白江口击败倭国与百济联军。",
+      "en": "Tang and Silla forces defeated the Yamato and Baekje fleet at Baekgang."
+    },
+    "description": {
+      "zh": "663 年，唐与新罗联军在白江口与倭国、百济联军水战，唐军水师以少胜多，焚毁大量敌船，百济复国运动失败。日期与经过为通行说法，待页码级核对。",
+      "en": "In 663, a Tang–Silla fleet fought the Yamato and Baekje forces at Baekgang. The Tang squadron, though outnumbered, destroyed many enemy ships, ending the Baekje restoration movement. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "隋代事件参考，路线为示意简化"
+      },
+      {
+        "title": "《旧唐书》",
+        "author": "刘昫等",
+        "year": 945,
+        "note": "唐代事件与人物参考"
+      },
+      {
+        "title": "《新唐书》",
+        "author": "欧阳修等",
+        "year": 1060,
+        "note": "唐代制度与事件参考"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "liaodong-612"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "wu-zetian-690",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "武则天称帝",
+      "en": "Wu Zetian proclaims the Zhou"
+    },
+    "date": "0690-10-01",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "河南洛阳",
+        "en": "Luoyang, Henan"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "武则天称帝，改唐为周，成为中国唯一女皇帝。",
+      "en": "Wu Zetian proclaimed herself emperor, changed the dynasty to Zhou, and became China’s only female sovereign."
+    },
+    "description": {
+      "zh": "690 年，武则天在洛阳称帝，改国号为周，史称武周，成为中国历史上唯一正统女皇帝。日期与经过为通行说法，待页码级核对。",
+      "en": "In 690, Wu Zetian proclaimed herself emperor at Luoyang and changed the dynastic name to Zhou, becoming the only woman to rule China as sovereign in the orthodox line. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "隋代事件参考，路线为示意简化"
+      },
+      {
+        "title": "《旧唐书》",
+        "author": "刘昫等",
+        "year": 945,
+        "note": "唐代事件与人物参考"
+      },
+      {
+        "title": "《新唐书》",
+        "author": "欧阳修等",
+        "year": 1060,
+        "note": "唐代制度与事件参考"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "shenlong-705"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "shenlong-705",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "神龙政变",
+      "en": "The Shenlong coup"
+    },
+    "date": "0705-02-01",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "河南洛阳",
+        "en": "Luoyang, Henan"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "张柬之等发动政变，逼武则天退位，唐中宗复位。",
+      "en": "Zhang Jianzhi and others forced Wu Zetian to abdicate and restored Emperor Zhongzong."
+    },
+    "description": {
+      "zh": "705 年，张柬之、桓彦范等联合禁军发动神龙政变，逼武则天退位，唐中宗复位，恢复唐朝国号。日期与经过为通行说法，待页码级核对。",
+      "en": "In 705, Zhang Jianzhi, Huan Yanfan, and others, with palace guard support, launched the Shenlong coup, forced Wu Zetian to abdicate, and restored Emperor Zhongzong and the Tang dynastic name. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "隋代事件参考，路线为示意简化"
+      },
+      {
+        "title": "《旧唐书》",
+        "author": "刘昫等",
+        "year": 945,
+        "note": "唐代事件与人物参考"
+      },
+      {
+        "title": "《新唐书》",
+        "author": "欧阳修等",
+        "year": 1060,
+        "note": "唐代制度与事件参考"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "wu-zetian-690"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "kaiyuan-713",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "开元盛世",
+      "en": "The Kaiyuan era"
+    },
+    "date": "0713-12-01",
+    "location": {
+      "lng": 108.95,
+      "lat": 34.27,
+      "place": {
+        "zh": "陕西长安",
+        "en": "Chang’an, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "唐玄宗开元年间政局稳定、经济繁荣。",
+      "en": "The Kaiyuan era of Emperor Xuanzong saw stable government and economic prosperity."
+    },
+    "description": {
+      "zh": "713 年起，唐玄宗任用姚崇、宋璟等，整顿吏治、发展生产，唐朝进入开元盛世，成为当时世界最强盛的国家之一。年份为通行说法，具体起讫待史料校订。",
+      "en": "From 713, Emperor Xuanzong appointed able ministers such as Yao Chong and Song Jing, reformed administration, and promoted production, ushering in the Kaiyuan prosperity that made Tang one of the strongest states of its time. Dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "隋代事件参考，路线为示意简化"
+      },
+      {
+        "title": "《旧唐书》",
+        "author": "刘昫等",
+        "year": 945,
+        "note": "唐代事件与人物参考"
+      },
+      {
+        "title": "《新唐书》",
+        "author": "欧阳修等",
+        "year": 1060,
+        "note": "唐代制度与事件参考"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "anshi-755"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "talas-751",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "怛罗斯之战",
+      "en": "The Battle of Talas"
+    },
+    "date": "0751-07-01",
+    "location": {
+      "lng": 72.25,
+      "lat": 42.52,
+      "place": {
+        "zh": "怛罗斯",
+        "en": "Talas"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "唐军与阿拔斯王朝在怛罗斯交战，唐军失利。",
+      "en": "Tang forces fought the Abbasid army at Talas and were defeated."
+    },
+    "description": {
+      "zh": "751 年，高仙芝率唐军与阿拔斯王朝及葛逻禄联军在怛罗斯交战，因葛逻禄倒戈，唐军大败。此战常被与造纸术西传联系起来，具体细节待史料校订。",
+      "en": "In 751, Gao Xianzhi’s Tang army fought an Abbasid and Karluk coalition at Talas. The Karluks switched sides, and the Tang force was routed. The battle is often linked to the westward transmission of papermaking; details await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "隋代事件参考，路线为示意简化"
+      },
+      {
+        "title": "《旧唐书》",
+        "author": "刘昫等",
+        "year": 945,
+        "note": "唐代事件与人物参考"
+      },
+      {
+        "title": "《新唐书》",
+        "author": "欧阳修等",
+        "year": 1060,
+        "note": "唐代制度与事件参考"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "anshi-755"
     ],
     "importance": 2
   },
@@ -721,66 +1142,6 @@
     "importance": 3
   },
   {
-    "id": "tubo-changan-763",
-    "atlasId": "sui-tang",
-    "name": {
-      "zh": "吐蕃攻陷长安",
-      "en": "Tubo forces take Chang’an"
-    },
-    "date": "0763-10-01",
-    "location": {
-      "lng": 108.95,
-      "lat": 34.27,
-      "place": {
-        "zh": "陕西长安",
-        "en": "Chang’an, Shaanxi"
-      }
-    },
-    "entityIds": [
-      "tubo"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "吐蕃军趁唐西北空虚攻入长安，短暂占据。",
-      "en": "Tubo forces exploited Tang weakness in the northwest and briefly occupied Chang’an."
-    },
-    "description": {
-      "zh": "763 年，吐蕃军乘唐廷忙于平定安史余部，攻入长安，唐代宗出逃，吐蕃军占据十五日后退出。日期与路线为通行说法，待页码级核对。",
-      "en": "In 763, while the Tang court was preoccupied with the remnants of the An–Shi Rebellion, Tubo forces entered Chang’an. Emperor Daizong fled, and the Tibetans withdrew after about fifteen days. Dates and routes follow conventional accounts and await page-level verification."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《隋书》",
-        "author": "魏徵等",
-        "year": 636,
-        "note": "隋代事件参考，路线为示意简化"
-      },
-      {
-        "title": "《旧唐书》",
-        "author": "刘昫等",
-        "year": 945,
-        "note": "唐代事件与人物参考"
-      },
-      {
-        "title": "《新唐书》",
-        "author": "欧阳修等",
-        "year": 1060,
-        "note": "唐代制度与事件参考"
-      },
-      {
-        "title": "《资治通鉴》",
-        "author": "司马光",
-        "year": 1084,
-        "note": "时间线与战役经过参考"
-      }
-    ],
-    "relatedIds": [
-      "anshi-end-763"
-    ],
-    "importance": 2
-  },
-  {
     "id": "anshi-end-763",
     "atlasId": "sui-tang",
     "name": {
@@ -841,6 +1202,66 @@
     "importance": 3
   },
   {
+    "id": "tubo-changan-763",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "吐蕃攻陷长安",
+      "en": "Tubo forces take Chang’an"
+    },
+    "date": "0763-10-01",
+    "location": {
+      "lng": 108.95,
+      "lat": 34.27,
+      "place": {
+        "zh": "陕西长安",
+        "en": "Chang’an, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "tubo"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "吐蕃军趁唐西北空虚攻入长安，短暂占据。",
+      "en": "Tubo forces exploited Tang weakness in the northwest and briefly occupied Chang’an."
+    },
+    "description": {
+      "zh": "763 年，吐蕃军乘唐廷忙于平定安史余部，攻入长安，唐代宗出逃，吐蕃军占据十五日后退出。日期与路线为通行说法，待页码级核对。",
+      "en": "In 763, while the Tang court was preoccupied with the remnants of the An–Shi Rebellion, Tubo forces entered Chang’an. Emperor Daizong fled, and the Tibetans withdrew after about fifteen days. Dates and routes follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "隋代事件参考，路线为示意简化"
+      },
+      {
+        "title": "《旧唐书》",
+        "author": "刘昫等",
+        "year": 945,
+        "note": "唐代事件与人物参考"
+      },
+      {
+        "title": "《新唐书》",
+        "author": "欧阳修等",
+        "year": 1060,
+        "note": "唐代制度与事件参考"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "anshi-end-763"
+    ],
+    "importance": 2
+  },
+  {
     "id": "liangshuifa-780",
     "atlasId": "sui-tang",
     "name": {
@@ -867,6 +1288,426 @@
     "description": {
       "zh": "780 年，唐德宗采纳杨炎建议，推行两税法，按户等与田亩征税，分夏、秋两季缴纳，改变了以人丁为主的租庸调制。日期与制度为通行说法，待页码级核对。",
       "en": "In 780, Emperor Dezong adopted Yang Yan’s proposal and introduced the Two-Tax System, taxing households and land and collecting in summer and autumn, replacing the head-tax-based zu-yong-diao system. Dates and institutions follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "隋代事件参考，路线为示意简化"
+      },
+      {
+        "title": "《旧唐书》",
+        "author": "刘昫等",
+        "year": 945,
+        "note": "唐代事件与人物参考"
+      },
+      {
+        "title": "《新唐书》",
+        "author": "欧阳修等",
+        "year": 1060,
+        "note": "唐代制度与事件参考"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "huangchao-875"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "heshuo-781",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "河朔藩镇割据",
+      "en": "The Hebei military governors"
+    },
+    "date": "0781-01-01",
+    "location": {
+      "lng": 114.9,
+      "lat": 36.3,
+      "place": {
+        "zh": "河北魏州",
+        "en": "Weizhou, Hebei"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "河朔三镇半独立，形成长期藩镇割据。",
+      "en": "The three Hebei garrisons became semi-independent, entrenching long-term military autonomy."
+    },
+    "description": {
+      "zh": "安史之乱后，魏博、成德、卢龙三镇节度使拥兵自重，781 年前后公开对抗中央，形成河朔藩镇割据局面。年份与经过为通行说法，待页码级核对。",
+      "en": "After the An–Shi Rebellion, the military governors of Weibo, Chengde, and Lulong kept private armies and increasingly defied the court; around 781 they openly resisted central authority, entrenching the Hebei garrison system. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "隋代事件参考，路线为示意简化"
+      },
+      {
+        "title": "《旧唐书》",
+        "author": "刘昫等",
+        "year": 945,
+        "note": "唐代事件与人物参考"
+      },
+      {
+        "title": "《新唐书》",
+        "author": "欧阳修等",
+        "year": 1060,
+        "note": "唐代制度与事件参考"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "anshi-end-763"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "jingyuan-783",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "泾原兵变",
+      "en": "The Jingyuan mutiny"
+    },
+    "date": "0783-10-01",
+    "location": {
+      "lng": 108.95,
+      "lat": 34.27,
+      "place": {
+        "zh": "陕西长安",
+        "en": "Chang’an, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "泾原兵变爆发，朱泚据长安称帝。",
+      "en": "The Jingyuan troops mutinied, and Zhu Ci seized Chang’an and proclaimed himself emperor."
+    },
+    "description": {
+      "zh": "783 年，泾原镇士兵因赏赐不满在长安哗变，拥立朱泚为帝，唐德宗出逃奉天，唐朝中央权威再受重创。日期与经过为通行说法，待页码级核对。",
+      "en": "In 783, troops from Jingyuan mutinied in Chang’an over inadequate rewards, backed Zhu Ci as emperor, and forced Emperor Dezong to flee to Fengtian, further damaging central authority. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "隋代事件参考，路线为示意简化"
+      },
+      {
+        "title": "《旧唐书》",
+        "author": "刘昫等",
+        "year": 945,
+        "note": "唐代事件与人物参考"
+      },
+      {
+        "title": "《新唐书》",
+        "author": "欧阳修等",
+        "year": 1060,
+        "note": "唐代制度与事件参考"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "liangshuifa-780"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "tangbo-821",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "唐蕃会盟",
+      "en": "The Tang–Tubo treaty"
+    },
+    "date": "0821-01-01",
+    "location": {
+      "lng": 108.95,
+      "lat": 34.27,
+      "place": {
+        "zh": "陕西长安",
+        "en": "Chang’an, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "唐与吐蕃举行长庆会盟，划定边界。",
+      "en": "Tang and Tubo concluded the Changqing treaty and fixed their border."
+    },
+    "description": {
+      "zh": "821 年，唐与吐蕃在长安与逻些互遣使者会盟，约定各守边界、互不侵扰，史称长庆会盟，盟碑现存拉萨大昭寺前。日期与经过为通行说法，待页码级核对。",
+      "en": "In 821, Tang and Tubo exchanged envoys and concluded the Changqing treaty, pledging to respect their border and refrain from attacks. The treaty stele still stands before the Jokhang in Lhasa. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "隋代事件参考，路线为示意简化"
+      },
+      {
+        "title": "《旧唐书》",
+        "author": "刘昫等",
+        "year": 945,
+        "note": "唐代事件与人物参考"
+      },
+      {
+        "title": "《新唐书》",
+        "author": "欧阳修等",
+        "year": 1060,
+        "note": "唐代制度与事件参考"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "wencheng-641"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "ganlu-835",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "甘露之变",
+      "en": "The Ganlu Incident"
+    },
+    "date": "0835-12-01",
+    "location": {
+      "lng": 108.95,
+      "lat": 34.27,
+      "place": {
+        "zh": "陕西长安",
+        "en": "Chang’an, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "唐文宗谋诛宦官失败，宦官专权加剧。",
+      "en": "Emperor Wenzong’s plot against the eunuchs failed, deepening eunuch dominance."
+    },
+    "description": {
+      "zh": "835 年，唐文宗与李训、郑注设计诛杀宦官，事泄失败，宦官大肆屠杀朝臣，史称甘露之变，此后宦官完全控制朝政。日期与经过为通行说法，待页码级核对。",
+      "en": "In 835, Emperor Wenzong, with Li Xun and Zheng Zhu, plotted to kill the dominant eunuchs. The plot was exposed and failed; the eunuchs massacred officials in what became known as the Ganlu Incident and thereafter dominated the court. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "隋代事件参考，路线为示意简化"
+      },
+      {
+        "title": "《旧唐书》",
+        "author": "刘昫等",
+        "year": 945,
+        "note": "唐代事件与人物参考"
+      },
+      {
+        "title": "《新唐书》",
+        "author": "欧阳修等",
+        "year": 1060,
+        "note": "唐代制度与事件参考"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "huichang-845"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "huichang-845",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "会昌灭佛",
+      "en": "The Huichang persecution of Buddhism"
+    },
+    "date": "0845-01-01",
+    "location": {
+      "lng": 108.95,
+      "lat": 34.27,
+      "place": {
+        "zh": "陕西长安",
+        "en": "Chang’an, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "宗教",
+    "summary": {
+      "zh": "唐武宗下令拆寺汰僧，佛教受到沉重打击。",
+      "en": "Emperor Wuzong ordered temples destroyed and monks laicized, dealing a heavy blow to Buddhism."
+    },
+    "description": {
+      "zh": "845 年，唐武宗在道士赵归真等影响下推行灭佛政策，拆毁大量寺院、勒令僧尼还俗，史称会昌灭佛，与北魏太武帝、北周武帝灭佛并称。日期与经过为通行说法，待页码级核对。",
+      "en": "In 845, influenced by Daoist advisers such as Zhao Guizhen, Emperor Wuzong persecuted Buddhism, destroying many temples and forcing monks and nuns to return to lay life. The campaign is grouped with earlier imperial persecutions of Buddhism. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "隋代事件参考，路线为示意简化"
+      },
+      {
+        "title": "《旧唐书》",
+        "author": "刘昫等",
+        "year": 945,
+        "note": "唐代事件与人物参考"
+      },
+      {
+        "title": "《新唐书》",
+        "author": "欧阳修等",
+        "year": 1060,
+        "note": "唐代制度与事件参考"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "ganlu-835"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "guiyijun-848",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "归义军收复敦煌",
+      "en": "The Guiyi Army recovers Dunhuang"
+    },
+    "date": "0848-01-01",
+    "location": {
+      "lng": 94.66,
+      "lat": 40.14,
+      "place": {
+        "zh": "甘肃敦煌",
+        "en": "Dunhuang, Gansu"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "张议潮起兵收复敦煌，归附唐朝。",
+      "en": "Zhang Yichao rose, recovered Dunhuang, and submitted to the Tang."
+    },
+    "description": {
+      "zh": "848 年，沙州豪族张议潮趁吐蕃内乱起兵，收复敦煌及周边州县，随后遣使归唐，唐朝设归义军，以张议潮为节度使。日期与经过为通行说法，待页码级核对。",
+      "en": "In 848, Zhang Yichao, a leading family of Shazhou, exploited turmoil in Tubo to rise against its rule and recover Dunhuang and neighboring prefectures. He then sent envoys to submit to the Tang, which established the Guiyi Army and made him its military governor. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《隋书》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "隋代事件参考，路线为示意简化"
+      },
+      {
+        "title": "《旧唐书》",
+        "author": "刘昫等",
+        "year": 945,
+        "note": "唐代事件与人物参考"
+      },
+      {
+        "title": "《新唐书》",
+        "author": "欧阳修等",
+        "year": 1060,
+        "note": "唐代制度与事件参考"
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "时间线与战役经过参考"
+      }
+    ],
+    "relatedIds": [
+      "tang-fall-907"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "pangxun-868",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "庞勋起义",
+      "en": "The Pang Xun rebellion"
+    },
+    "date": "0868-07-01",
+    "location": {
+      "lng": 117.18,
+      "lat": 34.26,
+      "place": {
+        "zh": "江苏徐州",
+        "en": "Xuzhou, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "桂州戍卒在庞勋率领下起义，北上攻占徐州。",
+      "en": "Pang Xun led mutinous garrison troops from Guizhou northward and captured Xuzhou."
+    },
+    "description": {
+      "zh": "868 年，戍守桂州的徐州兵因久戍不归起兵，推庞勋为首，北上攻占徐州，震动江淮，成为唐末大规模民变的前奏。日期与路线为通行说法，待页码级核对。",
+      "en": "In 868, garrison troops from Xu stationed at Guizhou mutinied over extended service, chose Pang Xun as their leader, marched north, and captured Xuzhou, shaking the Jiang-Huai region and foreshadowing the great late-Tang rebellions. Dates and routes follow conventional accounts and await page-level verification."
     },
     "images": [],
     "sources": [
