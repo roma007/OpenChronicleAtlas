@@ -1560,6 +1560,66 @@
     "importance": 3
   },
   {
+    "id": "tongwenguan-1862",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "京师同文馆",
+      "en": "The Beijing Tongwen Guan"
+    },
+    "date": "1862-08-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "清廷设立京师同文馆，培养外语与洋务人才。",
+      "en": "The Qing founded the Tongwen Guan in Beijing to train foreign-language and technical talent."
+    },
+    "description": {
+      "zh": "1862 年，清廷设立京师同文馆，最初培养外语翻译人才，后增设算学、格致等课程，是洋务教育的重要起点。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1862 the Qing established the Tongwen Guan in Beijing, initially to train translators and later adding mathematics and science, a key starting point for modern education in the Self-Strengthening Movement. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "liumei-1872"
+    ],
+    "importance": 2
+  },
+  {
     "id": "jiangnan-1865",
     "atlasId": "ming-qing",
     "name": {
@@ -1680,6 +1740,66 @@
     "importance": 2
   },
   {
+    "id": "liumei-1872",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "留美幼童",
+      "en": "The Chinese Educational Mission"
+    },
+    "date": "1872-08-11",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "清廷派遣首批幼童赴美留学。",
+      "en": "The Qing sent the first group of young students to study in the United States."
+    },
+    "description": {
+      "zh": "1872 年，在容闳推动下，清廷派遣首批幼童赴美留学，至 1875 年共派出四批，后因保守派反对于 1881 年撤回。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1872, promoted by Yung Wing, the Qing sent the first group of young students to the United States; four batches followed by 1875, but the mission was recalled in 1881 amid conservative opposition. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "tongwenguan-1862"
+    ],
+    "importance": 2
+  },
+  {
     "id": "zhaoshang-1872",
     "atlasId": "ming-qing",
     "name": {
@@ -1740,6 +1860,306 @@
     "importance": 2
   },
   {
+    "id": "xinjiang-1878",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "左宗棠收复新疆",
+      "en": "Zuo Zongtang recovers Xinjiang"
+    },
+    "date": "1878-01-01",
+    "location": {
+      "lng": 87.62,
+      "lat": 43.82,
+      "place": {
+        "zh": "新疆乌鲁木齐",
+        "en": "Urumqi, Xinjiang"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "左宗棠率军收复新疆，除伊犁外全境平定。",
+      "en": "Zuo Zongtang recovered Xinjiang, pacifying the region except for Ili."
+    },
+    "description": {
+      "zh": "1876—1878 年，左宗棠率清军西征，先后收复北疆与南疆，除沙俄占据的伊犁外，新疆重归清朝控制。日期与经过为通行说法，待页码级核对。",
+      "en": "From 1876 to 1878 Zuo Zongtang led Qing forces westward, recovering northern and southern Xinjiang. Except for Ili, held by Russia, the region returned to Qing control. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "taiwan-province-1885"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "kaiping-1878",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "开平矿务局",
+      "en": "The Kaiping Mines"
+    },
+    "date": "1878-07-01",
+    "location": {
+      "lng": 118.18,
+      "lat": 39.63,
+      "place": {
+        "zh": "河北唐山",
+        "en": "Tangshan, Hebei"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "李鸿章创办开平矿务局，开采煤矿。",
+      "en": "Li Hongzhang founded the Kaiping Mines to exploit coal deposits."
+    },
+    "description": {
+      "zh": "1878 年，李鸿章创办开平矿务局，采用机器开采煤矿，为轮船、军工与铁路提供燃料，是洋务民用企业的重要代表。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1878 Li Hongzhang founded the Kaiping Mines, using modern machinery to extract coal for steamships, arsenals, and railways, a major civilian enterprise of the Self-Strengthening Movement. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "hanyang-1890"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sino-french-1884",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "中法战争",
+      "en": "The Sino-French War"
+    },
+    "date": "1884-08-23",
+    "location": {
+      "lng": 119.3,
+      "lat": 26.08,
+      "place": {
+        "zh": "福建福州",
+        "en": "Fuzhou, Fujian"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "法国舰队袭击马尾，福建水师覆没。",
+      "en": "The French fleet attacked Mawei and destroyed the Fujian fleet."
+    },
+    "description": {
+      "zh": "1884 年，中法战争爆发，法国舰队在马尾袭击福建水师，福建水师几乎全军覆没；清军随后在镇南关等地取得胜利，最终签订《中法新约》。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1884 the Sino-French War broke out. The French fleet attacked the Fujian fleet at Mawei, almost annihilating it; Qing forces later won at Zhennanguan, and the war ended with the Treaty of Tianjin. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "taiwan-province-1885"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "taiwan-province-1885",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "台湾建省",
+      "en": "Taiwan becomes a province"
+    },
+    "date": "1885-10-12",
+    "location": {
+      "lng": 121.56,
+      "lat": 25.03,
+      "place": {
+        "zh": "台湾台北",
+        "en": "Taipei, Taiwan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "清廷将台湾升格为省，刘铭传任巡抚。",
+      "en": "The Qing elevated Taiwan to a province, with Liu Mingchuan as governor."
+    },
+    "description": {
+      "zh": "1885 年，清廷在中法战争后决定加强台湾防务，将台湾升格为省，以刘铭传为首任巡抚，推动铁路、电报与新政建设。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1885, after the Sino-French War, the Qing strengthened Taiwan’s defenses and elevated it to a province, appointing Liu Mingchuan as first governor; he promoted railways, telegraphs, and modern reforms. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "sino-french-1884"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hanyang-1890",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "汉阳铁厂",
+      "en": "The Hanyang Ironworks"
+    },
+    "date": "1890-12-01",
+    "location": {
+      "lng": 114.27,
+      "lat": 30.55,
+      "place": {
+        "zh": "湖北汉阳",
+        "en": "Hanyang, Hubei"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "张之洞创办汉阳铁厂。",
+      "en": "Zhang Zhidong founded the Hanyang Ironworks."
+    },
+    "description": {
+      "zh": "1890 年，张之洞在汉阳创办铁厂，1894 年投产，是当时亚洲最大的钢铁企业之一，后与汉阳兵工厂、湖北织布局构成湖北洋务工业体系。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1890 Zhang Zhidong founded the Hanyang Ironworks, which began production in 1894 and became one of Asia’s largest steel enterprises, anchoring Hubei’s Self-Strengthening industrial complex. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "kaiping-1878"
+    ],
+    "importance": 2
+  },
+  {
     "id": "jiawu-1894",
     "atlasId": "ming-qing",
     "name": {
@@ -1796,6 +2216,126 @@
     ],
     "relatedIds": [
       "wuchang-1911"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "yellow-sea-1894",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "黄海海战",
+      "en": "The Battle of the Yellow Sea"
+    },
+    "date": "1894-09-17",
+    "location": {
+      "lng": 123.0,
+      "lat": 38.5,
+      "place": {
+        "zh": "黄海",
+        "en": "Yellow Sea"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "北洋水师与日本联合舰队在黄海激战。",
+      "en": "The Beiyang Fleet and the Japanese Combined Fleet fought in the Yellow Sea."
+    },
+    "description": {
+      "zh": "1894 年 9 月 17 日，北洋水师护送运兵船返航时在黄海大东沟附近与日本联合舰队遭遇，激战数小时，北洋水师损失多艘军舰，失去黄海制海权。日期与经过为通行说法，待页码级核对。",
+      "en": "On 17 September 1894 the Beiyang Fleet, escorting transports home, encountered the Japanese Combined Fleet near the Yalu estuary. After hours of fighting the Chinese fleet lost several ships and command of the Yellow Sea. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "weihaiwei-1895"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "weihaiwei-1895",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "威海卫之战",
+      "en": "The Battle of Weihaiwei"
+    },
+    "date": "1895-02-01",
+    "location": {
+      "lng": 122.12,
+      "lat": 37.51,
+      "place": {
+        "zh": "山东威海",
+        "en": "Weihai, Shandong"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军攻占威海卫，北洋水师覆没。",
+      "en": "Japanese forces captured Weihaiwei and destroyed the Beiyang Fleet."
+    },
+    "description": {
+      "zh": "1895 年，日军海陆夹攻威海卫，北洋水师困守刘公岛，提督丁汝昌拒降自尽，北洋水师全军覆没。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1895 Japanese land and naval forces attacked Weihaiwei. The Beiyang Fleet, trapped at Liugong Island, was destroyed after Admiral Ding Ruchang refused to surrender and took his own life. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "yellow-sea-1894"
     ],
     "importance": 3
   },
@@ -2040,6 +2580,66 @@
     "importance": 3
   },
   {
+    "id": "mutual-protection-1900",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "东南互保",
+      "en": "The Mutual Protection of Southeast China"
+    },
+    "date": "1900-06-26",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "东南督抚与列强达成互保协议。",
+      "en": "Southeast governors and foreign powers agreed to mutual protection."
+    },
+    "description": {
+      "zh": "1900 年义和团运动期间，刘坤一、张之洞等东南督抚与列强驻沪领事达成“东南互保”协议，避免战火波及东南各省，显示清廷中央权威的衰落。日期与经过为通行说法，待页码级核对。",
+      "en": "During the Boxer crisis of 1900, governors Liu Kunyi and Zhang Zhidong reached a “mutual protection” agreement with foreign consuls in Shanghai, keeping the war out of southeastern provinces and revealing the decline of central authority. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "boxer-1900"
+    ],
+    "importance": 2
+  },
+  {
     "id": "xinzheng-1901",
     "atlasId": "ming-qing",
     "name": {
@@ -2218,6 +2818,126 @@
       "preparatory-constitution-1906"
     ],
     "importance": 2
+  },
+  {
+    "id": "consultative-1909",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "咨议局成立",
+      "en": "The provincial assemblies"
+    },
+    "date": "1909-10-14",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "各省咨议局成立，立宪派进入地方政治。",
+      "en": "Provincial assemblies were established, bringing constitutionalists into local politics."
+    },
+    "description": {
+      "zh": "1909 年，清廷在各省设立咨议局，作为地方议事机构，立宪派借此扩大政治影响，推动召开国会请愿运动。日期与经过为通行说法，待页码级核对。",
+      "en": "In 1909 the Qing established provincial assemblies as local deliberative bodies. Constitutionalists used them to expand political influence and press for a national parliament. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "royal-cabinet-1911"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "royal-cabinet-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "皇族内阁",
+      "en": "The Royal Cabinet"
+    },
+    "date": "1911-05-08",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "清廷成立皇族主导的内阁，立宪派失望。",
+      "en": "The Qing formed a cabinet dominated by imperial kinsmen, disappointing constitutionalists."
+    },
+    "description": {
+      "zh": "1911 年 5 月，清廷成立新内阁，13 名阁员中皇族占 7 人，被称为“皇族内阁”，立宪派大失所望，进一步转向革命。日期与经过为通行说法，待页码级核对。",
+      "en": "In May 1911 the Qing formed a new cabinet with seven of thirteen members from the imperial clan. Dubbed the “Royal Cabinet,” it deeply disappointed constitutionalists and pushed many toward revolution. Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《清史稿》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清代事件与人物参考"
+      },
+      {
+        "title": "《清实录》",
+        "author": "清代官修",
+        "year": 1900,
+        "note": "清代诏令与事件参考"
+      },
+      {
+        "title": "《清史》",
+        "author": "戴逸等",
+        "year": 2020,
+        "note": "清代通史参考"
+      },
+      {
+        "title": "《中国近代史》",
+        "author": "徐中约",
+        "year": 2008,
+        "note": "晚清与近代事件参考"
+      }
+    ],
+    "relatedIds": [
+      "wuchang-1911"
+    ],
+    "importance": 3
   },
   {
     "id": "baolu-1911",

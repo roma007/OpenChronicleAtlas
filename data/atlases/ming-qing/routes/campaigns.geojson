@@ -951,6 +951,40 @@
         "type": "LineString",
         "coordinates": [
           [
+            116.4,
+            39.9
+          ],
+          [
+            116.41,
+            39.92
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1862-08-01",
+        "endDate": "1862-12-31",
+        "order": 27,
+        "segmentType": "other",
+        "name": {
+          "zh": "北京—同文馆",
+          "en": "Beijing–Tongwen Guan"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             121.47,
             31.23
           ],
@@ -964,7 +998,7 @@
         "entityId": "qing",
         "startDate": "1865-09-01",
         "endDate": "1865-12-31",
-        "order": 27,
+        "order": 28,
         "segmentType": "other",
         "name": {
           "zh": "上海—江南制造总局",
@@ -998,11 +1032,45 @@
         "entityId": "qing",
         "startDate": "1866-12-01",
         "endDate": "1867-12-31",
-        "order": 28,
+        "order": 29,
         "segmentType": "other",
         "name": {
           "zh": "福州—马尾",
           "en": "Fuzhou–Mawei"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47,
+            31.23
+          ],
+          [
+            121.5,
+            31.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1872-08-01",
+        "endDate": "1872-09-30",
+        "order": 30,
+        "segmentType": "naval",
+        "name": {
+          "zh": "上海—吴淞口",
+          "en": "Shanghai–Wusong"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -1032,11 +1100,185 @@
         "entityId": "qing",
         "startDate": "1872-12-01",
         "endDate": "1873-06-30",
-        "order": 29,
+        "order": 31,
         "segmentType": "other",
         "name": {
           "zh": "上海—轮船招商局",
           "en": "Shanghai–China Merchants"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.83,
+            36.06
+          ],
+          [
+            98.5,
+            39.5
+          ],
+          [
+            87.62,
+            43.82
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1876-04-01",
+        "endDate": "1878-01-31",
+        "order": 32,
+        "segmentType": "advance",
+        "name": {
+          "zh": "兰州—乌鲁木齐",
+          "en": "Lanzhou–Urumqi"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.2,
+            39.13
+          ],
+          [
+            118.18,
+            39.63
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1878-07-01",
+        "endDate": "1878-12-31",
+        "order": 33,
+        "segmentType": "other",
+        "name": {
+          "zh": "天津—开平",
+          "en": "Tianjin–Kaiping"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.45,
+            26.0
+          ],
+          [
+            119.3,
+            26.08
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1884-08-01",
+        "endDate": "1884-09-30",
+        "order": 34,
+        "segmentType": "naval",
+        "name": {
+          "zh": "马尾—福州",
+          "en": "Mawei–Fuzhou"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.56,
+            25.03
+          ],
+          [
+            121.58,
+            25.05
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1885-10-01",
+        "endDate": "1885-12-31",
+        "order": 35,
+        "segmentType": "other",
+        "name": {
+          "zh": "台北城内",
+          "en": "Within Taipei"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.27,
+            30.55
+          ],
+          [
+            114.28,
+            30.56
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1890-12-01",
+        "endDate": "1891-06-30",
+        "order": 36,
+        "segmentType": "other",
+        "name": {
+          "zh": "汉阳—铁厂",
+          "en": "Hanyang–Ironworks"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -1070,11 +1312,79 @@
         "entityId": "qing",
         "startDate": "1894-07-01",
         "endDate": "1894-09-30",
-        "order": 30,
+        "order": 37,
         "segmentType": "naval",
         "name": {
           "zh": "丹东—威海",
           "en": "Dandong–Weihai"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            122.12,
+            37.51
+          ],
+          [
+            123.0,
+            38.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1894-09-01",
+        "endDate": "1894-10-31",
+        "order": 38,
+        "segmentType": "naval",
+        "name": {
+          "zh": "威海—黄海",
+          "en": "Weihai–Yellow Sea"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            122.12,
+            37.51
+          ],
+          [
+            122.14,
+            37.53
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1895-01-01",
+        "endDate": "1895-02-28",
+        "order": 39,
+        "segmentType": "defense",
+        "name": {
+          "zh": "威海卫城内",
+          "en": "Within Weihaiwei"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -1104,7 +1414,7 @@
         "entityId": "qing",
         "startDate": "1895-04-01",
         "endDate": "1895-05-31",
-        "order": 31,
+        "order": 40,
         "segmentType": "other",
         "name": {
           "zh": "北京—东交民巷",
@@ -1138,7 +1448,7 @@
         "entityId": "qing",
         "startDate": "1898-03-01",
         "endDate": "1898-04-30",
-        "order": 32,
+        "order": 41,
         "segmentType": "other",
         "name": {
           "zh": "北京—使馆区",
@@ -1172,11 +1482,45 @@
         "entityId": "qing",
         "startDate": "1898-06-01",
         "endDate": "1898-09-30",
-        "order": 33,
+        "order": 42,
         "segmentType": "other",
         "name": {
           "zh": "北京—颐和园",
           "en": "Beijing–Summer Palace"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47,
+            31.23
+          ],
+          [
+            118.8,
+            32.06
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1900-06-01",
+        "endDate": "1900-07-31",
+        "order": 43,
+        "segmentType": "other",
+        "name": {
+          "zh": "上海—南京",
+          "en": "Shanghai–Nanjing"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -1210,7 +1554,7 @@
         "entityId": "qing",
         "startDate": "1900-06-01",
         "endDate": "1900-08-31",
-        "order": 34,
+        "order": 44,
         "segmentType": "advance",
         "name": {
           "zh": "天津—北京",
@@ -1244,7 +1588,7 @@
         "entityId": "qing",
         "startDate": "1901-01-01",
         "endDate": "1901-12-31",
-        "order": 35,
+        "order": 45,
         "segmentType": "other",
         "name": {
           "zh": "北京—宪政编查馆",
@@ -1278,11 +1622,79 @@
         "entityId": "qing",
         "startDate": "1906-09-01",
         "endDate": "1908-09-30",
-        "order": 36,
+        "order": 46,
         "segmentType": "other",
         "name": {
           "zh": "北京—资政院",
           "en": "Beijing–Advisory Council"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            116.41,
+            39.91
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1909-10-01",
+        "endDate": "1909-11-30",
+        "order": 47,
+        "segmentType": "other",
+        "name": {
+          "zh": "北京—咨议局",
+          "en": "Beijing–Provincial Assembly"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            116.42,
+            39.92
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1911-05-01",
+        "endDate": "1911-06-30",
+        "order": 48,
+        "segmentType": "other",
+        "name": {
+          "zh": "北京—皇族内阁",
+          "en": "Beijing–Royal Cabinet"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -1316,7 +1728,7 @@
         "entityId": "qing",
         "startDate": "1911-06-01",
         "endDate": "1911-10-31",
-        "order": 37,
+        "order": 49,
         "segmentType": "other",
         "name": {
           "zh": "成都—武昌",
@@ -1350,7 +1762,7 @@
         "entityId": "qing",
         "startDate": "1911-10-01",
         "endDate": "1911-11-30",
-        "order": 38,
+        "order": 50,
         "segmentType": "other",
         "name": {
           "zh": "武昌城内",
@@ -1384,7 +1796,7 @@
         "entityId": "qing",
         "startDate": "1912-01-01",
         "endDate": "1912-02-12",
-        "order": 39,
+        "order": 51,
         "segmentType": "other",
         "name": {
           "zh": "北京城内",
