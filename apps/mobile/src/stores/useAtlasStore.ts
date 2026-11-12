@@ -19,7 +19,12 @@ import {
 } from '@atlas/shared';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { DATA_BASE, fetchAtlas, fetchAtlasIndex, fetchSearchIndex } from '../data/client';
+import {
+  fetchAtlas,
+  fetchAtlasIndex,
+  fetchLatestDataVersion,
+  fetchSearchIndex,
+} from '../data/client';
 import {
   clearAtlasCache,
   consumeCacheHit,
@@ -263,10 +268,8 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
     const current = get().dataVersion;
     if (!current) return;
     try {
-      const response = await fetch(`${DATA_BASE}/index.json?t=${Date.now()}`);
-      if (!response.ok) return;
-      const raw = (await response.json()) as { dataVersion?: string };
-      if (isDataVersionNewer(current, raw.dataVersion)) {
+      const latest = await fetchLatestDataVersion();
+      if (latest && isDataVersionNewer(current, latest)) {
         set({ dataUpdateAvailable: true });
       }
     } catch {

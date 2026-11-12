@@ -154,7 +154,7 @@ const zh = {
     '分享链接仅包含专题、时间点、事件与地图视野参数，不包含任何个人身份信息。\n链接由你主动分享，我们不做访问统计。',
   'privacy.s5.title': '5. 数据存储与第三方',
   'privacy.s5.body':
-    '专题数据以静态文件形式托管，通过 CDN 分发。除高德地图 SDK 外，本应用不集成广告、统计或用户画像类第三方 SDK。',
+    '专题数据随应用内置，可离线浏览；地图瓦片与坐标转换由高德 SDK 联网提供。除高德地图 SDK 外，本应用不集成广告、统计或用户画像类第三方 SDK。',
   'privacy.s6.title': '6. 联系我们',
   'privacy.s6.body': '如对本政策有疑问，请通过项目仓库联系我们。',
   'privacy.amapPolicy': '高德地图开放平台隐私权政策',
@@ -329,7 +329,7 @@ const en: Record<keyof typeof zh, string> = {
     'Shared links contain only atlas, time, event, and map view parameters; they do not contain personal identifiers.\nLinks are shared by you voluntarily; we do not perform visit analytics.',
   'privacy.s5.title': '5. Data storage and third parties',
   'privacy.s5.body':
-    'Atlas data is hosted as static files and distributed via CDN. Apart from the AMap SDK, this app does not integrate advertising, analytics, or profiling SDKs.',
+    'Atlas data is bundled with the app and can be browsed offline; map tiles and coordinate conversion are provided by the AMap SDK over the network. Apart from the AMap SDK, this app does not integrate advertising, analytics, or profiling SDKs.',
   'privacy.s6.title': '6. Contact',
   'privacy.s6.body':
     'If you have questions about this policy, please contact us through the project repository.',

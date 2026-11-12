@@ -305,7 +305,7 @@ Google Play 无关键词字段，依靠标题、短描述和长描述覆盖上�
 >
 > **What the app does:** OpenChronicle Atlas is a historical atlas viewer built around a map and a timeline. Users choose an atlas, play or drag the timeline, and tap event markers to read details, sources, and related events.
 >
-> **Content:** All content is static historical material bundled with the app or loaded from our HTTPS endpoint. There is no user-generated content, no account system, no advertising, no in-app purchase, and no analytics or profiling SDK. The historical data is an illustrative draft for education and exploration; it is not an authoritative historical record, and sources are cited in the app.
+> **Content:** All content is static historical material bundled with the app. There is no user-generated content, no account system, no advertising, no in-app purchase, and no analytics or profiling SDK. The historical data is an illustrative draft for education and exploration; it is not an authoritative historical record, and sources are cited in the app.
 >
 > **Location:** This version does not request location permission. The Android manifest explicitly removes coarse and fine location; the iOS Info.plist contains no location usage descriptions. The AMap SDK is used only for map display and is disclosed in our privacy policy and first-launch notice.
 >

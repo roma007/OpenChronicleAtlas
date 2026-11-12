@@ -83,14 +83,20 @@ npx wrangler pages deploy apps/web/dist --project-name openchronicle-atlas
 
 ## 4. 移动端配置
 
+移动端默认**离线内置** `data/atlases`（构建时由 `pnpm build:mobile-data` 生成静态映射），
+无需配置数据域名；地图瓦片仍由高德 SDK 联网加载。
+
+如需切换到远端数据（以后建好服务器）：
+
 ```bash
-# apps/mobile/.env.local
+# apps/mobile/.env.local（可选）
 EXPO_PUBLIC_DATA_BASE_URL=https://<domain>/data/atlases
 EXPO_PUBLIC_PRIVACY_URL=https://<domain>/privacy
 ```
 
+- 配置 `EXPO_PUBLIC_DATA_BASE_URL` 后为「远端优先 + 内置回退」；不配置则完全使用内置数据。
+- 修改数据或环境变量后需要重新执行 `pnpm build:mobile-data`（`prebuild` 已自动执行）并重新构建。
 - 生产必须 HTTPS；Android 的 `usesCleartextTraffic` 仅用于开发。
-- 修改环境变量后需要重新 prebuild/构建。
 - iOS 真机/IPA 仍需 Apple Developer 账号。
 
 ---

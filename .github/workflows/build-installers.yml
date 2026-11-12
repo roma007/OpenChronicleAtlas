@@ -205,6 +205,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Generate bundled atlas data
+        run: pnpm build:mobile-data
+
       - name: Prebuild Android
         working-directory: apps/mobile
         run: npx expo prebuild --platform android --no-install
@@ -306,6 +309,9 @@ jobs:
           mkdir -p "$PROFILE_DIR"
           echo "$APPLE_PROVISIONING_PROFILE_BASE64" | base64 --decode \
             > "$PROFILE_DIR/atlas.mobileprovision"
+
+      - name: Generate bundled atlas data
+        run: pnpm build:mobile-data
 
       - name: Prebuild iOS
         working-directory: apps/mobile

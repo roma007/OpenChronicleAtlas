@@ -3,6 +3,27 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.2] - 2026-11-12
+
+### Added
+- 移动端内置 `data/atlases` 离线数据源：`scripts/build-mobile-data.ts` 生成静态 require 映射，涵盖 10 个专题 / 685 个事件 / 595 段路线 / 搜索索引。
+- 新增 `BundledDataSource` 与「远端优先 + 内置回退」数据策略；设置 `EXPO_PUBLIC_DATA_BASE_URL` 即可在服务器就绪后切换，无需改数据格式。
+- 新增 App 内离线隐私政策弹窗：首次启动页与首页底部均可打开，不再依赖外部域名。
+- 6 个专题的 SVG 封面转换为 1600×900 PNG，修复 React Native `Image` 无法渲染 SVG 的问题。
+
+### Changed
+- 移动端 Release 默认读取内置数据，不再请求 `*.vercel.app`；本地开发仍使用本机数据服务。
+- Metro 支持 `.geojson` 源文件；Android/iOS CI 在 prebuild 前自动重新生成内置数据映射。
+- 隐私政策第 5 节由「静态文件托管 / CDN 分发」更新为「数据随应用内置，可离线浏览」。
+- 全仓版本由 `1.0.1` 升级为 `1.0.2`，构建号 `10002`。
+
+### Docs
+- `docs/guides/deployment.md`：补充内置数据与远端切换说明。
+- 发布清单、英文审核备注同步离线数据口径。
+- `docs/conversations/2026-11-12-M103-移动端离线数据与隐私内嵌.md`
+
+---
+
 ## [v1.0.0] - 2026-11-12
 
 ### Added

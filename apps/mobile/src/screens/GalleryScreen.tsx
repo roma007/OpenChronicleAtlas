@@ -14,11 +14,12 @@ import {
   View,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { DATA_BASE } from '../data/client';
+import { resolveDataImage } from '../data/client';
 import type { RootStackParamList } from '../navigation/types';
 import { useAtlasStore } from '../stores/useAtlasStore';
 import { colors, radii, spacing } from '../theme';
 import { LanguageToggle } from '../components/common/LanguageToggle';
+import { PrivacyPolicyModal } from '../components/common/PrivacyPolicyModal';
 import { useI18n } from '../hooks/useI18n';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Gallery'>;
@@ -28,6 +29,7 @@ export function GalleryScreen({ navigation }: Props) {
   const loading = useAtlasStore((state) => state.loading);
   const error = useAtlasStore((state) => state.error);
   const loadIndex = useAtlasStore((state) => state.loadIndex);
+  const [privacyOpen, setPrivacyOpen] = useState(false);
   const fromCache = useAtlasStore((state) => state.fromCache);
   const clearCache = useAtlasStore((state) => state.clearCache);
   const dataUpdateAvailable = useAtlasStore((state) => state.dataUpdateAvailable);
@@ -111,6 +113,9 @@ export function GalleryScreen({ navigation }: Props) {
                 </Text>
               </Pressable>
               <Text style={styles.cacheHint}>{t('cache.clearHint')}</Text>
+              <Pressable style={styles.privacyLink} onPress={() => setPrivacyOpen(true)}>
+                <Text style={styles.privacyLinkText}>{t('privacy.title')}</Text>
+              </Pressable>
             </View>
           ) : undefined
         }
@@ -133,6 +138,7 @@ export function GalleryScreen({ navigation }: Props) {
           const title = resolveLocalized(item.title, locale);
           const startYear = String(Number(item.timeRange.start.slice(0, 4)));
           const endYear = String(Number(item.timeRange.end.slice(0, 4)));
+          const coverSource = resolveDataImage(item.cover);
           return (
             <Pressable
               style={[styles.card, columns > 1 && styles.cardGrid]}
@@ -140,12 +146,8 @@ export function GalleryScreen({ navigation }: Props) {
               accessibilityLabel={title}
               onPress={() => navigation.navigate('Atlas', { atlasId: item.id })}
             >
-              {item.cover ? (
-                <Image
-                  source={{ uri: `${DATA_BASE}/${item.cover}` }}
-                  style={styles.cover}
-                  resizeMode="cover"
-                />
+              {coverSource ? (
+                <Image source={coverSource} style={styles.cover} resizeMode="cover" />
               ) : (
                 <View style={[styles.cover, styles.coverFallback]}>
                   <Text style={styles.coverFallbackText}>{title.slice(0, 1)}</Text>
@@ -173,6 +175,7 @@ export function GalleryScreen({ navigation }: Props) {
           );
         }}
       />
+      <PrivacyPolicyModal visible={privacyOpen} onClose={() => setPrivacyOpen(false)} />
     </SafeAreaView>
   );
 }
@@ -210,6 +213,8 @@ const styles = StyleSheet.create({
   },
   updateButtonText: { color: colors.parchment, fontSize: 12, fontWeight: '600' },
   cacheFooter: { alignItems: 'center', gap: spacing.xs, paddingTop: spacing.md },
+  privacyLink: { paddingTop: spacing.sm },
+  privacyLinkText: { fontSize: 12, color: colors.cinnabar, textDecorationLine: 'underline' },
   cacheButton: {
     borderWidth: 1,
     borderColor: colors.ink + '18',

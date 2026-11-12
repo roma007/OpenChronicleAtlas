@@ -11,7 +11,7 @@ import {
 import * as Linking from 'expo-linking';
 import { Image, Modal, Platform, Pressable, ScrollView, Share, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { DATA_BASE } from '../../data/client';
+import { resolveDataImage } from '../../data/client';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { colors, radii, spacing } from '../../theme';
 import { Markdown } from '../common/Markdown';
@@ -126,16 +126,14 @@ export function EventSheet() {
           ) : null}
 
           {event.images?.map((image) => {
-            const uri = image.src.startsWith('http')
-              ? image.src
-              : `${DATA_BASE}/${dataset.manifest.id}/${image.src}`;
+            const source = resolveDataImage(image.src, dataset.manifest.id);
+            if (!source) return null;
             return (
               <View key={image.src} style={styles.imageBlock}>
-                <Image source={{ uri }} style={styles.image} resizeMode="cover" />
+                <Image source={source} style={styles.image} resizeMode="cover" />
                 {image.caption ? (
                   <Text style={styles.caption}>{resolveLocalized(image.caption, locale)}</Text>
                 ) : null}
-                <Text style={styles.imageUri}>{uri}</Text>
               </View>
             );
           })}

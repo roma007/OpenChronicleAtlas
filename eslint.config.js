@@ -11,6 +11,7 @@ export default tseslint.config(
       '**/.vercel/**',
       'data/**',
       'docs/**',
+      'apps/mobile/src/generated/**',
     ],
   },
   js.configs.recommended,
@@ -31,6 +32,7 @@ export default tseslint.config(
       'scripts/**/*.ts',
       'apps/mobile/scripts/**/*.mjs',
       'apps/mobile/plugins/**/*.js',
+      'apps/mobile/metro.transformer.js',
       'scripts/**/*.mjs',
     ],
     languageOptions: {

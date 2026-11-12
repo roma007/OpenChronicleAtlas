@@ -178,7 +178,7 @@
 - [x] `android:usesCleartextTraffic` 已为 `false`
 - [ ] `allowBackup` 策略确认（当前 true；如含敏感缓存需排除）
 - [ ] 高德 Key 不写入日志、不进入截图、不进入公开文档
-- [ ] `EXPO_PUBLIC_DATA_BASE_URL` 指向正式 HTTPS 域名
+- [ ] 可选：如启用远端数据，`EXPO_PUBLIC_DATA_BASE_URL` 指向正式 HTTPS 域名；默认使用内置 `data/atlases`
 - [ ] 确认无 Expo Dev Client / Dev Menu / 调试依赖进入 release
 
 ### 3.4 真机验收

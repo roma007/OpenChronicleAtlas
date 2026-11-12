@@ -1,6 +1,6 @@
 {
   "name": "@atlas/mobile",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,9 @@
     "eas:submit:ios": "npx eas-cli@latest submit --platform ios --profile production",
     "typecheck": "tsc --noEmit",
     "test": "echo \"no mobile tests yet\"",
-    "prebuild": "expo prebuild",
-    "prebuild:clean": "expo prebuild --clean"
+    "build:data": "pnpm -w build:mobile-data",
+    "prebuild": "pnpm build:data && expo prebuild",
+    "prebuild:clean": "pnpm build:data && expo prebuild --clean"
   },
   "dependencies": {
     "@atlas/shared": "workspace:*",

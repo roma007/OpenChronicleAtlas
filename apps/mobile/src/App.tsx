@@ -16,6 +16,7 @@ import {
   View,
 } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import { PrivacyPolicyModal } from './components/common/PrivacyPolicyModal';
 import { AtlasScreen } from './screens/AtlasScreen';
 import { GalleryScreen } from './screens/GalleryScreen';
 import { SearchScreen } from './screens/SearchScreen';
@@ -56,6 +57,7 @@ function parseDeepLink(
 
 export default function App() {
   const [privacyReady, setPrivacyReady] = useState(false);
+  const [privacyOpen, setPrivacyOpen] = useState(false);
   const { t } = useI18n();
   const hydrateLocale = useAtlasStore((state) => state.hydrateLocale);
 
@@ -119,21 +121,16 @@ export default function App() {
             >
               <Text style={styles.link}>{t('consent.amapPolicy')}</Text>
             </Pressable>
-            {process.env.EXPO_PUBLIC_PRIVACY_URL ? (
-              <Pressable
-                onPress={() => {
-                  void RNLinking.openURL(process.env.EXPO_PUBLIC_PRIVACY_URL!);
-                }}
-              >
-                <Text style={styles.link}>{t('consent.ourPolicy')}</Text>
-              </Pressable>
-            ) : null}
+            <Pressable onPress={() => setPrivacyOpen(true)}>
+              <Text style={styles.link}>{t('consent.ourPolicy')}</Text>
+            </Pressable>
             <Pressable style={styles.primaryButton} onPress={agreePrivacy}>
               <Text style={styles.primaryButtonText}>{t('consent.agree')}</Text>
             </Pressable>
             <Text style={styles.note}>{t('consent.rejectNote')}</Text>
           </ScrollView>
         </SafeAreaView>
+        <PrivacyPolicyModal visible={privacyOpen} onClose={() => setPrivacyOpen(false)} />
       </SafeAreaProvider>
     );
   }
