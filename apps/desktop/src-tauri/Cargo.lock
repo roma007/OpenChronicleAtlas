@@ -2377,7 +2377,7 @@ dependencies = [
 
 [[package]]
 name = "openchronicle-atlas-desktop"
-version = "0.95.0"
+version = "1.0.0"
 dependencies = [
  "serde",
  "serde_json",

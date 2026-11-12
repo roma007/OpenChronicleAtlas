@@ -28,7 +28,16 @@ if (!expectedVersion) {
   process.exit(1);
 }
 
-for (const file of ['apps/web/package.json', 'apps/mobile/package.json', 'packages/shared/package.json']) {
+if (!/^1\.0\.\d+$/.test(expectedVersion)) {
+  errors.push(`版本必须为 1.0.X，实际 ${expectedVersion}`);
+}
+
+for (const file of [
+  'apps/web/package.json',
+  'apps/mobile/package.json',
+  'packages/shared/package.json',
+  'apps/desktop/package.json',
+]) {
   const text = read(file);
   if (text) {
     const version = (JSON.parse(text) as { version?: string }).version ?? null;
@@ -59,6 +68,36 @@ if (gradle) {
   const versionCode = /versionCode\s+(\d+)/.exec(gradle)?.[1] ?? null;
   expect('android versionName', versionName, expectedVersion);
   if (expectedBuild) expect('android versionCode', versionCode, expectedBuild);
+}
+
+const desktopCargo = read('apps/desktop/src-tauri/Cargo.toml');
+if (desktopCargo) {
+  const version = /^version = "([^"]+)"/m.exec(desktopCargo)?.[1] ?? null;
+  expect('apps/desktop/src-tauri/Cargo.toml version', version, expectedVersion);
+}
+
+const desktopTauri = read('apps/desktop/src-tauri/tauri.conf.json');
+if (desktopTauri) {
+  const json = JSON.parse(desktopTauri) as {
+    version?: string;
+    bundle?: { macOS?: { bundleVersion?: string } };
+  };
+  expect('apps/desktop tauri.conf.json version', json.version ?? null, expectedVersion);
+  if (expectedBuild) {
+    expect(
+      'apps/desktop tauri.conf.json bundleVersion',
+      json.bundle?.macOS?.bundleVersion ?? null,
+      expectedBuild,
+    );
+  }
+}
+
+const desktopLock = read('apps/desktop/src-tauri/Cargo.lock');
+if (desktopLock) {
+  const version =
+    /name = "openchronicle-atlas-desktop"\nversion = "([^"]+)"/.exec(desktopLock)?.[1] ??
+    null;
+  expect('apps/desktop/src-tauri/Cargo.lock version', version, expectedVersion);
 }
 
 const plist = read('apps/mobile/ios/app/Info.plist');

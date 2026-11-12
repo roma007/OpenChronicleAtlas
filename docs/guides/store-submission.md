@@ -1,7 +1,7 @@
 # 多商店提交指南（Apple / 华为 / 微软）
 
 - **日期**：2026-11-11
-- **适用版本**：`0.95.0`（M98 起的桌面与移动发布流程）
+- **适用版本**：`1.0.0`（M98 起的桌面与移动发布流程；此后每次提交按 `agent.md` 递增 1.0.X）
 - **关联**：
   - [发布前检查清单](../releases/release-checklist.md)
   - [中文商店元数据](../releases/store-metadata.md)
@@ -211,10 +211,10 @@ codesign --deep --force --options runtime \
   --sign "Developer ID Application: <Team Name> (<TEAMID>)" \
   "apps/desktop/src-tauri/target/release/bundle/macos/史迹.app"
 
-xcrun notarytool submit "apps/desktop/src-tauri/target/release/bundle/dmg/史迹_0.95.0_aarch64.dmg" \
+xcrun notarytool submit "apps/desktop/src-tauri/target/release/bundle/dmg/史迹_1.0.0_aarch64.dmg" \
   --apple-id "<Apple ID>" --team-id "<TEAMID>" --password "<App 专用密码>" --wait
 
-xcrun stapler staple "apps/desktop/src-tauri/target/release/bundle/dmg/史迹_0.95.0_aarch64.dmg"
+xcrun stapler staple "apps/desktop/src-tauri/target/release/bundle/dmg/史迹_1.0.0_aarch64.dmg"
 ```
 
 ---
@@ -275,7 +275,7 @@ pnpm --filter @atlas/desktop bundle:win
 
 产物：
 
-- `apps/desktop/src-tauri/target/release/bundle/nsis/史迹_0.95.0_x64-setup.exe`
+- `apps/desktop/src-tauri/target/release/bundle/nsis/史迹_1.0.0_x64-setup.exe`
 
 > Tauri 的 WiX MSI 在中文 `productName` 下会报 `LGHT0311`（代码页 1252），因此默认只出 NSIS。若必须 MSI，可把 `productName` 改为 ASCII，或为 WiX 配置中文代码页后单独启用。
 

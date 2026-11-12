@@ -3,6 +3,18 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.0] - 2026-11-12
+
+### Added
+- `agent.md` 版本铁律：每次提交自动递增 `1.0.X`。
+- `scripts/bump-version.ts` 与 `pnpm version:bump`，统一更新全仓版本与构建号。
+- `check:versions` 覆盖桌面端 Cargo/Tauri/Cargo.lock，并强制 `1.0.X` 格式。
+
+### Changed
+- 全仓版本由 `0.95.0` 升级为 `1.0.0`；移动端与 macOS 构建号统一为 `10000`。
+
+---
+
 ## [Unreleased]
 
 ### Added
