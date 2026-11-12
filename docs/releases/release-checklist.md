@@ -90,7 +90,7 @@
 
 - [x] `CFBundleShortVersionString` 已对齐为 `0.93.0`
 - [x] `CFBundleVersion` 已递增为 `39`
-- [ ] ⚠️ 统一最低系统：Xcode `IPHONEOS_DEPLOYMENT_TARGET` 为 16.4，Info.plist `LSMinimumSystemVersion` 仍为 12.0
+- [x] 最低系统：`IPHONEOS_DEPLOYMENT_TARGET` 为 16.4；iOS Info.plist 不含 macOS 专用 `LSMinimumSystemVersion`（否则 App Store 校验报 91164）
 - [ ] 使用 Release 配置 archive，确认无 Dev Menu、无调试浮层
 - [ ] archive 内 `Info.plist` 版本号、Bundle ID、显示名与商店记录一致
 - [ ] 生成 `.ipa` 并通过 Xcode Organizer / Transporter 上传 TestFlight

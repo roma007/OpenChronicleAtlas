@@ -149,7 +149,7 @@ Google Play 无关键词字段，依靠标题、短描述和长描述覆盖上�
 | 设备桌面名 | 史迹（`CFBundleDisplayName`） | 史迹（`app_name`） |
 | 版本号（源配置） | `CFBundleShortVersionString` 为 **0.93.0** | `versionName` 为 **0.93.0** |
 | 构建号 | `CFBundleVersion` 为 **90**，每次上传必须递增 | `versionCode` 为 **90**，每次上传必须递增 |
-| 最低系统 | iOS 16.4（`IPHONEOS_DEPLOYMENT_TARGET` 与 `LSMinimumSystemVersion` 均为 16.4） | Android 7.0 / API 24（`minSdkVersion 24`） |
+| 最低系统 | iOS 16.4（`IPHONEOS_DEPLOYMENT_TARGET`；不使用 macOS 的 `LSMinimumSystemVersion`） | Android 7.0 / API 24（`minSdkVersion 24`） |
 | 目标 SDK | 以当前 Xcode 正式版为准 | `targetSdkVersion 36` |
 | 架构 | 要求 arm64；AMap iOS SDK 无 arm64 模拟器切片，**必须真机验证** | 确认包含 64 位；Play 要求 64 位 |
 | 平板 | `supportsTablet: true`，需 iPad 截图与布局验收 | 未限制平板，建议补 7"/10" 截图与验收 |
@@ -162,7 +162,7 @@ Google Play 无关键词字段，依靠标题、短描述和长描述覆盖上�
 | 当前发布状态 | ⛔ 无账号/证书/真机，未产出 IPA | ⚠️ 源配置为 0.93.0 / versionCode 90，但上次实际 APK 为 0.5.0 / versionCode 2，需重建 |
 
 > **版本号已对齐**：iOS `0.93.0 (90)`、Android `0.93.0 (90)`。archive 前仍需确认构建产物中的版本号。
-> 最低系统已统一为 iOS 16.4（`IPHONEOS_DEPLOYMENT_TARGET` 与 `LSMinimumSystemVersion` 一致）。
+> 最低系统为 iOS 16.4（`IPHONEOS_DEPLOYMENT_TARGET`）。iOS Info.plist 不应包含 macOS 专用的 `LSMinimumSystemVersion`，App Store 上传校验会拒绝。 
 
 ---
 

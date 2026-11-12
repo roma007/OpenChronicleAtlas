@@ -3,6 +3,21 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.3] - 2026-11-12
+
+### Fixed
+- 移除 iOS `Info.plist` 中 macOS 专用的 `LSMinimumSystemVersion`，修复 App Store 上传校验 `91164`（该键为 16.x 时会被拒绝）。
+- 新增 `plugins/with-remove-macos-plist.js`，prebuild 后自动删除该键，避免 Expo 模板默认值回流。
+
+### Changed
+- 全仓版本由 `1.0.2` 升级为 `1.0.3`，构建号 `10003`。
+
+### Docs
+- 发布清单与英文商店元数据同步 iOS 最低版本口径。
+- `docs/conversations/2026-11-12-M104-iOS上传校验修复.md`
+
+---
+
 ## [v1.0.2] - 2026-11-12
 
 ### Added
