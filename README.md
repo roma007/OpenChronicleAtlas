@@ -3,7 +3,7 @@
 > 通用历史事件时空地图平台：以「地图 + 时间轴」为核心交互，展示任意历史专题的路线、事件与时空演变。
 > 平台不绑定任何单一历史事件，长征、抗战、丝绸之路、大航海等均作为可插拔的「专题数据集（Atlas Dataset）」接入。
 
-当前状态：**v1.0.0：Tauri 2 桌面端、iPad 与多商店发布流水线已就绪；每次提交按 [`agent.md`](agent.md) 铁律递增 `1.0.X`。Windows/Android 安装包已由 GitHub Actions 产出，iOS 待签名 Secrets。**
+当前状态：**v1.0.1：品牌 Logo「青铜 · 朱砂」定稿并替换全端图标；Tauri 2 桌面端、iPad 与多商店发布流水线已就绪；每次提交按 [`agent.md`](agent.md) 铁律递增 `1.0.X`。Windows/Android 安装包已由 GitHub Actions 产出，iOS 待签名 Secrets。**
 数据契约版本：**atlas-schema v1.1.0**
 
 ---

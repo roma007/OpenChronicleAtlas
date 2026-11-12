@@ -68,8 +68,8 @@ export default defineConfig(({ mode }) => {
           short_name: '史迹',
           description: '以地图与时间轴浏览历史专题的路线、事件与时空演变。',
           lang: 'zh-CN',
-          theme_color: '#231c15',
-          background_color: '#f3ead9',
+          theme_color: '#17120E',
+          background_color: '#17120E',
           display: 'standalone',
           start_url: '/',
           icons: [

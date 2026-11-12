@@ -15,6 +15,27 @@
 
 ---
 
+## [v1.0.1] - 2026-11-12
+
+### Added
+- 定稿 OpenChronicle Atlas 品牌 Logo「青铜 · 朱砂」：深墨直角方底、开口 C 环、粗路线 + 大定位针。
+- 新增 `docs/assets/branding/`：矢量源文件、1024px 全出血直角方图、青瓷/靛蓝配色备选与对比预览页。
+
+### Changed
+- 全端应用图标替换：Web PWA（192/512/1024）、Tauri 桌面（含 `.ico` / `.icns`）、iOS 1024、Android legacy / round / adaptive。
+- Logo 与全部应用图标统一为**直角全出血方图**，不再预制圆角，交由 iOS / Android / PWA 系统裁切，避免真机二次圆角造成边缘缺白。
+- Android adaptive icon 前景改为透明底 C 环 + 定位针，背景色调整为 `#17120E`。
+- 桌面端 `icon` 脚本直接使用 `apps/mobile/assets/icon.png`（直角方图），移动端 `icon.png` 保持无 alpha。
+- 启动页 `splash.svg/png` 与商店横幅 `feature-graphic.svg/png` 换用新 Logo 与青铜 · 朱砂配色；Expo splash、Android `splashscreen_background`、PWA manifest 背景统一为 `#17120E`。
+- 全仓版本由 `1.0.0` 升级为 `1.0.1`，构建号 `10001`。
+
+### Docs
+- `docs/assets/branding/README.md`：Logo 隐喻、配色、几何规范与落地说明。
+- `docs/assets/branding/index.html`：三套配色对比预览。
+- `docs/conversations/2026-11-12-M102-Logo青铜朱砂定稿与全端图标.md`
+
+---
+
 ## [Unreleased]
 
 ### Added
@@ -33,11 +54,13 @@
 - 新增 12 段路线，覆盖明末抗清、郑成功北伐、清准战争与康雍乾制度节点。
 - 南明与明郑新增 12 个事件：弘光政权建立、隆武政权建立、永历政权建立、李定国桂林之战、李定国衡州之战、永历帝被俘、李定国病逝、张煌言就义、郑经嗣位、郑经反攻福建、澎湖海战、郑克塽降清。
 - 新增 12 段路线，覆盖南明三政权、李定国抗清与明郑覆亡。
+- 明中后期新增 12 个事件：王阳明平定宁王之乱、庚戌之变、台州大捷、横屿之战、张居正改革、宁夏之役、万历朝鲜战争、平壤大捷、露梁海战、播州之役、东林书院重建、甲申之变。
+- 新增 12 段路线，覆盖明中期倭患、万历三大征与明末甲申之变。
 
 ### Changed
-- 明清专题 84 → 132 事件，83 → 131 路线段。
-- 全项目 625 → 673 事件，535 → 583 路线段。
-- 搜索索引：10 专题 / 673 事件 / 1273.6 KB；数据版本 `2026-11-11-ebe79dae3f11`。
+- 明清专题 84 → 144 事件，83 → 143 路线段。
+- 全项目 625 → 685 事件，535 → 595 路线段。
+- 搜索索引：10 专题 / 685 事件 / 1294.1 KB；数据版本 `2026-11-11-4a32f429db87`。
 - Web `vite.config.ts` 支持 `desktop` 模式：关闭 PWA、使用 HashRouter、外链交给系统浏览器。
 - 根 `build` 改为只构建 Web，避免 Vercel 误触发 Tauri 编译；桌面构建使用 `bundle:*` 脚本。
 - iPad 允许四方向与分屏，iPhone 保持竖屏；图鉴页在 iPad 宽度下自动 2–3 列。
