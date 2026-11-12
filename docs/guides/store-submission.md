@@ -83,6 +83,14 @@ bash scripts/set-github-secrets.sh
 
 脚本只上传 Secret 名称与值，不会把 Key 写入仓库；检测到 `~/.openchronicle/atlas-keystore.properties` 时会一并上传 Android 签名。
 
+Apple 签名材料可单独上传：
+
+```bash
+bash scripts/set-apple-secrets.sh /path/to/distribution.p12 /path/to/profile.mobileprovision
+```
+
+脚本会从 `.mobileprovision` 解析 Team ID 与 profile 名称，并提示输入 `.p12` 密码。
+
 > 未配置高德 Key 时，CI 仍会产出安装包，但地图无法加载；未配置 Android keystore 时只产出 debug APK；未配置 Apple 签名时 iOS job 自动跳过。
 
 ### 版本号规则
