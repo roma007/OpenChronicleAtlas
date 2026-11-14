@@ -11573,6 +11573,295 @@
     "importance": 2
   },
   {
+    "id": "chenghuiliangkang-1936-09",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "成徽两康战役",
+      "en": "Cheng–Hui–Liang–Kang Campaign"
+    },
+    "aliases": [
+      {
+        "zh": "成徽两当康县战役",
+        "en": "Chengxian–Huixian–Liangdang–Kangxian Campaign"
+      },
+      {
+        "zh": "陇南战役",
+        "en": "Longnan Campaign"
+      }
+    ],
+    "date": "1936-09-11",
+    "endDate": "1936-09-20",
+    "location": {
+      "lng": 105.73,
+      "lat": 33.75,
+      "place": {
+        "zh": "甘肃成县（战役中心）",
+        "en": "Chengxian, Gansu (campaign centre)"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红二方面军十天奔袭七百余里，攻占成县、徽县、两当、康县。",
+      "en": "In ten days the Second Front Army marched over 700 li and took Chengxian, Huixian, Liangdang, and Kangxian."
+    },
+    "description": {
+      "zh": "1936 年 9 月 11 日至 20 日，红二方面军按《成徽两康战役计划》分左、中、右三路纵队由哈达铺地区东出陇南，十天行程七百余里。左纵队红六军 9 月 18 日攻占徽县、两当（两当由地下工作者配合智取，俘保安队和警察 97 人，缴枪 200 余支）；中纵队红二军第四师、红三十二军 9 月 18 日拂晓攻占成县，守敌一个营被歼，缴枪 300 余支；右纵队红二军第六师 9 月 19 日占领康县。战役共攻占四座县城及西和、礼县、武都、略阳、凤县部分地区，为创建陇南临时根据地和三大主力会师创造了条件。本坐标为成县代表点。",
+      "en": "From 11 to 20 September 1936 the Second Front Army executed the Cheng–Hui–Liang–Kang plan, moving east from the Hadapu area in three columns and covering over 700 li in ten days. The left column (Sixth Army) took Huixian and Liangdang on 18 September; Liangdang was taken by stealth with underground contacts, capturing 97 security men and police and over 200 rifles. The centre column (4th Division of the Second Army and the 32nd Army) took Chengxian at dawn on 18 September, destroying a garrison battalion and capturing over 300 rifles. The right column (6th Division) took Kangxian on 19 September. The campaign seized four county towns and parts of Xihe, Lixian, Wudu, Lueyang, and Fengxian, creating conditions for the Longnan base area and the three armies’ rendezvous. The coordinate is a representative point at Chengxian."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红二方面军长征在甘肃》",
+        "author": "中共甘肃省委党史研究室 / 甘肃党史网",
+        "year": 2010,
+        "note": "用于核集成徽两康战役、五龙山阻击战与北撤时间",
+        "url": "http://www.gsds.gov.cn/wenxianbianji/20100727/2224386506bc3c.htm"
+      },
+      {
+        "title": "《三大主力红军胜利会师前的战斗》",
+        "author": "中国军网",
+        "year": 2026,
+        "note": "用于核对通庄静会部署与三大主力会师过程",
+        "url": "http://www.81.mil.cn/rmjz_203219/zgmb/2026nd10q/shxy_253441/16494548.html"
+      },
+      {
+        "title": "《血沃陇原 英魂永驻》",
+        "author": "中国甘肃网",
+        "year": 2026,
+        "note": "用于核对华家岭大墩梁阻击战、罗南辉与 880 余名指战员牺牲",
+        "url": "http://gansu.gscn.com.cn/system/2026/08/13/013540422.shtml"
+      }
+    ],
+    "relatedIds": [
+      "hadapu-1935-09",
+      "wulongshan-1936-09",
+      "jiangtaibao-1936-10"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "minzhou-meeting-1936-09",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "岷州会议",
+      "en": "Minzhou Meeting"
+    },
+    "aliases": [
+      {
+        "zh": "中共中央西北局岷州会议",
+        "en": "Northwest Bureau Minzhou Meeting"
+      },
+      {
+        "zh": "三十里铺会议",
+        "en": "Sanshilipu Meeting"
+      }
+    ],
+    "date": "1936-09-16",
+    "endDate": "1936-09-18",
+    "location": {
+      "lng": 104.04,
+      "lat": 34.43,
+      "place": {
+        "zh": "甘肃岷县三十里铺",
+        "en": "Sanshilipu, Minxian, Gansu"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "中共中央西北局在岷州开会，否定西进主张，通过《静会战役纲领》。",
+      "en": "The Northwest Bureau met at Minzhou, rejected the westward plan, and adopted the Jingning–Huining campaign outline."
+    },
+    "description": {
+      "zh": "1936 年 9 月 16 日至 18 日，中共中央西北局在岷县三十里铺召开会议。张国焘坚持红四方面军由临潭西进青海、占领甘西；朱德、陈昌浩等主张执行中央指示，北上静宁、会宁地区与红一方面军会合。会议最终否定西进主张，通过《静会战役纲领》，9 月 18 日由朱德、张国焘、陈昌浩联名电告党中央。岷州会议是三大主力会师前的关键一步。本坐标为三十里铺会址代表点。",
+      "en": "From 16 to 18 September 1936 the Northwest Bureau of the CPC Central Committee met at Sanshilipu in Minxian. Zhang Guotao insisted that the Fourth Front Army move west from Lintan into Qinghai; Zhu De and Chen Changhao argued for obeying the Central Committee and moving north to the Jingning–Huining area to join the First Front Army. The meeting rejected the westward plan and adopted the Jingning–Huining campaign outline, which Zhu De, Zhang Guotao, and Chen Changhao reported to the Central Committee on 18 September. The Minzhou meeting was a key step toward the three armies’ rendezvous. The coordinate is a representative point at the Sanshilipu site."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《战胜张国焘分裂主义 北上实现大会师》",
+        "author": "中共甘肃省委党史研究室 / 甘肃党史网",
+        "year": 2016,
+        "note": "用于核对岷州会议、洮州会议、通庄静会与北上会师的时间线",
+        "url": "http://www.gsds.gov.cn/wenxianziliao/jinianhuodong/20161026/1655134542e5bb.htm"
+      },
+      {
+        "title": "《岷县·中共中央西北局岷州会议纪念馆》",
+        "author": "甘肃省红色纪念馆",
+        "note": "用于核对岷州会议会址与 9 月 16—18 日会期",
+        "url": "http://www.gsds.gov.cn/gsshsjng/dingxi/xzgzyxbjzhyjng"
+      },
+      {
+        "title": "《三大主力红军胜利会师前的战斗》",
+        "author": "中国军网",
+        "year": 2026,
+        "note": "用于核对通庄静会部署与三大主力会师过程",
+        "url": "http://www.81.mil.cn/rmjz_203219/zgmb/2026nd10q/shxy_253441/16494548.html"
+      }
+    ],
+    "relatedIds": [
+      "taozhou-meeting-1936-09",
+      "huining-1936-10",
+      "ganzi-1936-06"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "wulongshan-1936-09",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "五龙山阻击战",
+      "en": "Wulongshan Blocking Battle"
+    },
+    "aliases": [
+      {
+        "zh": "成县五龙山战斗",
+        "en": "Wulongshan Battle at Chengxian"
+      },
+      {
+        "zh": "抛沙阻击战",
+        "en": "Paosha Blocking Battle"
+      }
+    ],
+    "date": "1936-09-27",
+    "endDate": "1936-09-29",
+    "location": {
+      "lng": 105.63,
+      "lat": 33.77,
+      "place": {
+        "zh": "甘肃成县抛沙镇五龙山、新堡山",
+        "en": "Wulongshan and Xinbaoshan, Paosha, Chengxian, Gansu"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红二方面军在五龙山阻击王均部，毙伤数百、俘敌 300 余。",
+      "en": "The Second Front Army blocked Wang Jun’s forces at Wulongshan, killing or wounding several hundred and capturing over 300."
+    },
+    "description": {
+      "zh": "1936 年 9 月 25 日，国民党王均部第三十五旅及补充团由武都向成县反扑。9 月 27 日至 29 日，红二方面军以红三十二军和红二军第四师、第六师在成县抛沙五龙山、新堡山设伏阻击。红军第十二团政委杨秀山率一营迂回敌侧后，与正面守军夹击；战斗毙伤敌数百人、俘敌 300 余人，第十八团政委周成宏（一作周盛宏）牺牲，杨秀山负伤。阻击战完成钳制敌军、掩护主力集结的任务，红军随后移师徽县红川。本坐标为五龙山代表点。",
+      "en": "On 25 September 1936 the 35th Brigade and a replacement regiment of Wang Jun’s force counterattacked Chengxian from Wudu. From 27 to 29 September the Second Front Army’s 32nd Army and the 4th and 6th Divisions of the Second Army ambushed and blocked them at Wulongshan and Xinbaoshan in Paosha. Yang Xiushan, political commissar of the 12th Regiment, led a battalion around the enemy flank to attack in conjunction with the front-line defenders. Several hundred enemy troops were killed or wounded and over 300 captured; Zhou Chenghong (also recorded as Zhou Shenghong), political commissar of the 18th Regiment, was killed, and Yang Xiushan was wounded. The blocking action pinned the enemy and covered the main force’s concentration; the Red Army then moved to Hongchuan in Huixian. The coordinate is a representative point at Wulongshan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红二方面军长征在甘肃》",
+        "author": "中共甘肃省委党史研究室 / 甘肃党史网",
+        "year": 2010,
+        "note": "用于核集成徽两康战役、五龙山阻击战与北撤时间",
+        "url": "http://www.gsds.gov.cn/wenxianbianji/20100727/2224386506bc3c.htm"
+      },
+      {
+        "title": "《血沃陇原 英魂永驻》",
+        "author": "中国甘肃网",
+        "year": 2026,
+        "note": "用于核对华家岭大墩梁阻击战、罗南辉与 880 余名指战员牺牲",
+        "url": "http://gansu.gscn.com.cn/system/2026/08/13/013540422.shtml"
+      },
+      {
+        "title": "《三大主力红军胜利会师前的战斗》",
+        "author": "中国军网",
+        "year": 2026,
+        "note": "用于核对通庄静会部署与三大主力会师过程",
+        "url": "http://www.81.mil.cn/rmjz_203219/zgmb/2026nd10q/shxy_253441/16494548.html"
+      }
+    ],
+    "relatedIds": [
+      "chenghuiliangkang-1936-09",
+      "jiangtaibao-1936-10"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "taozhou-meeting-1936-09",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "洮州会议",
+      "en": "Taozhou Meeting"
+    },
+    "aliases": [
+      {
+        "zh": "中共中央西北局洮州会议",
+        "en": "Northwest Bureau Taozhou Meeting"
+      },
+      {
+        "zh": "临潭新城会议",
+        "en": "Lintan Xincheng Meeting"
+      }
+    ],
+    "date": "1936-09-27",
+    "location": {
+      "lng": 103.35,
+      "lat": 34.69,
+      "place": {
+        "zh": "甘肃临潭新城",
+        "en": "Xincheng, Lintan, Gansu"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "中共中央西北局在洮州重申北上，张国焘被迫同意会师。",
+      "en": "The Northwest Bureau reaffirmed the northward move at Taozhou; Zhang Guotao was forced to agree to the rendezvous."
+    },
+    "description": {
+      "zh": "1936 年 9 月 27 日，中共中央西北局在临潭新城召开会议，重新研究红四方面军行动方针。朱德再次争取张国焘，徐向前、陈昌浩等表示拥护北上；张国焘被迫同意放弃西进。会议重申岷州会议决定，当日 20 时朱德、张国焘、徐向前、陈昌浩联名电告党中央和红二方面军，表示「决不再改变」。9 月 28 日红四方面军分六路北上，30 日撤离临潭，10 月 9 日在会宁与红一方面军会师。本坐标为临潭新城会址代表点。",
+      "en": "On 27 September 1936 the Northwest Bureau met at Xincheng in Lintan to reconsider the Fourth Front Army’s course. Zhu De again pressed Zhang Guotao; Xu Xiangqian and Chen Changhao supported moving north, and Zhang Guotao was forced to abandon the westward plan. The meeting reaffirmed the Minzhou decision, and at 20:00 that day Zhu De, Zhang Guotao, Xu Xiangqian, and Chen Changhao telegraphed the Central Committee and the Second Front Army that the decision would “never be changed again.” On 28 September the Fourth Front Army moved north in six columns, left Lintan on 30 September, and met the First Front Army at Huining on 9 October. The coordinate is a representative point at the Xincheng site."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红军长征过临潭与甘南地区第一个红色政权》",
+        "author": "临潭县人民政府",
+        "year": 2017,
+        "note": "用于核对洮州会议会址、日期与撤离临潭",
+        "url": "http://www.lintan.gov.cn/info/1055/2583.htm"
+      },
+      {
+        "title": "《战胜张国焘分裂主义 北上实现大会师》",
+        "author": "中共甘肃省委党史研究室 / 甘肃党史网",
+        "year": 2016,
+        "note": "用于核对岷州会议、洮州会议、通庄静会与北上会师的时间线",
+        "url": "http://www.gsds.gov.cn/wenxianziliao/jinianhuodong/20161026/1655134542e5bb.htm"
+      },
+      {
+        "title": "《三大主力红军胜利会师前的战斗》",
+        "author": "中国军网",
+        "year": 2026,
+        "note": "用于核对通庄静会部署与三大主力会师过程",
+        "url": "http://www.81.mil.cn/rmjz_203219/zgmb/2026nd10q/shxy_253441/16494548.html"
+      }
+    ],
+    "relatedIds": [
+      "minzhou-meeting-1936-09",
+      "huining-1936-10",
+      "ganzi-1936-06"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "huining-1936-10",
     "atlasId": "long-march",
     "name": {
@@ -11681,5 +11970,70 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "huajialing-1936-10",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "华家岭阻击战",
+      "en": "Huajialing Blocking Battle"
+    },
+    "aliases": [
+      {
+        "zh": "大墩梁阻击战",
+        "en": "Dadunliang Blocking Battle"
+      },
+      {
+        "zh": "华家岭战斗",
+        "en": "Huajialing Battle"
+      }
+    ],
+    "date": "1936-10-22",
+    "endDate": "1936-10-23",
+    "location": {
+      "lng": 104.9,
+      "lat": 35.4,
+      "place": {
+        "zh": "甘肃通渭、会宁交界华家岭大墩梁",
+        "en": "Dadunliang, Huajialing, on the Tongwei–Huining border, Gansu"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红五军在华家岭大墩梁阻击敌军，罗南辉与 880 余名指战员牺牲。",
+      "en": "The Fifth Army blocked the enemy at Dadunliang, Huajialing; Luo Nanhui and over 880 officers and men were killed."
+    },
+    "description": {
+      "zh": "1936 年 10 月，红一、二、四方面军在会宁、静宁地区会师后，国民党王均部、毛炳文部紧追。红五军副军长罗南辉奉命率部在通渭、会宁交界的华家岭大墩梁阻击，他此前已负伤，仍躺在担架上指挥。10 月 22 日至 23 日，红五军在大墩梁与敌军 9 个团激战，敌机 7 架轮番轰炸，红军多次反冲锋未能打退敌军，罗南辉和 880 余名指战员牺牲，完成了掩护主力转移的任务。本坐标为大墩梁代表点。",
+      "en": "In October 1936, after the First, Second, and Fourth Front Armies met at Huining and Jingning, Wang Jun’s and Mao Bingwen’s forces pressed close. Luo Nanhui, deputy commander of the Fifth Army, was ordered to block them at Dadunliang in Huajialing on the Tongwei–Huining border; already wounded, he commanded from a stretcher. On 22–23 October the Fifth Army fought nine enemy regiments at Dadunliang while seven aircraft bombed in relays. Repeated counterattacks failed to drive the enemy back; Luo Nanhui and over 880 officers and men were killed, but the main force was covered in its withdrawal. The coordinate is a representative point at Dadunliang."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《血沃陇原 英魂永驻》",
+        "author": "中国甘肃网",
+        "year": 2026,
+        "note": "用于核对华家岭大墩梁阻击战、罗南辉与 880 余名指战员牺牲",
+        "url": "http://gansu.gscn.com.cn/system/2026/08/13/013540422.shtml"
+      },
+      {
+        "title": "《战胜张国焘分裂主义 北上实现大会师》",
+        "author": "中共甘肃省委党史研究室 / 甘肃党史网",
+        "year": 2016,
+        "note": "用于核对岷州会议、洮州会议、通庄静会与北上会师的时间线",
+        "url": "http://www.gsds.gov.cn/wenxianziliao/jinianhuodong/20161026/1655134542e5bb.htm"
+      }
+    ],
+    "relatedIds": [
+      "huining-1936-10",
+      "jiangtaibao-1936-10"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   }
 ]

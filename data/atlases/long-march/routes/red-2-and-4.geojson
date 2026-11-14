@@ -81,6 +81,10 @@
             32.65
           ],
           [
+            103.367,
+            33.47
+          ],
+          [
             102.8,
             33.4
           ],
@@ -89,12 +93,28 @@
             33.58
           ],
           [
-            104.39,
-            34.23
+            103.6,
+            34.1
           ],
           [
-            104.63,
-            35.58
+            104.04,
+            34.43
+          ],
+          [
+            103.35,
+            34.69
+          ],
+          [
+            104.2,
+            35.1
+          ],
+          [
+            105.24,
+            35.21
+          ],
+          [
+            104.9,
+            35.4
           ],
           [
             105.05,
@@ -105,14 +125,15 @@
       "properties": {
         "entityId": "red-4-army",
         "startDate": "1935-06-19",
-        "endDate": "1936-10-09",
+        "endDate": "1936-10-23",
         "order": 2,
         "segmentType": "advance",
         "name": {
           "zh": "懋功—会宁（示意）"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "红四方面军由懋功北上，经包座、腊子口进入甘南，占岷县、临潭、通渭，1936 年 10 月与会宁红一方面军会师；华家岭阻击战后结束本段。路线为示意，待按行军日志细化。",
+          "en": "The Fourth Front Army moved north from Maogong via Bazuo and Lazikou into southern Gansu, occupied Minxian, Lintan, and Tongwei, and met the First Front Army at Huining in October 1936; the section ends after the Huajialing blocking battle. The route is schematic and awaits refinement from march logs."
         },
         "extensions": {
           "precision": "schematic"
@@ -709,6 +730,60 @@
         "description": {
           "zh": "红四方面军第四军第十师由道孚经麻孜、亚洛阔、沙拥、伊涅阿、拉日马、扎巴加奔袭瞻化（今新龙），四天连续翻越四座海拔 4000 米以上雪山。路线为示意，待按行军日志细化。",
           "en": "The 10th Division of the Fourth Front Army’s 4th Army rushed from Daofu via Mazi, Yalokuo, Shayong, Yijiea, Larima, and Zhabajia to Zhanhua (present-day Xinlong), crossing four passes above 4,000 m in four days. The route is schematic and awaits refinement from march logs."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.39,
+            34.23
+          ],
+          [
+            105.18,
+            34.19
+          ],
+          [
+            105.73,
+            33.75
+          ],
+          [
+            105.63,
+            33.77
+          ],
+          [
+            106.08,
+            33.77
+          ],
+          [
+            106.3,
+            33.9
+          ],
+          [
+            105.61,
+            33.33
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1936-09-11",
+        "endDate": "1936-09-30",
+        "order": 10,
+        "segmentType": "advance",
+        "name": {
+          "zh": "哈达铺—成县—五龙山—徽县—两当—康县（成徽两康战役）",
+          "en": "Hadapu–Chengxian–Wulongshan–Huixian–Liangdang–Kangxian (Cheng–Hui–Liang–Kang campaign)"
+        },
+        "description": {
+          "zh": "红二方面军由哈达铺地区东出陇南，分三路攻占成县、徽县、两当、康县，并在成县五龙山阻击追敌。路线为示意，三路分进合为一条线。",
+          "en": "The Second Front Army moved east from the Hadapu area into Longnan in three columns, taking Chengxian, Huixian, Liangdang, and Kangxian, and blocking the pursuers at Wulongshan in Chengxian. The route is schematic and combines the three columns into one line."
         },
         "extensions": {
           "precision": "schematic"
