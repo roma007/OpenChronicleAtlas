@@ -85,3 +85,15 @@ fi
 
 # 4. 版本与构建号必须全局一致，且构建号必须由版本推导
 pnpm -s check:versions
+
+# 5. 跨项目：有发给 atlas 的未处理请求就提示（不阻塞；离线或没部署 /srv/ops 时静默跳过）
+#    只提示不拦截：请求可能长期挂在对方那里，不能因此堵住本仓库的正常提交。
+if [ "${SKIP_OPS_INBOX:-0}" != "1" ] && command -v ssh >/dev/null 2>&1; then
+  inbox="$(ssh -o BatchMode=yes -o ConnectTimeout=3 quizgo /srv/ops/bin/inbox.sh atlas 2>/dev/null || true)"
+  case "$inbox" in
+    *⬜*)
+      echo "⚠️  /srv/ops 有发给 atlas 的未处理请求（AGENTS.md 第 8 节）：" >&2
+      printf '%s\n' "$inbox" | sed 's/^/    /' >&2
+      ;;
+  esac
+fi

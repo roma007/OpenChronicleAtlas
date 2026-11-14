@@ -179,6 +179,17 @@ curl -s -o /dev/null -w "%{http_code}\n" http://quizgo-ecs:8081/atlas/<任意专
 ### 7.2 发布流程（6 步，可停机为零）
 
 ```bash
+pnpm release                 # 第 6 节的检查 + 备份 + 同步 + 自检 + 登记，一步到底
+pnpm release --dry-run       # 只打印将执行的动作
+pnpm release --ack-open      # 已知 /srv/ops 有给 atlas 的请求，仍要发布
+```
+
+脚本 `scripts/deploy.sh` 就是本节的可执行实现：**改流程先改脚本，再改本节**。
+它会在两个地方硬拦：工作区不干净、有未处理的跨项目请求、共享面有漂移告警。
+
+手工执行的等价步骤（仅用于理解，不要替代脚本）：
+
+```bash
 # 0. 前置检查（提交前必须通过）
 pnpm typecheck && pnpm lint && pnpm validate:data
 pnpm check:versions            # 必须输出 ✅ 版本一致
@@ -250,11 +261,11 @@ Atlas 与 OpenQuizGo 共用一台 ECS、一个 nginx 容器、一份磁盘。协
 | 要做什么 | 命令 |
 | --- | --- |
 | 读契约（归属表 / 四步流程 / 红线） | `ssh quizgo 'cat /srv/ops/CONTRACT.md'` |
+| 看有没有人找我 | `pnpm ops:inbox` |
 | 看双方真实状态与漂移 | `ssh quizgo '/srv/ops/bin/status.sh'` |
-| 看有没有人找我 | `ssh quizgo '/srv/ops/bin/status.sh'`（末尾「待处理请求」） |
 | 要对方做事 | 在 `/srv/ops/requests/` 新建文件，格式见该目录 `README.md` |
 | 记一笔 | 追加到 `/srv/ops/journal/YYYY-MM.log` |
-| 登记本次发布 | 覆盖 `/srv/ops/state/atlas.json` |
+| 登记本次发布 | `pnpm release` 自动完成 |
 
 ### 必须遵守
 
@@ -266,6 +277,22 @@ Atlas 与 OpenQuizGo 共用一台 ECS、一个 nginx 容器、一份磁盘。协
 4. **只写自己的东西**：`state/atlas.json` 只有 Atlas 写，`state/quizgo.json` 只有 QuizGo 写。
 5. **发布必登记**：第 7 节第 6 步，写 state + journal，且 `status.sh` 漂移检测全绿才算完成。
 6. **漂移告警不许忽略**：`status.sh` 报 drift 说明有改动没登记，先查 journal 再动手。
+
+### 为什么不会漏
+
+「写进 AGENTS.md 要求自己记得」不可靠。所以把「读」挂到三条**自动会发生**的路径上：
+
+| 触点 | 时机 | 强度 |
+| --- | --- | --- |
+| `.githooks/pre-commit` | 每次提交 | 提示（不阻塞；见下方说明） |
+| `pnpm release` | 每次发布 | **硬拦**：有未处理请求必须显式 `--ack-open` |
+| `status.sh` | 任何服务器操作前后 | 一次性看到版本、漂移、待办 |
+
+提交钩子只提示、不拦截，是因为请求可能长期挂在对方那里——不能让它堵住本仓库的正常提交。
+真正拦人的是发布脚本：那次动作会改变线上，值得停下来看一眼。
+
+**它防不住什么**：AI 完全不碰 git、不发布、也不看服务器时，仍然看不到请求。
+这种情况只能靠对方在 journal 里写 `incident`，或由用户直接指派。机制提供可见性，不提供强制。
 
 ### 共享面归属（摘要，完整见 CONTRACT.md）
 

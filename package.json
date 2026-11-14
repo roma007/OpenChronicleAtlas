@@ -1,6 +1,6 @@
 {
   "name": "open-chronicle-atlas",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "private": true,
   "type": "module",
   "packageManager": "pnpm@10.30.3",
@@ -19,6 +19,8 @@
     "prepare": "git config core.hooksPath .githooks || true",
     "build:search-index": "tsx scripts/build-search-index.ts",
     "build:mobile-data": "tsx scripts/build-mobile-data.ts",
+    "release": "bash scripts/deploy.sh",
+    "ops:inbox": "bash scripts/ops-inbox.sh",
     "check:routes": "tsx scripts/check-event-routes.ts"
   },
   "devDependencies": {

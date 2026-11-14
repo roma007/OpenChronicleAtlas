@@ -3,6 +3,23 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.9] - 2026-11-14
+
+### Added
+- `scripts/deploy.sh`（`pnpm release`）：把第 7 节发布流程做成可执行脚本。含工作区检查、跨项目请求闸门、共享面漂移闸门、构建、回滚点断言、同步、四条自检、自动登记 `state` + `journal`、收尾复验。
+- `scripts/ops-inbox.sh`（`pnpm ops:inbox`）：拉取 `/srv/ops` 里发给 atlas 的未处理请求，离线时静默跳过。
+- `/srv/ops/bin/inbox.sh`：服务器侧按项目过滤请求。
+- `.githooks/pre-commit` 新增跨项目请求提示（只提示不阻塞，避免被对方的长期请求堵住本仓库提交）。
+
+### Changed
+- `AGENTS.md` §7.2 以 `pnpm release` 为主路径，手工步骤降级为参考。
+- `AGENTS.md` §8 新增「为什么不会漏」：三条自动触发路径（提交钩子 / 发布脚本 / status.sh）以及机制的边界——只提供可见性，不提供强制。
+
+### Docs
+- `docs/conversations/2026-11-14-M117-如何保证跨项目请求不被漏读.md`
+
+---
+
 ## [v1.0.8] - 2026-11-14
 
 ### Added
