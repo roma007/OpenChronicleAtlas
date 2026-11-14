@@ -13,7 +13,7 @@
     "start": "1934-02-01",
     "end": "1936-10-22"
   },
-  "cover": "assets/cover.jpg",
+  "cover": "assets/cover.png",
   "description": {
     "zh": "1934 年 2 月至 1936 年 10 月，中国工农红军主力从长江南北各根据地向陕北和川陕甘地区进行战略转移。\n\n> 本数据为初稿：路线为示意简化，并标示国民党军追堵与封锁方向；红二、六军团、红二十五军、陕北红军、红十五军团及其东征西征节点已补入，事件日期、地点与表述待史料校订。",
     "en": "From October 1934 to October 1936, the main forces of the Chinese Red Army moved from their bases in southern and central China to northern Shaanxi."
@@ -27,7 +27,7 @@
   },
   "routes": [
     "routes/central-red-army.geojson",
-    "routes/kmt-army.geojson",
+    "routes/kmt-forces.geojson",
     "routes/red-25-army.geojson",
     "routes/red-15-army.geojson",
     "routes/red-2-and-4.geojson",
@@ -130,16 +130,159 @@
       }
     },
     {
-      "id": "kmt-army",
+      "id": "kmt-central-army",
       "name": {
-        "zh": "国民党追堵部队",
-        "en": "KMT Forces"
+        "zh": "中央军（嫡系）",
+        "en": "KMT Central Army"
       },
-      "color": "#4a4a4a",
+      "color": "#3d4654",
       "order": 8,
       "description": {
-        "zh": "标示国民党军对长征红军的追击、封锁与堵截方向；路线为示意简化，待史料校订。",
-        "en": "Indicates Kuomintang pursuit, blockade, and interception directions against the Red Army; routes are simplified and await historical review."
+        "zh": "蒋介石嫡系部队，含薛岳、周浑元、吴奇伟等追击纵队及第 60 师等部，在赣、湘、黔、川、陕方向担任追击与堵截。部队番号与指挥关系为通行说法，待页码级核对。",
+        "en": "Chiang Kai-shek’s central forces, including the pursuit columns of Xue Yue, Zhou Hunyuan and Wu Qiwei and the 60th Division, operating in Jiangxi, Hunan, Guizhou, Sichuan and Shaanxi. Unit designations and command relationships follow conventional accounts and await page-level verification."
+      }
+    },
+    {
+      "id": "kmt-hunan-army",
+      "name": {
+        "zh": "湘军",
+        "en": "Hunan Army (KMT)"
+      },
+      "color": "#6f5233",
+      "order": 9,
+      "description": {
+        "zh": "湖南地方部队，含何键（后刘建绪）第四路军、李觉纵队等，担任湘江封锁线与湘鄂川黔“围剿”。部队番号与指挥关系为通行说法，待页码级核对。",
+        "en": "Hunan provincial forces, including He Jian’s (later Liu Jianxu’s) Fourth Route Army and Li Jue’s column, which held the Xiang River blockade line and encircled the Hunan-Hubei-Sichuan-Guizhou Soviet area. Unit designations follow conventional accounts and await page-level verification."
+      }
+    },
+    {
+      "id": "kmt-guangdong-army",
+      "name": {
+        "zh": "粤军",
+        "en": "Guangdong Army (KMT)"
+      },
+      "color": "#556b4a",
+      "description": {
+        "zh": "广东地方部队，陈济棠第一集团军（余汉谋、叶肇等部），在赣南设第一道封锁线，并在湘南良田、宜章、乐昌一带防守第三道封锁线。部队番号与指挥关系为通行说法，待页码级核对。",
+        "en": "Guangdong provincial forces of Chen Jitang’s First Group Army (Yu Hanmou, Ye Zhao and others), which held the first blockade line in southern Jiangxi and defended the third blockade line around Liangtian, Yizhang and Lechang in southern Hunan. Unit designations and command relationships follow conventional accounts and await page-level verification."
+      },
+      "order": 10
+    },
+    {
+      "id": "kmt-guangxi-army",
+      "name": {
+        "zh": "桂军",
+        "en": "Guangxi Army (KMT)"
+      },
+      "color": "#3f6250",
+      "order": 11,
+      "description": {
+        "zh": "广西地方部队，白崇禧、夏威、廖磊等部，参加湘江第四道封锁线。部队番号与指挥关系为通行说法，待页码级核对。",
+        "en": "Guangxi provincial forces under Bai Chongxi, Xia Wei and Liao Lei, which took part in the fourth blockade line along the Xiang River. Unit designations follow conventional accounts and await page-level verification."
+      }
+    },
+    {
+      "id": "kmt-guizhou-army",
+      "name": {
+        "zh": "黔军",
+        "en": "Guizhou Army (KMT)"
+      },
+      "color": "#5b4b6e",
+      "order": 12,
+      "description": {
+        "zh": "贵州地方部队，王家烈第二十五军及侯之担等部，防守乌江。部队番号与指挥关系为通行说法，待页码级核对。",
+        "en": "Guizhou provincial forces of Wang Jialie’s 25th Army and Hou Zhidan’s units, which defended the Wu River. Unit designations follow conventional accounts and await page-level verification."
+      }
+    },
+    {
+      "id": "kmt-yunnan-army",
+      "name": {
+        "zh": "滇军",
+        "en": "Yunnan Army (KMT)"
+      },
+      "color": "#7d4545",
+      "order": 13,
+      "description": {
+        "zh": "云南地方部队，龙云、孙渡等部，防守金沙江。部队番号与指挥关系为通行说法，待页码级核对。",
+        "en": "Yunnan provincial forces under Long Yun and Sun Du, which defended the Jinsha River. Unit designations follow conventional accounts and await page-level verification."
+      }
+    },
+    {
+      "id": "kmt-sichuan-army",
+      "name": {
+        "zh": "川军",
+        "en": "Sichuan Army (KMT)"
+      },
+      "color": "#44607a",
+      "order": 14,
+      "description": {
+        "zh": "四川地方部队，刘湘、刘文辉、邓锡侯、杨森等部，防守大渡河并堵截红四方面军。部队番号与指挥关系为通行说法，待页码级核对。",
+        "en": "Sichuan provincial forces under Liu Xiang, Liu Wenhui, Deng Xihou and Yang Sen, which defended the Dadu River and blocked the Red Fourth Front Army. Unit designations follow conventional accounts and await page-level verification."
+      }
+    },
+    {
+      "id": "kmt-northeast-army",
+      "name": {
+        "zh": "东北军",
+        "en": "Northeast Army (KMT)"
+      },
+      "color": "#6d6435",
+      "order": 15,
+      "description": {
+        "zh": "东北军张学良部，含第 67 军、第 109 师、骑兵军等，参加陕甘第三次“围剿”、六盘山与直罗镇作战。部队番号与指挥关系为通行说法，待页码级核对。",
+        "en": "Zhang Xueliang’s Northeast Army, including the 67th Corps, 109th Division and cavalry corps, which took part in the third encirclement campaign in Shaanxi-Gansu and the fighting at the Liupan Mountains and Zhiluozhen. Unit designations follow conventional accounts and await page-level verification."
+      }
+    },
+    {
+      "id": "kmt-northwest-army",
+      "name": {
+        "zh": "西北军",
+        "en": "Northwest Army (KMT)"
+      },
+      "color": "#6b5d4f",
+      "description": {
+        "zh": "冯玉祥旧部，庞炳勋第 40 军（第 115 旅、骑兵团等），1934 年 11 月在方城独树镇堵截红二十五军。部队番号与指挥关系为通行说法，待页码级核对。",
+        "en": "Former Feng Yuxiang troops, including Pang Bingxun’s 40th Army (115th Brigade and cavalry regiment), which intercepted the Red 25th Army at Dushuzhen, Fangcheng, in November 1934. Unit designations and command relationships follow conventional accounts and await page-level verification."
+      },
+      "order": 16
+    },
+    {
+      "id": "kmt-shaanxi-army",
+      "name": {
+        "zh": "陕军",
+        "en": "Shaanxi Army (KMT)"
+      },
+      "color": "#6f5a6b",
+      "description": {
+        "zh": "陕西地方部队，杨虎城第十七路军（警备第 1 旅等），在陕南追击红二十五军，1935 年 7 月袁家沟口一战被歼。部队番号与指挥关系为通行说法，待页码级核对。",
+        "en": "Shaanxi provincial forces of Yang Hucheng’s 17th Route Army (including the 1st Security Brigade), which pursued the Red 25th Army in southern Shaanxi; the brigade was destroyed at Yuanjiagoukou in July 1935. Unit designations and command relationships follow conventional accounts and await page-level verification."
+      },
+      "order": 17
+    },
+    {
+      "id": "kmt-jinsui-army",
+      "name": {
+        "zh": "晋绥军",
+        "en": "Shanxi-Suiyuan Army (KMT)"
+      },
+      "color": "#63456e",
+      "order": 18,
+      "description": {
+        "zh": "山西地方部队，阎锡山晋绥军，追堵红军东征。部队番号与指挥关系为通行说法，待页码级核对。",
+        "en": "Shanxi provincial forces under Yan Xishan, which pursued and blocked the Red Army’s Eastern Expedition. Unit designations follow conventional accounts and await page-level verification."
+      }
+    },
+    {
+      "id": "kmt-gansu-ningxia-army",
+      "name": {
+        "zh": "甘宁青部队",
+        "en": "Gansu-Ningxia-Qinghai Forces (KMT)"
+      },
+      "color": "#46605c",
+      "order": 19,
+      "description": {
+        "zh": "甘肃、宁夏、青海地方部队，含鲁大昌新编第 14 师、马鸿逵与马鸿宾等部，防守腊子口、堵截西征。部队番号与指挥关系为通行说法，待页码级核对。",
+        "en": "Gansu, Ningxia and Qinghai provincial forces, including Lu Dachang’s New 14th Division and the forces of Ma Hongkui and Ma Hongbin, which held Lazikou and blocked the Western Expedition. Unit designations follow conventional accounts and await page-level verification."
       }
     }
   ],
@@ -149,5 +292,5 @@
     "长征"
   ],
   "license": "CC-BY-4.0（数据初稿，待校订）",
-  "updatedAt": "2026-11-08"
+  "updatedAt": "2026-11-13"
 }

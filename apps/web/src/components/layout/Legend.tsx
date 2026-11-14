@@ -38,6 +38,14 @@ export function Legend({ className = '' }: LegendProps) {
         .filter((type): type is NonNullable<typeof type> => Boolean(type)),
     ),
   ];
+  const hasDefenseRoutes = dataset.routes.some(
+    (route) =>
+      route.properties.segmentType === 'defense' && Boolean(route.properties.label),
+  );
+  // 线头箭头对所有非防御路线生效，图例说明也随之出现
+  const hasMovingRoutes = dataset.routes.some(
+    (route) => route.properties.segmentType !== 'defense',
+  );
   const filteredEvents = applyEventFilters(dataset.events, filters).filter((event) =>
     event.entityIds.some((entityId) => activeEntityIds.has(entityId)),
   );
@@ -129,24 +137,39 @@ export function Legend({ className = '' }: LegendProps) {
                   key={type}
                   className="flex items-center gap-2.5 text-[11px] text-ink-soft"
                 >
-                  <span
-                    aria-hidden
-                    className="w-6 shrink-0 border-t-2 border-cinnabar"
-                    style={{
-                      borderStyle:
-                        style.dash === 'dotted'
-                          ? 'dotted'
-                          : style.dash === 'dashed'
-                            ? 'dashed'
-                            : 'solid',
-                      borderTopWidth: style.weight,
-                    }}
-                  />
+                  {type === 'defense' && hasDefenseRoutes ? (
+                    <span aria-hidden className="relative h-3 w-6 shrink-0">
+                      <span className="absolute left-0 right-0 top-1/2 h-0.5 -translate-y-1/2 bg-cinnabar" />
+                      <span className="absolute left-0 top-0 h-3 w-0.5 bg-cinnabar" />
+                      <span className="absolute left-[9px] top-0 h-3 w-0.5 bg-cinnabar" />
+                      <span className="absolute right-0 top-0 h-3 w-0.5 bg-cinnabar" />
+                    </span>
+                  ) : (
+                    <span
+                      aria-hidden
+                      className="w-6 shrink-0 border-t-2 border-cinnabar"
+                      style={{
+                        borderStyle:
+                          style.dash === 'dotted'
+                            ? 'dotted'
+                            : style.dash === 'dashed'
+                              ? 'dashed'
+                              : 'solid',
+                        borderTopWidth: style.weight,
+                      }}
+                    />
+                  )}
                   <span>{segmentTypeLabel(type, locale)}</span>
                 </li>
               );
             })}
           </ul>
+          {hasDefenseRoutes || hasMovingRoutes ? (
+            <div className="mt-2 space-y-1 text-[10px] leading-4 text-ink-soft/70">
+              {hasDefenseRoutes ? <p>{t('legend.defenseHint')}</p> : null}
+              {hasMovingRoutes ? <p>{t('legend.routeHeadHint')}</p> : null}
+            </div>
+          ) : null}
         </div>
       ) : null}
 

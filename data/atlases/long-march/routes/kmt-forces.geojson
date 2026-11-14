@@ -1,0 +1,1167 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.89,
+            28.68
+          ],
+          [
+            115.37,
+            28.42
+          ],
+          [
+            114.42,
+            27.8
+          ],
+          [
+            113.85,
+            27.62
+          ],
+          [
+            113.5,
+            27.65
+          ],
+          [
+            112.94,
+            27.83
+          ],
+          [
+            112.57,
+            26.89
+          ],
+          [
+            111.84,
+            26.58
+          ],
+          [
+            111.61,
+            26.42
+          ],
+          [
+            111.07,
+            25.93
+          ],
+          [
+            110.77,
+            25.72
+          ],
+          [
+            110.67,
+            25.61
+          ],
+          [
+            110.29,
+            25.27
+          ],
+          [
+            110.01,
+            25.8
+          ],
+          [
+            109.78,
+            26.16
+          ],
+          [
+            109.68,
+            26.57
+          ],
+          [
+            109.2,
+            26.68
+          ],
+          [
+            108.68,
+            26.96
+          ],
+          [
+            108.42,
+            27.05
+          ],
+          [
+            107.9,
+            26.9
+          ],
+          [
+            107.52,
+            26.66
+          ],
+          [
+            107.23,
+            26.58
+          ],
+          [
+            106.63,
+            26.65
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-central-army",
+        "startDate": "1934-10-10",
+        "endDate": "1935-01-15",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "中央军追击（赣—湘—黔）",
+          "en": "Central Army Pursuit (Jiangxi–Hunan–Guizhou)"
+        },
+        "description": {
+          "zh": "中央军薛岳、周浑元、吴奇伟等部自赣南尾追中央红军，经湘南、桂北进入黔东。路线按主要城镇与公路走廊补点，仍为示意，待史料校订。",
+          "en": "Central Army columns under Xue Yue, Zhou Hunyuan and Wu Qiwei pursued the Central Red Army from southern Jiangxi through southern Hunan and northern Guangxi into eastern Guizhou. The route is densified along major towns and road corridors but remains schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "corridor"
+        },
+        "label": {
+          "zh": "中央军 追击纵队",
+          "en": "Central Army columns"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114,
+            32.1
+          ],
+          [
+            113.42,
+            32.36
+          ],
+          [
+            113.32,
+            32.72
+          ],
+          [
+            113,
+            33.25
+          ],
+          [
+            113,
+            33.3
+          ],
+          [
+            112.91,
+            33.74
+          ],
+          [
+            112.09,
+            34.13
+          ],
+          [
+            111.05,
+            34.05
+          ],
+          [
+            110.15,
+            34.09
+          ],
+          [
+            109.94,
+            33.87
+          ],
+          [
+            109.32,
+            34.15
+          ],
+          [
+            108.94,
+            34.34
+          ],
+          [
+            108.71,
+            34.33
+          ],
+          [
+            108.08,
+            35.04
+          ],
+          [
+            107.79,
+            35.21
+          ],
+          [
+            107.4,
+            35.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-central-army",
+        "startDate": "1934-11-16",
+        "endDate": "1935-09-15",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "中央军等追堵红二十五军（豫—陕—甘）",
+          "en": "Central Army and Other Forces Pursue the Red 25th Army (Henan–Shaanxi–Gansu)"
+        },
+        "description": {
+          "zh": "中央军第 60 师等部与东北军、第 40 军、陕军及马鸿宾第 35 师等分路追堵红二十五军，红军经豫陕边进入甘陕。路线按主要城镇与公路走廊补点，仍为示意，部队番号待页码级核对。",
+          "en": "The Central Army’s 60th Division and other units, together with the Northeast Army, 40th Army, Shaanxi troops and Ma Hongbin’s 35th Division, pursued and blocked the Red 25th Army across the Henan-Shaanxi-Gansu border. The route is densified along major towns and road corridors but remains schematic; designations await page-level verification."
+        },
+        "extensions": {
+          "precision": "corridor"
+        },
+        "label": {
+          "zh": "中央军 第60师等",
+          "en": "Central Army 60th Div."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.07,
+            25.93
+          ],
+          [
+            111.16,
+            25.49
+          ],
+          [
+            110.9,
+            25.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-guangxi-army",
+        "startDate": "1934-11-27",
+        "endDate": "1934-12-01",
+        "order": 3,
+        "segmentType": "defense",
+        "name": {
+          "zh": "湘江封锁线（桂军）",
+          "en": "Xiang River Blockade Line (Guangxi Army)"
+        },
+        "description": {
+          "zh": "桂军白崇禧、夏威、廖磊等部由兴安、灌阳北上，封锁湘江渡口。路线为示意简化，待史料校订。",
+          "en": "Guangxi troops under Bai Chongxi, Xia Wei and Liao Lei moved north from Xing’an and Guanyang to blockade the Xiang River crossings. Route is schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        },
+        "label": {
+          "zh": "桂军 第7军",
+          "en": "Guangxi 7th Corps"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.07,
+            25.93
+          ],
+          [
+            110.956,
+            25.915
+          ],
+          [
+            110.77,
+            25.72
+          ],
+          [
+            110.67,
+            25.61
+          ],
+          [
+            110.4,
+            25.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-hunan-army",
+        "startDate": "1934-11-27",
+        "endDate": "1934-12-01",
+        "order": 4,
+        "segmentType": "defense",
+        "name": {
+          "zh": "湘江封锁线（湘军）",
+          "en": "Xiang River Blockade Line (Hunan Army)"
+        },
+        "description": {
+          "zh": "湘军刘建绪等部由全州南下，封锁湘江渡口。路线按主要城镇与公路走廊补点，仍为示意，待史料校订。",
+          "en": "Hunan troops under Liu Jianxu moved south from Quanzhou to blockade the Xiang River crossings. The route is densified along major towns and road corridors but remains schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "corridor"
+        },
+        "label": {
+          "zh": "湘军 第四路军",
+          "en": "Hunan 4th Route Army"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.89,
+            27.22
+          ],
+          [
+            107.18,
+            27.18
+          ],
+          [
+            106.8,
+            27.1
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-guizhou-army",
+        "startDate": "1935-01-01",
+        "endDate": "1935-01-06",
+        "order": 5,
+        "segmentType": "defense",
+        "name": {
+          "zh": "乌江防线（黔军）",
+          "en": "Wu River Defense Line (Guizhou Army)"
+        },
+        "description": {
+          "zh": "黔军王家烈第二十五军及侯之担等部依托乌江设防。路线为示意简化，待史料校订。",
+          "en": "Guizhou troops of Wang Jialie’s 25th Army and Hou Zhidan’s units defended the Wu River line. Route is schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        },
+        "label": {
+          "zh": "黔军 第25军",
+          "en": "Guizhou 25th Army"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.69,
+            29.03
+          ],
+          [
+            111.49,
+            28.9
+          ],
+          [
+            111.13,
+            29.42
+          ],
+          [
+            110.16,
+            29.4
+          ],
+          [
+            109.95,
+            29.15
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-hunan-army",
+        "startDate": "1935-02-01",
+        "endDate": "1935-04-30",
+        "order": 6,
+        "segmentType": "advance",
+        "name": {
+          "zh": "湘军“围剿”湘鄂川黔（常德—永顺）",
+          "en": "Hunan Army Encircles the Hunan-Hubei-Sichuan-Guizhou Soviet Area (Changde–Yongshun)"
+        },
+        "description": {
+          "zh": "湘军何键（后刘建绪）第四路军等部自常德、桃源方向“围剿”湘鄂川黔苏区，另有湘鄂两省及中央军部队参战。路线按主要城镇与公路走廊补点，仍为示意，待史料校订。",
+          "en": "Hunan troops of He Jian’s (later Liu Jianxu’s) Fourth Route Army advanced from Changde and Taoyuan to encircle the Hunan-Hubei-Sichuan-Guizhou Soviet area, joined by other Hunan, Hubei and Central Army units. The route is densified along major towns and road corridors but remains schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "corridor"
+        },
+        "label": {
+          "zh": "湘军 第四路军",
+          "en": "Hunan 4th Route Army"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.07,
+            30.67
+          ],
+          [
+            103.62,
+            31
+          ],
+          [
+            103.18,
+            30.98
+          ],
+          [
+            102.36,
+            30.99
+          ],
+          [
+            101.89,
+            30.88
+          ],
+          [
+            101.12,
+            30.98
+          ],
+          [
+            100.68,
+            31.4
+          ],
+          [
+            99.99,
+            31.62
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-sichuan-army",
+        "startDate": "1935-05-01",
+        "endDate": "1936-10-09",
+        "order": 7,
+        "segmentType": "defense",
+        "name": {
+          "zh": "川军堵截红四方面军",
+          "en": "Sichuan Army Blocks the Red Fourth Front Army"
+        },
+        "description": {
+          "zh": "川军刘湘、刘文辉、邓锡侯等部分路堵截红四方面军，防线自成都平原伸向懋功、甘孜。路线按主要城镇与公路走廊补点，仍为示意，待史料校订。",
+          "en": "Sichuan troops under Liu Xiang, Liu Wenhui and Deng Xihou blocked the Red Fourth Front Army from the Chengdu plain toward Maogong and Garzê. The route is densified along major towns and road corridors but remains schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "corridor"
+        },
+        "label": {
+          "zh": "川军 刘湘部",
+          "en": "Sichuan Liu Xiang forces"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.47,
+            26.55
+          ],
+          [
+            101.8,
+            26.6
+          ],
+          [
+            101.2,
+            26.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-yunnan-army",
+        "startDate": "1935-05-01",
+        "endDate": "1935-05-09",
+        "order": 8,
+        "segmentType": "defense",
+        "name": {
+          "zh": "金沙江防线（滇军）",
+          "en": "Jinsha River Blockade Line"
+        },
+        "description": {
+          "zh": "滇军龙云、孙渡部沿金沙江设防，企图阻止红军北上。路线为示意简化，待史料校订。",
+          "en": "Yunnan troops under Long Yun and Sun Du defended the Jinsha River to block the Red Army’s northward crossing. Route is schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        },
+        "label": {
+          "zh": "滇军 孙渡纵队",
+          "en": "Yunnan Sun Du column"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.36,
+            29.23
+          ],
+          [
+            102.29,
+            29.6
+          ],
+          [
+            102.23,
+            29.91
+          ],
+          [
+            101.96,
+            30.05
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-sichuan-army",
+        "startDate": "1935-05-25",
+        "endDate": "1935-05-29",
+        "order": 9,
+        "segmentType": "defense",
+        "name": {
+          "zh": "大渡河防线（川军）",
+          "en": "Dadu River Defense Line"
+        },
+        "description": {
+          "zh": "川军刘文辉第二十四军沿大渡河设防，扼守安顺场、泸定桥等渡口。路线按主要城镇与公路走廊补点，仍为示意，待史料校订。",
+          "en": "Liu Wenhui’s 24th Army of the Sichuan troops defended the Dadu River at Anshunchang, Luding Bridge and other crossings. The route is densified along major towns and road corridors but remains schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "corridor"
+        },
+        "label": {
+          "zh": "川军 第24军",
+          "en": "Sichuan 24th Army"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.94,
+            34.34
+          ],
+          [
+            108.94,
+            34.62
+          ],
+          [
+            108.98,
+            34.91
+          ],
+          [
+            109.12,
+            35.4
+          ],
+          [
+            109.43,
+            35.76
+          ],
+          [
+            109.38,
+            36
+          ],
+          [
+            109.35,
+            36.28
+          ],
+          [
+            109.49,
+            36.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-northeast-army",
+        "startDate": "1935-07-01",
+        "endDate": "1935-10-31",
+        "order": 10,
+        "segmentType": "advance",
+        "name": {
+          "zh": "东北军西安—延安（第三次“围剿”）",
+          "en": "Northeast Army: Xi’an–Yan’an (Third Encirclement Campaign)"
+        },
+        "description": {
+          "zh": "东北军第 67 军王以哲等部由西安北上延安，参加对陕甘苏区的第三次“围剿”，第 110 师等部随后被歼。路线按主要城镇与公路走廊补点，仍为示意，待史料校订。",
+          "en": "Northeast Army units under Wang Yizhe’s 67th Corps advanced from Xi’an to Yan’an in the third encirclement campaign against the Shaanxi-Gansu Soviet area; the 110th Division and others were later destroyed. The route is densified along major towns and road corridors but remains schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "corridor"
+        },
+        "label": {
+          "zh": "东北军 第67军",
+          "en": "Northeast 67th Corps"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.22,
+            34.06
+          ],
+          [
+            103.6,
+            34.13
+          ],
+          [
+            104.04,
+            34.43
+          ],
+          [
+            104.39,
+            34.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-gansu-ningxia-army",
+        "startDate": "1935-09-16",
+        "endDate": "1935-09-17",
+        "order": 11,
+        "segmentType": "defense",
+        "name": {
+          "zh": "腊子口防线（鲁大昌部）",
+          "en": "Lazikou Defense Line (Lu Dachang’s New 14th Division)"
+        },
+        "description": {
+          "zh": "新编第 14 师鲁大昌部据守腊子口，构筑防线阻止红军进入甘南。路线按主要城镇与公路走廊补点，仍为示意，待史料校订。",
+          "en": "Lu Dachang’s New 14th Division held Lazikou and prepared defenses to block the Red Army from entering southern Gansu. The route is densified along major towns and road corridors but remains schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "corridor"
+        },
+        "label": {
+          "zh": "甘宁青 新14师",
+          "en": "New 14th Division"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.28,
+            36
+          ],
+          [
+            106.24,
+            35.88
+          ],
+          [
+            106.2,
+            35.7
+          ],
+          [
+            106.12,
+            35.62
+          ],
+          [
+            106,
+            35.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-northeast-army",
+        "startDate": "1935-10-06",
+        "endDate": "1935-10-07",
+        "order": 12,
+        "segmentType": "advance",
+        "name": {
+          "zh": "六盘山骑兵追击（东北军骑兵）",
+          "en": "Liupanshan Cavalry Pursuit (Northeast Army Cavalry)"
+        },
+        "description": {
+          "zh": "东北军骑兵军何柱国等部在六盘山、青石嘴一带追击中央红军。路线按主要城镇与公路走廊补点，仍为示意，待史料校订。",
+          "en": "Northeast Army cavalry under He Zhuguo pursued the Central Red Army around the Liupan Mountains and Qingshizui. The route is densified along major towns and road corridors but remains schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "corridor"
+        },
+        "label": {
+          "zh": "东北军 骑兵军",
+          "en": "Northeast cavalry corps"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.94,
+            28.23
+          ],
+          [
+            112.36,
+            28.55
+          ],
+          [
+            111.69,
+            29.03
+          ],
+          [
+            111.13,
+            29.42
+          ],
+          [
+            110.16,
+            29.4
+          ],
+          [
+            109.44,
+            29.46
+          ],
+          [
+            108.77,
+            28.84
+          ],
+          [
+            108.99,
+            28.45
+          ],
+          [
+            109.2,
+            28.17
+          ],
+          [
+            109.19,
+            27.72
+          ],
+          [
+            108.92,
+            27.24
+          ],
+          [
+            108.68,
+            26.96
+          ],
+          [
+            108.42,
+            27.05
+          ],
+          [
+            107.9,
+            26.9
+          ],
+          [
+            107.23,
+            26.58
+          ],
+          [
+            106.63,
+            26.65
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-hunan-army",
+        "startDate": "1935-11-19",
+        "endDate": "1936-10-22",
+        "order": 13,
+        "segmentType": "advance",
+        "name": {
+          "zh": "湘军、中央军追击红二、六军团",
+          "en": "Hunan and Central Army Pursuit of the Red Second and Sixth Army Groups"
+        },
+        "description": {
+          "zh": "湘军李觉纵队与中央军郭汝栋、郝梦龄等纵队分路追击红二、六军团，自湘西经黔东向贵阳方向推进。路线按主要城镇与公路走廊补点，仍为示意，待史料校订。",
+          "en": "Hunan troops of Li Jue’s column and Central Army columns under Guo Rudong and Hao Mengling pursued the Red Second and Sixth Army Groups from western Hunan through eastern Guizhou toward Guiyang. The route is densified along major towns and road corridors but remains schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "corridor"
+        },
+        "label": {
+          "zh": "湘军 李觉纵队",
+          "en": "Hunan Li Jue column"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.35,
+            36.28
+          ],
+          [
+            109.38,
+            36
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-northeast-army",
+        "startDate": "1935-11-20",
+        "endDate": "1935-11-24",
+        "order": 14,
+        "segmentType": "advance",
+        "name": {
+          "zh": "直罗镇进攻（东北军第109师）",
+          "en": "Zhiluozhen Offensive"
+        },
+        "description": {
+          "zh": "东北军第 109 师牛元峰部由黑水寺向直罗镇进攻，被红一方面军围歼。路线为示意简化，待史料校订。",
+          "en": "Niu Yuanfeng’s 109th Division of the Northeast Army attacked Zhiluozhen from Heishuisi and was encircled by the First Front Army. Route is schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        },
+        "label": {
+          "zh": "东北军 第109师",
+          "en": "Northeast 109th Div."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.55,
+            37.87
+          ],
+          [
+            112.36,
+            37.61
+          ],
+          [
+            112.16,
+            37.55
+          ],
+          [
+            112.03,
+            37.44
+          ],
+          [
+            111.79,
+            37.27
+          ],
+          [
+            111.78,
+            37.15
+          ],
+          [
+            111.19,
+            37.35
+          ],
+          [
+            110.83,
+            37
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-jinsui-army",
+        "startDate": "1936-02-20",
+        "endDate": "1936-05-05",
+        "order": 15,
+        "segmentType": "advance",
+        "name": {
+          "zh": "晋绥军追堵东征（太原—石楼）",
+          "en": "Shanxi-Suiyuan Army Pursuit of the Eastern Expedition (Taiyuan–Shilou)"
+        },
+        "description": {
+          "zh": "晋绥军阎锡山部由太原向石楼方向追堵东征红军；其后中央军亦有增援。路线按主要城镇与公路走廊补点，仍为示意，待史料校订。",
+          "en": "Yan Xishan’s Shanxi-Suiyuan troops moved from Taiyuan toward Shilou against the Eastern Expedition, later reinforced by Central Army units. The route is densified along major towns and road corridors but remains schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "corridor"
+        },
+        "label": {
+          "zh": "晋绥军",
+          "en": "Shanxi-Suiyuan Army"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.23,
+            38.49
+          ],
+          [
+            106.25,
+            38.28
+          ],
+          [
+            106.34,
+            38.1
+          ],
+          [
+            106.2,
+            37.99
+          ],
+          [
+            107.4,
+            37.78
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-gansu-ningxia-army",
+        "startDate": "1936-05-19",
+        "endDate": "1936-07-27",
+        "order": 16,
+        "segmentType": "advance",
+        "name": {
+          "zh": "马鸿逵等部堵截西征（银川—盐池）",
+          "en": "Ma Hongkui’s Blockade of the Western Expedition (Yinchuan–Yanchi)"
+        },
+        "description": {
+          "zh": "马鸿逵、马鸿宾等部由银川向盐池方向堵截西征红军。路线按主要城镇与公路走廊补点，仍为示意，待史料校订。",
+          "en": "Ma Hongkui and Ma Hongbin’s forces moved from Yinchuan toward Yanchi to block the Western Expedition. The route is densified along major towns and road corridors but remains schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "corridor"
+        },
+        "label": {
+          "zh": "甘宁青 马鸿逵部",
+          "en": "Ma Hongkui forces"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.94,
+            25.83
+          ],
+          [
+            114.76,
+            25.66
+          ],
+          [
+            114.93,
+            25.39
+          ],
+          [
+            115.39,
+            25.14
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-guangdong-army",
+        "startDate": "1934-10-21",
+        "endDate": "1934-10-25",
+        "order": 17,
+        "segmentType": "defense",
+        "name": {
+          "zh": "第一道封锁线（粤军）",
+          "en": "First Blockade Line (Guangdong Army)"
+        },
+        "description": {
+          "zh": "粤军陈济棠部在赣州、信丰、安远间构筑第一道封锁线，以堡垒群控制红军西进通道。路线按主要城镇与公路走廊补点，仍为示意，待史料校订。",
+          "en": "Chen Jitang’s Guangdong troops built the first blockade line between Ganzhou, Xinfeng and Anyuan, using blockhouses to control the Red Army’s westward route. The route is densified along major towns and road corridors but remains schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "corridor"
+        },
+        "label": {
+          "zh": "粤军 第一集团军",
+          "en": "Guangdong 1st Group"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.02,
+            25.68
+          ],
+          [
+            112.95,
+            25.4
+          ],
+          [
+            113.03,
+            25.29
+          ],
+          [
+            113.35,
+            25.13
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-guangdong-army",
+        "startDate": "1934-11-13",
+        "endDate": "1934-11-15",
+        "order": 18,
+        "segmentType": "defense",
+        "name": {
+          "zh": "第三道封锁线（粤军，良田—宜章—乐昌）",
+          "en": "Third Blockade Line (Guangdong Army, Liangtian–Yizhang–Lechang)"
+        },
+        "description": {
+          "zh": "粤军叶肇等部沿粤汉铁路良田、宜章、乐昌一线设防，构成第三道封锁线。路线按主要城镇与公路走廊补点，仍为示意，待史料校订。",
+          "en": "Guangdong troops under Ye Zhao and others defended the Liangtian, Yizhang and Lechang line along the Guangzhou–Hankou railway, forming the third blockade line. The route is densified along major towns and road corridors but remains schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "corridor"
+        },
+        "label": {
+          "zh": "粤军 叶肇师等",
+          "en": "Guangdong Ye Zhao Div."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.95,
+            33.05
+          ],
+          [
+            113,
+            33.25
+          ],
+          [
+            113,
+            33.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-northwest-army",
+        "startDate": "1934-11-25",
+        "endDate": "1934-11-26",
+        "order": 19,
+        "segmentType": "advance",
+        "name": {
+          "zh": "西北军第 40 军独树镇堵截",
+          "en": "Northwest Army 40th Corps Blocks at Dushuzhen"
+        },
+        "description": {
+          "zh": "西北军庞炳勋第 40 军第 115 旅与骑兵团由赊旗店、叶县方向赶赴方城独树镇、保安寨堵截红二十五军。路线为示意简化，待史料校订。",
+          "en": "The 115th Brigade and cavalry regiment of Pang Bingxun’s Northwest Army 40th Corps moved from Sheqidian and Yexian toward Dushuzhen and Bao’anzhai in Fangcheng to intercept the Red 25th Army. Route is schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        },
+        "label": {
+          "zh": "西北军 第40军",
+          "en": "Northwest 40th Corps"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.88,
+            33.53
+          ],
+          [
+            109.9,
+            33.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-shaanxi-army",
+        "startDate": "1935-06-30",
+        "endDate": "1935-07-02",
+        "order": 20,
+        "segmentType": "defense",
+        "name": {
+          "zh": "陕军袁家沟口堵截",
+          "en": "Shaanxi Army Blocks at Yuanjiagoukou"
+        },
+        "description": {
+          "zh": "陕军杨虎城部警备第 1 旅唐嗣桐部在山阳袁家沟口一带堵截红二十五军，反被红军包围歼灭。路线为示意简化，待史料校订。",
+          "en": "The 1st Security Brigade of Yang Hucheng’s Shaanxi Army under Tang Sitong blocked the Red 25th Army at Yuanjiagoukou, Shanyang, and was surrounded and destroyed. Route is schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        },
+        "label": {
+          "zh": "陕军 警备第1旅",
+          "en": "Shaanxi 1st Security Bde."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.37,
+            35.33
+          ],
+          [
+            107.4,
+            35.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-gansu-ningxia-army",
+        "startDate": "1935-08-20",
+        "endDate": "1935-08-21",
+        "order": 21,
+        "segmentType": "advance",
+        "name": {
+          "zh": "马鸿宾第 35 师四坡村袭击",
+          "en": "Ma Hongbin’s 35th Division Attacks at Sipocun"
+        },
+        "description": {
+          "zh": "甘宁青部队马鸿宾第 35 师由泾川方向袭击在四坡村汭河渡河的红二十五军。路线为示意简化，待史料校订。",
+          "en": "Ma Hongbin’s 35th Division of the Gansu-Ningxia-Qinghai forces attacked the Red 25th Army as it crossed the Rui River at Sipocun from the Jingchuan direction. Route is schematic and awaits historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        },
+        "label": {
+          "zh": "甘宁青 第35师",
+          "en": "Gansu-Ningxia 35th Div."
+        }
+      }
+    }
+  ]
+}

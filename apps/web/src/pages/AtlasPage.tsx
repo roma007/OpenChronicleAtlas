@@ -128,7 +128,7 @@ export function AtlasPage() {
         </div>
       </header>
 
-      <Legend className="absolute left-4 top-24 z-20 hidden w-64 md:block" />
+      <Legend className="absolute left-4 top-24 z-20 hidden max-h-[calc(100vh-16rem)] w-64 overflow-y-auto md:block" />
 
       {manifest ? <Timeline /> : null}
 

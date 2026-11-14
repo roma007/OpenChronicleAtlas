@@ -24,11 +24,37 @@ import { useI18n } from '../../hooks/useI18n';
 const INITIAL_CENTER: [number, number] = [106.5, 32];
 const BUBBLE_DURATION_MS = 4000;
 const BUBBLE_MIN_GAP_MS = 1200;
+const KM_PER_DEG_LAT = 110.57;
+const KM_PER_DEG_LNG_AT_EQUATOR = 111.32;
+const DEFENSE_TICK_INTERVAL_M = 24000;
+const DEFENSE_TICK_MIN_ZOOM = 6;
+const ROUTE_LABEL_MIN_ZOOM = 6;
+const ROUTE_LABEL_PROGRESS = 0.45;
+const ROUTE_HEAD_MIN_ZOOM = 5;
+const ROUTE_LABEL_PADDING_PX = 3;
 
 interface LineEntry {
   feature: AtlasRouteFeature;
   geometry: RouteGeometry;
   line: any;
+  label: any | null;
+  /** 番号牌已换算到 GCJ-02 的落点，用于屏幕空间避让 */
+  labelPoint: [number, number] | null;
+  labelText: string;
+  labelPriority: number;
+  /** 线头箭头：随播放沿路线移动 */
+  head: { marker: any; element: HTMLElement } | null;
+  /** 当前时间进度，供标签避让与线头箭头复用 */
+  progress: number;
+  ticks: Array<{ marker: any; progress: number }>;
+  strongpoints: Array<{ marker: any; progress: number }>;
+}
+
+interface ScreenRect {
+  left: number;
+  right: number;
+  top: number;
+  bottom: number;
 }
 
 interface MarkerEntry {
@@ -59,6 +85,101 @@ function ringCenter(rings: [number, number][][]): [number, number] {
 function toGcjPoint(coordinate: [number, number]): [number, number] {
   const point = wgs84ToGcj02(coordinate[0], coordinate[1]);
   return [point.lng, point.lat];
+}
+
+/** 以公里为单位在局部平面上偏移一个经纬度点 */
+function offsetPoint(
+  point: [number, number],
+  eastKm: number,
+  northKm: number,
+): [number, number] {
+  const latRad = (point[1] * Math.PI) / 180;
+  const lngScale = Math.max(0.2, Math.cos(latRad));
+  return [
+    point[0] + eastKm / (KM_PER_DEG_LNG_AT_EQUATOR * lngScale),
+    point[1] + northKm / KM_PER_DEG_LAT,
+  ];
+}
+
+/** 取路线某里程处的点、法线方向与行进方向（角度制，0=正北，顺时针） */
+function sampleRoute(
+  geometry: RouteGeometry,
+  distance: number,
+): { point: [number, number]; normal: [number, number]; bearing: number } | null {
+  const { coordinates, cumulative, totalLength } = geometry;
+  if (coordinates.length < 2 || totalLength === 0) return null;
+
+  const target = Math.min(Math.max(distance, 0), totalLength);
+  let low = 1;
+  let high = cumulative.length - 1;
+  while (low < high) {
+    const mid = Math.floor((low + high) / 2);
+    if (cumulative[mid]! < target) low = mid + 1;
+    else high = mid;
+  }
+
+  const index = Math.max(1, low);
+  const start = coordinates[index - 1]!;
+  const end = coordinates[index]!;
+  const segmentStart = cumulative[index - 1]!;
+  const segmentLength = cumulative[index]! - segmentStart;
+  const ratio = segmentLength === 0 ? 0 : (target - segmentStart) / segmentLength;
+  const point: [number, number] = [
+    start[0] + (end[0] - start[0]) * ratio,
+    start[1] + (end[1] - start[1]) * ratio,
+  ];
+
+  const latRad = (point[1] * Math.PI) / 180;
+  const east = (end[0] - start[0]) * KM_PER_DEG_LNG_AT_EQUATOR * Math.cos(latRad);
+  const north = (end[1] - start[1]) * KM_PER_DEG_LAT;
+  const length = Math.hypot(east, north) || 1;
+  const tangentEast = east / length;
+  const tangentNorth = north / length;
+  return {
+    point,
+    normal: [-tangentNorth, tangentEast],
+    bearing: (Math.atan2(tangentEast, tangentNorth) * 180) / Math.PI,
+  };
+}
+
+/** 估算番号牌在屏幕上的外接框，避免逐帧读取 DOM 造成布局抖动 */
+function estimateLabelRect(
+  text: string,
+  x: number,
+  y: number,
+): ScreenRect {
+  let wide = 0;
+  let narrow = 0;
+  for (const char of text) {
+    if (/[\u2e80-\u9fff\uf900-\ufaff]/.test(char)) wide += 1;
+    else narrow += 1;
+  }
+  // 汉字约 11px，西文约 6.2px，左右 padding 与边框合计约 14px
+  const width = wide * 11 + narrow * 6.2 + 14;
+  const height = 18;
+  return {
+    left: x - width / 2,
+    right: x + width / 2,
+    top: y - height / 2,
+    bottom: y + height / 2,
+  };
+}
+
+function rectsOverlap(a: ScreenRect, b: ScreenRect): boolean {
+  return !(
+    a.right + ROUTE_LABEL_PADDING_PX < b.left ||
+    a.left - ROUTE_LABEL_PADDING_PX > b.right ||
+    a.bottom + ROUTE_LABEL_PADDING_PX < b.top ||
+    a.top - ROUTE_LABEL_PADDING_PX > b.bottom
+  );
+}
+
+/** 番号牌缺省落点：路线中点向法线方向偏移，避免压住线本身 */
+function defaultLabelPoint(geometry: RouteGeometry): [number, number] {
+  const sample = sampleRoute(geometry, geometry.totalLength * 0.5);
+  if (!sample) return geometry.coordinates[0]!;
+  const [normalEast, normalNorth] = sample.normal;
+  return offsetPoint(sample.point, normalEast * 7, normalNorth * 7);
 }
 
 export function MapCanvas() {
@@ -222,8 +343,14 @@ export function MapCanvas() {
     const AMap = amapRef.current;
     if (!map || !AMap || !dataset || !ready) return;
 
-    const oldLines = Array.from(lineEntriesRef.current.values(), (entry) => entry.line);
-    if (oldLines.length > 0) map.remove(oldLines);
+    const oldOverlays = Array.from(lineEntriesRef.current.values()).flatMap((entry) => [
+      entry.line,
+      ...(entry.label ? [entry.label] : []),
+      ...(entry.head ? [entry.head.marker] : []),
+      ...entry.ticks.map((tick) => tick.marker),
+      ...entry.strongpoints.map((point) => point.marker),
+    ]);
+    if (oldOverlays.length > 0) map.remove(oldOverlays);
 
     lineEntriesRef.current.clear();
     lastProgressRef.current.clear();
@@ -238,24 +365,156 @@ export function MapCanvas() {
 
       const geometry = buildRouteGeometry(route);
       const style = routeStyleForSegmentType(route.properties.segmentType);
+      const isDefense = route.properties.segmentType === 'defense';
+      const isKmt = route.properties.entityId.startsWith('kmt-');
+      const hasLabel = Boolean(route.properties.label);
+      // 只有显式写了番号 label 的防御线才启用齿线/据点符号，避免影响其他专题
+      const useDefenseSymbol = isDefense && hasLabel;
+      const weight = isKmt ? (isDefense ? style.weight : Math.max(2, style.weight - 1)) : style.weight;
+      const opacity = isKmt ? Math.min(style.opacity, isDefense ? 0.65 : 0.6) : style.opacity;
+
       const line = new AMap.Polyline({
         path: route.geometry.coordinates.map(toGcjPoint),
         strokeColor: entity.color,
-        strokeWeight: style.weight,
-        strokeOpacity: style.opacity,
-        strokeStyle: style.dash === 'solid' ? 'solid' : 'dashed',
-        strokeDasharray:
-          style.dash === 'dotted' ? [2, 4] : style.dash === 'dashed' ? [10, 6] : undefined,
+        strokeWeight: weight,
+        strokeOpacity: opacity,
+        // 防御线用细实线打底，齿线与据点另行绘制，避免普通点虚线读成“行程”
+        strokeStyle: useDefenseSymbol ? 'solid' : style.dash === 'solid' ? 'solid' : 'dashed',
+        strokeDasharray: useDefenseSymbol
+          ? undefined
+          : style.dash === 'dotted'
+            ? [2, 4]
+            : style.dash === 'dashed'
+              ? [10, 6]
+              : undefined,
         lineJoin: 'round',
         lineCap: 'round',
-        showDir: true,
+        showDir: !useDefenseSymbol,
         zIndex: 50,
       });
       line.hide();
       map.add(line);
 
+      let label: any | null = null;
+      let labelPoint: [number, number] | null = null;
+      let labelText = '';
+      if (route.properties.label) {
+        const rawPoint = route.properties.labelPoint ?? defaultLabelPoint(geometry);
+        labelPoint = toGcjPoint(rawPoint);
+        labelText = resolveLocalized(route.properties.label, locale);
+        label = new AMap.Text({
+          text: labelText,
+          position: labelPoint,
+          anchor: 'center',
+          // 高于事件聚合气泡，避免番号牌被“2”“6”这类计数圆点盖住
+          zIndex: 120,
+          bubble: true,
+          style: {
+            'font-size': '11px',
+            'font-family': '"Songti SC", "STSong", serif',
+            'font-weight': '600',
+            color: entity.color,
+            'background-color': 'rgba(247, 241, 229, 0.9)',
+            border: `1px solid ${entity.color}66`,
+            'border-radius': '999px',
+            padding: '1px 6px',
+            'white-space': 'nowrap',
+            'pointer-events': 'none',
+            'box-shadow': '0 1px 4px rgba(35, 28, 21, 0.18)',
+          },
+        });
+        label.hide();
+        map.add(label);
+      }
+
+      // 线头箭头：行进中的路线在线头显示一个指向当前推进方向的箭头；防御线没有推进方向
+      let head: { marker: any; element: HTMLElement } | null = null;
+      if (!isDefense) {
+        const element = document.createElement('span');
+        element.className = 'atlas-route-head';
+        element.style.setProperty('--marker-color', entity.color);
+        const marker = new AMap.Marker({
+          position: toGcjPoint(route.geometry.coordinates.at(-1) ?? route.geometry.coordinates[0]!),
+          content: element,
+          anchor: 'center',
+          zIndex: 58,
+          bubble: true,
+        });
+        marker.hide();
+        map.add(marker);
+        head = { marker, element };
+      }
+
+      const ticks: Array<{ marker: any; progress: number }> = [];
+      if (useDefenseSymbol && geometry.totalLength >= 30000) {
+        for (
+          let distance = DEFENSE_TICK_INTERVAL_M / 2;
+          distance < geometry.totalLength;
+          distance += DEFENSE_TICK_INTERVAL_M
+        ) {
+          const sample = sampleRoute(geometry, distance);
+          if (!sample) continue;
+          const [normalEast, normalNorth] = sample.normal;
+          const bearing = (Math.atan2(normalEast, normalNorth) * 180) / Math.PI;
+
+          const element = document.createElement('span');
+          element.className = 'atlas-defense-tick';
+          element.style.setProperty('--marker-color', entity.color);
+          element.style.transform = `rotate(${bearing}deg)`;
+
+          const marker = new AMap.Marker({
+            position: toGcjPoint(sample.point),
+            content: element,
+            anchor: 'center',
+            zIndex: 52,
+            bubble: true,
+          });
+          marker.hide();
+          map.add(marker);
+          ticks.push({ marker, progress: distance / geometry.totalLength });
+        }
+      }
+
+      const strongpoints: Array<{ marker: any; progress: number }> = [];
+      if (useDefenseSymbol) {
+        const endpoints: Array<[[number, number], number]> = [];
+        const first = route.geometry.coordinates[0];
+        const last = route.geometry.coordinates.at(-1);
+        if (first) endpoints.push([first, 0]);
+        if (last) endpoints.push([last, 1]);
+
+        for (const [coordinate, progress] of endpoints) {
+          const element = document.createElement('span');
+          element.className = 'atlas-strongpoint';
+          element.style.setProperty('--marker-color', entity.color);
+          const marker = new AMap.Marker({
+            position: toGcjPoint(coordinate),
+            content: element,
+            anchor: 'center',
+            zIndex: 90,
+            bubble: true,
+          });
+          marker.hide();
+          map.add(marker);
+          strongpoints.push({ marker, progress });
+        }
+      }
+
       const key = `${route.properties.entityId}:${route.properties.order}:${route.properties.startDate}`;
-      lineEntriesRef.current.set(key, { feature: route, geometry, line });
+      lineEntriesRef.current.set(key, {
+        feature: route,
+        geometry,
+        line,
+        label,
+        labelPoint,
+        labelText,
+        // 防御线优先保留番号；其余按路线顺序，保证避让结果稳定
+        labelPriority: (useDefenseSymbol ? 0 : 1000) + route.properties.order,
+        head,
+        progress: 0,
+        ticks,
+        strongpoints,
+      });
       lines.push(line);
     }
 
@@ -268,7 +527,7 @@ export function MapCanvas() {
       }
       fittedAtlasIdRef.current = dataset.manifest.id;
     }
-  }, [dataset, activeEntityIds, ready]);
+  }, [dataset, activeEntityIds, ready, locale]);
 
   // 建立/重建事件 Marker：随缩放级别聚合
   useEffect(() => {
@@ -359,7 +618,9 @@ export function MapCanvas() {
 
   // 时间变化：更新路线截断与 Marker 可见性
   useEffect(() => {
-    if (!dataset || !ready) return;
+    const map = mapRef.current;
+    const AMap = amapRef.current;
+    if (!dataset || !ready || !map || !AMap) return;
 
     for (const [key, entry] of lineEntriesRef.current) {
       const start = parseDateString(entry.feature.properties.startDate);
@@ -374,26 +635,90 @@ export function MapCanvas() {
       const previous = lastProgressRef.current.get(key) ?? -1;
       if (rawProgress < 0) {
         entry.line.hide();
+        entry.label?.hide();
+        entry.progress = 0;
+        entry.head?.marker.hide();
+        for (const tick of entry.ticks) tick.marker.hide();
+        for (const point of entry.strongpoints) point.marker.hide();
         lastProgressRef.current.set(key, 0);
         continue;
       }
 
       // 起点当天也显示一小段，避免路线在出发日完全消失
       const progress = rawProgress === 0 ? 0.001 : Math.min(1, rawProgress);
+      const pathChanged = Math.abs(progress - previous) >= 0.001;
+      entry.progress = progress;
 
-      if (Math.abs(progress - previous) < 0.001) {
-        entry.line.show();
+      if (pathChanged) {
+        const path = partialPathAt(entry.geometry, progress).map(toGcjPoint);
+        if (path.length < 2) {
+          entry.line.hide();
+          entry.label?.hide();
+          entry.head?.marker.hide();
+          for (const tick of entry.ticks) tick.marker.hide();
+          for (const point of entry.strongpoints) point.marker.hide();
+          continue;
+        }
+        entry.line.setPath(path);
+        lastProgressRef.current.set(key, progress);
+      }
+
+      entry.line.show();
+
+      // 线头箭头：显示在路线当前推进位置，路线走完后收起
+      if (entry.head) {
+        const sample =
+          zoom >= ROUTE_HEAD_MIN_ZOOM && progress > 0.01 && progress < 0.999
+            ? sampleRoute(entry.geometry, entry.geometry.totalLength * progress)
+            : null;
+        if (sample) {
+          entry.head.marker.setPosition(toGcjPoint(sample.point));
+          entry.head.element.style.transform = `rotate(${sample.bearing}deg)`;
+          entry.head.marker.show();
+        } else {
+          entry.head.marker.hide();
+        }
+      }
+
+      // 防御齿线：只显示已经被时间轴“画到”的部分；缩放过小时退化为细实线
+      for (const tick of entry.ticks) {
+        const visible = zoom >= DEFENSE_TICK_MIN_ZOOM && tick.progress <= progress + 0.001;
+        tick.marker[visible ? 'show' : 'hide']();
+      }
+
+      // 据点：起点在路线出现后显示，终点在路线走完后显示
+      for (const point of entry.strongpoints) {
+        const visible = point.progress === 0 ? progress > 0 : progress >= 0.999;
+        point.marker[visible ? 'show' : 'hide']();
+      }
+    }
+
+    // 番号牌：先按时间与缩放筛选，再做屏幕空间避让，重叠时保留优先级高的
+    const labelCandidates = Array.from(lineEntriesRef.current.values())
+      .filter((entry) => entry.label !== null)
+      .sort((a, b) => a.labelPriority - b.labelPriority);
+
+    const placedRects: ScreenRect[] = [];
+    for (const entry of labelCandidates) {
+      const label = entry.label;
+      const point = entry.labelPoint;
+      if (!label) continue;
+      const visible =
+        zoom >= ROUTE_LABEL_MIN_ZOOM &&
+        entry.progress >= ROUTE_LABEL_PROGRESS &&
+        point !== null;
+      if (!visible || !point) {
+        label.hide();
         continue;
       }
-
-      const path = partialPathAt(entry.geometry, progress).map(toGcjPoint);
-      if (path.length >= 2) {
-        entry.line.setPath(path);
-        entry.line.show();
-        lastProgressRef.current.set(key, progress);
-      } else {
-        entry.line.hide();
+      const containerPoint = map.lngLatToContainer(new AMap.LngLat(point[0], point[1]));
+      const rect = estimateLabelRect(entry.labelText, containerPoint.x, containerPoint.y);
+      if (placedRects.some((placed) => rectsOverlap(placed, rect))) {
+        label.hide();
+        continue;
       }
+      placedRects.push(rect);
+      label.show();
     }
 
 
@@ -433,7 +758,7 @@ export function MapCanvas() {
         visibleEvents.some((event) => event.id === latest?.id),
       );
     }
-  }, [currentTime, dataset, activeEntityIds, filters, ready, showTerritories, locale]);
+  }, [currentTime, dataset, activeEntityIds, filters, ready, showTerritories, locale, zoom]);
 
   // 播放跨过事件时弹出气泡（固定 UI，避免 InfoWindow 被视口裁切）
   useEffect(() => {

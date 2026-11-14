@@ -95,26 +95,116 @@
             25.53
           ],
           [
-            111.16,
-            25.49
+            111.05,
+            25.6
           ],
           [
-            111.07,
-            25.93
+            110.767,
+            25.7238
           ]
         ]
       },
       "properties": {
         "entityId": "central-red-army",
         "startDate": "1934-11-14",
-        "endDate": "1934-11-27",
+        "endDate": "1934-12-01",
         "order": 3,
         "segmentType": "advance",
         "name": {
-          "zh": "宜章—湘江"
+          "zh": "宜章—道县—文市—界首（突破第四道封锁线）",
+          "en": "Yizhang–Daoxian–Wenshi–Jieshou (breaking the fourth blockade line)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "中央红军从宜章西进，经道县、文市进抵湘江东岸，11 月 27 日抢占界首等渡口，11 月 30 日至 12 月 1 日渡江。",
+          "en": "The Central Red Army advanced west from Yizhang through Daoxian and Wenshi to the east bank of the Xiang River, seized Jieshou and other ferries on 27 November, and crossed on 30 November–1 December."
+        },
+        "extensions": {
+          "precision": "campaign"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.976,
+            25.915
+          ],
+          [
+            110.956,
+            25.915
+          ],
+          [
+            110.9,
+            25.84
+          ],
+          [
+            110.83,
+            25.78
+          ],
+          [
+            110.767,
+            25.7238
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1934-11-27",
+        "endDate": "1934-12-01",
+        "order": 4,
+        "segmentType": "defense",
+        "name": {
+          "zh": "湘江渡口群与阻击阵地（屏山—脚山铺—大坪—凤凰嘴—界首）",
+          "en": "Xiang River ferries and blocking positions (Pingshan–Jiaoshanpu–Daping–Fenghuangzui–Jieshou)"
+        },
+        "description": {
+          "zh": "红一军团等部控制屏山至界首约 30 公里的湘江渡口，并在脚山铺、新圩、光华铺等地阻击敌军，掩护中央纵队渡江。",
+          "en": "The First Army Corps and other units controlled the Xiang River ferries along about 30 km from Pingshan to Jieshou and blocked the enemy at Jiaoshanpu, Xinxu, and Guanghuapu to cover the crossing of the central column."
+        },
+        "extensions": {
+          "precision": "campaign"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.1966,
+            25.6799
+          ],
+          [
+            111.2287,
+            25.6203
+          ],
+          [
+            111.119,
+            25.607
+          ],
+          [
+            111.12,
+            25.59
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1934-11-27",
+        "endDate": "1934-12-01",
+        "order": 5,
+        "segmentType": "defense",
+        "name": {
+          "zh": "后卫阻击（文市—水车—新圩—楠木山）",
+          "en": "Rearguard blocking line (Wenshi–Shuiche–Xinxu–Nanmushan)"
+        },
+        "description": {
+          "zh": "红五军团第三十四师与红三军团第六师第十八团在文市、水车、新圩、楠木山一线节节阻击，掩护中央纵队和后续部队渡过湘江。",
+          "en": "The Thirty-Fourth Division of the Fifth Army Corps and the Eighteenth Regiment of the Sixth Division, Third Army Corps, fought delaying actions along Wenshi, Shuiche, Xinxu, and Nanmushan to cover the crossing of the central column and follow-up units."
         },
         "extensions": {
           "precision": "schematic"
@@ -127,8 +217,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            111.07,
-            25.93
+            110.767,
+            25.7238
+          ],
+          [
+            110.5,
+            25.9
           ],
           [
             110.01,
@@ -144,13 +238,61 @@
         "entityId": "central-red-army",
         "startDate": "1934-11-28",
         "endDate": "1934-12-12",
-        "order": 4,
+        "order": 6,
         "segmentType": "advance",
         "name": {
-          "zh": "湘江—通道"
+          "zh": "界首—越城岭—龙胜—通道",
+          "en": "Jieshou–Yuecheng Ridge–Longsheng–Tongdao"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "湘江战役后，中央红军经越城岭、龙胜进入湖南通道。",
+          "en": "After the Xiang River battle, the Central Red Army moved through the Yuecheng Ridge and Longsheng into Tongdao, Hunan."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.8949,
+            25.6546
+          ],
+          [
+            111.16,
+            25.49
+          ],
+          [
+            111.6,
+            25.53
+          ],
+          [
+            111.767,
+            25.4064
+          ],
+          [
+            111.658,
+            25.412
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1934-12-02",
+        "endDate": "1934-12-18",
+        "order": 7,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "红三十四师突围（文塘—灌阳—道县石马神）",
+          "en": "Thirty-Fourth Division breakout (Wentang–Guanyang–Shimashen, Daoxian)"
+        },
+        "description": {
+          "zh": "红三十四师余部由全州安和文塘突围，经灌阳、道县四马桥转战，师长陈树湘于 12 月 18 日在蚣坝镇石马神村牺牲。",
+          "en": "Survivors of the Thirty-Fourth Division broke out from Wentang in Anhe, Quanzhou, and moved through Guanyang and Simaqiao in Daoxian; commander Chen Shuxiang died at Shimashen Village, Gongba, on 18 December."
         },
         "extensions": {
           "precision": "schematic"
@@ -180,7 +322,7 @@
         "entityId": "central-red-army",
         "startDate": "1934-12-13",
         "endDate": "1934-12-18",
-        "order": 5,
+        "order": 8,
         "segmentType": "advance",
         "name": {
           "zh": "通道—黎平"
@@ -224,7 +366,7 @@
         "entityId": "central-red-army",
         "startDate": "1934-12-19",
         "endDate": "1934-12-31",
-        "order": 6,
+        "order": 9,
         "segmentType": "advance",
         "name": {
           "zh": "黎平—猴场"
@@ -268,7 +410,7 @@
         "entityId": "central-red-army",
         "startDate": "1935-01-01",
         "endDate": "1935-01-15",
-        "order": 7,
+        "order": 10,
         "segmentType": "advance",
         "name": {
           "zh": "猴场—遵义"
@@ -299,8 +441,8 @@
             28.3
           ],
           [
-            106.19,
-            28.33
+            105.996,
+            28.276
           ]
         ]
       },
@@ -308,16 +450,18 @@
         "entityId": "central-red-army",
         "startDate": "1935-01-16",
         "endDate": "1935-01-28",
-        "order": 8,
+        "order": 11,
         "segmentType": "advance",
         "name": {
-          "zh": "遵义—土城"
+          "zh": "遵义—土城（经桐梓、习水）",
+          "en": "Zunyi–Tucheng (via Tongzi and Xishui)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "中央红军从遵义经桐梓、习水向土城开进，1 月 28 日在青杠坡与川军激战，次日一渡赤水。",
+          "en": "The Central Red Army advanced from Zunyi through Tongzi and Xishui toward Tucheng, fought Sichuan troops at Qinggangpo on 28 January, and crossed the Chishui River the next day."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "campaign"
         }
       }
     },
@@ -327,33 +471,39 @@
         "type": "LineString",
         "coordinates": [
           [
-            106.19,
-            28.33
-          ],
-          [
-            105.98,
-            28.4
+            105.996,
+            28.276
           ],
           [
             105.81,
             28.18
+          ],
+          [
+            105.44,
+            28.17
+          ],
+          [
+            105.05,
+            27.85
           ]
         ]
       },
       "properties": {
         "entityId": "central-red-army",
         "startDate": "1935-01-29",
-        "endDate": "1935-02-18",
-        "order": 9,
+        "endDate": "1935-02-09",
+        "order": 12,
         "segmentType": "advance",
         "name": {
-          "zh": "土城—太平渡（一渡、二渡）"
+          "zh": "土城—古蔺—扎西（一渡后西进）",
+          "en": "Tucheng–Gulin–Zhaxi (after the first crossing)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "一渡赤水后，红军经古蔺、叙永西进云南扎西集结。",
+          "en": "After the first crossing, the Red Army moved west through Gulin and Xuyong to assemble at Zhaxi in Yunnan."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "campaign"
         }
       }
     },
@@ -363,41 +513,81 @@
         "type": "LineString",
         "coordinates": [
           [
+            105.05,
+            27.85
+          ],
+          [
             105.81,
             28.18
           ],
           [
-            105.9,
-            28.15
+            106.04,
+            28.141
+          ],
+          [
+            106.165,
+            28.156
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-02-10",
+        "endDate": "1935-02-21",
+        "order": 13,
+        "segmentType": "advance",
+        "name": {
+          "zh": "扎西—太平渡/二郎滩（二渡）",
+          "en": "Zhaxi–Taipingdu/Erlangtan (second crossing)"
+        },
+        "description": {
+          "zh": "二渡回师黔北，红军从太平渡、九溪口、老鸹沱、二郎滩、淋滩等渡口东渡赤水河。",
+          "en": "On the second crossing the Red Army returned to northern Guizhou, crossing the Chishui River eastward at Taipingdu, Jiuxikou, Laoguatuo, Erlangtan, and Lintan."
+        },
+        "extensions": {
+          "precision": "campaign"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.165,
+            28.156
           ],
           [
             106.83,
             28.13
           ],
           [
-            106.92,
-            27.72
-          ],
-          [
             106.83,
             27.95
+          ],
+          [
+            106.92,
+            27.72
           ]
         ]
       },
       "properties": {
         "entityId": "central-red-army",
         "startDate": "1935-02-19",
-        "endDate": "1935-02-25",
-        "order": 10,
+        "endDate": "1935-02-28",
+        "order": 14,
         "segmentType": "advance",
         "name": {
-          "zh": "太平渡—娄山关"
+          "zh": "二郎滩—桐梓—娄山关—遵义",
+          "en": "Erlangtan–Tongzi–Loushan Pass–Zunyi"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "二渡后红军经桐梓攻占娄山关，再占遵义。",
+          "en": "After the second crossing, the Red Army advanced through Tongzi, captured Loushan Pass, and retook Zunyi."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "campaign"
         }
       }
     },
@@ -407,37 +597,43 @@
         "type": "LineString",
         "coordinates": [
           [
-            106.83,
-            27.95
+            106.916,
+            27.692
           ],
           [
-            106.92,
-            27.72
+            106.905,
+            27.688
           ],
           [
-            106.6,
-            27.65
+            106.892,
+            27.69
           ],
           [
-            106.4,
-            27.79
+            106.878,
+            27.683
+          ],
+          [
+            106.862,
+            27.682
           ]
         ]
       },
       "properties": {
         "entityId": "central-red-army",
-        "startDate": "1935-02-26",
-        "endDate": "1935-03-16",
-        "order": 11,
-        "segmentType": "advance",
+        "startDate": "1935-02-28",
+        "endDate": "1935-02-28",
+        "order": 15,
+        "segmentType": "defense",
         "name": {
-          "zh": "娄山关—茅台（三渡）"
+          "zh": "遵义城南防御线（红花岗—老鸦山）",
+          "en": "Zunyi southern defense line (Honghuagang–Laoyashan)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "红三军团在遵义城南红花岗、老鸦山一线构筑防御，红一军团主力由水师坝向忠庄铺侧击。",
+          "en": "The Third Army Corps defended the Honghuagang–Laoyashan line south of Zunyi while the main force of the First Army Corps struck toward Zhongzhuangpu from Shuishiba."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "campaign"
         }
       }
     },
@@ -447,33 +643,85 @@
         "type": "LineString",
         "coordinates": [
           [
-            106.4,
-            27.79
+            106.92,
+            27.72
           ],
           [
-            105.9,
-            28.15
+            106.66,
+            27.66
+          ],
+          [
+            106.45,
+            27.72
+          ],
+          [
+            106.373,
+            27.86
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-02-28",
+        "endDate": "1935-03-17",
+        "order": 16,
+        "segmentType": "advance",
+        "name": {
+          "zh": "遵义—茅台（三渡）",
+          "en": "Zunyi–Maotai (third crossing)"
+        },
+        "description": {
+          "zh": "三渡前红军由遵义西进茅台，3 月 16 日至 17 日在茅台中渡口、下渡口、银滩西渡赤水河。",
+          "en": "Before the third crossing, the Red Army moved west from Zunyi to Maotai and crossed the Chishui River westward at Maotai’s middle ferry, lower ferry, and Yintan on 16–17 March."
+        },
+        "extensions": {
+          "precision": "campaign"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.373,
+            27.86
           ],
           [
             105.81,
             28.18
+          ],
+          [
+            106.165,
+            28.156
+          ],
+          [
+            106.09,
+            28.17
+          ],
+          [
+            106.04,
+            28.141
           ]
         ]
       },
       "properties": {
         "entityId": "central-red-army",
         "startDate": "1935-03-17",
-        "endDate": "1935-03-21",
-        "order": 12,
+        "endDate": "1935-03-22",
+        "order": 17,
         "segmentType": "advance",
         "name": {
-          "zh": "茅台—太平渡（四渡）"
+          "zh": "茅台—古蔺—二郎滩/太平渡（四渡）",
+          "en": "Maotai–Gulin–Erlangtan/Taipingdu (fourth crossing)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "三渡后红军佯动古蔺，3 月 21 日至 22 日由二郎滩、太平渡、九溪口、淋滩东渡赤水河。",
+          "en": "After the third crossing, the Red Army feinted toward Gulin and crossed the Chishui River eastward at Erlangtan, Taipingdu, Jiuxikou, and Lintan on 21–22 March."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "campaign"
         }
       }
     },
@@ -483,8 +731,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            105.81,
-            28.18
+            106.04,
+            28.141
           ],
           [
             106.74,
@@ -524,13 +772,15 @@
         "entityId": "central-red-army",
         "startDate": "1935-03-22",
         "endDate": "1935-05-03",
-        "order": 13,
+        "order": 18,
         "segmentType": "advance",
         "name": {
-          "zh": "佯攻贵阳—巧渡金沙江"
+          "zh": "太平渡—乌江—贵阳—金沙江",
+          "en": "Taipingdu–Wu River–Guiyang–Jinsha River"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "四渡后红军南渡乌江、佯攻贵阳、西进云南，5 月初巧渡金沙江。",
+          "en": "After the fourth crossing, the Red Army crossed the Wu River southward, feinted toward Guiyang, moved west into Yunnan, and crossed the Jinsha River in early May."
         },
         "extensions": {
           "precision": "schematic"
@@ -560,7 +810,7 @@
         "entityId": "central-red-army",
         "startDate": "1935-05-04",
         "endDate": "1935-05-12",
-        "order": 14,
+        "order": 19,
         "segmentType": "advance",
         "name": {
           "zh": "金沙江—会理"
@@ -599,8 +849,16 @@
             28.55
           ],
           [
-            102.36,
-            29.23
+            102.279,
+            28.809
+          ],
+          [
+            102.3,
+            28.998
+          ],
+          [
+            102.283,
+            29.276
           ]
         ]
       },
@@ -608,13 +866,15 @@
         "entityId": "central-red-army",
         "startDate": "1935-05-13",
         "endDate": "1935-05-25",
-        "order": 15,
+        "order": 20,
         "segmentType": "advance",
         "name": {
-          "zh": "会理—安顺场（强渡大渡河）"
+          "zh": "会理—拖乌—栗子坪—安顺场（强渡大渡河）",
+          "en": "Huili–Tuowu–Liziping–Anshunchang (forcing the Dadu River)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "红军由会理北上，经拖乌、栗子坪进入安顺场，准备强渡大渡河。",
+          "en": "The Red Army moved north from Huili through Tuowu and Liziping to Anshunchang to force the Dadu River."
         },
         "extensions": {
           "precision": "schematic"
@@ -627,16 +887,74 @@
         "type": "LineString",
         "coordinates": [
           [
-            102.36,
-            29.23
+            102.193,
+            28.294
           ],
           [
-            102.13,
-            29.65
+            102.504,
+            28.645
+          ],
+          [
+            102.555,
+            29.039
+          ],
+          [
+            102.62,
+            29.272
+          ],
+          [
+            102.662,
+            29.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-05-20",
+        "endDate": "1935-05-26",
+        "order": 21,
+        "segmentType": "advance",
+        "name": {
+          "zh": "大树堡佯动（泸沽—越西—海棠—大树堡）",
+          "en": "Dashubao feint (Lugu–Yuexi–Haitang–Dashubao)"
+        },
+        "description": {
+          "zh": "红一军团第二师第五团等由泸沽经越西、海棠进至大树堡，佯攻富林，牵制川军，掩护主力从安顺场渡河。",
+          "en": "The Fifth Regiment of the Second Division advanced from Lugu through Yuexi and Haitang to Dashubao, feinting toward Fulin to pin Sichuan troops while the main force crossed at Anshunchang."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.283,
+            29.276
+          ],
+          [
+            102.177,
+            29.587
+          ],
+          [
+            102.207,
+            29.675
+          ],
+          [
+            102.245,
+            29.755
+          ],
+          [
+            102.226,
+            29.789
           ],
           [
             102.23,
-            29.91
+            29.914
           ]
         ]
       },
@@ -644,13 +962,15 @@
         "entityId": "central-red-army",
         "startDate": "1935-05-26",
         "endDate": "1935-05-29",
-        "order": 16,
+        "order": 22,
         "segmentType": "advance",
         "name": {
-          "zh": "安顺场—泸定（飞夺泸定桥）"
+          "zh": "安顺场—得妥—兴隆—泸定（飞夺泸定桥）",
+          "en": "Anshunchang–Detuo–Xinglong–Luding (seizing Luding Bridge)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "红军沿大渡河西岸北上，经得妥、加郡、兴隆、冷碛进抵泸定桥；毛泽东等经磨西一线跟进。",
+          "en": "The Red Army moved north along the west bank of the Dadu River through Detuo, Jiajun, Xinglong, and Lengqi to Luding Bridge; Mao Zedong and others followed via Moxi."
         },
         "extensions": {
           "precision": "schematic"
@@ -664,7 +984,7 @@
         "coordinates": [
           [
             102.23,
-            29.91
+            29.914
           ],
           [
             102.76,
@@ -684,7 +1004,7 @@
         "entityId": "central-red-army",
         "startDate": "1935-05-30",
         "endDate": "1935-06-12",
-        "order": 17,
+        "order": 23,
         "segmentType": "advance",
         "name": {
           "zh": "泸定—夹金山"
@@ -720,7 +1040,7 @@
         "entityId": "central-red-army",
         "startDate": "1935-06-13",
         "endDate": "1935-06-18",
-        "order": 18,
+        "order": 24,
         "segmentType": "advance",
         "name": {
           "zh": "夹金山—懋功"
@@ -764,7 +1084,7 @@
         "entityId": "central-red-army",
         "startDate": "1935-06-19",
         "endDate": "1935-08-20",
-        "order": 19,
+        "order": 25,
         "segmentType": "advance",
         "name": {
           "zh": "懋功—毛儿盖"
@@ -804,7 +1124,7 @@
         "entityId": "central-red-army",
         "startDate": "1935-08-21",
         "endDate": "1935-08-31",
-        "order": 20,
+        "order": 26,
         "segmentType": "advance",
         "name": {
           "zh": "毛儿盖—若尔盖（过草地）"
@@ -840,7 +1160,7 @@
         "entityId": "central-red-army",
         "startDate": "1935-09-01",
         "endDate": "1935-09-17",
-        "order": 21,
+        "order": 27,
         "segmentType": "advance",
         "name": {
           "zh": "若尔盖—腊子口"
@@ -876,7 +1196,7 @@
         "entityId": "central-red-army",
         "startDate": "1935-09-17",
         "endDate": "1935-09-18",
-        "order": 22,
+        "order": 28,
         "segmentType": "advance",
         "name": {
           "zh": "腊子口—哈达铺"
@@ -899,8 +1219,8 @@
             34.23
           ],
           [
-            105.0,
-            35.0
+            105,
+            35
           ],
           [
             105.24,
@@ -928,7 +1248,7 @@
         "entityId": "central-red-army",
         "startDate": "1935-09-19",
         "endDate": "1935-10-19",
-        "order": 23,
+        "order": 29,
         "segmentType": "advance",
         "name": {
           "zh": "哈达铺—吴起镇"
@@ -968,7 +1288,7 @@
         "entityId": "central-red-army",
         "startDate": "1935-10-20",
         "endDate": "1935-11-21",
-        "order": 24,
+        "order": 30,
         "segmentType": "advance",
         "name": {
           "zh": "吴起—直罗镇"
@@ -1012,7 +1332,7 @@
         "entityId": "central-red-army",
         "startDate": "1935-11-22",
         "endDate": "1936-10-09",
-        "order": 25,
+        "order": 31,
         "segmentType": "advance",
         "name": {
           "zh": "直罗镇—会宁"
@@ -1048,7 +1368,7 @@
         "entityId": "central-red-army",
         "startDate": "1936-10-10",
         "endDate": "1936-10-22",
-        "order": 26,
+        "order": 32,
         "segmentType": "advance",
         "name": {
           "zh": "会宁—将台堡"

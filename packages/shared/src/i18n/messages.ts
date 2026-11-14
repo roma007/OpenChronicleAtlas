@@ -103,6 +103,8 @@ const zh = {
   'legend.on': '显示',
   'legend.off': '隐藏',
   'legend.routeStyles': '路线样式',
+  'legend.defenseHint': '齿线与方块表示封锁阵地与据点（放大后显示）。',
+  'legend.routeHeadHint': '线头箭头表示路线当前推进到的位置。',
   'legend.filters': '筛选',
   'legend.hint': '与时间轴叠加：只显示已发生且符合条件的事件。',
   'legend.reset': '重置',
@@ -277,6 +279,10 @@ const en: Record<keyof typeof zh, string> = {
   'legend.on': 'On',
   'legend.off': 'Off',
   'legend.routeStyles': 'Route styles',
+  'legend.defenseHint':
+    'Ticks and squares mark defensive lines and strongpoints (shown when zoomed in).',
+  'legend.routeHeadHint':
+    'The arrowhead marks the current head of an advancing route.',
   'legend.filters': 'Filters',
   'legend.hint':
     'Combined with the timeline: only events that have occurred and match the filters are shown.',

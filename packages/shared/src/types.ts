@@ -78,6 +78,10 @@ export interface AtlasRouteProperties {
   segmentType?: RouteSegmentType;
   name?: LocalizedString;
   description?: LocalizedString;
+  /** 地图上的番号短标识，如「粤军 第一集团军」 */
+  label?: LocalizedString;
+  /** 番号标识落点 [lng, lat]，缺省取路线中点 */
+  labelPoint?: [number, number];
   extensions?: Record<string, unknown>;
 }
 

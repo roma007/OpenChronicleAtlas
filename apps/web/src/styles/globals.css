@@ -102,6 +102,39 @@
     animation: atlas-pulse 1.8s ease-out infinite;
   }
 
+  .atlas-strongpoint {
+    display: block;
+    width: 9px;
+    height: 9px;
+    border: 2px solid #f3ead9;
+    border-radius: 1px;
+    background: var(--marker-color, #8c2f24);
+    box-shadow: 0 1px 5px rgba(35, 28, 21, 0.4);
+    pointer-events: none;
+  }
+
+  .atlas-defense-tick {
+    display: block;
+    width: 12px;
+    height: 2px;
+    border-radius: 1px;
+    background: var(--marker-color, #8c2f24);
+    box-shadow: 0 0 0 1px rgba(243, 234, 217, 0.7);
+    pointer-events: none;
+  }
+
+  .atlas-route-head {
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 9px solid var(--marker-color, #8c2f24);
+    filter: drop-shadow(0 0 1.5px rgba(243, 234, 217, 0.95));
+    transform-origin: 50% 60%;
+    pointer-events: none;
+  }
+
   .atlas-scrollbar {
     scrollbar-width: thin;
     scrollbar-color: rgba(140, 47, 36, 0.4) transparent;

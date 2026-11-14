@@ -21,7 +21,7 @@ export const BUNDLED_TEXT: Record<string, BundledTextLoader> = {
   "long-march/events/events.json": () => require("../../../../data/atlases/long-march/events/events.json"),
   "long-march/manifest.json": () => require("../../../../data/atlases/long-march/manifest.json"),
   "long-march/routes/central-red-army.geojson": () => require("../../../../data/atlases/long-march/routes/central-red-army.geojson"),
-  "long-march/routes/kmt-army.geojson": () => require("../../../../data/atlases/long-march/routes/kmt-army.geojson"),
+  "long-march/routes/kmt-forces.geojson": () => require("../../../../data/atlases/long-march/routes/kmt-forces.geojson"),
   "long-march/routes/red-15-army.geojson": () => require("../../../../data/atlases/long-march/routes/red-15-army.geojson"),
   "long-march/routes/red-2-and-4.geojson": () => require("../../../../data/atlases/long-march/routes/red-2-and-4.geojson"),
   "long-march/routes/red-25-army.geojson": () => require("../../../../data/atlases/long-march/routes/red-25-army.geojson"),
@@ -57,13 +57,17 @@ export const BUNDLED_TEXT: Record<string, BundledTextLoader> = {
 
 export const BUNDLED_IMAGES: Record<string, number> = {
   "anti-japanese-war/assets/cover.jpg": require("../../../../data/atlases/anti-japanese-war/assets/cover.jpg"),
+  "anti-japanese-war/assets/cover.png": require("../../../../data/atlases/anti-japanese-war/assets/cover.png"),
   "grand-canal/assets/cover.png": require("../../../../data/atlases/grand-canal/assets/cover.png"),
   "long-march/assets/cover.jpg": require("../../../../data/atlases/long-march/assets/cover.jpg"),
+  "long-march/assets/cover.png": require("../../../../data/atlases/long-march/assets/cover.png"),
   "ming-qing/assets/cover.png": require("../../../../data/atlases/ming-qing/assets/cover.png"),
   "song-yuan/assets/cover.png": require("../../../../data/atlases/song-yuan/assets/cover.png"),
   "sui-tang/assets/cover.png": require("../../../../data/atlases/sui-tang/assets/cover.png"),
   "three-kingdoms/assets/cover.png": require("../../../../data/atlases/three-kingdoms/assets/cover.png"),
   "xu-xiake/assets/cover.png": require("../../../../data/atlases/xu-xiake/assets/cover.png"),
   "xuanzang/assets/cover.jpg": require("../../../../data/atlases/xuanzang/assets/cover.jpg"),
+  "xuanzang/assets/cover.png": require("../../../../data/atlases/xuanzang/assets/cover.png"),
   "zheng-he/assets/cover.jpg": require("../../../../data/atlases/zheng-he/assets/cover.jpg"),
+  "zheng-he/assets/cover.png": require("../../../../data/atlases/zheng-he/assets/cover.png"),
 };

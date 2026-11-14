@@ -94,6 +94,7 @@
 - [ ] 使用 Release 配置 archive，确认无 Dev Menu、无调试浮层
 - [ ] archive 内 `Info.plist` 版本号、Bundle ID、显示名与商店记录一致
 - [ ] 生成 `.ipa` 并通过 Xcode Organizer / Transporter 上传 TestFlight
+- [ ] 上传前执行 `bash scripts/ios-dsyms.sh` 补齐 React / RN 依赖 / Hermes dSYM，消除 `Upload Symbols Failed`
 - [ ] dSYM 已保留并上传（用于崩溃符号化）
 - [ ] 导出合规（Export Compliance）已填写；仅标准 HTTPS 加密时按豁免条款处理
 - [ ] App 图标 1024×1024 无透明、无圆角；启动图正常

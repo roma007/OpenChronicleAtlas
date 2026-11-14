@@ -1,7 +1,7 @@
 # 多商店提交指南（Apple / 华为 / 微软）
 
 - **日期**：2026-11-11
-- **适用版本**：`1.0.0`（M98 起的桌面与移动发布流程；此后每次提交按 `agent.md` 递增 1.0.X）
+- **适用版本**：`1.0.0`（M98 起的桌面与移动发布流程；此后每次提交按 `AGENTS.md` 递增 1.0.X）
 - **关联**：
   - [发布前检查清单](../releases/release-checklist.md)
   - [中文商店元数据](../releases/store-metadata.md)
@@ -122,6 +122,22 @@ open apps/mobile/ios/app.xcworkspace
 ```
 
 在 Xcode 中选择 `Any iOS Device (arm64)` → Product → Archive → Distribute App → App Store Connect。
+
+**上传前补齐 dSYM（建议）**
+
+Expo/RN 默认使用预编译的 `React.framework`、`ReactNativeDependencies.framework` 与 `hermesvm.framework`，它们不带 dSYM，上传时会出现 `Upload Symbols Failed`。先运行一次：
+
+```bash
+bash scripts/ios-dsyms.sh --prepare-only   # 首次会下载约 600MB 官方 dSYM
+```
+
+Archive 之后再运行（不传参数时自动处理最近一次 Archive）：
+
+```bash
+bash scripts/ios-dsyms.sh
+```
+
+脚本会把匹配版本的 dSYM 复制进 `.xcarchive/dSYMs`，并用 UUID 校验；之后在 Organizer 中上传即可。
 
 B. EAS Build：
 

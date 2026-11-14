@@ -84,6 +84,10 @@ export const routeFeatureSchema = z
         segmentType: routeSegmentTypeSchema.optional(),
         name: localizedStringSchema.optional(),
         description: localizedStringSchema.optional(),
+        label: localizedStringSchema.optional(),
+        labelPoint: z
+          .tuple([z.number().min(-180).max(180), z.number().min(-85).max(85)])
+          .optional(),
         extensions: z.record(z.unknown()).optional(),
       })
       .passthrough(),
