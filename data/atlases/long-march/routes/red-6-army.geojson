@@ -61,6 +61,126 @@
         "type": "LineString",
         "coordinates": [
           [
+            110.16,
+            29.4
+          ],
+          [
+            109.55,
+            27.45
+          ],
+          [
+            108.23,
+            27.51
+          ],
+          [
+            106.15,
+            26.9
+          ],
+          [
+            106.03,
+            27.03
+          ],
+          [
+            105.6,
+            27.2
+          ],
+          [
+            105.51,
+            27.15
+          ],
+          [
+            105.29,
+            27.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-6-army",
+        "startDate": "1935-11-19",
+        "endDate": "1936-02-26",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "桑植—湘中—石阡—鸭池河—黔西—大定—毕节（红六军团）",
+          "en": "Sangzhi–central Hunan–Shiqian–Yachihe–Qianxi–Dading–Bijie (Sixth Army Group)"
+        },
+        "description": {
+          "zh": "红六军团随红二、六军团主力由桑植突围，经湘中、湘西入黔，过石阡、鸭池河，进占黔西、大定、毕节。路线为示意，待按行军日志细化。",
+          "en": "The Sixth Army Group moved with the main force from Sangzhi through central and western Hunan into Guizhou, past Shiqian and the Yachihe crossing, and occupied Qianxi, Dading, and Bijie. The route is schematic and awaits refinement from march logs."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.29,
+            27.3
+          ],
+          [
+            104.73,
+            27.12
+          ],
+          [
+            104.47,
+            25.71
+          ],
+          [
+            103.8,
+            25.5
+          ],
+          [
+            102.644,
+            25.66
+          ],
+          [
+            101.55,
+            25.03
+          ],
+          [
+            100.23,
+            25.6
+          ],
+          [
+            100.23,
+            26.86
+          ],
+          [
+            99.97,
+            26.87
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-6-army",
+        "startDate": "1936-02-27",
+        "endDate": "1936-04-25",
+        "order": 3,
+        "segmentType": "advance",
+        "name": {
+          "zh": "毕节—乌蒙山—盘县—普渡河—石鼓（红六军团）",
+          "en": "Bijie–Wumeng Mountains–Panxian–Pudu River–Shigu (Sixth Army Group)"
+        },
+        "description": {
+          "zh": "红六军团随主力撤离毕节，在乌蒙山区回旋，经盘县、普渡河、丽江石鼓渡金沙江。路线为示意，待按行军日志细化。",
+          "en": "The Sixth Army Group withdrew from Bijie with the main force, maneuvered in the Wumeng Mountains, and moved via Panxian and the Pudu River to Shigu in Lijiang for the Jinsha River crossing. The route is schematic and awaits refinement from march logs."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             99.97,
             26.87
           ],
@@ -110,15 +230,15 @@
         "entityId": "red-6-army",
         "startDate": "1936-04-25",
         "endDate": "1936-06-23",
-        "order": 2,
+        "order": 4,
         "segmentType": "advance",
         "name": {
           "zh": "石鼓—中甸—乡城—稻城—理塘—瞻化—甘孜（红六军团）",
           "en": "Shigu–Zhongdian–Xiangcheng–Daocheng–Litang–Xinlong–Garzê (Sixth Army Group)"
         },
         "description": {
-          "zh": "红六军团由石鼓渡金沙江，翻越雅哈雪山进中甸，再翻越大、小雪山、沙鲁里山，经乡城、稻城、理化（今理塘）、瞻化（今新龙）北上甘孜。1935 年 11 月至 1936 年 4 月湘黔滇段仍待补。路线为示意，待按行军日志细化。",
-          "en": "The Sixth Army Group crossed the Jinsha River at Shigu, crossed Yaha Snow Mountain to Zhongdian, then crossed the Greater and Lesser Snow Mountains and the Shaluli Mountains via Xiangcheng, Daocheng, Litang, and Xinlong to Garzê. The Hunan–Guizhou–Yunnan section from November 1935 to April 1936 is still to be added. The route is schematic and awaits refinement from march logs."
+          "zh": "红六军团由石鼓渡金沙江，翻越雅哈雪山进中甸，再翻越大、小雪山、沙鲁里山，经乡城、稻城、理化（今理塘）、瞻化（今新龙）北上甘孜。路线为示意，待按行军日志细化。",
+          "en": "The Sixth Army Group crossed the Jinsha River at Shigu, crossed Yaha Snow Mountain to Zhongdian, then crossed the Greater and Lesser Snow Mountains and the Shaluli Mountains via Xiangcheng, Daocheng, Litang, and Xinlong to Garzê. The route is schematic and awaits refinement from march logs."
         },
         "extensions": {
           "precision": "schematic"

@@ -9072,7 +9072,8 @@
       }
     },
     "entityIds": [
-      "red-2-army"
+      "red-2-army",
+      "red-6-army"
     ],
     "category": "战斗",
     "summary": {
@@ -9104,6 +9105,13 @@
         "author": "中共中央党史研究室第一研究部",
         "year": 2006,
         "note": "用于核对红二、六军团长征时间线"
+      },
+      {
+        "title": "《红二、六军团长征入黔第一仗》",
+        "author": "玉屏县委党史研究室",
+        "year": 2021,
+        "note": "用于核对便水战役参战部队与红六军团行动",
+        "url": "https://www.yp.gov.cn/contents/2021/04/27/yp-171136.html"
       }
     ],
     "relatedIds": [
@@ -9144,7 +9152,8 @@
       }
     },
     "entityIds": [
-      "red-2-army"
+      "red-2-army",
+      "red-6-army"
     ],
     "category": "渡口",
     "summary": {
@@ -9177,6 +9186,13 @@
         "year": 2026,
         "note": "用于核对鸭池河 2 月 2 日、盘县会议与北上决策",
         "url": "http://szb.eyesnews.cn/pc/cont/202610/22/content_191144.html"
+      },
+      {
+        "title": "《红二、红六军团长征在黔西》",
+        "author": "毕节文明网",
+        "year": 2026,
+        "note": "用于核对鸭池河、黔西、大定、毕节段行程与将军山战斗背景",
+        "url": "http://gzbj.wenming.cn/tdbj/202610/t20261012_9377525.html"
       }
     ],
     "relatedIds": [
@@ -9256,6 +9272,80 @@
       "red2-front-1936-07"
     ],
     "endDate": "1936-07-05",
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "jiangjunshan-1936-02",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "将军山战役",
+      "en": "Battle of Jiangjunshan"
+    },
+    "aliases": [
+      {
+        "zh": "将军山伏击战",
+        "en": "Jiangjunshan Ambush"
+      },
+      {
+        "zh": "七家田战斗",
+        "en": "Qijiatian Battle"
+      }
+    ],
+    "date": "1936-02-19",
+    "endDate": "1936-02-26",
+    "location": {
+      "lng": 105.51,
+      "lat": 27.15,
+      "place": {
+        "zh": "贵州大方将军山、七家田一带",
+        "en": "Jiangjunshan and Qijiatian area, Dafang, Guizhou"
+      }
+    },
+    "entityIds": [
+      "red-2-army",
+      "red-6-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红十七师在将军山、七家田伏击万耀煌纵队敢死队，歼其六个连。",
+      "en": "The 17th Division ambushed Wan Yaohuang’s dare-to-die detachment at Jiangjunshan and Qijiatian, destroying six companies."
+    },
+    "description": {
+      "zh": "1936 年 2 月 19 日上午，红六军团第十七师进至大定以西的将军山、七家田一带，发现万耀煌纵队一支六个连的敢死队沿清毕公路前进，萧克当即命令第五十五团、第五十一团从公路东侧攻击，第四十九团从西侧插入，红二军团第四师第十一团一个营及第五师一部也参加战斗。经约一个半小时激战，将该敢死队击溃，毙敌 100 余人、俘敌 300 余人，缴步枪 300 余支、轻机枪 9 挺。战后红十七师占领将军山构筑工事，阻击敌军至 2 月 26 日，掩护毕节方面休整。本坐标为将军山、七家田一带代表点。",
+      "en": "On the morning of 19 February 1936 the 17th Division of the Sixth Army Group reached Jiangjunshan and Qijiatian west of Dading and spotted a six-company dare-to-die detachment of Wan Yaohuang’s column moving along the Qingbi highway. Xiao Ke ordered the 55th and 51st Regiments to attack from the east side of the road and the 49th Regiment to cut in from the west; one battalion of the 11th Regiment, 4th Division, Second Army Group and part of the 5th Division also took part. After about ninety minutes the detachment was routed: more than 100 enemy killed, over 300 captured, and more than 300 rifles and nine light machine guns taken. The 17th Division then occupied Jiangjunshan and built positions, holding off the enemy until 26 February to cover the rest and consolidation at Bijie. The coordinate is a representative point in the Jiangjunshan–Qijiatian area."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《将军山上立将军——萧克将军长征中指挥的贵州大方将军山战役》",
+        "author": "贵州文化网",
+        "year": 2023,
+        "note": "用于核对将军山地形、红十七师伏击与 2 月 26 日撤离",
+        "url": "http://www.gzculture.net/lskg/red/2023-05-07/24089.html"
+      },
+      {
+        "title": "《第五章 回旋在乌蒙山中》",
+        "author": "新浪读书",
+        "year": 2006,
+        "note": "用于核对将军山战斗经过、战果与红二军团参战部队",
+        "url": "http://news.sina.com.cn/c/2006-09-26/152211109741.shtml"
+      },
+      {
+        "title": "《红二、红六军团长征在黔西》",
+        "author": "毕节文明网",
+        "year": 2026,
+        "note": "用于核对鸭池河、黔西、大定、毕节段行程与将军山战斗背景",
+        "url": "http://gzbj.wenming.cn/tdbj/202610/t20261012_9377525.html"
+      }
+    ],
+    "relatedIds": [
+      "yachihe-1936-02",
+      "wumeng-1936-02",
+      "panxian-meeting-1936-03"
+    ],
     "importance": 1,
     "extensions": {
       "locationPrecision": "approx"
@@ -9445,7 +9535,8 @@
       }
     },
     "entityIds": [
-      "red-2-army"
+      "red-2-army",
+      "red-6-army"
     ],
     "category": "战役",
     "summary": {
@@ -9475,6 +9566,12 @@
         "author": "中国人民解放军历史资料丛书编审委员会",
         "year": 2016,
         "note": "用于核对红二、六军团与国民党军行动"
+      },
+      {
+        "title": "《十年内战与红军长征·红二方面军长征》",
+        "author": "荣维木等",
+        "note": "用于核对桑植出发、石阡、鸭池河、盘县、石鼓时间线",
+        "url": "http://rongwp.com/8life/book/zijiachangzhen/10nian14.html"
       }
     ],
     "relatedIds": [
@@ -9644,7 +9741,8 @@
       }
     },
     "entityIds": [
-      "red-2-army"
+      "red-2-army",
+      "red-6-army"
     ],
     "category": "重要会议",
     "summary": {
@@ -9677,6 +9775,12 @@
         "year": 2016,
         "note": "用于核对便水战斗、鸭池河、盘县会议与红二、六军团转移时间线",
         "url": "http://dangshi.people.com.cn/n1/2016/0902/c406330-28687948.html"
+      },
+      {
+        "title": "《十年内战与红军长征·红二方面军长征》",
+        "author": "荣维木等",
+        "note": "用于核对桑植出发、石阡、鸭池河、盘县、石鼓时间线",
+        "url": "http://rongwp.com/8life/book/zijiachangzhen/10nian14.html"
       }
     ],
     "relatedIds": [
@@ -10140,7 +10244,8 @@
       }
     },
     "entityIds": [
-      "red-2-army"
+      "red-2-army",
+      "red-6-army"
     ],
     "category": "战斗",
     "summary": {
@@ -10173,6 +10278,12 @@
         "year": 2016,
         "note": "用于核对 4 月 8 日普渡河渡口、4 月 9 日六甲之战与滇军追击",
         "url": "https://www.yndaily.com/html/2016/yaowenyunnan_1024/104538.html"
+      },
+      {
+        "title": "《十年内战与红军长征·红二方面军长征》",
+        "author": "荣维木等",
+        "note": "用于核对桑植出发、石阡、鸭池河、盘县、石鼓时间线",
+        "url": "http://rongwp.com/8life/book/zijiachangzhen/10nian14.html"
       }
     ],
     "relatedIds": [
@@ -10202,7 +10313,8 @@
       }
     },
     "entityIds": [
-      "red-2-army"
+      "red-2-army",
+      "red-6-army"
     ],
     "category": "行军",
     "summary": {
@@ -10232,6 +10344,12 @@
         "author": "中国人民解放军历史资料丛书编审委员会",
         "year": 2016,
         "note": "用于核对红二、六军团与国民党军行动"
+      },
+      {
+        "title": "《十年内战与红军长征·红二方面军长征》",
+        "author": "荣维木等",
+        "note": "用于核对桑植出发、石阡、鸭池河、盘县、石鼓时间线",
+        "url": "http://rongwp.com/8life/book/zijiachangzhen/10nian14.html"
       }
     ],
     "relatedIds": [
