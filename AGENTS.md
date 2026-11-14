@@ -287,6 +287,13 @@ Atlas 与 OpenQuizGo 共用一台 ECS、一个 nginx 容器、一份磁盘。协
 | `.githooks/pre-commit` | 每次提交 | 提示（不阻塞；见下方说明） |
 | `pnpm release` | 每次发布 | **硬拦**：有未处理请求必须显式 `--ack-open` |
 | `status.sh` | 任何服务器操作前后 | 一次性看到版本、漂移、待办 |
+| 交互式登录提示 | `ssh quizgo` 登录时 | 一行计数：`[/srv/ops] 待办请求：atlas N 条 · quizgo M 条` |
+
+登录提示位于服务器 `~/.bashrc.d/ops-inbox.sh`，**只在交互式 shell** 生效（`$-` 含 `i`），
+所以 `ssh quizgo '命令'`、`rsync` 等非交互路径完全不受影响（已实测）。删该文件即关闭。
+
+> sshd 的 `Banner` 方案已评估并**否决**：Banner 在认证前发送，公网可见，只能放计数；
+> 且需改 `sshd_config` 并 reload sshd。同样的可见性用一个 `~/.bashrc.d` 文件就能拿到，风险为零。
 
 提交钩子只提示、不拦截，是因为请求可能长期挂在对方那里——不能让它堵住本仓库的正常提交。
 真正拦人的是发布脚本：那次动作会改变线上，值得停下来看一眼。

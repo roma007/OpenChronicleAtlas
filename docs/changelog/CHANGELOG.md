@@ -3,6 +3,23 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.12] - 2026-11-14
+
+### Added
+- 服务器 `~/.bashrc.d/ops-inbox.sh`：**交互式登录**时打印一行待办计数
+  （`[/srv/ops] 待办请求：atlas N 条 · quizgo M 条`）。只在交互式 shell 生效，
+  `ssh quizgo '命令'` 与 `rsync` 完全不受影响（已实测 A/B 对比 + rsync 冒烟）。
+
+### Decided
+- **否决** sshd 动态 `Banner`：认证前发送、公网可见、只能放计数，且要改 `sshd_config` 并 reload。
+  同等可见性用 `~/.bashrc.d` 一个文件即可，风险为零。
+- `AGENTS.md` §8「为什么不会漏」从三条触点扩为四条，并记录 Banner 的否决理由。
+
+### Docs
+- `docs/conversations/2026-11-14-M119-验收QuizGo的1.0.17接入.md`（追加 Banner 决策）
+
+---
+
 ## [v1.0.11] - 2026-11-14
 
 ### Verified
