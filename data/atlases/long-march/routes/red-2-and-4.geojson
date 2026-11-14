@@ -793,6 +793,64 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.3,
+            33.9
+          ],
+          [
+            106.08,
+            33.77
+          ],
+          [
+            105.822,
+            34.306
+          ],
+          [
+            105.5,
+            34.31
+          ],
+          [
+            105.115,
+            34.756
+          ],
+          [
+            104.938,
+            35.036
+          ],
+          [
+            105.248,
+            35.208
+          ],
+          [
+            105.837,
+            35.818
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1936-10-04",
+        "endDate": "1936-10-22",
+        "order": 11,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "两当—徽县—娘娘坝—罗家堡—磐安—榜罗—通渭—将台堡（红二方面军北撤）",
+          "en": "Liangdang–Huixian–Niangniangba–Luojiabao–Pan’an–Bangluo–Tongwei–Jiangtaibao (Second Front Army withdrawal)"
+        },
+        "description": {
+          "zh": "红二方面军由两当、徽县北撤，经天水娘娘坝、礼县罗家堡，在甘谷磐安、礼辛一带强渡渭河，经通渭榜罗镇北上，10 月 22 日到达将台堡与红一方面军会师。路线为示意，待按行军日志细化。",
+          "en": "The Second Front Army withdrew north from Liangdang and Huixian, passed Niangniangba in Tianshui and Luojiabao in Lixian, forced the Wei River around Pan’an and Lixin in Gangu, moved north via Bangluo in Tongwei, and reached Jiangtaibao on 22 October to meet the First Front Army. The route is schematic and awaits refinement from march logs."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

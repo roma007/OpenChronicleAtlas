@@ -12127,6 +12127,128 @@
     }
   },
   {
+    "id": "niangniangba-1936-10",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "娘娘坝战斗",
+      "en": "Battle of Niangniangba"
+    },
+    "aliases": [
+      {
+        "zh": "天水娘娘坝夜袭",
+        "en": "Night Raid at Niangniangba, Tianshui"
+      }
+    ],
+    "date": "1936-10-05",
+    "location": {
+      "lng": 105.822,
+      "lat": 34.306,
+      "place": {
+        "zh": "甘肃天水娘娘坝",
+        "en": "Niangniangba, Tianshui, Gansu"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红六军第十六师夜袭娘娘坝，师长张辉负伤后牺牲。",
+      "en": "The 16th Division of the Sixth Army raided Niangniangba; division commander Zhang Hui was wounded and died."
+    },
+    "description": {
+      "zh": "1936 年 10 月 4 日，红二方面军分两路北撤，红六军由两当先行动身。10 月 5 日，红六军第十六师进至天水李子园，师长张辉率一个连夜袭娘娘坝，击溃守敌一个营，掩护全军渡过渭河封锁线。张辉在战斗中负重伤，撤至李子园普华寺后牺牲，年仅 25 岁。本坐标为娘娘坝代表点。",
+      "en": "On 4 October 1936 the Second Front Army withdrew north in two columns, the Sixth Army leading from Liangdang. On 5 October the 16th Division reached Ziyuan in Tianshui; division commander Zhang Hui led a company in a night raid on Niangniangba, routed a garrison battalion, and covered the army’s crossing of the Wei River blockade line. Zhang Hui was badly wounded and died at Puhua Monastery in Ziyuan; he was 25. The coordinate is a representative point at Niangniangba."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红二方面军进入天水》",
+        "author": "中共天水市委党史和地方志研究室",
+        "year": 2026,
+        "note": "用于核对娘娘坝、罗家堡、磐安与礼辛渡渭河的日期和路线",
+        "url": "https://www.tianshui.gov.cn/dsb/info/1973/28682.htm"
+      },
+      {
+        "title": "《血沃陇原 英魂永驻》",
+        "author": "中国甘肃网",
+        "year": 2026,
+        "note": "用于核对张辉牺牲于李子园、晏福生负伤与渭河渡河损失",
+        "url": "http://gansu.gscn.com.cn/system/2026/08/13/013540422.shtml"
+      }
+    ],
+    "relatedIds": [
+      "luojiabao-1936-10",
+      "weishui-1936-10",
+      "jiangtaibao-1936-10"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "luojiabao-1936-10",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "罗家堡战斗",
+      "en": "Battle of Luojiabao"
+    },
+    "aliases": [
+      {
+        "zh": "龙池湾战斗",
+        "en": "Longchiwan Battle"
+      }
+    ],
+    "date": "1936-10-07",
+    "location": {
+      "lng": 105.5,
+      "lat": 34.31,
+      "place": {
+        "zh": "甘肃礼县罗家堡龙池湾一带",
+        "en": "Luojiabao and Longchiwan area, Lixian, Gansu"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红六军在罗家堡龙池湾遭两路敌军夹击，第十六师政委晏福生负重伤。",
+      "en": "The Sixth Army was caught between two enemy columns at Luojiabao–Longchiwan; 16th Division commissar Yan Fusheng was gravely wounded."
+    },
+    "description": {
+      "zh": "1936 年 10 月 7 日，红六军冒雨由天水向礼县前进，途经罗家堡龙池湾一带时突遭两路敌军夹击。红军边打边走，第十六师政委晏福生在战斗中身负重伤，后与部队失散，历尽艰险返回部队并失去右臂。红六军主力突围后继续北上，10 月 8 日与左纵队在礼县固城会合。本坐标为罗家堡、龙池湾一带代表点。",
+      "en": "On 7 October 1936 the Sixth Army marched in rain from Tianshui toward Lixian and was suddenly caught between two enemy columns near Luojiabao and Longchiwan. Fighting as it moved, the army suffered heavy casualties; Yan Fusheng, political commissar of the 16th Division, was gravely wounded, became separated from the unit, and eventually rejoined it after losing his right arm. The main force broke through and continued north, joining the left column at Gucheng in Lixian on 8 October. The coordinate is a representative point in the Luojiabao–Longchiwan area."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红二方面军进入天水》",
+        "author": "中共天水市委党史和地方志研究室",
+        "year": 2026,
+        "note": "用于核对娘娘坝、罗家堡、磐安与礼辛渡渭河的日期和路线",
+        "url": "https://www.tianshui.gov.cn/dsb/info/1973/28682.htm"
+      },
+      {
+        "title": "《血沃陇原 英魂永驻》",
+        "author": "中国甘肃网",
+        "year": 2026,
+        "note": "用于核对张辉牺牲于李子园、晏福生负伤与渭河渡河损失",
+        "url": "http://gansu.gscn.com.cn/system/2026/08/13/013540422.shtml"
+      }
+    ],
+    "relatedIds": [
+      "niangniangba-1936-10",
+      "weishui-1936-10",
+      "jiangtaibao-1936-10"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "huining-1936-10",
     "atlasId": "long-march",
     "name": {
@@ -12183,6 +12305,68 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "weishui-1936-10",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "强渡渭河",
+      "en": "Forcing the Wei River"
+    },
+    "aliases": [
+      {
+        "zh": "红二方面军北渡渭河",
+        "en": "Second Front Army Crossing the Wei River"
+      }
+    ],
+    "date": "1936-10-09",
+    "endDate": "1936-10-11",
+    "location": {
+      "lng": 105.115,
+      "lat": 34.756,
+      "place": {
+        "zh": "甘肃甘谷磐安镇一带渭河渡口",
+        "en": "Wei River crossings around Pan’an, Gangu, Gansu"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红二方面军在磐安、礼辛一带强渡渭河，摆脱追敌后北上通渭。",
+      "en": "The Second Front Army forced the Wei River around Pan’an and Lixin, escaped its pursuers, and moved north to Tongwei."
+    },
+    "description": {
+      "zh": "1936 年 10 月 9 日至 11 日，红二方面军左、右纵队在甘谷磐安镇、礼辛镇一带就近选择渡口强渡渭河。时值深秋雨季，上游暴雨致河水暴涨，部分行至河心的指战员被洪水卷走；红军昼夜兼程，于 10 月 11 日在礼辛镇陈家庄一带集结完毕，随后经通渭榜罗镇北上，10 月 22 日到达将台堡与红一方面军会师。贺龙后来总结称「过渭河，狼狈极了」。本坐标为磐安镇渡口代表点。",
+      "en": "From 9 to 11 October 1936 the Second Front Army’s left and right columns forced the Wei River at the nearest crossings around Pan’an and Lixin in Gangu. It was the autumn rainy season; upstream storms raised the river and swept away some men caught midstream. Marching day and night, the army assembled at Chenjiazhuang near Lixin on 11 October, then moved north via Bangluo in Tongwei and reached Jiangtaibao on 22 October to meet the First Front Army. He Long later summed up the crossing as “utterly wretched.” The coordinate is a representative point at the Pan’an crossing."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红二方面军进入天水》",
+        "author": "中共天水市委党史和地方志研究室",
+        "year": 2026,
+        "note": "用于核对娘娘坝、罗家堡、磐安与礼辛渡渭河的日期和路线",
+        "url": "https://www.tianshui.gov.cn/dsb/info/1973/28682.htm"
+      },
+      {
+        "title": "《红二方面军长征在甘肃》",
+        "author": "中共甘肃省委党史研究室 / 甘肃党史网",
+        "year": 2010,
+        "note": "用于核对 10 月 4 日北撤、渭河封锁线与将台堡会师",
+        "url": "http://www.gsds.gov.cn/wenxianbianji/20100727/2224386506bc3c.htm"
+      }
+    ],
+    "relatedIds": [
+      "luojiabao-1936-10",
+      "jiangtaibao-1936-10",
+      "huining-1936-10"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "jiangtaibao-1936-10",
