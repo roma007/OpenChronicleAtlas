@@ -2093,6 +2093,10 @@
       "ferry-jiangjiehe-1935-01",
       "ferry-huilongchang-1935-01",
       "ferry-chashanguan-1935-01",
+      "ferry-sunjiadu-1935-01",
+      "ferry-taozitai-1935-01",
+      "ferry-nanmudu-1935-01",
+      "ferry-yuanjiadu-1935-01",
       "kmt-wujiang-defense-1935-01",
       "houchang-1934-12",
       "zunyi-1935-01"
@@ -2168,6 +2172,75 @@
       "kmt-wujiang-defense-1935-01"
     ],
     "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "ferry-yuanjiadu-1935-01",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "袁家渡渡口",
+      "en": "Yuanjiadu Ferry"
+    },
+    "aliases": [
+      {
+        "zh": "袁家渡（今沿江渡）",
+        "en": "Yuanjiadu (present-day Yanjiang Ferry)"
+      }
+    ],
+    "date": "1935-01-01",
+    "endDate": "1935-01-04",
+    "location": {
+      "lng": 107.46,
+      "lat": 27.32,
+      "place": {
+        "zh": "贵州乌江袁家渡（今沿江渡）",
+        "en": "Yuanjiadu (present-day Yanjiang Ferry) on the Wu River, Guizhou"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "渡口",
+    "summary": {
+      "zh": "红 1 师在袁家渡等渡口组织佯渡与侦察，红 9 军团担任侧后掩护。",
+      "en": "The 1st Division feinted and reconnoitered at Yuanjiadu and nearby ferries while the 9th Army Corps covered the flank."
+    },
+    "description": {
+      "zh": "1935 年 1 月 1 日，红 1 师兵分几路，在袁家渡、梁家渡、回龙渡、沙湾等渡口组织强渡，因对岸守军火力与江水湍急未获成功；袁家渡一带由川南边防第一旅易少荃部驻防。中革军委同时规定红 9 军团在回龙场、袁家渡及其以北地区掩护红 1 军团侧后。袁家渡因此更多承担佯渡、侦察与掩护任务，主渡点仍在回龙场、江界河、茶山关。本坐标为袁家渡代表点。",
+      "en": "On 1 January 1935 the 1st Division tried crossings at several ferries including Yuanjiadu, Liangjiadu, Huilongdu, and Shawan, but enemy fire and the swift current defeated the attempts; the Yuanjiadu area was held by Yi Shaokun’s 1st Border Defence Brigade. The CMC also assigned the 9th Army Corps to cover the flank of the 1st Army Corps at Huilongchang, Yuanjiadu, and points north. Yuanjiadu therefore served mainly for feints, reconnaissance, and flank cover, while the main crossings remained at Huilongchang, Jiangjiehe, and Chashanguan. The coordinate is a representative point at Yuanjiadu."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《英雄廻龙渡》",
+        "author": "新报网",
+        "year": 2025,
+        "note": "用于核对侯之担部防御部署与袁家渡守军",
+        "url": "http://www.cnnmc.com/news/2025/0104/754.shtml"
+      },
+      {
+        "title": "《转折先导：中央红军突破乌江的重大意义》",
+        "author": "贵州政协报",
+        "year": 2021,
+        "note": "用于核对孙家渡、袁家渡、桃子台、楠木渡的渡江经过与部队",
+        "url": "https://www.gzszx.gov.cn/gzzxb/web/doc/detail/d_1423833412141088"
+      },
+      {
+        "title": "《乌江：红军在这里开始反攻》",
+        "author": "新华网",
+        "year": 2019,
+        "note": "用于核对三个主渡口与 1 月 1—6 日渡江",
+        "url": "https://www.xinhuanet.com/politics/2019-07/10/c_1124736075.htm"
+      }
+    ],
+    "relatedIds": [
+      "wujiang-1935-01",
+      "ferry-huilongchang-1935-01",
+      "kmt-wujiang-defense-1935-01"
+    ],
+    "importance": 3,
     "extensions": {
       "locationPrecision": "approx"
     }
@@ -2308,6 +2381,204 @@
       "kmt-wujiang-defense-1935-01"
     ],
     "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "ferry-sunjiadu-1935-01",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "孙家渡渡口",
+      "en": "Sunjiadu Ferry"
+    },
+    "aliases": [
+      {
+        "zh": "孙家渡",
+        "en": "Sunjia Ferry"
+      }
+    ],
+    "date": "1935-01-03",
+    "location": {
+      "lng": 107.25,
+      "lat": 27.35,
+      "place": {
+        "zh": "贵州瓮安珠藏附近乌江孙家渡",
+        "en": "Sunjiadu on the Wu River near Zhuzang, Weng’an, Guizhou"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "渡口",
+    "summary": {
+      "zh": "红 3 军团第 5 师第 13 团在孙家渡强渡乌江，打死黔军机炮营长。",
+      "en": "The 13th Regiment of the 3rd Army Corps’ 5th Division forced the Wu River at Sunjiadu, killing the Guizhou machine-gun battalion commander."
+    },
+    "description": {
+      "zh": "1935 年 1 月 3 日上午，红 3 军团第 5 师第 13 团在孙家渡再次组织强渡，以炮火轰击北岸工事，打死黔军机炮营长赵宪群，敌军心动摇。红军一部登上北岸，与黔军第五团第一营激战并重创该营，但因过去兵力太少不能立足，一度撤回南岸。当日下午，红军把上游预制的竹筏浮桥横送过江，南岸两三千人由浮桥冲锋，守敌被迫向遵义撤退；红军经珠藏包抄江界河守敌后路。本坐标为孙家渡代表点。",
+      "en": "On the morning of 3 January 1935 the 13th Regiment of the 5th Division, Third Army Corps, renewed the assault at Sunjiadu, shelling the north-bank works and killing Zhao Xianqun, the Guizhou machine-gun battalion commander, which shook enemy morale. Part of the Red Army gained the north bank and battered the 1st Battalion of the Guizhou 5th Regiment, but was too few to hold and withdrew to the south bank. That afternoon the Red Army floated a prefabricated bamboo-raft bridge across upstream; two to three thousand men charged over it, forcing the defenders back toward Zunyi, and the Red Army moved via Zhuzang to cut off the Jiangjiehe defenders’ rear. The coordinate is a representative point at Sunjiadu."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《转折先导：中央红军突破乌江的重大意义》",
+        "author": "贵州政协报",
+        "year": 2021,
+        "note": "用于核对孙家渡、袁家渡、桃子台、楠木渡的渡江经过与部队",
+        "url": "https://www.gzszx.gov.cn/gzzxb/web/doc/detail/d_1423833412141088"
+      },
+      {
+        "title": "《自驾重走长征路寻访专集（49）——乌江茶山关、楠木渡渡口》",
+        "author": "田竞 / 中红网",
+        "year": 2015,
+        "note": "用于核对孙家渡强渡、桃子台与楠木渡渡江细节",
+        "url": "https://www.crt.com.cn/news2007/news/TIANJINGDL/152595616A3K25G63J147IJKCE6GA.html"
+      },
+      {
+        "title": "《英雄廻龙渡》",
+        "author": "新报网",
+        "year": 2025,
+        "note": "用于核对侯之担部防御部署与袁家渡守军",
+        "url": "http://www.cnnmc.com/news/2025/0104/754.shtml"
+      }
+    ],
+    "relatedIds": [
+      "wujiang-1935-01",
+      "ferry-jiangjiehe-1935-01",
+      "ferry-taozitai-1935-01"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "ferry-taozitai-1935-01",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "桃子台渡口",
+      "en": "Taozitai Ferry"
+    },
+    "aliases": [
+      {
+        "zh": "桃子台",
+        "en": "Taozitai"
+      }
+    ],
+    "date": "1935-01-04",
+    "location": {
+      "lng": 106.98,
+      "lat": 27.31,
+      "place": {
+        "zh": "贵州开阳乌江桃子台渡口",
+        "en": "Taozitai Ferry on the Wu River, Kaiyang, Guizhou"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "渡口",
+    "summary": {
+      "zh": "红 3 军团第 4 师第 10 团在桃子台渡口开始渡江。",
+      "en": "The 10th Regiment of the 4th Division, Third Army Corps, began crossing at Taozitai."
+    },
+    "description": {
+      "zh": "1935 年 1 月 3 日，红 3 军团第 4 师第 10 团进至桃子台渡口，守敌已不战而逃，但渡船被拖向北岸沉入水中。1 月 4 日红军在桃子台组织过江，因水深流急、船只少，一整天才渡过约一个团；第 4、5、6 师随即转至下游茶山关、楠木渡同时渡江。本坐标为桃子台渡口代表点。",
+      "en": "On 3 January 1935 the 10th Regiment of the 4th Division, Third Army Corps, reached Taozitai; the defenders had fled, but the boats had been towed to the north bank and sunk. On 4 January the Red Army began crossing at Taozitai; because the water was deep and swift and boats scarce, only about one regiment crossed in a whole day, so the 4th, 5th, and 6th Divisions shifted downstream to cross simultaneously at Chashanguan and Nanmudu. The coordinate is a representative point at Taozitai."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《自驾重走长征路寻访专集（49）——乌江茶山关、楠木渡渡口》",
+        "author": "田竞 / 中红网",
+        "year": 2015,
+        "note": "用于核对孙家渡强渡、桃子台与楠木渡渡江细节",
+        "url": "https://www.crt.com.cn/news2007/news/TIANJINGDL/152595616A3K25G63J147IJKCE6GA.html"
+      },
+      {
+        "title": "《转折先导：中央红军突破乌江的重大意义》",
+        "author": "贵州政协报",
+        "year": 2021,
+        "note": "用于核对孙家渡、袁家渡、桃子台、楠木渡的渡江经过与部队",
+        "url": "https://www.gzszx.gov.cn/gzzxb/web/doc/detail/d_1423833412141088"
+      }
+    ],
+    "relatedIds": [
+      "ferry-chashanguan-1935-01",
+      "ferry-nanmudu-1935-01",
+      "ferry-sunjiadu-1935-01"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "ferry-nanmudu-1935-01",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "楠木渡渡口",
+      "en": "Nanmudu Ferry"
+    },
+    "aliases": [
+      {
+        "zh": "楠木渡",
+        "en": "Nanmu Ferry"
+      }
+    ],
+    "date": "1935-01-04",
+    "endDate": "1935-01-06",
+    "location": {
+      "lng": 107.008,
+      "lat": 27.29,
+      "place": {
+        "zh": "贵州开阳乌江楠木渡渡口",
+        "en": "Nanmudu Ferry on the Wu River, Kaiyang, Guizhou"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "渡口",
+    "summary": {
+      "zh": "红 3 军团由楠木渡渡江，进入遵义尚嵇一带。",
+      "en": "The Third Army Corps crossed at Nanmudu and entered the Shangji area of Zunyi."
+    },
+    "description": {
+      "zh": "1935 年 1 月 4 日至 6 日，红 3 军团在桃子台渡江受阻后，转至下游茶山关、楠木渡同时组织渡江。楠木渡与茶山关之间江面较宽，红军以船渡与浮桥并用，渡过后经尚嵇进入遵义县境；1 月 5 日红 3 军团进至懒板凳（今南白镇）。至 1 月 6 日，中央红军全部渡过乌江。本坐标为楠木渡渡口代表点。",
+      "en": "From 4 to 6 January 1935, after the crossing at Taozitai stalled, the Third Army Corps shifted downstream to cross simultaneously at Chashanguan and Nanmudu. At Nanmudu the river was wider; the Red Army used both boats and a pontoon bridge, then passed through Shangji into Zunyi county, reaching Lanbandeng (present-day Nanbai) on 5 January. By 6 January the entire Central Red Army had crossed the Wu River. The coordinate is a representative point at Nanmudu."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《转折先导：中央红军突破乌江的重大意义》",
+        "author": "贵州政协报",
+        "year": 2021,
+        "note": "用于核对孙家渡、袁家渡、桃子台、楠木渡的渡江经过与部队",
+        "url": "https://www.gzszx.gov.cn/gzzxb/web/doc/detail/d_1423833412141088"
+      },
+      {
+        "title": "《自驾重走长征路寻访专集（49）——乌江茶山关、楠木渡渡口》",
+        "author": "田竞 / 中红网",
+        "year": 2015,
+        "note": "用于核对孙家渡强渡、桃子台与楠木渡渡江细节",
+        "url": "https://www.crt.com.cn/news2007/news/TIANJINGDL/152595616A3K25G63J147IJKCE6GA.html"
+      },
+      {
+        "title": "《乌江：红军在这里开始反攻》",
+        "author": "新华网",
+        "year": 2019,
+        "note": "用于核对三个主渡口与 1 月 1—6 日渡江",
+        "url": "https://www.xinhuanet.com/politics/2019-07/10/c_1124736075.htm"
+      }
+    ],
+    "relatedIds": [
+      "ferry-chashanguan-1935-01",
+      "ferry-taozitai-1935-01",
+      "wujiang-1935-01"
+    ],
+    "importance": 2,
     "extensions": {
       "locationPrecision": "approx"
     }
