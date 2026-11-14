@@ -3,6 +3,26 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.20] - 2026-11-14
+
+### Changed
+- 复核并接受 OpenQuizGo 撤回「nginx 改绑 Tailscale IP」：复跑 bind 测试证实 host 网络
+  只保证「能 bind 宿主地址」、不保证「地址已存在」；`docker.service` 与 `tailscaled.service`
+  无先后约束，绑定 Tailscale IP 会给 nginx 新增启动依赖。
+- 定案：8081/8082 维持 `listen 8081;` / `listen 8082;` + allowlist；第 4 项删除公网 22
+  因此可独立执行，复合风险解除。
+- 建议 `/srv/ops/bin/status.sh` 增加「公网自探」：8081/8082 期望超时，变 `403`/`200`
+  即说明安全组被误开；同时纠正 22 的闭环不能用该探针（规则按源限流，须从 `/32` 侧验）。
+
+### Verified
+- 从 ECS 自身探公网 IP：8081/8082/8080 → `exit 28`（filtered），80/443 → `exit 7`（refused）。
+  这组基线独立印证「80/443 安全组放行、仅无监听」与「8081 安全组未放行」。
+
+### Docs
+- `docs/conversations/2026-11-14-M126-备案前共享面收口确认.md`（新增第二轮记录）
+
+---
+
 ## [v1.0.19] - 2026-11-14
 
 ### Verified
