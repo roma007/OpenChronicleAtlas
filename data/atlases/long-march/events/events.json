@@ -10451,6 +10451,74 @@
     }
   },
   {
+    "id": "yuericipu-1936-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "翻越月日茨普",
+      "en": "Crossing Yuericipu Pass"
+    },
+    "aliases": [
+      {
+        "zh": "月日茨普垭口",
+        "en": "Yuericipu Pass"
+      }
+    ],
+    "date": "1936-05-15",
+    "location": {
+      "lng": 99.29,
+      "lat": 29.18,
+      "place": {
+        "zh": "四川巴塘中咱乡月日茨普垭口",
+        "en": "Yuericipu Pass, Zhongzan township, Batang, Sichuan"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红二军团经波茨翻越月日茨普，进入巴塘中咱。",
+      "en": "The Second Army Group crossed the Yuericipu Pass via Bozi and entered Zhongzan in Batang."
+    },
+    "description": {
+      "zh": "1936 年 5 月 15 日，从得荣北进的红二军团经巴塘县波茨翻越月日茨普垭口（图测海拔约 4579 米），进入中咱乡境。「月日茨普」藏语意为「亮水头」，因草场之水源于冰川、源头晶莹耀眼而得名。5 月 20 日，红二军团先头第四师在巴塘南部茨巫乡与仁波喇嘛寺武装僧兵接火，红军围而不打、晓以大义，随后经中咱向巴安（今巴塘）前进。本坐标为月日茨普垭口代表点。",
+      "en": "On 15 May 1936 the Second Army Group, moving north from Derong, crossed the Yuericipu Pass (mapped at about 4,579 m) via Bozi in Batang county and entered Zhongzan township. The Tibetan name means “bright water head,” after the glacier-fed streams there. On 20 May the advance 4th Division clashed with armed monks of Renbo Monastery at Ciwu in southern Batang; the Red Army surrounded them without attacking and persuaded them to stand down, then advanced via Zhongzan toward Batang. The coordinate is a representative point at the Yuericipu pass."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《长征路上翻越的雪山知多少》",
+        "author": "田竞 / 中红网",
+        "year": 2016,
+        "note": "用于核对月日茨普、恶热拉、麦拉、生欧拉的位置、海拔与日期",
+        "url": "https://www.crt.com.cn/news2007/News/tgjx/16121914242K8FCABG3A94JFAJ1862J.html"
+      },
+      {
+        "title": "《红二方面军（红二、六军团）在甘孜州》",
+        "author": "甘孜日报",
+        "year": 2022,
+        "note": "用于核对红二军团经得荣、巴塘、白玉北上甘孜的日程",
+        "url": "http://paper.kbcmw.com/pc/202203/23/content_47998.html"
+      },
+      {
+        "title": "《红军长征路上翻越了多少座雪山？》",
+        "author": "四川省情网",
+        "year": 2019,
+        "note": "用于核对藏巴拉山、月日茨普与红二军团北进路线",
+        "url": "http://scdfz.sc.gov.cn/ztzl/hjczzsc/zzyj/content_25716"
+      }
+    ],
+    "relatedIds": [
+      "zangbala-shan-1936-06",
+      "erela-shan-1936-06",
+      "yaha-xueshan-1936-04"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "kmt-xizheng-1936-05",
     "atlasId": "long-march",
     "name": {
@@ -10704,6 +10772,128 @@
     }
   },
   {
+    "id": "erela-shan-1936-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "翻越恶热拉山",
+      "en": "Crossing Ere Pass"
+    },
+    "aliases": [
+      {
+        "zh": "恶热拉垭口",
+        "en": "Ere Pass"
+      }
+    ],
+    "date": "1936-06-18",
+    "location": {
+      "lng": 99,
+      "lat": 30.72,
+      "place": {
+        "zh": "四川白玉盖玉乡恶热拉山垭口",
+        "en": "Ere Mountain pass, Gaiyü township, Baiyü, Sichuan"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红二军团一部由巴塘北进，翻越恶热拉山进至白玉。",
+      "en": "Part of the Second Army Group crossed the Ere Pass from Batang toward Baiyü."
+    },
+    "description": {
+      "zh": "1936 年 6 月 14 日，红二军团撤离巴塘向白玉进发。6 月 18 日，部队兵分两路：一路经恶热拉山垭口（图测海拔约 4636 米）北进。「恶热拉」藏语意为「头巾山」。两路于白玉县城会合，6 月 19 日进驻白玉，休整五天。本坐标为恶热拉山垭口代表点。",
+      "en": "On 14 June 1936 the Second Army Group left Batang for Baiyü. On 18 June it split into two columns: one crossed the Ere Mountain pass (mapped at about 4,636 m). The Tibetan name means “headscarf mountain.” The two columns reunited at Baiyü county town and entered it on 19 June, resting for five days. The coordinate is a representative point at the Ere pass."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《长征路上翻越的雪山知多少》",
+        "author": "田竞 / 中红网",
+        "year": 2016,
+        "note": "用于核对月日茨普、恶热拉、麦拉、生欧拉的位置、海拔与日期",
+        "url": "https://www.crt.com.cn/news2007/News/tgjx/16121914242K8FCABG3A94JFAJ1862J.html"
+      },
+      {
+        "title": "《红二方面军（红二、六军团）在甘孜州》",
+        "author": "甘孜日报",
+        "year": 2022,
+        "note": "用于核对红二军团经得荣、巴塘、白玉北上甘孜的日程",
+        "url": "http://paper.kbcmw.com/pc/202203/23/content_47998.html"
+      }
+    ],
+    "relatedIds": [
+      "maila-shan-1936-06",
+      "shengooula-shan-1936-06",
+      "zangbala-shan-1936-06"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "maila-shan-1936-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "翻越麦拉山",
+      "en": "Crossing Maila Mountain"
+    },
+    "aliases": [
+      {
+        "zh": "麦拉垭口",
+        "en": "Maila Pass"
+      }
+    ],
+    "date": "1936-06-18",
+    "location": {
+      "lng": 99.08,
+      "lat": 30.8,
+      "place": {
+        "zh": "四川白玉绒玉、盖玉交界麦拉山垭口",
+        "en": "Maila Mountain pass on the Rongyü–Gaiyü border, Baiyü, Sichuan"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红二军团另一部翻越麦拉山，与恶热拉一路会合于白玉。",
+      "en": "Another column of the Second Army Group crossed Maila Mountain and joined the Ere column at Baiyü."
+    },
+    "description": {
+      "zh": "1936 年 6 月 18 日，由巴塘北进的红二军团兵分两路，另一路经麦拉山垭口（图测海拔约 4340 米）北进。「麦拉」藏语意为「黑痣山」，垭口位于绒玉乡与盖玉乡交界。两路于白玉县城会合，6 月 19 日进驻白玉。本坐标为麦拉山垭口代表点。",
+      "en": "On 18 June 1936 the Second Army Group, moving north from Batang, split into two columns; the other crossed the Maila Mountain pass (mapped at about 4,340 m). The Tibetan name means “black mole mountain,” and the pass lies on the border between Rongyü and Gaiyü townships. The two columns reunited at Baiyü county town and entered it on 19 June. The coordinate is a representative point at the Maila pass."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《长征路上翻越的雪山知多少》",
+        "author": "田竞 / 中红网",
+        "year": 2016,
+        "note": "用于核对月日茨普、恶热拉、麦拉、生欧拉的位置、海拔与日期",
+        "url": "https://www.crt.com.cn/news2007/News/tgjx/16121914242K8FCABG3A94JFAJ1862J.html"
+      },
+      {
+        "title": "《红二方面军（红二、六军团）在甘孜州》",
+        "author": "甘孜日报",
+        "year": 2022,
+        "note": "用于核对红二军团经得荣、巴塘、白玉北上甘孜的日程",
+        "url": "http://paper.kbcmw.com/pc/202203/23/content_47998.html"
+      }
+    ],
+    "relatedIds": [
+      "erela-shan-1936-06",
+      "shengooula-shan-1936-06",
+      "zangbala-shan-1936-06"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "yanchi-1936-06",
     "atlasId": "long-march",
     "name": {
@@ -10757,6 +10947,74 @@
       "xizheng-end-1936-07"
     ],
     "importance": 2
+  },
+  {
+    "id": "shengooula-shan-1936-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "翻越生欧拉山",
+      "en": "Crossing Sheng’oula Mountain"
+    },
+    "aliases": [
+      {
+        "zh": "生欧拉垭口",
+        "en": "Sheng’oula Pass"
+      }
+    ],
+    "date": "1936-06-30",
+    "location": {
+      "lng": 99.52,
+      "lat": 31.54,
+      "place": {
+        "zh": "四川白玉赠科乡生欧拉山垭口",
+        "en": "Sheng’oula Mountain pass, Zengkê township, Baiyü, Sichuan"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红二军团翻越生欧拉山，进至甘孜绒巴岔与红四方面军会合。",
+      "en": "The Second Army Group crossed Sheng’oula Mountain and reached Rongbacha in Garzê to join the Fourth Front Army."
+    },
+    "description": {
+      "zh": "1936 年 6 月 25 日，红二军团由白玉经嘎拖寺、河坡、赠科向甘孜挺进；6 月 30 日翻越白玉与甘孜界山生欧拉山垭口（图测海拔约 4767 米），进至甘孜绒巴岔，与红四方面军第三十军第八十八师及当地群众会合。「生欧拉」藏语意为「哭泣的山」。7 月 1 日，红二、红六军团齐集甘孜甘海子，与红四方面军会师。本坐标为生欧拉山垭口代表点。",
+      "en": "On 25 June 1936 the Second Army Group moved from Baiyü toward Garzê via Gathok Monastery, Hepo, and Zengkê. On 30 June it crossed the Sheng’oula Mountain pass (mapped at about 4,767 m) on the Baiyü–Garzê border and reached Rongbacha in Garzê, joining the 88th Division of the Fourth Front Army’s 30th Army and local people. The Tibetan name means “weeping mountain.” On 1 July the Second and Sixth Army Groups assembled at Ganhaizi near Garzê and met the Fourth Front Army. The coordinate is a representative point at the Sheng’oula pass."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《长征路上翻越的雪山知多少》",
+        "author": "田竞 / 中红网",
+        "year": 2016,
+        "note": "用于核对月日茨普、恶热拉、麦拉、生欧拉的位置、海拔与日期",
+        "url": "https://www.crt.com.cn/news2007/News/tgjx/16121914242K8FCABG3A94JFAJ1862J.html"
+      },
+      {
+        "title": "《红二方面军（红二、六军团）在甘孜州》",
+        "author": "甘孜日报",
+        "year": 2022,
+        "note": "用于核对红二军团经得荣、巴塘、白玉北上甘孜的日程",
+        "url": "http://paper.kbcmw.com/pc/202203/23/content_47998.html"
+      },
+      {
+        "title": "《解读长征（11）：红军长征先后翻越了哪些雪山？》",
+        "author": "姜廷玉 / 人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对红二方面军雪山名单",
+        "url": "http://dangshi.people.com.cn/n1/2016/0908/c85037-28699636.html"
+      }
+    ],
+    "relatedIds": [
+      "erela-shan-1936-06",
+      "maila-shan-1936-06",
+      "ganzi-1936-06"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "ganzi-1936-06",
