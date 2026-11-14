@@ -230,7 +230,29 @@
         "海禁"
       ],
       "path": "ming-qing/manifest.json"
+    },
+    {
+      "id": "xi-lu-jun",
+      "title": {
+        "zh": "西路军",
+        "en": "West Route Army"
+      },
+      "subtitle": {
+        "zh": "1936—1937",
+        "en": "1936–1937"
+      },
+      "timeRange": {
+        "start": "1936-10-24",
+        "end": "1937-03-15"
+      },
+      "tags": [
+        "中国历史",
+        "长征",
+        "西路军",
+        "民国"
+      ],
+      "path": "xi-lu-jun/manifest.json"
     }
   ],
-  "dataVersion": "2026-11-13-8fbaedd1d60c"
+  "dataVersion": "2026-11-14-5b301fe9a896"
 }

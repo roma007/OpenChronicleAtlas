@@ -15,8 +15,12 @@
             32.23
           ],
           [
-            105.52,
-            32.29
+            105.935,
+            31.735
+          ],
+          [
+            105.56,
+            32.24
           ],
           [
             104.75,
@@ -38,15 +42,17 @@
       },
       "properties": {
         "entityId": "red-4-army",
-        "startDate": "1935-05-01",
+        "startDate": "1935-03-28",
         "endDate": "1935-06-18",
         "order": 1,
         "segmentType": "advance",
         "name": {
-          "zh": "川陕—懋功（示意）"
+          "zh": "川陕—嘉陵江—懋功",
+          "en": "Sichuan–Shaanxi–Jialing River–Maogong"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "红四方面军由川陕根据地西渡嘉陵江，经剑门关、江油、北川等地西进，与中央红军在懋功会师。",
+          "en": "The Fourth Front Army crossed the Jialing River from the Sichuan–Shaanxi base, advanced west through Jianmen Pass, Jiangyou, and Beichuan, and met the Central Red Army at Maogong."
         },
         "extensions": {
           "precision": "schematic"
@@ -123,32 +129,86 @@
             30.99
           ],
           [
-            101.5,
-            31.5
+            101.883,
+            30.879
           ],
           [
-            100.5,
-            31.5
+            102.761,
+            30.064
           ],
           [
-            99.99,
-            31.62
+            102.932,
+            30.147
+          ],
+          [
+            103.232,
+            30.184
           ]
         ]
       },
       "properties": {
         "entityId": "red-4-army",
-        "startDate": "1935-07-01",
-        "endDate": "1936-07-05",
+        "startDate": "1935-09-08",
+        "endDate": "1935-11-25",
         "order": 3,
         "segmentType": "advance",
         "name": {
-          "zh": "懋功—甘孜（南下）",
-          "en": "Maogong–Ganzi (southward)"
+          "zh": "红四方面军南下（懋功—丹巴—天全—芦山—名山）",
+          "en": "Fourth Front Army southward move (Maogong–Danba–Tianquan–Lushan–Mingshan)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "红四方面军由懋功南下，经丹巴、天全、芦山进至名山百丈关，先后进行绥崇丹懋、天芦名雅邛大战役。",
+          "en": "The Fourth Front Army moved south from Maogong through Danba, Tianquan, and Lushan to Baizhang Pass in Mingshan, fighting the Suichong Danmao and Tian-Lu-Ming-Ya-Qiong-Da campaigns."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.232,
+            30.184
+          ],
+          [
+            102.81,
+            30.75
+          ],
+          [
+            101.883,
+            30.879
+          ],
+          [
+            101.124,
+            30.979
+          ],
+          [
+            100.675,
+            31.4
+          ],
+          [
+            99.991,
+            31.624
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-4-army",
+        "startDate": "1936-02-15",
+        "endDate": "1936-07-05",
+        "order": 4,
+        "segmentType": "advance",
+        "name": {
+          "zh": "红四方面军二次北上（名山—宝兴—丹巴—道孚—炉霍—甘孜）",
+          "en": "Fourth Front Army second northward move (Mingshan–Baoxing–Danba–Daofu–Luhuo–Ganzi)"
+        },
+        "description": {
+          "zh": "红四方面军撤离天全、芦山、宝兴，经丹巴、道孚、炉霍进至甘孜，与红二、六军团会师后共同北上。",
+          "en": "The Fourth Front Army withdrew from Tianquan, Lushan, and Baoxing, moved through Danba, Daofu, and Luhuo to Ganzi, and after meeting the Second and Sixth Army Corps moved north together."
         },
         "extensions": {
           "precision": "schematic"
@@ -241,7 +301,7 @@
             29.15
           ],
           [
-            110.0,
+            110,
             29.5
           ]
         ]
@@ -351,28 +411,16 @@
             29.4
           ],
           [
-            109.44,
-            29.46
-          ],
-          [
-            109.15,
-            29.55
-          ],
-          [
-            108.77,
-            29.53
-          ],
-          [
-            108.17,
-            29.29
+            109.55,
+            27.45
           ],
           [
             108.23,
             27.51
           ],
           [
-            106.63,
-            26.65
+            106.15,
+            26.9
           ],
           [
             105.29,
@@ -391,12 +439,12 @@
         "order": 6,
         "segmentType": "advance",
         "name": {
-          "zh": "桑植—乌蒙山",
-          "en": "Sangzhi–Wumeng Mountains"
+          "zh": "桑植—便水—石阡—鸭池河—乌蒙山",
+          "en": "Sangzhi–Bianshui–Shiqian–Yachihe–Wumeng Mountains"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "红二、红六军团从桑植出发，经便水、石阡、鸭池河进入黔西北，再转进乌蒙山。",
+          "en": "The Second and Sixth Army Corps moved from Sangzhi through Bianshui, Shiqian, and Yachihe into northwestern Guizhou, then into the Wumeng Mountains."
         },
         "extensions": {
           "precision": "schematic"
@@ -421,8 +469,8 @@
             25.5
           ],
           [
-            102.83,
-            24.88
+            102.644,
+            25.66
           ],
           [
             101.55,
@@ -449,12 +497,12 @@
         "order": 7,
         "segmentType": "advance",
         "name": {
-          "zh": "乌蒙山—石鼓",
-          "en": "Wumeng Mountains–Shigu"
+          "zh": "乌蒙山—盘县—普渡河—石鼓",
+          "en": "Wumeng Mountains–Panxian–Pudu River–Shigu"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "红二、红六军团经盘县会议决定北上，经普渡河、六甲进入滇西，在石鼓渡过金沙江。",
+          "en": "After the Panxian meeting decided to move north, the Second and Sixth Army Corps passed the Pudu River and Liujia into western Yunnan and crossed the Jinsha River at Shigu."
         },
         "extensions": {
           "precision": "schematic"

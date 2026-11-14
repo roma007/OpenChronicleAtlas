@@ -1162,6 +1162,124 @@
           "en": "Gansu-Ningxia 35th Div."
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.2,
+            26.61
+          ],
+          [
+            102.244,
+            26.665
+          ],
+          [
+            102.3,
+            26.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-sichuan-army",
+        "startDate": "1935-05-08",
+        "endDate": "1935-05-15",
+        "order": 22,
+        "segmentType": "defense",
+        "name": {
+          "zh": "会理城防（川军刘元瑭部）",
+          "en": "Huili city defenses (Liu Yuantang’s Sichuan troops)"
+        },
+        "description": {
+          "zh": "川军刘元瑭部第 7 师等部防守会理城，烧毁城外民房、封闭城门，依托城墙与护城河死守，使红三军团 7 天 7 夜攻城未克。",
+          "en": "Liu Yuantang’s Sichuan 7th Division and other units defended Huili, burning suburban houses and sealing the gates; behind the walls and moat they held out against the Third Army Corps for seven days and nights."
+        },
+        "extensions": {
+          "precision": "schematic"
+        },
+        "label": {
+          "zh": "川军 第7师",
+          "en": "Sichuan Army 7th Division"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.68,
+            25.55
+          ],
+          [
+            113.737,
+            25.322
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-guangdong-army",
+        "startDate": "1934-11-01",
+        "endDate": "1934-11-08",
+        "order": 23,
+        "segmentType": "defense",
+        "name": {
+          "zh": "第二道封锁线（汝城—城口）",
+          "en": "Second Blockade Line (Rucheng–Chengkou)"
+        },
+        "description": {
+          "zh": "湘军何键部守汝城，粤军陈济棠部守城口，以碉堡群控制湘粤通道；红军于 11 月 5—8 日从汝城、城口间突破。",
+          "en": "He Jian’s Hunan troops held Rucheng and Chen Jitang’s Guangdong troops held Chengkou, using blockhouses to control the Hunan–Guangdong corridor; the Red Army broke through between them on 5–8 November."
+        },
+        "extensions": {
+          "precision": "schematic"
+        },
+        "label": {
+          "zh": "粤军 第二道封锁线",
+          "en": "Guangdong Army second blockade"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.62,
+            25.52
+          ],
+          [
+            113.72,
+            25.46
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-hunan-army",
+        "startDate": "1934-11-01",
+        "endDate": "1934-11-08",
+        "order": 24,
+        "segmentType": "defense",
+        "name": {
+          "zh": "第二道封锁线（汝城，湘军）",
+          "en": "Second Blockade Line at Rucheng (Hunan Army)"
+        },
+        "description": {
+          "zh": "湘军何键部在汝城一带构筑碉堡，与城口粤军共同构成第二道封锁线；红军以一部监视汝城，主力从汝城、城口间通过。",
+          "en": "He Jian’s Hunan troops built blockhouses around Rucheng, forming the second blockade line together with the Guangdong troops at Chengkou; the Red Army monitored Rucheng and passed between the two."
+        },
+        "extensions": {
+          "precision": "schematic"
+        },
+        "label": {
+          "zh": "湘军 汝城守军",
+          "en": "Hunan Army at Rucheng"
+        }
+      }
     }
   ]
 }

@@ -341,6 +341,79 @@
     ]
   },
   {
+    "id": "kmt-second-blockade-1934-11",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "国民党军第二道封锁线（湘军、粤军）",
+      "en": "KMT Second Blockade Line (Hunan and Guangdong Armies)"
+    },
+    "aliases": [
+      {
+        "zh": "第二道封锁线",
+        "en": "Second Blockade Line"
+      },
+      {
+        "zh": "汝城—城口封锁线",
+        "en": "Rucheng–Chengkou Blockade Line"
+      }
+    ],
+    "date": "1934-11-01",
+    "location": {
+      "lng": 113.72,
+      "lat": 25.45,
+      "place": {
+        "zh": "湖南汝城—广东城口间",
+        "en": "Between Rucheng, Hunan and Chengkou, Guangdong"
+      }
+    },
+    "entityIds": [
+      "kmt-hunan-army",
+      "kmt-guangdong-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "国民党军在汝城—城口间构筑第二道封锁线，红军于 11 月 5—8 日突破。",
+      "en": "KMT forces built the second blockade line between Rucheng and Chengkou; the Red Army broke through on 5–8 November."
+    },
+    "description": {
+      "zh": "1934 年 11 月初，蒋介石令湘军何键、粤军陈济棠在湖南汝城至广东城口间构筑第二道封锁线，以碉堡群控制湘粤通道。11 月 1 日，中革军委令红一军团夺取城口、红三军团夺取汝城；红一军团第二师第六团第一营急行军 220 余里，于 11 月 2 日夜袭占城口；汝城守敌较多，红军以一部监视，主力于 11 月 5 日从汝城、城口间分三路通过，至 11 月 8 日全部突破封锁线。本坐标为汝城—城口间代表点，具体碉堡线待考。",
+      "en": "In early November 1934, Chiang Kai-shek ordered He Jian’s Hunan troops and Chen Jitang’s Guangdong troops to build the second blockade line between Rucheng in Hunan and Chengkou in Guangdong, using blockhouses to control the Hunan–Guangdong corridor. On 1 November the CMC ordered the First Army Corps to take Chengkou and the Third Army Corps to take Rucheng. The 1st Battalion of the 6th Regiment, Second Division, marched over 220 li and seized Chengkou by night on 2 November. Rucheng was too strongly held, so the Red Army monitored it and moved the main force through the Rucheng–Chengkou gap in three columns from 5 November, completing the breakthrough by 8 November. The coordinate is a representative point between Rucheng and Chengkou; the exact blockhouse line awaits verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《第一章 突破三道封锁线》",
+        "author": "人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对第二道封锁线汝城—城口、城口夜袭与 11 月 8 日突破",
+        "url": "http://dangshi.people.com.cn/n1/2016/0803/c406330-28608587.html"
+      },
+      {
+        "title": "《中央红军为什么能比较顺利突破敌人三道封锁线》",
+        "author": "新华网",
+        "year": 2016,
+        "note": "用于核对第二道封锁线位置与 11 月 5—8 日通过时间",
+        "url": "http://www.xinhuanet.com/politics/2016-08/09/c_1119359996.htm"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对长征时间线与各阶段行动"
+      }
+    ],
+    "relatedIds": [
+      "kmt-first-blockade-1934-10",
+      "yizhang-1934-11",
+      "kmt-xiangjiang-blockade-1934-11"
+    ],
+    "endDate": "1934-11-08",
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "nanliang-1934-11",
     "atlasId": "long-march",
     "name": {
@@ -445,7 +518,9 @@
         "note": "用于核对「突破第三道封锁线」的战斗时间、地点与路线走向"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "kmt-second-blockade-1934-11"
+    ]
   },
   {
     "id": "red25-depart-1934-11",
@@ -2679,6 +2754,79 @@
     "importance": 2
   },
   {
+    "id": "zhaxi-meeting-1935-02",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "扎西会议",
+      "en": "Zhaxi Meeting"
+    },
+    "aliases": [
+      {
+        "zh": "扎西政治局扩大会议",
+        "en": "Zhaxi Enlarged Politburo Meeting"
+      },
+      {
+        "zh": "水田寨—大河滩—扎西会议",
+        "en": "Shuitianzhai–Dahetan–Zhaxi Meetings"
+      }
+    ],
+    "date": "1935-02-05",
+    "location": {
+      "lng": 105.041,
+      "lat": 27.847,
+      "place": {
+        "zh": "云南威信扎西镇",
+        "en": "Zhaxi, Weixin, Yunnan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "中央政治局在威信水田寨、大河滩、扎西镇连续开会，完成遵义会议未及完成的任务。",
+      "en": "The Politburo met successively at Shuitianzhai, Dahetan, and Zhaxi in Weixin, completing tasks left unfinished at Zunyi."
+    },
+    "description": {
+      "zh": "1935 年 2 月 5 日至 9 日，中央政治局在云南威信水田寨花房子、大河滩庄子上、扎西镇江西会馆连续召开会议，统称扎西会议。会议决定由张闻天代替博古负总责，毛泽东为周恩来军事指挥上的帮助者；通过《遵义会议决议》；决定暂缓北渡长江、回师东进、二渡赤水；缩编中央红军为 16 个团（加干部团 17 个团）；成立中共川南特委和红军川南游击纵队。本坐标为扎西镇代表点，水田寨、大河滩会址待分别落位。",
+      "en": "From 5 to 9 February 1935, the Politburo met successively at the Huafangzi in Shuitianzhai, the Zhuangzishang in Dahetan, and the Jiangxi Guild Hall in Zhaxi, Weixin, Yunnan; the meetings are collectively known as the Zhaxi Meeting. They decided that Zhang Wentian should replace Bo Gu as overall leader and that Mao Zedong should assist Zhou Enlai in military command; adopted the Zunyi Conference Resolution; decided to postpone the Yangtze crossing, return east, and cross the Chishui River a second time; reduced the Central Red Army to 16 regiments (17 with the Cadre Regiment); and established the South Sichuan Special Committee and the Red Army South Sichuan Guerrilla Column. The coordinate is a representative point at Zhaxi; the Shuitianzhai and Dahetan sites await separate placement."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《扎西会议：推动中国革命走向胜利新阶段》",
+        "author": "求是网",
+        "year": 2021,
+        "note": "用于核对扎西会议三处会址、常委分工、遵义会议决议与回师东进",
+        "url": "https://www.qstheory.cn/laigao/ycjx/2021-03/28/c_1127264543.htm"
+      },
+      {
+        "title": "《扎西会议：伟大转折的光辉续篇》",
+        "author": "人民网·党史频道",
+        "year": 2026,
+        "note": "用于核对扎西会议日期、与会人员与部队缩编",
+        "url": "http://cpc.people.com.cn/n1/2026/1030/c443712-40824356.html"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对长征时间线与各阶段行动"
+      }
+    ],
+    "relatedIds": [
+      "zunyi-1935-01",
+      "yidu-chishui-1935-01",
+      "erdu-chishui-1935-02",
+      "zunyi-campaign-1935-02"
+    ],
+    "endDate": "1935-02-09",
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "erdu-chishui-1935-02",
     "atlasId": "long-march",
     "name": {
@@ -3582,6 +3730,79 @@
     }
   },
   {
+    "id": "gouba-meeting-1935-03",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "苟坝会议",
+      "en": "Gouba Meeting"
+    },
+    "aliases": [
+      {
+        "zh": "苟坝政治局扩大会议",
+        "en": "Gouba Enlarged Politburo Meeting"
+      },
+      {
+        "zh": "打鼓新场会议",
+        "en": "Daguxinchang Meeting"
+      }
+    ],
+    "date": "1935-03-10",
+    "location": {
+      "lng": 106.567,
+      "lat": 27.638,
+      "place": {
+        "zh": "贵州遵义枫香镇苟坝村",
+        "en": "Gouba Village, Fengxiang, Zunyi, Guizhou"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "中央在苟坝召开会议，撤销进攻打鼓新场计划，成立新三人团。",
+      "en": "The central leadership met at Gouba, cancelled the attack on Daguxinchang, and formed the new three-man military group."
+    },
+    "description": {
+      "zh": "1935 年 3 月 10 日至 12 日，中央政治局在遵义苟坝召开扩大会议，讨论是否进攻打鼓新场。毛泽东力主不打，会议一度表决撤销其前敌司令部政委职务；毛泽东当夜提马灯找周恩来、朱德，说服暂缓发令。11 日会议决定撤销进攻计划；12 日决定成立由毛泽东、周恩来、王稼祥组成的新三人团，全权指挥军事。本坐标为苟坝村代表点，会议会址与周恩来、朱德旧居待分别落位。",
+      "en": "From 10 to 12 March 1935, the Politburo held an enlarged meeting at Gouba in Zunyi to discuss whether to attack Daguxinchang. Mao Zedong opposed the attack; the meeting at one point voted to remove him as political commissar of the front command. That night Mao walked with a lantern to Zhou Enlai and Zhu De and persuaded them to delay the order. On 11 March the meeting cancelled the attack; on 12 March it decided to form a new three-man group of Mao Zedong, Zhou Enlai, and Wang Jiaxiang with full authority over military operations. The coordinate is a representative point at Gouba; the meeting site and the former residences of Zhou Enlai and Zhu De await separate placement."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《一份“不进攻”电令见证党的重大决策修正》",
+        "author": "人民网·党史频道",
+        "year": 2026,
+        "note": "用于核对苟坝会议争论、撤销进攻打鼓新场与新三人团",
+        "url": "http://cpc.people.com.cn/n1/2026/1107/c443712-40829632.html"
+      },
+      {
+        "title": "《军史钩沉·长征：苟坝会议》",
+        "author": "人民网",
+        "year": 2016,
+        "note": "用于核对苟坝会议起止日期、表决与三人小组成立",
+        "url": "https://cpc.people.com.cn/n1/2016/0911/c64387-28706516.html"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对长征时间线与各阶段行动"
+      }
+    ],
+    "relatedIds": [
+      "zunyi-campaign-1935-02",
+      "lubanchang-1935-03",
+      "sandu-chishui-1935-03",
+      "sidu-chishui-1935-03"
+    ],
+    "endDate": "1935-03-12",
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "lubanchang-1935-03",
     "atlasId": "long-march",
     "name": {
@@ -3876,6 +4097,222 @@
     "endDate": "1935-03-22"
   },
   {
+    "id": "jialing-jiang-1935-03",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "强渡嘉陵江",
+      "en": "Forcing the Jialing River"
+    },
+    "aliases": [
+      {
+        "zh": "嘉陵江战役",
+        "en": "Jialing River Campaign"
+      },
+      {
+        "zh": "红四方面军开始长征",
+        "en": "The Fourth Front Army Begins the Long March"
+      }
+    ],
+    "date": "1935-03-28",
+    "location": {
+      "lng": 105.935,
+      "lat": 31.735,
+      "place": {
+        "zh": "四川苍溪塔子山渡口",
+        "en": "Tazishan Ferry, Cangxi, Sichuan"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红四方面军强渡嘉陵江，策应中央红军，开始长征。",
+      "en": "The Fourth Front Army forced the Jialing River to support the Central Red Army and began its Long March."
+    },
+    "description": {
+      "zh": "1935 年 3 月 28 日至 4 月 21 日，红四方面军为策应中央红军、向川甘边界发展，在苍溪、阆中间强渡嘉陵江。红 30 军从塔子山主渡，红 31 军从鸳溪口、红 9 军从涧溪口渡江，红 4 军为第二梯队。渡江后攻占剑门关、昭化、南部、剑阁、梓潼、江油、中坝、青川、平武、北川等地，歼敌 1 万余人，控制嘉陵江与涪江之间广大地区。从强渡嘉陵江起，红四方面军实际上开始长征。本坐标为苍溪塔子山渡口代表点。",
+      "en": "From 28 March to 21 April 1935, the Fourth Front Army forced the Jialing River between Cangxi and Langzhong to support the Central Red Army and expand toward the Sichuan–Gansu border. The 30th Army crossed at the Tazishan main crossing, the 31st Army at Yuanxikou, and the 9th Army at Jianxikou, with the 4th Army as the second echelon. After crossing, the Red Army took Jianmen Pass, Zhaohua, Nanbu, Jiange, Zitong, Jiangyou, Zhongba, Qingchuan, Pingwu, and Beichuan, destroyed more than 10,000 enemy troops, and controlled the area between the Jialing and Fu rivers. From this crossing, the Fourth Front Army effectively began its Long March. The coordinate is a representative point at the Tazishan ferry in Cangxi."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《强渡嘉陵江》",
+        "author": "人民网·党史频道",
+        "year": 2025,
+        "note": "用于核对 3 月 28 日至 4 月 21 日、塔子山主渡与剑门关战斗",
+        "url": "http://cpc.people.com.cn/n1/2025/0322/c443712-40444339.html"
+      },
+      {
+        "title": "《第十三章 强渡嘉陵江，红四方面军开始长征》",
+        "author": "人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对渡江部署、第二梯队与战役意义",
+        "url": "http://dangshi.people.com.cn/n1/2016/0818/c406330-28647251.html"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对红四方面军长征时间线与各战役"
+      }
+    ],
+    "relatedIds": [
+      "maogong-1935-06",
+      "kmt-red4-blockade-1935-05",
+      "dawei-meeting-1935-06"
+    ],
+    "endDate": "1935-04-21",
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "south-wujiang-1935-03",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "南渡乌江",
+      "en": "Southward Crossing of the Wu River"
+    },
+    "aliases": [
+      {
+        "zh": "乌江天险重飞渡",
+        "en": "Second Crossing of the Wu River"
+      },
+      {
+        "zh": "江口—大塘—梯子岩渡江",
+        "en": "Crossing at Jiangkou, Datang, and Tiziyan"
+      }
+    ],
+    "date": "1935-03-29",
+    "location": {
+      "lng": 106.58,
+      "lat": 27.27,
+      "place": {
+        "zh": "贵州金沙后山江口、大塘、梯子岩渡口",
+        "en": "Jiangkou, Datang, and Tiziyan ferries, Houshan, Jinsha, Guizhou"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "中央红军从江口、大塘、梯子岩南渡乌江，跳出乌江以北包围圈。",
+      "en": "The Central Red Army crossed the Wu River southward at Jiangkou, Datang, and Tiziyan, escaping the encirclement north of the river."
+    },
+    "description": {
+      "zh": "1935 年 3 月 29 日，红一军团先遣部队进至金沙后山乌江边，红三团袭击江口、大塘、梯子岩渡口，工兵连夜架设浮桥。30 日至 31 日，红一、红三军团及军委纵队先后渡江；4 月 1 日红五军团渡江完毕，中央红军主力全部进入息烽境内。南渡乌江为四渡赤水画上句号，把国民党军主力甩在乌江以北。本坐标为后山渡口群代表点，三个渡口待分别落位。",
+      "en": "On 29 March 1935, the advance guard of the First Army Corps reached the Wu River at Houshan, Jinsha. The Third Regiment attacked the Jiangkou, Datang, and Tiziyan ferries, and engineers built pontoon bridges overnight. On 30–31 March the First and Third Army Corps and the CMC column crossed; the Fifth Army Corps finished on 1 April, and the main force entered Xifeng county. The crossing closed the Four Crossings of the Chishui campaign and left the main KMT forces north of the Wu River. The coordinate is a representative point for the Houshan ferry group; the three ferries await separate placement."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《南渡乌江，红军摆脱敌军围追堵截》",
+        "author": "法治日报",
+        "year": 2021,
+        "note": "用于核对江口、大塘、梯子岩渡口与南渡时间",
+        "url": "http://www.legaldaily.com.cn/zt/content/2021-05/12/content_8502860.htm"
+      },
+      {
+        "title": "《第九章 四渡赤水（下）》",
+        "author": "人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对南渡乌江、佯攻贵阳与西进云南的决策链",
+        "url": "http://dangshi.people.com.cn/n1/2016/0814/c406330-28634785.html"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对长征时间线与各阶段行动"
+      }
+    ],
+    "relatedIds": [
+      "sidu-chishui-1935-03",
+      "guiyang-feint-1935-04",
+      "jinsha-campaign-1935-05"
+    ],
+    "endDate": "1935-04-01",
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "guiyang-feint-1935-04",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "佯攻贵阳",
+      "en": "Feint on Guiyang"
+    },
+    "aliases": [
+      {
+        "zh": "威逼贵阳",
+        "en": "Threatening Guiyang"
+      },
+      {
+        "zh": "调出滇军",
+        "en": "Drawing Out the Yunnan Army"
+      }
+    ],
+    "date": "1935-04-02",
+    "location": {
+      "lng": 106.63,
+      "lat": 26.65,
+      "place": {
+        "zh": "贵州贵阳附近",
+        "en": "Near Guiyang, Guizhou"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "红军逼近贵阳、佯攻龙里，调出滇军，为西进云南打开通道。",
+      "en": "The Red Army threatened Guiyang and feinted at Longli, drawing out the Yunnan army and opening the route west into Yunnan."
+    },
+    "description": {
+      "zh": "1935 年 4 月 2 日，中央红军以一部佯攻息烽，主力进至扎佐、狗场，前锋逼近贵阳。蒋介石急调滇军孙渡纵队星夜赴贵阳“保驾”，并将各路敌军向贵阳以东集中。4 月 5 日，红军又在清水江架桥作东渡姿态，进一步迷惑敌军。4 月 8 日至 9 日，红军从贵阳、龙里间狭窄地段穿过湘黔公路，向西进入云南。本坐标为贵阳附近代表点，具体佯攻阵地待考。",
+      "en": "On 2 April 1935, part of the Central Red Army feinted at Xifeng while the main force reached Zhazuo and Gaochang, with its advance guard approaching Guiyang. Chiang Kai-shek urgently summoned Sun Du’s Yunnan column to defend Guiyang and concentrated other forces east of the city. On 5 April the Red Army built bridges over the Qingshui River to suggest an eastward crossing, further misleading the enemy. On 8–9 April it passed through the narrow gap between Guiyang and Longli, crossed the Hunan–Guizhou highway, and moved west into Yunnan. The coordinate is a representative point near Guiyang; the exact feint positions await verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红军长征“佯攻贵阳”的来龙去脉》",
+        "author": "贵州政协报",
+        "year": 2022,
+        "note": "用于核对 4 月 2 日逼近贵阳、4 月 8—9 日穿过贵阳龙里间与调出滇军",
+        "url": "https://www.gzszx.gov.cn/gzzxb/web/doc/detail/3224/A3"
+      },
+      {
+        "title": "《第九章 四渡赤水（下）》",
+        "author": "人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对南渡乌江、佯攻贵阳与西进云南的决策链",
+        "url": "http://dangshi.people.com.cn/n1/2016/0814/c406330-28634785.html"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对长征时间线与各阶段行动"
+      }
+    ],
+    "relatedIds": [
+      "south-wujiang-1935-03",
+      "jinsha-campaign-1935-05",
+      "kmt-jinsha-blockade-1935-05"
+    ],
+    "endDate": "1935-04-09",
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "chenjiahe-1935-04",
     "atlasId": "long-march",
     "name": {
@@ -3940,11 +4377,11 @@
     "date": "1935-05-01",
     "endDate": "1935-05-09",
     "location": {
-      "lng": 102.47,
-      "lat": 26.55,
+      "lng": 102.381,
+      "lat": 26.29,
       "place": {
-        "zh": "云南禄劝皎平渡",
-        "en": "Jiaopingdu, Luquan, Yunnan"
+        "zh": "云南禄劝皎平渡（金沙江防线代表点）",
+        "en": "Jiaopingdu, Luquan, Yunnan (representative point of the Jinsha River blockade)"
       }
     },
     "entityIds": [
@@ -3952,36 +4389,45 @@
     ],
     "category": "军事",
     "summary": {
-      "zh": "国民党军企图封锁金沙江渡口，阻止红军北上川西。",
-      "en": "KMT forces tried to blockade the Jinsha River crossings to stop the Red Army from moving into western Sichuan."
+      "zh": "国民党滇军、川军沿金沙江设防，企图阻止红军北上。",
+      "en": "Yunnan and Sichuan KMT forces defended the Jinsha River to block the Red Army’s move north."
     },
     "description": {
-      "zh": "1935 年 5 月，国民党滇军龙云部等追堵中央红军，企图封锁金沙江渡口。红军在皎平渡等渡口巧渡金沙江，摆脱追敌。部队番号与指挥关系为通行说法，待页码级核对。",
-      "en": "In May 1935, KMT Yunnan forces under Long Yun and other units pursued the Central Red Army and tried to blockade the Jinsha River crossings. The Red Army crossed at Jiaopingdu and other points, escaping its pursuers. Unit designations and command relationships follow conventional accounts and await page-level verification."
+      "zh": "1935 年 4 月至 5 月，蒋介石命云南省政府主席龙云收缴沿江船只、封锁渡口，滇军孙渡纵队等部尾追；川康边防军刘元瑭部等防守金沙江北岸与通安、会理。红军以龙街渡、洪门渡佯动牵制敌军，主力从皎平渡渡江，并在石板河击退追兵，突破金沙江封锁。本坐标为皎平渡代表点，防线沿金沙江展开。",
+      "en": "From April to May 1935, Chiang Kai-shek ordered Yunnan governor Long Yun to collect boats and blockade the river; Sun Du’s Yunnan troops pursued, while Liu Yuantang’s Sichuan border troops defended the north bank, Tongan, and Huili. The Red Army feinted at Longjie and Hongmen, crossed the main force at Jiaopingdu, and halted the pursuers at Shibanhe, breaking the Jinsha River blockade. The coordinate is a representative point at Jiaopingdu; the line extended along the Jinsha River."
     },
     "images": [],
     "sources": [
       {
-        "title": "《中国共产党历史》第一卷",
-        "author": "中共中央党史研究室",
-        "year": 2011,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "title": "《金沙水拍云崖暖——云南船工帮助红军抢渡金沙江》",
+        "author": "中共云南党史网",
+        "year": 2022,
+        "note": "用于核对皎平渡、洪门渡、龙街渡、树桔渡的船工与渡江经过",
+        "url": "https://www.ynds.yn.gov.cn/html/2022/hongsedibiaoyunlingfengbei_0708/1157.html"
       },
       {
-        "title": "《红军长征史》",
-        "author": "中共中央党史研究室第一研究部",
-        "year": 2006,
-        "note": "路线走向参考，坐标为示意简化"
+        "title": "《第十章 巧渡金沙江》",
+        "author": "人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对三路部署、皎平渡夺船、通安战斗与石板河阻击战",
+        "url": "http://dangshi.people.com.cn/n1/2016/0814/c406330-28634787.html"
       },
       {
         "title": "《中国工农红军长征史料丛书》",
         "author": "中国人民解放军历史资料丛书编审委员会",
         "year": 2016,
-        "note": "用于核对国民党军封锁与追堵方向"
+        "note": "用于核对渡江电文、各军团渡口与川滇军防线"
       }
     ],
     "relatedIds": [
-      "jinsha-1935-05"
+      "jinsha-campaign-1935-05",
+      "jinsha-1935-05",
+      "ferry-jiaopingdu-1935-05",
+      "ferry-longjie-1935-05",
+      "ferry-hongmendu-1935-05",
+      "ferry-shujudu-1935-05",
+      "shibanhe-defense-1935-05",
+      "tongan-1935-05"
     ],
     "importance": 2
   },
@@ -4111,11 +4557,11 @@
     ],
     "date": "1935-05-03",
     "location": {
-      "lng": 102.47,
-      "lat": 26.55,
+      "lng": 102.381,
+      "lat": 26.29,
       "place": {
         "zh": "云南禄劝皎平渡",
-        "en": "Luquan, Yunnan"
+        "en": "Jiaopingdu, Luquan, Yunnan"
       }
     },
     "entityIds": [
@@ -4123,50 +4569,800 @@
     ],
     "category": "行军",
     "summary": {
-      "zh": "红军在皎平渡渡过金沙江，摆脱数十万敌军追堵。",
-      "en": "The Red Army crosses the Jinsha River at Jiaopingdu and escapes hundreds of thousands of pursuing troops."
+      "zh": "中央红军主力从皎平渡巧渡金沙江，跳出数十万敌军围堵。",
+      "en": "The main force of the Central Red Army crossed the Jinsha River at Jiaopingdu, escaping the encirclement of hundreds of thousands of KMT troops."
     },
     "description": {
-      "zh": "1935 年 5 月初，中央红军在云南禄劝皎平渡等渡口渡过金沙江，跳出了国民党军的包围圈。",
-      "en": "In early May 1935, the Central Red Army crossed the Jinsha River at Jiaopingdu and other ferries in Luquan, Yunnan, breaking out of the Kuomintang encirclement."
+      "zh": "1935 年 5 月 3 日至 9 日，中央红军主力在皎平渡，以 6 条木船、37 名船工，历时 7 天 7 夜渡过金沙江。此前红一、红三军团分别在龙街渡、洪门渡受阻，先后转至皎平渡；红五军团在石板河阻击追敌，红九军团从树桔渡过江。至 5 月 9 日，中央红军 3 万余人全部过江，粉碎了蒋介石围歼红军于川黔滇边境的计划。本坐标为皎平渡渡口代表点。",
+      "en": "From 3 to 9 May 1935, the main force of the Central Red Army crossed the Jinsha River at Jiaopingdu with six boats and 37 boatmen over seven days and nights. The First and Third Army Corps had been blocked at Longjie and Hongmen and shifted to Jiaopingdu; the Fifth Army Corps blocked the pursuers at Shibanhe, and the Ninth Army Corps crossed at Shuju. By 9 May more than 30,000 troops had crossed, foiling Chiang Kai-shek’s plan to destroy the Red Army on the Sichuan–Guizhou–Yunnan border. The coordinate is a representative point at Jiaopingdu."
     },
     "images": [],
     "sources": [
       {
-        "title": "《中国共产党历史》第一卷",
-        "author": "中共中央党史研究室",
-        "year": 2011,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "title": "《红军巧渡金沙江到底“巧”在哪》",
+        "author": "新华网",
+        "year": 2016,
+        "note": "用于核对三路渡江、皎平渡 6 条船与 37 名船工、7 天 7 夜渡江",
+        "url": "http://www.xinhuanet.com/politics/2016-08/21/c_1119426923.htm"
+      },
+      {
+        "title": "《金沙水拍云崖暖——云南船工帮助红军抢渡金沙江》",
+        "author": "中共云南党史网",
+        "year": 2022,
+        "note": "用于核对皎平渡、洪门渡、龙街渡、树桔渡的船工与渡江经过",
+        "url": "https://www.ynds.yn.gov.cn/html/2022/hongsedibiaoyunlingfengbei_0708/1157.html"
+      },
+      {
+        "title": "《第十章 巧渡金沙江》",
+        "author": "人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对三路部署、皎平渡夺船、通安战斗与石板河阻击战",
+        "url": "http://dangshi.people.com.cn/n1/2016/0814/c406330-28634787.html"
+      }
+    ],
+    "relatedIds": [
+      "jinsha-campaign-1935-05",
+      "ferry-jiaopingdu-1935-05",
+      "ferry-longjie-1935-05",
+      "ferry-hongmendu-1935-05",
+      "ferry-shujudu-1935-05",
+      "shibanhe-defense-1935-05",
+      "tongan-1935-05",
+      "jiaopingdu-command-1935-05",
+      "kmt-jinsha-blockade-1935-05"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "jinsha-campaign-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "金沙江渡江战役",
+      "en": "Jinsha River Crossing Campaign"
+    },
+    "aliases": [
+      {
+        "zh": "巧渡金沙江",
+        "en": "The Ingenious Crossing of the Jinsha River"
+      },
+      {
+        "zh": "抢渡金沙江",
+        "en": "Forcing the Jinsha River"
+      }
+    ],
+    "date": "1935-05-03",
+    "location": {
+      "lng": 102.381,
+      "lat": 26.29,
+      "place": {
+        "zh": "云南禄劝皎平渡（战役范围含龙街、洪门、树桔渡）",
+        "en": "Jiaopingdu, Luquan, Yunnan (the campaign spanned Longjie, Hongmen, and Shuju ferries)"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "中央红军分三路抢渡金沙江，主力从皎平渡过江，跳出数十万敌军围堵。",
+      "en": "The Central Red Army crossed the Jinsha River in three columns, with the main force crossing at Jiaopingdu and escaping the encirclement of hundreds of thousands of KMT troops."
+    },
+    "description": {
+      "zh": "1935 年 5 月 3 日至 9 日，中央红军分三路抢渡金沙江：红一军团攻龙街渡，红三军团攻洪门渡，军委纵队和红五军团抢占皎平渡；红九军团从树桔渡渡江。龙街、洪门两渡因江宽流急、船只缺乏未能架桥，红一、红三军团主力先后转至皎平渡。至 5 月 9 日，中央红军主力 3 万余人从皎平渡全部过江，粉碎了蒋介石围歼红军于川黔滇边境的计划。皎平渡、龙街渡、洪门渡、树桔渡、石板河阻击战、通安战斗分列独立事件。",
+      "en": "From 3 to 9 May 1935, the Central Red Army crossed the Jinsha River in three columns: the First Army Corps moved on Longjie Ferry, the Third Army Corps on Hongmen Ferry, and the Central Military Commission column with the Fifth Army Corps seized Jiaopingdu; the Ninth Army Corps crossed at Shuju Ferry. Longjie and Hongmen could not be bridged because of the wide, swift river and lack of boats, and the main forces of the First and Third Corps shifted to Jiaopingdu. By 9 May more than 30,000 troops had crossed at Jiaopingdu, foiling Chiang Kai-shek’s plan to destroy the Red Army on the Sichuan–Guizhou–Yunnan border. Jiaopingdu, Longjie, Hongmen, Shuju, the Shibanhe blocking battle, and the Tongan battle are separate events."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对金沙江渡江时间线与各军团行动"
+      },
+      {
+        "title": "《红军巧渡金沙江到底“巧”在哪》",
+        "author": "新华网",
+        "year": 2016,
+        "note": "用于核对三路渡江、皎平渡 6 条船与 37 名船工、7 天 7 夜渡江",
+        "url": "http://www.xinhuanet.com/politics/2016-08/21/c_1119426923.htm"
+      },
+      {
+        "title": "《金沙激流》",
+        "author": "解放军报",
+        "year": 2026,
+        "note": "用于核对皎平渡指挥部、石板河阻击战、龙街与洪门受阻后的转进",
+        "url": "http://www.mod.gov.cn/gfbw/gfjy_index/16462706.html"
+      }
+    ],
+    "relatedIds": [
+      "jinsha-1935-05",
+      "ferry-jiaopingdu-1935-05",
+      "ferry-longjie-1935-05",
+      "ferry-hongmendu-1935-05",
+      "ferry-shujudu-1935-05",
+      "shibanhe-defense-1935-05",
+      "tongan-1935-05",
+      "jiaopingdu-command-1935-05",
+      "kmt-jinsha-blockade-1935-05"
+    ],
+    "endDate": "1935-05-09",
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "ferry-jiaopingdu-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "皎平渡",
+      "en": "Jiaopingdu Ferry"
+    },
+    "aliases": [
+      {
+        "zh": "皎平渡口",
+        "en": "Jiaopingdu Crossing"
+      },
+      {
+        "zh": "拉嘎厂渡口",
+        "en": "Lagachang Ferry"
+      }
+    ],
+    "date": "1935-05-03",
+    "location": {
+      "lng": 102.381,
+      "lat": 26.29,
+      "place": {
+        "zh": "云南禄劝皎平渡（金沙江南岸）",
+        "en": "Jiaopingdu, Luquan, Yunnan (south bank of the Jinsha River)"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "渡口",
+    "summary": {
+      "zh": "皎平渡是中央红军主力渡金沙江的主渡口，6 条木船、37 名船工昼夜摆渡 7 天 7 夜。",
+      "en": "Jiaopingdu was the main crossing of the Jinsha River for the Central Red Army, where six boats and 37 boatmen ferried troops for seven days and nights."
+    },
+    "description": {
+      "zh": "1935 年 5 月 3 日黄昏，刘伯承率军委干部团先遣队抢占皎平渡南岸，夺得木船 2 只，夜渡控制北岸中武山渡口。随后红军又找到 4 只船，共 6 只，并动员 37 名船工，在刘伯承、陈云分任司令员、政委的渡江指挥部统一调度下，按《渡江守则》编队编号、昼夜摆渡。至 5 月 9 日，中央红军主力 3 万余人全部由此过江。本坐标为皎平渡渡口代表点，南岸起渡点与北岸红军洞待实测。",
+      "en": "At dusk on 3 May 1935, Liu Bocheng led the advance detachment of the Central Military Commission Cadre Regiment to seize the south bank at Jiaopingdu, captured two boats, and crossed at night to control the Zhongwushan landing on the north bank. The Red Army found four more boats, six in total, and mobilized 37 boatmen. Under the crossing command headed by Liu Bocheng and Chen Yun, and the “Crossing Rules”, the boats were numbered and ferried day and night. By 9 May more than 30,000 troops of the main force had crossed. The coordinate is a representative point at Jiaopingdu; the south-bank launching point and the north-bank Red Army cave await verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红军巧渡金沙江到底“巧”在哪》",
+        "author": "新华网",
+        "year": 2016,
+        "note": "用于核对三路渡江、皎平渡 6 条船与 37 名船工、7 天 7 夜渡江",
+        "url": "http://www.xinhuanet.com/politics/2016-08/21/c_1119426923.htm"
+      },
+      {
+        "title": "《金沙水拍云崖暖——云南船工帮助红军抢渡金沙江》",
+        "author": "中共云南党史网",
+        "year": 2022,
+        "note": "用于核对皎平渡、洪门渡、龙街渡、树桔渡的船工与渡江经过",
+        "url": "https://www.ynds.yn.gov.cn/html/2022/hongsedibiaoyunlingfengbei_0708/1157.html"
+      },
+      {
+        "title": "《第十章 巧渡金沙江》",
+        "author": "人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对三路部署、皎平渡夺船、通安战斗与石板河阻击战",
+        "url": "http://dangshi.people.com.cn/n1/2016/0814/c406330-28634787.html"
+      }
+    ],
+    "relatedIds": [
+      "jinsha-campaign-1935-05",
+      "jinsha-1935-05",
+      "jiaopingdu-command-1935-05",
+      "tongan-1935-05",
+      "kmt-jinsha-blockade-1935-05"
+    ],
+    "endDate": "1935-05-09",
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "ferry"
+    }
+  },
+  {
+    "id": "ferry-longjie-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "龙街渡",
+      "en": "Longjie Ferry"
+    },
+    "aliases": [
+      {
+        "zh": "龙街渡口",
+        "en": "Longjie Crossing"
+      },
+      {
+        "zh": "元谋龙街渡",
+        "en": "Longjie Ferry, Yuanmou"
+      }
+    ],
+    "date": "1935-05-03",
+    "location": {
+      "lng": 101.877,
+      "lat": 25.958,
+      "place": {
+        "zh": "云南元谋江边乡龙街村金沙江渡口",
+        "en": "Longjie Village, Jiangbian, Yuanmou, Yunnan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "渡口",
+    "summary": {
+      "zh": "红一军团在龙街渡佯渡未成，牵制敌军后转赴皎平渡。",
+      "en": "The First Army Corps failed to cross at Longjie Ferry, but its feint pinned enemy forces before it shifted to Jiaopingdu."
+    },
+    "description": {
+      "zh": "1935 年 5 月 3 日，红一军团先头部队到达元谋龙街渡，渡船已被敌军毁坏；红军在花石滩架设浮桥，因江宽流急、敌机轰炸未成。红军以少量部队继续架桥佯渡，吸引国民党军主力向元谋方向集中，掩护主力从皎平渡渡江。5 月 5 日，红一军团奉命顺江而下，转赴皎平渡。本坐标为龙街渡代表点。",
+      "en": "On 3 May 1935, the advance guard of the First Army Corps reached Longjie Ferry in Yuanmou, but the enemy had destroyed the boats. An attempt to build a pontoon bridge at Huashitan failed because of the wide, swift river and enemy air attacks. A small force continued the bridge feint, drawing KMT forces toward Yuanmou and covering the main crossing at Jiaopingdu. On 5 May the First Army Corps was ordered downstream to Jiaopingdu. The coordinate is a representative point at Longjie Ferry."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《元谋县龙街金沙江渡口红色旅游景区》",
+        "author": "楚雄彝族自治州人民政府",
+        "year": 2014,
+        "note": "用于核对龙街渡位置与红一军团佯渡经过",
+        "url": "https://www.cxz.gov.cn/info/1225/9696.htm"
+      },
+      {
+        "title": "《金沙水拍云崖暖——云南船工帮助红军抢渡金沙江》",
+        "author": "中共云南党史网",
+        "year": 2022,
+        "note": "用于核对皎平渡、洪门渡、龙街渡、树桔渡的船工与渡江经过",
+        "url": "https://www.ynds.yn.gov.cn/html/2022/hongsedibiaoyunlingfengbei_0708/1157.html"
+      },
+      {
+        "title": "《红军巧渡金沙江到底“巧”在哪》",
+        "author": "新华网",
+        "year": 2016,
+        "note": "用于核对三路渡江、皎平渡 6 条船与 37 名船工、7 天 7 夜渡江",
+        "url": "http://www.xinhuanet.com/politics/2016-08/21/c_1119426923.htm"
+      }
+    ],
+    "relatedIds": [
+      "jinsha-campaign-1935-05",
+      "jinsha-1935-05",
+      "ferry-jiaopingdu-1935-05",
+      "kmt-jinsha-blockade-1935-05"
+    ],
+    "endDate": "1935-05-05",
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "shibanhe-defense-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "石板河阻击战",
+      "en": "Shibanhe Blocking Battle"
+    },
+    "aliases": [
+      {
+        "zh": "石板河战斗",
+        "en": "Battle of Shibanhe"
+      }
+    ],
+    "date": "1935-05-03",
+    "location": {
+      "lng": 102.55,
+      "lat": 26.15,
+      "place": {
+        "zh": "云南禄劝石板河小庙垭口一带",
+        "en": "Xiaomiao pass area, Shibanhe, Luquan, Yunnan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红五军团在石板河阻击国民党军 7 昼夜，掩护主力渡江。",
+      "en": "The Fifth Army Corps blocked KMT forces at Shibanhe for seven days and nights, covering the main force’s crossing."
+    },
+    "description": {
+      "zh": "1935 年 5 月 3 日，红五军团奉命在禄劝石板河一线构筑阵地，阻击尾追的国民党军万耀煌第 13 师等部，掩护中央纵队从皎平渡渡江。红军依托小庙垭口等险要地形，坚守 7 昼夜，打退敌军多次进攻；5 月 9 日完成掩护任务后，撤出阵地，急行军至皎平渡过江。本坐标为石板河/小庙垭口代表点，具体战壕与阵地待实测。",
+      "en": "On 3 May 1935, the Fifth Army Corps was ordered to build positions at Shibanhe in Luquan to block the pursuing KMT 13th Division under Wan Yaohuang and cover the central column’s crossing at Jiaopingdu. Holding strong points such as the Xiaomiao pass, the corps resisted for seven days and nights and repulsed repeated attacks. On 9 May, after completing the mission, it withdrew and marched rapidly to Jiaopingdu to cross. The coordinate is a representative point at Shibanhe/Xiaomiao pass; the trenches and positions await verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《金沙激流》",
+        "author": "解放军报",
+        "year": 2026,
+        "note": "用于核对皎平渡指挥部、石板河阻击战、龙街与洪门受阻后的转进",
+        "url": "http://www.mod.gov.cn/gfbw/gfjy_index/16462706.html"
+      },
+      {
+        "title": "《红军巧渡金沙江 铁流后卫筑防线》",
+        "author": "央广网",
+        "year": 2019,
+        "note": "用于核对 37 名船工、6 条船与石板河 7 昼夜阻击",
+        "url": "http://news.cnr.cn/native/gd/20190721/t20190721_524699820.shtml"
+      },
+      {
+        "title": "《巧渡金沙江中路红军行军路线考察报告》",
+        "author": "陈宇（军事科学院）",
+        "year": 2024,
+        "note": "用于核对石板河、小庙垭口、皎平渡与中路红军行军里程",
+        "url": "http://zhzky.com/news?27569.html"
+      }
+    ],
+    "relatedIds": [
+      "jinsha-campaign-1935-05",
+      "jinsha-1935-05",
+      "ferry-jiaopingdu-1935-05",
+      "kmt-jinsha-blockade-1935-05"
+    ],
+    "endDate": "1935-05-09",
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "tongan-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "通安战斗",
+      "en": "Battle of Tongan"
+    },
+    "aliases": [
+      {
+        "zh": "夺取通安",
+        "en": "Capture of Tongan"
+      }
+    ],
+    "date": "1935-05-03",
+    "location": {
+      "lng": 102.325,
+      "lat": 26.353,
+      "place": {
+        "zh": "四川会理通安镇",
+        "en": "Tongan, Huili, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "军委干部团夺取通安，打开皎平渡北岸的前进通道。",
+      "en": "The CMC Cadre Regiment seized Tongan, opening the advance route north of Jiaopingdu."
+    },
+    "description": {
+      "zh": "1935 年 5 月 3 日至 4 日，军委干部团在陈赓、宋任穷率领下渡过金沙江，向通安推进，击溃川军刘元瑭部，占领通安镇，保障了皎平渡渡口北岸的安全。通安是皎平渡通往会理的要道。本坐标为通安镇代表点，具体战斗阵地待考。",
+      "en": "On 3–4 May 1935, the CMC Cadre Regiment under Chen Geng and Song Renqiong crossed the Jinsha River and advanced on Tongan, routing Liu Yuantang’s Sichuan troops and seizing the town, securing the north bank at Jiaopingdu. Tongan was the key route from Jiaopingdu to Huili. The coordinate is a representative point for Tongan; the exact positions await verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《第十章 巧渡金沙江》",
+        "author": "人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对三路部署、皎平渡夺船、通安战斗与石板河阻击战",
+        "url": "http://dangshi.people.com.cn/n1/2016/0814/c406330-28634787.html"
+      },
+      {
+        "title": "《金沙激流》",
+        "author": "解放军报",
+        "year": 2026,
+        "note": "用于核对皎平渡指挥部、石板河阻击战、龙街与洪门受阻后的转进",
+        "url": "http://www.mod.gov.cn/gfbw/gfjy_index/16462706.html"
+      },
+      {
+        "title": "《金沙水拍云崖暖——云南船工帮助红军抢渡金沙江》",
+        "author": "中共云南党史网",
+        "year": 2022,
+        "note": "用于核对皎平渡、洪门渡、龙街渡、树桔渡的船工与渡江经过",
+        "url": "https://www.ynds.yn.gov.cn/html/2022/hongsedibiaoyunlingfengbei_0708/1157.html"
+      }
+    ],
+    "relatedIds": [
+      "jinsha-campaign-1935-05",
+      "jinsha-1935-05",
+      "ferry-jiaopingdu-1935-05",
+      "jiaopingdu-command-1935-05"
+    ],
+    "endDate": "1935-05-04",
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "ferry-hongmendu-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "洪门渡",
+      "en": "Hongmen Ferry"
+    },
+    "aliases": [
+      {
+        "zh": "河门渡",
+        "en": "Hemen Ferry"
+      },
+      {
+        "zh": "可河渡口",
+        "en": "Kehe Ferry"
+      }
+    ],
+    "date": "1935-05-04",
+    "location": {
+      "lng": 102.575,
+      "lat": 26.405,
+      "place": {
+        "zh": "云南禄劝洪门渡（北岸为四川会东可河）",
+        "en": "Hongmen Ferry, Luquan, Yunnan (Kehe, Huidong, Sichuan on the north bank)"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "渡口",
+    "summary": {
+      "zh": "红三军团在洪门渡架桥未成，仅红十三团由一只木船渡过，主力转赴皎平渡。",
+      "en": "The Third Army Corps failed to bridge the Hongmen Ferry; only the 13th Regiment crossed by a single boat, and the main force shifted to Jiaopingdu."
+    },
+    "description": {
+      "zh": "1935 年 5 月 3 日，红三军团先头部队到达禄劝洪门渡，江面不宽但水流湍急，架设浮桥被冲毁。红军找到一只小木船，在船工帮助下昼夜摆渡，仅红十三团渡过金沙江，占领北岸可河街。5 月 5 日，红三军团主力奉命逆江而上，转赴皎平渡。本坐标为洪门渡/可河渡口代表点。",
+      "en": "On 3 May 1935, the advance guard of the Third Army Corps reached Hongmen Ferry in Luquan. The river was narrow but swift, and the pontoon bridge was swept away. The Red Army found a small boat and, with local boatmen, ferried the 13th Regiment across to seize Kehe Street on the north bank. On 5 May the main force was ordered upstream to Jiaopingdu. The coordinate is a representative point at the Hongmen/Kehe ferry."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红军长征过会东：诱敌佯攻英雄不为身后名》",
+        "author": "凉山新闻网",
+        "year": 2021,
+        "note": "用于核对洪门渡/可河渡口、红十三团渡江与红九军团树桔渡经过",
+        "url": "http://m.yizuren.com/social/shgc/41641.html"
+      },
+      {
+        "title": "《金沙水拍云崖暖——云南船工帮助红军抢渡金沙江》",
+        "author": "中共云南党史网",
+        "year": 2022,
+        "note": "用于核对皎平渡、洪门渡、龙街渡、树桔渡的船工与渡江经过",
+        "url": "https://www.ynds.yn.gov.cn/html/2022/hongsedibiaoyunlingfengbei_0708/1157.html"
+      },
+      {
+        "title": "《第十章 巧渡金沙江》",
+        "author": "人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对三路部署、皎平渡夺船、通安战斗与石板河阻击战",
+        "url": "http://dangshi.people.com.cn/n1/2016/0814/c406330-28634787.html"
+      }
+    ],
+    "relatedIds": [
+      "jinsha-campaign-1935-05",
+      "jinsha-1935-05",
+      "ferry-jiaopingdu-1935-05",
+      "kmt-jinsha-blockade-1935-05"
+    ],
+    "endDate": "1935-05-07",
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "ferry-shujudu-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "树桔渡",
+      "en": "Shuju Ferry"
+    },
+    "aliases": [
+      {
+        "zh": "树桔渡口",
+        "en": "Shuju Crossing"
+      },
+      {
+        "zh": "东川树桔渡",
+        "en": "Shuju Ferry, Dongchuan"
+      }
+    ],
+    "date": "1935-05-04",
+    "location": {
+      "lng": 102.95,
+      "lat": 26.28,
+      "place": {
+        "zh": "云南东川拖布卡镇树桔村金沙江渡口",
+        "en": "Shuju Village, Tuobuka, Dongchuan, Yunnan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "渡口",
+    "summary": {
+      "zh": "红九军团从树桔渡渡过金沙江，完成侧翼牵制任务。",
+      "en": "The Ninth Army Corps crossed the Jinsha River at Shuju Ferry, completing its flanking and diversion task."
+    },
+    "description": {
+      "zh": "1935 年 5 月 4 日，红九军团先头部队到达东川树桔渡，在船工帮助下打捞修补一只沉船，连夜摆渡 13 次，将 200 余人送过江。随后红军夺取北岸汪家坪盐场，打捞被封沉的盐船，5 月 5 日至 6 日全军团 3400 余人由树桔渡渡过金沙江。本坐标为树桔渡代表点，渡江指挥所旧址在白鹤滩蓄水前位于树桔村田尾巴。",
+      "en": "On 4 May 1935, the advance guard of the Ninth Army Corps reached Shuju Ferry in Dongchuan. With local boatmen they raised and repaired a sunken boat and ferried more than 200 men across in 13 trips overnight. The Red Army then seized the Wangjiaping salt works on the north bank and recovered the sunken salt boats; on 5–6 May the entire corps of more than 3,400 crossed at Shuju. The coordinate is a representative point at Shuju Ferry; the crossing command site stood at Tianweiba, Shuju Village, before the Baihetan reservoir."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《东川：依托树桔红军渡 大力发展红色旅游》",
+        "author": "昆明信息港",
+        "year": 2021,
+        "note": "用于核对树桔渡位置、红九军团渡江与 40 多名船工",
+        "url": "https://www.kunming.cn/news/c/2021-04-10/13200894.shtml"
+      },
+      {
+        "title": "《红军长征过会东：诱敌佯攻英雄不为身后名》",
+        "author": "凉山新闻网",
+        "year": 2021,
+        "note": "用于核对洪门渡/可河渡口、红十三团渡江与红九军团树桔渡经过",
+        "url": "http://m.yizuren.com/social/shgc/41641.html"
+      },
+      {
+        "title": "《金沙水拍云崖暖——云南船工帮助红军抢渡金沙江》",
+        "author": "中共云南党史网",
+        "year": 2022,
+        "note": "用于核对皎平渡、洪门渡、龙街渡、树桔渡的船工与渡江经过",
+        "url": "https://www.ynds.yn.gov.cn/html/2022/hongsedibiaoyunlingfengbei_0708/1157.html"
+      }
+    ],
+    "relatedIds": [
+      "jinsha-campaign-1935-05",
+      "jinsha-1935-05",
+      "kmt-jinsha-blockade-1935-05"
+    ],
+    "endDate": "1935-05-06",
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "jiaopingdu-command-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "皎平渡渡江指挥部",
+      "en": "Jiaopingdu Crossing Command"
+    },
+    "aliases": [
+      {
+        "zh": "渡江司令部",
+        "en": "River Crossing Command"
+      },
+      {
+        "zh": "北岸红军洞",
+        "en": "Red Army Cave on the North Bank"
+      }
+    ],
+    "date": "1935-05-04",
+    "location": {
+      "lng": 102.382,
+      "lat": 26.291,
+      "place": {
+        "zh": "云南禄劝皎平渡北岸岩洞（今属四川会理中武山）",
+        "en": "Cave on the north bank at Jiaopingdu (now Zhongwushan, Huili, Sichuan)"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "红军在皎平渡北岸岩洞设立渡江指挥部，统一调度全军渡江。",
+      "en": "The Red Army set up a crossing command in a cave on the north bank at Jiaopingdu to coordinate the crossing."
+    },
+    "description": {
+      "zh": "1935 年 5 月 4 日，毛泽东、朱德、周恩来等率军委纵队从皎平渡过江后，在江北岸一孔天然岩洞设立渡江指挥部，由刘伯承任司令员、陈云任政委，颁布《渡江守则》，统一调度船只、船工与各部队渡江顺序。指挥部同时处理电报、筹粮与船工保障，是皎平渡 7 天 7 夜有序渡江的中枢。本坐标为北岸红军洞代表点，原洞已在乌东德水库蓄水后淹没，现为原址附近纪念点。",
+      "en": "After Mao Zedong, Zhu De, Zhou Enlai, and the CMC column crossed at Jiaopingdu on 4 May 1935, they established a crossing command in a natural cave on the north bank. Liu Bocheng served as commander and Chen Yun as political commissar; the command issued the “Crossing Rules” and coordinated boats, boatmen, and the crossing order of each unit. It also handled telegrams, grain, and boatmen’s support, forming the hub of the seven-day crossing. The coordinate is a representative point at the north-bank Red Army cave; the original cave was submerged by the Wudongde reservoir, and a memorial now stands nearby."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《金沙激流》",
+        "author": "解放军报",
+        "year": 2026,
+        "note": "用于核对皎平渡指挥部、石板河阻击战、龙街与洪门受阻后的转进",
+        "url": "http://www.mod.gov.cn/gfbw/gfjy_index/16462706.html"
+      },
+      {
+        "title": "《严守纪律 胜利渡江》",
+        "author": "中共云南党史网",
+        "year": 2025,
+        "note": "用于核对《渡江守则》、船只编号与各军团渡江顺序",
+        "url": "https://www.ynds.yn.gov.cn/html/2025/zhongyanghongjunqiaodujinshajiang_0428/1002820.html"
+      },
+      {
+        "title": "《第十章 巧渡金沙江》",
+        "author": "人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对三路部署、皎平渡夺船、通安战斗与石板河阻击战",
+        "url": "http://dangshi.people.com.cn/n1/2016/0814/c406330-28634787.html"
+      }
+    ],
+    "relatedIds": [
+      "jinsha-campaign-1935-05",
+      "jinsha-1935-05",
+      "ferry-jiaopingdu-1935-05",
+      "tongan-1935-05"
+    ],
+    "endDate": "1935-05-09",
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "huili-siege-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "会理攻城",
+      "en": "Siege of Huili"
+    },
+    "aliases": [
+      {
+        "zh": "围攻会理",
+        "en": "Encircling Huili"
+      },
+      {
+        "zh": "会理攻坚战",
+        "en": "Assault on Huili"
+      }
+    ],
+    "date": "1935-05-08",
+    "location": {
+      "lng": 102.244,
+      "lat": 26.665,
+      "place": {
+        "zh": "四川会理古城",
+        "en": "Huili old city, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红三军团围攻会理城 7 天 7 夜，未克后撤围北上。",
+      "en": "The Third Army Corps besieged Huili for seven days and nights before withdrawing and moving north."
+    },
+    "description": {
+      "zh": "1935 年 5 月 8 日，红三军团到达会理城郊，夺取城东东山寺、城西南西来寺等制高点，包围会理城；9 日，军委干部团加入攻城。红军主攻北、西两面，连续攻城并挖掘坑道，14 日以棺材装火药炸开西北角城墙，守军刘元瑭部堵住缺口，红军攻城未克。7 天 7 夜后，中革军委决定停止攻城，撤围北上。本坐标为会理古城代表点，具体攻城阵地待考。",
+      "en": "On 8 May 1935, the Third Army Corps reached the outskirts of Huili, seized the Dongshan and Xilai temples and other high ground, and encircled the city; on 9 May the CMC Cadre Regiment joined the assault. The Red Army attacked the north and west sides, dug tunnels, and on 14 May blew a breach in the northwest wall with gunpowder packed in a coffin, but Liu Yuantang’s defenders sealed it. After seven days and nights, the CMC ordered the siege lifted and the army moved north. The coordinate is a representative point for Huili old city; the exact assault positions await verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《走进会理古城 聆听红色故事》",
+        "author": "凉山新闻网",
+        "year": 2021,
+        "note": "用于核对会理攻城 7 天 7 夜、刘元瑭烧城外民房与爆破经过",
+        "url": "https://www.yixueyanjiu.com/newsview.jsp?class=8&id=33997"
+      },
+      {
+        "title": "《会理会议》",
+        "author": "人民网·党史频道",
+        "year": 2012,
+        "note": "用于核对会理会议背景、林彪信件与北上决定",
+        "url": "http://dangshi.people.com.cn/n/2012/1126/c85037-19699758.html"
       },
       {
         "title": "《红军长征史》",
         "author": "中共中央党史研究室第一研究部",
         "year": 2006,
-        "note": "路线走向参考，坐标为示意简化"
-      },
-      {
-        "title": "《红军长征·文献》",
-        "author": "中国人民解放军历史资料丛书编审委员会",
-        "year": 1995,
-        "note": "用于核对「巧渡金沙江」的行军日期、渡口/山口与路线走向"
+        "note": "用于核对会理会议、彝海结盟与北上大渡河的时间线"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "huili-1935-05",
+      "kmt-huili-defense-1935-05",
+      "tongan-1935-05",
+      "jinsha-campaign-1935-05"
+    ],
+    "endDate": "1935-05-15",
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "kmt-huili-defense-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "川军会理防线",
+      "en": "Sichuan Army’s Huili Defense"
+    },
+    "aliases": [
+      {
+        "zh": "刘元瑭部会理守城",
+        "en": "Liu Yuantang’s Defense of Huili"
+      },
+      {
+        "zh": "会理城防",
+        "en": "Huili City Defenses"
+      }
+    ],
+    "date": "1935-05-08",
+    "location": {
+      "lng": 102.244,
+      "lat": 26.665,
+      "place": {
+        "zh": "四川会理古城",
+        "en": "Huili old city, Sichuan"
+      }
+    },
+    "entityIds": [
+      "kmt-sichuan-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "川军刘元瑭部死守会理，烧毁城外民房、封闭城门，红军攻城未克。",
+      "en": "Liu Yuantang’s Sichuan troops held Huili, burning houses outside the walls and sealing the gates; the Red Army failed to take the city."
+    },
+    "description": {
+      "zh": "1935 年 5 月，川军刘元瑭部（第 7 师等）防守会理城。守军为清除射界，用煤油、棉花烧毁城外北关、西关、东关民房，封闭四门，撬起街石堵塞城门，并强迫军警死守。红三军团与军委干部团围攻 7 天 7 夜，爆破西北角城墙后，刘元瑭亲自率部堵击，面部受伤，仍堵住缺口。红军撤围后，守军仍固守会理。本坐标为会理古城代表点，具体城防工事待考。",
+      "en": "In May 1935, Liu Yuantang’s Sichuan troops (including the 7th Division) defended Huili. To clear fields of fire, they burned houses in the north, west, and east suburbs with kerosene and cotton, sealed the four gates, pried up street stones to block the gateways, and ordered the garrison to hold to the death. The Third Army Corps and the CMC Cadre Regiment besieged the city for seven days and nights; after the northwest wall was breached, Liu Yuantang personally led the counterattack, was wounded in the face, and sealed the gap. The Red Army withdrew, and the garrison held Huili. The coordinate is a representative point for the old city; the exact defenses await verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《走进会理古城 聆听红色故事》",
+        "author": "凉山新闻网",
+        "year": 2021,
+        "note": "用于核对会理攻城 7 天 7 夜、刘元瑭烧城外民房与爆破经过",
+        "url": "https://www.yixueyanjiu.com/newsview.jsp?class=8&id=33997"
+      },
+      {
+        "title": "《会理会议》",
+        "author": "人民网·党史频道",
+        "year": 2012,
+        "note": "用于核对会理会议背景、林彪信件与北上决定",
+        "url": "http://dangshi.people.com.cn/n/2012/1126/c85037-19699758.html"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对他们会理攻城、泸沽分兵与彝海结盟的电文和行军路线"
+      }
+    ],
+    "relatedIds": [
+      "huili-siege-1935-05",
+      "huili-1935-05",
+      "tongan-1935-05"
+    ],
+    "endDate": "1935-05-15",
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "huili-1935-05",
     "atlasId": "long-march",
     "name": {
       "zh": "会理会议",
-      "en": "Huili meeting"
+      "en": "Huili Meeting"
     },
     "date": "1935-05-12",
     "location": {
-      "lng": 102.25,
-      "lat": 26.66,
+      "lng": 102.281,
+      "lat": 26.703,
       "place": {
-        "zh": "四川会理",
-        "en": "Huili, Sichuan"
+        "zh": "四川会理城北铁厂村",
+        "en": "Tiechang Village north of Huili, Sichuan"
       }
     },
     "entityIds": [
@@ -4174,35 +5370,274 @@
     ],
     "category": "重要会议",
     "summary": {
-      "zh": "会理会议统一战略思想，决定继续北上。",
-      "en": "The Huili meeting unifies strategic thinking and decides to continue north."
+      "zh": "中央政治局在会理城北铁厂村召开扩大会议，决定继续北上、抢渡大渡河。",
+      "en": "The Politburo held an enlarged meeting at Tiechang Village north of Huili and decided to continue north to force the Dadu River."
     },
     "description": {
-      "zh": "1935 年 5 月 12 日，中共中央政治局在四川会理召开扩大会议，批评了要求改变中央红军北上方针的意见，决定继续北上与红四方面军会合。",
-      "en": "On May 12, 1935, the Political Bureau held an enlarged meeting at Huili, Sichuan. It criticized views that sought to change the northward strategy and decided to continue north to join the Fourth Front Army."
+      "zh": "1935 年 5 月 12 日，中共中央政治局在会理城北铁厂村召开扩大会议，总结遵义会议以来的战略方针，批评部分同志对机动作战的怀疑，决定继续北上、越大渡河与红四方面军会合，并任命刘伯承为先遣队司令员、聂荣臻为政委。会议先在树林草棚中举行，因敌机侦察，后转移到平安寺继续。与会人员记载略有出入，本条目只列主要人员。本坐标为铁厂村会理会议纪念地代表点。",
+      "en": "On 12 May 1935, the CCP Politburo held an enlarged meeting at Tiechang Village north of Huili. It reviewed the strategy since the Zunyi Conference, criticized doubts about mobile warfare, decided to continue north across the Dadu River to join the Fourth Front Army, and appointed Liu Bocheng as advance detachment commander and Nie Rongzhen as political commissar. The meeting began in a makeshift shelter in the woods and moved to Ping’an Temple because of enemy air reconnaissance. Accounts of attendees differ slightly; this entry lists only the main participants. The coordinate is a representative point at the Tiechang meeting memorial site."
     },
     "images": [],
     "sources": [
       {
-        "title": "《中国共产党历史》第一卷",
-        "author": "中共中央党史研究室",
-        "year": 2011,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "title": "《会理会议纪念地：长征入川“第一会”》",
+        "author": "四川在线·凉山频道",
+        "year": 2021,
+        "note": "用于核对会理会议时间、铁厂村地点、草棚与平安寺转移",
+        "url": "https://liangshan.scol.com.cn/sp/202102/58042513.html"
+      },
+      {
+        "title": "《历史上的今天——纪念会理会议八十五周年》",
+        "author": "会理市红军长征过会理纪念馆",
+        "year": 2020,
+        "note": "用于核对会理会议与会人员、会议决定与平安寺结束",
+        "url": "https://www.hlhjczjng.cn/productshow.aspx?id=145&mid=361"
+      },
+      {
+        "title": "《会理会议》",
+        "author": "人民网·党史频道",
+        "year": 2012,
+        "note": "用于核对会理会议背景、林彪信件与北上决定",
+        "url": "http://dangshi.people.com.cn/n/2012/1126/c85037-19699758.html"
+      }
+    ],
+    "relatedIds": [
+      "jinsha-campaign-1935-05",
+      "tongan-1935-05",
+      "huili-siege-1935-05",
+      "lugu-fenbing-1935-05",
+      "yihai-1935-05"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "lugu-fenbing-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "泸沽分兵",
+      "en": "Lugu Diversion"
+    },
+    "aliases": [
+      {
+        "zh": "泸沽改道",
+        "en": "Lugu Route Change"
+      },
+      {
+        "zh": "泸沽决策",
+        "en": "Lugu Decision"
+      }
+    ],
+    "date": "1935-05-20",
+    "location": {
+      "lng": 102.193,
+      "lat": 28.294,
+      "place": {
+        "zh": "四川冕宁泸沽镇",
+        "en": "Lugu, Mianning, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "刘伯承、聂荣臻在泸沽决定走冕宁—拖乌—安顺场小路，另派红五团佯动大树堡。",
+      "en": "At Lugu, Liu Bocheng and Nie Rongzhen decided to take the Mianning–Tuowu–Anshunchang trail and sent the Fifth Regiment to feint at Dashubao."
+    },
+    "description": {
+      "zh": "1935 年 5 月 20 日晚，红军先遣队在冕宁泸沽决定改变原定经越西、大树堡的大路，改走冕宁、大桥、拖乌、彝海至安顺场的小路，以避开川军重兵；同时派左权、刘亚楼率红一军团第二师第五团等向越西、大树堡方向佯动，迷惑富林之敌。21 日，中革军委复电同意。本坐标为泸沽镇代表点。",
+      "en": "On the night of 20 May 1935, the Red Army advance detachment at Lugu in Mianning decided to abandon the main road via Yuexi and Dashubao for the trail through Mianning, Daqiao, Tuowu, and Yihai to Anshunchang, avoiding the main Sichuan forces. At the same time, Zuo Quan and Liu Yalou led the Fifth Regiment of the Second Division toward Yuexi and Dashubao as a feint to deceive the enemy at Fulin. On 21 May the CMC approved the change. The coordinate is a representative point for Lugu."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抢渡大渡河之三：泸沽改道分兵》",
+        "author": "四川省地方志工作办公室",
+        "year": 2022,
+        "note": "用于核对泸沽分兵、走冕宁小路与左权、刘亚楼佯动",
+        "url": "http://scdfz.sc.gov.cn/whzh/hswh/content_102979"
+      },
+      {
+        "title": "《抢渡大渡河之五：彝海结盟》",
+        "author": "四川省地方志工作办公室",
+        "year": 2022,
+        "note": "用于核对先遣队经大桥、喇嘛房到彝海的行军与结盟经过",
+        "url": "http://scdfz.sc.gov.cn/whzh/hswh/content_103068"
       },
       {
         "title": "《红军长征史》",
         "author": "中共中央党史研究室第一研究部",
         "year": 2006,
-        "note": "路线走向参考，坐标为示意简化"
-      },
-      {
-        "title": "《毛泽东年谱（1893—1949）》",
-        "author": "中共中央文献研究室",
-        "year": 2013,
-        "note": "用于核对「会理会议」的会议日期、地点与主要决议"
+        "note": "用于核对会理会议、彝海结盟与北上大渡河的时间线"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "yihai-1935-05",
+      "mianning-1935-05",
+      "dashubao-feint-1935-05",
+      "dadu-campaign-1935-05"
+    ],
+    "endDate": "1935-05-21",
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "mianning-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "占领冕宁",
+      "en": "Seizure of Mianning"
+    },
+    "aliases": [
+      {
+        "zh": "红军过冕宁",
+        "en": "The Red Army in Mianning"
+      },
+      {
+        "zh": "冕宁革命委员会成立",
+        "en": "Establishment of the Mianning Revolutionary Committee"
+      }
+    ],
+    "date": "1935-05-21",
+    "location": {
+      "lng": 102.17,
+      "lat": 28.551,
+      "place": {
+        "zh": "四川冕宁县城",
+        "en": "Mianning county town, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "红军先遣队进入冕宁，释放“换班坐质”彝族首领，随后成立冕宁县革命委员会。",
+      "en": "The Red Army advance detachment entered Mianning, released Yi hostages held under the rotation-hostage system, and later established the Mianning Revolutionary Committee."
+    },
+    "description": {
+      "zh": "1935 年 5 月 21 日凌晨，刘伯承、聂荣臻率先遣队到达冕宁县城，在地下党配合下进城，释放被扣押的彝族“换班坐质”人质，焚毁强迫签署的文书，宣布废除换班坐质制度。5 月 23 日，红军在冕宁文庙召开群众大会，成立冕宁县革命委员会，陈野苹任主席、李井泉任副主席，并成立抗捐军。本坐标为冕宁县城代表点。",
+      "en": "In the early hours of 21 May 1935, Liu Bocheng and Nie Rongzhen led the advance detachment into Mianning county town with local underground party support. They released Yi hostages held under the rotation-hostage system, burned the forced agreements, and abolished the system. On 23 May the Red Army held a mass meeting at the Mianning Confucian temple and established the Mianning County Revolutionary Committee, with Chen Yeping as chairman and Li Jingquan as vice chairman, along with an anti-tax militia. The coordinate is a representative point for the county town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《袁居海子的故事》",
+        "author": "四川省地方志工作办公室",
+        "year": 2023,
+        "note": "用于核对彝海结盟时间、地点、结盟仪式与队旗授予",
+        "url": "http://scdfz.sc.gov.cn/whzh/hswh/content_113876"
+      },
+      {
+        "title": "《抢渡大渡河之三：泸沽改道分兵》",
+        "author": "四川省地方志工作办公室",
+        "year": 2022,
+        "note": "用于核对泸沽分兵、走冕宁小路与左权、刘亚楼佯动",
+        "url": "http://scdfz.sc.gov.cn/whzh/hswh/content_102979"
+      },
+      {
+        "title": "《彝海结盟，民族团结的生动写照》",
+        "author": "光明网",
+        "year": 2026,
+        "note": "用于核对《关于争取少数民族工作的训令》《中国工农红军布告》与结盟意义",
+        "url": "https://news.gmw.cn/2026-10/08/content_39033674.htm"
+      }
+    ],
+    "relatedIds": [
+      "lugu-fenbing-1935-05",
+      "yihai-1935-05",
+      "dashubao-feint-1935-05"
+    ],
+    "endDate": "1935-05-23",
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "yihai-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "彝海结盟",
+      "en": "Yihai Alliance"
+    },
+    "aliases": [
+      {
+        "zh": "彝海歃血为盟",
+        "en": "Blood Oath at Yihai"
+      },
+      {
+        "zh": "刘伯承与小叶丹结盟",
+        "en": "Alliance between Liu Bocheng and Xiaoyedan"
+      }
+    ],
+    "date": "1935-05-22",
+    "location": {
+      "lng": 102.302,
+      "lat": 28.886,
+      "place": {
+        "zh": "四川冕宁彝海镇彝海（袁居海子）",
+        "en": "Yihai (Yuanju Haizi), Yihai Town, Mianning, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "刘伯承与彝族果基家支首领小叶丹在彝海歃血为盟，红军顺利通过彝区。",
+      "en": "Liu Bocheng and Xiaoyedan, leader of the Yi Guji clan, swore a blood oath at Yihai, allowing the Red Army to pass through Yi territory."
+    },
+    "description": {
+      "zh": "1935 年 5 月 22 日，红军先遣队在冕宁以北彝海（袁居海子）与彝族果基家支首领果基约达（小叶丹）歃血为盟。因无酒，刘伯承以彝海水代酒，与小叶丹饮鸡血水结为兄弟；当晚授予小叶丹“中国夷民红军沽鸡支队”队旗，并赠送枪支。小叶丹随后派向导护送红军通过拖乌彝区，为强渡大渡河赢得时间。本坐标为彝海结盟取水点附近代表点。",
+      "en": "On 22 May 1935, the Red Army advance detachment swore a blood oath with Xiaoyedan (Guji Yueda), leader of the Yi Guji clan, at Yihai (Yuanju Haizi) north of Mianning. With no wine, Liu Bocheng used water from Yihai and drank chicken blood with Xiaoyedan as brothers. That evening he gave Xiaoyedan the banner of the “Chinese Yi Red Army Guji Detachment” and presented rifles. Xiaoyedan then sent guides to escort the Red Army through Tuowu Yi territory, gaining time for the Dadu River crossing. The coordinate is a representative point near the oath-taking site at Yihai."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《袁居海子的故事》",
+        "author": "四川省地方志工作办公室",
+        "year": 2023,
+        "note": "用于核对彝海结盟时间、地点、结盟仪式与队旗授予",
+        "url": "http://scdfz.sc.gov.cn/whzh/hswh/content_113876"
+      },
+      {
+        "title": "《抢渡大渡河之五：彝海结盟》",
+        "author": "四川省地方志工作办公室",
+        "year": 2022,
+        "note": "用于核对先遣队经大桥、喇嘛房到彝海的行军与结盟经过",
+        "url": "http://scdfz.sc.gov.cn/whzh/hswh/content_103068"
+      },
+      {
+        "title": "《小叶丹：与红军歃血为盟的彝族英雄》",
+        "author": "新华网",
+        "year": 2019,
+        "note": "用于核对小叶丹生平、结盟誓言与护送红军通过彝区",
+        "url": "https://www.xinhuanet.com/politics/2019-01/25/c_1124041864.htm"
+      },
+      {
+        "title": "《彝海结盟，民族团结的生动写照》",
+        "author": "光明网",
+        "year": 2026,
+        "note": "用于核对《关于争取少数民族工作的训令》《中国工农红军布告》与结盟意义",
+        "url": "https://news.gmw.cn/2026-10/08/content_39033674.htm"
+      }
+    ],
+    "relatedIds": [
+      "lugu-fenbing-1935-05",
+      "mianning-1935-05",
+      "dashubao-feint-1935-05",
+      "dadu-campaign-1935-05"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "dashubao-feint-1935-05",
@@ -4943,6 +6378,78 @@
     "importance": 2
   },
   {
+    "id": "dawei-meeting-1935-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "达维会师",
+      "en": "Dawei Meeting of Forces"
+    },
+    "aliases": [
+      {
+        "zh": "达维会合",
+        "en": "Dawei Junction"
+      },
+      {
+        "zh": "夹金山下的会师",
+        "en": "Meeting below Jiajin Mountain"
+      }
+    ],
+    "date": "1935-06-12",
+    "location": {
+      "lng": 102.634,
+      "lat": 30.967,
+      "place": {
+        "zh": "四川小金达维镇",
+        "en": "Dawei, Xiaojin, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army",
+      "red-4-army"
+    ],
+    "category": "会师",
+    "summary": {
+      "zh": "红一军团第二师第四团与红四方面军第九军第二十五师第七十四团在达维会师。",
+      "en": "The Fourth Regiment of the Second Division, First Army Corps, met the 74th Regiment of the 25th Division, Ninth Army, Fourth Front Army at Dawei."
+    },
+    "description": {
+      "zh": "1935 年 6 月 12 日，中央红军先头部队红一军团第二师第四团翻越夹金山后，在达维以南、夹金山北麓木城沟与红四方面军第九军第二十五师第七十四团相遇，双方吹号联络确认身份，在达维会师桥会合。6 月 17 日，毛泽东、周恩来、朱德等率中央机关到达达维，红二十五师列队迎接；6 月 18 日中央红军主力到达懋功，与红四方面军主力会师。本坐标为达维会师桥代表点。",
+      "en": "On 12 June 1935, the Fourth Regiment of the Second Division, First Army Corps, crossed the Jiajin Mountains and met the 74th Regiment of the 25th Division, Ninth Army, Fourth Front Army at Mucheng Gully below the mountain south of Dawei. The two sides identified each other by bugle calls and joined at the Dawei meeting bridge. On 17 June Mao Zedong, Zhou Enlai, Zhu De, and the central organs reached Dawei, where the 25th Division lined the road to welcome them; on 18 June the main force reached Maogong and met the main force of the Fourth Front Army. The coordinate is a representative point at the Dawei meeting bridge."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《懋功会师》",
+        "author": "中国军网",
+        "year": 2021,
+        "note": "用于核对达维会师时间、红四团与红七十四团会合及达维桥",
+        "url": "http://www.81.cn/2022zt/2021-10/17/content_10204936.htm"
+      },
+      {
+        "title": "《达维会师桥》",
+        "author": "小金县人民政府",
+        "year": 2025,
+        "note": "用于核对达维会师桥位置、尺寸与 6 月 12 日会师",
+        "url": "https://www.xiaojin.gov.cn/xjxrmzf/c101898/201909/36b3a51f60b24387a44870c618befceb.shtml"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对长征时间线与各阶段行动"
+      }
+    ],
+    "relatedIds": [
+      "jiajinshan-1935-06",
+      "maogong-1935-06",
+      "moxi-meeting-1935-05"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "maogong-1935-06",
     "atlasId": "long-march",
     "name": {
@@ -4992,7 +6499,83 @@
         "note": "用于核对「懋功会师」的会师时间、部队番号与地点"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "dawei-meeting-1935-06",
+      "jialing-jiang-1935-03"
+    ]
+  },
+  {
+    "id": "lianghekou-meeting-1935-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "两河口会议",
+      "en": "Lianghekou Meeting"
+    },
+    "aliases": [
+      {
+        "zh": "两河口政治局扩大会议",
+        "en": "Lianghekou Enlarged Politburo Meeting"
+      },
+      {
+        "zh": "懋功两河口会议",
+        "en": "Lianghekou Meeting at Maogong"
+      }
+    ],
+    "date": "1935-06-26",
+    "location": {
+      "lng": 102.489,
+      "lat": 31.49,
+      "place": {
+        "zh": "四川小金两河口镇",
+        "en": "Lianghekou, Xiaojin, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army",
+      "red-4-army"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "中央政治局在两河口决定集中主力北上，创造川陕甘根据地。",
+      "en": "The Politburo met at Lianghekou and decided to concentrate the main force northward to create the Sichuan–Shaanxi–Gansu base area."
+    },
+    "description": {
+      "zh": "1935 年 6 月 26 日，中央政治局在懋功以北两河口召开扩大会议，通过《关于一、四方面军会合后战略方针的决定》，决定集中主力向北进攻，在运动战中消灭敌人，首先取得甘肃南部，创造川陕甘苏区根据地。张国焘在会上表示同意，会后以“组织问题”为由拖延北上。本坐标为两河口镇代表点，会议会址待进一步落位。",
+      "en": "On 26 June 1935 the Politburo held an enlarged meeting at Lianghekou north of Maogong and adopted the “Decision on the Strategic Policy after the Meeting of the First and Fourth Front Armies”. It decided to concentrate the main force for a northward attack, destroy the enemy in mobile warfare, first take southern Gansu, and create the Sichuan–Shaanxi–Gansu Soviet base. Zhang Guotao agreed at the meeting but afterwards delayed the northward move on the pretext of “organizational questions”. The coordinate is a representative point at Lianghekou; the meeting site awaits further placement."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《两河口会议》",
+        "author": "中国共产党新闻网",
+        "year": 2006,
+        "note": "用于核对两河口会议日期、北上方针与张国焘的态度",
+        "url": "http://cpc.people.com.cn/GB/67481/68751/68761/4664065.html"
+      },
+      {
+        "title": "《长征途中中共中央召开过哪些重要会议？》",
+        "author": "人民网·党史学习教育官方网站",
+        "year": 2021,
+        "note": "用于核对两河口、沙窝、毛儿盖、俄界会议的先后与主题",
+        "url": "http://dangshi.people.com.cn/n1/2021/1129/c436975-32294130.html"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对长征时间线与会师后的行动"
+      }
+    ],
+    "relatedIds": [
+      "maogong-1935-06",
+      "luhua-meeting-1935-07",
+      "shawo-meeting-1935-08",
+      "maoergai-1935-08"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "six-counties-1935-06",
@@ -5273,6 +6856,80 @@
     "importance": 2
   },
   {
+    "id": "luhua-meeting-1935-07",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "芦花会议",
+      "en": "Luhua Meeting"
+    },
+    "aliases": [
+      {
+        "zh": "黑水芦花会议",
+        "en": "Luhua Meeting at Heishui"
+      },
+      {
+        "zh": "芦花政治局会议",
+        "en": "Luhua Politburo Meeting"
+      }
+    ],
+    "date": "1935-07-18",
+    "location": {
+      "lng": 102.99,
+      "lat": 32.062,
+      "place": {
+        "zh": "四川黑水芦花镇",
+        "en": "Luhua, Heishui, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army",
+      "red-4-army"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "中央政治局在芦花开会，解决统一指挥与四方面军工作问题。",
+      "en": "The Politburo met at Luhua to settle unified command and the work of the Fourth Front Army."
+    },
+    "description": {
+      "zh": "1935 年 7 月 18 日，中央政治局常委会议在芦花召开，同意周恩来辞去红军总政委，任命张国焘为红军总政委、军委总负责者；7 月 21—22 日政治局扩大会议听取张国焘、徐向前、陈昌浩关于红四方面军的报告，肯定其成绩，批评退出鄂豫皖、放弃通南巴等错误，并决定组织前敌总指挥部，徐向前任总指挥、陈昌浩任政委、叶剑英任参谋长。本坐标为芦花镇代表点，会址待进一步落位。",
+      "en": "On 18 July 1935 the Politburo Standing Committee met at Luhua and agreed that Zhou Enlai should resign as political commissar of the Red Army, appointing Zhang Guotao as political commissar and head of the Military Commission. On 21–22 July an enlarged Politburo meeting heard reports from Zhang Guotao, Xu Xiangqian, and Chen Changhao on the Fourth Front Army, affirmed its achievements, criticized errors including the withdrawal from the Hubei–Henan–Anhui base and the abandonment of Tongnanba, and decided to form the Front Command with Xu Xiangqian as commander, Chen Changhao as political commissar, and Ye Jianying as chief of staff. The coordinate is a representative point at Luhua; the meeting site awaits further placement."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红军长征在黑水——芦花会议》",
+        "author": "四川省情网",
+        "year": 2022,
+        "note": "用于核对芦花会议 7 月 18 日、21—22 日两段会议与组织决定",
+        "url": "http://scdfz.sc.gov.cn/whzh/hswh/content_101724"
+      },
+      {
+        "title": "《黑水红色文化》",
+        "author": "黑水县人民政府",
+        "year": 2022,
+        "note": "用于核对芦花会议会址、张国焘任总政委与前敌总指挥部",
+        "url": "http://www.heishui.gov.cn/hsxrmzf/c100135/201507/1469909edcbe41f8883bc748f09e2939.shtml"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对长征时间线与会师后的行动"
+      }
+    ],
+    "relatedIds": [
+      "lianghekou-meeting-1935-06",
+      "shawo-meeting-1935-08",
+      "maoergai-1935-08",
+      "maogong-1935-06"
+    ],
+    "endDate": "1935-07-22",
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "banliyuan-1935-08",
     "atlasId": "long-march",
     "name": {
@@ -5328,6 +6985,79 @@
     "importance": 2
   },
   {
+    "id": "shawo-meeting-1935-08",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "沙窝会议",
+      "en": "Shawo Meeting"
+    },
+    "aliases": [
+      {
+        "zh": "毛儿盖沙窝会议",
+        "en": "Shawo Meeting at Maoergai"
+      },
+      {
+        "zh": "沙窝政治局扩大会议",
+        "en": "Shawo Enlarged Politburo Meeting"
+      }
+    ],
+    "date": "1935-08-04",
+    "location": {
+      "lng": 103.023,
+      "lat": 32.547,
+      "place": {
+        "zh": "四川松潘毛儿盖沙窝（俄灯寨）",
+        "en": "Shawo (Edengzhai), Maoergai, Songpan, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "中央政治局在沙窝开会，重申北上方针，首次以中央文件使用“长征”一词。",
+      "en": "The Politburo met at Shawo, reaffirmed the northward policy, and first used the term “Long March” in a central document."
+    },
+    "description": {
+      "zh": "1935 年 8 月 4—6 日，中央政治局在毛儿盖附近沙窝（俄灯寨）召开扩大会议，讨论红一、四方面军会合后的形势与任务及组织问题；通过《关于一、四方面军会合后的政治形势与任务的决议》，重申两河口会议北上方针，强调党对红军的绝对领导和两军团结，增补陈昌浩、周纯全为政治局委员。决议中“红军一万八千里长征”是中央文件首次正式使用“长征”一词。本坐标为俄灯寨代表点。",
+      "en": "From 4 to 6 August 1935 the Politburo held an enlarged meeting at Shawo (Edengzhai) near Maoergai to discuss the situation and tasks after the meeting of the First and Fourth Front Armies, as well as organizational questions. It adopted the “Resolution on the Political Situation and Tasks after the Meeting of the First and Fourth Front Armies”, reaffirmed the northward policy of the Lianghekou meeting, stressed absolute Party leadership over the Red Army and unity between the two armies, and added Chen Changhao and Zhou Chunquan to the Politburo. The phrase “the Red Army’s 18,000-li Long March” in the resolution was the first formal use of “Long March” in a central document. The coordinate is a representative point at Edengzhai."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《沙窝会议：中央以正式文件形式首次使用“长征”一词》",
+        "author": "四川省情网",
+        "year": 2019,
+        "note": "用于核对沙窝会议 8 月 4—6 日、俄灯寨会址与“长征”一词",
+        "url": "http://scdfz.sc.gov.cn/ztzl/hjczzsc/zzhy/content_22698"
+      },
+      {
+        "title": "《沙窝会议》",
+        "author": "中国共产党新闻网",
+        "year": 2006,
+        "note": "用于核对沙窝会议议程、与会人员与组织增补",
+        "url": "http://cpc.people.com.cn/GB/67481/68751/68761/4664067.html"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对长征时间线与会师后的行动"
+      }
+    ],
+    "relatedIds": [
+      "lianghekou-meeting-1935-06",
+      "luhua-meeting-1935-07",
+      "maoergai-1935-08",
+      "baxi-meeting-1935-09"
+    ],
+    "endDate": "1935-08-06",
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "maoergai-1935-08",
     "atlasId": "long-march",
     "name": {
@@ -5336,11 +7066,11 @@
     },
     "date": "1935-08-20",
     "location": {
-      "lng": 103.6,
-      "lat": 32.65,
+      "lng": 103.063,
+      "lat": 32.601,
       "place": {
-        "zh": "四川松潘",
-        "en": "Songpan, Sichuan"
+        "zh": "四川松潘毛儿盖镇",
+        "en": "Maoergai, Songpan, Sichuan"
       }
     },
     "entityIds": [
@@ -5376,7 +7106,17 @@
         "note": "用于核对「毛儿盖会议」的会议日期、地点与主要决议"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "lianghekou-meeting-1935-06",
+      "luhua-meeting-1935-07",
+      "shawo-meeting-1935-08",
+      "baxi-meeting-1935-09",
+      "caodi-1935-08",
+      "baozuo-1935-08"
+    ],
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "sipocun-1935-08",
@@ -5444,15 +7184,16 @@
     "date": "1935-08-29",
     "endDate": "1935-08-31",
     "location": {
-      "lng": 103.4,
-      "lat": 33.4,
+      "lng": 103.367,
+      "lat": 33.47,
       "place": {
-        "zh": "四川若尔盖包座",
+        "zh": "四川若尔盖包座乡",
         "en": "Baozuo, Zoigê, Sichuan"
       }
     },
     "entityIds": [
-      "central-red-army"
+      "central-red-army",
+      "red-4-army"
     ],
     "category": "战斗",
     "summary": {
@@ -5486,9 +7227,13 @@
     ],
     "relatedIds": [
       "maoergai-1935-08",
-      "lazigou-1935-09"
+      "baxi-meeting-1935-09",
+      "caodi-1935-08"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "caodi-1935-08",
@@ -5545,7 +7290,156 @@
         "note": "用于核对「过草地」的行军日期、渡口/山口与路线走向"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "maoergai-1935-08",
+      "baxi-meeting-1935-09",
+      "ejie-meeting-1935-09"
+    ]
+  },
+  {
+    "id": "baxi-meeting-1935-09",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "巴西会议",
+      "en": "Baxi Meeting"
+    },
+    "aliases": [
+      {
+        "zh": "巴西紧急会议",
+        "en": "Baxi Emergency Meeting"
+      },
+      {
+        "zh": "阿西牙弄紧急会议",
+        "en": "Axi Yanong Emergency Meeting"
+      }
+    ],
+    "date": "1935-09-09",
+    "location": {
+      "lng": 103.234,
+      "lat": 33.607,
+      "place": {
+        "zh": "四川若尔盖巴西镇班佑寺",
+        "en": "Banyou Temple, Baxi, Zoigê, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army",
+      "red-4-army"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "中央在巴西召开紧急会议，决定率红一、红三军连夜北上。",
+      "en": "The central leadership held an emergency meeting at Baxi and decided to lead the First and Third Army Corps north that night."
+    },
+    "description": {
+      "zh": "1935 年 9 月 9 日，张国焘电令右路军南下，叶剑英获取密电后报告毛泽东。毛泽东、张闻天、博古等赶到红三军团驻地巴西，连夜召开政治局紧急会议，决定率红一、红三军和军委纵队一部立即北上，脱离险境，并发布《为执行北上方针告同志书》。9 月 10 日凌晨，中央率部离开巴西，向俄界前进。本坐标为巴西镇班佑寺代表点，阿西牙弄紧急会议会址待分别落位。",
+      "en": "On 9 September 1935 Zhang Guotao telegraphed the right column to move south. Ye Jianying obtained the telegram and reported it to Mao Zedong. Mao, Zhang Wentian, and Bo Gu rushed to the Third Army Corps headquarters at Baxi and held an emergency Politburo meeting that night. They decided to lead the First and Third Army Corps and part of the CMC column north immediately to escape the danger, and issued the “Letter to Comrades on Carrying Out the Northward Policy”. In the early hours of 10 September the central leadership left Baxi for Ejie. The coordinate is a representative point at Banyou Temple, Baxi; the Axi Yanong emergency meeting site awaits separate placement."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《巴西：见证红军路线斗争》",
+        "author": "若尔盖县人民政府",
+        "year": 2011,
+        "note": "用于核对巴西会议 9 月 9 日紧急会议、班佑寺与连夜北上",
+        "url": "https://www.ruoergai.gov.cn/regxrmzf/c100133/201106/d439c0d2e0b84e8589a919fa3f00d1ab.shtml"
+      },
+      {
+        "title": "《长征革命遗址、遗迹》",
+        "author": "若尔盖县人民政府",
+        "year": 2025,
+        "note": "用于核对巴西会议四处会址、阿西牙弄与班佑寺",
+        "url": "https://www.ruoergai.gov.cn/regxrmzf/c105376/202303/f66ee6ab86f044019bfbc9170a6fe707.shtml"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对长征时间线与会师后的行动"
+      }
+    ],
+    "relatedIds": [
+      "shawo-meeting-1935-08",
+      "maoergai-1935-08",
+      "ejie-meeting-1935-09",
+      "caodi-1935-08"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "ejie-meeting-1935-09",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "俄界会议",
+      "en": "Ejie Meeting"
+    },
+    "aliases": [
+      {
+        "zh": "俄界政治局扩大会议",
+        "en": "Ejie Enlarged Politburo Meeting"
+      },
+      {
+        "zh": "高吉村会议",
+        "en": "Gaoji Village Meeting"
+      }
+    ],
+    "date": "1935-09-12",
+    "location": {
+      "lng": 103.314,
+      "lat": 33.877,
+      "place": {
+        "zh": "甘肃迭部达拉乡高吉村（俄界）",
+        "en": "Gaoji Village (Ejie), Dala, Diebu, Gansu"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "中央政治局在俄界通过《关于张国焘同志的错误的决定》，整编陕甘支队。",
+      "en": "The Politburo met at Ejie, adopted the “Decision on Comrade Zhang Guotao’s Errors”, and reorganized the Shaanxi–Gansu Detachment."
+    },
+    "description": {
+      "zh": "1935 年 9 月 12 日，中央政治局在甘肃迭部俄界（今高吉村）召开扩大会议，听取毛泽东关于与四方面军领导者争论及今后战略方针的报告，通过《关于张国焘同志的错误的决定》，决定将红一、红三军和军委纵队整编为中国工农红军陕甘支队，彭德怀任司令员、毛泽东任政委，并成立由毛泽东、周恩来、王稼祥、彭德怀、林彪组成的五人团。本坐标为高吉村代表点，会址待进一步落位。",
+      "en": "On 12 September 1935 the Politburo held an enlarged meeting at Ejie (now Gaoji Village) in Diebu, Gansu. It heard Mao Zedong’s report on the dispute with the Fourth Front Army leadership and future strategy, adopted the “Decision on Comrade Zhang Guotao’s Errors”, and decided to reorganize the First and Third Army Corps and the CMC column into the Chinese Workers’ and Peasants’ Red Army Shaanxi–Gansu Detachment, with Peng Dehuai as commander and Mao Zedong as political commissar. It also formed a five-man group of Mao Zedong, Zhou Enlai, Wang Jiaxiang, Peng Dehuai, and Lin Biao. The coordinate is a representative point at Gaoji Village; the meeting site awaits further placement."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《俄界会议（1935年9月12日）》",
+        "author": "中共甘肃省委党史研究室",
+        "year": 2011,
+        "note": "用于核对俄界会议日期、高吉村、张国焘问题决定与陕甘支队整编",
+        "url": "http://www.gsds.gov.cn/dangshiyanjiu/zongheyanjiu/20110516/221922092aef35.htm"
+      },
+      {
+        "title": "《长征途中中共中央召开过哪些重要会议？》",
+        "author": "人民网·党史学习教育官方网站",
+        "year": 2021,
+        "note": "用于核对两河口、沙窝、毛儿盖、俄界会议的先后与主题",
+        "url": "http://dangshi.people.com.cn/n1/2021/1129/c436975-32294130.html"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对长征时间线与会师后的行动"
+      }
+    ],
+    "relatedIds": [
+      "baxi-meeting-1935-09",
+      "lazigou-1935-09",
+      "hadapu-1935-09",
+      "bangluo-1935-09"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "yongping-1935-09",
@@ -5711,7 +7605,9 @@
         "note": "用于核对「腊子口战斗」的战斗时间、地点与路线走向"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "ejie-meeting-1935-09"
+    ]
   },
   {
     "id": "hadapu-1935-09",
@@ -5762,7 +7658,10 @@
         "note": "用于核对「哈达铺整编」的行军日期、渡口/山口与路线走向"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "ejie-meeting-1935-09",
+      "bangluo-1935-09"
+    ]
   },
   {
     "id": "red15-formed-1935-09",
@@ -5871,7 +7770,8 @@
     ],
     "relatedIds": [
       "hadapu-1935-09",
-      "wuqi-1935-10"
+      "wuqi-1935-10",
+      "ejie-meeting-1935-09"
     ],
     "importance": 1
   },
@@ -5987,6 +7887,149 @@
     "importance": 2
   },
   {
+    "id": "qingshizui-1935-10",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "青石嘴战斗",
+      "en": "Battle of Qingshizui"
+    },
+    "aliases": [
+      {
+        "zh": "青石嘴突袭",
+        "en": "Qingshizui Raid"
+      },
+      {
+        "zh": "六盘山首战",
+        "en": "First Battle after Liupan Mountain"
+      }
+    ],
+    "date": "1935-10-07",
+    "location": {
+      "lng": 106.272,
+      "lat": 35.799,
+      "place": {
+        "zh": "宁夏固原青石嘴",
+        "en": "Qingshizui, Guyuan, Ningxia"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "陕甘支队在青石嘴突袭东北军骑兵运输队，缴获战马百余匹。",
+      "en": "The Shaanxi–Gansu Detachment raided an Northeast Army cavalry supply column at Qingshizui, capturing over 100 horses."
+    },
+    "description": {
+      "zh": "1935 年 10 月 7 日，陕甘支队翻越六盘山后，前卫在青石嘴附近抓获敌军便衣侦察员，得知东北军骑兵第七师第十九团两个连正在青石嘴休整。毛泽东决定突袭，以第四大队正面攻击、第一和第五大队两翼迂回、第十三大队后卫掩护，经约半小时战斗，歼敌 200 余人，缴获战马 100 余匹及大批弹药。红军以此组建第一支骑兵侦察连。本坐标为青石嘴村代表点，具体战场待考。",
+      "en": "On 7 October 1935, after crossing the Liupan Mountains, the Shaanxi–Gansu Detachment’s advance guard captured enemy plainclothes scouts near Qingshizui and learned that two companies of the 19th Regiment, 7th Cavalry Division, Northeast Army, were resting there. Mao Zedong ordered a surprise attack: the 4th Battalion attacked frontally, the 1st and 5th Battalions swept the flanks, and the 13th Battalion covered the rear. In about half an hour the Red Army killed or wounded more than 200 enemy soldiers and captured over 100 horses and large quantities of ammunition. The captured horses were used to form the Red Army’s first cavalry reconnaissance company. The coordinate is a representative point at Qingshizui village; the exact battlefield awaits verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《青石嘴战斗：红军翻越六盘山后的首战大捷》",
+        "author": "中国军网",
+        "year": 2026,
+        "note": "用于核对青石嘴战斗部署、半小时战斗与缴获战马",
+        "url": "http://www.81.cn/js_208592/16471171.html"
+      },
+      {
+        "title": "《青石嘴战斗打出红军第一支骑兵侦察连》",
+        "author": "新华网",
+        "year": 2019,
+        "note": "用于核对青石嘴位置、东北军骑兵番号与骑兵侦察连诞生",
+        "url": "https://www.xinhuanet.com/politics/2019-08/15/c_1124880704.htm"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对长征时间线与各阶段行动"
+      }
+    ],
+    "relatedIds": [
+      "kmt-qingshizui-1935-10",
+      "wuqi-1935-10",
+      "qieweiba-1935-10"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "suichongdanmao-1935-10",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "绥崇丹懋战役",
+      "en": "Suichong Danmao Campaign"
+    },
+    "aliases": [
+      {
+        "zh": "绥丹崇懋战役",
+        "en": "Suidan Chongmao Campaign"
+      },
+      {
+        "zh": "红四方面军南下第一阶段",
+        "en": "First Stage of the Fourth Front Army’s Southward Move"
+      }
+    ],
+    "date": "1935-10-08",
+    "location": {
+      "lng": 101.883,
+      "lat": 30.879,
+      "place": {
+        "zh": "四川丹巴县城",
+        "en": "Danba county town, Sichuan"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红四方面军南下，攻占绥靖、崇化、丹巴、懋功。",
+      "en": "The Fourth Front Army moved south and took Suijing, Chonghua, Danba, and Maogong."
+    },
+    "description": {
+      "zh": "1935 年 10 月 8 日至 20 日，红四方面军执行《绥丹崇懋战役计划》，王树声率右纵队沿大金川南下夺取绥靖、丹巴，徐向前、陈昌浩率左纵队沿抚边河南下夺取懋功、达维。经 12 天战斗，击溃川军 6 个旅，占领绥靖、崇化、丹巴、懋功等地，为南下天全、芦山打开通道。本坐标为丹巴县城代表点，绥靖、崇化、懋功待分别落位。",
+      "en": "From 8 to 20 October 1935, the Fourth Front Army carried out the “Suidan Chongmao Campaign Plan”. Wang Shusheng led the right column south along the Dajin River to take Suijing and Danba, while Xu Xiangqian and Chen Changhao led the left column south along the Fubian River to take Maogong and Dawei. In twelve days of fighting they routed six Sichuan brigades and occupied Suijing, Chonghua, Danba, and Maogong, opening the way south to Tianquan and Lushan. The coordinate is a representative point at Danba county town; Suijing, Chonghua, and Maogong await separate placement."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红四方面军曲折复杂的长征历程》",
+        "author": "四川省情网",
+        "year": 2016,
+        "note": "用于核对嘉陵江、绥崇丹懋、天芦名雅邛大、百丈关与二次北上的时间线",
+        "url": "http://scdfz.sc.gov.cn/ztzl/hjczzsc/zzyj/content_3089"
+      },
+      {
+        "title": "《从会师到决裂 红四方面军掉头南下》",
+        "author": "甘孜日报",
+        "year": 2017,
+        "note": "用于核对绥崇丹懋战役、天芦名雅邛大战役与百丈关",
+        "url": "http://kbcmw.com/html/wh/kbls/30578.html"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对红四方面军长征时间线与各战役"
+      }
+    ],
+    "relatedIds": [
+      "jialing-jiang-1935-03",
+      "tianlumingya-1935-11",
+      "baizhangguan-1935-11"
+    ],
+    "endDate": "1935-10-20",
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "wuqi-1935-10",
     "atlasId": "long-march",
     "name": {
@@ -6036,7 +8079,154 @@
         "note": "用于核对「吴起镇会师」的会师时间、部队番号与地点"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "qieweiba-1935-10",
+      "qingshizui-1935-10"
+    ]
+  },
+  {
+    "id": "qieweiba-1935-10",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "切尾巴战役",
+      "en": "“Cutting the Tail” Battle"
+    },
+    "aliases": [
+      {
+        "zh": "吴起镇战役",
+        "en": "Battle of Wuqi Town"
+      },
+      {
+        "zh": "长征最后一战",
+        "en": "Last Battle of the Long March"
+      }
+    ],
+    "date": "1935-10-21",
+    "location": {
+      "lng": 108.174,
+      "lat": 36.923,
+      "place": {
+        "zh": "陕西吴起镇",
+        "en": "Wuqi Town, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "中央红军在吴起镇击退尾追骑兵，结束长征最后一战。",
+      "en": "The Central Red Army defeated the pursuing cavalry at Wuqi, the last battle of the Long March."
+    },
+    "description": {
+      "zh": "1935 年 10 月 19 日，中央红军到达吴起镇，国民党军骑兵追至苏区门口。20 日，红军在头道川、平台山、二道川、三道川设伏；21 日发起“切尾巴”战役，分块切割、相机包围，歼灭东北军白凤翔第六师一个骑兵团、郭希鹏第三师两个骑兵团，击溃马鸿宾部第三十五师马培清骑兵团，毙伤 600 余人，俘 1000 余人，缴获战马、驮马 1600 余匹。此役是中央红军结束长征的最后一战。本坐标为吴起镇代表点。",
+      "en": "On 19 October 1935 the Central Red Army reached Wuqi, with KMT cavalry pursuing to the gate of the Soviet area. On 20 October the Red Army set ambushes at Toudao Creek, Pingtai Mountain, Erdao Creek, and Sandao Creek; on 21 October it launched the “Cutting the Tail” battle, cutting the enemy into blocks and encircling them. It destroyed one cavalry regiment of Bai Fengxiang’s 6th Division and two cavalry regiments of Guo Xipeng’s 3rd Division, routed Ma Peiqing’s cavalry regiment of Ma Hongbin’s 35th Division, killed or wounded more than 600, captured more than 1,000, and took over 1,600 horses and pack animals. The battle was the last of the Central Red Army’s Long March. The coordinate is a representative point at Wuqi."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《“切尾巴”战役：中央红军结束长征的最后一仗》",
+        "author": "新华网",
+        "year": 2019,
+        "note": "用于核对吴起镇切尾巴战役时间、部署与战果",
+        "url": "https://www.xinhuanet.com/politics/2019-08/08/c_1124853809.htm"
+      },
+      {
+        "title": "《“步兵追着骑兵打”——吴起镇“切尾巴战役”》",
+        "author": "陕西传媒网",
+        "year": 2019,
+        "note": "用于核对切尾巴战役歼敌、俘敌与缴获数字",
+        "url": "https://www.sxdaily.com.cn/2019-08/07/content_8018498.html"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对长征时间线与各阶段行动"
+      }
+    ],
+    "relatedIds": [
+      "wuqi-1935-10",
+      "qingshizui-1935-10",
+      "zhiluozhen-1935-11"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "tianlumingya-1935-11",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "天芦名雅邛大战役",
+      "en": "Tian-Lu-Ming-Ya-Qiong-Da Campaign"
+    },
+    "aliases": [
+      {
+        "zh": "天全芦山名山雅安邛崃大邑战役",
+        "en": "Tianquan–Lushan–Mingshan–Ya’an–Qionglai–Dayi Campaign"
+      },
+      {
+        "zh": "红四方面军南下第二阶段",
+        "en": "Second Stage of the Fourth Front Army’s Southward Move"
+      }
+    ],
+    "date": "1935-10-24",
+    "location": {
+      "lng": 102.932,
+      "lat": 30.147,
+      "place": {
+        "zh": "四川芦山县城",
+        "en": "Lushan county town, Sichuan"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红四方面军南下攻占宝兴、天全、芦山、名山，百丈关受挫。",
+      "en": "The Fourth Front Army moved south and took Baoxing, Tianquan, Lushan, and Mingshan, but was checked at Baizhang Pass."
+    },
+    "description": {
+      "zh": "1935 年 10 月 24 日至 11 月 25 日，红四方面军分左、中、右纵队从懋功、丹巴等地南下，攻占宝兴、天全、芦山、名山等地，歼敌 1 万余人，击落飞机 1 架。11 月中旬进攻百丈关，遭川军 80 余团反扑，激战 7 昼夜，伤亡近万人，被迫撤至天全、芦山、宝兴休整。此役是红四方面军南下由进攻转入防御的转折点。本坐标为芦山县城代表点。",
+      "en": "From 24 October to 25 November 1935, the Fourth Front Army moved south in left, center, and right columns from Maogong and Danba, taking Baoxing, Tianquan, Lushan, and Mingshan, destroying more than 10,000 enemy troops, and downing one aircraft. In mid-November it attacked Baizhang Pass but was counterattacked by more than 80 Sichuan regiments; after seven days and nights of fighting it suffered nearly 10,000 casualties and withdrew to Tianquan, Lushan, and Baoxing. The campaign marked the Fourth Front Army’s shift from offensive to defensive in the south. The coordinate is a representative point at Lushan county town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红四方面军曲折复杂的长征历程》",
+        "author": "四川省情网",
+        "year": 2016,
+        "note": "用于核对嘉陵江、绥崇丹懋、天芦名雅邛大、百丈关与二次北上的时间线",
+        "url": "http://scdfz.sc.gov.cn/ztzl/hjczzsc/zzyj/content_3089"
+      },
+      {
+        "title": "《从会师到决裂 红四方面军掉头南下》",
+        "author": "甘孜日报",
+        "year": 2017,
+        "note": "用于核对绥崇丹懋战役、天芦名雅邛大战役与百丈关",
+        "url": "http://kbcmw.com/html/wh/kbls/30578.html"
+      },
+      {
+        "title": "《喋血百丈关》",
+        "author": "解放军报",
+        "year": 2012,
+        "note": "用于核对百丈关战役 7 昼夜、川军 80 余团与伤亡数字",
+        "url": "http://mil.news.sina.com.cn/2012-05-28/0517691581.html"
+      }
+    ],
+    "relatedIds": [
+      "suichongdanmao-1935-10",
+      "baizhangguan-1935-11",
+      "red4-second-north-1936-02"
+    ],
+    "endDate": "1935-11-25",
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "yulinqiao-1935-10",
@@ -6092,6 +8282,79 @@
       "zhiluozhen-1935-11"
     ],
     "importance": 2
+  },
+  {
+    "id": "baizhangguan-1935-11",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "百丈关战役",
+      "en": "Battle of Baizhang Pass"
+    },
+    "aliases": [
+      {
+        "zh": "百丈决战",
+        "en": "Baizhang Decisive Battle"
+      },
+      {
+        "zh": "百丈关战斗",
+        "en": "Baizhang Pass Battle"
+      }
+    ],
+    "date": "1935-11-13",
+    "location": {
+      "lng": 103.232,
+      "lat": 30.184,
+      "place": {
+        "zh": "四川名山百丈镇",
+        "en": "Baizhang, Mingshan, Sichuan"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红四方面军在百丈关与川军决战 7 昼夜，伤亡近万，南下受挫。",
+      "en": "The Fourth Front Army fought a seven-day decisive battle with Sichuan troops at Baizhang Pass, suffered nearly 10,000 casualties, and was checked."
+    },
+    "description": {
+      "zh": "1935 年 11 月 13 日至 21 日，红四方面军以 15 个团向名山、邛崃间百丈关进攻，16 日占领百丈镇。川军刘湘调集 80 余团，在飞机大炮掩护下从北、东、南三面反扑。红军在百丈周围十余里弧形阵地浴血苦战 7 昼夜，毙伤川军 1.5 万余人，自身伤亡近万人，被迫撤出百丈，转入防御。本坐标为百丈镇代表点。",
+      "en": "From 13 to 21 November 1935, the Fourth Front Army attacked Baizhang Pass between Mingshan and Qionglai with fifteen regiments and took Baizhang town on 16 November. Liu Xiang concentrated more than eighty Sichuan regiments and counterattacked from north, east, and south under air and artillery cover. The Red Army fought for seven days and nights in an arc-shaped position around Baizhang, killing or wounding more than 15,000 Sichuan troops while suffering nearly 10,000 casualties, and was forced to withdraw and go on the defensive. The coordinate is a representative point at Baizhang town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《喋血百丈关》",
+        "author": "解放军报",
+        "year": 2012,
+        "note": "用于核对百丈关战役 7 昼夜、川军 80 余团与伤亡数字",
+        "url": "http://mil.news.sina.com.cn/2012-05-28/0517691581.html"
+      },
+      {
+        "title": "《红四方面军曲折复杂的长征历程》",
+        "author": "四川省情网",
+        "year": 2016,
+        "note": "用于核对嘉陵江、绥崇丹懋、天芦名雅邛大、百丈关与二次北上的时间线",
+        "url": "http://scdfz.sc.gov.cn/ztzl/hjczzsc/zzyj/content_3089"
+      },
+      {
+        "title": "《从会师到决裂 红四方面军掉头南下》",
+        "author": "甘孜日报",
+        "year": 2017,
+        "note": "用于核对绥崇丹懋战役、天芦名雅邛大战役与百丈关",
+        "url": "http://kbcmw.com/html/wh/kbls/30578.html"
+      }
+    ],
+    "relatedIds": [
+      "tianlumingya-1935-11",
+      "red4-second-north-1936-02",
+      "suichongdanmao-1935-10"
+    ],
+    "endDate": "1935-11-21",
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "kmt-red2-pursuit-1935-11",
@@ -6200,7 +8463,12 @@
     ],
     "relatedIds": [
       "banliyuan-1935-08",
-      "wumeng-1936-02"
+      "wumeng-1936-02",
+      "bianshui-1936-01",
+      "yachihe-1936-02",
+      "panxian-meeting-1936-03",
+      "puduhe-1936-04",
+      "liujia-defense-1936-04"
     ],
     "importance": 3
   },
@@ -6262,8 +8530,226 @@
         "note": "用于核对「直罗镇战役」的战斗时间、地点与路线走向"
       }
     ],
-    "relatedIds": [],
+    "relatedIds": [
+      "qieweiba-1935-10"
+    ],
     "endDate": "1935-11-24"
+  },
+  {
+    "id": "bianshui-1936-01",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "便水战役",
+      "en": "Battle of Bianshui"
+    },
+    "aliases": [
+      {
+        "zh": "便水战斗",
+        "en": "Bianshui Battle"
+      },
+      {
+        "zh": "芷江便水之战",
+        "en": "Bianshui Battle near Zhijiang"
+      }
+    ],
+    "date": "1936-01-05",
+    "location": {
+      "lng": 109.55,
+      "lat": 27.45,
+      "place": {
+        "zh": "湖南芷江便水（上坪一带）",
+        "en": "Bianshui, Zhijiang, Hunan (Shangping area)"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红二、红六军团在芷江便水伏击湘军第十六师，掩护西进。",
+      "en": "The Second and Sixth Army Corps ambushed the Hunan 16th Division at Bianshui near Zhijiang, covering their westward move."
+    },
+    "description": {
+      "zh": "1936 年 1 月 5 日至 6 日，红二、红六军团在芷江、晃县间便水地区伏击尾追的湘军李觉纵队第十六师。因敌军提前侦察、伏击意图暴露，战斗转为阵地拉锯战；红军毙伤俘敌近千人，自身亦有较大伤亡，红四师参谋长金承忠、十一团团长覃耀楚牺牲。6 日黄昏撤出战斗，向黔东转移。本坐标为便水/上坪代表点。",
+      "en": "From 5 to 6 January 1936, the Second and Sixth Army Corps ambushed the pursuing 16th Division of Li Jue’s Hunan column at Bianshui between Zhijiang and Huangxian. Enemy reconnaissance exposed the ambush, and the battle became a positional struggle. The Red Army killed, wounded, or captured nearly 1,000 enemy troops but also suffered heavy casualties; Jin Chengzhong, chief of staff of the Fourth Division, and Qin Yaochu, commander of the 11th Regiment, were killed. The Red Army withdrew at dusk on 6 January and moved toward eastern Guizhou. The coordinate is a representative point at Bianshui/Shangping."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《芷江：便水鏖战惊敌胆 上坪新业满目春》",
+        "author": "湖南日报·新湖南",
+        "year": 2026,
+        "note": "用于核对便水战役 1936 年 1 月 5—6 日、上坪烟墩坡战场与伤亡",
+        "url": "http://www.hunantoday.cn/news/xhn/202610/34038023.html"
+      },
+      {
+        "title": "《第二十四章 红2、红6军团开始长征》",
+        "author": "人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对便水战斗、鸭池河、盘县会议与红二、六军团转移时间线",
+        "url": "http://dangshi.people.com.cn/n1/2016/0902/c406330-28687948.html"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对红二、六军团长征时间线"
+      }
+    ],
+    "relatedIds": [
+      "sangzhi-1935-11",
+      "yachihe-1936-02",
+      "wumeng-1936-02"
+    ],
+    "endDate": "1936-01-06",
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "yachihe-1936-02",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "鸭池河渡口",
+      "en": "Yachihe Ferry"
+    },
+    "aliases": [
+      {
+        "zh": "鸭池河渡口",
+        "en": "Yachi River Crossing"
+      },
+      {
+        "zh": "红军强渡鸭池河",
+        "en": "Forcing the Yachi River"
+      }
+    ],
+    "date": "1936-02-02",
+    "location": {
+      "lng": 106.15,
+      "lat": 26.9,
+      "place": {
+        "zh": "贵州黔西鸭池河古渡口",
+        "en": "Yachihe old ferry, Qianxi, Guizhou"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "渡口",
+    "summary": {
+      "zh": "红二、红六军团从鸭池河渡口渡过乌江上游，进占黔西。",
+      "en": "The Second and Sixth Army Corps crossed the upper Wu River at Yachihe and entered western Guizhou."
+    },
+    "description": {
+      "zh": "1936 年 2 月 2 日，红二、红六军团先头部队奔袭鸭池河渡口，控制南岸，缴获木船 4 只，在船工帮助下连夜架设浮桥，1.8 万余人用 3 天渡过鸭池河，进占黔西、大定、毕节，打开黔西北大门。本坐标为鸭池河古渡口代表点。",
+      "en": "On 2 February 1936, the advance guard of the Second and Sixth Army Corps rushed the Yachihe ferry, secured the south bank, captured four wooden boats, and with local boatmen built a pontoon bridge overnight. More than 18,000 troops crossed the Yachi River over three days and entered Qianxi, Dading, and Bijie, opening the door to northwestern Guizhou. The coordinate is a representative point at the old Yachihe ferry."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史海钩沉：红军强渡鸭池河》",
+        "author": "黔西市纪委监委",
+        "year": 2020,
+        "note": "用于核对鸭池河古渡口、4 只木船与 1.8 万人渡河",
+        "url": "https://qx.bjsjw.gov.cn/n317/20200326/i28601.html"
+      },
+      {
+        "title": "《第二十四章 红2、红6军团开始长征》",
+        "author": "人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对便水战斗、鸭池河、盘县会议与红二、六军团转移时间线",
+        "url": "http://dangshi.people.com.cn/n1/2016/0902/c406330-28687948.html"
+      },
+      {
+        "title": "《策应中央红军，转战贵州绝地突围》",
+        "author": "贵州日报",
+        "year": 2026,
+        "note": "用于核对鸭池河 2 月 2 日、盘县会议与北上决策",
+        "url": "http://szb.eyesnews.cn/pc/cont/202610/22/content_191144.html"
+      }
+    ],
+    "relatedIds": [
+      "bianshui-1936-01",
+      "wumeng-1936-02",
+      "panxian-meeting-1936-03"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "ferry"
+    }
+  },
+  {
+    "id": "red4-second-north-1936-02",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "红四方面军二次北上",
+      "en": "The Fourth Front Army’s Second Move North"
+    },
+    "aliases": [
+      {
+        "zh": "红四方面军再次北上",
+        "en": "The Fourth Front Army Moves North Again"
+      },
+      {
+        "zh": "康道炉战役",
+        "en": "Kang-Dao-Lu Campaign"
+      }
+    ],
+    "date": "1936-02-15",
+    "location": {
+      "lng": 99.991,
+      "lat": 31.624,
+      "place": {
+        "zh": "四川甘孜县城",
+        "en": "Ganzi county town, Sichuan"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红四方面军撤离天全、芦山、宝兴，经丹巴、道孚、炉霍、甘孜二次北上。",
+      "en": "The Fourth Front Army withdrew from Tianquan, Lushan, and Baoxing and moved north again via Danba, Daofu, Luhuo, and Ganzi."
+    },
+    "description": {
+      "zh": "1936 年 2 月中旬，红四方面军撤离天全、芦山、宝兴地区，再次翻越夹金山，经达维、懋功、丹巴向西转移；3 月 1 日先头部队攻占道孚，15 日占炉霍，随后占领甘孜。7 月初与红二、六军团在甘孜会师，随后共同北上。本坐标为甘孜县城代表点，具体行军路线待细化。",
+      "en": "In mid-February 1936 the Fourth Front Army withdrew from Tianquan, Lushan, and Baoxing, crossed the Jiajin Mountains again, and moved west via Dawei, Maogong, and Danba. On 1 March its advance guard took Daofu, on 15 March Luhuo, and then Ganzi. In early July it met the Second and Sixth Army Corps at Ganzi and moved north together. The coordinate is a representative point at Ganzi county town; the exact route awaits refinement."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红四方面军曲折复杂的长征历程》",
+        "author": "四川省情网",
+        "year": 2016,
+        "note": "用于核对嘉陵江、绥崇丹懋、天芦名雅邛大、百丈关与二次北上的时间线",
+        "url": "http://scdfz.sc.gov.cn/ztzl/hjczzsc/zzyj/content_3089"
+      },
+      {
+        "title": "《红军长征史》",
+        "author": "中共中央党史研究室第一研究部",
+        "year": 2006,
+        "note": "用于核对红四方面军长征时间线与各战役"
+      },
+      {
+        "title": "《中国工农红军长征史料丛书》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 2016,
+        "note": "用于核对红四方面军战役部署、电文与部队番号"
+      }
+    ],
+    "relatedIds": [
+      "baizhangguan-1935-11",
+      "tianlumingya-1935-11",
+      "ganzi-1936-06",
+      "red2-front-1936-07"
+    ],
+    "endDate": "1936-07-05",
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "dongzheng-1936-02",
@@ -6483,7 +8969,12 @@
     ],
     "relatedIds": [
       "sangzhi-1935-11",
-      "shigu-1936-04"
+      "shigu-1936-04",
+      "bianshui-1936-01",
+      "yachihe-1936-02",
+      "panxian-meeting-1936-03",
+      "puduhe-1936-04",
+      "liujia-defense-1936-04"
     ],
     "importance": 2,
     "endDate": "1936-03-28"
@@ -6544,6 +9035,222 @@
     "importance": 2
   },
   {
+    "id": "panxian-meeting-1936-03",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "盘县会议",
+      "en": "Panxian Meeting"
+    },
+    "aliases": [
+      {
+        "zh": "盘县九间楼会议",
+        "en": "Panxian Jiujianlou Meeting"
+      },
+      {
+        "zh": "盘县紧急会议",
+        "en": "Panxian Emergency Meeting"
+      }
+    ],
+    "date": "1936-03-30",
+    "location": {
+      "lng": 104.47,
+      "lat": 25.722,
+      "place": {
+        "zh": "贵州盘州九间楼",
+        "en": "Jiujianlou, Panzhou, Guizhou"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "红二、红六军团在盘县九间楼开会，决定北渡金沙江与红四方面军会合。",
+      "en": "The Second and Sixth Army Corps met at Jiujianlou in Panxian and decided to cross the Jinsha River north to join the Fourth Front Army."
+    },
+    "description": {
+      "zh": "1936 年 3 月 30 日夜，红二、红六军团在盘县九间楼召开会议，传达红军总部电示，分析全国形势，决定放弃在南北盘江建立根据地，立即北渡金沙江，与红四方面军会合、共同北上抗日。4 月 1 日撤离盘县。本坐标为九间楼代表点。",
+      "en": "On the night of 30 March 1936, the Second and Sixth Army Corps met at Jiujianlou in Panxian. They relayed the Red Army headquarters’ instructions, analyzed the national situation, and decided to abandon plans for a base between the north and south Pan rivers. Instead they would cross the Jinsha River north to join the Fourth Front Army and move north together to resist Japan. They left Panxian on 1 April. The coordinate is a representative point at Jiujianlou."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《贵州红·红色故事丨盘县会议》",
+        "author": "新华网贵州频道",
+        "year": 2024,
+        "note": "用于核对盘县会议 3 月 30 日、九间楼与北上决策",
+        "url": "http://gz.news.cn/20241115/0452db071bc24fe4aec2849141d3ebec/c.html"
+      },
+      {
+        "title": "《策应中央红军，转战贵州绝地突围》",
+        "author": "贵州日报",
+        "year": 2026,
+        "note": "用于核对鸭池河 2 月 2 日、盘县会议与北上决策",
+        "url": "http://szb.eyesnews.cn/pc/cont/202610/22/content_191144.html"
+      },
+      {
+        "title": "《第二十四章 红2、红6军团开始长征》",
+        "author": "人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对便水战斗、鸭池河、盘县会议与红二、六军团转移时间线",
+        "url": "http://dangshi.people.com.cn/n1/2016/0902/c406330-28687948.html"
+      }
+    ],
+    "relatedIds": [
+      "wumeng-1936-02",
+      "shigu-1936-04",
+      "puduhe-1936-04"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "puduhe-1936-04",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "普渡河战斗",
+      "en": "Battle of the Pudu River"
+    },
+    "aliases": [
+      {
+        "zh": "普渡河渡口战斗",
+        "en": "Pudu River Crossing Battle"
+      },
+      {
+        "zh": "普渡河铁索桥战斗",
+        "en": "Pudu River Chain Bridge Battle"
+      }
+    ],
+    "date": "1936-04-08",
+    "location": {
+      "lng": 102.644,
+      "lat": 25.66,
+      "place": {
+        "zh": "云南禄劝普渡河铁索桥",
+        "en": "Pudu River chain bridge, Luquan, Yunnan"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红二军团抢占普渡河渡口，与滇军激战，渡河受阻。",
+      "en": "The Second Army Corps seized the Pudu River crossing and fought the Yunnan army, but the crossing was blocked."
+    },
+    "description": {
+      "zh": "1936 年 4 月 8 日，红二军团第四师先头部队抢占禄劝普渡河渡口，与滇军孙渡纵队激战；红四师大部从铁索桥下涉水过河，红六军团前卫第十七师在普渡河与滇军遭遇，渡河受阻。红军被迫调整部署，转至六甲阻击。本坐标为普渡河铁索桥代表点。",
+      "en": "On 8 April 1936, the advance guard of the Fourth Division, Second Army Corps, seized the Pudu River crossing in Luquan and fought Sun Du’s Yunnan column. Most of the Fourth Division forded the river below the chain bridge, while the Seventeenth Division, vanguard of the Sixth Army Corps, met the Yunnan troops at the Pudu River and was blocked. The Red Army adjusted its deployment and turned to block the enemy at Liujia. The coordinate is a representative point at the Pudu River chain bridge."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红军长征过云南珍贵历史档案（三）》",
+        "author": "云南日报",
+        "year": 2016,
+        "note": "用于核对 4 月 8 日普渡河渡口、4 月 9 日六甲之战与滇军追击",
+        "url": "https://www.yndaily.com/html/2016/yaowenyunnan_1024/104538.html"
+      },
+      {
+        "title": "《长征中红二红六军团最为激烈的六甲阻击战》",
+        "author": "人民网·党史频道",
+        "year": 2022,
+        "note": "用于核对六甲之战部署、战果与贺龙评价",
+        "url": "http://cpc.people.com.cn/n1/2022/0913/c443712-32524724.html"
+      },
+      {
+        "title": "《六甲阻击敌军 红军安全西进》",
+        "author": "中国经济网",
+        "year": 2019,
+        "note": "用于核对六甲之战伤亡与普渡河—六甲关系",
+        "url": "http://www.ce.cn/xwzx/gnsz/gdxw/201907/22/t20190722_32681171.shtml"
+      }
+    ],
+    "relatedIds": [
+      "panxian-meeting-1936-03",
+      "liujia-defense-1936-04",
+      "shigu-1936-04"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "liujia-defense-1936-04",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "六甲阻击战",
+      "en": "Liujia Blocking Battle"
+    },
+    "aliases": [
+      {
+        "zh": "六甲之战",
+        "en": "Battle of Liujia"
+      },
+      {
+        "zh": "贾白山阻击战",
+        "en": "Jiabaishan Blocking Battle"
+      }
+    ],
+    "date": "1936-04-09",
+    "location": {
+      "lng": 102.6,
+      "lat": 25.7,
+      "place": {
+        "zh": "云南寻甸六甲贾白山",
+        "en": "Liujia, Jiabaishan, Xundian, Yunnan"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红六师在六甲阻击滇军，掩护主力西进。",
+      "en": "The Sixth Division blocked the Yunnan army at Liujia, covering the main force’s westward move."
+    },
+    "description": {
+      "zh": "1936 年 4 月 9 日，红二军团第六师在寻甸六甲石蜡坨垭口阻击尾追的滇军第七旅，红十六、十七、十八团抢占垭口南北山冈，激战至傍晚，红五师增援从侧后夹击，滇军溃退。红军以伤亡 200 余人代价歼敌近千人，粉碎滇军将红军消灭于普渡河以东、功山以南的计划。本坐标为六甲/贾白山代表点。",
+      "en": "On 9 April 1936, the Sixth Division of the Second Army Corps blocked the pursuing 7th Brigade of the Yunnan army at the Shilatuo pass in Liujia, Xundian. The 16th, 17th, and 18th Regiments seized the high ground north and south of the pass and fought until evening, when the Fifth Division arrived and attacked the enemy flank and rear, routing the Yunnan troops. The Red Army suffered more than 200 casualties and killed or wounded nearly 1,000 enemy soldiers, foiling the plan to destroy the Red Army east of the Pudu River and south of Gongshan. The coordinate is a representative point at Liujia/Jiabaishan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《长征中红二红六军团最为激烈的六甲阻击战》",
+        "author": "人民网·党史频道",
+        "year": 2022,
+        "note": "用于核对六甲之战部署、战果与贺龙评价",
+        "url": "http://cpc.people.com.cn/n1/2022/0913/c443712-32524724.html"
+      },
+      {
+        "title": "《六甲阻击敌军 红军安全西进》",
+        "author": "中国经济网",
+        "year": 2019,
+        "note": "用于核对六甲之战伤亡与普渡河—六甲关系",
+        "url": "http://www.ce.cn/xwzx/gnsz/gdxw/201907/22/t20190722_32681171.shtml"
+      },
+      {
+        "title": "《红军长征过云南珍贵历史档案（三）》",
+        "author": "云南日报",
+        "year": 2016,
+        "note": "用于核对 4 月 8 日普渡河渡口、4 月 9 日六甲之战与滇军追击",
+        "url": "https://www.yndaily.com/html/2016/yaowenyunnan_1024/104538.html"
+      }
+    ],
+    "relatedIds": [
+      "puduhe-1936-04",
+      "panxian-meeting-1936-03",
+      "shigu-1936-04"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "shigu-1936-04",
     "atlasId": "long-march",
     "name": {
@@ -6594,7 +9301,12 @@
     ],
     "relatedIds": [
       "wumeng-1936-02",
-      "ganzi-1936-06"
+      "ganzi-1936-06",
+      "bianshui-1936-01",
+      "yachihe-1936-02",
+      "panxian-meeting-1936-03",
+      "puduhe-1936-04",
+      "liujia-defense-1936-04"
     ],
     "importance": 2
   },
@@ -6872,7 +9584,8 @@
     ],
     "relatedIds": [
       "shigu-1936-04",
-      "red2-front-1936-07"
+      "red2-front-1936-07",
+      "red4-second-north-1936-02"
     ],
     "importance": 3
   },
@@ -6927,7 +9640,8 @@
     ],
     "relatedIds": [
       "ganzi-1936-06",
-      "jiangtaibao-1936-10"
+      "jiangtaibao-1936-10",
+      "red4-second-north-1936-02"
     ],
     "importance": 3
   },
