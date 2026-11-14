@@ -299,7 +299,12 @@ Atlas 与 OpenQuizGo 共用一台 ECS、一个 nginx 容器、一份磁盘。协
 | 资源 | 所有者 |
 | --- | --- |
 | `quizgo-web-1` 容器、`/srv/nginx/nginx.conf`、`conf.d/quiz.conf` | QuizGo |
-| `conf.d/atlas.conf`、`/srv/atlas`、`/srv/atlas.prev` | **Atlas** |
+| `conf.d/atlas.conf` | **源文件在 OpenQuizGo 仓库**，Atlas 提请求修改（见下） |
+| `/srv/atlas`、`/srv/atlas.prev` | **Atlas** |
 | 端口 8081 / 8082 | Atlas / QuizGo |
 | 端口 80 / 443 | **双方共同决定**，备案前任何一方不得启用 |
 | `/srv/ops` | 共同（写入规则见 CONTRACT.md 第 4 节） |
+
+> **耦合点**：QuizGo 的 `--with-nginx` 用 `rsync --delete` 同步 `deploy/nginx/conf.d/`，
+> 会覆盖甚至删除不在其仓库里的 conf。所以 Atlas 要改 `atlas.conf`（备案后换域名、加证书）
+> 时，**必须把新内容写进 `requests/` 交给 QuizGo 提交同步**，直接改服务器文件会被下次发布覆盖。

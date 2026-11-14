@@ -3,6 +3,19 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.10] - 2026-11-14
+
+### Fixed
+- 共享面归属表写错了 `conf.d/atlas.conf` 的所有者：该文件的正源在 **OpenQuizGo 仓库**
+  （`deploy/nginx/conf.d/`），QuizGo 的 `--with-nginx` 用 `rsync --delete` 同步整目录，
+  会覆盖甚至删除不在其仓库里的 conf。Atlas 直接改服务器上的该文件会被下次发布覆盖。
+  现改为「Atlas 提请求、QuizGo 提交同步」，并写进 `AGENTS.md` 第 8 节与 `/srv/ops/CONTRACT.md` §2.1。
+
+### Docs
+- `docs/conversations/2026-11-14-M118-atlas-conf耦合点与交接提示词.md`
+
+---
+
 ## [v1.0.9] - 2026-11-14
 
 ### Added
