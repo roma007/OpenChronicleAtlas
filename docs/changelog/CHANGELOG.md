@@ -3,6 +3,25 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.11] - 2026-11-14
+
+### Verified
+- 独立验收 OpenQuizGo 1.0.17 对 `/srv/ops` 协作机制的接入：版本一致性、三条必经触点、
+  发布收尾自动登记、`.env` 写入顺序与证伪测试、验收五项，**六项全部属实**。
+  证据来自服务器实际状态与对方仓库源码，不采信自述。
+- 副作用检查：`dmesg` 无 OOM，5 个容器 `RestartCount=0`，备份与磁盘正常。
+
+### Known
+- `.env` 残余窗口：`write_app_version` 成功后 `up -d` 失败仍会留下「新版本号 + 旧容器」，
+  窗口已从构建失败缩到 `up -d` 失败；彻底堵法（失败回写旧值）列为可选。
+- `OpenQuizGo/docs/deployment-todo.md` 的构建耗时估算「约 5 分钟」已过期，实测 >13 分钟（2C2G）。
+- `atlas.conf` 解耦双方同意暂缓，现状仍是「Atlas 提请求、QuizGo 提交同步」。
+
+### Docs
+- `docs/conversations/2026-11-14-M119-验收QuizGo的1.0.17接入.md`
+
+---
+
 ## [v1.0.10] - 2026-11-14
 
 ### Fixed
