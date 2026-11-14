@@ -9,11 +9,13 @@
 > | --- | --- |
 > | 发布 / 回滚 / 线上更新 | 本文件第 7 节（可执行流程） |
 > | 线上环境、临时访问、已知坑 | 本文件第 6 节 |
+> | **跨项目协作 / 动共享资源** | **本文件第 8 节** + `ssh quizgo 'cat /srv/ops/CONTRACT.md'` |
 > | 设计方案 / 实施计划 | `docs/plans/`、`docs/decisions/` |
 > | 变更记录 | `docs/changelog/CHANGELOG.md` |
 >
 > **跨仓库操作**（涉及服务器上的 OpenQuizGo 服务、nginx、备份）时，
-> OpenCode 只会加载当前目录的 AGENTS.md，必须先主动读 `../OpenQuizGo/AGENTS.md`。
+> OpenCode 只会加载当前目录的 AGENTS.md。协作不靠人传话，走服务器上的 `/srv/ops/`（见第 8 节）；
+> 需要读对方规约时再主动读 `../OpenQuizGo/AGENTS.md`。
 
 ## 1. 版本铁律（由 Git 钩子自动执行）
 
@@ -174,7 +176,7 @@ curl -s -o /dev/null -w "%{http_code}\n" http://quizgo-ecs:8081/atlas/<任意专
 | 纯重构且行为不变 | ⏳ 可攒 | 跟下次功能一起发 |
 | feature 分支、本地实验 | ❌ 不发 | 未合并不发 |
 
-### 7.2 发布流程（5 步，可停机为零）
+### 7.2 发布流程（6 步，可停机为零）
 
 ```bash
 # 0. 前置检查（提交前必须通过）
@@ -187,6 +189,7 @@ pnpm build:mobile-data
 # 2. 先提交，再构建。顺序不能反：
 #    钩子在提交时升版，About 页嵌的是构建那一刻的 package.json version，
 #    先构建后提交 = 线上显示旧版本号。
+#    发布后再提交纯文档改动，线上版本会滞后一档（About 显示的是已发布的构建），属正常。
 git add -A && git commit ...
 
 # 3. 构建（本地构建，禁止在服务器构建）
@@ -199,6 +202,18 @@ ssh quizgo 'sudo rm -rf /srv/atlas.prev && sudo cp -a /srv/atlas /srv/atlas.prev
 
 # 5. 同步（--delete 清掉旧 hash 资源；nginx 只读挂载，无需重启）
 rsync -az --delete apps/web/dist/ quizgo:/srv/atlas/
+
+# 6. 登记（第 8 节）：写 state + journal，再确认无漂移
+ssh quizgo 'cat > /srv/ops/state/atlas.json' <<'JSON'
+{
+  "project": "atlas",
+  "updatedAt": "2026-11-14T18:20:00+08:00",
+  "release": { "version": "1.0.7", "commit": "61e7b9b" },
+  "verify": { "indexMd5": "<md5 apps/web/dist/index.html>", "events": 719 }
+}
+JSON
+ssh quizgo "echo '$(date '+%Y-%m-%dT%H:%M%z') [atlas] deploy | atlas 1.0.7 | 719 events | ok' >> /srv/ops/journal/\$(date +%Y-%m).log"
+ssh quizgo '/srv/ops/bin/status.sh'   # 漂移检测必须全绿
 ```
 
 ### 7.3 发布后自检
@@ -226,3 +241,38 @@ ssh quizgo 'sudo rsync -a --delete /srv/atlas.prev/ /srv/atlas/'
 2. 不在服务器上构建、不直接修改 `/srv/atlas`
 3. 不把密钥、证书、`.env` 提交进仓库
 4. 数据与生成物必须同一次提交（见第 4 节）
+
+## 8. 与 OpenQuizGo 的跨项目协作
+
+Atlas 与 OpenQuizGo 共用一台 ECS、一个 nginx 容器、一份磁盘。协调**不靠人传话**，
+全部走服务器上的 `/srv/ops/`，两个项目的 AI 都能读写。
+
+| 要做什么 | 命令 |
+| --- | --- |
+| 读契约（归属表 / 四步流程 / 红线） | `ssh quizgo 'cat /srv/ops/CONTRACT.md'` |
+| 看双方真实状态与漂移 | `ssh quizgo '/srv/ops/bin/status.sh'` |
+| 看有没有人找我 | `ssh quizgo '/srv/ops/bin/status.sh'`（末尾「待处理请求」） |
+| 要对方做事 | 在 `/srv/ops/requests/` 新建文件，格式见该目录 `README.md` |
+| 记一笔 | 追加到 `/srv/ops/journal/YYYY-MM.log` |
+| 登记本次发布 | 覆盖 `/srv/ops/state/atlas.json` |
+
+### 必须遵守
+
+1. **开工先看**：任何涉及服务器的任务，先跑一次 `status.sh`，末尾有 `⬜` 就先读请求文件。
+2. **改共享面先拿锁**：`/srv/nginx/**` 归两个项目共有，改动前
+   `ssh quizgo 'flock /srv/ops/locks/nginx.lock -c "<命令>"'`。拿不到锁说明对方正在动，等。
+3. **nginx 容器归 QuizGo**：`quizgo-web-1` 只读，**不得** restart / recreate。
+   需要重启（例如备案后切 80/443）走 `requests/` 请对方做。
+4. **只写自己的东西**：`state/atlas.json` 只有 Atlas 写，`state/quizgo.json` 只有 QuizGo 写。
+5. **发布必登记**：第 7 节第 6 步，写 state + journal，且 `status.sh` 漂移检测全绿才算完成。
+6. **漂移告警不许忽略**：`status.sh` 报 drift 说明有改动没登记，先查 journal 再动手。
+
+### 共享面归属（摘要，完整见 CONTRACT.md）
+
+| 资源 | 所有者 |
+| --- | --- |
+| `quizgo-web-1` 容器、`/srv/nginx/nginx.conf`、`conf.d/quiz.conf` | QuizGo |
+| `conf.d/atlas.conf`、`/srv/atlas`、`/srv/atlas.prev` | **Atlas** |
+| 端口 8081 / 8082 | Atlas / QuizGo |
+| 端口 80 / 443 | **双方共同决定**，备案前任何一方不得启用 |
+| `/srv/ops` | 共同（写入规则见 CONTRACT.md 第 4 节） |

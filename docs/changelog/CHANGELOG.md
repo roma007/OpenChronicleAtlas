@@ -3,6 +3,28 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.8] - 2026-11-14
+
+### Added
+- 服务器 `/srv/ops/`：跨项目协作机制，替代人工在两个 AI 之间传话。
+  - `CONTRACT.md`：共享面归属表、动共享面的强制四步、写入规则、共同红线。
+  - `bin/status.sh`：双方状态快照（版本 / 容器 / 端口 / nginx md5 / 镜像一致性 / 漂移检测 / 待办请求 / 资源）。
+  - `state/atlas.json`、`state/quizgo.json`：各自发布登记，作为漂移检测基线。
+  - `journal/YYYY-MM.log`：只追加的操作日志。
+  - `requests/`：跨项目请求，取代「请用户转达」。
+  - `locks/`：`flock` 锁，避免双方同时改 `/srv/nginx`。
+- `AGENTS.md` 第 8 节「与 OpenQuizGo 的跨项目协作」。
+- 发布流程新增第 6 步：写 `state/atlas.json` + journal，并跑 `status.sh` 确认无漂移。
+
+### Changed
+- 文件头「必读」表新增「跨项目协作 / 动共享资源」一行。
+- 明确 About 页显示的是**最近一次发布构建**的版本；之后只改文档的提交不再发布，版本滞后一档属正常。
+
+### Docs
+- `docs/conversations/2026-11-14-M116-跨项目协作机制.md`
+
+---
+
 ## [v1.0.7] - 2026-11-14
 
 ### Fixed
