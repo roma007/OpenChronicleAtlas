@@ -6540,7 +6540,12 @@
         "note": "用于核对「翻越夹金山」的行军日期、渡口/山口与路线走向"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "mengbishan-1935-06",
+      "changbanshan-1935-07",
+      "changdeshan-1935-07",
+      "dagushan-1935-07"
+    ]
   },
   {
     "id": "zhongbao-1935-06",
@@ -6798,6 +6803,74 @@
     }
   },
   {
+    "id": "mengbishan-1935-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "翻越梦笔山",
+      "en": "Crossing Mengbi Mountain"
+    },
+    "aliases": [
+      {
+        "zh": "梦笔山雪山",
+        "en": "Mengbi Snow Mountain"
+      }
+    ],
+    "date": "1935-06-27",
+    "location": {
+      "lng": 102.313,
+      "lat": 31.707,
+      "place": {
+        "zh": "四川小金、马尔康交界梦笔山垭口",
+        "en": "Mengbi Mountain pass on the Xiaojin–Maerkang border, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "中央红军翻越梦笔山，继续北上卓克基、两河口方向。",
+      "en": "The Central Red Army crossed Mengbi Mountain and continued north toward Zhuokeji and Lianghekou."
+    },
+    "description": {
+      "zh": "1935 年 6 月 26 日两河口会议后，中央红军于 6 月 27 日由两河口北上，翻越梦笔山垭口（海拔约 4080—4114 米），进入马尔康卓克基一带。梦笔山是小金与马尔康的界山，红四方面军部队此后亦曾翻越。本坐标为梦笔山垭口代表点。",
+      "en": "After the Lianghekou meeting of 26 June 1935, the Central Red Army moved north from Lianghekou on 27 June and crossed the Mengbi Mountain pass (about 4,080–4,114 m) into the Zhuokeji area of Maerkang. Mengbi Mountain lies on the Xiaojin–Maerkang border; Fourth Front Army units also crossed it later. The coordinate is a representative point at the Mengbi pass."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《长征路上翻越的雪山知多少》",
+        "author": "中红网",
+        "year": 2016,
+        "note": "用于核对中央红军五座雪山与垭口海拔",
+        "url": "https://www.crt.com.cn/news2007/News/tgjx/16121914242K8FCABG3A94JFAJ1862J.html"
+      },
+      {
+        "title": "《红军长征路上翻越了多少座雪山？》",
+        "author": "四川省情网",
+        "year": 2019,
+        "note": "用于核对梦笔山垭口海拔与翻越时间",
+        "url": "http://scdfz.sc.gov.cn/ztzl/hjczzsc/zzyj/content_25715"
+      },
+      {
+        "title": "《解读长征（11）：红军长征先后翻越了哪些雪山？》",
+        "author": "人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对五座雪山顺序与 7 月上旬行程",
+        "url": "http://dangshi.people.com.cn/n1/2016/0908/c85037-28699636.html"
+      }
+    ],
+    "relatedIds": [
+      "jiajinshan-1935-06",
+      "lianghekou-meeting-1935-06",
+      "changbanshan-1935-07"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "six-counties-1935-06",
     "atlasId": "long-march",
     "name": {
@@ -7019,6 +7092,223 @@
       "red25-west-1935-07"
     ],
     "importance": 2
+  },
+  {
+    "id": "changbanshan-1935-07",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "翻越长板山（雅克夏山）",
+      "en": "Crossing Changban Mountain (Yakexia)"
+    },
+    "aliases": [
+      {
+        "zh": "雅克夏山",
+        "en": "Yakexia Mountain"
+      },
+      {
+        "zh": "马塘梁子",
+        "en": "Matang Liangzi"
+      }
+    ],
+    "date": "1935-07-02",
+    "endDate": "1935-07-09",
+    "location": {
+      "lng": 102.598,
+      "lat": 32.233,
+      "place": {
+        "zh": "四川红原、黑水交界雅克夏山垭口",
+        "en": "Yakexia Mountain pass on the Hongyuan–Heishui border, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "中央红军翻越长板山（雅克夏山），进入黑水马河坝、芦花。",
+      "en": "The Central Red Army crossed Changban Mountain (Yakexia) and entered Maheba and Luhua in Heishui."
+    },
+    "description": {
+      "zh": "1935 年 7 月 2 日，红一方面军第一军团和红四方面军第三十军各一部组成先头部队，翻越雅克夏雪山（长板山、马塘梁子，垭口海拔约 4443—4460 米），到达黑水马河坝；7 月 9 日，红一方面军主力及红四方面军一部翻越此山进入黑水，随后进抵芦花。本坐标为雅克夏山垭口代表点。",
+      "en": "On 2 July 1935 an advance detachment formed from the First Army Corps of the First Front Army and part of the 30th Army of the Fourth Front Army crossed Yakexia Snow Mountain (Changban Mountain, Matang Liangzi; pass about 4,443–4,460 m) and reached Maheba in Heishui. On 9 July the main force of the First Front Army and part of the Fourth Front Army crossed into Heishui and advanced to Luhua. The coordinate is a representative point at the Yakexia pass."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《黑水红色文化》",
+        "author": "黑水县人民政府",
+        "year": 2022,
+        "note": "用于核对雅克夏、昌德、达古的翻越日期与海拔",
+        "url": "http://www.heishui.gov.cn/hsxrmzf/c100135/201507/1469909edcbe41f8883bc748f09e2939.shtml"
+      },
+      {
+        "title": "《巍巍大雪山》",
+        "author": "解放军报",
+        "year": 2024,
+        "note": "用于核对中央红军 7 月上旬相继翻越梦笔山、长板山、仓德山、打古山",
+        "url": "http://www.mod.gov.cn/gfbw/gfjy_index/16350206.html"
+      },
+      {
+        "title": "《长征路上翻越的雪山知多少》",
+        "author": "中红网",
+        "year": 2016,
+        "note": "用于核对中央红军五座雪山与垭口海拔",
+        "url": "https://www.crt.com.cn/news2007/News/tgjx/16121914242K8FCABG3A94JFAJ1862J.html"
+      }
+    ],
+    "relatedIds": [
+      "mengbishan-1935-06",
+      "changdeshan-1935-07",
+      "luhua-meeting-1935-07"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "changdeshan-1935-07",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "翻越昌德山",
+      "en": "Crossing Changde Mountain"
+    },
+    "aliases": [
+      {
+        "zh": "仓德山",
+        "en": "Cangde Mountain"
+      },
+      {
+        "zh": "拖罗冈山",
+        "en": "Tuoluogang Mountain"
+      }
+    ],
+    "date": "1935-07-06",
+    "location": {
+      "lng": 102.75,
+      "lat": 32.16,
+      "place": {
+        "zh": "四川黑水昌德山垭口",
+        "en": "Changde Mountain pass, Heishui, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "中央红军翻越昌德山，进入达古藏寨一带。",
+      "en": "The Central Red Army crossed Changde Mountain and entered the Dagu Tibetan village area."
+    },
+    "description": {
+      "zh": "1935 年 7 月 3 日，先头部队进抵昌德宿营休整；7 月 6 日翻越昌德山（仓德山、拖罗冈山，垭口海拔约 4164—4283 米），抵达下打古。昌德山位于黑水县境内，红四方面军部队此后亦曾翻越。本坐标为昌德山垭口代表点。",
+      "en": "On 3 July 1935 the advance detachment reached Changde and camped there to rest; on 6 July it crossed Changde Mountain (Cangde, Tuoluogang; pass about 4,164–4,283 m) and reached Xiadagu. Changde Mountain lies in Heishui county, and Fourth Front Army units also crossed it later. The coordinate is a representative point at the Changde pass."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《黑水红色文化》",
+        "author": "黑水县人民政府",
+        "year": 2022,
+        "note": "用于核对雅克夏、昌德、达古的翻越日期与海拔",
+        "url": "http://www.heishui.gov.cn/hsxrmzf/c100135/201507/1469909edcbe41f8883bc748f09e2939.shtml"
+      },
+      {
+        "title": "《巍巍大雪山》",
+        "author": "解放军报",
+        "year": 2024,
+        "note": "用于核对中央红军 7 月上旬相继翻越梦笔山、长板山、仓德山、打古山",
+        "url": "http://www.mod.gov.cn/gfbw/gfjy_index/16350206.html"
+      },
+      {
+        "title": "《解读长征（11）：红军长征先后翻越了哪些雪山？》",
+        "author": "人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对五座雪山顺序与 7 月上旬行程",
+        "url": "http://dangshi.people.com.cn/n1/2016/0908/c85037-28699636.html"
+      }
+    ],
+    "relatedIds": [
+      "changbanshan-1935-07",
+      "dagushan-1935-07",
+      "maoergai-1935-08"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "dagushan-1935-07",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "翻越达古山",
+      "en": "Crossing Dagu Mountain"
+    },
+    "aliases": [
+      {
+        "zh": "打古山",
+        "en": "Dagu Mountain"
+      },
+      {
+        "zh": "拖罗岗",
+        "en": "Tuoluogang"
+      }
+    ],
+    "date": "1935-07-07",
+    "location": {
+      "lng": 102.864,
+      "lat": 32.235,
+      "place": {
+        "zh": "四川黑水达古山垭口",
+        "en": "Dagu Mountain pass, Heishui, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "中央红军翻越达古山，向毛儿盖前进。",
+      "en": "The Central Red Army crossed Dagu Mountain and advanced toward Maoergai."
+    },
+    "description": {
+      "zh": "1935 年 7 月 7 日，红军由打古一带出发，翻越达古山（打古山、拖罗岗，垭口海拔约 4484—4752 米）向毛儿盖前进。达古山位于黑水县境内，是中央红军长征中翻越的海拔最高的雪山之一。本坐标为达古山垭口代表点。",
+      "en": "On 7 July 1935 the Red Army set out from the Dagu area and crossed Dagu Mountain (Dagu, Tuoluogang; pass about 4,484–4,752 m) toward Maoergai. Dagu Mountain lies in Heishui county and was one of the highest snow mountains crossed by the Central Red Army during the Long March. The coordinate is a representative point at the Dagu pass."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《黑水红色文化》",
+        "author": "黑水县人民政府",
+        "year": 2022,
+        "note": "用于核对雅克夏、昌德、达古的翻越日期与海拔",
+        "url": "http://www.heishui.gov.cn/hsxrmzf/c100135/201507/1469909edcbe41f8883bc748f09e2939.shtml"
+      },
+      {
+        "title": "《巍巍大雪山》",
+        "author": "解放军报",
+        "year": 2024,
+        "note": "用于核对中央红军 7 月上旬相继翻越梦笔山、长板山、仓德山、打古山",
+        "url": "http://www.mod.gov.cn/gfbw/gfjy_index/16350206.html"
+      },
+      {
+        "title": "《长征路上翻越的雪山知多少》",
+        "author": "中红网",
+        "year": 2016,
+        "note": "用于核对中央红军五座雪山与垭口海拔",
+        "url": "https://www.crt.com.cn/news2007/News/tgjx/16121914242K8FCABG3A94JFAJ1862J.html"
+      }
+    ],
+    "relatedIds": [
+      "changdeshan-1935-07",
+      "maoergai-1935-08",
+      "shawo-meeting-1935-08"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "red25-west-1935-07",

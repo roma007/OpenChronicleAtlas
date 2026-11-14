@@ -1158,48 +1158,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            102.81,
-            30.75
-          ],
-          [
-            102.634,
-            30.967
-          ],
-          [
-            102.6,
-            30.9
-          ],
-          [
-            102.36,
-            30.99
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "central-red-army",
-        "startDate": "1935-06-13",
-        "endDate": "1935-06-18",
-        "order": 28,
-        "segmentType": "advance",
-        "name": {
-          "zh": "夹金山—达维—懋功",
-          "en": "Jiajin Mountain–Dawei–Maogong"
-        },
-        "description": {
-          "zh": "中央红军翻越夹金山后经达维与红四方面军会师，再进至懋功。",
-          "en": "After crossing the Jiajin Mountains, the Central Red Army met the Fourth Front Army at Dawei and advanced to Maogong."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             102.36,
             30.99
           ],
@@ -1208,8 +1166,32 @@
             31.49
           ],
           [
+            102.313,
+            31.707
+          ],
+          [
+            102.28,
+            31.87
+          ],
+          [
+            102.55,
+            31.95
+          ],
+          [
+            102.598,
+            32.233
+          ],
+          [
             102.99,
             32.062
+          ],
+          [
+            102.75,
+            32.16
+          ],
+          [
+            102.864,
+            32.235
           ],
           [
             103.023,
@@ -1223,17 +1205,17 @@
       },
       "properties": {
         "entityId": "central-red-army",
-        "startDate": "1935-06-19",
+        "startDate": "1935-06-13",
         "endDate": "1935-08-20",
-        "order": 29,
+        "order": 28,
         "segmentType": "advance",
         "name": {
-          "zh": "懋功—两河口—芦花—沙窝—毛儿盖",
-          "en": "Maogong–Lianghekou–Luhua–Shawo–Maoergai"
+          "zh": "懋功—两河口—梦笔山—卓克基—长板山—芦花—昌德山—达古山—毛儿盖",
+          "en": "Maogong–Lianghekou–Mengbi Mountain–Zhuokeji–Changban Mountain–Luhua–Changde Mountain–Dagu Mountain–Maoergai"
         },
         "description": {
-          "zh": "中央红军由懋功北上，经两河口、芦花、沙窝进抵毛儿盖，途中召开两河口、芦花、沙窝会议。",
-          "en": "The Central Red Army moved north from Maogong through Lianghekou, Luhua, and Shawo to Maoergai, holding the Lianghekou, Luhua, and Shawo meetings along the way."
+          "zh": "中央红军由懋功北上，经两河口、梦笔山、卓克基、长板山（雅克夏）、芦花、昌德山、达古山，进抵毛儿盖。路线为示意，待按行军日志细化。",
+          "en": "The Central Red Army moved north from Maogong through Lianghekou, Mengbi Mountain, Zhuokeji, Changban Mountain (Yakexia), Luhua, Changde Mountain, and Dagu Mountain to Maoergai. The route is schematic and awaits refinement from march logs."
         },
         "extensions": {
           "precision": "schematic"
@@ -1267,7 +1249,7 @@
         "entityId": "central-red-army",
         "startDate": "1935-08-21",
         "endDate": "1935-08-31",
-        "order": 30,
+        "order": 29,
         "segmentType": "advance",
         "name": {
           "zh": "毛儿盖—包座—班佑—巴西（过草地）",
@@ -1305,7 +1287,7 @@
         "entityId": "central-red-army",
         "startDate": "1935-09-01",
         "endDate": "1935-09-17",
-        "order": 31,
+        "order": 30,
         "segmentType": "advance",
         "name": {
           "zh": "巴西—俄界—腊子口",
@@ -1343,7 +1325,7 @@
         "entityId": "central-red-army",
         "startDate": "1935-09-17",
         "endDate": "1935-09-18",
-        "order": 32,
+        "order": 31,
         "segmentType": "advance",
         "name": {
           "zh": "腊子口—哈达铺"
@@ -1395,7 +1377,7 @@
         "entityId": "central-red-army",
         "startDate": "1935-09-19",
         "endDate": "1935-10-19",
-        "order": 33,
+        "order": 32,
         "segmentType": "advance",
         "name": {
           "zh": "哈达铺—吴起镇"
@@ -1435,7 +1417,7 @@
         "entityId": "central-red-army",
         "startDate": "1935-10-20",
         "endDate": "1935-11-21",
-        "order": 34,
+        "order": 33,
         "segmentType": "advance",
         "name": {
           "zh": "吴起—直罗镇"
@@ -1479,7 +1461,7 @@
         "entityId": "central-red-army",
         "startDate": "1935-11-22",
         "endDate": "1936-10-09",
-        "order": 35,
+        "order": 34,
         "segmentType": "advance",
         "name": {
           "zh": "直罗镇—会宁"
@@ -1515,7 +1497,7 @@
         "entityId": "central-red-army",
         "startDate": "1936-10-10",
         "endDate": "1936-10-22",
-        "order": 36,
+        "order": 35,
         "segmentType": "advance",
         "name": {
           "zh": "会宁—将台堡"
