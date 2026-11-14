@@ -35,8 +35,21 @@ if (!current) {
   throw new Error('根 package.json 缺少 version');
 }
 
+// 支持 `pnpm version:bump 1.0.5` 指定目标版本；不传则自增。
+// 指定版本用于「构建号已经领先、版本号落后」的补救场景。
+const requested = process.argv[2]?.trim();
 const match = /^1\.0\.(\d+)$/.exec(current);
-const next = match ? `1.0.${Number(match[1]) + 1}` : '1.0.0';
+const next = requested || (match ? `1.0.${Number(match[1]) + 1}` : '1.0.0');
+
+if (!/^1\.0\.\d+$/.test(next)) {
+  throw new Error(`目标版本必须是 1.0.X，实际 ${next}`);
+}
+if (match && Number(next.split('.')[2]) < Number(match[1])) {
+  throw new Error(`版本不能倒退：${current} → ${next}`);
+}
+if (next === current) {
+  throw new Error(`版本未变化：${current}`);
+}
 
 const [major, minor, patch] = next.split('.').map(Number) as [number, number, number];
 // Android versionCode / iOS build / macOS bundleVersion 共用同一递增号。

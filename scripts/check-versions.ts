@@ -62,6 +62,20 @@ if (appConfig) {
   if (!expectedBuild) warnings.push('apps/mobile/app.config.ts 未找到 versionCode');
 }
 
+// 构建号不是自由数字：必须等于 major*10000 + minor*100 + patch。
+// 缺了这条，「构建号手动改到 10005 而版本还写 1.0.3」这种漂移会被漏掉。
+const derivedBuild = String(
+  expectedVersion
+    .split('.')
+    .map(Number)
+    .reduce((acc, part, index) => acc + part * [10000, 100, 1][index]!, 0),
+);
+if (expectedBuild && expectedBuild !== derivedBuild) {
+  errors.push(
+    `构建号应为 ${derivedBuild}（由 ${expectedVersion} 推导），实际 ${expectedBuild}`,
+  );
+}
+
 const gradle = read('apps/mobile/android/app/build.gradle');
 if (gradle) {
   const versionName = /versionName\s+"([^"]+)"/.exec(gradle)?.[1] ?? null;

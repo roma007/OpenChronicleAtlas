@@ -3,72 +3,24 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
-## [v1.0.3] - 2026-11-12
+## [v1.0.6] - 2026-11-14
+
+### Added
+- `.githooks/pre-commit`：提交时自动升版、校验版本与构建号一致性、强制同时更新 CHANGELOG。
+- `package.json` 新增 `prepare`：执行 `pnpm install` 时自动设置 `core.hooksPath=.githooks`。
+- `pnpm version:bump <版本>`：支持指定目标版本，用于「构建号已领先、版本号落后」的补救场景。
 
 ### Fixed
-- 移除 iOS `Info.plist` 中 macOS 专用的 `LSMinimumSystemVersion`，修复 App Store 上传校验 `91164`（该键为 16.x 时会被拒绝）。
-- 新增 `plugins/with-remove-macos-plist.js`，prebuild 后自动删除该键，避免 Expo 模板默认值回流。
+- `scripts/check-versions.ts` 新增构建号公式校验：此前「版本 `1.0.3` + 构建号 `10005`」这类漂移能通过检查。
 
 ### Changed
-- 全仓版本由 `1.0.2` 升级为 `1.0.3`，构建号 `10003`。
+- `AGENTS.md` 第 1 节由「人工执行」改为「钩子自动执行」，并补充豁免条件、`--no-verify` 禁用与 tag 命令。
+- 版本文件存在未暂存改动时钩子拒绝提交，避免自动升版覆盖正在编辑的内容。
+- `git commit --amend` 补提交需加 `SKIP_VERSION_BUMP=1`，否则会再升一版。
+- CHANGELOG 校验提前到升版之前：被拒绝的提交不再消耗版本号。
 
 ### Docs
-- 发布清单与英文商店元数据同步 iOS 最低版本口径。
-- `docs/conversations/2026-11-12-M104-iOS上传校验修复.md`
-
----
-
-## [v1.0.2] - 2026-11-12
-
-### Added
-- 移动端内置 `data/atlases` 离线数据源：`scripts/build-mobile-data.ts` 生成静态 require 映射，涵盖 10 个专题 / 685 个事件 / 595 段路线 / 搜索索引。
-- 新增 `BundledDataSource` 与「远端优先 + 内置回退」数据策略；设置 `EXPO_PUBLIC_DATA_BASE_URL` 即可在服务器就绪后切换，无需改数据格式。
-- 新增 App 内离线隐私政策弹窗：首次启动页与首页底部均可打开，不再依赖外部域名。
-- 6 个专题的 SVG 封面转换为 1600×900 PNG，修复 React Native `Image` 无法渲染 SVG 的问题。
-
-### Changed
-- 移动端 Release 默认读取内置数据，不再请求 `*.vercel.app`；本地开发仍使用本机数据服务。
-- Metro 支持 `.geojson` 源文件；Android/iOS CI 在 prebuild 前自动重新生成内置数据映射。
-- 隐私政策第 5 节由「静态文件托管 / CDN 分发」更新为「数据随应用内置，可离线浏览」。
-- 全仓版本由 `1.0.1` 升级为 `1.0.2`，构建号 `10002`。
-
-### Docs
-- `docs/guides/deployment.md`：补充内置数据与远端切换说明。
-- 发布清单、英文审核备注同步离线数据口径。
-- `docs/conversations/2026-11-12-M103-移动端离线数据与隐私内嵌.md`
-
----
-
-## [v1.0.0] - 2026-11-12
-
-### Added
-- `AGENTS.md` 版本铁律：每次提交自动递增 `1.0.X`。
-- `scripts/bump-version.ts` 与 `pnpm version:bump`，统一更新全仓版本与构建号。
-- `check:versions` 覆盖桌面端 Cargo/Tauri/Cargo.lock，并强制 `1.0.X` 格式。
-
-### Changed
-- 全仓版本由 `0.95.0` 升级为 `1.0.0`；移动端与 macOS 构建号统一为 `10000`。
-
----
-
-## [v1.0.1] - 2026-11-12
-
-### Added
-- 定稿 OpenChronicle Atlas 品牌 Logo「青铜 · 朱砂」：深墨直角方底、开口 C 环、粗路线 + 大定位针。
-- 新增 `docs/assets/branding/`：矢量源文件、1024px 全出血直角方图、青瓷/靛蓝配色备选与对比预览页。
-
-### Changed
-- 全端应用图标替换：Web PWA（192/512/1024）、Tauri 桌面（含 `.ico` / `.icns`）、iOS 1024、Android legacy / round / adaptive。
-- Logo 与全部应用图标统一为**直角全出血方图**，不再预制圆角，交由 iOS / Android / PWA 系统裁切，避免真机二次圆角造成边缘缺白。
-- Android adaptive icon 前景改为透明底 C 环 + 定位针，背景色调整为 `#17120E`。
-- 桌面端 `icon` 脚本直接使用 `apps/mobile/assets/icon.png`（直角方图），移动端 `icon.png` 保持无 alpha。
-- 启动页 `splash.svg/png` 与商店横幅 `feature-graphic.svg/png` 换用新 Logo 与青铜 · 朱砂配色；Expo splash、Android `splashscreen_background`、PWA manifest 背景统一为 `#17120E`。
-- 全仓版本由 `1.0.0` 升级为 `1.0.1`，构建号 `10001`。
-
-### Docs
-- `docs/assets/branding/README.md`：Logo 隐喻、配色、几何规范与落地说明。
-- `docs/assets/branding/index.html`：三套配色对比预览。
-- `docs/conversations/2026-11-12-M102-Logo青铜朱砂定稿与全端图标.md`
+- `docs/conversations/2026-11-14-M114-提交前自动升版与发布守则.md`
 
 ---
 
@@ -169,6 +121,75 @@
 - `docs/conversations/2026-11-11-M98-桌面端Tauri与多商店发布.md`
 - `docs/guides/store-submission.md`
 - `docs/decisions/ADR-0010-桌面端采用Tauri2复用Web构建.md`
+
+---
+
+## [v1.0.3] - 2026-11-12
+
+### Fixed
+- 移除 iOS `Info.plist` 中 macOS 专用的 `LSMinimumSystemVersion`，修复 App Store 上传校验 `91164`（该键为 16.x 时会被拒绝）。
+- 新增 `plugins/with-remove-macos-plist.js`，prebuild 后自动删除该键，避免 Expo 模板默认值回流。
+
+### Changed
+- 全仓版本由 `1.0.2` 升级为 `1.0.3`，构建号 `10003`。
+
+### Docs
+- 发布清单与英文商店元数据同步 iOS 最低版本口径。
+- `docs/conversations/2026-11-12-M104-iOS上传校验修复.md`
+
+---
+
+## [v1.0.2] - 2026-11-12
+
+### Added
+- 移动端内置 `data/atlases` 离线数据源：`scripts/build-mobile-data.ts` 生成静态 require 映射，涵盖 10 个专题 / 685 个事件 / 595 段路线 / 搜索索引。
+- 新增 `BundledDataSource` 与「远端优先 + 内置回退」数据策略；设置 `EXPO_PUBLIC_DATA_BASE_URL` 即可在服务器就绪后切换，无需改数据格式。
+- 新增 App 内离线隐私政策弹窗：首次启动页与首页底部均可打开，不再依赖外部域名。
+- 6 个专题的 SVG 封面转换为 1600×900 PNG，修复 React Native `Image` 无法渲染 SVG 的问题。
+
+### Changed
+- 移动端 Release 默认读取内置数据，不再请求 `*.vercel.app`；本地开发仍使用本机数据服务。
+- Metro 支持 `.geojson` 源文件；Android/iOS CI 在 prebuild 前自动重新生成内置数据映射。
+- 隐私政策第 5 节由「静态文件托管 / CDN 分发」更新为「数据随应用内置，可离线浏览」。
+- 全仓版本由 `1.0.1` 升级为 `1.0.2`，构建号 `10002`。
+
+### Docs
+- `docs/guides/deployment.md`：补充内置数据与远端切换说明。
+- 发布清单、英文审核备注同步离线数据口径。
+- `docs/conversations/2026-11-12-M103-移动端离线数据与隐私内嵌.md`
+
+---
+
+## [v1.0.1] - 2026-11-12
+
+### Added
+- 定稿 OpenChronicle Atlas 品牌 Logo「青铜 · 朱砂」：深墨直角方底、开口 C 环、粗路线 + 大定位针。
+- 新增 `docs/assets/branding/`：矢量源文件、1024px 全出血直角方图、青瓷/靛蓝配色备选与对比预览页。
+
+### Changed
+- 全端应用图标替换：Web PWA（192/512/1024）、Tauri 桌面（含 `.ico` / `.icns`）、iOS 1024、Android legacy / round / adaptive。
+- Logo 与全部应用图标统一为**直角全出血方图**，不再预制圆角，交由 iOS / Android / PWA 系统裁切，避免真机二次圆角造成边缘缺白。
+- Android adaptive icon 前景改为透明底 C 环 + 定位针，背景色调整为 `#17120E`。
+- 桌面端 `icon` 脚本直接使用 `apps/mobile/assets/icon.png`（直角方图），移动端 `icon.png` 保持无 alpha。
+- 启动页 `splash.svg/png` 与商店横幅 `feature-graphic.svg/png` 换用新 Logo 与青铜 · 朱砂配色；Expo splash、Android `splashscreen_background`、PWA manifest 背景统一为 `#17120E`。
+- 全仓版本由 `1.0.0` 升级为 `1.0.1`，构建号 `10001`。
+
+### Docs
+- `docs/assets/branding/README.md`：Logo 隐喻、配色、几何规范与落地说明。
+- `docs/assets/branding/index.html`：三套配色对比预览。
+- `docs/conversations/2026-11-12-M102-Logo青铜朱砂定稿与全端图标.md`
+
+---
+
+## [v1.0.0] - 2026-11-12
+
+### Added
+- `AGENTS.md` 版本铁律：每次提交自动递增 `1.0.X`。
+- `scripts/bump-version.ts` 与 `pnpm version:bump`，统一更新全仓版本与构建号。
+- `check:versions` 覆盖桌面端 Cargo/Tauri/Cargo.lock，并强制 `1.0.X` 格式。
+
+### Changed
+- 全仓版本由 `0.95.0` 升级为 `1.0.0`；移动端与 macOS 构建号统一为 `10000`。
 
 ---
 

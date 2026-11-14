@@ -15,11 +15,12 @@
 > **跨仓库操作**（涉及服务器上的 OpenQuizGo 服务、nginx、备份）时，
 > OpenCode 只会加载当前目录的 AGENTS.md，必须先主动读 `../OpenQuizGo/AGENTS.md`。
 
-## 1. 版本铁律（每次提交必须执行）
+## 1. 版本铁律（由 Git 钩子自动执行）
 
-1. **每次提交前必须升级版本**，版本号格式固定为 `1.0.X`。
-2. 首次迁移：`0.95.0` → `1.0.0`；之后每次提交 `X + 1`：`1.0.1`、`1.0.2`……
-3. 禁止只改部分文件。所有版本与构建号必须同步：
+> 这一节不依赖人记：`.githooks/pre-commit` 在每次提交时自动完成升版与校验。
+
+1. 版本号格式固定 `1.0.X`，每次提交 `X + 1`。
+2. **不要手动改版本**。钩子会自动执行 `pnpm version:bump`，更新下列位置并暂存：
    - 根 `package.json`
    - `apps/web/package.json`
    - `apps/mobile/package.json`
@@ -32,20 +33,28 @@
    - `apps/mobile/app.config.ts`（`version`、`buildNumber`、`versionCode`）
    - 生成的 `apps/mobile/android/app/build.gradle`
    - 生成的 `apps/mobile/ios/app/Info.plist`
-4. 构建号统一由版本推导：`major * 10000 + minor * 100 + patch`。
-   - `1.0.0` → `10000`
-   - `1.0.1` → `10001`
-5. 执行方式：
+3. 构建号由版本推导，且被 `check:versions` 强校验：`major * 10000 + minor * 100 + patch`。
+   - `1.0.0` → `10000`，`1.0.5` → `10005`
+   - 构建号领先或落后于版本都会被拒绝提交（防止「构建号 10005、版本 1.0.3」这类漂移）
+4. 每次提交都会执行 `pnpm check:versions`，必须输出 `✅ 版本一致`。
+5. 首次启用（每个新克隆一次）：`pnpm install` 的 `prepare` 会自动设置
+   `core.hooksPath`；没生效时手动 `git config core.hooksPath .githooks` 并确认
+   `git config --get core.hooksPath` 输出 `.githooks`。
+6. 需要指定版本（例如构建号已领先、要一次补齐）：`pnpm version:bump 1.0.5`。
+   钩子检测到已升版就不再自增；版本禁止倒退。
+7. 合并 / 变基 / cherry-pick / revert 时钩子自动跳过，不会重复自增。
+   `git commit --amend` 补提交时加 `SKIP_VERSION_BUMP=1`，否则会再升一版。
+8. 每个提交必须同时暂存 `docs/changelog/CHANGELOG.md`，否则钩子拒绝提交。
+   确属例外用 `ALLOW_NO_CHANGELOG=1 git commit ...`。
+9. 禁止 `git commit --no-verify`。唯一正当场景是钩子本身故障，且必须在同一次提交里修好。
+10. 提交后打 tag 并推送两端：
 
-   ```bash
-   pnpm version:bump
-   pnpm check:versions
-   ```
+    ```bash
+    V=$(node -p "require('./package.json').version")
+    git tag -a "v$V" -m "v$V"
+    ```
 
-   `check:versions` 必须输出 `✅ 版本一致`，否则禁止提交。
-
-6. 每个提交必须在 `docs/changelog/CHANGELOG.md` 记录本次版本与变更。
-7. Git tag 使用 `v1.0.X`，例如 `v1.0.0`、`v1.0.1`。
+    Git tag 使用 `v1.0.X`，例如 `v1.0.5`、`v1.0.6`。
 
 ## 2. 提交铁律
 

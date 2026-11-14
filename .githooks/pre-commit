@@ -1,0 +1,87 @@
+#!/usr/bin/env bash
+# OpenChronicle Atlas 提交前铁律执行者（AGENTS.md 第 1 节）
+#
+# 做四件事：
+#   1. 版本文件有未暂存改动时拒绝提交（避免自增覆盖你正在写的内容）
+#   2. 未升版则自动 pnpm version:bump（已手动升版或 amend 时跳过）
+#   3. pnpm check:versions，版本/构建号不一致直接拒绝
+#   4. 本次提交没有暂存 CHANGELOG.md 时拒绝
+#
+# 启用：pnpm install（prepare 脚本）或 git config core.hooksPath .githooks
+set -euo pipefail
+
+cd "$(git rev-parse --show-toplevel)"
+
+GIT_DIR="$(git rev-parse --git-dir)"
+
+# 合并 / 变基 / cherry-pick / revert 不升版：这些操作不应产生新版本
+for marker in MERGE_HEAD CHERRY_PICK_HEAD REVERT_HEAD rebase-merge rebase-apply; do
+  if [ -e "$GIT_DIR/$marker" ]; then
+    echo "↷ 跳过自动升版（进行中的合并 / 变基 / 回滚）"
+    exit 0
+  fi
+done
+
+VERSION_FILES=(
+  package.json
+  apps/web/package.json
+  apps/mobile/package.json
+  packages/shared/package.json
+  apps/desktop/package.json
+  apps/mobile/app.json
+  apps/mobile/app.config.ts
+  apps/desktop/src-tauri/tauri.conf.json
+  apps/desktop/src-tauri/Cargo.toml
+  apps/desktop/src-tauri/Cargo.lock
+  apps/mobile/android/app/build.gradle
+  apps/mobile/ios/app/Info.plist
+)
+
+# 1. 版本文件不能带着未暂存的改动，否则 version:bump 会把它一起改写
+#    生成的 android/ios 目录被 .gitignore 忽略，只处理被跟踪的文件。
+TRACKED_VERSION_FILES=()
+dirty=()
+for file in "${VERSION_FILES[@]}"; do
+  git ls-files --error-unmatch "$file" >/dev/null 2>&1 || continue
+  TRACKED_VERSION_FILES+=("$file")
+  if ! git diff --quiet -- "$file"; then
+    dirty+=("$file")
+  fi
+done
+if [ "${#dirty[@]}" -gt 0 ]; then
+  echo "❌ 以下版本文件有未暂存改动，自动升版会覆盖它们：" >&2
+  printf '   %s\n' "${dirty[@]}" >&2
+  echo "   请先暂存或还原这些改动，再重新提交。" >&2
+  exit 1
+fi
+
+read_version() {
+  # $1 是完整前缀：`HEAD:` 或 `:`
+  git show "${1}package.json" 2>/dev/null |
+    node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{process.stdout.write(JSON.parse(s).version||"")}catch{}})' ||
+    true
+}
+
+# 2. 每次提交都要有变更记录（放在升版之前：被拒绝的提交不该消耗版本号）
+if [ "${ALLOW_NO_CHANGELOG:-0}" != "1" ] &&
+  ! git diff --cached --name-only | grep -qx 'docs/changelog/CHANGELOG.md'; then
+  echo "❌ 本次提交没有暂存 docs/changelog/CHANGELOG.md（AGENTS.md 第 1 节第 6 条）" >&2
+  echo "   确属例外时：ALLOW_NO_CHANGELOG=1 git commit ..." >&2
+  exit 1
+fi
+
+head_version="$(read_version 'HEAD:')"
+index_version="$(read_version ':')"
+
+# 3. 已手动升版（含 amend）就不再自增
+if [ "${SKIP_VERSION_BUMP:-0}" = "1" ]; then
+  echo "↷ SKIP_VERSION_BUMP=1，跳过自增（amend / 补提交）"
+elif [ -n "$index_version" ] && [ "$head_version" != "$index_version" ]; then
+  echo "↷ 已升版：${head_version:-<无>} → ${index_version}，跳过自增"
+else
+  pnpm -s version:bump
+  git add "${TRACKED_VERSION_FILES[@]}"
+fi
+
+# 4. 版本与构建号必须全局一致，且构建号必须由版本推导
+pnpm -s check:versions
