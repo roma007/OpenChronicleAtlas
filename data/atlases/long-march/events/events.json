@@ -11573,6 +11573,271 @@
     "importance": 2
   },
   {
+    "id": "minlaoxigu-1936-08",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "岷洮西固战役",
+      "en": "Min–Tao–Xigu Campaign"
+    },
+    "aliases": [
+      {
+        "zh": "岷洮西战役",
+        "en": "Min–Tao–Xi Campaign"
+      }
+    ],
+    "date": "1936-08-05",
+    "endDate": "1936-09-07",
+    "location": {
+      "lng": 104.04,
+      "lat": 34.43,
+      "place": {
+        "zh": "甘肃岷县（战役中心）",
+        "en": "Minxian, Gansu (campaign centre)"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红四方面军发起岷洮西固战役，攻占临潭、漳县、渭源、通渭等地。",
+      "en": "The Fourth Front Army launched the Min–Tao–Xigu campaign, taking Lintan, Zhangxian, Weiyuan, Tongwei, and surrounding areas."
+    },
+    "description": {
+      "zh": "1936 年 8 月 5 日，中共中央西北局在求吉寺会议后发布《岷洮西固战役计划》，红四方面军分两纵队由包座北上，先机夺取岷州（今岷县）、洮州（今临潭）、西固（今舟曲）地区。战役至 9 月 7 日结束，历时 34 天，先后攻占漳县、临潭、渭源、通渭四座县城及岷县、陇西、临洮、武山、宕昌等县广大农村，共歼敌 7000 余人。岷县县城久攻未克，红军改取围而不打，主力绕城北上。此役打开了红二、四方面军北上的通道。本坐标为岷县代表点；西固方向为战役分支，未单独建模。",
+      "en": "On 5 August 1936, after the Qiuji Monastery meeting, the Northwest Bureau issued the Min–Tao–Xigu campaign plan. The Fourth Front Army moved north from Bazuo in two columns to seize Minzhou (present-day Minxian), Taozhou (Lintan), and Xigu (Zhouqu). The campaign ended on 7 September after 34 days, taking Zhangxian, Lintan, Weiyuan, and Tongwei county towns and large rural areas of Minxian, Longxi, Lintao, Wushan, and Dangchang, with more than 7,000 enemy troops killed or wounded. Minxian town was not taken; the Red Army switched to containing it and moved its main force around it to the north. The campaign opened the route north for the Second and Fourth Front Armies. The coordinate is a representative point at Minxian; the Xigu branch is not modelled separately."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《战胜张国焘分裂主义 北上实现大会师》",
+        "author": "中共甘肃省委党史研究室 / 甘肃党史网",
+        "year": 2016,
+        "note": "用于核对岷洮西固战役 8 月 5 日—9 月 7 日、歼敌 7000 余与攻占四座县城",
+        "url": "http://www.gsds.gov.cn/wenxianziliao/jinianhuodong/20161026/1655134542e5bb.htm"
+      },
+      {
+        "title": "《岷县：红军长征路上的“加油站”》",
+        "author": "定西日报",
+        "year": 2021,
+        "note": "用于核对 8 月 8 日攻克腊子口、8 月 10 日二郎山战斗与岷县休整 57 天",
+        "url": "http://chinajiuquan.com/index/news/detail_news.html?id=111250"
+      },
+      {
+        "title": "《一封求和信》",
+        "author": "甘肃党史网",
+        "year": 2026,
+        "note": "用于核对二郎山三战、围而不打与鲁大昌求和",
+        "url": "http://www.gsds.gov.cn/dangshixuanchuan/longyuanhonggushi/20260525/1857427174d8b4c44f9.htm"
+      }
+    ],
+    "relatedIds": [
+      "lazikou-1936-08",
+      "erlangshan-1936-08",
+      "lintan-jiucheng-1936-08",
+      "minzhou-meeting-1936-09"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "lazikou-1936-08",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "夜袭腊子口",
+      "en": "Night Attack at Lazikou"
+    },
+    "aliases": [
+      {
+        "zh": "1936 年腊子口战斗",
+        "en": "1936 Lazikou Battle"
+      }
+    ],
+    "date": "1936-08-08",
+    "endDate": "1936-08-09",
+    "location": {
+      "lng": 103.6,
+      "lat": 34.1,
+      "place": {
+        "zh": "甘肃迭部腊子口",
+        "en": "Lazikou, Diebu, Gansu"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红三十军第八十八师夜袭腊子口，打开北上甘南门户。",
+      "en": "The 88th Division of the 30th Army took Lazikou by night attack, opening the gate to southern Gansu."
+    },
+    "description": {
+      "zh": "1936 年 8 月 8 日夜，红四方面军第三十军第八十八师进攻腊子口，以两个营正面佯攻、一个营侧后迂回，加上一年前陕甘支队攻克腊子口的声威，迅速击垮国民党鲁大昌部守军一个营。8 月 9 日红军突破腊子口进入岷县境内，北上门户打开。此次战斗与 1935 年 9 月中央红军攻克腊子口是两次不同行动。本坐标为腊子口代表点。",
+      "en": "On the night of 8 August 1936 the 88th Division of the Fourth Front Army’s 30th Army attacked Lazikou, feinting frontally with two battalions and sending one battalion around the flank. Together with the prestige of the Shaanxi–Gansu Detachment’s capture of Lazikou a year earlier, the attack quickly broke a battalion of Lu Dachang’s defenders. On 9 August the Red Army passed Lazikou into Minxian county, opening the northern gate. This action is distinct from the Central Red Army’s capture of Lazikou in September 1935. The coordinate is a representative point at Lazikou."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《战胜张国焘分裂主义 北上实现大会师》",
+        "author": "中共甘肃省委党史研究室 / 甘肃党史网",
+        "year": 2016,
+        "note": "用于核对岷洮西固战役 8 月 5 日—9 月 7 日、歼敌 7000 余与攻占四座县城",
+        "url": "http://www.gsds.gov.cn/wenxianziliao/jinianhuodong/20161026/1655134542e5bb.htm"
+      },
+      {
+        "title": "《岷县：红军长征路上的“加油站”》",
+        "author": "定西日报",
+        "year": 2021,
+        "note": "用于核对 8 月 8 日攻克腊子口、8 月 10 日二郎山战斗与岷县休整 57 天",
+        "url": "http://chinajiuquan.com/index/news/detail_news.html?id=111250"
+      }
+    ],
+    "relatedIds": [
+      "lazigou-1935-09",
+      "minlaoxigu-1936-08",
+      "erlangshan-1936-08"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "erlangshan-1936-08",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "二郎山战斗",
+      "en": "Battle of Erlangshan"
+    },
+    "aliases": [
+      {
+        "zh": "岷县二郎山战斗",
+        "en": "Erlangshan Battle at Minxian"
+      },
+      {
+        "zh": "二郎山战役",
+        "en": "Erlangshan Campaign"
+      }
+    ],
+    "date": "1936-08-10",
+    "endDate": "1936-08-17",
+    "location": {
+      "lng": 104.036,
+      "lat": 34.431,
+      "place": {
+        "zh": "甘肃岷县县城南二郎山",
+        "en": "Erlangshan south of Minxian county town, Gansu"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红三十军猛攻岷县二郎山，激战六昼夜后改强攻为围困。",
+      "en": "The 30th Army assaulted Erlangshan at Minxian for six days and nights before switching to containment."
+    },
+    "description": {
+      "zh": "1936 年 8 月 10 日晚 11 时，红四方面军第三十军向岷县县城屏障二郎山发起猛攻，徐向前、陈昌浩、程世才、李先念等指挥，红军四次突破敌第三号碉堡，并在张家坪与敌特务团巷战。战斗反复拉锯，前沿阵地七次易手；鲁大昌急调两营增援。激战六昼夜，红军毙伤敌 1500 余人（另有 2000 余人说），缴轻重机枪 11 挺、迫击炮 5 门，自身伤亡 1000 余人。因城垣坚固、缺乏攻坚武器且部队刚出草地，红军改强攻为佯攻，以少数兵力围困县城，主力休整并做群众工作。本坐标为二郎山代表点。",
+      "en": "At 11 p.m. on 10 August 1936 the Fourth Front Army’s 30th Army assaulted Erlangshan, the natural shield of Minxian town, under Xu Xiangqian, Chen Changhao, Cheng Shicai, and Li Xiannian. The Red Army broke into the enemy’s No. 3 blockhouse four times and fought street actions against the special service regiment at Zhangjiaping. The front line changed hands seven times, and Lu Dachang rushed two battalions as reinforcements. After six days and nights the Red Army had killed or wounded more than 1,500 enemy troops (some accounts say over 2,000), captured 11 light and heavy machine guns and five mortars, and suffered over 1,000 casualties. With strong walls, little siege equipment, and troops exhausted from the grasslands, the Red Army switched from assault to feint, containing the town with a small force while the main force rested and worked among the people. The coordinate is a representative point at Erlangshan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《岷县红军长征旧址》",
+        "author": "甘肃省文物局 / 定西市",
+        "note": "用于核对二郎山战斗旧址、8 月 10 日晚进攻与六昼夜激战",
+        "url": "http://wap.dm.ttdm.cn/landscape/117/xianhongjunchangzhengjiuzhi.html"
+      },
+      {
+        "title": "《一封求和信》",
+        "author": "甘肃党史网",
+        "year": 2026,
+        "note": "用于核对二郎山三战、围而不打与鲁大昌求和",
+        "url": "http://www.gsds.gov.cn/dangshixuanchuan/longyuanhonggushi/20260525/1857427174d8b4c44f9.htm"
+      },
+      {
+        "title": "《岷县：红军长征路上的“加油站”》",
+        "author": "定西日报",
+        "year": 2021,
+        "note": "用于核对 8 月 8 日攻克腊子口、8 月 10 日二郎山战斗与岷县休整 57 天",
+        "url": "http://chinajiuquan.com/index/news/detail_news.html?id=111250"
+      }
+    ],
+    "relatedIds": [
+      "minlaoxigu-1936-08",
+      "lazikou-1936-08",
+      "minzhou-meeting-1936-09"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "lintan-jiucheng-1936-08",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "临潭旧城战斗",
+      "en": "Battle of Lintan Old Town"
+    },
+    "aliases": [
+      {
+        "zh": "洮州旧城战斗",
+        "en": "Taozhou Old Town Battle"
+      }
+    ],
+    "date": "1936-08-20",
+    "endDate": "1936-08-23",
+    "location": {
+      "lng": 103.353,
+      "lat": 34.688,
+      "place": {
+        "zh": "甘肃临潭旧城（今城关镇）",
+        "en": "Lintan old town (present-day Chengguan), Gansu"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红四军第十师与妇女独立团攻占临潭旧城，随后阻击马彪旅。",
+      "en": "The 10th Division and the Women’s Independent Regiment took Lintan old town, then blocked Ma Biao’s brigade."
+    },
+    "description": {
+      "zh": "1936 年 8 月 20 日拂晓前，红四军第十师和妇女独立团沿山梁大道逼近洮州旧城；8 月 22 日发起攻击，攻占瓦窑坪、双峰堆，次日夺取对坡山、大坡山顶、大湾山梁制高点，击溃「铲共义勇团」，占领旧城，全歼守敌一个营，缴枪 300 余支，俘敌数十名。8 月 23 日，马步芳部马彪旅猛攻旧城，红军在旧城郊口、八龙河一带阻击。随后红军撤至新城方向。本坐标为临潭旧城代表点。",
+      "en": "Before dawn on 20 August 1936 the 10th Division of the 4th Army and the Women’s Independent Regiment advanced on Taozhou old town along the ridge road. On 22 August they attacked, taking Wayaoping and Shuangfengdui, and the next day seized the heights at Duiposhan, Daposhan, and Dawan ridge, routed the “Communist Suppression Volunteers,” and occupied the old town. A garrison battalion was destroyed, over 300 rifles and several dozen prisoners taken. On 23 August Ma Biao’s brigade of Ma Bufang’s forces attacked; the Red Army blocked it at the town outskirts and along the Balong River, then withdrew toward Xincheng. The coordinate is a representative point at Lintan old town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红军长征过临潭与甘南地区第一个红色政权》",
+        "author": "临潭县人民政府",
+        "year": 2017,
+        "note": "用于核对临潭旧城战斗 8 月 20—23 日与马彪旅反扑",
+        "url": "http://www.lintan.gov.cn/info/1055/2583.htm"
+      },
+      {
+        "title": "《战胜张国焘分裂主义 北上实现大会师》",
+        "author": "中共甘肃省委党史研究室 / 甘肃党史网",
+        "year": 2016,
+        "note": "用于核对岷洮西固战役 8 月 5 日—9 月 7 日、歼敌 7000 余与攻占四座县城",
+        "url": "http://www.gsds.gov.cn/wenxianziliao/jinianhuodong/20161026/1655134542e5bb.htm"
+      }
+    ],
+    "relatedIds": [
+      "minlaoxigu-1936-08",
+      "taozhou-meeting-1936-09"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "chenghuiliangkang-1936-09",
     "atlasId": "long-march",
     "name": {
@@ -11808,11 +12073,11 @@
     ],
     "date": "1936-09-27",
     "location": {
-      "lng": 103.35,
-      "lat": 34.69,
+      "lng": 103.589,
+      "lat": 34.675,
       "place": {
-        "zh": "甘肃临潭新城",
-        "en": "Xincheng, Lintan, Gansu"
+        "zh": "甘肃临潭新城（今新城镇）",
+        "en": "Xincheng, Lintan (present-day Xincheng town), Gansu"
       }
     },
     "entityIds": [
@@ -11824,7 +12089,7 @@
       "en": "The Northwest Bureau reaffirmed the northward move at Taozhou; Zhang Guotao was forced to agree to the rendezvous."
     },
     "description": {
-      "zh": "1936 年 9 月 27 日，中共中央西北局在临潭新城召开会议，重新研究红四方面军行动方针。朱德再次争取张国焘，徐向前、陈昌浩等表示拥护北上；张国焘被迫同意放弃西进。会议重申岷州会议决定，当日 20 时朱德、张国焘、徐向前、陈昌浩联名电告党中央和红二方面军，表示「决不再改变」。9 月 28 日红四方面军分六路北上，30 日撤离临潭，10 月 9 日在会宁与红一方面军会师。本坐标为临潭新城会址代表点。",
+      "zh": "1936 年 9 月 27 日，中共中央西北局在临潭新城（今新城镇）召开会议，重新研究红四方面军行动方针。朱德再次争取张国焘，徐向前、陈昌浩等表示拥护北上；张国焘被迫同意放弃西进。会议重申岷州会议决定，当日 20 时朱德、张国焘、徐向前、陈昌浩联名电告党中央和红二方面军，表示「决不再改变」。9 月 28 日红四方面军分六路北上，30 日撤离临潭，10 月 9 日在会宁与红一方面军会师。本坐标为临潭新城会址代表点。",
       "en": "On 27 September 1936 the Northwest Bureau met at Xincheng in Lintan to reconsider the Fourth Front Army’s course. Zhu De again pressed Zhang Guotao; Xu Xiangqian and Chen Changhao supported moving north, and Zhang Guotao was forced to abandon the westward plan. The meeting reaffirmed the Minzhou decision, and at 20:00 that day Zhu De, Zhang Guotao, Xu Xiangqian, and Chen Changhao telegraphed the Central Committee and the Second Front Army that the decision would “never be changed again.” On 28 September the Fourth Front Army moved north in six columns, left Lintan on 30 September, and met the First Front Army at Huining on 9 October. The coordinate is a representative point at the Xincheng site."
     },
     "images": [],
