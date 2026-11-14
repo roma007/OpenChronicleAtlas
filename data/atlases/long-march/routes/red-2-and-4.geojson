@@ -628,6 +628,68 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.124,
+            30.979
+          ],
+          [
+            101.02,
+            30.94
+          ],
+          [
+            100.96,
+            30.9
+          ],
+          [
+            100.86,
+            30.88
+          ],
+          [
+            100.75,
+            30.85
+          ],
+          [
+            100.689,
+            30.826
+          ],
+          [
+            100.36,
+            30.91
+          ],
+          [
+            100.31,
+            30.937
+          ],
+          [
+            100.31,
+            30.941
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-4-army",
+        "startDate": "1936-04-01",
+        "endDate": "1936-04-04",
+        "order": 5,
+        "segmentType": "advance",
+        "name": {
+          "zh": "道孚—瞻化（四天翻越四座雪山）",
+          "en": "Daofu–Zhanhua (four passes in four days)"
+        },
+        "description": {
+          "zh": "红四方面军第四军第十师由道孚经麻孜、亚洛阔、沙拥、伊涅阿、拉日马、扎巴加奔袭瞻化（今新龙），四天连续翻越四座海拔 4000 米以上雪山。路线为示意，待按行军日志细化。",
+          "en": "The 10th Division of the Fourth Front Army’s 4th Army rushed from Daofu via Mazi, Yalokuo, Shayong, Yijiea, Larima, and Zhabajia to Zhanhua (present-day Xinlong), crossing four passes above 4,000 m in four days. The route is schematic and awaits refinement from march logs."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
