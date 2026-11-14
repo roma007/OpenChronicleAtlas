@@ -6,12 +6,34 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [104.603, 36.518],
-          [103.6, 37.1],
-          [102.896, 37.471],
-          [101.967, 38.247],
-          [100.6, 38.9],
-          [99.82, 39.377]
+          [
+            104.603,
+            36.518
+          ],
+          [
+            104.06,
+            37.18
+          ],
+          [
+            102.896,
+            37.471
+          ],
+          [
+            101.967,
+            38.247
+          ],
+          [
+            101.087,
+            38.787
+          ],
+          [
+            100.6,
+            38.9
+          ],
+          [
+            99.82,
+            39.377
+          ]
         ]
       },
       "properties": {
@@ -25,8 +47,8 @@
           "en": "Jingyuan–Gulang–Yongchang–Gaotai"
         },
         "description": {
-          "zh": "西路军由靖远虎豹口渡河西进，经古浪、永昌、山丹进至临泽、高台。路线为示意，待按行军日志细化。",
-          "en": "The West Route Army crossed at Hubaokou in Jingyuan and moved west through Gulang, Yongchang, and Shandan to Linze and Gaotai. The route is schematic and awaits refinement from march logs."
+          "zh": "西路军由靖远虎豹口渡河西进，经一条山、古浪、永昌、山丹进至临泽、高台。路线为示意，待按行军日志细化。",
+          "en": "The West Route Army crossed at Hubaokou in Jingyuan and moved west through Yitiaoshan, Gulang, Yongchang, and Shandan to Linze and Gaotai. The route is schematic and awaits refinement from march logs."
         },
         "extensions": {
           "precision": "schematic"
@@ -38,10 +60,26 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [99.82, 39.377],
-          [100.125, 39.031],
-          [100.13, 39.1],
-          [99.615, 38.837]
+          [
+            99.82,
+            39.377
+          ],
+          [
+            100.2,
+            38.85
+          ],
+          [
+            100.125,
+            39.031
+          ],
+          [
+            100.13,
+            39.1
+          ],
+          [
+            99.615,
+            38.837
+          ]
         ]
       },
       "properties": {
@@ -55,8 +93,50 @@
           "en": "Gaotai–Nijia Yingzi–Liyuankou–Shiwo"
         },
         "description": {
-          "zh": "高台失守后，西路军经倪家营子、三道柳沟、梨园口转入祁连山，在石窝山分兵游击。路线为示意，待按行军日志细化。",
-          "en": "After the fall of Gaotai, the West Route Army moved through Nijia Yingzi, Sandaoliugou, and Liyuankou into the Qilian Mountains and dispersed at Shiwo Mountain. The route is schematic and awaits refinement from march logs."
+          "zh": "高台失守后，西路军经西洞堡、龙首堡、倪家营子、三道柳沟、梨园口转入祁连山，在石窝山分兵游击。路线为示意，待按行军日志细化。",
+          "en": "After the fall of Gaotai, the West Route Army moved through Xidongbao, Longshoubao, Nijia Yingzi, Sandaoliugou, and Liyuankou into the Qilian Mountains and dispersed at Shiwo Mountain. The route is schematic and awaits refinement from march logs."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.615,
+            38.837
+          ],
+          [
+            98.5,
+            39.3
+          ],
+          [
+            97,
+            39.8
+          ],
+          [
+            95.13,
+            41.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xi-lu-jun",
+        "startDate": "1937-03-14",
+        "endDate": "1937-05-07",
+        "order": 3,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "祁连山—星星峡（左支队）",
+          "en": "Qilian Mountains–Xingxingxia (left detachment)"
+        },
+        "description": {
+          "zh": "石窝分兵后，李先念率左支队穿行祁连山，经甘新交界到达星星峡，与党中央代表会合。路线为示意，待按行军日志细化。",
+          "en": "After the Shiwo dispersal, Li Xiannian led the left detachment through the Qilian Mountains to Xingxingxia on the Gansu–Xinjiang border, where it met the Central Committee’s representatives. The route is schematic and awaits refinement from march logs."
         },
         "extensions": {
           "precision": "schematic"

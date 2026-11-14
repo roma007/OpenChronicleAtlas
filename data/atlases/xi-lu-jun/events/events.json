@@ -72,6 +72,67 @@
     }
   },
   {
+    "id": "yitiaoshan-1936-11",
+    "atlasId": "xi-lu-jun",
+    "name": {
+      "zh": "一条山战斗",
+      "en": "Battle of Yitiaoshan"
+    },
+    "aliases": [
+      {
+        "zh": "景泰一条山战斗",
+        "en": "Yitiaoshan Battle in Jingtai"
+      }
+    ],
+    "date": "1936-10-31",
+    "endDate": "1936-11-04",
+    "location": {
+      "lng": 104.06,
+      "lat": 37.18,
+      "place": {
+        "zh": "甘肃景泰一条山",
+        "en": "Yitiaoshan, Jingtai, Gansu"
+      }
+    },
+    "entityIds": [
+      "xi-lu-jun"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "西路军在景泰一条山击退马家军，歼敌 1000 余人。",
+      "en": "The West Route Army repulsed the Ma clique at Yitiaoshan in Jingtai, killing or wounding over 1,000 enemy troops."
+    },
+    "description": {
+      "zh": "1936 年 10 月 31 日至 11 月 4 日，红四方面军河西部队占领景泰一条山大部分村寨；11 月 3 日马步芳、马步青集中 3 个骑兵旅、2 个步兵旅猛攻，红军激战三昼夜，歼敌 1000 余人，将敌击退。此役为西路军西进古浪、永昌打开通道。本坐标为一条山镇代表点。",
+      "en": "From 31 October to 4 November 1936, the Fourth Front Army’s river-crossing troops occupied most villages at Yitiaoshan in Jingtai. On 3 November Ma Bufang and Ma Buqing concentrated three cavalry brigades and two infantry brigades for a fierce attack; the Red Army fought for three days and nights, killed or wounded more than 1,000 enemy troops, and drove them back. The battle opened the way for the West Route Army’s advance to Gulang and Yongchang. The coordinate is a representative point at Yitiaoshan town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红西路军最艰苦的征战》",
+        "author": "甘肃省红色纪念馆",
+        "year": 2021,
+        "note": "用于核对一条山、永昌山丹、西洞堡、石窝与西路军减员",
+        "url": "http://www.gsds.gov.cn/gsshsjng/gansudangshizhizui/20211217/1815358274f67af59be.htm"
+      },
+      {
+        "title": "《讲好西路军的故事》",
+        "author": "中共中央党史和文献研究院",
+        "year": 2020,
+        "note": "用于核对西路军组建、河西转战与星星峡会合",
+        "url": "https://www.dswxyjy.org.cn/n1/2020/0914/c244523-31860754.html"
+      }
+    ],
+    "relatedIds": [
+      "hexi-crossing-1936-10",
+      "gulang-1936-11"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "gulang-1936-11",
     "atlasId": "xi-lu-jun",
     "name": {
@@ -129,6 +190,71 @@
     ],
     "relatedIds": [
       "hexi-crossing-1936-10",
+      "gaotai-1937-01"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "yongchang-shandan-1936-11",
+    "atlasId": "xi-lu-jun",
+    "name": {
+      "zh": "永昌山丹防御",
+      "en": "Defense of Yongchang and Shandan"
+    },
+    "aliases": [
+      {
+        "zh": "永昌山丹战役",
+        "en": "Yongchang–Shandan Campaign"
+      },
+      {
+        "zh": "甘北根据地",
+        "en": "Ganbei Base Area"
+      }
+    ],
+    "date": "1936-11-18",
+    "endDate": "1936-12-28",
+    "location": {
+      "lng": 101.967,
+      "lat": 38.247,
+      "place": {
+        "zh": "甘肃永昌县城",
+        "en": "Yongchang county town, Gansu"
+      }
+    },
+    "entityIds": [
+      "xi-lu-jun"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "西路军在永昌、山丹建立临时根据地，苦战 40 天，减员至 1.5 万。",
+      "en": "The West Route Army established a temporary base at Yongchang and Shandan, fought for forty days, and was reduced to 15,000 troops."
+    },
+    "description": {
+      "zh": "1936 年 11 月 18 日至 12 月 28 日，西路军占领永昌、山丹，在东起凉州西四十里铺、西至山丹的狭长地带建立甘北根据地，与马家军多次激战，歼敌 6000 余人，自身由 2.18 万减至 1.5 万。12 月 28 日突围西进临泽、高台。本坐标为永昌县城代表点。",
+      "en": "From 18 November to 28 December 1936, the West Route Army occupied Yongchang and Shandan and established the Ganbei base area in the narrow corridor from west of Liangzhou to Shandan. It fought the Ma clique repeatedly, killing or wounding more than 6,000 enemy troops, while its own strength fell from 21,800 to 15,000. On 28 December it broke out westward toward Linze and Gaotai. The coordinate is a representative point at Yongchang county town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红西路军最艰苦的征战》",
+        "author": "甘肃省红色纪念馆",
+        "year": 2021,
+        "note": "用于核对一条山、永昌山丹、西洞堡、石窝与西路军减员",
+        "url": "http://www.gsds.gov.cn/gsshsjng/gansudangshizhizui/20211217/1815358274f67af59be.htm"
+      },
+      {
+        "title": "《讲好西路军的故事》",
+        "author": "中共中央党史和文献研究院",
+        "year": 2020,
+        "note": "用于核对西路军组建、河西转战与星星峡会合",
+        "url": "https://www.dswxyjy.org.cn/n1/2020/0914/c244523-31860754.html"
+      }
+    ],
+    "relatedIds": [
+      "gulang-1936-11",
       "gaotai-1937-01"
     ],
     "importance": 1,
@@ -197,6 +323,135 @@
       "nijia-yingzi-1937-01"
     ],
     "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "xidongbao-1937-01",
+    "atlasId": "xi-lu-jun",
+    "name": {
+      "zh": "西洞堡大捷",
+      "en": "Victory at Xidongbao"
+    },
+    "aliases": [
+      {
+        "zh": "西洞堡战斗",
+        "en": "Battle of Xidongbao"
+      },
+      {
+        "zh": "西洞堡歼灭战",
+        "en": "Xidongbao Annihilation Battle"
+      }
+    ],
+    "date": "1937-01-27",
+    "location": {
+      "lng": 100.2,
+      "lat": 38.85,
+      "place": {
+        "zh": "甘肃张掖西洞堡、龙首堡一带",
+        "en": "Xidongbao and Longshoubao area, Zhangye, Gansu"
+      }
+    },
+    "entityIds": [
+      "xi-lu-jun"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红 30 军在西洞堡全歼青海宪兵团，取得河西最大胜利。",
+      "en": "The 30th Army annihilated the Qinghai Gendarmerie Regiment at Xidongbao, its greatest victory in the Hexi Corridor."
+    },
+    "description": {
+      "zh": "1937 年 1 月 27 日，红 30 军在西洞堡、龙首堡抓住战机，以第 88、89 师出击，全歼马步芳青海宪兵团，击溃第 100 师手枪团，毙敌 800 余人，缴枪 1200 余支及大批物资。这是西路军进入河西后最大的一次军事胜利。本坐标为西洞堡/龙首堡代表点。",
+      "en": "On 27 January 1937, the 30th Army seized the opportunity at Xidongbao and Longshoubao, committing the 88th and 89th Divisions. It annihilated Ma Bufang’s Qinghai Gendarmerie Regiment, routed the 100th Division’s pistol regiment, killed or wounded more than 800 enemy troops, and captured over 1,200 guns and large quantities of supplies. It was the West Route Army’s greatest victory after entering the Hexi Corridor. The coordinate is a representative point at Xidongbao/Longshoubao."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《甘州区•高金城烈士纪念馆》",
+        "author": "甘肃省红色纪念馆",
+        "year": 2021,
+        "note": "用于核对西洞堡大捷、龙渠会议与张掖境内战斗",
+        "url": "http://www.gsds.gov.cn/gsshsjng/zhangye/gzqgjclsjng"
+      },
+      {
+        "title": "《征战张掖 忠诚信仰书写祁连壮歌》",
+        "author": "中国甘肃网",
+        "year": 2021,
+        "note": "用于核对西洞堡战斗经过、龙渠会议与梨园口",
+        "url": "http://gansu.gscn.com.cn/system/2021/06/02/012595501.shtml"
+      }
+    ],
+    "relatedIds": [
+      "gaotai-1937-01",
+      "longqu-meeting-1937-01",
+      "nijia-yingzi-1937-01"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "longqu-meeting-1937-01",
+    "atlasId": "xi-lu-jun",
+    "name": {
+      "zh": "龙渠会议",
+      "en": "Longqu Meeting"
+    },
+    "aliases": [
+      {
+        "zh": "龙首堡会议",
+        "en": "Longshoubao Meeting"
+      },
+      {
+        "zh": "张福寿屯庄会议",
+        "en": "Zhangfushou Farmstead Meeting"
+      }
+    ],
+    "date": "1937-01-28",
+    "location": {
+      "lng": 100.2,
+      "lat": 38.85,
+      "place": {
+        "zh": "甘肃张掖龙首堡张福寿屯庄",
+        "en": "Zhangfushou Farmstead, Longshoubao, Zhangye, Gansu"
+      }
+    },
+    "entityIds": [
+      "xi-lu-jun"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "西路军军政委员会在龙渠开会，决定重返倪家营。",
+      "en": "The West Route Army’s military and political committee met at Longqu and decided to return to Nijia Yingzi."
+    },
+    "description": {
+      "zh": "1937 年 1 月 28 日，西路军军政委员会在张掖龙首堡张福寿屯庄召开扩大会议，分析东进受阻形势，决定重建骑兵师、集中兵力重返倪家营，伺机歼敌。本坐标为龙渠/龙首堡代表点。",
+      "en": "On 28 January 1937, the West Route Army’s military and political committee held an enlarged meeting at Zhangfushou Farmstead in Longshoubao, Zhangye. It analyzed the blocked eastward route and decided to rebuild the cavalry division and concentrate forces to return to Nijia Yingzi to seek opportunities against the enemy. The coordinate is a representative point at Longqu/Longshoubao."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《甘州区•高金城烈士纪念馆》",
+        "author": "甘肃省红色纪念馆",
+        "year": 2021,
+        "note": "用于核对西洞堡大捷、龙渠会议与张掖境内战斗",
+        "url": "http://www.gsds.gov.cn/gsshsjng/zhangye/gzqgjclsjng"
+      },
+      {
+        "title": "《征战张掖 忠诚信仰书写祁连壮歌》",
+        "author": "中国甘肃网",
+        "year": 2021,
+        "note": "用于核对西洞堡战斗经过、龙渠会议与梨园口",
+        "url": "http://gansu.gscn.com.cn/system/2021/06/02/012595501.shtml"
+      }
+    ],
+    "relatedIds": [
+      "xidongbao-1937-01",
+      "nijia-yingzi-1937-01"
+    ],
+    "importance": 2,
     "extensions": {
       "locationPrecision": "approx"
     }
@@ -389,6 +644,70 @@
     "relatedIds": [
       "liyuankou-1937-03",
       "nijia-yingzi-1937-01"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "xingxingxia-1937-04",
+    "atlasId": "xi-lu-jun",
+    "name": {
+      "zh": "星星峡会合",
+      "en": "Rendezvous at Xingxingxia"
+    },
+    "aliases": [
+      {
+        "zh": "左支队到星星峡",
+        "en": "Left Detachment Reaches Xingxingxia"
+      },
+      {
+        "zh": "星星峡接应",
+        "en": "Xingxingxia Reception"
+      }
+    ],
+    "date": "1937-04-30",
+    "endDate": "1937-05-07",
+    "location": {
+      "lng": 95.13,
+      "lat": 41.8,
+      "place": {
+        "zh": "新疆哈密星星峡",
+        "en": "Xingxingxia, Hami, Xinjiang"
+      }
+    },
+    "entityIds": [
+      "xi-lu-jun"
+    ],
+    "category": "会师",
+    "summary": {
+      "zh": "西路军左支队余部到达星星峡，与党中央代表会合。",
+      "en": "The remnants of the West Route Army’s left detachment reached Xingxingxia and met the Central Committee’s representatives."
+    },
+    "description": {
+      "zh": "1937 年 4 月底，李先念率西路军左支队 400 余人到达甘新交界的星星峡；5 月 1 日前后，党中央代表陈云、滕代远等到星星峡接应，5 月 7 日到达乌鲁木齐，整编为「新兵营」。本坐标为星星峡镇代表点。",
+      "en": "At the end of April 1937, Li Xiannian led more than 400 survivors of the West Route Army’s left detachment to Xingxingxia on the Gansu–Xinjiang border. Around 1 May, the Central Committee’s representatives Chen Yun and Teng Daiyuan arrived to receive them; on 7 May they reached Ürümqi and were reorganized as the “New Soldiers’ Camp.” The coordinate is a representative point at Xingxingxia town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《讲好西路军的故事》",
+        "author": "中共中央党史和文献研究院",
+        "year": 2020,
+        "note": "用于核对西路军组建、河西转战与星星峡会合",
+        "url": "https://www.dswxyjy.org.cn/n1/2020/0914/c244523-31860754.html"
+      },
+      {
+        "title": "《西路军精神同长征精神一脉相承》",
+        "author": "石仲泉",
+        "year": 2026,
+        "note": "用于核对左支队到星星峡与西路军整体评价",
+        "url": "http://cn.theorychina.org.cn/c/2026-10-30/1554941.shtml"
+      }
+    ],
+    "relatedIds": [
+      "shiwo-meeting-1937-03"
     ],
     "importance": 1,
     "extensions": {
