@@ -1991,11 +1991,11 @@
     "date": "1935-01-01",
     "endDate": "1935-01-06",
     "location": {
-      "lng": 107.18,
-      "lat": 27.18,
+      "lng": 107.36,
+      "lat": 27.28,
       "place": {
-        "zh": "贵州瓮安江界河",
-        "en": "Jiangjiehe, Weng’an, Guizhou"
+        "zh": "贵州瓮安江界河（乌江防线代表点）",
+        "en": "Jiangjiehe, Weng’an, Guizhou (representative point of the Wu River defense line)"
       }
     },
     "entityIds": [
@@ -2007,8 +2007,8 @@
       "en": "Guizhou troops under Wang Jialie defended the Wu River to block the Red Army’s advance on Zunyi."
     },
     "description": {
-      "zh": "1935 年 1 月，国民党黔军王家烈部在乌江沿岸设防，企图阻止中央红军北上。红军在江界河等渡口突破防线，打开进军遵义的门户。部队番号与指挥关系为通行说法，待页码级核对。",
-      "en": "In January 1935, KMT Guizhou forces under Wang Jialie set up defenses along the Wu River to block the Central Red Army’s northward advance. The Red Army broke through at Jiangjiehe and other crossings, opening the way to Zunyi. Unit designations and command relationships follow conventional accounts and await page-level verification."
+      "zh": "1935 年 1 月，黔军第 25 军副军长兼教导师师长侯之担部在乌江北岸茶山关、孙家渡、江界河、袁家渡、回龙场等 10 余处渡口部署 5 个团又 1 个机炮营，防线长约 200 里，并毁船、拆房、构筑工事，企图阻止红军北渡。红军分三路从江界河、回龙场、茶山关等渡口突破，至 1 月 6 日全部渡江。本坐标为江界河渡口代表点，防线沿乌江展开。",
+      "en": "In January 1935, Hou Zhidan, deputy commander of the Guizhou 25th Army and commander of the training division, deployed five regiments and one machine-gun/artillery battalion at more than ten ferries on the north bank of the Wu River, including Chashanguan, Sunjiadu, Jiangjiehe, Yuanjiadu, and Huilongchang. The line was about 200 li long; the defenders destroyed boats, demolished houses, and built fortifications to block the Red Army. The Red Army broke through at Jiangjiehe, Huilongchang, Chashanguan, and other ferries, crossing completely by 6 January. The coordinate is a representative point at Jiangjiehe Ferry; the line extended along the Wu River."
     },
     "images": [],
     "sources": [
@@ -2032,7 +2032,10 @@
       }
     ],
     "relatedIds": [
-      "wujiang-1935-01"
+      "wujiang-1935-01",
+      "ferry-jiangjiehe-1935-01",
+      "ferry-huilongchang-1935-01",
+      "ferry-chashanguan-1935-01"
     ],
     "importance": 2
   },
@@ -2046,11 +2049,11 @@
     "date": "1935-01-01",
     "endDate": "1935-01-06",
     "location": {
-      "lng": 107.18,
-      "lat": 27.18,
+      "lng": 107.36,
+      "lat": 27.28,
       "place": {
-        "zh": "贵州瓮安江界河",
-        "en": "Jiangjiehe, Weng’an, Guizhou"
+        "zh": "贵州瓮安江界河渡口",
+        "en": "Jiangjiehe Ferry, Weng’an, Guizhou"
       }
     },
     "entityIds": [
@@ -2058,12 +2061,12 @@
     ],
     "category": "战斗",
     "summary": {
-      "zh": "中央红军在江界河等渡口突破乌江，打开进军遵义的门户。",
-      "en": "The Central Red Army crossed the Wu River at Jiangjiehe and other crossings, opening the way to Zunyi."
+      "zh": "中央红军从江界河、回龙场、茶山关等渡口强渡乌江，进占遵义。",
+      "en": "The Central Red Army forced the Wu River at Jiangjiehe, Huilongchang, and Chashanguan and advanced on Zunyi."
     },
     "description": {
-      "zh": "1935 年 1 月，中央红军在贵州瓮安江界河、余庆回龙场等渡口强渡乌江，突破黔军防线，为遵义会议的召开创造了条件。",
-      "en": "In January 1935, the Central Red Army forced the Wu River at Jiangjiehe in Weng’an and Huilongchang in Yuqing, broke through the Guizhou army’s defenses, and opened the way for the Zunyi Conference."
+      "zh": "1935 年 1 月 1 日至 6 日，中央红军分三路强渡乌江：红 1 军团第 2 师第 4 团在江界河、红 1 师第 1 团在回龙场、红 3 军团在茶山关等渡口渡江。红军以竹筏、浮桥突破黔军侯之担部防线，击溃黔军 4 个团、2 个营约 4000 人，至 6 日全部渡过乌江，进占遵义。此役是长征以来第一个较大胜利，为遵义会议召开创造了条件。本坐标为江界河渡口代表点。",
+      "en": "From 1 to 6 January 1935 the Central Red Army crossed the Wu River in three routes: the 4th Regiment of the 2nd Division, First Army Corps, at Jiangjiehe; the 1st Regiment of the 1st Division at Huilongchang; and the Third Army Corps at Chashanguan and other ferries. Using bamboo rafts and pontoon bridges, the Red Army broke the defense line of Hou Zhidan’s Guizhou troops, routed four regiments and two battalions (about 4,000 men), and by 6 January had crossed the river and entered Zunyi. It was the first major victory since the Long March began and created conditions for the Zunyi Conference. The coordinate is a representative point at Jiangjiehe Ferry."
     },
     "images": [],
     "sources": [
@@ -2087,10 +2090,227 @@
       }
     ],
     "relatedIds": [
+      "ferry-jiangjiehe-1935-01",
+      "ferry-huilongchang-1935-01",
+      "ferry-chashanguan-1935-01",
+      "kmt-wujiang-defense-1935-01",
       "houchang-1934-12",
       "zunyi-1935-01"
     ],
-    "importance": 2
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "ferry-huilongchang-1935-01",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "回龙场渡口",
+      "en": "Huilongchang Ferry"
+    },
+    "aliases": [
+      {
+        "zh": "迴龙场渡口",
+        "en": "Huilongchang Ferry"
+      }
+    ],
+    "date": "1935-01-01",
+    "endDate": "1935-01-04",
+    "location": {
+      "lng": 107.55,
+      "lat": 27.3,
+      "place": {
+        "zh": "贵州余庆大乌江镇回龙场渡口",
+        "en": "Huilongchang Ferry, Dawujiang, Yuqing, Guizhou"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "渡口",
+    "summary": {
+      "zh": "红 1 师第 1 团在回龙场渡口强渡乌江，红 1 军团主力与红 9 军团由此过江。",
+      "en": "The 1st Regiment, 1st Division, forced the Wu River at Huilongchang; the main force of the First Army Corps and the 9th Army Corps crossed there."
+    },
+    "description": {
+      "zh": "1935 年 1 月 1 日，红 1 军团第 1 师第 1 团在团长杨得志、政委黎林率领下进至回龙场渡口，8 名勇士乘竹筏偷渡被巨浪吞没。2 日深夜，红军在鱼子塘等水势较缓处强渡成功，击溃北岸黔军一个营；3 日凌晨架设浮桥，至 4 日红 1 军团主力及红 9 军团渡江完毕。本坐标为回龙场渡口代表点。",
+      "en": "On 1 January 1935 the 1st Regiment of the 1st Division, First Army Corps, under Yang Dezhi and political commissar Li Lin, reached Huilongchang Ferry; eight men on a bamboo raft were lost in the waves. Late on 2 January the Red Army crossed successfully at calmer points such as Yuzitang, routed a Guizhou battalion on the north bank, and built a pontoon bridge before dawn on 3 January; by 4 January the main force of the First Army Corps and the 9th Army Corps had crossed. The coordinate is a representative point at Huilongchang Ferry."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《1935年新年打响的强渡乌江战斗》",
+        "author": "中国军网",
+        "year": 2024,
+        "note": "用于核对回龙场、江界河、茶山关的战斗经过与部队",
+        "url": "http://www.81.cn/js_208592/16278017.html"
+      },
+      {
+        "title": "《转折先导：中央红军突破乌江的重大意义》",
+        "author": "贵州政协报",
+        "year": 2021,
+        "note": "用于核对三路渡江、竹筏与浮桥、战役意义",
+        "url": "https://www.gzszx.gov.cn/gzzxb/web/doc/detail/d_1423833412141088"
+      },
+      {
+        "title": "《乌江：红军在这里开始反攻》",
+        "author": "新华网",
+        "year": 2019,
+        "note": "用于核对江界河、回龙场、茶山关三个渡口与 1 月 1—6 日渡江",
+        "url": "https://www.xinhuanet.com/politics/2019-07/10/c_1124736075.htm"
+      }
+    ],
+    "relatedIds": [
+      "wujiang-1935-01",
+      "ferry-jiangjiehe-1935-01",
+      "ferry-chashanguan-1935-01",
+      "kmt-wujiang-defense-1935-01"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "ferry-jiangjiehe-1935-01",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "江界河渡口",
+      "en": "Jiangjiehe Ferry"
+    },
+    "aliases": [
+      {
+        "zh": "江界河新老渡口",
+        "en": "Jiangjiehe New and Old Ferries"
+      }
+    ],
+    "date": "1935-01-02",
+    "endDate": "1935-01-03",
+    "location": {
+      "lng": 107.36,
+      "lat": 27.28,
+      "place": {
+        "zh": "贵州瓮安江界河渡口",
+        "en": "Jiangjiehe Ferry, Weng’an, Guizhou"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "渡口",
+    "summary": {
+      "zh": "红 4 团在江界河渡口强渡乌江，中央纵队与红 5 军团由此过江。",
+      "en": "The 4th Regiment forced the Wu River at Jiangjiehe, and the central column and 5th Army Corps crossed there."
+    },
+    "description": {
+      "zh": "1935 年 1 月 1 日，红 1 军团第 2 师第 4 团进至江界河渡口，耿飚、杨成武侦察后决定佯攻老渡口、主攻上游新渡口。1 月 2 日，毛振华率 7 名勇士泅渡失败；夜间 18 名勇士乘竹筏偷渡，5 人潜伏北岸。3 日拂晓，60 余只竹筏在火力掩护下强渡，毛振华等 5 人从敌后接应，红军占领北岸，工兵架起浮桥，军委纵队与红 5 军团由此过江。本坐标为江界河渡口代表点。",
+      "en": "On 1 January 1935 the 4th Regiment of the 2nd Division, First Army Corps, reached Jiangjiehe Ferry. After reconnaissance, Geng Biao and Yang Chengwu decided to feint at the old ferry and attack the upper new ferry. On 2 January Mao Zhenhua led seven men in a failed swim; that night eighteen men crossed by bamboo raft, with five hiding on the north bank. At dawn on 3 January more than sixty rafts crossed under fire while Mao and his five men attacked from the rear, seizing the north bank. Engineers built a pontoon bridge, and the CMC column and 5th Army Corps crossed there. The coordinate is a representative point at Jiangjiehe Ferry."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《乌江：红军在这里开始反攻》",
+        "author": "新华网",
+        "year": 2019,
+        "note": "用于核对江界河、回龙场、茶山关三个渡口与 1 月 1—6 日渡江",
+        "url": "https://www.xinhuanet.com/politics/2019-07/10/c_1124736075.htm"
+      },
+      {
+        "title": "《1935年新年打响的强渡乌江战斗》",
+        "author": "中国军网",
+        "year": 2024,
+        "note": "用于核对回龙场、江界河、茶山关的战斗经过与部队",
+        "url": "http://www.81.cn/js_208592/16278017.html"
+      },
+      {
+        "title": "《生死攸关战乌江》",
+        "author": "人民日报",
+        "year": 2022,
+        "note": "用于核对侯之担防线、三路部署与江界河战斗细节",
+        "url": "http://paper.people.com.cn/rmzk/html/2022-03/23/content_25908937.htm"
+      }
+    ],
+    "relatedIds": [
+      "wujiang-1935-01",
+      "ferry-huilongchang-1935-01",
+      "ferry-chashanguan-1935-01",
+      "kmt-wujiang-defense-1935-01"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "ferry-chashanguan-1935-01",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "茶山关渡口",
+      "en": "Chashanguan Ferry"
+    },
+    "aliases": [
+      {
+        "zh": "茶山关渡口",
+        "en": "Chashan Pass Ferry"
+      }
+    ],
+    "date": "1935-01-03",
+    "endDate": "1935-01-06",
+    "location": {
+      "lng": 106.95,
+      "lat": 27.3,
+      "place": {
+        "zh": "贵州开阳茶山关渡口",
+        "en": "Chashanguan Ferry, Kaiyang, Guizhou"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "渡口",
+    "summary": {
+      "zh": "红 3 军团在茶山关渡口渡江，守敌不战而逃。",
+      "en": "The Third Army Corps crossed at Chashanguan; the defenders fled without a fight."
+    },
+    "description": {
+      "zh": "1935 年 1 月 3 日，红 3 军团第 4 师第 10 团进至茶山关渡口，守敌刘翰吾部在得知回龙场、江界河失守后连夜弃阵逃回遵义。红军在当地船工协助下捞起沉船、架设浮桥，1 月 4 日至 6 日红 3 军团分别从桃子台、茶山关、楠木渡渡过乌江，进入遵义尚嵇一带。本坐标为茶山关渡口代表点。",
+      "en": "On 3 January 1935 the 10th Regiment of the 4th Division, Third Army Corps, reached Chashanguan Ferry. After learning that Huilongchang and Jiangjiehe had fallen, Liu Hanwu’s defenders abandoned their positions and fled to Zunyi. With local boatmen the Red Army raised sunken boats and built a pontoon bridge; from 4 to 6 January the Third Army Corps crossed at Taozitai, Chashanguan, and Nanmudu and entered the Shangji area of Zunyi. The coordinate is a representative point at Chashanguan Ferry."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《转折先导：中央红军突破乌江的重大意义》",
+        "author": "贵州政协报",
+        "year": 2021,
+        "note": "用于核对三路渡江、竹筏与浮桥、战役意义",
+        "url": "https://www.gzszx.gov.cn/gzzxb/web/doc/detail/d_1423833412141088"
+      },
+      {
+        "title": "《1935年新年打响的强渡乌江战斗》",
+        "author": "中国军网",
+        "year": 2024,
+        "note": "用于核对回龙场、江界河、茶山关的战斗经过与部队",
+        "url": "http://www.81.cn/js_208592/16278017.html"
+      },
+      {
+        "title": "《乌江：红军在这里开始反攻》",
+        "author": "新华网",
+        "year": 2019,
+        "note": "用于核对江界河、回龙场、茶山关三个渡口与 1 月 1—6 日渡江",
+        "url": "https://www.xinhuanet.com/politics/2019-07/10/c_1124736075.htm"
+      }
+    ],
+    "relatedIds": [
+      "wujiang-1935-01",
+      "ferry-jiangjiehe-1935-01",
+      "ferry-huilongchang-1935-01",
+      "kmt-wujiang-defense-1935-01"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "eyushan-1935-01",
