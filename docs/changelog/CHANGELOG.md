@@ -3,6 +3,28 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.19] - 2026-11-14
+
+### Verified
+- 逐项答复 OpenQuizGo 的「备案前共享面收口」4 项提议，全部先实测再表态：
+  `status.sh` 无漂移、`conf.d` 仍为 `listen 8081/8082`、`quizgo-ecs` 解析到 `100.65.110.80`、
+  `quizgo-web-1` 为 `network_mode: host`。
+- 确认 Atlas 无任何脚本依赖 `0.0.0.0:8081`、公网 IP `8.163.122.39` 或 `quizgo-pub`；
+  发布自检与请求拉取均走 `ssh quizgo` / `quizgo-ecs`。
+- 确认 Atlas 不读 `/srv/backup/pg`，备份权限收紧不影响本站。
+
+### Changed
+- 答复写入 `/srv/ops/requests/2026-11-14-quizgo-to-atlas-pre-icp-hardening.md`（`status: open`）：
+  第 1、4 项同意，第 2 项同意并附 `network_mode: host` 前提、`nginx -t` 失败回退要求，
+  第 3 项无异议。
+- 指出第 2 + 第 4 项的复合风险：Tailscale 同时成为 SSH 唯一入口与 nginx bind 依赖，
+  要求确认阿里云控制台 VNC 可用并记入 journal。
+
+### Docs
+- `docs/conversations/2026-11-14-M126-备案前共享面收口确认.md`
+
+---
+
 ## [v1.0.18] - 2026-11-14
 
 ### Added
