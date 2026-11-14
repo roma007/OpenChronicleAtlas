@@ -9490,6 +9490,79 @@
     "endDate": "1936-03-28"
   },
   {
+    "id": "dangling-shan-1936-02",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "翻越党岭山",
+      "en": "Crossing Dangling Mountain"
+    },
+    "aliases": [
+      {
+        "zh": "党岭雪山",
+        "en": "Dangling Snow Mountain"
+      },
+      {
+        "zh": "夏羌涅阿垭口",
+        "en": "Xiaqiangniea Pass"
+      }
+    ],
+    "date": "1936-02-27",
+    "endDate": "1936-03-15",
+    "location": {
+      "lng": 101.319,
+      "lat": 31.025,
+      "place": {
+        "zh": "四川丹巴、道孚交界党岭山夏羌涅阿垭口",
+        "en": "Xiaqiangniea Pass, Dangling Mountain, on the Danba–Daofu border, Sichuan"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红四方面军先遣军翻越党岭山夏羌涅阿垭口，进占道孚。",
+      "en": "The Fourth Front Army’s advance guard crossed the Xiaqiangniea Pass of Dangling Mountain and took Daofu."
+    },
+    "description": {
+      "zh": "1936 年 2 月下旬，红四方面军按《康（定）道（孚）炉（霍）战役计划》分三路向康北进军。刘伯承、程世才率先遣军（以红三十军一部组成），由丹巴边耳进入党岭，2 月 27 日至 28 日翻越夏羌涅阿垭口（海拔约 4810 米），2 月 28 日进至道孚境内，3 月 1 日占领道孚县城；方面军总部 3 月 15 日翻越同垭口抵道孚。党岭主峰海拔约 5470 米，是红军长征翻越的海拔最高、牺牲最大的雪山之一。本坐标为夏羌涅阿垭口代表点。",
+      "en": "In late February 1936 the Fourth Front Army advanced into northern Kham under the Kangding–Daofu–Luhuo campaign plan. Liu Bocheng and Cheng Shicai led an advance guard built around a portion of the 30th Army from Danba into Dangling; on 27–28 February it crossed the Xiaqiangniea Pass (about 4,810 m), reached Daofu county on 28 February, and took Daofu town on 1 March. The army headquarters crossed the same pass and reached Daofu on 15 March. Dangling’s main peak is about 5,470 m, making it one of the highest and costliest snow mountains crossed on the Long March. The coordinate is a representative point at the Xiaqiangniea Pass."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《丹巴红色遗址 | 党岭雪山》",
+        "author": "丹巴县人民政府",
+        "year": 2026,
+        "note": "用于核对夏羌涅阿垭口海拔 4810 米、1936 年 2 月 28 日先遣军翻越与 3 月 1 日占道孚",
+        "url": "https://www.danba.gov.cn/czdb/article/712678"
+      },
+      {
+        "title": "《长征路上翻越的雪山知多少》",
+        "author": "田竞 / 中红网",
+        "year": 2016,
+        "note": "用于核对党岭、雅哈、大雪山、小雪山、沙鲁里山、藏巴拉山的位置与海拔",
+        "url": "https://www.crt.com.cn/news2007/News/tgjx/16121914242K8FCABG3A94JFAJ1862J.html"
+      },
+      {
+        "title": "《解读长征（11）：红军长征先后翻越了哪些雪山？》",
+        "author": "姜廷玉 / 人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对红二、红四方面军雪山名单",
+        "url": "http://dangshi.people.com.cn/n1/2016/0908/c85037-28699636.html"
+      }
+    ],
+    "relatedIds": [
+      "red4-second-north-1936-02",
+      "suichongdanmao-1935-10",
+      "ganzi-1936-06"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "duijiuyu-1936-03",
     "atlasId": "long-march",
     "name": {
@@ -9821,6 +9894,83 @@
     "importance": 2
   },
   {
+    "id": "yaha-xueshan-1936-04",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "翻越雅哈雪山",
+      "en": "Crossing Yaha Snow Mountain"
+    },
+    "aliases": [
+      {
+        "zh": "中甸雪山",
+        "en": "Zhongdian Snow Mountain"
+      }
+    ],
+    "date": "1936-04-28",
+    "endDate": "1936-04-30",
+    "location": {
+      "lng": 99.72,
+      "lat": 27.34,
+      "place": {
+        "zh": "云南香格里拉上江、小中甸之间雅哈雪山",
+        "en": "Yaha Snow Mountain between Shangjiang and Xiaozhongdian, Shangri-La, Yunnan"
+      }
+    },
+    "entityIds": [
+      "red-2-army",
+      "red-6-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红二、红六军团渡金沙江后翻越雅哈雪山，进入中甸藏区。",
+      "en": "After crossing the Jinsha River, the Second and Sixth Army Groups crossed Yaha Snow Mountain into the Zhongdian Tibetan area."
+    },
+    "description": {
+      "zh": "1936 年 4 月 25 日至 28 日，红二、红六军团在石鼓至巨甸一线渡过金沙江，随后沿玉龙雪山西麓北上。4 月 28 日，红二军团第四师前卫第十二团经上江、立马河翻越雅哈雪山，在干岩房遭中甸头人汪学鼎民团阻击，红军有伤亡；红军未直接还击，以密集火力压制、驱散民团。4 月 30 日先头部队进入中甸县城，红二军团直属队及第五、第六师于 5 月 1 日、3 日先后到达。雅哈雪山海拔诸说不一，有 5300 米、3924 米与约 4000 米等说法，本数据不取单一数值。本坐标为雅哈雪山垭口代表点。",
+      "en": "From 25 to 28 April 1936 the Second and Sixth Army Groups crossed the Jinsha River between Shigu and Judian and moved north along the western foot of Yulong Snow Mountain. On 28 April the 12th Regiment, forward unit of the 4th Division, Second Army Group, crossed Yaha Snow Mountain via Shangjiang and Limahé. At Ganyanfang it was ambushed by the militia of the Zhongdian headman Wang Xueding and suffered casualties; the Red Army did not return fire directly and dispersed the militia with heavy fire over their heads. The advance guard entered Zhongdian town on 30 April; the Second Army Group headquarters and the 5th and 6th Divisions arrived on 1 and 3 May. Published elevations for Yaha vary widely (5,300 m, 3,924 m, and about 4,000 m), so this entry does not adopt a single figure. The coordinate is a representative point at the Yaha pass."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《民族团结花开迪庆》",
+        "author": "解放军报 / 国防部网",
+        "year": 2019,
+        "note": "用于核对雅哈雪山海拔 3924 米与红二、六军团翻越",
+        "url": "http://www.mod.gov.cn/gfbw/jmsd/4847176.html"
+      },
+      {
+        "title": "《长征路上翻越的雪山知多少》",
+        "author": "田竞 / 中红网",
+        "year": 2016,
+        "note": "用于核对党岭、雅哈、大雪山、小雪山、沙鲁里山、藏巴拉山的位置与海拔",
+        "url": "https://www.crt.com.cn/news2007/News/tgjx/16121914242K8FCABG3A94JFAJ1862J.html"
+      },
+      {
+        "title": "《解读长征（11）：红军长征先后翻越了哪些雪山？》",
+        "author": "姜廷玉 / 人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对红二、红四方面军雪山名单",
+        "url": "http://dangshi.people.com.cn/n1/2016/0908/c85037-28699636.html"
+      },
+      {
+        "title": "《红二方面军（红二、六军团）在甘孜州》",
+        "author": "甘孜日报",
+        "year": 2022,
+        "note": "用于核对红二、红六军团分两路北进的时间与路线",
+        "url": "http://paper.kbcmw.com/pc/202203/23/content_47998.html"
+      }
+    ],
+    "relatedIds": [
+      "shigu-1936-04",
+      "daxueshan-1936-05",
+      "zangbala-shan-1936-06"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "huishi-1936-05",
     "atlasId": "long-march",
     "name": {
@@ -9874,6 +10024,79 @@
       "xizheng-1936-05"
     ],
     "importance": 2
+  },
+  {
+    "id": "daxueshan-1936-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "翻越大、小雪山",
+      "en": "Crossing the Greater and Lesser Snow Mountains"
+    },
+    "aliases": [
+      {
+        "zh": "大雪山（咱浪雪山）",
+        "en": "Greater Snow Mountain (Zanlang)"
+      },
+      {
+        "zh": "小雪山（甲子雪山）",
+        "en": "Lesser Snow Mountain (Jiazi)"
+      }
+    ],
+    "date": "1936-05-09",
+    "endDate": "1936-05-14",
+    "location": {
+      "lng": 99.7,
+      "lat": 28.5,
+      "place": {
+        "zh": "云南香格里拉与四川乡城交界大、小雪山垭口",
+        "en": "Greater and Lesser Snow Mountain passes on the Yunnan–Sichuan border, Shangri-La / Xiangcheng"
+      }
+    },
+    "entityIds": [
+      "red-6-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红六军团由中甸翻越大、小雪山，进入四川乡城。",
+      "en": "The Sixth Army Group crossed the Greater and Lesser Snow Mountains from Zhongdian into Xiangcheng, Sichuan."
+    },
+    "description": {
+      "zh": "1936 年 5 月 5 日，红二、红六军团由中甸分两路北进：红二军团经得荣、巴安（今巴塘）、白玉，红六军团经定乡（今乡城）、稻城、理化（今理塘）、瞻化（今新龙）至甘孜。5 月 9 日，红六军团由中甸出发，翻越大雪山（咱浪雪山，垭口海拔约 4333 米）与小雪山（甲子雪山，垭口海拔约 4185 米）进入乡城境内；5 月 14 日到达定乡，受到桑披寺僧众接待并休整一周。两山垭口同在一道山脊，常被视作一座雪山。本坐标为两垭口之间的代表点。",
+      "en": "On 5 May 1936 the Second and Sixth Army Groups left Zhongdian on two routes: the Second Army Group via Derong, Batang, and Baiyü; the Sixth via Xiangcheng, Daocheng, Litang, and Xinlong to Garzê. On 9 May the Sixth Army Group crossed the Greater Snow Mountain (Zanlang, pass about 4,333 m) and the Lesser Snow Mountain (Jiazi, pass about 4,185 m) into Xiangcheng county, reaching Xiangcheng town on 14 May, where it was received by the Sangpi Monastery and rested for a week. The two passes lie on the same ridge and are often treated as one snow mountain. The coordinate is a representative point between the two passes."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《长征路上翻越的雪山知多少》",
+        "author": "田竞 / 中红网",
+        "year": 2016,
+        "note": "用于核对党岭、雅哈、大雪山、小雪山、沙鲁里山、藏巴拉山的位置与海拔",
+        "url": "https://www.crt.com.cn/news2007/News/tgjx/16121914242K8FCABG3A94JFAJ1862J.html"
+      },
+      {
+        "title": "《红军长征路上翻越了多少座雪山？》",
+        "author": "四川省情网",
+        "year": 2019,
+        "note": "用于核对沙鲁里山、藏巴拉山与小雪山、大雪山垭口海拔",
+        "url": "http://scdfz.sc.gov.cn/ztzl/hjczzsc/zzyj/content_25716"
+      },
+      {
+        "title": "《红二方面军（红二、六军团）在甘孜州》",
+        "author": "甘孜日报",
+        "year": 2022,
+        "note": "用于核对红二、红六军团分两路北进的时间与路线",
+        "url": "http://paper.kbcmw.com/pc/202203/23/content_47998.html"
+      }
+    ],
+    "relatedIds": [
+      "yaha-xueshan-1936-04",
+      "shaluli-shan-1936-05",
+      "ganzi-1936-06"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "kmt-xizheng-1936-05",
@@ -9986,6 +10209,147 @@
     ],
     "importance": 2,
     "endDate": "1936-07-27"
+  },
+  {
+    "id": "shaluli-shan-1936-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "翻越沙鲁里山",
+      "en": "Crossing the Shaluli Mountains"
+    },
+    "aliases": [
+      {
+        "zh": "无名山",
+        "en": "Nameless Mountain"
+      },
+      {
+        "zh": "乡城、稻城界山",
+        "en": "Xiangcheng–Daocheng border mountain"
+      }
+    ],
+    "date": "1936-05-20",
+    "endDate": "1936-05-22",
+    "location": {
+      "lng": 99.95,
+      "lat": 29.08,
+      "place": {
+        "zh": "四川乡城、稻城交界沙鲁里山垭口",
+        "en": "Shaluli Mountain pass on the Xiangcheng–Daocheng border, Sichuan"
+      }
+    },
+    "entityIds": [
+      "red-6-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红六军团由乡城翻越沙鲁里山，进入稻城桑堆。",
+      "en": "The Sixth Army Group crossed the Shaluli Mountains from Xiangcheng into Sangdui, Daocheng."
+    },
+    "description": {
+      "zh": "1936 年 5 月 20 日，红六军团由乡城出发，翻越乡城与稻城交界、当地称「无名山」的沙鲁里山垭口（图测海拔约 4730 米），进入稻城县桑堆乡，5 月 22 日进驻稻城县城。此后经理化（今理塘）北上，6 月 3 日在甲洼与红四方面军第三十二军会师。本坐标为沙鲁里山垭口代表点。",
+      "en": "On 20 May 1936 the Sixth Army Group left Xiangcheng and crossed the Shaluli Mountain pass on the Xiangcheng–Daocheng border, locally called the “Nameless Mountain” (mapped at about 4,730 m), entering Sangdui township in Daocheng county and reaching Daocheng town on 22 May. It then moved north via Litang and met the 32nd Army of the Fourth Front Army at Jiawa on 3 June. The coordinate is a representative point at the Shaluli pass."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红军长征路上翻越了多少座雪山？》",
+        "author": "四川省情网",
+        "year": 2019,
+        "note": "用于核对沙鲁里山、藏巴拉山与小雪山、大雪山垭口海拔",
+        "url": "http://scdfz.sc.gov.cn/ztzl/hjczzsc/zzyj/content_25716"
+      },
+      {
+        "title": "《长征路上翻越的雪山知多少》",
+        "author": "田竞 / 中红网",
+        "year": 2016,
+        "note": "用于核对党岭、雅哈、大雪山、小雪山、沙鲁里山、藏巴拉山的位置与海拔",
+        "url": "https://www.crt.com.cn/news2007/News/tgjx/16121914242K8FCABG3A94JFAJ1862J.html"
+      },
+      {
+        "title": "《红二方面军（红二、六军团）在甘孜州》",
+        "author": "甘孜日报",
+        "year": 2022,
+        "note": "用于核对红二、红六军团分两路北进的时间与路线",
+        "url": "http://paper.kbcmw.com/pc/202203/23/content_47998.html"
+      }
+    ],
+    "relatedIds": [
+      "daxueshan-1936-05",
+      "ganzi-1936-06",
+      "yaha-xueshan-1936-04"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "zangbala-shan-1936-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "翻越藏巴拉山",
+      "en": "Crossing Zangbala Mountain"
+    },
+    "aliases": [
+      {
+        "zh": "藏巴拉雪山",
+        "en": "Zangbala Snow Mountain"
+      }
+    ],
+    "date": "1936-06-05",
+    "location": {
+      "lng": 99.216,
+      "lat": 29.815,
+      "place": {
+        "zh": "四川巴塘亚日贡、巴塘县城之间藏巴拉山垭口",
+        "en": "Zangbala Mountain pass between Yarigong and Batang town, Sichuan"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红二军团翻越藏巴拉山，进至巴塘县城附近。",
+      "en": "The Second Army Group crossed Zangbala Mountain and approached Batang town."
+    },
+    "description": {
+      "zh": "1936 年 6 月 5 日，经亚日贡向巴塘北进的红二军团翻越藏巴拉山垭口（图测海拔约 4900 米），进至巴塘县城附近。红二军团随后佯攻巴塘、主力绕城北进，6 月 14 日撤离巴塘向白玉进发，6 月 30 日到达甘孜绒巴岔，与红四方面军会合。藏巴拉山是红二军团（后编为红二方面军）长征中翻越的海拔最高的雪山之一。本坐标为藏巴拉山垭口代表点。",
+      "en": "On 5 June 1936 the Second Army Group, moving north via Yarigong toward Batang, crossed the Zangbala Mountain pass (mapped at about 4,900 m) and approached Batang town. It then feinted against Batang while the main force bypassed the town to the north, withdrew toward Baiyü on 14 June, and reached Rongbacha in Garzê on 30 June to join the Fourth Front Army. Zangbala is among the highest snow mountains crossed by the Second Army Group (later the Second Front Army) on the Long March. The coordinate is a representative point at the Zangbala pass."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红军长征路上翻越了多少座雪山？》",
+        "author": "四川省情网",
+        "year": 2019,
+        "note": "用于核对沙鲁里山、藏巴拉山与小雪山、大雪山垭口海拔",
+        "url": "http://scdfz.sc.gov.cn/ztzl/hjczzsc/zzyj/content_25716"
+      },
+      {
+        "title": "《长征路上翻越的雪山知多少》",
+        "author": "田竞 / 中红网",
+        "year": 2016,
+        "note": "用于核对党岭、雅哈、大雪山、小雪山、沙鲁里山、藏巴拉山的位置与海拔",
+        "url": "https://www.crt.com.cn/news2007/News/tgjx/16121914242K8FCABG3A94JFAJ1862J.html"
+      },
+      {
+        "title": "《解读长征（11）：红军长征先后翻越了哪些雪山？》",
+        "author": "姜廷玉 / 人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对红二、红四方面军雪山名单",
+        "url": "http://dangshi.people.com.cn/n1/2016/0908/c85037-28699636.html"
+      }
+    ],
+    "relatedIds": [
+      "yaha-xueshan-1936-04",
+      "ganzi-1936-06",
+      "red2-front-1936-07"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "yanchi-1936-06",

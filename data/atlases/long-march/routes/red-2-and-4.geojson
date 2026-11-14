@@ -183,6 +183,10 @@
             30.879
           ],
           [
+            101.319,
+            31.025
+          ],
+          [
             101.124,
             30.979
           ],
@@ -207,8 +211,8 @@
           "en": "Fourth Front Army second northward move (Mingshan–Baoxing–Danba–Daofu–Luhuo–Ganzi)"
         },
         "description": {
-          "zh": "红四方面军撤离天全、芦山、宝兴，经丹巴、道孚、炉霍进至甘孜，与红二、六军团会师后共同北上。",
-          "en": "The Fourth Front Army withdrew from Tianquan, Lushan, and Baoxing, moved through Danba, Daofu, and Luhuo to Ganzi, and after meeting the Second and Sixth Army Corps moved north together."
+          "zh": "红四方面军由天全、芦山、宝兴经懋功、丹巴西进，翻越党岭山夏羌涅阿垭口，经道孚、炉霍进抵甘孜。路线为示意，待按行军日志细化。",
+          "en": "The Fourth Front Army moved west from Tianquan, Lushan, and Baoxing via Maogong and Danba, crossed the Xiaqiangniea Pass of Dangling Mountain, and advanced through Daofu and Luhuo to Garzê. The route is schematic and awaits refinement from march logs."
         },
         "extensions": {
           "precision": "schematic"
@@ -519,16 +523,36 @@
             26.87
           ],
           [
+            99.72,
+            27.34
+          ],
+          [
             99.7,
-            27.83
+            27.82
           ],
           [
-            100.5,
-            30.05
+            99.285,
+            28.716
           ],
           [
-            99.99,
-            31.62
+            99.24,
+            29.74
+          ],
+          [
+            99.216,
+            29.815
+          ],
+          [
+            99.11,
+            30
+          ],
+          [
+            98.823,
+            31.213
+          ],
+          [
+            99.991,
+            31.624
           ]
         ]
       },
@@ -539,12 +563,12 @@
         "order": 8,
         "segmentType": "advance",
         "name": {
-          "zh": "石鼓—甘孜",
-          "en": "Shigu–Ganzi"
+          "zh": "石鼓—中甸—得荣—巴塘—白玉—甘孜（红二军团）",
+          "en": "Shigu–Zhongdian–Derong–Batang–Baiyü–Garzê (Second Army Group)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "红二军团由石鼓渡金沙江，翻越雅哈雪山进中甸，经得荣、巴安（今巴塘）、白玉北上甘孜。路线为示意，待按行军日志细化。",
+          "en": "The Second Army Group crossed the Jinsha River at Shigu, crossed Yaha Snow Mountain to Zhongdian, and moved north via Derong, Batang, and Baiyü to Garzê. The route is schematic and awaits refinement from march logs."
         },
         "extensions": {
           "precision": "schematic"

@@ -20,7 +20,7 @@
           ],
           [
             111.5,
-            27.0
+            27
           ],
           [
             110.5,
@@ -49,6 +49,76 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.97,
+            26.87
+          ],
+          [
+            99.72,
+            27.34
+          ],
+          [
+            99.7,
+            27.82
+          ],
+          [
+            99.7,
+            28.5
+          ],
+          [
+            99.8,
+            28.93
+          ],
+          [
+            99.95,
+            29.08
+          ],
+          [
+            100.107,
+            29.194
+          ],
+          [
+            100.3,
+            29.04
+          ],
+          [
+            100.27,
+            29.99
+          ],
+          [
+            100.31,
+            30.94
+          ],
+          [
+            99.991,
+            31.624
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-6-army",
+        "startDate": "1936-04-25",
+        "endDate": "1936-06-23",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "石鼓—中甸—乡城—稻城—理塘—瞻化—甘孜（红六军团）",
+          "en": "Shigu–Zhongdian–Xiangcheng–Daocheng–Litang–Xinlong–Garzê (Sixth Army Group)"
+        },
+        "description": {
+          "zh": "红六军团由石鼓渡金沙江，翻越雅哈雪山进中甸，再翻越大、小雪山、沙鲁里山，经乡城、稻城、理化（今理塘）、瞻化（今新龙）北上甘孜。1935 年 11 月至 1936 年 4 月湘黔滇段仍待补。路线为示意，待按行军日志细化。",
+          "en": "The Sixth Army Group crossed the Jinsha River at Shigu, crossed Yaha Snow Mountain to Zhongdian, then crossed the Greater and Lesser Snow Mountains and the Shaluli Mountains via Xiangcheng, Daocheng, Litang, and Xinlong to Garzê. The Hunan–Guizhou–Yunnan section from November 1935 to April 1936 is still to be added. The route is schematic and awaits refinement from march logs."
         },
         "extensions": {
           "precision": "schematic"
