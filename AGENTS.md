@@ -174,23 +174,30 @@ curl -s -o /dev/null -w "%{http_code}\n" http://quizgo-ecs:8081/atlas/<任意专
 | 纯重构且行为不变 | ⏳ 可攒 | 跟下次功能一起发 |
 | feature 分支、本地实验 | ❌ 不发 | 未合并不发 |
 
-### 7.2 发布流程（4 步，可停机为零）
+### 7.2 发布流程（5 步，可停机为零）
 
 ```bash
-# 0. 前置检查（内存规则：提交前必须通过）
+# 0. 前置检查（提交前必须通过）
 pnpm typecheck && pnpm lint && pnpm validate:data
 pnpm check:versions            # 必须输出 ✅ 版本一致
 
 # 1. 数据变了才需要（build 已包含 search-index，但不含移动端数据）
 pnpm build:mobile-data
 
-# 2. 构建（本地构建，禁止在服务器构建）
+# 2. 先提交，再构建。顺序不能反：
+#    钩子在提交时升版，About 页嵌的是构建那一刻的 package.json version，
+#    先构建后提交 = 线上显示旧版本号。
+git add -A && git commit ...
+
+# 3. 构建（本地构建，禁止在服务器构建）
 pnpm build
 
-# 3. 保留上一版，便于秒级回滚
-ssh quizgo 'rm -rf /srv/atlas.prev && cp -a /srv/atlas /srv/atlas.prev'
+# 4. 保留上一版，便于秒级回滚
+#    /srv 属 root，这里必须 sudo；没有回滚点就不要往下走。
+ssh quizgo 'sudo rm -rf /srv/atlas.prev && sudo cp -a /srv/atlas /srv/atlas.prev && test -f /srv/atlas.prev/index.html && echo "回滚点 OK"'
+#    必须先看到「回滚点 OK」，否则中止发布。
 
-# 4. 同步（--delete 清掉旧 hash 资源；nginx 只读挂载，无需重启）
+# 5. 同步（--delete 清掉旧 hash 资源；nginx 只读挂载，无需重启）
 rsync -az --delete apps/web/dist/ quizgo:/srv/atlas/
 ```
 
@@ -208,7 +215,7 @@ curl -sI http://quizgo-ecs:8081/sw.js | grep -i cache-control   # 应为 no-cach
 ### 7.4 回滚
 
 ```bash
-ssh quizgo 'rsync -a --delete /srv/atlas.prev/ /srv/atlas/'
+ssh quizgo 'sudo rsync -a --delete /srv/atlas.prev/ /srv/atlas/'
 ```
 
 静态站回滚是**秒级且无损**的，这也是必须先备份上一版的原因。

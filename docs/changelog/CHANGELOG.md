@@ -3,6 +3,20 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.7] - 2026-11-14
+
+### Fixed
+- `AGENTS.md` §7.2 备份步骤缺 `sudo`：首次发布时 `cp -a /srv/atlas` 报 `Permission denied`，回滚点没建成而 rsync 照常执行。现在备份失败（或 `test -f` 不过）就中止发布。
+- `AGENTS.md` §7.4 回滚命令补 `sudo`（`/srv` 属 root）。
+
+### Changed
+- 发布流程由 4 步改为 5 步，新增「**先提交、再构建**」：About 页嵌的是构建那一刻的 `package.json` 版本，先构建后提交会让线上显示旧版本号。
+
+### Docs
+- `docs/conversations/2026-11-14-M115-Atlas首次线上发布.md`
+
+---
+
 ## [v1.0.6] - 2026-11-14
 
 ### Added
