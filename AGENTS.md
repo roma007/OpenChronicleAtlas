@@ -114,7 +114,7 @@
 | 服务器 | 阿里云 华南3（广州）`ecs.e-c1m1.large` 2C2G / 40G |
 | 公网 IP | `8.163.122.39` |
 | Tailscale IP | `100.65.110.80`（hostname `quizgo-ecs`） |
-| SSH | `ssh quizgo`（走 Tailscale，推荐）；`ssh quizgo-pub`（走公网，出口 IP 变了会失效） |
+| SSH | `ssh quizgo`（走 Tailscale，**唯一长期通道**）；`ssh quizgo-pub`（走公网，仅 `TCP 22 → 223.73.119.15/32` 临时放行，2026-11-21 复核后删除） |
 | Atlas 部署目录 | `/srv/atlas`（nginx 只读挂载） |
 | nginx 配置 | `/srv/nginx/conf.d/atlas.conf`（仓库 `OpenQuizGo/deploy/nginx/`） |
 
@@ -127,6 +127,23 @@ open http://quizgo-ecs:8081    # 或 http://100.65.110.80:8081
 - 访问方需加入同一 tailnet（同账号登录 Tailscale），手机 4G 亦可
 - nginx 只放行 `127.0.0.1` 与 `100.64.0.0/10`，其余 403；安全组也未放行 8081，公网无法直连
 - 深链（`/atlas/*`、`/search`）由 nginx 做 SPA 回退，可直接访问
+
+### 安全组现状（2026-11-14 收口）
+
+入方向只剩 3 条：
+
+| 规则 | 用途 | 期限 |
+| --- | --- | --- |
+| `TCP 22 → 223.73.119.15/32` | 临时 SSH | 2026-11-21 复核后删除；删前先实测控制台 VNC 可登 |
+| `UDP 41641` | Tailscale 直连打洞 | 长期 |
+| `ICMP` | 排障 | 长期 |
+
+**80/443 已于 2026-11-14 删除**（原为「放行但无监听」，属误开即违规的隐患）。
+**备案通过当天必须加回**，与 `atlas.conf` 改 `listen 80/443` 一起做；漏了会表现为 80/443 超时。
+
+验收用服务器上的自探（`ssh quizgo '/srv/ops/bin/status.sh'` 的「公网暴露自探」段）：
+`28`=已拦（正常），`7`=安全组放行（备案前属异常），其它=非预期。
+该探针只测安全组、不测监听；且 22 规则按源限流，从服务器自身发起**测不出**，闭环只能从 `/32` 那一侧或控制台规则列表确认。
 
 ### 构建与部署
 
@@ -159,6 +176,8 @@ curl -s -o /dev/null -w "%{http_code}\n" http://quizgo-ecs:8081/atlas/<任意专
 2. 不要把任何密钥、`.env`、证书写入仓库
 3. 数据改动仍走 `pnpm validate:data` → `build:search-index` → `build:mobile-data`，生成物一并提交
 4. 服务器上的 `/srv/atlas` 是构建产物，**不要**在服务器上改内容，改动一律走仓库 → 构建 → rsync
+5. 安全组、Tailscale、iptables 属**人工**，AI 不得自行修改；只可读、可提请求、可自探
+6. 备案通过前安全组不得出现 80/443；需要临时对外演示时，只加非标端口 + 对方 IP `/32`，用完立刻删
 
 ## 7. 发布与线上更新（Web 静态站）
 
