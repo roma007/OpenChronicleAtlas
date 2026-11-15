@@ -764,26 +764,22 @@
           [
             106.08,
             25.75
-          ],
-          [
-            105.765,
-            25.381
           ]
         ]
       },
       "properties": {
         "entityId": "central-red-army",
         "startDate": "1935-03-22",
-        "endDate": "1935-04-18",
+        "endDate": "1935-04-16",
         "order": 19,
         "segmentType": "advance",
         "name": {
-          "zh": "太平渡—乌江—贵阳—惠水—长顺—紫云—北盘江",
-          "en": "Taipingdu–Wu River–Guiyang–Huishui–Changshun–Ziyun–Beipan River"
+          "zh": "太平渡—乌江—贵阳—惠水—长顺—紫云",
+          "en": "Taipingdu–Wu River–Guiyang–Huishui–Changshun–Ziyun"
         },
         "description": {
-          "zh": "红军由太平渡南渡乌江、佯攻贵阳，随后经惠水、长顺、紫云西进，4 月 16 日至 18 日由坝草、白层、者坪渡过北盘江进入云南。北盘江以西至皎平渡一段另见「北盘江—兴仁—兴义—富源—曲靖—嵩明—寻甸—柯渡—禄劝—皎平渡」路线。路线为示意，各路纵队分进路线未分线画出。",
-          "en": "The Red Army crossed the Wu River south of Taipingdu and feinted toward Guiyang, then moved west through Huishui, Changshun and Ziyun, crossing the Beipan River at Bacao, Baiceng and Zheping on 16–18 April into Yunnan. The leg west of the Beipan to Jiaopingdu is drawn separately as the “Beipan River–Xingren–Xingyi–Fuyuan–Qujing–Songming–Xundian–Kedu–Luquan–Jiaopingdu” route. The line is schematic; the separate columns’ tracks are not drawn individually."
+          "zh": "红军由太平渡南渡乌江、佯攻贵阳，随后经惠水、长顺西进，4 月 15 日至 16 日进至紫云。此后主力分为左右两路纵队抢渡北盘江：右路（红三军团、红五军团）由镇宁经坝草、白层渡江，左路（红一军团、军委纵队）由紫云经者坪渡江，另见「镇宁—坝草—白层—贞丰」「紫云—册亨—安龙—兴仁」两段。路线为示意，各路纵队分进路线未再细分。",
+          "en": "The Red Army crossed the Wu River south of Taipingdu and feinted toward Guiyang, then moved west through Huishui and Changshun, reaching Ziyun on 15–16 April. The main force then split into two columns to cross the Beipan: the right column (Third and Fifth Army Corps) via Zhenning, Bacao and Baiceng, and the left column (First Army Corps and the Military Commission column) via Zheyang from Ziyun, drawn as the “Zhenning–Bacao–Baiceng–Zhenfeng” and “Ziyun–Ceheng–Anlong–Xingren” segments. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -1646,8 +1642,8 @@
           "en": "Beipan River–Xingren–Xingyi–Fuyuan–Qujing–Xundian–Kedu–Jiaopingdu (central column)"
         },
         "description": {
-          "zh": "中央红军 4 月 16 日至 18 日由坝草、白层、者坪渡过北盘江，经兴仁、安龙、兴义进入云南，连下平彝（今富源）、曲靖。4 月 29 日鲁口哨渡江令后，军委纵队与红五军团为中央纵队，经寻甸、柯渡北上，5 月 3 日抢占皎平渡，随后由此渡过金沙江。同期一军团为左纵队经马龙、嵩明、禄劝奔龙街渡，三军团为右纵队经沾益、寻甸奔洪门渡，两翼分进路线另见「马龙—嵩明—禄劝」「沾益—寻甸—禄劝—马鹿塘—洪门渡」两段。路线为示意，4 月 23 日至 28 日各路纵队并行西进，未再分线画出。",
-          "en": "From 16 to 18 April 1935 the Central Red Army crossed the Beipan at Bacao, Baiceng and Zheping, moved through Xingren, Anlong and Xingyi into Yunnan, and took Pingyi (present-day Fuyuan) and Qujing. After the Lukoushao crossing order of 29 April, the Military Commission column and the Fifth Army Corps formed the central column, moved north via Xundian and Kedu, and seized Jiaopingdu on 3 May, crossing the Jinsha there. The First Army Corps meanwhile formed the left column via Malong, Songming and Luquan toward Longjie, and the Third Army Corps the right column via Zhanyi and Xundian toward Hongmen; the two flanking tracks are drawn as the “Malong–Songming–Luquan” and “Zhanyi–Xundian–Luquan–Malutang–Hongmen” segments. The line is schematic; the parallel westward march of 23–28 April is not split into separate lines."
+          "zh": "中央红军 4 月 16 日至 18 日分左右两路纵队抢渡北盘江：右路（红三军团、红五军团）由镇宁经坝草、白层渡江，左路（红一军团、军委纵队）由紫云经者坪渡江。渡江后经兴仁、安龙、兴义进入云南，连下平彝（今富源）、曲靖。4 月 29 日鲁口哨渡江令后，军委纵队与红五军团为中央纵队，经寻甸、柯渡北上，5 月 3 日抢占皎平渡，随后由此渡过金沙江。同期一军团为左纵队经马龙、嵩明、禄劝奔龙街渡，三军团为右纵队经沾益、寻甸奔洪门渡，两翼分进路线另见「马龙—嵩明—禄劝」「沾益—寻甸—禄劝—马鹿塘—洪门渡」两段。路线为示意，4 月 23 日至 28 日各路纵队并行西进，未再分线画出。",
+          "en": "From 16 to 18 April 1935 the Central Red Army crossed the Beipan in two columns: the right column (Third and Fifth Army Corps) via Zhenning, Bacao and Baiceng, and the left column (First Army Corps and the Military Commission column) via Zheyang from Ziyun. After crossing, it moved through Xingren, Anlong and Xingyi into Yunnan and took Pingyi (present-day Fuyuan) and Qujing. After the Lukoushao crossing order of 29 April, the Military Commission column and the Fifth Army Corps formed the central column, moved north via Xundian and Kedu, and seized Jiaopingdu on 3 May, crossing the Jinsha there. The First Army Corps meanwhile formed the left column via Malong, Songming and Luquan toward Longjie, and the Third Army Corps the right column via Zhanyi and Xundian toward Hongmen; the two flanking tracks are drawn separately. The line is schematic; the parallel westward march of 23–28 April is not split into separate lines."
         },
         "extensions": {
           "precision": "schematic"
@@ -1952,6 +1948,90 @@
         "description": {
           "zh": "1935 年 4 月 27 日红一军团占领马龙，29 日攻克嵩明并前伸至昆明近郊，5 月 1 日先头进占禄劝。鲁口哨渡江令规定一军团（缺一个师）为左纵队，经嵩明、禄劝奔龙街渡。此后由禄劝经武定、元谋至龙街渡的段落另见「禄劝—武定—元谋（红一军团先头智取三城）」与「龙街渡佯渡（元谋—龙街渡）」两段。路线为示意。",
           "en": "On 27 April 1935 the First Army Corps took Malong, on 29 April seized Songming and pushed to the outskirts of Kunming, and on 1 May its advance guard entered Luquan. The Lukoushao order made the First Army Corps (less one division) the left column, moving via Songming and Luquan toward Longjie. The continuation from Luquan via Wuding and Yuanmou to Longjie is drawn as the “Luquan–Wuding–Yuanmou” and “Yuanmou–Longjie” segments. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.77,
+            26.06
+          ],
+          [
+            105.784,
+            25.4722
+          ],
+          [
+            105.765,
+            25.381
+          ],
+          [
+            105.65,
+            25.39
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-04-15",
+        "endDate": "1935-04-18",
+        "order": 44,
+        "segmentType": "advance",
+        "name": {
+          "zh": "镇宁—坝草—白层—贞丰（右路纵队·红三军团抢渡北盘江）",
+          "en": "Zhenning–Bacao–Baiceng–Zhenfeng (right column, Third Army Corps crossing the Beipan)"
+        },
+        "description": {
+          "zh": "1935 年 4 月 15 日凌晨，红三军团第十一团从镇宁江龙出发，急行军 180 里，16 日上午到达北盘江东岸坝草渡口，在布依族老人王凤昌带引下由花滩浅水区涉渡，抢占贞丰坡扪制高点，架起坝草至坡扪浮桥；随后一营沿江东岸直下白层渡口，17 日凌晨守军保商营让出渡口，中午架起白层浮桥。坝草至坡扪、白层两座浮桥与下游者坪至弄洋浮桥一起，保障中央红军主力渡过北盘江。路线为示意，坝草取 OSM 村点，坡扪、弄洋不单独立点。",
+          "en": "Before dawn on 15 April 1935 the 11th Regiment of the Third Army Corps set out from Jianglong in Zhenning, marched 180 li, and reached Bacao Ferry on the east bank of the Beipan on the morning of the 16th. Guided by the Bouyei elder Wang Fengchang, it forded at the shallows of Huatan, seized the height at Pomen in Zhenfeng, and built the Bacao–Pomen pontoon bridge; a battalion then moved downstream along the east bank to Baiceng, where the defending merchant-protection battalion gave up the ferry before dawn on the 17th and the Baiceng bridge was built that noon. Together with the Zheyang–Nongyang bridge downstream, the three pontoon bridges carried the main force across the Beipan. The line is schematic; Bacao uses the OSM village point, and Pomen and Nongyang are not plotted separately."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.08,
+            25.75
+          ],
+          [
+            105.81,
+            24.98
+          ],
+          [
+            105.47,
+            25.11
+          ],
+          [
+            105.19,
+            25.44
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-04-16",
+        "endDate": "1935-04-20",
+        "order": 45,
+        "segmentType": "advance",
+        "name": {
+          "zh": "紫云—册亨—安龙—兴仁（左路纵队·红一军团与军委纵队抢渡北盘江）",
+          "en": "Ziyun–Ceheng–Anlong–Xingren (left column, First Army Corps and Military Commission column crossing the Beipan)"
+        },
+        "description": {
+          "zh": "1935 年 4 月 13 日中革军委电令：一军团及军委纵队为左路纵队，任务是在罗炎附近渡江，经册亨进占安龙。红一军团第一师第二团在占领长顺后于 4 月 15 日受命为左路先遣团，当日进占紫云，16 日经观文、羊架等战斗继续西进，18 日中午到达北盘江下游者坪渡口，当日黄昏架成者坪至弄洋浮桥。此后经册亨进占安龙，与右路纵队在兴仁一带会合。路线为示意，者坪、弄洋未单独立点，紫云至册亨一段跨北盘江处即者坪渡口附近。",
+          "en": "The Revolutionary Military Council order of 13 April 1935 made the First Army Corps and the Military Commission column the left column, to cross near Luoyan and move through Ceheng to take Anlong. The 2nd Regiment of the 1st Division was ordered on 15 April, after taking Changshun, to lead the left column; it took Ziyun that day, fought through Guanwen and Yangjia on the 16th, reached Zheyang Ferry downstream on the Beipan at noon on the 18th, and completed the Zheyang–Nongyang pontoon bridge that dusk. It then moved through Ceheng to Anlong and joined the right column around Xingren. The line is schematic; Zheyang and Nongyang are not plotted separately, and the Ziyun–Ceheng leg crosses the Beipan near Zheyang Ferry."
         },
         "extensions": {
           "precision": "schematic"
