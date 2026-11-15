@@ -14033,6 +14033,7 @@
     },
     "entityIds": [
       "red-2-army",
+      "red-6-army",
       "red-4-army"
     ],
     "category": "会师",
@@ -15333,6 +15334,67 @@
       "jiangtaibao-1936-10"
     ],
     "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "kangxian-1936-09",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "红二军第六师占领康县",
+      "en": "6th Division Takes Kangxian"
+    },
+    "aliases": [
+      {
+        "zh": "攻占康县",
+        "en": "Capture of Kangxian"
+      }
+    ],
+    "date": "1936-09-19",
+    "location": {
+      "lng": 105.61,
+      "lat": 33.33,
+      "place": {
+        "zh": "甘肃康县县城",
+        "en": "Kangxian county town, Gansu"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "成徽两康战役中，红二军第六师由右路占领康县。",
+      "en": "During the Cheng–Hui–Liang–Kang campaign the 6th Division of the Second Army took Kangxian on the right column."
+    },
+    "description": {
+      "zh": "1936 年 9 月 11 日至 20 日，红二方面军按《成徽两康战役计划》分左、中、右三路纵队由哈达铺地区东出陇南。右纵队红二军第六师 9 月 19 日占领康县，与左纵队攻占的徽县、两当和中纵队攻占的成县连成一片，为创建陇南临时根据地创造了条件。本坐标为康县县城代表点。",
+      "en": "From 11 to 20 September 1936 the Second Front Army moved east from the Hadapu area in three columns under the Cheng–Hui–Liang–Kang plan. The right column, the 6th Division of the Second Army, took Kangxian on 19 September, linking with Huixian and Liangdang taken by the left column and Chengxian taken by the centre column, creating conditions for the Longnan base area. The coordinate is a representative point at Kangxian county town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红二方面军长征在甘肃》",
+        "author": "中共甘肃省委党史研究室 / 甘肃党史网",
+        "year": 2010,
+        "note": "用于核对成徽两康战役三路纵队与红二军第六师占领康县",
+        "url": "http://www.gsds.gov.cn/wenxianbianji/20100727/2224386506bc3c.htm"
+      },
+      {
+        "title": "《三大主力红军胜利会师前的战斗》",
+        "author": "中国军网",
+        "year": 2026,
+        "note": "用于核对成徽两康战役与三大主力会师过程",
+        "url": "http://www.81.mil.cn/rmjz_203219/zgmb/2026nd10q/shxy_253441/16494548.html"
+      }
+    ],
+    "relatedIds": [
+      "chenghuiliangkang-1936-09",
+      "wulongshan-1936-09",
+      "jiangtaibao-1936-10"
+    ],
+    "importance": 2,
     "extensions": {
       "locationPrecision": "approx"
     }

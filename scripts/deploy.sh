@@ -80,6 +80,7 @@ if [ "$SKIP_CHECKS" = 0 ]; then
   run pnpm -s check:versions
   run pnpm -s build:mobile-data --check
   run pnpm -s validate:data
+  run pnpm -s check:heads
 fi
 
 echo

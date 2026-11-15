@@ -3,6 +3,28 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.52] - 2026-11-16
+
+### Added
+- `AGENTS.md` 第 4 节新增第 8 条「路线端点铁律」：不准出现无来由的线头，也不准出现无后续的线尾；例外必须写入 `route-endpoints.allow.json` 并注明原因。
+- 新增 `scripts/check-route-endpoints.ts` 与 `pnpm check:heads`：按实体检查端点是否接到同实体路线或事件，豁免防线、航线、补给线、`kmt-*` 与首末条路线。
+- 长征新增事件「红二军第六师占领康县」（1936-09-19），锚定成徽两康战役路线南端。
+
+### Changed
+- `.githooks/pre-commit`：有路线文件改动时，对改动专题运行 `pnpm check:heads --atlas <id>`，失败即拒绝提交。
+- `scripts/deploy.sh` 前置检查新增 `pnpm check:heads`。
+- 「甘孜会师」事件补挂红六军团；红六军团石鼓—甘孜路线结束日 6/23 → 7/2，覆盖会师日期。
+- 事件与路线段：229 事件 / 121 路线段；全项目 845 事件 / 641 路线段。
+- 搜索索引：11 专题 / 845 事件 / 1991.1 KB；数据版本 `2026-11-16-b931cacdfe4a`。
+- 全仓版本由 `1.0.51` 升级为 `1.0.52`，构建号 `10052`。
+
+### Docs
+- `docs/plans/2026-11-16-M157-路线端点铁律-design.md`
+- `docs/plans/2026-11-16-M157-路线端点铁律-plan.md`
+- `docs/conversations/2026-11-16-M157-路线端点铁律.md`
+
+---
+
 ## [v1.0.51] - 2026-11-16
 
 ### Changed
