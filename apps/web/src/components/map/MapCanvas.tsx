@@ -686,8 +686,13 @@ export function MapCanvas() {
     for (const [key, entry] of lineEntriesRef.current) {
       const start = parseDateString(entry.feature.properties.startDate);
       const end = parseDateString(entry.feature.properties.endDate);
-      const rawProgress =
-        end === start
+      // 苏区内部机动线等「常驻线」不做逐日推进，进入起始日后整段显示
+      const isStatic = entry.feature.properties.extensions?.static === true;
+      const rawProgress = isStatic
+        ? currentTime >= start
+          ? 1
+          : -1
+        : end === start
           ? currentTime >= end
             ? 1
             : -1
