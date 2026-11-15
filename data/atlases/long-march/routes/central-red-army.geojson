@@ -1563,6 +1563,64 @@
           "precision": "campaign"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.591,
+            27.385
+          ],
+          [
+            106.217,
+            27.463
+          ],
+          [
+            105.692,
+            27.447
+          ],
+          [
+            105.29,
+            27.3
+          ],
+          [
+            104.47,
+            25.71
+          ],
+          [
+            104.1,
+            26.231
+          ],
+          [
+            103.622,
+            26.556
+          ],
+          [
+            103.291,
+            26.417
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-04-03",
+        "endDate": "1935-05-04",
+        "order": 36,
+        "segmentType": "advance",
+        "name": {
+          "zh": "老木孔—瓢儿井—毕节—盘县—宣威—会泽（红九军团单独行动）",
+          "en": "Laomukong–Piaoerjing–Bijie–Panxian–Xuanwei–Huize (Ninth Army Corps independent operations)"
+        },
+        "description": {
+          "zh": "红九军团南渡乌江受阻后单独行动：4 月 5 日老木孔伏击黔军，4 月 8 日智取瓢儿井盐场并休整三日，经毕节、纳雍、水城于 4 月下旬渡过北盘江进入云南，4 月 27 日至 29 日进占宣威，5 月 2 日至 3 日攻克会泽，5 月 4 日西进树桔渡。路线为示意，逐日行程未全部画出。",
+          "en": "After being unable to cross the Wu River with the main force, the Ninth Army Corps operated independently: it ambushed Guizhou troops at Laomukong on 5 April, took the Piaoerjing salt depot on 8 April and rested three days, moved through Bijie, Nayong, and Shuicheng, crossed the Beipan River into Yunnan in late April, occupied Xuanwei on 27–29 April, took Huize on 2–3 May, and moved west to Shuju Ferry on 4 May. The route is schematic; the daily marches are not fully drawn."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

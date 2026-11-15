@@ -4795,10 +4795,145 @@
     "relatedIds": [
       "south-wujiang-1935-03",
       "jinsha-campaign-1935-05",
-      "kmt-jinsha-blockade-1935-05"
+      "kmt-jinsha-blockade-1935-05",
+      "laomukong-1935-04",
+      "piaoerjing-1935-04",
+      "xuanwei-occupy-1935-04",
+      "huize-1935-05"
     ],
     "endDate": "1935-04-09",
     "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "laomukong-1935-04",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "老木孔战斗",
+      "en": "Battle of Laomukong"
+    },
+    "aliases": [
+      {
+        "zh": "菜籽坳战斗",
+        "en": "Caiziao Battle"
+      },
+      {
+        "zh": "老木孔伏击战",
+        "en": "Laomukong Ambush"
+      }
+    ],
+    "date": "1935-04-05",
+    "location": {
+      "lng": 106.591,
+      "lat": 27.385,
+      "place": {
+        "zh": "贵州金沙沙土镇老木孔、菜籽坳一带",
+        "en": "Laomukong and Caiziao, Shatu, Jinsha, Guizhou"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红九军团在脱离主力的情况下于老木孔设伏，击溃黔军 5 个团。",
+      "en": "Cut off from the main force, the Ninth Army Corps ambushed and routed five Guizhou army regiments at Laomukong."
+    },
+    "description": {
+      "zh": "1935 年 4 月 2 日，红九军团按中革军委命令赶到乌江以北沙土地区准备随主力渡江，因浮桥已拆、国民党军四个师逼近，遂放弃渡江向北转移，成为单独行动的「战略奇兵」。4 月 3 日到达打鼓新场（今金沙）以东老木孔，侦知黔军犹国材部魏金镛师正向西南追击。4 月 4 日拂晓，红九团居正面、红八团居左翼、红七团居右翼进入伏击阵地；另以红九团一个连在鸡爪山遍插红旗、集中二十余名司号员吹号，牵制周浑元纵队。4 月 5 日 8 时许敌先头进入伏击圈，12 时红军猛攻其指挥机关，战至黄昏结束，击溃黔军 5 个团（战后查明实为 7 个团），毙伤敌 300 余人、俘敌 1800 余人，缴枪 1000 余支，敌师长魏金镛负伤逃窜，红军伤亡百余人。中革军委复电嘉奖。有资料记此战为 4 月 4 日。本坐标为老木孔一带代表点。",
+      "en": "On 2 April 1935 the Ninth Army Corps reached the Shatu area north of the Wu River to cross with the main force, but the pontoon bridge had been dismantled and four KMT divisions were closing in, so it gave up the crossing and turned north, becoming an independent “strategic raider.” On 3 April it reached Laomukong east of Daguxinchang (present-day Jinsha) and learned that Wei Jinyong’s division of You Guocai’s Guizhou troops was pursuing southwest. Before dawn on 4 April the 9th Regiment took the centre, the 8th the left wing, and the 7th the right; a company of the 9th covered the flank at Jizhaoshan with red flags and some twenty buglers to hold off Zhou Hunyuan’s column. At about 8 a.m. on 5 April the enemy advance guard entered the trap; at noon the Red Army struck the command group and by dusk the battle was over. Five Guizhou regiments were routed (seven, it turned out afterwards), more than 300 enemy troops killed or wounded and over 1,800 captured, with more than 1,000 rifles taken; divisional commander Wei Jinyong was wounded and fled, while the Red Army lost over 100 men. The Central Revolutionary Military Commission sent a commendation. Some sources date the battle to 4 April. The coordinate is a representative point in the Laomukong area."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《老木孔战斗：抓住绝境求生的战机》",
+        "author": "中国共产党新闻网 / 中共贵州省委党史研究室",
+        "year": 2026,
+        "note": "用于核对 4 月 5 日老木孔伏击、击溃黔军 5 个团、毙敌 300 余、俘敌 1800 余与军委嘉奖",
+        "url": "https://cpc.people.com.cn/n1/2026/1026/c443712-40821412.html"
+      },
+      {
+        "title": "《党史中的贵州｜红九军团转战在毕节 播撒革命火种》",
+        "author": "贵州省人大常委会 / 贵州党史",
+        "year": 2021,
+        "note": "用于核对 4 月 3 日到老木孔、4 日拂晓进入阵地、9 日智取瓢儿井、23 日进入云南",
+        "url": "https://www.gzrd.gov.cn/gzwh/202102/t20210226_77672083.html"
+      }
+    ],
+    "relatedIds": [
+      "piaoerjing-1935-04",
+      "south-wujiang-1935-03",
+      "guiyang-feint-1935-04",
+      "xuanwei-occupy-1935-04"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "piaoerjing-1935-04",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "智取瓢儿井",
+      "en": "Capture of Piaoerjing"
+    },
+    "aliases": [
+      {
+        "zh": "瓢儿井盐场",
+        "en": "Piaoerjing Salt Depot"
+      },
+      {
+        "zh": "红九军团瓢儿井休整",
+        "en": "Ninth Army Corps at Piaoerjing"
+      }
+    ],
+    "date": "1935-04-08",
+    "endDate": "1935-04-11",
+    "location": {
+      "lng": 105.692,
+      "lat": 27.447,
+      "place": {
+        "zh": "贵州大方瓢井镇（瓢儿井）",
+        "en": "Piaoerjing (present-day Piaojing), Dafang, Guizhou"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "红九军团智取瓢儿井盐场，缴获大批食盐银元并扩军数百。",
+      "en": "The Ninth Army Corps took the Piaoerjing salt depot by ruse, seizing salt and silver and recruiting several hundred men."
+    },
+    "description": {
+      "zh": "1935 年 4 月 8 日（一说 9 日），红九军团在大定（今大方）县城以北约 70 里的黔西川盐集散地瓢儿井，以化装奇袭方式解除盐防军武装，占领盐场。红军在此休整三日，把大批食盐分给群众，缴获食盐、银元等物资补充给养，并扩军数百人。瓢儿井是红九军团单独行动期间的重要补给点，此后部队经毕节、纳雍、水城，于 4 月下旬渡过北盘江进入云南。本坐标为瓢井镇代表点。",
+      "en": "On 8 April 1935 (some sources say 9 April) the Ninth Army Corps took Piaoerjing, a Sichuan-salt distribution centre about 35 km north of Dafang county town, disarming the salt depot guard by a disguised surprise attack. The corps rested there for three days, distributed large quantities of salt to local people, seized salt, silver, and other supplies, and recruited several hundred men. Piaoerjing was an important supply point during the corps’ independent operations; the force then moved through Bijie, Nayong, and Shuicheng and crossed the Beipan River into Yunnan in late April. The coordinate is a representative point at Piaojing."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《党史中的贵州｜红九军团转战在毕节 播撒革命火种》",
+        "author": "贵州省人大常委会 / 贵州党史",
+        "year": 2021,
+        "note": "用于核对 4 月 3 日到老木孔、4 日拂晓进入阵地、9 日智取瓢儿井、23 日进入云南",
+        "url": "https://www.gzrd.gov.cn/gzwh/202102/t20210226_77672083.html"
+      },
+      {
+        "title": "《老木孔战斗：抓住绝境求生的战机》",
+        "author": "中国共产党新闻网 / 中共贵州省委党史研究室",
+        "year": 2026,
+        "note": "用于核对 4 月 5 日老木孔伏击、击溃黔军 5 个团、毙敌 300 余、俘敌 1800 余与军委嘉奖",
+        "url": "https://cpc.people.com.cn/n1/2026/1026/c443712-40821412.html"
+      }
+    ],
+    "relatedIds": [
+      "laomukong-1935-04",
+      "xuanwei-occupy-1935-04"
+    ],
+    "importance": 2,
     "extensions": {
       "locationPrecision": "approx"
     }
@@ -4857,6 +4992,72 @@
       "zhongbao-1935-06"
     ],
     "importance": 2
+  },
+  {
+    "id": "xuanwei-occupy-1935-04",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "进占宣威",
+      "en": "Occupation of Xuanwei"
+    },
+    "aliases": [
+      {
+        "zh": "红九军团攻占宣威",
+        "en": "Ninth Army Corps Takes Xuanwei"
+      },
+      {
+        "zh": "宣威扩红",
+        "en": "Recruitment at Xuanwei"
+      }
+    ],
+    "date": "1935-04-27",
+    "endDate": "1935-04-29",
+    "location": {
+      "lng": 104.1,
+      "lat": 26.231,
+      "place": {
+        "zh": "云南宣威县城",
+        "en": "Xuanwei county town, Yunnan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "红九军团进占宣威县城，开监放人、打富济贫，扩红三百余人。",
+      "en": "The Ninth Army Corps occupied Xuanwei, opened the gaols, distributed goods to the poor, and recruited over 300 men."
+    },
+    "description": {
+      "zh": "1935 年 4 月 23 日，红九军团由贵州盘县进入云南平彝（今富源），奉命向北相机攻占宣威、东川（今会泽），并在东川以西渡过金沙江。4 月 26 日至 27 日，红军进至宣威板桥，军团部驻板桥，作战科长刘雄武（宣威板桥人）率第八团夜袭县城；县长陈其栋闻讯弃城出逃，红军兵不血刃进占宣威城。各资料对进城的日期相差一至二日，有 4 月 27 日、29 日两说，本事件取 4 月 27 日至 29 日的区间。红军在宣威开监放人、打富济贫、没收军阀经营的火腿罐头公司和地主谷仓分给群众，两天筹款 3 万余元，并截获敌骡马队银元与军用物资；地下党员徐文烈等带领青年参军，扩红 300 余人（一说近 400 名）。4 月 30 日接军委电令后离宣威西进会泽。本坐标为宣威县城代表点。",
+      "en": "On 23 April 1935 the Ninth Army Corps entered Pingyi (present-day Fuyuan), Yunnan, from Panxian, Guizhou, ordered to move north to take Xuanwei and Dongchuan (present-day Huize) and cross the Jinsha River west of Dongchuan. On 26–27 April the Red Army reached Banqiao in Xuanwei, where the corps headquarters was set up; Liu Xiongwu, the operations section chief and a Banqiao native, led the 8th Regiment in a night attack on the county town. Magistrate Chen Qidong fled, and the Red Army occupied Xuanwei without a fight. Sources differ by one or two days on the entry date, giving 27 or 29 April; this event uses the 27–29 April range. At Xuanwei the Red Army opened the gaols, distributed goods to the poor, confiscated a warlord-run ham cannery and landlords’ granaries for the people, raised over 30,000 yuan in two days, and intercepted an enemy pack convoy carrying silver and military supplies. Underground party member Xu Wenlie and others brought young men to enlist, and more than 300 (some say nearly 400) joined. On 30 April, after a telegram from the Military Commission, the corps left Xuanwei westward for Huize. The coordinate is a representative point at Xuanwei county town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《绝境重生创奇迹——中央红军长征在云南的英勇战斗》",
+        "author": "云南省社会科学院",
+        "year": 2019,
+        "note": "用于核对 4 月 25 日入滇、27 日进占宣威、5 月 2 日攻占会泽与扩红 1500 余人",
+        "url": "https://www.sky.yn.gov.cn/ztzl/bwcxljsm/098568466323170794"
+      },
+      {
+        "title": "《罗炳辉传》第六章：走完长征路（三）",
+        "author": "中共党史出版社",
+        "year": 2018,
+        "note": "用于核对 4 月 28 日进占板桥、29 日进占宣威城、5 月 2 日至 3 日会泽攻城经过",
+        "url": "http://www.wphoto.net/qianbei/article/ts/show/articleid/16069/"
+      }
+    ],
+    "relatedIds": [
+      "piaoerjing-1935-04",
+      "huize-1935-05",
+      "ferry-shujudu-1935-05"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "kmt-jinsha-blockade-1935-05",
@@ -5032,6 +5233,79 @@
       "six-counties-1935-06"
     ],
     "importance": 2
+  },
+  {
+    "id": "huize-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "攻克会泽（东川）",
+      "en": "Capture of Huize (Dongchuan)"
+    },
+    "aliases": [
+      {
+        "zh": "红九军团攻占会泽",
+        "en": "Ninth Army Corps Takes Huize"
+      },
+      {
+        "zh": "会泽扩红",
+        "en": "Recruitment at Huize"
+      }
+    ],
+    "date": "1935-05-02",
+    "endDate": "1935-05-03",
+    "location": {
+      "lng": 103.291,
+      "lat": 26.417,
+      "place": {
+        "zh": "云南会泽县城（旧称东川）",
+        "en": "Huize county town (formerly Dongchuan), Yunnan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红九军团智取会泽县城，筹款十万银圆并扩红一千五百余人。",
+      "en": "The Ninth Army Corps took Huize by bluff and negotiation, raising 100,000 silver dollars and recruiting over 1,500 men."
+    },
+    "description": {
+      "zh": "1935 年 4 月 30 日，红九军团由宣威出发，翻越宣威、会泽交界的梨树丫口，在群众帮助下渡过牛栏江，5 月 1 日经者海进入会泽境内。5 月 2 日上午兵临会泽城下，罗炳辉利用旧关系与守城民团通电话劝降，同时准备云梯强攻；守军派代表谈判却一再拖延开城时间。18 时红军发起攻击，第七团由东门入城，第八团攻占西门，至 21 时许控制全城，将上千名保安团、公安队缴械。此役筹款 10 万银圆、布匹 400 余匹，收缴枪支 1500 余支、手榴弹 500 余枚、子弹 2 万余发，俘虏保安团 400 余名，扩红 1500 余人，是红九军团长征途中扩红人数最多的一次。各资料对攻城时刻说法不一，有 5 月 2 日 18 时至 21 时、5 月 3 日 6 时两说。5 月 4 日下午红军撤离会泽，向树桔渡开进。本坐标为会泽县城代表点。",
+      "en": "On 30 April 1935 the Ninth Army Corps left Xuanwei, crossed the Lishu pass on the Xuanwei–Huize border, and crossed the Niulan River with local help, entering Huize on 1 May via Zhehai. On the morning of 2 May it appeared before Huize. Luo Binghui telephoned the defending militia using old contacts to urge surrender while preparing scaling ladders for an assault; the defenders sent negotiators but repeatedly delayed opening the gates. At 6 p.m. the Red Army attacked: the 7th Regiment entered by the east gate, the 8th stormed the west gate, and by about 9 p.m. the town was secured and more than a thousand militia and police disarmed. The corps raised 100,000 silver dollars and over 400 bolts of cloth, took more than 1,500 rifles, 500 grenades, and 20,000 rounds, captured over 400 militia, and recruited more than 1,500 men — the largest expansion of the corps during the Long March. Sources differ on the timing, giving 6–9 p.m. on 2 May or 6 a.m. on 3 May. The corps left Huize on the afternoon of 4 May for Shuju Ferry. The coordinate is a representative point at Huize county town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《罗炳辉传》第六章：走完长征路（三）",
+        "author": "中共党史出版社",
+        "year": 2018,
+        "note": "用于核对 4 月 28 日进占板桥、29 日进占宣威城、5 月 2 日至 3 日会泽攻城经过",
+        "url": "http://www.wphoto.net/qianbei/article/ts/show/articleid/16069/"
+      },
+      {
+        "title": "《绝境重生创奇迹——中央红军长征在云南的英勇战斗》",
+        "author": "云南省社会科学院",
+        "year": 2019,
+        "note": "用于核对 4 月 25 日入滇、27 日进占宣威、5 月 2 日攻占会泽与扩红 1500 余人",
+        "url": "https://www.sky.yn.gov.cn/ztzl/bwcxljsm/098568466323170794"
+      },
+      {
+        "title": "《红军长征过云南会泽巧渡金沙江》",
+        "author": "中共云南党史网",
+        "year": 2022,
+        "note": "用于核对 5 月 4 日至 6 日红九军团由会泽向树桔渡开进与渡江",
+        "url": "http://www.ynds.yn.gov.cn/html/2022/hongsedibiaoyunlingfengbei_0708/1155.html"
+      }
+    ],
+    "relatedIds": [
+      "xuanwei-occupy-1935-04",
+      "ferry-shujudu-1935-05",
+      "jinsha-campaign-1935-05"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "jinsha-1935-05",
