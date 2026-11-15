@@ -368,6 +368,10 @@
             29.496
           ],
           [
+            109.326,
+            29.575
+          ],
+          [
             109.273,
             29.676
           ]
@@ -380,12 +384,12 @@
         "order": 4,
         "segmentType": "counterattack",
         "name": {
-          "zh": "来凤—忠堡",
-          "en": "Laifeng–Zhongbao"
+          "zh": "来凤—三胡—忠堡",
+          "en": "Laifeng–Sanhu–Zhongbao"
         },
         "description": {
-          "zh": "1935 年 6 月 12 日，红二、六军团由来凤北上，在湖北咸丰忠堡地区歼灭国民党军第 41 师，俘师长张振汉。路线为示意。",
-          "en": "On 12 June 1935 the Second and Sixth Army Groups moved north from Laifeng and destroyed the 41st Division at Zhongbao in Xianfeng county, Hubei, capturing its commander Zhang Zhenhan. The line is schematic."
+          "zh": "1935 年 6 月 12 日，红二、六军团由来凤经三胡北上，在湖北咸丰忠堡地区歼灭国民党军第 41 师，俘师长张振汉。路线为示意，三胡为来凤至忠堡途中代表点。",
+          "en": "On 12 June 1935 the Second and Sixth Army Groups moved north from Laifeng via Sanhu and destroyed the 41st Division at Zhongbao in Xianfeng county, Hubei, capturing its commander Zhang Zhenhan. The line is schematic; Sanhu is a representative point on the way."
         },
         "extensions": {
           "precision": "schematic"
@@ -402,6 +406,10 @@
             29.496
           ],
           [
+            109.458,
+            29.59
+          ],
+          [
             109.408,
             29.66
           ]
@@ -414,12 +422,12 @@
         "order": 5,
         "segmentType": "counterattack",
         "name": {
-          "zh": "来凤—板栗园",
-          "en": "Laifeng–Banliyuan"
+          "zh": "来凤—李家河—板栗园",
+          "en": "Laifeng–Lijiahe–Banliyuan"
         },
         "description": {
-          "zh": "1935 年 8 月 3 日，红二、六军团由来凤北上，在湖北宣恩板栗园地区伏击歼灭国民党军第 85 师，击毙师长谢彬。路线为示意。",
-          "en": "On 3 August 1935 the Second and Sixth Army Groups moved north from Laifeng and ambushed and destroyed the 85th Division at Banliyuan in Xuanen county, Hubei, killing its commander Xie Bin. The line is schematic."
+          "zh": "1935 年 8 月 3 日，红二、六军团由来凤经李家河北上，在湖北宣恩板栗园地区伏击歼灭国民党军第 85 师，击毙师长谢彬。路线为示意，李家河为来凤至板栗园途中代表点。",
+          "en": "On 3 August 1935 the Second and Sixth Army Groups moved north from Laifeng via Lijiahe and ambushed and destroyed the 85th Division at Banliyuan in Xuanen county, Hubei, killing its commander Xie Bin. The line is schematic; Lijiahe is a representative point on the way."
         },
         "extensions": {
           "precision": "schematic"
@@ -988,6 +996,10 @@
             29.676
           ],
           [
+            109.326,
+            29.575
+          ],
+          [
             109.403,
             29.496
           ]
@@ -1004,8 +1016,8 @@
           "en": "Zhongbao–Laifeng (return after the battle)"
         },
         "description": {
-          "zh": "1935 年 6 月 12 日忠堡战斗后，红二、六军团回师来凤，随后经龙山、桑植、永顺苏区继续反“围剿”机动作战。路线为示意。",
-          "en": "After the battle at Zhongbao on 12 June 1935, the Second and Sixth Army Groups returned to Laifeng and then moved back through the Longshan–Sangzhi–Yongshun base area, continuing mobile operations against the encirclement. The line is schematic."
+          "zh": "1935 年 6 月 12 日忠堡战斗后，红二、六军团经三胡回师来凤，随后经龙山、桑植、永顺苏区继续反“围剿”机动作战。路线为示意，三胡为回师途中代表点。",
+          "en": "After the battle at Zhongbao on 12 June 1935, the Second and Sixth Army Groups returned to Laifeng via Sanhu and then moved back through the Longshan–Sangzhi–Yongshun base area, continuing mobile operations against the encirclement. The line is schematic; Sanhu is a representative point on the way back."
         },
         "extensions": {
           "precision": "schematic"
@@ -1020,6 +1032,10 @@
           [
             109.408,
             29.66
+          ],
+          [
+            109.458,
+            29.59
           ],
           [
             109.403,
@@ -1038,8 +1054,8 @@
           "en": "Banliyuan–Laifeng (return after the battle)"
         },
         "description": {
-          "zh": "1935 年 8 月 3 日板栗园战斗后，红二、六军团回师来凤，随后经龙山、桑植、永顺苏区，至 8 月粉碎国民党军的“围剿”。路线为示意。",
-          "en": "After the battle at Banliyuan on 3 August 1935, the Second and Sixth Army Groups returned to Laifeng and then moved back through the Longshan–Sangzhi–Yongshun base area, breaking the Nationalist encirclement by August. The line is schematic."
+          "zh": "1935 年 8 月 3 日板栗园战斗后，红二、六军团经李家河回师来凤，随后经龙山、桑植、永顺苏区，至 8 月粉碎国民党军的“围剿”。路线为示意，李家河为回师途中代表点。",
+          "en": "After the battle at Banliyuan on 3 August 1935, the Second and Sixth Army Groups returned to Laifeng via Lijiahe and then moved back through the Longshan–Sangzhi–Yongshun base area, breaking the Nationalist encirclement by August. The line is schematic; Lijiahe is a representative point on the way back."
         },
         "extensions": {
           "precision": "schematic"
