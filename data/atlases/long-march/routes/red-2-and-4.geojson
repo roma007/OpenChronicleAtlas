@@ -951,6 +951,116 @@
         "entityId": "red-2-army",
         "order": 12
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110,
+            29.5
+          ],
+          [
+            110.16,
+            29.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1935-04-14",
+        "endDate": "1935-04-14",
+        "order": 13,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "陈家河—桑植（战后回师）",
+          "en": "Chenjiahe–Sangzhi (return after the battle)"
+        },
+        "description": {
+          "zh": "1935 年 4 月 13 日陈家河战斗后，红二、六军团回师桑植，恢复桑植县城，继续在湘鄂川黔苏区机动作战。路线为示意，回师道路取陈家河至桑植的直行方向。",
+          "en": "After the battle at Chenjiahe on 13 April 1935, the Second and Sixth Army Groups returned to Sangzhi and recovered the county town, continuing mobile operations in the Hunan-Hubei-Sichuan-Guizhou base area. The line is schematic and follows the direct Chenjiahe–Sangzhi direction."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.15,
+            29.55
+          ],
+          [
+            109.44,
+            29.46
+          ],
+          [
+            110.16,
+            29.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1935-06-13",
+        "endDate": "1935-06-15",
+        "order": 14,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "忠堡—龙山—桑植（战后回师）",
+          "en": "Zhongbao–Longshan–Sangzhi (return after the battle)"
+        },
+        "description": {
+          "zh": "1935 年 6 月 12 日忠堡战斗后，红二、六军团经龙山县境回师桑植、永顺苏区，继续反“围剿”机动作战。路线为示意，龙山为回师途中代表点。",
+          "en": "After the battle at Zhongbao on 12 June 1935, the Second and Sixth Army Groups returned through Longshan county to the Sangzhi–Yongshun base area and continued mobile operations against the encirclement. The line is schematic; Longshan is a representative point on the return march."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.49,
+            29.99
+          ],
+          [
+            110.03,
+            29.89
+          ],
+          [
+            110.16,
+            29.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1935-08-04",
+        "endDate": "1935-08-06",
+        "order": 15,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "板栗园—鹤峰—桑植（战后回师）",
+          "en": "Banliyuan–Hefeng–Sangzhi (return after the battle)"
+        },
+        "description": {
+          "zh": "1935 年 8 月 3 日板栗园战斗后，红二、六军团经鹤峰县境回师桑植、永顺苏区，至 8 月粉碎国民党军的“围剿”。路线为示意，鹤峰为回师途中代表点。",
+          "en": "After the battle at Banliyuan on 3 August 1935, the Second and Sixth Army Groups returned through Hefeng county to the Sangzhi–Yongshun base area, breaking the Nationalist encirclement by August. The line is schematic; Hefeng is a representative point on the return march."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
