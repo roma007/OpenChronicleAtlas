@@ -778,8 +778,8 @@
           "en": "Taipingdu–Wu River–Guiyang–Huishui–Changshun–Ziyun"
         },
         "description": {
-          "zh": "红军由太平渡南渡乌江、佯攻贵阳，随后经惠水、长顺西进，4 月 15 日至 16 日进至紫云。此后主力分为左右两路纵队抢渡北盘江：右路（红三军团、红五军团）由镇宁经坝草、白层渡江，左路（红一军团、军委纵队）由紫云经者坪渡江，另见「镇宁—坝草—白层—贞丰」「紫云—册亨—安龙—兴仁」两段。路线为示意，各路纵队分进路线未再细分。",
-          "en": "The Red Army crossed the Wu River south of Taipingdu and feinted toward Guiyang, then moved west through Huishui and Changshun, reaching Ziyun on 15–16 April. The main force then split into two columns to cross the Beipan: the right column (Third and Fifth Army Corps) via Zhenning, Bacao and Baiceng, and the left column (First Army Corps and the Military Commission column) via Zheyang from Ziyun, drawn as the “Zhenning–Bacao–Baiceng–Zhenfeng” and “Ziyun–Ceheng–Anlong–Xingren” segments. The line is schematic."
+          "zh": "红军由太平渡南渡乌江、佯攻贵阳，随后经惠水、长顺西进，4 月 15 日至 16 日进至紫云。4 月 13 日在长顺分左右两路纵队抢渡北盘江：右路（红三军团、红五军团）由镇宁经坝草、白层渡江，左路（红一军团、军委纵队）由紫云经者坪渡江，另见「镇宁—坝草—白层—贞丰」「紫云—册亨—安龙—兴仁」两段。路线为示意，各路纵队分进路线未再细分。",
+          "en": "The Red Army crossed the Wu River south of Taipingdu and feinted toward Guiyang, then moved west through Huishui and Changshun, reaching Ziyun on 15–16 April. On 13 April the main force split at Changshun into two columns to cross the Beipan: the right column (Third and Fifth Army Corps) via Zhenning, Bacao and Baiceng, and the left column (First Army Corps and the Military Commission column) via Zheyang from Ziyun, drawn as the “Zhenning–Bacao–Baiceng–Zhenfeng” and “Ziyun–Ceheng–Anlong–Xingren” segments. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -1960,8 +1960,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            105.77,
-            26.06
+            106.45,
+            26.03
+          ],
+          [
+            105.882,
+            25.9584
           ],
           [
             105.784,
@@ -1979,17 +1983,17 @@
       },
       "properties": {
         "entityId": "central-red-army",
-        "startDate": "1935-04-15",
+        "startDate": "1935-04-13",
         "endDate": "1935-04-18",
         "order": 44,
         "segmentType": "advance",
         "name": {
-          "zh": "镇宁—坝草—白层—贞丰（右路纵队·红三军团抢渡北盘江）",
-          "en": "Zhenning–Bacao–Baiceng–Zhenfeng (right column, Third Army Corps crossing the Beipan)"
+          "zh": "长顺—江龙—坝草—白层—贞丰（右路纵队·红三军团抢渡北盘江）",
+          "en": "Changshun–Jianglong–Bacao–Baiceng–Zhenfeng (right column, Third Army Corps crossing the Beipan)"
         },
         "description": {
-          "zh": "1935 年 4 月 15 日凌晨，红三军团第十一团从镇宁江龙出发，急行军 180 里，16 日上午到达北盘江东岸坝草渡口，在布依族老人王凤昌带引下由花滩浅水区涉渡，抢占贞丰坡扪制高点，架起坝草至坡扪浮桥；随后一营沿江东岸直下白层渡口，17 日凌晨守军保商营让出渡口，中午架起白层浮桥。坝草至坡扪、白层两座浮桥与下游者坪至弄洋浮桥一起，保障中央红军主力渡过北盘江。路线为示意，坝草取 OSM 村点，坡扪、弄洋不单独立点。",
-          "en": "Before dawn on 15 April 1935 the 11th Regiment of the Third Army Corps set out from Jianglong in Zhenning, marched 180 li, and reached Bacao Ferry on the east bank of the Beipan on the morning of the 16th. Guided by the Bouyei elder Wang Fengchang, it forded at the shallows of Huatan, seized the height at Pomen in Zhenfeng, and built the Bacao–Pomen pontoon bridge; a battalion then moved downstream along the east bank to Baiceng, where the defending merchant-protection battalion gave up the ferry before dawn on the 17th and the Baiceng bridge was built that noon. Together with the Zheyang–Nongyang bridge downstream, the three pontoon bridges carried the main force across the Beipan. The line is schematic; Bacao uses the OSM village point, and Pomen and Nongyang are not plotted separately."
+          "zh": "1935 年 4 月 9 日中央红军穿过贵阳、龙里间狭窄通道后，经惠水、长顺西进，4 月 13 日分左右两路纵队：三军团、五军团为右路，任务是由白层附近渡江、进占贞丰与兴仁。右路先遣团三军团第十一团 4 月 15 日凌晨从镇宁江龙出发，急行军 180 里，16 日上午到达北盘江东岸坝草渡口，在布依族老人王凤昌带引下由花滩浅水区涉渡，抢占贞丰坡扪制高点，架起坝草至坡扪浮桥；随后一营沿江东岸直下白层渡口，17 日凌晨守军保商营让出渡口，中午架起白层浮桥。坝草至坡扪、白层两座浮桥与下游者坪至弄洋浮桥一起，保障中央红军主力渡过北盘江。路线为示意，长顺、江龙、坝草取 OSM 点位，坡扪、弄洋不单独立点。",
+          "en": "After passing through the narrow gap between Guiyang and Longli on 9 April 1935, the Central Red Army moved west through Huishui and Changshun and on 13 April split into two columns: the Third and Fifth Army Corps formed the right column, tasked with crossing near Baiceng and taking Zhenfeng and Xingren. The right column’s advance regiment, the 11th Regiment of the Third Army Corps, set out from Jianglong in Zhenning before dawn on 15 April, marched 180 li, and reached Bacao Ferry on the east bank of the Beipan on the morning of the 16th. Guided by the Bouyei elder Wang Fengchang, it forded at the shallows of Huatan, seized the height at Pomen in Zhenfeng, and built the Bacao–Pomen pontoon bridge; a battalion then moved downstream along the east bank to Baiceng, where the defending merchant-protection battalion gave up the ferry before dawn on the 17th and the Baiceng bridge was built that noon. Together with the Zheyang–Nongyang bridge downstream, the three pontoon bridges carried the main force across the Beipan. The line is schematic; Changshun, Jianglong and Bacao use OSM points, and Pomen and Nongyang are not plotted separately."
         },
         "extensions": {
           "precision": "schematic"
