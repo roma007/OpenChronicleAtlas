@@ -8498,8 +8498,8 @@
     },
     "date": "1935-06-12",
     "location": {
-      "lng": 109.15,
-      "lat": 29.55,
+      "lng": 109.273,
+      "lat": 29.676,
       "place": {
         "zh": "湖北咸丰忠堡",
         "en": "Zhongbao, Xianfeng, Hubei"
@@ -8542,7 +8542,10 @@
       "chenjiahe-1935-04",
       "banliyuan-1935-08"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "dawei-meeting-1935-06",
@@ -9959,8 +9962,8 @@
     },
     "date": "1935-08-03",
     "location": {
-      "lng": 109.49,
-      "lat": 29.99,
+      "lng": 109.408,
+      "lat": 29.66,
       "place": {
         "zh": "湖北宣恩板栗园",
         "en": "Banliyuan, Xuan’en, Hubei"
@@ -10003,7 +10006,10 @@
       "zhongbao-1935-06",
       "sangzhi-1935-11"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "shawo-meeting-1935-08",
