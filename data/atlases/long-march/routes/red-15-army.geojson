@@ -84,7 +84,7 @@
           ],
           [
             109.38,
-            36.0
+            36
           ]
         ]
       },
@@ -114,7 +114,7 @@
         "coordinates": [
           [
             109.38,
-            36.0
+            36
           ],
           [
             109.8,
@@ -156,11 +156,11 @@
           ],
           [
             110.5,
-            37.0
+            37
           ],
           [
             110.83,
-            37.0
+            37
           ]
         ]
       },
@@ -190,7 +190,7 @@
         "coordinates": [
           [
             110.83,
-            37.0
+            37
           ],
           [
             111.2,
@@ -262,7 +262,7 @@
           ],
           [
             110.83,
-            37.0
+            37
           ],
           [
             110.19,
@@ -299,11 +299,11 @@
             36.88
           ],
           [
-            109.0,
-            37.0
+            109,
+            37
           ],
           [
-            108.0,
+            108,
             37.5
           ],
           [
@@ -363,6 +363,48 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.3,
+            36.8
+          ],
+          [
+            105.91,
+            36.98
+          ],
+          [
+            105.4,
+            36.2
+          ],
+          [
+            105.05,
+            35.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-15-army",
+        "startDate": "1936-09-30",
+        "endDate": "1936-10-02",
+        "order": 11,
+        "segmentType": "advance",
+        "name": {
+          "zh": "豫旺堡—同心—会宁（红十五军团骑兵团奔袭会宁）",
+          "en": "Yuwangbu–Tongxin–Huining (15th Army Corps cavalry raid)"
+        },
+        "description": {
+          "zh": "1936 年 9 月 30 日，红一方面军第十五军团直属骑兵团由宁夏同心县出发奔袭会宁县城，10 月 2 日凌晨发起攻击，不到两小时全歼守敌，占领会宁县城，为三大主力会师打开接应阵地。红十五军团主力随后向会宁东南、打拉池方向前进，控制会宁至静宁沿线要点。路线为示意，待按行军日志细化。",
+          "en": "On 30 September 1936 the cavalry regiment directly under the First Front Army’s 15th Army Corps set out from Tongxin, Ningxia, to raid Huining town; it attacked before dawn on 2 October, destroyed the garrison in under two hours, and took the town, opening the staging ground for the three main forces’ link-up. The corps’ main force then moved southeast of Huining toward Dalachi, controlling the Huining–Jingning line. The route is schematic and awaits refinement from march logs."
         },
         "extensions": {
           "precision": "schematic"

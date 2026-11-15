@@ -12127,6 +12127,152 @@
     }
   },
   {
+    "id": "tongzhuangjinghui-1936-09",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "通庄静会战役",
+      "en": "Tong–Zhuang–Jing–Hui Campaign"
+    },
+    "aliases": [
+      {
+        "zh": "通渭庄浪静宁会宁战役",
+        "en": "Tongwei–Zhuanglang–Jingning–Huining Campaign"
+      },
+      {
+        "zh": "静会战役",
+        "en": "Jing–Hui Campaign"
+      }
+    ],
+    "date": "1936-09-28",
+    "endDate": "1936-10-05",
+    "location": {
+      "lng": 105.243,
+      "lat": 35.211,
+      "place": {
+        "zh": "甘肃通渭县城（战役终点代表点）",
+        "en": "Tongwei county town, Gansu (representative end point)"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红四方面军执行《通庄静会战役计划》分五个纵队北上，10 月 5 日占领通渭。",
+      "en": "The Fourth Front Army carried out the Tong–Zhuang–Jing–Hui plan in five columns and took Tongwei on 5 October."
+    },
+    "description": {
+      "zh": "1936 年 9 月 27 日洮州会议否决张国焘西进主张后，9 月 28 日红四方面军发布《通庄静会战役计划》，决定在西兰通道以北阻击胡宗南部，与红一方面军会师后进军宁夏。9 月 29 日总部下达北进命令，30 日起各部分五个纵队由岷州、漳县等地向通渭、庄浪、会宁、静宁地区前进，10 月 5 日占领通渭县城。此役是三大主力会师的直接前奏：红四方面军由此进至会宁一带，红一方面军则以红十五军团骑兵团于 10 月 2 日袭占会宁城接应。战役期间张国焘仍在 9 月 20 日前后下令部队折回西进，经中央连电说服与朱德、徐向前、陈昌浩等抵制，部队才重新北上，故各部队实际出发日期先后不一。本坐标为通渭县城代表点；五个纵队的逐路路线尚未分线建模。",
+      "en": "After the Taozhou meeting on 27 September 1936 rejected Zhang Guotao’s westward plan, the Fourth Front Army issued the Tong–Zhuang–Jing–Hui campaign plan on 28 September: block Hu Zongnan north of the Xi’an–Lanzhou road, then join the First Front Army and move on Ningxia. Headquarters ordered the northward advance on 29 September; from 30 September the army moved in five columns from Minzhou, Zhangxian, and elsewhere toward Tongwei, Zhuanglang, Huining, and Jingning, taking Tongwei county town on 5 October. The campaign was the immediate prelude to the three main forces’ link-up: the Fourth Front Army thereby reached the Huining area, while the First Front Army’s 15th Army Corps cavalry regiment seized Huining town on 2 October to receive it. Around 20 September Zhang Guotao had again ordered a turn back west; only after repeated telegrams from the Centre and resistance from Zhu De, Xu Xiangqian, Chen Changhao and others did the units resume the northward move, so starting dates varied. The coordinate is a representative point at Tongwei county town; the five columns’ separate routes are not yet modelled."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《回望红军三大主力胜利大会师》",
+        "author": "中共甘肃省委党史研究室 / 甘肃党史网",
+        "year": 2026,
+        "note": "用于核对通庄静会战役、10 月 2 日攻克会宁、10 月 7—9 日会师序列与文庙联欢大会",
+        "url": "http://gsds.gov.cn/dangshiyanjiu/difangdangshi/20261022/0953122373d54f4c4f2.htm"
+      },
+      {
+        "title": "《三大主力红军胜利会师，结束了具有伟大历史意义的长征》",
+        "author": "中华人民共和国国防部",
+        "year": 2016,
+        "note": "用于核对 9 月 30 日起五个纵队北进、10 月 2 日袭占会宁城",
+        "url": "http://www.mod.gov.cn/gfbw/gfjy_index/js_214151/16260741.html"
+      },
+      {
+        "title": "《三大主力大会师 担负使命再启程》",
+        "author": "人民日报 / 中国共产党新闻网",
+        "year": 2016,
+        "note": "用于核对 10 月 7 日第四军先头部队在青江驿与红十五军团七十三师会合",
+        "url": "http://dangshi.people.com.cn/n1/2016/1027/c85037-28813213.html"
+      }
+    ],
+    "relatedIds": [
+      "taozhou-meeting-1936-09",
+      "huining-attack-1936-10",
+      "qingjiangyi-huishi-1936-10",
+      "huining-1936-10"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "huining-attack-1936-10",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "攻克会宁城",
+      "en": "Capture of Huining Town"
+    },
+    "aliases": [
+      {
+        "zh": "会宁攻城战斗",
+        "en": "Huining Assault"
+      },
+      {
+        "zh": "红十五军团骑兵团奔袭会宁",
+        "en": "15th Army Corps Cavalry Raid on Huining"
+      }
+    ],
+    "date": "1936-10-02",
+    "location": {
+      "lng": 105.053,
+      "lat": 35.695,
+      "place": {
+        "zh": "甘肃会宁县城（今会师镇）",
+        "en": "Huining county town (present-day Huishi), Gansu"
+      }
+    },
+    "entityIds": [
+      "red-15-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红十五军团骑兵团奔袭会宁，两小时内全歼守敌，打开会师接应阵地。",
+      "en": "The 15th Army Corps cavalry regiment raided Huining and destroyed the garrison within two hours, opening the link-up staging ground."
+    },
+    "description": {
+      "zh": "1936 年 9 月 30 日，红一方面军第十五军团直属骑兵团（团长韦杰、政委夏云飞）由宁夏同心县出发奔袭会宁县城，10 月 2 日凌晨 5 时许到达城北，趁守敌国民党军两个连及地方警兵未备发起猛攻，不到两小时全歼守敌，占领会宁县城，缴获一批武器弹药。从受领任务到攻克县城历时两天、行程 150 余公里（另有 300 余里、32 小时说），仅数人轻伤。此后红十五军团继续向会宁东南前进，控制会宁至静宁沿线要点；红一军团第一师、第二师占领界石铺等地，控制西兰公路 50 余公里地段。会宁城的夺取为 10 月 9 日三大主力会师提供了接应阵地。本坐标为会宁县城代表点。",
+      "en": "On 30 September 1936 the cavalry regiment directly under the First Front Army’s 15th Army Corps (commander Wei Jie, commissar Xia Yunfei) set out from Tongxin in Ningxia to raid Huining town. At about 5 a.m. on 2 October it reached the north of the town and attacked while two KMT companies and local police were still unprepared; within two hours the garrison was destroyed and the town taken, with a large quantity of weapons and ammunition captured. The operation took two days and covered more than 150 km from receipt of orders (some accounts say over 300 li in 32 hours), with only a few lightly wounded. The 15th Army Corps then pushed southeast and controlled the Huining–Jingning line, while the 1st and 2nd Divisions of the 1st Army Corps occupied Jieshipu and other points, controlling over 50 km of the Xi’an–Lanzhou highway. The capture provided the staging ground for the three main forces’ link-up on 9 October. The coordinate is a representative point at Huining county town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《回望红军三大主力胜利大会师》",
+        "author": "中共甘肃省委党史研究室 / 甘肃党史网",
+        "year": 2026,
+        "note": "用于核对通庄静会战役、10 月 2 日攻克会宁、10 月 7—9 日会师序列与文庙联欢大会",
+        "url": "http://gsds.gov.cn/dangshiyanjiu/difangdangshi/20261022/0953122373d54f4c4f2.htm"
+      },
+      {
+        "title": "《会师前夜的烽烟与守望》",
+        "author": "中央档案馆 / 甘肃档案信息网",
+        "year": 2026,
+        "note": "用于核对 10 月 2 日攻占会宁城、10 月 10 日文庙联欢与《大会合通电》",
+        "url": "https://www.cngsda.net/hsgs/50114.jhtml"
+      },
+      {
+        "title": "《三大主力红军胜利会师，结束了具有伟大历史意义的长征》",
+        "author": "中华人民共和国国防部",
+        "year": 2016,
+        "note": "用于核对 9 月 30 日起五个纵队北进、10 月 2 日袭占会宁城",
+        "url": "http://www.mod.gov.cn/gfbw/gfjy_index/js_214151/16260741.html"
+      }
+    ],
+    "relatedIds": [
+      "tongzhuangjinghui-1936-09",
+      "qingjiangyi-huishi-1936-10",
+      "huining-1936-10"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "niangniangba-1936-10",
     "atlasId": "long-march",
     "name": {
@@ -12249,6 +12395,80 @@
     }
   },
   {
+    "id": "qingjiangyi-huishi-1936-10",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "青江驿、界石铺会师",
+      "en": "Link-up at Qingjiangyi and Jieshipu"
+    },
+    "aliases": [
+      {
+        "zh": "先头部队会师",
+        "en": "Advance Guard Link-up"
+      },
+      {
+        "zh": "界石铺会师",
+        "en": "Jieshipu Link-up"
+      }
+    ],
+    "date": "1936-10-07",
+    "endDate": "1936-10-08",
+    "location": {
+      "lng": 105.54,
+      "lat": 35.612,
+      "place": {
+        "zh": "甘肃会宁青江驿、静宁界石铺一带",
+        "en": "Qingjiangyi (Huining) and Jieshipu (Jingning), Gansu"
+      }
+    },
+    "entityIds": [
+      "red-4-army",
+      "central-red-army"
+    ],
+    "category": "会师",
+    "summary": {
+      "zh": "红四方面军第四军先头部队与红一方面军在青江驿、界石铺会合，揭开三军会师序幕。",
+      "en": "Advance units of the Fourth Front Army’s 4th Army met the First Front Army at Qingjiangyi and Jieshipu, opening the three-army link-up."
+    },
+    "description": {
+      "zh": "1936 年 10 月 7 日，红四方面军第四军先头部队两个团抵达会宁县城，与红一方面军第十五军团第七十三师会合。10 月 8 日，第四军第十师在会宁青江驿、静宁界石铺等地与红一军团第一师会师。这两次会合早于 10 月 9 日主力入城，被称作三大主力会师的序幕；两军指战员虽连日行军，仍相互握手拥抱。会师后红四方面军总部与第四军、第三十一军于 10 月 9 日进入会宁县城。本坐标为界石铺代表点，青江驿在其西约 20 公里。",
+      "en": "On 7 October 1936 two advance regiments of the Fourth Front Army’s 4th Army reached Huining county town and joined the First Front Army’s 15th Army Corps 73rd Division. On 8 October the 4th Army’s 10th Division met the 1st Army Corps’ 1st Division at Qingjiangyi in Huining and Jieshipu in Jingning. These meetings preceded the main forces’ entry on 9 October and are regarded as the opening of the three-army link-up; despite days of marching, the men embraced one another. The Fourth Front Army headquarters, the 4th Army and the 31st Army then entered Huining town on 9 October. The coordinate is a representative point at Jieshipu; Qingjiangyi lies about 20 km to its west."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三大主力大会师 担负使命再启程》",
+        "author": "人民日报 / 中国共产党新闻网",
+        "year": 2016,
+        "note": "用于核对 10 月 7 日第四军先头部队在青江驿与红十五军团七十三师会合",
+        "url": "http://dangshi.people.com.cn/n1/2016/1027/c85037-28813213.html"
+      },
+      {
+        "title": "《回望红军三大主力胜利大会师》",
+        "author": "中共甘肃省委党史研究室 / 甘肃党史网",
+        "year": 2026,
+        "note": "用于核对通庄静会战役、10 月 2 日攻克会宁、10 月 7—9 日会师序列与文庙联欢大会",
+        "url": "http://gsds.gov.cn/dangshiyanjiu/difangdangshi/20261022/0953122373d54f4c4f2.htm"
+      },
+      {
+        "title": "《会师前夜的烽烟与守望》",
+        "author": "中央档案馆 / 甘肃档案信息网",
+        "year": 2026,
+        "note": "用于核对 10 月 2 日攻占会宁城、10 月 10 日文庙联欢与《大会合通电》",
+        "url": "https://www.cngsda.net/hsgs/50114.jhtml"
+      }
+    ],
+    "relatedIds": [
+      "huining-attack-1936-10",
+      "tongzhuangjinghui-1936-09",
+      "huining-1936-10"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "huining-1936-10",
     "atlasId": "long-march",
     "name": {
@@ -12276,15 +12496,29 @@
     ],
     "category": "会师",
     "summary": {
-      "zh": "红一、红四方面军在会宁会师；红二方面军随后在将台堡与红一方面军会师。",
-      "en": "The First and Fourth Front Armies meet at Huining; the Second Front Army later meets the First at Jiangtaibao."
+      "zh": "红一、红四方面军在会宁会师，10 月 10 日举行庆祝联欢大会；红二方面军随后在将台堡与红一方面军会师。",
+      "en": "The First and Fourth Front Armies met at Huining and held a celebration on 10 October; the Second Front Army later met the First at Jiangtaibao."
     },
     "description": {
-      "zh": "1936 年 10 月 9 日，红一方面军与红四方面军在甘肃会宁会师。10 月 22 日，红二方面军与红一方面军在宁夏西吉将台堡会师，长征胜利结束。",
-      "en": "On October 9, 1936, the First and Fourth Front Armies met at Huining, Gansu. On October 22, the Second Front Army met the First at Jiangtaibao, Xiji, Ningxia, bringing the Long March to a victorious end."
+      "zh": "1936 年 10 月 9 日，朱德、张国焘、徐向前、陈昌浩率红军总部和第四军、第三十一军抵达甘肃会宁县城，与红一方面军会合，会宁会师实现。10 月 10 日黄昏，庆祝会师联欢大会在会宁县城文庙大成殿前举行，朱德宣读中共中央《为庆祝一、二、四方面军大会合通电》，通电宣告「我们即刻就要进入一个新阶段了，这就是抗日民族革命战争的阶段」。此前 10 月 7 日第四军先头部队已在会宁与红十五军团第七十三师会合，10 月 8 日第四军第十师在青江驿、界石铺与红一军团第一师会师。10 月 22 日，红二方面军与红一方面军在宁夏西吉将台堡会师，三大主力会师完成，长征胜利结束。本坐标为会宁县城代表点。",
+      "en": "On 9 October 1936 Zhu De, Zhang Guotao, Xu Xiangqian, and Chen Changhao led the Red Army headquarters, the 4th Army, and the 31st Army into Huining county town in Gansu and joined the First Front Army, completing the Huining link-up. At dusk on 10 October a celebration was held before the Dacheng Hall of the Confucian temple in Huining, where Zhu De read the Central Committee’s “Message of Congratulation on the Great Union of the First, Second, and Fourth Front Armies,” which declared that “we are about to enter a new stage — the stage of the national revolutionary war against Japan.” Earlier, on 7 October, advance units of the 4th Army had met the 15th Army Corps’ 73rd Division at Huining, and on 8 October the 4th Army’s 10th Division met the 1st Army Corps’ 1st Division at Qingjiangyi and Jieshipu. On 22 October the Second Front Army met the First at Jiangtaibao in Xiji, Ningxia, completing the union of the three main forces and ending the Long March. The coordinate is a representative point at Huining county town."
     },
     "images": [],
     "sources": [
+      {
+        "title": "《回望红军三大主力胜利大会师》",
+        "author": "中共甘肃省委党史研究室 / 甘肃党史网",
+        "year": 2026,
+        "note": "用于核对通庄静会战役、10 月 2 日攻克会宁、10 月 7—9 日会师序列与文庙联欢大会",
+        "url": "http://gsds.gov.cn/dangshiyanjiu/difangdangshi/20261022/0953122373d54f4c4f2.htm"
+      },
+      {
+        "title": "《会师前夜的烽烟与守望》",
+        "author": "中央档案馆 / 甘肃档案信息网",
+        "year": 2026,
+        "note": "用于核对 10 月 2 日攻占会宁城、10 月 10 日文庙联欢与《大会合通电》",
+        "url": "https://www.cngsda.net/hsgs/50114.jhtml"
+      },
       {
         "title": "《中国共产党历史》第一卷",
         "author": "中共中央党史研究室",
@@ -12304,7 +12538,15 @@
         "note": "用于核对「会宁会师」的会师时间、部队番号与地点"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "huining-attack-1936-10",
+      "qingjiangyi-huishi-1936-10",
+      "tongzhuangjinghui-1936-09",
+      "jiangtaibao-1936-10"
+    ],
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "weishui-1936-10",

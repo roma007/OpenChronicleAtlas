@@ -851,6 +851,48 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.243,
+            35.211
+          ],
+          [
+            105.35,
+            35.5
+          ],
+          [
+            105.54,
+            35.612
+          ],
+          [
+            105.05,
+            35.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-4-army",
+        "startDate": "1936-10-03",
+        "endDate": "1936-10-09",
+        "order": 6,
+        "segmentType": "advance",
+        "name": {
+          "zh": "通渭—青江驿—界石铺—会宁（红四方面军第四军北进）",
+          "en": "Tongwei–Qingjiangyi–Jieshipu–Huining (4th Army advance)"
+        },
+        "description": {
+          "zh": "红四方面军第四军由通渭北上，10 月 7 日先头两个团抵达会宁县城与红十五军团七十三师会合，10 月 8 日第十师在会宁青江驿、静宁界石铺与红一军团第一师会师，10 月 9 日随总部进入会宁县城。路线为示意，待按行军日志细化。",
+          "en": "The Fourth Front Army’s 4th Army moved north from Tongwei; on 7 October two advance regiments reached Huining town and joined the 15th Army Corps’ 73rd Division, on 8 October the 10th Division met the 1st Army Corps’ 1st Division at Qingjiangyi and Jieshipu, and on 9 October it entered Huining town with headquarters. The route is schematic and awaits refinement from march logs."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
