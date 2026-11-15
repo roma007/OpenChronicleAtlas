@@ -754,48 +754,36 @@
             26.65
           ],
           [
-            105.95,
-            26.25
+            106.65,
+            26.13
           ],
           [
-            104.47,
-            25.71
+            106.45,
+            26.03
           ],
           [
-            103.8,
-            25.5
+            106.08,
+            25.75
           ],
           [
-            102.83,
-            24.88
-          ],
-          [
-            102.469,
-            25.554
-          ],
-          [
-            102.449,
-            26.127
-          ],
-          [
-            102.381,
-            26.29
+            105.765,
+            25.381
           ]
         ]
       },
       "properties": {
         "entityId": "central-red-army",
         "startDate": "1935-03-22",
-        "endDate": "1935-05-03",
+        "endDate": "1935-04-18",
         "order": 19,
         "segmentType": "advance",
         "name": {
-          "zh": "太平渡—乌江—贵阳—禄劝—皎平渡",
-          "en": "Taipingdu–Wu River–Guiyang–Luquan–Jiaopingdu"
+          "zh": "太平渡—乌江—贵阳—惠水—长顺—紫云—北盘江",
+          "en": "Taipingdu–Wu River–Guiyang–Huishui–Changshun–Ziyun–Beipan River"
         },
         "description": {
-          "zh": "红军由太平渡南渡乌江、佯攻贵阳后西进云南，经禄劝、皎平渡镇进抵皎平渡口。",
-          "en": "The Red Army crossed the Wu River south of Taipingdu, feinted toward Guiyang, moved west into Yunnan, and reached Jiaopingdu via Luquan and Jiaopingdu town."
+          "zh": "红军由太平渡南渡乌江、佯攻贵阳，随后经惠水、长顺、紫云西进，4 月 16 日至 18 日由坝草、白层、者坪渡过北盘江进入云南。北盘江以西至皎平渡一段另见「北盘江—兴仁—兴义—富源—曲靖—嵩明—寻甸—柯渡—禄劝—皎平渡」路线。路线为示意，各路纵队分进路线未分线画出。",
+          "en": "The Red Army crossed the Wu River south of Taipingdu and feinted toward Guiyang, then moved west through Huishui, Changshun and Ziyun, crossing the Beipan River at Bacao, Baiceng and Zheping on 16–18 April into Yunnan. The leg west of the Beipan to Jiaopingdu is drawn separately as the “Beipan River–Xingren–Xingyi–Fuyuan–Qujing–Songming–Xundian–Kedu–Luquan–Jiaopingdu” route. The line is schematic; the separate columns’ tracks are not drawn individually."
         },
         "extensions": {
           "precision": "schematic"
@@ -890,22 +878,42 @@
           [
             102.95,
             26.28
+          ],
+          [
+            102.83,
+            26.72
+          ],
+          [
+            102.76,
+            27.06
+          ],
+          [
+            102.54,
+            27.38
+          ],
+          [
+            102.27,
+            27.89
+          ],
+          [
+            102.22,
+            27.99
           ]
         ]
       },
       "properties": {
         "entityId": "central-red-army",
         "startDate": "1935-05-04",
-        "endDate": "1935-05-06",
+        "endDate": "1935-05-21",
         "order": 22,
         "segmentType": "advance",
         "name": {
-          "zh": "树桔渡（会泽—拖布卡—树桔渡）",
-          "en": "Shuju Ferry (Huize–Tuobuka–Shuju)"
+          "zh": "会泽—拖布卡—树桔渡—华弹—宁南—普格—礼州（红九军团归建）",
+          "en": "Huize–Tuobuka–Shuju Ferry–Huatan–Ningnan–Puge–Lizhou (Ninth Army Corps rejoins the main force)"
         },
         "description": {
-          "zh": "红九军团由会泽经拖布卡进至树桔渡，打捞沉船、夺取盐船，全军团渡过金沙江。",
-          "en": "The Ninth Army Corps moved from Huize via Tuobuka to Shuju Ferry, raised a sunken boat, seized salt boats, and crossed the Jinsha River."
+          "zh": "红九军团由会泽经拖布卡进至树桔渡，打捞沉船、夺取盐船，5 月 6 日至 7 日全军团渡过金沙江。过江后沿金沙江北进，经冬瓜坪、塘房、红果，5 月 8 日至 15 日在洼乌（今宁南华弹）阻敌，掩护中央及主力红军渡江，随后经宁南、普格北上，5 月 21 日在西昌礼州与主力会合。路线为示意，沿江逐日行程未全部画出，华弹、宁南、普格、礼州为示意点。",
+          "en": "The Ninth Army Corps moved from Huize via Tuobuka to Shuju Ferry, raised a sunken boat and seized salt boats, and crossed the Jinsha River with the whole corps on 6–7 May. It then moved north along the river through Dongguaping, Tangfang and Hongguo, fought a blocking action at Wawu (present-day Huatan, Ningnan) from 8 to 15 May to cover the crossing of the Centre and the main force, went north via Ningnan and Puge, and rejoined the main force at Lizhou, Xichang, on 21 May. The line is schematic: the daily marches along the river are not fully drawn, and Huatan, Ningnan, Puge and Lizhou are representative points."
         },
         "extensions": {
           "precision": "schematic"
@@ -1118,46 +1126,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            102.23,
-            29.914
-          ],
-          [
-            102.76,
-            30.07
-          ],
-          [
-            102.93,
-            30.17
-          ],
-          [
-            102.81,
-            30.75
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "central-red-army",
-        "startDate": "1935-05-30",
-        "endDate": "1935-06-12",
-        "order": 27,
-        "segmentType": "advance",
-        "name": {
-          "zh": "泸定—夹金山"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。"
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             102.36,
             30.99
           ],
@@ -1205,7 +1173,7 @@
       },
       "properties": {
         "entityId": "central-red-army",
-        "startDate": "1935-06-13",
+        "startDate": "1935-06-19",
         "endDate": "1935-08-20",
         "order": 28,
         "segmentType": "advance",
@@ -1440,34 +1408,28 @@
             36
           ],
           [
-            107.64,
-            35.71
+            109.8,
+            36.4
           ],
           [
-            106.67,
-            35.54
-          ],
-          [
-            105.73,
-            35.52
-          ],
-          [
-            105.05,
-            35.7
+            110.19,
+            36.88
           ]
         ]
       },
       "properties": {
         "entityId": "central-red-army",
         "startDate": "1935-11-22",
-        "endDate": "1936-10-09",
+        "endDate": "1936-02-19",
         "order": 34,
         "segmentType": "advance",
         "name": {
-          "zh": "直罗镇—会宁"
+          "zh": "直罗镇—延川（东征准备）",
+          "en": "Zhiluozhen–Yanchuan (preparations for the eastern expedition)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "直罗镇战役后，红一方面军主力东移延川、延长一带休整，并准备东渡黄河。路线为示意。",
+          "en": "After the Zhiluozhen battle the main force of the First Front Army moved east to the Yanchuan–Yanchang area to rest and prepare to cross the Yellow River eastward. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -1662,6 +1624,14 @@
           [
             102.469,
             25.554
+          ],
+          [
+            102.449,
+            26.127
+          ],
+          [
+            102.381,
+            26.29
           ]
         ]
       },
@@ -1672,12 +1642,12 @@
         "order": 37,
         "segmentType": "advance",
         "name": {
-          "zh": "北盘江—兴仁—兴义—富源—曲靖—嵩明—寻甸—柯渡—禄劝",
-          "en": "Beipan River–Xingren–Xingyi–Fuyuan–Qujing–Songming–Xundian–Kedu–Luquan"
+          "zh": "北盘江—兴仁—兴义—富源—曲靖—嵩明—寻甸—柯渡—禄劝—皎平渡",
+          "en": "Beipan River–Xingren–Xingyi–Fuyuan–Qujing–Songming–Xundian–Kedu–Luquan–Jiaopingdu"
         },
         "description": {
-          "zh": "中央红军 4 月 16 日至 18 日由坝草、白层、者坪渡过北盘江，经兴仁、安龙、兴义进入云南，连下平彝（今富源）、马龙、寻甸、嵩明并威逼昆明，4 月 29 日在寻甸鲁口哨发布渡江令，4 月 30 日进驻柯渡丹桂村部署渡江，随后北上禄劝一带。路线为示意，各路纵队分进路线未分线画出。",
-          "en": "From 16 to 18 April 1935 the Central Red Army crossed the Beipan at Bacao, Baiceng, and Zheping, moved through Xingren, Anlong, and Xingyi into Yunnan, took Pingyi (present-day Fuyuan), Malong, Xundian, and Songming while threatening Kunming, issued the crossing order at Lukoushao on 29 April, set up at Dangui in Kedu on 30 April to arrange the crossing, and then moved north toward Luquan. The route is schematic; the separate columns’ tracks are not drawn individually."
+          "zh": "中央红军 4 月 16 日至 18 日由坝草、白层、者坪渡过北盘江，经兴仁、安龙、兴义进入云南，连下平彝（今富源）、马龙、寻甸、嵩明并威逼昆明，4 月 29 日在寻甸鲁口哨发布渡江令，4 月 30 日进驻柯渡丹桂村部署渡江，随后北上经禄劝、皎平渡镇进抵皎平渡口，5 月 3 日起由皎平渡渡过金沙江。路线为示意，各路纵队分进路线未分线画出。",
+          "en": "From 16 to 18 April 1935 the Central Red Army crossed the Beipan at Bacao, Baiceng, and Zheping, moved through Xingren, Anlong, and Xingyi into Yunnan, took Pingyi (present-day Fuyuan), Malong, Xundian, and Songming while threatening Kunming, issued the crossing order at Lukoushao on 29 April, set up at Dangui in Kedu on 30 April to arrange the crossing, then moved north via Luquan and Jiaopingdu town to the Jiaopingdu ferry and began crossing the Jinsha there on 3 May. The route is schematic; the separate columns’ tracks are not drawn individually."
         },
         "extensions": {
           "precision": "schematic"
@@ -1762,22 +1732,188 @@
           [
             102.715,
             30.69
+          ],
+          [
+            102.81,
+            30.75
           ]
         ]
       },
       "properties": {
         "entityId": "central-red-army",
         "startDate": "1935-05-30",
-        "endDate": "1935-06-11",
+        "endDate": "1935-06-12",
         "order": 39,
         "segmentType": "advance",
         "name": {
-          "zh": "泸定—化林坪—飞越岭—汉源—荥经—天全—芦山—宝兴—硗碛",
-          "en": "Luding–Hualinping–Feiyueling–Hanyuan–Yingjing–Tianquan–Lushan–Baoxing–Qiaoqi"
+          "zh": "泸定—化林坪—飞越岭—汉源—荥经—天全—芦山—宝兴—硗碛—夹金山",
+          "en": "Luding–Hualinping–Feiyueling–Hanyuan–Yingjing–Tianquan–Lushan–Baoxing–Qiaoqi–Jiajin Mountain"
         },
         "description": {
-          "zh": "中央红军 5 月 30 日由泸定东进化林坪，31 日夺取飞越岭，经汉源、荥经于 6 月 7 日占领天全、8 日突破芦山宝兴防线，11 日进抵夹金山下的硗碛。路线为示意，汉源一段走宜东、九襄方向，具体逐日行程未全部画出。",
-          "en": "From Luding the Central Red Army moved east to Hualinping on 30 May, took Feiyueling on 31 May, passed through Hanyuan and Yingjing, took Tianquan on 7 June, broke the Lushan–Baoxing line on 8 June, and reached Qiaoqi below Mount Jiajin on 11 June. The line is schematic: the Hanyuan leg runs by Yidong and Jiuxiang, and the daily marches are not fully drawn."
+          "zh": "中央红军 5 月 30 日由泸定东进化林坪，31 日夺取飞越岭，经汉源、荥经于 6 月 7 日占领天全、8 日突破芦山宝兴防线，11 日进抵夹金山下的硗碛，12 日先头部队由硗碛翻越夹金山，与红四方面军一部在达维会合。路线为示意，汉源一段走宜东、九襄方向，具体逐日行程未全部画出。",
+          "en": "From Luding the Central Red Army moved east to Hualinping on 30 May, took Feiyueling on 31 May, passed through Hanyuan and Yingjing, took Tianquan on 7 June, broke the Lushan–Baoxing line on 8 June, reached Qiaoqi below Mount Jiajin on 11 June, and on 12 June its advance guard crossed Mount Jiajin and joined a Fourth Front Army detachment at Dawei. The line is schematic: the Hanyuan leg runs by Yidong and Jiuxiang, and the daily marches are not fully drawn."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.81,
+            30.75
+          ],
+          [
+            102.634,
+            30.967
+          ],
+          [
+            102.36,
+            30.99
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-06-12",
+        "endDate": "1935-06-18",
+        "order": 40,
+        "segmentType": "advance",
+        "name": {
+          "zh": "夹金山—达维—懋功",
+          "en": "Jiajin Mountain–Dawei–Maogong"
+        },
+        "description": {
+          "zh": "中央红军先头部队 6 月 12 日翻越夹金山后进至达维，与红四方面军第九军第二十五师第七十四团会师；6 月 17 日中央机关到达达维，6 月 18 日主力进抵懋功（今小金）与红四方面军主力会师。路线为示意，达维至懋功一段沿山间大道，具体行程未逐日画出。",
+          "en": "After crossing Mount Jiajin on 12 June the Central Red Army’s advance guard reached Dawei and joined the 74th Regiment of the 25th Division, Ninth Army, Fourth Front Army; the central organs reached Dawei on 17 June, and on 18 June the main force entered Maogong (present-day Xiaojin) and met the main force of the Fourth Front Army. The line is schematic: the Dawei–Maogong leg follows the mountain road, and the daily marches are not drawn."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.19,
+            36.88
+          ],
+          [
+            110.5,
+            37
+          ],
+          [
+            110.83,
+            37
+          ],
+          [
+            111.2,
+            37.35
+          ],
+          [
+            111.7,
+            37.1
+          ],
+          [
+            110.83,
+            37
+          ],
+          [
+            110.19,
+            36.88
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1936-02-20",
+        "endDate": "1936-05-18",
+        "order": 41,
+        "segmentType": "advance",
+        "name": {
+          "zh": "延川—石楼—关上村—兑九峪—延川（东征）",
+          "en": "Yanchuan–Shilou–Guanshang–Duijiuyu–Yanchuan (eastern expedition)"
+        },
+        "description": {
+          "zh": "1936 年 2 月 20 日，红一方面军以中国人民红军抗日先锋军名义东渡黄河，进入山西石楼、隰县一带，在关上村、兑九峪等地作战，5 月 5 日回师河西。路线为示意，与红十五军团东征路线同走廊，往返走同一条线。",
+          "en": "On 20 February 1936 the First Front Army crossed the Yellow River eastward as the Chinese People’s Red Army Anti-Japanese Vanguard, entered the Shilou and Xixian area of Shanxi, fought at Guanshang and Duijiuyu, and returned west of the river on 5 May. The line is schematic, shares the corridor with the 15th Army Corps’ eastern expedition, and runs the same line out and back."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.19,
+            36.88
+          ],
+          [
+            109,
+            37
+          ],
+          [
+            108,
+            37.5
+          ],
+          [
+            107.4,
+            37.78
+          ],
+          [
+            107.31,
+            36.57
+          ],
+          [
+            106.3,
+            36.8
+          ],
+          [
+            105.91,
+            36.98
+          ],
+          [
+            105.65,
+            36.56
+          ],
+          [
+            105.73,
+            35.52
+          ],
+          [
+            105.54,
+            35.612
+          ],
+          [
+            105.05,
+            35.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1936-05-19",
+        "endDate": "1936-10-09",
+        "order": 42,
+        "segmentType": "advance",
+        "name": {
+          "zh": "延川—盐池—豫旺堡—同心—界石铺—青江驿—会宁（西征与南下接应）",
+          "en": "Yanchuan–Yanchi–Yuwangpu–Tongxin–Jieshipu–Qingjiangyi–Huining (western expedition and southward reception)"
+        },
+        "description": {
+          "zh": "1936 年 5 月 18 日中革军委决定以红一方面军主力组成西方野战军西征，5 月 19 日出动，经环县、曲子进占盐池、豫旺堡、同心城一带；9 月底至 10 月初南下接应红二、红四方面军，经界石铺、青江驿进至会宁，10 月 9 日实现会宁会师。路线为示意，与红十五军团西征路线同走廊。",
+          "en": "On 18 May 1936 the Revolutionary Military Council formed the Western Field Army from the main force of the First Front Army for a westward expedition; it set out on 19 May, moved through Huanxian and Quzi to take Yanchi, Yuwangpu and Tongxin, then turned south in late September and early October to receive the Second and Fourth Front Armies, reaching Huining via Jieshipu and Qingjiangyi, where the Huining link-up took place on 9 October. The line is schematic and shares the corridor with the 15th Army Corps’ western expedition."
         },
         "extensions": {
           "precision": "schematic"
