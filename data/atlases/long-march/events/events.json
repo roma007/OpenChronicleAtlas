@@ -7466,7 +7466,10 @@
       "dadu-1935-05",
       "moxi-meeting-1935-05",
       "kmt-luding-defense-1935-05",
-      "kmt-dadu-defense-1935-05"
+      "kmt-dadu-defense-1935-05",
+      "hualinping-1935-05",
+      "feiyueling-1935-05",
+      "luding-meeting-1935-05"
     ],
     "importance": 1,
     "extensions": {
@@ -7542,6 +7545,401 @@
     }
   },
   {
+    "id": "hualinping-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "化林坪战斗",
+      "en": "Battle of Hualinping"
+    },
+    "aliases": [
+      {
+        "zh": "盐水溪—化林坪之战",
+        "en": "Yanshuixi–Hualinping Fight"
+      },
+      {
+        "zh": "化林坪攻坚战",
+        "en": "Assault on Hualinping"
+      }
+    ],
+    "date": "1935-05-30",
+    "location": {
+      "lng": 102.283,
+      "lat": 29.732,
+      "place": {
+        "zh": "四川泸定兴隆镇化林坪（飞越岭西北麓）",
+        "en": "Hualinping, Xinglong, Luding, Sichuan (northwest foot of Feiyueling)"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红一师由龙八铺东进，与红六团合围，攻占飞越岭下的化林坪，川军第四旅残部退往飞越岭。",
+      "en": "The 1st Division pushed east from Longbabu and, joining the 6th Regiment, took Hualinping below Feiyueling; the remnants of the KMT 4th Brigade fell back to the pass."
+    },
+    "description": {
+      "zh": "1935 年 5 月 29 日夺桥前后，右纵队红一师占领大渡河左岸的龙八铺（今泸定兴隆镇），随即东进追击川军第二十四军第四旅残部。5 月 30 日红一师占领盐水溪，川军第四旅旅长袁国瑞率旅部与第十一团残部退向化林坪、飞越岭，令第十一团残部在飞越岭东麓的三交坪整顿，自己继续向汉源方向撤退；第十团则赶至化林坪构筑工事、密布地雷。化林坪在飞越岭西北麓，东南倚山、西北绝壁，俯盐水溪，是茶马古道上的军事重镇，红一师自盐水溪仰攻屡屡受阻。红六团冒雨从泸定急行军赶来会合，与红一师兵分两路形成合围，当日攻占化林坪，守军仓皇逃往飞越岭。此战红军伤亡数字各资料记载不一，本条目不作估算。本坐标为化林坪村代表点。",
+      "en": "Around the seizure of Luding Bridge on 29 May 1935 the right column’s 1st Division took Longbabu (present-day Xinglong, Luding) on the left bank of the Dadu and pushed east after the remnants of the KMT 24th Army’s 4th Brigade. On 30 May the 1st Division took Yanshuixi; brigade commander Yuan Guorui withdrew with his headquarters and the remains of the 11th Regiment toward Hualinping and Feiyueling, ordering the 11th Regiment’s remnants to regroup at Sanjiaoping east of the pass while he continued toward Hanyuan, and the 10th Regiment hurried to Hualinping to dig in and lay mines. Hualinping, at the northwest foot of Feiyueling, backed by mountains to the southeast and cliffs to the northwest above the Yanshuixi stream, was a military and trading town on the tea-horse road, and the 1st Division’s frontal attacks from Yanshuixi stalled repeatedly. The 6th Regiment force-marched through rain from Luding, joined the 1st Division, and the two attacked on separate axes to close a ring; Hualinping fell that day and the defenders fled to Feiyueling. Casualty figures differ across sources and are not estimated here. The coordinate is a representative point at Hualinping village."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《飞越岭战斗：打通中央红军与红四方面军会师的通道》",
+        "author": "中国军网-解放军报（罗璇）",
+        "year": 2025,
+        "note": "用于核对红一师占龙八铺、5 月 30 日占盐水溪与化林坪、31 日飞越岭战斗及黄霖率第六连迂回",
+        "url": "http://www.81.cn/yw_208727/16428983.html"
+      },
+      {
+        "title": "《雄关漫道“飞越岭”——寻访红军突破大渡河峡谷的最后一个天险》",
+        "author": "新华网",
+        "year": 2016,
+        "note": "用于核对化林坪位于飞越岭西北麓、飞越岭为突破大渡河峡谷的最后一道天险",
+        "url": "http://www.xinhuanet.com/politics/2016-08/30/c_1119477954.htm"
+      }
+    ],
+    "relatedIds": [
+      "luding-1935-05",
+      "feiyueling-1935-05",
+      "kmt-luding-defense-1935-05"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "feiyueling-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "飞越岭战斗",
+      "en": "Battle of Feiyueling"
+    },
+    "aliases": [
+      {
+        "zh": "飞越关战斗",
+        "en": "Battle of Feiyue Pass"
+      },
+      {
+        "zh": "大垭口战斗",
+        "en": "Battle of Dayakou"
+      }
+    ],
+    "date": "1935-05-31",
+    "location": {
+      "lng": 102.311,
+      "lat": 29.702,
+      "place": {
+        "zh": "四川泸定东南飞越岭垭口（飞越关）",
+        "en": "Feiyueling pass (Feiyue Pass), southeast of Luding, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红四团趁大雾从左翼攀援突袭，夺取飞越岭垭口，打通中央红军北上的最后一道天险。",
+      "en": "The 4th Regiment climbed the left flank under cover of fog and stormed the Feiyueling pass, opening the last natural barrier on the road north."
+    },
+    "description": {
+      "zh": "飞越岭又称大垭口，位于泸定县东南，岭上垭口名飞越关，南北两侧矗立海拔 3000 米以上的山峰，双峰对峙形成天然隘口，是内地通往康藏的咽喉，也是中央红军突破大渡河峡谷、北上与红四方面军会师的最后一道天险。1935 年 5 月 31 日，川军残部在通向山顶的羊肠小道上埋设地雷，凭险据守，红军进攻受阻，两军在飞越岭半坡僵持。当日晨，红二师师长陈光、师政委刘亚楼，红四团团长黄开湘（一作王开湘）、团政委杨成武到山脚勘察，决定利用山间多雾的特点，由第二营副营长黄霖率第六连及一个机枪排从左翼山峰迂回攀援。部队沿狭窄山道攀登，半山以上云雾弥漫，一阵劲风吹散雾气，露出险峻山峰，黄霖判定此处为敌人疏于戒备的侧翼，当即借云雾掩护突袭，夺取垭口，川军第四旅残部向汉源方向溃退。飞越岭一战之后，大渡河峡谷不再是红军的障碍。本坐标为飞越岭垭口。",
+      "en": "Feiyueling, also called Dayakou, lies southeast of Luding county town; its pass, Feiyue Pass, is flanked by peaks above 3,000 m and forms a natural gateway between the Sichuan basin and Kham, the last barrier the Central Red Army had to break to leave the Dadu gorge and march north to join the Fourth Front Army. On 31 May 1935 the KMT remnants mined the narrow trail to the summit and held the heights, stalling the Red Army attack, and the two sides locked halfway up the slope. That morning Chen Guang, commander of the 2nd Division, divisional commissar Liu Yalou, 4th Regiment commander Huang Kaixiang (some sources: Wang Kaixiang), and commissar Yang Chengwu reconnoitred at the foot of the mountain and decided to use the mountain fog: Huang Lin, deputy commander of the 2nd Battalion, was sent with the 6th Company and a machine-gun platoon to climb around the left flank. As the troops worked up the narrow track above the mid-slope, a gust of wind tore the cloud away and exposed the crags; Huang Lin judged the flank weakly held and attacked under the fog, took the pass, and the remnants of the KMT 4th Brigade fled toward Hanyuan. After Feiyueling the Dadu gorge no longer blocked the Red Army. The coordinate is the Feiyueling pass."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《飞越岭战斗：打通中央红军与红四方面军会师的通道》",
+        "author": "中国军网-解放军报（罗璇）",
+        "year": 2025,
+        "note": "用于核对红一师占龙八铺、5 月 30 日占盐水溪与化林坪、31 日飞越岭战斗及黄霖率第六连迂回",
+        "url": "http://www.81.cn/yw_208727/16428983.html"
+      },
+      {
+        "title": "《雄关漫道“飞越岭”——寻访红军突破大渡河峡谷的最后一个天险》",
+        "author": "新华网",
+        "year": 2016,
+        "note": "用于核对化林坪位于飞越岭西北麓、飞越岭为突破大渡河峡谷的最后一道天险",
+        "url": "http://www.xinhuanet.com/politics/2016-08/30/c_1119477954.htm"
+      }
+    ],
+    "relatedIds": [
+      "hualinping-1935-05",
+      "luding-1935-05",
+      "tianquan-1935-06",
+      "luding-meeting-1935-05"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "luding-meeting-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "泸定会议",
+      "en": "Luding Meeting"
+    },
+    "aliases": [
+      {
+        "zh": "泸定桥会议",
+        "en": "Luding Bridge Meeting"
+      },
+      {
+        "zh": "泸定政治局常委会议",
+        "en": "Luding Standing Committee Meeting"
+      }
+    ],
+    "date": "1935-05-31",
+    "location": {
+      "lng": 102.231,
+      "lat": 29.914,
+      "place": {
+        "zh": "四川泸定县城",
+        "en": "Luding county town, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "中共中央在泸定县城召开政治局常委会议，决定北上雪山草地一线，并派陈云赴上海恢复白区党组织。",
+      "en": "The Politburo Standing Committee met at Luding and decided to march north through the snow mountains and grasslands and to send Chen Yun to Shanghai to rebuild the underground party."
+    },
+    "description": {
+      "zh": "1935 年 5 月 31 日，陈云随军委纵队渡过大渡河到达泸定。当晚，中共中央在泸定县城召开政治局常委会议，讨论红军渡过大渡河以后的形势与任务。据陈云回忆，会议主要决定了两件事：一是红军向北走雪山草地一线，避开人烟稠密地区；二是派陈云去上海恢复白区党的组织，并向共产国际汇报红军长征和遵义会议的情况。会议参加者各资料记载略有出入，一般记张闻天、周恩来、毛泽东、朱德、陈云等出席。此前 5 月 29 日磨西会议已就「派陈云出川」作了酝酿，泸定会议将其正式定下。会后陈云化装成商人，经重庆转赴上海，8 月受命赴莫斯科。本坐标为泸定县城代表点。",
+      "en": "On 31 May 1935 Chen Yun crossed the Dadu with the Military Commission column and reached Luding. That evening the Central Committee held a Politburo Standing Committee meeting in Luding county town to discuss the situation and tasks after the Dadu crossing. According to Chen Yun’s recollection, the meeting decided two main things: first, that the Red Army would go north through the snow-mountain and grassland belt, avoiding densely populated areas; second, that Chen Yun would be sent to Shanghai to restore the underground party organization and report on the Long March and the Zunyi conference to the Comintern. Accounts of who attended differ slightly; Zhang Wentian, Zhou Enlai, Mao Zedong, Zhu De, and Chen Yun are usually listed. The question of sending Chen Yun out had already been raised at the Moxi meeting on 29 May, and the Luding meeting settled it formally. Chen Yun then travelled disguised as a merchant via Chongqing to Shanghai and in August was ordered on to Moscow. The coordinate is a representative point at Luding county town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《遵义会议后陈云经上海前往苏联，承担了一项特殊使命》",
+        "author": "上海党史网",
+        "year": 2023,
+        "note": "用于核对 5 月 31 日中央在泸定县城开会、陈云回忆会议决定的两件事",
+        "url": "https://www.ccphistory.org.cn/shds/dsxx/content/1c815a61-c499-471e-b8fb-52a5cefe0b47.html"
+      },
+      {
+        "title": "《谁是向世界介绍红军长征第一人》",
+        "author": "中共中央党史和文献研究院",
+        "year": 2016,
+        "note": "用于核对 5 月 31 日陈云随军委纵队抵泸定、当晚召开中央政治局常委会议",
+        "url": "https://www.dswxyjy.org.cn/n1/2016/0929/c222139-28749929.html"
+      }
+    ],
+    "relatedIds": [
+      "moxi-meeting-1935-05",
+      "luding-1935-05",
+      "feiyueling-1935-05",
+      "lianghekou-meeting-1935-06"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "tianquan-1935-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "占领天全",
+      "en": "Capture of Tianquan"
+    },
+    "aliases": [
+      {
+        "zh": "天全战斗",
+        "en": "Fighting at Tianquan"
+      },
+      {
+        "zh": "突破天全河防线",
+        "en": "Breaking the Tianquan River Line"
+      }
+    ],
+    "date": "1935-06-07",
+    "location": {
+      "lng": 102.761,
+      "lat": 30.064,
+      "place": {
+        "zh": "四川天全县城",
+        "en": "Tianquan county town, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "中央红军由泸定北上，突破川军阻击，占领天全，打开通往宝兴、夹金山的道路。",
+      "en": "Moving north from Luding, the Central Red Army broke through Sichuan army blocking forces and took Tianquan, opening the road to Baoxing and Mount Jiajin."
+    },
+    "description": {
+      "zh": "1935 年 6 月 2 日中央红军全部由泸定桥渡过天险大渡河后继续北上，经化林坪、飞越岭进入汉源、荥经一带。6 月 7 日，红军占领天全，突破川军杨森部等部的拦阻（有综述记「突破杨森部六个旅的阻击」，各资料对参战番号与兵力记载不一，本条目只记「川军阻击」）。天全是由川西平原西缘进入宝兴、翻越夹金山的必经之地，红军占领天全后继续向芦山、宝兴推进。另有个别资料把占领天全的时间记在 6 月 8 日前后，本条目取 6 月 7 日。本坐标为天全县城代表点。",
+      "en": "After the whole Central Red Army crossed the Dadu by Luding Bridge on 2 June 1935 it continued north through Hualinping and Feiyueling into the Hanyuan and Yingjing area. On 7 June the Red Army took Tianquan, breaking through blocking forces of Yang Sen’s Sichuan troops (one survey speaks of “six brigades of Yang Sen’s force,” but sources differ on the units and strengths involved, so this entry says only “Sichuan army blocking forces”). Tianquan was the necessary gateway from the western edge of the Chengdu plain into Baoxing and on to Mount Jiajin, and after taking it the Red Army pushed on toward Lushan and Baoxing. A few sources place the capture of Tianquan around 8 June; this entry uses 7 June. The coordinate is a representative point at Tianquan county town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《越过艰险天地宽——1935 年中央红军征服川西雪山草地的壮举》",
+        "author": "中国档案报（马杰、代虹）",
+        "year": 2026,
+        "note": "用于核对 6 月 8 日中央关于“以迅雷之势突破芦山、宝兴线”的指示与 6 月 11 日进抵大硗碛",
+        "url": "https://m.krzzjn.com/show-3162-163278.html"
+      },
+      {
+        "title": "《“图步”长征路，纪念长征胜利 85 周年》",
+        "author": "共产党员网",
+        "year": 2021,
+        "note": "用于核对中央红军抵达宝兴、翻越夹金山与 6 月 18 日全部翻越完毕",
+        "url": "https://www.12371.cn/2021/10/21/ARTI1634810104798403.shtml"
+      }
+    ],
+    "relatedIds": [
+      "feiyueling-1935-05",
+      "lushan-baoxing-1935-06",
+      "qiaoqi-1935-06",
+      "jiajinshan-1935-06"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "lushan-baoxing-1935-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "突破芦山、宝兴防线",
+      "en": "Breaking the Lushan–Baoxing Line"
+    },
+    "aliases": [
+      {
+        "zh": "芦山宝兴战役",
+        "en": "Lushan–Baoxing Operation"
+      },
+      {
+        "zh": "宝兴战斗",
+        "en": "Fighting at Baoxing"
+      }
+    ],
+    "date": "1935-06-08",
+    "location": {
+      "lng": 102.932,
+      "lat": 30.147,
+      "place": {
+        "zh": "四川芦山（防线横亘芦山—宝兴）",
+        "en": "Lushan, Sichuan (the line ran from Lushan to Baoxing)"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "中央红军一举突破川军芦山、宝兴防线，进抵宝兴以北的硗碛地区，直逼夹金山。",
+      "en": "The Central Red Army broke the Sichuan army’s Lushan–Baoxing line in one stroke and reached Qiaoqi north of Baoxing, at the foot of Mount Jiajin."
+    },
+    "description": {
+      "zh": "1935 年 6 月 8 日，为迅速完成与红四方面军会合的战略任务，中共中央、中革军委发出指示：「我军基本任务，是用一切努力，不顾一切困难，取得与四方面军直接会合」「我军必须以迅雷之势突破芦山、宝兴线之守敌，奇取懋功，控制小金川流域于我手中，以为前进之枢纽」。同日，红军一举突破川军芦山、宝兴防线，随后进抵宝兴以北的硗碛（大硗碛）地区，来到夹金山脚下。芦山、宝兴一线是川军阻拦红军西进川西北的最后一道防线，突破之后红军面前只剩下雪山草地。本坐标为芦山县城代表点。",
+      "en": "On 8 June 1935, to accomplish quickly the strategic task of joining the Fourth Front Army, the Central Committee and the Military Commission issued a directive: “our basic task is, with every effort and regardless of all difficulties, to achieve direct junction with the Fourth Front Army” and “we must break the enemy holding the Lushan–Baoxing line with the speed of thunder, seize Maogong by surprise, and hold the Xiaojin River valley as the pivot for our advance.” That same day the Red Army broke the Sichuan army’s Lushan–Baoxing line in one stroke and moved on to the Qiaoqi (Daqiaoqi) area north of Baoxing, at the foot of Mount Jiajin. The Lushan–Baoxing line was the last Sichuan army barrier against the Red Army’s move into northwestern Sichuan; beyond it lay only the snow mountains and grasslands. The coordinate is a representative point at Lushan county town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《越过艰险天地宽——1935 年中央红军征服川西雪山草地的壮举》",
+        "author": "中国档案报（马杰、代虹）",
+        "year": 2026,
+        "note": "用于核对 6 月 8 日中央关于“以迅雷之势突破芦山、宝兴线”的指示与 6 月 11 日进抵大硗碛",
+        "url": "https://m.krzzjn.com/show-3162-163278.html"
+      },
+      {
+        "title": "《“图步”长征路，纪念长征胜利 85 周年》",
+        "author": "共产党员网",
+        "year": 2021,
+        "note": "用于核对中央红军抵达宝兴、翻越夹金山与 6 月 18 日全部翻越完毕",
+        "url": "https://www.12371.cn/2021/10/21/ARTI1634810104798403.shtml"
+      }
+    ],
+    "relatedIds": [
+      "tianquan-1935-06",
+      "qiaoqi-1935-06",
+      "jiajinshan-1935-06",
+      "maogong-1935-06"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "qiaoqi-1935-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "大硗碛休整与翻山动员",
+      "en": "Rest and Mountain-Crossing Preparations at Qiaoqi"
+    },
+    "aliases": [
+      {
+        "zh": "硗碛藏族乡",
+        "en": "Qiaoqi Tibetan Township"
+      },
+      {
+        "zh": "跷碛",
+        "en": "Qiaoqi"
+      }
+    ],
+    "date": "1935-06-11",
+    "endDate": "1935-06-12",
+    "location": {
+      "lng": 102.715,
+      "lat": 30.69,
+      "place": {
+        "zh": "四川宝兴硗碛藏族乡（大硗碛）",
+        "en": "Qiaoqi Tibetan township, Baoxing, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红军进抵夹金山下的硗碛，宣布民族与群众纪律，召开翻山动员大会，备竹杖与干辣椒御寒。",
+      "en": "At Qiaoqi below Mount Jiajin the Red Army announced discipline, held a mobilization meeting, and prepared staffs and dried chillies against the cold."
+    },
+    "description": {
+      "zh": "硗碛（大硗碛）位于宝兴县北部、夹金山以南，是藏、汉杂居的山间村寨。1935 年 6 月 11 日中午，红军进寨，当地汉藏百姓在门前摆好果品、燃放鞭炮、敲锣打鼓迎接。进寨后红军当场宣布纪律：不进老百姓的住房，保护寺院，不随便吃群众的东西，不拿走「夷家」一点财物，并宣传民族平等主张。经过简单休整，中央红军在硗碛附近召开翻越雪山的动员大会，要求战士砍竹竿、粗树枝做拐杖，把从天全、芦山一带买来的干辣椒发给每人御寒，并把仅有的衣物尽量补给体弱者。6 月 12 日先头部队由此出发翻越夹金山，随后在达维与红四方面军一部会师。本坐标为硗碛藏族乡代表点。",
+      "en": "Qiaoqi (Daqiaoqi), a mountain village of mixed Tibetan and Han households north of Baoxing and south of Mount Jiajin, received the Red Army at midday on 11 June 1935: villagers set out fruit before their doors and welcomed the troops with firecrackers and gongs. On entering, the Red Army announced its rules on the spot — no entering people’s houses, protection of monasteries, no taking of villagers’ food, no seizure of the “Yi families’” property — and publicized its policy of ethnic equality. After a short rest the Central Red Army held a mobilization meeting near Qiaoqi for the crossing of the snow mountain, telling soldiers to cut bamboo and branches for staffs, distributing dried chillies bought around Tianquan and Lushan for warmth, and giving what clothing there was to the weakest. On 12 June the advance guard set out over Mount Jiajin and subsequently joined a detachment of the Fourth Front Army at Dawei. The coordinate is a representative point at Qiaoqi township."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《越过艰险天地宽——1935 年中央红军征服川西雪山草地的壮举》",
+        "author": "中国档案报（马杰、代虹）",
+        "year": 2026,
+        "note": "用于核对 6 月 8 日中央关于“以迅雷之势突破芦山、宝兴线”的指示与 6 月 11 日进抵大硗碛",
+        "url": "https://m.krzzjn.com/show-3162-163278.html"
+      },
+      {
+        "title": "《“图步”长征路，纪念长征胜利 85 周年》",
+        "author": "共产党员网",
+        "year": 2021,
+        "note": "用于核对中央红军抵达宝兴、翻越夹金山与 6 月 18 日全部翻越完毕",
+        "url": "https://www.12371.cn/2021/10/21/ARTI1634810104798403.shtml"
+      }
+    ],
+    "relatedIds": [
+      "lushan-baoxing-1935-06",
+      "jiajinshan-1935-06",
+      "dawei-meeting-1935-06"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "jiajinshan-1935-06",
     "atlasId": "long-march",
     "name": {
@@ -7594,7 +7992,9 @@
       "mengbishan-1935-06",
       "changbanshan-1935-07",
       "changdeshan-1935-07",
-      "dagushan-1935-07"
+      "dagushan-1935-07",
+      "qiaoqi-1935-06",
+      "lushan-baoxing-1935-06"
     ]
   },
   {

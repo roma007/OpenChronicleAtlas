@@ -1721,6 +1721,68 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.231,
+            29.914
+          ],
+          [
+            102.283,
+            29.732
+          ],
+          [
+            102.311,
+            29.702
+          ],
+          [
+            102.445,
+            29.654
+          ],
+          [
+            102.845,
+            29.796
+          ],
+          [
+            102.761,
+            30.064
+          ],
+          [
+            102.932,
+            30.147
+          ],
+          [
+            102.823,
+            30.255
+          ],
+          [
+            102.715,
+            30.69
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-05-30",
+        "endDate": "1935-06-11",
+        "order": 39,
+        "segmentType": "advance",
+        "name": {
+          "zh": "泸定—化林坪—飞越岭—汉源—荥经—天全—芦山—宝兴—硗碛",
+          "en": "Luding–Hualinping–Feiyueling–Hanyuan–Yingjing–Tianquan–Lushan–Baoxing–Qiaoqi"
+        },
+        "description": {
+          "zh": "中央红军 5 月 30 日由泸定东进化林坪，31 日夺取飞越岭，经汉源、荥经于 6 月 7 日占领天全、8 日突破芦山宝兴防线，11 日进抵夹金山下的硗碛。路线为示意，汉源一段走宜东、九襄方向，具体逐日行程未全部画出。",
+          "en": "From Luding the Central Red Army moved east to Hualinping on 30 May, took Feiyueling on 31 May, passed through Hanyuan and Yingjing, took Tianquan on 7 June, broke the Lushan–Baoxing line on 8 June, and reached Qiaoqi below Mount Jiajin on 11 June. The line is schematic: the Hanyuan leg runs by Yidong and Jiuxiang, and the daily marches are not fully drawn."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
