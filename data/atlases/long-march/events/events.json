@@ -5518,6 +5518,79 @@
     "importance": 2
   },
   {
+    "id": "lujuan-occupy-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "攻占禄劝",
+      "en": "Capture of Luquan"
+    },
+    "aliases": [
+      {
+        "zh": "智取禄劝",
+        "en": "Taking Luquan by Ruse"
+      },
+      {
+        "zh": "巧取禄劝县城",
+        "en": "Bloodless Capture of Luquan"
+      }
+    ],
+    "date": "1935-05-01",
+    "location": {
+      "lng": 102.469,
+      "lat": 25.554,
+      "place": {
+        "zh": "云南禄劝县城",
+        "en": "Luquan county town, Yunnan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "红一军团先头部队化装成国民党「中央军」进入禄劝县城，未费一枪一弹，释放被关押群众 200 余人。",
+      "en": "The advance guard of the 1st Army Corps entered Luquan disguised as KMT “Central Army” troops and took the town without firing a shot, freeing more than 200 prisoners."
+    },
+    "description": {
+      "zh": "1935 年 4 月 29 日中革军委发布速渡金沙江指示后，红一军团奉命为左路抢占元谋龙街渡。先头红二师第四团抽出三个连，利用此前缴获的国民党军服和能配套的武器化装成国民党「中央军」，以「连环计」向禄劝、武定、元谋疾进。5 月 1 日部队到达禄劝城下，民团见其服装整齐、扛着清一色捷克式步枪，认定是「中央军」到来，引部队入城；县长和军警官绅列队欢迎，交出国民党云南省政府交办的粮款，并置办「接风宴」。红军进城后释放被关押的无辜群众 200 余人，开仓分粮。禄劝县长随后又通知武定县长准备迎接，红军借此继续「演戏」西进。聂荣臻回忆：「前进时二师四团这次用了三个连队，全部化装成国民党的『中央军』，像演戏似的，用的是连环计，不费一粒子弹，一连赚开了禄劝、武定、元谋三座县城。」也有记述把三城同系于一日之内，本专题按云南日报《红军长征过云南大事记》分记 5 月 1 日禄劝、5 月 2 日武定、5 月 2 日至 3 日元谋，并在各事件中注明异说。本坐标为禄劝县城代表点。",
+      "en": "After the Military Commission issued the order to cross the Jinsha on 29 April 1935, the 1st Army Corps was assigned to the left column to seize Longjie Ferry in Yuanmou. The advance 4th Regiment of the 2nd Division picked three companies, dressed them in captured KMT uniforms with matching weapons, and sent them ahead disguised as KMT “Central Army” troops on a chain ruse toward Luquan, Wuding, and Yuanmou. On 1 May the troops reached Luquan; the militia, seeing smart uniforms and Czech rifles, assumed the “Central Army” had arrived and led them in. The magistrate and local officials lined up to welcome them, handed over the grain and cash funds assigned by the Yunnan provincial government, and held a banquet. Once inside, the Red Army freed more than 200 imprisoned civilians and opened the granaries. The Luquan magistrate then notified his Wuding counterpart to prepare a welcome, letting the Red Army continue the “performance” westward. Nie Rongzhen recalled: “the 4th Regiment of the 2nd Division used three companies, all disguised as KMT ‘Central Army,’ like actors, using a chain ruse; without spending a single bullet it talked open the three county towns of Luquan, Wuding, and Yuanmou.” Some accounts put all three towns in a single day; this atlas follows the Yunnan Daily chronology — Luquan on 1 May, Wuding on 2 May, Yuanmou on 2–3 May — and notes the variant in each entry. The coordinate is a representative point at Luquan county town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红军巧渡金沙江到底“巧”在哪》",
+        "author": "新华社（贺斌、李兵峰、马艺）",
+        "year": 2016,
+        "note": "用于核对红四团三个连化装成国民党中央军、禄劝县长交出粮款并设接风宴、一日之内巧取三城",
+        "url": "http://www.xinhuanet.com/politics/2016-08/21/c_1119426923.htm"
+      },
+      {
+        "title": "《红军长征过云南大事记》",
+        "author": "云南日报",
+        "year": 2016,
+        "note": "用于核对 5 月 1 日攻克禄劝释放 200 余人、5 月 2 日攻占武定县长周自得被击毙与解救 150 余人、5 月 2 日一部占领元谋县城",
+        "url": "https://www.yndaily.com/html/2016/yaowenyunan_1120/104814.html"
+      },
+      {
+        "title": "《红军长征巧渡金沙江，“巧”在哪里？》",
+        "author": "共产党员网",
+        "year": 2023,
+        "note": "用于核对聂荣臻回忆“不费一粒子弹，一连赚开了禄劝、武定、元谋三座县城”",
+        "url": "https://www.12371.cn/2023/08/20/ARTI1692495372136387.shtml"
+      }
+    ],
+    "relatedIds": [
+      "kunming-feint-1935-04",
+      "lukoushao-1935-04",
+      "wuding-occupy-1935-05",
+      "yuanmou-occupy-1935-05"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "huize-1935-05",
     "atlasId": "long-march",
     "name": {
@@ -5586,6 +5659,152 @@
       "jinsha-campaign-1935-05"
     ],
     "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "wuding-occupy-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "攻占武定",
+      "en": "Capture of Wuding"
+    },
+    "aliases": [
+      {
+        "zh": "智取武定",
+        "en": "Taking Wuding by Ruse"
+      },
+      {
+        "zh": "武定攻城",
+        "en": "Assault on Wuding"
+      }
+    ],
+    "date": "1935-05-02",
+    "location": {
+      "lng": 102.403,
+      "lat": 25.533,
+      "place": {
+        "zh": "云南武定县城",
+        "en": "Wuding county town, Yunnan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红一军团进占武定县城，县长周自得被击毙，解救被关押群众 150 余人。",
+      "en": "The 1st Army Corps took Wuding; magistrate Zhou Zide was killed and more than 150 prisoners freed."
+    },
+    "description": {
+      "zh": "1935 年 5 月 2 日，红一军团先头部队由禄劝进抵武定。据云南日报《红军长征过云南大事记》，红军攻占武定县城，县长周自得被击毙，解救出被关押的无辜百姓 150 余人，打开县政府粮仓、没收地霸豪绅钱财分给穷人。另有回忆与综述记三城均系化装智取、未费一枪一弹（见禄劝事件），与「攻城、县长被击毙」的记述并存：可能的情形是先以化装取得城门、入城后守方反抗而被解除武装，但现有材料不足以判定细节，故两说并列而不强行统一。武定是红一军团由禄劝通往元谋、龙街渡的必经之地，县城陷落后红军继续西进，5 月 2 日至 3 日占领元谋。本坐标为武定县城代表点。",
+      "en": "On 2 May 1935 the advance guard of the 1st Army Corps moved from Luquan to Wuding. According to the Yunnan Daily chronology, the Red Army took Wuding county town, magistrate Zhou Zide was killed, more than 150 imprisoned civilians were freed, the county granary was opened, and the property of local tyrants was confiscated for the poor. Other memoirs and surveys hold that all three towns were taken by disguise without a shot (see the Luquan entry), which coexists with the account of an assault in which the magistrate was killed: the likely sequence is that the disguise gained the gate and the garrison resisted inside before being disarmed, but the available material does not settle the details, so both versions are given rather than forced into one. Wuding was the necessary step from Luquan toward Yuanmou and Longjie Ferry; after the town fell the Red Army pushed west and occupied Yuanmou on 2–3 May. The coordinate is a representative point at Wuding county town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红军长征过云南大事记》",
+        "author": "云南日报",
+        "year": 2016,
+        "note": "用于核对 5 月 1 日攻克禄劝释放 200 余人、5 月 2 日攻占武定县长周自得被击毙与解救 150 余人、5 月 2 日一部占领元谋县城",
+        "url": "https://www.yndaily.com/html/2016/yaowenyunan_1120/104814.html"
+      },
+      {
+        "title": "《红军巧渡金沙江到底“巧”在哪》",
+        "author": "新华社（贺斌、李兵峰、马艺）",
+        "year": 2016,
+        "note": "用于核对红四团三个连化装成国民党中央军、禄劝县长交出粮款并设接风宴、一日之内巧取三城",
+        "url": "http://www.xinhuanet.com/politics/2016-08/21/c_1119426923.htm"
+      },
+      {
+        "title": "《第十章 巧渡金沙江》",
+        "author": "人民网·党史",
+        "year": 2016,
+        "note": "用于核对红二师第四团以三个连化装、一日之内智取禄劝、武定、元谋",
+        "url": "http://dangshi.people.com.cn/n1/2016/0814/c406330-28634787.html"
+      }
+    ],
+    "relatedIds": [
+      "lujuan-occupy-1935-05",
+      "yuanmou-occupy-1935-05",
+      "ferry-longjie-1935-05"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "yuanmou-occupy-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "占领元谋",
+      "en": "Occupation of Yuanmou"
+    },
+    "aliases": [
+      {
+        "zh": "智取元谋",
+        "en": "Taking Yuanmou by Ruse"
+      },
+      {
+        "zh": "红一军团进占元谋县城",
+        "en": "1st Army Corps Enters Yuanmou"
+      }
+    ],
+    "date": "1935-05-02",
+    "endDate": "1935-05-03",
+    "location": {
+      "lng": 101.873,
+      "lat": 25.708,
+      "place": {
+        "zh": "云南元谋县城",
+        "en": "Yuanmou county town, Yunnan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "红一军团占领元谋县城，随即向 30 公里外的龙街渡急进，开始佯渡牵敌。",
+      "en": "The 1st Army Corps occupied Yuanmou and pushed on to Longjie Ferry, 30 km away, to mount the decoy crossing."
+    },
+    "description": {
+      "zh": "1935 年 5 月 2 日，红一军团一部占领元谋县城，另一部向龙街渡急进；另有资料记 5 月 3 日攻入元谋县城，本事件取 5 月 2 日至 3 日的区间。元谋是红一军团左路的终点县城，由此向西北 30 公里即达金沙江南岸的龙街渡。5 月 3 日起红军在龙街渡架设浮桥，因江宽水急、敌机低空轰炸，架桥两日未成；红军留下少量部队和工兵继续架桥以迷惑敌人，主力则沿江而下转赴皎平渡，5 月 7 日至 8 日渡江完毕。龙云、薛岳果然判断红军将由龙街渡江，把注意力吸向元谋方向，掩护了中央纵队在皎平渡的渡江。本坐标为元谋县城代表点。",
+      "en": "On 2 May 1935 part of the 1st Army Corps occupied Yuanmou county town while another part hurried to Longjie Ferry; some sources give 3 May for the entry, so this event uses the 2–3 May range. Yuanmou was the westernmost county town on the corps’ left-column route, 30 km short of Longjie Ferry on the south bank of the Jinsha. From 3 May the Red Army tried to build a pontoon at Longjie; the river was wide and fast and enemy aircraft bombed low, so two days of work failed. Leaving a small force and engineers to keep building as a decoy, the main body moved downstream to Jiaoping Ferry and crossed on 7–8 May. Long Yun and Xue Yue duly concluded that the Red Army would cross at Longjie and fixed their attention on Yuanmou, covering the central column’s crossing at Jiaoping. The coordinate is a representative point at Yuanmou county town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红军长征过云南大事记》",
+        "author": "云南日报",
+        "year": 2016,
+        "note": "用于核对 5 月 1 日攻克禄劝释放 200 余人、5 月 2 日攻占武定县长周自得被击毙与解救 150 余人、5 月 2 日一部占领元谋县城",
+        "url": "https://www.yndaily.com/html/2016/yaowenyunan_1120/104814.html"
+      },
+      {
+        "title": "《山河血脉丨金沙激流》",
+        "author": "中华人民共和国国防部",
+        "year": 2026,
+        "note": "用于核对 5 月 1 日毛泽东到达小仓街、决定一军团由龙街渡过江与化装巧取三县",
+        "url": "http://www.mod.gov.cn/gfbw/gfjy_index/16462706.html"
+      },
+      {
+        "title": "《红军巧渡金沙江到底“巧”在哪》",
+        "author": "新华社（贺斌、李兵峰、马艺）",
+        "year": 2016,
+        "note": "用于核对红四团三个连化装成国民党中央军、禄劝县长交出粮款并设接风宴、一日之内巧取三城",
+        "url": "http://www.xinhuanet.com/politics/2016-08/21/c_1119426923.htm"
+      }
+    ],
+    "relatedIds": [
+      "wuding-occupy-1935-05",
+      "ferry-longjie-1935-05",
+      "jinsha-campaign-1935-05",
+      "jinsha-1935-05"
+    ],
+    "importance": 2,
     "extensions": {
       "locationPrecision": "approx"
     }
@@ -5883,7 +6102,10 @@
       "jinsha-campaign-1935-05",
       "jinsha-1935-05",
       "ferry-jiaopingdu-1935-05",
-      "kmt-jinsha-blockade-1935-05"
+      "kmt-jinsha-blockade-1935-05",
+      "lujuan-occupy-1935-05",
+      "wuding-occupy-1935-05",
+      "yuanmou-occupy-1935-05"
     ],
     "endDate": "1935-05-05",
     "importance": 2,

@@ -1683,6 +1683,44 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.469,
+            25.554
+          ],
+          [
+            102.403,
+            25.533
+          ],
+          [
+            101.873,
+            25.708
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-05-01",
+        "endDate": "1935-05-02",
+        "order": 38,
+        "segmentType": "advance",
+        "name": {
+          "zh": "禄劝—武定—元谋（红一军团先头智取三城）",
+          "en": "Luquan–Wuding–Yuanmou (1st Army Corps advance guard’s three-town ruse)"
+        },
+        "description": {
+          "zh": "红一军团先头红二师第四团以三个连化装成国民党「中央军」，5 月 1 日入禄劝、5 月 2 日入武定并占元谋，随后由元谋西出 30 公里至龙街渡（接 order 20）。路线为示意，实际行军另有小路。",
+          "en": "Three companies of the 4th Regiment, 2nd Division, disguised as KMT “Central Army” entered Luquan on 1 May and Wuding on 2 May, then took Yuanmou and pushed 30 km west to Longjie Ferry (linking with order 20). The line is schematic; the actual march used other tracks."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
