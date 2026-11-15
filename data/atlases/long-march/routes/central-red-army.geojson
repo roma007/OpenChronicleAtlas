@@ -2065,6 +2065,48 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.662,
+            29.3
+          ],
+          [
+            102.62,
+            29.272
+          ],
+          [
+            102.589,
+            29.235
+          ],
+          [
+            102.283,
+            29.276
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-05-26",
+        "endDate": "1935-05-27",
+        "order": 46,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "大树堡—晒经关—河南站—安顺场（红五团撤离返回）",
+          "en": "Dashubao–Shaijing Pass–Henan–Anshunchang (Fifth Regiment withdraws)"
+        },
+        "description": {
+          "zh": "1935 年 5 月 26 日，在大树堡担任吸引钳制任务的红军第一军团第二师第五团接到军团电令，火速撤离大树堡到安顺场与主力会合。为避免沿大渡河南岸行军被北岸敌军发现，五团重返晒经关，经河南站、平坝、窑厂，翻竹马垭口到安顺场。红军突然撤离使北岸川军一时不明所以。路线为示意，晒经关取既有佯动路线顶点，河南站取河南乡点，平坝、窑厂、竹马垭口未单独立点。",
+          "en": "On 26 May 1935 the Fifth Regiment of the Second Division, First Army Corps, which had been pinning the enemy at Dashubao, received a corps order to withdraw swiftly to Anshunchang and rejoin the main force. To avoid being spotted from the north bank while marching along the south bank of the Dadu, it returned via Shaijing Pass, Henan station, Pingba and Yaochang, crossed the Zhuma pass, and reached Anshunchang; the sudden withdrawal left the Sichuan troops on the north bank baffled. The line is schematic; Shaijing uses the existing feint-route vertex, Henan uses the Henan township point, and Pingba, Yaochang and the Zhuma pass are not plotted separately."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
