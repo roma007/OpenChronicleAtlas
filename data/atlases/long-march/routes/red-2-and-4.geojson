@@ -893,6 +893,60 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.29,
+            27.3
+          ],
+          [
+            104.836,
+            27.134
+          ],
+          [
+            104.336,
+            27.332
+          ],
+          [
+            104.824,
+            27.316
+          ],
+          [
+            104.017,
+            26.746
+          ],
+          [
+            104.158,
+            26.316
+          ],
+          [
+            104.47,
+            25.71
+          ]
+        ]
+      },
+      "properties": {
+        "startDate": "1936-02-27",
+        "endDate": "1936-03-28",
+        "segmentType": "other",
+        "name": {
+          "zh": "毕节—野马川—以则河—哲庄坝—黑石头—来宾铺—盘县（乌蒙山回旋）",
+          "en": "Bijie–Yemachuan–Yizehe–Zhezhuangba–Heishitou–Laibinpu–Panxian (Wumeng Mountains maneuvering)"
+        },
+        "description": {
+          "zh": "红二、六军团撤出毕节后，以赫章为中心在黔滇交界乌蒙山区回旋：3 月 2 日野马川会议定策，3 月 8 日以则河伏击樊崧甫纵队先头，3 月 12 日哲庄坝伏击万耀煌第十三师，3 月 19 日跳出包围圈，3 月 23 日来宾铺虎头山与滇军孙渡纵队激战，3 月 28 日进占盘县。路线为示意，逐日折返（三进奎香等）未全部画出。",
+          "en": "After leaving Bijie the Second and Sixth Army Groups maneuvered around Hezhang in the Wumeng Mountains on the Guizhou–Yunnan border: the Yemachuan meeting set the plan on 2 March, the ambush at Yizehe hit Fan Songfu’s advance guard on 8 March, the ambush at Zhezhuangba hit Wan Yaohuang’s 13th Division on 12 March, the encirclement was broken on 19 March, Sun Du’s Yunnan troops were fought at Hutoushan near Laibinpu on 23 March, and Panxian was occupied on 28 March. The route is schematic; daily doubling back (including three entries into Kuixiang) is not fully drawn."
+        },
+        "extensions": {
+          "precision": "schematic"
+        },
+        "entityId": "red-2-army",
+        "order": 12
+      }
     }
   ]
 }

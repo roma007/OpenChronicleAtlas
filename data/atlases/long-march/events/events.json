@@ -9815,8 +9815,8 @@
       "en": "The Red Second and Sixth Army Groups maneuvered against KMT forces in the Wumeng Mountains."
     },
     "description": {
-      "zh": "1936 年 2 月至 3 月，红二、六军团在贵州赫章、云南镇雄、彝良一带的乌蒙山区与国民党军回旋作战，摆脱追堵。日期为通行说法，待页码级核对。",
-      "en": "From February to March 1936, the Red Second and Sixth Army Groups maneuvered against KMT forces in the Wumeng Mountains around Hezhang, Guizhou, and Zhenxiong and Yiliang, Yunnan, escaping pursuit. Dates follow conventional accounts and await page-level verification."
+      "zh": "1936 年 2 月 27 日，红二、六军团撤离毕节，进入黔滇交界的乌蒙山区，面对国民党军五个纵队十余万人的四面合围，辗转回旋一个月、行程千余里。3 月 2 日野马川会议决定以赫章为中心与敌周旋；3 月 8 日由奎香折返，在以则河伏击樊崧甫纵队先头；3 月 9 日、10 日突破分水岭、广德关防线；3 月 12 日在哲庄坝（得章坝）伏击万耀煌第十三师；3 月 16 日第三次进入奎香，19 日从敌两个纵队接合部跳出包围圈；3 月 22 日进至宣威来宾铺，23 日在虎头山与滇军孙渡纵队激战；3 月 28 日、29 日进占盘县、亦资孔，回旋战结束。毛泽东后来评价「二、六军团在乌蒙山打转转……硬是转出来了嘛」。本坐标为赫章代表点，各次战斗另有独立点位。",
+      "en": "On 27 February 1936 the Second and Sixth Army Groups left Bijie and entered the Wumeng Mountains on the Guizhou–Yunnan border, where five KMT columns and more than 100,000 men closed in from all sides; for a month they maneuvered over a thousand li. On 2 March the Yemachuan meeting decided to wear the enemy down around Hezhang; on 8 March the army doubled back from Kuixiang and ambushed the advance guard of Fan Songfu’s column at Yizehe; on 9–10 March it broke the Fenshuiling and Guangdeguan lines; on 12 March it ambushed Wan Yaohuang’s 13th Division at Zhezhuangba (Dezhangba); on 16 March it entered Kuixiang a third time and on 19 March slipped out through the seam between two enemy columns; on 22 March it reached Laibinpu in Xuanwei and on 23 March fought Sun Du’s Yunnan troops at Hutoushan; on 28–29 March it took Panxian and Yizikong, ending the campaign. Mao Zedong later remarked that “the Second and Sixth Army Groups went round and round in the Wumeng Mountains… and simply walked out of it.” The coordinate is a representative point at Hezhang; the individual battles have their own points."
     },
     "images": [],
     "sources": [
@@ -9846,16 +9846,20 @@
       }
     ],
     "relatedIds": [
-      "sangzhi-1935-11",
-      "shigu-1936-04",
+      "yemachuan-meeting-1936-03",
+      "yizehe-1936-03",
+      "zhezhuangba-1936-03",
+      "laibinpu-1936-03",
       "bianshui-1936-01",
       "yachihe-1936-02",
       "panxian-meeting-1936-03",
-      "puduhe-1936-04",
-      "liujia-defense-1936-04"
+      "shigu-1936-04"
     ],
     "importance": 2,
-    "endDate": "1936-03-28"
+    "endDate": "1936-03-28",
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "dangling-shan-1936-02",
@@ -9931,6 +9935,148 @@
     }
   },
   {
+    "id": "yemachuan-meeting-1936-03",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "野马川会议",
+      "en": "Yemachuan Meeting"
+    },
+    "aliases": [
+      {
+        "zh": "赫章野马川会议",
+        "en": "Yemachuan Meeting in Hezhang"
+      }
+    ],
+    "date": "1936-03-02",
+    "location": {
+      "lng": 104.836,
+      "lat": 27.134,
+      "place": {
+        "zh": "贵州赫章野马川镇",
+        "en": "Yemachuan, Hezhang, Guizhou"
+      }
+    },
+    "entityIds": [
+      "red-2-army",
+      "red-6-army"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "红二、六军团在野马川开会，决定以赫章为中心在乌蒙山区回旋作战。",
+      "en": "The Second and Sixth Army Groups met at Yemachuan and decided to maneuver in the Wumeng Mountains around Hezhang."
+    },
+    "description": {
+      "zh": "1936 年 3 月 2 日，贺龙、任弼时、关向应、萧克、王震等在贵州赫章野马川召开军团领导人会议。会议分析敌我兵力对比与乌蒙山区地理、气候条件，决定以地处乌蒙山腹地的赫章为中心，在贵州赫章、威宁与云南彝良、镇雄、昭通一带迂回作战，以虚实结合、声东击西甩开追兵，再寻机向滇东转移。会议原定「继续西进、寻机南行」，3 月 4 日部队进至妈姑、回水塘时发现南进道路已被切断，遂改向西北，于 6 日进至彝良奎香。野马川会议是乌蒙山回旋战的开端。本坐标为野马川镇代表点。",
+      "en": "On 2 March 1936 He Long, Ren Bishi, Guan Xiangying, Xiao Ke, Wang Zhen, and other army group leaders met at Yemachuan in Hezhang, Guizhou. They weighed the balance of forces and the terrain and climate of the Wumeng Mountains, and decided to make Hezhang the centre of a maneuvering campaign across Hezhang and Weining in Guizhou and Yiliang, Zhenxiong, and Zhaotong in Yunnan, using feints to throw off the pursuit before turning east into Yunnan. The meeting originally planned to continue west and then look for a way south; on 4 March, at Magu and Huishuitang, the southern road was found cut and the army turned northwest, reaching Kuixiang in Yiliang on 6 March. The Yemachuan meeting opened the Wumeng Mountains maneuvering campaign. The coordinate is a representative point at Yemachuan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《磅礴乌蒙山 回旋走泥丸》",
+        "author": "中共中央党史和文献研究院",
+        "year": 2026,
+        "note": "用于核对 3 月 2 日野马川会议、3 月 19 日跳出包围圈与 3 月 23 日来宾铺战斗后的方针调整",
+        "url": "https://www.dswxyjy.org.cn/n1/2026/1015/c244516-40815345.html"
+      },
+      {
+        "title": "《乌蒙山回旋战：绝境之中闯生路》",
+        "author": "新华社",
+        "year": 2016,
+        "note": "用于核对 3 月 8 日以则河歼敌两个连、3 月 12 日得章坝歼敌 300 余人、3 月 23 日来宾铺歼敌 400 余人",
+        "url": "http://www.xinhuanet.com/politics/2016-10/07/c_1119669243.htm"
+      },
+      {
+        "title": "《乌蒙山回旋战遗址》",
+        "author": "赫章县人民政府 / 贵州省长征国家文化公园资料",
+        "note": "用于核对 3 月 8 日红四师、红十七师以则河伏击与遗址群构成",
+        "url": "https://baike.baidu.com/item/%E4%B9%8C%E8%92%99%E5%B1%B1%E5%9B%9E%E6%97%8B%E6%88%98%E9%81%97%E5%9D%80/1060262"
+      }
+    ],
+    "relatedIds": [
+      "wumeng-1936-02",
+      "yizehe-1936-03",
+      "zhezhuangba-1936-03",
+      "laibinpu-1936-03"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "yizehe-1936-03",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "以则河伏击战",
+      "en": "Yizehe Ambush"
+    },
+    "aliases": [
+      {
+        "zh": "以则河战斗",
+        "en": "Yizehe Battle"
+      },
+      {
+        "zh": "以则河回马枪",
+        "en": "Yizehe Turning-Back Blow"
+      }
+    ],
+    "date": "1936-03-08",
+    "location": {
+      "lng": 104.336,
+      "lat": 27.332,
+      "place": {
+        "zh": "贵州赫章河镇乡以则村（以则河）",
+        "en": "Yize village, Hezhen township, Hezhang, Guizhou (Yizehe)"
+      }
+    },
+    "entityIds": [
+      "red-2-army",
+      "red-6-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红二、六军团由奎香折返 50 里，在以则河伏击樊崧甫纵队先头。",
+      "en": "The Second and Sixth Army Groups doubled back 25 km from Kuixiang and ambushed the advance guard of Fan Songfu’s column at Yizehe."
+    },
+    "description": {
+      "zh": "1936 年 3 月 6 日至 7 日，红二、六军团进至云南彝良奎香一带，摆出北渡金沙江的姿态，诱使国民党军万耀煌、樊崧甫、郝梦龄三个纵队掉头西北。樊崧甫第二十八师步步紧逼，红军于 3 月 7 日夜由奎香折返约 50 里，在威宁以北、今赫章河镇乡以则村一带山地设伏。8 日拂晓，敌第二十八师先头部队进入伏击圈，红四师、红十六师、红十七师一齐开火，歼其先头两个连，毙伤俘敌数百人（另有「重创 600 余人」说），迫使该敌不敢轻进。战斗后红军迅速返回奎香，并于 3 月 9 日、10 日突破分水岭、广德关两道防线。本坐标为以则村代表点。",
+      "en": "On 6–7 March 1936 the Second and Sixth Army Groups reached the Kuixiang area of Yiliang, Yunnan, posing as if about to cross the Jinsha River northward, which drew the columns of Wan Yaohuang, Fan Songfu, and Hao Mengling back to the northwest. Fan Songfu’s 28th Division pressed close; on the night of 7 March the Red Army doubled back about 25 km from Kuixiang and set an ambush in the hills north of Weining, around present-day Yize village in Hezhen township, Hezhang. At dawn on 8 March the division’s advance guard entered the trap and the 4th, 16th, and 17th Divisions opened fire together, destroying two leading companies and killing, wounding, or capturing several hundred (some accounts say over 600), which checked the enemy’s pursuit. The Red Army then returned swiftly to Kuixiang and on 9–10 March broke through the Fenshuiling and Guangdeguan defence lines. The coordinate is a representative point at Yize village."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《乌蒙山回旋战：绝境之中闯生路》",
+        "author": "新华社",
+        "year": 2016,
+        "note": "用于核对 3 月 8 日以则河歼敌两个连、3 月 12 日得章坝歼敌 300 余人、3 月 23 日来宾铺歼敌 400 余人",
+        "url": "http://www.xinhuanet.com/politics/2016-10/07/c_1119669243.htm"
+      },
+      {
+        "title": "《长征之路“神来之笔”——乌蒙山回旋战之哲庄战斗》",
+        "author": "贵州省纪委监委 / 赫章县",
+        "year": 2021,
+        "note": "用于确认以则河在今赫章县河镇乡以则村，哲庄坝伏击部署与万耀煌部行动",
+        "url": "https://www.gzdis.gov.cn/ztzl/fdbnlqhxzc/mtjj_5831420/202111/t20211109_71599094.html"
+      },
+      {
+        "title": "《乌蒙山回旋战遗址》",
+        "author": "赫章县人民政府 / 贵州省长征国家文化公园资料",
+        "note": "用于核对 3 月 8 日红四师、红十七师以则河伏击与遗址群构成",
+        "url": "https://baike.baidu.com/item/%E4%B9%8C%E8%92%99%E5%B1%B1%E5%9B%9E%E6%97%8B%E6%88%98%E9%81%97%E5%9D%80/1060262"
+      }
+    ],
+    "relatedIds": [
+      "yemachuan-meeting-1936-03",
+      "zhezhuangba-1936-03",
+      "laibinpu-1936-03",
+      "wumeng-1936-02"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "duijiuyu-1936-03",
     "atlasId": "long-march",
     "name": {
@@ -9984,6 +10130,146 @@
       "huishi-1936-05"
     ],
     "importance": 2
+  },
+  {
+    "id": "zhezhuangba-1936-03",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "哲庄坝伏击战",
+      "en": "Zhezhuangba Ambush"
+    },
+    "aliases": [
+      {
+        "zh": "得章坝伏击战",
+        "en": "Dezhangba Ambush"
+      },
+      {
+        "zh": "哲庄坝战斗",
+        "en": "Zhezhuangba Battle"
+      }
+    ],
+    "date": "1936-03-12",
+    "location": {
+      "lng": 104.824,
+      "lat": 27.316,
+      "place": {
+        "zh": "贵州赫章哲庄镇（得章坝，镇雄以南）",
+        "en": "Zhezhuang (Dezhangba), Hezhang, Guizhou, south of Zhenxiong"
+      }
+    },
+    "entityIds": [
+      "red-2-army",
+      "red-6-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红二、六军团在哲庄坝（得章坝）伏击万耀煌第十三师，歼其两个团。",
+      "en": "The Second and Sixth Army Groups ambushed Wan Yaohuang’s 13th Division at Zhezhuangba (Dezhangba), destroying two regiments."
+    },
+    "description": {
+      "zh": "1936 年 3 月 11 日，红二军团第四师进抵镇雄城外以萨沟，获悉万耀煌纵队第十三师经哲庄坝（又称得章坝，今赫章县哲庄镇）向镇雄前进。12 日凌晨，红军分三路进入伏击阵地：一路由巴基山梁子至三锅庄、雨子场，一路由古基至哲庄、黄家营盘，一路由大屋基梁子至桃园垭口。9 时许，敌第十三师进入伏击圈，红军自西侧制高点拦腰截断，与敌短兵相接、反复肉搏十余次，万耀煌换装混杂于溃兵中逃脱。此役歼敌两个团、俘敌 200 余人，缴获轻重机枪 30 余挺（另有「歼敌 300 余人」「击溃第十三师」等口径）。红六师第十八团政委余秋里在战斗中负重伤，失去左臂。伏击战后红军被五个纵队围困于镇雄、赫章间狭小地域，3 月 16 日第三次进入奎香，19 日跳出包围圈。本坐标为哲庄镇代表点。",
+      "en": "On 11 March 1936 the Second Army Corps’ 4th Division reached Yisagou outside Zhenxiong and learned that Wan Yaohuang’s 13th Division was moving toward Zhenxiong via Zhezhuangba (also called Dezhangba, present-day Zhezhuang in Hezhang). Before dawn on 12 March the Red Army moved into ambush positions in three routes: from Baji ridge to Sanguozhuang and Yuzichang, from Guji to Zhezhuang and Huangjiayingpan, and from Dawuji ridge to Taoyuan pass. At about 9 a.m. the 13th Division entered the trap; the Red Army cut it in two from the heights to the west and fought hand to hand more than ten times, while Wan Yaohuang changed clothes and escaped among the routed troops. Two regiments were destroyed, over 200 captured, and more than 30 light and heavy machine guns taken (other accounts give over 300 casualties or describe the 13th Division as routed). Yu Qiuli, commissar of the 18th Regiment of the 6th Division, was gravely wounded and lost his left arm. After the ambush five enemy columns confined the Red Army in a narrow area between Zhenxiong and Hezhang; it entered Kuixiang a third time on 16 March and broke out on 19 March. The coordinate is a representative point at Zhezhuang."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《长征之路“神来之笔”——乌蒙山回旋战之哲庄战斗》",
+        "author": "贵州省纪委监委 / 赫章县",
+        "year": 2021,
+        "note": "用于确认以则河在今赫章县河镇乡以则村，哲庄坝伏击部署与万耀煌部行动",
+        "url": "https://www.gzdis.gov.cn/ztzl/fdbnlqhxzc/mtjj_5831420/202111/t20211109_71599094.html"
+      },
+      {
+        "title": "《乌蒙山回旋战：绝境之中闯生路》",
+        "author": "新华社",
+        "year": 2016,
+        "note": "用于核对 3 月 8 日以则河歼敌两个连、3 月 12 日得章坝歼敌 300 余人、3 月 23 日来宾铺歼敌 400 余人",
+        "url": "http://www.xinhuanet.com/politics/2016-10/07/c_1119669243.htm"
+      },
+      {
+        "title": "《乌蒙山回旋战遗址》",
+        "author": "赫章县人民政府 / 贵州省长征国家文化公园资料",
+        "note": "用于核对 3 月 8 日红四师、红十七师以则河伏击与遗址群构成",
+        "url": "https://baike.baidu.com/item/%E4%B9%8C%E8%92%99%E5%B1%B1%E5%9B%9E%E6%97%8B%E6%88%98%E9%81%97%E5%9D%80/1060262"
+      }
+    ],
+    "relatedIds": [
+      "yizehe-1936-03",
+      "laibinpu-1936-03",
+      "yemachuan-meeting-1936-03",
+      "wumeng-1936-02"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "laibinpu-1936-03",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "来宾铺战斗",
+      "en": "Laibinpu Battle"
+    },
+    "aliases": [
+      {
+        "zh": "虎头山战斗",
+        "en": "Hutoushan Battle"
+      },
+      {
+        "zh": "宣威来宾铺战斗",
+        "en": "Laibinpu Battle at Xuanwei"
+      }
+    ],
+    "date": "1936-03-23",
+    "location": {
+      "lng": 104.158,
+      "lat": 26.316,
+      "place": {
+        "zh": "云南宣威来宾铺（今来宾街道）、虎头山一带",
+        "en": "Laibinpu (present-day Laibin) and Hutoushan, Xuanwei, Yunnan"
+      }
+    },
+    "entityIds": [
+      "red-2-army",
+      "red-6-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红二、六军团在来宾铺虎头山与滇军孙渡纵队激战，歼敌 400 余人。",
+      "en": "The Second and Sixth Army Groups fought Sun Du’s Yunnan troops at Hutoushan near Laibinpu, killing or wounding over 400."
+    },
+    "description": {
+      "zh": "1936 年 3 月 22 日，红二、六军团到达云南宣威东北的来宾铺、徐屯地区。3 月 23 日，红军在来宾铺城北虎头山一带与滇军孙渡纵队激战竟日，歼敌 400 余人（另有歼敌近千人的记载，待核），自身亦有较大伤亡。战后红军沿乌蒙山东麓继续南下，3 月 28 日、29 日先后进占盘县、亦资孔地区，乌蒙山回旋战结束；3 月 30 日在盘县「九间楼」召开盘县会议，决定北渡金沙江。来宾铺战斗后，红二、六军团放弃了在滇东创建根据地的计划。本坐标为来宾街道代表点。",
+      "en": "On 22 March 1936 the Second and Sixth Army Groups reached Laibinpu and Xutun northeast of Xuanwei, Yunnan. On 23 March they fought Sun Du’s Yunnan column all day around Hutoushan north of Laibinpu, killing or wounding more than 400 (some accounts give nearly a thousand, pending verification) and suffering considerable casualties themselves. The army then moved south along the eastern foot of the Wumeng Mountains, occupying Panxian and Yizikong on 28–29 March and ending the Wumeng Mountains campaign; on 30 March the Panxian meeting at the “Nine-Room Tower” decided to cross the Jinsha River northward. After Laibinpu the Second and Sixth Army Groups abandoned the plan to build a base in eastern Yunnan. The coordinate is a representative point at Laibin."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《乌蒙山回旋战：绝境之中闯生路》",
+        "author": "新华社",
+        "year": 2016,
+        "note": "用于核对 3 月 8 日以则河歼敌两个连、3 月 12 日得章坝歼敌 300 余人、3 月 23 日来宾铺歼敌 400 余人",
+        "url": "http://www.xinhuanet.com/politics/2016-10/07/c_1119669243.htm"
+      },
+      {
+        "title": "《磅礴乌蒙山 回旋走泥丸》",
+        "author": "中共中央党史和文献研究院",
+        "year": 2026,
+        "note": "用于核对 3 月 2 日野马川会议、3 月 19 日跳出包围圈与 3 月 23 日来宾铺战斗后的方针调整",
+        "url": "https://www.dswxyjy.org.cn/n1/2026/1015/c244516-40815345.html"
+      }
+    ],
+    "relatedIds": [
+      "zhezhuangba-1936-03",
+      "panxian-meeting-1936-03",
+      "wumeng-1936-02",
+      "puduhe-1936-04"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "panxian-meeting-1936-03",
