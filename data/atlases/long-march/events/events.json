@@ -8877,7 +8877,8 @@
       "maoergai-1935-08",
       "lianghekou-rally-1935-06",
       "zhuokeji-1935-06",
-      "zhuokeji-meeting-1935-07"
+      "zhuokeji-meeting-1935-07",
+      "songpan-campaign-abort-1935-08"
     ],
     "importance": 1,
     "extensions": {
@@ -9308,7 +9309,8 @@
     "relatedIds": [
       "mengbishan-1935-06",
       "changdeshan-1935-07",
-      "luhua-meeting-1935-07"
+      "luhua-meeting-1935-07",
+      "luhua-arrival-1935-07"
     ],
     "importance": 1,
     "extensions": {
@@ -9517,7 +9519,152 @@
     "relatedIds": [
       "changdeshan-1935-07",
       "maoergai-1935-08",
-      "shawo-meeting-1935-08"
+      "shawo-meeting-1935-08",
+      "maoergai-battle-1935-07",
+      "luhua-arrival-1935-07"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "maoergai-battle-1935-07",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "毛儿盖战斗",
+      "en": "Fight for Maoergai"
+    },
+    "aliases": [
+      {
+        "zh": "攻占毛儿盖",
+        "en": "Capture of Maoergai"
+      },
+      {
+        "zh": "李日基营被歼",
+        "en": "Destruction of Li Riji’s Battalion"
+      }
+    ],
+    "date": "1935-07-09",
+    "endDate": "1935-07-16",
+    "location": {
+      "lng": 103.063,
+      "lat": 32.601,
+      "place": {
+        "zh": "四川松潘毛儿盖镇",
+        "en": "Maoergai, Songpan, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army",
+      "red-4-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红一军团主力配属红三十军围攻毛儿盖，胡宗南部李日基营据寺顽抗七日后夜遁，红军占领毛儿盖，打开北上通道。",
+      "en": "The First Army Corps with the 30th Army besieged Maoergai; Li Riji’s battalion held the temple for a week and then slipped away at night, and the Red Army took Maoergai, opening the road north."
+    },
+    "description": {
+      "zh": "1935 年 7 月初，蒋介石调十多个团赶赴松潘防堵红军，胡宗南命令第一师补充旅第二团加强营营长李日基带队抢占毛儿盖。红军攻松潘未克后，以红一军团主力配属红三十军转攻毛儿盖。7 月 9 日，红军向李日基部发起五次攻击均未奏效；战至 7 月 15 日，李日基接到胡宗南准许撤退的命令，借夜暗率全营六百余人由寺庙东北方向突围，直奔松潘，红军追击俘敌一百余人；7 月 16 日下午，红一军团将李日基残部包围于腊子山以西二十五公里处，士兵纷纷举枪投降，李日基从山上滚下逃脱。另有记载称先头部队 7 月 10 日到达毛儿盖、守敌一个营被缴械、俘敌三百余、缴获轻重机枪三十六挺与电台一部；《中国共产党历史》则记 7 月 16 日先头部队抵达松潘附近的毛儿盖。各说不一，事件起止取 7 月 9 日至 16 日。毛儿盖此后成为中共中央与右路军的集结地，红军在此驻留四十余天。本坐标为毛儿盖镇代表点。",
+      "en": "In early July 1935 Chiang Kai-shek sent more than ten regiments to hold Songpan, and Hu Zongnan ordered Li Riji, commander of the reinforced battalion of the 1st Division’s replacement brigade, to seize Maoergai first. After the attack on Songpan failed, the main force of the First Army Corps, with the 30th Army under it, turned on Maoergai. On 9 July the Red Army launched five assaults on Li’s battalion without success; by 15 July Li had Hu Zongnan’s permission to withdraw and slipped out of the temple to the northeast at night with over 600 men, making for Songpan, while the Red Army pursued and took more than 100 prisoners; on the afternoon of 16 July the First Army Corps surrounded the remnant 25 km west of Lazishan, where the soldiers surrendered and Li escaped by rolling down the hillside. Other accounts say the advance force reached Maoergai on 10 July, disarmed a battalion, took over 300 prisoners and captured 36 machine guns and a radio set, while Party History of the CCP records the advance force reaching Maoergai near Songpan on 16 July. The accounts differ, and the event is dated 9–16 July. Maoergai then became the assembly area of the Central Committee and the Right Route Army, where the Red Army stayed for over forty days. The coordinate is a representative point at Maoergai town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《李日基》（《湖湘三千国民党将领》）",
+        "author": "抗日战争纪念网",
+        "year": 2018,
+        "note": "用于核对胡宗南命李日基营抢占毛儿盖、7 月 9 日红军五次攻击未果、战至 15 日李日基奉命夜遁、16 日红一军团将其残部围于腊子山以西",
+        "url": "https://m.krzzjn.com/show-1908-88756.html"
+      },
+      {
+        "title": "《长征史稿·坚持北上和南下分裂阶段》",
+        "author": "新浪军事（转载《长征史稿》）",
+        "year": 2006,
+        "note": "用于核对 7 月 10 日红一、四方面军先头部队到达毛儿盖并缴械守敌一个营、8 月 1 日放弃松潘战役改以攻占阿坝以北夏河流域为战役目的、8 月 3 日制定《夏洮战役计划》、8 月 21 日右路军先头部队自毛儿盖出发与 8 月 26 日到班佑",
+        "url": "http://jczs.news.sina.com.cn/2006-06-06/1021375314.html"
+      },
+      {
+        "title": "《中国共产党历史（第一卷）上册》",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "用于核对 7 月 16 日先头部队抵达松潘附近的毛儿盖、8 月 3 日红军总部制定夏洮战役计划并把红一、红四方面军混编为左右两路军",
+        "url": "https://www.qstheory.cn/books/2019-07/31/c_1119408590_12.htm"
+      }
+    ],
+    "relatedIds": [
+      "maoergai-1935-08",
+      "shawo-meeting-1935-08",
+      "maoergai-supply-1935-07",
+      "dagushan-1935-07"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "luhua-arrival-1935-07",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "中共中央进驻黑水芦花寨",
+      "en": "The Central Committee at Luhua, Heishui"
+    },
+    "aliases": [
+      {
+        "zh": "芦花休整与筹粮",
+        "en": "Rest and Grain Collection at Luhua"
+      },
+      {
+        "zh": "中央机关到黑水",
+        "en": "Central Organs Reach Heishui"
+      }
+    ],
+    "date": "1935-07-10",
+    "endDate": "1935-07-17",
+    "location": {
+      "lng": 102.99,
+      "lat": 32.062,
+      "place": {
+        "zh": "四川黑水芦花镇（芦花寨）",
+        "en": "Luhua (Luhua village), Heishui, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "中央机关与中央领导经长板山进入黑水，7 月 10 日进驻芦花寨，在此休整筹粮并为芦花会议作准备。",
+      "en": "Having crossed Mount Changban into Heishui, the Central Committee organs and leaders reached Luhua on 10 July, resting and collecting grain there before the Luhua meeting."
+    },
+    "description": {
+      "zh": "1935 年 7 月 2 日，红一方面军第一军团和红四方面军第三十军各一部组成的先头部队翻越长板山（雅克夏山）进入黑水；7 月 9 日，红一方面军主力翻越同一座雪山进入黑水境内，随后进抵芦花。7 月 10 日，中共中央主要领导人到达黑水县芦花寨。黑水县境内有大黑水、小黑水与毛儿盖河三大水系，县以河名，县城即芦花镇；红军在此休整一周余，一边筹粮、一边等待张国焘北上，7 月 18 日起在芦花召开政治局常委扩大会议（芦花会议），7 月 21—22 日继续开政治局扩大会议解决组织与前敌指挥问题。7 月下旬，中央机关离开芦花，经昌德、打古翻越昌德山、达古山向毛儿盖前进。本坐标为芦花镇代表点，中央机关驻地与芦花会议会址待进一步落位。",
+      "en": "On 2 July 1935 an advance force made up of units of the First Army Corps and the Fourth Front Army’s 30th Army crossed Mount Changban (Yakexia) into Heishui; on 9 July the main force of the First Front Army crossed the same snow mountain into Heishui and went on to Luhua. On 10 July the principal leaders of the Central Committee reached Luhua village in Heishui county. The county takes its name from its three river systems — the Greater and Lesser Heishui and the Maoergai river — and its county town is Luhua; the Red Army rested there for more than a week, collecting grain and waiting for Zhang Guotao to come north, and from 18 July held the enlarged meeting of the Politburo Standing Committee known as the Luhua meeting, continuing on 21–22 July with an enlarged Politburo meeting on organisation and the forward command. In late July the Central Committee organs left Luhua and moved toward Maoergai by way of Changde and Dagu and over the Changde and Dagu passes. The coordinate is a representative point at Luhua town; the exact sites of the Central Committee’s quarters and of the meeting remain to be fixed."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《周恩来与遵义会议的召开和红军长征的伟大胜利》",
+        "author": "中共中央党史和文献研究院（dswxyjy.org.cn）",
+        "year": 2025,
+        "note": "用于核对中共中央主要领导人 1935 年 7 月 10 日到达黑水县芦花寨、张国焘把「进攻」松潘改为「佯攻」致使松潘战役计划流产",
+        "url": "https://www.dswxyjy.org.cn/n1/2025/0307/c423726-40433382.html"
+      },
+      {
+        "title": "《长征史稿·坚持北上和南下分裂阶段》",
+        "author": "新浪军事（转载《长征史稿》）",
+        "year": 2006,
+        "note": "用于核对 7 月 10 日红一、四方面军先头部队到达毛儿盖并缴械守敌一个营、8 月 1 日放弃松潘战役改以攻占阿坝以北夏河流域为战役目的、8 月 3 日制定《夏洮战役计划》、8 月 21 日右路军先头部队自毛儿盖出发与 8 月 26 日到班佑",
+        "url": "http://jczs.news.sina.com.cn/2006-06-06/1021375314.html"
+      }
+    ],
+    "relatedIds": [
+      "changbanshan-1935-07",
+      "luhua-meeting-1935-07",
+      "changdeshan-1935-07",
+      "dagushan-1935-07",
+      "maoergai-battle-1935-07"
     ],
     "importance": 2,
     "extensions": {
@@ -9578,6 +9725,72 @@
       "sipocun-1935-08"
     ],
     "importance": 2
+  },
+  {
+    "id": "maoergai-supply-1935-07",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "毛儿盖筹粮与“割麦证”",
+      "en": "Grain Collection at Maoergai and the “Wheat-Cutting Certificates”"
+    },
+    "aliases": [
+      {
+        "zh": "木质借据",
+        "en": "Wooden Loan Receipts"
+      },
+      {
+        "zh": "割麦牌",
+        "en": "Wheat-Cutting Boards"
+      }
+    ],
+    "date": "1935-07-16",
+    "endDate": "1935-08-20",
+    "location": {
+      "lng": 103.05,
+      "lat": 32.59,
+      "place": {
+        "zh": "四川松潘毛儿盖镇克藏村一带",
+        "en": "Kezang village, Maoergai, Songpan, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红军在毛儿盖以木板借据向藏民购粮，割一坵青稞即留一块“割麦证”，成为长征群众纪律的物证。",
+      "en": "At Maoergai the Red Army bought grain from Tibetans with wooden receipts, leaving a “wheat-cutting certificate” in every field it reaped — physical proof of Long March discipline."
+    },
+    "description": {
+      "zh": "1935 年 7 月，红一方面军先头部队从黑水翻越打古山到达松潘以西的毛儿盖克藏村。这里属藏区，时值青稞将熟，但村庄空无一人：红军到达前，当地藏民听信国民党的污名化宣传，认为红军是青面獠牙的恶魔，纷纷躲进深山。7 月高原青稞尚未成熟，红军在毛儿盖驻留四十余天等待收割，随后自己动手割麦、搓粒、炒熟，再运到河边水磨坊磨成面粉。为不损群众利益，红军总政治部规定：每个部队收了哪块地，必须在田头立一块“割麦牌”，写明收割数量，群众归来后可持牌向任何红军部队或苏维埃政府兑取与青稞价值相等的银子、茶叶等物。现存国家一级文物的一块木板顶部横书“割麦证”，下方竖排小楷写：“老庚：我们在这坵田内割了青稞一仟斤，我们自己吃了，这块木牌可作我们购买你们这些青稞的证据。请你们归来以后，拿住这块木牌，向任何红军部队或苏维埃政府，都可兑取与我们吃你们青稞价值相等的银子、茶叶与你们所需要的东西，在你们还未曾兑得这些东西前需要好好保存这块木牌子。前敌总政治部　麦田第××号。”2011 年克藏村藏族女村民仁青卓玛家翻修房屋，从旧木板中发现此牌，经识字的木匠与离休干部尼麦上报，得以保存，现藏四川松潘县红军长征纪念馆；毛儿盖一带先后发现三块木质借据，另两块一捐一藏。因当地藏民大多不识汉文，不少借条被当柴烧掉或改作壁板、粮仓盖。本坐标为克藏村一带示意点，精确位置待实测。",
+      "en": "In July 1935 the advance force of the First Front Army crossed Mount Dagu from Heishui and reached Kezang village at Maoergai, west of Songpan. This was Tibetan country, the barley was nearly ripe, and the village was empty: before the Red Army arrived the people had been told it was a horned monster and had fled into the mountains. The barley was not yet ripe in July, and the Red Army waited at Maoergai for over forty days, then reaped it themselves, rubbed out the grain, parched it, and carried it to water mills by the river to grind into flour. To avoid harming the people, the General Political Department laid down that every unit which reaped a field must plant a “wheat-cutting board” at its edge stating how much had been taken, so that when the owners returned they could exchange it with any Red Army unit or soviet government for silver, tea, or whatever they needed to the value of the barley. A board now listed as a Grade One national cultural relic reads, across the top, “Wheat-Cutting Certificate,” and below in vertical columns: “Old friend: we cut 1,000 jin of barley in this field and ate it ourselves; this board serves as our evidence of purchase. When you return, take this board to any Red Army unit or soviet government and you may exchange it for silver, tea, or whatever you need to the value of the barley we ate; until then please keep this board safe. Forward General Political Department, Field No. XX.” In 2011, when the Tibetan villager Renqing Zhuoma’s family was renovating their house in Kezang, the board came to light among old timbers; a literate carpenter and the retired cadre Nyimai reported it and it was preserved. It is now in the Songpan Red Army Long March Memorial Hall, and three such receipts have been found around Maoergai, one donated and one wrapped in a khata and kept. Because few Tibetans there read Chinese, many receipts were burned as firewood or reused as wall boards and granary lids. The coordinate is a schematic point for the Kezang area; the exact site remains to be surveyed."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《克藏村的红军“割麦证”》",
+        "author": "光明日报（李涛，军事科学院军队政治工作研究院）",
+        "year": 2022,
+        "note": "用于核对 1935 年 7 月红军翻打鼓山到毛儿盖克藏村、总政治部规定在田头立「割麦牌」、「割麦证」木板原文与现藏四川松潘红军长征纪念馆",
+        "url": "http://dangshi.people.com.cn/n1/2022/0327/c436975-32385080.html"
+      },
+      {
+        "title": "《木质借据》",
+        "author": "人民日报（泽让闼）",
+        "year": 2026,
+        "note": "用于核对 2011 年克藏村仁青卓玛家翻修房屋发现木质借据、毛儿盖一带共发现三块借据、藏民多不识汉字致部分借条被当柴烧",
+        "url": "http://paper.people.com.cn/rmrb/pc/content/202610/19/content_30186452.html"
+      }
+    ],
+    "relatedIds": [
+      "maoergai-battle-1935-07",
+      "maoergai-1935-08",
+      "caodi-start-1935-08"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "luhua-meeting-1935-07",
@@ -9645,9 +9858,93 @@
       "lianghekou-meeting-1935-06",
       "shawo-meeting-1935-08",
       "maoergai-1935-08",
-      "maogong-1935-06"
+      "maogong-1935-06",
+      "luhua-arrival-1935-07"
     ],
     "endDate": "1935-07-22",
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "songpan-campaign-abort-1935-08",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "松潘战役计划流产与《夏洮战役计划》",
+      "en": "Abandonment of the Songpan Campaign and the Xiatao Plan"
+    },
+    "aliases": [
+      {
+        "zh": "松潘战役受挫",
+        "en": "Songpan Campaign Frustrated"
+      },
+      {
+        "zh": "夏洮战役计划",
+        "en": "Xiatao Campaign Plan"
+      }
+    ],
+    "date": "1935-08-01",
+    "endDate": "1935-08-03",
+    "location": {
+      "lng": 103.063,
+      "lat": 32.601,
+      "place": {
+        "zh": "四川松潘毛儿盖（中央与红军总部所在地）",
+        "en": "Maoergai, Songpan, Sichuan (seat of the Central Committee and Red Army headquarters)"
+      }
+    },
+    "entityIds": [
+      "central-red-army",
+      "red-4-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "胡宗南主力集结松潘、张国焘延宕部队行动，中革军委 8 月 1 日放弃松潘战役，3 日改定《夏洮战役计划》，红军转向阿坝、夏河流域。",
+      "en": "With Hu Zongnan’s main force concentrated at Songpan and Zhang Guotao stalling, the Military Commission abandoned the Songpan campaign on 1 August and adopted the Xiatao plan on 3 August, turning toward Ngawa and the Xia river."
+    },
+    "description": {
+      "zh": "1935 年 6 月 29 日，周恩来根据中央政治局决定制定《松潘战役计划》，准备乘胡宗南部初到松潘地区、兵力尚未集中、碉堡尚未构筑完成的时机，消灭胡宗南部、控制松潘，打开北出甘南的通道。但张国焘以“组织问题”未解决为由延宕部队行动，在发布命令时把“进攻”松潘改为“佯攻”，使胡宗南部得以从容集中兵力于松潘，敌其他各部也进抵这一地区，懋功一带又被敌军占领，红军陷入腹背受敌的境地。8 月 1 日，中革军委不得不放弃松潘战役计划；红军总司令部重新调整部署，决定从 8 月 1 日起改以攻占阿坝以北夏河流域为战役目的。8 月 3 日，红军总部制定《夏（河）洮（河）战役计划》，指出松潘战役已失时机，“现特改为攻占阿坝，迅速北进夏河流域”，“以期于洮河流域消灭遭遇之蒋敌主力，形成在甘南广大地域发展之局势”，并把红一、红四方面军混编为左、右两路军。8 月 4—6 日，中央政治局在毛儿盖以南的沙窝开会，讨论的正是松潘战役未能实施所造成的局势。计划由红军总部制定，具体签发地与会议地点待考，本坐标取毛儿盖地区。",
+      "en": "On 29 June 1935 Zhou Enlai, acting on the Politburo’s decision, drew up the Songpan campaign plan, intending to destroy Hu Zongnan’s forces and seize Songpan while they were newly arrived, un-concentrated, and without completed fortifications, thus opening the road north to southern Gansu. But Zhang Guotao stalled the troops on the pretext that the “organisational question” was unresolved and, when issuing orders, changed “attack” Songpan into a “feint,” so that Hu Zongnan could concentrate at Songpan at leisure while other Nationalist units came up and Maogong was taken, leaving the Red Army between two fires. On 1 August the Military Commission had to abandon the Songpan campaign; the Red Army headquarters readjusted, deciding that from 1 August the objective would be to take the Xia river valley north of Ngawa. On 3 August headquarters drew up the Xia (river)–Tao (river) campaign plan, noting that the Songpan campaign had lost its moment and that “it is now changed to taking Ngawa and pressing quickly north into the Xia river valley,” in order “to destroy the main force of the Chiang army encountered in the Tao river valley and create a situation for expansion over the broad area of southern Gansu,” and mixing the First and Fourth Front Armies into a Left and a Right Route Army. From 4 to 6 August the Politburo met at Shawo south of Maoergai precisely to discuss the situation created by the failure to carry out the Songpan campaign. The plan was drawn up by the Red Army headquarters; the exact place of issue and of the meetings remains to be established, and the coordinate here is a representative point for the Maoergai area."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《长征史稿·坚持北上和南下分裂阶段》",
+        "author": "新浪军事（转载《长征史稿》）",
+        "year": 2006,
+        "note": "用于核对 7 月 10 日红一、四方面军先头部队到达毛儿盖并缴械守敌一个营、8 月 1 日放弃松潘战役改以攻占阿坝以北夏河流域为战役目的、8 月 3 日制定《夏洮战役计划》、8 月 21 日右路军先头部队自毛儿盖出发与 8 月 26 日到班佑",
+        "url": "http://jczs.news.sina.com.cn/2006-06-06/1021375314.html"
+      },
+      {
+        "title": "《洮州会议历史回顾——兼析对张国焘的团结争取与斗争》",
+        "author": "中国社会科学院俄罗斯东欧中亚研究所（董文柱）",
+        "year": 2016,
+        "note": "用于核对红军总司令部决定自 8 月 1 日起改以攻占阿坝以北夏河流域为战役目的、8 月 3 日制定《夏洮战役计划》",
+        "url": "http://euroasia.cssn.cn/djsw/dj/xxzt_119647/201905/t20190513_4885813.shtml"
+      },
+      {
+        "title": "《中国共产党历史（第一卷）上册》",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "用于核对 7 月 16 日先头部队抵达松潘附近的毛儿盖、8 月 3 日红军总部制定夏洮战役计划并把红一、红四方面军混编为左右两路军",
+        "url": "https://www.qstheory.cn/books/2019-07/31/c_1119408590_12.htm"
+      },
+      {
+        "title": "《周恩来与遵义会议的召开和红军长征的伟大胜利》",
+        "author": "中共中央党史和文献研究院（dswxyjy.org.cn）",
+        "year": 2025,
+        "note": "用于核对中共中央主要领导人 1935 年 7 月 10 日到达黑水县芦花寨、张国焘把「进攻」松潘改为「佯攻」致使松潘战役计划流产",
+        "url": "https://www.dswxyjy.org.cn/n1/2025/0307/c423726-40433382.html"
+      }
+    ],
+    "relatedIds": [
+      "lianghekou-meeting-1935-06",
+      "luhua-meeting-1935-07",
+      "shawo-meeting-1935-08",
+      "maoergai-1935-08",
+      "maoergai-battle-1935-07"
+    ],
     "importance": 1,
     "extensions": {
       "locationPrecision": "approx"
@@ -9773,7 +10070,10 @@
       "lianghekou-meeting-1935-06",
       "luhua-meeting-1935-07",
       "maoergai-1935-08",
-      "baxi-meeting-1935-09"
+      "baxi-meeting-1935-09",
+      "maoergai-battle-1935-07",
+      "songpan-campaign-abort-1935-08",
+      "maoergai-supply-1935-07"
     ],
     "endDate": "1935-08-06",
     "importance": 1,
@@ -9836,7 +10136,11 @@
       "shawo-meeting-1935-08",
       "baxi-meeting-1935-09",
       "caodi-1935-08",
-      "baozuo-1935-08"
+      "baozuo-1935-08",
+      "maoergai-battle-1935-07",
+      "maoergai-supply-1935-07",
+      "songpan-campaign-abort-1935-08",
+      "caodi-start-1935-08"
     ],
     "extensions": {
       "locationPrecision": "approx"
@@ -9899,6 +10203,73 @@
     "importance": 3
   },
   {
+    "id": "caodi-start-1935-08",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "右路军先头部队从毛儿盖出发过草地",
+      "en": "The Right Route Army’s Advance Guard Sets Out Across the Grasslands"
+    },
+    "aliases": [
+      {
+        "zh": "红四团先行过草地",
+        "en": "The 4th Regiment Leads Across the Grassland"
+      },
+      {
+        "zh": "一过草地出发",
+        "en": "Start of the First Grassland Crossing"
+      }
+    ],
+    "date": "1935-08-21",
+    "location": {
+      "lng": 103.07,
+      "lat": 32.62,
+      "place": {
+        "zh": "四川松潘毛儿盖以北草地入口",
+        "en": "Northern edge of Maoergai, Songpan, Sichuan, where the grasslands begin"
+      }
+    },
+    "entityIds": [
+      "central-red-army",
+      "red-4-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "红四团与红四方面军第二九四团组成的右路军先头部队自毛儿盖出发，8 月 26 日到达班佑，为主力走出北上的路线。",
+      "en": "The Right Route Army’s advance guard, the 4th Regiment with the Fourth Front Army’s 294th Regiment, left Maoergai on 21 August and reached Banyou on 26 August, opening the route north for the main force."
+    },
+    "description": {
+      "zh": "1935 年 8 月 17 日清早，红四团正在开干部会，团长黄开湘接到毛泽东打来的电话：“党中央、中革军委决定红四团为先锋团，你们要在茫茫的草地上为全军走出条北上的路线来。”8 月 21 日，由红一方面军第四团和红四方面军第二九四团组成的右路军先头部队从毛儿盖出发，向班佑开进，在草地中摸索前进六天，8 月 26 日到达班佑。随后右路军第三十军于 8 月 29 日发起包座战斗，至 31 日全歼堵击的胡宗南部第四十九师，打开进军甘南的门户。主力部队穿过草地用了七天七夜，8 月底右路军全部到达班佑、巴西、阿西地区。草地行军是长征中减员最严重的一段，聂荣臻后来回忆，一军团掉队、落伍与牺牲的在四百以上。本坐标为毛儿盖以北草地入口示意点，出发地与行军路线待进一步落位。",
+      "en": "Early on 17 August 1935, while the 4th Regiment was holding a cadre meeting, its commander Huang Kaixiang took a telephone call from Mao Zedong: “The Central Committee and the Military Commission have decided that the 4th Regiment shall be the vanguard; you must find a route north for the whole army across those vast grasslands.” On 21 August the Right Route Army’s advance guard — the First Front Army’s 4th Regiment and the Fourth Front Army’s 294th Regiment — set out from Maoergai for Banyou, feeling its way across the grassland for six days and reaching Banyou on 26 August. The 30th Army of the Right Route Army then attacked at Baozuo on 29 August, and by 31 August had wiped out the blocking 49th Division of Hu Zongnan’s army, opening the gate to southern Gansu. The main force took seven days and nights to cross the grassland, and by the end of August the whole Right Route Army had reached Banyou, Baxi, and Axi. The grassland march cost more lives than any other stage of the Long March; Nie Rongzhen later recalled that the First Army Corps alone had over 400 missing, straggling, or dead. The coordinate is a schematic point at the northern edge of Maoergai where the grassland begins; the exact starting point and route remain to be fixed."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《黄开湘革命生涯二三事》",
+        "author": "人民网·党史频道",
+        "year": 2017,
+        "note": "用于核对 8 月 17 日毛泽东电话指示红四团为过草地先锋团、黄开湘与杨成武率部摸索前进六天",
+        "url": "http://dangshi.people.com.cn/n1/2017/0817/c85037-29477696.html"
+      },
+      {
+        "title": "《长征史稿·坚持北上和南下分裂阶段》",
+        "author": "新浪军事（转载《长征史稿》）",
+        "year": 2006,
+        "note": "用于核对 7 月 10 日红一、四方面军先头部队到达毛儿盖并缴械守敌一个营、8 月 1 日放弃松潘战役改以攻占阿坝以北夏河流域为战役目的、8 月 3 日制定《夏洮战役计划》、8 月 21 日右路军先头部队自毛儿盖出发与 8 月 26 日到班佑",
+        "url": "http://jczs.news.sina.com.cn/2006-06-06/1021375314.html"
+      }
+    ],
+    "relatedIds": [
+      "caodi-1935-08",
+      "baozuo-1935-08",
+      "maoergai-1935-08",
+      "maoergai-supply-1935-07"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "baozuo-1935-08",
     "atlasId": "long-march",
     "name": {
@@ -9952,7 +10323,8 @@
     "relatedIds": [
       "maoergai-1935-08",
       "baxi-meeting-1935-09",
-      "caodi-1935-08"
+      "caodi-1935-08",
+      "caodi-start-1935-08"
     ],
     "importance": 2,
     "extensions": {
@@ -10017,7 +10389,9 @@
     "relatedIds": [
       "maoergai-1935-08",
       "baxi-meeting-1935-09",
-      "ejie-meeting-1935-09"
+      "ejie-meeting-1935-09",
+      "caodi-start-1935-08",
+      "maoergai-supply-1935-07"
     ]
   },
   {
