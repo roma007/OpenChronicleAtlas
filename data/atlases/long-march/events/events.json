@@ -8670,8 +8670,143 @@
     "relatedIds": [
       "dawei-meeting-1935-06",
       "jialing-jiang-1935-03",
-      "maogong-occupy-1935-06"
+      "maogong-occupy-1935-06",
+      "maogong-rally-1935-06",
+      "lianghekou-rally-1935-06"
     ]
+  },
+  {
+    "id": "maogong-rally-1935-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "懋功会师联欢会",
+      "en": "Maogong Link-up Celebration"
+    },
+    "aliases": [
+      {
+        "zh": "懋功会师庆祝大会",
+        "en": "Maogong Victory Rally"
+      },
+      {
+        "zh": "天主教堂干部大会",
+        "en": "Cadre Meeting at the Catholic Church"
+      }
+    ],
+    "date": "1935-06-21",
+    "location": {
+      "lng": 102.36,
+      "lat": 30.99,
+      "place": {
+        "zh": "四川懋功（今小金）县城天主教堂",
+        "en": "Catholic church, Maogong (Xiaojin) county town, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army",
+      "red-4-army"
+    ],
+    "category": "会师",
+    "summary": {
+      "zh": "红军总政治部在懋功县城天主教堂召开会师联欢庆祝会，两军会合后总兵力达十余万人。",
+      "en": "The Red Army’s General Political Department held a link-up celebration at the Catholic church in Maogong; the combined forces numbered over 100,000."
+    },
+    "description": {
+      "zh": "1935 年 6 月 18 日，中共中央率中央机关离开达维到达懋功（今小金），受到担负接应任务的红三十军政治委员李先念所率第八十八师部队欢迎。6 月 21 日，红军总政治部在懋功县城天主教堂召开会师联欢庆祝会（另有记载称在县城天主教堂召开干部大会，并在城隍庙举行庆祝会师的联欢会），红一、红四方面军部队代表参加，演唱陆定一编写的《两大主力会合歌》。两军会合后总兵力达十余万人，是长征途中规模最大的一次会师。会师后中央电请张国焘立即赶来懋功「以便商决一切」，为 6 月 26 日的两河口会议作了准备。本坐标为懋功县城代表点，天主教堂与城隍庙的具体会址待落位。",
+      "en": "On 18 June 1935 the Central Committee left Dawei with its organs and reached Maogong (present-day Xiaojin), where it was welcomed by the 88th Division troops under Li Xiannian, political commissar of the 30th Army, who had been sent to meet it. On 21 June the Red Army’s General Political Department held a link-up celebration at the Catholic church in Maogong county town (other accounts say a cadre meeting was held at the Catholic church and a celebration at the City God temple), with representatives of the First and Fourth Front Armies and the singing of Lu Dingyi’s “Song of the Meeting of the Two Main Forces.” The combined forces came to more than 100,000 men, the largest link-up of the Long March. Afterwards the Centre telegraphed Zhang Guotao to come at once to Maogong “to settle everything together,” preparing the way for the Lianghekou meeting of 26 June. The coordinate is a representative point at Maogong county town; the exact sites of the church and temple remain to be fixed."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《十年内战与红军长征》",
+        "author": "个人史论网站（rongwp.com）",
+        "year": 2013,
+        "note": "用于核对 6 月 18 日党中央到懋功受李先念部欢迎、6 月 21 日红军总政治部在懋功天主教堂召开会师联欢庆祝会",
+        "url": "http://rongwp.com/8life/book/zijiachangzhen/10nian17.html"
+      },
+      {
+        "title": "《九十三事述征程第二十三集：红军长征到底有几次会师》",
+        "author": "新浪军事",
+        "year": 2020,
+        "note": "用于核对懋功会师后在天主教堂召开干部大会、在城隍庙举行庆祝会师联欢会",
+        "url": "https://mil.sina.cn/ls/2020-07-28/detail-iivhvpwx7954577.d.html"
+      }
+    ],
+    "relatedIds": [
+      "maogong-1935-06",
+      "dawei-meeting-1935-06",
+      "lianghekou-rally-1935-06",
+      "lianghekou-meeting-1935-06"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "lianghekou-rally-1935-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "两河口会师大会与张国焘到两河口",
+      "en": "Lianghekou Rally and Zhang Guotao’s Arrival"
+    },
+    "aliases": [
+      {
+        "zh": "两河口欢迎大会",
+        "en": "Lianghekou Welcome Rally"
+      },
+      {
+        "zh": "张国焘到两河口",
+        "en": "Zhang Guotao Reaches Lianghekou"
+      }
+    ],
+    "date": "1935-06-25",
+    "location": {
+      "lng": 102.489,
+      "lat": 31.49,
+      "place": {
+        "zh": "四川懋功（今小金）两河口镇外会场",
+        "en": "The rally ground outside Lianghekou, Maogong (Xiaojin), Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army",
+      "red-4-army"
+    ],
+    "category": "会师",
+    "summary": {
+      "zh": "张国焘由茂县赶到两河口，中央领导冒雨在镇外会场举行欢迎大会，朱德致欢迎词。",
+      "en": "Zhang Guotao reached Lianghekou from Mao county and the Central Committee leaders welcomed him in the rain at a rally ground outside the town, with Zhu De giving the address."
+    },
+    "description": {
+      "zh": "1935 年 6 月 20 日，中共中央致电张国焘，要他立即赶到懋功两河口商谈会师后的行动问题。6 月 25 日，尚在茂县的张国焘带警卫部队经威州、理番赶到两河口。毛泽东、张闻天、周恩来、朱德、博古、刘伯承等中央领导和红一方面军指战员冒雨在镇外会场欢迎，会前由工兵把一片荒坡开辟成会场、用沙土铺平地面；朱德致欢迎词，张国焘代表红四方面军讲话。欢迎大会的地址另有记为「两河口镇抚边村外」者，与会人员步行三里迎接一说亦见于记述。这次会面把两个方面军的领导人聚到一处，次日即召开两河口会议。本坐标为两河口镇代表点。",
+      "en": "On 20 June 1935 the Central Committee telegraphed Zhang Guotao to come at once to Lianghekou in Maogong to discuss action after the link-up. On 25 June Zhang, still at Mao county, came with his guard unit by way of Weizhou and Lifan. Mao Zedong, Zhang Wentian, Zhou Enlai, Zhu De, Bo Gu, Liu Bocheng, and other leaders and First Front Army troops welcomed him in the rain at a rally ground outside the town, which engineers had cut out of a waste slope and levelled with sand; Zhu De gave the address of welcome and Zhang Guotao spoke for the Fourth Front Army. Some accounts place the rally “outside Fubian village, Lianghekou,” and some say the leaders walked three li to meet him. The meeting brought the leaders of the two front armies together, and the Lianghekou conference opened the next day. The coordinate is a representative point at Lianghekou."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《懋功会师后张国焘向中央要权，毛泽东不赞成张闻天让职》",
+        "author": "腾讯新闻",
+        "year": 2022,
+        "note": "用于核对 6 月 25 日张闻天、毛泽东、周恩来等到两河口迎接张国焘",
+        "url": "https://view.inews.qq.com/k/20220725A037NZ00"
+      },
+      {
+        "title": "《两方面军会合既定北上 张国焘搞分裂却要南下》",
+        "author": "抗战纪念网",
+        "year": 2019,
+        "note": "用于核对 6 月 20 日中央电张国焘、6 月 25 日冒雨在两河口镇外会场欢迎、朱德致欢迎词与张国焘讲话",
+        "url": "https://m.krzzjn.com/show-1808-81110.html"
+      }
+    ],
+    "relatedIds": [
+      "maogong-rally-1935-06",
+      "lianghekou-meeting-1935-06",
+      "maogong-occupy-1935-06"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "lianghekou-meeting-1935-06",
@@ -8739,7 +8874,10 @@
       "maogong-1935-06",
       "luhua-meeting-1935-07",
       "shawo-meeting-1935-08",
-      "maoergai-1935-08"
+      "maoergai-1935-08",
+      "lianghekou-rally-1935-06",
+      "zhuokeji-1935-06",
+      "zhuokeji-meeting-1935-07"
     ],
     "importance": 1,
     "extensions": {
@@ -8807,9 +8945,76 @@
     "relatedIds": [
       "jiajinshan-1935-06",
       "lianghekou-meeting-1935-06",
-      "changbanshan-1935-07"
+      "changbanshan-1935-07",
+      "zhuokeji-1935-06"
     ],
     "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "zhuokeji-1935-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "攻占卓克基与进驻官寨",
+      "en": "Seizure of Zhuokeji and Occupation of the Chieftain’s Fortress"
+    },
+    "aliases": [
+      {
+        "zh": "卓克基战斗",
+        "en": "Fighting at Zhuokeji"
+      },
+      {
+        "zh": "卓克基土司官寨",
+        "en": "Zhuokeji Chieftain’s Fortress"
+      }
+    ],
+    "date": "1935-06-29",
+    "location": {
+      "lng": 102.291,
+      "lat": 31.869,
+      "place": {
+        "zh": "四川马尔康卓克基镇西索村（卓克基土司官寨）",
+        "en": "Xisuo village, Zhuokeji, Maerkang, Sichuan (Zhuokeji chieftain’s fortress)"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "红六团攻占卓克基土司官寨，中央机关与主力同日进驻，官寨成为北上总后方。",
+      "en": "The 6th Regiment took the Zhuokeji chieftain’s fortress, where the Central Committee organs and main force arrived the same day; the fortress became the rear base for the march north."
+    },
+    "description": {
+      "zh": "1935 年 6 月 26 日至 28 日两河口会议期间，红一方面军先头部队自两河口出发，翻越梦笔山进入马尔康境内。6 月 29 日，先头红六团攻占卓克基。卓克基土司索观瀛受国民党政府宣传蛊惑，派兵据守官寨，在深谷中开枪阻击，红军一名向导牺牲；相持至夜晚大雨倾盆，红军先头部队为联络后续部队向天空发射三颗彩色信号弹，夜空通明，土司兵从未见过，以为红军施法术、放「神火」，仓皇弃寨而逃，连土司大印都未及带走。同日，中共中央、中央军委与中央红军主力、红四方面军第三十军第八十八师主力翻越梦笔山到达卓克基地区。红军进驻官寨后严守纪律、不扰百姓，并派人寻找土司宣讲民族政策。毛泽东、朱德、周恩来等在官寨住宿数日，毛泽东翻阅土司书房的《三国演义》《古文观止》，称「古有郿坞，今有官寨，土司的这个城堡应该是我们在长征途中见到的最有特色的建筑了」。此后卓克基成为红军北上的后勤基地，《松潘战役计划》《夏洮战役计划》都把卓克基列为总后方，马尔康一带先后建立 13 个乡级苏维埃组织。1952 年索观瀛到北京参加「五一」观礼，毛泽东邀他同桌就餐，说「红军当年是借路北上，住进官寨，你用不着躲进山林里」。本坐标为官寨所在西索村代表点。",
+      "en": "During the Lianghekou conference of 26–28 June 1935 the advance guard of the First Front Army moved up from Lianghekou, crossed Mount Mengbi, and entered Maerkang. On 29 June the 6th Regiment took Zhuokeji. The Zhuokeji chieftain Suo Guanying, stirred up by Nationalist propaganda, had his men hold the fortress and open fire in the ravine, killing a Red Army guide; the stand lasted into the night, when heavy rain fell and the advance guard, to signal the following troops, fired three coloured flares. The night sky lit up, and the chieftain’s soldiers, who had never seen such a thing, took it for magic or “divine fire” and abandoned the fortress in panic, leaving even the chieftain’s seal behind. That same day the Central Committee, the Military Commission, the First Front Army main force, and the main force of the Fourth Front Army’s 88th Division crossed Mount Mengbi and reached the Zhuokeji area. The Red Army kept strict discipline in the fortress, did not disturb the villagers, and sent men to find the chieftain and explain its nationality policy. Mao Zedong, Zhu De, and Zhou Enlai stayed several days; Mao read Romance of the Three Kingdoms and Guwen Guanzhi from the chieftain’s library and remarked: “In old times there was Meiwu; today there is the fortress. This castle of the chieftain’s must be the most distinctive building we have seen on the Long March.” Zhuokeji then became the Red Army’s rear base for the march north, named as general rear depot in both the Songpan and Xiatao campaign plans, and thirteen township-level soviets were set up around Maerkang. In 1952 Suo Guanying came to Beijing for the May Day parade and Mao invited him to his table, saying: “The Red Army was only borrowing the road north and stayed in your fortress; there was no need to hide in the hills.” The coordinate is a representative point at Xisuo village, site of the fortress."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《第十六章 从两河到沙窝》",
+        "author": "人民网·党史频道",
+        "year": 2016,
+        "note": "用于核对两河口会议期间红六团 6 月 29 日攻占卓克基、中央与主力同日到达卓克基地区及松潘战役准备",
+        "url": "http://dangshi.people.com.cn/n1/2016/0826/c406330-28668875.html"
+      },
+      {
+        "title": "《当红军遇见土司，土司遇见红军》",
+        "author": "半月谈（周清印、范钟秀、薛晨、尹恒）",
+        "year": 2026,
+        "note": "用于核对索观瀛据守官寨、红军发射三颗彩色信号弹、毛泽东对官寨的评价、卓克基会议通过《告康藏西番民众书》与卓克基作为总后方",
+        "url": "http://www.banyuetan.org/jrt/detail/20261022/1000200033134991792638400396159676_1.html"
+      }
+    ],
+    "relatedIds": [
+      "lianghekou-meeting-1935-06",
+      "mengbishan-1935-06",
+      "zhuokeji-meeting-1935-07",
+      "changbanshan-1935-07"
+    ],
+    "importance": 1,
     "extensions": {
       "locationPrecision": "approx"
     }
@@ -9106,6 +9311,71 @@
       "luhua-meeting-1935-07"
     ],
     "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "zhuokeji-meeting-1935-07",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "卓克基会议",
+      "en": "Zhuokeji Meeting"
+    },
+    "aliases": [
+      {
+        "zh": "卓克基政治局常委会议",
+        "en": "Zhuokeji Politburo Standing Committee Meeting"
+      },
+      {
+        "zh": "卓克基土司议政厅会议",
+        "en": "Meeting in the Chieftain’s Council Hall"
+      }
+    ],
+    "date": "1935-07-03",
+    "location": {
+      "lng": 102.291,
+      "lat": 31.869,
+      "place": {
+        "zh": "四川马尔康卓克基土司官寨二楼土司议政厅",
+        "en": "Chieftain’s council hall, second floor, Zhuokeji fortress, Maerkang, Sichuan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "中央政治局常委在卓克基官寨开会，通过《告康藏西番民众书》，确定民族平等与民族革命纲领。",
+      "en": "The Politburo Standing Committee met in the Zhuokeji fortress and adopted the “Proclamation to the Tibetan People of Kham and Tibet,” setting out equality and national revolution policy."
+    },
+    "description": {
+      "zh": "1935 年 7 月 3 日，中共中央政治局常务委员会在卓克基土司官寨二楼「土司议政厅」召开会议，即卓克基会议。会议专门讨论民族地区的有关问题，通过《中国共产党中央委员会告康藏西番民众书——进行西藏民族革命运动的斗争纲领》，指出中国共产党的民族政策是解放被压迫的各民族、建立自由选举的革命政府，号召藏族民众反对帝国主义及国民党军阀。《告康藏西番民众书》的广泛张贴与配套宣传，逐步打消了当地部分土司和民众的疑虑，是红军在川西北民族地区立足的关键一步。中央机关与中央领导人在官寨驻留约一周，7 月中旬经梭磨、马塘向黑水前进。本坐标为官寨代表点，会议房间即官寨二楼议政厅。",
+      "en": "On 3 July 1935 the Politburo Standing Committee of the Central Committee met in the chieftain’s council hall on the second floor of the Zhuokeji fortress — the Zhuokeji meeting. It dealt specifically with questions in the nationality areas and adopted the “Proclamation of the Central Committee of the Chinese Communist Party to the Tibetan People of Kham and Tibet: A Programme of Struggle for the National Revolutionary Movement in Tibet,” stating that the Party’s nationality policy was to liberate the oppressed nationalities and establish freely elected revolutionary governments, and calling on Tibetans to oppose imperialism and the Nationalist warlords. The wide posting of the proclamation and the accompanying publicity gradually dispelled the misgivings of some local chieftains and common people, a key step in the Red Army’s establishing itself in the nationality areas of northwestern Sichuan. The Central Committee organs and leaders stayed about a week, moving on in mid-July by way of Suomo and Matang toward Heishui. The coordinate is a representative point at the fortress; the meeting room is the council hall on its second floor."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《当红军遇见土司，土司遇见红军》",
+        "author": "半月谈（周清印、范钟秀、薛晨、尹恒）",
+        "year": 2026,
+        "note": "用于核对索观瀛据守官寨、红军发射三颗彩色信号弹、毛泽东对官寨的评价、卓克基会议通过《告康藏西番民众书》与卓克基作为总后方",
+        "url": "http://www.banyuetan.org/jrt/detail/20261022/1000200033134991792638400396159676_1.html"
+      },
+      {
+        "title": "《从卓克基书房到中南海相逢，一段跨越岁月的民族团结佳话》",
+        "author": "四川在线",
+        "year": 2026,
+        "note": "用于核对中央领导人在官寨驻留一周、7 月 3 日召开中央政治局常委会议（卓克基会议）",
+        "url": "https://sichuan.scol.com.cn/ggxw/202610/83338100.html"
+      }
+    ],
+    "relatedIds": [
+      "zhuokeji-1935-06",
+      "lianghekou-meeting-1935-06",
+      "luhua-meeting-1935-07"
+    ],
+    "importance": 2,
     "extensions": {
       "locationPrecision": "approx"
     }
