@@ -330,28 +330,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            110.16,
-            29.4
+            109.95,
+            29.15
           ],
           [
-            110,
-            29.5
+            109.976,
+            29.483
           ]
         ]
       },
       "properties": {
         "entityId": "red-2-army",
         "startDate": "1935-04-12",
-        "endDate": "1935-04-14",
+        "endDate": "1935-04-13",
         "order": 3,
         "segmentType": "counterattack",
         "name": {
-          "zh": "桑植—陈家河",
-          "en": "Sangzhi–Chenjiahe"
+          "zh": "龙家寨—陈家河",
+          "en": "Longjiazhai–Chenjiahe"
         },
         "description": {
-          "zh": "1935 年 4 月 13 日，红二、六军团由桑植出击，在桑植陈家河地区歼灭国民党军第 58 师第 172 旅。路线为示意。",
-          "en": "On 13 April 1935 the Second and Sixth Army Groups moved out from Sangzhi and destroyed the 172nd Brigade of the 58th Division at Chenjiahe in Sangzhi county. The line is schematic."
+          "zh": "1935 年 4 月 12 日，红二、六军团主力撤离塔卧、龙家寨向北转移，13 日先头部队进至桑植陈家河，与国民党军第 58 师第 172 旅遭遇并将其包围。路线为示意。",
+          "en": "On 12 April 1935 the main force of the Second and Sixth Army Groups left Tawo and Longjiazhai and moved north; on the 13th its advance guard reached Chenjiahe in Sangzhi, met the 172nd Brigade of the 58th Division and surrounded it. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -380,7 +380,7 @@
       "properties": {
         "entityId": "red-2-army",
         "startDate": "1935-06-11",
-        "endDate": "1935-06-13",
+        "endDate": "1935-06-12",
         "order": 4,
         "segmentType": "counterattack",
         "name": {
@@ -418,7 +418,7 @@
       "properties": {
         "entityId": "red-2-army",
         "startDate": "1935-08-02",
-        "endDate": "1935-08-04",
+        "endDate": "1935-08-03",
         "order": 5,
         "segmentType": "counterattack",
         "name": {
@@ -958,8 +958,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            110,
-            29.5
+            109.976,
+            29.483
+          ],
+          [
+            110.056,
+            29.309
           ],
           [
             110.16,
@@ -970,16 +974,16 @@
       "properties": {
         "entityId": "red-2-army",
         "startDate": "1935-04-14",
-        "endDate": "1935-04-14",
+        "endDate": "1935-04-16",
         "order": 13,
-        "segmentType": "retreat",
+        "segmentType": "advance",
         "name": {
-          "zh": "陈家河—桑植（战后回师）",
-          "en": "Chenjiahe–Sangzhi (return after the battle)"
+          "zh": "陈家河—桃子溪—桑植（追击与收复）",
+          "en": "Chenjiahe–Taozixi–Sangzhi (pursuit and recovery)"
         },
         "description": {
-          "zh": "1935 年 4 月 13 日陈家河战斗后，红二、六军团回师桑植，恢复桑植县城，继续在湘鄂川黔苏区机动作战。路线为示意。",
-          "en": "After the battle at Chenjiahe on 13 April 1935, the Second and Sixth Army Groups returned to Sangzhi and recovered the county town, continuing mobile operations in the base area. The line is schematic."
+          "zh": "1935 年 4 月 14 日全歼陈家河之敌后，红二、六军团乘胜追击由桑植南撤的国民党军第 58 师师部及第 174 旅，15 日在桃子溪将其全歼，16 日收复桑植县城。路线为示意，桃子溪取永顺县砂坝镇桃子溪村点。",
+          "en": "After destroying the enemy at Chenjiahe on 14 April 1935, the Second and Sixth Army Groups pursued the 58th Division headquarters and 174th Brigade retreating south from Sangzhi, destroyed them at Taozixi on the 15th, and recovered Sangzhi county town on the 16th. The line is schematic; Taozixi uses the Taozixi village point in Shaba, Yongshun."
         },
         "extensions": {
           "precision": "schematic"
@@ -1007,8 +1011,8 @@
       },
       "properties": {
         "entityId": "red-2-army",
-        "startDate": "1935-06-13",
-        "endDate": "1935-06-13",
+        "startDate": "1935-06-12",
+        "endDate": "1935-06-12",
         "order": 14,
         "segmentType": "retreat",
         "name": {
@@ -1045,8 +1049,8 @@
       },
       "properties": {
         "entityId": "red-2-army",
-        "startDate": "1935-08-04",
-        "endDate": "1935-08-04",
+        "startDate": "1935-08-03",
+        "endDate": "1935-08-03",
         "order": 15,
         "segmentType": "retreat",
         "name": {

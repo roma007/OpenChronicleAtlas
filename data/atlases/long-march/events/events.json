@@ -4946,15 +4946,26 @@
     "id": "chenjiahe-1935-04",
     "atlasId": "long-march",
     "name": {
-      "zh": "陈家河战斗",
-      "en": "Battle of Chenjiahe"
+      "zh": "陈家河—桃子溪战役",
+      "en": "Chenjiahe–Taozixi Campaign"
     },
-    "date": "1935-04-13",
+    "aliases": [
+      {
+        "zh": "陈家河战斗",
+        "en": "Battle of Chenjiahe"
+      },
+      {
+        "zh": "桃子溪战斗",
+        "en": "Battle of Taozixi"
+      }
+    ],
+    "date": "1935-04-12",
+    "endDate": "1935-04-16",
     "location": {
-      "lng": 110,
-      "lat": 29.5,
+      "lng": 109.976,
+      "lat": 29.483,
       "place": {
-        "zh": "湖南桑植陈家河",
+        "zh": "湖南桑植陈家河镇",
         "en": "Chenjiahe, Sangzhi, Hunan"
       }
     },
@@ -4963,12 +4974,12 @@
     ],
     "category": "战役",
     "summary": {
-      "zh": "红二、六军团在桑植陈家河歼灭国民党军一部。",
-      "en": "The Red Second and Sixth Army Groups destroyed a KMT unit at Chenjiahe."
+      "zh": "红二、六军团在陈家河、桃子溪连歼国民党军第 58 师，收复桑植县城。",
+      "en": "The Second and Sixth Army Groups destroyed the 58th Division at Chenjiahe and Taozixi and recovered Sangzhi county town."
     },
     "description": {
-      "zh": "1935 年 4 月 13 日，红二、六军团在湖南桑植陈家河地区歼灭国民党军第 58 师第 172 旅。番号为通行说法，待页码级核对。",
-      "en": "On April 13, 1935, the Red Second and Sixth Army Groups destroyed the 172nd Brigade of the KMT 58th Division at Chenjiahe, Sangzhi, Hunan. Unit designations follow conventional accounts and await page-level verification."
+      "zh": "1935 年 4 月 12 日，红二、六军团主力撤离塔卧、龙家寨，计划经桑植陈家河北上。13 日先头部队在陈家河与国民党军第 58 师第 172 旅遭遇，当晚将其包围；14 日发起攻击，全歼该旅。由桑植增援的第 58 师师部及第 174 旅进至两河口后掉头南撤，15 日逃至桃子溪宿营，红军冒雨追击，经两小时激战将其全歼；16 日乘胜收复桑植县城。此役歼敌近一个师，红军由被动转为主动，放弃了北渡长江的计划。本坐标为陈家河镇代表点，桃子溪取永顺县砂坝镇桃子溪村点。",
+      "en": "On 12 April 1935 the main force of the Second and Sixth Army Groups left Tawo and Longjiazhai, intending to move north through Chenjiahe in Sangzhi. On the 13th its advance guard met the 172nd Brigade of the 58th Division at Chenjiahe and surrounded it that night; on the 14th it attacked and destroyed the brigade. The 58th Division headquarters and the 174th Brigade, coming up from Sangzhi, turned back at Lianghekou and halted at Taozixi on the 15th, where the Red Army caught and destroyed them in a two-hour fight; on the 16th it recovered Sangzhi county town. The battle destroyed nearly a whole division and turned the Red Army from passive to active, ending the plan to cross the Yangtze northward. The coordinate is a representative point at Chenjiahe town; Taozixi uses the Taozixi village point in Shaba, Yongshun."
     },
     "images": [],
     "sources": [
@@ -4995,7 +5006,10 @@
       "shiwangping-1934-11",
       "zhongbao-1935-06"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "beipanjiang-1935-04",
