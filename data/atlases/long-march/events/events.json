@@ -4651,7 +4651,9 @@
     "relatedIds": [
       "maogong-1935-06",
       "kmt-red4-blockade-1935-05",
-      "dawei-meeting-1935-06"
+      "dawei-meeting-1935-06",
+      "tumen-1935-05",
+      "maoxian-1935-05"
     ],
     "endDate": "1935-04-21",
     "importance": 1,
@@ -5586,6 +5588,72 @@
       "yuanmou-occupy-1935-05"
     ],
     "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "tumen-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "土门战役",
+      "en": "Tumen Campaign"
+    },
+    "aliases": [
+      {
+        "zh": "土门隘口之战",
+        "en": "Battle of the Tumen Pass"
+      },
+      {
+        "zh": "北川河谷—土门战役",
+        "en": "Beichuan Valley–Tumen Campaign"
+      }
+    ],
+    "date": "1935-05-01",
+    "endDate": "1935-05-22",
+    "location": {
+      "lng": 104.073,
+      "lat": 31.767,
+      "place": {
+        "zh": "四川茂县土门镇（北川河谷中段隘道）",
+        "en": "Tumen, Mao county, Sichuan (the pass in the middle Beichuan valley)"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红四方面军夺取伏泉山、千佛山与土门隘口，打开西入岷江流域的通道，歼敌万余人。",
+      "en": "The Fourth Front Army took Fuquan Hill, Qianfo Mountain, and the Tumen pass, opening the way west into the Min River basin and destroying over 10,000 enemy troops."
+    },
+    "description": {
+      "zh": "1935 年 4 月下旬，红四方面军放弃川陕苏区西进至江油、中坝一带后，为打开西入岷江流域的通道，决定先夺取北川河谷南侧的伏泉山、千佛山、观音梁子，佯作攻打成都以吸引和调动川军主力，再突破土门隘口。4 月底红军攻占伏泉山；5 月 1 日突破封锁线占领墩上，抢渡湔江，攻占大垭口；5 月 8 日国民党军被迫退回茶坪防守；5 月 10 日，红三十军第八十八师、红九军第二十五师各一部配合已在千佛山东部的部队左右夹击，攻占千佛山主峰。5 月 14 日拂晓，红四方面军分左、中、右三路向土门发起总攻，当天占领土门、干沟，15 日乘胜攻占茂县。5 月 18 日邓锡侯、孙震、王缵绪以近 30 个团反扑，红军在大垭口重创王缵绪部一个旅；22 日蒋介石判断红军主力已西去与中央红军会合，令停止向北川、土门进攻，改取守势。战役持续近一个月，红军共歼敌 1 万余人（战史统计，各资料略有出入）。土门地处北川河谷中段，沿土门河有一条隘道，是涪江与岷江上游之间的主要通道，红四方面军 8 万人西进只能由此通过。本坐标为土门镇代表点。",
+      "en": "In late April 1935, after giving up the Sichuan-Shaanxi base and moving west to Jiangyou and Zhongba, the Fourth Front Army set out to open a passage into the Min River basin: it would first take Fuquan Hill, Qianfo Mountain, and Guanyin Ridge on the south side of the Beichuan valley, feigning an attack on Chengdu to draw off the Sichuan main force, then break the Tumen pass. The Red Army took Fuquan Hill at the end of April; on 1 May it broke the blockade line, took Dunshang, forced the Jian River, and seized Dayakou; on 8 May the Sichuan troops were pushed back to Chaping. On 10 May the 88th Division of the 30th Army and the 25th Division of the 9th Army, with the troops already east of Qianfo Mountain, attacked from both sides and took the mountain’s main peak. At dawn on 14 May the Fourth Front Army attacked Tumen in three columns, took Tumen and Gangou that day, and on 15 May took Mao county town. On 18 May Deng Xihou, Sun Zhen, and Wang Zuxu counter-attacked with nearly thirty regiments, and the Red Army mauled one of Wang’s brigades at Dayakou; on 22 May Chiang Kai-shek, judging that the Red Army main force had gone west to join the Central Red Army, ordered the attacks stopped and a defensive stance adopted. The campaign lasted nearly a month and cost the enemy more than 10,000 men (a campaign history figure; sources differ slightly). Tumen sits in the middle Beichuan valley, where a narrow road along the Tumen River is the main route between the upper Fu and Min rivers, and the Fourth Front Army’s 80,000 troops could only pass there. The coordinate is a representative point at Tumen."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《解读长征（35）：红军在土门战役中歼灭了多少敌人》",
+        "author": "人民网·党史（姜廷玉，中国人民革命军事博物馆）",
+        "year": 2016,
+        "note": "用于核对伏泉山、墩上、大垭口、千佛山主峰、5 月 14 日总攻土门、15 日占茂县与 22 日蒋令停止进攻",
+        "url": "http://dangshi.people.com.cn/n1/2016/0919/c406450-28724537.html"
+      },
+      {
+        "title": "《巴山蜀水铸忠魂——红四方面军长征与四川》",
+        "author": "四川党史",
+        "year": 2018,
+        "note": "用于核对嘉陵江战役 3 月 28 日至 4 月 21 日、攻克 8 座县城与控制区域",
+        "url": "http://scds.org.cn/2018-1/31/884-6046-397.htm"
+      }
+    ],
+    "relatedIds": [
+      "jialing-jiang-1935-03",
+      "qianfoshan-1935-05",
+      "maoxian-1935-05"
+    ],
+    "importance": 1,
     "extensions": {
       "locationPrecision": "approx"
     }
@@ -6620,6 +6688,63 @@
     }
   },
   {
+    "id": "qianfoshan-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "千佛山阻击战",
+      "en": "Qianfo Mountain Blocking Battle"
+    },
+    "aliases": [
+      {
+        "zh": "千佛山战斗",
+        "en": "Battle of Qianfo Mountain"
+      },
+      {
+        "zh": "千佛山—伏泉山阻击战",
+        "en": "Qianfo–Fuquan Blocking Action"
+      }
+    ],
+    "date": "1935-05-10",
+    "location": {
+      "lng": 104.279,
+      "lat": 31.687,
+      "place": {
+        "zh": "四川绵阳安州千佛山（千佛镇一带）",
+        "en": "Qianfo Mountain, Anzhou, Mianyang, Sichuan (Qianfo township area)"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红四方面军攻占千佛山主峰并坚守月余，牵制川军，掩护主力西进岷江。",
+      "en": "The Fourth Front Army took and held the Qianfo Mountain peak for over a month, pinning Sichuan troops while the main force moved west to the Min River."
+    },
+    "description": {
+      "zh": "千佛山位于北川河谷南侧，与伏泉山、观音梁子连绵起伏百余里，是南扼川西平原、北控北川河谷的天然屏障。1935 年 5 月 10 日，红四方面军第三十军第八十八师、第九军第二十五师各一部配合已在千佛山东部的部队，对守军形成左右夹击态势，攻占千佛山主峰。此后数日，两军在大垭口、千佛山等地反复争夺，国民党军始终未能夺回阵地。6 月中旬，坚守伏泉山、千佛山、土门一线负责掩护和牵制敌军的红军部队，在红四方面军副总指挥王树声指挥下撤离阵地，跟随主力西进。千佛山一线的坚守为红四方面军主力西入岷江、迎接中央红军争取了时间，也是土门战役中持续时间最长的一段。本坐标为千佛镇一带代表点，主峰精确位置待实测。",
+      "en": "Qianfo Mountain lies on the south side of the Beichuan valley; with Fuquan Hill and Guanyin Ridge it forms a ridge line over a hundred li long that screens the Chengdu plain to the south and commands the Beichuan valley to the north. On 10 May 1935 the 88th Division of the 30th Army and the 25th Division of the 9th Army, with the troops already east of the mountain, attacked from both sides and took the main peak. For several days afterwards the two sides fought over Dayakou and Qianfo Mountain, and the Sichuan troops never retook the positions. In mid-June the Red Army units holding the Fuquan–Qianfo–Tumen line to cover and pin the enemy withdrew under the command of Wang Shusheng, deputy commander of the Fourth Front Army, and followed the main force west. The stand at Qianfo Mountain bought time for the main force to enter the Min River basin and meet the Central Red Army, and was the longest phase of the Tumen campaign. The coordinate is a representative point in the Qianfo township area; the exact peak position remains to be surveyed."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《解读长征（35）：红军在土门战役中歼灭了多少敌人》",
+        "author": "人民网·党史（姜廷玉，中国人民革命军事博物馆）",
+        "year": 2016,
+        "note": "用于核对伏泉山、墩上、大垭口、千佛山主峰、5 月 14 日总攻土门、15 日占茂县与 22 日蒋令停止进攻",
+        "url": "http://dangshi.people.com.cn/n1/2016/0919/c406450-28724537.html"
+      }
+    ],
+    "relatedIds": [
+      "tumen-1935-05",
+      "maoxian-1935-05"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "huili-1935-05",
     "atlasId": "long-march",
     "name": {
@@ -6679,6 +6804,64 @@
       "yihai-1935-05"
     ],
     "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "maoxian-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "占领茂县",
+      "en": "Occupation of Mao County"
+    },
+    "aliases": [
+      {
+        "zh": "红四方面军进占茂县",
+        "en": "Fourth Front Army Enters Mao County"
+      },
+      {
+        "zh": "茂县后方基地",
+        "en": "Mao County Rear Base"
+      }
+    ],
+    "date": "1935-05-15",
+    "location": {
+      "lng": 103.851,
+      "lat": 31.684,
+      "place": {
+        "zh": "四川茂县县城（凤仪镇）",
+        "en": "Mao county town (Fengyi), Sichuan"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "红四方面军攻占茂县，以此为中心建立临时后方，为西进懋功与迎接中央红军筹粮备物。",
+      "en": "The Fourth Front Army took Mao county town and made it a temporary rear base, stockpiling grain and supplies for the move to Maogong and the meeting with the Central Red Army."
+    },
+    "description": {
+      "zh": "1935 年 5 月 15 日，红四方面军攻占土门、干沟后乘胜追击，占领茂县（今茂县凤仪镇）。茂县地处岷江上游，是川西北的交通要道与物资集散地，红军占领后以此为中心设置临时后方，医院、兵工厂、被服厂等陆续开办，并为后续西进理番、懋功和迎接中央红军筹集粮食、盐巴、药品与御寒物资。5 月 18 日国民党军以近 30 个团反扑土门，红军在大垭口重创其一个旅，茂县得以稳固；5 月 22 日蒋介石令停止进攻后，红四方面军主力继续向理番、懋功方向西进。茂县是红四方面军长征途中在川西北建立的第一个较稳定的落脚点。本坐标为茂县县城代表点。",
+      "en": "On 15 May 1935, after taking Tumen and Gangou, the Fourth Front Army pursued and occupied Mao county town (present-day Fengyi, Mao county). Mao sits on the upper Min River and was a transport hub and supply centre in northwestern Sichuan; the Red Army made it a temporary rear base with hospitals, an arsenal, and a uniform workshop, and stockpiled grain, salt, medicine, and winter supplies for the move west to Lifan and Maogong and the meeting with the Central Red Army. On 18 May the Sichuan troops counter-attacked Tumen with nearly thirty regiments and the Red Army mauled a brigade at Dayakou, securing Mao; after Chiang Kai-shek ordered the attacks stopped on 22 May the main force continued west toward Lifan and Maogong. Mao was the first reasonably secure foothold the Fourth Front Army established in northwestern Sichuan during the Long March. The coordinate is a representative point at Mao county town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《解读长征（35）：红军在土门战役中歼灭了多少敌人》",
+        "author": "人民网·党史（姜廷玉，中国人民革命军事博物馆）",
+        "year": 2016,
+        "note": "用于核对伏泉山、墩上、大垭口、千佛山主峰、5 月 14 日总攻土门、15 日占茂县与 22 日蒋令停止进攻",
+        "url": "http://dangshi.people.com.cn/n1/2016/0919/c406450-28724537.html"
+      }
+    ],
+    "relatedIds": [
+      "tumen-1935-05",
+      "qianfoshan-1935-05",
+      "maogong-occupy-1935-06"
+    ],
+    "importance": 2,
     "extensions": {
       "locationPrecision": "approx"
     }
@@ -7874,6 +8057,80 @@
     }
   },
   {
+    "id": "maogong-occupy-1935-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "攻占懋功、前出达维",
+      "en": "Seizure of Maogong and Advance to Dawei"
+    },
+    "aliases": [
+      {
+        "zh": "李先念率部迎接中央红军",
+        "en": "Li Xiannian’s Force Moves to Meet the Central Red Army"
+      },
+      {
+        "zh": "红三十军攻占懋功",
+        "en": "30th Army Takes Maogong"
+      }
+    ],
+    "date": "1935-06-08",
+    "endDate": "1935-06-09",
+    "location": {
+      "lng": 102.361,
+      "lat": 30.998,
+      "place": {
+        "zh": "四川懋功（今小金）县城",
+        "en": "Maogong (present-day Xiaojin) county town, Sichuan"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "李先念率红三十军等部攻占懋功、前出达维，扫清沿途敌军并筹备粮盐，迎接中央红军。",
+      "en": "Li Xiannian’s 30th Army and attached units took Maogong and pushed on to Dawei, clearing the road and stockpiling food and salt to receive the Central Red Army."
+    },
+    "description": {
+      "zh": "1935 年 6 月上旬，红四方面军总部获悉中央红军已渡过泸定桥北上，即派第三十军政委李先念率第三十军和第九军各一部前往懋功（今小金）方向迎接，并要求部队扫清沿途敌人、筹粮熬盐、制作慰劳品。6 月 8 日红四方面军一部攻占懋功，6 月 9 日占领懋功东南的达维镇。李先念后来回忆：「一、四方面军在四川省懋功会师，是有重大历史意义的事件」「我们早就盼望见到党中央和一方面军了」。6 月 12 日，中央红军先头部队翻越夹金山到达达维，与红四方面军第三十军李先念部会师；6 月 18 日中共中央与中央红军主力到达懋功。本坐标为懋功（小金）县城代表点，达维镇在其东南约 26 公里处。",
+      "en": "In early June 1935, learning that the Central Red Army had crossed Luding Bridge and was moving north, the Fourth Front Army headquarters sent Li Xiannian, commissar of the 30th Army, with the 30th Army and parts of the 9th Army toward Maogong (present-day Xiaojin) to meet it, ordering them to clear the enemy along the way and to prepare grain, boiled salt, and gifts for the arriving comrades. On 8 June a Fourth Front Army force took Maogong, and on 9 June it occupied Dawei southeast of the town. Li Xiannian later recalled: “the meeting of the First and Fourth Front Armies at Maogong in Sichuan was an event of great historical significance” and “we had long been hoping to see the Party Centre and the First Front Army.” On 12 June the Central Red Army’s advance guard crossed Mount Jiajin to Dawei and joined Li Xiannian’s 30th Army; on 18 June the Central Committee and the Central Red Army main force reached Maogong. The coordinate is a representative point at Maogong (Xiaojin) county town; Dawei lies about 26 km to its southeast."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《红军翻越夹金大雪山的历史细节》",
+        "author": "文汇报",
+        "year": 2019,
+        "note": "用于核对红四方面军总部决定西进、6 月上旬派李先念率部迎接、6 月 8 日占懋功、6 月 9 日占达维",
+        "url": "https://wenhui.whb.cn/zhuzhan/dushu/20190524/265251.html"
+      },
+      {
+        "title": "《懋功会师，壮大了红军力量》",
+        "author": "光明网",
+        "year": 2026,
+        "note": "用于核对李先念任红三十军政委、在懋功担负接应任务及其回忆",
+        "url": "https://news.gmw.cn/2026-10/12/content_39039661.htm"
+      },
+      {
+        "title": "《遵义会议和红军长征的胜利》",
+        "author": "共产党员网",
+        "year": 2016,
+        "note": "用于核对 6 月 12 日达维会师与红四方面军第三十军李先念部",
+        "url": "https://fuwu.12371.cn/2016/07/22/ARTI1469154834425831.shtml"
+      }
+    ],
+    "relatedIds": [
+      "maoxian-1935-05",
+      "dawei-meeting-1935-06",
+      "maogong-1935-06",
+      "jiajinshan-1935-06"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "qiaoqi-1935-06",
     "atlasId": "long-march",
     "name": {
@@ -8117,7 +8374,8 @@
     "relatedIds": [
       "jiajinshan-1935-06",
       "maogong-1935-06",
-      "moxi-meeting-1935-05"
+      "moxi-meeting-1935-05",
+      "maogong-occupy-1935-06"
     ],
     "importance": 1,
     "extensions": {
@@ -8176,7 +8434,8 @@
     ],
     "relatedIds": [
       "dawei-meeting-1935-06",
-      "jialing-jiang-1935-03"
+      "jialing-jiang-1935-03",
+      "maogong-occupy-1935-06"
     ]
   },
   {
