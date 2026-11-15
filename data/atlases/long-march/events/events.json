@@ -4799,7 +4799,9 @@
       "laomukong-1935-04",
       "piaoerjing-1935-04",
       "xuanwei-occupy-1935-04",
-      "huize-1935-05"
+      "huize-1935-05",
+      "beipanjiang-1935-04",
+      "kunming-feint-1935-04"
     ],
     "endDate": "1935-04-09",
     "importance": 1,
@@ -4994,6 +4996,72 @@
     "importance": 2
   },
   {
+    "id": "beipanjiang-1935-04",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "抢渡北盘江",
+      "en": "Forcing the Beipan River"
+    },
+    "aliases": [
+      {
+        "zh": "坝草、白层、者坪渡口",
+        "en": "Bacao, Baiceng and Zheping crossings"
+      },
+      {
+        "zh": "白层渡口",
+        "en": "Baiceng Ferry"
+      }
+    ],
+    "date": "1935-04-16",
+    "endDate": "1935-04-18",
+    "location": {
+      "lng": 105.765,
+      "lat": 25.381,
+      "place": {
+        "zh": "贵州贞丰白层渡口（另有坝草、者坪渡口）",
+        "en": "Baiceng Ferry, Zhenfeng, Guizhou (with Bacao and Zheping)"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "渡口",
+    "summary": {
+      "zh": "中央红军在坝草、白层、者坪三处渡过北盘江，4 月 18 日全部过江。",
+      "en": "The Central Red Army crossed the Beipan River at Bacao, Baiceng, and Zheping, completing the crossing on 18 April."
+    },
+    "description": {
+      "zh": "1935 年 4 月 13 日，彭德怀、杨尚昆致电中革军委建议迅速渡过北盘江、袭取滇黔咽喉富源，军委当日 23 时以「万万火急」电令各军团「速渡北盘江，先期占兴仁、安龙地区」。4 月 16 日，右路红三军团第十一团急行军赶到北盘江东岸，占领坝草渡口，随后沿江而下攻取白层渡口：守军黔军犹国才部一个营提出「让出渡口、请红军假打几枪」以向上面交代，红军对空鸣枪后顺利接收渡口并架设浮桥。左路红一军团第二团在政委邓华率领下赶到下游者坪渡口，与群众用竹筏、木桩架起 2 米余宽浮桥。4 月 18 日中央红军全部渡过北盘江，同期占领册亨、贞丰，并向兴仁、安龙、兴义推进。本坐标为白层渡口代表点。",
+      "en": "On 13 April 1935 Peng Dehuai and Yang Shangkun cabled the Central Revolutionary Military Commission recommending a rapid crossing of the Beipan River and a strike at Fuyuan, the throat between Yunnan and Guizhou; that night at 11 p.m. the commission ordered all army corps to “cross the Beipan quickly and seize the Xingren and Anlong area first.” On 16 April the right column’s 11th Regiment of the 3rd Army Corps reached the east bank at a forced march, took the Bacao crossing, and moved downstream to seize Baiceng: the defending battalion of You Guocai’s Guizhou troops offered to hand over the crossing if the Red Army fired a few shots “for appearances,” so the Red Army fired into the air, took over the crossing, and built a pontoon bridge. On the left, the 2nd Regiment of the 1st Army Corps under commissar Deng Hua reached the Zheping crossing downstream and, with local people, built a pontoon more than 2 m wide on bamboo rafts and timber piles. By 18 April the whole Central Red Army had crossed the Beipan, taking Ceheng and Zhenfeng and pushing on toward Xingren, Anlong, and Xingyi. The coordinate is a representative point at the Baiceng crossing."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抢渡北盘江》",
+        "author": "中共安顺市委党史研究室 / 新华网贵州频道",
+        "year": 2024,
+        "note": "用于核对 4 月 16—18 日坝草、白层、者坪三处渡口与中央红军全部渡过北盘江",
+        "url": "http://www.gz.xinhuanet.com/20241106/ef1c18b3a9d845e596f083ccc177a1ae/c.html"
+      },
+      {
+        "title": "《金沙流水响叮当 英勇红军来渡江》",
+        "author": "上海党史网",
+        "year": 2023,
+        "note": "用于核对 4 月 29 日攻克嵩明、寻甸县城及杨林兵站与三路奔袭部署",
+        "url": "https://www.ccphistory.org.cn/shds/shhm/content/5e7f0fdb-9865-42cd-be8b-62e5a16da692.html"
+      }
+    ],
+    "relatedIds": [
+      "guiyang-feint-1935-04",
+      "kunming-feint-1935-04",
+      "lukoushao-1935-04"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
     "id": "xuanwei-occupy-1935-04",
     "atlasId": "long-march",
     "name": {
@@ -5053,6 +5121,221 @@
       "piaoerjing-1935-04",
       "huize-1935-05",
       "ferry-shujudu-1935-05"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "kunming-feint-1935-04",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "逼近昆明",
+      "en": "Feint on Kunming"
+    },
+    "aliases": [
+      {
+        "zh": "虚晃一枪逼昆明",
+        "en": "Bluff Before Kunming"
+      },
+      {
+        "zh": "攻克嵩明、寻甸与杨林兵站",
+        "en": "Capture of Songming, Xundian and Yanglin Depot"
+      }
+    ],
+    "date": "1935-04-27",
+    "endDate": "1935-04-29",
+    "location": {
+      "lng": 103.036,
+      "lat": 25.334,
+      "place": {
+        "zh": "云南嵩明（前锋伸至昆明近郊、杨林兵站）",
+        "en": "Songming, Yunnan (with the advance guard reaching the outskirts of Kunming and the Yanglin depot)"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "中央红军连下马龙、寻甸、嵩明，前锋逼近昆明，诱使滇军回援。",
+      "en": "The Central Red Army took Malong, Xundian, and Songming, its advance guard threatening Kunming and drawing Yunnan troops back."
+    },
+    "description": {
+      "zh": "1935 年 4 月 27 日，红三军团攻打沾益，红一军团占领马龙，掩护中央纵队前进；中央纵队先遣分队在曲靖城西公路上截获龙云给薛岳运送物资的汽车，缴获云南白药、宣威火腿与 20 余份十万分之一云南军用地图，军委据此当夜定下「28 日野战军开始西转，求速达寻甸、松林之线」。4 月 29 日，红一、红三军团分别攻克嵩明、寻甸县城及杨林兵站，前锋前伸至昆明近郊，大张旗鼓作出进攻昆明姿态。龙云急电尚在曲靖以东的滇军孙渡纵队取捷径直扑昆明，并调集各地民团守城，滇北与金沙江南岸防御进一步空虚。此次佯动与此前佯攻贵阳相衔接，是「调出滇军就是胜利」的关键一步。本坐标为嵩明县城代表点。",
+      "en": "On 27 April 1935 the 3rd Army Corps attacked Zhanyi and the 1st Army Corps took Malong, covering the central column. A detachment of the central column intercepted a truck on the road west of Qujing carrying supplies from Long Yun to Xue Yue, capturing Yunnan white medicine, Xuanwei ham, and more than twenty 1:100,000 maps of Yunnan; that night the Military Commission decided that “on the 28th the field army will turn west and push quickly to the Xundian–Songlin line.” On 29 April the 1st and 3rd Army Corps took Songming and Xundian county towns and the Yanglin depot, with the advance guard reaching the outskirts of Kunming and ostentatiously posing to attack the city. Long Yun urgently ordered Sun Du’s column, still east of Qujing, to march straight on Kunming and mobilized local militia, further thinning the defences of northern Yunnan and the south bank of the Jinsha. The feint continued the earlier bluff on Guiyang and was the key step in “drawing the Yunnan troops out.” The coordinate is a representative point at Songming county town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《战略转移中具有决定意义的胜利——中央红军巧渡金沙江》",
+        "author": "中共云南党史网",
+        "year": 2024,
+        "note": "用于核对 4 月 29 日指示、4 月 30 日进驻柯渡丹桂村与具体部署",
+        "url": "https://www.ynds.yn.gov.cn/html/2024/zhongyanghongjunqiaodujinshajiang_0903/1002366.html"
+      },
+      {
+        "title": "《金沙流水响叮当 英勇红军来渡江》",
+        "author": "上海党史网",
+        "year": 2023,
+        "note": "用于核对 4 月 29 日攻克嵩明、寻甸县城及杨林兵站与三路奔袭部署",
+        "url": "https://www.ccphistory.org.cn/shds/shhm/content/5e7f0fdb-9865-42cd-be8b-62e5a16da692.html"
+      },
+      {
+        "title": "《毛泽东的长征：1935 年 4 月》",
+        "author": "红歌会网（转引党史资料）",
+        "year": 2025,
+        "note": "用于核对 4 月 27 日逼近昆明、4 月 28 日鲁口哨宿营与 4 月 29 日渡江指示",
+        "url": "https://www.szhgh.com/Article/wsds/history/375902.html"
+      }
+    ],
+    "relatedIds": [
+      "guiyang-feint-1935-04",
+      "beipanjiang-1935-04",
+      "lukoushao-1935-04",
+      "jinsha-campaign-1935-05"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "lukoushao-1935-04",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "鲁口哨会议与“四·二九”渡江令",
+      "en": "Lukoushao Meeting and the 29 April Crossing Order"
+    },
+    "aliases": [
+      {
+        "zh": "四·二九渡江令",
+        "en": "29 April Crossing Order"
+      },
+      {
+        "zh": "《关于野战军速渡金沙江转入川西建立苏区的指示》",
+        "en": "Directive on Rapidly Crossing the Jinsha River"
+      }
+    ],
+    "date": "1935-04-28",
+    "endDate": "1935-04-29",
+    "location": {
+      "lng": 103.417,
+      "lat": 25.507,
+      "place": {
+        "zh": "云南寻甸七星镇鲁口哨村",
+        "en": "Lukoushao, Qixing, Xundian, Yunnan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "中革军委在鲁口哨决定并发布速渡金沙江的指示，确定三路奔袭渡口。",
+      "en": "At Lukoushao the Military Commission decided on and issued the order to cross the Jinsha quickly, with three columns racing for the crossings."
+    },
+    "description": {
+      "zh": "1935 年 4 月 28 日晚，毛泽东、朱德、周恩来等在寻甸鲁口哨一带宿营并开会，研究北渡金沙江的行动部署。毛泽东指出：遵义会议后我军大胆穿插，已把蒋介石的尾追部队甩在侧后，取得北渡金沙江的有利时机；云南境内地形不利于在昆明东北平川地带与敌决战，应趁沿江敌军空虚、追敌尚有三四天行程，迅速抢渡金沙江。4 月 29 日，中革军委在鲁口哨发出《关于野战军速渡金沙江转入川西建立苏区的指示》，判断「金沙江两岸空虚」，要求「利用目前有利时机，争取迅速渡过金沙江」，并规定：红三军团为右纵队奔洪门渡，军委纵队及红五军团为中央纵队奔皎平渡，红一军团（缺一个师）经嵩明、禄劝奔龙街渡，另一个师为先头师先到禄劝架桥；红九军团相机占领东川后西行渡江。指示同时规定渡江前应「较急行军远离追敌」，本队期于 5 月 5 日到达江边。本坐标为鲁口哨村代表点。",
+      "en": "On the evening of 28 April 1935 Mao Zedong, Zhu De, Zhou Enlai, and others camped and met around Lukoushao in Xundian to plan the crossing of the Jinsha. Mao observed that since the Zunyi conference the army had manoeuvred boldly and thrown Chiang Kai-shek’s pursuers off its flank, gaining a favourable opportunity; the terrain in Yunnan did not favour a decisive battle on the plain northeast of Kunming, so with the river defences thin and the pursuers three or four days behind, the army should cross quickly. On 29 April the Military Commission issued at Lukoushao the “Directive on the Field Army’s Rapid Crossing of the Jinsha River to Establish a Soviet Area in Western Sichuan,” judging both banks empty and ordering the army to “seize the favourable moment and cross quickly.” It assigned the 3rd Army Corps as the right column for Hongmen Ferry, the Military Commission column and 5th Army Corps as the centre for Jiaoping Ferry, the 1st Army Corps (less one division) via Songming and Luquan for Longjie Ferry with one division sent ahead to build bridges at Luquan, and the Ninth Army Corps to take Dongchuan and cross westward. It also required forced marches to open distance from the pursuers, with the main body reaching the river by 5 May. The coordinate is a representative point at Lukoushao village."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《毛泽东的长征：1935 年 4 月》",
+        "author": "红歌会网（转引党史资料）",
+        "year": 2025,
+        "note": "用于核对 4 月 27 日逼近昆明、4 月 28 日鲁口哨宿营与 4 月 29 日渡江指示",
+        "url": "https://www.szhgh.com/Article/wsds/history/375902.html"
+      },
+      {
+        "title": "《寻甸柯渡：红军长征在这里播下革命火种》",
+        "author": "云南人大 / 中共云南省委党史研究室",
+        "year": 2021,
+        "note": "用于核对 4 月 29 日凌晨在七星镇鲁口哨发布渡江令",
+        "url": "https://www.ynrd.gov.cn/html/2021/bainiandangshi_0702/13067.html"
+      },
+      {
+        "title": "《战略转移中具有决定意义的胜利——中央红军巧渡金沙江》",
+        "author": "中共云南党史网",
+        "year": 2024,
+        "note": "用于核对 4 月 29 日指示、4 月 30 日进驻柯渡丹桂村与具体部署",
+        "url": "https://www.ynds.yn.gov.cn/html/2024/zhongyanghongjunqiaodujinshajiang_0903/1002366.html"
+      }
+    ],
+    "relatedIds": [
+      "kedu-1935-04",
+      "kunming-feint-1935-04",
+      "jinsha-campaign-1935-05",
+      "jinsha-1935-05"
+    ],
+    "importance": 1,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "kedu-1935-04",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "柯渡丹桂村部署渡江",
+      "en": "Crossing Plans at Kedu"
+    },
+    "aliases": [
+      {
+        "zh": "柯渡会议",
+        "en": "Kedu Meeting"
+      },
+      {
+        "zh": "丹桂村中央红军总部驻地",
+        "en": "Dan Gui Village Headquarters"
+      }
+    ],
+    "date": "1935-04-30",
+    "endDate": "1935-05-01",
+    "location": {
+      "lng": 102.856,
+      "lat": 25.551,
+      "place": {
+        "zh": "云南寻甸柯渡镇丹桂村",
+        "en": "Dangui village, Kedu, Xundian, Yunnan"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "重要会议",
+    "summary": {
+      "zh": "中革军委进驻柯渡丹桂村，任命刘伯承为渡江先遣司令并具体部署渡江。",
+      "en": "The Military Commission set up at Dangui in Kedu, naming Liu Bocheng crossing commander and arranging the details."
+    },
+    "description": {
+      "zh": "1935 年 4 月 30 日，中共中央、中革军委进驻云南寻甸柯渡镇丹桂村，总部设在地主何本恩家四合院，毛泽东、王稼祥、张闻天住相邻的杨明修家楼房。当晚中革军委在何本恩家召开会议，对抢渡金沙江作具体部署：以总参谋长刘伯承为渡江先遣司令，组成渡江临时指挥部，统一指挥全军渡江；并决定由干部团先占皎平渡。周恩来连夜拟定渡江方案，次日凌晨与毛泽东交换意见。驻柯渡期间，红军向群众宣传政治主张与民族政策，当场有十多名回族青年报名参军。5 月 1 日前后部队继续北上，5 月 3 日干部团抢占皎平渡。本坐标为丹桂村代表点。",
+      "en": "On 30 April 1935 the Central Committee and the Military Commission moved into Dangui village, Kedu, Xundian, Yunnan, setting up headquarters in the courtyard house of the landlord He Ben’en, while Mao Zedong, Wang Jiaxiang, and Zhang Wentian lodged in the neighbouring house of Yang Mingxiu. That evening the commission met at He’s house to arrange the crossing: Chief of Staff Liu Bocheng was named commander of the crossing advance guard with a temporary crossing command to direct the whole army, and the cadet regiment was to seize Jiaoping Ferry first. Zhou Enlai worked through the night on the plan and exchanged views with Mao before dawn. During the stay the Red Army publicized its political programme and nationality policy, and more than ten Hui young men enlisted on the spot. The army moved north around 1 May, and on 3 May the cadet regiment seized Jiaoping Ferry. The coordinate is a representative point at Dangui village."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《战略转移中具有决定意义的胜利——中央红军巧渡金沙江》",
+        "author": "中共云南党史网",
+        "year": 2024,
+        "note": "用于核对 4 月 29 日指示、4 月 30 日进驻柯渡丹桂村与具体部署",
+        "url": "https://www.ynds.yn.gov.cn/html/2024/zhongyanghongjunqiaodujinshajiang_0903/1002366.html"
+      },
+      {
+        "title": "《金沙流水响叮当 英勇红军来渡江》",
+        "author": "上海党史网",
+        "year": 2023,
+        "note": "用于核对 4 月 29 日攻克嵩明、寻甸县城及杨林兵站与三路奔袭部署",
+        "url": "https://www.ccphistory.org.cn/shds/shhm/content/5e7f0fdb-9865-42cd-be8b-62e5a16da692.html"
+      }
+    ],
+    "relatedIds": [
+      "lukoushao-1935-04",
+      "jinsha-campaign-1935-05",
+      "ferry-jiaopingdu-1935-05",
+      "jinsha-1935-05"
     ],
     "importance": 2,
     "extensions": {

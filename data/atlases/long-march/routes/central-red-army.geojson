@@ -1621,6 +1621,68 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.765,
+            25.381
+          ],
+          [
+            105.191,
+            25.436
+          ],
+          [
+            104.893,
+            25.095
+          ],
+          [
+            104.254,
+            25.674
+          ],
+          [
+            103.794,
+            25.494
+          ],
+          [
+            103.036,
+            25.334
+          ],
+          [
+            103.256,
+            25.56
+          ],
+          [
+            102.856,
+            25.551
+          ],
+          [
+            102.469,
+            25.554
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1935-04-16",
+        "endDate": "1935-05-03",
+        "order": 37,
+        "segmentType": "advance",
+        "name": {
+          "zh": "北盘江—兴仁—兴义—富源—曲靖—嵩明—寻甸—柯渡—禄劝",
+          "en": "Beipan River–Xingren–Xingyi–Fuyuan–Qujing–Songming–Xundian–Kedu–Luquan"
+        },
+        "description": {
+          "zh": "中央红军 4 月 16 日至 18 日由坝草、白层、者坪渡过北盘江，经兴仁、安龙、兴义进入云南，连下平彝（今富源）、马龙、寻甸、嵩明并威逼昆明，4 月 29 日在寻甸鲁口哨发布渡江令，4 月 30 日进驻柯渡丹桂村部署渡江，随后北上禄劝一带。路线为示意，各路纵队分进路线未分线画出。",
+          "en": "From 16 to 18 April 1935 the Central Red Army crossed the Beipan at Bacao, Baiceng, and Zheping, moved through Xingren, Anlong, and Xingyi into Yunnan, took Pingyi (present-day Fuyuan), Malong, Xundian, and Songming while threatening Kunming, issued the crossing order at Lukoushao on 29 April, set up at Dangui in Kedu on 30 April to arrange the crossing, and then moved north toward Luquan. The route is schematic; the separate columns’ tracks are not drawn individually."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
