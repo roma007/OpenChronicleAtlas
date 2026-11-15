@@ -1,4 +1,5 @@
 import type {
+  AtlasEvent,
   AtlasRouteFeature,
   AtlasTerritoryFeature,
   RouteGeometry,
@@ -14,7 +15,6 @@ import {
   resolveLocalized,
   routeStyleForSegmentType,
   wgs84ToGcj02,
-  type AtlasEventCluster,
 } from '@atlas/shared';
 import { useEffect, useRef, useState } from 'react';
 import { amapStyleId, loadAMap } from '../../map/amap';
@@ -32,6 +32,9 @@ const ROUTE_LABEL_MIN_ZOOM = 6;
 const ROUTE_LABEL_PROGRESS = 0.45;
 const ROUTE_HEAD_MIN_ZOOM = 5;
 const ROUTE_LABEL_PADDING_PX = 3;
+/** 到达该缩放级别后，同一格内的多个事件改为散点显示，避免聚合点无法展开 */
+const MARKER_SPIDERFY_ZOOM = 12;
+const MARKER_SPIDERFY_RADIUS_PX = 22;
 
 interface LineEntry {
   feature: AtlasRouteFeature;
@@ -58,10 +61,17 @@ interface ScreenRect {
 }
 
 interface MarkerEntry {
-  cluster: AtlasEventCluster;
+  events: AtlasEvent[];
   marker: any;
   element: HTMLButtonElement;
   countEl: HTMLSpanElement | null;
+}
+
+interface MarkerGroup {
+  key: string;
+  events: AtlasEvent[];
+  center: [number, number];
+  offset: { x: number; y: number } | null;
 }
 
 interface TerritoryEntry {
@@ -546,25 +556,67 @@ export function MapCanvas() {
     const clusters = clusterEvents(filteredEvents, zoom);
     const latest = latestEventAt(filteredEvents, currentTime);
 
-    for (const cluster of clusters) {
-      const primaryEntityId = cluster.events[0]?.entityIds[0];
+    // 高缩放级别下把共址事件散开，让每个事件都有自己的圆点
+    const markerGroups = clusters.flatMap((cluster): MarkerGroup[] => {
+      if (zoom < MARKER_SPIDERFY_ZOOM || cluster.events.length < 2) {
+        return [
+          { key: cluster.id, events: cluster.events, center: cluster.center, offset: null },
+        ];
+      }
+      // 只把真正贴在一起（约 100m 内）的事件拆成环，位置本就分开的保持原位
+      const buckets = new Map<string, AtlasEvent[]>();
+      for (const event of cluster.events) {
+        const bucketKey = `${Math.round(event.location.lng * 1000)}:${Math.round(event.location.lat * 1000)}`;
+        const bucket = buckets.get(bucketKey);
+        if (bucket) bucket.push(event);
+        else buckets.set(bucketKey, [event]);
+      }
+      return [...buckets.entries()].flatMap(([bucketKey, events]): MarkerGroup[] => {
+        if (events.length === 1) {
+          const event = events[0]!;
+          return [
+            {
+              key: `${cluster.id}:${bucketKey}`,
+              events,
+              center: [event.location.lng, event.location.lat],
+              offset: null,
+            },
+          ];
+        }
+        return events.map((event, index) => {
+          const angle = (index / events.length) * Math.PI * 2 - Math.PI / 2;
+          return {
+            key: `${cluster.id}:${bucketKey}:${event.id}`,
+            events: [event],
+            center: [event.location.lng, event.location.lat] as [number, number],
+            offset: {
+              x: Math.cos(angle) * MARKER_SPIDERFY_RADIUS_PX,
+              y: Math.sin(angle) * MARKER_SPIDERFY_RADIUS_PX,
+            },
+          };
+        });
+      });
+    });
+
+    for (const group of markerGroups) {
+      const primaryEntityId = group.events[0]?.entityIds[0];
       const entity = primaryEntityId ? dataset.entitiesById.get(primaryEntityId) : undefined;
       const color = entity?.color ?? '#8c2f24';
-      const point = wgs84ToGcj02(cluster.center[0], cluster.center[1]);
-      const isCluster = cluster.events.length > 1;
+      const point = wgs84ToGcj02(group.center[0], group.center[1]);
+      const isCluster = group.events.length > 1;
 
       const element = document.createElement('button');
       element.type = 'button';
       element.className = isCluster ? 'atlas-marker atlas-marker--cluster' : 'atlas-marker';
       element.style.setProperty('--marker-color', color);
       element.innerHTML = isCluster
-        ? `<span class="atlas-marker__count">${cluster.events.length}</span>`
+        ? `<span class="atlas-marker__count">${group.events.length}</span>`
         : '<span class="atlas-marker__dot"></span>';
       element.setAttribute(
         'aria-label',
         isCluster
-          ? t('map.clusterLabel', { count: cluster.events.length })
-          : t('map.eventLabel', { name: resolveLocalized(cluster.events[0]!.name, locale) }),
+          ? t('map.clusterLabel', { count: group.events.length })
+          : t('map.eventLabel', { name: resolveLocalized(group.events[0]!.name, locale) }),
       );
 
       const countEl = isCluster
@@ -574,7 +626,7 @@ export function MapCanvas() {
       element.addEventListener('click', (clickEvent) => {
         clickEvent.stopPropagation();
         const state = useAtlasStore.getState();
-        const visibleEvents = cluster.events.filter(
+        const visibleEvents = group.events.filter(
           (event) => eventStart(event) <= state.currentTime,
         );
         if (visibleEvents.length === 1) {
@@ -583,11 +635,12 @@ export function MapCanvas() {
           clearBubble();
           return;
         }
+        if (visibleEvents.length === 0) return;
         const currentMap = mapRef.current;
         if (!currentMap) return;
-        const target = wgs84ToGcj02(cluster.center[0], cluster.center[1]);
+        const target = wgs84ToGcj02(group.center[0], group.center[1]);
         currentMap.setZoomAndCenter(
-          Math.min(currentMap.getZoom() + 2, 12),
+          Math.min(currentMap.getZoom() + 2, MARKER_SPIDERFY_ZOOM),
           [target.lng, target.lat],
           true,
         );
@@ -596,11 +649,14 @@ export function MapCanvas() {
       const marker = new AMap.Marker({
         position: [point.lng, point.lat],
         content: element,
-        anchor: 'bottom-center',
+        anchor: group.offset ? 'center' : 'bottom-center',
         zIndex: isCluster ? 110 : 100,
+        ...(group.offset
+          ? { offset: new AMap.Pixel(group.offset.x, group.offset.y) }
+          : {}),
       });
 
-      const visibleEvents = cluster.events.filter((event) => eventStart(event) <= currentTime);
+      const visibleEvents = group.events.filter((event) => eventStart(event) <= currentTime);
       if (visibleEvents.length === 0) {
         marker.hide();
       } else {
@@ -612,7 +668,12 @@ export function MapCanvas() {
       }
       map.add(marker);
 
-      markerEntriesRef.current.set(cluster.id, { cluster, marker, element, countEl });
+      markerEntriesRef.current.set(group.key, {
+        events: group.events,
+        marker,
+        element,
+        countEl,
+      });
     }
   }, [dataset, activeEntityIds, filters, ready, zoom, locale]);
 
@@ -743,7 +804,7 @@ export function MapCanvas() {
     const latest = latestEventAt(activeEvents, currentTime);
 
     for (const entry of markerEntriesRef.current.values()) {
-      const visibleEvents = entry.cluster.events.filter(
+      const visibleEvents = entry.events.filter(
         (event) => eventStart(event) <= currentTime,
       );
       const visible = visibleEvents.length > 0;
