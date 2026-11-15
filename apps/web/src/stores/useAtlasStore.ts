@@ -43,6 +43,7 @@ interface AtlasState {
   error: string | null;
   selectedEventId: string | null;
   activeEntityIds: Set<string>;
+  preSoloEntityIds: Set<string> | null;
   filters: AtlasFilters;
   locale: Locale;
   showTerritories: boolean;
@@ -68,6 +69,8 @@ interface AtlasState {
   selectEvent(eventId: string | null): void;
   toggleEntity(entityId: string): void;
   setActiveEntities(ids: string[]): void;
+  soloEntity(entityId: string): void;
+  showAllEntities(): void;
   toggleTerritories(): void;
 
   setLocale(locale: Locale): void;
@@ -100,6 +103,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
   error: null,
   selectedEventId: null,
   activeEntityIds: new Set(),
+  preSoloEntityIds: null,
   filters: EMPTY_FILTERS,
   locale: initialLocale(),
   showTerritories: true,
@@ -155,6 +159,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
         dataset,
         loading: false,
         activeEntityIds: new Set(dataset.manifest.entities.map((entity) => entity.id)),
+        preSoloEntityIds: null,
         timeline,
         currentTime: timeline.start,
         playing: false,
@@ -174,14 +179,38 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
     const valid = new Set(dataset.manifest.entities.map((entity) => entity.id));
     const next = ids.filter((id) => valid.has(id));
     if (next.length === 0) return;
-    set({ activeEntityIds: new Set(next) });
+    set({ activeEntityIds: new Set(next), preSoloEntityIds: null });
   },
 
   toggleEntity(entityId) {
     const next = new Set(get().activeEntityIds);
     if (next.has(entityId)) next.delete(entityId);
     else next.add(entityId);
-    set({ activeEntityIds: next });
+    set({ activeEntityIds: next, preSoloEntityIds: null });
+  },
+
+  soloEntity(entityId) {
+    const { dataset, activeEntityIds, preSoloEntityIds } = get();
+    if (!dataset) return;
+    if (!dataset.manifest.entities.some((entity) => entity.id === entityId)) return;
+    const isSolo = activeEntityIds.size === 1 && activeEntityIds.has(entityId);
+    if (isSolo && preSoloEntityIds) {
+      set({ activeEntityIds: new Set(preSoloEntityIds), preSoloEntityIds: null });
+      return;
+    }
+    set({
+      preSoloEntityIds: new Set(activeEntityIds),
+      activeEntityIds: new Set([entityId]),
+    });
+  },
+
+  showAllEntities() {
+    const dataset = get().dataset;
+    if (!dataset) return;
+    set({
+      activeEntityIds: new Set(dataset.manifest.entities.map((entity) => entity.id)),
+      preSoloEntityIds: null,
+    });
   },
 
   toggleTerritories() {

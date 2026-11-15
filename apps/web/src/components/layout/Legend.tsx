@@ -17,6 +17,8 @@ export function Legend({ className = '' }: LegendProps) {
   const dataset = useAtlasStore((state) => state.dataset);
   const activeEntityIds = useAtlasStore((state) => state.activeEntityIds);
   const toggleEntity = useAtlasStore((state) => state.toggleEntity);
+  const soloEntity = useAtlasStore((state) => state.soloEntity);
+  const showAllEntities = useAtlasStore((state) => state.showAllEntities);
   const showTerritories = useAtlasStore((state) => state.showTerritories);
   const toggleTerritories = useAtlasStore((state) => state.toggleTerritories);
   const filters = useAtlasStore((state) => state.filters);
@@ -51,13 +53,25 @@ export function Legend({ className = '' }: LegendProps) {
   );
   const hasFilters =
     filters.categories.length > 0 || Boolean(filters.from) || Boolean(filters.to);
+  const allEntitiesActive = entities.every((entity) => activeEntityIds.has(entity.id));
 
   return (
     <section
       aria-label={t('legend.layers')}
       className={`rounded-2xl border border-ink/10 bg-parchment/95 p-4 shadow-panel backdrop-blur ${className}`}
     >
-      <h2 className="font-serif text-sm tracking-[0.2em] text-ink">{t('legend.layers')}</h2>
+      <div className="flex items-center justify-between gap-2">
+        <h2 className="font-serif text-sm tracking-[0.2em] text-ink">{t('legend.layers')}</h2>
+        <button
+          type="button"
+          onClick={showAllEntities}
+          disabled={allEntitiesActive}
+          title={t('legend.showAll')}
+          className="rounded-full border border-ink/10 px-2.5 py-0.5 text-[10px] text-ink-soft transition enabled:hover:border-cinnabar/40 enabled:hover:text-cinnabar disabled:opacity-40"
+        >
+          {t('legend.showAll')}
+        </button>
+      </div>
 
       {dataset.territories.length > 0 ? (
         <button
@@ -88,18 +102,23 @@ export function Legend({ className = '' }: LegendProps) {
       <ul className="mt-3 space-y-1">
         {entities.map((entity) => {
           const active = activeEntityIds.has(entity.id);
+          const solo = active && activeEntityIds.size === 1;
+          const entityName = resolveLocalized(entity.name, locale);
           const segments = dataset.routes.filter(
             (route) => route.properties.entityId === entity.id,
           ).length;
 
           return (
-            <li key={entity.id}>
+            <li
+              key={entity.id}
+              className="flex items-center gap-1 rounded-lg px-1 transition hover:bg-ink/5"
+            >
               <button
                 type="button"
                 aria-pressed={active}
                 onClick={() => toggleEntity(entity.id)}
-                className={`flex w-full items-center gap-2.5 rounded-lg px-2 py-2 text-left text-sm transition ${
-                  active ? 'text-ink hover:bg-ink/5' : 'text-ink/40 hover:bg-ink/5'
+                className={`flex min-w-0 flex-1 items-center gap-2 rounded-md px-1 py-2 text-left text-sm transition ${
+                  active ? 'text-ink' : 'text-ink/40'
                 }`}
               >
                 <span
@@ -110,14 +129,67 @@ export function Legend({ className = '' }: LegendProps) {
                     opacity: active ? 1 : 0.35,
                   }}
                 />
-                <span className="flex-1 truncate">{resolveLocalized(entity.name, locale)}</span>
-                <span className="text-[10px] tabular-nums text-ink-soft/70">
-                  {segments > 0
-                    ? t(segments === 1 ? 'common.segment' : 'common.segments', {
-                        count: segments,
-                      })
-                    : '—'}
-                </span>
+                <span className="min-w-0 flex-1 truncate">{entityName}</span>
+              </button>
+              <span className="shrink-0 text-[10px] tabular-nums text-ink-soft/70">
+                {segments > 0
+                  ? t(segments === 1 ? 'common.segment' : 'common.segments', {
+                      count: segments,
+                    })
+                  : '—'}
+              </span>
+              <button
+                type="button"
+                aria-pressed={active}
+                aria-label={active ? t('legend.hide') : t('legend.show')}
+                title={active ? t('legend.hide') : t('legend.show')}
+                onClick={() => toggleEntity(entity.id)}
+                className={`grid h-6 w-6 shrink-0 place-items-center rounded-md border transition ${
+                  active
+                    ? 'border-cinnabar/30 bg-cinnabar/10 text-cinnabar'
+                    : 'border-ink/10 text-ink-soft/60 hover:border-cinnabar/30 hover:text-cinnabar'
+                }`}
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  className="h-3.5 w-3.5"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M2.5 12S6 6.5 12 6.5 21.5 12 21.5 12 18 17.5 12 17.5 2.5 12 2.5 12Z" />
+                  <circle cx="12" cy="12" r="2.6" />
+                  {active ? null : <path d="M4 20 20 4" />}
+                </svg>
+              </button>
+              <button
+                type="button"
+                aria-pressed={solo}
+                aria-label={t('legend.solo')}
+                title={t('legend.solo')}
+                onClick={() => soloEntity(entity.id)}
+                className={`grid h-6 w-6 shrink-0 place-items-center rounded-md border transition ${
+                  solo
+                    ? 'border-cinnabar/30 bg-cinnabar/10 text-cinnabar'
+                    : 'border-ink/10 text-ink-soft/60 hover:border-cinnabar/30 hover:text-cinnabar'
+                }`}
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  className="h-3.5 w-3.5"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
+                  strokeLinecap="round"
+                  aria-hidden="true"
+                >
+                  <circle cx="12" cy="12" r="6.5" />
+                  <path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3" />
+                  <circle cx="12" cy="12" r="1.6" fill="currentColor" stroke="none" />
+                </svg>
               </button>
             </li>
           );
