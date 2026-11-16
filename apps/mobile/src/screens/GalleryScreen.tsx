@@ -49,6 +49,21 @@ function CoverOverlay({
 
   return (
     <View pointerEvents="none" style={StyleSheet.absoluteFill}>
+      {[0.97, 0.94, 0.86, 0.66, 0.35, 0.1].map((opacity, index) => (
+        <View
+          key={index}
+          style={{
+            position: 'absolute',
+            top: 0,
+            bottom: 0,
+            left: `${index * 12}%`,
+            width: '12.5%',
+            backgroundColor: colors.parchment,
+            opacity,
+          }}
+        />
+      ))}
+
       <View
         style={{
           position: 'absolute',

@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import { dataUrl } from '../../data/client';
 import { useI18n } from '../../hooks/useI18n';
 
+const SCRIM =
+  'linear-gradient(90deg, rgba(243,234,217,0.97) 0%, rgba(243,234,217,0.92) 32%, rgba(243,234,217,0.7) 52%, rgba(243,234,217,0.25) 72%, rgba(243,234,217,0) 90%)';
+
 export function AtlasCard({ atlas }: { atlas: AtlasSummary }) {
   const { locale, t } = useI18n();
   const title = resolveLocalized(atlas.title, locale);
@@ -41,6 +44,7 @@ export function AtlasCard({ atlas }: { atlas: AtlasSummary }) {
 
         {coverText ? (
           <>
+            <div className="pointer-events-none absolute inset-0" style={{ background: SCRIM }} />
             {detailed ? (
               <>
                 <div className="absolute left-[6.9cqw] right-[14cqw] top-[8.6cqw] [text-shadow:0_1px_2px_rgba(243,234,217,0.95),0_0_10px_rgba(243,234,217,0.85)]">
