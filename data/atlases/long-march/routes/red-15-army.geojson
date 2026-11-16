@@ -83,8 +83,8 @@
             36.1
           ],
           [
-            109.38,
-            36
+            108.99274,
+            35.9587
           ]
         ]
       },
@@ -99,8 +99,8 @@
           "en": "Yulinqiao–Zhiluozhen"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1935 年 10 月 26 日至 11 月 21 日，红十五军团由榆林桥南下，经甘泉进至直罗镇，与红一方面军共同发起直罗镇战役。路线为示意；直罗镇取镇区点。",
+          "en": "From 26 October to 21 November 1935 the 15th Army Corps moved south from Yulinqiao through Ganquan to Zhiluozhen and fought the battle alongside the First Front Army. The line is schematic; Zhiluozhen uses the town point."
         },
         "extensions": {
           "precision": "schematic"
@@ -113,16 +113,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            109.38,
-            36
-          ],
-          [
-            109.8,
-            36.4
+            108.99274,
+            35.9587
           ],
           [
             110.19,
             36.88
+          ],
+          [
+            110.1157,
+            37.08836
           ]
         ]
       },
@@ -133,12 +133,12 @@
         "order": 4,
         "segmentType": "advance",
         "name": {
-          "zh": "直罗镇—延川",
-          "en": "Zhiluozhen–Yanchuan"
+          "zh": "直罗镇—延川—清涧（东征准备）",
+          "en": "Zhiluozhen–Yanchuan–Qingjian (preparations for the Eastern Expedition)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "直罗镇战役后，红十五军团在延川、延长一带休整；1936 年 1—2 月东征部队陆续集结到黄河岸边，红十五军团主力进至清涧河口一带准备东渡。路线为示意。",
+          "en": "After the battle of Zhiluozhen the 15th Army Corps rested around Yanchuan and Yanchang; in January–February 1936 the Eastern Expedition forces gathered along the Yellow River, and the corps’ main force moved to the Hekou area of Qingjian to prepare the crossing. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -151,12 +151,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            110.19,
-            36.88
-          ],
-          [
-            110.5,
-            37
+            110.1157,
+            37.08836
           ],
           [
             110.83,
@@ -171,12 +167,12 @@
         "order": 5,
         "segmentType": "advance",
         "name": {
-          "zh": "延川—石楼（东渡黄河）",
-          "en": "Yanchuan–Shilou (eastward crossing of the Yellow River)"
+          "zh": "清涧河口—石楼（东渡黄河）",
+          "en": "Qingjian Hekou–Shilou (crossing the Yellow River)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1936 年 2 月 20 日 20 时，红十五军团主力由清涧河口强渡黄河，先遣第 75 师第 223 团在石楼贺家凹登岸，歼守敌一个连；至 23 日占领义牒镇并围攻石楼县城。路线为示意。",
+          "en": "At 20:00 on 20 February 1936 the main force of the 15th Army Corps crossed the Yellow River at Hekou in Qingjian; its advance party, the 223rd Regiment of the 75th Division, landed at Hejia’ao in Shilou and destroyed a company. By 23 February it had taken Yidie and was besieging Shilou town. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -193,8 +189,8 @@
             37
           ],
           [
-            111.2,
-            37.35
+            110.93063,
+            36.68996
           ]
         ]
       },
@@ -205,12 +201,12 @@
         "order": 6,
         "segmentType": "advance",
         "name": {
-          "zh": "石楼—关上村",
-          "en": "Shilou–Guanshangcun"
+          "zh": "石楼—隰县（水头、蓬门）",
+          "en": "Shilou–Xixian (Shuitou, Pengmen)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "红十五军团由石楼向隰县进击，占领隰县水头镇，并在隰县北蓬门一带作战，与红一军团关上村大捷共同打开晋西局面；3 月初两军团在孝义大麦郊一带集结。路线为示意，水头、蓬门只入正文。",
+          "en": "The 15th Army Corps advanced from Shilou towards Xixian, took Shuitou town and fought around Pengmen north of Xixian, opening up western Shanxi together with the 1st Army Corps’ victory at Guanshang; in early March the two corps concentrated around Damaijiao in Xiaoyi. The line is schematic; Shuitou and Pengmen appear only in the text."
         },
         "extensions": {
           "precision": "schematic"
@@ -223,28 +219,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            111.2,
-            37.35
+            110.93063,
+            36.68996
           ],
           [
             111.7,
             37.1
+          ],
+          [
+            111.13,
+            38.46
           ]
         ]
       },
       "properties": {
         "entityId": "red-15-army",
         "startDate": "1936-03-10",
-        "endDate": "1936-05-04",
+        "endDate": "1936-04-12",
         "order": 7,
         "segmentType": "advance",
         "name": {
-          "zh": "关上村—兑九峪",
-          "en": "Guanshangcun–Duijiuyu"
+          "zh": "隰县—孝义（兑九峪）—兴县",
+          "en": "Xixian–Xiaoyi (Duijiuyu)–Xingxian"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1936 年 3 月 10 日红十五军团与红一军团在孝义兑九峪重创晋绥军；3 月中旬兵分三路，红十五军团为左路军，3 月 18 日起经汾阳、文水、交城逼近太原晋祠，3 月 26 日经岔口镇、岚县向兴县前进；4 月 12 日在师庄歼晋军一个团又一个炮营后转大麦郊休整。路线为示意，文水、交城、岚县、大麦郊只入正文。",
+          "en": "On 10 March 1936 the 15th and 1st Army Corps mauled the Shanxi-Suiyuan army at Duijiuyu in Xiaoyi. In mid-March the force split three ways; the 15th Army Corps became the left column, moving from 18 March through Fenyang, Wenshui and Jiaocheng towards the Jinci area outside Taiyuan, and from 26 March via Chakou and Lanxian towards Xingxian; on 12 April, after destroying a regiment and a artillery battalion at Shizhuang, it withdrew to Damaijiao to rest. The line is schematic; Wenshui, Jiaocheng, Lanxian and Damaijiao appear only in the text."
         },
         "extensions": {
           "precision": "schematic"
@@ -257,12 +257,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            111.7,
-            37.1
+            111.13,
+            38.46
           ],
           [
-            110.83,
-            37
+            110.63,
+            36.76
           ],
           [
             110.19,
@@ -272,17 +272,17 @@
       },
       "properties": {
         "entityId": "red-15-army",
-        "startDate": "1936-05-05",
-        "endDate": "1936-05-18",
+        "startDate": "1936-04-12",
+        "endDate": "1936-05-05",
         "order": 8,
         "segmentType": "advance",
         "name": {
-          "zh": "兑九峪—延川（回师）",
-          "en": "Duijiuyu–Yanchuan (return)"
+          "zh": "兴县—永和—延川（回师）",
+          "en": "Xingxian–Yonghe–Yanchuan (return march)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1936 年 4 月下旬红一方面军决定回师河西；5 月 2 日夜至 5 日，红十五军团随方面军经清水关、铁罗关等渡口西渡黄河，返回延长、延川、永坪地区休整。路线为示意，清水关、铁罗关只入正文。",
+          "en": "In late April 1936 the First Front Army decided to return west of the Yellow River; from the night of 2 May to 5 May the 15th Army Corps crossed back via Qingshuiguan and Tieluoguan, returning to rest around Yanchang, Yanchuan and Yongping. The line is schematic; Qingshuiguan and Tieluoguan appear only in the text."
         },
         "extensions": {
           "precision": "schematic"
@@ -297,14 +297,6 @@
           [
             110.19,
             36.88
-          ],
-          [
-            109,
-            37
-          ],
-          [
-            108,
-            37.5
           ],
           [
             107.4,
@@ -319,12 +311,12 @@
         "order": 9,
         "segmentType": "advance",
         "name": {
-          "zh": "延川—盐池（西征）",
-          "en": "Yanchuan–Yanchi (westward expedition)"
+          "zh": "延川—盐池（西征右路军）",
+          "en": "Yanchuan–Yanchi (right column of the Western Expedition)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1936 年 5 月 19—20 日，右路军红十五军团由永坪、王家坪驻地出发，经永坪、蟠龙之间进至靖边新城堡集结；5 月 27 日西进，28 日袭占宁条梁，6 月 16 日攻克定边，6 月 21 日攻克盐池县城。路线为示意，宁条梁、定边只入正文。",
+          "en": "On 19–20 May 1936 the right column, the 15th Army Corps, set out from Yongping and Wangjiaping, assembled at Xinchengbao in Jingbian via the Yongping–Panlong area, moved west on 27 May, took Ningtiaoliang on 28 May, captured Dingbian on 16 June and Yanchi on 21 June. The line is schematic; Ningtiaoliang and Dingbian appear only in the text."
         },
         "extensions": {
           "precision": "schematic"
@@ -341,8 +333,8 @@
             37.78
           ],
           [
-            106.8,
-            37.3
+            105.91,
+            36.98
           ],
           [
             106.3,
@@ -357,12 +349,12 @@
         "order": 10,
         "segmentType": "advance",
         "name": {
-          "zh": "盐池—豫旺堡",
-          "en": "Yanchi–Yuwangbao"
+          "zh": "盐池—同心—豫旺堡（西征）",
+          "en": "Yanchi–Tongxin–Yuwangbao (Western Expedition)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1936 年 6 月 21 日红十五军团第 73 师攻占王家团庄、同心城一带，6 月 27 日第 75 师攻克豫旺县下马关；7 月在红城水、韦州击退马鸿逵部反扑。7 月 27 日西方野战军主力集结豫旺地区休整，西征结束。路线为示意，王家团庄、下马关只入正文。",
+          "en": "On 21 June 1936 the 73rd Division of the 15th Army Corps took Wangjiatuanzhuang and the Tongxin area, and on 27 June the 75th Division captured Xiamaguan, seat of Yuwang county; in July it beat back counter-attacks by Ma Hongkui’s forces at Hongchengshui and Weizhou. On 27 July the Western Field Army concentrated around Yuwang and the campaign ended. The line is schematic; Wangjiatuanzhuang and Xiamaguan appear only in the text."
         },
         "extensions": {
           "precision": "schematic"
@@ -375,16 +367,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            106.3,
-            36.8
-          ],
-          [
             105.91,
             36.98
-          ],
-          [
-            105.4,
-            36.2
           ],
           [
             105.05,
@@ -399,12 +383,12 @@
         "order": 11,
         "segmentType": "advance",
         "name": {
-          "zh": "豫旺堡—同心—会宁（红十五军团骑兵团奔袭会宁）",
-          "en": "Yuwangbu–Tongxin–Huining (15th Army Corps cavalry raid)"
+          "zh": "同心—会宁（骑兵团奔袭会宁）",
+          "en": "Tongxin–Huining (cavalry raid on Huining)"
         },
         "description": {
-          "zh": "1936 年 9 月 30 日，红一方面军第十五军团直属骑兵团由宁夏同心县出发奔袭会宁县城，10 月 2 日凌晨发起攻击，不到两小时全歼守敌，占领会宁县城，为三大主力会师打开接应阵地。红十五军团主力随后向会宁东南、打拉池方向前进，控制会宁至静宁沿线要点。路线为示意，待按行军日志细化。",
-          "en": "On 30 September 1936 the cavalry regiment directly under the First Front Army’s 15th Army Corps set out from Tongxin, Ningxia, to raid Huining town; it attacked before dawn on 2 October, destroyed the garrison in under two hours, and took the town, opening the staging ground for the three main forces’ link-up. The corps’ main force then moved southeast of Huining toward Dalachi, controlling the Huining–Jingning line. The route is schematic and awaits refinement from march logs."
+          "zh": "1936 年 9 月 30 日夜 11 时 30 分，红十五军团直属骑兵团（团长韦杰、政委夏云飞）由同心出发，马蹄裹布、昼伏夜出，行程 150 余公里；10 月 2 日拂晓趁守敌开城门突入，一小时内全歼守敌 300 余人，占领会宁县城，为三大主力会师打开接应阵地。路线为示意。",
+          "en": "At 23:30 on 30 September 1936 the cavalry regiment directly under the 15th Army Corps (commander Wei Jie, commissar Xia Yunfei) set out from Tongxin, muffling its horses’ hooves and marching by night, covering more than 150 km. At dawn on 2 October it rushed the town as the gates opened and within an hour destroyed the 300-strong garrison, taking Huining and opening the staging ground for the three main forces’ link-up. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"

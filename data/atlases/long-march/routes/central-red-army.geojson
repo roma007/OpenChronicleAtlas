@@ -1428,8 +1428,8 @@
             36.28
           ],
           [
-            109.38,
-            36
+            108.99274,
+            35.9587
           ]
         ]
       },
@@ -1443,7 +1443,8 @@
           "zh": "吴起—直罗镇"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "1935 年 10 月 20 日至 11 月 21 日，中央红军由吴起镇南下，经甘泉、富县进至直罗镇，与红十五军团共同发起直罗镇战役。路线为示意；直罗镇取镇区点。",
+          "en": "From 20 October to 21 November 1935 the Central Red Army moved south from Wuqi through Ganquan and Fu county to Zhiluozhen, where together with the 15th Army Corps it fought the battle of Zhiluozhen. The line is schematic; Zhiluozhen uses the town point."
         },
         "extensions": {
           "precision": "schematic"
@@ -1456,16 +1457,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            109.38,
-            36
+            108.99274,
+            35.9587
           ],
           [
-            109.8,
-            36.4
+            109.6656,
+            37.13771
           ],
           [
-            110.19,
-            36.88
+            110.00666,
+            36.57832
+          ],
+          [
+            110.1157,
+            37.08836
           ]
         ]
       },
@@ -1476,12 +1481,12 @@
         "order": 34,
         "segmentType": "advance",
         "name": {
-          "zh": "直罗镇—延川（东征准备）",
-          "en": "Zhiluozhen–Yanchuan (preparations for the eastern expedition)"
+          "zh": "直罗镇—瓦窑堡—延长—清涧（东征准备）",
+          "en": "Zhiluozhen–Wayaobao–Yanchang–Qingjian (preparations for the Eastern Expedition)"
         },
         "description": {
-          "zh": "直罗镇战役后，红一方面军主力东移延川、延长一带休整，并准备东渡黄河。路线为示意。",
-          "en": "After the Zhiluozhen battle the main force of the First Front Army moved east to the Yanchuan–Yanchang area to rest and prepare to cross the Yellow River eastward. The line is schematic."
+          "zh": "1935 年 11 月 20—24 日直罗镇战役后，红一方面军主力回师瓦窑堡一带休整；12 月 17—25 日中共中央政治局在瓦窑堡召开扩大会议，确定抗日民族统一战线方针并决定东征；1936 年 1 月 31 日在延长县城召开军事会议，组建中国人民红军抗日先锋军；2 月 6 日毛泽东率总部到清涧袁家沟，2 月 18 日发布东渡作战命令。路线为示意，瓦窑堡、延长取县城代表点。",
+          "en": "After the battle of Zhiluozhen (20–24 November 1935) the main force of the First Front Army returned to the Wayaobao area to rest. From 17 to 25 December the CCP Politburo held an enlarged meeting at Wayaobao, adopting the anti-Japanese national united front and deciding on an eastward expedition; on 31 January 1936 a military conference at Yanchang formed the Chinese People’s Red Army Anti-Japanese Vanguard, and on 18 February Mao Zedong issued the crossing order from Yuanjiagou in Qingjian. The line is schematic and uses county towns as representative points."
         },
         "extensions": {
           "precision": "schematic"
@@ -1498,8 +1503,8 @@
             35.7
           ],
           [
-            105.4,
-            35.8
+            105.54,
+            35.612
           ],
           [
             105.73,
@@ -1514,10 +1519,12 @@
         "order": 35,
         "segmentType": "advance",
         "name": {
-          "zh": "会宁—将台堡"
+          "zh": "会宁—青江驿—将台堡（迎接红二方面军）",
+          "en": "Huining–Qingjiangyi–Jiangtaibao (meeting the Second Front Army)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "1936 年 10 月 10 日红一方面军与红四方面军在会宁文庙举行庆祝会师联欢大会；随后红一军团第 1、第 2 师南下青江驿、老君坡一带迎接红二方面军，10 月 18 日在老君坡与红二方面军主力会师，10 月 21 日在平峰镇与红二方面军领导人会面，10 月 22 日在将台堡与红二方面军总指挥部、第 2 军、第 32 军会师。老君坡、平峰镇只入正文。",
+          "en": "On 10 October 1936 the First and Fourth Front Armies held a celebration rally at the Confucian temple in Huining. The 1st and 2nd Divisions of the 1st Army Corps then moved south to Qingjiangyi and Laojunpo to meet the Second Front Army, linking up with its main force at Laojunpo on 18 October, meeting its leaders at Pingfeng on 21 October and joining its headquarters, 2nd Army and 32nd Army at Jiangtaibao on 22 October. Laojunpo and Pingfeng appear only in the text."
         },
         "extensions": {
           "precision": "schematic"
@@ -1874,12 +1881,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            110.19,
-            36.88
-          ],
-          [
-            110.5,
-            37
+            110.1157,
+            37.08836
           ],
           [
             110.83,
@@ -1894,8 +1897,8 @@
             37.1
           ],
           [
-            110.83,
-            37
+            111.52,
+            36.08
           ],
           [
             110.19,
@@ -1906,16 +1909,16 @@
       "properties": {
         "entityId": "central-red-army",
         "startDate": "1936-02-20",
-        "endDate": "1936-05-18",
+        "endDate": "1936-05-05",
         "order": 41,
         "segmentType": "advance",
         "name": {
-          "zh": "延川—石楼—关上村—兑九峪—延川（东征）",
-          "en": "Yanchuan–Shilou–Guanshang–Duijiuyu–Yanchuan (eastern expedition)"
+          "zh": "清涧河口—石楼—关上村—兑九峪—临汾—延川（东征）",
+          "en": "Qingjian–Shilou–Guanshang–Duijiuyu–Linfen–Yanchuan (Eastern Expedition)"
         },
         "description": {
-          "zh": "1936 年 2 月 20 日，红一方面军以中国人民红军抗日先锋军名义东渡黄河，进入山西石楼、隰县一带，在关上村、兑九峪等地作战，5 月 5 日回师河西。路线为示意，与红十五军团东征路线同走廊，往返走同一条线。",
-          "en": "On 20 February 1936 the First Front Army crossed the Yellow River eastward as the Chinese People’s Red Army Anti-Japanese Vanguard, entered the Shilou and Xixian area of Shanxi, fought at Guanshang and Duijiuyu, and returned west of the river on 5 May. The line is schematic, shares the corridor with the 15th Army Corps’ eastern expedition, and runs the same line out and back."
+          "zh": "1936 年 2 月 20 日 20 时，红一军团由绥德沟口、红十五军团由清涧河口同时强渡黄河，至 23 日全部渡完并控制辛关至三交各渡口；25—27 日红一军团在中阳关上村歼晋绥军独立第 2 旅大部；3 月 10 日在孝义兑九峪重创晋绥军 2 个团；3 月中旬兵分三路，右路军（红一军团及第 81 师）3 月 16 日起南下霍县、赵城、洪洞、临汾、襄陵、曲沃，4 月 4 日北上攻占吉县，进至大宁、蒲县、隰县；5 月 2—5 日经清水关、铁罗关等渡口西渡，回延长、延川、永坪。路线为示意，只画方面军主力轴线与右路军南下段。",
+          "en": "At 20:00 on 20 February 1936 the 1st Army Corps crossed the Yellow River at Goukou in Suide and the 15th Army Corps at Hekou in Qingjian; by 23 February the crossing was complete and the ferry points from Xingguan to Sanjiao were controlled. On 25–27 February the 1st Army Corps destroyed most of the Shanxi-Suiyuan Independent 2nd Brigade at Guanshang in Zhongyang, and on 10 March it mauled two regiments at Duijiuyu in Xiaoyi. In mid-March the force split three ways; the right column (1st Army Corps and 81st Division) moved south from 16 March through Huoxian, Zhaocheng, Hongdong, Linfen, Xiangling and Quwo, turned north on 4 April to take Jixian and reached Daning, Puxian and Xixian; on 2–5 May it recrossed westward via Qingshuiguan and Tieluoguan and returned to Yanchang, Yanchuan and Yongping. The line is schematic and shows only the main axis and the right column’s southern sweep."
         },
         "extensions": {
           "precision": "schematic"
@@ -1932,16 +1935,8 @@
             36.88
           ],
           [
-            109,
-            37
-          ],
-          [
-            108,
-            37.5
-          ],
-          [
-            107.4,
-            37.78
+            108.18,
+            36.93
           ],
           [
             107.31,
@@ -1950,42 +1945,22 @@
           [
             106.3,
             36.8
-          ],
-          [
-            105.91,
-            36.98
-          ],
-          [
-            105.65,
-            36.56
-          ],
-          [
-            105.73,
-            35.52
-          ],
-          [
-            105.54,
-            35.612
-          ],
-          [
-            105.05,
-            35.7
           ]
         ]
       },
       "properties": {
         "entityId": "central-red-army",
         "startDate": "1936-05-19",
-        "endDate": "1936-10-09",
+        "endDate": "1936-07-27",
         "order": 42,
         "segmentType": "advance",
         "name": {
-          "zh": "延川—盐池—豫旺堡—同心—界石铺—青江驿—会宁（西征与南下接应）",
-          "en": "Yanchuan–Yanchi–Yuwangpu–Tongxin–Jieshipu–Qingjiangyi–Huining (western expedition and southward reception)"
+          "zh": "延川—吴起镇—环县—豫旺堡（西征）",
+          "en": "Yanchuan–Wuqi–Huanxian–Yuwangbao (Western Expedition)"
         },
         "description": {
-          "zh": "1936 年 5 月 18 日中革军委决定以红一方面军主力组成西方野战军西征，5 月 19 日出动，经环县、曲子进占盐池、豫旺堡、同心城一带；9 月底至 10 月初南下接应红二、红四方面军，经界石铺、青江驿进至会宁，10 月 9 日实现会宁会师。路线为示意，与红十五军团西征路线同走廊。",
-          "en": "On 18 May 1936 the Revolutionary Military Council formed the Western Field Army from the main force of the First Front Army for a westward expedition; it set out on 19 May, moved through Huanxian and Quzi to take Yanchi, Yuwangpu and Tongxin, then turned south in late September and early October to receive the Second and Fourth Front Armies, reaching Huining via Jieshipu and Qingjiangyi, where the Huining link-up took place on 9 October. The line is schematic and shares the corridor with the 15th Army Corps’ western expedition."
+          "zh": "1936 年 5 月 18 日中革军委下达《西征战役计划》，5 月 19—20 日西方野战军分左右两路从延长、延川出发。左路军红一军团经蟠龙、安塞到吴起镇集结，5 月 28 日出发，30 日前到达元城镇；6 月 1 日在曲子镇歼第 35 师骑兵团一部、迫第 105 旅旅长冶成章投降，3 日在阜城歼援敌 6 个营，至 5 日占环县、洪德城，13 日进至七营；6 月 29 日进驻豫旺堡。7 月 27 日西方野战军主力集结豫旺地区休整，西征结束。路线为示意，七营、洪德城只入正文。",
+          "en": "On 18 May 1936 the Central Military Commission issued the Western Expedition plan; on 19–20 May the Western Field Army set out from Yanchang and Yanchuan in two columns. The left column (1st Army Corps) assembled at Wuqi via Panlong and Ansai, left on 28 May and reached Yuancheng by 30 May; on 1 June it destroyed part of the 35th Division’s cavalry regiment at Quzi and forced the surrender of 105th Brigade commander Ye Chengzhang, on 3 June it destroyed six relief battalions at Fucheng, by 5 June it held Huanxian and Hongde, and on 13 June it reached Qiying; on 29 June it entered Yuwangbao. On 27 July the main force concentrated around Yuwang and the campaign ended. The line is schematic; Qiying and Hongde appear only in the text."
         },
         "extensions": {
           "precision": "schematic"
@@ -2170,6 +2145,48 @@
         "description": {
           "zh": "1935 年 5 月 26 日，在大树堡担任吸引钳制任务的红军第一军团第二师第五团接到军团电令，火速撤离大树堡到安顺场与主力会合。为避免沿大渡河南岸行军被北岸敌军发现，五团重返晒经关，经河南站、平坝、窑厂，翻竹马垭口到安顺场。红军突然撤离使北岸川军一时不明所以。路线为示意，晒经关取既有佯动路线顶点，河南站取河南乡点，平坝、窑厂、竹马垭口未单独立点。",
           "en": "On 26 May 1935 the Fifth Regiment of the Second Division, First Army Corps, which had been pinning the enemy at Dashubao, received a corps order to withdraw swiftly to Anshunchang and rejoin the main force. To avoid being spotted from the north bank while marching along the south bank of the Dadu, it returned via Shaijing Pass, Henan station, Pingba and Yaochang, crossed the Zhuma pass, and reached Anshunchang; the sudden withdrawal left the Sichuan troops on the north bank baffled. The line is schematic; Shaijing uses the existing feint-route vertex, Henan uses the Henan township point, and Pingba, Yaochang and the Zhuma pass are not plotted separately."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.3,
+            36.8
+          ],
+          [
+            105.73,
+            35.52
+          ],
+          [
+            105.54,
+            35.612
+          ],
+          [
+            105.05,
+            35.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "central-red-army",
+        "startDate": "1936-09-13",
+        "endDate": "1936-10-09",
+        "order": 47,
+        "segmentType": "advance",
+        "name": {
+          "zh": "豫旺堡—界石铺—青江驿—会宁（南下接应）",
+          "en": "Yuwangbao–Jieshipu–Qingjiangyi–Huining (southward link-up)"
+        },
+        "description": {
+          "zh": "1936 年 9 月 13 日中央军委提出《静（宁）会（宁）战役计划》，红一方面军以红一军团第 1、第 2 师等部南下界石铺、青江驿一带，控制西兰公路中段；10 月 8 日红四方面军第 4 军第 10 师在青江驿与红一军团第 1 师会师，10 月 9 日红四方面军总部及第 4、第 31 军进入会宁县城，与红一军团第 1 师会师。路线为示意。",
+          "en": "On 13 September 1936 the Central Military Commission proposed the Jingning–Huining campaign plan; the First Front Army sent the 1st and 2nd Divisions of the 1st Army Corps south to the Jieshipu–Qingjiangyi area to control the middle section of the Xi’an–Lanzhou highway. On 8 October the 10th Division of the Fourth Front Army’s 4th Corps met the 1st Division of the 1st Army Corps at Qingjiangyi, and on 9 October the Fourth Front Army headquarters with the 4th and 31st Corps entered Huining and met the 1st Division. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"

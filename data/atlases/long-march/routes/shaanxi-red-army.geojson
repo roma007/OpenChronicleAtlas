@@ -57,7 +57,7 @@
             37.15
           ],
           [
-            110.0,
+            110,
             37.6
           ]
         ]
@@ -87,7 +87,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            110.0,
+            110,
             37.6
           ],
           [
@@ -141,12 +141,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            109.24,
-            37.14
-          ],
-          [
-            109.6,
-            37.05
+            109.6656,
+            37.13771
           ],
           [
             110.03,
@@ -164,7 +160,8 @@
           "zh": "瓦窑堡—永坪"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "1935 年 9 月，陕北红军由瓦窑堡南下永坪，与红二十五军会师。路线为示意；瓦窑堡取子长市区点（原坐标偏西约 35km）。",
+          "en": "In September 1935 the Shaanxi Red Army moved south from Wayaobao to Yongping and joined the 25th Army. The line is schematic; Wayaobao uses the Zichang town point (the former coordinate was about 35 km west)."
         },
         "extensions": {
           "precision": "schematic"
@@ -221,12 +218,8 @@
             36.93
           ],
           [
-            109.35,
-            36.28
-          ],
-          [
-            109.38,
-            36
+            108.99274,
+            35.9587
           ]
         ]
       },
@@ -240,7 +233,8 @@
           "zh": "吴起—直罗镇"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "1935 年 10 月 20 日至 11 月 21 日，陕北红军由吴起镇南下直罗镇，配合红一方面军作战。路线为示意；直罗镇取镇区点（原坐标为富县县城，相差约 35km）。",
+          "en": "From 20 October to 21 November 1935 the Shaanxi Red Army moved south from Wuqi to Zhiluozhen to operate with the First Front Army. The line is schematic; Zhiluozhen uses the town point (the former coordinate was Fu county town, about 35 km away)."
         },
         "extensions": {
           "precision": "schematic"
