@@ -3,6 +3,18 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.68] - 2026-11-16
+
+### Docs
+- `docs/research/route-endpoints/2026-11-16-全量审计.md`（C8 全量复核报告）：11 个专题、651 段路线、900 条事件，0 个无来由端点、0 条事件缺活动路线；6 份台账共 91 条结论；allowlist 3 条、「已查未得」2 条。
+- `docs/plans/2026-11-16-端点史实核查-plan.md` 标记 C0—C8 全部完成，补 C8 结果。
+- `docs/conversations/2026-11-16-C8-全量复核.md`。
+
+### Changed
+- 数据未改动；全仓版本由 `1.0.67` 升级为 `1.0.68`，构建号 `10068`。
+
+---
+
 ## [v1.0.67] - 2026-11-16
 
 ### Added
