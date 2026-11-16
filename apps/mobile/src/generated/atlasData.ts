@@ -6,6 +6,7 @@ export type BundledTextLoader = () => unknown;
 export const BUNDLED_TEXT: Record<string, BundledTextLoader> = {
   "anti-japanese-war/events/events.json": () => require("../../../../data/atlases/anti-japanese-war/events/events.json"),
   "anti-japanese-war/manifest.json": () => require("../../../../data/atlases/anti-japanese-war/manifest.json"),
+  "anti-japanese-war/route-endpoints.allow.json": () => require("../../../../data/atlases/anti-japanese-war/route-endpoints.allow.json"),
   "anti-japanese-war/routes/allied-forces.geojson": () => require("../../../../data/atlases/anti-japanese-war/routes/allied-forces.geojson"),
   "anti-japanese-war/routes/china-resistance.geojson": () => require("../../../../data/atlases/anti-japanese-war/routes/china-resistance.geojson"),
   "anti-japanese-war/routes/eighth-route-army.geojson": () => require("../../../../data/atlases/anti-japanese-war/routes/eighth-route-army.geojson"),

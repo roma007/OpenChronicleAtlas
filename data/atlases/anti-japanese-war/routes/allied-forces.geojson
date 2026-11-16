@@ -127,8 +127,8 @@
           "en": "Western Yunnan Counteroffensive (Allied/Expeditionary Western Axis)"
         },
         "description": {
-          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
-          "en": "Campaign route based on common historical maps; page-level verification pending."
+          "zh": "1944 年 5 月 11 日中国远征军自保山强渡怒江，西线经腾冲、龙陵，1945 年 1 月 27 日与驻印军在畹町、芒友会师。原线起点距保山 17.8 公里，现由「远征军自保山强渡怒江」事件承接。",
+          "en": "On 11 May 1944 the Chinese expeditionary force crossed the Salween from Baoshan; on the western axis it fought through Tengchong and Longling and on 27 January 1945 linked with the India-based force at Wanding and Mangyou. The former start lay 17.8 km from Baoshan; the crossing event now supplies it."
         },
         "extensions": {
           "precision": "campaign"
@@ -141,8 +141,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            99.5,
-            25.1
+            99.17,
+            25.12
           ],
           [
             98.79,
@@ -157,12 +157,12 @@
         "order": 4,
         "segmentType": "counterattack",
         "name": {
-          "zh": "松山",
-          "en": "Songshan"
+          "zh": "保山—松山",
+          "en": "Baoshan–Songshan"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1944 年 6 月 4 日中国远征军自保山方向进攻松山，至 9 月 7 日全歼守敌。原线起点在保山以东，无前置；现改为保山—松山，接「远征军自保山强渡怒江」与「松山战役」两事件。",
+          "en": "On 4 June 1944 the Chinese expeditionary force attacked Songshan from the Baoshan direction and destroyed its garrison by 7 September. The former start lay east of Baoshan without a precedent; it is now Baoshan–Songshan, anchored by the Salween crossing and Songshan battle events."
         },
         "extensions": {
           "precision": "schematic"

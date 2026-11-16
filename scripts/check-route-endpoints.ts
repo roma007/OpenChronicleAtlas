@@ -25,6 +25,7 @@ class FsDataSource implements DataSource {
 
 interface CliOptions {
   atlas?: string;
+  entity?: string;
   all: boolean;
   thresholdKm: number;
   json: boolean;
@@ -67,6 +68,7 @@ function printUsage(): void {
 
 选项：
   --atlas <id>       只检查指定专题，默认 ${DEFAULT_ATLAS}
+  --entity <id>      只检查指定实体（配合 --atlas，用于分批核查）
   --all              检查全部专题
   --threshold <km>   距离阈值，默认 ${DEFAULT_THRESHOLD_KM}
   --json             以 JSON 输出
@@ -80,6 +82,9 @@ function parseArgs(argv: string[]): CliOptions {
     if (arg === '--atlas') {
       options.atlas = argv[++i];
       if (!options.atlas) throw new Error('--atlas 需要专题 id');
+    } else if (arg === '--entity') {
+      options.entity = argv[++i];
+      if (!options.entity) throw new Error('--entity 需要实体 id');
     } else if (arg === '--all') {
       options.all = true;
     } else if (arg === '--threshold') {
@@ -166,6 +171,7 @@ for (const id of ids) {
     const byEntity = new Map<string, AtlasRouteFeature[]>();
     for (const route of dataset.routes) {
       const entityId = route.properties.entityId;
+      if (options.entity && entityId !== options.entity) continue;
       const list = byEntity.get(entityId);
       if (list) list.push(route);
       else byEntity.set(entityId, [route]);

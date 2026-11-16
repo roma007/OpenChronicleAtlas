@@ -41,12 +41,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            122,
-            31.4
+            121.48,
+            31.26
           ],
           [
-            121.47,
-            31.23
+            121.45,
+            31.24
           ]
         ]
       },
@@ -57,12 +57,12 @@
         "order": 2,
         "segmentType": "advance",
         "name": {
-          "zh": "上海（一·二八）",
-          "en": "Shanghai (January 28 Incident)"
+          "zh": "上海虹口—闸北（一·二八）",
+          "en": "Hongkou–Zhabei, Shanghai (28 January Incident)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1932 年 1 月 28 日夜日军海军陆战队自虹口租界进攻闸北，第十九路军奋起抵抗。原线起点在长江口外，与事变无关；现改为虹口至闸北的防御段。",
+          "en": "On the night of 28 January 1932 Japanese marines advanced from the Hongkou concession into Zhabei and the 19th Route Army resisted. The former line began outside the Yangtze estuary; it is now the Hongkou–Zhabei defence."
         },
         "extensions": {
           "precision": "schematic"
@@ -213,8 +213,8 @@
             39.28
           ],
           [
-            113.72,
-            39.25
+            113.75,
+            39.34
           ]
         ]
       },
@@ -229,8 +229,8 @@
           "en": "Battle of Pingxingguan"
         },
         "description": {
-          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
-          "en": "Campaign route based on common historical maps; page-level verification pending."
+          "zh": "1937 年 9 月 25 日八路军第 115 师在灵丘至平型关之间的乔沟设伏，歼灭日军第 5 师团辎重部队。原线终点偏离乔沟 10 公里，现校正至伏击区。",
+          "en": "On 25 September 1937 the 115th Division ambushed the Japanese 5th Division’s supply column at Qiaogou between Lingqiu and Pingxingguan. The former end lay 10 km off Qiaogou and is now corrected to the ambush area."
         },
         "extensions": {
           "precision": "campaign"
@@ -281,16 +281,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            112.55,
-            37.87
-          ],
-          [
             112.72,
             38.95
           ],
           [
-            112.86,
-            39.19
+            112.75,
+            38.88
           ]
         ]
       },
@@ -301,12 +297,12 @@
         "order": 8,
         "segmentType": "counterattack",
         "name": {
-          "zh": "忻口会战（中国军队防御与反击）",
-          "en": "Battle of Xinkou (Chinese Defense and Counterattack)"
+          "zh": "忻口会战（南怀化—大白水一线）",
+          "en": "Xinkou battle (Nanhuaihua–Dabaishui line)"
         },
         "description": {
-          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
-          "en": "Campaign route based on common historical maps; page-level verification pending."
+          "zh": "1937 年 10 月 13 日至 11 月 2 日中国军队在忻口至南怀化、大白水一线凭险坚守，与日军第 5 师团等部激战二十余日。原线作太原—代县，与战场不符；现改为忻口战场一线。",
+          "en": "From 13 October to 2 November 1937 the Chinese army held the Xinkou–Nanhuaihua–Dabaishui line against the Japanese 5th Division for over twenty days. The former line ran Taiyuan–Daixian, which is not the battlefield; it is now the Xinkou line."
         },
         "extensions": {
           "precision": "campaign"
@@ -641,8 +637,8 @@
           "en": "Battle of Kunlun Pass (Chinese Counterattack)"
         },
         "description": {
-          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
-          "en": "Campaign route based on common historical maps; page-level verification pending."
+          "zh": "1939 年 12 月 18 日第 5 军自柳州北上，反攻昆仑关；1940 年 1 月 11 日克复昆仑关。原线起点柳州无前置，现由「第 5 军自柳州反攻昆仑关」事件承接。",
+          "en": "On 18 December 1939 the 5th Corps moved north from Liuzhou and counter-attacked Kunlun Pass, recovering it on 11 January 1940. The former line began at Liuzhou without a precedent; the departure event now supplies it."
         },
         "extensions": {
           "precision": "campaign"
@@ -721,8 +717,8 @@
           "en": "Hundred Regiments Offensive"
         },
         "description": {
-          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
-          "en": "Campaign route based on common historical maps; page-level verification pending."
+          "zh": "1940 年 8 月 20 日八路军在正太、同蒲、平汉等线发动破袭战，第 129 师破袭正太路西段至榆次附近；1941 年 1 月 24 日反“扫荡”结束，百团大战告终。原线西端止于榆次以东且无锚点，现校正至榆次并补破袭事件。",
+          "en": "On 20 August 1940 the Eighth Route Army attacked the Zhengding–Taiyuan, Tongpu and Pinghan railways, the 129th Division breaking the western Zhengding–Taiyuan section to the approaches of Yuci; the counter-sweep operations ended on 24 January 1941. The former western end lay east of Yuci without an anchor; it is now Yuci with a documented sabotage event."
         },
         "extensions": {
           "precision": "campaign"
@@ -797,8 +793,8 @@
           "en": "Battle of Shanggao (Chinese Counterattack)"
         },
         "description": {
-          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
-          "en": "Campaign route based on common historical maps; page-level verification pending."
+          "zh": "1941 年 3 月 15 日日军自南昌进攻上高，中国军队诱敌深入并反击，4 月 9 日日军退回南昌。原线终点南昌无后续，现由「日军退回南昌」事件承接。",
+          "en": "On 15 March 1941 the Japanese attacked Shanggao from Nanchang; the Chinese army drew them in and counter-attacked, and the Japanese withdrew to Nanchang on 9 April. The former line ended at Nanchang without a follow-through; the withdrawal event now supplies it."
         },
         "extensions": {
           "precision": "campaign"
@@ -812,7 +808,7 @@
         "coordinates": [
           [
             111.5,
-            35.0
+            35
           ],
           [
             111.76,
@@ -835,8 +831,8 @@
           "en": "Battle of South Shanxi (Chinese Breakout)"
         },
         "description": {
-          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
-          "en": "Campaign route based on common historical maps; page-level verification pending."
+          "zh": "1941 年 5 月 7 日日军进攻中条山，中国军队突围，6 月中旬部分部队南渡黄河退抵洛阳、新安一带。原线终点洛阳无后续，现由「中条山突围部队退抵洛阳」事件承接。",
+          "en": "On 7 May 1941 the Japanese attacked the Zhongtiao mountains; the Chinese army broke out and in mid-June part of it crossed the Yellow River south to Luoyang and Xin’an. The former line ended at Luoyang without a follow-through; the withdrawal event now supplies it."
         },
         "extensions": {
           "precision": "campaign"
@@ -896,7 +892,7 @@
           ],
           [
             113.3,
-            29.0
+            29
           ],
           [
             113.13,
@@ -991,8 +987,8 @@
           "en": "Battle of West Hubei (Chinese Reinforcement and Counterattack)"
         },
         "description": {
-          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
-          "en": "Campaign route based on common historical maps; page-level verification pending."
+          "zh": "1943 年 5 月 5 日日军自荆州、石首南犯，第六战区自恩施方向调兵增援，在石牌、渔洋关一线阻击，6 月日军退回。原线起点恩施无前置，现由「第六战区自恩施增援鄂西」事件承接。",
+          "en": "On 5 May 1943 the Japanese moved south from Jingzhou and Shishou; the 6th War Area sent troops from the Enshi direction, holding at Shipai and Yuyangguan, and the Japanese withdrew in June. The former line began at Enshi without a precedent; the reinforcement event now supplies it."
         },
         "extensions": {
           "precision": "campaign"
@@ -1113,8 +1109,8 @@
           "en": "Western Yunnan Counteroffensive (Chinese Eastern Axis)"
         },
         "description": {
-          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
-          "en": "Campaign route based on common historical maps; page-level verification pending."
+          "zh": "1944 年 5 月 11 日中国远征军自保山强渡怒江，东线攻松山、龙陵；1945 年 1 月 27 日攻克畹町，与驻印军在芒友会师，滇西反攻结束。原线两端分别距保山、畹町无锚点，现由「远征军自保山强渡怒江」「攻克畹町」两事件承接。",
+          "en": "On 11 May 1944 the Chinese expeditionary force crossed the Salween from Baoshan and attacked Songshan and Longling on the eastern axis; Wanding fell on 27 January 1945, linking with the India-based force at Mangyou and ending the western Yunnan counter-offensive. Both ends now have anchor events (the Salween crossing and the capture of Wanding)."
         },
         "extensions": {
           "precision": "campaign"
