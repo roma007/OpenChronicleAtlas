@@ -2978,6 +2978,62 @@
     "endDate": "1935-01-17"
   },
   {
+    "id": "shaanbei-soviet-1935-01",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "陕北省苏维埃政府成立",
+      "en": "Founding of the Northern Shaanxi Provincial Soviet Government"
+    },
+    "date": "1935-01-25",
+    "endDate": "1935-01-31",
+    "location": {
+      "lng": 109.6,
+      "lat": 37.15,
+      "place": {
+        "zh": "陕西赤源（安定）白庙岔",
+        "en": "Baimiaocha, Chiyuan (Anding), Shaanxi"
+      }
+    },
+    "entityIds": [
+      "shaanxi-red-army"
+    ],
+    "category": "政权",
+    "summary": {
+      "zh": "陕北第一次工农兵代表大会在白庙岔召开，成立陕北省苏维埃政府，马明方任主席。",
+      "en": "The first Northern Shaanxi workers’, peasants’ and soldiers’ congress met at Baimiaocha and founded the provincial Soviet government under Ma Mingfang."
+    },
+    "description": {
+      "zh": "1935 年 1 月 25 日至 31 日，陕北第一次工农兵代表大会在赤源县（今子长）白庙岔召开，150 余名代表出席，选举产生陕北省苏维埃执行委员会，马明方任主席，崔田民、霍维德任副主席，下设土地、粮食、财政、教育、劳动、内务、贸易、保卫等部门，通过《工农民主政府组织法》《土地法》《劳动法》《婚姻法》等法令；1 月 31 日举行群众大会庆祝。陕北省苏维埃政府成立后辖赤源、秀延、延安、绥德、佳县等 16 个县级苏维埃政权，所辖武装主要为红二十七军。",
+      "en": "From 25 to 31 January 1935 the first Northern Shaanxi workers’, peasants’ and soldiers’ congress met at Baimiaocha, Chiyuan county (today Zichang), with over 150 delegates. It elected the provincial Soviet executive committee under Ma Mingfang, with Cui Tianmin and Huo Weide as vice-chairmen, and set up departments of land, grain, finance, education, labour, interior, trade and security, adopting organic, land, labour and marriage laws; a mass rally celebrated the founding on 31 January. The government administered 16 county-level Soviets, including Chiyuan, Xiuyan, Yan’an, Suide and Jiaxian, and its armed force was chiefly the 27th Red Army."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "陕北省苏维埃政府",
+        "author": "百度百科",
+        "url": "https://baike.baidu.com/item/%E9%99%95%E5%8C%97%E7%9C%81%E8%8B%8F%E7%BB%B4%E5%9F%83%E6%94%BF%E5%BA%9C/4943135",
+        "note": "1935 年 1 月白庙岔成立，马明方任主席"
+      },
+      {
+        "title": "马明方传略·第二章 在土地革命战争时期",
+        "author": "强晓初",
+        "url": "https://read.99csw.com/book/7926/274243.html",
+        "note": "1 月 25 日代表大会、16 县、1 月 31 日庆祝大会"
+      },
+      {
+        "title": "陕北地区的武装斗争",
+        "author": "人民周刊（人民网）",
+        "url": "http://paper.people.com.cn/rmzk/html/2021-09/10/content_25879797.htm",
+        "note": "1935 年 1 月成立陕北省苏维埃政府"
+      }
+    ],
+    "relatedIds": [
+      "red27-1935-01",
+      "zhoujiachan-1935-02"
+    ],
+    "importance": 3
+  },
+  {
     "id": "tucheng-1935-01",
     "atlasId": "long-march",
     "name": {
@@ -11421,8 +11477,8 @@
     "id": "wuqi-1935-10",
     "atlasId": "long-march",
     "name": {
-      "zh": "吴起镇会师",
-      "en": "Wuqi link-up"
+      "zh": "中央红军到达吴起镇",
+      "en": "The Central Red Army reaches Wuqi"
     },
     "date": "1935-10-19",
     "location": {
@@ -11434,17 +11490,16 @@
       }
     },
     "entityIds": [
-      "central-red-army",
-      "shaanxi-red-army"
+      "central-red-army"
     ],
     "category": "会师",
     "summary": {
-      "zh": "中央红军到达陕北吴起镇，结束长征。",
-      "en": "The Central Red Army reaches Wuqi in northern Shaanxi, ending the Long March."
+      "zh": "中央红军进入陕北苏区，历时一年的长征结束。",
+      "en": "The Central Red Army entered the northern Shaanxi Soviet area, ending the year-long Long March."
     },
     "description": {
-      "zh": "1935 年 10 月 19 日，中央红军到达陕西吴起镇，与陕北红军会合，中央红军长征胜利结束。",
-      "en": "On October 19, 1935, the Central Red Army reached Wuqi, Shaanxi, joined the Shaanxi Red Army, and brought its Long March to a victorious end."
+      "zh": "1935 年 10 月 19 日，中共中央率陕甘支队到达陕北吴起镇，进入西北苏区；10 月 21 日在吴起镇以西头道川、二道川、三道川设伏击溃尾追的东北军骑兵 2000 余人（「切尾巴」战斗）；10 月 22 日中央政治局在吴起镇召开扩大会议，宣告中央红军长征结束。与红十五军团的正式会师在 11 月 6 日甘泉象鼻子湾，另见「象鼻子湾会师」。",
+      "en": "On 19 October 1935 the Central Committee and the Shaanxi-Gansu Detachment reached Wuqi, entering the Northwest Soviet area; on 21 October they ambushed and routed some 2,000 pursuing Northeast Army cavalry west of Wuqi (the “cutting the tail” action); on 22 October the Politburo meeting at Wuqi declared the Long March over. The formal meeting with the 15th Corps took place at Xiangbizibay, Ganquan, on 6 November — see that event."
     },
     "images": [],
     "sources": [
@@ -11468,8 +11523,8 @@
       }
     ],
     "relatedIds": [
-      "qieweiba-1935-10",
-      "qingshizui-1935-10"
+      "xiangbizibay-1935-11",
+      "qieweiba-1935-10"
     ]
   },
   {
@@ -11670,6 +11725,120 @@
       "zhiluozhen-1935-11"
     ],
     "importance": 2
+  },
+  {
+    "id": "xiabeisiwan-1935-11",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "下寺湾会议",
+      "en": "Xiabeisiwan meeting"
+    },
+    "date": "1935-11-03",
+    "location": {
+      "lng": 109.083,
+      "lat": 36.434,
+      "place": {
+        "zh": "陕西甘泉下寺湾",
+        "en": "Xiabeisiwan, Ganquan, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "central-red-army"
+    ],
+    "category": "会议",
+    "summary": {
+      "zh": "中共中央政治局常委扩大会议在下寺湾召开，成立西北革命军事委员会，恢复红一方面军番号。",
+      "en": "A Politburo standing committee meeting at Xiabeisiwan created the Northwest Revolutionary Military Commission and restored the First Front Army designation."
+    },
+    "description": {
+      "zh": "1935 年 11 月 3 日，中共中央政治局常委扩大会议在甘泉下寺湾召开，听取郭洪涛、聂洪钧关于陕北苏区和红军情况的汇报，决定成立中国工农红军西北革命军事委员会（毛泽东任主席，周恩来、彭德怀任副主席），恢复红一方面军番号，红十五军团编入红一方面军序列；同时决定中央领导分两路行动：一路赴瓦窑堡主持后方并处理陕北错误肃反，一路由毛泽东、周恩来、彭德怀率领南下迎击国民党军对陕甘苏区的第三次“围剿”。",
+      "en": "On 3 November 1935 an enlarged meeting of the Politburo standing committee at Xiabeisiwan, Ganquan, heard Guo Hongtao and Nie Hongjun on the northern Shaanxi base and red forces. It created the Northwest Revolutionary Military Commission (Mao Zedong chairman; Zhou Enlai and Peng Dehuai vice-chairmen) and restored the First Front Army designation, incorporating the 15th Corps. The leadership divided: one group went to Wayaobao to run the rear and address the erroneous purge, the other under Mao, Zhou and Peng moved south against the third KMT encirclement."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "第二十一章 红一方面军主力与红15军团会师",
+        "author": "人民网·中国共产党新闻网",
+        "url": "http://dangshi.people.com.cn/n1/2016/0902/c406330-28687888.html",
+        "note": "11 月 2 日到下寺湾、11 月 3 日会议、成立西北军委与恢复红一方面军"
+      },
+      {
+        "title": "不忘初心再长征：毛泽东“雪地讲话”鼓舞了红军",
+        "author": "央广网",
+        "url": "https://wcm1.cnr.cn/pub/en_US/js2014/ztch/bwcxzcz/sxhn/gz/20160928/t20160928_523167399.html",
+        "note": "下寺湾会议与处理陕北肃反"
+      },
+      {
+        "title": "中央红军长征到吴起镇",
+        "author": "陕西省图书馆·纪念旧址库",
+        "url": "https://www.sxlib.org.cn/dfzy/jzk/qwts_5725/xbgmgjds/201809/t20180920_978984.html",
+        "note": "11 月 2 日到下寺湾、11 月 3 日会议"
+      }
+    ],
+    "relatedIds": [
+      "xiangbizibay-1935-11",
+      "wayaobao-meeting-1935-12",
+      "zhiluozhen-1935-11"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "xiangbizibay-1935-11",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "象鼻子湾会师",
+      "en": "Meeting at Xiangbizibay"
+    },
+    "date": "1935-11-06",
+    "location": {
+      "lng": 109.365,
+      "lat": 36.142,
+      "place": {
+        "zh": "陕西甘泉道镇象鼻子湾",
+        "en": "Xiangbizibay, Daozhen, Ganquan, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "central-red-army",
+      "red-15-army"
+    ],
+    "category": "会师",
+    "summary": {
+      "zh": "红一军团与红十五军团在象鼻子湾会师，毛泽东发表“雪地讲话”，宣告长征胜利结束。",
+      "en": "The 1st and 15th Corps met at Xiangbizibay, where Mao Zedong’s “snow speech” declared the Long March ended in victory."
+    },
+    "description": {
+      "zh": "1935 年 11 月 6 日，中央红军与徐海东、刘志丹、程子华率领的红十五军团在甘泉道镇象鼻子湾村会师。毛泽东在漫天大雪中向军委直属纵队等 300 余人发表讲话，总结长征：「长征是宣言书，长征是宣传队，长征是播种机」「长征以我们的胜利、敌人的失败而结束」。会师后，中央红军与红十五军团合编为红一方面军，彭德怀任司令员、毛泽东任政治委员，下辖红一军团与红十五军团。",
+      "en": "On 6 November 1935 the Central Red Army and the 15th Corps under Xu Haidong, Liu Zhidan and Cheng Zihua met at Xiangbizibay, Daozhen, Ganquan. In heavy snow Mao Zedong addressed some 300 men of the CMC direct column, summing up the Long March: “The Long March is a manifesto, a propaganda force, a seeding machine”; it ended “with our victory and the enemy’s defeat”. The two forces were then combined as the First Front Army under Peng Dehuai (commander) and Mao Zedong (political commissar), with the 1st and 15th Corps."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "长征是宣言书、宣传队和播种机——追记陕北会师“雪地讲话”",
+        "author": "新华网",
+        "url": "http://www.xinhuanet.com/politics/2019-08/09/c_1124858433.htm",
+        "note": "11 月 6 日象鼻子湾会师与雪地讲话"
+      },
+      {
+        "title": "毛泽东激情迸发 徐海东慷慨解囊",
+        "author": "人民网·党史频道",
+        "url": "http://dangshi.people.com.cn/n1/2019/0809/c85037-31286159.html",
+        "note": "象鼻子湾在甘泉县城南 15 公里，11 月 6 日会师"
+      },
+      {
+        "title": "红一军团与红十五军团会师地遗址",
+        "author": "红色汇",
+        "url": "https://hongsehui.cn/service/venue/1161/",
+        "note": "11 月 5 日到史家湾、11 月 6 日会师与雪地讲话"
+      }
+    ],
+    "relatedIds": [
+      "wuqi-1935-10",
+      "xiabeisiwan-1935-11",
+      "red15-formed-1935-09",
+      "zhiluozhen-1935-11"
+    ],
+    "importance": 3
   },
   {
     "id": "baizhangguan-1935-11",
@@ -11888,7 +12057,6 @@
     },
     "entityIds": [
       "central-red-army",
-      "shaanxi-red-army",
       "kmt-northeast-army",
       "red-15-army"
     ],
