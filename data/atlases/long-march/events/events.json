@@ -15985,5 +15985,54 @@
       "dongzheng-1936-02"
     ],
     "importance": 2
+  },
+  {
+    "id": "aba-1935-08",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "左路军占领阿坝",
+      "en": "Left column takes Aba"
+    },
+    "date": "1935-08-21",
+    "location": {
+      "lng": 101.7,
+      "lat": 32.9,
+      "place": {
+        "zh": "四川阿坝（麦桑）",
+        "en": "Aba (Mai Sang), Sichuan"
+      }
+    },
+    "entityIds": [
+      "red-4-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "左路军先头纵队经大藏寺、查理寺占领阿坝。",
+      "en": "The left column’s advance force took Aba via Dazangsi and Chalisi."
+    },
+    "description": {
+      "zh": "1935 年 8 月 15 日左路军先头纵队自卓克基、马尔康出发，经大藏寺、卡尔古、龙尔甲，8 月 19 日占查理寺，8 月 21 日占阿坝。阿坝为麦桑土官杨俊扎西驻地，杨弃城逃往果洛。此后左路军以阿坝为后方，8 月 28 日先头进入草地，8 月 31 日抵噶曲河（白河）畔，因河水暴涨，9 月 3 日折返阿坝。",
+      "en": "On 15 August 1935 the left column’s advance force left Zhuokeji and Barkam via Dazangsi, Kargu and Longerjia, taking Chalisi on 19 August and Aba on 21 August. Aba was the seat of the Maisang headman Yang Junzhaxi, who abandoned it for Golok. Aba then became the left column’s rear base; its advance guard entered the grasslands on 28 August, reached the Ghaqu (Bai) river on 31 August and, with the river in flood, turned back on 3 September."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "第十七章 过草地",
+        "author": "人民网·中国共产党新闻网",
+        "url": "http://dangshi.people.com.cn/n1/2016/0826/c406330-28669055.html",
+        "note": "左路军先头纵队 8/15 出发、8/19 占查理寺、8/21 占阿坝"
+      },
+      {
+        "title": "“草地密电”辩析之北进途中的张国焘迭生枝节",
+        "author": "双石、胡勇",
+        "url": "https://www.hswh.org.cn/wzzx/llyd/ls/2021-12-14/72819.html",
+        "note": "8/28 先头入草地、8/31 抵噶曲河、9/3 折返"
+      }
+    ],
+    "relatedIds": [
+      "zhuokeji-1935-06",
+      "caodi-1935-08"
+    ],
+    "importance": 2
   }
 ]

@@ -1376,6 +1376,40 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.291,
+            31.869
+          ],
+          [
+            101.7,
+            32.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-4-army",
+        "startDate": "1935-08-15",
+        "endDate": "1935-08-21",
+        "order": 9,
+        "segmentType": "advance",
+        "name": {
+          "zh": "卓克基—大藏寺—查理寺—阿坝（左路军北上）",
+          "en": "Zhuokeji–Dazangsi–Chalisi–Aba (left column moves north)"
+        },
+        "description": {
+          "zh": "1935 年 8 月 15 日，左路军先头纵队（红 5 军、红 9 军 25 师、红 31 军 93 师）兵分两路自卓克基、马尔康地区出发，经大藏寺、卡尔古、龙尔甲，8 月 19 日占查理寺，8 月 21 日占阿坝。此后左路军先头于 8 月 28 日进入草地，8 月 31 日进抵噶曲河（白河）畔，因河水暴涨，9 月 3 日奉命折返阿坝，9 月中旬南下。噶曲河段无可靠点位，只入正文。路线为示意，大藏寺、查理寺取乡政府代表点一带。",
+          "en": "On 15 August 1935 the left column’s advance force (5th Corps, 25th Division of the 9th Corps, 93rd Division of the 31st Corps) moved out from the Zhuokeji and Barkam area in two routes via Dazangsi, Kargu and Longerjia, taking Chalisi on 19 August and Aba on 21 August. Its advance guard entered the grasslands on 28 August and reached the Ghaqu (Bai) river on 31 August; the river was in flood and on 3 September it was ordered back to Aba, moving south in mid-September. No reliable point exists for the Ghaqu crossing, so it appears only in the text. The line is schematic; Dazangsi and Chalisi are represented by their township areas."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
