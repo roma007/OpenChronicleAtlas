@@ -4,12 +4,12 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
   name: '史迹',
   slug: config.slug ?? 'openchronicle-atlas',
-  version: '1.0.63',
+  version: '1.0.64',
   scheme: 'atlas',
   ios: {
     ...config.ios,
     supportsTablet: true,
-    buildNumber: '10063',
+    buildNumber: '10064',
     bundleIdentifier: 'com.openchronicle.atlas',
     appleTeamId: 'R2TCRBA6NZ',
     infoPlist: {
@@ -20,7 +20,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   android: {
     ...config.android,
     package: 'com.openchronicle.atlas',
-    versionCode: 10063,
+    versionCode: 10064,
     blockedPermissions: [
       'android.permission.ACCESS_FINE_LOCATION',
       'android.permission.ACCESS_COARSE_LOCATION',

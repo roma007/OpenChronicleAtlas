@@ -11,7 +11,7 @@
             34.27
           ],
           [
-            109.0,
+            109,
             34.3
           ]
         ]
@@ -87,32 +87,32 @@
             34.62
           ],
           [
-            114.3,
-            34.8
-          ],
-          [
-            116.0,
-            34.0
-          ],
-          [
             119.02,
             33.6
+          ],
+          [
+            119.42,
+            32.39
+          ],
+          [
+            120.16,
+            30.27
           ]
         ]
       },
       "properties": {
         "entityId": "sui",
         "startDate": "0605-03-01",
-        "endDate": "0611-12-31",
+        "endDate": "0610-12-31",
         "order": 3,
         "segmentType": "advance",
         "name": {
-          "zh": "洛阳—淮安",
-          "en": "Luoyang–Huai’an"
+          "zh": "洛阳—淮安—江都—余杭（通济渠、邗沟、江南河）",
+          "en": "Luoyang–Huai’an–Jiangdu–Yuhang (Tongji, Han and Jiangnan canals)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "大业元年（605）三月发河南、淮北民夫百余万开通济渠，自洛阳西苑引谷、洛水入河，又自板渚引河水循汴水入淮；同年发淮南民夫十余万拓宽邗沟，自山阳（淮安）至扬子入江，八月完成，炀帝即乘龙舟下江都。大业六年（610）开江南河，自京口引江水至余杭，八百余里。原线止于淮安，线尾无后续；此处补江都、余杭两段。路线为示意。",
+          "en": "In the third month of 605 over a million labourers from Henan and Huaibei dug the Tongji canal from Luoyang’s Western Garden to the Yellow River and on via the old Bian channel to the Huai; in the same year over 100,000 men from Huainan widened the Han canal from Shanyang (Huai’an) to the Yangtze at Yangzi. Work finished in the eighth month and the emperor sailed to Jiangdu. In 610 the Jiangnan canal was opened from Jingkou to Yuhang, over 800 li. The former line stopped at Huai’an with no follow-through; Jiangdu and Yuhang are now added. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -149,8 +149,8 @@
           "en": "Zhuojun–Liaodong"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "大业八年（612）正月，炀帝自江都经永济渠北上，至涿郡临朔宫，诏天下兵会涿郡，号称一百一十三万；二月渡辽水，围辽东城，久攻不下，六月以后诸路溃败，七月撤军。原线线头涿郡无前置，现由永济渠段承接。路线为示意。",
+          "en": "In the first month of 612 Emperor Yang came north from Jiangdu by the Yongji canal to the Linshuo palace at Zhuojun and ordered the empire’s troops to assemble there, claiming 1,130,000 men. In the second month the army crossed the Liao and besieged Liaodong city; the siege failed, the columns collapsed after the sixth month and the army withdrew in the seventh. The former route began at Zhuojun without a precedent, now supplied by the Yongji canal leg. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -167,7 +167,7 @@
             34.27
           ],
           [
-            109.0,
+            109,
             34.3
           ]
         ]
@@ -239,12 +239,12 @@
             34.27
           ],
           [
-            110.0,
-            37.0
+            110,
+            37
           ],
           [
-            111.0,
-            41.0
+            111,
+            41
           ]
         ]
       },
@@ -278,7 +278,7 @@
           ],
           [
             103.8,
-            36.0
+            36
           ],
           [
             91.1,
@@ -358,11 +358,11 @@
           ],
           [
             122.5,
-            37.0
+            37
           ],
           [
             126.5,
-            36.0
+            36
           ]
         ]
       },
@@ -649,8 +649,8 @@
             29.65
           ],
           [
-            100.0,
-            33.0
+            100,
+            33
           ],
           [
             108.95,
@@ -699,16 +699,16 @@
       "properties": {
         "entityId": "tang",
         "startDate": "0781-01-01",
-        "endDate": "0781-12-31",
+        "endDate": "0782-11-30",
         "order": 19,
         "segmentType": "other",
         "name": {
-          "zh": "幽州—魏州",
-          "en": "Youzhou–Weizhou"
+          "zh": "幽州—莫州—魏州（朱滔南下）",
+          "en": "Youzhou–Mozhou–Weizhou (Zhu Tao moves south)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "建中二年（781）正月成德节度使李宝臣死，其子李惟岳求袭不允，与魏博田悦、淄青李正己连兵拒命。朝廷诏幽州留后朱滔讨李惟岳，朱滔自幽州出兵，军于莫州，与张孝忠破李惟岳于束鹿，进围深州。建中三年（782）朝廷割深州与康日知，朱滔求深州不得而怨，遂应田悦之邀反唐，六月率幽州兵南下，至魏州惬山与官军交战，十月在魏州西郊称冀王。原线只有幽州—魏州两点、日期作 781 全年，线头无前置；此处补莫州、改起止日期并写明两段。路线为示意。",
+          "en": "In the first month of 781 Li Baochen of Chengde died and his son Li Weiyue was refused hereditary succession, so he joined Tian Yue of Weibo and Li Zhengji of Ziqing in revolt. The court ordered Zhu Tao, acting governor of Youzhou, to attack Li Weiyue; Zhu Tao marched from Youzhou, camped at Mozhou, defeated Li Weiyue at Shulu with Zhang Xiaozhong and besieged Shenzhou. In 782 the court gave Shenzhou to Kang Rizhi; Zhu Tao, denied it, turned against the court at Tian Yue’s invitation, marched south in the sixth month and fought the imperial army at Qieshan near Weizhou, taking the title of Prince of Ji in the tenth month. The former line had only two points and a whole-year date of 781 with no precedent at its head; Mozhou is added and the two phases are now described. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -763,8 +763,8 @@
             34.27
           ],
           [
-            100.0,
-            33.0
+            100,
+            33
           ],
           [
             91.1,
@@ -871,22 +871,34 @@
           [
             95.78,
             40.52
+          ],
+          [
+            98.49,
+            39.73
+          ],
+          [
+            100.45,
+            38.93
+          ],
+          [
+            102.63,
+            37.93
           ]
         ]
       },
       "properties": {
         "entityId": "tang",
         "startDate": "0848-01-01",
-        "endDate": "0848-12-31",
+        "endDate": "0861-03-31",
         "order": 24,
         "segmentType": "counterattack",
         "name": {
-          "zh": "沙州—瓜州",
-          "en": "Shazhou–Guazhou"
+          "zh": "沙州—瓜州—肃州—甘州—凉州（归义军收复河西）",
+          "en": "Shazhou–Guazhou–Suzhou–Ganzhou–Liangzhou (Guiyi Army recovers Hexi)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "大中二年（848）张议潮在沙州起兵，逐吐蕃守将，同年收复瓜州，遣使绕道天德入奏；大中四年（850）收复伊州，大中五年（851）前后收复肃州、甘州等，八月遣兄张议潭献十一州图籍，十一月唐置归义军。大中十二年（858）起张淮深率蕃汉兵七千东征凉州，咸通二年（861）克之，河陇故地尽复。原线止于瓜州，线尾无后续；此处补肃、甘、凉三州。路线为示意。",
+          "en": "In 848 Zhang Yichao rose at Shazhou, expelled the Tibetan commanders and recovered Guazhou the same year, sending envoys to the court via Tiande. Yizhou fell in 850 and Suzhou and Ganzhou around 851; in the eighth month his brother Zhang Yitan presented the registers of eleven prefectures and in the eleventh month the Guiyi Army was established. From 858 Zhang Huaishen led 7,000 Tibetan and Chinese troops east against Liangzhou, which fell in 861, completing the recovery of the Hexi–Longyou lands. The former line stopped at Guazhou with no follow-through; Suzhou, Ganzhou and Liangzhou are now added. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -903,7 +915,7 @@
             25.27
           ],
           [
-            113.0,
+            113,
             28.2
           ],
           [
@@ -927,8 +939,8 @@
           "en": "Guizhou–Xuzhou"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "咸通四年（863）唐廷为援安南在徐泗募兵二千，分八百人戍守桂州，约定三年一换；至咸通九年（868）已戍六年，徐泗观察使崔彦曾仍以军帑空虚请再留一年。七月戍卒杀都将王仲甫，推粮料判官庞勋为首，劫库北还，经湖南、浙西入淮南；十月攻宿州、占徐州，众至数万。次年唐廷调康承训等二十万镇压，九月庞勋败死于蕲县。原线线头桂州无前置，现由「庞勋起义」事件与戍桂经过承接。路线为示意。",
+          "en": "In 863 the court raised 2,000 men in Xu and Si to relieve Annam, stationing 800 of them at Guizhou on a three-year rotation. By 868 they had served six years and the governor Cui Yanzeng still asked for another year on grounds of empty coffers. In the seventh month the garrison killed commander Wang Zhongfu, chose the supply officer Pang Xun as leader, broke into the stores and marched home through Hunan, Zhexi and Huainan; in the tenth month they took Suzhou and Xuzhou and grew to tens of thousands. In the next year the court sent 200,000 men under Kang Chengxun; Pang Xun was defeated and killed at Qixian in the ninth month. The former route began at Guizhou without a precedent, now supplied by the revolt event and the garrison’s posting. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -1039,6 +1051,44 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.45,
+            34.62
+          ],
+          [
+            114.9,
+            36.3
+          ],
+          [
+            116.4,
+            39.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "sui",
+        "startDate": "0608-01-01",
+        "endDate": "0608-12-31",
+        "order": 5,
+        "segmentType": "supply",
+        "name": {
+          "zh": "洛阳—涿郡（永济渠）",
+          "en": "Luoyang–Zhuojun (Yongji canal)"
+        },
+        "description": {
+          "zh": "大业四年（608）正月，炀帝“将兴辽东之役，自洛口开渠达于涿郡，以通漕”，发河北诸郡男女百余万开永济渠，引沁水南达于河，北通涿郡，全长二千余里。此渠把军粮与将士运至东北前线，为 612 年征辽东的准备；原数据中涿郡—辽东段的线头因此有来由。路线为示意，馆陶、沧州等经行点只入正文。",
+          "en": "In the first month of 608, preparing the Liaodong campaign, Emperor Yang had the Yongji canal dug from the Luo mouth to Zhuojun “for transport”, mobilising over a million men from Hebei to lead the Qin river south to the Yellow River and north to Zhuojun, over 2,000 li. The canal carried troops and grain to the north-eastern front and prepares the 612 Liaodong campaign, giving the Zhuojun–Liaodong route its head. The line is schematic; Guantao and Cangzhou appear only in the text."
         },
         "extensions": {
           "precision": "schematic"

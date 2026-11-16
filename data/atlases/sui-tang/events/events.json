@@ -489,8 +489,8 @@
     },
     "date": "0630-03-01",
     "location": {
-      "lng": 111.0,
-      "lat": 41.0,
+      "lng": 111,
+      "lat": 41,
       "place": {
         "zh": "内蒙古阴山",
         "en": "Yinshan, Inner Mongolia"
@@ -670,7 +670,7 @@
     "date": "0663-08-01",
     "location": {
       "lng": 126.5,
-      "lat": 36.0,
+      "lat": 36,
       "place": {
         "zh": "朝鲜锦江",
         "en": "Geum River, Korea"
@@ -1646,8 +1646,8 @@
       "en": "Zhang Yichao rose, recovered Dunhuang, and submitted to the Tang."
     },
     "description": {
-      "zh": "848 年，沙州豪族张议潮趁吐蕃内乱起兵，收复敦煌及周边州县，随后遣使归唐，唐朝设归义军，以张议潮为节度使。日期与经过为通行说法，待页码级核对。",
-      "en": "In 848, Zhang Yichao, a leading family of Shazhou, exploited turmoil in Tubo to rise against its rule and recover Dunhuang and neighboring prefectures. He then sent envoys to submit to the Tang, which established the Guiyi Army and made him its military governor. Dates and details follow conventional accounts and await page-level verification."
+      "zh": "大中二年（848）沙州豪族张议潮趁吐蕃内乱起兵，逐吐蕃守将，收复沙州，同年东进收复瓜州，随即遣使分十道绕行沙漠赴长安报捷，其中悟真一支经天德军于大中四年（850）抵达。此后又收复伊、肃、甘等州，大中五年（851）遣兄张议潭献十一州图籍，唐置归义军，以张议潮为节度使。",
+      "en": "In 848 Zhang Yichao, a wealthy Shazhou family head, rose amid Tibetan disorder, expelled the Tibetan commander and recovered Shazhou; that year he moved east and took Guazhou, then sent ten groups of envoys across the deserts to Chang’an, of which Wuzhen’s party reached the court via Tiande in 850. Further prefectures followed, and in 851 his brother Zhang Yitan presented the registers of eleven prefectures; the Tang established the Guiyi Army with Zhang Yichao as its commissioner."
     },
     "images": [],
     "sources": [
@@ -1686,15 +1686,15 @@
     "atlasId": "sui-tang",
     "name": {
       "zh": "庞勋起义",
-      "en": "The Pang Xun rebellion"
+      "en": "Pang Xun’s revolt"
     },
     "date": "0868-07-01",
     "location": {
-      "lng": 117.18,
-      "lat": 34.26,
+      "lng": 110.3,
+      "lat": 25.27,
       "place": {
-        "zh": "江苏徐州",
-        "en": "Xuzhou, Jiangsu"
+        "zh": "广西桂林（桂州）",
+        "en": "Guilin (Guizhou), Guangxi"
       }
     },
     "entityIds": [
@@ -1706,8 +1706,8 @@
       "en": "Pang Xun led mutinous garrison troops from Guizhou northward and captured Xuzhou."
     },
     "description": {
-      "zh": "868 年，戍守桂州的徐州兵因久戍不归起兵，推庞勋为首，北上攻占徐州，震动江淮，成为唐末大规模民变的前奏。日期与路线为通行说法，待页码级核对。",
-      "en": "In 868, garrison troops from Xu stationed at Guizhou mutinied over extended service, chose Pang Xun as their leader, marched north, and captured Xuzhou, shaking the Jiang-Huai region and foreshadowing the great late-Tang rebellions. Dates and routes follow conventional accounts and await page-level verification."
+      "zh": "咸通四年（863）唐廷为援安南在徐泗募兵二千，分八百人戍守桂州，约定三年一换。至咸通九年（868）已戍六年，徐泗观察使崔彦曾以军帑空虚为由请再留一年，戍卒愤怒。七月，牙官许佶、赵可立等杀都将王仲甫，推粮料判官庞勋为首，劫库兵北还，所过剽掠，州县莫能御，成为唐末大规模民变的前奏。",
+      "en": "In 863 the court raised 2,000 men in Xu and Si for Annam and stationed 800 at Guizhou on a three-year rotation. By 868 they had served six years and governor Cui Yanzeng, pleading empty coffers, asked for one more; the garrison mutinied. In the seventh month officers Xu Ji and Zhao Keli killed commander Wang Zhongfu, chose the supply officer Pang Xun as leader, broke into the stores and marched north, plundering as they went while local officials could not stop them — a prelude to the great revolts of the late Tang."
     },
     "images": [],
     "sources": [
@@ -1920,5 +1920,193 @@
       "huangchao-changan-880"
     ],
     "importance": 3
+  },
+  {
+    "id": "jiangnan-canal-610",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "开江南河",
+      "en": "Opening of the Jiangnan canal"
+    },
+    "date": "0610-12-01",
+    "location": {
+      "lng": 120.16,
+      "lat": 30.27,
+      "place": {
+        "zh": "浙江杭州（余杭）",
+        "en": "Hangzhou (Yuhang), Zhejiang"
+      }
+    },
+    "entityIds": [
+      "sui"
+    ],
+    "category": "工程",
+    "summary": {
+      "zh": "隋炀帝开江南河，自京口至余杭八百余里。",
+      "en": "Emperor Yang opened the Jiangnan canal from Jingkou to Yuhang, over 800 li."
+    },
+    "description": {
+      "zh": "大业六年（610）炀帝下令开江南河，自京口（今镇江）引长江水南至余杭（今杭州）入钱塘江，全长八百余里，宽十余丈，可通龙舟。至此以洛阳为中心、北起涿郡南至余杭的大运河全线贯通。",
+      "en": "In 610 Emperor Yang ordered the Jiangnan canal dug from Jingkou (Zhenjiang) south to Yuhang (Hangzhou) and into the Qiantang, over 800 li long and wide enough for the imperial dragon boats. With this the Grand Canal from Zhuojun in the north to Yuhang in the south, centred on Luoyang, was complete."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "隋书·炀帝纪",
+        "author": "魏征等",
+        "note": "大业六年开江南河"
+      },
+      {
+        "title": "隋唐运河新知",
+        "author": "香港教育局",
+        "note": "通济渠、邗沟、永济渠、江南河四段年代与走向"
+      }
+    ],
+    "relatedIds": [
+      "tongji-canal-605"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhutao-campaign-781",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "朱滔奉诏讨李惟岳",
+      "en": "Zhu Tao campaigns against Li Weiyue"
+    },
+    "date": "0781-08-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "幽州（今北京）",
+        "en": "Youzhou (present-day Beijing)"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "幽州留后朱滔奉诏南下讨成德李惟岳，破之于束鹿。",
+      "en": "Zhu Tao of Youzhou marched south against Li Weiyue of Chengde and defeated him at Shulu."
+    },
+    "description": {
+      "zh": "建中二年（781）正月成德节度使李宝臣死，其子李惟岳求袭不允，与魏博田悦、淄青李正己连兵拒命。朝廷诏幽州留后朱滔讨李惟岳；朱滔自幽州出兵，军于莫州，与易州张孝忠合兵，十一月在束鹿大破李惟岳，进围深州。次年朝廷割深州与康日知，朱滔求深州不得，遂反，南下救田悦至魏州。",
+      "en": "In the first month of 781 Li Baochen of Chengde died and his son Li Weiyue was refused succession, so he joined Tian Yue and Li Zhengji in revolt. The court ordered Zhu Tao of Youzhou against him; Zhu Tao marched out, camped at Mozhou, joined Zhang Xiaozhong of Yizhou, routed Li Weiyue at Shulu in the eleventh month and besieged Shenzhou. The next year, denied Shenzhou, he turned against the court and marched south to Weizhou to aid Tian Yue."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《资治通鉴》卷二百二十七",
+        "author": "司马光",
+        "note": "建中二年朱滔军于莫州、束鹿之战、进围深州"
+      },
+      {
+        "title": "旧唐书·朱滔传",
+        "author": "刘昫等",
+        "note": "朱滔讨李惟岳与四镇之乱"
+      }
+    ],
+    "relatedIds": [
+      "heshuo-781"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hexi-recovered-861",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "归义军收复凉州",
+      "en": "Guiyi Army recovers Liangzhou"
+    },
+    "date": "0861-03-01",
+    "location": {
+      "lng": 102.63,
+      "lat": 37.93,
+      "place": {
+        "zh": "甘肃武威（凉州）",
+        "en": "Wuwei (Liangzhou), Gansu"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "张淮深率蕃汉兵七千东征，克复凉州，河陇故地尽复。",
+      "en": "Zhang Huaishen led 7,000 troops east and took Liangzhou, completing the recovery of Hexi and Longyou."
+    },
+    "description": {
+      "zh": "大中十二年（858）八月，张议潮命侄张淮深率蕃、汉兵七千东征凉州，吐蕃集重兵于姑臧，围攻三年。咸通二年（861）三月克复凉州，表奏朝廷，“河陇陷没百余年，至是悉复故地”。咸通四年（863）唐复置凉州节度使，以张议潮兼领；咸通八年（867）张议潮入朝，侄张淮深留守归义军。",
+      "en": "In the eighth month of 858 Zhang Yichao sent his nephew Zhang Huaishen east with 7,000 Tibetan and Chinese troops against Liangzhou, where the Tibetans concentrated their forces; the siege lasted three years. Liangzhou fell in the third month of 861 and the recovery was reported to the court — “the Hexi and Longyou lands, lost for over a century, were all recovered”. In 863 the Tang restored the Liangzhou command and gave it to Zhang Yichao; in 867 he went to court and Zhang Huaishen took charge of the Guiyi Army."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "旧唐书·宣宗纪",
+        "author": "刘昫等",
+        "note": "大中五年张议潮献十一州图籍"
+      },
+      {
+        "title": "《资治通鉴》卷二百五十",
+        "author": "司马光",
+        "note": "咸通二年张议潮克复凉州"
+      },
+      {
+        "title": "甘肃档案信息网·张议潮",
+        "note": "848 收复瓜沙、850 伊州、861 凉州"
+      }
+    ],
+    "relatedIds": [
+      "guiyijun-848"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "pangxun-xuzhou-868",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "庞勋攻占徐州",
+      "en": "Pang Xun takes Xuzhou"
+    },
+    "date": "0868-10-17",
+    "location": {
+      "lng": 117.18,
+      "lat": 34.26,
+      "place": {
+        "zh": "江苏徐州（彭城）",
+        "en": "Xuzhou (Pengcheng), Jiangsu"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "庞勋北上攻占宿州、徐州，众至数万，震动江淮。",
+      "en": "Pang Xun marched north, took Suzhou and Xuzhou and gathered tens of thousands, shaking the Huai region."
+    },
+    "description": {
+      "zh": "咸通九年（868）十月，庞勋自桂州北还的八百戍卒沿途扩至六七千人，十日攻占宿州，十三日击败徐州援军，十七日进抵彭城，城中军民响应，不到一个时辰破城，囚观察使崔彦曾，开府库募兵，旬日聚众五万。此后攻濠、滁、和等州，围泗州，断江淮漕运。十年九月为康承训、朱邪赤心所败，庞勋死于蕲县。",
+      "en": "In the tenth month of 868 Pang Xun’s 800 returning garrison, grown to six or seven thousand, took Suzhou on the tenth, beat the relief force on the thirteenth and reached Pengcheng on the seventeenth; the townspeople rose, the city fell within an hour, governor Cui Yanzeng was imprisoned and the treasury opened, drawing 50,000 men within ten days. He then took Hao, Chu and He prefectures and besieged Sizhou, cutting the Huai grain route. In the ninth month of 869 he was defeated by Kang Chengxun and Zhuye Chixin and died at Qixian."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《资治通鉴》卷二百五十一",
+        "author": "司马光",
+        "note": "咸通九年十月庞勋攻宿州、徐州"
+      },
+      {
+        "title": "新唐书·康承训传",
+        "author": "欧阳修等",
+        "note": "庞勋之乱始末"
+      }
+    ],
+    "relatedIds": [
+      "pangxun-868"
+    ],
+    "importance": 2
   }
 ]
