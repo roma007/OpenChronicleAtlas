@@ -3,6 +3,16 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.84] - 2026-11-16
+
+### Added
+- 首页「历史专题」标题旁新增临时「封面遮罩」滑杆（0—100%，默认 97%）：实时调整封面遮罩不透明度，取值写入 `localStorage`，带「重置」。仅 Web，用于确定最终数值，确定后会移除滑杆并写死。
+
+### Docs
+- `docs/conversations/2026-11-16-封面换成AI插画.md` 补「临时遮罩滑杆」一节。
+
+---
+
 ## [v1.0.83] - 2026-11-16
 
 ### Changed

@@ -3,10 +3,18 @@ import { Link } from 'react-router-dom';
 import { dataUrl } from '../../data/client';
 import { useI18n } from '../../hooks/useI18n';
 
-const SCRIM =
-  'linear-gradient(90deg, rgba(243,234,217,0.97) 0%, rgba(243,234,217,0.92) 32%, rgba(243,234,217,0.7) 52%, rgba(243,234,217,0.25) 72%, rgba(243,234,217,0) 90%)';
+function scrimGradient(max: number): string {
+  const a = Math.min(1, Math.max(0, max));
+  return `linear-gradient(90deg, rgba(243,234,217,${a}) 0%, rgba(243,234,217,${a * 0.95}) 32%, rgba(243,234,217,${a * 0.72}) 52%, rgba(243,234,217,${a * 0.26}) 72%, rgba(243,234,217,0) 90%)`;
+}
 
-export function AtlasCard({ atlas }: { atlas: AtlasSummary }) {
+export function AtlasCard({
+  atlas,
+  scrimOpacity = 0.97,
+}: {
+  atlas: AtlasSummary;
+  scrimOpacity?: number;
+}) {
   const { locale, t } = useI18n();
   const title = resolveLocalized(atlas.title, locale);
   const subtitle = resolveLocalized(atlas.subtitle, locale);
@@ -44,7 +52,7 @@ export function AtlasCard({ atlas }: { atlas: AtlasSummary }) {
 
         {coverText ? (
           <>
-            <div className="pointer-events-none absolute inset-0" style={{ background: SCRIM }} />
+            <div className="pointer-events-none absolute inset-0" style={{ background: scrimGradient(scrimOpacity) }} />
             {detailed ? (
               <>
                 <div className="absolute left-[6.9cqw] right-[14cqw] top-[8.6cqw] [text-shadow:0_1px_2px_rgba(243,234,217,0.95),0_0_10px_rgba(243,234,217,0.85)]">

@@ -1,17 +1,40 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAtlasStore } from '../stores/useAtlasStore';
 import { AtlasCard } from '../components/atlas/AtlasCard';
 import { LanguageToggle } from '../components/layout/LanguageToggle';
 import { useI18n } from '../hooks/useI18n';
 
+const SCRIM_STORAGE_KEY = 'atlas-cover-scrim';
+const DEFAULT_SCRIM = 97;
+
+function initialScrim(): number {
+  try {
+    const raw = window.localStorage.getItem(SCRIM_STORAGE_KEY);
+    const value = raw === null ? Number.NaN : Number(raw);
+    if (Number.isFinite(value)) return Math.min(100, Math.max(0, value));
+  } catch {
+    // 忽略隐私模式下的读取失败
+  }
+  return DEFAULT_SCRIM;
+}
+
 export function AtlasGalleryPage() {
   const { index, loading, error, loadIndex } = useAtlasStore();
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
+  const [scrim, setScrim] = useState(initialScrim);
 
   useEffect(() => {
     void loadIndex();
   }, [loadIndex]);
+
+  useEffect(() => {
+    try {
+      window.localStorage.setItem(SCRIM_STORAGE_KEY, String(scrim));
+    } catch {
+      // 忽略隐私模式下的写入失败
+    }
+  }, [scrim]);
 
   return (
     <div className="min-h-full bg-parchment">
@@ -50,11 +73,35 @@ export function AtlasGalleryPage() {
       </header>
 
       <main id="main-content" tabIndex={-1} className="mx-auto max-w-6xl px-5 py-10 sm:px-8 md:py-14">
-        <div className="mb-6 flex items-baseline justify-between">
-          <h2 className="font-serif text-xl tracking-widest text-ink">{t('gallery.subtitle')}</h2>
-          <span className="text-xs text-ink-soft">
-            {t('gallery.count', { count: index?.length ?? 0 })}
-          </span>
+        <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
+          <div className="flex items-baseline gap-4">
+            <h2 className="font-serif text-xl tracking-widest text-ink">{t('gallery.subtitle')}</h2>
+            <span className="text-xs text-ink-soft">
+              {t('gallery.count', { count: index?.length ?? 0 })}
+            </span>
+          </div>
+
+          <div className="flex items-center gap-2 rounded-full border border-ink/10 bg-parchment px-3 py-1.5 text-[11px] text-ink-soft">
+            <span>{locale === 'en' ? 'Cover mask' : '封面遮罩'}</span>
+            <input
+              type="range"
+              min={0}
+              max={100}
+              step={1}
+              value={scrim}
+              onChange={(event) => setScrim(Number(event.target.value))}
+              aria-label={locale === 'en' ? 'Cover mask opacity' : '封面遮罩不透明度'}
+              className="h-1 w-28 cursor-pointer accent-cinnabar sm:w-40"
+            />
+            <span className="w-8 text-right tabular-nums">{scrim}%</span>
+            <button
+              type="button"
+              onClick={() => setScrim(DEFAULT_SCRIM)}
+              className="rounded-full px-1 text-ink-soft/70 underline decoration-ink/20 underline-offset-2 hover:text-cinnabar"
+            >
+              {locale === 'en' ? 'Reset' : '重置'}
+            </button>
+          </div>
         </div>
 
         {loading && !index ? (
@@ -85,7 +132,7 @@ export function AtlasGalleryPage() {
         {index ? (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {index.map((atlas) => (
-              <AtlasCard key={atlas.id} atlas={atlas} />
+              <AtlasCard key={atlas.id} atlas={atlas} scrimOpacity={scrim / 100} />
             ))}
           </div>
         ) : null}
