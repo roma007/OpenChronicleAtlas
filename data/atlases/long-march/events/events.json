@@ -585,11 +585,11 @@
     },
     "date": "1934-11-16",
     "location": {
-      "lng": 109.95,
-      "lat": 29.15,
+      "lng": 109.828,
+      "lat": 29.204,
       "place": {
-        "zh": "湖南永顺十万坪",
-        "en": "Shiwangping, Yongshun, Hunan"
+        "zh": "湖南永顺万坪镇龙家寨（十万坪）",
+        "en": "Longjiazhai (Shiwangping), Wanping, Yongshun, Hunan"
       }
     },
     "entityIds": [
@@ -597,32 +597,32 @@
     ],
     "category": "战役",
     "summary": {
-      "zh": "红二、六军团在永顺十万坪伏击国民党军，取得大捷。",
-      "en": "The Red Second and Sixth Army Groups ambushed KMT forces at Shiwangping and won a major victory."
+      "zh": "红二、六军团在永顺龙家寨十万坪伏击国民党军陈渠珍部，取得会师后第一个大胜仗。",
+      "en": "The Red Second and Sixth Army Groups ambushed Chen Quzhen’s Hunan forces at Shiwangping and won their first major victory after joining forces."
     },
     "description": {
-      "zh": "1934 年 11 月 16 日，红二、六军团在湖南永顺龙家寨十万坪伏击国民党军，取得湘鄂川黔苏区创建后的首次大捷。",
-      "en": "On November 16, 1934, the Red Second and Sixth Army Groups ambushed KMT forces at Shiwangping, Longjiazhai, Yongshun, Hunan, winning the first major victory after the creation of the Hunan-Hubei-Sichuan-Guizhou Soviet area."
+      "zh": "1934 年 11 月 13 日红二、六军团主动撤离永顺县城北撤，16 日黄昏在龙家寨十万坪谷地伏击尾追的国民党军陈渠珍部龚仁杰、周燮卿两旅，战至深夜，又在把总河击溃杨其昌旅；17 日在龙家寨开庆功大会，18 日重占永顺县城。此役歼敌 1000 余人、俘 2000 余人，缴枪 2200 余支，是两军团会师后第一个大胜仗。万坪镇即旧龙家寨，镇政府驻十万坪，战场在今万坪镇上坪、碑立坪一带。",
+      "en": "On 13 November 1934 the Second and Sixth Army Groups deliberately abandoned Yongshun and withdrew north. At dusk on 16 November they ambushed the pursuing brigades of Gong Renjie and Zhou Xieqing of Chen Quzhen’s Hunan army in the Shiwangping valley at Longjiazhai, and late that night routed Yang Qichang’s brigade at Bazonghe. A victory rally was held at Longjiazhai on 17 November and Yongshun was retaken on 18 November. The battle killed over 1,000 and captured over 2,000 enemy troops with more than 2,200 rifles, the first major victory after the two army groups joined. Wanping town is the former Longjiazhai; its government seat is at Shiwangping and the battlefield lies around today’s Shangping and Beiliping villages."
     },
     "images": [],
     "sources": [
       {
-        "title": "《中国共产党历史》第一卷",
-        "author": "中共中央党史研究室",
-        "year": 2011,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "title": "第三章 红2、红6军团发动湘西攻势",
+        "author": "人民网·中国共产党新闻网",
+        "url": "http://dangshi.people.com.cn/n1/2016/0805/c406330-28615254.html",
+        "note": "11 月 7 日占永顺、16 日十万坪伏击、17 日庆功、18 日重占永顺"
       },
       {
-        "title": "《红军长征史》",
-        "author": "中共中央党史研究室第一研究部",
-        "year": 2006,
-        "note": "路线走向参考，坐标为示意简化"
+        "title": "龙家寨十万坪大捷：一次扭转局面的伏击战",
+        "author": "人民周刊",
+        "url": "https://www.peopleweekly.cn/html/2023/wenshi_1123/187439.html",
+        "note": "11 月 13 日撤离、15 日设伏、18 日重占永顺"
       },
       {
-        "title": "《中国工农红军长征史料丛书》",
-        "author": "中国人民解放军历史资料丛书编审委员会",
-        "year": 2016,
-        "note": "用于核对红二、六军团与国民党军行动"
+        "title": "万坪镇：十万坪大战旧址",
+        "author": "湘西团结报",
+        "url": "http://www.xxnet.com.cn/szb/tjbpc/202107/14/c73673.html",
+        "note": "万坪镇即旧龙家寨，镇政府驻十万坪，战场在上坪、碑立坪一带"
       }
     ],
     "relatedIds": [
@@ -635,7 +635,10 @@
         "zh": "龙家寨战斗",
         "en": "Battle of Longjiazhai"
       }
-    ]
+    ],
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "dushuzhen-1934-11",
@@ -3085,8 +3088,8 @@
     },
     "date": "1935-02-01",
     "location": {
-      "lng": 109.95,
-      "lat": 29.15,
+      "lng": 109.84987,
+      "lat": 28.99968,
       "place": {
         "zh": "湖南永顺",
         "en": "Yongshun, Hunan"
@@ -3101,8 +3104,8 @@
       "en": "Kuomintang forces led by He Jian’s (later Liu Jianxu’s) Hunan Fourth Route Army launched an encirclement campaign against the Hunan-Hubei-Sichuan-Guizhou Soviet area."
     },
     "description": {
-      "zh": "1935 年 2 月起，国民党军以湘军何键（后刘建绪）第四路军等部为主，并有湘鄂两省及中央军部队参加，对湘鄂川黔苏区发动“围剿”，红二、六军团展开反“围剿”作战。部队番号与指挥关系为通行说法，待页码级核对。",
-      "en": "From February 1935, Kuomintang forces led by He Jian’s (later Liu Jianxu’s) Hunan Fourth Route Army, joined by other Hunan, Hubei and Central Army units, encircled the Hunan-Hubei-Sichuan-Guizhou Soviet area; the Red Second and Sixth Army Groups fought a counter-encirclement campaign. Unit designations and command relationships follow conventional accounts and await page-level verification."
+      "zh": "1935 年 2 月起，国民党军以湘军何键（后刘建绪）第四路军等部为主，编成 6 个纵队、约 11 万人，并有湘鄂两省及中央军部队参加，对湘鄂川黔苏区发动“围剿”；红二、六军团先在慈利、大庸正面阻击受挫，4 月撤离塔卧、龙家寨北移，随后在陈家河、桃子溪转败为胜。部队番号与指挥关系为通行说法，待页码级核对。",
+      "en": "From February 1935 Kuomintang forces led by He Jian’s (later Liu Jianxu’s) Hunan Fourth Route Army, organised into six columns of about 110,000 men with other Hunan, Hubei and Central Army units, encircled the Hunan-Hubei-Sichuan-Guizhou Soviet area. The Red Second and Sixth Army Groups first tried to hold the enemy frontally at Cili and Dayong and suffered setbacks; in April they withdrew north from Tawo and Longjiazhai and then turned defeat into victory at Chenjiahe and Taoziqi. Unit designations and command relationships follow conventional accounts and await page-level verification."
     },
     "images": [],
     "sources": [
@@ -8512,11 +8515,11 @@
     },
     "date": "1935-06-12",
     "location": {
-      "lng": 109.273,
-      "lat": 29.676,
+      "lng": 109.27604,
+      "lat": 29.67758,
       "place": {
-        "zh": "湖北咸丰忠堡",
-        "en": "Zhongbao, Xianfeng, Hubei"
+        "zh": "湖北咸丰忠堡（构皮岭一带）",
+        "en": "Zhongbao (Goupiling), Xianfeng, Hubei"
       }
     },
     "entityIds": [
@@ -8524,32 +8527,26 @@
     ],
     "category": "战役",
     "summary": {
-      "zh": "红二、六军团在咸丰忠堡歼灭国民党军第 41 师。",
-      "en": "The Red Second and Sixth Army Groups destroyed the KMT 41st Division at Zhongbao."
+      "zh": "红二、六军团在咸丰忠堡围歼国民党军第 41 师，俘师长张振汉。",
+      "en": "The Red Second and Sixth Army Groups destroyed the KMT 41st Division at Zhongbao and captured its commander Zhang Zhenhan."
     },
     "description": {
-      "zh": "1935 年 6 月 12 日，红二、六军团在湖北咸丰忠堡地区歼灭国民党军第 41 师，俘师长张振汉。番号与俘获情况为通行说法，待页码级核对。",
-      "en": "On June 12, 1935, the Red Second and Sixth Army Groups destroyed the KMT 41st Division at Zhongbao, Xianfeng, Hubei, and captured its commander Zhang Zhenhan. Unit designations and capture details follow conventional accounts and await page-level verification."
+      "zh": "1935 年 6 月 9 日夜，红二、六军团以一部围困宣恩县城，主力隐蔽待机；截获湘鄂川边“剿匪”总司令徐源泉令第 41 师张振汉部经忠堡西援宣恩的密电后，12 日凌晨 3 时分两路向忠堡急进，在忠堡与构皮岭之间设伏，下午发起攻击，将敌左、中、右三路分割包围；14 日晨发起总攻，下午在构皮岭俘张振汉。此役歼第 41 师师部、第 121 旅及特务营等部共 2000 余人，时称红军北进鄂西的第一个大胜仗。",
+      "en": "On the night of 9 June 1935 part of the Second and Sixth Army Groups besieged Xuan’en while the main force waited in hiding. After intercepting a telegram from Xu Yuanquan, commander-in-chief of the Hunan-Hubei-Sichuan border “bandit suppression” forces, ordering Zhang Zhenhan’s 41st Division to relieve Xuan’en via Zhongbao, the main force marched at 3 a.m. on 12 June, set an ambush between Zhongbao and Goupiling, attacked in the afternoon and cut off the enemy’s left, centre and right columns; the general assault began on the morning of 14 June and Zhang Zhenhan was captured at Goupiling that afternoon. The divisional headquarters, the 121st Brigade and a security battalion were destroyed, some 2,000 men in all, the Red Army’s first major victory in western Hubei."
     },
     "images": [],
     "sources": [
       {
-        "title": "《中国共产党历史》第一卷",
-        "author": "中共中央党史研究室",
-        "year": 2011,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "title": "扬言捉贺龙 却被贺龙捉",
+        "author": "湖北档案信息网（湖北日报）",
+        "url": "https://www.hbda.gov.cn/info/1298.jspx",
+        "note": "6 月 9 日夜围宣恩、12 日凌晨急进、14 日俘张振汉"
       },
       {
-        "title": "《红军长征史》",
-        "author": "中共中央党史研究室第一研究部",
-        "year": 2006,
-        "note": "路线走向参考，坐标为示意简化"
-      },
-      {
-        "title": "《中国工农红军长征史料丛书》",
-        "author": "中国人民解放军历史资料丛书编审委员会",
-        "year": 2016,
-        "note": "用于核对红二、六军团与国民党军行动"
+        "title": "贺龙",
+        "author": "中国军网",
+        "url": "http://www.81.cn/yljnt_208627/ylml/H_208637/16399889.html",
+        "note": "忠堡歼第 41 师师部及第 121 旅"
       }
     ],
     "relatedIds": [
@@ -8559,7 +8556,8 @@
     "importance": 2,
     "extensions": {
       "locationPrecision": "approx"
-    }
+    },
+    "endDate": "1935-06-14"
   },
   {
     "id": "dawei-meeting-1935-06",
@@ -9988,32 +9986,26 @@
     ],
     "category": "战役",
     "summary": {
-      "zh": "红二、六军团在宣恩板栗园歼灭国民党军第 85 师。",
-      "en": "The Red Second and Sixth Army Groups destroyed the KMT 85th Division at Banliyuan."
+      "zh": "红二、六军团在宣恩板栗园、利福田歼灭国民党军第 85 师师部及两个团。",
+      "en": "The Red Second and Sixth Army Groups destroyed the headquarters and two regiments of the KMT 85th Division at Banliyuan–Lifutian in Xuan’en."
     },
     "description": {
-      "zh": "1935 年 8 月 3 日，红二、六军团在湖北宣恩板栗园地区歼灭国民党军第 85 师，击毙师长谢彬。番号与战果为通行说法，待页码级核对。",
-      "en": "On August 3, 1935, the Red Second and Sixth Army Groups destroyed the KMT 85th Division at Banliyuan, Xuan’en, Hubei, killing its commander Xie Bin. Unit designations and results follow conventional accounts and await page-level verification."
+      "zh": "1935 年 8 月 2 日红二、六军团自龙山兴隆街北进沙道沟佯动，诱使鄂军第 85 师由小关继续向李家河南进；3 日晨红军从高罗、李家河之间揳入敌纵深，11 时抢先赶到板栗园东侧利福田谷地设伏，12 时许敌进入伏击圈，战至 23 时全歼其师部、两个团又 1 个营，击毙师长谢彬，俘敌千余人。",
+      "en": "On 2 August 1935 the Second and Sixth Army Groups moved from Xinglongjie in Longshan north to Shadaogou as a feint, drawing the Hubei 85th Division on towards Lijiahe. At dawn on 3 August the Red Army thrust into the enemy depth between Gaoluo and Lijiahe, reached the Lifutian valley east of Banliyuan at 11 a.m. and lay in ambush; the enemy entered the trap around noon and was destroyed by 11 p.m., including the divisional headquarters, two regiments and a battalion. Its commander Xie Bin was killed and about 1,000 men were captured."
     },
     "images": [],
     "sources": [
       {
-        "title": "《中国共产党历史》第一卷",
-        "author": "中共中央党史研究室",
-        "year": 2011,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "title": "板栗园大捷",
+        "author": "中国军网",
+        "url": "http://www.81.cn/yljnt_208627/lsda_208656/16458927.html",
+        "note": "8 月 2 日沙道沟佯动、3 日 11 时到利福田、12 时打响、23 时结束、战果"
       },
       {
-        "title": "《红军长征史》",
-        "author": "中共中央党史研究室第一研究部",
-        "year": 2006,
-        "note": "路线走向参考，坐标为示意简化"
-      },
-      {
-        "title": "《中国工农红军长征史料丛书》",
-        "author": "中国人民解放军历史资料丛书编审委员会",
-        "year": 2016,
-        "note": "用于核对红二、六军团与国民党军行动"
+        "title": "贺龙年谱（1935 年）",
+        "author": "中国言实出版社（转引自学达书库）",
+        "url": "http://www.xuoda.com/zj/zgxd/hlnp/041.htm",
+        "note": "8 月 2 日由兴隆街北进沙道沟、8 月 3 日兼程百里设伏"
       }
     ],
     "relatedIds": [
@@ -11539,11 +11531,11 @@
     },
     "date": "1935-11-19",
     "location": {
-      "lng": 110.16,
-      "lat": 29.4,
+      "lng": 110.23137,
+      "lat": 29.4593,
       "place": {
-        "zh": "湖南桑植刘家坪",
-        "en": "Liujiaping, Sangzhi, Hunan"
+        "zh": "湖南桑植刘家坪（干田坝）",
+        "en": "Liujiaping (Gantianba), Sangzhi, Hunan"
       }
     },
     "entityIds": [
@@ -11552,32 +11544,32 @@
     ],
     "category": "行军",
     "summary": {
-      "zh": "红二、六军团从桑植刘家坪出发长征。",
-      "en": "The Red Second and Sixth Army Groups set out from Liujiaping, Sangzhi, on the Long March."
+      "zh": "红二、六军团在桑植刘家坪、瑞塔铺誓师，开始长征。",
+      "en": "The Red Second and Sixth Army Groups held their departure rally at Liujiaping and Ruitapu in Sangzhi and began the Long March."
     },
     "description": {
-      "zh": "1935 年 11 月 19 日，红二、六军团从湖南桑植刘家坪、瑞塔铺出发，开始长征。",
-      "en": "On November 19, 1935, the Red Second and Sixth Army Groups set out from Liujiaping and Ruipu, Sangzhi, Hunan, beginning the Long March."
+      "zh": "1935 年 11 月 4 日湘鄂川黔省委与军委分会在桑植刘家坪召开联席会议，决定战略转移；19 日红二、六军团分别在刘家坪干田坝和瑞塔铺枫树塔举行突围誓师大会，当晚主力 1.7 万余人出发长征，红十八师留守茨岩塘掩护。",
+      "en": "On 4 November 1935 the Hunan-Hubei-Sichuan-Guizhou provincial committee and the Military Commission branch met at Liujiaping in Sangzhi and decided on a strategic transfer. On 19 November the Second and Sixth Army Groups held break-out rallies at Gantianba in Liujiaping and at Fengshuta in Ruitapu; that evening more than 17,000 troops set out, while the 18th Division stayed behind at Ciyantang to cover them."
     },
     "images": [],
     "sources": [
       {
-        "title": "《中国共产党历史》第一卷",
-        "author": "中共中央党史研究室",
-        "year": 2011,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "title": "红二、六军团突围长征：浴血关山战犹酣",
+        "author": "人民网·中国共产党新闻网",
+        "url": "http://dangshi.people.com.cn/n1/2019/0226/c85037-30902279.html",
+        "note": "11 月 4 日刘家坪会议、19 日干田坝与枫树塔誓师、红十八师留守"
       },
       {
-        "title": "《红军长征史》",
-        "author": "中共中央党史研究室第一研究部",
-        "year": 2006,
-        "note": "路线走向参考，坐标为示意简化"
+        "title": "湘西红色记忆 | 剑胆琴心红十八师",
+        "author": "中国军网",
+        "url": "http://www.81.cn/2020zt/2020-07/30/content_9865362.htm",
+        "note": "11 月 10 日红十八师奉命留守茨岩塘"
       },
       {
-        "title": "《中国工农红军长征史料丛书》",
-        "author": "中国人民解放军历史资料丛书编审委员会",
-        "year": 2016,
-        "note": "用于核对红二、六军团与国民党军行动"
+        "title": "何须马革裹尸还——重访红二、六军团出发地",
+        "author": "新华网",
+        "url": "https://www.xinhuanet.com/politics/2019-07/06/c_1124718501.htm",
+        "note": "19 日刘家坪干田坝、瑞塔铺枫树塔誓师"
       }
     ],
     "relatedIds": [
@@ -11589,7 +11581,10 @@
       "puduhe-1936-04",
       "liujia-defense-1936-04"
     ],
-    "importance": 3
+    "importance": 3,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "zhiluozhen-1935-11",
@@ -15681,6 +15676,254 @@
       "huatan-blocking-1935-05",
       "huili-1935-05",
       "luding-1935-05"
+    ],
+    "importance": 2,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
+  },
+  {
+    "id": "xiangechuanqian-tawo-1934-12",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "湘鄂川黔省委机关迁塔卧",
+      "en": "Provincial Organs Move to Tawo"
+    },
+    "date": "1934-12-10",
+    "location": {
+      "lng": 109.95777,
+      "lat": 29.19466,
+      "place": {
+        "zh": "湖南永顺塔卧",
+        "en": "Tawo, Yongshun, Hunan"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "湘鄂川黔省委、省革委、省军区机关由大庸迁至永顺塔卧。",
+      "en": "The Hunan-Hubei-Sichuan-Guizhou provincial party, government and military organs moved from Dayong to Tawo in Yongshun."
+    },
+    "description": {
+      "zh": "1934 年 11 月 26 日，中共湘鄂川黔省委、省革命委员会、省军区在大庸县城成立；12 月 10 日机关迁至永顺塔卧，塔卧成为苏区中心，直至 1935 年 4 月 12 日迁往龙山兴隆街。",
+      "en": "The Hunan-Hubei-Sichuan-Guizhou provincial party committee, revolutionary committee and military district were established at Dayong on 26 November 1934. On 10 December the organs moved to Tawo in Yongshun, which remained the centre of the Soviet area until they moved to Xinglongjie in Longshan on 12 April 1935."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湘鄂川黔革命根据地旧址（湖南篇）",
+        "author": "中共中央党史和文献研究院",
+        "url": "https://www.dswxyjy.org.cn/n/2013/0806/c222137-22463555.html",
+        "note": "11 月 26 日大庸成立、12 月 10 日迁塔卧、4 月 12 日迁兴隆街、5 月 6 日迁茨岩塘"
+      }
+    ],
+    "relatedIds": [
+      "shiwangping-1934-11",
+      "xiangechuanqian-ciyantang-1935-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sangzhi-recover-1935-04",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "收复桑植县城",
+      "en": "Recapture of Sangzhi"
+    },
+    "date": "1935-04-16",
+    "location": {
+      "lng": 110.1525,
+      "lat": 29.40083,
+      "place": {
+        "zh": "湖南桑植县城",
+        "en": "Sangzhi county town, Hunan"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红二、六军团在陈家河、桃子溪连胜后收复桑植县城。",
+      "en": "After victories at Chenjiahe and Taoziqi, the Red Second and Sixth Army Groups recaptured Sangzhi."
+    },
+    "description": {
+      "zh": "1935 年 4 月 14 日红军在陈家河全歼国民党军第 58 师第 172 旅；15 日追至桃子溪，全歼南逃的师部及第 174 旅；16 日乘胜收复桑植县城，红军由被动转为主动，放弃了北渡长江的计划。收复日期另有 4 月 13—15 日之说。",
+      "en": "On 14 April 1935 the Red Army destroyed the 172nd Brigade of the KMT 58th Division at Chenjiahe; on 15 April it caught the fleeing divisional headquarters and 174th Brigade at Taoziqi and wiped them out; on 16 April it retook Sangzhi, turning from the defensive to the initiative and abandoning the plan to cross the Yangtze northward. Some accounts give 13–15 April for the recapture."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湘鄂川黔革命根据地纪念馆",
+        "author": "张家界市永定区",
+        "url": "http://www.zjjxs.com/jjjs/zhangjiajie_06.htm",
+        "note": "14 日全歼第 172 旅、15 日桃子溪全歼师部及第 174 旅、16 日收复桑植"
+      },
+      {
+        "title": "战友们回忆中的常德善烈士",
+        "author": "抗战纪念网",
+        "url": "https://m.krzzjn.com/show-1230-137123.html",
+        "note": "另有 4 月 13—15 日收复桑植城之说"
+      }
+    ],
+    "relatedIds": [
+      "chenjiahe-1935-04"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xiangechuanqian-ciyantang-1935-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "湘鄂川黔省委机关迁茨岩塘",
+      "en": "Provincial Organs Move to Ciyantang"
+    },
+    "date": "1935-05-06",
+    "location": {
+      "lng": 109.59572,
+      "lat": 29.41549,
+      "place": {
+        "zh": "湖南龙山茨岩塘",
+        "en": "Ciyantang, Longshan, Hunan"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "根据地",
+    "summary": {
+      "zh": "省委机关由龙山兴隆街迁至茨岩塘，茨岩塘成为苏区后期中心。",
+      "en": "The provincial organs moved from Xinglongjie to Ciyantang, which became the centre of the Soviet area in its final phase."
+    },
+    "description": {
+      "zh": "1935 年 4 月 12 日省委机关由永顺塔卧迁龙山兴隆街；5 月 6 日再迁茨岩塘。此后茨岩塘成为苏区后期中心，11 月红十八师奉命留守此地掩护主力突围。",
+      "en": "On 12 April 1935 the provincial organs moved from Tawo in Yongshun to Xinglongjie in Longshan, and on 6 May they moved again to Ciyantang. Ciyantang then became the centre of the Soviet area; in November the 18th Division was ordered to stay there to cover the main force’s break-out."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湘鄂川黔革命根据地旧址（湖南篇）",
+        "author": "中共中央党史和文献研究院",
+        "url": "https://www.dswxyjy.org.cn/n/2013/0806/c222137-22463555.html",
+        "note": "5 月 6 日省委机关迁茨岩塘"
+      },
+      {
+        "title": "湘西红色记忆 | 剑胆琴心红十八师",
+        "author": "中国军网",
+        "url": "http://www.81.cn/2020zt/2020-07/30/content_9865362.htm",
+        "note": "红十八师两次留守茨岩塘"
+      }
+    ],
+    "relatedIds": [
+      "xiangechuanqian-tawo-1934-12",
+      "sangzhi-1935-11"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "longshan-siege-1935-06",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "围攻龙山县城",
+      "en": "Siege of Longshan"
+    },
+    "date": "1935-06-18",
+    "endDate": "1935-07-27",
+    "location": {
+      "lng": 109.44194,
+      "lat": 29.45611,
+      "place": {
+        "zh": "湖南龙山县城（首善镇）",
+        "en": "Longshan county town (Shoushan), Hunan"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "忠堡大捷后红二、六军团围攻龙山县城 37 天。",
+      "en": "After the victory at Zhongbao, the Red Second and Sixth Army Groups besieged Longshan for 37 days."
+    },
+    "description": {
+      "zh": "1935 年 6 月 18 日红二、六军团主力云集龙山县城周围，23 日攻城未克，改取长围久困，围城 37 天；期间击退守军两次突围，并打击来凤方向增援。7 月 27 日撤围南下，迎击增援龙山的陶广纵队。",
+      "en": "On 18 June 1935 the main force of the Second and Sixth Army Groups gathered around Longshan county town. An assault on 23 June failed, so the Red Army settled into a 37-day blockade, beating back two break-out attempts and striking relief forces from Laifeng. The siege was lifted on 27 July to meet Tao Guang’s column advancing to relieve Longshan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "围攻龙山城：长围久困逼敌兵",
+        "author": "红网·湘西站",
+        "url": "https://xx.rednet.cn/content/2021/05/28/9411750.html",
+        "note": "6 月 18 日云集城下、23 日攻城、围城 37 天"
+      },
+      {
+        "title": "贺龙年谱（1935 年）",
+        "author": "中国言实出版社（转引自学达书库）",
+        "url": "http://www.xuoda.com/zj/zgxd/hlnp/041.htm",
+        "note": "7 月 27 日撤龙山之围"
+      }
+    ],
+    "relatedIds": [
+      "zhongbao-1935-06",
+      "bajiaotuo-1935-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "bajiaotuo-1935-08",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "芭蕉坨战斗",
+      "en": "Battle of Bajiaotuo"
+    },
+    "date": "1935-08-08",
+    "location": {
+      "lng": 109.39,
+      "lat": 29.38,
+      "place": {
+        "zh": "湖南龙山芭蕉坨（洗洛—湾塘—小河一带，酉水东岸）",
+        "en": "Bajiaotuo (Xiluo–Wantang–Xiaohe, east bank of the Youshui), Longshan, Hunan"
+      }
+    },
+    "entityIds": [
+      "red-2-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "红二、六军团在龙山湾塘一带击溃陶广纵队十个团。",
+      "en": "The Red Second and Sixth Army Groups routed ten regiments of Tao Guang’s column near Wantang in Longshan."
+    },
+    "description": {
+      "zh": "1935 年 8 月 3 日板栗园大捷后，红二、六军团主力回到龙山三元、石羔、桶车、兴隆街、茨岩塘一带休整。7 日获悉陶广纵队十个团将由招头寨经芭蕉坨、凉风洞、欧溪坪、花鹿溪开赴龙山县城，傍晚两万红军轻装趁夜在芭蕉坨—花鹿溪一线设伏；8 日上午陶广改道可立坡，欲从湾塘一带渡酉水与来凤徐源泉部会合，红军分四路向鸡公嘴、干溪坝、红石坎、高寨、鸭子塘出击，战至当晚击溃该纵队十个团，毙、俘各 300 余人。战场沿今洗洛—湾塘—小河公路、酉水东岸展开，长约十公里，坐标为战场带代表点。",
+      "en": "After the victory at Banliyuan on 3 August 1935 the main force of the Second and Sixth Army Groups rested in the Longshan base area around Sanyuan, Shigao, Tongche, Xinglongjie and Ciyantang. On 7 August it learned that ten regiments of Tao Guang’s column would march from Zhaotouzhai via Bajiaotuo, Liangfengdong, Ouxiping and Hualuxi towards Longshan county town, and that evening 20,000 troops moved out to ambush the Bajiaotuo–Hualuxi line. On the morning of 8 August Tao Guang switched to the Kelipo road, intending to cross the Youshui near Wantang and join Xu Yuanquan at Laifeng; the Red Army attacked in four columns towards Jigongzui, Ganxiba, Hongshikan, Gaozhai and Yazitang and by nightfall routed the ten regiments, killing and capturing about 300 each. The battlefield runs for about 10 km along today’s Xiluo–Wantang–Xiaohe road on the east bank of the Youshui; the point is representative of that zone."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "决战芭蕉坨：陶广纵队败逃湘西",
+        "author": "红网·湘西站",
+        "url": "https://xx.rednet.cn/content/2021/05/28/9411817.html",
+        "note": "8 月 7 日获悉敌情、8 日湾塘拦截、击溃十个团"
+      },
+      {
+        "title": "芭蕉坨大捷：设伏芭蕉坨，截击陶广军",
+        "author": "湘西团结报",
+        "url": "http://www.xxnet.com.cn/szb/tjbpc/201903/31/c29445.html",
+        "note": "伏击线为芭蕉坨、凉风洞、欧溪坪、花鹿溪，战场在洗洛—湾塘—小河公路沿线酉水东岸"
+      },
+      {
+        "title": "贺龙年谱（1935 年）",
+        "author": "中国言实出版社（转引自学达书库）",
+        "url": "http://www.xuoda.com/zj/zgxd/hlnp/041.htm",
+        "note": "8 月 8 日在龙山芭蕉坨击溃陶广纵队十个团"
+      }
+    ],
+    "relatedIds": [
+      "longshan-siege-1935-06",
+      "banliyuan-1935-08"
     ],
     "importance": 2,
     "extensions": {

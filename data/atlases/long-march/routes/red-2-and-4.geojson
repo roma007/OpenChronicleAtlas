@@ -262,24 +262,24 @@
             28.5
           ],
           [
-            109.95,
-            29.15
+            109.84987,
+            28.99968
           ]
         ]
       },
       "properties": {
         "entityId": "red-2-army",
         "startDate": "1934-10-24",
-        "endDate": "1934-11-16",
+        "endDate": "1934-11-07",
         "order": 1,
         "segmentType": "advance",
         "name": {
-          "zh": "木黄—永顺",
-          "en": "Muhuang–Yongshun"
+          "zh": "木黄—南腰界—百户司—招头寨—永顺",
+          "en": "Muhuang–Nanjie–Baihusi–Zhaotouzhai–Yongshun"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1934 年 10 月 24 日红六军团与红三军在贵州印江木黄会师，28 日由酉阳南腰界出发，30 日过酉阳城，在百户司（今湖北来凤百福司，一说属咸丰）渡酉水，经湖南龙山招头寨佯动后突然东进，11 月 7 日袭占永顺县城。路线为示意，中间点不代表实际经行地点。",
+          "en": "The Sixth Army Group and the Third Army met at Muhuang, Yinjiang, Guizhou, on 24 October 1934. They left Nanjie in Youyang on 28 October, passed Youyang on 30 October, crossed the Youshui at Baihusi (now Baifusi, Laifeng, Hubei; some accounts place it in Xianfeng), feinted towards Zhaotouzhai in Longshan, then swung east and seized Yongshun on 7 November. The line is schematic and intermediate points are not actual marching locations."
         },
         "extensions": {
           "precision": "schematic"
@@ -292,36 +292,31 @@
         "type": "LineString",
         "coordinates": [
           [
-            109.95,
-            29.15
+            109.84987,
+            28.99968
           ],
           [
-            110.05,
-            29.3
-          ],
-          [
-            110.16,
-            29.4
+            109.828,
+            29.204
           ]
         ]
       },
       "properties": {
         "entityId": "red-2-army",
-        "startDate": "1934-11-16",
-        "endDate": "1935-11-19",
+        "startDate": "1934-11-13",
+        "endDate": "1934-11-16",
         "order": 2,
-        "segmentType": "advance",
+        "segmentType": "retreat",
         "name": {
-          "zh": "永顺—桑植",
-          "en": "Yongshun–Sangzhi"
+          "zh": "永顺—龙家寨（十万坪）",
+          "en": "Yongshun–Longjiazhai (Shiwangping)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1934 年 11 月 13 日红二、六军团主动放弃永顺县城，向北转移诱敌深入，沿途丢弃旧枪杂物、烧毁城西猛洞河花桥以骄敌；16 日进入龙家寨十万坪谷地设伏。",
+          "en": "On 13 November 1934 the Second and Sixth Army Groups gave up Yongshun and withdrew north to lure the enemy forward, leaving old weapons and burning the flower bridge over the Mengdong river; on 16 November they took up ambush positions in the Shiwangping valley at Longjiazhai."
         },
         "extensions": {
-          "precision": "schematic",
-          "static": true
+          "precision": "schematic"
         }
       }
     },
@@ -331,12 +326,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            109.95,
-            29.15
+            109.95777,
+            29.19466
           ],
           [
-            109.976,
-            29.483
+            109.98469,
+            29.48642
           ]
         ]
       },
@@ -347,12 +342,12 @@
         "order": 3,
         "segmentType": "counterattack",
         "name": {
-          "zh": "龙家寨—陈家河",
-          "en": "Longjiazhai–Chenjiahe"
+          "zh": "塔卧—陈家河",
+          "en": "Tawo–Chenjiahe"
         },
         "description": {
-          "zh": "1935 年 4 月 12 日，红二、六军团主力撤离塔卧、龙家寨向北转移，13 日先头部队进至桑植陈家河，与国民党军第 58 师第 172 旅遭遇并将其包围。路线为示意。",
-          "en": "On 12 April 1935 the main force of the Second and Sixth Army Groups left Tawo and Longjiazhai and moved north; on the 13th its advance guard reached Chenjiahe in Sangzhi, met the 172nd Brigade of the 58th Division and surrounded it. The line is schematic."
+          "zh": "1935 年 4 月 12 日，红二、六军团主力撤离塔卧、龙家寨向北转移，13 日先头部队进至桑植陈家河，与国民党军第 58 师第 172 旅遭遇并将其包围。",
+          "en": "On 12 April 1935 the main force of the Second and Sixth Army Groups withdrew from Tawo and Longjiazhai and moved north; on 13 April its advance guard reached Chenjiahe in Sangzhi, met the 172nd Brigade of the KMT 58th Division and surrounded it."
         },
         "extensions": {
           "precision": "schematic"
@@ -365,32 +360,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            109.403,
-            29.496
+            109.56072,
+            29.6968
           ],
           [
-            109.326,
-            29.575
+            109.4932,
+            29.73377
           ],
           [
-            109.273,
-            29.676
+            109.27604,
+            29.67758
           ]
         ]
       },
       "properties": {
         "entityId": "red-2-army",
-        "startDate": "1935-06-11",
-        "endDate": "1935-06-12",
+        "startDate": "1935-06-02",
+        "endDate": "1935-06-14",
         "order": 4,
         "segmentType": "counterattack",
         "name": {
-          "zh": "来凤—三胡—忠堡",
-          "en": "Laifeng–Sanhu–Zhongbao"
+          "zh": "沙道沟—高罗—忠堡",
+          "en": "Shadaogou–Gaoluo–Zhongbao"
         },
         "description": {
-          "zh": "1935 年 6 月 12 日，红二、六军团由来凤经三胡北上，在湖北咸丰忠堡地区歼灭国民党军第 41 师，俘师长张振汉。路线为示意，三胡为来凤至忠堡途中代表点。",
-          "en": "On 12 June 1935 the Second and Sixth Army Groups moved north from Laifeng via Sanhu and destroyed the 41st Division at Zhongbao in Xianfeng county, Hubei, capturing its commander Zhang Zhenhan. The line is schematic; Sanhu is a representative point on the way."
+          "zh": "1935 年 6 月 2 日红二、六军团进至宣恩沙道沟、高罗地区；9 日夜以一部围困宣恩县城，主力待机打援；截获徐源泉令第 41 师张振汉部经忠堡西援宣恩的密电后，12 日凌晨分两路向忠堡急进，14 日在忠堡、构皮岭一带全歼该师师部及第 121 旅，俘张振汉。",
+          "en": "On 2 June 1935 the Second and Sixth Army Groups entered the Shadaogou–Gaoluo area of Xuan’en. On the night of 9 June part of the force besieged Xuan’en while the main force waited to strike the relief column; after intercepting Xu Yuanquan’s telegram ordering Zhang Zhenhan’s 41st Division to relieve Xuan’en via Zhongbao, the main force set out at 3 a.m. on 12 June and on 14 June destroyed the divisional headquarters and the 121st Brigade between Zhongbao and Goupiling, capturing Zhang Zhenhan."
         },
         "extensions": {
           "precision": "schematic"
@@ -403,12 +398,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            109.403,
-            29.496
+            109.56072,
+            29.6968
           ],
           [
-            109.458,
-            29.59
+            109.4788,
+            29.676
           ],
           [
             109.408,
@@ -423,12 +418,12 @@
         "order": 5,
         "segmentType": "counterattack",
         "name": {
-          "zh": "来凤—李家河—板栗园",
-          "en": "Laifeng–Lijiahe–Banliyuan"
+          "zh": "沙道沟—板栗园",
+          "en": "Shadaogou–Banliyuan"
         },
         "description": {
-          "zh": "1935 年 8 月 3 日，红二、六军团由来凤经李家河北上，在湖北宣恩板栗园地区伏击歼灭国民党军第 85 师，击毙师长谢彬。路线为示意，李家河为来凤至板栗园途中代表点。",
-          "en": "On 3 August 1935 the Second and Sixth Army Groups moved north from Laifeng via Lijiahe and ambushed and destroyed the 85th Division at Banliyuan in Xuanen county, Hubei, killing its commander Xie Bin. The line is schematic; Lijiahe is a representative point on the way."
+          "zh": "1935 年 8 月 2 日红二、六军团自龙山兴隆街突然北进至沙道沟佯动，使徐源泉误判红军将打击第 34 师或第 48 师第 142 旅；3 日晨红军改变行动方向，从高罗、李家河之间揳入敌纵深，沿山间捷径向西南疾进，11 时赶至板栗园东侧利福田谷地设伏，12 时许敌第 85 师进入伏击圈，战至 23 时全歼其师部、两个团又 1 个营，击毙师长谢彬。板栗园、利福田为同一战区的代表点。",
+          "en": "On 2 August 1935 the Second and Sixth Army Groups suddenly moved north from Xinglongjie in Longshan to Shadaogou as a feint, leading Xu Yuanquan to expect a strike on the 34th Division or the 142nd Brigade of the 48th Division. At dawn on 3 August the Red Army changed direction, thrust into the enemy depth between Gaoluo and Lijiahe and hurried southwest along mountain paths, reaching the Lifutian valley east of Banliyuan at 11 a.m. The 85th Division entered the ambush around noon and was destroyed by 11 p.m., including its headquarters, two regiments and a battalion; its commander Xie Bin was killed. Banliyuan and Lifutian are representative points in the same battle area."
         },
         "extensions": {
           "precision": "schematic"
@@ -959,16 +954,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            109.976,
-            29.483
+            109.98469,
+            29.48642
+          ],
+          [
+            110.03023,
+            29.45328
           ],
           [
             110.056,
             29.309
           ],
           [
-            110.16,
-            29.4
+            110.1525,
+            29.40083
           ]
         ]
       },
@@ -979,12 +978,12 @@
         "order": 13,
         "segmentType": "advance",
         "name": {
-          "zh": "陈家河—桃子溪—桑植（追击与收复）",
-          "en": "Chenjiahe–Taozixi–Sangzhi (pursuit and recovery)"
+          "zh": "陈家河—两河口—桃子溪—桑植",
+          "en": "Chenjiahe–Lianghekou–Taoziqi–Sangzhi"
         },
         "description": {
-          "zh": "1935 年 4 月 14 日全歼陈家河之敌后，红二、六军团乘胜追击由桑植南撤的国民党军第 58 师师部及第 174 旅，15 日在桃子溪将其全歼，16 日收复桑植县城。路线为示意，桃子溪取永顺县砂坝镇桃子溪村点。",
-          "en": "After destroying the enemy at Chenjiahe on 14 April 1935, the Second and Sixth Army Groups pursued the 58th Division headquarters and 174th Brigade retreating south from Sangzhi, destroyed them at Taozixi on the 15th, and recovered Sangzhi county town on the 16th. The line is schematic; Taozixi uses the Taozixi village point in Shaba, Yongshun."
+          "zh": "1935 年 4 月 14 日红军在陈家河全歼第 172 旅；15 日经两河口、南岔、桃子溪追击南逃的第 58 师师部及第 174 旅，在桃子溪将其全歼；16 日乘胜收复桑植县城。南岔、岩屋口为途中地名，未单列坐标。",
+          "en": "On 14 April 1935 the Red Army destroyed the 172nd Brigade at Chenjiahe; on 15 April it pursued the fleeing 58th Division headquarters and 174th Brigade through Lianghekou, Nancha and Taoziqi and annihilated them at Taoziqi; on 16 April it retook Sangzhi. Nancha and Yanwukou are named in the text but not plotted separately."
         },
         "extensions": {
           "precision": "schematic"
@@ -997,32 +996,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            109.273,
-            29.676
+            109.27604,
+            29.67758
           ],
           [
-            109.326,
-            29.575
-          ],
-          [
-            109.403,
-            29.496
+            109.44194,
+            29.45611
           ]
         ]
       },
       "properties": {
         "entityId": "red-2-army",
-        "startDate": "1935-06-12",
-        "endDate": "1935-06-12",
+        "startDate": "1935-06-14",
+        "endDate": "1935-06-18",
         "order": 14,
         "segmentType": "retreat",
         "name": {
-          "zh": "忠堡—来凤（战后回师）",
-          "en": "Zhongbao–Laifeng (return after the battle)"
+          "zh": "忠堡—龙山县城（回师）",
+          "en": "Zhongbao–Longshan (return march)"
         },
         "description": {
-          "zh": "1935 年 6 月 12 日忠堡战斗后，红二、六军团经三胡回师来凤，随后经龙山、桑植、永顺苏区继续反“围剿”机动作战。路线为示意，三胡为回师途中代表点。",
-          "en": "After the battle at Zhongbao on 12 June 1935, the Second and Sixth Army Groups returned to Laifeng via Sanhu and then moved back through the Longshan–Sangzhi–Yongshun base area, continuing mobile operations against the encirclement. The line is schematic; Sanhu is a representative point on the way back."
+          "zh": "1935 年 6 月 14 日忠堡战斗结束后，红二、六军团回师湘西，18 日主力云集龙山县城周围，开始围攻龙山。回师具体经行路线史无逐日记载，此处为示意直连。",
+          "en": "After the fighting at Zhongbao ended on 14 June 1935, the Second and Sixth Army Groups returned to western Hunan; on 18 June the main force gathered around Longshan county town and began the siege. The exact line of march is not recorded day by day, so the segment is a schematic direct connection."
         },
         "extensions": {
           "precision": "schematic"
@@ -1039,28 +1034,24 @@
             29.66
           ],
           [
-            109.458,
-            29.59
-          ],
-          [
-            109.403,
-            29.496
+            109.59572,
+            29.41549
           ]
         ]
       },
       "properties": {
         "entityId": "red-2-army",
         "startDate": "1935-08-03",
-        "endDate": "1935-08-03",
+        "endDate": "1935-08-06",
         "order": 15,
         "segmentType": "retreat",
         "name": {
-          "zh": "板栗园—来凤（战后回师）",
-          "en": "Banliyuan–Laifeng (return after the battle)"
+          "zh": "板栗园—茨岩塘（回师根据地）",
+          "en": "Banliyuan–Ciyantang (return to the base area)"
         },
         "description": {
-          "zh": "1935 年 8 月 3 日板栗园战斗后，红二、六军团经李家河回师来凤，随后经龙山、桑植、永顺苏区，至 8 月粉碎国民党军的“围剿”。路线为示意，李家河为回师途中代表点。",
-          "en": "After the battle at Banliyuan on 3 August 1935, the Second and Sixth Army Groups returned to Laifeng via Lijiahe and then moved back through the Longshan–Sangzhi–Yongshun base area, breaking the Nationalist encirclement by August. The line is schematic; Lijiahe is a representative point on the way back."
+          "zh": "1935 年 8 月 3 日板栗园战斗结束后，红二、六军团返回根据地中心地带龙山三元、石羔、桶车、兴隆街、茨岩塘一带休整待命，至 7 日傍晚再出设伏。返回的具体日期与经行史无逐日记载，此处为示意直连，茨岩塘为省委驻地代表点。",
+          "en": "After the fighting at Banliyuan on 3 August 1935, the Second and Sixth Army Groups returned to the central base area around Sanyuan, Shigao, Tongche, Xinglongjie and Ciyantang to rest and wait, moving out again on the evening of 7 August. Neither the exact date nor the route of return is recorded day by day, so the segment is a schematic direct connection; Ciyantang marks the provincial committee base."
         },
         "extensions": {
           "precision": "schematic"
@@ -1073,28 +1064,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            110.16,
-            29.4
+            110.1525,
+            29.40083
           ],
           [
-            109.44,
-            29.46
+            109.95777,
+            29.19466
           ]
         ]
       },
       "properties": {
         "entityId": "red-2-army",
-        "startDate": "1934-11-16",
-        "endDate": "1935-11-19",
+        "startDate": "1934-12-10",
+        "endDate": "1935-02-28",
         "order": 16,
         "segmentType": "other",
         "name": {
-          "zh": "桑植—龙山（苏区内部机动线）",
-          "en": "Sangzhi–Longshan (internal mobility line of the base area)"
+          "zh": "桑植—塔卧（苏区内部机动线）",
+          "en": "Sangzhi–Tawo (internal Soviet-area line)"
         },
         "description": {
-          "zh": "湘鄂川黔苏区时期，红二、六军团在桑植、永顺、龙山、来凤一带机动作战。本段为桑植至龙山的苏区内部机动线，作为陈家河、忠堡、板栗园三次出击的根据地连接线。路线为示意。",
-          "en": "During the Hunan-Hubei-Sichuan-Guizhou base area period the Second and Sixth Army Groups operated between Sangzhi, Yongshun, Longshan and Laifeng. This schematic line links Sangzhi and Longshan as the base line for the sorties to Chenjiahe, Zhongbao and Banliyuan."
+          "zh": "苏区内部常驻线。1934 年 12 月 10 日湘鄂川黔省委、省革委、省军区机关由大庸迁至永顺塔卧，桑植、塔卧同处苏区腹地；1935 年 2 月国民党军郭汝栋纵队占领桑植、李觉部占领大庸，苏区收缩，此线中断（桑植失守具体日期待核，取 2 月末为代表）。",
+          "en": "Internal Soviet-area line. On 10 December 1934 the Hunan-Hubei-Sichuan-Guizhou provincial organs moved from Dayong to Tawo in Yongshun, with Sangzhi and Tawo both inside the Soviet heartland. In February 1935 Guo Rudong’s column took Sangzhi and Li Jue’s forces took Dayong, the Soviet area contracted and this line was cut (the exact date Sangzhi fell is unverified; late February is used as a representative date)."
         },
         "extensions": {
           "precision": "schematic",
@@ -1108,32 +1099,204 @@
         "type": "LineString",
         "coordinates": [
           [
-            109.44,
-            29.46
+            109.95777,
+            29.19466
           ],
           [
-            109.403,
-            29.496
+            109.52877,
+            29.45658
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1935-04-12",
+        "endDate": "1935-04-12",
+        "order": 17,
+        "segmentType": "other",
+        "name": {
+          "zh": "塔卧—兴隆街（苏区内部机动线）",
+          "en": "Tawo–Xinglongjie (internal Soviet-area line)"
+        },
+        "description": {
+          "zh": "苏区内部常驻线。1935 年 4 月 12 日省委、省革委、省军区机关由永顺塔卧迁往龙山兴隆街。",
+          "en": "Internal Soviet-area line. On 12 April 1935 the provincial party, government and military organs moved from Tawo in Yongshun to Xinglongjie in Longshan."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "static": true
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.52877,
+            29.45658
+          ],
+          [
+            109.59572,
+            29.41549
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1935-05-06",
+        "endDate": "1935-05-06",
+        "order": 18,
+        "segmentType": "other",
+        "name": {
+          "zh": "兴隆街—茨岩塘（苏区内部机动线）",
+          "en": "Xinglongjie–Ciyantang (internal Soviet-area line)"
+        },
+        "description": {
+          "zh": "苏区内部常驻线。1935 年 5 月 6 日省委、省革委、省军区机关由兴隆街再迁茨岩塘，茨岩塘成为苏区后期中心。",
+          "en": "Internal Soviet-area line. On 6 May 1935 the provincial organs moved from Xinglongjie to Ciyantang, which became the centre of the Soviet area in its final phase."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "static": true
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.52877,
+            29.45658
+          ],
+          [
+            109.56072,
+            29.6968
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1935-06-02",
+        "endDate": "1935-08-03",
+        "order": 19,
+        "segmentType": "other",
+        "name": {
+          "zh": "兴隆街—沙道沟（苏区内部机动线）",
+          "en": "Xinglongjie–Shadaogou (internal Soviet-area line)"
+        },
+        "description": {
+          "zh": "苏区内部常驻线。兴隆街（省委驻地）经沙道沟通往鄂西的前出通道，1935 年 6 月、8 月两次出击鄂西均由此进出。",
+          "en": "Internal Soviet-area line. The forward route from Xinglongjie (the provincial committee base) via Shadaogou into western Hubei, used for the two sorties of June and August 1935."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "static": true
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.828,
+            29.204
+          ],
+          [
+            109.84987,
+            28.99968
           ]
         ]
       },
       "properties": {
         "entityId": "red-2-army",
         "startDate": "1934-11-16",
-        "endDate": "1935-11-19",
-        "order": 17,
-        "segmentType": "other",
+        "endDate": "1934-11-18",
+        "order": 20,
+        "segmentType": "counterattack",
         "name": {
-          "zh": "龙山—来凤（苏区内部机动线）",
-          "en": "Longshan–Laifeng (internal mobility line of the base area)"
+          "zh": "龙家寨（十万坪）—永顺",
+          "en": "Longjiazhai (Shiwangping)–Yongshun"
         },
         "description": {
-          "zh": "湘鄂川黔苏区时期，龙山、来凤是红二、六军团在酉水流域的重要活动区域。本段为龙山至来凤的苏区内部机动线，作为忠堡、板栗园两次出击的根据地连接线。路线为示意。",
-          "en": "During the base area period Longshan and Laifeng were important areas of Second and Sixth Army Group activity along the Youshui. This schematic line links Longshan and Laifeng as the base line for the sorties to Zhongbao and Banliyuan."
+          "zh": "1934 年 11 月 16 日夜十万坪伏击得手后，红军星夜向南追击溃敌，18 日重占永顺县城。",
+          "en": "After the ambush at Shiwangping on the night of 16 November 1934, the Red Army pursued the routed enemy south through the night and retook Yongshun on 18 November."
         },
         "extensions": {
-          "precision": "schematic",
-          "static": true
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.84987,
+            28.99968
+          ],
+          [
+            110.1525,
+            29.40083
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1934-11-18",
+        "endDate": "1934-11-24",
+        "order": 21,
+        "segmentType": "advance",
+        "name": {
+          "zh": "永顺—桑植",
+          "en": "Yongshun–Sangzhi"
+        },
+        "description": {
+          "zh": "1934 年 11 月 18 日红军重占永顺县城，随后以红二军团一部乘胜进占桑植县城。桑植占领日期史载不一：《贺龙年谱》系于 11 月 17 日重占永顺之后，另有记载称 11 月 24 日攻占大庸后接着占领桑植，此处取 11 月下旬为代表。",
+          "en": "The Red Army retook Yongshun on 18 November 1934 and then sent part of the Second Army Corps on to Sangzhi. Sources differ on when Sangzhi fell: He Long’s chronology places it immediately after the retaking of Yongshun on 17 November, while other accounts say it followed the capture of Dayong on 24 November. Late November is used here as a representative date."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.59572,
+            29.41549
+          ],
+          [
+            109.39,
+            29.38
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-2-army",
+        "startDate": "1935-08-07",
+        "endDate": "1935-08-08",
+        "order": 22,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "茨岩塘—芭蕉坨（设伏）",
+          "en": "Ciyantang–Bajiaotuo (ambush move)"
+        },
+        "description": {
+          "zh": "1935 年 8 月 3 日板栗园战斗后，红二、六军团主力回到龙山三元、石羔、桶车、兴隆街、茨岩塘一带休整待命；7 日获悉陶广纵队将经芭蕉坨、凉风洞、欧溪坪、花鹿溪开赴龙山县城，当日傍晚两万红军轻装趁夜奔赴芭蕉坨、凉风洞、欧溪坪、花鹿溪一线设伏。芭蕉坨一带为伏击线代表点。",
+          "en": "After Banliyuan on 3 August 1935 the main force returned to the Longshan base area around Sanyuan, Shigao, Tongche, Xinglongjie and Ciyantang. On 7 August it learned that Tao Guang’s column would march via Bajiaotuo, Liangfengdong, Ouxiping and Hualuxi towards Longshan county town, and that evening some 20,000 troops moved out light-handed to lay an ambush along that line. The point marks the ambush line near Bajiaotuo."
+        },
+        "extensions": {
+          "precision": "schematic"
         }
       }
     }
