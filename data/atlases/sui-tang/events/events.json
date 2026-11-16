@@ -2108,5 +2108,52 @@
       "pangxun-868"
     ],
     "importance": 2
+  },
+  {
+    "id": "yizhou-850",
+    "atlasId": "sui-tang",
+    "name": {
+      "zh": "归义军收复伊州",
+      "en": "Guiyi Army recovers Yizhou"
+    },
+    "date": "0850-01-01",
+    "location": {
+      "lng": 93.51,
+      "lat": 42.83,
+      "place": {
+        "zh": "新疆哈密（伊州）",
+        "en": "Hami (Yizhou), Xinjiang"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "张议潮收复伊州，归义军势力伸入西域东端。",
+      "en": "Zhang Yichao recovered Yizhou, extending the Guiyi Army to the eastern edge of the Western Regions."
+    },
+    "description": {
+      "zh": "大中四年（850），张议潮在收复沙、瓜二州后继续东进，收复伊州（今新疆哈密），归义军势力伸入西域东端。同年是否收复西州（吐鲁番）史料有争议，一说为回鹘所据。",
+      "en": "In 850, after recovering Shazhou and Guazhou, Zhang Yichao pushed east and recovered Yizhou (modern Hami), extending the Guiyi Army to the eastern edge of the Western Regions. Whether Xizhou (Turpan) was recovered the same year is disputed, one account holding it was held by the Uyghurs."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "张议潮",
+        "author": "甘肃档案信息网",
+        "url": "https://www.cngsda.net/mrda/32094.jhtml",
+        "note": "848 收复瓜沙、850 伊州、861 凉州"
+      },
+      {
+        "title": "旧唐书·宣宗纪",
+        "author": "刘昫等",
+        "note": "大中五年献十一州图籍"
+      }
+    ],
+    "relatedIds": [
+      "guiyijun-848"
+    ],
+    "importance": 2
   }
 ]

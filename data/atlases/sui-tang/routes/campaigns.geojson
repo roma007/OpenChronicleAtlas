@@ -1094,6 +1094,40 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            95.78,
+            40.52
+          ],
+          [
+            93.51,
+            42.83
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0850-01-01",
+        "endDate": "0850-12-31",
+        "order": 29,
+        "segmentType": "advance",
+        "name": {
+          "zh": "瓜州—伊州（归义军收复伊州）",
+          "en": "Guazhou–Yizhou (Guiyi Army recovers Yizhou)"
+        },
+        "description": {
+          "zh": "大中四年（850），张议潮在收复沙、瓜二州后继续东进，收复伊州（今新疆哈密）。西州（今吐鲁番）同年是否归义军实际控制，史料有争议，只入正文不立线。路线为示意。",
+          "en": "In 850, after recovering Shazhou and Guazhou, Zhang Yichao pushed east and recovered Yizhou (modern Hami, Xinjiang). Whether the Guiyi Army actually controlled Xizhou (Turpan) the same year is disputed and appears only in the text. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
