@@ -9109,5 +9109,59 @@
       "zheng-jing-fujian-1674"
     ],
     "importance": 2
+  },
+  {
+    "id": "rasuwagadhi-1792",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "热索桥之战",
+      "en": "Battle of the Rasuwagadhi bridge"
+    },
+    "date": "1792-05-15",
+    "location": {
+      "lng": 85.3781,
+      "lat": 28.2788,
+      "place": {
+        "zh": "西藏吉隆热索桥（中尼界桥）",
+        "en": "Rasuwagadhi bridge, Gyirong, Tibet"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "清军入廓尔喀境，在热索桥突破廓军河防。",
+      "en": "The Qing army entered Gorkha territory and broke the river defence at the Rasuwagadhi bridge."
+    },
+    "description": {
+      "zh": "乾隆五十七年（1792）五月十四日清军过藏廓边界摆吗奈撒，十五日在热索桥与廓军激战：正面佯攻北岸碉楼，另遣土兵越山绕至上游伐木为筏渡河，袭南岸碉房，主力乘势搭桥夺取三座石碉。此后清军历协布鲁、东觉、噶勒拉、堆补木诸战，七月底逼近廓尔喀都城阳布，八月受降。",
+      "en": "On 14 May 1792 the Qing army crossed the Tibet–Gorkha boundary at Paimainaisa; on the 15th it fought at the Rasuwagadhi bridge, feinting against the north-bank blockhouse while tribal troops crossed upstream on rafts to storm the south-bank posts, the main body then bridging the river and taking three stone blockhouses. The army went on to fight at Chukla, Dongjue, Ghalela and Dunbumu, closing on the Gorkha capital in late July and receiving its surrender in the eighth month."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "福康安",
+        "author": "维基百科",
+        "url": "https://zh.wikipedia.org/zh-hans/%E7%A6%8F%E5%BA%B7%E5%AE%89",
+        "note": "五月十四日过界、十五日热索桥之战、七月噶勒拉"
+      },
+      {
+        "title": "清史稿·福康安传",
+        "author": "赵尔巽等",
+        "note": "热索桥之战与入廓诸战"
+      },
+      {
+        "title": "热索桥",
+        "author": "维基百科",
+        "url": "https://zh.wikipedia.org/wiki/%E7%83%AD%E7%B4%A2%E6%A1%A5",
+        "note": "今桥坐标 28.2788°N 85.3781°E"
+      }
+    ],
+    "relatedIds": [
+      "gurkha-1792",
+      "jilong-1792"
+    ],
+    "importance": 2
   }
 ]

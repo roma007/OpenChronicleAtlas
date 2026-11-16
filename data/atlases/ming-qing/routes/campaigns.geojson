@@ -4954,6 +4954,40 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.3,
+            28.38
+          ],
+          [
+            85.3781,
+            28.2788
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qing",
+        "startDate": "1792-05-13",
+        "endDate": "1792-05-31",
+        "order": 144,
+        "segmentType": "advance",
+        "name": {
+          "zh": "济咙—热索桥（入廓尔喀境）",
+          "en": "Gyirong–Rasuwagadhi (into Gorkha territory)"
+        },
+        "description": {
+          "zh": "乾隆五十七年（1792）五月十三日福康安、海兰察自济咙启程，十四日过藏廓边界摆吗奈撒入廓尔喀境，十五日在热索桥（今吉隆口岸，中尼界桥）与廓军激战，夺取北岸石卡并绕上游渡河，破南岸两卡。热索桥坐标取今吉隆口岸热索桥（28.2788°N 85.3781°E）。此后协布鲁、东觉、噶勒拉、堆补木诸战均在今尼泊尔境内，无可靠点位，只入正文。路线为示意。",
+          "en": "On 13 May 1792 Fukanggan and Hailanca left Gyirong, crossed the Tibet–Gorkha boundary at Paimainaisa on the 14th and on the 15th fought the Gorkha army at the Rasuwagadhi bridge (today’s Gyirong–Rasuwa border bridge). They took the north-bank stone post, crossed upstream and destroyed the two south-bank posts. The coordinate uses today’s Rasuwagadhi bridge (28.2788°N 85.3781°E). The later actions at Chukla, Dongjue, Ghalela and Dunbumu all lie in modern Nepal with no reliable points and appear only in the text. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
