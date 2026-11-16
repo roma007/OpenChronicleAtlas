@@ -1,5 +1,62 @@
 [
   {
+    "id": "baojiazhai-1933-11",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "包家寨会议",
+      "en": "Baojiazhai conference"
+    },
+    "date": "1933-11-03",
+    "endDate": "1933-11-05",
+    "location": {
+      "lng": 108.21,
+      "lat": 36.05,
+      "place": {
+        "zh": "甘肃合水包家寨（今蒿咀铺乡张举塬村）",
+        "en": "Baojiazhai, Heshui, Gansu (Zhangjuyuan village, Haozipu)"
+      }
+    },
+    "entityIds": [
+      "shaanxi-red-army"
+    ],
+    "category": "会议",
+    "summary": {
+      "zh": "陕甘边特委与红军临时总指挥部联席会议，决定恢复红二十六军、以南梁为中心创建根据地。",
+      "en": "A joint conference of the border special committee and the provisional Red Army command decided to restore the 26th Red Army and build the base around Nanliang."
+    },
+    "description": {
+      "zh": "1933 年 11 月 3—5 日，中共陕甘边区特委、陕甘边区革命委员会和红军临时总指挥部在合水县包家寨（今蒿咀铺乡张举塬村）召开联席会议。会议总结照金失守的教训，决定撤销红军临时总指挥部，恢复红二十六军、成立第四十二师（王泰吉任师长、高岗任政委、刘志丹任参谋长），进军南梁建立根据地，并划分陕北安定、陇东南梁、关中照金三路游击区。11 月 8 日在平定川莲花寺宣布红四十二师成立，全师 500 余人。会议旧址在张举塬村东峁，坐标取蒿咀铺乡代表点。",
+      "en": "From 3 to 5 November 1933 the Shaanxi-Gansu Border Special Committee, the border revolutionary committee and the provisional Red Army command met at Baojiazhai (Zhangjuyuan village, Haozipu township, Heshui). Reviewing the loss of Zhaojin, the conference abolished the provisional command, restored the 26th Red Army and formed its 42nd Division (Wang Taiji commander, Gao Gang political commissar, Liu Zhidan chief of staff), decided to march on Nanliang and build the base there, and divided three guerrilla zones — Anding in northern Shaanxi, Nanliang in eastern Gansu, Zhaojin in Guanzhong. On 8 November the 42nd Division was proclaimed at Lianhuasi, Pingdingchuan, some 500 strong. The meeting site is at the eastern ridge of Zhangjuyuan; the coordinate uses the Haozipu township point."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "包家寨会议",
+        "author": "人民视频·人民网",
+        "url": "http://v.people.cn/n1/2021/0429/c437389-32091645.html",
+        "note": "1933-11-03—05 会议，三项决策"
+      },
+      {
+        "title": "西北党史上的“遵义会议”——包家寨会议",
+        "author": "甘肃省政协办公厅",
+        "url": "http://www.gszx.gov.cn/htm/20213/52_34658.htm",
+        "note": "会议经过与三路游击区部署"
+      },
+      {
+        "title": "陕甘边革命根据地的创立和发展（之二）",
+        "author": "陕西党史网",
+        "url": "http://sxdsw.org.cn/zl/czql80zn/myaMVv1139.htm",
+        "note": "11 月 8 日莲花寺成立红四十二师"
+      }
+    ],
+    "relatedIds": [
+      "zhaojin-1934-02",
+      "nanliang-committee-1934-02",
+      "nanliang-1934-11"
+    ],
+    "importance": 3
+  },
+  {
     "id": "zhaojin-1934-02",
     "atlasId": "long-march",
     "name": {
@@ -8,11 +65,11 @@
     },
     "date": "1934-02-01",
     "location": {
-      "lng": 108.65,
-      "lat": 34.95,
+      "lng": 108.34,
+      "lat": 36.4,
       "place": {
-        "zh": "陕西耀县照金",
-        "en": "Zhaojin, Yao County, Shaanxi"
+        "zh": "甘肃华池南梁",
+        "en": "Nanliang, Huachi, Gansu"
       }
     },
     "entityIds": [
@@ -20,12 +77,12 @@
     ],
     "category": "战役",
     "summary": {
-      "zh": "红二十六军与游击队抗击国民党军对陕甘边根据地的第一次“围剿”。",
-      "en": "The 26th Red Army and local guerrillas resisted the first KMT encirclement campaign against the Shaanxi-Gansu border base."
+      "zh": "红四十二师转外线作战，经 30 余次战斗挫败国民党军对南梁的“围剿”。",
+      "en": "The 42nd Division fought on exterior lines and broke the KMT encirclement of Nanliang in over 30 actions."
     },
     "description": {
-      "zh": "1934 年 2 月起，国民党军对陕甘边革命根据地发动第一次“围剿”，红二十六军主力转入外线作战，地方游击队坚持照金、南梁一带。起止月份为通行说法，待页码级核对。",
-      "en": "From February 1934, KMT forces launched the first encirclement campaign against the Shaanxi-Gansu border revolutionary base. The main force of the 26th Red Army moved to exterior lines while local guerrillas held the Zhaojin and Nanliang areas. Start and end months follow conventional accounts and await page-level verification."
+      "zh": "1934 年 2 月，国民党西安绥署调集第十七路军驻陇东警备第二旅 2 个团、陕西警备骑兵旅 2 个团、第 42 师 1 个团及第 86 师一部和民团共万余人，分路合击以南梁为中心的陕甘边苏区。红四十二师以部分游击队袭扰牵制，主力转至外线：3 月经三道川、蔺家砭、李家梁战斗歼骑兵旅第二团 4 个连，4 月 11 日在西华池歼 700 余人，5 月上旬在三里塬歼 2 个连，5 月下旬北返南梁，6 月在马子川击退第 86 师 1 个营。经 30 余次战斗，毙伤国民党军及民团 3000 余人，挫败围剿，南梁根据地得到巩固并扩大。陕北方向的同期反围剿另见「陕北苏区第一次反“围剿”」。",
+      "en": "In February 1934 the Xi’an garrison headquarters sent over 10,000 troops — two regiments of the 2nd Security Brigade in eastern Gansu, two of the Shaanxi Security Cavalry Brigade, one regiment of the 42nd Division, part of the 86th Division and militia — against the Shaanxi-Gansu border base centred on Nanliang. Leaving guerrillas to harass and pin the enemy, the 42nd Division moved to exterior lines: in March it destroyed four companies of the cavalry brigade’s 2nd Regiment at Sandaochan, Linjiabian and Lijialiang; on 11 April it annihilated over 700 men at Xihuachi; in early May two companies at Sanliyuan; in late May it returned north to Nanliang and in June drove off a battalion of the 86th Division at Mazichuan. In over 30 actions it killed or wounded more than 3,000 KMT troops and militia, breaking the campaign and consolidating and expanding the Nanliang base. The simultaneous campaign in northern Shaanxi is a separate event."
     },
     "images": [],
     "sources": [
@@ -49,10 +106,225 @@
       }
     ],
     "relatedIds": [
+      "baojiazhai-1933-11",
+      "xihuachi-1934-04",
+      "sanliyuan-1934-05",
+      "shaanbei-first-encirclement-1934-07",
+      "nanliang-committee-1934-02"
+    ],
+    "importance": 3,
+    "endDate": "1934-06-30"
+  },
+  {
+    "id": "nanliang-committee-1934-02",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "陕甘边区革命委员会成立",
+      "en": "Founding of the Shaanxi-Gansu Border Revolutionary Committee"
+    },
+    "date": "1934-02-25",
+    "location": {
+      "lng": 108.34,
+      "lat": 36.4,
+      "place": {
+        "zh": "甘肃华池南梁小河沟四合台",
+        "en": "Sihetai, Xiaohegou, Nanliang, Huachi, Gansu"
+      }
+    },
+    "entityIds": [
+      "shaanxi-red-army"
+    ],
+    "category": "政权",
+    "summary": {
+      "zh": "陕甘边区革命委员会在南梁小河沟四合台成立，习仲勋任主席。",
+      "en": "The Shaanxi-Gansu Border Revolutionary Committee was founded at Sihetai, Nanliang, with Xi Zhongxun as chairman."
+    },
+    "description": {
+      "zh": "1934 年 2 月 25 日，中共红四十二师党委主持在南梁小河沟四合台村召开群众大会，成立新的陕甘边区革命委员会，选举习仲勋为主席，白天章、贾生秀任副主席，蔡子伟任政治秘书长。革命委员会的成立标志陕甘苏区初具规模；同年 11 月 1—7 日，陕甘边区苏维埃政府在荔园堡成立。",
+      "en": "On 25 February 1934 a mass meeting convened by the 42nd Division’s party committee at Sihetai, Xiaohegou, Nanliang, founded a new Shaanxi-Gansu Border Revolutionary Committee, electing Xi Zhongxun chairman with Bai Tianzhang and Jia Shengxiu as vice-chairmen and Cai Ziwei as political secretary. Its founding marked the emergence of the Shaanxi-Gansu Soviet area; the border Soviet government proper was established at Liyuanpu on 1–7 November the same year."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "陕甘边革命根据地的创立和发展（之二）",
+        "author": "陕西党史网",
+        "url": "http://sxdsw.org.cn/zl/czql80zn/myaMVv1139.htm",
+        "note": "2 月 25 日小河沟四合台成立革命委员会"
+      },
+      {
+        "title": "刘志丹用“狡兔三窟”论开辟根据地新天地",
+        "author": "人民网·党史频道",
+        "url": "http://dangshi.people.com.cn/n/2013/1119/c138896-23587563.html",
+        "note": "1934 年 2 月下旬南梁重新成立革命委员会"
+      }
+    ],
+    "relatedIds": [
+      "baojiazhai-1933-11",
+      "nanliang-1934-11",
+      "zhaojin-1934-02"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "xihuachi-1934-04",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "西华池战斗",
+      "en": "Action at Xihuachi"
+    },
+    "date": "1934-04-11",
+    "location": {
+      "lng": 108.02,
+      "lat": 35.82,
+      "place": {
+        "zh": "甘肃合水西华池（今合水县城）",
+        "en": "Xihuachi, Heshui, Gansu (today’s Heshui county town)"
+      }
+    },
+    "entityIds": [
+      "shaanxi-red-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红四十二师在西华池歼陇东警备第二旅第五团团部及两个营。",
+      "en": "The 42nd Division destroyed the headquarters and two battalions of the 5th Regiment, 2nd Security Brigade, at Xihuachi."
+    },
+    "description": {
+      "zh": "1934 年 4 月 11 日，红四十二师在西华池（今合水县城）地区歼灭国民党陇东警备第二旅第五团团部及 2 个营，计 700 余人，缴枪 500 余支。此战为陕甘边第一次反“围剿”外线作战的重要一仗；另有一说记为 4 月 2 日、毙俘 600 余人。",
+      "en": "On 11 April 1934 the 42nd Division annihilated the headquarters and two battalions of the 5th Regiment, 2nd Security Brigade, at Xihuachi (today’s Heshui county town) — over 700 men — and captured more than 500 rifles. It was a key action on the exterior lines of the first counter-encirclement campaign; another account gives 2 April and 600-odd killed and captured."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "陕甘苏区第一次反“围剿”",
+        "author": "新华社",
+        "url": "http://zqb.cyol.com/content/2006-11/12/content_1570811.htm",
+        "note": "4 月 11 日西华池歼 700 余人"
+      },
+      {
+        "title": "解读长征(58)：陕甘红军如何打破国民党“围剿”",
+        "author": "央广网",
+        "url": "https://wcm1.cnr.cn/pub/en_US/js2014/ycdj/20160929/t20160929_523169984.html",
+        "note": "西华池即今合水县城"
+      },
+      {
+        "title": "陕甘边革命根据地的创立和发展（之二）",
+        "author": "陕西党史网",
+        "url": "http://sxdsw.org.cn/zl/czql80zn/myaMVv1139.htm",
+        "note": "另记 4 月 2 日奇袭西华池，毙俘 600 余人"
+      }
+    ],
+    "relatedIds": [
+      "zhaojin-1934-02",
+      "sanliyuan-1934-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sanliyuan-1934-05",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "三里塬战斗",
+      "en": "Action at Sanliyuan"
+    },
+    "date": "1934-05-01",
+    "location": {
+      "lng": 108.4765,
+      "lat": 34.8984,
+      "place": {
+        "zh": "陕西淳化三里塬（今十里塬镇三里塬村一带）",
+        "en": "Sanliyuan, Chunhua, Shaanxi (Sanliyuan village, Shilixiang town)"
+      }
+    },
+    "entityIds": [
+      "shaanxi-red-army"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "红四十二师在淳化三里塬遭遇战中歼陕西游击支队两个连。",
+      "en": "The 42nd Division destroyed two companies of the Shaanxi guerrilla detachment in an encounter at Sanliyuan, Chunhua."
+    },
+    "description": {
+      "zh": "1934 年 5 月上旬，红四十二师在淳化三里塬与国民党陕西游击支队遭遇，歼其 2 个连。此后国民党军以 8 个团兵力开始新的“围剿”，红四十二师于 5 月下旬北返南梁。三里塬取今淳化县十里塬镇三里塬村一带代表点，战场具体位置待核。",
+      "en": "In early May 1934 the 42nd Division encountered the KMT Shaanxi guerrilla detachment at Sanliyuan, Chunhua, and destroyed two of its companies. The KMT then began a new encirclement with eight regiments, and the division returned north to Nanliang in late May. Sanliyuan uses the Sanliyuan village area of Shilixiang town, Chunhua; the exact battle site awaits verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "陕甘苏区第一次反“围剿”",
+        "author": "新华社",
+        "url": "http://zqb.cyol.com/content/2006-11/12/content_1570811.htm",
+        "note": "5 月上旬淳化三里塬遭遇战"
+      },
+      {
+        "title": "解读长征(58)：陕甘红军如何打破国民党“围剿”",
+        "author": "央广网",
+        "url": "https://wcm1.cnr.cn/pub/en_US/js2014/ycdj/20160929/t20160929_523169984.html",
+        "note": "三里塬歼两个连"
+      }
+    ],
+    "relatedIds": [
+      "xihuachi-1934-04",
+      "zhaojin-1934-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "shaanbei-first-encirclement-1934-07",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "陕北苏区第一次反“围剿”",
+      "en": "First counter-encirclement campaign in northern Shaanxi"
+    },
+    "date": "1934-07-08",
+    "endDate": "1934-09-30",
+    "location": {
+      "lng": 109.512,
+      "lat": 37.176,
+      "place": {
+        "zh": "陕西安定县城（今子长市安定镇）",
+        "en": "Anding county town (Anding town, Zichang), Shaanxi"
+      }
+    },
+    "entityIds": [
+      "shaanxi-red-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "陕北游击队与红四十二师第三团协同，打破第八十六师对陕北苏区的“清剿”。",
+      "en": "Northern Shaanxi guerrillas and the 42nd Division’s 3rd Regiment broke the 86th Division’s clearance of the northern Shaanxi Soviet area."
+    },
+    "description": {
+      "zh": "1934 年 5 月起，井岳秀第八十六师及各县民团共 1.5 万余人对陕北苏区“清剿”。7 月 8 日陕北游击队总指挥部在安定杨道峁成立，谢子长任总指挥；7 月 17 日攻入安定县城，释放被捕党员和群众 200 余人。7 月下旬谢子长南下南梁与红四十二师会合，任师政委；8 月 15 日率红三团及陕北游击队第 1、2、5 支队返回安定，经景武家塌、张家圪台、河口镇、董家寺等战斗，拔除三个据点，歼敌 200 余人、俘 100 余人；谢子长在 8 月 26 日河口镇战斗中胸部负伤。历时三个多月，打破了对陕北苏区的第一次“围剿”。这与陕甘边方向 1934 年 2—6 月的反“围剿”是同一轮“围剿”的两个战场。",
+      "en": "From May 1934 Jing Yuexiu’s 86th Division and county militia, over 15,000 strong, cleared the northern Shaanxi Soviet area. On 8 July the Northern Shaanxi Guerrilla Headquarters was formed at Yangdaomao, Anding, under Xie Zichang; on 17 July it took Anding county town and freed over 200 imprisoned party members and supporters. In late July Xie went south to Nanliang, joined the 42nd Division and became its political commissar; on 15 August he returned to Anding with the 3rd Regiment and the 1st, 2nd and 5th guerrilla detachments, and through the actions at Jingwujiajia, Zhangjiagetai, Hekou and Dongjiasi the reds destroyed three enemy posts, killing over 200 and capturing more than 100. Xie was wounded in the chest at Hekou on 26 August. In just over three months the first encirclement of northern Shaanxi was broken — the second theatre of the same round that included the February–June campaign in the Shaanxi-Gansu border area."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "西北红军反“围剿”斗争的胜利为中央红军在陕北落脚创造了条件",
+        "author": "延安党史网",
+        "url": "http://www.yads.org.cn/index.php?a=index&aid=750&c=View&m=home",
+        "note": "7/8 总指挥部成立、7/17 攻入安定、8/15 返回、8/26 河口负伤"
+      },
+      {
+        "title": "谢子长领导陕北第一次反“围剿”",
+        "author": "人民政协报（人民网转载）",
+        "url": "http://dangshi.people.com.cn/n1/2017/0406/c85037-29192601-2.html",
+        "note": "河口镇战斗与负伤经过"
+      },
+      {
+        "title": "陕甘苏区第一次反“围剿”",
+        "author": "新华社",
+        "url": "http://zqb.cyol.com/content/2006-11/12/content_1570811.htm",
+        "note": "陕北方向 7/17 袭占安定，8 月打破围剿"
+      }
+    ],
+    "relatedIds": [
+      "zhaojin-1934-02",
+      "red27-1935-01",
       "nanliang-1934-11"
     ],
-    "importance": 2,
-    "endDate": "1934-06-30"
+    "importance": 3
   },
   {
     "id": "red6-breakout-1934-08",
@@ -422,11 +694,11 @@
     },
     "date": "1934-11-06",
     "location": {
-      "lng": 108.3,
-      "lat": 36.35,
+      "lng": 108.34,
+      "lat": 36.4,
       "place": {
-        "zh": "甘肃华池南梁",
-        "en": "Nanliang, Huachi, Gansu"
+        "zh": "甘肃华池南梁荔园堡",
+        "en": "Liyuanpu, Nanliang, Huachi, Gansu"
       }
     },
     "entityIds": [

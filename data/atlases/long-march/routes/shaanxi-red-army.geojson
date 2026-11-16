@@ -11,28 +11,28 @@
             34.95
           ],
           [
-            108.4,
-            35.5
+            108.21,
+            36.05
           ],
           [
-            108.3,
-            36.35
+            108.34,
+            36.4
           ]
         ]
       },
       "properties": {
         "entityId": "shaanxi-red-army",
-        "startDate": "1934-02-01",
+        "startDate": "1933-10-12",
         "endDate": "1934-11-06",
         "order": 1,
-        "segmentType": "defense",
+        "segmentType": "advance",
         "name": {
-          "zh": "照金—南梁",
-          "en": "Zhaojin–Nanliang"
+          "zh": "照金—包家寨—南梁（重心北移）",
+          "en": "Zhaojin–Baojiazhai–Nanliang (shift of the base northward)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1933 年 10 月照金苏区中心薛家寨失守后，陕甘边红军主力北上合水一带；11 月 3—5 日在合水包家寨（今蒿咀铺乡张举塬村）召开联席会议，决定恢复红二十六军、成立第四十二师，进军南梁，建立以南梁为中心的三路游击区。11 月 8 日在平定川莲花寺宣布红四十二师成立，全师 500 余人，随后进军南梁，扫除周围民团，开辟以南梁为中心的根据地。路线为示意；包家寨取蒿咀铺乡代表点（会议旧址在张举塬村东峁），南梁取南梁镇荔园堡一带。",
+          "en": "After the loss of Xuejiazhai, the centre of the Zhaojin base, in October 1933, the main force of the Shaanxi-Gansu Red Army moved north to the Heshui area. On 3–5 November a joint conference at Baojiazhai (Zhangjuyuan village, Haozipu township) decided to restore the 26th Red Army and form its 42nd Division, march on Nanliang and build a base centred there with three guerrilla zones. On 8 November the 42nd Division was formally proclaimed at Lianhuasi, Pingdingchuan, some 500 strong, and moved on Nanliang, clearing the surrounding militia and opening the base. The line is schematic; Baojiazhai uses the Haozipu township point (the meeting site is at the eastern ridge of Zhangjuyuan) and Nanliang the Liyuanpu area of Nanliang town."
         },
         "extensions": {
           "precision": "schematic"
@@ -45,8 +45,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            108.3,
-            36.35
+            108.34,
+            36.4
           ],
           [
             108.77,
@@ -73,8 +73,8 @@
           "en": "Nanliang–Baimiaocha–Zhoujiachan"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1934 年 11 月陕甘边区苏维埃政府成立后，陕北红军北上。1935 年 1 月 30 日在安定白庙岔将陕北游击队各支队合编为红二十七军第八十四师；2 月 5 日陕甘边特委与陕北特委在子洲周家硷召开联席会议，成立中共西北工作委员会和西北革命军事委员会，统一两根据地党政军领导。路线为示意。",
+          "en": "After the Shaanxi-Gansu Border Soviet Government was founded in November 1934 the northern Shaanxi Red Army moved north. On 30 January 1935 the northern Shaanxi guerrilla detachments were reorganized at Baimiaocha, Anding, into the 84th Division of the 27th Red Army; on 5 February the border and northern Shaanxi special committees met at Zhoujiachan, Zizhou, creating the Northwest Working Committee and the Northwest Revolutionary Military Commission. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -127,8 +127,8 @@
           "en": "Maneuvers during the counter-encirclement campaigns"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1935 年 2 月起，国民党军调集约 4 万余人对陕甘苏区发动第二次“围剿”。红二十六、二十七军在西北军委统一指挥下转战安定、延长、延川、安塞、保安、靖边，至 6 月底连克六城，陕甘边与陕北苏区连成一片。7 月起应对第三次“围剿”，红十五军团在劳山、榆林桥作战。路线为示意，串联各主要作战方向，逐日行程见相关事件。",
+          "en": "From February 1935 some 40,000 KMT troops launched the second encirclement campaign against the Shaanxi-Gansu Soviet area. Under the Northwest Military Commission the 26th and 27th Red Armies operated around Anding, Yanchang, Yanchuan, Ansai, Bao’an and Jingbian, taking six county towns by the end of June and joining the border and northern Shaanxi areas. From July they faced the third campaign, with the 15th Corps fighting at Laoshan and Yulinqiao. The line is schematic and links the main operational directions."
         },
         "extensions": {
           "precision": "schematic"
@@ -201,7 +201,8 @@
           "zh": "永坪—吴起"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。"
+          "zh": "1935 年 9 月永坪会师、红十五军团成立后，陕北红军编入红十五军团，主力由永坪南下甘泉、富县方向作战，逐日行程见红十五军团各段。本段是永坪与吴起之间的示意衔接线，用于连接中央红军到吴起后的时间轴，不代表陕北红军主力开往吴起；同期红十五军团派郭洪涛、程子华前往迎接中央红军。",
+          "en": "After the Yongping meeting and the formation of the 15th Corps in September 1935, the northern Shaanxi Red Army was incorporated into the corps, whose main force moved south towards Ganquan and Fu county (see the 15th Corps routes). This segment is a schematic connector between Yongping and Wuqi for the timeline after the Central Red Army reached Wuqi; it does not represent the corps marching to Wuqi. Guo Hongtao and Cheng Zihua were sent to welcome the Central Red Army."
         },
         "extensions": {
           "precision": "schematic"
@@ -235,6 +236,82 @@
         "description": {
           "zh": "1935 年 10 月 20 日至 11 月 21 日，陕北红军由吴起镇南下直罗镇，配合红一方面军作战。路线为示意；直罗镇取镇区点（原坐标为富县县城，相差约 35km）。",
           "en": "From 20 October to 21 November 1935 the Shaanxi Red Army moved south from Wuqi to Zhiluozhen to operate with the First Front Army. The line is schematic; Zhiluozhen uses the town point (the former coordinate was Fu county town, about 35 km away)."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.34,
+            36.4
+          ],
+          [
+            108.02,
+            35.82
+          ],
+          [
+            108.4765,
+            34.8984
+          ],
+          [
+            108.34,
+            36.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shaanxi-red-army",
+        "startDate": "1934-03-01",
+        "endDate": "1934-05-31",
+        "order": 7,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "南梁—西华池—三里塬—南梁（第一次反“围剿”外线）",
+          "en": "Nanliang–Xihuachi–Sanliyuan–Nanliang (exterior lines, first counter-encirclement)"
+        },
+        "description": {
+          "zh": "1934 年 2 月国民党西安绥署调集万余人分路合击南梁。3 月红四十二师主力由南梁北上，直捣陕西警备骑兵旅第二团后方吴起以南的三道川，经蔺家砭、李家梁等战斗歼其 4 个连；随后折转南下，4 月 11 日在西华池（今合水县城）歼陇东警备第二旅第五团团部及 2 个营 700 余人；5 月上旬在淳化三里塬遭遇战中歼陕西游击支队 2 个连；5 月下旬北返南梁。路线为示意，三道川、蔺家砭、李家梁段未逐点落位；三里塬取今淳化县十里塬镇三里塬村一带代表点。",
+          "en": "In February 1934 the Xi’an garrison headquarters concentrated over 10,000 troops against Nanliang. In March the main force of the 42nd Division moved north to the Sandaochan area south of Wuqi, behind the 2nd Regiment of the Shaanxi Security Cavalry Brigade, destroying four of its companies at Linjiabian and Lijialiang; it then turned south, annihilating the headquarters and two battalions of the 5th Regiment, 2nd Security Brigade, at Xihuachi (today’s Heshui county town) on 11 April, and two companies of the Shaanxi guerrilla detachment at Sanliyuan, Chunhua, in early May, returning north to Nanliang in late May. The line is schematic; the Sandaochan–Linjiabian–Lijialiang leg is not plotted point by point, and Sanliyuan uses the Sanliyuan village area of Shilixiang town, Chunhua."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.34,
+            36.4
+          ],
+          [
+            109.512,
+            37.176
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shaanxi-red-army",
+        "startDate": "1934-07-23",
+        "endDate": "1934-08-15",
+        "order": 8,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南梁—安定（红三团北上陕北）",
+          "en": "Nanliang–Anding (3rd Regiment moves north to northern Shaanxi)"
+        },
+        "description": {
+          "zh": "1934 年 5 月起井岳秀第八十六师及各县民团对陕北苏区“清剿”。7 月 8 日陕北游击队总指挥部在安定杨道峁成立，谢子长任总指挥；7 月 17 日攻入安定县城，释放被捕党员和群众 200 余人。7 月下旬谢子长率部南下，7 月 23 日在南梁阎家洼子与红四十二师会合，7 月 28 日联席会议决定谢子长兼红四十二师政委、红三团北上陕北。8 月 15 日红三团与陕北游击队第 1、2、5 支队返回安定，随后取得景武家塌、张家圪台、河口镇等战斗胜利，谢子长在 8 月 26 日河口镇战斗中胸部负伤。路线为示意；安定取今子长市安定镇代表点。",
+          "en": "From May 1934 Jing Yuexiu’s 86th Division and county militia “cleared” the northern Shaanxi Soviet area. On 8 July the Northern Shaanxi Guerrilla Headquarters was formed at Yangdaomao, Anding, under Xie Zichang; on 17 July it entered Anding county town and freed over 200 imprisoned party members and supporters. In late July Xie moved south, joining the 42nd Division at Yanjiawazi, Nanliang, on 23 July; a joint conference on 28 July made Xie political commissar of the division and sent its 3rd Regiment north. On 15 August the 3rd Regiment and the 1st, 2nd and 5th guerrilla detachments returned to Anding, winning at Jingwujiajia, Zhangjiagetai and Hekou; Xie was wounded in the chest at Hekou on 26 August. The line is schematic; Anding uses Anding town, Zichang."
         },
         "extensions": {
           "precision": "schematic"
