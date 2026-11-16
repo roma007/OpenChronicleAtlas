@@ -90,6 +90,7 @@ function CoverOverlay({
                 marginTop: unit * 1.6,
                 fontSize: size(2.15, 9, 13),
                 color: colors.inkSoft,
+                fontWeight: '600',
                 ...shadow,
                 letterSpacing: unit * 0.1,
               }}
@@ -102,6 +103,7 @@ function CoverOverlay({
                   marginTop: unit * 2.2,
                   fontSize: size(1.75, 9.5, 12),
                   color: colors.inkSoft,
+                  fontWeight: '600',
                   ...shadow,
                 }}
               >
@@ -114,6 +116,7 @@ function CoverOverlay({
                   marginTop: unit * 1.1,
                   fontSize: size(1.35, 8.5, 11),
                   color: colors.inkSoft,
+                  fontWeight: '600',
                   ...shadow,
                 }}
               >
@@ -128,6 +131,7 @@ function CoverOverlay({
                 marginTop: unit * 1.8,
                 fontSize: size(2.5, 10, 15),
                 color: colors.inkSoft,
+                fontWeight: '600',
                 ...shadow,
                 letterSpacing: unit * 0.14,
               }}
@@ -139,6 +143,7 @@ function CoverOverlay({
                 marginTop: unit * 2.2,
                 fontSize: size(1.45, 8.5, 12),
                 color: colors.inkSoft,
+                fontWeight: '600',
                 ...shadow,
               }}
             >
@@ -156,6 +161,7 @@ function CoverOverlay({
             bottom: unit * 6.4,
             fontSize: size(1.15, 8.5, 11),
             color: colors.inkSoft,
+            fontWeight: '600',
             ...shadow,
             letterSpacing: unit * 0.08,
           }}
@@ -182,6 +188,7 @@ function CoverOverlay({
                 bottom: unit * 6.2,
                 fontSize: size(1.15, 8, 10),
                 color: colors.inkSoft,
+                fontWeight: '600',
                 ...shadow,
               }}
             >

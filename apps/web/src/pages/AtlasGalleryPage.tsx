@@ -7,22 +7,27 @@ import { useI18n } from '../hooks/useI18n';
 
 const SCRIM_STORAGE_KEY = 'atlas-cover-scrim';
 const DEFAULT_SCRIM = 97;
+const SUB_SCALE_STORAGE_KEY = 'atlas-cover-subscale';
+const DEFAULT_SUB_SCALE = 100;
 
-function initialScrim(): number {
+function readStored(key: string, fallback: number, min: number, max: number): number {
   try {
-    const raw = window.localStorage.getItem(SCRIM_STORAGE_KEY);
+    const raw = window.localStorage.getItem(key);
     const value = raw === null ? Number.NaN : Number(raw);
-    if (Number.isFinite(value)) return Math.min(100, Math.max(0, value));
+    if (Number.isFinite(value)) return Math.min(max, Math.max(min, value));
   } catch {
     // 忽略隐私模式下的读取失败
   }
-  return DEFAULT_SCRIM;
+  return fallback;
 }
 
 export function AtlasGalleryPage() {
   const { index, loading, error, loadIndex } = useAtlasStore();
   const { t, locale } = useI18n();
-  const [scrim, setScrim] = useState(initialScrim);
+  const [scrim, setScrim] = useState(() => readStored(SCRIM_STORAGE_KEY, DEFAULT_SCRIM, 0, 100));
+  const [subScale, setSubScale] = useState(() =>
+    readStored(SUB_SCALE_STORAGE_KEY, DEFAULT_SUB_SCALE, 60, 200),
+  );
 
   useEffect(() => {
     void loadIndex();
@@ -31,10 +36,11 @@ export function AtlasGalleryPage() {
   useEffect(() => {
     try {
       window.localStorage.setItem(SCRIM_STORAGE_KEY, String(scrim));
+      window.localStorage.setItem(SUB_SCALE_STORAGE_KEY, String(subScale));
     } catch {
       // 忽略隐私模式下的写入失败
     }
-  }, [scrim]);
+  }, [scrim, subScale]);
 
   return (
     <div className="min-h-full bg-parchment">
@@ -81,26 +87,50 @@ export function AtlasGalleryPage() {
             </span>
           </div>
 
-          <div className="flex items-center gap-2 rounded-full border border-ink/10 bg-parchment px-3 py-1.5 text-[11px] text-ink-soft">
-            <span>{locale === 'en' ? 'Cover mask' : '封面遮罩'}</span>
-            <input
-              type="range"
-              min={0}
-              max={100}
-              step={1}
-              value={scrim}
-              onChange={(event) => setScrim(Number(event.target.value))}
-              aria-label={locale === 'en' ? 'Cover mask opacity' : '封面遮罩不透明度'}
-              className="h-1 w-28 cursor-pointer accent-cinnabar sm:w-40"
-            />
-            <span className="w-8 text-right tabular-nums">{scrim}%</span>
-            <button
-              type="button"
-              onClick={() => setScrim(DEFAULT_SCRIM)}
-              className="rounded-full px-1 text-ink-soft/70 underline decoration-ink/20 underline-offset-2 hover:text-cinnabar"
-            >
-              {locale === 'en' ? 'Reset' : '重置'}
-            </button>
+          <div className="flex flex-wrap items-center gap-2">
+            <div className="flex items-center gap-2 rounded-full border border-ink/10 bg-parchment px-3 py-1.5 text-[11px] text-ink-soft">
+              <span>{locale === 'en' ? 'Cover mask' : '封面遮罩'}</span>
+              <input
+                type="range"
+                min={0}
+                max={100}
+                step={1}
+                value={scrim}
+                onChange={(event) => setScrim(Number(event.target.value))}
+                aria-label={locale === 'en' ? 'Cover mask opacity' : '封面遮罩不透明度'}
+                className="h-1 w-24 cursor-pointer accent-cinnabar sm:w-32"
+              />
+              <span className="w-8 text-right tabular-nums">{scrim}%</span>
+              <button
+                type="button"
+                onClick={() => setScrim(DEFAULT_SCRIM)}
+                className="rounded-full px-1 text-ink-soft/70 underline decoration-ink/20 underline-offset-2 hover:text-cinnabar"
+              >
+                {locale === 'en' ? 'Reset' : '重置'}
+              </button>
+            </div>
+
+            <div className="flex items-center gap-2 rounded-full border border-ink/10 bg-parchment px-3 py-1.5 text-[11px] text-ink-soft">
+              <span>{locale === 'en' ? 'Sub text' : '副文字'}</span>
+              <input
+                type="range"
+                min={60}
+                max={200}
+                step={5}
+                value={subScale}
+                onChange={(event) => setSubScale(Number(event.target.value))}
+                aria-label={locale === 'en' ? 'Cover sub-text size' : '封面副文字大小'}
+                className="h-1 w-24 cursor-pointer accent-cinnabar sm:w-32"
+              />
+              <span className="w-10 text-right tabular-nums">{subScale}%</span>
+              <button
+                type="button"
+                onClick={() => setSubScale(DEFAULT_SUB_SCALE)}
+                className="rounded-full px-1 text-ink-soft/70 underline decoration-ink/20 underline-offset-2 hover:text-cinnabar"
+              >
+                {locale === 'en' ? 'Reset' : '重置'}
+              </button>
+            </div>
           </div>
         </div>
 
@@ -132,7 +162,12 @@ export function AtlasGalleryPage() {
         {index ? (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {index.map((atlas) => (
-              <AtlasCard key={atlas.id} atlas={atlas} scrimOpacity={scrim / 100} />
+              <AtlasCard
+                key={atlas.id}
+                atlas={atlas}
+                scrimOpacity={scrim / 100}
+                subScale={subScale / 100}
+              />
             ))}
           </div>
         ) : null}
