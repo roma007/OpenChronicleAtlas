@@ -69,8 +69,12 @@
             30.99
           ],
           [
-            102.3,
-            31.9
+            102.489,
+            31.49
+          ],
+          [
+            102.291,
+            31.869
           ],
           [
             102.99,
@@ -81,67 +85,32 @@
             32.601
           ],
           [
-            103.6,
-            32.65
+            103.02449,
+            33.50777
           ],
           [
-            103.367,
-            33.47
+            103.23094,
+            33.60788
           ],
           [
-            102.8,
-            33.4
-          ],
-          [
-            102.96,
-            33.58
-          ],
-          [
-            103.6,
-            34.1
-          ],
-          [
-            104.04,
-            34.43
-          ],
-          [
-            103.589,
-            34.675
-          ],
-          [
-            103.353,
-            34.688
-          ],
-          [
-            104.2,
-            35.1
-          ],
-          [
-            105.24,
-            35.21
-          ],
-          [
-            104.9,
-            35.4
-          ],
-          [
-            105.05,
-            35.7
+            103.36805,
+            33.47688
           ]
         ]
       },
       "properties": {
         "entityId": "red-4-army",
         "startDate": "1935-06-19",
-        "endDate": "1936-10-23",
+        "endDate": "1935-09-14",
         "order": 2,
         "segmentType": "advance",
         "name": {
-          "zh": "懋功—会宁（示意）"
+          "zh": "懋功—两河口—卓克基—毛儿盖—班佑—巴西—包座（红四方面军北上）",
+          "en": "Maogong–Lianghekou–Zhuokeji–Maoergai–Banyou–Baxi–Baozuo (Fourth Front Army northward)"
         },
         "description": {
-          "zh": "红四方面军由懋功北上，经包座、腊子口进入甘南，占岷县、临潭、通渭，1936 年 10 月与会宁红一方面军会师；华家岭阻击战后结束本段。路线为示意，待按行军日志细化。",
-          "en": "The Fourth Front Army moved north from Maogong via Bazuo and Lazikou into southern Gansu, occupied Minxian, Lintan, and Tongwei, and met the First Front Army at Huining in October 1936; the section ends after the Huajialing blocking battle. The route is schematic and awaits refinement from march logs."
+          "zh": "1935 年 6 月 19 日懋功会师后，红四方面军一部随中央北上：6 月 26 日两河口会议，6 月底攻占卓克基，7 月中旬进至黑水芦花，下旬抵毛儿盖。8 月混编为左、右两路军后，右路军红 30 军、红 4 军为右翼由洞哑、腊子山入草地，红 1 军为左翼由毛儿盖经曲定桥入草地；8 月 24—27 日先后出草地到班佑、巴西，8 月 29—31 日发起包座战役；9 月上旬右路军在巴西、包座地区休整待命，至 9 月中旬奉命南下。原线把 1936 年甘南—会宁段并入同一条线，现拆分。路线为示意。",
+          "en": "After the Maogong link-up on 19 June 1935 part of the Fourth Front Army moved north with the centre: the Lianghekou meeting on 26 June, Zhuokeji taken at the end of June, Luhua in mid-July and Maoergai later that month. After the two front armies were regrouped into left and right columns in August, the right column’s 30th and 4th Corps entered the grasslands via Dongya and Lazishan while the 1st Corps went via Maoergai; by 24–27 August they reached Banyou and Baxi and on 29–31 August fought the Baozuo battle; in early September the right column rested at Baxi and Baozuo until ordered south in mid-September. The former line merged the 1936 Gannan–Huining leg into the same route and has now been split. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -154,12 +123,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            102.36,
-            30.99
+            103.36805,
+            33.47688
+          ],
+          [
+            102.064,
+            31.476
           ],
           [
             101.883,
             30.879
+          ],
+          [
+            102.36,
+            30.99
+          ],
+          [
+            102.81,
+            30.75
           ],
           [
             102.761,
@@ -177,17 +158,17 @@
       },
       "properties": {
         "entityId": "red-4-army",
-        "startDate": "1935-09-08",
-        "endDate": "1935-11-25",
+        "startDate": "1935-09-15",
+        "endDate": "1935-11-21",
         "order": 3,
         "segmentType": "advance",
         "name": {
-          "zh": "红四方面军南下（懋功—丹巴—天全—芦山—名山）",
-          "en": "Fourth Front Army southward move (Maogong–Danba–Tianquan–Lushan–Mingshan)"
+          "zh": "包座—绥靖—丹巴—懋功—宝兴—天全—芦山—百丈（红四方面军南下）",
+          "en": "Baozuo–Suijing–Danba–Maogong–Baoxing–Tianquan–Lushan–Baizhang (Fourth Front Army southward)"
         },
         "description": {
-          "zh": "红四方面军由懋功南下，经丹巴、天全、芦山进至名山百丈关，先后进行绥崇丹懋、天芦名雅邛大战役。",
-          "en": "The Fourth Front Army moved south from Maogong through Danba, Tianquan, and Lushan to Baizhang Pass in Mingshan, fighting the Suichong Danmao and Tian-Lu-Ming-Ya-Qiong-Da campaigns."
+          "zh": "1935 年 9 月 8 日张国焘电令右路军准备南下，15 日以红军总政治部名义发布《大举南进政治保障计划》，左路军自阿坝、右路军红 4 军与红 30 军自包座重过草地南下，9 月下旬集结马塘、松岗、党坝；10 月 5 日在卓木碉另立「中央」。10 月 7 日发布《绥崇丹懋战役计划》，12 日克绥靖，16 日克丹巴，20 日克懋功；10 月 24 日由懋功翻夹金山，11 月 1 日占宝兴、10 日占天全、12 日占芦山，11 月 16 日占百丈，19—21 日百丈决战失利后撤至天全、芦山、宝兴。原线起点误置懋功、日期误置 9 月 8 日。路线为示意。",
+          "en": "On 8 September 1935 Zhang Guotao ordered the right column to prepare to move south; on 15 September the General Political Department issued the “plan for the great southward advance”, and while the left column came south from Aba the right column’s 4th and 30th Corps recrossed the grasslands from Baozuo, assembling around Matang, Songgang and Dangba in late September; on 5 October a separate “central committee” was set up at Zhuomudiao. On 7 October the Suijing–Chonghua–Danba–Maogong plan was issued: Suijing fell on 12 October, Danba on 16 October and Maogong on 20 October. On 24 October the army crossed the Jiajin mountains from Maogong, taking Baoxing on 1 November, Tianquan on 10 November and Lushan on 12 November, and Baizhang on 16 November; after the defeat at Baizhang on 19–21 November it withdrew to Tianquan, Lushan and Baoxing. The former route started wrongly at Maogong on 8 September. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -236,8 +217,8 @@
         "order": 4,
         "segmentType": "advance",
         "name": {
-          "zh": "红四方面军二次北上（名山—宝兴—丹巴—道孚—炉霍—甘孜）",
-          "en": "Fourth Front Army second northward move (Mingshan–Baoxing–Danba–Daofu–Luhuo–Ganzi)"
+          "zh": "名山—宝兴—丹巴—道孚—炉霍—甘孜（红四方面军西进康北）",
+          "en": "Mingshan–Baoxing–Danba–Daofu–Luhuo–Ganzi (Fourth Front Army moves west to Kham)"
         },
         "description": {
           "zh": "红四方面军由天全、芦山、宝兴经懋功、丹巴西进，翻越党岭山夏羌涅阿垭口，经道孚、炉霍进抵甘孜。路线为示意，待按行军日志细化。",
@@ -1294,6 +1275,102 @@
         "description": {
           "zh": "1935 年 8 月 3 日板栗园战斗后，红二、六军团主力回到龙山三元、石羔、桶车、兴隆街、茨岩塘一带休整待命；7 日获悉陶广纵队将经芭蕉坨、凉风洞、欧溪坪、花鹿溪开赴龙山县城，当日傍晚两万红军轻装趁夜奔赴芭蕉坨、凉风洞、欧溪坪、花鹿溪一线设伏。芭蕉坨一带为伏击线代表点。",
           "en": "After Banliyuan on 3 August 1935 the main force returned to the Longshan base area around Sanyuan, Shigao, Tongche, Xinglongjie and Ciyantang. On 7 August it learned that Tao Guang’s column would march via Bajiaotuo, Liangfengdong, Ouxiping and Hualuxi towards Longshan county town, and that evening some 20,000 troops moved out light-handed to lay an ambush along that line. The point marks the ambush line near Bajiaotuo."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.991,
+            31.624
+          ],
+          [
+            101.7,
+            32.9
+          ],
+          [
+            103.36805,
+            33.47688
+          ],
+          [
+            103.22,
+            34.06
+          ],
+          [
+            104.39,
+            34.23
+          ],
+          [
+            103.589,
+            34.675
+          ],
+          [
+            104.04,
+            34.43
+          ],
+          [
+            105.24,
+            35.21
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-4-army",
+        "startDate": "1936-07-05",
+        "endDate": "1936-10-02",
+        "order": 7,
+        "segmentType": "advance",
+        "name": {
+          "zh": "甘孜—阿坝—包座—腊子口—哈达铺—岷州—临潭—通渭（红四方面军北上甘南）",
+          "en": "Ganzi–Aba–Baozuo–Lazikou–Hadapu–Minxian–Lintan–Tongwei (Fourth Front Army north to southern Gansu)"
+        },
+        "description": {
+          "zh": "1936 年 7 月上旬红二、红四方面军从甘孜出发，经阿坝、包座，第三次穿越草地，8 月上旬到达班佑、包座和甘南；随后发起岷洮西固战役（8 月 5 日—9 月 7 日），9 月上旬先后占领漳县、临潭、渭源、通渭、岷县、陇西、临洮、武山等地。9 月 16—18 日岷州会议后一部西进临潭（洮州），27 日洮州会议决定北上，红四方面军主力北上通渭一带，10 月上旬进入通渭，随后经青江驿、界石铺转往会宁。路线为示意，班佑、哈达铺至岷州间的具体经行只入正文。",
+          "en": "In early July 1936 the Second and Fourth Front Armies set out from Ganzi, passed Aba and Baozuo and crossed the grasslands for the third time, reaching Banyou, Baozuo and southern Gansu in early August. They then fought the Min–Tao–Xigu campaign (5 August–7 September) and in early September took Zhangxian, Lintan, Weiyuan, Tongwei, Minxian, Longxi, Lintao and Wushan. After the Minzhou meeting of 16–18 September part of the force moved west to Lintan (Taozhou), where the Taozhou meeting of 27 September decided to go north; the main force then moved to the Tongwei area in early October and then via Qingjiangyi and Jieshipu towards Huining. The line is schematic; the exact tracks between Banyou, Hadapu and Minxian appear only in the text."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.24,
+            35.21
+          ],
+          [
+            104.9,
+            35.4
+          ],
+          [
+            105.05,
+            35.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "red-4-army",
+        "startDate": "1936-10-20",
+        "endDate": "1936-10-23",
+        "order": 8,
+        "segmentType": "defense",
+        "name": {
+          "zh": "通渭—华家岭—会宁（红五军后卫阻击）",
+          "en": "Tongwei–Huajialing–Huining (5th Corps rearguard)"
+        },
+        "description": {
+          "zh": "1936 年 10 月，红四方面军红五军担任全军后卫，由通渭经华家岭向会宁转进，10 月 22—23 日在华家岭大墩梁一带阻击胡宗南部追兵，副军长罗南辉牺牲，掩护主力与会宁的红一方面军会合。路线为示意，华家岭取大墩梁代表点。",
+          "en": "In October 1936 the Fourth Front Army’s 5th Corps served as rearguard, moving from Tongwei via Huajialing towards Huining; on 22–23 October it blocked Hu Zongnan’s pursuing forces at Huajialing and Dadunliang, losing deputy commander Luo Nanhui, and covered the main force’s link-up with the First Front Army at Huining. The line is schematic; Huajialing uses the Dadunliang representative point."
         },
         "extensions": {
           "precision": "schematic"
