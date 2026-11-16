@@ -84,27 +84,31 @@
           ],
           [
             119.6,
-            32.0
+            32
           ],
           [
             120.6,
             31.3
+          ],
+          [
+            120.58,
+            30
           ]
         ]
       },
       "properties": {
         "entityId": "wu",
         "startDate": "0195-08-01",
-        "endDate": "0196-08-31",
+        "endDate": "0196-12-31",
         "order": 3,
         "segmentType": "advance",
         "name": {
-          "zh": "历阳—曲阿—吴",
-          "en": "Liyang–Qü’a–Wu"
+          "zh": "历阳—曲阿—吴—会稽（孙策定江东）",
+          "en": "Liyang–Qua–Wu–Kuaiji (Sun Ce takes the Lower Yangtze)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "兴平二年（195）孙策自历阳渡江，先破横江、当利，转战牛渚、秣陵，进至曲阿击走刘繇；建安元年（196）破吴郡严白虎，随即引兵渡浙江攻会稽，王朗据固陵抵抗，孙策用孙静之计夜出查渎、突袭高迁屯，王朗败走东冶后投降。孙策自领会稽太守，以朱治为吴郡太守。原线止于吴，线尾无后续；此处补会稽一段。",
+          "en": "In 195 Sun Ce crossed the Yangtze at Liyang, took Hengjiang and Dangli, fought through Niuzhu and Moling and drove Liu Yao from Qua. In 196 he defeated Yan Baihu in Wu commandery, then crossed the Zhejiang against Kuaiji; Wang Lang held Guling until Sun Ce, on Sun Jing’s advice, made a night feint and struck Gaoqian tun, routing Wang Lang, who fled to Dongye and surrendered. Sun Ce took the title of Kuaiji governor and made Zhu Zhi governor of Wu. The former line ended at Wu with no follow-through; the Kuaiji leg is now added."
         },
         "extensions": {
           "precision": "schematic"
@@ -164,26 +168,35 @@
           ],
           [
             114.3,
-            35.0
+            35
+          ],
+          [
+            115.8,
+            36.11
+          ],
+          [
+            113.85,
+            34.03
           ]
         ]
       },
       "properties": {
         "entityId": "cao-wei",
         "startDate": "0199-06-01",
-        "endDate": "0200-10-31",
+        "endDate": "0201-09-30",
         "order": 5,
         "segmentType": "counterattack",
         "name": {
-          "zh": "许昌—官渡—乌巢",
-          "en": "Xuchang–Guandu–Wuchao"
+          "zh": "许昌—官渡—乌巢—仓亭—许昌（官渡与仓亭）",
+          "en": "Xuchang–Guandu–Wuchao–Cangting–Xuchang (Guandu and Cangting)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "建安四年（199）六月袁绍选精兵十万南进，曹操分兵守官渡；建安五年（200）十月曹操亲率步骑五千夜袭乌巢，烧其粮草，袁军崩溃。建安六年（201）春曹操就谷于安民，四月扬兵河上、击破袁绍仓亭军，九月还许都。原线止于乌巢，线尾无后续；此处补仓亭与还许，构成完整往返。仓亭取今山东阳谷一带代表点，标 approx。",
+          "en": "In the sixth month of 199 Yuan Shao moved south with 100,000 picked troops and Cao Cao divided his forces to hold Guandu. In the tenth month of 200 Cao Cao led 5,000 horse and foot on a night raid on Wuchao, burned Yuan’s grain and broke his army. In the spring of 201 Cao Cao took grain at Anmin, in the fourth month displayed his army on the Yellow River and destroyed Yuan Shao’s Cangting force, and in the ninth month returned to Xuchang. The former line stopped at Wuchao with no follow-through; Cangting and the return are now added. Cangting is represented by the Yanggu area of Shandong and marked approx."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "locationPrecision": "approx"
         }
       }
     },
@@ -194,7 +207,7 @@
         "coordinates": [
           [
             119.6,
-            32.0
+            32
           ],
           [
             119.45,
@@ -265,8 +278,8 @@
             32.52
           ],
           [
-            112.0,
-            32.0
+            112,
+            32
           ]
         ]
       },
@@ -304,7 +317,7 @@
           ],
           [
             117.4,
-            40.0
+            40
           ],
           [
             120.45,
@@ -341,6 +354,14 @@
             34.03
           ],
           [
+            112.36,
+            32.52
+          ],
+          [
+            112.14,
+            32.02
+          ],
+          [
             112.2,
             30.35
           ],
@@ -361,12 +382,12 @@
         "order": 10,
         "segmentType": "naval",
         "name": {
-          "zh": "许昌—江陵—赤壁",
-          "en": "Xuchang–Jiangling–Red Cliffs"
+          "zh": "许昌—新野—襄阳—江陵—赤壁（南征荆州）",
+          "en": "Xuchang–Xinye–Xiangyang–Jiangling–Chibi (campaign in Jingzhou)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "建安十三年（208）七月曹操南下征荆州；八月刘表卒，九月曹军至新野，刘琮举州投降，曹操轻骑追击刘备于当阳长坂，随后进占江陵，得刘表水军，顺江东下至赤壁。原线由许都直连江陵，把襄阳、新野一段省掉，导致追击段（襄阳—当阳）的线头悬空；此处补新野、襄阳两点。路线为示意。",
+          "en": "In the seventh month of 208 Cao Cao marched south against Jingzhou. Liu Biao died in the eighth month; in the ninth month Cao’s army reached Xinye, Liu Cong surrendered the province, Cao’s light cavalry pursued Liu Bei to Changban at Dangyang, and he then occupied Jiangling, took over Liu Biao’s river fleet and moved east down the Yangtze to Chibi. The former line ran straight from Xuchang to Jiangling, omitting the Xinye–Xiangyang stretch and leaving the pursuit route without a head; both points are now added. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -433,12 +454,12 @@
         "order": 12,
         "segmentType": "advance",
         "name": {
-          "zh": "襄阳—当阳",
-          "en": "Xiangyang–Dangyang"
+          "zh": "襄阳—当阳长坂（轻骑追击）",
+          "en": "Xiangyang–Changban (light cavalry pursuit)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "建安十三年（208）九月曹操至襄阳，闻刘备南走，弃辎重，率精骑五千急追，一日一夜行三百余里，在当阳长坂追上并击溃刘备部众；刘备弃妻子，与诸葛亮、张飞、赵云等数十骑走汉津，会关羽水军退往夏口。此段线头接南征主线（许都—新野—襄阳），线尾由长坂事件承接。",
+          "en": "In the ninth month of 208 Cao Cao reached Xiangyang and, learning that Liu Bei had fled south, abandoned his baggage and led 5,000 picked cavalry in pursuit, covering over 300 li in a day and a night, catching and routing Liu Bei’s force at Changban in Dangyang. Liu Bei abandoned his family and fled with Zhuge Liang, Zhang Fei, Zhao Yun and a few dozen riders to Hanjin, where he joined Guan Yu’s flotilla and withdrew to Xiakou. The head now joins the main southern campaign and the tail is anchored by the Changban event."
         },
         "extensions": {
           "precision": "schematic"
@@ -683,8 +704,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            113.7,
-            29.9
+            115.99,
+            29.71
+          ],
+          [
+            112.23,
+            30.06
           ],
           [
             112.2,
@@ -699,15 +724,16 @@
         "order": 19,
         "segmentType": "counterattack",
         "name": {
-          "zh": "陆口—江陵",
-          "en": "Lukou–Jiangling"
+          "zh": "寻阳—公安—江陵（吕蒙白衣渡江）",
+          "en": "Xunyang–Gong’an–Jiangling (Lu Meng’s plain-clothes crossing)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "建安二十四年（219）关羽北伐、后方空虚，吕蒙称病还建业，陆逊代屯陆口以骄关羽；关羽撤兵后，吕蒙自寻阳率精兵伏于船中，使白衣摇橹作商贾，昼夜兼行，尽收江边屯候，遂袭公安、江陵，傅士仁、糜芳先后投降，关羽后方尽失。原线起点作陆口，实际出兵地为寻阳；此处改正。寻阳取今九江一带代表点，标 approx。",
+          "en": "In 219, with Guan Yu away on his northern campaign and his rear thinly held, Lu Meng feigned illness and returned to Jianye while Lu Xun took over at Lukou to lull Guan Yu. Once Guan Yu withdrew his troops, Lu Meng set out from Xunyang with picked men hidden in the ships, disguised the rowers as merchants and moved day and night, sweeping up the riverbank watch posts and seizing Gong’an and Jiangling as Fu Shiren and Mi Fang surrendered in turn, stripping Guan Yu of his rear. The former line began at Lukou, but the actual starting point was Xunyang; this is now corrected. Xunyang is represented by the Jiujiang area and marked approx."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "locationPrecision": "approx"
         }
       }
     },
@@ -832,7 +858,7 @@
           ],
           [
             105.9,
-            35.0
+            35
           ]
         ]
       },
@@ -877,12 +903,12 @@
         "order": 24,
         "segmentType": "counterattack",
         "name": {
-          "zh": "皖口—石亭",
-          "en": "Wankou–Shiting"
+          "zh": "皖口—石亭（陆逊迎击曹休）",
+          "en": "Wankou–Shiting (Lu Xun meets Cao Xiu)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "黄武七年（228）八月孙权至皖口，以陆逊为大都督，朱桓、全琮为左右督，各督三万人迎击曹休；陆逊自为中部，三道俱进，冲击曹休伏兵并追击至夹石，斩获万余。曹休败走，赖贾逵援军才得脱。路线为示意，皖口、石亭坐标待核（今怀宁、潜山、桐城之间）。",
+          "en": "In the eighth month of 228 Sun Quan reached Wankou and made Lu Xun commander-in-chief, with Zhu Huan and Quan Cong as left and right commanders, each with 30,000 men against Cao Xiu. Lu Xun took the centre and advanced in three columns, breaking Cao Xiu’s ambush and pursuing to Jiashi, killing and capturing over 10,000; Cao Xiu escaped only thanks to Jia Kui’s relief force. The line is schematic and the Wankou and Shiting coordinates still need verification (somewhere between modern Huaining, Qianshan and Tongcheng)."
         },
         "extensions": {
           "precision": "schematic"
@@ -935,25 +961,30 @@
           [
             112.5,
             34.4
+          ],
+          [
+            112.45,
+            34.62
           ]
         ]
       },
       "properties": {
         "entityId": "cao-wei",
-        "startDate": "0249-02-01",
+        "startDate": "0249-01-01",
         "endDate": "0249-02-28",
         "order": 26,
         "segmentType": "advance",
         "name": {
-          "zh": "洛阳—高平陵",
-          "en": "Luoyang–Gaopingling"
+          "zh": "洛阳—高平陵—洛阳（高平陵之变）",
+          "en": "Luoyang–Gaopingling–Luoyang (Gaopingling coup)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "魏正始十年（249）正月，曹爽兄弟陪魏帝曹芳出洛阳谒高平陵；司马懿乘机在洛阳发动政变，闭城门、占武库、控制禁军，并派人劝曹爽归降。曹爽回洛阳后交出兵权，旋被族诛，司马氏专权自此始。原线止于高平陵，线尾无后续；此处补回洛阳一段。高平陵取洛阳以南代表点，标 approx。",
+          "en": "In the first month of 249 Cao Shuang and his brothers accompanied Emperor Cao Fang out of Luoyang to sacrifice at Gaopingling. Sima Yi seized the moment to stage a coup in Luoyang, closing the gates, seizing the arsenal and controlling the palace guards, then sent envoys to persuade Cao Shuang to submit. Cao Shuang returned to Luoyang, gave up his command and was soon executed with his clan, beginning Sima family rule. The former line ended at Gaopingling with no follow-through; the return to Luoyang is now added. Gaopingling is represented by a point south of Luoyang and marked approx."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "locationPrecision": "approx"
         }
       }
     },
@@ -1154,7 +1185,7 @@
           ],
           [
             109.5,
-            31.0
+            31
           ],
           [
             112.2,
@@ -1229,6 +1260,74 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.89,
+            30.4
+          ],
+          [
+            116.47,
+            30.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wu",
+        "startDate": "0228-07-01",
+        "endDate": "0228-08-31",
+        "order": 32,
+        "segmentType": "advance",
+        "name": {
+          "zh": "武昌—皖口（孙权进驻皖口）",
+          "en": "Wuchang–Wankou (Sun Quan moves to Wankou)"
+        },
+        "description": {
+          "zh": "黄武七年（228）五月鄱阳太守周鲂诈降诱曹休，曹休率步骑十万向皖城；八月孙权自武昌进驻皖口，命陆逊为大都督，朱桓、全琮为左右督，各率三万人迎击。此段为石亭之战前孙权进驻前线的行程，接石亭出击段。路线为示意。",
+          "en": "In the fifth month of 228 the Poyang governor Zhou Fang feigned surrender to lure Cao Xiu, who marched 100,000 horse and foot towards Wancheng. In the eighth month Sun Quan moved from Wuchang to Wankou and appointed Lu Xun commander-in-chief with Zhu Huan and Quan Cong as left and right commanders, each leading 30,000 men to meet the enemy. This leg records Sun Quan’s move to the front before Shiting and joins the Shiting sortie. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.23,
+            30.06
+          ],
+          [
+            114.89,
+            30.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wu",
+        "startDate": "0221-04-01",
+        "endDate": "0221-04-30",
+        "order": 33,
+        "segmentType": "advance",
+        "name": {
+          "zh": "公安—武昌（孙权迁都）",
+          "en": "Gong’an–Wuchang (Sun Quan moves the capital)"
+        },
+        "description": {
+          "zh": "建安二十六年（221）四月，孙权自公安迁都鄂县，改名武昌，以武昌、下雉、寻阳、阳新、柴桑、沙羡六县置武昌郡，以拒刘备东下。至黄龙元年（229）还都建业。路线为示意。",
+          "en": "In the fourth month of 221 Sun Quan moved his capital from Gong’an to E county, renamed it Wuchang, and created Wuchang commandery from six counties including Wuchang, Xiazhi, Xunyang, Yangxin, Chaisang and Shaxian, to face Liu Bei’s eastward advance. In 229 he returned the capital to Jianye. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
