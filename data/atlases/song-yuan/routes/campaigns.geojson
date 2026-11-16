@@ -8,7 +8,7 @@
         "coordinates": [
           [
             114.5,
-            35.0
+            35
           ],
           [
             114.3,
@@ -53,16 +53,16 @@
       "properties": {
         "entityId": "dali",
         "startDate": "0965-01-01",
-        "endDate": "0965-12-31",
+        "endDate": "1096-12-31",
         "order": 2,
         "segmentType": "other",
         "name": {
-          "zh": "羊苴咩城城内",
-          "en": "Within Yangjumie"
+          "zh": "羊苴咩城（大理国都）",
+          "en": "Yangjumie city (Dali capital)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "羊苴咩城为大理国都。965 年大理遣使向北宋贡方物，宋廷予以册封；1094 年权臣高升泰废段正明自立，国号大中国，1096 年高升泰死，其子高泰明遵遗命还政段氏，段正淳立，大理国进入后理国时期。原「大理—善阐」1096 年路线查无对应行军记录（善阐为大理国东京，但 1096 年无由大理赴善阐的军事行动），已删；1096 年事件由本段都城线覆盖。",
+          "en": "Yangjumie was the Dali capital. In 965 Dali sent envoys with tribute to the Northern Song, which granted investiture; in 1094 the minister Gao Shengtai deposed Duan Zhengming and proclaimed the Great China, and on his death in 1096 his son Gao Taiming restored the Duan house under Duan Zhengchun, beginning the Later Dali period. The former 1096 “Dali–Shanchan” route has no corresponding march (Shanchan was Dali’s eastern capital, but no 1096 movement from Dali to Shanchan is recorded) and has been removed; the 1096 event is now covered by this capital line."
         },
         "extensions": {
           "precision": "schematic"
@@ -215,8 +215,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            108.95,
-            34.27
+            106.28,
+            36
           ],
           [
             106.1,
@@ -226,17 +226,17 @@
       },
       "properties": {
         "entityId": "northern-song",
-        "startDate": "1040-01-01",
-        "endDate": "1040-03-31",
+        "startDate": "1041-02-01",
+        "endDate": "1041-03-31",
         "order": 7,
         "segmentType": "counterattack",
         "name": {
-          "zh": "西安—好水川",
-          "en": "Xi’an–Haoshuichuan"
+          "zh": "镇戎军—好水川（任福追击中伏）",
+          "en": "Zhenrongjun–Haoshuichuan (Ren Fu’s pursuit and ambush)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "庆历元年（1041）二月，元昊率十万众自天都山、折姜南下，沿瓦亭川直抵好水川，另遣偏师至怀远城诱敌。韩琦闻元昊谋寇渭州，急趋镇戎军，尽出守兵并募敢勇共一万八千人，命环庆路副都部署任福统率，令自镇戎军经怀远城、得胜寨至羊牧隆城出夏军之后。任福在怀远城、张家堡一带被诱，脱离辎重追击，二月十四日追至好水川，中伏大败，任福、桑怿等战死，士卒阵亡一万余人。原线起点作「西安」（今陕西西安），与战事无关，且日期误作 1040 年。路线为示意，怀远城、得胜寨、羊牧隆城只入正文。",
+          "en": "In the second month of 1041 Li Yuanhao marched south from Tiandu shan and Zhejiang along the Wating river to Haoshuichuan, sending a detachment to feign an attack near Huaiyuan. Han Qi hurried to Zhenrongjun, turned out its garrison and raised 18,000 men under Ren Fu, ordering him to march via Huaiyuan and Desheng to Yangmulong and fall on the enemy’s rear. Ren Fu was lured forward at Huaiyuan and Zhangjiabao, abandoned his baggage and was caught at Haoshuichuan on 14 February; he and Sang Yi were killed and over 10,000 men died. The former line began at “Xi’an” (modern Xi’an city), unrelated to the campaign, and was dated 1040. The line is schematic; Huaiyuan, Desheng and Yangmulong appear only in the text."
         },
         "extensions": {
           "precision": "schematic"
@@ -389,45 +389,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            100.2,
-            25.6
-          ],
-          [
-            101.5,
-            25.3
-          ],
-          [
-            102.7,
-            25.0
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "dali",
-        "startDate": "1096-01-01",
-        "endDate": "1096-12-31",
-        "order": 12,
-        "segmentType": "other",
-        "name": {
-          "zh": "大理—善阐",
-          "en": "Dali–Shanchan"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            119.0,
+            119,
             41.6
           ],
           [
@@ -467,22 +429,26 @@
           [
             119.4,
             29.5
+          ],
+          [
+            119.04,
+            29.61
           ]
         ]
       },
       "properties": {
         "entityId": "northern-song",
-        "startDate": "1120-09-01",
-        "endDate": "1120-10-31",
+        "startDate": "1120-10-01",
+        "endDate": "1121-04-30",
         "order": 14,
         "segmentType": "counterattack",
         "name": {
-          "zh": "杭州—睦州",
-          "en": "Hangzhou–Muzhou"
+          "zh": "杭州—睦州—青溪（方腊之乱与官军进剿）",
+          "en": "Hangzhou–Muzhou–Qingxi (Fang La’s revolt and the Song counter-offensive)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "宣和二年（1120）十月初九方腊起于睦州青溪帮源洞，十一月息坑大捷，十二月克睦州、歙州并攻入杭州；宣和三年（1121）正月童贯、谭稹率十五万南下，分王禀（自杭州趋睦州）、刘镇（趋歙州）两路，二月围杭州、三月复睦州与青溪、四月破帮源洞擒方腊。本段为整个战事的轴线，杭州—睦州—青溪三点依次对应官军反攻方向；原线作 1120 年九月杭州—睦州，方向与日期均误。路线为示意。",
+          "en": "On 9 October 1120 Fang La rose at Bangyuan cave in Qingxi, Muzhou; after the Xikeng victory in November he took Muzhou and Shezhou in the twelfth month and entered Hangzhou. In the first month of 1121 Tong Guan and Tan Zhen led 150,000 men south in two columns under Wang Bing (Hangzhou to Muzhou) and Liu Zhen (to Shezhou); Hangzhou was besieged in the second month, Muzhou and Qingxi recovered in the third and Bangyuan cave broken in the fourth with Fang La captured. The segment is the axis of the whole war, its three points following the government counter-offensive; the former line ran Hangzhou–Muzhou in the ninth month of 1120, wrong in both direction and date. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -495,7 +461,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            119.0,
+            119,
             41.6
           ],
           [
@@ -533,7 +499,7 @@
             38.49
           ],
           [
-            110.0,
+            110,
             39.5
           ],
           [
@@ -643,7 +609,7 @@
             32.06
           ],
           [
-            119.0,
+            119,
             32.15
           ]
         ]
@@ -745,7 +711,7 @@
             30.6
           ],
           [
-            114.0,
+            114,
             33.6
           ]
         ]
@@ -915,8 +881,8 @@
             47.5
           ],
           [
-            108.0,
-            43.0
+            108,
+            43
           ],
           [
             106.23,
@@ -949,8 +915,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            110.0,
-            42.0
+            106.5,
+            47.5
           ],
           [
             114.9,
@@ -960,17 +926,17 @@
       },
       "properties": {
         "entityId": "mongol-yuan",
-        "startDate": "1211-06-01",
+        "startDate": "1211-03-01",
         "endDate": "1211-08-31",
         "order": 28,
         "segmentType": "advance",
         "name": {
-          "zh": "草原—野狐岭",
-          "en": "Steppe–Yehuling"
+          "zh": "漠北—野狐岭（成吉思汗伐金）",
+          "en": "North of the desert–Yehuling (Chinggis Khan’s campaign against Jin)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1211 年三月，成吉思汗自漠北率军南下伐金，经汪古部领地入塞；七月与金军主力战于野狐岭（今河北万全北），金军大败，蒙古军随即南下围攻中都。原线起点作「草原」（约北纬 42°），与 1209 年攻西夏段相距 190km 而无前置；现改由漠北出发，与 1209 年出师地相接。路线为示意。",
+          "en": "In the third month of 1211 Chinggis Khan marched south from north of the desert against Jin, passing through Ongud territory; in the seventh month he destroyed the Jin main army at Yehuling (north of modern Wanquan, Hebei) and moved on to besiege Zhongdu. The former line began at a vague “steppe” point near 42°N, 190 km from the 1209 Western Xia campaign with no precedent; it now starts north of the desert, linking to the 1209 starting point. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -1021,8 +987,8 @@
             35.6
           ],
           [
-            106.0,
-            37.0
+            106,
+            37
           ],
           [
             106.23,
@@ -1090,7 +1056,7 @@
         "coordinates": [
           [
             114.35,
-            33.0
+            33
           ],
           [
             114.4,
@@ -1196,7 +1162,7 @@
           ],
           [
             106.3,
-            30.0
+            30
           ]
         ]
       },
@@ -1225,8 +1191,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            112.53,
-            33.0
+            112.16,
+            32.06
           ],
           [
             112.14,
@@ -1236,17 +1202,17 @@
       },
       "properties": {
         "entityId": "mongol-yuan",
-        "startDate": "1272-09-01",
+        "startDate": "1273-01-01",
         "endDate": "1273-03-31",
         "order": 36,
         "segmentType": "advance",
         "name": {
-          "zh": "南阳—襄阳",
-          "en": "Nanyang–Xiangyang"
+          "zh": "樊城—襄阳（回回炮破樊、迫降襄阳）",
+          "en": "Fancheng–Xiangyang (counterweight artillery takes Fancheng, Xiangyang surrenders)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "元军自 1267 年起围襄阳，筑堡于鹿门山、白河口断宋援，围城五年不下。至元十年（1273）正月，阿里海牙用西域亦思马因所献回回炮攻樊城，断襄樊浮桥，破城，守将范天顺自缢、牛富赴火死；二月移炮攻襄阳，一炮中谯楼，守将吕文焕出降。原线起点作「南阳」，查元军出兵与围城记载未见自南阳南下的行军，南阳为后方而非出兵地；现改为樊城—襄阳段，并记围城经过。路线为示意。",
+          "en": "The Mongols had besieged Xiangyang since 1267, building forts at Lumen shan and Baihekou to cut Song relief, but the city held for five years. In the first month of 1273 Ali Haya used the counterweight trebuchets of the Western Muslim Isma’il to break Fancheng after cutting the pontoon bridge; its commanders Fan Tianshun and Niu Fu died. In the second month the guns were turned on Xiangyang, a shot struck its drum tower and Lü Wenhuan surrendered. The former line began at Nanyang, but no record shows the Mongol army marching south from Nanyang, which was a rear base rather than a starting point; the segment is now Fancheng–Xiangyang with the siege described. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -1336,7 +1302,7 @@
           ],
           [
             113.1,
-            22.0
+            22
           ]
         ]
       },

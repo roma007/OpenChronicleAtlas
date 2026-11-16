@@ -9,7 +9,7 @@
     "date": "0960-02-02",
     "location": {
       "lng": 114.5,
-      "lat": 35.0,
+      "lat": 35,
       "place": {
         "zh": "河南陈桥驿",
         "en": "Chenqiao Post, Henan"
@@ -364,15 +364,15 @@
     "atlasId": "song-yuan",
     "name": {
       "zh": "好水川之战",
-      "en": "The Battle of Haoshuichuan"
+      "en": "Battle of Haoshuichuan"
     },
-    "date": "1040-02-01",
+    "date": "1041-02-01",
     "location": {
       "lng": 106.1,
       "lat": 35.6,
       "place": {
-        "zh": "宁夏好水川",
-        "en": "Haoshuichuan, Ningxia"
+        "zh": "宁夏隆德北好水川（今甜水河一带）",
+        "en": "Haoshuichuan north of Longde, Ningxia"
       }
     },
     "entityIds": [
@@ -384,40 +384,34 @@
       "en": "The Song army was ambushed by Western Xia forces at Haoshuichuan and suffered heavy losses."
     },
     "description": {
-      "zh": "1040 年，西夏李元昊率军南下，宋军任福部追击至好水川，被西夏军伏击，宋军大败。日期与经过为通行说法，待页码级核对。",
-      "en": "In 1040, Li Yuanhao of Western Xia led forces south. The Song commander Ren Fu pursued to Haoshuichuan and was ambushed, suffering a major defeat. Dates and details follow conventional accounts and await page-level verification."
+      "zh": "庆历元年（1041）二月，元昊率十万众自天都山、折姜南下，沿瓦亭川抵好水川设伏，另遣偏师至怀远城诱敌。韩琦命任福率一万八千人自镇戎军经怀远城、得胜寨趋羊牧隆城，出夏军之后；任福在张家堡被诱，脱离辎重追击，二月十四日在好水川中伏，宋军大败，任福、桑怿、武英、王珪等战死，士卒阵亡一万余人。旧数据作 1040 年，实为庆历元年（1041）二月。",
+      "en": "In the second month of 1041 Li Yuanhao marched south from Tiandu shan and Zhejiang along the Wating river and laid an ambush at Haoshuichuan, sending a detachment to lure the Song army at Huaiyuan. Han Qi ordered Ren Fu with 18,000 men from Zhenrongjun via Huaiyuan and Desheng towards Yangmulong to fall on the enemy’s rear; lured at Zhangjiabao, Ren Fu abandoned his baggage and was ambushed at Haoshuichuan on 14 February. The Song army was routed and Ren Fu, Sang Yi, Wu Ying and Wang Gui were killed with over 10,000 men. The old data dated the battle 1040; it was actually the second month of 1041."
     },
     "images": [],
     "sources": [
       {
-        "title": "《宋史》",
+        "title": "宋史·夏国传上",
         "author": "脱脱等",
-        "year": 1346,
-        "note": "宋代事件与人物参考，路线为示意简化"
+        "note": "庆历元年二月好水川之战"
       },
       {
-        "title": "《辽史》",
-        "author": "脱脱等",
-        "year": 1344,
-        "note": "辽代事件参考"
+        "title": "《续资治通鉴长编》卷一百三十一",
+        "author": "李焘",
+        "note": "韩琦命任福自镇戎军趋羊牧隆城"
       },
       {
-        "title": "《金史》",
-        "author": "脱脱等",
-        "year": 1344,
-        "note": "金代事件参考"
-      },
-      {
-        "title": "《元史》",
-        "author": "宋濂等",
-        "year": 1370,
-        "note": "蒙古与元代事件参考"
+        "title": "好水川之战",
+        "author": "维基百科",
+        "note": "1041 年二月、任福中伏、阵亡万余人"
       }
     ],
     "relatedIds": [
       "qingli-1044"
     ],
-    "importance": 3
+    "importance": 3,
+    "extensions": {
+      "locationPrecision": "approx"
+    }
   },
   {
     "id": "qingli-1044",
@@ -684,8 +678,8 @@
       "en": "The minister Gao Shengtai deposed Duan Zhengming and briefly founded the state of Dazhong."
     },
     "description": {
-      "zh": "1096 年，大理权臣高升泰废段正明，自立为帝，国号大中国；其后高氏还政段氏，大理国进入后理国时期。日期与经过为通行说法，待页码级核对。",
-      "en": "In 1096, the Dali minister Gao Shengtai deposed Duan Zhengming and proclaimed himself emperor of Dazhong. The Gao family later returned power to the Duan, beginning the Later Dali period. Dates and details follow conventional accounts and await page-level verification."
+      "zh": "1094 年大理权臣高升泰废段正明自立，国号大中国；1096 年高升泰死，其子高泰明遵遗命还政段氏，迎段正淳立，大理国进入后理国时期。此后高氏世为相国，分治善阐等府，形成国都羊苴咩城与东京善阐并重的格局。",
+      "en": "In 1094 the Dali minister Gao Shengtai deposed Duan Zhengming and proclaimed the Great China; on his death in 1096 his son Gao Taiming restored the Duan house and enthroned Duan Zhengchun, beginning the Later Dali period. The Gao family then held the chancellorship hereditarily and governed Shanchan and other fu, giving the realm two centres, the capital Yangjumie and the eastern capital Shanchan."
     },
     "images": [],
     "sources": [
@@ -804,8 +798,8 @@
       "en": "Fang La rose at Muzhou and captured several prefectures in Jiangnan."
     },
     "description": {
-      "zh": "1120 年，方腊在睦州青溪起义，以摩尼教组织民众，攻占杭州等地，宋廷调军镇压。日期与经过为通行说法，待页码级核对。",
-      "en": "In 1120, Fang La rose in Qingxi, Muzhou, organized followers through Manichaeism, and captured Hangzhou and other places before the Song court sent troops to suppress the rebellion. Dates and details follow conventional accounts and await page-level verification."
+      "zh": "宣和二年（1120）十月初九，方腊在睦州青溪县帮源洞起事，以诛朱勔为名，数日聚众数万。十一月二十二日在青溪息坑全歼两浙路常驻官军五千人，十二月克睦州、歙州，二十九日攻入杭州。宋廷以童贯为江淮荆浙宣抚使，率十五万禁军及西北蕃汉兵南下，宣和三年（1121）二月围杭州、三月复睦州与青溪、四月破帮源洞，方腊被擒，八月伏诛。",
+      "en": "On 9 October 1120 Fang La rose at Bangyuan cave in Qingxi, Muzhou, in the name of punishing Zhu Mian, gathering tens of thousands within days. On 22 November he destroyed the 5,000-strong standing army of Liangzhe at Xikeng, took Muzhou and Shezhou in the twelfth month and entered Hangzhou on the 29th. The court sent Tong Guan south with 150,000 men; Hangzhou was besieged in the second month of 1121, Muzhou and Qingxi recovered in the third and Bangyuan cave broken in the fourth, Fang La being captured and executed in the eighth month."
     },
     "images": [],
     "sources": [
@@ -1088,7 +1082,7 @@
     },
     "date": "1130-04-01",
     "location": {
-      "lng": 119.0,
+      "lng": 119,
       "lat": 32.15,
       "place": {
         "zh": "江苏黄天荡",
@@ -1268,7 +1262,7 @@
     },
     "date": "1140-07-01",
     "location": {
-      "lng": 114.0,
+      "lng": 114,
       "lat": 33.6,
       "place": {
         "zh": "河南郾城",
@@ -1704,8 +1698,8 @@
       "en": "Genghis Khan defeated the Jin army at Yehuling."
     },
     "description": {
-      "zh": "1211 年，成吉思汗率蒙古军南下攻金，在野狐岭击溃金军主力，为蒙古深入华北打开通道。日期与路线为通行说法，待页码级核对。",
-      "en": "In 1211, Genghis Khan led the Mongols south against Jin and routed the main Jin army at Yehuling, opening the way into North China. Dates and routes follow conventional accounts and await page-level verification."
+      "zh": "1211 年三月，成吉思汗自漠北率军南下伐金，经汪古部领地入塞。七月，蒙古军在野狐岭（今河北万全北）大破金军主力，金军精锐丧失殆尽；蒙古军随即南下，1215 年攻占中都。",
+      "en": "In the third month of 1211 Chinggis Khan marched south from north of the desert against Jin through Ongud territory. In the seventh month the Mongol army destroyed the Jin main force at Yehuling (north of modern Wanquan, Hebei), wiping out its best troops; the Mongols then moved south and took Zhongdu in 1215."
     },
     "images": [],
     "sources": [
@@ -1929,7 +1923,7 @@
     "date": "1234-02-01",
     "location": {
       "lng": 114.35,
-      "lat": 33.0,
+      "lat": 33,
       "place": {
         "zh": "河南蔡州",
         "en": "Caizhou, Henan"
@@ -2169,7 +2163,7 @@
     "date": "1259-07-01",
     "location": {
       "lng": 106.3,
-      "lat": 30.0,
+      "lat": 30,
       "place": {
         "zh": "重庆钓鱼城",
         "en": "Diaoyucheng, Chongqing"
@@ -2244,8 +2238,8 @@
       "en": "Yuan forces captured Xiangyang, collapsing the Southern Song’s middle Yangtze defense."
     },
     "description": {
-      "zh": "1273 年，元军长期围困襄阳，使用回回炮攻破樊城、襄阳，南宋长江中游门户洞开。日期与经过为通行说法，待页码级核对。",
-      "en": "In 1273, Yuan forces broke the long siege of Xiangyang, using counterweight trebuchets to take Fancheng and Xiangyang and opening the middle Yangtze to invasion. Dates and details follow conventional accounts and await page-level verification."
+      "zh": "蒙古军自 1267 年起围襄阳，筑堡于鹿门山、白河口断宋援，围城五年不下。至元十年（1273）正月，阿里海牙用回回炮攻破樊城，守将范天顺自缢、牛富赴火死；二月移炮攻襄阳，一炮中谯楼，守将吕文焕出降。襄阳既失，元军顺汉水入江，南宋江防随之崩溃。",
+      "en": "The Mongols besieged Xiangyang from 1267, building forts at Lumen shan and Baihekou to cut Song relief, but the city held for five years. In the first month of 1273 Ali Haya’s counterweight trebuchets broke Fancheng, where Fan Tianshun and Niu Fu died; in the second month the guns were turned on Xiangyang, a shot struck its drum tower and Lü Wenhuan surrendered. With Xiangyang lost the Yuan fleets entered the Yangtze and the Song river defences collapsed."
     },
     "images": [],
     "sources": [
@@ -2469,7 +2463,7 @@
     "date": "1279-03-01",
     "location": {
       "lng": 113.1,
-      "lat": 22.0,
+      "lat": 22,
       "place": {
         "zh": "广东崖山",
         "en": "Yamen, Guangdong"
@@ -2518,5 +2512,189 @@
       "linan-1276"
     ],
     "importance": 3
+  },
+  {
+    "id": "zhenrong-1041",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "韩琦赴镇戎军调兵",
+      "en": "Han Qi mobilises at Zhenrongjun"
+    },
+    "date": "1041-02-01",
+    "location": {
+      "lng": 106.28,
+      "lat": 36,
+      "place": {
+        "zh": "宁夏固原（宋镇戎军）",
+        "en": "Guyuan, Ningxia (Song Zhenrongjun)"
+      }
+    },
+    "entityIds": [
+      "northern-song"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "韩琦闻元昊谋寇渭州，急趋镇戎军调兵万八千人付任福。",
+      "en": "Han Qi hurried to Zhenrongjun and gave Ren Fu 18,000 men against Li Yuanhao."
+    },
+    "description": {
+      "zh": "庆历元年（1041）二月，韩琦巡边至高平，闻元昊阅兵折姜、谋寇渭州，急趋镇戎军，尽出守兵并募敢勇共一万八千人，命环庆路副都部署任福统率，令自镇戎军经怀远城、得胜寨至羊牧隆城出夏军之后，并再三戒其持重。任福轻进，遂有好水川之败。",
+      "en": "In the second month of 1041 Han Qi, on the frontier at Gaoping, learned that Li Yuanhao was massing at Zhejiang for an attack on Weizhou. He hurried to Zhenrongjun, turned out the garrison and raised 18,000 men under Ren Fu, ordering him to march via Huaiyuan and Desheng to Yangmulong and strike the enemy’s rear, warning him repeatedly to be cautious. Ren Fu advanced rashly and was destroyed at Haoshuichuan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "宋史·任福传",
+        "author": "脱脱等",
+        "note": "韩琦尽出镇戎兵万八千人付任福"
+      },
+      {
+        "title": "《续资治通鉴长编》卷一百三十一",
+        "author": "李焘",
+        "note": "庆历元年二月己丑韩琦趋镇戎军"
+      }
+    ],
+    "relatedIds": [
+      "haoshuichuan-1040"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fangla-hangzhou-1120",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "方腊攻占杭州",
+      "en": "Fang La takes Hangzhou"
+    },
+    "date": "1120-12-29",
+    "location": {
+      "lng": 120.15,
+      "lat": 30.27,
+      "place": {
+        "zh": "浙江杭州",
+        "en": "Hangzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "northern-song"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "方腊军攻入杭州，杀两浙路制置使陈建、廉访使赵约。",
+      "en": "Fang La’s army entered Hangzhou, killing the Liangzhe commissioner Chen Jian and the inspector Zhao Yue."
+    },
+    "description": {
+      "zh": "宣和二年（1120）十二月，方腊军自睦州、歙州东进，攻克富阳、新城，二十九日进逼杭州。知州赵霆弃城走，义军入城，杀两浙路制置使陈建、廉访使赵约，纵火六日。杭州既失，东南震动，宋廷急命童贯率十五万军南下。",
+      "en": "In the twelfth month of 1120 Fang La’s army moved east from Muzhou and Shezhou, took Fuyang and Xincheng and closed on Hangzhou on the 29th. Governor Zhao Ting fled, the rebels entered and killed the Liangzhe commissioner Chen Jian and inspector Zhao Yue, burning the city for six days. With Hangzhou lost the south-east was shaken and the court sent Tong Guan south with 150,000 men."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "青溪寇轨",
+        "author": "方勺",
+        "note": "十二月二十九日进逼杭州，知州赵霆弃城走"
+      },
+      {
+        "title": "宋史·方腊传",
+        "author": "脱脱等",
+        "note": "陷杭州，杀制置使陈建、廉访使赵约"
+      }
+    ],
+    "relatedIds": [
+      "fangla-1120"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "bangyuandong-1121",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "帮源洞之战",
+      "en": "Battle of Bangyuan cave"
+    },
+    "date": "1121-04-24",
+    "location": {
+      "lng": 119.04,
+      "lat": 29.61,
+      "place": {
+        "zh": "浙江淳安（青溪）帮源洞",
+        "en": "Bangyuan cave, Chun’an (Qingxi), Zhejiang"
+      }
+    },
+    "entityIds": [
+      "northern-song"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "宋军合围帮源洞，方腊被擒，起义失败。",
+      "en": "The Song army closed on Bangyuan cave, captured Fang La and ended the revolt."
+    },
+    "description": {
+      "zh": "宣和三年（1121）四月，王禀自睦州、刘镇自歙州合围青溪帮源洞。二十四日官军自洞后突入、纵火为号，前后夹击，义军战死七万余人；二十六日方腊及其妻、子、丞相方肥等五十二人被俘，七月解往汴京，八月伏诛。",
+      "en": "In the fourth month of 1121 Wang Bing from Muzhou and Liu Zhen from Shezhou closed on Bangyuan cave in Qingxi. On the 24th the Song troops broke in from the rear and lit fires as a signal, attacking from both sides; over 70,000 rebels died. On the 26th Fang La, his family and chancellor Fang Fei — 52 people — were captured, sent to Kaifeng in the seventh month and executed in the eighth."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "青溪寇轨",
+        "author": "方勺",
+        "note": "四月二十六日擒方腊于梓桐石坑"
+      },
+      {
+        "title": "宋史·韩世忠传",
+        "author": "脱脱等",
+        "note": "韩世忠问径捣穴，擒方腊"
+      }
+    ],
+    "relatedIds": [
+      "fangla-1120"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fancheng-1273",
+    "atlasId": "song-yuan",
+    "name": {
+      "zh": "樊城之战",
+      "en": "Battle of Fancheng"
+    },
+    "date": "1273-01-09",
+    "location": {
+      "lng": 112.16,
+      "lat": 32.06,
+      "place": {
+        "zh": "湖北襄阳樊城",
+        "en": "Fancheng, Xiangyang, Hubei"
+      }
+    },
+    "entityIds": [
+      "mongol-yuan"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "元军用回回炮破樊城，守将范天顺自缢、牛富赴火死。",
+      "en": "Yuan counterweight trebuchets broke Fancheng; Fan Tianshun and Niu Fu died."
+    },
+    "description": {
+      "zh": "至元十年（1273）正月，阿里海牙用西域亦思马因所献回回炮攻樊城，先断襄樊间浮桥，使襄阳不能援，水陆夹攻，破其城。守将范天顺自缢，牛富率死士巷战，身负重伤后赴火死。樊城既破，襄阳成孤城，二月吕文焕出降。",
+      "en": "In the first month of 1273 Ali Haya used the counterweight trebuchets of the Western Muslim Isma’il against Fancheng, first cutting the pontoon bridge so Xiangyang could not help, then attacking by land and water and breaking the city. Fan Tianshun hanged himself; Niu Fu fought in the streets with a hundred men and, badly wounded, threw himself into the flames. With Fancheng taken Xiangyang stood alone and Lü Wenhuan surrendered in the second month."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "元史·阿里海牙传",
+        "author": "宋濂等",
+        "note": "十年正月为炮攻樊，破之"
+      },
+      {
+        "title": "宋史·度宗纪",
+        "author": "脱脱等",
+        "note": "咸淳九年正月樊城陷"
+      }
+    ],
+    "relatedIds": [
+      "xiangyang-1273"
+    ],
+    "importance": 2
   }
 ]
