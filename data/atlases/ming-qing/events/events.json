@@ -748,7 +748,7 @@
     },
     "date": "1598-11-19",
     "location": {
-      "lng": 128.0,
+      "lng": 128,
       "lat": 34.9,
       "place": {
         "zh": "朝鲜露梁",
@@ -913,7 +913,7 @@
     },
     "date": "1616-01-01",
     "location": {
-      "lng": 125.0,
+      "lng": 125,
       "lat": 41.7,
       "place": {
         "zh": "辽宁赫图阿拉",
@@ -1089,7 +1089,7 @@
     "date": "1644-05-01",
     "location": {
       "lng": 119.75,
-      "lat": 40.0,
+      "lat": 40,
       "place": {
         "zh": "河北山海关",
         "en": "Shanhaiguan, Hebei"
@@ -1759,7 +1759,7 @@
     "date": "1662-02-01",
     "location": {
       "lng": 120.2,
-      "lat": 23.0,
+      "lat": 23,
       "place": {
         "zh": "台湾台南",
         "en": "Tainan, Taiwan"
@@ -2063,7 +2063,7 @@
     "date": "1673-12-01",
     "location": {
       "lng": 102.7,
-      "lat": 25.0,
+      "lat": 25,
       "place": {
         "zh": "云南昆明",
         "en": "Kunming, Yunnan"
@@ -2184,7 +2184,7 @@
     "date": "1683-07-01",
     "location": {
       "lng": 120.2,
-      "lat": 23.0,
+      "lat": 23,
       "place": {
         "zh": "台湾台南",
         "en": "Tainan, Taiwan"
@@ -2305,7 +2305,7 @@
     "date": "1683-10-03",
     "location": {
       "lng": 120.2,
-      "lat": 23.0,
+      "lat": 23,
       "place": {
         "zh": "台湾台南",
         "en": "Tainan, Taiwan"
@@ -2365,8 +2365,8 @@
     },
     "date": "1685-06-01",
     "location": {
-      "lng": 123.0,
-      "lat": 53.0,
+      "lng": 123,
+      "lat": 53,
       "place": {
         "zh": "黑龙江雅克萨",
         "en": "Albazin, Heilongjiang"
@@ -2426,7 +2426,7 @@
     "date": "1689-09-01",
     "location": {
       "lng": 116.6,
-      "lat": 52.0,
+      "lat": 52,
       "place": {
         "zh": "尼布楚",
         "en": "Nerchinsk"
@@ -2485,7 +2485,7 @@
     },
     "date": "1690-09-03",
     "location": {
-      "lng": 117.0,
+      "lng": 117,
       "lat": 42.5,
       "place": {
         "zh": "内蒙古克什克腾",
@@ -2607,7 +2607,7 @@
     },
     "date": "1696-06-12",
     "location": {
-      "lng": 105.0,
+      "lng": 105,
       "lat": 47.5,
       "place": {
         "zh": "蒙古昭莫多",
@@ -2909,7 +2909,7 @@
     },
     "date": "1747-01-01",
     "location": {
-      "lng": 102.0,
+      "lng": 102,
       "lat": 31.5,
       "place": {
         "zh": "四川金川",
@@ -3932,7 +3932,7 @@
     "date": "1867-01-06",
     "location": {
       "lng": 119.45,
-      "lat": 26.0,
+      "lat": 26,
       "place": {
         "zh": "福建马尾",
         "en": "Mawei, Fujian"
@@ -4780,7 +4780,7 @@
     },
     "date": "1894-09-17",
     "location": {
-      "lng": 123.0,
+      "lng": 123,
       "lat": 38.5,
       "place": {
         "zh": "黄海",
@@ -5770,7 +5770,7 @@
     "date": "1895-10-21",
     "location": {
       "lng": 120.2,
-      "lat": 23.0,
+      "lat": 23,
       "place": {
         "zh": "台湾台南",
         "en": "Tainan, Taiwan"
@@ -8694,5 +8694,420 @@
       "wuchang-1911"
     ],
     "importance": 3
+  },
+  {
+    "id": "seoul-1593",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "明军收复汉城",
+      "en": "Ming recovery of Hanseong"
+    },
+    "date": "1593-05-01",
+    "location": {
+      "lng": 126.98,
+      "lat": 37.57,
+      "place": {
+        "zh": "朝鲜汉城",
+        "en": "Hanseong, Korea"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军撤出汉城，明军与朝鲜军进驻。",
+      "en": "The Japanese withdrew from Hanseong and Ming and Korean troops entered."
+    },
+    "description": {
+      "zh": "万历二十一年（1593）正月明军平壤大捷后南下，四月日军因粮尽与议和撤出汉城，五月明军与朝鲜军进驻。此后双方在和谈与战事之间反复，至万历二十六年（1598）露梁海战方告结束。",
+      "en": "After the Ming victory at Pyongyang in the first month of 1593 the army moved south; in the fourth month the Japanese withdrew from Hanseong for lack of grain and to negotiate, and in the fifth month Ming and Korean troops entered. Negotiation and fighting alternated until the battle of Noryang in 1598."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "明史·朝鲜传",
+        "author": "张廷玉等",
+        "note": "万历二十一年正月平壤大捷、四月日军弃王京"
+      },
+      {
+        "title": "万历三大征考",
+        "author": "茅瑞征",
+        "note": "壬辰倭乱和谈与撤兵"
+      }
+    ],
+    "relatedIds": [
+      "imjin-war-1592",
+      "pyongyang-1593"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dashun-1644",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "李自成建大顺",
+      "en": "Li Zicheng proclaims the Dashun dynasty"
+    },
+    "date": "1644-01-01",
+    "location": {
+      "lng": 108.94,
+      "lat": 34.34,
+      "place": {
+        "zh": "陕西西安",
+        "en": "Xi’an, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "ming"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "李自成在西安称王，国号大顺，随即东征北京。",
+      "en": "Li Zicheng proclaimed the Dashun dynasty at Xi’an and marched east on Beijing."
+    },
+    "description": {
+      "zh": "崇祯十七年（1644）正月，李自成在西安称王，国号大顺，改元永昌，设置百官，随后率军东征，经太原、大同、宣府、居庸关，三月十九日攻入北京。",
+      "en": "In the first month of 1644 Li Zicheng took the royal title at Xi’an, proclaimed the Dashun dynasty with the era name Yongchang, appointed officials and marched east through Taiyuan, Datong, Xuanfu and Juyongguan, entering Beijing on 19 March."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "明史·李自成传",
+        "author": "张廷玉等",
+        "note": "崇祯十七年正月僭号于西安，国号大顺"
+      },
+      {
+        "title": "甲申传信录",
+        "author": "钱𠷓",
+        "note": "大顺军东征与入京"
+      }
+    ],
+    "relatedIds": [
+      "jiashen-1644"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "shengjing-chushi-1644",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "多尔衮自盛京出师",
+      "en": "Dorgon marches from Shengjing"
+    },
+    "date": "1644-04-09",
+    "location": {
+      "lng": 123.43,
+      "lat": 41.8,
+      "place": {
+        "zh": "盛京（今沈阳）",
+        "en": "Shengjing (Shenyang)"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "多尔衮率军自盛京出师，准备经山海关入关。",
+      "en": "Dorgon marched from Shengjing to enter China via Shanhaiguan."
+    },
+    "description": {
+      "zh": "顺治元年（1644）四月初九，多尔衮率满蒙汉军自盛京出师，原拟绕道入援；途中接吴三桂请兵书，遂直趋山海关，四月二十二日与吴三桂合兵击败李自成军，五月初二入北京。",
+      "en": "On 9 April 1644 Dorgon marched from Shengjing with Manchu, Mongol and Chinese troops; on the way he received Wu Sangui’s plea for help, headed for Shanhaiguan, joined Wu to defeat Li Zicheng on 22 April and entered Beijing on 2 May."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "清世祖实录",
+        "author": "清实录馆",
+        "note": "顺治元年四月多尔衮出师"
+      },
+      {
+        "title": "清史稿·多尔衮传",
+        "author": "赵尔巽等",
+        "note": "多尔衮入关经过"
+      }
+    ],
+    "relatedIds": [
+      "shanhaiguan-1644"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "wu-sangui-hengzhou-1678",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "吴三桂衡州称帝",
+      "en": "Wu Sangui proclaims himself emperor at Hengzhou"
+    },
+    "date": "1678-03-01",
+    "location": {
+      "lng": 112.6,
+      "lat": 26.9,
+      "place": {
+        "zh": "湖南衡州（今衡阳）",
+        "en": "Hengzhou (Hengyang), Hunan"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "吴三桂在衡州称帝，国号周，八月病死。",
+      "en": "Wu Sangui proclaimed the Zhou dynasty at Hengzhou and died in the eighth month."
+    },
+    "description": {
+      "zh": "康熙十七年（1678）三月，吴三桂在衡州称帝，国号周，改元昭武，置百官；八月病死，其孙吴世璠继位，退守云南，康熙二十年（1681）昆明破，三藩之乱平。",
+      "en": "In the third month of 1678 Wu Sangui proclaimed the Zhou dynasty at Hengzhou with the era name Zhaowu; he died in the eighth month, his grandson Wu Shifan succeeded and withdrew to Yunnan, and Kunming fell in 1681, ending the revolt."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "清史稿·吴三桂传",
+        "author": "赵尔巽等",
+        "note": "康熙十七年僭号于衡州"
+      },
+      {
+        "title": "圣武记",
+        "author": "魏源",
+        "note": "三藩之乱始末"
+      }
+    ],
+    "relatedIds": [
+      "sanfan-1673"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "aihun-chushi-1685",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "清军自瑷珲出师",
+      "en": "Qing army marches from Aihun"
+    },
+    "date": "1685-05-01",
+    "location": {
+      "lng": 127.5,
+      "lat": 50.2,
+      "place": {
+        "zh": "黑龙江瑷珲",
+        "en": "Aihun, Heilongjiang"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "清军自瑷珲出师，六月围攻雅克萨。",
+      "en": "The Qing army marched from Aihun and besieged Albazin in the sixth month."
+    },
+    "description": {
+      "zh": "康熙二十二年（1683）设黑龙江将军驻瑷珲，屯兵备边；二十四年（1685）五月清军自瑷珲出师，六月彭春、郎坦率军围攻雅克萨，俄军守将托尔布津降，清军毁城而还，俄军旋复据之。",
+      "en": "In 1683 the Heilongjiang command was established at Aihun to garrison the frontier; in the fifth month of 1685 the Qing army marched out, in the sixth month Peng Chun and Langtan besieged Albazin, its commander Tolbuzin surrendered, the Qing demolished the fort and withdrew, and the Russians soon reoccupied it."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "清史稿·郎坦传",
+        "author": "赵尔巽等",
+        "note": "康熙二十四年攻雅克萨"
+      },
+      {
+        "title": "平定罗刹方略",
+        "author": "清官修",
+        "note": "瑷珲驻军与雅克萨之役"
+      }
+    ],
+    "relatedIds": [
+      "albazin-1685"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jilong-1792",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "清军攻克济咙",
+      "en": "Qing army takes Gyirong"
+    },
+    "date": "1792-05-10",
+    "location": {
+      "lng": 85.3,
+      "lat": 28.38,
+      "place": {
+        "zh": "西藏济咙（今吉隆）",
+        "en": "Gyirong (Jilong), Tibet"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "福康安连克擦木、济咙，西藏全境收复。",
+      "en": "Fukanggan took Chamu and Gyirong, completing the recovery of Tibet."
+    },
+    "description": {
+      "zh": "乾隆五十七年（1792）五月六日福康安、海兰察冒雨分五路攻擦木山隘，初七日克之；初八日败济咙援军，初十日克济咙，斩六百余、俘二百余，西藏全境收复。随后清军越喜马拉雅山入廓尔喀境，八月廓尔喀请降。",
+      "en": "On 6 May 1792 Fukanggan and Hailanca attacked the Chamu pass in five columns during rain and took it on the 7th; on the 8th they beat the relief force from Gyirong and on the 10th took Gyirong, killing over 600 and capturing over 200, completing the recovery of Tibet. The army then crossed the Himalaya into Nepal and in the eighth month received Gorkha’s surrender."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "清史稿·福康安传",
+        "author": "赵尔巽等",
+        "note": "五月克擦木、济咙"
+      },
+      {
+        "title": "钦定廓尔喀纪略",
+        "author": "清官修",
+        "note": "擦木、济咙之战经过"
+      }
+    ],
+    "relatedIds": [
+      "gurkha-1792"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zuo-chujun-1876",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "西征军出关",
+      "en": "The western army marches through the pass"
+    },
+    "date": "1876-04-01",
+    "location": {
+      "lng": 103.83,
+      "lat": 36.06,
+      "place": {
+        "zh": "甘肃兰州",
+        "en": "Lanzhou, Gansu"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "左宗棠自兰州移驻肃州，刘锦棠率军出关收复新疆。",
+      "en": "Zuo Zongtang moved to Suzhou and Liu Jintang led the army through the pass to recover Xinjiang."
+    },
+    "description": {
+      "zh": "光绪元年（1875）五月清廷命左宗棠为钦差大臣督办新疆军务；二年（1876）四月左宗棠自兰州移驻肃州，刘锦棠率军出关，先克古牧地、乌鲁木齐，三年（1877）克达坂城、吐鲁番，阿古柏败死，四年（1878）正月除伊犁外新疆收复。",
+      "en": "In the fifth month of 1875 the court made Zuo Zongtang imperial commissioner for Xinjiang; in the fourth month of 1876 he moved from Lanzhou to Suzhou and Liu Jintang led the army through the pass, taking Gucheng and Ürümqi, then Dabancheng and Turpan in 1877 as Yaqub Beg fell, so that by the first month of 1878 Xinjiang except Ili was recovered."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "清史稿·左宗棠传",
+        "author": "赵尔巽等",
+        "note": "光绪元年督办新疆军务、二年出关"
+      },
+      {
+        "title": "左文襄公全集",
+        "author": "左宗棠",
+        "note": "西征部署与军饷"
+      }
+    ],
+    "relatedIds": [
+      "xinjiang-1878"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jiangzhe-lianjun-1911",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "江浙联军自镇江会攻南京",
+      "en": "Jiangsu–Zhejiang army musters at Zhenjiang"
+    },
+    "date": "1911-11-20",
+    "location": {
+      "lng": 119.45,
+      "lat": 32.2,
+      "place": {
+        "zh": "江苏镇江",
+        "en": "Zhenjiang, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "qing"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "江浙联军自镇江会攻南京，十二月二日克城。",
+      "en": "The Jiangsu–Zhejiang army advanced from Zhenjiang and took Nanjing on 2 December."
+    },
+    "description": {
+      "zh": "宣统三年（1911）十一月十三日江浙联军在镇江组建，推徐绍桢为总司令；十一月二十日起自镇江会攻南京，十二月二日攻克南京。",
+      "en": "On 13 November 1911 the Jiangsu–Zhejiang army was formed at Zhenjiang under Xu Shaozhen; from 20 November it advanced on Nanjing and took the city on 2 December."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "辛亥革命史",
+        "author": "章开沅、林增平",
+        "note": "江浙联军会攻南京"
+      },
+      {
+        "title": "中华民国史",
+        "author": "中国社会科学院近代史研究所",
+        "note": "南京光复经过"
+      }
+    ],
+    "relatedIds": [
+      "nanjing-1911"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "quanzhou-1674",
+    "atlasId": "ming-qing",
+    "name": {
+      "zh": "郑经入泉州",
+      "en": "Zheng Jing enters Quanzhou"
+    },
+    "date": "1674-06-01",
+    "location": {
+      "lng": 118.6,
+      "lat": 24.9,
+      "place": {
+        "zh": "福建泉州",
+        "en": "Quanzhou, Fujian"
+      }
+    },
+    "entityIds": [
+      "ming-zheng"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "郑经乘三藩之乱自厦门入泉州，据漳、潮等府。",
+      "en": "Zheng Jing entered Quanzhou from Xiamen amid the Three Feudatories revolt and held Zhangzhou and Chaozhou."
+    },
+    "description": {
+      "zh": "康熙十三年（1674）五月郑经乘三藩之乱自台湾返厦门，六月入泉州，随后据漳州、潮州等府；康熙十九年（1680）为清军所逐，退守台湾。",
+      "en": "In the fifth month of 1674, amid the Three Feudatories revolt, Zheng Jing returned from Taiwan to Xiamen and in the sixth month entered Quanzhou, going on to hold Zhangzhou and Chaozhou until driven back to Taiwan by the Qing in 1680."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "台湾外记",
+        "author": "江日升",
+        "note": "郑经乘三藩之乱入泉州"
+      },
+      {
+        "title": "清史稿·郑成功传",
+        "author": "赵尔巽等",
+        "note": "郑经福建用兵"
+      }
+    ],
+    "relatedIds": [
+      "zheng-jing-fujian-1674"
+    ],
+    "importance": 2
   }
 ]

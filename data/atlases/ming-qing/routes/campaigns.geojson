@@ -46,7 +46,7 @@
           ],
           [
             117.2,
-            36.0
+            36
           ],
           [
             118.8,
@@ -84,7 +84,7 @@
           ],
           [
             117.2,
-            36.0
+            36
           ],
           [
             116.4,
@@ -405,16 +405,16 @@
       "properties": {
         "entityId": "ming",
         "startDate": "1592-05-23",
-        "endDate": "1593-01-31",
+        "endDate": "1593-05-31",
         "order": 12,
         "segmentType": "advance",
         "name": {
-          "zh": "釜山—汉城",
-          "en": "Busan–Hanseong"
+          "zh": "釜山—汉城（壬辰倭乱前期）",
+          "en": "Busan–Hanseong (early Imjin War)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "万历二十年（1592）四月日军自釜山登陆，五月二十三日攻陷汉城，朝鲜八道几乎尽失；明廷以李如松为提督率军援朝，万历二十一年（1593）正月平壤大捷，四月日军因粮尽与议和撤出汉城，五月明军与朝鲜军进驻。原线止于 1593 年正月，线尾无后续；现延伸到明军收复汉城。路线为示意。",
+          "en": "In the fourth month of 1592 the Japanese landed at Busan and took Hanseong on 23 May, overrunning nearly all Korea; the Ming court sent Li Rusong with an army, won the battle of Pyongyang in the first month of 1593, and in the fourth month the Japanese withdrew from Hanseong for lack of grain and to negotiate, the Ming and Korean armies entering in the fifth month. The former line stopped in the first month of 1593 with no follow-through; it now runs to the recovery of Hanseong. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -461,7 +461,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            128.0,
+            128,
             34.9
           ],
           [
@@ -563,7 +563,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            125.0,
+            125,
             41.7
           ],
           [
@@ -597,7 +597,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            125.0,
+            125,
             41.7
           ],
           [
@@ -651,12 +651,12 @@
         "order": 19,
         "segmentType": "advance",
         "name": {
-          "zh": "西安—北京",
-          "en": "Xi’an–Beijing"
+          "zh": "西安—北京（李自成东征）",
+          "en": "Xi’an–Beijing (Li Zicheng’s eastward campaign)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "崇祯十六年（1643）十月李自成破潼关、占西安；十七年（1644）正月在西安称王，国号大顺，改元永昌，随即东征，经太原、大同、宣府、居庸关，三月十九日攻入北京，崇祯帝自缢。原线只作示意，线头西安无前置；现由「李自成建大顺」事件承接。路线为示意。",
+          "en": "In the tenth month of 1643 Li Zicheng broke through Tongguan and took Xi’an; in the first month of 1644 he proclaimed the Dashun dynasty at Xi’an with the era name Yongchang and marched east through Taiyuan, Datong, Xuanfu and Juyongguan, entering Beijing on 19 March as the Chongzhen emperor hanged himself. The former line was merely schematic with no precedent at Xi’an; the “Li Zicheng proclaims Dashun” event now supplies it. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -678,7 +678,7 @@
           ],
           [
             119.75,
-            40.0
+            40
           ]
         ]
       },
@@ -689,12 +689,12 @@
         "order": 20,
         "segmentType": "advance",
         "name": {
-          "zh": "盛京—山海关",
-          "en": "Shengjing–Shanhaiguan"
+          "zh": "盛京—山海关（多尔衮入关）",
+          "en": "Shengjing–Shanhaiguan (Dorgon enters China)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "顺治元年（1644）四月初九，多尔衮率满蒙汉军自盛京出师，拟经山海关入援；四月二十二日与吴三桂合兵在山海关击败李自成军，五月初二入北京。原线线头盛京无前置；现由「多尔衮自盛京出师」事件承接，线尾由「清军入关」事件承接。路线为示意。",
+          "en": "On 9 April 1644 Dorgon marched from Shengjing with Manchu, Mongol and Chinese troops intending to enter via Shanhaiguan; on 22 April he joined Wu Sangui to defeat Li Zicheng’s army at the pass and entered Beijing on 2 May. The former line had no precedent at Shengjing; the “Dorgon marches from Shengjing” event now supplies the head and the “Qing enters China” event the tail. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -1056,7 +1056,7 @@
           ],
           [
             120.2,
-            23.0
+            23
           ]
         ]
       },
@@ -1222,11 +1222,11 @@
         "coordinates": [
           [
             102.7,
-            25.0
+            25
           ],
           [
-            106.0,
-            26.0
+            106,
+            26
           ],
           [
             112.6,
@@ -1241,12 +1241,12 @@
         "order": 36,
         "segmentType": "counterattack",
         "name": {
-          "zh": "昆明—衡州",
-          "en": "Kunming–Hengzhou"
+          "zh": "昆明—衡州（吴三桂起兵与称帝）",
+          "en": "Kunming–Hengzhou (Wu Sangui’s revolt and proclamation)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "康熙十二年（1673）十一月吴三桂在昆明起兵，次年入湖南，占常德、长沙、岳州；康熙十七年（1678）三月在衡州称帝，国号周，改元昭武，八月病死，其孙吴世璠继，康熙二十年（1681）昆明破。原线线尾衡州无后续；现由「吴三桂衡州称帝」事件承接。路线为示意。",
+          "en": "In the eleventh month of 1673 Wu Sangui rose at Kunming, entered Hunan the next year and took Changde, Changsha and Yuezhou; in the third month of 1678 he proclaimed the Zhou dynasty at Hengzhou with the era name Zhaowu, died in the eighth month, and his grandson Wu Shifan held out until Kunming fell in 1681. The former line had no follow-through at Hengzhou; the “Wu Sangui proclaims himself emperor at Hengzhou” event now supplies it. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -1275,12 +1275,12 @@
         "order": 37,
         "segmentType": "advance",
         "name": {
-          "zh": "厦门—泉州",
-          "en": "Xiamen–Quanzhou"
+          "zh": "厦门—泉州（郑经反攻福建）",
+          "en": "Xiamen–Quanzhou (Zheng Jing’s Fujian campaign)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "康熙十三年（1674）五月郑经乘三藩之乱自台湾返厦门，六月入泉州，随后据漳州、潮州等府，至康熙十九年（1680）为清军所逐，退守台湾。原线线尾泉州无后续；现由「郑经入泉州」事件承接。路线为示意。",
+          "en": "In the fifth month of 1674, amid the Three Feudatories revolt, Zheng Jing returned from Taiwan to Xiamen and in the sixth month entered Quanzhou, going on to hold Zhangzhou and Chaozhou until driven back to Taiwan by the Qing in 1680. The former line had no follow-through at Quanzhou; the “Zheng Jing enters Quanzhou” event now supplies it. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -1302,7 +1302,7 @@
           ],
           [
             120.2,
-            23.0
+            23
           ]
         ]
       },
@@ -1366,7 +1366,7 @@
         "coordinates": [
           [
             120.2,
-            23.0
+            23
           ],
           [
             120.21,
@@ -1403,12 +1403,12 @@
             50.2
           ],
           [
-            125.0,
+            125,
             51.5
           ],
           [
-            123.0,
-            53.0
+            123,
+            53
           ]
         ]
       },
@@ -1419,12 +1419,12 @@
         "order": 41,
         "segmentType": "advance",
         "name": {
-          "zh": "瑷珲—雅克萨",
-          "en": "Aihui–Albazin"
+          "zh": "瑷珲—雅克萨（第一次雅克萨之战）",
+          "en": "Aihun–Albazin (first Albazin campaign)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "康熙二十二年（1683）设黑龙江将军驻瑷珲，屯兵备边；二十四年（1685）五月清军自瑷珲出师，六月彭春、郎坦率军围攻雅克萨，俄军守将托尔布津降，清军毁城而还。原线线头瑷珲 715km 内无路线与事件；现由「清军自瑷珲出师」事件承接。路线为示意。",
+          "en": "In 1683 the Heilongjiang command was set up at Aihun to garrison the frontier; in the fifth month of 1685 the Qing army marched from Aihun and in the sixth month Peng Chun and Langtan besieged Albazin, whose commander Tolbuzin surrendered; the Qing demolished the fort and withdrew. The former line had no route or event within 715 km of Aihun; the “Qing army marches from Aihun” event now supplies it. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -1441,12 +1441,12 @@
             39.9
           ],
           [
-            119.0,
-            45.0
+            119,
+            45
           ],
           [
             116.6,
-            52.0
+            52
           ]
         ]
       },
@@ -1479,7 +1479,7 @@
             39.9
           ],
           [
-            117.0,
+            117,
             42.5
           ]
         ]
@@ -1547,7 +1547,7 @@
             39.9
           ],
           [
-            105.0,
+            105,
             47.5
           ]
         ]
@@ -1717,11 +1717,11 @@
             30.67
           ],
           [
-            103.0,
-            31.0
+            103,
+            31
           ],
           [
-            102.0,
+            102,
             31.5
           ]
         ]
@@ -1755,8 +1755,8 @@
             39.9
           ],
           [
-            105.0,
-            42.0
+            105,
+            42
           ],
           [
             81.3,
@@ -1827,7 +1827,7 @@
             43.9
           ],
           [
-            78.0,
+            78,
             41.5
           ],
           [
@@ -1899,28 +1899,32 @@
             29.65
           ],
           [
-            88.5,
-            28.8
+            88.88,
+            29.27
           ],
           [
-            85.98,
-            28.16
+            87.12,
+            28.66
+          ],
+          [
+            85.3,
+            28.38
           ]
         ]
       },
       "properties": {
         "entityId": "qing",
-        "startDate": "1792-06-01",
-        "endDate": "1792-09-30",
+        "startDate": "1792-02-17",
+        "endDate": "1792-08-31",
         "order": 55,
         "segmentType": "advance",
         "name": {
-          "zh": "拉萨—聂拉木",
-          "en": "Lhasa–Nyalam"
+          "zh": "拉萨—日喀则—定日—济咙（福康安反击廓尔喀）",
+          "en": "Lhasa–Shigatse–Tingri–Gyirong (Fukanggan’s counter-offensive)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "乾隆五十七年（1792）正月成德收复聂拉木，二月全境廓清；二月十七日福康安自拉萨启程，经浪卡子、江孜，二十七日至日喀则，闰四月二十七日至定日，五月六日攻擦木、初十日克济咙，西藏全境收复，随后越喜马拉雅山入廓尔喀境，八月受降。原线作拉萨—聂拉木 1792 年六月，把 2 月已收复的聂拉木当作终点，方向与时间均误；现改为福康安实际进军路线。路线为示意。",
+          "en": "In the first month of 1792 Chengde recovered Nyalam and cleared the border by the second; on 17 February Fukanggan left Lhasa via Nagarze and Gyantse, reaching Shigatse on the 27th, Tingri on the 27th of the intercalary fourth month, taking Chamu on 6 May and Gyirong on the 10th, completing the recovery of Tibet; he then crossed the Himalaya into Nepal and accepted the surrender in the eighth month. The former line ran Lhasa–Nyalam in the sixth month of 1792, treating Nyalam — recovered in February — as the goal, wrong in both direction and date; it now follows Fukanggan’s actual advance. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -1937,7 +1941,7 @@
             39.9
           ],
           [
-            117.0,
+            117,
             40.5
           ],
           [
@@ -2282,7 +2286,7 @@
           ],
           [
             119.45,
-            26.0
+            26
           ]
         ]
       },
@@ -2312,7 +2316,7 @@
         "coordinates": [
           [
             119.45,
-            26.0
+            26
           ],
           [
             119.44,
@@ -2433,12 +2437,12 @@
         "order": 70,
         "segmentType": "advance",
         "name": {
-          "zh": "兰州—乌鲁木齐",
-          "en": "Lanzhou–Urumqi"
+          "zh": "兰州—乌鲁木齐（左宗棠收复新疆）",
+          "en": "Lanzhou–Ürümqi (Zuo Zongtang recovers Xinjiang)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "光绪元年（1875）五月清廷命左宗棠为钦差大臣督办新疆军务；二年（1876）四月左宗棠自兰州移驻肃州，刘锦棠率军出关，先克古牧地、乌鲁木齐，三年（1877）克达坂城、吐鲁番，阿古柏败死，四年（1878）正月除伊犁外新疆收复。原线线头兰州无前置；现由「西征军出关」事件承接。路线为示意。",
+          "en": "In the fifth month of 1875 the court appointed Zuo Zongtang imperial commissioner for Xinjiang; in the fourth month of 1876 he moved from Lanzhou to Suzhou and Liu Jintang led the army through the pass, taking Gucheng and Ürümqi, then Dabancheng and Turpan in 1877 as Yaqub Beg fell, so that by the first month of 1878 Xinjiang except Ili was recovered. The former line had no precedent at Lanzhou; the “western army marches through the pass” event now supplies it. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -2520,7 +2524,7 @@
         "coordinates": [
           [
             119.45,
-            26.0
+            26
           ],
           [
             119.3,
@@ -2659,7 +2663,7 @@
             40.1
           ],
           [
-            123.0,
+            123,
             38.8
           ],
           [
@@ -2765,7 +2769,7 @@
             37.51
           ],
           [
-            123.0,
+            123,
             38.5
           ]
         ]
@@ -3080,7 +3084,7 @@
           ],
           [
             120.2,
-            23.0
+            23
           ]
         ]
       },
@@ -3117,7 +3121,7 @@
             24.9
           ],
           [
-            121.0,
+            121,
             24.8
           ]
         ]
@@ -3352,7 +3356,7 @@
         "coordinates": [
           [
             120.2,
-            23.0
+            23
           ],
           [
             120.21,
@@ -4277,7 +4281,7 @@
             30.67
           ],
           [
-            109.0,
+            109,
             30.5
           ],
           [
@@ -4837,12 +4841,12 @@
         "order": 140,
         "segmentType": "advance",
         "name": {
-          "zh": "镇江—南京",
-          "en": "Zhenjiang–Nanjing"
+          "zh": "镇江—南京（江浙联军会攻南京）",
+          "en": "Zhenjiang–Nanjing (Jiangsu–Zhejiang army takes Nanjing)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "宣统三年（1911）十一月十三日江浙联军在镇江组建，推徐绍桢为总司令，自镇江会攻南京；十一月二十日起进攻，十二月二日攻克南京。原线线头镇江无前置；现由「江浙联军自镇江会攻南京」事件承接。路线为示意。",
+          "en": "On 13 November 1911 the Jiangsu–Zhejiang army was formed at Zhenjiang under Xu Shaozhen and advanced on Nanjing; the attack began on 20 November and the city fell on 2 December. The former line had no precedent at Zhenjiang; the “army musters at Zhenjiang” event now supplies it. The line is schematic."
         },
         "extensions": {
           "precision": "schematic"
