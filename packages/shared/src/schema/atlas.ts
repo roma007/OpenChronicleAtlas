@@ -41,6 +41,18 @@ export const entitySchema = z
   })
   .passthrough();
 
+export const coverTextSchema = z
+  .object({
+    enTitle: z.string().optional(),
+    years: z.string().optional(),
+    keywords: z.string().optional(),
+    keywordsEn: z.string().optional(),
+    brand: z.string().optional(),
+    note: z.string().optional(),
+    noteEn: z.string().optional(),
+  })
+  .passthrough();
+
 export const manifestSchema = z
   .object({
     schemaVersion: z.string().regex(/^\d+\.\d+\.\d+$/, 'schemaVersion 应为 MAJOR.MINOR.PATCH'),
@@ -49,6 +61,7 @@ export const manifestSchema = z
     subtitle: localizedStringSchema.optional(),
     timeRange: z.object({ start: dateStringSchema, end: dateStringSchema }),
     cover: z.string().optional(),
+    coverText: coverTextSchema.optional(),
     description: localizedStringSchema.optional(),
     defaultView: z.object({
       center: z.tuple([
@@ -200,6 +213,7 @@ export const atlasSummarySchema = z
     title: localizedStringSchema,
     subtitle: localizedStringSchema.optional(),
     cover: z.string().optional(),
+    coverText: coverTextSchema.optional(),
     timeRange: z.object({ start: dateStringSchema, end: dateStringSchema }),
     tags: z.array(z.string()).optional(),
     path: z.string().min(1),

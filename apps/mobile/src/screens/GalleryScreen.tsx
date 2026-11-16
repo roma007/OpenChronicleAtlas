@@ -1,4 +1,4 @@
-import { resolveLocalized, tagLabel } from '@atlas/shared';
+import { resolveLocalized, tagLabel, type AtlasCoverText, type Locale } from '@atlas/shared';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { useEffect, useState } from 'react';
 import {
@@ -24,6 +24,163 @@ import { useI18n } from '../hooks/useI18n';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Gallery'>;
 
+
+function CoverOverlay({
+  coverText,
+  title,
+  locale,
+  width,
+}: {
+  coverText: AtlasCoverText;
+  title: string;
+  locale: Locale;
+  width: number;
+}) {
+  const unit = width / 100;
+  const detailed = Boolean(coverText.enTitle);
+  const note = locale === 'en' ? coverText.noteEn : coverText.note;
+  const size = (ratio: number, min: number, max: number) =>
+    Math.max(min, Math.min(max, unit * ratio));
+
+  return (
+    <View pointerEvents="none" style={StyleSheet.absoluteFill}>
+      {[0.95, 0.92, 0.85, 0.68, 0.38].map((opacity, index) => (
+        <View
+          key={index}
+          style={{
+            position: 'absolute',
+            top: 0,
+            bottom: 0,
+            left: `${index * 12}%`,
+            width: '12.5%',
+            backgroundColor: colors.parchment,
+            opacity,
+          }}
+        />
+      ))}
+
+      <View
+        style={{
+          position: 'absolute',
+          left: unit * 6.9,
+          right: unit * (detailed ? 12 : 18),
+          top: unit * 8.6,
+        }}
+      >
+        <Text
+          numberOfLines={1}
+          style={{
+            fontSize: size(detailed ? 8.6 : 9.4, detailed ? 22 : 26, detailed ? 40 : 46),
+            color: colors.ink,
+            fontWeight: '700',
+          }}
+        >
+          {title}
+        </Text>
+        {detailed ? (
+          <>
+            <Text
+              style={{
+                marginTop: unit * 1.6,
+                fontSize: size(2.15, 9, 13),
+                color: colors.inkSoft,
+                letterSpacing: unit * 0.1,
+              }}
+            >
+              {coverText.enTitle} · {coverText.years}
+            </Text>
+            {coverText.keywords ? (
+              <Text
+                style={{
+                  marginTop: unit * 2.2,
+                  fontSize: size(1.75, 9.5, 12),
+                  color: colors.inkSoft,
+                }}
+              >
+                {coverText.keywords}
+              </Text>
+            ) : null}
+            {coverText.keywordsEn ? (
+              <Text
+                style={{
+                  marginTop: unit * 1.1,
+                  fontSize: size(1.35, 8.5, 11),
+                  color: colors.inkSoft,
+                }}
+              >
+                {coverText.keywordsEn}
+              </Text>
+            ) : null}
+          </>
+        ) : (
+          <>
+            <Text
+              style={{
+                marginTop: unit * 1.8,
+                fontSize: size(2.5, 10, 15),
+                color: colors.inkSoft,
+                letterSpacing: unit * 0.14,
+              }}
+            >
+              {coverText.years}
+            </Text>
+            <Text
+              style={{
+                marginTop: unit * 2.2,
+                fontSize: size(1.45, 8.5, 12),
+                color: colors.inkSoft,
+              }}
+            >
+              {coverText.brand} · OpenChronicle Atlas
+            </Text>
+          </>
+        )}
+      </View>
+
+      {detailed ? (
+        <Text
+          style={{
+            position: 'absolute',
+            left: unit * 6.9,
+            bottom: unit * 6.4,
+            fontSize: size(1.15, 8.5, 11),
+            color: colors.inkSoft,
+            letterSpacing: unit * 0.08,
+          }}
+        >
+          OPENCHRONICLE ATLAS · 史迹 · 时空地图
+        </Text>
+      ) : (
+        <>
+          <View
+            style={{
+              position: 'absolute',
+              left: unit * 6.9,
+              right: unit * 10,
+              bottom: unit * 10.4,
+              height: StyleSheet.hairlineWidth,
+              backgroundColor: colors.ink + '26',
+            }}
+          />
+          {note ? (
+            <Text
+              style={{
+                position: 'absolute',
+                left: unit * 6.9,
+                bottom: unit * 6.2,
+                fontSize: size(1.15, 8, 10),
+                color: colors.inkSoft,
+              }}
+            >
+              {note}
+            </Text>
+          ) : null}
+        </>
+      )}
+    </View>
+  );
+}
+
 export function GalleryScreen({ navigation }: Props) {
   const index = useAtlasStore((state) => state.index);
   const loading = useAtlasStore((state) => state.loading);
@@ -38,6 +195,8 @@ export function GalleryScreen({ navigation }: Props) {
   const { locale, t } = useI18n();
   const { width } = useWindowDimensions();
   const columns = width >= 1000 ? 3 : width >= 680 ? 2 : 1;
+  const cardWidth =
+    (width - spacing.lg * 2 - spacing.lg * (columns - 1)) / columns;
   const [cleared, setCleared] = useState(false);
 
   useEffect(() => {
@@ -146,13 +305,23 @@ export function GalleryScreen({ navigation }: Props) {
               accessibilityLabel={title}
               onPress={() => navigation.navigate('Atlas', { atlasId: item.id })}
             >
-              {coverSource ? (
-                <Image source={coverSource} style={styles.cover} resizeMode="cover" />
-              ) : (
-                <View style={[styles.cover, styles.coverFallback]}>
-                  <Text style={styles.coverFallbackText}>{title.slice(0, 1)}</Text>
-                </View>
-              )}
+              <View style={styles.coverWrap}>
+                {coverSource ? (
+                  <Image source={coverSource} style={styles.cover} resizeMode="cover" />
+                ) : (
+                  <View style={[styles.cover, styles.coverFallback]}>
+                    <Text style={styles.coverFallbackText}>{title.slice(0, 1)}</Text>
+                  </View>
+                )}
+                {item.coverText ? (
+                  <CoverOverlay
+                    coverText={item.coverText}
+                    title={title}
+                    locale={locale}
+                    width={cardWidth}
+                  />
+                ) : null}
+              </View>
               <View style={styles.cardBody}>
                 <View style={styles.cardTitleRow}>
                   <Text style={styles.cardTitle}>{title}</Text>
@@ -265,7 +434,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: colors.ink + '14',
   },
-  cover: { width: '100%', aspectRatio: 16 / 9, backgroundColor: colors.parchmentDeep },
+  coverWrap: { width: '100%', aspectRatio: 16 / 9, overflow: 'hidden', backgroundColor: colors.parchmentDeep },
+  cover: { width: '100%', height: '100%' },
   coverFallback: { alignItems: 'center', justifyContent: 'center' },
   coverFallbackText: { fontSize: 48, color: colors.inkSoft, opacity: 0.3 },
   cardBody: { padding: spacing.lg, gap: spacing.sm },

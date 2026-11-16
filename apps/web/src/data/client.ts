@@ -11,7 +11,7 @@ export function dataUrl(relativePath: string): string {
 }
 
 export function fetchAtlasIndex() {
-  return loadAtlasIndex(dataUrl('index.json'));
+  return loadAtlasIndex(`${dataUrl('index.json')}?v=${__APP_VERSION__}`);
 }
 
 export function fetchAtlas(atlasId: string) {
@@ -19,5 +19,5 @@ export function fetchAtlas(atlasId: string) {
 }
 
 export function fetchSearchIndex() {
-  return loadSearchIndex(dataUrl('search-index.json'));
+  return loadSearchIndex(`${dataUrl('search-index.json')}?v=${__APP_VERSION__}`);
 }

@@ -24,6 +24,24 @@ export interface AtlasEntity {
   order?: number;
 }
 
+/** 封面上的文字版式，与封面图分离，由客户端叠加渲染 */
+export interface AtlasCoverText {
+  /** 英文专题名，存在时使用「详版」版式 */
+  enTitle?: string;
+  /** 年代，如 190—280 或 1934 — 1936 */
+  years?: string;
+  /** 中文关键词行 */
+  keywords?: string;
+  /** 英文关键词行 */
+  keywordsEn?: string;
+  /** 简版品牌行前缀，如「史迹 · 时空地图」 */
+  brand?: string;
+  /** 底部注记（中文） */
+  note?: string;
+  /** 底部注记（英文） */
+  noteEn?: string;
+}
+
 export interface AtlasManifest {
   schemaVersion: string;
   id: string;
@@ -31,6 +49,7 @@ export interface AtlasManifest {
   subtitle?: LocalizedString;
   timeRange: { start: DateString; end: DateString };
   cover?: string;
+  coverText?: AtlasCoverText;
   description?: LocalizedString;
   defaultView: { center: [number, number]; zoom: number };
   routes: string[];
@@ -49,6 +68,7 @@ export interface AtlasSummary {
   title: LocalizedString;
   subtitle?: LocalizedString;
   cover?: string;
+  coverText?: AtlasCoverText;
   timeRange: { start: DateString; end: DateString };
   tags?: string[];
   /** 相对 data/atlases 的 manifest 路径，如 long-march/manifest.json */

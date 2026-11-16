@@ -3,6 +3,20 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.80] - 2026-11-16
+
+### Changed
+- 封面图与文字彻底分离：11 张封面恢复为无字画作/照片；标题、年代、关键词、品牌与「示意图」注记改由新增的 `coverText` 字段驱动，在 Web 卡片与移动端列表上用真实文本叠加渲染，不再烘焙进图片。
+- 新增 `AtlasCoverText` 类型与 schema；manifest 与 `index.json` 补齐 `coverText`。
+- 移除卡片图上的年代胶囊：年代已在封面文字与正文出现，且与长标题、品牌行冲突。
+- 首页 `index.json` 请求加 `?v=<版本>`，发布后立即取新索引，避免 1 小时 HTTP 缓存继续显示旧封面。
+
+### Docs
+- `docs/conversations/2026-11-16-封面文字恢复.md` 补「封面图与文字分离」一节。
+- `data/atlases/ATTRIBUTION.md` 改为说明文字由客户端叠加、不写入图片。
+
+---
+
 ## [v1.0.79] - 2026-11-16
 
 ### Fixed

@@ -13,7 +13,7 @@
     "start": "1368-01-01",
     "end": "1912-02-12"
   },
-  "cover": "assets/cover-57bf9be4.jpg",
+  "cover": "assets/cover-cf10b61d.jpg",
   "description": {
     "zh": "1368 年朱元璋建立明朝，定都应天；1421 年明成祖迁都北京。1449 年土木堡之变后明朝转入守势，1571 年隆庆和议开放互市。1616 年努尔哈赤建立后金，1644 年清军入关，1683 年统一台湾，1689 年签订尼布楚条约，1755 年平定准噶尔。1840 年鸦片战争后清朝进入近代转型，1911 年辛亥革命爆发，1912 年清帝退位。\\n\\n> 本数据为示例初稿：路线为示意简化。2026-11-16 起按 C4 端点核查计划逐条核对线头线尾——汉城段补明军收复、西安段补大顺建号、盛京段补多尔衮出师、衡州段补吴三桂称帝、瑷珲段补出师、廓尔喀段改为福康安实际进军（拉萨—日喀则—定日—济咙）、兰州段补西征出关、镇江段补江浙联军、泉州段补郑经入泉；事件日期、地点与表述仍待史料校订；疆域面来自 World Empires 快照（基于 Seshat Cliopatria，CC BY 4.0）。",
     "en": "Zhu Yuanzhang founded the Ming in 1368 with its capital at Yingtian; the Yongle Emperor moved the capital to Beijing in 1421. After the Tumu crisis in 1449 the Ming shifted to defense, and the Longqing peace opened border markets in 1571. Nurhaci founded the Later Jin in 1616; Qing forces entered China in 1644, took Taiwan in 1683, signed the Treaty of Nerchinsk in 1689, and conquered the Dzungars in 1755. After the Opium War in 1840 the Qing entered a period of modern transformation; the 1911 Revolution led to the emperor’s abdication in 1912.\\n\\n> M89 illustrative draft: routes are simplified. From 16 November 2026 the C4 endpoint review checks each head and tail: Hanseong adds the Ming recovery, Xi’an the Dashun proclamation, Shengjing Dorgon’s march, Hengzhou Wu Sangui’s proclamation, Aihun the Qing march, the Nepal campaign follows Fukanggan’s actual advance (Lhasa–Shigatse–Tingri–Gyirong), Lanzhou the western army’s departure, Zhenjiang the Jiangsu–Zhejiang army, and Quanzhou Zheng Jing’s entry. Dates, places and wording still await historical review. Territory polygons come from World Empires snapshots based on Seshat Cliopatria (CC BY 4.0)."
@@ -83,5 +83,11 @@
     "海禁"
   ],
   "license": "CC-BY-4.0（疆域面含 Seshat Cliopatria 数据，CC BY 4.0；事件与路线为示意初稿）",
-  "updatedAt": "2026-11-16"
+  "updatedAt": "2026-11-16",
+  "coverText": {
+    "enTitle": "MING–QING",
+    "years": "1368—1912",
+    "keywords": "南京 · 北京 · 海禁 · 近代",
+    "keywordsEn": "Nanjing · Beijing · Maritime ban · Modernity"
+  }
 }
