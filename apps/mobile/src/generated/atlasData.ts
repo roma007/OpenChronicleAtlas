@@ -60,15 +60,15 @@ export const BUNDLED_TEXT: Record<string, BundledTextLoader> = {
 };
 
 export const BUNDLED_IMAGES: Record<string, number> = {
-  "anti-japanese-war/assets/cover.jpg": require("../../../../data/atlases/anti-japanese-war/assets/cover.jpg"),
-  "grand-canal/assets/cover.jpg": require("../../../../data/atlases/grand-canal/assets/cover.jpg"),
-  "long-march/assets/cover.jpg": require("../../../../data/atlases/long-march/assets/cover.jpg"),
-  "ming-qing/assets/cover.jpg": require("../../../../data/atlases/ming-qing/assets/cover.jpg"),
-  "song-yuan/assets/cover.jpg": require("../../../../data/atlases/song-yuan/assets/cover.jpg"),
-  "sui-tang/assets/cover.jpg": require("../../../../data/atlases/sui-tang/assets/cover.jpg"),
-  "three-kingdoms/assets/cover.jpg": require("../../../../data/atlases/three-kingdoms/assets/cover.jpg"),
-  "xi-lu-jun/assets/cover.jpg": require("../../../../data/atlases/xi-lu-jun/assets/cover.jpg"),
-  "xu-xiake/assets/cover.jpg": require("../../../../data/atlases/xu-xiake/assets/cover.jpg"),
-  "xuanzang/assets/cover.jpg": require("../../../../data/atlases/xuanzang/assets/cover.jpg"),
-  "zheng-he/assets/cover.jpg": require("../../../../data/atlases/zheng-he/assets/cover.jpg"),
+  "anti-japanese-war/assets/cover-9f9d9f95.jpg": require("../../../../data/atlases/anti-japanese-war/assets/cover-9f9d9f95.jpg"),
+  "grand-canal/assets/cover-089016a8.jpg": require("../../../../data/atlases/grand-canal/assets/cover-089016a8.jpg"),
+  "long-march/assets/cover-2cfe93b6.jpg": require("../../../../data/atlases/long-march/assets/cover-2cfe93b6.jpg"),
+  "ming-qing/assets/cover-57bf9be4.jpg": require("../../../../data/atlases/ming-qing/assets/cover-57bf9be4.jpg"),
+  "song-yuan/assets/cover-861a991e.jpg": require("../../../../data/atlases/song-yuan/assets/cover-861a991e.jpg"),
+  "sui-tang/assets/cover-23a36414.jpg": require("../../../../data/atlases/sui-tang/assets/cover-23a36414.jpg"),
+  "three-kingdoms/assets/cover-6b69d8a9.jpg": require("../../../../data/atlases/three-kingdoms/assets/cover-6b69d8a9.jpg"),
+  "xi-lu-jun/assets/cover-98c71b08.jpg": require("../../../../data/atlases/xi-lu-jun/assets/cover-98c71b08.jpg"),
+  "xu-xiake/assets/cover-a0160539.jpg": require("../../../../data/atlases/xu-xiake/assets/cover-a0160539.jpg"),
+  "xuanzang/assets/cover-a63fb3aa.jpg": require("../../../../data/atlases/xuanzang/assets/cover-a63fb3aa.jpg"),
+  "zheng-he/assets/cover-13e7fdb7.jpg": require("../../../../data/atlases/zheng-he/assets/cover-13e7fdb7.jpg"),
 };

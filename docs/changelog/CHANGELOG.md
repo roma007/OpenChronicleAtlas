@@ -3,6 +3,19 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.79] - 2026-11-16
+
+### Fixed
+- 封面改为带内容哈希的文件名（如 `cover-2cfe93b6.jpg`）：`1.0.78` 沿用 `cover.jpg`，Service Worker 的 `CacheFirst` 会命中旧图，已安装 PWA 的用户看不到恢复后的文字。manifest 与 `index.json` 已同步。
+
+### Changed
+- 数据版本 `2026-11-16-ba8c8a6f6ad0`；全仓版本由 `1.0.78` 升级为 `1.0.79`，构建号 `10079`。
+
+### Docs
+- `docs/conversations/2026-11-16-封面文字恢复.md` 补「绕过图片缓存」一节。
+
+---
+
 ## [v1.0.78] - 2026-11-16
 
 ### Fixed
