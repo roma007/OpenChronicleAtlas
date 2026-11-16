@@ -13,6 +13,7 @@ import {
   timelineEventMarkers,
   timeToRatio,
   toDateString,
+  type AtlasEvent,
   type Timeline as AtlasTimeline,
 } from '@atlas/shared';
 import { useEffect, useMemo, useRef, useState } from 'react';
@@ -134,6 +135,44 @@ export function Timeline() {
     );
   }, [dataset, filters, activeEntityIds, viewport]);
 
+  const eventNodes = useMemo(() => {
+    if (!dataset || !timeline) return [];
+    return applyEventFilters(dataset.events, filters)
+      .filter((event) => {
+        const start = eventStart(event);
+        return (
+          start >= timeline.start &&
+          start <= timeline.end &&
+          event.entityIds.some((id) => activeEntityIds.has(id))
+        );
+      })
+      .sort(
+        (a, b) => eventStart(a) - eventStart(b) || a.id.localeCompare(b.id),
+      );
+  }, [dataset, filters, activeEntityIds, timeline]);
+
+  const { previousEvent, nextEvent } = useMemo(() => {
+    let previous: AtlasEvent | undefined;
+    let next: AtlasEvent | undefined;
+    for (const event of eventNodes) {
+      const start = eventStart(event);
+      if (start < currentTime) {
+        if (!previous || start > eventStart(previous)) previous = event;
+      } else if (start > currentTime) {
+        next = event;
+        break;
+      }
+    }
+    return { previousEvent: previous, nextEvent: next };
+  }, [eventNodes, currentTime]);
+
+  const jumpToEvent = (event: AtlasEvent | undefined) => {
+    if (!event) return;
+    pause();
+    setCurrentTime(eventStart(event));
+    selectEvent(event.id);
+  };
+
   const ratio = viewport ? timeToRatio(currentTime, viewport) : 0;
   const dateValue = toDateString(currentTime);
 
@@ -155,6 +194,31 @@ export function Timeline() {
           >
             <Text style={styles.playIcon}>{playing ? '❚❚' : '▶'}</Text>
           </Pressable>
+
+          <View style={styles.eventNav}>
+            <Pressable
+              onPress={() => jumpToEvent(previousEvent)}
+              disabled={!previousEvent}
+              style={[styles.navButton, !previousEvent && styles.navButtonDisabled]}
+              accessibilityRole="button"
+              accessibilityLabel={t('event.previous')}
+              accessibilityHint={
+                previousEvent ? resolveLocalized(previousEvent.name, locale) : undefined
+              }
+            >
+              <Text style={styles.navButtonText}>‹</Text>
+            </Pressable>
+            <Pressable
+              onPress={() => jumpToEvent(nextEvent)}
+              disabled={!nextEvent}
+              style={[styles.navButton, !nextEvent && styles.navButtonDisabled]}
+              accessibilityRole="button"
+              accessibilityLabel={t('event.next')}
+              accessibilityHint={nextEvent ? resolveLocalized(nextEvent.name, locale) : undefined}
+            >
+              <Text style={styles.navButtonText}>›</Text>
+            </Pressable>
+          </View>
 
           <View style={styles.main}>
             <View style={styles.labelRow}>
@@ -336,6 +400,18 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   playIcon: { color: colors.parchment, fontSize: 13 },
+  eventNav: { flexDirection: 'row', gap: 4 },
+  navButton: {
+    width: 28,
+    height: 28,
+    borderRadius: 14,
+    borderWidth: 1,
+    borderColor: colors.ink + '26',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  navButtonDisabled: { opacity: 0.35 },
+  navButtonText: { fontSize: 14, lineHeight: 16, color: colors.inkSoft },
   main: { flex: 1 },
   labelRow: { flexDirection: 'row', justifyContent: 'space-between', gap: spacing.sm },
   dateLabel: { fontSize: 11, color: colors.ink, fontWeight: '600' },

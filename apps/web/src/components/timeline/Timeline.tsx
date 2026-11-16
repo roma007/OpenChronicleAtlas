@@ -14,6 +14,7 @@ import {
   timeToRatio,
   toDateString,
 } from '@atlas/shared';
+import type { AtlasEvent } from '@atlas/shared';
 import type { KeyboardEvent as ReactKeyboardEvent, PointerEvent as ReactPointerEvent } from 'react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { usePlayback } from '../../hooks/usePlayback';
@@ -101,6 +102,44 @@ export function Timeline() {
     );
     return latestEventAt(activeEvents, currentTime);
   }, [dataset, activeEntityIds, currentTime]);
+
+  const eventNodes = useMemo(() => {
+    if (!dataset || !timeline) return [];
+    return applyEventFilters(dataset.events, filters)
+      .filter((event) => {
+        const start = eventStart(event);
+        return (
+          start >= timeline.start &&
+          start <= timeline.end &&
+          event.entityIds.some((id) => activeEntityIds.has(id))
+        );
+      })
+      .sort(
+        (a, b) => eventStart(a) - eventStart(b) || a.id.localeCompare(b.id),
+      );
+  }, [dataset, filters, activeEntityIds, timeline]);
+
+  const { previousEvent, nextEvent } = useMemo(() => {
+    let previous: AtlasEvent | undefined;
+    let next: AtlasEvent | undefined;
+    for (const event of eventNodes) {
+      const start = eventStart(event);
+      if (start < currentTime) {
+        if (!previous || start > eventStart(previous)) previous = event;
+      } else if (start > currentTime) {
+        next = event;
+        break;
+      }
+    }
+    return { previousEvent: previous, nextEvent: next };
+  }, [eventNodes, currentTime]);
+
+  const jumpToEvent = (event: AtlasEvent | undefined) => {
+    if (!event) return;
+    pause();
+    setCurrentTime(eventStart(event));
+    selectEvent(event.id);
+  };
 
   const markers = useMemo(() => {
     if (!dataset || !viewport) return [];
@@ -212,6 +251,37 @@ export function Timeline() {
               {playing ? '❚❚' : '▶'}
             </span>
           </button>
+
+          <div className="flex shrink-0 items-center gap-1">
+            <button
+              type="button"
+              aria-label={t('event.previous')}
+              title={
+                previousEvent
+                  ? `${t('event.previous')}：${resolveLocalized(previousEvent.name, locale)}`
+                  : t('event.previous')
+              }
+              disabled={!previousEvent}
+              onClick={() => jumpToEvent(previousEvent)}
+              className="grid h-7 w-7 place-items-center rounded-full border border-ink/15 text-sm leading-none text-ink-soft transition hover:bg-ink/5 disabled:cursor-not-allowed disabled:opacity-35"
+            >
+              ‹
+            </button>
+            <button
+              type="button"
+              aria-label={t('event.next')}
+              title={
+                nextEvent
+                  ? `${t('event.next')}：${resolveLocalized(nextEvent.name, locale)}`
+                  : t('event.next')
+              }
+              disabled={!nextEvent}
+              onClick={() => jumpToEvent(nextEvent)}
+              className="grid h-7 w-7 place-items-center rounded-full border border-ink/15 text-sm leading-none text-ink-soft transition hover:bg-ink/5 disabled:cursor-not-allowed disabled:opacity-35"
+            >
+              ›
+            </button>
+          </div>
 
           <div className="min-w-0 flex-1">
             <div className="flex items-baseline justify-between gap-2 text-[11px]">
