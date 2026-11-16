@@ -32,26 +32,11 @@ Cliopatria 的边界来自历史地图的数字化与人工校订，属于**学�
 - 修改：筛选 Ming / Qing 面，映射到本项目实体，补充时段、标识与说明
 - 精度：学术估算，非精确国界
 
-## 封面图来源与许可
+## 封面图
 
-专题封面均为公有领域（Public Domain）或 CC0 的历史画作、老照片与实物照片，统一裁切为 16:9、缩放为 1600×900，并转为 JPEG。原图仅作构图裁切；封面上的专题标题、年代、关键词、OpenChronicle Atlas 标识与「示意图」注记由客户端按 `coverText` 字段叠加渲染，不写入图片。
+专题封面由项目负责人提供（豆包 AI 生成），由原始 2047×1152 统一缩放为 1600×900 JPEG。
 
-| 专题 | 封面 | 作者 / 来源 | 许可 |
-| --- | --- | --- | --- |
-| 三国 | 商喜《关羽擒将图》（明） | 故宫博物院藏；[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Shang_Xi,_Guan_Yu_Captures_General_Pang_De.JPG) | Public Domain |
-| 隋唐 | 阎立本《步辇图》（唐，宋摹本） | 故宫博物院藏；[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Emperor_Taizong_gives_an_audience_to_the_ambassador_of_Tibet.jpg) | Public Domain |
-| 宋元 | 张择端《清明上河图》虹桥段（北宋） | 故宫博物院藏；[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Along_the_River_During_the_Qingming_Festival_%28detail_of_original%29.jpg) | Public Domain |
-| 明清 | 徐扬等《乾隆南巡图》第四卷（清） | 大都会艺术博物馆；[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E6%B8%85_%E5%BE%90%E6%8F%9A%E7%AD%89_%E4%B9%BE%E9%9A%86%E5%8D%97%E5%B7%A1%E5%9C%96,_%E7%AC%AC%E5%9B%9B%E5%8D%B7%EF%B9%95%E9%BB%83%E6%B7%AE%E4%BA%A4%E6%B5%81-The_Qianlong_Emperor%27s_Southern_Inspection_Tour,_Scroll_Four-_The_Confluence_of_the_Huai_and_Yellow_Rivers_%28Qianlong_nanxun,_juan_si-_Huang_Huai_jiaoliu%29_MET_DP105279.jpg) | CC0 |
-| 郑和下西洋 | 郑和宝船模型（博物馆藏） | 摄影：Gary Todd；[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Zheng_He_Treasure_Ship_Model_%2815829289311%29.jpg) | CC0 |
-| 京杭大运河 | 「Peking end of world famous grand canal」（约 1900 年） | 美国国会图书馆；[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Peking_end_of_world_famous_grand_canal_LCCN2006691458.jpg) | Public Domain |
-| 徐霞客游记 | 石涛《黄山图》（清） | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Shitao02.jpg) | Public Domain |
-| 玄奘西行 | 《玄奘负笈图》（日本摹本） | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Xuanzang_w.jpg) | Public Domain |
-| 长征 | 九曲黄河第一湾（若尔盖草地） | 摄影：Zhangmoon618；[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E4%B9%9D%E6%9B%B2%E9%BB%84%E6%B2%B3%E7%AC%AC%E4%B8%80%E6%B9%BE1.JPG) | Public Domain |
-| 西路军 | 祁连山 | 摄影：Stefan Wagener；[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Qilian_landscape.jpg) | CC BY 2.0 |
-| 抗日战争 | 八路军在浮图峪长城作战（1938） | 摄影：沙飞；[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eighth_Route_Army_fighting_on_Futuyu_Great_Wall,_1938.jpg) | Public Domain |
-
-说明：
-
-- 长征封面为红军经过的草地地貌照片，不是历史现场照片；西路军封面为祁连山今貌。
-- 郑和封面为宝船模型照片，不是明代原物。
-- 封面只作版式装饰，事件、路线与结论仍以各专题正文和来源为准。
+- 封面为**示意插画**，不是历史照片或古代画作，人物、服饰、器物与场景不对应具体史实；
+- 图中右下角保留生成工具「豆包 AI 生成」水印；
+- 封面上的标题、年代、关键词与品牌文字由客户端按 `coverText` 字段叠加渲染，不写入图片；
+- 此前使用的公有领域画作/老照片封面已于 `1.0.81` 停用，来源记录保留在 git 历史与 CHANGELOG（`1.0.77`—`1.0.80`）。
