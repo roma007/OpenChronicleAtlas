@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { dataUrl } from '../data/client';
 import { Link } from 'react-router-dom';
 import { LanguageToggle } from '../components/layout/LanguageToggle';
 import { clearAppCaches, useCacheInfo } from '../hooks/useCacheInfo';
@@ -56,6 +57,19 @@ export function AboutPage() {
             <div className="flex justify-between gap-4">
               <dt className="text-ink-soft/60">{t('about.dataContract')}</dt>
               <dd className="font-medium text-ink">v1.1.0</dd>
+            </div>
+            <div className="flex justify-between gap-4">
+              <dt className="text-ink-soft/60">{t('about.sources')}</dt>
+              <dd className="font-medium text-ink">
+                <a
+                  href={dataUrl('ATTRIBUTION.md')}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="underline decoration-ink/20 underline-offset-2 hover:text-cinnabar"
+                >
+                  ATTRIBUTION
+                </a>
+              </dd>
             </div>
             <div className="flex justify-between gap-4">
               <dt className="text-ink-soft/60">{t('about.mapService')}</dt>

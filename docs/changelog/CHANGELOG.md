@@ -3,6 +3,22 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.77] - 2026-11-16
+
+### Changed
+- 11 个专题封面全部换为公有领域历史画作、老照片或实物照片：三国《关羽擒将图》、隋唐《步辇图》、宋元《清明上河图》、明清《乾隆南巡图》、郑和宝船模型、京杭大运河 1900 年老照片、徐霞客石涛《黄山图》、玄奘《负笈图》、长征若尔盖草地、西路军祁连山、抗战八路军浮图峪长城。
+- 封面统一裁切为 16:9、1600×900 JPEG，manifest 与 `index.json` 的 cover 改为 `assets/cover.jpg`；删除旧的 `cover.png` / `cover.svg`。
+- 西路军封面降饱和处理，贴近站内宣纸色调；长征、西路军、郑和封面在图注中说明为今貌或模型。
+
+### Added
+- `data/atlases/ATTRIBUTION.md` 新增「封面图来源与许可」表，逐张标注作者、馆藏、Commons 链接与许可。
+- 关于页新增「来源与许可」入口（`/data/atlases/ATTRIBUTION.md`）。
+
+### Docs
+- `docs/conversations/2026-11-16-专题封面换成历史画作.md`
+
+---
+
 ## [v1.0.76] - 2026-11-16
 
 ### Added
