@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom';
 import { dataUrl } from '../../data/client';
 import { useI18n } from '../../hooks/useI18n';
 
-const SCRIM =
-  'linear-gradient(90deg, rgba(243,234,217,0.96) 0%, rgba(243,234,217,0.9) 32%, rgba(243,234,217,0.62) 52%, rgba(243,234,217,0.18) 72%, rgba(243,234,217,0) 88%)';
-
 export function AtlasCard({ atlas }: { atlas: AtlasSummary }) {
   const { locale, t } = useI18n();
   const title = resolveLocalized(atlas.title, locale);
@@ -44,11 +41,9 @@ export function AtlasCard({ atlas }: { atlas: AtlasSummary }) {
 
         {coverText ? (
           <>
-            <div className="pointer-events-none absolute inset-0" style={{ background: SCRIM }} />
-
             {detailed ? (
               <>
-                <div className="absolute left-[6.9cqw] right-[14cqw] top-[8.6cqw]">
+                <div className="absolute left-[6.9cqw] right-[14cqw] top-[8.6cqw] [text-shadow:0_1px_2px_rgba(243,234,217,0.95),0_0_10px_rgba(243,234,217,0.85)]">
                   <h3 className={`font-serif ${detailedTitleSize} whitespace-nowrap font-semibold leading-none tracking-wide text-ink`}>
                     {title}
                   </h3>
@@ -66,13 +61,13 @@ export function AtlasCard({ atlas }: { atlas: AtlasSummary }) {
                     </p>
                   ) : null}
                 </div>
-                <p className="absolute bottom-[6.4cqw] left-[6.9cqw] font-serif text-[clamp(8.5px,1.15cqw,11px)] tracking-[0.1em] text-ink-soft/85">
+                <p className="absolute bottom-[6.4cqw] left-[6.9cqw] [text-shadow:0_1px_2px_rgba(243,234,217,0.95),0_0_10px_rgba(243,234,217,0.85)] font-serif text-[clamp(8.5px,1.15cqw,11px)] tracking-[0.1em] text-ink-soft/85">
                   OPENCHRONICLE ATLAS · 史迹 · 时空地图
                 </p>
               </>
             ) : (
               <>
-                <div className="absolute left-[6.9cqw] right-[18cqw] top-[8.6cqw]">
+                <div className="absolute left-[6.9cqw] right-[18cqw] top-[8.6cqw] [text-shadow:0_1px_2px_rgba(243,234,217,0.95),0_0_10px_rgba(243,234,217,0.85)]">
                   <h3 className={`font-serif ${simpleTitleSize} whitespace-nowrap font-semibold leading-none tracking-wide text-ink`}>
                     {title}
                   </h3>
@@ -86,7 +81,7 @@ export function AtlasCard({ atlas }: { atlas: AtlasSummary }) {
                 </div>
                 <div className="pointer-events-none absolute bottom-[10.4cqw] left-[6.9cqw] right-[10cqw] h-px bg-ink/15" />
                 {note ? (
-                  <p className="absolute bottom-[6.2cqw] left-[6.9cqw] font-serif text-[clamp(8.5px,1.15cqw,11px)] text-ink-soft/80">
+                  <p className="absolute bottom-[6.2cqw] left-[6.9cqw] [text-shadow:0_1px_2px_rgba(243,234,217,0.95),0_0_10px_rgba(243,234,217,0.85)] font-serif text-[clamp(8.5px,1.15cqw,11px)] text-ink-soft/80">
                     {note}
                   </p>
                 ) : null}

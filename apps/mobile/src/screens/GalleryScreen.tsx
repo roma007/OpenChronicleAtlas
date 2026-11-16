@@ -41,24 +41,14 @@ function CoverOverlay({
   const note = locale === 'en' ? coverText.noteEn : coverText.note;
   const size = (ratio: number, min: number, max: number) =>
     Math.max(min, Math.min(max, unit * ratio));
+  const shadow = {
+    textShadowColor: 'rgba(243,234,217,0.9)',
+    textShadowRadius: 8,
+    textShadowOffset: { width: 0, height: 1 },
+  };
 
   return (
     <View pointerEvents="none" style={StyleSheet.absoluteFill}>
-      {[0.95, 0.92, 0.85, 0.68, 0.38].map((opacity, index) => (
-        <View
-          key={index}
-          style={{
-            position: 'absolute',
-            top: 0,
-            bottom: 0,
-            left: `${index * 12}%`,
-            width: '12.5%',
-            backgroundColor: colors.parchment,
-            opacity,
-          }}
-        />
-      ))}
-
       <View
         style={{
           position: 'absolute',
@@ -72,6 +62,7 @@ function CoverOverlay({
           style={{
             fontSize: size(detailed ? 8.6 : 9.4, detailed ? 22 : 26, detailed ? 40 : 46),
             color: colors.ink,
+            ...shadow,
             fontWeight: '700',
           }}
         >
@@ -84,6 +75,7 @@ function CoverOverlay({
                 marginTop: unit * 1.6,
                 fontSize: size(2.15, 9, 13),
                 color: colors.inkSoft,
+                ...shadow,
                 letterSpacing: unit * 0.1,
               }}
             >
@@ -95,6 +87,7 @@ function CoverOverlay({
                   marginTop: unit * 2.2,
                   fontSize: size(1.75, 9.5, 12),
                   color: colors.inkSoft,
+                  ...shadow,
                 }}
               >
                 {coverText.keywords}
@@ -106,6 +99,7 @@ function CoverOverlay({
                   marginTop: unit * 1.1,
                   fontSize: size(1.35, 8.5, 11),
                   color: colors.inkSoft,
+                  ...shadow,
                 }}
               >
                 {coverText.keywordsEn}
@@ -119,6 +113,7 @@ function CoverOverlay({
                 marginTop: unit * 1.8,
                 fontSize: size(2.5, 10, 15),
                 color: colors.inkSoft,
+                ...shadow,
                 letterSpacing: unit * 0.14,
               }}
             >
@@ -129,6 +124,7 @@ function CoverOverlay({
                 marginTop: unit * 2.2,
                 fontSize: size(1.45, 8.5, 12),
                 color: colors.inkSoft,
+                ...shadow,
               }}
             >
               {coverText.brand} · OpenChronicle Atlas
@@ -145,6 +141,7 @@ function CoverOverlay({
             bottom: unit * 6.4,
             fontSize: size(1.15, 8.5, 11),
             color: colors.inkSoft,
+            ...shadow,
             letterSpacing: unit * 0.08,
           }}
         >
@@ -170,6 +167,7 @@ function CoverOverlay({
                 bottom: unit * 6.2,
                 fontSize: size(1.15, 8, 10),
                 color: colors.inkSoft,
+                ...shadow,
               }}
             >
               {note}
