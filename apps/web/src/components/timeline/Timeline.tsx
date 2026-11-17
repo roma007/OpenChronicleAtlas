@@ -344,9 +344,9 @@ export function Timeline() {
           </div>
 
           <div className="min-w-0 flex-1">
-            <div className="relative flex items-baseline justify-between gap-2 text-[11px]">
+            <div className="relative h-5 text-[11px]">
               <span
-                className={`shrink-0 tabular-nums text-ink-soft/60 transition-opacity ${
+                className={`absolute left-0 top-0 -translate-x-1/2 whitespace-nowrap tabular-nums text-ink-soft/60 transition-opacity ${
                   ratio < 0.06 ? 'opacity-0' : 'opacity-100'
                 }`}
               >
@@ -357,7 +357,7 @@ export function Timeline() {
                 {currentEvent ? resolveLocalized(currentEvent.name, locale) : ''}
               </span>
               <span
-                className={`hidden shrink-0 tabular-nums text-ink-soft/60 transition-opacity sm:inline ${
+                className={`absolute left-full top-0 hidden -translate-x-1/2 whitespace-nowrap tabular-nums text-ink-soft/60 transition-opacity sm:block ${
                   ratio > 0.94 ? 'opacity-0' : 'opacity-100'
                 }`}
               >
@@ -366,13 +366,8 @@ export function Timeline() {
               {/* 游标日期：跟着进度移动，到两端时与起点/终点日期重合 */}
               <span
                 aria-hidden
-                className="pointer-events-none absolute -top-0.5 z-10 whitespace-nowrap rounded-full border border-ink/10 bg-parchment px-1.5 py-0.5 text-[10px] font-medium tabular-nums text-ink shadow-sm"
-                style={{
-                  left: `${ratio * 100}%`,
-                  transform: `translateX(${
-                    ratio <= 0.02 ? '0' : ratio >= 0.98 ? '-100%' : '-50%'
-                  })`,
-                }}
+                className="pointer-events-none absolute top-0 z-10 -translate-x-1/2 whitespace-nowrap rounded-full border border-ink/10 bg-parchment px-1.5 py-0.5 text-[10px] font-medium tabular-nums text-ink shadow-sm"
+                style={{ left: `${ratio * 100}%` }}
               >
                 {formatDate(currentTime, dateLocale)}
               </span>
