@@ -1011,7 +1011,7 @@ export function MapCanvas() {
     }
   }, [currentTime, dataset, activeEntityIds, filters, ready, showTerritories, locale, zoom, playing, scrubbing]);
 
-  // 播放或拖动跨过事件时弹出气泡（固定 UI，避免 InfoWindow 被视口裁切）
+  // 播放、拖动或时间跳转跨过事件时弹出气泡（固定 UI，避免 InfoWindow 被视口裁切）
   useEffect(() => {
     const setBubbleEvent = useAtlasStore.getState().setBubbleEvent;
 
@@ -1021,21 +1021,26 @@ export function MapCanvas() {
       return;
     }
 
-    // 松手后保留气泡到计时结束，方便看清刚拖到的节点
-    if (!playing && !scrubbing) {
-      lastBubbleRef.current = null;
-      return;
-    }
-
     const activeEvents = applyEventFilters(dataset.events, filters).filter((event) =>
       event.entityIds.some((entityId) => activeEntityIds.has(entityId)),
     );
     const latest = latestEventAt(activeEvents, currentTime);
-    if (!latest) return;
+    if (!latest) {
+      lastBubbleRef.current = null;
+      setBubbleEvent(null);
+      return;
+    }
 
     const previous = lastBubbleRef.current;
     const showing = useAtlasStore.getState().bubbleEventId;
-    if (previous?.id === latest.id && showing === latest.id) return;
+    if (previous?.id === latest.id && showing === latest.id) {
+      // 暂停时让气泡常驻，不再按播放节奏自动消失
+      if (!playing && bubbleTimerRef.current !== null) {
+        window.clearTimeout(bubbleTimerRef.current);
+        bubbleTimerRef.current = null;
+      }
+      return;
+    }
 
     const now = Date.now();
     const gap = scrubbing ? SCRUB_BUBBLE_MIN_GAP_MS : BUBBLE_MIN_GAP_MS;
@@ -1044,11 +1049,17 @@ export function MapCanvas() {
     lastBubbleRef.current = { id: latest.id, at: now };
     setBubbleEvent(latest.id);
 
-    if (bubbleTimerRef.current !== null) window.clearTimeout(bubbleTimerRef.current);
-    bubbleTimerRef.current = window.setTimeout(() => {
-      useAtlasStore.getState().setBubbleEvent(null);
+    if (bubbleTimerRef.current !== null) {
+      window.clearTimeout(bubbleTimerRef.current);
       bubbleTimerRef.current = null;
-    }, BUBBLE_DURATION_MS);
+    }
+    // 播放时按节奏 4s 收起；暂停/拖动时保留，直到时间离开该节点或手动关闭
+    if (playing) {
+      bubbleTimerRef.current = window.setTimeout(() => {
+        useAtlasStore.getState().setBubbleEvent(null);
+        bubbleTimerRef.current = null;
+      }, BUBBLE_DURATION_MS);
+    }
   }, [currentTime, playing, scrubbing, dataset, activeEntityIds, filters, ready]);
 
   // 选中事件后定位（深链带 view 时优先恢复视野）
