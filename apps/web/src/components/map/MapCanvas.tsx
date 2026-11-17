@@ -973,13 +973,20 @@ export function MapCanvas() {
     }
 
 
+    // 纯疆域实体（没有路线与事件）不参与图例筛选，始终跟随「时代疆域遮罩」显示。
+    const entitiesWithData = new Set([
+      ...dataset.routes.map((route) => route.properties.entityId),
+      ...dataset.events.flatMap((event) => event.entityIds),
+    ]);
+
     for (const entry of territoryEntriesRef.current.values()) {
       const { feature } = entry;
       const start = parseDateString(feature.properties.startDate);
       const end = parseDateString(feature.properties.endDate);
+      const entityId = feature.properties.entityId;
       const visible =
         showTerritories &&
-        activeEntityIds.has(feature.properties.entityId) &&
+        (entitiesWithData.has(entityId) ? activeEntityIds.has(entityId) : true) &&
         currentTime >= start &&
         currentTime <= end;
       for (const polygon of entry.polygons) {

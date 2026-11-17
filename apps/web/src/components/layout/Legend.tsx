@@ -29,9 +29,14 @@ export function Legend({ className = '' }: LegendProps) {
 
   if (!dataset) return null;
 
-  const entities = [...dataset.manifest.entities].sort(
-    (a, b) => (a.order ?? 0) - (b.order ?? 0),
-  );
+  // 图例只列有路线或事件的实体；纯疆域实体保留在地图上，但不占图例行。
+  const entitiesWithData = new Set([
+    ...dataset.routes.map((route) => route.properties.entityId),
+    ...dataset.events.flatMap((event) => event.entityIds),
+  ]);
+  const entities = dataset.manifest.entities
+    .filter((entity) => entitiesWithData.has(entity.id))
+    .sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
   const categories = collectCategories(dataset.events);
   const segmentTypes = [
     ...new Set(
