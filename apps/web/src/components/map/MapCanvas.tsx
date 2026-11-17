@@ -14,12 +14,15 @@ import {
   partialPathAt,
   resolveLocalized,
   routeStyleForSegmentType,
+  segmentTypeLabel,
   wgs84ToGcj02,
 } from '@atlas/shared';
 import { useEffect, useRef, useState } from 'react';
 import { amapStyleId, loadAMap } from '../../map/amap';
+import { routeProgress, sampleRouteAt } from '../../map/route-visuals';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { useI18n } from '../../hooks/useI18n';
+import { RouteTooltip } from './RouteTooltip';
 
 const INITIAL_CENTER: [number, number] = [106.5, 32];
 const BUBBLE_DURATION_MS = 4000;
@@ -32,6 +35,12 @@ const ROUTE_LABEL_MIN_ZOOM = 6;
 const ROUTE_LABEL_PROGRESS = 0.45;
 const ROUTE_HEAD_MIN_ZOOM = 5;
 const ROUTE_LABEL_PADDING_PX = 3;
+/** 线头尾迹长度（米），只画在活跃路线的线头后方 */
+const ROUTE_TRAIL_LENGTH_M = 14000;
+/** 抵达涟漪持续时间 */
+const ROUTE_ARRIVAL_MS = 1500;
+/** 未尽之路（淡墨预告线）最低缩放 */
+const ROUTE_GHOST_MIN_ZOOM = 5;
 /** 到达该缩放级别后，同一格内的多个事件改为散点显示，避免聚合点无法展开 */
 const MARKER_SPIDERFY_ZOOM = 12;
 const MARKER_SPIDERFY_RADIUS_PX = 22;
@@ -40,6 +49,10 @@ interface LineEntry {
   feature: AtlasRouteFeature;
   geometry: RouteGeometry;
   line: any;
+  /** 未尽之路：整条路线的淡墨虚线，行进时垫在实线下面 */
+  ghost: any | null;
+  /** 线头后方的光晕尾迹 */
+  trail: any | null;
   label: any | null;
   /** 番号牌已换算到 GCJ-02 的落点，用于屏幕空间避让 */
   labelPoint: [number, number] | null;
@@ -51,6 +64,18 @@ interface LineEntry {
   progress: number;
   ticks: Array<{ marker: any; progress: number }>;
   strongpoints: Array<{ marker: any; progress: number }>;
+  /** 原始线宽与透明度，缩放、聚焦时在此基础上调整 */
+  baseWeight: number;
+  baseOpacity: number;
+  dimmed: boolean;
+}
+
+interface RouteTipState {
+  x: number;
+  y: number;
+  title: string;
+  meta: string;
+  detail?: string;
 }
 
 interface ScreenRect {
@@ -115,41 +140,47 @@ function offsetPoint(
 function sampleRoute(
   geometry: RouteGeometry,
   distance: number,
-): { point: [number, number]; normal: [number, number]; bearing: number } | null {
-  const { coordinates, cumulative, totalLength } = geometry;
-  if (coordinates.length < 2 || totalLength === 0) return null;
+): ReturnType<typeof sampleRouteAt> {
+  return sampleRouteAt(geometry, distance);
+}
 
-  const target = Math.min(Math.max(distance, 0), totalLength);
-  let low = 1;
-  let high = cumulative.length - 1;
-  while (low < high) {
-    const mid = Math.floor((low + high) / 2);
-    if (cumulative[mid]! < target) low = mid + 1;
-    else high = mid;
+/** 线头后方一小段尾迹：按等弧长采样，保证折线均匀 */
+function trailPath(geometry: RouteGeometry, progress: number): [number, number][] {
+  const end = geometry.totalLength * progress;
+  const start = Math.max(0, end - ROUTE_TRAIL_LENGTH_M);
+  const steps = 10;
+  const points: [number, number][] = [];
+  for (let index = 0; index <= steps; index += 1) {
+    const sample = sampleRoute(geometry, start + ((end - start) * index) / steps);
+    if (sample) points.push(toGcjPoint(sample.point));
   }
+  return points;
+}
 
-  const index = Math.max(1, low);
-  const start = coordinates[index - 1]!;
-  const end = coordinates[index]!;
-  const segmentStart = cumulative[index - 1]!;
-  const segmentLength = cumulative[index]! - segmentStart;
-  const ratio = segmentLength === 0 ? 0 : (target - segmentStart) / segmentLength;
-  const point: [number, number] = [
-    start[0] + (end[0] - start[0]) * ratio,
-    start[1] + (end[1] - start[1]) * ratio,
-  ];
-
-  const latRad = (point[1] * Math.PI) / 180;
-  const east = (end[0] - start[0]) * KM_PER_DEG_LNG_AT_EQUATOR * Math.cos(latRad);
-  const north = (end[1] - start[1]) * KM_PER_DEG_LAT;
-  const length = Math.hypot(east, north) || 1;
-  const tangentEast = east / length;
-  const tangentNorth = north / length;
-  return {
-    point,
-    normal: [-tangentNorth, tangentEast],
-    bearing: (Math.atan2(tangentEast, tangentNorth) * 180) / Math.PI,
-  };
+/** 抵达终点时放一圈扩散涟漪，1.5s 后自动移除 */
+function emitArrival(
+  map: any,
+  AMap: any,
+  point: [number, number],
+  color: string,
+  timers: { current: number[] },
+) {
+  const element = document.createElement('span');
+  element.className = 'atlas-arrival';
+  element.style.setProperty('--marker-color', color);
+  const marker = new AMap.Marker({
+    position: toGcjPoint(point),
+    content: element,
+    anchor: 'center',
+    zIndex: 96,
+    bubble: true,
+  });
+  map.add(marker);
+  timers.current.push(
+    window.setTimeout(() => {
+      map.remove(marker);
+    }, ROUTE_ARRIVAL_MS + 200),
+  );
 }
 
 /** 估算番号牌在屏幕上的外接框，避免逐帧读取 DOM 造成布局抖动 */
@@ -203,10 +234,13 @@ export function MapCanvas() {
   const fittedAtlasIdRef = useRef<string | null>(null);
   const bubbleTimerRef = useRef<number | null>(null);
   const lastBubbleRef = useRef<{ id: string; at: number } | null>(null);
+  const arrivalTimersRef = useRef<number[]>([]);
+  const zoomScaleRef = useRef(1);
 
   const [ready, setReady] = useState(false);
   const [zoom, setZoom] = useState(4);
   const [error, setError] = useState<string | null>(null);
+  const [routeTip, setRouteTip] = useState<RouteTipState | null>(null);
 
   const dataset = useAtlasStore((state) => state.dataset);
   const activeEntityIds = useAtlasStore((state) => state.activeEntityIds);
@@ -259,6 +293,9 @@ export function MapCanvas() {
         map.on('zoomend', syncView);
 
         mapRef.current = map;
+        if (import.meta.env.DEV) {
+          (window as unknown as { __atlasMap?: any }).__atlasMap = map;
+        }
         setReady(true);
       })
       .catch((loadError: Error) => {
@@ -268,6 +305,8 @@ export function MapCanvas() {
     return () => {
       cancelled = true;
       if (bubbleTimerRef.current !== null) window.clearTimeout(bubbleTimerRef.current);
+      for (const timer of arrivalTimersRef.current) window.clearTimeout(timer);
+      arrivalTimersRef.current = [];
       map?.destroy();
       mapRef.current = null;
       amapRef.current = null;
@@ -355,6 +394,8 @@ export function MapCanvas() {
 
     const oldOverlays = Array.from(lineEntriesRef.current.values()).flatMap((entry) => [
       entry.line,
+      ...(entry.ghost ? [entry.ghost] : []),
+      ...(entry.trail ? [entry.trail] : []),
       ...(entry.label ? [entry.label] : []),
       ...(entry.head ? [entry.head.marker] : []),
       ...entry.ticks.map((tick) => tick.marker),
@@ -365,6 +406,7 @@ export function MapCanvas() {
     lineEntriesRef.current.clear();
     lastProgressRef.current.clear();
     lastBubbleRef.current = null;
+    setRouteTip(null);
     clearBubble();
 
     const lines: any[] = [];
@@ -405,6 +447,39 @@ export function MapCanvas() {
       line.hide();
       map.add(line);
 
+      // 未尽之路：整条路线先铺一层淡墨虚线，已走部分由实线盖上去
+      const ghost = new AMap.Polyline({
+        path: route.geometry.coordinates.map(toGcjPoint),
+        strokeColor: entity.color,
+        strokeWeight: Math.max(1.5, weight * 0.55),
+        strokeOpacity: 0.2,
+        strokeStyle: 'dashed',
+        strokeDasharray: [3, 8],
+        lineJoin: 'round',
+        lineCap: 'round',
+        bubble: true,
+        zIndex: 42,
+      });
+      ghost.hide();
+      map.add(ghost);
+
+      // 线头尾迹：一段逐渐收窄的光晕，跟着线头走
+      let trail: any | null = null;
+      if (!isDefense) {
+        trail = new AMap.Polyline({
+          path: route.geometry.coordinates.slice(0, 2).map(toGcjPoint),
+          strokeColor: entity.color,
+          strokeWeight: weight + 4,
+          strokeOpacity: 0.28,
+          lineJoin: 'round',
+          lineCap: 'round',
+          bubble: true,
+          zIndex: 56,
+        });
+        trail.hide();
+        map.add(trail);
+      }
+
       let label: any | null = null;
       let labelPoint: [number, number] | null = null;
       let labelText = '';
@@ -437,12 +512,17 @@ export function MapCanvas() {
         map.add(label);
       }
 
-      // 线头箭头：行进中的路线在线头显示一个指向当前推进方向的箭头；防御线没有推进方向
+      // 线头：笔尖光点 + 扩散环；防御线没有推进方向
       let head: { marker: any; element: HTMLElement } | null = null;
       if (!isDefense) {
         const element = document.createElement('span');
         element.className = 'atlas-route-head';
         element.style.setProperty('--marker-color', entity.color);
+        const core = document.createElement('span');
+        core.className = 'atlas-route-head__core';
+        const ping = document.createElement('span');
+        ping.className = 'atlas-route-head__ping';
+        element.append(core, ping);
         const marker = new AMap.Marker({
           position: toGcjPoint(route.geometry.coordinates.at(-1) ?? route.geometry.coordinates[0]!),
           content: element,
@@ -454,6 +534,48 @@ export function MapCanvas() {
         map.add(marker);
         head = { marker, element };
       }
+
+      // 悬停：浮签 + 加粗高亮；点击缩放到整条路线
+      const tipTitle = resolveLocalized(
+        route.properties.name ?? route.properties.label ?? entity.name,
+        locale,
+      );
+      const tipMeta = `${segmentTypeLabel(route.properties.segmentType, locale)} · ${route.properties.startDate} → ${route.properties.endDate}`;
+      const tipDetail =
+        route.properties.name && route.properties.label
+          ? resolveLocalized(route.properties.label, locale)
+          : undefined;
+      const restore = () => {
+        line.setOptions({
+          strokeWeight: weight * zoomScaleRef.current,
+          strokeOpacity: opacity,
+          zIndex: 50,
+        });
+        if (map.getContainer) map.getContainer().style.cursor = '';
+      };
+      line.on('mouseover', (event: any) => {
+        line.setOptions({
+          strokeWeight: weight * zoomScaleRef.current + 2.5,
+          strokeOpacity: Math.min(1, opacity + 0.15),
+          zIndex: 62,
+        });
+        if (map.getContainer) map.getContainer().style.cursor = 'pointer';
+        const pointer = event?.originEvent as MouseEvent | undefined;
+        setRouteTip({
+          x: pointer?.clientX ?? 0,
+          y: pointer?.clientY ?? 0,
+          title: tipTitle,
+          meta: tipMeta,
+          detail: tipDetail,
+        });
+      });
+      line.on('mouseout', () => {
+        restore();
+        setRouteTip(null);
+      });
+      line.on('click', () => {
+        map.setFitView([line], true, [80, 80, 120, 80]);
+      });
 
       const ticks: Array<{ marker: any; progress: number }> = [];
       if (useDefenseSymbol && geometry.totalLength >= 30000) {
@@ -515,6 +637,8 @@ export function MapCanvas() {
         feature: route,
         geometry,
         line,
+        ghost,
+        trail,
         label,
         labelPoint,
         labelText,
@@ -524,6 +648,9 @@ export function MapCanvas() {
         progress: 0,
         ticks,
         strongpoints,
+        baseWeight: weight,
+        baseOpacity: opacity,
+        dimmed: false,
       });
       lines.push(line);
     }
@@ -538,6 +665,16 @@ export function MapCanvas() {
       fittedAtlasIdRef.current = dataset.manifest.id;
     }
   }, [dataset, activeEntityIds, ready, locale]);
+
+  // 缩放变化时微调线宽：总览更细，放大更醒目
+  useEffect(() => {
+    if (!ready) return;
+    const scale = zoom <= 5 ? 0.78 : zoom >= 9 ? 1.45 : 1;
+    zoomScaleRef.current = scale;
+    for (const entry of lineEntriesRef.current.values()) {
+      entry.line.setOptions({ strokeWeight: entry.baseWeight * scale });
+    }
+  }, [zoom, ready, dataset]);
 
   // 建立/重建事件 Marker：随缩放级别聚合
   useEffect(() => {
@@ -684,23 +821,13 @@ export function MapCanvas() {
     if (!dataset || !ready || !map || !AMap) return;
 
     for (const [key, entry] of lineEntriesRef.current) {
-      const start = parseDateString(entry.feature.properties.startDate);
-      const end = parseDateString(entry.feature.properties.endDate);
-      // 苏区内部机动线等「常驻线」不做逐日推进，进入起始日后整段显示
-      const isStatic = entry.feature.properties.extensions?.static === true;
-      const rawProgress = isStatic
-        ? currentTime >= start
-          ? 1
-          : -1
-        : end === start
-          ? currentTime >= end
-            ? 1
-            : -1
-          : (currentTime - start) / (end - start);
-
+      const rawProgress = routeProgress(entry.feature, currentTime);
       const previous = lastProgressRef.current.get(key) ?? -1;
+
       if (rawProgress < 0) {
         entry.line.hide();
+        entry.ghost?.hide();
+        entry.trail?.hide();
         entry.label?.hide();
         entry.progress = 0;
         entry.head?.marker.hide();
@@ -711,7 +838,7 @@ export function MapCanvas() {
       }
 
       // 起点当天也显示一小段，避免路线在出发日完全消失
-      const progress = rawProgress === 0 ? 0.001 : Math.min(1, rawProgress);
+      const progress = rawProgress === 0 ? 0.001 : rawProgress;
       const pathChanged = Math.abs(progress - previous) >= 0.001;
       entry.progress = progress;
 
@@ -719,6 +846,8 @@ export function MapCanvas() {
         const path = partialPathAt(entry.geometry, progress).map(toGcjPoint);
         if (path.length < 2) {
           entry.line.hide();
+          entry.ghost?.hide();
+          entry.trail?.hide();
           entry.label?.hide();
           entry.head?.marker.hide();
           for (const tick of entry.ticks) tick.marker.hide();
@@ -729,9 +858,33 @@ export function MapCanvas() {
         lastProgressRef.current.set(key, progress);
       }
 
+      // 抵达终点：一次性涟漪，只在实际播放时触发，拖动时间轴不会炸屏
+      if (playing && previous > 0 && previous < 0.999 && progress >= 0.999) {
+        const end = entry.geometry.coordinates.at(-1);
+        const entity = dataset.entitiesById.get(entry.feature.properties.entityId);
+        if (end) {
+          emitArrival(map, AMap, end, entity?.color ?? '#8c2f24', arrivalTimersRef);
+        }
+      }
+
       entry.line.show();
 
-      // 线头箭头：显示在路线当前推进位置，路线走完后收起
+      // 未尽之路：整条路线淡墨虚线，已走部分被实线覆盖
+      entry.ghost?.[progress < 0.999 && zoom >= ROUTE_GHOST_MIN_ZOOM ? 'show' : 'hide']();
+
+      // 线头尾迹：线头后方 14km 的光晕，跟着推进位置走
+      if (entry.trail) {
+        const trailVisible =
+          zoom >= ROUTE_HEAD_MIN_ZOOM && progress > 0.01 && progress < 0.999;
+        if (trailVisible) {
+          entry.trail.setPath(trailPath(entry.geometry, progress));
+          entry.trail.show();
+        } else {
+          entry.trail.hide();
+        }
+      }
+
+      // 线头：显示在路线当前推进位置，路线走完后收起
       if (entry.head) {
         const sample =
           zoom >= ROUTE_HEAD_MIN_ZOOM && progress > 0.01 && progress < 0.999
@@ -750,6 +903,15 @@ export function MapCanvas() {
       for (const tick of entry.ticks) {
         const visible = zoom >= DEFENSE_TICK_MIN_ZOOM && tick.progress <= progress + 0.001;
         tick.marker[visible ? 'show' : 'hide']();
+      }
+
+      // 聚焦当前：播放时压暗已经走完的路线，让正在推进的线自己跳出来
+      const shouldDim = playing && progress >= 0.999;
+      if (shouldDim !== entry.dimmed) {
+        entry.line.setOptions({
+          strokeOpacity: entry.baseOpacity * (shouldDim ? 0.32 : 1),
+        });
+        entry.dimmed = shouldDim;
       }
 
       // 据点：起点在路线出现后显示，终点在路线走完后显示
@@ -824,7 +986,7 @@ export function MapCanvas() {
         visibleEvents.some((event) => event.id === latest?.id),
       );
     }
-  }, [currentTime, dataset, activeEntityIds, filters, ready, showTerritories, locale, zoom]);
+  }, [currentTime, dataset, activeEntityIds, filters, ready, showTerritories, locale, zoom, playing]);
 
   // 播放跨过事件时弹出气泡（固定 UI，避免 InfoWindow 被视口裁切）
   useEffect(() => {
@@ -895,6 +1057,8 @@ export function MapCanvas() {
   return (
     <div className="absolute inset-0">
       <div ref={containerRef} className="h-full w-full" aria-label={t('map.title')} />
+
+      {routeTip ? <RouteTooltip {...routeTip} /> : null}
 
       {error ? (
         <div className="absolute inset-0 grid place-items-center bg-parchment/95 p-6">
