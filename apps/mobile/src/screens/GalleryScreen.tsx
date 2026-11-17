@@ -1,4 +1,4 @@
-import { resolveLocalized, tagLabel, type AtlasCoverText, type Locale } from '@atlas/shared';
+import { resolveLocalized, type AtlasCoverText, type Locale } from '@atlas/shared';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { useEffect, useState } from 'react';
 import {
@@ -315,8 +315,6 @@ export function GalleryScreen({ navigation }: Props) {
         }
         renderItem={({ item }) => {
           const title = resolveLocalized(item.title, locale);
-          const startYear = String(Number(item.timeRange.start.slice(0, 4)));
-          const endYear = String(Number(item.timeRange.end.slice(0, 4)));
           const coverSource = resolveDataImage(item.cover);
           return (
             <Pressable
@@ -341,26 +339,7 @@ export function GalleryScreen({ navigation }: Props) {
                     width={cardWidth}
                   />
                 ) : null}
-              </View>
-              <View style={styles.cardBody}>
-                <View style={styles.cardTitleRow}>
-                  <Text style={styles.cardTitle}>{title}</Text>
-                  <Text style={styles.cardYears}>
-                    {startYear} — {endYear}
-                  </Text>
-                </View>
-                {item.subtitle ? (
-                  <Text style={styles.cardSubtitle}>{resolveLocalized(item.subtitle, locale)}</Text>
-                ) : null}
-                <View style={styles.tags}>
-                  {(item.tags ?? []).map((tag) => (
-                    <Text key={tag} style={styles.tag}>
-                      {tagLabel(tag, locale)}
-                    </Text>
-                  ))}
-                </View>
-              </View>
-            </Pressable>
+              </View>            </Pressable>
           );
         }}
       />
@@ -458,18 +437,4 @@ const styles = StyleSheet.create({
   cover: { width: '100%', height: '100%' },
   coverFallback: { alignItems: 'center', justifyContent: 'center' },
   coverFallbackText: { fontSize: 48, color: colors.inkSoft, opacity: 0.3 },
-  cardBody: { padding: spacing.lg, gap: spacing.sm },
-  cardTitleRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline' },
-  cardTitle: { fontSize: 24, fontWeight: '700', color: colors.ink },
-  cardYears: { fontSize: 12, color: colors.inkSoft },
-  cardSubtitle: { fontSize: 13, color: colors.inkSoft },
-  tags: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.xs },
-  tag: {
-    fontSize: 11,
-    color: colors.inkSoft,
-    backgroundColor: colors.parchmentDeep,
-    paddingHorizontal: 8,
-    paddingVertical: 3,
-    borderRadius: radii.pill,
-  },
 });
