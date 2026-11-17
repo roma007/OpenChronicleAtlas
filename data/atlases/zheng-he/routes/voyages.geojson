@@ -1028,6 +1028,94 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [124.5, 40.0],
+          [123.0, 39.2],
+          [122.0, 38.5],
+          [121.5, 37.5],
+          [120.5, 36.5],
+          [119.5, 35.0],
+          [120.2, 34.0],
+          [120.8, 32.5],
+          [121.5, 31.5],
+          [121.0, 30.5],
+          [121.5, 29.5],
+          [120.5, 28.0],
+          [119.5, 26.5],
+          [118.5, 25.0],
+          [117.0, 24.0],
+          [116.0, 23.0],
+          [114.5, 22.5],
+          [113.5, 22.0],
+          [112.0, 21.5],
+          [110.5, 20.5],
+          [110.0, 19.5],
+          [109.5, 18.5]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-coastal-defense",
+        "startDate": "1405-07-11",
+        "endDate": "1433-07-22",
+        "order": 1,
+        "segmentType": "defense",
+        "name": {
+          "zh": "明朝海防线（大陆海岸）",
+          "en": "Ming coastal defence line (mainland coast)"
+        },
+        "description": {
+          "zh": "示意性海防线：综合明初沿海卫所、巡检司与水寨，北起辽东，南至海南；不代表某一年份的精确布防。",
+          "en": "Schematic coastal-defence line synthesising early Ming coastal garrisons, inspection stations and naval bases from Liaodong to Hainan; not a precise snapshot of any single year."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "static": true
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [119.5, 25.5],
+          [119.6, 24.5],
+          [119.5, 23.5],
+          [120.2, 22.3],
+          [120.9, 21.9],
+          [121.6, 23.0],
+          [122.0, 25.0],
+          [121.5, 25.3],
+          [120.8, 24.5],
+          [120.0, 23.7],
+          [119.6, 23.3],
+          [119.3, 24.8]
+        ]
+      },
+      "properties": {
+        "entityId": "ming-coastal-defense",
+        "startDate": "1405-07-11",
+        "endDate": "1433-07-22",
+        "order": 2,
+        "segmentType": "defense",
+        "name": {
+          "zh": "明朝海防线（台澎）",
+          "en": "Ming coastal defence line (Taiwan and Penghu)"
+        },
+        "description": {
+          "zh": "示意性海防线：自福建沿海东连澎湖，环台湾本岛后返回；表示明朝将台澎纳入东南海防视野，不表示行政疆域。",
+          "en": "Schematic coastal-defence line linking the Fujian coast to Penghu and looping around Taiwan; it shows Taiwan and Penghu within the Ming south-eastern coastal-defence sphere, not an administrative territory."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "static": true
+        }
+      }
     }
   ]
 }

@@ -3,6 +3,28 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.105] - 2026-11-17
+
+### Added
+- 郑和专题新增「明朝海防线」实体与两段 `defense` 路线：大陆海岸（辽东—山东—南直隶—浙江—福建—广东—海南）与台澎段（福建—澎湖—环台湾本岛—返回福建）。
+- 台湾、澎湖纳入明朝东南海防范围；海防线为示意线，`extensions.static = true`，时间轴起点即完整显示。
+
+### Changed
+- 东番（台湾）标签由「未设府县」改为「海防范围」；manifest 说明改为「东番（台湾）：明朝东南海防范围，未设府县。」
+- 台湾本岛仍为灰色描边、不填充，不表示明朝行政疆域。
+- `data/atlases/ATTRIBUTION.md` 补充海防线为示意、`static` 与 `schematic` 的说明。
+
+### Data
+- 郑和专题路线 22 → 24 段，新增 2 段海防线。
+- 重建 `index.json`、`search-index.json`、移动端生成物。
+
+### Docs
+- `docs/plans/2026-11-17-M165-郑和专题明朝海防线-design.md`
+- `docs/plans/2026-11-17-M165-郑和专题明朝海防线-plan.md`
+- `docs/conversations/2026-11-17-郑和专题明朝海防线.md`
+
+---
+
 ## [v1.0.104] - 2026-11-17
 
 ### Added

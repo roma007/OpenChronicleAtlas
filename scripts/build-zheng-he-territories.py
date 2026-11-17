@@ -123,15 +123,15 @@ DATASET_RULES = [
 SCHEMATIC_RULES = [
     {
         'entityId': 'dongfan',
-        'label': {'zh': '东番（台湾）· 未设府县', 'en': 'Dongfan (Taiwan) · no Ming administration'},
+        'label': {'zh': '东番（台湾）· 海防范围', 'en': 'Dongfan (Taiwan) · coastal-defence sphere'},
         'labelPoint': [121.0, 23.7],
         'startDate': START,
         'endDate': END,
         'opacity': 0,
         'name': {'zh': '东番（台湾）示意标注', 'en': 'Dongfan (Taiwan) annotation'},
         'description': {
-            'zh': '东番即今台湾本岛。明朝视其为东南海防要地，曾多次派兵入台追剿海盗与倭寇，但未在岛上设置府县、派驻行政官员或编户征税。此面仅作示意标注，不表示明朝疆域。',
-            'en': 'Dongfan is present-day Taiwan. The Ming treated it as a coastal-defence frontier and repeatedly sent forces against pirates and Japanese raiders, but never established prefectures, counties, resident officials or household taxation on the island. This outline is an annotation, not a Ming territory.',
+            'zh': '东番即今台湾本岛。明朝将其纳入东南海防范围，曾多次派兵入台追剿海盗与倭寇，但未在岛上设置府县、派驻行政官员或编户征税。此面仅作示意标注，不表示明朝行政疆域。',
+            'en': 'Dongfan is present-day Taiwan. The Ming included it in its south-eastern coastal-defence sphere and repeatedly sent forces against pirates and Japanese raiders, but never established prefectures, counties, resident officials or household taxation on the island. This outline is an annotation, not an administrative territory.',
         },
         'geometry': {
             'type': 'Polygon',
