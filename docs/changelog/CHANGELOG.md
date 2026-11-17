@@ -3,6 +3,16 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.93] - 2026-11-17
+
+### Fixed
+- 时间轴拖动在进度条外松开鼠标后未结束：现在监听窗口级 `pointerup` / `pointercancel` / `blur` 与页面隐藏，并在指针回到条上时用 `buttons === 0` 兜底；同时忽略非左键按下。
+
+### Docs
+- 对话档案与 M160 计划补充拖动结束的边界处理。
+
+---
+
 ## [v1.0.92] - 2026-11-17
 
 ### Changed

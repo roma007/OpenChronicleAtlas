@@ -68,6 +68,28 @@ export function Timeline() {
 
   useEffect(() => () => useAtlasStore.getState().setScrubbing(false), []);
 
+  // 鼠标在进度条外松开、切走窗口或指针被取消时，也要结束拖动
+  useEffect(() => {
+    const stop = () => {
+      if (!draggingRef.current) return;
+      draggingRef.current = false;
+      setScrubbing(false);
+    };
+    const stopIfHidden = () => {
+      if (document.visibilityState === 'hidden') stop();
+    };
+    window.addEventListener('pointerup', stop);
+    window.addEventListener('pointercancel', stop);
+    window.addEventListener('blur', stop);
+    document.addEventListener('visibilitychange', stopIfHidden);
+    return () => {
+      window.removeEventListener('pointerup', stop);
+      window.removeEventListener('pointercancel', stop);
+      window.removeEventListener('blur', stop);
+      document.removeEventListener('visibilitychange', stopIfHidden);
+    };
+  }, [setScrubbing]);
+
   const viewport = useMemo(
     () => (timeline ? createViewport(timeline, zoomLevel, viewStart) : null),
     [timeline, zoomLevel, viewStart],
@@ -167,7 +189,13 @@ export function Timeline() {
     setCurrentTime(ratioToTime((clientX - rect.left) / rect.width, viewport));
   };
 
+  const stopDrag = () => {
+    draggingRef.current = false;
+    setScrubbing(false);
+  };
+
   const handlePointerDown = (event: ReactPointerEvent<HTMLDivElement>) => {
+    if (event.pointerType === 'mouse' && event.button !== 0) return;
     event.preventDefault();
     pause();
     setScrubbing(true);
@@ -178,12 +206,16 @@ export function Timeline() {
 
   const handlePointerMove = (event: ReactPointerEvent<HTMLDivElement>) => {
     if (!draggingRef.current) return;
+    // 在窗口外松开时可能收不到 pointerup，回到条上时按键已经抬起，直接结束
+    if (event.pointerType === 'mouse' && event.buttons === 0) {
+      stopDrag();
+      return;
+    }
     seekFromClientX(event.clientX);
   };
 
   const endDrag = (event: ReactPointerEvent<HTMLDivElement>) => {
-    draggingRef.current = false;
-    setScrubbing(false);
+    stopDrag();
     if (event.currentTarget.hasPointerCapture(event.pointerId)) {
       event.currentTarget.releasePointerCapture(event.pointerId);
     }
