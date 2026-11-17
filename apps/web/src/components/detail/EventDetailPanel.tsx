@@ -7,11 +7,9 @@ import {
   neighborEvents,
   parseDateString,
   resolveLocalized,
-  toDateString,
 } from '@atlas/shared';
 import { lazy, Suspense, useCallback, useEffect, useRef } from 'react';
 import { dataUrl } from '../../data/client';
-import { useShare } from '../../hooks/useShare';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { useI18n } from '../../hooks/useI18n';
 
@@ -25,11 +23,8 @@ export function EventDetailPanel() {
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const pause = useAtlasStore((state) => state.pause);
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
-  const currentTime = useAtlasStore((state) => state.currentTime);
-  const mapView = useAtlasStore((state) => state.mapView);
   const activeEntityIds = useAtlasStore((state) => state.activeEntityIds);
   const filters = useAtlasStore((state) => state.filters);
-  const { share, lastResult } = useShare();
   const { locale, t, dateLocale } = useI18n();
   const closeButtonRef = useRef<HTMLButtonElement>(null);
   const previousFocusRef = useRef<HTMLElement | null>(null);
@@ -112,19 +107,6 @@ export function EventDetailPanel() {
 
   const description = resolveLocalized(event.description, locale);
 
-  const handleShare = () => {
-    void share(dataset.manifest.id, {
-      time: toDateString(currentTime),
-      eventId: event.id,
-      view: mapView ?? undefined,
-      locale,
-      entities: [...activeEntityIds],
-      categories: filters.categories,
-      from: filters.from,
-      to: filters.to,
-    });
-  };
-
   return (
     <aside
       role="dialog"
@@ -139,13 +121,6 @@ export function EventDetailPanel() {
         </span>
 
         <div className="flex items-center gap-2">
-          <button
-            type="button"
-            onClick={handleShare}
-            className="rounded-full border border-ink/10 px-3 py-1 text-[11px] text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
-          >
-            {lastResult === 'copied' || lastResult === 'shared' ? t('common.shared') : t('common.share')}
-          </button>
           <button
             ref={closeButtonRef}
             type="button"

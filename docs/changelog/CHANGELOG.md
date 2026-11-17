@@ -3,6 +3,16 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.101] - 2026-11-17
+
+### Removed
+- 事件详情中的分享入口：Web 详情面板与移动端 EventSheet 都不再显示「分享」，Web 端不再使用的 `useShare` 钩子一并删除；深链解析与 `buildShareUrl` 等共享工具保留。
+
+### Docs
+- 对话档案与 M160 计划记录移除分享入口。
+
+---
+
 ## [v1.0.100] - 2026-11-17
 
 ### Removed

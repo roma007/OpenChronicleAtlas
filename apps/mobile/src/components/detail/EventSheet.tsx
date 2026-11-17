@@ -6,10 +6,8 @@ import {
   neighborEvents,
   parseDateString,
   resolveLocalized,
-  toDateString,
 } from '@atlas/shared';
-import * as Linking from 'expo-linking';
-import { Image, Modal, Platform, Pressable, ScrollView, Share, StyleSheet, Text, View } from 'react-native';
+import { Image, Modal, Platform, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { resolveDataImage } from '../../data/client';
 import { useAtlasStore } from '../../stores/useAtlasStore';
@@ -23,8 +21,6 @@ export function EventSheet() {
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const pause = useAtlasStore((state) => state.pause);
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
-  const currentTime = useAtlasStore((state) => state.currentTime);
-  const mapView = useAtlasStore((state) => state.mapView);
   const activeEntityIds = useAtlasStore((state) => state.activeEntityIds);
   const filters = useAtlasStore((state) => state.filters);
   const { locale, t, dateLocale } = useI18n();
@@ -62,34 +58,12 @@ export function EventSheet() {
     .map((id) => dataset.eventsById.get(id))
     .filter((item): item is NonNullable<typeof item> => Boolean(item));
 
-  const share = async () => {
-    const queryParams: Record<string, string> = {
-      t: toDateString(currentTime),
-      event: event.id,
-      lang: locale,
-      entities: [...activeEntityIds].join(','),
-    };
-    if (filters.categories.length > 0) {
-      queryParams.categories = filters.categories.join(',');
-    }
-    if (filters.from) queryParams.from = filters.from;
-    if (filters.to) queryParams.to = filters.to;
-    if (mapView) {
-      queryParams.view = `${mapView.lng.toFixed(6)},${mapView.lat.toFixed(6)},${mapView.zoom.toFixed(2)}`;
-    }
-    const url = Linking.createURL(`/atlas/${dataset.manifest.id}`, { queryParams });
-    await Share.share({ title: resolveLocalized(event.name, locale), message: url, url });
-  };
-
   return (
     <Modal visible animationType="slide" presentationStyle={Platform.OS === 'ios' ? 'pageSheet' : 'fullScreen'} onRequestClose={() => selectEvent(null)}>
       <SafeAreaView style={styles.safe} edges={['top', 'left', 'right', 'bottom']}>
         <View style={styles.header}>
           <Text style={styles.category}>{categoryLabel(event.category, locale)}</Text>
           <View style={styles.actions}>
-            <Pressable style={styles.action} onPress={() => void share()}>
-              <Text style={styles.actionText}>{t('common.share')}</Text>
-            </Pressable>
             <Pressable style={styles.close} onPress={() => selectEvent(null)}>
               <Text style={styles.closeText}>✕</Text>
             </Pressable>
@@ -210,14 +184,6 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
   },
   actions: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
-  action: {
-    borderWidth: 1,
-    borderColor: colors.ink + '22',
-    paddingHorizontal: 12,
-    paddingVertical: 5,
-    borderRadius: radii.pill,
-  },
-  actionText: { fontSize: 11, color: colors.inkSoft },
   close: {
     width: 32,
     height: 32,
