@@ -30,12 +30,20 @@ export function Legend({ className = '' }: LegendProps) {
   if (!dataset) return null;
 
   // 图例只列有路线或事件的实体；纯疆域实体保留在地图上，但不占图例行。
+  // 标记 legend: false 的实体（如海防线）只作为地图背景，不进入图例。
+  const legendRoutes = dataset.routes.filter((route) => {
+    const entity = dataset.entitiesById.get(route.properties.entityId);
+    return entity?.extensions?.legend !== false;
+  });
   const entitiesWithData = new Set([
-    ...dataset.routes.map((route) => route.properties.entityId),
+    ...legendRoutes.map((route) => route.properties.entityId),
     ...dataset.events.flatMap((event) => event.entityIds),
   ]);
   const entities = dataset.manifest.entities
-    .filter((entity) => entitiesWithData.has(entity.id))
+    .filter(
+      (entity) =>
+        entity.extensions?.legend !== false && entitiesWithData.has(entity.id),
+    )
     .sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
   const notes = Array.isArray(dataset.manifest.extensions?.notes)
     ? (dataset.manifest.extensions.notes as Array<{ zh: string; en?: string }>)
@@ -43,17 +51,17 @@ export function Legend({ className = '' }: LegendProps) {
   const categories = collectCategories(dataset.events);
   const segmentTypes = [
     ...new Set(
-      dataset.routes
+      legendRoutes
         .map((route) => route.properties.segmentType)
         .filter((type): type is NonNullable<typeof type> => Boolean(type)),
     ),
   ];
-  const hasDefenseRoutes = dataset.routes.some(
+  const hasDefenseRoutes = legendRoutes.some(
     (route) =>
       route.properties.segmentType === 'defense' && Boolean(route.properties.label),
   );
   // 线头箭头对所有非防御路线生效，图例说明也随之出现
-  const hasMovingRoutes = dataset.routes.some(
+  const hasMovingRoutes = legendRoutes.some(
     (route) => route.properties.segmentType !== 'defense',
   );
   const filteredEvents = applyEventFilters(dataset.events, filters).filter((event) =>

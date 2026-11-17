@@ -22,6 +22,8 @@ export interface AtlasEntity {
   color: string;
   description?: LocalizedString;
   order?: number;
+  /** 客户端扩展字段，例如 legend: false 表示只在地图上显示、不进入图例 */
+  extensions?: Record<string, unknown>;
 }
 
 /** 封面上的文字版式，与封面图分离，由客户端叠加渲染 */

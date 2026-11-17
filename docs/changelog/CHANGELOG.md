@@ -3,6 +3,32 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.106] - 2026-11-17
+
+### Added
+- 郑和专题把宝船队航线拆分为 7 次下西洋，每次一个实体、一条完整往返航线；图例显示「第一次下西洋」至「第七次下西洋」。
+- manifest 新增 `voyage-1` 至 `voyage-7` 实体；`AtlasEntity` 增加可选 `extensions`。
+
+### Changed
+- 「分䑸」不再单独成线：删除 `detached-squadron` 实体，原满剌加—榜葛剌往返段并入第六次航线，原分䑸事件改挂 `voyage-6`。
+- 第七次航线的阿丹—天方支线并入 `voyage-7`，不再单独成段。
+- 「明朝海防线」退出图例：实体标记 `extensions.legend = false`，保留两段防御线与地图背景显示；独显某航次时仍可见。
+- 图例路线样式只统计图例内路线，不再出现「防御 / 驻守」一行。
+- 图例「说明」增加「沿海红色点线为明朝海防示意线，不是航线」。
+- 移动端补上 `extensions.static` 的进度处理，海防线不再随时间逐段生长。
+
+### Data
+- 郑和专题路线 24 → 9 段（7 条航次 + 2 段海防线）。
+- 41 个事件按日期改挂 7 个航次实体。
+- 重建 `index.json`、`search-index.json`、移动端生成物。
+
+### Docs
+- `docs/plans/2026-11-17-M166-郑和专题七次下西洋拆线-design.md`
+- `docs/plans/2026-11-17-M166-郑和专题七次下西洋拆线-plan.md`
+- `docs/conversations/2026-11-17-郑和专题七次下西洋拆线.md`
+
+---
+
 ## [v1.0.105] - 2026-11-17
 
 ### Added

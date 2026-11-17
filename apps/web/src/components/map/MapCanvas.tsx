@@ -436,7 +436,10 @@ export function MapCanvas() {
 
     for (const route of dataset.routes) {
       const entity = dataset.entitiesById.get(route.properties.entityId);
-      if (!entity || !activeEntityIds.has(entity.id)) continue;
+      if (!entity) continue;
+      // legend: false 的实体（如海防线）不进入图例，但作为地图背景始终显示。
+      const alwaysVisible = entity.extensions?.legend === false;
+      if (!alwaysVisible && !activeEntityIds.has(entity.id)) continue;
 
       const geometry = buildRouteGeometry(route);
       const style = routeStyleForSegmentType(route.properties.segmentType);

@@ -74,14 +74,29 @@ export function AtlasMap() {
   const routeShapes = useMemo(() => {
     if (!dataset) return [];
     return dataset.routes
-      .filter((route) => activeEntityIds.has(route.properties.entityId))
+      .filter((route) => {
+        const entity = dataset.entitiesById.get(route.properties.entityId);
+        // legend: false 的实体（如海防线）不进入图例，但作为地图背景始终显示。
+        return (
+          activeEntityIds.has(route.properties.entityId) ||
+          entity?.extensions?.legend === false
+        );
+      })
       .map((route, index) => {
         const key = `${route.properties.entityId}:${route.properties.order}:${index}`;
         const geometry = geometries.get(key);
         const start = new Date(`${route.properties.startDate}T00:00:00Z`).getTime();
         const end = new Date(`${route.properties.endDate}T00:00:00Z`).getTime();
         const rawProgress =
-          end === start ? (currentTime >= end ? 1 : -1) : (currentTime - start) / (end - start);
+          route.properties.extensions?.static === true
+            ? currentTime >= start
+              ? 1
+              : -1
+            : end === start
+              ? currentTime >= end
+                ? 1
+                : -1
+              : (currentTime - start) / (end - start);
         // 起点当天也显示一小段，避免路线在出发日完全消失
         const progress = rawProgress === 0 ? 0.001 : Math.min(1, rawProgress);
         const points =

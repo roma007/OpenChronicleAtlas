@@ -36,29 +36,94 @@
   ],
   "entities": [
     {
-      "id": "ming-fleet",
+      "id": "voyage-1",
       "name": {
-        "zh": "明朝宝船队",
-        "en": "Ming Treasure Fleet"
+        "zh": "第一次下西洋",
+        "en": "First Voyage"
       },
-      "color": "#1f5f8b",
+      "color": "#123f5e",
       "order": 1,
       "description": {
-        "zh": "郑和统率的主力船队，七下西洋。",
-        "en": "The main treasure fleet commanded by Zheng He on seven voyages."
+        "zh": "1405—1407：自太仓经占城、爪哇、满剌加、锡兰山至古里，返航太仓。",
+        "en": "1405–1407: from Taicang via Champa, Java, Malacca and Ceylon to Calicut, then back to Taicang."
       }
     },
     {
-      "id": "detached-squadron",
+      "id": "voyage-2",
       "name": {
-        "zh": "分䑸",
-        "en": "Detached Squadron"
+        "zh": "第二次下西洋",
+        "en": "Second Voyage"
       },
-      "color": "#b8863b",
+      "color": "#17506f",
       "order": 2,
       "description": {
-        "zh": "分头访问沿途邦国的支队。",
-        "en": "Detachments sent to visit states along the route."
+        "zh": "1408—1409：自太仓经满剌加至锡兰山，返航太仓。",
+        "en": "1408–1409: from Taicang via Malacca to Ceylon, then back to Taicang."
+      }
+    },
+    {
+      "id": "voyage-3",
+      "name": {
+        "zh": "第三次下西洋",
+        "en": "Third Voyage"
+      },
+      "color": "#1f5f8b",
+      "order": 3,
+      "description": {
+        "zh": "1410—1411：自太仓至满剌加，再访满剌加后返航。",
+        "en": "1410–1411: from Taicang to Malacca, visiting Malacca again before returning."
+      }
+    },
+    {
+      "id": "voyage-4",
+      "name": {
+        "zh": "第四次下西洋",
+        "en": "Fourth Voyage"
+      },
+      "color": "#2a6f9b",
+      "order": 4,
+      "description": {
+        "zh": "1413—1415：自太仓经锡兰山、古里至忽鲁谟斯，南下麻林地，返航太仓。",
+        "en": "1413–1415: from Taicang via Ceylon and Calicut to Hormuz, south to Malindi, then back to Taicang."
+      }
+    },
+    {
+      "id": "voyage-5",
+      "name": {
+        "zh": "第五次下西洋",
+        "en": "Fifth Voyage"
+      },
+      "color": "#357fa7",
+      "order": 5,
+      "description": {
+        "zh": "1417—1419：自太仓经锡兰山、古里至阿丹，返航太仓。",
+        "en": "1417–1419: from Taicang via Ceylon and Calicut to Aden, then back to Taicang."
+      }
+    },
+    {
+      "id": "voyage-6",
+      "name": {
+        "zh": "第六次下西洋",
+        "en": "Sixth Voyage"
+      },
+      "color": "#418fb2",
+      "order": 6,
+      "description": {
+        "zh": "1421—1422：自太仓至满剌加；分䑸访问榜葛剌后，船队返航太仓。",
+        "en": "1421–1422: from Taicang to Malacca; a detached squadron visited Bengal before the fleet returned to Taicang."
+      }
+    },
+    {
+      "id": "voyage-7",
+      "name": {
+        "zh": "第七次下西洋",
+        "en": "Seventh Voyage"
+      },
+      "color": "#4d9fbd",
+      "order": 7,
+      "description": {
+        "zh": "1431—1433：自太仓经锡兰山至古里；分䑸自阿丹赴天方；郑和卒于古里，船队返航太仓。",
+        "en": "1431–1433: from Taicang via Ceylon to Calicut; a detachment sailed from Aden to Mecca; Zheng He died at Calicut and the fleet returned to Taicang."
       }
     },
     {
@@ -68,10 +133,14 @@
         "en": "Ming Coastal Defence"
       },
       "color": "#8c3b2f",
-      "order": 4,
+      "order": 8,
       "description": {
         "zh": "明朝东南沿海的海防体系示意线：北起辽东，经山东、南直隶、浙江、福建、广东，南至海南，并东连澎湖、台湾。海防线为示意，不表示行政疆域。",
         "en": "Schematic line of the Ming south-eastern coastal defence system, from Liaodong through Shandong, South Zhili, Zhejiang, Fujian and Guangdong to Hainan, with an eastern extension to Penghu and Taiwan. Schematic, not an administrative boundary."
+      },
+      "extensions": {
+        "legend": false,
+        "role": "defense-line"
       }
     },
     {
@@ -81,7 +150,7 @@
         "en": "Port States"
       },
       "color": "#5b7f6b",
-      "order": 3,
+      "order": 9,
       "description": {
         "zh": "满剌加、古里、忽鲁谟斯等港口与邦国。",
         "en": "Ports and states such as Malacca, Calicut, and Hormuz."
@@ -288,6 +357,10 @@
       {
         "zh": "东番（台湾）：明朝东南海防范围，未设府县。",
         "en": "Dongfan (Taiwan): within the Ming south-eastern coastal-defence sphere, without Ming prefectures or counties."
+      },
+      {
+        "zh": "沿海红色点线为明朝海防示意线，不是航线。",
+        "en": "The red dotted line along the coast is a schematic Ming coastal-defence line, not a voyage route."
       }
     ]
   }
