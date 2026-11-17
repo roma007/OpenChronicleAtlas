@@ -13,6 +13,7 @@ import {
   timelineEventMarkers,
   timeToRatio,
   toDateString,
+  wgs84ToGcj02,
 } from '@atlas/shared';
 import type { AtlasEvent } from '@atlas/shared';
 import type { KeyboardEvent as ReactKeyboardEvent, PointerEvent as ReactPointerEvent } from 'react';
@@ -22,6 +23,8 @@ import { useI18n } from '../../hooks/useI18n';
 import { useAtlasStore, type PlaybackSpeed } from '../../stores/useAtlasStore';
 
 const SPEEDS: PlaybackSpeed[] = [0.5, 1, 2, 4];
+/** 上一/下一事件跳转时，气泡停留时长 */
+const BUBBLE_DURATION_MS = 4000;
 
 export function Timeline() {
   const dataset = useAtlasStore((state) => state.dataset);
@@ -38,12 +41,15 @@ export function Timeline() {
   const stepDays = useAtlasStore((state) => state.stepDays);
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const setScrubbing = useAtlasStore((state) => state.setScrubbing);
+  const setBubbleEvent = useAtlasStore((state) => state.setBubbleEvent);
+  const requestView = useAtlasStore((state) => state.requestView);
 
   usePlayback();
   const { locale, t, dateLocale } = useI18n();
 
   const trackRef = useRef<HTMLDivElement>(null);
   const draggingRef = useRef(false);
+  const bubbleTimerRef = useRef<number | null>(null);
   const [trackWidth, setTrackWidth] = useState(0);
   const [zoomLevel, setZoomLevel] = useState(0);
   const [viewStart, setViewStart] = useState<number | null>(null);
@@ -66,7 +72,13 @@ export function Timeline() {
     setViewStart(null);
   }, [timeline]);
 
-  useEffect(() => () => useAtlasStore.getState().setScrubbing(false), []);
+  useEffect(
+    () => () => {
+      useAtlasStore.getState().setScrubbing(false);
+      if (bubbleTimerRef.current !== null) window.clearTimeout(bubbleTimerRef.current);
+    },
+    [],
+  );
 
   // 鼠标在进度条外松开、切走窗口或指针被取消时，也要结束拖动
   useEffect(() => {
@@ -163,7 +175,18 @@ export function Timeline() {
     if (!event) return;
     pause();
     setCurrentTime(eventStart(event));
-    selectEvent(event.id);
+    // 关闭可能已打开的详情栏，改为气泡提示当前节点
+    selectEvent(null);
+    const point = wgs84ToGcj02(event.location.lng, event.location.lat);
+    const zoom = Math.max(useAtlasStore.getState().mapView?.zoom ?? 6, 6);
+    requestView({ lng: point.lng, lat: point.lat, zoom });
+    setBubbleEvent(event.id);
+
+    if (bubbleTimerRef.current !== null) window.clearTimeout(bubbleTimerRef.current);
+    bubbleTimerRef.current = window.setTimeout(() => {
+      useAtlasStore.getState().setBubbleEvent(null);
+      bubbleTimerRef.current = null;
+    }, BUBBLE_DURATION_MS);
   };
 
   const markers = useMemo(() => {
