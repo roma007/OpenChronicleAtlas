@@ -344,16 +344,37 @@ export function Timeline() {
           </div>
 
           <div className="min-w-0 flex-1">
-            <div className="flex items-baseline justify-between gap-2 text-[11px]">
-              <span className="shrink-0 font-medium tabular-nums text-ink">
-                {formatDate(currentTime, dateLocale)}
+            <div className="relative flex items-baseline justify-between gap-2 text-[11px]">
+              <span
+                className={`shrink-0 tabular-nums text-ink-soft/60 transition-opacity ${
+                  ratio < 0.06 ? 'opacity-0' : 'opacity-100'
+                }`}
+              >
+                {formatDate(viewport?.start ?? timeline.start, dateLocale)}
               </span>
               {/* 节点名改由地图气泡提示，这里只保留读屏播报，避免重复 */}
               <span className="sr-only" aria-live="polite" aria-atomic="true">
                 {currentEvent ? resolveLocalized(currentEvent.name, locale) : ''}
               </span>
-              <span className="hidden shrink-0 tabular-nums text-ink-soft/60 sm:inline">
+              <span
+                className={`hidden shrink-0 tabular-nums text-ink-soft/60 transition-opacity sm:inline ${
+                  ratio > 0.94 ? 'opacity-0' : 'opacity-100'
+                }`}
+              >
                 {formatDate(viewport?.end ?? timeline.end, dateLocale)}
+              </span>
+              {/* 游标日期：跟着进度移动，到两端时与起点/终点日期重合 */}
+              <span
+                aria-hidden
+                className="pointer-events-none absolute -top-0.5 z-10 whitespace-nowrap rounded-full border border-ink/10 bg-parchment px-1.5 py-0.5 text-[10px] font-medium tabular-nums text-ink shadow-sm"
+                style={{
+                  left: `${ratio * 100}%`,
+                  transform: `translateX(${
+                    ratio <= 0.02 ? '0' : ratio >= 0.98 ? '-100%' : '-50%'
+                  })`,
+                }}
+              >
+                {formatDate(currentTime, dateLocale)}
               </span>
             </div>
 
@@ -504,10 +525,6 @@ export function Timeline() {
         </div>
 
         <div className="mt-1 flex items-center justify-between gap-2">
-          <span className="text-[10px] tabular-nums text-ink-soft/60">
-            {formatDate(viewport?.start ?? timeline.start, dateLocale)}
-          </span>
-
           <div className="flex items-center gap-1 sm:hidden">
             {SPEEDS.map((value) => (
               <button
@@ -533,7 +550,7 @@ export function Timeline() {
             max={toDateString(timeline.end)}
             value={dateValue}
             onChange={(event) => handleDateChange(event.target.value)}
-            className="hidden rounded-md border border-ink/15 bg-parchment px-2 py-1 text-[11px] text-ink-soft focus:border-cinnabar/50 focus:outline-none md:block"
+            className="ml-auto hidden rounded-md border border-ink/15 bg-parchment px-2 py-1 text-[11px] text-ink-soft focus:border-cinnabar/50 focus:outline-none md:block"
           />
         </div>
       </div>
