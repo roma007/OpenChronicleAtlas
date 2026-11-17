@@ -1,5 +1,61 @@
 [
   {
+    "id": "zhaojin-1933-10",
+    "atlasId": "long-march",
+    "name": {
+      "zh": "照金苏区反“围剿”与红军撤离",
+      "en": "KMT encirclement of Zhaojin and the Red Army's withdrawal"
+    },
+    "date": "1933-10-12",
+    "endDate": "1933-10-18",
+    "location": {
+      "lng": 108.65,
+      "lat": 34.95,
+      "place": {
+        "zh": "陕西耀县照金（今铜川市耀州区照金镇）",
+        "en": "Zhaojin, Yao county, Shaanxi (today Zhaojin town, Yaozhou district, Tongchuan)"
+      }
+    },
+    "entityIds": [
+      "shaanxi-red-army"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "国民党军 4 个正规团及各县民团围攻照金，刘志丹率主力撤离；10 月 18 日薛家寨失守，陕甘边党政军转入外线。",
+      "en": "Four KMT regular regiments and county militia attacked Zhaojin. Liu Zhidan led the main force out; Xuejiazhai fell on 18 October and the border base shifted to exterior lines."
+    },
+    "description": {
+      "zh": "1933 年 10 月 12 日，国民党以杨子恒为总指挥，调集 4 个正规团及耀县、淳化、旬邑等县民团数千人，携带大炮向照金苏区发起大规模“围剿”。刘志丹率红二十六军主力主动撤离照金，转至外线作战；习仲勋等留在照金坚持斗争，随后撤出薛家寨。10 月 18 日，敌军在叛徒引路下从后沟石缝攀上薛家寨，寨内守军与边区机关突围，薛家寨失守。陕甘边党政军随后向包家寨、南梁方向转移，11 月 3—5 日在包家寨召开联席会议，决定恢复红二十六军、创建以南梁为中心的根据地。",
+      "en": "On 12 October 1933 the KMT, under Yang Ziheng, sent four regular regiments and several thousand militia from Yao, Chunhua and Xunyi counties with artillery against the Zhaojin base. Liu Zhidan withdrew the main force of the 26th Red Army to exterior lines, while Xi Zhongxun and others stayed behind and later left Xuejiazhai. On 18 October, guided by a traitor, enemy troops climbed the rear gorge into Xuejiazhai; the defenders and border organs broke out and the stronghold fell. The border party, government and army then moved toward Baojiazhai and Nanliang, where the 3–5 November conference decided to restore the 26th Red Army and build the Nanliang base."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "“娃娃主席”习仲勋：21 岁当选陕甘边区苏维埃政府主席",
+        "author": "人民网·党史频道",
+        "url": "http://dangshi.people.com.cn/n/2014/1219/c85037-26238417.html",
+        "note": "1933-10-12 刘志丹率主力主动撤离照金"
+      },
+      {
+        "title": "红色照金 西北革命烽火燎原地",
+        "author": "凤凰网",
+        "url": "http://inews.ifeng.com/50102839/news.shtml",
+        "note": "1933-10-12 国民党军 4 个正规团及民团围攻照金"
+      },
+      {
+        "title": "探访薛家寨革命旧址：照金苏区大本营",
+        "author": "人民网",
+        "url": "http://leaders.people.com.cn/GB/218481/406771/407373/407426/index.html",
+        "note": "10 月 18 日薛家寨失守、边区机关突围"
+      }
+    ],
+    "relatedIds": [
+      "baojiazhai-1933-11",
+      "zhaojin-1934-02"
+    ],
+    "importance": 3
+  },
+  {
     "id": "baojiazhai-1933-11",
     "atlasId": "long-march",
     "name": {
@@ -50,6 +106,7 @@
       }
     ],
     "relatedIds": [
+      "zhaojin-1933-10",
       "zhaojin-1934-02",
       "nanliang-committee-1934-02",
       "nanliang-1934-11"
