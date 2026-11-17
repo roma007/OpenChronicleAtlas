@@ -348,8 +348,9 @@ export function Timeline() {
               <span className="shrink-0 font-medium tabular-nums text-ink">
                 {formatDate(currentTime, dateLocale)}
               </span>
-              <span className="truncate text-ink-soft/70" aria-live="polite" aria-atomic="true">
-                {currentEvent ? resolveLocalized(currentEvent.name, locale) : t('timeline.hint')}
+              {/* 节点名改由地图气泡提示，这里只保留读屏播报，避免重复 */}
+              <span className="sr-only" aria-live="polite" aria-atomic="true">
+                {currentEvent ? resolveLocalized(currentEvent.name, locale) : ''}
               </span>
               <span className="hidden shrink-0 tabular-nums text-ink-soft/60 sm:inline">
                 {formatDate(viewport?.end ?? timeline.end, dateLocale)}

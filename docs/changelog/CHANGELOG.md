@@ -3,6 +3,16 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.95] - 2026-11-17
+
+### Changed
+- 进度栏上方不再重复显示当前节点名，节点信息只由地图气泡呈现；当前日期与结束日期保留，读屏仍通过隐藏 live region 播报节点名。
+
+### Docs
+- M160 方案、计划与对话档案记录去重决策。
+
+---
+
 ## [v1.0.94] - 2026-11-17
 
 ### Changed
