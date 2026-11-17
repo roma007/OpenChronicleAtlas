@@ -1,4 +1,4 @@
-import { resolveLocalized, type AtlasCoverText, type Locale } from '@atlas/shared';
+import { resolveLocalized, type AtlasCoverText } from '@atlas/shared';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { useEffect, useState } from 'react';
 import {
@@ -24,21 +24,20 @@ import { useI18n } from '../hooks/useI18n';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Gallery'>;
 
+/** 封面副文字（年代）统一放大 130%。 */
+const SUB_SCALE = 1.3;
+
 
 function CoverOverlay({
   coverText,
   title,
-  locale,
   width,
 }: {
   coverText: AtlasCoverText;
   title: string;
-  locale: Locale;
   width: number;
 }) {
   const unit = width / 100;
-  const detailed = Boolean(coverText.enTitle);
-  const note = locale === 'en' ? coverText.noteEn : coverText.note;
   const size = (ratio: number, min: number, max: number) =>
     Math.max(min, Math.min(max, unit * ratio));
   const shadow = {
@@ -49,7 +48,7 @@ function CoverOverlay({
 
   return (
     <View pointerEvents="none" style={StyleSheet.absoluteFill}>
-      {[0.97, 0.94, 0.86, 0.66, 0.35, 0.1].map((opacity, index) => (
+      {[0.7, 0.68, 0.62, 0.48, 0.25, 0.07].map((opacity, index) => (
         <View
           key={index}
           style={{
@@ -68,14 +67,14 @@ function CoverOverlay({
         style={{
           position: 'absolute',
           left: unit * 6.9,
-          right: unit * (detailed ? 12 : 18),
+          right: unit * 14,
           top: unit * 8.6,
         }}
       >
         <Text
           numberOfLines={1}
           style={{
-            fontSize: size(detailed ? 8.6 : 9.4, detailed ? 22 : 26, detailed ? 40 : 46),
+            fontSize: size(8.6, 22, 40),
             color: colors.ink,
             ...shadow,
             fontWeight: '700',
@@ -83,120 +82,21 @@ function CoverOverlay({
         >
           {title}
         </Text>
-        {detailed ? (
-          <>
-            <Text
-              style={{
-                marginTop: unit * 1.6,
-                fontSize: size(2.15, 9, 13),
-                color: colors.inkSoft,
-                fontWeight: '600',
-                ...shadow,
-                letterSpacing: unit * 0.1,
-              }}
-            >
-              {coverText.enTitle} · {coverText.years}
-            </Text>
-            {coverText.keywords ? (
-              <Text
-                style={{
-                  marginTop: unit * 2.2,
-                  fontSize: size(1.75, 9.5, 12),
-                  color: colors.inkSoft,
-                  fontWeight: '600',
-                  ...shadow,
-                }}
-              >
-                {coverText.keywords}
-              </Text>
-            ) : null}
-            {coverText.keywordsEn ? (
-              <Text
-                style={{
-                  marginTop: unit * 1.1,
-                  fontSize: size(1.35, 8.5, 11),
-                  color: colors.inkSoft,
-                  fontWeight: '600',
-                  ...shadow,
-                }}
-              >
-                {coverText.keywordsEn}
-              </Text>
-            ) : null}
-          </>
-        ) : (
-          <>
-            <Text
-              style={{
-                marginTop: unit * 1.8,
-                fontSize: size(2.5, 10, 15),
-                color: colors.inkSoft,
-                fontWeight: '600',
-                ...shadow,
-                letterSpacing: unit * 0.14,
-              }}
-            >
-              {coverText.years}
-            </Text>
-            <Text
-              style={{
-                marginTop: unit * 2.2,
-                fontSize: size(1.45, 8.5, 12),
-                color: colors.inkSoft,
-                fontWeight: '600',
-                ...shadow,
-              }}
-            >
-              {coverText.brand} · OpenChronicle Atlas
-            </Text>
-          </>
-        )}
-      </View>
-
-      {detailed ? (
-        <Text
-          style={{
-            position: 'absolute',
-            left: unit * 6.9,
-            bottom: unit * 6.4,
-            fontSize: size(1.15, 8.5, 11),
-            color: colors.inkSoft,
-            fontWeight: '600',
-            ...shadow,
-            letterSpacing: unit * 0.08,
-          }}
-        >
-          OPENCHRONICLE ATLAS · 史迹 · 时空地图
-        </Text>
-      ) : (
-        <>
-          <View
+        {coverText.years ? (
+          <Text
             style={{
-              position: 'absolute',
-              left: unit * 6.9,
-              right: unit * 10,
-              bottom: unit * 10.4,
-              height: StyleSheet.hairlineWidth,
-              backgroundColor: colors.ink + '26',
+              marginTop: unit * 1.8 * SUB_SCALE,
+              fontSize: size(2.5, 10, 15) * SUB_SCALE,
+              color: colors.inkSoft,
+              fontWeight: '600',
+              ...shadow,
+              letterSpacing: unit * 0.14,
             }}
-          />
-          {note ? (
-            <Text
-              style={{
-                position: 'absolute',
-                left: unit * 6.9,
-                bottom: unit * 6.2,
-                fontSize: size(1.15, 8, 10),
-                color: colors.inkSoft,
-                fontWeight: '600',
-                ...shadow,
-              }}
-            >
-              {note}
-            </Text>
-          ) : null}
-        </>
-      )}
+          >
+            {coverText.years}
+          </Text>
+        ) : null}
+      </View>
     </View>
   );
 }
@@ -335,7 +235,6 @@ export function GalleryScreen({ navigation }: Props) {
                   <CoverOverlay
                     coverText={item.coverText}
                     title={title}
-                    locale={locale}
                     width={cardWidth}
                   />
                 ) : null}

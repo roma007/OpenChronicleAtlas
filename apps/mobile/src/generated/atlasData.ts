@@ -60,10 +60,10 @@ export const BUNDLED_TEXT: Record<string, BundledTextLoader> = {
 };
 
 export const BUNDLED_IMAGES: Record<string, number> = {
-  "anti-japanese-war/assets/cover-5bb4ae62.jpg": require("../../../../data/atlases/anti-japanese-war/assets/cover-5bb4ae62.jpg"),
+  "anti-japanese-war/assets/cover-851dab39.jpg": require("../../../../data/atlases/anti-japanese-war/assets/cover-851dab39.jpg"),
   "grand-canal/assets/cover-0a7df51a.jpg": require("../../../../data/atlases/grand-canal/assets/cover-0a7df51a.jpg"),
   "long-march/assets/cover-f4b573d9.jpg": require("../../../../data/atlases/long-march/assets/cover-f4b573d9.jpg"),
-  "ming-qing/assets/cover-79b47958.jpg": require("../../../../data/atlases/ming-qing/assets/cover-79b47958.jpg"),
+  "ming-qing/assets/cover-226ea43c.jpg": require("../../../../data/atlases/ming-qing/assets/cover-226ea43c.jpg"),
   "song-yuan/assets/cover-8792348d.jpg": require("../../../../data/atlases/song-yuan/assets/cover-8792348d.jpg"),
   "sui-tang/assets/cover-9357c5b4.jpg": require("../../../../data/atlases/sui-tang/assets/cover-9357c5b4.jpg"),
   "three-kingdoms/assets/cover-05769409.jpg": require("../../../../data/atlases/three-kingdoms/assets/cover-05769409.jpg"),

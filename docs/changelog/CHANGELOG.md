@@ -3,6 +3,21 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.88] - 2026-11-17
+
+### Changed
+- 封面遮罩定稿为整图 70%（停靠点 0.7 / 0.665 / 0.504 / 0.182 / 0），副文字定稿为 130%；临时「遮罩模式」四选一、「封面遮罩」「副文字」两个滑杆及 `localStorage` 逻辑全部移除，`AtlasCard` 不再接受样式参数。
+- 封面只保留主标题与年代，去掉英文标题、中英文关键词、品牌行、底部「OPENCHRONICLE ATLAS · 史迹 · 时空地图」与分隔线；Web 与移动端同步。`coverText` 其余字段保留在数据中但不再渲染。
+
+### Data
+- 抗日战争封面换新：`cover-851dab39.jpg`；明清封面换新：`cover-226ea43c.jpg`（均 1600×900）。两张专题 `updatedAt` 改为 `2026-11-17`，索引、搜索索引与移动端内置数据同步重建。
+
+### Docs
+- `data/atlases/ATTRIBUTION.md` 说明封面只叠加标题与年代，并记录两张换图。
+- `docs/conversations/2026-11-16-封面换成AI插画.md` 补「定稿」一节。
+
+---
+
 ## [v1.0.87] - 2026-11-17
 
 ### Added
