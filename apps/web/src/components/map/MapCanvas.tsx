@@ -267,6 +267,7 @@ export function MapCanvas() {
   const filters = useAtlasStore((state) => state.filters);
   const currentTime = useAtlasStore((state) => state.currentTime);
   const playing = useAtlasStore((state) => state.playing);
+  const scrubbing = useAtlasStore((state) => state.scrubbing);
   const selectedEventId = useAtlasStore((state) => state.selectedEventId);
   const showTerritories = useAtlasStore((state) => state.showTerritories);
   const viewRequest = useAtlasStore((state) => state.viewRequest);
@@ -925,8 +926,8 @@ export function MapCanvas() {
         tick.marker[visible ? 'show' : 'hide']();
       }
 
-      // 聚焦当前：播放时压暗已经走完的路线，让正在推进的线自己跳出来
-      const shouldDim = playing && progress >= 0.999;
+      // 聚焦当前：播放或拖动时间轴时，压暗已经走完的路线
+      const shouldDim = (playing || scrubbing) && progress >= 0.999;
       if (shouldDim !== entry.dimmed) {
         entry.line.setOptions({
           strokeOpacity: entry.baseOpacity * (shouldDim ? 0.32 : 1),
@@ -1006,7 +1007,7 @@ export function MapCanvas() {
         visibleEvents.some((event) => event.id === latest?.id),
       );
     }
-  }, [currentTime, dataset, activeEntityIds, filters, ready, showTerritories, locale, zoom, playing]);
+  }, [currentTime, dataset, activeEntityIds, filters, ready, showTerritories, locale, zoom, playing, scrubbing]);
 
   // 播放跨过事件时弹出气泡（固定 UI，避免 InfoWindow 被视口裁切）
   useEffect(() => {

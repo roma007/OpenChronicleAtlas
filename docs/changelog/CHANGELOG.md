@@ -3,6 +3,16 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.91] - 2026-11-17
+
+### Changed
+- 拖动时间轴期间也会压暗已走完的路线（与播放态一致），松手立即恢复全彩；通过新增的 `scrubbing` 状态实现，静态阅读时不发灰。
+
+### Docs
+- [M160 方案](docs/plans/2026-11-17-M160-路线动态表现增强-design.md)、[M160 计划](docs/plans/2026-11-17-M160-路线动态表现增强-plan.md) 与[对话档案](docs/conversations/2026-11-17-路线动态表现增强.md) 记录拖动压暗的决策。
+
+---
+
 ## [v1.0.90] - 2026-11-17
 
 ### Changed

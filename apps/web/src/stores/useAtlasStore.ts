@@ -51,6 +51,8 @@ interface AtlasState {
   timeline: Timeline | null;
   currentTime: AtlasTime;
   playing: boolean;
+  /** 正在拖动时间轴：用于让地图临时进入「聚焦当前」的压暗状态 */
+  scrubbing: boolean;
   speed: PlaybackSpeed;
   bubbleEventId: string | null;
 
@@ -84,6 +86,7 @@ interface AtlasState {
   play(): void;
   pause(): void;
   togglePlay(): void;
+  setScrubbing(value: boolean): void;
   setSpeed(speed: PlaybackSpeed): void;
   resetPlayback(): void;
   setBubbleEvent(eventId: string | null): void;
@@ -111,6 +114,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
   timeline: null,
   currentTime: 0,
   playing: false,
+  scrubbing: false,
   speed: 1,
   bubbleEventId: null,
 
@@ -274,6 +278,10 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
 
   pause() {
     set({ playing: false });
+  },
+
+  setScrubbing(value) {
+    if (get().scrubbing !== value) set({ scrubbing: value });
   },
 
   togglePlay() {

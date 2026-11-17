@@ -37,6 +37,7 @@ export function Timeline() {
   const setSpeed = useAtlasStore((state) => state.setSpeed);
   const stepDays = useAtlasStore((state) => state.stepDays);
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
+  const setScrubbing = useAtlasStore((state) => state.setScrubbing);
 
   usePlayback();
   const { locale, t, dateLocale } = useI18n();
@@ -64,6 +65,8 @@ export function Timeline() {
     setZoomLevel(0);
     setViewStart(null);
   }, [timeline]);
+
+  useEffect(() => () => useAtlasStore.getState().setScrubbing(false), []);
 
   const viewport = useMemo(
     () => (timeline ? createViewport(timeline, zoomLevel, viewStart) : null),
@@ -167,6 +170,7 @@ export function Timeline() {
   const handlePointerDown = (event: ReactPointerEvent<HTMLDivElement>) => {
     event.preventDefault();
     pause();
+    setScrubbing(true);
     draggingRef.current = true;
     event.currentTarget.setPointerCapture(event.pointerId);
     seekFromClientX(event.clientX);
@@ -179,6 +183,7 @@ export function Timeline() {
 
   const endDrag = (event: ReactPointerEvent<HTMLDivElement>) => {
     draggingRef.current = false;
+    setScrubbing(false);
     if (event.currentTarget.hasPointerCapture(event.pointerId)) {
       event.currentTarget.releasePointerCapture(event.pointerId);
     }
