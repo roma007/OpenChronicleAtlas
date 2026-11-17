@@ -1,7 +1,5 @@
 import {
-  MAX_TIMELINE_ZOOM,
   applyEventFilters,
-  centerViewportStart,
   createViewport,
   eventStart,
   formatDate,
@@ -51,8 +49,6 @@ export function Timeline() {
   const draggingRef = useRef(false);
   const bubbleTimerRef = useRef<number | null>(null);
   const [trackWidth, setTrackWidth] = useState(0);
-  const [zoomLevel, setZoomLevel] = useState(0);
-  const [viewStart, setViewStart] = useState<number | null>(null);
 
   useEffect(() => {
     const element = trackRef.current;
@@ -65,11 +61,6 @@ export function Timeline() {
     setTrackWidth(element.getBoundingClientRect().width);
 
     return () => observer.disconnect();
-  }, [timeline]);
-
-  useEffect(() => {
-    setZoomLevel(0);
-    setViewStart(null);
   }, [timeline]);
 
   useEffect(
@@ -103,26 +94,9 @@ export function Timeline() {
   }, [setScrubbing]);
 
   const viewport = useMemo(
-    () => (timeline ? createViewport(timeline, zoomLevel, viewStart) : null),
-    [timeline, zoomLevel, viewStart],
+    () => (timeline ? createViewport(timeline, 0) : null),
+    [timeline],
   );
-
-  useEffect(() => {
-    if (!timeline || !viewport || viewStart === null) return;
-    if (currentTime >= viewport.start && currentTime <= viewport.end) return;
-    setViewStart(centerViewportStart(timeline, zoomLevel, currentTime));
-  }, [currentTime, timeline, viewport, viewStart, zoomLevel]);
-
-  const changeZoom = (delta: number) => {
-    if (!timeline) return;
-    const nextLevel = Math.min(
-      MAX_TIMELINE_ZOOM,
-      Math.max(0, zoomLevel + delta),
-    );
-    if (nextLevel === zoomLevel) return;
-    setZoomLevel(nextLevel);
-    setViewStart(centerViewportStart(timeline, nextLevel, currentTime));
-  };
 
   const ticks = useMemo(() => {
     if (!viewport) return [];
@@ -474,30 +448,6 @@ export function Timeline() {
                 style={{ left: `${ratio * 100}%` }}
               />
             </div>
-          </div>
-
-          <div className="flex shrink-0 items-center gap-1">
-            <button
-              type="button"
-              aria-label={t('timeline.zoomOut')}
-              disabled={zoomLevel === 0}
-              onClick={() => changeZoom(-1)}
-              className="grid h-7 w-7 place-items-center rounded-full border border-ink/15 text-sm text-ink-soft transition hover:bg-ink/5 disabled:cursor-not-allowed disabled:opacity-35"
-            >
-              −
-            </button>
-            <span className="w-8 text-center text-[10px] tabular-nums text-ink-soft/70">
-              {zoomLevel === 0 ? t('timeline.zoomAll') : `${2 ** zoomLevel}×`}
-            </span>
-            <button
-              type="button"
-              aria-label={t('timeline.zoomIn')}
-              disabled={zoomLevel === 8}
-              onClick={() => changeZoom(1)}
-              className="grid h-7 w-7 place-items-center rounded-full border border-ink/15 text-sm text-ink-soft transition hover:bg-ink/5 disabled:cursor-not-allowed disabled:opacity-35"
-            >
-              +
-            </button>
           </div>
 
           <div className="hidden shrink-0 items-center gap-1 sm:flex">

@@ -3,6 +3,16 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.100] - 2026-11-17
+
+### Removed
+- 时间轴缩放功能：Web 与移动端都不再显示 `− / +` 与倍率标签，时间轴固定展示整个专题范围；相关的 viewport 缩放状态与居中逻辑一并移除（共享层的 `createViewport` 等工具保留）。
+
+### Docs
+- M160 方案、计划与对话档案记录移除原因。
+
+---
+
 ## [v1.0.99] - 2026-11-17
 
 ### Changed

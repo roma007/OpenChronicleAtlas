@@ -1,7 +1,5 @@
 import {
-  MAX_TIMELINE_ZOOM,
   applyEventFilters,
-  centerViewportStart,
   createViewport,
   eventStart,
   formatDate,
@@ -54,38 +52,14 @@ export function Timeline() {
   const [width, setWidth] = useState(0);
   const widthRef = useRef(0);
   const [dateDraft, setDateDraft] = useState('');
-  const [zoomLevel, setZoomLevel] = useState(0);
-  const [viewStart, setViewStart] = useState<number | null>(null);
-
-  useEffect(() => {
-    setZoomLevel(0);
-    setViewStart(null);
-  }, [timeline]);
 
   const viewport = useMemo(
-    () => (timeline ? createViewport(timeline, zoomLevel, viewStart) : null),
-    [timeline, zoomLevel, viewStart],
+    () => (timeline ? createViewport(timeline, 0) : null),
+    [timeline],
   );
 
   const viewportRef = useRef<AtlasTimeline | null>(viewport);
   viewportRef.current = viewport;
-
-  useEffect(() => {
-    if (!timeline || !viewport || viewStart === null) return;
-    if (currentTime >= viewport.start && currentTime <= viewport.end) return;
-    setViewStart(centerViewportStart(timeline, zoomLevel, currentTime));
-  }, [currentTime, timeline, viewport, viewStart, zoomLevel]);
-
-  const changeZoom = (delta: number) => {
-    if (!timeline) return;
-    const nextLevel = Math.min(
-      MAX_TIMELINE_ZOOM,
-      Math.max(0, zoomLevel + delta),
-    );
-    if (nextLevel === zoomLevel) return;
-    setZoomLevel(nextLevel);
-    setViewStart(centerViewportStart(timeline, nextLevel, currentTime));
-  };
 
   const seekFromX = (x: number) => {
     const vp = viewportRef.current;
@@ -327,29 +301,6 @@ export function Timeline() {
             keyboardType="numbers-and-punctuation"
             accessibilityLabel={t('timeline.jumpToDate')}
           />
-          <View style={styles.zoom}>
-            <Pressable
-              onPress={() => changeZoom(-1)}
-              disabled={zoomLevel === 0}
-              style={[styles.zoomButton, zoomLevel === 0 && styles.zoomButtonDisabled]}
-              accessibilityRole="button"
-              accessibilityLabel={t('timeline.zoomOut')}
-            >
-              <Text style={styles.zoomButtonText}>−</Text>
-            </Pressable>
-            <Text style={styles.zoomLabel}>
-              {zoomLevel === 0 ? t('timeline.zoomAll') : `${2 ** zoomLevel}×`}
-            </Text>
-            <Pressable
-              onPress={() => changeZoom(1)}
-              disabled={zoomLevel === 8}
-              style={[styles.zoomButton, zoomLevel === 8 && styles.zoomButtonDisabled]}
-              accessibilityRole="button"
-              accessibilityLabel={t('timeline.zoomIn')}
-            >
-              <Text style={styles.zoomButtonText}>+</Text>
-            </Pressable>
-          </View>
 
           <View style={styles.speeds}>
             {SPEEDS.map((value) => (
@@ -501,25 +452,6 @@ const styles = StyleSheet.create({
     fontSize: 11,
     color: colors.inkSoft,
     minWidth: 100,
-  },
-  zoom: { flexDirection: 'row', alignItems: 'center', gap: 2 },
-  zoomButton: {
-    width: 24,
-    height: 24,
-    borderRadius: 12,
-    borderWidth: 1,
-    borderColor: colors.ink + '18',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  zoomButtonDisabled: { opacity: 0.35 },
-  zoomButtonText: { fontSize: 13, color: colors.inkSoft, lineHeight: 15 },
-  zoomLabel: {
-    minWidth: 26,
-    textAlign: 'center',
-    fontSize: 9,
-    color: colors.inkSoft,
-    fontVariant: ['tabular-nums'],
   },
   speeds: { flexDirection: 'row', gap: 4 },
   speedButton: { paddingHorizontal: 8, paddingVertical: 4, borderRadius: radii.pill },
