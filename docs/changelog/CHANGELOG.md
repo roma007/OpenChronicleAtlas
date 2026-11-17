@@ -3,6 +3,29 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.102] - 2026-11-17
+
+### Added
+- 郑和下西洋专题新增「时代疆域遮罩」：明、占城、真腊、暹罗、满者伯夷、苏门答剌、锡兰、毗奢耶那伽罗、巴赫曼尼、榜葛剌、拉苏里、马穆鲁克等 12 个政权的疆域面来自 Seshat Cliopatria（CC BY 4.0）。
+- 新增 13 个疆域实体；满剌加、古里、忽鲁谟斯、溜山、佐法儿、东非城邦挂在既有「沿途邦国」实体下，古吉拉特单独建实体。
+- 新增 `scripts/build-zheng-he-territories.py`，按 Cliopatria 记录 ID 重建疆域面，并校验标识点落在面内。
+
+### Changed
+- 郑和专题 `license` 与描述补充疆域数据来源；`updatedAt` 改为 2026-11-17。
+- 满剌加、古里、忽鲁谟斯、溜山、佐法儿、东非城邦与古吉拉特为示意补绘，标记 `extensions.precision = "schematic"`。
+
+### Data
+- `data/atlases/zheng-he/territories/territories.geojson`：27 个疆域面（明 5、马穆鲁克 3、占城 2、满者伯夷 2、沿途邦国 6、其余各 1）。
+- 重建 `index.json`、`search-index.json`、`apps/mobile/src/generated/atlasData.ts`。
+
+### Docs
+- `docs/plans/2026-11-17-M162-郑和专题疆域面-design.md`
+- `docs/plans/2026-11-17-M162-郑和专题疆域面-plan.md`
+- `docs/conversations/2026-11-17-郑和专题疆域面.md`
+- `data/atlases/ATTRIBUTION.md`、`README.md` 补充郑和疆域来源与示意范围说明。
+
+---
+
 ## [v1.0.101] - 2026-11-17
 
 ### Removed

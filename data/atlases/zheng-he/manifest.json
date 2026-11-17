@@ -15,8 +15,8 @@
   },
   "cover": "assets/cover-67cdb1cf.jpg",
   "description": {
-    "zh": "1405 年至 1433 年，明朝郑和率船队七次远航，经东南亚、印度洋到达波斯湾与非洲东岸。\n\n> 本数据为 M10 示例数据：航线为示意简化，事件与航线时间已抽查，仍待史料校订。",
-    "en": "From 1405 to 1433, Zheng He led the Ming treasure fleet on seven voyages across Southeast Asia and the Indian Ocean to the Persian Gulf and the east coast of Africa.\n\n> M10 illustrative data: routes are simplified; event and route timing has been spot-checked and still awaits historical review."
+    "zh": "1405 年至 1433 年，明朝郑和率船队七次远航，经东南亚、印度洋到达波斯湾与非洲东岸。\n\n> 本数据为 M10 示例数据：航线为示意简化，事件与航线时间已抽查，仍待史料校订。疆域面来自 Seshat Cliopatria（CC BY 4.0）；满剌加、古里、忽鲁谟斯等小国与古吉拉特为示意补绘，所有边界均为学术估算，非精确国界。",
+    "en": "From 1405 to 1433, Zheng He led the Ming treasure fleet on seven voyages across Southeast Asia and the Indian Ocean to the Persian Gulf and the east coast of Africa.\n\n> M10 illustrative data: routes are simplified; event and route timing has been spot-checked and still awaits historical review. Territory polygons come from Seshat Cliopatria (CC BY 4.0); Malacca, Calicut, Hormuz and other small polities, as well as Gujarat, are schematic additions. All boundaries are scholarly estimates, not precise state borders."
   },
   "defaultView": {
     "center": [
@@ -30,6 +30,9 @@
   ],
   "events": [
     "events/events.json"
+  ],
+  "territories": [
+    "territories/territories.geojson"
   ],
   "entities": [
     {
@@ -70,6 +73,175 @@
         "zh": "满剌加、古里、忽鲁谟斯等港口与邦国。",
         "en": "Ports and states such as Malacca, Calicut, and Hormuz."
       }
+    },
+    {
+      "id": "ming",
+      "name": {
+        "zh": "明",
+        "en": "Ming"
+      },
+      "color": "#b7791f",
+      "order": 10,
+      "description": {
+        "zh": "郑和船队的母国，1368—1644 年的明朝。",
+        "en": "The Ming dynasty, 1368–1644, homeland of Zheng He’s fleet."
+      }
+    },
+    {
+      "id": "champa",
+      "name": {
+        "zh": "占城",
+        "en": "Champa"
+      },
+      "color": "#9b5a4a",
+      "order": 11,
+      "description": {
+        "zh": "今越南中部的占城国，船队南下后的第一个重要停靠地。",
+        "en": "Champa in central Vietnam, the fleet’s first major stop after sailing south."
+      }
+    },
+    {
+      "id": "khmer",
+      "name": {
+        "zh": "真腊",
+        "en": "Khmer"
+      },
+      "color": "#7b6b3a",
+      "order": 12,
+      "description": {
+        "zh": "今柬埔寨一带的吴哥王朝。",
+        "en": "The Khmer Empire centred on Angkor in present-day Cambodia."
+      }
+    },
+    {
+      "id": "ayutthaya",
+      "name": {
+        "zh": "暹罗",
+        "en": "Ayutthaya"
+      },
+      "color": "#a06a3b",
+      "order": 13,
+      "description": {
+        "zh": "阿瑜陀耶王朝统治下的暹罗。",
+        "en": "Siam under the Ayutthaya Kingdom."
+      }
+    },
+    {
+      "id": "majapahit",
+      "name": {
+        "zh": "满者伯夷",
+        "en": "Majapahit"
+      },
+      "color": "#4f7a5a",
+      "order": 14,
+      "description": {
+        "zh": "以爪哇为中心的满者伯夷帝国。",
+        "en": "The Majapahit Empire centred on Java."
+      }
+    },
+    {
+      "id": "samudera-pasai",
+      "name": {
+        "zh": "苏门答剌",
+        "en": "Samudera Pasai"
+      },
+      "color": "#6b5b8c",
+      "order": 15,
+      "description": {
+        "zh": "苏门答腊岛北部的须文答剌—巴赛苏丹国。",
+        "en": "The Samudera Pasai Sultanate in northern Sumatra."
+      }
+    },
+    {
+      "id": "ceylon",
+      "name": {
+        "zh": "锡兰",
+        "en": "Ceylon"
+      },
+      "color": "#2f7a72",
+      "order": 16,
+      "description": {
+        "zh": "僧伽罗政权统治下的锡兰岛。",
+        "en": "Ceylon under Sinhalese rule."
+      }
+    },
+    {
+      "id": "vijayanagara",
+      "name": {
+        "zh": "毗奢耶那伽罗",
+        "en": "Vijayanagara"
+      },
+      "color": "#8c4a6b",
+      "order": 17,
+      "description": {
+        "zh": "南印度德干高原南部的毗奢耶那伽罗帝国。",
+        "en": "The Vijayanagara Empire in southern India."
+      }
+    },
+    {
+      "id": "bahmani",
+      "name": {
+        "zh": "巴赫曼尼",
+        "en": "Bahmani"
+      },
+      "color": "#566b8c",
+      "order": 18,
+      "description": {
+        "zh": "德干高原中部的巴赫曼尼苏丹国。",
+        "en": "The Bahmani Sultanate in the central Deccan."
+      }
+    },
+    {
+      "id": "bengal",
+      "name": {
+        "zh": "榜葛剌",
+        "en": "Bengal"
+      },
+      "color": "#6b7c3a",
+      "order": 19,
+      "description": {
+        "zh": "孟加拉湾北岸的孟加拉苏丹国，分䑸曾到此访问。",
+        "en": "The Bengal Sultanate on the northern Bay of Bengal, visited by the detached squadron."
+      }
+    },
+    {
+      "id": "gujarat",
+      "name": {
+        "zh": "古吉拉特",
+        "en": "Gujarat"
+      },
+      "color": "#9a6b3f",
+      "order": 20,
+      "description": {
+        "zh": "印度西北部的古吉拉特苏丹国，甘巴里与阿拨把丹在其境内。",
+        "en": "The Gujarat Sultanate in north-western India, containing Cambay and Ahmadabad."
+      }
+    },
+    {
+      "id": "rasulid",
+      "name": {
+        "zh": "拉苏里",
+        "en": "Rasulid"
+      },
+      "color": "#7a4a4a",
+      "order": 21,
+      "description": {
+        "zh": "统治也门与亚丁的拉苏里王朝。",
+        "en": "The Rasulid dynasty of Yemen and Aden."
+      }
+    },
+    {
+      "id": "mamluk",
+      "name": {
+        "zh": "马穆鲁克",
+        "en": "Mamluk"
+      },
+      "color": "#5f5a4a",
+      "order": 22,
+      "description": {
+        "zh": "统治埃及、叙利亚与汉志的马穆鲁克苏丹国，天方在其境内。",
+        "en": "The Mamluk Sultanate of Egypt, Syria and the Hejaz, containing Mecca."
+      }
     }
   ],
   "tags": [
@@ -77,8 +249,8 @@
     "航海",
     "明代"
   ],
-  "license": "CC-BY-4.0（数据初稿，待校订）",
-  "updatedAt": "2026-11-16",
+  "license": "CC-BY-4.0（疆域面含 Seshat Cliopatria 数据，CC BY 4.0；满剌加、古里、忽鲁谟斯等小国与古吉拉特为示意补绘）",
+  "updatedAt": "2026-11-17",
   "coverText": {
     "years": "1405 — 1433",
     "brand": "史迹 · 时空地图",

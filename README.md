@@ -296,8 +296,9 @@ pnpm --filter @atlas/mobile exec expo prebuild   # 生成 android/ios（已 giti
 ## 八、数据来源与许可
 
 - 事件、路线与专题文本：项目自行整理，示意初稿，待史料页码级校订；
-- 时代疆域面（隋唐、宋元、三国）：**Seshat Cliopatria**，CC BY 4.0；
+- 时代疆域面（隋唐、宋元、三国、郑和）：**Seshat Cliopatria**，CC BY 4.0；
 - 明清疆域面：**World Empires**（底层 Cliopatria），CC BY 4.0；
+- 郑和专题的满剌加、古里、忽鲁谟斯、溜山、佐法儿、东非城邦与古吉拉特为示意补绘，不是 Cliopatria 数据；
   - 仓库：https://github.com/Seshat-Global-History-Databank/cliopatria
   - 引用：Bennett, J. S., Mutch, E., & Chalstrey, E. (2025). Cliopatria. *Scientific Data*.
 - 详细修改说明与署名见 [`data/atlases/ATTRIBUTION.md`](data/atlases/ATTRIBUTION.md)；

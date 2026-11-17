@@ -57,6 +57,7 @@ export const BUNDLED_TEXT: Record<string, BundledTextLoader> = {
   "zheng-he/events/events.json": () => require("../../../../data/atlases/zheng-he/events/events.json"),
   "zheng-he/manifest.json": () => require("../../../../data/atlases/zheng-he/manifest.json"),
   "zheng-he/routes/voyages.geojson": () => require("../../../../data/atlases/zheng-he/routes/voyages.geojson"),
+  "zheng-he/territories/territories.geojson": () => require("../../../../data/atlases/zheng-he/territories/territories.geojson"),
 };
 
 export const BUNDLED_IMAGES: Record<string, number> = {
