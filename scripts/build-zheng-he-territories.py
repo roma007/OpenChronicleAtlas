@@ -122,6 +122,28 @@ DATASET_RULES = [
 
 SCHEMATIC_RULES = [
     {
+        'entityId': 'dongfan',
+        'label': {'zh': '东番（台湾）· 未设府县', 'en': 'Dongfan (Taiwan) · no Ming administration'},
+        'labelPoint': [121.0, 23.7],
+        'startDate': START,
+        'endDate': END,
+        'opacity': 0,
+        'name': {'zh': '东番（台湾）示意标注', 'en': 'Dongfan (Taiwan) annotation'},
+        'description': {
+            'zh': '东番即今台湾本岛。明朝视其为东南海防要地，曾多次派兵入台追剿海盗与倭寇，但未在岛上设置府县、派驻行政官员或编户征税。此面仅作示意标注，不表示明朝疆域。',
+            'en': 'Dongfan is present-day Taiwan. The Ming treated it as a coastal-defence frontier and repeatedly sent forces against pirates and Japanese raiders, but never established prefectures, counties, resident officials or household taxation on the island. This outline is an annotation, not a Ming territory.',
+        },
+        'geometry': {
+            'type': 'Polygon',
+            'coordinates': [[
+                [121.5, 25.3], [122.0, 25.0], [121.9, 24.0], [121.6, 23.0],
+                [121.2, 22.3], [120.9, 21.9], [120.8, 22.2], [120.2, 22.5],
+                [120.1, 23.0], [120.2, 23.7], [120.7, 24.3], [121.0, 25.0],
+                [121.5, 25.3],
+            ]],
+        },
+    },
+    {
         'entityId': 'gujarat',
         'label': {'zh': '古吉拉特', 'en': 'Gujarat'},
         'labelPoint': [71.8, 22.9],
@@ -360,7 +382,7 @@ def schematic_feature(rule: dict, entity_id: str) -> dict:
             'description': rule['description'],
             'label': rule['label'],
             'labelPoint': rule['labelPoint'],
-            'opacity': 0.15,
+            'opacity': rule.get('opacity', 0.15),
             'extensions': {
                 'precision': 'schematic',
                 'source': SCHEMATIC_SOURCE,

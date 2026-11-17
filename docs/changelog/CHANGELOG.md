@@ -3,6 +3,28 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.104] - 2026-11-17
+
+### Added
+- 郑和专题新增「东番（台湾）」示意标注：台湾本岛灰色细描边、不填充，标识为「东番（台湾）· 未设府县」，明确不表示明朝疆域。
+- 图例新增「说明」块，内容为「东番（台湾）：明朝海防要地，未设府县」；Web 与移动端筛选面板同步。
+- manifest 新增通用 `extensions.notes` 字段，供专题补充历史说明。
+
+### Changed
+- `scripts/build-zheng-he-territories.py` 支持按规则覆盖 `opacity`，新增东番示意面。
+- `data/atlases/ATTRIBUTION.md` 记录东番为示意标注、不表示明朝疆域。
+
+### Data
+- 郑和专题疆域面 27 → 28 个（新增东番示意标注）。
+- 重建 `search-index.json`（数据版本 `2026-11-17-a1795d6d578e`）、`index.json`、移动端生成物。
+
+### Docs
+- `docs/plans/2026-11-17-M164-郑和专题台湾注记-design.md`
+- `docs/plans/2026-11-17-M164-郑和专题台湾注记-plan.md`
+- `docs/conversations/2026-11-17-郑和专题台湾注记.md`
+
+---
+
 ## [v1.0.103] - 2026-11-17
 
 ### Changed

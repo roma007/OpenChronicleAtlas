@@ -100,6 +100,7 @@ const zh = {
   'atlas.filters': '筛选',
 
   'legend.layers': '路线图层',
+  'legend.notes': '说明',
   'legend.territories': '时代疆域遮罩',
   'legend.on': '显示',
   'legend.off': '隐藏',
@@ -281,6 +282,7 @@ const en: Record<keyof typeof zh, string> = {
   'atlas.filters': 'Filters',
 
   'legend.layers': 'Route layers',
+  'legend.notes': 'Notes',
   'legend.territories': 'Period territories',
   'legend.on': 'On',
   'legend.off': 'Off',

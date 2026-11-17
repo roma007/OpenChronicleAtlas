@@ -242,6 +242,19 @@
         "zh": "统治埃及、叙利亚与汉志的马穆鲁克苏丹国，天方在其境内。",
         "en": "The Mamluk Sultanate of Egypt, Syria and the Hejaz, containing Mecca."
       }
+    },
+    {
+      "id": "dongfan",
+      "name": {
+        "zh": "东番（台湾）",
+        "en": "Dongfan (Taiwan)"
+      },
+      "color": "#6b6256",
+      "order": 23,
+      "description": {
+        "zh": "明朝海防要地，未设府县。此实体只用于表示台湾本岛的示意标注，不表示明朝疆域。",
+        "en": "A Ming coastal-defence frontier without Ming prefectures or counties. This entity is an annotation for Taiwan, not a Ming territory."
+      }
     }
   ],
   "tags": [
@@ -256,5 +269,13 @@
     "brand": "史迹 · 时空地图",
     "note": "示意图 · 数据待史料校订",
     "noteEn": "Schematic · data pending review"
+  },
+  "extensions": {
+    "notes": [
+      {
+        "zh": "东番（台湾）：明朝海防要地，未设府县。",
+        "en": "Dongfan (Taiwan): a Ming coastal-defence frontier, without Ming prefectures or counties."
+      }
+    ]
   }
 }

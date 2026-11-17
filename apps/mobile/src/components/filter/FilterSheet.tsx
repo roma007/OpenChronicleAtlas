@@ -55,6 +55,9 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
   const entities = dataset.manifest.entities
     .filter((entity) => entitiesWithData.has(entity.id))
     .sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
+  const notes = Array.isArray(dataset.manifest.extensions?.notes)
+    ? (dataset.manifest.extensions.notes as Array<{ zh: string; en?: string }>)
+    : [];
   const categories = collectCategories(dataset.events);
   const segmentTypes = [
     ...new Set(
@@ -113,6 +116,18 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
               </Pressable>
             );
           })}
+
+          {notes.length > 0 ? (
+            <>
+              <View style={styles.divider} />
+              <Text style={styles.sectionTitle}>{t('legend.notes')}</Text>
+              {notes.map((note, index) => (
+                <Text key={index} style={styles.note}>
+                  {resolveLocalized(note, locale)}
+                </Text>
+              ))}
+            </>
+          ) : null}
 
           <View style={styles.divider} />
 
@@ -240,6 +255,15 @@ const styles = StyleSheet.create({
   entityName: { flex: 1, fontSize: 14, color: colors.ink },
   dim: { opacity: 0.4 },
   check: { fontSize: 13, color: colors.cinnabar },
+  note: {
+    fontSize: 12,
+    lineHeight: 19,
+    color: colors.inkSoft,
+    backgroundColor: colors.ink + '08',
+    borderRadius: radii.sm,
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+  },
   segmentList: { marginTop: spacing.sm, gap: spacing.xs },
   segmentRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
   segmentLine: {

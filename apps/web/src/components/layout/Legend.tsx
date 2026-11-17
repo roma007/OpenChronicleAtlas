@@ -37,6 +37,9 @@ export function Legend({ className = '' }: LegendProps) {
   const entities = dataset.manifest.entities
     .filter((entity) => entitiesWithData.has(entity.id))
     .sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
+  const notes = Array.isArray(dataset.manifest.extensions?.notes)
+    ? (dataset.manifest.extensions.notes as Array<{ zh: string; en?: string }>)
+    : [];
   const categories = collectCategories(dataset.events);
   const segmentTypes = [
     ...new Set(
@@ -200,6 +203,24 @@ export function Legend({ className = '' }: LegendProps) {
           );
         })}
       </ul>
+
+      {notes.length > 0 ? (
+        <div className="mt-3 border-t border-ink/10 pt-3">
+          <h2 className="font-serif text-sm tracking-[0.2em] text-ink">
+            {t('legend.notes')}
+          </h2>
+          <ul className="mt-2 space-y-1.5">
+            {notes.map((note, index) => (
+              <li
+                key={index}
+                className="rounded-lg bg-ink/[0.03] px-2.5 py-2 text-[11px] leading-relaxed text-ink-soft"
+              >
+                {resolveLocalized(note, locale)}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
 
       {segmentTypes.length > 0 ? (
         <div className="mt-3 border-t border-ink/10 pt-3">
