@@ -39,6 +39,9 @@ const ROUTE_LABEL_PADDING_PX = 3;
 const ROUTE_TRAIL_LENGTH_M = 14000;
 /** 抵达涟漪持续时间 */
 const ROUTE_ARRIVAL_MS = 1500;
+/** 拖动时间轴时限制涟漪密度：同时最多几圈、两圈之间至少隔多久 */
+const ARRIVAL_MAX_ACTIVE = 6;
+const ARRIVAL_MIN_GAP_MS = 90;
 /** 未尽之路（淡墨预告线）最低缩放 */
 const ROUTE_GHOST_MIN_ZOOM = 5;
 /** 到达该缩放级别后，同一格内的多个事件改为散点显示，避免聚合点无法展开 */
@@ -157,14 +160,30 @@ function trailPath(geometry: RouteGeometry, progress: number): [number, number][
   return points;
 }
 
-/** 抵达终点时放一圈扩散涟漪，1.5s 后自动移除 */
+/** 抵达终点时放一圈扩散涟漪，1.5s 后自动移除；拖动时间轴时按密度限流 */
+interface ArrivalState {
+  timers: number[];
+  active: number;
+  lastAt: number;
+}
+
 function emitArrival(
   map: any,
   AMap: any,
   point: [number, number],
   color: string,
-  timers: { current: number[] },
+  state: ArrivalState,
 ) {
+  const now = performance.now();
+  if (
+    state.active >= ARRIVAL_MAX_ACTIVE ||
+    now - state.lastAt < ARRIVAL_MIN_GAP_MS
+  ) {
+    return;
+  }
+  state.active += 1;
+  state.lastAt = now;
+
   const element = document.createElement('span');
   element.className = 'atlas-arrival';
   element.style.setProperty('--marker-color', color);
@@ -176,9 +195,10 @@ function emitArrival(
     bubble: true,
   });
   map.add(marker);
-  timers.current.push(
+  state.timers.push(
     window.setTimeout(() => {
       map.remove(marker);
+      state.active = Math.max(0, state.active - 1);
     }, ROUTE_ARRIVAL_MS + 200),
   );
 }
@@ -234,7 +254,7 @@ export function MapCanvas() {
   const fittedAtlasIdRef = useRef<string | null>(null);
   const bubbleTimerRef = useRef<number | null>(null);
   const lastBubbleRef = useRef<{ id: string; at: number } | null>(null);
-  const arrivalTimersRef = useRef<number[]>([]);
+  const arrivalStateRef = useRef<ArrivalState>({ timers: [], active: 0, lastAt: -Infinity });
   const zoomScaleRef = useRef(1);
 
   const [ready, setReady] = useState(false);
@@ -305,8 +325,8 @@ export function MapCanvas() {
     return () => {
       cancelled = true;
       if (bubbleTimerRef.current !== null) window.clearTimeout(bubbleTimerRef.current);
-      for (const timer of arrivalTimersRef.current) window.clearTimeout(timer);
-      arrivalTimersRef.current = [];
+      for (const timer of arrivalStateRef.current.timers) window.clearTimeout(timer);
+      arrivalStateRef.current = { timers: [], active: 0, lastAt: -Infinity };
       map?.destroy();
       mapRef.current = null;
       amapRef.current = null;
@@ -858,12 +878,12 @@ export function MapCanvas() {
         lastProgressRef.current.set(key, progress);
       }
 
-      // 抵达终点：一次性涟漪，只在实际播放时触发，拖动时间轴不会炸屏
-      if (playing && previous > 0 && previous < 0.999 && progress >= 0.999) {
+      // 抵达终点：放一圈涟漪。播放和拖动时都触发，拖动时按密度限流
+      if (previous > 0 && previous < 0.999 && progress >= 0.999) {
         const end = entry.geometry.coordinates.at(-1);
         const entity = dataset.entitiesById.get(entry.feature.properties.entityId);
         if (end) {
-          emitArrival(map, AMap, end, entity?.color ?? '#8c2f24', arrivalTimersRef);
+          emitArrival(map, AMap, end, entity?.color ?? '#8c2f24', arrivalStateRef.current);
         }
       }
 
