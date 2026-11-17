@@ -3,6 +3,16 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.87] - 2026-11-17
+
+### Added
+- 首页新增临时「遮罩模式」四选一：整图渐变 / 局部径向渐变 / 毛玻璃左带 / 纯文字描边，用于对比文字可读性方案；取值存 `localStorage`，与遮罩、副文字两个滑杆联动。
+
+### Docs
+- `docs/conversations/2026-11-16-封面换成AI插画.md` 补「临时遮罩模式切换」一节。
+
+---
+
 ## [v1.0.86] - 2026-11-17
 
 ### Changed

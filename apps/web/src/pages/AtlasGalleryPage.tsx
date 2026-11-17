@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAtlasStore } from '../stores/useAtlasStore';
-import { AtlasCard } from '../components/atlas/AtlasCard';
+import { AtlasCard, type CoverMaskMode } from '../components/atlas/AtlasCard';
 import { LanguageToggle } from '../components/layout/LanguageToggle';
 import { useI18n } from '../hooks/useI18n';
 
@@ -9,6 +9,23 @@ const SCRIM_STORAGE_KEY = 'atlas-cover-scrim';
 const DEFAULT_SCRIM = 97;
 const SUB_SCALE_STORAGE_KEY = 'atlas-cover-subscale';
 const DEFAULT_SUB_SCALE = 100;
+const MASK_MODE_STORAGE_KEY = 'atlas-cover-mode';
+const MASK_MODES: Array<{ value: CoverMaskMode; zh: string; en: string }> = [
+  { value: 'full', zh: '整图', en: 'Full' },
+  { value: 'local', zh: '局部', en: 'Local' },
+  { value: 'glass', zh: '毛玻璃', en: 'Glass' },
+  { value: 'outline', zh: '描边', en: 'Outline' },
+];
+
+function readMaskMode(): CoverMaskMode {
+  try {
+    const raw = window.localStorage.getItem(MASK_MODE_STORAGE_KEY);
+    if (raw && MASK_MODES.some((item) => item.value === raw)) return raw as CoverMaskMode;
+  } catch {
+    // 忽略隐私模式下的读取失败
+  }
+  return 'full';
+}
 
 function readStored(key: string, fallback: number, min: number, max: number): number {
   try {
@@ -28,6 +45,7 @@ export function AtlasGalleryPage() {
   const [subScale, setSubScale] = useState(() =>
     readStored(SUB_SCALE_STORAGE_KEY, DEFAULT_SUB_SCALE, 60, 200),
   );
+  const [maskMode, setMaskMode] = useState<CoverMaskMode>(readMaskMode);
 
   useEffect(() => {
     void loadIndex();
@@ -37,10 +55,11 @@ export function AtlasGalleryPage() {
     try {
       window.localStorage.setItem(SCRIM_STORAGE_KEY, String(scrim));
       window.localStorage.setItem(SUB_SCALE_STORAGE_KEY, String(subScale));
+      window.localStorage.setItem(MASK_MODE_STORAGE_KEY, maskMode);
     } catch {
       // 忽略隐私模式下的写入失败
     }
-  }, [scrim, subScale]);
+  }, [scrim, subScale, maskMode]);
 
   return (
     <div className="min-h-full bg-parchment">
@@ -88,6 +107,24 @@ export function AtlasGalleryPage() {
           </div>
 
           <div className="flex flex-wrap items-center gap-2">
+            <div className="flex items-center gap-1 rounded-full border border-ink/10 bg-parchment p-1 text-[11px] text-ink-soft">
+              {MASK_MODES.map((mode) => (
+                <button
+                  key={mode.value}
+                  type="button"
+                  aria-pressed={maskMode === mode.value}
+                  onClick={() => setMaskMode(mode.value)}
+                  className={`rounded-full px-2 py-0.5 transition ${
+                    maskMode === mode.value
+                      ? 'bg-cinnabar text-parchment'
+                      : 'hover:bg-ink/5'
+                  }`}
+                >
+                  {locale === 'en' ? mode.en : mode.zh}
+                </button>
+              ))}
+            </div>
+
             <div className="flex items-center gap-2 rounded-full border border-ink/10 bg-parchment px-3 py-1.5 text-[11px] text-ink-soft">
               <span>{locale === 'en' ? 'Cover mask' : '封面遮罩'}</span>
               <input
@@ -167,6 +204,7 @@ export function AtlasGalleryPage() {
                 atlas={atlas}
                 scrimOpacity={scrim / 100}
                 subScale={subScale / 100}
+                maskMode={maskMode}
               />
             ))}
           </div>
