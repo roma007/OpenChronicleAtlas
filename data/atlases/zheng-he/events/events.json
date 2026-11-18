@@ -6193,6 +6193,169 @@
     "importance": 3
   },
   {
+    "id": "fleet-halted-1424-08",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "罢西洋宝船",
+      "en": "The treasure fleet is halted"
+    },
+    "aliases": [
+      {
+        "zh": "仁宗即位诏",
+        "en": "Hongxi accession edict"
+      }
+    ],
+    "date": "1424-08-15",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京（今北京）",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "政策",
+    "summary": {
+      "zh": "仁宗即位当日下诏：下西洋诸番国宝船悉皆停止，已泊福建、太仓者俱回南京。",
+      "en": "On the day of his accession the Hongxi emperor ordered all treasure ships to stop; those already at Fujian or Taicang were to return to Nanjing."
+    },
+    "description": {
+      "zh": "永乐二十二年八月十五日（1424-08-15），仁宗朱高炽即位，颁即位诏：「下西洋诸番国宝船，悉皆停止，如已在福建、太仓等处安泊者，俱回南京，将带去货物仍于内府该库交收。诸番国有进贡使臣当回去者，只量拨人船护送前去。原差去内外官员速皆回京，民稍人等各发宁家。」同诏又要「各处修造下番海船，悉皆停止」。同日罢迤西市马与云南、交阯采办，《明史·仁宗本纪》概括为「罢西洋宝船」。《殊域周咨录》记此诏出自户部尚书夏原吉之请。",
+      "en": "On 15 August 1424 the Hongxi emperor issued his accession edict: all treasure ships bound for the Western Ocean were to stop, those already anchored in Fujian or Taicang were to return to Nanjing with their cargo handed to the imperial treasury, and shipbuilding for overseas voyages was to cease. The same day saw the end of horse purchasing in the northwest and of procurement in Yunnan and Jiaozhi. The History of Ming sums it up as “abolishing the Western Ocean treasure ships”; the Shuyu Zhouzi Lu attributes the edict to the request of the minister Xia Yuanji."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明仁宗实录》",
+        "author": "张辅等",
+        "year": 1430,
+        "note": "卷一上收录永乐二十二年八月十五日即位诏；卷七上记洪熙元年二月郑和守备南京"
+      },
+      {
+        "title": "《明史·仁宗本纪》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "永乐二十二年八月丁巳「罢西洋宝船」"
+      },
+      {
+        "title": "《殊域周咨录》",
+        "author": "严从简",
+        "year": 1574,
+        "note": "卷八「琐里·古里」条：仁宗即位诏停西洋取宝船，宣德中复开，正统初复禁"
+      }
+    ],
+    "relatedIds": [
+      "nanjing-guard-1425-02",
+      "xuande-restart-1430-06"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "nanjing-guard-1425-02",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "郑和守备南京",
+      "en": "Zheng He becomes Nanjing garrison commander"
+    },
+    "date": "1425-02-08",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "南京（今江苏南京）",
+        "en": "Nanjing"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "制度",
+    "summary": {
+      "zh": "仁宗命郑和领下番官军守南京，下西洋船队转为城防与宫室营缮。",
+      "en": "Zheng He was ordered to garrison Nanjing with the fleet’s troops; the voyages gave way to city defence and palace repairs."
+    },
+    "description": {
+      "zh": "洪熙元年二月初八（1425-02-08），《明仁宗实录》载：「命太监郑和领下番官军守南京，于内则与内官王景弘、朱卜花、唐观保协同管事；遇外有事，同襄城伯李隆、驸马都尉沐昕商议的当，然后施行。」下西洋的部队就此转为南京守备。此后六年间郑和主持修缮南京宫殿、天地坛与大祀殿，下西洋暂停。",
+      "en": "On 8 February 1425 the Veritable Records of Hongxi record the order that Zheng He should garrison Nanjing with the troops of the Western Ocean fleet, working with the eunuchs Wang Jinghong, Zhu Buhua and Tang Guanbao internally and with the nobles Li Long and Mu Xin on external affairs. The voyage troops thus became the Nanjing garrison. Over the next six years Zheng He supervised repairs to the Nanjing palaces and altars while the voyages were suspended."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明仁宗实录》",
+        "author": "张辅等",
+        "year": 1430,
+        "note": "卷一上收录永乐二十二年八月十五日即位诏；卷七上记洪熙元年二月郑和守备南京"
+      }
+    ],
+    "relatedIds": [
+      "fleet-halted-1424-08",
+      "xuande-restart-1430-06"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "xuande-restart-1430-06",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "宣德重启下西洋",
+      "en": "The Xuande emperor restarts the voyages"
+    },
+    "date": "1430-06-29",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京（今北京）",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "政策",
+    "summary": {
+      "zh": "宣宗遣郑和、王景弘赍诏往谕二十国及旧港宣慰司，第七次下西洋启动。",
+      "en": "The Xuande emperor sent Zheng He and Wang Jinghong with an edict to twenty countries and the Palembang commission, launching the seventh voyage."
+    },
+    "description": {
+      "zh": "宣德五年六月初九（1430-06-29），《明宣宗实录》载「遣太监郑和等赍诏往谕诸番国」，诏曰「尔诸番国远处海外，未有闻知，兹特遣太监郑和、王景弘等赍诏往谕」，所列凡忽鲁谟斯、锡兰山、古里、满剌加、柯枝、卜剌哇、木骨都束、喃渤利、苏门答剌、剌撒、溜山、阿鲁、甘巴里、阿丹、佐法儿、竹步、加异勒等二十国及旧港宣慰司。距仁宗罢宝船已六年。",
+      "en": "On 29 June 1430 the Veritable Records of Xuande record the dispatch of Zheng He and Wang Jinghong with an edict to the Western Ocean states, naming twenty countries — Hormuz, Ceylon, Calicut, Malacca, Cochin, Brava, Mogadishu, Lambri, Samudera, Lasa, the Maldives, Aru, Cambay, Aden, Dhofar, Juba, Kayal and others — together with the Palembang commission. Six years had passed since the Hongxi emperor halted the fleet."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明宣宗实录》",
+        "author": "张辅等",
+        "year": 1435,
+        "note": "卷六七记宣德五年六月戊寅遣郑和、王景弘赍诏往谕诸番国"
+      },
+      {
+        "title": "《殊域周咨录》",
+        "author": "严从简",
+        "year": 1574,
+        "note": "卷八「琐里·古里」条：仁宗即位诏停西洋取宝船，宣德中复开，正统初复禁"
+      }
+    ],
+    "relatedIds": [
+      "fleet-halted-1424-08",
+      "nanjing-guard-1425-02",
+      "calicut-1433-04"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
     "id": "depart-1431-01",
     "atlasId": "zheng-he",
     "name": {
@@ -7468,7 +7631,7 @@
       "en": "Zheng He dies at Calicut during the seventh voyage."
     },
     "description": {
-      "zh": "1433 年，郑和在第七次下西洋归程中病逝于古里，终年六十余岁。船队由太监王景弘等率领，于是年七月返抵南京。",
+      "zh": "1433 年，郑和在第七次下西洋归程中病逝于古里，终年六十余岁。船队由太监王景弘等率领，于是年七月返抵南京。\n\n> 卒地有争议：《非幻庵香火圣像记》（1457）称「至癸丑岁，卒于古里国」，郑鹤声、郑一钧据此主张卒于古里；陈平平（2014）认为该记载错乱、据《大明都知监太监洪公寿葬铭》出使古里者为副使洪保，另有卒于南京说。",
       "en": "In 1433, on the return leg of the seventh voyage, Zheng He died at Calicut in his sixties. The fleet returned to Nanjing in the seventh month under the eunuch Wang Jinghong and others."
     },
     "images": [],
@@ -7484,6 +7647,12 @@
         "author": "郑鹤声、郑一钧",
         "year": 1980,
         "note": "航线走向参考，坐标为示意简化"
+      },
+      {
+        "title": "《非幻庵香火圣像记》",
+        "author": "三山道人（刻）",
+        "year": 1457,
+        "note": "「至癸丑岁，卒于古里国」，为「卒于古里」说的主要依据"
       }
     ],
     "relatedIds": [
@@ -7492,7 +7661,66 @@
       "calicut-1432-07"
     ],
     "importance": 3,
-    "endDate": "1433-04-10"
+    "endDate": "1433-04-10",
+    "extensions": {
+      "disputed": true
+    }
+  },
+  {
+    "id": "wang-jinghong-return-1433-06",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "王景弘领队归国",
+      "en": "Wang Jinghong brings the fleet home"
+    },
+    "date": "1433-06-20",
+    "location": {
+      "lng": 79.86,
+      "lat": 6.93,
+      "place": {
+        "zh": "锡兰山（今斯里兰卡）",
+        "en": "Ceylon"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "郑和卒后，船队由正使太监王景弘率领继续返航，七月初六抵南京。",
+      "en": "After Zheng He’s death the fleet continued home under the chief envoy Wang Jinghong, reaching Nanjing on 22 July 1433."
+    },
+    "description": {
+      "zh": "郑和卒于返航途中后，船队由正使太监王景弘率领继续西归，经锡兰山、苏门答剌、满剌加，据祝允明《前闻记》所记日程，宣德八年七月初六（1433-07-22）抵南京。王景弘原名单通（一作贵通），自首次下西洋即为副使，长于航务；宣德九年（1434）又奉命出使苏门答剌，后世或称「第八次下西洋」。",
+      "en": "After Zheng He died on the homeward passage the fleet continued west under the chief envoy Wang Jinghong, calling at Ceylon, Samudera and Malacca and reaching Nanjing on 22 July 1433 according to the itinerary in Zhu Yunming’s Qianwen Ji. Wang Jinghong, originally named Guitong, had sailed as vice-envoy since the first voyage and was responsible for navigation; in 1434 he was sent again to Samudera, sometimes counted as an eighth voyage."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《前闻记·下西洋》",
+        "author": "祝允明",
+        "year": 1520,
+        "note": "记录第七次下西洋的日程、人数与返航日期"
+      },
+      {
+        "title": "《明宣宗实录》",
+        "author": "张辅等",
+        "year": 1435,
+        "note": "卷六七记宣德五年六月戊寅遣郑和、王景弘赍诏往谕诸番国"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "史料辑录；另提出「郑和 1433 年卒于古里」说"
+      }
+    ],
+    "relatedIds": [
+      "calicut-1433-04",
+      "return-1433-07",
+      "xuande-restart-1430-06"
+    ],
+    "importance": 3
   },
   {
     "id": "cargo-back-1433-07",
