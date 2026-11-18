@@ -3,6 +3,15 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.109] - 2026-11-18
+
+### Fixed
+- 重建搜索索引，使 `data/atlases/search-index.json` 与 `index.json` 的 `dataVersion` 一致
+  （`2026-11-18-f2701544c9d1`）。上一版索引生成于航线最终修正之前，两个文件版本号不同，
+  客户端会反复弹出「数据已更新」提示。
+
+---
+
 ## [v1.0.108] - 2026-11-18
 
 ### Changed
