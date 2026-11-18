@@ -3,6 +3,19 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.126] - 2026-11-18
+
+### Fixed
+- 本地 dev server 打不开（`http://localhost:5173/` 时而可用、`http://127.0.0.1:5173/` 始终不通）：
+  `apps/web/vite.config.ts` 的 `server` 只写了 `port`，Vite 默认绑定 `localhost`，
+  在 macOS 上解析为 `::1`，因此 IPv4 回环访问必然失败；而端口被占用时又没有
+  `strictPort`，会静默换到 5174，造成「服务在跑、5173 却打不开」。
+  改为 `host: '127.0.0.1'` + `strictPort: true`，端口冲突时直接报错而不是漂移。
+- 说明：本次不是代码回归，而是 `pnpm dev` 进程已退出（后台进程随上一会话结束），
+  叠加上述地址解析问题，表现为「又访问不了了」。
+
+---
+
 ## [v1.0.125] - 2026-11-18
 
 ### Added

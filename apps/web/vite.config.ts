@@ -165,7 +165,12 @@ export default defineConfig(({ mode }) => {
       },
     },
     server: {
+      // 只绑 IPv4 回环：macOS 上 Vite 默认的 localhost 只解析到 ::1，
+      // 导致 http://127.0.0.1:5173 打不开。
+      host: '127.0.0.1',
       port: 5173,
+      // 端口被占用时直接报错，避免静默换到 5174 却仍去开 5173。
+      strictPort: true,
     },
   };
 });
