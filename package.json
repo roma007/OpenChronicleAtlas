@@ -1,6 +1,6 @@
 {
   "name": "open-chronicle-atlas",
-  "version": "1.0.110",
+  "version": "1.0.111",
   "private": true,
   "type": "module",
   "packageManager": "pnpm@10.30.3",
@@ -22,7 +22,8 @@
     "release": "bash scripts/deploy.sh",
     "ops:inbox": "bash scripts/ops-inbox.sh",
     "check:routes": "tsx scripts/check-event-routes.ts",
-    "check:heads": "tsx scripts/check-route-endpoints.ts"
+    "check:heads": "tsx scripts/check-route-endpoints.ts",
+    "check:land": "tsx scripts/check-route-land.ts"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",

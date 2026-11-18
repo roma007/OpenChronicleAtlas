@@ -55,6 +55,7 @@ export const BUNDLED_TEXT: Record<string, BundledTextLoader> = {
   "xuanzang/manifest.json": () => require("../../../../data/atlases/xuanzang/manifest.json"),
   "xuanzang/routes/journey.geojson": () => require("../../../../data/atlases/xuanzang/routes/journey.geojson"),
   "zheng-he/events/events.json": () => require("../../../../data/atlases/zheng-he/events/events.json"),
+  "zheng-he/land-legs.allow.json": () => require("../../../../data/atlases/zheng-he/land-legs.allow.json"),
   "zheng-he/manifest.json": () => require("../../../../data/atlases/zheng-he/manifest.json"),
   "zheng-he/routes/voyages.geojson": () => require("../../../../data/atlases/zheng-he/routes/voyages.geojson"),
   "zheng-he/territories/territories.geojson": () => require("../../../../data/atlases/zheng-he/territories/territories.geojson"),

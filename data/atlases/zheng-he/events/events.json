@@ -414,11 +414,11 @@
     },
     "date": "1406-06-01",
     "location": {
-      "lng": 112.37,
-      "lat": -7.56,
+      "lng": 112.65,
+      "lat": -7.15,
       "place": {
-        "zh": "满者伯夷（今印尼东爪哇）",
-        "en": "Majapahit (modern East Java)"
+        "zh": "锦石（今印尼格雷西克，满者伯夷外港）",
+        "en": "Gresik (outport of Majapahit, modern Indonesia)"
       }
     },
     "entityIds": [
@@ -463,11 +463,11 @@
     },
     "date": "1406-07-15",
     "location": {
-      "lng": 112.37,
-      "lat": -7.56,
+      "lng": 112.65,
+      "lat": -7.15,
       "place": {
-        "zh": "爪哇（今印尼东爪哇）",
-        "en": "Java (Indonesia)"
+        "zh": "锦石（今印尼格雷西克，满者伯夷外港）",
+        "en": "Gresik (outport of Majapahit, modern Indonesia)"
       }
     },
     "entityIds": [
@@ -517,8 +517,8 @@
     },
     "date": "1406-08-01",
     "location": {
-      "lng": 78.1,
-      "lat": 8.9,
+      "lng": 78.12,
+      "lat": 8.57,
       "place": {
         "zh": "加异勒（今印度卡亚尔）",
         "en": "Kayal (modern India)"
@@ -1265,8 +1265,8 @@
     },
     "date": "1409-03-10",
     "location": {
-      "lng": 78.1,
-      "lat": 8.9,
+      "lng": 78.12,
+      "lat": 8.57,
       "place": {
         "zh": "加异勒（今印度卡亚尔）",
         "en": "Kayal (India)"
@@ -1841,8 +1841,8 @@
     },
     "date": "1410-12-01",
     "location": {
-      "lng": 78.1,
-      "lat": 8.9,
+      "lng": 78.12,
+      "lat": 8.57,
       "place": {
         "zh": "加异勒（今印度卡亚尔）",
         "en": "Kayal (India)"
@@ -2368,7 +2368,10 @@
       "cambay-1414-03",
       "hormuz-1414-05"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "hormuz-1414-05",
@@ -2479,7 +2482,7 @@
     },
     "date": "1415-01-01",
     "location": {
-      "lng": 43.33,
+      "lng": 44.03,
       "lat": 1.11,
       "place": {
         "zh": "卜剌哇（今索马里布拉瓦）",
@@ -2577,11 +2580,11 @@
     },
     "date": "1415-01-01",
     "location": {
-      "lng": 42.77,
-      "lat": 0.49,
+      "lng": 42.7,
+      "lat": -0.35,
       "place": {
-        "zh": "竹步（今索马里朱巴）",
-        "en": "Juba (modern Somalia)"
+        "zh": "竹步（今索马里朱巴河口）",
+        "en": "Juba river mouth (modern Somalia)"
       }
     },
     "entityIds": [
@@ -3457,7 +3460,7 @@
     },
     "date": "1419-01-15",
     "location": {
-      "lng": 43.33,
+      "lng": 44.03,
       "lat": 1.11,
       "place": {
         "zh": "卜剌哇（今索马里布拉瓦）",
@@ -4021,7 +4024,10 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "hormuz-1421-11",
@@ -4223,7 +4229,7 @@
     },
     "date": "1422-02-15",
     "location": {
-      "lng": 43.33,
+      "lng": 44.03,
       "lat": 1.11,
       "place": {
         "zh": "卜剌哇（今索马里布拉瓦）",
@@ -4271,11 +4277,11 @@
     },
     "date": "1422-03-01",
     "location": {
-      "lng": 42.77,
-      "lat": 0.49,
+      "lng": 42.7,
+      "lat": -0.35,
       "place": {
-        "zh": "竹步（今索马里朱巴）",
-        "en": "Juba (Somalia)"
+        "zh": "竹步（今索马里朱巴河口）",
+        "en": "Juba river mouth (modern Somalia)"
       }
     },
     "entityIds": [
@@ -4753,11 +4759,11 @@
     },
     "date": "1432-02-01",
     "location": {
-      "lng": 112.37,
-      "lat": -7.56,
+      "lng": 112.65,
+      "lat": -7.15,
       "place": {
-        "zh": "爪哇（今印尼东爪哇）",
-        "en": "Java (Indonesia)"
+        "zh": "锦石（今印尼格雷西克，满者伯夷外港）",
+        "en": "Gresik (outport of Majapahit, modern Indonesia)"
       }
     },
     "entityIds": [
@@ -5125,7 +5131,10 @@
       "aden-1418-06",
       "calicut-1433-04"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "mogadishu-1432-12",
@@ -5184,7 +5193,7 @@
     },
     "date": "1433-01-01",
     "location": {
-      "lng": 43.33,
+      "lng": 44.03,
       "lat": 1.11,
       "place": {
         "zh": "卜剌哇（今索马里布拉瓦）",
@@ -5232,11 +5241,11 @@
     },
     "date": "1433-01-15",
     "location": {
-      "lng": 42.77,
-      "lat": 0.49,
+      "lng": 42.7,
+      "lat": -0.35,
       "place": {
-        "zh": "竹步（今索马里朱巴）",
-        "en": "Juba (Somalia)"
+        "zh": "竹步（今索马里朱巴河口）",
+        "en": "Juba river mouth (modern Somalia)"
       }
     },
     "entityIds": [

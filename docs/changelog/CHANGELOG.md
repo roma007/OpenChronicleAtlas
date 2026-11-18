@@ -3,6 +3,30 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.111] - 2026-11-18
+
+### Fixed
+- 郑和七次下西洋的航次线不再横穿大陆：原先只有 212 个顶点、顶点之间是两点直线，
+  最长一段连续陆地达 1548km（横跨印度次大陆）。现按 0.05° 海陆栅格用 A* 走水面重算，
+  七条线合计 4695 个顶点，贴岸绕行马六甲海峡、孟加拉湾、印度西岸、瓜达富伊角与红海口。
+- 事件坐标校正到实际港区：爪哇满者伯夷 → 锦石（格雷西克，满者伯夷外港）、
+  加异勒 78.12/8.57、卜剌哇 44.03/1.11、竹步 42.7/-0.35（朱巴河口）。
+- 阿拨把丹、榜葛剌、天方为内陆目的地，改标 `extensions.routeEvent = false`，航线只到坎贝、
+  察地港、吉达，不再拉一条穿陆直线过去。
+
+### Added
+- `pnpm check:land`（`scripts/check-route-land.ts`）＋ `scripts/data/ne_50m_land.geojson`
+  （Natural Earth，public domain）：沿 `naval` 航段每 2km 采样，连续陆地 ≥25km 报错。
+- `data/atlases/zheng-he/land-legs.allow.json`：长江口（太仓）与穆西河（旧港）两处
+  真实内河航段登记为例外，逐条写明原因。
+- `AGENTS.md` 第 4 节新增第 9 条「海路铁律：船不能走大陆」，把 `pnpm check:land`
+  写进可执行流程。
+
+### Changed
+- 搜索索引、移动端内置数据随航线重算同步更新。
+
+---
+
 ## [v1.0.110] - 2026-11-18
 
 ### Docs
