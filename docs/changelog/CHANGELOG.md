@@ -3,6 +3,15 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.122] - 2026-11-18
+
+### Fixed
+- `data/atlases/index.json` 的玄奘专题标签与 `manifest.json` 不同步：上一步只更新了专题说明
+  与标签，但首页专题卡读的是 `index.json`（`build:search-index` 只回写 `dataVersion`，
+  不重建元数据）。补上「中亚」「印度」「求法」。
+
+---
+
 ## [v1.0.121] - 2026-11-18
 
 ### Added
