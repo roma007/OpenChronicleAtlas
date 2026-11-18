@@ -6135,76 +6135,9 @@
     "id": "stop-1424-08",
     "atlasId": "zheng-he",
     "name": {
-      "zh": "仁宗停止下西洋",
-      "en": "Hongxi Emperor halts the voyages"
-    },
-    "date": "1424-08-15",
-    "location": {
-      "lng": 116.4,
-      "lat": 39.9,
-      "place": {
-        "zh": "北京",
-        "en": "Beijing"
-      }
-    },
-    "entityIds": [
-      "voyage-6"
-    ],
-    "category": "政策",
-    "summary": {
-      "zh": "明仁宗即位后停止下西洋，船队活动暂停。",
-      "en": "After Emperor Hongxi ascends the throne, the voyages are halted."
-    },
-    "description": {
-      "zh": "1424 年，明仁宗即位，下令停止下西洋，宝船队活动一度中止。",
-      "en": "In 1424, Emperor Hongxi ascended the throne and ordered a halt to the voyages; the treasure fleet’s activities were suspended."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《明史·郑和传》",
-        "author": "张廷玉等",
-        "year": 1739,
-        "note": "日期按史料纪年换算，具体日份为研究推定"
-      },
-      {
-        "title": "《郑和下西洋资料汇编》",
-        "author": "郑鹤声、郑一钧",
-        "year": 1980,
-        "note": "航线走向参考，坐标为示意简化"
-      }
-    ],
-    "relatedIds": [
-      "return-1422-09"
-    ],
-    "extensions": {
-      "routeEvent": false
-    },
-    "aliases": [
-      {
-        "zh": "顺天府",
-        "en": "Shuntian"
-      },
-      {
-        "zh": "京师",
-        "en": "Capital"
-      }
-    ],
-    "importance": 3
-  },
-  {
-    "id": "fleet-halted-1424-08",
-    "atlasId": "zheng-he",
-    "name": {
       "zh": "罢西洋宝船",
       "en": "The treasure fleet is halted"
     },
-    "aliases": [
-      {
-        "zh": "仁宗即位诏",
-        "en": "Hongxi accession edict"
-      }
-    ],
     "date": "1424-08-15",
     "location": {
       "lng": 116.4,
@@ -6215,7 +6148,7 @@
       }
     },
     "entityIds": [
-      "voyage-7"
+      "voyage-6"
     ],
     "category": "政策",
     "summary": {
@@ -6248,13 +6181,18 @@
       }
     ],
     "relatedIds": [
-      "nanjing-guard-1425-02",
-      "xuande-restart-1430-06"
+      "return-1422-09"
     ],
-    "importance": 3,
     "extensions": {
       "routeEvent": false
-    }
+    },
+    "aliases": [
+      {
+        "zh": "仁宗即位诏",
+        "en": "Hongxi accession edict"
+      }
+    ],
+    "importance": 3
   },
   {
     "id": "nanjing-guard-1425-02",
@@ -6294,7 +6232,7 @@
       }
     ],
     "relatedIds": [
-      "fleet-halted-1424-08",
+      "stop-1424-08",
       "xuande-restart-1430-06"
     ],
     "importance": 2,
@@ -6346,7 +6284,7 @@
       }
     ],
     "relatedIds": [
-      "fleet-halted-1424-08",
+      "stop-1424-08",
       "nanjing-guard-1425-02",
       "calicut-1433-04"
     ],
