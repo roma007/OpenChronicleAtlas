@@ -397,67 +397,35 @@
           [
             109.3,
             13.7
-          ],
-          [
-            109.45,
-            13.4
-          ],
-          [
-            109.45,
-            12.2
-          ],
-          [
-            109.2,
-            11.6
-          ],
-          [
-            108.7,
-            10.85
-          ],
-          [
-            107.05,
-            9.2
-          ],
-          [
-            106.8,
-            8.6
-          ],
-          [
-            104.75,
-            8.55
-          ],
-          [
-            104.3,
-            9.6
-          ],
-          [
-            104.25,
-            8.0
-          ],
-          [
-            103.55,
-            7.3
-          ],
-          [
-            103.2,
-            6.5
-          ],
-          [
-            103.5,
-            4.7
-          ],
-          [
-            103.5,
-            3.55
-          ],
-          [
-            104.3,
-            1.8
-          ],
-          [
-            104.3,
-            1.35
-          ],
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-1",
+        "startDate": "1405-07-11",
+        "endDate": "1405-10-31",
+        "order": 1,
+        "segmentType": "naval",
+        "name": {
+          "zh": "起航·长乐·占城",
+          "en": "Departure, Changle and Champa"
+        },
+        "description": {
+          "zh": "第1次下西洋：起航·长乐·占城（1405-07-11 至 1405-10-31）。",
+          "en": "Voyage 1: Departure, Changle and Champa (1405-07-11 to 1405-10-31)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 1,
+          "leg": 1
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             103.9,
             1.2
@@ -547,24 +515,152 @@
             -2.25
           ],
           [
-            105.2,
-            -1.8
+            105.55,
+            -2.4
           ],
           [
-            105.1,
-            -2.05
+            105.6,
+            -2.45
+          ],
+          [
+            105.65,
+            -2.5
+          ],
+          [
+            105.7,
+            -2.55
+          ],
+          [
+            105.75,
+            -2.6
+          ],
+          [
+            105.8,
+            -2.65
+          ],
+          [
+            105.85,
+            -2.7
+          ],
+          [
+            105.9,
+            -2.75
+          ],
+          [
+            105.9,
+            -2.8
+          ],
+          [
+            105.95,
+            -2.85
+          ],
+          [
+            106.0,
+            -2.9
+          ],
+          [
+            106.05,
+            -2.95
+          ],
+          [
+            106.1,
+            -3.0
+          ],
+          [
+            106.15,
+            -3.0
+          ],
+          [
+            106.2,
+            -3.0
+          ],
+          [
+            106.25,
+            -3.0
+          ],
+          [
+            106.3,
+            -3.0
+          ],
+          [
+            106.35,
+            -3.05
+          ],
+          [
+            106.4,
+            -3.1
+          ],
+          [
+            106.45,
+            -3.15
+          ],
+          [
+            106.5,
+            -3.2
+          ],
+          [
+            106.55,
+            -3.25
+          ],
+          [
+            106.6,
+            -3.3
+          ],
+          [
+            106.65,
+            -3.35
+          ],
+          [
+            106.7,
+            -3.4
+          ],
+          [
+            106.75,
+            -3.45
+          ],
+          [
+            106.8,
+            -3.5
+          ],
+          [
+            106.85,
+            -3.55
+          ],
+          [
+            106.9,
+            -3.6
           ],
           [
             106.95,
+            -3.65
+          ],
+          [
+            107.0,
+            -3.7
+          ],
+          [
+            107.05,
+            -3.75
+          ],
+          [
+            107.1,
             -3.8
           ],
           [
-            109.3,
-            -4.85
+            107.15,
+            -3.85
           ],
           [
-            109.8,
-            -5.35
+            107.2,
+            -3.9
+          ],
+          [
+            109.65,
+            -5.0
+          ],
+          [
+            110.05,
+            -5.4
           ],
           [
             110.5,
@@ -837,6 +933,102 @@
           [
             103.9,
             1.0
+          ],
+          [
+            103.9,
+            1.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-1",
+        "startDate": "1406-02-01",
+        "endDate": "1406-07-31",
+        "order": 2,
+        "segmentType": "naval",
+        "name": {
+          "zh": "爪哇·旧港（分䑸）",
+          "en": "Java and Palembang (detachment)"
+        },
+        "description": {
+          "zh": "第1次下西洋：爪哇·旧港（分䑸）（1406-02-01 至 1406-07-31）。",
+          "en": "Voyage 1: Java and Palembang (detachment) (1406-02-01 to 1406-07-31)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 1,
+          "leg": 2
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.3,
+            13.7
+          ],
+          [
+            109.45,
+            13.4
+          ],
+          [
+            109.45,
+            12.2
+          ],
+          [
+            109.2,
+            11.6
+          ],
+          [
+            108.7,
+            10.85
+          ],
+          [
+            107.05,
+            9.2
+          ],
+          [
+            106.8,
+            8.6
+          ],
+          [
+            104.75,
+            8.55
+          ],
+          [
+            104.3,
+            9.6
+          ],
+          [
+            104.25,
+            8.0
+          ],
+          [
+            103.55,
+            7.3
+          ],
+          [
+            103.2,
+            6.5
+          ],
+          [
+            103.5,
+            4.7
+          ],
+          [
+            103.5,
+            3.55
+          ],
+          [
+            104.3,
+            1.8
+          ],
+          [
+            104.3,
+            1.35
           ],
           [
             103.9,
@@ -1211,7 +1403,11 @@
             5.85
           ],
           [
-            97.4,
+            97.25,
+            5.25
+          ],
+          [
+            96.05,
             5.4
           ],
           [
@@ -1350,6 +1546,38 @@
             80.05,
             6.1
           ],
+          [
+            79.75,
+            6.85
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-1",
+        "startDate": "1405-10-31",
+        "endDate": "1406-07-31",
+        "order": 3,
+        "segmentType": "naval",
+        "name": {
+          "zh": "满剌加·苏门答剌·锡兰山",
+          "en": "Malacca, Samudera and Ceylon"
+        },
+        "description": {
+          "zh": "第1次下西洋：满剌加·苏门答剌·锡兰山（1405-10-31 至 1406-07-31）。",
+          "en": "Voyage 1: Malacca, Samudera and Ceylon (1405-10-31 to 1406-07-31)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 1,
+          "leg": 3
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             79.75,
             6.85
@@ -1845,6 +2073,38 @@
           [
             79.75,
             6.85
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-1",
+        "startDate": "1406-08-01",
+        "endDate": "1406-12-31",
+        "order": 4,
+        "segmentType": "naval",
+        "name": {
+          "zh": "印度西岸·古里",
+          "en": "India west coast and Calicut"
+        },
+        "description": {
+          "zh": "第1次下西洋：印度西岸·古里（1406-08-01 至 1406-12-31）。",
+          "en": "Voyage 1: India west coast and Calicut (1406-08-01 to 1406-12-31)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 1,
+          "leg": 4
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.75,
+            6.85
           ],
           [
             80.05,
@@ -1875,16 +2135,16 @@
             5.65
           ],
           [
-            96.9,
+            96.75,
             5.65
           ],
           [
-            97.4,
-            5.4
+            97.25,
+            5.25
           ],
           [
-            98.9,
-            5.55
+            98.75,
+            5.4
           ],
           [
             99.5,
@@ -1977,6 +2237,150 @@
           [
             103.45,
             1.3
+          ],
+          [
+            103.9,
+            1.2
+          ],
+          [
+            103.95,
+            -0.4
+          ],
+          [
+            105.2,
+            -1.8
+          ],
+          [
+            105.2,
+            -1.8
+          ],
+          [
+            105.2,
+            -1.85
+          ],
+          [
+            105.15,
+            -1.9
+          ],
+          [
+            105.1,
+            -1.95
+          ],
+          [
+            105.1,
+            -2.0
+          ],
+          [
+            105.1,
+            -2.05
+          ],
+          [
+            105.05,
+            -2.1
+          ],
+          [
+            105.05,
+            -2.15
+          ],
+          [
+            105.05,
+            -2.2
+          ],
+          [
+            105.0,
+            -2.25
+          ],
+          [
+            105.0,
+            -2.25
+          ],
+          [
+            104.92,
+            -2.4
+          ],
+          [
+            104.82,
+            -2.62
+          ],
+          [
+            104.78,
+            -2.8
+          ],
+          [
+            104.75,
+            -2.99
+          ],
+          [
+            104.78,
+            -2.8
+          ],
+          [
+            104.82,
+            -2.62
+          ],
+          [
+            104.92,
+            -2.4
+          ],
+          [
+            105.0,
+            -2.25
+          ],
+          [
+            105.0,
+            -2.25
+          ],
+          [
+            105.0,
+            -2.2
+          ],
+          [
+            105.05,
+            -2.15
+          ],
+          [
+            105.05,
+            -2.1
+          ],
+          [
+            105.1,
+            -2.05
+          ],
+          [
+            105.1,
+            -2.0
+          ],
+          [
+            105.1,
+            -1.95
+          ],
+          [
+            105.15,
+            -1.9
+          ],
+          [
+            105.15,
+            -1.85
+          ],
+          [
+            105.2,
+            -1.8
+          ],
+          [
+            105.2,
+            -1.8
+          ],
+          [
+            105.05,
+            -1.5
+          ],
+          [
+            105.05,
+            -0.3
+          ],
+          [
+            103.9,
+            1.0
           ],
           [
             103.9,
@@ -2142,21 +2546,22 @@
       },
       "properties": {
         "entityId": "voyage-1",
-        "startDate": "1405-07-11",
+        "startDate": "1407-01-01",
         "endDate": "1407-10-02",
-        "order": 1,
+        "order": 5,
         "segmentType": "naval",
         "name": {
-          "zh": "第一次下西洋",
-          "en": "First Voyage"
+          "zh": "归程·旧港·满剌加",
+          "en": "Homeward: Palembang and Malacca"
         },
         "description": {
-          "zh": "1405—1407：自太仓经长乐、占城、满剌加、旧港、爪哇、苏门答剌、锡兰山至古里，返航太仓。",
-          "en": "1405–1407: from Taicang via Changle, Champa, Malacca, Palembang, Java, Samudera and Ceylon to Calicut, then back to Taicang."
+          "zh": "第1次下西洋：归程·旧港·满剌加（1407-01-01 至 1407-10-02）。",
+          "en": "Voyage 1: Homeward: Palembang and Malacca (1407-01-01 to 1407-10-02)."
         },
         "extensions": {
           "precision": "schematic",
-          "voyage": 1
+          "voyage": 1,
+          "leg": 5
         }
       }
     },
@@ -2556,6 +2961,38 @@
           [
             109.3,
             13.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-2",
+        "startDate": "1408-10-01",
+        "endDate": "1408-11-30",
+        "order": 1,
+        "segmentType": "naval",
+        "name": {
+          "zh": "起航·长乐·占城",
+          "en": "Departure, Changle and Champa"
+        },
+        "description": {
+          "zh": "第2次下西洋：起航·长乐·占城（1408-10-01 至 1408-11-30）。",
+          "en": "Voyage 2: Departure, Changle and Champa (1408-10-01 to 1408-11-30)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 2,
+          "leg": 1
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.3,
+            13.7
           ],
           [
             109.45,
@@ -2990,7 +3427,11 @@
             5.85
           ],
           [
-            97.4,
+            97.25,
+            5.25
+          ],
+          [
+            96.05,
             5.4
           ],
           [
@@ -3129,6 +3570,38 @@
             80.05,
             6.1
           ],
+          [
+            79.75,
+            6.85
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-2",
+        "startDate": "1408-12-01",
+        "endDate": "1409-02-28",
+        "order": 2,
+        "segmentType": "naval",
+        "name": {
+          "zh": "满剌加·苏门答剌·锡兰山",
+          "en": "Malacca, Samudera and Ceylon"
+        },
+        "description": {
+          "zh": "第2次下西洋：满剌加·苏门答剌·锡兰山（1408-12-01 至 1409-02-28）。",
+          "en": "Voyage 2: Malacca, Samudera and Ceylon (1408-12-01 to 1409-02-28)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 2,
+          "leg": 2
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             79.75,
             6.85
@@ -3624,6 +4097,38 @@
           [
             79.75,
             6.85
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-2",
+        "startDate": "1409-03-01",
+        "endDate": "1409-05-31",
+        "order": 3,
+        "segmentType": "naval",
+        "name": {
+          "zh": "加异勒·柯枝·古里",
+          "en": "Kayal, Cochin and Calicut"
+        },
+        "description": {
+          "zh": "第2次下西洋：加异勒·柯枝·古里（1409-03-01 至 1409-05-31）。",
+          "en": "Voyage 2: Kayal, Cochin and Calicut (1409-03-01 to 1409-05-31)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 2,
+          "leg": 3
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.75,
+            6.85
           ],
           [
             80.05,
@@ -3654,16 +4159,16 @@
             5.65
           ],
           [
-            96.9,
+            96.75,
             5.65
           ],
           [
-            97.4,
-            5.4
+            97.25,
+            5.25
           ],
           [
-            98.9,
-            5.55
+            98.75,
+            5.4
           ],
           [
             99.5,
@@ -3921,21 +4426,22 @@
       },
       "properties": {
         "entityId": "voyage-2",
-        "startDate": "1408-10-01",
+        "startDate": "1409-06-01",
         "endDate": "1409-08-15",
-        "order": 1,
+        "order": 4,
         "segmentType": "naval",
         "name": {
-          "zh": "第二次下西洋",
-          "en": "Second Voyage"
+          "zh": "归程",
+          "en": "Homeward voyage"
         },
         "description": {
-          "zh": "1408—1409：自太仓经长乐、占城、满剌加、苏门答剌至锡兰山，再抵柯枝、古里，返航太仓。",
-          "en": "1408–1409: from Taicang via Changle, Champa, Malacca and Samudera to Ceylon, then to Cochin and Calicut, back to Taicang."
+          "zh": "第2次下西洋：归程（1409-06-01 至 1409-08-15）。",
+          "en": "Voyage 2: Homeward voyage (1409-06-01 to 1409-08-15)."
         },
         "extensions": {
           "precision": "schematic",
-          "voyage": 2
+          "voyage": 2,
+          "leg": 4
         }
       }
     },
@@ -4332,6 +4838,38 @@
             110.7,
             16.8
           ],
+          [
+            109.3,
+            13.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-3",
+        "startDate": "1410-01-01",
+        "endDate": "1410-04-30",
+        "order": 1,
+        "segmentType": "naval",
+        "name": {
+          "zh": "起航·长乐·占城",
+          "en": "Departure, Changle and Champa"
+        },
+        "description": {
+          "zh": "第3次下西洋：起航·长乐·占城（1410-01-01 至 1410-04-30）。",
+          "en": "Voyage 3: Departure, Changle and Champa (1410-01-01 to 1410-04-30)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 3,
+          "leg": 1
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             109.3,
             13.7
@@ -4769,7 +5307,11 @@
             5.85
           ],
           [
-            97.4,
+            97.25,
+            5.25
+          ],
+          [
+            96.05,
             5.4
           ],
           [
@@ -4816,6 +5358,38 @@
             95.2,
             5.6
           ],
+          [
+            95.2,
+            5.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-3",
+        "startDate": "1410-05-01",
+        "endDate": "1410-08-31",
+        "order": 2,
+        "segmentType": "naval",
+        "name": {
+          "zh": "满剌加·苏门答剌·南巫里",
+          "en": "Malacca, Samudera and Lamuri"
+        },
+        "description": {
+          "zh": "第3次下西洋：满剌加·苏门答剌·南巫里（1410-05-01 至 1410-08-31）。",
+          "en": "Voyage 3: Malacca, Samudera and Lamuri (1410-05-01 to 1410-08-31)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 3,
+          "leg": 2
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             95.2,
             5.55
@@ -5295,6 +5869,38 @@
           [
             75.72,
             11.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-3",
+        "startDate": "1410-09-01",
+        "endDate": "1411-02-28",
+        "order": 3,
+        "segmentType": "naval",
+        "name": {
+          "zh": "锡兰山·加异勒·古里",
+          "en": "Ceylon, Kayal and Calicut"
+        },
+        "description": {
+          "zh": "第3次下西洋：锡兰山·加异勒·古里（1410-09-01 至 1411-02-28）。",
+          "en": "Voyage 3: Ceylon, Kayal and Calicut (1410-09-01 to 1411-02-28)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 3,
+          "leg": 3
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.72,
+            11.2
           ],
           [
             75.75,
@@ -5339,22 +5945,174 @@
           [
             94.5,
             5.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-3",
+        "startDate": "1411-03-01",
+        "endDate": "1411-06-15",
+        "order": 4,
+        "segmentType": "naval",
+        "name": {
+          "zh": "锡兰山之战（回程）",
+          "en": "Battle of Ceylon (return)"
+        },
+        "description": {
+          "zh": "第3次下西洋：锡兰山之战（回程）（1411-03-01 至 1411-06-15）。",
+          "en": "Voyage 3: Battle of Ceylon (return) (1411-03-01 to 1411-06-15)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 3,
+          "leg": 4
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            95.2,
+            5.55
+          ],
+          [
+            95.2,
+            5.6
+          ],
+          [
+            95.25,
+            5.6
           ],
           [
             95.3,
             5.65
           ],
           [
-            96.9,
+            95.35,
             5.65
           ],
           [
-            97.4,
-            5.4
+            95.4,
+            5.65
           ],
           [
-            98.9,
-            5.55
+            95.45,
+            5.65
+          ],
+          [
+            95.5,
+            5.65
+          ],
+          [
+            95.55,
+            5.65
+          ],
+          [
+            95.6,
+            5.65
+          ],
+          [
+            95.65,
+            5.65
+          ],
+          [
+            95.7,
+            5.65
+          ],
+          [
+            95.75,
+            5.65
+          ],
+          [
+            95.8,
+            5.65
+          ],
+          [
+            95.85,
+            5.65
+          ],
+          [
+            95.9,
+            5.65
+          ],
+          [
+            95.95,
+            5.65
+          ],
+          [
+            96.0,
+            5.65
+          ],
+          [
+            96.05,
+            5.65
+          ],
+          [
+            96.1,
+            5.65
+          ],
+          [
+            96.15,
+            5.65
+          ],
+          [
+            96.2,
+            5.65
+          ],
+          [
+            96.25,
+            5.65
+          ],
+          [
+            96.3,
+            5.65
+          ],
+          [
+            96.35,
+            5.65
+          ],
+          [
+            96.4,
+            5.65
+          ],
+          [
+            96.45,
+            5.65
+          ],
+          [
+            96.5,
+            5.65
+          ],
+          [
+            96.55,
+            5.65
+          ],
+          [
+            96.6,
+            5.65
+          ],
+          [
+            96.65,
+            5.65
+          ],
+          [
+            96.7,
+            5.65
+          ],
+          [
+            96.75,
+            5.65
+          ],
+          [
+            97.25,
+            5.25
+          ],
+          [
+            98.75,
+            5.4
           ],
           [
             99.5,
@@ -5612,21 +6370,22 @@
       },
       "properties": {
         "entityId": "voyage-3",
-        "startDate": "1410-01-01",
+        "startDate": "1411-06-16",
         "endDate": "1411-07-06",
-        "order": 1,
+        "order": 5,
         "segmentType": "naval",
         "name": {
-          "zh": "第三次下西洋",
-          "en": "Third Voyage"
+          "zh": "归程",
+          "en": "Homeward voyage"
         },
         "description": {
-          "zh": "1410—1411：自太仓经长乐、占城、满剌加、苏门答剌、锡兰山至古里；回程再至锡兰山，擒亚烈苦奈儿，返航太仓。",
-          "en": "1410–1411: from Taicang via Changle, Champa, Malacca, Samudera and Ceylon to Calicut; on the return it called at Ceylon again, captured Alakeshvara, and sailed back to Taicang."
+          "zh": "第3次下西洋：归程（1411-06-16 至 1411-07-06）。",
+          "en": "Voyage 3: Homeward voyage (1411-06-16 to 1411-07-06)."
         },
         "extensions": {
           "precision": "schematic",
-          "voyage": 3
+          "voyage": 3,
+          "leg": 5
         }
       }
     },
@@ -6023,6 +6782,38 @@
             110.7,
             16.8
           ],
+          [
+            109.3,
+            13.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-4",
+        "startDate": "1413-12-01",
+        "endDate": "1414-01-31",
+        "order": 1,
+        "segmentType": "naval",
+        "name": {
+          "zh": "起航·长乐·占城",
+          "en": "Departure, Changle and Champa"
+        },
+        "description": {
+          "zh": "第4次下西洋：起航·长乐·占城（1413-12-01 至 1414-01-31）。",
+          "en": "Voyage 4: Departure, Changle and Champa (1413-12-01 to 1414-01-31)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 4,
+          "leg": 1
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             109.3,
             13.7
@@ -6460,7 +7251,11 @@
             5.85
           ],
           [
-            97.4,
+            97.25,
+            5.25
+          ],
+          [
+            96.05,
             5.4
           ],
           [
@@ -6599,6 +7394,38 @@
             80.05,
             6.1
           ],
+          [
+            79.75,
+            6.85
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-4",
+        "startDate": "1414-02-01",
+        "endDate": "1414-02-28",
+        "order": 2,
+        "segmentType": "naval",
+        "name": {
+          "zh": "满剌加·苏门答剌·锡兰山",
+          "en": "Malacca, Samudera and Ceylon"
+        },
+        "description": {
+          "zh": "第4次下西洋：满剌加·苏门答剌·锡兰山（1414-02-01 至 1414-02-28）。",
+          "en": "Voyage 4: Malacca, Samudera and Ceylon (1414-02-01 to 1414-02-28)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 4,
+          "leg": 2
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             79.75,
             6.85
@@ -7358,6 +8185,38 @@
           [
             56.45,
             26.95
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-4",
+        "startDate": "1414-03-01",
+        "endDate": "1414-08-31",
+        "order": 3,
+        "segmentType": "naval",
+        "name": {
+          "zh": "溜山·甘巴里·忽鲁谟斯",
+          "en": "Maldives, Cambay and Hormuz"
+        },
+        "description": {
+          "zh": "第4次下西洋：溜山·甘巴里·忽鲁谟斯（1414-03-01 至 1414-08-31）。",
+          "en": "Voyage 4: Maldives, Cambay and Hormuz (1414-03-01 to 1414-08-31)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 4,
+          "leg": 3
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            56.45,
+            26.95
           ],
           [
             56.6,
@@ -7734,6 +8593,38 @@
           [
             44.95,
             12.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-4",
+        "startDate": "1414-09-01",
+        "endDate": "1415-01-01",
+        "order": 4,
+        "segmentType": "naval",
+        "name": {
+          "zh": "祖法儿·阿丹",
+          "en": "Dhofar and Aden"
+        },
+        "description": {
+          "zh": "第4次下西洋：祖法儿·阿丹（1414-09-01 至 1415-01-01）。",
+          "en": "Voyage 4: Dhofar and Aden (1414-09-01 to 1415-01-01)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 4,
+          "leg": 4
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            44.95,
+            12.75
           ],
           [
             46.55,
@@ -8067,6 +8958,38 @@
             41.8,
             -1.6
           ],
+          [
+            40.2,
+            -3.32
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-4",
+        "startDate": "1415-01-01",
+        "endDate": "1415-04-30",
+        "order": 5,
+        "segmentType": "naval",
+        "name": {
+          "zh": "木骨都束·卜剌哇·竹步·麻林地",
+          "en": "Mogadishu, Brava, Juba and Malindi"
+        },
+        "description": {
+          "zh": "第4次下西洋：木骨都束·卜剌哇·竹步·麻林地（1415-01-01 至 1415-04-30）。",
+          "en": "Voyage 4: Mogadishu, Brava, Juba and Malindi (1415-01-01 to 1415-04-30)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 4,
+          "leg": 5
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             40.2,
             -3.32
@@ -8472,16 +9395,16 @@
             5.65
           ],
           [
-            96.9,
+            96.75,
             5.65
           ],
           [
-            97.4,
-            5.4
+            97.25,
+            5.25
           ],
           [
-            98.9,
-            5.55
+            98.75,
+            5.4
           ],
           [
             99.5,
@@ -8739,21 +9662,22 @@
       },
       "properties": {
         "entityId": "voyage-4",
-        "startDate": "1413-12-01",
+        "startDate": "1415-05-01",
         "endDate": "1415-08-12",
-        "order": 1,
+        "order": 6,
         "segmentType": "naval",
         "name": {
-          "zh": "第四次下西洋",
-          "en": "Fourth Voyage"
+          "zh": "归程",
+          "en": "Homeward voyage"
         },
         "description": {
-          "zh": "1413—1415：自太仓经长乐、占城、满剌加、苏门答剌、锡兰山、溜山、古里、忽鲁谟斯，抵阿丹与东非诸港，返航太仓。",
-          "en": "1413–1415: from Taicang via Changle, Champa, Malacca, Samudera, Ceylon, the Maldives, Calicut and Hormuz to Aden and the East African ports, then back to Taicang."
+          "zh": "第4次下西洋：归程（1415-05-01 至 1415-08-12）。",
+          "en": "Voyage 4: Homeward voyage (1415-05-01 to 1415-08-12)."
         },
         "extensions": {
           "precision": "schematic",
-          "voyage": 4
+          "voyage": 4,
+          "leg": 6
         }
       }
     },
@@ -9150,6 +10074,38 @@
             110.7,
             16.8
           ],
+          [
+            109.3,
+            13.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-5",
+        "startDate": "1417-12-01",
+        "endDate": "1418-01-31",
+        "order": 1,
+        "segmentType": "naval",
+        "name": {
+          "zh": "起航·长乐·占城",
+          "en": "Departure, Changle and Champa"
+        },
+        "description": {
+          "zh": "第5次下西洋：起航·长乐·占城（1417-12-01 至 1418-01-31）。",
+          "en": "Voyage 5: Departure, Changle and Champa (1417-12-01 to 1418-01-31)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 5,
+          "leg": 1
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             109.3,
             13.7
@@ -9587,7 +10543,11 @@
             5.85
           ],
           [
-            97.4,
+            97.25,
+            5.25
+          ],
+          [
+            96.05,
             5.4
           ],
           [
@@ -9726,6 +10686,38 @@
             80.05,
             6.1
           ],
+          [
+            79.75,
+            6.85
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-5",
+        "startDate": "1418-02-01",
+        "endDate": "1418-05-31",
+        "order": 2,
+        "segmentType": "naval",
+        "name": {
+          "zh": "满剌加·苏门答剌·锡兰山",
+          "en": "Malacca, Samudera and Ceylon"
+        },
+        "description": {
+          "zh": "第5次下西洋：满剌加·苏门答剌·锡兰山（1418-02-01 至 1418-05-31）。",
+          "en": "Voyage 5: Malacca, Samudera and Ceylon (1418-02-01 to 1418-05-31)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 5,
+          "leg": 2
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             79.75,
             6.85
@@ -10601,6 +11593,38 @@
           [
             56.45,
             26.95
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-5",
+        "startDate": "1418-06-01",
+        "endDate": "1418-09-30",
+        "order": 3,
+        "segmentType": "naval",
+        "name": {
+          "zh": "柯枝·古里·忽鲁谟斯",
+          "en": "Cochin, Calicut and Hormuz"
+        },
+        "description": {
+          "zh": "第5次下西洋：柯枝·古里·忽鲁谟斯（1418-06-01 至 1418-09-30）。",
+          "en": "Voyage 5: Cochin, Calicut and Hormuz (1418-06-01 to 1418-09-30)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 5,
+          "leg": 3
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            56.45,
+            26.95
           ],
           [
             56.6,
@@ -10977,6 +12001,38 @@
           [
             44.95,
             12.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-5",
+        "startDate": "1418-10-01",
+        "endDate": "1418-12-31",
+        "order": 4,
+        "segmentType": "naval",
+        "name": {
+          "zh": "祖法儿·阿丹",
+          "en": "Dhofar and Aden"
+        },
+        "description": {
+          "zh": "第5次下西洋：祖法儿·阿丹（1418-10-01 至 1418-12-31）。",
+          "en": "Voyage 5: Dhofar and Aden (1418-10-01 to 1418-12-31)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 5,
+          "leg": 4
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            44.95,
+            12.75
           ],
           [
             46.55,
@@ -11186,6 +12242,38 @@
             40.3,
             -3.05
           ],
+          [
+            40.2,
+            -3.32
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-5",
+        "startDate": "1419-01-01",
+        "endDate": "1419-03-31",
+        "order": 5,
+        "segmentType": "naval",
+        "name": {
+          "zh": "木骨都束·卜剌哇·麻林地",
+          "en": "Mogadishu, Brava and Malindi"
+        },
+        "description": {
+          "zh": "第5次下西洋：木骨都束·卜剌哇·麻林地（1419-01-01 至 1419-03-31）。",
+          "en": "Voyage 5: Mogadishu, Brava and Malindi (1419-01-01 to 1419-03-31)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 5,
+          "leg": 5
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             40.2,
             -3.32
@@ -11591,16 +12679,16 @@
             5.65
           ],
           [
-            96.9,
+            96.75,
             5.65
           ],
           [
-            97.4,
-            5.4
+            97.25,
+            5.25
           ],
           [
-            98.9,
-            5.55
+            98.75,
+            5.4
           ],
           [
             99.5,
@@ -11858,21 +12946,22 @@
       },
       "properties": {
         "entityId": "voyage-5",
-        "startDate": "1417-12-01",
+        "startDate": "1419-04-01",
         "endDate": "1419-08-15",
-        "order": 1,
+        "order": 6,
         "segmentType": "naval",
         "name": {
-          "zh": "第五次下西洋",
-          "en": "Fifth Voyage"
+          "zh": "归程",
+          "en": "Homeward voyage"
         },
         "description": {
-          "zh": "1417—1419：自太仓经长乐、占城、满剌加、锡兰山、柯枝、古里、忽鲁谟斯、阿丹至东非麻林地，返航太仓。",
-          "en": "1417–1419: from Taicang via Changle, Champa, Malacca, Ceylon, Cochin, Calicut, Hormuz and Aden to Malindi in East Africa, then back to Taicang."
+          "zh": "第5次下西洋：归程（1419-04-01 至 1419-08-15）。",
+          "en": "Voyage 5: Homeward voyage (1419-04-01 to 1419-08-15)."
         },
         "extensions": {
           "precision": "schematic",
-          "voyage": 5
+          "voyage": 5,
+          "leg": 6
         }
       }
     },
@@ -12269,6 +13358,38 @@
             110.7,
             16.8
           ],
+          [
+            109.3,
+            13.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-6",
+        "startDate": "1421-03-01",
+        "endDate": "1421-04-30",
+        "order": 1,
+        "segmentType": "naval",
+        "name": {
+          "zh": "起航·长乐·占城",
+          "en": "Departure, Changle and Champa"
+        },
+        "description": {
+          "zh": "第6次下西洋：起航·长乐·占城（1421-03-01 至 1421-04-30）。",
+          "en": "Voyage 6: Departure, Changle and Champa (1421-03-01 to 1421-04-30)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 6,
+          "leg": 1
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             109.3,
             13.7
@@ -12706,144 +13827,44 @@
             5.85
           ],
           [
-            97.4,
+            97.25,
+            5.25
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-6",
+        "startDate": "1421-05-01",
+        "endDate": "1421-06-30",
+        "order": 2,
+        "segmentType": "naval",
+        "name": {
+          "zh": "满剌加·苏门答剌",
+          "en": "Malacca and Samudera"
+        },
+        "description": {
+          "zh": "第6次下西洋：满剌加·苏门答剌（1421-05-01 至 1421-06-30）。",
+          "en": "Voyage 6: Malacca and Samudera (1421-05-01 to 1421-06-30)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 6,
+          "leg": 2
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            97.25,
+            5.25
+          ],
+          [
+            96.35,
             5.4
-          ],
-          [
-            95.9,
-            5.55
-          ],
-          [
-            95.85,
-            5.6
-          ],
-          [
-            95.8,
-            5.65
-          ],
-          [
-            95.75,
-            5.7
-          ],
-          [
-            95.7,
-            5.7
-          ],
-          [
-            95.65,
-            5.75
-          ],
-          [
-            95.6,
-            5.75
-          ],
-          [
-            95.55,
-            5.8
-          ],
-          [
-            95.5,
-            5.8
-          ],
-          [
-            95.45,
-            5.85
-          ],
-          [
-            95.4,
-            5.9
-          ],
-          [
-            95.35,
-            5.9
-          ],
-          [
-            95.3,
-            5.95
-          ],
-          [
-            95.25,
-            5.95
-          ],
-          [
-            95.2,
-            5.95
-          ],
-          [
-            95.15,
-            5.95
-          ],
-          [
-            95.1,
-            6.0
-          ],
-          [
-            95.05,
-            6.0
-          ],
-          [
-            95.0,
-            6.05
-          ],
-          [
-            94.95,
-            6.05
-          ],
-          [
-            94.9,
-            6.1
-          ],
-          [
-            94.85,
-            6.1
-          ],
-          [
-            94.8,
-            6.15
-          ],
-          [
-            94.75,
-            6.15
-          ],
-          [
-            94.7,
-            6.2
-          ],
-          [
-            94.65,
-            6.25
-          ],
-          [
-            94.6,
-            6.3
-          ],
-          [
-            94.55,
-            6.3
-          ],
-          [
-            94.5,
-            6.3
-          ],
-          [
-            94.45,
-            6.3
-          ],
-          [
-            94.4,
-            6.3
-          ],
-          [
-            94.35,
-            6.35
-          ],
-          [
-            94.3,
-            6.35
-          ],
-          [
-            94.25,
-            6.35
           ],
           [
             94.2,
@@ -13077,6 +14098,38 @@
             75.7,
             10.85
           ],
+          [
+            75.72,
+            11.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-6",
+        "startDate": "1421-07-01",
+        "endDate": "1421-09-30",
+        "order": 3,
+        "segmentType": "naval",
+        "name": {
+          "zh": "榜葛剌·锡兰山·古里",
+          "en": "Bengal, Ceylon and Calicut"
+        },
+        "description": {
+          "zh": "第6次下西洋：榜葛剌·锡兰山·古里（1421-07-01 至 1421-09-30）。",
+          "en": "Voyage 6: Bengal, Ceylon and Calicut (1421-07-01 to 1421-09-30)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 6,
+          "leg": 3
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             75.72,
             11.2
@@ -14169,6 +15222,38 @@
             46.35,
             13.4
           ],
+          [
+            44.95,
+            12.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-6",
+        "startDate": "1421-10-01",
+        "endDate": "1422-01-31",
+        "order": 4,
+        "segmentType": "naval",
+        "name": {
+          "zh": "忽鲁谟斯·祖法儿·阿丹",
+          "en": "Hormuz, Dhofar and Aden"
+        },
+        "description": {
+          "zh": "第6次下西洋：忽鲁谟斯·祖法儿·阿丹（1421-10-01 至 1422-01-31）。",
+          "en": "Voyage 6: Hormuz, Dhofar and Aden (1421-10-01 to 1422-01-31)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 6,
+          "leg": 4
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             44.95,
             12.75
@@ -14508,6 +15593,38 @@
           [
             40.2,
             -3.32
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-6",
+        "startDate": "1422-02-01",
+        "endDate": "1422-04-30",
+        "order": 5,
+        "segmentType": "naval",
+        "name": {
+          "zh": "木骨都束·卜剌哇·竹步·麻林地",
+          "en": "Mogadishu, Brava, Juba and Malindi"
+        },
+        "description": {
+          "zh": "第6次下西洋：木骨都束·卜剌哇·竹步·麻林地（1422-02-01 至 1422-04-30）。",
+          "en": "Voyage 6: Mogadishu, Brava, Juba and Malindi (1422-02-01 to 1422-04-30)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 6,
+          "leg": 5
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            40.2,
+            -3.32
           ],
           [
             40.95,
@@ -14910,16 +16027,16 @@
             5.65
           ],
           [
-            96.9,
+            96.75,
             5.65
           ],
           [
-            97.4,
-            5.4
+            97.25,
+            5.25
           ],
           [
-            98.9,
-            5.55
+            98.75,
+            5.4
           ],
           [
             99.5,
@@ -15177,21 +16294,22 @@
       },
       "properties": {
         "entityId": "voyage-6",
-        "startDate": "1421-03-01",
+        "startDate": "1422-05-01",
         "endDate": "1422-09-03",
-        "order": 1,
+        "order": 6,
         "segmentType": "naval",
         "name": {
-          "zh": "第六次下西洋",
-          "en": "Sixth Voyage"
+          "zh": "归程",
+          "en": "Homeward voyage"
         },
         "description": {
-          "zh": "1421—1422：送十六国使臣还国，自太仓经占城、满剌加、苏门答剌；分䑸访问榜葛剌，主队西至忽鲁谟斯、阿丹与东非，返航太仓。",
-          "en": "1421–1422: carrying envoys of sixteen states home, from Taicang via Champa, Malacca and Samudera; a squadron visited Bengal while the main fleet went west to Hormuz, Aden and East Africa, then back to Taicang."
+          "zh": "第6次下西洋：归程（1422-05-01 至 1422-09-03）。",
+          "en": "Voyage 6: Homeward voyage (1422-05-01 to 1422-09-03)."
         },
         "extensions": {
           "precision": "schematic",
-          "voyage": 6
+          "voyage": 6,
+          "leg": 6
         }
       }
     },
@@ -15591,67 +16709,35 @@
           [
             109.3,
             13.7
-          ],
-          [
-            109.45,
-            13.4
-          ],
-          [
-            109.45,
-            12.2
-          ],
-          [
-            109.2,
-            11.6
-          ],
-          [
-            108.7,
-            10.85
-          ],
-          [
-            107.05,
-            9.2
-          ],
-          [
-            106.8,
-            8.6
-          ],
-          [
-            104.75,
-            8.55
-          ],
-          [
-            104.3,
-            9.6
-          ],
-          [
-            104.25,
-            8.0
-          ],
-          [
-            103.55,
-            7.3
-          ],
-          [
-            103.2,
-            6.5
-          ],
-          [
-            103.5,
-            4.7
-          ],
-          [
-            103.5,
-            3.55
-          ],
-          [
-            104.3,
-            1.8
-          ],
-          [
-            104.3,
-            1.35
-          ],
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-7",
+        "startDate": "1431-01-01",
+        "endDate": "1431-12-14",
+        "order": 1,
+        "segmentType": "naval",
+        "name": {
+          "zh": "起航·长乐·占城",
+          "en": "Departure, Changle and Champa"
+        },
+        "description": {
+          "zh": "第7次下西洋：起航·长乐·占城（1431-01-01 至 1431-12-14）。",
+          "en": "Voyage 7: Departure, Changle and Champa (1431-01-01 to 1431-12-14)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 7,
+          "leg": 1
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             103.9,
             1.2
@@ -15741,24 +16827,152 @@
             -2.25
           ],
           [
-            105.2,
-            -1.8
+            105.55,
+            -2.4
           ],
           [
-            105.1,
-            -2.05
+            105.6,
+            -2.45
+          ],
+          [
+            105.65,
+            -2.5
+          ],
+          [
+            105.7,
+            -2.55
+          ],
+          [
+            105.75,
+            -2.6
+          ],
+          [
+            105.8,
+            -2.65
+          ],
+          [
+            105.85,
+            -2.7
+          ],
+          [
+            105.9,
+            -2.75
+          ],
+          [
+            105.9,
+            -2.8
+          ],
+          [
+            105.95,
+            -2.85
+          ],
+          [
+            106.0,
+            -2.9
+          ],
+          [
+            106.05,
+            -2.95
+          ],
+          [
+            106.1,
+            -3.0
+          ],
+          [
+            106.15,
+            -3.0
+          ],
+          [
+            106.2,
+            -3.0
+          ],
+          [
+            106.25,
+            -3.0
+          ],
+          [
+            106.3,
+            -3.0
+          ],
+          [
+            106.35,
+            -3.05
+          ],
+          [
+            106.4,
+            -3.1
+          ],
+          [
+            106.45,
+            -3.15
+          ],
+          [
+            106.5,
+            -3.2
+          ],
+          [
+            106.55,
+            -3.25
+          ],
+          [
+            106.6,
+            -3.3
+          ],
+          [
+            106.65,
+            -3.35
+          ],
+          [
+            106.7,
+            -3.4
+          ],
+          [
+            106.75,
+            -3.45
+          ],
+          [
+            106.8,
+            -3.5
+          ],
+          [
+            106.85,
+            -3.55
+          ],
+          [
+            106.9,
+            -3.6
           ],
           [
             106.95,
+            -3.65
+          ],
+          [
+            107.0,
+            -3.7
+          ],
+          [
+            107.05,
+            -3.75
+          ],
+          [
+            107.1,
             -3.8
           ],
           [
-            109.3,
-            -4.85
+            107.15,
+            -3.85
           ],
           [
-            109.8,
-            -5.35
+            107.2,
+            -3.9
+          ],
+          [
+            109.65,
+            -5.0
+          ],
+          [
+            110.05,
+            -5.4
           ],
           [
             110.5,
@@ -16031,6 +17245,102 @@
           [
             103.9,
             1.0
+          ],
+          [
+            103.9,
+            1.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-7",
+        "startDate": "1432-01-01",
+        "endDate": "1432-02-28",
+        "order": 2,
+        "segmentType": "naval",
+        "name": {
+          "zh": "旧港·爪哇（分䑸）",
+          "en": "Palembang and Java (detachment)"
+        },
+        "description": {
+          "zh": "第7次下西洋：旧港·爪哇（分䑸）（1432-01-01 至 1432-02-28）。",
+          "en": "Voyage 7: Palembang and Java (detachment) (1432-01-01 to 1432-02-28)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 7,
+          "leg": 2
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.3,
+            13.7
+          ],
+          [
+            109.45,
+            13.4
+          ],
+          [
+            109.45,
+            12.2
+          ],
+          [
+            109.2,
+            11.6
+          ],
+          [
+            108.7,
+            10.85
+          ],
+          [
+            107.05,
+            9.2
+          ],
+          [
+            106.8,
+            8.6
+          ],
+          [
+            104.75,
+            8.55
+          ],
+          [
+            104.3,
+            9.6
+          ],
+          [
+            104.25,
+            8.0
+          ],
+          [
+            103.55,
+            7.3
+          ],
+          [
+            103.2,
+            6.5
+          ],
+          [
+            103.5,
+            4.7
+          ],
+          [
+            103.5,
+            3.55
+          ],
+          [
+            104.3,
+            1.8
+          ],
+          [
+            104.3,
+            1.35
           ],
           [
             103.9,
@@ -16405,7 +17715,11 @@
             5.85
           ],
           [
-            97.4,
+            97.25,
+            5.25
+          ],
+          [
+            96.05,
             5.4
           ],
           [
@@ -16584,6 +17898,38 @@
             75.6,
             11.0
           ],
+          [
+            75.72,
+            11.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-7",
+        "startDate": "1431-12-15",
+        "endDate": "1432-07-31",
+        "order": 3,
+        "segmentType": "naval",
+        "name": {
+          "zh": "满剌加·苏门答剌·锡兰山·古里",
+          "en": "Malacca, Samudera, Ceylon and Calicut"
+        },
+        "description": {
+          "zh": "第7次下西洋：满剌加·苏门答剌·锡兰山·古里（1431-12-15 至 1432-07-31）。",
+          "en": "Voyage 7: Malacca, Samudera, Ceylon and Calicut (1431-12-15 to 1432-07-31)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 7,
+          "leg": 3
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             75.72,
             11.2
@@ -17676,6 +19022,38 @@
             46.35,
             13.4
           ],
+          [
+            44.95,
+            12.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-7",
+        "startDate": "1432-08-01",
+        "endDate": "1432-09-30",
+        "order": 4,
+        "segmentType": "naval",
+        "name": {
+          "zh": "忽鲁谟斯·阿丹",
+          "en": "Hormuz and Aden"
+        },
+        "description": {
+          "zh": "第7次下西洋：忽鲁谟斯·阿丹（1432-08-01 至 1432-09-30）。",
+          "en": "Voyage 7: Hormuz and Aden (1432-08-01 to 1432-09-30)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 7,
+          "leg": 4
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             44.95,
             12.75
@@ -18267,6 +19645,38 @@
           [
             44.95,
             12.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-7",
+        "startDate": "1432-10-01",
+        "endDate": "1432-11-30",
+        "order": 5,
+        "segmentType": "naval",
+        "name": {
+          "zh": "天方（分䑸）",
+          "en": "Mecca (detachment)"
+        },
+        "description": {
+          "zh": "第7次下西洋：天方（分䑸）（1432-10-01 至 1432-11-30）。",
+          "en": "Voyage 7: Mecca (detachment) (1432-10-01 to 1432-11-30)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 7,
+          "leg": 5
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            44.95,
+            12.75
           ],
           [
             46.55,
@@ -18603,6 +20013,38 @@
           [
             40.2,
             -3.32
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "voyage-7",
+        "startDate": "1432-12-01",
+        "endDate": "1433-02-28",
+        "order": 6,
+        "segmentType": "naval",
+        "name": {
+          "zh": "木骨都束·卜剌哇·竹步",
+          "en": "Mogadishu, Brava and Juba"
+        },
+        "description": {
+          "zh": "第7次下西洋：木骨都束·卜剌哇·竹步（1432-12-01 至 1433-02-28）。",
+          "en": "Voyage 7: Mogadishu, Brava and Juba (1432-12-01 to 1433-02-28)."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "voyage": 7,
+          "leg": 6
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            40.2,
+            -3.32
           ],
           [
             40.95,
@@ -18685,16 +20127,16 @@
             5.65
           ],
           [
-            96.9,
+            96.75,
             5.65
           ],
           [
-            97.4,
-            5.4
+            97.25,
+            5.25
           ],
           [
-            98.9,
-            5.55
+            98.75,
+            5.4
           ],
           [
             99.5,
@@ -18952,21 +20394,22 @@
       },
       "properties": {
         "entityId": "voyage-7",
-        "startDate": "1431-01-01",
+        "startDate": "1433-03-01",
         "endDate": "1433-07-22",
-        "order": 1,
+        "order": 7,
         "segmentType": "naval",
         "name": {
-          "zh": "第七次下西洋",
-          "en": "Seventh Voyage"
+          "zh": "古里·归程",
+          "en": "Calicut and homeward voyage"
         },
         "description": {
-          "zh": "1431—1433：自太仓经长乐、占城、旧港、爪哇、满剌加、苏门答剌、锡兰山、古里至忽鲁谟斯、阿丹；分䑸赴天方，东至东非，郑和卒于古里，船队返航太仓。",
-          "en": "1431–1433: from Taicang via Changle, Champa, Palembang, Java, Malacca, Samudera, Ceylon and Calicut to Hormuz and Aden; a detachment went on to Mecca and the fleet reached East Africa. Zheng He died at Calicut and the fleet returned to Taicang."
+          "zh": "第7次下西洋：古里·归程（1433-03-01 至 1433-07-22）。",
+          "en": "Voyage 7: Calicut and homeward voyage (1433-03-01 to 1433-07-22)."
         },
         "extensions": {
           "precision": "schematic",
-          "voyage": 7
+          "voyage": 7,
+          "leg": 7
         }
       }
     },
