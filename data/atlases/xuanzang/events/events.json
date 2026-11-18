@@ -1793,11 +1793,470 @@
     ],
     "relatedIds": [
       "nalanda-634-01",
-      "magadha-639-02",
-      "nalanda-treatises-642-06"
+      "nalanda-silabhadra-634-03"
     ],
     "importance": 3,
-    "endDate": "0638-12-31",
+    "endDate": "0638-05-31",
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "nalanda-silabhadra-634-03",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "戒贤开讲",
+      "en": "Silabhadra's Lectures"
+    },
+    "aliases": [
+      {
+        "zh": "戒贤"
+      },
+      {
+        "zh": "尸罗跋陀罗",
+        "en": "Silabhadra"
+      }
+    ],
+    "date": "0634-03-15",
+    "location": {
+      "lng": 85.44,
+      "lat": 25.14,
+      "place": {
+        "zh": "那烂陀寺（今印度比哈尔邦）",
+        "en": "Nalanda Monastery (Bihar, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "戒贤论师重开讲席，为玄奘讲《瑜伽师地论》。",
+      "en": "Silabhadra reopens the lecture hall to teach Xuanzang the Yogacarabhumi."
+    },
+    "description": {
+      "zh": "戒贤（Śīlabhadra）时年逾百，已多年不讲。闻玄奘自支那而来，命弟子引见，叹其求法之志，遂重开讲堂，为讲《瑜伽师地论》，首尾十五月。那烂陀寺僧徒数千，讲座日百余所，玄奘自此入五年学程。开讲月日属研究推定。",
+      "en": "Silabhadra was over a hundred and had long ceased lecturing. Hearing that Xuanzang had come from China, he reopened the hall and taught the Yogacarabhumi for fifteen months. With thousands of monks and a hundred lectures a day, Nalanda was the foremost Buddhist university of India. The month is a scholarly estimate."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      },
+      {
+        "title": "《中国佛教史》",
+        "author": "任继愈",
+        "year": 1985,
+        "note": "那烂陀与印度佛教背景参考"
+      }
+    ],
+    "relatedIds": [
+      "nalanda-study-634-02",
+      "nalanda-yogacara-634-11"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "nalanda-yogacara-634-11",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "研习瑜伽",
+      "en": "Studying the Yogacarabhumi"
+    },
+    "aliases": [
+      {
+        "zh": "瑜伽师地论",
+        "en": "Yogacarabhumi"
+      }
+    ],
+    "date": "0634-11-15",
+    "location": {
+      "lng": 85.44,
+      "lat": 25.14,
+      "place": {
+        "zh": "那烂陀寺（今印度比哈尔邦）",
+        "en": "Nalanda Monastery (Bihar, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘在那烂陀随戒贤研习《瑜伽师地论》，以此为主课。",
+      "en": "At Nalanda Xuanzang makes the Yogacarabhumi his principal subject."
+    },
+    "description": {
+      "zh": "《瑜伽师地论》是瑜伽行派的根本论，戒贤所传。玄奘在此论上用功最久，归国后译出百卷，成为汉传唯识学的骨干。听讲之外，兼参与寺中论议。年月经研究推定。",
+      "en": "The Yogacarabhumi is the foundational treatise of the Yogacara school and the text Silabhadra transmitted. Xuanzang devoted most of his five years to it and later translated it in a hundred fascicles, the backbone of East Asian Consciousness-Only thought. Dates are scholarly estimates."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      },
+      {
+        "title": "《中国佛教史》",
+        "author": "任继愈",
+        "year": 1985,
+        "note": "那烂陀与印度佛教背景参考"
+      }
+    ],
+    "relatedIds": [
+      "nalanda-silabhadra-634-03",
+      "nalanda-sastras-635-07"
+    ],
+    "importance": 1,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "nalanda-sastras-635-07",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "通习诸论",
+      "en": "Mastering the Treatises"
+    },
+    "aliases": [
+      {
+        "zh": "显扬圣教论"
+      },
+      {
+        "zh": "因明",
+        "en": "Buddhist logic"
+      }
+    ],
+    "date": "0635-07-01",
+    "location": {
+      "lng": 85.44,
+      "lat": 25.14,
+      "place": {
+        "zh": "那烂陀寺（今印度比哈尔邦）",
+        "en": "Nalanda Monastery (Bihar, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘遍习《显扬》《对法》《集量》《中》《百》诸论，兼通因明、声明。",
+      "en": "Xuanzang masters the Abhidharma, Madhyamaka and logic texts alongside the Yogacarabhumi."
+    },
+    "description": {
+      "zh": "五年之间，玄奘于《瑜伽》之外遍学《显扬圣教论》《阿毗达磨杂集论》《集量论》《中论》《百论》，并及因明、声明、医方、术数，通晓三藏，为寺众所推。具体年月属研究推定。",
+      "en": "Beyond the Yogacarabhumi, Xuanzang studied the Abhidharma-samuccaya, the Pramana-samuccaya, the Madhyamaka-karika and the Sata-sastra, together with Buddhist logic, grammar, medicine and mathematics, earning the regard of the community. Dates are scholarly estimates."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      },
+      {
+        "title": "《中国佛教史》",
+        "author": "任继愈",
+        "year": 1985,
+        "note": "那烂陀与印度佛教背景参考"
+      }
+    ],
+    "relatedIds": [
+      "nalanda-yogacara-634-11",
+      "nalanda-hui-zong-637-02"
+    ],
+    "importance": 1,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "nalanda-nyayanusara-636-04",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "听《顺正理论》",
+      "en": "Studying the Nyayanusara"
+    },
+    "aliases": [
+      {
+        "zh": "顺正理论"
+      },
+      {
+        "zh": "Nyāyānusāra",
+        "en": "Nyayanusara"
+      }
+    ],
+    "date": "0636-04-01",
+    "location": {
+      "lng": 85.44,
+      "lat": 25.14,
+      "place": {
+        "zh": "那烂陀寺（今印度比哈尔邦）",
+        "en": "Nalanda Monastery (Bihar, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘在那烂陀听《阿毗达磨顺正理论》，与《瑜伽》互相发明。",
+      "en": "Xuanzang studies the Nyayanusara at Nalanda alongside the Yogacarabhumi."
+    },
+    "description": {
+      "zh": "《顺正理论》为众贤论师破世亲《俱舍论》之作，义理精严。玄奘在那烂陀随戒贤门下听此论，与《瑜伽师地论》《显扬圣教论》互相发明。据《大慈恩寺三藏法师传》，五年间《瑜伽》听三遍，此论亦在讲席之列。年月经研究推定。",
+      "en": "The Nyayanusara, by Samghabhadra, refutes Vasubandhu's Abhidharmakosa and is noted for its rigour. Xuanzang heard it expounded at Nalanda under Silabhadra's circle, setting it beside the Yogacarabhumi and the Abhidharma-samuccaya. The Biography records that he heard the Yogacarabhumi three times in five years; the month here is a scholarly estimate."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      },
+      {
+        "title": "《中国佛教史》",
+        "author": "任继愈",
+        "year": 1985,
+        "note": "那烂陀与印度佛教背景参考"
+      }
+    ],
+    "relatedIds": [
+      "nalanda-sastras-635-07",
+      "nalanda-hui-zong-637-02"
+    ],
+    "importance": 1,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "nalanda-hui-zong-637-02",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "造《会宗论》",
+      "en": "Composing the Hui-zong-lun"
+    },
+    "aliases": [
+      {
+        "zh": "会宗论"
+      },
+      {
+        "zh": "师子光",
+        "en": "Simhacandra"
+      }
+    ],
+    "date": "0637-02-01",
+    "location": {
+      "lng": 85.44,
+      "lat": 25.14,
+      "place": {
+        "zh": "那烂陀寺（今印度比哈尔邦）",
+        "en": "Nalanda Monastery (Bihar, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "师子光以《中》《百》破瑜伽，玄奘造《会宗论》三千颂会通，寺众叹服。",
+      "en": "Against Simhacandra's attack on Yogacara, Xuanzang writes three thousand verses reconciling the schools."
+    },
+    "description": {
+      "zh": "那烂陀寺师子光讲《中论》《百论》，斥《瑜伽师地论》为非，门人从之者众。玄奘以「圣人立教各随所宜」造《会宗论》三千颂，会通中观与瑜伽，戒贤与寺众称善。此事原并入「那烂陀著论」，本轮前移至此。年月经研究推定。",
+      "en": "Simhacandra lectured on the Madhyamaka and Sata-sastras and dismissed the Yogacarabhumi, drawing many followers. Xuanzang composed three thousand verses of the Hui-zong-lun reconciling Madhyamaka and Yogacara, to the approval of Silabhadra and the community. Previously folded into the later Nalanda treatises, the episode is dated here by scholarly estimate."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      },
+      {
+        "title": "《中国佛教史》",
+        "author": "任继愈",
+        "year": 1985,
+        "note": "那烂陀与印度佛教背景参考"
+      }
+    ],
+    "relatedIds": [
+      "nalanda-sastras-635-07",
+      "nalanda-debate-637-09"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "nalanda-debate-637-09",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "论破外道",
+      "en": "Debating the Lokayata"
+    },
+    "aliases": [
+      {
+        "zh": "顺世外道",
+        "en": "Lokayata"
+      }
+    ],
+    "date": "0637-09-01",
+    "location": {
+      "lng": 85.44,
+      "lat": 25.14,
+      "place": {
+        "zh": "那烂陀寺（今印度比哈尔邦）",
+        "en": "Nalanda Monastery (Bihar, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "顺世外道悬义四十条于寺门，玄奘往复论难，外道辞屈。",
+      "en": "A Lokayata challenger posts forty theses at the gate; Xuanzang refutes him."
+    },
+    "description": {
+      "zh": "有顺世外道来那烂陀求论，书四十条义悬于寺门，约「堕负者斩首谢之」，寺僧无人敢应。玄奘请与对论，往复数番，外道辞屈请斩，玄奘止之，但令归信。年月经研究推定。",
+      "en": "A Lokayata teacher came to Nalanda and posted forty theses at the gate, offering his head to whoever could refute them. None of the monks dared answer; Xuanzang took up the debate, and after several exchanges the challenger conceded. Xuanzang spared him and asked only that he accept the teaching. Dates are scholarly estimates."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      },
+      {
+        "title": "《中国佛教史》",
+        "author": "任继愈",
+        "year": 1985,
+        "note": "那烂陀与印度佛教背景参考"
+      }
+    ],
+    "relatedIds": [
+      "nalanda-hui-zong-637-02",
+      "nalanda-farewell-638-06"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "nalanda-farewell-638-06",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "辞别戒贤",
+      "en": "Farewell to Silabhadra"
+    },
+    "aliases": [
+      {
+        "zh": "辞别那烂陀",
+        "en": "Leaving Nalanda"
+      }
+    ],
+    "date": "0638-06-01",
+    "location": {
+      "lng": 85.44,
+      "lat": 25.14,
+      "place": {
+        "zh": "那烂陀寺（今印度比哈尔邦）",
+        "en": "Nalanda Monastery (Bihar, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘学成，辞戒贤出游五印度，遍礼圣迹。",
+      "en": "His studies complete, Xuanzang takes leave of Silabhadra to tour the five Indias."
+    },
+    "description": {
+      "zh": "在那烂陀五年，玄奘学成，辞戒贤出游。此后三年遍历东、南、西印度，遍礼圣迹，至 642 年北归。辞行年月属研究推定。",
+      "en": "After five years at Nalanda Xuanzang took leave of his master and set out on three years of pilgrimage through eastern, southern and western India, returning north in 642. The date is a scholarly estimate."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      },
+      {
+        "title": "《中国佛教史》",
+        "author": "任继愈",
+        "year": 1985,
+        "note": "那烂陀与印度佛教背景参考"
+      }
+    ],
+    "relatedIds": [
+      "nalanda-debate-637-09",
+      "magadha-639-02"
+    ],
+    "importance": 2,
     "extensions": {
       "routeEvent": false
     }
@@ -1846,7 +2305,7 @@
       }
     ],
     "relatedIds": [
-      "nalanda-study-634-02",
+      "nalanda-farewell-638-06",
       "rajgir-639-03"
     ],
     "importance": 2,
@@ -2443,7 +2902,7 @@
     ],
     "relatedIds": [
       "sankassa-639-10",
-      "nalanda-treatises-642-06"
+      "iranaparvata-640-01"
     ],
     "importance": 2,
     "aliases": [
@@ -2457,6 +2916,525 @@
     ]
   },
   {
+    "id": "iranaparvata-640-01",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "伊烂拏钵伐多",
+      "en": "Iranaparvata"
+    },
+    "aliases": [
+      {
+        "zh": "伊烂拏钵伐多国"
+      },
+      {
+        "zh": "Īraṇaparvata",
+        "en": "Iranaparvata"
+      }
+    ],
+    "date": "0640-01-15",
+    "location": {
+      "lng": 87.0,
+      "lat": 25.2,
+      "place": {
+        "zh": "伊烂拏钵伐多（今印度比哈尔邦）",
+        "en": "Iranaparvata (Bihar, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘东行至伊烂拏钵伐多，从如来密、师子忍学《毗婆沙》。",
+      "en": "Xuanzang travels east to Iranaparvata to study the Vibhasa."
+    },
+    "description": {
+      "zh": "伊烂拏钵伐多国临恒河，在今比哈尔邦蒙吉尔一带。玄奘在此从如来密、师子忍二论师学《毗婆沙》，停留数月，兼记当地僧俗风习。年月经研究推定。",
+      "en": "Iranaparvata lay on the Ganges near modern Monghyr in Bihar. Xuanzang studied the Vibhasa under the masters Tathagatagupta and Simhamati for several months and recorded local monastic life. Dates are scholarly estimates."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "kaushambi-639-10",
+      "tamralipti-640-05"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "tamralipti-640-05",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "耽摩栗底",
+      "en": "Tamralipti"
+    },
+    "aliases": [
+      {
+        "zh": "多摩梨帝"
+      },
+      {
+        "zh": "Tāmraliptī",
+        "en": "Tamralipti"
+      }
+    ],
+    "date": "0640-05-01",
+    "location": {
+      "lng": 87.9,
+      "lat": 22.3,
+      "place": {
+        "zh": "耽摩栗底（今印度西孟加拉邦）",
+        "en": "Tamralipti (West Bengal, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘至东海岸耽摩栗底，见海舶辐辏，闻南海诸国事。",
+      "en": "At the eastern port of Tamralipti Xuanzang sees the sea trade and hears of the southern seas."
+    },
+    "description": {
+      "zh": "耽摩栗底（今西孟加拉邦塔姆卢克）是东印度出海口，商舶云集，与南海、僧伽罗通航。玄奘在此闻海上诸国与佛牙故事，仍决意陆行。沿途并记三摩呾吒、羯罗拏苏伐剌那诸国。年月经研究推定。",
+      "en": "Tamralipti, near modern Tamluk in West Bengal, was the outlet of eastern India, crowded with ships bound for the southern seas and Sri Lanka. Xuanzang heard there of the maritime kingdoms and the Buddha's tooth, but chose to travel overland, recording Samatata and Karnasuvarna on the way. Dates are scholarly estimates."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "iranaparvata-640-01",
+      "kalinga-640-08"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "kalinga-640-08",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "羯陵伽",
+      "en": "Kalinga"
+    },
+    "aliases": [
+      {
+        "zh": "羯陵伽国"
+      },
+      {
+        "zh": "Kaliṅga",
+        "en": "Kalinga"
+      }
+    ],
+    "date": "0640-08-15",
+    "location": {
+      "lng": 85.1,
+      "lat": 20.1,
+      "place": {
+        "zh": "羯陵伽（今印度奥里萨邦）",
+        "en": "Kalinga (Odisha, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘沿东海岸南下，经乌荼、恭御陀至羯陵伽。",
+      "en": "Xuanzang follows the east coast south through Odra and Kongoda to Kalinga."
+    },
+    "description": {
+      "zh": "羯陵伽在今印度奥里萨邦，玄奘记其国土、僧徒与伽蓝。自乌荼、恭御陀沿海岸南行至此，再折向内陆。年月经研究推定。",
+      "en": "Kalinga corresponds to modern Odisha. Xuanzang recorded its land, monks and monasteries, having come south along the coast through Odra and Kongoda before turning inland. Dates are scholarly estimates."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "tamralipti-640-05",
+      "dhanyakataka-640-12"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "dhanyakataka-640-12",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "驮那羯磔迦",
+      "en": "Dhanyakataka"
+    },
+    "aliases": [
+      {
+        "zh": "大案达罗"
+      },
+      {
+        "zh": "Dhānyakaṭaka",
+        "en": "Dhanyakataka"
+      }
+    ],
+    "date": "0640-12-01",
+    "location": {
+      "lng": 80.35,
+      "lat": 16.51,
+      "place": {
+        "zh": "驮那羯磔迦（今印度安得拉邦）",
+        "en": "Dhanyakataka (Andhra Pradesh, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘南下达案达罗，至驮那羯磔迦，从苏部底等学大乘论。",
+      "en": "Reaching Andhra, Xuanzang studies Mahayana treatises at Dhanyakataka."
+    },
+    "description": {
+      "zh": "驮那羯磔迦（今安得拉邦阿马拉瓦蒂一带）为案达罗国故地，大乘与部派并盛，城南有阿摩罗伐底大塔。玄奘在此从苏部底、苏利婆二僧学大乘论。年月经研究推定。",
+      "en": "Dhanyakataka, around modern Amaravati in Andhra Pradesh, was the heartland of the Andhra country where Mahayana and the schools flourished side by side, with the great stupa nearby. Xuanzang studied Mahayana treatises under two local monks. Dates are scholarly estimates."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "kalinga-640-08",
+      "kanci-641-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kanci-641-03",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "建志城",
+      "en": "Kanci"
+    },
+    "aliases": [
+      {
+        "zh": "建志补罗"
+      },
+      {
+        "zh": "Kāñcī",
+        "en": "Kanci"
+      }
+    ],
+    "date": "0641-03-01",
+    "location": {
+      "lng": 79.7,
+      "lat": 12.83,
+      "place": {
+        "zh": "建志城（今印度泰米尔纳德邦）",
+        "en": "Kanci (Tamil Nadu, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘至达罗毗荼建志城，护法论师故里。",
+      "en": "Xuanzang reaches Kanci, birthplace of Dharmapala, in the Dravida country."
+    },
+    "description": {
+      "zh": "建志城（今甘吉布勒姆）为达罗毗荼国都，护法（Dharmapāla）论师出生地，僧伽学术甚盛。玄奘在此停留问学，并记南印度诸国风土。年月经研究推定。",
+      "en": "Kanci, modern Kanchipuram, was the capital of the Dravida country and the birthplace of Dharmapala; its monastic learning was famous. Xuanzang stayed to study and recorded the customs of the southern kingdoms. Dates are scholarly estimates."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "dhanyakataka-640-12",
+      "malakuta-641-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "malakuta-641-06",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "秣罗矩吒",
+      "en": "Malakuta"
+    },
+    "aliases": [
+      {
+        "zh": "秣罗矩吒国"
+      },
+      {
+        "zh": "Malakūṭa",
+        "en": "Malakuta"
+      }
+    ],
+    "date": "0641-06-01",
+    "location": {
+      "lng": 78.12,
+      "lat": 9.93,
+      "place": {
+        "zh": "秣罗矩吒（今印度泰米尔纳德邦）",
+        "en": "Malakuta (Tamil Nadu, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘至印度南端秣罗矩吒，闻僧伽罗佛牙事。",
+      "en": "At the southern tip of India Xuanzang hears of the Buddha's tooth in Sri Lanka."
+    },
+    "description": {
+      "zh": "秣罗矩吒（今马杜赖一带）临海，玄奘在此闻僧伽罗国（今斯里兰卡）有佛牙、供养无缺；以路远海险未往，后来义净才由海路至彼。年月经研究推定。",
+      "en": "Malakuta, around modern Madurai, faces the sea. There Xuanzang heard that Simhala — Sri Lanka — kept the Buddha's tooth with unbroken offerings; the sea route was perilous and he did not cross, though Yijing later did. Dates are scholarly estimates."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "kanci-641-03",
+      "maharastra-641-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "maharastra-641-10",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "摩诃剌佗",
+      "en": "Maharastra"
+    },
+    "aliases": [
+      {
+        "zh": "摩诃剌佗国"
+      },
+      {
+        "zh": "Mahārāṣṭra",
+        "en": "Maharastra"
+      }
+    ],
+    "date": "0641-10-01",
+    "location": {
+      "lng": 75.4,
+      "lat": 19.5,
+      "place": {
+        "zh": "摩诃剌佗（今印度马哈拉施特拉邦）",
+        "en": "Maharastra (India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘沿西海岸北上，经恭建那补罗、摩诃剌佗诸国。",
+      "en": "Xuanzang turns north up the west coast through Konkanapura and Maharastra."
+    },
+    "description": {
+      "zh": "摩诃剌佗国人轻财尚义、善战，玄奘记其风俗与伽蓝。自南印度北上，经恭建那补罗、摩诃剌佗、跋禄羯呫婆诸国，走向西海岸。年月经研究推定。",
+      "en": "The people of Maharastra were described as despising wealth, honoring their word and skilled in war. Xuanzang came north from the far south through Konkanapura and Maharastra toward the west coast. Dates are scholarly estimates."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "malakuta-641-06",
+      "valabhi-642-01"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "valabhi-642-01",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "伐腊毗",
+      "en": "Valabhi"
+    },
+    "aliases": [
+      {
+        "zh": "伐腊毗国"
+      },
+      {
+        "zh": "Valabhī",
+        "en": "Valabhi"
+      }
+    ],
+    "date": "0642-01-15",
+    "location": {
+      "lng": 71.9,
+      "lat": 21.9,
+      "place": {
+        "zh": "伐腊毗（今印度古吉拉特邦）",
+        "en": "Valabhi (Gujarat, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘至西海岸伐腊毗，正量部盛行、商舶辐辏之地。",
+      "en": "At Valabhi on the western coast Xuanzang finds the Sammitiya school and a busy port."
+    },
+    "description": {
+      "zh": "伐腊毗（今古吉拉特邦瓦拉）为西印度大港与佛学中心，正量部盛行，义净后来亦至此求学。玄奘记其僧徒、伽蓝与商舶往来，随后东行北归。年月经研究推定。",
+      "en": "Valabhi, near modern Vala in Gujarat, was a great western port and a center of the Sammitiya school, where Yijing later studied. Xuanzang recorded its monks, monasteries and shipping before turning east for the return. Dates are scholarly estimates."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "maharastra-641-10",
+      "nalanda-return-642-04"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "nalanda-return-642-04",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "还归那烂陀",
+      "en": "Return to Nalanda"
+    },
+    "aliases": [
+      {
+        "zh": "巡礼归来",
+        "en": "End of the pilgrimage"
+      }
+    ],
+    "date": "0642-04-15",
+    "location": {
+      "lng": 85.44,
+      "lat": 25.14,
+      "place": {
+        "zh": "那烂陀寺（今印度比哈尔邦）",
+        "en": "Nalanda Monastery (Bihar, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘经摩腊婆、邬阇衍那北归那烂陀，五印度巡礼至此结束。",
+      "en": "Xuanzang returns north through Malava and Ujjayini, closing his pilgrimage."
+    },
+    "description": {
+      "zh": "玄奘自伐腊毗东行，经摩腊婆、邬阇衍那、掷枳陀诸国，还归那烂陀寺。五印度巡礼前后约三年，行程数千里，所历百余国，后多载入《大唐西域记》。归期属研究推定。",
+      "en": "From Valabhi Xuanzang went east through Malava, Ujjayini and other lands back to Nalanda. The pilgrimage had lasted about three years and covered more than a hundred kingdoms, most of them later recorded in the Records of the Western Regions. The date is a scholarly estimate."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "valabhi-642-01",
+      "nalanda-treatises-642-06"
+    ],
+    "importance": 2
+  },
+  {
     "id": "nalanda-treatises-642-06",
     "atlasId": "xuanzang",
     "name": {
@@ -2464,9 +3442,6 @@
       "en": "Treatises Composed at Nalanda"
     },
     "aliases": [
-      {
-        "zh": "会宗论"
-      },
       {
         "zh": "制恶见论"
       },
@@ -2491,12 +3466,12 @@
     ],
     "category": "求法",
     "summary": {
-      "zh": "玄奘在那烂陀著《会宗论》《制恶见论》，破师子光与般若毱多说。",
-      "en": "At Nalanda Xuanzang writes two treatises refuting rival interpretations."
+      "zh": "玄奘在那烂陀著《制恶见论》，驳般若毱多，戒日王遣使迎请。",
+      "en": "At Nalanda Xuanzang writes the Zhi-e-jian-lun refuting Prajnagupta, and King Harsha sends for him."
     },
     "description": {
-      "zh": "巡礼五印度归来，玄奘在那烂陀寺著《会宗论》三千颂，会通瑜伽与中观，破师子光对《中论》的解读；又著《制恶见论》一千六百颂，驳般若毱多的《破大乘论》。戒日王读到《制恶见论》后大悦，遣使迎请玄奘，遂有曲女城大会。",
-      "en": "Returning from his pilgrimage, Xuanzang composed three thousand verses of the Hui-zong-lun, reconciling Yogacara and Madhyamaka against Simhacandra’s reading of the Madhyamaka, and sixteen hundred verses of the Zhi-e-jian-lun refuting Prajnagupta. King Harsha, delighted by the latter, sent for him — the prelude to the Kanauj assembly."
+      "zh": "巡礼五印度归来，玄奘在那烂陀寺著《制恶见论》一千六百颂，驳般若毱多的《破大乘论》，并设十八日无遮论场。戒日王读到后大悦，遣使迎请玄奘，遂有曲女城大会。《会宗论》则成于游学期间（637 年，见「造《会宗论》」）。",
+      "en": "Returning from his pilgrimage, Xuanzang composed sixteen hundred verses of the Zhi-e-jian-lun at Nalanda, refuting Prajnagupta's attack on the Mahayana, and set out the argument for eighteen days. King Harsha, delighted on reading it, sent for him — the prelude to the Kanauj assembly. The Hui-zong-lun had been written earlier, during his studies."
     },
     "images": [],
     "sources": [
@@ -2519,9 +3494,9 @@
       }
     ],
     "relatedIds": [
-      "kaushambi-639-10",
+      "nalanda-return-642-04",
       "kamarupa-643-01",
-      "nalanda-study-634-02"
+      "nalanda-hui-zong-637-02"
     ],
     "importance": 3
   },
