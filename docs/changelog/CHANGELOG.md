@@ -3,6 +3,15 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.110] - 2026-11-18
+
+### Docs
+- 补齐 M168 计划的验收勾选（validate / routes / heads / 测试 / 索引 / 线上核对）；
+- 对话档案补入发布信息（`9dc9b6e`、`f2152f0`、v1.0.108 / v1.0.109）与线上核对结果；
+- 文档已与代码、数据同批发布，无遗留待办。
+
+---
+
 ## [v1.0.109] - 2026-11-18
 
 ### Fixed
