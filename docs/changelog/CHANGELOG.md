@@ -3,6 +3,27 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.112] - 2026-11-18
+
+### Added
+- 11 张专题封面补 AI 生成内容标识：图片保留「豆包 AI 生成」水印，Web 与移动端卡片
+  增加「AI 生成示意图」角标，Web 关于页与移动端「关于」增加 AI 内容说明；
+- 封面 JPEG 写入 XMP `TC260:AIGC` 隐式标识（`Label=1`、生成方、传播方与内容编号），
+  登记表为 `data/atlases/ai-content.json`；
+- `pnpm check:aigc` / `pnpm apply:aigc`（`scripts/aigc-labels.ts`），并挂到
+  `pnpm validate:data`；校验登记、1600×900 尺寸、MD5 文件名与水印声明；
+- 新增 `docs/guides/ai-content-labeling.md`、`docs/decisions/2026-11-18-AI生成内容标识口径.md`
+  与 `docs/legal/user-agreement.draft.md`（AI 内容条款草案）；
+- 商店材料补充「不提供 AI 生成服务、包含 AI 生成封面」的中英文提审口径。
+
+### Changed
+- 封面文件名随 XMP 写入后的内容 MD5 更新，manifest、`index.json`、搜索索引与移动端
+  内置数据同步重建；
+- `ATTRIBUTION.md`、README、发布检查清单补充 AIGC 说明与校验项；
+- 专题文本统一表述为「项目整理，部分由 AI 辅助起草，经人工校订」。
+
+---
+
 ## [v1.0.111] - 2026-11-18
 
 ### Fixed

@@ -1,6 +1,6 @@
 {
   "name": "open-chronicle-atlas",
-  "version": "1.0.111",
+  "version": "1.0.112",
   "private": true,
   "type": "module",
   "packageManager": "pnpm@10.30.3",
@@ -13,7 +13,7 @@
     "typecheck": "pnpm -r typecheck",
     "test": "pnpm -r test",
     "lint": "eslint .",
-    "validate:data": "tsx scripts/validate-data.ts",
+    "validate:data": "tsx scripts/validate-data.ts && tsx scripts/aigc-labels.ts",
     "check:versions": "tsx scripts/check-versions.ts",
     "version:bump": "tsx scripts/bump-version.ts",
     "prepare": "git config core.hooksPath .githooks || true",
@@ -23,7 +23,9 @@
     "ops:inbox": "bash scripts/ops-inbox.sh",
     "check:routes": "tsx scripts/check-event-routes.ts",
     "check:heads": "tsx scripts/check-route-endpoints.ts",
-    "check:land": "tsx scripts/check-route-land.ts"
+    "check:land": "tsx scripts/check-route-land.ts",
+    "check:aigc": "tsx scripts/aigc-labels.ts",
+    "apply:aigc": "tsx scripts/aigc-labels.ts --apply"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",

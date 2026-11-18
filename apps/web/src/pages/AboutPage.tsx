@@ -79,6 +79,21 @@ export function AboutPage() {
         </section>
 
         <section className="rounded-2xl border border-ink/10 bg-parchment p-5 shadow-sm">
+          <h2 className="font-serif text-lg font-semibold text-ink">{t('about.aiTitle')}</h2>
+          <p className="mt-2">{t('about.aiBody')}</p>
+          <p className="mt-2">{t('about.aiCovers')}</p>
+          <p className="mt-2">{t('about.aiText')}</p>
+          <a
+            href={dataUrl('ATTRIBUTION.md')}
+            target="_blank"
+            rel="noreferrer"
+            className="mt-3 inline-block text-xs text-cinnabar underline underline-offset-2"
+          >
+            {t('about.aiMore')}
+          </a>
+        </section>
+
+        <section className="rounded-2xl border border-ink/10 bg-parchment p-5 shadow-sm">
           <div className="flex items-center justify-between gap-3">
             <h2 className="font-serif text-lg font-semibold text-ink">{t('about.cache')}</h2>
             <button

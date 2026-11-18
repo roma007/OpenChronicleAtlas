@@ -19,6 +19,23 @@
 | 隐私政策 URL | `https://<domain>/privacy` |
 | 支持 URL | `https://github.com/roma007/OpenChronicleAtlas` |
 
+### 1.1 人工智能生成合成服务声明
+
+> 提交前按商店表单原文填写；以下为统一口径，详细说明见
+> [`docs/guides/ai-content-labeling.md`](../guides/ai-content-labeling.md)。
+
+| 商店问题 | 填写 |
+| --- | --- |
+| 是否提供人工智能生成合成服务 | **否**。应用为静态历史地图，不提供 AI 对话、AI 绘图、AI 摘要等用户可触发生成功能 |
+| 是否包含人工智能生成合成内容 | **是**。11 张专题封面为「豆包 AI」生成的示意插画 |
+
+审核备注可直接使用：
+
+> 本应用不提供生成式 AI 服务。应用内 11 张专题封面为 AI 生成示意插画，不是史实图像；
+> 图片右下角保留「豆包 AI 生成」水印，专题卡片标注「AI 生成示意图」，文件元数据写入
+> GB 45438-2025 规定的 `TC260:AIGC` 隐式标识。封面仅用于专题入口展示。
+> 说明文档：https://github.com/roma007/OpenChronicleAtlas/blob/main/docs/guides/ai-content-labeling.md
+
 ## 2. 简介
 
 **短描述（≤ 80 字）**

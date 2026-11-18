@@ -4,6 +4,7 @@
 export type BundledTextLoader = () => unknown;
 
 export const BUNDLED_TEXT: Record<string, BundledTextLoader> = {
+  "ai-content.json": () => require("../../../../data/atlases/ai-content.json"),
   "anti-japanese-war/events/events.json": () => require("../../../../data/atlases/anti-japanese-war/events/events.json"),
   "anti-japanese-war/manifest.json": () => require("../../../../data/atlases/anti-japanese-war/manifest.json"),
   "anti-japanese-war/route-endpoints.allow.json": () => require("../../../../data/atlases/anti-japanese-war/route-endpoints.allow.json"),
@@ -62,15 +63,15 @@ export const BUNDLED_TEXT: Record<string, BundledTextLoader> = {
 };
 
 export const BUNDLED_IMAGES: Record<string, number> = {
-  "anti-japanese-war/assets/cover-851dab39.jpg": require("../../../../data/atlases/anti-japanese-war/assets/cover-851dab39.jpg"),
-  "grand-canal/assets/cover-0a7df51a.jpg": require("../../../../data/atlases/grand-canal/assets/cover-0a7df51a.jpg"),
-  "long-march/assets/cover-f4b573d9.jpg": require("../../../../data/atlases/long-march/assets/cover-f4b573d9.jpg"),
-  "ming-qing/assets/cover-226ea43c.jpg": require("../../../../data/atlases/ming-qing/assets/cover-226ea43c.jpg"),
-  "song-yuan/assets/cover-8792348d.jpg": require("../../../../data/atlases/song-yuan/assets/cover-8792348d.jpg"),
-  "sui-tang/assets/cover-9357c5b4.jpg": require("../../../../data/atlases/sui-tang/assets/cover-9357c5b4.jpg"),
-  "three-kingdoms/assets/cover-05769409.jpg": require("../../../../data/atlases/three-kingdoms/assets/cover-05769409.jpg"),
-  "xi-lu-jun/assets/cover-c8a1ddce.jpg": require("../../../../data/atlases/xi-lu-jun/assets/cover-c8a1ddce.jpg"),
-  "xu-xiake/assets/cover-8ad109b0.jpg": require("../../../../data/atlases/xu-xiake/assets/cover-8ad109b0.jpg"),
-  "xuanzang/assets/cover-1d89176b.jpg": require("../../../../data/atlases/xuanzang/assets/cover-1d89176b.jpg"),
-  "zheng-he/assets/cover-67cdb1cf.jpg": require("../../../../data/atlases/zheng-he/assets/cover-67cdb1cf.jpg"),
+  "anti-japanese-war/assets/cover-3c28f0fc.jpg": require("../../../../data/atlases/anti-japanese-war/assets/cover-3c28f0fc.jpg"),
+  "grand-canal/assets/cover-9f2268d0.jpg": require("../../../../data/atlases/grand-canal/assets/cover-9f2268d0.jpg"),
+  "long-march/assets/cover-f3fba2bc.jpg": require("../../../../data/atlases/long-march/assets/cover-f3fba2bc.jpg"),
+  "ming-qing/assets/cover-fa7cf79f.jpg": require("../../../../data/atlases/ming-qing/assets/cover-fa7cf79f.jpg"),
+  "song-yuan/assets/cover-f153563e.jpg": require("../../../../data/atlases/song-yuan/assets/cover-f153563e.jpg"),
+  "sui-tang/assets/cover-0f6ca5a3.jpg": require("../../../../data/atlases/sui-tang/assets/cover-0f6ca5a3.jpg"),
+  "three-kingdoms/assets/cover-ae3d77a1.jpg": require("../../../../data/atlases/three-kingdoms/assets/cover-ae3d77a1.jpg"),
+  "xi-lu-jun/assets/cover-6a38bf37.jpg": require("../../../../data/atlases/xi-lu-jun/assets/cover-6a38bf37.jpg"),
+  "xu-xiake/assets/cover-c7379ad7.jpg": require("../../../../data/atlases/xu-xiake/assets/cover-c7379ad7.jpg"),
+  "xuanzang/assets/cover-890371e6.jpg": require("../../../../data/atlases/xuanzang/assets/cover-890371e6.jpg"),
+  "zheng-he/assets/cover-dd826345.jpg": require("../../../../data/atlases/zheng-he/assets/cover-dd826345.jpg"),
 };

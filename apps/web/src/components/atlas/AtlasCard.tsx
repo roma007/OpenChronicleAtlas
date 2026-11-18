@@ -26,7 +26,7 @@ export function AtlasCard({ atlas }: { atlas: AtlasSummary }) {
   return (
     <Link
       to={`/atlas/${atlas.id}`}
-      aria-label={title}
+      aria-label={`${title} · ${t('card.aiCover')}`}
       className="group flex flex-col overflow-hidden rounded-2xl border border-ink/10 bg-parchment shadow-sm transition hover:-translate-y-1 hover:border-cinnabar/30 hover:shadow-panel focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cinnabar"
     >
       <div className="relative aspect-[16/9] overflow-hidden bg-parchment-deep [container-type:inline-size]">
@@ -44,6 +44,10 @@ export function AtlasCard({ atlas }: { atlas: AtlasSummary }) {
         )}
 
         <div className="pointer-events-none absolute inset-0" style={{ background: SCRIM }} />
+
+        <span className="pointer-events-none absolute bottom-2 left-2 rounded-full bg-ink/65 px-2 py-0.5 text-[10px] font-medium tracking-wide text-parchment shadow-sm">
+          {t('card.aiCover')}
+        </span>
 
         <div
           className="absolute left-[6.9cqw] right-[14cqw] top-[8.6cqw]"

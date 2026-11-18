@@ -18,6 +18,7 @@ import { resolveDataImage } from '../data/client';
 import type { RootStackParamList } from '../navigation/types';
 import { useAtlasStore } from '../stores/useAtlasStore';
 import { colors, radii, spacing } from '../theme';
+import { AboutModal } from '../components/common/AboutModal';
 import { LanguageToggle } from '../components/common/LanguageToggle';
 import { PrivacyPolicyModal } from '../components/common/PrivacyPolicyModal';
 import { useI18n } from '../hooks/useI18n';
@@ -107,6 +108,7 @@ export function GalleryScreen({ navigation }: Props) {
   const error = useAtlasStore((state) => state.error);
   const loadIndex = useAtlasStore((state) => state.loadIndex);
   const [privacyOpen, setPrivacyOpen] = useState(false);
+  const [aboutOpen, setAboutOpen] = useState(false);
   const fromCache = useAtlasStore((state) => state.fromCache);
   const clearCache = useAtlasStore((state) => state.clearCache);
   const dataUpdateAvailable = useAtlasStore((state) => state.dataUpdateAvailable);
@@ -192,9 +194,14 @@ export function GalleryScreen({ navigation }: Props) {
                 </Text>
               </Pressable>
               <Text style={styles.cacheHint}>{t('cache.clearHint')}</Text>
-              <Pressable style={styles.privacyLink} onPress={() => setPrivacyOpen(true)}>
-                <Text style={styles.privacyLinkText}>{t('privacy.title')}</Text>
-              </Pressable>
+              <View style={styles.footerLinks}>
+                <Pressable style={styles.privacyLink} onPress={() => setPrivacyOpen(true)}>
+                  <Text style={styles.privacyLinkText}>{t('privacy.title')}</Text>
+                </Pressable>
+                <Pressable style={styles.privacyLink} onPress={() => setAboutOpen(true)}>
+                  <Text style={styles.privacyLinkText}>{t('about.title')}</Text>
+                </Pressable>
+              </View>
             </View>
           ) : undefined
         }
@@ -220,7 +227,7 @@ export function GalleryScreen({ navigation }: Props) {
             <Pressable
               style={[styles.card, columns > 1 && styles.cardGrid]}
               accessibilityRole="button"
-              accessibilityLabel={title}
+              accessibilityLabel={`${title} · ${t('card.aiCover')}`}
               onPress={() => navigation.navigate('Atlas', { atlasId: item.id })}
             >
               <View style={styles.coverWrap}>
@@ -238,11 +245,16 @@ export function GalleryScreen({ navigation }: Props) {
                     width={cardWidth}
                   />
                 ) : null}
-              </View>            </Pressable>
+                <View style={styles.aiBadge}>
+                  <Text style={styles.aiBadgeText}>{t('card.aiCover')}</Text>
+                </View>
+              </View>
+            </Pressable>
           );
         }}
       />
       <PrivacyPolicyModal visible={privacyOpen} onClose={() => setPrivacyOpen(false)} />
+      <AboutModal visible={aboutOpen} onClose={() => setAboutOpen(false)} />
     </SafeAreaView>
   );
 }
@@ -280,6 +292,7 @@ const styles = StyleSheet.create({
   },
   updateButtonText: { color: colors.parchment, fontSize: 12, fontWeight: '600' },
   cacheFooter: { alignItems: 'center', gap: spacing.xs, paddingTop: spacing.md },
+  footerLinks: { flexDirection: 'row', gap: spacing.lg },
   privacyLink: { paddingTop: spacing.sm },
   privacyLinkText: { fontSize: 12, color: colors.cinnabar, textDecorationLine: 'underline' },
   cacheButton: {
@@ -334,6 +347,16 @@ const styles = StyleSheet.create({
   },
   coverWrap: { width: '100%', aspectRatio: 16 / 9, overflow: 'hidden', backgroundColor: colors.parchmentDeep },
   cover: { width: '100%', height: '100%' },
+  aiBadge: {
+    position: 'absolute',
+    left: spacing.sm,
+    bottom: spacing.sm,
+    backgroundColor: colors.ink + 'A6',
+    borderRadius: radii.pill,
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+  },
+  aiBadgeText: { fontSize: 10, color: colors.parchment, fontWeight: '600' },
   coverFallback: { alignItems: 'center', justifyContent: 'center' },
   coverFallbackText: { fontSize: 48, color: colors.inkSoft, opacity: 0.3 },
 });

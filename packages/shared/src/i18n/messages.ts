@@ -22,6 +22,14 @@ const zh = {
   'about.cleared': '已清除，正在刷新…',
   'about.repo': '项目仓库',
   'about.back': '返回',
+  'about.aiTitle': '人工智能生成内容说明',
+  'about.aiBody':
+    '本应用不提供人工智能生成合成服务：没有 AI 对话、AI 绘图、AI 摘要等由用户触发的生成功能。',
+  'about.aiCovers':
+    '专题封面由「豆包 AI」生成，是示意插画，不对应具体史实；图片保留「豆包 AI 生成」水印，列表与卡片标注「AI 生成示意图」，文件元数据写入 TC260:AIGC 隐式标识。',
+  'about.aiText':
+    '专题文本由项目整理，部分由 AI 辅助起草，经人工校订；仍为示意初稿，待史料页码级校订。',
+  'about.aiMore': '查看来源、许可与 AI 标识说明',
   'pwa.updateAvailable': '新版本可用',
   'pwa.refresh': '刷新',
   'pwa.later': '稍后',
@@ -139,6 +147,7 @@ const zh = {
   'map.bubbleClose': '关闭事件气泡',
 
   'card.coverAlt': '{title} 封面',
+  'card.aiCover': 'AI 生成示意图',
   'card.enter': '进入专题',
 
   'language.zh': '中文',
@@ -200,6 +209,14 @@ const en: Record<keyof typeof zh, string> = {
   'about.cleared': 'Cleared, reloading…',
   'about.repo': 'Project repositories',
   'about.back': 'Back',
+  'about.aiTitle': 'AI-generated content',
+  'about.aiBody':
+    'This app does not provide AI generation or synthesis services. It has no user-triggered AI chat, image generation, or summarisation features.',
+  'about.aiCovers':
+    'The atlas covers are illustrations generated with Doubao AI. They are illustrative and do not depict specific historical scenes. The “Doubao AI generated” watermark is retained, cards are labelled “AI-generated illustration”, and the files carry a TC260:AIGC implicit label in their metadata.',
+  'about.aiText':
+    'Atlas texts are compiled by the project. Some passages were drafted with AI assistance and then edited by a human. They remain illustrative drafts pending page-level historical review.',
+  'about.aiMore': 'Sources, licences, and AI labelling',
   'pwa.updateAvailable': 'A new version is available',
   'pwa.refresh': 'Refresh',
   'pwa.later': 'Later',
@@ -324,6 +341,7 @@ const en: Record<keyof typeof zh, string> = {
   'map.bubbleClose': 'Close event bubble',
 
   'card.coverAlt': '{title} cover',
+  'card.aiCover': 'AI-generated illustration',
   'card.enter': 'Open atlas',
 
   'language.zh': '中文',

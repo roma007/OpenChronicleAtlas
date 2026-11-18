@@ -137,6 +137,25 @@ Google Play 无关键词字段，依靠标题、短描述和长描述覆盖上�
 
 > 中文文案中的专题数量、版本信息必须与英文版一致；[store-metadata.md](store-metadata.md) 已同步为「十个专题 / 0.93.0」。
 
+### 1.11 AI-generated content disclosure
+
+> Use the exact wording of the store form; this is the project-wide position.
+> Policy: [AI content labelling](../guides/ai-content-labeling.md).
+
+| Store question | Answer |
+| --- | --- |
+| Does the app provide AI generation or synthesis services? | **No.** It is a static historical atlas with no AI chat, image generation, or summarisation. |
+| Does the app contain AI-generated content? | **Yes.** The 11 atlas covers are illustrative images generated with Doubao AI. |
+
+Review note:
+
+> This app does not provide generative AI services. Its 11 atlas covers are AI-generated
+> illustrative artwork, not historical photographs. The “Doubao AI generated” watermark is
+> retained, each card is labelled “AI-generated illustration”, and the files carry a
+> `TC260:AIGC` implicit label in their metadata as required by GB 45438-2025. The covers are
+> used only as atlas entry artwork. Labelling policy:
+> https://github.com/roma007/OpenChronicleAtlas/blob/main/docs/guides/ai-content-labeling.md
+
 ---
 
 ## 2. iOS 与 Android 差异

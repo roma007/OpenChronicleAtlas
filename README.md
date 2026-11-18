@@ -159,7 +159,9 @@ OpenChronicleAtlas/
 ```bash
 pnpm install          # 安装依赖
 pnpm dev              # 启动 Web（默认 http://localhost:5173）
-pnpm validate:data    # 校验 data/atlases 下全部专题
+pnpm validate:data    # 校验 data/atlases 下全部专题（含 AI 封面标识）
+pnpm check:aigc       # 单独校验封面水印声明与 TC260:AIGC 元数据
+pnpm apply:aigc       # 新增/替换 AI 封面后写入元数据并按 MD5 重命名
 pnpm check:routes     # 检查事件-路线距离（默认 30km）
 pnpm -r typecheck     # 三包类型检查
 pnpm test             # shared 单测
@@ -303,6 +305,16 @@ pnpm --filter @atlas/mobile exec expo prebuild   # 生成 android/ios（已 giti
   - 引用：Bennett, J. S., Mutch, E., & Chalstrey, E. (2025). Cliopatria. *Scientific Data*.
 - 详细修改说明与署名见 [`data/atlases/ATTRIBUTION.md`](data/atlases/ATTRIBUTION.md)；
 - Cliopatria 边界为学术估算，不是精确国界，不应作为边界测量或领土主张的依据。
+
+### 人工智能生成内容
+
+- 本应用**不提供**人工智能生成合成服务（无 AI 对话、AI 绘图、AI 摘要等用户可触发生成功能）；
+- 11 张专题封面由「豆包 AI」生成，是示意插画：保留「豆包 AI 生成」水印，界面标注
+  「AI 生成示意图」，JPEG 元数据写入 GB 45438-2025 / `TC260:AIGC` 隐式标识；
+- 专题文本由项目整理，部分由 AI 辅助起草，经人工校订，仍为示意初稿；
+- 标识口径、商店提审话术与维护流程见
+  [`docs/guides/ai-content-labeling.md`](docs/guides/ai-content-labeling.md)，封面登记见
+  [`data/atlases/ai-content.json`](data/atlases/ai-content.json)。
 
 ---
 
