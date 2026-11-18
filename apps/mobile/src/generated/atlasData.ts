@@ -74,4 +74,7 @@ export const BUNDLED_IMAGES: Record<string, number> = {
   "xu-xiake/assets/cover-c7379ad7.jpg": require("../../../../data/atlases/xu-xiake/assets/cover-c7379ad7.jpg"),
   "xuanzang/assets/cover-890371e6.jpg": require("../../../../data/atlases/xuanzang/assets/cover-890371e6.jpg"),
   "zheng-he/assets/cover-dd826345.jpg": require("../../../../data/atlases/zheng-he/assets/cover-dd826345.jpg"),
+  "zheng-he/assets/fig-0fc5d3f6.jpg": require("../../../../data/atlases/zheng-he/assets/fig-0fc5d3f6.jpg"),
+  "zheng-he/assets/fig-79a251bc.jpg": require("../../../../data/atlases/zheng-he/assets/fig-79a251bc.jpg"),
+  "zheng-he/assets/fig-a80dfb33.jpg": require("../../../../data/atlases/zheng-he/assets/fig-a80dfb33.jpg"),
 };

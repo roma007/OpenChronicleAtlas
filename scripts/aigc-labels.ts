@@ -34,6 +34,18 @@ interface CoverEntry {
   implicitLabel: string;
 }
 
+interface FigureEntry {
+  atlasId: string;
+  /** 事件配图归属的事件 id */
+  eventId: string;
+  file: string;
+  tool: string;
+  generatedAt: string;
+  watermark: string;
+  watermarkRetained: boolean;
+  implicitLabel: string;
+}
+
 interface Registry {
   schemaVersion: string;
   updatedAt: string;
@@ -42,6 +54,7 @@ interface Registry {
   contentPropagator: string;
   explicitLabel: string;
   covers: CoverEntry[];
+  figures?: FigureEntry[];
 }
 
 interface ManifestFile {
@@ -159,16 +172,62 @@ function xmpInsertOffset(buffer: Buffer): number {
   return i;
 }
 
-function buildAigcValue(atlasId: string, registry: Registry): Record<string, string> {
+function buildAigcValue(subject: string, registry: Registry): Record<string, string> {
   return {
     Label: '1',
     ContentProducer: registry.contentProducer,
-    ProduceID: `atlas-cover-${atlasId}`,
+    ProduceID: subject,
     ReservedCode1: '',
     ContentPropagator: registry.contentPropagator,
-    PropagateID: `atlas-cover-${atlasId}`,
+    PropagateID: subject,
     ReservedCode2: '',
   };
+}
+
+/** 封面主体标识，与既有 XMP 保持一致 */
+function coverSubject(atlasId: string): string {
+  return `atlas-cover-${atlasId}`;
+}
+
+/** 事件配图主体标识 */
+function figureSubject(atlasId: string, eventId: string): string {
+  return `atlas-figure-${atlasId}-${eventId}`;
+}
+
+interface EventFile {
+  atlasId: string;
+  file: string;
+  events: Array<Record<string, unknown>>;
+}
+
+function loadEventFiles(): EventFile[] {
+  return fs
+    .readdirSync(atlasRoot, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name)
+    .sort()
+    .flatMap((atlasId) => {
+      const manifestFile = path.join(atlasRoot, atlasId, 'manifest.json');
+      const manifest = readJson<{ events?: string[] }>(manifestFile);
+      return (manifest.events ?? []).map((relative) => {
+        const file = path.join(atlasRoot, atlasId, relative);
+        return {
+          atlasId,
+          file,
+          events: readJson<Array<Record<string, unknown>>>(file),
+        };
+      });
+    });
+}
+
+function localImages(event: Record<string, unknown>): Array<Record<string, unknown>> {
+  const images = event.images;
+  if (!Array.isArray(images)) return [];
+  return images.filter(
+    (image): image is Record<string, unknown> =>
+      typeof image === 'object' && image !== null && typeof (image as { src?: unknown }).src === 'string'
+      && !String((image as { src: string }).src).startsWith('http'),
+  );
 }
 
 function buildXmpPacket(value: Record<string, string>): string {
@@ -243,7 +302,7 @@ function relativeCover(atlasId: string, filename: string): string {
 }
 
 function expectedEntry(entry: CoverEntry, registry: Registry): Record<string, string> {
-  return buildAigcValue(entry.atlasId, registry);
+  return buildAigcValue(coverSubject(entry.atlasId), registry);
 }
 
 function sameValue(actual: Record<string, string> | null, expected: Record<string, string>): boolean {
@@ -308,12 +367,64 @@ if (!apply) {
     }
   }
 
+  const figureEntries = registry.figures ?? [];
+  const referenced = new Set<string>();
+  let figureCount = 0;
+  for (const atlas of loadEventFiles()) {
+    for (const event of atlas.events) {
+      const eventId = String(event.id);
+      for (const image of localImages(event)) {
+        figureCount += 1;
+        referenced.add(`${atlas.atlasId}/${eventId}`);
+        const imagePath = path.join(atlasRoot, atlas.atlasId, String(image.src));
+        if (!fs.existsSync(imagePath)) {
+          errors.push(`${atlas.atlasId}/${eventId}: 配图文件不存在 ${String(image.src)}`);
+          continue;
+        }
+        const buffer = fs.readFileSync(imagePath);
+        const filename = path.basename(imagePath);
+        const entry = figureEntries.find(
+          (item) => item.atlasId === atlas.atlasId && item.eventId === eventId,
+        );
+        if (!entry) {
+          errors.push(`${atlas.atlasId}/${eventId}: 配图未在 ai-content.json 登记`);
+          continue;
+        }
+        if (!entry.watermarkRetained || !entry.watermark) {
+          errors.push(`${atlas.atlasId}/${eventId}: 未声明保留「${registry.explicitLabel}」水印`);
+        }
+        if (entry.file !== `${atlas.atlasId}/assets/${filename}`) {
+          errors.push(`${atlas.atlasId}/${eventId}: ai-content.json 记录 ${entry.file}，事件指向 assets/${filename}`);
+        }
+        if (filename !== `fig-${md5(buffer).slice(0, 8)}.jpg`) {
+          errors.push(`${atlas.atlasId}/${eventId}: 文件名不是内容哈希 fig-<md5>.jpg（${filename}）`);
+        }
+        const size = jpegSize(buffer);
+        if (!size || size.width !== 1600 || size.height !== 900) {
+          errors.push(
+            `${atlas.atlasId}/${eventId}: 配图尺寸应为 1600×900，实际 ${size ? `${size.width}×${size.height}` : '无法读取'}`,
+          );
+        }
+        if (!sameValue(readAigcValue(readXmp(buffer)), buildAigcValue(figureSubject(atlas.atlasId, eventId), registry))) {
+          errors.push(`${atlas.atlasId}/${eventId}: 配图缺少或不符合 TC260:AIGC 隐式标识，请运行 pnpm apply:aigc`);
+        }
+      }
+    }
+  }
+  for (const entry of figureEntries) {
+    if (!referenced.has(`${entry.atlasId}/${entry.eventId}`)) {
+      errors.push(`${entry.atlasId}/${entry.eventId}: ai-content.json 登记了未被任何事件引用的配图`);
+    }
+  }
+
   if (errors.length > 0) {
     for (const error of errors) console.error(`   - ${error}`);
     fail(`AIGC 标识校验失败（${errors.length} 项）`);
   }
 
-  console.log(`✅ AIGC 标识校验通过：${manifests.length} 张封面，水印与 TC260:AIGC 元数据齐全`);
+  console.log(
+    `✅ AIGC 标识校验通过：${manifests.length} 张封面 + ${figureCount} 张事件配图，水印与 TC260:AIGC 元数据齐全`,
+  );
   process.exit(0);
 }
 
@@ -341,7 +452,7 @@ for (const manifest of manifests) {
   }
 
   const buffer = fs.readFileSync(oldImagePath);
-  const next = injectXmp(buffer, buildXmpPacket(buildAigcValue(atlasId, registry)));
+  const next = injectXmp(buffer, buildXmpPacket(buildAigcValue(coverSubject(atlasId), registry)));
   const filename = `cover-${md5(next).slice(0, 8)}.jpg`;
   const newImagePath = path.join(atlasRoot, atlasId, 'assets', filename);
 
@@ -371,10 +482,62 @@ for (const manifest of manifests) {
   }
 }
 
+const figures = registry.figures ?? [];
+for (const atlas of loadEventFiles()) {
+  let dirty = false;
+  for (const event of atlas.events) {
+    const eventId = String(event.id);
+    for (const image of localImages(event)) {
+      const oldPath = path.join(atlasRoot, atlas.atlasId, String(image.src));
+      if (!fs.existsSync(oldPath)) fail(`${atlas.atlasId}/${eventId}: 配图不存在 ${String(image.src)}`);
+
+      const buffer = fs.readFileSync(oldPath);
+      const subject = figureSubject(atlas.atlasId, eventId);
+      const next = injectXmp(buffer, buildXmpPacket(buildAigcValue(subject, registry)));
+      const filename = `fig-${md5(next).slice(0, 8)}.jpg`;
+      const newPath = path.join(atlasRoot, atlas.atlasId, 'assets', filename);
+
+      if (!fs.existsSync(newPath) || !next.equals(fs.readFileSync(newPath))) {
+        fs.writeFileSync(newPath, next);
+        changed += 1;
+      }
+      if (newPath !== oldPath && fs.existsSync(oldPath)) fs.unlinkSync(oldPath);
+
+      const nextSrc = `assets/${filename}`;
+      if (image.src !== nextSrc) {
+        image.src = nextSrc;
+        dirty = true;
+      }
+      image.width = 1600;
+      image.height = 900;
+
+      let entry = figures.find(
+        (item) => item.atlasId === atlas.atlasId && item.eventId === eventId,
+      );
+      if (!entry) {
+        entry = {
+          atlasId: atlas.atlasId,
+          eventId,
+          file: `${atlas.atlasId}/${nextSrc}`,
+          tool: '豆包 AI',
+          generatedAt: today,
+          watermark: registry.explicitLabel,
+          watermarkRetained: true,
+          implicitLabel: 'TC260:AIGC',
+        };
+        figures.push(entry);
+      }
+      if (entry.file !== `${atlas.atlasId}/${nextSrc}`) entry.file = `${atlas.atlasId}/${nextSrc}`;
+    }
+  }
+  if (dirty) writeJson(atlas.file, atlas.events);
+}
+registry.figures = figures;
+
 registry.updatedAt = today;
 writeJson(registryPath, registry);
 writeJson(indexPath, atlasIndex);
 
 console.log(
-  `✅ AIGC 标识已写入：${manifests.length} 张封面${changed > 0 ? `，${changed} 张有变化` : '，无需改动'}`,
+  `✅ AIGC 标识已写入：${manifests.length} 张封面 + ${figures.length} 张事件配图${changed > 0 ? `，${changed} 张有变化` : '，无需改动'}`,
 );
