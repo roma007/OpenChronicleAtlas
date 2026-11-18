@@ -13,6 +13,7 @@ const STYLES: Record<RouteSegmentType, RouteStyle> = {
   defense: { weight: 3, opacity: 0.8, dash: 'dotted' },
   retreat: { weight: 3, opacity: 0.8, dash: 'dashed' },
   naval: { weight: 4, opacity: 0.85, dash: 'dashed' },
+  detachment: { weight: 3, opacity: 0.75, dash: 'dotted' },
   supply: { weight: 3, opacity: 0.75, dash: 'dotted' },
   other: { weight: 3, opacity: 0.75, dash: 'solid' },
 };
@@ -24,6 +25,7 @@ const LABELS: Record<Locale, Record<RouteSegmentType, string>> = {
     defense: '防御 / 驻守',
     counterattack: '反击 / 反攻',
     naval: '航行',
+    detachment: '分䑸',
     supply: '补给 / 运输',
     other: '其他',
   },
@@ -33,6 +35,7 @@ const LABELS: Record<Locale, Record<RouteSegmentType, string>> = {
     defense: 'Defense',
     counterattack: 'Counterattack',
     naval: 'Naval',
+    detachment: 'Detachment',
     supply: 'Supply',
     other: 'Other',
   },

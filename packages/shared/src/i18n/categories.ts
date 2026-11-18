@@ -13,6 +13,14 @@ const CATEGORY_LABELS: Record<string, CategoryLabel> = {
   航行: { zh: '航行', en: 'Voyage' },
   外交: { zh: '外交', en: 'Diplomacy' },
   政策: { zh: '政策', en: 'Policy' },
+  册封: { zh: '册封', en: 'Investiture' },
+  朝贡: { zh: '朝贡', en: 'Tribute' },
+  贸易: { zh: '贸易', en: 'Trade' },
+  制度: { zh: '制度', en: 'Institution' },
+  建制: { zh: '建制', en: 'Organisation' },
+  技术: { zh: '技术', en: 'Technology' },
+  人物: { zh: '人物', en: 'People' },
+  宗教: { zh: '宗教', en: 'Religion' },
 };
 
 export function categoryLabel(category: string, locale: Locale): string {

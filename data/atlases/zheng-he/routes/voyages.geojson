@@ -418,7 +418,15 @@
           "precision": "schematic",
           "voyage": 1,
           "leg": 1
-        }
+        },
+        "label": {
+          "zh": "起航",
+          "en": "Departure"
+        },
+        "labelPoint": [
+          118.3,
+          24.4
+        ]
       }
     },
     {
@@ -945,7 +953,7 @@
         "startDate": "1406-02-01",
         "endDate": "1406-07-31",
         "order": 2,
-        "segmentType": "naval",
+        "segmentType": "detachment",
         "name": {
           "zh": "爪哇·旧港（分䑸）",
           "en": "Java and Palembang (detachment)"
@@ -958,7 +966,15 @@
           "precision": "schematic",
           "voyage": 1,
           "leg": 2
-        }
+        },
+        "label": {
+          "zh": "分䑸·爪哇",
+          "en": "Java detachment"
+        },
+        "labelPoint": [
+          112.1,
+          -6.5
+        ]
       }
     },
     {
@@ -1570,7 +1586,15 @@
           "precision": "schematic",
           "voyage": 1,
           "leg": 3
-        }
+        },
+        "label": {
+          "zh": "南洋·锡兰",
+          "en": "Malacca to Ceylon"
+        },
+        "labelPoint": [
+          100.6,
+          4.25
+        ]
       }
     },
     {
@@ -2094,7 +2118,15 @@
           "precision": "schematic",
           "voyage": 1,
           "leg": 4
-        }
+        },
+        "label": {
+          "zh": "西航·古里",
+          "en": "To Calicut"
+        },
+        "labelPoint": [
+          75.9,
+          10.8
+        ]
       }
     },
     {
@@ -2562,7 +2594,15 @@
           "precision": "schematic",
           "voyage": 1,
           "leg": 5
-        }
+        },
+        "label": {
+          "zh": "归程",
+          "en": "Homeward"
+        },
+        "labelPoint": [
+          104.3,
+          1.8
+        ]
       }
     },
     {
@@ -2982,7 +3022,15 @@
           "precision": "schematic",
           "voyage": 2,
           "leg": 1
-        }
+        },
+        "label": {
+          "zh": "起航",
+          "en": "Departure"
+        },
+        "labelPoint": [
+          118.3,
+          24.4
+        ]
       }
     },
     {
@@ -3594,7 +3642,15 @@
           "precision": "schematic",
           "voyage": 2,
           "leg": 2
-        }
+        },
+        "label": {
+          "zh": "南洋·锡兰",
+          "en": "Malacca to Ceylon"
+        },
+        "labelPoint": [
+          100.6,
+          4.25
+        ]
       }
     },
     {
@@ -4118,7 +4174,15 @@
           "precision": "schematic",
           "voyage": 2,
           "leg": 3
-        }
+        },
+        "label": {
+          "zh": "西航·古里",
+          "en": "To Calicut"
+        },
+        "labelPoint": [
+          75.9,
+          10.8
+        ]
       }
     },
     {
@@ -4442,7 +4506,15 @@
           "precision": "schematic",
           "voyage": 2,
           "leg": 4
-        }
+        },
+        "label": {
+          "zh": "归程",
+          "en": "Homeward"
+        },
+        "labelPoint": [
+          103.2,
+          6.5
+        ]
       }
     },
     {
@@ -4862,7 +4934,15 @@
           "precision": "schematic",
           "voyage": 3,
           "leg": 1
-        }
+        },
+        "label": {
+          "zh": "起航",
+          "en": "Departure"
+        },
+        "labelPoint": [
+          118.3,
+          24.4
+        ]
       }
     },
     {
@@ -5382,7 +5462,15 @@
           "precision": "schematic",
           "voyage": 3,
           "leg": 2
-        }
+        },
+        "label": {
+          "zh": "南洋",
+          "en": "Southeast Asia"
+        },
+        "labelPoint": [
+          103.5,
+          4.7
+        ]
       }
     },
     {
@@ -5890,7 +5978,15 @@
           "precision": "schematic",
           "voyage": 3,
           "leg": 3
-        }
+        },
+        "label": {
+          "zh": "锡兰·古里",
+          "en": "Ceylon to Calicut"
+        },
+        "labelPoint": [
+          88.45,
+          5.75
+        ]
       }
     },
     {
@@ -5966,7 +6062,15 @@
           "precision": "schematic",
           "voyage": 3,
           "leg": 4
-        }
+        },
+        "label": {
+          "zh": "锡兰之战",
+          "en": "Ceylon battle"
+        },
+        "labelPoint": [
+          80.45,
+          5.9
+        ]
       }
     },
     {
@@ -6386,7 +6490,15 @@
           "precision": "schematic",
           "voyage": 3,
           "leg": 5
-        }
+        },
+        "label": {
+          "zh": "归程",
+          "en": "Homeward"
+        },
+        "labelPoint": [
+          107.55,
+          9.85
+        ]
       }
     },
     {
@@ -6806,7 +6918,15 @@
           "precision": "schematic",
           "voyage": 4,
           "leg": 1
-        }
+        },
+        "label": {
+          "zh": "起航",
+          "en": "Departure"
+        },
+        "labelPoint": [
+          118.3,
+          24.4
+        ]
       }
     },
     {
@@ -7418,7 +7538,15 @@
           "precision": "schematic",
           "voyage": 4,
           "leg": 2
-        }
+        },
+        "label": {
+          "zh": "南洋·锡兰",
+          "en": "Malacca to Ceylon"
+        },
+        "labelPoint": [
+          100.6,
+          4.25
+        ]
       }
     },
     {
@@ -8206,7 +8334,15 @@
           "precision": "schematic",
           "voyage": 4,
           "leg": 3
-        }
+        },
+        "label": {
+          "zh": "溜山·忽鲁谟斯",
+          "en": "Maldives to Hormuz"
+        },
+        "labelPoint": [
+          72.6,
+          18.05
+        ]
       }
     },
     {
@@ -8614,7 +8750,15 @@
           "precision": "schematic",
           "voyage": 4,
           "leg": 4
-        }
+        },
+        "label": {
+          "zh": "阿丹",
+          "en": "To Aden"
+        },
+        "labelPoint": [
+          55.65,
+          17.0
+        ]
       }
     },
     {
@@ -8982,7 +9126,15 @@
           "precision": "schematic",
           "voyage": 4,
           "leg": 5
-        }
+        },
+        "label": {
+          "zh": "东非",
+          "en": "East Africa"
+        },
+        "labelPoint": [
+          50.2,
+          6.0
+        ]
       }
     },
     {
@@ -9678,7 +9830,15 @@
           "precision": "schematic",
           "voyage": 4,
           "leg": 6
-        }
+        },
+        "label": {
+          "zh": "归程",
+          "en": "Homeward"
+        },
+        "labelPoint": [
+          85.25,
+          5.2
+        ]
       }
     },
     {
@@ -10098,7 +10258,15 @@
           "precision": "schematic",
           "voyage": 5,
           "leg": 1
-        }
+        },
+        "label": {
+          "zh": "起航",
+          "en": "Departure"
+        },
+        "labelPoint": [
+          118.3,
+          24.4
+        ]
       }
     },
     {
@@ -10710,7 +10878,15 @@
           "precision": "schematic",
           "voyage": 5,
           "leg": 2
-        }
+        },
+        "label": {
+          "zh": "南洋·锡兰",
+          "en": "Malacca to Ceylon"
+        },
+        "labelPoint": [
+          100.6,
+          4.25
+        ]
       }
     },
     {
@@ -11614,7 +11790,15 @@
           "precision": "schematic",
           "voyage": 5,
           "leg": 3
-        }
+        },
+        "label": {
+          "zh": "古里·忽鲁谟斯",
+          "en": "Calicut to Hormuz"
+        },
+        "labelPoint": [
+          72.6,
+          17.85
+        ]
       }
     },
     {
@@ -12022,7 +12206,15 @@
           "precision": "schematic",
           "voyage": 5,
           "leg": 4
-        }
+        },
+        "label": {
+          "zh": "阿丹",
+          "en": "To Aden"
+        },
+        "labelPoint": [
+          55.65,
+          17.0
+        ]
       }
     },
     {
@@ -12266,7 +12458,15 @@
           "precision": "schematic",
           "voyage": 5,
           "leg": 5
-        }
+        },
+        "label": {
+          "zh": "东非",
+          "en": "East Africa"
+        },
+        "labelPoint": [
+          50.2,
+          6.0
+        ]
       }
     },
     {
@@ -12962,7 +13162,15 @@
           "precision": "schematic",
           "voyage": 5,
           "leg": 6
-        }
+        },
+        "label": {
+          "zh": "归程",
+          "en": "Homeward"
+        },
+        "labelPoint": [
+          85.25,
+          5.2
+        ]
       }
     },
     {
@@ -13382,7 +13590,15 @@
           "precision": "schematic",
           "voyage": 6,
           "leg": 1
-        }
+        },
+        "label": {
+          "zh": "起航",
+          "en": "Departure"
+        },
+        "labelPoint": [
+          118.3,
+          24.4
+        ]
       }
     },
     {
@@ -13850,7 +14066,15 @@
           "precision": "schematic",
           "voyage": 6,
           "leg": 2
-        }
+        },
+        "label": {
+          "zh": "南洋",
+          "en": "Southeast Asia"
+        },
+        "labelPoint": [
+          103.2,
+          6.5
+        ]
       }
     },
     {
@@ -14122,7 +14346,15 @@
           "precision": "schematic",
           "voyage": 6,
           "leg": 3
-        }
+        },
+        "label": {
+          "zh": "榜葛剌·古里",
+          "en": "Bengal to Calicut"
+        },
+        "labelPoint": [
+          91.6,
+          16.9
+        ]
       }
     },
     {
@@ -15246,7 +15478,15 @@
           "precision": "schematic",
           "voyage": 6,
           "leg": 4
-        }
+        },
+        "label": {
+          "zh": "忽鲁谟斯·阿丹",
+          "en": "Hormuz to Aden"
+        },
+        "labelPoint": [
+          56.6,
+          25.8
+        ]
       }
     },
     {
@@ -15614,7 +15854,15 @@
           "precision": "schematic",
           "voyage": 6,
           "leg": 5
-        }
+        },
+        "label": {
+          "zh": "东非",
+          "en": "East Africa"
+        },
+        "labelPoint": [
+          50.2,
+          6.0
+        ]
       }
     },
     {
@@ -16310,7 +16558,15 @@
           "precision": "schematic",
           "voyage": 6,
           "leg": 6
-        }
+        },
+        "label": {
+          "zh": "归程",
+          "en": "Homeward"
+        },
+        "labelPoint": [
+          85.25,
+          5.2
+        ]
       }
     },
     {
@@ -16730,7 +16986,15 @@
           "precision": "schematic",
           "voyage": 7,
           "leg": 1
-        }
+        },
+        "label": {
+          "zh": "起航·长乐",
+          "en": "Departure"
+        },
+        "labelPoint": [
+          118.3,
+          24.4
+        ]
       }
     },
     {
@@ -17257,7 +17521,7 @@
         "startDate": "1432-01-01",
         "endDate": "1432-02-28",
         "order": 2,
-        "segmentType": "naval",
+        "segmentType": "detachment",
         "name": {
           "zh": "旧港·爪哇（分䑸）",
           "en": "Palembang and Java (detachment)"
@@ -17270,7 +17534,15 @@
           "precision": "schematic",
           "voyage": 7,
           "leg": 2
-        }
+        },
+        "label": {
+          "zh": "分䑸·旧港",
+          "en": "Palembang detachment"
+        },
+        "labelPoint": [
+          112.1,
+          -6.5
+        ]
       }
     },
     {
@@ -17922,7 +18194,15 @@
           "precision": "schematic",
           "voyage": 7,
           "leg": 3
-        }
+        },
+        "label": {
+          "zh": "南洋·古里",
+          "en": "Malacca to Calicut"
+        },
+        "labelPoint": [
+          94.8,
+          5.15
+        ]
       }
     },
     {
@@ -19046,7 +19326,15 @@
           "precision": "schematic",
           "voyage": 7,
           "leg": 4
-        }
+        },
+        "label": {
+          "zh": "忽鲁谟斯·阿丹",
+          "en": "Hormuz to Aden"
+        },
+        "labelPoint": [
+          56.6,
+          25.8
+        ]
       }
     },
     {
@@ -19653,7 +19941,7 @@
         "startDate": "1432-10-01",
         "endDate": "1432-11-30",
         "order": 5,
-        "segmentType": "naval",
+        "segmentType": "detachment",
         "name": {
           "zh": "天方（分䑸）",
           "en": "Mecca (detachment)"
@@ -19666,7 +19954,15 @@
           "precision": "schematic",
           "voyage": 7,
           "leg": 5
-        }
+        },
+        "label": {
+          "zh": "分䑸·天方",
+          "en": "Mecca detachment"
+        },
+        "labelPoint": [
+          39.05,
+          21.3
+        ]
       }
     },
     {
@@ -20034,7 +20330,15 @@
           "precision": "schematic",
           "voyage": 7,
           "leg": 6
-        }
+        },
+        "label": {
+          "zh": "东非",
+          "en": "East Africa"
+        },
+        "labelPoint": [
+          50.2,
+          6.0
+        ]
       }
     },
     {
@@ -20410,7 +20714,15 @@
           "precision": "schematic",
           "voyage": 7,
           "leg": 7
-        }
+        },
+        "label": {
+          "zh": "归程",
+          "en": "Homeward"
+        },
+        "labelPoint": [
+          85.25,
+          5.2
+        ]
       }
     },
     {

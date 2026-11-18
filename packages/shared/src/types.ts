@@ -89,6 +89,8 @@ export type RouteSegmentType =
   | 'defense'
   | 'counterattack'
   | 'naval'
+  /** 分䑸：与主队并行的分遣队航线 */
+  | 'detachment'
   | 'supply'
   | 'other';
 

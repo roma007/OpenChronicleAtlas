@@ -8,8 +8,8 @@
     },
     "aliases": [
       {
-        "zh": "刘家港起航",
-        "en": "Departure from Liujiagang"
+        "zh": "刘家港",
+        "en": "Liujiagang"
       }
     ],
     "date": "1405-07-11",
@@ -48,7 +48,278 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "changle-1405-08",
+      "return-1407-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fleet-formed-1405-07",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "宝船队编成",
+      "en": "The treasure fleet assembles"
+    },
+    "date": "1405-07-11",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "南京（今江苏南京）",
+        "en": "Nanjing"
+      }
+    },
+    "entityIds": [
+      "voyage-1"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "宝船六十二艘、将士二万七千八百余人，另有马船、粮船、水船、战船。",
+      "en": "Sixty-two treasure ships and 27,800 men, plus horse transports, grain ships, water ships and warships."
+    },
+    "description": {
+      "zh": "《明史·郑和传》记「造大舶，修四十四丈、广十八丈者六十二」，将士二万七千八百余人。船队按职能分宝船、马船、粮船、水船、战船，另有通事、火长、医官与匠人。宝船尺度的折算历来有争议，此处按《明史》记录并注明「一说」。",
+      "en": "The History of Ming records 62 great ships of 44 zhang by 18 zhang and 27,800 men. The fleet was organised by function into treasure ships, horse transports, grain ships, water ships and warships, with interpreters, navigators, physicians and craftsmen. The metric conversion of the treasure-ship dimensions is disputed; the History of Ming figures are given here with that caveat."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "航次与船队规模参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "aliases": [
+      {
+        "zh": "应天",
+        "en": "Yingtian"
+      },
+      {
+        "zh": "京师",
+        "en": "Capital"
+      }
+    ],
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "wang-jinghong-1405-07",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "王景弘副使",
+      "en": "Wang Jinghong as vice-envoy"
+    },
+    "date": "1405-07-12",
+    "location": {
+      "lng": 121.1,
+      "lat": 31.45,
+      "place": {
+        "zh": "太仓（今江苏太仓）",
+        "en": "Taicang"
+      }
+    },
+    "entityIds": [
+      "voyage-1"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "王景弘以副使身份与郑和同领船队，七次下西洋多有其名。",
+      "en": "Wang Jinghong served as vice-envoy alongside Zheng He and appears in most of the seven voyages."
+    },
+    "description": {
+      "zh": "王景弘为宦官，与郑和同为钦差正使太监。宣德九年（1434）又奉命出使苏门答剌。其名见于《明实录》与长乐《天妃灵应之记》碑碑阴题名。",
+      "en": "Wang Jinghong, a eunuch, served as a chief envoy together with Zheng He. In 1434 he was again sent to Samudera. His name appears in the Veritable Records and among the names on the Changle Tianfei stele."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "航次与船队规模参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "cargo-out-1405-07",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "宝船载货：丝绸、瓷器、铁器",
+      "en": "Outbound cargo: silk, porcelain and iron"
+    },
+    "date": "1405-07-15",
+    "location": {
+      "lng": 121.1,
+      "lat": 31.45,
+      "place": {
+        "zh": "太仓（今江苏太仓）",
+        "en": "Taicang"
+      }
+    },
+    "entityIds": [
+      "voyage-1"
+    ],
+    "category": "贸易",
+    "summary": {
+      "zh": "出海所载以丝绸、瓷器、铁器、铜钱为主，兼作赏赐与交易。",
+      "en": "The fleet carried silk, porcelain, ironware and copper cash for both gifts and trade."
+    },
+    "description": {
+      "zh": "船队携带大量锦绮、绫罗、瓷器、铁器、铜钱，以及雨伞、烧珠、木梳等日用品，既用于赏赐各国君主，也用于民间互市。回程则载香料、宝石与珍禽异兽。",
+      "en": "The fleet carried bolts of brocade and gauze, porcelain, ironware and copper cash, along with umbrellas, glass beads and combs — for gifts to rulers and for market exchange alike. The return cargo was spices, gems and exotic animals."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "随行通事所记，地名与物产多可互证"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "compass-1405-07",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "水罗盘针路",
+      "en": "Compass and sailing directions"
+    },
+    "date": "1405-07-20",
+    "location": {
+      "lng": 122.4,
+      "lat": 30.6,
+      "place": {
+        "zh": "长江口外（今东海）",
+        "en": "Off the Yangtze estuary"
+      }
+    },
+    "entityIds": [
+      "voyage-1"
+    ],
+    "category": "技术",
+    "summary": {
+      "zh": "船队以水罗盘定针路，昼夜兼行。",
+      "en": "The fleet steered by water compass along recorded compass courses."
+    },
+    "description": {
+      "zh": "明代航海以水罗盘（指南浮针）配合「针路」簿，记录各港口之间的罗经方位与更数（航程单位）。《郑和航海图》即以此体系绘成，是船队能够在无地标的远洋保持航向的基础。",
+      "en": "Ming navigation used a floating-needle compass together with written sailing directions recording the bearing and the number of watches between ports. The Zheng He Nautical Chart was drawn in exactly this system, and it is what allowed the fleet to hold a course out of sight of land."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《武备志》",
+        "author": "茅元仪",
+        "year": 1621,
+        "note": "卷二四〇收录《郑和航海图》"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "aliases": [
+      {
+        "zh": "指南针",
+        "en": "Compass"
+      }
+    ]
+  },
+  {
+    "id": "tongbao-1405-08",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "永乐通宝与铜钱外流",
+      "en": "Yongle coinage abroad"
+    },
+    "date": "1405-08-01",
+    "location": {
+      "lng": 121.1,
+      "lat": 31.45,
+      "place": {
+        "zh": "太仓（今江苏太仓）",
+        "en": "Taicang"
+      }
+    },
+    "entityIds": [
+      "voyage-1"
+    ],
+    "category": "贸易",
+    "summary": {
+      "zh": "船队携带大量永乐通宝，铜钱随之流入东南亚与印度洋。",
+      "en": "The fleet carried great quantities of Yongle cash, which circulated across Southeast Asia and the Indian Ocean."
+    },
+    "description": {
+      "zh": "永乐通宝随船队流入占城、爪哇、满剌加、旧港等地，日本、越南与东非沿岸均有出土。铜钱外流既便利了互市，也造成国内钱荒之议。",
+      "en": "Yongle tongbao coins travelled with the fleet to Champa, Java, Malacca and Palembang, and have been excavated in Japan, Vietnam and along the East African coast. The outflow eased market exchange but prompted concern about a domestic coin shortage."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "航次与船队规模参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 1,
+    "aliases": [
+      {
+        "zh": "永乐通宝",
+        "en": "Yongle tongbao"
+      }
+    ],
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "changle-1405-08",
@@ -101,8 +372,20 @@
       }
     ],
     "relatedIds": [
-      "taicang-1405-07"
-    ]
+      "taicang-1405-07",
+      "champa-1405-10"
+    ],
+    "aliases": [
+      {
+        "zh": "太平港",
+        "en": "Taiping Harbour"
+      },
+      {
+        "zh": "长乐",
+        "en": "Changle"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "champa-1405-10",
@@ -123,7 +406,7 @@
     "entityIds": [
       "voyage-1"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队抵达占城，进行贸易与外交活动。",
       "en": "The fleet arrives at Champa for trade and diplomacy."
@@ -147,7 +430,74 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "changle-1405-08",
+      "malacca-1406-01"
+    ],
+    "aliases": [
+      {
+        "zh": "占城",
+        "en": "Champa"
+      },
+      {
+        "zh": "归仁",
+        "en": "Qui Nhon"
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "cross-staff-1406-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "过洋牵星",
+      "en": "Star sighting across the ocean"
+    },
+    "date": "1406-01-05",
+    "location": {
+      "lng": 95.2,
+      "lat": 5.55,
+      "place": {
+        "zh": "南巫里外海（今苏门答腊北岸）",
+        "en": "Off Lamuri, northern Sumatra"
+      }
+    },
+    "entityIds": [
+      "voyage-1"
+    ],
+    "category": "技术",
+    "summary": {
+      "zh": "横渡印度洋时以「牵星板」观测北极星高度定纬度。",
+      "en": "On the Indian Ocean crossing the fleet measured the altitude of Polaris with star boards to fix latitude."
+    },
+    "description": {
+      "zh": "「过洋牵星」用十二块牵星板测星体出水高度，换算出南北位置，与罗盘针路互补。《郑和航海图》在孟加拉湾与阿拉伯海航段逐段标注「指某星若干指」，即牵星数据。",
+      "en": "The technique used a set of twelve star boards to measure the altitude of a star above the horizon and convert it into a north–south position, complementing the compass course. The Nautical Chart annotates the Bay of Bengal and Arabian Sea legs with star altitudes."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《武备志》",
+        "author": "茅元仪",
+        "year": 1621,
+        "note": "卷二四〇收录《郑和航海图》"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "航次与船队规模参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "aliases": [
+      {
+        "zh": "牵星板",
+        "en": "Star board"
+      }
+    ]
   },
   {
     "id": "malacca-1406-01",
@@ -158,8 +508,12 @@
     },
     "aliases": [
       {
-        "zh": "册封拜里米苏剌",
-        "en": "Enfeoffment of Parameswara"
+        "zh": "马六甲",
+        "en": "Malacca"
+      },
+      {
+        "zh": "满剌加",
+        "en": "Melaka"
       }
     ],
     "date": "1406-01-15",
@@ -174,7 +528,7 @@
     "entityIds": [
       "voyage-1"
     ],
-    "category": "外交",
+    "category": "册封",
     "summary": {
       "zh": "郑和奉敕册封拜里米苏剌为满剌加国王，赐银印、冠带与袍服。",
       "en": "Zheng He invests Parameswara as king of Malacca, granting him a silver seal, robes and belt."
@@ -204,8 +558,12 @@
       }
     ],
     "relatedIds": [
-      "malacca-1410-07"
-    ]
+      "malacca-1410-07",
+      "champa-1405-10",
+      "lamuri-1406-02",
+      "malacca-1407-03"
+    ],
+    "importance": 2
   },
   {
     "id": "lamuri-1406-02",
@@ -252,9 +610,20 @@
     ],
     "relatedIds": [
       "malacca-1406-01",
-      "ceylon-1406-06"
+      "ceylon-1406-06",
+      "samudera-1406-03"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "蓝无里",
+        "en": "Lamuri"
+      },
+      {
+        "zh": "班达亚齐",
+        "en": "Banda Aceh"
+      }
+    ]
   },
   {
     "id": "samudera-1406-03",
@@ -302,9 +671,21 @@
     ],
     "relatedIds": [
       "malacca-1406-01",
-      "ceylon-1406-06"
+      "ceylon-1406-06",
+      "lamuri-1406-02",
+      "palembang-1406-03"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "须文答剌",
+        "en": "Samudera"
+      },
+      {
+        "zh": "巴赛",
+        "en": "Pasai"
+      }
+    ]
   },
   {
     "id": "palembang-1406-03",
@@ -357,8 +738,21 @@
       }
     ],
     "relatedIds": [
-      "palembang-1407-01"
-    ]
+      "palembang-1407-01",
+      "samudera-1406-03",
+      "ceylon-1406-06"
+    ],
+    "aliases": [
+      {
+        "zh": "巴邻旁",
+        "en": "Palembang"
+      },
+      {
+        "zh": "巨港",
+        "en": "Palembang"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "ceylon-1406-06",
@@ -403,7 +797,21 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "palembang-1406-03",
+      "java-1406-06"
+    ],
+    "aliases": [
+      {
+        "zh": "锡兰",
+        "en": "Ceylon"
+      },
+      {
+        "zh": "斯里兰卡",
+        "en": "Sri Lanka"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "java-1406-06",
@@ -450,9 +858,21 @@
     ],
     "relatedIds": [
       "malacca-1406-01",
-      "palembang-1407-01"
+      "palembang-1407-01",
+      "ceylon-1406-06",
+      "java-1406-07"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "革儿昔",
+        "en": "Gresik"
+      },
+      {
+        "zh": "格雷西克",
+        "en": "Gresik"
+      }
+    ]
   },
   {
     "id": "java-1406-07",
@@ -473,7 +893,7 @@
     "entityIds": [
       "voyage-1"
     ],
-    "category": "外交",
+    "category": "战斗",
     "summary": {
       "zh": "爪哇东西二王交战，西王军队误杀登岸贸易的明军一百七十人，西王遣使谢罪献金。",
       "en": "Civil war in Java leads the western king’s troops to kill 170 Ming soldiers who had come ashore to trade; the king sends envoys to apologize and offer gold."
@@ -505,8 +925,21 @@
       }
     ],
     "relatedIds": [
-      "java-1432-02"
-    ]
+      "java-1432-02",
+      "java-1406-06",
+      "kayal-1406-08"
+    ],
+    "aliases": [
+      {
+        "zh": "革儿昔",
+        "en": "Gresik"
+      },
+      {
+        "zh": "格雷西克",
+        "en": "Gresik"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "kayal-1406-08",
@@ -553,9 +986,20 @@
     ],
     "relatedIds": [
       "ceylon-1406-06",
-      "quilon-1406-09"
+      "quilon-1406-09",
+      "java-1406-07"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "卡亚帕蒂南",
+        "en": "Kayalpattinam"
+      },
+      {
+        "zh": "卡亚尔",
+        "en": "Kayal"
+      }
+    ]
   },
   {
     "id": "quilon-1406-09",
@@ -604,7 +1048,17 @@
       "kayal-1406-08",
       "cochin-1406-10"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "奎隆",
+        "en": "Quilon"
+      },
+      {
+        "zh": "科拉姆",
+        "en": "Kollam"
+      }
+    ]
   },
   {
     "id": "cochin-1406-10",
@@ -651,9 +1105,20 @@
     ],
     "relatedIds": [
       "quilon-1406-09",
-      "calicut-1406-12"
+      "calicut-1406-12",
+      "calicut-1406-11"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "科钦",
+        "en": "Cochin"
+      },
+      {
+        "zh": "Kochi",
+        "en": "Kochi"
+      }
+    ]
   },
   {
     "id": "calicut-1406-11",
@@ -674,7 +1139,7 @@
     "entityIds": [
       "voyage-1"
     ],
-    "category": "外交",
+    "category": "贸易",
     "summary": {
       "zh": "船队在古里开市，以瓷器、丝绸、铜钱交易胡椒、宝石与珍珠。",
       "en": "The fleet opens a market at Calicut, trading porcelain, silk and copper cash for pepper, gems and pearls."
@@ -706,8 +1171,20 @@
       }
     ],
     "relatedIds": [
-      "calicut-1406-12"
-    ]
+      "calicut-1406-12",
+      "cochin-1406-10"
+    ],
+    "aliases": [
+      {
+        "zh": "科泽科德",
+        "en": "Kozhikode"
+      },
+      {
+        "zh": "卡利卡特",
+        "en": "Calicut"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "calicut-1406-12",
@@ -718,8 +1195,12 @@
     },
     "aliases": [
       {
-        "zh": "古里碑",
-        "en": "Calicut Stele"
+        "zh": "科泽科德",
+        "en": "Kozhikode"
+      },
+      {
+        "zh": "卡利卡特",
+        "en": "Calicut"
       }
     ],
     "date": "1406-12-01",
@@ -734,7 +1215,7 @@
     "entityIds": [
       "voyage-1"
     ],
-    "category": "外交",
+    "category": "册封",
     "summary": {
       "zh": "船队在古里立碑，古里成为重要贸易节点。",
       "en": "The fleet erects a stele at Calicut, which becomes an important trading node."
@@ -758,7 +1239,11 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "calicut-1406-11",
+      "palembang-1407-01"
+    ],
+    "importance": 2
   },
   {
     "id": "palembang-1407-01",
@@ -806,9 +1291,21 @@
     ],
     "relatedIds": [
       "champa-1405-10",
-      "malacca-1406-01"
+      "malacca-1406-01",
+      "calicut-1406-12",
+      "malacca-1407-03"
     ],
-    "importance": 2
+    "importance": 3,
+    "aliases": [
+      {
+        "zh": "巴邻旁",
+        "en": "Palembang"
+      },
+      {
+        "zh": "巨港",
+        "en": "Palembang"
+      }
+    ]
   },
   {
     "id": "malacca-1407-03",
@@ -855,8 +1352,63 @@
     ],
     "relatedIds": [
       "malacca-1406-01",
-      "return-1407-10"
-    ]
+      "return-1407-10",
+      "palembang-1407-01"
+    ],
+    "aliases": [
+      {
+        "zh": "马六甲",
+        "en": "Malacca"
+      },
+      {
+        "zh": "满剌加",
+        "en": "Melaka"
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hou-xian-1407-06",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "侯显陆路使乌思藏",
+      "en": "Hou Xian’s overland mission to Ü-Tsang"
+    },
+    "date": "1407-06-01",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "南京（今江苏南京）",
+        "en": "Nanjing"
+      }
+    },
+    "entityIds": [
+      "voyage-1"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "侯显由陆路出使乌思藏，与郑和的海路互为表里。",
+      "en": "Hou Xian travelled overland to Ü-Tsang, complementing Zheng He’s maritime missions."
+    },
+    "description": {
+      "zh": "侯显为宦官，永乐初奉命入藏迎请哈立麻（得银协巴），此后多次经陆路往返乌思藏与尼泊尔，是明代经略藏区的主要使者之一。海路与陆路并进，构成永乐朝对外经营的两翼。",
+      "en": "Hou Xian, a eunuch, was sent to Tibet in the early Yongle reign to invite Halima (Deshin Shekpa), and afterwards travelled repeatedly overland to Ü-Tsang and Nepal. The maritime and overland missions together formed the two arms of Yongle’s foreign policy."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "return-1407-10",
@@ -901,7 +1453,17 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "malacca-1407-03",
+      "taicang-1405-07"
+    ],
+    "aliases": [
+      {
+        "zh": "刘家港",
+        "en": "Liujiagang"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "depart-1408-10",
@@ -946,7 +1508,17 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "changle-1408-10",
+      "return-1409-08"
+    ],
+    "aliases": [
+      {
+        "zh": "刘家港",
+        "en": "Liujiagang"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "changle-1408-10",
@@ -999,8 +1571,20 @@
       }
     ],
     "relatedIds": [
-      "depart-1408-10"
-    ]
+      "depart-1408-10",
+      "champa-1408-11"
+    ],
+    "aliases": [
+      {
+        "zh": "太平港",
+        "en": "Taiping Harbour"
+      },
+      {
+        "zh": "长乐",
+        "en": "Changle"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "champa-1408-11",
@@ -1021,7 +1605,7 @@
     "entityIds": [
       "voyage-2"
     ],
-    "category": "外交",
+    "category": "朝贡",
     "summary": {
       "zh": "船队抵占城，送还占城使臣，并颁赐国王冠带、彩币。",
       "en": "The fleet reaches Champa, returns its envoys and bestows robes and brocade on the king."
@@ -1047,8 +1631,21 @@
       }
     ],
     "relatedIds": [
-      "champa-1405-10"
-    ]
+      "champa-1405-10",
+      "changle-1408-10",
+      "siam-1408-12"
+    ],
+    "aliases": [
+      {
+        "zh": "占城",
+        "en": "Champa"
+      },
+      {
+        "zh": "归仁",
+        "en": "Qui Nhon"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "siam-1408-12",
@@ -1101,11 +1698,23 @@
       }
     ],
     "relatedIds": [
-      "malacca-1409-01"
+      "malacca-1409-01",
+      "champa-1408-11"
     ],
     "extensions": {
       "routeEvent": false
-    }
+    },
+    "aliases": [
+      {
+        "zh": "阿瑜陀耶",
+        "en": "Ayutthaya"
+      },
+      {
+        "zh": "大城",
+        "en": "Ayutthaya"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "malacca-1409-01",
@@ -1126,7 +1735,7 @@
     "entityIds": [
       "voyage-2"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队在满剌加补充给养、检修船只，并重申明朝对满剌加的册封。",
       "en": "The fleet refits at Malacca and reaffirms Ming protection of the young kingdom."
@@ -1152,8 +1761,20 @@
       }
     ],
     "relatedIds": [
-      "siam-1408-12"
-    ]
+      "siam-1408-12",
+      "samudera-1409-01"
+    ],
+    "aliases": [
+      {
+        "zh": "马六甲",
+        "en": "Malacca"
+      },
+      {
+        "zh": "满剌加",
+        "en": "Melaka"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "samudera-1409-01",
@@ -1174,7 +1795,7 @@
     "entityIds": [
       "voyage-2"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队经苏门答剌、南巫里，进入印度洋。",
       "en": "The fleet passes Samudera and Lamuri and enters the Indian Ocean."
@@ -1199,8 +1820,21 @@
       }
     ],
     "relatedIds": [
-      "samudera-1406-03"
-    ]
+      "samudera-1406-03",
+      "malacca-1409-01",
+      "ceylon-offering-1409-02"
+    ],
+    "aliases": [
+      {
+        "zh": "须文答剌",
+        "en": "Samudera"
+      },
+      {
+        "zh": "巴赛",
+        "en": "Pasai"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "ceylon-offering-1409-02",
@@ -1221,7 +1855,7 @@
     "entityIds": [
       "voyage-2"
     ],
-    "category": "外交",
+    "category": "宗教",
     "summary": {
       "zh": "郑和在锡兰山布施佛寺，立中文、泰米尔文、波斯文三体碑，此碑今存科伦坡博物馆。",
       "en": "Zheng He makes offerings at a Ceylonese temple and sets up a trilingual stele in Chinese, Tamil and Persian, now in the Colombo Museum."
@@ -1253,8 +1887,21 @@
       }
     ],
     "relatedIds": [
-      "ceylon-1410-11"
-    ]
+      "ceylon-1410-11",
+      "samudera-1409-01",
+      "kayal-1409-03"
+    ],
+    "aliases": [
+      {
+        "zh": "锡兰",
+        "en": "Ceylon"
+      },
+      {
+        "zh": "斯里兰卡",
+        "en": "Sri Lanka"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "kayal-1409-03",
@@ -1275,7 +1922,7 @@
     "entityIds": [
       "voyage-2"
     ],
-    "category": "外交",
+    "category": "贸易",
     "summary": {
       "zh": "船队抵印度南端加异勒，采买胡椒与棉布。",
       "en": "The fleet reaches Kayal at the southern tip of India to buy pepper and cotton cloth."
@@ -1300,8 +1947,21 @@
       }
     ],
     "relatedIds": [
-      "kayal-1406-08"
-    ]
+      "kayal-1406-08",
+      "ceylon-offering-1409-02",
+      "cochin-1409-04"
+    ],
+    "aliases": [
+      {
+        "zh": "卡亚帕蒂南",
+        "en": "Kayalpattinam"
+      },
+      {
+        "zh": "卡亚尔",
+        "en": "Kayal"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "cochin-1409-04",
@@ -1322,7 +1982,7 @@
     "entityIds": [
       "voyage-2"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队泊柯枝，与当地商人交易香料、椰子与珍珠。",
       "en": "The fleet anchors at Cochin and trades for spices, coconuts and pearls."
@@ -1347,8 +2007,21 @@
       }
     ],
     "relatedIds": [
-      "cochin-1406-10"
-    ]
+      "cochin-1406-10",
+      "kayal-1409-03",
+      "calicut-1409-05"
+    ],
+    "aliases": [
+      {
+        "zh": "科钦",
+        "en": "Cochin"
+      },
+      {
+        "zh": "Kochi",
+        "en": "Kochi"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "calicut-1409-05",
@@ -1396,8 +2069,20 @@
     ],
     "relatedIds": [
       "calicut-1406-12",
-      "return-1409-08"
-    ]
+      "return-1409-08",
+      "cochin-1409-04"
+    ],
+    "aliases": [
+      {
+        "zh": "科泽科德",
+        "en": "Kozhikode"
+      },
+      {
+        "zh": "卡利卡特",
+        "en": "Calicut"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "return-1409-08",
@@ -1442,7 +2127,17 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "calicut-1409-05",
+      "depart-1408-10"
+    ],
+    "aliases": [
+      {
+        "zh": "刘家港",
+        "en": "Liujiagang"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "depart-1410-01",
@@ -1487,7 +2182,17 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "changle-1410-01",
+      "return-1411-07"
+    ],
+    "aliases": [
+      {
+        "zh": "刘家港",
+        "en": "Liujiagang"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "changle-1410-01",
@@ -1540,8 +2245,20 @@
       }
     ],
     "relatedIds": [
-      "depart-1410-01"
-    ]
+      "depart-1410-01",
+      "champa-1410-02"
+    ],
+    "aliases": [
+      {
+        "zh": "太平港",
+        "en": "Taiping Harbour"
+      },
+      {
+        "zh": "长乐",
+        "en": "Changle"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "champa-1410-02",
@@ -1562,7 +2279,7 @@
     "entityIds": [
       "voyage-3"
     ],
-    "category": "外交",
+    "category": "册封",
     "summary": {
       "zh": "船队抵占城，开读敕书、颁赐国王与头目，随后前往满剌加。",
       "en": "The fleet reaches Champa, reads the imperial edict and bestows gifts before sailing for Malacca."
@@ -1588,8 +2305,21 @@
       }
     ],
     "relatedIds": [
-      "champa-1405-10"
-    ]
+      "champa-1405-10",
+      "changle-1410-01",
+      "malacca-1410-06"
+    ],
+    "aliases": [
+      {
+        "zh": "占城",
+        "en": "Champa"
+      },
+      {
+        "zh": "归仁",
+        "en": "Qui Nhon"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "malacca-1410-06",
@@ -1634,7 +2364,21 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "champa-1410-02",
+      "malacca-1410-07"
+    ],
+    "aliases": [
+      {
+        "zh": "马六甲",
+        "en": "Malacca"
+      },
+      {
+        "zh": "满剌加",
+        "en": "Melaka"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "malacca-1410-07",
@@ -1655,7 +2399,7 @@
     "entityIds": [
       "voyage-3"
     ],
-    "category": "外交",
+    "category": "制度",
     "summary": {
       "zh": "郑和在满剌加设立官厂，立排栅城垣、四门更鼓楼，内建库藏仓廒，作为物资转运与候风基地。",
       "en": "Zheng He establishes a walled depot at Malacca with gate towers, storehouses and granaries, serving as a transshipment and monsoon base."
@@ -1687,8 +2431,22 @@
       }
     ],
     "relatedIds": [
-      "malacca-1406-01"
-    ]
+      "malacca-1406-01",
+      "malacca-1410-06",
+      "samudera-1410-08"
+    ],
+    "aliases": [
+      {
+        "zh": "马六甲",
+        "en": "Malacca"
+      },
+      {
+        "zh": "满剌加",
+        "en": "Melaka"
+      }
+    ],
+    "importance": 3,
+    "endDate": "1410-07-31"
   },
   {
     "id": "samudera-1410-08",
@@ -1709,7 +2467,7 @@
     "entityIds": [
       "voyage-3"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队经苏门答剌补充给养，处理朝贡事务，随后西行。",
       "en": "The fleet provisions at Samudera and handles tribute affairs before heading west."
@@ -1734,8 +2492,21 @@
       }
     ],
     "relatedIds": [
-      "samudera-1406-03"
-    ]
+      "samudera-1406-03",
+      "malacca-1410-07",
+      "lamuri-1410-08"
+    ],
+    "aliases": [
+      {
+        "zh": "须文答剌",
+        "en": "Samudera"
+      },
+      {
+        "zh": "巴赛",
+        "en": "Pasai"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "lamuri-1410-08",
@@ -1756,7 +2527,7 @@
     "entityIds": [
       "voyage-3"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队泊南巫里，等候横渡印度洋的季风。",
       "en": "The fleet anchors at Lamuri and waits for the monsoon to cross the Indian Ocean."
@@ -1781,8 +2552,21 @@
       }
     ],
     "relatedIds": [
-      "lamuri-1406-02"
-    ]
+      "lamuri-1406-02",
+      "samudera-1410-08",
+      "ceylon-1410-11"
+    ],
+    "aliases": [
+      {
+        "zh": "蓝无里",
+        "en": "Lamuri"
+      },
+      {
+        "zh": "班达亚齐",
+        "en": "Banda Aceh"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "ceylon-1410-11",
@@ -1829,8 +2613,21 @@
       }
     ],
     "relatedIds": [
-      "ceylon-battle-1411-05"
-    ]
+      "ceylon-battle-1411-05",
+      "lamuri-1410-08",
+      "kayal-1410-12"
+    ],
+    "aliases": [
+      {
+        "zh": "锡兰",
+        "en": "Ceylon"
+      },
+      {
+        "zh": "斯里兰卡",
+        "en": "Sri Lanka"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "kayal-1410-12",
@@ -1851,7 +2648,7 @@
     "entityIds": [
       "voyage-3"
     ],
-    "category": "外交",
+    "category": "贸易",
     "summary": {
       "zh": "船队抵加异勒，与当地商人交易胡椒、棉布。",
       "en": "The fleet reaches Kayal to trade for pepper and cotton cloth."
@@ -1876,8 +2673,21 @@
       }
     ],
     "relatedIds": [
-      "kayal-1406-08"
-    ]
+      "kayal-1406-08",
+      "ceylon-1410-11",
+      "cochin-1411-01"
+    ],
+    "aliases": [
+      {
+        "zh": "卡亚帕蒂南",
+        "en": "Kayalpattinam"
+      },
+      {
+        "zh": "卡亚尔",
+        "en": "Kayal"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "cochin-1411-01",
@@ -1898,7 +2708,7 @@
     "entityIds": [
       "voyage-3"
     ],
-    "category": "外交",
+    "category": "贸易",
     "summary": {
       "zh": "船队泊柯枝，交易香料与珍珠。",
       "en": "The fleet anchors at Cochin to trade for spices and pearls."
@@ -1923,8 +2733,21 @@
       }
     ],
     "relatedIds": [
-      "cochin-1406-10"
-    ]
+      "cochin-1406-10",
+      "kayal-1410-12",
+      "calicut-1411-02"
+    ],
+    "aliases": [
+      {
+        "zh": "科钦",
+        "en": "Cochin"
+      },
+      {
+        "zh": "Kochi",
+        "en": "Kochi"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "calicut-1411-02",
@@ -1945,7 +2768,7 @@
     "entityIds": [
       "voyage-3"
     ],
-    "category": "外交",
+    "category": "贸易",
     "summary": {
       "zh": "船队抵古里，完成贸易，准备回程。",
       "en": "The fleet reaches Calicut, completes its trade and prepares to turn home."
@@ -1970,8 +2793,21 @@
       }
     ],
     "relatedIds": [
-      "calicut-1406-12"
-    ]
+      "calicut-1406-12",
+      "cochin-1411-01",
+      "ceylon-battle-1411-05"
+    ],
+    "aliases": [
+      {
+        "zh": "科泽科德",
+        "en": "Kozhikode"
+      },
+      {
+        "zh": "卡利卡特",
+        "en": "Calicut"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "ceylon-battle-1411-05",
@@ -2026,8 +2862,21 @@
     "relatedIds": [
       "ceylon-1410-11",
       "nanjing-1411-07",
-      "return-1411-07"
-    ]
+      "return-1411-07",
+      "calicut-1411-02"
+    ],
+    "aliases": [
+      {
+        "zh": "锡兰",
+        "en": "Ceylon"
+      },
+      {
+        "zh": "斯里兰卡",
+        "en": "Sri Lanka"
+      }
+    ],
+    "importance": 3,
+    "endDate": "1411-05-20"
   },
   {
     "id": "return-1411-07",
@@ -2072,7 +2921,18 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "ceylon-battle-1411-05",
+      "nanjing-1411-07",
+      "depart-1410-01"
+    ],
+    "aliases": [
+      {
+        "zh": "刘家港",
+        "en": "Liujiagang"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "nanjing-1411-07",
@@ -2119,8 +2979,70 @@
       }
     ],
     "relatedIds": [
-      "ceylon-battle-1411-05"
+      "ceylon-battle-1411-05",
+      "return-1411-07"
     ],
+    "extensions": {
+      "routeEvent": false
+    },
+    "aliases": [
+      {
+        "zh": "应天",
+        "en": "Yingtian"
+      },
+      {
+        "zh": "京师",
+        "en": "Capital"
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ma-huan-1413-11",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "马欢随行记注",
+      "en": "Ma Huan joins as interpreter"
+    },
+    "date": "1413-11-20",
+    "location": {
+      "lng": 121.1,
+      "lat": 31.45,
+      "place": {
+        "zh": "太仓（今江苏太仓）",
+        "en": "Taicang"
+      }
+    },
+    "entityIds": [
+      "voyage-4"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "马欢以通事身份随第四次下西洋，记录沿途风土，后成《瀛涯胜览》。",
+      "en": "Ma Huan sailed on the fourth voyage as interpreter and later compiled the Yingya Shenglan."
+    },
+    "description": {
+      "zh": "马欢，会稽人，通阿拉伯语，先后四次随郑和出使。所撰《瀛涯胜览》记二十国山川、人物、物产、风俗，是研究下西洋最直接的一手文献之一。",
+      "en": "Ma Huan of Kuaiji spoke Arabic and sailed on four of the voyages. His Yingya Shenglan describes the geography, people, products and customs of some twenty countries and remains one of the most direct primary sources for the voyages."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "随行通事所记，地名与物产多可互证"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "航次与船队规模参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
     "extensions": {
       "routeEvent": false
     }
@@ -2168,7 +3090,17 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "changle-1414-01",
+      "return-1415-08"
+    ],
+    "aliases": [
+      {
+        "zh": "刘家港",
+        "en": "Liujiagang"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "changle-1414-01",
@@ -2221,8 +3153,20 @@
       }
     ],
     "relatedIds": [
-      "depart-1413-12"
-    ]
+      "depart-1413-12",
+      "champa-1414-01"
+    ],
+    "aliases": [
+      {
+        "zh": "太平港",
+        "en": "Taiping Harbour"
+      },
+      {
+        "zh": "长乐",
+        "en": "Changle"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "champa-1414-01",
@@ -2243,7 +3187,7 @@
     "entityIds": [
       "voyage-4"
     ],
-    "category": "外交",
+    "category": "册封",
     "summary": {
       "zh": "郑和抵占城，奉敕赐占城王冠带、锦绮。",
       "en": "Zheng He reaches Champa and bestows robes and brocade on its king by imperial order."
@@ -2269,8 +3213,21 @@
       }
     ],
     "relatedIds": [
-      "champa-1405-10"
-    ]
+      "champa-1405-10",
+      "changle-1414-01",
+      "cambay-1414-03"
+    ],
+    "aliases": [
+      {
+        "zh": "占城",
+        "en": "Champa"
+      },
+      {
+        "zh": "归仁",
+        "en": "Qui Nhon"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "cambay-1414-03",
@@ -2317,9 +3274,20 @@
     ],
     "relatedIds": [
       "calicut-1406-12",
-      "ahmadabad-1414-03"
+      "ahmadabad-1414-03",
+      "champa-1414-01"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "坎贝",
+        "en": "Cambay"
+      },
+      {
+        "zh": "肯帕德",
+        "en": "Khambhat"
+      }
+    ]
   },
   {
     "id": "ahmadabad-1414-03",
@@ -2371,7 +3339,13 @@
     "importance": 2,
     "extensions": {
       "routeEvent": false
-    }
+    },
+    "aliases": [
+      {
+        "zh": "艾哈迈达巴德",
+        "en": "Ahmedabad"
+      }
+    ]
   },
   {
     "id": "hormuz-1414-05",
@@ -2384,6 +3358,10 @@
       {
         "zh": "霍尔木兹",
         "en": "Hormuz"
+      },
+      {
+        "zh": "忽鲁谟斯",
+        "en": "Ormus"
       }
     ],
     "date": "1414-05-01",
@@ -2398,7 +3376,7 @@
     "entityIds": [
       "voyage-4"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队抵达波斯湾口的忽鲁谟斯，开展贸易。",
       "en": "The fleet reaches Hormuz at the mouth of the Persian Gulf and conducts trade."
@@ -2422,7 +3400,11 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "ahmadabad-1414-03",
+      "maldives-1414-05"
+    ],
+    "importance": 2
   },
   {
     "id": "maldives-1414-05",
@@ -2469,9 +3451,76 @@
     ],
     "relatedIds": [
       "ceylon-1406-06",
-      "hormuz-1414-05"
+      "hormuz-1414-05",
+      "brava-1415-01"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "马尔代夫",
+        "en": "Maldives"
+      },
+      {
+        "zh": "马累",
+        "en": "Malé"
+      }
+    ]
+  },
+  {
+    "id": "smalt-1414-06",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "苏麻离青入华",
+      "en": "Smalt cobalt reaches China"
+    },
+    "date": "1414-06-10",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "南京（今江苏南京）",
+        "en": "Nanjing"
+      }
+    },
+    "entityIds": [
+      "voyage-4"
+    ],
+    "category": "贸易",
+    "summary": {
+      "zh": "自波斯一带输入的钴料「苏麻离青」，成就永乐、宣德青花。",
+      "en": "Cobalt pigment imported from Persia made the Yongle and Xuande blue-and-white wares possible."
+    },
+    "description": {
+      "zh": "永乐、宣德青花所用钴料多来自波斯（今伊朗）一带，称「苏麻离青」或「苏泥勃青」，发色浓艳并带铁锈斑。下西洋保障了此料的稳定输入，也带回了器型与纹样的新样稿。",
+      "en": "The cobalt used in Yongle and Xuande blue-and-white came largely from Persia, known as sumali qing; it fires to a deep, brilliant blue with iron-rust speckles. The voyages secured a steady supply and brought new shapes and motifs as well."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "航次与船队规模参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "苏泥勃青",
+        "en": "Sumali cobalt"
+      }
+    ],
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "brava-1415-01",
@@ -2518,9 +3567,21 @@
     ],
     "relatedIds": [
       "mogadishu-1415-01",
-      "malindi-1415-01"
+      "malindi-1415-01",
+      "maldives-1414-05",
+      "dhofar-1415-01"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "布拉瓦",
+        "en": "Brava"
+      },
+      {
+        "zh": "巴拉韦",
+        "en": "Baraawe"
+      }
+    ]
   },
   {
     "id": "dhofar-1415-01",
@@ -2567,9 +3628,21 @@
     ],
     "relatedIds": [
       "hormuz-1414-05",
-      "aden-1418-06"
+      "aden-1418-06",
+      "brava-1415-01",
+      "juba-1415-01"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "佐法尔",
+        "en": "Dhofar"
+      },
+      {
+        "zh": "祖法儿",
+        "en": "Zufar"
+      }
+    ]
   },
   {
     "id": "juba-1415-01",
@@ -2616,9 +3689,20 @@
     ],
     "relatedIds": [
       "brava-1415-01",
-      "malindi-1415-01"
+      "malindi-1415-01",
+      "dhofar-1415-01"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "朱巴",
+        "en": "Juba"
+      },
+      {
+        "zh": "朱巴河口",
+        "en": "Juba river mouth"
+      }
+    ]
   },
   {
     "id": "malindi-1415-01",
@@ -2645,7 +3729,7 @@
     "entityIds": [
       "voyage-4"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队抵达东非麻林地，明朝影响力到达非洲东岸。",
       "en": "The fleet reaches Malindi in East Africa, extending Ming influence to the African coast."
@@ -2669,7 +3753,11 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "juba-1415-01",
+      "mogadishu-1415-01"
+    ],
+    "importance": 2
   },
   {
     "id": "mogadishu-1415-01",
@@ -2717,9 +3805,16 @@
     ],
     "relatedIds": [
       "malindi-1415-01",
-      "aden-1418-06"
+      "aden-1418-06",
+      "samudera-1415-06"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "摩加迪沙",
+        "en": "Mogadishu"
+      }
+    ]
   },
   {
     "id": "samudera-1415-06",
@@ -2772,8 +3867,22 @@
       }
     ],
     "relatedIds": [
-      "beijing-1415-09"
-    ]
+      "beijing-1415-09",
+      "mogadishu-1415-01",
+      "return-1415-08"
+    ],
+    "aliases": [
+      {
+        "zh": "须文答剌",
+        "en": "Samudera"
+      },
+      {
+        "zh": "巴赛",
+        "en": "Pasai"
+      }
+    ],
+    "importance": 2,
+    "endDate": "1415-07-15"
   },
   {
     "id": "return-1415-08",
@@ -2818,7 +3927,18 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "samudera-1415-06",
+      "beijing-1415-09",
+      "depart-1413-12"
+    ],
+    "aliases": [
+      {
+        "zh": "刘家港",
+        "en": "Liujiagang"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "beijing-1415-09",
@@ -2865,11 +3985,24 @@
       }
     ],
     "relatedIds": [
-      "samudera-1415-06"
+      "samudera-1415-06",
+      "return-1415-08",
+      "beijing-1415-11"
     ],
     "extensions": {
       "routeEvent": false
-    }
+    },
+    "aliases": [
+      {
+        "zh": "顺天府",
+        "en": "Shuntian"
+      },
+      {
+        "zh": "京师",
+        "en": "Capital"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "beijing-1415-11",
@@ -2890,7 +4023,7 @@
     "entityIds": [
       "voyage-4"
     ],
-    "category": "政策",
+    "category": "朝贡",
     "summary": {
       "zh": "麻林国使者随船来朝，献“麒麟”（长颈鹿）等兽。",
       "en": "Envoys from Malindi come to court with a “qilin”—a giraffe—and other animals."
@@ -2916,11 +4049,23 @@
       }
     ],
     "relatedIds": [
-      "malindi-1415-01"
+      "malindi-1415-01",
+      "beijing-1415-09"
     ],
     "extensions": {
       "routeEvent": false
-    }
+    },
+    "aliases": [
+      {
+        "zh": "顺天府",
+        "en": "Shuntian"
+      },
+      {
+        "zh": "京师",
+        "en": "Capital"
+      }
+    ],
+    "importance": 3
   },
   {
     "id": "depart-1417-12",
@@ -2965,7 +4110,17 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "changle-1418-01",
+      "return-1419-08"
+    ],
+    "aliases": [
+      {
+        "zh": "刘家港",
+        "en": "Liujiagang"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "changle-1418-01",
@@ -3012,8 +4167,20 @@
       }
     ],
     "relatedIds": [
-      "depart-1417-12"
-    ]
+      "depart-1417-12",
+      "champa-1418-02"
+    ],
+    "aliases": [
+      {
+        "zh": "太平港",
+        "en": "Taiping Harbour"
+      },
+      {
+        "zh": "长乐",
+        "en": "Changle"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "champa-1418-02",
@@ -3034,7 +4201,7 @@
     "entityIds": [
       "voyage-5"
     ],
-    "category": "外交",
+    "category": "朝贡",
     "summary": {
       "zh": "船队抵占城，送还使臣并颁赐国王。",
       "en": "The fleet reaches Champa, returns its envoys and bestows gifts on the king."
@@ -3060,8 +4227,21 @@
       }
     ],
     "relatedIds": [
-      "champa-1405-10"
-    ]
+      "champa-1405-10",
+      "changle-1418-01",
+      "malacca-1418-03"
+    ],
+    "aliases": [
+      {
+        "zh": "占城",
+        "en": "Champa"
+      },
+      {
+        "zh": "归仁",
+        "en": "Qui Nhon"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "malacca-1418-03",
@@ -3082,7 +4262,7 @@
     "entityIds": [
       "voyage-5"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队在满剌加驻泊，转运颁赐诸国的锦绮纱罗，并按目的地分䑸。",
       "en": "The fleet anchors at Malacca, transfers the silk and brocade destined for many states, and divides into squadrons by destination."
@@ -3108,8 +4288,21 @@
       }
     ],
     "relatedIds": [
-      "malacca-1410-07"
-    ]
+      "malacca-1410-07",
+      "champa-1418-02",
+      "samudera-1418-04"
+    ],
+    "aliases": [
+      {
+        "zh": "马六甲",
+        "en": "Malacca"
+      },
+      {
+        "zh": "满剌加",
+        "en": "Melaka"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "samudera-1418-04",
@@ -3130,7 +4323,7 @@
     "entityIds": [
       "voyage-5"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队经苏门答剌、南巫里进入印度洋。",
       "en": "The fleet passes Samudera and Lamuri into the Indian Ocean."
@@ -3155,8 +4348,21 @@
       }
     ],
     "relatedIds": [
-      "samudera-1406-03"
-    ]
+      "samudera-1406-03",
+      "malacca-1418-03",
+      "ceylon-1418-05"
+    ],
+    "aliases": [
+      {
+        "zh": "须文答剌",
+        "en": "Samudera"
+      },
+      {
+        "zh": "巴赛",
+        "en": "Pasai"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "ceylon-1418-05",
@@ -3177,7 +4383,7 @@
     "entityIds": [
       "voyage-5"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队泊锡兰山，分遣船队经溜山驶往东非、经古里驶向阿拉伯半岛。",
       "en": "The fleet anchors at Ceylon and sends detachments via the Maldives to East Africa and via Calicut to Arabia."
@@ -3203,8 +4409,21 @@
       }
     ],
     "relatedIds": [
-      "ceylon-1406-06"
-    ]
+      "ceylon-1406-06",
+      "samudera-1418-04",
+      "cochin-1418-06"
+    ],
+    "aliases": [
+      {
+        "zh": "锡兰",
+        "en": "Ceylon"
+      },
+      {
+        "zh": "斯里兰卡",
+        "en": "Sri Lanka"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "cochin-1418-06",
@@ -3225,7 +4444,7 @@
     "entityIds": [
       "voyage-5"
     ],
-    "category": "外交",
+    "category": "册封",
     "summary": {
       "zh": "郑和奉敕诏赐柯枝国王印诰，封其国中大山为镇国山，并立碑铭。",
       "en": "By imperial order Zheng He invests the king of Cochin with seals and patents, names the country’s great mountain “Guardian Mountain” and sets up a stele."
@@ -3257,8 +4476,21 @@
       }
     ],
     "relatedIds": [
-      "cochin-1406-10"
-    ]
+      "cochin-1406-10",
+      "ceylon-1418-05",
+      "calicut-1418-07"
+    ],
+    "aliases": [
+      {
+        "zh": "科钦",
+        "en": "Cochin"
+      },
+      {
+        "zh": "Kochi",
+        "en": "Kochi"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "calicut-1418-07",
@@ -3279,7 +4511,7 @@
     "entityIds": [
       "voyage-5"
     ],
-    "category": "外交",
+    "category": "贸易",
     "summary": {
       "zh": "船队抵古里，交易胡椒、宝石，补充远航物资。",
       "en": "The fleet reaches Calicut to trade pepper and gems and replenish stores."
@@ -3304,8 +4536,21 @@
       }
     ],
     "relatedIds": [
-      "calicut-1406-12"
-    ]
+      "calicut-1406-12",
+      "cochin-1418-06",
+      "hormuz-1418-09"
+    ],
+    "aliases": [
+      {
+        "zh": "科泽科德",
+        "en": "Kozhikode"
+      },
+      {
+        "zh": "卡利卡特",
+        "en": "Calicut"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "hormuz-1418-09",
@@ -3326,7 +4571,7 @@
     "entityIds": [
       "voyage-5"
     ],
-    "category": "外交",
+    "category": "册封",
     "summary": {
       "zh": "船队抵忽鲁谟斯，颁赐国王与后妃大臣，采购宝石、香料与马匹。",
       "en": "The fleet reaches Hormuz, bestows gifts on the king, court and ministers, and buys gems, spices and horses."
@@ -3351,8 +4596,21 @@
       }
     ],
     "relatedIds": [
-      "hormuz-1414-05"
-    ]
+      "hormuz-1414-05",
+      "calicut-1418-07",
+      "aden-1418-06"
+    ],
+    "aliases": [
+      {
+        "zh": "霍尔木兹",
+        "en": "Hormuz"
+      },
+      {
+        "zh": "忽鲁谟斯",
+        "en": "Ormus"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "aden-1418-06",
@@ -3401,7 +4659,11 @@
         "year": 1436
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "hormuz-1418-09",
+      "mogadishu-1419-01"
+    ],
+    "importance": 2
   },
   {
     "id": "mogadishu-1419-01",
@@ -3422,7 +4684,7 @@
     "entityIds": [
       "voyage-5"
     ],
-    "category": "外交",
+    "category": "朝贡",
     "summary": {
       "zh": "船队抵木骨都束，国王率百官迎候，赠狮子、花福鹿。",
       "en": "The fleet reaches Mogadishu, where the king and his officials welcome it and present lions and spotted deer."
@@ -3448,8 +4710,17 @@
       }
     ],
     "relatedIds": [
-      "mogadishu-1415-01"
-    ]
+      "mogadishu-1415-01",
+      "aden-1418-06",
+      "brava-1419-01"
+    ],
+    "aliases": [
+      {
+        "zh": "摩加迪沙",
+        "en": "Mogadishu"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "brava-1419-01",
@@ -3470,7 +4741,7 @@
     "entityIds": [
       "voyage-5"
     ],
-    "category": "外交",
+    "category": "贸易",
     "summary": {
       "zh": "船队抵卜剌哇，获赠千里骆驼与鸵鸡。",
       "en": "The fleet reaches Brava and receives long-distance camels and ostriches."
@@ -3496,8 +4767,21 @@
       }
     ],
     "relatedIds": [
-      "brava-1415-01"
-    ]
+      "brava-1415-01",
+      "mogadishu-1419-01",
+      "malindi-1419-02"
+    ],
+    "aliases": [
+      {
+        "zh": "布拉瓦",
+        "en": "Brava"
+      },
+      {
+        "zh": "巴拉韦",
+        "en": "Baraawe"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "malindi-1419-02",
@@ -3518,7 +4802,7 @@
     "entityIds": [
       "voyage-5"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队南抵麻林地，这是郑和船队到达的最南端之一。",
       "en": "The fleet sails south to Malindi, one of the southernmost points it reached."
@@ -3544,8 +4828,17 @@
       }
     ],
     "relatedIds": [
-      "malindi-1415-01"
-    ]
+      "malindi-1415-01",
+      "brava-1419-01",
+      "beijing-1419-08"
+    ],
+    "aliases": [
+      {
+        "zh": "马林迪",
+        "en": "Malindi"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "beijing-1419-08",
@@ -3566,7 +4859,7 @@
     "entityIds": [
       "voyage-5"
     ],
-    "category": "政策",
+    "category": "朝贡",
     "summary": {
       "zh": "船队还朝，忽鲁谟斯、阿丹、木骨都束等国随船入贡狮子、麒麟、长角马等。",
       "en": "The fleet returns with envoys from Hormuz, Aden, Mogadishu and others bringing lions, qilin and long-horned horses."
@@ -3592,11 +4885,23 @@
       }
     ],
     "relatedIds": [
-      "return-1419-08"
+      "return-1419-08",
+      "malindi-1419-02"
     ],
     "extensions": {
       "routeEvent": false
-    }
+    },
+    "aliases": [
+      {
+        "zh": "顺天府",
+        "en": "Shuntian"
+      },
+      {
+        "zh": "京师",
+        "en": "Capital"
+      }
+    ],
+    "importance": 3
   },
   {
     "id": "return-1419-08",
@@ -3641,7 +4946,17 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "beijing-1419-08",
+      "depart-1417-12"
+    ],
+    "aliases": [
+      {
+        "zh": "刘家港",
+        "en": "Liujiagang"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "depart-1421-03",
@@ -3686,7 +5001,64 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "changle-1421-03",
+      "return-1422-09"
+    ],
+    "aliases": [
+      {
+        "zh": "刘家港",
+        "en": "Liujiagang"
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "envoys-home-1421-03",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "十六国使臣随船还国",
+      "en": "Envoys of sixteen states sail home"
+    },
+    "date": "1421-03-05",
+    "location": {
+      "lng": 121.1,
+      "lat": 31.45,
+      "place": {
+        "zh": "太仓（今江苏太仓）",
+        "en": "Taicang"
+      }
+    },
+    "entityIds": [
+      "voyage-6"
+    ],
+    "category": "朝贡",
+    "summary": {
+      "zh": "第六次下西洋送十六国使臣还国，船队兼具外交与护送职能。",
+      "en": "The sixth voyage carried home the envoys of sixteen states — diplomacy and escort in one."
+    },
+    "description": {
+      "zh": "永乐十九年（1421）正月，十六国使臣随船归国。下西洋不仅是宣示与贸易，也是朝贡体系下的「送使」与「迎使」；船队因此常兼有外交使团与护航舰队的双重身份。",
+      "en": "In the first month of 1421 the envoys of sixteen states sailed home with the fleet. The voyages were as much about escorting envoys within the tribute system as about display and trade, so the fleet doubled as embassy and convoy."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "航次与船队规模参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
   },
   {
     "id": "changle-1421-03",
@@ -3733,8 +5105,20 @@
       }
     ],
     "relatedIds": [
-      "depart-1421-03"
-    ]
+      "depart-1421-03",
+      "champa-1421-04"
+    ],
+    "aliases": [
+      {
+        "zh": "太平港",
+        "en": "Taiping Harbour"
+      },
+      {
+        "zh": "长乐",
+        "en": "Changle"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "champa-1421-04",
@@ -3755,7 +5139,7 @@
     "entityIds": [
       "voyage-6"
     ],
-    "category": "外交",
+    "category": "朝贡",
     "summary": {
       "zh": "船队抵占城，送还使臣，颁赐国王。",
       "en": "The fleet reaches Champa, returns its envoys and bestows gifts on the king."
@@ -3781,8 +5165,21 @@
       }
     ],
     "relatedIds": [
-      "champa-1405-10"
-    ]
+      "champa-1405-10",
+      "changle-1421-03",
+      "malacca-1421-05"
+    ],
+    "aliases": [
+      {
+        "zh": "占城",
+        "en": "Champa"
+      },
+      {
+        "zh": "归仁",
+        "en": "Qui Nhon"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "malacca-1421-05",
@@ -3803,7 +5200,7 @@
     "entityIds": [
       "voyage-6"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队在满剌加集结，分拨货物并安排分䑸。",
       "en": "The fleet gathers at Malacca, redistributes cargo and organises its squadrons."
@@ -3830,8 +5227,21 @@
     ],
     "relatedIds": [
       "malacca-1410-07",
-      "bengal-1421-11"
-    ]
+      "bengal-1421-11",
+      "champa-1421-04",
+      "samudera-1421-06"
+    ],
+    "aliases": [
+      {
+        "zh": "马六甲",
+        "en": "Malacca"
+      },
+      {
+        "zh": "满剌加",
+        "en": "Melaka"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "samudera-1421-06",
@@ -3852,7 +5262,7 @@
     "entityIds": [
       "voyage-6"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队经苏门答剌，分遣一支分䑸北上榜葛剌。",
       "en": "At Samudera the fleet detaches a squadron to sail north to Bengal."
@@ -3878,8 +5288,21 @@
       }
     ],
     "relatedIds": [
-      "bengal-1421-11"
-    ]
+      "bengal-1421-11",
+      "malacca-1421-05",
+      "ceylon-1421-08"
+    ],
+    "aliases": [
+      {
+        "zh": "须文答剌",
+        "en": "Samudera"
+      },
+      {
+        "zh": "巴赛",
+        "en": "Pasai"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "ceylon-1421-08",
@@ -3900,7 +5323,7 @@
     "entityIds": [
       "voyage-6"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队泊锡兰山，补充淡水与食物，继续西行。",
       "en": "The fleet anchors at Ceylon for water and food before sailing on west."
@@ -3925,7 +5348,73 @@
       }
     ],
     "relatedIds": [
-      "ceylon-1406-06"
+      "ceylon-1406-06",
+      "samudera-1421-06",
+      "calicut-1421-09"
+    ],
+    "aliases": [
+      {
+        "zh": "锡兰",
+        "en": "Ceylon"
+      },
+      {
+        "zh": "斯里兰卡",
+        "en": "Sri Lanka"
+      }
+    ],
+    "importance": 1
+  },
+  {
+    "id": "bengal-giraffe-1421-08",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "榜葛剌贡麒麟",
+      "en": "A giraffe from Bengal"
+    },
+    "date": "1421-08-15",
+    "location": {
+      "lng": 91.6,
+      "lat": 22.05,
+      "place": {
+        "zh": "察地港（今孟加拉吉大港）",
+        "en": "Chittagong"
+      }
+    },
+    "entityIds": [
+      "voyage-6"
+    ],
+    "category": "朝贡",
+    "summary": {
+      "zh": "榜葛剌遣使献「麒麟」（长颈鹿），举朝以为祥瑞。",
+      "en": "Bengal sent a “qilin” — a giraffe — which the court received as an auspicious omen."
+    },
+    "description": {
+      "zh": "永乐十二年（1414）榜葛剌已献麒麟，永乐十九年（1421）再贡。所谓麒麟即长颈鹿，原产东非，经阿拉伯与印度海商转贩至孟加拉。宫廷命画工绘《瑞应麒麟图》，是中外物质交流的著名个案。",
+      "en": "Bengal had already sent a giraffe in 1414 and sent another in 1421. The “qilin” was a giraffe, native to East Africa and carried to Bengal by Arab and Indian Ocean traders. Court painters produced the celebrated Giraffe as a Auspicious Portent, a famous case of material exchange."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "航次与船队规模参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "aliases": [
+      {
+        "zh": "长颈鹿",
+        "en": "Giraffe"
+      }
     ]
   },
   {
@@ -3947,7 +5436,7 @@
     "entityIds": [
       "voyage-6"
     ],
-    "category": "外交",
+    "category": "贸易",
     "summary": {
       "zh": "船队抵古里，交易胡椒、宝石，等候前往波斯湾的季风。",
       "en": "The fleet reaches Calicut to trade pepper and gems and waits for the wind to the Persian Gulf."
@@ -3972,8 +5461,21 @@
       }
     ],
     "relatedIds": [
-      "calicut-1406-12"
-    ]
+      "calicut-1406-12",
+      "ceylon-1421-08",
+      "bengal-1421-11"
+    ],
+    "aliases": [
+      {
+        "zh": "科泽科德",
+        "en": "Kozhikode"
+      },
+      {
+        "zh": "卡利卡特",
+        "en": "Calicut"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "bengal-1421-11",
@@ -3986,6 +5488,10 @@
       {
         "zh": "孟加拉",
         "en": "Bengal"
+      },
+      {
+        "zh": "察地港",
+        "en": "Chittagong"
       }
     ],
     "date": "1421-11-01",
@@ -4000,7 +5506,7 @@
     "entityIds": [
       "voyage-6"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "分䑸访问榜葛剌，促进孟加拉湾贸易。",
       "en": "A detachment visits Bengal, promoting trade in the Bay of Bengal."
@@ -4024,10 +5530,14 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": [],
+    "relatedIds": [
+      "calicut-1421-09",
+      "hormuz-1421-11"
+    ],
     "extensions": {
       "routeEvent": false
-    }
+    },
+    "importance": 1
   },
   {
     "id": "hormuz-1421-11",
@@ -4048,7 +5558,7 @@
     "entityIds": [
       "voyage-6"
     ],
-    "category": "外交",
+    "category": "册封",
     "summary": {
       "zh": "船队抵忽鲁谟斯，颁赐国王，采购宝石与良马。",
       "en": "The fleet reaches Hormuz, bestows gifts on the king and buys gems and fine horses."
@@ -4074,8 +5584,21 @@
       }
     ],
     "relatedIds": [
-      "hormuz-1414-05"
-    ]
+      "hormuz-1414-05",
+      "bengal-1421-11",
+      "dhofar-1421-12"
+    ],
+    "aliases": [
+      {
+        "zh": "霍尔木兹",
+        "en": "Hormuz"
+      },
+      {
+        "zh": "忽鲁谟斯",
+        "en": "Ormus"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "dhofar-1421-12",
@@ -4096,7 +5619,7 @@
     "entityIds": [
       "voyage-6"
     ],
-    "category": "外交",
+    "category": "贸易",
     "summary": {
       "zh": "船队在祖法儿开读赏赐，当地人以乳香、血竭、芦荟、没药换取纻丝、瓷器。",
       "en": "At Dhofar the fleet reads the imperial gifts, and locals trade frankincense, dragon’s blood, aloes and myrrh for silk and porcelain."
@@ -4122,8 +5645,21 @@
       }
     ],
     "relatedIds": [
-      "dhofar-1415-01"
-    ]
+      "dhofar-1415-01",
+      "hormuz-1421-11",
+      "aden-1422-01"
+    ],
+    "aliases": [
+      {
+        "zh": "佐法尔",
+        "en": "Dhofar"
+      },
+      {
+        "zh": "祖法儿",
+        "en": "Zufar"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "aden-1422-01",
@@ -4144,7 +5680,7 @@
     "entityIds": [
       "voyage-6"
     ],
-    "category": "外交",
+    "category": "贸易",
     "summary": {
       "zh": "船队抵阿丹，采购宝石、珍珠与香料，并送还阿丹使臣。",
       "en": "The fleet reaches Aden to buy gems, pearls and spices and to return Aden’s envoys."
@@ -4169,8 +5705,17 @@
       }
     ],
     "relatedIds": [
-      "aden-1418-06"
-    ]
+      "aden-1418-06",
+      "dhofar-1421-12",
+      "mogadishu-1422-02"
+    ],
+    "aliases": [
+      {
+        "zh": "亚丁",
+        "en": "Aden"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "mogadishu-1422-02",
@@ -4191,7 +5736,7 @@
     "entityIds": [
       "voyage-6"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队再至木骨都束，补充给养并交换方物。",
       "en": "The fleet calls again at Mogadishu to provision and exchange local products."
@@ -4217,8 +5762,17 @@
       }
     ],
     "relatedIds": [
-      "mogadishu-1415-01"
-    ]
+      "mogadishu-1415-01",
+      "aden-1422-01",
+      "brava-1422-02"
+    ],
+    "aliases": [
+      {
+        "zh": "摩加迪沙",
+        "en": "Mogadishu"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "brava-1422-02",
@@ -4239,7 +5793,7 @@
     "entityIds": [
       "voyage-6"
     ],
-    "category": "外交",
+    "category": "贸易",
     "summary": {
       "zh": "船队抵卜剌哇，交易象牙、香料与牲畜。",
       "en": "The fleet reaches Brava to trade for ivory, spices and livestock."
@@ -4265,8 +5819,21 @@
       }
     ],
     "relatedIds": [
-      "brava-1415-01"
-    ]
+      "brava-1415-01",
+      "mogadishu-1422-02",
+      "juba-1422-03"
+    ],
+    "aliases": [
+      {
+        "zh": "布拉瓦",
+        "en": "Brava"
+      },
+      {
+        "zh": "巴拉韦",
+        "en": "Baraawe"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "juba-1422-03",
@@ -4287,7 +5854,7 @@
     "entityIds": [
       "voyage-6"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队南至竹步，这是第六次下西洋到达的东非南端港口之一。",
       "en": "The fleet sails south to Juba, one of the southernmost East African ports it reached on this voyage."
@@ -4313,8 +5880,21 @@
       }
     ],
     "relatedIds": [
-      "juba-1415-01"
-    ]
+      "juba-1415-01",
+      "brava-1422-02",
+      "malindi-1422-03"
+    ],
+    "aliases": [
+      {
+        "zh": "朱巴",
+        "en": "Juba"
+      },
+      {
+        "zh": "朱巴河口",
+        "en": "Juba river mouth"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "malindi-1422-03",
@@ -4361,8 +5941,115 @@
       }
     ],
     "relatedIds": [
-      "malindi-1415-01"
-    ]
+      "malindi-1415-01",
+      "juba-1422-03",
+      "return-1422-09"
+    ],
+    "aliases": [
+      {
+        "zh": "马林迪",
+        "en": "Malindi"
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lions-1422-07",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "狮子鸵鸟入贡",
+      "en": "Lions and ostriches as tribute"
+    },
+    "date": "1422-07-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京（今北京）",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "voyage-6"
+    ],
+    "category": "朝贡",
+    "summary": {
+      "zh": "阿丹、木骨都束等国贡狮子、鸵鸟、斑马等异兽。",
+      "en": "Aden, Mogadishu and other states sent lions, ostriches, zebras and other exotic animals."
+    },
+    "description": {
+      "zh": "随船队来华的还有狮子、鸵鸟（「驼鸡」）、斑马（「福禄」）、犀牛等。永乐年间宫廷苑囿中的异兽多由下西洋得来，也成为明代绘画与工艺的题材。",
+      "en": "The fleet also brought lions, ostriches, zebras and rhinoceroses. Most of the exotic animals in Yongle’s parks arrived this way, and they entered Ming painting and decorative arts as motifs."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "随行通事所记，地名与物产多可互证"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 1,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "tally-1422-08",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "勘合与回赐",
+      "en": "Tally verification and return gifts"
+    },
+    "date": "1422-08-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京（今北京）",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "voyage-6"
+    ],
+    "category": "制度",
+    "summary": {
+      "zh": "朝贡以「勘合」验真，回赐常倍于贡物，形成制度化的官方贸易。",
+      "en": "Tribute was verified by tallies, and return gifts often exceeded the tribute — institutionalised official trade."
+    },
+    "description": {
+      "zh": "明廷向海外诸国颁发勘合，贡使持勘合比对，以防伪冒。贡物入官，回赐以丝帛、瓷器、钱钞，价值常高于贡物。其实质是以国家财政支撑的官方贸易，也是下西洋难以长期维系的原因之一。",
+      "en": "The Ming court issued tallies to foreign states; envoys presented the matching half on arrival to prevent imposture. Tribute entered the treasury, and return gifts of silk, porcelain and cash usually exceeded its value — official trade underwritten by the state, and one reason the voyages were hard to sustain."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "朝贡贸易",
+        "en": "Tribute trade"
+      }
+    ],
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "return-1422-09",
@@ -4407,7 +6094,18 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "malindi-1422-03",
+      "stop-1424-08",
+      "depart-1421-03"
+    ],
+    "aliases": [
+      {
+        "zh": "刘家港",
+        "en": "Liujiagang"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "stop-1424-08",
@@ -4452,10 +6150,23 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": [],
+    "relatedIds": [
+      "return-1422-09"
+    ],
     "extensions": {
       "routeEvent": false
-    }
+    },
+    "aliases": [
+      {
+        "zh": "顺天府",
+        "en": "Shuntian"
+      },
+      {
+        "zh": "京师",
+        "en": "Capital"
+      }
+    ],
+    "importance": 3
   },
   {
     "id": "depart-1431-01",
@@ -4500,7 +6211,216 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "changle-1431-02",
+      "return-1433-07"
+    ],
+    "aliases": [
+      {
+        "zh": "刘家港",
+        "en": "Liujiagang"
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "gong-zhen-1431-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "巩珍随行",
+      "en": "Gong Zhen joins the seventh voyage"
+    },
+    "date": "1431-01-05",
+    "location": {
+      "lng": 121.1,
+      "lat": 31.45,
+      "place": {
+        "zh": "太仓（今江苏太仓）",
+        "en": "Taicang"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "巩珍随第七次下西洋，归后撰《西洋番国志》。",
+      "en": "Gong Zhen sailed on the seventh voyage and later wrote the Xiyang Fanguo Zhi."
+    },
+    "description": {
+      "zh": "巩珍，应天人，宣德五年（1430）随郑和、王景弘出使，归后撰《西洋番国志》，记二十国，内容多可与《瀛涯胜览》《星槎胜览》互证。",
+      "en": "Gong Zhen of Yingtian sailed with Zheng He and Wang Jinghong in 1430 and afterwards wrote the Xiyang Fanguo Zhi, covering twenty countries and largely corroborating the Yingya Shenglan and Xingcha Shenglan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《西洋番国志》",
+        "author": "巩珍",
+        "year": 1434,
+        "note": "第七次下西洋随行所记"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "航次与船队规模参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "crew-roles-1431-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "通事、火长与医官",
+      "en": "Interpreters, navigators and physicians"
+    },
+    "date": "1431-01-06",
+    "location": {
+      "lng": 121.1,
+      "lat": 31.45,
+      "place": {
+        "zh": "太仓（今江苏太仓）",
+        "en": "Taicang"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "船队职司齐备：通事译语、火长掌针路、医官主医药，另有匠人、水手与军士。",
+      "en": "The fleet carried interpreters, navigators, physicians, craftsmen, sailors and soldiers."
+    },
+    "description": {
+      "zh": "据《瀛涯胜览》《西洋番国志》，船队设正使太监、副使监丞、少监、内监，下辖火长（掌罗盘针路）、舵工、班碇手、通事（译语）、买办、书算手、医官与各色匠人。分工明确，是远航得以持续的组织基础。",
+      "en": "According to the Yingya Shenglan and Xiyang Fanguo Zhi, the fleet was headed by chief and deputy envoys and included compass navigators, helmsmen, anchor handlers, interpreters, pursers, clerks, physicians and craftsmen of many trades — the organisational basis that made repeated long voyages possible."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "随行通事所记，地名与物产多可互证"
+      },
+      {
+        "title": "《西洋番国志》",
+        "author": "巩珍",
+        "year": 1434,
+        "note": "第七次下西洋随行所记"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "ship-size-1431-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "宝船尺度与船型",
+      "en": "The dimensions of the treasure ships"
+    },
+    "date": "1431-01-10",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "南京（今江苏南京）",
+        "en": "Nanjing"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "技术",
+    "summary": {
+      "zh": "宝船「修四十四丈、广十八丈」，尺度之说聚讼未决。",
+      "en": "The treasure ships are recorded as 44 zhang long and 18 zhang wide; the figure remains disputed."
+    },
+    "description": {
+      "zh": "《明史·郑和传》记宝船长四十四丈四尺、宽十八丈。按明尺折算约长 130 米，远超同期欧洲船只，因此有学者主张尺制或记载有误，一说为「五千料」巨舶。南京宝船厂遗址发现的大型作塘，可容此类船体建造。",
+      "en": "The History of Ming gives the treasure ships as 44.4 zhang long and 18 zhang wide — roughly 130 m, far larger than any contemporary European vessel. Some scholars therefore argue the unit or the record is corrupt; another reading is a 5,000-liao ship. The large slipways excavated at the Nanjing treasure-ship yard could accommodate hulls of this scale."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "航次与船队规模参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "nautical-chart-1431-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "《郑和航海图》",
+      "en": "The Zheng He Nautical Chart"
+    },
+    "date": "1431-01-12",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "南京（今江苏南京）",
+        "en": "Nanjing"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "技术",
+    "summary": {
+      "zh": "《郑和航海图》以针路与牵星记录自南京至东非的航程。",
+      "en": "The Nautical Chart records the route from Nanjing to East Africa by compass course and star altitude."
+    },
+    "description": {
+      "zh": "图见茅元仪《武备志》（1621）卷二四〇，存图二十页、四十幅，标地名五百余处，自南京宝船厂起，经东南亚、印度、阿拉伯半岛至东非。是中国现存最早的远洋航海图，也是下西洋航线的核心实证。",
+      "en": "Preserved in Mao Yuanyi’s Wubeizhi (1621), the chart runs to twenty pages and forty panels with more than 500 place names, from the Nanjing shipyard through Southeast Asia, India and Arabia to East Africa. It is the earliest surviving Chinese ocean-going chart and the key evidence for the voyage routes."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《武备志》",
+        "author": "茅元仪",
+        "year": 1621,
+        "note": "卷二四〇收录《郑和航海图》"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "航次与船队规模参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "changle-1431-02",
@@ -4554,8 +6474,20 @@
     ],
     "relatedIds": [
       "depart-1431-01",
-      "tianfei-1431-11"
-    ]
+      "tianfei-1431-11",
+      "siam-edict-1431-03"
+    ],
+    "aliases": [
+      {
+        "zh": "太平港",
+        "en": "Taiping Harbour"
+      },
+      {
+        "zh": "长乐",
+        "en": "Changle"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "siam-edict-1431-03",
@@ -4602,11 +6534,24 @@
       }
     ],
     "relatedIds": [
-      "malacca-1432-03"
+      "malacca-1432-03",
+      "changle-1431-02",
+      "tianfei-1431-11"
     ],
     "extensions": {
       "routeEvent": false
-    }
+    },
+    "aliases": [
+      {
+        "zh": "顺天府",
+        "en": "Shuntian"
+      },
+      {
+        "zh": "京师",
+        "en": "Capital"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "tianfei-1431-11",
@@ -4652,8 +6597,21 @@
       }
     ],
     "relatedIds": [
-      "changle-1431-02"
-    ]
+      "changle-1431-02",
+      "siam-edict-1431-03",
+      "champa-1431-12"
+    ],
+    "aliases": [
+      {
+        "zh": "太平港",
+        "en": "Taiping Harbour"
+      },
+      {
+        "zh": "长乐",
+        "en": "Changle"
+      }
+    ],
+    "importance": 3
   },
   {
     "id": "champa-1431-12",
@@ -4700,8 +6658,21 @@
       }
     ],
     "relatedIds": [
-      "champa-1405-10"
-    ]
+      "champa-1405-10",
+      "tianfei-1431-11",
+      "palembang-1432-01"
+    ],
+    "aliases": [
+      {
+        "zh": "占城",
+        "en": "Champa"
+      },
+      {
+        "zh": "归仁",
+        "en": "Qui Nhon"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "palembang-1432-01",
@@ -4722,7 +6693,7 @@
     "entityIds": [
       "voyage-7"
     ],
-    "category": "外交",
+    "category": "制度",
     "summary": {
       "zh": "船队抵旧港宣慰司，抚谕当地华人头目。",
       "en": "The fleet reaches the Palembang commission and reassures the local Chinese leaders."
@@ -4747,8 +6718,21 @@
       }
     ],
     "relatedIds": [
-      "palembang-1407-01"
-    ]
+      "palembang-1407-01",
+      "champa-1431-12",
+      "java-1432-02"
+    ],
+    "aliases": [
+      {
+        "zh": "巴邻旁",
+        "en": "Palembang"
+      },
+      {
+        "zh": "巨港",
+        "en": "Palembang"
+      }
+    ],
+    "importance": 3
   },
   {
     "id": "java-1432-02",
@@ -4795,8 +6779,21 @@
       }
     ],
     "relatedIds": [
-      "java-1406-07"
-    ]
+      "java-1406-07",
+      "palembang-1432-01",
+      "malacca-1432-03"
+    ],
+    "aliases": [
+      {
+        "zh": "革儿昔",
+        "en": "Gresik"
+      },
+      {
+        "zh": "格雷西克",
+        "en": "Gresik"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "malacca-1432-03",
@@ -4817,7 +6814,7 @@
     "entityIds": [
       "voyage-7"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队在满剌加驻泊，重申册封，并等候分䑸。",
       "en": "The fleet anchors at Malacca, reaffirms its enfeoffment and waits while squadrons form."
@@ -4843,8 +6840,21 @@
       }
     ],
     "relatedIds": [
-      "siam-edict-1431-03"
-    ]
+      "siam-edict-1431-03",
+      "java-1432-02",
+      "samudera-1432-04"
+    ],
+    "aliases": [
+      {
+        "zh": "马六甲",
+        "en": "Malacca"
+      },
+      {
+        "zh": "满剌加",
+        "en": "Melaka"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "samudera-1432-04",
@@ -4865,7 +6875,7 @@
     "entityIds": [
       "voyage-7"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队经苏门答剌、南巫里进入印度洋。",
       "en": "The fleet passes Samudera and Lamuri into the Indian Ocean."
@@ -4890,8 +6900,21 @@
       }
     ],
     "relatedIds": [
-      "samudera-1406-03"
-    ]
+      "samudera-1406-03",
+      "malacca-1432-03",
+      "ceylon-1432-05"
+    ],
+    "aliases": [
+      {
+        "zh": "须文答剌",
+        "en": "Samudera"
+      },
+      {
+        "zh": "巴赛",
+        "en": "Pasai"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "ceylon-1432-05",
@@ -4912,7 +6935,7 @@
     "entityIds": [
       "voyage-7"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队泊锡兰山，补充淡水与食物。",
       "en": "The fleet anchors at Ceylon for water and food."
@@ -4937,8 +6960,21 @@
       }
     ],
     "relatedIds": [
-      "ceylon-1406-06"
-    ]
+      "ceylon-1406-06",
+      "samudera-1432-04",
+      "calicut-1432-07"
+    ],
+    "aliases": [
+      {
+        "zh": "锡兰",
+        "en": "Ceylon"
+      },
+      {
+        "zh": "斯里兰卡",
+        "en": "Sri Lanka"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "calicut-1432-07",
@@ -4959,7 +6995,7 @@
     "entityIds": [
       "voyage-7"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队抵古里，郑和在此分派使者前往天方（麦加）。",
       "en": "At Calicut Zheng He sends envoys on to Mecca."
@@ -4985,8 +7021,22 @@
       }
     ],
     "relatedIds": [
-      "mecca-1432-06"
-    ]
+      "mecca-1432-06",
+      "ceylon-1432-05",
+      "hormuz-1432-08",
+      "calicut-1433-04"
+    ],
+    "aliases": [
+      {
+        "zh": "科泽科德",
+        "en": "Kozhikode"
+      },
+      {
+        "zh": "卡利卡特",
+        "en": "Calicut"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "hormuz-1432-08",
@@ -5007,7 +7057,7 @@
     "entityIds": [
       "voyage-7"
     ],
-    "category": "外交",
+    "category": "册封",
     "summary": {
       "zh": "船队抵忽鲁谟斯，颁赐国王，采购宝石、香料与马匹。",
       "en": "The fleet reaches Hormuz, bestows gifts on the king and buys gems, spices and horses."
@@ -5033,8 +7083,21 @@
       }
     ],
     "relatedIds": [
-      "hormuz-1414-05"
-    ]
+      "hormuz-1414-05",
+      "calicut-1432-07",
+      "aden-1432-09"
+    ],
+    "aliases": [
+      {
+        "zh": "霍尔木兹",
+        "en": "Hormuz"
+      },
+      {
+        "zh": "忽鲁谟斯",
+        "en": "Ormus"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "aden-1432-09",
@@ -5081,8 +7144,16 @@
       }
     ],
     "relatedIds": [
-      "mecca-1432-06"
-    ]
+      "mecca-1432-06",
+      "hormuz-1432-08"
+    ],
+    "aliases": [
+      {
+        "zh": "亚丁",
+        "en": "Aden"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "mecca-1432-06",
@@ -5129,12 +7200,24 @@
     ],
     "relatedIds": [
       "aden-1418-06",
-      "calicut-1433-04"
+      "calicut-1433-04",
+      "aden-1432-09",
+      "mogadishu-1432-12"
     ],
     "importance": 2,
     "extensions": {
       "routeEvent": false
-    }
+    },
+    "aliases": [
+      {
+        "zh": "麦加",
+        "en": "Mecca"
+      },
+      {
+        "zh": "天方",
+        "en": "Makkah"
+      }
+    ]
   },
   {
     "id": "mogadishu-1432-12",
@@ -5155,7 +7238,7 @@
     "entityIds": [
       "voyage-7"
     ],
-    "category": "外交",
+    "category": "贸易",
     "summary": {
       "zh": "船队南至木骨都束，交换象牙、香料与方物。",
       "en": "The fleet sails south to Mogadishu to exchange for ivory, spices and local products."
@@ -5181,8 +7264,17 @@
       }
     ],
     "relatedIds": [
-      "mogadishu-1415-01"
-    ]
+      "mogadishu-1415-01",
+      "mecca-1432-06",
+      "brava-1433-01"
+    ],
+    "aliases": [
+      {
+        "zh": "摩加迪沙",
+        "en": "Mogadishu"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "brava-1433-01",
@@ -5203,7 +7295,7 @@
     "entityIds": [
       "voyage-7"
     ],
-    "category": "外交",
+    "category": "贸易",
     "summary": {
       "zh": "船队抵卜剌哇，交易象牙、香料。",
       "en": "The fleet reaches Brava to trade for ivory and spices."
@@ -5229,8 +7321,21 @@
       }
     ],
     "relatedIds": [
-      "brava-1415-01"
-    ]
+      "brava-1415-01",
+      "mogadishu-1432-12",
+      "juba-1433-01"
+    ],
+    "aliases": [
+      {
+        "zh": "布拉瓦",
+        "en": "Brava"
+      },
+      {
+        "zh": "巴拉韦",
+        "en": "Baraawe"
+      }
+    ],
+    "importance": 1
   },
   {
     "id": "juba-1433-01",
@@ -5251,7 +7356,7 @@
     "entityIds": [
       "voyage-7"
     ],
-    "category": "外交",
+    "category": "航行",
     "summary": {
       "zh": "船队南至竹步，随后折返古里。",
       "en": "The fleet sails south to Juba, then turns back towards Calicut."
@@ -5277,8 +7382,20 @@
       }
     ],
     "relatedIds": [
-      "calicut-1433-04"
-    ]
+      "calicut-1433-04",
+      "brava-1433-01"
+    ],
+    "aliases": [
+      {
+        "zh": "朱巴",
+        "en": "Juba"
+      },
+      {
+        "zh": "朱巴河口",
+        "en": "Juba river mouth"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "calicut-1433-04",
@@ -5289,8 +7406,12 @@
     },
     "aliases": [
       {
-        "zh": "郑和逝世",
-        "en": "Death of Zheng He"
+        "zh": "科泽科德",
+        "en": "Kozhikode"
+      },
+      {
+        "zh": "卡利卡特",
+        "en": "Calicut"
       }
     ],
     "date": "1433-04-01",
@@ -5305,7 +7426,7 @@
     "entityIds": [
       "voyage-7"
     ],
-    "category": "航行",
+    "category": "人物",
     "summary": {
       "zh": "郑和在第七次航行途中卒于古里。",
       "en": "Zheng He dies at Calicut during the seventh voyage."
@@ -5329,7 +7450,59 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "juba-1433-01",
+      "return-1433-07",
+      "calicut-1432-07"
+    ],
+    "importance": 3,
+    "endDate": "1433-04-10"
+  },
+  {
+    "id": "cargo-back-1433-07",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "宝船返航所载",
+      "en": "What the fleet brought home"
+    },
+    "date": "1433-07-20",
+    "location": {
+      "lng": 121.1,
+      "lat": 31.45,
+      "place": {
+        "zh": "太仓（今江苏太仓）",
+        "en": "Taicang"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "贸易",
+    "summary": {
+      "zh": "返航载回香料、宝石、珍禽与各国贡物。",
+      "en": "The fleet returned with spices, gems, exotic animals and tribute goods."
+    },
+    "description": {
+      "zh": "回程货物以胡椒、苏木、沉香、乳香、没药、宝石、珍珠、象牙、犀角为主，另有麒麟、狮子、鸵鸟等。香料一项后来成为明廷财政与民间市场的大宗，也改变了中国人的饮食与医药。",
+      "en": "The return cargo was dominated by pepper, sappanwood, aloeswood, frankincense, myrrh, gems, pearls, ivory and rhinoceros horn, besides giraffes, lions and ostriches. Spices in particular became a major item in court revenue and in ordinary markets, changing Chinese cooking and pharmacy."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "随行通事所记，地名与物产多可互证"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
   },
   {
     "id": "return-1433-07",
@@ -5374,6 +7547,16 @@
         "note": "航线走向参考，坐标为示意简化"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "calicut-1433-04",
+      "depart-1431-01"
+    ],
+    "aliases": [
+      {
+        "zh": "刘家港",
+        "en": "Liujiagang"
+      }
+    ],
+    "importance": 2
   }
 ]
