@@ -270,6 +270,125 @@
     "relatedIds": []
   },
   {
+    "id": "mohe-630-01",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "莫贺延碛",
+      "en": "Moheyan Desert"
+    },
+    "aliases": [
+      {
+        "zh": "沙河"
+      },
+      {
+        "zh": "流沙"
+      },
+      {
+        "zh": "莫贺碛"
+      },
+      {
+        "zh": "噶顺戈壁",
+        "en": "Gashun Gobi"
+      }
+    ],
+    "date": "0630-01-10",
+    "location": {
+      "lng": 93.3,
+      "lat": 41.55,
+      "place": {
+        "zh": "莫贺延碛（今噶顺戈壁）",
+        "en": "Moheyan Desert (Gashun Gobi)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘在莫贺延碛迷路覆水，五天四夜滴水未进。",
+      "en": "Xuanzang loses his water in the Moheyan Desert and goes five days without a drop."
+    },
+    "description": {
+      "zh": "贞观四年（630）初，玄奘偷渡玉门关后进入莫贺延碛。途中失手打翻水囊，又迷失道路，五天四夜滴水未进，几乎渴死。他默念观音名号，发誓「宁可就西而死，岂归东而生」，最终由老马引至野马泉，得以生还。",
+      "en": "In early 630, after slipping past Yumen Pass, Xuanzang entered the Moheyan Desert. He dropped his water bag and lost his way, going five days and nights without water and nearly dying of thirst. He vowed to press west rather than turn back, and was at last led by his old horse to a spring."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "yiwu-630-01",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "伊吾",
+      "en": "Yiwu"
+    },
+    "aliases": [
+      {
+        "zh": "伊吾卢"
+      },
+      {
+        "zh": "伊州"
+      },
+      {
+        "zh": "哈密",
+        "en": "Hami"
+      }
+    ],
+    "date": "0630-01-20",
+    "location": {
+      "lng": 93.51,
+      "lat": 42.82,
+      "place": {
+        "zh": "伊吾（今新疆哈密）",
+        "en": "Yiwu (Hami, Xinjiang)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘抵达伊吾，汉僧抱泣相迎，高昌王遣使来请。",
+      "en": "Xuanzang reaches Yiwu, where a Chinese monk weeps at meeting him and Gaochang sends envoys."
+    },
+    "description": {
+      "zh": "玄奘走出莫贺延碛后抵达伊吾。当地玉佛寺的汉僧听说故乡来人，衣未及整便抱泣相迎。高昌王麴文泰闻讯，立即遣使携马匹来迎，请玄奘西行高昌。",
+      "en": "After crossing the Moheyan Desert Xuanzang reached Yiwu. A Chinese monk at the local jade-Buddha monastery wept at meeting a traveler from home, and King Qu Wentai of Gaochang sent envoys with horses to invite him onward."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
     "id": "gaochang-630-02",
     "atlasId": "xuanzang",
     "name": {
@@ -456,6 +575,61 @@
     "relatedIds": []
   },
   {
+    "id": "issyk-kul-630-09",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "大清池",
+      "en": "Great Clear Lake"
+    },
+    "aliases": [
+      {
+        "zh": "热海"
+      },
+      {
+        "zh": "伊塞克湖",
+        "en": "Issyk-Kul"
+      }
+    ],
+    "date": "0630-09-01",
+    "location": {
+      "lng": 77.3,
+      "lat": 42.45,
+      "place": {
+        "zh": "大清池（今伊塞克湖）",
+        "en": "Great Clear Lake (Issyk-Kul)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘越凌山后抵大清池，记其「洪涛浩汗，惊波汩㴔」。",
+      "en": "After the Bedel Pass Xuanzang reaches the Great Clear Lake, a vast and wave-tossed water."
+    },
+    "description": {
+      "zh": "翻越凌山后，玄奘抵达大清池。《大唐西域记》记此湖「周千四五百里，东西长，南北狭，四面负山，众流交凑」，虽处无热之区却「洪涛浩汗，惊波汩㴔」，是当时中亚商道上的重要地标。",
+      "en": "After crossing the Bedel Pass Xuanzang reached the Great Clear Lake. The Records of the Western Regions describes a lake over a thousand li around, long east to west and narrow north to south, ringed by mountains and fed by many streams, its waves vast and restless."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
     "id": "suyab-630-10",
     "atlasId": "xuanzang",
     "name": {
@@ -505,6 +679,64 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "talas-630-11",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "怛罗斯",
+      "en": "Talas"
+    },
+    "aliases": [
+      {
+        "zh": "呾逻斯"
+      },
+      {
+        "zh": "江布尔"
+      },
+      {
+        "zh": "塔拉兹",
+        "en": "Taraz"
+      }
+    ],
+    "date": "0630-11-01",
+    "location": {
+      "lng": 72.24,
+      "lat": 42.52,
+      "place": {
+        "zh": "怛罗斯（今哈萨克斯坦塔拉兹）",
+        "en": "Talas (Taraz, Kazakhstan)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘经千泉、怛罗斯、赭时西行，进入河中地区。",
+      "en": "Xuanzang travels west through the Thousand Springs, Talas and Chach into Sogdiana."
+    },
+    "description": {
+      "zh": "自碎叶川西行，玄奘经千泉、怛罗斯、白水城与赭时（今塔什干），进入以撒马尔罕为中心的河中地区。这一线是西突厥控制下的粟特商道，玄奘沿途记录城邑、物产与突厥可汗的游牧势力。",
+      "en": "From the Suyab valley Xuanzang traveled west through the Thousand Springs, Talas, Isfijab and Chach (Tashkent) into the Sogdian lands around Samarkand, recording the towns, goods and nomad power of the Western Turks along the way."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
   },
   {
     "id": "samarkand-630-12",
@@ -1749,6 +1981,60 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "dunhuang-644-10",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "敦煌",
+      "en": "Dunhuang"
+    },
+    "aliases": [
+      {
+        "zh": "沙州"
+      },
+      {
+        "zh": "燉煌"
+      }
+    ],
+    "date": "0644-10-01",
+    "location": {
+      "lng": 94.66,
+      "lat": 40.14,
+      "place": {
+        "zh": "沙州（今甘肃敦煌）",
+        "en": "Shazhou (Dunhuang, Gansu)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘归途经沙州，再次上表太宗，太宗敕令敦煌官吏迎接。",
+      "en": "On his return Xuanzang reaches Shazhou and sends another memorial to Emperor Taizong."
+    },
+    "description": {
+      "zh": "644 年秋，玄奘自于阗东行，沿塔里木盆地南缘经若羌抵达沙州。他在此再次上表，报告携经归国。太宗得表后敕令敦煌官吏于流沙迎接，并命沿途州县供给。",
+      "en": "In autumn 644 Xuanzang came east from Khotan along the southern Tarim route to Shazhou, where he sent another memorial announcing his return with the scriptures. Taizong ordered officials to meet him at the edge of the desert and supply him along the road."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
   },
   {
     "id": "changan-645-01",
