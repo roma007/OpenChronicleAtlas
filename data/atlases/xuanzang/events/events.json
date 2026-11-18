@@ -42,7 +42,22 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "qinzhou-629-09"
+    ],
+    "aliases": [
+      {
+        "zh": "京兆"
+      },
+      {
+        "zh": "西京"
+      },
+      {
+        "zh": "西安",
+        "en": "Xi'an"
+      }
+    ],
+    "importance": 3
   },
   {
     "id": "qinzhou-629-09",
@@ -87,7 +102,17 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "changan-629-08",
+      "lanzhou-629-10"
+    ],
+    "aliases": [
+      {
+        "zh": "天水",
+        "en": "Tianshui"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "lanzhou-629-10",
@@ -132,7 +157,20 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "qinzhou-629-09",
+      "liangzhou-629-11"
+    ],
+    "aliases": [
+      {
+        "zh": "金城"
+      },
+      {
+        "zh": "兰州",
+        "en": "Lanzhou"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "liangzhou-629-11",
@@ -177,7 +215,17 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "lanzhou-629-10",
+      "guazhou-629-12"
+    ],
+    "aliases": [
+      {
+        "zh": "武威",
+        "en": "Wuwei"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "guazhou-629-12",
@@ -222,7 +270,19 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "liangzhou-629-11",
+      "yumen-630-01"
+    ],
+    "aliases": [
+      {
+        "zh": "安西"
+      },
+      {
+        "zh": "锁阳城"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "yumen-630-01",
@@ -267,7 +327,19 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "guazhou-629-12",
+      "mohe-630-01"
+    ],
+    "aliases": [
+      {
+        "zh": "玉门"
+      },
+      {
+        "zh": "小方盘城"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "mohe-630-01",
@@ -327,7 +399,10 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": [],
+    "relatedIds": [
+      "yumen-630-01",
+      "yiwu-630-01"
+    ],
     "importance": 3
   },
   {
@@ -385,7 +460,10 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": [],
+    "relatedIds": [
+      "mohe-630-01",
+      "gaochang-630-02"
+    ],
     "importance": 2
   },
   {
@@ -431,7 +509,24 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "yiwu-630-01",
+      "yanqi-630-04",
+      "kunduz-643-12"
+    ],
+    "aliases": [
+      {
+        "zh": "高昌国"
+      },
+      {
+        "zh": "西州"
+      },
+      {
+        "zh": "吐鲁番",
+        "en": "Turpan"
+      }
+    ],
+    "importance": 3
   },
   {
     "id": "yanqi-630-04",
@@ -476,7 +571,19 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "gaochang-630-02",
+      "kucha-630-06"
+    ],
+    "aliases": [
+      {
+        "zh": "阿耆尼"
+      },
+      {
+        "zh": "Karashahr"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "kucha-630-06",
@@ -521,7 +628,20 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "yanqi-630-04",
+      "lingshan-630-08"
+    ],
+    "aliases": [
+      {
+        "zh": "屈支"
+      },
+      {
+        "zh": "库车",
+        "en": "Kucha"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "lingshan-630-08",
@@ -572,7 +692,11 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "kucha-630-06",
+      "issyk-kul-630-09"
+    ],
+    "importance": 3
   },
   {
     "id": "issyk-kul-630-09",
@@ -626,7 +750,10 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": [],
+    "relatedIds": [
+      "lingshan-630-08",
+      "suyab-630-10"
+    ],
     "importance": 2
   },
   {
@@ -678,7 +805,11 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "issyk-kul-630-09",
+      "talas-630-11"
+    ],
+    "importance": 3
   },
   {
     "id": "talas-630-11",
@@ -735,7 +866,10 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": [],
+    "relatedIds": [
+      "suyab-630-10",
+      "samarkand-630-12"
+    ],
     "importance": 2
   },
   {
@@ -787,7 +921,11 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "talas-630-11",
+      "iron-gate-631-03"
+    ],
+    "importance": 3
   },
   {
     "id": "iron-gate-631-03",
@@ -838,7 +976,11 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "samarkand-630-12",
+      "balkh-631-04"
+    ],
+    "importance": 2
   },
   {
     "id": "balkh-631-04",
@@ -887,7 +1029,16 @@
       "iron-gate-631-03",
       "bamiyan-631-06"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "巴尔赫",
+        "en": "Balkh"
+      },
+      {
+        "zh": "小王舍城"
+      }
+    ]
   },
   {
     "id": "bamiyan-631-06",
@@ -938,7 +1089,11 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "balkh-631-04",
+      "kapisa-631-09"
+    ],
+    "importance": 2
   },
   {
     "id": "kapisa-631-09",
@@ -983,7 +1138,20 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "bamiyan-631-06",
+      "gandhara-631-10"
+    ],
+    "aliases": [
+      {
+        "zh": "迦毕试国"
+      },
+      {
+        "zh": "贝格拉姆",
+        "en": "Bagram"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "gandhara-631-10",
@@ -993,7 +1161,6 @@
       "en": "Gandhara"
     },
     "date": "0631-10-01",
-    "endDate": "0631-10-01",
     "location": {
       "lng": 71.58,
       "lat": 34.02,
@@ -1005,7 +1172,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
       "zh": "玄奘进入健陀罗地区，参访佛教圣迹。",
       "en": "Xuanzang entered Gandhara and visited its Buddhist sites."
@@ -1031,9 +1198,22 @@
     ],
     "relatedIds": [
       "kapisa-631-09",
-      "nalanda-634-01"
+      "taxila-631-11"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "犍陀罗",
+        "en": "Gandhara"
+      },
+      {
+        "zh": "乾陀罗"
+      },
+      {
+        "zh": "白沙瓦",
+        "en": "Peshawar"
+      }
+    ]
   },
   {
     "id": "taxila-631-11",
@@ -1054,7 +1234,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
       "zh": "玄奘到访呾叉始罗，参访佛教寺院与圣迹。",
       "en": "Xuanzang visited Taxila and its Buddhist monasteries and sites."
@@ -1080,9 +1260,15 @@
     ],
     "relatedIds": [
       "gandhara-631-10",
-      "nalanda-634-01"
+      "udyana-631-11"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "塔克西拉",
+        "en": "Taxila"
+      }
+    ]
   },
   {
     "id": "udyana-631-11",
@@ -1103,7 +1289,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
       "zh": "玄奘到访乌仗那，参访佛教圣迹。",
       "en": "Xuanzang visited Udyana and its Buddhist sites."
@@ -1131,7 +1317,16 @@
       "taxila-631-11",
       "kashmir-631-12"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "乌苌"
+      },
+      {
+        "zh": "斯瓦特",
+        "en": "Swat"
+      }
+    ]
   },
   {
     "id": "kashmir-631-12",
@@ -1152,7 +1347,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
       "zh": "玄奘在迦湿弥罗住约两年，学《俱舍论》等经论。",
       "en": "Xuanzang spends about two years in Kashmir studying the Abhidharma and logic."
@@ -1178,13 +1373,22 @@
     ],
     "relatedIds": [
       "udyana-631-11",
-      "taxila-631-11"
+      "chinasthana-633-05"
     ],
     "importance": 2,
     "endDate": "0633-02-28",
     "extensions": {
       "routeEvent": false
-    }
+    },
+    "aliases": [
+      {
+        "zh": "罽宾"
+      },
+      {
+        "zh": "克什米尔",
+        "en": "Kashmir"
+      }
+    ]
   },
   {
     "id": "chinasthana-633-05",
@@ -1238,7 +1442,10 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": [],
+    "relatedIds": [
+      "kashmir-631-12",
+      "jalandhara-633-07"
+    ],
     "importance": 2
   },
   {
@@ -1290,7 +1497,10 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": [],
+    "relatedIds": [
+      "chinasthana-633-05",
+      "mathura-633-09"
+    ],
     "importance": 1
   },
   {
@@ -1312,7 +1522,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
       "zh": "玄奘到访秣兔罗，参访佛教寺院。",
       "en": "Xuanzang visited Mathura and its Buddhist monasteries."
@@ -1337,10 +1547,19 @@
       }
     ],
     "relatedIds": [
-      "sthaneshvara-633-10",
-      "nalanda-634-01"
+      "jalandhara-633-07",
+      "sthaneshvara-633-10"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "摩偷罗"
+      },
+      {
+        "zh": "马图拉",
+        "en": "Mathura"
+      }
+    ]
   },
   {
     "id": "sthaneshvara-633-10",
@@ -1361,7 +1580,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
       "zh": "玄奘到访萨他泥湿伐罗，参访佛教遗址。",
       "en": "Xuanzang visited Sthaneshvara and its Buddhist remains."
@@ -1389,7 +1608,13 @@
       "mathura-633-09",
       "kanauj-633-11"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "塔内萨尔",
+        "en": "Thanesar"
+      }
+    ]
   },
   {
     "id": "kanauj-633-11",
@@ -1416,7 +1641,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "外交",
+    "category": "求法",
     "summary": {
       "zh": "玄奘在曲女城从毗离耶犀那学《佛使毗婆沙》。",
       "en": "At Kanauj Xuanzang studies the Vibhasa under Viryasena."
@@ -1446,7 +1671,11 @@
         "note": "曲女城法会背景参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "sthaneshvara-633-10",
+      "nalanda-634-01"
+    ],
+    "importance": 2
   },
   {
     "id": "nalanda-634-01",
@@ -1473,7 +1702,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
       "zh": "玄奘入那烂陀寺，礼戒贤论师为师，开始五年学习。",
       "en": "Xuanzang enters Nalanda and begins five years of study under Silabhadra."
@@ -1503,7 +1732,11 @@
         "note": "那烂陀与印度佛教背景参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "kanauj-633-11",
+      "nalanda-study-634-02"
+    ],
+    "importance": 2
   },
   {
     "id": "nalanda-study-634-02",
@@ -1558,7 +1791,11 @@
         "note": "年表与游学次第参考"
       }
     ],
-    "relatedIds": [],
+    "relatedIds": [
+      "nalanda-634-01",
+      "magadha-639-02",
+      "kanauj-assembly-643-02"
+    ],
     "importance": 3,
     "endDate": "0638-12-31",
     "extensions": {
@@ -1584,7 +1821,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
       "zh": "玄奘到访摩揭陀，参访菩提伽耶金刚座。",
       "en": "Xuanzang visited Magadha and the Vajrasana at Bodh Gaya."
@@ -1609,10 +1846,23 @@
       }
     ],
     "relatedIds": [
-      "nalanda-634-01",
-      "vaishali-639-07"
+      "nalanda-study-634-02",
+      "rajgir-639-03"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "摩竭提"
+      },
+      {
+        "zh": "菩提伽耶",
+        "en": "Bodh Gaya"
+      },
+      {
+        "zh": "比哈尔",
+        "en": "Bihar"
+      }
+    ]
   },
   {
     "id": "rajgir-639-03",
@@ -1675,7 +1925,10 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": [],
+    "relatedIds": [
+      "magadha-639-02",
+      "varanasi-639-06"
+    ],
     "importance": 3
   },
   {
@@ -1686,7 +1939,6 @@
       "en": "Varanasi"
     },
     "date": "0639-06-01",
-    "endDate": "0639-06-01",
     "location": {
       "lng": 83.0,
       "lat": 25.3,
@@ -1698,7 +1950,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
       "zh": "玄奘到访波罗奈，参访鹿野苑等佛教圣地。",
       "en": "Xuanzang visited Varanasi and sites such as Sarnath."
@@ -1723,10 +1975,26 @@
       }
     ],
     "relatedIds": [
-      "nalanda-634-01",
-      "kanauj-633-11"
+      "rajgir-639-03",
+      "vaishali-639-07"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "婆罗痆斯"
+      },
+      {
+        "zh": "贝拿勒斯"
+      },
+      {
+        "zh": "瓦拉纳西",
+        "en": "Varanasi"
+      },
+      {
+        "zh": "鹿野苑",
+        "en": "Sarnath"
+      }
+    ]
   },
   {
     "id": "vaishali-639-07",
@@ -1747,7 +2015,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
       "zh": "玄奘到访吠舍离，参访佛教圣迹。",
       "en": "Xuanzang visited Vaishali and its Buddhist sites."
@@ -1772,10 +2040,19 @@
       }
     ],
     "relatedIds": [
-      "nalanda-634-01",
+      "varanasi-639-06",
       "kushinagar-639-08"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "毗舍离"
+      },
+      {
+        "zh": "维沙里",
+        "en": "Vaishali"
+      }
+    ]
   },
   {
     "id": "kushinagar-639-08",
@@ -1785,7 +2062,6 @@
       "en": "Kushinagar"
     },
     "date": "0639-08-01",
-    "endDate": "0639-08-01",
     "location": {
       "lng": 83.91,
       "lat": 26.74,
@@ -1797,7 +2073,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
       "zh": "玄奘到访拘尸那迦，参访佛陀涅槃地。",
       "en": "Xuanzang visited Kushinagar, the site of the Buddha’s parinirvana."
@@ -1822,10 +2098,18 @@
       }
     ],
     "relatedIds": [
-      "varanasi-639-06",
-      "kanauj-633-11"
+      "vaishali-639-07",
+      "lumbini-639-08"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "拘尸那揭罗"
+      },
+      {
+        "zh": "Kushinagar"
+      }
+    ]
   },
   {
     "id": "lumbini-639-08",
@@ -1846,7 +2130,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
       "zh": "玄奘到访蓝毗尼，参访佛陀诞生地。",
       "en": "Xuanzang visited Lumbini, the birthplace of the Buddha."
@@ -1872,9 +2156,17 @@
     ],
     "relatedIds": [
       "kushinagar-639-08",
-      "vaishali-639-07"
+      "kapilavastu-639-08"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "腊伐尼"
+      },
+      {
+        "zh": "Lumbini"
+      }
+    ]
   },
   {
     "id": "kapilavastu-639-08",
@@ -1895,7 +2187,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
       "zh": "玄奘到访迦毗罗卫，参访佛陀故里。",
       "en": "Xuanzang visited Kapilavastu, the Buddha’s homeland."
@@ -1921,9 +2213,17 @@
     ],
     "relatedIds": [
       "lumbini-639-08",
-      "ayodhya-639-09"
+      "sravasti-639-09"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "劫比罗伐窣堵"
+      },
+      {
+        "zh": "Kapilavastu"
+      }
+    ]
   },
   {
     "id": "sravasti-639-09",
@@ -1944,7 +2244,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
       "zh": "玄奘到访祇园精舍，参访佛陀说法地。",
       "en": "Xuanzang visited Jetavana, where the Buddha taught."
@@ -1969,10 +2269,21 @@
       }
     ],
     "relatedIds": [
-      "lumbini-639-08",
-      "sankassa-639-10"
+      "kapilavastu-639-08",
+      "ayodhya-639-09"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "舍卫城"
+      },
+      {
+        "zh": "逝多林"
+      },
+      {
+        "zh": "Jetavana"
+      }
+    ]
   },
   {
     "id": "ayodhya-639-09",
@@ -1993,7 +2304,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
       "zh": "玄奘到访阿逾陀，参访佛教寺院。",
       "en": "Xuanzang visited Ayodhya and its Buddhist monasteries."
@@ -2018,10 +2329,16 @@
       }
     ],
     "relatedIds": [
-      "kapilavastu-639-08",
-      "sravasti-639-09"
+      "sravasti-639-09",
+      "sankassa-639-10"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "阿约提亚",
+        "en": "Ayodhya"
+      }
+    ]
   },
   {
     "id": "sankassa-639-10",
@@ -2042,7 +2359,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
       "zh": "玄奘到访僧伽施，参访佛陀降天处。",
       "en": "Xuanzang visited Sankassa, the site of the Buddha’s descent from heaven."
@@ -2067,10 +2384,19 @@
       }
     ],
     "relatedIds": [
-      "sravasti-639-09",
-      "kanauj-633-11"
+      "ayodhya-639-09",
+      "kaushambi-639-10"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "僧伽舍"
+      },
+      {
+        "zh": "桑卡西亚",
+        "en": "Sankassa"
+      }
+    ]
   },
   {
     "id": "kaushambi-639-10",
@@ -2091,7 +2417,7 @@
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
       "zh": "玄奘到访憍赏弥，参访佛教遗址。",
       "en": "Xuanzang visited Kaushambi and its Buddhist remains."
@@ -2117,9 +2443,18 @@
     ],
     "relatedIds": [
       "sankassa-639-10",
-      "sravasti-639-09"
+      "kanauj-assembly-643-02"
     ],
-    "importance": 2
+    "importance": 2,
+    "aliases": [
+      {
+        "zh": "俱睒弥"
+      },
+      {
+        "zh": "科萨姆",
+        "en": "Kaushambi"
+      }
+    ]
   },
   {
     "id": "kanauj-assembly-643-02",
@@ -2176,8 +2511,12 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": [],
-    "importance": 3
+    "relatedIds": [
+      "kaushambi-639-10",
+      "prayaga-643-03"
+    ],
+    "importance": 3,
+    "endDate": "0643-02-18"
   },
   {
     "id": "prayaga-643-03",
@@ -2235,8 +2574,12 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": [],
-    "importance": 3
+    "relatedIds": [
+      "kanauj-assembly-643-02",
+      "return-643-05"
+    ],
+    "importance": 3,
+    "endDate": "0643-05-15"
   },
   {
     "id": "return-643-05",
@@ -2245,7 +2588,7 @@
       "zh": "启程归国",
       "en": "Departure for home"
     },
-    "date": "0643-05-01",
+    "date": "0643-05-20",
     "location": {
       "lng": 81.88,
       "lat": 25.42,
@@ -2281,7 +2624,19 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "prayaga-643-03",
+      "sindhu-643-08"
+    ],
+    "aliases": [
+      {
+        "zh": "辞归"
+      },
+      {
+        "zh": "东归"
+      }
+    ],
+    "importance": 2
   },
   {
     "id": "sindhu-643-08",
@@ -2335,7 +2690,10 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": [],
+    "relatedIds": [
+      "return-643-05",
+      "kunduz-643-12"
+    ],
     "importance": 2
   },
   {
@@ -2387,7 +2745,11 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": [],
+    "relatedIds": [
+      "sindhu-643-08",
+      "tashkurgan-644-01",
+      "gaochang-630-02"
+    ],
     "importance": 2
   },
   {
@@ -2442,7 +2804,10 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": [],
+    "relatedIds": [
+      "kunduz-643-12",
+      "kashgar-644-02"
+    ],
     "importance": 2
   },
   {
@@ -2500,7 +2865,10 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": [],
+    "relatedIds": [
+      "tashkurgan-644-01",
+      "khotan-644-03"
+    ],
     "importance": 2
   },
   {
@@ -2552,7 +2920,12 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "kashgar-644-02",
+      "dunhuang-644-10"
+    ],
+    "importance": 2,
+    "endDate": "0644-08-31"
   },
   {
     "id": "dunhuang-644-10",
@@ -2605,7 +2978,10 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": [],
+    "relatedIds": [
+      "khotan-644-03",
+      "changan-645-01"
+    ],
     "importance": 2
   },
   {
@@ -2657,6 +3033,9 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "dunhuang-644-10"
+    ],
+    "importance": 3
   }
 ]

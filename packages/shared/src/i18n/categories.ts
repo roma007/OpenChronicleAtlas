@@ -21,6 +21,7 @@ const CATEGORY_LABELS: Record<string, CategoryLabel> = {
   技术: { zh: '技术', en: 'Technology' },
   人物: { zh: '人物', en: 'People' },
   宗教: { zh: '宗教', en: 'Religion' },
+  求法: { zh: '求法', en: 'Pilgrimage' },
 };
 
 export function categoryLabel(category: string, locale: Locale): string {
