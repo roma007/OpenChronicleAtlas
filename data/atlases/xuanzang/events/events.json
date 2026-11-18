@@ -2829,6 +2829,67 @@
     ],
     "relatedIds": [
       "return-643-05",
+      "kapisa-copy-643-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kapisa-copy-643-09",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "迦毕试抄经",
+      "en": "Copying Lost Texts at Kapisa"
+    },
+    "aliases": [
+      {
+        "zh": "迦毕试国"
+      },
+      {
+        "zh": "贝格拉姆",
+        "en": "Bagram"
+      },
+      {
+        "zh": "佛顶骨城"
+      }
+    ],
+    "date": "0643-09-20",
+    "location": {
+      "lng": 69.2,
+      "lat": 34.9,
+      "place": {
+        "zh": "迦毕试（今阿富汗贝格拉姆一带）",
+        "en": "Kapisa (Bagram region, Afghanistan)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "失经后驻迦毕试五十余日，遣人往乌仗那抄补经本。",
+      "en": "Xuanzang stays at Kapisa for over fifty days, sending men to Udyana to copy the lost texts."
+    },
+    "description": {
+      "zh": "信度河失经后，玄奘北行至迦毕试，停留五十余日。他遣人携财物往乌仗那国抄写所失经本，同时参访城北的佛顶骨城与诸寺。迦毕试是由印度入中亚的必经之地，玄奘在此整理经像行装，再北越兴都库什山。",
+      "en": "After losing the manuscripts in the Indus, Xuanzang went north to Kapisa and stayed more than fifty days, sending men with funds to Udyana to copy the lost texts while visiting the shrine of the Buddha’s skull-bone and the monasteries around the city, before crossing the Hindu Kush."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "sindhu-643-08",
       "kunduz-643-12"
     ],
     "importance": 2
@@ -2883,9 +2944,70 @@
       }
     ],
     "relatedIds": [
-      "sindhu-643-08",
-      "tashkurgan-644-01",
+      "kapisa-copy-643-09",
+      "pamir-644-01",
       "gaochang-630-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "pamir-644-01",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "波谜罗川",
+      "en": "The Pamir Valleys"
+    },
+    "aliases": [
+      {
+        "zh": "葱岭"
+      },
+      {
+        "zh": "大龙池"
+      },
+      {
+        "zh": "瓦罕",
+        "en": "Wakhan"
+      }
+    ],
+    "date": "0644-01-05",
+    "location": {
+      "lng": 73.6,
+      "lat": 37.45,
+      "place": {
+        "zh": "波谜罗川（今帕米尔高原）",
+        "en": "Pamir highlands"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘越葱岭，经波谜罗川大龙池，冰雪千里。",
+      "en": "Xuanzang crosses the Pamirs past the great dragon lake, through snow and ice."
+    },
+    "description": {
+      "zh": "自活国东行，玄奘翻越葱岭，入波谜罗川。《大唐西域记》卷十二记此川「东西千余里，南北百余里，狭隘之处不逾十里」，川中有大龙池，「东西三百余里，南北五十余里，据大葱岭内，当赡部洲中，其地最高」；一路积雪弥漫，途路难涉。",
+      "en": "East of Kunduz Xuanzang crossed the Pamirs into the high valleys. The Records describes a corridor a thousand li long and a great dragon lake three hundred li across, the highest ground in Jambudvipa, with snow lying on the passes."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "kunduz-643-12",
+      "tashkurgan-644-01"
     ],
     "importance": 2
   },
@@ -2942,7 +3064,7 @@
       }
     ],
     "relatedIds": [
-      "kunduz-643-12",
+      "pamir-644-01",
       "kashgar-644-02"
     ],
     "importance": 2
@@ -3004,9 +3126,67 @@
     ],
     "relatedIds": [
       "tashkurgan-644-01",
-      "khotan-644-03"
+      "chakuka-644-02"
     ],
     "importance": 2
+  },
+  {
+    "id": "chakuka-644-02",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "斫句迦",
+      "en": "Chakuka"
+    },
+    "aliases": [
+      {
+        "zh": "叶城",
+        "en": "Yecheng"
+      },
+      {
+        "zh": "朱俱波"
+      }
+    ],
+    "date": "0644-02-25",
+    "location": {
+      "lng": 77.24,
+      "lat": 37.85,
+      "place": {
+        "zh": "斫句迦（今新疆叶城）",
+        "en": "Chakuka (Yecheng, Xinjiang)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘经斫句迦东行，记其山阜连属、佛塔众多。",
+      "en": "Xuanzang passes Chakuka, a stony land of many stupas, on the way to Khotan."
+    },
+    "description": {
+      "zh": "出疏勒东南行，玄奘经斫句迦。《西域记》卷十二记其「周千余里，国大都城周十余里，山阜连属，砾石弥漫」，国中有罗汉塔与数百僧徒，是塔里木盆地南缘的小国。此后沿山麓东行，抵于阗。",
+      "en": "Southeast of Kashgar Xuanzang passed through Chakuka, which the Records describes as a thousand li around, its capital a dozen li, a land of connected hills and gravel plains with stupas of arhats and several hundred monks."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "kashgar-644-02",
+      "khotan-644-03"
+    ],
+    "importance": 1
   },
   {
     "id": "khotan-644-03",
@@ -3058,11 +3238,123 @@
       }
     ],
     "relatedIds": [
-      "kashgar-644-02",
-      "dunhuang-644-10"
+      "chakuka-644-02",
+      "edict-644-06"
     ],
     "importance": 2,
-    "endDate": "0644-08-31"
+    "endDate": "0644-06-30"
+  },
+  {
+    "id": "edict-644-06",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "太宗敕迎",
+      "en": "Taizong’s Edict of Welcome"
+    },
+    "aliases": [
+      {
+        "zh": "太宗答敕"
+      },
+      {
+        "zh": "于阗上表"
+      }
+    ],
+    "date": "0644-06-15",
+    "location": {
+      "lng": 79.92,
+      "lat": 37.11,
+      "place": {
+        "zh": "于阗（今新疆和田）",
+        "en": "Khotan (Hotan, Xinjiang)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "太宗得于阗上表，敕令沿途迎送，并请玄奘速来相见。",
+      "en": "Taizong answers Xuanzang’s memorial from Khotan and orders an escort along the road."
+    },
+    "description": {
+      "zh": "玄奘在于阗上表后，太宗答敕曰「闻师访道殊域，今得归还，欢喜无量，可即速来，与朕相见」，并令于阗等道诸国护送，沿途供给人力鞍乘。玄奘遂整装东行。",
+      "en": "Replying to Xuanzang’s memorial from Khotan, Emperor Taizong wrote that he rejoiced at the monk’s return and bade him come quickly to court, ordering the states along the road to escort him and supply horses and bearers."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "khotan-644-03",
+      "niya-644-07"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "niya-644-07",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "尼壤",
+      "en": "Niya"
+    },
+    "aliases": [
+      {
+        "zh": "尼壤城"
+      },
+      {
+        "zh": "精绝"
+      },
+      {
+        "zh": "民丰",
+        "en": "Minfeng"
+      }
+    ],
+    "date": "0644-07-01",
+    "location": {
+      "lng": 82.72,
+      "lat": 37.07,
+      "place": {
+        "zh": "尼壤（今新疆民丰一带）",
+        "en": "Niya (Minfeng, Xinjiang)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘经尼壤，过大泽中的古精绝故地。",
+      "en": "Xuanzang passes Niya, a small city in a great marsh on the southern Tarim road."
+    },
+    "description": {
+      "zh": "出于阗东行，玄奘经媲摩，抵尼壤。《西域记》卷十二记「尼壤城周三四里，在大泽中」，泽地湿热难行，是塔里木南道上的要站；再东即折摩驮那故国（且末）、纳缚波故国（若羌）。",
+      "en": "East of Khotan Xuanzang passed Pimo and reached Niya, which the Records describes as a city three or four li around set in a great marsh, a staging point on the southern Tarim road toward Charchlik and Dunhuang."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "edict-644-06",
+      "dunhuang-644-10"
+    ],
+    "importance": 1
   },
   {
     "id": "dunhuang-644-10",
@@ -3116,10 +3408,65 @@
       }
     ],
     "relatedIds": [
-      "khotan-644-03",
-      "changan-645-01"
+      "niya-644-07",
+      "hexi-644-12"
     ],
     "importance": 2
+  },
+  {
+    "id": "hexi-644-12",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "河西归途",
+      "en": "Homeward through the Hexi Corridor"
+    },
+    "aliases": [
+      {
+        "zh": "河西走廊"
+      },
+      {
+        "zh": "凉州"
+      },
+      {
+        "zh": "武威",
+        "en": "Wuwei"
+      }
+    ],
+    "date": "0644-12-01",
+    "location": {
+      "lng": 102.64,
+      "lat": 37.93,
+      "place": {
+        "zh": "凉州（今甘肃武威）",
+        "en": "Liangzhou (Wuwei, Gansu)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘自敦煌东行，经河西走廊州县迎送。",
+      "en": "Xuanzang travels east through the Hexi Corridor, escorted by the prefectures."
+    },
+    "description": {
+      "zh": "玄奘自沙州东行，经瓜州、肃州、甘州、凉州、兰州、秦州，沿途州县承太宗敕令供给人力鞍乘。岁末抵关内，次年正月二十四日入长安。",
+      "en": "From Shazhou Xuanzang travelled east through Guazhou, Suzhou, Ganzhou, Liangzhou, Lanzhou and Qinzhou, supplied by the prefectures under Taizong’s order, reaching Chang’an on the twenty-fourth day of the first month of 645."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "dunhuang-644-10",
+      "changan-645-01"
+    ],
+    "importance": 1
   },
   {
     "id": "changan-645-01",
@@ -3171,7 +3518,7 @@
       }
     ],
     "relatedIds": [
-      "dunhuang-644-10"
+      "hexi-644-12"
     ],
     "importance": 3
   }
