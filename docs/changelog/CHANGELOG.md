@@ -3,6 +3,25 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.107] - 2026-11-17
+
+### Changed
+- 时间轴进度范围改为跟随用户筛选出的路线图层：取选中路线中最早的 `startDate` 与最晚的 `endDate`，不再固定使用专题 `timeRange`。
+- 切换图层后，进度条两端日期、刻度、事件标记、播放范围与日期输入框的 `min` / `max` 同步更新。
+- 当前时间不在新范围时自动夹到起止端点。
+- `extensions.legend = false` 的背景线（如郑和专题的明朝海防线）不参与范围计算；没有可用路线时回退到专题 `timeRange`。
+- Web 与移动端同步。
+
+### Added
+- `routeDateRange` 共享函数与单元测试。
+
+### Docs
+- `docs/plans/2026-11-17-M167-进度条范围跟随路线图层-design.md`
+- `docs/plans/2026-11-17-M167-进度条范围跟随路线图层-plan.md`
+- `docs/conversations/2026-11-17-进度条范围跟随路线图层.md`
+
+---
+
 ## [v1.0.106] - 2026-11-17
 
 ### Added

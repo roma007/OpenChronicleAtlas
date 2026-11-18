@@ -1,4 +1,4 @@
-import type { AtlasTime, DateString } from '../types';
+import type { AtlasRouteFeature, AtlasTime, DateString } from '../types';
 import { DAY_MS, parseDateString, toDateString } from '../time/date';
 import type { Timeline } from './types';
 
@@ -13,6 +13,26 @@ export function createTimeline(range: { start: DateString; end: DateString }): T
     totalMs: end - start,
     totalDays: Math.round((end - start) / DAY_MS),
   };
+}
+
+/**
+ * 当前筛选出的路线图层的最小开始日期与最大结束日期。
+ * 返回 null 表示没有可用路线，调用方应回退到专题自身的 timeRange。
+ */
+export function routeDateRange(
+  routes: AtlasRouteFeature[],
+  isIncluded: (entityId: string) => boolean,
+): { start: DateString; end: DateString } | null {
+  let start: DateString | null = null;
+  let end: DateString | null = null;
+  for (const route of routes) {
+    if (!isIncluded(route.properties.entityId)) continue;
+    const routeStart = route.properties.startDate;
+    const routeEnd = route.properties.endDate;
+    if (start === null || routeStart < start) start = routeStart;
+    if (end === null || routeEnd > end) end = routeEnd;
+  }
+  return start === null || end === null ? null : { start, end };
 }
 
 export function timeToRatio(time: AtlasTime, timeline: Timeline): number {

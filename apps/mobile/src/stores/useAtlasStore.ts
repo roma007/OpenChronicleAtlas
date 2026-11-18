@@ -15,6 +15,7 @@ import {
   isDataVersionNewer,
   normalizeLocale,
   ratioToTime,
+  routeDateRange,
   stepDays as addDays,
 } from '@atlas/shared';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -84,6 +85,27 @@ interface MobileAtlasState {
   applyDataUpdate(): Promise<void>;
 }
 
+/**
+ * 进度条范围跟随用户筛选出的路线图层：
+ * 取这些图层中最早开始日期与最晚结束日期；没有可用路线时回退到专题 timeRange。
+ * 不进入图例的背景线（legend: false，如海防线）不参与范围计算。
+ */
+function timelineForActiveRoutes(
+  dataset: AtlasDataset,
+  activeEntityIds: ReadonlySet<string>,
+): Timeline {
+  const range = routeDateRange(dataset.routes, (entityId) => {
+    if (!activeEntityIds.has(entityId)) return false;
+    const entity = dataset.entitiesById.get(entityId);
+    return entity?.extensions?.legend !== false;
+  });
+  return createTimeline(range ?? dataset.manifest.timeRange);
+}
+
+function clampTimeToTimeline(currentTime: AtlasTime, timeline: Timeline): AtlasTime {
+  return Math.min(timeline.end, Math.max(timeline.start, currentTime));
+}
+
 export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
   index: null,
   dataset: null,
@@ -143,11 +165,14 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
     resetCacheHit();
     try {
       const dataset = await fetchAtlas(atlasId);
-      const timeline = createTimeline(dataset.manifest.timeRange);
+      const activeEntityIds = new Set(
+        dataset.manifest.entities.map((entity) => entity.id),
+      );
+      const timeline = timelineForActiveRoutes(dataset, activeEntityIds);
       set({
         dataset,
         loading: false,
-        activeEntityIds: new Set(dataset.manifest.entities.map((entity) => entity.id)),
+        activeEntityIds,
         timeline,
         currentTime: timeline.start,
         playing: false,
@@ -172,14 +197,27 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
     const valid = new Set(dataset.manifest.entities.map((entity) => entity.id));
     const next = ids.filter((id) => valid.has(id));
     if (next.length === 0) return;
-    set({ activeEntityIds: new Set(next) });
+    const activeEntityIds = new Set(next);
+    const timeline = timelineForActiveRoutes(dataset, activeEntityIds);
+    set({
+      activeEntityIds,
+      timeline,
+      currentTime: clampTimeToTimeline(get().currentTime, timeline),
+    });
   },
 
   toggleEntity(entityId) {
-    const next = new Set(get().activeEntityIds);
-    if (next.has(entityId)) next.delete(entityId);
-    else next.add(entityId);
-    set({ activeEntityIds: next });
+    const dataset = get().dataset;
+    if (!dataset) return;
+    const activeEntityIds = new Set(get().activeEntityIds);
+    if (activeEntityIds.has(entityId)) activeEntityIds.delete(entityId);
+    else activeEntityIds.add(entityId);
+    const timeline = timelineForActiveRoutes(dataset, activeEntityIds);
+    set({
+      activeEntityIds,
+      timeline,
+      currentTime: clampTimeToTimeline(get().currentTime, timeline),
+    });
   },
 
   setLocale(locale) {

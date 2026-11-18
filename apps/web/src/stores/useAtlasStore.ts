@@ -15,6 +15,7 @@ import {
   createTimeline,
   normalizeLocale,
   ratioToTime,
+  routeDateRange,
   stepDays as addDays,
 } from '@atlas/shared';
 import { create } from 'zustand';
@@ -29,6 +30,28 @@ function initialLocale(): Locale {
   } catch {
     return 'zh';
   }
+}
+
+/**
+ * 进度条范围跟随用户筛选出的路线图层：
+ * 取这些图层中最早开始日期与最晚结束日期；没有可用路线时回退到专题 timeRange。
+ * 不进入图例的背景线（legend: false，如海防线）不参与范围计算。
+ */
+function timelineForActiveRoutes(
+  dataset: AtlasDataset,
+  activeEntityIds: ReadonlySet<string>,
+): Timeline {
+  const range = routeDateRange(dataset.routes, (entityId) => {
+    if (!activeEntityIds.has(entityId)) return false;
+    const entity = dataset.entitiesById.get(entityId);
+    return entity?.extensions?.legend !== false;
+  });
+  return createTimeline(range ?? dataset.manifest.timeRange);
+}
+
+/** 切换图层后把当前时间夹到新的进度范围内。 */
+function clampTimeToTimeline(currentTime: AtlasTime, timeline: Timeline): AtlasTime {
+  return Math.min(timeline.end, Math.max(timeline.start, currentTime));
 }
 
 interface ViewRequest {
@@ -158,11 +181,14 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
     });
     try {
       const dataset = await fetchAtlas(atlasId);
-      const timeline = createTimeline(dataset.manifest.timeRange);
+      const activeEntityIds = new Set(
+        dataset.manifest.entities.map((entity) => entity.id),
+      );
+      const timeline = timelineForActiveRoutes(dataset, activeEntityIds);
       set({
         dataset,
         loading: false,
-        activeEntityIds: new Set(dataset.manifest.entities.map((entity) => entity.id)),
+        activeEntityIds,
         preSoloEntityIds: null,
         timeline,
         currentTime: timeline.start,
@@ -183,14 +209,29 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
     const valid = new Set(dataset.manifest.entities.map((entity) => entity.id));
     const next = ids.filter((id) => valid.has(id));
     if (next.length === 0) return;
-    set({ activeEntityIds: new Set(next), preSoloEntityIds: null });
+    const activeEntityIds = new Set(next);
+    const timeline = timelineForActiveRoutes(dataset, activeEntityIds);
+    set({
+      activeEntityIds,
+      timeline,
+      currentTime: clampTimeToTimeline(get().currentTime, timeline),
+      preSoloEntityIds: null,
+    });
   },
 
   toggleEntity(entityId) {
-    const next = new Set(get().activeEntityIds);
-    if (next.has(entityId)) next.delete(entityId);
-    else next.add(entityId);
-    set({ activeEntityIds: next, preSoloEntityIds: null });
+    const dataset = get().dataset;
+    if (!dataset) return;
+    const activeEntityIds = new Set(get().activeEntityIds);
+    if (activeEntityIds.has(entityId)) activeEntityIds.delete(entityId);
+    else activeEntityIds.add(entityId);
+    const timeline = timelineForActiveRoutes(dataset, activeEntityIds);
+    set({
+      activeEntityIds,
+      timeline,
+      currentTime: clampTimeToTimeline(get().currentTime, timeline),
+      preSoloEntityIds: null,
+    });
   },
 
   soloEntity(entityId) {
@@ -199,20 +240,37 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
     if (!dataset.manifest.entities.some((entity) => entity.id === entityId)) return;
     const isSolo = activeEntityIds.size === 1 && activeEntityIds.has(entityId);
     if (isSolo && preSoloEntityIds) {
-      set({ activeEntityIds: new Set(preSoloEntityIds), preSoloEntityIds: null });
+      const next = new Set(preSoloEntityIds);
+      const timeline = timelineForActiveRoutes(dataset, next);
+      set({
+        activeEntityIds: next,
+        timeline,
+        currentTime: clampTimeToTimeline(get().currentTime, timeline),
+        preSoloEntityIds: null,
+      });
       return;
     }
+    const next = new Set([entityId]);
+    const timeline = timelineForActiveRoutes(dataset, next);
     set({
       preSoloEntityIds: new Set(activeEntityIds),
-      activeEntityIds: new Set([entityId]),
+      activeEntityIds: next,
+      timeline,
+      currentTime: clampTimeToTimeline(get().currentTime, timeline),
     });
   },
 
   showAllEntities() {
     const dataset = get().dataset;
     if (!dataset) return;
+    const activeEntityIds = new Set(
+      dataset.manifest.entities.map((entity) => entity.id),
+    );
+    const timeline = timelineForActiveRoutes(dataset, activeEntityIds);
     set({
-      activeEntityIds: new Set(dataset.manifest.entities.map((entity) => entity.id)),
+      activeEntityIds,
+      timeline,
+      currentTime: clampTimeToTimeline(get().currentTime, timeline),
       preSoloEntityIds: null,
     });
   },

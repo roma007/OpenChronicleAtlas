@@ -4,10 +4,30 @@ import {
   clampToTimeline,
   createTimeline,
   ratioToTime,
+  routeDateRange,
   snapToDay,
   stepDays,
   timeToRatio,
 } from '../timeline/core';
+import type { AtlasRouteFeature } from '../types';
+
+function route(
+  entityId: string,
+  startDate: string,
+  endDate: string,
+): AtlasRouteFeature {
+  return {
+    type: 'Feature',
+    geometry: {
+      type: 'LineString',
+      coordinates: [
+        [0, 0],
+        [1, 1],
+      ],
+    },
+    properties: { entityId, startDate, endDate, order: 1 },
+  };
+}
 
 describe('timeline core', () => {
   const timeline = createTimeline({ start: '1934-10-10', end: '1936-10-22' });
@@ -16,6 +36,19 @@ describe('timeline core', () => {
     expect(timeline.totalDays).toBe(743);
     expect(timeline.start).toBe(Date.UTC(1934, 9, 10));
     expect(timeline.end).toBe(Date.UTC(1936, 9, 22));
+  });
+
+  it('按筛选出的路线图层取最小开始与最大结束日期', () => {
+    const routes = [
+      route('a', '1405-07-11', '1407-10-02'),
+      route('b', '1408-10-01', '1409-08-15'),
+      route('c', '1410-01-01', '1411-07-06'),
+    ];
+    expect(routeDateRange(routes, (id) => id === 'a' || id === 'c')).toEqual({
+      start: '1405-07-11',
+      end: '1411-07-06',
+    });
+    expect(routeDateRange(routes, () => false)).toBeNull();
   });
 
   it('比例与时间互转', () => {
