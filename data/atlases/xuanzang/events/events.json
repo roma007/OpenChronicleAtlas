@@ -1794,7 +1794,7 @@
     "relatedIds": [
       "nalanda-634-01",
       "magadha-639-02",
-      "kanauj-assembly-643-02"
+      "nalanda-treatises-642-06"
     ],
     "importance": 3,
     "endDate": "0638-12-31",
@@ -2443,7 +2443,7 @@
     ],
     "relatedIds": [
       "sankassa-639-10",
-      "kanauj-assembly-643-02"
+      "nalanda-treatises-642-06"
     ],
     "importance": 2,
     "aliases": [
@@ -2455,6 +2455,143 @@
         "en": "Kaushambi"
       }
     ]
+  },
+  {
+    "id": "nalanda-treatises-642-06",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "那烂陀著论",
+      "en": "Treatises Composed at Nalanda"
+    },
+    "aliases": [
+      {
+        "zh": "会宗论"
+      },
+      {
+        "zh": "制恶见论"
+      },
+      {
+        "zh": "师子光"
+      },
+      {
+        "zh": "般若毱多"
+      }
+    ],
+    "date": "0642-06-01",
+    "location": {
+      "lng": 85.44,
+      "lat": 25.14,
+      "place": {
+        "zh": "那烂陀寺（今印度比哈尔邦）",
+        "en": "Nalanda Monastery (Bihar, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘在那烂陀著《会宗论》《制恶见论》，破师子光与般若毱多说。",
+      "en": "At Nalanda Xuanzang writes two treatises refuting rival interpretations."
+    },
+    "description": {
+      "zh": "巡礼五印度归来，玄奘在那烂陀寺著《会宗论》三千颂，会通瑜伽与中观，破师子光对《中论》的解读；又著《制恶见论》一千六百颂，驳般若毱多的《破大乘论》。戒日王读到《制恶见论》后大悦，遣使迎请玄奘，遂有曲女城大会。",
+      "en": "Returning from his pilgrimage, Xuanzang composed three thousand verses of the Hui-zong-lun, reconciling Yogacara and Madhyamaka against Simhacandra’s reading of the Madhyamaka, and sixteen hundred verses of the Zhi-e-jian-lun refuting Prajnagupta. King Harsha, delighted by the latter, sent for him — the prelude to the Kanauj assembly."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      },
+      {
+        "title": "《中国佛教人物·玄奘》",
+        "author": "中国佛教协会",
+        "note": "年表与游学次第参考"
+      }
+    ],
+    "relatedIds": [
+      "kaushambi-639-10",
+      "kamarupa-643-01",
+      "nalanda-study-634-02"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "kamarupa-643-01",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "迦摩缕波",
+      "en": "Kamarupa"
+    },
+    "aliases": [
+      {
+        "zh": "迦摩缕波国"
+      },
+      {
+        "zh": "鸠摩罗王"
+      },
+      {
+        "zh": "东印度"
+      },
+      {
+        "zh": "阿萨姆",
+        "en": "Assam"
+      },
+      {
+        "zh": "古瓦哈提",
+        "en": "Guwahati"
+      }
+    ],
+    "date": "0643-01-15",
+    "location": {
+      "lng": 91.75,
+      "lat": 26.18,
+      "place": {
+        "zh": "迦摩缕波（今印度阿萨姆邦）",
+        "en": "Kamarupa (Assam, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "鸠摩罗王遣使迎请，玄奘东行至迦摩缕波。",
+      "en": "King Kumara invites Xuanzang east to Kamarupa."
+    },
+    "description": {
+      "zh": "迦摩缕波在今阿萨姆一带，「周万余里，国大都城周三十余里」，是东印度的大国。国王鸠摩罗遣使迎请玄奘，玄奘初辞，使者以毁那烂陀相胁，遂东行至其国，为王授戒。戒日王闻讯大怒，鸠摩罗王亲自送玄奘西行，二王相会于恒河之滨，同赴曲女城大会。",
+      "en": "Kamarupa, in present-day Assam, was a great kingdom of eastern India. Its king Kumara invited Xuanzang, who at first declined; when envoys threatened to destroy Nalanda he went east and administered the precepts to the king. Harsha was furious at the news, and Kumara personally escorted Xuanzang west, the two kings meeting on the Ganges before the assembly at Kanauj."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "nalanda-treatises-642-06",
+      "kanauj-assembly-643-02"
+    ],
+    "importance": 2
   },
   {
     "id": "kanauj-assembly-643-02",
@@ -2512,7 +2649,7 @@
       }
     ],
     "relatedIds": [
-      "kaushambi-639-10",
+      "kamarupa-643-01",
       "prayaga-643-03"
     ],
     "importance": 3,
