@@ -865,8 +865,8 @@
       "en": "Xuanzang visited Balkh and its Buddhist monasteries."
     },
     "description": {
-      "zh": "631 年，玄奘到访缚喝，参访当地佛教寺院与圣迹。地名采用古今对照，待史料校订。",
-      "en": "In 631, Xuanzang visited Balkh and its Buddhist monasteries and sacred sites. Place names use modern equivalents and await historical review."
+      "zh": "631 年，玄奘到访缚喝，参访当地佛教寺院与圣迹。",
+      "en": "In 631, Xuanzang visited Balkh and its Buddhist monasteries and sacred sites."
     },
     "images": [],
     "sources": [
@@ -1031,7 +1031,7 @@
     ],
     "relatedIds": [
       "kapisa-631-09",
-      "nalanda-632-01"
+      "nalanda-634-01"
     ],
     "importance": 2
   },
@@ -1060,8 +1060,8 @@
       "en": "Xuanzang visited Taxila and its Buddhist monasteries and sites."
     },
     "description": {
-      "zh": "631 年，玄奘到访呾叉始罗，参访当地佛教寺院与圣迹。地名采用古今对照，待史料校订。",
-      "en": "In 631, Xuanzang visited Taxila and its Buddhist monasteries and sacred sites. Place names use modern equivalents and await historical review."
+      "zh": "631 年，玄奘到访呾叉始罗，参访当地佛教寺院与圣迹。",
+      "en": "In 631, Xuanzang visited Taxila and its Buddhist monasteries and sacred sites."
     },
     "images": [],
     "sources": [
@@ -1080,7 +1080,7 @@
     ],
     "relatedIds": [
       "gandhara-631-10",
-      "nalanda-632-01"
+      "nalanda-634-01"
     ],
     "importance": 2
   },
@@ -1109,8 +1109,8 @@
       "en": "Xuanzang visited Udyana and its Buddhist sites."
     },
     "description": {
-      "zh": "631 年，玄奘到访乌仗那，参访当地佛教圣迹。地名采用古今对照，待史料校订。",
-      "en": "In 631, Xuanzang visited Udyana and its Buddhist sites. Place names use modern equivalents and await historical review."
+      "zh": "631 年，玄奘到访乌仗那，参访当地佛教圣迹。",
+      "en": "In 631, Xuanzang visited Udyana and its Buddhist sites."
     },
     "images": [],
     "sources": [
@@ -1154,12 +1154,12 @@
     ],
     "category": "行军",
     "summary": {
-      "zh": "玄奘到访迦湿弥罗，学习佛教经典。",
-      "en": "Xuanzang visited Kashmir and studied Buddhist texts."
+      "zh": "玄奘在迦湿弥罗住约两年，学《俱舍论》等经论。",
+      "en": "Xuanzang spends about two years in Kashmir studying the Abhidharma and logic."
     },
     "description": {
-      "zh": "631 年，玄奘到访迦湿弥罗，学习佛教经典并参访寺院。地名采用古今对照，待史料校订。",
-      "en": "In 631, Xuanzang visited Kashmir, studied Buddhist texts, and visited monasteries. Place names use modern equivalents and await historical review."
+      "zh": "631 年冬，玄奘入迦湿弥罗，住约两年，从僧称法师学《俱舍论》《顺正理论》及因明、声明等，并抄写当地所藏经论。此地是当时说一切有部的重要中心。",
+      "en": "In the winter of 631 Xuanzang entered Kashmir and stayed about two years, studying the Abhidharma-kosa, the Nyayanusara and Buddhist logic under Sanghasena, and copying the texts preserved there."
     },
     "images": [],
     "sources": [
@@ -1180,35 +1180,48 @@
       "udyana-631-11",
       "taxila-631-11"
     ],
-    "importance": 2
+    "importance": 2,
+    "endDate": "0633-02-28",
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
-    "id": "sthaneshvara-631-12",
+    "id": "chinasthana-633-05",
     "atlasId": "xuanzang",
     "name": {
-      "zh": "萨他泥湿伐罗",
-      "en": "Sthaneshvara"
+      "zh": "至那仆底",
+      "en": "Chinasthana"
     },
-    "date": "0631-12-10",
+    "aliases": [
+      {
+        "zh": "汉封"
+      },
+      {
+        "zh": "菲罗兹布尔",
+        "en": "Firozpur"
+      }
+    ],
+    "date": "0633-05-01",
     "location": {
-      "lng": 76.82,
-      "lat": 29.97,
+      "lng": 74.6,
+      "lat": 30.93,
       "place": {
-        "zh": "萨他泥湿伐罗（今印度塔内萨尔）",
-        "en": "Sthaneshvara (modern Thanesar, India)"
+        "zh": "至那仆底（今印度菲罗兹布尔）",
+        "en": "Chinasthana (Firozpur, India)"
       }
     },
     "entityIds": [
       "xuanzang"
     ],
-    "category": "行军",
+    "category": "求法",
     "summary": {
-      "zh": "玄奘到访萨他泥湿伐罗，参访佛教遗址。",
-      "en": "Xuanzang visited Sthaneshvara and its Buddhist remains."
+      "zh": "玄奘至至那仆底，从调伏光学《对法论》《显宗论》。",
+      "en": "Xuanzang studies the Abhidharma at Chinasthana, the land of the Chinese hostage."
     },
     "description": {
-      "zh": "631 年，玄奘到访萨他泥湿伐罗，参访当地佛教遗址。地名采用古今对照，待史料校订。",
-      "en": "In 631, Xuanzang visited Sthaneshvara and its Buddhist remains. Place names use modern equivalents and await historical review."
+      "zh": "至那仆底，唐言「汉封」。相传迦腻色迦王征服东土后，将汉地质子安置于此，因而得名；当地桃称「至那尔」（汉持来），梨称「至那罗阇弗呾逻」（汉王子），国人「深敬东土」。玄奘在此从调伏光法师学《对法论》《显宗论》。",
+      "en": "Chinasthana means “Chinese fief”. Legend holds that King Kaniska settled a Chinese hostage here, and the region’s peaches and pears are still named after the Chinese prince. Xuanzang studied the Abhidharma texts here under Dharmapala’s disciple."
     },
     "images": [],
     "sources": [
@@ -1225,20 +1238,69 @@
         "note": "事件日期与行程参考"
       }
     ],
-    "relatedIds": [
-      "mathura-631-12",
-      "kanauj-633-01"
-    ],
+    "relatedIds": [],
     "importance": 2
   },
   {
-    "id": "mathura-631-12",
+    "id": "jalandhara-633-07",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "阇烂达罗",
+      "en": "Jalandhara"
+    },
+    "aliases": [
+      {
+        "zh": "贾朗达尔",
+        "en": "Jalandhar"
+      }
+    ],
+    "date": "0633-07-01",
+    "location": {
+      "lng": 75.58,
+      "lat": 31.33,
+      "place": {
+        "zh": "阇烂达罗（今印度贾朗达尔）",
+        "en": "Jalandhara (Jalandhar, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘在阇烂达罗从月胄论师学《众事分毗婆沙》。",
+      "en": "At Jalandhara Xuanzang studies the Vibhasa under Candrasena."
+    },
+    "description": {
+      "zh": "阇烂达罗是北印度通往中印度的要冲。玄奘在此从月胄论师学《众事分毗婆沙》，停留约四个月，随后继续东南行，经秣兔罗、萨他泥湿伐罗转向曲女城。",
+      "en": "Jalandhara commanded the road from northern India into the middle country. Xuanzang spent about four months here studying the Vibhasa under Candrasena before continuing southeast."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 1
+  },
+  {
+    "id": "mathura-633-09",
     "atlasId": "xuanzang",
     "name": {
       "zh": "秣兔罗",
       "en": "Mathura"
     },
-    "date": "0631-12-20",
+    "date": "0633-09-01",
     "location": {
       "lng": 77.67,
       "lat": 27.5,
@@ -1256,8 +1318,8 @@
       "en": "Xuanzang visited Mathura and its Buddhist monasteries."
     },
     "description": {
-      "zh": "631 年，玄奘到访秣兔罗，参访当地佛教寺院与圣迹。地名采用古今对照，待史料校订。",
-      "en": "In 631, Xuanzang visited Mathura and its Buddhist monasteries and sacred sites. Place names use modern equivalents and await historical review."
+      "zh": "633 年，玄奘到访秣兔罗，参访当地佛教寺院与圣迹。",
+      "en": "In 633, Xuanzang visited Mathura and its Buddhist monasteries and sacred sites."
     },
     "images": [],
     "sources": [
@@ -1275,31 +1337,25 @@
       }
     ],
     "relatedIds": [
-      "sthaneshvara-631-12",
-      "nalanda-632-01"
+      "sthaneshvara-633-10",
+      "nalanda-634-01"
     ],
     "importance": 2
   },
   {
-    "id": "nalanda-632-01",
+    "id": "sthaneshvara-633-10",
     "atlasId": "xuanzang",
     "name": {
-      "zh": "那烂陀",
-      "en": "Nalanda"
+      "zh": "萨他泥湿伐罗",
+      "en": "Sthaneshvara"
     },
-    "aliases": [
-      {
-        "zh": "那烂陀寺",
-        "en": "Nalanda Monastery"
-      }
-    ],
-    "date": "0632-01-01",
+    "date": "0633-10-01",
     "location": {
-      "lng": 85.44,
-      "lat": 25.14,
+      "lng": 76.82,
+      "lat": 29.97,
       "place": {
-        "zh": "那烂陀",
-        "en": "Nalanda"
+        "zh": "萨他泥湿伐罗（今印度塔内萨尔）",
+        "en": "Sthaneshvara (modern Thanesar, India)"
       }
     },
     "entityIds": [
@@ -1307,63 +1363,12 @@
     ],
     "category": "行军",
     "summary": {
-      "zh": "玄奘入那烂陀寺，师从戒贤。",
-      "en": "Xuanzang enters Nalanda Monastery and studies under Silabhadra."
+      "zh": "玄奘到访萨他泥湿伐罗，参访佛教遗址。",
+      "en": "Xuanzang visited Sthaneshvara and its Buddhist remains."
     },
     "description": {
-      "zh": "玄奘在那烂陀寺学习瑜伽行派经典，成为著名僧人。",
-      "en": "Xuanzang studied Yogacara texts at Nalanda and became a renowned monk."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《大唐西域记》",
-        "author": "玄奘、辩机",
-        "year": 646,
-        "note": "路线与地名参考，坐标为示意简化"
-      },
-      {
-        "title": "《大慈恩寺三藏法师传》",
-        "author": "慧立、彦悰",
-        "year": 688,
-        "note": "事件日期与行程参考"
-      },
-      {
-        "title": "《中国佛教史》",
-        "author": "任继愈",
-        "year": 1985,
-        "note": "那烂陀与印度佛教背景参考"
-      }
-    ],
-    "relatedIds": []
-  },
-  {
-    "id": "magadha-632-02",
-    "atlasId": "xuanzang",
-    "name": {
-      "zh": "摩揭陀",
-      "en": "Magadha"
-    },
-    "date": "0632-02-01",
-    "location": {
-      "lng": 84.99,
-      "lat": 24.7,
-      "place": {
-        "zh": "摩揭陀（今印度菩提伽耶）",
-        "en": "Magadha (modern Bodh Gaya, India)"
-      }
-    },
-    "entityIds": [
-      "xuanzang"
-    ],
-    "category": "行军",
-    "summary": {
-      "zh": "玄奘到访摩揭陀，参访菩提伽耶金刚座。",
-      "en": "Xuanzang visited Magadha and the Vajrasana at Bodh Gaya."
-    },
-    "description": {
-      "zh": "632 年，玄奘到访摩揭陀，参访菩提伽耶金刚座等佛教圣迹。地名采用古今对照，待史料校订。",
-      "en": "In 632, Xuanzang visited Magadha and the Vajrasana at Bodh Gaya, among other Buddhist sites. Place names use modern equivalents and await historical review."
+      "zh": "633 年，玄奘到访萨他泥湿伐罗，参访当地佛教遗址。",
+      "en": "In 633, Xuanzang visited Sthaneshvara and its Buddhist remains."
     },
     "images": [],
     "sources": [
@@ -1381,460 +1386,17 @@
       }
     ],
     "relatedIds": [
-      "nalanda-632-01",
-      "vaishali-632-07"
+      "mathura-633-09",
+      "kanauj-633-11"
     ],
     "importance": 2
   },
   {
-    "id": "varanasi-632-06",
+    "id": "kanauj-633-11",
     "atlasId": "xuanzang",
     "name": {
-      "zh": "波罗奈",
-      "en": "Varanasi"
-    },
-    "date": "0632-06-01",
-    "endDate": "0632-06-01",
-    "location": {
-      "lng": 83.0,
-      "lat": 25.3,
-      "place": {
-        "zh": "波罗奈（今印度瓦拉纳西）",
-        "en": "Varanasi, India"
-      }
-    },
-    "entityIds": [
-      "xuanzang"
-    ],
-    "category": "行军",
-    "summary": {
-      "zh": "玄奘到访波罗奈，参访鹿野苑等佛教圣地。",
-      "en": "Xuanzang visited Varanasi and sites such as Sarnath."
-    },
-    "description": {
-      "zh": "632 年，玄奘到访波罗奈，参访鹿野苑等佛教圣地，记录当地佛教状况。",
-      "en": "In 632, Xuanzang visited Varanasi and such Buddhist sites as Sarnath, recording the local state of Buddhism."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《大唐西域记》",
-        "author": "玄奘、辩机",
-        "year": 646,
-        "note": "路线与地名参考，坐标为示意简化"
-      },
-      {
-        "title": "《大慈恩寺三藏法师传》",
-        "author": "慧立、彦悰",
-        "year": 688,
-        "note": "事件日期与行程参考"
-      }
-    ],
-    "relatedIds": [
-      "nalanda-632-01",
-      "kanauj-633-01"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "vaishali-632-07",
-    "atlasId": "xuanzang",
-    "name": {
-      "zh": "吠舍离",
-      "en": "Vaishali"
-    },
-    "date": "0632-07-01",
-    "location": {
-      "lng": 85.13,
-      "lat": 25.99,
-      "place": {
-        "zh": "吠舍离（今印度比哈尔邦）",
-        "en": "Vaishali (modern Bihar, India)"
-      }
-    },
-    "entityIds": [
-      "xuanzang"
-    ],
-    "category": "行军",
-    "summary": {
-      "zh": "玄奘到访吠舍离，参访佛教圣迹。",
-      "en": "Xuanzang visited Vaishali and its Buddhist sites."
-    },
-    "description": {
-      "zh": "632 年，玄奘到访吠舍离，参访当地佛教圣迹。地名采用古今对照，待史料校订。",
-      "en": "In 632, Xuanzang visited Vaishali and its Buddhist sites. Place names use modern equivalents and await historical review."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《大唐西域记》",
-        "author": "玄奘、辩机",
-        "year": 646,
-        "note": "路线与地名参考，坐标为示意简化"
-      },
-      {
-        "title": "《大慈恩寺三藏法师传》",
-        "author": "慧立、彦悰",
-        "year": 688,
-        "note": "事件日期与行程参考"
-      }
-    ],
-    "relatedIds": [
-      "nalanda-632-01",
-      "kushinagar-632-08"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "kushinagar-632-08",
-    "atlasId": "xuanzang",
-    "name": {
-      "zh": "拘尸那迦",
-      "en": "Kushinagar"
-    },
-    "date": "0632-08-01",
-    "endDate": "0632-08-01",
-    "location": {
-      "lng": 83.91,
-      "lat": 26.74,
-      "place": {
-        "zh": "拘尸那迦（今印度拘尸那迦）",
-        "en": "Kushinagar, India"
-      }
-    },
-    "entityIds": [
-      "xuanzang"
-    ],
-    "category": "行军",
-    "summary": {
-      "zh": "玄奘到访拘尸那迦，参访佛陀涅槃地。",
-      "en": "Xuanzang visited Kushinagar, the site of the Buddha’s parinirvana."
-    },
-    "description": {
-      "zh": "632 年，玄奘到访拘尸那迦，参访佛陀涅槃地及周边寺院。",
-      "en": "In 632, Xuanzang visited Kushinagar, the site of the Buddha’s parinirvana, and nearby monasteries."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《大唐西域记》",
-        "author": "玄奘、辩机",
-        "year": 646,
-        "note": "路线与地名参考，坐标为示意简化"
-      },
-      {
-        "title": "《大慈恩寺三藏法师传》",
-        "author": "慧立、彦悰",
-        "year": 688,
-        "note": "事件日期与行程参考"
-      }
-    ],
-    "relatedIds": [
-      "varanasi-632-06",
-      "kanauj-633-01"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "lumbini-632-08",
-    "atlasId": "xuanzang",
-    "name": {
-      "zh": "蓝毗尼",
-      "en": "Lumbini"
-    },
-    "date": "0632-08-15",
-    "location": {
-      "lng": 83.05,
-      "lat": 27.48,
-      "place": {
-        "zh": "蓝毗尼（今尼泊尔蓝毗尼）",
-        "en": "Lumbini (modern Nepal)"
-      }
-    },
-    "entityIds": [
-      "xuanzang"
-    ],
-    "category": "行军",
-    "summary": {
-      "zh": "玄奘到访蓝毗尼，参访佛陀诞生地。",
-      "en": "Xuanzang visited Lumbini, the birthplace of the Buddha."
-    },
-    "description": {
-      "zh": "632 年，玄奘到访蓝毗尼，参访佛陀诞生地及周边圣迹。地名采用古今对照，待史料校订。",
-      "en": "In 632, Xuanzang visited Lumbini, the birthplace of the Buddha, and nearby sacred sites. Place names use modern equivalents and await historical review."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《大唐西域记》",
-        "author": "玄奘、辩机",
-        "year": 646,
-        "note": "路线与地名参考，坐标为示意简化"
-      },
-      {
-        "title": "《大慈恩寺三藏法师传》",
-        "author": "慧立、彦悰",
-        "year": 688,
-        "note": "事件日期与行程参考"
-      }
-    ],
-    "relatedIds": [
-      "kushinagar-632-08",
-      "vaishali-632-07"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "kapilavastu-632-08",
-    "atlasId": "xuanzang",
-    "name": {
-      "zh": "迦毗罗卫",
-      "en": "Kapilavastu"
-    },
-    "date": "0632-08-20",
-    "location": {
-      "lng": 83.0,
-      "lat": 27.5,
-      "place": {
-        "zh": "迦毗罗卫（今尼泊尔/印度边境）",
-        "en": "Kapilavastu (modern Nepal-India border)"
-      }
-    },
-    "entityIds": [
-      "xuanzang"
-    ],
-    "category": "行军",
-    "summary": {
-      "zh": "玄奘到访迦毗罗卫，参访佛陀故里。",
-      "en": "Xuanzang visited Kapilavastu, the Buddha’s homeland."
-    },
-    "description": {
-      "zh": "632 年，玄奘到访迦毗罗卫，参访佛陀故里及周边圣迹。地名采用古今对照，待史料校订。",
-      "en": "In 632, Xuanzang visited Kapilavastu, the Buddha’s homeland, and nearby sacred sites. Place names use modern equivalents and await historical review."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《大唐西域记》",
-        "author": "玄奘、辩机",
-        "year": 646,
-        "note": "路线与地名参考，坐标为示意简化"
-      },
-      {
-        "title": "《大慈恩寺三藏法师传》",
-        "author": "慧立、彦悰",
-        "year": 688,
-        "note": "事件日期与行程参考"
-      }
-    ],
-    "relatedIds": [
-      "lumbini-632-08",
-      "ayodhya-632-09"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "sravasti-632-09",
-    "atlasId": "xuanzang",
-    "name": {
-      "zh": "祇园精舍",
-      "en": "Jetavana"
-    },
-    "date": "0632-09-01",
-    "location": {
-      "lng": 82.05,
-      "lat": 27.51,
-      "place": {
-        "zh": "祇园精舍（今印度舍卫城）",
-        "en": "Jetavana (modern Sravasti, India)"
-      }
-    },
-    "entityIds": [
-      "xuanzang"
-    ],
-    "category": "行军",
-    "summary": {
-      "zh": "玄奘到访祇园精舍，参访佛陀说法地。",
-      "en": "Xuanzang visited Jetavana, where the Buddha taught."
-    },
-    "description": {
-      "zh": "632 年，玄奘到访祇园精舍，参访佛陀说法地及周边寺院。地名采用古今对照，待史料校订。",
-      "en": "In 632, Xuanzang visited Jetavana, where the Buddha taught, and nearby monasteries. Place names use modern equivalents and await historical review."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《大唐西域记》",
-        "author": "玄奘、辩机",
-        "year": 646,
-        "note": "路线与地名参考，坐标为示意简化"
-      },
-      {
-        "title": "《大慈恩寺三藏法师传》",
-        "author": "慧立、彦悰",
-        "year": 688,
-        "note": "事件日期与行程参考"
-      }
-    ],
-    "relatedIds": [
-      "lumbini-632-08",
-      "sankassa-632-10"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "ayodhya-632-09",
-    "atlasId": "xuanzang",
-    "name": {
-      "zh": "阿逾陀",
-      "en": "Ayodhya"
-    },
-    "date": "0632-09-10",
-    "location": {
-      "lng": 82.2,
-      "lat": 26.8,
-      "place": {
-        "zh": "阿逾陀（今印度阿约提亚）",
-        "en": "Ayodhya (modern India)"
-      }
-    },
-    "entityIds": [
-      "xuanzang"
-    ],
-    "category": "行军",
-    "summary": {
-      "zh": "玄奘到访阿逾陀，参访佛教寺院。",
-      "en": "Xuanzang visited Ayodhya and its Buddhist monasteries."
-    },
-    "description": {
-      "zh": "632 年，玄奘到访阿逾陀，参访当地佛教寺院与圣迹。地名采用古今对照，待史料校订。",
-      "en": "In 632, Xuanzang visited Ayodhya and its Buddhist monasteries and sacred sites. Place names use modern equivalents and await historical review."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《大唐西域记》",
-        "author": "玄奘、辩机",
-        "year": 646,
-        "note": "路线与地名参考，坐标为示意简化"
-      },
-      {
-        "title": "《大慈恩寺三藏法师传》",
-        "author": "慧立、彦悰",
-        "year": 688,
-        "note": "事件日期与行程参考"
-      }
-    ],
-    "relatedIds": [
-      "kapilavastu-632-08",
-      "sravasti-632-09"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "sankassa-632-10",
-    "atlasId": "xuanzang",
-    "name": {
-      "zh": "僧伽施",
-      "en": "Sankassa"
-    },
-    "date": "0632-10-01",
-    "location": {
-      "lng": 79.5,
-      "lat": 27.3,
-      "place": {
-        "zh": "僧伽施（今印度法鲁卡巴德）",
-        "en": "Sankassa (modern Farrukhabad, India)"
-      }
-    },
-    "entityIds": [
-      "xuanzang"
-    ],
-    "category": "行军",
-    "summary": {
-      "zh": "玄奘到访僧伽施，参访佛陀降天处。",
-      "en": "Xuanzang visited Sankassa, the site of the Buddha’s descent from heaven."
-    },
-    "description": {
-      "zh": "632 年，玄奘到访僧伽施，参访佛陀降天处及周边圣迹。地名采用古今对照，待史料校订。",
-      "en": "In 632, Xuanzang visited Sankassa, the site of the Buddha’s descent from heaven, and nearby sacred sites. Place names use modern equivalents and await historical review."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《大唐西域记》",
-        "author": "玄奘、辩机",
-        "year": 646,
-        "note": "路线与地名参考，坐标为示意简化"
-      },
-      {
-        "title": "《大慈恩寺三藏法师传》",
-        "author": "慧立、彦悰",
-        "year": 688,
-        "note": "事件日期与行程参考"
-      }
-    ],
-    "relatedIds": [
-      "sravasti-632-09",
-      "kanauj-633-01"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "kaushambi-632-10",
-    "atlasId": "xuanzang",
-    "name": {
-      "zh": "憍赏弥",
-      "en": "Kaushambi"
-    },
-    "date": "0632-10-10",
-    "location": {
-      "lng": 81.4,
-      "lat": 25.3,
-      "place": {
-        "zh": "憍赏弥（今印度科沙姆）",
-        "en": "Kaushambi (modern India)"
-      }
-    },
-    "entityIds": [
-      "xuanzang"
-    ],
-    "category": "行军",
-    "summary": {
-      "zh": "玄奘到访憍赏弥，参访佛教遗址。",
-      "en": "Xuanzang visited Kaushambi and its Buddhist remains."
-    },
-    "description": {
-      "zh": "632 年，玄奘到访憍赏弥，参访当地佛教遗址。地名采用古今对照，待史料校订。",
-      "en": "In 632, Xuanzang visited Kaushambi and its Buddhist remains. Place names use modern equivalents and await historical review."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《大唐西域记》",
-        "author": "玄奘、辩机",
-        "year": 646,
-        "note": "路线与地名参考，坐标为示意简化"
-      },
-      {
-        "title": "《大慈恩寺三藏法师传》",
-        "author": "慧立、彦悰",
-        "year": 688,
-        "note": "事件日期与行程参考"
-      }
-    ],
-    "relatedIds": [
-      "sankassa-632-10",
-      "sravasti-632-09"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "kanauj-633-01",
-    "atlasId": "xuanzang",
-    "name": {
-      "zh": "曲女城",
-      "en": "Kanauj"
+      "zh": "曲女城从学",
+      "en": "Study at Kanauj"
     },
     "aliases": [
       {
@@ -1842,7 +1404,7 @@
         "en": "Kanauj Assembly"
       }
     ],
-    "date": "0633-01-01",
+    "date": "0633-11-01",
     "location": {
       "lng": 79.9,
       "lat": 27,
@@ -1856,12 +1418,12 @@
     ],
     "category": "外交",
     "summary": {
-      "zh": "曲女城法会，玄奘声名远播。",
-      "en": "At the Kanauj assembly, Xuanzang’s reputation spreads."
+      "zh": "玄奘在曲女城从毗离耶犀那学《佛使毗婆沙》。",
+      "en": "At Kanauj Xuanzang studies the Vibhasa under Viryasena."
     },
     "description": {
-      "zh": "戒日王在曲女城举行法会，玄奘参与论辩，声名远播。",
-      "en": "King Harsha held a great assembly at Kanauj, where Xuanzang took part in debates and won wide renown."
+      "zh": "633 年秋，玄奘在曲女城从毗离耶犀那三藏学《佛使毗婆沙》《日胄毗婆沙》，停留约三个月，随后南下那烂陀。",
+      "en": "In the autumn of 633 Xuanzang studied the Vibhasa texts under Viryasena at Kanauj for about three months before going south to Nalanda."
     },
     "images": [],
     "sources": [
@@ -1887,13 +1449,19 @@
     "relatedIds": []
   },
   {
-    "id": "return-635-01",
+    "id": "nalanda-634-01",
     "atlasId": "xuanzang",
     "name": {
-      "zh": "启程归国",
-      "en": "Departure for home"
+      "zh": "那烂陀",
+      "en": "Nalanda"
     },
-    "date": "0635-01-01",
+    "aliases": [
+      {
+        "zh": "那烂陀寺",
+        "en": "Nalanda Monastery"
+      }
+    ],
+    "date": "0634-01-01",
     "location": {
       "lng": 85.44,
       "lat": 25.14,
@@ -1907,12 +1475,796 @@
     ],
     "category": "行军",
     "summary": {
-      "zh": "玄奘从那烂陀启程归国。",
-      "en": "Xuanzang sets out from Nalanda for China."
+      "zh": "玄奘入那烂陀寺，礼戒贤论师为师，开始五年学习。",
+      "en": "Xuanzang enters Nalanda and begins five years of study under Silabhadra."
     },
     "description": {
-      "zh": "635 年，玄奘携带大量佛经与佛像，踏上归途。",
-      "en": "In 635, Xuanzang began his return journey with a large collection of scriptures and Buddhist images."
+      "zh": "634 年，玄奘入那烂陀寺，礼戒贤论师为师。那烂陀是当时印度最高的佛教学府，僧徒数千，每日讲座百余所。入学年份有 633、634 诸说，本专题取 634 年，属研究推定。",
+      "en": "In 634 Xuanzang entered Nalanda and became a disciple of Silabhadra. Nalanda was the foremost Buddhist university of India, with thousands of monks and a hundred lectures a day. The year of entry is given as 633 or 634; this atlas adopts 634."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      },
+      {
+        "title": "《中国佛教史》",
+        "author": "任继愈",
+        "year": 1985,
+        "note": "那烂陀与印度佛教背景参考"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "nalanda-study-634-02",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "那烂陀求学",
+      "en": "Studies at Nalanda"
+    },
+    "aliases": [
+      {
+        "zh": "那烂陀寺"
+      }
+    ],
+    "date": "0634-02-01",
+    "location": {
+      "lng": 85.44,
+      "lat": 25.14,
+      "place": {
+        "zh": "那烂陀寺（今印度比哈尔邦）",
+        "en": "Nalanda Monastery (Bihar, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘在那烂陀寺从戒贤学《瑜伽师地论》五年，被推为通三藏「十德」之一。",
+      "en": "Xuanzang studies the Yogacarabhumi under Silabhadra for five years at Nalanda."
+    },
+    "description": {
+      "zh": "玄奘在那烂陀寺师从戒贤论师，学《瑜伽师地论》，兼习《显扬圣教论》《对法论》等，前后约五年。寺中僧徒数千，戒律严整，每日百余讲座。玄奘因通晓三藏，被推为「十德」之一，为寺众讲《摄大乘论》《唯识抉择论》，并著《会宗论》《制恶见论》回应师子光、般若毱多诸说。",
+      "en": "At Nalanda Xuanzang studied the Yogacarabhumi under Silabhadra for about five years, along with other Yogacara and Abhidharma texts. Recognised as one of the ten masters versed in the three baskets, he lectured to the assembly and composed works defending the Yogacara school against rival interpretations."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      },
+      {
+        "title": "《中国佛教人物·玄奘》",
+        "author": "中国佛教协会",
+        "note": "年表与游学次第参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "endDate": "0638-12-31",
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "magadha-639-02",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "摩揭陀",
+      "en": "Magadha"
+    },
+    "date": "0639-02-01",
+    "location": {
+      "lng": 84.99,
+      "lat": 24.7,
+      "place": {
+        "zh": "摩揭陀（今印度菩提伽耶）",
+        "en": "Magadha (modern Bodh Gaya, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访摩揭陀，参访菩提伽耶金刚座。",
+      "en": "Xuanzang visited Magadha and the Vajrasana at Bodh Gaya."
+    },
+    "description": {
+      "zh": "639 年，玄奘到访摩揭陀，参访菩提伽耶金刚座等佛教圣迹。",
+      "en": "In 639, Xuanzang visited Magadha and the Vajrasana at Bodh Gaya, among other Buddhist sites."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "nalanda-634-01",
+      "vaishali-639-07"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "rajgir-639-03",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "王舍城",
+      "en": "Rajgir"
+    },
+    "aliases": [
+      {
+        "zh": "罗阅祇"
+      },
+      {
+        "zh": "灵鹫山"
+      },
+      {
+        "zh": "耆阇崛山"
+      },
+      {
+        "zh": "竹林精舍"
+      },
+      {
+        "zh": "拉杰吉尔",
+        "en": "Rajgir"
+      }
+    ],
+    "date": "0639-03-01",
+    "location": {
+      "lng": 85.42,
+      "lat": 25.03,
+      "place": {
+        "zh": "王舍城（今印度拉杰吉尔）",
+        "en": "Rajgir (Bihar, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘巡礼王舍城，登灵鹫山，访竹林精舍与第一次结集处。",
+      "en": "Xuanzang visits Rajgir, climbs Vulture Peak and sees the first council site."
+    },
+    "description": {
+      "zh": "王舍城是摩揭陀国旧都，佛陀一生多处说法地。玄奘登灵鹫山（耆阇崛山），访竹林精舍、迦兰陀池，以及佛灭后第一次结集的七叶窟。《大唐西域记》卷九记此城「外郭已坏，无复遗堵」，与那烂陀仅数十里之遥。",
+      "en": "Rajgir, the old capital of Magadha, was a favourite preaching ground of the Buddha. Xuanzang climbed Vulture Peak, visited the Bamboo Grove and the Sattapanni cave where the first council was held, and recorded that the city’s outer walls were already in ruins."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "varanasi-639-06",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "波罗奈",
+      "en": "Varanasi"
+    },
+    "date": "0639-06-01",
+    "endDate": "0639-06-01",
+    "location": {
+      "lng": 83.0,
+      "lat": 25.3,
+      "place": {
+        "zh": "波罗奈（今印度瓦拉纳西）",
+        "en": "Varanasi, India"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访波罗奈，参访鹿野苑等佛教圣地。",
+      "en": "Xuanzang visited Varanasi and sites such as Sarnath."
+    },
+    "description": {
+      "zh": "639 年，玄奘到访波罗奈，参访鹿野苑等佛教圣地，记录当地佛教状况。",
+      "en": "In 639, Xuanzang visited Varanasi and such Buddhist sites as Sarnath, recording the local state of Buddhism."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "nalanda-634-01",
+      "kanauj-633-11"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "vaishali-639-07",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "吠舍离",
+      "en": "Vaishali"
+    },
+    "date": "0639-07-01",
+    "location": {
+      "lng": 85.13,
+      "lat": 25.99,
+      "place": {
+        "zh": "吠舍离（今印度比哈尔邦）",
+        "en": "Vaishali (modern Bihar, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访吠舍离，参访佛教圣迹。",
+      "en": "Xuanzang visited Vaishali and its Buddhist sites."
+    },
+    "description": {
+      "zh": "639 年，玄奘到访吠舍离，参访当地佛教圣迹。",
+      "en": "In 639, Xuanzang visited Vaishali and its Buddhist sites."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "nalanda-634-01",
+      "kushinagar-639-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kushinagar-639-08",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "拘尸那迦",
+      "en": "Kushinagar"
+    },
+    "date": "0639-08-01",
+    "endDate": "0639-08-01",
+    "location": {
+      "lng": 83.91,
+      "lat": 26.74,
+      "place": {
+        "zh": "拘尸那迦（今印度拘尸那迦）",
+        "en": "Kushinagar, India"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访拘尸那迦，参访佛陀涅槃地。",
+      "en": "Xuanzang visited Kushinagar, the site of the Buddha’s parinirvana."
+    },
+    "description": {
+      "zh": "639 年，玄奘到访拘尸那迦，参访佛陀涅槃地及周边寺院。",
+      "en": "In 639, Xuanzang visited Kushinagar, the site of the Buddha’s parinirvana, and nearby monasteries."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "varanasi-639-06",
+      "kanauj-633-11"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lumbini-639-08",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "蓝毗尼",
+      "en": "Lumbini"
+    },
+    "date": "0639-08-15",
+    "location": {
+      "lng": 83.05,
+      "lat": 27.48,
+      "place": {
+        "zh": "蓝毗尼（今尼泊尔蓝毗尼）",
+        "en": "Lumbini (modern Nepal)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访蓝毗尼，参访佛陀诞生地。",
+      "en": "Xuanzang visited Lumbini, the birthplace of the Buddha."
+    },
+    "description": {
+      "zh": "639 年，玄奘到访蓝毗尼，参访佛陀诞生地及周边圣迹。",
+      "en": "In 639, Xuanzang visited Lumbini, the birthplace of the Buddha, and nearby sacred sites."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "kushinagar-639-08",
+      "vaishali-639-07"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kapilavastu-639-08",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "迦毗罗卫",
+      "en": "Kapilavastu"
+    },
+    "date": "0639-08-20",
+    "location": {
+      "lng": 83.0,
+      "lat": 27.5,
+      "place": {
+        "zh": "迦毗罗卫（今尼泊尔/印度边境）",
+        "en": "Kapilavastu (modern Nepal-India border)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访迦毗罗卫，参访佛陀故里。",
+      "en": "Xuanzang visited Kapilavastu, the Buddha’s homeland."
+    },
+    "description": {
+      "zh": "639 年，玄奘到访迦毗罗卫，参访佛陀故里及周边圣迹。",
+      "en": "In 639, Xuanzang visited Kapilavastu, the Buddha’s homeland, and nearby sacred sites."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "lumbini-639-08",
+      "ayodhya-639-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sravasti-639-09",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "祇园精舍",
+      "en": "Jetavana"
+    },
+    "date": "0639-09-01",
+    "location": {
+      "lng": 82.05,
+      "lat": 27.51,
+      "place": {
+        "zh": "祇园精舍（今印度舍卫城）",
+        "en": "Jetavana (modern Sravasti, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访祇园精舍，参访佛陀说法地。",
+      "en": "Xuanzang visited Jetavana, where the Buddha taught."
+    },
+    "description": {
+      "zh": "639 年，玄奘到访祇园精舍，参访佛陀说法地及周边寺院。",
+      "en": "In 639, Xuanzang visited Jetavana, where the Buddha taught, and nearby monasteries."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "lumbini-639-08",
+      "sankassa-639-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ayodhya-639-09",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "阿逾陀",
+      "en": "Ayodhya"
+    },
+    "date": "0639-09-10",
+    "location": {
+      "lng": 82.2,
+      "lat": 26.8,
+      "place": {
+        "zh": "阿逾陀（今印度阿约提亚）",
+        "en": "Ayodhya (modern India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访阿逾陀，参访佛教寺院。",
+      "en": "Xuanzang visited Ayodhya and its Buddhist monasteries."
+    },
+    "description": {
+      "zh": "639 年，玄奘到访阿逾陀，参访当地佛教寺院与圣迹。",
+      "en": "In 639, Xuanzang visited Ayodhya and its Buddhist monasteries and sacred sites."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "kapilavastu-639-08",
+      "sravasti-639-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sankassa-639-10",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "僧伽施",
+      "en": "Sankassa"
+    },
+    "date": "0639-10-01",
+    "location": {
+      "lng": 79.5,
+      "lat": 27.3,
+      "place": {
+        "zh": "僧伽施（今印度法鲁卡巴德）",
+        "en": "Sankassa (modern Farrukhabad, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访僧伽施，参访佛陀降天处。",
+      "en": "Xuanzang visited Sankassa, the site of the Buddha’s descent from heaven."
+    },
+    "description": {
+      "zh": "639 年，玄奘到访僧伽施，参访佛陀降天处及周边圣迹。",
+      "en": "In 639, Xuanzang visited Sankassa, the site of the Buddha’s descent from heaven, and nearby sacred sites."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "sravasti-639-09",
+      "kanauj-633-11"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kaushambi-639-10",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "憍赏弥",
+      "en": "Kaushambi"
+    },
+    "date": "0639-10-10",
+    "location": {
+      "lng": 81.4,
+      "lat": 25.3,
+      "place": {
+        "zh": "憍赏弥（今印度科沙姆）",
+        "en": "Kaushambi (modern India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘到访憍赏弥，参访佛教遗址。",
+      "en": "Xuanzang visited Kaushambi and its Buddhist remains."
+    },
+    "description": {
+      "zh": "639 年，玄奘到访憍赏弥，参访当地佛教遗址。",
+      "en": "In 639, Xuanzang visited Kaushambi and its Buddhist remains."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "sankassa-639-10",
+      "sravasti-639-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kanauj-assembly-643-02",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "曲女城大会",
+      "en": "Assembly at Kanauj"
+    },
+    "aliases": [
+      {
+        "zh": "羯若鞠阇"
+      },
+      {
+        "zh": "卡瑙季",
+        "en": "Kannauj"
+      },
+      {
+        "zh": "曲女城法会"
+      }
+    ],
+    "date": "0643-02-01",
+    "location": {
+      "lng": 79.9,
+      "lat": 27.0,
+      "place": {
+        "zh": "曲女城（今印度卡瑙季）",
+        "en": "Kanauj (Kannauj, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "戒日王在曲女城设大会，玄奘为论主，十八日无人能破。",
+      "en": "King Harsha holds a great assembly at Kanauj where Xuanzang defeats all challengers."
+    },
+    "description": {
+      "zh": "戒日王为玄奘在曲女城设大法会，十八国国王、三千余僧、二千外道列席。玄奘为论主，立「真唯识量」，声明若有一字可破便斩首相谢。十八日无人发论，大乘众尊之为「大乘天」，小乘众尊之为「解脱天」。大会年份有 641、642、643 诸说，本专题取 643 年，属研究推定。",
+      "en": "King Harsha convened a great assembly at Kanauj with eighteen kings, three thousand monks and two thousand non-Buddhists. Xuanzang, as defender, set forth his thesis and offered his head if anyone could refute a single word. For eighteen days no one challenged him, and he was hailed as “Mahayanadeva” and “Moksadeva”. The year is disputed (641/642/643); this atlas adopts 643."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "prayaga-643-03",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "钵罗耶伽无遮大会",
+      "en": "Great Assembly at Prayaga"
+    },
+    "aliases": [
+      {
+        "zh": "钵逻耶伽"
+      },
+      {
+        "zh": "阿拉哈巴德",
+        "en": "Allahabad"
+      },
+      {
+        "zh": "普拉亚格拉吉",
+        "en": "Prayagraj"
+      }
+    ],
+    "date": "0643-03-01",
+    "location": {
+      "lng": 81.88,
+      "lat": 25.42,
+      "place": {
+        "zh": "钵罗耶伽（今印度普拉亚格拉吉）",
+        "en": "Prayaga (Prayagraj, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "戒日王在钵罗耶伽举行五年一度的无遮大会，会后玄奘辞归。",
+      "en": "Harsha holds the quinquennial assembly at Prayaga, after which Xuanzang takes his leave."
+    },
+    "description": {
+      "zh": "曲女城大会后，戒日王移驾钵罗耶伽，举行五年一度的无遮大会，历时七十五日，道俗五十余万人赴会，王与群臣倾库施僧。会毕，玄奘再三请归，戒日王与鸠摩罗王挽留不成，遂赠大象、金钱与经像，遣使护送。",
+      "en": "After Kanauj the king moved to Prayaga for the quinquennial assembly, which lasted seventy-five days and drew more than half a million people; the king and his ministers emptied the treasury in almsgiving. When it ended, Xuanzang asked leave to return and could not be dissuaded."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "return-643-05",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "启程归国",
+      "en": "Departure for home"
+    },
+    "date": "0643-05-01",
+    "location": {
+      "lng": 81.88,
+      "lat": 25.42,
+      "place": {
+        "zh": "钵罗耶伽（今印度普拉亚格拉吉）",
+        "en": "Prayaga (Prayagraj, India)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘辞别戒日王，自钵罗耶伽启程归国。",
+      "en": "Xuanzang takes leave of King Harsha and sets out for home from Prayaga."
+    },
+    "description": {
+      "zh": "643 年夏，玄奘在钵罗耶伽无遮大会后辞别戒日王，携六百五十七部梵本佛经与佛像启程归国。戒日王遣使护送，玄奘北行经憍赏弥、呾叉始罗，渡信度河，越兴都库什山。",
+      "en": "In the summer of 643, after the great assembly at Prayaga, Xuanzang took leave of King Harsha and started home with 657 Sanskrit texts and Buddhist images, escorted by the king’s envoys."
     },
     "images": [],
     "sources": [
@@ -1932,7 +2284,227 @@
     "relatedIds": []
   },
   {
-    "id": "khotan-643-01",
+    "id": "sindhu-643-08",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "信度河失经",
+      "en": "Loss of the Scriptures in the Indus"
+    },
+    "aliases": [
+      {
+        "zh": "印度河",
+        "en": "Indus"
+      },
+      {
+        "zh": "呾叉始罗"
+      }
+    ],
+    "date": "0643-08-01",
+    "location": {
+      "lng": 72.25,
+      "lat": 33.77,
+      "place": {
+        "zh": "信度河（今印度河）",
+        "en": "Indus River"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘渡信度河遇风浪，五十夹经本与花种落水。",
+      "en": "Xuanzang’s boat capsizes in the Indus and fifty bundles of scriptures are lost."
+    },
+    "description": {
+      "zh": "玄奘归途经呾叉始罗，渡信度河时遇风浪，船身倾覆，五十夹经本与从印度携来的花种尽数落水。他在迦毕试停留五十余日，遣人往乌仗那抄补所失经本。这是《西游记》「通天河湿经」的原型之一。",
+      "en": "On his homeward road, crossing the Indus near Taxila, Xuanzang’s boat was caught by a squall and capsized; fifty bundles of manuscripts and the flower seeds he was carrying were lost. He stayed more than fifty days at Kapisa while messengers went to Udyana to copy the missing texts."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "kunduz-643-12",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "活国",
+      "en": "Kunduz"
+    },
+    "aliases": [
+      {
+        "zh": "昆都士",
+        "en": "Kunduz"
+      }
+    ],
+    "date": "0643-12-01",
+    "location": {
+      "lng": 68.86,
+      "lat": 36.73,
+      "place": {
+        "zh": "活国（今阿富汗昆都士）",
+        "en": "Kunduz (Afghanistan)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘归途抵活国，闻高昌已灭，改走天山南道。",
+      "en": "At Kunduz Xuanzang learns that Gaochang has fallen and changes his route."
+    },
+    "description": {
+      "zh": "玄奘北越兴都库什山，抵活国。此地原为突厥叶护可汗长子呾度设所居，其子继位后迎玄奘供养。玄奘在此闻知高昌王麴文泰已于 640 年去世、高昌已为唐所灭，遂放弃当年「归途留住高昌三年」之约，改由葱岭走天山南道归国。",
+      "en": "Crossing the Hindu Kush northward, Xuanzang reached Kunduz, where the son of the Turkic chief received him. There he learned that King Qu Wentai of Gaochang had died in 640 and that Gaochang had been annexed by the Tang, so he gave up his promise to spend three years there and took the southern Tianshan road instead."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "tashkurgan-644-01",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "朅盘陀",
+      "en": "Kashgar’s Pamir state"
+    },
+    "aliases": [
+      {
+        "zh": "塔什库尔干",
+        "en": "Tashkurgan"
+      },
+      {
+        "zh": "公主堡"
+      }
+    ],
+    "date": "0644-01-15",
+    "location": {
+      "lng": 75.23,
+      "lat": 37.77,
+      "place": {
+        "zh": "朅盘陀（今新疆塔什库尔干）",
+        "en": "Tashkurgan (Xinjiang)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘越葱岭、波谜罗川，抵朅盘陀。",
+      "en": "Xuanzang crosses the Pamirs and reaches Tashkurgan."
+    },
+    "description": {
+      "zh": "玄奘自活国东行，越葱岭、经波谜罗川，抵朅盘陀。《大唐西域记》记其「国大都城依峻岭」，并载建国传说：汉公主远嫁波利剌斯，途遇兵乱，避于孤峰，与日神感而生子，遂王此地，故国王自称「汉日天种」。",
+      "en": "Traveling east from Kunduz, Xuanzang crossed the Pamirs and the Wakhan valley to Tashkurgan. The Records of the Western Regions describes its capital perched on a steep ridge and records the founding legend of a Chinese princess who took refuge on the peak and bore a son of the sun, from whom its kings claimed descent."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "kashgar-644-02",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "佉沙（疏勒）",
+      "en": "Kashgar"
+    },
+    "aliases": [
+      {
+        "zh": "疏勒"
+      },
+      {
+        "zh": "喀什",
+        "en": "Kashgar"
+      },
+      {
+        "zh": "喀什噶尔"
+      }
+    ],
+    "date": "0644-02-15",
+    "location": {
+      "lng": 75.99,
+      "lat": 39.47,
+      "place": {
+        "zh": "佉沙（今新疆喀什）",
+        "en": "Kashgar (Xinjiang)"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "玄奘出葱岭抵佉沙，沿塔里木盆地南缘东行。",
+      "en": "Xuanzang comes down from the Pamirs to Kashgar and turns east along the southern Tarim."
+    },
+    "description": {
+      "zh": "出葱岭后，玄奘抵佉沙。《大唐西域记》记此地「人性犷暴，俗多诡诈，不甚崇信佛法」，与于阗的崇佛形成对照。此后沿塔里木盆地南缘，经斫句迦至于阗。",
+      "en": "Descending from the Pamirs, Xuanzang reached Kashgar, which the Records describes as a fierce and little-Buddhist land, in contrast with devout Khotan. From there he followed the southern edge of the Tarim basin eastward."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "khotan-644-03",
     "atlasId": "xuanzang",
     "name": {
       "zh": "于阗",
@@ -1944,7 +2516,7 @@
         "en": "Khotan"
       }
     ],
-    "date": "0643-01-01",
+    "date": "0644-03-01",
     "location": {
       "lng": 79.92,
       "lat": 37.11,
@@ -1958,12 +2530,12 @@
     ],
     "category": "行军",
     "summary": {
-      "zh": "玄奘抵达于阗，等待朝廷准许归国。",
-      "en": "Xuanzang reaches Khotan and waits for permission to return."
+      "zh": "玄奘抵于阗，上表太宗，等待归国敕命。",
+      "en": "Xuanzang reaches Khotan and waits for the emperor’s permission to return."
     },
     "description": {
-      "zh": "玄奘经帕米尔高原抵达于阗，上表请求归国。",
-      "en": "Xuanzang crossed the Pamirs to Khotan and sent a memorial requesting permission to return to China."
+      "zh": "644 年春，玄奘沿塔里木盆地南缘抵于阗。因前路须待朝廷准许，他在此停留数月，上表报告携经归国，并应于阗王请求讲《瑜伽师地论》。",
+      "en": "In the spring of 644 Xuanzang reached Khotan along the southern Tarim route. He stayed several months while awaiting the court’s permission, sending a memorial and teaching the Yogacarabhumi at the king’s request."
     },
     "images": [],
     "sources": [
