@@ -15,8 +15,8 @@
   },
   "cover": "assets/cover-67cdb1cf.jpg",
   "description": {
-    "zh": "1405 年至 1433 年，明朝郑和率船队七次远航，经东南亚、印度洋到达波斯湾与非洲东岸。\n\n> 本数据为 M10 示例数据：航线为示意简化，事件与航线时间已抽查，仍待史料校订。疆域面来自 Seshat Cliopatria（CC BY 4.0）；满剌加、古里、忽鲁谟斯等小国与古吉拉特为示意补绘，所有边界均为学术估算，非精确国界。",
-    "en": "From 1405 to 1433, Zheng He led the Ming treasure fleet on seven voyages across Southeast Asia and the Indian Ocean to the Persian Gulf and the east coast of Africa.\n\n> M10 illustrative data: routes are simplified; event and route timing has been spot-checked and still awaits historical review. Territory polygons come from Seshat Cliopatria (CC BY 4.0); Malacca, Calicut, Hormuz and other small polities, as well as Gujarat, are schematic additions. All boundaries are scholarly estimates, not precise state borders."
+    "zh": "1405 年至 1433 年，明朝郑和率船队七次远航，经东南亚、印度洋到达波斯湾与非洲东岸。\n\n> 事件依据《明史·郑和传》《瀛涯胜览》《星槎胜览》《郑和航海图》等整理，具体日份为研究推定；航线为示意简化。疆域面来自 Seshat Cliopatria（CC BY 4.0）；满剌加、古里、忽鲁谟斯等小国与古吉拉特为示意补绘，所有边界均为学术估算，非精确国界。",
+    "en": "From 1405 to 1433, Zheng He led the Ming treasure fleet on seven voyages across Southeast Asia and the Indian Ocean to the Persian Gulf and the east coast of Africa.\n\n> Events are compiled from the History of Ming, Yingya Shenglan, Xingcha Shenglan, the Zheng He Nautical Chart and related sources; exact days are scholarly estimates and the routes are simplified. Territory polygons come from Seshat Cliopatria (CC BY 4.0); Malacca, Calicut, Hormuz and other small polities, as well as Gujarat, are schematic additions. All boundaries are scholarly estimates, not precise state borders."
   },
   "defaultView": {
     "center": [
@@ -44,8 +44,8 @@
       "color": "#123f5e",
       "order": 1,
       "description": {
-        "zh": "1405—1407：自太仓经占城、爪哇、满剌加、锡兰山至古里，返航太仓。",
-        "en": "1405–1407: from Taicang via Champa, Java, Malacca and Ceylon to Calicut, then back to Taicang."
+        "zh": "1405—1407：自太仓经长乐、占城、满剌加、旧港、爪哇、苏门答剌、锡兰山至古里，返航太仓。",
+        "en": "1405–1407: from Taicang via Changle, Champa, Malacca, Palembang, Java, Samudera and Ceylon to Calicut, then back to Taicang."
       }
     },
     {
@@ -57,8 +57,8 @@
       "color": "#17506f",
       "order": 2,
       "description": {
-        "zh": "1408—1409：自太仓经满剌加至锡兰山，返航太仓。",
-        "en": "1408–1409: from Taicang via Malacca to Ceylon, then back to Taicang."
+        "zh": "1408—1409：自太仓经长乐、占城、暹罗、满剌加、苏门答剌至锡兰山，再抵柯枝、古里，返航太仓。",
+        "en": "1408–1409: from Taicang via Changle, Champa, Siam, Malacca and Samudera to Ceylon, then to Cochin and Calicut, back to Taicang."
       }
     },
     {
@@ -70,8 +70,8 @@
       "color": "#1f5f8b",
       "order": 3,
       "description": {
-        "zh": "1410—1411：自太仓至满剌加，再访满剌加后返航。",
-        "en": "1410–1411: from Taicang to Malacca, visiting Malacca again before returning."
+        "zh": "1410—1411：自太仓经长乐、占城、满剌加、苏门答剌、锡兰山至古里；回程再至锡兰山，擒亚烈苦奈儿，返航太仓。",
+        "en": "1410–1411: from Taicang via Changle, Champa, Malacca, Samudera and Ceylon to Calicut; on the return it called at Ceylon again, captured Alakeshvara, and sailed back to Taicang."
       }
     },
     {
@@ -83,8 +83,8 @@
       "color": "#2a6f9b",
       "order": 4,
       "description": {
-        "zh": "1413—1415：自太仓经锡兰山、古里至忽鲁谟斯，南下麻林地，返航太仓。",
-        "en": "1413–1415: from Taicang via Ceylon and Calicut to Hormuz, south to Malindi, then back to Taicang."
+        "zh": "1413—1415：自太仓经长乐、占城、满剌加、苏门答剌、锡兰山、溜山、古里、忽鲁谟斯，抵阿丹与东非诸港，返航太仓。",
+        "en": "1413–1415: from Taicang via Changle, Champa, Malacca, Samudera, Ceylon, the Maldives, Calicut and Hormuz to Aden and the East African ports, then back to Taicang."
       }
     },
     {
@@ -96,8 +96,8 @@
       "color": "#357fa7",
       "order": 5,
       "description": {
-        "zh": "1417—1419：自太仓经锡兰山、古里至阿丹，返航太仓。",
-        "en": "1417–1419: from Taicang via Ceylon and Calicut to Aden, then back to Taicang."
+        "zh": "1417—1419：自太仓经长乐、占城、满剌加、锡兰山、柯枝、古里、忽鲁谟斯、阿丹至东非麻林地，返航太仓。",
+        "en": "1417–1419: from Taicang via Changle, Champa, Malacca, Ceylon, Cochin, Calicut, Hormuz and Aden to Malindi in East Africa, then back to Taicang."
       }
     },
     {
@@ -109,8 +109,8 @@
       "color": "#418fb2",
       "order": 6,
       "description": {
-        "zh": "1421—1422：自太仓至满剌加；分䑸访问榜葛剌后，船队返航太仓。",
-        "en": "1421–1422: from Taicang to Malacca; a detached squadron visited Bengal before the fleet returned to Taicang."
+        "zh": "1421—1422：送十六国使臣还国，自太仓经占城、满剌加、苏门答剌；分䑸访问榜葛剌，主队西至忽鲁谟斯、阿丹与东非，返航太仓。",
+        "en": "1421–1422: carrying envoys of sixteen states home, from Taicang via Champa, Malacca and Samudera; a squadron visited Bengal while the main fleet went west to Hormuz, Aden and East Africa, then back to Taicang."
       }
     },
     {
@@ -122,8 +122,8 @@
       "color": "#4d9fbd",
       "order": 7,
       "description": {
-        "zh": "1431—1433：自太仓经锡兰山至古里；分䑸自阿丹赴天方；郑和卒于古里，船队返航太仓。",
-        "en": "1431–1433: from Taicang via Ceylon to Calicut; a detachment sailed from Aden to Mecca; Zheng He died at Calicut and the fleet returned to Taicang."
+        "zh": "1431—1433：自太仓经长乐、占城、旧港、爪哇、满剌加、苏门答剌、锡兰山、古里至忽鲁谟斯、阿丹；分䑸赴天方，东至东非，郑和卒于古里，船队返航太仓。",
+        "en": "1431–1433: from Taicang via Changle, Champa, Palembang, Java, Malacca, Samudera, Ceylon and Calicut to Hormuz and Aden; a detachment went on to Mecca and the fleet reached East Africa. Zheng He died at Calicut and the fleet returned to Taicang."
       }
     },
     {
@@ -345,7 +345,7 @@
     "明代"
   ],
   "license": "CC-BY-4.0（疆域面含 Seshat Cliopatria 数据，CC BY 4.0；满剌加、古里、忽鲁谟斯等小国与古吉拉特为示意补绘）",
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-18",
   "coverText": {
     "years": "1405 — 1433",
     "brand": "史迹 · 时空地图",

@@ -39,7 +39,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -49,6 +49,60 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "changle-1405-08",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "长乐太平港候风",
+      "en": "Waiting for the monsoon at Changle"
+    },
+    "date": "1405-08-20",
+    "location": {
+      "lng": 119.64,
+      "lat": 25.96,
+      "place": {
+        "zh": "福建长乐太平港",
+        "en": "Taiping Port, Changle, Fujian"
+      }
+    },
+    "entityIds": [
+      "voyage-1"
+    ],
+    "category": "航行",
+    "summary": {
+      "zh": "船队自刘家港南下，泊福建长乐太平港修船候风，随后从五虎门出洋。",
+      "en": "The fleet sails south from Liujiagang and anchors at Taiping Port in Changle to refit and wait for the north-east monsoon, then puts out through the Wuhu Gate."
+    },
+    "description": {
+      "zh": "郑和船队沿海南下，在长乐太平港驻泊数月，修补船具、补充给养，等待冬季东北季风。此后船队自闽江口五虎门扬帆，经台湾海峡南下。",
+      "en": "The fleet moved down the coast and lay at Taiping Port for several months, repairing gear and taking on supplies while waiting for the winter north-east monsoon. It then sailed out through the Wuhu Gate at the mouth of the Min River and headed south through the Taiwan Strait."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和航海图》",
+        "author": "茅元仪《武备志》卷二四〇",
+        "year": 1621,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "taicang-1405-07"
+    ]
   },
   {
     "id": "champa-1405-10",
@@ -84,7 +138,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -99,13 +153,13 @@
     "id": "malacca-1406-01",
     "atlasId": "zheng-he",
     "name": {
-      "zh": "满剌加设官厂",
-      "en": "Trading post at Malacca"
+      "zh": "册封满剌加",
+      "en": "Enfeoffing Malacca"
     },
     "aliases": [
       {
-        "zh": "满剌加官厂",
-        "en": "Malacca Trading Post"
+        "zh": "册封拜里米苏剌",
+        "en": "Enfeoffment of Parameswara"
       }
     ],
     "date": "1406-01-15",
@@ -122,12 +176,12 @@
     ],
     "category": "外交",
     "summary": {
-      "zh": "明朝在满剌加设立官厂，作为船队中转基地。",
-      "en": "The Ming establishes a trading post at Malacca as a transit base for the fleet."
+      "zh": "郑和奉敕册封拜里米苏剌为满剌加国王，赐银印、冠带与袍服。",
+      "en": "Zheng He invests Parameswara as king of Malacca, granting him a silver seal, robes and belt."
     },
     "description": {
-      "zh": "满剌加扼守马六甲海峡，郑和船队在此设立官厂，储存货物、补充给养。",
-      "en": "Malacca controlled the Strait of Malacca. Zheng He’s fleet established a trading post here to store goods and replenish supplies."
+      "zh": "满剌加扼守马六甲海峡，愿依附明朝以抗暹罗。郑和奉敕册封其酋长拜里米苏剌为国王，赐银印、冠带、袍服与锦绮；满剌加自此成为船队在西洋最重要的中转基地。",
+      "en": "Malacca controlled the Strait of Malacca and sought Ming protection against Siam. Zheng He invested its chief Parameswara as king, granting a silver seal, robes, belt and brocade; Malacca became the fleet’s most important base in the western ocean."
     },
     "images": [],
     "sources": [
@@ -135,16 +189,23 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
-        "title": "《郑和下西洋资料汇编》",
-        "author": "郑鹤声、郑一钧",
-        "year": 1980,
-        "note": "航线走向参考，坐标为示意简化"
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "malacca-1410-07"
+    ]
   },
   {
     "id": "lamuri-1406-02",
@@ -180,7 +241,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -230,7 +291,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -244,6 +305,60 @@
       "ceylon-1406-06"
     ],
     "importance": 2
+  },
+  {
+    "id": "palembang-1406-03",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "招谕陈祖义",
+      "en": "Parley with Chen Zuyi"
+    },
+    "date": "1406-03-05",
+    "location": {
+      "lng": 104.75,
+      "lat": -2.99,
+      "place": {
+        "zh": "旧港（今印尼巨港）",
+        "en": "Palembang (Indonesia)"
+      }
+    },
+    "entityIds": [
+      "voyage-1"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵旧港，郑和遣人招谕盘踞此地的陈祖义，陈祖义表面归顺、暗中图谋袭击。",
+      "en": "At Palembang Zheng He summons the pirate leader Chen Zuyi, who pretends to submit while secretly planning an attack on the fleet."
+    },
+    "description": {
+      "zh": "旧港为三佛齐故地，广东人陈祖义聚众海上，劫掠往来番商。郑和先礼后兵，遣使招谕；陈祖义诈降，暗中筹备袭击船队，为次年的旧港之战埋下伏笔。",
+      "en": "Palembang, the old centre of Srivijaya, was held by the Guangdong-born pirate Chen Zuyi, who preyed on passing traders. Zheng He opened with diplomacy and sent envoys to summon him; Chen feigned surrender while preparing an ambush, setting the stage for the battle of 1407."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "palembang-1407-01"
+    ]
   },
   {
     "id": "ceylon-1406-06",
@@ -279,7 +394,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -324,7 +439,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -338,6 +453,60 @@
       "palembang-1407-01"
     ],
     "importance": 2
+  },
+  {
+    "id": "java-1406-07",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "爪哇误杀官军",
+      "en": "The Java incident"
+    },
+    "date": "1406-07-15",
+    "location": {
+      "lng": 112.37,
+      "lat": -7.56,
+      "place": {
+        "zh": "爪哇（今印尼东爪哇）",
+        "en": "Java (Indonesia)"
+      }
+    },
+    "entityIds": [
+      "voyage-1"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "爪哇东西二王交战，西王军队误杀登岸贸易的明军一百七十人，西王遣使谢罪献金。",
+      "en": "Civil war in Java leads the western king’s troops to kill 170 Ming soldiers who had come ashore to trade; the king sends envoys to apologize and offer gold."
+    },
+    "description": {
+      "zh": "船队在爪哇登岸贸易时，恰逢满者伯夷东西二王内战，西王军队误杀明朝官军一百七十人。西王畏惧明廷问罪，遣使谢罪并献黄金赎罪；郑和以通商大局为重，未加报复。",
+      "en": "While the fleet was trading ashore in Java, the civil war between the eastern and western kings of Majapahit led the western king’s troops to kill 170 Ming soldiers by mistake. Fearing retribution, the king sent envoys to apologize and offered gold; Zheng He put the wider interests of trade first and did not retaliate."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "java-1432-02"
+    ]
   },
   {
     "id": "kayal-1406-08",
@@ -373,7 +542,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -422,7 +591,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -471,7 +640,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -485,6 +654,60 @@
       "calicut-1406-12"
     ],
     "importance": 2
+  },
+  {
+    "id": "calicut-1406-11",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "古里开市",
+      "en": "Opening the market at Calicut"
+    },
+    "date": "1406-11-15",
+    "location": {
+      "lng": 75.78,
+      "lat": 11.25,
+      "place": {
+        "zh": "古里（今印度科泽科德）",
+        "en": "Calicut (India)"
+      }
+    },
+    "entityIds": [
+      "voyage-1"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队在古里开市，以瓷器、丝绸、铜钱交易胡椒、宝石与珍珠。",
+      "en": "The fleet opens a market at Calicut, trading porcelain, silk and copper cash for pepper, gems and pearls."
+    },
+    "description": {
+      "zh": "古里是西洋诸国商船汇聚的贸易总汇，西番马匹、东国布匹与各国珊瑚珍珠都在此集散。船队在此开市，用中国瓷器、丝织品与铜钱换取胡椒、宝石、珍珠和乳香，并补给返航物资。",
+      "en": "Calicut was the great emporium of the western ocean, where horses from the west, cloth from the east, and coral and pearls from many lands all changed hands. The fleet opened a market there, exchanging Chinese porcelain, silk and copper cash for pepper, gems, pearls and frankincense, and took on supplies for the return."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《星槎胜览》",
+        "author": "费信",
+        "year": 1436,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "calicut-1406-12"
+    ]
   },
   {
     "id": "calicut-1406-12",
@@ -526,7 +749,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -572,7 +795,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -586,6 +809,54 @@
       "malacca-1406-01"
     ],
     "importance": 2
+  },
+  {
+    "id": "malacca-1407-03",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "返程满剌加",
+      "en": "Return through Malacca"
+    },
+    "date": "1407-03-10",
+    "location": {
+      "lng": 102.25,
+      "lat": 2.2,
+      "place": {
+        "zh": "满剌加（今马来西亚马六甲）",
+        "en": "Malacca (Melaka, Malaysia)"
+      }
+    },
+    "entityIds": [
+      "voyage-1"
+    ],
+    "category": "航行",
+    "summary": {
+      "zh": "船队自西洋返航，经满剌加补充淡水食物，整队候风。",
+      "en": "Homeward bound, the fleet calls at Malacca for water and food and waits for the monsoon to turn."
+    },
+    "description": {
+      "zh": "返航船队回到满剌加，修补船只、补充淡水和食物，等待季风转换后经占城北返。",
+      "en": "The homeward fleet returned to Malacca to repair ships and take on water and food, waiting for the monsoon to shift before heading north through Champa."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和航海图》",
+        "author": "茅元仪《武备志》卷二四〇",
+        "year": 1621,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "malacca-1406-01",
+      "return-1407-10"
+    ]
   },
   {
     "id": "return-1407-10",
@@ -621,7 +892,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -666,7 +937,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -678,38 +949,32 @@
     "relatedIds": []
   },
   {
-    "id": "ceylon-battle-1409-02",
+    "id": "changle-1408-10",
     "atlasId": "zheng-he",
     "name": {
-      "zh": "锡兰山之战",
-      "en": "Battle of Ceylon"
+      "zh": "长乐太平港驻泊",
+      "en": "Anchoring at Taiping Port"
     },
-    "aliases": [
-      {
-        "zh": "锡兰山战役",
-        "en": "Battle of Ceylon"
-      }
-    ],
-    "date": "1409-02-01",
+    "date": "1408-10-15",
     "location": {
-      "lng": 79.86,
-      "lat": 6.93,
+      "lng": 119.64,
+      "lat": 25.96,
       "place": {
-        "zh": "锡兰山",
-        "en": "Ceylon"
+        "zh": "福建长乐太平港",
+        "en": "Taiping Port, Changle, Fujian"
       }
     },
     "entityIds": [
       "voyage-2"
     ],
-    "category": "战斗",
+    "category": "航行",
     "summary": {
-      "zh": "船队与锡兰山地方势力发生冲突，最终脱险。",
-      "en": "The fleet clashes with local forces in Ceylon and eventually escapes."
+      "zh": "船队护送各国使臣返国前，先在长乐太平港集结修船，候季风出洋。",
+      "en": "Before carrying foreign envoys home, the fleet assembles at Taiping Port to refit and wait for the monsoon."
     },
     "description": {
-      "zh": "第二次下西洋期间，船队在锡兰山与当地势力发生冲突，郑和率部突围。",
-      "en": "During the second voyage, the fleet clashed with local forces in Ceylon; Zheng He led his troops in a breakout."
+      "zh": "第二次下西洋以送还各国使臣为主。船队自太仓南下，在长乐太平港驻泊，检修船只、补充给养，待东北季风稳定后出五虎门。",
+      "en": "The second voyage was chiefly a mission to carry foreign envoys home. The fleet sailed south from Taicang, lay at Taiping Port to overhaul ships and take on supplies, and left through the Wuhu Gate once the north-east monsoon settled."
     },
     "images": [],
     "sources": [
@@ -717,16 +982,422 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和航海图》",
+        "author": "茅元仪《武备志》卷二四〇",
+        "year": 1621,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "depart-1408-10"
+    ]
+  },
+  {
+    "id": "champa-1408-11",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "送使臣还占城",
+      "en": "Envoys returned to Champa"
+    },
+    "date": "1408-11-25",
+    "location": {
+      "lng": 109.22,
+      "lat": 13.77,
+      "place": {
+        "zh": "占城（今越南归仁）",
+        "en": "Champa (Quy Nhon, Vietnam)"
+      }
+    },
+    "entityIds": [
+      "voyage-2"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵占城，送还占城使臣，并颁赐国王冠带、彩币。",
+      "en": "The fleet reaches Champa, returns its envoys and bestows robes and brocade on the king."
+    },
+    "description": {
+      "zh": "占城是船队南下的第一处大港。郑和在此送还随船归国的占城使者，宣读敕谕、颁赐冠带与彩币，随后继续南行。",
+      "en": "Champa was the first great port on the southward run. Zheng He returned the Champa envoys who had travelled with the fleet, read the imperial edict and bestowed robes and brocade, then sailed on."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
         "author": "郑鹤声、郑一钧",
         "year": 1980,
-        "note": "航线走向参考，坐标为示意简化"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "champa-1405-10"
+    ]
+  },
+  {
+    "id": "siam-1408-12",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "出使暹罗",
+      "en": "Mission to Siam"
+    },
+    "date": "1408-12-10",
+    "location": {
+      "lng": 100.53,
+      "lat": 14.35,
+      "place": {
+        "zh": "暹罗（今泰国阿瑜陀耶）",
+        "en": "Siam (Ayutthaya, Thailand)"
+      }
+    },
+    "entityIds": [
+      "voyage-2"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "郑和专程出使暹罗，劝谕其停止侵扰满剌加、归还所夺印诰，暹罗王遣使贡方物谢罪。",
+      "en": "Zheng He goes to Siam to urge it to stop harassing Malacca and return the seized seals; the Siamese king sends tribute and apologizes."
+    },
+    "description": {
+      "zh": "暹罗拘扣占城朝贡使者，又夺取明朝赐给苏门答剌、满剌加的印诰。郑和奉命率使团入暹罗交涉，劝谕睦邻；暹罗王随后遣使贡方物谢罪。",
+      "en": "Siam had detained Champa’s tribute envoys and seized the seals the Ming court had granted to Samudera and Malacca. Zheng He led a mission into Siam to remonstrate and urge good-neighbourly conduct; the Siamese king afterwards sent envoys with tribute and an apology."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "malacca-1409-01"
+    ],
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "malacca-1409-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "满剌加补给",
+      "en": "Refitting at Malacca"
+    },
+    "date": "1409-01-10",
+    "location": {
+      "lng": 102.25,
+      "lat": 2.2,
+      "place": {
+        "zh": "满剌加（今马来西亚马六甲）",
+        "en": "Malacca (Melaka, Malaysia)"
+      }
+    },
+    "entityIds": [
+      "voyage-2"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队在满剌加补充给养、检修船只，并重申明朝对满剌加的册封。",
+      "en": "The fleet refits at Malacca and reaffirms Ming protection of the young kingdom."
+    },
+    "description": {
+      "zh": "满剌加此时仍受暹罗侵扰。船队在此停泊补给，重申明朝对满剌加的册封，作为前往印度洋前的最后一处大港。",
+      "en": "Malacca was still under pressure from Siam. The fleet stopped to resupply and reaffirmed Ming enfeoffment, treating the port as its last great base before the Indian Ocean."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "siam-1408-12"
+    ]
+  },
+  {
+    "id": "samudera-1409-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "苏门答剌候风",
+      "en": "Waiting for the monsoon at Samudera"
+    },
+    "date": "1409-01-25",
+    "location": {
+      "lng": 97.15,
+      "lat": 5.18,
+      "place": {
+        "zh": "苏门答剌（今印尼苏门答腊）",
+        "en": "Samudera (Sumatra, Indonesia)"
+      }
+    },
+    "entityIds": [
+      "voyage-2"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队经苏门答剌、南巫里，进入印度洋。",
+      "en": "The fleet passes Samudera and Lamuri and enters the Indian Ocean."
+    },
+    "description": {
+      "zh": "苏门答剌与南巫里扼守马六甲海峡西口，是船队出印度洋前的候风与补给点。船队在此补充淡水，等待西行季风。",
+      "en": "Samudera and Lamuri guarded the western mouth of the Strait of Malacca and served as the fleet’s last watering and provisioning stop before the Indian Ocean. There the ships waited for the westward monsoon."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和航海图》",
+        "author": "茅元仪《武备志》卷二四〇",
+        "year": 1621,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "samudera-1406-03"
+    ]
+  },
+  {
+    "id": "ceylon-offering-1409-02",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "布施锡兰山佛寺",
+      "en": "Offering at the Ceylon temple"
+    },
+    "date": "1409-02-15",
+    "location": {
+      "lng": 79.86,
+      "lat": 6.93,
+      "place": {
+        "zh": "锡兰山（今斯里兰卡）",
+        "en": "Ceylon (Sri Lanka)"
+      }
+    },
+    "entityIds": [
+      "voyage-2"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "郑和在锡兰山布施佛寺，立中文、泰米尔文、波斯文三体碑，此碑今存科伦坡博物馆。",
+      "en": "Zheng He makes offerings at a Ceylonese temple and sets up a trilingual stele in Chinese, Tamil and Persian, now in the Colombo Museum."
+    },
+    "description": {
+      "zh": "船队向锡兰山佛寺布施金银、丝绢、香油、蜡烛与金莲花等物，并立《布施锡兰山佛寺碑》，以中文、泰米尔文、波斯文分别向佛、印度教神祇与伊斯兰教真主献礼，体现对当地信仰的尊重。",
+      "en": "The fleet gave gold, silver, silk, fragrant oil, candles and golden lotuses to a temple in Ceylon and set up the Galle Trilingual Inscription, written in Chinese, Tamil and Persian and dedicating offerings to the Buddha, to Hindu deities and to Allah—a mark of respect for local faiths."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《布施锡兰山佛寺碑》",
+        "author": "郑和、王景弘等",
+        "year": 1409,
+        "note": "碑文自记永乐七年二月初一日"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "ceylon-1410-11"
+    ]
+  },
+  {
+    "id": "kayal-1409-03",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "加异勒交易",
+      "en": "Trading at Kayal"
+    },
+    "date": "1409-03-10",
+    "location": {
+      "lng": 78.1,
+      "lat": 8.9,
+      "place": {
+        "zh": "加异勒（今印度卡亚尔）",
+        "en": "Kayal (India)"
+      }
+    },
+    "entityIds": [
+      "voyage-2"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵印度南端加异勒，采买胡椒与棉布。",
+      "en": "The fleet reaches Kayal at the southern tip of India to buy pepper and cotton cloth."
+    },
+    "description": {
+      "zh": "加异勒位于印度半岛东南端，是胡椒与棉布的重要集散地。船队在此交易，并补充前往马拉巴尔海岸的补给。",
+      "en": "Kayal, at the south-eastern tip of the Indian peninsula, was an important market for pepper and cotton cloth. The fleet traded there and took on supplies for the Malabar coast."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《星槎胜览》",
+        "author": "费信",
+        "year": 1436,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "kayal-1406-08"
+    ]
+  },
+  {
+    "id": "cochin-1409-04",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "柯枝泊船",
+      "en": "Calling at Cochin"
+    },
+    "date": "1409-04-05",
+    "location": {
+      "lng": 76.27,
+      "lat": 9.93,
+      "place": {
+        "zh": "柯枝（今印度科钦）",
+        "en": "Cochin (India)"
+      }
+    },
+    "entityIds": [
+      "voyage-2"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队泊柯枝，与当地商人交易香料、椰子与珍珠。",
+      "en": "The fleet anchors at Cochin and trades for spices, coconuts and pearls."
+    },
+    "description": {
+      "zh": "柯枝是马拉巴尔海岸的重要港口，盛产胡椒、椰子与珍珠。船队在此停泊交易，并等候驶往古里的顺风。",
+      "en": "Cochin was a major port of the Malabar coast, known for pepper, coconuts and pearls. The fleet anchored there to trade and waited for a favourable wind to Calicut."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《西洋番国志》",
+        "author": "巩珍",
+        "year": 1434,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "cochin-1406-10"
+    ]
+  },
+  {
+    "id": "calicut-1409-05",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "再至古里",
+      "en": "Return to Calicut"
+    },
+    "date": "1409-05-01",
+    "location": {
+      "lng": 75.78,
+      "lat": 11.25,
+      "place": {
+        "zh": "古里（今印度科泽科德）",
+        "en": "Calicut (India)"
+      }
+    },
+    "entityIds": [
+      "voyage-2"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队以柯枝、古里为目的地，在古里完成交易后返航。",
+      "en": "With Cochin and Calicut as its destinations, the fleet finishes trading at Calicut and turns home."
+    },
+    "description": {
+      "zh": "古里是西洋贸易总汇。船队在此完成本轮贸易，采办胡椒、宝石与乳香，随后转舵返航，经锡兰山、满剌加北归。",
+      "en": "Calicut was the great emporium of the western ocean. The fleet completed its trade there, took on pepper, gems and frankincense, then turned back through Ceylon and Malacca."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "calicut-1406-12",
+      "return-1409-08"
+    ]
   },
   {
     "id": "return-1409-08",
@@ -762,7 +1433,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -807,7 +1478,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -817,6 +1488,108 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "changle-1410-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "长乐太平港候风",
+      "en": "Waiting at Taiping Port"
+    },
+    "date": "1410-01-15",
+    "location": {
+      "lng": 119.64,
+      "lat": 25.96,
+      "place": {
+        "zh": "福建长乐太平港",
+        "en": "Taiping Port, Changle, Fujian"
+      }
+    },
+    "entityIds": [
+      "voyage-3"
+    ],
+    "category": "航行",
+    "summary": {
+      "zh": "船队自刘家港南下，十月抵长乐太平港，十二月自五虎门开洋。",
+      "en": "The fleet sails south from Liujiagang, reaches Taiping Port in the tenth month and puts out through the Wuhu Gate in the twelfth."
+    },
+    "description": {
+      "zh": "第三次下西洋出航前，船队在长乐太平港停泊近两月，修船、补给、候风；十二月东北季风起，自五虎门出洋南下。",
+      "en": "Before the third voyage the fleet lay at Taiping Port for nearly two months, repairing ships, provisioning and waiting for the monsoon; when the north-east wind rose in the twelfth month it sailed out through the Wuhu Gate."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和航海图》",
+        "author": "茅元仪《武备志》卷二四〇",
+        "year": 1621,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "depart-1410-01"
+    ]
+  },
+  {
+    "id": "champa-1410-02",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "抵占城颁赐",
+      "en": "Bestowing gifts at Champa"
+    },
+    "date": "1410-02-10",
+    "location": {
+      "lng": 109.22,
+      "lat": 13.77,
+      "place": {
+        "zh": "占城（今越南归仁）",
+        "en": "Champa (Quy Nhon, Vietnam)"
+      }
+    },
+    "entityIds": [
+      "voyage-3"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵占城，开读敕书、颁赐国王与头目，随后前往满剌加。",
+      "en": "The fleet reaches Champa, reads the imperial edict and bestows gifts before sailing for Malacca."
+    },
+    "description": {
+      "zh": "占城是明朝敕谕中列名的首站。郑和在此开读敕书、颁赐锦绮，并补充淡水与食物。",
+      "en": "Champa headed the list of states named in the imperial edict. Zheng He read the edict, distributed brocade and took on water and food."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "champa-1405-10"
+    ]
   },
   {
     "id": "malacca-1410-06",
@@ -852,7 +1625,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -862,6 +1635,399 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "malacca-1410-07",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "满剌加设官厂",
+      "en": "Storehouse established at Malacca"
+    },
+    "date": "1410-07-01",
+    "location": {
+      "lng": 102.25,
+      "lat": 2.2,
+      "place": {
+        "zh": "满剌加（今马来西亚马六甲）",
+        "en": "Malacca (Melaka, Malaysia)"
+      }
+    },
+    "entityIds": [
+      "voyage-3"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "郑和在满剌加设立官厂，立排栅城垣、四门更鼓楼，内建库藏仓廒，作为物资转运与候风基地。",
+      "en": "Zheng He establishes a walled depot at Malacca with gate towers, storehouses and granaries, serving as a transshipment and monsoon base."
+    },
+    "description": {
+      "zh": "据《瀛涯胜览》，满剌加官厂“立排栅、城垣，设四门更鼓楼，夜则提铃巡警。内又立重栅小城，盖造库藏仓廒”。返航船只在此驻泊，钱粮货物存入库中，各船分䑸前往诸番贸易。",
+      "en": "According to Ma Huan, the Malacca depot had palisades and walls, drum towers over four gates with night patrols, and an inner stockaded compound with storehouses and granaries. Returning ships anchored offshore, goods and provisions were kept in the depot, and the fleet split into squadrons for trade in different countries."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "malacca-1406-01"
+    ]
+  },
+  {
+    "id": "samudera-1410-08",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "苏门答剌补给",
+      "en": "Provisioning at Samudera"
+    },
+    "date": "1410-08-01",
+    "location": {
+      "lng": 97.15,
+      "lat": 5.18,
+      "place": {
+        "zh": "苏门答剌（今印尼苏门答腊）",
+        "en": "Samudera (Sumatra, Indonesia)"
+      }
+    },
+    "entityIds": [
+      "voyage-3"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队经苏门答剌补充给养，处理朝贡事务，随后西行。",
+      "en": "The fleet provisions at Samudera and handles tribute affairs before heading west."
+    },
+    "description": {
+      "zh": "船队在苏门答剌补充给养，并处理与当地头目的朝贡事务，随后经南巫里西行。",
+      "en": "The fleet took on supplies at Samudera and dealt with tribute matters involving local rulers, then sailed west via Lamuri."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "samudera-1406-03"
+    ]
+  },
+  {
+    "id": "lamuri-1410-08",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "南巫里候风",
+      "en": "Waiting for the monsoon at Lamuri"
+    },
+    "date": "1410-08-15",
+    "location": {
+      "lng": 95.3,
+      "lat": 5.52,
+      "place": {
+        "zh": "南巫里（今印尼苏门答腊班达亚齐）",
+        "en": "Lamuri (Banda Aceh, Sumatra)"
+      }
+    },
+    "entityIds": [
+      "voyage-3"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队泊南巫里，等候横渡印度洋的季风。",
+      "en": "The fleet anchors at Lamuri and waits for the monsoon to cross the Indian Ocean."
+    },
+    "description": {
+      "zh": "南巫里位于苏门答腊岛西北端，是船队出印度洋前的最后一段陆地。船队在此取水、修整，等待西南季风。",
+      "en": "Lamuri, at the north-western tip of Sumatra, was the last landfall before the open Indian Ocean. The fleet watered and refitted there while waiting for the south-west monsoon."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和航海图》",
+        "author": "茅元仪《武备志》卷二四〇",
+        "year": 1621,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "lamuri-1406-02"
+    ]
+  },
+  {
+    "id": "ceylon-1410-11",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "初至锡兰山",
+      "en": "First call at Ceylon"
+    },
+    "date": "1410-11-01",
+    "location": {
+      "lng": 79.86,
+      "lat": 6.93,
+      "place": {
+        "zh": "锡兰山（今斯里兰卡）",
+        "en": "Ceylon (Sri Lanka)"
+      }
+    },
+    "entityIds": [
+      "voyage-3"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "锡兰山国王亚烈苦奈儿“负固不恭，谋害舟师”，郑和察觉后率队离开。",
+      "en": "The king of Ceylon, Alakeshvara, refuses due respect and plots against the fleet; Zheng He sees through it and sails away."
+    },
+    "description": {
+      "zh": "船队初至锡兰山，亚烈苦奈儿索取财物并暗图袭击。郑和察觉其意图，未作纠缠，率船队转往他国，为回程的锡兰山之战埋下伏笔。",
+      "en": "On its first call at Ceylon the fleet found King Alakeshvara demanding treasure and secretly planning an attack. Zheng He saw the trap, avoided a confrontation and took the fleet on to other ports—setting up the battle on the return leg."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "ceylon-battle-1411-05"
+    ]
+  },
+  {
+    "id": "kayal-1410-12",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "加异勒交易",
+      "en": "Trading at Kayal"
+    },
+    "date": "1410-12-01",
+    "location": {
+      "lng": 78.1,
+      "lat": 8.9,
+      "place": {
+        "zh": "加异勒（今印度卡亚尔）",
+        "en": "Kayal (India)"
+      }
+    },
+    "entityIds": [
+      "voyage-3"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵加异勒，与当地商人交易胡椒、棉布。",
+      "en": "The fleet reaches Kayal to trade for pepper and cotton cloth."
+    },
+    "description": {
+      "zh": "加异勒是印度南端的重要商港。船队在此交易胡椒与棉布，并补充淡水和食物。",
+      "en": "Kayal was an important commercial port at the southern tip of India. The fleet traded pepper and cotton cloth there and took on water and food."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《星槎胜览》",
+        "author": "费信",
+        "year": 1436,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "kayal-1406-08"
+    ]
+  },
+  {
+    "id": "cochin-1411-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "柯枝交易",
+      "en": "Trading at Cochin"
+    },
+    "date": "1411-01-15",
+    "location": {
+      "lng": 76.27,
+      "lat": 9.93,
+      "place": {
+        "zh": "柯枝（今印度科钦）",
+        "en": "Cochin (India)"
+      }
+    },
+    "entityIds": [
+      "voyage-3"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队泊柯枝，交易香料与珍珠。",
+      "en": "The fleet anchors at Cochin to trade for spices and pearls."
+    },
+    "description": {
+      "zh": "柯枝盛产胡椒、椰子与珍珠。船队在此停泊交易，补充远航物资。",
+      "en": "Cochin was rich in pepper, coconuts and pearls. The fleet anchored there to trade and to replenish its stores."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《西洋番国志》",
+        "author": "巩珍",
+        "year": 1434,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "cochin-1406-10"
+    ]
+  },
+  {
+    "id": "calicut-1411-02",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "古里交易",
+      "en": "Trading at Calicut"
+    },
+    "date": "1411-02-01",
+    "location": {
+      "lng": 75.78,
+      "lat": 11.25,
+      "place": {
+        "zh": "古里（今印度科泽科德）",
+        "en": "Calicut (India)"
+      }
+    },
+    "entityIds": [
+      "voyage-3"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵古里，完成贸易，准备回程。",
+      "en": "The fleet reaches Calicut, completes its trade and prepares to turn home."
+    },
+    "description": {
+      "zh": "船队在古里完成本轮贸易，采办胡椒、宝石与乳香，随后转舵返航，回程再至锡兰山。",
+      "en": "At Calicut the fleet completed its trade, took on pepper, gems and frankincense, and turned back—calling again at Ceylon on the way home."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "calicut-1406-12"
+    ]
+  },
+  {
+    "id": "ceylon-battle-1411-05",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "锡兰山之战",
+      "en": "Battle of Ceylon"
+    },
+    "date": "1411-05-01",
+    "location": {
+      "lng": 79.86,
+      "lat": 6.93,
+      "place": {
+        "zh": "锡兰山（今斯里兰卡）",
+        "en": "Ceylon (Sri Lanka)"
+      }
+    },
+    "entityIds": [
+      "voyage-3"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "回程再至锡兰山，亚烈苦奈儿诱郑和入国并发兵五万围攻船队；郑和率两千人夜袭王城，生擒亚烈苦奈儿及其家属。",
+      "en": "On the return leg Alakeshvara lures Zheng He inland and sends 50,000 men against the fleet; Zheng He storms the capital by night with 2,000 men and captures the king and his family."
+    },
+    "description": {
+      "zh": "郑和回程再访锡兰山，亚烈苦奈儿诱其入国、索要财物，被拒后发兵五万围攻船队，并伐木阻断归路。郑和趁其国中空虚，率随从两千人取小道夜袭王城，破城擒王。永乐九年六月船队还朝，献俘于朝。",
+      "en": "On the return the fleet called at Ceylon again. Alakeshvara lured Zheng He inland and demanded treasure; when refused he sent 50,000 men to surround the fleet and felled trees to cut off its retreat. With the capital stripped of defenders, Zheng He led 2,000 men by a side path in a night assault, took the city and captured the king and his household. The fleet returned to court in the sixth month of 1411 with the captives."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "ceylon-1410-11",
+      "nanjing-1411-07",
+      "return-1411-07"
+    ]
   },
   {
     "id": "return-1411-07",
@@ -897,7 +2063,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -907,6 +2073,57 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "nanjing-1411-07",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "献俘亚烈苦奈儿",
+      "en": "Captives presented at Nanjing"
+    },
+    "date": "1411-07-20",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "南京",
+        "en": "Nanjing"
+      }
+    },
+    "entityIds": [
+      "voyage-3"
+    ],
+    "category": "政策",
+    "summary": {
+      "zh": "郑和还朝，献俘亚烈苦奈儿；成祖赦其罪，诏令锡兰山另择贤者为王。",
+      "en": "Zheng He presents the captured king at court; the Yongle Emperor pardons him and orders Ceylon to choose a worthy ruler."
+    },
+    "description": {
+      "zh": "永乐九年六月，船队返抵南京，献所俘锡兰山国王亚烈苦奈儿及家属。朝臣多主张处死，成祖以其愚昧无知，赦免释放，并遣使诏令锡兰山另立贤君。此役后“海外诸番，益服天子威德”。",
+      "en": "In the sixth month of 1411 the fleet returned to Nanjing and presented Alakeshvara and his family. Many at court urged execution, but the Yongle Emperor pardoned him as ignorant and had him released, sending envoys to install a worthy ruler in Ceylon. Afterwards, it was said, the overseas states stood in greater awe of the Ming court’s virtue."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "ceylon-battle-1411-05"
+    ],
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "depart-1413-12",
@@ -942,7 +2159,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -952,6 +2169,108 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "changle-1414-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "长乐太平港候风",
+      "en": "Waiting at Taiping Port"
+    },
+    "date": "1414-01-15",
+    "location": {
+      "lng": 119.64,
+      "lat": 25.96,
+      "place": {
+        "zh": "福建长乐太平港",
+        "en": "Taiping Port, Changle, Fujian"
+      }
+    },
+    "entityIds": [
+      "voyage-4"
+    ],
+    "category": "航行",
+    "summary": {
+      "zh": "船队自太仓南下，在长乐太平港集结修船，等待东北季风。",
+      "en": "The fleet sails south from Taicang and assembles at Taiping Port to refit and wait for the north-east monsoon."
+    },
+    "description": {
+      "zh": "第四次下西洋规模空前，随行有官员八百余人、兵二万六千余人。船队在长乐太平港检修船只、补充给养，随后出五虎门南下。",
+      "en": "The fourth voyage was the largest yet, with more than 800 officials and 26,000 troops. The fleet overhauled ships and took on supplies at Taiping Port before leaving through the Wuhu Gate."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和航海图》",
+        "author": "茅元仪《武备志》卷二四〇",
+        "year": 1621,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "depart-1413-12"
+    ]
+  },
+  {
+    "id": "champa-1414-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "赐占城王冠带",
+      "en": "Robes for the king of Champa"
+    },
+    "date": "1414-01-25",
+    "location": {
+      "lng": 109.22,
+      "lat": 13.77,
+      "place": {
+        "zh": "占城（今越南归仁）",
+        "en": "Champa (Quy Nhon, Vietnam)"
+      }
+    },
+    "entityIds": [
+      "voyage-4"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "郑和抵占城，奉敕赐占城王冠带、锦绮。",
+      "en": "Zheng He reaches Champa and bestows robes and brocade on its king by imperial order."
+    },
+    "description": {
+      "zh": "船队抵占城后开读敕书，颁赐国王冠带与锦绮彩币，并送还随船归国的占城使臣。",
+      "en": "On reaching Champa the fleet read the imperial edict, bestowed robes, brocade and silk on the king, and returned the Champa envoys who had travelled with it."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "champa-1405-10"
+    ]
   },
   {
     "id": "cambay-1414-03",
@@ -987,7 +2306,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -1036,7 +2355,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -1091,7 +2410,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -1136,7 +2455,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -1148,107 +2467,6 @@
     "relatedIds": [
       "ceylon-1406-06",
       "hormuz-1414-05"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "malindi-1415-01",
-    "atlasId": "zheng-he",
-    "name": {
-      "zh": "抵达麻林地",
-      "en": "Arrival at Malindi"
-    },
-    "aliases": [
-      {
-        "zh": "马林迪",
-        "en": "Malindi"
-      }
-    ],
-    "date": "1415-01-01",
-    "location": {
-      "lng": 40.12,
-      "lat": -3.22,
-      "place": {
-        "zh": "麻林地（今肯尼亚马林迪）",
-        "en": "Malindi"
-      }
-    },
-    "entityIds": [
-      "voyage-4"
-    ],
-    "category": "外交",
-    "summary": {
-      "zh": "船队抵达东非麻林地，明朝影响力到达非洲东岸。",
-      "en": "The fleet reaches Malindi in East Africa, extending Ming influence to the African coast."
-    },
-    "description": {
-      "zh": "船队沿东非海岸南下，抵达麻林地，随行带回长颈鹿等珍奇动物。",
-      "en": "The fleet sailed south along the East African coast to Malindi and brought back giraffes and other exotic animals."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《明史·郑和传》",
-        "author": "张廷玉等",
-        "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
-      },
-      {
-        "title": "《郑和下西洋资料汇编》",
-        "author": "郑鹤声、郑一钧",
-        "year": 1980,
-        "note": "航线走向参考，坐标为示意简化"
-      }
-    ],
-    "relatedIds": []
-  },
-  {
-    "id": "mogadishu-1415-01",
-    "atlasId": "zheng-he",
-    "name": {
-      "zh": "木骨都束",
-      "en": "Mogadishu"
-    },
-    "date": "1415-01-01",
-    "endDate": "1415-01-01",
-    "location": {
-      "lng": 45.34,
-      "lat": 2.05,
-      "place": {
-        "zh": "木骨都束（今索马里摩加迪沙）",
-        "en": "Mogadishu (modern Somalia)"
-      }
-    },
-    "entityIds": [
-      "voyage-4"
-    ],
-    "category": "外交",
-    "summary": {
-      "zh": "船队抵达东非木骨都束，明朝影响力到达非洲东岸。",
-      "en": "The fleet reached Mogadishu, extending Ming influence to the East African coast."
-    },
-    "description": {
-      "zh": "1415 年，郑和船队沿东非海岸抵达木骨都束，与当地进行贸易并建立联系。",
-      "en": "In 1415, Zheng He’s fleet sailed along the East African coast to Mogadishu, trading and establishing contacts with local authorities."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《明史·郑和传》",
-        "author": "张廷玉等",
-        "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
-      },
-      {
-        "title": "《郑和下西洋资料汇编》",
-        "author": "郑鹤声、郑一钧",
-        "year": 1980,
-        "note": "航线走向参考，坐标为示意简化"
-      }
-    ],
-    "relatedIds": [
-      "malindi-1415-01",
-      "aden-1418-06"
     ],
     "importance": 2
   },
@@ -1286,7 +2504,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -1335,7 +2553,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -1384,7 +2602,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -1398,6 +2616,161 @@
       "malindi-1415-01"
     ],
     "importance": 2
+  },
+  {
+    "id": "malindi-1415-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "抵达麻林地",
+      "en": "Arrival at Malindi"
+    },
+    "aliases": [
+      {
+        "zh": "马林迪",
+        "en": "Malindi"
+      }
+    ],
+    "date": "1415-01-01",
+    "location": {
+      "lng": 40.12,
+      "lat": -3.22,
+      "place": {
+        "zh": "麻林地（今肯尼亚马林迪）",
+        "en": "Malindi"
+      }
+    },
+    "entityIds": [
+      "voyage-4"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵达东非麻林地，明朝影响力到达非洲东岸。",
+      "en": "The fleet reaches Malindi in East Africa, extending Ming influence to the African coast."
+    },
+    "description": {
+      "zh": "船队沿东非海岸南下，抵达麻林地，随行带回长颈鹿等珍奇动物。",
+      "en": "The fleet sailed south along the East African coast to Malindi and brought back giraffes and other exotic animals."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "航线走向参考，坐标为示意简化"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "mogadishu-1415-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "木骨都束",
+      "en": "Mogadishu"
+    },
+    "date": "1415-01-01",
+    "endDate": "1415-01-01",
+    "location": {
+      "lng": 45.34,
+      "lat": 2.05,
+      "place": {
+        "zh": "木骨都束（今索马里摩加迪沙）",
+        "en": "Mogadishu (modern Somalia)"
+      }
+    },
+    "entityIds": [
+      "voyage-4"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵达东非木骨都束，明朝影响力到达非洲东岸。",
+      "en": "The fleet reached Mogadishu, extending Ming influence to the East African coast."
+    },
+    "description": {
+      "zh": "1415 年，郑和船队沿东非海岸抵达木骨都束，与当地进行贸易并建立联系。",
+      "en": "In 1415, Zheng He’s fleet sailed along the East African coast to Mogadishu, trading and establishing contacts with local authorities."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "航线走向参考，坐标为示意简化"
+      }
+    ],
+    "relatedIds": [
+      "malindi-1415-01",
+      "aden-1418-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "samudera-1415-06",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "苏门答剌平苏干剌",
+      "en": "Defeating Sekandar at Samudera"
+    },
+    "date": "1415-06-01",
+    "location": {
+      "lng": 97.15,
+      "lat": 5.18,
+      "place": {
+        "zh": "苏门答剌（今印尼苏门答腊）",
+        "en": "Samudera (Sumatra, Indonesia)"
+      }
+    },
+    "entityIds": [
+      "voyage-4"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "归国途中再至苏门答剌，伪王弟苏干剌率众截杀官军；郑和与当地军队合击，追至南巫里生擒苏干剌。",
+      "en": "On the return leg the usurper Sekandar attacks the fleet at Samudera; Zheng He joins forces with the local army, defeats him and captures him at Lamuri."
+    },
+    "description": {
+      "zh": "苏干剌弑君自立，因明朝不赏而怀怨。船队归国途中再至苏门答剌，苏干剌领兵数万邀击官军。郑和率明军与苏门答剌军队合战，苏干剌败走，追至南巫里将其生擒。",
+      "en": "Sekandar had seized the throne and nursed a grievance at being denied Ming recognition. When the fleet called at Samudera on its way home he attacked with tens of thousands of men. Zheng He fought alongside the legitimate king’s troops, routed him and pursued him to Lamuri, where he was taken prisoner."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《星槎胜览》",
+        "author": "费信",
+        "year": 1436,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "beijing-1415-09"
+    ]
   },
   {
     "id": "return-1415-08",
@@ -1433,7 +2806,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -1443,6 +2816,108 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "beijing-1415-09",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "献俘苏干剌",
+      "en": "Sekandar presented at Beijing"
+    },
+    "date": "1415-09-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "voyage-4"
+    ],
+    "category": "政策",
+    "summary": {
+      "zh": "郑和献俘苏干剌于北京，明廷诛之，并按等级赏赐下西洋将士。",
+      "en": "Zheng He presents Sekandar at Beijing; he is executed and the fleet’s officers are rewarded."
+    },
+    "description": {
+      "zh": "永乐十三年九月，郑和献苏干剌于北京，明廷处死苏干剌，按等级赏赐下西洋将士。此役稳固了明朝在苏门答剌的宗主权。",
+      "en": "In the ninth month of 1415 Zheng He presented Sekandar at Beijing. He was executed and the officers of the voyage were rewarded according to rank. The campaign secured Ming overlordship over Samudera."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "samudera-1415-06"
+    ],
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "beijing-1415-11",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "麻林献麒麟",
+      "en": "The giraffe from Malindi"
+    },
+    "date": "1415-11-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "voyage-4"
+    ],
+    "category": "政策",
+    "summary": {
+      "zh": "麻林国使者随船来朝，献“麒麟”（长颈鹿）等兽。",
+      "en": "Envoys from Malindi come to court with a “qilin”—a giraffe—and other animals."
+    },
+    "description": {
+      "zh": "船队首次抵达东非麻林地，麻林国遣使随船来朝，献麒麟（长颈鹿）、狮子等物。麒麟被视为祥瑞，朝野震动。",
+      "en": "The fleet reached Malindi in East Africa for the first time, and Malindi sent envoys back with it bearing a qilin (giraffe) and lions. The qilin was taken as an auspicious omen and caused a sensation at court."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "malindi-1415-01"
+    ],
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "depart-1417-12",
@@ -1478,7 +2953,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -1488,6 +2963,393 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "changle-1418-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "长乐太平港集结",
+      "en": "Assembling at Taiping Port"
+    },
+    "date": "1418-01-10",
+    "location": {
+      "lng": 119.64,
+      "lat": 25.96,
+      "place": {
+        "zh": "福建长乐太平港",
+        "en": "Taiping Port, Changle, Fujian"
+      }
+    },
+    "entityIds": [
+      "voyage-5"
+    ],
+    "category": "航行",
+    "summary": {
+      "zh": "船队护送十九国使臣归国，在长乐太平港集结候风。",
+      "en": "The fleet, carrying envoys of nineteen states home, assembles at Taiping Port to wait for the monsoon."
+    },
+    "description": {
+      "zh": "第五次下西洋以送还忽鲁谟斯、古里、满剌加等十九国使臣为主。船队在长乐太平港修船补给，待季风出洋。",
+      "en": "The fifth voyage was chiefly to return envoys from Hormuz, Calicut, Malacca and sixteen other states. The fleet refitted and provisioned at Taiping Port before sailing on the monsoon."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和航海图》",
+        "author": "茅元仪《武备志》卷二四〇",
+        "year": 1621,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "depart-1417-12"
+    ]
+  },
+  {
+    "id": "champa-1418-02",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "送使臣还占城",
+      "en": "Envoys returned to Champa"
+    },
+    "date": "1418-02-01",
+    "location": {
+      "lng": 109.22,
+      "lat": 13.77,
+      "place": {
+        "zh": "占城（今越南归仁）",
+        "en": "Champa (Quy Nhon, Vietnam)"
+      }
+    },
+    "entityIds": [
+      "voyage-5"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵占城，送还使臣并颁赐国王。",
+      "en": "The fleet reaches Champa, returns its envoys and bestows gifts on the king."
+    },
+    "description": {
+      "zh": "占城是船队南下的第一站。郑和在此送还占城使臣，颁赐锦绮，并补充淡水与食物。",
+      "en": "Champa was the first stop on the southward run. Zheng He returned its envoys, distributed brocade and took on water and food."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "champa-1405-10"
+    ]
+  },
+  {
+    "id": "malacca-1418-03",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "满剌加分䑸",
+      "en": "Squadrons split at Malacca"
+    },
+    "date": "1418-03-01",
+    "location": {
+      "lng": 102.25,
+      "lat": 2.2,
+      "place": {
+        "zh": "满剌加（今马来西亚马六甲）",
+        "en": "Malacca (Melaka, Malaysia)"
+      }
+    },
+    "entityIds": [
+      "voyage-5"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队在满剌加驻泊，转运颁赐诸国的锦绮纱罗，并按目的地分䑸。",
+      "en": "The fleet anchors at Malacca, transfers the silk and brocade destined for many states, and divides into squadrons by destination."
+    },
+    "description": {
+      "zh": "满剌加官厂是船队的物资中转站。船队在此卸下颁赐诸国的锦绮纱罗，分拨各船，随后按目的地分䑸西行。",
+      "en": "The Malacca depot was the fleet’s transshipment centre. There the ships unloaded the silk and brocade intended for the various states, redistributed the cargo, and split into squadrons for their different destinations."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "malacca-1410-07"
+    ]
+  },
+  {
+    "id": "samudera-1418-04",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "苏门答剌候风",
+      "en": "Waiting at Samudera"
+    },
+    "date": "1418-04-01",
+    "location": {
+      "lng": 97.15,
+      "lat": 5.18,
+      "place": {
+        "zh": "苏门答剌（今印尼苏门答腊）",
+        "en": "Samudera (Sumatra, Indonesia)"
+      }
+    },
+    "entityIds": [
+      "voyage-5"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队经苏门答剌、南巫里进入印度洋。",
+      "en": "The fleet passes Samudera and Lamuri into the Indian Ocean."
+    },
+    "description": {
+      "zh": "船队在苏门答剌补充给养，随后经南巫里西行，横渡印度洋。",
+      "en": "The fleet took on supplies at Samudera, then sailed west by Lamuri to cross the Indian Ocean."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和航海图》",
+        "author": "茅元仪《武备志》卷二四〇",
+        "year": 1621,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "samudera-1406-03"
+    ]
+  },
+  {
+    "id": "ceylon-1418-05",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "锡兰山分遣",
+      "en": "Detachments sent from Ceylon"
+    },
+    "date": "1418-05-01",
+    "location": {
+      "lng": 79.86,
+      "lat": 6.93,
+      "place": {
+        "zh": "锡兰山（今斯里兰卡）",
+        "en": "Ceylon (Sri Lanka)"
+      }
+    },
+    "entityIds": [
+      "voyage-5"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队泊锡兰山，分遣船队经溜山驶往东非、经古里驶向阿拉伯半岛。",
+      "en": "The fleet anchors at Ceylon and sends detachments via the Maldives to East Africa and via Calicut to Arabia."
+    },
+    "description": {
+      "zh": "据记载，第五次下西洋在锡兰山分遣船队：一经溜山驶往东非木骨都束、卜剌哇、麻林地，一经古里驶向阿拉伯半岛与忽鲁谟斯。",
+      "en": "Records indicate that the fifth voyage divided its forces at Ceylon: one detachment sailed via the Maldives to Mogadishu, Brava and Malindi in East Africa, another via Calicut towards Arabia and Hormuz."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "ceylon-1406-06"
+    ]
+  },
+  {
+    "id": "cochin-1418-06",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "册封柯枝国王",
+      "en": "Investing the king of Cochin"
+    },
+    "date": "1418-06-01",
+    "location": {
+      "lng": 76.27,
+      "lat": 9.93,
+      "place": {
+        "zh": "柯枝（今印度科钦）",
+        "en": "Cochin (India)"
+      }
+    },
+    "entityIds": [
+      "voyage-5"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "郑和奉敕诏赐柯枝国王印诰，封其国中大山为镇国山，并立碑铭。",
+      "en": "By imperial order Zheng He invests the king of Cochin with seals and patents, names the country’s great mountain “Guardian Mountain” and sets up a stele."
+    },
+    "description": {
+      "zh": "柯枝早与明朝通好，曾请明廷为其勒石封山。郑和此次携成祖御制碑文，诏赐国王印诰，封国中大山为“镇国山”，勒石立碑。",
+      "en": "Cochin had long been on good terms with the Ming and had asked the court to inscribe its mountain. Zheng He brought an imperially composed text, invested the king with seals and patents, named the great mountain “Guardian of the Realm” and had the inscription carved in stone."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "cochin-1406-10"
+    ]
+  },
+  {
+    "id": "calicut-1418-07",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "古里交易",
+      "en": "Trading at Calicut"
+    },
+    "date": "1418-07-01",
+    "location": {
+      "lng": 75.78,
+      "lat": 11.25,
+      "place": {
+        "zh": "古里（今印度科泽科德）",
+        "en": "Calicut (India)"
+      }
+    },
+    "entityIds": [
+      "voyage-5"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵古里，交易胡椒、宝石，补充远航物资。",
+      "en": "The fleet reaches Calicut to trade pepper and gems and replenish stores."
+    },
+    "description": {
+      "zh": "古里是西洋贸易总汇。船队在此交易胡椒、宝石与乳香，并补充前往波斯湾与阿拉伯半岛的物资。",
+      "en": "Calicut was the great emporium of the western ocean. The fleet traded for pepper, gems and frankincense and provisioned for the run to the Persian Gulf and Arabia."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "calicut-1406-12"
+    ]
+  },
+  {
+    "id": "hormuz-1418-09",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "忽鲁谟斯颁赐",
+      "en": "Gifts at Hormuz"
+    },
+    "date": "1418-09-01",
+    "location": {
+      "lng": 56.46,
+      "lat": 27.1,
+      "place": {
+        "zh": "忽鲁谟斯（今伊朗霍尔木兹）",
+        "en": "Hormuz (Iran)"
+      }
+    },
+    "entityIds": [
+      "voyage-5"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵忽鲁谟斯，颁赐国王与后妃大臣，采购宝石、香料与马匹。",
+      "en": "The fleet reaches Hormuz, bestows gifts on the king, court and ministers, and buys gems, spices and horses."
+    },
+    "description": {
+      "zh": "忽鲁谟斯是波斯湾口的贸易枢纽，各国商货云集。郑和在此颁赐锦绮彩帛，并采购宝石、珍珠、香料与良马。",
+      "en": "Hormuz was the trading hub at the mouth of the Persian Gulf, where goods from many lands converged. Zheng He distributed silk and brocade and purchased gems, pearls, spices and fine horses."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《星槎胜览》",
+        "author": "费信",
+        "year": 1436,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "hormuz-1414-05"
+    ]
   },
   {
     "id": "aden-1418-06",
@@ -1502,7 +3364,7 @@
         "en": "Aden"
       }
     ],
-    "date": "1418-06-01",
+    "date": "1418-11-01",
     "location": {
       "lng": 45.03,
       "lat": 12.79,
@@ -1520,8 +3382,195 @@
       "en": "The fleet visits Aden, connecting Red Sea and Indian Ocean trade."
     },
     "description": {
-      "zh": "船队抵达阿丹，与当地进行贸易并建立联系。",
-      "en": "The fleet arrived at Aden, traded with local people, and established contacts."
+      "zh": "阿丹扼守红海海口，是东西方商货的转运中心。船队在此交易宝石、珍珠、珊瑚与香料，并送还随船归国的阿丹使臣。",
+      "en": "Aden guarded the mouth of the Red Sea and was a transshipment centre for goods between east and west. The fleet traded for gems, pearls, coral and spices and returned the Aden envoys."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451
+      },
+      {
+        "title": "《星槎胜览》",
+        "author": "费信",
+        "year": 1436
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "mogadishu-1419-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "木骨都束朝贡",
+      "en": "Tribute at Mogadishu"
+    },
+    "date": "1419-01-01",
+    "location": {
+      "lng": 45.34,
+      "lat": 2.05,
+      "place": {
+        "zh": "木骨都束（今索马里摩加迪沙）",
+        "en": "Mogadishu (Somalia)"
+      }
+    },
+    "entityIds": [
+      "voyage-5"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵木骨都束，国王率百官迎候，赠狮子、花福鹿。",
+      "en": "The fleet reaches Mogadishu, where the king and his officials welcome it and present lions and spotted deer."
+    },
+    "description": {
+      "zh": "木骨都束位于东非索马里海岸。国王率文武百官迎候，船队以瓷器、丝绸回赠，并获狮子、花福鹿等方物。",
+      "en": "Mogadishu lies on the Somali coast of East Africa. The king and his officials came out to welcome the fleet, which gave porcelain and silk in return and received lions, spotted deer and other local products."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《星槎胜览》",
+        "author": "费信",
+        "year": 1436,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "mogadishu-1415-01"
+    ]
+  },
+  {
+    "id": "brava-1419-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "卜剌哇贸易",
+      "en": "Trade at Brava"
+    },
+    "date": "1419-01-15",
+    "location": {
+      "lng": 43.33,
+      "lat": 1.11,
+      "place": {
+        "zh": "卜剌哇（今索马里布拉瓦）",
+        "en": "Brava (Somalia)"
+      }
+    },
+    "entityIds": [
+      "voyage-5"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵卜剌哇，获赠千里骆驼与鸵鸡。",
+      "en": "The fleet reaches Brava and receives long-distance camels and ostriches."
+    },
+    "description": {
+      "zh": "卜剌哇与木骨都束相邻，以畜牧与贸易为生。船队在此交易，获赠千里骆驼、鸵鸡等方物。",
+      "en": "Brava, neighbouring Mogadishu, lived by herding and trade. The fleet traded there and received camels, ostriches and other local products."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《星槎胜览》",
+        "author": "费信",
+        "year": 1436,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "brava-1415-01"
+    ]
+  },
+  {
+    "id": "malindi-1419-02",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "南至麻林地",
+      "en": "South to Malindi"
+    },
+    "date": "1419-02-01",
+    "location": {
+      "lng": 40.12,
+      "lat": -3.22,
+      "place": {
+        "zh": "麻林地（今肯尼亚马林迪）",
+        "en": "Malindi (Kenya)"
+      }
+    },
+    "entityIds": [
+      "voyage-5"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队南抵麻林地，这是郑和船队到达的最南端之一。",
+      "en": "The fleet sails south to Malindi, one of the southernmost points it reached."
+    },
+    "description": {
+      "zh": "麻林地（今肯尼亚马林迪）位于赤道以南，是船队东非航线的南端。船队在此交易象牙、香料，并收集当地物产与见闻。",
+      "en": "Malindi, in present-day Kenya, lies south of the equator and marked the southern end of the East African run. The fleet traded for ivory and spices and gathered local products and information."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《星槎胜览》",
+        "author": "费信",
+        "year": 1436,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "malindi-1415-01"
+    ]
+  },
+  {
+    "id": "beijing-1419-08",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "诸国贡麒麟",
+      "en": "Qilin and other tribute at court"
+    },
+    "date": "1419-08-08",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "voyage-5"
+    ],
+    "category": "政策",
+    "summary": {
+      "zh": "船队还朝，忽鲁谟斯、阿丹、木骨都束等国随船入贡狮子、麒麟、长角马等。",
+      "en": "The fleet returns with envoys from Hormuz, Aden, Mogadishu and others bringing lions, qilin and long-horned horses."
+    },
+    "description": {
+      "zh": "永乐十七年，船队返回，忽鲁谟斯进狮子、金钱豹、西马，阿丹进麒麟，祖法儿进长角马，木骨都束进花福鹿与狮子，卜剌哇进千里骆驼与鸵鸡。成祖下诏按等级赏赐下西洋将士。",
+      "en": "In 1419 the fleet returned: Hormuz sent lions, leopards and western horses, Aden a qilin, Dhofar long-horned horses, Mogadishu spotted deer and lions, and Brava camels and ostriches. The Yongle Emperor ordered rewards for the officers and men according to rank."
     },
     "images": [],
     "sources": [
@@ -1529,16 +3578,22 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
-        "title": "《郑和下西洋资料汇编》",
-        "author": "郑鹤声、郑一钧",
-        "year": 1980,
-        "note": "航线走向参考，坐标为示意简化"
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "return-1419-08"
+    ],
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "return-1419-08",
@@ -1574,7 +3629,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -1619,7 +3674,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -1629,6 +3684,293 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "changle-1421-03",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "长乐太平港候风",
+      "en": "Brief call at Taiping Port"
+    },
+    "date": "1421-03-15",
+    "location": {
+      "lng": 119.64,
+      "lat": 25.96,
+      "place": {
+        "zh": "福建长乐太平港",
+        "en": "Taiping Port, Changle, Fujian"
+      }
+    },
+    "entityIds": [
+      "voyage-6"
+    ],
+    "category": "航行",
+    "summary": {
+      "zh": "为赶东北季风，船队迅速南下，在长乐太平港短暂停泊后出洋。",
+      "en": "To catch the north-east monsoon the fleet hurries south, stopping only briefly at Taiping Port before putting to sea."
+    },
+    "description": {
+      "zh": "永乐十九年正月，成祖命郑和送十六国使臣归国。船队为赶季风，自太仓迅速南下，在长乐太平港补充给养后即出五虎门。",
+      "en": "In the first month of 1421 the Yongle Emperor ordered Zheng He to carry envoys of sixteen states home. Racing the monsoon, the fleet hurried south from Taicang, took on supplies at Taiping Port and immediately left through the Wuhu Gate."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和航海图》",
+        "author": "茅元仪《武备志》卷二四〇",
+        "year": 1621,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "depart-1421-03"
+    ]
+  },
+  {
+    "id": "champa-1421-04",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "送使臣还占城",
+      "en": "Envoys returned to Champa"
+    },
+    "date": "1421-04-01",
+    "location": {
+      "lng": 109.22,
+      "lat": 13.77,
+      "place": {
+        "zh": "占城（今越南归仁）",
+        "en": "Champa (Quy Nhon, Vietnam)"
+      }
+    },
+    "entityIds": [
+      "voyage-6"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵占城，送还使臣，颁赐国王。",
+      "en": "The fleet reaches Champa, returns its envoys and bestows gifts on the king."
+    },
+    "description": {
+      "zh": "占城是南下的第一站。郑和在此送还占城使臣，开读敕书并颁赐锦绮。",
+      "en": "Champa was the first stop on the southward run. Zheng He returned its envoys, read the imperial edict and distributed brocade."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "champa-1405-10"
+    ]
+  },
+  {
+    "id": "malacca-1421-05",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "满剌加集结",
+      "en": "Gathering at Malacca"
+    },
+    "date": "1421-05-01",
+    "location": {
+      "lng": 102.25,
+      "lat": 2.2,
+      "place": {
+        "zh": "满剌加（今马来西亚马六甲）",
+        "en": "Malacca (Melaka, Malaysia)"
+      }
+    },
+    "entityIds": [
+      "voyage-6"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队在满剌加集结，分拨货物并安排分䑸。",
+      "en": "The fleet gathers at Malacca, redistributes cargo and organises its squadrons."
+    },
+    "description": {
+      "zh": "满剌加官厂是船队的物资中转站。船队在此卸下颁赐诸国的货物，分拨各船，并安排前往榜葛剌的分䑸。",
+      "en": "The Malacca depot served as the fleet’s supply base. There the ships unloaded goods intended for the various states, redistributed them and organised the squadron bound for Bengal."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "malacca-1410-07",
+      "bengal-1421-11"
+    ]
+  },
+  {
+    "id": "samudera-1421-06",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "苏门答剌分䑸",
+      "en": "Squadron detached at Samudera"
+    },
+    "date": "1421-06-01",
+    "location": {
+      "lng": 97.15,
+      "lat": 5.18,
+      "place": {
+        "zh": "苏门答剌（今印尼苏门答腊）",
+        "en": "Samudera (Sumatra, Indonesia)"
+      }
+    },
+    "entityIds": [
+      "voyage-6"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队经苏门答剌，分遣一支分䑸北上榜葛剌。",
+      "en": "At Samudera the fleet detaches a squadron to sail north to Bengal."
+    },
+    "description": {
+      "zh": "主队西行前，船队在苏门答剌分遣一支分䑸，北上榜葛剌访问，随后返回苏门答剌与主队会合。",
+      "en": "Before the main fleet headed west, a squadron was detached at Samudera to visit Bengal in the north; it later returned to Samudera to rejoin the main body."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "bengal-1421-11"
+    ]
+  },
+  {
+    "id": "ceylon-1421-08",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "锡兰山泊船",
+      "en": "Calling at Ceylon"
+    },
+    "date": "1421-08-01",
+    "location": {
+      "lng": 79.86,
+      "lat": 6.93,
+      "place": {
+        "zh": "锡兰山（今斯里兰卡）",
+        "en": "Ceylon (Sri Lanka)"
+      }
+    },
+    "entityIds": [
+      "voyage-6"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队泊锡兰山，补充淡水与食物，继续西行。",
+      "en": "The fleet anchors at Ceylon for water and food before sailing on west."
+    },
+    "description": {
+      "zh": "锡兰山是横渡印度洋后的第一处大港。船队在此取水、修整，并送还锡兰山使臣。",
+      "en": "Ceylon was the first great port after the ocean crossing. The fleet watered and refitted there and returned the Ceylonese envoys."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和航海图》",
+        "author": "茅元仪《武备志》卷二四〇",
+        "year": 1621,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "ceylon-1406-06"
+    ]
+  },
+  {
+    "id": "calicut-1421-09",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "古里交易",
+      "en": "Trading at Calicut"
+    },
+    "date": "1421-09-01",
+    "location": {
+      "lng": 75.78,
+      "lat": 11.25,
+      "place": {
+        "zh": "古里（今印度科泽科德）",
+        "en": "Calicut (India)"
+      }
+    },
+    "entityIds": [
+      "voyage-6"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵古里，交易胡椒、宝石，等候前往波斯湾的季风。",
+      "en": "The fleet reaches Calicut to trade pepper and gems and waits for the wind to the Persian Gulf."
+    },
+    "description": {
+      "zh": "古里是西洋贸易总汇。船队在此交易胡椒、宝石与乳香，并等候西北季风。",
+      "en": "Calicut was the great emporium of the western ocean. The fleet traded for pepper, gems and frankincense and waited for the north-west monsoon."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "calicut-1406-12"
+    ]
   },
   {
     "id": "bengal-1421-11",
@@ -1670,7 +4012,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -1680,6 +4022,341 @@
       }
     ],
     "relatedIds": []
+  },
+  {
+    "id": "hormuz-1421-11",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "忽鲁谟斯颁赐",
+      "en": "Gifts at Hormuz"
+    },
+    "date": "1421-11-01",
+    "location": {
+      "lng": 56.46,
+      "lat": 27.1,
+      "place": {
+        "zh": "忽鲁谟斯（今伊朗霍尔木兹）",
+        "en": "Hormuz (Iran)"
+      }
+    },
+    "entityIds": [
+      "voyage-6"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵忽鲁谟斯，颁赐国王，采购宝石与良马。",
+      "en": "The fleet reaches Hormuz, bestows gifts on the king and buys gems and fine horses."
+    },
+    "description": {
+      "zh": "忽鲁谟斯是波斯湾口的贸易枢纽。郑和在此颁赐锦绮，采购宝石、珍珠与良马，并送还忽鲁谟斯使臣。",
+      "en": "Hormuz was the trading hub at the mouth of the Persian Gulf. Zheng He distributed brocade, bought gems, pearls and fine horses, and returned the Hormuz envoys."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "hormuz-1414-05"
+    ]
+  },
+  {
+    "id": "dhofar-1421-12",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "祖法儿开市",
+      "en": "Market at Dhofar"
+    },
+    "date": "1421-12-01",
+    "location": {
+      "lng": 54.09,
+      "lat": 17.02,
+      "place": {
+        "zh": "祖法儿（今阿曼佐法尔）",
+        "en": "Dhofar (Oman)"
+      }
+    },
+    "entityIds": [
+      "voyage-6"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队在祖法儿开读赏赐，当地人以乳香、血竭、芦荟、没药换取纻丝、瓷器。",
+      "en": "At Dhofar the fleet reads the imperial gifts, and locals trade frankincense, dragon’s blood, aloes and myrrh for silk and porcelain."
+    },
+    "description": {
+      "zh": "据《瀛涯胜览》，中国宝船到祖法儿，“开读赏赐毕，其王差头目遍谕国人，皆将乳香、血竭、芦荟、没药、安息香、苏合油、木别子之类，来换易纻丝、瓷器等物”。祖法儿因此成为船队在阿拉伯半岛南部的重要贸易点。",
+      "en": "According to Ma Huan, when the Chinese treasure ships reached Dhofar the imperial gifts were read out, and the king had his officers tell the whole country to bring frankincense, dragon’s blood, aloes, myrrh, benzoin, storax and similar goods to exchange for silk and porcelain. Dhofar thus became a key trading point in southern Arabia."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "dhofar-1415-01"
+    ]
+  },
+  {
+    "id": "aden-1422-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "阿丹交易",
+      "en": "Trading at Aden"
+    },
+    "date": "1422-01-01",
+    "location": {
+      "lng": 45.03,
+      "lat": 12.79,
+      "place": {
+        "zh": "阿丹（今也门亚丁）",
+        "en": "Aden (Yemen)"
+      }
+    },
+    "entityIds": [
+      "voyage-6"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵阿丹，采购宝石、珍珠与香料，并送还阿丹使臣。",
+      "en": "The fleet reaches Aden to buy gems, pearls and spices and to return Aden’s envoys."
+    },
+    "description": {
+      "zh": "阿丹扼守红海海口，是东西方商货的转运中心。船队在此交易宝石、珍珠、珊瑚与香料，并送还随船归国的阿丹使臣。",
+      "en": "Aden guarded the mouth of the Red Sea and was a transshipment centre for goods between east and west. The fleet traded for gems, pearls, coral and spices and returned the Aden envoys."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《星槎胜览》",
+        "author": "费信",
+        "year": 1436,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "aden-1418-06"
+    ]
+  },
+  {
+    "id": "mogadishu-1422-02",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "木骨都束补给",
+      "en": "Provisioning at Mogadishu"
+    },
+    "date": "1422-02-01",
+    "location": {
+      "lng": 45.34,
+      "lat": 2.05,
+      "place": {
+        "zh": "木骨都束（今索马里摩加迪沙）",
+        "en": "Mogadishu (Somalia)"
+      }
+    },
+    "entityIds": [
+      "voyage-6"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队再至木骨都束，补充给养并交换方物。",
+      "en": "The fleet calls again at Mogadishu to provision and exchange local products."
+    },
+    "description": {
+      "zh": "木骨都束是东非航线的重要停靠点。船队在此补充淡水与食物，以瓷器、丝绸交换象牙、香料与牲畜。",
+      "en": "Mogadishu was a key stop on the East African run. The fleet took on water and food and exchanged porcelain and silk for ivory, spices and livestock."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《星槎胜览》",
+        "author": "费信",
+        "year": 1436,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "mogadishu-1415-01"
+    ]
+  },
+  {
+    "id": "brava-1422-02",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "卜剌哇交易",
+      "en": "Trade at Brava"
+    },
+    "date": "1422-02-15",
+    "location": {
+      "lng": 43.33,
+      "lat": 1.11,
+      "place": {
+        "zh": "卜剌哇（今索马里布拉瓦）",
+        "en": "Brava (Somalia)"
+      }
+    },
+    "entityIds": [
+      "voyage-6"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵卜剌哇，交易象牙、香料与牲畜。",
+      "en": "The fleet reaches Brava to trade for ivory, spices and livestock."
+    },
+    "description": {
+      "zh": "卜剌哇以畜牧与贸易为生。船队在此交易象牙、香料与牲畜，并记录当地风土。",
+      "en": "Brava lived by herding and trade. The fleet traded for ivory, spices and livestock and recorded local customs."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《星槎胜览》",
+        "author": "费信",
+        "year": 1436,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "brava-1415-01"
+    ]
+  },
+  {
+    "id": "juba-1422-03",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "南至竹步",
+      "en": "South to Juba"
+    },
+    "date": "1422-03-01",
+    "location": {
+      "lng": 42.77,
+      "lat": 0.49,
+      "place": {
+        "zh": "竹步（今索马里朱巴）",
+        "en": "Juba (Somalia)"
+      }
+    },
+    "entityIds": [
+      "voyage-6"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队南至竹步，这是第六次下西洋到达的东非南端港口之一。",
+      "en": "The fleet sails south to Juba, one of the southernmost East African ports it reached on this voyage."
+    },
+    "description": {
+      "zh": "竹步位于今索马里朱巴河口，是船队东非航线上的南端停靠点之一。船队在此交易象牙、香料，并记录当地风土。",
+      "en": "Juba, near the mouth of the Juba River in present-day Somalia, was one of the southernmost stops on the East African run. The fleet traded for ivory and spices and recorded local conditions."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《星槎胜览》",
+        "author": "费信",
+        "year": 1436,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "juba-1415-01"
+    ]
+  },
+  {
+    "id": "malindi-1422-03",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "麻林地与幔八萨",
+      "en": "Malindi and Mombasa"
+    },
+    "date": "1422-03-15",
+    "location": {
+      "lng": 40.12,
+      "lat": -3.22,
+      "place": {
+        "zh": "麻林地（今肯尼亚马林迪）",
+        "en": "Malindi (Kenya)"
+      }
+    },
+    "entityIds": [
+      "voyage-6"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队访问麻林地，并及幔八萨（今肯尼亚蒙巴萨）。",
+      "en": "The fleet visits Malindi and Mombasa in present-day Kenya."
+    },
+    "description": {
+      "zh": "第六次下西洋的东非航段到达麻林地与幔八萨一带，是郑和船队在非洲东岸到达的最远区域之一。",
+      "en": "The East African leg of the sixth voyage reached Malindi and Mombasa, among the furthest points the fleet attained on the African coast."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "malindi-1415-01"
+    ]
   },
   {
     "id": "return-1422-09",
@@ -1715,7 +4392,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -1760,7 +4437,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -1808,7 +4485,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -1820,13 +4497,595 @@
     "relatedIds": []
   },
   {
+    "id": "changle-1431-02",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "长乐驻泊候风",
+      "en": "Wintering at Changle"
+    },
+    "date": "1431-02-01",
+    "location": {
+      "lng": 119.64,
+      "lat": 25.96,
+      "place": {
+        "zh": "福建长乐太平港",
+        "en": "Taiping Port, Changle, Fujian"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "航行",
+    "summary": {
+      "zh": "船队在长乐太平港驻泊近半年，修船、补给、候风。",
+      "en": "The fleet lies at Taiping Port for nearly half a year, refitting, provisioning and waiting for the monsoon."
+    },
+    "description": {
+      "zh": "宣德六年，船队抵长乐太平港，在此停留约半年，重修天妃宫、检修船只，等待冬季东北季风。",
+      "en": "In 1431 the fleet reached Taiping Port and stayed for about half a year, rebuilding the Tianfei temple, overhauling ships and waiting for the winter north-east monsoon."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "depart-1431-01",
+      "tianfei-1431-11"
+    ]
+  },
+  {
+    "id": "siam-edict-1431-03",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "敕谕暹罗",
+      "en": "Edict to Siam"
+    },
+    "date": "1431-03-20",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北京",
+        "en": "Beijing"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "政策",
+    "summary": {
+      "zh": "宣宗闻满剌加国王欲亲朝而被暹罗阻挠，命郑和赍敕谕暹罗睦邻。",
+      "en": "Hearing that Siam blocked Malacca’s king from coming to court, the Xuande Emperor orders Zheng He to carry an edict urging Siam to keep the peace."
+    },
+    "description": {
+      "zh": "宣德六年二月，宣宗因满剌加国王欲亲赴明朝朝贡而被暹罗阻拦，命郑和前往暹罗传谕，要求其与邻国和好、不得阻挠朝贡。",
+      "en": "In the second month of 1431, because Siam had blocked the king of Malacca from coming to pay tribute, the Xuande Emperor ordered Zheng He to carry an edict to Siam demanding good relations with its neighbours and an end to interference with tribute missions."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "malacca-1432-03"
+    ],
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "tianfei-1431-11",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "长乐天妃宫碑",
+      "en": "The Changle Tianfei inscription"
+    },
+    "date": "1431-11-01",
+    "location": {
+      "lng": 119.64,
+      "lat": 25.96,
+      "place": {
+        "zh": "福建长乐太平港",
+        "en": "Taiping Port, Changle, Fujian"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "政策",
+    "summary": {
+      "zh": "郑和在长乐重修天妃宫，立《天妃灵应之记》碑，记历次下西洋与天妃护佑。",
+      "en": "Zheng He rebuilds the Tianfei temple at Changle and sets up the “Tianfei Lingying” stele recording the voyages and the goddess’s protection."
+    },
+    "description": {
+      "zh": "船队在长乐候风期间重修天妃宫，立《天妃灵应之记》碑，碑文记述历次下西洋的时间和主要经历，是研究郑和航海的重要实物史料。",
+      "en": "While waiting at Changle the fleet rebuilt the temple of the sea goddess Tianfei and erected the “Tianfei Lingying” stele. Its text records the dates and main events of the voyages and remains a key contemporary source for Zheng He’s navigation."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "changle-1431-02"
+    ]
+  },
+  {
+    "id": "champa-1431-12",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "抵占城",
+      "en": "Reaching Champa"
+    },
+    "date": "1431-12-15",
+    "location": {
+      "lng": 109.22,
+      "lat": 13.77,
+      "place": {
+        "zh": "占城（今越南归仁）",
+        "en": "Champa (Quy Nhon, Vietnam)"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队自五虎门出洋，抵占城，颁赐国王并送还使臣。",
+      "en": "The fleet puts out through the Wuhu Gate and reaches Champa, bestowing gifts and returning envoys."
+    },
+    "description": {
+      "zh": "船队出五虎门后南行至占城，开读宣宗敕书，颁赐国王与头目，并送还占城使臣。",
+      "en": "After leaving through the Wuhu Gate the fleet sailed south to Champa, read the Xuande Emperor’s edict, bestowed gifts on the king and chiefs, and returned the Champa envoys."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "champa-1405-10"
+    ]
+  },
+  {
+    "id": "palembang-1432-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "旧港宣慰司",
+      "en": "The Palembang pacification commission"
+    },
+    "date": "1432-01-10",
+    "location": {
+      "lng": 104.75,
+      "lat": -2.99,
+      "place": {
+        "zh": "旧港（今印尼巨港）",
+        "en": "Palembang (Indonesia)"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵旧港宣慰司，抚谕当地华人头目。",
+      "en": "The fleet reaches the Palembang commission and reassures the local Chinese leaders."
+    },
+    "description": {
+      "zh": "旧港在第一次下西洋后设宣慰司，以华侨施进卿为宣慰使。船队此次南巡，抚谕当地头目，重申明朝的羁縻统治。",
+      "en": "After the first voyage a pacification commission had been set up at Palembang under the Chinese settler Shi Jinqing. On this voyage the fleet visited again, reassuring local leaders and restating Ming suzerainty."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "palembang-1407-01"
+    ]
+  },
+  {
+    "id": "java-1432-02",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "访问爪哇",
+      "en": "Visiting Java"
+    },
+    "date": "1432-02-01",
+    "location": {
+      "lng": 112.37,
+      "lat": -7.56,
+      "place": {
+        "zh": "爪哇（今印尼东爪哇）",
+        "en": "Java (Indonesia)"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队访问爪哇，与满者伯夷王廷通好。",
+      "en": "The fleet visits Java and opens friendly relations with the Majapahit court."
+    },
+    "description": {
+      "zh": "爪哇是南洋人口最稠密、物产最丰富的地区之一。船队在此交易香料、蔗糖与布匹，并与满者伯夷王廷通好。",
+      "en": "Java was among the most populous and productive regions of the southern seas. The fleet traded for spices, sugar and cloth and established friendly relations with the Majapahit court."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "java-1406-07"
+    ]
+  },
+  {
+    "id": "malacca-1432-03",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "满剌加驻泊",
+      "en": "Anchoring at Malacca"
+    },
+    "date": "1432-03-01",
+    "location": {
+      "lng": 102.25,
+      "lat": 2.2,
+      "place": {
+        "zh": "满剌加（今马来西亚马六甲）",
+        "en": "Malacca (Melaka, Malaysia)"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队在满剌加驻泊，重申册封，并等候分䑸。",
+      "en": "The fleet anchors at Malacca, reaffirms its enfeoffment and waits while squadrons form."
+    },
+    "description": {
+      "zh": "满剌加是船队在西洋的中转基地。郑和在此重申明朝对满剌加的册封与保护，并安排前往天方与东非的航程。",
+      "en": "Malacca was the fleet’s base in the western ocean. Zheng He reaffirmed Ming enfeoffment and protection and arranged the runs to Mecca and East Africa."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "siam-edict-1431-03"
+    ]
+  },
+  {
+    "id": "samudera-1432-04",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "苏门答剌候风",
+      "en": "Waiting at Samudera"
+    },
+    "date": "1432-04-01",
+    "location": {
+      "lng": 97.15,
+      "lat": 5.18,
+      "place": {
+        "zh": "苏门答剌（今印尼苏门答腊）",
+        "en": "Samudera (Sumatra, Indonesia)"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队经苏门答剌、南巫里进入印度洋。",
+      "en": "The fleet passes Samudera and Lamuri into the Indian Ocean."
+    },
+    "description": {
+      "zh": "船队在苏门答剌补充给养，经南巫里西行，横渡印度洋前往锡兰山。",
+      "en": "The fleet provisioned at Samudera and sailed west by Lamuri, crossing the Indian Ocean to Ceylon."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《郑和下西洋资料汇编》",
+        "author": "郑鹤声、郑一钧",
+        "year": 1980,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和航海图》",
+        "author": "茅元仪《武备志》卷二四〇",
+        "year": 1621,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "samudera-1406-03"
+    ]
+  },
+  {
+    "id": "ceylon-1432-05",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "锡兰山泊船",
+      "en": "Calling at Ceylon"
+    },
+    "date": "1432-05-01",
+    "location": {
+      "lng": 79.86,
+      "lat": 6.93,
+      "place": {
+        "zh": "锡兰山（今斯里兰卡）",
+        "en": "Ceylon (Sri Lanka)"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队泊锡兰山，补充淡水与食物。",
+      "en": "The fleet anchors at Ceylon for water and food."
+    },
+    "description": {
+      "zh": "锡兰山是横渡印度洋后的第一处大港。船队在此取水、修整，并送还锡兰山使臣。",
+      "en": "Ceylon was the first great port after the ocean crossing. The fleet watered and refitted there and returned the Ceylonese envoys."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《郑和航海图》",
+        "author": "茅元仪《武备志》卷二四〇",
+        "year": 1621,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "ceylon-1406-06"
+    ]
+  },
+  {
+    "id": "calicut-1432-07",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "古里分遣天方",
+      "en": "Detachment sent to Mecca"
+    },
+    "date": "1432-07-01",
+    "location": {
+      "lng": 75.78,
+      "lat": 11.25,
+      "place": {
+        "zh": "古里（今印度科泽科德）",
+        "en": "Calicut (India)"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵古里，郑和在此分派使者前往天方（麦加）。",
+      "en": "At Calicut Zheng He sends envoys on to Mecca."
+    },
+    "description": {
+      "zh": "古里是第七次下西洋的西行枢纽。郑和在此分遣使者，随当地商船前往天方（麦加）朝觐并采办方物；主队则继续前往忽鲁谟斯、阿丹。",
+      "en": "Calicut was the hinge of the seventh voyage’s westward run. Zheng He sent envoys on local ships to Mecca to perform the pilgrimage and obtain exotic goods, while the main fleet continued to Hormuz and Aden."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "《明史·郑和传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "mecca-1432-06"
+    ]
+  },
+  {
+    "id": "hormuz-1432-08",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "忽鲁谟斯颁赐",
+      "en": "Gifts at Hormuz"
+    },
+    "date": "1432-08-01",
+    "location": {
+      "lng": 56.46,
+      "lat": 27.1,
+      "place": {
+        "zh": "忽鲁谟斯（今伊朗霍尔木兹）",
+        "en": "Hormuz (Iran)"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵忽鲁谟斯，颁赐国王，采购宝石、香料与马匹。",
+      "en": "The fleet reaches Hormuz, bestows gifts on the king and buys gems, spices and horses."
+    },
+    "description": {
+      "zh": "忽鲁谟斯是波斯湾口的贸易枢纽。郑和在此颁赐锦绮，采购宝石、珍珠、香料与良马，并送还忽鲁谟斯使臣。",
+      "en": "Hormuz was the trading hub at the mouth of the Persian Gulf. Zheng He distributed brocade, bought gems, pearls, spices and fine horses, and returned the Hormuz envoys."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "hormuz-1414-05"
+    ]
+  },
+  {
+    "id": "aden-1432-09",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "阿丹会合",
+      "en": "Rendezvous at Aden"
+    },
+    "date": "1432-09-01",
+    "location": {
+      "lng": 45.03,
+      "lat": 12.79,
+      "place": {
+        "zh": "阿丹（今也门亚丁）",
+        "en": "Aden (Yemen)"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵阿丹，与赴天方使者会合，采购乳香、没药与宝石。",
+      "en": "The fleet reaches Aden, rejoins the envoys returning from Mecca and buys frankincense, myrrh and gems."
+    },
+    "description": {
+      "zh": "阿丹扼守红海海口。船队在此采购乳香、没药、宝石与香料，并与自天方返回的使者会合，随后南下东非。",
+      "en": "Aden guarded the mouth of the Red Sea. The fleet bought frankincense, myrrh, gems and spices there, rejoined the envoys returning from Mecca, and then sailed south to East Africa."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《瀛涯胜览》",
+        "author": "马欢",
+        "year": 1451,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "mecca-1432-06"
+    ]
+  },
+  {
     "id": "mecca-1432-06",
     "atlasId": "zheng-he",
     "name": {
       "zh": "天方",
       "en": "Mecca"
     },
-    "date": "1432-06-01",
+    "date": "1432-10-01",
     "location": {
       "lng": 39.83,
       "lat": 21.42,
@@ -1844,8 +5103,8 @@
       "en": "A detachment of Zheng He’s fleet visited Mecca for pilgrimage and trade."
     },
     "description": {
-      "zh": "1432 年，郑和船队分遣队访问天方，完成朝觐并开展贸易。该路线为分遣队示意路线，待史料校订。",
-      "en": "In 1432, a detachment of Zheng He’s fleet visited Mecca, performing pilgrimage and conducting trade. The route is an illustrative detachment route and awaits historical review."
+      "zh": "郑和在古里分遣使者，随当地商船前往天方（麦加）朝觐，并采办麒麟、狮子、鸵鸟等方物。使者往返历时数月，其后在阿丹与主队会合。",
+      "en": "At Calicut Zheng He sent envoys on local ships to Mecca to perform the pilgrimage and obtain qilin, lions, ostriches and other exotic goods. The round trip took several months, and the envoys rejoined the fleet at Aden."
     },
     "images": [],
     "sources": [
@@ -1853,7 +5112,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -1867,6 +5126,150 @@
       "calicut-1433-04"
     ],
     "importance": 2
+  },
+  {
+    "id": "mogadishu-1432-12",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "木骨都束交易",
+      "en": "Trade at Mogadishu"
+    },
+    "date": "1432-12-01",
+    "location": {
+      "lng": 45.34,
+      "lat": 2.05,
+      "place": {
+        "zh": "木骨都束（今索马里摩加迪沙）",
+        "en": "Mogadishu (Somalia)"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队南至木骨都束，交换象牙、香料与方物。",
+      "en": "The fleet sails south to Mogadishu to exchange for ivory, spices and local products."
+    },
+    "description": {
+      "zh": "木骨都束是东非航线的重要停靠点。船队在此以瓷器、丝绸交换象牙、香料与牲畜，并补充淡水。",
+      "en": "Mogadishu was a key stop on the East African run. The fleet exchanged porcelain and silk for ivory, spices and livestock, and took on fresh water."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《星槎胜览》",
+        "author": "费信",
+        "year": 1436,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "mogadishu-1415-01"
+    ]
+  },
+  {
+    "id": "brava-1433-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "卜剌哇交易",
+      "en": "Trade at Brava"
+    },
+    "date": "1433-01-01",
+    "location": {
+      "lng": 43.33,
+      "lat": 1.11,
+      "place": {
+        "zh": "卜剌哇（今索马里布拉瓦）",
+        "en": "Brava (Somalia)"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队抵卜剌哇，交易象牙、香料。",
+      "en": "The fleet reaches Brava to trade for ivory and spices."
+    },
+    "description": {
+      "zh": "卜剌哇以畜牧与贸易为生。船队在此交易象牙、香料与牲畜，并收集当地物产见闻。",
+      "en": "Brava lived by herding and trade. The fleet traded for ivory, spices and livestock and gathered local products and information."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《星槎胜览》",
+        "author": "费信",
+        "year": 1436,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "brava-1415-01"
+    ]
+  },
+  {
+    "id": "juba-1433-01",
+    "atlasId": "zheng-he",
+    "name": {
+      "zh": "南至竹步",
+      "en": "South to Juba"
+    },
+    "date": "1433-01-15",
+    "location": {
+      "lng": 42.77,
+      "lat": 0.49,
+      "place": {
+        "zh": "竹步（今索马里朱巴）",
+        "en": "Juba (Somalia)"
+      }
+    },
+    "entityIds": [
+      "voyage-7"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "船队南至竹步，随后折返古里。",
+      "en": "The fleet sails south to Juba, then turns back towards Calicut."
+    },
+    "description": {
+      "zh": "竹步是船队东非航线的南端停靠点之一。船队在此交易象牙、香料，随后折返古里；郑和即在归程中病逝于古里。",
+      "en": "Juba was one of the southernmost stops on the East African run. The fleet traded for ivory and spices and then turned back towards Calicut, where Zheng He died on the return journey."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《星槎胜览》",
+        "author": "费信",
+        "year": 1436,
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      },
+      {
+        "title": "郑和船队七次下西洋",
+        "author": "上海中国航海博物馆",
+        "year": 2024,
+        "url": "https://www.wti.ac.cn/wti/zhls/7351.jhtml",
+        "note": "日期按史料纪年换算，具体日份为研究推定"
+      }
+    ],
+    "relatedIds": [
+      "calicut-1433-04"
+    ]
   },
   {
     "id": "calicut-1433-04",
@@ -1899,8 +5302,8 @@
       "en": "Zheng He dies at Calicut during the seventh voyage."
     },
     "description": {
-      "zh": "1433 年，郑和在古里去世，船队由王景弘等率领返回。",
-      "en": "In 1433, Zheng He died at Calicut; the fleet returned under Wang Jinghong and others."
+      "zh": "1433 年，郑和在第七次下西洋归程中病逝于古里，终年六十余岁。船队由太监王景弘等率领，于是年七月返抵南京。",
+      "en": "In 1433, on the return leg of the seventh voyage, Zheng He died at Calicut in his sixties. The fleet returned to Nanjing in the seventh month under the eunuch Wang Jinghong and others."
     },
     "images": [],
     "sources": [
@@ -1908,7 +5311,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
@@ -1953,7 +5356,7 @@
         "title": "《明史·郑和传》",
         "author": "张廷玉等",
         "year": 1739,
-        "note": "事件日期与地点为初稿，待逐条校订"
+        "note": "日期按史料纪年换算，具体日份为研究推定"
       },
       {
         "title": "《郑和下西洋资料汇编》",
