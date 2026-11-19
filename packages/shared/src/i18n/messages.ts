@@ -72,6 +72,7 @@ const zh = {
   'common.relatedEvents': '关联事件',
   'common.segment': '{count} 段',
   'common.segments': '{count} 段',
+  'common.event': '{count} 个事件',
   'common.events': '{count} 个事件',
 
   'gallery.subtitle': '历史专题',
@@ -259,6 +260,7 @@ const en: Record<keyof typeof zh, string> = {
   'common.relatedEvents': 'Related events',
   'common.segment': '{count} segment',
   'common.segments': '{count} segments',
+  'common.event': '{count} event',
   'common.events': '{count} events',
 
   'gallery.subtitle': 'Historical atlases',

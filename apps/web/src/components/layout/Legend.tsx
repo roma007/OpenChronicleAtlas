@@ -123,6 +123,9 @@ export function Legend({ className = '' }: LegendProps) {
           const segments = dataset.routes.filter(
             (route) => route.properties.entityId === entity.id,
           ).length;
+          const eventCount = dataset.events.filter((event) =>
+            event.entityIds.includes(entity.id),
+          ).length;
 
           return (
             <li
@@ -152,7 +155,11 @@ export function Legend({ className = '' }: LegendProps) {
                   ? t(segments === 1 ? 'common.segment' : 'common.segments', {
                       count: segments,
                     })
-                  : '—'}
+                  : eventCount > 0
+                    ? t(eventCount === 1 ? 'common.event' : 'common.events', {
+                        count: eventCount,
+                      })
+                    : '—'}
               </span>
               <button
                 type="button"
