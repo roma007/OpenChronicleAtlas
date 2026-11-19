@@ -5834,6 +5834,56 @@
     "importance": 2
   },
   {
+    "id": "kmt-12th-group-army-guangzhou-1938-10",
+    "name": {
+      "zh": "第12集团军防守广州",
+      "en": "12th Group Army Defends Guangzhou"
+    },
+    "date": "1938-10-12",
+    "endDate": "1938-10-21",
+    "location": {
+      "lng": 113.26,
+      "lat": 23.13,
+      "place": {
+        "zh": "广东广州",
+        "en": "Guangzhou, Guangdong"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军第21军在大亚湾登陆后进攻广州，第12集团军在增城、广州外围抵抗，广州于 10 月 21 日失守。",
+      "en": "After landing at Daya Bay the Japanese 21st Army advanced on Guangzhou; the 12th Group Army resisted around Zengcheng and the city fell on 21 October."
+    },
+    "description": {
+      "zh": "1938 年 10 月 12 日，日军第21军在大亚湾登陆，沿广九铁路进攻广州。第12集团军（总司令余汉谋）在增城、广州外围抵抗，但兵力分散、准备不足，广州于 10 月 21 日失守。\n\n日期与主官为通行说法，待页码级核对。",
+      "en": "On 12 October 1938 the Japanese 21st Army landed at Daya Bay and advanced on Guangzhou along the Kowloon–Canton railway. The 12th Group Army under Yu Hanmou resisted around Zengcheng and the city’s outskirts, but with dispersed forces and insufficient preparation, Guangzhou fell on 21 October.\n\nDates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "japanese-guangzhou-1938-10",
+      "guangzhou-fall-1938-10"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
     "id": "guangzhou-fall-1938-10",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -13777,6 +13827,56 @@
     "importance": 2
   },
   {
+    "id": "kmt-15th-army-luoyang-1944-05",
+    "name": {
+      "zh": "第15军防守洛阳",
+      "en": "15th Army Defends Luoyang"
+    },
+    "date": "1944-05-09",
+    "endDate": "1944-05-25",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "河南洛阳",
+        "en": "Luoyang, Henan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "豫中会战中，第15军守洛阳，与日军第12军激战，洛阳于 5 月 25 日失守。",
+      "en": "In the Central Henan campaign the 15th Army defended Luoyang against the Japanese 12th Army; the city fell on 25 May."
+    },
+    "description": {
+      "zh": "1944 年 5 月豫中会战中，第15军（军长武庭麟）守洛阳，依托城防工事与日军第12军等部激战十余日。5 月 25 日洛阳失守，守军突围。\n\n日期与主官为通行说法，待页码级核对。",
+      "en": "In the Central Henan campaign of May 1944 the 15th Army under Wu Tinglin defended Luoyang, fighting the Japanese 12th Army and other units for more than ten days from the city’s fortifications. Luoyang fell on 25 May and the defenders broke out.\n\nDates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "japanese-luoyang-1944-05",
+      "kmt-1st-war-zone-henan-1944-04"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
     "id": "dianxi-1944-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -14443,6 +14543,57 @@
       "ichigo-offensive-1944-04"
     ],
     "importance": 2
+  },
+  {
+    "id": "kmt-4th-army-changsha-1944-06",
+    "name": {
+      "zh": "第4军防守长沙",
+      "en": "4th Army Defends Changsha"
+    },
+    "date": "1944-06-18",
+    "endDate": "1944-06-19",
+    "location": {
+      "lng": 112.94,
+      "lat": 28.23,
+      "place": {
+        "zh": "湖南长沙",
+        "en": "Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "长衡会战中，第4军守长沙，与日军第11军激战，长沙于 6 月 19 日失守。",
+      "en": "In the Changsha–Hengyang campaign the 4th Army defended Changsha against the Japanese 11th Army; the city fell on 19 June."
+    },
+    "description": {
+      "zh": "1944 年 6 月，日军第11军进攻长沙。第4军（军长张德能）在长沙城郊抵抗，因指挥与部署失误，长沙于 6 月 19 日失守，第4军突围。此后日军继续南下进攻衡阳。\n\n日期与主官为通行说法，待页码级核对。",
+      "en": "In June 1944 the Japanese 11th Army attacked Changsha. The 4th Army under Zhang Deneng resisted around the city but, hampered by command and deployment failures, lost Changsha on 19 June and broke out. The Japanese then continued south toward Hengyang.\n\nDates and appointments follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "japanese-changsha-1944-06",
+      "hengyang-1944-06",
+      "kmt-10th-army-hengyang-1944-06"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
   },
   {
     "id": "hengyang-1944-06",

@@ -1904,6 +1904,44 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.26,
+            23.13
+          ],
+          [
+            113.6,
+            23.2
+          ],
+          [
+            113.81,
+            23.29
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1938-10-12",
+        "endDate": "1938-10-21",
+        "order": 67,
+        "segmentType": "defense",
+        "name": {
+          "zh": "第12集团军：广州—增城防线",
+          "en": "12th Group Army: Guangzhou–Zengcheng Line"
+        },
+        "description": {
+          "zh": "第12集团军在增城、广州外围抵抗日军第21军。示意简化路线，待史料校订。",
+          "en": "The 12th Group Army resisted the Japanese 21st Army around Zengcheng and the outskirts of Guangzhou. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
