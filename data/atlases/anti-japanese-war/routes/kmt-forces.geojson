@@ -1413,6 +1413,10 @@
             30.7
           ],
           [
+            111.69,
+            29.03
+          ],
+          [
             110.39,
             28.46
           ],
@@ -1429,8 +1433,8 @@
         "order": 38,
         "segmentType": "advance",
         "name": {
-          "zh": "第18军：石牌—沅陵",
-          "en": "18th Army: Shipai–Yuanling"
+          "zh": "第18军：石牌—常德—沅陵",
+          "en": "18th Army: Shipai–Changde–Yuanling"
         },
         "description": {
           "zh": "石牌保卫战后，第18军调防湘西沅陵、辰溪，参加湘西会战。示意简化路线，待史料校订。",
@@ -2231,6 +2235,162 @@
         "description": {
           "zh": "第60军进驻蒙自、河口一线，防守滇越边境，直至抗战胜利。示意简化路线，待史料校订。",
           "en": "The 60th Army held the Mengzi–Hekou line on the Sino-Vietnamese border until the end of the war. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.83,
+            24.88
+          ],
+          [
+            106.63,
+            26.65
+          ],
+          [
+            112.94,
+            28.23
+          ],
+          [
+            115.89,
+            28.68
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1938-06-01",
+        "endDate": "1938-09-01",
+        "order": 59,
+        "segmentType": "advance",
+        "name": {
+          "zh": "第58军：昆明—贵阳—长沙—南昌",
+          "en": "58th Army: Kunming–Guiyang–Changsha–Nanchang"
+        },
+        "description": {
+          "zh": "第58军自云南经贵阳、长沙开赴赣北，参加第9战区作战。示意简化路线，待史料校订。",
+          "en": "The 58th Army moved from Yunnan via Guiyang and Changsha to northern Jiangxi for operations in the 9th War Zone. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.94,
+            28.23
+          ],
+          [
+            114.14,
+            29.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1938-10-01",
+        "endDate": "1938-11-30",
+        "order": 60,
+        "segmentType": "advance",
+        "name": {
+          "zh": "新3军：长沙—崇阳",
+          "en": "New 3rd Army: Changsha–Chongyang"
+        },
+        "description": {
+          "zh": "新3军在长沙编成后开赴湖北崇阳作战。示意简化路线，待史料校订。",
+          "en": "After forming at Changsha the New 3rd Army moved to Chongyang in Hubei. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.89,
+            28.68
+          ],
+          [
+            115.38,
+            28.42
+          ],
+          [
+            112.94,
+            28.23
+          ],
+          [
+            113.58,
+            28.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1939-01-01",
+        "endDate": "1945-08-15",
+        "order": 61,
+        "segmentType": "defense",
+        "name": {
+          "zh": "第58军：南昌—高安—长沙—平江",
+          "en": "58th Army: Nanchang–Gao’an–Changsha–Pingjiang"
+        },
+        "description": {
+          "zh": "第58军长期转战赣北、湘北，参加南昌会战、长沙会战与赣北游击。示意简化路线，待史料校订。",
+          "en": "The 58th Army fought for years in northern Jiangxi and northern Hunan, taking part in the Nanchang and Changsha campaigns and guerrilla operations. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.14,
+            29.55
+          ],
+          [
+            112.94,
+            28.23
+          ],
+          [
+            115.38,
+            28.42
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1938-12-01",
+        "endDate": "1945-08-15",
+        "order": 62,
+        "segmentType": "defense",
+        "name": {
+          "zh": "新3军：崇阳—长沙—高安",
+          "en": "New 3rd Army: Chongyang–Changsha–Gao’an"
+        },
+        "description": {
+          "zh": "新3军转战湘北、赣北，隶属第9战区。示意简化路线，待史料校订。",
+          "en": "The New 3rd Army fought in northern Hunan and northern Jiangxi under the 9th War Zone. Illustrative simplified route, pending historical review."
         },
         "extensions": {
           "precision": "schematic"
