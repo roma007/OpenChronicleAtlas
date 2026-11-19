@@ -1855,24 +1855,20 @@
             29.33
           ],
           [
-            113,
-            28.5
-          ],
-          [
-            112.94,
-            28.23
+            115.89,
+            28.68
           ]
         ]
       },
       "properties": {
         "entityId": "kmt-forces",
         "startDate": "1938-10-11",
-        "endDate": "1939-10-15",
+        "endDate": "1939-03-17",
         "order": 49,
         "segmentType": "advance",
         "name": {
-          "zh": "第74军：德安—长沙",
-          "en": "74th Army: De’an–Changsha"
+          "zh": "第74军：德安—南昌",
+          "en": "74th Army: De’an–Nanchang"
         },
         "description": {
           "zh": "万家岭战斗后，第74军转至湘北，参加第一次长沙会战。示意简化路线，待史料校订。",
@@ -1957,6 +1953,284 @@
         "description": {
           "zh": "滇军第60军抵徐州后开赴禹王山，与日军激战近一个月。示意简化路线，待史料校订。",
           "en": "After reaching Xuzhou the Yunnan 60th Army moved to Yuwangshan and fought the Japanese for nearly a month. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.89,
+            28.68
+          ],
+          [
+            115.6,
+            28.55
+          ],
+          [
+            115.38,
+            28.42
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1939-03-18",
+        "endDate": "1939-04-21",
+        "order": 52,
+        "segmentType": "advance",
+        "name": {
+          "zh": "第74军：南昌—高安",
+          "en": "74th Army: Nanchang–Gao’an"
+        },
+        "description": {
+          "zh": "南昌会战中，第74军在高安、官桥、泗溪一线作战并参加反攻南昌。示意简化路线，待史料校订。",
+          "en": "In the Nanchang campaign the 74th Army fought at Gao’an, Guanqiao, and Sixi and joined the counterattack on Nanchang. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.38,
+            28.42
+          ],
+          [
+            113,
+            28.5
+          ],
+          [
+            112.94,
+            28.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1939-05-10",
+        "endDate": "1939-09-14",
+        "order": 53,
+        "segmentType": "advance",
+        "name": {
+          "zh": "第74军：高安—长沙",
+          "en": "74th Army: Gao’an–Changsha"
+        },
+        "description": {
+          "zh": "南昌会战后，第74军由赣北高安转赴湘北，参加第一次长沙会战。示意简化路线，待史料校订。",
+          "en": "After the Nanchang campaign the 74th Army moved from Gao’an in northern Jiangxi to northern Hunan and fought in the first Battle of Changsha. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47,
+            31.23
+          ],
+          [
+            121.35,
+            31.4
+          ],
+          [
+            120.6,
+            31.3
+          ],
+          [
+            118.8,
+            32.06
+          ],
+          [
+            117.05,
+            30.5
+          ],
+          [
+            114.3,
+            30.59
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1937-08-23",
+        "endDate": "1938-10-25",
+        "order": 54,
+        "segmentType": "advance",
+        "name": {
+          "zh": "第18军：上海—罗店—武汉",
+          "en": "18th Army: Shanghai–Luodian–Wuhan"
+        },
+        "description": {
+          "zh": "第18军参加淞沪罗店争夺战，1937 年底撤退，1938 年参加武汉会战。示意简化路线，待史料校订。",
+          "en": "The 18th Army fought at Luodian in the Shanghai campaign, withdrew in late 1937, and fought in the Wuhan campaign in 1938. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.7,
+            34.4
+          ],
+          [
+            117.18,
+            34.26
+          ],
+          [
+            114.3,
+            30.59
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1938-05-19",
+        "endDate": "1938-08-31",
+        "order": 55,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "第60军：禹王山—武汉",
+          "en": "60th Army: Yuwangshan–Wuhan"
+        },
+        "description": {
+          "zh": "禹王山战斗后，滇军第60军突围撤往武汉。示意简化路线，待史料校订。",
+          "en": "After Yuwangshan the Yunnan 60th Army broke out and withdrew to Wuhan. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3,
+            30.59
+          ],
+          [
+            115.36,
+            28.86
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1938-09-01",
+        "endDate": "1940-05-01",
+        "order": 56,
+        "segmentType": "defense",
+        "name": {
+          "zh": "第60军：武汉—靖安",
+          "en": "60th Army: Wuhan–Jing’an"
+        },
+        "description": {
+          "zh": "武汉会战后，第60军转至赣北靖安、安义一线驻防。示意简化路线，待史料校订。",
+          "en": "After the Wuhan campaign the 60th Army moved to Jing’an and Anyi in northern Jiangxi. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.36,
+            28.86
+          ],
+          [
+            112.94,
+            28.23
+          ],
+          [
+            106.63,
+            26.65
+          ],
+          [
+            102.83,
+            24.88
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1940-09-01",
+        "endDate": "1940-10-01",
+        "order": 57,
+        "segmentType": "advance",
+        "name": {
+          "zh": "第60军：靖安—昆明",
+          "en": "60th Army: Jing’an–Kunming"
+        },
+        "description": {
+          "zh": "1940 年 9 月，第60军由赣北调回云南，防守滇越边境。示意简化路线，待史料校订。",
+          "en": "In September 1940 the 60th Army moved from northern Jiangxi back to Yunnan to guard the Sino-Vietnamese border. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.83,
+            24.88
+          ],
+          [
+            103.38,
+            23.36
+          ],
+          [
+            103.94,
+            22.51
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1940-10-02",
+        "endDate": "1945-08-15",
+        "order": 58,
+        "segmentType": "defense",
+        "name": {
+          "zh": "第60军：昆明—蒙自—河口",
+          "en": "60th Army: Kunming–Mengzi–Hekou"
+        },
+        "description": {
+          "zh": "第60军进驻蒙自、河口一线，防守滇越边境，直至抗战胜利。示意简化路线，待史料校订。",
+          "en": "The 60th Army held the Mengzi–Hekou line on the Sino-Vietnamese border until the end of the war. Illustrative simplified route, pending historical review."
         },
         "extensions": {
           "precision": "schematic"

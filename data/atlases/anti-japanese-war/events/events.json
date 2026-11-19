@@ -6009,6 +6009,56 @@
     "importance": 2
   },
   {
+    "id": "kmt-74th-army-nanchang-1939-03",
+    "name": {
+      "zh": "第74军参加南昌会战",
+      "en": "74th Army in the Battle of Nanchang"
+    },
+    "date": "1939-03-17",
+    "endDate": "1939-05-09",
+    "location": {
+      "lng": 115.38,
+      "lat": 28.42,
+      "place": {
+        "zh": "江西高安",
+        "en": "Gao’an, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第74军在赣北高安、官桥、泗溪一线参加南昌会战，反攻南昌。",
+      "en": "The 74th Army fought in the Nanchang campaign along the Gao’an, Guanqiao, and Sixi line in northern Jiangxi."
+    },
+    "description": {
+      "zh": "1939 年 3 至 5 月南昌会战期间，第74军在赣北高安、官桥、泗溪一线抗击日军第34师团等部，并于 4 月参加反攻南昌。第74军是赣北战场表现最突出的部队之一。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "During the Battle of Nanchang from March to May 1939, the 74th Army fought the Japanese 34th Division and other units along the Gao’an, Guanqiao, and Sixi line in northern Jiangxi, and joined the counterattack on Nanchang in April. It was one of the best-performing Chinese units in the northern Jiangxi theater.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "kmt-74th-army-formed-1937-09",
+      "kmt-74th-army-gaoan-1939-07"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
     "id": "japanese-suizao-1939-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -6345,6 +6395,55 @@
       "wuhan-fall-1938-10"
     ],
     "importance": 2
+  },
+  {
+    "id": "kmt-74th-army-gaoan-1939-07",
+    "name": {
+      "zh": "第74军驻防高安",
+      "en": "74th Army Stationed at Gao’an"
+    },
+    "date": "1939-07-01",
+    "location": {
+      "lng": 115.38,
+      "lat": 28.42,
+      "place": {
+        "zh": "江西高安",
+        "en": "Gao’an, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "王耀武接任第74军军长，部队驻防赣北高安，参加第一次长沙会战与上高会战。",
+      "en": "Wang Yaowu took command of the 74th Army, which was stationed at Gao’an and fought in the first Battle of Changsha and at Shanggao."
+    },
+    "description": {
+      "zh": "1939 年 7 月，王耀武接任第74军军长，部队驻防赣北高安。此后第74军参加第一次长沙会战、1939 年冬季攻势与上高会战，长期活跃于赣北、湘北之间。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "In July 1939 Wang Yaowu took command of the 74th Army, which was stationed at Gao’an in northern Jiangxi. It then fought in the first Battle of Changsha, the winter offensive of 1939, and the Shanggao campaign, remaining active between northern Jiangxi and northern Hunan.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "kmt-74th-army-nanchang-1939-03",
+      "kmt-74th-army-shanggao-1941-03"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
   },
   {
     "id": "changsha-1939-09",
@@ -8295,6 +8394,55 @@
     "importance": 2
   },
   {
+    "id": "kmt-60th-army-return-yunnan-1940-09",
+    "name": {
+      "zh": "第60军回滇",
+      "en": "60th Army Returns to Yunnan"
+    },
+    "date": "1940-09-01",
+    "location": {
+      "lng": 102.83,
+      "lat": 24.88,
+      "place": {
+        "zh": "云南昆明",
+        "en": "Kunming, Yunnan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "日军入侵越南北部后，滇军第60军由赣北调回云南，防守滇越边境。",
+      "en": "After Japan moved into northern Vietnam, the Yunnan 60th Army was transferred from northern Jiangxi back to Yunnan to guard the Sino-Vietnamese border."
+    },
+    "description": {
+      "zh": "1940 年 9 月，日军入侵越南北部，威胁滇南。第60军第182、184师由赣北靖安、安义一线调回云南，防守滇越边境。此后第60军长期驻守滇南，直至抗战胜利。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "In September 1940 Japan moved into northern Vietnam and threatened southern Yunnan. The 60th Army’s 182nd and 184th Divisions were transferred from Jing’an and Anyi in northern Jiangxi back to Yunnan to guard the Sino-Vietnamese border. The army then held southern Yunnan until the end of the war.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "kmt-60th-army-1938-04",
+      "kmt-60th-army-diannan-1940-10"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
     "id": "daling-shan-base-1940-10",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -8348,6 +8496,54 @@
       "dongjiang-column-1943-12"
     ],
     "importance": 2
+  },
+  {
+    "id": "kmt-60th-army-diannan-1940-10",
+    "name": {
+      "zh": "第60军防守滇南",
+      "en": "60th Army Defends Southern Yunnan"
+    },
+    "date": "1940-10-02",
+    "location": {
+      "lng": 103.38,
+      "lat": 23.36,
+      "place": {
+        "zh": "云南蒙自",
+        "en": "Mengzi, Yunnan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "第60军进驻蒙自、河口一线，防守滇越边境，直至抗战胜利。",
+      "en": "The 60th Army held the Mengzi–Hekou line on the Sino-Vietnamese border until the end of the war."
+    },
+    "description": {
+      "zh": "1940 年 10 月起，第60军进驻蒙自、河口一线，依托滇越铁路与红河防线阻止日军由越南侵入云南。滇南防御持续五年，直至 1945 年抗战胜利。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "From October 1940 the 60th Army held the Mengzi–Hekou line, using the Yunnan–Vietnam railway and the Red River defenses to block a Japanese advance from Vietnam into Yunnan. The defense of southern Yunnan lasted five years until the Japanese surrender in 1945.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "kmt-60th-army-return-yunnan-1940-09"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
   },
   {
     "id": "huangqiao-1940-10",
