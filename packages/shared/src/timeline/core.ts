@@ -1,4 +1,4 @@
-import type { AtlasRouteFeature, AtlasTime, DateString } from '../types';
+import type { AtlasEvent, AtlasRouteFeature, AtlasTime, DateString } from '../types';
 import { DAY_MS, parseDateString, toDateString } from '../time/date';
 import type { Timeline } from './types';
 
@@ -32,6 +32,37 @@ export function routeDateRange(
     if (start === null || routeStart < start) start = routeStart;
     if (end === null || routeEnd > end) end = routeEnd;
   }
+  return start === null || end === null ? null : { start, end };
+}
+
+/**
+ * 当前筛选出的图层中，路线与事件的最早/最晚日期。
+ * 事件即使 `routeEvent: false`（政治、外交等不绘线事件）也参与计算，
+ * 否则时间轴会把早于首条路线的事件裁掉。
+ */
+export function datasetDateRange(
+  routes: AtlasRouteFeature[],
+  events: AtlasEvent[],
+  isIncluded: (entityId: string) => boolean,
+): { start: DateString; end: DateString } | null {
+  let start: DateString | null = null;
+  let end: DateString | null = null;
+  const consider = (date: DateString) => {
+    if (start === null || date < start) start = date;
+    if (end === null || date > end) end = date;
+  };
+
+  for (const route of routes) {
+    if (!isIncluded(route.properties.entityId)) continue;
+    consider(route.properties.startDate);
+    consider(route.properties.endDate);
+  }
+  for (const event of events) {
+    if (!event.entityIds.some((entityId) => isIncluded(entityId))) continue;
+    consider(event.date);
+    consider(event.endDate ?? event.date);
+  }
+
   return start === null || end === null ? null : { start, end };
 }
 

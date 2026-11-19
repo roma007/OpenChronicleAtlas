@@ -3,13 +3,14 @@ import { parseDateString } from '../time/date';
 import {
   clampToTimeline,
   createTimeline,
+  datasetDateRange,
   ratioToTime,
   routeDateRange,
   snapToDay,
   stepDays,
   timeToRatio,
 } from '../timeline/core';
-import type { AtlasRouteFeature } from '../types';
+import type { AtlasEvent, AtlasRouteFeature } from '../types';
 
 function route(
   entityId: string,
@@ -26,6 +27,24 @@ function route(
       ],
     },
     properties: { entityId, startDate, endDate, order: 1 },
+  };
+}
+
+function event(
+  entityId: string,
+  date: string,
+  endDate?: string,
+): AtlasEvent {
+  return {
+    id: `e-${date}`,
+    atlasId: 'test',
+    name: { zh: '事件', en: 'Event' },
+    date,
+    ...(endDate ? { endDate } : {}),
+    location: { lng: 0, lat: 0 },
+    entityIds: [entityId],
+    category: '政治',
+    summary: { zh: '摘要', en: 'Summary' },
   };
 }
 
@@ -49,6 +68,20 @@ describe('timeline core', () => {
       end: '1411-07-06',
     });
     expect(routeDateRange(routes, () => false)).toBeNull();
+  });
+
+  it('事件与路线共同决定范围，routeEvent=false 也参与', () => {
+    const routes = [route('a', '1933-06-20', '1933-07-12')];
+    const events = [
+      event('a', '1933-05-31'),
+      event('a', '1933-07-15', '1933-07-20'),
+      event('b', '1931-01-01'),
+    ];
+    expect(datasetDateRange(routes, events, (id) => id === 'a')).toEqual({
+      start: '1933-05-31',
+      end: '1933-07-20',
+    });
+    expect(datasetDateRange([], events, () => false)).toBeNull();
   });
 
   it('比例与时间互转', () => {

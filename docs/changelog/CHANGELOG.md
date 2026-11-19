@@ -3,6 +3,24 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.134] - 2026-11-19
+
+### Fixed
+- 时间轴范围只按路线计算，导致「中国政府与民众」层的塘沽协定（1933-05-31）被裁掉：
+  该层拆分后只剩 1933-06-20 起的察哈尔同盟军路线，早于它的政治、外交事件无法显示。
+  新增 `datasetDateRange()`，把当前图层的路线与事件一起纳入范围；事件即使
+  `routeEvent: false` 也参与，因为事件节点仍显示在时间轴上。
+
+### Changed
+- Web 与移动端 `useAtlasStore` 改用 `datasetDateRange`，函数改名 `timelineForActiveLayers`；
+  保留 `routeDateRange` 供已有调用与测试使用。
+- 新增 `docs/plans/2026-11-19-M182-时间轴范围纳入事件-plan.md`。
+
+### Added
+- `timeline-core` 新增单测：事件早于首条路线时，范围起点取事件日期。
+
+---
+
 ## [v1.0.133] - 2026-11-19
 
 ### Changed

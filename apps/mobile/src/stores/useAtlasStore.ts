@@ -11,11 +11,11 @@ import type {
 import {
   EMPTY_FILTERS,
   clampToTimeline,
+  datasetDateRange,
   createTimeline,
   isDataVersionNewer,
   normalizeLocale,
   ratioToTime,
-  routeDateRange,
   stepDays as addDays,
 } from '@atlas/shared';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -86,15 +86,16 @@ interface MobileAtlasState {
 }
 
 /**
- * 进度条范围跟随用户筛选出的路线图层：
- * 取这些图层中最早开始日期与最晚结束日期；没有可用路线时回退到专题 timeRange。
+ * 进度条范围跟随用户筛选出的图层：
+ * 取这些图层中路线与事件的最早/最晚日期；没有可用路线与事件时回退到专题 timeRange。
+ * 事件即使 `routeEvent: false` 也参与，避免政治、外交事件被进度条裁掉。
  * 不进入图例的背景线（legend: false，如海防线）不参与范围计算。
  */
-function timelineForActiveRoutes(
+function timelineForActiveLayers(
   dataset: AtlasDataset,
   activeEntityIds: ReadonlySet<string>,
 ): Timeline {
-  const range = routeDateRange(dataset.routes, (entityId) => {
+  const range = datasetDateRange(dataset.routes, dataset.events, (entityId) => {
     if (!activeEntityIds.has(entityId)) return false;
     const entity = dataset.entitiesById.get(entityId);
     return entity?.extensions?.legend !== false;
@@ -168,7 +169,7 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
       const activeEntityIds = new Set(
         dataset.manifest.entities.map((entity) => entity.id),
       );
-      const timeline = timelineForActiveRoutes(dataset, activeEntityIds);
+      const timeline = timelineForActiveLayers(dataset, activeEntityIds);
       set({
         dataset,
         loading: false,
@@ -198,7 +199,7 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
     const next = ids.filter((id) => valid.has(id));
     if (next.length === 0) return;
     const activeEntityIds = new Set(next);
-    const timeline = timelineForActiveRoutes(dataset, activeEntityIds);
+    const timeline = timelineForActiveLayers(dataset, activeEntityIds);
     set({
       activeEntityIds,
       timeline,
@@ -212,7 +213,7 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
     const activeEntityIds = new Set(get().activeEntityIds);
     if (activeEntityIds.has(entityId)) activeEntityIds.delete(entityId);
     else activeEntityIds.add(entityId);
-    const timeline = timelineForActiveRoutes(dataset, activeEntityIds);
+    const timeline = timelineForActiveLayers(dataset, activeEntityIds);
     set({
       activeEntityIds,
       timeline,
