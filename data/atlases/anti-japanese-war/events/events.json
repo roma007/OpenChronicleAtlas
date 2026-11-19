@@ -326,6 +326,7 @@
       }
     },
     "entityIds": [
+      "japanese-invasion",
       "china-resistance"
     ],
     "category": "外交",
@@ -884,6 +885,7 @@
       }
     },
     "entityIds": [
+      "japanese-invasion",
       "china-resistance"
     ],
     "category": "外交",
@@ -1378,14 +1380,64 @@
     }
   },
   {
-    "id": "hemei-agreement-1935-06",
+    "id": "zhangbei-incident-1935-06",
     "atlasId": "anti-japanese-war",
     "name": {
-      "zh": "河北事件与何梅协定",
-      "en": "Hebei Incident and the He-Umezu Agreement"
+      "zh": "张北事件",
+      "en": "Zhangbei Incident"
+    },
+    "date": "1935-06-05",
+    "location": {
+      "lng": 114.72,
+      "lat": 41.16,
+      "place": {
+        "zh": "察哈尔张北",
+        "en": "Zhangbei, Chahar"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "日本特务在张北被中国守军盘查，日方借机提出交涉。",
+      "en": "Japanese agents were stopped and questioned by Chinese guards at Zhangbei, and Japan used the incident to demand concessions."
+    },
+    "description": {
+      "zh": "1935 年 6 月 5 日，日本特务在张北被中国守军盘查，日方借机提出交涉，要求撤换有关人员、撤退察哈尔省境内国民党军与党部，并取缔抗日活动。6 月 27 日秦德纯与土肥原贤二签订“秦土协定”。\n\n外交事件，不绘制路线；日期与表述取通行说法，待史料校订。",
+      "en": "On 5 June 1935 Japanese agents were stopped and questioned by Chinese guards at Zhangbei. Japan used the incident to demand the replacement of the officers involved, the withdrawal of Nationalist troops and party offices from Chahar, and the suppression of anti-Japanese activities. On 27 June Qin Dechun and Doihara Kenji signed the Qin-Doihara Agreement.\n\nA diplomatic event with no route drawn; dates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "qintu-agreement-1935-06"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "hebei-incident-1935-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "河北事件",
+      "en": "Hebei Incident"
     },
     "date": "1935-06-09",
-    "endDate": "1935-07-06",
     "location": {
       "lng": 116.4,
       "lat": 39.9,
@@ -1395,35 +1447,34 @@
       }
     },
     "entityIds": [
-      "china-resistance"
+      "japanese-invasion"
     ],
     "category": "外交",
     "summary": {
-      "zh": "日军借河北事件施压，中国方面被迫接受撤换军政人员、撤出中央军等要求。",
-      "en": "Japan used the Hebei Incident to pressure China into replacing officials and withdrawing Central Army units from Hebei."
+      "zh": "日军以孙永勤部进入滦东“非武装区”和胡白被杀为借口，向北平军分会提出交涉并调兵施压。",
+      "en": "Japan used Sun Yongqin’s entry into the demilitarized zone east of the Luan River and the killing of Hu Bai as pretexts to press the Beiping Military Council and move troops."
     },
     "description": {
-      "zh": "1935 年 5 至 6 月，日军以孙永勤部进入滦东“非武装区”和胡白被杀事件为借口，向北平军分会代委员长何应钦提出交涉。7 月 6 日，何应钦复函日本华北驻屯军司令梅津美治郎，实质上接受日方要求，中央军与国民党党部退出河北，史称“何梅协定”。\n\n外交事件，不绘制路线；日期与地点取通行说法，待史料校订。",
-      "en": "In May and June 1935 Japan used the entry of Sun Yongqin’s forces into the demilitarized zone east of the Luan River and the killing of Hu Bai as pretexts to press He Yingqin, acting chairman of the Beiping Military Council. On 6 July He replied to Umezu Yoshijiro, commander of the Japanese garrison in North China, effectively accepting Japanese demands: Central Army units and Nationalist Party offices withdrew from Hebei. The exchange is known as the He-Umezu Agreement.\n\nA diplomatic event with no route drawn; dates and wording await historical review."
+      "zh": "1935 年 5 至 6 月，日军以孙永勤部进入滦东“非武装区”和胡白被杀事件为借口，向北平军分会代委员长何应钦提出交涉，并从东北调兵入关施压。日方要求撤换河北省军政人员、撤出中央军与国民党党部。7 月 6 日何应钦复函接受，形成“何梅协定”。\n\n外交/军事事件，不绘制路线；日期与表述取通行说法，待史料校订。",
+      "en": "In May and June 1935 Japan used Sun Yongqin’s entry into the demilitarized zone east of the Luan River and the killing of Hu Bai as pretexts to press He Yingqin, acting chairman of the Beiping Military Council, and moved troops from the Northeast through the Great Wall. Japan demanded the replacement of Hebei officials and the withdrawal of Central Army units and Nationalist Party offices. He Yingqin’s reply of 6 July accepted these demands, producing the He-Umezu Agreement.\n\nA diplomatic and military event with no route drawn; dates and wording follow conventional accounts and await historical review."
     },
     "images": [],
     "sources": [
-      {
-        "title": "《中国抗日战争史》",
-        "author": "张宪文等",
-        "year": 2001,
-        "note": "示意初稿，待史料校订"
-      },
       {
         "title": "《日本帝国主义侵华档案资料选编》",
         "author": "中央档案馆等编",
         "year": 1995,
         "note": "事件经过参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
       }
     ],
     "relatedIds": [
-      "qintu-agreement-1935-06",
-      "december-ninth-1935-12"
+      "hemei-agreement-1935-06"
     ],
     "importance": 2,
     "extensions": {
@@ -1434,29 +1485,30 @@
     "id": "qintu-agreement-1935-06",
     "atlasId": "anti-japanese-war",
     "name": {
-      "zh": "张北事件与秦土协定",
-      "en": "Zhangbei Incident and the Qin-Doihara Agreement"
+      "zh": "秦土协定",
+      "en": "Qin-Doihara Agreement"
     },
     "date": "1935-06-27",
     "location": {
-      "lng": 114.72,
-      "lat": 41.16,
+      "lng": 116.4,
+      "lat": 39.9,
       "place": {
-        "zh": "察哈尔张北",
-        "en": "Zhangbei, Chahar"
+        "zh": "北平",
+        "en": "Beiping"
       }
     },
     "entityIds": [
+      "japanese-invasion",
       "china-resistance"
     ],
     "category": "外交",
     "summary": {
-      "zh": "日军借张北事件迫使中国接受察哈尔省撤军、取缔抗日活动等条件。",
-      "en": "Japan used the Zhangbei Incident to force China to withdraw troops from Chahar and suppress anti-Japanese activities."
+      "zh": "秦德纯与土肥原贤二签订协定，中国同意撤军、撤换人员并取缔抗日活动。",
+      "en": "Qin Dechun and Doihara Kenji signed an agreement under which China withdrew troops and officials and suppressed anti-Japanese activities in Chahar."
     },
     "description": {
-      "zh": "1935 年 6 月，日本特务在张北被中国守军盘查，日方借机提出交涉。6 月 27 日，秦德纯与土肥原贤二签订协定，中国方面同意撤换有关人员、撤退察哈尔省境内国民党军与党部，并取缔抗日活动。察哈尔主权进一步受损。\n\n外交事件，不绘制路线；日期与地点取通行说法，待史料校订。",
-      "en": "In June 1935 Japanese agents were stopped and questioned by Chinese guards at Zhangbei, and Japan used the incident to demand concessions. On 27 June Qin Dechun and Doihara Kenji signed an agreement under which China replaced the officers involved, withdrew Nationalist troops and party offices from Chahar, and suppressed anti-Japanese activities. Chahar’s sovereignty was further eroded.\n\nA diplomatic event with no route drawn; dates and wording await historical review."
+      "zh": "1935 年 6 月 27 日，秦德纯与土肥原贤二在北平签订协定，中国方面同意撤换有关人员、撤退察哈尔省境内国民党军与党部，并取缔抗日活动。察哈尔主权进一步受损。\n\n外交事件，不绘制路线；日期与表述取通行说法，待史料校订。",
+      "en": "On 27 June 1935 Qin Dechun and Doihara Kenji signed an agreement in Beiping: China replaced the officials involved, withdrew Nationalist troops and party offices from Chahar, and suppressed anti-Japanese activities. Chahar’s sovereignty was further eroded.\n\nA diplomatic event with no route drawn; dates and wording follow conventional accounts and await historical review."
     },
     "images": [],
     "sources": [
@@ -1474,7 +1526,62 @@
       }
     ],
     "relatedIds": [
+      "zhangbei-incident-1935-06",
       "hemei-agreement-1935-06"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "hemei-agreement-1935-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "何梅协定",
+      "en": "He-Umezu Agreement"
+    },
+    "date": "1935-07-06",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北平",
+        "en": "Beiping"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "何应钦复函梅津美治郎，接受日方要求，中央军与国民党党部退出河北。",
+      "en": "He Yingqin replied to Umezu Yoshijiro, accepting Japanese demands and withdrawing Central Army units and party offices from Hebei."
+    },
+    "description": {
+      "zh": "1935 年 7 月 6 日，北平军分会代委员长何应钦复函日本华北驻屯军司令梅津美治郎，实质上接受日方要求：中央军与国民党党部退出河北，撤换有关军政人员。此即“何梅协定”，中国在华北的主权进一步受损。\n\n外交事件，不绘制路线；日期与表述取通行说法，待史料校订。",
+      "en": "On 6 July 1935 He Yingqin, acting chairman of the Beiping Military Council, replied to Umezu Yoshijiro, commander of the Japanese garrison in North China, effectively accepting Japanese demands: Central Army units and Nationalist Party offices withdrew from Hebei and officials were replaced. This is known as the He-Umezu Agreement, which further eroded Chinese sovereignty in North China.\n\nA diplomatic event with no route drawn; dates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "hebei-incident-1935-06",
+      "qintu-agreement-1935-06",
+      "december-ninth-1935-12"
     ],
     "importance": 2,
     "extensions": {

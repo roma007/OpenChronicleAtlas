@@ -3,6 +3,21 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.141] - 2026-11-19
+
+### Fixed
+- 按「单一事件按主要行为主体」原则继续拆分：
+  - 「河北事件与何梅协定」→「河北事件」（1935-06-09，`japanese-invasion`）
+    +「何梅协定」（1935-07-06，`japanese-invasion` + `china-resistance`）；
+  - 「张北事件与秦土协定」→「张北事件」（1935-06-05，`japanese-invasion`）
+    +「秦土协定」（1935-06-27，`japanese-invasion` + `china-resistance`）。
+- 《塘沽协定》《淞沪停战协定》由只挂 `china-resistance` 改为
+  `japanese-invasion` + `china-resistance`，体现双边协定。
+- 事件 341 → 343，路线仍 223。
+- 新增 `docs/plans/2026-11-19-M189-河北张北事件拆分-plan.md`。
+
+---
+
 ## [v1.0.140] - 2026-11-19
 
 ### Fixed
