@@ -361,6 +361,55 @@
     }
   },
   {
+    "id": "19th-route-army-fujian-1932-06",
+    "name": {
+      "zh": "第十九路军调驻福建",
+      "en": "19th Route Army Moves to Fujian"
+    },
+    "date": "1932-06-01",
+    "location": {
+      "lng": 119.3,
+      "lat": 26.08,
+      "place": {
+        "zh": "福建福州",
+        "en": "Fuzhou, Fujian"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "一·二八事变后，第十九路军由上海调驻福建。",
+      "en": "After the January 28 Incident the 19th Route Army moved from Shanghai to Fujian."
+    },
+    "description": {
+      "zh": "1932 年 5 月《淞沪停战协定》签订后，第十九路军由上海调驻福建。1933 年 11 月，该部在福州发动福建事变，另立政府，次年失败。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "After the Shanghai Ceasefire Agreement of May 1932, the 19th Route Army moved from Shanghai to Fujian. In November 1933 it launched the Fujian Incident at Fuzhou and formed a separate government, which collapsed the following year.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      }
+    ],
+    "relatedIds": [
+      "jan28-incident-1932-01",
+      "fujian-incident-1933-11"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
     "id": "shanhaiguan-battle-1933-01",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -815,6 +864,58 @@
       "chahar-allied-army-1933-05"
     ],
     "importance": 2
+  },
+  {
+    "id": "fujian-incident-1933-11",
+    "name": {
+      "zh": "福建事变",
+      "en": "Fujian Incident"
+    },
+    "date": "1933-11-20",
+    "location": {
+      "lng": 119.3,
+      "lat": 26.08,
+      "place": {
+        "zh": "福建福州",
+        "en": "Fuzhou, Fujian"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "事变",
+    "summary": {
+      "zh": "第十九路军在福州另立政府，次年失败。",
+      "en": "The 19th Route Army set up a separate government at Fuzhou, which collapsed the following year."
+    },
+    "description": {
+      "zh": "1933 年 11 月 20 日，第十九路军将领蒋光鼐、蔡廷锴等在福州发动福建事变，成立“中华共和国人民革命政府”，不久在南京政府军事压力下失败。\n\n政治事件，不绘制路线；日期与表述待史料校订。",
+      "en": "On 20 November 1933 Jiang Guangnai, Cai Tingkai, and other 19th Route Army commanders launched the Fujian Incident at Fuzhou and established the “People’s Revolutionary Government of the Chinese Republic,” which soon collapsed under military pressure from Nanjing.\n\nA political event with no route drawn; dates and wording await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      }
+    ],
+    "relatedIds": [
+      "19th-route-army-fujian-1932-06",
+      "jan28-incident-1932-01"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "anti-japanese-war"
   },
   {
     "id": "puyi-enthroned-1934-03",
@@ -2518,6 +2619,104 @@
     "atlasId": "anti-japanese-war"
   },
   {
+    "id": "sichuan-army-out-1937-09",
+    "name": {
+      "zh": "川军出川抗战",
+      "en": "Sichuan Troops March Out to Resist Japan"
+    },
+    "date": "1937-09-01",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "川军各部自四川分批出川，开赴山西、淞沪等抗日前线。",
+      "en": "Sichuan units left the province in successive waves for the Shanxi and Shanghai fronts."
+    },
+    "description": {
+      "zh": "1937 年 9 月起，川军各部陆续出川抗战。第22集团军（邓锡侯、孙震部）经川陕公路北上，开赴山西第二战区；第20军（杨森部）经长江东下，开赴淞沪战场。川军装备简陋，但作战顽强，伤亡惨重。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "From September 1937 Sichuan units left the province in successive waves. The 22nd Group Army under Deng Xihou and Sun Zhen moved north via the Sichuan–Shaanxi road to the 2nd War Zone in Shanxi, while the 20th Army under Yang Sen moved east along the Yangtze to the Shanghai front. Poorly equipped but tenacious, the Sichuan troops suffered heavy casualties.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "sichuan-22nd-group-army-niangziguan-1937-10",
+      "tengxian-battle-1938-03"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
+    "id": "guangxi-army-out-1937-09",
+    "name": {
+      "zh": "桂军出桂抗战",
+      "en": "Guangxi Troops March Out to Resist Japan"
+    },
+    "date": "1937-09-01",
+    "location": {
+      "lng": 110.29,
+      "lat": 25.27,
+      "place": {
+        "zh": "广西桂林",
+        "en": "Guilin, Guangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "桂军第21集团军自广西出发，经武汉、徐州开赴淞沪战场。",
+      "en": "The Guangxi 21st Group Army left Guangxi via Wuhan and Xuzhou for the Shanghai front."
+    },
+    "description": {
+      "zh": "1937 年 9 月，桂军第21集团军（廖磊部）自桂林、柳州出发，经武汉、徐州开赴淞沪，10 月参加蕴藻浜反击战。桂军作战勇猛，但在日军优势火力下伤亡惨重。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "In September 1937 the Guangxi 21st Group Army under Liao Lei left Guilin and Liuzhou via Wuhan and Xuzhou for Shanghai, and in October fought in the Yunzaobang counterattack. The Guangxi troops fought bravely but suffered heavy losses under Japanese firepower.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "yunzaobang-battle-1937-10",
+      "battle-shanghai-1937-08"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
     "id": "kmt-18th-group-army-1937-09",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -2837,6 +3036,55 @@
     "importance": 2
   },
   {
+    "id": "sichuan-22nd-group-army-niangziguan-1937-10",
+    "name": {
+      "zh": "川军第22集团军参加娘子关战斗",
+      "en": "22nd Group Army at Niangziguan"
+    },
+    "date": "1937-10-11",
+    "location": {
+      "lng": 113.87,
+      "lat": 37.96,
+      "place": {
+        "zh": "山西娘子关",
+        "en": "Niangziguan, Shanxi"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "川军第22集团军自四川北上，在娘子关一线参加保卫战。",
+      "en": "The Sichuan 22nd Group Army marched north and fought in the defense of Niangziguan."
+    },
+    "description": {
+      "zh": "1937 年 10 月，川军第22集团军经宝鸡、西安北上，在娘子关一线参加对日作战。川军装备低劣、补给困难，仍以重大伤亡迟滞日军。此后该部转赴山东，参加滕县保卫战。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "In October 1937 the Sichuan 22nd Group Army moved north via Baoji and Xi’an and fought the Japanese at Niangziguan. Poorly equipped and badly supplied, it still delayed the Japanese at great cost. The army then moved to Shandong and fought in the defense of Tengxian.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "sichuan-army-out-1937-09",
+      "tengxian-battle-1938-03"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
     "id": "new-fourth-army-formed-1937-10",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -2890,6 +3138,55 @@
       "huangqiao-1940-10"
     ],
     "importance": 3
+  },
+  {
+    "id": "sichuan-20th-army-shanghai-1937-10",
+    "name": {
+      "zh": "川军第20军抵淞沪",
+      "en": "Sichuan 20th Army Reaches Shanghai"
+    },
+    "date": "1937-10-12",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "川军第20军经长江东下抵达淞沪，参加大场、蕴藻浜战斗。",
+      "en": "The Sichuan 20th Army moved east along the Yangtze to Shanghai and fought at Dachang and Yunzaobang."
+    },
+    "description": {
+      "zh": "1937 年 10 月，川军第20军（杨森部）经重庆、宜昌、武汉东下抵达淞沪，参加大场、蕴藻浜一带战斗。该军装备简陋，在日军火力下伤亡很大。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "In October 1937 the Sichuan 20th Army under Yang Sen moved east via Chongqing, Yichang, and Wuhan to Shanghai and fought around Dachang and Yunzaobang. Poorly equipped, it suffered heavy casualties under Japanese fire.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "battle-shanghai-1937-08",
+      "sichuan-army-out-1937-09"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
   },
   {
     "id": "japanese-xinkou-1937-10",
@@ -3119,6 +3416,56 @@
       "nanjing-fall-1937-12"
     ],
     "importance": 1
+  },
+  {
+    "id": "yunzaobang-battle-1937-10",
+    "name": {
+      "zh": "蕴藻浜反击战",
+      "en": "Yunzaobang Counterattack"
+    },
+    "date": "1937-10-19",
+    "endDate": "1937-10-26",
+    "location": {
+      "lng": 121.4,
+      "lat": 31.35,
+      "place": {
+        "zh": "上海蕴藻浜",
+        "en": "Yunzaobang, Shanghai"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "桂军第21集团军等在蕴藻浜一线反击日军，伤亡惨重。",
+      "en": "The Guangxi 21st Group Army and other units counterattacked along Yunzaobang at heavy cost."
+    },
+    "description": {
+      "zh": "1937 年 10 月中下旬，中国军队在蕴藻浜一线反击日军，桂军第21集团军等部投入战斗。由于日军火力占优，反击未能奏效，桂军伤亡惨重。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "In mid-to-late October 1937 Chinese forces counterattacked along Yunzaobang, with the Guangxi 21st Group Army and others committed. Japanese firepower prevailed, the counterattack failed, and the Guangxi troops suffered heavy casualties.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "battle-shanghai-1937-08",
+      "guangxi-army-out-1937-09"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
   },
   {
     "id": "kmt-10th-group-army-songhu-1937-11",
@@ -3720,6 +4067,56 @@
     "importance": 3
   },
   {
+    "id": "tengxian-battle-1938-03",
+    "name": {
+      "zh": "滕县保卫战",
+      "en": "Defense of Tengxian"
+    },
+    "date": "1938-03-14",
+    "endDate": "1938-03-18",
+    "location": {
+      "lng": 117.16,
+      "lat": 35.08,
+      "place": {
+        "zh": "山东滕县",
+        "en": "Tengxian, Shandong"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "川军第22集团军在滕县死守，为台儿庄会战争取时间。",
+      "en": "The Sichuan 22nd Group Army held Tengxian stubbornly, buying time for the Taierzhuang campaign."
+    },
+    "description": {
+      "zh": "1938 年 3 月，川军第22集团军第41军王铭章部在滕县死守，与日军第10师团激战。滕县于 3 月 17 日陷落，王铭章殉国，但川军的抵抗为台儿庄会战争取了部署时间。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "In March 1938 the 41st Army of the Sichuan 22nd Group Army, under Wang Mingzhang, held Tengxian against the Japanese 10th Division. The town fell on 17 March and Wang was killed, but the resistance bought time for the Chinese deployment at Taierzhuang.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "taierzhuang-1938-03",
+      "sichuan-22nd-group-army-niangziguan-1937-10"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
     "id": "japanese-lunan-1938-03",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -4217,6 +4614,56 @@
       "taierzhuang-1938-03"
     ],
     "importance": 2
+  },
+  {
+    "id": "yuwangshan-battle-1938-04",
+    "name": {
+      "zh": "禹王山战斗",
+      "en": "Battle of Yuwangshan"
+    },
+    "date": "1938-04-22",
+    "endDate": "1938-05-18",
+    "location": {
+      "lng": 117.7,
+      "lat": 34.4,
+      "place": {
+        "zh": "江苏邳州禹王山",
+        "en": "Yuwangshan, Pizhou, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "滇军第60军在禹王山一线抗击日军，掩护徐州会战主力转移。",
+      "en": "The Yunnan 60th Army held Yuwangshan, covering the withdrawal of the main forces in the Xuzhou campaign."
+    },
+    "description": {
+      "zh": "1938 年 4 月，滇军第60军抵达徐州后投入禹王山战斗，与日军第5、第10师团激战近一个月，伤亡惨重但守住了阵地，为徐州会战主力转移争取了时间。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "In April 1938 the Yunnan 60th Army reached Xuzhou and fought at Yuwangshan against the Japanese 5th and 10th Divisions for nearly a month. Though badly mauled, it held its positions and bought time for the main forces to withdraw from the Xuzhou campaign.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "kmt-60th-army-1938-04",
+      "taierzhuang-1938-03"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
   },
   {
     "id": "heze-1938",
@@ -5078,6 +5525,56 @@
       "japanese-dabie-1938-08"
     ],
     "importance": 2
+  },
+  {
+    "id": "wanjialing-1938-10",
+    "name": {
+      "zh": "万家岭大捷",
+      "en": "Wanjialing Victory"
+    },
+    "date": "1938-09-28",
+    "endDate": "1938-10-10",
+    "location": {
+      "lng": 115.7,
+      "lat": 29.3,
+      "place": {
+        "zh": "江西德安万家岭",
+        "en": "Wanjialing, De’an, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "第74军等部在万家岭重创日军第106师团。",
+      "en": "The 74th Army and other units mauled the Japanese 106th Division at Wanjialing."
+    },
+    "description": {
+      "zh": "1938 年 9 至 10 月，武汉会战期间，第74军等部在江西德安万家岭地区包围日军第106师团，经激战重创该部。万家岭大捷是武汉会战中的重要胜利，也使第74军声名大振。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "In September and October 1938, during the Battle of Wuhan, the 74th Army and other units encircled and mauled the Japanese 106th Division at Wanjialing in De’an, Jiangxi. The victory was an important success in the Wuhan campaign and made the 74th Army famous.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "wuhan-fall-1938-10",
+      "kmt-74th-army-formed-1937-09"
+    ],
+    "importance": 1,
+    "atlasId": "anti-japanese-war"
   },
   {
     "id": "kmt-5th-army-formed-1938-10",
@@ -10917,6 +11414,55 @@
       "burma-expedition-1942-02"
     ],
     "importance": 2
+  },
+  {
+    "id": "new22nd-division-india-1942-08",
+    "name": {
+      "zh": "新22师退往印度",
+      "en": "New 22nd Division Withdraws to India"
+    },
+    "date": "1942-08-01",
+    "location": {
+      "lng": 95.74,
+      "lat": 27.3,
+      "place": {
+        "zh": "印度雷多",
+        "en": "Ledo, India"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "缅甸战败后，第5军新22师经野人山退往印度雷多。",
+      "en": "After the Burma defeat the New 22nd Division of the 5th Army withdrew through the Naga Hills to Ledo, India."
+    },
+    "description": {
+      "zh": "1942 年 5 月缅甸战局逆转后，第5军新22师随杜聿明部经野人山向印度撤退，8 月抵达印度雷多（利多）。撤退途中损失惨重，后改编为中国驻印军。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "After the Burma front collapsed in May 1942, the New 22nd Division of the 5th Army withdrew with Du Yuming’s headquarters through the Naga Hills toward India and reached Ledo in August. Losses during the retreat were severe; the division was later reorganized into the Chinese Army in India.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "kmt-5th-army-toungoo-1942-03",
+      "burma-retreat-1942-08"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
   },
   {
     "id": "kmt-expeditionary-force-1943-04",

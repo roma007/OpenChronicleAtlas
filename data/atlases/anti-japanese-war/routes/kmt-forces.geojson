@@ -379,20 +379,16 @@
             24.88
           ],
           [
-            105,
-            26
+            106.63,
+            26.65
           ],
           [
-            108,
-            28
+            112.94,
+            28.23
           ],
           [
-            110,
-            30
-          ],
-          [
-            113,
-            32
+            114.3,
+            30.59
           ],
           [
             117.18,
@@ -403,7 +399,7 @@
       "properties": {
         "entityId": "kmt-forces",
         "startDate": "1938-04-01",
-        "endDate": "1938-05-19",
+        "endDate": "1938-04-20",
         "order": 11,
         "segmentType": "advance",
         "name": {
@@ -411,8 +407,8 @@
           "en": "Kunming–Xuzhou (Yunnan army)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "滇军第60军自昆明经贵阳、长沙、武汉开赴徐州，参加禹王山战斗。示意简化路线，待史料校订。",
+          "en": "The Yunnan 60th Army moved from Kunming via Guiyang, Changsha, and Wuhan to Xuzhou and fought at Yuwangshan. Illustrative simplified route, pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -1477,6 +1473,490 @@
         "description": {
           "zh": "1945 年 5 月，新6军自昆明空运芷江，任湘西会战总预备队。此为空运航线，非地面行军。示意简化，待史料校订。",
           "en": "In May 1945 the New 6th Army was airlifted from Kunming to Zhijiang as the general reserve for the Western Hunan campaign. This is an air bridge, not a ground march. Illustrative and pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.07,
+            30.67
+          ],
+          [
+            107.14,
+            34.36
+          ],
+          [
+            108.94,
+            34.34
+          ],
+          [
+            112.55,
+            37.87
+          ],
+          [
+            113.87,
+            37.96
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1937-09-01",
+        "endDate": "1937-10-11",
+        "order": 40,
+        "segmentType": "advance",
+        "name": {
+          "zh": "川军第22集团军：成都—宝鸡—太原—娘子关",
+          "en": "Sichuan 22nd Group Army: Chengdu–Baoji–Taiyuan–Niangziguan"
+        },
+        "description": {
+          "zh": "川军第22集团军自成都经川陕公路北上，开赴山西娘子关。示意简化路线，待史料校订。",
+          "en": "The Sichuan 22nd Group Army moved north from Chengdu via the Sichuan–Shaanxi road to Niangziguan in Shanxi. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.87,
+            37.96
+          ],
+          [
+            113.66,
+            34.75
+          ],
+          [
+            117.18,
+            34.26
+          ],
+          [
+            117.16,
+            35.08
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1937-10-12",
+        "endDate": "1938-03-14",
+        "order": 41,
+        "segmentType": "advance",
+        "name": {
+          "zh": "川军第22集团军：娘子关—滕县",
+          "en": "Sichuan 22nd Group Army: Niangziguan–Tengxian"
+        },
+        "description": {
+          "zh": "川军第22集团军由山西转赴山东，参加滕县保卫战。示意简化路线，待史料校订。",
+          "en": "The Sichuan 22nd Group Army moved from Shanxi to Shandong and fought in the defense of Tengxian. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.55,
+            29.56
+          ],
+          [
+            111.29,
+            30.69
+          ],
+          [
+            114.3,
+            30.59
+          ],
+          [
+            121.47,
+            31.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1937-08-01",
+        "endDate": "1937-10-12",
+        "order": 42,
+        "segmentType": "advance",
+        "name": {
+          "zh": "川军第20军：重庆—宜昌—武汉—上海",
+          "en": "Sichuan 20th Army: Chongqing–Yichang–Wuhan–Shanghai"
+        },
+        "description": {
+          "zh": "川军第20军自重庆经宜昌、武汉东下，开赴淞沪战场。示意简化路线，待史料校订。",
+          "en": "The Sichuan 20th Army moved east from Chongqing via Yichang and Wuhan to the Shanghai front. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.29,
+            25.27
+          ],
+          [
+            114.3,
+            30.59
+          ],
+          [
+            117.18,
+            34.26
+          ],
+          [
+            121.47,
+            31.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1937-09-01",
+        "endDate": "1937-10-26",
+        "order": 43,
+        "segmentType": "advance",
+        "name": {
+          "zh": "桂军第21集团军：桂林—武汉—徐州—上海",
+          "en": "Guangxi 21st Group Army: Guilin–Wuhan–Xuzhou–Shanghai"
+        },
+        "description": {
+          "zh": "桂军第21集团军自桂林、柳州出发，经武汉、徐州开赴淞沪，参加蕴藻浜反击战。示意简化路线，待史料校订。",
+          "en": "The Guangxi 21st Group Army left Guilin and Liuzhou via Wuhan and Xuzhou for Shanghai and fought in the Yunzaobang counterattack. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47,
+            31.23
+          ],
+          [
+            118.8,
+            32.06
+          ],
+          [
+            117.18,
+            31.86
+          ],
+          [
+            116.5,
+            31.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1938-01-01",
+        "endDate": "1938-08-27",
+        "order": 44,
+        "segmentType": "advance",
+        "name": {
+          "zh": "桂军第21集团军：上海—六安",
+          "en": "Guangxi 21st Group Army: Shanghai–Lu’an"
+        },
+        "description": {
+          "zh": "淞沪会战后，桂军第21集团军转至皖西六安、大别山一带。示意简化路线，待史料校订。",
+          "en": "After the Shanghai campaign the Guangxi 21st Group Army moved to Lu’an and the Dabie Mountains in western Anhui. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47,
+            31.23
+          ],
+          [
+            120.15,
+            30.27
+          ],
+          [
+            119.3,
+            26.08
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1932-06-01",
+        "endDate": "1932-06-30",
+        "order": 45,
+        "segmentType": "advance",
+        "name": {
+          "zh": "第十九路军：上海—杭州—福州",
+          "en": "19th Route Army: Shanghai–Hangzhou–Fuzhou"
+        },
+        "description": {
+          "zh": "《淞沪停战协定》签订后，第十九路军由上海调驻福建。示意简化路线，待史料校订。",
+          "en": "After the Shanghai Ceasefire Agreement the 19th Route Army moved from Shanghai to Fujian. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47,
+            31.23
+          ],
+          [
+            120.6,
+            31.3
+          ],
+          [
+            118.8,
+            32.06
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1937-11-12",
+        "endDate": "1937-12-13",
+        "order": 46,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "第74军：上海—南京",
+          "en": "74th Army: Shanghai–Nanjing"
+        },
+        "description": {
+          "zh": "淞沪会战后，第74军撤往南京，参加南京保卫战。示意简化路线，待史料校订。",
+          "en": "After the Shanghai campaign the 74th Army withdrew to Nanjing and fought in its defense. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8,
+            32.06
+          ],
+          [
+            117.2,
+            32
+          ],
+          [
+            114.82,
+            34.82
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1937-12-14",
+        "endDate": "1938-05-21",
+        "order": 47,
+        "segmentType": "advance",
+        "name": {
+          "zh": "第74军：南京—兰封",
+          "en": "74th Army: Nanjing–Lanfeng"
+        },
+        "description": {
+          "zh": "南京突围后，第74军在皖北整补，开赴河南参加兰封会战。示意简化路线，待史料校订。",
+          "en": "After breaking out of Nanjing the 74th Army refitted in northern Anhui and moved to Henan for the Lanfeng campaign. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.82,
+            34.82
+          ],
+          [
+            114.3,
+            30.59
+          ],
+          [
+            115.75,
+            29.33
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1938-06-01",
+        "endDate": "1938-10-10",
+        "order": 48,
+        "segmentType": "advance",
+        "name": {
+          "zh": "第74军：兰封—德安（万家岭）",
+          "en": "74th Army: Lanfeng–De’an (Wanjialing)"
+        },
+        "description": {
+          "zh": "兰封会战后，第74军转赴赣北，参加武汉会战与万家岭战斗。示意简化路线，待史料校订。",
+          "en": "After Lanfeng the 74th Army moved to northern Jiangxi and fought in the Wuhan campaign and at Wanjialing. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.75,
+            29.33
+          ],
+          [
+            113,
+            28.5
+          ],
+          [
+            112.94,
+            28.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1938-10-11",
+        "endDate": "1939-10-15",
+        "order": 49,
+        "segmentType": "advance",
+        "name": {
+          "zh": "第74军：德安—长沙",
+          "en": "74th Army: De’an–Changsha"
+        },
+        "description": {
+          "zh": "万家岭战斗后，第74军转至湘北，参加第一次长沙会战。示意简化路线，待史料校订。",
+          "en": "After Wanjialing the 74th Army moved to northern Hunan and fought in the first Battle of Changsha. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            96.43,
+            19.43
+          ],
+          [
+            96.08,
+            21.98
+          ],
+          [
+            97.4,
+            25.38
+          ],
+          [
+            95.74,
+            27.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1942-05-01",
+        "endDate": "1942-08-01",
+        "order": 50,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "第5军新22师：同古—曼德勒—密支那—雷多",
+          "en": "New 22nd Division: Toungoo–Mandalay–Myitkyina–Ledo"
+        },
+        "description": {
+          "zh": "缅甸战败后，第5军新22师经曼德勒、密支那、野人山退往印度雷多。示意简化路线，待史料校订。",
+          "en": "After the Burma defeat the New 22nd Division of the 5th Army withdrew via Mandalay, Myitkyina, and the Naga Hills to Ledo in India. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.18,
+            34.26
+          ],
+          [
+            117.45,
+            34.35
+          ],
+          [
+            117.7,
+            34.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1938-04-20",
+        "endDate": "1938-05-18",
+        "order": 51,
+        "segmentType": "defense",
+        "name": {
+          "zh": "第60军：徐州—禹王山",
+          "en": "60th Army: Xuzhou–Yuwangshan"
+        },
+        "description": {
+          "zh": "滇军第60军抵徐州后开赴禹王山，与日军激战近一个月。示意简化路线，待史料校订。",
+          "en": "After reaching Xuzhou the Yunnan 60th Army moved to Yuwangshan and fought the Japanese for nearly a month. Illustrative simplified route, pending historical review."
         },
         "extensions": {
           "precision": "schematic"
