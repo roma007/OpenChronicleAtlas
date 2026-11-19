@@ -3,6 +3,17 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.149] - 2026-11-20
+
+### Fixed
+- 发布后 atlas 数据文件（`manifest.json`、`events.json`、`routes/*.geojson`）受
+  `Cache-Control: max-age=3600` 影响，最多 1 小时仍可能读到旧数据；`HttpDataSource`
+  改为 `fetch(..., { cache: 'no-cache' })`，每次向服务器校验，未变返回 304。
+- 新增 `packages/shared/src/__tests__/source.test.ts` 断言该选项。
+- 新增 `docs/plans/2026-11-20-M197-数据文件缓存校验-plan.md`。
+
+---
+
 ## [v1.0.148] - 2026-11-19
 
 ### Changed

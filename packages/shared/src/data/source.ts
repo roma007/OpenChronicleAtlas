@@ -26,7 +26,8 @@ export class HttpDataSource implements DataSource {
   }
 
   async readText(path: string): Promise<string> {
-    const res = await this.fetchImpl(this.toAbsolute(path));
+    // 数据文件会随发布更新，不能依赖 HTTP 的 max-age；强制向服务器校验（未变则 304）。
+    const res = await this.fetchImpl(this.toAbsolute(path), { cache: 'no-cache' });
     if (!res.ok) {
       throw new AtlasDataError(`加载失败 ${path}: HTTP ${res.status} ${res.statusText}`);
     }
