@@ -319,8 +319,8 @@
         "order": 9,
         "segmentType": "defense",
         "name": {
-          "zh": "湘潭—长沙—新墙河",
-          "en": "Xiangtan–Changsha–Xinqiang River"
+          "zh": "第9战区：湘潭—长沙—新墙河防线",
+          "en": "9th War Zone: Xiangtan–Changsha–Xinqianghe Line"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -601,8 +601,8 @@
         "order": 16,
         "segmentType": "counterattack",
         "name": {
-          "zh": "昆明—滇西",
-          "en": "Kunming–Western Yunnan"
+          "zh": "远征军：昆明—滇西防线",
+          "en": "Expeditionary Force: Kunming–Western Yunnan Line"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",
@@ -2391,6 +2391,116 @@
         "description": {
           "zh": "新3军转战湘北、赣北，隶属第9战区。示意简化路线，待史料校订。",
           "en": "The New 3rd Army fought in northern Hunan and northern Jiangxi under the 9th War Zone. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.66,
+            34.9
+          ],
+          [
+            113.85,
+            34.04
+          ],
+          [
+            112.45,
+            34.62
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1944-04-17",
+        "endDate": "1944-05-25",
+        "order": 63,
+        "segmentType": "defense",
+        "name": {
+          "zh": "第1战区：郑州—洛阳",
+          "en": "1st War Zone: Zhengzhou–Luoyang"
+        },
+        "description": {
+          "zh": "豫中会战中，第1战区部队在郑州、许昌、洛阳一线抵抗。示意简化路线，待史料校订。",
+          "en": "In the Central Henan campaign 1st War Zone troops resisted along the Zhengzhou–Xuchang–Luoyang line. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.49,
+            30.27
+          ],
+          [
+            111.29,
+            30.69
+          ],
+          [
+            111.28,
+            30.78
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1943-05-05",
+        "endDate": "1943-06-12",
+        "order": 64,
+        "segmentType": "advance",
+        "name": {
+          "zh": "第6战区：恩施—鄂西",
+          "en": "6th War Zone: Enshi–Western Hubei"
+        },
+        "description": {
+          "zh": "鄂西会战中，第六战区自恩施调兵增援宜昌、石牌方向。示意简化路线，待史料校订。",
+          "en": "During the Western Hubei campaign the 6th War Zone moved troops from Enshi to reinforce the Yichang and Shipai sectors. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.29,
+            25.27
+          ],
+          [
+            109.4,
+            24.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1945-05-01",
+        "endDate": "1945-07-31",
+        "order": 65,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "第4战区：桂林—柳州（1945 反攻）",
+          "en": "4th War Zone: Guilin–Liuzhou (1945 Counteroffensive)"
+        },
+        "description": {
+          "zh": "1945 年 5 月，第4战区自桂北反攻，收复柳州、桂林。示意简化路线，待史料校订。",
+          "en": "In May 1945 the 4th War Zone counterattacked from northern Guangxi and recovered Liuzhou and Guilin. Illustrative simplified route, pending historical review."
         },
         "extensions": {
           "precision": "schematic"

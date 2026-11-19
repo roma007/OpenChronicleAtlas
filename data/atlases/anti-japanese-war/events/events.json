@@ -1036,7 +1036,7 @@
       }
     },
     "entityIds": [
-      "china-resistance"
+      "japanese-invasion"
     ],
     "category": "外交",
     "summary": {
@@ -12508,7 +12508,7 @@
       }
     },
     "entityIds": [
-      "kmt-group-armies"
+      "kmt-forces"
     ],
     "category": "战役",
     "summary": {
@@ -13533,7 +13533,7 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "kmt-group-armies"
+      "kmt-forces"
     ],
     "category": "战役",
     "summary": {
@@ -13563,60 +13563,6 @@
       "nanning-fall-1944-11"
     ],
     "importance": 1
-  },
-  {
-    "id": "japanese-henan-1944-04",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军进攻河南",
-      "en": "Japanese offensive in Henan"
-    },
-    "date": "1944-04-17",
-    "location": {
-      "lng": 113.65,
-      "lat": 34.76,
-      "place": {
-        "zh": "河南郑州",
-        "en": "Zhengzhou, Henan"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "军事",
-    "summary": {
-      "zh": "日军发动豫中会战，进攻河南。",
-      "en": "Japanese forces launched the Central Henan campaign."
-    },
-    "description": {
-      "zh": "1944 年 4 月 17 日，日军发动豫中会战，进攻河南。日期与战果为通行说法，待页码级核对。",
-      "en": "On April 17, 1944, Japanese forces launched the Central Henan campaign. Dates and results follow conventional accounts and await page-level verification."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《日本帝国主义侵华档案资料选编》",
-        "author": "中央档案馆等编",
-        "year": 1995,
-        "note": "示意初稿，待史料校订"
-      },
-      {
-        "title": "《剑桥中华民国史》",
-        "author": "费正清、费维恺编",
-        "year": 1994,
-        "note": "事件背景与时间参考"
-      },
-      {
-        "title": "《中国人民解放军战史》",
-        "author": "军事科学院军事历史研究部",
-        "year": 1987,
-        "note": "战役经过参考"
-      }
-    ],
-    "relatedIds": [
-      "ichigo-offensive-1944-04"
-    ],
-    "importance": 2
   },
   {
     "id": "japanese-yuzhong-1944-04",
@@ -13668,7 +13614,6 @@
       }
     ],
     "relatedIds": [
-      "japanese-henan-1944-04",
       "kmt-31st-group-army-yuzhong-1944-04"
     ],
     "importance": 2
@@ -13723,8 +13668,7 @@
       }
     ],
     "relatedIds": [
-      "japanese-yuzhong-1944-04",
-      "japanese-henan-1944-04"
+      "japanese-yuzhong-1944-04"
     ],
     "importance": 2
   },
@@ -13744,7 +13688,7 @@
       }
     },
     "entityIds": [
-      "kmt-group-armies"
+      "kmt-forces"
     ],
     "category": "战役",
     "summary": {
@@ -15501,7 +15445,8 @@
       }
     },
     "entityIds": [
-      "allied-forces"
+      "allied-forces",
+      "kmt-group-armies"
     ],
     "category": "战役",
     "summary": {
@@ -16137,7 +16082,7 @@
       }
     },
     "entityIds": [
-      "kmt-group-armies"
+      "kmt-forces"
     ],
     "category": "战役",
     "summary": {
@@ -16145,8 +16090,8 @@
       "en": "Chinese forces counterattacked in Guangxi, recovering Guilin, Liuzhou, and Nanning."
     },
     "description": {
-      "zh": "1945 年 5 月起，中国军队在广西发起局部反攻，逐步收复豫湘桂战役中失守的城镇。随着日本宣布投降，桂柳、南宁等地相继光复。\n\n本事件日期为示意时间点，具体作战进程待史料校订。",
-      "en": "From May 1945, Chinese forces launched a limited counteroffensive in Guangxi, gradually recovering towns lost during Operation Ichi-Go. With Japan’s announcement of surrender, Guilin, Liuzhou, Nanning, and other places were recovered.\n\nThe date is an illustrative point; operational details await historical review."
+      "zh": "1945 年 5 月，第4战区部队在桂北发起反攻，先后收复柳州、桂林，将日军逐出广西。此役与湘西会战、滇西反攻同为抗战末期中国军队的局部反攻。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "In May 1945 4th War Zone troops launched a counteroffensive in northern Guangxi, recovering Liuzhou and Guilin and driving the Japanese out of the province. Together with the Western Hunan campaign and the western Yunnan counteroffensive, it was one of the limited Chinese counteroffensives at the end of the war.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
     },
     "images": [],
     "sources": [
@@ -16278,55 +16223,6 @@
       "zhujiang-yunfu-1945-04"
     ],
     "importance": 2
-  },
-  {
-    "id": "kmt-4th-war-zone-guilin-liuzhou-1945-05",
-    "name": {
-      "zh": "第4战区桂柳反攻",
-      "en": "4th War Zone Guilin–Liuzhou Counteroffensive"
-    },
-    "date": "1945-05-01",
-    "location": {
-      "lng": 110.29,
-      "lat": 25.27,
-      "place": {
-        "zh": "广西桂林",
-        "en": "Guilin, Guangxi"
-      }
-    },
-    "entityIds": [
-      "kmt-group-armies"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "第4战区部队自桂林方向反攻，先后收复柳州、桂林。",
-      "en": "4th War Zone troops counterattacked from the Guilin direction and recovered Liuzhou and Guilin."
-    },
-    "description": {
-      "zh": "1945 年 5 月，第4战区部队在桂北发起反攻，先后收复柳州、桂林，将日军逐出广西。此役与湘西会战、滇西反攻同为抗战末期中国军队的局部反攻。\n\n路线为示意简化，日期取通行说法，待史料校订。",
-      "en": "In May 1945 4th War Zone troops launched a counteroffensive in northern Guangxi, recovering Liuzhou and Guilin and driving the Japanese out of the province. Together with the Western Hunan campaign and the western Yunnan counteroffensive, it was one of the limited Chinese counteroffensives at the end of the war.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "《抗日战争正面战场》",
-        "author": "中国第二历史档案馆",
-        "year": 1987,
-        "note": "部队沿革与作战参考"
-      },
-      {
-        "title": "《中国抗日战争史》",
-        "author": "张宪文等",
-        "year": 2001,
-        "note": "示意初稿，待史料校订"
-      }
-    ],
-    "relatedIds": [
-      "guilin-counteroffensive-1945-05",
-      "kmt-guilin-liuzhou-1944-11"
-    ],
-    "importance": 2,
-    "atlasId": "anti-japanese-war"
   },
   {
     "id": "new-6th-army-airlift-1945-05",
