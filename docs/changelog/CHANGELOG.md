@@ -3,6 +3,21 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.140] - 2026-11-19
+
+### Fixed
+- 原「察东事件与大滩口约」把 1935 年 1 月日军挑衅与 2 月中日口约合成一条，
+  主体不清；拆为：
+  - 「察东事件」（1935-01-15，`japanese-invasion`，军事）；
+  - 「大滩口约」（1935-02-02，`japanese-invasion` + `china-resistance`，外交）。
+- 事件 340 → 341，路线仍 223。
+- 新增 `docs/plans/2026-11-19-M188-察东事件拆分-plan.md`。
+
+### Changed
+- 实体归属原则明确为「单一事件按主要行为主体，双边协定可同时挂双方实体」。
+
+---
+
 ## [v1.0.139] - 2026-11-19
 
 ### Added

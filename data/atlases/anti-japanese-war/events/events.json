@@ -1226,8 +1226,8 @@
     "id": "chadong-incident-1935-01",
     "atlasId": "anti-japanese-war",
     "name": {
-      "zh": "察东事件与大滩口约",
-      "en": "Chahar East Incident and the Datan Accord"
+      "zh": "察东事件",
+      "en": "Chahar East Incident"
     },
     "date": "1935-01-15",
     "location": {
@@ -1239,16 +1239,16 @@
       }
     },
     "entityIds": [
-      "china-resistance"
+      "japanese-invasion"
     ],
-    "category": "外交",
+    "category": "军事",
     "summary": {
-      "zh": "日军在察东挑起冲突，迫使中国接受大滩口约，中国军队撤出察东。",
-      "en": "Japan provoked clashes in eastern Chahar and forced China to accept the Datan Accord, withdrawing Chinese troops from the area."
+      "zh": "日军在察哈尔东部沽源一带挑起冲突，进攻长梁、乌泥河等地。",
+      "en": "Japanese forces provoked clashes around Guyuan in eastern Chahar, attacking Changliang, Wunihe, and other places."
     },
     "description": {
-      "zh": "1935 年 1 月，日军在察哈尔东部沽源一带挑起冲突，进攻长梁、乌泥河等地。2 月，中方与日方在大滩达成口约，中国军队撤出察东，日军获得自由行动空间。此举为同年张北事件与秦土协定埋下伏笔。\n\n外交事件，不绘制路线；日期与表述取通行说法，待史料校订。",
-      "en": "In January 1935 Japanese forces provoked clashes around Guyuan in eastern Chahar, attacking Changliang, Wunihe, and other places. In February China and Japan reached an oral accord at Datan: Chinese troops withdrew from eastern Chahar and Japanese forces gained freedom of movement. The episode set the stage for the Zhangbei Incident and the Qin-Doihara Agreement later that year.\n\nA diplomatic event with no route drawn; dates and wording await historical review."
+      "zh": "1935 年 1 月，日军在察哈尔东部沽源一带挑起冲突，进攻长梁、乌泥河等地，中国守军与地方武装抵抗。事件后中日双方在大滩交涉，2 月达成口约。\n\n军事事件，不绘制路线；日期与表述取通行说法，待史料校订。",
+      "en": "In January 1935 Japanese forces provoked clashes around Guyuan in eastern Chahar, attacking Changliang, Wunihe, and other places, where Chinese garrisons and local forces resisted. Negotiations followed at Datan and produced an oral accord in February.\n\nA military event with no route drawn; dates and wording follow conventional accounts and await historical review."
     },
     "images": [],
     "sources": [
@@ -1266,6 +1266,59 @@
       }
     ],
     "relatedIds": [
+      "qintu-agreement-1935-06"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "datan-accord-1935-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "大滩口约",
+      "en": "Datan Oral Accord"
+    },
+    "date": "1935-02-02",
+    "location": {
+      "lng": 115.69,
+      "lat": 41.67,
+      "place": {
+        "zh": "察哈尔沽源大滩",
+        "en": "Datan, Guyuan, Chahar"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "中方与日方在大滩达成口约，中国军队撤出察东，日军获得自由行动空间。",
+      "en": "China and Japan reached an oral accord at Datan: Chinese troops withdrew from eastern Chahar and Japanese forces gained freedom of movement."
+    },
+    "description": {
+      "zh": "1935 年 2 月 2 日，中方与日方在察哈尔沽源大滩达成口约，中国军队撤出察东，日军获得自由行动空间。这是中日双方共同的行为，但中国处于被迫接受的一方，为同年张北事件与秦土协定埋下伏笔。\n\n外交事件，不绘制路线；日期与表述取通行说法，待史料校订。",
+      "en": "On 2 February 1935 China and Japan reached an oral accord at Datan in Guyuan, Chahar: Chinese troops withdrew from eastern Chahar and Japanese forces gained freedom of movement. It was a bilateral act, but China was forced to accept, and it set the stage for the Zhangbei Incident and the Qin-Doihara Agreement later that year.\n\nA diplomatic event with no route drawn; dates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "chadong-incident-1935-01",
       "qintu-agreement-1935-06"
     ],
     "importance": 2,
