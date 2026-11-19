@@ -3,6 +3,22 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.144] - 2026-11-19
+
+### Changed
+- 把「中国政府与民众」拆为两个实体：
+  - 「中国政府」（`china-resistance`，保留 ID 以兼容旧分享链接）；
+  - 「中国民众」（`china-people`，新增）。
+- 9 条民众事件改挂「中国民众」：一二·九、一二·一六、七君子、中国民主政团同盟、
+  南京安全区与国际救援、察哈尔民众抗日同盟军成立、收复多伦、西南联大、重庆防空与救灾。
+- 冀东防共自治委员会成立改挂 `japanese-invasion`（日本扶植的傀儡政权）。
+- 察哈尔同盟军路线由 `china-resistance` 改挂 `china-people`，新增
+  `routes/china-people.geojson`，删除 `routes/china-resistance.geojson`。
+- 实体 8 → 9；事件仍 346，路线仍 223。
+- 新增 `docs/plans/2026-11-19-M192-中国政府与中国民众拆分-plan.md`。
+
+---
+
 ## [v1.0.143] - 2026-11-19
 
 ### Fixed
