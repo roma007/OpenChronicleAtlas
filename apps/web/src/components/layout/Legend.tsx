@@ -136,31 +136,27 @@ export function Legend({ className = '' }: LegendProps) {
                 type="button"
                 aria-pressed={active}
                 onClick={() => toggleEntity(entity.id)}
-                className={`flex min-w-0 flex-1 items-center gap-2 rounded-md px-1 py-2 text-left text-sm transition ${
+                className={`flex min-w-0 flex-1 flex-col items-start gap-0.5 rounded-md px-1 py-1.5 text-left text-sm transition ${
                   active ? 'text-ink' : 'text-ink/40'
                 }`}
               >
-                <span
-                  aria-hidden
-                  className="h-2.5 w-2.5 shrink-0 rounded-full ring-2 ring-parchment"
-                  style={{
-                    backgroundColor: entity.color,
-                    opacity: active ? 1 : 0.35,
-                  }}
-                />
-                <span className="min-w-0 flex-1 truncate">{entityName}</span>
-              </button>
-              <span className="shrink-0 text-[10px] tabular-nums text-ink-soft/70">
-                {segments > 0
-                  ? t(segments === 1 ? 'common.segment' : 'common.segments', {
-                      count: segments,
-                    })
-                  : eventCount > 0
-                    ? t(eventCount === 1 ? 'common.event' : 'common.events', {
-                        count: eventCount,
-                      })
+                <span className="flex w-full min-w-0 items-center gap-2">
+                  <span
+                    aria-hidden
+                    className="h-2.5 w-2.5 shrink-0 rounded-full ring-2 ring-parchment"
+                    style={{
+                      backgroundColor: entity.color,
+                      opacity: active ? 1 : 0.35,
+                    }}
+                  />
+                  <span className="min-w-0 flex-1 truncate">{entityName}</span>
+                </span>
+                <span className="whitespace-nowrap pl-[18px] text-[10px] tabular-nums text-ink-soft/70">
+                  {segments > 0 || eventCount > 0
+                    ? t('legend.counts', { events: eventCount, routes: segments })
                     : '—'}
-              </span>
+                </span>
+              </button>
               <button
                 type="button"
                 aria-pressed={active}

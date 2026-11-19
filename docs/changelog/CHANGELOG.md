@@ -3,6 +3,17 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.146] - 2026-11-19
+
+### Changed
+- 图例统一显示「X 个事件 · Y 段」（英文 `X events · Y segments`），不再只显示段数；
+  有事件无路线的实体也显示「N 个事件 · 0 段」，不再是「—」。
+- 计数改为第二行显示，实体名占满第一行，避免长计数截断「国民党军正面战场」等名称。
+- 新增 `legend.counts` 文案；新增
+  `docs/plans/2026-11-19-M194-图例统一显示事件与段数-plan.md`。
+
+---
+
 ## [v1.0.145] - 2026-11-19
 
 ### Fixed

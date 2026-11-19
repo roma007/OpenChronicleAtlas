@@ -117,6 +117,7 @@ const zh = {
   'legend.hide': '隐藏该路线',
   'legend.solo': '独显该路线（隐藏其他）',
   'legend.showAll': '全显',
+  'legend.counts': '{events} 个事件 · {routes} 段',
   'legend.routeStyles': '路线样式',
   'legend.defenseHint': '齿线与方块表示封锁阵地与据点（放大后显示）。',
   'legend.routeHeadHint': '线头箭头表示路线当前推进到的位置。',
@@ -309,6 +310,7 @@ const en: Record<keyof typeof zh, string> = {
   'legend.hide': 'Hide this route',
   'legend.solo': 'Solo this route (hide the rest)',
   'legend.showAll': 'Show all',
+  'legend.counts': '{events} events · {routes} segments',
   'legend.routeStyles': 'Route styles',
   'legend.defenseHint':
     'Ticks and squares mark defensive lines and strongpoints (shown when zoomed in).',
