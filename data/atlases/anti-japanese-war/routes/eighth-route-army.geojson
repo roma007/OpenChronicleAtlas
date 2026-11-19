@@ -83,6 +83,120 @@
         "type": "LineString",
         "coordinates": [
           [
+            113.3,
+            37
+          ],
+          [
+            113,
+            38
+          ],
+          [
+            112.78,
+            38.98
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1937-10-12",
+        "endDate": "1937-10-19",
+        "order": 3,
+        "segmentType": "advance",
+        "name": {
+          "zh": "辽县—阳明堡（夜袭阳明堡）",
+          "en": "Liaoxian–Yangmingbao (Night Raid on Yangmingbao)"
+        },
+        "description": {
+          "zh": "第129师第769团由晋东南北上、夜袭阳明堡机场的示意路线，待史料校订。",
+          "en": "Schematic route of the 769th Regiment, 129th Division, moving north from southeastern Shanxi to raid Yangmingbao airfield; pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.13,
+            38.46
+          ],
+          [
+            111.9,
+            38.9
+          ],
+          [
+            112.86,
+            39.18
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1937-10-14",
+        "endDate": "1937-10-21",
+        "order": 4,
+        "segmentType": "advance",
+        "name": {
+          "zh": "兴县—雁门关（雁门关伏击战）",
+          "en": "Xingxian–Yanmenguan (Yanmenguan Ambush)"
+        },
+        "description": {
+          "zh": "第120师第358旅由晋西北向雁门关以南出击的示意路线，待史料校订。",
+          "en": "Schematic route of the 358th Brigade, 120th Division, moving from northwestern Shanxi to south of Yanmenguan; pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.3,
+            37
+          ],
+          [
+            113.6,
+            37.5
+          ],
+          [
+            113.87,
+            37.88
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1937-10-19",
+        "endDate": "1937-10-28",
+        "order": 5,
+        "segmentType": "advance",
+        "name": {
+          "zh": "辽县—七亘村（重叠设伏）",
+          "en": "Liaoxian–Qigencun (Overlapping Ambush)"
+        },
+        "description": {
+          "zh": "第129师第386旅由辽县东出平定、在七亘村连续设伏的示意路线，待史料校订。",
+          "en": "Schematic route of the 386th Brigade, 129th Division, moving east from Liaoxian toward Pingding for the repeated ambush at Qigencun; pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             114.19,
             38.85
           ],
@@ -100,7 +214,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1937-11-08",
         "endDate": "1938-01-15",
-        "order": 3,
+        "order": 6,
         "segmentType": "advance",
         "name": {
           "zh": "阜平—兴县",
@@ -138,7 +252,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1938-01-16",
         "endDate": "1938-04-01",
-        "order": 4,
+        "order": 7,
         "segmentType": "advance",
         "name": {
           "zh": "兴县—辽县",
@@ -147,6 +261,120 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.3,
+            37
+          ],
+          [
+            113.3,
+            36.7
+          ],
+          [
+            113.3,
+            36.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1938-03-10",
+        "endDate": "1938-03-16",
+        "order": 8,
+        "segmentType": "advance",
+        "name": {
+          "zh": "辽县—神头岭（神头岭伏击战）",
+          "en": "Liaoxian–Shentouling (Shentouling Ambush)"
+        },
+        "description": {
+          "zh": "第129师第386旅由辽县南下潞城神头岭设伏的示意路线，待史料校订。",
+          "en": "Schematic route of the 386th Brigade, 129th Division, moving south from Liaoxian to ambush at Shentouling, Lucheng; pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.3,
+            36.4
+          ],
+          [
+            113.45,
+            36.45
+          ],
+          [
+            113.6,
+            36.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1938-03-17",
+        "endDate": "1938-03-31",
+        "order": 9,
+        "segmentType": "advance",
+        "name": {
+          "zh": "神头岭—响堂铺（响堂铺伏击战）",
+          "en": "Shentouling–Xiangtangpu (Xiangtangpu Ambush)"
+        },
+        "description": {
+          "zh": "第129师由神头岭转至涉县响堂铺伏击日军运输队的示意路线，待史料校订。",
+          "en": "Schematic route of the 129th Division moving from Shentouling to ambush a Japanese convoy at Xiangtangpu, Shexian; pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.6,
+            36.5
+          ],
+          [
+            113.2,
+            36.7
+          ],
+          [
+            112.8,
+            36.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1938-04-01",
+        "endDate": "1938-04-16",
+        "order": 10,
+        "segmentType": "advance",
+        "name": {
+          "zh": "响堂铺—长乐村（反九路围攻）",
+          "en": "Xiangtangpu–Changlecun (Counter-Offensive against the Nine-Route Encirlement)"
+        },
+        "description": {
+          "zh": "第129师由响堂铺西进武乡长乐村、追歼日军的示意路线，待史料校订。",
+          "en": "Schematic route of the 129th Division moving west from Xiangtangpu to Changlecun, Wuxiang, in pursuit of Japanese forces; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -180,7 +408,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1938-04-02",
         "endDate": "1938-12-27",
-        "order": 5,
+        "order": 11,
         "segmentType": "advance",
         "name": {
           "zh": "辽县—沂水",
@@ -189,6 +417,90 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.19,
+            38.85
+          ],
+          [
+            115.6,
+            39.4
+          ],
+          [
+            116.4,
+            39.9
+          ],
+          [
+            117.4,
+            40.05
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1938-06-08",
+        "endDate": "1938-07-06",
+        "order": 12,
+        "segmentType": "advance",
+        "name": {
+          "zh": "阜平—冀东（第四纵队东进）",
+          "en": "Fuping–Eastern Hebei (Fourth Column Eastward Advance)"
+        },
+        "description": {
+          "zh": "八路军第四纵队由平西挺进冀东、策应冀东抗日暴动的示意路线，待史料校订。",
+          "en": "Schematic route of the Fourth Column advancing from Pingxi into eastern Hebei to support the Jidong uprising; pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.13,
+            38.46
+          ],
+          [
+            112.5,
+            38.6
+          ],
+          [
+            114.5,
+            38.5
+          ],
+          [
+            116.05,
+            38.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1938-12-22",
+        "endDate": "1939-01-25",
+        "order": 13,
+        "segmentType": "advance",
+        "name": {
+          "zh": "兴县—河间（第120师挺进冀中）",
+          "en": "Xingxian–Hejian (120th Division Moves into Central Hebei)"
+        },
+        "description": {
+          "zh": "第120师主力由晋西北越过同蒲、平汉铁路进入冀中的示意路线，待史料校订。",
+          "en": "Schematic route of the 120th Division moving from northwestern Shanxi across the Tongpu and Pinghan railways into central Hebei; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -218,7 +530,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1938-12-28",
         "endDate": "1941-11-10",
-        "order": 6,
+        "order": 14,
         "segmentType": "advance",
         "name": {
           "zh": "沂水—黎城",
@@ -239,28 +551,66 @@
         "type": "LineString",
         "coordinates": [
           [
-            113.4,
-            36.6
+            116.05,
+            38.5
           ],
           [
-            113.3,
-            37
+            116.2,
+            38.55
           ]
         ]
       },
       "properties": {
         "entityId": "eighth-route-army",
-        "startDate": "1941-11-11",
-        "endDate": "1942-05-25",
-        "order": 7,
+        "startDate": "1939-01-26",
+        "endDate": "1939-04-25",
+        "order": 15,
         "segmentType": "advance",
         "name": {
-          "zh": "黎城—辽县",
-          "en": "Licheng–Liaoxian"
+          "zh": "河间—齐会（齐会战斗）",
+          "en": "Hejian–Qihui (Battle of Qihui)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "第120师在河间东北齐会地区集结、围歼日军的示意路线，待史料校订。",
+          "en": "Schematic route of the 120th Division concentrating and encircling Japanese forces at Qihui, northeast of Hejian; pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.19,
+            38.85
+          ],
+          [
+            114.4,
+            39.05
+          ],
+          [
+            114.6,
+            39.35
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1939-10-25",
+        "endDate": "1939-11-07",
+        "order": 16,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "阜平—黄土岭（1939 年反“扫荡”）",
+          "en": "Fuping–Huangtuling (1939 Counter-Mopping-Up)"
+        },
+        "description": {
+          "zh": "晋察冀军区部队在涞源黄土岭设伏、击毙阿部规秀的示意路线，待史料校订。",
+          "en": "Schematic route of Jin-Cha-Ji troops ambushing and killing Abe Norihide at Huangtuling, Laiyuan; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -286,7 +636,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1940-08-20",
         "endDate": "1940-12-31",
-        "order": 8,
+        "order": 17,
         "segmentType": "counterattack",
         "name": {
           "zh": "辽县—阳泉（百团大战）",
@@ -324,7 +674,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1940-08-20",
         "endDate": "1940-09-30",
-        "order": 9,
+        "order": 18,
         "segmentType": "counterattack",
         "name": {
           "zh": "第129师：正太路破袭",
@@ -333,6 +683,242 @@
         "description": {
           "zh": "百团大战第一阶段，第129师破袭正太路西段榆次至阳泉一线。示意简化路线，待史料校订。",
           "en": "In the first phase of the Hundred Regiments Offensive the 129th Division sabotaged the western section of the Zhengding–Taiyuan railway between Yuci and Yangquan. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.3,
+            37
+          ],
+          [
+            113.2,
+            36.95
+          ],
+          [
+            113.1,
+            36.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1940-10-29",
+        "endDate": "1940-11-01",
+        "order": 19,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "辽县—关家垴（关家垴战斗）",
+          "en": "Liaoxian–Guanjianao (Battle of Guanjianao)"
+        },
+        "description": {
+          "zh": "第129师由辽县南下武乡关家垴围攻日军的示意路线，待史料校订。",
+          "en": "Schematic route of the 129th Division moving south from Liaoxian to attack Japanese forces at Guanjianao, Wuxiang; pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.6,
+            39.35
+          ],
+          [
+            114.9,
+            39.3
+          ],
+          [
+            115.15,
+            39.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1941-08-23",
+        "endDate": "1941-09-25",
+        "order": 20,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "黄土岭—狼牙山（1941 年秋季反“扫荡”）",
+          "en": "Huangtuling–Langya Mountain (Autumn 1941 Counter-Mopping-Up)"
+        },
+        "description": {
+          "zh": "晋察冀军区第一军分区在易县狼牙山一带反“扫荡”的示意路线，待史料校订。",
+          "en": "Schematic route of the 1st Sub-district, Jin-Cha-Ji Military Region, opposing the Japanese “mopping-up” around Langya Mountain, Yi County; pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.4,
+            36.6
+          ],
+          [
+            113.3,
+            37
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1941-11-11",
+        "endDate": "1942-05-25",
+        "order": 21,
+        "segmentType": "advance",
+        "name": {
+          "zh": "黎城—辽县",
+          "en": "Licheng–Liaoxian"
+        },
+        "description": {
+          "zh": "示意简化路线，待史料校订。",
+          "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.2,
+            38.55
+          ],
+          [
+            116,
+            38.45
+          ],
+          [
+            115.9,
+            38.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1942-05-01",
+        "endDate": "1942-06-30",
+        "order": 22,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "齐会—冀中（1942 年反“五一大扫荡”）",
+          "en": "Qihui–Central Hebei (1942 May Day Counter-Mopping-Up)"
+        },
+        "description": {
+          "zh": "冀中军区部队在“五一大扫荡”中分散转移、坚持游击的示意路线，待史料校订。",
+          "en": "Schematic route of Jizhong Military Region forces dispersing and maintaining guerrilla resistance during the May Day “mopping-up”; pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.3,
+            37
+          ],
+          [
+            112.6,
+            36.7
+          ],
+          [
+            111.75,
+            36.25
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1943-10-20",
+        "endDate": "1943-10-24",
+        "order": 23,
+        "segmentType": "advance",
+        "name": {
+          "zh": "辽县—韩略村（第16团赴延安）",
+          "en": "Liaoxian–Hanluecun (16th Regiment Moves toward Yan’an)"
+        },
+        "description": {
+          "zh": "第129师第386旅第16团赴延安途中经洪洞韩略村的示意路线，待史料校订。",
+          "en": "Schematic route of the 16th Regiment, 386th Brigade, passing Hanluecun, Hongtong, on its way to Yan’an; pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.49,
+            36.6
+          ],
+          [
+            111.2,
+            36
+          ],
+          [
+            112.4,
+            34.9
+          ],
+          [
+            113.6,
+            31.2
+          ],
+          [
+            113.5,
+            28.5
+          ],
+          [
+            113.8,
+            25.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1944-11-09",
+        "endDate": "1945-09-02",
+        "order": 24,
+        "segmentType": "advance",
+        "name": {
+          "zh": "延安—湘粤（南下支队）",
+          "en": "Yan’an–Hunan–Guangdong (Southward Column)"
+        },
+        "description": {
+          "zh": "八路军南下支队由延安经晋绥、太岳、豫西、鄂豫边挺进湘粤的示意路线，待史料校订。",
+          "en": "Schematic route of the Southward Column from Yan’an through the Jin-Sui, Taiyue, western Henan, and Hubei-Henan border areas toward Hunan and Guangdong; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
