@@ -55,6 +55,58 @@
     "importance": 1
   },
   {
+    "id": "league-appeal-1931-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "中国向国联申诉九一八事变",
+      "en": "China’s Appeal to the League of Nations"
+    },
+    "date": "1931-09-21",
+    "location": {
+      "lng": 6.14,
+      "lat": 46.2,
+      "place": {
+        "zh": "瑞士日内瓦",
+        "en": "Geneva, Switzerland"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "中国代表施肇基援引《国联盟约》第十一条向国联申诉，要求制止日军进攻、恢复事变前状态。",
+      "en": "Chinese representative Sao-Ke Alfred Sze appealed to the League of Nations under Article 11 of the Covenant, asking it to stop the Japanese advance and restore the status quo ante."
+    },
+    "description": {
+      "zh": "1931 年 9 月 21 日，中国驻国联代表施肇基向国联秘书长递交声明书，援引《国联盟约》第十一条，控告日本侵略中国领土，要求国联行政院立即采取行动，阻止事态扩大、恢复九一八事变前的状态，并确定中国应得的赔偿。\n\n国民政府把制止日本侵略的希望主要寄托于国联调处，但国联行政院仅向中日双方发出内容相同的“紧急警告”，未将日本定为侵略者，也未采取制裁。此后国联决定派遣调查团，即李顿调查团。\n\n外交事件，不绘制路线；日期与表述取通行说法，待史料校订。",
+      "en": "On 21 September 1931 Chinese representative Sao-Ke Alfred Sze submitted a note to the League of Nations Secretary-General invoking Article 11 of the Covenant, accusing Japan of invading Chinese territory and asking the Council to stop the widening of the incident, restore the status quo ante, and determine reparations.\n\nThe Nationalist government placed its main hope in League mediation, but the Council only issued identical urgent warnings to both sides, neither naming Japan the aggressor nor imposing sanctions. The League subsequently decided to send a commission of inquiry — the Lytton Commission.\n\nA diplomatic event with no route drawn; dates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "国联申诉经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "lytton-commission-1932-04",
+      "mukden-incident-1931-09"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
     "id": "jinzhou-fall-1932-01",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -275,16 +327,16 @@
       }
     },
     "entityIds": [
-      "china-resistance"
+      "international"
     ],
-    "category": "外交",
+    "category": "国际",
     "summary": {
-      "zh": "国际联盟调查团抵达东北调查九一八事变，报告否认伪满洲国合法性，但未认定日本为侵略者。",
-      "en": "The League of Nations commission reached the Northeast to investigate the Mukden Incident; its report denied Manchukuo’s legitimacy but stopped short of naming Japan an aggressor."
+      "zh": "国际联盟调查团抵达沈阳调查九一八事变；报告否认伪满洲国合法性，但未认定日本为侵略者。",
+      "en": "The League of Nations commission reached Shenyang to investigate the Mukden Incident; its report denied Manchukuo’s legitimacy but did not name Japan an aggressor."
     },
     "description": {
-      "zh": "1932 年 4 月，国际联盟李顿调查团抵达东北，调查九一八事变后的局势。10 月公布的调查报告承认东北是中国领土、否认伪满洲国的合法性，但也未将日本定为侵略者，主张由国际共管。日本随后退出国际联盟。\n\n外交事件，不绘制路线；日期与地点取通行说法，待史料校订。",
-      "en": "In April 1932 the League of Nations Lytton Commission reached the Northeast to investigate the situation after the Mukden Incident. Its report, published in October, recognized the Northeast as Chinese territory and denied the legality of Manchukuo, but did not name Japan as an aggressor and proposed international administration. Japan subsequently withdrew from the League.\n\nA diplomatic event with no route drawn; dates and wording await historical review."
+      "zh": "1932 年 4 月 21 日，国际联盟李顿调查团抵达沈阳，开始调查九一八事变后的东北局势。调查团由英、美、法、德、意五国代表组成，英国代表李顿任团长；中国代表顾维钧以顾问（襄助委员）身份参加。\n\n调查团不是中国政府派出的：1931 年 9 月 21 日中国政府向国联申诉，同年 12 月 10 日国联行政院决议派遣调查团。中国政府是申诉方和当事国，负责接待与配合，但调查的发起、组成和结论都出自国联。\n\n调查团 10 月 2 日公布报告书，承认东北是中国领土、否认伪满洲国的合法性，但未将日本定为侵略者，主张国际共管。1933 年 2 月国联大会通过报告书，日本随后退出国联。\n\n国际事件，不绘制路线；日期、职务与表述取通行说法，待史料校订。",
+      "en": "On 21 April 1932 the League of Nations Lytton Commission reached Shenyang and began investigating the situation in the Northeast after the Mukden Incident. The commission consisted of representatives of Britain, the United States, France, Germany, and Italy, with the British representative Lord Lytton as chairman; the Chinese representative Wellington Koo took part as assessor.\n\nThe commission was not sent by the Chinese government: China appealed to the League on 21 September 1931, and the League Council resolved on 10 December 1931 to send a commission of inquiry. China was the complainant and the party concerned and handled reception and cooperation, but the initiative, composition, and conclusions belonged to the League.\n\nThe report, published on 2 October 1932, recognized the Northeast as Chinese territory and denied the legality of Manchukuo, but did not name Japan as an aggressor and proposed international administration. The League Assembly adopted the report in February 1933, and Japan withdrew from the League soon afterwards.\n\nAn international event with no route drawn; dates, titles, and wording follow conventional accounts and await historical review."
     },
     "images": [],
     "sources": [
@@ -302,6 +354,7 @@
       }
     ],
     "relatedIds": [
+      "league-appeal-1931-09",
       "manchukuo-1932-03"
     ],
     "importance": 2,
@@ -515,6 +568,59 @@
       "chengde-fall-1933-03"
     ],
     "importance": 2
+  },
+  {
+    "id": "league-report-adopted-1933-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "国联大会通过李顿报告书",
+      "en": "The League Assembly Adopts the Lytton Report"
+    },
+    "date": "1933-02-24",
+    "location": {
+      "lng": 6.14,
+      "lat": 46.2,
+      "place": {
+        "zh": "瑞士日内瓦",
+        "en": "Geneva, Switzerland"
+      }
+    },
+    "entityIds": [
+      "international"
+    ],
+    "category": "国际",
+    "summary": {
+      "zh": "国联大会通过李顿报告书，承认中国对东北的主权、不承认伪满洲国；日本随后退出国联。",
+      "en": "The League Assembly adopted the Lytton Report, recognizing Chinese sovereignty over the Northeast and denying Manchukuo; Japan then withdrew from the League."
+    },
+    "description": {
+      "zh": "1933 年 2 月 24 日，国际联盟大会以压倒多数通过李顿报告书，承认东北是中国领土、不承认伪满洲国的合法性，要求日军撤出。日本投下唯一反对票，代表当场退场，并于 3 月 27 日正式退出国联；随后日军进攻热河，扩大侵华战争。\n\n决议出自国联大会，中国政府是申诉方和受益方，但不是决议的制定者；国联也没有能力强制日本执行。\n\n国际事件，不绘制路线；日期与表述取通行说法，待史料校订。",
+      "en": "On 24 February 1933 the League of Nations Assembly adopted the Lytton Report by an overwhelming majority, recognizing Chinese sovereignty over the Northeast, denying the legality of Manchukuo, and calling for the withdrawal of Japanese troops. Japan cast the sole opposing vote; its delegate left the hall, and Japan formally withdrew from the League on 27 March. Japanese forces then attacked Rehe (Jehol), widening the war.\n\nThe resolution came from the League Assembly; the Chinese government was the complainant and beneficiary, not the author, and the League had no means to enforce it.\n\nAn international event with no route drawn; dates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "国联决议经过参考，待页码核对"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "国联调处与李顿报告参考"
+      }
+    ],
+    "relatedIds": [
+      "lytton-commission-1932-04",
+      "japanese-jehol-1933-02",
+      "manchukuo-1932-03"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "chengde-fall-1933-03",
@@ -4105,16 +4211,16 @@
       }
     },
     "entityIds": [
-      "china-resistance"
+      "international"
     ],
-    "category": "外交",
+    "category": "国际",
     "summary": {
       "zh": "九国公约会议在布鲁塞尔召开，中国呼吁制裁日本，未获实质结果。",
       "en": "The Nine-Power Treaty Conference met in Brussels; China called for sanctions on Japan but achieved no substantive result."
     },
     "description": {
-      "zh": "1937 年 11 月，九国公约会议在布鲁塞尔召开，中国代表顾维钧呼吁制裁日本，但会议仅通过泛泛决议，未采取实际行动。中国转而更多寻求苏联、美国等双边援助。\n\n日期与表述取通行说法，待史料校订。",
-      "en": "In November 1937 the Nine-Power Treaty Conference met in Brussels. Chinese representative Wellington Koo called for sanctions on Japan, but the conference adopted only general resolutions and took no practical action. China increasingly turned to bilateral aid from the Soviet Union and the United States.\n\nDates and wording follow conventional accounts and await historical review."
+      "zh": "1937 年 11 月，九国公约会议在布鲁塞尔召开，中国代表顾维钧呼吁制裁日本，但会议仅通过泛泛决议，未采取实际行动。中国转而更多寻求苏联、美国等双边援助。\n\n会议是九国公约签字国召开的多边会议，中国是参加国和申诉方，但会议本身不是中国政府的决策。\n\n国际事件，不绘制路线；日期与表述取通行说法，待史料校订。",
+      "en": "In November 1937 the Nine-Power Treaty Conference met in Brussels. Chinese representative Wellington Koo called for sanctions on Japan, but the conference adopted only general resolutions and took no practical action. China increasingly turned to bilateral aid from the Soviet Union and the United States.\n\nThe conference was a multilateral meeting of the Nine-Power Treaty signatories; China was a participant and complainant, but the conference itself was not a decision of the Chinese government.\n\nAn international event with no route drawn; dates and wording follow conventional accounts and await historical review."
     },
     "images": [],
     "sources": [
