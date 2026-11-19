@@ -4699,8 +4699,7 @@
       }
     },
     "entityIds": [
-      "japanese-invasion",
-      "china-resistance"
+      "japanese-invasion"
     ],
     "category": "惨案",
     "summary": {
@@ -4708,8 +4707,8 @@
       "en": "Japan carried out a strategic bombing campaign against Chongqing for five and a half years, causing heavy civilian casualties."
     },
     "description": {
-      "zh": "1938 年 2 月至 1943 年 8 月，日军对重庆进行长期战略轰炸，1941 年 6 月 5 日发生大隧道惨案。重庆军民在防空、疏散与救火中坚持抗战。\n\n日期与表述取通行说法，待史料校订。",
-      "en": "From February 1938 to August 1943 Japan conducted a prolonged strategic bombing campaign against Chongqing; the Daxuidao tunnel disaster occurred on 5 June 1941. Soldiers and civilians persisted through air defense, evacuation, and firefighting.\n\nDates and wording follow conventional accounts and await historical review."
+      "zh": "1938 年 2 月至 1943 年 8 月，日军对重庆进行长期战略轰炸，旨在摧毁中国战时首都的抗战意志。轰炸造成大量平民伤亡与财产损失，1941 年 6 月 5 日发生大隧道惨案。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "From February 1938 to August 1943 Japan conducted a prolonged strategic bombing campaign against Chongqing aimed at breaking the will of China’s wartime capital. The bombing caused heavy civilian casualties and material losses; the Daxuidao tunnel disaster occurred on 5 June 1941.\n\nDates and wording follow conventional accounts and await historical review."
     },
     "images": [],
     "sources": [
@@ -4727,6 +4726,60 @@
       }
     ],
     "relatedIds": [
+      "wuhan-fall-1938-10",
+      "china-declares-war-1941-12"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "chongqing-air-defense-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "重庆防空与救灾",
+      "en": "Air Defense and Relief in Chongqing"
+    },
+    "date": "1938-02-18",
+    "endDate": "1943-08-23",
+    "location": {
+      "lng": 106.55,
+      "lat": 29.56,
+      "place": {
+        "zh": "重庆",
+        "en": "Chongqing"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "重庆军民在长期轰炸下组织防空、疏散、救火与救济，坚持战时首都的运转。",
+      "en": "Under prolonged bombing, Chongqing’s soldiers and civilians organized air defense, evacuation, firefighting, and relief to keep the wartime capital functioning."
+    },
+    "description": {
+      "zh": "1938 年至 1943 年，重庆在日军长期轰炸下建立防空警报、防空洞与疏散体系，组织消防、医疗与难民救济。1941 年 6 月 5 日大隧道惨案后，各界展开救援与善后。重庆军民在轰炸中坚持抗战，维持战时首都的运转。\n\n政治/社会事件，不绘制路线；日期与表述取通行说法，待史料校订。",
+      "en": "From 1938 to 1943 Chongqing built air-raid warning, shelter, and evacuation systems under prolonged Japanese bombing, and organized firefighting, medical care, and refugee relief. After the Daxuidao tunnel disaster of 5 June 1941, relief and recovery efforts were undertaken. Soldiers and civilians persisted through the bombing and kept the wartime capital functioning.\n\nA political and social event with no route drawn; dates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "chongqing-bombing-1938-02",
       "wuhan-fall-1938-10",
       "china-declares-war-1941-12"
     ],
