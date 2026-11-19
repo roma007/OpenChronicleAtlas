@@ -1019,6 +1019,57 @@
     "atlasId": "anti-japanese-war"
   },
   {
+    "id": "new-life-movement-1934-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "新生活运动",
+      "en": "New Life Movement"
+    },
+    "date": "1934-02-19",
+    "location": {
+      "lng": 115.89,
+      "lat": 28.68,
+      "place": {
+        "zh": "江西南昌",
+        "en": "Nanchang, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "蒋介石在南昌发起新生活运动，以“礼义廉耻”整饬社会风气。",
+      "en": "Chiang Kai-shek launched the New Life Movement in Nanchang, promoting “propriety, righteousness, honesty, and shame” to reform social habits."
+    },
+    "description": {
+      "zh": "1934 年 2 月，蒋介石在南昌发起新生活运动，提倡“礼义廉耻”，要求生活军事化、生产化、艺术化，试图以道德教化整饬社会。运动持续到抗战时期，实际效果有限。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "In February 1934 Chiang Kai-shek launched the New Life Movement in Nanchang, promoting “propriety, righteousness, honesty, and shame” and calling for a militarized, productive, and artistic daily life. The movement continued into the war years with limited practical effect.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "national-economic-construction-1935-04"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
     "id": "puyi-enthroned-1934-03",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -1223,6 +1274,57 @@
     }
   },
   {
+    "id": "national-economic-construction-1935-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "国民经济建设运动",
+      "en": "National Economic Construction Movement"
+    },
+    "date": "1935-04-01",
+    "location": {
+      "lng": 106.63,
+      "lat": 26.65,
+      "place": {
+        "zh": "贵州贵阳",
+        "en": "Guiyang, Guizhou"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "蒋介石在贵阳发起国民经济建设运动，推动交通、工矿与农村建设。",
+      "en": "Chiang Kai-shek launched the National Economic Construction Movement in Guiyang to promote transport, industry, mining, and rural construction."
+    },
+    "description": {
+      "zh": "1935 年 4 月，蒋介石在贵阳发起国民经济建设运动，号召“尽人力、辟地利、均供求、畅流通”，推动交通、工矿、农村合作与国防经济建设。该运动与法币改革同为战前经济准备的一部分。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "In April 1935 Chiang Kai-shek launched the National Economic Construction Movement in Guiyang, calling for mobilizing labor, developing resources, balancing supply and demand, and improving distribution. It promoted transport, industry, mining, rural cooperatives, and defense-related construction, alongside the currency reform as part of prewar economic preparation.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "fabian-reform-1935-11"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
     "id": "hemei-agreement-1935-06",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -1320,6 +1422,57 @@
     ],
     "relatedIds": [
       "hemei-agreement-1935-06"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "fabian-reform-1935-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "法币改革",
+      "en": "Currency Reform"
+    },
+    "date": "1935-11-03",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏南京",
+        "en": "Nanjing, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "国民政府实行法币政策，统一货币、稳定金融，为抗战经济动员奠定基础。",
+      "en": "The Nationalist government introduced the fabi currency, unifying the monetary system and stabilizing finance for wartime mobilization."
+    },
+    "description": {
+      "zh": "1935 年 11 月 3 日，国民政府财政部宣布法币政策，白银收归国有，以中央、中国、交通等银行发行的钞票为法币，统一货币、稳定金融。法币改革为抗战时期的财政与军费动员提供了基础。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "On 3 November 1935 the Ministry of Finance announced the fabi reform: silver was nationalized and notes issued by the Central Bank of China, Bank of China, Bank of Communications, and others became legal tender. The reform unified the currency and stabilized finance, providing a basis for wartime fiscal and military mobilization.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "national-economic-construction-1935-04"
     ],
     "importance": 2,
     "extensions": {
@@ -1949,6 +2102,110 @@
     "importance": 1
   },
   {
+    "id": "lushan-statement-1937-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "庐山谈话",
+      "en": "Lushan Statement"
+    },
+    "date": "1937-07-17",
+    "location": {
+      "lng": 115.99,
+      "lat": 29.55,
+      "place": {
+        "zh": "江西庐山",
+        "en": "Lushan, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "蒋介石发表庐山谈话，表示“地无分南北，年无分老幼，皆有守土抗战之责任”。",
+      "en": "Chiang Kai-shek’s Lushan statement declared that “regardless of north or south, young or old, everyone has the duty to defend the land and resist.”"
+    },
+    "description": {
+      "zh": "1937 年 7 月 17 日，蒋介石在庐山发表谈话，提出解决卢沟桥事变的四项立场，并表示“如果战端一开，那就是地无分南北，年无分老幼，无论何人，皆有守土抗战之责任”。这被视为国民政府走向全面抗战的重要表态。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "On 17 July 1937 Chiang Kai-shek issued the Lushan Statement, setting out four conditions for settling the Marco Polo Bridge Incident and declaring that “if war begins, then regardless of north or south, young or old, everyone has the duty to defend the land and resist.” It is regarded as a key statement of the Nationalist government’s turn toward full-scale resistance.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "lugouqiao-incident-1937-07",
+      "capital-moved-chongqing-1937-11"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "factory-relocation-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "工厂西迁",
+      "en": "Relocation of Industry to the Interior"
+    },
+    "date": "1937-08-01",
+    "endDate": "1940-12-31",
+    "location": {
+      "lng": 106.55,
+      "lat": 29.56,
+      "place": {
+        "zh": "重庆",
+        "en": "Chongqing"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "抗战爆发后，沿海工厂大规模内迁四川、云南、贵州、陕西等地。",
+      "en": "After the war began, coastal factories were moved on a large scale to Sichuan, Yunnan, Guizhou, Shaanxi, and other interior provinces."
+    },
+    "description": {
+      "zh": "1937 年 8 月起，国民政府组织沿海工厂内迁，600 余家工厂、大批设备与技术工人迁往四川、云南、贵州、陕西等地，成为大后方工业基础。内迁过程艰苦，但保存了抗战所需的军工与民用生产能力。\n\n日期与数字取通行说法，待史料校订。",
+      "en": "From August 1937 the Nationalist government organized the relocation of coastal industry. More than 600 factories, large quantities of equipment, and skilled workers moved to Sichuan, Yunnan, Guizhou, Shaanxi, and other interior provinces, forming the industrial base of the rear area. The process was arduous but preserved military and civilian production capacity for the war.\n\nDates and figures follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "capital-moved-chongqing-1937-11"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
     "id": "japanese-nankou-1937-08",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -2111,6 +2368,57 @@
       "kmt-jianqiao-1937-08"
     ],
     "importance": 2
+  },
+  {
+    "id": "supreme-defence-council-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "国防最高会议成立",
+      "en": "Establishment of the Supreme National Defense Council"
+    },
+    "date": "1937-08-12",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏南京",
+        "en": "Nanjing, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "国民政府成立国防最高会议，作为战时最高决策机构。",
+      "en": "The Nationalist government established the Supreme National Defense Council as the top wartime decision-making body."
+    },
+    "description": {
+      "zh": "1937 年 8 月，国民政府成立国防最高会议，统筹军政大计；1939 年 2 月改组为国防最高委员会，蒋介石任委员长。它成为战时最高决策机构。\n\n日期与沿革取通行说法，待史料校订。",
+      "en": "In August 1937 the Nationalist government established the Supreme National Defense Council to coordinate military and political affairs; in February 1939 it was reorganized as the Supreme National Defense Commission with Chiang Kai-shek as chairman. It became the top wartime decision-making body.\n\nDates and institutional details follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "lushan-statement-1937-07"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "battle-shanghai-1937-08",
@@ -2921,6 +3229,57 @@
     "importance": 2
   },
   {
+    "id": "league-appeal-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "国联申诉",
+      "en": "Appeal to the League of Nations"
+    },
+    "date": "1937-09-13",
+    "location": {
+      "lng": 6.14,
+      "lat": 46.2,
+      "place": {
+        "zh": "瑞士日内瓦",
+        "en": "Geneva, Switzerland"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "中国向国际联盟申诉日本侵略，援引盟约第十七条。",
+      "en": "China appealed to the League of Nations against Japanese aggression under Article 17 of the Covenant."
+    },
+    "description": {
+      "zh": "1937 年 9 月 13 日，中国向国际联盟申诉日本侵略，援引盟约第十七条，要求制裁。国联随后通过谴责日本、支持中国的决议，但缺乏强制力，未采取实际行动。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "On 13 September 1937 China appealed to the League of Nations against Japanese aggression under Article 17 of the Covenant and sought sanctions. The League adopted resolutions condemning Japan and supporting China, but they lacked enforcement and produced no practical action.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "nine-power-conference-1937-11"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
     "id": "lingqiu-1937",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -3569,6 +3928,58 @@
     "atlasId": "anti-japanese-war"
   },
   {
+    "id": "nine-power-conference-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "九国公约会议",
+      "en": "Nine-Power Treaty Conference"
+    },
+    "date": "1937-11-03",
+    "endDate": "1937-11-24",
+    "location": {
+      "lng": 4.35,
+      "lat": 50.85,
+      "place": {
+        "zh": "比利时布鲁塞尔",
+        "en": "Brussels, Belgium"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "九国公约会议在布鲁塞尔召开，中国呼吁制裁日本，未获实质结果。",
+      "en": "The Nine-Power Treaty Conference met in Brussels; China called for sanctions on Japan but achieved no substantive result."
+    },
+    "description": {
+      "zh": "1937 年 11 月，九国公约会议在布鲁塞尔召开，中国代表顾维钧呼吁制裁日本，但会议仅通过泛泛决议，未采取实际行动。中国转而更多寻求苏联、美国等双边援助。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "In November 1937 the Nine-Power Treaty Conference met in Brussels. Chinese representative Wellington Koo called for sanctions on Japan, but the conference adopted only general resolutions and took no practical action. China increasingly turned to bilateral aid from the Soviet Union and the United States.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "league-appeal-1937-09"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
     "id": "kmt-10th-group-army-songhu-1937-11",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -3787,6 +4198,58 @@
       "kmt-14th-group-army-1937-10"
     ],
     "importance": 2
+  },
+  {
+    "id": "capital-moved-chongqing-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "迁都重庆",
+      "en": "Capital Moved to Chongqing"
+    },
+    "date": "1937-11-20",
+    "location": {
+      "lng": 106.55,
+      "lat": 29.56,
+      "place": {
+        "zh": "重庆",
+        "en": "Chongqing"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "国民政府宣言迁都重庆，以西南为大后方坚持抗战。",
+      "en": "The Nationalist government declared Chongqing the wartime capital and made the southwest its rear base."
+    },
+    "description": {
+      "zh": "1937 年 11 月 20 日，国民政府发表迁都重庆宣言，随后军政机关、工厂、学校陆续西迁。1940 年 9 月 6 日，重庆被明定为陪都，成为战时政治、军事与经济中心。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "On 20 November 1937 the Nationalist government declared the capital moved to Chongqing, and government offices, factories, and schools moved west in succession. On 6 September 1940 Chongqing was formally designated the wartime capital, becoming the political, military, and economic center of the rear area.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "lushan-statement-1937-07",
+      "chongqing-wartime-capital-1940-09"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "nanjing-fall-1937-12",
@@ -4057,6 +4520,60 @@
       "burma-expedition-1942-02"
     ],
     "importance": 2
+  },
+  {
+    "id": "chongqing-bombing-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "重庆大轰炸",
+      "en": "Bombing of Chongqing"
+    },
+    "date": "1938-02-18",
+    "endDate": "1943-08-23",
+    "location": {
+      "lng": 106.55,
+      "lat": 29.56,
+      "place": {
+        "zh": "重庆",
+        "en": "Chongqing"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "惨案",
+    "summary": {
+      "zh": "日军对重庆进行长达五年半的战略轰炸，造成大量平民伤亡。",
+      "en": "Japan carried out a strategic bombing campaign against Chongqing for five and a half years, causing heavy civilian casualties."
+    },
+    "description": {
+      "zh": "1938 年 2 月至 1943 年 8 月，日军对重庆进行长期战略轰炸，1941 年 6 月 5 日发生大隧道惨案。重庆军民在防空、疏散与救火中坚持抗战。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "From February 1938 to August 1943 Japan conducted a prolonged strategic bombing campaign against Chongqing; the Daxuidao tunnel disaster occurred on 5 June 1941. Soldiers and civilians persisted through air defense, evacuation, and firefighting.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "wuhan-fall-1938-10",
+      "china-declares-war-1941-12"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "japanese-linyi-1938-03",
@@ -4717,6 +5234,109 @@
     "importance": 2
   },
   {
+    "id": "war-resistance-construction-program-1938-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "抗战建国纲领",
+      "en": "Program of Resistance and National Reconstruction"
+    },
+    "date": "1938-04-01",
+    "location": {
+      "lng": 114.3,
+      "lat": 30.59,
+      "place": {
+        "zh": "湖北武汉",
+        "en": "Wuhan, Hubei"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "国民党临时全国代表大会通过《抗战建国纲领》，确定战时内外政策。",
+      "en": "The Kuomintang’s extraordinary national congress adopted the Program of Resistance and National Reconstruction, setting wartime domestic and foreign policy."
+    },
+    "description": {
+      "zh": "1938 年 3 月至 4 月，国民党临时全国代表大会在武汉召开，蒋介石任总裁，通过《抗战建国纲领》，提出抗战与建国并行的方针，涉及外交、军事、政治、经济、教育等方面。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "From March to April 1938 the Kuomintang held an extraordinary national congress in Wuhan, elected Chiang Kai-shek as party leader, and adopted the Program of Resistance and National Reconstruction, which set out parallel goals of resistance and reconstruction in foreign policy, military affairs, politics, economy, and education.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "supreme-defence-council-1937-08",
+      "people-political-council-1938-07"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "southwest-associated-university-1938-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "西南联大成立",
+      "en": "Establishment of the National Southwest Associated University"
+    },
+    "date": "1938-04-02",
+    "location": {
+      "lng": 102.83,
+      "lat": 24.88,
+      "place": {
+        "zh": "云南昆明",
+        "en": "Kunming, Yunnan"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "北京大学、清华大学、南开大学迁昆明，组成国立西南联合大学。",
+      "en": "Peking, Tsinghua, and Nankai universities moved to Kunming and formed the National Southwest Associated University."
+    },
+    "description": {
+      "zh": "1938 年 4 月，北京大学、清华大学、南开大学在昆明组成国立西南联合大学，在艰苦条件下坚持教学与研究，培养了战时一大批人才。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "In April 1938 Peking University, Tsinghua University, and Nankai University formed the National Southwest Associated University in Kunming. Despite difficult conditions it continued teaching and research and trained a generation of talent during the war.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "capital-moved-chongqing-1937-11"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
     "id": "yuwangshan-battle-1938-04",
     "name": {
       "zh": "禹王山战斗",
@@ -5026,6 +5646,57 @@
       "lanfeng-1938-05"
     ],
     "importance": 2
+  },
+  {
+    "id": "huayuankou-breach-1938-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "花园口决堤",
+      "en": "Huayuankou Breach"
+    },
+    "date": "1938-06-09",
+    "location": {
+      "lng": 113.66,
+      "lat": 34.75,
+      "place": {
+        "zh": "河南郑州",
+        "en": "Zhengzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "国民政府为阻日军西进，在郑州花园口炸开黄河大堤，造成严重水灾。",
+      "en": "The Nationalist government breached the Yellow River dike at Huayuankou to stop the Japanese advance, causing severe flooding."
+    },
+    "description": {
+      "zh": "1938 年 6 月，国民政府军事当局为阻止日军沿陇海路西进，在郑州花园口炸开黄河大堤，形成黄泛区。此举迟滞了日军进攻，但也造成豫皖苏大量平民伤亡与流离失所。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "In June 1938 the Nationalist military authorities breached the Yellow River dike at Huayuankou near Zhengzhou to stop the Japanese advance along the Longhai railway, creating the Yellow River flood zone. The move delayed the Japanese but caused heavy civilian casualties and displacement in Henan, Anhui, and Jiangsu.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "wuhan-fall-1938-10"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "japanese-wuhan-1938-06",
@@ -5523,6 +6194,109 @@
       "kmt-5th-group-army-zhongtiaoshan-1941-05"
     ],
     "importance": 2
+  },
+  {
+    "id": "people-political-council-1938-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "国民参政会成立",
+      "en": "Establishment of the People’s Political Council"
+    },
+    "date": "1938-07-06",
+    "location": {
+      "lng": 114.3,
+      "lat": 30.59,
+      "place": {
+        "zh": "湖北汉口",
+        "en": "Hankou, Hubei"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "国民参政会在汉口成立，成为战时民意咨询机构。",
+      "en": "The People’s Political Council was established in Hankou as a wartime advisory body representing public opinion."
+    },
+    "description": {
+      "zh": "1938 年 7 月 6 日，国民参政会第一届第一次会议在汉口召开，容纳各党派与无党派人士，成为战时民意咨询机构。它没有立法权，但为各派参与政治提供了渠道。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "On 6 July 1938 the first session of the People’s Political Council opened in Hankou, bringing together party and non-party figures as a wartime advisory body. It had no legislative power but provided a channel for various groups to participate in politics.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "war-resistance-construction-program-1938-04",
+      "three-principles-youth-corps-1938-07"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "three-principles-youth-corps-1938-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "三民主义青年团成立",
+      "en": "Establishment of the Three Principles of the People Youth Corps"
+    },
+    "date": "1938-07-09",
+    "location": {
+      "lng": 114.3,
+      "lat": 30.59,
+      "place": {
+        "zh": "湖北武昌",
+        "en": "Wuchang, Hubei"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "三民主义青年团在武昌成立，蒋介石任团长。",
+      "en": "The Three Principles of the People Youth Corps was established in Wuchang with Chiang Kai-shek as its head."
+    },
+    "description": {
+      "zh": "1938 年 7 月 9 日，三民主义青年团在武昌成立，蒋介石任团长，作为国民党领导下的青年组织，吸收青年参加抗战与后方建设。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "On 9 July 1938 the Three Principles of the People Youth Corps was established in Wuchang with Chiang Kai-shek as its head. As a youth organization under Kuomintang leadership, it recruited young people for the war effort and rear-area construction.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "people-political-council-1938-07"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "japanese-dabie-1938-08",
@@ -6249,6 +7023,109 @@
       "huangyadong-1941-11"
     ],
     "importance": 2
+  },
+  {
+    "id": "fifth-plenary-session-1939-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "五届五中全会",
+      "en": "Fifth Plenary Session of the Kuomintang"
+    },
+    "date": "1939-01-21",
+    "location": {
+      "lng": 106.55,
+      "lat": 29.56,
+      "place": {
+        "zh": "重庆",
+        "en": "Chongqing"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "国民党五届五中全会确定防共、限共方针，同时坚持抗战。",
+      "en": "The Kuomintang’s fifth plenary session adopted a policy of guarding against and limiting the Communists while continuing the war."
+    },
+    "description": {
+      "zh": "1939 年 1 月，国民党五届五中全会在重庆召开，确定“溶共、防共、限共、反共”方针，设立防共委员会；同时仍表示坚持抗战。此后国共摩擦加剧，直至 1941 年皖南事变。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "In January 1939 the Kuomintang’s fifth plenary session met in Chongqing and adopted a policy of “absorbing, guarding against, limiting, and opposing the Communists,” setting up an anti-Communist committee while still professing to continue the war. Kuomintang–Communist friction intensified, culminating in the Wannan Incident of 1941.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "wannan-incident-1941-01",
+      "national-spiritual-mobilization-1939-03"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "national-spiritual-mobilization-1939-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "国民精神总动员",
+      "en": "National Spiritual Mobilization"
+    },
+    "date": "1939-03-12",
+    "location": {
+      "lng": 106.55,
+      "lat": 29.56,
+      "place": {
+        "zh": "重庆",
+        "en": "Chongqing"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "国民政府发起国民精神总动员，强调“国家至上、民族至上”。",
+      "en": "The Nationalist government launched the National Spiritual Mobilization, stressing “the nation above all, the people above all.”"
+    },
+    "description": {
+      "zh": "1939 年 3 月，国民政府在重庆发起国民精神总动员，公布《国民精神总动员纲领》，以“国家至上、民族至上”动员抗战意志，推行节约、献金、慰问伤兵等活动。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "In March 1939 the Nationalist government launched the National Spiritual Mobilization in Chongqing and published its program, calling for “the nation above all, the people above all” to sustain the will to resist. It promoted austerity, donations, and support for wounded soldiers.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "fifth-plenary-session-1939-01"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "japanese-nanchang-1939-03",
@@ -8363,6 +9240,59 @@
     "importance": 2
   },
   {
+    "id": "wang-puppet-government-1940-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "汪伪国民政府成立与重庆讨伐",
+      "en": "Wang Jingwei’s Puppet Government and Chongqing’s Condemnation"
+    },
+    "date": "1940-03-30",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏南京",
+        "en": "Nanjing, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "汪精卫在南京成立伪国民政府，重庆国民政府发布讨伐令。",
+      "en": "Wang Jingwei set up a puppet government in Nanjing, and the Chongqing government issued an order condemning him."
+    },
+    "description": {
+      "zh": "1940 年 3 月 30 日，汪精卫在日本扶植下于南京成立伪国民政府。重庆国民政府发布讨伐令，宣布汪伪政权无效，并通缉汪精卫。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "On 30 March 1940 Wang Jingwei, backed by Japan, established a puppet National Government in Nanjing. The Chongqing government issued an order condemning the regime as illegitimate and offering a reward for Wang’s arrest.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "nanjing-fall-1937-12",
+      "china-declares-war-1941-12"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
     "id": "japanese-zaoyi-1940-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -8791,6 +9721,57 @@
     ],
     "importance": 2,
     "atlasId": "anti-japanese-war"
+  },
+  {
+    "id": "chongqing-wartime-capital-1940-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "重庆定为陪都",
+      "en": "Chongqing Designated the Wartime Capital"
+    },
+    "date": "1940-09-06",
+    "location": {
+      "lng": 106.55,
+      "lat": 29.56,
+      "place": {
+        "zh": "重庆",
+        "en": "Chongqing"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "国民政府明定重庆为陪都。",
+      "en": "The Nationalist government formally designated Chongqing as the wartime capital."
+    },
+    "description": {
+      "zh": "1940 年 9 月 6 日，国民政府明定重庆为陪都，确立其战时政治中心地位。重庆同时是大后方工业、教育与外交活动的中心。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "On 6 September 1940 the Nationalist government formally designated Chongqing as the wartime capital, confirming its role as the political center. It was also the hub of rear-area industry, education, and diplomacy.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "capital-moved-chongqing-1937-11"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "daling-shan-base-1940-10",
@@ -9380,6 +10361,58 @@
     "importance": 2
   },
   {
+    "id": "lend-lease-china-1941-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "美国租借法案援华",
+      "en": "US Lend-Lease Aid to China"
+    },
+    "date": "1941-03-11",
+    "location": {
+      "lng": 77.04,
+      "lat": 38.9,
+      "place": {
+        "zh": "美国华盛顿",
+        "en": "Washington, D.C., USA"
+      }
+    },
+    "entityIds": [
+      "allied-forces",
+      "china-resistance"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "美国通过《租借法案》，中国成为受援国之一。",
+      "en": "The United States enacted the Lend-Lease Act, and China became one of its recipients."
+    },
+    "description": {
+      "zh": "1941 年 3 月 11 日，美国签署《租借法案》，随后将中国纳入援助范围，提供武器、物资与贷款，支持中国继续抗战。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "On 11 March 1941 the United States signed the Lend-Lease Act and soon extended aid to China, providing weapons, supplies, and credits to support continued resistance.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "flying-tigers-1941-08"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
     "id": "japanese-shanggao-1941-03",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -9663,6 +10696,57 @@
       "changsha-1941-09"
     ],
     "importance": 2
+  },
+  {
+    "id": "china-democratic-league-1941-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "中国民主政团同盟成立",
+      "en": "Establishment of the Chinese Democratic League"
+    },
+    "date": "1941-03-19",
+    "location": {
+      "lng": 106.55,
+      "lat": 29.56,
+      "place": {
+        "zh": "重庆",
+        "en": "Chongqing"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "中国民主政团同盟在重庆秘密成立，后公开。",
+      "en": "The Chinese Democratic League was secretly founded in Chongqing and later made public."
+    },
+    "description": {
+      "zh": "1941 年 3 月 19 日，中国民主政团同盟在重庆秘密成立，10 月 10 日公开，主张团结抗战、实行民主，成为战时重要的中间党派联合组织。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "On 19 March 1941 the Chinese Democratic League was secretly founded in Chongqing and made public on 10 October. It called for united resistance and democratic government and became an important wartime coalition of middle parties.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "wannan-incident-1941-01"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "nanchang-1941",
@@ -10041,6 +11125,58 @@
     "importance": 2
   },
   {
+    "id": "flying-tigers-1941-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "飞虎队成立",
+      "en": "Establishment of the Flying Tigers"
+    },
+    "date": "1941-08-01",
+    "location": {
+      "lng": 102.83,
+      "lat": 24.88,
+      "place": {
+        "zh": "云南昆明",
+        "en": "Kunming, Yunnan"
+      }
+    },
+    "entityIds": [
+      "allied-forces",
+      "china-resistance"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "中国空军美国志愿大队（飞虎队）在昆明成立，陈纳德任指挥官。",
+      "en": "The American Volunteer Group, the “Flying Tigers,” was formed in Kunming under Claire Chennault."
+    },
+    "description": {
+      "zh": "1941 年 8 月 1 日，中国空军美国志愿大队在昆明成立，陈纳德任指挥官，后称“飞虎队”，在滇缅战场与保卫中国领空中作战。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "On 1 August 1941 the American Volunteer Group was formed in Kunming under Claire Chennault. Known as the “Flying Tigers,” it fought in the Burma theater and in the defense of Chinese airspace.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "lend-lease-china-1941-03"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
     "id": "wuguishan-base-1941-09",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -10094,6 +11230,57 @@
       "dongjiang-column-1943-12"
     ],
     "importance": 2
+  },
+  {
+    "id": "land-tax-in-kind-1941-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "田赋征实",
+      "en": "Land Tax in Kind"
+    },
+    "date": "1941-09-01",
+    "location": {
+      "lng": 106.55,
+      "lat": 29.56,
+      "place": {
+        "zh": "重庆",
+        "en": "Chongqing"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "国民政府实行田赋征实，以粮食实物征收支撑战时财政。",
+      "en": "The Nationalist government converted the land tax to payment in grain to support wartime finance."
+    },
+    "description": {
+      "zh": "1941 年，国民政府决定田赋征实，将田赋改为征收粮食实物，并配合统制经济与通货膨胀政策，支撑战时军粮与财政。\n\n日期与表述取通行说法，待史料校订。",
+      "en": "In 1941 the Nationalist government converted the land tax from cash to grain, alongside controlled economy and inflation, to support wartime military food supply and finance.\n\nDates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考，待页码核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "war-resistance-construction-program-1938-04"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "changsha-1941-09",
