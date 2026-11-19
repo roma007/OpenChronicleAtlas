@@ -3,6 +3,24 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.135] - 2026-11-19
+
+### Fixed
+- 天羽声明（日本外务省声明）误挂在「中国政府与民众」层，改为只属 `japanese-invasion`。
+- 日本宣布无条件投降误挂「中国政府与民众」，改为只属 `japanese-invasion` + `allied-forces`；
+  日本签署投降书原本已只属这两层，保持一致。
+
+### Added
+- 新增「中国战区受降仪式」（1945-09-09，南京，何应钦接受冈村宁次投降），
+  归 `kmt-forces` + `china-resistance`，补上中国自身在战争结束时的政治/军事行动。
+- 新增 `docs/plans/2026-11-19-M183-政治外交事件实体归属校正-plan.md`。
+
+### Changed
+- 专题时间范围结束日期由 1945-09-02 改为 1945-09-09，`manifest.json` 与
+  `data/atlases/index.json` 同步；副标题「1931—1945」与封面年份不变。
+
+---
+
 ## [v1.0.134] - 2026-11-19
 
 ### Fixed

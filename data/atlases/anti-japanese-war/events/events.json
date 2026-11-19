@@ -985,7 +985,7 @@
       }
     },
     "entityIds": [
-      "china-resistance"
+      "japanese-invasion"
     ],
     "category": "外交",
     "summary": {
@@ -16663,7 +16663,6 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance",
       "allied-forces"
     ],
     "category": "投降",
@@ -16744,6 +16743,59 @@
     ],
     "relatedIds": [
       "japan-surrender-1945-08"
+    ],
+    "importance": 1,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "china-theater-surrender-1945-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "中国战区受降仪式",
+      "en": "Surrender Ceremony in the China Theater"
+    },
+    "date": "1945-09-09",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏南京",
+        "en": "Nanjing, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "kmt-forces",
+      "china-resistance"
+    ],
+    "category": "投降",
+    "summary": {
+      "zh": "中国战区受降仪式在南京举行，何应钦代表中国接受冈村宁次投降。",
+      "en": "The surrender ceremony for the China Theater was held in Nanjing, where He Yingqin accepted the surrender of Okamura Yasuji on behalf of China."
+    },
+    "description": {
+      "zh": "1945 年 9 月 9 日，中国战区受降仪式在南京中央军校大礼堂举行。中国陆军总司令何应钦代表中国战区最高统帅接受日本驻华派遣军总司令冈村宁次投降，在华日军向中国缴械。\n\n政治事件，不绘制路线；日期与表述待史料校订。",
+      "en": "On 9 September 1945 the surrender ceremony for the China Theater was held in the auditorium of the Central Military Academy in Nanjing. He Yingqin, commander-in-chief of the Chinese Army, accepted the surrender of Okamura Yasuji, commander of the Japanese forces in China, on behalf of the supreme command of the China Theater, and Japanese troops in China laid down their arms.\n\nA political event with no route drawn; dates and wording await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "受降经过参考，待页码核对"
+      },
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "受降仪式与主官参考"
+      }
+    ],
+    "relatedIds": [
+      "japan-surrender-1945-08",
+      "instrument-surrender-1945-09"
     ],
     "importance": 1,
     "extensions": {
