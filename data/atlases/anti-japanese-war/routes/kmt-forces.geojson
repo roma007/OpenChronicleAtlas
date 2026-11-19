@@ -2506,6 +2506,82 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.28,
+            40.35
+          ],
+          [
+            118.1,
+            40.38
+          ],
+          [
+            117.91,
+            40.42
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1933-03-16",
+        "endDate": "1933-03-18",
+        "order": 68,
+        "segmentType": "defense",
+        "name": {
+          "zh": "第29军：喜峰口—罗文峪",
+          "en": "29th Army: Xifengkou–Luowenyu"
+        },
+        "description": {
+          "zh": "第29军暂编第2师在罗文峪设防，与喜峰口互为犄角。示意简化路线，待史料校订。",
+          "en": "The 29th Army’s Provisional 2nd Division defended Luowenyu in support of Xifengkou. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8,
+            40.2
+          ],
+          [
+            118.75,
+            40.08
+          ],
+          [
+            118.7,
+            40
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1933-03-09",
+        "endDate": "1933-04-11",
+        "order": 69,
+        "segmentType": "defense",
+        "name": {
+          "zh": "第32军：冷口—迁安防线",
+          "en": "32nd Army: Lengkou–Qian’an Line"
+        },
+        "description": {
+          "zh": "第32军商震部在冷口、迁安一线抗击日军。示意简化路线，待史料校订。",
+          "en": "Shang Zhen’s 32nd Army defended the Lengkou–Qian’an line. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
