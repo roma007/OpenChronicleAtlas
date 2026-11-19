@@ -1354,7 +1354,7 @@
     },
     "description": {
       "zh": "631 年冬，玄奘入迦湿弥罗，住约两年，从僧称法师学《俱舍论》《顺正理论》及因明、声明等，并抄写当地所藏经论。此地是当时说一切有部的重要中心。",
-      "en": "In the winter of 631 Xuanzang entered Kashmir and stayed about two years, studying the Abhidharma-kosa, the Nyayanusara and Buddhist logic under Sanghasena, and copying the texts preserved there."
+      "en": "In the winter of 631 Xuanzang entered Kashmir and stayed about two years, studying the Abhidharma-kosa, the Nyayanusara and Buddhist logic under the master Sengcheng, and copying the texts preserved there."
     },
     "images": [],
     "sources": [
@@ -1373,10 +1373,10 @@
     ],
     "relatedIds": [
       "udyana-631-11",
-      "chinasthana-633-05"
+      "kashmir-abhidharma-632-02"
     ],
     "importance": 2,
-    "endDate": "0633-02-28",
+    "endDate": "0633-01-31",
     "extensions": {
       "routeEvent": false
     },
@@ -1389,6 +1389,249 @@
         "en": "Kashmir"
       }
     ]
+  },
+  {
+    "id": "kashmir-abhidharma-632-02",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "僧称授《俱舍》",
+      "en": "Studying the Kosa under Sengcheng"
+    },
+    "aliases": [
+      {
+        "zh": "俱舍论"
+      },
+      {
+        "zh": "顺正理论"
+      },
+      {
+        "zh": "僧称",
+        "en": "Sengcheng"
+      }
+    ],
+    "date": "0632-02-15",
+    "location": {
+      "lng": 74.8,
+      "lat": 34.1,
+      "place": {
+        "zh": "迦湿弥罗（今克什米尔）",
+        "en": "Kashmir"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘在迦湿弥罗从僧称法师学《俱舍论》《顺正理论》。",
+      "en": "In Kashmir Xuanzang studies the Abhidharmakosa and the Nyayanusara under the master Sengcheng."
+    },
+    "description": {
+      "zh": "玄奘住阇耶因陀罗寺，从僧称法师学《阿毗达磨俱舍论》《阿毗达磨顺正理论》。僧称年近七十，解深经论，为迦湿弥罗众僧所推；见玄奘慧悟，叹曰「此支那僧，智力宏博，汝曹不及」。迦湿弥罗当时是说一切有部的重镇，论藏完备。年月经研究推定。",
+      "en": "Xuanzang lodged at the Jayendra monastery and studied the Abhidharmakosa and the Nyayanusara under the master Sengcheng, then nearly seventy and the most respected scholar in Kashmir. Impressed by his pupil, Sengcheng told the monks that none of them could match the Chinese monk's understanding. Kashmir was then a stronghold of the Sarvastivada with a complete Abhidharma canon. Dates are scholarly estimates."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "kashmir-631-12",
+      "kashmir-council-632-07"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "kashmir-council-632-07",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "第四次结集",
+      "en": "The Fourth Council"
+    },
+    "aliases": [
+      {
+        "zh": "迦腻色迦",
+        "en": "Kaniska"
+      },
+      {
+        "zh": "大毗婆沙论"
+      },
+      {
+        "zh": "第四次结集"
+      }
+    ],
+    "date": "0632-07-01",
+    "location": {
+      "lng": 74.8,
+      "lat": 34.1,
+      "place": {
+        "zh": "迦湿弥罗（今克什米尔）",
+        "en": "Kashmir"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘参礼迦腻色迦王结集之处，五百罗汉造《大毗婆沙论》之地。",
+      "en": "Xuanzang visits the site of Kaniska's council, where five hundred arhats compiled the Mahavibhasa."
+    },
+    "description": {
+      "zh": "迦湿弥罗是第四次结集之地。迦腻色迦王时，五百阿罗汉在此会集，造《阿毗达磨大毗婆沙论》，为说一切有部的纲领性著作。玄奘参礼结集伽蓝与窣堵波，后来在长安译出此论二百卷。年月经研究推定。",
+      "en": "Kashmir was the seat of the fourth Buddhist council: under King Kaniska five hundred arhats assembled here and compiled the Abhidharma-mahavibhasa, the great summa of the Sarvastivada. Xuanzang visited the council's monastery and stupa, and later translated the work in two hundred fascicles at Chang'an. Dates are scholarly estimates."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "kashmir-abhidharma-632-02",
+      "kashmir-hetuvidya-632-11"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "kashmir-hetuvidya-632-11",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "学因明声明",
+      "en": "Logic and Grammar"
+    },
+    "aliases": [
+      {
+        "zh": "因明"
+      },
+      {
+        "zh": "声明"
+      }
+    ],
+    "date": "0632-11-15",
+    "location": {
+      "lng": 74.8,
+      "lat": 34.1,
+      "place": {
+        "zh": "迦湿弥罗（今克什米尔）",
+        "en": "Kashmir"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘兼学因明、声明，并抄写迦湿弥罗所藏经论。",
+      "en": "Xuanzang adds Buddhist logic and grammar, and copies the texts kept in Kashmir."
+    },
+    "description": {
+      "zh": "除《俱舍》《顺正理》外，玄奘在此兼学因明（论式逻辑）与声明（音韵文法），并抄写当地所藏经论，为日后的译场作准备。年月经研究推定。",
+      "en": "Besides the Kosa and the Nyayanusara, Xuanzang studied Buddhist logic and grammar, copying the manuscripts preserved in Kashmir as preparation for his future translation work. Dates are scholarly estimates."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "kashmir-council-632-07",
+      "kashmir-departure-633-02"
+    ],
+    "importance": 1,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "kashmir-departure-633-02",
+    "atlasId": "xuanzang",
+    "name": {
+      "zh": "辞别迦湿弥罗",
+      "en": "Leaving Kashmir"
+    },
+    "aliases": [
+      {
+        "zh": "出迦湿弥罗",
+        "en": "Departure from Kashmir"
+      }
+    ],
+    "date": "0633-02-01",
+    "location": {
+      "lng": 74.8,
+      "lat": 34.1,
+      "place": {
+        "zh": "迦湿弥罗（今克什米尔）",
+        "en": "Kashmir"
+      }
+    },
+    "entityIds": [
+      "xuanzang"
+    ],
+    "category": "求法",
+    "summary": {
+      "zh": "玄奘学成辞行，出迦湿弥罗南下，经磔迦东行。",
+      "en": "His studies done, Xuanzang leaves Kashmir for the North Indian plain."
+    },
+    "description": {
+      "zh": "在迦湿弥罗首尾二年，玄奘学成辞行，出山南下，经磔迦国东行，进入北印度平原。此后一路东行，经至那仆底、阇烂达罗、秣兔罗，至曲女城。年月经研究推定。",
+      "en": "After two years in Kashmir Xuanzang took his leave, came down from the mountains and traveled east through Taki into the North Indian plain, passing Chinasthana, Jalandhara and Mathura on the way to Kanauj. Dates are scholarly estimates."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《大唐西域记》",
+        "author": "玄奘、辩机",
+        "year": 646,
+        "note": "路线与地名参考，坐标为示意简化"
+      },
+      {
+        "title": "《大慈恩寺三藏法师传》",
+        "author": "慧立、彦悰",
+        "year": 688,
+        "note": "事件日期与行程参考"
+      }
+    ],
+    "relatedIds": [
+      "kashmir-hetuvidya-632-11",
+      "chinasthana-633-05"
+    ],
+    "importance": 1
   },
   {
     "id": "chinasthana-633-05",
@@ -1443,7 +1686,7 @@
       }
     ],
     "relatedIds": [
-      "kashmir-631-12",
+      "kashmir-departure-633-02",
       "jalandhara-633-07"
     ],
     "importance": 2
