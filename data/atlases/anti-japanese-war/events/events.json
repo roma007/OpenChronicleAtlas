@@ -4412,17 +4412,66 @@
     }
   },
   {
+    "id": "nanjing-safety-zone-1937-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "南京安全区与国际救援",
+      "en": "Nanjing Safety Zone and International Relief"
+    },
+    "date": "1937-11-22",
+    "endDate": "1938-02-28",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.04,
+      "place": {
+        "zh": "江苏南京安全区",
+        "en": "Nanjing Safety Zone, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "南京安全区国际委员会设立难民区，收容难民、提供救济并记录日军暴行。",
+      "en": "The International Committee for the Nanjing Safety Zone set up a refugee zone, provided relief, and documented Japanese atrocities."
+    },
+    "description": {
+      "zh": "1937 年 11 月，南京安全区国际委员会成立，划设安全区，由约翰·拉贝、明妮·魏特琳等外籍人士主持，收容大批难民，提供粮食、医疗与庇护，并记录日军暴行。安全区在南京沦陷后继续运作到 1938 年初。\n\n政治/人道事件，不绘制路线；日期与表述取通行说法，待史料校订。",
+      "en": "In November 1937 the International Committee for the Nanjing Safety Zone was formed to establish a refugee zone. Led by foreigners including John Rabe and Minnie Vautrin, it sheltered large numbers of refugees, provided food, medical care, and protection, and documented Japanese atrocities. The zone continued to operate into early 1938 after the city fell.\n\nA political and humanitarian event with no route drawn; dates and wording follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《南京大屠杀史料集》",
+        "author": "张宪文主编",
+        "year": 2005,
+        "note": "安全区与救援参考"
+      },
+      {
+        "title": "《拉贝日记》",
+        "author": "约翰·拉贝",
+        "year": 1997,
+        "note": "安全区记录"
+      }
+    ],
+    "relatedIds": [
+      "nanjing-fall-1937-12",
+      "nanjing-massacre-1937-12"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
     "id": "nanjing-fall-1937-12",
     "atlasId": "anti-japanese-war",
     "name": {
-      "zh": "南京沦陷与南京大屠杀",
-      "en": "Fall of Nanjing and the Nanjing Massacre"
+      "zh": "南京沦陷",
+      "en": "Fall of Nanjing"
     },
     "aliases": [
-      {
-        "zh": "南京大屠杀",
-        "en": "Nanjing Massacre"
-      },
       {
         "zh": "南京保卫战",
         "en": "Defense of Nanjing"
@@ -4441,14 +4490,14 @@
       "japanese-invasion",
       "kmt-forces"
     ],
-    "category": "惨案",
+    "category": "战役",
     "summary": {
-      "zh": "日军攻占南京后对平民和战俘实施大规模屠杀、强奸与劫掠，造成惨重伤亡。",
-      "en": "After capturing Nanjing, Japanese forces carried out mass killings, rape, and looting against civilians and prisoners of war."
+      "zh": "日军攻占南京，南京保卫战失败，守军突围。",
+      "en": "Japanese forces captured Nanjing after the defense failed, and the Chinese garrison broke out."
     },
     "description": {
-      "zh": "1937 年 12 月 13 日，日军攻占南京。随后数周内，日军在南京及周边地区对放下武器的中国军人和无辜平民实施大规模屠杀、强奸、纵火与抢劫。远东国际军事法庭认定伤亡规模巨大。\n\n本事件为路线分段端点，具体伤亡数字存在不同统计口径，待史料校订。",
-      "en": "Japanese forces captured Nanjing on 13 December 1937. In the following weeks they carried out mass killings, rape, arson, and looting against disarmed Chinese soldiers and civilians in and around the city. The International Military Tribunal for the Far East found the scale of the atrocities to be enormous.\n\nThis event marks a route segment endpoint; casualty figures vary among accounts and await historical review."
+      "zh": "1937 年 12 月，中国军队进行南京保卫战。12 月 13 日日军攻占南京，守军突围，部分官兵滞留城内。此后日军对平民和战俘实施大规模屠杀、强奸与劫掠，即南京大屠杀。\n\n本事件为路线分段端点；日期与表述取通行说法，待史料校订。",
+      "en": "In December 1937 Chinese forces fought the defense of Nanjing. On 13 December Japanese forces captured the city, the garrison broke out, and some soldiers remained trapped. Japanese forces then carried out mass killings, rape, and looting against civilians and prisoners of war—the Nanjing Massacre.\n\nThis event marks a route segment endpoint; dates and wording follow conventional accounts and await historical review."
     },
     "images": [],
     "sources": [
@@ -4466,9 +4515,64 @@
       }
     ],
     "relatedIds": [
-      "battle-shanghai-1937-08"
+      "battle-shanghai-1937-08",
+      "nanjing-massacre-1937-12",
+      "nanjing-safety-zone-1937-12"
     ],
     "importance": 1
+  },
+  {
+    "id": "nanjing-massacre-1937-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "南京大屠杀",
+      "en": "Nanjing Massacre"
+    },
+    "date": "1937-12-13",
+    "endDate": "1938-01-31",
+    "location": {
+      "lng": 118.8,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏南京",
+        "en": "Nanjing, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "惨案",
+    "summary": {
+      "zh": "日军攻占南京后对平民和战俘实施大规模屠杀、强奸与劫掠，造成惨重伤亡。",
+      "en": "After capturing Nanjing, Japanese forces carried out mass killings, rape, and looting against civilians and prisoners of war."
+    },
+    "description": {
+      "zh": "1937 年 12 月 13 日日军攻占南京后，在数周内对放下武器的中国军人和无辜平民实施大规模屠杀、强奸、纵火与抢劫。远东国际军事法庭认定伤亡规模巨大。具体伤亡数字存在不同统计口径，待史料校订。\n\n惨案事件，不绘制路线；日期与表述取通行说法。",
+      "en": "After capturing Nanjing on 13 December 1937, Japanese forces carried out mass killings, rape, arson, and looting against disarmed Chinese soldiers and civilians over several weeks. The International Military Tribunal for the Far East found the scale of the atrocities to be enormous. Casualty figures vary among accounts and await historical review.\n\nAn atrocity event with no route drawn; dates and wording follow conventional accounts."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《南京大屠杀史料集》",
+        "author": "张宪文主编",
+        "year": 2005,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《远东国际军事法庭判决书》",
+        "author": "张效林译",
+        "year": 1986,
+        "note": "法庭认定事实参考"
+      }
+    ],
+    "relatedIds": [
+      "nanjing-fall-1937-12",
+      "nanjing-safety-zone-1937-12"
+    ],
+    "importance": 1,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "kmt-5th-war-zone-1938-01",
