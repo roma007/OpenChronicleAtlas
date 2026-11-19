@@ -23,7 +23,7 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-forces"
     ],
     "category": "事变",
     "summary": {
@@ -128,7 +128,7 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-forces"
     ],
     "category": "事变",
     "summary": {
@@ -1714,7 +1714,7 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-forces"
     ],
     "category": "事变",
     "summary": {
@@ -1938,7 +1938,8 @@
       }
     },
     "entityIds": [
-      "china-resistance"
+      "kmt-forces",
+      "kmt-group-armies"
     ],
     "category": "战役",
     "summary": {
@@ -2465,6 +2466,58 @@
     "importance": 3
   },
   {
+    "id": "kmt-74th-army-formed-1937-09",
+    "name": {
+      "zh": "第74军组建",
+      "en": "Formation of the 74th Army"
+    },
+    "date": "1937-09-01",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海（淞沪战场）",
+        "en": "Shanghai (Songhu front)"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "第74军在淞沪战场以第51、第58师为基干组建，后成为正面战场主力。",
+      "en": "The 74th Army was formed on the Songhu battlefield around the 51st and 58th Divisions and became a mainstay of the frontal war."
+    },
+    "description": {
+      "zh": "1937 年 9 月，第74军在淞沪战场以第51师、第58师为基干组建，俞济时任军长。此后参加南京保卫战、兰封会战、万家岭战斗、上高会战、常德会战与湘西会战，被称为“抗日铁军”。\n\n建制事件，不单独绘制路线；日期与番号沿革待史料校订。",
+      "en": "In September 1937 the 74th Army was formed on the Songhu battlefield around the 51st and 58th Divisions, with Yu Jishi as commander. It later fought at Nanjing, Lanfeng, Wanjialing, Shanggao, Changde, and Xiangxi, and became known as the “iron army” of the resistance.\n\nAn organizational event with no separate route; dates and order of battle await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "battle-shanghai-1937-08",
+      "kmt-74th-army-shanggao-1941-03"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "anti-japanese-war"
+  },
+  {
     "id": "kmt-18th-group-army-1937-09",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -2751,7 +2804,6 @@
       }
     },
     "entityIds": [
-      "china-resistance",
       "eighth-route-army"
     ],
     "category": "战斗",
@@ -3029,7 +3081,8 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-forces",
+      "kmt-group-armies"
     ],
     "category": "战役",
     "summary": {
@@ -3315,7 +3368,7 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-forces"
     ],
     "category": "惨案",
     "summary": {
@@ -3804,7 +3857,8 @@
       }
     },
     "entityIds": [
-      "china-resistance"
+      "kmt-forces",
+      "kmt-group-armies"
     ],
     "category": "战役",
     "summary": {
@@ -4235,7 +4289,7 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-forces"
     ],
     "category": "战役",
     "summary": {
@@ -5026,6 +5080,58 @@
     "importance": 2
   },
   {
+    "id": "kmt-5th-army-formed-1938-10",
+    "name": {
+      "zh": "第5军组建",
+      "en": "Formation of the 5th Army"
+    },
+    "date": "1938-10-01",
+    "location": {
+      "lng": 111.07,
+      "lat": 25.93,
+      "place": {
+        "zh": "广西全州",
+        "en": "Quanzhou, Guangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "中国第一支机械化军在广西全州整编成军，杜聿明任军长。",
+      "en": "China’s first mechanized army was assembled at Quanzhou, Guangxi, with Du Yuming as commander."
+    },
+    "description": {
+      "zh": "1938 年 10 月，第5军在广西全州整编成军，辖第200师、新编第22师、荣誉第1师，杜聿明任军长，是中国第一支机械化部队。1939 年参加桂南会战、主攻昆仑关；1942 年作为远征军先头部队入缅。\n\n建制事件，不单独绘制路线；日期与番号沿革待史料校订。",
+      "en": "In October 1938 the 5th Army was assembled at Quanzhou, Guangxi, with the 200th Division, New 22nd Division, and Honorary 1st Division under Du Yuming. It was China’s first mechanized army. In 1939 it fought in the Guangxi campaign and led the attack on Kunlun Pass; in 1942 it entered Burma as the spearhead of the Chinese Expeditionary Force.\n\nAn organizational event with no separate route; dates and order of battle await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "kmt-5th-army-kunlun-1939-12",
+      "burma-expedition-1942-02"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "anti-japanese-war"
+  },
+  {
     "id": "japanese-guangzhou-1938-10",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -5155,7 +5261,8 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-forces",
+      "kmt-group-armies"
     ],
     "category": "战役",
     "summary": {
@@ -5704,7 +5811,7 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-group-armies"
     ],
     "category": "战役",
     "summary": {
@@ -5771,7 +5878,7 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-forces"
     ],
     "category": "战斗",
     "summary": {
@@ -6629,8 +6736,8 @@
     },
     "date": "1939-12-18",
     "location": {
-      "lng": 108.2,
-      "lat": 22.9,
+      "lng": 108.65,
+      "lat": 23.05,
       "place": {
         "zh": "广西南宁昆仑关",
         "en": "Kunlun Pass, Nanning, Guangxi"
@@ -6700,7 +6807,8 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-forces",
+      "kmt-group-armies"
     ],
     "category": "战役",
     "summary": {
@@ -6755,7 +6863,7 @@
       }
     },
     "entityIds": [
-      "china-resistance"
+      "kmt-forces"
     ],
     "category": "战役",
     "summary": {
@@ -7039,6 +7147,55 @@
       "kunlun-1939-12"
     ],
     "importance": 2
+  },
+  {
+    "id": "kmt-5th-army-to-yunnan-1940-02",
+    "name": {
+      "zh": "第5军移驻云南",
+      "en": "5th Army Moves to Yunnan"
+    },
+    "date": "1940-02-01",
+    "location": {
+      "lng": 102.83,
+      "lat": 24.88,
+      "place": {
+        "zh": "云南昆明",
+        "en": "Kunming, Yunnan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "昆仑关战役后，第5军由广西移驻云南整训，后成为远征军主力。",
+      "en": "After Kunlun Pass the 5th Army moved from Guangxi to Yunnan for training and later became the core of the Expeditionary Force."
+    },
+    "description": {
+      "zh": "1940 年初昆仑关战役结束后，第5军经南宁、百色移驻云南昆明、杨林一带整训。1942 年 2 月，第5军作为中国远征军先头部队自云南入缅。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "After the Battle of Kunlun Pass in early 1940, the 5th Army moved via Nanning and Bose to Kunming and Yanglin in Yunnan for training. In February 1942 it entered Burma as the spearhead of the Chinese Expeditionary Force.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "kmt-5th-army-kunlun-1939-12",
+      "burma-expedition-1942-02"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
   },
   {
     "id": "kmt-37th-group-army-binyang-1940-02",
@@ -7394,7 +7551,7 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-group-armies"
     ],
     "category": "战役",
     "summary": {
@@ -7433,6 +7590,55 @@
     "importance": 1
   },
   {
+    "id": "zhang-zizhong-died-1940-05",
+    "name": {
+      "zh": "张自忠殉国",
+      "en": "Death of Zhang Zizhong"
+    },
+    "date": "1940-05-16",
+    "location": {
+      "lng": 112.1,
+      "lat": 31.6,
+      "place": {
+        "zh": "湖北宜城南瓜店",
+        "en": "Nanguadian, Yicheng, Hubei"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "第33集团军总司令张自忠在枣宜会战中于南瓜店殉国。",
+      "en": "General Zhang Zizhong, commander of the 33rd Group Army, died at Nanguadian during the Zaoyang–Yichang campaign."
+    },
+    "description": {
+      "zh": "1940 年 5 月，枣宜会战期间，第33集团军总司令张自忠率部渡襄河督战，5 月 16 日在宜城南瓜店被日军包围，力战殉国，是抗战中阵亡的最高级别中国将领之一。\n\n人物事件，随第33集团军路线标注；日期与地点待史料校订。",
+      "en": "In May 1940, during the Zaoyang–Yichang campaign, General Zhang Zizhong, commander of the 33rd Group Army, crossed the Xiang River to direct operations. On 16 May he was surrounded by Japanese forces at Nanguadian in Yicheng and died fighting, one of the most senior Chinese commanders killed in the war.\n\nA biographical event marked with the 33rd Group Army route; dates and location await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "zaoyi-1940-05",
+      "kmt-33rd-group-army-zaoyi-1940-05"
+    ],
+    "importance": 1,
+    "atlasId": "anti-japanese-war"
+  },
+  {
     "id": "hundred-regiments-1940-08",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -7460,7 +7666,6 @@
       }
     },
     "entityIds": [
-      "china-resistance",
       "eighth-route-army"
     ],
     "category": "战役",
@@ -7509,7 +7714,7 @@
       }
     },
     "entityIds": [
-      "china-resistance"
+      "eighth-route-army"
     ],
     "category": "战役",
     "summary": {
@@ -8377,7 +8582,8 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-forces",
+      "kmt-group-armies"
     ],
     "category": "战役",
     "summary": {
@@ -8432,8 +8638,8 @@
       }
     },
     "entityIds": [
-      "china-resistance",
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-group-armies"
     ],
     "category": "战役",
     "summary": {
@@ -8652,7 +8858,7 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-group-armies"
     ],
     "category": "战役",
     "summary": {
@@ -8762,7 +8968,7 @@
       }
     },
     "entityIds": [
-      "china-resistance"
+      "kmt-group-armies"
     ],
     "category": "战役",
     "summary": {
@@ -8871,7 +9077,7 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-forces"
     ],
     "category": "战役",
     "summary": {
@@ -9672,7 +9878,7 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-forces"
     ],
     "category": "战役",
     "summary": {
@@ -9893,7 +10099,6 @@
     },
     "entityIds": [
       "allied-forces",
-      "china-resistance",
       "kmt-forces"
     ],
     "category": "军事",
@@ -9980,6 +10185,55 @@
       "dongjiang-rescue-1941-12"
     ],
     "importance": 2
+  },
+  {
+    "id": "kmt-5th-army-toungoo-1942-03",
+    "name": {
+      "zh": "第5军抵达同古",
+      "en": "5th Army Reaches Toungoo"
+    },
+    "date": "1942-03-08",
+    "location": {
+      "lng": 96.43,
+      "lat": 19.43,
+      "place": {
+        "zh": "缅甸同古",
+        "en": "Toungoo, Burma"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "第5军先头部队第200师抵达同古，接替英军防务。",
+      "en": "The 5th Army’s 200th Division reached Toungoo and took over from British forces."
+    },
+    "description": {
+      "zh": "1942 年 3 月，第5军先头部队第200师自云南经保山、畹町进入缅甸，抵达同古接替英军防务，随后与日军展开同古保卫战。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "In March 1942 the 5th Army’s 200th Division entered Burma from Yunnan via Baoshan and Wanding and reached Toungoo, where it took over from British troops and fought the defense of Toungoo.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "burma-expedition-1942-02",
+      "kmt-5th-army-return-yunnan-1942-06"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
   },
   {
     "id": "qiongya-counter-1942-05",
@@ -10568,6 +10822,55 @@
     "importance": 2
   },
   {
+    "id": "kmt-5th-army-return-yunnan-1942-06",
+    "name": {
+      "zh": "第5军第200师退回滇西",
+      "en": "200th Division Returns to Western Yunnan"
+    },
+    "date": "1942-06-30",
+    "location": {
+      "lng": 99.17,
+      "lat": 25.12,
+      "place": {
+        "zh": "云南保山",
+        "en": "Baoshan, Yunnan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "缅甸战败后，第5军第200师退回滇西，新编第22师退往印度。",
+      "en": "After the Burma defeat the 200th Division returned to western Yunnan while the New 22nd Division withdrew to India."
+    },
+    "description": {
+      "zh": "1942 年 5 月缅甸战局逆转，第5军被迫撤退。第200师经缅北退回云南保山一带，新编第22师随杜聿明部退往印度。撤退途中损失惨重。\n\n路线为示意简化，仅画第200师回滇主线；新22师退印另见盟军线。日期待史料校订。",
+      "en": "In May 1942 the Burma front collapsed and the 5th Army was forced to retreat. The 200th Division returned to the Baoshan area of Yunnan, while the New 22nd Division withdrew to India with Du Yuming’s headquarters. Losses during the retreat were severe.\n\nIllustrative simplified route showing only the 200th Division’s return; the New 22nd Division’s withdrawal to India is covered by the Allied layer. Dates await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "kmt-5th-army-toungoo-1942-03",
+      "dianxi-1944-05"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
     "id": "burma-retreat-1942-08",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -10669,6 +10972,55 @@
       "dianxi-1944-05"
     ],
     "importance": 2
+  },
+  {
+    "id": "kmt-18th-army-to-shipai-1943-04",
+    "name": {
+      "zh": "第18军调防石牌",
+      "en": "18th Army Moves to Shipai"
+    },
+    "date": "1943-04-01",
+    "location": {
+      "lng": 111,
+      "lat": 30.7,
+      "place": {
+        "zh": "湖北石牌",
+        "en": "Shipai, Hubei"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "第18军调防宜昌石牌，第11师随后参加石牌保卫战。",
+      "en": "The 18th Army moved to Shipai near Yichang, and its 11th Division fought in the defense of Shipai."
+    },
+    "description": {
+      "zh": "1943 年春，第18军调防宜昌以西石牌要塞，第11师担任核心守备。5 月鄂西会战爆发，第11师在石牌与日军激战，守住三峡门户。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "In spring 1943 the 18th Army moved to the Shipai fortress west of Yichang, with the 11th Division holding the core positions. When the Western Hubei campaign began in May, the 11th Division fought bitterly at Shipai and held the gateway to the Three Gorges.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "exi-1943-05",
+      "kmt-26th-group-army-shipai-1943-05"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
   },
   {
     "id": "japanese-taihang-1943-04",
@@ -10904,7 +11256,7 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-group-armies"
     ],
     "category": "战役",
     "summary": {
@@ -11115,7 +11467,7 @@
       }
     },
     "entityIds": [
-      "china-resistance"
+      "kmt-group-armies"
     ],
     "category": "战役",
     "summary": {
@@ -11416,6 +11768,55 @@
     "importance": 2
   },
   {
+    "id": "kmt-74th-army-to-changde-1943-10",
+    "name": {
+      "zh": "第74军调防常德",
+      "en": "74th Army Moves to Changde"
+    },
+    "date": "1943-10-01",
+    "location": {
+      "lng": 111.69,
+      "lat": 29.03,
+      "place": {
+        "zh": "湖南常德",
+        "en": "Changde, Hunan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "第74军由长沙方向调防常德，随后参加常德会战。",
+      "en": "The 74th Army moved from the Changsha area to Changde and fought in the Battle of Changde."
+    },
+    "description": {
+      "zh": "1943 年秋，第74军由长沙方向调防常德，第57师守常德城，军主力在外围策应。11 月常德会战爆发，第57师苦守孤城，第74军等部在外围反攻。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "In autumn 1943 the 74th Army moved from the Changsha area to Changde; the 57th Division held the city while the main force operated on the outskirts. When the Battle of Changde began in November, the 57th Division held out in the isolated city and the 74th Army counterattacked from outside.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "changde-1943-11",
+      "kmt-74th-army-to-xiangxi-1944-12"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
     "id": "changde-1943-11",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -11440,7 +11841,8 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-forces",
+      "kmt-group-armies"
     ],
     "category": "战役",
     "summary": {
@@ -12040,7 +12442,7 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-group-armies"
     ],
     "category": "战役",
     "summary": {
@@ -12236,6 +12638,55 @@
     "importance": 2
   },
   {
+    "id": "kmt-1st-war-zone-henan-1944-04",
+    "name": {
+      "zh": "第1战区豫中会战",
+      "en": "1st War Zone in Central Henan"
+    },
+    "date": "1944-04-17",
+    "location": {
+      "lng": 113.66,
+      "lat": 34.9,
+      "place": {
+        "zh": "河南郑州",
+        "en": "Zhengzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第1战区部队在豫中抗击日军，郑州、许昌、洛阳相继失守。",
+      "en": "1st War Zone troops resisted the Japanese in central Henan; Zhengzhou, Xuchang, and Luoyang fell in succession."
+    },
+    "description": {
+      "zh": "1944 年 4 月，日军发动豫中作战。第1战区司令长官蒋鼎文、副司令长官汤恩伯所部在郑州、许昌、洛阳一线抵抗，因指挥失误与兵力分散而节节失利。第36集团军总司令李家钰在撤退中殉国。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "In April 1944 the Japanese launched the Central Henan operation. Troops of the 1st War Zone under Jiang Dingwen and Tang Enbo resisted along the Zhengzhou–Xuchang–Luoyang line but were defeated in detail because of command failures and dispersed forces. General Li Jiayu, commander of the 36th Group Army, was killed during the retreat.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "ichigo-offensive-1944-04",
+      "japanese-luoyang-1944-05"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
     "id": "japanese-luoyang-1944-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -12315,7 +12766,6 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance",
       "allied-forces",
       "kmt-forces"
     ],
@@ -12540,7 +12990,6 @@
       }
     },
     "entityIds": [
-      "china-resistance",
       "allied-forces",
       "kmt-forces"
     ],
@@ -12763,7 +13212,6 @@
     },
     "entityIds": [
       "allied-forces",
-      "china-resistance",
       "kmt-forces"
     ],
     "category": "战役",
@@ -12986,7 +13434,7 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-forces"
     ],
     "category": "战役",
     "summary": {
@@ -13624,6 +14072,55 @@
     "importance": 2
   },
   {
+    "id": "kmt-74th-army-to-xiangxi-1944-12",
+    "name": {
+      "zh": "第74军调防湘西",
+      "en": "74th Army Moves to Western Hunan"
+    },
+    "date": "1944-12-01",
+    "location": {
+      "lng": 109.68,
+      "lat": 27.44,
+      "place": {
+        "zh": "湖南芷江",
+        "en": "Zhijiang, Hunan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "第74军调防湘西，编入第4方面军，参加湘西会战。",
+      "en": "The 74th Army moved to western Hunan, joined the 4th Front Army, and fought in the Western Hunan campaign."
+    },
+    "description": {
+      "zh": "1944 年底，第74军调防湘西，隶属王耀武第4方面军，担任芷江、雪峰山方向作战任务。1945 年 4 月湘西会战爆发，第74军等部依托雪峰山阵地抗击日军。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "In late 1944 the 74th Army moved to western Hunan under Wang Yaowu’s 4th Front Army, tasked with the Zhijiang and Xuefeng Mountains sector. When the Western Hunan campaign began in April 1945, the 74th Army and other units resisted the Japanese from positions in the Xuefeng Mountains.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "xiangxi-1945-04",
+      "kmt-74th-army-to-changde-1943-10"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
     "id": "hanjiang-column-1945-01",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -13913,7 +14410,6 @@
       }
     },
     "entityIds": [
-      "china-resistance",
       "allied-forces"
     ],
     "category": "战役",
@@ -13997,6 +14493,55 @@
       "dongjiang-base-1940-09"
     ],
     "importance": 2
+  },
+  {
+    "id": "kmt-18th-army-to-xiangxi-1945-03",
+    "name": {
+      "zh": "第18军调防湘西",
+      "en": "18th Army Moves to Western Hunan"
+    },
+    "date": "1945-03-01",
+    "location": {
+      "lng": 110.39,
+      "lat": 28.46,
+      "place": {
+        "zh": "湖南沅陵",
+        "en": "Yuanling, Hunan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "第18军调防湘西沅陵、辰溪，作为第4方面军机动兵团参加湘西会战。",
+      "en": "The 18th Army moved to Yuanling and Chenxi in western Hunan as the 4th Front Army’s mobile corps for the Western Hunan campaign."
+    },
+    "description": {
+      "zh": "1945 年春，第18军调防湘西沅陵、辰溪集结，作为第4方面军的机动兵团。4 月湘西会战爆发后，第18军随时准备增援雪峰山方向。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "In spring 1945 the 18th Army assembled at Yuanling and Chenxi in western Hunan as the 4th Front Army’s mobile corps. When the Western Hunan campaign began in April, it stood ready to reinforce the Xuefeng Mountains sector.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "xiangxi-1945-04",
+      "kmt-18th-army-to-shipai-1943-04"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
   },
   {
     "id": "mandalay-1945-03",
@@ -14344,7 +14889,7 @@
     },
     "entityIds": [
       "japanese-invasion",
-      "china-resistance"
+      "kmt-forces"
     ],
     "category": "战役",
     "summary": {
@@ -14452,7 +14997,7 @@
       }
     },
     "entityIds": [
-      "china-resistance"
+      "kmt-group-armies"
     ],
     "category": "战役",
     "summary": {
@@ -14593,6 +15138,103 @@
       "zhujiang-yunfu-1945-04"
     ],
     "importance": 2
+  },
+  {
+    "id": "kmt-4th-war-zone-guilin-liuzhou-1945-05",
+    "name": {
+      "zh": "第4战区桂柳反攻",
+      "en": "4th War Zone Guilin–Liuzhou Counteroffensive"
+    },
+    "date": "1945-05-01",
+    "location": {
+      "lng": 110.29,
+      "lat": 25.27,
+      "place": {
+        "zh": "广西桂林",
+        "en": "Guilin, Guangxi"
+      }
+    },
+    "entityIds": [
+      "kmt-group-armies"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第4战区部队自桂林方向反攻，先后收复柳州、桂林。",
+      "en": "4th War Zone troops counterattacked from the Guilin direction and recovered Liuzhou and Guilin."
+    },
+    "description": {
+      "zh": "1945 年 5 月，第4战区部队在桂北发起反攻，先后收复柳州、桂林，将日军逐出广西。此役与湘西会战、滇西反攻同为抗战末期中国军队的局部反攻。\n\n路线为示意简化，日期取通行说法，待史料校订。",
+      "en": "In May 1945 4th War Zone troops launched a counteroffensive in northern Guangxi, recovering Liuzhou and Guilin and driving the Japanese out of the province. Together with the Western Hunan campaign and the western Yunnan counteroffensive, it was one of the limited Chinese counteroffensives at the end of the war.\n\nIllustrative simplified route; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "guilin-counteroffensive-1945-05",
+      "kmt-guilin-liuzhou-1944-11"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
+    "id": "new-6th-army-airlift-1945-05",
+    "name": {
+      "zh": "新6军空运芷江",
+      "en": "New 6th Army Airlifted to Zhijiang"
+    },
+    "date": "1945-05-11",
+    "location": {
+      "lng": 109.68,
+      "lat": 27.44,
+      "place": {
+        "zh": "湖南芷江",
+        "en": "Zhijiang, Hunan"
+      }
+    },
+    "entityIds": [
+      "kmt-forces"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "新6军自云南空运芷江，担任湘西会战总预备队。",
+      "en": "The New 6th Army was airlifted from Yunnan to Zhijiang as the general reserve for the Western Hunan campaign."
+    },
+    "description": {
+      "zh": "1945 年 5 月，新6军（廖耀湘部）近三万人自云南昆明空运湖南芷江，担任湘西会战总预备队并担负芷江机场守备。此时战局已趋稳定，新6军未及全面参战。\n\n空运航线为示意直线，非地面行军；日期取通行说法，待史料校订。",
+      "en": "In May 1945 nearly 30,000 troops of the New 6th Army under Liao Yaoxiang were airlifted from Kunming, Yunnan, to Zhijiang, Hunan, as the general reserve for the Western Hunan campaign and to guard Zhijiang airfield. By then the situation had stabilized and the army did not enter combat in full.\n\nShown as a schematic air bridge, not a ground march; dates follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争正面战场》",
+        "author": "中国第二历史档案馆",
+        "year": 1987,
+        "note": "部队沿革与作战参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "xiangxi-1945-04"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
   },
   {
     "id": "qiongya-jianfengling-1945-06",

@@ -189,12 +189,12 @@
             31.8
           ],
           [
-            115.0,
+            115,
             31.3
           ],
           [
             114.9,
-            31.0
+            31
           ]
         ]
       },
@@ -227,8 +227,8 @@
             30.6
           ],
           [
-            115.0,
-            30.0
+            115,
+            30
           ],
           [
             115.66,
@@ -781,7 +781,7 @@
             40.66
           ],
           [
-            109.0,
+            109,
             40.9
           ],
           [
@@ -819,7 +819,7 @@
             41.1
           ],
           [
-            109.0,
+            109,
             40.9
           ],
           [
@@ -925,12 +925,12 @@
             33.44
           ],
           [
-            113.0,
+            113,
             33.2
           ],
           [
             112.53,
-            33.0
+            33
           ]
         ]
       },
@@ -1001,7 +1001,7 @@
             34.62
           ],
           [
-            112.0,
+            112,
             34.85
           ],
           [
@@ -1221,8 +1221,8 @@
             29.87
           ],
           [
-            118.0,
-            29.0
+            118,
+            29
           ],
           [
             117.97,
@@ -1365,7 +1365,7 @@
             30.69
           ],
           [
-            111.0,
+            111,
             30.7
           ]
         ]
@@ -1585,7 +1585,7 @@
             25.12
           ],
           [
-            99.0,
+            99,
             24.95
           ],
           [
@@ -1654,10 +1654,10 @@
         "coordinates": [
           [
             112.53,
-            33.0
+            33
           ],
           [
-            112.0,
+            112,
             32.7
           ],
           [
@@ -1717,6 +1717,264 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.35,
+            35.05
+          ],
+          [
+            117.73,
+            34.56
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1938-03-14",
+        "endDate": "1938-04-07",
+        "order": 48,
+        "segmentType": "advance",
+        "name": {
+          "zh": "第33集团军：临沂—台儿庄",
+          "en": "33rd Group Army: Linyi–Taierzhuang"
+        },
+        "description": {
+          "zh": "第59军驰援临沂后，转战台儿庄。示意简化路线，待史料校订。",
+          "en": "After relieving Linyi the 59th Army moved to Taierzhuang. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.73,
+            34.56
+          ],
+          [
+            114.3,
+            30.59
+          ],
+          [
+            112.14,
+            32.04
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1938-04-08",
+        "endDate": "1939-05-01",
+        "order": 49,
+        "segmentType": "advance",
+        "name": {
+          "zh": "第33集团军：台儿庄—襄樊",
+          "en": "33rd Group Army: Taierzhuang–Xiangfan"
+        },
+        "description": {
+          "zh": "徐州会战后，第33集团军转至鄂北襄樊一带。示意简化路线，待史料校订。",
+          "en": "After the Xuzhou campaign the 33rd Group Army moved to the Xiangfan area of northern Hubei. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.14,
+            32.04
+          ],
+          [
+            112.26,
+            31.72
+          ],
+          [
+            112.1,
+            31.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1939-05-01",
+        "endDate": "1940-05-16",
+        "order": 50,
+        "segmentType": "defense",
+        "name": {
+          "zh": "第33集团军：襄樊—南瓜店",
+          "en": "33rd Group Army: Xiangfan–Nanguadian"
+        },
+        "description": {
+          "zh": "第33集团军在随枣、枣宜会战中于襄河两岸作战，张自忠在南瓜店殉国。示意简化路线，待史料校订。",
+          "en": "The 33rd Group Army fought along the Xiang River in the Suizao and Zaoyi campaigns; Zhang Zizhong died at Nanguadian. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.66,
+            34.9
+          ],
+          [
+            113.85,
+            34.04
+          ],
+          [
+            112.45,
+            34.62
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1944-04-17",
+        "endDate": "1944-05-25",
+        "order": 51,
+        "segmentType": "defense",
+        "name": {
+          "zh": "第1战区：郑州—洛阳",
+          "en": "1st War Zone: Zhengzhou–Luoyang"
+        },
+        "description": {
+          "zh": "豫中会战中，第1战区部队在郑州、许昌、洛阳一线抵抗。示意简化路线，待史料校订。",
+          "en": "In the Central Henan campaign 1st War Zone troops resisted along the Zhengzhou–Xuchang–Luoyang line. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.49,
+            30.27
+          ],
+          [
+            111.29,
+            30.69
+          ],
+          [
+            111.28,
+            30.78
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1943-05-05",
+        "endDate": "1943-06-12",
+        "order": 52,
+        "segmentType": "advance",
+        "name": {
+          "zh": "第6战区：恩施—鄂西",
+          "en": "6th War Zone: Enshi–Western Hubei"
+        },
+        "description": {
+          "zh": "鄂西会战中，第六战区自恩施调兵增援宜昌、石牌方向。示意简化路线，待史料校订。",
+          "en": "During the Western Hubei campaign the 6th War Zone moved troops from Enshi to reinforce the Yichang and Shipai sectors. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.29,
+            25.27
+          ],
+          [
+            109.4,
+            24.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1945-05-01",
+        "endDate": "1945-07-31",
+        "order": 53,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "第4战区：桂林—柳州（1945 反攻）",
+          "en": "4th War Zone: Guilin–Liuzhou (1945 Counteroffensive)"
+        },
+        "description": {
+          "zh": "1945 年 5 月，第4战区自桂北反攻，收复柳州、桂林。示意简化路线，待史料校订。",
+          "en": "In May 1945 the 4th War Zone counterattacked from northern Guangxi and recovered Liuzhou and Guilin. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.14,
+            32.04
+          ],
+          [
+            112.5,
+            32.1
+          ],
+          [
+            112.77,
+            32.13
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-group-armies",
+        "startDate": "1940-05-01",
+        "endDate": "1940-06-18",
+        "order": 54,
+        "segmentType": "defense",
+        "name": {
+          "zh": "第33集团军：襄樊—枣阳",
+          "en": "33rd Group Army: Xiangfan–Zaoyang"
+        },
+        "description": {
+          "zh": "枣宜会战中，第33集团军在襄樊、枣阳之间抗击日军。示意简化路线，待史料校订。",
+          "en": "In the Zaoyang–Yichang campaign the 33rd Group Army fought between Xiangfan and Zaoyang. Illustrative simplified route, pending historical review."
         },
         "extensions": {
           "precision": "schematic"

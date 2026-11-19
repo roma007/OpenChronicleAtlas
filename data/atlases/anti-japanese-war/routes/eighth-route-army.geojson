@@ -11,11 +11,11 @@
             36.6
           ],
           [
-            111.0,
+            111,
             37.5
           ],
           [
-            113.0,
+            113,
             38.5
           ],
           [
@@ -125,12 +125,12 @@
             38.46
           ],
           [
-            112.0,
+            112,
             37.8
           ],
           [
             113.3,
-            37.0
+            37
           ]
         ]
       },
@@ -160,15 +160,15 @@
         "coordinates": [
           [
             113.3,
-            37.0
+            37
           ],
           [
-            115.0,
+            115,
             36.5
           ],
           [
-            117.0,
-            36.0
+            117,
+            36
           ],
           [
             118.6,
@@ -205,7 +205,7 @@
             35.8
           ],
           [
-            116.0,
+            116,
             36.2
           ],
           [
@@ -244,7 +244,7 @@
           ],
           [
             113.3,
-            37.0
+            37
           ]
         ]
       },
@@ -274,7 +274,7 @@
         "coordinates": [
           [
             113.3,
-            37.0
+            37
           ],
           [
             113.58,
@@ -295,6 +295,44 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.75,
+            37.69
+          ],
+          [
+            113.3,
+            37.8
+          ],
+          [
+            113.58,
+            37.86
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1940-08-20",
+        "endDate": "1940-09-30",
+        "order": 9,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "第129师：正太路破袭",
+          "en": "129th Division: Sabotage of the Zhengding–Taiyuan Railway"
+        },
+        "description": {
+          "zh": "百团大战第一阶段，第129师破袭正太路西段榆次至阳泉一线。示意简化路线，待史料校订。",
+          "en": "In the first phase of the Hundred Regiments Offensive the 129th Division sabotaged the western section of the Zhengding–Taiyuan railway between Yuci and Yangquan. Illustrative simplified route, pending historical review."
         },
         "extensions": {
           "precision": "schematic"
