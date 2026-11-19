@@ -3132,6 +3132,68 @@
     "importance": 2
   },
   {
+    "id": "luochuan-conference-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "洛川会议",
+      "en": "Luochuan Conference"
+    },
+    "aliases": [
+      {
+        "zh": "中共中央政治局扩大会议",
+        "en": "Enlarged Politburo Meeting"
+      }
+    ],
+    "date": "1937-08-22",
+    "endDate": "1937-08-25",
+    "location": {
+      "lng": 109.43,
+      "lat": 35.76,
+      "place": {
+        "zh": "陕西洛川冯家村",
+        "en": "Fengjiacun, Luochuan, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "eighth-route-army"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "中共中央在洛川冯家村召开政治局扩大会议，确定八路军「独立自主的山地游击战」方针。",
+      "en": "The CCP Central Committee met at Fengjiacun, Luochuan, and set the Eighth Route Army’s strategy of “independent mountain guerrilla warfare.”"
+    },
+    "description": {
+      "zh": "1937 年 8 月 22 日至 25 日，中共中央在陕北洛川冯家村召开政治局扩大会议。会议通过《抗日救国十大纲领》和《关于目前形势与党的任务的决定》，确定红军改编后的战略方针为「独立自主的山地游击战」，包括在有利条件下集中兵力消灭敌人兵团和在平原发展游击战争，但着重于山地；作战原则是「分散以发动群众，集中以消灭敌人，打得赢就打，打不赢就走」。会议同时强调抗日民族统一战线中的独立自主原则，决定红军主力出动，并留一部分保卫陕甘宁边区。\n\n会上对游击战与运动战的主次仍有不同意见，因部队急于出动未及充分讨论；方针表述以《毛泽东选集》第二卷所收《为动员一切力量争取抗战胜利而斗争》及中央档案馆藏件为准。会议地点在冯家村，不在洛川县城。",
+      "en": "From 22 to 25 August 1937 the CCP Central Committee held an enlarged Politburo meeting at Fengjiacun, Luochuan, northern Shaanxi. It adopted the Ten-Point Program for Resisting Japan and the Resolution on the Present Situation and the Party’s Tasks, and fixed the Red Army’s post-reorganization strategy as “independent mountain guerrilla warfare,” including concentrating forces to destroy enemy formations under favourable conditions and developing guerrilla warfare on the plains, but with emphasis on the mountains. The operational principle was “disperse to mobilize the people, concentrate to destroy the enemy; fight if you can win, move away if you cannot.” The meeting also stressed independence within the united front, decided that the main Red Army forces would go to the front, and left part of the force to defend the Shaanxi-Gansu-Ningxia border region.\n\nViews on the balance between guerrilla and mobile warfare still differed and were not fully debated because the troops had to move; the wording follows “Struggle to Mobilize All Forces for Victory in the War of Resistance” in Selected Works of Mao Zedong, vol. 2, and documents held by the Central Archives. The venue was Fengjiacun, not Luochuan county town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《毛泽东选集》第二卷",
+        "author": "毛泽东",
+        "year": 1991,
+        "note": "《为动员一切力量争取抗战胜利而斗争》与会议方针原文"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "战略方针与会议背景参考"
+      },
+      {
+        "title": "「党史百年·天天读」1937 年 8 月 22 日",
+        "author": "中共中央党史和文献研究院",
+        "year": 2021,
+        "note": "洛川会议记录"
+      }
+    ],
+    "relatedIds": [
+      "eighth-route-army-formed-1937-08",
+      "shiguan-conference-1937-11"
+    ],
+    "importance": 3
+  },
+  {
     "id": "kmt-18th-army-luodian-1937-08",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -3237,7 +3299,8 @@
     ],
     "relatedIds": [
       "kmt-18th-group-army-1937-09",
-      "pingxingguan-1937-09"
+      "pingxingguan-1937-09",
+      "luochuan-conference-1937-08"
     ],
     "importance": 3
   },
@@ -4524,7 +4587,8 @@
     ],
     "relatedIds": [
       "qigencun-1937-10",
-      "jinchaji-border-government-1938-01"
+      "jinchaji-border-government-1938-01",
+      "shiguan-conference-1937-11"
     ],
     "importance": 3
   },
@@ -4637,6 +4701,70 @@
       "kmt-14th-group-army-1937-10"
     ],
     "importance": 2
+  },
+  {
+    "id": "shiguan-conference-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "石拐会议",
+      "en": "Shiguan Conference"
+    },
+    "aliases": [
+      {
+        "zh": "石拐镇会议",
+        "en": "Shiguan Town Conference"
+      }
+    ],
+    "date": "1937-11-11",
+    "endDate": "1937-11-13",
+    "location": {
+      "lng": 113.52,
+      "lat": 37.3,
+      "place": {
+        "zh": "山西和顺石拐镇",
+        "en": "Shiguan, Heshun, Shanxi"
+      }
+    },
+    "entityIds": [
+      "eighth-route-army"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "太原失守后，八路军总部在石拐镇部署三师分兵，由正规战转向敌后游击战。",
+      "en": "After the fall of Taiyuan, the Eighth Route Army headquarters at Shiguan deployed its three divisions to disperse behind enemy lines and shift from regular to guerrilla warfare."
+    },
+    "description": {
+      "zh": "1937 年 11 月 8 日太原失守，华北以国民党为主体的正规战争基本结束。11 日，朱德在山西和顺石拐镇主持召开八路军总部领导干部会议，彭德怀、任弼时、左权、刘伯承、张浩、宋任穷等出席，决定第120师以管涔山为支点创建晋西北根据地，第115师主力转至吕梁山创建晋西南根据地，第129师与第115师一部依托太行、太岳山创建晋冀豫根据地。13 日，刘伯承主持召开第129师干部会议，部署「化整为零」、分兵发动群众。会后八路军三大主力由正规战转入游击战，分区挺进敌后。\n\n会议日期、与会人员与各师分区分工为通行说法，石拐镇坐标按和顺县位置示意，均待页码级核对。",
+      "en": "Taiyuan fell on 8 November 1937, ending the phase in which Nationalist regular forces bore the main burden in North China. On 11 November Zhu De chaired a headquarters conference of senior commanders at Shiguan, Heshun, Shanxi—attended by Peng Dehuai, Ren Bishi, Zuo Quan, Liu Bocheng, Zhang Hao, and Song Renqiong—which assigned the 120th Division to build the northwestern Shanxi base around the Guancen Mountains, the main force of the 115th Division to build the southwestern Shanxi base in the Lüliang Mountains, and the 129th Division with part of the 115th to build the Jin-Ji-Yu base in the Taihang and Taiyue mountains. On 13 November Liu Bocheng chaired a 129th Division cadres’ meeting and ordered units to “break into pieces,” disperse, and mobilize the population. The three main divisions then shifted from regular to guerrilla warfare and moved into the Japanese rear in separate areas.\n\nDates, attendees, and area assignments follow conventional accounts; the Shiguan coordinates are schematic, based on Heshun county, and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "战略方针与会议背景参考"
+      },
+      {
+        "title": "《八路军·表册》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 1994,
+        "note": "编制、番号与序列参考"
+      },
+      {
+        "title": "《石拐会议：八路军分兵挺进华北敌后的动员会议》",
+        "author": "学习时报",
+        "year": 2024,
+        "note": "石拐会议经过与部署"
+      }
+    ],
+    "relatedIds": [
+      "luochuan-conference-1937-08",
+      "jinchaji-1937-11",
+      "jinsui-1938-01",
+      "jinjiluyu-1938-04"
+    ],
+    "importance": 3
   },
   {
     "id": "capital-moved-chongqing-1937-11",
@@ -5067,7 +5195,8 @@
     ],
     "relatedIds": [
       "jinchaji-border-government-1938-01",
-      "jinjiluyu-1938-04"
+      "jinjiluyu-1938-04",
+      "shiguan-conference-1937-11"
     ],
     "importance": 2
   },
@@ -5942,7 +6071,9 @@
     ],
     "relatedIds": [
       "shentouling-1938-03",
-      "changlecun-1938-04"
+      "changlecun-1938-04",
+      "shiguan-conference-1937-11",
+      "jinan-1938-05"
     ],
     "importance": 2
   },
@@ -6160,6 +6291,71 @@
     "importance": 3
   },
   {
+    "id": "pingyuan-guerrilla-directive-1938-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "《关于平原游击战的指示》",
+      "en": "Directive on Guerrilla Warfare on the Plains"
+    },
+    "aliases": [
+      {
+        "zh": "四月二十一日指示",
+        "en": "Directive of 21 April"
+      }
+    ],
+    "date": "1938-04-21",
+    "location": {
+      "lng": 109.49,
+      "lat": 36.6,
+      "place": {
+        "zh": "陕西延安",
+        "en": "Yan’an, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "eighth-route-army"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "毛泽东、张闻天、刘少奇致电八路军，提出在河北、山东平原大力发展游击战争。",
+      "en": "Mao Zedong, Zhang Wentian, and Liu Shaoqi instructed the Eighth Route Army to develop guerrilla warfare widely on the Hebei and Shandong plains."
+    },
+    "description": {
+      "zh": "1938 年 4 月 21 日，毛泽东、张闻天、刘少奇致电朱德、彭德怀、刘伯承、徐向前、邓小平等，指出根据抗战以来的经验，在河北、山东平原地区广大地发展游击战争是可能的；党和八路军应坚决采取尽量广大发展游击战争的方针，在平原划分游击军区、成立游击司令部，广泛组织不脱离生产的自卫军，并在收复地区建立抗日民主政权。这一指示把洛川会议提出的「在平原发展游击战争」由原则变为具体部署，随后第129师等部向冀南、冀中、冀东和山东平原展开。\n\n电报文本以中央档案馆藏件为准；受电人名单各书略有出入。",
+      "en": "On 21 April 1938 Mao Zedong, Zhang Wentian, and Liu Shaoqi telegraphed Zhu De, Peng Dehuai, Liu Bocheng, Xu Xiangqian, Deng Xiaoping, and others, stating that experience since the war began showed guerrilla warfare could be developed widely on the Hebei and Shandong plains. The Party and the Eighth Route Army were to adopt a policy of the widest possible guerrilla development: divide the plains into guerrilla military regions, set up guerrilla headquarters, organize broad unarmed self-defence corps, and establish anti-Japanese democratic governments in recovered areas. The directive turned the Luochuan Conference’s principle of “developing guerrilla warfare on the plains” into a concrete deployment; the 129th Division and other forces then moved into southern and central Hebei, eastern Hebei, and the Shandong plain.\n\nThe text follows the document held by the Central Archives; recipient lists vary slightly between accounts."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中央档案馆藏电文（1938 年 4 月 21 日）",
+        "author": "中央档案馆",
+        "year": 1938,
+        "note": "《关于平原游击战的指示》原件"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "战略方针与会议背景参考"
+      },
+      {
+        "title": "《毛泽东选集》第二卷",
+        "author": "毛泽东",
+        "year": 1991,
+        "note": "《为动员一切力量争取抗战胜利而斗争》与会议方针原文"
+      }
+    ],
+    "relatedIds": [
+      "luochuan-conference-1937-08",
+      "jinan-1938-05",
+      "shandong-column-1938-12"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
     "id": "yuwangshan-battle-1938-04",
     "name": {
       "zh": "禹王山战斗",
@@ -6208,6 +6404,68 @@
     ],
     "importance": 2,
     "atlasId": "anti-japanese-war"
+  },
+  {
+    "id": "jinan-1938-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第129师挺进冀南",
+      "en": "The 129th Division Marches into Southern Hebei"
+    },
+    "aliases": [
+      {
+        "zh": "路东纵队挺进冀南",
+        "en": "East-of-Railway Column Advance"
+      }
+    ],
+    "date": "1938-04-26",
+    "endDate": "1938-05-07",
+    "location": {
+      "lng": 115.39,
+      "lat": 37.36,
+      "place": {
+        "zh": "河北南宫",
+        "en": "Nangong, Hebei"
+      }
+    },
+    "entityIds": [
+      "eighth-route-army"
+    ],
+    "category": "行军",
+    "summary": {
+      "zh": "徐向前率第129师路东纵队由辽县出发，穿越平汉铁路进入冀南平原。",
+      "en": "Xu Xiangqian led the 129th Division’s east-of-railway column from Liaoxian across the Pinghan railway into the southern Hebei plain."
+    },
+    "description": {
+      "zh": "1938 年 4 月 21 日平原游击战指示下达后，第129师决定以平汉铁路为界编成左右两路纵队：徐向前率第769团、第115师第689团及曾国华支队组成路东纵队，向冀南挺进；陈赓率第386旅主力组成路西纵队，向邢台、沙河一带展开。4 月 26 日路东纵队从辽县出发，穿越平汉铁路日军封锁线，5 月上旬到达南宫，与陈再道、宋任穷率领的东进纵队会合，随后发起威县战斗，冀南平原根据地初步形成。徐向前在冀南提出依托民众的「人山」思想，回答平原无山如何坚持游击战的问题。\n\n到达南宫的日期各书记为 5 月 2 日、4 日或 7 日，此处取「5 月上旬」，待页码级核对。",
+      "en": "After the directive of 21 April 1938, the 129th Division divided its main force into two columns along the Pinghan railway. Xu Xiangqian led the east-of-railway column—the 769th Regiment, the 115th Division’s 689th Regiment, and the Zeng Guohua detachment—toward southern Hebei, while Chen Geng led the 386th Brigade west of the railway toward Xingtai and Shahe. The eastern column left Liaoxian on 26 April, crossed the Japanese blockade along the Pinghan railway, and reached Nangong in early May, joining Chen Zaidao’s and Song Renqiong’s Eastern Advance Column. It then attacked Weixian county town, and a base area on the southern Hebei plain began to take shape. At Nangong, Xu Xiangqian advanced the idea of a “mountain of people,” answering how guerrilla warfare could be sustained where there were no mountains.\n\nAccounts give 2, 4, or 7 May for the arrival at Nangong; this entry uses “early May” pending page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国人民解放军战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1987,
+        "note": "作战与行军经过参考"
+      },
+      {
+        "title": "《八路军·表册》",
+        "author": "中国人民解放军历史资料丛书编审委员会",
+        "year": 1994,
+        "note": "编制、番号与序列参考"
+      },
+      {
+        "title": "《河北党史百年百事（17）创建冀南抗日根据地》",
+        "author": "河北日报",
+        "year": 2021,
+        "note": "冀南挺进经过"
+      }
+    ],
+    "relatedIds": [
+      "pingyuan-guerrilla-directive-1938-04",
+      "jinjiluyu-1938-04"
+    ],
+    "importance": 3
   },
   {
     "id": "heze-1938",
@@ -7904,7 +8162,8 @@
     ],
     "relatedIds": [
       "fourth-column-jidong-1938-06",
-      "120th-division-jizhong-1939-01"
+      "120th-division-jizhong-1939-01",
+      "pingyuan-guerrilla-directive-1938-04"
     ],
     "importance": 2
   },

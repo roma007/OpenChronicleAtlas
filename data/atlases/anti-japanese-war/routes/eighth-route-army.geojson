@@ -11,6 +11,44 @@
             36.6
           ],
           [
+            109.46,
+            36.18
+          ],
+          [
+            109.43,
+            35.76
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1937-08-21",
+        "endDate": "1937-08-25",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "延安—洛川（洛川会议）",
+          "en": "Yan’an–Luochuan (Luochuan Conference)"
+        },
+        "description": {
+          "zh": "中共中央领导人由延安赴洛川冯家村出席政治局扩大会议的示意路线，待史料校订。",
+          "en": "Schematic route of CCP leaders travelling from Yan’an to Fengjiacun, Luochuan, for the enlarged Politburo meeting; pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.49,
+            36.6
+          ],
+          [
             111,
             37.5
           ],
@@ -28,7 +66,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1937-08-25",
         "endDate": "1937-09-25",
-        "order": 1,
+        "order": 2,
         "segmentType": "advance",
         "name": {
           "zh": "延安—平型关",
@@ -62,7 +100,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1937-09-26",
         "endDate": "1937-11-07",
-        "order": 2,
+        "order": 3,
         "segmentType": "advance",
         "name": {
           "zh": "平型关—阜平",
@@ -100,7 +138,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1937-10-12",
         "endDate": "1937-10-19",
-        "order": 3,
+        "order": 4,
         "segmentType": "advance",
         "name": {
           "zh": "辽县—阳明堡（夜袭阳明堡）",
@@ -138,7 +176,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1937-10-14",
         "endDate": "1937-10-21",
-        "order": 4,
+        "order": 5,
         "segmentType": "advance",
         "name": {
           "zh": "兴县—雁门关（雁门关伏击战）",
@@ -176,7 +214,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1937-10-19",
         "endDate": "1937-10-28",
-        "order": 5,
+        "order": 6,
         "segmentType": "advance",
         "name": {
           "zh": "辽县—七亘村（重叠设伏）",
@@ -214,7 +252,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1937-11-08",
         "endDate": "1938-01-15",
-        "order": 6,
+        "order": 7,
         "segmentType": "advance",
         "name": {
           "zh": "阜平—兴县",
@@ -223,6 +261,44 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.52,
+            37.3
+          ],
+          [
+            113.45,
+            37.18
+          ],
+          [
+            113.3,
+            37
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1937-11-13",
+        "endDate": "1937-11-15",
+        "order": 8,
+        "segmentType": "advance",
+        "name": {
+          "zh": "石拐—辽县（第129师师部移驻辽县）",
+          "en": "Shiguan–Liaoxian (129th Division Headquarters Moves to Liaoxian)"
+        },
+        "description": {
+          "zh": "石拐会议后第129师师部由和顺石拐移驻辽县西河头的示意路线，待史料校订。",
+          "en": "Schematic route of the 129th Division headquarters moving from Shiguan, Heshun, to Xihetou, Liaoxian, after the Shiguan Conference; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -252,7 +328,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1938-01-16",
         "endDate": "1938-04-01",
-        "order": 7,
+        "order": 9,
         "segmentType": "advance",
         "name": {
           "zh": "兴县—辽县",
@@ -290,7 +366,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1938-03-10",
         "endDate": "1938-03-16",
-        "order": 8,
+        "order": 10,
         "segmentType": "advance",
         "name": {
           "zh": "辽县—神头岭（神头岭伏击战）",
@@ -328,7 +404,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1938-03-17",
         "endDate": "1938-03-31",
-        "order": 9,
+        "order": 11,
         "segmentType": "advance",
         "name": {
           "zh": "神头岭—响堂铺（响堂铺伏击战）",
@@ -366,7 +442,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1938-04-01",
         "endDate": "1938-04-16",
-        "order": 10,
+        "order": 12,
         "segmentType": "advance",
         "name": {
           "zh": "响堂铺—长乐村（反九路围攻）",
@@ -408,7 +484,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1938-04-02",
         "endDate": "1938-12-27",
-        "order": 11,
+        "order": 13,
         "segmentType": "advance",
         "name": {
           "zh": "辽县—沂水",
@@ -417,6 +493,44 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.3,
+            37
+          ],
+          [
+            114.2,
+            37.1
+          ],
+          [
+            115.39,
+            37.36
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1938-04-26",
+        "endDate": "1938-05-07",
+        "order": 14,
+        "segmentType": "advance",
+        "name": {
+          "zh": "辽县—南宫（挺进冀南）",
+          "en": "Liaoxian–Nangong (Advance into Southern Hebei)"
+        },
+        "description": {
+          "zh": "第129师路东纵队由辽县东出、穿越平汉铁路进入冀南平原的示意路线，待史料校订。",
+          "en": "Schematic route of the 129th Division’s eastern column moving east from Liaoxian across the Pinghan railway into the southern Hebei plain; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -450,7 +564,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1938-06-08",
         "endDate": "1938-07-06",
-        "order": 12,
+        "order": 15,
         "segmentType": "advance",
         "name": {
           "zh": "阜平—冀东（第四纵队东进）",
@@ -492,7 +606,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1938-12-22",
         "endDate": "1939-01-25",
-        "order": 13,
+        "order": 16,
         "segmentType": "advance",
         "name": {
           "zh": "兴县—河间（第120师挺进冀中）",
@@ -530,7 +644,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1938-12-28",
         "endDate": "1941-11-10",
-        "order": 14,
+        "order": 17,
         "segmentType": "advance",
         "name": {
           "zh": "沂水—黎城",
@@ -564,7 +678,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1939-01-26",
         "endDate": "1939-04-25",
-        "order": 15,
+        "order": 18,
         "segmentType": "advance",
         "name": {
           "zh": "河间—齐会（齐会战斗）",
@@ -602,7 +716,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1939-10-25",
         "endDate": "1939-11-07",
-        "order": 16,
+        "order": 19,
         "segmentType": "counterattack",
         "name": {
           "zh": "阜平—黄土岭（1939 年反“扫荡”）",
@@ -636,7 +750,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1940-08-20",
         "endDate": "1940-12-31",
-        "order": 17,
+        "order": 20,
         "segmentType": "counterattack",
         "name": {
           "zh": "辽县—阳泉（百团大战）",
@@ -674,7 +788,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1940-08-20",
         "endDate": "1940-09-30",
-        "order": 18,
+        "order": 21,
         "segmentType": "counterattack",
         "name": {
           "zh": "第129师：正太路破袭",
@@ -712,7 +826,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1940-10-29",
         "endDate": "1940-11-01",
-        "order": 19,
+        "order": 22,
         "segmentType": "counterattack",
         "name": {
           "zh": "辽县—关家垴（关家垴战斗）",
@@ -750,7 +864,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1941-08-23",
         "endDate": "1941-09-25",
-        "order": 20,
+        "order": 23,
         "segmentType": "counterattack",
         "name": {
           "zh": "黄土岭—狼牙山（1941 年秋季反“扫荡”）",
@@ -784,7 +898,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1941-11-11",
         "endDate": "1942-05-25",
-        "order": 21,
+        "order": 24,
         "segmentType": "advance",
         "name": {
           "zh": "黎城—辽县",
@@ -822,7 +936,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1942-05-01",
         "endDate": "1942-06-30",
-        "order": 22,
+        "order": 25,
         "segmentType": "retreat",
         "name": {
           "zh": "齐会—冀中（1942 年反“五一大扫荡”）",
@@ -860,7 +974,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1943-10-20",
         "endDate": "1943-10-24",
-        "order": 23,
+        "order": 26,
         "segmentType": "advance",
         "name": {
           "zh": "辽县—韩略村（第16团赴延安）",
@@ -910,7 +1024,7 @@
         "entityId": "eighth-route-army",
         "startDate": "1944-11-09",
         "endDate": "1945-09-02",
-        "order": 24,
+        "order": 27,
         "segmentType": "advance",
         "name": {
           "zh": "延安—湘粤（南下支队）",
