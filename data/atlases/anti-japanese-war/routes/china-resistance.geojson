@@ -1234,6 +1234,44 @@
           "precision": "campaign"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.89,
+            40.82
+          ],
+          [
+            115.3,
+            41.3
+          ],
+          [
+            116.19,
+            42.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "china-resistance",
+        "startDate": "1933-06-20",
+        "endDate": "1933-07-12",
+        "order": 32,
+        "segmentType": "advance",
+        "name": {
+          "zh": "张家口—多伦（察哈尔抗日同盟军）",
+          "en": "Zhangjiakou–Duolun (Chahar Anti-Japanese Allied Army)"
+        },
+        "description": {
+          "zh": "1933 年 6 月，冯玉祥、吉鸿昌等率察哈尔民众抗日同盟军自张家口北上，7 月 12 日收复多伦。示意简化路线，待史料校订。",
+          "en": "In June 1933 Feng Yuxiang, Ji Hongchang, and others led the Chahar People’s Anti-Japanese Allied Army north from Zhangjiakou and recovered Duolun on 12 July. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

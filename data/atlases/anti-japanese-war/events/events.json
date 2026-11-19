@@ -55,6 +55,55 @@
     "importance": 1
   },
   {
+    "id": "jinzhou-fall-1932-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "锦州沦陷",
+      "en": "Fall of Jinzhou"
+    },
+    "date": "1932-01-03",
+    "location": {
+      "lng": 121.13,
+      "lat": 41.1,
+      "place": {
+        "zh": "辽宁锦州",
+        "en": "Jinzhou, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军西进占领锦州，东北军退入关内，辽西沦陷。",
+      "en": "Japanese forces advanced west and took Jinzhou; the Northeast Army withdrew inside the Great Wall, leaving western Liaoning occupied."
+    },
+    "description": {
+      "zh": "九一八事变后，日军沿南满铁路向北推进，同时西进辽西。1932 年 1 月 3 日占领锦州，东北军在张学良命令下未作有力抵抗即退入关内，辽西与热河门户洞开。\n\n日期与地点取通行说法，待史料校订。",
+      "en": "After the Mukden Incident, Japanese forces pushed north along the South Manchuria Railway and west into western Liaoning. They occupied Jinzhou on 3 January 1932; the Northeast Army, under Zhang Xueliang’s orders, withdrew inside the Great Wall without effective resistance, leaving western Liaoning and the approaches to Rehe open.\n\nDates and locations follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "mukden-incident-1931-09",
+      "harbin-fall-1932-02"
+    ],
+    "importance": 2
+  },
+  {
     "id": "jan28-incident-1932-01",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -210,6 +259,924 @@
     }
   },
   {
+    "id": "lytton-commission-1932-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "国联李顿调查团赴东北",
+      "en": "Lytton Commission in the Northeast"
+    },
+    "date": "1932-04-21",
+    "location": {
+      "lng": 123.43,
+      "lat": 41.8,
+      "place": {
+        "zh": "辽宁沈阳",
+        "en": "Shenyang, Liaoning"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "国际联盟调查团抵达东北调查九一八事变，报告否认伪满洲国合法性，但未认定日本为侵略者。",
+      "en": "The League of Nations commission reached the Northeast to investigate the Mukden Incident; its report denied Manchukuo’s legitimacy but stopped short of naming Japan an aggressor."
+    },
+    "description": {
+      "zh": "1932 年 4 月，国际联盟李顿调查团抵达东北，调查九一八事变后的局势。10 月公布的调查报告承认东北是中国领土、否认伪满洲国的合法性，但也未将日本定为侵略者，主张由国际共管。日本随后退出国际联盟。\n\n外交事件，不绘制路线；日期与地点取通行说法，待史料校订。",
+      "en": "In April 1932 the League of Nations Lytton Commission reached the Northeast to investigate the situation after the Mukden Incident. Its report, published in October, recognized the Northeast as Chinese territory and denied the legality of Manchukuo, but did not name Japan as an aggressor and proposed international administration. Japan subsequently withdrew from the League.\n\nA diplomatic event with no route drawn; dates and wording await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "国联调处与李顿报告参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "manchukuo-1932-03"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "shanghai-ceasefire-1932-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "《淞沪停战协定》签署",
+      "en": "Signing of the Shanghai Ceasefire Agreement"
+    },
+    "date": "1932-05-05",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "中日签订《淞沪停战协定》，一·二八事变结束，中国军队退出上海市区。",
+      "en": "China and Japan signed the Shanghai Ceasefire Agreement, ending the January 28 Incident and requiring Chinese troops to withdraw from urban Shanghai."
+    },
+    "description": {
+      "zh": "1932 年 5 月 5 日，中日双方签订《淞沪停战协定》，规定上海为非武装区，中国军队不得驻守市区，日军则可留驻部分区域。一·二八事变至此结束，但协定被舆论视为屈辱让步。\n\n外交事件，不绘制路线；日期与地点取通行说法，待史料校订。",
+      "en": "On 5 May 1932 China and Japan signed the Shanghai Ceasefire Agreement, making Shanghai a demilitarized zone: Chinese troops were barred from the urban area while Japanese forces could remain in parts of it. The January 28 Incident thus ended, though the agreement was widely seen as a humiliating concession.\n\nA diplomatic event with no route drawn; dates and wording await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "jan28-incident-1932-01"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "shanhaiguan-battle-1933-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "榆关抗战",
+      "en": "Defense of Shanhaiguan"
+    },
+    "aliases": [
+      {
+        "zh": "山海关抗战",
+        "en": "Battle of Shanhaiguan"
+      }
+    ],
+    "date": "1933-01-01",
+    "endDate": "1933-01-03",
+    "location": {
+      "lng": 119.75,
+      "lat": 40.01,
+      "place": {
+        "zh": "河北山海关（今属秦皇岛）",
+        "en": "Shanhaiguan, Hebei (now Qinhuangdao)"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "kmt-forces"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "日军进攻山海关，东北军何柱国部抵抗，榆关三日失守，长城抗战序幕拉开。",
+      "en": "Japanese forces attacked Shanhaiguan; He Zhuguo’s Northeast Army troops resisted for three days before the pass fell, opening the Great Wall campaign."
+    },
+    "description": {
+      "zh": "1933 年 1 月 1 日，日军以炮火进攻山海关，东北军第九旅何柱国部奋起抵抗。守军兵力单薄、后援不继，1 月 3 日榆关失守。此役是九一八事变后中国军队在华北的首次有组织抵抗，也被视为长城抗战的序幕。\n\n日期与地点取通行说法，待史料校订。",
+      "en": "On 1 January 1933 Japanese artillery opened the attack on Shanhaiguan, and He Zhuguo’s 9th Brigade of the Northeast Army resisted. With insufficient troops and no reinforcements, the pass fell on 3 January. It was the first organized Chinese resistance in North China after the Mukden Incident and is regarded as the opening of the Great Wall campaign.\n\nDates and locations follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "jinzhou-fall-1932-01",
+      "great-wall-campaign-1933-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "japanese-jehol-1933-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻热河",
+      "en": "Japanese Invasion of Rehe"
+    },
+    "date": "1933-02-21",
+    "location": {
+      "lng": 120.45,
+      "lat": 41.57,
+      "place": {
+        "zh": "热河朝阳（今属辽宁）",
+        "en": "Chaoyang, Rehe (now Liaoning)"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军分路进攻热河，中国守军节节败退，承德于三月失守。",
+      "en": "Japanese forces attacked Rehe along several axes; Chinese defenders fell back and Chengde was lost in March."
+    },
+    "description": {
+      "zh": "1933 年 2 月 21 日，关东军与伪军分路向热河进攻，中国守军指挥不一、士气低落，防线迅速崩溃。3 月 4 日日军占领承德，热河全省沦陷，东北全部落入日本控制，日军兵锋直指长城各口。\n\n日期与地点取通行说法，待史料校订。",
+      "en": "On 21 February 1933 the Kwantung Army and puppet troops attacked Rehe along several axes. Chinese defenders, poorly coordinated and demoralized, collapsed quickly. Chengde fell on 4 March, the whole province was occupied, and the Japanese advance reached the Great Wall passes.\n\nDates and locations follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "shanhaiguan-battle-1933-01",
+      "chengde-fall-1933-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "chengde-fall-1933-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "承德失守",
+      "en": "Fall of Chengde"
+    },
+    "date": "1933-03-04",
+    "location": {
+      "lng": 117.96,
+      "lat": 40.99,
+      "place": {
+        "zh": "热河承德",
+        "en": "Chengde, Rehe"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军占领承德，热河全省沦陷，东北四省全部被日本控制。",
+      "en": "Japanese forces occupied Chengde and the whole of Rehe, completing the occupation of the four northeastern provinces."
+    },
+    "description": {
+      "zh": "1933 年 3 月 4 日，日军先头部队进入承德，热河省主席汤玉麟此前已弃城逃走。热河沦陷后，东北四省全部被日本控制，日军与中国军队在长城一线形成对峙。\n\n日期与地点取通行说法，待史料校订。",
+      "en": "On 4 March 1933 Japanese advance units entered Chengde after provincial chairman Tang Yulin had fled. With Rehe lost, all four northeastern provinces were under Japanese control, and Japanese and Chinese forces faced each other along the Great Wall.\n\nDates and locations follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "japanese-jehol-1933-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "great-wall-campaign-1933-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "长城抗战",
+      "en": "Defense of the Great Wall"
+    },
+    "date": "1933-03-05",
+    "endDate": "1933-05-25",
+    "location": {
+      "lng": 118.28,
+      "lat": 40.35,
+      "place": {
+        "zh": "河北喜峰口",
+        "en": "Xifengkou, Hebei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "kmt-forces"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "中国军队在喜峰口、古北口、冷口等长城关口抗击日军，最终以《塘沽协定》收场。",
+      "en": "Chinese troops fought Japanese forces at Xifengkou, Gubeikou, and Lengkou along the Great Wall until the Tanggu Truce ended the campaign."
+    },
+    "description": {
+      "zh": "1933 年 3 月至 5 月，中国军队依托长城各口抗击日军。喜峰口方面第二十九军以大刀夜袭闻名，古北口方面中央军第十七军等部顽强防守，冷口、界岭口亦反复争夺。由于装备与指挥劣势，中国军队最终后撤，5 月 31 日签订《塘沽协定》。\n\n日期与地点取通行说法，待史料校订。",
+      "en": "From March to May 1933 Chinese forces defended the Great Wall passes. At Xifengkou the 29th Army became known for night raids with broadswords; at Gubeikou the Central Army’s 17th Army and others held on stubbornly; Lengkou and Jielingkou also saw repeated fighting. Hampered by inferior equipment and coordination, the Chinese forces eventually withdrew, and the Tanggu Truce was signed on 31 May.\n\nDates and locations follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "xifengkou-battle-1933-03",
+      "gubeikou-battle-1933-03",
+      "tanggu-truce-1933-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xifengkou-battle-1933-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "喜峰口战斗",
+      "en": "Battle of Xifengkou"
+    },
+    "date": "1933-03-09",
+    "endDate": "1933-03-13",
+    "location": {
+      "lng": 118.28,
+      "lat": 40.35,
+      "place": {
+        "zh": "河北喜峰口",
+        "en": "Xifengkou, Hebei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "kmt-forces"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "第二十九军在喜峰口以大刀夜袭日军，取得长城抗战中著名胜利。",
+      "en": "The 29th Army’s night raids with broadswords at Xifengkou produced one of the best-known victories of the Great Wall campaign."
+    },
+    "description": {
+      "zh": "1933 年 3 月 9 日，日军进攻喜峰口，第二十九军宋哲元部驰援。11 日夜，赵登禹、佟泽光等率部攀山绕袭日军营地，以大刀近战重创敌军。喜峰口战斗打破了日军不可战胜的形象，也让第二十九军声名大振。\n\n日期与地点取通行说法，待史料校订。",
+      "en": "On 9 March 1933 Japanese forces attacked Xifengkou and Song Zheyuan’s 29th Army rushed to defend it. On the night of 11 March, Zhao Dengyu and Tong Zeguang led troops over the mountains to raid Japanese camps, inflicting heavy losses in close combat with broadswords. The battle shattered the image of Japanese invincibility and made the 29th Army famous.\n\nDates and locations follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "great-wall-campaign-1933-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "gubeikou-battle-1933-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "古北口战斗",
+      "en": "Battle of Gubeikou"
+    },
+    "date": "1933-03-10",
+    "endDate": "1933-04-28",
+    "location": {
+      "lng": 117.16,
+      "lat": 40.7,
+      "place": {
+        "zh": "河北古北口",
+        "en": "Gubeikou, Hebei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "kmt-forces"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "中央军第十七军等部在古北口、南天门一线与日军反复争夺，伤亡惨重。",
+      "en": "The Central Army’s 17th Army and other units fought repeated actions at Gubeikou and Nantianmen, suffering heavy casualties."
+    },
+    "description": {
+      "zh": "1933 年 3 月 10 日，日军进攻古北口，东北军与中央军第十七军等部仓促接战。此后双方在南天门一线反复争夺至 4 月下旬，中国军队伤亡惨重但仍迟滞了日军推进。古北口是长城抗战中战斗最激烈的方向之一。\n\n日期与地点取通行说法，待史料校订。",
+      "en": "On 10 March 1933 Japanese forces attacked Gubeikou, where Northeast Army and Central Army units of the 17th Army engaged them. Fighting around Nantianmen continued into late April; Chinese casualties were heavy, but the defense delayed the Japanese advance. Gubeikou was one of the most bitterly contested sectors of the Great Wall campaign.\n\nDates and locations follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "great-wall-campaign-1933-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "chahar-allied-army-1933-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "察哈尔民众抗日同盟军成立",
+      "en": "Establishment of the Chahar People’s Anti-Japanese Allied Army"
+    },
+    "date": "1933-05-26",
+    "location": {
+      "lng": 114.89,
+      "lat": 40.82,
+      "place": {
+        "zh": "察哈尔张家口",
+        "en": "Zhangjiakou, Chahar"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "冯玉祥、吉鸿昌等在张家口组织抗日同盟军，北上收复多伦等失地。",
+      "en": "Feng Yuxiang, Ji Hongchang, and others formed the Anti-Japanese Allied Army in Zhangjiakou and moved north to recover lost territory including Duolun."
+    },
+    "description": {
+      "zh": "1933 年 5 月，冯玉祥、吉鸿昌、方振武等在张家口成立察哈尔民众抗日同盟军，号召武装抗日、收复失地。同盟军北上作战，一度收复康保、宝昌、沽源和多伦，但在日军与国民党当局的双重压力下于同年秋解散。\n\n建制事件，不单独绘制路线；日期与地点取通行说法，待史料校订。",
+      "en": "In May 1933 Feng Yuxiang, Ji Hongchang, Fang Zhenwu, and others formed the Chahar People’s Anti-Japanese Allied Army at Zhangjiakou, calling for armed resistance and the recovery of lost territory. It advanced north and briefly retook Kangbao, Baochang, Guyuan, and Duolun, but was disbanded that autumn under pressure from both Japan and the Nationalist government.\n\nAn organizational event with no separate route; dates and wording await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "duolun-recapture-1933-07"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "tanggu-truce-1933-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "《塘沽协定》",
+      "en": "Tanggu Truce"
+    },
+    "date": "1933-05-31",
+    "location": {
+      "lng": 117.65,
+      "lat": 39.03,
+      "place": {
+        "zh": "天津塘沽",
+        "en": "Tanggu, Tianjin"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "中日签订《塘沽协定》，中国默认日军对东北、热河的控制，冀东被划为非武装区。",
+      "en": "China and Japan signed the Tanggu Truce, tacitly accepting Japanese control of the Northeast and Rehe and creating a demilitarized zone in eastern Hebei."
+    },
+    "description": {
+      "zh": "1933 年 5 月 31 日，中国代表熊斌与日本代表冈村宁次在塘沽签订停战协定。协定规定中国军队撤至延庆、昌平、高丽营、顺义、通州、香河、宝坻、林亭口、宁河、芦台一线以西以南，冀东划为非武装区。中国实际上默认了日本对东北和热河的控制。\n\n外交事件，不绘制路线；日期与地点取通行说法，待史料校订。",
+      "en": "On 31 May 1933 Chinese representative Xiong Bin and Japanese representative Okamura Yasuji signed a truce at Tanggu. Chinese troops were to withdraw west and south of a line through Yanqing, Changping, Gaoliying, Shunyi, Tongzhou, Xianghe, Baodi, Lintingkou, Ninghe, and Lutai, and eastern Hebei became a demilitarized zone. China thus tacitly accepted Japanese control of the Northeast and Rehe.\n\nA diplomatic event with no route drawn; dates and wording await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "great-wall-campaign-1933-03"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "duolun-recapture-1933-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "收复多伦",
+      "en": "Recapture of Duolun"
+    },
+    "date": "1933-07-12",
+    "location": {
+      "lng": 116.19,
+      "lat": 42.2,
+      "place": {
+        "zh": "察哈尔多伦（今属内蒙古）",
+        "en": "Duolun, Chahar (now Inner Mongolia)"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "察哈尔抗日同盟军收复多伦，为九一八事变后中国军队首次收复失地。",
+      "en": "The Chahar Anti-Japanese Allied Army retook Duolun, the first recovery of lost territory by Chinese forces after the Mukden Incident."
+    },
+    "description": {
+      "zh": "1933 年 7 月，察哈尔民众抗日同盟军围攻多伦，经数日激战于 7 月 12 日收复该城。这是九一八事变后中国军队首次从日军及其伪军手中收复失地，在舆论上引起很大反响。\n\n日期与地点取通行说法，待史料校订。",
+      "en": "In July 1933 the Chahar People’s Anti-Japanese Allied Army besieged Duolun and retook the town on 12 July after several days of fighting. It was the first recovery of lost territory from Japanese and puppet forces after the Mukden Incident and caused a sensation in public opinion.\n\nDates and locations follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "chahar-allied-army-1933-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "puyi-enthroned-1934-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "溥仪称帝",
+      "en": "Puyi Enthroned as Emperor of Manchukuo"
+    },
+    "date": "1934-03-01",
+    "location": {
+      "lng": 125.32,
+      "lat": 43.82,
+      "place": {
+        "zh": "吉林长春（伪满称“新京”）",
+        "en": "Changchun, Jilin (“Xinjing” under Manchukuo)"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "溥仪在长春称“满洲帝国皇帝”，伪满政权进一步制度化。",
+      "en": "Puyi was enthroned as “Emperor of Manchukuo” in Changchun, further institutionalizing the puppet regime."
+    },
+    "description": {
+      "zh": "1934 年 3 月 1 日，溥仪在长春称“满洲帝国皇帝”，改元“康德”。伪满政权在日本关东军控制下进一步完善殖民统治机构，但始终未获中国政府与国际社会普遍承认。\n\n政治事件，不绘制路线；日期与地点取通行说法，待史料校订。",
+      "en": "On 1 March 1934 Puyi was enthroned as “Emperor of Manchukuo” in Changchun and adopted the era name Kangde. Under Kwantung Army control the puppet state further developed its colonial institutions, but it was never widely recognized by the Chinese government or the international community.\n\nA political event with no route drawn; dates and wording await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "manchukuo-1932-03"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "amau-statement-1934-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "天羽声明",
+      "en": "Amau Statement"
+    },
+    "date": "1934-04-17",
+    "location": {
+      "lng": 139.69,
+      "lat": 35.69,
+      "place": {
+        "zh": "日本东京",
+        "en": "Tokyo, Japan"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "日本外务省发表天羽声明，反对列强援助中国，暴露独占中国的意图。",
+      "en": "Japan’s Foreign Ministry issued the Amau Statement, opposing foreign aid to China and revealing its aim of monopolizing China."
+    },
+    "description": {
+      "zh": "1934 年 4 月 17 日，日本外务省情报部长天羽英二发表非正式声明，称日本对东亚有特殊责任，反对列强向中国提供武器、借款或技术援助。声明被中国与英美等国视为“亚洲门罗主义”，加剧了华北危机前的紧张局势。\n\n外交事件，不绘制路线；日期与地点取通行说法，待史料校订。",
+      "en": "On 17 April 1934 Amau Eiji, spokesman of Japan’s Foreign Ministry, issued an informal statement claiming a special Japanese responsibility in East Asia and opposing foreign arms, loans, or technical aid to China. China, Britain, and the United States saw it as an “Asian Monroe Doctrine,” heightening tensions before the North China crisis.\n\nA diplomatic event with no route drawn; dates and wording await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "日本对华政策参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "puyi-enthroned-1934-03"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "zangben-incident-1934-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "藏本英明事件",
+      "en": "Kuramoto Incident"
+    },
+    "date": "1934-06-09",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏南京",
+        "en": "Nanjing, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "日本驻南京副领事藏本英明失踪，日方借机陈兵施压，数日后其被发现在紫金山隐居。",
+      "en": "A Japanese vice-consul in Nanjing disappeared; Japan massed warships as a pretext, but he was found days later hiding in the Zijin Mountains."
+    },
+    "description": {
+      "zh": "1934 年 6 月 9 日，日本驻南京总领事馆副领事藏本英明失踪。日本方面宣称其被中国方面绑架，调集军舰施压。6 月 13 日，藏本在南京紫金山被发现，自称因精神苦闷出走，日方的借口随之破产。\n\n外交事件，不绘制路线；日期与表述取通行说法，待史料校订。",
+      "en": "On 9 June 1934 Kuramoto, a vice-consul at the Japanese consulate in Nanjing, disappeared. Japan claimed he had been kidnapped by the Chinese side and massed warships as pressure. On 13 June he was found in the Zijin Mountains outside Nanjing, saying he had left because of mental distress, and the Japanese pretext collapsed.\n\nA diplomatic event with no route drawn; dates and wording await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "amau-statement-1934-04"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "chadong-incident-1935-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "察东事件与大滩口约",
+      "en": "Chahar East Incident and the Datan Accord"
+    },
+    "date": "1935-01-15",
+    "location": {
+      "lng": 115.69,
+      "lat": 41.67,
+      "place": {
+        "zh": "察哈尔沽源",
+        "en": "Guyuan, Chahar"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "日军在察东挑起冲突，迫使中国接受大滩口约，中国军队撤出察东。",
+      "en": "Japan provoked clashes in eastern Chahar and forced China to accept the Datan Accord, withdrawing Chinese troops from the area."
+    },
+    "description": {
+      "zh": "1935 年 1 月，日军在察哈尔东部沽源一带挑起冲突，进攻长梁、乌泥河等地。2 月，中方与日方在大滩达成口约，中国军队撤出察东，日军获得自由行动空间。此举为同年张北事件与秦土协定埋下伏笔。\n\n外交事件，不绘制路线；日期与表述取通行说法，待史料校订。",
+      "en": "In January 1935 Japanese forces provoked clashes around Guyuan in eastern Chahar, attacking Changliang, Wunihe, and other places. In February China and Japan reached an oral accord at Datan: Chinese troops withdrew from eastern Chahar and Japanese forces gained freedom of movement. The episode set the stage for the Zhangbei Incident and the Qin-Doihara Agreement later that year.\n\nA diplomatic event with no route drawn; dates and wording await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "qintu-agreement-1935-06"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "hemei-agreement-1935-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "河北事件与何梅协定",
+      "en": "Hebei Incident and the He-Umezu Agreement"
+    },
+    "date": "1935-06-09",
+    "endDate": "1935-07-06",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北平",
+        "en": "Beiping"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "日军借河北事件施压，中国方面被迫接受撤换军政人员、撤出中央军等要求。",
+      "en": "Japan used the Hebei Incident to pressure China into replacing officials and withdrawing Central Army units from Hebei."
+    },
+    "description": {
+      "zh": "1935 年 5 至 6 月，日军以孙永勤部进入滦东“非武装区”和胡白被杀事件为借口，向北平军分会代委员长何应钦提出交涉。7 月 6 日，何应钦复函日本华北驻屯军司令梅津美治郎，实质上接受日方要求，中央军与国民党党部退出河北，史称“何梅协定”。\n\n外交事件，不绘制路线；日期与地点取通行说法，待史料校订。",
+      "en": "In May and June 1935 Japan used the entry of Sun Yongqin’s forces into the demilitarized zone east of the Luan River and the killing of Hu Bai as pretexts to press He Yingqin, acting chairman of the Beiping Military Council. On 6 July He replied to Umezu Yoshijiro, commander of the Japanese garrison in North China, effectively accepting Japanese demands: Central Army units and Nationalist Party offices withdrew from Hebei. The exchange is known as the He-Umezu Agreement.\n\nA diplomatic event with no route drawn; dates and wording await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "qintu-agreement-1935-06",
+      "december-ninth-1935-12"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "qintu-agreement-1935-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "张北事件与秦土协定",
+      "en": "Zhangbei Incident and the Qin-Doihara Agreement"
+    },
+    "date": "1935-06-27",
+    "location": {
+      "lng": 114.72,
+      "lat": 41.16,
+      "place": {
+        "zh": "察哈尔张北",
+        "en": "Zhangbei, Chahar"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "日军借张北事件迫使中国接受察哈尔省撤军、取缔抗日活动等条件。",
+      "en": "Japan used the Zhangbei Incident to force China to withdraw troops from Chahar and suppress anti-Japanese activities."
+    },
+    "description": {
+      "zh": "1935 年 6 月，日本特务在张北被中国守军盘查，日方借机提出交涉。6 月 27 日，秦德纯与土肥原贤二签订协定，中国方面同意撤换有关人员、撤退察哈尔省境内国民党军与党部，并取缔抗日活动。察哈尔主权进一步受损。\n\n外交事件，不绘制路线；日期与地点取通行说法，待史料校订。",
+      "en": "In June 1935 Japanese agents were stopped and questioned by Chinese guards at Zhangbei, and Japan used the incident to demand concessions. On 27 June Qin Dechun and Doihara Kenji signed an agreement under which China replaced the officers involved, withdrew Nationalist troops and party offices from Chahar, and suppressed anti-Japanese activities. Chahar’s sovereignty was further eroded.\n\nA diplomatic event with no route drawn; dates and wording await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "hemei-agreement-1935-06"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "east-hebei-autonomy-1935-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "冀东防共自治委员会成立",
+      "en": "East Hebei Anti-Communist Autonomous Council"
+    },
+    "date": "1935-11-25",
+    "location": {
+      "lng": 116.66,
+      "lat": 39.91,
+      "place": {
+        "zh": "河北通州",
+        "en": "Tongzhou, Hebei"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "殷汝耕在通州成立冀东防共自治委员会，冀东二十二县脱离南京管辖。",
+      "en": "Yin Rugeng set up the East Hebei Anti-Communist Autonomous Council at Tongzhou, detaching 22 counties from Nanjing’s authority."
+    },
+    "description": {
+      "zh": "1935 年 11 月 25 日，殷汝耕在通州成立“冀东防共自治委员会”，宣布冀东二十二县“自治”，实际处于日本控制之下。此举是华北自治运动的高潮，直接引发一二·九运动。\n\n政治事件，不绘制路线；日期与表述取通行说法，待史料校订。",
+      "en": "On 25 November 1935 Yin Rugeng established the “East Hebei Anti-Communist Autonomous Council” at Tongzhou, declaring 22 counties of eastern Hebei “autonomous” under de facto Japanese control. It marked the peak of the North China autonomy movement and directly triggered the December Ninth Movement.\n\nA political event with no route drawn; dates and wording await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "north-china-autonomy-1935-12",
+      "december-ninth-1935-12"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
     "id": "december-ninth-1935-12",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -250,6 +1217,362 @@
         "author": "张宪文等",
         "year": 2001,
         "note": "运动背景参考"
+      }
+    ],
+    "relatedIds": [
+      "xian-incident-1936-12"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "december-sixteenth-1935-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "一二·一六运动",
+      "en": "December Sixteenth Movement"
+    },
+    "date": "1935-12-16",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北平",
+        "en": "Beiping"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "北平学生举行更大规模游行，抗议冀察政务委员会成立，运动扩展至全国。",
+      "en": "Students in Beiping held an even larger demonstration against the Hebei-Chahar Political Council, and the movement spread nationwide."
+    },
+    "description": {
+      "zh": "1935 年 12 月 16 日，北平学生万余人举行游行，抗议冀察政务委员会成立，遭到军警镇压。运动迅速扩展到天津、上海、南京、广州等地，成为全国抗日救亡运动的新高潮，也为抗日民族统一战线的形成准备了群众基础。\n\n政治事件，不绘制路线；日期与地点取通行说法，待史料校订。",
+      "en": "On 16 December 1935 more than ten thousand students marched in Beiping against the Hebei-Chahar Political Council and were suppressed by police. The movement quickly spread to Tianjin, Shanghai, Nanjing, Guangzhou, and elsewhere, becoming a new high point of national salvation activity and preparing popular ground for the anti-Japanese united front.\n\nA political event with no route drawn; dates and wording await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "运动经过参考"
+      }
+    ],
+    "relatedIds": [
+      "december-ninth-1935-12",
+      "north-china-autonomy-1935-12"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "north-china-autonomy-1935-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "华北自治运动与冀察政务委员会成立",
+      "en": "North China Autonomy Movement and the Hebei-Chahar Political Council"
+    },
+    "date": "1935-12-18",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北平",
+        "en": "Beiping"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "日本策动华北五省“自治”，南京国民政府被迫设立半独立性质的冀察政务委员会。",
+      "en": "Japan promoted “autonomy” in five North China provinces, forcing Nanjing to create the semi-autonomous Hebei-Chahar Political Council."
+    },
+    "description": {
+      "zh": "1935 年秋，日本策动华北五省“自治运动”，扶植殷汝耕在通州成立“冀东防共自治委员会”。南京国民政府在日本压力下于 12 月 18 日设立冀察政务委员会，由宋哲元任委员长，华北出现半独立局面。此举直接引发了一二·九与一二·一六运动。\n\n政治事件，不绘制路线；日期与地点取通行说法，待史料校订。",
+      "en": "In autumn 1935 Japan promoted an “autonomy movement” across five North China provinces and sponsored Yin Rugeng’s “East Hebei Anti-Communist Autonomous Council” at Tongzhou. Under Japanese pressure Nanjing established the Hebei-Chahar Political Council on 18 December, chaired by Song Zheyuan, leaving North China semi-autonomous. The move directly triggered the December Ninth and December Sixteenth movements.\n\nA political event with no route drawn; dates and wording await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "december-ninth-1935-12",
+      "december-sixteenth-1935-12"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "liangguang-incident-1936-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "两广事变",
+      "en": "Liangguang Incident"
+    },
+    "date": "1936-06-01",
+    "location": {
+      "lng": 113.26,
+      "lat": 23.13,
+      "place": {
+        "zh": "广东广州",
+        "en": "Guangzhou, Guangdong"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "陈济棠、李宗仁等以“北上抗日”为号召反蒋，事变后和平解决。",
+      "en": "Chen Jitang and Li Zongren moved against Chiang Kai-shek under the banner of “marching north to resist Japan”; the incident was resolved peacefully."
+    },
+    "description": {
+      "zh": "1936 年 6 月，广东陈济棠与广西李宗仁、白崇禧联合反蒋，组织“抗日救国军”北上，史称两广事变。蒋介石分化瓦解，陈济棠部将余汉谋倒戈，7 月陈济棠下野，事变和平解决，两广重归南京国民政府统辖。\n\n政治事件，不绘制路线；日期与地点取通行说法，待史料校订。",
+      "en": "In June 1936 Chen Jitang of Guangdong joined Li Zongren and Bai Chongxi of Guangxi against Chiang Kai-shek, forming a “Anti-Japanese National Salvation Army” and marching north; the episode is known as the Liangguang Incident. Chiang undermined the coalition, Chen’s subordinate Yu Hanmou defected, and Chen stepped down in July. The incident ended peacefully and the two provinces returned to Nanjing’s authority.\n\nA political event with no route drawn; dates and wording await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中华民国史》",
+        "author": "中国社会科学院近代史研究所",
+        "year": 2011,
+        "note": "两广事变参考"
+      }
+    ],
+    "relatedIds": [
+      "xian-incident-1936-12"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "sui-yuan-incursion-1936-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军策动伪蒙军进攻绥远",
+      "en": "Japanese-Backed Mengjiang Invasion of Suiyuan"
+    },
+    "date": "1936-11-15",
+    "location": {
+      "lng": 113.56,
+      "lat": 41.56,
+      "place": {
+        "zh": "察哈尔商都",
+        "en": "Shangdu, Chahar"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日本关东军策动伪蒙军自商都进攻绥远，傅作义部奋起抵抗。",
+      "en": "The Kwantung Army directed Mengjiang forces from Shangdu against Suiyuan, where Fu Zuoyi’s troops resisted."
+    },
+    "description": {
+      "zh": "1936 年 11 月，日本关东军策动德王所属伪蒙军自商都一带西进，进攻绥远东部。绥远省主席傅作义率晋绥军迎战，先后取得红格尔图与百灵庙战斗的胜利。绥远抗战得到全国各界慰问与支援，成为西安事变前抗日情绪高涨的重要背景。\n\n日期与地点取通行说法，待史料校订。",
+      "en": "In November 1936 the Kwantung Army directed Prince De’s Mengjiang forces westward from the Shangdu area against eastern Suiyuan. Suiyuan chairman Fu Zuoyi led Shanxi-Suiyuan troops to meet them and won the battles of Honggeertu and Bailingmiao. The Suiyuan campaign drew nationwide support and helped raise anti-Japanese sentiment before the Xi’an Incident.\n\nDates and locations follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "honggeertu-battle-1936-11",
+      "bailingmiao-victory-1936-11"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "honggeertu-battle-1936-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "红格尔图战斗",
+      "en": "Battle of Honggeertu"
+    },
+    "date": "1936-11-15",
+    "endDate": "1936-11-18",
+    "location": {
+      "lng": 113.2,
+      "lat": 41.45,
+      "place": {
+        "zh": "绥远红格尔图",
+        "en": "Honggeertu, Suiyuan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "kmt-forces"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "傅作义部在红格尔图击退伪蒙军进攻，绥远抗战由此展开。",
+      "en": "Fu Zuoyi’s forces repelled the Mengjiang attack at Honggeertu, opening the Suiyuan campaign."
+    },
+    "description": {
+      "zh": "1936 年 11 月 15 日，伪蒙军在日本顾问指挥下进攻红格尔图。傅作义部骑兵与守军协同反击，经数日激战将其击退，毙伤俘敌数百人。红格尔图战斗是绥远抗战的首场胜利，为随后收复百灵庙创造了条件。\n\n日期与地点取通行说法，待史料校订。",
+      "en": "On 15 November 1936 Mengjiang troops under Japanese advisers attacked Honggeertu. Fu Zuoyi’s cavalry and garrison counterattacked and, after several days of fighting, drove them back with hundreds of casualties and prisoners. The victory at Honggeertu opened the Suiyuan campaign and paved the way for the recovery of Bailingmiao.\n\nDates and locations follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "sui-yuan-incursion-1936-11",
+      "bailingmiao-victory-1936-11"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "bailingmiao-victory-1936-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "百灵庙大捷",
+      "en": "Victory at Bailingmiao"
+    },
+    "date": "1936-11-23",
+    "endDate": "1936-11-24",
+    "location": {
+      "lng": 110.43,
+      "lat": 41.7,
+      "place": {
+        "zh": "绥远百灵庙",
+        "en": "Bailingmiao, Suiyuan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "kmt-forces"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "傅作义部奇袭百灵庙，取得绥远抗战决定性胜利，全国慰问运动高涨。",
+      "en": "Fu Zuoyi’s surprise attack on Bailingmiao won a decisive victory in the Suiyuan campaign and triggered nationwide support."
+    },
+    "description": {
+      "zh": "1936 年 11 月 23 日夜，傅作义部在严寒中长途奔袭百灵庙，经一夜激战于 24 日攻克该地，歼灭伪蒙军一部并缴获大量物资。百灵庙大捷震动全国，各界纷纷组织慰问与捐款，成为绥远抗战的标志性胜利。\n\n日期与地点取通行说法，待史料校订。",
+      "en": "On the night of 23 November 1936 Fu Zuoyi’s troops marched through severe cold to surprise Bailingmiao and, after a night of fighting, took it on 24 November, destroying part of the Mengjiang force and capturing large quantities of supplies. The victory caused a national sensation, with organizations across the country sending condolences and donations, and became the emblematic success of the Suiyuan campaign.\n\nDates and locations follow conventional accounts and await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件经过参考"
+      }
+    ],
+    "relatedIds": [
+      "honggeertu-battle-1936-11"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "seven-gentlemen-1936-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "七君子事件",
+      "en": "Seven Gentlemen Incident"
+    },
+    "date": "1936-11-23",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "沈钧儒等七位救国会领袖在上海被捕，引发全国抗议。",
+      "en": "Seven leaders of the National Salvation Association, including Shen Junru, were arrested in Shanghai, prompting nationwide protests."
+    },
+    "description": {
+      "zh": "1936 年 11 月 23 日，南京国民政府以“危害民国”罪名在上海逮捕沈钧儒、章乃器、邹韬奋、李公朴、沙千里、史良、王造时七位救国会领袖，史称“七君子事件”。事件激起全国各界抗议，进一步推动了抗日救亡运动。\n\n政治事件，不绘制路线；日期与地点取通行说法，待史料校订。",
+      "en": "On 23 November 1936 the Nanjing government arrested seven leaders of the National Salvation Association in Shanghai—Shen Junru, Zhang Naiqi, Zou Taofen, Li Gongpu, Sha Qianli, Shi Liang, and Wang Zaoshi—on charges of “endangering the Republic.” Known as the Seven Gentlemen Incident, the arrests provoked nationwide protests and further strengthened the national salvation movement.\n\nA political event with no route drawn; dates and wording await historical review."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《中国共产党历史》第一卷",
+        "author": "中共中央党史研究室",
+        "year": 2011,
+        "note": "救国会与七君子参考"
       }
     ],
     "relatedIds": [
@@ -1198,6 +2521,100 @@
     "importance": 2
   },
   {
+    "id": "datong-1937",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军占领大同",
+      "en": "Japanese capture of Datong"
+    },
+    "date": "1937-09-13",
+    "location": {
+      "lng": 113.3,
+      "lat": 40.08,
+      "place": {
+        "zh": "山西大同",
+        "en": "Datong, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军关东军察哈尔派遣兵团占领大同，随后沿同蒲路南下。",
+      "en": "The Japanese Kwantung Army’s Chahar expeditionary force took Datong and moved south along the Tongpu railway."
+    },
+    "description": {
+      "zh": "1937 年 9 月 13 日日军关东军察哈尔派遣兵团占领大同，晋北门户洞开；日军随后沿同蒲路南下，10 月 13 日猛攻忻口。",
+      "en": "On 13 September 1937 the Kwantung Army’s Chahar force took Datong, opening northern Shanxi; the Japanese then moved south along the Tongpu railway and attacked Xinkou on 13 October."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "察哈尔作战与大同陷落"
+      },
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "晋北作战"
+      }
+    ],
+    "relatedIds": [
+      "japanese-xinkou-1937-10",
+      "xinkou-1937-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lingqiu-1937",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军占领灵丘",
+      "en": "Japanese capture of Lingqiu"
+    },
+    "date": "1937-09-20",
+    "location": {
+      "lng": 114.24,
+      "lat": 39.44,
+      "place": {
+        "zh": "山西灵丘县城",
+        "en": "Lingqiu county town, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军第 5 师团占领灵丘，随即南下进攻平型关。",
+      "en": "The Japanese 5th Division took Lingqiu and moved south against Pingxingguan."
+    },
+    "description": {
+      "zh": "1937 年 9 月 20 日日军第 5 师团占领灵丘县城，随后沿灵丘—平型关大道南下；9 月 25 日八路军第 115 师在乔沟伏击其辎重部队，平型关战斗爆发。",
+      "en": "On 20 September 1937 the Japanese 5th Division took Lingqiu county town and moved south along the Lingqiu–Pingxingguan road; on 25 September the 115th Division ambushed its supply column at Qiaogou."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "第 5 师团进攻平型关"
+      },
+      {
+        "title": "八路军战史",
+        "author": "军事科学院",
+        "note": "平型关战斗"
+      }
+    ],
+    "relatedIds": [
+      "japanese-pingxingguan-1937-09",
+      "pingxingguan-1937-09"
+    ],
+    "importance": 2
+  },
+  {
     "id": "japanese-pingxingguan-1937-09",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -1985,6 +3402,52 @@
     "importance": 2
   },
   {
+    "id": "qingdao-1938",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军登陆青岛",
+      "en": "Japanese landing at Qingdao"
+    },
+    "date": "1938-01-10",
+    "location": {
+      "lng": 120.38,
+      "lat": 36.07,
+      "place": {
+        "zh": "山东青岛",
+        "en": "Qingdao, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军在青岛登陆，随后沿胶济路西进。",
+      "en": "The Japanese landed at Qingdao and moved west along the Jiaoji railway."
+    },
+    "description": {
+      "zh": "1938 年 1 月 10 日日军海军陆战队在青岛登陆，中国守军已撤离，日军随即沿胶济路西进，为进攻临沂、徐州做准备。",
+      "en": "On 10 January 1938 Japanese marines landed at Qingdao, the Chinese garrison having withdrawn; the Japanese then moved west along the Jiaoji railway in preparation for the attacks on Linyi and Xuzhou."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "青岛登陆"
+      },
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "鲁南作战"
+      }
+    ],
+    "relatedIds": [
+      "japanese-linyi-1938-03"
+    ],
+    "importance": 2
+  },
+  {
     "id": "jinsui-1938-01",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -2702,6 +4165,52 @@
     "importance": 2
   },
   {
+    "id": "heze-1938",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军占领菏泽",
+      "en": "Japanese capture of Heze"
+    },
+    "date": "1938-05-14",
+    "location": {
+      "lng": 115.48,
+      "lat": 35.23,
+      "place": {
+        "zh": "山东菏泽",
+        "en": "Heze, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军第 14 师团渡黄河南下占领菏泽。",
+      "en": "The Japanese 14th Division crossed the Yellow River and took Heze."
+    },
+    "description": {
+      "zh": "1938 年 5 月，日军第 14 师团（土肥原贤二）自濮阳渡黄河南下，5 月 14 日占领菏泽，随后向兰封、开封推进，引发兰封会战。",
+      "en": "In May 1938 the Japanese 14th Division under Tsuchihashi (Dohihara’s 14th) crossed the Yellow River at Puyang and took Heze on 14 May, then pushed towards Lanfeng and Kaifeng, bringing on the Lanfeng battle."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "第 14 师团渡河与菏泽战斗"
+      },
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "兰封会战经过"
+      }
+    ],
+    "relatedIds": [
+      "lanfeng-1938-05"
+    ],
+    "importance": 2
+  },
+  {
     "id": "lanfeng-1938-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -2816,6 +4325,52 @@
     "relatedIds": [
       "changsha-1939-09",
       "changsha-1941-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kaifeng-1938",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军占领开封",
+      "en": "Japanese capture of Kaifeng"
+    },
+    "date": "1938-06-06",
+    "location": {
+      "lng": 114.31,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南开封",
+        "en": "Kaifeng, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "兰封会战后期日军占领开封。",
+      "en": "The Japanese took Kaifeng in the later phase of the Lanfeng battle."
+    },
+    "description": {
+      "zh": "兰封会战后期，中国军队围攻土肥原第 14 师团未果，日军增援抵达，6 月 6 日占领开封，中国军队退守郑州以东，随后有花园口决堤。",
+      "en": "In the later phase of the Lanfeng battle the Chinese army failed to destroy Dohihara’s 14th Division; Japanese reinforcements arrived and took Kaifeng on 6 June, the Chinese withdrawing east of Zhengzhou before the Huayuankou breach."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "兰封会战与开封失守"
+      },
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "第 14 师团突围"
+      }
+    ],
+    "relatedIds": [
+      "lanfeng-1938-05"
     ],
     "importance": 2
   },
@@ -3417,6 +4972,52 @@
         "author": "费正清、费维恺编",
         "year": 1994,
         "note": "事件背景参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-dabie-1938-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "shangcheng-1938",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军占领商城",
+      "en": "Japanese capture of Shangcheng"
+    },
+    "date": "1938-09-16",
+    "location": {
+      "lng": 115.41,
+      "lat": 31.8,
+      "place": {
+        "zh": "河南商城",
+        "en": "Shangcheng, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军第 2 军自六安西进占领商城。",
+      "en": "The Japanese 2nd Army advanced west from Lu’an and took Shangcheng."
+    },
+    "description": {
+      "zh": "1938 年 8 月底日军第 2 军自合肥、六安西进，沿大别山北麓进攻商城、潢川，9 月 16 日占领商城，随后转攻潢川、罗山，配合武汉会战。",
+      "en": "In late August 1938 the Japanese 2nd Army advanced west from Hefei and Lu’an along the northern foot of the Dabie mountains against Shangcheng and Huangchuan, taking Shangcheng on 16 September and then turning on Huangchuan and Luoshan in support of the Wuhan campaign."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "第 2 军大别山北麓作战"
+      },
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "武汉会战大别山方向"
       }
     ],
     "relatedIds": [
@@ -4750,6 +6351,52 @@
     "importance": 2
   },
   {
+    "id": "wuhu-1939",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军自芜湖进攻铜陵",
+      "en": "Japanese advance from Wuhu on Tongling"
+    },
+    "date": "1939-12-16",
+    "location": {
+      "lng": 118.38,
+      "lat": 31.33,
+      "place": {
+        "zh": "安徽芜湖",
+        "en": "Wuhu, Anhui"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军自芜湖出动，进攻铜陵一带。",
+      "en": "The Japanese moved out of Wuhu against Tongling."
+    },
+    "description": {
+      "zh": "1939 年 12 月，日军自芜湖出动，沿长江南岸进攻铜陵、青阳一带，中国军队在铜陵附近阻击。芜湖自 1937 年 12 月即为日军占领，为其沿江据点。",
+      "en": "In December 1939 the Japanese moved out of Wuhu along the south bank of the Yangtze against Tongling and Qingyang, where the Chinese army resisted. Wuhu had been occupied since December 1937 and served as their river base."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "芜湖—铜陵作战"
+      },
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "1939 年冬皖南作战"
+      }
+    ],
+    "relatedIds": [
+      "japanese-tongling-1939-12"
+    ],
+    "importance": 2
+  },
+  {
     "id": "kmt-16th-group-army-kunlun-1939-12",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -5092,6 +6739,52 @@
     "importance": 1
   },
   {
+    "id": "liuzhou-1939",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第 5 军自柳州反攻昆仑关",
+      "en": "5th Corps counter-attacks Kunlun Pass from Liuzhou"
+    },
+    "date": "1939-12-18",
+    "location": {
+      "lng": 109.41,
+      "lat": 24.33,
+      "place": {
+        "zh": "广西柳州",
+        "en": "Liuzhou, Guangxi"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "桂林行营调第 5 军自柳州北上，反攻昆仑关。",
+      "en": "The Guilin headquarters sent the 5th Corps north from Liuzhou against Kunlun Pass."
+    },
+    "description": {
+      "zh": "1939 年 12 月 18 日，桂林行营主任白崇禧调第 5 军（军长杜聿明）自柳州北上，反攻昆仑关；1940 年 1 月 11 日克复昆仑关，日军第 5 师团第 21 旅团遭重创。",
+      "en": "On 18 December 1939 Bai Chongxi’s Guilin headquarters sent the 5th Corps under Du Yuming north from Liuzhou against Kunlun Pass; the pass was retaken on 11 January 1940, badly mauling the Japanese 21st Brigade of the 5th Division."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "桂南会战与昆仑关战役"
+      },
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "第 5 师团昆仑关作战"
+      }
+    ],
+    "relatedIds": [
+      "kunlun-1939-12"
+    ],
+    "importance": 2
+  },
+  {
     "id": "japanese-baotou-1939-12",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -5197,6 +6890,98 @@
     "relatedIds": [
       "japanese-baotou-1939-12",
       "kmt-35th-army-wuyuan-1940-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "guisui-1939",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军自归绥进攻包头",
+      "en": "Japanese advance from Guisui on Baotou"
+    },
+    "date": "1939-12-19",
+    "location": {
+      "lng": 111.75,
+      "lat": 40.84,
+      "place": {
+        "zh": "绥远归绥（今呼和浩特）",
+        "en": "Guisui (Hohhot), Suiyuan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军自归绥西进，攻占包头。",
+      "en": "The Japanese moved west from Guisui and took Baotou."
+    },
+    "description": {
+      "zh": "1939 年 12 月 19 日日军驻蒙军自归绥西进，攻占包头；1940 年 3 月中国军队反攻，一度收复包头、五原。归绥自 1937 年 10 月即为日军占领。",
+      "en": "On 19 December 1939 the Japanese garrison army in Mongolia moved west from Guisui and took Baotou; in March 1940 the Chinese army counter-attacked and briefly recovered Baotou and Wuyuan. Guisui had been occupied since October 1937."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "驻蒙军进攻包头"
+      },
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "绥西作战"
+      }
+    ],
+    "relatedIds": [
+      "japanese-baotou-1939-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "shaoguan-1940",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军攻韶关未克撤回",
+      "en": "Japanese drive on Shaoguan fails"
+    },
+    "date": "1940-01-16",
+    "location": {
+      "lng": 113.6,
+      "lat": 24.8,
+      "place": {
+        "zh": "广东韶关",
+        "en": "Shaoguan, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第一次粤北会战，日军攻至韶关外围后撤回广州。",
+      "en": "In the first northern Guangdong battle the Japanese reached the outskirts of Shaoguan and withdrew."
+    },
+    "description": {
+      "zh": "1939 年 12 月日军第 18 师团等自广州北犯，第一次粤北会战爆发；中国军队逐次抵抗并反攻，日军攻至韶关外围后于 1940 年 1 月中旬撤回广州。韶关为战时广东省会，始终未陷。",
+      "en": "In December 1939 the Japanese 18th Division and others moved north from Guangzhou, opening the first northern Guangdong battle; the Chinese army resisted and counter-attacked, and the Japanese, having reached the outskirts of Shaoguan, withdrew to Guangzhou in mid-January 1940. Shaoguan, the wartime provincial capital, never fell."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "第一次粤北会战"
+      },
+      {
+        "title": "粤北会战",
+        "author": "广东省档案馆",
+        "note": "日军攻韶关未克"
+      }
+    ],
+    "relatedIds": [
+      "japanese-yuebei-1939-12"
     ],
     "importance": 2
   },
@@ -5706,6 +7491,52 @@
       "pingxingguan-1937-09"
     ],
     "importance": 1
+  },
+  {
+    "id": "zhengtai-1940",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "正太路破袭战（西段）",
+      "en": "Sabotage of the western Zhengding–Taiyuan railway"
+    },
+    "date": "1940-08-20",
+    "location": {
+      "lng": 112.75,
+      "lat": 37.69,
+      "place": {
+        "zh": "山西榆次",
+        "en": "Yuci, Shanxi"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "百团大战第一阶段，第 129 师破袭正太路西段至榆次附近。",
+      "en": "In the first phase of the Hundred Regiments Offensive the 129th Division broke the western Zhengding–Taiyuan line to the approaches of Yuci."
+    },
+    "description": {
+      "zh": "1940 年 8 月 20 日夜百团大战发起，八路军第 129 师主力破袭正太路西段，攻占阳泉、寿阳间多处据点，破坏铁路桥梁，战斗延伸至榆次附近。",
+      "en": "On the night of 20 August 1940 the Hundred Regiments Offensive opened; the 129th Division broke the western Zhengding–Taiyuan railway, taking posts between Yangquan and Shouyang, destroying track and bridges, with fighting extending to the approaches of Yuci."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "八路军战史",
+        "author": "军事科学院",
+        "note": "百团大战第一阶段正太路破袭"
+      },
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "1940 年正太路破袭"
+      }
+    ],
+    "relatedIds": [
+      "hundred-regiments-1940-08"
+    ],
+    "importance": 2
   },
   {
     "id": "dongjiang-base-1940-09",
@@ -6255,6 +8086,52 @@
     "importance": 2
   },
   {
+    "id": "wuyang-1941",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军攻占舞阳",
+      "en": "Japanese capture of Wuyang"
+    },
+    "date": "1941-02-05",
+    "location": {
+      "lng": 113.6,
+      "lat": 33.44,
+      "place": {
+        "zh": "河南舞阳",
+        "en": "Wuyang, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "豫南会战，日军攻至舞阳后撤回信阳。",
+      "en": "In the southern Henan battle the Japanese reached Wuyang and withdrew to Xinyang."
+    },
+    "description": {
+      "zh": "1941 年 1 月 25 日日军第 11 军自信阳北犯，豫南会战爆发；日军攻至舞阳、方城一带，中国军队避免决战、侧击其后，日军于 2 月 11 日撤回信阳。",
+      "en": "On 25 January 1941 the Japanese 11th Army moved north from Xinyang, opening the southern Henan battle; it reached Wuyang and Fangcheng, but the Chinese army avoided a decisive battle and struck its rear, so the Japanese withdrew to Xinyang on 11 February."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "豫南会战"
+      },
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "第 11 军豫南作战"
+      }
+    ],
+    "relatedIds": [
+      "japanese-yunan-1941-01"
+    ],
+    "importance": 2
+  },
+  {
     "id": "japanese-shanggao-1941-03",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -6539,6 +8416,53 @@
     "importance": 2
   },
   {
+    "id": "nanchang-1941",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军退回南昌（上高会战结束）",
+      "en": "Japanese withdraw to Nanchang (end of Shanggao battle)"
+    },
+    "date": "1941-04-09",
+    "location": {
+      "lng": 115.89,
+      "lat": 28.68,
+      "place": {
+        "zh": "江西南昌",
+        "en": "Nanchang, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "china-resistance",
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "上高会战后期日军退回南昌，中国军队收复上高、高安。",
+      "en": "At the end of the Shanggao battle the Japanese withdrew to Nanchang and the Chinese recovered Shanggao and Gao’an."
+    },
+    "description": {
+      "zh": "1941 年 3 月 15 日日军自南昌进攻上高，中国军队第 74 军等部诱敌深入、两翼反击，日军伤亡惨重，4 月 9 日退回南昌，中国军队收复上高、高安、奉新。",
+      "en": "On 15 March 1941 the Japanese attacked Shanggao from Nanchang; the Chinese 74th Corps and others drew them in and counter-attacked on both flanks, inflicting heavy losses; the Japanese withdrew to Nanchang on 9 April and the Chinese recovered Shanggao, Gao’an and Fengxin."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "上高会战"
+      },
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "第 33 师团上高作战"
+      }
+    ],
+    "relatedIds": [
+      "shanggao-1941-03"
+    ],
+    "importance": 2
+  },
+  {
     "id": "yangtaishan-base-1941-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -6818,6 +8742,52 @@
     "relatedIds": [
       "qiongya-base-1941-02",
       "qiongya-counter-1942-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "luoyang-1941",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "中条山突围部队退抵洛阳",
+      "en": "Zhongtiao breakout troops reach Luoyang"
+    },
+    "date": "1941-06-15",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "河南洛阳",
+        "en": "Luoyang, Henan"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "中条山战役后期，中国军队部分突围南渡黄河至洛阳、新安。",
+      "en": "In the later phase of the Zhongtiao battle part of the Chinese army crossed the Yellow River to Luoyang and Xin’an."
+    },
+    "description": {
+      "zh": "1941 年 5 月 7 日日军进攻中条山，中国军队损失惨重；6 月中旬部分部队突围，南渡黄河退抵洛阳、新安一带整补。",
+      "en": "On 7 May 1941 the Japanese attacked the Zhongtiao mountains and inflicted heavy losses; in mid-June part of the Chinese army broke out, crossed the Yellow River and reached Luoyang and Xin’an to refit."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "中条山战役"
+      },
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "第 1 军中条山作战"
+      }
+    ],
+    "relatedIds": [
+      "zhongtiaoshan-1941-05"
     ],
     "importance": 2
   },
@@ -7214,6 +9184,52 @@
     "importance": 2
   },
   {
+    "id": "dangyang-1941",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军自当阳增援宜昌",
+      "en": "Japanese reinforcement from Dangyang to Yichang"
+    },
+    "date": "1941-09-28",
+    "location": {
+      "lng": 111.79,
+      "lat": 30.82,
+      "place": {
+        "zh": "湖北当阳",
+        "en": "Dangyang, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军自当阳向宜昌增援，巩固宜昌防务。",
+      "en": "The Japanese moved from Dangyang to reinforce Yichang."
+    },
+    "description": {
+      "zh": "1941 年 9 月下旬中国军队反攻宜昌，日军自当阳、荆门方向增援，10 月中旬守住宜昌。当阳自 1940 年 6 月即为日军占领，是其鄂西据点。",
+      "en": "In late September 1941 the Chinese army counter-attacked Yichang and the Japanese reinforced from Dangyang and Jingmen, holding the city by mid-October. Dangyang had been occupied since June 1940 and was their base in western Hubei."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "1941 年反攻宜昌"
+      },
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "宜昌防守与增援"
+      }
+    ],
+    "relatedIds": [
+      "japanese-yichang-1941-09"
+    ],
+    "importance": 2
+  },
+  {
     "id": "japanese-zhengzhou-1941-10",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -7320,6 +9336,52 @@
     "relatedIds": [
       "japanese-zhengzhou-1941-10",
       "changsha-1941-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kaifeng-1941",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军自开封进攻郑州",
+      "en": "Japanese advance from Kaifeng on Zhengzhou"
+    },
+    "date": "1941-10-02",
+    "location": {
+      "lng": 114.31,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南开封",
+        "en": "Kaifeng, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军自开封、中牟一带进攻郑州。",
+      "en": "The Japanese attacked Zhengzhou from Kaifeng and Zhongmu."
+    },
+    "description": {
+      "zh": "1941 年 10 月 2 日日军第 35 师团自开封、中牟一带进攻郑州，10 月 4 日占郑州，中国军队反攻，11 月初日军撤回。",
+      "en": "On 2 October 1941 the Japanese 35th Division attacked Zhengzhou from the Kaifeng–Zhongmu area, taking the city on 4 October; the Chinese counter-attacked and the Japanese withdrew in early November."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "1941 年郑州作战"
+      },
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "第 35 师团进攻郑州"
+      }
+    ],
+    "relatedIds": [
+      "japanese-zhengzhou-1941-10"
     ],
     "importance": 2
   },
@@ -7481,6 +9543,52 @@
     ],
     "relatedIds": [
       "dongjiang-rescue-1941-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "shenzhen-1941",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军在深圳集结进攻香港",
+      "en": "Japanese muster at Shenzhen for the Hong Kong attack"
+    },
+    "date": "1941-12-08",
+    "location": {
+      "lng": 114.1,
+      "lat": 22.55,
+      "place": {
+        "zh": "广东深圳",
+        "en": "Shenzhen, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军第 38 师团在深圳集结，次日进攻香港。",
+      "en": "The Japanese 38th Division mustered at Shenzhen and attacked Hong Kong the next day."
+    },
+    "description": {
+      "zh": "1941 年 12 月 8 日，日军第 23 军第 38 师团在深圳集结并越过边境进攻香港，12 月 25 日港督杨慕琦投降。深圳自 1938 年 11 月起为日军控制的前沿。",
+      "en": "On 8 December 1941 the 38th Division of the Japanese 23rd Army mustered at Shenzhen and crossed the border into Hong Kong; Governor Mark Young surrendered on 25 December. Shenzhen had been a Japanese-controlled outpost since November 1938."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "香港战役",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "第 38 师团自深圳进攻"
+      },
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "香港沦陷"
+      }
+    ],
+    "relatedIds": [
+      "japanese-hongkong-1941-12"
     ],
     "importance": 2
   },
@@ -7928,6 +10036,52 @@
     "importance": 2
   },
   {
+    "id": "mandalay-1942",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军占领曼德勒",
+      "en": "Japanese capture of Mandalay"
+    },
+    "date": "1942-05-01",
+    "location": {
+      "lng": 96.08,
+      "lat": 21.98,
+      "place": {
+        "zh": "缅甸曼德勒",
+        "en": "Mandalay, Burma"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军第 15 军占领曼德勒，缅甸战役结束。",
+      "en": "The Japanese 15th Army took Mandalay, ending the Burma campaign."
+    },
+    "description": {
+      "zh": "1942 年 1 月日军第 15 军自泰国进攻缅甸，3 月 8 日占仰光，5 月 1 日占曼德勒，中国远征军与英军退往印度、云南，缅甸战役结束。",
+      "en": "In January 1942 the Japanese 15th Army invaded Burma from Thailand, took Rangoon on 8 March and Mandalay on 1 May; the Chinese expeditionary force and British withdrew to India and Yunnan, ending the campaign."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "缅甸战役",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "第 15 军进攻曼德勒"
+      },
+      {
+        "title": "中国远征军战史",
+        "author": "中国第二历史档案馆",
+        "note": "缅甸作战与撤退"
+      }
+    ],
+    "relatedIds": [
+      "japanese-burma-1942-01"
+    ],
+    "importance": 2
+  },
+  {
     "id": "japanese-jinhua-1942-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -8257,6 +10411,53 @@
     "importance": 2
   },
   {
+    "id": "hangzhou-1942",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军自杭州发动浙赣作战",
+      "en": "Japanese launch the Zhejiang–Jiangxi operation from Hangzhou"
+    },
+    "date": "1942-05-15",
+    "location": {
+      "lng": 120.15,
+      "lat": 30.27,
+      "place": {
+        "zh": "浙江杭州",
+        "en": "Hangzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军第 13 军自杭州西进，与南昌日军东西对进。",
+      "en": "The Japanese 13th Army moved west from Hangzhou to meet the Nanchang force."
+    },
+    "description": {
+      "zh": "1942 年 5 月 15 日日军第 13 军自杭州、萧山出动，沿浙赣路西进；南昌方面的日军同时东进，两路在横峰会合，7 月日军撤退，浙赣会战结束。杭州自 1937 年 12 月即为日军占领。",
+      "en": "On 15 May 1942 the Japanese 13th Army moved out of Hangzhou and Xiaoshan west along the Zhejiang–Jiangxi railway while the Nanchang force moved east; the columns met at Hengfeng, and the Japanese withdrew in July, ending the campaign. Hangzhou had been occupied since December 1937."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "第 13 军浙赣作战"
+      },
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "浙赣会战"
+      }
+    ],
+    "relatedIds": [
+      "japanese-jinhua-1942-05",
+      "japanese-zhegan-1942-05"
+    ],
+    "importance": 2
+  },
+  {
     "id": "shiziling-1942-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -8578,6 +10779,52 @@
     "importance": 2
   },
   {
+    "id": "anyang-1943",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军自安阳进攻太行山",
+      "en": "Japanese advance from Anyang into the Taihang mountains"
+    },
+    "date": "1943-04-20",
+    "location": {
+      "lng": 114.35,
+      "lat": 36.1,
+      "place": {
+        "zh": "河南安阳",
+        "en": "Anyang, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军自安阳、新乡出动，进攻太行山抗日根据地。",
+      "en": "The Japanese moved from Anyang and Xinxiang against the Taihang base area."
+    },
+    "description": {
+      "zh": "1943 年 4 月 20 日日军第 35 师团等自安阳、新乡出动，进攻太行山南部抗日根据地，5 月与八路军激战于林县一带。安阳自 1937 年 11 月即为日军占领。",
+      "en": "On 20 April 1943 the Japanese 35th Division and others moved from Anyang and Xinxiang against the southern Taihang base area, fighting the Eighth Route Army around Linxian in May. Anyang had been occupied since November 1937."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "1943 年太行作战"
+      },
+      {
+        "title": "八路军战史",
+        "author": "军事科学院",
+        "note": "太行山反“扫荡”"
+      }
+    ],
+    "relatedIds": [
+      "japanese-taihang-1943-04"
+    ],
+    "importance": 2
+  },
+  {
     "id": "dapeng-base-1943-05",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -8802,6 +11049,98 @@
     "relatedIds": [
       "exi-1943-05",
       "japanese-exi-1943-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jingzhou-1943",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军自荆州进攻鄂西",
+      "en": "Japanese advance from Jingzhou into western Hubei"
+    },
+    "date": "1943-05-05",
+    "location": {
+      "lng": 112.24,
+      "lat": 30.33,
+      "place": {
+        "zh": "湖北荆州",
+        "en": "Jingzhou, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军自荆州、石首一带南渡，进攻鄂西。",
+      "en": "The Japanese crossed south from Jingzhou and Shishou against western Hubei."
+    },
+    "description": {
+      "zh": "1943 年 5 月 5 日日军第 11 军自荆州、石首一带渡江南犯，鄂西会战爆发；中国军队在石牌、渔洋关一线阻击，6 月日军退回原防。荆州自 1940 年 6 月即为日军占领。",
+      "en": "On 5 May 1943 the Japanese 11th Army crossed the Yangtze from the Jingzhou–Shishou area, opening the western Hubei battle; the Chinese army held at Shipai and Yuyangguan, and the Japanese withdrew in June. Jingzhou had been occupied since June 1940."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "第 11 军鄂西作战"
+      },
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "鄂西会战"
+      }
+    ],
+    "relatedIds": [
+      "japanese-exi-1943-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "enshi-1943",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "第六战区自恩施增援鄂西",
+      "en": "6th War Area reinforces western Hubei from Enshi"
+    },
+    "date": "1943-05-05",
+    "location": {
+      "lng": 109.49,
+      "lat": 30.27,
+      "place": {
+        "zh": "湖北恩施",
+        "en": "Enshi, Hubei"
+      }
+    },
+    "entityIds": [
+      "china-resistance"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "第六战区长官部自恩施调兵增援鄂西，在石牌一线阻击日军。",
+      "en": "The 6th War Area headquarters moved troops from Enshi to hold the Shipai line in western Hubei."
+    },
+    "description": {
+      "zh": "1943 年 5 月 5 日日军自荆州、石首南犯鄂西，第六战区司令长官陈诚自恩施调兵增援，在石牌、渔洋关一线阻击，6 月日军退回原防。",
+      "en": "On 5 May 1943 the Japanese moved south from Jingzhou and Shishou into western Hubei; Chen Cheng’s 6th War Area moved troops from Enshi to hold the Shipai and Yuyangguan line, and the Japanese withdrew in June."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "鄂西会战"
+      },
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "第 11 军鄂西作战"
+      }
+    ],
+    "relatedIds": [
+      "exi-1943-05"
     ],
     "importance": 2
   },
@@ -9303,6 +11642,52 @@
       "japanese-changde-1943-11"
     ],
     "importance": 3
+  },
+  {
+    "id": "gongan-1943",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军自公安进攻常德",
+      "en": "Japanese advance from Gong’an on Changde"
+    },
+    "date": "1943-11-02",
+    "location": {
+      "lng": 112.23,
+      "lat": 30.06,
+      "place": {
+        "zh": "湖北公安",
+        "en": "Gong’an, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军自公安、石首南下，进攻常德。",
+      "en": "The Japanese moved south from Gong’an and Shishou against Changde."
+    },
+    "description": {
+      "zh": "1943 年 11 月 2 日日军第 11 军自公安、石首一带南下，常德会战爆发；日军 12 月 3 日攻入常德，中国军队反攻，12 月下旬日军退回原防。",
+      "en": "On 2 November 1943 the Japanese 11th Army moved south from the Gong’an–Shishou area, opening the Changde battle; the city fell on 3 December but the Chinese counter-attacked and the Japanese withdrew in late December."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "第 11 军常德作战"
+      },
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "常德会战"
+      }
+    ],
+    "relatedIds": [
+      "japanese-changde-1943-11"
+    ],
+    "importance": 2
   },
   {
     "id": "cairo-conference-1943-11",
@@ -10137,6 +12522,55 @@
       "japanese-dianxi-1944-05"
     ],
     "importance": 3
+  },
+  {
+    "id": "baoshan-1944",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "远征军自保山强渡怒江",
+      "en": "Expeditionary force crosses the Salween from Baoshan"
+    },
+    "date": "1944-05-11",
+    "location": {
+      "lng": 99.17,
+      "lat": 25.12,
+      "place": {
+        "zh": "云南保山",
+        "en": "Baoshan, Yunnan"
+      }
+    },
+    "entityIds": [
+      "china-resistance",
+      "allied-forces",
+      "kmt-forces"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "中国远征军自保山强渡怒江，滇西反攻开始。",
+      "en": "The Chinese expeditionary force crossed the Salween from Baoshan, opening the western Yunnan counter-offensive."
+    },
+    "description": {
+      "zh": "1944 年 5 月 11 日中国远征军自保山地区强渡怒江，分路进攻腾冲、龙陵、松山；至 1945 年 1 月 27 日攻克畹町，与驻印军在芒友会师。保山为远征军集结与补给基地。",
+      "en": "On 11 May 1944 the Chinese expeditionary force crossed the Salween from the Baoshan area and attacked Tengchong, Longling and Songshan; Wanding fell on 27 January 1945 and the force linked with the India-based army at Mangyou. Baoshan was the staging and supply base."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "滇西反攻"
+      },
+      {
+        "title": "中国远征军战史",
+        "author": "中国第二历史档案馆",
+        "note": "强渡怒江与松山、龙陵作战"
+      }
+    ],
+    "relatedIds": [
+      "dianxi-1944-05",
+      "songshan-1944-06"
+    ],
+    "importance": 2
   },
   {
     "id": "kmt-36th-group-army-yuzhong-1944-05",
@@ -11463,6 +13897,53 @@
     "importance": 2
   },
   {
+    "id": "wanding-1945",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "中国军队攻克畹町",
+      "en": "Chinese forces take Wanding"
+    },
+    "date": "1945-01-27",
+    "location": {
+      "lng": 98.07,
+      "lat": 24.08,
+      "place": {
+        "zh": "云南畹町",
+        "en": "Wanding, Yunnan"
+      }
+    },
+    "entityIds": [
+      "china-resistance",
+      "allied-forces"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "远征军攻克畹町，与驻印军在芒友会师，滇西反攻结束。",
+      "en": "The expeditionary force took Wanding and linked with the India-based army at Mangyou, ending the western Yunnan counter-offensive."
+    },
+    "description": {
+      "zh": "1945 年 1 月 27 日中国远征军攻克中缅边境的畹町，与从印度东进的驻印军在芒友会师，中印公路全线打通，滇西反攻结束。",
+      "en": "On 27 January 1945 the Chinese expeditionary force took Wanding on the China–Burma border and linked with the India-based army advancing from India at Mangyou, opening the Ledo road and ending the western Yunnan counter-offensive."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "畹町攻克与芒友会师"
+      },
+      {
+        "title": "中国远征军战史",
+        "author": "中国第二历史档案馆",
+        "note": "滇西反攻结束"
+      }
+    ],
+    "relatedIds": [
+      "dianxi-1944-05"
+    ],
+    "importance": 2
+  },
+  {
     "id": "haifeng-lufeng-base-1945-03",
     "atlasId": "anti-japanese-war",
     "name": {
@@ -11900,6 +14381,52 @@
       "japan-surrender-1945-08"
     ],
     "importance": 1
+  },
+  {
+    "id": "shaoyang-1945",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军自邵阳进攻湘西",
+      "en": "Japanese advance from Shaoyang into western Hunan"
+    },
+    "date": "1945-04-09",
+    "location": {
+      "lng": 111.47,
+      "lat": 27.24,
+      "place": {
+        "zh": "湖南邵阳",
+        "en": "Shaoyang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "日军自邵阳、东安出动，进攻芷江机场。",
+      "en": "The Japanese moved from Shaoyang and Dong’an against the Zhijiang airfield."
+    },
+    "description": {
+      "zh": "1945 年 4 月 9 日日军第 20 军自邵阳、东安出动，进攻芷江机场，湘西会战爆发；中国军队在雪峰山一线阻击并反攻，6 月日军退回原防。邵阳自 1944 年 9 月即为日军占领。",
+      "en": "On 9 April 1945 the Japanese 20th Army moved from Shaoyang and Dong’an against the Zhijiang airfield, opening the western Hunan battle; the Chinese army held and counter-attacked along the Xuefeng mountains, and the Japanese withdrew in June. Shaoyang had been occupied since September 1944."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国事变陆军作战史",
+        "author": "日本防卫厅防卫研修所战史室",
+        "note": "第 20 军芷江作战"
+      },
+      {
+        "title": "抗日战争正面战场",
+        "author": "中国第二历史档案馆",
+        "note": "湘西会战"
+      }
+    ],
+    "relatedIds": [
+      "xiangxi-1945-04"
+    ],
+    "importance": 2
   },
   {
     "id": "guilin-counteroffensive-1945-05",
@@ -12440,1209 +14967,5 @@
     "extensions": {
       "routeEvent": false
     }
-  },
-  {
-    "id": "heze-1938",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军占领菏泽",
-      "en": "Japanese capture of Heze"
-    },
-    "date": "1938-05-14",
-    "location": {
-      "lng": 115.48,
-      "lat": 35.23,
-      "place": {
-        "zh": "山东菏泽",
-        "en": "Heze, Shandong"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军第 14 师团渡黄河南下占领菏泽。",
-      "en": "The Japanese 14th Division crossed the Yellow River and took Heze."
-    },
-    "description": {
-      "zh": "1938 年 5 月，日军第 14 师团（土肥原贤二）自濮阳渡黄河南下，5 月 14 日占领菏泽，随后向兰封、开封推进，引发兰封会战。",
-      "en": "In May 1938 the Japanese 14th Division under Tsuchihashi (Dohihara’s 14th) crossed the Yellow River at Puyang and took Heze on 14 May, then pushed towards Lanfeng and Kaifeng, bringing on the Lanfeng battle."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "第 14 师团渡河与菏泽战斗"
-      },
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "兰封会战经过"
-      }
-    ],
-    "relatedIds": [
-      "lanfeng-1938-05"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "kaifeng-1938",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军占领开封",
-      "en": "Japanese capture of Kaifeng"
-    },
-    "date": "1938-06-06",
-    "location": {
-      "lng": 114.31,
-      "lat": 34.8,
-      "place": {
-        "zh": "河南开封",
-        "en": "Kaifeng, Henan"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "兰封会战后期日军占领开封。",
-      "en": "The Japanese took Kaifeng in the later phase of the Lanfeng battle."
-    },
-    "description": {
-      "zh": "兰封会战后期，中国军队围攻土肥原第 14 师团未果，日军增援抵达，6 月 6 日占领开封，中国军队退守郑州以东，随后有花园口决堤。",
-      "en": "In the later phase of the Lanfeng battle the Chinese army failed to destroy Dohihara’s 14th Division; Japanese reinforcements arrived and took Kaifeng on 6 June, the Chinese withdrawing east of Zhengzhou before the Huayuankou breach."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "兰封会战与开封失守"
-      },
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "第 14 师团突围"
-      }
-    ],
-    "relatedIds": [
-      "lanfeng-1938-05"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "shangcheng-1938",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军占领商城",
-      "en": "Japanese capture of Shangcheng"
-    },
-    "date": "1938-09-16",
-    "location": {
-      "lng": 115.41,
-      "lat": 31.8,
-      "place": {
-        "zh": "河南商城",
-        "en": "Shangcheng, Henan"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军第 2 军自六安西进占领商城。",
-      "en": "The Japanese 2nd Army advanced west from Lu’an and took Shangcheng."
-    },
-    "description": {
-      "zh": "1938 年 8 月底日军第 2 军自合肥、六安西进，沿大别山北麓进攻商城、潢川，9 月 16 日占领商城，随后转攻潢川、罗山，配合武汉会战。",
-      "en": "In late August 1938 the Japanese 2nd Army advanced west from Hefei and Lu’an along the northern foot of the Dabie mountains against Shangcheng and Huangchuan, taking Shangcheng on 16 September and then turning on Huangchuan and Luoshan in support of the Wuhan campaign."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "第 2 军大别山北麓作战"
-      },
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "武汉会战大别山方向"
-      }
-    ],
-    "relatedIds": [
-      "japanese-dabie-1938-08"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "shaoguan-1940",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军攻韶关未克撤回",
-      "en": "Japanese drive on Shaoguan fails"
-    },
-    "date": "1940-01-16",
-    "location": {
-      "lng": 113.6,
-      "lat": 24.8,
-      "place": {
-        "zh": "广东韶关",
-        "en": "Shaoguan, Guangdong"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "第一次粤北会战，日军攻至韶关外围后撤回广州。",
-      "en": "In the first northern Guangdong battle the Japanese reached the outskirts of Shaoguan and withdrew."
-    },
-    "description": {
-      "zh": "1939 年 12 月日军第 18 师团等自广州北犯，第一次粤北会战爆发；中国军队逐次抵抗并反攻，日军攻至韶关外围后于 1940 年 1 月中旬撤回广州。韶关为战时广东省会，始终未陷。",
-      "en": "In December 1939 the Japanese 18th Division and others moved north from Guangzhou, opening the first northern Guangdong battle; the Chinese army resisted and counter-attacked, and the Japanese, having reached the outskirts of Shaoguan, withdrew to Guangzhou in mid-January 1940. Shaoguan, the wartime provincial capital, never fell."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "第一次粤北会战"
-      },
-      {
-        "title": "粤北会战",
-        "author": "广东省档案馆",
-        "note": "日军攻韶关未克"
-      }
-    ],
-    "relatedIds": [
-      "japanese-yuebei-1939-12"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "wuhu-1939",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军自芜湖进攻铜陵",
-      "en": "Japanese advance from Wuhu on Tongling"
-    },
-    "date": "1939-12-16",
-    "location": {
-      "lng": 118.38,
-      "lat": 31.33,
-      "place": {
-        "zh": "安徽芜湖",
-        "en": "Wuhu, Anhui"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军自芜湖出动，进攻铜陵一带。",
-      "en": "The Japanese moved out of Wuhu against Tongling."
-    },
-    "description": {
-      "zh": "1939 年 12 月，日军自芜湖出动，沿长江南岸进攻铜陵、青阳一带，中国军队在铜陵附近阻击。芜湖自 1937 年 12 月即为日军占领，为其沿江据点。",
-      "en": "In December 1939 the Japanese moved out of Wuhu along the south bank of the Yangtze against Tongling and Qingyang, where the Chinese army resisted. Wuhu had been occupied since December 1937 and served as their river base."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "芜湖—铜陵作战"
-      },
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "1939 年冬皖南作战"
-      }
-    ],
-    "relatedIds": [
-      "japanese-tongling-1939-12"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "guisui-1939",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军自归绥进攻包头",
-      "en": "Japanese advance from Guisui on Baotou"
-    },
-    "date": "1939-12-19",
-    "location": {
-      "lng": 111.75,
-      "lat": 40.84,
-      "place": {
-        "zh": "绥远归绥（今呼和浩特）",
-        "en": "Guisui (Hohhot), Suiyuan"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军自归绥西进，攻占包头。",
-      "en": "The Japanese moved west from Guisui and took Baotou."
-    },
-    "description": {
-      "zh": "1939 年 12 月 19 日日军驻蒙军自归绥西进，攻占包头；1940 年 3 月中国军队反攻，一度收复包头、五原。归绥自 1937 年 10 月即为日军占领。",
-      "en": "On 19 December 1939 the Japanese garrison army in Mongolia moved west from Guisui and took Baotou; in March 1940 the Chinese army counter-attacked and briefly recovered Baotou and Wuyuan. Guisui had been occupied since October 1937."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "驻蒙军进攻包头"
-      },
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "绥西作战"
-      }
-    ],
-    "relatedIds": [
-      "japanese-baotou-1939-12"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "wuyang-1941",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军攻占舞阳",
-      "en": "Japanese capture of Wuyang"
-    },
-    "date": "1941-02-05",
-    "location": {
-      "lng": 113.6,
-      "lat": 33.44,
-      "place": {
-        "zh": "河南舞阳",
-        "en": "Wuyang, Henan"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "豫南会战，日军攻至舞阳后撤回信阳。",
-      "en": "In the southern Henan battle the Japanese reached Wuyang and withdrew to Xinyang."
-    },
-    "description": {
-      "zh": "1941 年 1 月 25 日日军第 11 军自信阳北犯，豫南会战爆发；日军攻至舞阳、方城一带，中国军队避免决战、侧击其后，日军于 2 月 11 日撤回信阳。",
-      "en": "On 25 January 1941 the Japanese 11th Army moved north from Xinyang, opening the southern Henan battle; it reached Wuyang and Fangcheng, but the Chinese army avoided a decisive battle and struck its rear, so the Japanese withdrew to Xinyang on 11 February."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "豫南会战"
-      },
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "第 11 军豫南作战"
-      }
-    ],
-    "relatedIds": [
-      "japanese-yunan-1941-01"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "dangyang-1941",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军自当阳增援宜昌",
-      "en": "Japanese reinforcement from Dangyang to Yichang"
-    },
-    "date": "1941-09-28",
-    "location": {
-      "lng": 111.79,
-      "lat": 30.82,
-      "place": {
-        "zh": "湖北当阳",
-        "en": "Dangyang, Hubei"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军自当阳向宜昌增援，巩固宜昌防务。",
-      "en": "The Japanese moved from Dangyang to reinforce Yichang."
-    },
-    "description": {
-      "zh": "1941 年 9 月下旬中国军队反攻宜昌，日军自当阳、荆门方向增援，10 月中旬守住宜昌。当阳自 1940 年 6 月即为日军占领，是其鄂西据点。",
-      "en": "In late September 1941 the Chinese army counter-attacked Yichang and the Japanese reinforced from Dangyang and Jingmen, holding the city by mid-October. Dangyang had been occupied since June 1940 and was their base in western Hubei."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "1941 年反攻宜昌"
-      },
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "宜昌防守与增援"
-      }
-    ],
-    "relatedIds": [
-      "japanese-yichang-1941-09"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "kaifeng-1941",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军自开封进攻郑州",
-      "en": "Japanese advance from Kaifeng on Zhengzhou"
-    },
-    "date": "1941-10-02",
-    "location": {
-      "lng": 114.31,
-      "lat": 34.8,
-      "place": {
-        "zh": "河南开封",
-        "en": "Kaifeng, Henan"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军自开封、中牟一带进攻郑州。",
-      "en": "The Japanese attacked Zhengzhou from Kaifeng and Zhongmu."
-    },
-    "description": {
-      "zh": "1941 年 10 月 2 日日军第 35 师团自开封、中牟一带进攻郑州，10 月 4 日占郑州，中国军队反攻，11 月初日军撤回。",
-      "en": "On 2 October 1941 the Japanese 35th Division attacked Zhengzhou from the Kaifeng–Zhongmu area, taking the city on 4 October; the Chinese counter-attacked and the Japanese withdrew in early November."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "1941 年郑州作战"
-      },
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "第 35 师团进攻郑州"
-      }
-    ],
-    "relatedIds": [
-      "japanese-zhengzhou-1941-10"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "shenzhen-1941",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军在深圳集结进攻香港",
-      "en": "Japanese muster at Shenzhen for the Hong Kong attack"
-    },
-    "date": "1941-12-08",
-    "location": {
-      "lng": 114.1,
-      "lat": 22.55,
-      "place": {
-        "zh": "广东深圳",
-        "en": "Shenzhen, Guangdong"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军第 38 师团在深圳集结，次日进攻香港。",
-      "en": "The Japanese 38th Division mustered at Shenzhen and attacked Hong Kong the next day."
-    },
-    "description": {
-      "zh": "1941 年 12 月 8 日，日军第 23 军第 38 师团在深圳集结并越过边境进攻香港，12 月 25 日港督杨慕琦投降。深圳自 1938 年 11 月起为日军控制的前沿。",
-      "en": "On 8 December 1941 the 38th Division of the Japanese 23rd Army mustered at Shenzhen and crossed the border into Hong Kong; Governor Mark Young surrendered on 25 December. Shenzhen had been a Japanese-controlled outpost since November 1938."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "香港战役",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "第 38 师团自深圳进攻"
-      },
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "香港沦陷"
-      }
-    ],
-    "relatedIds": [
-      "japanese-hongkong-1941-12"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "mandalay-1942",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军占领曼德勒",
-      "en": "Japanese capture of Mandalay"
-    },
-    "date": "1942-05-01",
-    "location": {
-      "lng": 96.08,
-      "lat": 21.98,
-      "place": {
-        "zh": "缅甸曼德勒",
-        "en": "Mandalay, Burma"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军第 15 军占领曼德勒，缅甸战役结束。",
-      "en": "The Japanese 15th Army took Mandalay, ending the Burma campaign."
-    },
-    "description": {
-      "zh": "1942 年 1 月日军第 15 军自泰国进攻缅甸，3 月 8 日占仰光，5 月 1 日占曼德勒，中国远征军与英军退往印度、云南，缅甸战役结束。",
-      "en": "In January 1942 the Japanese 15th Army invaded Burma from Thailand, took Rangoon on 8 March and Mandalay on 1 May; the Chinese expeditionary force and British withdrew to India and Yunnan, ending the campaign."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "缅甸战役",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "第 15 军进攻曼德勒"
-      },
-      {
-        "title": "中国远征军战史",
-        "author": "中国第二历史档案馆",
-        "note": "缅甸作战与撤退"
-      }
-    ],
-    "relatedIds": [
-      "japanese-burma-1942-01"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "hangzhou-1942",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军自杭州发动浙赣作战",
-      "en": "Japanese launch the Zhejiang–Jiangxi operation from Hangzhou"
-    },
-    "date": "1942-05-15",
-    "location": {
-      "lng": 120.15,
-      "lat": 30.27,
-      "place": {
-        "zh": "浙江杭州",
-        "en": "Hangzhou, Zhejiang"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军第 13 军自杭州西进，与南昌日军东西对进。",
-      "en": "The Japanese 13th Army moved west from Hangzhou to meet the Nanchang force."
-    },
-    "description": {
-      "zh": "1942 年 5 月 15 日日军第 13 军自杭州、萧山出动，沿浙赣路西进；南昌方面的日军同时东进，两路在横峰会合，7 月日军撤退，浙赣会战结束。杭州自 1937 年 12 月即为日军占领。",
-      "en": "On 15 May 1942 the Japanese 13th Army moved out of Hangzhou and Xiaoshan west along the Zhejiang–Jiangxi railway while the Nanchang force moved east; the columns met at Hengfeng, and the Japanese withdrew in July, ending the campaign. Hangzhou had been occupied since December 1937."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "第 13 军浙赣作战"
-      },
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "浙赣会战"
-      }
-    ],
-    "relatedIds": [
-      "japanese-jinhua-1942-05",
-      "japanese-zhegan-1942-05"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "anyang-1943",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军自安阳进攻太行山",
-      "en": "Japanese advance from Anyang into the Taihang mountains"
-    },
-    "date": "1943-04-20",
-    "location": {
-      "lng": 114.35,
-      "lat": 36.1,
-      "place": {
-        "zh": "河南安阳",
-        "en": "Anyang, Henan"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军自安阳、新乡出动，进攻太行山抗日根据地。",
-      "en": "The Japanese moved from Anyang and Xinxiang against the Taihang base area."
-    },
-    "description": {
-      "zh": "1943 年 4 月 20 日日军第 35 师团等自安阳、新乡出动，进攻太行山南部抗日根据地，5 月与八路军激战于林县一带。安阳自 1937 年 11 月即为日军占领。",
-      "en": "On 20 April 1943 the Japanese 35th Division and others moved from Anyang and Xinxiang against the southern Taihang base area, fighting the Eighth Route Army around Linxian in May. Anyang had been occupied since November 1937."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "1943 年太行作战"
-      },
-      {
-        "title": "八路军战史",
-        "author": "军事科学院",
-        "note": "太行山反“扫荡”"
-      }
-    ],
-    "relatedIds": [
-      "japanese-taihang-1943-04"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "jingzhou-1943",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军自荆州进攻鄂西",
-      "en": "Japanese advance from Jingzhou into western Hubei"
-    },
-    "date": "1943-05-05",
-    "location": {
-      "lng": 112.24,
-      "lat": 30.33,
-      "place": {
-        "zh": "湖北荆州",
-        "en": "Jingzhou, Hubei"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军自荆州、石首一带南渡，进攻鄂西。",
-      "en": "The Japanese crossed south from Jingzhou and Shishou against western Hubei."
-    },
-    "description": {
-      "zh": "1943 年 5 月 5 日日军第 11 军自荆州、石首一带渡江南犯，鄂西会战爆发；中国军队在石牌、渔洋关一线阻击，6 月日军退回原防。荆州自 1940 年 6 月即为日军占领。",
-      "en": "On 5 May 1943 the Japanese 11th Army crossed the Yangtze from the Jingzhou–Shishou area, opening the western Hubei battle; the Chinese army held at Shipai and Yuyangguan, and the Japanese withdrew in June. Jingzhou had been occupied since June 1940."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "第 11 军鄂西作战"
-      },
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "鄂西会战"
-      }
-    ],
-    "relatedIds": [
-      "japanese-exi-1943-05"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "gongan-1943",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军自公安进攻常德",
-      "en": "Japanese advance from Gong’an on Changde"
-    },
-    "date": "1943-11-02",
-    "location": {
-      "lng": 112.23,
-      "lat": 30.06,
-      "place": {
-        "zh": "湖北公安",
-        "en": "Gong’an, Hubei"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军自公安、石首南下，进攻常德。",
-      "en": "The Japanese moved south from Gong’an and Shishou against Changde."
-    },
-    "description": {
-      "zh": "1943 年 11 月 2 日日军第 11 军自公安、石首一带南下，常德会战爆发；日军 12 月 3 日攻入常德，中国军队反攻，12 月下旬日军退回原防。",
-      "en": "On 2 November 1943 the Japanese 11th Army moved south from the Gong’an–Shishou area, opening the Changde battle; the city fell on 3 December but the Chinese counter-attacked and the Japanese withdrew in late December."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "第 11 军常德作战"
-      },
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "常德会战"
-      }
-    ],
-    "relatedIds": [
-      "japanese-changde-1943-11"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "shaoyang-1945",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军自邵阳进攻湘西",
-      "en": "Japanese advance from Shaoyang into western Hunan"
-    },
-    "date": "1945-04-09",
-    "location": {
-      "lng": 111.47,
-      "lat": 27.24,
-      "place": {
-        "zh": "湖南邵阳",
-        "en": "Shaoyang, Hunan"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军自邵阳、东安出动，进攻芷江机场。",
-      "en": "The Japanese moved from Shaoyang and Dong’an against the Zhijiang airfield."
-    },
-    "description": {
-      "zh": "1945 年 4 月 9 日日军第 20 军自邵阳、东安出动，进攻芷江机场，湘西会战爆发；中国军队在雪峰山一线阻击并反攻，6 月日军退回原防。邵阳自 1944 年 9 月即为日军占领。",
-      "en": "On 9 April 1945 the Japanese 20th Army moved from Shaoyang and Dong’an against the Zhijiang airfield, opening the western Hunan battle; the Chinese army held and counter-attacked along the Xuefeng mountains, and the Japanese withdrew in June. Shaoyang had been occupied since September 1944."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "第 20 军芷江作战"
-      },
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "湘西会战"
-      }
-    ],
-    "relatedIds": [
-      "xiangxi-1945-04"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "lingqiu-1937",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军占领灵丘",
-      "en": "Japanese capture of Lingqiu"
-    },
-    "date": "1937-09-20",
-    "location": {
-      "lng": 114.24,
-      "lat": 39.44,
-      "place": {
-        "zh": "山西灵丘县城",
-        "en": "Lingqiu county town, Shanxi"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军第 5 师团占领灵丘，随即南下进攻平型关。",
-      "en": "The Japanese 5th Division took Lingqiu and moved south against Pingxingguan."
-    },
-    "description": {
-      "zh": "1937 年 9 月 20 日日军第 5 师团占领灵丘县城，随后沿灵丘—平型关大道南下；9 月 25 日八路军第 115 师在乔沟伏击其辎重部队，平型关战斗爆发。",
-      "en": "On 20 September 1937 the Japanese 5th Division took Lingqiu county town and moved south along the Lingqiu–Pingxingguan road; on 25 September the 115th Division ambushed its supply column at Qiaogou."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "第 5 师团进攻平型关"
-      },
-      {
-        "title": "八路军战史",
-        "author": "军事科学院",
-        "note": "平型关战斗"
-      }
-    ],
-    "relatedIds": [
-      "japanese-pingxingguan-1937-09",
-      "pingxingguan-1937-09"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "datong-1937",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军占领大同",
-      "en": "Japanese capture of Datong"
-    },
-    "date": "1937-09-13",
-    "location": {
-      "lng": 113.3,
-      "lat": 40.08,
-      "place": {
-        "zh": "山西大同",
-        "en": "Datong, Shanxi"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军关东军察哈尔派遣兵团占领大同，随后沿同蒲路南下。",
-      "en": "The Japanese Kwantung Army’s Chahar expeditionary force took Datong and moved south along the Tongpu railway."
-    },
-    "description": {
-      "zh": "1937 年 9 月 13 日日军关东军察哈尔派遣兵团占领大同，晋北门户洞开；日军随后沿同蒲路南下，10 月 13 日猛攻忻口。",
-      "en": "On 13 September 1937 the Kwantung Army’s Chahar force took Datong, opening northern Shanxi; the Japanese then moved south along the Tongpu railway and attacked Xinkou on 13 October."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "察哈尔作战与大同陷落"
-      },
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "晋北作战"
-      }
-    ],
-    "relatedIds": [
-      "japanese-xinkou-1937-10",
-      "xinkou-1937-10"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "qingdao-1938",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军登陆青岛",
-      "en": "Japanese landing at Qingdao"
-    },
-    "date": "1938-01-10",
-    "location": {
-      "lng": 120.38,
-      "lat": 36.07,
-      "place": {
-        "zh": "山东青岛",
-        "en": "Qingdao, Shandong"
-      }
-    },
-    "entityIds": [
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "日军在青岛登陆，随后沿胶济路西进。",
-      "en": "The Japanese landed at Qingdao and moved west along the Jiaoji railway."
-    },
-    "description": {
-      "zh": "1938 年 1 月 10 日日军海军陆战队在青岛登陆，中国守军已撤离，日军随即沿胶济路西进，为进攻临沂、徐州做准备。",
-      "en": "On 10 January 1938 Japanese marines landed at Qingdao, the Chinese garrison having withdrawn; the Japanese then moved west along the Jiaoji railway in preparation for the attacks on Linyi and Xuzhou."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "青岛登陆"
-      },
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "鲁南作战"
-      }
-    ],
-    "relatedIds": [
-      "japanese-linyi-1938-03"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "liuzhou-1939",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "第 5 军自柳州反攻昆仑关",
-      "en": "5th Corps counter-attacks Kunlun Pass from Liuzhou"
-    },
-    "date": "1939-12-18",
-    "location": {
-      "lng": 109.41,
-      "lat": 24.33,
-      "place": {
-        "zh": "广西柳州",
-        "en": "Liuzhou, Guangxi"
-      }
-    },
-    "entityIds": [
-      "china-resistance"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "桂林行营调第 5 军自柳州北上，反攻昆仑关。",
-      "en": "The Guilin headquarters sent the 5th Corps north from Liuzhou against Kunlun Pass."
-    },
-    "description": {
-      "zh": "1939 年 12 月 18 日，桂林行营主任白崇禧调第 5 军（军长杜聿明）自柳州北上，反攻昆仑关；1940 年 1 月 11 日克复昆仑关，日军第 5 师团第 21 旅团遭重创。",
-      "en": "On 18 December 1939 Bai Chongxi’s Guilin headquarters sent the 5th Corps under Du Yuming north from Liuzhou against Kunlun Pass; the pass was retaken on 11 January 1940, badly mauling the Japanese 21st Brigade of the 5th Division."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "桂南会战与昆仑关战役"
-      },
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "第 5 师团昆仑关作战"
-      }
-    ],
-    "relatedIds": [
-      "kunlun-1939-12"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "nanchang-1941",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "日军退回南昌（上高会战结束）",
-      "en": "Japanese withdraw to Nanchang (end of Shanggao battle)"
-    },
-    "date": "1941-04-09",
-    "location": {
-      "lng": 115.89,
-      "lat": 28.68,
-      "place": {
-        "zh": "江西南昌",
-        "en": "Nanchang, Jiangxi"
-      }
-    },
-    "entityIds": [
-      "china-resistance",
-      "japanese-invasion"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "上高会战后期日军退回南昌，中国军队收复上高、高安。",
-      "en": "At the end of the Shanggao battle the Japanese withdrew to Nanchang and the Chinese recovered Shanggao and Gao’an."
-    },
-    "description": {
-      "zh": "1941 年 3 月 15 日日军自南昌进攻上高，中国军队第 74 军等部诱敌深入、两翼反击，日军伤亡惨重，4 月 9 日退回南昌，中国军队收复上高、高安、奉新。",
-      "en": "On 15 March 1941 the Japanese attacked Shanggao from Nanchang; the Chinese 74th Corps and others drew them in and counter-attacked on both flanks, inflicting heavy losses; the Japanese withdrew to Nanchang on 9 April and the Chinese recovered Shanggao, Gao’an and Fengxin."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "上高会战"
-      },
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "第 33 师团上高作战"
-      }
-    ],
-    "relatedIds": [
-      "shanggao-1941-03"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "luoyang-1941",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "中条山突围部队退抵洛阳",
-      "en": "Zhongtiao breakout troops reach Luoyang"
-    },
-    "date": "1941-06-15",
-    "location": {
-      "lng": 112.45,
-      "lat": 34.62,
-      "place": {
-        "zh": "河南洛阳",
-        "en": "Luoyang, Henan"
-      }
-    },
-    "entityIds": [
-      "china-resistance"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "中条山战役后期，中国军队部分突围南渡黄河至洛阳、新安。",
-      "en": "In the later phase of the Zhongtiao battle part of the Chinese army crossed the Yellow River to Luoyang and Xin’an."
-    },
-    "description": {
-      "zh": "1941 年 5 月 7 日日军进攻中条山，中国军队损失惨重；6 月中旬部分部队突围，南渡黄河退抵洛阳、新安一带整补。",
-      "en": "On 7 May 1941 the Japanese attacked the Zhongtiao mountains and inflicted heavy losses; in mid-June part of the Chinese army broke out, crossed the Yellow River and reached Luoyang and Xin’an to refit."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "中条山战役"
-      },
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "第 1 军中条山作战"
-      }
-    ],
-    "relatedIds": [
-      "zhongtiaoshan-1941-05"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "enshi-1943",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "第六战区自恩施增援鄂西",
-      "en": "6th War Area reinforces western Hubei from Enshi"
-    },
-    "date": "1943-05-05",
-    "location": {
-      "lng": 109.49,
-      "lat": 30.27,
-      "place": {
-        "zh": "湖北恩施",
-        "en": "Enshi, Hubei"
-      }
-    },
-    "entityIds": [
-      "china-resistance"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "第六战区长官部自恩施调兵增援鄂西，在石牌一线阻击日军。",
-      "en": "The 6th War Area headquarters moved troops from Enshi to hold the Shipai line in western Hubei."
-    },
-    "description": {
-      "zh": "1943 年 5 月 5 日日军自荆州、石首南犯鄂西，第六战区司令长官陈诚自恩施调兵增援，在石牌、渔洋关一线阻击，6 月日军退回原防。",
-      "en": "On 5 May 1943 the Japanese moved south from Jingzhou and Shishou into western Hubei; Chen Cheng’s 6th War Area moved troops from Enshi to hold the Shipai and Yuyangguan line, and the Japanese withdrew in June."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "鄂西会战"
-      },
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "第 11 军鄂西作战"
-      }
-    ],
-    "relatedIds": [
-      "exi-1943-05"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "baoshan-1944",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "远征军自保山强渡怒江",
-      "en": "Expeditionary force crosses the Salween from Baoshan"
-    },
-    "date": "1944-05-11",
-    "location": {
-      "lng": 99.17,
-      "lat": 25.12,
-      "place": {
-        "zh": "云南保山",
-        "en": "Baoshan, Yunnan"
-      }
-    },
-    "entityIds": [
-      "china-resistance",
-      "allied-forces",
-      "kmt-forces"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "中国远征军自保山强渡怒江，滇西反攻开始。",
-      "en": "The Chinese expeditionary force crossed the Salween from Baoshan, opening the western Yunnan counter-offensive."
-    },
-    "description": {
-      "zh": "1944 年 5 月 11 日中国远征军自保山地区强渡怒江，分路进攻腾冲、龙陵、松山；至 1945 年 1 月 27 日攻克畹町，与驻印军在芒友会师。保山为远征军集结与补给基地。",
-      "en": "On 11 May 1944 the Chinese expeditionary force crossed the Salween from the Baoshan area and attacked Tengchong, Longling and Songshan; Wanding fell on 27 January 1945 and the force linked with the India-based army at Mangyou. Baoshan was the staging and supply base."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "滇西反攻"
-      },
-      {
-        "title": "中国远征军战史",
-        "author": "中国第二历史档案馆",
-        "note": "强渡怒江与松山、龙陵作战"
-      }
-    ],
-    "relatedIds": [
-      "dianxi-1944-05",
-      "songshan-1944-06"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "wanding-1945",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "中国军队攻克畹町",
-      "en": "Chinese forces take Wanding"
-    },
-    "date": "1945-01-27",
-    "location": {
-      "lng": 98.07,
-      "lat": 24.08,
-      "place": {
-        "zh": "云南畹町",
-        "en": "Wanding, Yunnan"
-      }
-    },
-    "entityIds": [
-      "china-resistance",
-      "allied-forces"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "远征军攻克畹町，与驻印军在芒友会师，滇西反攻结束。",
-      "en": "The expeditionary force took Wanding and linked with the India-based army at Mangyou, ending the western Yunnan counter-offensive."
-    },
-    "description": {
-      "zh": "1945 年 1 月 27 日中国远征军攻克中缅边境的畹町，与从印度东进的驻印军在芒友会师，中印公路全线打通，滇西反攻结束。",
-      "en": "On 27 January 1945 the Chinese expeditionary force took Wanding on the China–Burma border and linked with the India-based army advancing from India at Mangyou, opening the Ledo road and ending the western Yunnan counter-offensive."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "抗日战争正面战场",
-        "author": "中国第二历史档案馆",
-        "note": "畹町攻克与芒友会师"
-      },
-      {
-        "title": "中国远征军战史",
-        "author": "中国第二历史档案馆",
-        "note": "滇西反攻结束"
-      }
-    ],
-    "relatedIds": [
-      "dianxi-1944-05"
-    ],
-    "importance": 2
-  },
-  {
-    "id": "zhengtai-1940",
-    "atlasId": "anti-japanese-war",
-    "name": {
-      "zh": "正太路破袭战（西段）",
-      "en": "Sabotage of the western Zhengding–Taiyuan railway"
-    },
-    "date": "1940-08-20",
-    "location": {
-      "lng": 112.75,
-      "lat": 37.69,
-      "place": {
-        "zh": "山西榆次",
-        "en": "Yuci, Shanxi"
-      }
-    },
-    "entityIds": [
-      "china-resistance"
-    ],
-    "category": "战役",
-    "summary": {
-      "zh": "百团大战第一阶段，第 129 师破袭正太路西段至榆次附近。",
-      "en": "In the first phase of the Hundred Regiments Offensive the 129th Division broke the western Zhengding–Taiyuan line to the approaches of Yuci."
-    },
-    "description": {
-      "zh": "1940 年 8 月 20 日夜百团大战发起，八路军第 129 师主力破袭正太路西段，攻占阳泉、寿阳间多处据点，破坏铁路桥梁，战斗延伸至榆次附近。",
-      "en": "On the night of 20 August 1940 the Hundred Regiments Offensive opened; the 129th Division broke the western Zhengding–Taiyuan railway, taking posts between Yangquan and Shouyang, destroying track and bridges, with fighting extending to the approaches of Yuci."
-    },
-    "images": [],
-    "sources": [
-      {
-        "title": "八路军战史",
-        "author": "军事科学院",
-        "note": "百团大战第一阶段正太路破袭"
-      },
-      {
-        "title": "中国事变陆军作战史",
-        "author": "日本防卫厅防卫研修所战史室",
-        "note": "1940 年正太路破袭"
-      }
-    ],
-    "relatedIds": [
-      "hundred-regiments-1940-08"
-    ],
-    "importance": 2
   }
 ]

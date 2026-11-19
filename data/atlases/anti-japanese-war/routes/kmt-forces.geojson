@@ -49,7 +49,7 @@
             39.85
           ],
           [
-            116.0,
+            116,
             40.1
           ],
           [
@@ -126,7 +126,7 @@
           ],
           [
             114.5,
-            38.0
+            38
           ]
         ]
       },
@@ -231,7 +231,7 @@
             36.6
           ],
           [
-            111.0,
+            111,
             37.5
           ],
           [
@@ -379,20 +379,20 @@
             24.88
           ],
           [
-            105.0,
-            26.0
+            105,
+            26
           ],
           [
-            108.0,
-            28.0
+            108,
+            28
           ],
           [
-            110.0,
-            30.0
+            110,
+            30
           ],
           [
-            113.0,
-            32.0
+            113,
+            32
           ],
           [
             117.18,
@@ -429,8 +429,8 @@
             34.26
           ],
           [
-            115.0,
-            33.0
+            115,
+            33
           ],
           [
             114.3,
@@ -501,7 +501,7 @@
             40.84
           ],
           [
-            110.0,
+            110,
             40.8
           ],
           [
@@ -539,7 +539,7 @@
             28.23
           ],
           [
-            114.0,
+            114,
             28.3
           ],
           [
@@ -581,12 +581,12 @@
             25.03
           ],
           [
-            101.0,
-            25.0
+            101,
+            25
           ],
           [
             98.9,
-            25.0
+            25
           ],
           [
             98.79,
@@ -632,7 +632,7 @@
           ],
           [
             111.7,
-            29.0
+            29
           ]
         ]
       },
@@ -699,7 +699,7 @@
             28.23
           ],
           [
-            111.0,
+            111,
             26.5
           ],
           [
@@ -721,6 +721,192 @@
         "description": {
           "zh": "示意简化路线，待史料校订。",
           "en": "Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.75,
+            40.01
+          ],
+          [
+            119.6,
+            39.94
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1933-01-01",
+        "endDate": "1933-01-03",
+        "order": 20,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "山海关—秦皇岛（东北军撤退）",
+          "en": "Shanhaiguan–Qinhuangdao (Northeast Army Withdrawal)"
+        },
+        "description": {
+          "zh": "榆关失守后，东北军何柱国部撤往秦皇岛方向。示意简化路线，待史料校订。",
+          "en": "After the fall of Shanhaiguan, He Zhuguo’s Northeast Army troops withdrew toward Qinhuangdao. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.28,
+            40.35
+          ],
+          [
+            118.1,
+            40.28
+          ],
+          [
+            117.96,
+            40.19
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1933-03-09",
+        "endDate": "1933-05-25",
+        "order": 21,
+        "segmentType": "defense",
+        "name": {
+          "zh": "喜峰口—遵化（第二十九军防御）",
+          "en": "Xifengkou–Zunhua (29th Army Defense)"
+        },
+        "description": {
+          "zh": "第二十九军在喜峰口一线设防，军部与后方位于遵化。示意简化路线，待史料校订。",
+          "en": "The 29th Army defended the Xifengkou line, with its headquarters and rear at Zunhua. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.16,
+            40.7
+          ],
+          [
+            117,
+            40.55
+          ],
+          [
+            116.84,
+            40.38
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1933-03-10",
+        "endDate": "1933-05-25",
+        "order": 22,
+        "segmentType": "defense",
+        "name": {
+          "zh": "古北口—密云（中央军防御）",
+          "en": "Gubeikou–Miyun (Central Army Defense)"
+        },
+        "description": {
+          "zh": "中央军第十七军等部在古北口、南天门一线设防，后方位于密云。示意简化路线，待史料校订。",
+          "en": "The Central Army’s 17th Army and other units defended Gubeikou and Nantianmen, with their rear at Miyun. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.75,
+            40.84
+          ],
+          [
+            112.6,
+            41.1
+          ],
+          [
+            113.2,
+            41.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1936-11-15",
+        "endDate": "1936-11-18",
+        "order": 23,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "归绥—红格尔图（晋绥军增援）",
+          "en": "Guisui–Honggeertu (Shanxi-Suiyuan Reinforcement)"
+        },
+        "description": {
+          "zh": "绥远抗战爆发后，傅作义部自归绥东援红格尔图。示意简化路线，待史料校订。",
+          "en": "After the Suiyuan campaign began, Fu Zuoyi’s troops moved east from Guisui to relieve Honggeertu. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.75,
+            40.84
+          ],
+          [
+            111,
+            41.3
+          ],
+          [
+            110.43,
+            41.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "kmt-forces",
+        "startDate": "1936-11-20",
+        "endDate": "1936-11-24",
+        "order": 24,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "归绥—百灵庙（晋绥军反攻）",
+          "en": "Guisui–Bailingmiao (Shanxi-Suiyuan Counterattack)"
+        },
+        "description": {
+          "zh": "傅作义部自归绥北上奔袭百灵庙，11 月 24 日攻克该地。示意简化路线，待史料校订。",
+          "en": "Fu Zuoyi’s troops marched north from Guisui to surprise Bailingmiao and took it on 24 November. Illustrative simplified route, pending historical review."
         },
         "extensions": {
           "precision": "schematic"

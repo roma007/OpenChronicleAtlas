@@ -2134,6 +2134,242 @@
           "precision": "campaign"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            123.43,
+            41.8
+          ],
+          [
+            122,
+            41.3
+          ],
+          [
+            121.13,
+            41.1
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1931-12-28",
+        "endDate": "1932-01-03",
+        "order": 56,
+        "segmentType": "advance",
+        "name": {
+          "zh": "沈阳—锦州",
+          "en": "Shenyang–Jinzhou"
+        },
+        "description": {
+          "zh": "九一八事变后日军自沈阳西进，1932 年 1 月 3 日占领锦州。示意简化路线，待史料校订。",
+          "en": "After the Mukden Incident Japanese forces advanced west from Shenyang and took Jinzhou on 3 January 1932. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.13,
+            41.1
+          ],
+          [
+            120.3,
+            40.6
+          ],
+          [
+            119.75,
+            40.01
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1933-01-01",
+        "endDate": "1933-01-03",
+        "order": 57,
+        "segmentType": "advance",
+        "name": {
+          "zh": "锦州—山海关（榆关作战）",
+          "en": "Jinzhou–Shanhaiguan (Battle of Yuguan)"
+        },
+        "description": {
+          "zh": "1933 年 1 月 1 日日军自锦州方向进攻山海关，东北军何柱国部抵抗，3 日榆关失守。示意简化路线。",
+          "en": "On 1 January 1933 Japanese forces from the Jinzhou direction attacked Shanhaiguan; He Zhuguo’s Northeast Army troops resisted until the pass fell on 3 January. Illustrative simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.13,
+            41.1
+          ],
+          [
+            120.45,
+            41.57
+          ],
+          [
+            118.9,
+            41.1
+          ],
+          [
+            117.96,
+            40.99
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1933-02-21",
+        "endDate": "1933-03-04",
+        "order": 58,
+        "segmentType": "advance",
+        "name": {
+          "zh": "锦州—朝阳—承德（热河作战）",
+          "en": "Jinzhou–Chaoyang–Chengde (Rehe Campaign)"
+        },
+        "description": {
+          "zh": "1933 年 2 月 21 日日军分路进攻热河，3 月 4 日占领承德。示意简化路线，待史料校订。",
+          "en": "On 21 February 1933 Japanese forces attacked Rehe along several axes and occupied Chengde on 4 March. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.96,
+            40.99
+          ],
+          [
+            117.5,
+            40.85
+          ],
+          [
+            117.16,
+            40.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1933-03-04",
+        "endDate": "1933-03-12",
+        "order": 59,
+        "segmentType": "advance",
+        "name": {
+          "zh": "承德—古北口",
+          "en": "Chengde–Gubeikou"
+        },
+        "description": {
+          "zh": "热河失守后日军南下进攻古北口，与中国守军在长城一线激战。示意简化路线。",
+          "en": "After the fall of Rehe Japanese forces moved south against Gubeikou and fought Chinese defenders along the Great Wall. Illustrative simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.75,
+            40.01
+          ],
+          [
+            119,
+            40.2
+          ],
+          [
+            118.28,
+            40.35
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1933-03-09",
+        "endDate": "1933-05-25",
+        "order": 60,
+        "segmentType": "advance",
+        "name": {
+          "zh": "山海关—喜峰口（长城东段）",
+          "en": "Shanhaiguan–Xifengkou (Eastern Great Wall)"
+        },
+        "description": {
+          "zh": "日军沿长城东段进攻喜峰口、冷口等关口，第二十九军等部在此抵抗。示意简化路线，待史料校订。",
+          "en": "Japanese forces attacked Xifengkou, Lengkou, and other passes along the eastern Great Wall, where the 29th Army and others resisted. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.56,
+            41.56
+          ],
+          [
+            113.2,
+            41.45
+          ],
+          [
+            111.9,
+            41.55
+          ],
+          [
+            110.43,
+            41.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1936-11-15",
+        "endDate": "1936-11-24",
+        "order": 61,
+        "segmentType": "advance",
+        "name": {
+          "zh": "商都—红格尔图—百灵庙（绥远作战）",
+          "en": "Shangdu–Honggeertu–Bailingmiao (Suiyuan Campaign)"
+        },
+        "description": {
+          "zh": "日本关东军策动伪蒙军自商都西进，进攻红格尔图与百灵庙，被傅作义部击退。示意简化路线，待史料校订。",
+          "en": "The Kwantung Army directed Mengjiang forces west from Shangdu against Honggeertu and Bailingmiao, where Fu Zuoyi’s troops repelled them. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
