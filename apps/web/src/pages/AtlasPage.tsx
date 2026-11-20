@@ -7,6 +7,7 @@ import {
 import { useEffect, useRef, useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { EventDetailPanel } from '../components/detail/EventDetailPanel';
+import { RouteDetailPanel } from '../components/detail/RouteDetailPanel';
 import { EventBubble } from '../components/map/EventBubble';
 import { Legend } from '../components/layout/Legend';
 import { Timeline } from '../components/timeline/Timeline';
@@ -134,6 +135,7 @@ export function AtlasPage() {
       {manifest ? <Timeline /> : null}
 
       <EventDetailPanel />
+      <RouteDetailPanel />
       <EventBubble />
 
       {filtersOpen ? (

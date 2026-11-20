@@ -225,7 +225,10 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
   },
 
   selectEvent(eventId) {
-    set({ selectedEventId: eventId });
+    set({
+      selectedEventId: eventId,
+      ...(eventId ? { selectedRoute: null } : {}),
+    });
   },
 
   setActiveEntities(ids) {

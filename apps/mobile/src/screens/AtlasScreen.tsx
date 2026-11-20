@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { EventSheet } from '../components/detail/EventSheet';
+import { RouteSheet } from '../components/detail/RouteSheet';
 import { FilterSheet } from '../components/filter/FilterSheet';
 import { AtlasMap } from '../components/map/AtlasMap';
 import { Timeline } from '../components/timeline/Timeline';
@@ -126,6 +127,7 @@ export function AtlasScreen({ route, navigation }: Props) {
 
       <Timeline />
       <EventSheet />
+      <RouteSheet />
       <FilterSheet visible={filterOpen} onClose={() => setFilterOpen(false)} />
 
       {loading ? (

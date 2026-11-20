@@ -160,6 +160,9 @@ const zh = {
 
   'detail.title': '事件详情',
   'detail.close': '关闭详情',
+  'route.detail': '路线详情',
+  'route.highlighted': '地图上已高亮该路线',
+  'route.focus': '定位路线',
   'detail.rendering': '正在渲染详情…',
   'event.previous': '上一事件',
   'event.next': '下一事件',
@@ -380,6 +383,9 @@ const en: Record<keyof typeof zh, string> = {
 
   'detail.title': 'Event details',
   'detail.close': 'Close details',
+  'route.detail': 'Route details',
+  'route.highlighted': 'Highlighted on the map',
+  'route.focus': 'Focus route',
   'detail.rendering': 'Rendering details…',
   'event.previous': 'Previous event',
   'event.next': 'Next event',

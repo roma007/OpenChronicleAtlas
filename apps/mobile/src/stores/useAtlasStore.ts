@@ -209,7 +209,10 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
   },
 
   selectEvent(eventId) {
-    set({ selectedEventId: eventId });
+    set({
+      selectedEventId: eventId,
+      ...(eventId ? { selectedRoute: null } : {}),
+    });
   },
 
   setBubbleEvent(eventId) {
