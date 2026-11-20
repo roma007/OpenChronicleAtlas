@@ -36,6 +36,7 @@ export function AtlasScreen({ route, navigation }: Props) {
   const fromCache = useAtlasStore((state) => state.fromCache);
   const setLocale = useAtlasStore((state) => state.setLocale);
   const setActiveEntities = useAtlasStore((state) => state.setActiveEntities);
+  const selectRoute = useAtlasStore((state) => state.selectRoute);
   const setFilters = useAtlasStore((state) => state.setFilters);
   const { locale, t } = useI18n();
 
@@ -76,6 +77,16 @@ export function AtlasScreen({ route, navigation }: Props) {
     if (eventId && dataset.eventsById.has(eventId)) {
       selectEvent(eventId);
     }
+    if (
+      share?.route &&
+      dataset.routes.some(
+        (route) =>
+          route.properties.entityId === share.route!.entityId &&
+          route.properties.order === share.route!.order,
+      )
+    ) {
+      selectRoute(share.route);
+    }
   }, [
     dataset,
     initialTime,
@@ -87,6 +98,7 @@ export function AtlasScreen({ route, navigation }: Props) {
     setFilters,
     setCurrentTime,
     selectEvent,
+    selectRoute,
   ]);
 
   const manifest = dataset && dataset.manifest.id === atlasId ? dataset.manifest : null;

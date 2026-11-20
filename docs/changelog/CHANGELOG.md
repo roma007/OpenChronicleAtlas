@@ -3,6 +3,19 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.183] - 2026-11-20
+
+### Added
+- 分享链接新增 `route` 参数：记录当前高亮路线的 `entityId:order`，打开链接后自动恢复路线高亮与详情。
+- 复制链接同时携带地区、图层、分类、时间范围、选中事件与高亮路线。
+
+### Verify
+- 选中“北平—南京”后复制得到 `route=japanese-invasion:3`。
+- 打开该链接后 `selectedRoute` 恢复为 `{ entityId: japanese-invasion, order: 3 }`。
+- `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build` 通过。
+
+---
+
 ## [v1.0.182] - 2026-11-20
 
 ### Changed

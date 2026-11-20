@@ -14,6 +14,7 @@ describe('share state', () => {
       locale: 'en',
       entities: ['central-red-army', 'red-4-army'],
       categories: ['重要会议', '会师'],
+      route: { entityId: 'central-red-army', order: 3 },
       from: '1935-01-01',
       to: '1935-12-31',
     });
@@ -24,6 +25,7 @@ describe('share state', () => {
     expect(params.get('lang')).toBe('en');
     expect(params.get('entities')).toBe('central-red-army,red-4-army');
     expect(params.get('categories')).toBe('重要会议,会师');
+    expect(params.get('route')).toBe('central-red-army:3');
 
     const decoded = decodeShareState(params);
     expect(decoded?.time).toBe('1935-01-15');
@@ -32,8 +34,14 @@ describe('share state', () => {
     expect(decoded?.locale).toBe('en');
     expect(decoded?.entities).toEqual(['central-red-army', 'red-4-army']);
     expect(decoded?.categories).toEqual(['重要会议', '会师']);
+    expect(decoded?.route).toEqual({ entityId: 'central-red-army', order: 3 });
     expect(decoded?.from).toBe('1935-01-01');
     expect(decoded?.to).toBe('1935-12-31');
+  });
+
+  it('忽略非法路线', () => {
+    expect(decodeShareState(new URLSearchParams({ route: 'Bad ID!:3' }))).toBeNull();
+    expect(decodeShareState(new URLSearchParams({ route: 'central-red-army:-1' }))).toBeNull();
   });
 
   it('忽略非法日期/事件/视野', () => {

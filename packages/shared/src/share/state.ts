@@ -17,6 +17,7 @@ export interface ShareState {
   entities?: string[];
   categories?: string[];
   regions?: string[];
+  route?: { entityId: string; order: number };
   from?: DateString;
   to?: DateString;
 }
@@ -33,6 +34,7 @@ export function encodeShareState(state: ShareState): URLSearchParams {
   if (state.entities?.length) params.set('entities', state.entities.join(','));
   if (state.categories?.length) params.set('categories', state.categories.join(','));
   if (state.regions?.length) params.set('regions', state.regions.join(','));
+  if (state.route) params.set('route', `${state.route.entityId}:${state.route.order}`);
   if (state.from) params.set('from', state.from);
   if (state.to) params.set('to', state.to);
   if (state.view) {
@@ -51,6 +53,7 @@ export function decodeShareState(params: URLSearchParams): ShareState | null {
   const entitiesRaw = params.get('entities');
   const categoriesRaw = params.get('categories');
   const regionsRaw = params.get('regions');
+  const routeRaw = params.get('route');
   const fromRaw = params.get('from');
   const toRaw = params.get('to');
 
@@ -98,6 +101,14 @@ export function decodeShareState(params: URLSearchParams): ShareState | null {
         ),
       ).slice(0, 80)
     : [];
+  let route: ShareState['route'];
+  if (routeRaw) {
+    const [entityId, orderRaw] = routeRaw.split(':');
+    const order = Number(orderRaw);
+    if (entityId && ID_RE.test(entityId) && Number.isInteger(order) && order >= 0) {
+      route = { entityId, order };
+    }
+  }
 
   let from: DateString | undefined;
   if (fromRaw && DATE_RE.test(fromRaw)) {
@@ -147,6 +158,7 @@ export function decodeShareState(params: URLSearchParams): ShareState | null {
     entities.length === 0 &&
     categories.length === 0 &&
     regions.length === 0 &&
+    !route &&
     !from &&
     !to
   ) {
@@ -161,6 +173,7 @@ export function decodeShareState(params: URLSearchParams): ShareState | null {
     entities: entities.length > 0 ? entities : undefined,
     categories: categories.length > 0 ? categories : undefined,
     regions: regions.length > 0 ? regions : undefined,
+    route,
     from,
     to,
   };

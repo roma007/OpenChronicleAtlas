@@ -29,6 +29,7 @@ export function AtlasPage() {
   const pause = useAtlasStore((state) => state.pause);
   const setLocale = useAtlasStore((state) => state.setLocale);
   const setActiveEntities = useAtlasStore((state) => state.setActiveEntities);
+  const selectRoute = useAtlasStore((state) => state.selectRoute);
   const setFilters = useAtlasStore((state) => state.setFilters);
   const { locale, t } = useI18n();
 
@@ -66,6 +67,16 @@ export function AtlasPage() {
     if (state.eventId && dataset.eventsById.has(state.eventId)) {
       selectEvent(state.eventId);
     }
+    if (
+      state.route &&
+      dataset.routes.some(
+        (route) =>
+          route.properties.entityId === state.route!.entityId &&
+          route.properties.order === state.route!.order,
+      )
+    ) {
+      selectRoute(state.route);
+    }
     if (state.view) requestView(state.view);
   }, [
     dataset,
@@ -76,6 +87,7 @@ export function AtlasPage() {
     setFilters,
     setCurrentTime,
     selectEvent,
+    selectRoute,
     requestView,
   ]);
 
