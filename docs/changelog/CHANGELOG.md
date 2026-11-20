@@ -3,6 +3,21 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.191] - 2026-11-20
+
+### Changed
+- 移除跨省路线的“起 XXX / 终 XXX”端点标签（`routeEndpointLabels()`）：
+  - 标签由路线名拆分而来，114 段跨省路线中 13 段无起终点、30 段带出“第74军：”等番号前缀，口径不一致；
+  - 端点标签会遮挡地图，对理解路线走向帮助有限。
+- Web 与移动端同步移除端点标记、标签解析与相关样式（`.atlas-route-endpoint`）。
+- 跨省路线本身仍整条保留，不裁剪、不产生假线头。
+
+### Verify
+- 选中湖北并放大到 7 级：跨省路线正常显示，页面中 `.atlas-route-endpoint` 节点为 0。
+- `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build` 通过。
+
+---
+
 ## [v1.0.190] - 2026-11-20
 
 ### Fixed

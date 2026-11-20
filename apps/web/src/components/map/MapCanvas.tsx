@@ -76,9 +76,6 @@ interface LineEntry {
   progress: number;
   ticks: Array<{ marker: any; progress: number }>;
   strongpoints: Array<{ marker: any; progress: number }>;
-  /** 跨省路线筛选时显示的起点、终点标签 */
-  endpointMarkers: any[];
-  endpointMeta: Array<{ point: [number, number]; text: string }>;
   /** 原始线宽与透明度，缩放、聚焦时在此基础上调整 */
   baseWeight: number;
   baseOpacity: number;
@@ -398,29 +395,6 @@ function defaultLabelPoint(geometry: RouteGeometry): [number, number] {
   if (!sample) return geometry.coordinates[0]!;
   const [normalEast, normalNorth] = sample.normal;
   return offsetPoint(sample.point, normalEast * 7, normalNorth * 7);
-}
-
-/** 从「北平—保定」这类路线名里取起终点，供跨省筛选时标注 */
-function routeEndpointLabels(
-  route: AtlasRouteFeature,
-  locale: 'zh' | 'en',
-): [string, string] {
-  const raw = resolveLocalized(route.properties.name, locale);
-  const cleaned = raw.replace(/（[^）]*）|\([^)]*\)/g, '').trim();
-  const parts = cleaned
-    .split(/[—–\-→至]/)
-    .map((part) => part.trim())
-    .filter(Boolean);
-  if (parts.length >= 2) return [parts[0]!, parts.at(-1)!];
-  return ['', ''];
-}
-
-function endpointElement(text: string, kind: 'start' | 'end'): HTMLElement {
-  const element = document.createElement('span');
-  element.className = 'atlas-route-endpoint';
-  element.dataset.kind = kind;
-  element.textContent = text;
-  return element;
 }
 
 export function MapCanvas() {
@@ -769,7 +743,6 @@ export function MapCanvas() {
       ...(entry.head ? [entry.head.marker] : []),
       ...entry.ticks.map((tick) => tick.marker),
       ...entry.strongpoints.map((point) => point.marker),
-      ...entry.endpointMarkers,
     ]);
     if (oldOverlays.length > 0) map.remove(oldOverlays);
 
@@ -780,16 +753,6 @@ export function MapCanvas() {
     clearBubble();
 
     const lines: any[] = [];
-    const firstLevelIds = new Set(
-      dataset.regions
-        .filter(
-          (region) =>
-            region.level === 'province' ||
-            region.level === 'municipality' ||
-            region.level === 'overseas',
-        )
-        .map((region) => region.id),
-    );
 
     for (const route of dataset.routes) {
       const entity = dataset.entitiesById.get(route.properties.entityId);
@@ -1026,34 +989,6 @@ export function MapCanvas() {
         }
       }
 
-      const endpointLabels = routeEndpointLabels(route, locale);
-      const crossesRegions =
-        new Set(
-          (route.properties.regionIds ?? []).filter((id) => firstLevelIds.has(id)),
-        ).size > 1;
-      const endpointMeta: Array<{ point: [number, number]; text: string }> = [];
-      const endpointMarkers = crossesRegions
-        ? [route.geometry.coordinates[0], route.geometry.coordinates.at(-1)]
-            .filter((coordinate): coordinate is [number, number] => Boolean(coordinate))
-            .map((coordinate, index) => {
-              const label = endpointLabels[index] || (locale === 'en' ? (index === 0 ? 'Start' : 'End') : (index === 0 ? '起点' : '终点'));
-              const prefix = locale === 'en' ? (index === 0 ? 'From ' : 'To ') : (index === 0 ? '起 ' : '终 ');
-              const text = `${prefix}${label}`;
-              endpointMeta.push({ point: coordinate, text });
-              const element = endpointElement(text, index === 0 ? 'start' : 'end');
-              const marker = new AMap.Marker({
-                position: toGcjPoint(coordinate),
-                content: element,
-                anchor: 'bottom-center',
-                zIndex: 140,
-                bubble: true,
-              });
-              marker.hide();
-              map.add(marker);
-              return marker;
-            })
-        : [];
-
       const key = `${route.properties.entityId}:${route.properties.order}:${route.properties.startDate}`;
       lineEntriesRef.current.set(key, {
         feature: route,
@@ -1070,8 +1005,6 @@ export function MapCanvas() {
         progress: 0,
         ticks,
         strongpoints,
-        endpointMarkers,
-        endpointMeta,
         baseWeight: weight,
         baseOpacity: opacity,
         dimmed: false,
@@ -1295,8 +1228,6 @@ export function MapCanvas() {
     const AMap = amapRef.current;
     if (!dataset || !ready || !map || !AMap) return;
 
-    const showEndpoints = filters.regionIds.length > 0 && zoom >= 6;
-
     for (const [key, entry] of lineEntriesRef.current) {
       const rawProgress = routeProgress(entry.feature, currentTime);
       const previous = lastProgressRef.current.get(key) ?? -1;
@@ -1310,7 +1241,6 @@ export function MapCanvas() {
         entry.head?.marker.hide();
         for (const tick of entry.ticks) tick.marker.hide();
         for (const point of entry.strongpoints) point.marker.hide();
-        for (const marker of entry.endpointMarkers) marker.hide();
         lastProgressRef.current.set(key, 0);
         continue;
       }
@@ -1330,7 +1260,6 @@ export function MapCanvas() {
           entry.head?.marker.hide();
           for (const tick of entry.ticks) tick.marker.hide();
           for (const point of entry.strongpoints) point.marker.hide();
-          for (const marker of entry.endpointMarkers) marker.hide();
           continue;
         }
         entry.line.setPath(path);
@@ -1347,9 +1276,6 @@ export function MapCanvas() {
       }
 
       entry.line.show();
-      for (const marker of entry.endpointMarkers) {
-        marker[showEndpoints ? 'show' : 'hide']();
-      }
 
       // 未尽之路：整条路线淡墨虚线，已走部分被实线覆盖
       entry.ghost?.[progress < 0.999 && zoom >= ROUTE_GHOST_MIN_ZOOM ? 'show' : 'hide']();
@@ -1425,33 +1351,6 @@ export function MapCanvas() {
           routeHighlightRef.current.line.setPath(path);
           routeHighlightRef.current.halo.show();
           routeHighlightRef.current.line.show();
-        }
-      }
-    }
-
-    // 跨省路线端点：只在筛选时显示，按屏幕空间避让，重叠的标签隐藏
-    if (!showEndpoints) {
-      for (const entry of lineEntriesRef.current.values()) {
-        for (const marker of entry.endpointMarkers) marker.hide();
-      }
-    } else {
-      const placedEndpointRects: ScreenRect[] = [];
-      for (const entry of lineEntriesRef.current.values()) {
-        for (let index = 0; index < entry.endpointMarkers.length; index += 1) {
-          const marker = entry.endpointMarkers[index]!;
-          const meta = entry.endpointMeta[index];
-          if (!meta || entry.progress <= 0) {
-            marker.hide();
-            continue;
-          }
-          const point = map.lngLatToContainer(new AMap.LngLat(meta.point[0], meta.point[1]));
-          const rect = estimateLabelRect(meta.text, point.x, point.y);
-          if (placedEndpointRects.some((placed) => rectsOverlap(placed, rect))) {
-            marker.hide();
-            continue;
-          }
-          placedEndpointRects.push(rect);
-          marker.show();
         }
       }
     }

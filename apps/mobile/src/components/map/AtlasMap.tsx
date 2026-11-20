@@ -295,27 +295,6 @@ export function AtlasMap() {
             : [];
         const entity = dataset.entitiesById.get(route.properties.entityId);
         const style = routeStyleForSegmentType(route.properties.segmentType);
-        const name = resolveLocalized(route.properties.name, locale)
-          .replace(/（[^）]*）|\([^)]*\)/g, '')
-          .trim();
-        const parts = name.split(/[—–\-→至]/).map((part) => part.trim()).filter(Boolean);
-        const labels = parts.length >= 2 ? [parts[0], parts.at(-1) as string] : ['', ''];
-        const first = route.geometry.coordinates[0];
-        const last = route.geometry.coordinates.at(-1);
-        const firstLevelIds = new Set(
-          dataset.regions
-            .filter(
-              (region) =>
-                region.level === 'province' ||
-                region.level === 'municipality' ||
-                region.level === 'overseas',
-            )
-            .map((region) => region.id),
-        );
-        const crossesRegions =
-          new Set(
-            (route.properties.regionIds ?? []).filter((id) => firstLevelIds.has(id)),
-          ).size > 1;
         return {
           key,
           entityId: route.properties.entityId,
@@ -324,13 +303,6 @@ export function AtlasMap() {
           color: entity?.color ?? colors.cinnabar,
           strokeWidth: style.weight,
           dotted: style.dash !== 'solid',
-          endpoints:
-            crossesRegions && zoom >= 6 && filters.regionIds.length > 0 && first && last
-              ? [
-                  { point: toGcj(first[0], first[1]), label: labels[0] || (locale === 'en' ? 'Start' : '起点'), kind: 'start' as const },
-                  { point: toGcj(last[0], last[1]), label: labels[1] || (locale === 'en' ? 'End' : '终点'), kind: 'end' as const },
-                ]
-              : [],
         };
       })
       .filter((shape) => shape.points.length >= 2);
@@ -523,30 +495,6 @@ export function AtlasMap() {
           </>
         ) : null}
 
-        {routeShapes.flatMap((shape) =>
-          shape.endpoints.map((endpoint, index) => (
-            <Marker
-              key={`${shape.key}:endpoint:${index}`}
-              position={endpoint.point}
-              cacheKey={`${shape.key}:endpoint:${index}:${endpoint.label}`}
-              zIndex={70}
-            >
-              <View
-                style={[
-                  styles.endpoint,
-                  endpoint.kind === 'end' ? styles.endpointEnd : styles.endpointStart,
-                ]}
-              >
-                <Text style={styles.endpointText} numberOfLines={1}>
-                  {locale === 'en'
-                    ? `${endpoint.kind === 'start' ? 'From' : 'To'} ${endpoint.label}`
-                    : `${endpoint.kind === 'start' ? '起' : '终'} ${endpoint.label}`}
-                </Text>
-              </View>
-            </Marker>
-          )),
-        )}
-
         {provinceLabels.map((province) => (
           <Marker
             key={province.key}
@@ -696,16 +644,6 @@ const styles = StyleSheet.create({
     fontSize: 11,
     fontWeight: '700',
   },
-  endpoint: {
-    backgroundColor: colors.parchment + 'F2',
-    borderRadius: radii.pill,
-    borderWidth: 1,
-    paddingHorizontal: 7,
-    paddingVertical: 2,
-  },
-  endpointStart: { borderColor: colors.cinnabar + '88' },
-  endpointEnd: { borderColor: '#1f4e7988' },
-  endpointText: { fontSize: 10, color: colors.ink },
   provinceLabel: {
     backgroundColor: colors.parchment + 'E6',
     borderRadius: radii.pill,
