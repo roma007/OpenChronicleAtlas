@@ -3,6 +3,18 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.178] - 2026-11-20
+
+### Changed
+- 剩余 12 个 `≈` 县全部人工确认：锦县、通县、辽县、兰封县、立煌县、随县、钦县、归绥县、衢县、畹町镇、定县、花县的事件坐标与今县治重合，已登记为 `event-seat`。
+- 至此 188 个县标注点全部有来源：142 个 GeoNames、29 个县治同名地点、12 个事件点即县治、5 个手工校订；地图上不再出现 `≈` 近似标注。
+
+### Verify
+- `pnpm validate:data`：529 事件 / 308 路线；425 个地区，归属完整。
+- `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build` 通过。
+
+---
+
 ## [v1.0.177] - 2026-11-20
 
 ### Added
