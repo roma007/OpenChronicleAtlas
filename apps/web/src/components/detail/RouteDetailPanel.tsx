@@ -11,6 +11,8 @@ export function RouteDetailPanel() {
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const pause = useAtlasStore((state) => state.pause);
+  const setRegions = useAtlasStore((state) => state.setRegions);
+  const focusRegion = useAtlasStore((state) => state.focusRegion);
   const { locale, t } = useI18n();
 
   if (!dataset || !selectedRoute || selectedEventId) return null;
@@ -31,6 +33,28 @@ export function RouteDetailPanel() {
   const dateText = `${route.properties.startDate} — ${route.properties.endDate}`;
   const start = route.geometry.coordinates[0];
   const end = route.geometry.coordinates.at(-1);
+  const routeRegions = Array.from(
+    new Set(
+      (route.properties.regionIds ?? [])
+        .map((id) => dataset.regionsById.get(id))
+        .filter((item): item is NonNullable<typeof item> => {
+          if (!item) return false;
+          return (
+            item.level === 'province' ||
+            item.level === 'municipality' ||
+            item.level === 'county'
+          );
+        })
+        .map((item) => item.id),
+    ),
+  )
+    .map((id) => dataset.regionsById.get(id))
+    .filter((item): item is NonNullable<typeof item> => Boolean(item))
+    .sort((a, b) => {
+      const rank = (level: string) =>
+        level === 'province' ? 0 : level === 'municipality' ? 1 : 2;
+      return rank(a.level) - rank(b.level) || resolveLocalized(a.name, locale).localeCompare(resolveLocalized(b.name, locale));
+    });
   const startEvents = start ? eventsNearPoint(dataset.events, start, 20, 3) : [];
   const startIds = new Set(startEvents.map((item) => item.event.id));
   const endEvents = end
@@ -87,6 +111,35 @@ export function RouteDetailPanel() {
         <p className="mt-4 whitespace-pre-line border-l-2 border-cinnabar/40 pl-3 text-sm leading-7 text-ink">
           {description}
         </p>
+      ) : null}
+
+      {routeRegions.length > 0 ? (
+        <div className="mt-4">
+          <h3 className="text-[10px] tracking-[0.18em] text-ink-soft/50">
+            {t('route.regions')}
+          </h3>
+          <div className="mt-1.5 flex flex-wrap gap-1.5">
+            {routeRegions.slice(0, 14).map((region) => (
+              <button
+                key={region.id}
+                type="button"
+                onClick={() => {
+                  setRegions([region.id]);
+                  focusRegion(region.id);
+                  selectRoute(null);
+                }}
+                className="rounded-full border border-ink/10 px-2 py-0.5 text-[10px] text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
+              >
+                {resolveLocalized(region.name, locale)}
+              </button>
+            ))}
+            {routeRegions.length > 14 ? (
+              <span className="px-1 py-0.5 text-[9px] text-ink-soft/50">
+                {t('route.moreRegions', { count: routeRegions.length - 14 })}
+              </span>
+            ) : null}
+          </div>
+        </div>
       ) : null}
 
       {startEvents.length > 0 ? (

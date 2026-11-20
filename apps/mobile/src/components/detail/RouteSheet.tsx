@@ -13,6 +13,8 @@ export function RouteSheet() {
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const pause = useAtlasStore((state) => state.pause);
+  const setRegions = useAtlasStore((state) => state.setRegions);
+  const focusRegion = useAtlasStore((state) => state.focusRegion);
   const { locale, t } = useI18n();
 
   if (!dataset || !selectedRoute) return null;
@@ -31,6 +33,31 @@ export function RouteSheet() {
   const description = resolveLocalized(route.properties.description, locale);
   const start = route.geometry.coordinates[0];
   const end = route.geometry.coordinates.at(-1);
+  const routeRegions = Array.from(
+    new Set(
+      (route.properties.regionIds ?? [])
+        .map((id) => dataset.regionsById.get(id))
+        .filter((item): item is NonNullable<typeof item> => {
+          if (!item) return false;
+          return (
+            item.level === 'province' ||
+            item.level === 'municipality' ||
+            item.level === 'county'
+          );
+        })
+        .map((item) => item.id),
+    ),
+  )
+    .map((id) => dataset.regionsById.get(id))
+    .filter((item): item is NonNullable<typeof item> => Boolean(item))
+    .sort((a, b) => {
+      const rank = (level: string) =>
+        level === 'province' ? 0 : level === 'municipality' ? 1 : 2;
+      return (
+        rank(a.level) - rank(b.level) ||
+        resolveLocalized(a.name, locale).localeCompare(resolveLocalized(b.name, locale))
+      );
+    });
   const startEvents = start ? eventsNearPoint(dataset.events, start, 20, 3) : [];
   const startIds = new Set(startEvents.map((item) => item.event.id));
   const endEvents = end
@@ -75,6 +102,34 @@ export function RouteSheet() {
 
           {description ? (
             <Text style={styles.description}>{description}</Text>
+          ) : null}
+
+          {routeRegions.length > 0 ? (
+            <View style={styles.nearby}>
+              <Text style={styles.nearbyTitle}>{t('route.regions')}</Text>
+              <View style={styles.nearbyRow}>
+                {routeRegions.slice(0, 14).map((region) => (
+                  <Pressable
+                    key={region.id}
+                    style={styles.nearbyChip}
+                    onPress={() => {
+                      setRegions([region.id]);
+                      focusRegion(region.id);
+                      selectRoute(null);
+                    }}
+                  >
+                    <Text style={styles.nearbyText} numberOfLines={1}>
+                      {resolveLocalized(region.name, locale)}
+                    </Text>
+                  </Pressable>
+                ))}
+                {routeRegions.length > 14 ? (
+                  <Text style={styles.moreRegions}>
+                    {t('route.moreRegions', { count: routeRegions.length - 14 })}
+                  </Text>
+                ) : null}
+              </View>
+            </View>
           ) : null}
 
           {startEvents.length > 0 ? (
@@ -194,6 +249,7 @@ const styles = StyleSheet.create({
     paddingVertical: 4,
   },
   nearbyText: { fontSize: 10, color: colors.inkSoft },
+  moreRegions: { fontSize: 9, color: colors.inkSoft, opacity: 0.5, paddingVertical: 4 },
   actions: { flexDirection: 'row', gap: spacing.sm, marginTop: spacing.lg },
   primary: {
     backgroundColor: colors.cinnabar,
