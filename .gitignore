@@ -50,3 +50,7 @@ npm-debug.log*
 # Expo local state
 .expo/
 .vercel
+
+# Python 缓存
+__pycache__/
+*.pyc

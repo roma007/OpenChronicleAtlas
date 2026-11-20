@@ -3,6 +3,20 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.188] - 2026-11-20
+
+### Fixed
+- 修复海南岛省界三角形：源 `region` 图层中广东的海南岛环多出一段北岸重复弧，简化后形成两条跨岛斜线。现按 >100km 跳跃切开，保留面积最大的闭合子环，四张省界快照均修复。
+- `scripts/import-roc-provinces.py` 增加同样的海南环修复，避免重新导入时复发。
+- `scripts/check-region-index.ts` 增加海南岛省界回归检查：广东海南环内出现 >150km 直线即报错。
+
+### Verify
+- 海南岛轮廓闭合，68 个点，面积 3.069°，最长边为北岸约 96km 直线，无跨岛三角形。
+- `pnpm check:regions`、`pnpm validate:data`、`pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build` 通过。
+- 地图截图确认海南岛只保留海岸线边界。
+
+---
+
 ## [v1.0.187] - 2026-11-20
 
 ### Changed

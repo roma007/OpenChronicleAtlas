@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { loadAtlas, type DataSource } from '../packages/shared/src/index.ts';
+import { distanceKm, loadAtlas, type DataSource } from '../packages/shared/src/index.ts';
 
 class FsDataSource implements DataSource {
   async readText(file: string): Promise<string> {
@@ -62,6 +62,35 @@ for (const id of ids) {
   }
   if (orphanPlaces.length > 0) {
     problems.push(`地点缺少上级：${orphanPlaces.length} 条`);
+  }
+
+  // 海南岛省界回归检查：源数据曾多出一段北岸重复弧，简化后形成跨岛三角形。
+  if (id === 'anti-japanese-war') {
+    let longSegments = 0;
+    for (const feature of dataset.territories) {
+      if (feature.properties.extensions?.regionId !== 'guangdong') continue;
+      const parts =
+        feature.geometry.type === 'Polygon'
+          ? [feature.geometry.coordinates]
+          : feature.geometry.coordinates;
+      for (const rings of parts) {
+        for (const ring of rings) {
+          const inHainan = ring.every(
+            ([lng, lat]) =>
+              lng >= 108 && lng <= 111.5 && lat >= 17.8 && lat <= 20.5,
+          );
+          if (!inHainan) continue;
+          for (let index = 1; index < ring.length; index += 1) {
+            const a = ring[index - 1]!;
+            const b = ring[index]!;
+            if (distanceKm(a, b) > 150) longSegments += 1;
+          }
+        }
+      }
+    }
+    if (longSegments > 0) {
+      problems.push(`海南岛省界存在 ${longSegments} 条 >150km 直线，疑似重复弧/三角形`);
+    }
   }
 
   if (problems.length > 0) {
