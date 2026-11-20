@@ -1011,32 +1011,106 @@
             34.9
           ],
           [
-            113.6,
-            31.2
+            114.13,
+            31.56
           ],
           [
-            113.5,
+            113.6,
             28.5
           ],
           [
-            113.8,
-            25.5
+            114.31,
+            25.12
           ]
         ]
       },
       "properties": {
         "entityId": "eighth-route-army",
         "startDate": "1944-11-09",
-        "endDate": "1945-09-02",
+        "endDate": "1945-08-26",
         "order": 27,
         "segmentType": "advance",
         "name": {
-          "zh": "延安—湘粤（南下支队）",
-          "en": "Yan’an–Hunan–Guangdong (Southward Column)"
+          "zh": "延安—南雄（南下支队南下）",
+          "en": "Yan’an–Nanxiong (Southward Column, southward leg)"
         },
         "description": {
-          "zh": "八路军南下支队由延安经晋绥、太岳、豫西、鄂豫边挺进湘粤的示意路线，待史料校订。",
-          "en": "Schematic route of the Southward Column from Yan’an through the Jin-Sui, Taiyue, western Henan, and Hubei-Henan border areas toward Hunan and Guangdong; pending historical review."
+          "zh": "八路军南下支队（第359旅主力等 4000 余人）1944 年 11 月 9 日由延安出发，经晋绥、太岳、豫西，1945 年 1 月 27 日在湖北大悟山与新四军第五师会师，2 月渡长江，3 月进入湘鄂赣边，7 月主力继续南下，8 月 26 日进抵广东南雄西北百顺地区，拟与东江纵队会合。示意简化路线，待史料校订。",
+          "en": "The Southward Column (over 4,000 troops, mainly the 359th Brigade) left Yan’an on 9 November 1944, moved through the Jin-Sui, Taiyue and western Henan areas, joined the New Fourth Army’s 5th Division at Dawushan in Hubei on 27 January 1945, crossed the Yangtze in February, entered the Hunan–Hubei–Jiangxi border in March, and reached the Baishun area northwest of Nanxiong, Guangdong, on 26 August 1945, intending to link up with the Dongjiang Column. Schematic simplified route; pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.31,
+            25.12
+          ],
+          [
+            114.17,
+            26.32
+          ],
+          [
+            113.54,
+            26.79
+          ],
+          [
+            113.85,
+            27.62
+          ],
+          [
+            114.42,
+            27.81
+          ],
+          [
+            113.63,
+            28.14
+          ],
+          [
+            113.58,
+            28.7
+          ],
+          [
+            113.13,
+            29.36
+          ],
+          [
+            114.32,
+            29.84
+          ],
+          [
+            114.89,
+            30.4
+          ],
+          [
+            114.62,
+            31.29
+          ],
+          [
+            114.13,
+            31.56
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "eighth-route-army",
+        "startDate": "1945-08-29",
+        "endDate": "1945-10-10",
+        "order": 28,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "南雄—大悟（南下支队北返）",
+          "en": "Nanxiong–Dawushan (Southward Column, northward return)"
+        },
+        "description": {
+          "zh": "1945 年 8 月南下支队进抵南雄后遭国民党军重兵堵截，与东江纵队会师未成；日本投降后奉命北返，经遂川、茶陵、萍乡、宜春、浏阳、平江、岳阳、咸宁、鄂城、黄冈、黄安，10 月上旬回到鄂豫边大悟山与第五师会师，随后恢复第359旅番号、编入中原军区。示意简化路线，待史料校订。",
+          "en": "After reaching Nanxiong in August 1945 the Southward Column was blocked by strong KMT forces and failed to link up with the Dongjiang Column. After Japan’s surrender it was ordered north, passing Suichuan, Chaling, Pingxiang, Yichun, Liuyang, Pingjiang, Yueyang, Xianning, Echeng, Huanggang and Huang’an, and returned to Dawushan in the Hubei–Henan border area in early October, where it rejoined the 5th Division, resumed the 359th Brigade designation and joined the Central Plains Military District. Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
