@@ -8136,8 +8136,8 @@
       "en": "Shandong’s local uprising forces were reorganized at Wangzhuang, Yishui, as the Shandong Column, unifying the province’s anti-Japanese forces."
     },
     "description": {
-      "zh": "1938 年 12 月 27 日，中共中央决定在山东沂水王庄成立八路军山东纵队，统一指挥山东各地共产党领导的抗日武装（鲁西、冀鲁边另成系统）。张经武任指挥，黎玉任政治委员，王建安任副指挥，王彬任参谋长，江华任政治部主任，下辖第二、第三、第四、第五、第六、第八、第九、第十二支队等 10 个支队又 3 个团，共 2.45 万余人。这支部队以山东各地抗日武装起义（徂徕山、天福山、黑铁山、牛头镇等）的基干队伍为基础编成，不是由八路军主力入鲁后组建；1938 年 6 月各地起义武装已统一使用「八路军山东人民抗日游击队」番号，12 月改称山东纵队。1942 年 8 月，山东纵队改为山东军区；1943 年 3 月，山东军区与第115师合并为新的山东军区。\n\n成立日期、主官与兵力为通行说法，待页码级核对。",
-      "en": "On 27 December 1938 the CCP Central Committee decided to establish the Eighth Route Army’s Shandong Column at Wangzhuang, Yishui, to command the Communist-led anti-Japanese forces across Shandong (western Shandong and the Hebei-Shandong border area remained separate). Zhang Jingwu was commander, Li Yu political commissar, Wang Jian’an deputy commander, Wang Bin chief of staff, and Jiang Hua director of the political department, with ten detachments and three regiments—more than 24,500 men. The column was formed from the cadre units of Shandong’s local anti-Japanese uprisings (Culaishan, Tianfushan, Heitieshan, Niutouzhen, and others); it was not created by a main-force unit entering the province. In June 1938 the uprising forces had already adopted the designation “Eighth Route Army Shandong People’s Anti-Japanese Guerrillas,” renamed the Shandong Column in December. In August 1942 the column became the Shandong Military Region; in March 1943 that region merged with the 115th Division to form the new Shandong Military Region.\n\nDates, appointments, and force size follow conventional accounts and await page-level verification."
+      "zh": "1938 年 12 月 27 日，中共中央决定在山东沂水王庄成立八路军山东纵队，统一指挥山东各地共产党领导的抗日武装（鲁西、冀鲁边另成系统）。张经武任指挥，黎玉任政治委员，王建安任副指挥，王彬任参谋长，江华任政治部主任，下辖第二、第三、第四、第五、第六、第八、第九、第十二支队等 10 个支队又 3 个团，共 2.45 万余人。这支部队以山东各地抗日武装起义（徂徕山、天福山、黑铁山、牛头镇等）的基干队伍为基础编成，不是由八路军主力入鲁后组建；1938 年 6 月各地起义武装已统一使用「八路军山东人民抗日游击队」番号，12 月改称山东纵队。1942 年 8 月，山东纵队改为山东军区；1943 年 3 月，山东军区与第115师合并为新的山东军区。本事件为建军建制，不绘制行军路线。\n\n成立日期、主官与兵力为通行说法，待页码级核对。",
+      "en": "On 27 December 1938 the CCP Central Committee decided to establish the Eighth Route Army’s Shandong Column at Wangzhuang, Yishui, to command the Communist-led anti-Japanese forces across Shandong (western Shandong and the Hebei-Shandong border area remained separate). Zhang Jingwu was commander, Li Yu political commissar, Wang Jian’an deputy commander, Wang Bin chief of staff, and Jiang Hua director of the political department, with ten detachments and three regiments—more than 24,500 men. The column was formed from the cadre units of Shandong’s local anti-Japanese uprisings (Culaishan, Tianfushan, Heitieshan, Niutouzhen, and others); it was not created by a main-force unit entering the province. In June 1938 the uprising forces had already adopted the designation “Eighth Route Army Shandong People’s Anti-Japanese Guerrillas,” renamed the Shandong Column in December. In August 1942 the column became the Shandong Military Region; in March 1943 that region merged with the 115th Division to form the new Shandong Military Region. This is a formation event and no march route is drawn.\n\nDates, appointments, and force size follow conventional accounts and await page-level verification."
     },
     "images": [],
     "sources": [
@@ -8166,7 +8166,10 @@
       "pingyuan-guerrilla-directive-1938-04",
       "115th-division-shandong-1939-03"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "fifth-plenary-session-1939-01",
