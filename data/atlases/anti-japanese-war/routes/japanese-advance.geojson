@@ -2488,6 +2488,1024 @@
         }
       },
       "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.32,
+            43.82
+          ],
+          [
+            125.9,
+            43.9
+          ],
+          [
+            126.55,
+            43.85
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1931-09-19",
+        "endDate": "1931-09-21",
+        "order": 65,
+        "segmentType": "advance",
+        "name": {
+          "zh": "长春—吉林（九一八后东进）",
+          "en": "Changchun–Jilin (advance after Mukden)"
+        },
+        "description": {
+          "zh": "1931 年 9 月 19 日至 21 日，日军自长春沿吉长铁路东进，占领吉林省城吉林。示意简化路线。",
+          "en": "From 19 to 21 September 1931 Japanese forces advanced east from Changchun along the Jilin–Changchun railway and occupied Jilin City. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            125.32,
+            43.82
+          ],
+          [
+            124.35,
+            43.17
+          ],
+          [
+            123.5,
+            43.5
+          ],
+          [
+            122.79,
+            45.34
+          ],
+          [
+            123.92,
+            47.35
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1931-11-04",
+        "endDate": "1931-11-19",
+        "order": 66,
+        "segmentType": "advance",
+        "name": {
+          "zh": "长春—洮南—齐齐哈尔（江桥作战）",
+          "en": "Changchun–Taonan–Qiqihar (Jiangqiao campaign)"
+        },
+        "description": {
+          "zh": "1931 年 11 月，日军第 2 师团等部沿洮昂铁路北犯，在嫩江江桥遭马占山部抵抗，11 月 19 日占领齐齐哈尔。示意简化路线。",
+          "en": "In November 1931 the Japanese 2nd Division and other units advanced north along the Tao’ang railway, met Ma Zhanshan’s resistance at the Nen River bridge, and occupied Qiqihar on 19 November. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.34,
+            30.74
+          ],
+          [
+            120.75,
+            30.75
+          ],
+          [
+            120.15,
+            30.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-05",
+        "endDate": "1937-12-24",
+        "order": 67,
+        "segmentType": "advance",
+        "name": {
+          "zh": "金山卫—嘉兴—杭州（第10军登陆）",
+          "en": "Jinshanwei–Jiaxing–Hangzhou (10th Army landing)"
+        },
+        "description": {
+          "zh": "1937 年 11 月 5 日，日军第 10 军在金山卫登陆，经嘉兴西进，12 月 24 日占领杭州。示意简化路线。",
+          "en": "On 5 November 1937 the Japanese 10th Army landed at Jinshanwei, advanced west through Jiaxing and occupied Hangzhou on 24 December. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117,
+            36.65
+          ],
+          [
+            118.05,
+            36.8
+          ],
+          [
+            119.1,
+            36.7
+          ],
+          [
+            120.38,
+            36.07
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-12-27",
+        "endDate": "1938-01-10",
+        "order": 68,
+        "segmentType": "advance",
+        "name": {
+          "zh": "济南—青岛（胶济线）",
+          "en": "Jinan–Qingdao (Jiaoji railway)"
+        },
+        "description": {
+          "zh": "1937 年 12 月 27 日济南沦陷后，日军沿胶济铁路东进，1938 年 1 月 10 日占领青岛。示意简化路线。",
+          "en": "After the fall of Jinan on 27 December 1937, Japanese forces advanced east along the Jiaoji railway and occupied Qingdao on 10 January 1938. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.18,
+            24.51
+          ],
+          [
+            118.12,
+            24.5
+          ],
+          [
+            118.08,
+            24.48
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-05-10",
+        "endDate": "1938-05-13",
+        "order": 69,
+        "segmentType": "advance",
+        "name": {
+          "zh": "五通—厦门（登陆厦门）",
+          "en": "Wutong–Xiamen (landing at Xiamen)"
+        },
+        "description": {
+          "zh": "1938 年 5 月 10 日，日军在厦门五通登陆，经莲坂、市区推进，5 月 13 日控制厦门全岛。示意简化路线。",
+          "en": "On 10 May 1938 Japanese forces landed at Wutong on Xiamen Island, advanced through Lianban and the city, and controlled the whole island by 13 May. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.26,
+            23.13
+          ],
+          [
+            113.67,
+            22.81
+          ],
+          [
+            113.8,
+            22.75
+          ],
+          [
+            113.92,
+            22.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-08-13",
+        "endDate": "1939-08-15",
+        "order": 70,
+        "segmentType": "advance",
+        "name": {
+          "zh": "广州—虎门—深圳（切断粤港交通）",
+          "en": "Guangzhou–Humen–Shenzhen (cutting the Guangdong–Hong Kong link)"
+        },
+        "description": {
+          "zh": "1939 年 8 月 13 日，日军第 18 师团自虎门出发，在宝安登陆，8 月 15 日占领南头、深圳，切断粤港陆路交通。示意简化路线。",
+          "en": "On 13 August 1939 the Japanese 18th Division moved from Humen, landed in Bao’an, and occupied Nantou and Shenzhen on 15 August, cutting the Guangdong–Hong Kong land route. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.75,
+            23.33
+          ],
+          [
+            116.72,
+            23.34
+          ],
+          [
+            116.68,
+            23.35
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-06-21",
+        "endDate": "1939-06-22",
+        "order": 71,
+        "segmentType": "advance",
+        "name": {
+          "zh": "妈屿—汕头（登陆汕头）",
+          "en": "Mayu–Shantou (landing at Shantou)"
+        },
+        "description": {
+          "zh": "1939 年 6 月 21 日凌晨，日军在汕头港外妈屿岛登陆，22 日凌晨攻入汕头市区。示意简化路线。",
+          "en": "Before dawn on 21 June 1939 Japanese forces landed on Mayu Island outside Shantou harbour and entered central Shantou in the early hours of 22 June. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.68,
+            23.35
+          ],
+          [
+            116.65,
+            23.5
+          ],
+          [
+            116.62,
+            23.66
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-06-22",
+        "endDate": "1939-06-27",
+        "order": 72,
+        "segmentType": "advance",
+        "name": {
+          "zh": "汕头—潮州（潮汕作战）",
+          "en": "Shantou–Chaozhou (Chaoshan operation)"
+        },
+        "description": {
+          "zh": "1939 年 6 月 25 日，日军自汕头北上进攻潮州，27 日占领潮州城。示意简化路线。",
+          "en": "On 25 June 1939 Japanese forces advanced north from Shantou toward Chaozhou and occupied the city on 27 June. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.32,
+            22.82
+          ],
+          [
+            107.4,
+            22.4
+          ],
+          [
+            106.72,
+            22.1
+          ],
+          [
+            106.76,
+            21.85
+          ],
+          [
+            105.85,
+            21.03
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-09-22",
+        "endDate": "1940-09-26",
+        "order": 73,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南宁—镇南关—河内（进驻法属印度支那北部）",
+          "en": "Nanning–Zhennanguan–Hanoi (entry into northern French Indochina)"
+        },
+        "description": {
+          "zh": "1940 年 9 月 22 日，日军自镇南关进入法属印度支那北部，经谅山进驻河内，切断滇越铁路。示意简化路线。",
+          "en": "On 22 September 1940 Japanese forces entered northern French Indochina through Zhennanguan, advanced via Lang Son and occupied Hanoi, cutting the Yunnan–Vietnam railway. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.15,
+            30.27
+          ],
+          [
+            120.4,
+            30.15
+          ],
+          [
+            120.58,
+            30
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-04-16",
+        "endDate": "1941-04-17",
+        "order": 74,
+        "segmentType": "advance",
+        "name": {
+          "zh": "杭州—绍兴（宁绍战役）",
+          "en": "Hangzhou–Shaoxing (Ningbo–Shaoxing campaign)"
+        },
+        "description": {
+          "zh": "1941 年 4 月 16 日至 17 日，日军第 13 军自杭州附近南渡钱塘江，占领绍兴，宁绍战役开始。示意简化路线。",
+          "en": "From 16 to 17 April 1941 the Japanese 13th Army crossed the Qiantang River south of Hangzhou and occupied Shaoxing, opening the Ningbo–Shaoxing campaign. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.72,
+            29.95
+          ],
+          [
+            121.65,
+            29.92
+          ],
+          [
+            121.55,
+            29.87
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-04-19",
+        "endDate": "1941-04-20",
+        "order": 75,
+        "segmentType": "advance",
+        "name": {
+          "zh": "镇海—宁波（宁绍战役登陆）",
+          "en": "Zhenhai–Ningbo (Ningbo–Shaoxing campaign landing)"
+        },
+        "description": {
+          "zh": "1941 年 4 月 19 日，日军在镇海登陆，沿甬江西进，4 月 20 日占领宁波。示意简化路线。",
+          "en": "On 19 April 1941 Japanese forces landed at Zhenhai and advanced west along the Yong River, occupying Ningbo on 20 April. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.65,
+            27.78
+          ],
+          [
+            120.68,
+            27.9
+          ],
+          [
+            120.7,
+            28
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-04-18",
+        "endDate": "1941-04-19",
+        "order": 76,
+        "segmentType": "advance",
+        "name": {
+          "zh": "瑞安—温州（温州第一次沦陷）",
+          "en": "Rui’an–Wenzhou (first fall of Wenzhou)"
+        },
+        "description": {
+          "zh": "1941 年 4 月 18 日，日军在瑞安飞云江口登陆，占领瑞安，19 日北犯温州。示意简化路线。",
+          "en": "On 18 April 1941 Japanese forces landed at the Feiyun River mouth, occupied Rui’an and advanced north to Wenzhou on 19 April. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.6,
+            26.05
+          ],
+          [
+            119.5,
+            26.02
+          ],
+          [
+            119.4,
+            26.05
+          ],
+          [
+            119.3,
+            26.08
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-04-19",
+        "endDate": "1941-04-21",
+        "order": 77,
+        "segmentType": "advance",
+        "name": {
+          "zh": "闽江口—福州（第一次福州战役）",
+          "en": "Min River estuary–Fuzhou (first battle for Fuzhou)"
+        },
+        "description": {
+          "zh": "1941 年 4 月 19 日，日军在闽江口两侧登陆，经连江、长乐向福州推进，21 日占领福州。示意简化路线。",
+          "en": "On 19 April 1941 Japanese forces landed on both sides of the Min River estuary, advanced on Fuzhou via Lianjiang and Changle, and occupied the city on 21 April. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.07,
+            24.08
+          ],
+          [
+            98.4,
+            24.4
+          ],
+          [
+            98.69,
+            24.59
+          ],
+          [
+            98.87,
+            24.98
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1942-05-03",
+        "endDate": "1942-05-05",
+        "order": 78,
+        "segmentType": "advance",
+        "name": {
+          "zh": "畹町—龙陵—惠通桥（日军侵入滇西）",
+          "en": "Wanding–Longling–Huitong Bridge (Japanese invasion of western Yunnan)"
+        },
+        "description": {
+          "zh": "1942 年 5 月 3 日，日军自缅甸占领畹町，沿滇缅公路北犯，4 日占龙陵，5 日进抵惠通桥，被阻于怒江。示意简化路线。",
+          "en": "On 3 May 1942 Japanese forces occupied Wanding from Burma, advanced north along the Burma Road, took Longling on 4 May and reached the Huitong Bridge on 5 May, where they were halted at the Salween. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.6,
+            26.05
+          ],
+          [
+            119.52,
+            26
+          ],
+          [
+            119.42,
+            26.04
+          ],
+          [
+            119.3,
+            26.08
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-09-27",
+        "endDate": "1944-10-04",
+        "order": 79,
+        "segmentType": "advance",
+        "name": {
+          "zh": "闽江口—福州（第二次福州战役）",
+          "en": "Min River estuary–Fuzhou (second battle for Fuzhou)"
+        },
+        "description": {
+          "zh": "1944 年 9 月 27 日，日军在闽江口登陆，经连江、马尾向福州推进，10 月 4 日占领福州。示意简化路线。",
+          "en": "On 27 September 1944 Japanese forces landed at the Min River estuary, advanced on Fuzhou via Lianjiang and Mawei, and occupied the city on 4 October. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.41,
+            24.33
+          ],
+          [
+            108.6,
+            24.5
+          ],
+          [
+            108.06,
+            24.7
+          ],
+          [
+            107.54,
+            25.83
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-11-11",
+        "endDate": "1944-12-02",
+        "order": 80,
+        "segmentType": "advance",
+        "name": {
+          "zh": "柳州—河池—独山（黔南事变）",
+          "en": "Liuzhou–Hechi–Dushan (Qiannan Incident)"
+        },
+        "description": {
+          "zh": "1944 年 11 月 11 日柳州沦陷后，日军沿黔桂铁路北犯，经河池、南丹，12 月 2 日攻占贵州独山。示意简化路线。",
+          "en": "After the fall of Liuzhou on 11 November 1944, Japanese forces advanced north along the Guizhou–Guangxi railway through Hechi and Nandan and captured Dushan, Guizhou, on 2 December. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.32,
+            20.86
+          ],
+          [
+            110.08,
+            20.91
+          ],
+          [
+            110.25,
+            21.38
+          ],
+          [
+            110.36,
+            21.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1943-02-16",
+        "endDate": "1943-02-21",
+        "order": 81,
+        "segmentType": "advance",
+        "name": {
+          "zh": "通明—海康—遂溪—广州湾（雷州半岛作战）",
+          "en": "Tongming–Haikang–Suixi–Guangzhouwan (Leizhou Peninsula operation)"
+        },
+        "description": {
+          "zh": "1943 年 2 月 16 日，日军独立混成第 23 旅团在雷州半岛东海岸通明、下岚登陆，占领海康、遂溪，21 日占领广州湾西营。示意简化路线。",
+          "en": "On 16 February 1943 the Japanese 23rd Independent Mixed Brigade landed at Tongming and Xialan on the east coast of the Leizhou Peninsula, occupied Haikang and Suixi, and took Xiyang in Guangzhouwan on 21 February. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.6,
+            24.8
+          ],
+          [
+            114.07,
+            24.95
+          ],
+          [
+            114.3,
+            25.12
+          ],
+          [
+            114.36,
+            25.4
+          ],
+          [
+            114.94,
+            25.85
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1945-01-28",
+        "endDate": "1945-02-05",
+        "order": 82,
+        "segmentType": "advance",
+        "name": {
+          "zh": "韶关—南雄—大余—赣州（湘粤赣边区作战）",
+          "en": "Shaoguan–Nanxiong–Dayu–Ganzhou (Hunan–Guangdong–Jiangxi border operation)"
+        },
+        "description": {
+          "zh": "1945 年 1 月 28 日韶关沦陷后，日军沿粤汉铁路和赣粤公路北犯，经始兴、南雄、大余，2 月 5 日进占赣州。示意简化路线。",
+          "en": "After the fall of Shaoguan on 28 January 1945, Japanese forces advanced north along the Canton–Hankou railway and the Jiangxi–Guangdong road through Shixing, Nanxiong and Dayu, entering Ganzhou on 5 February. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.5,
+            26.3
+          ],
+          [
+            114.7,
+            26.1
+          ],
+          [
+            114.94,
+            25.85
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1945-01-31",
+        "endDate": "1945-02-05",
+        "order": 83,
+        "segmentType": "advance",
+        "name": {
+          "zh": "遂川—赣州（遂川机场作战）",
+          "en": "Suichuan–Ganzhou (Suichuan airfield operation)"
+        },
+        "description": {
+          "zh": "1945 年 1 月 31 日，日军第 27 师团攻占遂川机场，随后沿公路南下，2 月 5 日进占赣州。示意简化路线。",
+          "en": "On 31 January 1945 the Japanese 27th Division captured the Suichuan airfield and advanced south along the road, entering Ganzhou on 5 February. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.65,
+            29.08
+          ],
+          [
+            119.92,
+            28.45
+          ],
+          [
+            120.29,
+            28.14
+          ],
+          [
+            120.7,
+            28
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1942-07-01",
+        "endDate": "1942-07-11",
+        "order": 84,
+        "segmentType": "advance",
+        "name": {
+          "zh": "金华—丽水—青田—温州（温州第二次沦陷）",
+          "en": "Jinhua–Lishui–Qingtian–Wenzhou (second fall of Wenzhou)"
+        },
+        "description": {
+          "zh": "1942 年 7 月，日军小薗江混成旅团自金华沿丽水、青田南犯，7 月 11 日占领温州。示意简化路线。",
+          "en": "In July 1942 the Japanese Kogiso Mixed Brigade advanced south from Jinhua via Lishui and Qingtian, occupying Wenzhou on 11 July. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.65,
+            29.08
+          ],
+          [
+            119.92,
+            28.45
+          ],
+          [
+            120.29,
+            28.14
+          ],
+          [
+            120.7,
+            28
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-08-22",
+        "endDate": "1944-09-09",
+        "order": 85,
+        "segmentType": "advance",
+        "name": {
+          "zh": "金华—丽水—青田—温州（温州第三次沦陷）",
+          "en": "Jinhua–Lishui–Qingtian–Wenzhou (third fall of Wenzhou)"
+        },
+        "description": {
+          "zh": "1944 年 8 月至 9 月，日军第 13 军甲支队自金华经丽水、青田南犯，9 月 9 日占领温州并长期盘踞。示意简化路线。",
+          "en": "From August to September 1944 the Japanese 13th Army’s Kō Detachment advanced south from Jinhua via Lishui and Qingtian, occupying Wenzhou on 9 September and remaining for a prolonged period. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.9,
+            40.3
+          ],
+          [
+            115.5,
+            40.6
+          ],
+          [
+            114.88,
+            40.82
+          ],
+          [
+            113.3,
+            40.08
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-08-08",
+        "endDate": "1937-09-13",
+        "order": 86,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南口—张家口—大同（平绥线）",
+          "en": "Nankou–Zhangjiakou–Datong (Peiping–Suiyuan railway)"
+        },
+        "description": {
+          "zh": "1937 年 8 月，日军关东军察哈尔派遣兵团沿平绥线西进，8 月 27 日占张家口，9 月 13 日占大同。示意简化路线。",
+          "en": "In August 1937 the Japanese Kwantung Army’s Chahar Expeditionary Force advanced west along the Peiping–Suiyuan railway, taking Zhangjiakou on 27 August and Datong on 13 September. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            115.48,
+            38.87
+          ],
+          [
+            114.5,
+            38.04
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-07-29",
+        "endDate": "1937-10-10",
+        "order": 87,
+        "segmentType": "advance",
+        "name": {
+          "zh": "北平—保定—石家庄（平汉线）",
+          "en": "Beiping–Baoding–Shijiazhuang (Peiping–Hankou railway)"
+        },
+        "description": {
+          "zh": "1937 年 7 月北平沦陷后，日军第 1 军沿平汉线南下，9 月 24 日占保定，10 月 10 日占石家庄。示意简化路线。",
+          "en": "After the fall of Beiping in July 1937, the Japanese 1st Army advanced south along the Peiping–Hankou railway, taking Baoding on 24 September and Shijiazhuang on 10 October. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.5,
+            38.04
+          ],
+          [
+            113.8,
+            37.97
+          ],
+          [
+            112.55,
+            37.87
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-10-10",
+        "endDate": "1937-11-08",
+        "order": 88,
+        "segmentType": "advance",
+        "name": {
+          "zh": "石家庄—娘子关—太原（正太线）",
+          "en": "Shijiazhuang–Niangziguan–Taiyuan (Zhengding–Taiyuan railway)"
+        },
+        "description": {
+          "zh": "1937 年 10 月，日军沿正太线西进，10 月 26 日占娘子关，11 月 8 日占太原。示意简化路线。",
+          "en": "In October 1937 Japanese forces advanced west along the Zhengding–Taiyuan railway, taking Niangziguan on 26 October and Taiyuan on 8 November. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.3,
+            40.08
+          ],
+          [
+            112.3,
+            40.4
+          ],
+          [
+            111.75,
+            40.84
+          ],
+          [
+            109.84,
+            40.66
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-09-13",
+        "endDate": "1937-10-17",
+        "order": 89,
+        "segmentType": "advance",
+        "name": {
+          "zh": "大同—归绥—包头（平绥线西段）",
+          "en": "Datong–Guisui–Baotou (western Peiping–Suiyuan railway)"
+        },
+        "description": {
+          "zh": "1937 年 9 月大同沦陷后，日军沿平绥线西进，10 月 14 日占归绥，10 月 17 日占包头。示意简化路线。",
+          "en": "After the fall of Datong in September 1937, Japanese forces advanced west along the Peiping–Suiyuan railway, taking Guisui on 14 October and Baotou on 17 October. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

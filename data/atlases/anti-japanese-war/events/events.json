@@ -19914,7 +19914,8 @@
     },
     "entityIds": [
       "kmt-forces",
-      "china-resistance"
+      "china-resistance",
+      "japanese-invasion"
     ],
     "category": "投降",
     "summary": {
@@ -20283,5 +20284,4044 @@
       "routeEvent": false
     },
     "atlasId": "anti-japanese-war"
+  },
+  {
+    "id": "changchun-fall-1931-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "长春沦陷",
+      "en": "Fall of Changchun"
+    },
+    "date": "1931-09-19",
+    "location": {
+      "lng": 125.32,
+      "lat": 43.82,
+      "place": {
+        "zh": "吉林长春",
+        "en": "Changchun, Jilin"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "九一八事变次日，日军关东军进攻长春，中国守军抵抗后撤退，长春陷落。",
+      "en": "The day after the Mukden Incident, Japanese Kwantung Army forces attacked Changchun; the Chinese defenders withdrew and the city fell."
+    },
+    "description": {
+      "zh": "1931 年 9 月 19 日，关东军第 2 师团等部向长春发动进攻，驻长春中国军队与日军激战后退往吉林方向，长春当日陷落。长春是南满铁路与中东铁路交会点，沦陷后成为日军控制吉林、黑龙江的重要基地。日期与作战经过为通行说法，待页码级核对。",
+      "en": "On 19 September 1931 the Japanese 2nd Division and other Kwantung Army units attacked Changchun. The Chinese garrison fought briefly and withdrew toward Jilin, and the city fell the same day. As the junction of the South Manchuria and Chinese Eastern railways, Changchun became an important base for Japanese control of Jilin and Heilongjiang. Dates and operational details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "日本防卫厅防卫研究所战史室《中国事变陆军作战史》",
+        "note": "九一八后日军在东北推进时间线参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "jilin-fall-1931-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "吉林沦陷",
+      "en": "Fall of Jilin"
+    },
+    "date": "1931-09-21",
+    "location": {
+      "lng": 126.55,
+      "lat": 43.85,
+      "place": {
+        "zh": "吉林吉林",
+        "en": "Jilin City, Jilin"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军占领长春后沿吉长铁路东进，吉林省城吉林陷落。",
+      "en": "After taking Changchun, Japanese forces advanced east along the Jilin–Changchun railway and occupied Jilin City."
+    },
+    "description": {
+      "zh": "1931 年 9 月 21 日，日军第 2 师团一部沿吉长铁路进攻吉林省城吉林，代理吉林省主席熙洽下令不抵抗，日军占领吉林。吉林沦陷使日军迅速控制吉林省大部。日期为通行说法，待页码级核对。",
+      "en": "On 21 September 1931 a detachment of the Japanese 2nd Division advanced along the Jilin–Changchun railway toward Jilin City. Acting Jilin governor Xi Qia ordered no resistance, and the Japanese occupied the city, rapidly extending their control over most of Jilin province. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "日本防卫厅防卫研究所战史室《中国事变陆军作战史》",
+        "note": "吉长铁路作战参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "qiqihar-fall-1931-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "齐齐哈尔沦陷",
+      "en": "Fall of Qiqihar"
+    },
+    "date": "1931-11-19",
+    "location": {
+      "lng": 123.92,
+      "lat": 47.35,
+      "place": {
+        "zh": "黑龙江齐齐哈尔",
+        "en": "Qiqihar, Heilongjiang"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "江桥抗战后，日军第 2 师团等部攻占黑龙江省城齐齐哈尔。",
+      "en": "After the Jiangqiao resistance, Japanese forces captured Qiqihar, the capital of Heilongjiang."
+    },
+    "description": {
+      "zh": "1931 年 11 月，日军第 2 师团等部沿洮昂铁路北犯，在嫩江江桥遭马占山部抗击。11 月 19 日，日军占领齐齐哈尔，黑龙江省城沦陷。江桥抗战是九一八后中国军队有组织的抵抗之一。日期与兵力为通行说法，待页码级核对。",
+      "en": "In November 1931 the Japanese 2nd Division and other units advanced north along the Tao’ang railway and met resistance from Ma Zhanshan’s forces at the Nen River bridge. On 19 November the Japanese occupied Qiqihar, the provincial capital. The Jiangqiao resistance was one of the first organized Chinese military stands after the Mukden Incident. Dates and strength follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《马占山与江桥抗战》",
+        "note": "江桥抗战与齐齐哈尔沦陷时间线参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "japan-manchukuo-protocol-1932-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "《日满议定书》签订",
+      "en": "Signing of the Japan–Manchukuo Protocol"
+    },
+    "date": "1932-09-15",
+    "location": {
+      "lng": 125.32,
+      "lat": 43.82,
+      "place": {
+        "zh": "吉林长春（伪满称“新京”）",
+        "en": "Changchun, Jilin (Japanese puppet capital “Xinjing”)"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "日本与伪满洲国签订《日满议定书》，正式承认伪满并取得驻军、经营铁路等权益。",
+      "en": "Japan and the puppet state of Manchukuo signed the Japan–Manchukuo Protocol, formalizing Japanese recognition and securing garrison and railway rights."
+    },
+    "description": {
+      "zh": "1932 年 9 月 15 日，日本驻伪满特命全权大使武藤信义与伪满洲国总理郑孝胥在长春签订《日满议定书》。日本据此承认伪满洲国，并取得在伪满驻军、管理铁路和开发资源等特权，东北进一步被纳入日本殖民统治体系。日期为通行说法，待页码级核对。",
+      "en": "On 15 September 1932 Japanese ambassador Mutō Nobuyoshi and Manchukuo premier Zheng Xiaoxu signed the Japan–Manchukuo Protocol in Changchun. Japan recognized the puppet state and secured privileges including troop stationing, railway management and resource development, drawing Northeast China further into its colonial system. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "pingdingshan-massacre-1932-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "平顶山惨案",
+      "en": "Pingdingshan Massacre"
+    },
+    "date": "1932-09-16",
+    "location": {
+      "lng": 123.96,
+      "lat": 41.88,
+      "place": {
+        "zh": "辽宁抚顺平顶山",
+        "en": "Pingdingshan, Fushun, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "惨案",
+    "summary": {
+      "zh": "日军抚顺守备队在平顶山实施大屠杀，杀害大批矿工和平民。",
+      "en": "Japanese garrison troops carried out a massacre at Pingdingshan near Fushun, killing a large number of miners and civilians."
+    },
+    "description": {
+      "zh": "1932 年 9 月 16 日，日军抚顺守备队以报复抗日义勇军袭击为由，包围抚顺平顶山村落，屠杀村民并焚毁房屋。具体死难人数各说不一，通行说法为三千人左右，待页码级核对。本事件为惨案，不绘路线。",
+      "en": "On 16 September 1932 Japanese garrison troops at Fushun, claiming retaliation for an attack by anti-Japanese volunteers, surrounded the village of Pingdingshan, massacred residents and burned the houses. Accounts of the death toll differ; the conventional figure is about 3,000 and awaits page-level verification. As a massacre, this event is not drawn as a route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "抚顺市地方志办公室《平顶山惨案史料》",
+        "note": "惨案经过与死难人数诸说参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "beiping-fall-1937-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "北平沦陷",
+      "en": "Fall of Beiping"
+    },
+    "date": "1937-07-29",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北平",
+        "en": "Beiping (present-day Beijing)"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "卢沟桥事变后日军增兵华北，第 29 军撤离，北平沦陷。",
+      "en": "After the Marco Polo Bridge Incident Japan reinforced North China; the 29th Army withdrew and Beiping fell."
+    },
+    "description": {
+      "zh": "1937 年 7 月 28 日，日军向北平南苑、北苑等地发动总攻，第 29 军副军长佟麟阁、第 132 师师长赵登禹殉国。7 月 29 日，第 29 军奉命撤离北平，日军占领北平。日期为通行说法，待页码级核对。",
+      "en": "On 28 July 1937 Japanese forces launched a general assault on Nanyuan, Beiyuan and other positions around Beiping. 29th Army deputy commander Tong Linge and 132nd Division commander Zhao Dengyu were killed. On 29 July the 29th Army withdrew on orders and the Japanese occupied Beiping. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "tianjin-fall-1937-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "天津沦陷",
+      "en": "Fall of Tianjin"
+    },
+    "date": "1937-07-30",
+    "location": {
+      "lng": 117.2,
+      "lat": 39.13,
+      "place": {
+        "zh": "天津",
+        "en": "Tianjin"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进攻天津，中国守军撤退，天津沦陷。",
+      "en": "Japanese forces attacked Tianjin; the Chinese defenders withdrew and the city fell."
+    },
+    "description": {
+      "zh": "1937 年 7 月 29 日至 30 日，日军第 20 师团等部进攻天津，中国第 38 师等部抵抗后撤离。7 月 30 日天津沦陷，日军控制海河与天津港。日期为通行说法，待页码级核对。",
+      "en": "From 29 to 30 July 1937 the Japanese 20th Division and other units attacked Tianjin. The Chinese 38th Division and other forces resisted and then withdrew. Tianjin fell on 30 July, giving Japan control of the Hai River and Tianjin port. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "japan-coast-blockade-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日本海军封锁中国海岸",
+      "en": "Japanese Naval Blockade of the China Coast"
+    },
+    "date": "1937-08-25",
+    "location": {
+      "lng": 121.5,
+      "lat": 31.4,
+      "place": {
+        "zh": "上海吴淞口外",
+        "en": "Off Wusong, Shanghai"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日本海军宣布封锁中国中部沿海，切断中国海上补给。",
+      "en": "The Japanese navy declared a blockade of China’s central coast, cutting maritime supply lines."
+    },
+    "description": {
+      "zh": "1937 年 8 月 25 日，日本海军第三舰队宣布封锁上海至汕头之间的中国海岸，禁止中国船只航行，随后将封锁范围扩大至中国全部沿海。封锁与日军占领沿海港口相配合，切断了中国经海路输入军需物资的主要通道。日期为通行说法，待页码级核对。",
+      "en": "On 25 August 1937 the Japanese 3rd Fleet declared a blockade of the Chinese coast between Shanghai and Shantou, barring Chinese shipping; the blockade was later extended to the entire Chinese coast. Together with the seizure of coastal ports, it cut China’s main maritime route for importing military supplies. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "日本防卫厅防卫研究所战史室《中国事变陆军作战史》",
+        "note": "日本海军封锁中国沿海时间线参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "shanghai-fall-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "上海沦陷",
+      "en": "Fall of Shanghai"
+    },
+    "date": "1937-11-12",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "淞沪会战后期中国军队西撤，日军占领上海。",
+      "en": "At the end of the Battle of Shanghai the Chinese army withdrew west and Japanese forces occupied the city."
+    },
+    "description": {
+      "zh": "1937 年 11 月，日军第 10 军在金山卫登陆，迂回中国守军侧后。11 月 12 日，中国军队撤离上海，日军占领上海除租界外地区。上海沦陷使日军获得进攻南京的基地。日期为通行说法，待页码级核对。",
+      "en": "In November 1937 the Japanese 10th Army landed at Jinshanwei and turned the Chinese flank. On 12 November the Chinese forces withdrew from Shanghai and the Japanese occupied the city outside the foreign concessions. The fall of Shanghai gave Japan a base for the advance on Nanjing. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "beiping-provisional-government-1937-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "伪中华民国临时政府成立",
+      "en": "Establishment of the Provisional Government of the Republic of China"
+    },
+    "date": "1937-12-14",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "北平",
+        "en": "Beiping (present-day Beijing)"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "日本在北平扶植成立伪中华民国临时政府。",
+      "en": "Japan established the puppet Provisional Government of the Republic of China in Beiping."
+    },
+    "description": {
+      "zh": "1937 年 12 月 14 日，日本在北平扶植成立伪中华民国临时政府，以王克敏为首，管辖华北日占区。伪政权名义上“自治”，实际受日本华北方面军控制。日期为通行说法，待页码级核对。",
+      "en": "On 14 December 1937 Japan installed the puppet Provisional Government of the Republic of China in Beiping under Wang Kemin to administer the Japanese-occupied areas of North China. Nominally autonomous, it was controlled by the Japanese North China Area Army. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "hangzhou-fall-1937-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "杭州沦陷",
+      "en": "Fall of Hangzhou"
+    },
+    "date": "1937-12-24",
+    "location": {
+      "lng": 120.15,
+      "lat": 30.27,
+      "place": {
+        "zh": "浙江杭州",
+        "en": "Hangzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 10 军自金山卫登陆后南下，杭州沦陷。",
+      "en": "After landing at Jinshanwei, the Japanese 10th Army advanced south and captured Hangzhou."
+    },
+    "description": {
+      "zh": "1937 年 11 月，日军第 10 军在金山卫登陆，沿沪杭线西进。12 月 24 日，日军占领杭州，中国守军撤往钱塘江以南。杭州沦陷后，中日两军隔钱塘江对峙。日期为通行说法，待页码级核对。",
+      "en": "In November 1937 the Japanese 10th Army landed at Jinshanwei and advanced west along the Shanghai–Hangzhou line. On 24 December Japanese forces occupied Hangzhou and the Chinese defenders withdrew south of the Qiantang River, where the two sides faced each other across the river. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "jinan-fall-1937-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "济南沦陷",
+      "en": "Fall of Jinan"
+    },
+    "date": "1937-12-27",
+    "location": {
+      "lng": 117,
+      "lat": 36.65,
+      "place": {
+        "zh": "山东济南",
+        "en": "Jinan, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 2 军渡过黄河，占领山东省会济南。",
+      "en": "The Japanese 2nd Army crossed the Yellow River and occupied Jinan, the Shandong provincial capital."
+    },
+    "description": {
+      "zh": "1937 年 12 月，日军第 2 军自河北南下，在济阳、泺口一带渡过黄河。12 月 27 日，日军占领济南，山东省主席韩复榘此前擅自撤退。济南沦陷使日军控制胶济铁路西端。日期为通行说法，待页码级核对。",
+      "en": "In December 1937 the Japanese 2nd Army advanced south from Hebei and crossed the Yellow River near Jiyang and Luokou. On 27 December it occupied Jinan after Shandong chairman Han Fuju had withdrawn without orders. The fall of Jinan gave Japan the western end of the Jiaoji railway. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "nanjing-reform-government-1938-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "伪中华民国维新政府成立",
+      "en": "Establishment of the Reformed Government of the Republic of China"
+    },
+    "date": "1938-03-28",
+    "location": {
+      "lng": 118.8,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏南京",
+        "en": "Nanjing, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "日本在南京扶植成立伪中华民国维新政府。",
+      "en": "Japan established the puppet Reformed Government of the Republic of China in Nanjing."
+    },
+    "description": {
+      "zh": "1938 年 3 月 28 日，日本在南京扶植成立伪中华民国维新政府，以梁鸿志为首，管辖华中日占区。伪维新政府与北平伪临时政府并立，均受日军控制。日期为通行说法，待页码级核对。",
+      "en": "On 28 March 1938 Japan installed the puppet Reformed Government of the Republic of China in Nanjing under Liang Hongzhi to administer the Japanese-occupied areas of Central China. It coexisted with the Beiping provisional regime and was likewise controlled by the Japanese military. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "xiamen-landing-1938-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军登陆厦门",
+      "en": "Japanese Landing at Xiamen"
+    },
+    "date": "1938-05-10",
+    "location": {
+      "lng": 118.18,
+      "lat": 24.51,
+      "place": {
+        "zh": "福建厦门五通",
+        "en": "Wutong, Xiamen, Fujian"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军海军陆战队在厦门五通登陆，厦门保卫战开始。",
+      "en": "Japanese naval landing forces came ashore at Wutong on Xiamen Island, beginning the battle for Xiamen."
+    },
+    "description": {
+      "zh": "1938 年 5 月 10 日凌晨，日军以航母舰载机、军舰炮火掩护，海军陆战队在厦门东北五通一带登陆。中国守军第 75 师守备队、壮丁队和保安警察抵抗，厦门保卫战展开。日期与登陆点据厦门市档案馆藏电报，待页码级核对。",
+      "en": "Before dawn on 10 May 1938, covered by carrier aircraft and naval gunfire, Japanese naval landing forces came ashore at Wutong in northeastern Xiamen. Chinese 75th Division garrison troops, militia and police resisted, opening the battle for Xiamen. The date and landing site follow a telegram held by the Xiamen Municipal Archives and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "厦门市档案馆藏《厦门市政府市长高汉锹致韶关军委会广州行营程参谋长电》",
+        "year": 1938,
+        "note": "1938-05-10 日军登陆与守军抵抗，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "xiamen-fall-1938-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "厦门沦陷",
+      "en": "Fall of Xiamen"
+    },
+    "date": "1938-05-13",
+    "location": {
+      "lng": 118.08,
+      "lat": 24.48,
+      "place": {
+        "zh": "福建厦门",
+        "en": "Xiamen, Fujian"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "厦门保卫战持续三昼夜，厦门全岛沦陷。",
+      "en": "After three days of fighting, the whole of Xiamen Island fell to Japanese forces."
+    },
+    "description": {
+      "zh": "1938 年 5 月 10 日至 13 日，日军在厦门岛逐次推进，中国守军因兵力悬殊撤退。5 月 13 日傍晚，日军控制厦门全岛，厦门沦陷。日期据厦门市档案馆藏档案与地方志，待页码级核对。",
+      "en": "From 10 to 13 May 1938 Japanese forces advanced across Xiamen Island; the outnumbered Chinese garrison withdrew. By the evening of 13 May the Japanese controlled the whole island and Xiamen fell. The date follows archival and local gazetteer accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《厦门抗日战争史料》",
+        "note": "厦门全岛沦陷时间参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "xuzhou-fall-1938-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "徐州沦陷",
+      "en": "Fall of Xuzhou"
+    },
+    "date": "1938-05-19",
+    "location": {
+      "lng": 117.18,
+      "lat": 34.26,
+      "place": {
+        "zh": "江苏徐州",
+        "en": "Xuzhou, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "徐州会战后期中国军队突围，日军占领徐州。",
+      "en": "At the end of the Battle of Xuzhou the Chinese forces broke out and Japanese troops occupied the city."
+    },
+    "description": {
+      "zh": "1938 年 5 月，日军南北夹击徐州。中国第五战区部队在完成台儿庄作战后逐次转移。5 月 19 日，日军占领徐州，陇海、津浦两铁路交会点失守。日期为通行说法，待页码级核对。",
+      "en": "In May 1938 Japanese forces attacked Xuzhou from north and south. After the Taierzhuang fighting, Chinese 5th War Zone troops withdrew in stages. On 19 May the Japanese occupied Xuzhou, seizing the junction of the Longhai and Jin-Pu railways. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "anqing-fall-1938-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "安庆沦陷",
+      "en": "Fall of Anqing"
+    },
+    "date": "1938-06-12",
+    "location": {
+      "lng": 117.05,
+      "lat": 30.53,
+      "place": {
+        "zh": "安徽安庆",
+        "en": "Anqing, Anhui"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军波田支队等部攻占安庆，武汉会战开始。",
+      "en": "Japanese forces including the Bohati Detachment captured Anqing, opening the Battle of Wuhan."
+    },
+    "description": {
+      "zh": "1938 年 6 月 12 日，日军波田支队在海军配合下攻占安庆，武汉会战拉开序幕。安庆是长江中游重要港口，失守后日军沿长江北岸西进。日期为通行说法，待页码级核对。",
+      "en": "On 12 June 1938 the Japanese Bohati Detachment, supported by the navy, captured Anqing, opening the Battle of Wuhan. Anqing was an important port on the middle Yangtze; after its fall the Japanese advanced west along the north bank. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "jiujiang-fall-1938-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "九江沦陷",
+      "en": "Fall of Jiujiang"
+    },
+    "date": "1938-07-26",
+    "location": {
+      "lng": 115.99,
+      "lat": 29.71,
+      "place": {
+        "zh": "江西九江",
+        "en": "Jiujiang, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军攻占九江，武汉会战外围作战扩大。",
+      "en": "Japanese forces captured Jiujiang, widening the outer operations of the Battle of Wuhan."
+    },
+    "description": {
+      "zh": "1938 年 7 月 26 日，日军第 106 师团等部攻占九江，中国守军退守庐山、瑞昌一线。九江沦陷后，日军沿南浔铁路南下，武汉会战进入激烈阶段。日期为通行说法，待页码级核对。",
+      "en": "On 26 July 1938 the Japanese 106th Division and other units captured Jiujiang; Chinese defenders fell back to Lushan and Ruichang. After the fall of Jiujiang the Japanese advanced south along the Nanxun railway and the Battle of Wuhan entered its intense phase. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "koa-in-institute-1938-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "兴亚院成立",
+      "en": "Establishment of the Kōain (Asia Development Board)"
+    },
+    "date": "1938-12-16",
+    "location": {
+      "lng": 139.69,
+      "lat": 35.68,
+      "place": {
+        "zh": "日本东京",
+        "en": "Tokyo, Japan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "日本设立兴亚院，统一管理在华占领区的政治、经济事务。",
+      "en": "Japan established the Kōain to centralize political and economic administration of its occupied areas in China."
+    },
+    "description": {
+      "zh": "1938 年 12 月 16 日，日本设立兴亚院，作为内阁直属机构，统一指导在华占领区的政治、经济和文化事务，并在北平、上海、汉口等地设联络部。兴亚院成立标志着日本对华殖民统治机构化。日期为通行说法，待页码级核对。",
+      "en": "On 16 December 1938 Japan established the Kōain as a cabinet-level body to coordinate political, economic and cultural affairs in its occupied areas in China, with liaison offices in Beiping, Shanghai and Hankou. Its creation marked the institutionalization of Japan’s colonial rule in China. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "shenzhen-fall-1939-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "宝安（深圳）沦陷",
+      "en": "Fall of Bao’an (Shenzhen)"
+    },
+    "date": "1939-08-15",
+    "location": {
+      "lng": 113.92,
+      "lat": 22.55,
+      "place": {
+        "zh": "广东宝安南头（今深圳）",
+        "en": "Nantou, Bao’an (present-day Shenzhen), Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 18 师团在宝安登陆，占领南头、深圳，切断粤港交通。",
+      "en": "The Japanese 18th Division landed in Bao’an and occupied Nantou and Shenzhen, cutting the Guangzhou–Hong Kong land link."
+    },
+    "description": {
+      "zh": "1939 年 8 月 13 日，日军第 18 师团自虎门出发，在宝安蛇口、西乡等地登陆。8 月 15 日占领南头城，随后控制深圳镇，切断广州与香港之间的陆路交通。日期据《深圳通史》与日本防卫省战史档案，待页码级核对。",
+      "en": "On 13 August 1939 the Japanese 18th Division moved from Humen and landed at Shekou and Xixiang in Bao’an. It occupied Nantou on 15 August and then controlled Shenzhen town, cutting the overland link between Guangzhou and Hong Kong. The date follows the Shenzhen History and Japanese defense archives and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "深圳市人民政府地方志办公室《深圳通史（近代卷）》",
+        "note": "日军三次占领宝安与 1939-08 沦陷经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "nanchang-fall-1939-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "南昌沦陷",
+      "en": "Fall of Nanchang"
+    },
+    "date": "1939-03-27",
+    "location": {
+      "lng": 115.89,
+      "lat": 28.68,
+      "place": {
+        "zh": "江西南昌",
+        "en": "Nanchang, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 11 军攻占南昌，南昌会战结束。",
+      "en": "The Japanese 11th Army captured Nanchang, ending the Battle of Nanchang."
+    },
+    "description": {
+      "zh": "1939 年 3 月 17 日，日军第 11 军向南昌发动进攻，中国第 9 战区部队抵抗。3 月 27 日，日军占领南昌，南昌会战结束。日军随后遭到中国军队反攻，4 月一度撤出，5 月再次占领。日期为通行说法，待页码级核对。",
+      "en": "On 17 March 1939 the Japanese 11th Army attacked Nanchang and Chinese 9th War Zone troops resisted. On 27 March the Japanese occupied Nanchang, ending the battle. Chinese counterattacks forced a temporary withdrawal in April before the Japanese retook the city in May. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "shantou-landing-1939-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军登陆汕头",
+      "en": "Japanese Landing at Shantou"
+    },
+    "date": "1939-06-21",
+    "location": {
+      "lng": 116.75,
+      "lat": 23.33,
+      "place": {
+        "zh": "广东汕头妈屿岛",
+        "en": "Mayu Island, Shantou, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军在汕头港外妈屿岛登陆，突袭汕头。",
+      "en": "Japanese forces landed on Mayu Island outside Shantou harbour and attacked the city."
+    },
+    "description": {
+      "zh": "1939 年 6 月 21 日凌晨，日军第 21 军第 104 师团一部及海军陆战队共约万人，在汕头港外妈屿岛、达濠岛登陆，分路进攻汕头市区。中国守军独立第 9 旅、保安第 5 团等部抵抗。日期与兵力为通行说法，待页码级核对。",
+      "en": "Before dawn on 21 June 1939, elements of the Japanese 21st Army’s 104th Division and naval landing forces, about 10,000 men in conventional accounts, landed on Mayu and Dahao islands outside Shantou harbour and attacked the city by several routes. Chinese 9th Independent Brigade and 5th Security Regiment troops resisted. Dates and strength follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "汕头市档案馆《汕头沦陷之突袭》",
+        "note": "1939-06-21 妈屿岛登陆与攻城经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "shantou-fall-1939-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "汕头沦陷",
+      "en": "Fall of Shantou"
+    },
+    "date": "1939-06-22",
+    "location": {
+      "lng": 116.68,
+      "lat": 23.35,
+      "place": {
+        "zh": "广东汕头",
+        "en": "Shantou, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军攻占汕头市区，汕头沦陷。",
+      "en": "Japanese forces captured central Shantou and the city fell."
+    },
+    "description": {
+      "zh": "1939 年 6 月 21 日日军登陆后，22 日凌晨三路攻入汕头市区，汕头沦陷。汕头是广州失守后华南最后一个对外通商口岸，沦陷使中国经潮韶公路输入物资的通道被切断。日期为通行说法，待页码级核对。",
+      "en": "After landing on 21 June 1939, Japanese forces entered central Shantou by three routes in the early hours of 22 June, and the city fell. Shantou was the last major external trading port in South China after the fall of Guangzhou; its loss cut China’s supply route via the Chaozhou–Shaoguan road. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "汕头市档案馆《汕头沦陷之突袭》",
+        "note": "汕头市区沦陷时间与守军抵抗，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "chaozhou-fall-1939-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "潮州沦陷",
+      "en": "Fall of Chaozhou"
+    },
+    "date": "1939-06-27",
+    "location": {
+      "lng": 116.62,
+      "lat": 23.66,
+      "place": {
+        "zh": "广东潮州",
+        "en": "Chaozhou, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军自汕头北上，攻占潮州城。",
+      "en": "Japanese forces advanced north from Shantou and captured Chaozhou."
+    },
+    "description": {
+      "zh": "1939 年 6 月 25 日，日军自汕头分两路进攻潮州，在枫溪、浮洋一带遭中国守军独立第 9 旅等部阻击。6 月 27 日上午，日军攻入潮州城，潮州沦陷。日期据汕头市档案馆档案，待页码级核对。",
+      "en": "On 25 June 1939 Japanese forces advanced from Shantou toward Chaozhou in two columns and met resistance from the Chinese 9th Independent Brigade near Fengxi and Fuyang. On the morning of 27 June they entered Chaozhou, which then fell. The date follows Shantou municipal archives and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "汕头市档案馆《潮州沦陷》",
+        "note": "1939-06-27 潮州城沦陷经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "mengjiang-united-government-1939-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "伪蒙疆联合自治政府成立",
+      "en": "Establishment of the Mengjiang United Autonomous Government"
+    },
+    "date": "1939-09-01",
+    "location": {
+      "lng": 114.89,
+      "lat": 40.82,
+      "place": {
+        "zh": "察哈尔张家口",
+        "en": "Zhangjiakou, Chahar"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "日本扶植的伪蒙疆联合自治政府在张家口成立。",
+      "en": "Japan established the puppet Mengjiang United Autonomous Government in Zhangjiakou."
+    },
+    "description": {
+      "zh": "1939 年 9 月 1 日，日本将察南、晋北、蒙古联盟三个伪政权合并，在张家口成立伪蒙疆联合自治政府，以德穆楚克栋鲁普（德王）为主席。伪政权受日本驻蒙军控制，是日本统治察哈尔、绥远沦陷区的重要工具。日期为通行说法，待页码级核对。",
+      "en": "On 1 September 1939 Japan merged the three puppet regimes of South Chahar, North Shanxi and the Mongol Federation into the Mengjiang United Autonomous Government in Zhangjiakou, with Demchugdongrub (Prince De) as chairman. Controlled by the Japanese garrison army in Mongolia, it was an instrument of Japanese rule over occupied Chahar and Suiyuan. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "nanning-fall-1939-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "南宁沦陷",
+      "en": "Fall of Nanning"
+    },
+    "date": "1939-11-24",
+    "location": {
+      "lng": 108.32,
+      "lat": 22.82,
+      "place": {
+        "zh": "广西南宁",
+        "en": "Nanning, Guangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军在钦州湾登陆后攻占南宁，桂南会战展开。",
+      "en": "After landing at Qinzhou Bay, Japanese forces captured Nanning, opening the Battle of South Guangxi."
+    },
+    "description": {
+      "zh": "1939 年 11 月 15 日，日军第 5 师团等在钦州湾登陆，沿邕钦公路北犯。11 月 24 日，日军占领南宁，随后进攻昆仑关。中国军队调集兵力反攻，桂南会战展开。日期为通行说法，待页码级核对。",
+      "en": "On 15 November 1939 the Japanese 5th Division and other units landed at Qinzhou Bay and advanced north along the Nanning–Qinzhou road. On 24 November they occupied Nanning and then attacked Kunlun Pass. Chinese forces concentrated for a counteroffensive, opening the Battle of South Guangxi. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "yichang-fall-1940-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "宜昌沦陷",
+      "en": "Fall of Yichang"
+    },
+    "date": "1940-06-12",
+    "location": {
+      "lng": 111.29,
+      "lat": 30.69,
+      "place": {
+        "zh": "湖北宜昌",
+        "en": "Yichang, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "枣宜会战后期日军攻占宜昌，长江上游门户失守。",
+      "en": "Late in the Zaoyang–Yichang campaign, Japanese forces captured Yichang, the gateway to the upper Yangtze."
+    },
+    "description": {
+      "zh": "1940 年 5 月，日军发动枣宜会战。6 月 12 日，日军第 13 军等部攻占宜昌，中国军队反攻未克。宜昌是长江上游重要门户，沦陷后重庆受到更大威胁。日期为通行说法，待页码级核对。",
+      "en": "In May 1940 Japan launched the Zaoyang–Yichang campaign. On 12 June the Japanese 13th Army and other units captured Yichang; Chinese counterattacks failed to retake it. Yichang was the gateway to the upper Yangtze, and its fall increased the threat to Chongqing. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "indochina-entry-1940-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进驻法属印度支那北部",
+      "en": "Japanese Entry into Northern French Indochina"
+    },
+    "date": "1940-09-22",
+    "location": {
+      "lng": 105.85,
+      "lat": 21.03,
+      "place": {
+        "zh": "越南河内",
+        "en": "Hanoi, Vietnam"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进驻法属印度支那北部，切断滇越铁路。",
+      "en": "Japanese forces entered northern French Indochina and cut the Yunnan–Vietnam railway."
+    },
+    "description": {
+      "zh": "1940 年 9 月，日本趁法国战败，与维希法国达成协议，日军于 9 月 22 日自镇南关进入法属印度支那北部，随后在海防登陆，进驻河内。日军控制越南北部后，切断滇越铁路，并建立轰炸中国西南和南下南洋的基地。日期为通行说法，待页码级核对。",
+      "en": "In September 1940, exploiting the French defeat, Japan reached an agreement with Vichy France and on 22 September Japanese forces entered northern French Indochina through Zhennanguan, later landing at Haiphong and occupying Hanoi. Control of northern Vietnam cut the Yunnan–Vietnam railway and gave Japan bases for bombing southwest China and for the southward advance. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "ningbo-bacteriological-1940-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "宁波细菌战",
+      "en": "Bacteriological Attack on Ningbo"
+    },
+    "date": "1940-10-27",
+    "location": {
+      "lng": 121.55,
+      "lat": 29.87,
+      "place": {
+        "zh": "浙江宁波",
+        "en": "Ningbo, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "惨案",
+    "summary": {
+      "zh": "日军在宁波投撒鼠疫菌，造成平民感染死亡。",
+      "en": "Japanese forces spread plague bacteria in Ningbo, causing civilian infections and deaths."
+    },
+    "description": {
+      "zh": "1940 年 10 月 27 日，日军第 731 部队在宁波开明街一带投撒带有鼠疫菌的跳蚤、谷物等，引发鼠疫流行，造成平民死亡。具体死亡人数各说不一，待页码级核对。本事件为细菌战惨案，不绘路线。注意：事件日期与“宁波沦陷”（1941-04-20）不同，勿混。",
+      "en": "On 27 October 1940 the Japanese Unit 731 spread plague-infected fleas and grain around Kaiming Street in Ningbo, triggering a plague outbreak and civilian deaths. Accounts of the death toll differ and await page-level verification. This is a bacteriological-warfare atrocity and is not drawn as a route. It is distinct from the fall of Ningbo on 20 April 1941."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《宁波市志》",
+        "note": "1940-10-27 宁波鼠疫细菌战，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "panjiayu-massacre-1941-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "潘家峪惨案",
+      "en": "Panjiayu Massacre"
+    },
+    "date": "1941-01-25",
+    "location": {
+      "lng": 118.16,
+      "lat": 39.98,
+      "place": {
+        "zh": "河北丰润潘家峪",
+        "en": "Panjiayu, Fengrun, Hebei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "惨案",
+    "summary": {
+      "zh": "日军包围冀东潘家峪村，屠杀村民。",
+      "en": "Japanese forces surrounded Panjiayu village in eastern Hebei and massacred its residents."
+    },
+    "description": {
+      "zh": "1941 年 1 月 25 日，日军驻唐山部队包围冀东丰润县潘家峪村，将村民集中屠杀并焚毁房屋。具体死难人数各说不一，通行说法为一千余人，待页码级核对。本事件为惨案，不绘路线。",
+      "en": "On 25 January 1941 Japanese troops based in Tangshan surrounded Panjiayu village in Fengrun, eastern Hebei, massacred the assembled villagers and burned the houses. Accounts of the death toll differ; the conventional figure is over 1,000 and awaits page-level verification. As a massacre, this event is not drawn as a route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《潘家峪惨案史料》",
+        "note": "1941-01-25 惨案经过与死难人数诸说，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "shaoxing-fall-1941-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "绍兴沦陷",
+      "en": "Fall of Shaoxing"
+    },
+    "date": "1941-04-17",
+    "location": {
+      "lng": 120.58,
+      "lat": 30,
+      "place": {
+        "zh": "浙江绍兴",
+        "en": "Shaoxing, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "宁绍战役开始，日军占领绍兴。",
+      "en": "The Ningbo–Shaoxing campaign began and Japanese forces captured Shaoxing."
+    },
+    "description": {
+      "zh": "1941 年 4 月 16 日，日军第 13 军自杭州附近向钱塘江南岸发动进攻，宁绍战役开始。4 月 17 日凌晨，日军占领绍兴，这是战役中中国方面失守的第一座城市。日期据《近代史研究》相关研究，待页码级核对。",
+      "en": "On 16 April 1941 the Japanese 13th Army attacked south across the Qiantang River from near Hangzhou, opening the Ningbo–Shaoxing campaign. In the early hours of 17 April Japanese forces occupied Shaoxing, the first city lost by the Chinese side in the campaign. The date follows research in Modern Chinese History Studies and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "吴敏超《绍兴沦陷——战时的前线与日常》，《近代史研究》2017 年第 5 期",
+        "note": "宁绍战役与绍兴沦陷时间线，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "zhenhai-fall-1941-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "镇海沦陷",
+      "en": "Fall of Zhenhai"
+    },
+    "date": "1941-04-19",
+    "location": {
+      "lng": 121.72,
+      "lat": 29.95,
+      "place": {
+        "zh": "浙江镇海",
+        "en": "Zhenhai, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军在镇海登陆，镇海县城沦陷。",
+      "en": "Japanese forces landed at Zhenhai and captured the county town."
+    },
+    "description": {
+      "zh": "1941 年 4 月 19 日拂晓，日军第 5 师团及海军陆战队在镇海口北岸、江南等地登陆，中国守军暂编第 34 师等部抵抗。当日上午镇海县城沦陷，日军沿甬江西犯宁波。日期为通行说法，待页码级核对。",
+      "en": "At dawn on 19 April 1941 the Japanese 5th Division and naval landing forces came ashore on both banks of the Yong River mouth at Zhenhai; Chinese provisional 34th Division troops resisted. The county town fell that morning and the Japanese advanced west along the Yong River toward Ningbo. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《宁波日报》2014-04-14《日军入侵大事年表》",
+        "note": "镇海登陆与县城沦陷时间，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "ruian-fall-1941-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "瑞安沦陷",
+      "en": "Fall of Rui’an"
+    },
+    "date": "1941-04-18",
+    "location": {
+      "lng": 120.65,
+      "lat": 27.78,
+      "place": {
+        "zh": "浙江瑞安",
+        "en": "Rui’an, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军在飞云江口登陆，占领瑞安县城。",
+      "en": "Japanese forces landed at the Feiyun River mouth and occupied Rui’an."
+    },
+    "description": {
+      "zh": "1941 年 4 月 18 日，日军一部在瑞安飞云江口登陆，突破中国守军滩头阵地，当日占领瑞安县城，随后北犯温州。日期据温州地方史志，待页码级核对。",
+      "en": "On 18 April 1941 a Japanese force landed at the mouth of the Feiyun River, broke through the Chinese beach defenses and occupied Rui’an the same day before advancing north toward Wenzhou. The date follows Wenzhou local histories and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "温州网《温州抗日战争史：四一九事变》",
+        "note": "1941-04-18 瑞安县城沦陷，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 1
+  },
+  {
+    "id": "wenzhou-fall-1941-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "温州沦陷",
+      "en": "First Fall of Wenzhou"
+    },
+    "date": "1941-04-19",
+    "location": {
+      "lng": 120.7,
+      "lat": 28,
+      "place": {
+        "zh": "浙江温州",
+        "en": "Wenzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军在飞云江登陆，占领瑞安、温州。",
+      "en": "After landing at the Feiyun River, Japanese forces occupied Rui’an and Wenzhou."
+    },
+    "description": {
+      "zh": "1941 年 4 月 18 日，日军在瑞安飞云江口登陆，当日占领瑞安县城；4 月 19 日分兵北犯，占领温州城区。日军在温州掠夺物资后于 5 月初撤出。日期据温州地方史志，待页码级核对。",
+      "en": "On 18 April 1941 Japanese forces landed at the Feiyun River mouth and occupied Rui’an; on 19 April they advanced north and took central Wenzhou. After looting supplies, they withdrew in early May. The date follows Wenzhou local histories and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "温州网《温州抗日战争史：四一九事变》",
+        "note": "1941-04-18 瑞安登陆、04-19 温州沦陷，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "ningbo-fall-1941-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "宁波沦陷",
+      "en": "Fall of Ningbo"
+    },
+    "date": "1941-04-20",
+    "location": {
+      "lng": 121.55,
+      "lat": 29.87,
+      "place": {
+        "zh": "浙江宁波",
+        "en": "Ningbo, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军攻占宁波城区，宁波沦陷。",
+      "en": "Japanese forces captured central Ningbo and the city fell."
+    },
+    "description": {
+      "zh": "1941 年 4 月 19 日日军在镇海登陆后沿甬江西进，4 月 20 日下午攻占宁波江北岸、江东和城区，宁波沦陷。日军占领宁波后封锁港口、掠夺物资。日期据《宁波日报》与宁波市档案馆资料，待页码级核对。",
+      "en": "After landing at Zhenhai on 19 April 1941, Japanese forces advanced west along the Yong River and on the afternoon of 20 April captured the north bank, Jiangdong and central Ningbo. The city then fell; Japan closed the port and seized supplies. The date follows Ningbo Daily and municipal archives and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "宁波市档案馆《中共开辟和创建浙东敌后抗日根据地》",
+        "note": "1941-04-20 宁波沦陷，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "fuzhou-landing-1941-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军登陆闽江口",
+      "en": "Japanese Landing at the Min River Estuary"
+    },
+    "date": "1941-04-19",
+    "location": {
+      "lng": 119.6,
+      "lat": 26.05,
+      "place": {
+        "zh": "福建闽江口",
+        "en": "Min River estuary, Fujian"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军在闽江口及连江、长乐沿海登陆，第一次福州战役开始。",
+      "en": "Japanese forces landed at the Min River estuary and along the Lianjiang and Changle coasts, opening the first battle for Fuzhou."
+    },
+    "description": {
+      "zh": "1941 年 4 月 19 日拂晓，日军第 48 师团、第 18 师团一部及海军陆战队在闽江口两侧的连江、长乐沿海多处登陆，随后向福州推进。中国守军第 75 师、第 80 师等部抵抗。日期据《福州史志》，待页码级核对。",
+      "en": "At dawn on 19 April 1941 the Japanese 48th Division, elements of the 18th Division and naval landing forces came ashore at several points around the Min River estuary and along the Lianjiang and Changle coasts, then advanced on Fuzhou. Chinese 75th and 80th Division troops resisted. The date follows Fuzhou local history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "福州市委党史和地方志研究室《福州史志》2020 年第 2 期",
+        "note": "1941-04-19 闽江口登陆与第一次福州战役，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "fuzhou-fall-1941-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "福州沦陷",
+      "en": "First Fall of Fuzhou"
+    },
+    "date": "1941-04-21",
+    "location": {
+      "lng": 119.3,
+      "lat": 26.08,
+      "place": {
+        "zh": "福建福州",
+        "en": "Fuzhou, Fujian"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军攻占福州，福州第一次沦陷。",
+      "en": "Japanese forces captured Fuzhou for the first time."
+    },
+    "description": {
+      "zh": "1941 年 4 月 20 日，日军自连江、长乐分路包围福州；4 月 21 日，马尾失守，当晚日军进入福州城区，福州第一次沦陷。福州沦陷后，日军控制闽江口，封锁福建沿海。日期据《福州史志》，待页码级核对。",
+      "en": "On 20 April 1941 Japanese forces converged on Fuzhou from Lianjiang and Changle. Mawei fell on 21 April and that evening Japanese troops entered central Fuzhou, which fell for the first time. The occupation gave Japan control of the Min River estuary and the Fujian coast. The date follows Fuzhou local history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "福州市委党史和地方志研究室《福州史志》2020 年第 2 期",
+        "note": "1941-04-21 福州第一次沦陷，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "changde-bacteriological-1941-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "常德细菌战",
+      "en": "Bacteriological Attack on Changde"
+    },
+    "date": "1941-11-04",
+    "location": {
+      "lng": 111.7,
+      "lat": 29.03,
+      "place": {
+        "zh": "湖南常德",
+        "en": "Changde, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "惨案",
+    "summary": {
+      "zh": "日军在常德投撒鼠疫菌，引发鼠疫流行。",
+      "en": "Japanese aircraft spread plague bacteria over Changde, triggering an outbreak."
+    },
+    "description": {
+      "zh": "1941 年 11 月 4 日，日军第 731 部队飞机在常德城区投撒带有鼠疫菌的跳蚤、谷物等，随后常德爆发鼠疫，造成平民死亡。具体死亡人数各说不一，待页码级核对。本事件为细菌战惨案，不绘路线。",
+      "en": "On 4 November 1941 aircraft of the Japanese Unit 731 spread plague-infected fleas and grain over central Changde, and a plague outbreak followed, causing civilian deaths. Accounts of the death toll differ and await page-level verification. This is a bacteriological-warfare atrocity and is not drawn as a route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《常德市志》",
+        "note": "1941-11-04 常德鼠疫细菌战，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "shanghai-concession-1941-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进入上海公共租界",
+      "en": "Japanese Entry into the Shanghai International Settlement"
+    },
+    "date": "1941-12-08",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海公共租界",
+        "en": "Shanghai International Settlement"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "太平洋战争爆发当日，日军进入上海公共租界。",
+      "en": "On the day the Pacific War began, Japanese forces entered the Shanghai International Settlement."
+    },
+    "description": {
+      "zh": "1941 年 12 月 8 日，太平洋战争爆发当天，日军从虹口等处进入上海公共租界，解除英美等国驻军武装，上海“孤岛”时期结束。日军随后控制上海租界的市政、金融和新闻。日期为通行说法，待页码级核对。",
+      "en": "On 8 December 1941, the day the Pacific War began, Japanese forces entered the Shanghai International Settlement from Hongkou and other points, disarmed British and American troops and ended Shanghai’s “isolated island” period. Japan then controlled the settlement’s administration, finance and press. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《上海租界志》",
+        "note": "1941-12-08 日军进入上海公共租界，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "hongkong-fall-1941-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "香港沦陷",
+      "en": "Fall of Hong Kong"
+    },
+    "date": "1941-12-25",
+    "location": {
+      "lng": 114.17,
+      "lat": 22.28,
+      "place": {
+        "zh": "香港",
+        "en": "Hong Kong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军攻占香港，香港沦陷。",
+      "en": "Japanese forces captured Hong Kong."
+    },
+    "description": {
+      "zh": "1941 年 12 月 8 日，日军第 38 师团自深圳进攻香港，经十八日战斗，12 月 25 日港督杨慕琦向日军投降，香港沦陷。香港沦陷使日军控制华南沿海，并切断中国经香港的补给线。日期为通行说法，待页码级核对。",
+      "en": "On 8 December 1941 the Japanese 38th Division attacked Hong Kong from Shenzhen. After eighteen days of fighting, Governor Mark Young surrendered on 25 December and Hong Kong fell. The occupation gave Japan control of the South China coast and cut China’s supply route through Hong Kong. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "日本防卫厅防卫研究所战史室《香港作战》",
+        "note": "1941-12-08 至 12-25 香港作战，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "chengdu-bombing-1939-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "成都大轰炸",
+      "en": "Bombing of Chengdu"
+    },
+    "date": "1939-06-11",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "惨案",
+    "summary": {
+      "zh": "日军轰炸成都，造成大量平民伤亡。",
+      "en": "Japanese aircraft bombed Chengdu, causing heavy civilian casualties."
+    },
+    "description": {
+      "zh": "1939 年 6 月 11 日，日军飞机轰炸成都市区，投弹多枚，造成平民伤亡和房屋损毁。具体伤亡数字各说不一，待页码级核对。本事件为战略轰炸惨案，不绘路线。",
+      "en": "On 11 June 1939 Japanese aircraft bombed central Chengdu, causing civilian casualties and destroying houses. Accounts of the casualties differ and await page-level verification. This is a strategic-bombing atrocity and is not drawn as a route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《成都市志·军事志》",
+        "note": "1939-06-11 成都大轰炸，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "jizhong-may-sweep-1942-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "冀中五一大扫荡",
+      "en": "May Day Sweep in Central Hebei"
+    },
+    "date": "1942-05-01",
+    "location": {
+      "lng": 115.56,
+      "lat": 38,
+      "place": {
+        "zh": "河北冀中（深县一带）",
+        "en": "Central Hebei (around Shenxian)"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军华北方面军对冀中根据地发动“五一大扫荡”。",
+      "en": "The Japanese North China Area Army launched the “May Day Sweep” against the Central Hebei base area."
+    },
+    "description": {
+      "zh": "1942 年 5 月 1 日，日军华北方面军调集第 110 师团、第 27 师团及伪军等部，对冀中抗日根据地发动大规模“扫荡”，企图围歼八路军冀中军区部队。八路军采取分散游击、地道战等方式坚持，根据地遭受严重损失。日期与兵力为通行说法，待页码级核对。本事件为战役性“扫荡”，不绘单线。",
+      "en": "On 1 May 1942 the Japanese North China Area Army deployed the 110th and 27th Divisions and puppet troops in a large-scale sweep of the Central Hebei anti-Japanese base area, aiming to destroy the Eighth Route Army’s Central Hebei Military District. The Eighth Route Army dispersed into guerrilla and tunnel warfare; the base area suffered heavy losses. Dates and strength follow conventional accounts and await page-level verification. As a campaign-level sweep, it is not drawn as a single route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "日本防卫厅防卫研究所战史室《中国事变陆军作战史》",
+        "note": "1942 年冀中“五一大扫荡”时间线参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "yunnan-invasion-1942-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军侵入滇西",
+      "en": "Japanese Invasion of Western Yunnan"
+    },
+    "date": "1942-05-03",
+    "location": {
+      "lng": 98.07,
+      "lat": 24.08,
+      "place": {
+        "zh": "云南畹町",
+        "en": "Wanding, Yunnan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 56 师团自缅甸侵入滇西，占领畹町。",
+      "en": "The Japanese 56th Division invaded western Yunnan from Burma and occupied Wanding."
+    },
+    "description": {
+      "zh": "1942 年 5 月，日军第 56 师团自缅甸向中国云南边境推进。5 月 3 日，日军占领畹町，随后沿滇缅公路北犯龙陵、腾冲。中国远征军撤退，滇西沦陷。日期为通行说法，待页码级核对。",
+      "en": "In May 1942 the Japanese 56th Division advanced from Burma toward the Yunnan border. On 3 May it occupied Wanding and then advanced north along the Burma Road toward Longling and Tengchong. The Chinese Expeditionary Force withdrew and western Yunnan fell. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "日本防卫厅防卫研究所战史室《缅甸作战》",
+        "note": "1942 年日军第 56 师团侵入滇西，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "longling-fall-1942-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "龙陵沦陷",
+      "en": "Fall of Longling"
+    },
+    "date": "1942-05-04",
+    "location": {
+      "lng": 98.69,
+      "lat": 24.59,
+      "place": {
+        "zh": "云南龙陵",
+        "en": "Longling, Yunnan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军沿滇缅公路北犯，占领龙陵。",
+      "en": "Japanese forces advanced north along the Burma Road and occupied Longling."
+    },
+    "description": {
+      "zh": "1942 年 5 月 4 日，日军第 56 师团一部占领龙陵，随后继续向惠通桥推进。中国军队炸毁惠通桥，阻止日军东渡怒江。日期为通行说法，待页码级核对。",
+      "en": "On 4 May 1942 a detachment of the Japanese 56th Division occupied Longling and continued toward the Huitong Bridge. Chinese forces blew up the bridge to stop the Japanese from crossing the Salween. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《保山地区志·军事志》",
+        "note": "1942-05-04 龙陵沦陷，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "huitongqiao-1942-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进抵惠通桥",
+      "en": "Japanese Advance to the Huitong Bridge"
+    },
+    "date": "1942-05-05",
+    "location": {
+      "lng": 98.87,
+      "lat": 24.98,
+      "place": {
+        "zh": "云南怒江惠通桥",
+        "en": "Huitong Bridge on the Salween, Yunnan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军进抵惠通桥，中国军队炸桥阻敌。",
+      "en": "Japanese forces reached the Huitong Bridge, which Chinese troops destroyed to block their advance."
+    },
+    "description": {
+      "zh": "1942 年 5 月 5 日，日军先头部队进抵怒江惠通桥，中国守军炸毁桥梁，阻止日军东进。此后中日两军隔怒江对峙，滇西沦陷区形成。日期为通行说法，待页码级核对。",
+      "en": "On 5 May 1942 Japanese advance troops reached the Huitong Bridge over the Salween; Chinese defenders blew up the bridge and halted the Japanese eastward advance. The two sides then faced each other across the Salween, and the occupied zone in western Yunnan took shape. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《保山地区志·军事志》",
+        "note": "1942-05-05 惠通桥炸桥阻敌，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "beituan-massacre-1942-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "北疃惨案",
+      "en": "Beituan Massacre"
+    },
+    "date": "1942-05-27",
+    "location": {
+      "lng": 114.99,
+      "lat": 38.52,
+      "place": {
+        "zh": "河北定县北疃",
+        "en": "Beituan, Dingxian, Hebei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "惨案",
+    "summary": {
+      "zh": "日军在冀中北疃村施放毒气，屠杀村民和地道中的军民。",
+      "en": "Japanese forces used poison gas in Beituan village in Central Hebei, killing villagers and soldiers sheltering in tunnels."
+    },
+    "description": {
+      "zh": "1942 年 5 月 27 日，日军在“五一大扫荡”中对河北定县北疃村施放毒气，杀害躲避在地道中的村民和八路军伤病员。具体死难人数各说不一，待页码级核对。本事件为惨案，不绘路线。",
+      "en": "On 27 May 1942, during the “May Day Sweep,” Japanese forces used poison gas in Beituan village, Dingxian, Hebei, killing villagers and Eighth Route Army wounded sheltering in tunnels. Accounts of the death toll differ and await page-level verification. As a massacre, this event is not drawn as a route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《北疃惨案史料》",
+        "note": "1942-05-27 北疃毒气惨案，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "quzhou-fall-1942-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "衢州沦陷",
+      "en": "Fall of Quzhou"
+    },
+    "date": "1942-06-07",
+    "location": {
+      "lng": 118.87,
+      "lat": 28.97,
+      "place": {
+        "zh": "浙江衢州",
+        "en": "Quzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "浙赣会战中日军攻占衢州机场。",
+      "en": "Japanese forces captured Quzhou and its airfield during the Zhejiang–Jiangxi campaign."
+    },
+    "description": {
+      "zh": "1942 年 6 月 3 日，日军向衢州发起进攻，中国守军第 86 军等部抵抗。6 月 7 日，衢州失守，日军破坏衢州机场。日期为通行说法，待页码级核对。",
+      "en": "On 3 June 1942 Japanese forces attacked Quzhou and Chinese 86th Division troops resisted. Quzhou fell on 7 June and the Japanese destroyed its airfield. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "解放军报《抗战经典战例：浙赣会战》",
+        "note": "1942-06-07 衢州失守，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "shangrao-fall-1942-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "上饶沦陷",
+      "en": "Fall of Shangrao"
+    },
+    "date": "1942-06-14",
+    "location": {
+      "lng": 117.97,
+      "lat": 28.45,
+      "place": {
+        "zh": "江西上饶",
+        "en": "Shangrao, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军攻占上饶，浙赣铁路东段被打通。",
+      "en": "Japanese forces captured Shangrao, opening the eastern section of the Zhejiang–Jiangxi railway."
+    },
+    "description": {
+      "zh": "1942 年 6 月 14 日，日军第 22 师团等部占领上饶，第三战区长官部所在地失守。7 月 1 日，东西两路日军在横峰会合，浙赣铁路被打通。日期据浙赣会战史料，待页码级核对。",
+      "en": "On 14 June 1942 the Japanese 22nd Division and other units occupied Shangrao, seat of the Chinese 3rd War Zone headquarters. On 1 July Japanese columns from east and west met at Hengfeng, opening the Zhejiang–Jiangxi railway. The date follows campaign histories and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "江西省政协《抗战中的横峰县》",
+        "note": "1942-06-14 上饶沦陷，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "zhegan-bacteriological-1942-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "浙赣细菌战",
+      "en": "Bacteriological Warfare in the Zhejiang–Jiangxi Campaign"
+    },
+    "date": "1942-08-21",
+    "location": {
+      "lng": 118.87,
+      "lat": 28.97,
+      "place": {
+        "zh": "浙江衢州、金华、玉山一带",
+        "en": "Quzhou, Jinhua and Yushan area, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "惨案",
+    "summary": {
+      "zh": "日军在浙赣战役撤退时散布细菌，造成疫病流行。",
+      "en": "Retreating Japanese forces spread bacteria during the Zhejiang–Jiangxi campaign, causing epidemics."
+    },
+    "description": {
+      "zh": "1942 年 8 月，日军在浙赣战役撤退过程中，在衢州、金华、玉山一带散布鼠疫、霍乱、伤寒等细菌，造成军民感染死亡。具体死亡人数各说不一，待页码级核对。本事件为细菌战惨案，不绘路线。",
+      "en": "In August 1942, while withdrawing from the Zhejiang–Jiangxi campaign, Japanese forces spread plague, cholera and typhoid bacteria around Quzhou, Jinhua and Yushan, causing military and civilian infections and deaths. Accounts of the death toll differ and await page-level verification. This is a bacteriological-warfare atrocity and is not drawn as a route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "note": "1942 年浙赣细菌战，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "changjiao-massacre-1943-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "厂窖惨案",
+      "en": "Changjiao Massacre"
+    },
+    "date": "1943-05-09",
+    "location": {
+      "lng": 112.28,
+      "lat": 29.13,
+      "place": {
+        "zh": "湖南南县厂窖",
+        "en": "Changjiao, Nanxian, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "惨案",
+    "summary": {
+      "zh": "日军在湖南南县厂窖屠杀平民和难民。",
+      "en": "Japanese forces massacred civilians and refugees at Changjiao in Nanxian, Hunan."
+    },
+    "description": {
+      "zh": "1943 年 5 月 9 日至 12 日，日军在湖南南县厂窖地区屠杀平民和逃难群众，制造厂窖惨案。具体死难人数各说不一，通行说法为三万余人，待页码级核对。本事件为惨案，不绘路线。",
+      "en": "From 9 to 12 May 1943 Japanese forces massacred civilians and refugees in the Changjiao area of Nanxian, Hunan. Accounts of the death toll differ; the conventional figure is over 30,000 and awaits page-level verification. As a massacre, this event is not drawn as a route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《厂窖惨案史料》",
+        "note": "1943-05 厂窖惨案与死难人数诸说，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "zhengzhou-fall-1944-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "郑州沦陷",
+      "en": "Fall of Zhengzhou"
+    },
+    "date": "1944-04-23",
+    "location": {
+      "lng": 113.65,
+      "lat": 34.76,
+      "place": {
+        "zh": "河南郑州",
+        "en": "Zhengzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "豫中会战中日军攻占郑州。",
+      "en": "Japanese forces captured Zhengzhou during the Central Henan campaign."
+    },
+    "description": {
+      "zh": "1944 年 4 月，日军发动豫中会战，第 12 军自中牟、邙山头渡过黄河。4 月 23 日，日军占领郑州。郑州沦陷日期有 4 月 19 日、20 日、23 日诸说，此处取“至 4 月 23 日相继攻陷郑州”的记载，待页码级核对。",
+      "en": "In April 1944 Japan launched the Central Henan campaign; the 12th Army crossed the Yellow River at Zhongmu and the Mangshan foothills. On 23 April Japanese forces occupied Zhengzhou. Accounts of the date vary among 19, 20 and 23 April; this entry follows the record that Zhengzhou was taken by 23 April and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "河南省党史研究室《艰苦卓绝的河南抗日战场》",
+        "note": "1944 年豫中会战与郑州沦陷日期异说，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "xuchang-fall-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "许昌沦陷",
+      "en": "Fall of Xuchang"
+    },
+    "date": "1944-05-01",
+    "location": {
+      "lng": 113.85,
+      "lat": 34.03,
+      "place": {
+        "zh": "河南许昌",
+        "en": "Xuchang, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军攻占许昌，豫中会战扩大。",
+      "en": "Japanese forces captured Xuchang, widening the Central Henan campaign."
+    },
+    "description": {
+      "zh": "1944 年 4 月 30 日，日军第 12 军以三个师团又两个旅进攻许昌，中国守军新编第 29 师抵抗。5 月 1 日，许昌失守。日期为通行说法，待页码级核对。",
+      "en": "On 30 April 1944 the Japanese 12th Army attacked Xuchang with three divisions and two brigades; the Chinese New 29th Division resisted. Xuchang fell on 1 May. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《豫中会战经过》",
+        "note": "1944-05-01 许昌失守，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "luoyang-fall-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "洛阳沦陷",
+      "en": "Fall of Luoyang"
+    },
+    "date": "1944-05-25",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "河南洛阳",
+        "en": "Luoyang, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军攻占洛阳，豫中会战结束。",
+      "en": "Japanese forces captured Luoyang, ending the Central Henan campaign."
+    },
+    "description": {
+      "zh": "1944 年 5 月，日军完成对洛阳的包围。5 月 25 日，中国守军第 15 军等部分路突围，洛阳沦陷，豫中会战结束。日期为通行说法，待页码级核对。",
+      "en": "In May 1944 Japanese forces completed the encirclement of Luoyang. On 25 May the Chinese 15th Army and other units broke out in several directions, Luoyang fell and the Central Henan campaign ended. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《豫中会战经过》",
+        "note": "1944-05-25 洛阳失守，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "changsha-fall-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "长沙沦陷",
+      "en": "Fall of Changsha"
+    },
+    "date": "1944-06-19",
+    "location": {
+      "lng": 112.94,
+      "lat": 28.23,
+      "place": {
+        "zh": "湖南长沙",
+        "en": "Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "长衡会战中日军攻占长沙。",
+      "en": "Japanese forces captured Changsha during the Changsha–Hengyang campaign."
+    },
+    "description": {
+      "zh": "1944 年 6 月，日军发动长衡会战。6 月 19 日，长沙失守，中国第 4 军等部突围。日期为通行说法，待页码级核对。",
+      "en": "In June 1944 Japan launched the Changsha–Hengyang campaign. Changsha fell on 19 June and the Chinese 4th Army and other units broke out. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "note": "1944-06-19 长沙失守，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "hengyang-fall-1944-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "衡阳沦陷",
+      "en": "Fall of Hengyang"
+    },
+    "date": "1944-08-08",
+    "location": {
+      "lng": 112.57,
+      "lat": 26.89,
+      "place": {
+        "zh": "湖南衡阳",
+        "en": "Hengyang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "衡阳保卫战结束，衡阳沦陷。",
+      "en": "The defense of Hengyang ended and the city fell."
+    },
+    "description": {
+      "zh": "1944 年 6 月 22 日至 8 月 8 日，中国第 10 军坚守衡阳 47 天。8 月 8 日，衡阳失守。日期为通行说法，待页码级核对。",
+      "en": "From 22 June to 8 August 1944 the Chinese 10th Army held Hengyang for 47 days. The city fell on 8 August. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "note": "1944-08-08 衡阳失守，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "fuzhou-landing-1944-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军登陆闽江口",
+      "en": "Japanese Landing at the Min River Estuary (1944)"
+    },
+    "date": "1944-09-27",
+    "location": {
+      "lng": 119.6,
+      "lat": 26.05,
+      "place": {
+        "zh": "福建闽江口",
+        "en": "Min River estuary, Fujian"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军在闽江口登陆，第二次福州战役开始。",
+      "en": "Japanese forces landed at the Min River estuary, opening the second battle for Fuzhou."
+    },
+    "description": {
+      "zh": "1944 年 9 月 27 日，日军第 62 独立混成旅团在闽江口晓沃、道沃、浦口、东岱等地登陆，28 日占领连江，随后向福州推进。日期据《福州史志》，待页码级核对。",
+      "en": "On 27 September 1944 the Japanese 62nd Independent Mixed Brigade landed at Xiaowo, Daowo, Pukou and Dongdai around the Min River estuary, occupied Lianjiang on 28 September and advanced on Fuzhou. The date follows Fuzhou local history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "福州市委党史和地方志研究室《福州史志》2020 年第 2 期",
+        "note": "1944-09-27 闽江口登陆与第二次福州战役，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "fuzhou-fall-1944-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "福州沦陷（第二次）",
+      "en": "Second Fall of Fuzhou"
+    },
+    "date": "1944-10-04",
+    "location": {
+      "lng": 119.3,
+      "lat": 26.08,
+      "place": {
+        "zh": "福建福州",
+        "en": "Fuzhou, Fujian"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军攻占福州，福州第二次沦陷。",
+      "en": "Japanese forces captured Fuzhou for the second time."
+    },
+    "description": {
+      "zh": "1944 年 10 月 1 日，日军自连江分两路进攻福州；10 月 4 日，日军从大北岭和马尾两路攻入福州，福州第二次沦陷。日期据《福州史志》，待页码级核对。",
+      "en": "On 1 October 1944 Japanese forces advanced on Fuzhou from Lianjiang in two columns. On 4 October they entered the city from Dabeiling and Mawei, and Fuzhou fell for the second time. The date follows Fuzhou local history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "福州市委党史和地方志研究室《福州史志》2020 年第 2 期",
+        "note": "1944-10-04 福州第二次沦陷，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "guilin-fall-1944-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "桂林沦陷",
+      "en": "Fall of Guilin"
+    },
+    "date": "1944-11-10",
+    "location": {
+      "lng": 110.29,
+      "lat": 25.27,
+      "place": {
+        "zh": "广西桂林",
+        "en": "Guilin, Guangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "桂柳会战中日军攻占桂林。",
+      "en": "Japanese forces captured Guilin during the Guangxi campaign."
+    },
+    "description": {
+      "zh": "1944 年 11 月，日军第 11 军进攻桂林。11 月 10 日，桂林失守，中国守军突围。日期为通行说法，待页码级核对。",
+      "en": "In November 1944 the Japanese 11th Army attacked Guilin. The city fell on 10 November and the Chinese defenders broke out. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "日本防卫厅防卫研究所战史室《一号作战之三广西会战》",
+        "note": "1944-11-10 桂林失守，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "liuzhou-fall-1944-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "柳州沦陷",
+      "en": "Fall of Liuzhou"
+    },
+    "date": "1944-11-11",
+    "location": {
+      "lng": 109.41,
+      "lat": 24.33,
+      "place": {
+        "zh": "广西柳州",
+        "en": "Liuzhou, Guangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军攻占柳州，桂柳会战扩大。",
+      "en": "Japanese forces captured Liuzhou, widening the Guangxi campaign."
+    },
+    "description": {
+      "zh": "1944 年 11 月 11 日，日军占领柳州，随后沿黔桂铁路北犯。日期为通行说法，待页码级核对。",
+      "en": "On 11 November 1944 Japanese forces occupied Liuzhou and then advanced north along the Guizhou–Guangxi railway. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "日本防卫厅防卫研究所战史室《一号作战之三广西会战》",
+        "note": "1944-11-11 柳州失守，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "dushan-fall-1944-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "独山沦陷",
+      "en": "Fall of Dushan"
+    },
+    "date": "1944-12-02",
+    "location": {
+      "lng": 107.54,
+      "lat": 25.83,
+      "place": {
+        "zh": "贵州独山",
+        "en": "Dushan, Guizhou"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军攻占贵州独山，黔南事变达到顶点。",
+      "en": "Japanese forces captured Dushan in Guizhou, the high point of the Qiannan Incident."
+    },
+    "description": {
+      "zh": "1944 年 12 月 2 日，日军第 13 师团一部攻占贵州独山，震动重庆。12 月 4 日日军开始撤退，12 月 8 日独山光复。日期据《黔南事变》史料，待页码级核对。",
+      "en": "On 2 December 1944 a detachment of the Japanese 13th Division captured Dushan in Guizhou, shocking Chongqing. The Japanese began withdrawing on 4 December and Dushan was recovered on 8 December. The date follows Qiannan Incident histories and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "贵州省政协《黔南事变》史料",
+        "note": "1944-12-02 独山沦陷与 12-08 光复，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "laohekou-fall-1945-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "老河口沦陷",
+      "en": "Fall of Laohekou"
+    },
+    "date": "1945-04-08",
+    "location": {
+      "lng": 111.67,
+      "lat": 32.38,
+      "place": {
+        "zh": "湖北老河口",
+        "en": "Laohekou, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "豫西鄂北会战中日军攻占老河口机场。",
+      "en": "Japanese forces captured the Laohekou airfield during the Western Henan–Northern Hubei campaign."
+    },
+    "description": {
+      "zh": "1945 年 3 月，日军发动豫西鄂北会战，进攻南阳、襄阳、老河口。4 月 8 日，日军攻占老河口机场，中国守军撤退。日期为通行说法，待页码级核对。",
+      "en": "In March 1945 Japan launched the Western Henan–Northern Hubei campaign against Nanyang, Xiangyang and Laohekou. On 8 April Japanese forces captured the Laohekou airfield and the Chinese defenders withdrew. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "note": "1945-04-08 老河口机场失守，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "taiwan-retrocession-1945-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "台湾光复",
+      "en": "Retrocession of Taiwan"
+    },
+    "date": "1945-10-25",
+    "location": {
+      "lng": 121.56,
+      "lat": 25.03,
+      "place": {
+        "zh": "台湾台北",
+        "en": "Taipei, Taiwan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "投降",
+    "summary": {
+      "zh": "中国战区台湾省受降仪式在台北举行，台湾光复。",
+      "en": "The Taiwan surrender ceremony of the China Theater was held in Taipei, and Taiwan returned to China."
+    },
+    "description": {
+      "zh": "1945 年 10 月 25 日，中国战区台湾省受降仪式在台北举行，日本台湾总督安藤利吉向中国代表陈仪投降，台湾及澎湖列岛回归中国。日期为通行说法，待页码级核对。本事件为受降事件，不绘路线。",
+      "en": "On 25 October 1945 the China Theater’s Taiwan surrender ceremony was held in Taipei. Japanese governor-general Rikichi Andō surrendered to Chinese representative Chen Yi, and Taiwan and the Penghu Islands returned to China. The date follows conventional accounts and awaits page-level verification. As a surrender event, it is not drawn as a route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与作战背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "note": "1945-10-25 台湾省受降与光复，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "jinshanwei-landing-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军登陆金山卫",
+      "en": "Japanese Landing at Jinshanwei"
+    },
+    "date": "1937-11-05",
+    "location": {
+      "lng": 121.34,
+      "lat": 30.74,
+      "place": {
+        "zh": "江苏金山卫（今属上海）",
+        "en": "Jinshanwei (present-day Shanghai)"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 10 军在金山卫登陆，迂回淞沪中国守军侧后。",
+      "en": "The Japanese 10th Army landed at Jinshanwei, turning the flank of the Chinese forces at Shanghai."
+    },
+    "description": {
+      "zh": "1937 年 11 月 5 日，日军第 10 军在杭州湾北岸金山卫登陆，突破中国守军防线，向松江、嘉兴方向推进，威胁淞沪中国军队侧后。中国军队随后全线西撤，上海于 11 月 12 日沦陷。日期为通行说法，待页码级核对。",
+      "en": "On 5 November 1937 the Japanese 10th Army landed at Jinshanwei on the north bank of Hangzhou Bay, broke through the Chinese defenses and advanced toward Songjiang and Jiaxing, threatening the rear of the Chinese forces at Shanghai. The Chinese army then withdrew along the whole line and Shanghai fell on 12 November. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "金山卫登陆与淞沪撤退时间线参考，待页码级核对"
+      },
+      {
+        "title": "日本防卫厅防卫研究所战史室《中国事变陆军作战史》",
+        "note": "第 10 军登陆作战参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "hirota-three-principles-1935-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "广田三原则提出",
+      "en": "Hirota’s Three Principles"
+    },
+    "date": "1935-10-04",
+    "location": {
+      "lng": 139.69,
+      "lat": 35.68,
+      "place": {
+        "zh": "日本东京",
+        "en": "Tokyo, Japan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "日本内阁决定“广田三原则”，要求中国取缔排日、承认伪满、共同防共。",
+      "en": "The Japanese cabinet adopted “Hirota’s Three Principles,” demanding an end to anti-Japanese activity, recognition of Manchukuo and joint anti-communism."
+    },
+    "description": {
+      "zh": "1935 年 10 月 4 日，日本冈田启介内阁决定《外、陆、海三相关于对华政策的谅解》，即“广田三原则”：中国取缔排日言行并摆脱对欧美依赖、事实上默认伪满洲国、在邻近外蒙地区与日本合作防共。10 月 7 日，广田弘毅向中国驻日大使蒋作宾提出。中方未接受，交涉无果。日期为阁议决定日，待页码级核对。",
+      "en": "On 4 October 1935 the Japanese cabinet of Okada Keisuke adopted the “Understanding of the Foreign, Army and Navy Ministers on Policy toward China,” known as Hirota’s Three Principles: China should suppress anti-Japanese words and deeds and abandon reliance on the Western powers; tacitly accept Manchukuo; and cooperate with Japan against communism in areas bordering Outer Mongolia. Foreign Minister Hirota Kōki presented them to Chinese ambassador Jiang Zuobin on 7 October. China did not accept them and the talks failed. The date is that of the cabinet decision and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "臧运祜《从“广田三原则”到“近卫三原则”》，《社会科学研究》2011 年第 5 期",
+        "note": "阁议日期与三原则内容，待页码级核对"
+      },
+      {
+        "title": "《日本外交文书》昭和期 II 第一部第四卷",
+        "note": "广田—蒋作宾会谈记录，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "konoe-statement-1938-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日本发表“不以国民政府为对手”声明",
+      "en": "Japan’s “Not to Deal with the Nationalist Government” Statement"
+    },
+    "date": "1938-01-16",
+    "location": {
+      "lng": 139.69,
+      "lat": 35.68,
+      "place": {
+        "zh": "日本东京",
+        "en": "Tokyo, Japan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "日本政府发表声明，宣称“不以国民政府为对手”。",
+      "en": "The Japanese government declared that it would “not deal with the Nationalist Government.”"
+    },
+    "description": {
+      "zh": "1938 年 1 月 16 日，日本近卫文麿内阁发表声明，称在国民政府不改变抗日政策的情况下，日本“不以国民政府为对手”，将扶植新政权。声明标志着日本试图以军事压力和政治诱降迫使中国屈服。日期为通行说法，待页码级核对。",
+      "en": "On 16 January 1938 the Japanese cabinet of Konoe Fumimaro declared that, so long as the Nationalist Government did not change its policy of resistance, Japan would “not deal with it” and would foster new regimes instead. The statement marked Japan’s attempt to force China to submit through military pressure and political inducement. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "konoe-new-order-1938-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日本提出“东亚新秩序”",
+      "en": "Japan’s “New Order in East Asia”"
+    },
+    "date": "1938-11-03",
+    "location": {
+      "lng": 139.69,
+      "lat": 35.68,
+      "place": {
+        "zh": "日本东京",
+        "en": "Tokyo, Japan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "日本提出建立“东亚新秩序”，公开否定九国公约体系。",
+      "en": "Japan proclaimed a “New Order in East Asia,” openly rejecting the Washington treaty system."
+    },
+    "description": {
+      "zh": "1938 年 11 月 3 日，日本近卫内阁发表第二次声明，提出建立“东亚新秩序”，声称日本、伪满、中国应相互结合，公开否定华盛顿体系下的门户开放原则。该声明为汪精卫投日后的对华政策定调。日期为通行说法，待页码级核对。",
+      "en": "On 3 November 1938 the second Konoe cabinet issued a statement proclaiming a “New Order in East Asia,” asserting that Japan, Manchukuo and China should be closely linked and openly rejecting the Open Door principle of the Washington system. The statement set the framework for Japan’s China policy after Wang Jingwei’s defection. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "japan-north-central-development-1938-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日本设立华北开发、华中振兴两会社",
+      "en": "Establishment of the North China and Central China Development Companies"
+    },
+    "date": "1938-11-07",
+    "location": {
+      "lng": 139.69,
+      "lat": 35.68,
+      "place": {
+        "zh": "日本东京",
+        "en": "Tokyo, Japan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "经济",
+    "summary": {
+      "zh": "日本设立华北开发、华中振兴两大会社，统制沦陷区经济。",
+      "en": "Japan established the North China and Central China development companies to control the occupied economies."
+    },
+    "description": {
+      "zh": "1938 年 11 月 7 日，日本政府主导的华北开发株式会社与华中振兴株式会社先后成立（华北开发于同年 6 月设立、11 月召开总会；华中振兴 11 月 7 日在上海成立，日期有异说）。两社以“中日合办”名义统制华北、华中的交通、矿业、电力、通信等业，是日本掠夺沦陷区资源的核心机构。日期为通行说法，待页码级核对。",
+      "en": "On 7 November 1938 the Japanese government’s North China Development Company and Central China Development Company were established (the North China company was incorporated in June and held its general meeting in November; the Central China company was founded in Shanghai on 7 November; dates vary). Under a “Sino-Japanese joint venture” formula they controlled transport, mining, electric power and communications in North and Central China and were central to Japan’s extraction of occupied resources. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "两大会社与沦陷区经济统制，待页码级核对"
+      },
+      {
+        "title": "日本国立公文书馆《北支那开发株式会社、中支那振兴株式会社设立关系文书》",
+        "note": "设立经过与法令，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "trautmann-mediation-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "陶德曼调停",
+      "en": "Trautmann Mediation"
+    },
+    "date": "1937-11-05",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏南京",
+        "en": "Nanjing, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "德国驻华大使陶德曼受托转达日本停战条件，调停未成。",
+      "en": "German ambassador Trautmann conveyed Japan’s armistice terms to China; the mediation failed."
+    },
+    "description": {
+      "zh": "1937 年 11 月 5 日，德国驻华大使陶德曼受日本委托，向蒋介石转达日方停战条件，包括承认伪满、华北特殊化、赔款等。随着南京沦陷和日本提出更苛刻条件，调停失败。日期为通行说法，待页码级核对。",
+      "en": "On 5 November 1937 German ambassador Oskar Trautmann, acting at Japan’s request, conveyed Japanese armistice terms to Chiang Kai-shek, including recognition of Manchukuo, special status for North China and indemnities. After the fall of Nanjing and Japan’s harsher terms, the mediation failed. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "时间线与背景参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "事件背景参考，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "leizhou-landing-1943-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军登陆雷州半岛",
+      "en": "Japanese Landing on the Leizhou Peninsula"
+    },
+    "date": "1943-02-16",
+    "location": {
+      "lng": 110.32,
+      "lat": 20.86,
+      "place": {
+        "zh": "广东雷州通明港",
+        "en": "Tongming Port, Leizhou, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军独立混成第 23 旅团在雷州半岛东海岸登陆。",
+      "en": "The Japanese 23rd Independent Mixed Brigade landed on the east coast of the Leizhou Peninsula."
+    },
+    "description": {
+      "zh": "1943 年 2 月 16 日晨，日军独立混成第 23 旅团 1600 余人，在海军舰艇和飞机掩护下，于雷州半岛东海岸通明、下岚两港登陆，随即进攻海康县城。此次作战旨在封锁中国海上交通、掠夺物资并支援太平洋战场。日期与兵力为通行说法，待页码级核对。",
+      "en": "On the morning of 16 February 1943, more than 1,600 troops of the Japanese 23rd Independent Mixed Brigade, covered by warships and aircraft, landed at Tongming and Xialan on the east coast of the Leizhou Peninsula and advanced on Haikang county town. The operation aimed to blockade China’s maritime traffic, seize supplies and support the Pacific theater. Dates and strength follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中共湛江党史网《联防自卫保家卫国》",
+        "note": "1943-02-16 雷州半岛登陆经过，待页码级核对"
+      },
+      {
+        "title": "《遂溪县地方史》",
+        "note": "日军侵占雷州半岛与遂溪，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "leizhou-fall-1943-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "雷州半岛沦陷",
+      "en": "Fall of the Leizhou Peninsula"
+    },
+    "date": "1943-02-19",
+    "location": {
+      "lng": 110.25,
+      "lat": 21.38,
+      "place": {
+        "zh": "广东遂溪",
+        "en": "Suixi, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军占领海康、遂溪，雷州半岛沦陷。",
+      "en": "Japanese forces occupied Haikang and Suixi, and the Leizhou Peninsula fell."
+    },
+    "description": {
+      "zh": "1943 年 2 月 16 日日军登陆后，当日占领海康县城，17 日占客路，18 至 19 日相继占领遂溪城月、洋青及遂溪县城。雷州半岛成为日军封锁华南沿海、掠夺物资的占领区。日期为通行说法，待页码级核对。",
+      "en": "After landing on 16 February 1943, Japanese forces occupied Haikang county town the same day, Khelu on 17 February, and Chengyue, Yangqing and Suixi county town on 18–19 February. The Leizhou Peninsula became an occupied zone for blockading the South China coast and seizing supplies. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中共湛江党史网《联防自卫保家卫国》",
+        "note": "海康、遂溪沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "《遂溪县地方史》",
+        "note": "日军侵占遂溪，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "guangzhouwan-fall-1943-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军占领广州湾",
+      "en": "Japanese Occupation of Guangzhouwan"
+    },
+    "date": "1943-02-21",
+    "location": {
+      "lng": 110.36,
+      "lat": 21.27,
+      "place": {
+        "zh": "广东广州湾西营（今湛江霞山）",
+        "en": "Xiyang, Guangzhouwan (present-day Xiashan, Zhanjiang), Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军海军陆战队占领广州湾西营，广州湾沦陷。",
+      "en": "Japanese naval landing forces occupied Xiyang, and Guangzhouwan fell."
+    },
+    "description": {
+      "zh": "1943 年 2 月 16 日，日军一部 300 余人在广州湾西营登陆，窜占麻章、赤坎；21 日，日本海军陆战队在西营码头登陆，占领西营市区。法国广州湾租借地当局与日军签订移交协定，广州湾沦陷。日期为通行说法，待页码级核对。",
+      "en": "On 16 February 1943 a Japanese force of more than 300 landed at Xiyang in Guangzhouwan and occupied Mazhang and Chikan; on 21 February Japanese naval landing forces came ashore at Xiyang pier and occupied the urban area. The French authorities of the Guangzhouwan leased territory signed a transfer agreement with Japan, and Guangzhouwan fell. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中共湛江党史网《联防自卫保家卫国》",
+        "note": "1943-02-21 广州湾西营沦陷，待页码级核对"
+      },
+      {
+        "title": "《湛江文史资料》",
+        "note": "广州湾租借地移交与日军占领，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "wenzhou-fall-1942-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "温州第二次沦陷",
+      "en": "Second Fall of Wenzhou"
+    },
+    "date": "1942-07-11",
+    "location": {
+      "lng": 120.7,
+      "lat": 28,
+      "place": {
+        "zh": "浙江温州",
+        "en": "Wenzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军小薗江混成旅团沿金华—丽水—温州公路南犯，占领温州。",
+      "en": "The Japanese Kogiso Mixed Brigade advanced south along the Jinhua–Lishui–Wenzhou road and occupied Wenzhou."
+    },
+    "description": {
+      "zh": "1942 年 7 月，日军驻上海的第 13 军所属小薗江混成旅团近千人，沿金华、丽水、青田、温州公路南犯，7 月 1 日占丽水、9 日占青田、11 日占温州，并一度盘踞乐清磐石和瑞安县城，8 月 15 日撤走。日期为通行说法，待页码级核对。",
+      "en": "In July 1942 the Japanese 13th Army’s Kogiso Mixed Brigade, about 1,000 strong and based in Shanghai, advanced south along the Jinhua–Lishui–Qingtian–Wenzhou road, occupying Lishui on 1 July, Qingtian on 9 July and Wenzhou on 11 July. It briefly held Pan’shi in Yueqing and Rui’an county town before withdrawing on 15 August. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "温州网《温州在抗日战争期间为何三次沦陷？》",
+        "note": "1942-07-11 温州第二次沦陷，待页码级核对"
+      },
+      {
+        "title": "《中国共产党浙南历史大事记》",
+        "note": "日军第二次侵占温州与撤出时间，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "wenzhou-fall-1944-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "温州第三次沦陷",
+      "en": "Third Fall of Wenzhou"
+    },
+    "date": "1944-09-09",
+    "location": {
+      "lng": 120.7,
+      "lat": 28,
+      "place": {
+        "zh": "浙江温州",
+        "en": "Wenzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军甲支队自金华经丽水、青田进攻，占领温州并长期盘踞。",
+      "en": "The Japanese Kō Detachment advanced from Jinhua via Lishui and Qingtian and occupied Wenzhou for a prolonged period."
+    },
+    "description": {
+      "zh": "1944 年 9 月，日军第 13 军组织甲支队（后改编为独立混成第 89 旅团）共 4 个大队，由黎冈少将指挥，自金华集结，经丽水、青田，于 9 月 9 日占领温州，随后占领乐清西乡和县城，在瓯江口以北沿海构筑工事、修建简易机场，直至 1945 年 6 月才撤出。日期为通行说法，待页码级核对。",
+      "en": "In September 1944 the Japanese 13th Army formed the Kō Detachment (later the 89th Independent Mixed Brigade), four battalions under Major General Kogiso, which assembled at Jinhua, advanced via Lishui and Qingtian and occupied Wenzhou on 9 September. It then took western Yueqing and the county town, built fortifications and a simple airfield along the coast north of the Ou River mouth, and did not withdraw until June 1945. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "温州网《温州抗日战争史：九九事变》",
+        "note": "1944-09-09 温州第三次沦陷与长期盘踞，待页码级核对"
+      },
+      {
+        "title": "《中国共产党浙南历史大事记》",
+        "note": "日军甲支队编制与撤出时间，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "shaoguan-fall-1945-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "韶关沦陷",
+      "en": "Fall of Shaoguan"
+    },
+    "date": "1945-01-28",
+    "location": {
+      "lng": 113.6,
+      "lat": 24.8,
+      "place": {
+        "zh": "广东韶关（曲江）",
+        "en": "Shaoguan (Qujiang), Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军占领粤北重镇韶关，打通粤汉铁路南段。",
+      "en": "Japanese forces captured Shaoguan, the key northern Guangdong city, opening the southern section of the Canton–Hankou railway."
+    },
+    "description": {
+      "zh": "1945 年 1 月，日军第 6 方面军为打通粤汉铁路南段并破坏赣南空军基地，向粤北、赣南发动进攻。1 月 28 日，日军占领粤北重镇曲江（韶关），随后沿粤汉铁路南北展开。日期为通行说法，待页码级核对。",
+      "en": "In January 1945 the Japanese 6th Area Army attacked northern Guangdong and southern Jiangxi to open the southern section of the Canton–Hankou railway and destroy air bases in southern Jiangxi. On 28 January it captured Qujiang (Shaoguan), the key city of northern Guangdong, and then expanded along the railway. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "note": "1945 年湘粤赣边区作战与韶关沦陷，待页码级核对"
+      },
+      {
+        "title": "赣州市档案馆《赣县年鉴（1945 年）》",
+        "note": "日军第 6 方面军会攻赣南背景，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "nanxiong-fall-1945-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "南雄沦陷",
+      "en": "Fall of Nanxiong"
+    },
+    "date": "1945-02-03",
+    "location": {
+      "lng": 114.3,
+      "lat": 25.12,
+      "place": {
+        "zh": "广东南雄",
+        "en": "Nanxiong, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军自粤北北犯，占领南雄。",
+      "en": "Japanese forces advanced north from northern Guangdong and occupied Nanxiong."
+    },
+    "description": {
+      "zh": "1945 年 2 月 1 日，日军占领始兴；2 月 3 日占领南雄。南路日军随后经南雄进入江西，进攻大余、新城，配合北路日军会攻赣州。日期为通行说法，待页码级核对。",
+      "en": "On 1 February 1945 Japanese forces occupied Shixing and on 3 February Nanxiong. The southern column then entered Jiangxi through Nanxiong, attacked Dayu and Xincheng, and converged with the northern column on Ganzhou. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "note": "1945 年湘粤赣边区作战，待页码级核对"
+      },
+      {
+        "title": "赣州市档案馆《赣县年鉴（1945 年）》",
+        "note": "南路日军经南雄入赣，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "dayu-fall-1945-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "大余沦陷",
+      "en": "Fall of Dayu"
+    },
+    "date": "1945-02-05",
+    "location": {
+      "lng": 114.36,
+      "lat": 25.4,
+      "place": {
+        "zh": "江西大余",
+        "en": "Dayu, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军占领大余县城，继续向新城、赣州推进。",
+      "en": "Japanese forces occupied Dayu and advanced toward Xincheng and Ganzhou."
+    },
+    "description": {
+      "zh": "1945 年 2 月 5 日，南路日军攻占大余县城，随后沿赣余公路北犯，占领黄龙、青龙、池江等地，2 月 8 日与北路日军会攻新城机场。日期为通行说法，待页码级核对。",
+      "en": "On 5 February 1945 the southern Japanese column captured Dayu county town and advanced north along the Ganzhou–Dayu road, occupying Huanglong, Qinglong and Chijiang before joining the northern column in attacking the Xincheng airfield on 8 February. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "note": "1945 年湘粤赣边区作战，待页码级核对"
+      },
+      {
+        "title": "赣州市档案馆《赣县年鉴（1945 年）》",
+        "note": "大余沦陷与新城机场作战，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 1
+  },
+  {
+    "id": "suichuan-airfield-1945-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "遂川机场失守",
+      "en": "Fall of the Suichuan Airfield"
+    },
+    "date": "1945-01-31",
+    "location": {
+      "lng": 114.5,
+      "lat": 26.3,
+      "place": {
+        "zh": "江西遂川",
+        "en": "Suichuan, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 27 师团攻占遂川机场，随后南下进攻赣州。",
+      "en": "The Japanese 27th Division captured the Suichuan airfield and advanced south toward Ganzhou."
+    },
+    "description": {
+      "zh": "1945 年 1 月，日军第 27 师团自湘东茶陵、攸县南下，进攻遂川。1 月 31 日，日军攻占遂川机场，随后占领遂川县城，并沿公路南犯赣州。日期有 1 月 30 日、31 日诸说，待页码级核对。",
+      "en": "In January 1945 the Japanese 27th Division advanced south from Chaling and Youxian in eastern Hunan toward Suichuan. On 31 January it captured the Suichuan airfield, then the county town, and advanced south along the road toward Ganzhou. Accounts differ between 30 and 31 January and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "note": "1945 年湘粤赣边区作战与遂川机场，待页码级核对"
+      },
+      {
+        "title": "江西日报《湘粤赣边区阻击战》",
+        "note": "遂川机场失守与赣州沦陷时间线，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "ganzhou-fall-1945-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "赣州沦陷",
+      "en": "Fall of Ganzhou"
+    },
+    "date": "1945-02-05",
+    "location": {
+      "lng": 114.94,
+      "lat": 25.85,
+      "place": {
+        "zh": "江西赣州",
+        "en": "Ganzhou, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 27 师团进占赣州，赣南沦陷。",
+      "en": "The Japanese 27th Division entered Ganzhou, and southern Jiangxi fell."
+    },
+    "description": {
+      "zh": "1945 年 2 月 5 日，日军第 27 师团进占赣州城，随后占领全城并继续南侵，占领南康、大余、新城等地。赣州于 7 月 12 日被中国军队收复。日期有 2 月 5 日进占、2 月 6 日全城诸说，待页码级核对。",
+      "en": "On 5 February 1945 the Japanese 27th Division entered Ganzhou and then occupied the whole city, continuing south to take Nankang, Dayu and Xincheng. Ganzhou was recovered by Chinese forces on 12 July. Accounts differ between entry on 5 February and full occupation on 6 February and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "赣州市档案馆《赣县年鉴（1945 年）》",
+        "note": "1945-02-05 赣州沦陷、07-12 光复，待页码级核对"
+      },
+      {
+        "title": "江西日报《湘粤赣边区阻击战》",
+        "note": "赣州沦陷与湘粤赣边区作战，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "zhangjiakou-fall-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "张家口沦陷",
+      "en": "Fall of Zhangjiakou"
+    },
+    "date": "1937-08-27",
+    "location": {
+      "lng": 114.88,
+      "lat": 40.82,
+      "place": {
+        "zh": "察哈尔张家口",
+        "en": "Zhangjiakou, Chahar"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军察哈尔派遣兵团占领张家口，控制平绥线东段。",
+      "en": "The Japanese Chahar Expeditionary Force captured Zhangjiakou, controlling the eastern section of the Peiping–Suiyuan railway."
+    },
+    "description": {
+      "zh": "1937 年 8 月，日军关东军察哈尔派遣兵团沿平绥线西进，配合南口作战。8 月 27 日，日军占领张家口，中国守军撤退。张家口沦陷使日军控制察哈尔东部，并为进攻大同打开通路。日期为通行说法，待页码级核对。",
+      "en": "In August 1937 the Japanese Kwantung Army’s Chahar Expeditionary Force advanced west along the Peiping–Suiyuan railway in support of the Nankou operation. On 27 August it captured Zhangjiakou and the Chinese defenders withdrew. The fall of Zhangjiakou gave Japan control of eastern Chahar and opened the route toward Datong. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "note": "1937 年平绥线作战与张家口沦陷，待页码级核对"
+      },
+      {
+        "title": "日本防卫厅防卫研究所战史室《中国事变陆军作战史》",
+        "note": "察哈尔派遣兵团作战，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "baoding-fall-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "保定沦陷",
+      "en": "Fall of Baoding"
+    },
+    "date": "1937-09-24",
+    "location": {
+      "lng": 115.48,
+      "lat": 38.87,
+      "place": {
+        "zh": "河北保定",
+        "en": "Baoding, Hebei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 1 军沿平汉线南下，占领保定。",
+      "en": "The Japanese 1st Army advanced south along the Peiping–Hankou railway and captured Baoding."
+    },
+    "description": {
+      "zh": "1937 年 9 月，日军第 1 军沿平汉线南下，中国守军在第 2 战区节节抵抗。9 月 24 日，日军占领保定，随后继续向石家庄推进。日期为通行说法，待页码级核对。",
+      "en": "In September 1937 the Japanese 1st Army advanced south along the Peiping–Hankou railway against Chinese 2nd War Zone troops. On 24 September it captured Baoding and continued toward Shijiazhuang. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "note": "1937 年平汉线作战与保定沦陷，待页码级核对"
+      },
+      {
+        "title": "日本防卫厅防卫研究所战史室《中国事变陆军作战史》",
+        "note": "第 1 军南下作战，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "shijiazhuang-fall-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "石家庄沦陷",
+      "en": "Fall of Shijiazhuang"
+    },
+    "date": "1937-10-10",
+    "location": {
+      "lng": 114.5,
+      "lat": 38.04,
+      "place": {
+        "zh": "河北石家庄",
+        "en": "Shijiazhuang, Hebei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军占领石家庄，控制平汉、正太两铁路交会点。",
+      "en": "Japanese forces captured Shijiazhuang, controlling the junction of the Peiping–Hankou and Zhengding–Taiyuan railways."
+    },
+    "description": {
+      "zh": "1937 年 10 月，日军第 1 军沿平汉线继续南下。10 月 10 日，日军占领石家庄，控制平汉、正太两铁路交会点，为沿正太线西攻娘子关、太原创造条件。日期为通行说法，待页码级核对。",
+      "en": "In October 1937 the Japanese 1st Army continued south along the Peiping–Hankou railway. On 10 October it captured Shijiazhuang, the junction of the Peiping–Hankou and Zhengding–Taiyuan railways, creating conditions for the westward drive along the Zhengding–Taiyuan line toward Niangziguan and Taiyuan. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "note": "1937 年平汉线作战与石家庄沦陷，待页码级核对"
+      },
+      {
+        "title": "日本防卫厅防卫研究所战史室《中国事变陆军作战史》",
+        "note": "第 1 军占领石家庄，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "niangziguan-fall-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "娘子关失守",
+      "en": "Fall of Niangziguan"
+    },
+    "date": "1937-10-26",
+    "location": {
+      "lng": 113.8,
+      "lat": 37.97,
+      "place": {
+        "zh": "山西平定娘子关",
+        "en": "Niangziguan, Pingding, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "日军第 20 师团等部攻占娘子关，打开晋东门户。",
+      "en": "The Japanese 20th Division and other units captured Niangziguan, opening the eastern gateway to Shanxi."
+    },
+    "description": {
+      "zh": "1937 年 10 月，日军第 20 师团等部沿正太线西进，进攻娘子关。中国军队第 26 路军、第 27 路军等部在娘子关、旧关一带顽强抵抗。10 月 26 日，娘子关失守，日军随后西进太原。日期为通行说法，待页码级核对。",
+      "en": "In October 1937 the Japanese 20th Division and other units advanced west along the Zhengding–Taiyuan railway against Niangziguan. Chinese 26th and 27th Route Army troops resisted stubbornly at Niangziguan and Jiuguan. Niangziguan fell on 26 October and the Japanese advanced west toward Taiyuan. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "note": "1937 年娘子关战役，待页码级核对"
+      },
+      {
+        "title": "日本防卫厅防卫研究所战史室《中国事变陆军作战史》",
+        "note": "第 20 师团正太线作战，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "guisui-fall-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "归绥沦陷",
+      "en": "Fall of Guisui"
+    },
+    "date": "1937-10-14",
+    "location": {
+      "lng": 111.75,
+      "lat": 40.84,
+      "place": {
+        "zh": "绥远归绥（今呼和浩特）",
+        "en": "Guisui (present-day Hohhot), Suiyuan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军占领绥远省会归绥。",
+      "en": "Japanese forces captured Guisui, the capital of Suiyuan."
+    },
+    "description": {
+      "zh": "1937 年 10 月，日军关东军察哈尔派遣兵团沿平绥线西进，进攻绥远。10 月 14 日，日军占领归绥（今呼和浩特），中国守军撤退。归绥沦陷使日军控制绥远东部，随后进攻包头。日期为通行说法，待页码级核对。",
+      "en": "In October 1937 the Japanese Kwantung Army’s Chahar Expeditionary Force advanced west along the Peiping–Suiyuan railway into Suiyuan. On 14 October it captured Guisui (present-day Hohhot) and the Chinese defenders withdrew. The fall of Guisui gave Japan control of eastern Suiyuan and opened the way to Baotou. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "note": "1937 年平绥线西段与归绥沦陷，待页码级核对"
+      },
+      {
+        "title": "日本防卫厅防卫研究所战史室《中国事变陆军作战史》",
+        "note": "察哈尔派遣兵团进攻绥远，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "baotou-fall-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "包头沦陷",
+      "en": "Fall of Baotou"
+    },
+    "date": "1937-10-17",
+    "location": {
+      "lng": 109.84,
+      "lat": 40.66,
+      "place": {
+        "zh": "绥远包头",
+        "en": "Baotou, Suiyuan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军占领包头，平绥线西段沦陷。",
+      "en": "Japanese forces captured Baotou, completing the occupation of the western Peiping–Suiyuan railway."
+    },
+    "description": {
+      "zh": "1937 年 10 月 17 日，日军占领包头，平绥线西段至此基本沦陷。日军随后在绥远扶植伪政权，控制煤炭、铁路等资源。日期为通行说法，待页码级核对。",
+      "en": "On 17 October 1937 Japanese forces captured Baotou, completing the occupation of the western Peiping–Suiyuan railway. Japan then installed puppet authorities in Suiyuan and controlled coal, railway and other resources. The date follows conventional accounts and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "note": "1937 年平绥线西段与包头沦陷，待页码级核对"
+      },
+      {
+        "title": "日本防卫厅防卫研究所战史室《中国事变陆军作战史》",
+        "note": "日军占领包头，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
   }
 ]
