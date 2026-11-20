@@ -3,6 +3,20 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.189] - 2026-11-20
+
+### Fixed
+- 历史省界/地区标注偶发整层消失：`useI18n()` 每次渲染返回新的 `t`，地图重建 effect 以 `t` 为依赖，任何无关重渲染（悬停省名、选中事件等）都会重建图层并停在隐藏状态，必须缩放才恢复。
+- `useI18n()` 的 `t` 改为 `useCallback`，按 `locale` 固定引用。
+- `MapCanvas` 抽出 `applyTerritoryVisibility` / `applyRegionLabelVisibility`，疆域与地区标注重建后立即同步可见性，不再依赖另一个 effect 的执行时机。
+
+### Verify
+- 旧代码复现：悬停省名后 125 个多边形 `visible=0`；修复后同一操作保持 31，无重建。
+- 语言切换、时间轴切换、省界开关：可见数量符合预期（关 0 / 开 31）。
+- `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build` 通过。
+
+---
+
 ## [v1.0.188] - 2026-11-20
 
 ### Fixed

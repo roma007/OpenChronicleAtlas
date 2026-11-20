@@ -1,5 +1,7 @@
 import type {
+  AtlasDataset,
   AtlasEvent,
+  AtlasFilters,
   AtlasRegion,
   AtlasRouteFeature,
   AtlasTerritoryFeature,
@@ -140,6 +142,144 @@ function ringCenter(rings: [number, number][][]): [number, number] {
 function toGcjPoint(coordinate: [number, number]): [number, number] {
   const point = wgs84ToGcj02(coordinate[0], coordinate[1]);
   return [point.lng, point.lat];
+}
+
+interface TerritoryVisibilityState {
+  activeEntityIds: ReadonlySet<string>;
+  currentTime: number;
+  showTerritories: boolean;
+  showAdminBoundaries: boolean;
+  zoom: number;
+}
+
+/**
+ * 时代疆域与历史省界：按时间、图层开关、实体筛选同步可见性。
+ *
+ * 图层重建后必须立即调用一次：AMap 的多边形创建时是隐藏的，若只依赖
+ * 「时间变化」effect 去显示，遇到重建但依赖没变的渲染就会整层消失，
+ * 直到下一次缩放才恢复。
+ */
+function applyTerritoryVisibility(
+  entries: Map<string, TerritoryEntry>,
+  dataset: AtlasDataset,
+  filters: AtlasFilters,
+  state: TerritoryVisibilityState,
+) {
+  // 纯疆域实体（没有路线与事件）不参与图例筛选，始终跟随「时代疆域遮罩」显示。
+  const entitiesWithData = new Set([
+    ...dataset.routes.map((route) => route.properties.entityId),
+    ...dataset.events.flatMap((event) => event.entityIds),
+  ]);
+
+  for (const entry of entries.values()) {
+    const { feature } = entry;
+    const start = parseDateString(feature.properties.startDate);
+    const end = parseDateString(feature.properties.endDate);
+    const entityId = feature.properties.entityId;
+    const ext = feature.properties.extensions ?? {};
+    const isAdmin = ext.kind === 'admin-boundary';
+    const regionId = typeof ext.regionId === 'string' ? ext.regionId : undefined;
+    const selected = Boolean(isAdmin && regionId && filters.regionIds.includes(regionId));
+    const ancestorSelected = Boolean(
+      isAdmin &&
+        regionId &&
+        !selected &&
+        filters.regionIds.some((id) => isRegionDescendant(dataset.regionsById, id, regionId)),
+    );
+    const visible =
+      (isAdmin ? state.showAdminBoundaries : state.showTerritories) &&
+      (entitiesWithData.has(entityId) ? state.activeEntityIds.has(entityId) : true) &&
+      state.currentTime >= start &&
+      state.currentTime <= end;
+    for (const polygon of entry.polygons) {
+      polygon[visible ? 'show' : 'hide']();
+      if (visible && isAdmin) {
+        polygon.setOptions({
+          fillColor: selected || ancestorSelected ? '#8c2f24' : '#5b7f6b',
+          fillOpacity: selected ? 0.1 : ancestorSelected ? 0.05 : 0,
+          strokeColor: selected || ancestorSelected ? '#8c2f24' : '#5b7f6b',
+          strokeOpacity: selected ? 0.95 : ancestorSelected ? 0.7 : 0.65,
+          strokeWeight: selected ? 2.2 : ancestorSelected ? 1.7 : 1.1,
+          strokeStyle: selected || ancestorSelected ? 'solid' : 'dashed',
+          strokeDasharray: selected || ancestorSelected ? undefined : [7, 5],
+        });
+      }
+    }
+    entry.label[
+      visible && (!isAdmin || state.zoom >= 6 || selected || ancestorSelected)
+        ? 'show'
+        : 'hide'
+    ]();
+  }
+}
+
+/**
+ * 地区标注：选区内的县市/地点优先，其次按缩放级别显示，并做屏幕空间避让。
+ *
+ * 与疆域层同理，标注重建后要立即同步一次可见性。
+ */
+function applyRegionLabelVisibility(
+  entries: Map<string, RegionLabelEntry>,
+  map: any,
+  AMap: any,
+  dataset: AtlasDataset,
+  filters: AtlasFilters,
+  state: { showRegionLabels: boolean; zoom: number },
+) {
+  if (!state.showRegionLabels) {
+    for (const entry of entries.values()) entry.label.hide();
+    return;
+  }
+
+  const selectedRegionSet = new Set(filters.regionIds);
+  const expandedRegionSet = new Set<string>();
+  for (const id of filters.regionIds) {
+    for (const region of regionAncestors(dataset.regionsById, id)) {
+      expandedRegionSet.add(region.id);
+    }
+  }
+  const size = map.getSize();
+  const placedRegionRects: ScreenRect[] = [];
+  const regionCandidates = Array.from(entries.values()).sort((a, b) => {
+    const priority = (entry: RegionLabelEntry) => {
+      if (selectedRegionSet.has(entry.region.id)) return 0;
+      if (expandedRegionSet.has(entry.region.id)) return 1;
+      if (entry.region.level === 'municipality') return 2;
+      if (entry.region.level === 'county') return 3;
+      return 4;
+    };
+    return priority(a) - priority(b);
+  });
+  for (const entry of regionCandidates) {
+    const selected = selectedRegionSet.has(entry.region.id);
+    const ancestorSelected = expandedRegionSet.has(entry.region.id);
+    const minZoom =
+      entry.region.level === 'municipality' ? 4.5 : entry.region.level === 'county' ? 7 : 9;
+    const visible = selected || (ancestorSelected && state.zoom >= 6.5) || state.zoom >= minZoom;
+    if (!visible) {
+      entry.label.hide();
+      continue;
+    }
+    const containerPoint = map.lngLatToContainer(
+      new AMap.LngLat(entry.point[0], entry.point[1]),
+    );
+    if (
+      containerPoint.x < -80 ||
+      containerPoint.x > size.width + 80 ||
+      containerPoint.y < -40 ||
+      containerPoint.y > size.height + 40
+    ) {
+      entry.label.hide();
+      continue;
+    }
+    const rect = estimateLabelRect(entry.text, containerPoint.x, containerPoint.y);
+    if (placedRegionRects.some((placed) => rectsOverlap(placed, rect))) {
+      entry.label.hide();
+      continue;
+    }
+    placedRegionRects.push(rect);
+    entry.label.show();
+  }
 }
 
 /** 以公里为单位在局部平面上偏移一个经纬度点 */
@@ -489,6 +629,16 @@ export function MapCanvas() {
       const key = `${feature.properties.entityId}:${index}`;
       territoryEntriesRef.current.set(key, { feature, polygons, label });
     });
+
+    // 重建后立刻同步可见性，避免图层停留在创建时的隐藏状态。
+    const state = useAtlasStore.getState();
+    applyTerritoryVisibility(territoryEntriesRef.current, dataset, state.filters, {
+      activeEntityIds: state.activeEntityIds,
+      currentTime: state.currentTime,
+      showTerritories: state.showTerritories,
+      showAdminBoundaries: state.showAdminBoundaries,
+      zoom: map.getZoom(),
+    });
   }, [dataset, ready, locale, t]);
 
   // 地区标注：县市/地点/院辖市的当时名称，按缩放级别与选区显示
@@ -592,6 +742,17 @@ export function MapCanvas() {
         point: region.point,
       });
     }
+
+    // 标注重建后立刻同步可见性，避免整层标注停在隐藏状态。
+    const state = useAtlasStore.getState();
+    applyRegionLabelVisibility(
+      regionLabelEntriesRef.current,
+      map,
+      AMap,
+      dataset,
+      state.filters,
+      { showRegionLabels: state.showRegionLabels, zoom: map.getZoom() },
+    );
   }, [dataset, ready, locale, showRegionLabels, t]);
 
   // 建立/重建路线：只在专题或图层开关变化时执行
@@ -1296,66 +1457,14 @@ export function MapCanvas() {
     }
 
     // 地区标注：选区内的县市/地点优先，其次按缩放级别显示
-    if (!showRegionLabels) {
-      for (const entry of regionLabelEntriesRef.current.values()) entry.label.hide();
-    } else {
-      const selectedRegionSet = new Set(filters.regionIds);
-      const expandedRegionSet = new Set<string>();
-      for (const id of filters.regionIds) {
-        for (const region of regionAncestors(dataset.regionsById, id)) {
-          expandedRegionSet.add(region.id);
-        }
-      }
-      const size = map.getSize();
-      const placedRegionRects: ScreenRect[] = [];
-      const regionCandidates = Array.from(regionLabelEntriesRef.current.values()).sort(
-        (a, b) => {
-          const priority = (entry: RegionLabelEntry) => {
-            if (selectedRegionSet.has(entry.region.id)) return 0;
-            if (expandedRegionSet.has(entry.region.id)) return 1;
-            if (entry.region.level === 'municipality') return 2;
-            if (entry.region.level === 'county') return 3;
-            return 4;
-          };
-          return priority(a) - priority(b);
-        },
-      );
-      for (const entry of regionCandidates) {
-        const selected = selectedRegionSet.has(entry.region.id);
-        const ancestorSelected = expandedRegionSet.has(entry.region.id);
-        const minZoom =
-          entry.region.level === 'municipality'
-            ? 4.5
-            : entry.region.level === 'county'
-              ? 7
-              : 9;
-        const visible =
-          selected || (ancestorSelected && zoom >= 6.5) || zoom >= minZoom;
-        if (!visible) {
-          entry.label.hide();
-          continue;
-        }
-        const containerPoint = map.lngLatToContainer(
-          new AMap.LngLat(entry.point[0], entry.point[1]),
-        );
-        if (
-          containerPoint.x < -80 ||
-          containerPoint.x > size.width + 80 ||
-          containerPoint.y < -40 ||
-          containerPoint.y > size.height + 40
-        ) {
-          entry.label.hide();
-          continue;
-        }
-        const rect = estimateLabelRect(entry.text, containerPoint.x, containerPoint.y);
-        if (placedRegionRects.some((placed) => rectsOverlap(placed, rect))) {
-          entry.label.hide();
-          continue;
-        }
-        placedRegionRects.push(rect);
-        entry.label.show();
-      }
-    }
+    applyRegionLabelVisibility(
+      regionLabelEntriesRef.current,
+      map,
+      AMap,
+      dataset,
+      filters,
+      { showRegionLabels, zoom },
+    );
 
     // 番号牌：先按时间与缩放筛选，再做屏幕空间避让，重叠时保留优先级高的
     const labelCandidates = Array.from(lineEntriesRef.current.values())
@@ -1386,50 +1495,14 @@ export function MapCanvas() {
     }
 
 
-    // 纯疆域实体（没有路线与事件）不参与图例筛选，始终跟随「时代疆域遮罩」显示。
-    const entitiesWithData = new Set([
-      ...dataset.routes.map((route) => route.properties.entityId),
-      ...dataset.events.flatMap((event) => event.entityIds),
-    ]);
-
-    for (const entry of territoryEntriesRef.current.values()) {
-      const { feature } = entry;
-      const start = parseDateString(feature.properties.startDate);
-      const end = parseDateString(feature.properties.endDate);
-      const entityId = feature.properties.entityId;
-      const ext = feature.properties.extensions ?? {};
-      const isAdmin = ext.kind === 'admin-boundary';
-      const regionId = typeof ext.regionId === 'string' ? ext.regionId : undefined;
-      const selected = Boolean(isAdmin && regionId && filters.regionIds.includes(regionId));
-      const ancestorSelected = Boolean(
-        isAdmin &&
-          regionId &&
-          !selected &&
-          filters.regionIds.some((id) =>
-            isRegionDescendant(dataset.regionsById, id, regionId),
-          ),
-      );
-      const visible =
-        (isAdmin ? showAdminBoundaries : showTerritories) &&
-        (entitiesWithData.has(entityId) ? activeEntityIds.has(entityId) : true) &&
-        currentTime >= start &&
-        currentTime <= end;
-      for (const polygon of entry.polygons) {
-        polygon[visible ? 'show' : 'hide']();
-        if (visible && isAdmin) {
-          polygon.setOptions({
-            fillColor: selected || ancestorSelected ? '#8c2f24' : '#5b7f6b',
-            fillOpacity: selected ? 0.1 : ancestorSelected ? 0.05 : 0,
-            strokeColor: selected || ancestorSelected ? '#8c2f24' : '#5b7f6b',
-            strokeOpacity: selected ? 0.95 : ancestorSelected ? 0.7 : 0.65,
-            strokeWeight: selected ? 2.2 : ancestorSelected ? 1.7 : 1.1,
-            strokeStyle: selected || ancestorSelected ? 'solid' : 'dashed',
-            strokeDasharray: selected || ancestorSelected ? undefined : [7, 5],
-          });
-        }
-      }
-      entry.label[visible && (!isAdmin || zoom >= 6 || selected || ancestorSelected) ? 'show' : 'hide']();
-    }
+    // 时代疆域与历史省界：时间、图层开关、实体筛选
+    applyTerritoryVisibility(territoryEntriesRef.current, dataset, filters, {
+      activeEntityIds,
+      currentTime,
+      showTerritories,
+      showAdminBoundaries,
+      zoom,
+    });
 
     const activeEvents = applyEventFilters(dataset.events, filters).filter((event) =>
       event.entityIds.some((entityId) => activeEntityIds.has(entityId)),
