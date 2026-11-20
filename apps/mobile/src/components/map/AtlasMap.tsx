@@ -43,6 +43,8 @@ export function AtlasMap() {
   const showRegionLabels = useAtlasStore((state) => state.showRegionLabels);
   const regionFocus = useAtlasStore((state) => state.regionFocus);
   const routeFocus = useAtlasStore((state) => state.routeFocus);
+  const selectedRoute = useAtlasStore((state) => state.selectedRoute);
+  const selectRoute = useAtlasStore((state) => state.selectRoute);
   const toggleRegion = useAtlasStore((state) => state.toggleRegion);
   const { locale } = useI18n();
   const zoom = mapView?.zoom ?? dataset?.manifest.defaultView.zoom ?? 4;
@@ -256,6 +258,8 @@ export function AtlasMap() {
           ).size > 1;
         return {
           key,
+          entityId: route.properties.entityId,
+          order: route.properties.order,
           points,
           color: entity?.color ?? colors.cinnabar,
           strokeWidth: style.weight,
@@ -271,6 +275,17 @@ export function AtlasMap() {
       })
       .filter((shape) => shape.points.length >= 2);
   }, [dataset, activeEntityIds, geometries, currentTime, filters.regionIds, locale, zoom]);
+
+  const selectedRoutePoints = useMemo(() => {
+    if (!dataset || !selectedRoute) return [];
+    const route = dataset.routes.find(
+      (item) =>
+        item.properties.entityId === selectedRoute.entityId &&
+        item.properties.order === selectedRoute.order,
+    );
+    if (!route) return [];
+    return route.geometry.coordinates.map(([lng, lat]) => toGcj(lng, lat));
+  }, [dataset, selectedRoute]);
 
   const allPoints = useMemo(() => {
     if (!dataset) return [];
@@ -392,7 +407,10 @@ export function AtlasMap() {
         buildingsEnabled={false}
         customMapStyle={styleId ? { styleId } : undefined}
         onLoad={() => setMapReady(true)}
-        onMapPress={() => selectEvent(null)}
+        onMapPress={() => {
+          selectEvent(null);
+          selectRoute(null);
+        }}
         onCameraIdle={(event) => {
           const camera = event.nativeEvent.cameraPosition;
           if (!camera.target) return;
@@ -422,8 +440,28 @@ export function AtlasMap() {
             strokeWidth={shape.strokeWidth}
             dotted={shape.dotted}
             zIndex={50}
+            onPolylinePress={() =>
+              selectRoute({ entityId: shape.entityId, order: shape.order })
+            }
           />
         ))}
+
+        {selectedRoutePoints.length >= 2 ? (
+          <>
+            <Polyline
+              points={selectedRoutePoints}
+              strokeColor="#f3ead9"
+              strokeWidth={9}
+              zIndex={78}
+            />
+            <Polyline
+              points={selectedRoutePoints}
+              strokeColor="#8c2f24"
+              strokeWidth={4.5}
+              zIndex={79}
+            />
+          </>
+        ) : null}
 
         {routeShapes.flatMap((shape) =>
           shape.endpoints.map((endpoint, index) => (

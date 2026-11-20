@@ -291,6 +291,7 @@ export function MapCanvas() {
   const markerEntriesRef = useRef<Map<string, MarkerEntry>>(new Map());
   const territoryEntriesRef = useRef<Map<string, TerritoryEntry>>(new Map());
   const regionLabelEntriesRef = useRef<Map<string, RegionLabelEntry>>(new Map());
+  const routeHighlightRef = useRef<{ halo: any; line: any } | null>(null);
   const lastProgressRef = useRef<Map<string, number>>(new Map());
   const fittedAtlasIdRef = useRef<string | null>(null);
   const bubbleTimerRef = useRef<number | null>(null);
@@ -316,6 +317,7 @@ export function MapCanvas() {
   const viewRequest = useAtlasStore((state) => state.viewRequest);
   const regionFocus = useAtlasStore((state) => state.regionFocus);
   const routeFocus = useAtlasStore((state) => state.routeFocus);
+  const selectedRoute = useAtlasStore((state) => state.selectedRoute);
   const { locale, t } = useI18n();
 
   const clearBubble = () => {
@@ -343,7 +345,11 @@ export function MapCanvas() {
           showLabel: true,
         });
         map.addControl(new AMap.Scale());
-        map.on('click', () => useAtlasStore.getState().selectEvent(null));
+        map.on('click', () => {
+          const state = useAtlasStore.getState();
+          state.selectEvent(null);
+          state.selectRoute(null);
+        });
 
         const syncView = () => {
           const center = map.getCenter();
@@ -380,6 +386,7 @@ export function MapCanvas() {
       markerEntriesRef.current.clear();
       territoryEntriesRef.current.clear();
       regionLabelEntriesRef.current.clear();
+      routeHighlightRef.current = null;
       lastProgressRef.current.clear();
       fittedAtlasIdRef.current = null;
       setReady(false);
@@ -712,6 +719,10 @@ export function MapCanvas() {
         setRouteTip(null);
       });
       line.on('click', () => {
+        useAtlasStore.getState().selectRoute({
+          entityId: route.properties.entityId,
+          order: route.properties.order,
+        });
         map.setFitView([line], true, [80, 80, 120, 80]);
       });
 
@@ -833,6 +844,57 @@ export function MapCanvas() {
       fittedAtlasIdRef.current = dataset.manifest.id;
     }
   }, [dataset, activeEntityIds, ready, locale, filters.regionIds]);
+
+  // 选中路线：叠一层高亮线 + 外层光晕
+  useEffect(() => {
+    const map = mapRef.current;
+    const AMap = amapRef.current;
+    if (!map || !AMap || !dataset || !ready) return;
+
+    if (routeHighlightRef.current) {
+      map.remove([routeHighlightRef.current.halo, routeHighlightRef.current.line]);
+      routeHighlightRef.current = null;
+    }
+    if (!selectedRoute) return;
+    const route = dataset.routes.find(
+      (item) =>
+        item.properties.entityId === selectedRoute.entityId &&
+        item.properties.order === selectedRoute.order,
+    );
+    if (!route) return;
+    const path = route.geometry.coordinates.map(toGcjPoint);
+    const halo = new AMap.Polyline({
+      path,
+      strokeColor: '#f3ead9',
+      strokeWeight: 9,
+      strokeOpacity: 0.55,
+      lineJoin: 'round',
+      lineCap: 'round',
+      bubble: true,
+      zIndex: 78,
+    });
+    const line = new AMap.Polyline({
+      path,
+      strokeColor: '#8c2f24',
+      strokeWeight: 4.5,
+      strokeOpacity: 0.95,
+      lineJoin: 'round',
+      lineCap: 'round',
+      showDir: true,
+      bubble: true,
+      zIndex: 79,
+    });
+    map.add(halo);
+    map.add(line);
+    routeHighlightRef.current = { halo, line };
+
+    return () => {
+      if (routeHighlightRef.current) {
+        map.remove([routeHighlightRef.current.halo, routeHighlightRef.current.line]);
+        routeHighlightRef.current = null;
+      }
+    };
+  }, [selectedRoute, dataset, ready]);
 
   // 缩放变化时微调线宽：总览更细，放大更醒目
   useEffect(() => {
@@ -1096,6 +1158,32 @@ export function MapCanvas() {
       }
     }
 
+    // 选中路线高亮：跟随时间进度截断
+    if (routeHighlightRef.current) {
+      const entry = selectedRoute
+        ? Array.from(lineEntriesRef.current.values()).find(
+            (item) =>
+              item.feature.properties.entityId === selectedRoute.entityId &&
+              item.feature.properties.order === selectedRoute.order,
+          )
+        : undefined;
+      if (!entry || entry.progress <= 0) {
+        routeHighlightRef.current.halo.hide();
+        routeHighlightRef.current.line.hide();
+      } else {
+        const path = partialPathAt(entry.geometry, entry.progress).map(toGcjPoint);
+        if (path.length < 2) {
+          routeHighlightRef.current.halo.hide();
+          routeHighlightRef.current.line.hide();
+        } else {
+          routeHighlightRef.current.halo.setPath(path);
+          routeHighlightRef.current.line.setPath(path);
+          routeHighlightRef.current.halo.show();
+          routeHighlightRef.current.line.show();
+        }
+      }
+    }
+
     // 跨省路线端点：只在筛选时显示，按屏幕空间避让，重叠的标签隐藏
     if (!showEndpoints) {
       for (const entry of lineEntriesRef.current.values()) {
@@ -1280,7 +1368,7 @@ export function MapCanvas() {
         visibleEvents.some((event) => event.id === latest?.id),
       );
     }
-  }, [currentTime, dataset, activeEntityIds, filters, ready, showTerritories, showAdminBoundaries, showRegionLabels, locale, zoom, playing, scrubbing]);
+  }, [currentTime, dataset, activeEntityIds, filters, ready, showTerritories, showAdminBoundaries, showRegionLabels, selectedRoute, locale, zoom, playing, scrubbing]);
 
   // 播放、拖动或时间跳转跨过事件时弹出气泡（固定 UI，避免 InfoWindow 被视口裁切）
   useEffect(() => {

@@ -88,6 +88,7 @@ interface AtlasState {
   viewRequest: ViewRequest | null;
   regionFocus: { regionId: string; nonce: number } | null;
   routeFocus: { entityId: string; order: number; nonce: number } | null;
+  selectedRoute: { entityId: string; order: number } | null;
 
   searchIndex: SearchIndexFile | null;
   searchLoading: boolean;
@@ -129,6 +130,7 @@ interface AtlasState {
   requestView(view: ShareView): void;
   focusRegion(regionId: string): void;
   focusRoute(entityId: string, order: number): void;
+  selectRoute(route: { entityId: string; order: number } | null): void;
 
   loadSearchData(): Promise<void>;
   checkDataUpdate(): Promise<void>;
@@ -160,6 +162,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
   viewRequest: null,
   regionFocus: null,
   routeFocus: null,
+  selectedRoute: null,
 
   searchIndex: null,
   searchLoading: false,
@@ -197,6 +200,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
       viewRequest: null,
       regionFocus: null,
       routeFocus: null,
+      selectedRoute: null,
       showAdminBoundaries: true,
       showRegionLabels: true,
     });
@@ -436,7 +440,14 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
   },
 
   focusRoute(entityId, order) {
-    set({ routeFocus: { entityId, order, nonce: (get().routeFocus?.nonce ?? 0) + 1 } });
+    set({
+      selectedRoute: { entityId, order },
+      routeFocus: { entityId, order, nonce: (get().routeFocus?.nonce ?? 0) + 1 },
+    });
+  },
+
+  selectRoute(route) {
+    set({ selectedRoute: route });
   },
 
   async checkDataUpdate() {
