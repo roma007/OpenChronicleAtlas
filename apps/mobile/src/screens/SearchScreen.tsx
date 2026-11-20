@@ -27,7 +27,7 @@ import { useI18n } from '../hooks/useI18n';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Search'>;
 
-export function SearchScreen({ navigation }: Props) {
+export function SearchScreen({ navigation, route }: Props) {
   const searchIndex = useAtlasStore((state) => state.searchIndex);
   const loading = useAtlasStore((state) => state.searchLoading);
   const error = useAtlasStore((state) => state.searchError);
@@ -36,10 +36,12 @@ export function SearchScreen({ navigation }: Props) {
 
   const [query, setQuery] = useState('');
   const [debounced, setDebounced] = useState('');
-  const [atlasFilter, setAtlasFilter] = useState('');
+  const [atlasFilter, setAtlasFilter] = useState(route.params?.atlasId ?? '');
   const [category, setCategory] = useState('');
   const [from, setFrom] = useState('');
   const [to, setTo] = useState('');
+  const [regionIds, setRegionIds] = useState<string[]>(route.params?.regions ?? []);
+  const [regionLabel, setRegionLabel] = useState(route.params?.regionLabel ?? '');
 
   useEffect(() => {
     void loadSearchData();
@@ -64,11 +66,12 @@ export function SearchScreen({ navigation }: Props) {
     return searchEvents(debounced, searchIndex, {
       atlasId: atlasFilter || undefined,
       category: category || undefined,
+      regionIds: regionIds.length > 0 ? regionIds : undefined,
       from: toTime(from),
       to: toTime(to),
       limit: 50,
     });
-  }, [searchIndex, debounced, atlasFilter, category, from, to]);
+  }, [searchIndex, debounced, atlasFilter, category, regionIds, from, to]);
 
   const categories = useMemo(
     () =>
@@ -83,6 +86,8 @@ export function SearchScreen({ navigation }: Props) {
     setCategory('');
     setFrom('');
     setTo('');
+    setRegionIds([]);
+    setRegionLabel('');
   };
 
   const atlases = useMemo(() => {
@@ -103,6 +108,7 @@ export function SearchScreen({ navigation }: Props) {
       atlasId: hit.atlasId,
       t: hit.event.date,
       event: hit.event.id,
+      share: regionIds.length > 0 ? { regions: regionIds } : undefined,
     });
   };
 
@@ -117,6 +123,22 @@ export function SearchScreen({ navigation }: Props) {
         </View>
         <Text style={styles.title}>{t('search.title')}</Text>
         <Text style={styles.subtitle}>{t('search.subtitle')}</Text>
+        {regionIds.length > 0 && regionLabel ? (
+          <View style={styles.regionChip}>
+            <Text style={styles.regionChipText}>
+              {t('search.regionFilter', { label: regionLabel })}
+            </Text>
+            <Pressable
+              onPress={() => {
+                setRegionIds([]);
+                setRegionLabel('');
+              }}
+              accessibilityLabel={t('search.clearRegion')}
+            >
+              <Text style={styles.regionChipClose}>✕</Text>
+            </Pressable>
+          </View>
+        ) : null}
 
         <TextInput
           value={query}
@@ -259,6 +281,21 @@ const styles = StyleSheet.create({
   backText: { color: colors.inkSoft, fontSize: 13 },
   title: { fontSize: 30, fontWeight: '700', color: colors.ink },
   subtitle: { fontSize: 13, color: colors.inkSoft },
+  regionChip: {
+    marginTop: spacing.sm,
+    alignSelf: 'flex-start',
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    borderWidth: 1,
+    borderColor: colors.cinnabar + '66',
+    backgroundColor: colors.cinnabar + '14',
+    borderRadius: radii.pill,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+  },
+  regionChipText: { fontSize: 10, color: colors.cinnabar },
+  regionChipClose: { fontSize: 10, color: colors.cinnabar, opacity: 0.7 },
   input: {
     marginTop: spacing.sm,
     borderWidth: 1,

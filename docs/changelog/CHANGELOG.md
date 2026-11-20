@@ -3,6 +3,22 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.170] - 2026-11-20
+
+### Added
+- 移动端地区筛选新增“搜本区”：带着当前选区跳到移动端搜索页，只搜该地区内的事件。
+- 移动端搜索页支持 `atlasId`、`regions`、`regionLabel` 参数，显示地区限制标签，可一键清除。
+- 从受限搜索结果打开事件时，会把 `regions` 带回专题页，保持地区筛选。
+
+### Changed
+- 移动端 `Search` 路由参数扩展为可选的 `atlasId / regions / regionLabel`。
+
+### Verify
+- `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build` 通过。
+- Web 端“搜本区”流程已在 v1.0.169 验证；移动端复用同一 `SearchOptions.regionIds` 逻辑。
+
+---
+
 ## [v1.0.169] - 2026-11-20
 
 ### Added

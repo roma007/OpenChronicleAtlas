@@ -6,11 +6,14 @@ import {
   resolveLocalized,
   type AtlasRegion,
 } from '@atlas/shared';
+import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { useNavigation } from '@react-navigation/native';
 import { useEffect, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { colors, radii, spacing } from '../../theme';
 import { useI18n } from '../../hooks/useI18n';
+import type { RootStackParamList } from '../../navigation/types';
 
 const FIRST_LEVEL = new Set<AtlasRegion['level']>(['province', 'municipality', 'overseas']);
 
@@ -28,6 +31,7 @@ export function RegionFilter({ onNavigate }: RegionFilterProps) {
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const pause = useAtlasStore((state) => state.pause);
   const { locale, t } = useI18n();
+  const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
   const [query, setQuery] = useState('');
   const [expandedCounties, setExpandedCounties] = useState<Set<string>>(new Set());
   const [showEvents, setShowEvents] = useState(false);
@@ -174,6 +178,25 @@ export function RegionFilter({ onNavigate }: RegionFilterProps) {
         <Text style={styles.title}>{t('legend.regions')}</Text>
         {filters.regionIds.length > 0 ? (
           <View style={styles.headerActions}>
+            <Pressable
+              onPress={() => {
+                const first = dataset.regionsById.get(filters.regionIds[0]!);
+                const firstLabel = first ? regionName(first, locale) : '';
+                const label =
+                  filters.regionIds.length === 1
+                    ? firstLabel
+                    : `${firstLabel} +${filters.regionIds.length - 1}`;
+                navigation.navigate('Search', {
+                  atlasId: dataset.manifest.id,
+                  regions: filters.regionIds,
+                  regionLabel: label,
+                });
+                onNavigate?.();
+              }}
+              style={styles.clear}
+            >
+              <Text style={styles.clearText}>{t('legend.searchRegionButton')}</Text>
+            </Pressable>
             <Pressable onPress={() => focusRegion(filters.regionIds[0]!)} style={styles.clear}>
               <Text style={styles.clearText}>{t('legend.focusRegion')}</Text>
             </Pressable>
