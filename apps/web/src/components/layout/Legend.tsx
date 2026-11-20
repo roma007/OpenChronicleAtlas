@@ -186,6 +186,9 @@ export function Legend({ className = '' }: LegendProps) {
           </span>
         </button>
       ) : null}
+      {showRegionLabels ? (
+        <p className="mt-1 px-1 text-[9px] text-ink-soft/50">{t('legend.regionLabelHint')}</p>
+      ) : null}
 
       <RegionFilter />
 

@@ -173,6 +173,9 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
               </Text>
             </Pressable>
           ) : null}
+          {showRegionLabels ? (
+            <Text style={styles.labelHint}>{t('legend.regionLabelHint')}</Text>
+          ) : null}
 
           <View style={styles.divider} />
 
@@ -329,6 +332,7 @@ const styles = StyleSheet.create({
   },
   adminToggleText: { fontSize: 11, color: colors.inkSoft },
   adminToggleActive: { color: colors.cinnabar },
+  labelHint: { fontSize: 9, color: colors.inkSoft, opacity: 0.5, marginTop: 2 },
   chips: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm, marginTop: spacing.sm },
   chip: {
     borderWidth: 1,

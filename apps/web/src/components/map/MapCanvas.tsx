@@ -477,26 +477,55 @@ export function MapCanvas() {
       if (region.level !== 'county' && region.level !== 'place' && region.level !== 'municipality') {
         continue;
       }
-      const text = regionShortName(region, locale);
+      const pointSource =
+        typeof region.extensions?.pointSource === 'string'
+          ? region.extensions.pointSource
+          : undefined;
+      const isPlace = region.level === 'place';
+      const isApprox = region.level === 'county' && pointSource === 'event-average';
+      const prefix = isPlace ? '· ' : isApprox ? '≈ ' : '◎ ';
+      const labelName =
+        region.level === 'county'
+          ? resolveLocalized(region.name, locale)
+          : regionShortName(region, locale);
+      const text = `${prefix}${labelName}`;
       const label = new AMap.Text({
         text,
         position: toGcjPoint(region.point),
         anchor: 'center',
         zIndex: 34,
         bubble: true,
-        style: {
-          'font-size': '10px',
-          'font-family': '"Songti SC", "STSong", serif',
-          color: '#4a3d30',
-          'background-color': 'rgba(247, 241, 229, 0.86)',
-          border: '1px solid rgba(74, 61, 48, 0.22)',
-          'border-radius': '999px',
-          padding: '0 5px',
-          'white-space': 'nowrap',
-          'pointer-events': 'auto',
-          cursor: 'pointer',
-          'box-shadow': '0 1px 3px rgba(35, 28, 21, 0.12)',
-        },
+        style: isPlace
+          ? {
+              'font-size': '9px',
+              'font-family': '"Songti SC", "STSong", serif',
+              color: '#5b7f6b',
+              'background-color': 'rgba(247, 241, 229, 0.7)',
+              border: '1px solid rgba(91, 127, 107, 0.3)',
+              'border-radius': '999px',
+              padding: '0 4px',
+              'white-space': 'nowrap',
+              'pointer-events': 'auto',
+              cursor: 'pointer',
+            }
+          : {
+              'font-size': '10px',
+              'font-family': '"Songti SC", "STSong", serif',
+              'font-weight': '600',
+              color: isApprox ? '#8a6a3b' : '#231c15',
+              'background-color': isApprox
+                ? 'rgba(247, 241, 229, 0.78)'
+                : 'rgba(247, 241, 229, 0.92)',
+              border: isApprox
+                ? '1px dashed rgba(138, 106, 59, 0.5)'
+                : '1px solid rgba(74, 61, 48, 0.22)',
+              'border-radius': '999px',
+              padding: '0 5px',
+              'white-space': 'nowrap',
+              'pointer-events': 'auto',
+              cursor: 'pointer',
+              'box-shadow': '0 1px 3px rgba(35, 28, 21, 0.12)',
+            },
       });
       label.hide();
       label.on('click', () => useAtlasStore.getState().toggleRegion(region.id));

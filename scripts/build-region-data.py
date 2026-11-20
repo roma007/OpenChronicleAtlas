@@ -786,7 +786,7 @@ def main():
             region["point"] = override["point"]
             extensions = region.setdefault("extensions", {})
             extensions["pointSource"] = override["source"]
-            for key in ("pointConfidence", "geonameId"):
+            for key in ("pointConfidence", "geonameId", "note"):
                 if key in override:
                     extensions[key] = override[key]
                 else:

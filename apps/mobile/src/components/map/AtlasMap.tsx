@@ -161,12 +161,26 @@ export function AtlasMap() {
         return priority(a) - priority(b);
       })
       .slice(0, 80)
-      .map((region) => ({
-        id: region.id,
-        point: toGcj(region.point![0], region.point![1]),
-        text: regionShortName(region, locale),
-        selected: selected.has(region.id),
-      }));
+      .map((region) => {
+        const pointSource =
+          typeof region.extensions?.pointSource === 'string'
+            ? region.extensions.pointSource
+            : undefined;
+        const isPlace = region.level === 'place';
+        const isApprox = region.level === 'county' && pointSource === 'event-average';
+        const prefix = isPlace ? '· ' : isApprox ? '≈ ' : '◎ ';
+        return {
+          id: region.id,
+          point: toGcj(region.point![0], region.point![1]),
+          text: `${prefix}${
+            region.level === 'county'
+              ? resolveLocalized(region.name, locale)
+              : regionShortName(region, locale)
+          }`,
+          selected: selected.has(region.id),
+          kind: isPlace ? 'place' : isApprox ? 'approx' : 'seat',
+        };
+      });
   }, [dataset, showRegionLabels, filters.regionIds, zoom, locale]);
 
   const visibleEvents = useMemo(() => {
@@ -495,8 +509,22 @@ export function AtlasMap() {
             zIndex={30}
             onMarkerPress={() => toggleRegion(region.id)}
           >
-            <View style={[styles.regionLabel, region.selected && styles.regionLabelSelected]}>
-              <Text style={[styles.regionLabelText, region.selected && styles.regionLabelTextSelected]}>
+            <View
+              style={[
+                styles.regionLabel,
+                region.kind === 'place' && styles.regionLabelPlace,
+                region.kind === 'approx' && styles.regionLabelApprox,
+                region.selected && styles.regionLabelSelected,
+              ]}
+            >
+              <Text
+                style={[
+                  styles.regionLabelText,
+                  region.kind === 'place' && styles.regionLabelTextPlace,
+                  region.kind === 'approx' && styles.regionLabelTextApprox,
+                  region.selected && styles.regionLabelTextSelected,
+                ]}
+              >
                 {region.text}
               </Text>
             </View>
@@ -626,11 +654,22 @@ const styles = StyleSheet.create({
     paddingHorizontal: 5,
     paddingVertical: 1,
   },
+  regionLabelPlace: {
+    borderColor: colors.moss + '55',
+    backgroundColor: colors.parchment + 'B3',
+  },
+  regionLabelApprox: {
+    borderStyle: 'dashed',
+    borderColor: colors.ochre + '88',
+    backgroundColor: colors.parchment + 'C7',
+  },
   regionLabelSelected: {
     borderColor: colors.cinnabar + '99',
     backgroundColor: colors.cinnabar + '1A',
   },
-  regionLabelText: { fontSize: 9, color: colors.inkSoft },
+  regionLabelText: { fontSize: 9, color: colors.ink },
+  regionLabelTextPlace: { color: colors.moss, fontSize: 8 },
+  regionLabelTextApprox: { color: colors.ochre },
   regionLabelTextSelected: { color: colors.cinnabar, fontWeight: '700' },
   currentBadge: {
     position: 'absolute',
