@@ -4650,6 +4650,228 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.26,
+            23.13
+          ],
+          [
+            113.2,
+            23.4
+          ],
+          [
+            113.1,
+            23.6
+          ],
+          [
+            113.1,
+            23.8
+          ],
+          [
+            113.4,
+            24.18
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-11-27",
+        "endDate": "1939-12-30",
+        "order": 120,
+        "segmentType": "advance",
+        "name": {
+          "zh": "广州—花县—银盏坳—源潭—英德（第104师团）",
+          "en": "Guangzhou–Hua county–Yinzhan’ao–Yuantan–Yingde (104th Division)"
+        },
+        "description": {
+          "zh": "1939 年 11 月 27 日起，日军第 104 师团由花县新街沿粤汉铁路北犯，经银盏坳、源潭，12 月 30 日占英德。示意简化路线。",
+          "en": "From 27 November 1939 the Japanese 104th Division advanced north from Xinjie in Hua county along the Canton–Hankou railway through Yinzhan’ao and Yuantan, occupying Yingde on 30 December. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.83,
+            23.29
+          ],
+          [
+            113.87,
+            23.39
+          ],
+          [
+            113.95,
+            23.6
+          ],
+          [
+            114,
+            23.75
+          ],
+          [
+            114.1,
+            23.9
+          ],
+          [
+            114.2,
+            24.05
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-12-15",
+        "endDate": "1939-12-28",
+        "order": 121,
+        "segmentType": "advance",
+        "name": {
+          "zh": "增城—小楼—正果—永汉—左潭—梅坑—新丰（第18师团）",
+          "en": "Zengcheng–Xiaolou–Zhengguo–Yonghan–Zuotan–Meikeng–Xinfeng (18th Division)"
+        },
+        "description": {
+          "zh": "1939 年 12 月 15 日，日军第 18 师团由增城北上，经小楼、正果、永汉、左潭、梅坑，28 日占新丰。示意简化路线。",
+          "en": "On 15 December 1939 the Japanese 18th Division advanced north from Zengcheng through Xiaolou, Zhengguo, Yonghan, Zuotan and Meikeng, occupying Xinfeng on 28 December. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.58,
+            23.55
+          ],
+          [
+            113.6,
+            23.65
+          ],
+          [
+            113.73,
+            23.72
+          ],
+          [
+            113.9,
+            23.85
+          ],
+          [
+            114.13,
+            24.35
+          ],
+          [
+            113.8,
+            24.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-12-20",
+        "endDate": "1939-12-31",
+        "order": 122,
+        "segmentType": "advance",
+        "name": {
+          "zh": "从化—鸡笼冈—良口—吕田—翁源—新江（近卫混成旅团）",
+          "en": "Conghua–Jilonggang–Liangkou–Lü tian–Wengyuan–Xinjiang (Guard Mixed Brigade)"
+        },
+        "description": {
+          "zh": "1939 年 12 月 20 日，日军近卫混成旅团占从化，经鸡笼冈、良口、吕田，30 日占翁源，31 日占新江。示意简化路线。",
+          "en": "On 20 December 1939 the Japanese Guard Mixed Brigade occupied Conghua and advanced through Jilonggang, Liangkou and Lü tian, taking Wengyuan on 30 December and Xinjiang on 31 December. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.26,
+            23.13
+          ],
+          [
+            113.58,
+            23.55
+          ],
+          [
+            113.6,
+            23.65
+          ],
+          [
+            113.73,
+            23.72
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-05-13",
+        "endDate": "1940-05-20",
+        "order": 123,
+        "segmentType": "advance",
+        "name": {
+          "zh": "广州—街口—鸡笼冈—良口（第二次粤北）",
+          "en": "Guangzhou–Jiekou–Jilonggang–Liangkou (second northern Guangdong campaign)"
+        },
+        "description": {
+          "zh": "1940 年 5 月 13 日，日军第 38 师团沿广从公路北犯，17 日占街口，18 日占鸡笼冈，20 日占良口。示意简化路线。",
+          "en": "On 13 May 1940 the Japanese 38th Division advanced north along the Guangzhou–Conghua road, taking Jiekou on 17 May, Jilonggang on 18 May and Liangkou on 20 May. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.73,
+            23.72
+          ],
+          [
+            113.75,
+            23.72
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-05-20",
+        "endDate": "1940-05-22",
+        "order": 124,
+        "segmentType": "advance",
+        "name": {
+          "zh": "良口—石榴花顶（第二次粤北）",
+          "en": "Liangkou–Shiliuhuading (second northern Guangdong campaign)"
+        },
+        "description": {
+          "zh": "1940 年 5 月 20 日良口失守后，日军于 22 日进攻石榴花顶，中国第 152 师顽强阻击。示意简化路线。",
+          "en": "After Liangkou fell on 20 May 1940, Japanese forces attacked Shiliuhuading on 22 May and the Chinese 152nd Division fought a stubborn defense. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
