@@ -1,5 +1,6 @@
 import type {
   AtlasEvent,
+  AtlasRegion,
   AtlasRouteFeature,
   AtlasTerritoryFeature,
   RouteGeometry,
@@ -14,6 +15,8 @@ import {
   isRegionDescendant,
   parseDateString,
   partialPathAt,
+  regionAncestors,
+  regionShortName,
   resolveLocalized,
   routeStyleForSegmentType,
   segmentTypeLabel,
@@ -113,6 +116,13 @@ interface TerritoryEntry {
   feature: AtlasTerritoryFeature;
   polygons: any[];
   label: any;
+}
+
+interface RegionLabelEntry {
+  region: AtlasRegion;
+  label: any;
+  text: string;
+  point: [number, number];
 }
 
 function ringCenter(rings: [number, number][][]): [number, number] {
@@ -280,6 +290,7 @@ export function MapCanvas() {
   const lineEntriesRef = useRef<Map<string, LineEntry>>(new Map());
   const markerEntriesRef = useRef<Map<string, MarkerEntry>>(new Map());
   const territoryEntriesRef = useRef<Map<string, TerritoryEntry>>(new Map());
+  const regionLabelEntriesRef = useRef<Map<string, RegionLabelEntry>>(new Map());
   const lastProgressRef = useRef<Map<string, number>>(new Map());
   const fittedAtlasIdRef = useRef<string | null>(null);
   const bubbleTimerRef = useRef<number | null>(null);
@@ -301,7 +312,9 @@ export function MapCanvas() {
   const selectedEventId = useAtlasStore((state) => state.selectedEventId);
   const showTerritories = useAtlasStore((state) => state.showTerritories);
   const showAdminBoundaries = useAtlasStore((state) => state.showAdminBoundaries);
+  const showRegionLabels = useAtlasStore((state) => state.showRegionLabels);
   const viewRequest = useAtlasStore((state) => state.viewRequest);
+  const regionFocus = useAtlasStore((state) => state.regionFocus);
   const { locale, t } = useI18n();
 
   const clearBubble = () => {
@@ -365,6 +378,7 @@ export function MapCanvas() {
       lineEntriesRef.current.clear();
       markerEntriesRef.current.clear();
       territoryEntriesRef.current.clear();
+      regionLabelEntriesRef.current.clear();
       lastProgressRef.current.clear();
       fittedAtlasIdRef.current = null;
       setReady(false);
@@ -437,6 +451,56 @@ export function MapCanvas() {
       territoryEntriesRef.current.set(key, { feature, polygons, label });
     });
   }, [dataset, ready, locale]);
+
+  // 地区标注：县市/地点/院辖市的当时名称，按缩放级别与选区显示
+  useEffect(() => {
+    const map = mapRef.current;
+    const AMap = amapRef.current;
+    if (!map || !AMap || !dataset || !ready) return;
+
+    const oldLabels = Array.from(regionLabelEntriesRef.current.values(), (entry) => entry.label);
+    if (oldLabels.length > 0) map.remove(oldLabels);
+    regionLabelEntriesRef.current.clear();
+
+    if (!showRegionLabels) return;
+
+    for (const region of dataset.regions) {
+      if (!region.point) continue;
+      if (region.level !== 'county' && region.level !== 'place' && region.level !== 'municipality') {
+        continue;
+      }
+      const text = regionShortName(region, locale);
+      const label = new AMap.Text({
+        text,
+        position: toGcjPoint(region.point),
+        anchor: 'center',
+        zIndex: 34,
+        bubble: true,
+        style: {
+          'font-size': '10px',
+          'font-family': '"Songti SC", "STSong", serif',
+          color: '#4a3d30',
+          'background-color': 'rgba(247, 241, 229, 0.86)',
+          border: '1px solid rgba(74, 61, 48, 0.22)',
+          'border-radius': '999px',
+          padding: '0 5px',
+          'white-space': 'nowrap',
+          'pointer-events': 'auto',
+          cursor: 'pointer',
+          'box-shadow': '0 1px 3px rgba(35, 28, 21, 0.12)',
+        },
+      });
+      label.hide();
+      label.on('click', () => useAtlasStore.getState().toggleRegion(region.id));
+      map.add(label);
+      regionLabelEntriesRef.current.set(region.id, {
+        region,
+        label,
+        text,
+        point: region.point,
+      });
+    }
+  }, [dataset, ready, locale, showRegionLabels]);
 
   // 建立/重建路线：只在专题或图层开关变化时执行
   useEffect(() => {
@@ -1058,6 +1122,68 @@ export function MapCanvas() {
       }
     }
 
+    // 地区标注：选区内的县市/地点优先，其次按缩放级别显示
+    if (!showRegionLabels) {
+      for (const entry of regionLabelEntriesRef.current.values()) entry.label.hide();
+    } else {
+      const selectedRegionSet = new Set(filters.regionIds);
+      const expandedRegionSet = new Set<string>();
+      for (const id of filters.regionIds) {
+        for (const region of regionAncestors(dataset.regionsById, id)) {
+          expandedRegionSet.add(region.id);
+        }
+      }
+      const size = map.getSize();
+      const placedRegionRects: ScreenRect[] = [];
+      const regionCandidates = Array.from(regionLabelEntriesRef.current.values()).sort(
+        (a, b) => {
+          const priority = (entry: RegionLabelEntry) => {
+            if (selectedRegionSet.has(entry.region.id)) return 0;
+            if (expandedRegionSet.has(entry.region.id)) return 1;
+            if (entry.region.level === 'municipality') return 2;
+            if (entry.region.level === 'county') return 3;
+            return 4;
+          };
+          return priority(a) - priority(b);
+        },
+      );
+      for (const entry of regionCandidates) {
+        const selected = selectedRegionSet.has(entry.region.id);
+        const ancestorSelected = expandedRegionSet.has(entry.region.id);
+        const minZoom =
+          entry.region.level === 'municipality'
+            ? 4.5
+            : entry.region.level === 'county'
+              ? 7
+              : 9;
+        const visible =
+          selected || (ancestorSelected && zoom >= 6.5) || zoom >= minZoom;
+        if (!visible) {
+          entry.label.hide();
+          continue;
+        }
+        const containerPoint = map.lngLatToContainer(
+          new AMap.LngLat(entry.point[0], entry.point[1]),
+        );
+        if (
+          containerPoint.x < -80 ||
+          containerPoint.x > size.width + 80 ||
+          containerPoint.y < -40 ||
+          containerPoint.y > size.height + 40
+        ) {
+          entry.label.hide();
+          continue;
+        }
+        const rect = estimateLabelRect(entry.text, containerPoint.x, containerPoint.y);
+        if (placedRegionRects.some((placed) => rectsOverlap(placed, rect))) {
+          entry.label.hide();
+          continue;
+        }
+        placedRegionRects.push(rect);
+        entry.label.show();
+      }
+    }
+
     // 番号牌：先按时间与缩放筛选，再做屏幕空间避让，重叠时保留优先级高的
     const labelCandidates = Array.from(lineEntriesRef.current.values())
       .filter((entry) => entry.label !== null)
@@ -1153,7 +1279,7 @@ export function MapCanvas() {
         visibleEvents.some((event) => event.id === latest?.id),
       );
     }
-  }, [currentTime, dataset, activeEntityIds, filters, ready, showTerritories, showAdminBoundaries, locale, zoom, playing, scrubbing]);
+  }, [currentTime, dataset, activeEntityIds, filters, ready, showTerritories, showAdminBoundaries, showRegionLabels, locale, zoom, playing, scrubbing]);
 
   // 播放、拖动或时间跳转跨过事件时弹出气泡（固定 UI，避免 InfoWindow 被视口裁切）
   useEffect(() => {
@@ -1239,6 +1365,73 @@ export function MapCanvas() {
     );
     useAtlasStore.setState({ viewRequest: null });
   }, [viewRequest, ready]);
+
+  // 地区筛选「定位」：按选区内的点、事件、路线与省界计算范围
+  useEffect(() => {
+    const map = mapRef.current;
+    const AMap = amapRef.current;
+    if (!map || !AMap || !dataset || !ready || !regionFocus) return;
+    const id = regionFocus.regionId;
+    if (!dataset.regionsById.has(id)) return;
+
+    const points: [number, number][] = [];
+    const region = dataset.regionsById.get(id);
+    if (region?.point) points.push(region.point);
+    for (const event of dataset.events) {
+      if (event.location.regionIds?.includes(id)) {
+        points.push([event.location.lng, event.location.lat]);
+      }
+    }
+    for (const route of dataset.routes) {
+      if (!route.properties.regionIds?.includes(id)) continue;
+      route.geometry.coordinates.forEach((coordinate, index) => {
+        if (index === 0 || index === route.geometry.coordinates.length - 1 || index % 8 === 0) {
+          points.push(coordinate);
+        }
+      });
+    }
+    for (const feature of dataset.territories) {
+      if (feature.properties.extensions?.regionId !== id) continue;
+      const parts =
+        feature.geometry.type === 'Polygon'
+          ? [feature.geometry.coordinates]
+          : feature.geometry.coordinates;
+      for (const rings of parts) {
+        for (const ring of rings) {
+          ring.forEach((coordinate, index) => {
+            if (index % 4 === 0) points.push(coordinate);
+          });
+        }
+      }
+    }
+    for (const child of dataset.regions) {
+      if (!child.point) continue;
+      if (regionAncestors(dataset.regionsById, child.id).some((item) => item.id === id)) {
+        points.push(child.point);
+      }
+    }
+    if (points.length === 0) return;
+
+    let minLng = Infinity;
+    let minLat = Infinity;
+    let maxLng = -Infinity;
+    let maxLat = -Infinity;
+    for (const [lng, lat] of points) {
+      minLng = Math.min(minLng, lng);
+      minLat = Math.min(minLat, lat);
+      maxLng = Math.max(maxLng, lng);
+      maxLat = Math.max(maxLat, lat);
+    }
+    if (maxLng - minLng < 0.02 && maxLat - minLat < 0.02) {
+      map.setZoomAndCenter(9, [(minLng + maxLng) / 2, (minLat + maxLat) / 2], true);
+    } else {
+      map.setBounds(
+        new AMap.Bounds([minLng, minLat], [maxLng, maxLat]),
+        false,
+        [90, 90, 150, 90],
+      );
+    }
+  }, [regionFocus, dataset, ready]);
 
   return (
     <div className="absolute inset-0">

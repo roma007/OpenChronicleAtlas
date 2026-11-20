@@ -17,6 +17,7 @@ export function RegionFilter() {
   const filters = useAtlasStore((state) => state.filters);
   const toggleRegion = useAtlasStore((state) => state.toggleRegion);
   const setRegions = useAtlasStore((state) => state.setRegions);
+  const focusRegion = useAtlasStore((state) => state.focusRegion);
   const { locale, t } = useI18n();
   const [query, setQuery] = useState('');
 
@@ -97,9 +98,14 @@ export function RegionFilter() {
       <View style={styles.header}>
         <Text style={styles.title}>{t('legend.regions')}</Text>
         {filters.regionIds.length > 0 ? (
-          <Pressable onPress={() => setRegions([])} style={styles.clear}>
-            <Text style={styles.clearText}>{t('legend.clearRegions')}</Text>
-          </Pressable>
+          <View style={styles.headerActions}>
+            <Pressable onPress={() => focusRegion(filters.regionIds[0]!)} style={styles.clear}>
+              <Text style={styles.clearText}>{t('legend.focusRegion')}</Text>
+            </Pressable>
+            <Pressable onPress={() => setRegions([])} style={styles.clear}>
+              <Text style={styles.clearText}>{t('legend.clearRegions')}</Text>
+            </Pressable>
+          </View>
         ) : null}
       </View>
 
@@ -173,6 +179,7 @@ const styles = StyleSheet.create({
   root: { gap: spacing.sm },
   header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
   title: { fontSize: 12, letterSpacing: 2, color: colors.inkSoft, opacity: 0.8 },
+  headerActions: { flexDirection: 'row', gap: 6 },
   clear: {
     borderWidth: 1,
     borderColor: colors.ink + '18',

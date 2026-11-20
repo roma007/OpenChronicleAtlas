@@ -5,6 +5,7 @@ import {
   formatDate,
   neighborEvents,
   parseDateString,
+  regionPath,
   resolveLocalized,
 } from '@atlas/shared';
 import { Image, Modal, Platform, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
@@ -84,6 +85,14 @@ export function EventSheet() {
                 `${event.location.lng}, ${event.location.lat}`}
             </Text>
           </View>
+          {event.location.regionIds?.length ? (
+            <View style={styles.meta}>
+              <Text style={styles.metaLabel}>{t('common.region')}</Text>
+              <Text style={styles.metaValue}>
+                {regionPath(dataset.regionsById, event.location.regionIds, locale).join(' · ')}
+              </Text>
+            </View>
+          ) : null}
           <View style={styles.meta}>
             <Text style={styles.metaLabel}>{t('common.entity')}</Text>
             <Text style={styles.metaValue}>

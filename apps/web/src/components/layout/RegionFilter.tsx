@@ -19,6 +19,7 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
   const filters = useAtlasStore((state) => state.filters);
   const toggleRegion = useAtlasStore((state) => state.toggleRegion);
   const setRegions = useAtlasStore((state) => state.setRegions);
+  const focusRegion = useAtlasStore((state) => state.focusRegion);
   const { locale, t } = useI18n();
   const [query, setQuery] = useState('');
 
@@ -111,13 +112,22 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
       <div className="flex items-center justify-between gap-2">
         <h3 className="text-[11px] tracking-[0.18em] text-ink-soft">{t('legend.regions')}</h3>
         {filters.regionIds.length > 0 ? (
-          <button
-            type="button"
-            onClick={() => setRegions([])}
-            className="rounded-full border border-ink/10 px-2 py-0.5 text-[10px] text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
-          >
-            {t('legend.clearRegions')}
-          </button>
+          <div className="flex items-center gap-1">
+            <button
+              type="button"
+              onClick={() => focusRegion(filters.regionIds[0]!)}
+              className="rounded-full border border-cinnabar/30 px-2 py-0.5 text-[10px] text-cinnabar transition hover:border-cinnabar/60"
+            >
+              {t('legend.focusRegion')}
+            </button>
+            <button
+              type="button"
+              onClick={() => setRegions([])}
+              className="rounded-full border border-ink/10 px-2 py-0.5 text-[10px] text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
+            >
+              {t('legend.clearRegions')}
+            </button>
+          </div>
         ) : null}
       </div>
 

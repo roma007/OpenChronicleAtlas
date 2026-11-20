@@ -74,6 +74,7 @@ interface AtlasState {
   locale: Locale;
   showTerritories: boolean;
   showAdminBoundaries: boolean;
+  showRegionLabels: boolean;
 
   timeline: Timeline | null;
   currentTime: AtlasTime;
@@ -85,6 +86,7 @@ interface AtlasState {
 
   mapView: ShareView | null;
   viewRequest: ViewRequest | null;
+  regionFocus: { regionId: string; nonce: number } | null;
 
   searchIndex: SearchIndexFile | null;
   searchLoading: boolean;
@@ -102,6 +104,7 @@ interface AtlasState {
   showAllEntities(): void;
   toggleTerritories(): void;
   toggleAdminBoundaries(): void;
+  toggleRegionLabels(): void;
 
   setLocale(locale: Locale): void;
   setFilters(filters: AtlasFilters): void;
@@ -123,6 +126,7 @@ interface AtlasState {
 
   setMapView(view: ShareView): void;
   requestView(view: ShareView): void;
+  focusRegion(regionId: string): void;
 
   loadSearchData(): Promise<void>;
   checkDataUpdate(): Promise<void>;
@@ -141,6 +145,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
   locale: initialLocale(),
   showTerritories: true,
   showAdminBoundaries: true,
+  showRegionLabels: true,
 
   timeline: null,
   currentTime: 0,
@@ -151,6 +156,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
 
   mapView: null,
   viewRequest: null,
+  regionFocus: null,
 
   searchIndex: null,
   searchLoading: false,
@@ -186,7 +192,9 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
       bubbleEventId: null,
       mapView: null,
       viewRequest: null,
+      regionFocus: null,
       showAdminBoundaries: true,
+      showRegionLabels: true,
     });
     try {
       const dataset = await fetchAtlas(atlasId);
@@ -290,6 +298,10 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
 
   toggleAdminBoundaries() {
     set({ showAdminBoundaries: !get().showAdminBoundaries });
+  },
+
+  toggleRegionLabels() {
+    set({ showRegionLabels: !get().showRegionLabels });
   },
 
   setLocale(locale) {
@@ -413,6 +425,10 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
 
   requestView(view) {
     set({ viewRequest: { view, nonce: (get().viewRequest?.nonce ?? 0) + 1 }, mapView: view });
+  },
+
+  focusRegion(regionId) {
+    set({ regionFocus: { regionId, nonce: (get().regionFocus?.nonce ?? 0) + 1 } });
   },
 
   async checkDataUpdate() {

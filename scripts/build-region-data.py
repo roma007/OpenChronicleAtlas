@@ -277,7 +277,6 @@ COUNTY_HINTS = {
     "崇阳": "崇阳县",
     "阳新": "阳新县",
     "老河口": "光化县",
-    "武汉": "武昌县",
     "武昌": "武昌市",
     "汉口": "汉口市",
     "成都": "成都县",
@@ -561,6 +560,7 @@ def main():
     )
 
     county_ids = {}
+    county_points = {}
     place_by_text = {}
     place_meta = {}
 
@@ -653,7 +653,7 @@ def main():
                 county_name = COUNTY_HINTS[prefix_key]
                 place_name = remainder[len(prefix_key):] or remainder
 
-        if place_name in GENERIC_PLACE_SUFFIXES:
+        if place_name in GENERIC_PLACE_SUFFIXES or place_name.startswith(("、", "，", ",")):
             place_name = remainder
 
         if county_name == "hainan":
@@ -665,6 +665,9 @@ def main():
                 parent_id = ensure_county(province_id, county_name)
         else:
             parent_id = province_id
+
+        if parent_id and (parent_id.startswith("county-") or parent_id == "hainan"):
+            county_points.setdefault(parent_id, []).append(point)
 
         pid = f"place-{province_id}-{slug(remainder)[:60]}"
         # 去重
@@ -710,6 +713,16 @@ def main():
 
     # 补一层“地点”到“省”的可反向匹配：事件/路线只存最细 id，
     # 过滤省级时由匹配逻辑沿 parentId 展开。
+    for region in regions:
+        if region["level"] != "county":
+            continue
+        points = county_points.get(region["id"])
+        if points:
+            region["point"] = [
+                round(sum(point[0] for point in points) / len(points), 4),
+                round(sum(point[1] for point in points) / len(points), 4),
+            ]
+
     out = {
         "schemaVersion": "1.0.0",
         "frame": "ROC-1937",

@@ -52,9 +52,11 @@ interface MobileAtlasState {
   activeEntityIds: Set<string>;
   filters: AtlasFilters;
   showAdminBoundaries: boolean;
+  showRegionLabels: boolean;
   locale: Locale;
   fromCache: boolean;
   mapView: ShareView | null;
+  regionFocus: { regionId: string; nonce: number } | null;
 
   searchIndex: SearchIndexFile | null;
   searchLoading: boolean;
@@ -77,6 +79,7 @@ interface MobileAtlasState {
   toggleRegion(regionId: string): void;
   setRegions(regionIds: string[]): void;
   toggleAdminBoundaries(): void;
+  toggleRegionLabels(): void;
   resetFilters(): void;
   setCurrentTime(time: AtlasTime): void;
   seekRatio(ratio: number): void;
@@ -86,6 +89,7 @@ interface MobileAtlasState {
   togglePlay(): void;
   setSpeed(speed: PlaybackSpeed): void;
   setMapView(view: ShareView): void;
+  focusRegion(regionId: string): void;
   loadSearchData(): Promise<void>;
   checkDataUpdate(): Promise<void>;
   applyDataUpdate(): Promise<void>;
@@ -129,9 +133,11 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
   activeEntityIds: new Set(),
   filters: EMPTY_FILTERS,
   showAdminBoundaries: true,
+  showRegionLabels: true,
   locale: 'zh',
   fromCache: false,
   mapView: null,
+  regionFocus: null,
 
   searchIndex: null,
   searchLoading: false,
@@ -168,8 +174,10 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
       timeline: null,
       filters: EMPTY_FILTERS,
       mapView: null,
+      regionFocus: null,
       fromCache: false,
       showAdminBoundaries: true,
+      showRegionLabels: true,
     });
     resetCacheHit();
     try {
@@ -297,6 +305,10 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
     set({ showAdminBoundaries: !get().showAdminBoundaries });
   },
 
+  toggleRegionLabels() {
+    set({ showRegionLabels: !get().showRegionLabels });
+  },
+
   resetFilters() {
     set({ filters: EMPTY_FILTERS });
   },
@@ -346,6 +358,10 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
 
   setMapView(view) {
     set({ mapView: view });
+  },
+
+  focusRegion(regionId) {
+    set({ regionFocus: { regionId, nonce: (get().regionFocus?.nonce ?? 0) + 1 } });
   },
 
   async checkDataUpdate() {

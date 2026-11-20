@@ -1,3 +1,4 @@
+import type { AtlasRegion } from '@atlas/shared';
 import {
   applyEventFilters,
   buildRouteGeometry,
@@ -7,6 +8,8 @@ import {
   matchesRegionFilter,
   partialPathAt,
   parseDateString,
+  regionAncestors,
+  regionShortName,
   resolveLocalized,
   routeStyleForSegmentType,
   wgs84ToGcj02,
@@ -37,6 +40,9 @@ export function AtlasMap() {
   const setMapView = useAtlasStore((state) => state.setMapView);
   const mapView = useAtlasStore((state) => state.mapView);
   const showAdminBoundaries = useAtlasStore((state) => state.showAdminBoundaries);
+  const showRegionLabels = useAtlasStore((state) => state.showRegionLabels);
+  const regionFocus = useAtlasStore((state) => state.regionFocus);
+  const toggleRegion = useAtlasStore((state) => state.toggleRegion);
   const { locale } = useI18n();
   const zoom = mapView?.zoom ?? dataset?.manifest.defaultView.zoom ?? 4;
 
@@ -112,6 +118,53 @@ export function AtlasMap() {
     }
     return result;
   }, [dataset, showAdminBoundaries, boundaryPeriod, filters.regionIds]);
+
+  const regionLabels = useMemo(() => {
+    if (!dataset || !showRegionLabels) return [];
+    const selected = new Set(filters.regionIds);
+    const expanded = new Set<string>();
+    for (const id of filters.regionIds) {
+      for (const region of regionAncestors(dataset.regionsById, id)) {
+        expanded.add(region.id);
+      }
+    }
+    const minZoomFor = (level: string) =>
+      level === 'municipality' ? 4.5 : level === 'county' ? 7 : 9;
+    return dataset.regions
+      .filter(
+        (region) =>
+          region.point &&
+          (region.level === 'county' ||
+            region.level === 'place' ||
+            region.level === 'municipality'),
+      )
+      .filter((region) => {
+        const selectedHere = selected.has(region.id);
+        const ancestorSelected = expanded.has(region.id);
+        return (
+          selectedHere ||
+          (ancestorSelected && zoom >= 6.5) ||
+          zoom >= minZoomFor(region.level)
+        );
+      })
+      .sort((a, b) => {
+        const priority = (region: AtlasRegion) => {
+          if (selected.has(region.id)) return 0;
+          if (expanded.has(region.id)) return 1;
+          if (region.level === 'municipality') return 2;
+          if (region.level === 'county') return 3;
+          return 4;
+        };
+        return priority(a) - priority(b);
+      })
+      .slice(0, 80)
+      .map((region) => ({
+        id: region.id,
+        point: toGcj(region.point![0], region.point![1]),
+        text: regionShortName(region, locale),
+        selected: selected.has(region.id),
+      }));
+  }, [dataset, showRegionLabels, filters.regionIds, zoom, locale]);
 
   const visibleEvents = useMemo(() => {
     if (!dataset) return [];
@@ -249,6 +302,49 @@ export function AtlasMap() {
     return () => clearTimeout(timer);
   }, [mapReady, dataset, selectedEventId, allPoints]);
 
+  useEffect(() => {
+    if (!mapReady || !dataset || !regionFocus) return;
+    const id = regionFocus.regionId;
+    if (!dataset.regionsById.has(id)) return;
+    const points: Array<{ latitude: number; longitude: number }> = [];
+    const region = dataset.regionsById.get(id);
+    if (region?.point) points.push(toGcj(region.point[0], region.point[1]));
+    for (const event of dataset.events) {
+      if (event.location.regionIds?.includes(id)) {
+        points.push(toGcj(event.location.lng, event.location.lat));
+      }
+    }
+    for (const route of dataset.routes) {
+      if (!route.properties.regionIds?.includes(id)) continue;
+      route.geometry.coordinates.forEach(([lng, lat], index) => {
+        if (
+          index === 0 ||
+          index === route.geometry.coordinates.length - 1 ||
+          index % 8 === 0
+        ) {
+          points.push(toGcj(lng, lat));
+        }
+      });
+    }
+    for (const child of dataset.regions) {
+      if (!child.point) continue;
+      if (regionAncestors(dataset.regionsById, child.id).some((item) => item.id === id)) {
+        points.push(toGcj(child.point[0], child.point[1]));
+      }
+    }
+    if (points.length === 0) return;
+    if (points.length === 1) {
+      void mapRef.current?.moveCamera({ target: points[0]!, zoom: 9 }, 300);
+      return;
+    }
+    void mapRef.current?.fitToCoordinates(points, {
+      paddingFactor: 0.2,
+      minZoom: 4.5,
+      maxZoom: 10,
+      duration: 300,
+    });
+  }, [mapReady, dataset, regionFocus]);
+
   if (!dataset) return null;
 
   const initial = toGcj(
@@ -329,6 +425,22 @@ export function AtlasMap() {
             </Marker>
           )),
         )}
+
+        {regionLabels.map((region) => (
+          <Marker
+            key={`region:${region.id}`}
+            position={region.point}
+            cacheKey={`region:${region.id}:${region.selected ? 1 : 0}`}
+            zIndex={30}
+            onMarkerPress={() => toggleRegion(region.id)}
+          >
+            <View style={[styles.regionLabel, region.selected && styles.regionLabelSelected]}>
+              <Text style={[styles.regionLabelText, region.selected && styles.regionLabelTextSelected]}>
+                {region.text}
+              </Text>
+            </View>
+          </Marker>
+        ))}
 
         {clusters.map((cluster) => {
           const visible = cluster.events.filter((event) => eventStart(event) <= currentTime);
@@ -445,6 +557,20 @@ const styles = StyleSheet.create({
   endpointStart: { borderColor: colors.cinnabar + '88' },
   endpointEnd: { borderColor: '#1f4e7988' },
   endpointText: { fontSize: 10, color: colors.ink },
+  regionLabel: {
+    backgroundColor: colors.parchment + 'DD',
+    borderRadius: radii.pill,
+    borderWidth: 1,
+    borderColor: colors.ink + '33',
+    paddingHorizontal: 5,
+    paddingVertical: 1,
+  },
+  regionLabelSelected: {
+    borderColor: colors.cinnabar + '99',
+    backgroundColor: colors.cinnabar + '1A',
+  },
+  regionLabelText: { fontSize: 9, color: colors.inkSoft },
+  regionLabelTextSelected: { color: colors.cinnabar, fontWeight: '700' },
   currentBadge: {
     position: 'absolute',
     left: 16,

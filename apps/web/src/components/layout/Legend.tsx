@@ -24,6 +24,8 @@ export function Legend({ className = '' }: LegendProps) {
   const toggleTerritories = useAtlasStore((state) => state.toggleTerritories);
   const showAdminBoundaries = useAtlasStore((state) => state.showAdminBoundaries);
   const toggleAdminBoundaries = useAtlasStore((state) => state.toggleAdminBoundaries);
+  const showRegionLabels = useAtlasStore((state) => state.showRegionLabels);
+  const toggleRegionLabels = useAtlasStore((state) => state.toggleRegionLabels);
   const filters = useAtlasStore((state) => state.filters);
   const setFilters = useAtlasStore((state) => state.setFilters);
   const toggleCategory = useAtlasStore((state) => state.toggleCategory);
@@ -144,6 +146,25 @@ export function Legend({ className = '' }: LegendProps) {
           <span className="flex-1">{t('legend.adminBoundaries')}</span>
           <span className="tabular-nums opacity-70">
             {t(showAdminBoundaries ? 'legend.on' : 'legend.off')}
+          </span>
+        </button>
+      ) : null}
+
+      {dataset.regions.length > 0 ? (
+        <button
+          type="button"
+          aria-pressed={showRegionLabels}
+          onClick={toggleRegionLabels}
+          className={`mt-2 flex w-full items-center gap-2.5 rounded-lg border px-2 py-1.5 text-left text-[11px] transition ${
+            showRegionLabels
+              ? 'border-cinnabar/30 bg-cinnabar/10 text-cinnabar'
+              : 'border-ink/10 text-ink-soft/60 hover:border-cinnabar/30'
+          }`}
+        >
+          <span aria-hidden className="h-3 w-3 shrink-0 rounded-full border border-current" />
+          <span className="flex-1">{t('legend.regionLabels')}</span>
+          <span className="tabular-nums opacity-70">
+            {t(showRegionLabels ? 'legend.on' : 'legend.off')}
           </span>
         </button>
       ) : null}

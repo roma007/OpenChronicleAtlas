@@ -6,6 +6,7 @@ import {
   type AtlasEvent,
   neighborEvents,
   parseDateString,
+  regionPath,
   resolveLocalized,
 } from '@atlas/shared';
 import { lazy, Suspense, useCallback, useEffect, useRef } from 'react';
@@ -151,6 +152,14 @@ export function EventDetailPanel() {
             {resolveLocalized(event.location.place, locale) || `${event.location.lng}, ${event.location.lat}`}
           </dd>
         </div>
+        {event.location.regionIds?.length ? (
+          <div className="flex gap-3">
+            <dt className="w-14 shrink-0 text-ink-soft/60">{t('common.region')}</dt>
+            <dd className="text-ink-soft">
+              {regionPath(dataset.regionsById, event.location.regionIds, locale).join(' · ')}
+            </dd>
+          </div>
+        ) : null}
         <div className="flex gap-3">
           <dt className="w-14 shrink-0 text-ink-soft/60">{t('common.entity')}</dt>
           <dd className="flex flex-wrap gap-1.5">

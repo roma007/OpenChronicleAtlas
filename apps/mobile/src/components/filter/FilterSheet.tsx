@@ -38,6 +38,8 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
   const resetFilters = useAtlasStore((state) => state.resetFilters);
   const showAdminBoundaries = useAtlasStore((state) => state.showAdminBoundaries);
   const toggleAdminBoundaries = useAtlasStore((state) => state.toggleAdminBoundaries);
+  const showRegionLabels = useAtlasStore((state) => state.showRegionLabels);
+  const toggleRegionLabels = useAtlasStore((state) => state.toggleRegionLabels);
   const { locale, t } = useI18n();
 
   const [fromDraft, setFromDraft] = useState(filters.from ?? '');
@@ -155,6 +157,19 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
             >
               <Text style={[styles.adminToggleText, showAdminBoundaries && styles.adminToggleActive]}>
                 {t('legend.adminBoundaries')} · {t(showAdminBoundaries ? 'legend.on' : 'legend.off')}
+              </Text>
+            </Pressable>
+          ) : null}
+
+          {dataset.regions.length > 0 ? (
+            <Pressable
+              style={styles.adminToggle}
+              onPress={toggleRegionLabels}
+              accessibilityRole="button"
+              accessibilityState={{ selected: showRegionLabels }}
+            >
+              <Text style={[styles.adminToggleText, showRegionLabels && styles.adminToggleActive]}>
+                {t('legend.regionLabels')} · {t(showRegionLabels ? 'legend.on' : 'legend.off')}
               </Text>
             </Pressable>
           ) : null}
