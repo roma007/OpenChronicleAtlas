@@ -3,6 +3,18 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.182] - 2026-11-20
+
+### Changed
+- “复制链接”现在同时携带当前图层（entities）、分类（categories）、时间范围（from/to）与选中事件（event），分享后可完整复现筛选状态。
+- Web 与移动端共用同一分享状态编码。
+
+### Verify
+- 河北 + 1938-10-25 生成的链接包含 `t`、`entities`、`regions` 参数。
+- `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build` 通过。
+
+---
+
 ## [v1.0.181] - 2026-11-20
 
 ### Added
