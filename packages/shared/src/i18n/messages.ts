@@ -99,6 +99,8 @@ const zh = {
   'search.errorTitle': '搜索数据加载失败',
   'search.atlasFilter': '按专题筛选',
   'search.filters': '筛选',
+  'search.regionFilter': '仅搜：{label}',
+  'search.clearRegion': '清除地区限制',
   'search.allCategories': '全部类型',
   'search.resetFilters': '重置筛选',
 
@@ -118,6 +120,7 @@ const zh = {
   'legend.regions': '地区（当时）',
   'legend.clearRegions': '清除地区',
   'legend.focusRegion': '定位',
+  'legend.searchRegionButton': '搜本区',
   'legend.searchRegion': '搜索县市 / 地点',
   'legend.expandCounty': '展开该县的地点',
   'legend.regionEvents': '本区事件',
@@ -309,6 +312,8 @@ const en: Record<keyof typeof zh, string> = {
   'search.errorTitle': 'Failed to load search data',
   'search.atlasFilter': 'Filter by atlas',
   'search.filters': 'Filters',
+  'search.regionFilter': 'Within: {label}',
+  'search.clearRegion': 'Clear region filter',
   'search.allCategories': 'All categories',
   'search.resetFilters': 'Reset filters',
 
@@ -328,6 +333,7 @@ const en: Record<keyof typeof zh, string> = {
   'legend.regions': 'Regions (historical)',
   'legend.clearRegions': 'Clear regions',
   'legend.focusRegion': 'Focus',
+  'legend.searchRegionButton': 'Search region',
   'legend.searchRegion': 'Search county / place',
   'legend.expandCounty': 'Expand places in this county',
   'legend.regionEvents': 'Events in region',

@@ -7,7 +7,7 @@ import {
   type SearchHit,
 } from '@atlas/shared';
 import { useEffect, useMemo, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { useAtlasStore } from '../stores/useAtlasStore';
 import { LanguageToggle } from '../components/layout/LanguageToggle';
 import { useI18n } from '../hooks/useI18n';
@@ -35,12 +35,17 @@ export function SearchPage() {
   const loadSearchData = useAtlasStore((state) => state.loadSearchData);
   const { locale, t } = useI18n();
 
+  const [searchParams] = useSearchParams();
   const [query, setQuery] = useState('');
   const [debounced, setDebounced] = useState('');
-  const [atlasFilter, setAtlasFilter] = useState('');
+  const [atlasFilter, setAtlasFilter] = useState(searchParams.get('atlas') ?? '');
   const [category, setCategory] = useState('');
   const [from, setFrom] = useState('');
   const [to, setTo] = useState('');
+  const [regionIds, setRegionIds] = useState<string[]>(
+    (searchParams.get('regions') ?? '').split(',').filter(Boolean),
+  );
+  const [regionLabel, setRegionLabel] = useState(searchParams.get('regionLabel') ?? '');
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -66,11 +71,12 @@ export function SearchPage() {
     return searchEvents(debounced, searchIndex, {
       atlasId: atlasFilter || undefined,
       category: category || undefined,
+      regionIds: regionIds.length > 0 ? regionIds : undefined,
       from: toTime(from),
       to: toTime(to),
       limit: 50,
     });
-  }, [searchIndex, debounced, atlasFilter, category, from, to]);
+  }, [searchIndex, debounced, atlasFilter, category, regionIds, from, to]);
 
   const categories = useMemo(
     () =>
@@ -85,6 +91,8 @@ export function SearchPage() {
     setCategory('');
     setFrom('');
     setTo('');
+    setRegionIds([]);
+    setRegionLabel('');
   };
 
   const atlases = useMemo(() => {
@@ -102,6 +110,7 @@ export function SearchPage() {
 
   const openHit = (hit: SearchHit) => {
     const params = new URLSearchParams({ t: hit.event.date, event: hit.event.id });
+    if (regionIds.length > 0) params.set('regions', regionIds.join(','));
     navigate(`/atlas/${hit.atlasId}?${params.toString()}`);
   };
 
@@ -156,6 +165,24 @@ export function SearchPage() {
 
           <div className="mt-3 flex flex-wrap items-center gap-2">
             <span className="text-[11px] text-ink-soft/60">{t('search.filters')}</span>
+            {regionIds.length > 0 ? (
+              <span className="inline-flex items-center gap-1 rounded-full border border-cinnabar/40 bg-cinnabar/10 px-2.5 py-1 text-[11px] text-cinnabar">
+                {t('search.regionFilter', {
+                  label: regionLabel || `${regionIds.length}`,
+                })}
+                <button
+                  type="button"
+                  onClick={() => {
+                    setRegionIds([]);
+                    setRegionLabel('');
+                  }}
+                  aria-label={t('search.clearRegion')}
+                  className="text-cinnabar/70 transition hover:text-cinnabar"
+                >
+                  ✕
+                </button>
+              </span>
+            ) : null}
             <button
               type="button"
               aria-pressed={category === ''}

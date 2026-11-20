@@ -76,6 +76,10 @@ export function searchEvents(
     if (options.atlasId && entry.atlasId !== options.atlasId) continue;
     if (options.category && entry.event.category !== options.category) continue;
     if (options.entityId && !entry.event.entityIds.includes(options.entityId)) continue;
+    if (options.regionIds && options.regionIds.length > 0) {
+      const regionIds = new Set(entry.event.location.regionIds ?? []);
+      if (!options.regionIds.some((id) => regionIds.has(id))) continue;
+    }
 
     const start = eventStart(entry.event);
     if (options.from !== undefined && start < options.from) continue;

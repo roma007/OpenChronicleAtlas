@@ -19,7 +19,7 @@ const events: AtlasEvent[] = [
     id: 'zunyi-1935-01',
     name: { zh: '遵义会议', en: 'Zunyi Conference' },
     date: '1935-01-15',
-    location: { lng: 106.92, lat: 27.72, place: { zh: '贵州遵义' } },
+    location: { lng: 106.92, lat: 27.72, place: { zh: '贵州遵义' }, regionIds: ['guizhou'] },
     category: '重要会议',
     summary: { zh: '确立毛泽东在党中央和红军的领导地位。' },
     description: { zh: '## 背景\n\n1935 年 1 月，中共中央政治局扩大会议在遵义召开。' },
@@ -142,6 +142,12 @@ describe('searchEvents', () => {
         to: Date.UTC(1935, 0, 31),
       }),
     ).toHaveLength(1);
+  });
+
+  it('支持 regionIds 过滤', () => {
+    const hits = searchEvents('遵义', index, { regionIds: ['guizhou'] });
+    expect(hits.map((hit) => hit.event.id)).toEqual(['zunyi-1935-01']);
+    expect(searchEvents('遵义', index, { regionIds: ['guangxi'] })).toEqual([]);
   });
 
   it('片段包含查询词', () => {

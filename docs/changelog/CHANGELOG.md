@@ -3,6 +3,24 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.169] - 2026-11-20
+
+### Added
+- 地区筛选新增“搜本区”按钮：带着当前选区跳到搜索页，只搜该省/县/地点内的事件。
+- 搜索页支持 `atlas`、`regions`、`regionLabel` 参数，并显示“仅搜：河北省”地区限制标签，可一键清除。
+- 从受限搜索结果打开事件时，会把 `regions` 一并带回专题页，保持地区筛选。
+
+### Changed
+- `SearchOptions` 新增 `regionIds`，搜索索引利用事件已有的 `location.regionIds` 做地区过滤，无需重复建索引。
+- 新增搜索地区过滤单元测试。
+
+### Verify
+- 搜索“保定”并限制河北：返回 2 条（保定沦陷、第一战区成立）。
+- 打开“保定沦陷”后专题 URL 仍带 `regions=hebei`。
+- `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build` 通过。
+
+---
+
 ## [v1.0.168] - 2026-11-20
 
 ### Added

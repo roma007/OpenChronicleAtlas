@@ -7,6 +7,7 @@ import {
   type AtlasRegion,
 } from '@atlas/shared';
 import { useEffect, useMemo, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { useI18n } from '../../hooks/useI18n';
 
@@ -26,6 +27,7 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const pause = useAtlasStore((state) => state.pause);
   const { locale, t } = useI18n();
+  const navigate = useNavigate();
   const [query, setQuery] = useState('');
   const [expandedCounties, setExpandedCounties] = useState<Set<string>>(new Set());
   const [showEvents, setShowEvents] = useState(false);
@@ -174,6 +176,26 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
         <h3 className="text-[11px] tracking-[0.18em] text-ink-soft">{t('legend.regions')}</h3>
         {filters.regionIds.length > 0 ? (
           <div className="flex items-center gap-1">
+            <button
+              type="button"
+              onClick={() => {
+                const first = dataset.regionsById.get(filters.regionIds[0]!);
+                const firstLabel = first ? regionName(first, locale) : '';
+                const label =
+                  filters.regionIds.length === 1
+                    ? firstLabel
+                    : `${firstLabel} +${filters.regionIds.length - 1}`;
+                const params = new URLSearchParams({
+                  atlas: dataset.manifest.id,
+                  regions: filters.regionIds.join(','),
+                  regionLabel: label,
+                });
+                navigate(`/search?${params.toString()}`);
+              }}
+              className="rounded-full border border-ink/10 px-2 py-0.5 text-[10px] text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
+            >
+              {t('legend.searchRegionButton')}
+            </button>
             <button
               type="button"
               onClick={() => focusRegion(filters.regionIds[0]!)}
