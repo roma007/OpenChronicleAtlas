@@ -25580,5 +25580,1159 @@
     "extensions": {
       "routeEvent": false
     }
+  },
+  {
+    "id": "sanzao-first-occupation-1937-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军首次占领三灶岛",
+      "en": "First Japanese Occupation of Sanzao Island"
+    },
+    "date": "1937-12-04",
+    "location": {
+      "lng": 113.38,
+      "lat": 22.04,
+      "place": {
+        "zh": "广东中山三灶岛（今珠海金湾）",
+        "en": "Sanzao Island, Zhongshan (present-day Jinwan, Zhuhai), Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军首次占领三灶岛，盘踞 24 天后撤离。",
+      "en": "Japanese forces first occupied Sanzao Island and withdrew after 24 days."
+    },
+    "description": {
+      "zh": "1937 年 12 月 4 日，日军 400 余人从高栏岛出发，在汉奸带领下进犯三灶岛，占领莲塘附近各乡，24 天后撤离。三灶岛位于珠江口，是日军觊觎的华南航空基地选址。日期据珠海地方志与日军“妙高号”档案，待页码级核对。",
+      "en": "On 4 December 1937 more than 400 Japanese troops moved from Gaolan Island with Chinese collaborators and attacked Sanzao Island, occupying villages around Liantang before withdrawing 24 days later. Sanzao, at the mouth of the Pearl River, was a prospective Japanese air base in South China. The date follows Zhuhai local gazetteers and the Japanese “Myōkō” archives and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "sanzao-occupation-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军登陆三灶岛莲塘湾",
+      "en": "Japanese Landing at Liantang Bay, Sanzao Island"
+    },
+    "date": "1938-02-16",
+    "location": {
+      "lng": 113.4,
+      "lat": 22.02,
+      "place": {
+        "zh": "广东三灶岛莲塘湾",
+        "en": "Liantang Bay, Sanzao Island, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军 6000 余人在莲塘湾登陆，占领三灶岛并修建海军第六航空基地。",
+      "en": "More than 6,000 Japanese troops landed at Liantang Bay, occupied Sanzao and built the Navy’s 6th Air Base."
+    },
+    "description": {
+      "zh": "1938 年 2 月 16 日，日军 6000 余人分乘 20 多艘舰艇在莲塘湾登陆，第二次占领三灶岛，随即在岛南海澄村一带修建机场，称“海军第六航空基地”。6 月 4 日第 14 航空队进驻，9 月 16 日高雄航空队临时进驻；岛上曾驻 74 架飞机、近千名航空人员。日期与兵力据珠海地方志，待页码级核对。",
+      "en": "On 16 February 1938 more than 6,000 Japanese troops in over 20 ships landed at Liantang Bay and occupied Sanzao for the second time, then built an airfield near Haicheng village in the south of the island, designated the Navy’s 6th Air Base. The 14th Air Group arrived on 4 June and the Takao air unit on 16 September; at its height the base hosted 74 aircraft and nearly 1,000 air personnel. Dates and strength follow Zhuhai local gazetteers and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "sanzao-massacre-1938-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "三灶岛大屠杀",
+      "en": "Sanzao Island Massacre"
+    },
+    "date": "1938-04-12",
+    "location": {
+      "lng": 113.38,
+      "lat": 22.04,
+      "place": {
+        "zh": "广东三灶岛",
+        "en": "Sanzao Island, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "惨案",
+    "summary": {
+      "zh": "日军在三灶岛实施“三光”政策，屠杀居民、焚毁村庄。",
+      "en": "Japanese forces carried out a “three-all” campaign on Sanzao Island, massacring residents and burning villages."
+    },
+    "description": {
+      "zh": "1938 年 4 月 12 日起，日军在三灶岛展开屠杀，实行“三光”政策。据珠海地方志，岛上 36 个村庄被毁、3264 间房屋和 164 艘渔船被焚；机场建成后，又秘密杀害修建机场的朝鲜籍与中国民工 3000 余人。具体死难人数待页码级核对。本事件为惨案，不绘路线。",
+      "en": "From 12 April 1938 Japanese forces carried out a massacre on Sanzao Island under a “three-all” policy. According to Zhuhai local gazetteers, 36 villages were destroyed and 3,264 houses and 164 fishing boats burned; after the airfield was completed, more than 3,000 Korean and Chinese laborers who had built it were secretly killed. The exact death toll awaits page-level verification. As a massacre, this event is not drawn as a route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "dayawan-pinghai-landing-1938-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军登陆平海、稔山",
+      "en": "Japanese Landing at Pinghai and Renshan"
+    },
+    "date": "1938-10-12",
+    "location": {
+      "lng": 114.85,
+      "lat": 22.8,
+      "place": {
+        "zh": "广东惠阳平海、稔山",
+        "en": "Pinghai and Renshan, Huiyang, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 104 师团在平海碧甲玻璃沙厂北面海岸登陆，占平海、稔山。",
+      "en": "The Japanese 104th Division landed on the coast north of the Biji glassworks at Pinghai and took Pinghai and Renshan."
+    },
+    "description": {
+      "zh": "1938 年 10 月 12 日凌晨，日军第 104 师团在大亚湾右面、平海碧甲（毕甲）玻璃沙厂北面海岸登陆，当天占平海，13 日占稔山、吉隆，随后向平山、惠州南面推进。登陆点据《广州战役》与惠州地方史，待页码级核对。",
+      "en": "Before dawn on 12 October 1938 the Japanese 104th Division landed on the right flank of Dayawan, on the coast north of the Biji glassworks at Pinghai. It took Pinghai the same day and Renshan and Jilong on 13 October, then advanced toward Pingshan and the south of Huizhou. The landing site follows Guangzhou campaign and Huizhou local histories and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "dayawan-yanzaobei-landing-1938-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军登陆盐灶背",
+      "en": "Japanese Landing at Yanzaobei"
+    },
+    "date": "1938-10-12",
+    "location": {
+      "lng": 114.65,
+      "lat": 22.75,
+      "place": {
+        "zh": "广东惠阳盐灶背",
+        "en": "Yanzaobei, Huiyang, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军及川支队在盐灶背南岸登陆。",
+      "en": "The Japanese Oikawa Detachment landed on the south bank at Yanzaobei."
+    },
+    "description": {
+      "zh": "1938 年 10 月 12 日凌晨，日军及川支队在大亚湾盐灶背南岸登陆，随后经稔山、平山方向配合主力进攻惠州。登陆点据《广州战役》与惠州地方史，待页码级核对。",
+      "en": "Before dawn on 12 October 1938 the Japanese Oikawa Detachment landed on the south bank at Yanzaobei in Dayawan and advanced via Renshan and Pingshan in support of the main attack on Huizhou. The landing site follows Guangzhou campaign and Huizhou local histories and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "dayawan-aotou-landing-1938-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军登陆澳头、霞涌",
+      "en": "Japanese Landing at Aotou and Xiachong"
+    },
+    "date": "1938-10-12",
+    "location": {
+      "lng": 114.5,
+      "lat": 22.7,
+      "place": {
+        "zh": "广东惠阳澳头、霞涌",
+        "en": "Aotou and Xiachong, Huiyang, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 18 师团主力在澳头以东马涌至霞涌以西桂米涌海滩登陆。",
+      "en": "The main force of the Japanese 18th Division landed on the beach from Mayong east of Aotou to Guimiyong west of Xiachong."
+    },
+    "description": {
+      "zh": "1938 年 10 月 12 日凌晨 2 时 45 分，日军第 18 师团主力在大亚湾中路、澳头圩以东 5 公里的马涌至霞涌墟以西桂米涌之间七八公里长的沙滩登陆；一部在澳头西南约 5 公里的倒装湾小桂登陆。当天进攻淡水，13 日占淡水。登陆点据《广州战役》与惠州地方史，待页码级核对。",
+      "en": "At 02:45 on 12 October 1938 the main force of the Japanese 18th Division landed on the 7–8 km beach between Mayong, 5 km east of Aotou, and Guimiyong, west of Xiachong, in the central Dayawan sector; another element landed at Xiaogui in Daozhuang Bay about 5 km southwest of Aotou. It attacked Danshui that day and took it on 13 October. The landing sites follow Guangzhou campaign and Huizhou local histories and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "danshui-fall-1938-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "淡水沦陷",
+      "en": "Fall of Danshui"
+    },
+    "date": "1938-10-13",
+    "location": {
+      "lng": 114.45,
+      "lat": 22.8,
+      "place": {
+        "zh": "广东惠阳淡水",
+        "en": "Danshui, Huiyang, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 18 师团占领淡水。",
+      "en": "The Japanese 18th Division occupied Danshui."
+    },
+    "description": {
+      "zh": "1938 年 10 月 12 日日军在澳头、霞涌登陆后，经新桥、分墩、大径进攻淡水；13 日凌晨占领淡水城。中国守军第 151 师一部抵抗后向惠州方向撤退。日期据《广州战役》，待页码级核对。",
+      "en": "After landing at Aotou and Xiachong on 12 October 1938, Japanese forces advanced on Danshui via Xinqiao, Fendun and Dajing and occupied the town in the early hours of 13 October. Part of the Chinese 151st Division resisted and then withdrew toward Huizhou. The date follows the Guangzhou campaign history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "huizhou-fall-1938-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "惠州沦陷",
+      "en": "Fall of Huizhou"
+    },
+    "date": "1938-10-15",
+    "location": {
+      "lng": 114.4,
+      "lat": 23.1,
+      "place": {
+        "zh": "广东惠州",
+        "en": "Huizhou, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 18、第 104 师团攻占惠州。",
+      "en": "The Japanese 18th and 104th Divisions captured Huizhou."
+    },
+    "description": {
+      "zh": "1938 年 10 月 13 日日军自淡水、澳头、稔山三路进攻惠州，14 日占领横沥并进至惠州南郊。14 日黄昏日军攻城，中国守军第 151 师稍作抵抗后撤退，15 日惠州失陷。日期据《广州战役》，待页码级核对。",
+      "en": "On 13 October 1938 Japanese forces advanced on Huizhou from Danshui, Aotou and Renshan by three routes, took Hengli on 14 October and reached the southern outskirts. At dusk on 14 October they attacked the city; the Chinese 151st Division resisted briefly and withdrew, and Huizhou fell on 15 October. The date follows the Guangzhou campaign history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "boluo-fall-1938-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "博罗沦陷",
+      "en": "Fall of Boluo"
+    },
+    "date": "1938-10-16",
+    "location": {
+      "lng": 114.3,
+      "lat": 23.17,
+      "place": {
+        "zh": "广东博罗",
+        "en": "Boluo, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军攻占博罗，主力向增城突进。",
+      "en": "Japanese forces captured Boluo and pushed on toward Zengcheng."
+    },
+    "description": {
+      "zh": "1938 年 10 月 16 日，日军攻占博罗，随后主力沿增博公路向增城突进；及川支队由惠州向广州作大迂回。日期据《广州战役》，待页码级核对。",
+      "en": "On 16 October 1938 Japanese forces captured Boluo and then pushed along the Boluo–Zengcheng road toward Zengcheng, while the Oikawa Detachment made a wide flanking move from Huizhou toward Guangzhou. The date follows the Guangzhou campaign history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "zengcheng-fall-1938-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "增城沦陷",
+      "en": "Fall of Zengcheng"
+    },
+    "date": "1938-10-20",
+    "location": {
+      "lng": 113.83,
+      "lat": 23.29,
+      "place": {
+        "zh": "广东增城",
+        "en": "Zengcheng, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 18 师团攻占增城。",
+      "en": "The Japanese 18th Division captured Zengcheng."
+    },
+    "description": {
+      "zh": "1938 年 10 月 19 日日军第 18 师团到达增城，与中国守军激战；20 日突破第 186 师防线，10 时占领增城以西钟岗，14 时增城县城失守。日期据《广州战役》，待页码级核对。",
+      "en": "On 19 October 1938 the Japanese 18th Division reached Zengcheng and fought the Chinese defenders; on 20 October it broke the 186th Division’s line, took Zhonggang west of the county town at 10:00 and the county town itself at 14:00. The date follows the Guangzhou campaign history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "conghua-fall-1938-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "从化沦陷",
+      "en": "Fall of Conghua"
+    },
+    "date": "1938-10-23",
+    "location": {
+      "lng": 113.58,
+      "lat": 23.55,
+      "place": {
+        "zh": "广东从化",
+        "en": "Conghua, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 104 师团占领从化，切断广州至韶关联系。",
+      "en": "The Japanese 104th Division occupied Conghua, cutting the Guangzhou–Shaoguan link."
+    },
+    "description": {
+      "zh": "1938 年 10 月 21 日广州失守后，日军第 104 师团向广州以北推进，攻占太平场，23 日占领从化，企图切断广州至韶关的联系。日期据《广州战役》，待页码级核对。",
+      "en": "After the fall of Guangzhou on 21 October 1938, the Japanese 104th Division advanced north of the city, took Taipingchang and occupied Conghua on 23 October, aiming to cut the Guangzhou–Shaoguan link. The date follows the Guangzhou campaign history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "humen-fall-1938-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "虎门要塞沦陷",
+      "en": "Fall of the Humen Forts"
+    },
+    "date": "1938-10-23",
+    "location": {
+      "lng": 113.67,
+      "lat": 22.81,
+      "place": {
+        "zh": "广东东莞虎门",
+        "en": "Humen, Dongguan, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 5 师团与海军攻占虎门要塞。",
+      "en": "The Japanese 5th Division and navy captured the Humen forts."
+    },
+    "description": {
+      "zh": "1938 年 10 月 23 日，日军第 5 师团与海军配合攻占虎门要塞，控制珠江口。虎门失守后，日军沿珠江口西进，25 日占三水、26 日占佛山。日期据《广州战役》，待页码级核对。",
+      "en": "On 23 October 1938 the Japanese 5th Division and navy captured the Humen forts and controlled the Pearl River estuary. After Humen fell, Japanese forces advanced west along the estuary, taking Sanshui on 25 October and Foshan on 26 October. The date follows the Guangzhou campaign history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "sanshui-fall-1938-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "三水沦陷",
+      "en": "Fall of Sanshui"
+    },
+    "date": "1938-10-25",
+    "location": {
+      "lng": 112.9,
+      "lat": 23.17,
+      "place": {
+        "zh": "广东三水",
+        "en": "Sanshui, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 5 师团攻占三水。",
+      "en": "The Japanese 5th Division captured Sanshui."
+    },
+    "description": {
+      "zh": "1938 年 10 月 25 日，日军第 5 师团攻陷三水，控制西江、北江交汇地带。日期据《广州战役》，待页码级核对。",
+      "en": "On 25 October 1938 the Japanese 5th Division captured Sanshui, controlling the confluence of the West and North rivers. The date follows the Guangzhou campaign history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "foshan-fall-1938-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "佛山沦陷",
+      "en": "Fall of Foshan"
+    },
+    "date": "1938-10-26",
+    "location": {
+      "lng": 113.12,
+      "lat": 23.02,
+      "place": {
+        "zh": "广东佛山",
+        "en": "Foshan, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军占领佛山，控制广三铁路沿线。",
+      "en": "Japanese forces occupied Foshan and controlled the Guangzhou–Sanshui railway."
+    },
+    "description": {
+      "zh": "1938 年 10 月 26 日，日军占领南海县澜石、佛山两镇，佛山沦陷。日军随后控制广三铁路沿线与珠江三角洲要点。日期据佛山地方史，待页码级核对。",
+      "en": "On 26 October 1938 Japanese forces occupied Lanshi and Foshan in Nanhai county, and Foshan fell. Japan then controlled the Guangzhou–Sanshui railway and key points in the Pearl River Delta. The date follows Foshan local history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "shunde-fall-1938-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "顺德沦陷",
+      "en": "Fall of Shunde"
+    },
+    "date": "1938-10-26",
+    "location": {
+      "lng": 113.25,
+      "lat": 22.84,
+      "place": {
+        "zh": "广东顺德",
+        "en": "Shunde, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军占领顺德，控制珠江三角洲南部。",
+      "en": "Japanese forces occupied Shunde and controlled the southern Pearl River Delta."
+    },
+    "description": {
+      "zh": "1938 年 10 月广州失守后，日军向珠江三角洲推进，10 月 23 日进攻陈村，26 日前后占领顺德各属。顺德县治大良此后多次易手，1940 年 2 月 29 日再度沦陷。日期据顺德地方史，待页码级核对。",
+      "en": "After Guangzhou fell in October 1938, Japanese forces advanced into the Pearl River Delta, attacking Chencun on 23 October and occupying Shunde’s towns around 26 October. The county seat Daliang changed hands repeatedly and fell again on 29 February 1940. The date follows Shunde local history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "panyu-fall-1938-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "番禺沦陷",
+      "en": "Fall of Panyu"
+    },
+    "date": "1938-10-26",
+    "location": {
+      "lng": 113.38,
+      "lat": 22.94,
+      "place": {
+        "zh": "广东番禺",
+        "en": "Panyu, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军占领番禺，控制广州南部与珠江航道。",
+      "en": "Japanese forces occupied Panyu and controlled southern Guangzhou and the Pearl River channels."
+    },
+    "description": {
+      "zh": "1938 年 10 月广州失守后，日军第 21 军一部占领番禺，控制广州南部与珠江航道。11 月日军在番禺沙湾、石楼等地“扫荡”。日期据广州战役与番禺地方史，待页码级核对。",
+      "en": "After Guangzhou fell in October 1938, elements of the Japanese 21st Army occupied Panyu and controlled southern Guangzhou and the Pearl River channels. In November Japanese forces conducted sweeps at Shawan and Shilou in Panyu. The date follows Guangzhou campaign and Panyu local histories and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 1
+  },
+  {
+    "id": "bao-an-fall-1938-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "宝安（深圳）第一次沦陷",
+      "en": "First Fall of Bao’an (Shenzhen)"
+    },
+    "date": "1938-11-26",
+    "location": {
+      "lng": 113.92,
+      "lat": 22.55,
+      "place": {
+        "zh": "广东宝安南头（今深圳）",
+        "en": "Nantou, Bao’an (present-day Shenzhen), Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第一次占领宝安南头、深圳镇。",
+      "en": "Japanese forces occupied Nantou and Shenzhen town for the first time."
+    },
+    "description": {
+      "zh": "1938 年 11 月 22 日，日军在大鹏湾登陆，随后东路由盐田、龙岗、沙头角直扑深圳镇，西路自虎门在沙井、西乡登岸进攻南头。11 月 26 日，日军占领深圳镇与南头城。11 月 30 日中国军队收复深圳镇，12 月 2 日收复宝安。日期据《深圳通史》，待页码级核对。",
+      "en": "On 22 November 1938 Japanese forces landed at Dapeng Bay; the eastern column advanced via Yantian, Longgang and Shatoujiao toward Shenzhen town, while the western column landed at Shajing and Xixiang from Humen and attacked Nantou. On 26 November Japanese troops occupied Shenzhen town and Nantou. Chinese forces recovered Shenzhen on 30 November and Bao’an on 2 December. The date follows the Shenzhen History and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "jiangmen-fall-1939-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "江门沦陷",
+      "en": "Fall of Jiangmen"
+    },
+    "date": "1939-03-30",
+    "location": {
+      "lng": 113.08,
+      "lat": 22.58,
+      "place": {
+        "zh": "广东江门",
+        "en": "Jiangmen, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军攻占江门，粤中门户失守。",
+      "en": "Japanese forces captured Jiangmen, the gateway to central Guangdong."
+    },
+    "description": {
+      "zh": "1939 年 3 月 28 日，日军南支派遣军陆海空部队 2000 余人及伪军 800 余人进犯新会，29 日直逼江门外围。30 日下午江门守军退守城外，江门沦陷。日期据新会地方史，待页码级核对。",
+      "en": "On 28 March 1939 more than 2,000 Japanese army, navy and air troops of the South China Expeditionary Army, with 800 puppet troops, attacked Xinhui and on 29 March closed on Jiangmen. On the afternoon of 30 March the defenders withdrew from the town and Jiangmen fell. The date follows Xinhui local history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "xinhui-fall-1939-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "新会（会城）沦陷",
+      "en": "Fall of Xinhui (Huicheng)"
+    },
+    "date": "1939-04-02",
+    "location": {
+      "lng": 113.03,
+      "lat": 22.52,
+      "place": {
+        "zh": "广东新会会城",
+        "en": "Huicheng, Xinhui, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军攻占新会县城会城。",
+      "en": "Japanese forces captured Huicheng, seat of Xinhui county."
+    },
+    "description": {
+      "zh": "1939 年 3 月 30 日江门失守后，日军向新会县城会城推进。中国守军省保七团增援，但兵力悬殊，4 月 2 日会城失守。日期据新会地方史，待页码级核对。",
+      "en": "After Jiangmen fell on 30 March 1939, Japanese forces advanced on Huicheng, seat of Xinhui county. The Chinese 7th Security Regiment reinforced the town, but the defenders were outnumbered and Huicheng fell on 2 April. The date follows Xinhui local history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "zhongshan-fall-1940-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "中山（石岐）沦陷",
+      "en": "Fall of Zhongshan (Shiqi)"
+    },
+    "date": "1940-03-07",
+    "location": {
+      "lng": 113.38,
+      "lat": 22.52,
+      "place": {
+        "zh": "广东中山石岐",
+        "en": "Shiqi, Zhongshan, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军藤井兵团入侵中山，占领石岐。",
+      "en": "The Japanese Fujii Brigade invaded Zhongshan and occupied Shiqi."
+    },
+    "description": {
+      "zh": "1940 年 3 月 5 日，日军藤井兵团约 1 万人入侵中山，一路从顺德攻入大小黄圃，一路从海路登陆唐家、香洲；3 月 7 日占领石岐，3 月 15 日占小榄，中山县境大部分沦陷。日期据中山地方史，待页码级核对。",
+      "en": "On 5 March 1940 the Japanese Fujii Brigade, about 10,000 strong, invaded Zhongshan: one column entered Dahuangpu and Xiaohuangpu from Shunde, another landed by sea at Tangjia and Xiangzhou. Shiqi fell on 7 March and Xiaolan on 15 March, and most of Zhongshan was occupied. The date follows Zhongshan local history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "tangjia-landing-1940-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军登陆唐家、香洲",
+      "en": "Japanese Landing at Tangjia and Xiangzhou"
+    },
+    "date": "1940-03-06",
+    "location": {
+      "lng": 113.58,
+      "lat": 22.37,
+      "place": {
+        "zh": "广东中山唐家、香洲（今珠海）",
+        "en": "Tangjia and Xiangzhou, Zhongshan (present-day Zhuhai), Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军海路登陆唐家、香洲，进攻前山、坦洲、翠亨。",
+      "en": "Japanese forces landed by sea at Tangjia and Xiangzhou and attacked Qianshan, Tanzhou and Cuiheng."
+    },
+    "description": {
+      "zh": "1940 年 3 月 6 日，日军一部从海路登陆中山唐家、香洲，随后攻陷前山、坦洲、翠亨，配合从顺德南下的主力包围石岐。日期据中山地方史，待页码级核对。",
+      "en": "On 6 March 1940 a Japanese force landed by sea at Tangjia and Xiangzhou in Zhongshan and then took Qianshan, Tanzhou and Cuiheng, cooperating with the main force advancing south from Shunde to envelop Shiqi. The date follows Zhongshan local history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "bao-an-fall-1940-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "宝安（深圳）第三次沦陷",
+      "en": "Third Fall of Bao’an (Shenzhen)"
+    },
+    "date": "1940-06-22",
+    "location": {
+      "lng": 113.92,
+      "lat": 22.55,
+      "place": {
+        "zh": "广东宝安南头（今深圳）",
+        "en": "Nantou, Bao’an (present-day Shenzhen), Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军第 18 师团在赤湾登陆，再次占领南头、深圳镇。",
+      "en": "The Japanese 18th Division landed at Chiwan and again occupied Nantou and Shenzhen town."
+    },
+    "description": {
+      "zh": "1940 年 6 月 22 日，日军第 18 师团在赤湾登陆，当天占领南头、深圳镇，宝安第三次沦陷。此后日军长期盘踞宝安，直至 1945 年投降。日期据《深圳通史》，待页码级核对。",
+      "en": "On 22 June 1940 the Japanese 18th Division landed at Chiwan and occupied Nantou and Shenzhen town the same day, the third fall of Bao’an. Japanese forces then remained in Bao’an until their surrender in 1945. The date follows the Shenzhen History and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "nanao-landing-1938-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军登陆南澳钱澳",
+      "en": "Japanese Landing at Qian’ao, Nan’ao"
+    },
+    "date": "1938-06-21",
+    "location": {
+      "lng": 117,
+      "lat": 23.42,
+      "place": {
+        "zh": "广东南澳钱澳",
+        "en": "Qian’ao, Nan’ao, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军海军陆战队在钱澳、长尾山一带登陆。",
+      "en": "Japanese naval landing forces came ashore at Qian’ao and Changweishan."
+    },
+    "description": {
+      "zh": "1938 年 6 月 20 日，日军舰艇、飞机轰炸南澳；21 日凌晨 3 时，日本海军陆战队 300 余人从钱澳、长尾山一带登陆，分四路进攻隆澳。中国守军保安营稍作抵抗后撤退。日期据汕头市档案馆，待页码级核对。",
+      "en": "On 20 June 1938 Japanese warships and aircraft bombed Nan’ao; at 03:00 on 21 June more than 300 Japanese naval landing troops came ashore at Qian’ao and Changweishan and attacked Long’ao by four routes. The Chinese security battalion resisted briefly and withdrew. The date follows Shantou municipal archives and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "nanao-fall-1938-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "南澳沦陷",
+      "en": "Fall of Nan’ao"
+    },
+    "date": "1938-06-23",
+    "location": {
+      "lng": 117.03,
+      "lat": 23.42,
+      "place": {
+        "zh": "广东南澳隆澳",
+        "en": "Long’ao, Nan’ao, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军占领南澳全岛，这是潮汕第一个沦陷的县。",
+      "en": "Japanese forces occupied all of Nan’ao, the first county in the Chaoshan region to fall."
+    },
+    "description": {
+      "zh": "1938 年 6 月 21 日日军登陆后，长驱直入占领县城隆澳，至 6 月 23 日控制南澳全岛。这是潮汕第一个沦陷的县。7 月 17 日中国义勇军一度收复南澳，7 月 20 日后日军反扑，8 月初南澳再陷。日期据汕头市档案馆，待页码级核对。",
+      "en": "After landing on 21 June 1938, Japanese forces advanced unopposed into Long’ao and by 23 June controlled all of Nan’ao, the first county in the Chaoshan region to fall. Chinese volunteers briefly recovered the island on 17 July, but Japanese forces counterattacked after 20 July and Nan’ao fell again in early August. The date follows Shantou municipal archives and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "chenghai-fall-1939-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "澄海沦陷",
+      "en": "Fall of Chenghai"
+    },
+    "date": "1939-06-29",
+    "location": {
+      "lng": 116.76,
+      "lat": 23.46,
+      "place": {
+        "zh": "广东澄海",
+        "en": "Chenghai, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军自潮州沿韩江进占澄海。",
+      "en": "Japanese forces advanced from Chaozhou along the Han River and occupied Chenghai."
+    },
+    "description": {
+      "zh": "1939 年 6 月 29 日，侵占汕头的日军由潮州沿韩江进占澄海，澄海沦陷。至此，韩江、榕江、练江出海口均被日军控制。日期据汕头市档案馆，待页码级核对。",
+      "en": "On 29 June 1939 Japanese forces occupying Shantou advanced from Chaozhou along the Han River and occupied Chenghai. With this, the mouths of the Han, Rong and Lian rivers were all under Japanese control. The date follows Shantou municipal archives and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "guangzhou-surrender-1945-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "广州受降",
+      "en": "Surrender of Japanese Forces in Guangzhou"
+    },
+    "date": "1945-09-16",
+    "location": {
+      "lng": 113.26,
+      "lat": 23.13,
+      "place": {
+        "zh": "广东广州中山纪念堂",
+        "en": "Sun Yat-sen Memorial Hall, Guangzhou, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "kmt-forces"
+    ],
+    "category": "投降",
+    "summary": {
+      "zh": "张发奎在广州接受田中久一投降。",
+      "en": "Zhang Fakui accepted the surrender of Tanaka Hisakazu in Guangzhou."
+    },
+    "description": {
+      "zh": "1945 年 9 月 16 日上午 10 时，中国第二方面军司令官张发奎在广州中山纪念堂接受日本第 23 军司令官兼香港占领地总督田中久一投降，受降范围包括广州、雷州半岛与海南岛。日期据中国受降档案，待页码级核对。本事件为受降事件，不绘路线。",
+      "en": "At 10:00 on 16 September 1945 Zhang Fakui, commander of the Chinese 2nd Front Army, accepted the surrender of Tanaka Hisakazu, commander of the Japanese 23rd Army and governor of occupied Hong Kong, at the Sun Yat-sen Memorial Hall in Guangzhou. The surrender covered Guangzhou, the Leizhou Peninsula and Hainan. The date follows Chinese surrender archives and awaits page-level verification. As a surrender event, it is not drawn as a route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "shantou-surrender-1945-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "汕头受降",
+      "en": "Surrender of Japanese Forces in Shantou"
+    },
+    "date": "1945-09-28",
+    "location": {
+      "lng": 116.68,
+      "lat": 23.35,
+      "place": {
+        "zh": "广东汕头",
+        "en": "Shantou, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "kmt-forces"
+    ],
+    "category": "投降",
+    "summary": {
+      "zh": "余汉谋在汕头接受田中久一代表投降。",
+      "en": "Yu Hanmou accepted the surrender of Tanaka Hisakazu’s representative in Shantou."
+    },
+    "description": {
+      "zh": "1945 年 9 月 28 日上午 9 时，中国第七战区司令长官余汉谋派代表徐景唐在汕头“潮汕前进指挥所”接受日军第 23 军参谋长富田直亮代表田中久一投降，受降范围包括曲江、潮汕地区。日期据中国受降档案，待页码级核对。本事件为受降事件，不绘路线。",
+      "en": "At 09:00 on 28 September 1945 Xu Jingtang, representing Chinese 7th War Zone commander Yu Hanmou, accepted the surrender of Major General Tomita Naoaki, chief of staff of the Japanese 23rd Army and representative of Tanaka Hisakazu, at the Chaoshan advance command post in Shantou. The surrender covered Qujiang and the Chaoshan region. The date follows Chinese surrender archives and awaits page-level verification. As a surrender event, it is not drawn as a route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《广州战役》/广州地方史",
+        "note": "大亚湾登陆、广州战役与珠三角沦陷时间线，待页码级核对"
+      },
+      {
+        "title": "人民网、惠州/珠海/江门/中山/汕头地方史",
+        "note": "登陆点、县城沦陷与受降经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
   }
 ]

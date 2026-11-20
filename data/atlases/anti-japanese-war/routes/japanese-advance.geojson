@@ -4088,6 +4088,568 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.85,
+            22.8
+          ],
+          [
+            114.9,
+            22.85
+          ],
+          [
+            114.4,
+            23.1
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-12",
+        "endDate": "1938-10-15",
+        "order": 105,
+        "segmentType": "advance",
+        "name": {
+          "zh": "平海—稔山—惠州（第104师团）",
+          "en": "Pinghai–Renshan–Huizhou (104th Division)"
+        },
+        "description": {
+          "zh": "1938 年 10 月 12 日第 104 师团在平海登陆，13 日占稔山、吉隆，随后配合进攻惠州。示意简化路线。",
+          "en": "On 12 October 1938 the 104th Division landed at Pinghai, took Renshan and Jilong on 13 October and then supported the attack on Huizhou. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.65,
+            22.75
+          ],
+          [
+            114.72,
+            22.98
+          ],
+          [
+            114.4,
+            23.1
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-12",
+        "endDate": "1938-10-15",
+        "order": 106,
+        "segmentType": "advance",
+        "name": {
+          "zh": "盐灶背—平山—惠州（及川支队）",
+          "en": "Yanzaobei–Pingshan–Huizhou (Oikawa Detachment)"
+        },
+        "description": {
+          "zh": "1938 年 10 月 12 日及川支队在盐灶背登陆，经平山方向配合进攻惠州。示意简化路线。",
+          "en": "On 12 October 1938 the Oikawa Detachment landed at Yanzaobei and advanced via Pingshan in support of the attack on Huizhou. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.5,
+            22.7
+          ],
+          [
+            114.45,
+            22.8
+          ],
+          [
+            114.4,
+            23.1
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-12",
+        "endDate": "1938-10-15",
+        "order": 107,
+        "segmentType": "advance",
+        "name": {
+          "zh": "澳头—淡水—惠州（第18师团）",
+          "en": "Aotou–Danshui–Huizhou (18th Division)"
+        },
+        "description": {
+          "zh": "1938 年 10 月 12 日第 18 师团在澳头、霞涌登陆，13 日占淡水，15 日占惠州。示意简化路线。",
+          "en": "On 12 October 1938 the 18th Division landed at Aotou and Xiachong, took Danshui on 13 October and Huizhou on 15 October. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.4,
+            23.1
+          ],
+          [
+            114.3,
+            23.17
+          ],
+          [
+            113.83,
+            23.29
+          ],
+          [
+            113.26,
+            23.13
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-15",
+        "endDate": "1938-10-21",
+        "order": 108,
+        "segmentType": "advance",
+        "name": {
+          "zh": "惠州—博罗—增城—广州",
+          "en": "Huizhou–Boluo–Zengcheng–Guangzhou"
+        },
+        "description": {
+          "zh": "1938 年 10 月 15 日惠州失守后，日军经博罗、增城向广州推进，21 日占广州。示意简化路线。",
+          "en": "After Huizhou fell on 15 October 1938, Japanese forces advanced through Boluo and Zengcheng toward Guangzhou, occupying the city on 21 October. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.26,
+            23.13
+          ],
+          [
+            113.4,
+            23.35
+          ],
+          [
+            113.58,
+            23.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-21",
+        "endDate": "1938-10-23",
+        "order": 109,
+        "segmentType": "advance",
+        "name": {
+          "zh": "广州—从化",
+          "en": "Guangzhou–Conghua"
+        },
+        "description": {
+          "zh": "1938 年 10 月 21 日广州失守后，第 104 师团向北推进，23 日占从化。示意简化路线。",
+          "en": "After Guangzhou fell on 21 October 1938, the 104th Division advanced north and occupied Conghua on 23 October. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.26,
+            23.13
+          ],
+          [
+            113.5,
+            22.95
+          ],
+          [
+            113.67,
+            22.81
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-21",
+        "endDate": "1938-10-23",
+        "order": 110,
+        "segmentType": "advance",
+        "name": {
+          "zh": "广州—虎门",
+          "en": "Guangzhou–Humen"
+        },
+        "description": {
+          "zh": "1938 年 10 月 23 日，日军第 5 师团与海军攻占虎门要塞，控制珠江口。示意简化路线。",
+          "en": "On 23 October 1938 the Japanese 5th Division and navy captured the Humen forts and controlled the Pearl River estuary. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.67,
+            22.81
+          ],
+          [
+            112.9,
+            23.17
+          ],
+          [
+            113.12,
+            23.02
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-23",
+        "endDate": "1938-10-26",
+        "order": 111,
+        "segmentType": "advance",
+        "name": {
+          "zh": "虎门—三水—佛山",
+          "en": "Humen–Sanshui–Foshan"
+        },
+        "description": {
+          "zh": "1938 年 10 月 23 日虎门失守后，日军第 5 师团与海军沿珠江口西进，25 日占三水，26 日占佛山。示意简化路线。",
+          "en": "After Humen fell on 23 October 1938, the Japanese 5th Division and navy advanced west along the Pearl River estuary, taking Sanshui on 25 October and Foshan on 26 October. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.26,
+            23.13
+          ],
+          [
+            113.25,
+            22.84
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-21",
+        "endDate": "1938-10-26",
+        "order": 112,
+        "segmentType": "advance",
+        "name": {
+          "zh": "广州—顺德",
+          "en": "Guangzhou–Shunde"
+        },
+        "description": {
+          "zh": "1938 年 10 月广州失守后，日军向珠江三角洲南部推进，26 日前后占顺德各属。示意简化路线。",
+          "en": "After Guangzhou fell in October 1938, Japanese forces advanced into the southern Pearl River Delta and occupied Shunde’s towns around 26 October. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.26,
+            23.13
+          ],
+          [
+            113.38,
+            22.94
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-21",
+        "endDate": "1938-10-26",
+        "order": 113,
+        "segmentType": "advance",
+        "name": {
+          "zh": "广州—番禺",
+          "en": "Guangzhou–Panyu"
+        },
+        "description": {
+          "zh": "1938 年 10 月广州失守后，日军占领番禺，控制广州南部与珠江航道。示意简化路线。",
+          "en": "After Guangzhou fell in October 1938, Japanese forces occupied Panyu and controlled southern Guangzhou and the Pearl River channels. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.26,
+            23.13
+          ],
+          [
+            113.08,
+            22.58
+          ],
+          [
+            113.03,
+            22.52
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-03-28",
+        "endDate": "1939-04-02",
+        "order": 114,
+        "segmentType": "advance",
+        "name": {
+          "zh": "广州—江门—新会",
+          "en": "Guangzhou–Jiangmen–Xinhui"
+        },
+        "description": {
+          "zh": "1939 年 3 月 28 日日军自广州方向进攻新会，30 日占江门，4 月 2 日占会城。示意简化路线。",
+          "en": "On 28 March 1939 Japanese forces advanced from the Guangzhou direction against Xinhui, took Jiangmen on 30 March and Huicheng on 2 April. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.25,
+            22.84
+          ],
+          [
+            113.3,
+            22.65
+          ],
+          [
+            113.38,
+            22.52
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-03-05",
+        "endDate": "1940-03-07",
+        "order": 115,
+        "segmentType": "advance",
+        "name": {
+          "zh": "顺德—石岐（中山）",
+          "en": "Shunde–Shiqi (Zhongshan)"
+        },
+        "description": {
+          "zh": "1940 年 3 月 5 日日军藤井兵团从顺德攻入中山大小黄圃，7 日占石岐。示意简化路线。",
+          "en": "On 5 March 1940 the Japanese Fujii Brigade entered Dahuangpu and Xiaohuangpu in Zhongshan from Shunde and occupied Shiqi on 7 March. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.58,
+            22.37
+          ],
+          [
+            113.45,
+            22.45
+          ],
+          [
+            113.38,
+            22.52
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-03-06",
+        "endDate": "1940-03-07",
+        "order": 116,
+        "segmentType": "advance",
+        "name": {
+          "zh": "唐家—石岐（中山海路）",
+          "en": "Tangjia–Shiqi (Zhongshan sea route)"
+        },
+        "description": {
+          "zh": "1940 年 3 月 6 日日军海路登陆唐家、香洲，攻陷前山、坦洲、翠亨，配合主力包围石岐。示意简化路线。",
+          "en": "On 6 March 1940 Japanese forces landed by sea at Tangjia and Xiangzhou, took Qianshan, Tanzhou and Cuiheng, and cooperated in the encirclement of Shiqi. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.62,
+            23.66
+          ],
+          [
+            116.7,
+            23.55
+          ],
+          [
+            116.76,
+            23.46
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-06-22",
+        "endDate": "1939-06-29",
+        "order": 117,
+        "segmentType": "advance",
+        "name": {
+          "zh": "潮州—澄海",
+          "en": "Chaozhou–Chenghai"
+        },
+        "description": {
+          "zh": "1939 年 6 月 27 日潮州失守后，日军沿韩江于 29 日进占澄海。示意简化路线。",
+          "en": "After Chaozhou fell on 27 June 1939, Japanese forces advanced along the Han River and occupied Chenghai on 29 June. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117,
+            23.42
+          ],
+          [
+            117.03,
+            23.42
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-06-21",
+        "endDate": "1938-06-23",
+        "order": 118,
+        "segmentType": "advance",
+        "name": {
+          "zh": "钱澳—隆澳（南澳）",
+          "en": "Qian’ao–Long’ao (Nan’ao)"
+        },
+        "description": {
+          "zh": "1938 年 6 月 21 日日军在钱澳、长尾山登陆，23 日控制南澳全岛。示意简化路线。",
+          "en": "On 21 June 1938 Japanese forces landed at Qian’ao and Changweishan and controlled all of Nan’ao by 23 June. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.26,
+            23.13
+          ],
+          [
+            113.6,
+            22.9
+          ],
+          [
+            113.92,
+            22.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-21",
+        "endDate": "1938-11-26",
+        "order": 119,
+        "segmentType": "advance",
+        "name": {
+          "zh": "广州—深圳（1938）",
+          "en": "Guangzhou–Shenzhen (1938)"
+        },
+        "description": {
+          "zh": "1938 年 10 月广州失守后，日军向广九铁路沿线推进，11 月 26 日第一次占领宝安南头、深圳镇。示意简化路线。",
+          "en": "After Guangzhou fell in October 1938, Japanese forces advanced along the Guangzhou–Kowloon railway and first occupied Nantou and Shenzhen town on 26 November. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
