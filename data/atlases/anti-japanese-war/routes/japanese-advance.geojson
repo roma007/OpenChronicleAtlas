@@ -3506,6 +3506,90 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.58,
+            18.32
+          ],
+          [
+            109.55,
+            18.27
+          ],
+          [
+            109.52,
+            18.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-07-01",
+        "endDate": "1944-12-31",
+        "order": 90,
+        "segmentType": "supply",
+        "name": {
+          "zh": "田独—榆林（铁矿外运）",
+          "en": "Tiandu–Yulin (iron ore transport)"
+        },
+        "description": {
+          "zh": "1939 年 7 月田独铁矿开采后，矿石经约 10 公里轻便铁路运至榆林港矿石码头装船。示意简化路线。",
+          "en": "After the Tiandu mine opened in July 1939, ore was carried by a roughly 10-km light railway to the ore terminal at Yulin port for shipment. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.52,
+            18.23
+          ],
+          [
+            109.5,
+            18.25
+          ],
+          [
+            109.18,
+            18.4
+          ],
+          [
+            108.7,
+            18.9
+          ],
+          [
+            108.9,
+            19.1
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-01-01",
+        "endDate": "1943-03-31",
+        "order": 91,
+        "segmentType": "supply",
+        "name": {
+          "zh": "榆林—北黎（榆林—北黎铁路）",
+          "en": "Yulin–Beili (Yulin–Beili railway)"
+        },
+        "description": {
+          "zh": "日军修建榆林—北黎铁路，全长约 187.9 公里，1943 年 3 月基本完工并在北黎与石八线接轨，连接榆林、三亚、八所等港口。示意简化路线。",
+          "en": "Japan built the roughly 187.9-km Yulin–Beili railway, basically completed in March 1943 and joined to the Shilu–Basuo line at Beili, linking Yulin, Sanya, Basuo and other ports. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

@@ -24323,5 +24323,322 @@
     ],
     "relatedIds": [],
     "importance": 2
+  },
+  {
+    "id": "tiandu-iron-mine-1939-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "田独铁矿开采",
+      "en": "Opening of the Tiandu Iron Mine"
+    },
+    "date": "1939-07-01",
+    "location": {
+      "lng": 109.58,
+      "lat": 18.32,
+      "place": {
+        "zh": "海南崖县田独（今三亚田独）",
+        "en": "Tiandu, Ya county (present-day Sanya), Hainan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "经济",
+    "summary": {
+      "zh": "日军发现并开采田独铁矿，修建田独—榆林铁路与榆林港矿石码头。",
+      "en": "Japanese forces discovered and began mining the Tiandu iron ore deposit, building the Tiandu–Yulin railway and an ore terminal at Yulin port."
+    },
+    "description": {
+      "zh": "1939 年 7 月，日军随军地质勘探人员在崖县田独发现优质铁矿，随即由石原株式会社组织开采。1940 年 6 月 11 日首次出矿，并修建田独至河口约 10 公里的轻便铁路，在榆林港建万吨级矿石码头。1944 年下半年因盟军封锁海域停产。据日方资料，田独铁矿共开采约 269 万吨、掠运约 268 万吨；数字待页码级核对。",
+      "en": "In July 1939 Japanese military geologists discovered high-grade iron ore at Tiandu in Ya county, and the Ishihara interests began mining it. First ore was shipped on 11 June 1940; a roughly 10-km light railway was built from Tiandu to the river mouth, and a 10,000-ton ore terminal was built at Yulin port. Mining stopped in the second half of 1944 under Allied naval blockade. According to Japanese sources, about 2.69 million tons were mined and about 2.68 million tons shipped away; these figures await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《海南日报》2015-12-28《海南老铁路：屈辱中诞生》",
+        "note": "田独铁矿发现、轻便铁路与榆林港码头，待页码级核对"
+      },
+      {
+        "title": "《三亚市志》",
+        "note": "田独铁矿储量、品位与开采量，待页码级核对"
+      },
+      {
+        "title": "海南省抗战损失调研课题组《海南省抗战时期人口伤亡和财产损失调研报告》",
+        "note": "田独铁矿产量与掠运量，转引日方资料，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3
+  },
+  {
+    "id": "shilu-basuo-railway-1942-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "石八铁路通车",
+      "en": "Opening of the Shilu–Basuo Railway"
+    },
+    "date": "1942-03-23",
+    "location": {
+      "lng": 108.7,
+      "lat": 19.1,
+      "place": {
+        "zh": "海南东方八所",
+        "en": "Basuo, Dongfang, Hainan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "经济",
+    "summary": {
+      "zh": "石碌—八所铁路铺轨完成，第一列矿石车抵达八所港。",
+      "en": "The Shilu–Basuo railway was completed and the first ore train reached Basuo port."
+    },
+    "description": {
+      "zh": "为把石碌铁矿的矿石运到八所港装船，日军修建石碌—八所铁路，全长约 52 公里。1942 年 3 月铺轨完成，3 月 23 日第一列运矿车由石碌抵达八所。据日方资料，石碌铁矿 1941—1945 年开采约 69.5 万吨、运出约 41 万吨；数字待页码级核对。",
+      "en": "To move ore from the Shilu mine to Basuo port, Japan built the roughly 52-km Shilu–Basuo railway. Track laying was completed in March 1942, and on 23 March the first ore train ran from Shilu to Basuo. According to Japanese sources, the Shilu mine produced about 695,000 tons and shipped about 410,000 tons in 1941–1945; these figures await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《海南日报》2015-12-28《海南老铁路：屈辱中诞生》",
+        "note": "石八线长度、铺轨完成与首列矿石车，待页码级核对"
+      },
+      {
+        "title": "《八所港史》",
+        "note": "八所港与石八线建设，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "yulin-beili-railway-1943-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "榆林—北黎铁路建成",
+      "en": "Completion of the Yulin–Beili Railway"
+    },
+    "date": "1943-03-01",
+    "location": {
+      "lng": 108.9,
+      "lat": 19.1,
+      "place": {
+        "zh": "海南东方北黎",
+        "en": "Beili, Dongfang, Hainan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "经济",
+    "summary": {
+      "zh": "榆林—北黎铁路基本完工，在北黎与石八线接轨。",
+      "en": "The Yulin–Beili railway was basically completed and joined the Shilu–Basuo line at Beili."
+    },
+    "description": {
+      "zh": "在修建石八线的同时，日军为连接榆林海军基地与北黎、八所等港口，修建榆林—北黎铁路，全长约 187.9 公里。1943 年 3 月基本完工，并在北黎与石八线接轨，形成海南西部铁路骨架。具体通车日待页码级核对。",
+      "en": "While building the Shilu–Basuo line, Japan also built the roughly 187.9-km Yulin–Beili railway to link the Yulin naval base with Beili, Basuo and other ports. It was basically completed in March 1943 and joined the Shilu–Basuo line at Beili, forming the railway framework of western Hainan. The exact opening date awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《海南日报》2015-12-28《海南老铁路：屈辱中诞生》",
+        "note": "榆林—北黎铁路长度、1943-03 完工与北黎接轨，待页码级核对"
+      },
+      {
+        "title": "《海南铁路志》",
+        "note": "榆林—北黎铁路走向与车站，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "tiandu-mass-grave-1945-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "田独万人坑",
+      "en": "Tiandu Mass Grave"
+    },
+    "date": "1945-08-15",
+    "location": {
+      "lng": 109.58,
+      "lat": 18.32,
+      "place": {
+        "zh": "海南三亚田独",
+        "en": "Tiandu, Sanya, Hainan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "惨案",
+    "summary": {
+      "zh": "田独铁矿劳工死亡万余人，遗骸葬于田独万人坑。",
+      "en": "More than 10,000 laborers died at the Tiandu iron mine, and their remains were buried in the Tiandu mass grave."
+    },
+    "description": {
+      "zh": "日军为掠夺田独铁矿，从上海、广州、香港、澳门、汕头、厦门等沦陷区诱骗、强征劳工，并在海南各县强抽民夫。劳工在日军和工头押制下从事高强度劳动，病死、饿死、打死、烧死、活埋者众多。战后调查与《海南铁矿志》记载死亡万余人；1945 年 8 月日军投降时，田独铁矿仅存 1713 人。具体数字待页码级核对。本事件为惨案，不绘路线。",
+      "en": "To extract the Tiandu iron ore, Japan deceived and forcibly recruited laborers from Shanghai, Guangzhou, Hong Kong, Macao, Shantou and Xiamen and impressed villagers across Hainan. Under Japanese guards and foremen they performed heavy labor, and many died of disease, starvation, beatings, burning or burial alive. Postwar investigations and the Hainan Iron Mine Gazetteer record more than 10,000 deaths; when Japan surrendered in August 1945 only 1,713 laborers remained at Tiandu. These figures await page-level verification. As a massacre, this event is not drawn as a route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "海南省抗战损失调研课题组《海南省抗战时期人口伤亡和财产损失调研报告》",
+        "note": "田独劳工来源、死亡数与万人坑，待页码级核对"
+      },
+      {
+        "title": "《海南铁矿志》",
+        "note": "田独劳工数量与死亡统计，待页码级核对"
+      },
+      {
+        "title": "《海南日报》2021-06-07《一笔不能忘却的血债》",
+        "note": "田独万人坑与劳工口述，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "hainan-first-occupation-1939-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军完成海南首轮占领",
+      "en": "Completion of Japan’s First Occupation of Hainan"
+    },
+    "date": "1939-04-30",
+    "location": {
+      "lng": 110.47,
+      "lat": 19.25,
+      "place": {
+        "zh": "海南嘉积（今琼海）",
+        "en": "Jiaji (present-day Qionghai), Hainan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军完成海南岛首轮占领，控制文昌、定安、嘉积、儋县等沿海城镇。",
+      "en": "Japan completed its first occupation of Hainan, controlling Wenchang, Ding’an, Jiaji, Danxian and other coastal towns."
+    },
+    "description": {
+      "zh": "1939 年 2 月登陆海口、三亚后，日军继续向文昌、定安、嘉积、儋县新州等沿海城镇推进。至 4 月底，日军完成海南岛首轮占领，控制主要港口、县城与交通线。各城具体失守日期待页码级核对。本事件为占领阶段节点，不绘单线。",
+      "en": "After landing at Haikou and Sanya in February 1939, Japanese forces pushed toward Wenchang, Ding’an, Jiaji and Xinzhou in Danxian. By the end of April they had completed the first occupation of Hainan, controlling the main ports, county towns and roads. The exact date each town fell awaits page-level verification. This is a phase marker and is not drawn as a single route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中共海南省委党史研究室《日军入侵琼崖和潭口阻击战》",
+        "note": "日军登陆后向文昌、定安、嘉积、儋县推进，待页码级核对"
+      },
+      {
+        "title": "《海南抗日战争史》",
+        "note": "首轮占领范围与时间，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "hainan-sweep-1942-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军“扫荡”琼崖根据地",
+      "en": "Japanese “Sweep” of the Qiongya Base Area"
+    },
+    "date": "1942-05-01",
+    "location": {
+      "lng": 110.35,
+      "lat": 19.98,
+      "place": {
+        "zh": "海南琼山",
+        "en": "Qiongshan, Hainan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军对琼崖抗日根据地发动“扫荡”，琼崖独立总队反“扫荡”。",
+      "en": "Japanese forces launched a “sweep” against the Qiongya anti-Japanese base area, and the Qiongya Independent Corps countered it."
+    },
+    "description": {
+      "zh": "1942 年 5 月，日军调集海口、嘉积、那大等据点兵力，对琼山、文昌、定安一带的琼崖抗日根据地发动“扫荡”，企图消灭琼崖独立总队主力。琼崖独立总队以分散游击、民众自卫等方式反“扫荡”，坚持根据地。具体兵力、战斗次数与起止日期待页码级核对。本事件为“扫荡”阶段节点，不绘单线。",
+      "en": "In May 1942 Japanese forces drawn from Haikou, Jiaji, Nada and other garrisons launched a “sweep” against the Qiongya base area in Qiongshan, Wenchang and Ding’an, aiming to destroy the main force of the Qiongya Independent Corps. The Corps resisted through dispersed guerrilla warfare and local self-defense. Strength, number of engagements and exact dates await page-level verification. This is a phase marker and is not drawn as a single route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《琼崖抗日根据地史》",
+        "note": "1942 年日军“扫荡”与琼崖反“扫荡”，待页码级核对"
+      },
+      {
+        "title": "中共海南省委党史研究室相关研究",
+        "note": "日军据点与“扫荡”范围，待页码级核对"
+      }
+    ],
+    "relatedIds": [
+      "qiongya-counter-1942-05"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "hainan-surrender-1945-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "海南受降",
+      "en": "Surrender of Japanese Forces in Hainan"
+    },
+    "date": "1945-10-01",
+    "location": {
+      "lng": 110.32,
+      "lat": 20.03,
+      "place": {
+        "zh": "海南海口",
+        "en": "Haikou, Hainan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "kmt-forces"
+    ],
+    "category": "投降",
+    "summary": {
+      "zh": "国民党第 46 军渡海接收海南，日军海南警备府所部投降。",
+      "en": "The Chinese 46th Army crossed to Hainan to receive the surrender of the Japanese Hainan Guard District."
+    },
+    "description": {
+      "zh": "1945 年 9 月，国民党第 46 军渡海进入海南。10 月初，叶佩高、朱晖日在海口成立前进指挥所，负责对日受降；10 月中旬起，第 188 师、新编第 19 师、第 175 师分批登陆，接收日军武器、器材与物资。日军海南警备府所部投降。精确受降仪式日期与各批接收日程待页码级核对。本事件为受降事件，不绘路线。",
+      "en": "In September 1945 the Chinese 46th Army crossed to Hainan. In early October Ye Peigao and Zhu Huiri established an advance command post at Haikou to handle the Japanese surrender; from mid-October the 188th, New 19th and 175th Divisions landed in batches and took over Japanese weapons, equipment and supplies. The Japanese Hainan Guard District surrendered. The exact ceremony date and reception schedule await page-level verification. As a surrender event, it is not drawn as a route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "人民网《海南岛接受日军投降密事》",
+        "note": "第 46 军渡海、前进指挥所与分批接收，待页码级核对"
+      },
+      {
+        "title": "《海口文史资料》",
+        "note": "海口受降与接收经过，待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
   }
 ]
