@@ -12,6 +12,10 @@ const zh = {
   'about.version': '版本',
   'about.dataContract': '数据契约',
   'about.sources': '来源与许可',
+  'about.regionsTitle': '地区与边界口径',
+  'about.regionsBody':
+    '抗日战争专题按 1931—1945 年名义省区提供省 / 县市 / 地点筛选。省界为手工绘制示意（GPL-3.0，江山时序），县治与地点标注来自 GeoNames（CC BY 4.0）及人工校订；县界暂不绘制，县名点位不表示精确县治或边界。',
+  'about.regionsAttribution': '查看地区与边界来源',
   'about.mapService': '地图服务',
   'about.cache': '离线缓存',
   'about.cacheUsage': '已用 {size}',
@@ -79,9 +83,9 @@ const zh = {
   'gallery.subtitle': '历史专题',
   'gallery.count': '{count} 个专题',
   'gallery.searchEvents': '搜索事件 →',
-  'gallery.dataContract': '数据契约 v1.1.0',
+  'gallery.dataContract': '数据契约 v1.2.0',
   'gallery.mapService': '地图服务 · 高德',
-  'gallery.empty': '还没有专题数据包。请按 docs/schema/atlas-schema-v1.1.0.md 添加。',
+  'gallery.empty': '还没有专题数据包。请按 docs/schema/atlas-schema-v1.2.0.md 添加。',
   'gallery.errorTitle': '专题索引加载失败',
 
   'search.title': '检索',
@@ -243,6 +247,10 @@ const en: Record<keyof typeof zh, string> = {
   'about.version': 'Version',
   'about.dataContract': 'Data contract',
   'about.sources': 'Sources & licences',
+  'about.regionsTitle': 'Regions and boundaries',
+  'about.regionsBody':
+    'The War of Resistance atlas filters by nominal 1931–1945 provinces, counties/cities and places. Provincial outlines are hand-drawn and schematic (GPL-3.0, Jiangshan Atlas); county seats and place labels come from GeoNames (CC BY 4.0) and manual review. County boundaries are not drawn, and county labels are not precise seats or borders.',
+  'about.regionsAttribution': 'Region and boundary sources',
   'about.mapService': 'Map service',
   'about.cache': 'Offline cache',
   'about.cacheUsage': '{size} used',
@@ -310,10 +318,10 @@ const en: Record<keyof typeof zh, string> = {
   'gallery.subtitle': 'Historical atlases',
   'gallery.count': '{count} atlases',
   'gallery.searchEvents': 'Search events →',
-  'gallery.dataContract': 'Data contract v1.1.0',
+  'gallery.dataContract': 'Data contract v1.2.0',
   'gallery.mapService': 'Map service · AMap',
   'gallery.empty':
-    'No atlas data packages yet. Add one following docs/schema/atlas-schema-v1.1.0.md.',
+    'No atlas data packages yet. Add one following docs/schema/atlas-schema-v1.2.0.md.',
   'gallery.errorTitle': 'Failed to load atlas index',
 
   'search.title': 'Search',

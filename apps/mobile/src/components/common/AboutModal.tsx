@@ -44,6 +44,14 @@ export function AboutModal({ visible, onClose }: Props) {
           </View>
 
           <View style={styles.section}>
+            <Text style={styles.sectionTitle}>{t('about.regionsTitle')}</Text>
+            <Text style={styles.paragraph}>{t('about.regionsBody')}</Text>
+            <Pressable onPress={() => void Linking.openURL(ATTRIBUTION_URL)}>
+              <Text style={styles.link}>{t('about.regionsAttribution')}</Text>
+            </Pressable>
+          </View>
+
+          <View style={styles.section}>
             <Text style={styles.sectionTitle}>{t('about.sources')}</Text>
             <Pressable onPress={() => void Linking.openURL(ATTRIBUTION_URL)}>
               <Text style={styles.link}>{t('about.aiMore')}</Text>

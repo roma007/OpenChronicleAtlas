@@ -56,7 +56,7 @@ export function AboutPage() {
             </div>
             <div className="flex justify-between gap-4">
               <dt className="text-ink-soft/60">{t('about.dataContract')}</dt>
-              <dd className="font-medium text-ink">v1.1.0</dd>
+              <dd className="font-medium text-ink">v1.2.0</dd>
             </div>
             <div className="flex justify-between gap-4">
               <dt className="text-ink-soft/60">{t('about.sources')}</dt>
@@ -90,6 +90,19 @@ export function AboutPage() {
             className="mt-3 inline-block text-xs text-cinnabar underline underline-offset-2"
           >
             {t('about.aiMore')}
+          </a>
+        </section>
+
+        <section className="rounded-2xl border border-ink/10 bg-parchment p-5 shadow-sm">
+          <h2 className="font-serif text-lg font-semibold text-ink">{t('about.regionsTitle')}</h2>
+          <p className="mt-2">{t('about.regionsBody')}</p>
+          <a
+            href={dataUrl('ATTRIBUTION.md')}
+            target="_blank"
+            rel="noreferrer"
+            className="mt-3 inline-block text-xs text-cinnabar underline underline-offset-2"
+          >
+            {t('about.regionsAttribution')}
           </a>
         </section>
 

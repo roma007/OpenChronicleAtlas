@@ -386,6 +386,7 @@ docs/
 ### 数据契约
 - [Atlas Schema v1.0.0](schema/atlas-schema-v1.0.0.md)
 - [Atlas Schema v1.1.0](schema/atlas-schema-v1.1.0.md)
+- [Atlas Schema v1.2.0](schema/atlas-schema-v1.2.0.md)
 
 ### 发布说明
 - [v0.1.0-m1（M1）](releases/2026-11-03-v0.1.0-m1.md)

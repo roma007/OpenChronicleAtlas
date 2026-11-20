@@ -3,6 +3,18 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.180] - 2026-11-20
+
+### Changed
+- 关于页与移动端“关于”新增“地区与边界口径”：说明名义省区、省界示意、GeoNames 点位、县界暂不绘制，并链接 ATTRIBUTION。
+- 数据契约版本统一显示为 **v1.2.0**：关于页、专题首页、空状态文档链接、根 README 与文档索引同步更新。
+
+### Verify
+- `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build` 通过。
+- 关于页可看到“地区与边界口径”与来源链接。
+
+---
+
 ## [v1.0.179] - 2026-11-20
 
 ### Added
