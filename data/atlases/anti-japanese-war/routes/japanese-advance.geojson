@@ -4872,6 +4872,212 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.2,
+            24.05
+          ],
+          [
+            114.1,
+            23.9
+          ],
+          [
+            113.95,
+            23.6
+          ],
+          [
+            113.83,
+            23.29
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-01-01",
+        "endDate": "1940-01-16",
+        "order": 125,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "新丰—梅坑—永汉—增城（1940-01 撤退）",
+          "en": "Xinfeng–Meikeng–Yonghan–Zengcheng (January 1940 retreat)"
+        },
+        "description": {
+          "zh": "1940 年 1 月 1 日，日军第 18 师团由新丰、梅坑、永汉向南退却，逐步退回增城。示意简化路线，按撤退样式绘制。",
+          "en": "On 1 January 1940 the Japanese 18th Division withdrew south from Xinfeng, Meikeng and Yonghan toward Zengcheng. Schematic simplified route drawn in the retreat style."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.8,
+            24.4
+          ],
+          [
+            114.13,
+            24.35
+          ],
+          [
+            113.73,
+            23.72
+          ],
+          [
+            113.58,
+            23.55
+          ],
+          [
+            113.26,
+            23.13
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-01-01",
+        "endDate": "1940-01-16",
+        "order": 126,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "新江—翁源—良口—从化—广州（1940-01 撤退）",
+          "en": "Xinjiang–Wengyuan–Liangkou–Conghua–Guangzhou (January 1940 retreat)"
+        },
+        "description": {
+          "zh": "1940 年 1 月 1 日，日军近卫混成旅团由新江、翁源经良口、从化向南退却，退回广州。示意简化路线，按撤退样式绘制。",
+          "en": "On 1 January 1940 the Japanese Guard Mixed Brigade withdrew south from Xinjiang and Wengyuan via Liangkou and Conghua toward Guangzhou. Schematic simplified route drawn in the retreat style."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.4,
+            24.18
+          ],
+          [
+            113.1,
+            23.8
+          ],
+          [
+            113.1,
+            23.6
+          ],
+          [
+            113.2,
+            23.4
+          ],
+          [
+            113.26,
+            23.13
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-01-01",
+        "endDate": "1940-01-16",
+        "order": 127,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "英德—银盏坳—花县—广州（1940-01 撤退）",
+          "en": "Yingde–Yinzhan’ao–Hua county–Guangzhou (January 1940 retreat)"
+        },
+        "description": {
+          "zh": "1940 年 1 月 1 日，日军第 104 师团由英德沿粤汉铁路南退，经银盏坳、花县退回广州。示意简化路线，按撤退样式绘制。",
+          "en": "On 1 January 1940 the Japanese 104th Division withdrew south from Yingde along the Canton–Hankou railway through Yinzhan’ao and Hua county toward Guangzhou. Schematic simplified route drawn in the retreat style."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.73,
+            23.72
+          ],
+          [
+            113.58,
+            23.55
+          ],
+          [
+            113.26,
+            23.13
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-06-01",
+        "endDate": "1940-06-12",
+        "order": 128,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "良口—街口—广州（1940-06 撤退）",
+          "en": "Liangkou–Jiekou–Guangzhou (June 1940 retreat)"
+        },
+        "description": {
+          "zh": "1940 年 6 月 1 日，日军第 38 师团由良口、街口向南退却，退回广州；中国军队 6 月 3 日收复良口、5 日收复街口。示意简化路线，按撤退样式绘制。",
+          "en": "On 1 June 1940 the Japanese 38th Division withdrew south from Liangkou and Jiekou toward Guangzhou; Chinese forces recovered Liangkou on 3 June and Jiekou on 5 June. Schematic simplified route drawn in the retreat style."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.2,
+            23.4
+          ],
+          [
+            113.26,
+            23.13
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-06-01",
+        "endDate": "1940-06-12",
+        "order": 129,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "花县—广州（1940-06 撤退）",
+          "en": "Hua county–Guangzhou (June 1940 retreat)"
+        },
+        "description": {
+          "zh": "1940 年 6 月 1 日，日军第 104 师团一部由花县向南退却，退回广州；中国军队 6 月 1 日收复花县。示意简化路线，按撤退样式绘制。",
+          "en": "On 1 June 1940 elements of the Japanese 104th Division withdrew south from Hua county toward Guangzhou; Chinese forces recovered Hua county on 1 June. Schematic simplified route drawn in the retreat style."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

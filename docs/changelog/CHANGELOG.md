@@ -3,6 +3,31 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.163] - 2026-11-20
+
+### Fixed
+- 用户指出 `retreat` 是现成路线样式（虚线，图例“撤退 / 突围”），M208 只画进攻、省略 1940-01 与 1940-06 撤退线是不对的。补 5 段撤退线：
+  - #125 新丰—梅坑—永汉—增城（1940-01-01～01-16）；
+  - #126 新江—翁源—良口—从化—广州（1940-01-01～01-16）；
+  - #127 英德—银盏坳—花县—广州（1940-01-01～01-16）；
+  - #128 良口—街口—广州（1940-06-01～06-12）；
+  - #129 花县—广州（1940-06-01～06-12）。
+- 5 段全部 `segmentType: retreat`，按虚线渲染，与 `advance` 实线区分；端点由同实体事件锚定，`check:heads` 0 个无来由端点。
+
+### Changed
+- 日军层路线 124 → **129**；专题路线 303 → **308**；全库路线 786 → **791**。事件数不变（281 / 529 / 1323）。
+
+### Docs
+- 更新 M208 计划、实体审计 12.5、路线审计 12.1、日期核对清单 11.5.1。
+
+### Verify
+- `pnpm validate:data`：529 事件 / 308 路线段；全库 1323 / 791。
+- `pnpm check:routes --atlas anti-japanese-war`：0 问题。
+- `pnpm check:heads --atlas anti-japanese-war`：0 个无来由端点。
+- `pnpm typecheck`、`pnpm lint`、`pnpm test`、`build:search-index`、`build:mobile-data` 全部通过。
+
+---
+
 ## [v1.0.162] - 2026-11-20
 
 ### Added
