@@ -1,5 +1,6 @@
 import {
   applyEventFilters,
+  buildShareUrl,
   matchesRegionFilter,
   parseDateString,
   regionAncestors,
@@ -11,11 +12,12 @@ import {
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { useNavigation } from '@react-navigation/native';
 import { useEffect, useMemo, useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { Pressable, ScrollView, Share, StyleSheet, Text, TextInput, View } from 'react-native';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { colors, radii, spacing } from '../../theme';
 import { useI18n } from '../../hooks/useI18n';
 import type { RootStackParamList } from '../../navigation/types';
+import { SITE_URL } from '../../config';
 
 const FIRST_LEVEL = new Set<AtlasRegion['level']>(['province', 'municipality', 'overseas']);
 
@@ -30,6 +32,8 @@ export function RegionFilter({ onNavigate }: RegionFilterProps) {
   const setRegions = useAtlasStore((state) => state.setRegions);
   const focusRegion = useAtlasStore((state) => state.focusRegion);
   const focusRoute = useAtlasStore((state) => state.focusRoute);
+  const currentTime = useAtlasStore((state) => state.currentTime);
+  const mapView = useAtlasStore((state) => state.mapView);
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const pause = useAtlasStore((state) => state.pause);
@@ -203,6 +207,19 @@ export function RegionFilter({ onNavigate }: RegionFilterProps) {
         <Text style={styles.title}>{t('legend.regions')}</Text>
         {filters.regionIds.length > 0 ? (
           <View style={styles.headerActions}>
+            <Pressable
+              onPress={() => {
+                const url = buildShareUrl(SITE_URL, dataset.manifest.id, {
+                  regions: filters.regionIds,
+                  time: new Date(currentTime).toISOString().slice(0, 10),
+                  view: mapView ?? undefined,
+                });
+                void Share.share({ message: url, url });
+              }}
+              style={styles.clear}
+            >
+              <Text style={styles.clearText}>{t('legend.copyRegionLink')}</Text>
+            </Pressable>
             <Pressable
               onPress={() => {
                 const first = dataset.regionsById.get(filters.regionIds[0]!);

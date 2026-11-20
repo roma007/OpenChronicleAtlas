@@ -1,5 +1,6 @@
 import {
   applyEventFilters,
+  buildShareUrl,
   matchesRegionFilter,
   parseDateString,
   regionName,
@@ -26,6 +27,8 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
   const setRegions = useAtlasStore((state) => state.setRegions);
   const focusRegion = useAtlasStore((state) => state.focusRegion);
   const focusRoute = useAtlasStore((state) => state.focusRoute);
+  const currentTime = useAtlasStore((state) => state.currentTime);
+  const mapView = useAtlasStore((state) => state.mapView);
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const pause = useAtlasStore((state) => state.pause);
@@ -37,6 +40,8 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
   const [showAllEvents, setShowAllEvents] = useState(false);
   const [showRoutes, setShowRoutes] = useState(false);
   const [showAllRoutes, setShowAllRoutes] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const [shareUrl, setShareUrl] = useState<string | null>(null);
 
   const selected = useMemo(() => new Set(filters.regionIds), [filters.regionIds]);
 
@@ -204,6 +209,29 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
             <button
               type="button"
               onClick={() => {
+                const url = buildShareUrl(window.location.origin, dataset.manifest.id, {
+                  regions: filters.regionIds,
+                  time: new Date(currentTime).toISOString().slice(0, 10),
+                  view: mapView ?? undefined,
+                });
+                const done = () => {
+                  setCopied(true);
+                  window.setTimeout(() => setCopied(false), 1600);
+                };
+                setShareUrl(null);
+                if (navigator.clipboard?.writeText) {
+                  void navigator.clipboard.writeText(url).then(done, () => setShareUrl(url));
+                } else {
+                  setShareUrl(url);
+                }
+              }}
+              className="rounded-full border border-ink/10 px-2 py-0.5 text-[10px] text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
+            >
+              {t(copied ? 'legend.copied' : 'legend.copyRegionLink')}
+            </button>
+            <button
+              type="button"
+              onClick={() => {
                 const first = dataset.regionsById.get(filters.regionIds[0]!);
                 const firstLabel = first ? regionName(first, locale) : '';
                 const label =
@@ -238,6 +266,18 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
           </div>
         ) : null}
       </div>
+
+      {shareUrl ? (
+        <div className="mt-2">
+          <input
+            readOnly
+            value={shareUrl}
+            onFocus={(event) => event.currentTarget.select()}
+            className="w-full rounded-md border border-ink/10 bg-parchment/70 px-2 py-1 text-[9px] text-ink-soft"
+          />
+          <p className="mt-1 text-[9px] text-ink-soft/50">{t('legend.copyHint')}</p>
+        </div>
+      ) : null}
 
       <div className="mt-2 flex max-h-28 flex-wrap gap-1 overflow-y-auto pr-1">
         {visibleFirst.map((region) => {

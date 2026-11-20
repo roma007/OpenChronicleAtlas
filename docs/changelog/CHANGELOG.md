@@ -3,6 +3,18 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.181] - 2026-11-20
+
+### Added
+- 地区筛选新增“复制链接”：生成包含当前地区、时间与地图视野的分享链接，Web 直接复制，移动端调用系统分享。
+- 剪贴板不可用时显示只读链接输入框，提示手动复制，不再依赖 `window.prompt`。
+
+### Verify
+- 选中河北后复制链接得到 `/atlas/anti-japanese-war?t=1938-10-25&regions=hebei`。
+- `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build` 通过。
+
+---
+
 ## [v1.0.180] - 2026-11-20
 
 ### Changed
