@@ -4,7 +4,7 @@ import {
   resolveLocalized,
   type AtlasRegion,
 } from '@atlas/shared';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { colors, radii, spacing } from '../../theme';
@@ -20,6 +20,7 @@ export function RegionFilter() {
   const focusRegion = useAtlasStore((state) => state.focusRegion);
   const { locale, t } = useI18n();
   const [query, setQuery] = useState('');
+  const [expandedCounties, setExpandedCounties] = useState<Set<string>>(new Set());
 
   const selected = useMemo(() => new Set(filters.regionIds), [filters.regionIds]);
 
@@ -39,6 +40,21 @@ export function RegionFilter() {
     return dataset.regions
       .filter((region) => FIRST_LEVEL.has(region.level))
       .sort((a, b) => regionName(a, locale).localeCompare(regionName(b, locale), locale));
+  }, [dataset, locale]);
+
+  const childrenByParent = useMemo(() => {
+    const map = new Map<string, AtlasRegion[]>();
+    if (!dataset) return map;
+    for (const region of dataset.regions) {
+      if (!region.parentId || FIRST_LEVEL.has(region.level)) continue;
+      const list = map.get(region.parentId) ?? [];
+      list.push(region);
+      map.set(region.parentId, list);
+    }
+    for (const list of map.values()) {
+      list.sort((a, b) => regionName(a, locale).localeCompare(regionName(b, locale), locale));
+    }
+    return map;
   }, [dataset, locale]);
 
   const eventCounts = useMemo(() => {
@@ -61,6 +77,31 @@ export function RegionFilter() {
     return counts;
   }, [dataset]);
 
+  useEffect(() => {
+    if (!dataset) return;
+    setExpandedCounties((previous) => {
+      const next = new Set(previous);
+      let changed = false;
+      for (const id of filters.regionIds) {
+        const region = dataset.regionsById.get(id);
+        if (!region) continue;
+        if (region.level === 'county') {
+          if (!next.has(region.id)) {
+            next.add(region.id);
+            changed = true;
+          }
+        } else if (region.level === 'place' && region.parentId) {
+          const parent = dataset.regionsById.get(region.parentId);
+          if (parent?.level === 'county' && !next.has(parent.id)) {
+            next.add(parent.id);
+            changed = true;
+          }
+        }
+      }
+      return changed ? next : previous;
+    });
+  }, [dataset, filters.regionIds]);
+
   if (!dataset || dataset.regions.length === 0) return null;
 
   const activeFirst = firstLevel.filter((region) => expandedFirst.has(region.id));
@@ -71,27 +112,45 @@ export function RegionFilter() {
       selected.has(region.id) ||
       expandedFirst.has(region.id),
   );
-  const children = activeFirst.length
-    ? dataset.regions
-        .filter((region) => {
-          if (FIRST_LEVEL.has(region.level)) return false;
-          let current: AtlasRegion | undefined = region;
-          while (current && !FIRST_LEVEL.has(current.level)) {
-            current = current.parentId ? dataset.regionsById.get(current.parentId) : undefined;
-          }
-          return current ? expandedFirst.has(current.id) : false;
-        })
-        .filter((region) => {
-          if (!query.trim()) return true;
-          const haystack = [
-            regionName(region, locale),
-            region.modernName ? resolveLocalized(region.modernName, locale) : '',
-            ...(region.aliases ?? []),
-          ].join(' ');
-          return haystack.toLowerCase().includes(query.trim().toLowerCase());
-        })
-        .sort((a, b) => regionName(a, locale).localeCompare(regionName(b, locale), locale))
-    : [];
+  const queryText = query.trim().toLowerCase();
+  const matchesQuery = (region: AtlasRegion) => {
+    if (!queryText) return true;
+    const haystack = [
+      regionName(region, locale),
+      region.modernName ? resolveLocalized(region.modernName, locale) : '',
+      ...(region.aliases ?? []),
+    ].join(' ');
+    return haystack.toLowerCase().includes(queryText);
+  };
+  const countLabel = (region: AtlasRegion) => {
+    const events = eventCounts.get(region.id) ?? 0;
+    const routes = routeCounts.get(region.id) ?? 0;
+    return routes > 0 ? `${events} / ${routes}` : String(events);
+  };
+
+  const groups = activeFirst.map((first) => {
+    const direct = childrenByParent.get(first.id) ?? [];
+    const counties = direct
+      .filter((region) => region.level === 'county')
+      .map((county) => {
+        const places = childrenByParent.get(county.id) ?? [];
+        const matching = places.filter(matchesQuery);
+        const countyMatches = matchesQuery(county);
+        return {
+          county,
+          places: countyMatches ? places : matching,
+          visible: countyMatches || matching.length > 0,
+        };
+      })
+      .filter((entry) => entry.visible);
+    const directPlaces = direct.filter(
+      (region) => region.level === 'place' && matchesQuery(region),
+    );
+    return { first, counties, directPlaces };
+  });
+  const hasRows = groups.some(
+    (group) => group.counties.length > 0 || group.directPlaces.length > 0,
+  );
 
   return (
     <View style={styles.root}>
@@ -140,33 +199,102 @@ export function RegionFilter() {
             style={styles.search}
           />
           <ScrollView style={styles.list} nestedScrollEnabled>
-            {children.map((region) => {
-              const active = selected.has(region.id);
-              const count = eventCounts.get(region.id) ?? 0;
-              return (
-                <Pressable
-                  key={region.id}
-                  onPress={() => toggleRegion(region.id)}
-                  style={[styles.row, active && styles.rowActive]}
-                  accessibilityRole="button"
-                  accessibilityState={{ selected: active }}
-                >
-                  <Text style={[styles.rowText, active && styles.rowTextActive]}>
-                    {region.level === 'county' ? '' : '· '}
-                    {regionName(region, locale)}
-                  </Text>
-                  {region.modernName ? (
-                    <Text style={styles.modern} numberOfLines={1}>
-                      {resolveLocalized(region.modernName, locale)}
-                    </Text>
-                  ) : null}
-                  <Text style={styles.count}>{count}</Text>
-                </Pressable>
-              );
-            })}
-            {children.length === 0 ? (
-              <Text style={styles.empty}>{t('legend.noRegionMatch')}</Text>
-            ) : null}
+            {groups.map((group) => (
+              <View key={group.first.id} style={styles.group}>
+                <Text style={styles.groupTitle}>{regionName(group.first, locale)}</Text>
+                {group.counties.map(({ county, places }) => {
+                  const expanded = expandedCounties.has(county.id) || Boolean(queryText);
+                  const active = selected.has(county.id);
+                  return (
+                    <View key={county.id}>
+                      <View style={styles.countyRow}>
+                        <Pressable
+                          onPress={() =>
+                            setExpandedCounties((previous) => {
+                              const next = new Set(previous);
+                              if (next.has(county.id)) next.delete(county.id);
+                              else next.add(county.id);
+                              return next;
+                            })
+                          }
+                          accessibilityLabel={t(
+                            expanded ? 'legend.collapseCounty' : 'legend.expandCounty',
+                          )}
+                          style={styles.chevron}
+                        >
+                          <Text style={styles.chevronText}>{expanded ? '▾' : '▸'}</Text>
+                        </Pressable>
+                        <Pressable
+                          onPress={() => toggleRegion(county.id)}
+                          style={[styles.row, styles.rowFlex, active && styles.rowActive]}
+                          accessibilityRole="button"
+                          accessibilityState={{ selected: active }}
+                        >
+                          <Text style={[styles.countyText, active && styles.rowTextActive]}>
+                            {regionName(county, locale)}
+                          </Text>
+                          <Text style={styles.count}>{countLabel(county)}</Text>
+                        </Pressable>
+                      </View>
+                      {expanded ? (
+                        places.length > 0 ? (
+                          places.map((place) => {
+                            const placeActive = selected.has(place.id);
+                            return (
+                              <Pressable
+                                key={place.id}
+                                onPress={() => toggleRegion(place.id)}
+                                style={[styles.placeRow, placeActive && styles.rowActive]}
+                                accessibilityRole="button"
+                                accessibilityState={{ selected: placeActive }}
+                              >
+                                <Text
+                                  style={[styles.rowText, placeActive && styles.rowTextActive]}
+                                  numberOfLines={1}
+                                >
+                                  · {regionName(place, locale)}
+                                </Text>
+                                {place.modernName ? (
+                                  <Text style={styles.modern} numberOfLines={1}>
+                                    {resolveLocalized(place.modernName, locale)}
+                                  </Text>
+                                ) : null}
+                                <Text style={styles.count}>{countLabel(place)}</Text>
+                              </Pressable>
+                            );
+                          })
+                        ) : (
+                          <Text style={styles.empty}>{t('legend.noRegionMatch')}</Text>
+                        )
+                      ) : null}
+                    </View>
+                  );
+                })}
+                {group.directPlaces.map((place) => {
+                  const active = selected.has(place.id);
+                  return (
+                    <Pressable
+                      key={place.id}
+                      onPress={() => toggleRegion(place.id)}
+                      style={[styles.placeRow, active && styles.rowActive]}
+                      accessibilityRole="button"
+                      accessibilityState={{ selected: active }}
+                    >
+                      <Text style={[styles.rowText, active && styles.rowTextActive]} numberOfLines={1}>
+                        · {regionName(place, locale)}
+                      </Text>
+                      {place.modernName ? (
+                        <Text style={styles.modern} numberOfLines={1}>
+                          {resolveLocalized(place.modernName, locale)}
+                        </Text>
+                      ) : null}
+                      <Text style={styles.count}>{countLabel(place)}</Text>
+                    </Pressable>
+                  );
+                })}
+              </View>
+            ))}
+            {!hasRows ? <Text style={styles.empty}>{t('legend.noRegionMatch')}</Text> : null}
           </ScrollView>
           <Text style={styles.hint}>{t('legend.regionHint')}</Text>
         </View>
@@ -210,20 +338,48 @@ const styles = StyleSheet.create({
     fontSize: 11,
     color: colors.ink,
   },
-  list: { maxHeight: 220 },
+  list: { maxHeight: 260 },
+  group: { marginBottom: 6 },
+  groupTitle: {
+    fontSize: 9,
+    letterSpacing: 1.4,
+    color: colors.inkSoft,
+    opacity: 0.45,
+    paddingHorizontal: 4,
+    paddingVertical: 3,
+  },
+  countyRow: { flexDirection: 'row', alignItems: 'center' },
+  rowFlex: { flex: 1 },
+  chevron: {
+    width: 22,
+    height: 26,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  chevronText: { fontSize: 10, color: colors.inkSoft, opacity: 0.5 },
   row: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 6,
-    paddingHorizontal: 6,
+    paddingHorizontal: 4,
     paddingVertical: 5,
     borderRadius: radii.sm,
   },
+  placeRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    paddingLeft: 28,
+    paddingRight: 6,
+    paddingVertical: 4,
+    borderRadius: radii.sm,
+  },
   rowActive: { backgroundColor: colors.cinnabar + '14' },
-  rowText: { fontSize: 11, color: colors.inkSoft },
+  rowText: { fontSize: 10, color: colors.inkSoft },
   rowTextActive: { color: colors.cinnabar },
+  countyText: { fontSize: 11, color: colors.inkSoft, fontWeight: '500' },
   modern: { flex: 1, fontSize: 9, color: colors.inkSoft, opacity: 0.55 },
   count: { fontSize: 9, color: colors.inkSoft, opacity: 0.6 },
-  empty: { fontSize: 10, color: colors.inkSoft, opacity: 0.5, padding: 6 },
+  empty: { fontSize: 9, color: colors.inkSoft, opacity: 0.45, padding: 6 },
   hint: { fontSize: 9, lineHeight: 13, color: colors.inkSoft, opacity: 0.55 },
 });

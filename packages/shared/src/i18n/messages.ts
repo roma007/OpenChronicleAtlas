@@ -119,6 +119,8 @@ const zh = {
   'legend.clearRegions': '清除地区',
   'legend.focusRegion': '定位',
   'legend.searchRegion': '搜索县市 / 地点',
+  'legend.expandCounty': '展开该县的地点',
+  'legend.collapseCounty': '收起该县的地点',
   'legend.regionHint':
     '按当时的省、县市或地点筛选；跨省路线整条保留，放大到 6 级后标注起点与终点。省界为手工绘制示意；县界暂不绘制，县名落点为示意位置。',
   'legend.noRegionMatch': '没有匹配的地点',
@@ -323,6 +325,8 @@ const en: Record<keyof typeof zh, string> = {
   'legend.clearRegions': 'Clear regions',
   'legend.focusRegion': 'Focus',
   'legend.searchRegion': 'Search county / place',
+  'legend.expandCounty': 'Expand places in this county',
+  'legend.collapseCounty': 'Collapse places in this county',
   'legend.regionHint':
     'Filter by historical province, county or place. Cross-province routes stay whole, with both endpoints labelled at zoom 6+. Provincial outlines are hand-drawn; county boundaries are not drawn, and county labels are schematic points.',
   'legend.noRegionMatch': 'No matching place',

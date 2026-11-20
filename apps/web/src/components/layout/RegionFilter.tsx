@@ -4,7 +4,7 @@ import {
   resolveLocalized,
   type AtlasRegion,
 } from '@atlas/shared';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { useI18n } from '../../hooks/useI18n';
 
@@ -22,6 +22,7 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
   const focusRegion = useAtlasStore((state) => state.focusRegion);
   const { locale, t } = useI18n();
   const [query, setQuery] = useState('');
+  const [expandedCounties, setExpandedCounties] = useState<Set<string>>(new Set());
 
   const selected = useMemo(() => new Set(filters.regionIds), [filters.regionIds]);
 
@@ -41,6 +42,21 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
     return dataset.regions
       .filter((region) => FIRST_LEVEL.has(region.level))
       .sort((a, b) => regionName(a, locale).localeCompare(regionName(b, locale), locale));
+  }, [dataset, locale]);
+
+  const childrenByParent = useMemo(() => {
+    const map = new Map<string, AtlasRegion[]>();
+    if (!dataset) return map;
+    for (const region of dataset.regions) {
+      if (!region.parentId || FIRST_LEVEL.has(region.level)) continue;
+      const list = map.get(region.parentId) ?? [];
+      list.push(region);
+      map.set(region.parentId, list);
+    }
+    for (const list of map.values()) {
+      list.sort((a, b) => regionName(a, locale).localeCompare(regionName(b, locale), locale));
+    }
+    return map;
   }, [dataset, locale]);
 
   const eventCounts = useMemo(() => {
@@ -63,6 +79,32 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
     return counts;
   }, [dataset]);
 
+  // 选中县/地点时自动展开其所属县
+  useEffect(() => {
+    if (!dataset) return;
+    setExpandedCounties((previous) => {
+      const next = new Set(previous);
+      let changed = false;
+      for (const id of filters.regionIds) {
+        const region = dataset.regionsById.get(id);
+        if (!region) continue;
+        if (region.level === 'county') {
+          if (!next.has(region.id)) {
+            next.add(region.id);
+            changed = true;
+          }
+        } else if (region.level === 'place' && region.parentId) {
+          const parent = dataset.regionsById.get(region.parentId);
+          if (parent?.level === 'county' && !next.has(parent.id)) {
+            next.add(parent.id);
+            changed = true;
+          }
+        }
+      }
+      return changed ? next : previous;
+    });
+  }, [dataset, filters.regionIds]);
+
   if (!dataset || dataset.regions.length === 0) return null;
 
   const activeFirst = firstLevel.filter((region) => expandedFirst.has(region.id));
@@ -73,39 +115,46 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
       selected.has(region.id) ||
       expandedFirst.has(region.id),
   );
-  const children = activeFirst.length
-    ? dataset.regions
-        .filter((region) => {
-          if (FIRST_LEVEL.has(region.level)) return false;
-          let current: AtlasRegion | undefined = region;
-          while (current && !FIRST_LEVEL.has(current.level)) {
-            current = current.parentId ? dataset.regionsById.get(current.parentId) : undefined;
-          }
-          return current ? expandedFirst.has(current.id) : false;
-        })
-        .filter((region) => {
-          if (!query.trim()) return true;
-          const haystack = [
-            regionName(region, locale),
-            region.modernName ? resolveLocalized(region.modernName, locale) : '',
-            ...(region.aliases ?? []),
-          ].join(' ');
-          return haystack.toLowerCase().includes(query.trim().toLowerCase());
-        })
-        .sort((a, b) => {
-          const depth = (region: AtlasRegion) => {
-            let count = 0;
-            let current: AtlasRegion | undefined = region;
-            while (current && current.parentId) {
-              count += 1;
-              current = dataset.regionsById.get(current.parentId);
-            }
-            return count;
-          };
-          const d = depth(a) - depth(b);
-          return d !== 0 ? d : regionName(a, locale).localeCompare(regionName(b, locale), locale);
-        })
-    : [];
+  const queryText = query.trim().toLowerCase();
+  const matchesQuery = (region: AtlasRegion) => {
+    if (!queryText) return true;
+    const haystack = [
+      regionName(region, locale),
+      region.modernName ? resolveLocalized(region.modernName, locale) : '',
+      ...(region.aliases ?? []),
+    ].join(' ');
+    return haystack.toLowerCase().includes(queryText);
+  };
+  const countLabel = (region: AtlasRegion) => {
+    const events = eventCounts.get(region.id) ?? 0;
+    const routes = routeCounts.get(region.id) ?? 0;
+    return routes > 0 ? `${events} / ${routes}` : String(events);
+  };
+
+  const groups = activeFirst.map((first) => {
+    const direct = childrenByParent.get(first.id) ?? [];
+    const counties = direct.filter((region) => region.level === 'county');
+    const directPlaces = direct.filter((region) => region.level === 'place');
+    const visibleCounties = counties
+      .map((county) => {
+        const places = childrenByParent.get(county.id) ?? [];
+        const matchingPlaces = places.filter(matchesQuery);
+        const countyMatches = matchesQuery(county);
+        const visible = countyMatches || matchingPlaces.length > 0;
+        return {
+          county,
+          places: countyMatches ? places : matchingPlaces,
+          visible,
+          countyMatches,
+        };
+      })
+      .filter((entry) => entry.visible);
+    const visiblePlaces = directPlaces.filter(matchesQuery);
+    return { first, counties: visibleCounties, directPlaces: visiblePlaces };
+  });
+  const hasRows = groups.some(
+    (group) => group.counties.length > 0 || group.directPlaces.length > 0,
+  );
 
   return (
     <section className={`mt-3 border-t border-ink/10 pt-3 ${className}`} aria-label={t('legend.regions')}>
@@ -167,42 +216,117 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
             placeholder={t('legend.searchRegion')}
             className="w-full rounded-lg border border-ink/10 bg-parchment/70 px-2 py-1 text-[11px] text-ink outline-none placeholder:text-ink-soft/50 focus:border-cinnabar/40"
           />
-          <ul className="mt-1.5 max-h-56 space-y-0.5 overflow-y-auto pr-1">
-            {children.map((region) => {
-              const active = selected.has(region.id);
-              const count = eventCounts.get(region.id) ?? 0;
-              const routes = routeCounts.get(region.id) ?? 0;
-              const isCounty = region.level === 'county';
-              return (
-                <li key={region.id}>
-                  <button
-                    type="button"
-                    aria-pressed={active}
-                    onClick={() => toggleRegion(region.id)}
-                    className={`flex w-full items-center gap-1.5 rounded-md px-1.5 py-1 text-left text-[11px] transition ${
-                      active
-                        ? 'bg-cinnabar/10 text-cinnabar'
-                        : 'text-ink-soft hover:bg-ink/5 hover:text-ink'
-                    }`}
-                  >
-                    <span className={isCounty ? 'font-medium' : 'opacity-70'}>
-                      {isCounty ? '' : '· '}
-                      {regionName(region, locale)}
-                    </span>
-                    {region.modernName ? (
-                      <span className="truncate text-[9px] opacity-50">
-                        {resolveLocalized(region.modernName, locale)}
+          <ul className="mt-1.5 max-h-64 space-y-0.5 overflow-y-auto pr-1">
+            {groups.map((group) => (
+              <li key={group.first.id}>
+                <div className="px-1.5 py-1 text-[9px] tracking-[0.16em] text-ink-soft/45">
+                  {regionName(group.first, locale)}
+                </div>
+                {group.counties.map(({ county, places }) => {
+                  const expanded = expandedCounties.has(county.id) || Boolean(queryText);
+                  const active = selected.has(county.id);
+                  return (
+                    <div key={county.id}>
+                      <div className="flex items-center gap-0.5">
+                        <button
+                          type="button"
+                          onClick={() =>
+                            setExpandedCounties((previous) => {
+                              const next = new Set(previous);
+                              if (next.has(county.id)) next.delete(county.id);
+                              else next.add(county.id);
+                              return next;
+                            })
+                          }
+                          aria-label={t(expanded ? 'legend.collapseCounty' : 'legend.expandCounty')}
+                          className="grid h-5 w-5 shrink-0 place-items-center rounded text-[10px] text-ink-soft/50 hover:bg-ink/5 hover:text-ink"
+                        >
+                          {expanded ? '▾' : '▸'}
+                        </button>
+                        <button
+                          type="button"
+                          aria-pressed={active}
+                          onClick={() => toggleRegion(county.id)}
+                          className={`flex min-w-0 flex-1 items-center gap-1.5 rounded-md px-1 py-1 text-left text-[11px] transition ${
+                            active
+                              ? 'bg-cinnabar/10 text-cinnabar'
+                              : 'text-ink-soft hover:bg-ink/5 hover:text-ink'
+                          }`}
+                        >
+                          <span className="font-medium">{regionName(county, locale)}</span>
+                          <span className="ml-auto shrink-0 tabular-nums text-[9px] opacity-60">
+                            {countLabel(county)}
+                          </span>
+                        </button>
+                      </div>
+                      {expanded ? (
+                        <ul className="space-y-0.5">
+                          {places.map((place) => {
+                            const placeActive = selected.has(place.id);
+                            return (
+                              <li key={place.id}>
+                                <button
+                                  type="button"
+                                  aria-pressed={placeActive}
+                                  onClick={() => toggleRegion(place.id)}
+                                  className={`flex w-full items-center gap-1.5 rounded-md py-1 pl-7 pr-1.5 text-left text-[10px] transition ${
+                                    placeActive
+                                      ? 'bg-cinnabar/10 text-cinnabar'
+                                      : 'text-ink-soft/80 hover:bg-ink/5 hover:text-ink'
+                                  }`}
+                                >
+                                  <span>· {regionName(place, locale)}</span>
+                                  {place.modernName ? (
+                                    <span className="truncate text-[9px] opacity-45">
+                                      {resolveLocalized(place.modernName, locale)}
+                                    </span>
+                                  ) : null}
+                                  <span className="ml-auto shrink-0 tabular-nums text-[9px] opacity-55">
+                                    {countLabel(place)}
+                                  </span>
+                                </button>
+                              </li>
+                            );
+                          })}
+                          {places.length === 0 ? (
+                            <li className="py-1 pl-7 pr-1.5 text-[9px] text-ink-soft/40">
+                              {t('legend.noRegionMatch')}
+                            </li>
+                          ) : null}
+                        </ul>
+                      ) : null}
+                    </div>
+                  );
+                })}
+                {group.directPlaces.map((place) => {
+                  const active = selected.has(place.id);
+                  return (
+                    <button
+                      key={place.id}
+                      type="button"
+                      aria-pressed={active}
+                      onClick={() => toggleRegion(place.id)}
+                      className={`flex w-full items-center gap-1.5 rounded-md px-1.5 py-1 text-left text-[10px] transition ${
+                        active
+                          ? 'bg-cinnabar/10 text-cinnabar'
+                          : 'text-ink-soft/80 hover:bg-ink/5 hover:text-ink'
+                      }`}
+                    >
+                      <span>· {regionName(place, locale)}</span>
+                      {place.modernName ? (
+                        <span className="truncate text-[9px] opacity-45">
+                          {resolveLocalized(place.modernName, locale)}
+                        </span>
+                      ) : null}
+                      <span className="ml-auto shrink-0 tabular-nums text-[9px] opacity-55">
+                        {countLabel(place)}
                       </span>
-                    ) : null}
-                    <span className="ml-auto shrink-0 tabular-nums text-[9px] opacity-60">
-                      {count}
-                      {routes > 0 ? ` / ${routes}` : ''}
-                    </span>
-                  </button>
-                </li>
-              );
-            })}
-            {children.length === 0 ? (
+                    </button>
+                  );
+                })}
+              </li>
+            ))}
+            {!hasRows ? (
               <li className="px-1.5 py-1 text-[10px] text-ink-soft/50">{t('legend.noRegionMatch')}</li>
             ) : null}
           </ul>
