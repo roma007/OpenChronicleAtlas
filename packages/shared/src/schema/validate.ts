@@ -2,6 +2,8 @@ import type {
   AtlasEvent,
   AtlasIssue,
   AtlasManifest,
+  AtlasRegion,
+  AtlasRegionIndex,
   AtlasRouteFeature,
   AtlasTerritoryFeature,
 } from '../types';
@@ -15,9 +17,12 @@ export function validateCrossFile(
   routes: AtlasRouteFeature[],
   events: AtlasEvent[],
   territories: AtlasTerritoryFeature[] = [],
+  regions: AtlasRegion[] = [],
+  regionIndex: AtlasRegionIndex | null = null,
 ): AtlasIssue[] {
   const issues: AtlasIssue[] = [];
   const entityIds = new Set(manifest.entities.map((e) => e.id));
+  const regionIds = new Set<string>();
   const eventIds = new Set<string>();
   const routeOrders = new Map<string, Set<number>>();
 
@@ -30,6 +35,54 @@ export function validateCrossFile(
       path: 'manifest.timeRange',
       message: 'timeRange.start 不能晚于 timeRange.end',
     });
+  }
+
+  const regionParents = new Map<string, string | null>();
+  regions.forEach((region, index) => {
+    const path = `regions[${index}]`;
+    if (regionIds.has(region.id)) {
+      issues.push({
+        level: 'error',
+        path: `${path}.id`,
+        message: `地区 id "${region.id}" 重复`,
+      });
+    }
+    regionIds.add(region.id);
+    regionParents.set(region.id, region.parentId);
+    if (region.parentId && !regions.some((item) => item.id === region.parentId)) {
+      issues.push({
+        level: 'error',
+        path: `${path}.parentId`,
+        message: `parentId "${region.parentId}" 不存在于 regions`,
+      });
+    }
+    if (region.level === 'province' || region.level === 'municipality' || region.level === 'overseas') {
+      if (region.parentId !== null) {
+        issues.push({
+          level: 'warning',
+          path: `${path}.parentId`,
+          message: `${region.level} 通常应为一级地区（parentId: null）`,
+        });
+      }
+    }
+  });
+
+  // 防止循环父子关系
+  for (const id of regionIds) {
+    const seen = new Set<string>();
+    let current: string | null | undefined = id;
+    while (current) {
+      if (seen.has(current)) {
+        issues.push({
+          level: 'error',
+          path: `regions.${id}.parentId`,
+          message: '地区父子关系存在循环',
+        });
+        break;
+      }
+      seen.add(current);
+      current = regionParents.get(current) ?? null;
+    }
   }
 
   routes.forEach((route, index) => {
@@ -64,6 +117,25 @@ export function validateCrossFile(
     }
     orders.add(p.order);
     routeOrders.set(p.entityId, orders);
+
+    for (const id of p.regionIds ?? []) {
+      if (!regionIds.has(id)) {
+        issues.push({
+          level: 'error',
+          path: `${path}.regionIds`,
+          message: `地区 id "${id}" 不存在于 regions`,
+        });
+      }
+    }
+    for (const id of p.endpointRegionIds ?? []) {
+      if (!regionIds.has(id)) {
+        issues.push({
+          level: 'error',
+          path: `${path}.endpointRegionIds`,
+          message: `地区 id "${id}" 不存在于 regions`,
+        });
+      }
+    }
 
     route.geometry.coordinates.forEach(([lng, lat], i) => {
       if (lng < -180 || lng > 180 || lat < -85 || lat > 85) {
@@ -125,6 +197,16 @@ export function validateCrossFile(
         message: `事件日期 ${event.date} 超出 manifest.timeRange`,
       });
     }
+
+    for (const id of event.location.regionIds ?? []) {
+      if (!regionIds.has(id)) {
+        issues.push({
+          level: 'error',
+          path: `${path}.location.regionIds`,
+          message: `地区 id "${id}" 不存在于 regions`,
+        });
+      }
+    }
   });
 
   territories.forEach((territory, index) => {
@@ -170,6 +252,49 @@ export function validateCrossFile(
       }
     });
   });
+
+  // regionIndex 的键必须能对应到真实事件/路线
+  if (regionIndex) {
+    const routeKeys = new Set(
+      routes.map((route) => `${route.properties.entityId}:${route.properties.order}`),
+    );
+    for (const [eventId, ids] of Object.entries(regionIndex.events)) {
+      if (!eventIds.has(eventId)) {
+        issues.push({
+          level: 'error',
+          path: `regionIndex.events.${eventId}`,
+          message: 'regionIndex 引用了不存在的事件',
+        });
+      }
+      for (const id of ids) {
+        if (!regionIds.has(id)) {
+          issues.push({
+            level: 'error',
+            path: `regionIndex.events.${eventId}`,
+            message: `地区 id "${id}" 不存在于 regions`,
+          });
+        }
+      }
+    }
+    for (const [key, entry] of Object.entries(regionIndex.routes)) {
+      if (!routeKeys.has(key)) {
+        issues.push({
+          level: 'error',
+          path: `regionIndex.routes.${key}`,
+          message: 'regionIndex 引用了不存在的路线（entityId:order）',
+        });
+      }
+      for (const id of [...entry.regionIds, ...(entry.endpointRegionIds ?? [])]) {
+        if (!regionIds.has(id)) {
+          issues.push({
+            level: 'error',
+            path: `regionIndex.routes.${key}`,
+            message: `地区 id "${id}" 不存在于 regions`,
+          });
+        }
+      }
+    }
+  }
 
   return issues;
 }

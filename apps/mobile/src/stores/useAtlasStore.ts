@@ -14,7 +14,9 @@ import {
   datasetDateRange,
   createTimeline,
   isDataVersionNewer,
+  isRegionDescendant,
   normalizeLocale,
+  normalizeRegionSelection,
   ratioToTime,
   stepDays as addDays,
 } from '@atlas/shared';
@@ -49,6 +51,7 @@ interface MobileAtlasState {
 
   activeEntityIds: Set<string>;
   filters: AtlasFilters;
+  showAdminBoundaries: boolean;
   locale: Locale;
   fromCache: boolean;
   mapView: ShareView | null;
@@ -71,6 +74,9 @@ interface MobileAtlasState {
   clearCache(): Promise<void>;
   setFilters(filters: AtlasFilters): void;
   toggleCategory(category: string): void;
+  toggleRegion(regionId: string): void;
+  setRegions(regionIds: string[]): void;
+  toggleAdminBoundaries(): void;
   resetFilters(): void;
   setCurrentTime(time: AtlasTime): void;
   seekRatio(ratio: number): void;
@@ -122,6 +128,7 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
 
   activeEntityIds: new Set(),
   filters: EMPTY_FILTERS,
+  showAdminBoundaries: true,
   locale: 'zh',
   fromCache: false,
   mapView: null,
@@ -162,6 +169,7 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
       filters: EMPTY_FILTERS,
       mapView: null,
       fromCache: false,
+      showAdminBoundaries: true,
     });
     resetCacheHit();
     try {
@@ -241,7 +249,11 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
   },
 
   setFilters(filters) {
-    set({ filters });
+    const dataset = get().dataset;
+    const regionIds = dataset
+      ? normalizeRegionSelection(dataset.regionsById, filters.regionIds ?? [])
+      : filters.regionIds;
+    set({ filters: { ...filters, regionIds } });
   },
 
   toggleCategory(category) {
@@ -250,6 +262,39 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
       ? current.categories.filter((item) => item !== category)
       : [...current.categories, category];
     set({ filters: { ...current, categories } });
+  },
+
+  toggleRegion(regionId) {
+    const { dataset, filters } = get();
+    if (!dataset) return;
+    if (!dataset.regionsById.has(regionId)) return;
+    const current = normalizeRegionSelection(dataset.regionsById, filters.regionIds ?? []);
+    if (current.includes(regionId)) {
+      set({ filters: { ...filters, regionIds: current.filter((id) => id !== regionId) } });
+      return;
+    }
+    const next = current.filter(
+      (id) => !isRegionDescendant(dataset.regionsById, id, regionId),
+    );
+    next.push(regionId);
+    set({
+      filters: {
+        ...filters,
+        regionIds: normalizeRegionSelection(dataset.regionsById, next),
+      },
+    });
+  },
+
+  setRegions(regionIds) {
+    const dataset = get().dataset;
+    const next = dataset
+      ? normalizeRegionSelection(dataset.regionsById, regionIds)
+      : regionIds;
+    set({ filters: { ...get().filters, regionIds: next } });
+  },
+
+  toggleAdminBoundaries() {
+    set({ showAdminBoundaries: !get().showAdminBoundaries });
   },
 
   resetFilters() {

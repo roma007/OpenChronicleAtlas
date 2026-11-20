@@ -52,10 +52,11 @@ export function AtlasPage() {
     pause();
     if (state.locale) setLocale(state.locale);
     if (state.entities) setActiveEntities(state.entities);
-    if (state.categories || state.from || state.to) {
+    if (state.categories || state.regions || state.from || state.to) {
       setFilters({
         ...EMPTY_FILTERS,
         categories: state.categories ?? [],
+        regionIds: state.regions ?? [],
         from: state.from,
         to: state.to,
       });

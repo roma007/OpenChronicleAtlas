@@ -56,10 +56,11 @@ export function AtlasScreen({ route, navigation }: Props) {
     pause();
     if (share?.locale) setLocale(share.locale);
     if (share?.entities) setActiveEntities(share.entities);
-    if (share?.categories || share?.from || share?.to) {
+    if (share?.categories || share?.regions || share?.from || share?.to) {
       setFilters({
         ...EMPTY_FILTERS,
         categories: share.categories ?? [],
+        regionIds: share.regions ?? [],
         from: share.from,
         to: share.to,
       });

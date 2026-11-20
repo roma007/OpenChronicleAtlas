@@ -15,6 +15,8 @@ import {
   isDataVersionNewer,
   createTimeline,
   normalizeLocale,
+  normalizeRegionSelection,
+  isRegionDescendant,
   ratioToTime,
   stepDays as addDays,
 } from '@atlas/shared';
@@ -71,6 +73,7 @@ interface AtlasState {
   filters: AtlasFilters;
   locale: Locale;
   showTerritories: boolean;
+  showAdminBoundaries: boolean;
 
   timeline: Timeline | null;
   currentTime: AtlasTime;
@@ -98,10 +101,13 @@ interface AtlasState {
   soloEntity(entityId: string): void;
   showAllEntities(): void;
   toggleTerritories(): void;
+  toggleAdminBoundaries(): void;
 
   setLocale(locale: Locale): void;
   setFilters(filters: AtlasFilters): void;
   toggleCategory(category: string): void;
+  toggleRegion(regionId: string): void;
+  setRegions(regionIds: string[]): void;
   resetFilters(): void;
 
   setCurrentTime(time: AtlasTime): void;
@@ -134,6 +140,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
   filters: EMPTY_FILTERS,
   locale: initialLocale(),
   showTerritories: true,
+  showAdminBoundaries: true,
 
   timeline: null,
   currentTime: 0,
@@ -179,6 +186,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
       bubbleEventId: null,
       mapView: null,
       viewRequest: null,
+      showAdminBoundaries: true,
     });
     try {
       const dataset = await fetchAtlas(atlasId);
@@ -280,6 +288,10 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
     set({ showTerritories: !get().showTerritories });
   },
 
+  toggleAdminBoundaries() {
+    set({ showAdminBoundaries: !get().showAdminBoundaries });
+  },
+
   setLocale(locale) {
     set({ locale });
     try {
@@ -290,7 +302,11 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
   },
 
   setFilters(filters) {
-    set({ filters });
+    const dataset = get().dataset;
+    const regionIds = dataset
+      ? normalizeRegionSelection(dataset.regionsById, filters.regionIds ?? [])
+      : filters.regionIds;
+    set({ filters: { ...filters, regionIds } });
   },
 
   toggleCategory(category) {
@@ -299,6 +315,36 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
       ? current.categories.filter((item) => item !== category)
       : [...current.categories, category];
     set({ filters: { ...current, categories } });
+  },
+
+  toggleRegion(regionId) {
+    const { dataset, filters } = get();
+    if (!dataset) return;
+    if (!dataset.regionsById.has(regionId)) return;
+    const current = normalizeRegionSelection(dataset.regionsById, filters.regionIds ?? []);
+    if (current.includes(regionId)) {
+      set({ filters: { ...filters, regionIds: current.filter((id) => id !== regionId) } });
+      return;
+    }
+    // 显式选省/市时，清掉其下的县/地点；选县/地点时，由 normalize 去掉祖先
+    const next = current.filter(
+      (id) => !isRegionDescendant(dataset.regionsById, id, regionId),
+    );
+    next.push(regionId);
+    set({
+      filters: {
+        ...filters,
+        regionIds: normalizeRegionSelection(dataset.regionsById, next),
+      },
+    });
+  },
+
+  setRegions(regionIds) {
+    const dataset = get().dataset;
+    const next = dataset
+      ? normalizeRegionSelection(dataset.regionsById, regionIds)
+      : regionIds;
+    set({ filters: { ...get().filters, regionIds: next } });
   },
 
   resetFilters() {

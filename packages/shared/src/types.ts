@@ -58,11 +58,51 @@ export interface AtlasManifest {
   events: string[];
   /** 可选：时代地理分布（半透明疆域遮罩）数据文件，相对 manifest 路径 */
   territories?: string[];
+  /** 可选：历史行政区/地点字典，相对 manifest 路径 */
+  regions?: string;
+  /** 可选：事件/路线 → 地区索引，相对 manifest 路径 */
+  regionIndex?: string;
   entities: AtlasEntity[];
   tags?: string[];
   license?: string;
   updatedAt?: DateString;
   extensions?: Record<string, unknown>;
+}
+
+export type RegionLevel = 'province' | 'municipality' | 'county' | 'place' | 'overseas';
+
+/** 历史行政区/地点节点。省、院辖市为一级，县/市/地点为二级。 */
+export interface AtlasRegion {
+  id: string;
+  level: RegionLevel;
+  parentId: string | null;
+  name: LocalizedString;
+  shortName?: LocalizedString;
+  aliases?: string[];
+  modernName?: LocalizedString;
+  validFrom?: DateString;
+  validTo?: DateString;
+  /** 院辖市/地点在地图上的落点 */
+  point?: [number, number];
+  extensions?: Record<string, unknown>;
+}
+
+export interface AtlasRegionFile {
+  schemaVersion: string;
+  frame: string;
+  regions: AtlasRegion[];
+}
+
+export interface AtlasRouteRegionEntry {
+  regionIds: string[];
+  endpointRegionIds?: string[];
+}
+
+export interface AtlasRegionIndex {
+  schemaVersion: string;
+  generatedAt?: DateString;
+  events: Record<string, string[]>;
+  routes: Record<string, AtlasRouteRegionEntry>;
 }
 
 export interface AtlasSummary {
@@ -106,6 +146,10 @@ export interface AtlasRouteProperties {
   label?: LocalizedString;
   /** 番号标识落点 [lng, lat]，缺省取路线中点 */
   labelPoint?: [number, number];
+  /** 路线经过的行政区/地点 id（构建时生成） */
+  regionIds?: string[];
+  /** 路线起点、终点所在地区 id（构建时生成） */
+  endpointRegionIds?: string[];
   extensions?: Record<string, unknown>;
 }
 
@@ -176,7 +220,13 @@ export interface AtlasEvent {
   aliases?: LocalizedString[];
   date: DateString;
   endDate?: DateString;
-  location: { lng: number; lat: number; place?: LocalizedString };
+  location: {
+    lng: number;
+    lat: number;
+    place?: LocalizedString;
+    /** 行政区/地点 id，从省到最细一级（构建时生成） */
+    regionIds?: string[];
+  };
   entityIds: string[];
   category: string;
   summary: LocalizedString;
@@ -193,8 +243,11 @@ export interface AtlasDataset {
   routes: AtlasRouteFeature[];
   events: AtlasEvent[];
   territories: AtlasTerritoryFeature[];
+  regions: AtlasRegion[];
+  regionIndex: AtlasRegionIndex | null;
   eventsById: ReadonlyMap<string, AtlasEvent>;
   entitiesById: ReadonlyMap<string, AtlasEntity>;
   eventsByEntity: ReadonlyMap<string, AtlasEvent[]>;
+  regionsById: ReadonlyMap<string, AtlasRegion>;
   warnings: AtlasIssue[];
 }

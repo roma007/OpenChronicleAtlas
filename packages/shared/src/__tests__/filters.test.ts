@@ -41,20 +41,20 @@ describe('applyEventFilters', () => {
   });
 
   it('按类型多选过滤', () => {
-    expect(applyEventFilters(events, { categories: ['行军', '会师'] }).map((e) => e.id)).toEqual([
+    expect(applyEventFilters(events, { categories: ['行军', '会师'], regionIds: [] }).map((e) => e.id)).toEqual([
       'b',
       'c',
     ]);
   });
 
   it('按时间段过滤（包含边界）', () => {
-    const result = applyEventFilters(events, { categories: [], from: '1935-03-21', to: '1935-03-21' });
+    const result = applyEventFilters(events, { categories: [], regionIds: [], from: '1935-03-21', to: '1935-03-21' });
     expect(result.map((e) => e.id)).toEqual(['b']);
   });
 
   it('起止日期倒置返回空数组', () => {
     expect(
-      applyEventFilters(events, { categories: [], from: '1936-01-01', to: '1935-01-01' }),
+      applyEventFilters(events, { categories: [], regionIds: [], from: '1936-01-01', to: '1935-01-01' }),
     ).toEqual([]);
   });
 

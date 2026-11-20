@@ -4,6 +4,8 @@ import type {
   AtlasIndex,
   AtlasIssue,
   AtlasManifest,
+  AtlasRegion,
+  AtlasRegionIndex,
   AtlasRouteFeature,
   AtlasTerritoryFeature,
 } from '../types';
@@ -11,6 +13,8 @@ import {
   atlasIndexSchema,
   eventSchema,
   manifestSchema,
+  regionFileSchema,
+  regionIndexSchema,
   routeFileSchema,
   territoryFileSchema,
 } from '../schema/atlas';
@@ -146,7 +150,49 @@ export async function loadAtlas(
     territories.push(...(parsed.data.features as AtlasTerritoryFeature[]));
   });
 
-  issues.push(...validateCrossFile(manifest, routes, events, territories));
+  const regions: AtlasRegion[] = [];
+  if (manifest.regions) {
+    const parsed = regionFileSchema.safeParse(
+      await readJson(dataSource, dataSource.resolve(baseDir, manifest.regions)),
+    );
+    if (!parsed.success) {
+      issues.push(...toIssues(parsed.error, 'regions'));
+    } else {
+      regions.push(...(parsed.data.regions as AtlasRegion[]));
+    }
+  }
+
+  let regionIndex: AtlasRegionIndex | null = null;
+  if (manifest.regionIndex) {
+    const parsed = regionIndexSchema.safeParse(
+      await readJson(dataSource, dataSource.resolve(baseDir, manifest.regionIndex)),
+    );
+    if (!parsed.success) {
+      issues.push(...toIssues(parsed.error, 'regionIndex'));
+    } else {
+      regionIndex = parsed.data as AtlasRegionIndex;
+    }
+  }
+
+  // 把构建期索引合并回事件/路线，运行时只读。
+  if (regionIndex) {
+    for (const event of events) {
+      const ids = regionIndex.events[event.id];
+      if (ids && ids.length > 0) event.location.regionIds = ids;
+    }
+    for (const route of routes) {
+      const key = `${route.properties.entityId}:${route.properties.order}`;
+      const entry = regionIndex.routes[key];
+      if (entry) {
+        route.properties.regionIds = entry.regionIds;
+        if (entry.endpointRegionIds) {
+          route.properties.endpointRegionIds = entry.endpointRegionIds;
+        }
+      }
+    }
+  }
+
+  issues.push(...validateCrossFile(manifest, routes, events, territories, regions, regionIndex));
 
   const errors = issues.filter((issue) => issue.level === 'error');
   if (errors.length > 0) {
@@ -160,6 +206,7 @@ export async function loadAtlas(
 
   const eventsById = new Map(events.map((event) => [event.id, event]));
   const entitiesById = new Map(manifest.entities.map((entity) => [entity.id, entity]));
+  const regionsById = new Map(regions.map((region) => [region.id, region]));
 
   const eventsByEntity = new Map<string, AtlasEvent[]>();
   for (const event of events) {
@@ -178,9 +225,12 @@ export async function loadAtlas(
     routes,
     events,
     territories,
+    regions,
+    regionIndex,
     eventsById,
     entitiesById,
     eventsByEntity,
+    regionsById,
     warnings,
   };
 }

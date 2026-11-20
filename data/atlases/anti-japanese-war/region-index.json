@@ -1,0 +1,5376 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-11-20",
+  "events": {
+    "mukden-incident-1931-09": [
+      "liaoning",
+      "county-liaoning-u6c88u9633u53bf"
+    ],
+    "league-appeal-1931-09": [
+      "overseas",
+      "place-overseas-u65e5u5185u74e6"
+    ],
+    "jinzhou-fall-1932-01": [
+      "liaoning",
+      "county-liaoning-u9526u53bf",
+      "place-liaoning-u9526u5dde"
+    ],
+    "jan28-incident-1932-01": [
+      "shanghai",
+      "place-shanghai-u4e0au6d77"
+    ],
+    "harbin-fall-1932-02": [
+      "heilongjiang",
+      "county-heilongjiang-u54c8u5c14u6ee8u5e02"
+    ],
+    "manchukuo-1932-03": [
+      "jilin",
+      "county-jilin-u957fu6625u53bf"
+    ],
+    "lytton-commission-1932-04": [
+      "liaoning",
+      "county-liaoning-u6c88u9633u53bf"
+    ],
+    "shanghai-ceasefire-1932-05": [
+      "shanghai",
+      "place-shanghai-u4e0au6d77"
+    ],
+    "19th-route-army-fujian-1932-06": [
+      "fujian",
+      "county-fujian-u95fdu4fafu53bf",
+      "place-fujian-u798fu5dde"
+    ],
+    "shanhaiguan-battle-1933-01": [
+      "hebei",
+      "county-hebei-u4e34u6986u53bf",
+      "place-hebei-u5c71u6d77u5173"
+    ],
+    "japanese-jehol-1933-02": [
+      "rehe",
+      "county-rehe-u671du9633u53bf"
+    ],
+    "league-report-adopted-1933-02": [
+      "overseas",
+      "place-overseas-u65e5u5185u74e6"
+    ],
+    "chengde-fall-1933-03": [
+      "rehe",
+      "county-rehe-u627fu5fb7u53bf"
+    ],
+    "great-wall-campaign-1933-03": [
+      "hebei",
+      "county-hebei-u8fc1u5b89u53bf",
+      "place-hebei-u559cu5cf0u53e3"
+    ],
+    "xifengkou-battle-1933-03": [
+      "hebei",
+      "county-hebei-u8fc1u5b89u53bf",
+      "place-hebei-u559cu5cf0u53e3"
+    ],
+    "lengkou-battle-1933-03": [
+      "hebei",
+      "county-hebei-u8fc1u5b89u53bf",
+      "place-hebei-u8fc1u5b89u51b7u53e3"
+    ],
+    "gubeikou-battle-1933-03": [
+      "hebei",
+      "county-hebei-u5bc6u4e91u53bf",
+      "place-hebei-u53e4u5317u53e3"
+    ],
+    "luowenyu-battle-1933-03": [
+      "hebei",
+      "county-hebei-u9075u5316u53bf",
+      "place-hebei-u9075u5316u7f57u6587u5cea"
+    ],
+    "chahar-allied-army-1933-05": [
+      "chahar",
+      "county-chahar-u4e07u5168u53bf",
+      "place-chahar-u5f20u5bb6u53e3"
+    ],
+    "tanggu-truce-1933-05": [
+      "tianjin",
+      "place-tianjin-u5858u6cbd"
+    ],
+    "duolun-recapture-1933-07": [
+      "chahar",
+      "county-chahar-u591au4f26u53bf"
+    ],
+    "fujian-incident-1933-11": [
+      "fujian",
+      "county-fujian-u95fdu4fafu53bf",
+      "place-fujian-u798fu5dde"
+    ],
+    "new-life-movement-1934-02": [
+      "jiangxi",
+      "county-jiangxi-u5357u660cu5e02"
+    ],
+    "puyi-enthroned-1934-03": [
+      "jilin",
+      "county-jilin-u957fu6625u53bf"
+    ],
+    "amau-statement-1934-04": [
+      "overseas",
+      "place-overseas-u4e1cu4eac"
+    ],
+    "zangben-incident-1934-06": [
+      "nanjing",
+      "place-nanjing-u5357u4eac"
+    ],
+    "chadong-incident-1935-01": [
+      "chahar",
+      "county-chahar-u6cbdu6e90u53bf"
+    ],
+    "datan-accord-1935-02": [
+      "chahar",
+      "county-chahar-u6cbdu6e90u53bf",
+      "place-chahar-u6cbdu6e90u5927u6ee9"
+    ],
+    "national-economic-construction-1935-04": [
+      "guizhou",
+      "county-guizhou-u8d35u9633u53bf"
+    ],
+    "zhangbei-incident-1935-06": [
+      "chahar",
+      "county-chahar-u5f20u5317u53bf"
+    ],
+    "hebei-incident-1935-06": [
+      "beiping",
+      "place-beiping-u5317u5e73"
+    ],
+    "qintu-agreement-1935-06": [
+      "beiping",
+      "place-beiping-u5317u5e73"
+    ],
+    "hemei-agreement-1935-06": [
+      "beiping",
+      "place-beiping-u5317u5e73"
+    ],
+    "fabian-reform-1935-11": [
+      "nanjing",
+      "place-nanjing-u5357u4eac"
+    ],
+    "east-hebei-autonomy-1935-11": [
+      "hebei",
+      "county-hebei-u901au53bf",
+      "place-hebei-u901au5dde"
+    ],
+    "december-ninth-1935-12": [
+      "beiping",
+      "place-beiping-u5317u5e73"
+    ],
+    "december-sixteenth-1935-12": [
+      "beiping",
+      "place-beiping-u5317u5e73"
+    ],
+    "north-china-autonomy-1935-12": [
+      "beiping",
+      "place-beiping-u5317u5e73"
+    ],
+    "liangguang-incident-1936-06": [
+      "guangdong",
+      "county-guangdong-u5e7fu5ddeu5e02"
+    ],
+    "sui-yuan-incursion-1936-11": [
+      "chahar",
+      "county-chahar-u5546u90fdu53bf"
+    ],
+    "honggeertu-battle-1936-11": [
+      "suiyuan",
+      "county-suiyuan-u9676u6797u53bf",
+      "place-suiyuan-u7ea2u683cu5c14u56fe"
+    ],
+    "bailingmiao-victory-1936-11": [
+      "suiyuan",
+      "county-suiyuan-u8fbeu5c14u7f55u65d7",
+      "place-suiyuan-u767eu7075u5e99"
+    ],
+    "seven-gentlemen-1936-11": [
+      "shanghai",
+      "place-shanghai-u4e0au6d77"
+    ],
+    "xian-incident-1936-12": [
+      "xian",
+      "place-xian-u897fu5b89"
+    ],
+    "kmt-29th-army-1937-07": [
+      "beiping",
+      "place-beiping-u5362u6c9fu6865"
+    ],
+    "lugouqiao-incident-1937-07": [
+      "beiping",
+      "place-beiping-u5362u6c9fu6865"
+    ],
+    "lushan-statement-1937-07": [
+      "jiangxi",
+      "county-jiangxi-u661fu5b50u53bf",
+      "place-jiangxi-u5e90u5c71"
+    ],
+    "factory-relocation-1937-08": [
+      "chongqing",
+      "place-chongqing-u91cdu5e86"
+    ],
+    "japanese-nankou-1937-08": [
+      "hebei",
+      "county-hebei-u660cu5e73u53bf",
+      "place-hebei-u5357u53e3"
+    ],
+    "kmt-13th-army-nankou-1937-08": [
+      "hebei",
+      "county-hebei-u660cu5e73u53bf",
+      "place-hebei-u5357u53e3"
+    ],
+    "kmt-jiangyin-1937-08": [
+      "jiangsu",
+      "county-jiangsu-u6c5fu9634u53bf"
+    ],
+    "supreme-defence-council-1937-08": [
+      "nanjing",
+      "place-nanjing-u5357u4eac"
+    ],
+    "battle-shanghai-1937-08": [
+      "shanghai",
+      "place-shanghai-u4e0au6d77"
+    ],
+    "japanese-shanghai-1937-08": [
+      "shanghai",
+      "place-shanghai-u4e0au6d77"
+    ],
+    "kmt-8th-group-army-1937-08": [
+      "shanghai",
+      "place-shanghai-u6d66u4e1c"
+    ],
+    "kmt-jianqiao-1937-08": [
+      "zhejiang",
+      "county-zhejiang-u676du53bf",
+      "place-zhejiang-u676du5ddeu7b15u6865"
+    ],
+    "kmt-9th-group-army-1937-08": [
+      "shanghai",
+      "place-shanghai-u4e0au6d77"
+    ],
+    "kmt-1st-war-zone-1937-08": [
+      "hebei",
+      "county-hebei-u6e05u82d1u53bf",
+      "place-hebei-u4fddu5b9a"
+    ],
+    "kmt-2nd-war-zone-1937-08": [
+      "shanxi",
+      "county-shanxi-u9633u66f2u53bf",
+      "place-shanxi-u592au539f"
+    ],
+    "kmt-3rd-war-zone-1937-08": [
+      "nanjing",
+      "place-nanjing-u5357u4eac"
+    ],
+    "luochuan-conference-1937-08": [
+      "shaanxi",
+      "county-shaanxi-u6d1bu5dddu53bf",
+      "place-shaanxi-u6d1bu5dddu51afu5bb6u6751"
+    ],
+    "kmt-18th-army-luodian-1937-08": [
+      "shanghai",
+      "place-shanghai-u7f57u5e97"
+    ],
+    "eighth-route-army-formed-1937-08": [
+      "shaanxi",
+      "county-shaanxi-u80a4u65bdu53bf",
+      "place-shaanxi-u5ef6u5b89"
+    ],
+    "kmt-74th-army-formed-1937-09": [
+      "shanghai",
+      "place-shanghai-u4e0au6d77-2"
+    ],
+    "sichuan-army-out-1937-09": [
+      "sichuan",
+      "county-sichuan-u6210u90fdu53bf"
+    ],
+    "guangxi-army-out-1937-09": [
+      "guangxi",
+      "county-guangxi-u6842u6797u53bf"
+    ],
+    "kmt-18th-group-army-1937-09": [
+      "shaanxi",
+      "county-shaanxi-u80a4u65bdu53bf",
+      "place-shaanxi-u5ef6u5b89"
+    ],
+    "datong-1937": [
+      "shanxi",
+      "county-shanxi-u5927u540cu53bf"
+    ],
+    "league-appeal-1937-09": [
+      "overseas",
+      "place-overseas-u65e5u5185u74e6"
+    ],
+    "lingqiu-1937": [
+      "shanxi",
+      "county-shanxi-u7075u4e18u53bf",
+      "place-shanxi-u7075u4e18u53bfu57ce"
+    ],
+    "japanese-pingxingguan-1937-09": [
+      "shanxi",
+      "county-shanxi-u7075u4e18u53bf",
+      "place-shanxi-u5e73u578bu5173"
+    ],
+    "kmt-6th-group-army-pingxingguan-1937-09": [
+      "shanxi",
+      "county-shanxi-u7075u4e18u53bf",
+      "place-shanxi-u5e73u578bu5173"
+    ],
+    "pingxingguan-1937-09": [
+      "shanxi",
+      "county-shanxi-u7075u4e18u53bf",
+      "place-shanxi-u7075u4e18u5e73u578bu5173"
+    ],
+    "sichuan-22nd-group-army-niangziguan-1937-10": [
+      "shanxi",
+      "county-shanxi-u5e73u5b9au53bf",
+      "place-shanxi-u5a18u5b50u5173"
+    ],
+    "new-fourth-army-formed-1937-10": [
+      "hubei",
+      "county-hubei-u6c49u53e3u5e02"
+    ],
+    "sichuan-20th-army-shanghai-1937-10": [
+      "shanghai",
+      "place-shanghai-u4e0au6d77"
+    ],
+    "japanese-xinkou-1937-10": [
+      "shanxi",
+      "county-shanxi-u5ffbu53bf",
+      "place-shanxi-u5ffbu53e3"
+    ],
+    "kmt-14th-group-army-1937-10": [
+      "shanxi",
+      "county-shanxi-u5ffbu53bf",
+      "place-shanxi-u5ffbu53e3"
+    ],
+    "kmt-6th-group-army-xinkou-1937-10": [
+      "shanxi",
+      "county-shanxi-u5ffbu53bf",
+      "place-shanxi-u5ffbu53e3"
+    ],
+    "xinkou-1937-10": [
+      "shanxi",
+      "county-shanxi-u5ffbu53bf",
+      "place-shanxi-u5ffbu53e3"
+    ],
+    "yanmenguan-1937-10": [
+      "shanxi",
+      "county-shanxi-u4ee3u53bf",
+      "place-shanxi-u4ee3u53bfu96c1u95e8u5173"
+    ],
+    "yunzaobang-battle-1937-10": [
+      "shanghai",
+      "place-shanghai-u8574u85fbu6d5c"
+    ],
+    "yangmingbao-1937-10": [
+      "shanxi",
+      "county-shanxi-u4ee3u53bf",
+      "place-shanxi-u4ee3u53bfu9633u660eu5821"
+    ],
+    "qigencun-1937-10": [
+      "shanxi",
+      "county-shanxi-u5e73u5b9au53bf",
+      "place-shanxi-u5e73u5b9au4e03u4e98u6751"
+    ],
+    "nine-power-conference-1937-11": [
+      "overseas",
+      "place-overseas-u5e03u9c81u585eu5c14"
+    ],
+    "kmt-10th-group-army-songhu-1937-11": [
+      "shanghai",
+      "place-shanghai-u4e0au6d77"
+    ],
+    "jinchaji-1937-11": [
+      "hebei",
+      "county-hebei-u961cu5e73u53bf"
+    ],
+    "japanese-taiyuan-1937-11": [
+      "shanxi",
+      "county-shanxi-u9633u66f2u53bf",
+      "place-shanxi-u592au539f"
+    ],
+    "kmt-7th-group-army-1937-11": [
+      "shanxi",
+      "county-shanxi-u9633u66f2u53bf",
+      "place-shanxi-u592au539f"
+    ],
+    "shiguan-conference-1937-11": [
+      "shanxi",
+      "county-shanxi-u548cu987au53bf",
+      "place-shanxi-u548cu987au77f3u62d0u9547"
+    ],
+    "capital-moved-chongqing-1937-11": [
+      "chongqing",
+      "place-chongqing-u91cdu5e86"
+    ],
+    "nanjing-safety-zone-1937-12": [
+      "nanjing",
+      "place-nanjing-u5b89u5168u533a"
+    ],
+    "nanjing-fall-1937-12": [
+      "nanjing",
+      "place-nanjing-u5357u4eac"
+    ],
+    "nanjing-massacre-1937-12": [
+      "nanjing",
+      "place-nanjing-u5357u4eac"
+    ],
+    "kmt-5th-war-zone-1938-01": [
+      "jiangsu",
+      "county-jiangsu-u94dcu5c71u53bf",
+      "place-jiangsu-u5f90u5dde"
+    ],
+    "qingdao-1938": [
+      "qingdao",
+      "place-qingdao-u9752u5c9b"
+    ],
+    "jinchaji-border-government-1938-01": [
+      "hebei",
+      "county-hebei-u961cu5e73u53bf"
+    ],
+    "jinsui-1938-01": [
+      "shanxi",
+      "county-shanxi-u5174u53bf"
+    ],
+    "kmt-200th-division-1938-01": [
+      "hunan",
+      "county-hunan-u6e58u6f6du53bf"
+    ],
+    "chongqing-bombing-1938-02": [
+      "chongqing",
+      "place-chongqing-u91cdu5e86"
+    ],
+    "chongqing-air-defense-1938-02": [
+      "chongqing",
+      "place-chongqing-u91cdu5e86"
+    ],
+    "japanese-linyi-1938-03": [
+      "shandong",
+      "county-shandong-u4e34u6c82u53bf"
+    ],
+    "kmt-59th-army-linyi-1938-03": [
+      "shandong",
+      "county-shandong-u4e34u6c82u53bf"
+    ],
+    "tengxian-battle-1938-03": [
+      "shandong",
+      "county-shandong-u6ed5u53bf"
+    ],
+    "japanese-lunan-1938-03": [
+      "shandong",
+      "county-shandong-u6ed5u53bf"
+    ],
+    "kmt-3rd-group-army-lunan-1938-03": [
+      "shandong",
+      "county-shandong-u6ed5u53bf"
+    ],
+    "taierzhuang-1938-03": [
+      "shandong",
+      "place-shandong-u5cc4u53bfu53f0u513fu5e84"
+    ],
+    "shentouling-1938-03": [
+      "shanxi",
+      "county-shanxi-u6f5eu57ceu53bf",
+      "place-shanxi-u6f5eu57ceu795eu5934u5cad"
+    ],
+    "japanese-xuzhou-1938-03": [
+      "shandong",
+      "county-shandong-u5cc4u53bf",
+      "place-shandong-u67a3u5e84"
+    ],
+    "japanese-taierzhuang-1938-03": [
+      "shandong",
+      "county-shandong-u5cc4u53bf",
+      "place-shandong-u53f0u513fu5e84"
+    ],
+    "kmt-2nd-group-army-1938-03": [
+      "shandong",
+      "county-shandong-u5cc4u53bf",
+      "place-shandong-u53f0u513fu5e84"
+    ],
+    "kmt-52nd-army-taierzhuang-1938-03": [
+      "shandong",
+      "county-shandong-u5cc4u53bf",
+      "place-shandong-u53f0u513fu5e84"
+    ],
+    "xiangtangpu-1938-03": [
+      "hebei",
+      "county-hebei-u6d89u53bf",
+      "place-hebei-u6d89u53bfu54cdu5802u94fa"
+    ],
+    "jinjiluyu-1938-04": [
+      "shanxi",
+      "county-shanxi-u8fbdu53bf"
+    ],
+    "kmt-60th-army-1938-04": [
+      "yunnan",
+      "county-yunnan-u6606u660eu53bf"
+    ],
+    "war-resistance-construction-program-1938-04": [
+      "hubei",
+      "county-hubei-u6b66u660cu53bf",
+      "place-hubei-u6b66u6c49"
+    ],
+    "southwest-associated-university-1938-04": [
+      "yunnan",
+      "county-yunnan-u6606u660eu53bf"
+    ],
+    "changlecun-1938-04": [
+      "shanxi",
+      "county-shanxi-u6b66u4e61u53bf",
+      "place-shanxi-u6b66u4e61u957fu4e50u6751"
+    ],
+    "pingyuan-guerrilla-directive-1938-04": [
+      "shaanxi",
+      "county-shaanxi-u80a4u65bdu53bf",
+      "place-shaanxi-u5ef6u5b89"
+    ],
+    "yuwangshan-battle-1938-04": [
+      "jiangsu",
+      "county-jiangsu-u90b3u53bf",
+      "place-jiangsu-u90b3u5ddeu79b9u738bu5c71"
+    ],
+    "jinan-1938-05": [
+      "hebei",
+      "county-hebei-u5357u5babu53bf"
+    ],
+    "heze-1938": [
+      "shandong",
+      "county-shandong-u83cfu6cfdu53bf"
+    ],
+    "lanfeng-1938-05": [
+      "henan",
+      "county-henan-u5170u5c01u53bf"
+    ],
+    "kmt-9th-war-zone-1938-06": [
+      "hunan",
+      "county-hunan-u957fu6c99u53bf"
+    ],
+    "kmt-58th-army-formed-1938-06": [
+      "yunnan",
+      "county-yunnan-u6606u660eu53bf"
+    ],
+    "kaifeng-1938": [
+      "henan",
+      "county-henan-u5f00u5c01u53bf"
+    ],
+    "fourth-column-jidong-1938-06": [
+      "hebei",
+      "county-hebei-u84dfu53bf"
+    ],
+    "huayuankou-breach-1938-06": [
+      "henan",
+      "county-henan-u90d1u53bf",
+      "place-henan-u90d1u5dde"
+    ],
+    "japanese-wuhan-1938-06": [
+      "anhui",
+      "county-anhui-u6000u5b81u53bf",
+      "place-anhui-u5b89u5e86"
+    ],
+    "kmt-1st-group-army-wuhan-1938-06": [
+      "hubei",
+      "county-hubei-u9633u65b0u53bf"
+    ],
+    "kmt-20th-group-army-wuhan-1938-06": [
+      "jiangxi",
+      "county-jiangxi-u745eu660cu53bf"
+    ],
+    "kmt-2nd-group-army-wuhan-1938-06": [
+      "henan",
+      "county-henan-u5546u57ceu53bf"
+    ],
+    "kmt-3rd-group-army-wuhan-1938-06": [
+      "jiangxi",
+      "county-jiangxi-u745eu660cu53bf"
+    ],
+    "kmt-9th-group-army-wuhan-1938-06": [
+      "jiangxi",
+      "county-jiangxi-u5fb7u5b89u53bf"
+    ],
+    "japanese-zhongtiao-1938-07": [
+      "shanxi",
+      "county-shanxi-u5e73u9646u53bf"
+    ],
+    "kmt-4th-group-army-zhongtiao-1938-07": [
+      "shanxi",
+      "county-shanxi-u5e73u9646u53bf"
+    ],
+    "kmt-5th-group-army-zhongtiao-1938-07": [
+      "shanxi",
+      "county-shanxi-u95fbu559cu53bf"
+    ],
+    "people-political-council-1938-07": [
+      "hubei",
+      "county-hubei-u6c49u53e3u5e02"
+    ],
+    "three-principles-youth-corps-1938-07": [
+      "hubei",
+      "county-hubei-u6b66u660cu5e02"
+    ],
+    "japanese-dabie-1938-08": [
+      "anhui",
+      "county-anhui-u516du5b89u53bf"
+    ],
+    "kmt-21st-group-army-dabie-1938-08": [
+      "anhui",
+      "county-anhui-u7acbu714cu53bf"
+    ],
+    "kmt-58th-army-jiangxi-1938-09": [
+      "jiangxi",
+      "county-jiangxi-u5357u660cu5e02"
+    ],
+    "shangcheng-1938": [
+      "henan",
+      "county-henan-u5546u57ceu53bf"
+    ],
+    "wanjialing-1938-10": [
+      "jiangxi",
+      "county-jiangxi-u5fb7u5b89u53bf",
+      "place-jiangxi-u5fb7u5b89u4e07u5bb6u5cad"
+    ],
+    "kmt-5th-army-formed-1938-10": [
+      "guangxi",
+      "county-guangxi-u5168u53bf",
+      "place-guangxi-u5168u5dde"
+    ],
+    "kmt-new-3rd-army-formed-1938-10": [
+      "hunan",
+      "county-hunan-u957fu6c99u53bf"
+    ],
+    "japanese-guangzhou-1938-10": [
+      "guangdong",
+      "county-guangdong-u60e0u9633u53bf",
+      "place-guangdong-u5927u4e9au6e7e"
+    ],
+    "kmt-12th-group-army-guangzhou-1938-10": [
+      "guangdong",
+      "county-guangdong-u5e7fu5ddeu5e02"
+    ],
+    "guangzhou-fall-1938-10": [
+      "guangdong",
+      "county-guangdong-u5e7fu5ddeu5e02"
+    ],
+    "wuhan-fall-1938-10": [
+      "hubei",
+      "county-hubei-u6b66u660cu53bf",
+      "place-hubei-u6b66u6c49"
+    ],
+    "kmt-new-3rd-army-chongyang-1938-11": [
+      "hubei",
+      "county-hubei-u5d07u9633u53bf"
+    ],
+    "qiongya-independent-1938-12": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u743cu5c71u4e91u9f99"
+    ],
+    "shandong-column-1938-12": [
+      "shandong",
+      "county-shandong-u6c82u6c34u53bf"
+    ],
+    "fifth-plenary-session-1939-01": [
+      "chongqing",
+      "place-chongqing-u91cdu5e86"
+    ],
+    "120th-division-jizhong-1939-01": [
+      "hebei",
+      "county-hebei-u6cb3u95f4u53bf",
+      "place-hebei-u6cb3u95f4u60e0u4f2fu53e3"
+    ],
+    "115th-division-shandong-1939-03": [
+      "shandong",
+      "county-shandong-u9104u57ceu53bf",
+      "place-shandong-u9104u57ce-u90d3u57ceu4e00u5e26"
+    ],
+    "national-spiritual-mobilization-1939-03": [
+      "chongqing",
+      "place-chongqing-u91cdu5e86"
+    ],
+    "japanese-nanchang-1939-03": [
+      "jiangxi",
+      "county-jiangxi-u5357u660cu5e02"
+    ],
+    "kmt-19th-group-army-nanchang-1939-03": [
+      "jiangxi",
+      "county-jiangxi-u5357u660cu5e02"
+    ],
+    "kmt-74th-army-nanchang-1939-03": [
+      "jiangxi",
+      "county-jiangxi-u9ad8u5b89u53bf"
+    ],
+    "qihui-1939-04": [
+      "hebei",
+      "county-hebei-u6cb3u95f4u53bf",
+      "place-hebei-u6cb3u95f4u9f50u4f1a"
+    ],
+    "japanese-suizao-1939-05": [
+      "hubei",
+      "county-hubei-u968fu53bf"
+    ],
+    "japanese-tongbai-1939-05": [
+      "henan",
+      "county-henan-u6850u67cfu53bf"
+    ],
+    "kmt-21st-group-army-suizao-1939-05": [
+      "hubei",
+      "county-hubei-u968fu53bf"
+    ],
+    "kmt-2nd-group-army-suizao-1939-05": [
+      "henan",
+      "county-henan-u6850u67cfu53bf"
+    ],
+    "kmt-31st-group-army-1939-05": [
+      "hubei",
+      "county-hubei-u968fu53bf"
+    ],
+    "suizao-1939-05": [
+      "hubei",
+      "county-hubei-u968fu53bf"
+    ],
+    "kmt-74th-army-gaoan-1939-07": [
+      "jiangxi",
+      "county-jiangxi-u9ad8u5b89u53bf"
+    ],
+    "changsha-1939-09": [
+      "hunan",
+      "county-hunan-u5cb3u9633u53bf",
+      "place-hunan-u65b0u5899u6cb3u4e00u7ebf"
+    ],
+    "japanese-changsha-1939-09": [
+      "hunan",
+      "county-hunan-u5cb3u9633u53bf",
+      "place-hunan-u65b0u5899u6cb3"
+    ],
+    "kmt-15th-group-army-changsha-1939-09": [
+      "hunan",
+      "county-hunan-u957fu6c99u53bf"
+    ],
+    "kmt-30th-group-army-changsha-1939-09": [
+      "jiangxi",
+      "county-jiangxi-u4feeu6c34u53bf"
+    ],
+    "huangtuling-1939-11": [
+      "hebei",
+      "county-hebei-u6d9eu6e90u53bf",
+      "place-hebei-u6d9eu6e90u9ec4u571fu5cad"
+    ],
+    "japanese-guinan-1939-11": [
+      "guangdong",
+      "county-guangdong-u94a6u53bf",
+      "place-guangdong-u94a6u5ddeu6e7e"
+    ],
+    "japanese-sanshui-1939-12": [
+      "guangdong",
+      "county-guangdong-u4e09u6c34u53bf"
+    ],
+    "japanese-yuebei-1939-12": [
+      "guangdong",
+      "county-guangdong-u4eceu5316u53bf"
+    ],
+    "kmt-12th-group-army-yuebei-1939-12": [
+      "guangdong",
+      "county-guangdong-u66f2u6c5fu53bf",
+      "place-guangdong-u97f6u5173"
+    ],
+    "kmt-35th-group-army-yuebei-1939-12": [
+      "guangdong",
+      "county-guangdong-u4e09u6c34u53bf"
+    ],
+    "japanese-tongling-1939-12": [
+      "anhui",
+      "county-anhui-u94dcu9675u53bf"
+    ],
+    "kmt-23rd-group-army-winter-1939-12": [
+      "anhui",
+      "county-anhui-u94dcu9675u53bf"
+    ],
+    "wuhu-1939": [
+      "anhui",
+      "county-anhui-u829cu6e56u53bf"
+    ],
+    "kmt-16th-group-army-kunlun-1939-12": [
+      "guangxi",
+      "place-guangxi-u6606u4ed1u5173"
+    ],
+    "kmt-35th-group-army-guinan-1939-12": [
+      "guangxi",
+      "county-guangxi-u9095u5b81u53bf",
+      "place-guangxi-u5357u5b81"
+    ],
+    "kmt-37th-group-army-guinan-1939-12": [
+      "guangxi",
+      "county-guangxi-u5bbeu9633u53bf"
+    ],
+    "kmt-38th-group-army-kunlun-1939-12": [
+      "guangxi",
+      "place-guangxi-u6606u4ed1u5173"
+    ],
+    "kmt-5th-army-kunlun-1939-12": [
+      "guangxi",
+      "county-guangxi-u9095u5b81u53bf",
+      "place-guangxi-u5357u5b81u6606u4ed1u5173"
+    ],
+    "kunlun-1939-12": [
+      "guangxi",
+      "county-guangxi-u9095u5b81u53bf",
+      "place-guangxi-u5357u5b81u6606u4ed1u5173"
+    ],
+    "liuzhou-1939": [
+      "guangxi",
+      "county-guangxi-u67f3u5ddeu53bf"
+    ],
+    "japanese-baotou-1939-12": [
+      "suiyuan",
+      "county-suiyuan-u5305u5934u53bf"
+    ],
+    "kmt-7th-group-army-baotou-1939-12": [
+      "suiyuan",
+      "county-suiyuan-u5305u5934u53bf"
+    ],
+    "guisui-1939": [
+      "suiyuan",
+      "county-suiyuan-u5f52u7ee5u53bf"
+    ],
+    "shaoguan-1940": [
+      "guangdong",
+      "county-guangdong-u66f2u6c5fu53bf",
+      "place-guangdong-u97f6u5173"
+    ],
+    "japanese-binyang-1940-01": [
+      "guangxi",
+      "county-guangxi-u5bbeu9633u53bf"
+    ],
+    "kmt-5th-army-to-yunnan-1940-02": [
+      "yunnan",
+      "county-yunnan-u6606u660eu53bf"
+    ],
+    "kmt-37th-group-army-binyang-1940-02": [
+      "guangxi",
+      "county-guangxi-u5bbeu9633u53bf"
+    ],
+    "japanese-wuyuan-1940-03": [
+      "suiyuan",
+      "county-suiyuan-u4e94u539fu53bf"
+    ],
+    "kmt-35th-army-wuyuan-1940-03": [
+      "suiyuan",
+      "county-suiyuan-u4e94u539fu53bf"
+    ],
+    "kmt-7th-group-army-wuyuan-1940-03": [
+      "suiyuan",
+      "county-suiyuan-u4e94u539fu53bf"
+    ],
+    "wang-puppet-government-1940-03": [
+      "nanjing",
+      "place-nanjing-u5357u4eac"
+    ],
+    "japanese-zaoyi-1940-05": [
+      "hubei",
+      "county-hubei-u67a3u9633u53bf"
+    ],
+    "kmt-33rd-group-army-zaoyi-1940-05": [
+      "hubei",
+      "county-hubei-u5b9cu57ceu53bf"
+    ],
+    "zaoyi-1940-05": [
+      "hubei",
+      "county-hubei-u67a3u9633u53bf"
+    ],
+    "zhang-zizhong-died-1940-05": [
+      "hubei",
+      "county-hubei-u5b9cu57ceu53bf",
+      "place-hubei-u5b9cu57ceu5357u74dcu5e97"
+    ],
+    "hundred-regiments-1940-08": [
+      "shanxi",
+      "place-shanxi-u534eu5317u6b63u592au94c1u8defu6cbfu7ebf"
+    ],
+    "zhengtai-1940": [
+      "shanxi",
+      "county-shanxi-u6986u6b21u53bf"
+    ],
+    "dongjiang-base-1940-09": [
+      "guangdong",
+      "county-guangdong-u5b9du5b89u53bf"
+    ],
+    "kmt-60th-army-return-yunnan-1940-09": [
+      "yunnan",
+      "county-yunnan-u6606u660eu53bf"
+    ],
+    "chongqing-wartime-capital-1940-09": [
+      "chongqing",
+      "place-chongqing-u91cdu5e86"
+    ],
+    "daling-shan-base-1940-10": [
+      "guangdong",
+      "county-guangdong-u4e1cu839eu53bf"
+    ],
+    "kmt-60th-army-diannan-1940-10": [
+      "yunnan",
+      "county-yunnan-u8499u81eau53bf"
+    ],
+    "huangqiao-1940-10": [
+      "jiangsu",
+      "county-jiangsu-u6cf0u5174u53bf",
+      "place-jiangsu-u6cf0u5174u9ec4u6865"
+    ],
+    "guanjianao-1940-10": [
+      "shanxi",
+      "county-shanxi-u6b66u4e61u53bf",
+      "place-shanxi-u6b66u4e61u5173u5bb6u57b4"
+    ],
+    "qiongya-meihe-1940-12": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u6f84u8fc8u7f8eu5408"
+    ],
+    "wannan-incident-1941-01": [
+      "anhui",
+      "place-anhui-u6cfeu53bfu8302u6797"
+    ],
+    "japanese-yunan-1941-01": [
+      "henan",
+      "county-henan-u4fe1u9633u53bf"
+    ],
+    "kmt-21st-group-army-yunan-1941-01": [
+      "henan",
+      "county-henan-u606fu53bf"
+    ],
+    "kmt-31st-group-army-yunan-1941-01": [
+      "henan",
+      "county-henan-u821eu9633u53bf"
+    ],
+    "new-fourth-army-rebuild-1941-01": [
+      "jiangsu",
+      "county-jiangsu-u76d0u57ceu53bf"
+    ],
+    "qiongya-base-1941-02": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u743cu5c71-u6587u660cu4e00u5e26"
+    ],
+    "wuyang-1941": [
+      "henan",
+      "county-henan-u821eu9633u53bf"
+    ],
+    "lend-lease-china-1941-03": [
+      "overseas",
+      "place-overseas-u534eu76dbu987f"
+    ],
+    "japanese-shanggao-1941-03": [
+      "jiangxi",
+      "county-jiangxi-u4e0au9ad8u53bf"
+    ],
+    "kmt-19th-group-army-shanggao-1941-03": [
+      "jiangxi",
+      "county-jiangxi-u4e0au9ad8u53bf"
+    ],
+    "kmt-30th-group-army-shanggao-1941-03": [
+      "jiangxi",
+      "county-jiangxi-u4e0au9ad8u53bf"
+    ],
+    "kmt-74th-army-shanggao-1941-03": [
+      "jiangxi",
+      "county-jiangxi-u4e0au9ad8u53bf"
+    ],
+    "shanggao-1941-03": [
+      "jiangxi",
+      "county-jiangxi-u4e0au9ad8u53bf"
+    ],
+    "china-democratic-league-1941-03": [
+      "chongqing",
+      "place-chongqing-u91cdu5e86"
+    ],
+    "nanchang-1941": [
+      "jiangxi",
+      "county-jiangxi-u5357u660cu5e02"
+    ],
+    "yangtaishan-base-1941-05": [
+      "guangdong",
+      "county-guangdong-u5b9du5b89u53bf"
+    ],
+    "japanese-zhongtiaoshan-1941-05": [
+      "shanxi",
+      "place-shanxi-u4e2du6761u5c71"
+    ],
+    "kmt-5th-group-army-zhongtiaoshan-1941-05": [
+      "shanxi",
+      "place-shanxi-u4e2du6761u5c71"
+    ],
+    "zhongtiaoshan-1941-05": [
+      "shanxi",
+      "place-shanxi-u4e2du6761u5c71"
+    ],
+    "liulianling-base-1941-06": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u4e07u5b81"
+    ],
+    "luoyang-1941": [
+      "henan",
+      "county-henan-u6d1bu9633u53bf"
+    ],
+    "flying-tigers-1941-08": [
+      "yunnan",
+      "county-yunnan-u6606u660eu53bf"
+    ],
+    "wuguishan-base-1941-09": [
+      "guangdong",
+      "county-guangdong-u4e2du5c71u53bf"
+    ],
+    "land-tax-in-kind-1941-09": [
+      "chongqing",
+      "place-chongqing-u91cdu5e86"
+    ],
+    "changsha-1941-09": [
+      "hunan",
+      "county-hunan-u5cb3u9633u53bf",
+      "place-hunan-u5cb3u9633u65b0u5899u6cb3u4e00u7ebf"
+    ],
+    "japanese-changsha-1941-09": [
+      "hunan",
+      "county-hunan-u5cb3u9633u53bf",
+      "place-hunan-u65b0u5899u6cb3"
+    ],
+    "kmt-20th-army-changsha-1941-09": [
+      "hunan",
+      "county-hunan-u5cb3u9633u53bf",
+      "place-hunan-u65b0u5899u6cb3"
+    ],
+    "kmt-27th-group-army-changsha-1941-09": [
+      "hunan",
+      "county-hunan-u5e73u6c5fu53bf"
+    ],
+    "langyashan-1941-09": [
+      "hebei",
+      "county-hebei-u6613u53bf",
+      "place-hebei-u6613u53bfu72fcu7259u5c71"
+    ],
+    "japanese-yichang-1941-09": [
+      "hubei",
+      "county-hubei-u5b9cu660cu53bf"
+    ],
+    "kmt-26th-group-army-yichang-1941-09": [
+      "hubei",
+      "county-hubei-u5b9cu660cu53bf"
+    ],
+    "dangyang-1941": [
+      "hubei",
+      "county-hubei-u5f53u9633u53bf"
+    ],
+    "japanese-zhengzhou-1941-10": [
+      "henan",
+      "county-henan-u90d1u53bf",
+      "place-henan-u90d1u5dde"
+    ],
+    "kmt-3rd-group-army-zhengzhou-1941-10": [
+      "henan",
+      "county-henan-u90d1u53bf",
+      "place-henan-u90d1u5dde"
+    ],
+    "kaifeng-1941": [
+      "henan",
+      "county-henan-u5f00u5c01u53bf"
+    ],
+    "huangyadong-1941-11": [
+      "shanxi",
+      "county-shanxi-u9eceu57ceu53bf"
+    ],
+    "pearl-harbor-1941-12": [
+      "overseas",
+      "place-overseas-u590fu5a01u5937u73cdu73e0u6e2f"
+    ],
+    "japanese-hongkong-1941-12": [
+      "hongkong",
+      "place-hongkong-u9999u6e2f"
+    ],
+    "shenzhen-1941": [
+      "guangdong",
+      "county-guangdong-u5b9du5b89u53bf",
+      "place-guangdong-u6df1u5733"
+    ],
+    "china-declares-war-1941-12": [
+      "chongqing",
+      "place-chongqing-u91cdu5e86"
+    ],
+    "changsha-1941-12": [
+      "hunan",
+      "county-hunan-u957fu6c99u53bf"
+    ],
+    "kmt-27th-group-army-changsha-1941-12": [
+      "hunan",
+      "county-hunan-u957fu6c99u53bf"
+    ],
+    "kmt-74th-army-changsha-1941-12": [
+      "hunan",
+      "county-hunan-u957fu6c99u53bf"
+    ],
+    "kmt-58th-army-changsha-1941-12": [
+      "hunan",
+      "county-hunan-u5e73u6c5fu53bf"
+    ],
+    "dongjiang-rescue-1941-12": [
+      "hongkong",
+      "place-hongkong-u9999u6e2f"
+    ],
+    "japanese-burma-1942-01": [
+      "overseas",
+      "place-overseas-u4ef0u5149"
+    ],
+    "burma-expedition-1942-02": [
+      "yunnan",
+      "county-yunnan-u6606u660eu53bf"
+    ],
+    "gangjiu-brigade-1942-02": [
+      "hongkong",
+      "place-hongkong-u897fu8d21"
+    ],
+    "kmt-5th-army-toungoo-1942-03": [
+      "overseas",
+      "place-overseas-u540cu53e4"
+    ],
+    "qiongya-counter-1942-05": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u743cu5c71"
+    ],
+    "mandalay-1942": [
+      "overseas",
+      "place-overseas-u66fcu5fb7u52d2"
+    ],
+    "jizhong-counter-1942-05": [
+      "hebei",
+      "place-hebei-u5180u4e2d"
+    ],
+    "japanese-jinhua-1942-05": [
+      "zhejiang",
+      "county-zhejiang-u91d1u534eu53bf"
+    ],
+    "japanese-zhegan-1942-05": [
+      "zhejiang",
+      "county-zhejiang-u8862u53bf",
+      "place-zhejiang-u8862u5dde"
+    ],
+    "kmt-10th-group-army-zhegan-1942-05": [
+      "zhejiang",
+      "county-zhejiang-u6c5fu5c71u53bf"
+    ],
+    "kmt-23rd-group-army-zhegan-1942-05": [
+      "jiangxi",
+      "county-jiangxi-u4e0au9976u53bf"
+    ],
+    "kmt-25th-group-army-zhegan-1942-05": [
+      "zhejiang",
+      "county-zhejiang-u91d1u534eu53bf"
+    ],
+    "kmt-32nd-group-army-zhegan-1942-05": [
+      "zhejiang",
+      "county-zhejiang-u8862u53bf",
+      "place-zhejiang-u8862u5dde"
+    ],
+    "hangzhou-1942": [
+      "zhejiang",
+      "county-zhejiang-u676du53bf",
+      "place-zhejiang-u676du5dde"
+    ],
+    "shiziling-1942-05": [
+      "shanxi",
+      "county-shanxi-u8fbdu53bf"
+    ],
+    "japanese-shangrao-1942-06": [
+      "jiangxi",
+      "county-jiangxi-u4e0au9976u53bf"
+    ],
+    "kmt-5th-army-return-yunnan-1942-06": [
+      "yunnan",
+      "county-yunnan-u4fddu5c71u53bf"
+    ],
+    "burma-retreat-1942-08": [
+      "overseas",
+      "place-overseas-u82f1u5e15u5c14"
+    ],
+    "new22nd-division-india-1942-08": [
+      "overseas",
+      "place-overseas-u96f7u591a"
+    ],
+    "kmt-expeditionary-force-1943-04": [
+      "yunnan",
+      "county-yunnan-u695au96c4u53bf"
+    ],
+    "kmt-18th-army-to-shipai-1943-04": [
+      "hubei",
+      "county-hubei-u5b9cu660cu53bf",
+      "place-hubei-u77f3u724c"
+    ],
+    "japanese-taihang-1943-04": [
+      "henan",
+      "county-henan-u6797u53bf"
+    ],
+    "kmt-24th-group-army-taihang-1943-04": [
+      "henan",
+      "county-henan-u6797u53bf"
+    ],
+    "anyang-1943": [
+      "henan",
+      "county-henan-u5b89u9633u53bf"
+    ],
+    "dapeng-base-1943-05": [
+      "guangdong",
+      "county-guangdong-u5b9du5b89u53bf",
+      "place-guangdong-u5b9du5b89u5927u9e4f"
+    ],
+    "exi-1943-05": [
+      "hubei",
+      "county-hubei-u5b9cu660cu53bf",
+      "place-hubei-u5b9cu660cu77f3u724c"
+    ],
+    "japanese-exi-1943-05": [
+      "hubei",
+      "county-hubei-u5b9cu660cu53bf"
+    ],
+    "kmt-26th-group-army-exi-1943-05": [
+      "hubei",
+      "county-hubei-u5b9cu660cu53bf"
+    ],
+    "jingzhou-1943": [
+      "hubei",
+      "county-hubei-u6c5fu9675u53bf",
+      "place-hubei-u8346u5dde"
+    ],
+    "enshi-1943": [
+      "hubei",
+      "county-hubei-u6069u65bdu53bf"
+    ],
+    "japanese-shipai-1943-05": [
+      "hubei",
+      "county-hubei-u5b9cu660cu53bf",
+      "place-hubei-u77f3u724c"
+    ],
+    "kmt-26th-group-army-shipai-1943-05": [
+      "hubei",
+      "county-hubei-u5b9cu660cu53bf",
+      "place-hubei-u77f3u724c"
+    ],
+    "kmt-18th-army-shipai-1943-05": [
+      "hubei",
+      "county-hubei-u5b9cu660cu53bf",
+      "place-hubei-u77f3u724c"
+    ],
+    "baisha-base-1943-08": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u767du6c99"
+    ],
+    "qiongya-danzhou-1943-09": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u510bu5dde"
+    ],
+    "north-burma-offensive-1943-10": [
+      "overseas",
+      "place-overseas-u5229u591a"
+    ],
+    "kmt-74th-army-to-changde-1943-10": [
+      "hunan",
+      "county-hunan-u5e38u5fb7u53bf"
+    ],
+    "hanluecun-1943-10": [
+      "shanxi",
+      "county-shanxi-u6d2au6d1eu53bf",
+      "place-shanxi-u6d2au6d1eu97e9u7565u6751"
+    ],
+    "changde-1943-11": [
+      "hunan",
+      "county-hunan-u5e38u5fb7u53bf"
+    ],
+    "japanese-changde-1943-11": [
+      "hunan",
+      "county-hunan-u5e38u5fb7u53bf"
+    ],
+    "kmt-74th-army-changde-1943-11": [
+      "hunan",
+      "county-hunan-u5e38u5fb7u53bf"
+    ],
+    "kmt-29th-group-army-changde-1943-11": [
+      "hunan",
+      "county-hunan-u5e38u5fb7u53bf"
+    ],
+    "gongan-1943": [
+      "hubei",
+      "county-hubei-u516cu5b89u53bf"
+    ],
+    "cairo-conference-1943-11": [
+      "overseas",
+      "place-overseas-u5f00u7f57"
+    ],
+    "dongjiang-column-1943-12": [
+      "guangdong",
+      "county-guangdong-u60e0u9633u53bf"
+    ],
+    "yin-linping-dongjiang-1943-12": [
+      "guangdong",
+      "county-guangdong-u60e0u9633u53bf"
+    ],
+    "zeng-sheng-dongjiang-1943-12": [
+      "guangdong",
+      "county-guangdong-u60e0u9633u53bf"
+    ],
+    "gangjiu-rescue-pilots-1944-02": [
+      "hongkong",
+      "place-hongkong-u897fu8d21"
+    ],
+    "cheqiao-1944-03": [
+      "jiangsu",
+      "county-jiangsu-u6deeu5b89u53bf",
+      "place-jiangsu-u6deeu5b89u8f66u6865"
+    ],
+    "ichigo-offensive-1944-04": [
+      "henan",
+      "county-henan-u90d1u53bf",
+      "place-henan-u90d1u5dde"
+    ],
+    "japanese-yuzhong-1944-04": [
+      "henan",
+      "county-henan-u90d1u53bf",
+      "place-henan-u90d1u5dde"
+    ],
+    "kmt-31st-group-army-yuzhong-1944-04": [
+      "henan",
+      "county-henan-u8bb8u660cu53bf"
+    ],
+    "kmt-1st-war-zone-henan-1944-04": [
+      "henan",
+      "county-henan-u90d1u53bf",
+      "place-henan-u90d1u5dde"
+    ],
+    "japanese-luoyang-1944-05": [
+      "henan",
+      "county-henan-u6d1bu9633u53bf"
+    ],
+    "kmt-15th-army-luoyang-1944-05": [
+      "henan",
+      "county-henan-u6d1bu9633u53bf"
+    ],
+    "dianxi-1944-05": [
+      "yunnan",
+      "county-yunnan-u9f99u9675u53bf"
+    ],
+    "japanese-dianxi-1944-05": [
+      "yunnan",
+      "county-yunnan-u9f99u9675u53bf"
+    ],
+    "kmt-11th-group-army-dianxi-1944-05": [
+      "yunnan",
+      "county-yunnan-u9f99u9675u53bf"
+    ],
+    "kmt-20th-group-army-dianxi-1944-05": [
+      "yunnan",
+      "county-yunnan-u817eu51b2u53bf"
+    ],
+    "baoshan-1944": [
+      "yunnan",
+      "county-yunnan-u4fddu5c71u53bf"
+    ],
+    "kmt-36th-group-army-yuzhong-1944-05": [
+      "henan",
+      "county-henan-u9655u53bf"
+    ],
+    "japanese-songshan-1944-06": [
+      "yunnan",
+      "county-yunnan-u9f99u9675u53bf",
+      "place-yunnan-u677eu5c71"
+    ],
+    "kmt-11th-group-army-songshan-1944-06": [
+      "yunnan",
+      "county-yunnan-u9f99u9675u53bf",
+      "place-yunnan-u677eu5c71"
+    ],
+    "songshan-1944-06": [
+      "yunnan",
+      "county-yunnan-u9f99u9675u53bf",
+      "place-yunnan-u9f99u9675u677eu5c71"
+    ],
+    "japanese-longling-1944-06": [
+      "yunnan",
+      "county-yunnan-u9f99u9675u53bf"
+    ],
+    "kmt-11th-group-army-longling-1944-06": [
+      "yunnan",
+      "county-yunnan-u9f99u9675u53bf"
+    ],
+    "japanese-changsha-1944-06": [
+      "hunan",
+      "county-hunan-u957fu6c99u53bf"
+    ],
+    "kmt-4th-army-changsha-1944-06": [
+      "hunan",
+      "county-hunan-u957fu6c99u53bf"
+    ],
+    "hengyang-1944-06": [
+      "hunan",
+      "county-hunan-u8861u9633u53bf"
+    ],
+    "kmt-10th-army-hengyang-1944-06": [
+      "hunan",
+      "county-hunan-u8861u9633u53bf"
+    ],
+    "japanese-tengchong-1944-06": [
+      "yunnan",
+      "county-yunnan-u817eu51b2u53bf"
+    ],
+    "kmt-20th-group-army-tengchong-1944-06": [
+      "yunnan",
+      "county-yunnan-u817eu51b2u53bf"
+    ],
+    "qiongya-column-wuzhishan-1944-08": [
+      "guangdong",
+      "county-guangdong-u4fddu4eadu53bf",
+      "place-guangdong-u4e94u6307u5c71"
+    ],
+    "lin-qiangyun-zhujiang-1944-10": [
+      "guangdong",
+      "county-guangdong-u4e2du5c71u53bf"
+    ],
+    "zhujiang-column-1944-10": [
+      "guangdong",
+      "county-guangdong-u4e2du5c71u53bf",
+      "place-guangdong-u4e2du5c71u4e94u6842u5c71"
+    ],
+    "southward-column-1944-11": [
+      "shaanxi",
+      "county-shaanxi-u80a4u65bdu53bf",
+      "place-shaanxi-u5ef6u5b89"
+    ],
+    "kmt-16th-group-army-guilin-1944-11": [
+      "guangxi",
+      "county-guangxi-u6842u6797u53bf"
+    ],
+    "kmt-35th-group-army-guiliu-1944-11": [
+      "guangxi",
+      "county-guangxi-u67f3u5ddeu53bf"
+    ],
+    "kmt-guilin-liuzhou-1944-11": [
+      "guangxi",
+      "county-guangxi-u6842u6797u53bf"
+    ],
+    "nanning-fall-1944-11": [
+      "guangxi",
+      "county-guangxi-u9095u5b81u53bf",
+      "place-guangxi-u5357u5b81"
+    ],
+    "qiongya-changgan-1944-12": [
+      "guangdong",
+      "county-guangdong-u660cu6c5fu53bf",
+      "place-guangdong-u4e1cu65b9"
+    ],
+    "kmt-74th-army-to-xiangxi-1944-12": [
+      "hunan",
+      "county-hunan-u82b7u6c5fu53bf"
+    ],
+    "hanjiang-column-1945-01": [
+      "guangdong",
+      "place-guangdong-u6f6eu6c55"
+    ],
+    "nanlu-army-1945-01": [
+      "guangdong",
+      "county-guangdong-u9042u6eaau53bf"
+    ],
+    "dongjiang-yuebei-1945-01": [
+      "guangdong",
+      "county-guangdong-u5357u96c4u53bf"
+    ],
+    "luofushan-base-1945-01": [
+      "guangdong",
+      "county-guangdong-u535au7f57u53bf"
+    ],
+    "zhujiang-column-yuezhong-1945-01": [
+      "guangdong",
+      "county-guangdong-u65b0u4f1au53bf"
+    ],
+    "wanding-1945": [
+      "yunnan",
+      "county-yunnan-u7579u753au9547",
+      "place-yunnan-u7579u753a"
+    ],
+    "haifeng-lufeng-base-1945-03": [
+      "guangdong",
+      "county-guangdong-u6d77u4e30u53bf"
+    ],
+    "kmt-18th-army-to-xiangxi-1945-03": [
+      "hunan",
+      "county-hunan-u6c85u9675u53bf"
+    ],
+    "mandalay-1945-03": [
+      "overseas",
+      "place-overseas-u66fcu5fb7u52d2"
+    ],
+    "japanese-nanyang-1945-03": [
+      "henan",
+      "county-henan-u5357u9633u53bf"
+    ],
+    "japanese-xiangyang-1945-03": [
+      "hubei",
+      "county-hubei-u8944u9633u53bf"
+    ],
+    "kmt-22nd-group-army-yuxi-1945-03": [
+      "hubei",
+      "county-hubei-u8944u9633u53bf"
+    ],
+    "kmt-2nd-group-army-yuxi-1945-03": [
+      "henan",
+      "county-henan-u5357u9633u53bf"
+    ],
+    "zhujiang-yunfu-1945-04": [
+      "guangdong",
+      "county-guangdong-u4e91u6d6eu53bf"
+    ],
+    "xiangxi-1945-04": [
+      "hunan",
+      "county-hunan-u82b7u6c5fu53bf"
+    ],
+    "shaoyang-1945": [
+      "hunan",
+      "county-hunan-u90b5u9633u53bf"
+    ],
+    "kmt-18th-army-xiangxi-1945-04": [
+      "hunan",
+      "county-hunan-u6c85u9675u53bf"
+    ],
+    "guilin-counteroffensive-1945-05": [
+      "guangxi",
+      "county-guangxi-u6842u6797u53bf"
+    ],
+    "qiongya-lingao-1945-05": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u4e34u9ad8"
+    ],
+    "zhujiang-gaoyao-1945-05": [
+      "guangdong",
+      "county-guangdong-u9ad8u8981u53bf"
+    ],
+    "new-6th-army-airlift-1945-05": [
+      "hunan",
+      "county-hunan-u82b7u6c5fu53bf"
+    ],
+    "qiongya-jianfengling-1945-06": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u4e50u4e1c"
+    ],
+    "feng-baiju-qiongya-1945-07": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u767du6c99"
+    ],
+    "yueganxiang-base-1945-07": [
+      "guangdong",
+      "county-guangdong-u548cu5e73u53bf"
+    ],
+    "hiroshima-1945-08": [
+      "overseas",
+      "place-overseas-u5e7fu5c9b"
+    ],
+    "soviet-declares-war-1945-08": [
+      "heilongjiang",
+      "place-heilongjiang-u4e2du56fdu4e1cu5317"
+    ],
+    "last-battle-1945-08": [
+      "shaanxi",
+      "county-shaanxi-u80a4u65bdu53bf",
+      "place-shaanxi-u5ef6u5b89"
+    ],
+    "great-counteroffensive-1945-08": [
+      "shaanxi",
+      "county-shaanxi-u80a4u65bdu53bf",
+      "place-shaanxi-u5ef6u5b89"
+    ],
+    "japan-surrender-1945-08": [
+      "overseas",
+      "place-overseas-u4e1cu4eac"
+    ],
+    "instrument-surrender-1945-09": [
+      "overseas",
+      "place-overseas-u4e1cu4eacu6e7eu7f8eu56fd-u5bc6u82cfu91cc-u53f7u6218u5217u82"
+    ],
+    "china-theater-surrender-1945-09": [
+      "nanjing",
+      "place-nanjing-u5357u4eac"
+    ],
+    "japanese-hainan-landing-1939-02": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u743cu5c71u5929u5c3eu6e2f"
+    ],
+    "haikou-fucheng-fall-1939-02": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u6d77u53e3-u5e9cu57ce"
+    ],
+    "japanese-sanya-landing-1939-02": [
+      "guangdong",
+      "county-guangdong-u5d16u53bf",
+      "place-guangdong-u4e09u4e9a"
+    ],
+    "tanokou-resistance-1939-02": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u743cu5c71u6f6du53e3u6e21u53e3"
+    ],
+    "shilu-iron-mine-1940-03": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u660cu6c5fu77f3u788c"
+    ],
+    "hainan-keibifu-1941-04": [
+      "guangdong",
+      "county-guangdong-u743cu5c71u53bf",
+      "place-guangdong-u6d77u53e3"
+    ],
+    "changchun-fall-1931-09": [
+      "jilin",
+      "county-jilin-u957fu6625u53bf"
+    ],
+    "jilin-fall-1931-09": [
+      "jilin",
+      "county-jilin-u5409u6797u5e02"
+    ],
+    "qiqihar-fall-1931-11": [
+      "heilongjiang",
+      "county-heilongjiang-u9f50u9f50u54c8u5c14"
+    ],
+    "japan-manchukuo-protocol-1932-09": [
+      "jilin",
+      "county-jilin-u957fu6625u53bf"
+    ],
+    "pingdingshan-massacre-1932-09": [
+      "liaoning",
+      "county-liaoning-u629au987au53bf",
+      "place-liaoning-u629au987au5e73u9876u5c71"
+    ],
+    "beiping-fall-1937-07": [
+      "beiping",
+      "place-beiping-u5317u5e73"
+    ],
+    "tianjin-fall-1937-07": [
+      "tianjin",
+      "place-tianjin-u5929u6d25"
+    ],
+    "japan-coast-blockade-1937-08": [
+      "shanghai",
+      "place-shanghai-u5434u6ddeu53e3u5916"
+    ],
+    "shanghai-fall-1937-11": [
+      "shanghai",
+      "place-shanghai-u4e0au6d77"
+    ],
+    "beiping-provisional-government-1937-12": [
+      "beiping",
+      "place-beiping-u5317u5e73"
+    ],
+    "hangzhou-fall-1937-12": [
+      "zhejiang",
+      "county-zhejiang-u676du53bf",
+      "place-zhejiang-u676du5dde"
+    ],
+    "jinan-fall-1937-12": [
+      "shandong",
+      "county-shandong-u5386u57ceu53bf",
+      "place-shandong-u6d4eu5357"
+    ],
+    "nanjing-reform-government-1938-03": [
+      "nanjing",
+      "place-nanjing-u5357u4eac"
+    ],
+    "xiamen-landing-1938-05": [
+      "fujian",
+      "county-fujian-u53a6u95e8u5e02",
+      "place-fujian-u53a6u95e8u4e94u901a"
+    ],
+    "xiamen-fall-1938-05": [
+      "fujian",
+      "county-fujian-u53a6u95e8u5e02"
+    ],
+    "xuzhou-fall-1938-05": [
+      "jiangsu",
+      "county-jiangsu-u94dcu5c71u53bf",
+      "place-jiangsu-u5f90u5dde"
+    ],
+    "anqing-fall-1938-06": [
+      "anhui",
+      "county-anhui-u6000u5b81u53bf",
+      "place-anhui-u5b89u5e86"
+    ],
+    "jiujiang-fall-1938-07": [
+      "jiangxi",
+      "county-jiangxi-u4e5du6c5fu53bf"
+    ],
+    "koa-in-institute-1938-12": [
+      "overseas",
+      "place-overseas-u4e1cu4eac"
+    ],
+    "shenzhen-fall-1939-08": [
+      "guangdong",
+      "county-guangdong-u5b9du5b89u53bf",
+      "place-guangdong-u5b9du5b89u5357u5934"
+    ],
+    "nanchang-fall-1939-03": [
+      "jiangxi",
+      "county-jiangxi-u5357u660cu5e02"
+    ],
+    "shantou-landing-1939-06": [
+      "guangdong",
+      "county-guangdong-u6c55u5934u5e02",
+      "place-guangdong-u6c55u5934u5988u5c7fu5c9b"
+    ],
+    "shantou-fall-1939-06": [
+      "guangdong",
+      "county-guangdong-u6c55u5934u5e02"
+    ],
+    "chaozhou-fall-1939-06": [
+      "guangdong",
+      "county-guangdong-u6f6eu5b89u53bf",
+      "place-guangdong-u6f6eu5dde"
+    ],
+    "mengjiang-united-government-1939-09": [
+      "chahar",
+      "county-chahar-u4e07u5168u53bf",
+      "place-chahar-u5f20u5bb6u53e3"
+    ],
+    "nanning-fall-1939-11": [
+      "guangxi",
+      "county-guangxi-u9095u5b81u53bf",
+      "place-guangxi-u5357u5b81"
+    ],
+    "yichang-fall-1940-06": [
+      "hubei",
+      "county-hubei-u5b9cu660cu53bf"
+    ],
+    "indochina-entry-1940-09": [
+      "overseas",
+      "place-overseas-u6cb3u5185"
+    ],
+    "ningbo-bacteriological-1940-10": [
+      "zhejiang",
+      "county-zhejiang-u911eu53bf",
+      "place-zhejiang-u5b81u6ce2"
+    ],
+    "panjiayu-massacre-1941-01": [
+      "hebei",
+      "county-hebei-u4e30u6da6u53bf",
+      "place-hebei-u4e30u6da6u6f58u5bb6u5cea"
+    ],
+    "shaoxing-fall-1941-04": [
+      "zhejiang",
+      "county-zhejiang-u7ecdu5174u53bf"
+    ],
+    "zhenhai-fall-1941-04": [
+      "zhejiang",
+      "county-zhejiang-u9547u6d77u53bf"
+    ],
+    "ruian-fall-1941-04": [
+      "zhejiang",
+      "county-zhejiang-u745eu5b89u53bf"
+    ],
+    "wenzhou-fall-1941-04": [
+      "zhejiang",
+      "county-zhejiang-u6c38u5609u53bf",
+      "place-zhejiang-u6e29u5dde"
+    ],
+    "ningbo-fall-1941-04": [
+      "zhejiang",
+      "county-zhejiang-u911eu53bf",
+      "place-zhejiang-u5b81u6ce2"
+    ],
+    "fuzhou-landing-1941-04": [
+      "fujian",
+      "place-fujian-u95fdu6c5fu53e3"
+    ],
+    "fuzhou-fall-1941-04": [
+      "fujian",
+      "county-fujian-u95fdu4fafu53bf",
+      "place-fujian-u798fu5dde"
+    ],
+    "changde-bacteriological-1941-11": [
+      "hunan",
+      "county-hunan-u5e38u5fb7u53bf"
+    ],
+    "shanghai-concession-1941-12": [
+      "shanghai",
+      "place-shanghai-u516cu5171u79dfu754c"
+    ],
+    "hongkong-fall-1941-12": [
+      "hongkong",
+      "place-hongkong-u9999u6e2f"
+    ],
+    "chengdu-bombing-1939-06": [
+      "sichuan",
+      "county-sichuan-u6210u90fdu53bf"
+    ],
+    "jizhong-may-sweep-1942-05": [
+      "hebei",
+      "place-hebei-u5180u4e2d-2"
+    ],
+    "yunnan-invasion-1942-05": [
+      "yunnan",
+      "county-yunnan-u7579u753au9547",
+      "place-yunnan-u7579u753a"
+    ],
+    "longling-fall-1942-05": [
+      "yunnan",
+      "county-yunnan-u9f99u9675u53bf"
+    ],
+    "huitongqiao-1942-05": [
+      "yunnan",
+      "place-yunnan-u6012u6c5fu60e0u901au6865"
+    ],
+    "beituan-massacre-1942-05": [
+      "hebei",
+      "county-hebei-u5b9au53bf",
+      "place-hebei-u5b9au53bfu5317u7583"
+    ],
+    "quzhou-fall-1942-06": [
+      "zhejiang",
+      "county-zhejiang-u8862u53bf",
+      "place-zhejiang-u8862u5dde"
+    ],
+    "shangrao-fall-1942-06": [
+      "jiangxi",
+      "county-jiangxi-u4e0au9976u53bf"
+    ],
+    "zhegan-bacteriological-1942-08": [
+      "zhejiang",
+      "county-zhejiang-u8862u53bf",
+      "place-zhejiang-u8862u5dde-u91d1u534e-u7389u5c71u4e00u5e26"
+    ],
+    "changjiao-massacre-1943-05": [
+      "hunan",
+      "county-hunan-u5357u53bf",
+      "place-hunan-u5357u53bfu5382u7a96"
+    ],
+    "zhengzhou-fall-1944-04": [
+      "henan",
+      "county-henan-u90d1u53bf",
+      "place-henan-u90d1u5dde"
+    ],
+    "xuchang-fall-1944-05": [
+      "henan",
+      "county-henan-u8bb8u660cu53bf"
+    ],
+    "luoyang-fall-1944-05": [
+      "henan",
+      "county-henan-u6d1bu9633u53bf"
+    ],
+    "changsha-fall-1944-06": [
+      "hunan",
+      "county-hunan-u957fu6c99u53bf"
+    ],
+    "hengyang-fall-1944-08": [
+      "hunan",
+      "county-hunan-u8861u9633u53bf"
+    ],
+    "fuzhou-landing-1944-09": [
+      "fujian",
+      "place-fujian-u95fdu6c5fu53e3"
+    ],
+    "fuzhou-fall-1944-10": [
+      "fujian",
+      "county-fujian-u95fdu4fafu53bf",
+      "place-fujian-u798fu5dde"
+    ],
+    "guilin-fall-1944-11": [
+      "guangxi",
+      "county-guangxi-u6842u6797u53bf"
+    ],
+    "liuzhou-fall-1944-11": [
+      "guangxi",
+      "county-guangxi-u67f3u5ddeu53bf"
+    ],
+    "dushan-fall-1944-12": [
+      "guizhou",
+      "county-guizhou-u72ecu5c71u53bf"
+    ],
+    "laohekou-fall-1945-04": [
+      "hubei",
+      "county-hubei-u5149u5316u53bf",
+      "place-hubei-u8001u6cb3u53e3"
+    ],
+    "taiwan-retrocession-1945-10": [
+      "taiwan",
+      "county-taiwan-u53f0u5317u5dde",
+      "place-taiwan-u53f0u5317"
+    ],
+    "jinshanwei-landing-1937-11": [
+      "jiangsu",
+      "county-jiangsu-u91d1u5c71u53bf",
+      "place-jiangsu-u91d1u5c71u536b"
+    ],
+    "hirota-three-principles-1935-10": [
+      "overseas",
+      "place-overseas-u4e1cu4eac"
+    ],
+    "konoe-statement-1938-01": [
+      "overseas",
+      "place-overseas-u4e1cu4eac"
+    ],
+    "konoe-new-order-1938-11": [
+      "overseas",
+      "place-overseas-u4e1cu4eac"
+    ],
+    "japan-north-central-development-1938-11": [
+      "overseas",
+      "place-overseas-u4e1cu4eac"
+    ],
+    "trautmann-mediation-1937-11": [
+      "nanjing",
+      "place-nanjing-u5357u4eac"
+    ],
+    "leizhou-landing-1943-02": [
+      "guangdong",
+      "county-guangdong-u6d77u5eb7u53bf",
+      "place-guangdong-u96f7u5ddeu901au660eu6e2f"
+    ],
+    "leizhou-fall-1943-02": [
+      "guangdong",
+      "county-guangdong-u9042u6eaau53bf"
+    ],
+    "guangzhouwan-fall-1943-02": [
+      "guangdong",
+      "county-guangdong-u9042u6eaau53bf",
+      "place-guangdong-u5e7fu5ddeu6e7eu897fu8425"
+    ],
+    "wenzhou-fall-1942-07": [
+      "zhejiang",
+      "county-zhejiang-u6c38u5609u53bf",
+      "place-zhejiang-u6e29u5dde"
+    ],
+    "wenzhou-fall-1944-09": [
+      "zhejiang",
+      "county-zhejiang-u6c38u5609u53bf",
+      "place-zhejiang-u6e29u5dde"
+    ],
+    "shaoguan-fall-1945-01": [
+      "guangdong",
+      "county-guangdong-u66f2u6c5fu53bf",
+      "place-guangdong-u97f6u5173-2"
+    ],
+    "nanxiong-fall-1945-02": [
+      "guangdong",
+      "county-guangdong-u5357u96c4u53bf"
+    ],
+    "dayu-fall-1945-02": [
+      "jiangxi",
+      "county-jiangxi-u5927u5ebeu53bf",
+      "place-jiangxi-u5927u4f59"
+    ],
+    "suichuan-airfield-1945-01": [
+      "jiangxi",
+      "county-jiangxi-u9042u5dddu53bf"
+    ],
+    "ganzhou-fall-1945-02": [
+      "jiangxi",
+      "county-jiangxi-u8d63u53bf",
+      "place-jiangxi-u8d63u5dde"
+    ],
+    "zhangjiakou-fall-1937-08": [
+      "chahar",
+      "county-chahar-u4e07u5168u53bf",
+      "place-chahar-u5f20u5bb6u53e3"
+    ],
+    "baoding-fall-1937-09": [
+      "hebei",
+      "county-hebei-u6e05u82d1u53bf",
+      "place-hebei-u4fddu5b9a"
+    ],
+    "shijiazhuang-fall-1937-10": [
+      "hebei",
+      "county-hebei-u77f3u95e8u5e02",
+      "place-hebei-u77f3u5bb6u5e84"
+    ],
+    "niangziguan-fall-1937-10": [
+      "shanxi",
+      "county-shanxi-u5e73u5b9au53bf",
+      "place-shanxi-u5e73u5b9au5a18u5b50u5173"
+    ],
+    "guisui-fall-1937-10": [
+      "suiyuan",
+      "county-suiyuan-u5f52u7ee5u53bf"
+    ],
+    "baotou-fall-1937-10": [
+      "suiyuan",
+      "county-suiyuan-u5305u5934u53bf"
+    ],
+    "tiandu-iron-mine-1939-07": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u5d16u53bfu7530u72ec"
+    ],
+    "shilu-basuo-railway-1942-03": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u4e1cu65b9u516bu6240"
+    ],
+    "yulin-beili-railway-1943-03": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u4e1cu65b9u5317u9ece"
+    ],
+    "tiandu-mass-grave-1945-08": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u4e09u4e9au7530u72ec"
+    ],
+    "hainan-first-occupation-1939-04": [
+      "guangdong",
+      "county-guangdong-u743cu4e1cu53bf",
+      "place-guangdong-u5609u79ef"
+    ],
+    "hainan-sweep-1942-05": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u743cu5c71"
+    ],
+    "hainan-surrender-1945-10": [
+      "guangdong",
+      "county-guangdong-u743cu5c71u53bf",
+      "place-guangdong-u6d77u53e3"
+    ],
+    "yaxian-fall-1939-02": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u5d16u53bfu5d16u57ce"
+    ],
+    "dingan-fall-1939-02": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u5b9au5b89"
+    ],
+    "wenchang-fall-1939-02": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u6587u660cu6587u57ce"
+    ],
+    "chengmai-fall-1939-04": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u6f84u8fc8u91d1u6c5f"
+    ],
+    "jiaji-fall-1939-04": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u743cu4e1cu5609u79ef"
+    ],
+    "lingao-fall-1939-04": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u4e34u9ad8"
+    ],
+    "danxian-fall-1939-04": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u510bu53bfu65b0u5dde"
+    ],
+    "lingshui-fall-1939-04": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u9675u6c34"
+    ],
+    "tunchang-fall-1939-05": [
+      "guangdong",
+      "county-guangdong-u5c6fu660cu53bf"
+    ],
+    "ganen-fall-1939-06": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u611fu6069"
+    ],
+    "changjiang-fall-1939-07": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u660cu6c5fu65b0u8857-u58a9u5934"
+    ],
+    "wanning-fall-1939-08": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u4e07u5b81"
+    ],
+    "baoting-fall-1940-03": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u4fddu4ead"
+    ],
+    "ledong-fall-1940-03": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u4e50u4e1cu62b1u7531"
+    ],
+    "hainan-occupation-extent-1940-03": [
+      "guangdong",
+      "county-guangdong-u743cu5c71u53bf",
+      "place-guangdong-u6d77u53e3"
+    ],
+    "chengmai-bay-landing-1939-02": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u6f84u8fc8u6e7eu8001u57ceu9644u8fd1"
+    ],
+    "yacheng-landing-1939-02": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u5d16u5ddeu6e7eu5934u7076u6e2f-u5927u65e6u6e2f-u9a6cu5cadu4e"
+    ],
+    "baimajing-landing-1939-04": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u510bu53bfu767du9a6cu4e95"
+    ],
+    "qinglan-fall-1939-02": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u6587u660cu6e05u6f9cu6e2f"
+    ],
+    "basuo-beili-landing-1939-07": [
+      "guangdong",
+      "hainan",
+      "place-guangdong-u660cu6c5fu516bu6240-u5317u9ece"
+    ],
+    "sanzao-first-occupation-1937-12": [
+      "guangdong",
+      "county-guangdong-u4e2du5c71u53bf",
+      "place-guangdong-u4e2du5c71u4e09u7076u5c9b"
+    ],
+    "sanzao-occupation-1938-02": [
+      "guangdong",
+      "county-guangdong-u4e2du5c71u53bf",
+      "place-guangdong-u4e09u7076u5c9bu83b2u5858u6e7e"
+    ],
+    "sanzao-massacre-1938-04": [
+      "guangdong",
+      "county-guangdong-u4e2du5c71u53bf",
+      "place-guangdong-u4e09u7076u5c9b"
+    ],
+    "dayawan-pinghai-landing-1938-10": [
+      "guangdong",
+      "county-guangdong-u60e0u9633u53bf",
+      "place-guangdong-u60e0u9633u5e73u6d77-u7a14u5c71"
+    ],
+    "dayawan-yanzaobei-landing-1938-10": [
+      "guangdong",
+      "county-guangdong-u60e0u9633u53bf",
+      "place-guangdong-u60e0u9633u76d0u7076u80cc"
+    ],
+    "dayawan-aotou-landing-1938-10": [
+      "guangdong",
+      "county-guangdong-u60e0u9633u53bf",
+      "place-guangdong-u60e0u9633u6fb3u5934-u971eu6d8c"
+    ],
+    "danshui-fall-1938-10": [
+      "guangdong",
+      "county-guangdong-u60e0u9633u53bf",
+      "place-guangdong-u60e0u9633u6de1u6c34"
+    ],
+    "huizhou-fall-1938-10": [
+      "guangdong",
+      "county-guangdong-u60e0u9633u53bf",
+      "place-guangdong-u60e0u5dde"
+    ],
+    "boluo-fall-1938-10": [
+      "guangdong",
+      "county-guangdong-u535au7f57u53bf"
+    ],
+    "zengcheng-fall-1938-10": [
+      "guangdong",
+      "county-guangdong-u589eu57ceu53bf"
+    ],
+    "conghua-fall-1938-10": [
+      "guangdong",
+      "county-guangdong-u4eceu5316u53bf"
+    ],
+    "humen-fall-1938-10": [
+      "guangdong",
+      "county-guangdong-u4e1cu839eu53bf",
+      "place-guangdong-u4e1cu839eu864eu95e8"
+    ],
+    "sanshui-fall-1938-10": [
+      "guangdong",
+      "county-guangdong-u4e09u6c34u53bf"
+    ],
+    "foshan-fall-1938-10": [
+      "guangdong",
+      "county-guangdong-u5357u6d77u53bf",
+      "place-guangdong-u4f5bu5c71"
+    ],
+    "shunde-fall-1938-10": [
+      "guangdong",
+      "county-guangdong-u987au5fb7u53bf"
+    ],
+    "panyu-fall-1938-10": [
+      "guangdong",
+      "county-guangdong-u756au79bau53bf"
+    ],
+    "bao-an-fall-1938-11": [
+      "guangdong",
+      "county-guangdong-u5b9du5b89u53bf",
+      "place-guangdong-u5b9du5b89u5357u5934"
+    ],
+    "jiangmen-fall-1939-03": [
+      "guangdong",
+      "county-guangdong-u65b0u4f1au53bf",
+      "place-guangdong-u6c5fu95e8"
+    ],
+    "xinhui-fall-1939-04": [
+      "guangdong",
+      "county-guangdong-u65b0u4f1au53bf",
+      "place-guangdong-u65b0u4f1au4f1au57ce"
+    ],
+    "zhongshan-fall-1940-03": [
+      "guangdong",
+      "county-guangdong-u4e2du5c71u53bf",
+      "place-guangdong-u4e2du5c71u77f3u5c90"
+    ],
+    "tangjia-landing-1940-03": [
+      "guangdong",
+      "county-guangdong-u4e2du5c71u53bf",
+      "place-guangdong-u4e2du5c71u5510u5bb6-u9999u6d32"
+    ],
+    "bao-an-fall-1940-06": [
+      "guangdong",
+      "county-guangdong-u5b9du5b89u53bf",
+      "place-guangdong-u5b9du5b89u5357u5934"
+    ],
+    "nanao-landing-1938-06": [
+      "guangdong",
+      "county-guangdong-u5357u6fb3u53bf",
+      "place-guangdong-u5357u6fb3u94b1u6fb3"
+    ],
+    "nanao-fall-1938-06": [
+      "guangdong",
+      "county-guangdong-u5357u6fb3u53bf",
+      "place-guangdong-u5357u6fb3u9686u6fb3"
+    ],
+    "chenghai-fall-1939-06": [
+      "guangdong",
+      "county-guangdong-u6f84u6d77u53bf"
+    ],
+    "guangzhou-surrender-1945-09": [
+      "guangdong",
+      "county-guangdong-u5e7fu5ddeu5e02",
+      "place-guangdong-u5e7fu5ddeu4e2du5c71u7eaau5ff5u5802"
+    ],
+    "shantou-surrender-1945-09": [
+      "guangdong",
+      "county-guangdong-u6c55u5934u5e02"
+    ],
+    "yuebei-first-xiaolou-1939-12": [
+      "guangdong",
+      "county-guangdong-u589eu57ceu53bf",
+      "place-guangdong-u589eu57ceu5c0fu697c-u6b63u679c"
+    ],
+    "yuebei-first-yonghan-1939-12": [
+      "guangdong",
+      "county-guangdong-u9f99u95e8u53bf",
+      "place-guangdong-u9f99u95e8u6c38u6c49"
+    ],
+    "yuebei-first-conghua-1939-12": [
+      "guangdong",
+      "county-guangdong-u4eceu5316u53bf"
+    ],
+    "yuebei-first-liangkou-1939-12": [
+      "guangdong",
+      "county-guangdong-u4eceu5316u53bf",
+      "place-guangdong-u4eceu5316u826fu53e3"
+    ],
+    "yuebei-first-meikeng-1939-12": [
+      "guangdong",
+      "county-guangdong-u65b0u4e30u53bf",
+      "place-guangdong-u65b0u4e30u6885u5751-u4eceu5316u5415u7530"
+    ],
+    "yuebei-first-xinfeng-1939-12": [
+      "guangdong",
+      "county-guangdong-u65b0u4e30u53bf"
+    ],
+    "yuebei-first-wengyuan-1939-12": [
+      "guangdong",
+      "county-guangdong-u7fc1u6e90u53bf"
+    ],
+    "yuebei-first-yingde-1939-12": [
+      "guangdong",
+      "county-guangdong-u82f1u5fb7u53bf"
+    ],
+    "yuebei-first-xinjiang-1939-12": [
+      "guangdong",
+      "county-guangdong-u7fc1u6e90u53bf",
+      "place-guangdong-u7fc1u6e90u65b0u6c5f"
+    ],
+    "yuebei-second-huaxian-1940-05": [
+      "guangdong",
+      "county-guangdong-u82b1u53bf"
+    ],
+    "yuebei-second-jiekou-1940-05": [
+      "guangdong",
+      "county-guangdong-u4eceu5316u53bf",
+      "place-guangdong-u4eceu5316u8857u53e3"
+    ],
+    "yuebei-second-jilonggang-1940-05": [
+      "guangdong",
+      "county-guangdong-u4eceu5316u53bf",
+      "place-guangdong-u4eceu5316u9e21u7b3cu5188"
+    ],
+    "yuebei-second-liangkou-1940-05": [
+      "guangdong",
+      "county-guangdong-u4eceu5316u53bf",
+      "place-guangdong-u4eceu5316u826fu53e3"
+    ],
+    "yuebei-second-shiliuhuading-1940-05": [
+      "guangdong",
+      "county-guangdong-u4eceu5316u53bf",
+      "place-guangdong-u4eceu5316u826fu53e3u77f3u69b4u82b1u9876"
+    ]
+  },
+  "routes": {
+    "allied-forces:1": {
+      "regionIds": [
+        "county-yunnan-u7579u753au9547",
+        "overseas",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan",
+        "overseas"
+      ]
+    },
+    "allied-forces:2": {
+      "regionIds": [
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "overseas"
+      ]
+    },
+    "allied-forces:3": {
+      "regionIds": [
+        "county-yunnan-u7579u753au9547",
+        "county-yunnan-u9f99u9675u53bf",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "allied-forces:4": {
+      "regionIds": [
+        "county-yunnan-u9f99u9675u53bf",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "china-people:32": {
+      "regionIds": [
+        "chahar",
+        "county-chahar-u4e07u5168u53bf"
+      ],
+      "endpointRegionIds": [
+        "chahar"
+      ]
+    },
+    "eighth-route-army:1": {
+      "regionIds": [
+        "county-shaanxi-u6d1bu5dddu53bf",
+        "county-shaanxi-u80a4u65bdu53bf",
+        "shaanxi"
+      ],
+      "endpointRegionIds": [
+        "shaanxi"
+      ]
+    },
+    "eighth-route-army:2": {
+      "regionIds": [
+        "county-shaanxi-u80a4u65bdu53bf",
+        "county-shanxi-u7075u4e18u53bf",
+        "shaanxi",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shaanxi",
+        "shanxi"
+      ]
+    },
+    "eighth-route-army:3": {
+      "regionIds": [
+        "county-shanxi-u7075u4e18u53bf",
+        "hebei",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi",
+        "hebei"
+      ]
+    },
+    "eighth-route-army:4": {
+      "regionIds": [
+        "county-shanxi-u4ee3u53bf",
+        "county-shanxi-u5ffbu53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "eighth-route-army:5": {
+      "regionIds": [
+        "county-shanxi-u4ee3u53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "eighth-route-army:6": {
+      "regionIds": [
+        "county-shanxi-u548cu987au53bf",
+        "county-shanxi-u5e73u5b9au53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "eighth-route-army:7": {
+      "regionIds": [
+        "county-shanxi-u5ffbu53bf",
+        "hebei",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "hebei",
+        "shanxi"
+      ]
+    },
+    "eighth-route-army:8": {
+      "regionIds": [
+        "county-shanxi-u548cu987au53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "eighth-route-army:9": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "eighth-route-army:10": {
+      "regionIds": [
+        "county-shanxi-u6f5eu57ceu53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "eighth-route-army:11": {
+      "regionIds": [
+        "county-hebei-u6d89u53bf",
+        "county-shanxi-u6f5eu57ceu53bf",
+        "hebei",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi",
+        "hebei"
+      ]
+    },
+    "eighth-route-army:12": {
+      "regionIds": [
+        "county-hebei-u6d89u53bf",
+        "county-shanxi-u6b66u4e61u53bf",
+        "hebei",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "hebei",
+        "shanxi"
+      ]
+    },
+    "eighth-route-army:13": {
+      "regionIds": [
+        "hebei",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi",
+        "hebei"
+      ]
+    },
+    "eighth-route-army:14": {
+      "regionIds": [
+        "beiping",
+        "county-hebei-u6613u53bf",
+        "county-hebei-u901au53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "eighth-route-army:15": {
+      "regionIds": [
+        "county-hebei-u5b9au53bf",
+        "county-hebei-u6cb3u95f4u53bf",
+        "hebei",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi",
+        "hebei"
+      ]
+    },
+    "eighth-route-army:16": {
+      "regionIds": [
+        "county-hebei-u6d89u53bf",
+        "county-shandong-u9104u57ceu53bf",
+        "hebei",
+        "henan",
+        "shandong",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi",
+        "shandong"
+      ]
+    },
+    "eighth-route-army:17": {
+      "regionIds": [
+        "county-hebei-u6cb3u95f4u53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "eighth-route-army:18": {
+      "regionIds": [
+        "county-hebei-u6d9eu6e90u53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "eighth-route-army:19": {
+      "regionIds": [
+        "county-shanxi-u548cu987au53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "eighth-route-army:20": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "eighth-route-army:21": {
+      "regionIds": [
+        "county-shanxi-u6b66u4e61u53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "eighth-route-army:22": {
+      "regionIds": [
+        "county-hebei-u6613u53bf",
+        "county-hebei-u6d9eu6e90u53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "eighth-route-army:23": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "eighth-route-army:24": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "eighth-route-army:25": {
+      "regionIds": [
+        "county-hebei-u6cb3u95f4u53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "eighth-route-army:26": {
+      "regionIds": [
+        "county-shanxi-u6b66u4e61u53bf",
+        "county-shanxi-u6d2au6d1eu53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "eighth-route-army:27": {
+      "regionIds": [
+        "county-jiangxi-u5927u5ebeu53bf",
+        "county-shaanxi-u80a4u65bdu53bf",
+        "guangdong",
+        "henan",
+        "hubei",
+        "hunan",
+        "jiangxi",
+        "shaanxi",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shaanxi",
+        "guangdong"
+      ]
+    },
+    "eighth-route-army:28": {
+      "regionIds": [
+        "anhui",
+        "county-hunan-u5cb3u9633u53bf",
+        "county-jiangxi-u5927u5ebeu53bf",
+        "guangdong",
+        "hubei",
+        "hunan",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "guangdong",
+        "hubei"
+      ]
+    },
+    "japanese-invasion:1": {
+      "regionIds": [
+        "heilongjiang",
+        "jilin",
+        "liaoning"
+      ],
+      "endpointRegionIds": [
+        "liaoning",
+        "heilongjiang"
+      ]
+    },
+    "japanese-invasion:2": {
+      "regionIds": [
+        "jiangsu",
+        "shanghai"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:3": {
+      "regionIds": [
+        "anhui",
+        "beiping",
+        "county-jiangsu-u94dcu5c71u53bf",
+        "county-shandong-u5cc4u53bf",
+        "hebei",
+        "jiangsu",
+        "nanjing",
+        "shandong",
+        "tianjin"
+      ],
+      "endpointRegionIds": [
+        "hebei",
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:4": {
+      "regionIds": [
+        "beiping",
+        "county-hebei-u660cu5e73u53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "japanese-invasion:5": {
+      "regionIds": [
+        "jiangsu",
+        "nanjing",
+        "shanghai"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:6": {
+      "regionIds": [
+        "county-shanxi-u7075u4e18u53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:7": {
+      "regionIds": [
+        "county-shanxi-u5ffbu53bf",
+        "county-shanxi-u9633u66f2u53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:8": {
+      "regionIds": [
+        "county-shanxi-u4ee3u53bf",
+        "county-shanxi-u5ffbu53bf",
+        "county-shanxi-u9633u66f2u53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:9": {
+      "regionIds": [
+        "qingdao",
+        "shandong"
+      ],
+      "endpointRegionIds": [
+        "shandong"
+      ]
+    },
+    "japanese-invasion:10": {
+      "regionIds": [
+        "county-shandong-u5386u57ceu53bf",
+        "shandong"
+      ],
+      "endpointRegionIds": [
+        "shandong"
+      ]
+    },
+    "japanese-invasion:11": {
+      "regionIds": [
+        "county-jiangsu-u94dcu5c71u53bf",
+        "county-shandong-u5386u57ceu53bf",
+        "county-shandong-u5cc4u53bf",
+        "jiangsu",
+        "shandong"
+      ],
+      "endpointRegionIds": [
+        "shandong"
+      ]
+    },
+    "japanese-invasion:12": {
+      "regionIds": [
+        "county-jiangsu-u94dcu5c71u53bf",
+        "county-shandong-u5386u57ceu53bf",
+        "county-shandong-u5cc4u53bf",
+        "jiangsu",
+        "shandong"
+      ],
+      "endpointRegionIds": [
+        "shandong",
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:13": {
+      "regionIds": [
+        "henan",
+        "shandong"
+      ],
+      "endpointRegionIds": [
+        "shandong",
+        "henan"
+      ]
+    },
+    "japanese-invasion:14": {
+      "regionIds": [
+        "anhui",
+        "county-anhui-u6000u5b81u53bf",
+        "county-hubei-u6b66u660cu53bf",
+        "hubei",
+        "jiangxi",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "anhui",
+        "hubei"
+      ]
+    },
+    "japanese-invasion:15": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:16": {
+      "regionIds": [
+        "anhui",
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "anhui",
+        "henan"
+      ]
+    },
+    "japanese-invasion:17": {
+      "regionIds": [
+        "county-guangdong-u60e0u9633u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:18": {
+      "regionIds": [
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:19": {
+      "regionIds": [
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi"
+      ]
+    },
+    "japanese-invasion:20": {
+      "regionIds": [
+        "henan",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei",
+        "henan"
+      ]
+    },
+    "japanese-invasion:21": {
+      "regionIds": [
+        "county-hubei-u6b66u660cu53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:22": {
+      "regionIds": [
+        "county-hunan-u5cb3u9633u53bf",
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "japanese-invasion:23": {
+      "regionIds": [
+        "county-guangdong-u94a6u53bf",
+        "county-guangxi-u9095u5b81u53bf",
+        "guangdong",
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:24": {
+      "regionIds": [
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:25": {
+      "regionIds": [
+        "county-guangdong-u4eceu5316u53bf",
+        "county-guangdong-u66f2u6c5fu53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:26": {
+      "regionIds": [
+        "anhui"
+      ],
+      "endpointRegionIds": [
+        "anhui"
+      ]
+    },
+    "japanese-invasion:27": {
+      "regionIds": [
+        "county-guangdong-u94a6u53bf",
+        "county-guangxi-u9095u5b81u53bf",
+        "guangdong",
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:28": {
+      "regionIds": [
+        "suiyuan"
+      ],
+      "endpointRegionIds": [
+        "suiyuan"
+      ]
+    },
+    "japanese-invasion:29": {
+      "regionIds": [
+        "county-guangxi-u9095u5b81u53bf",
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:30": {
+      "regionIds": [
+        "suiyuan"
+      ],
+      "endpointRegionIds": [
+        "suiyuan"
+      ]
+    },
+    "japanese-invasion:31": {
+      "regionIds": [
+        "county-hubei-u5b9cu660cu53bf",
+        "county-hubei-u6b66u660cu53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:32": {
+      "regionIds": [
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "japanese-invasion:33": {
+      "regionIds": [
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi"
+      ]
+    },
+    "japanese-invasion:34": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:35": {
+      "regionIds": [
+        "county-hunan-u5cb3u9633u53bf",
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "japanese-invasion:36": {
+      "regionIds": [
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:37": {
+      "regionIds": [
+        "county-henan-u90d1u53bf",
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "japanese-invasion:38": {
+      "regionIds": [
+        "county-guangdong-u5b9du5b89u53bf",
+        "guangdong",
+        "hongkong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:39": {
+      "regionIds": [
+        "county-hunan-u5cb3u9633u53bf",
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "japanese-invasion:40": {
+      "regionIds": [
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "overseas"
+      ]
+    },
+    "japanese-invasion:41": {
+      "regionIds": [
+        "county-zhejiang-u676du53bf",
+        "county-zhejiang-u8862u53bf",
+        "jiangxi",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang",
+        "jiangxi"
+      ]
+    },
+    "japanese-invasion:42": {
+      "regionIds": [
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "japanese-invasion:43": {
+      "regionIds": [
+        "county-hubei-u5b9cu660cu53bf",
+        "county-hubei-u6c5fu9675u53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:44": {
+      "regionIds": [
+        "county-hubei-u5b9cu660cu53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:45": {
+      "regionIds": [
+        "hubei",
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hubei",
+        "hunan"
+      ]
+    },
+    "japanese-invasion:46": {
+      "regionIds": [
+        "county-guangxi-u5168u53bf",
+        "county-guangxi-u9095u5b81u53bf",
+        "county-henan-u90d1u53bf",
+        "county-hubei-u6b66u660cu53bf",
+        "county-hunan-u5cb3u9633u53bf",
+        "guangxi",
+        "henan",
+        "hubei",
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "henan",
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:47": {
+      "regionIds": [
+        "county-henan-u90d1u53bf",
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "japanese-invasion:48": {
+      "regionIds": [
+        "county-yunnan-u7579u753au9547",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "japanese-invasion:49": {
+      "regionIds": [
+        "county-yunnan-u9f99u9675u53bf",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "japanese-invasion:50": {
+      "regionIds": [
+        "county-hunan-u5cb3u9633u53bf",
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "japanese-invasion:51": {
+      "regionIds": [
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "japanese-invasion:52": {
+      "regionIds": [
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:53": {
+      "regionIds": [
+        "county-hubei-u5149u5316u53bf",
+        "henan",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "henan",
+        "hubei"
+      ]
+    },
+    "japanese-invasion:54": {
+      "regionIds": [
+        "county-hubei-u5149u5316u53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:55": {
+      "regionIds": [
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "japanese-invasion:56": {
+      "regionIds": [
+        "county-liaoning-u9526u53bf",
+        "liaoning",
+        "rehe"
+      ],
+      "endpointRegionIds": [
+        "liaoning",
+        "rehe"
+      ]
+    },
+    "japanese-invasion:57": {
+      "regionIds": [
+        "county-hebei-u4e34u6986u53bf",
+        "county-liaoning-u9526u53bf",
+        "hebei",
+        "liaoning",
+        "rehe"
+      ],
+      "endpointRegionIds": [
+        "rehe",
+        "hebei"
+      ]
+    },
+    "japanese-invasion:58": {
+      "regionIds": [
+        "county-liaoning-u9526u53bf",
+        "liaoning",
+        "rehe"
+      ],
+      "endpointRegionIds": [
+        "rehe"
+      ]
+    },
+    "japanese-invasion:59": {
+      "regionIds": [
+        "chahar",
+        "county-hebei-u5bc6u4e91u53bf",
+        "hebei",
+        "rehe"
+      ],
+      "endpointRegionIds": [
+        "rehe",
+        "hebei"
+      ]
+    },
+    "japanese-invasion:60": {
+      "regionIds": [
+        "county-hebei-u4e34u6986u53bf",
+        "county-hebei-u8fc1u5b89u53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "japanese-invasion:61": {
+      "regionIds": [
+        "chahar",
+        "county-suiyuan-u8fbeu5c14u7f55u65d7",
+        "county-suiyuan-u9676u6797u53bf",
+        "suiyuan"
+      ],
+      "endpointRegionIds": [
+        "chahar",
+        "suiyuan"
+      ]
+    },
+    "japanese-invasion:62": {
+      "regionIds": [
+        "county-guangdong-u743cu5c71u53bf",
+        "guangdong",
+        "hainan",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "overseas",
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:63": {
+      "regionIds": [
+        "county-guangdong-u5d16u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:64": {
+      "regionIds": [
+        "county-guangdong-u660cu6c5fu53bf",
+        "guangdong",
+        "hainan"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:65": {
+      "regionIds": [
+        "jilin"
+      ],
+      "endpointRegionIds": [
+        "jilin"
+      ]
+    },
+    "japanese-invasion:66": {
+      "regionIds": [
+        "heilongjiang",
+        "jilin",
+        "liaoning"
+      ],
+      "endpointRegionIds": [
+        "jilin",
+        "heilongjiang"
+      ]
+    },
+    "japanese-invasion:67": {
+      "regionIds": [
+        "county-jiangsu-u91d1u5c71u53bf",
+        "county-zhejiang-u676du53bf",
+        "jiangsu",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "jiangsu",
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:68": {
+      "regionIds": [
+        "county-shandong-u5386u57ceu53bf",
+        "qingdao",
+        "shandong"
+      ],
+      "endpointRegionIds": [
+        "shandong"
+      ]
+    },
+    "japanese-invasion:69": {
+      "regionIds": [
+        "county-fujian-u53a6u95e8u5e02",
+        "fujian"
+      ],
+      "endpointRegionIds": [
+        "fujian"
+      ]
+    },
+    "japanese-invasion:70": {
+      "regionIds": [
+        "county-guangdong-u4e1cu839eu53bf",
+        "county-guangdong-u5b9du5b89u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:71": {
+      "regionIds": [
+        "county-guangdong-u6c55u5934u5e02",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:72": {
+      "regionIds": [
+        "county-guangdong-u6f6eu5b89u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:73": {
+      "regionIds": [
+        "county-guangxi-u9095u5b81u53bf",
+        "guangxi",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "guangxi",
+        "overseas"
+      ]
+    },
+    "japanese-invasion:74": {
+      "regionIds": [
+        "county-zhejiang-u676du53bf",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:75": {
+      "regionIds": [
+        "county-zhejiang-u911eu53bf",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:76": {
+      "regionIds": [
+        "county-zhejiang-u6c38u5609u53bf",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:77": {
+      "regionIds": [
+        "county-fujian-u95fdu4fafu53bf",
+        "fujian"
+      ],
+      "endpointRegionIds": [
+        "fujian"
+      ]
+    },
+    "japanese-invasion:78": {
+      "regionIds": [
+        "county-yunnan-u7579u753au9547",
+        "county-yunnan-u9f99u9675u53bf",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "japanese-invasion:79": {
+      "regionIds": [
+        "county-fujian-u95fdu4fafu53bf",
+        "fujian"
+      ],
+      "endpointRegionIds": [
+        "fujian"
+      ]
+    },
+    "japanese-invasion:80": {
+      "regionIds": [
+        "guangxi",
+        "guizhou"
+      ],
+      "endpointRegionIds": [
+        "guangxi",
+        "guizhou"
+      ]
+    },
+    "japanese-invasion:81": {
+      "regionIds": [
+        "county-guangdong-u6d77u5eb7u53bf",
+        "county-guangdong-u9042u6eaau53bf",
+        "guangdong",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "overseas",
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:82": {
+      "regionIds": [
+        "county-guangdong-u66f2u6c5fu53bf",
+        "county-jiangxi-u5927u5ebeu53bf",
+        "county-jiangxi-u8d63u53bf",
+        "guangdong",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "guangdong",
+        "jiangxi"
+      ]
+    },
+    "japanese-invasion:83": {
+      "regionIds": [
+        "county-jiangxi-u8d63u53bf",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi"
+      ]
+    },
+    "japanese-invasion:84": {
+      "regionIds": [
+        "county-zhejiang-u6c38u5609u53bf",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:85": {
+      "regionIds": [
+        "county-zhejiang-u6c38u5609u53bf",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:86": {
+      "regionIds": [
+        "chahar",
+        "county-chahar-u4e07u5168u53bf",
+        "county-hebei-u660cu5e73u53bf",
+        "hebei",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "hebei",
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:87": {
+      "regionIds": [
+        "beiping",
+        "county-hebei-u5b9au53bf",
+        "county-hebei-u6e05u82d1u53bf",
+        "county-hebei-u77f3u95e8u5e02",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "japanese-invasion:88": {
+      "regionIds": [
+        "county-hebei-u77f3u95e8u5e02",
+        "county-shanxi-u5e73u5b9au53bf",
+        "county-shanxi-u9633u66f2u53bf",
+        "hebei",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "hebei",
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:89": {
+      "regionIds": [
+        "shanxi",
+        "suiyuan"
+      ],
+      "endpointRegionIds": [
+        "shanxi",
+        "suiyuan"
+      ]
+    },
+    "japanese-invasion:90": {
+      "regionIds": [
+        "county-guangdong-u5d16u53bf",
+        "guangdong",
+        "hainan"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:91": {
+      "regionIds": [
+        "county-guangdong-u5d16u53bf",
+        "guangdong",
+        "hainan",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:92": {
+      "regionIds": [
+        "guangdong",
+        "hainan",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "overseas",
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:93": {
+      "regionIds": [
+        "guangdong",
+        "hainan"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:94": {
+      "regionIds": [
+        "guangdong",
+        "hainan"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:95": {
+      "regionIds": [
+        "guangdong",
+        "hainan",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "guangdong",
+        "overseas"
+      ]
+    },
+    "japanese-invasion:96": {
+      "regionIds": [
+        "guangdong",
+        "hainan",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:97": {
+      "regionIds": [
+        "county-guangdong-u5d16u53bf",
+        "guangdong",
+        "hainan"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:98": {
+      "regionIds": [
+        "county-guangdong-u743cu4e1cu53bf",
+        "guangdong",
+        "hainan"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:99": {
+      "regionIds": [
+        "guangdong",
+        "hainan"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:100": {
+      "regionIds": [
+        "county-guangdong-u743cu4e1cu53bf",
+        "guangdong",
+        "hainan"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:101": {
+      "regionIds": [
+        "guangdong",
+        "hainan"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:102": {
+      "regionIds": [
+        "guangdong",
+        "hainan"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:103": {
+      "regionIds": [
+        "guangdong",
+        "hainan"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:104": {
+      "regionIds": [
+        "guangdong",
+        "hainan"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:105": {
+      "regionIds": [
+        "county-guangdong-u60e0u9633u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:106": {
+      "regionIds": [
+        "county-guangdong-u60e0u9633u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:107": {
+      "regionIds": [
+        "county-guangdong-u60e0u9633u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:108": {
+      "regionIds": [
+        "county-guangdong-u60e0u9633u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:109": {
+      "regionIds": [
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:110": {
+      "regionIds": [
+        "county-guangdong-u4e1cu839eu53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:111": {
+      "regionIds": [
+        "county-guangdong-u4e1cu839eu53bf",
+        "county-guangdong-u5357u6d77u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:112": {
+      "regionIds": [
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:113": {
+      "regionIds": [
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:114": {
+      "regionIds": [
+        "county-guangdong-u5357u6d77u53bf",
+        "county-guangdong-u65b0u4f1au53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:115": {
+      "regionIds": [
+        "county-guangdong-u4e2du5c71u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:116": {
+      "regionIds": [
+        "county-guangdong-u4e2du5c71u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:117": {
+      "regionIds": [
+        "county-guangdong-u6f6eu5b89u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:118": {
+      "regionIds": [
+        "county-guangdong-u5357u6fb3u53bf",
+        "guangdong",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "overseas"
+      ]
+    },
+    "japanese-invasion:119": {
+      "regionIds": [
+        "county-guangdong-u4e1cu839eu53bf",
+        "county-guangdong-u5b9du5b89u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:120": {
+      "regionIds": [
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:121": {
+      "regionIds": [
+        "county-guangdong-u589eu57ceu53bf",
+        "county-guangdong-u65b0u4e30u53bf",
+        "county-guangdong-u9f99u95e8u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:122": {
+      "regionIds": [
+        "county-guangdong-u4eceu5316u53bf",
+        "county-guangdong-u65b0u4e30u53bf",
+        "county-guangdong-u7fc1u6e90u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:123": {
+      "regionIds": [
+        "county-guangdong-u4eceu5316u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:124": {
+      "regionIds": [
+        "county-guangdong-u4eceu5316u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:125": {
+      "regionIds": [
+        "county-guangdong-u589eu57ceu53bf",
+        "county-guangdong-u65b0u4e30u53bf",
+        "county-guangdong-u9f99u95e8u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:126": {
+      "regionIds": [
+        "county-guangdong-u4eceu5316u53bf",
+        "county-guangdong-u7fc1u6e90u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:127": {
+      "regionIds": [
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:128": {
+      "regionIds": [
+        "county-guangdong-u4eceu5316u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:129": {
+      "regionIds": [
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "kmt-forces:1": {
+      "regionIds": [
+        "beiping",
+        "county-hebei-u6e05u82d1u53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "kmt-forces:2": {
+      "regionIds": [
+        "beiping",
+        "county-hebei-u660cu5e73u53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "kmt-forces:3": {
+      "regionIds": [
+        "county-zhejiang-u676du53bf",
+        "jiangsu",
+        "nanjing",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "jiangsu",
+        "zhejiang"
+      ]
+    },
+    "kmt-forces:4": {
+      "regionIds": [
+        "county-hebei-u5b9au53bf",
+        "county-hebei-u6e05u82d1u53bf",
+        "county-hebei-u77f3u95e8u5e02",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "kmt-forces:5": {
+      "regionIds": [
+        "county-shanxi-u5ffbu53bf",
+        "county-shanxi-u9633u66f2u53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "kmt-forces:6": {
+      "regionIds": [
+        "jiangsu",
+        "shanghai"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "kmt-forces:7": {
+      "regionIds": [
+        "county-shaanxi-u80a4u65bdu53bf",
+        "county-shanxi-u9633u66f2u53bf",
+        "shaanxi",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shaanxi",
+        "shanxi"
+      ]
+    },
+    "kmt-forces:8": {
+      "regionIds": [
+        "county-jiangsu-u90b3u53bf",
+        "county-jiangsu-u94dcu5c71u53bf",
+        "county-shandong-u5cc4u53bf",
+        "jiangsu",
+        "shandong"
+      ],
+      "endpointRegionIds": [
+        "jiangsu",
+        "shandong"
+      ]
+    },
+    "kmt-forces:9": {
+      "regionIds": [
+        "county-hunan-u5cb3u9633u53bf",
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "kmt-forces:10": {
+      "regionIds": [
+        "county-jiangsu-u94dcu5c71u53bf",
+        "jiangsu",
+        "shandong"
+      ],
+      "endpointRegionIds": [
+        "jiangsu",
+        "shandong"
+      ]
+    },
+    "kmt-forces:11": {
+      "regionIds": [
+        "anhui",
+        "county-hubei-u6b66u660cu53bf",
+        "county-jiangsu-u94dcu5c71u53bf",
+        "guizhou",
+        "henan",
+        "hubei",
+        "hunan",
+        "jiangsu",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan",
+        "jiangsu"
+      ]
+    },
+    "kmt-forces:12": {
+      "regionIds": [
+        "anhui",
+        "county-jiangsu-u94dcu5c71u53bf",
+        "henan",
+        "hubei",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu",
+        "hubei"
+      ]
+    },
+    "kmt-forces:13": {
+      "regionIds": [
+        "county-guangxi-u9095u5b81u53bf",
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "kmt-forces:14": {
+      "regionIds": [
+        "suiyuan"
+      ],
+      "endpointRegionIds": [
+        "suiyuan"
+      ]
+    },
+    "kmt-forces:15": {
+      "regionIds": [
+        "hunan",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "hunan",
+        "jiangxi"
+      ]
+    },
+    "kmt-forces:16": {
+      "regionIds": [
+        "county-yunnan-u9f99u9675u53bf",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "kmt-forces:17": {
+      "regionIds": [
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "kmt-forces:18": {
+      "regionIds": [
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "kmt-forces:19": {
+      "regionIds": [
+        "guangxi",
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan",
+        "guangxi"
+      ]
+    },
+    "kmt-forces:20": {
+      "regionIds": [
+        "county-hebei-u4e34u6986u53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "kmt-forces:21": {
+      "regionIds": [
+        "county-hebei-u8fc1u5b89u53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "kmt-forces:22": {
+      "regionIds": [
+        "county-hebei-u5bc6u4e91u53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "kmt-forces:23": {
+      "regionIds": [
+        "county-suiyuan-u9676u6797u53bf",
+        "suiyuan"
+      ],
+      "endpointRegionIds": [
+        "suiyuan"
+      ]
+    },
+    "kmt-forces:24": {
+      "regionIds": [
+        "county-suiyuan-u8fbeu5c14u7f55u65d7",
+        "suiyuan"
+      ],
+      "endpointRegionIds": [
+        "suiyuan"
+      ]
+    },
+    "kmt-forces:25": {
+      "regionIds": [
+        "liaoning"
+      ],
+      "endpointRegionIds": [
+        "liaoning"
+      ]
+    },
+    "kmt-forces:26": {
+      "regionIds": [
+        "jiangsu",
+        "shanghai"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "kmt-forces:27": {
+      "regionIds": [
+        "county-henan-u90d1u53bf",
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "kmt-forces:28": {
+      "regionIds": [
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "kmt-forces:29": {
+      "regionIds": [
+        "hunan",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "hunan",
+        "jiangxi"
+      ]
+    },
+    "kmt-forces:30": {
+      "regionIds": [
+        "county-hunan-u5cb3u9633u53bf",
+        "hunan",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi",
+        "hunan"
+      ]
+    },
+    "kmt-forces:31": {
+      "regionIds": [
+        "county-hunan-u5cb3u9633u53bf",
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "kmt-forces:32": {
+      "regionIds": [
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "kmt-forces:33": {
+      "regionIds": [
+        "county-guangxi-u5168u53bf",
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "kmt-forces:34": {
+      "regionIds": [
+        "county-guangxi-u9095u5b81u53bf",
+        "guangxi",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "guangxi",
+        "yunnan"
+      ]
+    },
+    "kmt-forces:35": {
+      "regionIds": [
+        "county-yunnan-u9f99u9675u53bf",
+        "overseas",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan",
+        "overseas"
+      ]
+    },
+    "kmt-forces:36": {
+      "regionIds": [
+        "county-yunnan-u7579u753au9547",
+        "county-yunnan-u9f99u9675u53bf",
+        "overseas",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "overseas",
+        "yunnan"
+      ]
+    },
+    "kmt-forces:37": {
+      "regionIds": [
+        "county-hubei-u5b9cu660cu53bf",
+        "county-hubei-u6b66u660cu53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "kmt-forces:38": {
+      "regionIds": [
+        "county-hubei-u5b9cu660cu53bf",
+        "hubei",
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hubei",
+        "hunan"
+      ]
+    },
+    "kmt-forces:39": {
+      "regionIds": [
+        "chongqing",
+        "guizhou",
+        "hunan",
+        "sichuan",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan",
+        "hunan"
+      ]
+    },
+    "kmt-forces:40": {
+      "regionIds": [
+        "county-shanxi-u5e73u5b9au53bf",
+        "county-shanxi-u9633u66f2u53bf",
+        "gansu",
+        "shaanxi",
+        "shanxi",
+        "sichuan",
+        "xian"
+      ],
+      "endpointRegionIds": [
+        "sichuan",
+        "shanxi"
+      ]
+    },
+    "kmt-forces:41": {
+      "regionIds": [
+        "anhui",
+        "county-henan-u90d1u53bf",
+        "county-jiangsu-u94dcu5c71u53bf",
+        "county-shandong-u5cc4u53bf",
+        "county-shanxi-u5e73u5b9au53bf",
+        "hebei",
+        "henan",
+        "jiangsu",
+        "shandong",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi",
+        "shandong"
+      ]
+    },
+    "kmt-forces:42": {
+      "regionIds": [
+        "anhui",
+        "chongqing",
+        "county-hubei-u5b9cu660cu53bf",
+        "county-hubei-u6b66u660cu53bf",
+        "hubei",
+        "jiangsu",
+        "shanghai",
+        "sichuan",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "sichuan",
+        "jiangsu"
+      ]
+    },
+    "kmt-forces:43": {
+      "regionIds": [
+        "anhui",
+        "county-hubei-u6b66u660cu53bf",
+        "county-jiangsu-u6cf0u5174u53bf",
+        "county-jiangsu-u94dcu5c71u53bf",
+        "guangxi",
+        "henan",
+        "hubei",
+        "hunan",
+        "jiangsu",
+        "shanghai"
+      ],
+      "endpointRegionIds": [
+        "guangxi",
+        "jiangsu"
+      ]
+    },
+    "kmt-forces:44": {
+      "regionIds": [
+        "anhui",
+        "jiangsu",
+        "nanjing",
+        "shanghai"
+      ],
+      "endpointRegionIds": [
+        "jiangsu",
+        "anhui"
+      ]
+    },
+    "kmt-forces:45": {
+      "regionIds": [
+        "county-fujian-u95fdu4fafu53bf",
+        "county-zhejiang-u676du53bf",
+        "fujian",
+        "jiangsu",
+        "shanghai",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "jiangsu",
+        "fujian"
+      ]
+    },
+    "kmt-forces:46": {
+      "regionIds": [
+        "jiangsu",
+        "nanjing",
+        "shanghai"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "kmt-forces:47": {
+      "regionIds": [
+        "anhui",
+        "henan",
+        "jiangsu",
+        "nanjing"
+      ],
+      "endpointRegionIds": [
+        "jiangsu",
+        "henan"
+      ]
+    },
+    "kmt-forces:48": {
+      "regionIds": [
+        "county-hubei-u6b66u660cu53bf",
+        "county-jiangxi-u5fb7u5b89u53bf",
+        "henan",
+        "hubei",
+        "jiangxi",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "henan",
+        "jiangxi"
+      ]
+    },
+    "kmt-forces:49": {
+      "regionIds": [
+        "county-jiangxi-u5fb7u5b89u53bf",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi"
+      ]
+    },
+    "kmt-forces:50": {
+      "regionIds": [
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "overseas"
+      ]
+    },
+    "kmt-forces:51": {
+      "regionIds": [
+        "county-jiangsu-u90b3u53bf",
+        "county-jiangsu-u94dcu5c71u53bf",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "kmt-forces:52": {
+      "regionIds": [
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi"
+      ]
+    },
+    "kmt-forces:53": {
+      "regionIds": [
+        "hunan",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi",
+        "hunan"
+      ]
+    },
+    "kmt-forces:54": {
+      "regionIds": [
+        "anhui",
+        "county-anhui-u6000u5b81u53bf",
+        "county-hubei-u6b66u660cu53bf",
+        "hubei",
+        "jiangsu",
+        "nanjing",
+        "shanghai"
+      ],
+      "endpointRegionIds": [
+        "jiangsu",
+        "hubei"
+      ]
+    },
+    "kmt-forces:55": {
+      "regionIds": [
+        "anhui",
+        "county-hubei-u6b66u660cu53bf",
+        "county-jiangsu-u90b3u53bf",
+        "county-jiangsu-u94dcu5c71u53bf",
+        "henan",
+        "hubei",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu",
+        "hubei"
+      ]
+    },
+    "kmt-forces:56": {
+      "regionIds": [
+        "county-hubei-u6b66u660cu53bf",
+        "hubei",
+        "jiangxi",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "hubei",
+        "jiangxi"
+      ]
+    },
+    "kmt-forces:57": {
+      "regionIds": [
+        "guizhou",
+        "hunan",
+        "jiangxi",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "jiangxi",
+        "yunnan"
+      ]
+    },
+    "kmt-forces:58": {
+      "regionIds": [
+        "overseas",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan",
+        "overseas"
+      ]
+    },
+    "kmt-forces:59": {
+      "regionIds": [
+        "guizhou",
+        "hunan",
+        "jiangxi",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan",
+        "jiangxi"
+      ]
+    },
+    "kmt-forces:60": {
+      "regionIds": [
+        "hubei",
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan",
+        "hubei"
+      ]
+    },
+    "kmt-forces:61": {
+      "regionIds": [
+        "hunan",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi",
+        "hunan"
+      ]
+    },
+    "kmt-forces:62": {
+      "regionIds": [
+        "hubei",
+        "hunan",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "hubei",
+        "jiangxi"
+      ]
+    },
+    "kmt-forces:63": {
+      "regionIds": [
+        "county-henan-u90d1u53bf",
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "kmt-forces:64": {
+      "regionIds": [
+        "county-hubei-u5b9cu660cu53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "kmt-forces:65": {
+      "regionIds": [
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "kmt-forces:68": {
+      "regionIds": [
+        "county-hebei-u8fc1u5b89u53bf",
+        "county-hebei-u9075u5316u53bf",
+        "hebei",
+        "rehe"
+      ],
+      "endpointRegionIds": [
+        "hebei",
+        "rehe"
+      ]
+    },
+    "kmt-forces:69": {
+      "regionIds": [
+        "county-hebei-u8fc1u5b89u53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "kmt-group-armies:1": {
+      "regionIds": [
+        "jiangsu",
+        "shanghai"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "kmt-group-armies:2": {
+      "regionIds": [
+        "county-shanxi-u5ffbu53bf",
+        "county-shanxi-u7075u4e18u53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "kmt-group-armies:3": {
+      "regionIds": [
+        "county-shanxi-u5ffbu53bf",
+        "county-shanxi-u9633u66f2u53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "kmt-group-armies:4": {
+      "regionIds": [
+        "county-jiangsu-u90b3u53bf",
+        "county-jiangsu-u94dcu5c71u53bf",
+        "county-shandong-u5cc4u53bf",
+        "jiangsu",
+        "shandong"
+      ],
+      "endpointRegionIds": [
+        "jiangsu",
+        "shandong"
+      ]
+    },
+    "kmt-group-armies:5": {
+      "regionIds": [
+        "county-jiangsu-u94dcu5c71u53bf",
+        "county-shandong-u5cc4u53bf",
+        "jiangsu",
+        "shandong"
+      ],
+      "endpointRegionIds": [
+        "jiangsu",
+        "shandong"
+      ]
+    },
+    "kmt-group-armies:6": {
+      "regionIds": [
+        "henan",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "henan",
+        "hubei"
+      ]
+    },
+    "kmt-group-armies:7": {
+      "regionIds": [
+        "county-hubei-u6b66u660cu53bf",
+        "hubei",
+        "jiangxi",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "hubei",
+        "jiangxi"
+      ]
+    },
+    "kmt-group-armies:8": {
+      "regionIds": [
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi"
+      ]
+    },
+    "kmt-group-armies:9": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "kmt-group-armies:10": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "kmt-group-armies:11": {
+      "regionIds": [
+        "anhui"
+      ],
+      "endpointRegionIds": [
+        "anhui"
+      ]
+    },
+    "kmt-group-armies:12": {
+      "regionIds": [
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi"
+      ]
+    },
+    "kmt-group-armies:13": {
+      "regionIds": [
+        "henan",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "henan",
+        "hubei"
+      ]
+    },
+    "kmt-group-armies:14": {
+      "regionIds": [
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "kmt-group-armies:15": {
+      "regionIds": [
+        "hunan",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi",
+        "hunan"
+      ]
+    },
+    "kmt-group-armies:16": {
+      "regionIds": [
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "kmt-group-armies:17": {
+      "regionIds": [
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "kmt-group-armies:18": {
+      "regionIds": [
+        "county-guangdong-u4eceu5316u53bf",
+        "county-guangdong-u66f2u6c5fu53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "kmt-group-armies:19": {
+      "regionIds": [
+        "anhui"
+      ],
+      "endpointRegionIds": [
+        "anhui"
+      ]
+    },
+    "kmt-group-armies:20": {
+      "regionIds": [
+        "county-guangxi-u9095u5b81u53bf",
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "kmt-group-armies:21": {
+      "regionIds": [
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "kmt-group-armies:22": {
+      "regionIds": [
+        "suiyuan"
+      ],
+      "endpointRegionIds": [
+        "suiyuan"
+      ]
+    },
+    "kmt-group-armies:23": {
+      "regionIds": [
+        "suiyuan"
+      ],
+      "endpointRegionIds": [
+        "suiyuan"
+      ]
+    },
+    "kmt-group-armies:24": {
+      "regionIds": [
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "kmt-group-armies:25": {
+      "regionIds": [
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "kmt-group-armies:26": {
+      "regionIds": [
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "kmt-group-armies:27": {
+      "regionIds": [
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi"
+      ]
+    },
+    "kmt-group-armies:28": {
+      "regionIds": [
+        "henan",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "henan",
+        "shanxi"
+      ]
+    },
+    "kmt-group-armies:29": {
+      "regionIds": [
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "kmt-group-armies:30": {
+      "regionIds": [
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "kmt-group-armies:31": {
+      "regionIds": [
+        "county-henan-u90d1u53bf",
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "kmt-group-armies:32": {
+      "regionIds": [
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "kmt-group-armies:33": {
+      "regionIds": [
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "kmt-group-armies:34": {
+      "regionIds": [
+        "anhui",
+        "jiangxi",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "anhui",
+        "jiangxi"
+      ]
+    },
+    "kmt-group-armies:35": {
+      "regionIds": [
+        "county-zhejiang-u8862u53bf",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "kmt-group-armies:36": {
+      "regionIds": [
+        "county-zhejiang-u8862u53bf",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "kmt-group-armies:37": {
+      "regionIds": [
+        "county-hebei-u6d89u53bf",
+        "hebei",
+        "henan",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "henan",
+        "shanxi"
+      ]
+    },
+    "kmt-group-armies:38": {
+      "regionIds": [
+        "county-hubei-u5b9cu660cu53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "kmt-group-armies:39": {
+      "regionIds": [
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "kmt-group-armies:40": {
+      "regionIds": [
+        "county-henan-u90d1u53bf",
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "kmt-group-armies:41": {
+      "regionIds": [
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "kmt-group-armies:42": {
+      "regionIds": [
+        "county-yunnan-u9f99u9675u53bf",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "kmt-group-armies:43": {
+      "regionIds": [
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "kmt-group-armies:44": {
+      "regionIds": [
+        "county-yunnan-u9f99u9675u53bf",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "kmt-group-armies:45": {
+      "regionIds": [
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "kmt-group-armies:46": {
+      "regionIds": [
+        "county-hubei-u5149u5316u53bf",
+        "henan",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "henan",
+        "hubei"
+      ]
+    },
+    "kmt-group-armies:47": {
+      "regionIds": [
+        "county-hubei-u5149u5316u53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "kmt-group-armies:48": {
+      "regionIds": [
+        "jiangsu",
+        "shandong"
+      ],
+      "endpointRegionIds": [
+        "shandong"
+      ]
+    },
+    "kmt-group-armies:49": {
+      "regionIds": [
+        "anhui",
+        "county-jiangsu-u90b3u53bf",
+        "county-shandong-u5cc4u53bf",
+        "henan",
+        "hubei",
+        "jiangsu",
+        "shandong"
+      ],
+      "endpointRegionIds": [
+        "shandong",
+        "hubei"
+      ]
+    },
+    "kmt-group-armies:50": {
+      "regionIds": [
+        "county-hubei-u5b9cu57ceu53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "kmt-group-armies:54": {
+      "regionIds": [
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "kmt-group-armies:66": {
+      "regionIds": [
+        "county-yunnan-u7579u753au9547",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "kmt-group-armies:67": {
+      "regionIds": [
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "new-fourth-army:1": {
+      "regionIds": [
+        "anhui",
+        "county-anhui-u6000u5b81u53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei",
+        "anhui"
+      ]
+    },
+    "new-fourth-army:2": {
+      "regionIds": [
+        "county-jiangsu-u6cf0u5174u53bf",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "new-fourth-army:3": {
+      "regionIds": [
+        "anhui"
+      ],
+      "endpointRegionIds": [
+        "anhui"
+      ]
+    },
+    "south-china-guerrillas:1": {
+      "regionIds": [
+        "guangdong",
+        "hainan",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "overseas"
+      ]
+    },
+    "south-china-guerrillas:2": {
+      "regionIds": [
+        "county-guangdong-u5b9du5b89u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:3": {
+      "regionIds": [
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:4": {
+      "regionIds": [
+        "guangdong",
+        "hainan",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "overseas",
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:5": {
+      "regionIds": [
+        "county-guangdong-u743cu4e1cu53bf",
+        "guangdong",
+        "hainan",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "overseas",
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:6": {
+      "regionIds": [
+        "county-guangdong-u4e2du5c71u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:7": {
+      "regionIds": [
+        "guangdong",
+        "hongkong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:8": {
+      "regionIds": [
+        "guangdong",
+        "hongkong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:9": {
+      "regionIds": [
+        "guangdong",
+        "hainan",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "overseas",
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:10": {
+      "regionIds": [
+        "county-guangdong-u4fddu4eadu53bf",
+        "guangdong",
+        "hainan"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:11": {
+      "regionIds": [
+        "county-guangdong-u4e2du5c71u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:12": {
+      "regionIds": [
+        "county-guangdong-u660cu6c5fu53bf",
+        "guangdong",
+        "hainan"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:13": {
+      "regionIds": [
+        "county-guangdong-u6f6eu5b89u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:14": {
+      "regionIds": [
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:15": {
+      "regionIds": [
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:16": {
+      "regionIds": [
+        "guangdong",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:17": {
+      "regionIds": [
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:18": {
+      "regionIds": [
+        "county-guangdong-u60e0u9633u53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:19": {
+      "regionIds": [
+        "county-guangdong-u4e2du5c71u53bf",
+        "county-guangdong-u65b0u4f1au53bf",
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:20": {
+      "regionIds": [
+        "guangdong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:21": {
+      "regionIds": [
+        "guangdong",
+        "hainan"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:22": {
+      "regionIds": [
+        "guangdong",
+        "hainan"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    },
+    "south-china-guerrillas:23": {
+      "regionIds": [
+        "guangdong",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
+      ]
+    }
+  }
+}

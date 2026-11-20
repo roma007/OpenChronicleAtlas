@@ -3,6 +3,33 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.164] - 2026-11-20
+
+### Added
+- 抗日战争专题支持按地区浏览：省 / 院辖市 → 县市 / 地点，Web 图例与移动端筛选面板均可多选、搜索、清除。
+- 新增 1931、1932—1937、1938—1944、1945 四张历史省界示意面（只描边、不填充）；选中省高亮，选中县/地点时高亮其所属省；低缩放隐藏省名，减少与高德底图标签重叠。
+- 新增 `regions.json`（426 个地区：30 省 + 8 院辖市 + 海外 + 189 县 + 198 地点）与 `region-index.json`（529 事件 / 308 路线归属），由 `scripts/build-region-data.py` 构建。
+- 跨省路线不裁剪，整条保留；放大到 6 级后按屏幕空间避让显示起点、终点标签。
+- 分享链接新增 `regions` 参数，可复现地区筛选。
+- 新增 `pnpm validate:data` 中的地区索引检查：事件/路线归属完整、所有 id 存在、父子关系有效。
+
+### Changed
+- Schema 升至 **1.2.0**：新增可选 `manifest.regions`、`manifest.regionIndex`、`event.location.regionIds`、`route.properties.regionIds`、`route.properties.endpointRegionIds`；旧客户端忽略后仍可加载。
+- 选区语义改为“最具体者优先”：同时选中省和县时，只保留县，避免按县筛选退化为按省筛选。
+- 省界数据来自江山时序 `region` 图层（GPL-3.0，手工绘制示意）；未使用 CHGIS 的 `prefecture` 图层，不绘制县界。
+
+### Docs
+- 新增 M209 design/plan、ADR-0011、Schema v1.2.0、`data/atlases/ATTRIBUTION.md` 抗日战争专节。
+- 说明县级地界缺失的原因与“地点”层级口径；历史省界为示意，不是精确勘界。
+
+### Verify
+- `pnpm validate:data`：529 事件 / 308 路线段；地区索引 426 个地区（39 个一级），归属完整；全库 1323 / 791。
+- `pnpm check:regions`（并入 `validate:data`）：通过。
+- `pnpm typecheck`、`pnpm lint`、`pnpm test`、`build:search-index`、`build:mobile-data` 全部通过。
+- 手工验收：选河北、清苑县、上海、海外，事件数分别正确；跨省路线整条保留；省界可开关。
+
+---
+
 ## [v1.0.163] - 2026-11-20
 
 ### Fixed

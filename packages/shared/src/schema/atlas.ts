@@ -74,11 +74,61 @@ export const manifestSchema = z
     routes: z.array(z.string()).min(1),
     events: z.array(z.string()).min(1),
     territories: z.array(z.string()).optional(),
+    regions: z.string().min(1).optional(),
+    regionIndex: z.string().min(1).optional(),
     entities: z.array(entitySchema).min(1),
     tags: z.array(z.string()).optional(),
     license: z.string().optional(),
     updatedAt: dateStringSchema.optional(),
     extensions: z.record(z.unknown()).optional(),
+  })
+  .passthrough();
+
+export const regionLevelSchema = z.enum([
+  'province',
+  'municipality',
+  'county',
+  'place',
+  'overseas',
+]);
+
+export const regionSchema = z
+  .object({
+    id: z.string().regex(/^[a-z0-9][a-z0-9-]*$/, '地区 id 只能包含小写字母、数字、连字符'),
+    level: regionLevelSchema,
+    parentId: z.string().nullable(),
+    name: localizedStringSchema,
+    shortName: localizedStringSchema.optional(),
+    aliases: z.array(z.string().min(1)).optional(),
+    modernName: localizedStringSchema.optional(),
+    validFrom: dateStringSchema.optional(),
+    validTo: dateStringSchema.optional(),
+    point: z
+      .tuple([z.number().min(-180).max(180), z.number().min(-85).max(85)])
+      .optional(),
+    extensions: z.record(z.unknown()).optional(),
+  })
+  .passthrough();
+
+export const regionFileSchema = z
+  .object({
+    schemaVersion: z.string().regex(/^\d+\.\d+\.\d+$/),
+    frame: z.string().min(1),
+    regions: z.array(regionSchema).min(1),
+  })
+  .passthrough();
+
+export const regionIndexSchema = z
+  .object({
+    schemaVersion: z.string().regex(/^\d+\.\d+\.\d+$/),
+    generatedAt: dateStringSchema.optional(),
+    events: z.record(z.array(z.string())),
+    routes: z.record(
+      z.object({
+        regionIds: z.array(z.string()),
+        endpointRegionIds: z.array(z.string()).optional(),
+      }),
+    ),
   })
   .passthrough();
 
@@ -102,6 +152,8 @@ export const routeFeatureSchema = z
         labelPoint: z
           .tuple([z.number().min(-180).max(180), z.number().min(-85).max(85)])
           .optional(),
+        regionIds: z.array(z.string()).optional(),
+        endpointRegionIds: z.array(z.string()).optional(),
         extensions: z.record(z.unknown()).optional(),
       })
       .passthrough(),
@@ -170,6 +222,7 @@ export const eventSchema = z
       lng: z.number().min(-180).max(180),
       lat: z.number().min(-85).max(85),
       place: localizedStringSchema.optional(),
+      regionIds: z.array(z.string()).optional(),
     }),
     entityIds: z.array(z.string()).min(1),
     category: z.string().min(1),

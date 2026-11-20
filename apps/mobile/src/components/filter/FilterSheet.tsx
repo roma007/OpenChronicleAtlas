@@ -21,6 +21,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { colors, radii, spacing } from '../../theme';
 import { useI18n } from '../../hooks/useI18n';
+import { RegionFilter } from './RegionFilter';
 
 interface FilterSheetProps {
   visible: boolean;
@@ -35,6 +36,8 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
   const setFilters = useAtlasStore((state) => state.setFilters);
   const toggleCategory = useAtlasStore((state) => state.toggleCategory);
   const resetFilters = useAtlasStore((state) => state.resetFilters);
+  const showAdminBoundaries = useAtlasStore((state) => state.showAdminBoundaries);
+  const toggleAdminBoundaries = useAtlasStore((state) => state.toggleAdminBoundaries);
   const { locale, t } = useI18n();
 
   const [fromDraft, setFromDraft] = useState(filters.from ?? '');
@@ -135,6 +138,25 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
                 </Text>
               ))}
             </>
+          ) : null}
+
+          <View style={styles.divider} />
+
+          <RegionFilter />
+
+          {dataset.territories.some(
+            (feature) => feature.properties.extensions?.kind === 'admin-boundary',
+          ) ? (
+            <Pressable
+              style={styles.adminToggle}
+              onPress={toggleAdminBoundaries}
+              accessibilityRole="button"
+              accessibilityState={{ selected: showAdminBoundaries }}
+            >
+              <Text style={[styles.adminToggleText, showAdminBoundaries && styles.adminToggleActive]}>
+                {t('legend.adminBoundaries')} · {t(showAdminBoundaries ? 'legend.on' : 'legend.off')}
+              </Text>
+            </Pressable>
           ) : null}
 
           <View style={styles.divider} />
@@ -281,6 +303,17 @@ const styles = StyleSheet.create({
   },
   segmentLabel: { fontSize: 12, color: colors.inkSoft },
   divider: { height: 1, backgroundColor: colors.ink + '12', marginVertical: spacing.md },
+  adminToggle: {
+    marginTop: spacing.xs,
+    borderWidth: 1,
+    borderColor: colors.ink + '18',
+    borderRadius: radii.sm,
+    paddingHorizontal: 10,
+    paddingVertical: 7,
+    alignSelf: 'flex-start',
+  },
+  adminToggleText: { fontSize: 11, color: colors.inkSoft },
+  adminToggleActive: { color: colors.cinnabar },
   chips: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm, marginTop: spacing.sm },
   chip: {
     borderWidth: 1,

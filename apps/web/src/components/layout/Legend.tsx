@@ -8,6 +8,7 @@ import {
 } from '@atlas/shared';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { useI18n } from '../../hooks/useI18n';
+import { RegionFilter } from './RegionFilter';
 
 interface LegendProps {
   className?: string;
@@ -21,6 +22,8 @@ export function Legend({ className = '' }: LegendProps) {
   const showAllEntities = useAtlasStore((state) => state.showAllEntities);
   const showTerritories = useAtlasStore((state) => state.showTerritories);
   const toggleTerritories = useAtlasStore((state) => state.toggleTerritories);
+  const showAdminBoundaries = useAtlasStore((state) => state.showAdminBoundaries);
+  const toggleAdminBoundaries = useAtlasStore((state) => state.toggleAdminBoundaries);
   const filters = useAtlasStore((state) => state.filters);
   const setFilters = useAtlasStore((state) => state.setFilters);
   const toggleCategory = useAtlasStore((state) => state.toggleCategory);
@@ -68,7 +71,10 @@ export function Legend({ className = '' }: LegendProps) {
     event.entityIds.some((entityId) => activeEntityIds.has(entityId)),
   );
   const hasFilters =
-    filters.categories.length > 0 || Boolean(filters.from) || Boolean(filters.to);
+    filters.categories.length > 0 ||
+    filters.regionIds.length > 0 ||
+    Boolean(filters.from) ||
+    Boolean(filters.to);
   const allEntitiesActive = entities.every((entity) => activeEntityIds.has(entity.id));
 
   return (
@@ -89,7 +95,9 @@ export function Legend({ className = '' }: LegendProps) {
         </button>
       </div>
 
-      {dataset.territories.length > 0 ? (
+      {dataset.territories.some(
+        (feature) => feature.properties.extensions?.kind !== 'admin-boundary',
+      ) ? (
         <button
           type="button"
           aria-pressed={showTerritories}
@@ -114,6 +122,33 @@ export function Legend({ className = '' }: LegendProps) {
           </span>
         </button>
       ) : null}
+
+      {dataset.territories.some(
+        (feature) => feature.properties.extensions?.kind === 'admin-boundary',
+      ) ? (
+        <button
+          type="button"
+          aria-pressed={showAdminBoundaries}
+          onClick={toggleAdminBoundaries}
+          className={`mt-2 flex w-full items-center gap-2.5 rounded-lg border px-2 py-1.5 text-left text-[11px] transition ${
+            showAdminBoundaries
+              ? 'border-cinnabar/30 bg-cinnabar/10 text-cinnabar'
+              : 'border-ink/10 text-ink-soft/60 hover:border-cinnabar/30'
+          }`}
+        >
+          <span
+            aria-hidden
+            className="h-3 w-3 shrink-0 rounded-sm border border-current"
+            style={{ opacity: 0.5 }}
+          />
+          <span className="flex-1">{t('legend.adminBoundaries')}</span>
+          <span className="tabular-nums opacity-70">
+            {t(showAdminBoundaries ? 'legend.on' : 'legend.off')}
+          </span>
+        </button>
+      ) : null}
+
+      <RegionFilter />
 
       <ul className="mt-3 space-y-1">
         {entities.map((entity) => {

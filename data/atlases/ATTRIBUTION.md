@@ -31,7 +31,29 @@ Cliopatria 的边界来自历史地图的数字化与人工校订，属于**学�
 - 海防线：郑和专题另有“明朝海防线”示意线，分大陆海岸与台澎两段，综合明初沿海卫所、巡检司、水寨与明中后期台澎海防；`extensions.precision = "schematic"`，`extensions.static = true`。该实体标记 `extensions.legend = false`，只作为地图背景防线显示，不列入航线图例，也不代表某一年份的精确布防；
 - 精度：Cliopatria 面为学术估算，手绘面与海防线仅表示大致范围，均不是精确国界。
 
+## 抗日战争专题
+
+### 民国省界示意
+
+抗日战争专题的 1931 / 1932—1937 / 1938—1944 / 1945 四张省界示意面来自 **江山时序（jiangshan-map）** 的一级政区 `region` 图层。
+
+- 仓库：https://github.com/DeanChensj/jiangshan-map
+- 文件：由 `scripts/export_geojson.js` 从 `js/atlas_snapshots.js` 导出 `snapshots/*.geojson`，再由 `scripts/import-roc-provinces.py` 提取 `layer=region` 要素
+- 许可：**GPL-3.0**（仅 `region` 图层）；该项目的 `prefecture` 图层来自 CHGIS V6，本项目**不使用、不转载**
+- 修改：按 1931、1932—1937、1938—1944、1945 四个时段筛选；简化到约 0.01°；补 `regionId`、短名、标识点、日期范围、来源与精度标记
+- 精度：**手工绘制示意，非测绘边界**；界面标注「历史省界（示意）」，只描边不填充
+- 范围：中华民国名义省区，不表示伪满洲国、汪伪政权或抗日根据地的实际控制线
+
+> 该 GeoJSON 数据文件（`data/atlases/anti-japanese-war/territories/roc-provinces.geojson`）单独按 **GPL-3.0** 提供；本仓库其余代码与数据仍按 MIT 许可。转载或截图时请注明「江山时序 Jiangshan Atlas」及上述来源。
+
+### 地区索引
+
+- `regions.json`、`region-index.json` 由本项目根据事件地名、省界点面判断与路线采样生成；
+- 县级归属只在有把握时挂接，其余标为「地点」，不虚构县界；
+- 民国县级地界没有可自由再分发的公开矢量数据，本项目**不绘制县界**。
+
 ## 其他疆域面
+
 
 - 隋唐专题的「安史叛军控制区」为本项目手绘示意面，不属于 Cliopatria。
 - 郑和专题的满剌加、古里、忽鲁谟斯、溜山、佐法儿、东非城邦、古吉拉特为本项目手绘示意面，不属于 Cliopatria。

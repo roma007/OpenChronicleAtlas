@@ -1,0 +1,9554 @@
+{
+  "schemaVersion": "1.0.0",
+  "frame": "ROC-1937",
+  "regions": [
+    {
+      "id": "jiangsu",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "江苏省",
+        "en": "Jiangsu"
+      },
+      "shortName": {
+        "zh": "江苏",
+        "en": "Jiangsu"
+      },
+      "aliases": [
+        "江苏"
+      ],
+      "modernName": {
+        "zh": "今江苏省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "zhejiang",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "浙江省",
+        "en": "Zhejiang"
+      },
+      "shortName": {
+        "zh": "浙江",
+        "en": "Zhejiang"
+      },
+      "aliases": [
+        "浙江"
+      ],
+      "modernName": {
+        "zh": "今浙江省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "anhui",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "安徽省",
+        "en": "Anhui"
+      },
+      "shortName": {
+        "zh": "安徽",
+        "en": "Anhui"
+      },
+      "aliases": [
+        "安徽"
+      ],
+      "modernName": {
+        "zh": "今安徽省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "jiangxi",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "江西省",
+        "en": "Jiangxi"
+      },
+      "shortName": {
+        "zh": "江西",
+        "en": "Jiangxi"
+      },
+      "aliases": [
+        "江西"
+      ],
+      "modernName": {
+        "zh": "今江西省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "hubei",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "湖北省",
+        "en": "Hubei"
+      },
+      "shortName": {
+        "zh": "湖北",
+        "en": "Hubei"
+      },
+      "aliases": [
+        "湖北"
+      ],
+      "modernName": {
+        "zh": "今湖北省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "hunan",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "湖南省",
+        "en": "Hunan"
+      },
+      "shortName": {
+        "zh": "湖南",
+        "en": "Hunan"
+      },
+      "aliases": [
+        "湖南"
+      ],
+      "modernName": {
+        "zh": "今湖南省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "sichuan",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "四川省",
+        "en": "Sichuan"
+      },
+      "shortName": {
+        "zh": "四川",
+        "en": "Sichuan"
+      },
+      "aliases": [
+        "四川"
+      ],
+      "modernName": {
+        "zh": "今四川省与重庆市"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "xikang",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "西康省",
+        "en": "Xikang"
+      },
+      "shortName": {
+        "zh": "西康",
+        "en": "Xikang"
+      },
+      "aliases": [
+        "西康"
+      ],
+      "modernName": {
+        "zh": "今四川西部、西藏东部"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "fujian",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "福建省",
+        "en": "Fujian"
+      },
+      "shortName": {
+        "zh": "福建",
+        "en": "Fujian"
+      },
+      "aliases": [
+        "福建"
+      ],
+      "modernName": {
+        "zh": "今福建省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "guangdong",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "广东省",
+        "en": "Guangdong"
+      },
+      "shortName": {
+        "zh": "广东",
+        "en": "Guangdong"
+      },
+      "aliases": [
+        "广东"
+      ],
+      "modernName": {
+        "zh": "今广东省、海南省、香港、澳门"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "guangxi",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "广西省",
+        "en": "Guangxi"
+      },
+      "shortName": {
+        "zh": "广西",
+        "en": "Guangxi"
+      },
+      "aliases": [
+        "广西"
+      ],
+      "modernName": {
+        "zh": "今广西壮族自治区"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "yunnan",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "云南省",
+        "en": "Yunnan"
+      },
+      "shortName": {
+        "zh": "云南",
+        "en": "Yunnan"
+      },
+      "aliases": [
+        "云南"
+      ],
+      "modernName": {
+        "zh": "今云南省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "guizhou",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "贵州省",
+        "en": "Guizhou"
+      },
+      "shortName": {
+        "zh": "贵州",
+        "en": "Guizhou"
+      },
+      "aliases": [
+        "贵州"
+      ],
+      "modernName": {
+        "zh": "今贵州省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "hebei",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "河北省",
+        "en": "Hebei"
+      },
+      "shortName": {
+        "zh": "河北",
+        "en": "Hebei"
+      },
+      "aliases": [
+        "河北"
+      ],
+      "modernName": {
+        "zh": "今河北省、北京市、天津市"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "shandong",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "山东省",
+        "en": "Shandong"
+      },
+      "shortName": {
+        "zh": "山东",
+        "en": "Shandong"
+      },
+      "aliases": [
+        "山东"
+      ],
+      "modernName": {
+        "zh": "今山东省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "henan",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "河南省",
+        "en": "Henan"
+      },
+      "shortName": {
+        "zh": "河南",
+        "en": "Henan"
+      },
+      "aliases": [
+        "河南"
+      ],
+      "modernName": {
+        "zh": "今河南省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "shanxi",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "山西省",
+        "en": "Shanxi"
+      },
+      "shortName": {
+        "zh": "山西",
+        "en": "Shanxi"
+      },
+      "aliases": [
+        "山西"
+      ],
+      "modernName": {
+        "zh": "今山西省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "shaanxi",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "陕西省",
+        "en": "Shaanxi"
+      },
+      "shortName": {
+        "zh": "陕西",
+        "en": "Shaanxi"
+      },
+      "aliases": [
+        "陕西"
+      ],
+      "modernName": {
+        "zh": "今陕西省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "gansu",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "甘肃省",
+        "en": "Gansu"
+      },
+      "shortName": {
+        "zh": "甘肃",
+        "en": "Gansu"
+      },
+      "aliases": [
+        "甘肃"
+      ],
+      "modernName": {
+        "zh": "今甘肃省、宁夏回族自治区"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "ningxia",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "宁夏省",
+        "en": "Ningxia"
+      },
+      "shortName": {
+        "zh": "宁夏",
+        "en": "Ningxia"
+      },
+      "aliases": [
+        "宁夏"
+      ],
+      "modernName": {
+        "zh": "今宁夏回族自治区"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "qinghai",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "青海省",
+        "en": "Qinghai"
+      },
+      "shortName": {
+        "zh": "青海",
+        "en": "Qinghai"
+      },
+      "aliases": [
+        "青海"
+      ],
+      "modernName": {
+        "zh": "今青海省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "suiyuan",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "绥远省",
+        "en": "Suiyuan"
+      },
+      "shortName": {
+        "zh": "绥远",
+        "en": "Suiyuan"
+      },
+      "aliases": [
+        "绥远"
+      ],
+      "modernName": {
+        "zh": "今内蒙古自治区中部"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "chahar",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "察哈尔省",
+        "en": "Chahar"
+      },
+      "shortName": {
+        "zh": "察哈尔",
+        "en": "Chahar"
+      },
+      "aliases": [
+        "察哈尔"
+      ],
+      "modernName": {
+        "zh": "今河北北部、内蒙古锡林郭勒"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "rehe",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "热河省",
+        "en": "Rehe"
+      },
+      "shortName": {
+        "zh": "热河",
+        "en": "Rehe"
+      },
+      "aliases": [
+        "热河"
+      ],
+      "modernName": {
+        "zh": "今河北东北部、内蒙古赤峰、辽宁西部"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "liaoning",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "辽宁省",
+        "en": "Liaoning"
+      },
+      "shortName": {
+        "zh": "辽宁",
+        "en": "Liaoning"
+      },
+      "aliases": [
+        "辽宁"
+      ],
+      "modernName": {
+        "zh": "今辽宁省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "jilin",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "吉林省",
+        "en": "Jilin"
+      },
+      "shortName": {
+        "zh": "吉林",
+        "en": "Jilin"
+      },
+      "aliases": [
+        "吉林"
+      ],
+      "modernName": {
+        "zh": "今吉林省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "heilongjiang",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "黑龙江省",
+        "en": "Heilongjiang"
+      },
+      "shortName": {
+        "zh": "黑龙江",
+        "en": "Heilongjiang"
+      },
+      "aliases": [
+        "黑龙江"
+      ],
+      "modernName": {
+        "zh": "今黑龙江省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "xinjiang",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "新疆省",
+        "en": "Xinjiang"
+      },
+      "shortName": {
+        "zh": "新疆",
+        "en": "Xinjiang"
+      },
+      "aliases": [
+        "新疆"
+      ],
+      "modernName": {
+        "zh": "今新疆维吾尔自治区"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "tibet",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "西藏地方",
+        "en": "Tibet"
+      },
+      "shortName": {
+        "zh": "西藏",
+        "en": "Tibet"
+      },
+      "aliases": [
+        "西藏"
+      ],
+      "modernName": {
+        "zh": "今西藏自治区"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "taiwan",
+      "level": "province",
+      "parentId": null,
+      "name": {
+        "zh": "台湾省",
+        "en": "Taiwan"
+      },
+      "shortName": {
+        "zh": "台湾",
+        "en": "Taiwan"
+      },
+      "aliases": [
+        "台湾"
+      ],
+      "modernName": {
+        "zh": "今台湾省"
+      },
+      "validFrom": "1945-01-01",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937",
+        "note": "1945 年台湾光复后纳入"
+      }
+    },
+    {
+      "id": "nanjing",
+      "level": "municipality",
+      "parentId": null,
+      "name": {
+        "zh": "南京市（院辖市）",
+        "en": "Nanjing"
+      },
+      "shortName": {
+        "zh": "南京",
+        "en": "Nanjing"
+      },
+      "aliases": [
+        "南京"
+      ],
+      "modernName": {
+        "zh": "今南京市"
+      },
+      "point": [
+        118.78,
+        32.06
+      ],
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "shanghai",
+      "level": "municipality",
+      "parentId": null,
+      "name": {
+        "zh": "上海市（院辖市）",
+        "en": "Shanghai"
+      },
+      "shortName": {
+        "zh": "上海",
+        "en": "Shanghai"
+      },
+      "aliases": [
+        "上海"
+      ],
+      "modernName": {
+        "zh": "今上海市"
+      },
+      "point": [
+        121.47,
+        31.23
+      ],
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "beiping",
+      "level": "municipality",
+      "parentId": null,
+      "name": {
+        "zh": "北平市（院辖市）",
+        "en": "Beiping"
+      },
+      "shortName": {
+        "zh": "北平",
+        "en": "Beiping"
+      },
+      "aliases": [
+        "北平"
+      ],
+      "modernName": {
+        "zh": "今北京市"
+      },
+      "point": [
+        116.4,
+        39.9
+      ],
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "tianjin",
+      "level": "municipality",
+      "parentId": null,
+      "name": {
+        "zh": "天津市（院辖市）",
+        "en": "Tianjin"
+      },
+      "shortName": {
+        "zh": "天津",
+        "en": "Tianjin"
+      },
+      "aliases": [
+        "天津"
+      ],
+      "modernName": {
+        "zh": "今天津市"
+      },
+      "point": [
+        117.2,
+        39.13
+      ],
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "qingdao",
+      "level": "municipality",
+      "parentId": null,
+      "name": {
+        "zh": "青岛市（院辖市）",
+        "en": "Qingdao"
+      },
+      "shortName": {
+        "zh": "青岛",
+        "en": "Qingdao"
+      },
+      "aliases": [
+        "青岛"
+      ],
+      "modernName": {
+        "zh": "今青岛市"
+      },
+      "point": [
+        120.38,
+        36.07
+      ],
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "chongqing",
+      "level": "municipality",
+      "parentId": null,
+      "name": {
+        "zh": "重庆市（院辖市）",
+        "en": "Chongqing"
+      },
+      "shortName": {
+        "zh": "重庆",
+        "en": "Chongqing"
+      },
+      "aliases": [
+        "重庆"
+      ],
+      "modernName": {
+        "zh": "今重庆市"
+      },
+      "point": [
+        106.55,
+        29.56
+      ],
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "xian",
+      "level": "municipality",
+      "parentId": null,
+      "name": {
+        "zh": "西安市（院辖市）",
+        "en": "Xian"
+      },
+      "shortName": {
+        "zh": "西安",
+        "en": "Xian"
+      },
+      "aliases": [
+        "西安"
+      ],
+      "modernName": {
+        "zh": "今西安市"
+      },
+      "point": [
+        108.94,
+        34.34
+      ],
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "hongkong",
+      "level": "municipality",
+      "parentId": null,
+      "name": {
+        "zh": "香港（英属）",
+        "en": "Hongkong"
+      },
+      "shortName": {
+        "zh": "香港",
+        "en": "Hongkong"
+      },
+      "aliases": [
+        "香港"
+      ],
+      "modernName": {
+        "zh": "今香港特别行政区"
+      },
+      "point": [
+        114.17,
+        22.32
+      ],
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "overseas",
+      "level": "overseas",
+      "parentId": null,
+      "name": {
+        "zh": "海外",
+        "en": "Overseas"
+      },
+      "shortName": {
+        "zh": "海外",
+        "en": "Overseas"
+      },
+      "aliases": [
+        "瑞士",
+        "日本",
+        "美国",
+        "比利时",
+        "埃及",
+        "印度",
+        "缅甸",
+        "越南",
+        "泰国",
+        "新加坡",
+        "马来",
+        "菲律宾",
+        "苏联",
+        "朝鲜",
+        "蒙古"
+      ],
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "hainan",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "海南岛",
+        "en": "Hainan Island"
+      },
+      "shortName": {
+        "zh": "海南",
+        "en": "Hainan"
+      },
+      "aliases": [
+        "海南",
+        "琼崖"
+      ],
+      "modernName": {
+        "zh": "今海南省"
+      },
+      "validFrom": "1931-09-18",
+      "validTo": "1945-12-31",
+      "extensions": {
+        "frame": "ROC-1937",
+        "kind": "geographic-area"
+      }
+    },
+    {
+      "id": "county-liaoning-u6c88u9633u53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "沈阳县"
+      },
+      "shortName": {
+        "zh": "沈阳"
+      },
+      "aliases": [
+        "沈阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-overseas-u65e5u5185u74e6",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "日内瓦"
+      },
+      "shortName": {
+        "zh": "日内瓦"
+      },
+      "aliases": [
+        "瑞士日内瓦",
+        "瑞士日内瓦"
+      ],
+      "modernName": {
+        "zh": "瑞士日内瓦"
+      },
+      "point": [
+        6.14,
+        46.2
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "瑞士日内瓦",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-liaoning-u9526u53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "锦县"
+      },
+      "shortName": {
+        "zh": "锦"
+      },
+      "aliases": [
+        "锦"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-liaoning-u9526u5dde",
+      "level": "place",
+      "parentId": "county-liaoning-u9526u53bf",
+      "name": {
+        "zh": "锦州"
+      },
+      "shortName": {
+        "zh": "锦州"
+      },
+      "aliases": [
+        "辽宁锦州",
+        "辽宁锦州"
+      ],
+      "modernName": {
+        "zh": "辽宁锦州"
+      },
+      "point": [
+        121.13,
+        41.1
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "辽宁锦州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-shanghai-u4e0au6d77",
+      "level": "place",
+      "parentId": "shanghai",
+      "name": {
+        "zh": "上海"
+      },
+      "shortName": {
+        "zh": "上海"
+      },
+      "aliases": [
+        "上海",
+        "上海"
+      ],
+      "modernName": {
+        "zh": "上海"
+      },
+      "point": [
+        121.47,
+        31.23
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "上海",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-heilongjiang-u54c8u5c14u6ee8u5e02",
+      "level": "county",
+      "parentId": "heilongjiang",
+      "name": {
+        "zh": "哈尔滨市"
+      },
+      "shortName": {
+        "zh": "哈尔滨"
+      },
+      "aliases": [
+        "哈尔滨"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-jilin-u957fu6625u53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "长春县"
+      },
+      "shortName": {
+        "zh": "长春"
+      },
+      "aliases": [
+        "长春"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-fujian-u95fdu4fafu53bf",
+      "level": "county",
+      "parentId": "fujian",
+      "name": {
+        "zh": "闽侯县"
+      },
+      "shortName": {
+        "zh": "闽侯"
+      },
+      "aliases": [
+        "闽侯"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-fujian-u798fu5dde",
+      "level": "place",
+      "parentId": "county-fujian-u95fdu4fafu53bf",
+      "name": {
+        "zh": "福州"
+      },
+      "shortName": {
+        "zh": "福州"
+      },
+      "aliases": [
+        "福建福州",
+        "福建福州"
+      ],
+      "modernName": {
+        "zh": "福建福州"
+      },
+      "point": [
+        119.3,
+        26.08
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "福建福州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hebei-u4e34u6986u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "临榆县"
+      },
+      "shortName": {
+        "zh": "临榆"
+      },
+      "aliases": [
+        "临榆"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hebei-u5c71u6d77u5173",
+      "level": "place",
+      "parentId": "county-hebei-u4e34u6986u53bf",
+      "name": {
+        "zh": "山海关"
+      },
+      "shortName": {
+        "zh": "山海关"
+      },
+      "aliases": [
+        "河北山海关（今属秦皇岛）",
+        "河北山海关"
+      ],
+      "modernName": {
+        "zh": "河北山海关（今属秦皇岛）"
+      },
+      "point": [
+        119.75,
+        40.01
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北山海关（今属秦皇岛）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-rehe-u671du9633u53bf",
+      "level": "county",
+      "parentId": "rehe",
+      "name": {
+        "zh": "朝阳县"
+      },
+      "shortName": {
+        "zh": "朝阳"
+      },
+      "aliases": [
+        "朝阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-rehe-u627fu5fb7u53bf",
+      "level": "county",
+      "parentId": "rehe",
+      "name": {
+        "zh": "承德县"
+      },
+      "shortName": {
+        "zh": "承德"
+      },
+      "aliases": [
+        "承德"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-hebei-u8fc1u5b89u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "迁安县"
+      },
+      "shortName": {
+        "zh": "迁安"
+      },
+      "aliases": [
+        "迁安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hebei-u559cu5cf0u53e3",
+      "level": "place",
+      "parentId": "county-hebei-u8fc1u5b89u53bf",
+      "name": {
+        "zh": "喜峰口"
+      },
+      "shortName": {
+        "zh": "喜峰口"
+      },
+      "aliases": [
+        "河北喜峰口",
+        "河北喜峰口"
+      ],
+      "modernName": {
+        "zh": "河北喜峰口"
+      },
+      "point": [
+        118.28,
+        40.35
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北喜峰口",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-hebei-u8fc1u5b89u51b7u53e3",
+      "level": "place",
+      "parentId": "county-hebei-u8fc1u5b89u53bf",
+      "name": {
+        "zh": "冷口"
+      },
+      "shortName": {
+        "zh": "冷口"
+      },
+      "aliases": [
+        "河北迁安冷口",
+        "河北迁安冷口"
+      ],
+      "modernName": {
+        "zh": "河北迁安冷口"
+      },
+      "point": [
+        118.8,
+        40.2
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北迁安冷口",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hebei-u5bc6u4e91u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "密云县"
+      },
+      "shortName": {
+        "zh": "密云"
+      },
+      "aliases": [
+        "密云"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hebei-u53e4u5317u53e3",
+      "level": "place",
+      "parentId": "county-hebei-u5bc6u4e91u53bf",
+      "name": {
+        "zh": "古北口"
+      },
+      "shortName": {
+        "zh": "古北口"
+      },
+      "aliases": [
+        "河北古北口",
+        "河北古北口"
+      ],
+      "modernName": {
+        "zh": "河北古北口"
+      },
+      "point": [
+        117.16,
+        40.7
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北古北口",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hebei-u9075u5316u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "遵化县"
+      },
+      "shortName": {
+        "zh": "遵化"
+      },
+      "aliases": [
+        "遵化"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hebei-u9075u5316u7f57u6587u5cea",
+      "level": "place",
+      "parentId": "county-hebei-u9075u5316u53bf",
+      "name": {
+        "zh": "罗文峪"
+      },
+      "shortName": {
+        "zh": "罗文峪"
+      },
+      "aliases": [
+        "河北遵化罗文峪",
+        "河北遵化罗文峪"
+      ],
+      "modernName": {
+        "zh": "河北遵化罗文峪"
+      },
+      "point": [
+        117.91,
+        40.42
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北遵化罗文峪",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-chahar-u4e07u5168u53bf",
+      "level": "county",
+      "parentId": "chahar",
+      "name": {
+        "zh": "万全县"
+      },
+      "shortName": {
+        "zh": "万全"
+      },
+      "aliases": [
+        "万全"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-chahar-u5f20u5bb6u53e3",
+      "level": "place",
+      "parentId": "county-chahar-u4e07u5168u53bf",
+      "name": {
+        "zh": "张家口"
+      },
+      "shortName": {
+        "zh": "张家口"
+      },
+      "aliases": [
+        "察哈尔张家口",
+        "察哈尔张家口"
+      ],
+      "modernName": {
+        "zh": "察哈尔张家口"
+      },
+      "point": [
+        114.89,
+        40.82
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "察哈尔张家口",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-tianjin-u5858u6cbd",
+      "level": "place",
+      "parentId": "tianjin",
+      "name": {
+        "zh": "塘沽"
+      },
+      "shortName": {
+        "zh": "塘沽"
+      },
+      "aliases": [
+        "天津塘沽",
+        "天津塘沽"
+      ],
+      "modernName": {
+        "zh": "天津塘沽"
+      },
+      "point": [
+        117.65,
+        39.03
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "天津塘沽",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-chahar-u591au4f26u53bf",
+      "level": "county",
+      "parentId": "chahar",
+      "name": {
+        "zh": "多伦县"
+      },
+      "shortName": {
+        "zh": "多伦"
+      },
+      "aliases": [
+        "多伦"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-jiangxi-u5357u660cu5e02",
+      "level": "county",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "南昌市"
+      },
+      "shortName": {
+        "zh": "南昌"
+      },
+      "aliases": [
+        "南昌"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-overseas-u4e1cu4eac",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "东京"
+      },
+      "shortName": {
+        "zh": "东京"
+      },
+      "aliases": [
+        "日本东京",
+        "日本东京"
+      ],
+      "modernName": {
+        "zh": "日本东京"
+      },
+      "point": [
+        139.69,
+        35.69
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "日本东京",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-nanjing-u5357u4eac",
+      "level": "place",
+      "parentId": "nanjing",
+      "name": {
+        "zh": "南京"
+      },
+      "shortName": {
+        "zh": "南京"
+      },
+      "aliases": [
+        "江苏南京",
+        "江苏南京"
+      ],
+      "modernName": {
+        "zh": "江苏南京"
+      },
+      "point": [
+        118.78,
+        32.06
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江苏南京",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-chahar-u6cbdu6e90u53bf",
+      "level": "county",
+      "parentId": "chahar",
+      "name": {
+        "zh": "沽源县"
+      },
+      "shortName": {
+        "zh": "沽源"
+      },
+      "aliases": [
+        "沽源"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-chahar-u6cbdu6e90u5927u6ee9",
+      "level": "place",
+      "parentId": "county-chahar-u6cbdu6e90u53bf",
+      "name": {
+        "zh": "大滩"
+      },
+      "shortName": {
+        "zh": "大滩"
+      },
+      "aliases": [
+        "察哈尔沽源大滩",
+        "察哈尔沽源大滩"
+      ],
+      "modernName": {
+        "zh": "察哈尔沽源大滩"
+      },
+      "point": [
+        115.69,
+        41.67
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "察哈尔沽源大滩",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guizhou-u8d35u9633u53bf",
+      "level": "county",
+      "parentId": "guizhou",
+      "name": {
+        "zh": "贵阳县"
+      },
+      "shortName": {
+        "zh": "贵阳"
+      },
+      "aliases": [
+        "贵阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-chahar-u5f20u5317u53bf",
+      "level": "county",
+      "parentId": "chahar",
+      "name": {
+        "zh": "张北县"
+      },
+      "shortName": {
+        "zh": "张北"
+      },
+      "aliases": [
+        "张北"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-beiping-u5317u5e73",
+      "level": "place",
+      "parentId": "beiping",
+      "name": {
+        "zh": "北平"
+      },
+      "shortName": {
+        "zh": "北平"
+      },
+      "aliases": [
+        "北平",
+        "北平"
+      ],
+      "modernName": {
+        "zh": "北平"
+      },
+      "point": [
+        116.4,
+        39.9
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "北平",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-hebei-u901au53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "通县"
+      },
+      "shortName": {
+        "zh": "通"
+      },
+      "aliases": [
+        "通"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hebei-u901au5dde",
+      "level": "place",
+      "parentId": "county-hebei-u901au53bf",
+      "name": {
+        "zh": "通州"
+      },
+      "shortName": {
+        "zh": "通州"
+      },
+      "aliases": [
+        "河北通州",
+        "河北通州"
+      ],
+      "modernName": {
+        "zh": "河北通州"
+      },
+      "point": [
+        116.66,
+        39.91
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北通州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u5e7fu5ddeu5e02",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "广州市"
+      },
+      "shortName": {
+        "zh": "广州"
+      },
+      "aliases": [
+        "广州"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-chahar-u5546u90fdu53bf",
+      "level": "county",
+      "parentId": "chahar",
+      "name": {
+        "zh": "商都县"
+      },
+      "shortName": {
+        "zh": "商都"
+      },
+      "aliases": [
+        "商都"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-suiyuan-u9676u6797u53bf",
+      "level": "county",
+      "parentId": "suiyuan",
+      "name": {
+        "zh": "陶林县"
+      },
+      "shortName": {
+        "zh": "陶林"
+      },
+      "aliases": [
+        "陶林"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-suiyuan-u7ea2u683cu5c14u56fe",
+      "level": "place",
+      "parentId": "county-suiyuan-u9676u6797u53bf",
+      "name": {
+        "zh": "红格尔图"
+      },
+      "shortName": {
+        "zh": "红格尔图"
+      },
+      "aliases": [
+        "绥远红格尔图",
+        "绥远红格尔图"
+      ],
+      "modernName": {
+        "zh": "绥远红格尔图"
+      },
+      "point": [
+        113.2,
+        41.45
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "绥远红格尔图",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-suiyuan-u8fbeu5c14u7f55u65d7",
+      "level": "county",
+      "parentId": "suiyuan",
+      "name": {
+        "zh": "达尔罕旗"
+      },
+      "shortName": {
+        "zh": "达尔罕旗"
+      },
+      "aliases": [
+        "达尔罕旗"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-suiyuan-u767eu7075u5e99",
+      "level": "place",
+      "parentId": "county-suiyuan-u8fbeu5c14u7f55u65d7",
+      "name": {
+        "zh": "百灵庙"
+      },
+      "shortName": {
+        "zh": "百灵庙"
+      },
+      "aliases": [
+        "绥远百灵庙",
+        "绥远百灵庙"
+      ],
+      "modernName": {
+        "zh": "绥远百灵庙"
+      },
+      "point": [
+        110.43,
+        41.7
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "绥远百灵庙",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-xian-u897fu5b89",
+      "level": "place",
+      "parentId": "xian",
+      "name": {
+        "zh": "西安"
+      },
+      "shortName": {
+        "zh": "西安"
+      },
+      "aliases": [
+        "陕西西安",
+        "陕西西安"
+      ],
+      "modernName": {
+        "zh": "陕西西安"
+      },
+      "point": [
+        108.94,
+        34.34
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "陕西西安",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-beiping-u5362u6c9fu6865",
+      "level": "place",
+      "parentId": "beiping",
+      "name": {
+        "zh": "卢沟桥"
+      },
+      "shortName": {
+        "zh": "卢沟桥"
+      },
+      "aliases": [
+        "北平卢沟桥",
+        "北平卢沟桥"
+      ],
+      "modernName": {
+        "zh": "北平卢沟桥"
+      },
+      "point": [
+        116.2,
+        39.85
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "北平卢沟桥",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-jiangxi-u661fu5b50u53bf",
+      "level": "county",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "星子县"
+      },
+      "shortName": {
+        "zh": "星子"
+      },
+      "aliases": [
+        "星子"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-jiangxi-u5e90u5c71",
+      "level": "place",
+      "parentId": "county-jiangxi-u661fu5b50u53bf",
+      "name": {
+        "zh": "庐山"
+      },
+      "shortName": {
+        "zh": "庐山"
+      },
+      "aliases": [
+        "江西庐山",
+        "江西庐山"
+      ],
+      "modernName": {
+        "zh": "江西庐山"
+      },
+      "point": [
+        115.99,
+        29.55
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江西庐山",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-chongqing-u91cdu5e86",
+      "level": "place",
+      "parentId": "chongqing",
+      "name": {
+        "zh": "重庆"
+      },
+      "shortName": {
+        "zh": "重庆"
+      },
+      "aliases": [
+        "重庆",
+        "重庆"
+      ],
+      "modernName": {
+        "zh": "重庆"
+      },
+      "point": [
+        106.55,
+        29.56
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "重庆",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-hebei-u660cu5e73u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "昌平县"
+      },
+      "shortName": {
+        "zh": "昌平"
+      },
+      "aliases": [
+        "昌平"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hebei-u5357u53e3",
+      "level": "place",
+      "parentId": "county-hebei-u660cu5e73u53bf",
+      "name": {
+        "zh": "南口"
+      },
+      "shortName": {
+        "zh": "南口"
+      },
+      "aliases": [
+        "河北南口",
+        "河北南口"
+      ],
+      "modernName": {
+        "zh": "河北南口"
+      },
+      "point": [
+        115.9,
+        40.3
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北南口",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jiangsu-u6c5fu9634u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "江阴县"
+      },
+      "shortName": {
+        "zh": "江阴"
+      },
+      "aliases": [
+        "江阴"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-shanghai-u6d66u4e1c",
+      "level": "place",
+      "parentId": "shanghai",
+      "name": {
+        "zh": "浦东"
+      },
+      "shortName": {
+        "zh": "浦东"
+      },
+      "aliases": [
+        "上海浦东",
+        "上海浦东"
+      ],
+      "modernName": {
+        "zh": "上海浦东"
+      },
+      "point": [
+        121.55,
+        31.2
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "上海浦东",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-zhejiang-u676du53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "杭县"
+      },
+      "shortName": {
+        "zh": "杭"
+      },
+      "aliases": [
+        "杭"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-zhejiang-u676du5ddeu7b15u6865",
+      "level": "place",
+      "parentId": "county-zhejiang-u676du53bf",
+      "name": {
+        "zh": "笕桥"
+      },
+      "shortName": {
+        "zh": "笕桥"
+      },
+      "aliases": [
+        "浙江杭州笕桥",
+        "浙江杭州笕桥"
+      ],
+      "modernName": {
+        "zh": "浙江杭州笕桥"
+      },
+      "point": [
+        120.23,
+        30.33
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "浙江杭州笕桥",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hebei-u6e05u82d1u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "清苑县"
+      },
+      "shortName": {
+        "zh": "清苑"
+      },
+      "aliases": [
+        "清苑"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hebei-u4fddu5b9a",
+      "level": "place",
+      "parentId": "county-hebei-u6e05u82d1u53bf",
+      "name": {
+        "zh": "保定"
+      },
+      "shortName": {
+        "zh": "保定"
+      },
+      "aliases": [
+        "河北保定",
+        "河北保定"
+      ],
+      "modernName": {
+        "zh": "河北保定"
+      },
+      "point": [
+        115.46,
+        38.87
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北保定",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-shanxi-u9633u66f2u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "阳曲县"
+      },
+      "shortName": {
+        "zh": "阳曲"
+      },
+      "aliases": [
+        "阳曲"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-shanxi-u592au539f",
+      "level": "place",
+      "parentId": "county-shanxi-u9633u66f2u53bf",
+      "name": {
+        "zh": "太原"
+      },
+      "shortName": {
+        "zh": "太原"
+      },
+      "aliases": [
+        "山西太原",
+        "山西太原"
+      ],
+      "modernName": {
+        "zh": "山西太原"
+      },
+      "point": [
+        112.55,
+        37.87
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西太原",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-shaanxi-u6d1bu5dddu53bf",
+      "level": "county",
+      "parentId": "shaanxi",
+      "name": {
+        "zh": "洛川县"
+      },
+      "shortName": {
+        "zh": "洛川"
+      },
+      "aliases": [
+        "洛川"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-shaanxi-u6d1bu5dddu51afu5bb6u6751",
+      "level": "place",
+      "parentId": "county-shaanxi-u6d1bu5dddu53bf",
+      "name": {
+        "zh": "冯家村"
+      },
+      "shortName": {
+        "zh": "冯家村"
+      },
+      "aliases": [
+        "陕西洛川冯家村",
+        "陕西洛川冯家村"
+      ],
+      "modernName": {
+        "zh": "陕西洛川冯家村"
+      },
+      "point": [
+        109.43,
+        35.76
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "陕西洛川冯家村",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-shanghai-u7f57u5e97",
+      "level": "place",
+      "parentId": "shanghai",
+      "name": {
+        "zh": "罗店"
+      },
+      "shortName": {
+        "zh": "罗店"
+      },
+      "aliases": [
+        "上海罗店",
+        "上海罗店"
+      ],
+      "modernName": {
+        "zh": "上海罗店"
+      },
+      "point": [
+        121.35,
+        31.4
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "上海罗店",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-shaanxi-u80a4u65bdu53bf",
+      "level": "county",
+      "parentId": "shaanxi",
+      "name": {
+        "zh": "肤施县"
+      },
+      "shortName": {
+        "zh": "肤施"
+      },
+      "aliases": [
+        "肤施"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-shaanxi-u5ef6u5b89",
+      "level": "place",
+      "parentId": "county-shaanxi-u80a4u65bdu53bf",
+      "name": {
+        "zh": "延安"
+      },
+      "shortName": {
+        "zh": "延安"
+      },
+      "aliases": [
+        "陕西延安",
+        "陕西延安"
+      ],
+      "modernName": {
+        "zh": "陕西延安"
+      },
+      "point": [
+        109.49,
+        36.6
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "陕西延安",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-shanghai-u4e0au6d77-2",
+      "level": "place",
+      "parentId": "shanghai",
+      "name": {
+        "zh": "上海"
+      },
+      "shortName": {
+        "zh": "上海"
+      },
+      "aliases": [
+        "上海（淞沪战场）",
+        "上海"
+      ],
+      "modernName": {
+        "zh": "上海（淞沪战场）"
+      },
+      "point": [
+        121.47,
+        31.23
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "上海（淞沪战场）",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-sichuan-u6210u90fdu53bf",
+      "level": "county",
+      "parentId": "sichuan",
+      "name": {
+        "zh": "成都县"
+      },
+      "shortName": {
+        "zh": "成都"
+      },
+      "aliases": [
+        "成都"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-guangxi-u6842u6797u53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "桂林县"
+      },
+      "shortName": {
+        "zh": "桂林"
+      },
+      "aliases": [
+        "桂林"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-shanxi-u5927u540cu53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "大同县"
+      },
+      "shortName": {
+        "zh": "大同"
+      },
+      "aliases": [
+        "大同"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-shanxi-u7075u4e18u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "灵丘县"
+      },
+      "shortName": {
+        "zh": "灵丘"
+      },
+      "aliases": [
+        "灵丘"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-shanxi-u7075u4e18u53bfu57ce",
+      "level": "place",
+      "parentId": "county-shanxi-u7075u4e18u53bf",
+      "name": {
+        "zh": "灵丘县城"
+      },
+      "shortName": {
+        "zh": "灵丘县城"
+      },
+      "aliases": [
+        "山西灵丘县城",
+        "山西灵丘县城"
+      ],
+      "modernName": {
+        "zh": "山西灵丘县城"
+      },
+      "point": [
+        114.24,
+        39.44
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西灵丘县城",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-shanxi-u5e73u578bu5173",
+      "level": "place",
+      "parentId": "county-shanxi-u7075u4e18u53bf",
+      "name": {
+        "zh": "平型关"
+      },
+      "shortName": {
+        "zh": "平型关"
+      },
+      "aliases": [
+        "山西平型关",
+        "山西平型关"
+      ],
+      "modernName": {
+        "zh": "山西平型关"
+      },
+      "point": [
+        113.9,
+        39.3
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西平型关",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-shanxi-u7075u4e18u5e73u578bu5173",
+      "level": "place",
+      "parentId": "county-shanxi-u7075u4e18u53bf",
+      "name": {
+        "zh": "平型关"
+      },
+      "shortName": {
+        "zh": "平型关"
+      },
+      "aliases": [
+        "山西灵丘平型关",
+        "山西灵丘平型关"
+      ],
+      "modernName": {
+        "zh": "山西灵丘平型关"
+      },
+      "point": [
+        113.75,
+        39.34
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西灵丘平型关",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-shanxi-u5e73u5b9au53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "平定县"
+      },
+      "shortName": {
+        "zh": "平定"
+      },
+      "aliases": [
+        "平定"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-shanxi-u5a18u5b50u5173",
+      "level": "place",
+      "parentId": "county-shanxi-u5e73u5b9au53bf",
+      "name": {
+        "zh": "娘子关"
+      },
+      "shortName": {
+        "zh": "娘子关"
+      },
+      "aliases": [
+        "山西娘子关",
+        "山西娘子关"
+      ],
+      "modernName": {
+        "zh": "山西娘子关"
+      },
+      "point": [
+        113.87,
+        37.96
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西娘子关",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hubei-u6c49u53e3u5e02",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "汉口市"
+      },
+      "shortName": {
+        "zh": "汉口"
+      },
+      "aliases": [
+        "汉口"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-shanxi-u5ffbu53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "忻县"
+      },
+      "shortName": {
+        "zh": "忻"
+      },
+      "aliases": [
+        "忻"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-shanxi-u5ffbu53e3",
+      "level": "place",
+      "parentId": "county-shanxi-u5ffbu53bf",
+      "name": {
+        "zh": "忻口"
+      },
+      "shortName": {
+        "zh": "忻口"
+      },
+      "aliases": [
+        "山西忻口",
+        "山西忻口"
+      ],
+      "modernName": {
+        "zh": "山西忻口"
+      },
+      "point": [
+        112.73,
+        38.75
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西忻口",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-shanxi-u4ee3u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "代县"
+      },
+      "shortName": {
+        "zh": "代"
+      },
+      "aliases": [
+        "代"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-shanxi-u4ee3u53bfu96c1u95e8u5173",
+      "level": "place",
+      "parentId": "county-shanxi-u4ee3u53bf",
+      "name": {
+        "zh": "雁门关"
+      },
+      "shortName": {
+        "zh": "雁门关"
+      },
+      "aliases": [
+        "山西代县雁门关",
+        "山西代县雁门关"
+      ],
+      "modernName": {
+        "zh": "山西代县雁门关"
+      },
+      "point": [
+        112.86,
+        39.18
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西代县雁门关",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-shanghai-u8574u85fbu6d5c",
+      "level": "place",
+      "parentId": "shanghai",
+      "name": {
+        "zh": "蕴藻浜"
+      },
+      "shortName": {
+        "zh": "蕴藻浜"
+      },
+      "aliases": [
+        "上海蕴藻浜",
+        "上海蕴藻浜"
+      ],
+      "modernName": {
+        "zh": "上海蕴藻浜"
+      },
+      "point": [
+        121.4,
+        31.35
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "上海蕴藻浜",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-shanxi-u4ee3u53bfu9633u660eu5821",
+      "level": "place",
+      "parentId": "county-shanxi-u4ee3u53bf",
+      "name": {
+        "zh": "阳明堡"
+      },
+      "shortName": {
+        "zh": "阳明堡"
+      },
+      "aliases": [
+        "山西代县阳明堡",
+        "山西代县阳明堡"
+      ],
+      "modernName": {
+        "zh": "山西代县阳明堡"
+      },
+      "point": [
+        112.78,
+        38.98
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西代县阳明堡",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-shanxi-u5e73u5b9au4e03u4e98u6751",
+      "level": "place",
+      "parentId": "county-shanxi-u5e73u5b9au53bf",
+      "name": {
+        "zh": "七亘村"
+      },
+      "shortName": {
+        "zh": "七亘村"
+      },
+      "aliases": [
+        "山西平定七亘村",
+        "山西平定七亘村"
+      ],
+      "modernName": {
+        "zh": "山西平定七亘村"
+      },
+      "point": [
+        113.87,
+        37.88
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西平定七亘村",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-overseas-u5e03u9c81u585eu5c14",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "布鲁塞尔"
+      },
+      "shortName": {
+        "zh": "布鲁塞尔"
+      },
+      "aliases": [
+        "比利时布鲁塞尔",
+        "比利时布鲁塞尔"
+      ],
+      "modernName": {
+        "zh": "比利时布鲁塞尔"
+      },
+      "point": [
+        4.35,
+        50.85
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "比利时布鲁塞尔",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-hebei-u961cu5e73u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "阜平县"
+      },
+      "shortName": {
+        "zh": "阜平"
+      },
+      "aliases": [
+        "阜平"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-shanxi-u548cu987au53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "和顺县"
+      },
+      "shortName": {
+        "zh": "和顺"
+      },
+      "aliases": [
+        "和顺"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-shanxi-u548cu987au77f3u62d0u9547",
+      "level": "place",
+      "parentId": "county-shanxi-u548cu987au53bf",
+      "name": {
+        "zh": "石拐镇"
+      },
+      "shortName": {
+        "zh": "石拐镇"
+      },
+      "aliases": [
+        "山西和顺石拐镇",
+        "山西和顺石拐镇"
+      ],
+      "modernName": {
+        "zh": "山西和顺石拐镇"
+      },
+      "point": [
+        113.52,
+        37.3
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西和顺石拐镇",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-nanjing-u5b89u5168u533a",
+      "level": "place",
+      "parentId": "nanjing",
+      "name": {
+        "zh": "安全区"
+      },
+      "shortName": {
+        "zh": "安全区"
+      },
+      "aliases": [
+        "江苏南京安全区",
+        "江苏南京安全区"
+      ],
+      "modernName": {
+        "zh": "江苏南京安全区"
+      },
+      "point": [
+        118.78,
+        32.04
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江苏南京安全区",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-jiangsu-u94dcu5c71u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "铜山县"
+      },
+      "shortName": {
+        "zh": "铜山"
+      },
+      "aliases": [
+        "铜山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-jiangsu-u5f90u5dde",
+      "level": "place",
+      "parentId": "county-jiangsu-u94dcu5c71u53bf",
+      "name": {
+        "zh": "徐州"
+      },
+      "shortName": {
+        "zh": "徐州"
+      },
+      "aliases": [
+        "江苏徐州",
+        "江苏徐州"
+      ],
+      "modernName": {
+        "zh": "江苏徐州"
+      },
+      "point": [
+        117.18,
+        34.26
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江苏徐州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-qingdao-u9752u5c9b",
+      "level": "place",
+      "parentId": "qingdao",
+      "name": {
+        "zh": "青岛"
+      },
+      "shortName": {
+        "zh": "青岛"
+      },
+      "aliases": [
+        "山东青岛",
+        "山东青岛"
+      ],
+      "modernName": {
+        "zh": "山东青岛"
+      },
+      "point": [
+        120.38,
+        36.07
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山东青岛",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-shanxi-u5174u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "兴县"
+      },
+      "shortName": {
+        "zh": "兴"
+      },
+      "aliases": [
+        "兴"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-hunan-u6e58u6f6du53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "湘潭县"
+      },
+      "shortName": {
+        "zh": "湘潭"
+      },
+      "aliases": [
+        "湘潭"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-shandong-u4e34u6c82u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "临沂县"
+      },
+      "shortName": {
+        "zh": "临沂"
+      },
+      "aliases": [
+        "临沂"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-shandong-u6ed5u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "滕县"
+      },
+      "shortName": {
+        "zh": "滕"
+      },
+      "aliases": [
+        "滕"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-shandong-u5cc4u53bfu53f0u513fu5e84",
+      "level": "place",
+      "parentId": "shandong",
+      "name": {
+        "zh": "峄县台儿庄"
+      },
+      "shortName": {
+        "zh": "峄县台儿庄"
+      },
+      "aliases": [
+        "山东峄县台儿庄（今枣庄）",
+        "山东峄县台儿庄"
+      ],
+      "modernName": {
+        "zh": "山东峄县台儿庄（今枣庄）"
+      },
+      "point": [
+        117.73,
+        34.56
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山东峄县台儿庄（今枣庄）",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-shanxi-u6f5eu57ceu53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "潞城县"
+      },
+      "shortName": {
+        "zh": "潞城"
+      },
+      "aliases": [
+        "潞城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-shanxi-u6f5eu57ceu795eu5934u5cad",
+      "level": "place",
+      "parentId": "county-shanxi-u6f5eu57ceu53bf",
+      "name": {
+        "zh": "神头岭"
+      },
+      "shortName": {
+        "zh": "神头岭"
+      },
+      "aliases": [
+        "山西潞城神头岭",
+        "山西潞城神头岭"
+      ],
+      "modernName": {
+        "zh": "山西潞城神头岭"
+      },
+      "point": [
+        113.3,
+        36.4
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西潞城神头岭",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-shandong-u5cc4u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "峄县"
+      },
+      "shortName": {
+        "zh": "峄"
+      },
+      "aliases": [
+        "峄"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-shandong-u67a3u5e84",
+      "level": "place",
+      "parentId": "county-shandong-u5cc4u53bf",
+      "name": {
+        "zh": "枣庄"
+      },
+      "shortName": {
+        "zh": "枣庄"
+      },
+      "aliases": [
+        "山东枣庄",
+        "山东枣庄"
+      ],
+      "modernName": {
+        "zh": "山东枣庄"
+      },
+      "point": [
+        117.3,
+        34.8
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山东枣庄",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-shandong-u53f0u513fu5e84",
+      "level": "place",
+      "parentId": "county-shandong-u5cc4u53bf",
+      "name": {
+        "zh": "台儿庄"
+      },
+      "shortName": {
+        "zh": "台儿庄"
+      },
+      "aliases": [
+        "山东台儿庄",
+        "山东台儿庄"
+      ],
+      "modernName": {
+        "zh": "山东台儿庄"
+      },
+      "point": [
+        117.73,
+        34.55
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山东台儿庄",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hebei-u6d89u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "涉县"
+      },
+      "shortName": {
+        "zh": "涉"
+      },
+      "aliases": [
+        "涉"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hebei-u6d89u53bfu54cdu5802u94fa",
+      "level": "place",
+      "parentId": "county-hebei-u6d89u53bf",
+      "name": {
+        "zh": "响堂铺"
+      },
+      "shortName": {
+        "zh": "响堂铺"
+      },
+      "aliases": [
+        "河北涉县响堂铺",
+        "河北涉县响堂铺"
+      ],
+      "modernName": {
+        "zh": "河北涉县响堂铺"
+      },
+      "point": [
+        113.6,
+        36.5
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北涉县响堂铺",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-shanxi-u8fbdu53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "辽县"
+      },
+      "shortName": {
+        "zh": "辽"
+      },
+      "aliases": [
+        "辽"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-yunnan-u6606u660eu53bf",
+      "level": "county",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "昆明县"
+      },
+      "shortName": {
+        "zh": "昆明"
+      },
+      "aliases": [
+        "昆明"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-hubei-u6b66u660cu53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "武昌县"
+      },
+      "shortName": {
+        "zh": "武昌"
+      },
+      "aliases": [
+        "武昌"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hubei-u6b66u6c49",
+      "level": "place",
+      "parentId": "county-hubei-u6b66u660cu53bf",
+      "name": {
+        "zh": "武汉"
+      },
+      "shortName": {
+        "zh": "武汉"
+      },
+      "aliases": [
+        "湖北武汉",
+        "湖北武汉"
+      ],
+      "modernName": {
+        "zh": "湖北武汉"
+      },
+      "point": [
+        114.3,
+        30.59
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖北武汉",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-shanxi-u6b66u4e61u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "武乡县"
+      },
+      "shortName": {
+        "zh": "武乡"
+      },
+      "aliases": [
+        "武乡"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-shanxi-u6b66u4e61u957fu4e50u6751",
+      "level": "place",
+      "parentId": "county-shanxi-u6b66u4e61u53bf",
+      "name": {
+        "zh": "长乐村"
+      },
+      "shortName": {
+        "zh": "长乐村"
+      },
+      "aliases": [
+        "山西武乡长乐村",
+        "山西武乡长乐村"
+      ],
+      "modernName": {
+        "zh": "山西武乡长乐村"
+      },
+      "point": [
+        112.8,
+        36.9
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西武乡长乐村",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jiangsu-u90b3u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "邳县"
+      },
+      "shortName": {
+        "zh": "邳"
+      },
+      "aliases": [
+        "邳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-jiangsu-u90b3u5ddeu79b9u738bu5c71",
+      "level": "place",
+      "parentId": "county-jiangsu-u90b3u53bf",
+      "name": {
+        "zh": "禹王山"
+      },
+      "shortName": {
+        "zh": "禹王山"
+      },
+      "aliases": [
+        "江苏邳州禹王山",
+        "江苏邳州禹王山"
+      ],
+      "modernName": {
+        "zh": "江苏邳州禹王山"
+      },
+      "point": [
+        117.7,
+        34.4
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江苏邳州禹王山",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hebei-u5357u5babu53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "南宫县"
+      },
+      "shortName": {
+        "zh": "南宫"
+      },
+      "aliases": [
+        "南宫"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-shandong-u83cfu6cfdu53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "菏泽县"
+      },
+      "shortName": {
+        "zh": "菏泽"
+      },
+      "aliases": [
+        "菏泽"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-henan-u5170u5c01u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "兰封县"
+      },
+      "shortName": {
+        "zh": "兰封"
+      },
+      "aliases": [
+        "兰封"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-hunan-u957fu6c99u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "长沙县"
+      },
+      "shortName": {
+        "zh": "长沙"
+      },
+      "aliases": [
+        "长沙"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-henan-u5f00u5c01u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "开封县"
+      },
+      "shortName": {
+        "zh": "开封"
+      },
+      "aliases": [
+        "开封"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-hebei-u84dfu53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "蓟县"
+      },
+      "shortName": {
+        "zh": "蓟"
+      },
+      "aliases": [
+        "蓟"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-henan-u90d1u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "郑县"
+      },
+      "shortName": {
+        "zh": "郑"
+      },
+      "aliases": [
+        "郑"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-henan-u90d1u5dde",
+      "level": "place",
+      "parentId": "county-henan-u90d1u53bf",
+      "name": {
+        "zh": "郑州"
+      },
+      "shortName": {
+        "zh": "郑州"
+      },
+      "aliases": [
+        "河南郑州",
+        "河南郑州"
+      ],
+      "modernName": {
+        "zh": "河南郑州"
+      },
+      "point": [
+        113.66,
+        34.75
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河南郑州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-anhui-u6000u5b81u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "怀宁县"
+      },
+      "shortName": {
+        "zh": "怀宁"
+      },
+      "aliases": [
+        "怀宁"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-anhui-u5b89u5e86",
+      "level": "place",
+      "parentId": "county-anhui-u6000u5b81u53bf",
+      "name": {
+        "zh": "安庆"
+      },
+      "shortName": {
+        "zh": "安庆"
+      },
+      "aliases": [
+        "安徽安庆",
+        "安徽安庆"
+      ],
+      "modernName": {
+        "zh": "安徽安庆"
+      },
+      "point": [
+        117.05,
+        30.53
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "安徽安庆",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hubei-u9633u65b0u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "阳新县"
+      },
+      "shortName": {
+        "zh": "阳新"
+      },
+      "aliases": [
+        "阳新"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-jiangxi-u745eu660cu53bf",
+      "level": "county",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "瑞昌县"
+      },
+      "shortName": {
+        "zh": "瑞昌"
+      },
+      "aliases": [
+        "瑞昌"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-henan-u5546u57ceu53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "商城县"
+      },
+      "shortName": {
+        "zh": "商城"
+      },
+      "aliases": [
+        "商城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-jiangxi-u5fb7u5b89u53bf",
+      "level": "county",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "德安县"
+      },
+      "shortName": {
+        "zh": "德安"
+      },
+      "aliases": [
+        "德安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-shanxi-u5e73u9646u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "平陆县"
+      },
+      "shortName": {
+        "zh": "平陆"
+      },
+      "aliases": [
+        "平陆"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-shanxi-u95fbu559cu53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "闻喜县"
+      },
+      "shortName": {
+        "zh": "闻喜"
+      },
+      "aliases": [
+        "闻喜"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-hubei-u6b66u660cu5e02",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "武昌市"
+      },
+      "shortName": {
+        "zh": "武昌"
+      },
+      "aliases": [
+        "武昌"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-anhui-u516du5b89u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "六安县"
+      },
+      "shortName": {
+        "zh": "六安"
+      },
+      "aliases": [
+        "六安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-anhui-u7acbu714cu53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "立煌县"
+      },
+      "shortName": {
+        "zh": "立煌"
+      },
+      "aliases": [
+        "立煌"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-jiangxi-u5fb7u5b89u4e07u5bb6u5cad",
+      "level": "place",
+      "parentId": "county-jiangxi-u5fb7u5b89u53bf",
+      "name": {
+        "zh": "万家岭"
+      },
+      "shortName": {
+        "zh": "万家岭"
+      },
+      "aliases": [
+        "江西德安万家岭",
+        "江西德安万家岭"
+      ],
+      "modernName": {
+        "zh": "江西德安万家岭"
+      },
+      "point": [
+        115.7,
+        29.3
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江西德安万家岭",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangxi-u5168u53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "全县"
+      },
+      "shortName": {
+        "zh": "全"
+      },
+      "aliases": [
+        "全"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangxi-u5168u5dde",
+      "level": "place",
+      "parentId": "county-guangxi-u5168u53bf",
+      "name": {
+        "zh": "全州"
+      },
+      "shortName": {
+        "zh": "全州"
+      },
+      "aliases": [
+        "广西全州",
+        "广西全州"
+      ],
+      "modernName": {
+        "zh": "广西全州"
+      },
+      "point": [
+        111.07,
+        25.93
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广西全州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u60e0u9633u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "惠阳县"
+      },
+      "shortName": {
+        "zh": "惠阳"
+      },
+      "aliases": [
+        "惠阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u5927u4e9au6e7e",
+      "level": "place",
+      "parentId": "county-guangdong-u60e0u9633u53bf",
+      "name": {
+        "zh": "大亚湾"
+      },
+      "shortName": {
+        "zh": "大亚湾"
+      },
+      "aliases": [
+        "广东大亚湾",
+        "广东大亚湾"
+      ],
+      "modernName": {
+        "zh": "广东大亚湾"
+      },
+      "point": [
+        114.5,
+        22.7
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东大亚湾",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hubei-u5d07u9633u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "崇阳县"
+      },
+      "shortName": {
+        "zh": "崇阳"
+      },
+      "aliases": [
+        "崇阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u743cu5c71u4e91u9f99",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "琼山云龙"
+      },
+      "shortName": {
+        "zh": "琼山云龙"
+      },
+      "aliases": [
+        "海南琼山云龙",
+        "海南琼山云龙"
+      ],
+      "modernName": {
+        "zh": "海南琼山云龙"
+      },
+      "point": [
+        110.4,
+        19.9
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南琼山云龙",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-shandong-u6c82u6c34u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "沂水县"
+      },
+      "shortName": {
+        "zh": "沂水"
+      },
+      "aliases": [
+        "沂水"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-hebei-u6cb3u95f4u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "河间县"
+      },
+      "shortName": {
+        "zh": "河间"
+      },
+      "aliases": [
+        "河间"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hebei-u6cb3u95f4u60e0u4f2fu53e3",
+      "level": "place",
+      "parentId": "county-hebei-u6cb3u95f4u53bf",
+      "name": {
+        "zh": "惠伯口"
+      },
+      "shortName": {
+        "zh": "惠伯口"
+      },
+      "aliases": [
+        "河北河间惠伯口",
+        "河北河间惠伯口"
+      ],
+      "modernName": {
+        "zh": "河北河间惠伯口"
+      },
+      "point": [
+        116.05,
+        38.5
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北河间惠伯口",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-shandong-u9104u57ceu53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "鄄城县"
+      },
+      "shortName": {
+        "zh": "鄄城"
+      },
+      "aliases": [
+        "鄄城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-shandong-u9104u57ce-u90d3u57ceu4e00u5e26",
+      "level": "place",
+      "parentId": "county-shandong-u9104u57ceu53bf",
+      "name": {
+        "zh": "鄄城、郓城一带"
+      },
+      "shortName": {
+        "zh": "鄄城、郓城一带"
+      },
+      "aliases": [
+        "山东鄄城、郓城一带",
+        "山东鄄城、郓城一带"
+      ],
+      "modernName": {
+        "zh": "山东鄄城、郓城一带"
+      },
+      "point": [
+        115.7,
+        35.58
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山东鄄城、郓城一带",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jiangxi-u9ad8u5b89u53bf",
+      "level": "county",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "高安县"
+      },
+      "shortName": {
+        "zh": "高安"
+      },
+      "aliases": [
+        "高安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hebei-u6cb3u95f4u9f50u4f1a",
+      "level": "place",
+      "parentId": "county-hebei-u6cb3u95f4u53bf",
+      "name": {
+        "zh": "齐会"
+      },
+      "shortName": {
+        "zh": "齐会"
+      },
+      "aliases": [
+        "河北河间齐会",
+        "河北河间齐会"
+      ],
+      "modernName": {
+        "zh": "河北河间齐会"
+      },
+      "point": [
+        116.2,
+        38.55
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北河间齐会",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hubei-u968fu53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "随县"
+      },
+      "shortName": {
+        "zh": "随"
+      },
+      "aliases": [
+        "随"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-henan-u6850u67cfu53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "桐柏县"
+      },
+      "shortName": {
+        "zh": "桐柏"
+      },
+      "aliases": [
+        "桐柏"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-hunan-u5cb3u9633u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "岳阳县"
+      },
+      "shortName": {
+        "zh": "岳阳"
+      },
+      "aliases": [
+        "岳阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hunan-u65b0u5899u6cb3u4e00u7ebf",
+      "level": "place",
+      "parentId": "county-hunan-u5cb3u9633u53bf",
+      "name": {
+        "zh": "新墙河一线"
+      },
+      "shortName": {
+        "zh": "新墙河一线"
+      },
+      "aliases": [
+        "湖南新墙河一线",
+        "湖南新墙河一线"
+      ],
+      "modernName": {
+        "zh": "湖南新墙河一线"
+      },
+      "point": [
+        113.13,
+        29.36
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖南新墙河一线",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-hunan-u65b0u5899u6cb3",
+      "level": "place",
+      "parentId": "county-hunan-u5cb3u9633u53bf",
+      "name": {
+        "zh": "新墙河"
+      },
+      "shortName": {
+        "zh": "新墙河"
+      },
+      "aliases": [
+        "湖南新墙河",
+        "湖南新墙河"
+      ],
+      "modernName": {
+        "zh": "湖南新墙河"
+      },
+      "point": [
+        113.13,
+        29.36
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖南新墙河",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jiangxi-u4feeu6c34u53bf",
+      "level": "county",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "修水县"
+      },
+      "shortName": {
+        "zh": "修水"
+      },
+      "aliases": [
+        "修水"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-hebei-u6d9eu6e90u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "涞源县"
+      },
+      "shortName": {
+        "zh": "涞源"
+      },
+      "aliases": [
+        "涞源"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hebei-u6d9eu6e90u9ec4u571fu5cad",
+      "level": "place",
+      "parentId": "county-hebei-u6d9eu6e90u53bf",
+      "name": {
+        "zh": "黄土岭"
+      },
+      "shortName": {
+        "zh": "黄土岭"
+      },
+      "aliases": [
+        "河北涞源黄土岭",
+        "河北涞源黄土岭"
+      ],
+      "modernName": {
+        "zh": "河北涞源黄土岭"
+      },
+      "point": [
+        114.6,
+        39.35
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北涞源黄土岭",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u94a6u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "钦县"
+      },
+      "shortName": {
+        "zh": "钦"
+      },
+      "aliases": [
+        "钦"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u94a6u5ddeu6e7e",
+      "level": "place",
+      "parentId": "county-guangdong-u94a6u53bf",
+      "name": {
+        "zh": "钦州湾"
+      },
+      "shortName": {
+        "zh": "钦州湾"
+      },
+      "aliases": [
+        "广西钦州湾",
+        "广西钦州湾"
+      ],
+      "modernName": {
+        "zh": "广西钦州湾"
+      },
+      "point": [
+        108.6,
+        21.9
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广西钦州湾",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u4e09u6c34u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "三水县"
+      },
+      "shortName": {
+        "zh": "三水"
+      },
+      "aliases": [
+        "三水"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-guangdong-u4eceu5316u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "从化县"
+      },
+      "shortName": {
+        "zh": "从化"
+      },
+      "aliases": [
+        "从化"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-guangdong-u66f2u6c5fu53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "曲江县"
+      },
+      "shortName": {
+        "zh": "曲江"
+      },
+      "aliases": [
+        "曲江"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u97f6u5173",
+      "level": "place",
+      "parentId": "county-guangdong-u66f2u6c5fu53bf",
+      "name": {
+        "zh": "韶关"
+      },
+      "shortName": {
+        "zh": "韶关"
+      },
+      "aliases": [
+        "广东韶关",
+        "广东韶关"
+      ],
+      "modernName": {
+        "zh": "广东韶关"
+      },
+      "point": [
+        113.6,
+        24.8
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东韶关",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-anhui-u94dcu9675u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "铜陵县"
+      },
+      "shortName": {
+        "zh": "铜陵"
+      },
+      "aliases": [
+        "铜陵"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-anhui-u829cu6e56u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "芜湖县"
+      },
+      "shortName": {
+        "zh": "芜湖"
+      },
+      "aliases": [
+        "芜湖"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangxi-u6606u4ed1u5173",
+      "level": "place",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "昆仑关"
+      },
+      "shortName": {
+        "zh": "昆仑关"
+      },
+      "aliases": [
+        "广西昆仑关",
+        "广西昆仑关"
+      ],
+      "modernName": {
+        "zh": "广西昆仑关"
+      },
+      "point": [
+        108.65,
+        23.05
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广西昆仑关",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-guangxi-u9095u5b81u53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "邕宁县"
+      },
+      "shortName": {
+        "zh": "邕宁"
+      },
+      "aliases": [
+        "邕宁"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangxi-u5357u5b81",
+      "level": "place",
+      "parentId": "county-guangxi-u9095u5b81u53bf",
+      "name": {
+        "zh": "南宁"
+      },
+      "shortName": {
+        "zh": "南宁"
+      },
+      "aliases": [
+        "广西南宁",
+        "广西南宁"
+      ],
+      "modernName": {
+        "zh": "广西南宁"
+      },
+      "point": [
+        108.32,
+        22.82
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广西南宁",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangxi-u5bbeu9633u53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "宾阳县"
+      },
+      "shortName": {
+        "zh": "宾阳"
+      },
+      "aliases": [
+        "宾阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangxi-u5357u5b81u6606u4ed1u5173",
+      "level": "place",
+      "parentId": "county-guangxi-u9095u5b81u53bf",
+      "name": {
+        "zh": "昆仑关"
+      },
+      "shortName": {
+        "zh": "昆仑关"
+      },
+      "aliases": [
+        "广西南宁昆仑关",
+        "广西南宁昆仑关"
+      ],
+      "modernName": {
+        "zh": "广西南宁昆仑关"
+      },
+      "point": [
+        108.65,
+        23.05
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广西南宁昆仑关",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangxi-u67f3u5ddeu53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "柳州县"
+      },
+      "shortName": {
+        "zh": "柳州"
+      },
+      "aliases": [
+        "柳州"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-suiyuan-u5305u5934u53bf",
+      "level": "county",
+      "parentId": "suiyuan",
+      "name": {
+        "zh": "包头县"
+      },
+      "shortName": {
+        "zh": "包头"
+      },
+      "aliases": [
+        "包头"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-suiyuan-u5f52u7ee5u53bf",
+      "level": "county",
+      "parentId": "suiyuan",
+      "name": {
+        "zh": "归绥县"
+      },
+      "shortName": {
+        "zh": "归绥"
+      },
+      "aliases": [
+        "归绥"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-suiyuan-u4e94u539fu53bf",
+      "level": "county",
+      "parentId": "suiyuan",
+      "name": {
+        "zh": "五原县"
+      },
+      "shortName": {
+        "zh": "五原"
+      },
+      "aliases": [
+        "五原"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-hubei-u67a3u9633u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "枣阳县"
+      },
+      "shortName": {
+        "zh": "枣阳"
+      },
+      "aliases": [
+        "枣阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-hubei-u5b9cu57ceu53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "宜城县"
+      },
+      "shortName": {
+        "zh": "宜城"
+      },
+      "aliases": [
+        "宜城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hubei-u5b9cu57ceu5357u74dcu5e97",
+      "level": "place",
+      "parentId": "county-hubei-u5b9cu57ceu53bf",
+      "name": {
+        "zh": "南瓜店"
+      },
+      "shortName": {
+        "zh": "南瓜店"
+      },
+      "aliases": [
+        "湖北宜城南瓜店",
+        "湖北宜城南瓜店"
+      ],
+      "modernName": {
+        "zh": "湖北宜城南瓜店"
+      },
+      "point": [
+        112.1,
+        31.6
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖北宜城南瓜店",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-shanxi-u534eu5317u6b63u592au94c1u8defu6cbfu7ebf",
+      "level": "place",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "华北正太铁路沿线"
+      },
+      "shortName": {
+        "zh": "华北正太铁路沿线"
+      },
+      "aliases": [
+        "华北正太铁路沿线（阳泉一带）",
+        "华北正太铁路沿线"
+      ],
+      "modernName": {
+        "zh": "华北正太铁路沿线（阳泉一带）"
+      },
+      "point": [
+        113.58,
+        37.86
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "华北正太铁路沿线（阳泉一带）",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-shanxi-u6986u6b21u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "榆次县"
+      },
+      "shortName": {
+        "zh": "榆次"
+      },
+      "aliases": [
+        "榆次"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-guangdong-u5b9du5b89u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "宝安县"
+      },
+      "shortName": {
+        "zh": "宝安"
+      },
+      "aliases": [
+        "宝安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-guangdong-u4e1cu839eu53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "东莞县"
+      },
+      "shortName": {
+        "zh": "东莞"
+      },
+      "aliases": [
+        "东莞"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-yunnan-u8499u81eau53bf",
+      "level": "county",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "蒙自县"
+      },
+      "shortName": {
+        "zh": "蒙自"
+      },
+      "aliases": [
+        "蒙自"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-jiangsu-u6cf0u5174u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "泰兴县"
+      },
+      "shortName": {
+        "zh": "泰兴"
+      },
+      "aliases": [
+        "泰兴"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-jiangsu-u6cf0u5174u9ec4u6865",
+      "level": "place",
+      "parentId": "county-jiangsu-u6cf0u5174u53bf",
+      "name": {
+        "zh": "黄桥"
+      },
+      "shortName": {
+        "zh": "黄桥"
+      },
+      "aliases": [
+        "江苏泰兴黄桥",
+        "江苏泰兴黄桥"
+      ],
+      "modernName": {
+        "zh": "江苏泰兴黄桥"
+      },
+      "point": [
+        120.2,
+        32.2
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江苏泰兴黄桥",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-shanxi-u6b66u4e61u5173u5bb6u57b4",
+      "level": "place",
+      "parentId": "county-shanxi-u6b66u4e61u53bf",
+      "name": {
+        "zh": "关家垴"
+      },
+      "shortName": {
+        "zh": "关家垴"
+      },
+      "aliases": [
+        "山西武乡关家垴",
+        "山西武乡关家垴"
+      ],
+      "modernName": {
+        "zh": "山西武乡关家垴"
+      },
+      "point": [
+        113.1,
+        36.9
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西武乡关家垴",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u6f84u8fc8u7f8eu5408",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "澄迈美合"
+      },
+      "shortName": {
+        "zh": "澄迈美合"
+      },
+      "aliases": [
+        "海南澄迈美合",
+        "海南澄迈美合"
+      ],
+      "modernName": {
+        "zh": "海南澄迈美合"
+      },
+      "point": [
+        109.9,
+        19.6
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南澄迈美合",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-anhui-u6cfeu53bfu8302u6797",
+      "level": "place",
+      "parentId": "anhui",
+      "name": {
+        "zh": "泾县茂林"
+      },
+      "shortName": {
+        "zh": "泾县茂林"
+      },
+      "aliases": [
+        "安徽泾县茂林",
+        "安徽泾县茂林"
+      ],
+      "modernName": {
+        "zh": "安徽泾县茂林"
+      },
+      "point": [
+        118.4,
+        30.6
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "安徽泾县茂林",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-henan-u4fe1u9633u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "信阳县"
+      },
+      "shortName": {
+        "zh": "信阳"
+      },
+      "aliases": [
+        "信阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-henan-u606fu53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "息县"
+      },
+      "shortName": {
+        "zh": "息"
+      },
+      "aliases": [
+        "息"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-henan-u821eu9633u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "舞阳县"
+      },
+      "shortName": {
+        "zh": "舞阳"
+      },
+      "aliases": [
+        "舞阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-jiangsu-u76d0u57ceu53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "盐城县"
+      },
+      "shortName": {
+        "zh": "盐城"
+      },
+      "aliases": [
+        "盐城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u743cu5c71-u6587u660cu4e00u5e26",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "琼山、文昌一带"
+      },
+      "shortName": {
+        "zh": "琼山、文昌一带"
+      },
+      "aliases": [
+        "海南琼山、文昌一带",
+        "海南琼山、文昌一带"
+      ],
+      "modernName": {
+        "zh": "海南琼山、文昌一带"
+      },
+      "point": [
+        110.35,
+        19.98
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南琼山、文昌一带",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-overseas-u534eu76dbu987f",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "华盛顿"
+      },
+      "shortName": {
+        "zh": "华盛顿"
+      },
+      "aliases": [
+        "美国华盛顿",
+        "美国华盛顿"
+      ],
+      "modernName": {
+        "zh": "美国华盛顿"
+      },
+      "point": [
+        77.04,
+        38.9
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "美国华盛顿",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-jiangxi-u4e0au9ad8u53bf",
+      "level": "county",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "上高县"
+      },
+      "shortName": {
+        "zh": "上高"
+      },
+      "aliases": [
+        "上高"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-shanxi-u4e2du6761u5c71",
+      "level": "place",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "中条山"
+      },
+      "shortName": {
+        "zh": "中条山"
+      },
+      "aliases": [
+        "山西中条山",
+        "山西中条山"
+      ],
+      "modernName": {
+        "zh": "山西中条山"
+      },
+      "point": [
+        111.55,
+        35.05
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西中条山",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-guangdong-u4e07u5b81",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "万宁"
+      },
+      "shortName": {
+        "zh": "万宁"
+      },
+      "aliases": [
+        "海南万宁",
+        "海南万宁"
+      ],
+      "modernName": {
+        "zh": "海南万宁"
+      },
+      "point": [
+        110.4,
+        18.8
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南万宁",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-henan-u6d1bu9633u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "洛阳县"
+      },
+      "shortName": {
+        "zh": "洛阳"
+      },
+      "aliases": [
+        "洛阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-guangdong-u4e2du5c71u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "中山县"
+      },
+      "shortName": {
+        "zh": "中山"
+      },
+      "aliases": [
+        "中山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hunan-u5cb3u9633u65b0u5899u6cb3u4e00u7ebf",
+      "level": "place",
+      "parentId": "county-hunan-u5cb3u9633u53bf",
+      "name": {
+        "zh": "新墙河一线"
+      },
+      "shortName": {
+        "zh": "新墙河一线"
+      },
+      "aliases": [
+        "湖南岳阳新墙河一线",
+        "湖南岳阳新墙河一线"
+      ],
+      "modernName": {
+        "zh": "湖南岳阳新墙河一线"
+      },
+      "point": [
+        113.13,
+        29.36
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖南岳阳新墙河一线",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hunan-u5e73u6c5fu53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "平江县"
+      },
+      "shortName": {
+        "zh": "平江"
+      },
+      "aliases": [
+        "平江"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-hebei-u6613u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "易县"
+      },
+      "shortName": {
+        "zh": "易"
+      },
+      "aliases": [
+        "易"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hebei-u6613u53bfu72fcu7259u5c71",
+      "level": "place",
+      "parentId": "county-hebei-u6613u53bf",
+      "name": {
+        "zh": "狼牙山"
+      },
+      "shortName": {
+        "zh": "狼牙山"
+      },
+      "aliases": [
+        "河北易县狼牙山",
+        "河北易县狼牙山"
+      ],
+      "modernName": {
+        "zh": "河北易县狼牙山"
+      },
+      "point": [
+        115.15,
+        39.2
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北易县狼牙山",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hubei-u5b9cu660cu53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "宜昌县"
+      },
+      "shortName": {
+        "zh": "宜昌"
+      },
+      "aliases": [
+        "宜昌"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-hubei-u5f53u9633u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "当阳县"
+      },
+      "shortName": {
+        "zh": "当阳"
+      },
+      "aliases": [
+        "当阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-shanxi-u9eceu57ceu53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "黎城县"
+      },
+      "shortName": {
+        "zh": "黎城"
+      },
+      "aliases": [
+        "黎城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-overseas-u590fu5a01u5937u73cdu73e0u6e2f",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "夏威夷珍珠港"
+      },
+      "shortName": {
+        "zh": "夏威夷珍珠港"
+      },
+      "aliases": [
+        "美国夏威夷珍珠港",
+        "美国夏威夷珍珠港"
+      ],
+      "modernName": {
+        "zh": "美国夏威夷珍珠港"
+      },
+      "point": [
+        157.86,
+        21.31
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "美国夏威夷珍珠港",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-hongkong-u9999u6e2f",
+      "level": "place",
+      "parentId": "hongkong",
+      "name": {
+        "zh": "香港"
+      },
+      "shortName": {
+        "zh": "香港"
+      },
+      "aliases": [
+        "香港",
+        "香港"
+      ],
+      "modernName": {
+        "zh": "香港"
+      },
+      "point": [
+        114.17,
+        22.32
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "香港",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-guangdong-u6df1u5733",
+      "level": "place",
+      "parentId": "county-guangdong-u5b9du5b89u53bf",
+      "name": {
+        "zh": "深圳"
+      },
+      "shortName": {
+        "zh": "深圳"
+      },
+      "aliases": [
+        "广东深圳",
+        "广东深圳"
+      ],
+      "modernName": {
+        "zh": "广东深圳"
+      },
+      "point": [
+        114.1,
+        22.55
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东深圳",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-overseas-u4ef0u5149",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "仰光"
+      },
+      "shortName": {
+        "zh": "仰光"
+      },
+      "aliases": [
+        "缅甸仰光",
+        "缅甸仰光"
+      ],
+      "modernName": {
+        "zh": "缅甸仰光"
+      },
+      "point": [
+        96.16,
+        16.87
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "缅甸仰光",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-hongkong-u897fu8d21",
+      "level": "place",
+      "parentId": "hongkong",
+      "name": {
+        "zh": "西贡"
+      },
+      "shortName": {
+        "zh": "西贡"
+      },
+      "aliases": [
+        "香港西贡",
+        "香港西贡"
+      ],
+      "modernName": {
+        "zh": "香港西贡"
+      },
+      "point": [
+        114.27,
+        22.38
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "香港西贡",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-overseas-u540cu53e4",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "同古"
+      },
+      "shortName": {
+        "zh": "同古"
+      },
+      "aliases": [
+        "缅甸同古",
+        "缅甸同古"
+      ],
+      "modernName": {
+        "zh": "缅甸同古"
+      },
+      "point": [
+        96.43,
+        19.43
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "缅甸同古",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-guangdong-u743cu5c71",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "琼山"
+      },
+      "shortName": {
+        "zh": "琼山"
+      },
+      "aliases": [
+        "海南琼山",
+        "海南琼山"
+      ],
+      "modernName": {
+        "zh": "海南琼山"
+      },
+      "point": [
+        110.35,
+        19.98
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南琼山",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-overseas-u66fcu5fb7u52d2",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "曼德勒"
+      },
+      "shortName": {
+        "zh": "曼德勒"
+      },
+      "aliases": [
+        "缅甸曼德勒",
+        "缅甸曼德勒"
+      ],
+      "modernName": {
+        "zh": "缅甸曼德勒"
+      },
+      "point": [
+        96.08,
+        21.98
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "缅甸曼德勒",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-hebei-u5180u4e2d",
+      "level": "place",
+      "parentId": "hebei",
+      "name": {
+        "zh": "冀中"
+      },
+      "shortName": {
+        "zh": "冀中"
+      },
+      "aliases": [
+        "河北冀中（河间、饶阳一带）",
+        "河北冀中"
+      ],
+      "modernName": {
+        "zh": "河北冀中（河间、饶阳一带）"
+      },
+      "point": [
+        115.9,
+        38.4
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北冀中（河间、饶阳一带）",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-zhejiang-u91d1u534eu53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "金华县"
+      },
+      "shortName": {
+        "zh": "金华"
+      },
+      "aliases": [
+        "金华"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-zhejiang-u8862u53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "衢县"
+      },
+      "shortName": {
+        "zh": "衢"
+      },
+      "aliases": [
+        "衢"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-zhejiang-u8862u5dde",
+      "level": "place",
+      "parentId": "county-zhejiang-u8862u53bf",
+      "name": {
+        "zh": "衢州"
+      },
+      "shortName": {
+        "zh": "衢州"
+      },
+      "aliases": [
+        "浙江衢州",
+        "浙江衢州"
+      ],
+      "modernName": {
+        "zh": "浙江衢州"
+      },
+      "point": [
+        118.87,
+        28.97
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "浙江衢州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-zhejiang-u6c5fu5c71u53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "江山县"
+      },
+      "shortName": {
+        "zh": "江山"
+      },
+      "aliases": [
+        "江山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-jiangxi-u4e0au9976u53bf",
+      "level": "county",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "上饶县"
+      },
+      "shortName": {
+        "zh": "上饶"
+      },
+      "aliases": [
+        "上饶"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-zhejiang-u676du5dde",
+      "level": "place",
+      "parentId": "county-zhejiang-u676du53bf",
+      "name": {
+        "zh": "杭州"
+      },
+      "shortName": {
+        "zh": "杭州"
+      },
+      "aliases": [
+        "浙江杭州",
+        "浙江杭州"
+      ],
+      "modernName": {
+        "zh": "浙江杭州"
+      },
+      "point": [
+        120.15,
+        30.27
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "浙江杭州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-yunnan-u4fddu5c71u53bf",
+      "level": "county",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "保山县"
+      },
+      "shortName": {
+        "zh": "保山"
+      },
+      "aliases": [
+        "保山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-overseas-u82f1u5e15u5c14",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "英帕尔"
+      },
+      "shortName": {
+        "zh": "英帕尔"
+      },
+      "aliases": [
+        "印度英帕尔",
+        "印度英帕尔"
+      ],
+      "modernName": {
+        "zh": "印度英帕尔"
+      },
+      "point": [
+        93.94,
+        24.82
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "印度英帕尔",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-overseas-u96f7u591a",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "雷多"
+      },
+      "shortName": {
+        "zh": "雷多"
+      },
+      "aliases": [
+        "印度雷多",
+        "印度雷多"
+      ],
+      "modernName": {
+        "zh": "印度雷多"
+      },
+      "point": [
+        95.74,
+        27.3
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "印度雷多",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-yunnan-u695au96c4u53bf",
+      "level": "county",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "楚雄县"
+      },
+      "shortName": {
+        "zh": "楚雄"
+      },
+      "aliases": [
+        "楚雄"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hubei-u77f3u724c",
+      "level": "place",
+      "parentId": "county-hubei-u5b9cu660cu53bf",
+      "name": {
+        "zh": "石牌"
+      },
+      "shortName": {
+        "zh": "石牌"
+      },
+      "aliases": [
+        "湖北石牌",
+        "湖北石牌"
+      ],
+      "modernName": {
+        "zh": "湖北石牌"
+      },
+      "point": [
+        111,
+        30.7
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖北石牌",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-henan-u6797u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "林县"
+      },
+      "shortName": {
+        "zh": "林"
+      },
+      "aliases": [
+        "林"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-henan-u5b89u9633u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "安阳县"
+      },
+      "shortName": {
+        "zh": "安阳"
+      },
+      "aliases": [
+        "安阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u5b9du5b89u5927u9e4f",
+      "level": "place",
+      "parentId": "county-guangdong-u5b9du5b89u53bf",
+      "name": {
+        "zh": "大鹏"
+      },
+      "shortName": {
+        "zh": "大鹏"
+      },
+      "aliases": [
+        "广东宝安大鹏",
+        "广东宝安大鹏"
+      ],
+      "modernName": {
+        "zh": "广东宝安大鹏"
+      },
+      "point": [
+        114.5,
+        22.6
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东宝安大鹏",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-hubei-u5b9cu660cu77f3u724c",
+      "level": "place",
+      "parentId": "county-hubei-u5b9cu660cu53bf",
+      "name": {
+        "zh": "石牌"
+      },
+      "shortName": {
+        "zh": "石牌"
+      },
+      "aliases": [
+        "湖北宜昌石牌",
+        "湖北宜昌石牌"
+      ],
+      "modernName": {
+        "zh": "湖北宜昌石牌"
+      },
+      "point": [
+        111.28,
+        30.78
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖北宜昌石牌",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hubei-u6c5fu9675u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "江陵县"
+      },
+      "shortName": {
+        "zh": "江陵"
+      },
+      "aliases": [
+        "江陵"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hubei-u8346u5dde",
+      "level": "place",
+      "parentId": "county-hubei-u6c5fu9675u53bf",
+      "name": {
+        "zh": "荆州"
+      },
+      "shortName": {
+        "zh": "荆州"
+      },
+      "aliases": [
+        "湖北荆州",
+        "湖北荆州"
+      ],
+      "modernName": {
+        "zh": "湖北荆州"
+      },
+      "point": [
+        112.24,
+        30.33
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖北荆州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hubei-u6069u65bdu53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "恩施县"
+      },
+      "shortName": {
+        "zh": "恩施"
+      },
+      "aliases": [
+        "恩施"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u767du6c99",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "白沙"
+      },
+      "shortName": {
+        "zh": "白沙"
+      },
+      "aliases": [
+        "海南白沙",
+        "海南白沙"
+      ],
+      "modernName": {
+        "zh": "海南白沙"
+      },
+      "point": [
+        109.45,
+        19.22
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南白沙",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u510bu5dde",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "儋州"
+      },
+      "shortName": {
+        "zh": "儋州"
+      },
+      "aliases": [
+        "海南儋州",
+        "海南儋州"
+      ],
+      "modernName": {
+        "zh": "海南儋州"
+      },
+      "point": [
+        109.58,
+        19.52
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南儋州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-overseas-u5229u591a",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "利多"
+      },
+      "shortName": {
+        "zh": "利多"
+      },
+      "aliases": [
+        "印度利多",
+        "印度利多"
+      ],
+      "modernName": {
+        "zh": "印度利多"
+      },
+      "point": [
+        95.74,
+        27.3
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "印度利多",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-hunan-u5e38u5fb7u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "常德县"
+      },
+      "shortName": {
+        "zh": "常德"
+      },
+      "aliases": [
+        "常德"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-shanxi-u6d2au6d1eu53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "洪洞县"
+      },
+      "shortName": {
+        "zh": "洪洞"
+      },
+      "aliases": [
+        "洪洞"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-shanxi-u6d2au6d1eu97e9u7565u6751",
+      "level": "place",
+      "parentId": "county-shanxi-u6d2au6d1eu53bf",
+      "name": {
+        "zh": "韩略村"
+      },
+      "shortName": {
+        "zh": "韩略村"
+      },
+      "aliases": [
+        "山西洪洞韩略村",
+        "山西洪洞韩略村"
+      ],
+      "modernName": {
+        "zh": "山西洪洞韩略村"
+      },
+      "point": [
+        111.75,
+        36.25
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西洪洞韩略村",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hubei-u516cu5b89u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "公安县"
+      },
+      "shortName": {
+        "zh": "公安"
+      },
+      "aliases": [
+        "公安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-overseas-u5f00u7f57",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "开罗"
+      },
+      "shortName": {
+        "zh": "开罗"
+      },
+      "aliases": [
+        "埃及开罗",
+        "埃及开罗"
+      ],
+      "modernName": {
+        "zh": "埃及开罗"
+      },
+      "point": [
+        31.24,
+        30.04
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "埃及开罗",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-jiangsu-u6deeu5b89u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "淮安县"
+      },
+      "shortName": {
+        "zh": "淮安"
+      },
+      "aliases": [
+        "淮安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-jiangsu-u6deeu5b89u8f66u6865",
+      "level": "place",
+      "parentId": "county-jiangsu-u6deeu5b89u53bf",
+      "name": {
+        "zh": "车桥"
+      },
+      "shortName": {
+        "zh": "车桥"
+      },
+      "aliases": [
+        "江苏淮安车桥",
+        "江苏淮安车桥"
+      ],
+      "modernName": {
+        "zh": "江苏淮安车桥"
+      },
+      "point": [
+        119.3,
+        33.4
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江苏淮安车桥",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-henan-u8bb8u660cu53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "许昌县"
+      },
+      "shortName": {
+        "zh": "许昌"
+      },
+      "aliases": [
+        "许昌"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-yunnan-u9f99u9675u53bf",
+      "level": "county",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "龙陵县"
+      },
+      "shortName": {
+        "zh": "龙陵"
+      },
+      "aliases": [
+        "龙陵"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-yunnan-u817eu51b2u53bf",
+      "level": "county",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "腾冲县"
+      },
+      "shortName": {
+        "zh": "腾冲"
+      },
+      "aliases": [
+        "腾冲"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-henan-u9655u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "陕县"
+      },
+      "shortName": {
+        "zh": "陕"
+      },
+      "aliases": [
+        "陕"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-yunnan-u677eu5c71",
+      "level": "place",
+      "parentId": "county-yunnan-u9f99u9675u53bf",
+      "name": {
+        "zh": "松山"
+      },
+      "shortName": {
+        "zh": "松山"
+      },
+      "aliases": [
+        "云南松山",
+        "云南松山"
+      ],
+      "modernName": {
+        "zh": "云南松山"
+      },
+      "point": [
+        98.9,
+        24.8
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "云南松山",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-yunnan-u9f99u9675u677eu5c71",
+      "level": "place",
+      "parentId": "county-yunnan-u9f99u9675u53bf",
+      "name": {
+        "zh": "松山"
+      },
+      "shortName": {
+        "zh": "松山"
+      },
+      "aliases": [
+        "云南龙陵松山",
+        "云南龙陵松山"
+      ],
+      "modernName": {
+        "zh": "云南龙陵松山"
+      },
+      "point": [
+        98.79,
+        24.75
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "云南龙陵松山",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hunan-u8861u9633u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "衡阳县"
+      },
+      "shortName": {
+        "zh": "衡阳"
+      },
+      "aliases": [
+        "衡阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-guangdong-u4fddu4eadu53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "保亭县"
+      },
+      "shortName": {
+        "zh": "保亭"
+      },
+      "aliases": [
+        "保亭"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u4e94u6307u5c71",
+      "level": "place",
+      "parentId": "county-guangdong-u4fddu4eadu53bf",
+      "name": {
+        "zh": "五指山"
+      },
+      "shortName": {
+        "zh": "五指山"
+      },
+      "aliases": [
+        "海南五指山",
+        "海南五指山"
+      ],
+      "modernName": {
+        "zh": "海南五指山"
+      },
+      "point": [
+        109.5,
+        18.9
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南五指山",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u4e2du5c71u4e94u6842u5c71",
+      "level": "place",
+      "parentId": "county-guangdong-u4e2du5c71u53bf",
+      "name": {
+        "zh": "五桂山"
+      },
+      "shortName": {
+        "zh": "五桂山"
+      },
+      "aliases": [
+        "广东中山五桂山",
+        "广东中山五桂山"
+      ],
+      "modernName": {
+        "zh": "广东中山五桂山"
+      },
+      "point": [
+        113.4,
+        22.4
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东中山五桂山",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u660cu6c5fu53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "昌江县"
+      },
+      "shortName": {
+        "zh": "昌江"
+      },
+      "aliases": [
+        "昌江"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u4e1cu65b9",
+      "level": "place",
+      "parentId": "county-guangdong-u660cu6c5fu53bf",
+      "name": {
+        "zh": "东方"
+      },
+      "shortName": {
+        "zh": "东方"
+      },
+      "aliases": [
+        "海南东方",
+        "海南东方"
+      ],
+      "modernName": {
+        "zh": "海南东方"
+      },
+      "point": [
+        108.65,
+        19.1
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南东方",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hunan-u82b7u6c5fu53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "芷江县"
+      },
+      "shortName": {
+        "zh": "芷江"
+      },
+      "aliases": [
+        "芷江"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u6f6eu6c55",
+      "level": "place",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "潮汕"
+      },
+      "shortName": {
+        "zh": "潮汕"
+      },
+      "aliases": [
+        "广东潮汕",
+        "广东潮汕"
+      ],
+      "modernName": {
+        "zh": "广东潮汕"
+      },
+      "point": [
+        116.6,
+        23.6
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东潮汕",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-guangdong-u9042u6eaau53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "遂溪县"
+      },
+      "shortName": {
+        "zh": "遂溪"
+      },
+      "aliases": [
+        "遂溪"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-guangdong-u5357u96c4u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "南雄县"
+      },
+      "shortName": {
+        "zh": "南雄"
+      },
+      "aliases": [
+        "南雄"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-guangdong-u535au7f57u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "博罗县"
+      },
+      "shortName": {
+        "zh": "博罗"
+      },
+      "aliases": [
+        "博罗"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-guangdong-u65b0u4f1au53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "新会县"
+      },
+      "shortName": {
+        "zh": "新会"
+      },
+      "aliases": [
+        "新会"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-yunnan-u7579u753au9547",
+      "level": "county",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "畹町镇"
+      },
+      "shortName": {
+        "zh": "畹町镇"
+      },
+      "aliases": [
+        "畹町镇"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-yunnan-u7579u753a",
+      "level": "place",
+      "parentId": "county-yunnan-u7579u753au9547",
+      "name": {
+        "zh": "畹町"
+      },
+      "shortName": {
+        "zh": "畹町"
+      },
+      "aliases": [
+        "云南畹町",
+        "云南畹町"
+      ],
+      "modernName": {
+        "zh": "云南畹町"
+      },
+      "point": [
+        98.07,
+        24.08
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "云南畹町",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u6d77u4e30u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "海丰县"
+      },
+      "shortName": {
+        "zh": "海丰"
+      },
+      "aliases": [
+        "海丰"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-hunan-u6c85u9675u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "沅陵县"
+      },
+      "shortName": {
+        "zh": "沅陵"
+      },
+      "aliases": [
+        "沅陵"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-henan-u5357u9633u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "南阳县"
+      },
+      "shortName": {
+        "zh": "南阳"
+      },
+      "aliases": [
+        "南阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-hubei-u8944u9633u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "襄阳县"
+      },
+      "shortName": {
+        "zh": "襄阳"
+      },
+      "aliases": [
+        "襄阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-guangdong-u4e91u6d6eu53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "云浮县"
+      },
+      "shortName": {
+        "zh": "云浮"
+      },
+      "aliases": [
+        "云浮"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-hunan-u90b5u9633u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "邵阳县"
+      },
+      "shortName": {
+        "zh": "邵阳"
+      },
+      "aliases": [
+        "邵阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u4e34u9ad8",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "临高"
+      },
+      "shortName": {
+        "zh": "临高"
+      },
+      "aliases": [
+        "海南临高",
+        "海南临高"
+      ],
+      "modernName": {
+        "zh": "海南临高"
+      },
+      "point": [
+        109.69,
+        19.91
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南临高",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u9ad8u8981u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "高要县"
+      },
+      "shortName": {
+        "zh": "高要"
+      },
+      "aliases": [
+        "高要"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u4e50u4e1c",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "乐东"
+      },
+      "shortName": {
+        "zh": "乐东"
+      },
+      "aliases": [
+        "海南乐东",
+        "海南乐东"
+      ],
+      "modernName": {
+        "zh": "海南乐东"
+      },
+      "point": [
+        109.17,
+        18.75
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南乐东",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u548cu5e73u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "和平县"
+      },
+      "shortName": {
+        "zh": "和平"
+      },
+      "aliases": [
+        "和平"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-overseas-u5e7fu5c9b",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "广岛"
+      },
+      "shortName": {
+        "zh": "广岛"
+      },
+      "aliases": [
+        "日本广岛",
+        "日本广岛"
+      ],
+      "modernName": {
+        "zh": "日本广岛"
+      },
+      "point": [
+        132.45,
+        34.39
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "日本广岛",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-heilongjiang-u4e2du56fdu4e1cu5317",
+      "level": "place",
+      "parentId": "heilongjiang",
+      "name": {
+        "zh": "中国东北"
+      },
+      "shortName": {
+        "zh": "中国东北"
+      },
+      "aliases": [
+        "中国东北（哈尔滨方向）",
+        "中国东北"
+      ],
+      "modernName": {
+        "zh": "中国东北（哈尔滨方向）"
+      },
+      "point": [
+        126.53,
+        45.8
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "中国东北（哈尔滨方向）",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-overseas-u4e1cu4eacu6e7eu7f8eu56fd-u5bc6u82cfu91cc-u53f7u6218u5217u82",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "东京湾美国“密苏里”号战列舰"
+      },
+      "shortName": {
+        "zh": "东京湾美国“密苏里”号战列舰"
+      },
+      "aliases": [
+        "日本东京湾美国“密苏里”号战列舰",
+        "日本东京湾美国“密苏里”号战列舰"
+      ],
+      "modernName": {
+        "zh": "日本东京湾美国“密苏里”号战列舰"
+      },
+      "point": [
+        139.75,
+        35.3
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "日本东京湾美国“密苏里”号战列舰",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-guangdong-u743cu5c71u5929u5c3eu6e2f",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "琼山天尾港"
+      },
+      "shortName": {
+        "zh": "琼山天尾港"
+      },
+      "aliases": [
+        "海南琼山天尾港（今海口西北）",
+        "海南琼山天尾港"
+      ],
+      "modernName": {
+        "zh": "海南琼山天尾港（今海口西北）"
+      },
+      "point": [
+        110.15,
+        20
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南琼山天尾港（今海口西北）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u6d77u53e3-u5e9cu57ce",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "海口、府城"
+      },
+      "shortName": {
+        "zh": "海口、府城"
+      },
+      "aliases": [
+        "海南海口、府城",
+        "海南海口、府城"
+      ],
+      "modernName": {
+        "zh": "海南海口、府城"
+      },
+      "point": [
+        110.34,
+        20.01
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南海口、府城",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u5d16u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "崖县"
+      },
+      "shortName": {
+        "zh": "崖"
+      },
+      "aliases": [
+        "崖"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u4e09u4e9a",
+      "level": "place",
+      "parentId": "county-guangdong-u5d16u53bf",
+      "name": {
+        "zh": "三亚"
+      },
+      "shortName": {
+        "zh": "三亚"
+      },
+      "aliases": [
+        "海南三亚",
+        "海南三亚"
+      ],
+      "modernName": {
+        "zh": "海南三亚"
+      },
+      "point": [
+        109.51,
+        18.25
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南三亚",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u743cu5c71u6f6du53e3u6e21u53e3",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "琼山潭口渡口"
+      },
+      "shortName": {
+        "zh": "琼山潭口渡口"
+      },
+      "aliases": [
+        "海南琼山潭口渡口",
+        "海南琼山潭口渡口"
+      ],
+      "modernName": {
+        "zh": "海南琼山潭口渡口"
+      },
+      "point": [
+        110.45,
+        19.95
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南琼山潭口渡口",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u660cu6c5fu77f3u788c",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "昌江石碌"
+      },
+      "shortName": {
+        "zh": "昌江石碌"
+      },
+      "aliases": [
+        "海南昌江石碌",
+        "海南昌江石碌"
+      ],
+      "modernName": {
+        "zh": "海南昌江石碌"
+      },
+      "point": [
+        109.05,
+        19.28
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南昌江石碌",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u743cu5c71u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "琼山县"
+      },
+      "shortName": {
+        "zh": "琼山"
+      },
+      "aliases": [
+        "琼山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u6d77u53e3",
+      "level": "place",
+      "parentId": "county-guangdong-u743cu5c71u53bf",
+      "name": {
+        "zh": "海口"
+      },
+      "shortName": {
+        "zh": "海口"
+      },
+      "aliases": [
+        "海南海口",
+        "海南海口"
+      ],
+      "modernName": {
+        "zh": "海南海口"
+      },
+      "point": [
+        110.32,
+        20.03
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南海口",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jilin-u5409u6797u5e02",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "吉林市"
+      },
+      "shortName": {
+        "zh": "吉林"
+      },
+      "aliases": [
+        "吉林"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-heilongjiang-u9f50u9f50u54c8u5c14",
+      "level": "county",
+      "parentId": "heilongjiang",
+      "name": {
+        "zh": "齐齐哈尔"
+      },
+      "shortName": {
+        "zh": "齐齐哈尔"
+      },
+      "aliases": [
+        "齐齐哈尔"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-liaoning-u629au987au53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "抚顺县"
+      },
+      "shortName": {
+        "zh": "抚顺"
+      },
+      "aliases": [
+        "抚顺"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-liaoning-u629au987au5e73u9876u5c71",
+      "level": "place",
+      "parentId": "county-liaoning-u629au987au53bf",
+      "name": {
+        "zh": "平顶山"
+      },
+      "shortName": {
+        "zh": "平顶山"
+      },
+      "aliases": [
+        "辽宁抚顺平顶山",
+        "辽宁抚顺平顶山"
+      ],
+      "modernName": {
+        "zh": "辽宁抚顺平顶山"
+      },
+      "point": [
+        123.96,
+        41.88
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "辽宁抚顺平顶山",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-tianjin-u5929u6d25",
+      "level": "place",
+      "parentId": "tianjin",
+      "name": {
+        "zh": "天津"
+      },
+      "shortName": {
+        "zh": "天津"
+      },
+      "aliases": [
+        "天津",
+        "天津"
+      ],
+      "modernName": {
+        "zh": "天津"
+      },
+      "point": [
+        117.2,
+        39.13
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "天津",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-shanghai-u5434u6ddeu53e3u5916",
+      "level": "place",
+      "parentId": "shanghai",
+      "name": {
+        "zh": "吴淞口外"
+      },
+      "shortName": {
+        "zh": "吴淞口外"
+      },
+      "aliases": [
+        "上海吴淞口外",
+        "上海吴淞口外"
+      ],
+      "modernName": {
+        "zh": "上海吴淞口外"
+      },
+      "point": [
+        121.5,
+        31.4
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "上海吴淞口外",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-shandong-u5386u57ceu53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "历城县"
+      },
+      "shortName": {
+        "zh": "历城"
+      },
+      "aliases": [
+        "历城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-shandong-u6d4eu5357",
+      "level": "place",
+      "parentId": "county-shandong-u5386u57ceu53bf",
+      "name": {
+        "zh": "济南"
+      },
+      "shortName": {
+        "zh": "济南"
+      },
+      "aliases": [
+        "山东济南",
+        "山东济南"
+      ],
+      "modernName": {
+        "zh": "山东济南"
+      },
+      "point": [
+        117,
+        36.65
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山东济南",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-fujian-u53a6u95e8u5e02",
+      "level": "county",
+      "parentId": "fujian",
+      "name": {
+        "zh": "厦门市"
+      },
+      "shortName": {
+        "zh": "厦门"
+      },
+      "aliases": [
+        "厦门"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-fujian-u53a6u95e8u4e94u901a",
+      "level": "place",
+      "parentId": "county-fujian-u53a6u95e8u5e02",
+      "name": {
+        "zh": "五通"
+      },
+      "shortName": {
+        "zh": "五通"
+      },
+      "aliases": [
+        "福建厦门五通",
+        "福建厦门五通"
+      ],
+      "modernName": {
+        "zh": "福建厦门五通"
+      },
+      "point": [
+        118.18,
+        24.51
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "福建厦门五通",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jiangxi-u4e5du6c5fu53bf",
+      "level": "county",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "九江县"
+      },
+      "shortName": {
+        "zh": "九江"
+      },
+      "aliases": [
+        "九江"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u5b9du5b89u5357u5934",
+      "level": "place",
+      "parentId": "county-guangdong-u5b9du5b89u53bf",
+      "name": {
+        "zh": "南头"
+      },
+      "shortName": {
+        "zh": "南头"
+      },
+      "aliases": [
+        "广东宝安南头（今深圳）",
+        "广东宝安南头"
+      ],
+      "modernName": {
+        "zh": "广东宝安南头（今深圳）"
+      },
+      "point": [
+        113.92,
+        22.55
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东宝安南头（今深圳）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u6c55u5934u5e02",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "汕头市"
+      },
+      "shortName": {
+        "zh": "汕头"
+      },
+      "aliases": [
+        "汕头"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u6c55u5934u5988u5c7fu5c9b",
+      "level": "place",
+      "parentId": "county-guangdong-u6c55u5934u5e02",
+      "name": {
+        "zh": "妈屿岛"
+      },
+      "shortName": {
+        "zh": "妈屿岛"
+      },
+      "aliases": [
+        "广东汕头妈屿岛",
+        "广东汕头妈屿岛"
+      ],
+      "modernName": {
+        "zh": "广东汕头妈屿岛"
+      },
+      "point": [
+        116.75,
+        23.33
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东汕头妈屿岛",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u6f6eu5b89u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "潮安县"
+      },
+      "shortName": {
+        "zh": "潮安"
+      },
+      "aliases": [
+        "潮安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u6f6eu5dde",
+      "level": "place",
+      "parentId": "county-guangdong-u6f6eu5b89u53bf",
+      "name": {
+        "zh": "潮州"
+      },
+      "shortName": {
+        "zh": "潮州"
+      },
+      "aliases": [
+        "广东潮州",
+        "广东潮州"
+      ],
+      "modernName": {
+        "zh": "广东潮州"
+      },
+      "point": [
+        116.62,
+        23.66
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东潮州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-overseas-u6cb3u5185",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "河内"
+      },
+      "shortName": {
+        "zh": "河内"
+      },
+      "aliases": [
+        "越南河内",
+        "越南河内"
+      ],
+      "modernName": {
+        "zh": "越南河内"
+      },
+      "point": [
+        105.85,
+        21.03
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "越南河内",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-zhejiang-u911eu53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "鄞县"
+      },
+      "shortName": {
+        "zh": "鄞"
+      },
+      "aliases": [
+        "鄞"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-zhejiang-u5b81u6ce2",
+      "level": "place",
+      "parentId": "county-zhejiang-u911eu53bf",
+      "name": {
+        "zh": "宁波"
+      },
+      "shortName": {
+        "zh": "宁波"
+      },
+      "aliases": [
+        "浙江宁波",
+        "浙江宁波"
+      ],
+      "modernName": {
+        "zh": "浙江宁波"
+      },
+      "point": [
+        121.55,
+        29.87
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "浙江宁波",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hebei-u4e30u6da6u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "丰润县"
+      },
+      "shortName": {
+        "zh": "丰润"
+      },
+      "aliases": [
+        "丰润"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hebei-u4e30u6da6u6f58u5bb6u5cea",
+      "level": "place",
+      "parentId": "county-hebei-u4e30u6da6u53bf",
+      "name": {
+        "zh": "潘家峪"
+      },
+      "shortName": {
+        "zh": "潘家峪"
+      },
+      "aliases": [
+        "河北丰润潘家峪",
+        "河北丰润潘家峪"
+      ],
+      "modernName": {
+        "zh": "河北丰润潘家峪"
+      },
+      "point": [
+        118.16,
+        39.98
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北丰润潘家峪",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-zhejiang-u7ecdu5174u53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "绍兴县"
+      },
+      "shortName": {
+        "zh": "绍兴"
+      },
+      "aliases": [
+        "绍兴"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-zhejiang-u9547u6d77u53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "镇海县"
+      },
+      "shortName": {
+        "zh": "镇海"
+      },
+      "aliases": [
+        "镇海"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-zhejiang-u745eu5b89u53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "瑞安县"
+      },
+      "shortName": {
+        "zh": "瑞安"
+      },
+      "aliases": [
+        "瑞安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-zhejiang-u6c38u5609u53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "永嘉县"
+      },
+      "shortName": {
+        "zh": "永嘉"
+      },
+      "aliases": [
+        "永嘉"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-zhejiang-u6e29u5dde",
+      "level": "place",
+      "parentId": "county-zhejiang-u6c38u5609u53bf",
+      "name": {
+        "zh": "温州"
+      },
+      "shortName": {
+        "zh": "温州"
+      },
+      "aliases": [
+        "浙江温州",
+        "浙江温州"
+      ],
+      "modernName": {
+        "zh": "浙江温州"
+      },
+      "point": [
+        120.7,
+        28
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "浙江温州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-fujian-u95fdu6c5fu53e3",
+      "level": "place",
+      "parentId": "fujian",
+      "name": {
+        "zh": "闽江口"
+      },
+      "shortName": {
+        "zh": "闽江口"
+      },
+      "aliases": [
+        "福建闽江口",
+        "福建闽江口"
+      ],
+      "modernName": {
+        "zh": "福建闽江口"
+      },
+      "point": [
+        119.6,
+        26.05
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "福建闽江口",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-shanghai-u516cu5171u79dfu754c",
+      "level": "place",
+      "parentId": "shanghai",
+      "name": {
+        "zh": "公共租界"
+      },
+      "shortName": {
+        "zh": "公共租界"
+      },
+      "aliases": [
+        "上海公共租界",
+        "上海公共租界"
+      ],
+      "modernName": {
+        "zh": "上海公共租界"
+      },
+      "point": [
+        121.47,
+        31.23
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "上海公共租界",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-hebei-u5180u4e2d-2",
+      "level": "place",
+      "parentId": "hebei",
+      "name": {
+        "zh": "冀中"
+      },
+      "shortName": {
+        "zh": "冀中"
+      },
+      "aliases": [
+        "河北冀中（深县一带）",
+        "河北冀中"
+      ],
+      "modernName": {
+        "zh": "河北冀中（深县一带）"
+      },
+      "point": [
+        115.56,
+        38
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北冀中（深县一带）",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-yunnan-u6012u6c5fu60e0u901au6865",
+      "level": "place",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "怒江惠通桥"
+      },
+      "shortName": {
+        "zh": "怒江惠通桥"
+      },
+      "aliases": [
+        "云南怒江惠通桥",
+        "云南怒江惠通桥"
+      ],
+      "modernName": {
+        "zh": "云南怒江惠通桥"
+      },
+      "point": [
+        98.87,
+        24.98
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "云南怒江惠通桥",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-hebei-u5b9au53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "定县"
+      },
+      "shortName": {
+        "zh": "定"
+      },
+      "aliases": [
+        "定"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hebei-u5b9au53bfu5317u7583",
+      "level": "place",
+      "parentId": "county-hebei-u5b9au53bf",
+      "name": {
+        "zh": "北疃"
+      },
+      "shortName": {
+        "zh": "北疃"
+      },
+      "aliases": [
+        "河北定县北疃",
+        "河北定县北疃"
+      ],
+      "modernName": {
+        "zh": "河北定县北疃"
+      },
+      "point": [
+        114.99,
+        38.52
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北定县北疃",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-zhejiang-u8862u5dde-u91d1u534e-u7389u5c71u4e00u5e26",
+      "level": "place",
+      "parentId": "county-zhejiang-u8862u53bf",
+      "name": {
+        "zh": "、金华、玉山一带"
+      },
+      "shortName": {
+        "zh": "、金华、玉山一带"
+      },
+      "aliases": [
+        "浙江衢州、金华、玉山一带",
+        "浙江衢州、金华、玉山一带"
+      ],
+      "modernName": {
+        "zh": "浙江衢州、金华、玉山一带"
+      },
+      "point": [
+        118.87,
+        28.97
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "浙江衢州、金华、玉山一带",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hunan-u5357u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "南县"
+      },
+      "shortName": {
+        "zh": "南"
+      },
+      "aliases": [
+        "南"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hunan-u5357u53bfu5382u7a96",
+      "level": "place",
+      "parentId": "county-hunan-u5357u53bf",
+      "name": {
+        "zh": "厂窖"
+      },
+      "shortName": {
+        "zh": "厂窖"
+      },
+      "aliases": [
+        "湖南南县厂窖",
+        "湖南南县厂窖"
+      ],
+      "modernName": {
+        "zh": "湖南南县厂窖"
+      },
+      "point": [
+        112.28,
+        29.13
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖南南县厂窖",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guizhou-u72ecu5c71u53bf",
+      "level": "county",
+      "parentId": "guizhou",
+      "name": {
+        "zh": "独山县"
+      },
+      "shortName": {
+        "zh": "独山"
+      },
+      "aliases": [
+        "独山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-hubei-u5149u5316u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "光化县"
+      },
+      "shortName": {
+        "zh": "光化"
+      },
+      "aliases": [
+        "光化"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hubei-u8001u6cb3u53e3",
+      "level": "place",
+      "parentId": "county-hubei-u5149u5316u53bf",
+      "name": {
+        "zh": "老河口"
+      },
+      "shortName": {
+        "zh": "老河口"
+      },
+      "aliases": [
+        "湖北老河口",
+        "湖北老河口"
+      ],
+      "modernName": {
+        "zh": "湖北老河口"
+      },
+      "point": [
+        111.67,
+        32.38
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖北老河口",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-taiwan-u53f0u5317u5dde",
+      "level": "county",
+      "parentId": "taiwan",
+      "name": {
+        "zh": "台北州"
+      },
+      "shortName": {
+        "zh": "台北州"
+      },
+      "aliases": [
+        "台北州"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-taiwan-u53f0u5317",
+      "level": "place",
+      "parentId": "county-taiwan-u53f0u5317u5dde",
+      "name": {
+        "zh": "台北"
+      },
+      "shortName": {
+        "zh": "台北"
+      },
+      "aliases": [
+        "台湾台北",
+        "台湾台北"
+      ],
+      "modernName": {
+        "zh": "台湾台北"
+      },
+      "point": [
+        121.56,
+        25.03
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "台湾台北",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jiangsu-u91d1u5c71u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "金山县"
+      },
+      "shortName": {
+        "zh": "金山"
+      },
+      "aliases": [
+        "金山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-jiangsu-u91d1u5c71u536b",
+      "level": "place",
+      "parentId": "county-jiangsu-u91d1u5c71u53bf",
+      "name": {
+        "zh": "金山卫"
+      },
+      "shortName": {
+        "zh": "金山卫"
+      },
+      "aliases": [
+        "江苏金山卫（今属上海）",
+        "江苏金山卫"
+      ],
+      "modernName": {
+        "zh": "江苏金山卫（今属上海）"
+      },
+      "point": [
+        121.34,
+        30.74
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江苏金山卫（今属上海）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u6d77u5eb7u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "海康县"
+      },
+      "shortName": {
+        "zh": "海康"
+      },
+      "aliases": [
+        "海康"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u96f7u5ddeu901au660eu6e2f",
+      "level": "place",
+      "parentId": "county-guangdong-u6d77u5eb7u53bf",
+      "name": {
+        "zh": "通明港"
+      },
+      "shortName": {
+        "zh": "通明港"
+      },
+      "aliases": [
+        "广东雷州通明港",
+        "广东雷州通明港"
+      ],
+      "modernName": {
+        "zh": "广东雷州通明港"
+      },
+      "point": [
+        110.32,
+        20.86
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东雷州通明港",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u5e7fu5ddeu6e7eu897fu8425",
+      "level": "place",
+      "parentId": "county-guangdong-u9042u6eaau53bf",
+      "name": {
+        "zh": "西营"
+      },
+      "shortName": {
+        "zh": "西营"
+      },
+      "aliases": [
+        "广东广州湾西营（今湛江霞山）",
+        "广东广州湾西营"
+      ],
+      "modernName": {
+        "zh": "广东广州湾西营（今湛江霞山）"
+      },
+      "point": [
+        110.36,
+        21.27
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东广州湾西营（今湛江霞山）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u97f6u5173-2",
+      "level": "place",
+      "parentId": "county-guangdong-u66f2u6c5fu53bf",
+      "name": {
+        "zh": "韶关"
+      },
+      "shortName": {
+        "zh": "韶关"
+      },
+      "aliases": [
+        "广东韶关（曲江）",
+        "广东韶关"
+      ],
+      "modernName": {
+        "zh": "广东韶关（曲江）"
+      },
+      "point": [
+        113.6,
+        24.8
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东韶关（曲江）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jiangxi-u5927u5ebeu53bf",
+      "level": "county",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "大庾县"
+      },
+      "shortName": {
+        "zh": "大庾"
+      },
+      "aliases": [
+        "大庾"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-jiangxi-u5927u4f59",
+      "level": "place",
+      "parentId": "county-jiangxi-u5927u5ebeu53bf",
+      "name": {
+        "zh": "大余"
+      },
+      "shortName": {
+        "zh": "大余"
+      },
+      "aliases": [
+        "江西大余",
+        "江西大余"
+      ],
+      "modernName": {
+        "zh": "江西大余"
+      },
+      "point": [
+        114.36,
+        25.4
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江西大余",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jiangxi-u9042u5dddu53bf",
+      "level": "county",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "遂川县"
+      },
+      "shortName": {
+        "zh": "遂川"
+      },
+      "aliases": [
+        "遂川"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-jiangxi-u8d63u53bf",
+      "level": "county",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "赣县"
+      },
+      "shortName": {
+        "zh": "赣"
+      },
+      "aliases": [
+        "赣"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-jiangxi-u8d63u5dde",
+      "level": "place",
+      "parentId": "county-jiangxi-u8d63u53bf",
+      "name": {
+        "zh": "赣州"
+      },
+      "shortName": {
+        "zh": "赣州"
+      },
+      "aliases": [
+        "江西赣州",
+        "江西赣州"
+      ],
+      "modernName": {
+        "zh": "江西赣州"
+      },
+      "point": [
+        114.94,
+        25.85
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江西赣州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hebei-u77f3u95e8u5e02",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "石门市"
+      },
+      "shortName": {
+        "zh": "石门"
+      },
+      "aliases": [
+        "石门"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-hebei-u77f3u5bb6u5e84",
+      "level": "place",
+      "parentId": "county-hebei-u77f3u95e8u5e02",
+      "name": {
+        "zh": "石家庄"
+      },
+      "shortName": {
+        "zh": "石家庄"
+      },
+      "aliases": [
+        "河北石家庄",
+        "河北石家庄"
+      ],
+      "modernName": {
+        "zh": "河北石家庄"
+      },
+      "point": [
+        114.5,
+        38.04
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北石家庄",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-shanxi-u5e73u5b9au5a18u5b50u5173",
+      "level": "place",
+      "parentId": "county-shanxi-u5e73u5b9au53bf",
+      "name": {
+        "zh": "娘子关"
+      },
+      "shortName": {
+        "zh": "娘子关"
+      },
+      "aliases": [
+        "山西平定娘子关",
+        "山西平定娘子关"
+      ],
+      "modernName": {
+        "zh": "山西平定娘子关"
+      },
+      "point": [
+        113.8,
+        37.97
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西平定娘子关",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u5d16u53bfu7530u72ec",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "崖县田独"
+      },
+      "shortName": {
+        "zh": "崖县田独"
+      },
+      "aliases": [
+        "海南崖县田独（今三亚田独）",
+        "海南崖县田独"
+      ],
+      "modernName": {
+        "zh": "海南崖县田独（今三亚田独）"
+      },
+      "point": [
+        109.58,
+        18.32
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南崖县田独（今三亚田独）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u4e1cu65b9u516bu6240",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "东方八所"
+      },
+      "shortName": {
+        "zh": "东方八所"
+      },
+      "aliases": [
+        "海南东方八所",
+        "海南东方八所"
+      ],
+      "modernName": {
+        "zh": "海南东方八所"
+      },
+      "point": [
+        108.7,
+        19.1
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南东方八所",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u4e1cu65b9u5317u9ece",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "东方北黎"
+      },
+      "shortName": {
+        "zh": "东方北黎"
+      },
+      "aliases": [
+        "海南东方北黎",
+        "海南东方北黎"
+      ],
+      "modernName": {
+        "zh": "海南东方北黎"
+      },
+      "point": [
+        108.9,
+        19.1
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南东方北黎",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u4e09u4e9au7530u72ec",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "三亚田独"
+      },
+      "shortName": {
+        "zh": "三亚田独"
+      },
+      "aliases": [
+        "海南三亚田独",
+        "海南三亚田独"
+      ],
+      "modernName": {
+        "zh": "海南三亚田独"
+      },
+      "point": [
+        109.58,
+        18.32
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南三亚田独",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u743cu4e1cu53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "琼东县"
+      },
+      "shortName": {
+        "zh": "琼东"
+      },
+      "aliases": [
+        "琼东"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u5609u79ef",
+      "level": "place",
+      "parentId": "county-guangdong-u743cu4e1cu53bf",
+      "name": {
+        "zh": "嘉积"
+      },
+      "shortName": {
+        "zh": "嘉积"
+      },
+      "aliases": [
+        "海南嘉积（今琼海）",
+        "海南嘉积"
+      ],
+      "modernName": {
+        "zh": "海南嘉积（今琼海）"
+      },
+      "point": [
+        110.47,
+        19.25
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南嘉积（今琼海）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u5d16u53bfu5d16u57ce",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "崖县崖城"
+      },
+      "shortName": {
+        "zh": "崖县崖城"
+      },
+      "aliases": [
+        "海南崖县崖城（今三亚崖城）",
+        "海南崖县崖城"
+      ],
+      "modernName": {
+        "zh": "海南崖县崖城（今三亚崖城）"
+      },
+      "point": [
+        109.17,
+        18.37
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南崖县崖城（今三亚崖城）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u5b9au5b89",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "定安"
+      },
+      "shortName": {
+        "zh": "定安"
+      },
+      "aliases": [
+        "海南定安",
+        "海南定安"
+      ],
+      "modernName": {
+        "zh": "海南定安"
+      },
+      "point": [
+        110.32,
+        19.68
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南定安",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u6587u660cu6587u57ce",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "文昌文城"
+      },
+      "shortName": {
+        "zh": "文昌文城"
+      },
+      "aliases": [
+        "海南文昌文城",
+        "海南文昌文城"
+      ],
+      "modernName": {
+        "zh": "海南文昌文城"
+      },
+      "point": [
+        110.72,
+        19.55
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南文昌文城",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u6f84u8fc8u91d1u6c5f",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "澄迈金江"
+      },
+      "shortName": {
+        "zh": "澄迈金江"
+      },
+      "aliases": [
+        "海南澄迈金江",
+        "海南澄迈金江"
+      ],
+      "modernName": {
+        "zh": "海南澄迈金江"
+      },
+      "point": [
+        110,
+        19.74
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南澄迈金江",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u743cu4e1cu5609u79ef",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "琼东嘉积"
+      },
+      "shortName": {
+        "zh": "琼东嘉积"
+      },
+      "aliases": [
+        "海南琼东嘉积（今琼海）",
+        "海南琼东嘉积"
+      ],
+      "modernName": {
+        "zh": "海南琼东嘉积（今琼海）"
+      },
+      "point": [
+        110.47,
+        19.25
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南琼东嘉积（今琼海）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u510bu53bfu65b0u5dde",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "儋县新州"
+      },
+      "shortName": {
+        "zh": "儋县新州"
+      },
+      "aliases": [
+        "海南儋县新州",
+        "海南儋县新州"
+      ],
+      "modernName": {
+        "zh": "海南儋县新州"
+      },
+      "point": [
+        109.35,
+        19.75
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南儋县新州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u9675u6c34",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "陵水"
+      },
+      "shortName": {
+        "zh": "陵水"
+      },
+      "aliases": [
+        "海南陵水",
+        "海南陵水"
+      ],
+      "modernName": {
+        "zh": "海南陵水"
+      },
+      "point": [
+        110.04,
+        18.51
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南陵水",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u5c6fu660cu53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "屯昌县"
+      },
+      "shortName": {
+        "zh": "屯昌"
+      },
+      "aliases": [
+        "屯昌"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u611fu6069",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "感恩"
+      },
+      "shortName": {
+        "zh": "感恩"
+      },
+      "aliases": [
+        "海南感恩（今东方感城）",
+        "海南感恩"
+      ],
+      "modernName": {
+        "zh": "海南感恩（今东方感城）"
+      },
+      "point": [
+        108.68,
+        18.85
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南感恩（今东方感城）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u660cu6c5fu65b0u8857-u58a9u5934",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "昌江新街、墩头"
+      },
+      "shortName": {
+        "zh": "昌江新街、墩头"
+      },
+      "aliases": [
+        "海南昌江新街、墩头",
+        "海南昌江新街、墩头"
+      ],
+      "modernName": {
+        "zh": "海南昌江新街、墩头"
+      },
+      "point": [
+        108.9,
+        19.35
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南昌江新街、墩头",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u4fddu4ead",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "保亭"
+      },
+      "shortName": {
+        "zh": "保亭"
+      },
+      "aliases": [
+        "海南保亭",
+        "海南保亭"
+      ],
+      "modernName": {
+        "zh": "海南保亭"
+      },
+      "point": [
+        109.7,
+        18.64
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南保亭",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u4e50u4e1cu62b1u7531",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "乐东抱由"
+      },
+      "shortName": {
+        "zh": "乐东抱由"
+      },
+      "aliases": [
+        "海南乐东抱由",
+        "海南乐东抱由"
+      ],
+      "modernName": {
+        "zh": "海南乐东抱由"
+      },
+      "point": [
+        109.17,
+        18.75
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南乐东抱由",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u6f84u8fc8u6e7eu8001u57ceu9644u8fd1",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "澄迈湾老城附近"
+      },
+      "shortName": {
+        "zh": "澄迈湾老城附近"
+      },
+      "aliases": [
+        "海南澄迈湾老城附近",
+        "海南澄迈湾老城附近"
+      ],
+      "modernName": {
+        "zh": "海南澄迈湾老城附近"
+      },
+      "point": [
+        110.1,
+        19.95
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南澄迈湾老城附近",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u5d16u5ddeu6e7eu5934u7076u6e2f-u5927u65e6u6e2f-u9a6cu5cadu4e",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "崖州湾头灶港、大旦港、马岭一带"
+      },
+      "shortName": {
+        "zh": "崖州湾头灶港、大旦港、马岭一带"
+      },
+      "aliases": [
+        "海南崖州湾头灶港、大旦港、马岭一带",
+        "海南崖州湾头灶港、大旦港、马岭一带"
+      ],
+      "modernName": {
+        "zh": "海南崖州湾头灶港、大旦港、马岭一带"
+      },
+      "point": [
+        109.1,
+        18.35
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南崖州湾头灶港、大旦港、马岭一带",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u510bu53bfu767du9a6cu4e95",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "儋县白马井"
+      },
+      "shortName": {
+        "zh": "儋县白马井"
+      },
+      "aliases": [
+        "海南儋县白马井（洋浦港入口北岸）",
+        "海南儋县白马井"
+      ],
+      "modernName": {
+        "zh": "海南儋县白马井（洋浦港入口北岸）"
+      },
+      "point": [
+        109.2,
+        19.7
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南儋县白马井（洋浦港入口北岸）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u6587u660cu6e05u6f9cu6e2f",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "文昌清澜港"
+      },
+      "shortName": {
+        "zh": "文昌清澜港"
+      },
+      "aliases": [
+        "海南文昌清澜港",
+        "海南文昌清澜港"
+      ],
+      "modernName": {
+        "zh": "海南文昌清澜港"
+      },
+      "point": [
+        110.8,
+        19.55
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南文昌清澜港",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u660cu6c5fu516bu6240-u5317u9ece",
+      "level": "place",
+      "parentId": "hainan",
+      "name": {
+        "zh": "昌江八所、北黎"
+      },
+      "shortName": {
+        "zh": "昌江八所、北黎"
+      },
+      "aliases": [
+        "海南昌江八所、北黎（今东方）",
+        "海南昌江八所、北黎"
+      ],
+      "modernName": {
+        "zh": "海南昌江八所、北黎（今东方）"
+      },
+      "point": [
+        108.7,
+        19.1
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "海南昌江八所、北黎（今东方）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u4e2du5c71u4e09u7076u5c9b",
+      "level": "place",
+      "parentId": "county-guangdong-u4e2du5c71u53bf",
+      "name": {
+        "zh": "三灶岛"
+      },
+      "shortName": {
+        "zh": "三灶岛"
+      },
+      "aliases": [
+        "广东中山三灶岛（今珠海金湾）",
+        "广东中山三灶岛"
+      ],
+      "modernName": {
+        "zh": "广东中山三灶岛（今珠海金湾）"
+      },
+      "point": [
+        113.38,
+        22.04
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东中山三灶岛（今珠海金湾）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u4e09u7076u5c9bu83b2u5858u6e7e",
+      "level": "place",
+      "parentId": "county-guangdong-u4e2du5c71u53bf",
+      "name": {
+        "zh": "莲塘湾"
+      },
+      "shortName": {
+        "zh": "莲塘湾"
+      },
+      "aliases": [
+        "广东三灶岛莲塘湾",
+        "广东三灶岛莲塘湾"
+      ],
+      "modernName": {
+        "zh": "广东三灶岛莲塘湾"
+      },
+      "point": [
+        113.4,
+        22.02
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东三灶岛莲塘湾",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u4e09u7076u5c9b",
+      "level": "place",
+      "parentId": "county-guangdong-u4e2du5c71u53bf",
+      "name": {
+        "zh": "三灶岛"
+      },
+      "shortName": {
+        "zh": "三灶岛"
+      },
+      "aliases": [
+        "广东三灶岛",
+        "广东三灶岛"
+      ],
+      "modernName": {
+        "zh": "广东三灶岛"
+      },
+      "point": [
+        113.38,
+        22.04
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东三灶岛",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u60e0u9633u5e73u6d77-u7a14u5c71",
+      "level": "place",
+      "parentId": "county-guangdong-u60e0u9633u53bf",
+      "name": {
+        "zh": "平海、稔山"
+      },
+      "shortName": {
+        "zh": "平海、稔山"
+      },
+      "aliases": [
+        "广东惠阳平海、稔山",
+        "广东惠阳平海、稔山"
+      ],
+      "modernName": {
+        "zh": "广东惠阳平海、稔山"
+      },
+      "point": [
+        114.85,
+        22.8
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东惠阳平海、稔山",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u60e0u9633u76d0u7076u80cc",
+      "level": "place",
+      "parentId": "county-guangdong-u60e0u9633u53bf",
+      "name": {
+        "zh": "盐灶背"
+      },
+      "shortName": {
+        "zh": "盐灶背"
+      },
+      "aliases": [
+        "广东惠阳盐灶背",
+        "广东惠阳盐灶背"
+      ],
+      "modernName": {
+        "zh": "广东惠阳盐灶背"
+      },
+      "point": [
+        114.65,
+        22.75
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东惠阳盐灶背",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u60e0u9633u6fb3u5934-u971eu6d8c",
+      "level": "place",
+      "parentId": "county-guangdong-u60e0u9633u53bf",
+      "name": {
+        "zh": "澳头、霞涌"
+      },
+      "shortName": {
+        "zh": "澳头、霞涌"
+      },
+      "aliases": [
+        "广东惠阳澳头、霞涌",
+        "广东惠阳澳头、霞涌"
+      ],
+      "modernName": {
+        "zh": "广东惠阳澳头、霞涌"
+      },
+      "point": [
+        114.5,
+        22.7
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东惠阳澳头、霞涌",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u60e0u9633u6de1u6c34",
+      "level": "place",
+      "parentId": "county-guangdong-u60e0u9633u53bf",
+      "name": {
+        "zh": "淡水"
+      },
+      "shortName": {
+        "zh": "淡水"
+      },
+      "aliases": [
+        "广东惠阳淡水",
+        "广东惠阳淡水"
+      ],
+      "modernName": {
+        "zh": "广东惠阳淡水"
+      },
+      "point": [
+        114.45,
+        22.8
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东惠阳淡水",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u60e0u5dde",
+      "level": "place",
+      "parentId": "county-guangdong-u60e0u9633u53bf",
+      "name": {
+        "zh": "惠州"
+      },
+      "shortName": {
+        "zh": "惠州"
+      },
+      "aliases": [
+        "广东惠州",
+        "广东惠州"
+      ],
+      "modernName": {
+        "zh": "广东惠州"
+      },
+      "point": [
+        114.4,
+        23.1
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东惠州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u589eu57ceu53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "增城县"
+      },
+      "shortName": {
+        "zh": "增城"
+      },
+      "aliases": [
+        "增城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u4e1cu839eu864eu95e8",
+      "level": "place",
+      "parentId": "county-guangdong-u4e1cu839eu53bf",
+      "name": {
+        "zh": "虎门"
+      },
+      "shortName": {
+        "zh": "虎门"
+      },
+      "aliases": [
+        "广东东莞虎门",
+        "广东东莞虎门"
+      ],
+      "modernName": {
+        "zh": "广东东莞虎门"
+      },
+      "point": [
+        113.67,
+        22.81
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东东莞虎门",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u5357u6d77u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "南海县"
+      },
+      "shortName": {
+        "zh": "南海"
+      },
+      "aliases": [
+        "南海"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u4f5bu5c71",
+      "level": "place",
+      "parentId": "county-guangdong-u5357u6d77u53bf",
+      "name": {
+        "zh": "佛山"
+      },
+      "shortName": {
+        "zh": "佛山"
+      },
+      "aliases": [
+        "广东佛山",
+        "广东佛山"
+      ],
+      "modernName": {
+        "zh": "广东佛山"
+      },
+      "point": [
+        113.12,
+        23.02
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东佛山",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u987au5fb7u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "顺德县"
+      },
+      "shortName": {
+        "zh": "顺德"
+      },
+      "aliases": [
+        "顺德"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-guangdong-u756au79bau53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "番禺县"
+      },
+      "shortName": {
+        "zh": "番禺"
+      },
+      "aliases": [
+        "番禺"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u6c5fu95e8",
+      "level": "place",
+      "parentId": "county-guangdong-u65b0u4f1au53bf",
+      "name": {
+        "zh": "江门"
+      },
+      "shortName": {
+        "zh": "江门"
+      },
+      "aliases": [
+        "广东江门",
+        "广东江门"
+      ],
+      "modernName": {
+        "zh": "广东江门"
+      },
+      "point": [
+        113.08,
+        22.58
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东江门",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u65b0u4f1au4f1au57ce",
+      "level": "place",
+      "parentId": "county-guangdong-u65b0u4f1au53bf",
+      "name": {
+        "zh": "会城"
+      },
+      "shortName": {
+        "zh": "会城"
+      },
+      "aliases": [
+        "广东新会会城",
+        "广东新会会城"
+      ],
+      "modernName": {
+        "zh": "广东新会会城"
+      },
+      "point": [
+        113.03,
+        22.52
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东新会会城",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u4e2du5c71u77f3u5c90",
+      "level": "place",
+      "parentId": "county-guangdong-u4e2du5c71u53bf",
+      "name": {
+        "zh": "石岐"
+      },
+      "shortName": {
+        "zh": "石岐"
+      },
+      "aliases": [
+        "广东中山石岐",
+        "广东中山石岐"
+      ],
+      "modernName": {
+        "zh": "广东中山石岐"
+      },
+      "point": [
+        113.38,
+        22.52
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东中山石岐",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u4e2du5c71u5510u5bb6-u9999u6d32",
+      "level": "place",
+      "parentId": "county-guangdong-u4e2du5c71u53bf",
+      "name": {
+        "zh": "唐家、香洲"
+      },
+      "shortName": {
+        "zh": "唐家、香洲"
+      },
+      "aliases": [
+        "广东中山唐家、香洲（今珠海）",
+        "广东中山唐家、香洲"
+      ],
+      "modernName": {
+        "zh": "广东中山唐家、香洲（今珠海）"
+      },
+      "point": [
+        113.58,
+        22.37
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东中山唐家、香洲（今珠海）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u5357u6fb3u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "南澳县"
+      },
+      "shortName": {
+        "zh": "南澳"
+      },
+      "aliases": [
+        "南澳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u5357u6fb3u94b1u6fb3",
+      "level": "place",
+      "parentId": "county-guangdong-u5357u6fb3u53bf",
+      "name": {
+        "zh": "钱澳"
+      },
+      "shortName": {
+        "zh": "钱澳"
+      },
+      "aliases": [
+        "广东南澳钱澳",
+        "广东南澳钱澳"
+      ],
+      "modernName": {
+        "zh": "广东南澳钱澳"
+      },
+      "point": [
+        117,
+        23.42
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东南澳钱澳",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u5357u6fb3u9686u6fb3",
+      "level": "place",
+      "parentId": "county-guangdong-u5357u6fb3u53bf",
+      "name": {
+        "zh": "隆澳"
+      },
+      "shortName": {
+        "zh": "隆澳"
+      },
+      "aliases": [
+        "广东南澳隆澳",
+        "广东南澳隆澳"
+      ],
+      "modernName": {
+        "zh": "广东南澳隆澳"
+      },
+      "point": [
+        117.03,
+        23.42
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东南澳隆澳",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u6f84u6d77u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "澄海县"
+      },
+      "shortName": {
+        "zh": "澄海"
+      },
+      "aliases": [
+        "澄海"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u5e7fu5ddeu4e2du5c71u7eaau5ff5u5802",
+      "level": "place",
+      "parentId": "county-guangdong-u5e7fu5ddeu5e02",
+      "name": {
+        "zh": "中山纪念堂"
+      },
+      "shortName": {
+        "zh": "中山纪念堂"
+      },
+      "aliases": [
+        "广东广州中山纪念堂",
+        "广东广州中山纪念堂"
+      ],
+      "modernName": {
+        "zh": "广东广州中山纪念堂"
+      },
+      "point": [
+        113.26,
+        23.13
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东广州中山纪念堂",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u589eu57ceu5c0fu697c-u6b63u679c",
+      "level": "place",
+      "parentId": "county-guangdong-u589eu57ceu53bf",
+      "name": {
+        "zh": "小楼、正果"
+      },
+      "shortName": {
+        "zh": "小楼、正果"
+      },
+      "aliases": [
+        "广东增城小楼、正果",
+        "广东增城小楼、正果"
+      ],
+      "modernName": {
+        "zh": "广东增城小楼、正果"
+      },
+      "point": [
+        113.87,
+        23.39
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东增城小楼、正果",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u9f99u95e8u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "龙门县"
+      },
+      "shortName": {
+        "zh": "龙门"
+      },
+      "aliases": [
+        "龙门"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u9f99u95e8u6c38u6c49",
+      "level": "place",
+      "parentId": "county-guangdong-u9f99u95e8u53bf",
+      "name": {
+        "zh": "永汉"
+      },
+      "shortName": {
+        "zh": "永汉"
+      },
+      "aliases": [
+        "广东龙门永汉",
+        "广东龙门永汉"
+      ],
+      "modernName": {
+        "zh": "广东龙门永汉"
+      },
+      "point": [
+        113.95,
+        23.6
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东龙门永汉",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u4eceu5316u826fu53e3",
+      "level": "place",
+      "parentId": "county-guangdong-u4eceu5316u53bf",
+      "name": {
+        "zh": "良口"
+      },
+      "shortName": {
+        "zh": "良口"
+      },
+      "aliases": [
+        "广东从化良口",
+        "广东从化良口"
+      ],
+      "modernName": {
+        "zh": "广东从化良口"
+      },
+      "point": [
+        113.73,
+        23.72
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东从化良口",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u65b0u4e30u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "新丰县"
+      },
+      "shortName": {
+        "zh": "新丰"
+      },
+      "aliases": [
+        "新丰"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u65b0u4e30u6885u5751-u4eceu5316u5415u7530",
+      "level": "place",
+      "parentId": "county-guangdong-u65b0u4e30u53bf",
+      "name": {
+        "zh": "梅坑、从化吕田"
+      },
+      "shortName": {
+        "zh": "梅坑、从化吕田"
+      },
+      "aliases": [
+        "广东新丰梅坑、从化吕田",
+        "广东新丰梅坑、从化吕田"
+      ],
+      "modernName": {
+        "zh": "广东新丰梅坑、从化吕田"
+      },
+      "point": [
+        114,
+        23.85
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东新丰梅坑、从化吕田",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u7fc1u6e90u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "翁源县"
+      },
+      "shortName": {
+        "zh": "翁源"
+      },
+      "aliases": [
+        "翁源"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "county-guangdong-u82f1u5fb7u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "英德县"
+      },
+      "shortName": {
+        "zh": "英德"
+      },
+      "aliases": [
+        "英德"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u7fc1u6e90u65b0u6c5f",
+      "level": "place",
+      "parentId": "county-guangdong-u7fc1u6e90u53bf",
+      "name": {
+        "zh": "新江"
+      },
+      "shortName": {
+        "zh": "新江"
+      },
+      "aliases": [
+        "广东翁源新江",
+        "广东翁源新江"
+      ],
+      "modernName": {
+        "zh": "广东翁源新江"
+      },
+      "point": [
+        113.8,
+        24.4
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东翁源新江",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangdong-u82b1u53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "花县"
+      },
+      "shortName": {
+        "zh": "花"
+      },
+      "aliases": [
+        "花"
+      ],
+      "extensions": {
+        "frame": "ROC-1937"
+      }
+    },
+    {
+      "id": "place-guangdong-u4eceu5316u8857u53e3",
+      "level": "place",
+      "parentId": "county-guangdong-u4eceu5316u53bf",
+      "name": {
+        "zh": "街口"
+      },
+      "shortName": {
+        "zh": "街口"
+      },
+      "aliases": [
+        "广东从化街口",
+        "广东从化街口"
+      ],
+      "modernName": {
+        "zh": "广东从化街口"
+      },
+      "point": [
+        113.58,
+        23.55
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东从化街口",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u4eceu5316u9e21u7b3cu5188",
+      "level": "place",
+      "parentId": "county-guangdong-u4eceu5316u53bf",
+      "name": {
+        "zh": "鸡笼冈"
+      },
+      "shortName": {
+        "zh": "鸡笼冈"
+      },
+      "aliases": [
+        "广东从化鸡笼冈",
+        "广东从化鸡笼冈"
+      ],
+      "modernName": {
+        "zh": "广东从化鸡笼冈"
+      },
+      "point": [
+        113.6,
+        23.65
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东从化鸡笼冈",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-guangdong-u4eceu5316u826fu53e3u77f3u69b4u82b1u9876",
+      "level": "place",
+      "parentId": "county-guangdong-u4eceu5316u53bf",
+      "name": {
+        "zh": "良口石榴花顶"
+      },
+      "shortName": {
+        "zh": "良口石榴花顶"
+      },
+      "aliases": [
+        "广东从化良口石榴花顶",
+        "广东从化良口石榴花顶"
+      ],
+      "modernName": {
+        "zh": "广东从化良口石榴花顶"
+      },
+      "point": [
+        113.75,
+        23.72
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广东从化良口石榴花顶",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

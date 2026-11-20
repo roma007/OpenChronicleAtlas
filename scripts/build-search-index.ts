@@ -39,6 +39,8 @@ const fingerprint = createHash('sha256')
         routes: dataset.routes,
         events: dataset.events,
         territories: dataset.territories,
+        regions: dataset.regions,
+        regionIndex: dataset.regionIndex,
       })),
     ),
   )

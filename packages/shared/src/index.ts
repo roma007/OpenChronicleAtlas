@@ -14,6 +14,7 @@ export * from './search/types';
 export * from './search/index';
 export * from './search/query';
 export * from './filters';
+export * from './regions';
 export * from './share/state';
 export * from './i18n/localized';
 export * from './i18n/locale';

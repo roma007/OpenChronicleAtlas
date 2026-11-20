@@ -4,16 +4,19 @@ import {
   clusterEvents,
   eventStart,
   latestEventAt,
+  matchesRegionFilter,
   partialPathAt,
+  parseDateString,
   resolveLocalized,
   routeStyleForSegmentType,
   wgs84ToGcj02,
 } from '@atlas/shared';
-import { MapView, Marker, Polyline, type MapViewRef } from 'expo-gaode-map';
+import { MapView, Marker, Polygon, Polyline, type MapViewRef } from 'expo-gaode-map';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { colors, radii } from '../../theme';
+import { useI18n } from '../../hooks/useI18n';
 
 function toGcj(lng: number, lat: number) {
   const point = wgs84ToGcj02(lng, lat);
@@ -33,6 +36,8 @@ export function AtlasMap() {
   const pause = useAtlasStore((state) => state.pause);
   const setMapView = useAtlasStore((state) => state.setMapView);
   const mapView = useAtlasStore((state) => state.mapView);
+  const showAdminBoundaries = useAtlasStore((state) => state.showAdminBoundaries);
+  const { locale } = useI18n();
   const zoom = mapView?.zoom ?? dataset?.manifest.defaultView.zoom ?? 4;
 
   const geometries = useMemo(() => {
@@ -44,6 +49,69 @@ export function AtlasMap() {
       ]),
     );
   }, [dataset]);
+
+  const boundaryPeriod =
+    currentTime < parseDateString('1932-01-01')
+      ? '1931'
+      : currentTime < parseDateString('1938-01-01')
+        ? '1932'
+        : currentTime < parseDateString('1945-01-01')
+          ? '1938'
+          : '1945';
+
+  const adminPolygons = useMemo(() => {
+    if (!dataset || !showAdminBoundaries) return [];
+    const periodStart =
+      boundaryPeriod === '1931'
+        ? parseDateString('1931-09-18')
+        : boundaryPeriod === '1932'
+          ? parseDateString('1932-01-01')
+          : boundaryPeriod === '1938'
+            ? parseDateString('1938-01-01')
+            : parseDateString('1945-01-01');
+    const periodEnd =
+      boundaryPeriod === '1931'
+        ? parseDateString('1931-12-31')
+        : boundaryPeriod === '1932'
+          ? parseDateString('1937-12-31')
+          : boundaryPeriod === '1938'
+            ? parseDateString('1944-12-31')
+            : parseDateString('1945-12-31');
+    const result: Array<{
+      key: string;
+      points: Array<{ latitude: number; longitude: number }>;
+      fillColor: string;
+      strokeColor: string;
+      strokeWidth: number;
+    }> = [];
+    for (const [index, feature] of dataset.territories.entries()) {
+      if (feature.properties.extensions?.kind !== 'admin-boundary') continue;
+      const start = parseDateString(feature.properties.startDate);
+      const end = parseDateString(feature.properties.endDate);
+      if (end < periodStart || start > periodEnd) continue;
+      const regionId =
+        typeof feature.properties.extensions?.regionId === 'string'
+          ? feature.properties.extensions.regionId
+          : undefined;
+      const selected = Boolean(regionId && filters.regionIds.includes(regionId));
+      const parts =
+        feature.geometry.type === 'Polygon'
+          ? [feature.geometry.coordinates]
+          : feature.geometry.coordinates;
+      for (const [partIndex, rings] of parts.entries()) {
+        const outer = rings[0];
+        if (!outer || outer.length < 3) continue;
+        result.push({
+          key: `${feature.properties.entityId}:${index}:${partIndex}`,
+          points: outer.map(([lng, lat]) => toGcj(lng, lat)),
+          fillColor: selected ? 'rgba(140,47,36,0.12)' : 'rgba(0,0,0,0)',
+          strokeColor: selected ? '#8c2f24' : '#6b7280',
+          strokeWidth: selected ? 2 : 1,
+        });
+      }
+    }
+    return result;
+  }, [dataset, showAdminBoundaries, boundaryPeriod, filters.regionIds]);
 
   const visibleEvents = useMemo(() => {
     if (!dataset) return [];
@@ -77,10 +145,16 @@ export function AtlasMap() {
       .filter((route) => {
         const entity = dataset.entitiesById.get(route.properties.entityId);
         // legend: false 的实体（如海防线）不进入图例，但作为地图背景始终显示。
-        return (
-          activeEntityIds.has(route.properties.entityId) ||
-          entity?.extensions?.legend === false
-        );
+        const alwaysVisible = entity?.extensions?.legend === false;
+        if (!alwaysVisible && !activeEntityIds.has(route.properties.entityId)) return false;
+        if (
+          !alwaysVisible &&
+          filters.regionIds.length > 0 &&
+          !matchesRegionFilter(route.properties.regionIds, filters.regionIds)
+        ) {
+          return false;
+        }
+        return true;
       })
       .map((route, index) => {
         const key = `${route.properties.entityId}:${route.properties.order}:${index}`;
@@ -105,16 +179,44 @@ export function AtlasMap() {
             : [];
         const entity = dataset.entitiesById.get(route.properties.entityId);
         const style = routeStyleForSegmentType(route.properties.segmentType);
+        const name = resolveLocalized(route.properties.name, locale)
+          .replace(/（[^）]*）|\([^)]*\)/g, '')
+          .trim();
+        const parts = name.split(/[—–\-→至]/).map((part) => part.trim()).filter(Boolean);
+        const labels = parts.length >= 2 ? [parts[0], parts.at(-1) as string] : ['', ''];
+        const first = route.geometry.coordinates[0];
+        const last = route.geometry.coordinates.at(-1);
+        const firstLevelIds = new Set(
+          dataset.regions
+            .filter(
+              (region) =>
+                region.level === 'province' ||
+                region.level === 'municipality' ||
+                region.level === 'overseas',
+            )
+            .map((region) => region.id),
+        );
+        const crossesRegions =
+          new Set(
+            (route.properties.regionIds ?? []).filter((id) => firstLevelIds.has(id)),
+          ).size > 1;
         return {
           key,
           points,
           color: entity?.color ?? colors.cinnabar,
           strokeWidth: style.weight,
           dotted: style.dash !== 'solid',
+          endpoints:
+            crossesRegions && zoom >= 6 && filters.regionIds.length > 0 && first && last
+              ? [
+                  { point: toGcj(first[0], first[1]), label: labels[0] || (locale === 'en' ? 'Start' : '起点'), kind: 'start' as const },
+                  { point: toGcj(last[0], last[1]), label: labels[1] || (locale === 'en' ? 'End' : '终点'), kind: 'end' as const },
+                ]
+              : [],
         };
       })
       .filter((shape) => shape.points.length >= 2);
-  }, [dataset, activeEntityIds, geometries, currentTime]);
+  }, [dataset, activeEntityIds, geometries, currentTime, filters.regionIds, locale, zoom]);
 
   const allPoints = useMemo(() => {
     if (!dataset) return [];
@@ -182,6 +284,17 @@ export function AtlasMap() {
           });
         }}
       >
+        {adminPolygons.map((polygon) => (
+          <Polygon
+            key={polygon.key}
+            points={polygon.points}
+            fillColor={polygon.fillColor}
+            strokeColor={polygon.strokeColor}
+            strokeWidth={polygon.strokeWidth}
+            zIndex={10}
+          />
+        ))}
+
         {routeShapes.map((shape) => (
           <Polyline
             key={shape.key}
@@ -192,6 +305,30 @@ export function AtlasMap() {
             zIndex={50}
           />
         ))}
+
+        {routeShapes.flatMap((shape) =>
+          shape.endpoints.map((endpoint, index) => (
+            <Marker
+              key={`${shape.key}:endpoint:${index}`}
+              position={endpoint.point}
+              cacheKey={`${shape.key}:endpoint:${index}:${endpoint.label}`}
+              zIndex={70}
+            >
+              <View
+                style={[
+                  styles.endpoint,
+                  endpoint.kind === 'end' ? styles.endpointEnd : styles.endpointStart,
+                ]}
+              >
+                <Text style={styles.endpointText} numberOfLines={1}>
+                  {locale === 'en'
+                    ? `${endpoint.kind === 'start' ? 'From' : 'To'} ${endpoint.label}`
+                    : `${endpoint.kind === 'start' ? '起' : '终'} ${endpoint.label}`}
+                </Text>
+              </View>
+            </Marker>
+          )),
+        )}
 
         {clusters.map((cluster) => {
           const visible = cluster.events.filter((event) => eventStart(event) <= currentTime);
@@ -298,6 +435,16 @@ const styles = StyleSheet.create({
     fontSize: 11,
     fontWeight: '700',
   },
+  endpoint: {
+    backgroundColor: colors.parchment + 'F2',
+    borderRadius: radii.pill,
+    borderWidth: 1,
+    paddingHorizontal: 7,
+    paddingVertical: 2,
+  },
+  endpointStart: { borderColor: colors.cinnabar + '88' },
+  endpointEnd: { borderColor: '#1f4e7988' },
+  endpointText: { fontSize: 10, color: colors.ink },
   currentBadge: {
     position: 'absolute',
     left: 16,
