@@ -3590,6 +3590,504 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.1,
+            19.95
+          ],
+          [
+            110.05,
+            19.85
+          ],
+          [
+            110,
+            19.74
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-02-10",
+        "endDate": "1939-04-14",
+        "order": 92,
+        "segmentType": "advance",
+        "name": {
+          "zh": "老城—金江（澄迈湾登陆后西进）",
+          "en": "Laocheng–Jinjiang (advance after the Chengmai Bay landing)"
+        },
+        "description": {
+          "zh": "1939 年 2 月 10 日至 12 日，日军另部在澄迈湾东北角、老城附近登陆，随后向内地推进，4 月 14 日占澄迈县城金江。示意简化路线。",
+          "en": "From 10 to 12 February 1939 another Japanese force landed at the northeast corner of Chengmai Bay near Laocheng and advanced inland, occupying Jinjiang, seat of Chengmai county, on 14 April. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.2,
+            19.7
+          ],
+          [
+            109.3,
+            19.72
+          ],
+          [
+            109.35,
+            19.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-04-16",
+        "endDate": "1939-04-18",
+        "order": 93,
+        "segmentType": "advance",
+        "name": {
+          "zh": "白马井—新英—新州（儋县登陆）",
+          "en": "Baimajing–Xinying–Xinzhou (Dan county landing)"
+        },
+        "description": {
+          "zh": "1939 年 4 月 16 日，日军川崎部队与海军陆战队在白马井登陆，4 月 17 日占新英港，4 月 18 日占儋县县城新州。示意简化路线。",
+          "en": "On 16 April 1939 the Japanese Kawasaki force and naval landing troops came ashore at Baimajing, took Xinying port on 17 April and Xinzhou, seat of Dan county, on 18 April. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.1,
+            18.35
+          ],
+          [
+            109.14,
+            18.36
+          ],
+          [
+            109.17,
+            18.37
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-02-14",
+        "endDate": "1939-02-15",
+        "order": 94,
+        "segmentType": "advance",
+        "name": {
+          "zh": "头灶港—崖城（崖州湾登陆）",
+          "en": "Touzao–Yacheng (Yazhou Bay landing)"
+        },
+        "description": {
+          "zh": "1939 年 2 月 14 日，日军从头灶港、大旦港、马岭干溪登陆，三路进攻崖城，2 月 15 日占领崖县县城。示意简化路线。",
+          "en": "On 14 February 1939 Japanese forces landed at Touzao, Dadan and the dry creek west of Maling and attacked Yacheng by three routes, occupying the county seat on 15 February. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.34,
+            20.01
+          ],
+          [
+            110.3,
+            19.85
+          ],
+          [
+            110.32,
+            19.68
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-02-10",
+        "endDate": "1939-02-20",
+        "order": 95,
+        "segmentType": "advance",
+        "name": {
+          "zh": "海口—定安（东进）",
+          "en": "Haikou–Ding’an (eastward advance)"
+        },
+        "description": {
+          "zh": "1939 年 2 月 10 日海口、府城失守后，日军自海口东进，2 月 20 日攻占定安县城。示意简化路线。",
+          "en": "After the fall of Haikou and Fucheng on 10 February 1939, Japanese forces advanced east from Haikou and captured Ding’an county town on 20 February. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.34,
+            20.01
+          ],
+          [
+            110.5,
+            19.8
+          ],
+          [
+            110.72,
+            19.55
+          ],
+          [
+            110.8,
+            19.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-02-10",
+        "endDate": "1939-02-23",
+        "order": 96,
+        "segmentType": "advance",
+        "name": {
+          "zh": "海口—文昌—清澜（东进）",
+          "en": "Haikou–Wenchang–Qinglan (eastward advance)"
+        },
+        "description": {
+          "zh": "1939 年 2 月 10 日海口失守后，日军自海口东进，2 月 22 日占文昌县城文城，2 月 23 日进入清澜港。示意简化路线。",
+          "en": "After the fall of Haikou on 10 February 1939, Japanese forces advanced east, occupied Wencheng on 22 February and entered Qinglan port on 23 February. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.51,
+            18.25
+          ],
+          [
+            109.75,
+            18.4
+          ],
+          [
+            110.04,
+            18.51
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-02-14",
+        "endDate": "1939-04-28",
+        "order": 97,
+        "segmentType": "advance",
+        "name": {
+          "zh": "三亚—藤桥—陵水（东南沿海推进）",
+          "en": "Sanya–Tengqiao–Lingshui (southeast coast advance)"
+        },
+        "description": {
+          "zh": "1939 年 2 月 14 日日军登陆三亚后，沿海南东南沿海经藤桥向陵水推进，4 月 28 日占陵水县城。示意简化路线。",
+          "en": "After landing at Sanya on 14 February 1939, Japanese forces advanced along the southeast coast through Tengqiao toward Lingshui and occupied the county town on 28 April. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.72,
+            19.55
+          ],
+          [
+            110.6,
+            19.4
+          ],
+          [
+            110.47,
+            19.25
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-02-22",
+        "endDate": "1939-04-15",
+        "order": 98,
+        "segmentType": "advance",
+        "name": {
+          "zh": "文昌—嘉积（琼东推进）",
+          "en": "Wenchang–Jiaji (advance into Qiongdong)"
+        },
+        "description": {
+          "zh": "1939 年 2 月 22 日文昌失守后，日军自文昌、定安方向向琼东推进，4 月 15 日占嘉积。具体出发地待页码级核对；示意简化路线。",
+          "en": "After the fall of Wenchang on 22 February 1939, Japanese forces advanced from the Wenchang–Ding’an direction into Qiongdong and occupied Jiaji on 15 April. The exact departure point awaits page-level verification; schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110,
+            19.74
+          ],
+          [
+            109.85,
+            19.82
+          ],
+          [
+            109.69,
+            19.91
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-04-14",
+        "endDate": "1939-04-18",
+        "order": 99,
+        "segmentType": "advance",
+        "name": {
+          "zh": "金江—临高（琼西北推进）",
+          "en": "Jinjiang–Lingao (northwest advance)"
+        },
+        "description": {
+          "zh": "1939 年 4 月 14 日澄迈金江失守后，日军自澄迈方向进攻临高，4 月 18 日占临高县城。另有 9 月 25 日新盈港登陆说，出发地待页码级核对；示意简化路线。",
+          "en": "After the fall of Jinjiang on 14 April 1939, Japanese forces advanced from the Chengmai direction against Lingao and occupied the county town on 18 April. Another account has a landing at Xinying on 25 September; the departure point awaits page-level verification; schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.47,
+            19.25
+          ],
+          [
+            110.45,
+            19
+          ],
+          [
+            110.39,
+            18.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-04-15",
+        "endDate": "1939-08-13",
+        "order": 100,
+        "segmentType": "advance",
+        "name": {
+          "zh": "嘉积—万宁（琼东沿海推进）",
+          "en": "Jiaji–Wanning (east coast advance)"
+        },
+        "description": {
+          "zh": "1939 年 4 月 15 日嘉积失守后，日军沿海南东海岸南下，8 月 13 日占万宁县城。示意简化路线。",
+          "en": "After the fall of Jiaji on 15 April 1939, Japanese forces advanced south along the east coast and occupied Wanning county town on 13 August. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.04,
+            18.51
+          ],
+          [
+            109.85,
+            18.58
+          ],
+          [
+            109.7,
+            18.64
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-03-15",
+        "endDate": "1940-03-15",
+        "order": 101,
+        "segmentType": "advance",
+        "name": {
+          "zh": "陵水—保亭（山区渗透）",
+          "en": "Lingshui–Baoting (penetration into the mountains)"
+        },
+        "description": {
+          "zh": "1940 年 3 月 15 日，驻陵水日军出占保亭县城。示意简化路线；另有 1940-07-16 说。",
+          "en": "On 15 March 1940 Japanese forces from Lingshui occupied Baoting county town. Schematic simplified route; another account gives 16 July 1940."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.17,
+            18.37
+          ],
+          [
+            109.15,
+            18.55
+          ],
+          [
+            109.17,
+            18.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-03-15",
+        "endDate": "1940-03-15",
+        "order": 102,
+        "segmentType": "advance",
+        "name": {
+          "zh": "崖城—乐东（山区渗透）",
+          "en": "Yacheng–Ledong (penetration into the mountains)"
+        },
+        "description": {
+          "zh": "1940 年 3 月 15 日，驻崖县日军出占乐东县城（抱由）。示意简化路线。",
+          "en": "On 15 March 1940 Japanese forces from Ya county occupied Ledong county town (Baoyou). Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.7,
+            19.1
+          ],
+          [
+            108.9,
+            19.18
+          ],
+          [
+            109.05,
+            19.28
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-07-18",
+        "endDate": "1940-03-15",
+        "order": 103,
+        "segmentType": "advance",
+        "name": {
+          "zh": "八所—石碌（进攻石碌铁矿）",
+          "en": "Basuo–Shilu (advance on the Shilu iron mine)"
+        },
+        "description": {
+          "zh": "1939 年 7 月 18 日日军占八所、北黎，以此为基地向内地推进，1940 年 3 月 15 日占石碌。示意简化路线。",
+          "en": "On 18 July 1939 Japanese forces occupied Basuo and Beili and used them as bases for advancing inland, occupying Shilu on 15 March 1940. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.7,
+            19.1
+          ],
+          [
+            108.85,
+            19.25
+          ],
+          [
+            108.9,
+            19.35
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-07-18",
+        "endDate": "1939-07-18",
+        "order": 104,
+        "segmentType": "advance",
+        "name": {
+          "zh": "八所—墩头—新街（昌江沿海占领）",
+          "en": "Basuo–Duntou–Xinjie (occupation of the Changjiang coast)"
+        },
+        "description": {
+          "zh": "1939 年 7 月 18 日，日军自八所、墩头登陆/推进，占领新街、墩头、八所，并在北黎设司令部。示意简化路线。",
+          "en": "On 18 July 1939 Japanese forces landed or advanced from Basuo and Duntou and occupied Xinjie, Duntou and Basuo, establishing headquarters at Beili. Schematic simplified route."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
