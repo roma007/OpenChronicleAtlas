@@ -158,7 +158,7 @@ OpenChronicleAtlas/
 
 ```bash
 pnpm install          # 安装依赖
-pnpm dev              # 启动 Web（默认 http://localhost:5173）
+pnpm dev              # 启动 Web（默认 http://127.0.0.1:5180）
 pnpm validate:data    # 校验 data/atlases 下全部专题（含 AI 封面标识）
 pnpm check:aigc       # 单独校验封面水印声明与 TC260:AIGC 元数据
 pnpm apply:aigc       # 新增/替换 AI 封面后写入元数据并按 MD5 重命名

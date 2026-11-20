@@ -165,11 +165,12 @@ export default defineConfig(({ mode }) => {
       },
     },
     server: {
-      // 只绑 IPv4 回环：macOS 上 Vite 默认的 localhost 只解析到 ::1，
-      // 导致 http://127.0.0.1:5173 打不开。
+      // 只绑 IPv4 回环：macOS 上 localhost 可能优先解析到 ::1。
       host: '127.0.0.1',
-      port: 5173,
-      // 端口被占用时直接报错，避免静默换到 5174 却仍去开 5173。
+      // Atlas 专用端口，避免与本机其他 Vite 项目的 5173 冲突。
+      // 需要临时换端口时：VITE_DEV_PORT=5181 pnpm dev
+      port: Number(process.env.VITE_DEV_PORT ?? 5180),
+      // 端口被占用时直接报错，不静默换号，避免打开的是别的项目。
       strictPort: true,
     },
   };

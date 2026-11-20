@@ -3,6 +3,19 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.187] - 2026-11-20
+
+### Changed
+- Web 本地开发端口从 5173 改为 **5180**，避免与本机其他 Vite 项目冲突；`strictPort` 保持开启，端口被占用时直接报错。
+- 支持 `VITE_DEV_PORT=5181 pnpm dev` 临时换端口。
+- README 与 AGENTS 的本地开发说明同步更新，并注明本机 8081 可能是其他项目、Atlas 线上预览是 `quizgo-ecs:8081`。
+
+### Verify
+- `pnpm dev` 输出 `http://127.0.0.1:5180/`，`curl` 返回 200；5173 不再监听。
+- `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build` 通过。
+
+---
+
 ## [v1.0.186] - 2026-11-20
 
 ### Docs
