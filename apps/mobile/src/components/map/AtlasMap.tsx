@@ -42,6 +42,7 @@ export function AtlasMap() {
   const showAdminBoundaries = useAtlasStore((state) => state.showAdminBoundaries);
   const showRegionLabels = useAtlasStore((state) => state.showRegionLabels);
   const regionFocus = useAtlasStore((state) => state.regionFocus);
+  const routeFocus = useAtlasStore((state) => state.routeFocus);
   const toggleRegion = useAtlasStore((state) => state.toggleRegion);
   const { locale } = useI18n();
   const zoom = mapView?.zoom ?? dataset?.manifest.defaultView.zoom ?? 4;
@@ -344,6 +345,28 @@ export function AtlasMap() {
       duration: 300,
     });
   }, [mapReady, dataset, regionFocus]);
+
+  useEffect(() => {
+    if (!mapReady || !dataset || !routeFocus) return;
+    const route = dataset.routes.find(
+      (item) =>
+        item.properties.entityId === routeFocus.entityId &&
+        item.properties.order === routeFocus.order,
+    );
+    if (!route) return;
+    const points = route.geometry.coordinates.map(([lng, lat]) => toGcj(lng, lat));
+    if (points.length === 0) return;
+    if (points.length === 1) {
+      void mapRef.current?.moveCamera({ target: points[0]!, zoom: 9 }, 300);
+      return;
+    }
+    void mapRef.current?.fitToCoordinates(points, {
+      paddingFactor: 0.2,
+      minZoom: 4.5,
+      maxZoom: 10,
+      duration: 300,
+    });
+  }, [mapReady, dataset, routeFocus]);
 
   if (!dataset) return null;
 

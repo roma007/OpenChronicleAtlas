@@ -1,9 +1,11 @@
 import {
   applyEventFilters,
+  matchesRegionFilter,
   parseDateString,
   regionAncestors,
   regionName,
   resolveLocalized,
+  segmentTypeLabel,
   type AtlasRegion,
 } from '@atlas/shared';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -27,6 +29,7 @@ export function RegionFilter({ onNavigate }: RegionFilterProps) {
   const toggleRegion = useAtlasStore((state) => state.toggleRegion);
   const setRegions = useAtlasStore((state) => state.setRegions);
   const focusRegion = useAtlasStore((state) => state.focusRegion);
+  const focusRoute = useAtlasStore((state) => state.focusRoute);
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const pause = useAtlasStore((state) => state.pause);
@@ -36,6 +39,8 @@ export function RegionFilter({ onNavigate }: RegionFilterProps) {
   const [expandedCounties, setExpandedCounties] = useState<Set<string>>(new Set());
   const [showEvents, setShowEvents] = useState(false);
   const [showAllEvents, setShowAllEvents] = useState(false);
+  const [showRoutes, setShowRoutes] = useState(false);
+  const [showAllRoutes, setShowAllRoutes] = useState(false);
 
   const selected = useMemo(() => new Set(filters.regionIds), [filters.regionIds]);
 
@@ -147,6 +152,26 @@ export function RegionFilter({ onNavigate }: RegionFilterProps) {
     a.date.localeCompare(b.date),
   );
   const visibleRegionEvents = showAllEvents ? regionEvents : regionEvents.slice(0, 12);
+  const regionRoutes = filters.regionIds.length
+    ? dataset.routes
+        .filter((route) =>
+          matchesRegionFilter(route.properties.regionIds, filters.regionIds),
+        )
+        .sort(
+          (a, b) =>
+            a.properties.startDate.localeCompare(b.properties.startDate) ||
+            a.properties.entityId.localeCompare(b.properties.entityId) ||
+            a.properties.order - b.properties.order,
+        )
+    : [];
+  const visibleRegionRoutes = showAllRoutes ? regionRoutes : regionRoutes.slice(0, 12);
+  const shortRange = (start: string, end: string) => {
+    const sy = start.slice(2, 4);
+    const ey = end.slice(2, 4);
+    return sy === ey
+      ? `${sy}-${start.slice(5)} → ${end.slice(5)}`
+      : `${sy}-${start.slice(5)} → ${ey}-${end.slice(5)}`;
+  };
 
   const groups = activeFirst.map((first) => {
     const direct = childrenByParent.get(first.id) ?? [];
@@ -384,6 +409,67 @@ export function RegionFilter({ onNavigate }: RegionFilterProps) {
               </Pressable>
             ) : null}
           </View>
+
+          <View style={styles.eventsBlock}>
+            <Pressable
+              onPress={() => setShowRoutes((value) => !value)}
+              style={styles.eventsToggle}
+            >
+              <Text style={styles.eventsTitle}>
+                {t('legend.regionRoutes')} · {regionRoutes.length}
+              </Text>
+              <Text style={styles.eventsChevron}>{showRoutes ? '▾' : '▸'}</Text>
+            </Pressable>
+            {showRoutes ? (
+              <View style={styles.eventsList}>
+                {visibleRegionRoutes.map((route) => {
+                  const entity = dataset.entitiesById.get(route.properties.entityId);
+                  const name =
+                    resolveLocalized(route.properties.name, locale) ||
+                    resolveLocalized(entity?.name, locale) ||
+                    route.properties.entityId;
+                  return (
+                    <Pressable
+                      key={`${route.properties.entityId}:${route.properties.order}`}
+                      onPress={() => {
+                        pause();
+                        setCurrentTime(parseDateString(route.properties.endDate));
+                        focusRoute(route.properties.entityId, route.properties.order);
+                        onNavigate?.();
+                      }}
+                      style={styles.eventRow}
+                    >
+                      <Text style={styles.eventDate}>
+                        {shortRange(route.properties.startDate, route.properties.endDate)}
+                      </Text>
+                      <View
+                        style={[
+                          styles.eventDot,
+                          { backgroundColor: entity?.color ?? colors.cinnabar },
+                        ]}
+                      />
+                      <Text style={styles.eventName} numberOfLines={1}>
+                        {name}
+                      </Text>
+                      <Text style={styles.routeType} numberOfLines={1}>
+                        {segmentTypeLabel(route.properties.segmentType, locale)}
+                      </Text>
+                    </Pressable>
+                  );
+                })}
+                {regionRoutes.length === 0 ? (
+                  <Text style={styles.empty}>{t('legend.noRegionRoutes')}</Text>
+                ) : null}
+              </View>
+            ) : null}
+            {showRoutes && regionRoutes.length > 12 ? (
+              <Pressable onPress={() => setShowAllRoutes((value) => !value)}>
+                <Text style={styles.eventsMore}>
+                  {t(showAllRoutes ? 'legend.showLessRegionRoutes' : 'legend.showAllRegionRoutes')}
+                </Text>
+              </Pressable>
+            ) : null}
+          </View>
         </View>
       ) : null}
     </View>
@@ -491,8 +577,9 @@ const styles = StyleSheet.create({
     paddingVertical: 4,
     paddingHorizontal: 2,
   },
-  eventDate: { width: 62, fontSize: 9, color: colors.inkSoft, opacity: 0.55 },
+  eventDate: { width: 82, fontSize: 8, color: colors.inkSoft, opacity: 0.55 },
   eventDot: { width: 6, height: 6, borderRadius: 3 },
   eventName: { flex: 1, fontSize: 10, color: colors.inkSoft },
   eventsMore: { fontSize: 9, color: colors.cinnabar, opacity: 0.8, paddingVertical: 4 },
+  routeType: { width: 48, fontSize: 9, color: colors.inkSoft, opacity: 0.45, textAlign: 'right' },
 });

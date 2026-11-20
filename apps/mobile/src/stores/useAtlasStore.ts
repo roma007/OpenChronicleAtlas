@@ -57,6 +57,7 @@ interface MobileAtlasState {
   fromCache: boolean;
   mapView: ShareView | null;
   regionFocus: { regionId: string; nonce: number } | null;
+  routeFocus: { entityId: string; order: number; nonce: number } | null;
 
   searchIndex: SearchIndexFile | null;
   searchLoading: boolean;
@@ -90,6 +91,7 @@ interface MobileAtlasState {
   setSpeed(speed: PlaybackSpeed): void;
   setMapView(view: ShareView): void;
   focusRegion(regionId: string): void;
+  focusRoute(entityId: string, order: number): void;
   loadSearchData(): Promise<void>;
   checkDataUpdate(): Promise<void>;
   applyDataUpdate(): Promise<void>;
@@ -138,6 +140,7 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
   fromCache: false,
   mapView: null,
   regionFocus: null,
+  routeFocus: null,
 
   searchIndex: null,
   searchLoading: false,
@@ -175,6 +178,7 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
       filters: EMPTY_FILTERS,
       mapView: null,
       regionFocus: null,
+      routeFocus: null,
       fromCache: false,
       showAdminBoundaries: true,
       showRegionLabels: true,
@@ -362,6 +366,10 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
 
   focusRegion(regionId) {
     set({ regionFocus: { regionId, nonce: (get().regionFocus?.nonce ?? 0) + 1 } });
+  },
+
+  focusRoute(entityId, order) {
+    set({ routeFocus: { entityId, order, nonce: (get().routeFocus?.nonce ?? 0) + 1 } });
   },
 
   async checkDataUpdate() {

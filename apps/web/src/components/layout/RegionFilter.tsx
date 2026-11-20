@@ -1,9 +1,11 @@
 import {
   applyEventFilters,
+  matchesRegionFilter,
   parseDateString,
   regionName,
   regionAncestors,
   resolveLocalized,
+  segmentTypeLabel,
   type AtlasRegion,
 } from '@atlas/shared';
 import { useEffect, useMemo, useState } from 'react';
@@ -23,6 +25,7 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
   const toggleRegion = useAtlasStore((state) => state.toggleRegion);
   const setRegions = useAtlasStore((state) => state.setRegions);
   const focusRegion = useAtlasStore((state) => state.focusRegion);
+  const focusRoute = useAtlasStore((state) => state.focusRoute);
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const pause = useAtlasStore((state) => state.pause);
@@ -32,6 +35,8 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
   const [expandedCounties, setExpandedCounties] = useState<Set<string>>(new Set());
   const [showEvents, setShowEvents] = useState(false);
   const [showAllEvents, setShowAllEvents] = useState(false);
+  const [showRoutes, setShowRoutes] = useState(false);
+  const [showAllRoutes, setShowAllRoutes] = useState(false);
 
   const selected = useMemo(() => new Set(filters.regionIds), [filters.regionIds]);
 
@@ -144,6 +149,26 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
     a.date.localeCompare(b.date),
   );
   const visibleRegionEvents = showAllEvents ? regionEvents : regionEvents.slice(0, 12);
+  const regionRoutes = filters.regionIds.length
+    ? dataset.routes
+        .filter((route) =>
+          matchesRegionFilter(route.properties.regionIds, filters.regionIds),
+        )
+        .sort(
+          (a, b) =>
+            a.properties.startDate.localeCompare(b.properties.startDate) ||
+            a.properties.entityId.localeCompare(b.properties.entityId) ||
+            a.properties.order - b.properties.order,
+        )
+    : [];
+  const visibleRegionRoutes = showAllRoutes ? regionRoutes : regionRoutes.slice(0, 12);
+  const shortRange = (start: string, end: string) => {
+    const sy = start.slice(2, 4);
+    const ey = end.slice(2, 4);
+    return sy === ey
+      ? `${sy}-${start.slice(5)} → ${end.slice(5)}`
+      : `${sy}-${start.slice(5)} → ${ey}-${end.slice(5)}`;
+  };
 
   const groups = activeFirst.map((first) => {
     const direct = childrenByParent.get(first.id) ?? [];
@@ -421,6 +446,69 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
                 className="mt-1 w-full rounded-md px-1.5 py-1 text-[9px] text-cinnabar/80 transition hover:bg-cinnabar/5"
               >
                 {t(showAllEvents ? 'legend.showLessRegionEvents' : 'legend.showAllRegionEvents')}
+              </button>
+            ) : null}
+          </div>
+
+          <div className="mt-2 border-t border-ink/10 pt-2">
+            <button
+              type="button"
+              onClick={() => setShowRoutes((value) => !value)}
+              className="flex w-full items-center justify-between rounded-md px-1.5 py-1 text-[10px] tracking-wider text-ink-soft transition hover:bg-ink/5"
+            >
+              <span>{t('legend.regionRoutes')} · {regionRoutes.length}</span>
+              <span className="text-ink-soft/50">{showRoutes ? '▾' : '▸'}</span>
+            </button>
+            {showRoutes ? (
+              <ul className="mt-1 max-h-52 space-y-0.5 overflow-y-auto pr-1">
+                {visibleRegionRoutes.map((route) => {
+                  const entity = dataset.entitiesById.get(route.properties.entityId);
+                  const name =
+                    resolveLocalized(route.properties.name, locale) ||
+                    resolveLocalized(entity?.name, locale) ||
+                    route.properties.entityId;
+                  return (
+                    <li key={`${route.properties.entityId}:${route.properties.order}`}>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          pause();
+                          setCurrentTime(parseDateString(route.properties.endDate));
+                          focusRoute(route.properties.entityId, route.properties.order);
+                        }}
+                        className="flex w-full items-center gap-1.5 rounded-md px-1.5 py-1 text-left text-[10px] text-ink-soft transition hover:bg-ink/5 hover:text-ink"
+                        title={`${route.properties.startDate} → ${route.properties.endDate} · ${name}`}
+                      >
+                        <span className="w-[92px] shrink-0 tabular-nums text-[9px] opacity-55">
+                          {shortRange(route.properties.startDate, route.properties.endDate)}
+                        </span>
+                        <span
+                          aria-hidden
+                          className="h-1.5 w-1.5 shrink-0 rounded-full"
+                          style={{ backgroundColor: entity?.color ?? '#8c2f24' }}
+                        />
+                        <span className="min-w-0 flex-1 truncate">{name}</span>
+                        <span className="shrink-0 text-[9px] opacity-45">
+                          {segmentTypeLabel(route.properties.segmentType, locale)}
+                        </span>
+                      </button>
+                    </li>
+                  );
+                })}
+                {regionRoutes.length === 0 ? (
+                  <li className="px-1.5 py-1 text-[9px] text-ink-soft/50">
+                    {t('legend.noRegionRoutes')}
+                  </li>
+                ) : null}
+              </ul>
+            ) : null}
+            {showRoutes && regionRoutes.length > 12 ? (
+              <button
+                type="button"
+                onClick={() => setShowAllRoutes((value) => !value)}
+                className="mt-1 w-full rounded-md px-1.5 py-1 text-[9px] text-cinnabar/80 transition hover:bg-cinnabar/5"
+              >
+                {t(showAllRoutes ? 'legend.showLessRegionRoutes' : 'legend.showAllRegionRoutes')}
               </button>
             ) : null}
           </div>

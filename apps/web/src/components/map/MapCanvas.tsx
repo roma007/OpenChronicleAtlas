@@ -315,6 +315,7 @@ export function MapCanvas() {
   const showRegionLabels = useAtlasStore((state) => state.showRegionLabels);
   const viewRequest = useAtlasStore((state) => state.viewRequest);
   const regionFocus = useAtlasStore((state) => state.regionFocus);
+  const routeFocus = useAtlasStore((state) => state.routeFocus);
   const { locale, t } = useI18n();
 
   const clearBubble = () => {
@@ -1432,6 +1433,40 @@ export function MapCanvas() {
       );
     }
   }, [regionFocus, dataset, ready]);
+
+  // 本区路线「定位」：缩放到单条路线范围
+  useEffect(() => {
+    const map = mapRef.current;
+    const AMap = amapRef.current;
+    if (!map || !AMap || !dataset || !ready || !routeFocus) return;
+    const route = dataset.routes.find(
+      (item) =>
+        item.properties.entityId === routeFocus.entityId &&
+        item.properties.order === routeFocus.order,
+    );
+    if (!route) return;
+    const coordinates = route.geometry.coordinates;
+    if (coordinates.length === 0) return;
+    let minLng = Infinity;
+    let minLat = Infinity;
+    let maxLng = -Infinity;
+    let maxLat = -Infinity;
+    for (const [lng, lat] of coordinates) {
+      minLng = Math.min(minLng, lng);
+      minLat = Math.min(minLat, lat);
+      maxLng = Math.max(maxLng, lng);
+      maxLat = Math.max(maxLat, lat);
+    }
+    if (maxLng - minLng < 0.02 && maxLat - minLat < 0.02) {
+      map.setZoomAndCenter(9, [(minLng + maxLng) / 2, (minLat + maxLat) / 2], true);
+    } else {
+      map.setBounds(
+        new AMap.Bounds([minLng, minLat], [maxLng, maxLat]),
+        false,
+        [90, 90, 150, 90],
+      );
+    }
+  }, [routeFocus, dataset, ready]);
 
   return (
     <div className="absolute inset-0">
