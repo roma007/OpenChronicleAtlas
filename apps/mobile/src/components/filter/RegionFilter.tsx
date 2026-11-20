@@ -1,4 +1,6 @@
 import {
+  applyEventFilters,
+  parseDateString,
   regionAncestors,
   regionName,
   resolveLocalized,
@@ -12,15 +14,24 @@ import { useI18n } from '../../hooks/useI18n';
 
 const FIRST_LEVEL = new Set<AtlasRegion['level']>(['province', 'municipality', 'overseas']);
 
-export function RegionFilter() {
+interface RegionFilterProps {
+  onNavigate?: () => void;
+}
+
+export function RegionFilter({ onNavigate }: RegionFilterProps) {
   const dataset = useAtlasStore((state) => state.dataset);
   const filters = useAtlasStore((state) => state.filters);
   const toggleRegion = useAtlasStore((state) => state.toggleRegion);
   const setRegions = useAtlasStore((state) => state.setRegions);
   const focusRegion = useAtlasStore((state) => state.focusRegion);
+  const selectEvent = useAtlasStore((state) => state.selectEvent);
+  const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
+  const pause = useAtlasStore((state) => state.pause);
   const { locale, t } = useI18n();
   const [query, setQuery] = useState('');
   const [expandedCounties, setExpandedCounties] = useState<Set<string>>(new Set());
+  const [showEvents, setShowEvents] = useState(false);
+  const [showAllEvents, setShowAllEvents] = useState(false);
 
   const selected = useMemo(() => new Set(filters.regionIds), [filters.regionIds]);
 
@@ -127,6 +138,11 @@ export function RegionFilter() {
     const routes = routeCounts.get(region.id) ?? 0;
     return routes > 0 ? `${events} / ${routes}` : String(events);
   };
+
+  const regionEvents = applyEventFilters(dataset.events, filters).sort((a, b) =>
+    a.date.localeCompare(b.date),
+  );
+  const visibleRegionEvents = showAllEvents ? regionEvents : regionEvents.slice(0, 12);
 
   const groups = activeFirst.map((first) => {
     const direct = childrenByParent.get(first.id) ?? [];
@@ -297,6 +313,54 @@ export function RegionFilter() {
             {!hasRows ? <Text style={styles.empty}>{t('legend.noRegionMatch')}</Text> : null}
           </ScrollView>
           <Text style={styles.hint}>{t('legend.regionHint')}</Text>
+
+          <View style={styles.eventsBlock}>
+            <Pressable
+              onPress={() => setShowEvents((value) => !value)}
+              style={styles.eventsToggle}
+            >
+              <Text style={styles.eventsTitle}>
+                {t('legend.regionEvents')} · {regionEvents.length}
+              </Text>
+              <Text style={styles.eventsChevron}>{showEvents ? '▾' : '▸'}</Text>
+            </Pressable>
+            {showEvents ? (
+              <View style={styles.eventsList}>
+                {visibleRegionEvents.map((event) => {
+                  const color =
+                    dataset.entitiesById.get(event.entityIds[0] ?? '')?.color ?? colors.cinnabar;
+                  return (
+                    <Pressable
+                      key={event.id}
+                      onPress={() => {
+                        pause();
+                        setCurrentTime(parseDateString(event.date));
+                        selectEvent(event.id);
+                        onNavigate?.();
+                      }}
+                      style={styles.eventRow}
+                    >
+                      <Text style={styles.eventDate}>{event.date}</Text>
+                      <View style={[styles.eventDot, { backgroundColor: color }]} />
+                      <Text style={styles.eventName} numberOfLines={1}>
+                        {resolveLocalized(event.name, locale)}
+                      </Text>
+                    </Pressable>
+                  );
+                })}
+                {regionEvents.length === 0 ? (
+                  <Text style={styles.empty}>{t('legend.noRegionEvents')}</Text>
+                ) : null}
+              </View>
+            ) : null}
+            {showEvents && regionEvents.length > 12 ? (
+              <Pressable onPress={() => setShowAllEvents((value) => !value)}>
+                <Text style={styles.eventsMore}>
+                  {t(showAllEvents ? 'legend.showLessRegionEvents' : 'legend.showAllRegionEvents')}
+                </Text>
+              </Pressable>
+            ) : null}
+          </View>
         </View>
       ) : null}
     </View>
@@ -382,4 +446,30 @@ const styles = StyleSheet.create({
   count: { fontSize: 9, color: colors.inkSoft, opacity: 0.6 },
   empty: { fontSize: 9, color: colors.inkSoft, opacity: 0.45, padding: 6 },
   hint: { fontSize: 9, lineHeight: 13, color: colors.inkSoft, opacity: 0.55 },
+  eventsBlock: {
+    borderTopWidth: 1,
+    borderTopColor: colors.ink + '12',
+    paddingTop: spacing.sm,
+    gap: 4,
+  },
+  eventsToggle: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: 4,
+  },
+  eventsTitle: { fontSize: 10, letterSpacing: 1, color: colors.inkSoft },
+  eventsChevron: { fontSize: 10, color: colors.inkSoft, opacity: 0.5 },
+  eventsList: { gap: 2 },
+  eventRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    paddingVertical: 4,
+    paddingHorizontal: 2,
+  },
+  eventDate: { width: 62, fontSize: 9, color: colors.inkSoft, opacity: 0.55 },
+  eventDot: { width: 6, height: 6, borderRadius: 3 },
+  eventName: { flex: 1, fontSize: 10, color: colors.inkSoft },
+  eventsMore: { fontSize: 9, color: colors.cinnabar, opacity: 0.8, paddingVertical: 4 },
 });

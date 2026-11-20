@@ -144,7 +144,7 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
 
           <View style={styles.divider} />
 
-          <RegionFilter />
+          <RegionFilter onNavigate={onClose} />
 
           {dataset.territories.some(
             (feature) => feature.properties.extensions?.kind === 'admin-boundary',

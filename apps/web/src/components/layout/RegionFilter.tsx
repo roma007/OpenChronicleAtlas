@@ -1,4 +1,6 @@
 import {
+  applyEventFilters,
+  parseDateString,
   regionName,
   regionAncestors,
   resolveLocalized,
@@ -20,9 +22,14 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
   const toggleRegion = useAtlasStore((state) => state.toggleRegion);
   const setRegions = useAtlasStore((state) => state.setRegions);
   const focusRegion = useAtlasStore((state) => state.focusRegion);
+  const selectEvent = useAtlasStore((state) => state.selectEvent);
+  const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
+  const pause = useAtlasStore((state) => state.pause);
   const { locale, t } = useI18n();
   const [query, setQuery] = useState('');
   const [expandedCounties, setExpandedCounties] = useState<Set<string>>(new Set());
+  const [showEvents, setShowEvents] = useState(false);
+  const [showAllEvents, setShowAllEvents] = useState(false);
 
   const selected = useMemo(() => new Set(filters.regionIds), [filters.regionIds]);
 
@@ -130,6 +137,11 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
     const routes = routeCounts.get(region.id) ?? 0;
     return routes > 0 ? `${events} / ${routes}` : String(events);
   };
+
+  const regionEvents = applyEventFilters(dataset.events, filters).sort((a, b) =>
+    a.date.localeCompare(b.date),
+  );
+  const visibleRegionEvents = showAllEvents ? regionEvents : regionEvents.slice(0, 12);
 
   const groups = activeFirst.map((first) => {
     const direct = childrenByParent.get(first.id) ?? [];
@@ -331,6 +343,65 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
             ) : null}
           </ul>
           <p className="mt-1 text-[9px] leading-4 text-ink-soft/50">{t('legend.regionHint')}</p>
+
+          <div className="mt-2 border-t border-ink/10 pt-2">
+            <button
+              type="button"
+              onClick={() => setShowEvents((value) => !value)}
+              className="flex w-full items-center justify-between rounded-md px-1.5 py-1 text-[10px] tracking-wider text-ink-soft transition hover:bg-ink/5"
+            >
+              <span>{t('legend.regionEvents')} · {regionEvents.length}</span>
+              <span className="text-ink-soft/50">{showEvents ? '▾' : '▸'}</span>
+            </button>
+            {showEvents ? (
+              <ul className="mt-1 max-h-52 space-y-0.5 overflow-y-auto pr-1">
+                {visibleRegionEvents.map((event) => {
+                  const color =
+                    dataset.entitiesById.get(event.entityIds[0] ?? '')?.color ?? '#8c2f24';
+                  return (
+                    <li key={event.id}>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          pause();
+                          setCurrentTime(parseDateString(event.date));
+                          selectEvent(event.id);
+                        }}
+                        className="flex w-full items-center gap-1.5 rounded-md px-1.5 py-1 text-left text-[10px] text-ink-soft transition hover:bg-ink/5 hover:text-ink"
+                        title={`${event.date} · ${resolveLocalized(event.name, locale)}`}
+                      >
+                        <span className="w-[62px] shrink-0 tabular-nums text-[9px] opacity-55">
+                          {event.date}
+                        </span>
+                        <span
+                          aria-hidden
+                          className="h-1.5 w-1.5 shrink-0 rounded-full"
+                          style={{ backgroundColor: color }}
+                        />
+                        <span className="min-w-0 flex-1 truncate">
+                          {resolveLocalized(event.name, locale)}
+                        </span>
+                      </button>
+                    </li>
+                  );
+                })}
+                {regionEvents.length === 0 ? (
+                  <li className="px-1.5 py-1 text-[9px] text-ink-soft/50">
+                    {t('legend.noRegionEvents')}
+                  </li>
+                ) : null}
+              </ul>
+            ) : null}
+            {showEvents && regionEvents.length > 12 ? (
+              <button
+                type="button"
+                onClick={() => setShowAllEvents((value) => !value)}
+                className="mt-1 w-full rounded-md px-1.5 py-1 text-[9px] text-cinnabar/80 transition hover:bg-cinnabar/5"
+              >
+                {t(showAllEvents ? 'legend.showLessRegionEvents' : 'legend.showAllRegionEvents')}
+              </button>
+            ) : null}
+          </div>
         </div>
       ) : null}
     </section>
