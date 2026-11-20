@@ -19948,5 +19948,340 @@
     "extensions": {
       "routeEvent": false
     }
+  },
+  {
+    "id": "japanese-hainan-landing-1939-02",
+    "name": {
+      "zh": "日军登陆海南岛",
+      "en": "Japanese landing on Hainan Island"
+    },
+    "date": "1939-02-10",
+    "location": {
+      "lng": 110.15,
+      "lat": 20,
+      "place": {
+        "zh": "海南琼山天尾港（今海口西北）",
+        "en": "Tianwei Port, Qiongshan, Hainan (northwest of present-day Haikou)"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军台湾混成旅团在琼山天尾港登陆，当日攻占海口、府城。",
+      "en": "The Japanese Taiwan Mixed Brigade landed at Tianwei Port in Qiongshan and took Haikou and Fucheng the same day."
+    },
+    "description": {
+      "zh": "1939 年 2 月 10 日凌晨，日军第21军台湾混成旅团数千人，在海军第5舰队 30 余艘舰艇、50 余架飞机掩护下，从海口西北的琼山县天尾港强行登陆；当日攻占府城、海口。岛上中国守军仅有保安第5旅等约 3900 人，抵抗后撤往定安山区。日军随后向文昌、定安、嘉积、儋县等沿海城镇推进，至 4 月完成首轮占领。日期、兵力为通行说法，待页码级核对。",
+      "en": "Before dawn on 10 February 1939, several thousand troops of the Japanese 21st Army’s Taiwan Mixed Brigade, covered by more than 30 warships and 50 aircraft of the 5th Fleet, landed at Tianwei Port in Qiongshan, northwest of Haikou, and took Fucheng and Haikou that day. The Chinese defenders on the island, mainly the 5th Security Brigade, numbered only about 3,900 and withdrew to the Ding’an mountains after resisting. Japanese forces then pushed toward Wenchang, Ding’an, Jiaji and Xinzhou in Danxian, completing the first phase of occupation by April. Dates and strength follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中共海南省委党史研究室《日军入侵琼崖和潭口阻击战》",
+        "author": "中共海南省委党史研究室（海南省地方志办公室）",
+        "year": 2022,
+        "note": "登陆与占领时间线参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      }
+    ],
+    "relatedIds": [
+      "haikou-fucheng-fall-1939-02",
+      "tanokou-resistance-1939-02",
+      "qiongya-independent-1938-12"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
+    "id": "haikou-fucheng-fall-1939-02",
+    "name": {
+      "zh": "海口、府城失守",
+      "en": "Fall of Haikou and Fucheng"
+    },
+    "date": "1939-02-10",
+    "location": {
+      "lng": 110.34,
+      "lat": 20.01,
+      "place": {
+        "zh": "海南海口、府城",
+        "en": "Haikou and Fucheng, Hainan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日军攻占海口、府城，琼崖守军撤往定安山区。",
+      "en": "Japanese forces captured Haikou and Fucheng; the Qiongya defenders withdrew to the Ding’an mountains."
+    },
+    "description": {
+      "zh": "1939 年 2 月 10 日，日军登陆后分左右两翼进攻：右翼台湾步兵第一联队攻占府城，左翼第二联队攻占海口，秀英炮台守军曾开炮还击。守军保安第15团、第11团等因众寡悬殊撤退。海口、府城失守后，琼崖当局撤往定安山区。日期为通行说法，待页码级核对。",
+      "en": "On 10 February 1939 the landing force attacked in two wings: the right wing, the 1st Taiwan Infantry Regiment, took Fucheng, while the left wing, the 2nd Regiment, took Haikou; the Xiuying battery returned fire. The defenders, including the 15th and 11th Security Regiments, withdrew after being heavily outnumbered. The Qiongya authorities then retreated into the Ding’an mountains. Dates follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中共海南省委党史研究室《日军入侵琼崖和潭口阻击战》",
+        "author": "中共海南省委党史研究室（海南省地方志办公室）",
+        "year": 2022,
+        "note": "登陆与占领时间线参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-hainan-landing-1939-02",
+      "tanokou-resistance-1939-02"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
+    "id": "japanese-sanya-landing-1939-02",
+    "name": {
+      "zh": "日军占领三亚、榆林",
+      "en": "Japanese capture of Sanya and Yulin"
+    },
+    "date": "1939-02-14",
+    "location": {
+      "lng": 109.51,
+      "lat": 18.25,
+      "place": {
+        "zh": "海南三亚",
+        "en": "Sanya, Hainan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "日本海军陆战队在三亚湾登陆，占领三亚、榆林、崖城。",
+      "en": "Japanese naval landing forces came ashore at Sanya Bay and took Sanya, Yulin and Yacheng."
+    },
+    "description": {
+      "zh": "1939 年 2 月 14 日拂晓，日本海军第5舰队载佐世保海军陆战队约 2500 人进入三亚湾，登陆后当日占领三亚、榆林，深夜占领崖城。日军随后在榆林、三亚设海军基地和航空场，控制海南南部。日期、兵力为通行说法，待页码级核对。",
+      "en": "At dawn on 14 February 1939 the Japanese 5th Fleet carried about 2,500 Sasebo naval landing troops into Sanya Bay; they took Sanya and Yulin that day and Yacheng late that night. Japan subsequently established naval bases and airfields at Yulin and Sanya and controlled southern Hainan. Dates and strength follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中共海南省委党史研究室《日军入侵琼崖和潭口阻击战》",
+        "author": "中共海南省委党史研究室（海南省地方志办公室）",
+        "year": 2022,
+        "note": "登陆与占领时间线参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-hainan-landing-1939-02",
+      "hainan-keibifu-1941-04"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
+    "id": "tanokou-resistance-1939-02",
+    "name": {
+      "zh": "潭口阻击战",
+      "en": "Battle of Tankou Ford"
+    },
+    "date": "1939-02-10",
+    "location": {
+      "lng": 110.45,
+      "lat": 19.95,
+      "place": {
+        "zh": "海南琼山潭口渡口",
+        "en": "Tankou Ford, Qiongshan, Hainan"
+      }
+    },
+    "entityIds": [
+      "south-china-guerrillas"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "琼崖抗日独立队在潭口渡口阻击东进日军，打响琼崖抗战第一枪。",
+      "en": "The Qiongya Independent Corps blocked the Japanese advance at Tankou Ford, firing the first shots of the Qiongya resistance."
+    },
+    "description": {
+      "zh": "1939 年 2 月 10 日，日军一部自海口东渡南渡江向文昌推进，琼崖抗日独立队第一中队在潭口渡口阻击，激战至黄昏后撤出。这是中共领导的琼崖抗日武装对日军的首次正面阻击，被称为「琼崖抗战第一枪」。日期与经过为通行说法，待页码级核对。",
+      "en": "On 10 February 1939 a Japanese detachment crossed the Nandu River east of Haikou toward Wenchang. The 1st Company of the Qiongya Independent Corps blocked it at Tankou Ford and fought until dusk before withdrawing. It was the first direct engagement between the CCP-led Qiongya forces and the Japanese, known as the “first shot of the Qiongya resistance.” Dates and details follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中共海南省委党史研究室《日军入侵琼崖和潭口阻击战》",
+        "author": "中共海南省委党史研究室（海南省地方志办公室）",
+        "year": 2022,
+        "note": "登陆与占领时间线参考，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      }
+    ],
+    "relatedIds": [
+      "japanese-hainan-landing-1939-02",
+      "haikou-fucheng-fall-1939-02",
+      "qiongya-independent-1938-12"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
+    "id": "shilu-iron-mine-1940-03",
+    "name": {
+      "zh": "日军占领石碌铁矿",
+      "en": "Japanese seizure of the Shilu iron mine"
+    },
+    "date": "1940-03-15",
+    "location": {
+      "lng": 109.05,
+      "lat": 19.28,
+      "place": {
+        "zh": "海南昌江石碌",
+        "en": "Shilu, Changjiang, Hainan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "经济",
+    "summary": {
+      "zh": "日军占领石碌铁矿，随后修铁路、建八所港，掠夺海南铁矿资源。",
+      "en": "Japan seized the Shilu iron mine, then built a railway and the Basuo port to extract Hainan’s iron ore."
+    },
+    "description": {
+      "zh": "1940 年 3 月 15 日，日军占领昌江石碌（今属昌江黎族自治县），此后开发石碌铁矿、修建石碌—八所港铁路和八所港，强征大批劳工，将铁矿石运往日本。田独、石碌、羊角岭水晶和那大锡矿是日军在海南重点掠夺的资源。据综述，1939—1945 年海南开采铁矿砂 338 万吨，其中 282 万吨运往日本；数字为通行说法，待页码级核对。",
+      "en": "On 15 March 1940 Japanese forces occupied Shilu in Changjiang (now Changjiang Li Autonomous County). They subsequently developed the Shilu iron mine, built the Shilu–Basuo railway and Basuo port, conscripted large numbers of labourers and shipped iron ore to Japan. Tian du, Shilu, the Yangjiaoling crystal mine and the Nada tin mine were among the resources Japan exploited most intensively in Hainan. According to survey accounts, 3.38 million tons of iron ore were mined in Hainan in 1939–1945, of which 2.82 million tons were shipped to Japan; these figures follow conventional accounts and await page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《海南日报》2025-06-20《不能忘却的琼崖抗战》",
+        "author": "卫静春",
+        "year": 2025,
+        "note": "日军统治与资源掠夺综述，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      },
+      {
+        "title": "《剑桥中华民国史》",
+        "author": "费正清、费维恺编",
+        "year": 1994,
+        "note": "事件背景与时间参考"
+      }
+    ],
+    "relatedIds": [
+      "hainan-keibifu-1941-04"
+    ],
+    "importance": 2,
+    "atlasId": "anti-japanese-war"
+  },
+  {
+    "id": "hainan-keibifu-1941-04",
+    "name": {
+      "zh": "海南警备府成立",
+      "en": "Establishment of the Hainan Guard District"
+    },
+    "date": "1941-04-10",
+    "location": {
+      "lng": 110.32,
+      "lat": 20.03,
+      "place": {
+        "zh": "海南海口",
+        "en": "Haikou, Hainan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "日本海军将海南岛根据地队升格为海南警备府，强化对海南的军事控制。",
+      "en": "The Japanese navy upgraded the Hainan Island Base Force to the Hainan Guard District, tightening its military control of the island."
+    },
+    "description": {
+      "zh": "1941 年 4 月 10 日，日本海军将海南岛根据地队升格为海南警备府，隶属中国方面舰队，统辖海口、三亚、榆林等要港和驻岛海军陆战队，把海南建成封锁华南海上交通、进窥法属印度支那和南进的基地。日军在岛上修筑机场、据点，实施「扫荡」与殖民统治。日期为通行说法，待页码级核对。\n\n本事件为建制事件，不绘制路线。",
+      "en": "On 10 April 1941 the Japanese navy upgraded the Hainan Island Base Force to the Hainan Guard District under the China Area Fleet, commanding the key ports of Haikou, Sanya and Yulin and the naval landing forces on the island. Hainan became a base for blockading South China’s sea lanes and for Japan’s southward advance toward French Indochina. Japanese forces built airfields and strongpoints and conducted “mopping-up” operations and colonial rule. Dates follow conventional accounts and await page-level verification.\n\nThis is an institutional event; no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中共海南省委党史研究室《日军入侵琼崖和潭口阻击战》",
+        "author": "中共海南省委党史研究室（海南省地方志办公室）",
+        "year": 2022,
+        "note": "登陆与占领时间线参考，待页码级核对"
+      },
+      {
+        "title": "《海南日报》2025-06-20《不能忘却的琼崖抗战》",
+        "author": "卫静春",
+        "year": 2025,
+        "note": "日军统治与资源掠夺综述，待页码级核对"
+      },
+      {
+        "title": "《日本帝国主义侵华档案资料选编》",
+        "author": "中央档案馆等编",
+        "year": 1995,
+        "note": "示意初稿，待史料校订"
+      }
+    ],
+    "relatedIds": [
+      "japanese-hainan-landing-1939-02",
+      "japanese-sanya-landing-1939-02",
+      "shilu-iron-mine-1940-03"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "anti-japanese-war"
   }
 ]

@@ -2370,6 +2370,124 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.15,
+            20
+          ],
+          [
+            110.28,
+            20.01
+          ],
+          [
+            110.34,
+            20.01
+          ],
+          [
+            110.35,
+            20
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-02-10",
+        "endDate": "1939-02-10",
+        "order": 62,
+        "segmentType": "advance",
+        "name": {
+          "zh": "天尾港—海口（日军登陆海南岛）",
+          "en": "Tianwei Port–Haikou (Japanese landing on Hainan)"
+        },
+        "description": {
+          "zh": "1939 年 2 月 10 日，日军台湾混成旅团在琼山天尾港登陆，分左右两翼攻占府城、海口；守军保安部队抵抗后撤往定安山区。示意简化路线，待史料校订。",
+          "en": "On 10 February 1939 the Japanese Taiwan Mixed Brigade landed at Tianwei Port in Qiongshan and took Fucheng and Haikou in two wings; the security troops withdrew to the Ding’an mountains after resisting. Schematic simplified route; pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.45,
+            18.2
+          ],
+          [
+            109.51,
+            18.25
+          ],
+          [
+            109.55,
+            18.22
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-02-14",
+        "endDate": "1939-02-14",
+        "order": 63,
+        "segmentType": "advance",
+        "name": {
+          "zh": "三亚湾—榆林（日军登陆三亚）",
+          "en": "Sanya Bay–Yulin (Japanese landing at Sanya)"
+        },
+        "description": {
+          "zh": "1939 年 2 月 14 日拂晓，日本海军陆战队在三亚湾登陆，当日占领三亚、榆林，深夜占领崖城。示意简化路线，待史料校订。",
+          "en": "At dawn on 14 February 1939 Japanese naval landing forces came ashore at Sanya Bay, took Sanya and Yulin that day and Yacheng late that night. Schematic simplified route; pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.05,
+            19.28
+          ],
+          [
+            108.9,
+            19.2
+          ],
+          [
+            108.65,
+            19.1
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-03-15",
+        "endDate": "1945-08-15",
+        "order": 64,
+        "segmentType": "supply",
+        "name": {
+          "zh": "石碌—八所港（铁矿外运）",
+          "en": "Shilu–Basuo Port (iron ore shipment)"
+        },
+        "description": {
+          "zh": "日军占领石碌后修建石碌—八所港铁路和八所港码头，将铁矿砂运往日本；示意简化路线，待史料校订。",
+          "en": "After occupying Shilu, Japan built the Shilu–Basuo railway and Basuo port to ship iron ore to Japan; schematic simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      },
+      "type": "Feature"
     }
   ]
 }

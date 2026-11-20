@@ -7,6 +7,40 @@
         "type": "LineString",
         "coordinates": [
           [
+            110.42,
+            19.96
+          ],
+          [
+            110.48,
+            19.94
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "south-china-guerrillas",
+        "startDate": "1939-02-10",
+        "endDate": "1939-02-10",
+        "order": 1,
+        "segmentType": "defense",
+        "name": {
+          "zh": "潭口渡口阻击战",
+          "en": "Blocking action at Tankou Ford"
+        },
+        "description": {
+          "zh": "1939 年 2 月 10 日，琼崖抗日独立队第一中队在潭口渡口阻击东进日军，激战至黄昏后撤出。示意简化阵地线，待史料校订。",
+          "en": "On 10 February 1939 the 1st Company of the Qiongya Independent Corps blocked the eastward-moving Japanese at Tankou Ford and fought until dusk before withdrawing. Schematic position line; pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             113.9,
             22.6
           ],
@@ -24,7 +58,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1940-09-01",
         "endDate": "1943-12-31",
-        "order": 1,
+        "order": 2,
         "segmentType": "other",
         "name": {
           "zh": "东江纵队活动区域（宝安—惠阳）",
@@ -58,7 +92,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1940-10-01",
         "endDate": "1940-10-31",
-        "order": 2,
+        "order": 3,
         "segmentType": "advance",
         "name": {
           "zh": "东江游击队进入大岭山",
@@ -92,7 +126,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1940-12-15",
         "endDate": "1940-12-31",
-        "order": 3,
+        "order": 4,
         "segmentType": "advance",
         "name": {
           "zh": "琼崖独立总队转移美合",
@@ -130,7 +164,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1941-06-01",
         "endDate": "1945-08-15",
-        "order": 4,
+        "order": 5,
         "segmentType": "other",
         "name": {
           "zh": "琼崖纵队活动区域（琼山—六连岭）",
@@ -164,7 +198,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1941-09-01",
         "endDate": "1945-08-15",
-        "order": 5,
+        "order": 6,
         "segmentType": "other",
         "name": {
           "zh": "珠江纵队活动区域（中山—五桂山）",
@@ -198,7 +232,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1941-12-20",
         "endDate": "1941-12-31",
-        "order": 6,
+        "order": 7,
         "segmentType": "advance",
         "name": {
           "zh": "东江游击队营救文化名人（惠阳—香港）",
@@ -232,7 +266,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1942-02-03",
         "endDate": "1945-08-15",
-        "order": 7,
+        "order": 8,
         "segmentType": "other",
         "name": {
           "zh": "港九大队活动区域（西贡—九龙）",
@@ -270,7 +304,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1943-08-01",
         "endDate": "1943-09-30",
-        "order": 8,
+        "order": 9,
         "segmentType": "advance",
         "name": {
           "zh": "琼崖纵队进入白沙",
@@ -304,7 +338,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1944-08-01",
         "endDate": "1945-08-15",
-        "order": 9,
+        "order": 10,
         "segmentType": "advance",
         "name": {
           "zh": "琼崖纵队挺进五指山",
@@ -342,7 +376,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1944-10-01",
         "endDate": "1945-08-15",
-        "order": 10,
+        "order": 11,
         "segmentType": "other",
         "name": {
           "zh": "珠江纵队活动区域（五桂山—珠江口）",
@@ -380,7 +414,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1944-12-01",
         "endDate": "1944-12-31",
-        "order": 11,
+        "order": 12,
         "segmentType": "advance",
         "name": {
           "zh": "琼崖纵队进入昌感",
@@ -414,7 +448,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-01",
         "endDate": "1945-08-15",
-        "order": 12,
+        "order": 13,
         "segmentType": "other",
         "name": {
           "zh": "韩江纵队活动区域（潮汕—韩江）",
@@ -448,7 +482,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-01",
         "endDate": "1945-08-15",
-        "order": 13,
+        "order": 14,
         "segmentType": "other",
         "name": {
           "zh": "南路人民抗日解放军活动区域（遂溪—雷州）",
@@ -486,7 +520,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-15",
         "endDate": "1945-01-31",
-        "order": 14,
+        "order": 15,
         "segmentType": "advance",
         "name": {
           "zh": "东江纵队移驻罗浮山",
@@ -524,7 +558,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-15",
         "endDate": "1945-08-15",
-        "order": 15,
+        "order": 16,
         "segmentType": "advance",
         "name": {
           "zh": "东江纵队挺进粤北",
@@ -562,7 +596,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-15",
         "endDate": "1945-08-15",
-        "order": 16,
+        "order": 17,
         "segmentType": "advance",
         "name": {
           "zh": "珠江纵队挺进粤中",
@@ -600,7 +634,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-03-01",
         "endDate": "1945-03-31",
-        "order": 17,
+        "order": 18,
         "segmentType": "advance",
         "name": {
           "zh": "东江纵队进入海陆丰",
@@ -638,7 +672,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-04-01",
         "endDate": "1945-08-15",
-        "order": 18,
+        "order": 19,
         "segmentType": "advance",
         "name": {
           "zh": "珠江纵队挺进云雾山",
@@ -676,7 +710,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-05-01",
         "endDate": "1945-08-15",
-        "order": 19,
+        "order": 20,
         "segmentType": "advance",
         "name": {
           "zh": "珠江纵队进入高要",
@@ -710,7 +744,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-05-01",
         "endDate": "1945-05-31",
-        "order": 20,
+        "order": 21,
         "segmentType": "advance",
         "name": {
           "zh": "琼崖纵队进入临高",
@@ -748,7 +782,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-06-01",
         "endDate": "1945-08-15",
-        "order": 21,
+        "order": 22,
         "segmentType": "advance",
         "name": {
           "zh": "琼崖纵队挺进尖峰岭",
@@ -786,7 +820,7 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-07-01",
         "endDate": "1945-08-15",
-        "order": 22,
+        "order": 23,
         "segmentType": "advance",
         "name": {
           "zh": "东江纵队挺进粤赣湘边",
