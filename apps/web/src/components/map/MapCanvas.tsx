@@ -303,6 +303,7 @@ export function MapCanvas() {
   const [zoom, setZoom] = useState(4);
   const [error, setError] = useState<string | null>(null);
   const [routeTip, setRouteTip] = useState<RouteTipState | null>(null);
+  const [regionTip, setRegionTip] = useState<RouteTipState | null>(null);
 
   const dataset = useAtlasStore((state) => state.dataset);
   const activeEntityIds = useAtlasStore((state) => state.activeEntityIds);
@@ -470,7 +471,10 @@ export function MapCanvas() {
     if (oldLabels.length > 0) map.remove(oldLabels);
     regionLabelEntriesRef.current.clear();
 
-    if (!showRegionLabels) return;
+    if (!showRegionLabels) {
+      setRegionTip(null);
+      return;
+    }
 
     for (const region of dataset.regions) {
       if (!region.point) continue;
@@ -530,6 +534,25 @@ export function MapCanvas() {
       label.hide();
       label.on('click', () => useAtlasStore.getState().toggleRegion(region.id));
       map.add(label);
+      const element = label.dom as HTMLElement | undefined;
+      if (element) {
+        element.addEventListener('mouseover', (event: MouseEvent) => {
+          const modern = region.modernName
+            ? resolveLocalized(region.modernName, locale)
+            : '';
+          const sourceKey = pointSource
+            ? (`region.source.${pointSource}` as Parameters<typeof t>[0])
+            : undefined;
+          setRegionTip({
+            x: event.clientX,
+            y: event.clientY,
+            title: text,
+            meta: [t(`region.level.${region.level}`), modern].filter(Boolean).join(' · '),
+            detail: sourceKey ? t(sourceKey) : undefined,
+          });
+        });
+        element.addEventListener('mouseout', () => setRegionTip(null));
+      }
       regionLabelEntriesRef.current.set(region.id, {
         region,
         label,
@@ -537,7 +560,7 @@ export function MapCanvas() {
         point: region.point,
       });
     }
-  }, [dataset, ready, locale, showRegionLabels]);
+  }, [dataset, ready, locale, showRegionLabels, t]);
 
   // 建立/重建路线：只在专题或图层开关变化时执行
   useEffect(() => {
@@ -1590,6 +1613,7 @@ export function MapCanvas() {
       <div ref={containerRef} className="h-full w-full" aria-label={t('map.title')} />
 
       {routeTip ? <RouteTooltip {...routeTip} /> : null}
+      {regionTip ? <RouteTooltip {...regionTip} /> : null}
 
       {error ? (
         <div className="absolute inset-0 grid place-items-center bg-parchment/95 p-6">

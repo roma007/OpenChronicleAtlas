@@ -312,7 +312,10 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
                               : 'text-ink-soft hover:bg-ink/5 hover:text-ink'
                           }`}
                         >
-                          <span className="font-medium">{regionName(county, locale)}</span>
+                          <span className="font-medium">
+                            {county.extensions?.pointSource === 'event-average' ? '≈' : '◎'}{' '}
+                            {regionName(county, locale)}
+                          </span>
                           <span className="ml-auto shrink-0 tabular-nums text-[9px] opacity-60">
                             {countLabel(county)}
                           </span>

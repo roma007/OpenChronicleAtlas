@@ -3,6 +3,19 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.179] - 2026-11-20
+
+### Added
+- Web 地区标注支持悬停浮签：显示县/地点名称、级别（县/市、地点）、今地名与点位来源（GeoNames / 县治同名地点 / 事件点即县治 / 手工校订）。
+- 地区筛选树中的县名统一加 `◎` 前缀；若为事件平均点则显示 `≈`，与地图标注一致。
+
+### Verify
+- 悬停“◎ 迁安县”显示“县/市 · GeoNames 县治”。
+- 移动端 `npx expo export --platform ios` 成功打包（1192 modules，9.8MB Hermes bundle）。
+- `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build` 通过。
+
+---
+
 ## [v1.0.178] - 2026-11-20
 
 ### Changed

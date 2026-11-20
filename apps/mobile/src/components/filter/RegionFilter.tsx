@@ -295,6 +295,7 @@ export function RegionFilter({ onNavigate }: RegionFilterProps) {
                           accessibilityState={{ selected: active }}
                         >
                           <Text style={[styles.countyText, active && styles.rowTextActive]}>
+                            {county.extensions?.pointSource === 'event-average' ? '≈' : '◎'}{' '}
                             {regionName(county, locale)}
                           </Text>
                           <Text style={styles.count}>{countLabel(county)}</Text>
