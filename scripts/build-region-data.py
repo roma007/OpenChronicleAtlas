@@ -353,6 +353,44 @@ OVERSEAS_PREFIXES = (
 
 PAREN_RE = re.compile(r"（[^）]*）|\([^)]*\)")
 COUNTY_RE = re.compile(r"^(.{2,8}?[县市旗区])(.*)$")
+
+# 县治所在的地点名：有同名地点时优先用它作为县标注落点
+COUNTY_SEAT_PLACE = {
+    "清苑县": "保定",
+    "临榆县": "山海关",
+    "万全县": "张家口",
+    "阳曲县": "太原",
+    "肤施县": "延安",
+    "铜山县": "徐州",
+    "郑县": "郑州",
+    "怀宁县": "安庆",
+    "全县": "全州",
+    "曲江县": "韶关",
+    "江陵县": "荆州",
+    "赣县": "赣州",
+    "大庾县": "大余",
+    "石门市": "石家庄",
+    "琼东县": "嘉积",
+    "杭县": "杭州",
+    "宜昌县": "宜昌",
+    "龙陵县": "龙陵",
+    "中山县": "石岐",
+    "崖县": "崖城",
+    "琼山县": "府城",
+    "从化县": "街口",
+    "潮安县": "潮州",
+    "鄞县": "宁波",
+    "永嘉县": "温州",
+    "历城县": "济南",
+    "惠阳县": "惠州",
+    "邕宁县": "南宁",
+    "宝安县": "南头",
+    "台北州": "台北",
+    "光化县": "老河口",
+    "南海县": "佛山",
+    "新会县": "会城",
+}
+
 GENERIC_PLACE_SUFFIXES = {"一线", "一带", "附近", "方向", "沿线", "战场", "地区", "城", "县城", "城内", "城外"}
 
 
@@ -713,15 +751,29 @@ def main():
 
     # 补一层“地点”到“省”的可反向匹配：事件/路线只存最细 id，
     # 过滤省级时由匹配逻辑沿 parentId 展开。
+    regions_by_id = {region["id"]: region for region in regions}
+    seat_points = {}
+    for region in regions:
+        if region["level"] != "place" or not region["parentId"].startswith("county-"):
+            continue
+        county = regions_by_id.get(region["parentId"])
+        if county and COUNTY_SEAT_PLACE.get(county["name"]["zh"]) == region["name"]["zh"]:
+            seat_points[county["id"]] = region["point"]
+
     for region in regions:
         if region["level"] != "county":
             continue
         points = county_points.get(region["id"])
-        if points:
+        seat = seat_points.get(region["id"])
+        if seat:
+            region["point"] = seat
+            region.setdefault("extensions", {})["pointSource"] = "county-seat-place"
+        elif points:
             region["point"] = [
                 round(sum(point[0] for point in points) / len(points), 4),
                 round(sum(point[1] for point in points) / len(points), 4),
             ]
+            region.setdefault("extensions", {})["pointSource"] = "event-average"
 
     out = {
         "schemaVersion": "1.0.0",

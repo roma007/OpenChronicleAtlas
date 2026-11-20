@@ -26,6 +26,7 @@ export function Legend({ className = '' }: LegendProps) {
   const toggleAdminBoundaries = useAtlasStore((state) => state.toggleAdminBoundaries);
   const showRegionLabels = useAtlasStore((state) => state.showRegionLabels);
   const toggleRegionLabels = useAtlasStore((state) => state.toggleRegionLabels);
+  const currentTime = useAtlasStore((state) => state.currentTime);
   const filters = useAtlasStore((state) => state.filters);
   const setFilters = useAtlasStore((state) => state.setFilters);
   const toggleCategory = useAtlasStore((state) => state.toggleCategory);
@@ -148,6 +149,23 @@ export function Legend({ className = '' }: LegendProps) {
             {t(showAdminBoundaries ? 'legend.on' : 'legend.off')}
           </span>
         </button>
+      ) : null}
+      {showAdminBoundaries &&
+      dataset.territories.some(
+        (feature) => feature.properties.extensions?.kind === 'admin-boundary',
+      ) ? (
+        <p className="mt-1 px-1 text-[9px] text-ink-soft/50">
+          {t('legend.adminBoundaryPeriod', {
+            period:
+              new Date(currentTime).getUTCFullYear() <= 1931
+                ? '1931'
+                : new Date(currentTime).getUTCFullYear() <= 1937
+                  ? '1937'
+                  : new Date(currentTime).getUTCFullYear() <= 1944
+                    ? '1938—1944'
+                    : '1945',
+          })}
+        </p>
       ) : null}
 
       {dataset.regions.length > 0 ? (
