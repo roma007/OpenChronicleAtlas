@@ -1,0 +1,1487 @@
+{
+  "schemaVersion": "1.0.0",
+  "source": "GeoNames (CC BY 4.0) county seats + project county-seat place matching",
+  "counties": {
+    "hainan": {
+      "point": [
+        109.7,
+        19.2
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1809055"
+    },
+    "county-liaoning-u6c88u9633u53bf": {
+      "point": [
+        123.4328,
+        41.7922
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "2034937"
+    },
+    "county-heilongjiang-u54c8u5c14u6ee8u5e02": {
+      "point": [
+        126.65,
+        45.75
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "2037013"
+    },
+    "county-jilin-u957fu6625u53bf": {
+      "point": [
+        125.3228,
+        43.88
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "2038180"
+    },
+    "county-fujian-u95fdu4fafu53bf": {
+      "point": [
+        119.0758,
+        26.2276
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "1800476"
+    },
+    "county-hebei-u4e34u6986u53bf": {
+      "point": [
+        119.75,
+        40.01
+      ],
+      "source": "county-seat-place"
+    },
+    "county-rehe-u671du9633u53bf": {
+      "point": [
+        120.45,
+        41.57
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "2038101"
+    },
+    "county-rehe-u627fu5fb7u53bf": {
+      "point": [
+        117.9588,
+        40.9519
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "2038087"
+    },
+    "county-hebei-u8fc1u5b89u53bf": {
+      "point": [
+        118.6973,
+        40.0056
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "2035411"
+    },
+    "county-hebei-u5bc6u4e91u53bf": {
+      "point": [
+        116.9873,
+        40.5301
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "2035740"
+    },
+    "county-hebei-u9075u5316u53bf": {
+      "point": [
+        117.959,
+        40.1865
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "2033058"
+    },
+    "county-chahar-u4e07u5168u53bf": {
+      "point": [
+        114.89,
+        40.82
+      ],
+      "source": "county-seat-place"
+    },
+    "county-chahar-u591au4f26u53bf": {
+      "point": [
+        116.4891,
+        42.1871
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "2037530"
+    },
+    "county-jiangxi-u5357u660cu5e02": {
+      "point": [
+        115.8531,
+        28.684
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1800163"
+    },
+    "county-chahar-u6cbdu6e90u53bf": {
+      "point": [
+        115.6964,
+        41.574
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "2037105"
+    },
+    "county-guizhou-u8d35u9633u53bf": {
+      "point": [
+        106.7167,
+        26.5833
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1809461"
+    },
+    "county-chahar-u5f20u5317u53bf": {
+      "point": [
+        114.7051,
+        41.1626
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "2033212"
+    },
+    "county-guangdong-u5e7fu5ddeu5e02": {
+      "point": [
+        113.25,
+        23.1167
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1809858"
+    },
+    "county-chahar-u5546u90fdu53bf": {
+      "point": [
+        113.5339,
+        41.5494
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "2035032"
+    },
+    "county-suiyuan-u8fbeu5c14u7f55u65d7": {
+      "point": [
+        110.4356,
+        41.6919
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "2038552"
+    },
+    "county-jiangxi-u661fu5b50u53bf": {
+      "point": [
+        116.0407,
+        29.4465
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1799946"
+    },
+    "county-hebei-u660cu5e73u53bf": {
+      "point": [
+        116.2052,
+        40.2215
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "2038153"
+    },
+    "county-jiangsu-u6c5fu9634u53bf": {
+      "point": [
+        120.3012,
+        31.8268
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1806210"
+    },
+    "county-zhejiang-u676du53bf": {
+      "point": [
+        120.15,
+        30.27
+      ],
+      "source": "county-seat-place"
+    },
+    "county-hebei-u6e05u82d1u53bf": {
+      "point": [
+        115.46,
+        38.87
+      ],
+      "source": "county-seat-place"
+    },
+    "county-shanxi-u9633u66f2u53bf": {
+      "point": [
+        112.55,
+        37.87
+      ],
+      "source": "county-seat-place"
+    },
+    "county-shaanxi-u6d1bu5dddu53bf": {
+      "point": [
+        109.4886,
+        35.7556
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1801979"
+    },
+    "county-shaanxi-u80a4u65bdu53bf": {
+      "point": [
+        109.49,
+        36.6
+      ],
+      "source": "county-seat-place"
+    },
+    "county-sichuan-u6210u90fdu53bf": {
+      "point": [
+        104.0667,
+        30.6667
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1815286"
+    },
+    "county-guangxi-u6842u6797u53bf": {
+      "point": [
+        110.2964,
+        25.2802
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1809498"
+    },
+    "county-shanxi-u5927u540cu53bf": {
+      "point": [
+        113.6046,
+        40.0395
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "2033628"
+    },
+    "county-shanxi-u7075u4e18u53bf": {
+      "point": [
+        114.1484,
+        39.468
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1803486"
+    },
+    "county-shanxi-u5e73u5b9au53bf": {
+      "point": [
+        113.597,
+        37.8081
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "1798828"
+    },
+    "county-hubei-u6c49u53e3u5e02": {
+      "point": [
+        114.2771,
+        30.5744
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1808894"
+    },
+    "county-shanxi-u4ee3u53bf": {
+      "point": [
+        112.9291,
+        39.069
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1814213"
+    },
+    "county-hebei-u961cu5e73u53bf": {
+      "point": [
+        114.1932,
+        38.85
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1810946"
+    },
+    "county-shanxi-u548cu987au53bf": {
+      "point": [
+        113.5393,
+        37.3376
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1808274"
+    },
+    "county-jiangsu-u94dcu5c71u53bf": {
+      "point": [
+        117.18,
+        34.26
+      ],
+      "source": "county-seat-place"
+    },
+    "county-shanxi-u5174u53bf": {
+      "point": [
+        111.1666,
+        38.4806
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1788912"
+    },
+    "county-hunan-u6e58u6f6du53bf": {
+      "point": [
+        112.9,
+        27.85
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1790492"
+    },
+    "county-shandong-u4e34u6c82u53bf": {
+      "point": [
+        118.3428,
+        35.0631
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1803318"
+    },
+    "county-shandong-u6ed5u53bf": {
+      "point": [
+        117.15,
+        35.1
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1793037"
+    },
+    "county-shanxi-u6f5eu57ceu53bf": {
+      "point": [
+        113.2244,
+        36.3314
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1802166"
+    },
+    "county-hebei-u6d89u53bf": {
+      "point": [
+        113.6623,
+        36.5678
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1795533"
+    },
+    "county-yunnan-u6606u660eu53bf": {
+      "point": [
+        102.7183,
+        25.0389
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "1804651"
+    },
+    "county-shanxi-u6b66u4e61u53bf": {
+      "point": [
+        112.8542,
+        36.8428
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1790917"
+    },
+    "county-hebei-u5357u5babu53bf": {
+      "point": [
+        115.3888,
+        37.3546
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1800065"
+    },
+    "county-shandong-u83cfu6cfdu53bf": {
+      "point": [
+        115.4736,
+        35.2393
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1808198"
+    },
+    "county-hunan-u957fu6c99u53bf": {
+      "point": [
+        112.9709,
+        28.1987
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1815577"
+    },
+    "county-henan-u5f00u5c01u53bf": {
+      "point": [
+        114.3074,
+        34.7986
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1804879"
+    },
+    "county-hebei-u84dfu53bf": {
+      "point": [
+        117.4145,
+        39.9763
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "2036388"
+    },
+    "county-henan-u90d1u53bf": {
+      "point": [
+        113.66,
+        34.75
+      ],
+      "source": "county-seat-place"
+    },
+    "county-anhui-u6000u5b81u53bf": {
+      "point": [
+        117.05,
+        30.53
+      ],
+      "source": "county-seat-place"
+    },
+    "county-hubei-u9633u65b0u53bf": {
+      "point": [
+        115.2222,
+        29.903
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1787260"
+    },
+    "county-jiangxi-u745eu660cu53bf": {
+      "point": [
+        115.65,
+        29.6667
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1798950"
+    },
+    "county-henan-u5546u57ceu53bf": {
+      "point": [
+        115.3987,
+        31.8049
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1796297"
+    },
+    "county-jiangxi-u5fb7u5b89u53bf": {
+      "point": [
+        115.7557,
+        29.33
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1798443"
+    },
+    "county-shanxi-u5e73u9646u53bf": {
+      "point": [
+        111.1913,
+        34.8442
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1795661"
+    },
+    "county-shanxi-u95fbu559cu53bf": {
+      "point": [
+        111.2161,
+        35.3547
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1791409"
+    },
+    "county-hubei-u6b66u660cu5e02": {
+      "point": [
+        114.3167,
+        30.35
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "1784543"
+    },
+    "county-anhui-u516du5b89u53bf": {
+      "point": [
+        116.5169,
+        31.7356
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1802206"
+    },
+    "county-guangxi-u5168u53bf": {
+      "point": [
+        111.07,
+        25.93
+      ],
+      "source": "county-seat-place"
+    },
+    "county-guangdong-u60e0u9633u53bf": {
+      "point": [
+        114.4,
+        23.1
+      ],
+      "source": "county-seat-place"
+    },
+    "county-hubei-u5d07u9633u53bf": {
+      "point": [
+        114.0416,
+        29.5402
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1793013"
+    },
+    "county-shandong-u6c82u6c34u53bf": {
+      "point": [
+        118.5725,
+        35.8842
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1786452"
+    },
+    "county-hebei-u6cb3u95f4u53bf": {
+      "point": [
+        116.0956,
+        38.4392
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1808614"
+    },
+    "county-shandong-u9104u57ceu53bf": {
+      "point": [
+        115.5013,
+        35.5616
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1804994"
+    },
+    "county-jiangxi-u9ad8u5b89u53bf": {
+      "point": [
+        115.293,
+        28.372
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1810624"
+    },
+    "county-henan-u6850u67cfu53bf": {
+      "point": [
+        113.4041,
+        32.375
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1792714"
+    },
+    "county-hunan-u5cb3u9633u53bf": {
+      "point": [
+        113.1202,
+        29.3678
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "13457912"
+    },
+    "county-jiangxi-u4feeu6c34u53bf": {
+      "point": [
+        114.54,
+        29.0301
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1786538"
+    },
+    "county-hebei-u6d9eu6e90u53bf": {
+      "point": [
+        114.6915,
+        39.3597
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1804581"
+    },
+    "county-guangdong-u4e09u6c34u53bf": {
+      "point": [
+        112.8916,
+        23.1549
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1789273"
+    },
+    "county-guangdong-u4eceu5316u53bf": {
+      "point": [
+        113.58,
+        23.55
+      ],
+      "source": "county-seat-place"
+    },
+    "county-guangdong-u66f2u6c5fu53bf": {
+      "point": [
+        113.6,
+        24.8
+      ],
+      "source": "county-seat-place"
+    },
+    "county-anhui-u94dcu9675u53bf": {
+      "point": [
+        117.7833,
+        30.95
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1792621"
+    },
+    "county-anhui-u829cu6e56u53bf": {
+      "point": [
+        118.4295,
+        31.3526
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1791236"
+    },
+    "county-guangxi-u9095u5b81u53bf": {
+      "point": [
+        108.32,
+        22.82
+      ],
+      "source": "county-seat-place"
+    },
+    "county-guangxi-u5bbeu9633u53bf": {
+      "point": [
+        108.8046,
+        23.2206
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1801675"
+    },
+    "county-guangxi-u67f3u5ddeu53bf": {
+      "point": [
+        109.407,
+        24.324
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1803300"
+    },
+    "county-suiyuan-u5305u5934u53bf": {
+      "point": [
+        109.8439,
+        40.6516
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "2038432"
+    },
+    "county-suiyuan-u4e94u539fu53bf": {
+      "point": [
+        108.1122,
+        41.0073
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "2034070"
+    },
+    "county-hubei-u67a3u9633u53bf": {
+      "point": [
+        112.7602,
+        32.079
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1785461"
+    },
+    "county-hubei-u5b9cu57ceu53bf": {
+      "point": [
+        112.2582,
+        31.7109
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1786754"
+    },
+    "county-shanxi-u6986u6b21u53bf": {
+      "point": [
+        112.7319,
+        37.6803
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1785974"
+    },
+    "county-guangdong-u5b9du5b89u53bf": {
+      "point": [
+        113.92,
+        22.55
+      ],
+      "source": "county-seat-place"
+    },
+    "county-guangdong-u4e1cu839eu53bf": {
+      "point": [
+        113.7487,
+        23.018
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1812545"
+    },
+    "county-yunnan-u8499u81eau53bf": {
+      "point": [
+        103.4925,
+        23.2155
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1800662"
+    },
+    "county-jiangsu-u6cf0u5174u53bf": {
+      "point": [
+        120.0136,
+        32.1667
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1793533"
+    },
+    "county-henan-u4fe1u9633u53bf": {
+      "point": [
+        114.1203,
+        32.0958
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1798725"
+    },
+    "county-henan-u606fu53bf": {
+      "point": [
+        114.7446,
+        32.3484
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1788210"
+    },
+    "county-henan-u821eu9633u53bf": {
+      "point": [
+        113.61,
+        33.4387
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1790884"
+    },
+    "county-jiangsu-u76d0u57ceu53bf": {
+      "point": [
+        120.1573,
+        33.3575
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1787746"
+    },
+    "county-jiangxi-u4e0au9ad8u53bf": {
+      "point": [
+        114.9208,
+        28.239
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1817881"
+    },
+    "county-henan-u6d1bu9633u53bf": {
+      "point": [
+        112.4368,
+        34.6735
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1801792"
+    },
+    "county-guangdong-u4e2du5c71u53bf": {
+      "point": [
+        113.38,
+        22.52
+      ],
+      "source": "county-seat-place"
+    },
+    "county-hunan-u5e73u6c5fu53bf": {
+      "point": [
+        113.5783,
+        28.7044
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1798783"
+    },
+    "county-hebei-u6613u53bf": {
+      "point": [
+        115.496,
+        39.3537
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "1786409"
+    },
+    "county-hubei-u5b9cu660cu53bf": {
+      "point": [
+        111.2847,
+        30.7144
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1786764"
+    },
+    "county-hubei-u5f53u9633u53bf": {
+      "point": [
+        111.8334,
+        30.8312
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1813848"
+    },
+    "county-shanxi-u9eceu57ceu53bf": {
+      "point": [
+        113.3695,
+        36.5029
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1803787"
+    },
+    "county-zhejiang-u91d1u534eu53bf": {
+      "point": [
+        119.6442,
+        29.1068
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1805528"
+    },
+    "county-zhejiang-u6c5fu5c71u53bf": {
+      "point": [
+        118.622,
+        28.739
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1806269"
+    },
+    "county-jiangxi-u4e0au9976u53bf": {
+      "point": [
+        117.9429,
+        28.4518
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1787858"
+    },
+    "county-yunnan-u4fddu5c71u53bf": {
+      "point": [
+        99.1637,
+        25.1163
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1281673"
+    },
+    "county-yunnan-u695au96c4u53bf": {
+      "point": [
+        101.5456,
+        25.0364
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1814760"
+    },
+    "county-henan-u6797u53bf": {
+      "point": [
+        113.9107,
+        36.1691
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1803323"
+    },
+    "county-henan-u5b89u9633u53bf": {
+      "point": [
+        114.0691,
+        36.2313
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "13228742"
+    },
+    "county-hubei-u6c5fu9675u53bf": {
+      "point": [
+        112.24,
+        30.33
+      ],
+      "source": "county-seat-place"
+    },
+    "county-hubei-u6069u65bdu53bf": {
+      "point": [
+        109.4833,
+        30.3
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1811720"
+    },
+    "county-hunan-u5e38u5fb7u53bf": {
+      "point": [
+        111.6984,
+        29.0321
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1791121"
+    },
+    "county-shanxi-u6d2au6d1eu53bf": {
+      "point": [
+        111.6753,
+        36.2656
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1807981"
+    },
+    "county-hubei-u516cu5b89u53bf": {
+      "point": [
+        112.166,
+        29.9329
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1810161"
+    },
+    "county-jiangsu-u6deeu5b89u53bf": {
+      "point": [
+        119.0456,
+        33.3116
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "1807649"
+    },
+    "county-henan-u8bb8u660cu53bf": {
+      "point": [
+        113.8595,
+        34.0638
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1788044"
+    },
+    "county-yunnan-u9f99u9675u53bf": {
+      "point": [
+        98.8399,
+        24.6385
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1280695"
+    },
+    "county-yunnan-u817eu51b2u53bf": {
+      "point": [
+        98.4613,
+        25.3251
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "1279890"
+    },
+    "county-henan-u9655u53bf": {
+      "point": [
+        111.3785,
+        34.6326
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "1795920"
+    },
+    "county-hunan-u8861u9633u53bf": {
+      "point": [
+        112.6283,
+        26.7631
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1808369"
+    },
+    "county-guangdong-u4fddu4eadu53bf": {
+      "point": [
+        109.6483,
+        18.5944
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "1816903"
+    },
+    "county-guangdong-u660cu6c5fu53bf": {
+      "point": [
+        109.0427,
+        19.1944
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "1815692"
+    },
+    "county-hunan-u82b7u6c5fu53bf": {
+      "point": [
+        109.6592,
+        27.4581
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1784525"
+    },
+    "county-guangdong-u9042u6eaau53bf": {
+      "point": [
+        109.9749,
+        21.3777
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "1793886"
+    },
+    "county-guangdong-u5357u96c4u53bf": {
+      "point": [
+        114.3772,
+        25.1894
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1799646"
+    },
+    "county-guangdong-u535au7f57u53bf": {
+      "point": [
+        114.2847,
+        23.3793
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "1816276"
+    },
+    "county-guangdong-u65b0u4f1au53bf": {
+      "point": [
+        113.03,
+        22.52
+      ],
+      "source": "county-seat-place"
+    },
+    "county-guangdong-u6d77u4e30u53bf": {
+      "point": [
+        115.2534,
+        22.9593
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "1809098"
+    },
+    "county-hunan-u6c85u9675u53bf": {
+      "point": [
+        110.4022,
+        28.4486
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1786066"
+    },
+    "county-henan-u5357u9633u53bf": {
+      "point": [
+        112.5466,
+        33.0052
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1799629"
+    },
+    "county-hubei-u8944u9633u53bf": {
+      "point": [
+        112.1448,
+        32.0422
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1790587"
+    },
+    "county-guangdong-u4e91u6d6eu53bf": {
+      "point": [
+        112.0381,
+        22.9279
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1785725"
+    },
+    "county-hunan-u90b5u9633u53bf": {
+      "point": [
+        111.2831,
+        26.9589
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "1795851"
+    },
+    "county-guangdong-u9ad8u8981u53bf": {
+      "point": [
+        112.4455,
+        23.0243
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1800201"
+    },
+    "county-guangdong-u548cu5e73u53bf": {
+      "point": [
+        114.9346,
+        24.4533
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1787397"
+    },
+    "county-guangdong-u743cu5c71u53bf": {
+      "point": [
+        110.3538,
+        20.0086
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1797535"
+    },
+    "county-jilin-u5409u6797u5e02": {
+      "point": [
+        126.5608,
+        43.8465
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "2036502"
+    },
+    "county-heilongjiang-u9f50u9f50u54c8u5c14": {
+      "point": [
+        123.9615,
+        47.3392
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "2035265"
+    },
+    "county-liaoning-u629au987au53bf": {
+      "point": [
+        123.9064,
+        41.8825
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "2037352"
+    },
+    "county-shandong-u5386u57ceu53bf": {
+      "point": [
+        117,
+        36.65
+      ],
+      "source": "county-seat-place"
+    },
+    "county-fujian-u53a6u95e8u5e02": {
+      "point": [
+        118.0819,
+        24.4798
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1790645"
+    },
+    "county-jiangxi-u4e5du6c5fu53bf": {
+      "point": [
+        116.0021,
+        29.7048
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1805179"
+    },
+    "county-guangdong-u6c55u5934u5e02": {
+      "point": [
+        116.6788,
+        23.3549
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1795940"
+    },
+    "county-guangdong-u6f6eu5b89u53bf": {
+      "point": [
+        116.62,
+        23.66
+      ],
+      "source": "county-seat-place"
+    },
+    "county-zhejiang-u911eu53bf": {
+      "point": [
+        121.55,
+        29.87
+      ],
+      "source": "county-seat-place"
+    },
+    "county-hebei-u4e30u6da6u53bf": {
+      "point": [
+        118.1382,
+        39.8266
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1811260"
+    },
+    "county-zhejiang-u7ecdu5174u53bf": {
+      "point": [
+        120.5786,
+        30.0024
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1795855"
+    },
+    "county-zhejiang-u9547u6d77u53bf": {
+      "point": [
+        121.6875,
+        29.9695
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1784647"
+    },
+    "county-zhejiang-u745eu5b89u53bf": {
+      "point": [
+        120.6586,
+        27.7761
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1797063"
+    },
+    "county-zhejiang-u6c38u5609u53bf": {
+      "point": [
+        120.7,
+        28
+      ],
+      "source": "county-seat-place"
+    },
+    "county-hunan-u5357u53bf": {
+      "point": [
+        112.4065,
+        29.3638
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "1799552"
+    },
+    "county-guizhou-u72ecu5c71u53bf": {
+      "point": [
+        107.5673,
+        25.7262
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1811789"
+    },
+    "county-hubei-u5149u5316u53bf": {
+      "point": [
+        111.67,
+        32.38
+      ],
+      "source": "county-seat-place"
+    },
+    "county-taiwan-u53f0u5317u5dde": {
+      "point": [
+        121.56,
+        25.03
+      ],
+      "source": "county-seat-place"
+    },
+    "county-jiangsu-u91d1u5c71u53bf": {
+      "point": [
+        121.2937,
+        30.8356
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "13608000"
+    },
+    "county-guangdong-u6d77u5eb7u53bf": {
+      "point": [
+        110.0667,
+        20.9167
+      ],
+      "source": "geonames",
+      "pointConfidence": "medium",
+      "geonameId": "1809079"
+    },
+    "county-jiangxi-u5927u5ebeu53bf": {
+      "point": [
+        114.36,
+        25.4
+      ],
+      "source": "county-seat-place"
+    },
+    "county-jiangxi-u9042u5dddu53bf": {
+      "point": [
+        114.5129,
+        26.3096
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1797380"
+    },
+    "county-jiangxi-u8d63u53bf": {
+      "point": [
+        114.94,
+        25.85
+      ],
+      "source": "county-seat-place"
+    },
+    "county-hebei-u77f3u95e8u5e02": {
+      "point": [
+        114.5,
+        38.04
+      ],
+      "source": "county-seat-place"
+    },
+    "county-guangdong-u743cu4e1cu53bf": {
+      "point": [
+        110.47,
+        19.25
+      ],
+      "source": "county-seat-place"
+    },
+    "county-guangdong-u5c6fu660cu53bf": {
+      "point": [
+        110.0536,
+        19.3454
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "12324205"
+    },
+    "county-guangdong-u589eu57ceu53bf": {
+      "point": [
+        113.7831,
+        23.3528
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1785436"
+    },
+    "county-guangdong-u5357u6d77u53bf": {
+      "point": [
+        113.12,
+        23.02
+      ],
+      "source": "county-seat-place"
+    },
+    "county-guangdong-u987au5fb7u53bf": {
+      "point": [
+        113.2921,
+        22.8009
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "6922213"
+    },
+    "county-guangdong-u756au79bau53bf": {
+      "point": [
+        113.3577,
+        22.9464
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1795055"
+    },
+    "county-guangdong-u5357u6fb3u53bf": {
+      "point": [
+        117.0401,
+        23.4307
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1800190"
+    },
+    "county-guangdong-u6f84u6d77u53bf": {
+      "point": [
+        116.7701,
+        23.4613
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1815302"
+    },
+    "county-guangdong-u9f99u95e8u53bf": {
+      "point": [
+        114.1061,
+        23.6489
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1802505"
+    },
+    "county-guangdong-u65b0u4e30u53bf": {
+      "point": [
+        114.2135,
+        24.0548
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1811419"
+    },
+    "county-guangdong-u7fc1u6e90u53bf": {
+      "point": [
+        114.1357,
+        24.3453
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1802301"
+    },
+    "county-guangdong-u82f1u5fb7u53bf": {
+      "point": [
+        113.2725,
+        24.198
+      ],
+      "source": "geonames",
+      "pointConfidence": "high",
+      "geonameId": "1786633"
+    }
+  }
+}

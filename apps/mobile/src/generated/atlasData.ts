@@ -5,6 +5,7 @@ export type BundledTextLoader = () => unknown;
 
 export const BUNDLED_TEXT: Record<string, BundledTextLoader> = {
   "ai-content.json": () => require("../../../../data/atlases/ai-content.json"),
+  "anti-japanese-war/county-seats.json": () => require("../../../../data/atlases/anti-japanese-war/county-seats.json"),
   "anti-japanese-war/events/events.json": () => require("../../../../data/atlases/anti-japanese-war/events/events.json"),
   "anti-japanese-war/manifest.json": () => require("../../../../data/atlases/anti-japanese-war/manifest.json"),
   "anti-japanese-war/region-index.json": () => require("../../../../data/atlases/anti-japanese-war/region-index.json"),

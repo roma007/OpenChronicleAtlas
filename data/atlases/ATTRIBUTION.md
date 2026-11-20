@@ -46,6 +46,16 @@ Cliopatria 的边界来自历史地图的数字化与人工校订，属于**学�
 
 > 该 GeoJSON 数据文件（`data/atlases/anti-japanese-war/territories/roc-provinces.geojson`）单独按 **GPL-3.0** 提供；本仓库其余代码与数据仍按 MIT 许可。转载或截图时请注明「江山时序 Jiangshan Atlas」及上述来源。
 
+### 县治标注点位
+
+- 县/地点标注点优先使用 **GeoNames**（https://www.geonames.org/，CC BY 4.0）的中国 populated places 坐标，按县名与 60km 邻域匹配；共 142 个县采用 GeoNames 点；
+- 29 个县使用本项目事件中“县治同名地点”的坐标（如清苑县→保定、临榆县→山海关）；
+- 其余 17 个县仍用事件坐标平均点，仅为示意；
+- 所有县治点位登记在 `county-seats.json`，`scripts/build-region-data.py` 构建时优先应用；
+- 点位只用于地图标注，不表示精确县治位置或县界。
+
+引用建议：GeoNames geographical database, https://www.geonames.org/, licensed under CC BY 4.0.
+
 ### 地区索引
 
 - `regions.json`、`region-index.json` 由本项目根据事件地名、省界点面判断与路线采样生成；

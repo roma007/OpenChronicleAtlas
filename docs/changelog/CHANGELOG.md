@@ -3,6 +3,22 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.176] - 2026-11-20
+
+### Changed
+- 县标注点位大幅校订：142 个县改用 **GeoNames** 中国 populated places 坐标（CC BY 4.0），29 个县保留“县治同名地点”坐标，17 个县仍用事件平均点。
+- 新增 `county-seats.json` 记录县治点位来源；`scripts/build-region-data.py` 构建时优先应用，避免重建时丢失。
+- 典型修正：迁安县从喜峰口附近移到迁安城，密云县从古北口移到密云城，遵化县从罗文峪移到遵化城，昌平县从南口移到昌平城。
+
+### Docs
+- `data/atlases/ATTRIBUTION.md` 增加 GeoNames 许可与引用；标注点位只作示意，不表示精确县治或县界。
+
+### Verify
+- `pnpm validate:data`：529 事件 / 308 路线；425 个地区，归属完整。
+- `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build` 通过。
+
+---
+
 ## [v1.0.175] - 2026-11-20
 
 ### Added

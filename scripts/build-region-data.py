@@ -775,6 +775,23 @@ def main():
             ]
             region.setdefault("extensions", {})["pointSource"] = "event-average"
 
+    # 人工/GeoNames 校订过的县治点位优先，见 county-seats.json
+    seats_path = ATLAS / "county-seats.json"
+    if seats_path.exists():
+        overrides = json.loads(seats_path.read_text()).get("counties", {})
+        for region in regions:
+            override = overrides.get(region["id"])
+            if not override:
+                continue
+            region["point"] = override["point"]
+            extensions = region.setdefault("extensions", {})
+            extensions["pointSource"] = override["source"]
+            for key in ("pointConfidence", "geonameId"):
+                if key in override:
+                    extensions[key] = override[key]
+                else:
+                    extensions.pop(key, None)
+
     out = {
         "schemaVersion": "1.0.0",
         "frame": "ROC-1937",
