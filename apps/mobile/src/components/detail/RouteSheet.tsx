@@ -1,4 +1,4 @@
-import { resolveLocalized, segmentTypeLabel } from '@atlas/shared';
+import { eventsNearPoint, parseDateString, resolveLocalized, segmentTypeLabel } from '@atlas/shared';
 import { Modal, Platform, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useAtlasStore } from '../../stores/useAtlasStore';
@@ -10,6 +10,9 @@ export function RouteSheet() {
   const selectedRoute = useAtlasStore((state) => state.selectedRoute);
   const selectRoute = useAtlasStore((state) => state.selectRoute);
   const focusRoute = useAtlasStore((state) => state.focusRoute);
+  const selectEvent = useAtlasStore((state) => state.selectEvent);
+  const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
+  const pause = useAtlasStore((state) => state.pause);
   const { locale, t } = useI18n();
 
   if (!dataset || !selectedRoute) return null;
@@ -26,6 +29,15 @@ export function RouteSheet() {
     resolveLocalized(entity?.name, locale) ||
     route.properties.entityId;
   const description = resolveLocalized(route.properties.description, locale);
+  const start = route.geometry.coordinates[0];
+  const end = route.geometry.coordinates.at(-1);
+  const startEvents = start ? eventsNearPoint(dataset.events, start, 20, 3) : [];
+  const startIds = new Set(startEvents.map((item) => item.event.id));
+  const endEvents = end
+    ? eventsNearPoint(dataset.events, end, 20, 3).filter(
+        (item) => !startIds.has(item.event.id),
+      )
+    : [];
 
   return (
     <Modal
@@ -63,6 +75,52 @@ export function RouteSheet() {
 
           {description ? (
             <Text style={styles.description}>{description}</Text>
+          ) : null}
+
+          {startEvents.length > 0 ? (
+            <View style={styles.nearby}>
+              <Text style={styles.nearbyTitle}>{t('route.nearStart')}</Text>
+              <View style={styles.nearbyRow}>
+                {startEvents.map(({ event, distanceKm }) => (
+                  <Pressable
+                    key={event.id}
+                    style={styles.nearbyChip}
+                    onPress={() => {
+                      pause();
+                      setCurrentTime(parseDateString(event.date));
+                      selectEvent(event.id);
+                    }}
+                  >
+                    <Text style={styles.nearbyText} numberOfLines={1}>
+                      {resolveLocalized(event.name, locale)} · {distanceKm.toFixed(0)}km
+                    </Text>
+                  </Pressable>
+                ))}
+              </View>
+            </View>
+          ) : null}
+
+          {endEvents.length > 0 ? (
+            <View style={styles.nearby}>
+              <Text style={styles.nearbyTitle}>{t('route.nearEnd')}</Text>
+              <View style={styles.nearbyRow}>
+                {endEvents.map(({ event, distanceKm }) => (
+                  <Pressable
+                    key={event.id}
+                    style={styles.nearbyChip}
+                    onPress={() => {
+                      pause();
+                      setCurrentTime(parseDateString(event.date));
+                      selectEvent(event.id);
+                    }}
+                  >
+                    <Text style={styles.nearbyText} numberOfLines={1}>
+                      {resolveLocalized(event.name, locale)} · {distanceKm.toFixed(0)}km
+                    </Text>
+                  </Pressable>
+                ))}
+              </View>
+            </View>
           ) : null}
 
           <View style={styles.actions}>
@@ -125,6 +183,17 @@ const styles = StyleSheet.create({
     lineHeight: 22,
     color: colors.ink,
   },
+  nearby: { marginTop: spacing.md, gap: 4 },
+  nearbyTitle: { fontSize: 9, letterSpacing: 1.2, color: colors.inkSoft, opacity: 0.5 },
+  nearbyRow: { flexDirection: 'row', flexWrap: 'wrap', gap: 6 },
+  nearbyChip: {
+    borderWidth: 1,
+    borderColor: colors.ink + '18',
+    borderRadius: radii.pill,
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+  },
+  nearbyText: { fontSize: 10, color: colors.inkSoft },
   actions: { flexDirection: 'row', gap: spacing.sm, marginTop: spacing.lg },
   primary: {
     backgroundColor: colors.cinnabar,

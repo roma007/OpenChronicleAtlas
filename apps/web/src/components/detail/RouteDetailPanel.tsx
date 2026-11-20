@@ -1,4 +1,4 @@
-import { resolveLocalized, segmentTypeLabel } from '@atlas/shared';
+import { eventsNearPoint, parseDateString, resolveLocalized, segmentTypeLabel } from '@atlas/shared';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { useI18n } from '../../hooks/useI18n';
 
@@ -8,6 +8,9 @@ export function RouteDetailPanel() {
   const selectedEventId = useAtlasStore((state) => state.selectedEventId);
   const selectRoute = useAtlasStore((state) => state.selectRoute);
   const focusRoute = useAtlasStore((state) => state.focusRoute);
+  const selectEvent = useAtlasStore((state) => state.selectEvent);
+  const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
+  const pause = useAtlasStore((state) => state.pause);
   const { locale, t } = useI18n();
 
   if (!dataset || !selectedRoute || selectedEventId) return null;
@@ -26,6 +29,15 @@ export function RouteDetailPanel() {
     route.properties.entityId;
   const description = resolveLocalized(route.properties.description, locale);
   const dateText = `${route.properties.startDate} — ${route.properties.endDate}`;
+  const start = route.geometry.coordinates[0];
+  const end = route.geometry.coordinates.at(-1);
+  const startEvents = start ? eventsNearPoint(dataset.events, start, 20, 3) : [];
+  const startIds = new Set(startEvents.map((item) => item.event.id));
+  const endEvents = end
+    ? eventsNearPoint(dataset.events, end, 20, 3).filter(
+        (item) => !startIds.has(item.event.id),
+      )
+    : [];
 
   return (
     <aside
@@ -75,6 +87,56 @@ export function RouteDetailPanel() {
         <p className="mt-4 whitespace-pre-line border-l-2 border-cinnabar/40 pl-3 text-sm leading-7 text-ink">
           {description}
         </p>
+      ) : null}
+
+      {startEvents.length > 0 ? (
+        <div className="mt-4">
+          <h3 className="text-[10px] tracking-[0.18em] text-ink-soft/50">
+            {t('route.nearStart')}
+          </h3>
+          <div className="mt-1.5 flex flex-wrap gap-1.5">
+            {startEvents.map(({ event, distanceKm }) => (
+              <button
+                key={event.id}
+                type="button"
+                onClick={() => {
+                  pause();
+                  setCurrentTime(parseDateString(event.date));
+                  selectEvent(event.id);
+                }}
+                title={`${event.date} · ${distanceKm.toFixed(1)} km`}
+                className="rounded-full border border-ink/10 px-2 py-0.5 text-[10px] text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
+              >
+                {resolveLocalized(event.name, locale)}
+              </button>
+            ))}
+          </div>
+        </div>
+      ) : null}
+
+      {endEvents.length > 0 ? (
+        <div className="mt-3">
+          <h3 className="text-[10px] tracking-[0.18em] text-ink-soft/50">
+            {t('route.nearEnd')}
+          </h3>
+          <div className="mt-1.5 flex flex-wrap gap-1.5">
+            {endEvents.map(({ event, distanceKm }) => (
+              <button
+                key={event.id}
+                type="button"
+                onClick={() => {
+                  pause();
+                  setCurrentTime(parseDateString(event.date));
+                  selectEvent(event.id);
+                }}
+                title={`${event.date} · ${distanceKm.toFixed(1)} km`}
+                className="rounded-full border border-ink/10 px-2 py-0.5 text-[10px] text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
+              >
+                {resolveLocalized(event.name, locale)}
+              </button>
+            ))}
+          </div>
+        </div>
       ) : null}
 
       <div className="mt-5 flex gap-2">
