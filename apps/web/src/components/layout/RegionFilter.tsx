@@ -32,6 +32,9 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
   const activeEntityIds = useAtlasStore((state) => state.activeEntityIds);
   const selectedEventId = useAtlasStore((state) => state.selectedEventId);
   const selectedRoute = useAtlasStore((state) => state.selectedRoute);
+  const showRegionLabels = useAtlasStore((state) => state.showRegionLabels);
+  const showAdminBoundaries = useAtlasStore((state) => state.showAdminBoundaries);
+  const showTerritories = useAtlasStore((state) => state.showTerritories);
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const pause = useAtlasStore((state) => state.pause);
@@ -221,6 +224,9 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
                   time: new Date(currentTime).toISOString().slice(0, 10),
                   eventId: selectedEventId ?? undefined,
                   route: selectedRoute ?? undefined,
+                  regionLabels: showRegionLabels,
+                  adminBoundaries: showAdminBoundaries,
+                  territories: showTerritories,
                   view: mapView ?? undefined,
                 });
                 const done = () => {

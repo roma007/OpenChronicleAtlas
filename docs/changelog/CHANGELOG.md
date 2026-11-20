@@ -3,6 +3,18 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.184] - 2026-11-20
+
+### Added
+- 分享链接记录图层开关：地区标注 `labels`、历史省界 `boundaries`、时代疆域 `territories`，打开后恢复相同的显示状态。
+- 三项开关使用 `1/0` 编码，缺省仍为显示。
+
+### Verify
+- 关闭地区标注后复制链接得到 `labels=0`；打开后 `showRegionLabels` 恢复为 `false`。
+- `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build` 通过。
+
+---
+
 ## [v1.0.183] - 2026-11-20
 
 ### Added

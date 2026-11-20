@@ -82,6 +82,8 @@ interface MobileAtlasState {
   setRegions(regionIds: string[]): void;
   toggleAdminBoundaries(): void;
   toggleRegionLabels(): void;
+  setShowRegionLabels(value: boolean): void;
+  setShowAdminBoundaries(value: boolean): void;
   resetFilters(): void;
   setCurrentTime(time: AtlasTime): void;
   seekRatio(ratio: number): void;
@@ -318,6 +320,14 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
 
   toggleRegionLabels() {
     set({ showRegionLabels: !get().showRegionLabels });
+  },
+
+  setShowRegionLabels(value) {
+    set({ showRegionLabels: value });
+  },
+
+  setShowAdminBoundaries(value) {
+    set({ showAdminBoundaries: value });
   },
 
   resetFilters() {

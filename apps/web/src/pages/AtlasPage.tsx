@@ -30,6 +30,9 @@ export function AtlasPage() {
   const setLocale = useAtlasStore((state) => state.setLocale);
   const setActiveEntities = useAtlasStore((state) => state.setActiveEntities);
   const selectRoute = useAtlasStore((state) => state.selectRoute);
+  const setShowRegionLabels = useAtlasStore((state) => state.setShowRegionLabels);
+  const setShowAdminBoundaries = useAtlasStore((state) => state.setShowAdminBoundaries);
+  const setShowTerritories = useAtlasStore((state) => state.setShowTerritories);
   const setFilters = useAtlasStore((state) => state.setFilters);
   const { locale, t } = useI18n();
 
@@ -53,6 +56,9 @@ export function AtlasPage() {
 
     pause();
     if (state.locale) setLocale(state.locale);
+    if (state.regionLabels !== undefined) setShowRegionLabels(state.regionLabels);
+    if (state.adminBoundaries !== undefined) setShowAdminBoundaries(state.adminBoundaries);
+    if (state.territories !== undefined) setShowTerritories(state.territories);
     if (state.entities) setActiveEntities(state.entities);
     if (state.categories || state.regions || state.from || state.to) {
       setFilters({
@@ -88,6 +94,9 @@ export function AtlasPage() {
     setCurrentTime,
     selectEvent,
     selectRoute,
+    setShowRegionLabels,
+    setShowAdminBoundaries,
+    setShowTerritories,
     requestView,
   ]);
 

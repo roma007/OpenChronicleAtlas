@@ -18,6 +18,9 @@ export interface ShareState {
   categories?: string[];
   regions?: string[];
   route?: { entityId: string; order: number };
+  regionLabels?: boolean;
+  adminBoundaries?: boolean;
+  territories?: boolean;
   from?: DateString;
   to?: DateString;
 }
@@ -35,6 +38,9 @@ export function encodeShareState(state: ShareState): URLSearchParams {
   if (state.categories?.length) params.set('categories', state.categories.join(','));
   if (state.regions?.length) params.set('regions', state.regions.join(','));
   if (state.route) params.set('route', `${state.route.entityId}:${state.route.order}`);
+  if (state.regionLabels !== undefined) params.set('labels', state.regionLabels ? '1' : '0');
+  if (state.adminBoundaries !== undefined) params.set('boundaries', state.adminBoundaries ? '1' : '0');
+  if (state.territories !== undefined) params.set('territories', state.territories ? '1' : '0');
   if (state.from) params.set('from', state.from);
   if (state.to) params.set('to', state.to);
   if (state.view) {
@@ -54,6 +60,9 @@ export function decodeShareState(params: URLSearchParams): ShareState | null {
   const categoriesRaw = params.get('categories');
   const regionsRaw = params.get('regions');
   const routeRaw = params.get('route');
+  const labelsRaw = params.get('labels');
+  const boundariesRaw = params.get('boundaries');
+  const territoriesRaw = params.get('territories');
   const fromRaw = params.get('from');
   const toRaw = params.get('to');
 
@@ -101,6 +110,12 @@ export function decodeShareState(params: URLSearchParams): ShareState | null {
         ),
       ).slice(0, 80)
     : [];
+  const parseFlag = (raw: string | null): boolean | undefined =>
+    raw === '0' ? false : raw === '1' ? true : undefined;
+  const regionLabels = parseFlag(labelsRaw);
+  const adminBoundaries = parseFlag(boundariesRaw);
+  const territories = parseFlag(territoriesRaw);
+
   let route: ShareState['route'];
   if (routeRaw) {
     const [entityId, orderRaw] = routeRaw.split(':');
@@ -159,6 +174,9 @@ export function decodeShareState(params: URLSearchParams): ShareState | null {
     categories.length === 0 &&
     regions.length === 0 &&
     !route &&
+    regionLabels === undefined &&
+    adminBoundaries === undefined &&
+    territories === undefined &&
     !from &&
     !to
   ) {
@@ -174,6 +192,9 @@ export function decodeShareState(params: URLSearchParams): ShareState | null {
     categories: categories.length > 0 ? categories : undefined,
     regions: regions.length > 0 ? regions : undefined,
     route,
+    regionLabels,
+    adminBoundaries,
+    territories,
     from,
     to,
   };

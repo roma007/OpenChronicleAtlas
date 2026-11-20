@@ -107,6 +107,9 @@ interface AtlasState {
   toggleTerritories(): void;
   toggleAdminBoundaries(): void;
   toggleRegionLabels(): void;
+  setShowRegionLabels(value: boolean): void;
+  setShowAdminBoundaries(value: boolean): void;
+  setShowTerritories(value: boolean): void;
 
   setLocale(locale: Locale): void;
   setFilters(filters: AtlasFilters): void;
@@ -313,6 +316,18 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
 
   toggleRegionLabels() {
     set({ showRegionLabels: !get().showRegionLabels });
+  },
+
+  setShowRegionLabels(value) {
+    set({ showRegionLabels: value });
+  },
+
+  setShowAdminBoundaries(value) {
+    set({ showAdminBoundaries: value });
+  },
+
+  setShowTerritories(value) {
+    set({ showTerritories: value });
   },
 
   setLocale(locale) {

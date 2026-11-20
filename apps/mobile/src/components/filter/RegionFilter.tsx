@@ -37,6 +37,8 @@ export function RegionFilter({ onNavigate }: RegionFilterProps) {
   const activeEntityIds = useAtlasStore((state) => state.activeEntityIds);
   const selectedEventId = useAtlasStore((state) => state.selectedEventId);
   const selectedRoute = useAtlasStore((state) => state.selectedRoute);
+  const showRegionLabels = useAtlasStore((state) => state.showRegionLabels);
+  const showAdminBoundaries = useAtlasStore((state) => state.showAdminBoundaries);
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const pause = useAtlasStore((state) => state.pause);
@@ -221,6 +223,8 @@ export function RegionFilter({ onNavigate }: RegionFilterProps) {
                   time: new Date(currentTime).toISOString().slice(0, 10),
                   eventId: selectedEventId ?? undefined,
                   route: selectedRoute ?? undefined,
+                  regionLabels: showRegionLabels,
+                  adminBoundaries: showAdminBoundaries,
                   view: mapView ?? undefined,
                 });
                 void Share.share({ message: url, url });

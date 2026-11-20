@@ -37,6 +37,8 @@ export function AtlasScreen({ route, navigation }: Props) {
   const setLocale = useAtlasStore((state) => state.setLocale);
   const setActiveEntities = useAtlasStore((state) => state.setActiveEntities);
   const selectRoute = useAtlasStore((state) => state.selectRoute);
+  const setShowRegionLabels = useAtlasStore((state) => state.setShowRegionLabels);
+  const setShowAdminBoundaries = useAtlasStore((state) => state.setShowAdminBoundaries);
   const setFilters = useAtlasStore((state) => state.setFilters);
   const { locale, t } = useI18n();
 
@@ -57,6 +59,8 @@ export function AtlasScreen({ route, navigation }: Props) {
 
     pause();
     if (share?.locale) setLocale(share.locale);
+    if (share?.regionLabels !== undefined) setShowRegionLabels(share.regionLabels);
+    if (share?.adminBoundaries !== undefined) setShowAdminBoundaries(share.adminBoundaries);
     if (share?.entities) setActiveEntities(share.entities);
     if (share?.categories || share?.regions || share?.from || share?.to) {
       setFilters({
@@ -99,6 +103,8 @@ export function AtlasScreen({ route, navigation }: Props) {
     setCurrentTime,
     selectEvent,
     selectRoute,
+    setShowRegionLabels,
+    setShowAdminBoundaries,
   ]);
 
   const manifest = dataset && dataset.manifest.id === atlasId ? dataset.manifest : null;

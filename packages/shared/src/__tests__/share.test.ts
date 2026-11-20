@@ -15,6 +15,9 @@ describe('share state', () => {
       entities: ['central-red-army', 'red-4-army'],
       categories: ['重要会议', '会师'],
       route: { entityId: 'central-red-army', order: 3 },
+      regionLabels: false,
+      adminBoundaries: true,
+      territories: false,
       from: '1935-01-01',
       to: '1935-12-31',
     });
@@ -26,6 +29,9 @@ describe('share state', () => {
     expect(params.get('entities')).toBe('central-red-army,red-4-army');
     expect(params.get('categories')).toBe('重要会议,会师');
     expect(params.get('route')).toBe('central-red-army:3');
+    expect(params.get('labels')).toBe('0');
+    expect(params.get('boundaries')).toBe('1');
+    expect(params.get('territories')).toBe('0');
 
     const decoded = decodeShareState(params);
     expect(decoded?.time).toBe('1935-01-15');
@@ -35,6 +41,9 @@ describe('share state', () => {
     expect(decoded?.entities).toEqual(['central-red-army', 'red-4-army']);
     expect(decoded?.categories).toEqual(['重要会议', '会师']);
     expect(decoded?.route).toEqual({ entityId: 'central-red-army', order: 3 });
+    expect(decoded?.regionLabels).toBe(false);
+    expect(decoded?.adminBoundaries).toBe(true);
+    expect(decoded?.territories).toBe(false);
     expect(decoded?.from).toBe('1935-01-01');
     expect(decoded?.to).toBe('1935-12-31');
   });
