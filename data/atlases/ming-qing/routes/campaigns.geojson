@@ -1013,40 +1013,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            116.4,
-            39.9
-          ],
-          [
-            119.3,
-            26.08
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "qing",
-        "startDate": "1661-01-01",
-        "endDate": "1661-12-31",
-        "order": 30,
-        "segmentType": "other",
-        "name": {
-          "zh": "北京—福州",
-          "en": "Beijing–Fuzhou"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             118.1,
             24.5
           ],
@@ -4261,44 +4227,6 @@
         "name": {
           "zh": "北京—宪友会",
           "en": "Beijing–Xianyouhui"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            104.07,
-            30.67
-          ],
-          [
-            109,
-            30.5
-          ],
-          [
-            114.3,
-            30.5
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "qing",
-        "startDate": "1911-06-01",
-        "endDate": "1911-10-31",
-        "order": 124,
-        "segmentType": "other",
-        "name": {
-          "zh": "成都—武昌",
-          "en": "Chengdu–Wuchang"
         },
         "description": {
           "zh": "示意简化路线，待史料校订。",

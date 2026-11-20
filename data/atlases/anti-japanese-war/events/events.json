@@ -8082,8 +8082,8 @@
       "en": "The Qiongya Red Army guerrillas were reorganized as an anti-Japanese independent detachment under Feng Baiju."
     },
     "description": {
-      "zh": "1938 年 12 月 5 日，琼崖工农红军游击队在海南琼山云龙改编为广东民众抗日自卫团第十四区独立队，冯白驹任队长。日期与主官为通行说法，待页码级核对。",
-      "en": "On December 5, 1938, the Qiongya Workers’ and Peasants’ Red Army guerrillas were reorganized at Yunlong, Qiongshan, Hainan, as the Independent Detachment of the 14th District of the Guangdong People’s Anti-Japanese Self-Defense Corps, with Feng Baiju as commander. Dates and appointments follow conventional accounts and await page-level verification."
+      "zh": "1938 年 12 月 5 日，琼崖工农红军游击队在海南琼山云龙改编为广东民众抗日自卫团第十四区独立队，冯白驹任队长。日期与主官为通行说法，待页码级核对。\n\n本事件为建军建制，不绘制行军路线。",
+      "en": "On December 5, 1938, the Qiongya Workers’ and Peasants’ Red Army guerrillas were reorganized at Yunlong, Qiongshan, Hainan, as the Independent Detachment of the 14th District of the Guangdong People’s Anti-Japanese Self-Defense Corps, with Feng Baiju as commander. Dates and appointments follow conventional accounts and await page-level verification.\n\nThis is a force-formation event; no march route is drawn."
     },
     "images": [],
     "sources": [
@@ -8109,7 +8109,10 @@
     "relatedIds": [
       "qiongya-counter-1942-05"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "shandong-column-1938-12",
@@ -11297,8 +11300,8 @@
       "en": "The New Fourth Army counterattacked KMT forces at Huangqiao, opening up northern Jiangsu."
     },
     "description": {
-      "zh": "1940 年 10 月，新四军苏北指挥部在江苏泰兴黄桥地区反击国民党军韩德勤部，取得黄桥战役胜利。日期与战果为通行说法，待页码级核对。",
-      "en": "In October 1940, the New Fourth Army’s Northern Jiangsu Command counterattacked KMT forces under Han Deqin at Huangqiao, Taixing, Jiangsu, winning the Battle of Huangqiao. Dates and results follow conventional accounts and await page-level verification."
+      "zh": "1940 年 10 月，新四军苏北指挥部在江苏泰兴黄桥地区反击国民党军韩德勤部，取得黄桥战役胜利。日期与战果为通行说法，待页码级核对。\n\n本事件为战役点，不绘行军路线：黄桥战役由新四军苏北指挥部率部自苏南渡江发起，与军部驻地云岭不是同一条路线。",
+      "en": "In October 1940, the New Fourth Army’s Northern Jiangsu Command counterattacked KMT forces under Han Deqin at Huangqiao, Taixing, Jiangsu, winning the Battle of Huangqiao. Dates and results follow conventional accounts and await page-level verification.\n\nThis is a battle point with no march route: the Battle of Huangqiao was fought by the N4A Northern Jiangsu Command moving north from southern Jiangsu, not by the headquarters at Yunling."
     },
     "images": [],
     "sources": [
@@ -11325,7 +11328,10 @@
       "new-fourth-army-formed-1937-10",
       "wannan-incident-1941-01"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "guanjianao-1940-10",
@@ -11720,11 +11726,11 @@
     },
     "date": "1941-02-01",
     "location": {
-      "lng": 109.5,
-      "lat": 18.9,
+      "lng": 110.35,
+      "lat": 19.98,
       "place": {
-        "zh": "海南五指山",
-        "en": "Wuzhishan, Hainan"
+        "zh": "海南琼山、文昌一带",
+        "en": "Qiongshan–Wenchang, Hainan"
       }
     },
     "entityIds": [
@@ -11732,12 +11738,12 @@
     ],
     "category": "根据地",
     "summary": {
-      "zh": "琼崖抗日根据地以五指山为中心逐步形成。",
-      "en": "The Qiongya base area took shape around the Wuzhishan Mountains."
+      "zh": "1941 年 2 月，琼崖抗日根据地在琼山、文昌一带坚持斗争；五指山根据地于 1943—1944 年开辟。",
+      "en": "In February 1941 the Qiongya base area held out around Qiongshan and Wenchang; the Wuzhishan base was opened in 1943–1944."
     },
     "description": {
-      "zh": "1941 年 2 月，琼崖抗日根据地以海南五指山为中心逐步形成。时间与范围为通行说法，待页码级核对。",
-      "en": "In February 1941, the Qiongya anti-Japanese base area gradually took shape around the Wuzhishan Mountains in Hainan. Dates and extent follow conventional accounts and await page-level verification."
+      "zh": "1941 年 2 月，美合事变后琼崖特委和独立总队返回琼山、文昌一带，继续坚持抗日斗争。五指山根据地则于 1943—1944 年逐步开辟。时间与范围为通行说法，待页码级核对。\n\n本事件为根据地形成，不绘路线；五指山方向的进军见 1944 年「琼崖纵队挺进五指山」。",
+      "en": "In February 1941, after the Meihe Incident, the Qiongya Special Committee and the Independent Corps returned to the Qiongshan–Wenchang area and continued resistance. The Wuzhishan base was opened only in 1943–1944. Dates and extent follow conventional accounts and await page-level verification.\n\nNo route is drawn for this base-area event; the 1944 advance into Wuzhishan is covered separately."
     },
     "images": [],
     "sources": [
@@ -11764,7 +11770,10 @@
       "qiongya-independent-1938-12",
       "qiongya-counter-1942-05"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "wuyang-1941",
@@ -16440,8 +16449,8 @@
       "en": "The New Fourth Army destroyed Japanese and puppet forces at Cheqiao, expanding the Central Jiangsu base area."
     },
     "description": {
-      "zh": "1944 年 3 月 5 日，新四军第一师在江苏淮安车桥地区歼灭日伪军，扩大苏中抗日根据地。日期与战果为通行说法，待页码级核对。",
-      "en": "On March 5, 1944, the New Fourth Army’s 1st Division destroyed Japanese and puppet forces at Cheqiao, Huai’an, Jiangsu, expanding the Central Jiangsu anti-Japanese base area. Dates and results follow conventional accounts and await page-level verification."
+      "zh": "1944 年 3 月 5 日，新四军第一师在江苏淮安车桥地区歼灭日伪军，扩大苏中抗日根据地。日期与战果为通行说法，待页码级核对。\n\n本事件为战役点，不绘行军路线：车桥战役由新四军第一师在苏中发起，与军部驻地盐城不是同一条路线。",
+      "en": "On March 5, 1944, the New Fourth Army’s 1st Division destroyed Japanese and puppet forces at Cheqiao, Huai’an, Jiangsu, expanding the Central Jiangsu anti-Japanese base area. Dates and results follow conventional accounts and await page-level verification.\n\nThis is a battle point with no march route: the Battle of Cheqiao was fought by the N4A 1st Division from Central Jiangsu, not by the headquarters at Yancheng."
     },
     "images": [],
     "sources": [
@@ -16468,7 +16477,10 @@
       "new-fourth-army-rebuild-1941-01",
       "xiangxi-1945-04"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "ichigo-offensive-1944-04",

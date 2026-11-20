@@ -127,7 +127,7 @@
 ## 5. 校验
 
 ```bash
-pnpm validate:data                                   # 371 事件 / 241 路线段
+pnpm validate:data                                   # 371 事件 / 238 路线段
 pnpm check:routes --atlas anti-japanese-war          # 0 问题
 pnpm check:heads --atlas anti-japanese-war           # 0 个无来由端点
 ```

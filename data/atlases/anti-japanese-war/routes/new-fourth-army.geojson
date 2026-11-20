@@ -23,54 +23,16 @@
       "properties": {
         "entityId": "new-fourth-army",
         "startDate": "1937-10-12",
-        "endDate": "1940-10-03",
+        "endDate": "1938-07-31",
         "order": 1,
         "segmentType": "advance",
         "name": {
-          "zh": "汉口—云岭",
-          "en": "Hankou–Yunling"
+          "zh": "新四军军部：汉口—云岭",
+          "en": "N4A headquarters: Hankou–Yunling"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            118.4,
-            30.6
-          ],
-          [
-            119.5,
-            31.5
-          ],
-          [
-            120.2,
-            32.2
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "new-fourth-army",
-        "startDate": "1940-10-04",
-        "endDate": "1940-10-31",
-        "order": 2,
-        "segmentType": "advance",
-        "name": {
-          "zh": "云岭—黄桥",
-          "en": "Yunling–Huangqiao"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1937 年 10 月新四军在汉口成立，军部后经南昌、岩寺移驻安徽泾县云岭。示意简化路线，待史料校订。",
+          "en": "The New Fourth Army was formed at Hankou in October 1937; its headquarters later moved via Nanchang and Yansi to Yunling in Jingxian, Anhui. Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -96,53 +58,15 @@
         "entityId": "new-fourth-army",
         "startDate": "1940-11-01",
         "endDate": "1941-01-25",
-        "order": 3,
+        "order": 2,
         "segmentType": "advance",
         "name": {
-          "zh": "黄桥—盐城",
-          "en": "Huangqiao–Yancheng"
+          "zh": "新四军：黄桥—盐城（重建军部）",
+          "en": "N4A: Huangqiao–Yancheng (headquarters re-established)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            120.16,
-            33.35
-          ],
-          [
-            119.8,
-            33.4
-          ],
-          [
-            119.3,
-            33.4
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "new-fourth-army",
-        "startDate": "1941-01-26",
-        "endDate": "1944-03-05",
-        "order": 4,
-        "segmentType": "advance",
-        "name": {
-          "zh": "盐城—车桥",
-          "en": "Yancheng–Cheqiao"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1940 年 11 月华中新四军八路军总指挥部北移，1941 年 1 月 25 日在盐城重建新四军军部。示意简化路线，待史料校订。",
+          "en": "In November 1940 the Central China N4A–Eighth Route Army command moved north; on 25 January 1941 the N4A headquarters was re-established at Yancheng. Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -168,15 +92,15 @@
         "entityId": "new-fourth-army",
         "startDate": "1941-01-04",
         "endDate": "1941-01-14",
-        "order": 5,
+        "order": 3,
         "segmentType": "retreat",
         "name": {
           "zh": "云岭—茂林（皖南事变）",
           "en": "Yunling–Maolin (Wannan Incident)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1941 年 1 月，新四军军部及所属部队 9000 余人由云岭出发北移，在泾县茂林地区遭国民党军围攻（皖南事变）。示意简化路线，待史料校订。",
+          "en": "In January 1941 the N4A headquarters and over 9,000 troops moved north from Yunling and were encircled by KMT forces at Maolin in Jingxian (Wannan Incident). Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"

@@ -7,44 +7,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            110.4,
-            19.9
-          ],
-          [
-            109.8,
-            19.2
-          ],
-          [
-            109.5,
-            18.9
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "south-china-guerrillas",
-        "startDate": "1938-12-05",
-        "endDate": "1942-05-31",
-        "order": 1,
-        "segmentType": "advance",
-        "name": {
-          "zh": "琼山—五指山",
-          "en": "Qiongshan–Wuzhishan"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             113.9,
             22.6
           ],
@@ -61,16 +23,16 @@
       "properties": {
         "entityId": "south-china-guerrillas",
         "startDate": "1940-09-01",
-        "endDate": "1943-12-01",
-        "order": 2,
-        "segmentType": "advance",
+        "endDate": "1943-12-31",
+        "order": 1,
+        "segmentType": "other",
         "name": {
-          "zh": "宝安—惠阳",
-          "en": "Bao’an–Huiyang"
+          "zh": "东江纵队活动区域（宝安—惠阳）",
+          "en": "Dongjiang Column area of operations (Bao'an–Huiyang)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "示意东江纵队在宝安、惠阳一带的活动区域，非单次行军路线。待史料校订。",
+          "en": "Schematic area of operations of the Dongjiang Column around Bao'an and Huiyang; not a single march. Pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -95,16 +57,16 @@
       "properties": {
         "entityId": "south-china-guerrillas",
         "startDate": "1940-10-01",
-        "endDate": "1943-12-02",
-        "order": 3,
+        "endDate": "1940-10-31",
+        "order": 2,
         "segmentType": "advance",
         "name": {
-          "zh": "宝安—大岭山",
-          "en": "Bao’an–Daling Mountain"
+          "zh": "东江游击队进入大岭山",
+          "en": "Dongjiang guerrillas enter Dalingshan"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1940 年 10 月，东江抗日游击队一部进入东莞大岭山，开辟抗日根据地。示意简化路线，待史料校订。",
+          "en": "In October 1940, part of the Dongjiang guerrillas entered Dalingshan in Dongguan and opened a base area. Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -130,15 +92,15 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1940-12-15",
         "endDate": "1940-12-31",
-        "order": 4,
+        "order": 3,
         "segmentType": "advance",
         "name": {
-          "zh": "琼山—美合",
-          "en": "Qiongshan–Meihe"
+          "zh": "琼崖独立总队转移美合",
+          "en": "Qiongya Independent Corps moves to Meihe"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1940 年 12 月，琼崖抗日独立总队转移至澄迈美合，随后遭国民党军袭击（美合事变）。示意简化路线，待史料校订。",
+          "en": "In December 1940 the Qiongya Independent Corps moved to Meihe in Chengmai and was then attacked by KMT forces (Meihe Incident). Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -168,15 +130,15 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1941-06-01",
         "endDate": "1945-08-15",
-        "order": 5,
-        "segmentType": "advance",
+        "order": 4,
+        "segmentType": "other",
         "name": {
-          "zh": "琼山—六连岭",
-          "en": "Qiongshan–Liulian Ridge"
+          "zh": "琼崖纵队活动区域（琼山—六连岭）",
+          "en": "Qiongya Column area of operations (Qiongshan–Liulianling)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "示意琼崖抗日武装在琼山、万宁六连岭一带的活动区域，非单次行军路线。待史料校订。",
+          "en": "Schematic area of operations of the Qiongya forces around Qiongshan and Liulianling in Wanning; not a single march. Pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -202,15 +164,15 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1941-09-01",
         "endDate": "1945-08-15",
-        "order": 6,
-        "segmentType": "advance",
+        "order": 5,
+        "segmentType": "other",
         "name": {
-          "zh": "中山—五桂山",
-          "en": "Zhongshan–Wugui Mountain"
+          "zh": "珠江纵队活动区域（中山—五桂山）",
+          "en": "Pearl River Column area of operations (Zhongshan–Wuguishan)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "示意珠江地区抗日游击队在中山、五桂山一带的活动区域，非单次行军路线。待史料校订。",
+          "en": "Schematic area of operations of the Pearl River guerrillas around Zhongshan and Wuguishan; not a single march. Pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -236,15 +198,15 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1941-12-20",
         "endDate": "1941-12-31",
-        "order": 7,
+        "order": 6,
         "segmentType": "advance",
         "name": {
-          "zh": "惠阳—香港",
-          "en": "Huiyang–Hong Kong"
+          "zh": "东江游击队营救文化名人（惠阳—香港）",
+          "en": "Dongjiang guerrillas rescue cultural figures (Huiyang–Hong Kong)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1941 年 12 月香港沦陷后，东江游击队从惠阳方向进入香港，营救文化界人士和爱国民主人士。示意简化路线，待史料校订。",
+          "en": "After Hong Kong fell in December 1941, Dongjiang guerrillas entered Hong Kong from the Huiyang direction to rescue cultural and patriotic democratic figures. Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -270,15 +232,15 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1942-02-03",
         "endDate": "1945-08-15",
-        "order": 8,
-        "segmentType": "advance",
+        "order": 7,
+        "segmentType": "other",
         "name": {
-          "zh": "西贡—九龙",
-          "en": "Sai Kung–Kowloon"
+          "zh": "港九大队活动区域（西贡—九龙）",
+          "en": "Hong Kong–Kowloon Brigade area of operations (Sai Kung–Kowloon)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "示意港九大队在西贡、九龙一带的活动区域，非单次行军路线。待史料校订。",
+          "en": "Schematic area of operations of the Hong Kong–Kowloon Brigade around Sai Kung and Kowloon; not a single march. Pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -307,54 +269,16 @@
       "properties": {
         "entityId": "south-china-guerrillas",
         "startDate": "1943-08-01",
-        "endDate": "1945-08-15",
-        "order": 9,
+        "endDate": "1943-09-30",
+        "order": 8,
         "segmentType": "advance",
         "name": {
-          "zh": "琼山—白沙",
-          "en": "Qiongshan–Baisha"
+          "zh": "琼崖纵队进入白沙",
+          "en": "Qiongya Column enters Baisha"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            114.4,
-            22.8
-          ],
-          [
-            114.0,
-            23.0
-          ],
-          [
-            113.8,
-            23.3
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "south-china-guerrillas",
-        "startDate": "1943-12-02",
-        "endDate": "1945-08-15",
-        "order": 10,
-        "segmentType": "advance",
-        "name": {
-          "zh": "惠阳—东江",
-          "en": "Huiyang–Dongjiang"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1943 年 8 月，琼崖纵队向白沙地区发展，开辟抗日根据地。示意简化路线，待史料校订。",
+          "en": "In August 1943 the Qiongya Column expanded into the Baisha area and opened a base. Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -380,15 +304,15 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1944-08-01",
         "endDate": "1945-08-15",
-        "order": 11,
+        "order": 9,
         "segmentType": "advance",
         "name": {
-          "zh": "白沙—五指山",
-          "en": "Baisha–Wuzhi Mountain"
+          "zh": "琼崖纵队挺进五指山",
+          "en": "Qiongya Column advances into Wuzhishan"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1944 年 8 月，琼崖纵队由白沙向五指山山区发展，扩大抗日根据地。示意简化路线，待史料校订。",
+          "en": "In August 1944 the Qiongya Column expanded from Baisha into the Wuzhishan mountains. Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -418,15 +342,15 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1944-10-01",
         "endDate": "1945-08-15",
-        "order": 12,
-        "segmentType": "advance",
+        "order": 10,
+        "segmentType": "other",
         "name": {
-          "zh": "五桂山—珠江口",
-          "en": "Wuguishan–Pearl River estuary"
+          "zh": "珠江纵队活动区域（五桂山—珠江口）",
+          "en": "Pearl River Column area of operations (Wuguishan–Pearl River estuary)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "示意珠江纵队在五桂山、珠江口一带的活动区域，非单次行军路线。待史料校订。",
+          "en": "Schematic area of operations of the Pearl River Column around Wuguishan and the Pearl River estuary; not a single march. Pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -443,7 +367,7 @@
             19.22
           ],
           [
-            109.0,
+            109,
             19.1
           ],
           [
@@ -455,16 +379,16 @@
       "properties": {
         "entityId": "south-china-guerrillas",
         "startDate": "1944-12-01",
-        "endDate": "1945-08-15",
-        "order": 13,
+        "endDate": "1944-12-31",
+        "order": 11,
         "segmentType": "advance",
         "name": {
-          "zh": "白沙—昌感",
-          "en": "Baisha–Changgan"
+          "zh": "琼崖纵队进入昌感",
+          "en": "Qiongya Column enters Changgan"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1944 年 12 月，琼崖纵队向昌江、感恩地区发展，建立抗日根据地。示意简化路线，待史料校订。",
+          "en": "In December 1944 the Qiongya Column expanded into the Changjiang–Gan’en area and established a base. Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -490,15 +414,15 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-01",
         "endDate": "1945-08-15",
-        "order": 14,
-        "segmentType": "advance",
+        "order": 12,
+        "segmentType": "other",
         "name": {
-          "zh": "潮汕—韩江",
-          "en": "Chaoshan–Hanjiang"
+          "zh": "韩江纵队活动区域（潮汕—韩江）",
+          "en": "Hanjiang Column area of operations (Chaoshan–Han River)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "示意韩江纵队在潮汕、韩江一带的活动区域，非单次行军路线。待史料校订。",
+          "en": "Schematic area of operations of the Hanjiang Column around Chaoshan and the Han River; not a single march. Pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -524,15 +448,15 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-01",
         "endDate": "1945-08-15",
-        "order": 15,
-        "segmentType": "advance",
+        "order": 13,
+        "segmentType": "other",
         "name": {
-          "zh": "遂溪—雷州",
-          "en": "Suixi–Leizhou"
+          "zh": "南路人民抗日解放军活动区域（遂溪—雷州）",
+          "en": "Nanlu People’s Anti-Japanese Army area of operations (Suixi–Leizhou)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "示意南路人民抗日解放军在遂溪、雷州一带的活动区域，非单次行军路线。待史料校订。",
+          "en": "Schematic area of operations of the Nanlu People’s Anti-Japanese Army around Suixi and Leizhou; not a single march. Pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -545,11 +469,49 @@
         "type": "LineString",
         "coordinates": [
           [
-            113.8,
-            23.3
+            114.4,
+            22.8
           ],
           [
-            114.0,
+            114.2,
+            23
+          ],
+          [
+            114.1,
+            23.1
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "south-china-guerrillas",
+        "startDate": "1945-01-15",
+        "endDate": "1945-01-31",
+        "order": 14,
+        "segmentType": "advance",
+        "name": {
+          "zh": "东江纵队移驻罗浮山",
+          "en": "Dongjiang Column moves to Luofu Mountain"
+        },
+        "description": {
+          "zh": "1945 年 1 月，东江纵队领导机关由惠阳一带移驻博罗罗浮山。示意简化路线，待史料校订。",
+          "en": "In January 1945 the Dongjiang Column leadership moved from the Huiyang area to Luofu Mountain in Boluo. Schematic simplified route; pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.1,
+            23.1
+          ],
+          [
+            114.4,
             24.2
           ],
           [
@@ -562,15 +524,15 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-15",
         "endDate": "1945-08-15",
-        "order": 16,
+        "order": 15,
         "segmentType": "advance",
         "name": {
-          "zh": "东江—粤北",
-          "en": "Dongjiang–northern Guangdong"
+          "zh": "东江纵队挺进粤北",
+          "en": "Dongjiang Column advances into northern Guangdong"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1945 年 1 月，东江纵队一部挺进粤北南雄一带，开辟抗日游击区。示意简化路线，待史料校订。",
+          "en": "In January 1945 part of the Dongjiang Column advanced into the Nanxiong area of northern Guangdong and opened a guerrilla area. Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -600,15 +562,15 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-01-15",
         "endDate": "1945-08-15",
-        "order": 17,
+        "order": 16,
         "segmentType": "advance",
         "name": {
-          "zh": "中山—新会",
-          "en": "Zhongshan–Xinhui"
+          "zh": "珠江纵队挺进粤中",
+          "en": "Pearl River Column advances into central Guangdong"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1945 年 1 月，珠江纵队由五桂山向粤中新会一带发展，开辟抗日游击区。示意简化路线，待史料校订。",
+          "en": "In January 1945 the Pearl River Column expanded from Wuguishan into the Xinhui area of central Guangdong. Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -637,16 +599,16 @@
       "properties": {
         "entityId": "south-china-guerrillas",
         "startDate": "1945-03-01",
-        "endDate": "1945-08-15",
-        "order": 18,
+        "endDate": "1945-03-31",
+        "order": 17,
         "segmentType": "advance",
         "name": {
-          "zh": "惠阳—海陆丰",
-          "en": "Huiyang–Haifeng-Lufeng"
+          "zh": "东江纵队进入海陆丰",
+          "en": "Dongjiang Column enters Haifeng–Lufeng"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1945 年 3 月，东江纵队一部向海丰、陆丰地区发展，建立抗日根据地。示意简化路线，待史料校订。",
+          "en": "In March 1945 part of the Dongjiang Column expanded into the Haifeng–Lufeng area and established a base. Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -676,15 +638,15 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-04-01",
         "endDate": "1945-08-15",
-        "order": 19,
+        "order": 18,
         "segmentType": "advance",
         "name": {
-          "zh": "中山—云雾山",
-          "en": "Zhongshan–Yunwu Mountain"
+          "zh": "珠江纵队挺进云雾山",
+          "en": "Pearl River Column advances into Yunwu Mountain"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1945 年 4 月，珠江纵队由粤中向云雾山一带发展，扩大抗日游击区。示意简化路线，待史料校订。",
+          "en": "In April 1945 the Pearl River Column expanded from central Guangdong into the Yunwu Mountain area. Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -702,7 +664,7 @@
           ],
           [
             112.2,
-            23.0
+            23
           ],
           [
             112.46,
@@ -714,15 +676,15 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-05-01",
         "endDate": "1945-08-15",
-        "order": 20,
+        "order": 19,
         "segmentType": "advance",
         "name": {
-          "zh": "云雾山—高要",
-          "en": "Yunwu Mountain–Gaoyao"
+          "zh": "珠江纵队进入高要",
+          "en": "Pearl River Column enters Gaoyao"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1945 年 5 月，珠江纵队向高要一带发展，建立抗日根据地。示意简化路线，待史料校订。",
+          "en": "In May 1945 the Pearl River Column expanded into the Gaoyao area and established a base. Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -747,16 +709,16 @@
       "properties": {
         "entityId": "south-china-guerrillas",
         "startDate": "1945-05-01",
-        "endDate": "1945-08-15",
-        "order": 21,
+        "endDate": "1945-05-31",
+        "order": 20,
         "segmentType": "advance",
         "name": {
-          "zh": "儋州—临高",
-          "en": "Danzhou–Lingao"
+          "zh": "琼崖纵队进入临高",
+          "en": "Qiongya Column enters Lingao"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1945 年 5 月，琼崖纵队向临高地区发展，建立抗日根据地。示意简化路线，待史料校订。",
+          "en": "In May 1945 the Qiongya Column expanded into the Lingao area and established a base. Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -774,7 +736,7 @@
           ],
           [
             109.2,
-            19.0
+            19
           ],
           [
             109.17,
@@ -786,15 +748,15 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-06-01",
         "endDate": "1945-08-15",
-        "order": 22,
+        "order": 21,
         "segmentType": "advance",
         "name": {
-          "zh": "白沙—尖峰岭",
-          "en": "Baisha–Jianfeng Ridge"
+          "zh": "琼崖纵队挺进尖峰岭",
+          "en": "Qiongya Column advances into Jianfengling"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1945 年 6 月，琼崖纵队由白沙向乐东尖峰岭山区发展，扩大抗日根据地。示意简化路线，待史料校订。",
+          "en": "In June 1945 the Qiongya Column expanded from Baisha into the Jianfengling mountains in Ledong. Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"
@@ -824,15 +786,15 @@
         "entityId": "south-china-guerrillas",
         "startDate": "1945-07-01",
         "endDate": "1945-08-15",
-        "order": 23,
+        "order": 22,
         "segmentType": "advance",
         "name": {
-          "zh": "南雄—和平",
-          "en": "Nanxiong–Heping"
+          "zh": "东江纵队挺进粤赣湘边",
+          "en": "Dongjiang Column advances into the Guangdong–Jiangxi–Hunan border"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1945 年 7 月，东江纵队北上部队进入粤赣湘边和平一带，开辟抗日根据地。示意简化路线，待史料校订。",
+          "en": "In July 1945 the Dongjiang Column’s northward units entered the Heping area on the Guangdong–Jiangxi–Hunan border and opened a base. Schematic simplified route; pending historical review."
         },
         "extensions": {
           "precision": "schematic"

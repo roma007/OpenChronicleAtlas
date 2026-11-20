@@ -1713,8 +1713,8 @@
       "en": "The Qing ordered coastal evacuation and a maritime ban."
     },
     "description": {
-      "zh": "1661 年，清廷为切断郑氏补给，下令东南沿海迁界禁海，居民内迁，沿海经济受到重创。日期与经过为通行说法，待页码级核对。",
-      "en": "In 1661 the Qing court ordered coastal evacuation and a maritime ban to cut off Zheng Chenggong’s supplies. Residents were moved inland and the coastal economy suffered heavily. Dates and details follow conventional accounts and await page-level verification."
+      "zh": "1661 年，清廷为切断郑氏补给，下令东南沿海迁界禁海，居民内迁，沿海经济受到重创。日期与经过为通行说法，待页码级核对。\n\n本事件为政治决策/政治运动，不绘制行军路线。",
+      "en": "In 1661 the Qing court ordered coastal evacuation and a maritime ban to cut off Zheng Chenggong’s supplies. Residents were moved inland and the coastal economy suffered heavily. Dates and details follow conventional accounts and await page-level verification.\n\nThis is a political decision/movement; no march route is drawn."
     },
     "images": [],
     "sources": [
@@ -1747,7 +1747,10 @@
       "zheng-taiwan-1662",
       "taiwan-1683"
     ],
-    "importance": 3
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "zheng-taiwan-1662",
@@ -7442,8 +7445,8 @@
       "en": "The Sichuan Railway Protection Movement erupted, helping trigger the 1911 Revolution."
     },
     "description": {
-      "zh": "1911 年，清廷宣布铁路国有，激起四川保路运动，清廷调湖北新军入川镇压，削弱了武汉防务，为武昌起义创造了条件。日期与经过为通行说法，待页码级核对。",
-      "en": "In 1911 the Qing move to nationalize railways sparked the Sichuan Railway Protection Movement. Troops were drawn from Hubei to suppress it, weakening Wuhan’s defenses and creating conditions for the Wuchang Uprising. Dates and details follow conventional accounts and await page-level verification."
+      "zh": "1911 年，清廷宣布铁路国有，激起四川保路运动，清廷调湖北新军入川镇压，削弱了武汉防务，为武昌起义创造了条件。日期与经过为通行说法，待页码级核对。\n\n本事件为政治决策/政治运动，不绘制行军路线。",
+      "en": "In 1911 the Qing move to nationalize railways sparked the Sichuan Railway Protection Movement. Troops were drawn from Hubei to suppress it, weakening Wuhan’s defenses and creating conditions for the Wuchang Uprising. Dates and details follow conventional accounts and await page-level verification.\n\nThis is a political decision/movement; no march route is drawn."
     },
     "images": [],
     "sources": [
@@ -7475,7 +7478,10 @@
     "relatedIds": [
       "wuchang-1911"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "xianyouhui-1911",
