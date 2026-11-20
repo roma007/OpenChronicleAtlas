@@ -12,9 +12,10 @@ The CHGIS-derived prefecture layer is intentionally NOT used.
 from __future__ import annotations
 
 import json
-import math
 import sys
 from pathlib import Path
+
+import roc_ring_repair
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data/atlases/anti-japanese-war/territories/roc-provinces.geojson"
@@ -61,8 +62,6 @@ PERIODS = [
 
 TOLERANCE = 0.01  # ~1 km
 MIN_RING_POINTS = 4
-HAINAN_BBOX = (108.0, 17.8, 111.5, 20.5)
-LONG_JUMP_DEG = 1.0  # ~100 km
 
 
 def sq_seg_dist(p, a, b):
@@ -147,71 +146,24 @@ def largest_ring_center(geometry_type, coordinates):
 
 
 
-def inside_hainan(point) -> bool:
-    lng, lat = point
-    return (
-        HAINAN_BBOX[0] <= lng <= HAINAN_BBOX[2]
-        and HAINAN_BBOX[1] <= lat <= HAINAN_BBOX[3]
-    )
-
-
-def segment_deg(a, b) -> float:
-    mid = math.radians((a[1] + b[1]) / 2)
-    return math.hypot((b[0] - a[0]) * math.cos(mid), b[1] - a[1])
-
-
-def repair_hainan_ring(ring):
-    """海南岛在源数据里多出一段北岸重复弧，简化为三角形；切掉多余弧。"""
-    if len(ring) < 4 or not all(inside_hainan(point) for point in ring[:-1]):
-        return ring
-    points = ring[:-1]
-    subpaths = []
-    current = [points[0]]
-    for a, b in zip(points, points[1:]):
-        if segment_deg(a, b) > LONG_JUMP_DEG:
-            subpaths.append(current)
-            current = [b]
-        else:
-            current.append(b)
-    subpaths.append(current)
-    if len(subpaths) <= 1:
-        return ring
-
-    def area(subpath):
-        closed = subpath + [subpath[0]]
-        return abs(
-            sum(
-                closed[i][0] * closed[i + 1][1] - closed[i + 1][0] * closed[i][1]
-                for i in range(len(closed) - 1)
-            )
-        ) / 2
-
-    best = max((subpath for subpath in subpaths if len(subpath) >= 3), key=area, default=None)
-    if best is None:
-        return ring
-    return best + [best[0]]
-
-
 def simplify_geometry(geom):
     if geom["type"] == "Polygon":
-        return {
+        simplified = {
             "type": "Polygon",
-            "coordinates": [
-                repair_hainan_ring(simplify_ring(r, TOLERANCE)) for r in geom["coordinates"]
-            ],
+            "coordinates": [simplify_ring(r, TOLERANCE) for r in geom["coordinates"]],
         }
-    if geom["type"] == "MultiPolygon":
-        return {
+    elif geom["type"] == "MultiPolygon":
+        simplified = {
             "type": "MultiPolygon",
             "coordinates": [
-                [
-                    repair_hainan_ring(simplify_ring(r, TOLERANCE))
-                    for r in poly
-                ]
+                [simplify_ring(r, TOLERANCE) for r in poly]
                 for poly in geom["coordinates"]
             ],
         }
-    return geom
+    else:
+        return geom
+    # 源数据的环里混有病态长直线，简化后再统一缝合。
+    return roc_ring_repair.repair_geometry(simplified)
 
 
 def main():
