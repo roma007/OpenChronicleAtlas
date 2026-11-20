@@ -122,6 +122,52 @@ export function AtlasMap() {
     return result;
   }, [dataset, showAdminBoundaries, boundaryPeriod, filters.regionIds]);
 
+  const provinceLabels = useMemo(() => {
+    if (!dataset || !showAdminBoundaries || zoom < 4.5) return [];
+    const periodStart =
+      boundaryPeriod === '1931'
+        ? parseDateString('1931-09-18')
+        : boundaryPeriod === '1932'
+          ? parseDateString('1932-01-01')
+          : boundaryPeriod === '1938'
+            ? parseDateString('1938-01-01')
+            : parseDateString('1945-01-01');
+    const periodEnd =
+      boundaryPeriod === '1931'
+        ? parseDateString('1931-12-31')
+        : boundaryPeriod === '1932'
+          ? parseDateString('1937-12-31')
+          : boundaryPeriod === '1938'
+            ? parseDateString('1944-12-31')
+            : parseDateString('1945-12-31');
+    const result: Array<{
+      key: string;
+      point: { latitude: number; longitude: number };
+      text: string;
+      regionId: string;
+    }> = [];
+    for (const [index, feature] of dataset.territories.entries()) {
+      if (feature.properties.extensions?.kind !== 'admin-boundary') continue;
+      const start = parseDateString(feature.properties.startDate);
+      const end = parseDateString(feature.properties.endDate);
+      if (end < periodStart || start > periodEnd) continue;
+      const regionId =
+        typeof feature.properties.extensions?.regionId === 'string'
+          ? feature.properties.extensions.regionId
+          : undefined;
+      const labelPoint = feature.properties.labelPoint;
+      if (!regionId || !labelPoint) continue;
+      const region = dataset.regionsById.get(regionId);
+      result.push({
+        key: `province:${regionId}:${index}`,
+        point: toGcj(labelPoint[0], labelPoint[1]),
+        text: region ? regionShortName(region, locale) : resolveLocalized(feature.properties.label, locale),
+        regionId,
+      });
+    }
+    return result;
+  }, [dataset, showAdminBoundaries, boundaryPeriod, zoom, locale]);
+
   const regionLabels = useMemo(() => {
     if (!dataset || !showRegionLabels) return [];
     const selected = new Set(filters.regionIds);
@@ -501,6 +547,20 @@ export function AtlasMap() {
           )),
         )}
 
+        {provinceLabels.map((province) => (
+          <Marker
+            key={province.key}
+            position={province.point}
+            cacheKey={province.key}
+            zIndex={32}
+            onMarkerPress={() => toggleRegion(province.regionId)}
+          >
+            <View style={styles.provinceLabel}>
+              <Text style={styles.provinceLabelText}>{province.text}</Text>
+            </View>
+          </Marker>
+        ))}
+
         {regionLabels.map((region) => (
           <Marker
             key={`region:${region.id}`}
@@ -646,6 +706,15 @@ const styles = StyleSheet.create({
   endpointStart: { borderColor: colors.cinnabar + '88' },
   endpointEnd: { borderColor: '#1f4e7988' },
   endpointText: { fontSize: 10, color: colors.ink },
+  provinceLabel: {
+    backgroundColor: colors.parchment + 'E6',
+    borderRadius: radii.pill,
+    borderWidth: 1,
+    borderColor: colors.ink + '44',
+    paddingHorizontal: 7,
+    paddingVertical: 2,
+  },
+  provinceLabelText: { fontSize: 11, fontWeight: '700', color: colors.ink },
   regionLabel: {
     backgroundColor: colors.parchment + 'DD',
     borderRadius: radii.pill,

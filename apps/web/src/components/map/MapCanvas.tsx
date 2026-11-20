@@ -410,6 +410,12 @@ export function MapCanvas() {
     dataset.territories.forEach((feature, index) => {
       const entity = dataset.entitiesById.get(feature.properties.entityId);
       if (!entity) return;
+      const ext = feature.properties.extensions ?? {};
+      const isAdmin = ext.kind === 'admin-boundary';
+      const adminRegionId = typeof ext.regionId === 'string' ? ext.regionId : undefined;
+      const adminRegion = adminRegionId
+        ? dataset.regionsById.get(adminRegionId)
+        : undefined;
 
       const parts =
         feature.geometry.type === 'Polygon'
@@ -450,16 +456,40 @@ export function MapCanvas() {
           'border-radius': '999px',
           padding: '1px 6px',
           'white-space': 'nowrap',
-          'pointer-events': 'none',
+          'pointer-events': isAdmin && adminRegionId ? 'auto' : 'none',
+          cursor: isAdmin && adminRegionId ? 'pointer' : 'default',
         },
       });
       label.hide();
       map.add(label);
+      if (isAdmin && adminRegionId && adminRegion) {
+        const element = label.dom as HTMLElement | undefined;
+        element?.addEventListener('click', () => {
+          useAtlasStore.getState().toggleRegion(adminRegionId);
+        });
+        element?.addEventListener('mouseover', (event: MouseEvent) => {
+          setRegionTip({
+            x: event.clientX,
+            y: event.clientY,
+            title: resolveLocalized(adminRegion.name, locale),
+            meta: [
+              t('region.level.province'),
+              adminRegion.modernName
+                ? resolveLocalized(adminRegion.modernName, locale)
+                : '',
+            ]
+              .filter(Boolean)
+              .join(' · '),
+            detail: t('region.source.admin-boundary'),
+          });
+        });
+        element?.addEventListener('mouseout', () => setRegionTip(null));
+      }
 
       const key = `${feature.properties.entityId}:${index}`;
       territoryEntriesRef.current.set(key, { feature, polygons, label });
     });
-  }, [dataset, ready, locale]);
+  }, [dataset, ready, locale, t]);
 
   // 地区标注：县市/地点/院辖市的当时名称，按缩放级别与选区显示
   useEffect(() => {
@@ -532,10 +562,12 @@ export function MapCanvas() {
             },
       });
       label.hide();
-      label.on('click', () => useAtlasStore.getState().toggleRegion(region.id));
       map.add(label);
       const element = label.dom as HTMLElement | undefined;
       if (element) {
+        element.addEventListener('click', () => {
+          useAtlasStore.getState().toggleRegion(region.id);
+        });
         element.addEventListener('mouseover', (event: MouseEvent) => {
           const modern = region.modernName
             ? resolveLocalized(region.modernName, locale)

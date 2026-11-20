@@ -3,6 +3,22 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.185] - 2026-11-20
+
+### Added
+- 省级边界标签支持点击筛选与悬停说明：显示省名、今地名与“历史省界（示意）”。
+- 移动端新增省级标签：从省界要素的 `labelPoint` 生成，缩放 4.5 级以上显示，点击可筛选该省。
+
+### Changed
+- 地图标签点击改为直接监听标签 DOM 的 `click`，避免 AMap.Text 的 `click` 事件在部分环境不触发；县/地点标签同步修复。
+
+### Verify
+- Web 悬停“河北”显示“省 · 今河北省、北京市、天津市 · 历史省界（示意）”。
+- 点击“河北”后 `filters.regionIds` 变为 `["hebei"]`。
+- `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build` 通过。
+
+---
+
 ## [v1.0.184] - 2026-11-20
 
 ### Added
