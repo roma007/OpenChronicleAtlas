@@ -14123,6 +14123,170 @@
         114.76,
         25.66
       ]
+    },
+    {
+      "id": "county-hebei-u5b89u6b21u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "安次县"
+      },
+      "shortName": {
+        "zh": "安次"
+      },
+      "aliases": [
+        "安次"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "county-seat-place"
+      },
+      "point": [
+        116.7,
+        39.52
+      ]
+    },
+    {
+      "id": "place-hebei-u5ecau574a",
+      "level": "place",
+      "parentId": "county-hebei-u5b89u6b21u53bf",
+      "name": {
+        "zh": "廊坊"
+      },
+      "shortName": {
+        "zh": "廊坊"
+      },
+      "aliases": [
+        "河北廊坊",
+        "河北廊坊"
+      ],
+      "modernName": {
+        "zh": "河北廊坊"
+      },
+      "point": [
+        116.7,
+        39.52
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北廊坊",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-hebei-u6ca7u53bf",
+      "level": "place",
+      "parentId": "hebei",
+      "name": {
+        "zh": "沧县"
+      },
+      "shortName": {
+        "zh": "沧县"
+      },
+      "aliases": [
+        "河北沧县",
+        "河北沧县"
+      ],
+      "modernName": {
+        "zh": "河北沧县"
+      },
+      "point": [
+        116.83,
+        38.3
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北沧县",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-hebei-u90a2u53f0u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "邢台县"
+      },
+      "shortName": {
+        "zh": "邢台"
+      },
+      "aliases": [
+        "邢台"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.5,
+        37.07
+      ]
+    },
+    {
+      "id": "county-hebei-u90afu90f8u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "邯郸县"
+      },
+      "shortName": {
+        "zh": "邯郸"
+      },
+      "aliases": [
+        "邯郸"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.49,
+        36.61
+      ]
+    },
+    {
+      "id": "county-hebei-u78c1u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "磁县"
+      },
+      "shortName": {
+        "zh": "磁"
+      },
+      "aliases": [
+        "磁"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.37,
+        36.37
+      ]
+    },
+    {
+      "id": "county-hebei-u5927u540du53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "大名县"
+      },
+      "shortName": {
+        "zh": "大名"
+      },
+      "aliases": [
+        "大名"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.15,
+        36.28
+      ]
     }
   ]
 }

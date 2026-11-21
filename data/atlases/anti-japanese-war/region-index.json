@@ -2959,6 +2959,48 @@
     "nankang-fall-1945-02": [
       "jiangxi",
       "county-jiangxi-u5357u5eb7u53bf"
+    ],
+    "langfang-fall-1937-07": [
+      "hebei",
+      "county-hebei-u5b89u6b21u53bf",
+      "place-hebei-u5ecau574a"
+    ],
+    "tongzhou-fall-1937-07": [
+      "hebei",
+      "county-hebei-u901au53bf",
+      "place-hebei-u901au5dde"
+    ],
+    "cangzhou-fall-1937-09": [
+      "hebei",
+      "place-hebei-u6ca7u53bf"
+    ],
+    "dingxian-fall-1937-10": [
+      "hebei",
+      "county-hebei-u5b9au53bf"
+    ],
+    "xingtai-fall-1937-10": [
+      "hebei",
+      "county-hebei-u90a2u53f0u53bf"
+    ],
+    "handan-fall-1937-10": [
+      "hebei",
+      "county-hebei-u90afu90f8u53bf"
+    ],
+    "cixian-fall-1937-10": [
+      "hebei",
+      "county-hebei-u78c1u53bf"
+    ],
+    "daming-fall-1937-11": [
+      "hebei",
+      "county-hebei-u5927u540du53bf"
+    ],
+    "tianjin-surrender-1945-10": [
+      "tianjin",
+      "place-tianjin-u5929u6d25"
+    ],
+    "beiping-surrender-1945-10": [
+      "beiping",
+      "place-beiping-u5317u5e73"
     ]
   },
   "routes": {
@@ -3323,6 +3365,7 @@
       "regionIds": [
         "anhui",
         "beiping",
+        "county-hebei-u5b89u6b21u53bf",
         "county-jiangsu-u94dcu5c71u53bf",
         "county-shandong-u6ed5u53bf",
         "hebei",
@@ -5314,6 +5357,65 @@
       ],
       "endpointRegionIds": [
         "jiangxi"
+      ]
+    },
+    "japanese-invasion:216": {
+      "regionIds": [
+        "beiping",
+        "county-hebei-u5b89u6b21u53bf",
+        "hebei",
+        "tianjin"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "japanese-invasion:217": {
+      "regionIds": [
+        "beiping",
+        "county-hebei-u901au53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "japanese-invasion:218": {
+      "regionIds": [
+        "hebei",
+        "tianjin"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "japanese-invasion:219": {
+      "regionIds": [
+        "beiping",
+        "county-hebei-u5b9au53bf",
+        "county-hebei-u6e05u82d1u53bf",
+        "county-hebei-u77f3u95e8u5e02",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "japanese-invasion:220": {
+      "regionIds": [
+        "county-hebei-u77f3u95e8u5e02",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "japanese-invasion:221": {
+      "regionIds": [
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
       ]
     },
     "kmt-forces:1": {

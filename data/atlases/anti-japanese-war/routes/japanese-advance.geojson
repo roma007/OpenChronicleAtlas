@@ -8458,6 +8458,238 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            116.7,
+            39.52
+          ],
+          [
+            117.2,
+            39.13
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-07-27",
+        "endDate": "1937-07-30",
+        "order": 216,
+        "segmentType": "advance",
+        "name": {
+          "zh": "北平—廊坊—天津",
+          "en": "Beiping–Langfang–Tianjin"
+        },
+        "description": {
+          "zh": "1937年7月27日日军攻占廊坊，7月29日至30日北平、天津相继沦陷。路线为示意简化。",
+          "en": "Japanese forces captured Langfang on 27 July 1937, and Beiping and Tianjin fell on 29–30 July. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            116.66,
+            39.91
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-07-29",
+        "endDate": "1937-07-29",
+        "order": 217,
+        "segmentType": "advance",
+        "name": {
+          "zh": "北平—通州",
+          "en": "Beiping–Tongzhou"
+        },
+        "description": {
+          "zh": "1937年7月29日，日军占领北平东面门户通州。路线为示意简化。",
+          "en": "On 29 July 1937 Japanese forces occupied Tongzhou, the eastern gateway to Beiping. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.2,
+            39.13
+          ],
+          [
+            117.0,
+            38.7
+          ],
+          [
+            116.83,
+            38.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-07-30",
+        "endDate": "1937-09-24",
+        "order": 218,
+        "segmentType": "advance",
+        "name": {
+          "zh": "天津—沧州",
+          "en": "Tianjin–Cangzhou"
+        },
+        "description": {
+          "zh": "1937年7月30日天津失守后，日军沿津浦线南犯，9月24日攻占沧州。路线为示意简化。",
+          "en": "After Tianjin fell on 30 July 1937, Japanese forces advanced south along the Tianjin–Pukou railway and captured Cangzhou on 24 September. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            115.48,
+            38.87
+          ],
+          [
+            114.99,
+            38.52
+          ],
+          [
+            114.5,
+            38.04
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-09-24",
+        "endDate": "1937-10-10",
+        "order": 219,
+        "segmentType": "advance",
+        "name": {
+          "zh": "北平—保定—定县—石家庄",
+          "en": "Beiping–Baoding–Dingxian–Shijiazhuang"
+        },
+        "description": {
+          "zh": "1937年9月24日保定失守后，日军沿平汉线南犯，10月8日陷定县，10月10日陷石家庄。路线为示意简化。",
+          "en": "After Baoding fell on 24 September 1937, Japanese forces advanced south along the Beiping–Hankou railway, taking Dingxian on 8 October and Shijiazhuang on 10 October. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.5,
+            38.04
+          ],
+          [
+            114.5,
+            37.07
+          ],
+          [
+            114.49,
+            36.61
+          ],
+          [
+            114.37,
+            36.37
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-10-10",
+        "endDate": "1937-10-18",
+        "order": 220,
+        "segmentType": "advance",
+        "name": {
+          "zh": "石家庄—邢台—邯郸—磁县",
+          "en": "Shijiazhuang–Xingtai–Handan–Cixian"
+        },
+        "description": {
+          "zh": "1937年10月10日石家庄失守后，日军沿平汉线南犯，10月15日陷邢台，10月17日陷邯郸，10月18日陷磁县。路线为示意简化。",
+          "en": "After Shijiazhuang fell on 10 October 1937, Japanese forces advanced south along the Beiping–Hankou railway, taking Xingtai on 15 October, Handan on 17 October and Cixian on 18 October. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.49,
+            36.61
+          ],
+          [
+            114.8,
+            36.45
+          ],
+          [
+            115.15,
+            36.28
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-10-17",
+        "endDate": "1937-11-12",
+        "order": 221,
+        "segmentType": "advance",
+        "name": {
+          "zh": "邯郸—大名",
+          "en": "Handan–Daming"
+        },
+        "description": {
+          "zh": "1937年10月17日邯郸失守后，日军向东南进犯，11月12日攻占大名。路线为示意简化。",
+          "en": "After Handan fell on 17 October 1937, Japanese forces advanced southeast and captured Daming on 12 November. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

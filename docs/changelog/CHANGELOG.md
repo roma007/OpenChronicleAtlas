@@ -3,6 +3,36 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.200] - 2026-11-21
+
+### Added
+- **抗日战争 · 河北日军战线（M219）**：河北相关日军事件（含北平、天津院辖市）由 17 条增至 27 条。
+  - 平津（2）：廊坊、通州。
+  - 津浦线（1）：沧州。
+  - 平汉线（4）：定县、邢台、邯郸、磁县。
+  - 冀南（1）：大名。
+  - 受降（2）：天津受降（10/6）、北平受降（10/10）。
+  - 路线（6 段，#216—#221）：北平—廊坊—天津、北平—通州、天津—沧州、
+    北平—保定—定县—石家庄、石家庄—邢台—邯郸—磁县、邯郸—大名。
+  - 专题：675 → **685** 事件、394 → **400** 段路线；日军层：427 → **437** 事件、215 → **221** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-hebei.md`、计划
+  `docs/plans/2026-11-21-M219-河北日军战线细化-plan.md`。
+
+### Changed
+- `scripts/build-region-data.py`：增加河北 1937 年县名映射（安次、通县、沧县、定县、邢台、
+  邯郸、磁县、大名等），并补县治落点。
+- `regions.json` / `region-index.json`：地区由 567 → **574** 个，685 个事件全部有省 + 县/地点归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- **本批未达计划 30 事件 / 12 路线的目标**：唐山、秦皇岛、涿州、良乡、固安、正定、井陉等
+  县城沦陷日期缺少两条独立来源，按「宁可少一条，不可错一条」原则不硬录，列入研究笔记待考；
+  后续以 M219b 复核后补。
+
+---
+
 ## [v1.0.199] - 2026-11-21
 
 ### Added
