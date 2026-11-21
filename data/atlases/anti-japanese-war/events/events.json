@@ -40620,5 +40620,1665 @@
     "extensions": {
       "routeEvent": false
     }
+  },
+  {
+    "id": "xinqianghe-fall-1939-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "新墙河防线失守",
+      "en": "Fall of the Xinqiang River Line"
+    },
+    "date": "1939-09-23",
+    "location": {
+      "lng": 113.15,
+      "lat": 29.15,
+      "place": {
+        "zh": "湖南岳阳新墙河",
+        "en": "Xinqiang River, Yueyang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1939年9月23日，日军第6、第13师团强渡新墙河，中国守军转移。",
+      "en": "On 23 September 1939 the Japanese 6th and 13th Divisions forced the Xinqiang River and the Chinese defenders withdrew."
+    },
+    "description": {
+      "zh": "1939年9月18日日军第6、第13师团进攻新墙河北岸，中国第52军第2、第195师胡春华营、史思华营死守，至20日北岸阵地全部陷落。23日凌晨，日军在飞机、重炮和毒气掩护下强渡新墙河，中国守军抗击至中午后转移。日期据《湖南抗日战争日志（1939年9月）》与《记湘北会战》。",
+      "en": "On 18 September 1939 the Japanese 6th and 13th Divisions attacked the north bank of the Xinqiang River; the Chinese 2nd and 195th Divisions’ Hu Chunhua and Shi Sihua battalions held to the last, and the north-bank positions fell by the 20th. In the early hours of the 23rd the Japanese crossed under air, artillery and gas cover, and the Chinese withdrew after fighting until noon."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湖南抗日战争日志（1939年9月）",
+        "author": "抗日战争纪念网 2014-11-12",
+        "note": "逐日日志，访问 2026-11-21"
+      },
+      {
+        "title": "记湘北会战",
+        "author": "岳阳市档案局 2014-08-12",
+        "note": "地方档案，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "yingtian-fall-1939-09",
+      "miluojiang-fall-1939-09",
+      "changsha-1939-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yingtian-fall-1939-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "营田登陆",
+      "en": "Landing at Yingtian"
+    },
+    "date": "1939-09-23",
+    "location": {
+      "lng": 112.98,
+      "lat": 28.85,
+      "place": {
+        "zh": "湖南湘阴营田",
+        "en": "Yingtian, Xiangyin, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1939年9月23日，日军第3师团上村支队在营田登陆，抄袭新墙河守军侧背。",
+      "en": "On 23 September 1939 the Uemura detachment of the Japanese 3rd Division landed at Yingtian, turning the Xinqiang River line."
+    },
+    "description": {
+      "zh": "1939年9月23日拂晓，日军第3师团上村支队在海军支援下于洞庭湖东岸营田登陆，抄袭新墙河守军侧背，营田当日失守。日军占领营田后13天内残杀百姓800余人、强奸妇女百人以上。日期据《湖南抗日战争日志（1939年9月）》与《记湘北会战》。",
+      "en": "At dawn on 23 September 1939 the Uemura detachment of the Japanese 3rd Division landed at Yingtian on the east shore of Dongting Lake with naval support, turning the Xinqiang River line; Yingtian fell the same day. In the following thirteen days the Japanese killed more than 800 civilians and raped over a hundred women."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湖南抗日战争日志（1939年9月）",
+        "author": "抗日战争纪念网 2014-11-12",
+        "note": "逐日日志，访问 2026-11-21"
+      },
+      {
+        "title": "记湘北会战",
+        "author": "岳阳市档案局 2014-08-12",
+        "note": "地方档案，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "xinqianghe-fall-1939-09",
+      "miluojiang-fall-1939-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "miluojiang-fall-1939-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "汨罗江防线失守",
+      "en": "Fall of the Miluo River Line"
+    },
+    "date": "1939-09-26",
+    "location": {
+      "lng": 113.08,
+      "lat": 28.81,
+      "place": {
+        "zh": "湖南湘阴汨罗",
+        "en": "Miluo, Xiangyin, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1939年9月26日，日军第6师团渡过汨罗江，进抵新市。",
+      "en": "On 26 September 1939 the Japanese 6th Division crossed the Miluo River and reached Xinshi."
+    },
+    "description": {
+      "zh": "1939年9月25日凌晨日军迫近汨罗江北岸，26日日军第6师团渡过汨罗江进抵新市，在营田登陆的第3师团上村支队突破中国第95师阵地向粤汉路前进。中国第9战区按“后退决战”方针向长沙以东转移。日期据《湖南抗日战争日志（1939年9月）》与《记湘北会战》。",
+      "en": "The Japanese reached the north bank of the Miluo in the early hours of 25 September 1939; on the 26th the 6th Division crossed and reached Xinshi, while the Uemura detachment from Yingtian broke the Chinese 95th Division and drove on the Canton–Hankou railway. The Chinese Ninth War Zone fell back east of Changsha under its “retreat and decisive battle” plan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湖南抗日战争日志（1939年9月）",
+        "author": "抗日战争纪念网 2014-11-12",
+        "note": "逐日日志，访问 2026-11-21"
+      },
+      {
+        "title": "记湘北会战",
+        "author": "岳阳市档案局 2014-08-12",
+        "note": "地方档案，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "xinqianghe-fall-1939-09",
+      "pingjiang-fall-1939-09",
+      "yongan-fall-1939-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "pingjiang-fall-1939-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "平江沦陷",
+      "en": "Fall of Pingjiang"
+    },
+    "date": "1939-09-29",
+    "location": {
+      "lng": 113.58,
+      "lat": 28.71,
+      "place": {
+        "zh": "湖南平江",
+        "en": "Pingjiang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1939年9月29日，日军第33师团攻占平江，进抵长寿街、龙门厂。",
+      "en": "On 29 September 1939 the Japanese 33rd Division captured Pingjiang and reached Changshoujie and Longmenchang."
+    },
+    "description": {
+      "zh": "1939年9月22日日军第33师团自鄂南通城南犯，23日进占麦市、桃树港，29日攻占平江，进抵朱溪厂、龙门厂、长寿街。中国第20、第79军在献钟、南楼岭、桃树港一带夹击，日军未能与湘北主力会合。日期据《湖南抗日战争日志（1939年9月）》与《记湘北会战》。",
+      "en": "On 22 September 1939 the Japanese 33rd Division advanced south from Tongcheng in southern Hubei, took Maishi and Taoshugang on the 23rd, and captured Pingjiang on the 29th, reaching Zhuxichang, Longmenchang and Changshoujie. The Chinese 20th and 79th Corps counterattacked around Xianzhong and Nanluling, preventing a junction with the main force."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湖南抗日战争日志（1939年9月）",
+        "author": "抗日战争纪念网 2014-11-12",
+        "note": "逐日日志，访问 2026-11-21"
+      },
+      {
+        "title": "记湘北会战",
+        "author": "岳阳市档案局 2014-08-12",
+        "note": "地方档案，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "miluojiang-fall-1939-09",
+      "yongan-fall-1939-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yongan-fall-1939-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进抵永安",
+      "en": "Japanese Reach Yong’an"
+    },
+    "date": "1939-09-30",
+    "location": {
+      "lng": 113.2,
+      "lat": 28.35,
+      "place": {
+        "zh": "湖南长沙永安",
+        "en": "Yong’an, Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1939年9月30日，日军一部进抵长沙以北30公里的永安，为第一次长沙会战日军南侵最远点。",
+      "en": "On 30 September 1939 a Japanese column reached Yong’an, 30 km north of Changsha, the deepest penetration of the first Changsha campaign."
+    },
+    "description": {
+      "zh": "1939年9月28日日军第6师团在福临铺、金井遭中国第195师等部伏击，损失颇重；29日其主力进至桥头驿，一部进抵永安（距长沙30公里）。这是第一次长沙会战日军南侵最远点。10月1日日军开始撤退，至10月8日退回新墙河北岸。日期据《湖南抗日战争日志（1939年9月）》与《记湘北会战》。",
+      "en": "On 28 September 1939 the Japanese 6th Division was ambushed by the Chinese 195th Division at Fulingpu and Jinjing and suffered heavily; on the 29th its main force reached Qiaotouyi and a detachment reached Yong’an, 30 km from Changsha, the deepest point of the Japanese advance. The Japanese began withdrawing on 1 October and were back north of the Xinqiang by the 8th."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湖南抗日战争日志（1939年9月）",
+        "author": "抗日战争纪念网 2014-11-12",
+        "note": "逐日日志，访问 2026-11-21"
+      },
+      {
+        "title": "记湘北会战",
+        "author": "岳阳市档案局 2014-08-12",
+        "note": "地方档案，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "pingjiang-fall-1939-09",
+      "changsha-1939-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dayunshan-battle-1941-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "大云山战斗",
+      "en": "Battle of Dayun Mountain"
+    },
+    "date": "1941-09-07",
+    "location": {
+      "lng": 113.5,
+      "lat": 29.4,
+      "place": {
+        "zh": "湖南岳阳大云山",
+        "en": "Dayun Mountain, Yueyang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1941年9月7日，日军第6师团进攻岳阳大云山，第二次长沙会战拉开序幕。",
+      "en": "On 7 September 1941 the Japanese 6th Division attacked Dayun Mountain in Yueyang, opening the second Changsha campaign."
+    },
+    "description": {
+      "zh": "1941年9月7日晨，日军第6师团2个联队从忠防、西塘进攻岳阳大云山，中国第58军新11师、第4军第59师等部反击，10日收复大云山。日军以一部牵制中国5个师，主力已在岳阳正面集结，18日强渡新墙河。日期据光明网《9月7日：第二次长沙会战拉开序幕》与《长沙会战》。",
+      "en": "On the morning of 7 September 1941 two regiments of the Japanese 6th Division attacked Dayun Mountain from Zhongfang and Xitang. The Chinese New 11th Division and 59th Division counterattacked and recovered the mountain on the 10th. The Japanese used this to pin five Chinese divisions while massing their main force at Yueyang, crossing the Xinqiang on the 18th."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗日战争史上的今天：9月7日第二次长沙会战拉开序幕",
+        "author": "光明网 2025-09-07",
+        "note": "官方媒体，访问 2026-11-21"
+      },
+      {
+        "title": "长沙会战",
+        "author": "百度百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "xinqianghe-fall-1941-09",
+      "changsha-1941-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xinqianghe-fall-1941-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "新墙河防线再失",
+      "en": "Second Fall of the Xinqiang River Line"
+    },
+    "date": "1941-09-18",
+    "location": {
+      "lng": 113.15,
+      "lat": 29.15,
+      "place": {
+        "zh": "湖南岳阳新墙河",
+        "en": "Xinqiang River, Yueyang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1941年9月18日，日军第3、第4、第6、第40师团强渡新墙河。",
+      "en": "On 18 September 1941 the Japanese 3rd, 4th, 6th and 40th Divisions forced the Xinqiang River."
+    },
+    "description": {
+      "zh": "1941年9月18日拂晓，日军第3、第4、第6、第40师团及荒木、早渊支队在320门火炮、50架飞机支援下，向新墙河南岸20公里正面发起总攻，中国第4军第102师阵地两小时内被突破，日军当晚占领黄沙街、大荆街。日期据光明网与《长沙会战》。",
+      "en": "At dawn on 18 September 1941 the Japanese 3rd, 4th, 6th and 40th Divisions with the Araki and Hayabuchi detachments attacked a 20-km front south of the Xinqiang River with 320 guns and 50 aircraft. The Chinese 102nd Division’s line broke within two hours, and the Japanese took Huangshajie and Dajingjie that evening."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗日战争史上的今天：9月7日第二次长沙会战拉开序幕",
+        "author": "光明网 2025-09-07",
+        "note": "官方媒体，访问 2026-11-21"
+      },
+      {
+        "title": "长沙会战",
+        "author": "百度百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "dayunshan-battle-1941-09",
+      "miluojiang-fall-1941-09",
+      "changsha-fall-1941-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "miluojiang-fall-1941-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "汨罗江防线再失",
+      "en": "Second Fall of the Miluo River Line"
+    },
+    "date": "1941-09-21",
+    "location": {
+      "lng": 113.08,
+      "lat": 28.81,
+      "place": {
+        "zh": "湖南湘阴汨罗",
+        "en": "Miluo, Xiangyin, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1941年9月21日，日军主力强渡汨罗江，中国第37军转移。",
+      "en": "On 21 September 1941 the Japanese main force crossed the Miluo River and the Chinese 37th Corps withdrew."
+    },
+    "description": {
+      "zh": "1941年9月19日日军进抵汨罗江北岸，21日拂晓主力强渡汨罗江，中国第37军抗击后向捞刀河东南转移。日军因破译中国军队电报，改以主力包围汨罗江南岸守军。日期据光明网与《长沙会战》。",
+      "en": "The Japanese reached the north bank of the Miluo on 19 September 1941 and crossed in force at dawn on the 21st. The Chinese 37th Corps resisted and then withdrew southeast of the Laodao River. Having broken Chinese codes, the Japanese switched their main effort to encircling the south-bank defenders."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗日战争史上的今天：9月7日第二次长沙会战拉开序幕",
+        "author": "光明网 2025-09-07",
+        "note": "官方媒体，访问 2026-11-21"
+      },
+      {
+        "title": "长沙会战",
+        "author": "百度百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "xinqianghe-fall-1941-09",
+      "changsha-fall-1941-09",
+      "zhuzhou-fall-1941-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "changsha-fall-1941-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "长沙一度失守（1941）",
+      "en": "Changsha Briefly Falls (1941)"
+    },
+    "date": "1941-09-28",
+    "location": {
+      "lng": 112.94,
+      "lat": 28.23,
+      "place": {
+        "zh": "湖南长沙",
+        "en": "Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1941年9月28日，日军早渊支队突入长沙市区，长沙一度失守。",
+      "en": "On 28 September 1941 the Japanese Hayabuchi detachment entered Changsha, which briefly fell."
+    },
+    "description": {
+      "zh": "1941年9月27日日军第4师团一部与早渊支队渡过捞刀河、浏阳河，28日早渊支队一部自长沙东北角突入城内，当晚全部进入长沙；29日第4师团主力亦开进长沙。日军因粮弹消耗、后方被切断，10月1日开始撤退，10月8日退回新墙河北岸。日期据光明网与《长沙会战》。",
+      "en": "On 27 September 1941 parts of the Japanese 4th Division and the Hayabuchi detachment crossed the Laodao and Liuyang rivers; on the 28th the Hayabuchi detachment entered Changsha from the northeast, and the 4th Division’s main force followed on the 29th. With supplies exhausted and its rear cut, the Japanese withdrew from 1 October and were back north of the Xinqiang by the 8th."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗日战争史上的今天：9月7日第二次长沙会战拉开序幕",
+        "author": "光明网 2025-09-07",
+        "note": "官方媒体，访问 2026-11-21"
+      },
+      {
+        "title": "长沙会战",
+        "author": "百度百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "miluojiang-fall-1941-09",
+      "zhuzhou-fall-1941-09",
+      "changsha-1941-09"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "zhuzhou-fall-1941-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "株洲沦陷（1941）",
+      "en": "Fall of Zhuzhou (1941)"
+    },
+    "date": "1941-09-29",
+    "location": {
+      "lng": 113.13,
+      "lat": 27.83,
+      "place": {
+        "zh": "湖南株洲",
+        "en": "Zhuzhou, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1941年9月29日，日军第3师团一部攻入株洲。",
+      "en": "On 29 September 1941 a detachment of the Japanese 3rd Division entered Zhuzhou."
+    },
+    "description": {
+      "zh": "1941年9月29日凌晨，日军第3师团第29旅团攻入株洲，中国暂编第2军第8师在龙头铺、大观塘、荷塘铺一带反击，至29日10时将日军击破，日军向北撤退。株洲是第二次长沙会战日军南侵最南点。日期据株洲文明网与《长沙会战》。",
+      "en": "In the early hours of 29 September 1941 the Japanese 3rd Division’s 29th Brigade entered Zhuzhou. The Chinese Provisional 8th Division counterattacked at Longtoupu, Daguantang and Hetangpu and by 10 a.m. had broken the Japanese, who withdrew north. Zhuzhou was the southernmost point of the Japanese advance in the second Changsha campaign."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "重走昔日战场 还原株洲抗战第一仗",
+        "author": "株洲文明网 2015-08-10",
+        "note": "地方史，访问 2026-11-21"
+      },
+      {
+        "title": "长沙会战",
+        "author": "百度百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "changsha-fall-1941-09",
+      "changsha-1941-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xinqianghe-fall-1941-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "新墙河防线失守（1941年12月）",
+      "en": "Fall of the Xinqiang River Line (December 1941)"
+    },
+    "date": "1941-12-24",
+    "location": {
+      "lng": 113.15,
+      "lat": 29.15,
+      "place": {
+        "zh": "湖南岳阳新墙河",
+        "en": "Xinqiang River, Yueyang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1941年12月24日，日军第3、第6、第40师团进攻新墙河，第三次长沙会战开始。",
+      "en": "On 24 December 1941 the Japanese 3rd, 6th and 40th Divisions attacked the Xinqiang River, opening the third Changsha campaign."
+    },
+    "description": {
+      "zh": "1941年12月24日，日军第11军以第3、第6、第40师团向新墙河发起进攻，中国第20军抗击后转移。日军随后强渡汨罗江，1942年1月1日进攻长沙，遭中国第10军等部顽强抵抗，1月4日撤退，1月15日退回新墙河北岸。日期据维基百科《第三次长沙会战》与《长沙会战》。",
+      "en": "On 24 December 1941 the Japanese 11th Army attacked the Xinqiang River with the 3rd, 6th and 40th Divisions; the Chinese 20th Corps resisted and withdrew. The Japanese crossed the Miluo and attacked Changsha on 1 January 1942, but after stubborn resistance by the Chinese 10th Corps they withdrew on the 4th and were back north of the Xinqiang by the 15th."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "第三次长沙会战",
+        "author": "维基百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      },
+      {
+        "title": "长沙会战",
+        "author": "百度百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "miluojiang-fall-1941-12",
+      "changsha-battle-1942-01",
+      "changsha-1941-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "miluojiang-fall-1941-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "汨罗江防线失守（1941年12月）",
+      "en": "Fall of the Miluo River Line (December 1941)"
+    },
+    "date": "1941-12-26",
+    "location": {
+      "lng": 113.08,
+      "lat": 28.81,
+      "place": {
+        "zh": "湖南湘阴汨罗",
+        "en": "Miluo, Xiangyin, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1941年12月26日，日军渡过汨罗江，向长沙推进。",
+      "en": "On 26 December 1941 the Japanese crossed the Miluo River and advanced on Changsha."
+    },
+    "description": {
+      "zh": "1941年12月26日，日军第3、第6、第40师团渡过汨罗江，向长沙推进。中国第9战区按“天炉战法”逐次抵抗，诱敌至长沙外围。日期据维基百科《第三次长沙会战》与《长沙会战》。",
+      "en": "On 26 December 1941 the Japanese 3rd, 6th and 40th Divisions crossed the Miluo River and advanced on Changsha. The Chinese Ninth War Zone fought a delaying action under its “heavenly furnace” plan, drawing the Japanese toward Changsha’s outskirts."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "第三次长沙会战",
+        "author": "维基百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      },
+      {
+        "title": "长沙会战",
+        "author": "百度百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "xinqianghe-fall-1941-12",
+      "changsha-battle-1942-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "changsha-battle-1942-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进攻长沙（1942年1月）",
+      "en": "Japanese Attack on Changsha (January 1942)"
+    },
+    "date": "1942-01-01",
+    "location": {
+      "lng": 112.94,
+      "lat": 28.23,
+      "place": {
+        "zh": "湖南长沙",
+        "en": "Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1942年1月1日，日军第3、第6、第40师团进攻长沙，遭中国第10军顽强抵抗。",
+      "en": "On 1 January 1942 the Japanese 3rd, 6th and 40th Divisions attacked Changsha and met stubborn resistance from the Chinese 10th Corps."
+    },
+    "description": {
+      "zh": "1942年1月1日，日军第3、第6、第40师团进攻长沙，中国第10军依托城垣和岳麓山炮兵顽强抵抗，日军猛攻4日未能破城，1月4日撤退。中国军队追击，1月15日日军退回新墙河北岸。这是第三次长沙会战的转折点。日期据维基百科《第三次长沙会战》与《长沙会战》。",
+      "en": "On 1 January 1942 the Japanese 3rd, 6th and 40th Divisions attacked Changsha. The Chinese 10th Corps, supported by artillery on Yuelu Mountain, held the city walls; after four days of assault the Japanese withdrew on 4 January. The Chinese pursued, and by 15 January the Japanese were back north of the Xinqiang. This was the turning point of the third Changsha campaign."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "第三次长沙会战",
+        "author": "维基百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      },
+      {
+        "title": "长沙会战",
+        "author": "百度百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "miluojiang-fall-1941-12",
+      "changsha-1941-12"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "nanxian-fall-1943-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "南县沦陷",
+      "en": "Fall of Nanxian"
+    },
+    "date": "1943-11-03",
+    "location": {
+      "lng": 112.4,
+      "lat": 29.37,
+      "place": {
+        "zh": "湖南南县",
+        "en": "Nanxian, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1943年11月3日，日军第68师团户田支队攻占南县。",
+      "en": "On 3 November 1943 the Toda detachment of the Japanese 68th Division captured Nanxian."
+    },
+    "description": {
+      "zh": "1943年11月2日日军第11军分三路会攻常德，东路第68师团户田支队自华容、石首南犯，3日攻占南县，随后占三仙湖，进抵洞庭湖北岸。日期据《湖南抗日战争日志（1943年11月）》与《常德会战全过程》。",
+      "en": "On 2 November 1943 the Japanese 11th Army attacked Changde in three columns. The Toda detachment of the 68th Division advanced south from Huarong and Shishou, took Nanxian on the 3rd and Sanxianhu soon after, reaching the north shore of Dongting Lake."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湖南抗日战争日志（1943年11月）",
+        "author": "抗日战争纪念网 2014-12-29",
+        "note": "逐日日志，访问 2026-11-21"
+      },
+      {
+        "title": "常德会战全过程",
+        "author": "黄埔军校同学会 2013-11-01",
+        "note": "战史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "anxiang-fall-1943-11",
+      "changde-fall-1943-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "anxiang-fall-1943-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "安乡沦陷",
+      "en": "Fall of Anxiang"
+    },
+    "date": "1943-11-07",
+    "location": {
+      "lng": 112.17,
+      "lat": 29.41,
+      "place": {
+        "zh": "湖南安乡",
+        "en": "Anxiang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1943年11月7日，日军攻占安乡。",
+      "en": "On 7 November 1943 the Japanese captured Anxiang."
+    },
+    "description": {
+      "zh": "1943年11月7日日军攻占安乡。安乡为洞庭湖西北门户，失守后日军东路由安乡、汉寿指向常德东南，切断常德守军退路。日期据《湖南抗日战争日志（1943年11月）》与《常德会战全过程》。",
+      "en": "On 7 November 1943 the Japanese took Anxiang, the northwestern gateway to Dongting Lake. The eastern column then drove via Anxiang and Hanshou toward Changde’s southeast, cutting the defenders’ retreat."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湖南抗日战争日志（1943年11月）",
+        "author": "抗日战争纪念网 2014-12-29",
+        "note": "逐日日志，访问 2026-11-21"
+      },
+      {
+        "title": "常德会战全过程",
+        "author": "黄埔军校同学会 2013-11-01",
+        "note": "战史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "nanxian-fall-1943-11",
+      "changde-fall-1943-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "shimen-fall-1943-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "石门沦陷",
+      "en": "Fall of Shimen"
+    },
+    "date": "1943-11-15",
+    "location": {
+      "lng": 111.38,
+      "lat": 29.58,
+      "place": {
+        "zh": "湖南石门",
+        "en": "Shimen, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1943年11月15日，日军第3、第13师团攻陷石门。",
+      "en": "On 15 November 1943 the Japanese 3rd and 13th Divisions captured Shimen."
+    },
+    "description": {
+      "zh": "1943年11月13日日军第3、第13师团向石门进攻，中国第73军暂5师死守，师长彭士量在突围中殉国，15日晨石门失守。石门为常德西北屏障，失守后日军直趋慈利、桃源。日期据《湖南抗日战争日志（1943年11月）》与《常德会战全过程》。",
+      "en": "On 13 November 1943 the Japanese 3rd and 13th Divisions attacked Shimen. The Chinese Provisional 5th Division of the 73rd Corps held on; its commander Peng Shiliang was killed during the breakout, and Shimen fell on the morning of the 15th. The town was Changde’s northwestern shield, and its loss opened the way to Cili and Taoyuan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湖南抗日战争日志（1943年11月）",
+        "author": "抗日战争纪念网 2014-12-29",
+        "note": "逐日日志，访问 2026-11-21"
+      },
+      {
+        "title": "常德会战全过程",
+        "author": "黄埔军校同学会 2013-11-01",
+        "note": "战史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "lixian-fall-1943-11",
+      "cili-fall-1943-11",
+      "changde-fall-1943-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lixian-fall-1943-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "澧县沦陷",
+      "en": "Fall of Lixian"
+    },
+    "date": "1943-11-17",
+    "location": {
+      "lng": 111.76,
+      "lat": 29.63,
+      "place": {
+        "zh": "湖南澧县",
+        "en": "Lixian, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1943年11月17日，日军第116师团攻占澧县。",
+      "en": "On 17 November 1943 the Japanese 116th Division captured Lixian."
+    },
+    "description": {
+      "zh": "1943年11月15日晚日军第116师团从澧县以北进攻，中国第44军第150师等部防守，17日澧县失守。日军随后经临澧向常德推进。日期据《湖南抗日战争日志（1943年11月）》与《常德会战全过程》。",
+      "en": "On the evening of 15 November 1943 the Japanese 116th Division attacked north of Lixian. The Chinese 150th Division of the 44th Corps defended the town, which fell on the 17th. The Japanese then advanced via Linli toward Changde."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湖南抗日战争日志（1943年11月）",
+        "author": "抗日战争纪念网 2014-12-29",
+        "note": "逐日日志，访问 2026-11-21"
+      },
+      {
+        "title": "常德会战全过程",
+        "author": "黄埔军校同学会 2013-11-01",
+        "note": "战史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "shimen-fall-1943-11",
+      "changde-fall-1943-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "cili-fall-1943-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "慈利沦陷",
+      "en": "Fall of Cili"
+    },
+    "date": "1943-11-22",
+    "location": {
+      "lng": 111.12,
+      "lat": 29.43,
+      "place": {
+        "zh": "湖南慈利",
+        "en": "Cili, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1943年11月22日，日军第13师团攻占慈利。",
+      "en": "On 22 November 1943 the Japanese 13th Division captured Cili."
+    },
+    "description": {
+      "zh": "1943年11月17日日军第13师团分三路进攻慈利，中国第74军第58师在赤松山、慈利以南阵地抗击，18日慈利失守，22日日军主力进占慈利。慈利失守后，日军西路由慈利、桃源迂回常德西南。日期据《湖南抗日战争日志（1943年11月）》与《常德会战全过程》。",
+      "en": "On 17 November 1943 the Japanese 13th Division attacked Cili in three columns. The Chinese 58th Division of the 74th Corps fought at Chisong Mountain and south of Cili; the town fell on the 18th, and the Japanese main force occupied it on the 22nd. The western column then swung through Cili and Taoyuan to cut Changde’s southwest."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湖南抗日战争日志（1943年11月）",
+        "author": "抗日战争纪念网 2014-12-29",
+        "note": "逐日日志，访问 2026-11-21"
+      },
+      {
+        "title": "常德会战全过程",
+        "author": "黄埔军校同学会 2013-11-01",
+        "note": "战史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "shimen-fall-1943-11",
+      "taoyuan-fall-1943-11",
+      "changde-fall-1943-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "taoyuan-fall-1943-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "桃源沦陷",
+      "en": "Fall of Taoyuan"
+    },
+    "date": "1943-11-22",
+    "location": {
+      "lng": 111.49,
+      "lat": 28.9,
+      "place": {
+        "zh": "湖南桃源",
+        "en": "Taoyuan, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1943年11月22日，日军第3师团攻占桃源。",
+      "en": "On 22 November 1943 the Japanese 3rd Division captured Taoyuan."
+    },
+    "description": {
+      "zh": "1943年11月19日日军第3师团主力由澧水南渡，直扑陬市、桃源，21日以伞兵配合攻占桃源，22日进占桃源县城并切断常德守军与第74军主力的联系。日期据《湖南抗日战争日志（1943年11月）》与《常德会战全过程》。",
+      "en": "On 19 November 1943 the main force of the Japanese 3rd Division crossed the Li River and drove on Zoushi and Taoyuan. On the 21st, with paratroopers, it took Taoyuan and on the 22nd occupied the county town, cutting the link between Changde’s defenders and the 74th Corps."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湖南抗日战争日志（1943年11月）",
+        "author": "抗日战争纪念网 2014-12-29",
+        "note": "逐日日志，访问 2026-11-21"
+      },
+      {
+        "title": "常德会战全过程",
+        "author": "黄埔军校同学会 2013-11-01",
+        "note": "战史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "cili-fall-1943-11",
+      "changde-fall-1943-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "changde-fall-1943-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "常德沦陷",
+      "en": "Fall of Changde"
+    },
+    "date": "1943-12-03",
+    "location": {
+      "lng": 111.69,
+      "lat": 29.03,
+      "place": {
+        "zh": "湖南常德",
+        "en": "Changde, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1943年12月3日，日军攻占常德，中国第57师大部殉国。",
+      "en": "On 3 December 1943 the Japanese captured Changde after the Chinese 57th Division was largely destroyed."
+    },
+    "description": {
+      "zh": "1943年11月24日日军环攻常德，中国第74军第57师师长余程万率部死守，激战至12月3日凌晨，守军弹尽粮绝，余程万率残部突围，常德沦陷。12月9日中国军队克复常德。日期据《湖南抗日战争日志（1943年11月）》与《常德会战全过程》。",
+      "en": "On 24 November 1943 the Japanese encircled and assaulted Changde. The Chinese 57th Division of the 74th Corps, commanded by Yu Chengwan, held on until the early hours of 3 December, when with ammunition and food exhausted Yu broke out with the survivors and the city fell. The Chinese recaptured Changde on 9 December."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湖南抗日战争日志（1943年11月）",
+        "author": "抗日战争纪念网 2014-12-29",
+        "note": "逐日日志，访问 2026-11-21"
+      },
+      {
+        "title": "常德会战全过程",
+        "author": "黄埔军校同学会 2013-11-01",
+        "note": "战史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "taoyuan-fall-1943-11",
+      "changde-1943-11"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "xinqianghe-fall-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "新墙河防线失守（1944）",
+      "en": "Fall of the Xinqiang River Line (1944)"
+    },
+    "date": "1944-05-28",
+    "location": {
+      "lng": 113.15,
+      "lat": 29.15,
+      "place": {
+        "zh": "湖南岳阳新墙河",
+        "en": "Xinqiang River, Yueyang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年5月28日，日军第68、第116师团渡过新墙河，长衡会战开始。",
+      "en": "On 28 May 1944 the Japanese 68th and 116th Divisions crossed the Xinqiang River, opening the Changsha–Hengyang campaign."
+    },
+    "description": {
+      "zh": "1944年5月27日日军第11军分三路南犯，中路第68、第116师团于28日上午渡过新墙河，中国第20军抗击后向平江以东山区转移。日期据《长衡会战》与台湾国防部《抗日戰爭長衡會戰之研究》。",
+      "en": "On 27 May 1944 the Japanese 11th Army advanced south in three columns; the central 68th and 116th Divisions crossed the Xinqiang on the morning of the 28th. The Chinese 20th Corps resisted and withdrew to the hills east of Pingjiang."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "长衡会战",
+        "author": "华声在线/抗日战争纪念网 2019-08-14",
+        "note": "战史，访问 2026-11-21"
+      },
+      {
+        "title": "抗日戰爭長衡會戰之研究",
+        "author": "台湾国防部",
+        "note": "战史研究，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "pingjiang-fall-1944-06",
+      "changsha-fall-1944-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "pingjiang-fall-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "平江沦陷（1944）",
+      "en": "Fall of Pingjiang (1944)"
+    },
+    "date": "1944-06-01",
+    "location": {
+      "lng": 113.58,
+      "lat": 28.71,
+      "place": {
+        "zh": "湖南平江",
+        "en": "Pingjiang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年6月1日，日军第13师团攻占平江。",
+      "en": "On 1 June 1944 the Japanese 13th Division captured Pingjiang."
+    },
+    "description": {
+      "zh": "1944年5月29日日军东路第3、第13师团突破通城，6月1日攻占平江，随后向浏阳、株洲方向迂回。日期据《长衡会战》与台湾国防部《抗日戰爭長衡會戰之研究》。",
+      "en": "On 29 May 1944 the Japanese eastern 3rd and 13th Divisions broke through Tongcheng and on 1 June took Pingjiang, then swung toward Liuyang and Zhuzhou."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "长衡会战",
+        "author": "华声在线/抗日战争纪念网 2019-08-14",
+        "note": "战史，访问 2026-11-21"
+      },
+      {
+        "title": "抗日戰爭長衡會戰之研究",
+        "author": "台湾国防部",
+        "note": "战史研究，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "xinqianghe-fall-1944-05",
+      "liuyang-fall-1944-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yuanjiang-fall-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "沅江沦陷",
+      "en": "Fall of Yuanjiang"
+    },
+    "date": "1944-06-05",
+    "location": {
+      "lng": 112.36,
+      "lat": 28.84,
+      "place": {
+        "zh": "湖南沅江",
+        "en": "Yuanjiang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年6月5日，日军第40师团攻占沅江。",
+      "en": "On 5 June 1944 the Japanese 40th Division captured Yuanjiang."
+    },
+    "description": {
+      "zh": "1944年5月28日日军西路第40师团自华容南犯，6月1日夜在赤山半岛以西登陆，6月5日攻占沅江，12日攻占益阳。日期据《长衡会战》与台湾国防部《抗日戰爭長衡會戰之研究》。",
+      "en": "On 28 May 1944 the Japanese western 40th Division advanced south from Huarong, landed west of Chishan Peninsula on the night of 1 June, took Yuanjiang on the 5th and Yiyang on the 12th."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "长衡会战",
+        "author": "华声在线/抗日战争纪念网 2019-08-14",
+        "note": "战史，访问 2026-11-21"
+      },
+      {
+        "title": "抗日戰爭長衡會戰之研究",
+        "author": "台湾国防部",
+        "note": "战史研究，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "yiyang-fall-1944-06",
+      "changsha-fall-1944-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yiyang-fall-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "益阳沦陷",
+      "en": "Fall of Yiyang"
+    },
+    "date": "1944-06-12",
+    "location": {
+      "lng": 112.36,
+      "lat": 28.55,
+      "place": {
+        "zh": "湖南益阳",
+        "en": "Yiyang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年6月12日，日军第40师团攻占益阳。",
+      "en": "On 12 June 1944 the Japanese 40th Division captured Yiyang."
+    },
+    "description": {
+      "zh": "1944年6月12日日军第40师团攻占益阳，随后向宁乡进攻。中国第24集团军第73、第79军对日军实施钳形攻击，益阳一度被中国军队收复。日期据《长衡会战》与台湾国防部《抗日戰爭長衡會戰之研究》。",
+      "en": "On 12 June 1944 the Japanese 40th Division took Yiyang and advanced on Ningxiang. The Chinese 73rd and 79th Corps of the 24th Group Army counterattacked in a pincer, and Yiyang was briefly recovered."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "长衡会战",
+        "author": "华声在线/抗日战争纪念网 2019-08-14",
+        "note": "战史，访问 2026-11-21"
+      },
+      {
+        "title": "抗日戰爭長衡會戰之研究",
+        "author": "台湾国防部",
+        "note": "战史研究，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "yuanjiang-fall-1944-06",
+      "changsha-fall-1944-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xiangyin-fall-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "湘阴沦陷",
+      "en": "Fall of Xiangyin"
+    },
+    "date": "1944-06-08",
+    "location": {
+      "lng": 112.9,
+      "lat": 28.68,
+      "place": {
+        "zh": "湖南湘阴",
+        "en": "Xiangyin, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年6月8日，日军第58师团攻占湘阴。",
+      "en": "On 8 June 1944 the Japanese 58th Division captured Xiangyin."
+    },
+    "description": {
+      "zh": "1944年6月8日日军第58师团第52旅团经汨罗镇、望城坡攻占湘阴。湘阴为长沙北面水陆要地，失守后日军从北面逼近长沙。日期据《长衡会战》与台湾国防部《抗日戰爭長衡會戰之研究》。",
+      "en": "On 8 June 1944 the 52nd Brigade of the Japanese 58th Division advanced via Miluo and Wangchengpo to take Xiangyin, the water-and-land gateway north of Changsha. Its fall brought the Japanese to Changsha’s northern approaches."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "长衡会战",
+        "author": "华声在线/抗日战争纪念网 2019-08-14",
+        "note": "战史，访问 2026-11-21"
+      },
+      {
+        "title": "抗日戰爭長衡會戰之研究",
+        "author": "台湾国防部",
+        "note": "战史研究，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "xinqianghe-fall-1944-05",
+      "changsha-fall-1944-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "liuyang-fall-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "浏阳沦陷",
+      "en": "Fall of Liuyang"
+    },
+    "date": "1944-06-14",
+    "location": {
+      "lng": 113.63,
+      "lat": 28.14,
+      "place": {
+        "zh": "湖南浏阳",
+        "en": "Liuyang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年6月14日，日军第3师团攻占浏阳。",
+      "en": "On 14 June 1944 the Japanese 3rd Division captured Liuyang."
+    },
+    "description": {
+      "zh": "1944年6月14日23时30分，日军第3师团攻占浏阳。此前第13师团从浏阳东南迂回，第68师团从镇头攻向普迹，形成合围。浏阳失守后，日军从东南面威胁长沙、株洲。日期据《长衡会战》与《日军侵华战争》。",
+      "en": "At 11:30 p.m. on 14 June 1944 the Japanese 3rd Division took Liuyang, after the 13th Division had swung around its southeast and the 68th Division advanced from Zhentou. Its fall threatened Changsha and Zhuzhou from the southeast."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "长衡会战",
+        "author": "华声在线/抗日战争纪念网 2019-08-14",
+        "note": "战史，访问 2026-11-21"
+      },
+      {
+        "title": "抗日戰爭長衡會戰之研究",
+        "author": "台湾国防部",
+        "note": "战史研究，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "pingjiang-fall-1944-06",
+      "changsha-fall-1944-06",
+      "zhuzhou-fall-1944-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhuzhou-fall-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "株洲沦陷（1944）",
+      "en": "Fall of Zhuzhou (1944)"
+    },
+    "date": "1944-06-20",
+    "location": {
+      "lng": 113.13,
+      "lat": 27.83,
+      "place": {
+        "zh": "湖南株洲",
+        "en": "Zhuzhou, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年6月20日，日军攻占株洲。",
+      "en": "On 20 June 1944 the Japanese captured Zhuzhou."
+    },
+    "description": {
+      "zh": "1944年6月20日，日军在攻占长沙后沿粤汉铁路南下，先后攻占醴陵、株洲、渌口、湘潭。株洲为粤汉、湘黔铁路交点，失守后日军打开南下衡阳的通道。日期据《长衡会战》与台湾国防部《抗日戰爭長衡會戰之研究》。",
+      "en": "On 20 June 1944, after taking Changsha, the Japanese advanced south along the Canton–Hankou railway and took Liling, Zhuzhou, Lukou and Xiangtan in succession. Zhuzhou was the junction of the Canton–Hankou and Hunan–Guizhou railways; its fall opened the way to Hengyang."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "长衡会战",
+        "author": "华声在线/抗日战争纪念网 2019-08-14",
+        "note": "战史，访问 2026-11-21"
+      },
+      {
+        "title": "抗日戰爭長衡會戰之研究",
+        "author": "台湾国防部",
+        "note": "战史研究，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "changsha-fall-1944-06",
+      "xiangtan-fall-1944-06",
+      "youxian-fall-1944-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xiangtan-fall-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "湘潭沦陷",
+      "en": "Fall of Xiangtan"
+    },
+    "date": "1944-06-20",
+    "location": {
+      "lng": 112.94,
+      "lat": 27.83,
+      "place": {
+        "zh": "湖南湘潭",
+        "en": "Xiangtan, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年6月20日，日军攻占湘潭。",
+      "en": "On 20 June 1944 the Japanese captured Xiangtan."
+    },
+    "description": {
+      "zh": "1944年6月20日，日军在攻占株洲的同时攻占湘潭。湘潭为湘江两岸要地，失守后日军沿湘江两岸南下衡阳。日期据《长衡会战》与台湾国防部《抗日戰爭長衡會戰之研究》。",
+      "en": "On 20 June 1944 the Japanese took Xiangtan together with Zhuzhou. Xiangtan commanded both banks of the Xiang River; its fall opened the advance south toward Hengyang."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "长衡会战",
+        "author": "华声在线/抗日战争纪念网 2019-08-14",
+        "note": "战史，访问 2026-11-21"
+      },
+      {
+        "title": "抗日戰爭長衡會戰之研究",
+        "author": "台湾国防部",
+        "note": "战史研究，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "changsha-fall-1944-06",
+      "zhuzhou-fall-1944-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "youxian-fall-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "攸县沦陷",
+      "en": "Fall of Youxian"
+    },
+    "date": "1944-06-24",
+    "location": {
+      "lng": 113.35,
+      "lat": 27,
+      "place": {
+        "zh": "湖南攸县",
+        "en": "Youxian, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年6月24日，日军东路攻占攸县。",
+      "en": "On 24 June 1944 the Japanese eastern column captured Youxian."
+    },
+    "description": {
+      "zh": "1944年6月24日，日军东路第3、第13师团南下攻占攸县、安仁、耒阳，迂回衡阳东南。中国第9战区一度收复攸县、官田，7月15日以后日军再陷攸县。日期据《长衡会战》与台湾国防部《抗日戰爭長衡會戰之研究》。",
+      "en": "On 24 June 1944 the Japanese eastern 3rd and 13th Divisions drove south and took Youxian, Anren and Leiyang, swinging around Hengyang’s southeast. The Chinese Ninth War Zone briefly recovered Youxian and Guantian, but the Japanese retook Youxian after 15 July."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "长衡会战",
+        "author": "华声在线/抗日战争纪念网 2019-08-14",
+        "note": "战史，访问 2026-11-21"
+      },
+      {
+        "title": "抗日戰爭長衡會戰之研究",
+        "author": "台湾国防部",
+        "note": "战史研究，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "zhuzhou-fall-1944-06",
+      "leiyang-fall-1944-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "leiyang-fall-1944-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "耒阳沦陷",
+      "en": "Fall of Leiyang"
+    },
+    "date": "1944-06-24",
+    "location": {
+      "lng": 112.86,
+      "lat": 26.42,
+      "place": {
+        "zh": "湖南耒阳",
+        "en": "Leiyang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年6月24日，日军东路攻占耒阳。",
+      "en": "On 24 June 1944 the Japanese eastern column captured Leiyang."
+    },
+    "description": {
+      "zh": "1944年6月24日，日军东路第3、第13师团攻占耒阳，迂回至衡阳东南约60公里。耒阳为粤汉铁路要地，失守后日军完成对衡阳的东南包围。日期据《长衡会战》与台湾国防部《抗日戰爭長衡會戰之研究》。",
+      "en": "On 24 June 1944 the Japanese eastern 3rd and 13th Divisions took Leiyang, swinging to about 60 km southeast of Hengyang. Leiyang was a key point on the Canton–Hankou railway; its fall completed the southeastern encirclement of Hengyang."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "长衡会战",
+        "author": "华声在线/抗日战争纪念网 2019-08-14",
+        "note": "战史，访问 2026-11-21"
+      },
+      {
+        "title": "抗日戰爭長衡會戰之研究",
+        "author": "台湾国防部",
+        "note": "战史研究，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "youxian-fall-1944-06",
+      "hengyang-fall-1944-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xinning-fall-1945-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "新宁沦陷",
+      "en": "Fall of Xinning"
+    },
+    "date": "1945-04-16",
+    "location": {
+      "lng": 110.85,
+      "lat": 26.43,
+      "place": {
+        "zh": "湖南新宁",
+        "en": "Xinning, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1945年4月16日，日军第34师团、第68师团第58旅团攻占新宁。",
+      "en": "On 16 April 1945 the Japanese 34th Division and 58th Brigade of the 68th Division captured Xinning."
+    },
+    "description": {
+      "zh": "1945年4月上旬，日军第34师团及第68师团第58旅团分由东安、全县向新宁进犯，4月12日进攻新宁，中国第74军第58师一个营坚守3日，15日日军增援，16日新宁失守。日期据《湘西会战大事记》与维基百科《湘西会战》。",
+      "en": "In early April 1945 the Japanese 34th Division and the 58th Brigade of the 68th Division advanced on Xinning from Dong’an and Quanxian. They attacked on 12 April; a battalion of the Chinese 58th Division held for three days, but after Japanese reinforcements arrived Xinning fell on the 16th."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湘西会战大事记",
+        "author": "抗日战争纪念网 2014-05-31",
+        "note": "逐日大事记，访问 2026-11-21"
+      },
+      {
+        "title": "湘西会战",
+        "author": "维基百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "wugang-battle-1945-04",
+      "dongkou-fall-1945-04"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dongkou-fall-1945-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "洞口沦陷",
+      "en": "Fall of Dongkou"
+    },
+    "date": "1945-04-21",
+    "location": {
+      "lng": 110.58,
+      "lat": 27.06,
+      "place": {
+        "zh": "湖南洞口",
+        "en": "Dongkou, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1945年4月21日，日军第116师团攻占洞口。",
+      "en": "On 21 April 1945 the Japanese 116th Division captured Dongkou."
+    },
+    "description": {
+      "zh": "1945年4月21日，日军第116师团第133联队猛攻洞口，中国守军第74军第57师一部抵抗后撤退，洞口失守。洞口为湘黔公路要隘，失守后日军直逼雪峰山主阵地。日期据《湘西会战大事记》与维基百科《湘西会战》。",
+      "en": "On 21 April 1945 the 133rd Regiment of the Japanese 116th Division stormed Dongkou; part of the Chinese 57th Division of the 74th Corps resisted and withdrew, and the town fell. Dongkou was a key pass on the Hunan–Guizhou highway, and its loss brought the Japanese to the main Xuefeng Mountain positions."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湘西会战大事记",
+        "author": "抗日战争纪念网 2014-05-31",
+        "note": "逐日大事记，访问 2026-11-21"
+      },
+      {
+        "title": "湘西会战",
+        "author": "维基百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "xinning-fall-1945-04",
+      "wugang-battle-1945-04",
+      "wuyang-fall-1945-04"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "wugang-battle-1945-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "武冈保卫战",
+      "en": "Defence of Wugang"
+    },
+    "date": "1945-04-27",
+    "location": {
+      "lng": 110.63,
+      "lat": 26.73,
+      "place": {
+        "zh": "湖南武冈",
+        "en": "Wugang, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1945年4月27日，日军第68师团围攻武冈，中国守军坚守至5月7日解围。",
+      "en": "On 27 April 1945 the Japanese 68th Division besieged Wugang; the Chinese garrison held out until relieved on 7 May."
+    },
+    "description": {
+      "zh": "1945年4月27日，日军第68师团3000余人围攻武冈，中国第74军第58师一个加强营依托糯米三合土城墙坚守，至5月7日中国第121师、第44师增援，内外夹击，日军撤退，武冈解围。日期据《湘西会战大事记》与维基百科《湘西会战》。",
+      "en": "On 27 April 1945 more than 3,000 Japanese of the 68th Division besieged Wugang. A reinforced battalion of the Chinese 58th Division held the walls, built with glutinous-rice mortar, until the Chinese 121st and 44th Divisions arrived on 7 May and attacked from inside and outside; the Japanese withdrew and the siege was lifted."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湘西会战大事记",
+        "author": "抗日战争纪念网 2014-05-31",
+        "note": "逐日大事记，访问 2026-11-21"
+      },
+      {
+        "title": "湘西会战",
+        "author": "维基百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "xinning-fall-1945-04",
+      "dongkou-fall-1945-04",
+      "wuyang-fall-1945-04"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "wuyang-fall-1945-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "武阳沦陷",
+      "en": "Fall of Wuyang"
+    },
+    "date": "1945-04-29",
+    "location": {
+      "lng": 110.35,
+      "lat": 26.65,
+      "place": {
+        "zh": "湖南绥宁武阳",
+        "en": "Wuyang, Suining, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1945年4月29日，日军第68师团第58旅团攻占武阳。",
+      "en": "On 29 April 1945 the 58th Brigade of the Japanese 68th Division captured Wuyang."
+    },
+    "description": {
+      "zh": "1945年4月26日日军第68师团第58旅团进攻武阳，中国第74军第58师第174团9连苦战4昼夜，全连殉国，29日武阳失守。5月1日中国第94军第5师克复武阳，歼敌1500余人。日期据《湘西会战大事记》与维基百科《湘西会战》。",
+      "en": "On 26 April 1945 the 58th Brigade of the Japanese 68th Division attacked Wuyang. The 9th Company of the Chinese 174th Regiment, 58th Division, fought for four days and was wiped out; Wuyang fell on the 29th. On 1 May the Chinese 5th Division of the 94th Corps retook Wuyang, killing more than 1,500 Japanese."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湘西会战大事记",
+        "author": "抗日战争纪念网 2014-05-31",
+        "note": "逐日大事记，访问 2026-11-21"
+      },
+      {
+        "title": "湘西会战",
+        "author": "维基百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "dongkou-fall-1945-04",
+      "wugang-battle-1945-04"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "changsha-surrender-1945-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "长沙受降",
+      "en": "Japanese Surrender at Changsha"
+    },
+    "date": "1945-09-15",
+    "location": {
+      "lng": 112.94,
+      "lat": 28.23,
+      "place": {
+        "zh": "湖南长沙",
+        "en": "Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "投降",
+    "summary": {
+      "zh": "1945年9月15日，第四方面军司令官王耀武在长沙接受日军第20军投降。",
+      "en": "On 15 September 1945 Wang Yaowu, commander of the Chinese Fourth Front Army, accepted the surrender of the Japanese 20th Army at Changsha."
+    },
+    "description": {
+      "zh": "1945年9月15日，第四方面军司令官王耀武在长沙岳麓山湖南大学科学馆接受日军第20军司令官坂西一良中将投降。长衡岳受降区负责接受长沙、衡阳、岳阳地区日军，日军第20军、第64、第68、第116师团及独立第17、第81、第82旅团等部约7万人投降。受降事件不绘制进攻路线。日期据湖南省档案局《湖南地区日军受降报告书档案》与《人民日报海外版》受降档案。",
+      "en": "On 15 September 1945 Wang Yaowu, commander of the Fourth Front Army, accepted the surrender of Lt. Gen. Sakanishi Ichiro, commander of the Japanese 20th Army, at the Hunan University science building on Yuelu Mountain in Changsha. The Changsha–Hengyang–Yueyang surrender zone covered some 70,000 Japanese troops of the 20th Army, the 64th, 68th and 116th Divisions and the 17th, 81st and 82nd Independent Brigades. No advance route is drawn for a surrender event."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湖南地区日军受降报告书档案",
+        "author": "湖南省档案局 2022-10-11",
+        "note": "受降档案，访问 2026-11-21"
+      },
+      {
+        "title": "伟大胜利——中国受降档案（长衡区）",
+        "author": "人民日报海外版 2014-09-05",
+        "note": "受降档案，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "changsha-fall-1944-06",
+      "hengyang-fall-1944-08"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
   }
 ]

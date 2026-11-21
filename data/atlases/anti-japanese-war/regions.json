@@ -16594,6 +16594,530 @@
         111.65,
         32.26
       ]
+    },
+    {
+      "id": "place-hunan-u5cb3u9633u65b0u5899u6cb3",
+      "level": "place",
+      "parentId": "county-hunan-u5cb3u9633u53bf",
+      "name": {
+        "zh": "新墙河"
+      },
+      "shortName": {
+        "zh": "新墙河"
+      },
+      "aliases": [
+        "湖南岳阳新墙河",
+        "湖南岳阳新墙河"
+      ],
+      "modernName": {
+        "zh": "湖南岳阳新墙河"
+      },
+      "point": [
+        113.15,
+        29.15
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖南岳阳新墙河",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hunan-u6e58u9634u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "湘阴县"
+      },
+      "shortName": {
+        "zh": "湘阴"
+      },
+      "aliases": [
+        "湘阴"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.9867,
+        28.78
+      ]
+    },
+    {
+      "id": "place-hunan-u6e58u9634u8425u7530",
+      "level": "place",
+      "parentId": "county-hunan-u6e58u9634u53bf",
+      "name": {
+        "zh": "营田"
+      },
+      "shortName": {
+        "zh": "营田"
+      },
+      "aliases": [
+        "湖南湘阴营田",
+        "湖南湘阴营田"
+      ],
+      "modernName": {
+        "zh": "湖南湘阴营田"
+      },
+      "point": [
+        112.98,
+        28.85
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖南湘阴营田",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-hunan-u6e58u9634u6c68u7f57",
+      "level": "place",
+      "parentId": "county-hunan-u6e58u9634u53bf",
+      "name": {
+        "zh": "汨罗"
+      },
+      "shortName": {
+        "zh": "汨罗"
+      },
+      "aliases": [
+        "湖南湘阴汨罗",
+        "湖南湘阴汨罗"
+      ],
+      "modernName": {
+        "zh": "湖南湘阴汨罗"
+      },
+      "point": [
+        113.08,
+        28.81
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖南湘阴汨罗",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-hunan-u957fu6c99u6c38u5b89",
+      "level": "place",
+      "parentId": "county-hunan-u957fu6c99u53bf",
+      "name": {
+        "zh": "永安"
+      },
+      "shortName": {
+        "zh": "永安"
+      },
+      "aliases": [
+        "湖南长沙永安",
+        "湖南长沙永安"
+      ],
+      "modernName": {
+        "zh": "湖南长沙永安"
+      },
+      "point": [
+        113.2,
+        28.35
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖南长沙永安",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-hunan-u5cb3u9633u5927u4e91u5c71",
+      "level": "place",
+      "parentId": "county-hunan-u5cb3u9633u53bf",
+      "name": {
+        "zh": "大云山"
+      },
+      "shortName": {
+        "zh": "大云山"
+      },
+      "aliases": [
+        "湖南岳阳大云山",
+        "湖南岳阳大云山"
+      ],
+      "modernName": {
+        "zh": "湖南岳阳大云山"
+      },
+      "point": [
+        113.5,
+        29.4
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖南岳阳大云山",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-hunan-u682au6d32",
+      "level": "place",
+      "parentId": "county-hunan-u6e58u6f6du53bf",
+      "name": {
+        "zh": "株洲"
+      },
+      "shortName": {
+        "zh": "株洲"
+      },
+      "aliases": [
+        "湖南株洲",
+        "湖南株洲"
+      ],
+      "modernName": {
+        "zh": "湖南株洲"
+      },
+      "point": [
+        113.13,
+        27.83
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖南株洲",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hunan-u5b89u4e61u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "安乡县"
+      },
+      "shortName": {
+        "zh": "安乡"
+      },
+      "aliases": [
+        "安乡"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.17,
+        29.41
+      ]
+    },
+    {
+      "id": "county-hunan-u77f3u95e8u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "石门县"
+      },
+      "shortName": {
+        "zh": "石门"
+      },
+      "aliases": [
+        "石门"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.38,
+        29.58
+      ]
+    },
+    {
+      "id": "county-hunan-u6fa7u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "澧县"
+      },
+      "shortName": {
+        "zh": "澧"
+      },
+      "aliases": [
+        "澧"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.76,
+        29.63
+      ]
+    },
+    {
+      "id": "county-hunan-u6148u5229u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "慈利县"
+      },
+      "shortName": {
+        "zh": "慈利"
+      },
+      "aliases": [
+        "慈利"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.12,
+        29.43
+      ]
+    },
+    {
+      "id": "county-hunan-u6843u6e90u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "桃源县"
+      },
+      "shortName": {
+        "zh": "桃源"
+      },
+      "aliases": [
+        "桃源"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.49,
+        28.9
+      ]
+    },
+    {
+      "id": "county-hunan-u6c85u6c5fu53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "沅江县"
+      },
+      "shortName": {
+        "zh": "沅江"
+      },
+      "aliases": [
+        "沅江"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.36,
+        28.84
+      ]
+    },
+    {
+      "id": "county-hunan-u76cau9633u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "益阳县"
+      },
+      "shortName": {
+        "zh": "益阳"
+      },
+      "aliases": [
+        "益阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.36,
+        28.55
+      ]
+    },
+    {
+      "id": "county-hunan-u6d4fu9633u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "浏阳县"
+      },
+      "shortName": {
+        "zh": "浏阳"
+      },
+      "aliases": [
+        "浏阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.63,
+        28.14
+      ]
+    },
+    {
+      "id": "county-hunan-u6538u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "攸县"
+      },
+      "shortName": {
+        "zh": "攸"
+      },
+      "aliases": [
+        "攸"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.35,
+        27.0
+      ]
+    },
+    {
+      "id": "county-hunan-u8012u9633u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "耒阳县"
+      },
+      "shortName": {
+        "zh": "耒阳"
+      },
+      "aliases": [
+        "耒阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.86,
+        26.42
+      ]
+    },
+    {
+      "id": "county-hunan-u65b0u5b81u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "新宁县"
+      },
+      "shortName": {
+        "zh": "新宁"
+      },
+      "aliases": [
+        "新宁"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        110.85,
+        26.43
+      ]
+    },
+    {
+      "id": "county-hunan-u6b66u5188u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "武冈县"
+      },
+      "shortName": {
+        "zh": "武冈"
+      },
+      "aliases": [
+        "武冈"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        110.605,
+        26.895
+      ]
+    },
+    {
+      "id": "place-hunan-u6d1eu53e3",
+      "level": "place",
+      "parentId": "county-hunan-u6b66u5188u53bf",
+      "name": {
+        "zh": "洞口"
+      },
+      "shortName": {
+        "zh": "洞口"
+      },
+      "aliases": [
+        "湖南洞口",
+        "湖南洞口"
+      ],
+      "modernName": {
+        "zh": "湖南洞口"
+      },
+      "point": [
+        110.58,
+        27.06
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖南洞口",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hunan-u7ee5u5b81u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "绥宁县"
+      },
+      "shortName": {
+        "zh": "绥宁"
+      },
+      "aliases": [
+        "绥宁"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        110.35,
+        26.65
+      ]
+    },
+    {
+      "id": "place-hunan-u7ee5u5b81u6b66u9633",
+      "level": "place",
+      "parentId": "county-hunan-u7ee5u5b81u53bf",
+      "name": {
+        "zh": "武阳"
+      },
+      "shortName": {
+        "zh": "武阳"
+      },
+      "aliases": [
+        "湖南绥宁武阳",
+        "湖南绥宁武阳"
+      ],
+      "modernName": {
+        "zh": "湖南绥宁武阳"
+      },
+      "point": [
+        110.35,
+        26.65
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖南绥宁武阳",
+        "confidence": "medium"
+      }
     }
   ]
 }

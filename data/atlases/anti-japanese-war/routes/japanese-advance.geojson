@@ -10792,6 +10792,598 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.15,
+            29.15
+          ],
+          [
+            113.08,
+            28.81
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-09-18",
+        "endDate": "1939-09-26",
+        "order": 273,
+        "segmentType": "advance",
+        "name": {
+          "zh": "新墙河—汨罗江",
+          "en": "Xinqiang River–Miluo River"
+        },
+        "description": {
+          "zh": "1939年9月18日日军进攻新墙河，23日强渡，26日渡汨罗江。路线为示意简化。",
+          "en": "On 18 September 1939 the Japanese attacked the Xinqiang River, crossed it on the 23rd and crossed the Miluo on the 26th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.98,
+            28.85
+          ],
+          [
+            113.2,
+            28.35
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-09-23",
+        "endDate": "1939-09-30",
+        "order": 274,
+        "segmentType": "advance",
+        "name": {
+          "zh": "营田—永安",
+          "en": "Yingtian–Yong’an"
+        },
+        "description": {
+          "zh": "1939年9月23日日军在营田登陆，30日一部进抵长沙以北永安。路线为示意简化。",
+          "en": "The Japanese landed at Yingtian on 23 September 1939; on the 30th a detachment reached Yong’an north of Changsha. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.58,
+            28.71
+          ],
+          [
+            113.2,
+            28.35
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-09-29",
+        "endDate": "1939-09-30",
+        "order": 275,
+        "segmentType": "advance",
+        "name": {
+          "zh": "平江—永安",
+          "en": "Pingjiang–Yong’an"
+        },
+        "description": {
+          "zh": "1939年9月29日日军第33师团攻占平江，一部向永安方向策应。路线为示意简化。",
+          "en": "On 29 September 1939 the Japanese 33rd Division took Pingjiang, with part of its force moving toward Yong’an. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.5,
+            29.4
+          ],
+          [
+            113.15,
+            29.15
+          ],
+          [
+            113.08,
+            28.81
+          ],
+          [
+            112.94,
+            28.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-09-07",
+        "endDate": "1941-09-28",
+        "order": 276,
+        "segmentType": "advance",
+        "name": {
+          "zh": "大云山—新墙河—汨罗江—长沙",
+          "en": "Dayun Mountain–Xinqiang River–Miluo River–Changsha"
+        },
+        "description": {
+          "zh": "1941年9月7日日军进攻大云山，18日渡新墙河，21日渡汨罗江，28日突入长沙。路线为示意简化。",
+          "en": "On 7 September 1941 the Japanese attacked Dayun Mountain, crossed the Xinqiang on the 18th and the Miluo on the 21st, and entered Changsha on the 28th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.94,
+            28.23
+          ],
+          [
+            113.13,
+            27.83
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-09-28",
+        "endDate": "1941-09-29",
+        "order": 277,
+        "segmentType": "advance",
+        "name": {
+          "zh": "长沙—株洲",
+          "en": "Changsha–Zhuzhou"
+        },
+        "description": {
+          "zh": "1941年9月28日日军突入长沙，29日第3师团一部攻入株洲。路线为示意简化。",
+          "en": "The Japanese entered Changsha on 28 September 1941; on the 29th part of the 3rd Division entered Zhuzhou. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.15,
+            29.15
+          ],
+          [
+            113.08,
+            28.81
+          ],
+          [
+            112.94,
+            28.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-12-24",
+        "endDate": "1942-01-01",
+        "order": 278,
+        "segmentType": "advance",
+        "name": {
+          "zh": "新墙河—汨罗江—长沙（1941年12月）",
+          "en": "Xinqiang River–Miluo River–Changsha (December 1941)"
+        },
+        "description": {
+          "zh": "1941年12月24日日军进攻新墙河，26日渡汨罗江，1942年1月1日进攻长沙。路线为示意简化。",
+          "en": "On 24 December 1941 the Japanese attacked the Xinqiang River, crossed the Miluo on the 26th and attacked Changsha on 1 January 1942. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.4,
+            29.37
+          ],
+          [
+            112.17,
+            29.41
+          ],
+          [
+            111.69,
+            29.03
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1943-11-03",
+        "endDate": "1943-12-03",
+        "order": 279,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南县—安乡—常德",
+          "en": "Nanxian–Anxiang–Changde"
+        },
+        "description": {
+          "zh": "1943年11月3日日军占南县，7日占安乡，12月3日占常德。路线为示意简化。",
+          "en": "The Japanese took Nanxian on 3 November 1943, Anxiang on the 7th and Changde on 3 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.38,
+            29.58
+          ],
+          [
+            111.76,
+            29.63
+          ],
+          [
+            111.69,
+            29.03
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1943-11-15",
+        "endDate": "1943-12-03",
+        "order": 280,
+        "segmentType": "advance",
+        "name": {
+          "zh": "石门—澧县—常德",
+          "en": "Shimen–Lixian–Changde"
+        },
+        "description": {
+          "zh": "1943年11月15日日军占石门，17日占澧县，12月3日占常德。路线为示意简化。",
+          "en": "The Japanese took Shimen on 15 November 1943, Lixian on the 17th and Changde on 3 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.12,
+            29.43
+          ],
+          [
+            111.49,
+            28.9
+          ],
+          [
+            111.69,
+            29.03
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1943-11-22",
+        "endDate": "1943-12-03",
+        "order": 281,
+        "segmentType": "advance",
+        "name": {
+          "zh": "慈利—桃源—常德",
+          "en": "Cili–Taoyuan–Changde"
+        },
+        "description": {
+          "zh": "1943年11月22日日军占慈利、桃源，12月3日占常德。路线为示意简化。",
+          "en": "The Japanese took Cili and Taoyuan on 22 November 1943 and Changde on 3 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.15,
+            29.15
+          ],
+          [
+            113.08,
+            28.81
+          ],
+          [
+            112.9,
+            28.68
+          ],
+          [
+            112.94,
+            28.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-05-28",
+        "endDate": "1944-06-18",
+        "order": 282,
+        "segmentType": "advance",
+        "name": {
+          "zh": "新墙河—汨罗江—湘阴—长沙（1944）",
+          "en": "Xinqiang River–Miluo River–Xiangyin–Changsha (1944)"
+        },
+        "description": {
+          "zh": "1944年5月28日日军渡新墙河，6月8日占湘阴，18日攻长沙，19日陷城。路线为示意简化。",
+          "en": "The Japanese crossed the Xinqiang on 28 May 1944, took Xiangyin on 8 June and attacked Changsha on the 18th; the city fell on the 19th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.58,
+            28.71
+          ],
+          [
+            113.63,
+            28.14
+          ],
+          [
+            113.13,
+            27.83
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-06-01",
+        "endDate": "1944-06-20",
+        "order": 283,
+        "segmentType": "advance",
+        "name": {
+          "zh": "平江—浏阳—株洲",
+          "en": "Pingjiang–Liuyang–Zhuzhou"
+        },
+        "description": {
+          "zh": "1944年6月1日日军占平江，14日占浏阳，20日占株洲。路线为示意简化。",
+          "en": "The Japanese took Pingjiang on 1 June 1944, Liuyang on the 14th and Zhuzhou on the 20th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.94,
+            28.23
+          ],
+          [
+            112.94,
+            27.83
+          ],
+          [
+            112.57,
+            26.89
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-06-19",
+        "endDate": "1944-08-08",
+        "order": 284,
+        "segmentType": "advance",
+        "name": {
+          "zh": "长沙—湘潭—衡阳",
+          "en": "Changsha–Xiangtan–Hengyang"
+        },
+        "description": {
+          "zh": "1944年6月19日日军陷长沙，20日占湘潭，8月8日陷衡阳。路线为示意简化。",
+          "en": "Changsha fell on 19 June 1944, Xiangtan on the 20th and Hengyang on 8 August. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.13,
+            27.83
+          ],
+          [
+            113.35,
+            27
+          ],
+          [
+            112.86,
+            26.42
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-06-20",
+        "endDate": "1944-06-24",
+        "order": 285,
+        "segmentType": "advance",
+        "name": {
+          "zh": "株洲—攸县—耒阳",
+          "en": "Zhuzhou–Youxian–Leiyang"
+        },
+        "description": {
+          "zh": "1944年6月20日日军占株洲，24日东路占攸县、耒阳。路线为示意简化。",
+          "en": "The Japanese took Zhuzhou on 20 June 1944; on the 24th the eastern column took Youxian and Leiyang. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.85,
+            26.43
+          ],
+          [
+            110.63,
+            26.73
+          ],
+          [
+            110.58,
+            27.06
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1945-04-16",
+        "endDate": "1945-04-29",
+        "order": 286,
+        "segmentType": "advance",
+        "name": {
+          "zh": "新宁—武冈—洞口",
+          "en": "Xinning–Wugang–Dongkou"
+        },
+        "description": {
+          "zh": "1945年4月16日日军占新宁，27日围攻武冈，29日进抵洞口。路线为示意简化。",
+          "en": "The Japanese took Xinning on 16 April 1945, besieged Wugang on the 27th and reached Dongkou on the 29th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.58,
+            27.06
+          ],
+          [
+            110.35,
+            26.65
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1945-04-21",
+        "endDate": "1945-04-29",
+        "order": 287,
+        "segmentType": "advance",
+        "name": {
+          "zh": "洞口—武阳",
+          "en": "Dongkou–Wuyang"
+        },
+        "description": {
+          "zh": "1945年4月21日日军占洞口，29日攻占武阳。路线为示意简化。",
+          "en": "The Japanese took Dongkou on 21 April 1945 and Wuyang on the 29th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.36,
+            28.84
+          ],
+          [
+            112.36,
+            28.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-06-05",
+        "endDate": "1944-06-12",
+        "order": 288,
+        "segmentType": "advance",
+        "name": {
+          "zh": "沅江—益阳",
+          "en": "Yuanjiang–Yiyang"
+        },
+        "description": {
+          "zh": "1944年6月5日日军占沅江，12日占益阳。路线为示意简化。",
+          "en": "The Japanese took Yuanjiang on 5 June 1944 and Yiyang on the 12th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
