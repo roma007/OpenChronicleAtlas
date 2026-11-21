@@ -3,6 +3,36 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.204] - 2026-11-21
+
+### Added
+- **抗日战争 · 绥远、察哈尔日军战线（M222）**：绥远/察哈尔日军事件由 13 条增至 28 条。
+  - 察哈尔（9）：察哈尔派遣兵团设司令部于多伦（08-17，`routeEvent:false`）、张北战斗、
+    万全、独石口、怀来、延庆、赤城、宣化、柴沟堡。
+  - 察南、绥东（6）：蔚县、丰镇、兴和、集宁、凉城、萨拉齐。
+  - 路线（7 段，#252—#258）：沽源—张北—万全—张家口、沽源—独石口—赤城—宣化、
+    张家口—宣化—怀来—延庆、集宁—凉城—归绥、集宁—武川—归绥、宣化—蔚县、兴和—凉城。
+  - 细化已有 #89「大同—归绥—包头」：改为经丰镇—集宁—卓资—归绥—萨拉齐—包头，
+    端点与日期不变，使 1937 年日军西进主线真正经过所记县城。
+  - 专题：752 → **767** 事件、430 → **437** 段路线；日军层：504 → **519** 事件、251 → **258** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-suiyuan-chahar.md`、计划
+  `docs/plans/2026-11-21-M222-绥远察哈尔日军战线细化-plan.md`。
+
+### Changed
+- `scripts/build-region-data.py`：增加察哈尔、绥远 1937 年县名映射（万全、怀来、延庆、赤城、
+  宣化、蔚县、丰镇、兴和、集宁、凉城、萨拉齐等），独石口并入赤城县、柴沟堡并入怀安县、
+  平地泉并入集宁县、宁远并入凉城县。
+- `regions.json` / `region-index.json`：地区由 636 → **649** 个，767 个事件全部有省 + 县/地点归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 察北八县 1935-12、陶林/百灵庙 1937-09、怀安、阳原、龙关、托克托、固阳、清水河、
+  和林格尔、武川等因缺少两条独立来源或日期冲突，本批不硬录，列入研究笔记待考。
+
+---
+
 ## [v1.0.203] - 2026-11-21
 
 ### Fixed

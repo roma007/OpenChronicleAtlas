@@ -38186,5 +38186,724 @@
     "extensions": {
       "routeEvent": false
     }
+  },
+  {
+    "id": "duolun-hq-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "察哈尔派遣兵团设司令部于多伦",
+      "en": "Chahar Detachment Headquarters at Dolon"
+    },
+    "date": "1937-08-17",
+    "location": {
+      "lng": 116.47,
+      "lat": 42.2,
+      "place": {
+        "zh": "察哈尔多伦",
+        "en": "Dolon, Chahar"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年8月17日，日军关东军察哈尔派遣兵团在多伦设立战斗司令部，东条英机任司令官。",
+      "en": "On 17 August 1937 the Japanese Kwantung Army’s Chahar Detachment established its battle headquarters at Dolon under Lt. Gen. Tojo Hideki."
+    },
+    "description": {
+      "zh": "1937年8月9日日本参谋本部决定察哈尔作战，8月14日关东军编成察哈尔派遣兵团，以东条英机中将为司令官；17日在多伦设立战斗司令部，19日移至张北。兵团下辖独立混成第1、第2旅团、混成第15旅团及堤支队、大泉支队等部，自多伦、沽源、张北一线向张家口进攻。该事件为指挥机构设立，不绘制进攻路线。日期据《战史丛书·支那事变·陆军作战(1)》译稿与维基百科《察哈尔派遣兵团》。",
+      "en": "On 9 August 1937 the Japanese General Staff decided on the Chahar operation. The Kwantung Army formed the Chahar Detachment on 14 August under Lt. Gen. Tojo Hideki, and on the 17th established its battle headquarters at Dolon, moving to Zhangbei on the 19th. The force comprised the 1st and 2nd Independent Mixed Brigades, the 15th Mixed Brigade, and the Tsutsumi and Oizumi detachments, advancing on Zhangjiakou from Dolon, Guyuan and Zhangbei. No advance route is drawn for a headquarters event."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1937察哈尔战役日方档案资料（《战史丛书·支那事变·陆军作战(1)》译稿）",
+        "author": "抗日战争纪念网 2018-11-15",
+        "note": "日方战史档案，访问 2026-11-21"
+      },
+      {
+        "title": "察哈尔派遣兵团",
+        "author": "维基百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "zhangbei-battle-1937-08",
+      "zhangjiakou-fall-1937-08"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "zhangbei-battle-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "张北战斗",
+      "en": "Battle of Zhangbei"
+    },
+    "date": "1937-08-20",
+    "location": {
+      "lng": 114.72,
+      "lat": 41.16,
+      "place": {
+        "zh": "察哈尔张北",
+        "en": "Zhangbei, Chahar"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年8月20日，日军混成第2旅团自张北出击，突破长城线。",
+      "en": "On 20 August 1937 the Japanese 2nd Mixed Brigade sortied from Zhangbei and broke the Great Wall line."
+    },
+    "description": {
+      "zh": "1937年8月，中国第29军第143师曾于8月20日攻占张北城外围玻璃彩村等要点，但日军关东军察哈尔派遣兵团主力已集结张北。20日夜，日军混成第2旅团自张北二台出发，突破长城防御，占领神威台；中国军队于21日夜退守神威台，23日午夜神威台失陷。张北自1935年《秦土协定》后已为日军控制，本事件记日军自张北出击，不记“张北沦陷”。日期据《南口战役》与《战史丛书·支那事变·陆军作战(1)》译稿。",
+      "en": "In August 1937 the Chinese 143rd Division briefly took the glass-factory village outside Zhangbei on the 20th, but the Japanese Chahar Detachment had already concentrated at Zhangbei. On the night of the 20th the Japanese 2nd Mixed Brigade advanced from Er’tai, broke the Great Wall line and took Shenweitei; the Chinese fell back on the night of the 21st, and Shenweitei fell at midnight on the 23rd. Zhangbei had been under Japanese control since the 1935 Qin-Doihara agreement, so this entry records the Japanese sortie from Zhangbei, not a “fall of Zhangbei.”"
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1937察哈尔战役日方档案资料（《战史丛书·支那事变·陆军作战(1)》译稿）",
+        "author": "抗日战争纪念网 2018-11-15",
+        "note": "日方战史档案，访问 2026-11-21"
+      },
+      {
+        "title": "南口战役",
+        "author": "维基百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "duolun-hq-1937-08",
+      "wanquan-fall-1937-08",
+      "zhangjiakou-fall-1937-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "wanquan-fall-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "万全沦陷",
+      "en": "Fall of Wanquan"
+    },
+    "date": "1937-08-24",
+    "location": {
+      "lng": 114.74,
+      "lat": 40.77,
+      "place": {
+        "zh": "察哈尔万全",
+        "en": "Wanquan, Chahar"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年8月24日，日军混成第2旅团攻占万全。",
+      "en": "On 24 August 1937 the Japanese 2nd Mixed Brigade captured Wanquan."
+    },
+    "description": {
+      "zh": "1937年8月22日，日军混成第2旅团进攻旧万全，中国第143师抵抗后于23日退守张家口西南、平绥线上的孔家庄一线。24日晨，日军攻占万全县城，随即以步兵一联队、炮兵一营沿公路直趋张家口。日期据《张家口政协·烽火年代》与《南口战役》，两源一致。",
+      "en": "On 22 August 1937 the Japanese 2nd Mixed Brigade attacked old Wanquan; the Chinese 143rd Division resisted and on the 23rd fell back on the Kongjiazhuang high ground southwest of Zhangjiakou. At dawn on the 24th the Japanese took Wanquan and pushed an infantry regiment and artillery battalion down the road toward Zhangjiakou. Both cited accounts give 24 August."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "张家口政协·烽火年代",
+        "author": "张家口政协",
+        "note": "地方文史，访问 2026-11-21"
+      },
+      {
+        "title": "南口战役",
+        "author": "维基百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "zhangbei-battle-1937-08",
+      "zhangjiakou-fall-1937-08",
+      "xuanhua-fall-1937-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dushikou-action-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进抵独石口以西",
+      "en": "Japanese Advance West of Dushikou"
+    },
+    "date": "1937-08-26",
+    "location": {
+      "lng": 115.7,
+      "lat": 41,
+      "place": {
+        "zh": "察哈尔独石口",
+        "en": "Dushikou, Chahar"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年8月26日，日军大泉支队自沽源南进，占领独石口以西三间房。",
+      "en": "On 26 August 1937 the Japanese Oizumi detachment advanced south from Guyuan and took Sanjianfang west of Dushikou."
+    },
+    "description": {
+      "zh": "1937年8月13日，日军大泉支队抵达沽源，随后沿独石口、赤城、龙关一线南进，企图抢占宣化、截断平绥铁路。中国第17军高桂滋部在宁强堡—赤城—龙关一线防御，未能阻止日军。8月26日，大泉支队占领独石口以西之三间房。日期据《中国抗日战争全史》与澎湃《卢沟桥事变后，河北经历了什么？》。",
+      "en": "The Japanese Oizumi detachment reached Guyuan on 13 August 1937 and advanced south through Dushikou, Chicheng and Longguan to seize Xuanhua and cut the Beiping–Suiyuan railway. Gao Guizi’s 17th Corps defended the Ningqiangpu–Chicheng–Longguan line but could not stop it. On 26 August the detachment took Sanjianfang west of Dushikou."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国抗日战争全史·第三编第十一章第四节",
+        "author": "抗日战争纪念网 2017-11-18",
+        "note": "平绥线战史，访问 2026-11-21"
+      },
+      {
+        "title": "卢沟桥事变后，河北经历了什么？",
+        "author": "澎湃/方志河北 2021-07-07",
+        "note": "地方志，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "chicheng-fall-1937-08",
+      "xuanhua-fall-1937-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "huailai-fall-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "怀来沦陷",
+      "en": "Fall of Huailai"
+    },
+    "date": "1937-08-27",
+    "location": {
+      "lng": 115.52,
+      "lat": 40.42,
+      "place": {
+        "zh": "察哈尔怀来",
+        "en": "Huailai, Chahar"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年8月27日，日军第5师团占领怀来。",
+      "en": "On 27 August 1937 the Japanese 5th Division occupied Huailai."
+    },
+    "description": {
+      "zh": "1937年8月25日南口失守后，中国守军于26日退守怀来；日军第5师团与独立混成第11旅团分两路追击，26日占领怀来、27日占领延庆（一说27日占怀来）。怀来失守后，平绥铁路东段被日军打通。日期据《中国抗日战争全史》与澎湃《卢沟桥事变后，河北经历了什么？》；后者记27日怀来失陷。",
+      "en": "After Nankou fell on 25 August 1937 the Chinese withdrew to Huailai on the 26th. The Japanese 5th Division and 11th Independent Mixed Brigade pursued in two columns, taking Huailai and Yanqing on 26–27 August (one account gives 27 August for Huailai). The fall of Huailai opened the eastern Beiping–Suiyuan railway."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国抗日战争全史·第三编第十一章第四节",
+        "author": "抗日战争纪念网 2017-11-18",
+        "note": "平绥线战史，访问 2026-11-21"
+      },
+      {
+        "title": "卢沟桥事变后，河北经历了什么？",
+        "author": "澎湃/方志河北 2021-07-07",
+        "note": "地方志，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "yanqing-fall-1937-08",
+      "xuanhua-fall-1937-08",
+      "japanese-nankou-1937-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yanqing-fall-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "延庆沦陷",
+      "en": "Fall of Yanqing"
+    },
+    "date": "1937-08-27",
+    "location": {
+      "lng": 115.97,
+      "lat": 40.45,
+      "place": {
+        "zh": "察哈尔延庆",
+        "en": "Yanqing, Chahar"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年8月27日，日军独立混成第11旅团占领延庆。",
+      "en": "On 27 August 1937 the Japanese 11th Independent Mixed Brigade occupied Yanqing."
+    },
+    "description": {
+      "zh": "1937年8月27日，日军独立混成第11旅团在占领居庸关后进攻延庆，当日占领延庆；中国第17军高桂滋部在延庆与日军激战后向桑干河右岸撤退。日期据《中国抗日战争全史》与《战史丛书·支那事变·陆军作战(1)》译稿，两源一致。",
+      "en": "On 27 August 1937 the Japanese 11th Independent Mixed Brigade, after taking Juyongguan, attacked and occupied Yanqing. Gao Guizi’s 17th Corps fought at Yanqing and then withdrew to the south bank of the Sanggan River. Both cited accounts give 27 August."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国抗日战争全史·第三编第十一章第四节",
+        "author": "抗日战争纪念网 2017-11-18",
+        "note": "平绥线战史，访问 2026-11-21"
+      },
+      {
+        "title": "1937察哈尔战役日方档案资料（《战史丛书·支那事变·陆军作战(1)》译稿）",
+        "author": "抗日战争纪念网 2018-11-15",
+        "note": "日方战史档案，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "huailai-fall-1937-08",
+      "japanese-nankou-1937-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "chicheng-fall-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "赤城沦陷",
+      "en": "Fall of Chicheng"
+    },
+    "date": "1937-08-27",
+    "location": {
+      "lng": 115.83,
+      "lat": 40.92,
+      "place": {
+        "zh": "察哈尔赤城",
+        "en": "Chicheng, Chahar"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年8月27日，日军大泉支队攻占赤城。",
+      "en": "On 27 August 1937 the Japanese Oizumi detachment captured Chicheng."
+    },
+    "description": {
+      "zh": "1937年8月，日军大泉支队自沽源经独石口南下，连陷龙关、赤城，企图抢占宣化。8月27日攻占赤城，28日攻占宣化。赤城失守后，中国第17军高桂滋部向桑干河右岸撤退。日期据澎湃《卢沟桥事变后，河北经历了什么？》与《张家口政协·烽火年代》。",
+      "en": "In August 1937 the Japanese Oizumi detachment advanced south from Guyuan through Dushikou, took Longguan and Chicheng, and drove on Xuanhua. Chicheng fell on 27 August and Xuanhua on the 28th. Gao Guizi’s 17th Corps then withdrew to the south bank of the Sanggan River."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "卢沟桥事变后，河北经历了什么？",
+        "author": "澎湃/方志河北 2021-07-07",
+        "note": "地方志，访问 2026-11-21"
+      },
+      {
+        "title": "张家口政协·烽火年代",
+        "author": "张家口政协",
+        "note": "地方文史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "dushikou-action-1937-08",
+      "xuanhua-fall-1937-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xuanhua-fall-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "宣化沦陷",
+      "en": "Fall of Xuanhua"
+    },
+    "date": "1937-08-28",
+    "location": {
+      "lng": 115.05,
+      "lat": 40.61,
+      "place": {
+        "zh": "察哈尔宣化",
+        "en": "Xuanhua, Chahar"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年8月28日，日军攻占宣化。",
+      "en": "On 28 August 1937 the Japanese captured Xuanhua."
+    },
+    "description": {
+      "zh": "1937年8月27日张家口失陷后，日军大泉支队自赤城、龙关方向南下，28日攻占宣化，与由张家口东进的混成第2旅会合；29日日军第5师亦进至宣化。宣化失守后，日军控制张家口以南整个平绥路东段。日期据澎湃《卢沟桥事变后，河北经历了什么？》与《南口战役》；《中国抗日战争全史》记27日占宣化，正文并列。",
+      "en": "After Zhangjiakou fell on 27 August 1937, the Japanese Oizumi detachment came south from Chicheng and Longguan and took Xuanhua on the 28th, joining the 2nd Mixed Brigade advancing east from Zhangjiakou; the 5th Division reached Xuanhua on the 29th. The Japanese thus controlled the entire eastern Beiping–Suiyuan railway south of Zhangjiakou. The campaign history gives 27 August; that variant is noted."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "卢沟桥事变后，河北经历了什么？",
+        "author": "澎湃/方志河北 2021-07-07",
+        "note": "地方志，访问 2026-11-21"
+      },
+      {
+        "title": "南口战役",
+        "author": "维基百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "chicheng-fall-1937-08",
+      "huailai-fall-1937-08",
+      "zhangjiakou-fall-1937-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "chaigoubu-fall-1937-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "柴沟堡沦陷",
+      "en": "Fall of Chaigoubu"
+    },
+    "date": "1937-08-29",
+    "location": {
+      "lng": 114.15,
+      "lat": 40.67,
+      "place": {
+        "zh": "察哈尔柴沟堡",
+        "en": "Chaigoubu, Chahar"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年8月29日，日军独立混成第1旅团占领柴沟堡。",
+      "en": "On 29 August 1937 the Japanese 1st Independent Mixed Brigade occupied Chaigoubu."
+    },
+    "description": {
+      "zh": "1937年8月29日，日军独立混成第1旅团占领张家口以西的柴沟堡，切断平绥铁路西段；中国第2战区防守平绥路的部队分头向天镇、蔚县方向撤退。日期据《中国抗日战争全史》与《战史丛书·支那事变·陆军作战(1)》译稿；中国日报网《我所亲历的怀安两大惨案》记8月28日日军侵占柴沟堡，正文并列。",
+      "en": "On 29 August 1937 the Japanese 1st Independent Mixed Brigade took Chaigoubu west of Zhangjiakou, cutting the western Beiping–Suiyuan railway; the Chinese Second War Zone forces withdrew toward Tianzhen and Yu County. The China Daily account gives 28 August for Chaigoubu; that variant is noted."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国抗日战争全史·第三编第十一章第四节",
+        "author": "抗日战争纪念网 2017-11-18",
+        "note": "平绥线战史，访问 2026-11-21"
+      },
+      {
+        "title": "1937察哈尔战役日方档案资料（《战史丛书·支那事变·陆军作战(1)》译稿）",
+        "author": "抗日战争纪念网 2018-11-15",
+        "note": "日方战史档案，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "zhangjiakou-fall-1937-08",
+      "yuxian-fall-1937-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yuxian-fall-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "蔚县沦陷",
+      "en": "Fall of Yu County"
+    },
+    "date": "1937-09-11",
+    "location": {
+      "lng": 114.59,
+      "lat": 39.84,
+      "place": {
+        "zh": "察哈尔蔚县",
+        "en": "Yu County, Chahar"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年9月11日，日军第5师团骑兵第5联队占领蔚县。",
+      "en": "On 11 September 1937 the 5th Cavalry Regiment of the Japanese 5th Division occupied Yu County."
+    },
+    "description": {
+      "zh": "1937年9月6日，日军第5师团自宣化、新保安、怀来分三路南下，进攻蔚县；中国第68军刘汝明部未与日军接触即行后撤。9月11日，日军骑兵第5联队占领蔚县；随后第5师团经蔚县、广灵向灵丘方向进攻。日期据《战史丛书·支那事变·陆军作战(1)》译稿与《每日新闻社：日军侵华记录（八）》，两者均记9月11日。",
+      "en": "On 6 September 1937 the Japanese 5th Division advanced south from Xuanhua, Xinbao’an and Huailai against Yu County; Liu Ruming’s 68th Corps withdrew without contact. On 11 September the 5th Cavalry Regiment occupied Yu County, and the 5th Division then moved through Yu County and Guangling toward Lingqiu. Both cited accounts give 11 September."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1937察哈尔战役日方档案资料（《战史丛书·支那事变·陆军作战(1)》译稿）",
+        "author": "抗日战争纪念网 2018-11-15",
+        "note": "日方战史档案，访问 2026-11-21"
+      },
+      {
+        "title": "每日新闻社：日军侵华记录（八）",
+        "author": "抗日战争纪念网 2018-06-11",
+        "note": "当时影像说明，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "chaigoubu-fall-1937-08",
+      "japanese-nankou-1937-08"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fengzhen-fall-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "丰镇沦陷",
+      "en": "Fall of Fengzhen"
+    },
+    "date": "1937-09-17",
+    "location": {
+      "lng": 113.16,
+      "lat": 40.44,
+      "place": {
+        "zh": "绥远丰镇",
+        "en": "Fengzhen, Suiyuan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年9月17日，日军独立步兵第11联队占领丰镇。",
+      "en": "On 17 September 1937 the Japanese 11th Independent Infantry Regiment occupied Fengzhen."
+    },
+    "description": {
+      "zh": "1937年9月13日日军占领大同后，独立步兵第11联队沿平绥路向北推进，17日占领丰镇。丰镇为大同以北的平绥线要地，失守后日军打开进攻集宁、归绥的通道。日期据《战史丛书·支那事变·陆军作战(1)》译稿与《中国抗日战争全史》；《内蒙古区情网》记9月23日占丰镇县城，正文并列。",
+      "en": "After taking Datong on 13 September 1937, the Japanese 11th Independent Infantry Regiment advanced north along the Beiping–Suiyuan railway and took Fengzhen on the 17th. Fengzhen was the key railway town north of Datong; its fall opened the way to Jining and Guisui. The Inner Mongolia gazetteer gives 23 September for the county town; that variant is noted."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1937察哈尔战役日方档案资料（《战史丛书·支那事变·陆军作战(1)》译稿）",
+        "author": "抗日战争纪念网 2018-11-15",
+        "note": "日方战史档案，访问 2026-11-21"
+      },
+      {
+        "title": "中国抗日战争全史·第三编第十一章第四节",
+        "author": "抗日战争纪念网 2017-11-18",
+        "note": "平绥线战史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "jining-fall-1937-09",
+      "datong-1937"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xinghe-fall-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "兴和沦陷",
+      "en": "Fall of Xinghe"
+    },
+    "date": "1937-09-19",
+    "location": {
+      "lng": 113.83,
+      "lat": 40.87,
+      "place": {
+        "zh": "绥远兴和",
+        "en": "Xinghe, Suiyuan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年9月19日，日军河村支队占领兴和。",
+      "en": "On 19 September 1937 the Japanese Kawamura detachment occupied Xinghe."
+    },
+    "description": {
+      "zh": "1937年9月6日，日军独立混成第1旅团河村支队占领南壕堑，掩护兵团右侧；19日占领兴和，随后向凉城（宁远）方向推进，24日与自右玉方向进攻的松井支队会合，攻克隆城。日期据《战史丛书·支那事变·陆军作战(1)》译稿与《中国抗日战争全史》；《内蒙古区情网》记9月17日日军入侵兴和，正文并列。",
+      "en": "On 6 September 1937 the Kawamura detachment of the Japanese 1st Independent Mixed Brigade took Nanhaojian to cover the army’s right flank; on the 19th it took Xinghe and advanced toward Liangcheng (Ningyuan), joining the Matsui detachment from Youyu on the 24th to capture the town. The Inner Mongolia gazetteer gives 17 September for the Japanese entry into Xinghe; that variant is noted."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1937察哈尔战役日方档案资料（《战史丛书·支那事变·陆军作战(1)》译稿）",
+        "author": "抗日战争纪念网 2018-11-15",
+        "note": "日方战史档案，访问 2026-11-21"
+      },
+      {
+        "title": "中国抗日战争全史·第三编第十一章第四节",
+        "author": "抗日战争纪念网 2017-11-18",
+        "note": "平绥线战史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "jining-fall-1937-09",
+      "liangcheng-fall-1937-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jining-fall-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "集宁沦陷",
+      "en": "Fall of Jining"
+    },
+    "date": "1937-09-24",
+    "location": {
+      "lng": 113.11,
+      "lat": 41.03,
+      "place": {
+        "zh": "绥远集宁",
+        "en": "Jining, Suiyuan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年9月24日，日军占领集宁（平地泉）。",
+      "en": "On 24 September 1937 the Japanese occupied Jining (Pingdiquan)."
+    },
+    "description": {
+      "zh": "1937年9月24日，日军独立步兵第11联队占领绥东重镇平地泉（今集宁）。集宁守备司令曾延毅临阵脱逃，守军崩溃。集宁失守后，日军打开西进归绥的门户。日期据《战史丛书·支那事变·陆军作战(1)》译稿与《中国抗日战争全史》；《内蒙古区情网》记9月27日占集宁，正文并列。",
+      "en": "On 24 September 1937 the Japanese 11th Independent Infantry Regiment took Pingdiquan (modern Jining), the key town of eastern Suiyuan. The garrison commander Zeng Yanyi fled and the defence collapsed. The fall of Jining opened the way west to Guisui. The Inner Mongolia gazetteer gives 27 September; that variant is noted."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1937察哈尔战役日方档案资料（《战史丛书·支那事变·陆军作战(1)》译稿）",
+        "author": "抗日战争纪念网 2018-11-15",
+        "note": "日方战史档案，访问 2026-11-21"
+      },
+      {
+        "title": "中国抗日战争全史·第三编第十一章第四节",
+        "author": "抗日战争纪念网 2017-11-18",
+        "note": "平绥线战史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "fengzhen-fall-1937-09",
+      "liangcheng-fall-1937-09",
+      "guisui-fall-1937-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "liangcheng-fall-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "凉城沦陷",
+      "en": "Fall of Liangcheng"
+    },
+    "date": "1937-09-24",
+    "location": {
+      "lng": 112.5,
+      "lat": 40.53,
+      "place": {
+        "zh": "绥远凉城",
+        "en": "Liangcheng, Suiyuan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年9月24日，日军攻占凉城（宁远）。",
+      "en": "On 24 September 1937 the Japanese captured Liangcheng (Ningyuan)."
+    },
+    "description": {
+      "zh": "1937年9月19日日军占领兴和后，河村支队向凉城（宁远）方向推进；24日与自右玉方向进攻的松井支队会合，攻克隆城。凉城失守后，日军从东南方向逼近归绥。日期据《战史丛书·支那事变·陆军作战(1)》译稿与《中国抗日战争全史》，两源一致。",
+      "en": "After taking Xinghe on 19 September 1937, the Kawamura detachment advanced toward Liangcheng (Ningyuan); on the 24th it joined the Matsui detachment from Youyu and captured the town. The fall of Liangcheng brought the Japanese toward Guisui from the southeast. Both cited accounts give 24 September."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1937察哈尔战役日方档案资料（《战史丛书·支那事变·陆军作战(1)》译稿）",
+        "author": "抗日战争纪念网 2018-11-15",
+        "note": "日方战史档案，访问 2026-11-21"
+      },
+      {
+        "title": "中国抗日战争全史·第三编第十一章第四节",
+        "author": "抗日战争纪念网 2017-11-18",
+        "note": "平绥线战史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "xinghe-fall-1937-09",
+      "jining-fall-1937-09",
+      "guisui-fall-1937-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "salaqi-fall-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "萨拉齐沦陷",
+      "en": "Fall of Salaqi"
+    },
+    "date": "1937-10-16",
+    "location": {
+      "lng": 110.7,
+      "lat": 40.55,
+      "place": {
+        "zh": "绥远萨拉齐",
+        "en": "Salaqi, Suiyuan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年10月16日，日军占领萨拉齐县城，制造萨拉齐惨案。",
+      "en": "On 16 October 1937 the Japanese occupied Salaqi and carried out the Salaqi massacre."
+    },
+    "description": {
+      "zh": "1937年10月14日归绥失陷后，日军沿平包铁路西进，16日上午进犯萨拉齐县城，不到两小时内屠杀居民70人；同日又在公积板村杀害村民41人。17日日军占领包头。日期据《内蒙古区情网》、浙江在线《10月16日》与《日军进犯包头途中的两起大屠杀》，三源一致。",
+      "en": "After Guisui fell on 14 October 1937 the Japanese advanced west along the Beiping–Baotou railway. On the morning of the 16th they entered Salaqi and killed 70 residents in less than two hours, then killed 41 villagers at Gongjiban; Baotou fell on the 17th. Three cited accounts agree on 16 October."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "内蒙古区情网·中华民国大事记（1937年）",
+        "author": "内蒙古区情网",
+        "note": "地方志，访问 2026-11-21"
+      },
+      {
+        "title": "10月16日",
+        "author": "浙江在线 2005-10-20",
+        "note": "媒体，访问 2026-11-21"
+      },
+      {
+        "title": "日军进犯包头途中的两起大屠杀",
+        "author": "抗日战争纪念网 2018-04-18",
+        "note": "地方史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "guisui-fall-1937-10",
+      "baotou-fall-1937-10"
+    ],
+    "importance": 3
   }
 ]

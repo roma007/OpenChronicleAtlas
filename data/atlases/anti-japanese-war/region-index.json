@@ -3279,6 +3279,68 @@
       "henan",
       "county-henan-u90feu57ceu53bf",
       "place-henan-u6f2fu6cb3"
+    ],
+    "duolun-hq-1937-08": [
+      "chahar",
+      "county-chahar-u591au4f26u53bf"
+    ],
+    "zhangbei-battle-1937-08": [
+      "chahar",
+      "county-chahar-u5f20u5317u53bf"
+    ],
+    "wanquan-fall-1937-08": [
+      "chahar",
+      "county-chahar-u4e07u5168u53bf"
+    ],
+    "dushikou-action-1937-08": [
+      "chahar",
+      "county-chahar-u8d64u57ceu53bf",
+      "place-chahar-u72ecu77f3u53e3"
+    ],
+    "huailai-fall-1937-08": [
+      "chahar",
+      "county-chahar-u6000u6765u53bf"
+    ],
+    "yanqing-fall-1937-08": [
+      "chahar",
+      "county-chahar-u5ef6u5e86u53bf"
+    ],
+    "chicheng-fall-1937-08": [
+      "chahar",
+      "county-chahar-u8d64u57ceu53bf"
+    ],
+    "xuanhua-fall-1937-08": [
+      "chahar",
+      "county-chahar-u5ba3u5316u53bf"
+    ],
+    "chaigoubu-fall-1937-08": [
+      "chahar",
+      "county-chahar-u6000u5b89u53bf",
+      "place-chahar-u67f4u6c9fu5821"
+    ],
+    "yuxian-fall-1937-09": [
+      "chahar",
+      "county-chahar-u851au53bf"
+    ],
+    "fengzhen-fall-1937-09": [
+      "suiyuan",
+      "county-suiyuan-u4e30u9547u53bf"
+    ],
+    "xinghe-fall-1937-09": [
+      "suiyuan",
+      "county-suiyuan-u5174u548cu53bf"
+    ],
+    "jining-fall-1937-09": [
+      "suiyuan",
+      "county-suiyuan-u96c6u5b81u53bf"
+    ],
+    "liangcheng-fall-1937-09": [
+      "suiyuan",
+      "county-suiyuan-u51c9u57ceu53bf"
+    ],
+    "salaqi-fall-1937-10": [
+      "suiyuan",
+      "county-suiyuan-u8428u62c9u9f50u53bf"
     ]
   },
   "routes": {
@@ -5973,6 +6035,71 @@
       ],
       "endpointRegionIds": [
         "henan"
+      ]
+    },
+    "japanese-invasion:252": {
+      "regionIds": [
+        "chahar",
+        "county-chahar-u4e07u5168u53bf"
+      ],
+      "endpointRegionIds": [
+        "chahar"
+      ]
+    },
+    "japanese-invasion:253": {
+      "regionIds": [
+        "chahar",
+        "county-chahar-u8d64u57ceu53bf"
+      ],
+      "endpointRegionIds": [
+        "chahar"
+      ]
+    },
+    "japanese-invasion:254": {
+      "regionIds": [
+        "chahar",
+        "county-chahar-u4e07u5168u53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "chahar",
+        "hebei"
+      ]
+    },
+    "japanese-invasion:255": {
+      "regionIds": [
+        "suiyuan"
+      ],
+      "endpointRegionIds": [
+        "suiyuan"
+      ]
+    },
+    "japanese-invasion:256": {
+      "regionIds": [
+        "suiyuan"
+      ],
+      "endpointRegionIds": [
+        "suiyuan"
+      ]
+    },
+    "japanese-invasion:257": {
+      "regionIds": [
+        "chahar",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "chahar",
+        "hebei"
+      ]
+    },
+    "japanese-invasion:258": {
+      "regionIds": [
+        "chahar",
+        "suiyuan"
+      ],
+      "endpointRegionIds": [
+        "chahar",
+        "suiyuan"
       ]
     },
     "kmt-forces:1": {

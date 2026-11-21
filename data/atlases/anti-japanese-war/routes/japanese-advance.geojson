@@ -3475,12 +3475,24 @@
             40.08
           ],
           [
-            112.3,
-            40.4
+            113.16,
+            40.44
+          ],
+          [
+            113.11,
+            41.03
+          ],
+          [
+            112.58,
+            40.9
           ],
           [
             111.75,
             40.84
+          ],
+          [
+            110.7,
+            40.55
           ],
           [
             109.84,
@@ -3499,8 +3511,8 @@
           "en": "Datong–Guisui–Baotou (western Peiping–Suiyuan railway)"
         },
         "description": {
-          "zh": "1937 年 9 月大同沦陷后，日军沿平绥线西进，10 月 14 日占归绥，10 月 17 日占包头。示意简化路线。",
-          "en": "After the fall of Datong in September 1937, Japanese forces advanced west along the Peiping–Suiyuan railway, taking Guisui on 14 October and Baotou on 17 October. Schematic simplified route."
+          "zh": "1937 年 9 月大同沦陷后，日军沿平绥线西进，经丰镇、集宁、卓资，10 月 14 日占归绥，16 日占萨拉齐，17 日占包头。示意简化路线。",
+          "en": "After the fall of Datong in September 1937, Japanese forces advanced west along the Beiping–Suiyuan railway through Fengzhen, Jining and Zhuozi, taking Guisui on 14 October, Salaqi on the 16th and Baotou on the 17th. Schematic simplified route."
         },
         "extensions": {
           "precision": "schematic"
@@ -9953,6 +9965,276 @@
         "description": {
           "zh": "1945年3月30日日军第110师团、战车第3师团自南阳西犯，陷西峡口，4月1日陷淅川。路线为示意简化。",
           "en": "On 30 March 1945 the Japanese 110th Division and 3rd Tank Division advanced west from Nanyang, took Xixiakou and on 1 April Xichuan. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.69,
+            41.67
+          ],
+          [
+            114.72,
+            41.16
+          ],
+          [
+            114.74,
+            40.77
+          ],
+          [
+            114.88,
+            40.82
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-08-13",
+        "endDate": "1937-08-27",
+        "order": 252,
+        "segmentType": "advance",
+        "name": {
+          "zh": "沽源—张北—万全—张家口",
+          "en": "Guyuan–Zhangbei–Wanquan–Zhangjiakou"
+        },
+        "description": {
+          "zh": "1937年8月13日日军大泉支队抵沽源，堤支队已先抵张北；混成第2旅团自张北出击，24日占万全，27日占张家口。路线为示意简化。",
+          "en": "On 13 August 1937 the Oizumi detachment reached Guyuan while the Tsutsumi detachment was already at Zhangbei; the 2nd Mixed Brigade sortied from Zhangbei, took Wanquan on the 24th and Zhangjiakou on the 27th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.69,
+            41.67
+          ],
+          [
+            115.7,
+            41
+          ],
+          [
+            115.83,
+            40.92
+          ],
+          [
+            115.05,
+            40.61
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-08-20",
+        "endDate": "1937-08-28",
+        "order": 253,
+        "segmentType": "advance",
+        "name": {
+          "zh": "沽源—独石口—赤城—宣化",
+          "en": "Guyuan–Dushikou–Chicheng–Xuanhua"
+        },
+        "description": {
+          "zh": "1937年8月20日大泉支队自沽源南进，经独石口、赤城、龙关，28日占宣化。路线为示意简化。",
+          "en": "On 20 August 1937 the Oizumi detachment advanced south from Guyuan through Dushikou, Chicheng and Longguan, taking Xuanhua on the 28th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.88,
+            40.82
+          ],
+          [
+            115.05,
+            40.61
+          ],
+          [
+            115.52,
+            40.42
+          ],
+          [
+            115.97,
+            40.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-08-27",
+        "endDate": "1937-08-28",
+        "order": 254,
+        "segmentType": "advance",
+        "name": {
+          "zh": "张家口—宣化—怀来—延庆",
+          "en": "Zhangjiakou–Xuanhua–Huailai–Yanqing"
+        },
+        "description": {
+          "zh": "1937年8月27日张家口失陷后，日军第5师团与独立混成第11旅团东进，占怀来、延庆，28日与自赤城南下的部队会合于宣化。路线为示意简化。",
+          "en": "After Zhangjiakou fell on 27 August 1937 the Japanese 5th Division and 11th Independent Mixed Brigade advanced east through Xuanhua, Huailai and Yanqing, joining the force from Chicheng at Xuanhua on the 28th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.11,
+            41.03
+          ],
+          [
+            112.5,
+            40.53
+          ],
+          [
+            111.75,
+            40.84
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-10-11",
+        "endDate": "1937-10-14",
+        "order": 255,
+        "segmentType": "advance",
+        "name": {
+          "zh": "集宁—凉城—归绥",
+          "en": "Jining–Liangcheng–Guisui"
+        },
+        "description": {
+          "zh": "1937年10月11日日军自集宁出发，经凉城（宁远）南下，14日逼近归绥。路线为示意简化。",
+          "en": "On 11 October 1937 the Japanese advanced south from Jining through Liangcheng (Ningyuan) and closed on Guisui on the 14th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.11,
+            41.03
+          ],
+          [
+            111.45,
+            41.1
+          ],
+          [
+            111.75,
+            40.84
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-10-11",
+        "endDate": "1937-10-14",
+        "order": 256,
+        "segmentType": "advance",
+        "name": {
+          "zh": "集宁—武川—归绥",
+          "en": "Jining–Wuchuan–Guisui"
+        },
+        "description": {
+          "zh": "1937年10月11日伪蒙军自集宁沿大青山北麓经武川包抄归绥。路线为示意简化。",
+          "en": "On 11 October 1937 the Mongol puppet forces advanced from Jining along the northern foot of the Daqing Mountains through Wuchuan to outflank Guisui. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.05,
+            40.61
+          ],
+          [
+            114.59,
+            39.84
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-09-06",
+        "endDate": "1937-09-11",
+        "order": 257,
+        "segmentType": "advance",
+        "name": {
+          "zh": "宣化—蔚县",
+          "en": "Xuanhua–Yu County"
+        },
+        "description": {
+          "zh": "1937年9月6日日军第5师团自宣化南下，11日骑兵第5联队占蔚县。路线为示意简化。",
+          "en": "On 6 September 1937 the Japanese 5th Division advanced south from Xuanhua; on the 11th its 5th Cavalry Regiment took Yu County. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.83,
+            40.87
+          ],
+          [
+            112.5,
+            40.53
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-09-19",
+        "endDate": "1937-09-24",
+        "order": 258,
+        "segmentType": "advance",
+        "name": {
+          "zh": "兴和—凉城",
+          "en": "Xinghe–Liangcheng"
+        },
+        "description": {
+          "zh": "1937年9月19日河村支队占兴和，24日与松井支队会合攻克隆城。路线为示意简化。",
+          "en": "On 19 September 1937 the Kawamura detachment took Xinghe; on the 24th it joined the Matsui detachment to capture Liangcheng. The route is schematic."
         },
         "extensions": {
           "precision": "schematic"

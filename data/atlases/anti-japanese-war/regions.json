@@ -15686,6 +15686,302 @@
         111.49,
         33.14
       ]
+    },
+    {
+      "id": "county-chahar-u8d64u57ceu53bf",
+      "level": "county",
+      "parentId": "chahar",
+      "name": {
+        "zh": "赤城县"
+      },
+      "shortName": {
+        "zh": "赤城"
+      },
+      "aliases": [
+        "赤城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.765,
+        40.96
+      ]
+    },
+    {
+      "id": "place-chahar-u72ecu77f3u53e3",
+      "level": "place",
+      "parentId": "county-chahar-u8d64u57ceu53bf",
+      "name": {
+        "zh": "独石口"
+      },
+      "shortName": {
+        "zh": "独石口"
+      },
+      "aliases": [
+        "察哈尔独石口",
+        "察哈尔独石口"
+      ],
+      "modernName": {
+        "zh": "察哈尔独石口"
+      },
+      "point": [
+        115.7,
+        41
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "察哈尔独石口",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-chahar-u6000u6765u53bf",
+      "level": "county",
+      "parentId": "chahar",
+      "name": {
+        "zh": "怀来县"
+      },
+      "shortName": {
+        "zh": "怀来"
+      },
+      "aliases": [
+        "怀来"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.52,
+        40.42
+      ]
+    },
+    {
+      "id": "county-chahar-u5ef6u5e86u53bf",
+      "level": "county",
+      "parentId": "chahar",
+      "name": {
+        "zh": "延庆县"
+      },
+      "shortName": {
+        "zh": "延庆"
+      },
+      "aliases": [
+        "延庆"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.97,
+        40.45
+      ]
+    },
+    {
+      "id": "county-chahar-u5ba3u5316u53bf",
+      "level": "county",
+      "parentId": "chahar",
+      "name": {
+        "zh": "宣化县"
+      },
+      "shortName": {
+        "zh": "宣化"
+      },
+      "aliases": [
+        "宣化"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.05,
+        40.61
+      ]
+    },
+    {
+      "id": "county-chahar-u6000u5b89u53bf",
+      "level": "county",
+      "parentId": "chahar",
+      "name": {
+        "zh": "怀安县"
+      },
+      "shortName": {
+        "zh": "怀安"
+      },
+      "aliases": [
+        "怀安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.15,
+        40.67
+      ]
+    },
+    {
+      "id": "place-chahar-u67f4u6c9fu5821",
+      "level": "place",
+      "parentId": "county-chahar-u6000u5b89u53bf",
+      "name": {
+        "zh": "柴沟堡"
+      },
+      "shortName": {
+        "zh": "柴沟堡"
+      },
+      "aliases": [
+        "察哈尔柴沟堡",
+        "察哈尔柴沟堡"
+      ],
+      "modernName": {
+        "zh": "察哈尔柴沟堡"
+      },
+      "point": [
+        114.15,
+        40.67
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "察哈尔柴沟堡",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-chahar-u851au53bf",
+      "level": "county",
+      "parentId": "chahar",
+      "name": {
+        "zh": "蔚县"
+      },
+      "shortName": {
+        "zh": "蔚"
+      },
+      "aliases": [
+        "蔚"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.59,
+        39.84
+      ]
+    },
+    {
+      "id": "county-suiyuan-u4e30u9547u53bf",
+      "level": "county",
+      "parentId": "suiyuan",
+      "name": {
+        "zh": "丰镇县"
+      },
+      "shortName": {
+        "zh": "丰镇"
+      },
+      "aliases": [
+        "丰镇"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.16,
+        40.44
+      ]
+    },
+    {
+      "id": "county-suiyuan-u5174u548cu53bf",
+      "level": "county",
+      "parentId": "suiyuan",
+      "name": {
+        "zh": "兴和县"
+      },
+      "shortName": {
+        "zh": "兴和"
+      },
+      "aliases": [
+        "兴和"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.83,
+        40.87
+      ]
+    },
+    {
+      "id": "county-suiyuan-u96c6u5b81u53bf",
+      "level": "county",
+      "parentId": "suiyuan",
+      "name": {
+        "zh": "集宁县"
+      },
+      "shortName": {
+        "zh": "集宁"
+      },
+      "aliases": [
+        "集宁"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.11,
+        41.03
+      ]
+    },
+    {
+      "id": "county-suiyuan-u51c9u57ceu53bf",
+      "level": "county",
+      "parentId": "suiyuan",
+      "name": {
+        "zh": "凉城县"
+      },
+      "shortName": {
+        "zh": "凉城"
+      },
+      "aliases": [
+        "凉城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.5,
+        40.53
+      ]
+    },
+    {
+      "id": "county-suiyuan-u8428u62c9u9f50u53bf",
+      "level": "county",
+      "parentId": "suiyuan",
+      "name": {
+        "zh": "萨拉齐县"
+      },
+      "shortName": {
+        "zh": "萨拉齐"
+      },
+      "aliases": [
+        "萨拉齐"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        110.7,
+        40.55
+      ]
     }
   ]
 }
