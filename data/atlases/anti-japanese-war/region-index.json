@@ -3965,6 +3965,111 @@
     "xiuyan-fall-1932-12": [
       "liaoning",
       "county-liaoning-u5cabu5ca9u53bf"
+    ],
+    "siping-fall-1931-09": [
+      "jilin",
+      "county-jilin-u68a8u6811u53bf",
+      "place-jilin-u56dbu5e73"
+    ],
+    "shuangcheng-fall-1932-01": [
+      "jilin",
+      "county-jilin-u53ccu57ceu53bf"
+    ],
+    "hailin-fall-1932-02": [
+      "jilin",
+      "county-jilin-u5b81u5b89u53bf",
+      "place-jilin-u6d77u6797"
+    ],
+    "yanji-longjing-1932-04": [
+      "jilin",
+      "county-jilin-u5ef6u5409u53bf"
+    ],
+    "longjing-1932-04": [
+      "jilin",
+      "county-jilin-u5ef6u5409u53bf",
+      "place-jilin-u9f99u4e95"
+    ],
+    "mudanjiang-fall-1932-05": [
+      "jilin",
+      "county-jilin-u5b81u5b89u53bf",
+      "place-jilin-u7261u4e39u6c5f"
+    ],
+    "yilan-fall-1932-05": [
+      "jilin",
+      "county-jilin-u4f9du5170u53bf"
+    ],
+    "jiamusi-fall-1932-05": [
+      "jilin",
+      "county-jilin-u6866u5dddu53bf",
+      "place-jilin-u4f73u6728u65af"
+    ],
+    "hailun-fall-1932-06": [
+      "jilin",
+      "county-jilin-u6d77u4f26u53bf"
+    ],
+    "jian-occupation-1932-06": [
+      "liaoning",
+      "county-liaoning-u8f91u5b89u53bf"
+    ],
+    "linjiang-occupation-1932-06": [
+      "liaoning",
+      "county-liaoning-u4e34u6c5fu53bf"
+    ],
+    "tonghua-fall-1932-10": [
+      "liaoning",
+      "county-liaoning-u901au5316u53bf"
+    ],
+    "suifenhe-fall-1933-01": [
+      "jilin",
+      "county-jilin-u4e1cu5b81u53bf",
+      "place-jilin-u7ee5u82acu6cb3"
+    ],
+    "suiyang-fall-1933-01": [
+      "jilin",
+      "county-jilin-u4e1cu5b81u53bf",
+      "place-jilin-u7ee5u9633"
+    ],
+    "dongning-fall-1933-01": [
+      "jilin",
+      "county-jilin-u4e1cu5b81u53bf"
+    ],
+    "lishuzhen-jixi-fall-1933-01": [
+      "jilin",
+      "place-jilin-u68a8u6811u9547-u9e21u897fu8857"
+    ],
+    "mishan-fall-1933-01": [
+      "jilin",
+      "county-jilin-u5bc6u5c71u53bf"
+    ],
+    "baoqing-fall-1933-01": [
+      "jilin",
+      "county-jilin-u5b9du6e05u53bf"
+    ],
+    "taonan-fall-1931-09": [
+      "heilongjiang",
+      "county-heilongjiang-u6d2eu5357u53bf"
+    ],
+    "zhalantun-fall-1932-11": [
+      "heilongjiang",
+      "place-heilongjiang-u624eu5170u5c6f"
+    ],
+    "yakeshi-fall-1932-12": [
+      "heilongjiang",
+      "place-heilongjiang-u7259u514bu77f3"
+    ],
+    "bukettu-fall-1932-12": [
+      "heilongjiang",
+      "place-heilongjiang-u535au514bu56fe"
+    ],
+    "hailar-fall-1932-12": [
+      "heilongjiang",
+      "county-heilongjiang-u547cu4f26u53bf",
+      "place-heilongjiang-u6d77u62c9u5c14"
+    ],
+    "manzhouli-fall-1932-12": [
+      "heilongjiang",
+      "county-heilongjiang-u80eau6ee8u53bf",
+      "place-heilongjiang-u6ee1u6d32u91cc"
     ]
   },
   "routes": {
@@ -4967,6 +5072,7 @@
     },
     "japanese-invasion:66": {
       "regionIds": [
+        "county-jilin-u68a8u6811u53bf",
         "heilongjiang",
         "jilin",
         "liaoning"
@@ -7328,6 +7434,135 @@
       ],
       "endpointRegionIds": [
         "liaoning"
+      ]
+    },
+    "japanese-invasion:323": {
+      "regionIds": [
+        "county-jilin-u68a8u6811u53bf",
+        "jilin"
+      ],
+      "endpointRegionIds": [
+        "jilin"
+      ]
+    },
+    "japanese-invasion:324": {
+      "regionIds": [
+        "county-jilin-u5ef6u5409u53bf",
+        "jilin"
+      ],
+      "endpointRegionIds": [
+        "jilin"
+      ]
+    },
+    "japanese-invasion:325": {
+      "regionIds": [
+        "heilongjiang",
+        "jilin"
+      ],
+      "endpointRegionIds": [
+        "heilongjiang"
+      ]
+    },
+    "japanese-invasion:326": {
+      "regionIds": [
+        "county-jilin-u5b81u5b89u53bf",
+        "heilongjiang",
+        "jilin"
+      ],
+      "endpointRegionIds": [
+        "heilongjiang"
+      ]
+    },
+    "japanese-invasion:327": {
+      "regionIds": [
+        "heilongjiang",
+        "jilin"
+      ],
+      "endpointRegionIds": [
+        "heilongjiang"
+      ]
+    },
+    "japanese-invasion:328": {
+      "regionIds": [
+        "county-jilin-u6866u5dddu53bf",
+        "heilongjiang",
+        "jilin"
+      ],
+      "endpointRegionIds": [
+        "heilongjiang"
+      ]
+    },
+    "japanese-invasion:329": {
+      "regionIds": [
+        "heilongjiang",
+        "jilin"
+      ],
+      "endpointRegionIds": [
+        "heilongjiang"
+      ]
+    },
+    "japanese-invasion:330": {
+      "regionIds": [
+        "county-jilin-u4e1cu5b81u53bf",
+        "county-jilin-u5b81u5b89u53bf",
+        "heilongjiang",
+        "jilin",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "heilongjiang",
+        "overseas"
+      ]
+    },
+    "japanese-invasion:331": {
+      "regionIds": [
+        "heilongjiang",
+        "jilin",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "heilongjiang",
+        "overseas"
+      ]
+    },
+    "japanese-invasion:332": {
+      "regionIds": [
+        "county-jilin-u5b81u5b89u53bf",
+        "heilongjiang",
+        "jilin"
+      ],
+      "endpointRegionIds": [
+        "heilongjiang"
+      ]
+    },
+    "japanese-invasion:333": {
+      "regionIds": [
+        "county-jilin-u6866u5dddu53bf",
+        "heilongjiang",
+        "jilin"
+      ],
+      "endpointRegionIds": [
+        "heilongjiang"
+      ]
+    },
+    "japanese-invasion:334": {
+      "regionIds": [
+        "county-jilin-u68a8u6811u53bf",
+        "heilongjiang",
+        "jilin"
+      ],
+      "endpointRegionIds": [
+        "jilin"
+      ]
+    },
+    "japanese-invasion:335": {
+      "regionIds": [
+        "county-heilongjiang-u547cu4f26u53bf",
+        "county-heilongjiang-u80eau6ee8u53bf",
+        "heilongjiang"
+      ],
+      "endpointRegionIds": [
+        "heilongjiang"
       ]
     },
     "kmt-forces:1": {

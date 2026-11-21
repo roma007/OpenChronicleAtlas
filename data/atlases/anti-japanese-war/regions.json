@@ -18589,6 +18589,709 @@
         123.28,
         40.29
       ]
+    },
+    {
+      "id": "county-jilin-u68a8u6811u53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "梨树县"
+      },
+      "shortName": {
+        "zh": "梨树"
+      },
+      "aliases": [
+        "梨树"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        124.35,
+        43.17
+      ]
+    },
+    {
+      "id": "place-jilin-u56dbu5e73",
+      "level": "place",
+      "parentId": "county-jilin-u68a8u6811u53bf",
+      "name": {
+        "zh": "四平"
+      },
+      "shortName": {
+        "zh": "四平"
+      },
+      "aliases": [
+        "吉林四平",
+        "吉林四平"
+      ],
+      "modernName": {
+        "zh": "吉林四平"
+      },
+      "point": [
+        124.35,
+        43.17
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林四平",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jilin-u53ccu57ceu53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "双城县"
+      },
+      "shortName": {
+        "zh": "双城"
+      },
+      "aliases": [
+        "双城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        126.31,
+        45.38
+      ]
+    },
+    {
+      "id": "county-jilin-u5b81u5b89u53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "宁安县"
+      },
+      "shortName": {
+        "zh": "宁安"
+      },
+      "aliases": [
+        "宁安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        129.49,
+        44.585
+      ]
+    },
+    {
+      "id": "place-jilin-u6d77u6797",
+      "level": "place",
+      "parentId": "county-jilin-u5b81u5b89u53bf",
+      "name": {
+        "zh": "海林"
+      },
+      "shortName": {
+        "zh": "海林"
+      },
+      "aliases": [
+        "吉林海林",
+        "吉林海林"
+      ],
+      "modernName": {
+        "zh": "吉林海林"
+      },
+      "point": [
+        129.38,
+        44.59
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林海林",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jilin-u5ef6u5409u53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "延吉县"
+      },
+      "shortName": {
+        "zh": "延吉"
+      },
+      "aliases": [
+        "延吉"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        129.47,
+        42.83
+      ]
+    },
+    {
+      "id": "place-jilin-u9f99u4e95",
+      "level": "place",
+      "parentId": "county-jilin-u5ef6u5409u53bf",
+      "name": {
+        "zh": "龙井"
+      },
+      "shortName": {
+        "zh": "龙井"
+      },
+      "aliases": [
+        "吉林龙井",
+        "吉林龙井"
+      ],
+      "modernName": {
+        "zh": "吉林龙井"
+      },
+      "point": [
+        129.43,
+        42.77
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林龙井",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-jilin-u7261u4e39u6c5f",
+      "level": "place",
+      "parentId": "county-jilin-u5b81u5b89u53bf",
+      "name": {
+        "zh": "牡丹江"
+      },
+      "shortName": {
+        "zh": "牡丹江"
+      },
+      "aliases": [
+        "吉林牡丹江",
+        "吉林牡丹江"
+      ],
+      "modernName": {
+        "zh": "吉林牡丹江"
+      },
+      "point": [
+        129.6,
+        44.58
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林牡丹江",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jilin-u4f9du5170u53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "依兰县"
+      },
+      "shortName": {
+        "zh": "依兰"
+      },
+      "aliases": [
+        "依兰"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        129.56,
+        46.32
+      ]
+    },
+    {
+      "id": "county-jilin-u6866u5dddu53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "桦川县"
+      },
+      "shortName": {
+        "zh": "桦川"
+      },
+      "aliases": [
+        "桦川"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        130.32,
+        46.8
+      ]
+    },
+    {
+      "id": "place-jilin-u4f73u6728u65af",
+      "level": "place",
+      "parentId": "county-jilin-u6866u5dddu53bf",
+      "name": {
+        "zh": "佳木斯"
+      },
+      "shortName": {
+        "zh": "佳木斯"
+      },
+      "aliases": [
+        "吉林佳木斯",
+        "吉林佳木斯"
+      ],
+      "modernName": {
+        "zh": "吉林佳木斯"
+      },
+      "point": [
+        130.32,
+        46.8
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林佳木斯",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jilin-u6d77u4f26u53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "海伦县"
+      },
+      "shortName": {
+        "zh": "海伦"
+      },
+      "aliases": [
+        "海伦"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        126.97,
+        47.46
+      ]
+    },
+    {
+      "id": "county-liaoning-u8f91u5b89u53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "辑安县"
+      },
+      "shortName": {
+        "zh": "辑安"
+      },
+      "aliases": [
+        "辑安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        126.19,
+        41.13
+      ]
+    },
+    {
+      "id": "county-liaoning-u4e34u6c5fu53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "临江县"
+      },
+      "shortName": {
+        "zh": "临江"
+      },
+      "aliases": [
+        "临江"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        126.92,
+        41.81
+      ]
+    },
+    {
+      "id": "county-liaoning-u901au5316u53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "通化县"
+      },
+      "shortName": {
+        "zh": "通化"
+      },
+      "aliases": [
+        "通化"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        125.94,
+        41.73
+      ]
+    },
+    {
+      "id": "county-jilin-u4e1cu5b81u53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "东宁县"
+      },
+      "shortName": {
+        "zh": "东宁"
+      },
+      "aliases": [
+        "东宁"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        131.1233,
+        44.3
+      ]
+    },
+    {
+      "id": "place-jilin-u7ee5u82acu6cb3",
+      "level": "place",
+      "parentId": "county-jilin-u4e1cu5b81u53bf",
+      "name": {
+        "zh": "绥芬河"
+      },
+      "shortName": {
+        "zh": "绥芬河"
+      },
+      "aliases": [
+        "吉林绥芬河",
+        "吉林绥芬河"
+      ],
+      "modernName": {
+        "zh": "吉林绥芬河"
+      },
+      "point": [
+        131.15,
+        44.41
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林绥芬河",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-jilin-u7ee5u9633",
+      "level": "place",
+      "parentId": "county-jilin-u4e1cu5b81u53bf",
+      "name": {
+        "zh": "绥阳"
+      },
+      "shortName": {
+        "zh": "绥阳"
+      },
+      "aliases": [
+        "吉林绥阳",
+        "吉林绥阳"
+      ],
+      "modernName": {
+        "zh": "吉林绥阳"
+      },
+      "point": [
+        131.09,
+        44.42
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林绥阳",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-jilin-u68a8u6811u9547-u9e21u897fu8857",
+      "level": "place",
+      "parentId": "jilin",
+      "name": {
+        "zh": "梨树镇、鸡西街"
+      },
+      "shortName": {
+        "zh": "梨树镇、鸡西街"
+      },
+      "aliases": [
+        "吉林梨树镇、鸡西街",
+        "吉林梨树镇、鸡西街"
+      ],
+      "modernName": {
+        "zh": "吉林梨树镇、鸡西街"
+      },
+      "point": [
+        130.72,
+        45.2
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林梨树镇、鸡西街",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-jilin-u5bc6u5c71u53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "密山县"
+      },
+      "shortName": {
+        "zh": "密山"
+      },
+      "aliases": [
+        "密山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        131.87,
+        45.53
+      ]
+    },
+    {
+      "id": "county-jilin-u5b9du6e05u53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "宝清县"
+      },
+      "shortName": {
+        "zh": "宝清"
+      },
+      "aliases": [
+        "宝清"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        132.2,
+        46.33
+      ]
+    },
+    {
+      "id": "county-heilongjiang-u6d2eu5357u53bf",
+      "level": "county",
+      "parentId": "heilongjiang",
+      "name": {
+        "zh": "洮南县"
+      },
+      "shortName": {
+        "zh": "洮南"
+      },
+      "aliases": [
+        "洮南"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        122.79,
+        45.34
+      ]
+    },
+    {
+      "id": "place-heilongjiang-u624eu5170u5c6f",
+      "level": "place",
+      "parentId": "heilongjiang",
+      "name": {
+        "zh": "扎兰屯"
+      },
+      "shortName": {
+        "zh": "扎兰屯"
+      },
+      "aliases": [
+        "黑龙江扎兰屯",
+        "黑龙江扎兰屯"
+      ],
+      "modernName": {
+        "zh": "黑龙江扎兰屯"
+      },
+      "point": [
+        122.74,
+        48.01
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "黑龙江扎兰屯",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-heilongjiang-u7259u514bu77f3",
+      "level": "place",
+      "parentId": "heilongjiang",
+      "name": {
+        "zh": "牙克石"
+      },
+      "shortName": {
+        "zh": "牙克石"
+      },
+      "aliases": [
+        "黑龙江牙克石",
+        "黑龙江牙克石"
+      ],
+      "modernName": {
+        "zh": "黑龙江牙克石"
+      },
+      "point": [
+        120.73,
+        49.28
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "黑龙江牙克石",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-heilongjiang-u535au514bu56fe",
+      "level": "place",
+      "parentId": "heilongjiang",
+      "name": {
+        "zh": "博克图"
+      },
+      "shortName": {
+        "zh": "博克图"
+      },
+      "aliases": [
+        "黑龙江博克图",
+        "黑龙江博克图"
+      ],
+      "modernName": {
+        "zh": "黑龙江博克图"
+      },
+      "point": [
+        121.94,
+        48.75
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "黑龙江博克图",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-heilongjiang-u547cu4f26u53bf",
+      "level": "county",
+      "parentId": "heilongjiang",
+      "name": {
+        "zh": "呼伦县"
+      },
+      "shortName": {
+        "zh": "呼伦"
+      },
+      "aliases": [
+        "呼伦"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.77,
+        49.22
+      ]
+    },
+    {
+      "id": "place-heilongjiang-u6d77u62c9u5c14",
+      "level": "place",
+      "parentId": "county-heilongjiang-u547cu4f26u53bf",
+      "name": {
+        "zh": "海拉尔"
+      },
+      "shortName": {
+        "zh": "海拉尔"
+      },
+      "aliases": [
+        "黑龙江海拉尔",
+        "黑龙江海拉尔"
+      ],
+      "modernName": {
+        "zh": "黑龙江海拉尔"
+      },
+      "point": [
+        119.77,
+        49.22
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "黑龙江海拉尔",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-heilongjiang-u80eau6ee8u53bf",
+      "level": "county",
+      "parentId": "heilongjiang",
+      "name": {
+        "zh": "胪滨县"
+      },
+      "shortName": {
+        "zh": "胪滨"
+      },
+      "aliases": [
+        "胪滨"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        117.45,
+        49.6
+      ]
+    },
+    {
+      "id": "place-heilongjiang-u6ee1u6d32u91cc",
+      "level": "place",
+      "parentId": "county-heilongjiang-u80eau6ee8u53bf",
+      "name": {
+        "zh": "满洲里"
+      },
+      "shortName": {
+        "zh": "满洲里"
+      },
+      "aliases": [
+        "黑龙江满洲里",
+        "黑龙江满洲里"
+      ],
+      "modernName": {
+        "zh": "黑龙江满洲里"
+      },
+      "point": [
+        117.45,
+        49.6
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "黑龙江满洲里",
+        "confidence": "medium"
+      }
     }
   ]
 }

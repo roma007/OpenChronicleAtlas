@@ -12668,6 +12668,484 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            124.35,
+            43.17
+          ],
+          [
+            125.32,
+            43.82
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1931-09-19",
+        "endDate": "1931-09-19",
+        "order": 323,
+        "segmentType": "advance",
+        "name": {
+          "zh": "四平—长春",
+          "en": "Sipingjie–Changchun"
+        },
+        "description": {
+          "zh": "1931年9月19日日军沿南满铁路同时侵占四平街、长春。路线为示意简化。",
+          "en": "On 19 September 1931 the Japanese occupied Sipingjie and Changchun along the South Manchuria Railway. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            129.51,
+            42.89
+          ],
+          [
+            129.43,
+            42.77
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1932-04-03",
+        "endDate": "1932-04-03",
+        "order": 324,
+        "segmentType": "advance",
+        "name": {
+          "zh": "延吉—龙井",
+          "en": "Yanji–Longjing"
+        },
+        "description": {
+          "zh": "1932年4月3日，日本驻朝鲜第19师团“间岛派遣队”侵入延吉、龙井。路线为示意简化。",
+          "en": "On 3 April 1932 the “Jiandao Expeditionary Force” of the Japanese 19th Division entered Yanji and Longjing. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.31,
+            45.38
+          ],
+          [
+            126.53,
+            45.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1932-01-31",
+        "endDate": "1932-02-05",
+        "order": 325,
+        "segmentType": "advance",
+        "name": {
+          "zh": "双城堡—哈尔滨",
+          "en": "Shuangcheng–Harbin"
+        },
+        "description": {
+          "zh": "1932年1月31日日军攻占双城堡，2月5日进占哈尔滨。路线为示意简化。",
+          "en": "The Japanese took Shuangcheng on 31 January 1932 and entered Harbin on 5 February. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.53,
+            45.8
+          ],
+          [
+            129.38,
+            44.59
+          ],
+          [
+            129.6,
+            44.58
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1932-02-17",
+        "endDate": "1932-05-21",
+        "order": 326,
+        "segmentType": "advance",
+        "name": {
+          "zh": "哈尔滨—海林—牡丹江",
+          "en": "Harbin–Hailin–Mudanjiang"
+        },
+        "description": {
+          "zh": "1932年2月17日日军占海林，5月21日占牡丹江。路线为示意简化。",
+          "en": "The Japanese took Hailin on 17 February 1932 and Mudanjiang on 21 May. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.53,
+            45.8
+          ],
+          [
+            129.56,
+            46.32
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1932-05-16",
+        "endDate": "1932-05-17",
+        "order": 327,
+        "segmentType": "advance",
+        "name": {
+          "zh": "哈尔滨—依兰",
+          "en": "Harbin–Yilan"
+        },
+        "description": {
+          "zh": "1932年5月16日至17日，日军第10师团自哈尔滨方向攻陷依兰。路线为示意简化。",
+          "en": "On 16–17 May 1932 the Japanese 10th Division advanced from the Harbin direction and captured Yilan. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            129.56,
+            46.32
+          ],
+          [
+            130.32,
+            46.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1932-05-17",
+        "endDate": "1932-05-17",
+        "order": 328,
+        "segmentType": "advance",
+        "name": {
+          "zh": "依兰—佳木斯",
+          "en": "Yilan–Jiamusi"
+        },
+        "description": {
+          "zh": "1932年5月17日日军自依兰顺松花江方向侵占佳木斯。路线为示意简化。",
+          "en": "On 17 May 1932 the Japanese advanced from Yilan down the Songhua and occupied Jiamusi. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.53,
+            45.8
+          ],
+          [
+            126.99,
+            46.64
+          ],
+          [
+            126.97,
+            47.46
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1932-05-30",
+        "endDate": "1932-06-01",
+        "order": 329,
+        "segmentType": "advance",
+        "name": {
+          "zh": "哈尔滨—绥化—海伦",
+          "en": "Harbin–Suihua–Hailun"
+        },
+        "description": {
+          "zh": "1932年5月30日至6月1日，日军平贺旅团沿呼海铁路北犯，6月1日侵占海伦。路线为示意简化。",
+          "en": "From 30 May to 1 June 1932 the Japanese Hiraga brigade advanced north along the Huhai railway and occupied Hailun on 1 June. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            129.6,
+            44.58
+          ],
+          [
+            130.52,
+            44.92
+          ],
+          [
+            131.15,
+            44.41
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1933-01-01",
+        "endDate": "1933-01-05",
+        "order": 330,
+        "segmentType": "advance",
+        "name": {
+          "zh": "牡丹江—磨刀石—绥芬河",
+          "en": "Mudanjiang–Modaoshi–Suifenhe"
+        },
+        "description": {
+          "zh": "1933年1月1日日军自牡丹江东进，在磨刀石遭李延禄部阻击；5日竹本支队侵占绥芬河。路线为示意简化。",
+          "en": "On 1 January 1933 the Japanese advanced east from Mudanjiang and were checked by Li Yanlu at Modaoshi; on the 5th the Takeuchi detachment occupied Suifenhe. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            130.52,
+            44.92
+          ],
+          [
+            131.13,
+            44.07
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1933-01-10",
+        "endDate": "1933-01-10",
+        "order": 331,
+        "segmentType": "advance",
+        "name": {
+          "zh": "磨刀石—东宁",
+          "en": "Modaoshi–Dongning"
+        },
+        "description": {
+          "zh": "1933年1月10日日军自穆棱方向侵占东宁县城三岔口。路线为示意简化。",
+          "en": "On 10 January 1933 the Japanese advanced from the Muling direction and occupied Sanchakou, the seat of Dongning County. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            129.6,
+            44.58
+          ],
+          [
+            130.28,
+            45.28
+          ],
+          [
+            130.72,
+            45.2
+          ],
+          [
+            131.87,
+            45.53
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1933-01-01",
+        "endDate": "1933-01-06",
+        "order": 332,
+        "segmentType": "advance",
+        "name": {
+          "zh": "牡丹江—林口—梨树镇—密山",
+          "en": "Mudanjiang–Linkou–Lishuzhen–Mishan"
+        },
+        "description": {
+          "zh": "1933年1月1日至6日，日军自牡丹江经林口、梨树镇侵占密山。路线为示意简化。",
+          "en": "From 1 to 6 January 1933 the Japanese advanced from Mudanjiang through Linkou and Lishuzhen to Mishan. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            130.32,
+            46.8
+          ],
+          [
+            132.2,
+            46.33
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1933-01-08",
+        "endDate": "1933-01-09",
+        "order": 333,
+        "segmentType": "advance",
+        "name": {
+          "zh": "佳木斯—宝清",
+          "en": "Jiamusi–Baoqing"
+        },
+        "description": {
+          "zh": "1933年1月8日至9日，日军饭冢支队自佳木斯经集贤、三道岗侵占宝清。路线为示意简化。",
+          "en": "From 8 to 9 January 1933 the Japanese Iizuka detachment advanced from Jiamusi through Jixian and Sandaogang to Baoqing. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            124.35,
+            43.17
+          ],
+          [
+            122.79,
+            45.34
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1931-09-22",
+        "endDate": "1931-09-25",
+        "order": 334,
+        "segmentType": "advance",
+        "name": {
+          "zh": "四平—洮南",
+          "en": "Sipingjie–Tao’nan"
+        },
+        "description": {
+          "zh": "1931年9月22日日军侵占四洮铁路沿线，25日进入洮南。路线为示意简化。",
+          "en": "On 22 September 1931 the Japanese occupied the Sitao railway line and entered Tao’nan on the 25th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            123.92,
+            47.35
+          ],
+          [
+            122.74,
+            48.01
+          ],
+          [
+            121.94,
+            48.75
+          ],
+          [
+            120.73,
+            49.28
+          ],
+          [
+            119.77,
+            49.22
+          ],
+          [
+            117.45,
+            49.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1932-11-30",
+        "endDate": "1932-12-06",
+        "order": 335,
+        "segmentType": "advance",
+        "name": {
+          "zh": "齐齐哈尔—扎兰屯—牙克石—博克图—海拉尔—满洲里",
+          "en": "Qiqihar–Zhalantun–Yakeshi–Bukettu–Hailar–Manzhouli"
+        },
+        "description": {
+          "zh": "1932年11月30日至12月6日，日军第14师团沿中东铁路西段攻占扎兰屯、牙克石、博克图、海拉尔、满洲里。路线为示意简化。",
+          "en": "From 30 November to 6 December 1932 the Japanese 14th Division advanced along the western Chinese Eastern Railway and took Zhalantun, Yakeshi, Bukettu, Hailar and Manzhouli. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
