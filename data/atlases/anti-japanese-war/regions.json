@@ -5411,14 +5411,36 @@
       }
     },
     {
-      "id": "place-anhui-u6cfeu53bfu8302u6797",
-      "level": "place",
+      "id": "county-anhui-u6cfeu53bf",
+      "level": "county",
       "parentId": "anhui",
       "name": {
-        "zh": "泾县茂林"
+        "zh": "泾县"
       },
       "shortName": {
-        "zh": "泾县茂林"
+        "zh": "泾"
+      },
+      "aliases": [
+        "泾"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        118.41,
+        30.645
+      ]
+    },
+    {
+      "id": "place-anhui-u6cfeu53bfu8302u6797",
+      "level": "place",
+      "parentId": "county-anhui-u6cfeu53bf",
+      "name": {
+        "zh": "茂林"
+      },
+      "shortName": {
+        "zh": "茂林"
       },
       "aliases": [
         "安徽泾县茂林",
@@ -5434,7 +5456,7 @@
       "extensions": {
         "frame": "ROC-1937",
         "sourcePlace": "安徽泾县茂林",
-        "confidence": "low"
+        "confidence": "medium"
       }
     },
     {
@@ -11592,6 +11614,794 @@
         "sourcePlace": "江苏泰州",
         "confidence": "medium"
       }
+    },
+    {
+      "id": "county-anhui-u5e7fu5fb7u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "广德县"
+      },
+      "shortName": {
+        "zh": "广德"
+      },
+      "aliases": [
+        "广德"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.42,
+        30.89
+      ]
+    },
+    {
+      "id": "county-anhui-u90ceu6eaau53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "郎溪县"
+      },
+      "shortName": {
+        "zh": "郎溪"
+      },
+      "aliases": [
+        "郎溪"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.18,
+        31.13
+      ]
+    },
+    {
+      "id": "county-anhui-u5ba3u57ceu53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "宣城县"
+      },
+      "shortName": {
+        "zh": "宣城"
+      },
+      "aliases": [
+        "宣城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        118.76,
+        30.94
+      ]
+    },
+    {
+      "id": "county-anhui-u5f53u6d82u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "当涂县"
+      },
+      "shortName": {
+        "zh": "当涂"
+      },
+      "aliases": [
+        "当涂"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        118.505,
+        31.62
+      ]
+    },
+    {
+      "id": "county-anhui-u548cu53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "和县"
+      },
+      "shortName": {
+        "zh": "和"
+      },
+      "aliases": [
+        "和"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        118.47,
+        31.72
+      ]
+    },
+    {
+      "id": "place-anhui-u548cu53bfu6c5fu9762",
+      "level": "place",
+      "parentId": "county-anhui-u548cu53bf",
+      "name": {
+        "zh": "江面"
+      },
+      "shortName": {
+        "zh": "江面"
+      },
+      "aliases": [
+        "安徽和县江面",
+        "安徽和县江面"
+      ],
+      "modernName": {
+        "zh": "安徽和县江面"
+      },
+      "point": [
+        118.47,
+        31.72
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "安徽和县江面",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-anhui-u5168u6912u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "全椒县"
+      },
+      "shortName": {
+        "zh": "全椒"
+      },
+      "aliases": [
+        "全椒"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        118.27,
+        32.09
+      ]
+    },
+    {
+      "id": "place-anhui-u5f53u6d82u9a6cu978du5c71",
+      "level": "place",
+      "parentId": "county-anhui-u5f53u6d82u53bf",
+      "name": {
+        "zh": "马鞍山"
+      },
+      "shortName": {
+        "zh": "马鞍山"
+      },
+      "aliases": [
+        "安徽当涂马鞍山",
+        "安徽当涂马鞍山"
+      ],
+      "modernName": {
+        "zh": "安徽当涂马鞍山"
+      },
+      "point": [
+        118.51,
+        31.67
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "安徽当涂马鞍山",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-anhui-u6ec1u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "滁县"
+      },
+      "shortName": {
+        "zh": "滁"
+      },
+      "aliases": [
+        "滁"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        118.31,
+        32.3
+      ]
+    },
+    {
+      "id": "county-anhui-u5609u5c71u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "嘉山县"
+      },
+      "shortName": {
+        "zh": "嘉山"
+      },
+      "aliases": [
+        "嘉山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "county-seat-place"
+      },
+      "point": [
+        117.99,
+        32.78
+      ]
+    },
+    {
+      "id": "place-anhui-u660eu5149",
+      "level": "place",
+      "parentId": "county-anhui-u5609u5c71u53bf",
+      "name": {
+        "zh": "明光"
+      },
+      "shortName": {
+        "zh": "明光"
+      },
+      "aliases": [
+        "安徽明光",
+        "安徽明光"
+      ],
+      "modernName": {
+        "zh": "安徽明光"
+      },
+      "point": [
+        117.99,
+        32.78
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "安徽明光",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-anhui-u5b9au8fdcu53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "定远县"
+      },
+      "shortName": {
+        "zh": "定远"
+      },
+      "aliases": [
+        "定远"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        117.765,
+        32.54
+      ]
+    },
+    {
+      "id": "place-anhui-u5b9au8fdcu6c60u6cb3",
+      "level": "place",
+      "parentId": "county-anhui-u5b9au8fdcu53bf",
+      "name": {
+        "zh": "池河"
+      },
+      "shortName": {
+        "zh": "池河"
+      },
+      "aliases": [
+        "安徽定远池河",
+        "安徽定远池河"
+      ],
+      "modernName": {
+        "zh": "安徽定远池河"
+      },
+      "point": [
+        117.85,
+        32.55
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "安徽定远池河",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-anhui-u51e4u9633u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "凤阳县"
+      },
+      "shortName": {
+        "zh": "凤阳"
+      },
+      "aliases": [
+        "凤阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        117.505,
+        32.8825
+      ]
+    },
+    {
+      "id": "place-anhui-u51e4u9633u4e34u6deeu5173",
+      "level": "place",
+      "parentId": "county-anhui-u51e4u9633u53bf",
+      "name": {
+        "zh": "临淮关"
+      },
+      "shortName": {
+        "zh": "临淮关"
+      },
+      "aliases": [
+        "安徽凤阳临淮关",
+        "安徽凤阳临淮关"
+      ],
+      "modernName": {
+        "zh": "安徽凤阳临淮关"
+      },
+      "point": [
+        117.6,
+        32.92
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "安徽凤阳临淮关",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-anhui-u868cu57e0",
+      "level": "place",
+      "parentId": "county-anhui-u51e4u9633u53bf",
+      "name": {
+        "zh": "蚌埠"
+      },
+      "shortName": {
+        "zh": "蚌埠"
+      },
+      "aliases": [
+        "安徽蚌埠",
+        "安徽蚌埠"
+      ],
+      "modernName": {
+        "zh": "安徽蚌埠"
+      },
+      "point": [
+        117.36,
+        32.94
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "安徽蚌埠",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-anhui-u51e4u9633u5c71u9a6cu6751",
+      "level": "place",
+      "parentId": "county-anhui-u51e4u9633u53bf",
+      "name": {
+        "zh": "山马村"
+      },
+      "shortName": {
+        "zh": "山马村"
+      },
+      "aliases": [
+        "安徽凤阳山马村",
+        "安徽凤阳山马村"
+      ],
+      "modernName": {
+        "zh": "安徽凤阳山马村"
+      },
+      "point": [
+        117.5,
+        32.8
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "安徽凤阳山马村",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-anhui-u6000u8fdcu53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "怀远县"
+      },
+      "shortName": {
+        "zh": "怀远"
+      },
+      "aliases": [
+        "怀远"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        117.11,
+        32.8
+      ]
+    },
+    {
+      "id": "county-anhui-u8499u57ceu53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "蒙城县"
+      },
+      "shortName": {
+        "zh": "蒙城"
+      },
+      "aliases": [
+        "蒙城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.56,
+        33.27
+      ]
+    },
+    {
+      "id": "county-anhui-u8427u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "萧县"
+      },
+      "shortName": {
+        "zh": "萧"
+      },
+      "aliases": [
+        "萧"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.95,
+        34.19
+      ]
+    },
+    {
+      "id": "county-anhui-u5bbfu53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "宿县"
+      },
+      "shortName": {
+        "zh": "宿"
+      },
+      "aliases": [
+        "宿"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.98,
+        33.63
+      ]
+    },
+    {
+      "id": "county-anhui-u7800u5c71u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "砀山县"
+      },
+      "shortName": {
+        "zh": "砀山"
+      },
+      "aliases": [
+        "砀山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.35,
+        34.42
+      ]
+    },
+    {
+      "id": "county-anhui-u6da1u9633u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "涡阳县"
+      },
+      "shortName": {
+        "zh": "涡阳"
+      },
+      "aliases": [
+        "涡阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.22,
+        33.51
+      ]
+    },
+    {
+      "id": "county-anhui-u4eb3u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "亳县"
+      },
+      "shortName": {
+        "zh": "亳"
+      },
+      "aliases": [
+        "亳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.78,
+        33.87
+      ]
+    },
+    {
+      "id": "county-anhui-u5408u80a5u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "合肥县"
+      },
+      "shortName": {
+        "zh": "合肥"
+      },
+      "aliases": [
+        "合肥"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        117.28,
+        31.86
+      ]
+    },
+    {
+      "id": "county-anhui-u6f5cu5c71u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "潜山县"
+      },
+      "shortName": {
+        "zh": "潜山"
+      },
+      "aliases": [
+        "潜山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.58,
+        30.63
+      ]
+    },
+    {
+      "id": "county-anhui-u592au6e56u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "太湖县"
+      },
+      "shortName": {
+        "zh": "太湖"
+      },
+      "aliases": [
+        "太湖"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.31,
+        30.45
+      ]
+    },
+    {
+      "id": "county-anhui-u5bbfu677eu53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "宿松县"
+      },
+      "shortName": {
+        "zh": "宿松"
+      },
+      "aliases": [
+        "宿松"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.13,
+        30.16
+      ]
+    },
+    {
+      "id": "county-anhui-u970du5c71u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "霍山县"
+      },
+      "shortName": {
+        "zh": "霍山"
+      },
+      "aliases": [
+        "霍山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.33,
+        31.39
+      ]
+    },
+    {
+      "id": "county-anhui-u4e1cu6d41u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "东流县"
+      },
+      "shortName": {
+        "zh": "东流"
+      },
+      "aliases": [
+        "东流"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        117.02,
+        30.25
+      ]
+    },
+    {
+      "id": "county-anhui-u8d35u6c60u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "贵池县"
+      },
+      "shortName": {
+        "zh": "贵池"
+      },
+      "aliases": [
+        "贵池"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        117.49,
+        30.66
+      ]
+    },
+    {
+      "id": "place-anhui-u6000u8fdcu5927u901a",
+      "level": "place",
+      "parentId": "county-anhui-u6000u8fdcu53bf",
+      "name": {
+        "zh": "大通"
+      },
+      "shortName": {
+        "zh": "大通"
+      },
+      "aliases": [
+        "安徽怀远大通",
+        "安徽怀远大通"
+      ],
+      "modernName": {
+        "zh": "安徽怀远大通"
+      },
+      "point": [
+        117.02,
+        32.63
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "安徽怀远大通",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-anhui-u5de2u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "巢县"
+      },
+      "shortName": {
+        "zh": "巢"
+      },
+      "aliases": [
+        "巢"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        117.87,
+        31.6
+      ]
+    },
+    {
+      "id": "county-anhui-u7075u74a7u53bf",
+      "level": "county",
+      "parentId": "anhui",
+      "name": {
+        "zh": "灵璧县"
+      },
+      "shortName": {
+        "zh": "灵璧"
+      },
+      "aliases": [
+        "灵璧"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        117.55,
+        33.55
+      ]
     }
   ]
 }

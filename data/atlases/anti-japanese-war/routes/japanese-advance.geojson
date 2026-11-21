@@ -5862,6 +5862,730 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.42,
+            30.89
+          ],
+          [
+            119.18,
+            31.13
+          ],
+          [
+            118.76,
+            30.94
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-30",
+        "endDate": "1937-12-06",
+        "order": 150,
+        "segmentType": "advance",
+        "name": {
+          "zh": "广德—郎溪—宣城",
+          "en": "Guangde–Langxi–Xuancheng"
+        },
+        "description": {
+          "zh": "1937年11月30日广德失守后，日军第18师团经郎溪北犯，12月6日陷宣城。路线为示意简化。",
+          "en": "After Guangde fell on 30 November 1937, the Japanese 18th Division advanced north via Langxi and took Xuancheng on 6 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.76,
+            30.94
+          ],
+          [
+            118.55,
+            31.1
+          ],
+          [
+            118.38,
+            31.33
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-12-06",
+        "endDate": "1937-12-10",
+        "order": 151,
+        "segmentType": "advance",
+        "name": {
+          "zh": "宣城—芜湖",
+          "en": "Xuancheng–Wuhu"
+        },
+        "description": {
+          "zh": "1937年12月6日宣城失守后，日军经湾沚西进，12月10日攻占芜湖。路线为示意简化。",
+          "en": "After Xuancheng fell on 6 December 1937, Japanese forces advanced west via Wanzhi and took Wuhu on 10 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.38,
+            31.33
+          ],
+          [
+            118.43,
+            31.45
+          ],
+          [
+            118.5,
+            31.57
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-12-10",
+        "endDate": "1937-12-11",
+        "order": 152,
+        "segmentType": "advance",
+        "name": {
+          "zh": "芜湖—当涂",
+          "en": "Wuhu–Dangtu"
+        },
+        "description": {
+          "zh": "1937年12月10日芜湖失守后，日军沿长江东岸北进，12月11日陷当涂。路线为示意简化。",
+          "en": "After Wuhu fell on 10 December 1937, Japanese forces advanced north along the east bank of the Yangtze and took Dangtu on 11 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.5,
+            31.57
+          ],
+          [
+            118.51,
+            31.67
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-12-11",
+        "endDate": "1937-12-23",
+        "order": 153,
+        "segmentType": "advance",
+        "name": {
+          "zh": "当涂—马鞍山",
+          "en": "Dangtu–Ma'anshan"
+        },
+        "description": {
+          "zh": "1937年12月11日当涂失守后，日军北进，12月23日占领马鞍山矿区。路线为示意简化。",
+          "en": "After Dangtu fell on 11 December 1937, Japanese forces moved north and occupied the Ma'anshan mines on 23 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.27,
+            32.09
+          ],
+          [
+            118.3,
+            32.2
+          ],
+          [
+            118.31,
+            32.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-12-22",
+        "endDate": "1937-12-24",
+        "order": 154,
+        "segmentType": "advance",
+        "name": {
+          "zh": "全椒—滁县",
+          "en": "Quanjiao–Chuxian"
+        },
+        "description": {
+          "zh": "1937年12月22日全椒失守后，日军沿滁河北进，12月24日陷滁县。路线为示意简化。",
+          "en": "After Quanjiao fell on 22 December 1937, Japanese forces advanced north along the Chu River and took Chuxian on 24 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.99,
+            32.78
+          ],
+          [
+            117.75,
+            32.85
+          ],
+          [
+            117.6,
+            32.92
+          ],
+          [
+            117.36,
+            32.94
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-01-18",
+        "endDate": "1938-02-02",
+        "order": 155,
+        "segmentType": "advance",
+        "name": {
+          "zh": "明光—临淮关—蚌埠",
+          "en": "Mingguang–Linhuaiguan–Bengbu"
+        },
+        "description": {
+          "zh": "1938年1月18日明光失陷后，日军沿津浦铁路南段北犯，2月1日陷临淮关，2月2日陷蚌埠。路线为示意简化。",
+          "en": "After Mingguang fell on 18 January 1938, Japanese forces advanced north along the southern Tianjin–Pukou railway, taking Linhuaiguan on 1 February and Bengbu on 2 February. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.85,
+            32.55
+          ],
+          [
+            117.68,
+            32.53
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-01-30",
+        "endDate": "1938-02-02",
+        "order": 156,
+        "segmentType": "advance",
+        "name": {
+          "zh": "池河—定远",
+          "en": "Chihe–Dingyuan"
+        },
+        "description": {
+          "zh": "1938年1月30日池河失陷后，日军西进，2月2日陷定远。路线为示意简化。",
+          "en": "After Chihe fell on 30 January 1938, Japanese forces advanced west and took Dingyuan on 2 February. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.36,
+            32.94
+          ],
+          [
+            117.45,
+            32.9
+          ],
+          [
+            117.56,
+            32.87
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-02-02",
+        "endDate": "1938-02-02",
+        "order": 157,
+        "segmentType": "advance",
+        "name": {
+          "zh": "蚌埠—凤阳",
+          "en": "Bengbu–Fengyang"
+        },
+        "description": {
+          "zh": "1938年2月2日蚌埠、凤阳同日失陷，日军由蚌埠向凤阳方向推进。路线为示意简化。",
+          "en": "Bengbu and Fengyang fell on the same day, 2 February 1938; Japanese forces moved from Bengbu toward Fengyang. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.36,
+            32.94
+          ],
+          [
+            117.28,
+            32.96
+          ],
+          [
+            117.2,
+            32.97
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-02-05",
+        "endDate": "1938-02-05",
+        "order": 158,
+        "segmentType": "advance",
+        "name": {
+          "zh": "蚌埠—怀远",
+          "en": "Bengbu–Huaiyuan"
+        },
+        "description": {
+          "zh": "1938年2月5日，日军由蚌埠强渡淮河，进占怀远。路线为示意简化。",
+          "en": "On 5 February 1938 Japanese forces crossed the Huai River from Bengbu and occupied Huaiyuan. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.36,
+            32.94
+          ],
+          [
+            116.95,
+            33.1
+          ],
+          [
+            116.56,
+            33.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-05-09",
+        "endDate": "1938-05-09",
+        "order": 159,
+        "segmentType": "advance",
+        "name": {
+          "zh": "蚌埠—蒙城",
+          "en": "Bengbu–Mengcheng"
+        },
+        "description": {
+          "zh": "1938年5月，日军第13师团由蚌埠西犯，5月9日陷蒙城。路线为示意简化。",
+          "en": "In May 1938 the Japanese 13th Division advanced west from Bengbu and took Mengcheng on 9 May. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.98,
+            33.63
+          ],
+          [
+            116.96,
+            33.9
+          ],
+          [
+            116.95,
+            34.19
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-05-18",
+        "endDate": "1938-05-19",
+        "order": 160,
+        "segmentType": "advance",
+        "name": {
+          "zh": "宿县—萧县",
+          "en": "Suxian–Xiaoxian"
+        },
+        "description": {
+          "zh": "1938年5月18日至19日，日军由宿县北犯，萧县、宿县先后失陷。路线为示意简化。",
+          "en": "On 18–19 May 1938 Japanese forces moved north from Suxian; Xiaoxian and Suxian fell in succession. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.95,
+            34.19
+          ],
+          [
+            116.6,
+            34.3
+          ],
+          [
+            116.35,
+            34.42
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-05-19",
+        "endDate": "1938-05-24",
+        "order": 161,
+        "segmentType": "advance",
+        "name": {
+          "zh": "萧县—砀山",
+          "en": "Xiaoxian–Dangshan"
+        },
+        "description": {
+          "zh": "1938年5月19日萧县失陷后，日军继续向砀山推进，5月24日陷砀山。路线为示意简化。",
+          "en": "After Xiaoxian fell on 19 May 1938, Japanese forces advanced toward Dangshan and took it on 24 May. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.56,
+            33.27
+          ],
+          [
+            116.4,
+            33.4
+          ],
+          [
+            116.22,
+            33.51
+          ],
+          [
+            116.0,
+            33.7
+          ],
+          [
+            115.78,
+            33.87
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-05-30",
+        "endDate": "1938-05-31",
+        "order": 162,
+        "segmentType": "advance",
+        "name": {
+          "zh": "蒙城—涡阳—亳县",
+          "en": "Mengcheng–Guoyang–Boxian"
+        },
+        "description": {
+          "zh": "1938年5月30日至31日，日军由蒙城西犯，涡阳、亳县相继失陷。路线为示意简化。",
+          "en": "On 30–31 May 1938 Japanese forces advanced west from Mengcheng, taking Guoyang and Boxian in succession. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.28,
+            31.86
+          ],
+          [
+            117.2,
+            31.3
+          ],
+          [
+            117.1,
+            30.9
+          ],
+          [
+            117.05,
+            30.53
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-05-14",
+        "endDate": "1938-06-12",
+        "order": 163,
+        "segmentType": "advance",
+        "name": {
+          "zh": "合肥—安庆",
+          "en": "Hefei–Anqing"
+        },
+        "description": {
+          "zh": "1938年5月14日合肥失陷后，日军沿合安公路南下，6月12日攻占安庆。路线为示意简化。",
+          "en": "After Hefei fell on 14 May 1938, Japanese forces advanced south along the Hefei–Anqing road and took Anqing on 12 June. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.05,
+            30.53
+          ],
+          [
+            116.8,
+            30.6
+          ],
+          [
+            116.58,
+            30.63
+          ],
+          [
+            116.45,
+            30.55
+          ],
+          [
+            116.31,
+            30.45
+          ],
+          [
+            116.2,
+            30.3
+          ],
+          [
+            116.13,
+            30.16
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-06-19",
+        "endDate": "1938-08-02",
+        "order": 164,
+        "segmentType": "advance",
+        "name": {
+          "zh": "安庆—潜山—太湖—宿松",
+          "en": "Anqing–Qianshan–Taihu–Susong"
+        },
+        "description": {
+          "zh": "1938年6月19日潜山失陷后，日军沿大别山南麓西进，6月30日陷太湖，8月2日陷宿松。路线为示意简化。",
+          "en": "After Qianshan fell on 19 June 1938, Japanese forces advanced west along the southern foot of the Dabie Mountains, taking Taihu on 30 June and Susong on 2 August. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.28,
+            31.86
+          ],
+          [
+            116.9,
+            31.81
+          ],
+          [
+            116.5,
+            31.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-05-14",
+        "endDate": "1938-08-28",
+        "order": 165,
+        "segmentType": "advance",
+        "name": {
+          "zh": "合肥—六安",
+          "en": "Hefei–Lu'an"
+        },
+        "description": {
+          "zh": "1938年5月14日合肥失陷后，日军第2军沿大别山北麓西进，8月28日陷六安。路线为示意简化。",
+          "en": "After Hefei fell on 14 May 1938, the Japanese 2nd Army advanced west along the northern foot of the Dabie Mountains and took Lu'an on 28 August. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.5,
+            31.75
+          ],
+          [
+            116.4,
+            31.55
+          ],
+          [
+            116.33,
+            31.39
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-08-28",
+        "endDate": "1938-08-29",
+        "order": 166,
+        "segmentType": "advance",
+        "name": {
+          "zh": "六安—霍山",
+          "en": "Lu'an–Huoshan"
+        },
+        "description": {
+          "zh": "1938年8月28日六安失陷后，日军第13师团南下，8月29日陷霍山。路线为示意简化。",
+          "en": "After Lu'an fell on 28 August 1938, the Japanese 13th Division moved south and took Huoshan on 29 August. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.05,
+            30.53
+          ],
+          [
+            117.02,
+            30.35
+          ],
+          [
+            117.02,
+            30.25
+          ],
+          [
+            117.2,
+            30.45
+          ],
+          [
+            117.49,
+            30.66
+          ],
+          [
+            117.65,
+            30.8
+          ],
+          [
+            117.81,
+            30.94
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-28",
+        "endDate": "1938-11-26",
+        "order": 167,
+        "segmentType": "advance",
+        "name": {
+          "zh": "安庆—东流—贵池—铜陵",
+          "en": "Anqing–Dongliu–Guichi–Tongling"
+        },
+        "description": {
+          "zh": "1938年10月28日东流、贵池失陷，11月26日铜陵失陷；日军沿长江南岸西进。路线为示意简化。",
+          "en": "Dongliu and Guichi fell on 28 October 1938 and Tongling on 26 November; Japanese forces advanced west along the south bank of the Yangtze. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
