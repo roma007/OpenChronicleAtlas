@@ -18,9 +18,11 @@ const FIRST_LEVEL = new Set<AtlasRegion['level']>(['province', 'municipality', '
 
 interface RegionFilterProps {
   className?: string;
+  /** 嵌在左侧栏 TAB 里时，去掉上边距与分隔线。 */
+  embedded?: boolean;
 }
 
-export function RegionFilter({ className = '' }: RegionFilterProps) {
+export function RegionFilter({ className = '', embedded = false }: RegionFilterProps) {
   const dataset = useAtlasStore((state) => state.dataset);
   const filters = useAtlasStore((state) => state.filters);
   const toggleRegion = useAtlasStore((state) => state.toggleRegion);
@@ -207,7 +209,10 @@ export function RegionFilter({ className = '' }: RegionFilterProps) {
   );
 
   return (
-    <section className={`mt-3 border-t border-ink/10 pt-3 ${className}`} aria-label={t('legend.regions')}>
+    <section
+      className={`${embedded ? '' : 'mt-3 border-t border-ink/10 pt-3'} ${className}`}
+      aria-label={t('legend.regions')}
+    >
       <div className="flex items-center justify-between gap-2">
         <h3 className="text-[11px] tracking-[0.18em] text-ink-soft">{t('legend.regions')}</h3>
         {filters.regionIds.length > 0 ? (

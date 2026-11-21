@@ -3,6 +3,24 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.192] - 2026-11-20
+
+### Changed
+- Web 左侧栏改为四个 TAB：**图层 / 地区 / 筛选 / 说明**，避免一个长面板反复滚动。
+  - 图层：时代疆域、历史省界、地区标注开关与各实体显隐；
+  - 地区：地区筛选、本区事件 / 本区路线、复制链接 / 定位 / 搜本区；
+  - 筛选：事件分类、起止日期、重置；
+  - 说明：路线样式图例与专题备注。
+- TAB 栏使用 `role="tablist"` / `role="tab"` / `role="tabpanel"`，`aria-selected`、`aria-controls` 完整；切换时自动回到面板顶部。
+- 已选地区或分类/日期筛选生效时，对应 TAB 显示小红点提示。
+- `RegionFilter` 增加 `embedded` 参数，嵌入 TAB 时去掉多余的分隔线。
+
+### Verify
+- `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build` 通过。
+- 本地 5180 页面与 `Legend.tsx` 模块加载正常。
+
+---
+
 ## [v1.0.191] - 2026-11-20
 
 ### Changed

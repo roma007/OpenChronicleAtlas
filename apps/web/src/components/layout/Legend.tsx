@@ -6,6 +6,7 @@ import {
   routeStyleForSegmentType,
   segmentTypeLabel,
 } from '@atlas/shared';
+import { useId, useRef, useState } from 'react';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { useI18n } from '../../hooks/useI18n';
 import { RegionFilter } from './RegionFilter';
@@ -32,6 +33,9 @@ export function Legend({ className = '' }: LegendProps) {
   const toggleCategory = useAtlasStore((state) => state.toggleCategory);
   const resetFilters = useAtlasStore((state) => state.resetFilters);
   const { locale, t } = useI18n();
+  const [tab, setTab] = useState<'layers' | 'regions' | 'filters' | 'notes'>('layers');
+  const panelRef = useRef<HTMLElement>(null);
+  const uid = useId();
 
   if (!dataset) return null;
 
@@ -82,11 +86,65 @@ export function Legend({ className = '' }: LegendProps) {
 
   return (
     <section
+      ref={panelRef}
       aria-label={t('legend.layers')}
       className={`rounded-2xl border border-ink/10 bg-parchment/95 p-4 shadow-panel backdrop-blur ${className}`}
     >
-      <div className="flex items-center justify-between gap-2">
-        <h2 className="font-serif text-sm tracking-[0.2em] text-ink">{t('legend.layers')}</h2>
+
+      <div
+        role="tablist"
+        aria-label={t('legend.layers')}
+        className="mb-3 flex gap-1 rounded-lg bg-ink/5 p-1"
+      >
+        {(
+          [
+            ['layers', 'legend.tab.layers'],
+            ['regions', 'legend.tab.regions'],
+            ['filters', 'legend.tab.filters'],
+            ['notes', 'legend.tab.notes'],
+          ] as const
+        ).map(([id, key]) => {
+          const badge =
+            (id === 'regions' && filters.regionIds.length > 0) ||
+            (id === 'filters' &&
+              (filters.categories.length > 0 || Boolean(filters.from) || Boolean(filters.to)));
+          return (
+            <button
+              key={id}
+              type="button"
+              role="tab"
+              id={`${uid}-legend-tab-${id}`}
+              aria-selected={tab === id}
+              aria-controls={`${uid}-legend-panel-${id}`}
+              onClick={() => {
+                setTab(id);
+                if (panelRef.current) panelRef.current.scrollTop = 0;
+              }}
+              className={`flex-1 rounded-md px-1.5 py-1 text-[11px] transition ${
+                tab === id
+                  ? 'bg-parchment text-cinnabar shadow-sm'
+                  : 'text-ink-soft/70 hover:text-cinnabar'
+              }`}
+            >
+              {t(key)}
+              {badge ? (
+                <span
+                  aria-hidden
+                  className="ml-0.5 inline-block h-1 w-1 rounded-full bg-cinnabar align-middle"
+                />
+              ) : null}
+            </button>
+          );
+        })}
+      </div>
+
+      <div
+        role="tabpanel"
+        id={`${uid}-legend-panel-layers`}
+        aria-labelledby={`${uid}-legend-tab-layers`}
+        hidden={tab !== 'layers'}
+      >
+        <div className="flex justify-end">
         <button
           type="button"
           onClick={showAllEntities}
@@ -96,7 +154,7 @@ export function Legend({ className = '' }: LegendProps) {
         >
           {t('legend.showAll')}
         </button>
-      </div>
+        </div>
 
       {dataset.territories.some(
         (feature) => feature.properties.extensions?.kind !== 'admin-boundary',
@@ -189,9 +247,6 @@ export function Legend({ className = '' }: LegendProps) {
       {showRegionLabels ? (
         <p className="mt-1 px-1 text-[9px] text-ink-soft/50">{t('legend.regionLabelHint')}</p>
       ) : null}
-
-      <RegionFilter />
-
       <ul className="mt-3 space-y-1">
         {entities.map((entity) => {
           const active = activeEntityIds.has(entity.id);
@@ -291,75 +346,24 @@ export function Legend({ className = '' }: LegendProps) {
           );
         })}
       </ul>
+      </div>
 
-      {notes.length > 0 ? (
-        <div className="mt-3 border-t border-ink/10 pt-3">
-          <h2 className="font-serif text-sm tracking-[0.2em] text-ink">
-            {t('legend.notes')}
-          </h2>
-          <ul className="mt-2 space-y-1.5">
-            {notes.map((note, index) => (
-              <li
-                key={index}
-                className="rounded-lg bg-ink/[0.03] px-2.5 py-2 text-[11px] leading-relaxed text-ink-soft"
-              >
-                {resolveLocalized(note, locale)}
-              </li>
-            ))}
-          </ul>
-        </div>
-      ) : null}
+      <div
+        role="tabpanel"
+        id={`${uid}-legend-panel-regions`}
+        aria-labelledby={`${uid}-legend-tab-regions`}
+        hidden={tab !== 'regions'}
+      >
+        <RegionFilter embedded />
+      </div>
 
-      {segmentTypes.length > 0 ? (
-        <div className="mt-3 border-t border-ink/10 pt-3">
-          <h2 className="font-serif text-sm tracking-[0.2em] text-ink">
-            {t('legend.routeStyles')}
-          </h2>
-          <ul className="mt-2 space-y-1.5">
-            {segmentTypes.map((type) => {
-              const style = routeStyleForSegmentType(type);
-              return (
-                <li
-                  key={type}
-                  className="flex items-center gap-2.5 text-[11px] text-ink-soft"
-                >
-                  {type === 'defense' && hasDefenseRoutes ? (
-                    <span aria-hidden className="relative h-3 w-6 shrink-0">
-                      <span className="absolute left-0 right-0 top-1/2 h-0.5 -translate-y-1/2 bg-cinnabar" />
-                      <span className="absolute left-0 top-0 h-3 w-0.5 bg-cinnabar" />
-                      <span className="absolute left-[9px] top-0 h-3 w-0.5 bg-cinnabar" />
-                      <span className="absolute right-0 top-0 h-3 w-0.5 bg-cinnabar" />
-                    </span>
-                  ) : (
-                    <span
-                      aria-hidden
-                      className="w-6 shrink-0 border-t-2 border-cinnabar"
-                      style={{
-                        borderStyle:
-                          style.dash === 'dotted'
-                            ? 'dotted'
-                            : style.dash === 'dashed'
-                              ? 'dashed'
-                              : 'solid',
-                        borderTopWidth: style.weight,
-                      }}
-                    />
-                  )}
-                  <span>{segmentTypeLabel(type, locale)}</span>
-                </li>
-              );
-            })}
-          </ul>
-          {hasDefenseRoutes || hasMovingRoutes ? (
-            <div className="mt-2 space-y-1 text-[10px] leading-4 text-ink-soft/70">
-              {hasDefenseRoutes ? <p>{t('legend.defenseHint')}</p> : null}
-              {hasMovingRoutes ? <p>{t('legend.routeHeadHint')}</p> : null}
-            </div>
-          ) : null}
-        </div>
-      ) : null}
-
-      <div className="mt-3 border-t border-ink/10 pt-3">
+      <div
+        role="tabpanel"
+        id={`${uid}-legend-panel-filters`}
+        aria-labelledby={`${uid}-legend-tab-filters`}
+        hidden={tab !== 'filters'}
+      >
+      <div>
         <div className="flex items-baseline justify-between gap-2">
           <h2 className="font-serif text-sm tracking-[0.2em] text-ink">{t('legend.filters')}</h2>
           <span className="text-[10px] tabular-nums text-ink-soft/70">
@@ -431,6 +435,81 @@ export function Legend({ className = '' }: LegendProps) {
           </button>
         </div>
       </div>
+      </div>
+
+      <div
+        role="tabpanel"
+        id={`${uid}-legend-panel-notes`}
+        aria-labelledby={`${uid}-legend-tab-notes`}
+        hidden={tab !== 'notes'}
+      >
+      {segmentTypes.length > 0 ? (
+        <div>
+          <h2 className="font-serif text-sm tracking-[0.2em] text-ink">
+            {t('legend.routeStyles')}
+          </h2>
+          <ul className="mt-2 space-y-1.5">
+            {segmentTypes.map((type) => {
+              const style = routeStyleForSegmentType(type);
+              return (
+                <li
+                  key={type}
+                  className="flex items-center gap-2.5 text-[11px] text-ink-soft"
+                >
+                  {type === 'defense' && hasDefenseRoutes ? (
+                    <span aria-hidden className="relative h-3 w-6 shrink-0">
+                      <span className="absolute left-0 right-0 top-1/2 h-0.5 -translate-y-1/2 bg-cinnabar" />
+                      <span className="absolute left-0 top-0 h-3 w-0.5 bg-cinnabar" />
+                      <span className="absolute left-[9px] top-0 h-3 w-0.5 bg-cinnabar" />
+                      <span className="absolute right-0 top-0 h-3 w-0.5 bg-cinnabar" />
+                    </span>
+                  ) : (
+                    <span
+                      aria-hidden
+                      className="w-6 shrink-0 border-t-2 border-cinnabar"
+                      style={{
+                        borderStyle:
+                          style.dash === 'dotted'
+                            ? 'dotted'
+                            : style.dash === 'dashed'
+                              ? 'dashed'
+                              : 'solid',
+                        borderTopWidth: style.weight,
+                      }}
+                    />
+                  )}
+                  <span>{segmentTypeLabel(type, locale)}</span>
+                </li>
+              );
+            })}
+          </ul>
+          {hasDefenseRoutes || hasMovingRoutes ? (
+            <div className="mt-2 space-y-1 text-[10px] leading-4 text-ink-soft/70">
+              {hasDefenseRoutes ? <p>{t('legend.defenseHint')}</p> : null}
+              {hasMovingRoutes ? <p>{t('legend.routeHeadHint')}</p> : null}
+            </div>
+          ) : null}
+        </div>
+      ) : null}
+      {notes.length > 0 ? (
+        <div className="mt-3 border-t border-ink/10 pt-3">
+          <h2 className="font-serif text-sm tracking-[0.2em] text-ink">
+            {t('legend.notes')}
+          </h2>
+          <ul className="mt-2 space-y-1.5">
+            {notes.map((note, index) => (
+              <li
+                key={index}
+                className="rounded-lg bg-ink/[0.03] px-2.5 py-2 text-[11px] leading-relaxed text-ink-soft"
+              >
+                {resolveLocalized(note, locale)}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
+      </div>
+
     </section>
   );
 }

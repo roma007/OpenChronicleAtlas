@@ -116,6 +116,10 @@ const zh = {
   'atlas.filters': '筛选',
 
   'legend.layers': '路线图层',
+  'legend.tab.layers': '图层',
+  'legend.tab.regions': '地区',
+  'legend.tab.filters': '筛选',
+  'legend.tab.notes': '说明',
   'legend.notes': '说明',
   'legend.territories': '时代疆域遮罩',
   'legend.adminBoundaries': '历史省界（示意）',
@@ -359,6 +363,10 @@ const en: Record<keyof typeof zh, string> = {
   'atlas.filters': 'Filters',
 
   'legend.layers': 'Route layers',
+  'legend.tab.layers': 'Layers',
+  'legend.tab.regions': 'Regions',
+  'legend.tab.filters': 'Filters',
+  'legend.tab.notes': 'Notes',
   'legend.notes': 'Notes',
   'legend.territories': 'Period territories',
   'legend.adminBoundaries': 'Historical provinces (schematic)',
