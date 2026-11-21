@@ -30786,5 +30786,1508 @@
     "extensions": {
       "routeEvent": false
     }
+  },
+  {
+    "id": "dezhou-fall-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "德州沦陷",
+      "en": "Fall of Dezhou"
+    },
+    "date": "1937-10-05",
+    "location": {
+      "lng": 116.31,
+      "lat": 37.45,
+      "place": {
+        "zh": "山东德州",
+        "en": "Dezhou, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年10月5日，日军第10师团攻占德州。",
+      "en": "On 5 October 1937 the Japanese 10th Division captured Dezhou."
+    },
+    "description": {
+      "zh": "9月30日，日军第10师团沿津浦路侵入山东。10月3日进攻德州，中国守军第3集团军抵抗；10月5日德州沦陷。日军占领后掠夺资源、强征劳工，德州成为津浦路北段重要据点。日期据《山东抗日战争大事记》与《日军进攻山东》，待页码级核对。",
+      "en": "On 30 September the Japanese 10th Division entered Shandong along the Tianjin–Pukou railway. It attacked Dezhou on 3 October against resistance by the Chinese 3rd Group Army, and the city fell on 5 October. Japanese forces then plundered resources and conscripted labour, making Dezhou a key point on the northern section of the railway. The date follows the Shandong war chronology and the provincial party history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      },
+      {
+        "title": "《日军进攻山东》",
+        "author": "中共山东省委党史研究室，山东抗战纪念网",
+        "year": 2015,
+        "url": "http://www.sdkrzzjng.com/kzlct/qlkrfh/201506/t20150624_12602323.htm",
+        "note": "2026-11-21 访问；德州、济南、青岛、山东全境沦陷、伪山东省公署"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "linqing-fall-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "临清沦陷",
+      "en": "Fall of Linqing"
+    },
+    "date": "1937-11-19",
+    "location": {
+      "lng": 115.71,
+      "lat": 36.84,
+      "place": {
+        "zh": "山东临清",
+        "en": "Linqing, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年11月19日，日军侵入临清。",
+      "en": "On 19 November 1937 Japanese forces entered Linqing."
+    },
+    "description": {
+      "zh": "11月16日，韩复榘下令第三集团军各部撤过黄河并炸毁黄河大桥，鲁北地区沦入敌手。11月19日，日军侵入临清、高唐等县。鲁西北专员范筑先坚持抗战，发布「皓电」，震动全国。日期据《山东抗日战争大事记》，待页码级核对。",
+      "en": "On 16 November Han Fuju ordered the 3rd Group Army to withdraw across the Yellow River and blew up the railway bridge, leaving northern Shandong to the Japanese. On 19 November Japanese forces entered Linqing and Gaotang. Fan Zhuxian, commissioner of northwestern Shandong, refused to flee and issued his famous telegram, which inspired the country. The date follows the Shandong war chronology and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      },
+      {
+        "title": "《日军进攻山东》",
+        "author": "中共山东省委党史研究室，山东抗战纪念网",
+        "year": 2015,
+        "url": "http://www.sdkrzzjng.com/kzlct/qlkrfh/201506/t20150624_12602323.htm",
+        "note": "2026-11-21 访问；德州、济南、青岛、山东全境沦陷、伪山东省公署"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "gaotang-fall-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "高唐沦陷",
+      "en": "Fall of Gaotang"
+    },
+    "date": "1937-11-19",
+    "location": {
+      "lng": 116.23,
+      "lat": 36.87,
+      "place": {
+        "zh": "山东高唐",
+        "en": "Gaotang, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年11月19日，日军侵入高唐。",
+      "en": "On 19 November 1937 Japanese forces entered Gaotang."
+    },
+    "description": {
+      "zh": "11月19日，日军侵入临清、高唐等县。高唐位于鲁西北平原，是日军控制鲁西北、进逼聊城的要点。日期据《山东抗日战争大事记》，待页码级核对。",
+      "en": "On 19 November Japanese forces entered Linqing and Gaotang. Gaotang, on the northwestern Shandong plain, was a key point for controlling the region and advancing on Liaocheng. The date follows the Shandong war chronology and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      },
+      {
+        "title": "《日军进攻山东》",
+        "author": "中共山东省委党史研究室，山东抗战纪念网",
+        "year": 2015,
+        "url": "http://www.sdkrzzjng.com/kzlct/qlkrfh/201506/t20150624_12602323.htm",
+        "note": "2026-11-21 访问；德州、济南、青岛、山东全境沦陷、伪山东省公署"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "zhoucun-fall-1937-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "周村沦陷",
+      "en": "Fall of Zhoucun"
+    },
+    "date": "1937-12-26",
+    "location": {
+      "lng": 117.85,
+      "lat": 36.8,
+      "place": {
+        "zh": "山东周村",
+        "en": "Zhoucun, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年12月26日，日军攻占周村。",
+      "en": "On 26 December 1937 Japanese forces captured Zhoucun."
+    },
+    "description": {
+      "zh": "12月中旬日军迫近周村。12月24日，驻守周村的国民党第22师师长谷良民率部南逃；25日日军侵占周村西北一带，26日攻占周村。周村是胶济铁路西段商埠，沦陷后成为日军控制鲁中的据点。日期据《山东抗日战争大事记》与周村地方史，待页码级核对。",
+      "en": "In mid-December Japanese forces closed on Zhoucun. On 24 December the Nationalist 22nd Division commander Gu Liangmin fled south; on 25 December Japanese troops occupied the northwestern outskirts and on 26 December took the town. Zhoucun, a commercial centre on the western section of the Jiaoji railway, became a Japanese base for controlling central Shandong. The date follows the Shandong war chronology and local history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      },
+      {
+        "title": "《日军进攻山东》",
+        "author": "中共山东省委党史研究室，山东抗战纪念网",
+        "year": 2015,
+        "url": "http://www.sdkrzzjng.com/kzlct/qlkrfh/201506/t20150624_12602323.htm",
+        "note": "2026-11-21 访问；德州、济南、青岛、山东全境沦陷、伪山东省公署"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "zichuan-fall-1937-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "淄川沦陷",
+      "en": "Fall of Zichuan"
+    },
+    "date": "1937-12-27",
+    "location": {
+      "lng": 117.97,
+      "lat": 36.65,
+      "place": {
+        "zh": "山东淄川",
+        "en": "Zichuan, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年12月27日，日军占领淄川。",
+      "en": "On 27 December 1937 Japanese forces occupied Zichuan."
+    },
+    "description": {
+      "zh": "12月27日，日军占领淄川，随后制造多起血腥惨案，掠夺淄川煤矿。淄川是胶济铁路与淄博煤矿区的重要节点。日期据《淄川地方大事记》与《山东抗日战争大事记》，待页码级核对。",
+      "en": "On 27 December Japanese forces occupied Zichuan, then carried out several massacres and seized the Zichuan coal mines. Zichuan was an important node on the Jiaoji railway and in the Zibo coal area. The date follows the Zichuan local chronology and the Shandong war chronology and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      },
+      {
+        "title": "《日军进攻山东》",
+        "author": "中共山东省委党史研究室，山东抗战纪念网",
+        "year": 2015,
+        "url": "http://www.sdkrzzjng.com/kzlct/qlkrfh/201506/t20150624_12602323.htm",
+        "note": "2026-11-21 访问；德州、济南、青岛、山东全境沦陷、伪山东省公署"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "taian-fall-1937-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "泰安沦陷",
+      "en": "Fall of Tai'an"
+    },
+    "date": "1937-12-31",
+    "location": {
+      "lng": 117.09,
+      "lat": 36.19,
+      "place": {
+        "zh": "山东泰安",
+        "en": "Tai'an, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年12月31日，日军占领泰安。",
+      "en": "On 31 December 1937 Japanese forces occupied Tai'an."
+    },
+    "description": {
+      "zh": "12月27日济南失守后，日军沿津浦路南下，12月31日占领泰安。泰安是津浦路中段与泰山门户，日军占领后继续南犯兖州、济宁。日期据《山东抗日战争大事记》与《日军侵占济宁及其暴行》，待页码级核对。",
+      "en": "After Jinan fell on 27 December, Japanese forces advanced south along the Tianjin–Pukou railway and occupied Tai'an on 31 December. Tai'an was a key point on the central section of the railway and the gateway to Mount Tai; from there Japanese forces moved on Yanzhou and Jining. The date follows the Shandong war chronology and the Jining account and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      },
+      {
+        "title": "《日军侵占济宁及其暴行》",
+        "author": "抗日战争纪念网",
+        "year": 2015,
+        "url": "https://m.krzzjn.com/show-607-43758.html",
+        "note": "2026-11-21 访问；泰安 12/31、兖州/曲阜 1/4、邹县 1/5、济宁/泗水 1/11、汶上 1/16"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "qingdao-fall-1938-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "青岛沦陷",
+      "en": "Fall of Qingdao"
+    },
+    "date": "1938-01-10",
+    "location": {
+      "lng": 120.38,
+      "lat": 36.07,
+      "place": {
+        "zh": "山东青岛",
+        "en": "Qingdao, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年1月10日，日本海军陆战队在沙子口登陆，占领青岛。",
+      "en": "On 10 January 1938 Japanese marines landed at Shazikou and occupied Qingdao."
+    },
+    "description": {
+      "zh": "12月27日，青岛市长沈鸿烈下令炸毁日本纱厂机器设备，并凿沉中国海军第三舰队全部舰只；28日，全体机关人员、军警撤出青岛。1938年1月10日，日本海军陆战队在沙子口登陆，进入青岛市区，青岛失陷。日期据《山东抗日战争大事记》与《日军进攻山东》，待页码级核对。",
+      "en": "On 27 December Qingdao mayor Shen Honglie ordered the machinery of Japanese cotton mills destroyed and the ships of the Chinese 3rd Fleet scuttled; on 28 December the government offices, troops and police withdrew. On 10 January 1938 Japanese marines landed at Shazikou and entered Qingdao, which fell. The date follows the Shandong war chronology and the provincial party history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      },
+      {
+        "title": "《日军进攻山东》",
+        "author": "中共山东省委党史研究室，山东抗战纪念网",
+        "year": 2015,
+        "url": "http://www.sdkrzzjng.com/kzlct/qlkrfh/201506/t20150624_12602323.htm",
+        "note": "2026-11-21 访问；德州、济南、青岛、山东全境沦陷、伪山东省公署"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "weixian-fall-1938-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "潍县沦陷",
+      "en": "Fall of Weixian"
+    },
+    "date": "1938-01-10",
+    "location": {
+      "lng": 119.1,
+      "lat": 36.7,
+      "place": {
+        "zh": "山东潍县",
+        "en": "Weixian, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年1月10日，日军占领胶济线重镇潍县。",
+      "en": "On 10 January 1938 Japanese forces occupied Weixian, a key town on the Jiaoji railway."
+    },
+    "description": {
+      "zh": "1938年1月10日，日军占领胶济线中部重地潍县；1月19日，日军与海军陆战队会师青岛，胶济铁路沿线城市全部沦陷。潍县是胶济铁路中段枢纽。日期据人民网党史与《山东抗日战争大事记》，待页码级核对。",
+      "en": "On 10 January 1938 Japanese forces took Weixian, a key town on the central Jiaoji railway. On 19 January they linked up with the naval landing force at Qingdao, completing the occupation of the railway's urban centres. Weixian was the central junction of the Jiaoji line. The date follows the People's Daily party-history account and the Shandong war chronology and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《共产党员脱下长衫，到游击队去》",
+        "author": "人民网·党史",
+        "year": 2019,
+        "url": "http://dangshi.people.com.cn/n1/2019/0727/c85037-31259545.html",
+        "note": "2026-11-21 访问；1/10 潍县、1/19 与海军会师青岛"
+      },
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "yanzhou-fall-1938-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "兖州沦陷",
+      "en": "Fall of Yanzhou"
+    },
+    "date": "1938-01-04",
+    "location": {
+      "lng": 116.83,
+      "lat": 35.55,
+      "place": {
+        "zh": "山东兖州",
+        "en": "Yanzhou, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年1月4日，日军占领兖州。",
+      "en": "On 4 January 1938 Japanese forces occupied Yanzhou."
+    },
+    "description": {
+      "zh": "1938年1月初，日军飞机轰炸兖州；1月4日，日军前锋占领兖州、曲阜。兖州是津浦铁路与兖石铁路交会处，日军由此南下济宁、滕县。日期据《日军侵占济宁及其暴行》，待页码级核对。",
+      "en": "In early January 1938 Japanese aircraft bombed Yanzhou; on 4 January the Japanese advance guard occupied Yanzhou and Qufu. Yanzhou was the junction of the Tianjin–Pukou railway and the Yanzhou–Shijiu line, from which Japanese forces moved south toward Jining and Tengxian. The date follows the Jining account and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日军侵占济宁及其暴行》",
+        "author": "抗日战争纪念网",
+        "year": 2015,
+        "url": "https://m.krzzjn.com/show-607-43758.html",
+        "note": "2026-11-21 访问；泰安 12/31、兖州/曲阜 1/4、邹县 1/5、济宁/泗水 1/11、汶上 1/16"
+      },
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "qufu-fall-1938-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "曲阜沦陷",
+      "en": "Fall of Qufu"
+    },
+    "date": "1938-01-04",
+    "location": {
+      "lng": 116.99,
+      "lat": 35.58,
+      "place": {
+        "zh": "山东曲阜",
+        "en": "Qufu, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年1月4日，日军占领曲阜。",
+      "en": "On 4 January 1938 Japanese forces occupied Qufu."
+    },
+    "description": {
+      "zh": "1月4日，日军前锋占领兖州、曲阜。曲阜是孔子故里，日军占领后对孔庙、孔府等文物造成破坏。日期据《日军侵占济宁及其暴行》，待页码级核对。",
+      "en": "On 4 January the Japanese advance guard occupied Yanzhou and Qufu. Qufu, the hometown of Confucius, suffered damage to the Temple and Mansion of Confucius after occupation. The date follows the Jining account and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日军侵占济宁及其暴行》",
+        "author": "抗日战争纪念网",
+        "year": 2015,
+        "url": "https://m.krzzjn.com/show-607-43758.html",
+        "note": "2026-11-21 访问；泰安 12/31、兖州/曲阜 1/4、邹县 1/5、济宁/泗水 1/11、汶上 1/16"
+      },
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "zouxian-fall-1938-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "邹县沦陷",
+      "en": "Fall of Zouxian"
+    },
+    "date": "1938-01-05",
+    "location": {
+      "lng": 116.97,
+      "lat": 35.4,
+      "place": {
+        "zh": "山东邹县",
+        "en": "Zouxian, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年1月5日，日军占领邹县。",
+      "en": "On 5 January 1938 Japanese forces occupied Zouxian."
+    },
+    "description": {
+      "zh": "1月5日，日军占领邹县。邹县是津浦路南段要点，日军由此继续南下滕县。日期据《日军侵占济宁及其暴行》，待页码级核对。",
+      "en": "On 5 January Japanese forces occupied Zouxian. A key point on the southern Tianjin–Pukou railway, it was used for the continued advance south toward Tengxian. The date follows the Jining account and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日军侵占济宁及其暴行》",
+        "author": "抗日战争纪念网",
+        "year": 2015,
+        "url": "https://m.krzzjn.com/show-607-43758.html",
+        "note": "2026-11-21 访问；泰安 12/31、兖州/曲阜 1/4、邹县 1/5、济宁/泗水 1/11、汶上 1/16"
+      },
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "jining-fall-1938-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "济宁沦陷",
+      "en": "Fall of Jining"
+    },
+    "date": "1938-01-11",
+    "location": {
+      "lng": 116.59,
+      "lat": 35.41,
+      "place": {
+        "zh": "山东济宁",
+        "en": "Jining, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年1月11日，日军第10师团占领济宁。",
+      "en": "On 11 January 1938 the Japanese 10th Division occupied Jining."
+    },
+    "description": {
+      "zh": "1月11日凌晨，日军兵临济宁城下，中国抗日军民激烈抵抗，终因兵力悬殊失守；日军第10师团占领济宁。济宁是鲁西南运河重镇。日期据《日军侵占济宁及其暴行》，待页码级核对。",
+      "en": "In the early hours of 11 January Japanese forces reached Jining. Chinese troops and civilians resisted fiercely but were overwhelmed, and the Japanese 10th Division occupied the city. Jining was a key Grand Canal town in southwestern Shandong. The date follows the Jining account and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日军侵占济宁及其暴行》",
+        "author": "抗日战争纪念网",
+        "year": 2015,
+        "url": "https://m.krzzjn.com/show-607-43758.html",
+        "note": "2026-11-21 访问；泰安 12/31、兖州/曲阜 1/4、邹县 1/5、济宁/泗水 1/11、汶上 1/16"
+      },
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "sishui-fall-1938-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "泗水沦陷",
+      "en": "Fall of Sishui"
+    },
+    "date": "1938-01-11",
+    "location": {
+      "lng": 117.25,
+      "lat": 35.65,
+      "place": {
+        "zh": "山东泗水",
+        "en": "Sishui, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年1月11日，日军占领泗水。",
+      "en": "On 11 January 1938 Japanese forces occupied Sishui."
+    },
+    "description": {
+      "zh": "1月11日，日军占领济宁、泗水。泗水位于鲁中南部，是日军由兖州、曲阜南下临沂、滕县的通道。日期据《日军侵占济宁及其暴行》，待页码级核对。",
+      "en": "On 11 January Japanese forces occupied Jining and Sishui. Sishui, in south-central Shandong, was a corridor from Yanzhou and Qufu toward Linyi and Tengxian. The date follows the Jining account and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日军侵占济宁及其暴行》",
+        "author": "抗日战争纪念网",
+        "year": 2015,
+        "url": "https://m.krzzjn.com/show-607-43758.html",
+        "note": "2026-11-21 访问；泰安 12/31、兖州/曲阜 1/4、邹县 1/5、济宁/泗水 1/11、汶上 1/16"
+      },
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "wenshang-fall-1938-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "汶上沦陷",
+      "en": "Fall of Wenshang"
+    },
+    "date": "1938-01-16",
+    "location": {
+      "lng": 116.49,
+      "lat": 35.73,
+      "place": {
+        "zh": "山东汶上",
+        "en": "Wenshang, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年1月16日，日军占领汶上。",
+      "en": "On 16 January 1938 Japanese forces occupied Wenshang."
+    },
+    "description": {
+      "zh": "1月16日，日军占领汶上。汶上位于济宁西北，是日军控制鲁西南、进逼郓城的要点。日期据《日军侵占济宁及其暴行》，待页码级核对。",
+      "en": "On 16 January Japanese forces occupied Wenshang. Northwest of Jining, it was a key point for controlling southwestern Shandong and advancing on Yuncheng. The date follows the Jining account and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日军侵占济宁及其暴行》",
+        "author": "抗日战争纪念网",
+        "year": 2015,
+        "url": "https://m.krzzjn.com/show-607-43758.html",
+        "note": "2026-11-21 访问；泰安 12/31、兖州/曲阜 1/4、邹县 1/5、济宁/泗水 1/11、汶上 1/16"
+      },
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "jimo-fall-1938-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "即墨沦陷",
+      "en": "Fall of Jimo"
+    },
+    "date": "1938-01-17",
+    "location": {
+      "lng": 120.45,
+      "lat": 36.39,
+      "place": {
+        "zh": "山东即墨",
+        "en": "Jimo, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年1月17日，日军侵占即墨城。",
+      "en": "On 17 January 1938 Japanese forces occupied Jimo."
+    },
+    "description": {
+      "zh": "1月10日青岛沦陷后，日军沿青烟公路和胶济铁路向东、西两个方向进犯即墨、胶县、平度、莱阳。1月17日，日军侵占即墨城。日期据《山东抗日战争大事记》与青岛地方史，待页码级核对。",
+      "en": "After Qingdao fell on 10 January, Japanese forces advanced east and west along the Qingdao–Yantai road and the Jiaoji railway into Jimo, Jiaoxian, Pingdu and Laiyang. On 17 January they occupied Jimo. The date follows the Shandong war chronology and Qingdao local history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      },
+      {
+        "title": "《日军进攻山东》",
+        "author": "中共山东省委党史研究室，山东抗战纪念网",
+        "year": 2015,
+        "url": "http://www.sdkrzzjng.com/kzlct/qlkrfh/201506/t20150624_12602323.htm",
+        "note": "2026-11-21 访问；德州、济南、青岛、山东全境沦陷、伪山东省公署"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "yantai-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "烟台沦陷",
+      "en": "Fall of Yantai"
+    },
+    "date": "1938-02-03",
+    "location": {
+      "lng": 121.39,
+      "lat": 37.54,
+      "place": {
+        "zh": "山东烟台",
+        "en": "Yantai, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月3日，日军占领烟台。",
+      "en": "On 3 February 1938 Japanese forces occupied Yantai."
+    },
+    "description": {
+      "zh": "2月3日，侵华日军第二军第五师团3000余人，自青岛沿烟青公路北犯，在海上6艘舰艇配合下占领烟台。烟台是胶东半岛重要港口。日期据《烟台抗战大事记》，待页码级核对。",
+      "en": "On 3 February more than 3,000 troops of the Japanese 2nd Army's 5th Division advanced north from Qingdao along the Qingdao–Yantai road, supported by six naval vessels, and occupied Yantai. Yantai was the main port of the Jiaodong peninsula. The date follows the Yantai war chronology and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《烟台抗战大事记》",
+        "author": "烟台日报",
+        "year": 2018,
+        "url": "https://m.krzzjn.com/show-1152-80699.html",
+        "note": "2026-11-21 访问；2/3 烟台"
+      },
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "huangxian-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "黄县沦陷",
+      "en": "Fall of Huangxian"
+    },
+    "date": "1938-02-05",
+    "location": {
+      "lng": 120.53,
+      "lat": 37.65,
+      "place": {
+        "zh": "山东黄县",
+        "en": "Huangxian, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月5日，日军占领黄县。",
+      "en": "On 5 February 1938 Japanese forces occupied Huangxian."
+    },
+    "description": {
+      "zh": "2月3日烟台沦陷后，日军分兵东攻蓬莱、黄县、掖县，西占牟平、威海。2月5日，日军占领黄县。日期据胶东地方史与《山东抗日战争大事记》，待页码级核对。",
+      "en": "After Yantai fell on 3 February, Japanese forces moved east against Penglai, Huangxian and Yexian and west against Muping and Weihai. On 5 February they occupied Huangxian. The date follows Jiaodong local history and the Shandong war chronology and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      },
+      {
+        "title": "《日军进攻山东》",
+        "author": "中共山东省委党史研究室，山东抗战纪念网",
+        "year": 2015,
+        "url": "http://www.sdkrzzjng.com/kzlct/qlkrfh/201506/t20150624_12602323.htm",
+        "note": "2026-11-21 访问；德州、济南、青岛、山东全境沦陷、伪山东省公署"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "weihaiwei-fall-1938-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "威海卫沦陷",
+      "en": "Fall of Weihaiwei"
+    },
+    "date": "1938-03-07",
+    "location": {
+      "lng": 122.12,
+      "lat": 37.51,
+      "place": {
+        "zh": "山东威海卫",
+        "en": "Weihaiwei, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年3月7日，日本海军陆战队占领威海卫。",
+      "en": "On 7 March 1938 Japanese marines occupied Weihaiwei."
+    },
+    "description": {
+      "zh": "3月7日下午，日本海军陆战队500多人在军舰、飞机护卫下占领威海卫。威海卫是北洋海军基地，沦陷后成为日军控制胶东东端的据点。日期据威海市档案馆，待页码级核对。",
+      "en": "On the afternoon of 7 March more than 500 Japanese marines, escorted by warships and aircraft, occupied Weihaiwei. The former Beiyang naval base became a Japanese strongpoint at the eastern tip of Jiaodong. The date follows the Weihai municipal archives and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《档案里的威海抗日记忆》",
+        "author": "威海市档案馆",
+        "year": 2025,
+        "url": "http://dag.weihai.gov.cn/art/2025/8/22/art_67463_5745006.html",
+        "note": "2026-11-21 访问；3/7 威海卫"
+      },
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "tengxian-fall-1938-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "滕县沦陷",
+      "en": "Fall of Tengxian"
+    },
+    "date": "1938-03-17",
+    "location": {
+      "lng": 117.15,
+      "lat": 35.08,
+      "place": {
+        "zh": "山东滕县",
+        "en": "Tengxian, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年3月17日，日军攻占滕县。",
+      "en": "On 17 March 1938 Japanese forces captured Tengxian."
+    },
+    "description": {
+      "zh": "3月中旬，日军第10师团濑谷支队进攻滕县，中国守军第22集团军第122师等部顽强抵抗；3月17日下午，日军步兵第10联队完全占领滕县。滕县保卫战为台儿庄战役争取了时间。日期据《山东抗日战争大事记》与台儿庄战役史料，待页码级核对。",
+      "en": "In mid-March the Japanese 10th Division's Segawa detachment attacked Tengxian, defended stubbornly by the Chinese 122nd Division of the 22nd Group Army. On the afternoon of 17 March the Japanese 10th Infantry Regiment completed the occupation of Tengxian. The defence bought time for the Battle of Taierzhuang. The date follows the Shandong war chronology and Taierzhuang sources and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      },
+      {
+        "title": "《日军进攻山东》",
+        "author": "中共山东省委党史研究室，山东抗战纪念网",
+        "year": 2015,
+        "url": "http://www.sdkrzzjng.com/kzlct/qlkrfh/201506/t20150624_12602323.htm",
+        "note": "2026-11-21 访问；德州、济南、青岛、山东全境沦陷、伪山东省公署"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "lincheng-fall-1938-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "临城沦陷",
+      "en": "Fall of Lincheng"
+    },
+    "date": "1938-03-17",
+    "location": {
+      "lng": 117.26,
+      "lat": 34.78,
+      "place": {
+        "zh": "山东滕县临城",
+        "en": "Lincheng, Tengxian, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年3月17日，日军攻陷临城。",
+      "en": "On 17 March 1938 Japanese forces captured Lincheng."
+    },
+    "description": {
+      "zh": "3月17日，日军步兵第63联队以30余辆战车及空军优势猛攻官桥阵地，官桥、临城相继失守。临城（今薛城）是津浦铁路与临枣支线交会处，为日军南下峄县、台儿庄的要点。日期据台儿庄战役史料，待页码级核对。",
+      "en": "On 17 March the Japanese 63rd Infantry Regiment, with more than 30 tanks and air support, attacked the Guanqiao positions; Guanqiao and Lincheng fell in succession. Lincheng (now Xuecheng) was the junction of the Tianjin–Pukou railway and the Lincheng–Zaozhuang branch, a key point for the advance on Yixian and Taierzhuang. The date follows Taierzhuang campaign sources and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      },
+      {
+        "title": "《日军进攻山东》",
+        "author": "中共山东省委党史研究室，山东抗战纪念网",
+        "year": 2015,
+        "url": "http://www.sdkrzzjng.com/kzlct/qlkrfh/201506/t20150624_12602323.htm",
+        "note": "2026-11-21 访问；德州、济南、青岛、山东全境沦陷、伪山东省公署"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "yixian-fall-1938-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "峄县沦陷",
+      "en": "Fall of Yixian"
+    },
+    "date": "1938-03-18",
+    "location": {
+      "lng": 117.57,
+      "lat": 34.77,
+      "place": {
+        "zh": "山东峄县",
+        "en": "Yixian, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年3月18日，日军占领峄县。",
+      "en": "On 18 March 1938 Japanese forces occupied Yixian."
+    },
+    "description": {
+      "zh": "3月18日，日军兵分两路，直赴韩庄、峄县，峄县沦陷。峄县是台儿庄战役的核心地区，日军由此南下台儿庄。日期据台儿庄战役史料，待页码级核对。",
+      "en": "On 18 March Japanese forces split into two columns toward Hanzhuang and Yixian, and Yixian fell. The county was at the heart of the Taierzhuang campaign; from there Japanese forces moved south on Taierzhuang. The date follows Taierzhuang campaign sources and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      },
+      {
+        "title": "《日军进攻山东》",
+        "author": "中共山东省委党史研究室，山东抗战纪念网",
+        "year": 2015,
+        "url": "http://www.sdkrzzjng.com/kzlct/qlkrfh/201506/t20150624_12602323.htm",
+        "note": "2026-11-21 访问；德州、济南、青岛、山东全境沦陷、伪山东省公署"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "zaozhuang-fall-1938-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "枣庄沦陷",
+      "en": "Fall of Zaozhuang"
+    },
+    "date": "1938-03-18",
+    "location": {
+      "lng": 117.57,
+      "lat": 34.87,
+      "place": {
+        "zh": "山东峄县枣庄",
+        "en": "Zaozhuang, Yixian, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年3月18日，日军占领枣庄。",
+      "en": "On 18 March 1938 Japanese forces occupied Zaozhuang."
+    },
+    "description": {
+      "zh": "3月18日，日军占领枣庄，抢占中兴煤矿，屠杀百姓，并在关键设施部署兵力。枣庄是鲁南煤海，沦陷后成为日军掠夺煤炭的据点。日期据枣庄地方史与台儿庄战役史料，待页码级核对。",
+      "en": "On 18 March Japanese forces occupied Zaozhuang, seized the Zhongxing coal mines, massacred civilians and garrisoned key installations. Zaozhuang was the coal centre of southern Shandong and became a base for Japanese coal extraction. The date follows Zaozhuang local history and Taierzhuang campaign sources and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      },
+      {
+        "title": "《日军进攻山东》",
+        "author": "中共山东省委党史研究室，山东抗战纪念网",
+        "year": 2015,
+        "url": "http://www.sdkrzzjng.com/kzlct/qlkrfh/201506/t20150624_12602323.htm",
+        "note": "2026-11-21 访问；德州、济南、青岛、山东全境沦陷、伪山东省公署"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "linyi-fall-1938-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "临沂沦陷",
+      "en": "Fall of Linyi"
+    },
+    "date": "1938-04-21",
+    "location": {
+      "lng": 118.35,
+      "lat": 35.05,
+      "place": {
+        "zh": "山东临沂",
+        "en": "Linyi, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年4月21日，日军占领临沂。",
+      "en": "On 21 April 1938 Japanese forces occupied Linyi."
+    },
+    "description": {
+      "zh": "3月至4月，中国军队在临沂与日军第5师团激战，取得临沂阻击战胜利。4月21日，由于台儿庄战役吃紧，张自忠、庞炳勋两军相继撤离，临沂遂被日军占领。日军进城后屠杀平民2840余人。日期据临沂市政府与《山东抗日战争大事记》，待页码级核对。",
+      "en": "From March to April Chinese forces fought the Japanese 5th Division at Linyi and won the Linyi blocking battle. On 21 April, as the Taierzhuang front became critical, the armies of Zhang Zizhong and Pang Bingxun withdrew and Linyi was occupied. Japanese troops killed more than 2,840 civilians after entering the city. The date follows the Linyi municipal government and the Shandong war chronology and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《历史沿革》",
+        "author": "临沂市人民政府",
+        "year": 2020,
+        "url": "https://www.linyi.gov.cn/sq/lygk/lsyg1.htm",
+        "note": "2026-11-21 访问；1938-04 临沂沦陷"
+      },
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "yuncheng-fall-1938-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "郓城沦陷",
+      "en": "Fall of Yuncheng"
+    },
+    "date": "1938-05-09",
+    "location": {
+      "lng": 115.94,
+      "lat": 35.6,
+      "place": {
+        "zh": "山东郓城",
+        "en": "Yuncheng, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年5月9日，日军进攻郓城，郓城失陷。",
+      "en": "On 9 May 1938 Japanese forces attacked Yuncheng and the county fell."
+    },
+    "description": {
+      "zh": "5月9日，日军第16师团进攻郓城，中国守军第69旅死守不力，郓城失陷。随后日军重兵进逼菏泽。日期据《徐州会战》与《山东抗日战争大事记》，待页码级核对。",
+      "en": "On 9 May the Japanese 16th Division attacked Yuncheng; the Chinese 69th Brigade failed to hold and the county fell. Japanese forces then closed on Heze. The date follows the Xuzhou campaign account and the Shandong war chronology and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《徐州会战》",
+        "author": "维基百科",
+        "year": 2024,
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%BE%90%E5%B7%9E%E4%BC%9A%E6%88%98",
+        "note": "2026-11-21 访问；5/9 郓城、5/14 菏泽、5/19 徐州"
+      },
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "jinxiang-fall-1938-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "金乡沦陷",
+      "en": "Fall of Jinxiang"
+    },
+    "date": "1938-05-14",
+    "location": {
+      "lng": 116.31,
+      "lat": 35.07,
+      "place": {
+        "zh": "山东金乡",
+        "en": "Jinxiang, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年5月14日，日军攻破金乡城，制造金乡惨案。",
+      "en": "On 14 May 1938 Japanese forces broke into Jinxiang and carried out the Jinxiang massacre."
+    },
+    "description": {
+      "zh": "5月11日起，日军飞机连续轰炸金乡县城；5月13日至14日，日军在城郊王楼、大义等村屠杀平民；5月14日破城后，对未撤离的3000余名居民进行屠杀。金乡惨案是徐州会战期间日军在鲁西南的重大暴行。日期据《金乡惨案》，待页码级核对。",
+      "en": "From 11 May Japanese aircraft repeatedly bombed Jinxiang. On 13–14 May Japanese troops massacred civilians in Wanglou, Dayi and other suburban villages; after breaking into the city on 14 May they killed more than 3,000 residents who had not fled. The Jinxiang massacre was a major atrocity in southwestern Shandong during the Xuzhou campaign. The date follows the Jinxiang massacre account and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《金乡惨案》",
+        "author": "抗日战争纪念网",
+        "year": 2015,
+        "url": "https://m.krzzjn.com/show-608-46403.html",
+        "note": "2026-11-21 访问；5/14 金乡破城"
+      },
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "liaocheng-fall-1938-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "聊城沦陷",
+      "en": "Fall of Liaocheng"
+    },
+    "date": "1938-11-15",
+    "location": {
+      "lng": 116.25,
+      "lat": 36.45,
+      "place": {
+        "zh": "山东聊城",
+        "en": "Liaocheng, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年11月15日，日军攻破聊城，范筑先殉国。",
+      "en": "On 15 November 1938 Japanese forces broke into Liaocheng; Fan Zhuxian died in the defence."
+    },
+    "description": {
+      "zh": "11月14日至15日，日军分3路进犯鲁西北地区，聊城被围。范筑先率部与日军英勇战斗，终因敌众我寡，被日军攻破城门，范筑先等近700名将士壮烈殉国。日期据《山东抗日战争大事记》与《日军进攻山东》，待页码级核对。",
+      "en": "On 14–15 November Japanese forces advanced into northwestern Shandong in three columns and surrounded Liaocheng. Fan Zhuxian and his troops fought bravely but were overwhelmed; the gates were breached and Fan and nearly 700 officers and men died. The date follows the Shandong war chronology and the provincial party history and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      },
+      {
+        "title": "《日军进攻山东》",
+        "author": "中共山东省委党史研究室，山东抗战纪念网",
+        "year": 2015,
+        "url": "http://www.sdkrzzjng.com/kzlct/qlkrfh/201506/t20150624_12602323.htm",
+        "note": "2026-11-21 访问；德州、济南、青岛、山东全境沦陷、伪山东省公署"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "puppet-shandong-government-1938-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "伪山东省公署成立",
+      "en": "Establishment of the Puppet Shandong Provincial Government"
+    },
+    "date": "1938-03-05",
+    "location": {
+      "lng": 117.0,
+      "lat": 36.65,
+      "place": {
+        "zh": "山东济南",
+        "en": "Jinan, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "1938年3月5日，伪山东省公署在济南成立。",
+      "en": "On 5 March 1938 the puppet Shandong provincial government was established in Jinan."
+    },
+    "description": {
+      "zh": "3月5日，伪山东省公署在济南成立，马良任伪省长；1939年1月唐仰杜接任，1943年8月改为伪山东省政府，1945年2月杨毓珣出任最后一任伪省长。伪政权是日军控制山东的统治工具。政治事件，不绘路线。",
+      "en": "On 5 March the puppet Shandong provincial government was established in Jinan with Ma Liang as governor. Tang Yangdu succeeded him in January 1939; the body became the puppet Shandong provincial government in August 1943, and Yang Yuxun became its last governor in February 1945. The puppet regime was a tool of Japanese control. This political event is not drawn as a route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《日军进攻山东》",
+        "author": "中共山东省委党史研究室，山东抗战纪念网",
+        "year": 2015,
+        "url": "http://www.sdkrzzjng.com/kzlct/qlkrfh/201506/t20150624_12602323.htm",
+        "note": "2026-11-21 访问；德州、济南、青岛、山东全境沦陷、伪山东省公署"
+      },
+      {
+        "title": "《山东抗日战争大事记（1931-1938）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126756.html",
+        "note": "2026-11-21 访问；9/30 侵入山东、11/16 撤黄河、12/27 济南、1/10 青岛、5/19 徐州、11/15 聊城"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "rongcheng-fall-1940-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "荣成沦陷",
+      "en": "Fall of Rongcheng"
+    },
+    "date": "1940-02-22",
+    "location": {
+      "lng": 122.42,
+      "lat": 37.17,
+      "place": {
+        "zh": "山东荣成",
+        "en": "Rongcheng, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1940年2月22日，日军占领荣成，山东107县全部沦陷。",
+      "en": "On 22 February 1940 Japanese forces occupied Rongcheng, completing the occupation of all 107 counties in Shandong."
+    },
+    "description": {
+      "zh": "1940年2月22日，日军占领荣成县。至此，山东全省107个县全部沦陷。荣成是山东最后一个沦陷的县城，此后山东抗战进入全境敌后阶段。日期据《抗战期间沦陷的县城》与《山东抗日战争大事记（1939-1945）》，待页码级核对。",
+      "en": "On 22 February 1940 Japanese forces occupied Rongcheng, the last county town in Shandong to fall; all 107 counties were now occupied. The war in Shandong then entered an entirely behind-the-lines phase. The date follows the occupied-county list and the 1939–1945 Shandong war chronology and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗战期间沦陷的县城及45年收复的县城》",
+        "author": "抗日战争纪念网",
+        "year": 2015,
+        "url": "https://m.krzzjn.com/show-41-9717.html",
+        "note": "2026-11-21 访问；荣成 1940-02-22，山东 107 县全部沦陷"
+      },
+      {
+        "title": "《山东抗日战争大事记（1939-1945）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126757.html",
+        "note": "2026-11-21 访问；1939 年后扫荡与根据地"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "yimeng-sweep-1941-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军沂蒙山「铁壁合围」",
+      "en": "Japanese \"Iron Wall\" Sweep in the Yimeng Mountains"
+    },
+    "date": "1941-11-02",
+    "location": {
+      "lng": 118.64,
+      "lat": 35.79,
+      "place": {
+        "zh": "山东沂水",
+        "en": "Yishui, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "1941年11月2日，日军集中5万余人对沂蒙山区发动「铁壁合围」大扫荡。",
+      "en": "On 2 November 1941 more than 50,000 Japanese troops launched an \"iron wall\" sweep in the Yimeng Mountains."
+    },
+    "description": {
+      "zh": "1941年9月至10月，驻山东日军集中5万余人，在第12军司令官土桥一次指挥下，准备对沂蒙山区发动「铁壁合围」大扫荡。11月2日，八路军鲁中军区部队开始沂蒙山反「扫荡」作战。日军在根据地内烧杀抢夺，群众被害和被抓走1.4万余人，被抢走粮食160余万斤。此为多路合围，不绘单一路线。",
+      "en": "From September to October 1941 the Japanese forces in Shandong massed more than 50,000 troops under the 12th Army for an \"iron wall\" sweep of the Yimeng Mountains. On 2 November the Eighth Route Army's central Shandong military district began counter-sweep operations. Japanese troops burned, killed and looted in the base area; more than 14,000 people were killed or abducted and over 800 tons of grain seized. As a multi-column encirclement, it is not drawn as a single route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗日战争史上的今天：11月2日》",
+        "author": "光明网",
+        "year": 2025,
+        "url": "https://politics.gmw.cn/2025-11/02/content_38383026.htm",
+        "note": "2026-11-21 访问；1941-11-02 沂蒙山反扫荡"
+      },
+      {
+        "title": "《山东抗日战争大事记（1939-1945）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126757.html",
+        "note": "2026-11-21 访问；1939 年后扫荡与根据地"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "maanshan-battle-1942-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "马鞍山保卫战",
+      "en": "Defence of Ma'anshan"
+    },
+    "date": "1942-11-09",
+    "location": {
+      "lng": 118.1,
+      "lat": 36.5,
+      "place": {
+        "zh": "山东淄川马鞍山",
+        "en": "Ma'anshan, Zichuan, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "1942年11月，日军围攻淄川马鞍山，八路军伤病员与守军坚守后失守。",
+      "en": "In November 1942 Japanese forces attacked Ma'anshan in Zichuan; Eighth Route Army wounded, civilians and defenders held out before the position fell."
+    },
+    "description": {
+      "zh": "1942年11月，日军对沂蒙山区发动「扫荡」，并出动大批兵力围攻淄川马鞍山。山上八路军伤病员、家属和守军凭险坚守，最终失守。马鞍山是扼沂蒙山区入清河区的门户，此战为日军扫荡中的山地攻防战，不绘单一路线。",
+      "en": "In November 1942 Japanese forces swept the Yimeng Mountains and sent a large force against Ma'anshan in Zichuan. Eighth Route Army wounded, family members and defenders held the mountain position before it fell. Ma'anshan was the gateway from the Yimeng Mountains into the Qinghe area; this mountain battle during the Japanese sweep is not drawn as a single route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《马鞍山保卫战》",
+        "author": "山东省民政厅",
+        "year": 2021,
+        "url": "http://mzt.shandong.gov.cn/art/2021/7/5/art_205229_10288674.html",
+        "note": "2026-11-21 访问；1942-11 马鞍山"
+      },
+      {
+        "title": "《山东抗日战争大事记（1939-1945）》",
+        "author": "山东抗战纪念网",
+        "year": 2022,
+        "url": "https://m.krzzjn.com/show-1152-126757.html",
+        "note": "2026-11-21 访问；1939 年后扫荡与根据地"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "shandong-surrender-1945-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "济南、青岛、德州地区受降",
+      "en": "Surrender of Japanese Forces in Jinan, Qingdao and Dezhou"
+    },
+    "date": "1945-12-27",
+    "location": {
+      "lng": 117.0,
+      "lat": 36.65,
+      "place": {
+        "zh": "山东济南",
+        "en": "Jinan, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "投降",
+    "summary": {
+      "zh": "1945年12月27日，济南、青岛、德州地区受降典礼在济南举行。",
+      "en": "On 27 December 1945 the surrender ceremony for the Jinan, Qingdao and Dezhou areas was held in Jinan."
+    },
+    "description": {
+      "zh": "12月27日，济南、青岛、德州地区受降典礼在山东省立图书馆「奎虚书藏」举行，由第十一战区副司令长官李延年中将主持，日军第43军司令官细川忠康等代表签降。山东区受降主官为李延年，日军投降代表为第43军司令官细川忠康。受降事件，不绘路线。",
+      "en": "On 27 December the surrender ceremony for the Jinan, Qingdao and Dezhou areas was held at the Kui Xu Shu Cang building of the Shandong Provincial Library, presided over by Lieutenant General Li Yannian, deputy commander of the 11th War Zone. Lieutenant General Hosokawa Tadamasa, commander of the Japanese 43rd Army, and other representatives signed. The surrender is not drawn as a route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《1945年济南青岛德州地区抗战胜利受降纪实》",
+        "author": "大众日报",
+        "year": 2025,
+        "url": "https://m.krzzjn.com/show-546-130088.html",
+        "note": "2026-11-21 访问；12/27 济南受降"
+      },
+      {
+        "title": "《伟大胜利——中国受降档案》",
+        "author": "国家档案局",
+        "year": 2014,
+        "url": "https://www.saac.gov.cn/zt/2014-09/03/content_65317_7.htm",
+        "note": "2026-11-21 访问；山东区受降主官与日军代表"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   }
 ]

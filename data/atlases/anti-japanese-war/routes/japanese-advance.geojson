@@ -6586,6 +6586,726 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.31,
+            37.45
+          ],
+          [
+            116.6,
+            37.15
+          ],
+          [
+            116.85,
+            36.85
+          ],
+          [
+            117.0,
+            36.65
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-10-05",
+        "endDate": "1937-12-27",
+        "order": 168,
+        "segmentType": "advance",
+        "name": {
+          "zh": "德州—济南",
+          "en": "Dezhou–Jinan"
+        },
+        "description": {
+          "zh": "1937年10月5日德州失守后，日军第10师团沿津浦路南犯，12月27日占领济南。路线为示意简化。",
+          "en": "After Dezhou fell on 5 October 1937, the Japanese 10th Division advanced south along the Tianjin–Pukou railway and occupied Jinan on 27 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.0,
+            36.65
+          ],
+          [
+            117.05,
+            36.42
+          ],
+          [
+            117.09,
+            36.19
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-12-27",
+        "endDate": "1937-12-31",
+        "order": 169,
+        "segmentType": "advance",
+        "name": {
+          "zh": "济南—泰安",
+          "en": "Jinan–Tai'an"
+        },
+        "description": {
+          "zh": "1937年12月27日济南失守后，日军沿津浦路南下，12月31日占领泰安。路线为示意简化。",
+          "en": "After Jinan fell on 27 December 1937, Japanese forces advanced south along the Tianjin–Pukou railway and occupied Tai'an on 31 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.09,
+            36.19
+          ],
+          [
+            116.95,
+            35.85
+          ],
+          [
+            116.83,
+            35.55
+          ],
+          [
+            116.99,
+            35.58
+          ],
+          [
+            116.97,
+            35.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-12-31",
+        "endDate": "1938-01-05",
+        "order": 170,
+        "segmentType": "advance",
+        "name": {
+          "zh": "泰安—兖州—曲阜—邹县",
+          "en": "Tai'an–Yanzhou–Qufu–Zouxian"
+        },
+        "description": {
+          "zh": "1937年12月31日泰安失守后，日军沿津浦路南下，1938年1月4日占兖州、曲阜，1月5日占邹县。路线为示意简化。",
+          "en": "After Tai'an fell on 31 December 1937, Japanese forces advanced south along the Tianjin–Pukou railway, taking Yanzhou and Qufu on 4 January 1938 and Zouxian on 5 January. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.97,
+            35.4
+          ],
+          [
+            116.75,
+            35.4
+          ],
+          [
+            116.59,
+            35.41
+          ],
+          [
+            116.49,
+            35.73
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-01-05",
+        "endDate": "1938-01-16",
+        "order": 171,
+        "segmentType": "advance",
+        "name": {
+          "zh": "邹县—济宁—汶上",
+          "en": "Zouxian–Jining–Wenshang"
+        },
+        "description": {
+          "zh": "1938年1月5日邹县失守后，日军西犯，1月11日占济宁，1月16日占汶上。路线为示意简化。",
+          "en": "After Zouxian fell on 5 January 1938, Japanese forces advanced west, taking Jining on 11 January and Wenshang on 16 January. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.85,
+            36.8
+          ],
+          [
+            117.92,
+            36.72
+          ],
+          [
+            117.97,
+            36.65
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-12-26",
+        "endDate": "1937-12-27",
+        "order": 172,
+        "segmentType": "advance",
+        "name": {
+          "zh": "周村—淄川",
+          "en": "Zhoucun–Zichuan"
+        },
+        "description": {
+          "zh": "1937年12月26日周村失守后，日军沿胶济铁路南侧推进，12月27日占领淄川。路线为示意简化。",
+          "en": "After Zhoucun fell on 26 December 1937, Japanese forces advanced along the southern side of the Jiaoji railway and occupied Zichuan on 27 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.38,
+            36.07
+          ],
+          [
+            120.42,
+            36.23
+          ],
+          [
+            120.45,
+            36.39
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-01-10",
+        "endDate": "1938-01-17",
+        "order": 173,
+        "segmentType": "advance",
+        "name": {
+          "zh": "青岛—即墨",
+          "en": "Qingdao–Jimo"
+        },
+        "description": {
+          "zh": "1938年1月10日青岛失守后，日军沿青烟公路北犯，1月17日侵占即墨城。路线为示意简化。",
+          "en": "After Qingdao fell on 10 January 1938, Japanese forces advanced north along the Qingdao–Yantai road and occupied Jimo on 17 January. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.38,
+            36.07
+          ],
+          [
+            120.0,
+            36.27
+          ],
+          [
+            119.75,
+            36.38
+          ],
+          [
+            119.96,
+            36.78
+          ],
+          [
+            120.71,
+            36.98
+          ],
+          [
+            121.39,
+            37.54
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-01-10",
+        "endDate": "1938-02-03",
+        "order": 174,
+        "segmentType": "advance",
+        "name": {
+          "zh": "青岛—烟台",
+          "en": "Qingdao–Yantai"
+        },
+        "description": {
+          "zh": "1938年1月10日青岛失守后，日军沿青烟公路北犯，2月3日占领烟台。路线为示意简化。",
+          "en": "After Qingdao fell on 10 January 1938, Japanese forces advanced north along the Qingdao–Yantai road and occupied Yantai on 3 February. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.39,
+            37.54
+          ],
+          [
+            121.6,
+            37.45
+          ],
+          [
+            122.12,
+            37.51
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-02-03",
+        "endDate": "1938-03-07",
+        "order": 175,
+        "segmentType": "advance",
+        "name": {
+          "zh": "烟台—威海卫",
+          "en": "Yantai–Weihaiwei"
+        },
+        "description": {
+          "zh": "1938年2月3日烟台失守后，日军分兵东进，3月7日占领威海卫。路线为示意简化。",
+          "en": "After Yantai fell on 3 February 1938, Japanese forces moved east and occupied Weihaiwei on 7 March. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.83,
+            35.55
+          ],
+          [
+            117.0,
+            35.3
+          ],
+          [
+            117.15,
+            35.08
+          ],
+          [
+            117.26,
+            34.78
+          ],
+          [
+            117.57,
+            34.77
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-01-05",
+        "endDate": "1938-03-18",
+        "order": 176,
+        "segmentType": "advance",
+        "name": {
+          "zh": "兖州—滕县—临城—峄县",
+          "en": "Yanzhou–Tengxian–Lincheng–Yixian"
+        },
+        "description": {
+          "zh": "1938年1月5日邹县失守后，日军沿津浦路南下，3月17日占滕县、临城，3月18日占峄县。路线为示意简化。",
+          "en": "After Zouxian fell on 5 January 1938, Japanese forces advanced south along the Tianjin–Pukou railway, taking Tengxian and Lincheng on 17 March and Yixian on 18 March. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.57,
+            34.77
+          ],
+          [
+            117.57,
+            34.87
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-03-18",
+        "endDate": "1938-03-18",
+        "order": 177,
+        "segmentType": "advance",
+        "name": {
+          "zh": "峄县—枣庄",
+          "en": "Yixian–Zaozhuang"
+        },
+        "description": {
+          "zh": "1938年3月18日，日军占领峄县后北进枣庄，抢占中兴煤矿。路线为示意简化。",
+          "en": "On 18 March 1938 Japanese forces occupied Yixian and moved north into Zaozhuang, seizing the Zhongxing coal mines. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.1,
+            36.7
+          ],
+          [
+            118.84,
+            36.2
+          ],
+          [
+            118.64,
+            35.79
+          ],
+          [
+            118.35,
+            35.05
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-01-10",
+        "endDate": "1938-04-21",
+        "order": 178,
+        "segmentType": "advance",
+        "name": {
+          "zh": "潍县—临沂",
+          "en": "Weixian–Linyi"
+        },
+        "description": {
+          "zh": "1938年1月10日潍县失守后，日军第5师团沿胶济路—莒县方向南犯，4月21日占领临沂。路线为示意简化。",
+          "en": "After Weixian fell on 10 January 1938, the Japanese 5th Division advanced south via the Jiaoji railway and Ju county, occupying Linyi on 21 April. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.94,
+            35.6
+          ],
+          [
+            115.73,
+            35.48
+          ],
+          [
+            115.48,
+            35.23
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-05-09",
+        "endDate": "1938-05-14",
+        "order": 179,
+        "segmentType": "advance",
+        "name": {
+          "zh": "郓城—菏泽",
+          "en": "Yuncheng–Heze"
+        },
+        "description": {
+          "zh": "1938年5月9日郓城失守后，日军第16师团西犯，5月14日占领菏泽。路线为示意简化。",
+          "en": "After Yuncheng fell on 9 May 1938, the Japanese 16th Division advanced west and occupied Heze on 14 May. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.0,
+            36.65
+          ],
+          [
+            116.75,
+            36.55
+          ],
+          [
+            116.25,
+            36.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-11-14",
+        "endDate": "1938-11-15",
+        "order": 180,
+        "segmentType": "advance",
+        "name": {
+          "zh": "济南—聊城",
+          "en": "Jinan–Liaocheng"
+        },
+        "description": {
+          "zh": "1938年11月14日至15日，日军分3路进犯鲁西北，攻破聊城。路线为示意简化。",
+          "en": "On 14–15 November 1938 Japanese forces advanced into northwestern Shandong in three columns and broke into Liaocheng. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.31,
+            37.45
+          ],
+          [
+            116.0,
+            37.2
+          ],
+          [
+            115.71,
+            36.84
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-19",
+        "endDate": "1937-11-19",
+        "order": 181,
+        "segmentType": "advance",
+        "name": {
+          "zh": "德州—临清",
+          "en": "Dezhou–Linqing"
+        },
+        "description": {
+          "zh": "1937年11月19日，日军由德州方向侵入临清、高唐。路线为示意简化。",
+          "en": "On 19 November 1937 Japanese forces advanced from the Dezhou direction into Linqing and Gaotang. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.71,
+            36.84
+          ],
+          [
+            115.95,
+            36.86
+          ],
+          [
+            116.23,
+            36.87
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-19",
+        "endDate": "1937-11-19",
+        "order": 182,
+        "segmentType": "advance",
+        "name": {
+          "zh": "临清—高唐",
+          "en": "Linqing–Gaotang"
+        },
+        "description": {
+          "zh": "1937年11月19日，日军由临清方向侵入高唐。路线为示意简化。",
+          "en": "On 19 November 1937 Japanese forces advanced from the Linqing direction into Gaotang. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.99,
+            35.58
+          ],
+          [
+            117.12,
+            35.62
+          ],
+          [
+            117.25,
+            35.65
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-01-11",
+        "endDate": "1938-01-11",
+        "order": 183,
+        "segmentType": "advance",
+        "name": {
+          "zh": "曲阜—泗水",
+          "en": "Qufu–Sishui"
+        },
+        "description": {
+          "zh": "1938年1月11日，日军由曲阜方向占领泗水。路线为示意简化。",
+          "en": "On 11 January 1938 Japanese forces advanced from the Qufu direction and occupied Sishui. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.39,
+            37.54
+          ],
+          [
+            120.95,
+            37.72
+          ],
+          [
+            120.53,
+            37.65
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-02-05",
+        "endDate": "1938-02-05",
+        "order": 184,
+        "segmentType": "advance",
+        "name": {
+          "zh": "烟台—黄县",
+          "en": "Yantai–Huangxian"
+        },
+        "description": {
+          "zh": "1938年2月5日，日军由烟台西进，占领黄县。路线为示意简化。",
+          "en": "On 5 February 1938 Japanese forces advanced west from Yantai and occupied Huangxian. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.59,
+            35.41
+          ],
+          [
+            116.45,
+            35.25
+          ],
+          [
+            116.31,
+            35.07
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-01-11",
+        "endDate": "1938-05-14",
+        "order": 185,
+        "segmentType": "advance",
+        "name": {
+          "zh": "济宁—金乡",
+          "en": "Jining–Jinxiang"
+        },
+        "description": {
+          "zh": "1938年1月11日济宁失守后，日军向西南推进，5月14日攻破金乡城。路线为示意简化。",
+          "en": "After Jining fell on 11 January 1938, Japanese forces advanced southwest and broke into Jinxiang on 14 May. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

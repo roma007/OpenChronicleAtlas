@@ -3297,14 +3297,38 @@
       ]
     },
     {
-      "id": "place-shandong-u5cc4u53bfu53f0u513fu5e84",
-      "level": "place",
+      "id": "county-shandong-u5cc4u53bf",
+      "level": "county",
       "parentId": "shandong",
       "name": {
-        "zh": "峄县台儿庄"
+        "zh": "峄县"
       },
       "shortName": {
-        "zh": "峄县台儿庄"
+        "zh": "峄"
+      },
+      "aliases": [
+        "峄"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "manual",
+        "pointConfidence": "medium",
+        "note": "峄县治今枣庄峄城"
+      },
+      "point": [
+        117.58,
+        34.77
+      ]
+    },
+    {
+      "id": "place-shandong-u5cc4u53bfu53f0u513fu5e84",
+      "level": "place",
+      "parentId": "county-shandong-u5cc4u53bf",
+      "name": {
+        "zh": "台儿庄"
+      },
+      "shortName": {
+        "zh": "台儿庄"
       },
       "aliases": [
         "山东峄县台儿庄（今枣庄）",
@@ -3320,7 +3344,7 @@
       "extensions": {
         "frame": "ROC-1937",
         "sourcePlace": "山东峄县台儿庄（今枣庄）",
-        "confidence": "low"
+        "confidence": "medium"
       }
     },
     {
@@ -3373,30 +3397,6 @@
         "sourcePlace": "山西潞城神头岭",
         "confidence": "medium"
       }
-    },
-    {
-      "id": "county-shandong-u5cc4u53bf",
-      "level": "county",
-      "parentId": "shandong",
-      "name": {
-        "zh": "峄县"
-      },
-      "shortName": {
-        "zh": "峄"
-      },
-      "aliases": [
-        "峄"
-      ],
-      "extensions": {
-        "frame": "ROC-1937",
-        "pointSource": "manual",
-        "pointConfidence": "medium",
-        "note": "峄县治今枣庄峄城"
-      },
-      "point": [
-        117.58,
-        34.77
-      ]
     },
     {
       "id": "place-shandong-u67a3u5e84",
@@ -12402,6 +12402,684 @@
         117.55,
         33.55
       ]
+    },
+    {
+      "id": "county-shandong-u5fb7u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "德县"
+      },
+      "shortName": {
+        "zh": "德"
+      },
+      "aliases": [
+        "德"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "county-seat-place"
+      },
+      "point": [
+        116.31,
+        37.45
+      ]
+    },
+    {
+      "id": "place-shandong-u5fb7u5dde",
+      "level": "place",
+      "parentId": "county-shandong-u5fb7u53bf",
+      "name": {
+        "zh": "德州"
+      },
+      "shortName": {
+        "zh": "德州"
+      },
+      "aliases": [
+        "山东德州",
+        "山东德州"
+      ],
+      "modernName": {
+        "zh": "山东德州"
+      },
+      "point": [
+        116.31,
+        37.45
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山东德州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-shandong-u4e34u6e05u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "临清县"
+      },
+      "shortName": {
+        "zh": "临清"
+      },
+      "aliases": [
+        "临清"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.71,
+        36.84
+      ]
+    },
+    {
+      "id": "county-shandong-u9ad8u5510u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "高唐县"
+      },
+      "shortName": {
+        "zh": "高唐"
+      },
+      "aliases": [
+        "高唐"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.23,
+        36.87
+      ]
+    },
+    {
+      "id": "county-shandong-u957fu5c71u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "长山县"
+      },
+      "shortName": {
+        "zh": "长山"
+      },
+      "aliases": [
+        "长山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "county-seat-place"
+      },
+      "point": [
+        117.85,
+        36.8
+      ]
+    },
+    {
+      "id": "place-shandong-u5468u6751",
+      "level": "place",
+      "parentId": "county-shandong-u957fu5c71u53bf",
+      "name": {
+        "zh": "周村"
+      },
+      "shortName": {
+        "zh": "周村"
+      },
+      "aliases": [
+        "山东周村",
+        "山东周村"
+      ],
+      "modernName": {
+        "zh": "山东周村"
+      },
+      "point": [
+        117.85,
+        36.8
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山东周村",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-shandong-u6dc4u5dddu53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "淄川县"
+      },
+      "shortName": {
+        "zh": "淄川"
+      },
+      "aliases": [
+        "淄川"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        118.035,
+        36.575
+      ]
+    },
+    {
+      "id": "county-shandong-u6cf0u5b89u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "泰安县"
+      },
+      "shortName": {
+        "zh": "泰安"
+      },
+      "aliases": [
+        "泰安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        117.09,
+        36.19
+      ]
+    },
+    {
+      "id": "county-shandong-u6f4du53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "潍县"
+      },
+      "shortName": {
+        "zh": "潍"
+      },
+      "aliases": [
+        "潍"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.1,
+        36.7
+      ]
+    },
+    {
+      "id": "county-shandong-u6ecbu9633u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "滋阳县"
+      },
+      "shortName": {
+        "zh": "滋阳"
+      },
+      "aliases": [
+        "滋阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "county-seat-place"
+      },
+      "point": [
+        116.83,
+        35.55
+      ]
+    },
+    {
+      "id": "place-shandong-u5156u5dde",
+      "level": "place",
+      "parentId": "county-shandong-u6ecbu9633u53bf",
+      "name": {
+        "zh": "兖州"
+      },
+      "shortName": {
+        "zh": "兖州"
+      },
+      "aliases": [
+        "山东兖州",
+        "山东兖州"
+      ],
+      "modernName": {
+        "zh": "山东兖州"
+      },
+      "point": [
+        116.83,
+        35.55
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山东兖州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-shandong-u66f2u961cu53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "曲阜县"
+      },
+      "shortName": {
+        "zh": "曲阜"
+      },
+      "aliases": [
+        "曲阜"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.99,
+        35.58
+      ]
+    },
+    {
+      "id": "county-shandong-u90b9u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "邹县"
+      },
+      "shortName": {
+        "zh": "邹"
+      },
+      "aliases": [
+        "邹"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.97,
+        35.4
+      ]
+    },
+    {
+      "id": "county-shandong-u6d4eu5b81u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "济宁县"
+      },
+      "shortName": {
+        "zh": "济宁"
+      },
+      "aliases": [
+        "济宁"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.59,
+        35.41
+      ]
+    },
+    {
+      "id": "county-shandong-u6cd7u6c34u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "泗水县"
+      },
+      "shortName": {
+        "zh": "泗水"
+      },
+      "aliases": [
+        "泗水"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        117.25,
+        35.65
+      ]
+    },
+    {
+      "id": "county-shandong-u6c76u4e0au53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "汶上县"
+      },
+      "shortName": {
+        "zh": "汶上"
+      },
+      "aliases": [
+        "汶上"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.49,
+        35.73
+      ]
+    },
+    {
+      "id": "county-shandong-u5373u58a8u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "即墨县"
+      },
+      "shortName": {
+        "zh": "即墨"
+      },
+      "aliases": [
+        "即墨"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        120.45,
+        36.39
+      ]
+    },
+    {
+      "id": "county-shandong-u798fu5c71u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "福山县"
+      },
+      "shortName": {
+        "zh": "福山"
+      },
+      "aliases": [
+        "福山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "county-seat-place"
+      },
+      "point": [
+        121.39,
+        37.54
+      ]
+    },
+    {
+      "id": "place-shandong-u70dfu53f0",
+      "level": "place",
+      "parentId": "county-shandong-u798fu5c71u53bf",
+      "name": {
+        "zh": "烟台"
+      },
+      "shortName": {
+        "zh": "烟台"
+      },
+      "aliases": [
+        "山东烟台",
+        "山东烟台"
+      ],
+      "modernName": {
+        "zh": "山东烟台"
+      },
+      "point": [
+        121.39,
+        37.54
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山东烟台",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-shandong-u9ec4u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "黄县"
+      },
+      "shortName": {
+        "zh": "黄"
+      },
+      "aliases": [
+        "黄"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        120.53,
+        37.65
+      ]
+    },
+    {
+      "id": "county-shandong-u5a01u6d77u536bu884cu653fu533a",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "威海卫行政区"
+      },
+      "shortName": {
+        "zh": "威海卫行政区"
+      },
+      "aliases": [
+        "威海卫行政区"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "county-seat-place"
+      },
+      "point": [
+        122.12,
+        37.51
+      ]
+    },
+    {
+      "id": "place-shandong-u5a01u6d77u536b",
+      "level": "place",
+      "parentId": "county-shandong-u5a01u6d77u536bu884cu653fu533a",
+      "name": {
+        "zh": "威海卫"
+      },
+      "shortName": {
+        "zh": "威海卫"
+      },
+      "aliases": [
+        "山东威海卫",
+        "山东威海卫"
+      ],
+      "modernName": {
+        "zh": "山东威海卫"
+      },
+      "point": [
+        122.12,
+        37.51
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山东威海卫",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-shandong-u6ed5u53bfu4e34u57ce",
+      "level": "place",
+      "parentId": "county-shandong-u6ed5u53bf",
+      "name": {
+        "zh": "临城"
+      },
+      "shortName": {
+        "zh": "临城"
+      },
+      "aliases": [
+        "山东滕县临城",
+        "山东滕县临城"
+      ],
+      "modernName": {
+        "zh": "山东滕县临城"
+      },
+      "point": [
+        117.26,
+        34.78
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山东滕县临城",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-shandong-u5cc4u53bfu67a3u5e84",
+      "level": "place",
+      "parentId": "county-shandong-u5cc4u53bf",
+      "name": {
+        "zh": "枣庄"
+      },
+      "shortName": {
+        "zh": "枣庄"
+      },
+      "aliases": [
+        "山东峄县枣庄",
+        "山东峄县枣庄"
+      ],
+      "modernName": {
+        "zh": "山东峄县枣庄"
+      },
+      "point": [
+        117.57,
+        34.87
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山东峄县枣庄",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-shandong-u90d3u57ceu53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "郓城县"
+      },
+      "shortName": {
+        "zh": "郓城"
+      },
+      "aliases": [
+        "郓城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.94,
+        35.6
+      ]
+    },
+    {
+      "id": "county-shandong-u91d1u4e61u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "金乡县"
+      },
+      "shortName": {
+        "zh": "金乡"
+      },
+      "aliases": [
+        "金乡"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.31,
+        35.07
+      ]
+    },
+    {
+      "id": "county-shandong-u804au57ceu53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "聊城县"
+      },
+      "shortName": {
+        "zh": "聊城"
+      },
+      "aliases": [
+        "聊城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.25,
+        36.45
+      ]
+    },
+    {
+      "id": "county-shandong-u8363u6210u53bf",
+      "level": "county",
+      "parentId": "shandong",
+      "name": {
+        "zh": "荣成县"
+      },
+      "shortName": {
+        "zh": "荣成"
+      },
+      "aliases": [
+        "荣成"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        122.42,
+        37.17
+      ]
+    },
+    {
+      "id": "place-shandong-u6dc4u5dddu9a6cu978du5c71",
+      "level": "place",
+      "parentId": "county-shandong-u6dc4u5dddu53bf",
+      "name": {
+        "zh": "马鞍山"
+      },
+      "shortName": {
+        "zh": "马鞍山"
+      },
+      "aliases": [
+        "山东淄川马鞍山",
+        "山东淄川马鞍山"
+      ],
+      "modernName": {
+        "zh": "山东淄川马鞍山"
+      },
+      "point": [
+        118.1,
+        36.5
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山东淄川马鞍山",
+        "confidence": "medium"
+      }
     }
   ]
 }
