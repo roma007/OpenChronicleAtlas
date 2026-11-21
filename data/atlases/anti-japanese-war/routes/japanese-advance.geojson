@@ -11818,6 +11818,332 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.07,
+            24.08
+          ],
+          [
+            98.28,
+            24.15
+          ],
+          [
+            98.58,
+            24.43
+          ],
+          [
+            98.69,
+            24.59
+          ],
+          [
+            98.95,
+            24.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1942-05-03",
+        "endDate": "1942-05-05",
+        "order": 300,
+        "segmentType": "advance",
+        "name": {
+          "zh": "畹町—遮放—芒市—龙陵—惠通桥",
+          "en": "Wanding–Zhefang–Mangshi–Longling–Huitong Bridge"
+        },
+        "description": {
+          "zh": "1942年5月3日日军侵入畹町，连陷遮放、芒市、龙陵，5日进抵惠通桥西岸。路线为示意简化。",
+          "en": "On 3 May 1942 the Japanese entered Wanding, took Zhefang, Mangshi and Longling in succession, and reached the west bank of the Huitong Bridge on the 5th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.69,
+            24.59
+          ],
+          [
+            98.49,
+            25.02
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1942-05-04",
+        "endDate": "1942-05-10",
+        "order": 301,
+        "segmentType": "advance",
+        "name": {
+          "zh": "龙陵—腾冲",
+          "en": "Longling–Tengchong"
+        },
+        "description": {
+          "zh": "1942年5月10日日军由龙陵方向侵入腾冲。路线为示意简化。",
+          "en": "On 10 May 1942 the Japanese advanced from Longling into Tengchong. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.58,
+            24.43
+          ],
+          [
+            97.85,
+            24.01
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1942-05-03",
+        "endDate": "1942-05-05",
+        "order": 302,
+        "segmentType": "advance",
+        "name": {
+          "zh": "芒市—瑞丽",
+          "en": "Mangshi–Ruili"
+        },
+        "description": {
+          "zh": "1942年5月3日日军占领瑞丽（勐卯）。路线为示意简化。",
+          "en": "On 3 May 1942 the Japanese occupied Ruili (Mengmao). The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.58,
+            24.43
+          ],
+          [
+            97.79,
+            24.18
+          ],
+          [
+            97.93,
+            24.71
+          ],
+          [
+            98.3,
+            24.81
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1942-05-04",
+        "endDate": "1942-05-10",
+        "order": 303,
+        "segmentType": "advance",
+        "name": {
+          "zh": "芒市—陇川—盈江—梁河",
+          "en": "Mangshi–Longchuan–Yingjiang–Lianghe"
+        },
+        "description": {
+          "zh": "1942年5月4日至10日日军分兵占领陇川、盈江、梁河。路线为示意简化。",
+          "en": "From 4 to 10 May 1942 the Japanese detached forces to occupy Longchuan, Yingjiang and Lianghe. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.9,
+            24.6
+          ],
+          [
+            98.95,
+            24.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-06-04",
+        "endDate": "1944-09-07",
+        "order": 304,
+        "segmentType": "defense",
+        "name": {
+          "zh": "松山—惠通桥",
+          "en": "Songshan–Huitong Bridge"
+        },
+        "description": {
+          "zh": "1944年6月至9月日军松山守备队扼守松山—惠通桥一线，9月7日被中国远征军攻克。路线为示意简化。",
+          "en": "From June to September 1944 the Japanese Songshan garrison held the Songshan–Huitong Bridge line until the Chinese Expeditionary Force took it on 7 September. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.9,
+            24.6
+          ],
+          [
+            98.69,
+            24.59
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-06-04",
+        "endDate": "1944-11-03",
+        "order": 305,
+        "segmentType": "defense",
+        "name": {
+          "zh": "松山—龙陵",
+          "en": "Songshan–Longling"
+        },
+        "description": {
+          "zh": "1944年6月至11月日军松山、龙陵守备队互为犄角，11月3日龙陵被中国远征军收复。路线为示意简化。",
+          "en": "From June to November 1944 the Japanese garrisons at Songshan and Longling supported each other until Longling was recovered on 3 November. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.49,
+            25.02
+          ],
+          [
+            98.69,
+            24.59
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-06-25",
+        "endDate": "1944-11-03",
+        "order": 306,
+        "segmentType": "defense",
+        "name": {
+          "zh": "腾冲—龙陵",
+          "en": "Tengchong–Longling"
+        },
+        "description": {
+          "zh": "1944年6月至11月日军腾冲、龙陵守备队互为犄角，9月14日腾冲、11月3日龙陵被中国远征军收复。路线为示意简化。",
+          "en": "From June to November 1944 the Japanese garrisons at Tengchong and Longling supported each other until Tengchong fell on 14 September and Longling on 3 November. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.69,
+            24.59
+          ],
+          [
+            98.9,
+            24.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-06-05",
+        "endDate": "1944-11-03",
+        "order": 307,
+        "segmentType": "defense",
+        "name": {
+          "zh": "龙陵—平戛",
+          "en": "Longling–Pingjia"
+        },
+        "description": {
+          "zh": "1944年6月至11月日军在平戛构筑据点，掩护龙陵侧翼。路线为示意简化。",
+          "en": "From June to November 1944 the Japanese fortified Pingjia to cover Longling’s flank. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.69,
+            24.59
+          ],
+          [
+            98.85,
+            24.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-06-05",
+        "endDate": "1944-11-03",
+        "order": 308,
+        "segmentType": "defense",
+        "name": {
+          "zh": "龙陵—象达",
+          "en": "Longling–Xiangda"
+        },
+        "description": {
+          "zh": "1944年6月至11月日军在象达构筑据点，掩护龙陵侧翼。路线为示意简化。",
+          "en": "From June to November 1944 the Japanese fortified Xiangda to cover Longling’s flank. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

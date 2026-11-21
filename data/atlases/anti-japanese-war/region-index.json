@@ -3756,12 +3756,73 @@
     "wuming-fall-1944-11": [
       "guangxi",
       "county-guangxi-u6b66u9e23u53bf"
+    ],
+    "zhefang-fall-1942-05": [
+      "yunnan",
+      "county-yunnan-u6f5eu897fu8bbeu6cbbu5c40",
+      "place-yunnan-u906eu653e"
+    ],
+    "mangshi-fall-1942-05": [
+      "yunnan",
+      "county-yunnan-u6f5eu897fu8bbeu6cbbu5c40",
+      "place-yunnan-u6f5eu897fu8292u5e02"
+    ],
+    "tengchong-fall-1942-05": [
+      "yunnan",
+      "county-yunnan-u817eu51b2u53bf"
+    ],
+    "ruili-fall-1942-05": [
+      "yunnan",
+      "county-yunnan-u745eu4e3du8bbeu6cbbu5c40",
+      "place-yunnan-u745eu4e3d"
+    ],
+    "longchuan-fall-1942-05": [
+      "yunnan",
+      "county-yunnan-u9647u5dddu8bbeu6cbbu5c40",
+      "place-yunnan-u9647u5ddd"
+    ],
+    "yingjiang-fall-1942-05": [
+      "yunnan",
+      "county-yunnan-u76c8u6c5fu8bbeu6cbbu5c40",
+      "place-yunnan-u76c8u6c5f"
+    ],
+    "lianghe-fall-1942-05": [
+      "yunnan",
+      "county-yunnan-u6881u6cb3u8bbeu6cbbu5c40",
+      "place-yunnan-u6881u6cb3"
+    ],
+    "baoshan-bombing-1942-05": [
+      "yunnan",
+      "county-yunnan-u4fddu5c71u53bf"
+    ],
+    "mengding-incursion-1943-02": [
+      "yunnan",
+      "county-yunnan-u9547u5eb7u53bf",
+      "place-yunnan-u5b5fu5b9a"
+    ],
+    "cangyuan-incursion-1943-06": [
+      "yunnan",
+      "county-yunnan-u6ca7u6e90u8bbeu6cbbu5c40",
+      "place-yunnan-u6ca7u6e90"
+    ],
+    "pingjia-defense-1944-06": [
+      "yunnan",
+      "county-yunnan-u9f99u9675u53bf",
+      "place-yunnan-u9f99u9675u5e73u621b"
+    ],
+    "xiangda-defense-1944-06": [
+      "yunnan",
+      "county-yunnan-u9f99u9675u53bf",
+      "place-yunnan-u9f99u9675u8c61u8fbe"
     ]
   },
   "routes": {
     "allied-forces:1": {
       "regionIds": [
+        "county-yunnan-u6f5eu897fu8bbeu6cbbu5c40",
+        "county-yunnan-u745eu4e3du8bbeu6cbbu5c40",
         "county-yunnan-u7579u753au9547",
+        "county-yunnan-u9f99u9675u53bf",
         "overseas",
         "yunnan"
       ],
@@ -3780,6 +3841,7 @@
     },
     "allied-forces:3": {
       "regionIds": [
+        "county-yunnan-u6f5eu897fu8bbeu6cbbu5c40",
         "county-yunnan-u7579u753au9547",
         "county-yunnan-u9f99u9675u53bf",
         "yunnan"
@@ -4573,6 +4635,7 @@
     },
     "japanese-invasion:48": {
       "regionIds": [
+        "county-yunnan-u6f5eu897fu8bbeu6cbbu5c40",
         "county-yunnan-u7579u753au9547",
         "yunnan"
       ],
@@ -4871,6 +4934,7 @@
     },
     "japanese-invasion:78": {
       "regionIds": [
+        "county-yunnan-u6f5eu897fu8bbeu6cbbu5c40",
         "county-yunnan-u7579u753au9547",
         "county-yunnan-u9f99u9675u53bf",
         "yunnan"
@@ -6902,6 +6966,92 @@
         "guangxi"
       ]
     },
+    "japanese-invasion:300": {
+      "regionIds": [
+        "county-yunnan-u6f5eu897fu8bbeu6cbbu5c40",
+        "county-yunnan-u7579u753au9547",
+        "county-yunnan-u9f99u9675u53bf",
+        "overseas",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "japanese-invasion:301": {
+      "regionIds": [
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "japanese-invasion:302": {
+      "regionIds": [
+        "county-yunnan-u6f5eu897fu8bbeu6cbbu5c40",
+        "county-yunnan-u745eu4e3du8bbeu6cbbu5c40",
+        "county-yunnan-u7579u753au9547",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "japanese-invasion:303": {
+      "regionIds": [
+        "county-yunnan-u6881u6cb3u8bbeu6cbbu5c40",
+        "county-yunnan-u6f5eu897fu8bbeu6cbbu5c40",
+        "county-yunnan-u76c8u6c5fu8bbeu6cbbu5c40",
+        "county-yunnan-u9647u5dddu8bbeu6cbbu5c40",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "japanese-invasion:304": {
+      "regionIds": [
+        "county-yunnan-u9f99u9675u53bf",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "japanese-invasion:305": {
+      "regionIds": [
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "japanese-invasion:306": {
+      "regionIds": [
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "japanese-invasion:307": {
+      "regionIds": [
+        "county-yunnan-u9f99u9675u53bf",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
+    "japanese-invasion:308": {
+      "regionIds": [
+        "county-yunnan-u9f99u9675u53bf",
+        "yunnan"
+      ],
+      "endpointRegionIds": [
+        "yunnan"
+      ]
+    },
     "kmt-forces:1": {
       "regionIds": [
         "beiping",
@@ -7260,6 +7410,7 @@
     },
     "kmt-forces:36": {
       "regionIds": [
+        "county-yunnan-u6f5eu897fu8bbeu6cbbu5c40",
         "county-yunnan-u7579u753au9547",
         "county-yunnan-u9f99u9675u53bf",
         "overseas",
@@ -8116,6 +8267,7 @@
     },
     "kmt-group-armies:66": {
       "regionIds": [
+        "county-yunnan-u6f5eu897fu8bbeu6cbbu5c40",
         "county-yunnan-u7579u753au9547",
         "yunnan"
       ],

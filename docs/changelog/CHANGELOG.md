@@ -3,6 +3,34 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.208] - 2026-11-21
+
+### Added
+- **抗日战争 · 云南日军战线（M226）**：云南日军事件由 8 条增至 20 条。
+  - 1942 年滇西入侵（8）：遮放、芒市、腾冲、瑞丽、陇川、盈江、梁河、保山大轰炸。
+  - 1943 年边境窜扰（2）：孟定、沧源。
+  - 1944 年日军守备（2）：平戛、象达。
+  - 路线（9 段，#300—#308）：畹町—遮放—芒市—龙陵—惠通桥、龙陵—腾冲、芒市—瑞丽、
+    芒市—陇川—盈江—梁河、松山—惠通桥、松山—龙陵、腾冲—龙陵、龙陵—平戛、龙陵—象达。
+  - 专题：863 → **875** 事件、478 → **487** 段路线；日军层：615 → **627** 事件、299 → **308** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-yunnan.md`、计划
+  `docs/plans/2026-11-21-M226-云南日军战线细化-plan.md`。
+
+### Changed
+- `scripts/build-region-data.py`：增加云南 1937 年设治局/县名映射（潞西设治局、瑞丽设治局、
+  陇川设治局、盈江设治局、梁河设治局、镇康县、沧源设治局、龙陵县等），
+  遮放/芒市并入潞西设治局、平戛/象达/惠通桥并入龙陵县。
+- `regions.json` / `region-index.json`：地区由 715 → **732** 个，875 个事件全部有省 + 县/地点归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 畹町 1942、龙陵 1942、惠通桥 1942、松山/龙陵/腾冲 1944 等已有事件不重复；
+  南伞 1942-08 仅见月份，未硬录；芒市/遮放/畹町 1944—1945 收复为中国军队行动，不挂日军层。
+
+---
+
 ## [v1.0.207] - 2026-11-21
 
 ### Added

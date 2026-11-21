@@ -17534,6 +17534,430 @@
         106.76,
         22.11
       ]
+    },
+    {
+      "id": "county-yunnan-u6f5eu897fu8bbeu6cbbu5c40",
+      "level": "county",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "潞西设治局"
+      },
+      "shortName": {
+        "zh": "潞西设治局"
+      },
+      "aliases": [
+        "潞西设治局"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        98.43,
+        24.29
+      ]
+    },
+    {
+      "id": "place-yunnan-u906eu653e",
+      "level": "place",
+      "parentId": "county-yunnan-u6f5eu897fu8bbeu6cbbu5c40",
+      "name": {
+        "zh": "遮放"
+      },
+      "shortName": {
+        "zh": "遮放"
+      },
+      "aliases": [
+        "云南遮放",
+        "云南遮放"
+      ],
+      "modernName": {
+        "zh": "云南遮放"
+      },
+      "point": [
+        98.28,
+        24.15
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "云南遮放",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-yunnan-u6f5eu897fu8292u5e02",
+      "level": "place",
+      "parentId": "county-yunnan-u6f5eu897fu8bbeu6cbbu5c40",
+      "name": {
+        "zh": "芒市"
+      },
+      "shortName": {
+        "zh": "芒市"
+      },
+      "aliases": [
+        "云南潞西芒市",
+        "云南潞西芒市"
+      ],
+      "modernName": {
+        "zh": "云南潞西芒市"
+      },
+      "point": [
+        98.58,
+        24.43
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "云南潞西芒市",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-yunnan-u745eu4e3du8bbeu6cbbu5c40",
+      "level": "county",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "瑞丽设治局"
+      },
+      "shortName": {
+        "zh": "瑞丽设治局"
+      },
+      "aliases": [
+        "瑞丽设治局"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        97.85,
+        24.01
+      ]
+    },
+    {
+      "id": "place-yunnan-u745eu4e3d",
+      "level": "place",
+      "parentId": "county-yunnan-u745eu4e3du8bbeu6cbbu5c40",
+      "name": {
+        "zh": "瑞丽"
+      },
+      "shortName": {
+        "zh": "瑞丽"
+      },
+      "aliases": [
+        "云南瑞丽",
+        "云南瑞丽"
+      ],
+      "modernName": {
+        "zh": "云南瑞丽"
+      },
+      "point": [
+        97.85,
+        24.01
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "云南瑞丽",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-yunnan-u9647u5dddu8bbeu6cbbu5c40",
+      "level": "county",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "陇川设治局"
+      },
+      "shortName": {
+        "zh": "陇川设治局"
+      },
+      "aliases": [
+        "陇川设治局"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        97.79,
+        24.18
+      ]
+    },
+    {
+      "id": "place-yunnan-u9647u5ddd",
+      "level": "place",
+      "parentId": "county-yunnan-u9647u5dddu8bbeu6cbbu5c40",
+      "name": {
+        "zh": "陇川"
+      },
+      "shortName": {
+        "zh": "陇川"
+      },
+      "aliases": [
+        "云南陇川",
+        "云南陇川"
+      ],
+      "modernName": {
+        "zh": "云南陇川"
+      },
+      "point": [
+        97.79,
+        24.18
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "云南陇川",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-yunnan-u76c8u6c5fu8bbeu6cbbu5c40",
+      "level": "county",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "盈江设治局"
+      },
+      "shortName": {
+        "zh": "盈江设治局"
+      },
+      "aliases": [
+        "盈江设治局"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        97.93,
+        24.71
+      ]
+    },
+    {
+      "id": "place-yunnan-u76c8u6c5f",
+      "level": "place",
+      "parentId": "county-yunnan-u76c8u6c5fu8bbeu6cbbu5c40",
+      "name": {
+        "zh": "盈江"
+      },
+      "shortName": {
+        "zh": "盈江"
+      },
+      "aliases": [
+        "云南盈江",
+        "云南盈江"
+      ],
+      "modernName": {
+        "zh": "云南盈江"
+      },
+      "point": [
+        97.93,
+        24.71
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "云南盈江",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-yunnan-u6881u6cb3u8bbeu6cbbu5c40",
+      "level": "county",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "梁河设治局"
+      },
+      "shortName": {
+        "zh": "梁河设治局"
+      },
+      "aliases": [
+        "梁河设治局"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        98.3,
+        24.81
+      ]
+    },
+    {
+      "id": "place-yunnan-u6881u6cb3",
+      "level": "place",
+      "parentId": "county-yunnan-u6881u6cb3u8bbeu6cbbu5c40",
+      "name": {
+        "zh": "梁河"
+      },
+      "shortName": {
+        "zh": "梁河"
+      },
+      "aliases": [
+        "云南梁河",
+        "云南梁河"
+      ],
+      "modernName": {
+        "zh": "云南梁河"
+      },
+      "point": [
+        98.3,
+        24.81
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "云南梁河",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-yunnan-u9547u5eb7u53bf",
+      "level": "county",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "镇康县"
+      },
+      "shortName": {
+        "zh": "镇康"
+      },
+      "aliases": [
+        "镇康"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        99.09,
+        23.55
+      ]
+    },
+    {
+      "id": "place-yunnan-u5b5fu5b9a",
+      "level": "place",
+      "parentId": "county-yunnan-u9547u5eb7u53bf",
+      "name": {
+        "zh": "孟定"
+      },
+      "shortName": {
+        "zh": "孟定"
+      },
+      "aliases": [
+        "云南孟定",
+        "云南孟定"
+      ],
+      "modernName": {
+        "zh": "云南孟定"
+      },
+      "point": [
+        99.09,
+        23.55
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "云南孟定",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-yunnan-u6ca7u6e90u8bbeu6cbbu5c40",
+      "level": "county",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "沧源设治局"
+      },
+      "shortName": {
+        "zh": "沧源设治局"
+      },
+      "aliases": [
+        "沧源设治局"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        99.25,
+        23.15
+      ]
+    },
+    {
+      "id": "place-yunnan-u6ca7u6e90",
+      "level": "place",
+      "parentId": "county-yunnan-u6ca7u6e90u8bbeu6cbbu5c40",
+      "name": {
+        "zh": "沧源"
+      },
+      "shortName": {
+        "zh": "沧源"
+      },
+      "aliases": [
+        "云南沧源",
+        "云南沧源"
+      ],
+      "modernName": {
+        "zh": "云南沧源"
+      },
+      "point": [
+        99.25,
+        23.15
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "云南沧源",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-yunnan-u9f99u9675u5e73u621b",
+      "level": "place",
+      "parentId": "county-yunnan-u9f99u9675u53bf",
+      "name": {
+        "zh": "平戛"
+      },
+      "shortName": {
+        "zh": "平戛"
+      },
+      "aliases": [
+        "云南龙陵平戛",
+        "云南龙陵平戛"
+      ],
+      "modernName": {
+        "zh": "云南龙陵平戛"
+      },
+      "point": [
+        98.9,
+        24.4
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "云南龙陵平戛",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-yunnan-u9f99u9675u8c61u8fbe",
+      "level": "place",
+      "parentId": "county-yunnan-u9f99u9675u53bf",
+      "name": {
+        "zh": "象达"
+      },
+      "shortName": {
+        "zh": "象达"
+      },
+      "aliases": [
+        "云南龙陵象达",
+        "云南龙陵象达"
+      ],
+      "modernName": {
+        "zh": "云南龙陵象达"
+      },
+      "point": [
+        98.85,
+        24.3
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "云南龙陵象达",
+        "confidence": "medium"
+      }
     }
   ]
 }
