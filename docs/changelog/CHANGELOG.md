@@ -3,6 +3,36 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.198] - 2026-11-21
+
+### Added
+- **抗日战争 · 福建日军战线（M217）**：福建日军事件由 6 条增至 17 条，涉及福建的日军路线 8 段。
+  - 金门（2）：料罗湾登陆、金门沦陷（1937-10-26）。
+  - 厦门（2）：厦门炮战（1937-09-03）、厦门受降（1945-09-28）。
+  - 闽江口（2）：长乐沦陷、连江沦陷（1941-04-21）。
+  - 东山（3）：东山港登陆、东山保卫战（1939-07-11/16）、日伪军再犯东山（1939-08-23）。
+  - 沿海暴行（2）：永宁惨案、崇武惨案（1940-07-16）。
+  - 路线（5 段，#202—#206）：料罗湾—金门城、闽江口—长乐—福州、闽江口—连江—福州、
+    永宁—崇武、东山港—东山城。
+  - 专题：654 → **665** 事件、380 → **385** 段路线；日军层：406 → **417** 事件、201 → **206** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-fujian.md`、计划
+  `docs/plans/2026-11-21-M217-福建日军战线细化-plan.md`。
+
+### Changed
+- `scripts/build-region-data.py`：增加福建 1937 年县名映射（金门、厦门、长乐、连江、东山、
+  晋江、惠安等），并补县治落点。
+- `regions.json` / `region-index.json`：地区由 548 → **561** 个，665 个事件全部有省 + 县/地点归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 厦门登陆/沦陷、闽江口两次登陆、福州两次沦陷已有事件不重复；厦门炮战、东山第二次进犯、
+  厦门受降标 `routeEvent:false`。
+- 诏安、海澄港尾为伪军进攻，主体不是日军，本批不录；鼓浪屿 1941-12 日期待考，不录。
+
+---
+
 ## [v1.0.197] - 2026-11-21
 
 ### Added

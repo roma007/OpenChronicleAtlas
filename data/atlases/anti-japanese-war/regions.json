@@ -13665,6 +13665,327 @@
         120.9,
         29.5
       ]
+    },
+    {
+      "id": "county-fujian-u91d1u95e8u53bf",
+      "level": "county",
+      "parentId": "fujian",
+      "name": {
+        "zh": "金门县"
+      },
+      "shortName": {
+        "zh": "金门"
+      },
+      "aliases": [
+        "金门"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        118.375,
+        24.425
+      ]
+    },
+    {
+      "id": "place-fujian-u91d1u95e8u6599u7f57u6e7e",
+      "level": "place",
+      "parentId": "county-fujian-u91d1u95e8u53bf",
+      "name": {
+        "zh": "料罗湾"
+      },
+      "shortName": {
+        "zh": "料罗湾"
+      },
+      "aliases": [
+        "福建金门料罗湾",
+        "福建金门料罗湾"
+      ],
+      "modernName": {
+        "zh": "福建金门料罗湾"
+      },
+      "point": [
+        118.43,
+        24.42
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "福建金门料罗湾",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-fujian-u91d1u95e8u57ce",
+      "level": "place",
+      "parentId": "county-fujian-u91d1u95e8u53bf",
+      "name": {
+        "zh": "金门城"
+      },
+      "shortName": {
+        "zh": "金门城"
+      },
+      "aliases": [
+        "福建金门城",
+        "福建金门城"
+      ],
+      "modernName": {
+        "zh": "福建金门城"
+      },
+      "point": [
+        118.32,
+        24.43
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "福建金门城",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-fujian-u957fu4e50u53bf",
+      "level": "county",
+      "parentId": "fujian",
+      "name": {
+        "zh": "长乐县"
+      },
+      "shortName": {
+        "zh": "长乐"
+      },
+      "aliases": [
+        "长乐"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.52,
+        25.96
+      ]
+    },
+    {
+      "id": "county-fujian-u8fdeu6c5fu53bf",
+      "level": "county",
+      "parentId": "fujian",
+      "name": {
+        "zh": "连江县"
+      },
+      "shortName": {
+        "zh": "连江"
+      },
+      "aliases": [
+        "连江"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.54,
+        26.2
+      ]
+    },
+    {
+      "id": "county-fujian-u4e1cu5c71u53bf",
+      "level": "county",
+      "parentId": "fujian",
+      "name": {
+        "zh": "东山县"
+      },
+      "shortName": {
+        "zh": "东山"
+      },
+      "aliases": [
+        "东山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        117.4533,
+        23.71
+      ]
+    },
+    {
+      "id": "place-fujian-u4e1cu5c71u6e2f",
+      "level": "place",
+      "parentId": "county-fujian-u4e1cu5c71u53bf",
+      "name": {
+        "zh": "东山港"
+      },
+      "shortName": {
+        "zh": "东山港"
+      },
+      "aliases": [
+        "福建东山港",
+        "福建东山港"
+      ],
+      "modernName": {
+        "zh": "福建东山港"
+      },
+      "point": [
+        117.5,
+        23.73
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "福建东山港",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-fujian-u4e1cu5c71u57ce",
+      "level": "place",
+      "parentId": "county-fujian-u4e1cu5c71u53bf",
+      "name": {
+        "zh": "东山城"
+      },
+      "shortName": {
+        "zh": "东山城"
+      },
+      "aliases": [
+        "福建东山城",
+        "福建东山城"
+      ],
+      "modernName": {
+        "zh": "福建东山城"
+      },
+      "point": [
+        117.43,
+        23.7
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "福建东山城",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-fujian-u664bu6c5fu53bf",
+      "level": "county",
+      "parentId": "fujian",
+      "name": {
+        "zh": "晋江县"
+      },
+      "shortName": {
+        "zh": "晋江"
+      },
+      "aliases": [
+        "晋江"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "county-seat-place"
+      },
+      "point": [
+        118.68,
+        24.68
+      ]
+    },
+    {
+      "id": "place-fujian-u6c38u5b81",
+      "level": "place",
+      "parentId": "county-fujian-u664bu6c5fu53bf",
+      "name": {
+        "zh": "永宁"
+      },
+      "shortName": {
+        "zh": "永宁"
+      },
+      "aliases": [
+        "福建永宁",
+        "福建永宁"
+      ],
+      "modernName": {
+        "zh": "福建永宁"
+      },
+      "point": [
+        118.68,
+        24.68
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "福建永宁",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-fujian-u60e0u5b89u53bf",
+      "level": "county",
+      "parentId": "fujian",
+      "name": {
+        "zh": "惠安县"
+      },
+      "shortName": {
+        "zh": "惠安"
+      },
+      "aliases": [
+        "惠安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "county-seat-place"
+      },
+      "point": [
+        118.92,
+        24.88
+      ]
+    },
+    {
+      "id": "place-fujian-u5d07u6b66",
+      "level": "place",
+      "parentId": "county-fujian-u60e0u5b89u53bf",
+      "name": {
+        "zh": "崇武"
+      },
+      "shortName": {
+        "zh": "崇武"
+      },
+      "aliases": [
+        "福建崇武",
+        "福建崇武"
+      ],
+      "modernName": {
+        "zh": "福建崇武"
+      },
+      "point": [
+        118.92,
+        24.88
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "福建崇武",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-fujian-u53a6u95e8u9f13u6d6au5c7f",
+      "level": "place",
+      "parentId": "county-fujian-u53a6u95e8u5e02",
+      "name": {
+        "zh": "鼓浪屿"
+      },
+      "shortName": {
+        "zh": "鼓浪屿"
+      },
+      "aliases": [
+        "福建厦门鼓浪屿",
+        "福建厦门鼓浪屿"
+      ],
+      "modernName": {
+        "zh": "福建厦门鼓浪屿"
+      },
+      "point": [
+        118.08,
+        24.48
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "福建厦门鼓浪屿",
+        "confidence": "medium"
+      }
     }
   ]
 }

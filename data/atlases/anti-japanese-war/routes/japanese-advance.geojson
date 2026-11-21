@@ -7926,6 +7926,196 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.43,
+            24.42
+          ],
+          [
+            118.38,
+            24.43
+          ],
+          [
+            118.32,
+            24.43
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-10-26",
+        "endDate": "1937-10-26",
+        "order": 202,
+        "segmentType": "advance",
+        "name": {
+          "zh": "料罗湾—金门城",
+          "en": "Liaoluo Bay–Kinmen town"
+        },
+        "description": {
+          "zh": "1937年10月26日，日军在料罗湾登陆后向金门县城推进。路线为示意简化。",
+          "en": "On 26 October 1937 Japanese forces landed at Liaoluo Bay and advanced on the Kinmen county town. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.6,
+            26.05
+          ],
+          [
+            119.52,
+            25.96
+          ],
+          [
+            119.3,
+            26.08
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-04-19",
+        "endDate": "1941-04-21",
+        "order": 203,
+        "segmentType": "advance",
+        "name": {
+          "zh": "闽江口—长乐—福州",
+          "en": "Min River estuary–Changle–Fuzhou"
+        },
+        "description": {
+          "zh": "1941年4月19日日军登陆闽江口，经长乐向福州推进，4月21日福州沦陷。路线为示意简化。",
+          "en": "Japanese forces landed at the Min River estuary on 19 April 1941 and advanced via Changle on Fuzhou, which fell on 21 April. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.6,
+            26.05
+          ],
+          [
+            119.54,
+            26.2
+          ],
+          [
+            119.3,
+            26.08
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-04-19",
+        "endDate": "1941-04-21",
+        "order": 204,
+        "segmentType": "advance",
+        "name": {
+          "zh": "闽江口—连江—福州",
+          "en": "Min River estuary–Lianjiang–Fuzhou"
+        },
+        "description": {
+          "zh": "1941年4月19日日军登陆闽江口，经连江向福州推进，4月21日福州沦陷。路线为示意简化。",
+          "en": "Japanese forces landed at the Min River estuary on 19 April 1941 and advanced via Lianjiang on Fuzhou, which fell on 21 April. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.68,
+            24.68
+          ],
+          [
+            118.8,
+            24.78
+          ],
+          [
+            118.92,
+            24.88
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-07-16",
+        "endDate": "1940-07-16",
+        "order": 205,
+        "segmentType": "advance",
+        "name": {
+          "zh": "永宁—崇武",
+          "en": "Yongning–Chongwu"
+        },
+        "description": {
+          "zh": "1940年7月16日，日军在永宁、崇武一带登陆，制造永宁、崇武惨案。路线为示意简化。",
+          "en": "On 16 July 1940 Japanese forces landed around Yongning and Chongwu and carried out the Yongning and Chongwu massacres. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.5,
+            23.73
+          ],
+          [
+            117.46,
+            23.72
+          ],
+          [
+            117.43,
+            23.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-07-11",
+        "endDate": "1939-07-16",
+        "order": 206,
+        "segmentType": "advance",
+        "name": {
+          "zh": "东山港—东山城",
+          "en": "Dongshan port–Dongshan town"
+        },
+        "description": {
+          "zh": "1939年7月11日，日伪军在东山港登陆，进攻东山城，7月16日败退。路线为示意简化。",
+          "en": "On 11 July 1939 Japanese and puppet forces landed at Dongshan port and attacked Dongshan town; they were driven off on 16 July. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
