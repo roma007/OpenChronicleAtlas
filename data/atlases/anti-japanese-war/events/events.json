@@ -44874,5 +44874,945 @@
       "dushan-fall-1944-12"
     ],
     "importance": 2
+  },
+  {
+    "id": "yingkou-fall-1931-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "营口沦陷",
+      "en": "Fall of Yingkou"
+    },
+    "date": "1931-09-19",
+    "location": {
+      "lng": 122.24,
+      "lat": 40.67,
+      "place": {
+        "zh": "辽宁营口",
+        "en": "Yingkou, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1931年9月19日，日军独立守备队第三大队侵占营口。",
+      "en": "On 19 September 1931 the Japanese 3rd Independent Guard Battalion occupied Yingkou."
+    },
+    "description": {
+      "zh": "1931年9月19日晨8时，日军独立守备队第三大队侵入营口，包围县政府、公安局及其他机关，缴去练军营官兵及警察枪械，炸毁电报、电话及河北车站无线电台。日期据《1931年9月18日“九一八”事变爆发》与《中共中央最早关注营口的1931年九一八事变宣言》。",
+      "en": "At 8 a.m. on 19 September 1931 the Japanese 3rd Independent Guard Battalion entered Yingkou, surrounded the county government, police bureau and other offices, disarmed the militia and police, and blew up the telegraph, telephone and wireless station at Hebei station."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1931年9月18日 “九一八”事变爆发",
+        "author": "中国军网 2016-09-18",
+        "note": "官方媒体，访问 2026-11-22"
+      },
+      {
+        "title": "中共中央最早关注营口的1931年九一八事变宣言",
+        "author": "营口日报 2023-09-18",
+        "note": "地方报刊，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "mukden-incident-1931-09",
+      "haicheng-fall-1931-09",
+      "gaiping-fall-1931-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "andong-fall-1931-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "安东沦陷",
+      "en": "Fall of Andong"
+    },
+    "date": "1931-09-19",
+    "location": {
+      "lng": 124.38,
+      "lat": 40.13,
+      "place": {
+        "zh": "辽宁安东",
+        "en": "Andong (Dandong), Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1931年9月19日，日军独立守备队侵占安东（今丹东）。",
+      "en": "On 19 September 1931 the Japanese Independent Guard Battalion occupied Andong (modern Dandong)."
+    },
+    "description": {
+      "zh": "1931年9月19日晨5时，日军铁道独立守备队200余人分两路侵入安东市街，包围县政府、公安局，公安队和警察未抵抗即被缴械。安东为安奉铁路终点、中朝边境重镇，失守后日军控制鸭绿江下游。日期据《1931年9月18日“九一八”事变爆发》与《东北沦陷时期丹东大事记》。",
+      "en": "At 5 a.m. on 19 September 1931 more than 200 men of the Japanese railway independent guard entered Andong in two columns, surrounded the county government and police bureau and disarmed the police without resistance. Andong was the terminus of the Anfeng railway and the key border town on the Yalu; its fall gave Japan control of the lower Yalu."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1931年9月18日 “九一八”事变爆发",
+        "author": "中国军网 2016-09-18",
+        "note": "官方媒体，访问 2026-11-22"
+      },
+      {
+        "title": "东北沦陷时期丹东大事记",
+        "author": "丹东新闻网/抗日战争纪念网 2018-03-23",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "fenghuangcheng-fall-1931-09",
+      "benxi-fall-1931-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fushun-fall-1931-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "抚顺沦陷",
+      "en": "Fall of Fushun"
+    },
+    "date": "1931-09-19",
+    "location": {
+      "lng": 123.96,
+      "lat": 41.88,
+      "place": {
+        "zh": "辽宁抚顺",
+        "en": "Fushun, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1931年9月19日，日军侵占抚顺。",
+      "en": "On 19 September 1931 the Japanese occupied Fushun."
+    },
+    "description": {
+      "zh": "1931年9月19日，日军在侵占沈阳的同时，沿南满铁路占据抚顺。抚顺为东北最大煤矿区，日军占领后由满铁控制煤矿开采；次年9月16日又在平顶山制造惨案。日期据《1931年9月18日“九一八”事变爆发》与《九一八事变，侵占东北（1）》。",
+      "en": "On 19 September 1931, while taking Shenyang, the Japanese occupied Fushun along the South Manchuria Railway. Fushun was the largest coal-mining area in the Northeast; after occupation the South Manchuria Railway Company controlled its mines, and on 16 September 1932 the Japanese carried out the Pingdingshan massacre."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1931年9月18日 “九一八”事变爆发",
+        "author": "中国军网 2016-09-18",
+        "note": "官方媒体，访问 2026-11-22"
+      },
+      {
+        "title": "九一八事变，侵占东北（1）",
+        "author": "抗日战争纪念网 2020-11-30",
+        "note": "战史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "mukden-incident-1931-09",
+      "pingdingshan-massacre-1932-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "liaoyang-fall-1931-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "辽阳沦陷",
+      "en": "Fall of Liaoyang"
+    },
+    "date": "1931-09-19",
+    "location": {
+      "lng": 123.24,
+      "lat": 41.27,
+      "place": {
+        "zh": "辽宁辽阳",
+        "en": "Liaoyang, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1931年9月19日，日军第2师团侵占辽阳。",
+      "en": "On 19 September 1931 the Japanese 2nd Division occupied Liaoyang."
+    },
+    "description": {
+      "zh": "1931年9月19日，驻辽阳的日军第2师团主力于凌晨5时抵沈阳，参加进攻沈阳；同日辽阳亦被日军控制。辽阳为南满铁路要地，第2师团司令部原驻于此。日期据《1931年9月18日“九一八”事变爆发》与《九一八事变，侵占东北（1）》。",
+      "en": "On 19 September 1931 the main force of the Japanese 2nd Division, stationed at Liaoyang, reached Shenyang at 5 a.m. and joined the attack on the city; Liaoyang itself was also brought under Japanese control the same day. Liaoyang was a key point on the South Manchuria Railway and the original seat of the 2nd Division headquarters."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1931年9月18日 “九一八”事变爆发",
+        "author": "中国军网 2016-09-18",
+        "note": "官方媒体，访问 2026-11-22"
+      },
+      {
+        "title": "九一八事变，侵占东北（1）",
+        "author": "抗日战争纪念网 2020-11-30",
+        "note": "战史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "anshan-fall-1931-09",
+      "mukden-incident-1931-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "anshan-fall-1931-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "鞍山沦陷",
+      "en": "Fall of Anshan"
+    },
+    "date": "1931-09-19",
+    "location": {
+      "lng": 122.99,
+      "lat": 41.11,
+      "place": {
+        "zh": "辽宁鞍山",
+        "en": "Anshan, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1931年9月19日，日军侵占鞍山。",
+      "en": "On 19 September 1931 the Japanese occupied Anshan."
+    },
+    "description": {
+      "zh": "1931年9月19日，日军在侵占沈阳的同时占领鞍山。鞍山为南满铁路沿线铁矿重镇，日本独立守备队第六大队此前已驻鞍山“满铁附属地”；失守后鞍山铁矿被日本控制。日期据《1931年9月18日“九一八”事变爆发》与《鞍山地区抗日斗争的特点》。",
+      "en": "On 19 September 1931 the Japanese occupied Anshan together with Shenyang. Anshan was an iron-mining town on the South Manchuria Railway, and the Japanese 6th Independent Guard Battalion had already been stationed in its railway concession; after the fall the Anshan mines came under Japanese control."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1931年9月18日 “九一八”事变爆发",
+        "author": "中国军网 2016-09-18",
+        "note": "官方媒体，访问 2026-11-22"
+      },
+      {
+        "title": "鞍山地区抗日斗争的特点",
+        "author": "鞍山市档案馆 2015-04-10",
+        "note": "地方档案，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "liaoyang-fall-1931-09",
+      "haicheng-fall-1931-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tieling-fall-1931-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "铁岭沦陷",
+      "en": "Fall of Tieling"
+    },
+    "date": "1931-09-19",
+    "location": {
+      "lng": 123.84,
+      "lat": 42.29,
+      "place": {
+        "zh": "辽宁铁岭",
+        "en": "Tieling, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1931年9月19日，日军侵占铁岭。",
+      "en": "On 19 September 1931 the Japanese occupied Tieling."
+    },
+    "description": {
+      "zh": "1931年9月19日凌晨4时，驻铁岭日军独立守备队赶赴沈阳，参加进攻北大营；同日铁岭亦被日军控制。铁岭为南满铁路要地，失守后日军控制沈阳以北铁路。日期据《1931年9月18日“九一八”事变爆发》与《九一八事变，侵占东北（1）》。",
+      "en": "At 4 a.m. on 19 September 1931 the Japanese independent guard at Tieling rushed to Shenyang and joined the attack on Beidaying; Tieling itself was also brought under control that day. Tieling was a key point on the South Manchuria Railway, and its fall gave Japan control of the railway north of Shenyang."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1931年9月18日 “九一八”事变爆发",
+        "author": "中国军网 2016-09-18",
+        "note": "官方媒体，访问 2026-11-22"
+      },
+      {
+        "title": "九一八事变，侵占东北（1）",
+        "author": "抗日战争纪念网 2020-11-30",
+        "note": "战史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "kaiyuan-fall-1931-09",
+      "mukden-incident-1931-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "benxi-fall-1931-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "本溪沦陷",
+      "en": "Fall of Benxi"
+    },
+    "date": "1931-09-19",
+    "location": {
+      "lng": 123.77,
+      "lat": 41.3,
+      "place": {
+        "zh": "辽宁本溪",
+        "en": "Benxi, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1931年9月19日，日军侵占本溪。",
+      "en": "On 19 September 1931 the Japanese occupied Benxi."
+    },
+    "description": {
+      "zh": "1931年9月19日，日军在侵占沈阳、安东的同时占领本溪。本溪为安奉铁路沿线煤铁重镇，失守后日军控制本溪湖煤矿。日期据《1931年9月18日“九一八”事变爆发》与《九一八事变，侵占东北（1）》。",
+      "en": "On 19 September 1931 the Japanese occupied Benxi together with Shenyang and Andong. Benxi was a coal-and-iron town on the Anfeng railway, and its fall gave Japan control of the Benxihu mines."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1931年9月18日 “九一八”事变爆发",
+        "author": "中国军网 2016-09-18",
+        "note": "官方媒体，访问 2026-11-22"
+      },
+      {
+        "title": "九一八事变，侵占东北（1）",
+        "author": "抗日战争纪念网 2020-11-30",
+        "note": "战史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "andong-fall-1931-09",
+      "fenghuangcheng-fall-1931-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "haicheng-fall-1931-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "海城沦陷",
+      "en": "Fall of Haicheng"
+    },
+    "date": "1931-09-19",
+    "location": {
+      "lng": 122.75,
+      "lat": 40.85,
+      "place": {
+        "zh": "辽宁海城",
+        "en": "Haicheng, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1931年9月19日，日军侵占海城。",
+      "en": "On 19 September 1931 the Japanese occupied Haicheng."
+    },
+    "description": {
+      "zh": "1931年9月19日晨8时，海城县城被日军全部占领；驻海城车站的日军独立守备队一个中队包围县政府，将县长、公安局长押往日本兵营。海城为南满铁路要地，失守后日军控制辽南交通。日期据《1931年9月18日“九一八”事变爆发》与《东北抗日义勇军大事记》。",
+      "en": "At 8 a.m. on 19 September 1931 the Japanese fully occupied Haicheng; a company of the independent guard from the station surrounded the county government and took the county magistrate and police chief to the Japanese barracks. Haicheng was a key point on the South Manchuria Railway, and its fall gave Japan control of communications in southern Liaoning."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1931年9月18日 “九一八”事变爆发",
+        "author": "中国军网 2016-09-18",
+        "note": "官方媒体，访问 2026-11-22"
+      },
+      {
+        "title": "东北抗日义勇军大事记",
+        "author": "辽宁东北抗日义勇军纪念馆 2018-05-03",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "yingkou-fall-1931-09",
+      "gaiping-fall-1931-09",
+      "xiuyan-fall-1932-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "gaiping-fall-1931-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "盖平沦陷",
+      "en": "Fall of Gaiping"
+    },
+    "date": "1931-09-19",
+    "location": {
+      "lng": 122.35,
+      "lat": 40.4,
+      "place": {
+        "zh": "辽宁盖平",
+        "en": "Gaiping (Gaizhou), Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1931年9月19日，日军侵占盖平（今盖州）。",
+      "en": "On 19 September 1931 the Japanese occupied Gaiping (modern Gaizhou)."
+    },
+    "description": {
+      "zh": "1931年9月19日，日军独立守备队第三大队自大石桥南犯，占领盖平（今盖州）。盖平为南满铁路辽南段要地，失守后日军继续南犯复县、瓦房店。日期据《1931年9月18日“九一八”事变爆发》与《中共中央最早关注营口的1931年九一八事变宣言》。",
+      "en": "On 19 September 1931 the Japanese 3rd Independent Guard Battalion advanced south from Dashiqiao and occupied Gaiping (modern Gaizhou). Gaiping was a key point on the southern section of the South Manchuria Railway; the Japanese then moved on Fuxian and Wafangdian."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1931年9月18日 “九一八”事变爆发",
+        "author": "中国军网 2016-09-18",
+        "note": "官方媒体，访问 2026-11-22"
+      },
+      {
+        "title": "中共中央最早关注营口的1931年九一八事变宣言",
+        "author": "营口日报 2023-09-18",
+        "note": "地方报刊，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "yingkou-fall-1931-09",
+      "fuxian-fall-1931-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fuxian-fall-1931-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "复县沦陷",
+      "en": "Fall of Fuxian"
+    },
+    "date": "1931-09-19",
+    "location": {
+      "lng": 121.97,
+      "lat": 39.63,
+      "place": {
+        "zh": "辽宁复县",
+        "en": "Fuxian (Wafangdian), Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1931年9月19日，日军侵占复县（今瓦房店）。",
+      "en": "On 19 September 1931 the Japanese occupied Fuxian (modern Wafangdian)."
+    },
+    "description": {
+      "zh": "1931年9月19日，日军独立守备队第三大队沿南满铁路南段侵占复县（今瓦房店）。复县为辽南铁路要地，失守后日军控制辽东半岛北段。日期据《1931年9月18日“九一八”事变爆发》与《中共中央最早关注营口的1931年九一八事变宣言》。",
+      "en": "On 19 September 1931 the Japanese 3rd Independent Guard Battalion occupied Fuxian (modern Wafangdian) along the southern section of the South Manchuria Railway, gaining control of the northern part of the Liaodong Peninsula."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1931年9月18日 “九一八”事变爆发",
+        "author": "中国军网 2016-09-18",
+        "note": "官方媒体，访问 2026-11-22"
+      },
+      {
+        "title": "中共中央最早关注营口的1931年九一八事变宣言",
+        "author": "营口日报 2023-09-18",
+        "note": "地方报刊，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "gaiping-fall-1931-09",
+      "yingkou-fall-1931-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fenghuangcheng-fall-1931-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "凤城沦陷",
+      "en": "Fall of Fengcheng"
+    },
+    "date": "1931-09-19",
+    "location": {
+      "lng": 124.07,
+      "lat": 40.45,
+      "place": {
+        "zh": "辽宁凤城",
+        "en": "Fengcheng, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1931年9月19日，日军独立守备队侵占凤城。",
+      "en": "On 19 September 1931 the Japanese independent guard occupied Fengcheng."
+    },
+    "description": {
+      "zh": "1931年9月19日凌晨2时，日军从凤城以北四台子下火车，分两路包围县城，缴去姜全我部第一团官兵455名及公安警察200余名枪械，兵不血刃占领凤城。凤城为安奉铁路要地，失守后日军控制辽东。日期据《1931年9月18日“九一八”事变爆发》与《东北抗日义勇军大事记》。",
+      "en": "At 2 a.m. on 19 September 1931 the Japanese left their train north of Fengcheng at Sitai and surrounded the county town in two columns, disarming 455 officers and men of Jiang Quanwo’s 1st Regiment and more than 200 police, taking Fengcheng without a fight. Fengcheng was a key point on the Anfeng railway, and its fall gave Japan control of eastern Liaoning."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1931年9月18日 “九一八”事变爆发",
+        "author": "中国军网 2016-09-18",
+        "note": "官方媒体，访问 2026-11-22"
+      },
+      {
+        "title": "东北抗日义勇军大事记",
+        "author": "辽宁东北抗日义勇军纪念馆 2018-05-03",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "andong-fall-1931-09",
+      "benxi-fall-1931-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kaiyuan-fall-1931-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "开原沦陷",
+      "en": "Fall of Kaiyuan"
+    },
+    "date": "1931-09-19",
+    "location": {
+      "lng": 124.04,
+      "lat": 42.55,
+      "place": {
+        "zh": "辽宁开原",
+        "en": "Kaiyuan, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1931年9月19日，日军侵占开原。",
+      "en": "On 19 September 1931 the Japanese occupied Kaiyuan."
+    },
+    "description": {
+      "zh": "1931年9月19日，日军在侵占铁岭的同时占领开原。开原为南满铁路辽北要地，失守后日军继续北犯昌图、四平。日期据《1931年9月18日“九一八”事变爆发》与《九一八事变，侵占东北（1）》。",
+      "en": "On 19 September 1931 the Japanese occupied Kaiyuan together with Tieling. Kaiyuan was a key point on the northern section of the South Manchuria Railway; the Japanese then moved north toward Changtu and Siping."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1931年9月18日 “九一八”事变爆发",
+        "author": "中国军网 2016-09-18",
+        "note": "官方媒体，访问 2026-11-22"
+      },
+      {
+        "title": "九一八事变，侵占东北（1）",
+        "author": "抗日战争纪念网 2020-11-30",
+        "note": "战史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "tieling-fall-1931-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xinmin-fall-1931-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "新民沦陷",
+      "en": "Fall of Xinmin"
+    },
+    "date": "1931-11-23",
+    "location": {
+      "lng": 122.83,
+      "lat": 41.99,
+      "place": {
+        "zh": "辽宁新民",
+        "en": "Xinmin, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1931年11月23日，日军侵占辽西重镇新民。",
+      "en": "On 23 November 1931 the Japanese occupied Xinmin, the key town of western Liaoning."
+    },
+    "description": {
+      "zh": "1931年11月23日，日军侵占辽西重镇新民。新民为北宁铁路要地，是日军进攻锦州的前进基地；此后义勇军耿继周部多次袭击新民县城。日期据《东北抗日义勇军大事记》与《日本侵占中国各地时间表》。",
+      "en": "On 23 November 1931 the Japanese occupied Xinmin, a key town on the Beining railway and an advance base for the attack on Jinzhou. Guerrilla leader Geng Jizhou’s forces raided Xinmin several times afterwards."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "东北抗日义勇军大事记",
+        "author": "辽宁东北抗日义勇军纪念馆 2018-05-03",
+        "note": "地方史，访问 2026-11-22"
+      },
+      {
+        "title": "日本侵占中国各地时间表",
+        "author": "抗日战争纪念网 2015-01-30",
+        "note": "资料表，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "jinzhou-fall-1932-01",
+      "beizhen-fall-1932-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xingcheng-fall-1932-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "兴城沦陷",
+      "en": "Fall of Xingcheng"
+    },
+    "date": "1932-01-04",
+    "location": {
+      "lng": 120.73,
+      "lat": 40.61,
+      "place": {
+        "zh": "辽宁兴城",
+        "en": "Xingcheng, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1932年1月4日，日军侵占兴城。",
+      "en": "On 4 January 1932 the Japanese occupied Xingcheng."
+    },
+    "description": {
+      "zh": "1932年1月4日，日军第20师团一部侵占兴城。兴城为辽西走廊要地，锦州失守后日军沿北宁铁路西进，连陷兴城、绥中、葫芦岛。日期据《中华民族抗日编年（1932年1月）》与《东北抗日义勇军大事记》。",
+      "en": "On 4 January 1932 a detachment of the Japanese 20th Division occupied Xingcheng. Xingcheng was a key point in the western Liaoning corridor; after Jinzhou fell the Japanese advanced west along the Beining railway, taking Xingcheng, Suizhong and Huludao in succession."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中华民族抗日编年（1932年1月）",
+        "author": "抗日战争纪念网 2014-03-29",
+        "note": "逐日编年，访问 2026-11-22"
+      },
+      {
+        "title": "东北抗日义勇军大事记",
+        "author": "辽宁东北抗日义勇军纪念馆 2018-05-03",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "jinzhou-fall-1932-01",
+      "suizhong-fall-1932-01",
+      "huludao-fall-1932-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "suizhong-fall-1932-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "绥中沦陷",
+      "en": "Fall of Suizhong"
+    },
+    "date": "1932-01-04",
+    "location": {
+      "lng": 120.34,
+      "lat": 40.33,
+      "place": {
+        "zh": "辽宁绥中",
+        "en": "Suizhong, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1932年1月4日，日军侵占绥中。",
+      "en": "On 4 January 1932 the Japanese occupied Suizhong."
+    },
+    "description": {
+      "zh": "1932年1月4日，日军侵犯绥中县、葫芦岛。绥中为辽西走廊西端、山海关以东要地，失守后日军直逼山海关。日期据《中华民族抗日编年（1932年1月）》与《东北抗日义勇军大事记》。",
+      "en": "On 4 January 1932 the Japanese invaded Suizhong and Huludao. Suizhong was the western end of the western Liaoning corridor, east of Shanhaiguan; its fall brought the Japanese to the gates of Shanhaiguan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中华民族抗日编年（1932年1月）",
+        "author": "抗日战争纪念网 2014-03-29",
+        "note": "逐日编年，访问 2026-11-22"
+      },
+      {
+        "title": "东北抗日义勇军大事记",
+        "author": "辽宁东北抗日义勇军纪念馆 2018-05-03",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "xingcheng-fall-1932-01",
+      "huludao-fall-1932-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "huludao-fall-1932-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "葫芦岛沦陷",
+      "en": "Fall of Huludao"
+    },
+    "date": "1932-01-04",
+    "location": {
+      "lng": 120.84,
+      "lat": 40.71,
+      "place": {
+        "zh": "辽宁葫芦岛",
+        "en": "Huludao, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1932年1月4日，日军侵占葫芦岛。",
+      "en": "On 4 January 1932 the Japanese occupied Huludao."
+    },
+    "description": {
+      "zh": "1932年1月4日，日军一部分侵入葫芦岛。葫芦岛为辽西不冻港和海军基地，失守后日军控制辽西海岸。日期据《中华民族抗日编年（1932年1月）》与维基百科《1932年中国》。"
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中华民族抗日编年（1932年1月）",
+        "author": "抗日战争纪念网 2014-03-29",
+        "note": "逐日编年，访问 2026-11-22"
+      },
+      {
+        "title": "日本侵占中国各地时间表",
+        "author": "抗日战争纪念网 2015-01-30",
+        "note": "资料表，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "suizhong-fall-1932-01",
+      "xingcheng-fall-1932-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yixian-fall-1932-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "义县沦陷",
+      "en": "Fall of Yi County"
+    },
+    "date": "1932-01-07",
+    "location": {
+      "lng": 121.24,
+      "lat": 41.53,
+      "place": {
+        "zh": "辽宁义县",
+        "en": "Yi County, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1932年1月7日，日军嘉村旅团自锦州向义县推进并占领义县。",
+      "en": "On 7 January 1932 the Japanese Kamura brigade advanced from Jinzhou and occupied Yi County."
+    },
+    "description": {
+      "zh": "1932年1月7日，日军嘉村旅团自锦州向义县、北票推进，占领义县。义县为锦州通往热河的门户，失守后日军窥伺热河。日期据《中华民族抗日编年（1932年1月）》与维基百科《1932年中国》。",
+      "en": "On 7 January 1932 the Japanese Kamura brigade advanced from Jinzhou toward Yi County and Beipiao and occupied Yi County. Yi County was the gateway from Jinzhou to Rehe, and its fall opened the Japanese approach to Rehe."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中华民族抗日编年（1932年1月）",
+        "author": "抗日战争纪念网 2014-03-29",
+        "note": "逐日编年，访问 2026-11-22"
+      },
+      {
+        "title": "日本侵占中国各地时间表",
+        "author": "抗日战争纪念网 2015-01-30",
+        "note": "资料表，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "jinzhou-fall-1932-01",
+      "beizhen-fall-1932-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "beizhen-fall-1932-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "北镇沦陷",
+      "en": "Fall of Beizhen"
+    },
+    "date": "1932-01-13",
+    "location": {
+      "lng": 121.79,
+      "lat": 41.6,
+      "place": {
+        "zh": "辽宁北镇",
+        "en": "Beizhen, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1932年1月13日，日军高地大队侵占北镇。",
+      "en": "On 13 January 1932 the Japanese Takachi detachment occupied Beizhen."
+    },
+    "description": {
+      "zh": "1932年1月13日，日军占领锦州后派高地少佐一个大队向北镇进犯，驱散民团，占据北镇。北镇为辽西义勇军活动中心，失守后日军对北镇、黑山、台安等县大规模搜村。日期据《东北抗日义勇军大事记》与《中华民族抗日编年（1932年1月）》。",
+      "en": "On 13 January 1932, after taking Jinzhou, the Japanese sent a battalion under Major Takachi against Beizhen, dispersed the militia and occupied the town. Beizhen was a centre of the western Liaoning guerrillas; after its fall the Japanese conducted large-scale sweeps through Beizhen, Heishan and Tai’an counties."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "东北抗日义勇军大事记",
+        "author": "辽宁东北抗日义勇军纪念馆 2018-05-03",
+        "note": "地方史，访问 2026-11-22"
+      },
+      {
+        "title": "中华民族抗日编年（1932年1月）",
+        "author": "抗日战争纪念网 2014-03-29",
+        "note": "逐日编年，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "yixian-fall-1932-01",
+      "jinzhou-fall-1932-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jinxi-fall-1932-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "锦西沦陷",
+      "en": "Fall of Jinxi"
+    },
+    "date": "1932-01-11",
+    "location": {
+      "lng": 120.85,
+      "lat": 40.75,
+      "place": {
+        "zh": "辽宁锦西",
+        "en": "Jinxi, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1932年1月11日，日军依田旅团攻占锦西县城。",
+      "en": "On 11 January 1932 the Japanese Ida brigade captured Jinxi."
+    },
+    "description": {
+      "zh": "1932年1月11日，日军依田旅团攻占锦西县城（江家屯）。1月9日锦西义勇军在江家屯伏击日军骑兵第27联队，击毙联队长古贺传太郎以下百余人；1月18日日军被迫放弃锦西县城。日期据《中华民族抗日编年（1932年1月）》与《义勇军“江家屯大捷”》。",
+      "en": "On 11 January 1932 the Japanese Ida brigade captured Jinxi (Jiangjiatun). On 9 January the Jinxi guerrillas ambushed the Japanese 27th Cavalry Regiment at Jiangjiatun, killing Colonel Koga Densaburo and over a hundred men; on 18 January the Japanese abandoned the county town."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中华民族抗日编年（1932年1月）",
+        "author": "抗日战争纪念网 2014-03-29",
+        "note": "逐日编年，访问 2026-11-22"
+      },
+      {
+        "title": "东北抗日义勇军大事记",
+        "author": "辽宁东北抗日义勇军纪念馆 2018-05-03",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "jinzhou-fall-1932-01",
+      "xingcheng-fall-1932-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xiuyan-fall-1932-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "岫岩沦陷",
+      "en": "Fall of Xiuyan"
+    },
+    "date": "1932-12-16",
+    "location": {
+      "lng": 123.28,
+      "lat": 40.29,
+      "place": {
+        "zh": "辽宁岫岩",
+        "en": "Xiuyan, Liaoning"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1932年12月16日，日军侵占岫岩县城。",
+      "en": "On 16 December 1932 the Japanese occupied Xiuyan."
+    },
+    "description": {
+      "zh": "1932年12月中旬，日军以第2师团主力和守备队及伪军组成岫岩、庄河两个讨伐队，进攻辽南三角抗区。12月15日刘景文部义勇军在岫岩大偏岭阻击，16日上午11时日军进入岫岩县城。日期据《东北抗日义勇军大事记》与《东北沦陷时期丹东大事记》。",
+      "en": "In mid-December 1932 the Japanese formed two punitive columns from the 2nd Division, guard units and puppet troops against the southern Liaoning triangle. On 15 December Liu Jingwen’s guerrillas fought a delaying action at Dapianling; at 11 a.m. on the 16th the Japanese entered Xiuyan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "东北抗日义勇军大事记",
+        "author": "辽宁东北抗日义勇军纪念馆 2018-05-03",
+        "note": "地方史，访问 2026-11-22"
+      },
+      {
+        "title": "东北沦陷时期丹东大事记",
+        "author": "丹东新闻网/抗日战争纪念网 2018-03-23",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "haicheng-fall-1931-09"
+    ],
+    "importance": 2
   }
 ]

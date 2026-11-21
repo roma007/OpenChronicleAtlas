@@ -18161,6 +18161,434 @@
         107.52,
         26.26
       ]
+    },
+    {
+      "id": "county-liaoning-u8425u53e3u53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "营口县"
+      },
+      "shortName": {
+        "zh": "营口"
+      },
+      "aliases": [
+        "营口"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        122.24,
+        40.67
+      ]
+    },
+    {
+      "id": "county-liaoning-u5b89u4e1cu53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "安东县"
+      },
+      "shortName": {
+        "zh": "安东"
+      },
+      "aliases": [
+        "安东"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        124.38,
+        40.13
+      ]
+    },
+    {
+      "id": "county-liaoning-u8fbdu9633u53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "辽阳县"
+      },
+      "shortName": {
+        "zh": "辽阳"
+      },
+      "aliases": [
+        "辽阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        123.115,
+        41.19
+      ]
+    },
+    {
+      "id": "place-liaoning-u978du5c71",
+      "level": "place",
+      "parentId": "county-liaoning-u8fbdu9633u53bf",
+      "name": {
+        "zh": "鞍山"
+      },
+      "shortName": {
+        "zh": "鞍山"
+      },
+      "aliases": [
+        "辽宁鞍山",
+        "辽宁鞍山"
+      ],
+      "modernName": {
+        "zh": "辽宁鞍山"
+      },
+      "point": [
+        122.99,
+        41.11
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "辽宁鞍山",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-liaoning-u94c1u5cadu53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "铁岭县"
+      },
+      "shortName": {
+        "zh": "铁岭"
+      },
+      "aliases": [
+        "铁岭"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        123.84,
+        42.29
+      ]
+    },
+    {
+      "id": "county-liaoning-u672cu6eaau53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "本溪县"
+      },
+      "shortName": {
+        "zh": "本溪"
+      },
+      "aliases": [
+        "本溪"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        123.77,
+        41.3
+      ]
+    },
+    {
+      "id": "county-liaoning-u6d77u57ceu53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "海城县"
+      },
+      "shortName": {
+        "zh": "海城"
+      },
+      "aliases": [
+        "海城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        122.75,
+        40.85
+      ]
+    },
+    {
+      "id": "county-liaoning-u76d6u5e73u53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "盖平县"
+      },
+      "shortName": {
+        "zh": "盖平"
+      },
+      "aliases": [
+        "盖平"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        122.35,
+        40.4
+      ]
+    },
+    {
+      "id": "county-liaoning-u590du53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "复县"
+      },
+      "shortName": {
+        "zh": "复"
+      },
+      "aliases": [
+        "复"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        121.97,
+        39.63
+      ]
+    },
+    {
+      "id": "county-liaoning-u51e4u57ceu53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "凤城县"
+      },
+      "shortName": {
+        "zh": "凤城"
+      },
+      "aliases": [
+        "凤城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        124.07,
+        40.45
+      ]
+    },
+    {
+      "id": "county-liaoning-u5f00u539fu53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "开原县"
+      },
+      "shortName": {
+        "zh": "开原"
+      },
+      "aliases": [
+        "开原"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        124.04,
+        42.55
+      ]
+    },
+    {
+      "id": "county-liaoning-u65b0u6c11u53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "新民县"
+      },
+      "shortName": {
+        "zh": "新民"
+      },
+      "aliases": [
+        "新民"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        122.83,
+        41.99
+      ]
+    },
+    {
+      "id": "county-liaoning-u5174u57ceu53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "兴城县"
+      },
+      "shortName": {
+        "zh": "兴城"
+      },
+      "aliases": [
+        "兴城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        120.73,
+        40.61
+      ]
+    },
+    {
+      "id": "county-liaoning-u7ee5u4e2du53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "绥中县"
+      },
+      "shortName": {
+        "zh": "绥中"
+      },
+      "aliases": [
+        "绥中"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        120.34,
+        40.33
+      ]
+    },
+    {
+      "id": "county-liaoning-u9526u897fu53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "锦西县"
+      },
+      "shortName": {
+        "zh": "锦西"
+      },
+      "aliases": [
+        "锦西"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        120.845,
+        40.73
+      ]
+    },
+    {
+      "id": "place-liaoning-u846bu82a6u5c9b",
+      "level": "place",
+      "parentId": "county-liaoning-u9526u897fu53bf",
+      "name": {
+        "zh": "葫芦岛"
+      },
+      "shortName": {
+        "zh": "葫芦岛"
+      },
+      "aliases": [
+        "辽宁葫芦岛",
+        "辽宁葫芦岛"
+      ],
+      "modernName": {
+        "zh": "辽宁葫芦岛"
+      },
+      "point": [
+        120.84,
+        40.71
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "辽宁葫芦岛",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-liaoning-u4e49u53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "义县"
+      },
+      "shortName": {
+        "zh": "义"
+      },
+      "aliases": [
+        "义"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        121.24,
+        41.53
+      ]
+    },
+    {
+      "id": "county-liaoning-u5317u9547u53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "北镇县"
+      },
+      "shortName": {
+        "zh": "北镇"
+      },
+      "aliases": [
+        "北镇"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        121.79,
+        41.6
+      ]
+    },
+    {
+      "id": "county-liaoning-u5cabu5ca9u53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "岫岩县"
+      },
+      "shortName": {
+        "zh": "岫岩"
+      },
+      "aliases": [
+        "岫岩"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        123.28,
+        40.29
+      ]
     }
   ]
 }

@@ -12288,6 +12288,386 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            123.43,
+            41.8
+          ],
+          [
+            122.75,
+            40.85
+          ],
+          [
+            122.35,
+            40.4
+          ],
+          [
+            121.97,
+            39.63
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1931-09-19",
+        "endDate": "1931-09-19",
+        "order": 313,
+        "segmentType": "advance",
+        "name": {
+          "zh": "沈阳—营口—海城—盖平—复县",
+          "en": "Shenyang–Yingkou–Haicheng–Gaiping–Fuxian"
+        },
+        "description": {
+          "zh": "1931年9月19日日军沿南满铁路南段侵占营口、海城、盖平、复县。路线为示意简化。",
+          "en": "On 19 September 1931 the Japanese occupied Yingkou, Haicheng, Gaiping and Fuxian along the southern section of the South Manchuria Railway. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            123.43,
+            41.8
+          ],
+          [
+            123.24,
+            41.27
+          ],
+          [
+            122.99,
+            41.11
+          ],
+          [
+            122.75,
+            40.85
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1931-09-19",
+        "endDate": "1931-09-19",
+        "order": 314,
+        "segmentType": "advance",
+        "name": {
+          "zh": "沈阳—辽阳—鞍山—海城",
+          "en": "Shenyang–Liaoyang–Anshan–Haicheng"
+        },
+        "description": {
+          "zh": "1931年9月19日日军第2师团自辽阳、鞍山方向进攻沈阳，同日控制辽阳、鞍山、海城。路线为示意简化。",
+          "en": "On 19 September 1931 the Japanese 2nd Division moved from Liaoyang and Anshan against Shenyang, while Liaoyang, Anshan and Haicheng were brought under control the same day. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            123.43,
+            41.8
+          ],
+          [
+            123.84,
+            42.29
+          ],
+          [
+            124.04,
+            42.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1931-09-19",
+        "endDate": "1931-09-19",
+        "order": 315,
+        "segmentType": "advance",
+        "name": {
+          "zh": "沈阳—铁岭—开原",
+          "en": "Shenyang–Tieling–Kaiyuan"
+        },
+        "description": {
+          "zh": "1931年9月19日日军沿南满铁路北段侵占铁岭、开原。路线为示意简化。",
+          "en": "On 19 September 1931 the Japanese occupied Tieling and Kaiyuan along the northern section of the South Manchuria Railway. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            123.43,
+            41.8
+          ],
+          [
+            123.77,
+            41.3
+          ],
+          [
+            124.07,
+            40.45
+          ],
+          [
+            124.38,
+            40.13
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1931-09-19",
+        "endDate": "1931-09-19",
+        "order": 316,
+        "segmentType": "advance",
+        "name": {
+          "zh": "沈阳—本溪—凤城—安东",
+          "en": "Shenyang–Benxi–Fengcheng–Andong"
+        },
+        "description": {
+          "zh": "1931年9月19日日军沿安奉铁路侵占本溪、凤城、安东。路线为示意简化。",
+          "en": "On 19 September 1931 the Japanese occupied Benxi, Fengcheng and Andong along the Anfeng railway. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            123.43,
+            41.8
+          ],
+          [
+            123.96,
+            41.88
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1931-09-19",
+        "endDate": "1931-09-19",
+        "order": 317,
+        "segmentType": "advance",
+        "name": {
+          "zh": "沈阳—抚顺",
+          "en": "Shenyang–Fushun"
+        },
+        "description": {
+          "zh": "1931年9月19日日军侵占抚顺。路线为示意简化。",
+          "en": "On 19 September 1931 the Japanese occupied Fushun. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            123.43,
+            41.8
+          ],
+          [
+            122.83,
+            41.99
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1931-11-23",
+        "endDate": "1931-11-23",
+        "order": 318,
+        "segmentType": "advance",
+        "name": {
+          "zh": "沈阳—新民",
+          "en": "Shenyang–Xinmin"
+        },
+        "description": {
+          "zh": "1931年11月23日日军侵占辽西重镇新民。路线为示意简化。",
+          "en": "On 23 November 1931 the Japanese occupied Xinmin, the key town of western Liaoning. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.13,
+            41.1
+          ],
+          [
+            120.73,
+            40.61
+          ],
+          [
+            120.34,
+            40.33
+          ],
+          [
+            120.84,
+            40.71
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1932-01-04",
+        "endDate": "1932-01-04",
+        "order": 319,
+        "segmentType": "advance",
+        "name": {
+          "zh": "锦州—兴城—绥中—葫芦岛",
+          "en": "Jinzhou–Xingcheng–Suizhong–Huludao"
+        },
+        "description": {
+          "zh": "1932年1月4日日军自锦州沿北宁铁路西进，侵占兴城、绥中、葫芦岛。路线为示意简化。",
+          "en": "On 4 January 1932 the Japanese advanced west from Jinzhou along the Beining railway and occupied Xingcheng, Suizhong and Huludao. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.13,
+            41.1
+          ],
+          [
+            121.24,
+            41.53
+          ],
+          [
+            121.79,
+            41.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1932-01-07",
+        "endDate": "1932-01-13",
+        "order": 320,
+        "segmentType": "advance",
+        "name": {
+          "zh": "锦州—义县—北镇",
+          "en": "Jinzhou–Yi County–Beizhen"
+        },
+        "description": {
+          "zh": "1932年1月7日日军占义县，13日占北镇。路线为示意简化。",
+          "en": "The Japanese took Yi County on 7 January 1932 and Beizhen on the 13th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.13,
+            41.1
+          ],
+          [
+            120.85,
+            40.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1932-01-11",
+        "endDate": "1932-01-11",
+        "order": 321,
+        "segmentType": "advance",
+        "name": {
+          "zh": "锦州—锦西",
+          "en": "Jinzhou–Jinxi"
+        },
+        "description": {
+          "zh": "1932年1月11日日军依田旅团攻占锦西县城。路线为示意简化。",
+          "en": "On 11 January 1932 the Japanese Ida brigade captured Jinxi. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            122.75,
+            40.85
+          ],
+          [
+            123.28,
+            40.29
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1932-12-16",
+        "endDate": "1932-12-16",
+        "order": 322,
+        "segmentType": "advance",
+        "name": {
+          "zh": "海城—岫岩",
+          "en": "Haicheng–Xiuyan"
+        },
+        "description": {
+          "zh": "1932年12月16日日军自海城方向进攻岫岩，侵占县城。路线为示意简化。",
+          "en": "On 16 December 1932 the Japanese advanced from the Haicheng direction and occupied Xiuyan. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

@@ -3883,6 +3883,88 @@
     "duyun-approach-1944-12": [
       "guizhou",
       "county-guizhou-u90fdu5300u53bf"
+    ],
+    "yingkou-fall-1931-09": [
+      "liaoning",
+      "county-liaoning-u8425u53e3u53bf"
+    ],
+    "andong-fall-1931-09": [
+      "liaoning",
+      "county-liaoning-u5b89u4e1cu53bf"
+    ],
+    "fushun-fall-1931-09": [
+      "liaoning",
+      "county-liaoning-u629au987au53bf"
+    ],
+    "liaoyang-fall-1931-09": [
+      "liaoning",
+      "county-liaoning-u8fbdu9633u53bf"
+    ],
+    "anshan-fall-1931-09": [
+      "liaoning",
+      "county-liaoning-u8fbdu9633u53bf",
+      "place-liaoning-u978du5c71"
+    ],
+    "tieling-fall-1931-09": [
+      "liaoning",
+      "county-liaoning-u94c1u5cadu53bf"
+    ],
+    "benxi-fall-1931-09": [
+      "liaoning",
+      "county-liaoning-u672cu6eaau53bf"
+    ],
+    "haicheng-fall-1931-09": [
+      "liaoning",
+      "county-liaoning-u6d77u57ceu53bf"
+    ],
+    "gaiping-fall-1931-09": [
+      "liaoning",
+      "county-liaoning-u76d6u5e73u53bf"
+    ],
+    "fuxian-fall-1931-09": [
+      "liaoning",
+      "county-liaoning-u590du53bf"
+    ],
+    "fenghuangcheng-fall-1931-09": [
+      "liaoning",
+      "county-liaoning-u51e4u57ceu53bf"
+    ],
+    "kaiyuan-fall-1931-09": [
+      "liaoning",
+      "county-liaoning-u5f00u539fu53bf"
+    ],
+    "xinmin-fall-1931-11": [
+      "liaoning",
+      "county-liaoning-u65b0u6c11u53bf"
+    ],
+    "xingcheng-fall-1932-01": [
+      "liaoning",
+      "county-liaoning-u5174u57ceu53bf"
+    ],
+    "suizhong-fall-1932-01": [
+      "liaoning",
+      "county-liaoning-u7ee5u4e2du53bf"
+    ],
+    "huludao-fall-1932-01": [
+      "liaoning",
+      "county-liaoning-u9526u897fu53bf",
+      "place-liaoning-u846bu82a6u5c9b"
+    ],
+    "yixian-fall-1932-01": [
+      "liaoning",
+      "county-liaoning-u4e49u53bf"
+    ],
+    "beizhen-fall-1932-01": [
+      "liaoning",
+      "county-liaoning-u5317u9547u53bf"
+    ],
+    "jinxi-fall-1932-01": [
+      "liaoning",
+      "county-liaoning-u9526u897fu53bf"
+    ],
+    "xiuyan-fall-1932-12": [
+      "liaoning",
+      "county-liaoning-u5cabu5ca9u53bf"
     ]
   },
   "routes": {
@@ -7155,6 +7237,97 @@
       ],
       "endpointRegionIds": [
         "guizhou"
+      ]
+    },
+    "japanese-invasion:313": {
+      "regionIds": [
+        "county-liaoning-u8fbdu9633u53bf",
+        "liaoning"
+      ],
+      "endpointRegionIds": [
+        "liaoning"
+      ]
+    },
+    "japanese-invasion:314": {
+      "regionIds": [
+        "county-liaoning-u8fbdu9633u53bf",
+        "liaoning"
+      ],
+      "endpointRegionIds": [
+        "liaoning"
+      ]
+    },
+    "japanese-invasion:315": {
+      "regionIds": [
+        "liaoning"
+      ],
+      "endpointRegionIds": [
+        "liaoning"
+      ]
+    },
+    "japanese-invasion:316": {
+      "regionIds": [
+        "liaoning"
+      ],
+      "endpointRegionIds": [
+        "liaoning"
+      ]
+    },
+    "japanese-invasion:317": {
+      "regionIds": [
+        "county-liaoning-u629au987au53bf",
+        "liaoning"
+      ],
+      "endpointRegionIds": [
+        "liaoning"
+      ]
+    },
+    "japanese-invasion:318": {
+      "regionIds": [
+        "liaoning"
+      ],
+      "endpointRegionIds": [
+        "liaoning"
+      ]
+    },
+    "japanese-invasion:319": {
+      "regionIds": [
+        "county-liaoning-u9526u53bf",
+        "county-liaoning-u9526u897fu53bf",
+        "liaoning",
+        "rehe"
+      ],
+      "endpointRegionIds": [
+        "rehe"
+      ]
+    },
+    "japanese-invasion:320": {
+      "regionIds": [
+        "county-liaoning-u9526u53bf",
+        "liaoning",
+        "rehe"
+      ],
+      "endpointRegionIds": [
+        "rehe",
+        "liaoning"
+      ]
+    },
+    "japanese-invasion:321": {
+      "regionIds": [
+        "county-liaoning-u9526u53bf",
+        "liaoning",
+        "rehe"
+      ],
+      "endpointRegionIds": [
+        "rehe"
+      ]
+    },
+    "japanese-invasion:322": {
+      "regionIds": [
+        "liaoning"
+      ],
+      "endpointRegionIds": [
+        "liaoning"
       ]
     },
     "kmt-forces:1": {
