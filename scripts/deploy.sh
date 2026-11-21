@@ -87,8 +87,8 @@ echo
 echo "== 4. 构建 =="
 run pnpm -s build
 if [ "$DRY" = 0 ]; then
-  # build:search-index 会重写 generatedAt，属于构建副产物，还原成提交里的版本
-  git checkout -- data/atlases/search-index.json 2>/dev/null || true
+  # build:search-index 会重写 generatedAt 与 dataVersion，属于构建副产物，还原成提交里的版本
+  git checkout -- data/atlases/search-index.json data/atlases/index.json 2>/dev/null || true
 fi
 
 echo

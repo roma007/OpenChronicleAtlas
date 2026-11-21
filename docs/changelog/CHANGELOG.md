@@ -3,6 +3,20 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.194] - 2026-11-21
+
+### Fixed
+- 发布脚本构建副产物回滚不完整：`scripts/deploy.sh` 只还原 `data/atlases/search-index.json`，
+  没有还原 `data/atlases/index.json`，导致发布后工作区残留一个 dataVersion 与搜索索引不一致的
+  `index.json`（M213 发布时出现 `efa51ad8` vs `f188b7e2`）。现在两个文件一起还原成提交里的版本，
+  发布后工作区保持干净。
+
+### Verify
+- `git status` 在 `pnpm release` 后无残留改动；`data/atlases/index.json` 与
+  `data/atlases/search-index.json` 的 `dataVersion` 一致。
+
+---
+
 ## [v1.0.193] - 2026-11-21
 
 ### Added
