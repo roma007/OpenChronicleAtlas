@@ -15982,6 +15982,618 @@
         110.7,
         40.55
       ]
+    },
+    {
+      "id": "county-hubei-u9ec4u6885u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "黄梅县"
+      },
+      "shortName": {
+        "zh": "黄梅"
+      },
+      "aliases": [
+        "黄梅"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.96,
+        29.91
+      ]
+    },
+    {
+      "id": "place-hubei-u9ec4u6885u5c0fu6c60u53e3",
+      "level": "place",
+      "parentId": "county-hubei-u9ec4u6885u53bf",
+      "name": {
+        "zh": "小池口"
+      },
+      "shortName": {
+        "zh": "小池口"
+      },
+      "aliases": [
+        "湖北黄梅小池口",
+        "湖北黄梅小池口"
+      ],
+      "modernName": {
+        "zh": "湖北黄梅小池口"
+      },
+      "point": [
+        115.98,
+        29.75
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖北黄梅小池口",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hubei-u5e7fu6d4eu53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "广济县"
+      },
+      "shortName": {
+        "zh": "广济"
+      },
+      "aliases": [
+        "广济"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.57,
+        29.9633
+      ]
+    },
+    {
+      "id": "place-hubei-u5e7fu6d4eu6b66u7a74",
+      "level": "place",
+      "parentId": "county-hubei-u5e7fu6d4eu53bf",
+      "name": {
+        "zh": "武穴"
+      },
+      "shortName": {
+        "zh": "武穴"
+      },
+      "aliases": [
+        "湖北广济武穴",
+        "湖北广济武穴"
+      ],
+      "modernName": {
+        "zh": "湖北广济武穴"
+      },
+      "point": [
+        115.56,
+        29.84
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖北广济武穴",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-hubei-u9633u65b0u5bccu6c60u53e3",
+      "level": "place",
+      "parentId": "county-hubei-u9633u65b0u53bf",
+      "name": {
+        "zh": "富池口"
+      },
+      "shortName": {
+        "zh": "富池口"
+      },
+      "aliases": [
+        "湖北阳新富池口",
+        "湖北阳新富池口"
+      ],
+      "modernName": {
+        "zh": "湖北阳新富池口"
+      },
+      "point": [
+        115.4,
+        29.8
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖北阳新富池口",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-hubei-u5e7fu6d4eu7530u5bb6u9547",
+      "level": "place",
+      "parentId": "county-hubei-u5e7fu6d4eu53bf",
+      "name": {
+        "zh": "田家镇"
+      },
+      "shortName": {
+        "zh": "田家镇"
+      },
+      "aliases": [
+        "湖北广济田家镇",
+        "湖北广济田家镇"
+      ],
+      "modernName": {
+        "zh": "湖北广济田家镇"
+      },
+      "point": [
+        115.55,
+        29.95
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖北广济田家镇",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-hubei-u9633u65b0u534au58c1u5c71",
+      "level": "place",
+      "parentId": "county-hubei-u9633u65b0u53bf",
+      "name": {
+        "zh": "半壁山"
+      },
+      "shortName": {
+        "zh": "半壁山"
+      },
+      "aliases": [
+        "湖北阳新半壁山",
+        "湖北阳新半壁山"
+      ],
+      "modernName": {
+        "zh": "湖北阳新半壁山"
+      },
+      "point": [
+        115.42,
+        29.83
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖北阳新半壁山",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hubei-u8572u6625u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "蕲春县"
+      },
+      "shortName": {
+        "zh": "蕲春"
+      },
+      "aliases": [
+        "蕲春"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.44,
+        30.24
+      ]
+    },
+    {
+      "id": "county-hubei-u6d60u6c34u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "浠水县"
+      },
+      "shortName": {
+        "zh": "浠水"
+      },
+      "aliases": [
+        "浠水"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.26,
+        30.45
+      ]
+    },
+    {
+      "id": "county-hubei-u5927u51b6u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "大冶县"
+      },
+      "shortName": {
+        "zh": "大冶"
+      },
+      "aliases": [
+        "大冶"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.01,
+        30.16
+      ]
+    },
+    {
+      "id": "county-hubei-u9102u57ceu53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "鄂城县"
+      },
+      "shortName": {
+        "zh": "鄂城"
+      },
+      "aliases": [
+        "鄂城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.89,
+        30.4
+      ]
+    },
+    {
+      "id": "place-hubei-u9ec4u77f3u6e2f",
+      "level": "place",
+      "parentId": "county-hubei-u5927u51b6u53bf",
+      "name": {
+        "zh": "黄石港"
+      },
+      "shortName": {
+        "zh": "黄石港"
+      },
+      "aliases": [
+        "湖北黄石港",
+        "湖北黄石港"
+      ],
+      "modernName": {
+        "zh": "湖北黄石港"
+      },
+      "point": [
+        115.05,
+        30.22
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖北黄石港",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hubei-u9ec4u5188u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "黄冈县"
+      },
+      "shortName": {
+        "zh": "黄冈"
+      },
+      "aliases": [
+        "黄冈"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.875,
+        30.54
+      ]
+    },
+    {
+      "id": "place-hubei-u9ec4u5188u56e2u98ce",
+      "level": "place",
+      "parentId": "county-hubei-u9ec4u5188u53bf",
+      "name": {
+        "zh": "团风"
+      },
+      "shortName": {
+        "zh": "团风"
+      },
+      "aliases": [
+        "湖北黄冈团风",
+        "湖北黄冈团风"
+      ],
+      "modernName": {
+        "zh": "湖北黄冈团风"
+      },
+      "point": [
+        114.87,
+        30.63
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖北黄冈团风",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hubei-u9ec4u9642u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "黄陂县"
+      },
+      "shortName": {
+        "zh": "黄陂"
+      },
+      "aliases": [
+        "黄陂"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.38,
+        30.88
+      ]
+    },
+    {
+      "id": "county-hubei-u9ebbu57ceu53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "麻城县"
+      },
+      "shortName": {
+        "zh": "麻城"
+      },
+      "aliases": [
+        "麻城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.02,
+        31.18
+      ]
+    },
+    {
+      "id": "county-hubei-u9ec4u5b89u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "黄安县"
+      },
+      "shortName": {
+        "zh": "黄安"
+      },
+      "aliases": [
+        "黄安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.62,
+        31.29
+      ]
+    },
+    {
+      "id": "county-hubei-u5e94u57ceu53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "应城县"
+      },
+      "shortName": {
+        "zh": "应城"
+      },
+      "aliases": [
+        "应城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.57,
+        30.93
+      ]
+    },
+    {
+      "id": "county-hubei-u54b8u5b81u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "咸宁县"
+      },
+      "shortName": {
+        "zh": "咸宁"
+      },
+      "aliases": [
+        "咸宁"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.32,
+        29.84
+      ]
+    },
+    {
+      "id": "county-hubei-u5357u6f33u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "南漳县"
+      },
+      "shortName": {
+        "zh": "南漳"
+      },
+      "aliases": [
+        "南漳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.84,
+        31.78
+      ]
+    },
+    {
+      "id": "county-hubei-u8346u95e8u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "荆门县"
+      },
+      "shortName": {
+        "zh": "荆门"
+      },
+      "aliases": [
+        "荆门"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.2,
+        31.04
+      ]
+    },
+    {
+      "id": "county-hubei-u677eu6ecbu53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "松滋县"
+      },
+      "shortName": {
+        "zh": "松滋"
+      },
+      "aliases": [
+        "松滋"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.77,
+        30.18
+      ]
+    },
+    {
+      "id": "county-hubei-u5b9cu90fdu53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "宜都县"
+      },
+      "shortName": {
+        "zh": "宜都"
+      },
+      "aliases": [
+        "宜都"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.45,
+        30.38
+      ]
+    },
+    {
+      "id": "county-hubei-u957fu9633u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "长阳县"
+      },
+      "shortName": {
+        "zh": "长阳"
+      },
+      "aliases": [
+        "长阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.2,
+        30.47
+      ]
+    },
+    {
+      "id": "place-hubei-u6a0au57ce",
+      "level": "place",
+      "parentId": "county-hubei-u8944u9633u53bf",
+      "name": {
+        "zh": "樊城"
+      },
+      "shortName": {
+        "zh": "樊城"
+      },
+      "aliases": [
+        "湖北樊城",
+        "湖北樊城"
+      ],
+      "modernName": {
+        "zh": "湖北樊城"
+      },
+      "point": [
+        112.14,
+        32.05
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "湖北樊城",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hubei-u8c37u57ceu53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "谷城县"
+      },
+      "shortName": {
+        "zh": "谷城"
+      },
+      "aliases": [
+        "谷城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.65,
+        32.26
+      ]
     }
   ]
 }

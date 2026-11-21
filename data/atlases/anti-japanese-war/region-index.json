@@ -3341,6 +3341,158 @@
     "salaqi-fall-1937-10": [
       "suiyuan",
       "county-suiyuan-u8428u62c9u9f50u53bf"
+    ],
+    "xiaochikou-fall-1938-07": [
+      "hubei",
+      "county-hubei-u9ec4u6885u53bf",
+      "place-hubei-u9ec4u6885u5c0fu6c60u53e3"
+    ],
+    "huangmei-fall-1938-08": [
+      "hubei",
+      "county-hubei-u9ec4u6885u53bf"
+    ],
+    "guangji-fall-1938-09": [
+      "hubei",
+      "county-hubei-u5e7fu6d4eu53bf"
+    ],
+    "wuxue-fall-1938-09": [
+      "hubei",
+      "county-hubei-u5e7fu6d4eu53bf",
+      "place-hubei-u5e7fu6d4eu6b66u7a74"
+    ],
+    "fuchikou-fall-1938-09": [
+      "hubei",
+      "county-hubei-u9633u65b0u53bf",
+      "place-hubei-u9633u65b0u5bccu6c60u53e3"
+    ],
+    "tianjiazhen-fall-1938-09": [
+      "hubei",
+      "county-hubei-u5e7fu6d4eu53bf",
+      "place-hubei-u5e7fu6d4eu7530u5bb6u9547"
+    ],
+    "banbishan-fall-1938-10": [
+      "hubei",
+      "county-hubei-u9633u65b0u53bf",
+      "place-hubei-u9633u65b0u534au58c1u5c71"
+    ],
+    "qichun-fall-1938-10": [
+      "hubei",
+      "county-hubei-u8572u6625u53bf"
+    ],
+    "xishui-fall-1938-10": [
+      "hubei",
+      "county-hubei-u6d60u6c34u53bf"
+    ],
+    "yangxin-fall-1938-10": [
+      "hubei",
+      "county-hubei-u9633u65b0u53bf"
+    ],
+    "daye-fall-1938-10": [
+      "hubei",
+      "county-hubei-u5927u51b6u53bf"
+    ],
+    "echeng-fall-1938-10": [
+      "hubei",
+      "county-hubei-u9102u57ceu53bf"
+    ],
+    "huangshigang-fall-1938-10": [
+      "hubei",
+      "county-hubei-u5927u51b6u53bf",
+      "place-hubei-u9ec4u77f3u6e2f"
+    ],
+    "huanggang-fall-1938-10": [
+      "hubei",
+      "county-hubei-u9ec4u5188u53bf"
+    ],
+    "tuanfeng-fall-1938-10": [
+      "hubei",
+      "county-hubei-u9ec4u5188u53bf",
+      "place-hubei-u9ec4u5188u56e2u98ce"
+    ],
+    "huangpi-fall-1938-10": [
+      "hubei",
+      "county-hubei-u9ec4u9642u53bf"
+    ],
+    "macheng-fall-1938-10": [
+      "hubei",
+      "county-hubei-u9ebbu57ceu53bf"
+    ],
+    "huangan-fall-1938-10": [
+      "hubei",
+      "county-hubei-u9ec4u5b89u53bf"
+    ],
+    "yingcheng-fall-1938-10": [
+      "hubei",
+      "county-hubei-u5e94u57ceu53bf"
+    ],
+    "xianning-fall-1938-10": [
+      "hubei",
+      "county-hubei-u54b8u5b81u53bf"
+    ],
+    "chongyang-fall-1938-11": [
+      "hubei",
+      "county-hubei-u5d07u9633u53bf"
+    ],
+    "suixian-fall-1939-05": [
+      "hubei",
+      "county-hubei-u968fu53bf"
+    ],
+    "zaoyang-fall-1939-05": [
+      "hubei",
+      "county-hubei-u67a3u9633u53bf"
+    ],
+    "xiangyang-fall-1940-06": [
+      "hubei",
+      "county-hubei-u8944u9633u53bf"
+    ],
+    "nanzhang-fall-1940-06": [
+      "hubei",
+      "county-hubei-u5357u6f33u53bf"
+    ],
+    "yicheng-fall-1940-06": [
+      "hubei",
+      "county-hubei-u5b9cu57ceu53bf"
+    ],
+    "jingmen-fall-1940-06": [
+      "hubei",
+      "county-hubei-u8346u95e8u53bf"
+    ],
+    "jingzhou-fall-1940-06": [
+      "hubei",
+      "county-hubei-u6c5fu9675u53bf"
+    ],
+    "dangyang-fall-1940-06": [
+      "hubei",
+      "county-hubei-u5f53u9633u53bf"
+    ],
+    "gongan-fall-1943-05": [
+      "hubei",
+      "county-hubei-u516cu5b89u53bf"
+    ],
+    "songzi-fall-1943-05": [
+      "hubei",
+      "county-hubei-u677eu6ecbu53bf"
+    ],
+    "yidu-fall-1943-05": [
+      "hubei",
+      "county-hubei-u5b9cu90fdu53bf"
+    ],
+    "changyang-fall-1943-05": [
+      "hubei",
+      "county-hubei-u957fu9633u53bf"
+    ],
+    "fancheng-fall-1945-03": [
+      "hubei",
+      "county-hubei-u8944u9633u53bf",
+      "place-hubei-u6a0au57ce"
+    ],
+    "gucheng-fall-1945-04": [
+      "hubei",
+      "county-hubei-u8c37u57ceu53bf"
+    ],
+    "wuhan-surrender-1945-09": [
+      "hubei",
+      "county-hubei-u6c49u53e3u5e02"
     ]
   },
   "routes": {
@@ -3670,6 +3822,7 @@
     },
     "eighth-route-army:28": {
       "regionIds": [
+        "county-hubei-u9ec4u5188u53bf",
         "county-hunan-u5cb3u9633u53bf",
         "county-jiangxi-u5927u5ebeu53bf",
         "guangdong",
@@ -3832,6 +3985,8 @@
       "regionIds": [
         "anhui",
         "county-anhui-u6000u5b81u53bf",
+        "county-hubei-u5e7fu6d4eu53bf",
+        "county-hubei-u9633u65b0u53bf",
         "hubei",
         "jiangxi"
       ],
@@ -3987,6 +4142,7 @@
     "japanese-invasion:31": {
       "regionIds": [
         "county-hubei-u5b9cu660cu53bf",
+        "county-hubei-u8944u9633u53bf",
         "hubei"
       ],
       "endpointRegionIds": [
@@ -4204,7 +4360,7 @@
     },
     "japanese-invasion:54": {
       "regionIds": [
-        "county-hubei-u5149u5316u53bf",
+        "county-hubei-u8944u9633u53bf",
         "hubei"
       ],
       "endpointRegionIds": [
@@ -5642,6 +5798,8 @@
     },
     "japanese-invasion:208": {
       "regionIds": [
+        "county-hubei-u9ec4u6885u53bf",
+        "hubei",
         "jiangxi"
       ],
       "endpointRegionIds": [
@@ -6102,6 +6260,135 @@
         "suiyuan"
       ]
     },
+    "japanese-invasion:259": {
+      "regionIds": [
+        "county-hubei-u5e7fu6d4eu53bf",
+        "county-hubei-u9ec4u6885u53bf",
+        "hubei",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "hubei",
+        "jiangxi"
+      ]
+    },
+    "japanese-invasion:260": {
+      "regionIds": [
+        "county-hubei-u5e7fu6d4eu53bf",
+        "hubei",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi",
+        "hubei"
+      ]
+    },
+    "japanese-invasion:261": {
+      "regionIds": [
+        "county-hubei-u9633u65b0u53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:262": {
+      "regionIds": [
+        "county-hubei-u5e7fu6d4eu53bf",
+        "county-hubei-u9ec4u5188u53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:263": {
+      "regionIds": [
+        "county-hubei-u5927u51b6u53bf",
+        "county-hubei-u9633u65b0u53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:264": {
+      "regionIds": [
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:265": {
+      "regionIds": [
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:266": {
+      "regionIds": [
+        "county-hubei-u5927u51b6u53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:267": {
+      "regionIds": [
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:268": {
+      "regionIds": [
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:269": {
+      "regionIds": [
+        "county-hubei-u6c5fu9675u53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:270": {
+      "regionIds": [
+        "county-hubei-u6c5fu9675u53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:271": {
+      "regionIds": [
+        "county-hubei-u8944u9633u53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:272": {
+      "regionIds": [
+        "county-hubei-u8944u9633u53bf",
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
     "kmt-forces:1": {
       "regionIds": [
         "beiping",
@@ -6533,6 +6820,7 @@
         "anhui",
         "chongqing",
         "county-hubei-u5b9cu660cu53bf",
+        "county-hubei-u9ec4u5188u53bf",
         "hubei",
         "jiangsu",
         "shanghai",
@@ -6617,6 +6905,7 @@
     },
     "kmt-forces:48": {
       "regionIds": [
+        "county-hubei-u9633u65b0u53bf",
         "county-jiangxi-u5fb7u5b89u53bf",
         "henan",
         "hubei",
@@ -6677,6 +6966,7 @@
         "anhui",
         "county-anhui-u548cu53bf",
         "county-anhui-u6000u5b81u53bf",
+        "county-hubei-u9ec4u5188u53bf",
         "county-jiangsu-u5434u53bf",
         "hubei",
         "jiangsu",
@@ -6891,6 +7181,7 @@
     },
     "kmt-group-armies:7": {
       "regionIds": [
+        "county-hubei-u9633u65b0u53bf",
         "hubei",
         "jiangxi"
       ],
@@ -6951,6 +7242,7 @@
     },
     "kmt-group-armies:14": {
       "regionIds": [
+        "county-hubei-u8944u9633u53bf",
         "hubei"
       ],
       "endpointRegionIds": [
@@ -7239,7 +7531,7 @@
     },
     "kmt-group-armies:47": {
       "regionIds": [
-        "county-hubei-u5149u5316u53bf",
+        "county-hubei-u8944u9633u53bf",
         "hubei"
       ],
       "endpointRegionIds": [
@@ -7282,6 +7574,7 @@
     },
     "kmt-group-armies:54": {
       "regionIds": [
+        "county-hubei-u8944u9633u53bf",
         "hubei"
       ],
       "endpointRegionIds": [
@@ -7310,6 +7603,7 @@
         "anhui",
         "county-anhui-u6000u5b81u53bf",
         "county-anhui-u6cfeu53bf",
+        "county-hubei-u9ec4u5188u53bf",
         "hubei"
       ],
       "endpointRegionIds": [

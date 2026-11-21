@@ -10240,6 +10240,558 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.98,
+            29.75
+          ],
+          [
+            115.94,
+            30.07
+          ],
+          [
+            115.6,
+            30.1
+          ],
+          [
+            115.56,
+            29.84
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-07-26",
+        "endDate": "1938-09-16",
+        "order": 259,
+        "segmentType": "advance",
+        "name": {
+          "zh": "小池口—黄梅—广济—武穴",
+          "en": "Xiaochikou–Huangmei–Guangji–Wuxue"
+        },
+        "description": {
+          "zh": "1938年7月26日日军自小池口登陆，8月2日占黄梅，9月6日占广济，16日占武穴。路线为示意简化。",
+          "en": "On 26 July 1938 the Japanese landed at Xiaochikou, took Huangmei on 2 August, Guangji on 6 September and Wuxue on the 16th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.56,
+            29.84
+          ],
+          [
+            115.55,
+            29.95
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-09-16",
+        "endDate": "1938-09-29",
+        "order": 260,
+        "segmentType": "advance",
+        "name": {
+          "zh": "武穴—田家镇",
+          "en": "Wuxue–Tianjiazhen"
+        },
+        "description": {
+          "zh": "1938年9月16日日军占武穴后，沿长江北岸进攻田家镇要塞，29日攻陷。路线为示意简化。",
+          "en": "After taking Wuxue on 16 September 1938 the Japanese advanced along the north bank against the Tianjiazhen fortress, which fell on the 29th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.4,
+            29.8
+          ],
+          [
+            115.42,
+            29.83
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-09-24",
+        "endDate": "1938-10-04",
+        "order": 261,
+        "segmentType": "advance",
+        "name": {
+          "zh": "富池口—半壁山",
+          "en": "Fuchikou–Banbishan"
+        },
+        "description": {
+          "zh": "1938年9月24日日军占富池口，10月4日强渡攻占南岸半壁山。路线为示意简化。",
+          "en": "The Japanese took Fuchikou on 24 September 1938 and crossed the river to take Banbishan on the south bank on 4 October. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.55,
+            29.95
+          ],
+          [
+            115.44,
+            30.24
+          ],
+          [
+            115.26,
+            30.45
+          ],
+          [
+            114.88,
+            30.45
+          ],
+          [
+            114.87,
+            30.63
+          ],
+          [
+            114.38,
+            30.88
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-09-29",
+        "endDate": "1938-10-24",
+        "order": 262,
+        "segmentType": "advance",
+        "name": {
+          "zh": "田家镇—蕲春—浠水—黄冈—团风—黄陂",
+          "en": "Tianjiazhen–Qichun–Xishui–Huanggang–Tuanfeng–Huangpi"
+        },
+        "description": {
+          "zh": "1938年9月底至10月，日军第6师团自田家镇沿江西进，经蕲春、浠水、黄冈、团风，24日占黄陂。路线为示意简化。",
+          "en": "From late September to October 1938 the Japanese 6th Division advanced west from Tianjiazhen through Qichun, Xishui, Huanggang and Tuanfeng, taking Huangpi on the 24th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.42,
+            29.83
+          ],
+          [
+            115.21,
+            29.84
+          ],
+          [
+            114.97,
+            30.1
+          ],
+          [
+            114.89,
+            30.4
+          ],
+          [
+            115.05,
+            30.22
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-04",
+        "endDate": "1938-10-20",
+        "order": 263,
+        "segmentType": "advance",
+        "name": {
+          "zh": "半壁山—阳新—大冶—鄂城—黄石港",
+          "en": "Banbishan–Yangxin–Daye–Echeng–Huangshigang"
+        },
+        "description": {
+          "zh": "1938年10月4日日军占半壁山后，经阳新、大冶、鄂城，20日占黄石港。路线为示意简化。",
+          "en": "After taking Banbishan on 4 October 1938 the Japanese advanced through Yangxin, Daye and Echeng to Huangshigang on the 20th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.38,
+            30.88
+          ],
+          [
+            114.3,
+            30.59
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-24",
+        "endDate": "1938-10-26",
+        "order": 264,
+        "segmentType": "advance",
+        "name": {
+          "zh": "黄陂—武汉",
+          "en": "Huangpi–Wuhan"
+        },
+        "description": {
+          "zh": "1938年10月24日日军占黄陂，25日夜进入汉口，26日占武昌。路线为示意简化。",
+          "en": "The Japanese took Huangpi on 24 October 1938, entered Hankou on the night of the 25th and took Wuchang on the 26th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.02,
+            31.18
+          ],
+          [
+            114.62,
+            31.29
+          ],
+          [
+            113.57,
+            30.93
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-25",
+        "endDate": "1938-10-30",
+        "order": 265,
+        "segmentType": "advance",
+        "name": {
+          "zh": "麻城—黄安—应城",
+          "en": "Macheng–Huang’an–Yingcheng"
+        },
+        "description": {
+          "zh": "1938年10月25日日军越过大别山占麻城，27日占黄安，30日占应城。路线为示意简化。",
+          "en": "On 25 October 1938 the Japanese crossed the Dabie Mountains to Macheng, took Huang’an on the 27th and Yingcheng on the 30th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.05,
+            30.22
+          ],
+          [
+            114.32,
+            29.84
+          ],
+          [
+            114.04,
+            29.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-20",
+        "endDate": "1938-11-06",
+        "order": 266,
+        "segmentType": "advance",
+        "name": {
+          "zh": "黄石港—咸宁—崇阳",
+          "en": "Huangshigang–Xianning–Chongyang"
+        },
+        "description": {
+          "zh": "1938年10月20日日军占黄石港后，沿粤汉线南下，29日占咸宁，11月6日占崇阳。路线为示意简化。",
+          "en": "After taking Huangshigang on 20 October 1938 the Japanese moved south along the Canton–Hankou railway, taking Xianning on the 29th and Chongyang on 6 November. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.38,
+            31.69
+          ],
+          [
+            112.77,
+            32.13
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-05-01",
+        "endDate": "1939-05-08",
+        "order": 267,
+        "segmentType": "advance",
+        "name": {
+          "zh": "随县—枣阳",
+          "en": "Suixian–Zaoyang"
+        },
+        "description": {
+          "zh": "1939年5月1日日军第11军向随枣进攻，8日占随县、枣阳。路线为示意简化。",
+          "en": "On 1 May 1939 the Japanese 11th Army attacked Suixian and Zaoyang, taking both on the 8th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.14,
+            32.04
+          ],
+          [
+            111.84,
+            31.78
+          ],
+          [
+            112.26,
+            31.72
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-06-01",
+        "endDate": "1940-06-03",
+        "order": 268,
+        "segmentType": "advance",
+        "name": {
+          "zh": "襄阳—南漳—宜城",
+          "en": "Xiangyang–Nanzhang–Yicheng"
+        },
+        "description": {
+          "zh": "1940年6月1日日军占襄阳，3日第3师团占南漳、第39师团占宜城。路线为示意简化。",
+          "en": "The Japanese took Xiangyang on 1 June 1940; on the 3rd the 3rd Division took Nanzhang and the 39th Division Yicheng. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.26,
+            31.72
+          ],
+          [
+            112.2,
+            31.04
+          ],
+          [
+            112.24,
+            30.33
+          ],
+          [
+            111.79,
+            30.82
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-06-03",
+        "endDate": "1940-06-09",
+        "order": 269,
+        "segmentType": "advance",
+        "name": {
+          "zh": "宜城—荆门—荆州—当阳",
+          "en": "Yicheng–Jingmen–Jingzhou–Dangyang"
+        },
+        "description": {
+          "zh": "1940年6月3日日军占宜城后南下，6日占荆门，8日占江陵（荆州），9日占当阳。路线为示意简化。",
+          "en": "After taking Yicheng on 3 June 1940 the Japanese moved south, taking Jingmen on the 6th, Jiangling (Jingzhou) on the 8th and Dangyang on the 9th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.24,
+            30.33
+          ],
+          [
+            112.23,
+            30.06
+          ],
+          [
+            111.77,
+            30.18
+          ],
+          [
+            111.45,
+            30.38
+          ],
+          [
+            111.2,
+            30.47
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1943-05-14",
+        "endDate": "1943-05-24",
+        "order": 270,
+        "segmentType": "advance",
+        "name": {
+          "zh": "荆州—公安—松滋—宜都—长阳",
+          "en": "Jingzhou–Gong’an–Songzi–Yidu–Changyang"
+        },
+        "description": {
+          "zh": "1943年5月14日日军占公安，18日占松滋，22日占宜都，24日占长阳。路线为示意简化。",
+          "en": "In May 1943 the Japanese took Gong’an on the 14th, Songzi on the 18th, Yidu on the 22nd and Changyang on the 24th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.2,
+            31.04
+          ],
+          [
+            112.26,
+            31.72
+          ],
+          [
+            112.14,
+            32.04
+          ],
+          [
+            112.14,
+            32.05
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1945-03-21",
+        "endDate": "1945-03-30",
+        "order": 271,
+        "segmentType": "advance",
+        "name": {
+          "zh": "荆门—宜城—襄阳—樊城",
+          "en": "Jingmen–Yicheng–Xiangyang–Fancheng"
+        },
+        "description": {
+          "zh": "1945年3月21日日军第39师团自荆门北犯，23日占宜城，29日占襄阳，30日占樊城。路线为示意简化。",
+          "en": "On 21 March 1945 the Japanese 39th Division advanced north from Jingmen, taking Yicheng on the 23rd, Xiangyang on the 29th and Fancheng on the 30th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.14,
+            32.05
+          ],
+          [
+            111.65,
+            32.26
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1945-03-30",
+        "endDate": "1945-04-07",
+        "order": 272,
+        "segmentType": "advance",
+        "name": {
+          "zh": "樊城—谷城",
+          "en": "Fancheng–Gucheng"
+        },
+        "description": {
+          "zh": "1945年3月30日日军占樊城后西犯，4月7日占谷城。路线为示意简化。",
+          "en": "After taking Fancheng on 30 March 1945 the Japanese moved west and took Gucheng on 7 April. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
