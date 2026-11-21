@@ -5078,6 +5078,790 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.0,
+            31.7
+          ],
+          [
+            120.93,
+            31.62
+          ],
+          [
+            120.75,
+            31.65
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-13",
+        "endDate": "1937-11-19",
+        "order": 130,
+        "segmentType": "advance",
+        "name": {
+          "zh": "白茆口—支塘—常熟",
+          "en": "Baimaokou–Zhitang–Changshu"
+        },
+        "description": {
+          "zh": "1937年11月13日，日军从白茆口、浒浦一带登陆，经支塘向常熟县城进犯，11月19日陷常熟。路线为示意简化。",
+          "en": "On 13 November 1937 Japanese forces landed at Baimaokou and Hupu, advanced via Zhitang on Changshu and took the town on 19 November. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.98,
+            31.39
+          ],
+          [
+            120.8,
+            31.34
+          ],
+          [
+            120.62,
+            31.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-15",
+        "endDate": "1937-11-19",
+        "order": 131,
+        "segmentType": "advance",
+        "name": {
+          "zh": "昆山—苏州",
+          "en": "Kunshan–Suzhou"
+        },
+        "description": {
+          "zh": "1937年11月15日日军进攻昆山，随后沿京沪铁路西进，11月19日攻入苏州。路线为示意简化。",
+          "en": "Japanese forces attacked Kunshan on 15 November 1937 and advanced west along the Nanjing–Shanghai railway, entering Suzhou on 19 November. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.75,
+            31.65
+          ],
+          [
+            120.68,
+            31.48
+          ],
+          [
+            120.62,
+            31.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-19",
+        "endDate": "1937-11-19",
+        "order": 132,
+        "segmentType": "advance",
+        "name": {
+          "zh": "常熟—苏州",
+          "en": "Changshu–Suzhou"
+        },
+        "description": {
+          "zh": "1937年11月19日，日军由常熟向苏州进攻，与昆山方向一路合攻苏州。路线为示意简化。",
+          "en": "On 19 November 1937 Japanese forces advanced from Changshu toward Suzhou, converging with the Kunshan column. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.62,
+            31.3
+          ],
+          [
+            120.45,
+            31.42
+          ],
+          [
+            120.3,
+            31.57
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-19",
+        "endDate": "1937-11-25",
+        "order": 133,
+        "segmentType": "advance",
+        "name": {
+          "zh": "苏州—无锡",
+          "en": "Suzhou–Wuxi"
+        },
+        "description": {
+          "zh": "1937年11月19日苏州失守后，日军沿京杭运河与铁路西进，11月25日侵占无锡。路线为示意简化。",
+          "en": "After Suzhou fell on 19 November 1937, Japanese forces advanced west along the Grand Canal and railway and occupied Wuxi on 25 November. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.3,
+            31.57
+          ],
+          [
+            120.1,
+            31.68
+          ],
+          [
+            119.95,
+            31.79
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-25",
+        "endDate": "1937-11-29",
+        "order": 134,
+        "segmentType": "advance",
+        "name": {
+          "zh": "无锡—常州",
+          "en": "Wuxi–Changzhou"
+        },
+        "description": {
+          "zh": "1937年11月25日无锡失守后，日军第16师团沿铁路西进，11月29日攻占常州。路线为示意简化。",
+          "en": "After Wuxi fell on 25 November 1937, the Japanese 16th Division advanced west along the railway and took Changzhou on 29 November. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.95,
+            31.79
+          ],
+          [
+            119.75,
+            31.9
+          ],
+          [
+            119.58,
+            32.0
+          ],
+          [
+            119.45,
+            32.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-29",
+        "endDate": "1937-12-08",
+        "order": 135,
+        "segmentType": "advance",
+        "name": {
+          "zh": "常州—丹阳—镇江",
+          "en": "Changzhou–Danyang–Zhenjiang"
+        },
+        "description": {
+          "zh": "1937年11月29日常州失守后，日军沿京沪铁路西进，12月2日陷丹阳，12月8日陷镇江。路线为示意简化。",
+          "en": "After Changzhou fell on 29 November 1937, Japanese forces advanced west along the Nanjing–Shanghai railway, taking Danyang on 2 December and Zhenjiang on 8 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.82,
+            31.36
+          ],
+          [
+            119.48,
+            31.42
+          ],
+          [
+            119.03,
+            31.65
+          ],
+          [
+            119.17,
+            31.95
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-28",
+        "endDate": "1937-12-05",
+        "order": 136,
+        "segmentType": "advance",
+        "name": {
+          "zh": "宜兴—溧阳—溧水—句容",
+          "en": "Yixing–Liyang–Lishui–Jurong"
+        },
+        "description": {
+          "zh": "1937年11月28日宜兴失守后，太湖南岸一路日军经溧阳、溧水、句容向南京迂回。路线为示意简化。",
+          "en": "After Yixing fell on 28 November 1937, the Japanese column south of Taihu moved via Liyang, Lishui and Jurong to outflank Nanjing. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.95,
+            31.79
+          ],
+          [
+            119.58,
+            31.74
+          ],
+          [
+            119.3,
+            31.68
+          ],
+          [
+            119.03,
+            31.65
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-29",
+        "endDate": "1937-12-04",
+        "order": 137,
+        "segmentType": "advance",
+        "name": {
+          "zh": "常州—金坛—溧水",
+          "en": "Changzhou–Jintan–Lishui"
+        },
+        "description": {
+          "zh": "1937年11月29日常州失守后，日军第9师团经金坛西进，12月2日陷金坛，12月4日陷溧水。路线为示意简化。",
+          "en": "After Changzhou fell on 29 November 1937, the Japanese 9th Division advanced west via Jintan, taking Jintan on 2 December and Lishui on 4 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.3,
+            31.57
+          ],
+          [
+            120.3,
+            31.75
+          ],
+          [
+            120.28,
+            31.91
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-25",
+        "endDate": "1937-12-02",
+        "order": 138,
+        "segmentType": "advance",
+        "name": {
+          "zh": "无锡—江阴",
+          "en": "Wuxi–Jiangyin"
+        },
+        "description": {
+          "zh": "1937年11月25日无锡失守后，日军从无锡三面围攻江阴，12月2日攻占江阴要塞。路线为示意简化。",
+          "en": "After Wuxi fell on 25 November 1937, Japanese forces attacked Jiangyin from three directions and took the fortress on 2 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.45,
+            32.2
+          ],
+          [
+            119.43,
+            32.3
+          ],
+          [
+            119.42,
+            32.39
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-12-08",
+        "endDate": "1937-12-14",
+        "order": 139,
+        "segmentType": "advance",
+        "name": {
+          "zh": "镇江—扬州",
+          "en": "Zhenjiang–Yangzhou"
+        },
+        "description": {
+          "zh": "1937年12月8日镇江失守后，日军第13师团天谷支队渡江，12月14日攻占扬州。路线为示意简化。",
+          "en": "After Zhenjiang fell on 8 December 1937, the Japanese 13th Division's Amaya detachment crossed the Yangtze and took Yangzhou on 14 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.83,
+            32.0
+          ],
+          [
+            120.85,
+            32.0
+          ],
+          [
+            120.86,
+            32.01
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-03-17",
+        "endDate": "1938-03-17",
+        "order": 140,
+        "segmentType": "advance",
+        "name": {
+          "zh": "姚港—南通",
+          "en": "Yaogang–Nantong"
+        },
+        "description": {
+          "zh": "1938年3月17日，日军约5000人在姚港登陆后直入南通城。路线为示意简化。",
+          "en": "On 17 March 1938 about 5,000 Japanese troops landed at Yaogang and entered Nantong. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.86,
+            32.01
+          ],
+          [
+            120.72,
+            32.2
+          ],
+          [
+            120.57,
+            32.39
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-03-17",
+        "endDate": "1938-03-19",
+        "order": 141,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南通—如皋",
+          "en": "Nantong–Rugao"
+        },
+        "description": {
+          "zh": "1938年3月17日南通失守后，日军沿公路西进，3月19日侵占如皋。路线为示意简化。",
+          "en": "After Nantong fell on 17 March 1938, Japanese forces advanced west along the road and occupied Rugao on 19 March. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.86,
+            32.01
+          ],
+          [
+            121.02,
+            31.95
+          ],
+          [
+            121.18,
+            31.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-03-21",
+        "endDate": "1938-03-21",
+        "order": 142,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南通—海门",
+          "en": "Nantong–Haimen"
+        },
+        "description": {
+          "zh": "1938年3月21日，日军由南通沿公路进犯海门，占领茅镇、三厂、青龙港、四甲坝。路线为示意简化。",
+          "en": "On 21 March 1938 Japanese forces advanced from Nantong along the road into Haimen, occupying Maozhen, Sanchang, Qinglonggang and Sijiaba. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.57,
+            32.39
+          ],
+          [
+            120.45,
+            32.62
+          ],
+          [
+            120.32,
+            32.85
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-03-19",
+        "endDate": "1938-03-25",
+        "order": 143,
+        "segmentType": "advance",
+        "name": {
+          "zh": "如皋—东台",
+          "en": "Rugao–Dongtai"
+        },
+        "description": {
+          "zh": "1938年3月19日如皋失守后，日军连下海安、东台，3月25日侵占东台城。路线为示意简化。",
+          "en": "After Rugao fell on 19 March 1938, Japanese forces took Hai'an and Dongtai in succession, occupying Dongtai on 25 March. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.32,
+            32.85
+          ],
+          [
+            120.22,
+            33.1
+          ],
+          [
+            120.16,
+            33.35
+          ],
+          [
+            119.95,
+            33.58
+          ],
+          [
+            119.8,
+            33.78
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-03-25",
+        "endDate": "1938-05-07",
+        "order": 144,
+        "segmentType": "advance",
+        "name": {
+          "zh": "东台—盐城—阜宁",
+          "en": "Dongtai–Yancheng–Funing"
+        },
+        "description": {
+          "zh": "1938年3月25日东台失守后，日军北犯，4月26日占盐城，5月7日占阜宁。路线为示意简化。",
+          "en": "After Dongtai fell on 25 March 1938, Japanese forces advanced north, taking Yancheng on 26 April and Funing on 7 May. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.36,
+            34.75
+          ],
+          [
+            119.25,
+            34.72
+          ],
+          [
+            119.16,
+            34.6
+          ],
+          [
+            119.13,
+            34.57
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-02-28",
+        "endDate": "1939-03-04",
+        "order": 145,
+        "segmentType": "advance",
+        "name": {
+          "zh": "连云港—墟沟—新浦—海州",
+          "en": "Lianyungang–Xugou–Xinpu–Haizhou"
+        },
+        "description": {
+          "zh": "1939年2月28日日军占领连云港，3月4日占领墟沟、新浦、海州，连云地区全境沦陷。路线为示意简化。",
+          "en": "Japanese forces occupied Lianyungang on 28 February 1939 and Xugou, Xinpu and Haizhou on 4 March, completing the occupation of the area. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.18,
+            34.26
+          ],
+          [
+            117.75,
+            34.1
+          ],
+          [
+            118.28,
+            33.96
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-11-22",
+        "endDate": "1938-11-22",
+        "order": 146,
+        "segmentType": "advance",
+        "name": {
+          "zh": "徐州—宿迁",
+          "en": "Xuzhou–Suqian"
+        },
+        "description": {
+          "zh": "1938年11月，日军由徐州沿宿睢公路东犯，11月22日攻陷宿迁城（通行说法）。路线为示意简化。",
+          "en": "In November 1938 Japanese forces advanced east from Xuzhou along the Suqian–Suining road and captured Suqian on 22 November in the common account. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.28,
+            33.96
+          ],
+          [
+            118.65,
+            33.8
+          ],
+          [
+            119.02,
+            33.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-11-22",
+        "endDate": "1939-03-01",
+        "order": 147,
+        "segmentType": "advance",
+        "name": {
+          "zh": "宿迁—淮阴",
+          "en": "Suqian–Huaiyin"
+        },
+        "description": {
+          "zh": "日军占宿迁后沿运河向淮阴推进，1939年3月1日侵入淮阴城。路线为示意简化。",
+          "en": "After occupying Suqian, Japanese forces advanced along the Grand Canal toward Huaiyin and entered the city on 1 March 1939. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.42,
+            32.39
+          ],
+          [
+            119.43,
+            32.58
+          ],
+          [
+            119.44,
+            32.78
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-10-02",
+        "endDate": "1939-10-02",
+        "order": 148,
+        "segmentType": "advance",
+        "name": {
+          "zh": "扬州—高邮",
+          "en": "Yangzhou–Gaoyou"
+        },
+        "description": {
+          "zh": "1939年10月2日，日军由扬州沿运河北犯，侵占高邮城。路线为示意简化。",
+          "en": "On 2 October 1939 Japanese forces advanced north from Yangzhou along the Grand Canal and occupied Gaoyou. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.42,
+            32.39
+          ],
+          [
+            119.65,
+            32.45
+          ],
+          [
+            119.92,
+            32.49
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-02-16",
+        "endDate": "1941-02-16",
+        "order": 149,
+        "segmentType": "advance",
+        "name": {
+          "zh": "扬州—泰州",
+          "en": "Yangzhou–Taizhou"
+        },
+        "description": {
+          "zh": "1941年2月16日，日军独立混成第12旅团由扬州方向进驻泰州。路线为示意简化。",
+          "en": "On 16 February 1941 the Japanese 12th Independent Mixed Brigade entered Taizhou from the direction of Yangzhou. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

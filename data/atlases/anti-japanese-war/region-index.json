@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-20",
+  "generatedAt": "2026-11-21",
   "events": {
     "mukden-incident-1931-09": [
       "liaoning",
@@ -2325,6 +2325,141 @@
       "guangdong",
       "county-guangdong-u4eceu5316u53bf",
       "place-guangdong-u4eceu5316u826fu53e3u77f3u69b4u82b1u9876"
+    ],
+    "suzhou-air-raid-1937-08": [
+      "jiangsu",
+      "county-jiangsu-u5434u53bf",
+      "place-jiangsu-u82cfu5dde"
+    ],
+    "ba-maokou-landing-1937-11": [
+      "jiangsu",
+      "county-jiangsu-u5e38u719fu53bf",
+      "place-jiangsu-u5e38u719fu767du8306u53e3"
+    ],
+    "kunshan-attack-1937-11": [
+      "jiangsu",
+      "county-jiangsu-u6606u5c71u53bf"
+    ],
+    "changshu-fall-1937-11": [
+      "jiangsu",
+      "county-jiangsu-u5e38u719fu53bf"
+    ],
+    "suzhou-fall-1937-11": [
+      "jiangsu",
+      "county-jiangsu-u5434u53bf",
+      "place-jiangsu-u82cfu5dde"
+    ],
+    "wuxi-xuxiang-massacre-1937-11": [
+      "jiangsu",
+      "county-jiangsu-u65e0u9521u53bf",
+      "place-jiangsu-u65e0u9521u8bb8u5df7"
+    ],
+    "wuxi-fall-1937-11": [
+      "jiangsu",
+      "county-jiangsu-u65e0u9521u53bf"
+    ],
+    "yixing-fall-1937-11": [
+      "jiangsu",
+      "county-jiangsu-u5b9cu5174u53bf"
+    ],
+    "changzhou-fall-1937-11": [
+      "jiangsu",
+      "county-jiangsu-u6b66u8fdbu53bf",
+      "place-jiangsu-u5e38u5dde"
+    ],
+    "jiangyin-fort-fall-1937-12": [
+      "jiangsu",
+      "county-jiangsu-u6c5fu9634u53bf"
+    ],
+    "danyang-fall-1937-12": [
+      "jiangsu",
+      "county-jiangsu-u4e39u9633u53bf"
+    ],
+    "jintan-fall-1937-12": [
+      "jiangsu",
+      "county-jiangsu-u91d1u575bu53bf"
+    ],
+    "liyang-fall-1937-12": [
+      "jiangsu",
+      "county-jiangsu-u6ea7u9633u53bf"
+    ],
+    "lishui-fall-1937-12": [
+      "jiangsu",
+      "county-jiangsu-u6ea7u6c34u53bf"
+    ],
+    "jurong-fall-1937-12": [
+      "jiangsu",
+      "county-jiangsu-u53e5u5bb9u53bf"
+    ],
+    "zhenjiang-fall-1937-12": [
+      "jiangsu",
+      "county-jiangsu-u9547u6c5fu53bf"
+    ],
+    "yangzhou-fall-1937-12": [
+      "jiangsu",
+      "county-jiangsu-u6c5fu90fdu53bf",
+      "place-jiangsu-u626cu5dde"
+    ],
+    "wanfu-bridge-massacre-1937-12": [
+      "jiangsu",
+      "county-jiangsu-u6c5fu90fdu53bf",
+      "place-jiangsu-u626cu5ddeu4e07u798fu6865"
+    ],
+    "nantong-yaogang-landing-1938-03": [
+      "jiangsu",
+      "county-jiangsu-u5357u901au53bf",
+      "place-jiangsu-u5357u901au59dau6e2f"
+    ],
+    "rugao-fall-1938-03": [
+      "jiangsu",
+      "county-jiangsu-u5982u768bu53bf"
+    ],
+    "haimen-fall-1938-03": [
+      "jiangsu",
+      "county-jiangsu-u6d77u95e8u53bf"
+    ],
+    "dongtai-fall-1938-03": [
+      "jiangsu",
+      "county-jiangsu-u4e1cu53f0u53bf"
+    ],
+    "yancheng-fall-1938-04": [
+      "jiangsu",
+      "county-jiangsu-u76d0u57ceu53bf"
+    ],
+    "funing-fall-1938-05": [
+      "jiangsu",
+      "county-jiangsu-u961cu5b81u53bf"
+    ],
+    "suqian-fall-1938-11": [
+      "jiangsu",
+      "county-jiangsu-u5bbfu8fc1u53bf"
+    ],
+    "lianyungang-fall-1939-02": [
+      "jiangsu",
+      "county-jiangsu-u704cu4e91u53bf",
+      "place-jiangsu-u8fdeu4e91u6e2f"
+    ],
+    "haizhou-fall-1939-03": [
+      "jiangsu",
+      "county-jiangsu-u4e1cu6d77u53bf",
+      "place-jiangsu-u6d77u5dde"
+    ],
+    "huaiyin-fall-1939-03": [
+      "jiangsu",
+      "county-jiangsu-u6deeu9634u53bf"
+    ],
+    "gaoyou-fall-1939-10": [
+      "jiangsu",
+      "county-jiangsu-u9ad8u90aeu53bf"
+    ],
+    "taizhou-fall-1941-02": [
+      "jiangsu",
+      "county-jiangsu-u6cf0u53bf",
+      "place-jiangsu-u6cf0u5dde"
+    ],
+    "suzhong-qingxiang-1943-04": [
+      "jiangsu",
+      "county-jiangsu-u5357u901au53bf"
     ]
   },
   "routes": {
@@ -2653,7 +2788,6 @@
     },
     "eighth-route-army:28": {
       "regionIds": [
-        "anhui",
         "county-hunan-u5cb3u9633u53bf",
         "county-jiangxi-u5927u5ebeu53bf",
         "guangdong",
@@ -2715,6 +2849,8 @@
     },
     "japanese-invasion:5": {
       "regionIds": [
+        "county-jiangsu-u65e0u9521u53bf",
+        "county-jiangsu-u6b66u8fdbu53bf",
         "jiangsu",
         "nanjing",
         "shanghai"
@@ -2811,8 +2947,7 @@
         "anhui",
         "county-anhui-u6000u5b81u53bf",
         "hubei",
-        "jiangxi",
-        "overseas"
+        "jiangxi"
       ],
       "endpointRegionIds": [
         "anhui",
@@ -3269,8 +3404,8 @@
         "overseas"
       ],
       "endpointRegionIds": [
-        "overseas",
-        "guangdong"
+        "guangdong",
+        "overseas"
       ]
     },
     "japanese-invasion:63": {
@@ -3560,8 +3695,7 @@
       "regionIds": [
         "county-guangdong-u5d16u53bf",
         "guangdong",
-        "hainan",
-        "overseas"
+        "hainan"
       ],
       "endpointRegionIds": [
         "guangdong"
@@ -3570,11 +3704,9 @@
     "japanese-invasion:92": {
       "regionIds": [
         "guangdong",
-        "hainan",
-        "overseas"
+        "hainan"
       ],
       "endpointRegionIds": [
-        "overseas",
         "guangdong"
       ]
     },
@@ -3603,8 +3735,8 @@
         "overseas"
       ],
       "endpointRegionIds": [
-        "guangdong",
-        "overseas"
+        "overseas",
+        "guangdong"
       ]
     },
     "japanese-invasion:96": {
@@ -3614,6 +3746,7 @@
         "overseas"
       ],
       "endpointRegionIds": [
+        "overseas",
         "guangdong"
       ]
     },
@@ -3920,6 +4053,184 @@
       ],
       "endpointRegionIds": [
         "guangdong"
+      ]
+    },
+    "japanese-invasion:130": {
+      "regionIds": [
+        "county-jiangsu-u5e38u719fu53bf",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:131": {
+      "regionIds": [
+        "county-jiangsu-u5434u53bf",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:132": {
+      "regionIds": [
+        "county-jiangsu-u5434u53bf",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:133": {
+      "regionIds": [
+        "county-jiangsu-u5434u53bf",
+        "county-jiangsu-u65e0u9521u53bf",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:134": {
+      "regionIds": [
+        "county-jiangsu-u6b66u8fdbu53bf",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:135": {
+      "regionIds": [
+        "county-jiangsu-u6b66u8fdbu53bf",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:136": {
+      "regionIds": [
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:137": {
+      "regionIds": [
+        "county-jiangsu-u6b66u8fdbu53bf",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:138": {
+      "regionIds": [
+        "county-jiangsu-u65e0u9521u53bf",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:139": {
+      "regionIds": [
+        "county-jiangsu-u6c5fu90fdu53bf",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:140": {
+      "regionIds": [
+        "county-jiangsu-u5357u901au53bf",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:141": {
+      "regionIds": [
+        "county-jiangsu-u5357u901au53bf",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:142": {
+      "regionIds": [
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:143": {
+      "regionIds": [
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:144": {
+      "regionIds": [
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:145": {
+      "regionIds": [
+        "county-jiangsu-u4e1cu6d77u53bf",
+        "county-jiangsu-u704cu4e91u53bf",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:146": {
+      "regionIds": [
+        "county-jiangsu-u94dcu5c71u53bf",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:147": {
+      "regionIds": [
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:148": {
+      "regionIds": [
+        "county-jiangsu-u6c5fu90fdu53bf",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:149": {
+      "regionIds": [
+        "county-jiangsu-u6c5fu90fdu53bf",
+        "county-jiangsu-u6cf0u53bf",
+        "jiangsu"
+      ],
+      "endpointRegionIds": [
+        "jiangsu"
       ]
     },
     "kmt-forces:1": {
@@ -4365,7 +4676,9 @@
     "kmt-forces:43": {
       "regionIds": [
         "anhui",
+        "county-jiangsu-u5e38u719fu53bf",
         "county-jiangsu-u6cf0u5174u53bf",
+        "county-jiangsu-u6cf0u53bf",
         "county-jiangsu-u94dcu5c71u53bf",
         "guangxi",
         "henan",
@@ -4382,6 +4695,8 @@
     "kmt-forces:44": {
       "regionIds": [
         "anhui",
+        "county-jiangsu-u65e0u9521u53bf",
+        "county-jiangsu-u6b66u8fdbu53bf",
         "jiangsu",
         "nanjing",
         "shanghai"
@@ -4407,6 +4722,7 @@
     },
     "kmt-forces:46": {
       "regionIds": [
+        "county-jiangsu-u5434u53bf",
         "jiangsu",
         "nanjing",
         "shanghai"
@@ -4432,8 +4748,7 @@
         "county-jiangxi-u5fb7u5b89u53bf",
         "henan",
         "hubei",
-        "jiangxi",
-        "overseas"
+        "jiangxi"
       ],
       "endpointRegionIds": [
         "henan",
@@ -4489,6 +4804,7 @@
       "regionIds": [
         "anhui",
         "county-anhui-u6000u5b81u53bf",
+        "county-jiangsu-u5434u53bf",
         "hubei",
         "jiangsu",
         "nanjing",
@@ -4516,8 +4832,7 @@
     "kmt-forces:56": {
       "regionIds": [
         "hubei",
-        "jiangxi",
-        "overseas"
+        "jiangxi"
       ],
       "endpointRegionIds": [
         "hubei",
@@ -4703,8 +5018,7 @@
     "kmt-group-armies:7": {
       "regionIds": [
         "hubei",
-        "jiangxi",
-        "overseas"
+        "jiangxi"
       ],
       "endpointRegionIds": [
         "hubei",
@@ -5147,11 +5461,10 @@
     "south-china-guerrillas:1": {
       "regionIds": [
         "guangdong",
-        "hainan",
-        "overseas"
+        "hainan"
       ],
       "endpointRegionIds": [
-        "overseas"
+        "guangdong"
       ]
     },
     "south-china-guerrillas:2": {
@@ -5174,11 +5487,9 @@
     "south-china-guerrillas:4": {
       "regionIds": [
         "guangdong",
-        "hainan",
-        "overseas"
+        "hainan"
       ],
       "endpointRegionIds": [
-        "overseas",
         "guangdong"
       ]
     },
@@ -5186,11 +5497,9 @@
       "regionIds": [
         "county-guangdong-u743cu4e1cu53bf",
         "guangdong",
-        "hainan",
-        "overseas"
+        "hainan"
       ],
       "endpointRegionIds": [
-        "overseas",
         "guangdong"
       ]
     },
@@ -5224,11 +5533,9 @@
     "south-china-guerrillas:9": {
       "regionIds": [
         "guangdong",
-        "hainan",
-        "overseas"
+        "hainan"
       ],
       "endpointRegionIds": [
-        "overseas",
         "guangdong"
       ]
     },

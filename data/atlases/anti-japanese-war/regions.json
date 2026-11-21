@@ -10790,6 +10790,808 @@
         "sourcePlace": "广东从化良口石榴花顶",
         "confidence": "medium"
       }
+    },
+    {
+      "id": "county-jiangsu-u5434u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "吴县"
+      },
+      "shortName": {
+        "zh": "吴"
+      },
+      "aliases": [
+        "吴"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "county-seat-place"
+      },
+      "point": [
+        120.62,
+        31.3
+      ]
+    },
+    {
+      "id": "place-jiangsu-u82cfu5dde",
+      "level": "place",
+      "parentId": "county-jiangsu-u5434u53bf",
+      "name": {
+        "zh": "苏州"
+      },
+      "shortName": {
+        "zh": "苏州"
+      },
+      "aliases": [
+        "江苏苏州",
+        "江苏苏州"
+      ],
+      "modernName": {
+        "zh": "江苏苏州"
+      },
+      "point": [
+        120.62,
+        31.3
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江苏苏州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jiangsu-u5e38u719fu53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "常熟县"
+      },
+      "shortName": {
+        "zh": "常熟"
+      },
+      "aliases": [
+        "常熟"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "manual-m213",
+        "pointConfidence": "high",
+        "note": "常熟县城（今常熟市城区）"
+      },
+      "point": [
+        120.752,
+        31.654
+      ]
+    },
+    {
+      "id": "place-jiangsu-u5e38u719fu767du8306u53e3",
+      "level": "place",
+      "parentId": "county-jiangsu-u5e38u719fu53bf",
+      "name": {
+        "zh": "白茆口"
+      },
+      "shortName": {
+        "zh": "白茆口"
+      },
+      "aliases": [
+        "江苏常熟白茆口",
+        "江苏常熟白茆口"
+      ],
+      "modernName": {
+        "zh": "江苏常熟白茆口"
+      },
+      "point": [
+        121.0,
+        31.7
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江苏常熟白茆口",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jiangsu-u6606u5c71u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "昆山县"
+      },
+      "shortName": {
+        "zh": "昆山"
+      },
+      "aliases": [
+        "昆山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        120.98,
+        31.39
+      ]
+    },
+    {
+      "id": "county-jiangsu-u65e0u9521u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "无锡县"
+      },
+      "shortName": {
+        "zh": "无锡"
+      },
+      "aliases": [
+        "无锡"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        120.33,
+        31.58
+      ]
+    },
+    {
+      "id": "place-jiangsu-u65e0u9521u8bb8u5df7",
+      "level": "place",
+      "parentId": "county-jiangsu-u65e0u9521u53bf",
+      "name": {
+        "zh": "许巷"
+      },
+      "shortName": {
+        "zh": "许巷"
+      },
+      "aliases": [
+        "江苏无锡许巷",
+        "江苏无锡许巷"
+      ],
+      "modernName": {
+        "zh": "江苏无锡许巷"
+      },
+      "point": [
+        120.36,
+        31.59
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江苏无锡许巷",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jiangsu-u5b9cu5174u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "宜兴县"
+      },
+      "shortName": {
+        "zh": "宜兴"
+      },
+      "aliases": [
+        "宜兴"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.82,
+        31.36
+      ]
+    },
+    {
+      "id": "county-jiangsu-u6b66u8fdbu53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "武进县"
+      },
+      "shortName": {
+        "zh": "武进"
+      },
+      "aliases": [
+        "武进"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "county-seat-place"
+      },
+      "point": [
+        119.95,
+        31.79
+      ]
+    },
+    {
+      "id": "place-jiangsu-u5e38u5dde",
+      "level": "place",
+      "parentId": "county-jiangsu-u6b66u8fdbu53bf",
+      "name": {
+        "zh": "常州"
+      },
+      "shortName": {
+        "zh": "常州"
+      },
+      "aliases": [
+        "江苏常州",
+        "江苏常州"
+      ],
+      "modernName": {
+        "zh": "江苏常州"
+      },
+      "point": [
+        119.95,
+        31.79
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江苏常州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jiangsu-u4e39u9633u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "丹阳县"
+      },
+      "shortName": {
+        "zh": "丹阳"
+      },
+      "aliases": [
+        "丹阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.58,
+        32.0
+      ]
+    },
+    {
+      "id": "county-jiangsu-u91d1u575bu53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "金坛县"
+      },
+      "shortName": {
+        "zh": "金坛"
+      },
+      "aliases": [
+        "金坛"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.58,
+        31.74
+      ]
+    },
+    {
+      "id": "county-jiangsu-u6ea7u9633u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "溧阳县"
+      },
+      "shortName": {
+        "zh": "溧阳"
+      },
+      "aliases": [
+        "溧阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.48,
+        31.42
+      ]
+    },
+    {
+      "id": "county-jiangsu-u6ea7u6c34u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "溧水县"
+      },
+      "shortName": {
+        "zh": "溧水"
+      },
+      "aliases": [
+        "溧水"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.03,
+        31.65
+      ]
+    },
+    {
+      "id": "county-jiangsu-u53e5u5bb9u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "句容县"
+      },
+      "shortName": {
+        "zh": "句容"
+      },
+      "aliases": [
+        "句容"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.17,
+        31.95
+      ]
+    },
+    {
+      "id": "county-jiangsu-u9547u6c5fu53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "镇江县"
+      },
+      "shortName": {
+        "zh": "镇江"
+      },
+      "aliases": [
+        "镇江"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.45,
+        32.2
+      ]
+    },
+    {
+      "id": "county-jiangsu-u6c5fu90fdu53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "江都县"
+      },
+      "shortName": {
+        "zh": "江都"
+      },
+      "aliases": [
+        "江都"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "county-seat-place"
+      },
+      "point": [
+        119.42,
+        32.39
+      ]
+    },
+    {
+      "id": "place-jiangsu-u626cu5dde",
+      "level": "place",
+      "parentId": "county-jiangsu-u6c5fu90fdu53bf",
+      "name": {
+        "zh": "扬州"
+      },
+      "shortName": {
+        "zh": "扬州"
+      },
+      "aliases": [
+        "江苏扬州",
+        "江苏扬州"
+      ],
+      "modernName": {
+        "zh": "江苏扬州"
+      },
+      "point": [
+        119.42,
+        32.39
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江苏扬州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-jiangsu-u626cu5ddeu4e07u798fu6865",
+      "level": "place",
+      "parentId": "county-jiangsu-u6c5fu90fdu53bf",
+      "name": {
+        "zh": "万福桥"
+      },
+      "shortName": {
+        "zh": "万福桥"
+      },
+      "aliases": [
+        "江苏扬州万福桥",
+        "江苏扬州万福桥"
+      ],
+      "modernName": {
+        "zh": "江苏扬州万福桥"
+      },
+      "point": [
+        119.5,
+        32.43
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江苏扬州万福桥",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jiangsu-u5357u901au53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "南通县"
+      },
+      "shortName": {
+        "zh": "南通"
+      },
+      "aliases": [
+        "南通"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        120.845,
+        32.005
+      ]
+    },
+    {
+      "id": "place-jiangsu-u5357u901au59dau6e2f",
+      "level": "place",
+      "parentId": "county-jiangsu-u5357u901au53bf",
+      "name": {
+        "zh": "姚港"
+      },
+      "shortName": {
+        "zh": "姚港"
+      },
+      "aliases": [
+        "江苏南通姚港",
+        "江苏南通姚港"
+      ],
+      "modernName": {
+        "zh": "江苏南通姚港"
+      },
+      "point": [
+        120.83,
+        32.0
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江苏南通姚港",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jiangsu-u5982u768bu53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "如皋县"
+      },
+      "shortName": {
+        "zh": "如皋"
+      },
+      "aliases": [
+        "如皋"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        120.57,
+        32.39
+      ]
+    },
+    {
+      "id": "county-jiangsu-u6d77u95e8u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "海门县"
+      },
+      "shortName": {
+        "zh": "海门"
+      },
+      "aliases": [
+        "海门"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        121.18,
+        31.9
+      ]
+    },
+    {
+      "id": "county-jiangsu-u4e1cu53f0u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "东台县"
+      },
+      "shortName": {
+        "zh": "东台"
+      },
+      "aliases": [
+        "东台"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        120.32,
+        32.85
+      ]
+    },
+    {
+      "id": "county-jiangsu-u961cu5b81u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "阜宁县"
+      },
+      "shortName": {
+        "zh": "阜宁"
+      },
+      "aliases": [
+        "阜宁"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.8,
+        33.78
+      ]
+    },
+    {
+      "id": "county-jiangsu-u5bbfu8fc1u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "宿迁县"
+      },
+      "shortName": {
+        "zh": "宿迁"
+      },
+      "aliases": [
+        "宿迁"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        118.28,
+        33.96
+      ]
+    },
+    {
+      "id": "county-jiangsu-u704cu4e91u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "灌云县"
+      },
+      "shortName": {
+        "zh": "灌云"
+      },
+      "aliases": [
+        "灌云"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "manual-m213",
+        "pointConfidence": "medium",
+        "note": "1937 年灌云县治板浦镇（今连云港市海州区板浦镇）"
+      },
+      "point": [
+        119.17,
+        34.48
+      ]
+    },
+    {
+      "id": "place-jiangsu-u8fdeu4e91u6e2f",
+      "level": "place",
+      "parentId": "county-jiangsu-u704cu4e91u53bf",
+      "name": {
+        "zh": "连云港"
+      },
+      "shortName": {
+        "zh": "连云港"
+      },
+      "aliases": [
+        "江苏连云港",
+        "江苏连云港"
+      ],
+      "modernName": {
+        "zh": "江苏连云港"
+      },
+      "point": [
+        119.36,
+        34.75
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江苏连云港",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jiangsu-u4e1cu6d77u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "东海县"
+      },
+      "shortName": {
+        "zh": "东海"
+      },
+      "aliases": [
+        "东海"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "county-seat-place"
+      },
+      "point": [
+        119.16,
+        34.6
+      ]
+    },
+    {
+      "id": "place-jiangsu-u6d77u5dde",
+      "level": "place",
+      "parentId": "county-jiangsu-u4e1cu6d77u53bf",
+      "name": {
+        "zh": "海州"
+      },
+      "shortName": {
+        "zh": "海州"
+      },
+      "aliases": [
+        "江苏海州",
+        "江苏海州"
+      ],
+      "modernName": {
+        "zh": "江苏海州"
+      },
+      "point": [
+        119.16,
+        34.6
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江苏海州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jiangsu-u6deeu9634u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "淮阴县"
+      },
+      "shortName": {
+        "zh": "淮阴"
+      },
+      "aliases": [
+        "淮阴"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.02,
+        33.6
+      ]
+    },
+    {
+      "id": "county-jiangsu-u9ad8u90aeu53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "高邮县"
+      },
+      "shortName": {
+        "zh": "高邮"
+      },
+      "aliases": [
+        "高邮"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.44,
+        32.78
+      ]
+    },
+    {
+      "id": "county-jiangsu-u6cf0u53bf",
+      "level": "county",
+      "parentId": "jiangsu",
+      "name": {
+        "zh": "泰县"
+      },
+      "shortName": {
+        "zh": "泰"
+      },
+      "aliases": [
+        "泰"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "county-seat-place"
+      },
+      "point": [
+        119.92,
+        32.49
+      ]
+    },
+    {
+      "id": "place-jiangsu-u6cf0u5dde",
+      "level": "place",
+      "parentId": "county-jiangsu-u6cf0u53bf",
+      "name": {
+        "zh": "泰州"
+      },
+      "shortName": {
+        "zh": "泰州"
+      },
+      "aliases": [
+        "江苏泰州",
+        "江苏泰州"
+      ],
+      "modernName": {
+        "zh": "江苏泰州"
+      },
+      "point": [
+        119.92,
+        32.49
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江苏泰州",
+        "confidence": "medium"
+      }
     }
   ]
 }
