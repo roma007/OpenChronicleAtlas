@@ -13986,6 +13986,143 @@
         "sourcePlace": "福建厦门鼓浪屿",
         "confidence": "medium"
       }
+    },
+    {
+      "id": "county-jiangxi-u5f6du6cfdu53bf",
+      "level": "county",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "彭泽县"
+      },
+      "shortName": {
+        "zh": "彭泽"
+      },
+      "aliases": [
+        "彭泽"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.6,
+        29.875
+      ]
+    },
+    {
+      "id": "place-jiangxi-u5f6du6cfdu9a6cu5f53",
+      "level": "place",
+      "parentId": "county-jiangxi-u5f6du6cfdu53bf",
+      "name": {
+        "zh": "马当"
+      },
+      "shortName": {
+        "zh": "马当"
+      },
+      "aliases": [
+        "江西彭泽马当",
+        "江西彭泽马当"
+      ],
+      "modernName": {
+        "zh": "江西彭泽马当"
+      },
+      "point": [
+        116.65,
+        29.85
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江西彭泽马当",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jiangxi-u6e56u53e3u53bf",
+      "level": "county",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "湖口县"
+      },
+      "shortName": {
+        "zh": "湖口"
+      },
+      "aliases": [
+        "湖口"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.22,
+        29.74
+      ]
+    },
+    {
+      "id": "county-jiangxi-u6c38u4feeu53bf",
+      "level": "county",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "永修县"
+      },
+      "shortName": {
+        "zh": "永修"
+      },
+      "aliases": [
+        "永修"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.83,
+        29.02
+      ]
+    },
+    {
+      "id": "county-jiangxi-u5949u65b0u53bf",
+      "level": "county",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "奉新县"
+      },
+      "shortName": {
+        "zh": "奉新"
+      },
+      "aliases": [
+        "奉新"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.4,
+        28.69
+      ]
+    },
+    {
+      "id": "county-jiangxi-u5357u5eb7u53bf",
+      "level": "county",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "南康县"
+      },
+      "shortName": {
+        "zh": "南康"
+      },
+      "aliases": [
+        "南康"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.76,
+        25.66
+      ]
     }
   ]
 }

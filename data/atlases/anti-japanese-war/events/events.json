@@ -34042,5 +34042,469 @@
     "extensions": {
       "routeEvent": false
     }
+  },
+  {
+    "id": "madang-fall-1938-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "马当要塞失守",
+      "en": "Fall of the Madang Fortress"
+    },
+    "date": "1938-06-26",
+    "location": {
+      "lng": 116.65,
+      "lat": 29.85,
+      "place": {
+        "zh": "江西彭泽马当",
+        "en": "Madang, Pengze, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年6月26日，日军波田支队攻占马当要塞。",
+      "en": "On 26 June 1938 the Japanese Wada detachment captured the Madang fortress."
+    },
+    "description": {
+      "zh": "马当要塞位于江西彭泽县长江弯道，江面狭窄，是武汉会战前长江下游的重要封锁线。6月23日起，日军波田支队在巡洋舰、驱逐舰支援下猛攻马当；6月26日马当要塞失守，长江封锁线被突破。日期据《江西抗日战争史》与《抗战实录丨马当要塞失陷记》，待页码级核对。",
+      "en": "The Madang fortress stood on a narrow bend of the Yangtze in Pengze county, Jiangxi, and was a key blocking position on the lower Yangtze before the Wuhan campaign. From 23 June the Japanese Wada detachment, supported by cruisers and destroyers, attacked Madang; the fortress fell on 26 June and the river blockade was broken. The date follows the Jiangxi war history and the Madang account and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《江西抗日战争史》",
+        "author": "陈荣华",
+        "year": 2005,
+        "note": "江西人民出版社；马当、彭泽、湖口、星子、瑞昌、德安、永修、南昌会战、浙赣战役；待页码级核对"
+      },
+      {
+        "title": "《抗战实录丨马当要塞失陷记，1938年6月29日》",
+        "author": "网易/新浪",
+        "year": 2025,
+        "note": "2026-11-21 访问；06-26 马当失守、彭泽、湖口"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "pengze-fall-1938-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "彭泽沦陷",
+      "en": "Fall of Pengze"
+    },
+    "date": "1938-06-29",
+    "location": {
+      "lng": 116.55,
+      "lat": 29.9,
+      "place": {
+        "zh": "江西彭泽",
+        "en": "Pengze, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年6月29日，彭泽沦陷。",
+      "en": "On 29 June 1938 Pengze fell."
+    },
+    "description": {
+      "zh": "马当要塞失守后，日军波田支队沿长江南岸西进，6月29日攻占彭泽县城。彭泽是马当要塞的后方依托，失守后日军直逼湖口。日期据《江西抗日战争史》与《抗战实录丨马当要塞失陷记》，待页码级核对。",
+      "en": "After Madang fell, the Japanese Wada detachment advanced west along the south bank of the Yangtze and captured Pengze on 29 June. Pengze was the rear support of the Madang fortress; its fall opened the way to Hukou. The date follows the Jiangxi war history and the Madang account and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《江西抗日战争史》",
+        "author": "陈荣华",
+        "year": 2005,
+        "note": "江西人民出版社；马当、彭泽、湖口、星子、瑞昌、德安、永修、南昌会战、浙赣战役；待页码级核对"
+      },
+      {
+        "title": "《抗战实录丨马当要塞失陷记，1938年6月29日》",
+        "author": "网易/新浪",
+        "year": 2025,
+        "note": "2026-11-21 访问；06-26 马当失守、彭泽、湖口"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "hukou-fall-1938-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "湖口沦陷",
+      "en": "Fall of Hukou"
+    },
+    "date": "1938-07-04",
+    "location": {
+      "lng": 116.22,
+      "lat": 29.74,
+      "place": {
+        "zh": "江西湖口",
+        "en": "Hukou, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年7月4日，湖口沦陷。",
+      "en": "On 4 July 1938 Hukou fell."
+    },
+    "description": {
+      "zh": "7月4日，日军攻占湖口。湖口位于鄱阳湖入长江口，是九江的东面屏障；失守后日军沿江直逼九江。日期据《江西抗日战争史》与《抗战实录丨马当要塞失陷记》，待页码级核对。",
+      "en": "On 4 July Japanese forces captured Hukou. At the mouth of Poyang Lake where it joins the Yangtze, Hukou was the eastern shield of Jiujiang; its fall opened the river route to Jiujiang. The date follows the Jiangxi war history and the Madang account and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《江西抗日战争史》",
+        "author": "陈荣华",
+        "year": 2005,
+        "note": "江西人民出版社；马当、彭泽、湖口、星子、瑞昌、德安、永修、南昌会战、浙赣战役；待页码级核对"
+      },
+      {
+        "title": "《抗战实录丨马当要塞失陷记，1938年6月29日》",
+        "author": "网易/新浪",
+        "year": 2025,
+        "note": "2026-11-21 访问；06-26 马当失守、彭泽、湖口"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "xingzi-fall-1938-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "星子沦陷",
+      "en": "Fall of Xingzi"
+    },
+    "date": "1938-08-20",
+    "location": {
+      "lng": 116.04,
+      "lat": 29.45,
+      "place": {
+        "zh": "江西星子",
+        "en": "Xingzi, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年8月20日，星子沦陷。",
+      "en": "On 20 August 1938 Xingzi fell."
+    },
+    "description": {
+      "zh": "8月，日军第101师团等部沿鄱阳湖西岸南犯，8月20日攻占星子县城。星子是庐山南麓、鄱阳湖西岸的要点，失守后日军向德安方向推进。日期据《江西抗日战争史》与央广网江西抗战专题，待页码级核对。",
+      "en": "In August the Japanese 101st Division and other units advanced south along the western shore of Poyang Lake and captured Xingzi on 20 August. Xingzi was a key point south of Mount Lu on the lake's western shore; its fall opened the advance toward De'an. The date follows the Jiangxi war history and the CNR Jiangxi campaign feature and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《江西抗日战争史》",
+        "author": "陈荣华",
+        "year": 2005,
+        "note": "江西人民出版社；马当、彭泽、湖口、星子、瑞昌、德安、永修、南昌会战、浙赣战役；待页码级核对"
+      },
+      {
+        "title": "《抗战·江西·战役》",
+        "author": "央广网江西频道",
+        "year": 2015,
+        "url": "https://jx.cnr.cn/",
+        "note": "2026-11-21 访问；九江保卫战、万家岭大捷、南昌会战、上高会战、浙赣战役"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "ruichang-fall-1938-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "瑞昌沦陷",
+      "en": "Fall of Ruichang"
+    },
+    "date": "1938-08-24",
+    "location": {
+      "lng": 115.68,
+      "lat": 29.67,
+      "place": {
+        "zh": "江西瑞昌",
+        "en": "Ruichang, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年8月24日，瑞昌沦陷。",
+      "en": "On 24 August 1938 Ruichang fell."
+    },
+    "description": {
+      "zh": "8月24日，日军攻占瑞昌。瑞昌位于九江以西、幕阜山东北麓，是日军由赣北迂回武汉的通道。日期据《江西抗日战争史》与央广网江西抗战专题，待页码级核对。",
+      "en": "On 24 August Japanese forces captured Ruichang. West of Jiujiang on the northeastern slope of the Mufu Mountains, Ruichang was a corridor for the Japanese flanking move toward Wuhan through northern Jiangxi. The date follows the Jiangxi war history and the CNR Jiangxi campaign feature and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《江西抗日战争史》",
+        "author": "陈荣华",
+        "year": 2005,
+        "note": "江西人民出版社；马当、彭泽、湖口、星子、瑞昌、德安、永修、南昌会战、浙赣战役；待页码级核对"
+      },
+      {
+        "title": "《抗战·江西·战役》",
+        "author": "央广网江西频道",
+        "year": 2015,
+        "url": "https://jx.cnr.cn/",
+        "note": "2026-11-21 访问；九江保卫战、万家岭大捷、南昌会战、上高会战、浙赣战役"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "dean-fall-1938-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "德安沦陷",
+      "en": "Fall of De'an"
+    },
+    "date": "1938-10-27",
+    "location": {
+      "lng": 115.75,
+      "lat": 29.33,
+      "place": {
+        "zh": "江西德安",
+        "en": "De'an, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年10月27日，德安沦陷。",
+      "en": "On 27 October 1938 De'an fell."
+    },
+    "description": {
+      "zh": "10月27日，日军攻占德安。德安位于南浔铁路中段，是万家岭战役的核心地区；日军第106师团在万家岭遭中国军队重创后，主力仍于10月底攻占德安。日期据《江西抗日战争史》与央广网江西抗战专题，待页码级核对。",
+      "en": "On 27 October Japanese forces captured De'an. On the central section of the Nanchang–Jiujiang railway, De'an was at the heart of the Wanjialing battle; the Japanese 106th Division was mauled at Wanjialing, but the main force still took De'an in late October. The date follows the Jiangxi war history and the CNR Jiangxi campaign feature and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《江西抗日战争史》",
+        "author": "陈荣华",
+        "year": 2005,
+        "note": "江西人民出版社；马当、彭泽、湖口、星子、瑞昌、德安、永修、南昌会战、浙赣战役；待页码级核对"
+      },
+      {
+        "title": "《抗战·江西·战役》",
+        "author": "央广网江西频道",
+        "year": 2015,
+        "url": "https://jx.cnr.cn/",
+        "note": "2026-11-21 访问；九江保卫战、万家岭大捷、南昌会战、上高会战、浙赣战役"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "yongxiu-fall-1939-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "永修沦陷",
+      "en": "Fall of Yongxiu"
+    },
+    "date": "1939-03-22",
+    "location": {
+      "lng": 115.83,
+      "lat": 29.02,
+      "place": {
+        "zh": "江西永修",
+        "en": "Yongxiu, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1939年3月22日，永修沦陷。",
+      "en": "On 22 March 1939 Yongxiu fell."
+    },
+    "description": {
+      "zh": "3月20日，日军第11军强渡修河，突破中国军队修河防线；3月22日攻占永修。永修是南昌西北门户，失守后日军沿南浔铁路南下，直逼南昌。日期为通行说法，据《江西抗日战争史》与《南昌会战》，待页码级核对。",
+      "en": "On 20 March the Japanese 11th Army crossed the Xiu River and broke the Chinese defence line; Yongxiu fell on 22 March. Northwest of Nanchang, Yongxiu was the city's gateway; its fall opened the Japanese advance south along the Nanchang–Jiujiang railway. The date is the common account, follows the Jiangxi war history and the Nanchang campaign, and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《江西抗日战争史》",
+        "author": "陈荣华",
+        "year": 2005,
+        "note": "江西人民出版社；马当、彭泽、湖口、星子、瑞昌、德安、永修、南昌会战、浙赣战役；待页码级核对"
+      },
+      {
+        "title": "《南昌会战》",
+        "author": "360百科/百度百科",
+        "year": 2024,
+        "note": "2026-11-21 访问；1939-03-17 进攻、03-27 南昌沦陷、高安/奉新方向"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "gaoan-fall-1939-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "高安沦陷",
+      "en": "Fall of Gao'an"
+    },
+    "date": "1939-03-29",
+    "location": {
+      "lng": 115.38,
+      "lat": 28.42,
+      "place": {
+        "zh": "江西高安",
+        "en": "Gao'an, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1939年3月29日，高安沦陷。",
+      "en": "On 29 March 1939 Gao'an fell."
+    },
+    "description": {
+      "zh": "南昌会战期间，日军第11军一部沿湘赣公路西进，3月29日攻占高安。高安是南昌以西、锦江中游的要点，失守后中国军队第74军等部多次反攻。日期为通行说法，据《南昌会战》与《江西抗日战争史》，待页码级核对。",
+      "en": "During the Nanchang campaign a Japanese 11th Army column advanced west along the Hunan–Jiangxi road and captured Gao'an on 29 March. West of Nanchang on the middle Jin River, Gao'an was a key point; Chinese forces including the 74th Army counter-attacked repeatedly after its fall. The date is the common account, follows the Nanchang campaign and the Jiangxi war history, and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《南昌会战》",
+        "author": "360百科/百度百科",
+        "year": 2024,
+        "note": "2026-11-21 访问；1939-03-17 进攻、03-27 南昌沦陷、高安/奉新方向"
+      },
+      {
+        "title": "《江西抗日战争史》",
+        "author": "陈荣华",
+        "year": 2005,
+        "note": "江西人民出版社；马当、彭泽、湖口、星子、瑞昌、德安、永修、南昌会战、浙赣战役；待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "fengxin-fall-1939-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "奉新沦陷",
+      "en": "Fall of Fengxin"
+    },
+    "date": "1939-04-02",
+    "location": {
+      "lng": 115.4,
+      "lat": 28.69,
+      "place": {
+        "zh": "江西奉新",
+        "en": "Fengxin, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1939年4月2日，奉新沦陷。",
+      "en": "On 2 April 1939 Fengxin fell."
+    },
+    "description": {
+      "zh": "4月2日，日军攻占奉新。奉新位于南昌以西、潦河中游，是南昌会战中西路的要点。日期为通行说法，据《南昌会战》与《江西抗日战争史》，待页码级核对。",
+      "en": "On 2 April Japanese forces captured Fengxin. West of Nanchang on the middle Liao River, Fengxin was a key point on the western axis of the Nanchang campaign. The date is the common account, follows the Nanchang campaign and the Jiangxi war history, and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《南昌会战》",
+        "author": "360百科/百度百科",
+        "year": 2024,
+        "note": "2026-11-21 访问；1939-03-17 进攻、03-27 南昌沦陷、高安/奉新方向"
+      },
+      {
+        "title": "《江西抗日战争史》",
+        "author": "陈荣华",
+        "year": 2005,
+        "note": "江西人民出版社；马当、彭泽、湖口、星子、瑞昌、德安、永修、南昌会战、浙赣战役；待页码级核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "nankang-fall-1945-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "南康沦陷",
+      "en": "Fall of Nankang"
+    },
+    "date": "1945-02-06",
+    "location": {
+      "lng": 114.76,
+      "lat": 25.66,
+      "place": {
+        "zh": "江西南康",
+        "en": "Nankang, Jiangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1945年2月6日，南康沦陷。",
+      "en": "On 6 February 1945 Nankang fell."
+    },
+    "description": {
+      "zh": "1945年2月，日军为打通赣南、摧毁遂川和赣州机场，向赣州、南康、大余推进。2月5日赣州、大余沦陷，2月6日南康沦陷。南康是赣州西南门户。日期据《江西抗日战争史》与《江西抗战大事记》，待页码级核对。",
+      "en": "In February 1945 Japanese forces advanced on Ganzhou, Nankang and Dayu to open the way through southern Jiangxi and destroy the Suichuan and Ganzhou airfields. Ganzhou and Dayu fell on 5 February and Nankang on 6 February. Nankang was the southwestern gateway to Ganzhou. The date follows the Jiangxi war history and the Jiangxi war chronology and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《江西抗日战争史》",
+        "author": "陈荣华",
+        "year": 2005,
+        "note": "江西人民出版社；马当、彭泽、湖口、星子、瑞昌、德安、永修、南昌会战、浙赣战役；待页码级核对"
+      },
+      {
+        "title": "《江西抗战大事记》",
+        "author": "抗日战争纪念网",
+        "year": 2018,
+        "url": "https://m.krzzjn.com/",
+        "note": "2026-11-21 访问；全省脉络与交叉核对"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
   }
 ]

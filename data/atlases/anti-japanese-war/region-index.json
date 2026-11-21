@@ -2918,6 +2918,47 @@
       "fujian",
       "county-fujian-u53a6u95e8u5e02",
       "place-fujian-u53a6u95e8u9f13u6d6au5c7f"
+    ],
+    "madang-fall-1938-06": [
+      "jiangxi",
+      "county-jiangxi-u5f6du6cfdu53bf",
+      "place-jiangxi-u5f6du6cfdu9a6cu5f53"
+    ],
+    "pengze-fall-1938-06": [
+      "jiangxi",
+      "county-jiangxi-u5f6du6cfdu53bf"
+    ],
+    "hukou-fall-1938-07": [
+      "jiangxi",
+      "county-jiangxi-u6e56u53e3u53bf"
+    ],
+    "xingzi-fall-1938-08": [
+      "jiangxi",
+      "county-jiangxi-u661fu5b50u53bf"
+    ],
+    "ruichang-fall-1938-08": [
+      "jiangxi",
+      "county-jiangxi-u745eu660cu53bf"
+    ],
+    "dean-fall-1938-10": [
+      "jiangxi",
+      "county-jiangxi-u5fb7u5b89u53bf"
+    ],
+    "yongxiu-fall-1939-03": [
+      "jiangxi",
+      "county-jiangxi-u6c38u4feeu53bf"
+    ],
+    "gaoan-fall-1939-03": [
+      "jiangxi",
+      "county-jiangxi-u9ad8u5b89u53bf"
+    ],
+    "fengxin-fall-1939-04": [
+      "jiangxi",
+      "county-jiangxi-u5949u65b0u53bf"
+    ],
+    "nankang-fall-1945-02": [
+      "jiangxi",
+      "county-jiangxi-u5357u5eb7u53bf"
     ]
   },
   "routes": {
@@ -5198,6 +5239,81 @@
       ],
       "endpointRegionIds": [
         "fujian"
+      ]
+    },
+    "japanese-invasion:207": {
+      "regionIds": [
+        "anhui",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi"
+      ]
+    },
+    "japanese-invasion:208": {
+      "regionIds": [
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi"
+      ]
+    },
+    "japanese-invasion:209": {
+      "regionIds": [
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi"
+      ]
+    },
+    "japanese-invasion:210": {
+      "regionIds": [
+        "county-jiangxi-u661fu5b50u53bf",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi"
+      ]
+    },
+    "japanese-invasion:211": {
+      "regionIds": [
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi"
+      ]
+    },
+    "japanese-invasion:212": {
+      "regionIds": [
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi"
+      ]
+    },
+    "japanese-invasion:213": {
+      "regionIds": [
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi"
+      ]
+    },
+    "japanese-invasion:214": {
+      "regionIds": [
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi"
+      ]
+    },
+    "japanese-invasion:215": {
+      "regionIds": [
+        "county-jiangxi-u8d63u53bf",
+        "jiangxi"
+      ],
+      "endpointRegionIds": [
+        "jiangxi"
       ]
     },
     "kmt-forces:1": {

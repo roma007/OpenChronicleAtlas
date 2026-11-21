@@ -3,6 +3,35 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.199] - 2026-11-21
+
+### Added
+- **抗日战争 · 江西日军战线（M218）**：江西日军事件由 11 条增至 21 条，涉及江西的日军路线 15 段。
+  - 长江南岸（6）：马当要塞失守、彭泽、湖口、星子、瑞昌、德安。
+  - 南昌会战外围（3）：永修、高安、奉新。
+  - 赣南（1）：南康。
+  - 路线（9 段，#207—#215）：彭泽—湖口、湖口—九江、九江—瑞昌、九江—星子、星子—德安、
+    永修—南昌、南昌—高安、南昌—奉新、赣州—南康。
+  - 专题：665 → **675** 事件、385 → **394** 段路线；日军层：417 → **427** 事件、206 → **215** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-jiangxi.md`、计划
+  `docs/plans/2026-11-21-M218-江西日军战线细化-plan.md`。
+- **第一期华东六省收口**：江苏、安徽、山东、浙江、福建、江西六省均按「登陆/渡江 → 县城 →
+  进攻路线 → 暴行/资源/统治 → 受降」完成一轮细化。
+
+### Changed
+- `scripts/build-region-data.py`：增加江西 1937 年县名映射（彭泽、湖口、星子、瑞昌、德安、
+  永修、高安、奉新、南康等），并补县治落点。
+- `regions.json` / `region-index.json`：地区由 561 → **567** 个，675 个事件全部有省 + 县/地点归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 九江、南昌、上饶、赣州、大余、遂川机场等已有事件不重复；只作路线端点锚点。
+- 马当、彭泽、湖口、星子、瑞昌、德安、永修、高安、奉新、南康日期为通行说法，正文标「待页码级核对」。
+
+---
+
 ## [v1.0.198] - 2026-11-21
 
 ### Added

@@ -8116,6 +8116,348 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.55,
+            29.9
+          ],
+          [
+            116.38,
+            29.82
+          ],
+          [
+            116.22,
+            29.74
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-06-29",
+        "endDate": "1938-07-04",
+        "order": 207,
+        "segmentType": "advance",
+        "name": {
+          "zh": "彭泽—湖口",
+          "en": "Pengze–Hukou"
+        },
+        "description": {
+          "zh": "1938年6月29日彭泽失守后，日军沿长江南岸西进，7月4日攻占湖口。路线为示意简化。",
+          "en": "After Pengze fell on 29 June 1938, Japanese forces advanced west along the south bank of the Yangtze and captured Hukou on 4 July. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.22,
+            29.74
+          ],
+          [
+            116.1,
+            29.78
+          ],
+          [
+            115.99,
+            29.71
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-07-04",
+        "endDate": "1938-07-26",
+        "order": 208,
+        "segmentType": "advance",
+        "name": {
+          "zh": "湖口—九江",
+          "en": "Hukou–Jiujiang"
+        },
+        "description": {
+          "zh": "1938年7月4日湖口失守后，日军沿江西进，7月26日攻占九江。路线为示意简化。",
+          "en": "After Hukou fell on 4 July 1938, Japanese forces advanced west along the river and captured Jiujiang on 26 July. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.99,
+            29.71
+          ],
+          [
+            115.85,
+            29.69
+          ],
+          [
+            115.68,
+            29.67
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-07-26",
+        "endDate": "1938-08-24",
+        "order": 209,
+        "segmentType": "advance",
+        "name": {
+          "zh": "九江—瑞昌",
+          "en": "Jiujiang–Ruichang"
+        },
+        "description": {
+          "zh": "1938年7月26日九江失守后，日军西进，8月24日攻占瑞昌。路线为示意简化。",
+          "en": "After Jiujiang fell on 26 July 1938, Japanese forces advanced west and captured Ruichang on 24 August. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.99,
+            29.71
+          ],
+          [
+            116.02,
+            29.58
+          ],
+          [
+            116.04,
+            29.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-07-26",
+        "endDate": "1938-08-20",
+        "order": 210,
+        "segmentType": "advance",
+        "name": {
+          "zh": "九江—星子",
+          "en": "Jiujiang–Xingzi"
+        },
+        "description": {
+          "zh": "1938年7月26日九江失守后，日军沿鄱阳湖西岸南下，8月20日攻占星子。路线为示意简化。",
+          "en": "After Jiujiang fell on 26 July 1938, Japanese forces advanced south along the western shore of Poyang Lake and captured Xingzi on 20 August. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.04,
+            29.45
+          ],
+          [
+            115.9,
+            29.39
+          ],
+          [
+            115.75,
+            29.33
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-08-20",
+        "endDate": "1938-10-27",
+        "order": 211,
+        "segmentType": "advance",
+        "name": {
+          "zh": "星子—德安",
+          "en": "Xingzi–De'an"
+        },
+        "description": {
+          "zh": "1938年8月20日星子失守后，日军向德安推进，10月27日攻占德安。路线为示意简化。",
+          "en": "After Xingzi fell on 20 August 1938, Japanese forces advanced on De'an and captured it on 27 October. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.83,
+            29.02
+          ],
+          [
+            115.9,
+            28.8
+          ],
+          [
+            115.89,
+            28.68
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-03-22",
+        "endDate": "1939-03-27",
+        "order": 212,
+        "segmentType": "advance",
+        "name": {
+          "zh": "永修—南昌",
+          "en": "Yongxiu–Nanchang"
+        },
+        "description": {
+          "zh": "1939年3月22日永修失守后，日军沿南浔铁路南下，3月27日攻占南昌。路线为示意简化。",
+          "en": "After Yongxiu fell on 22 March 1939, Japanese forces advanced south along the Nanchang–Jiujiang railway and captured Nanchang on 27 March. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.89,
+            28.68
+          ],
+          [
+            115.65,
+            28.55
+          ],
+          [
+            115.38,
+            28.42
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-03-27",
+        "endDate": "1939-03-29",
+        "order": 213,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南昌—高安",
+          "en": "Nanchang–Gao'an"
+        },
+        "description": {
+          "zh": "1939年3月27日南昌失守后，日军一部西进，3月29日攻占高安。路线为示意简化。",
+          "en": "After Nanchang fell on 27 March 1939, a Japanese column advanced west and captured Gao'an on 29 March. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.89,
+            28.68
+          ],
+          [
+            115.62,
+            28.68
+          ],
+          [
+            115.4,
+            28.69
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-03-27",
+        "endDate": "1939-04-02",
+        "order": 214,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南昌—奉新",
+          "en": "Nanchang–Fengxin"
+        },
+        "description": {
+          "zh": "1939年3月27日南昌失守后，日军一部西进，4月2日攻占奉新。路线为示意简化。",
+          "en": "After Nanchang fell on 27 March 1939, a Japanese column advanced west and captured Fengxin on 2 April. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.94,
+            25.85
+          ],
+          [
+            114.85,
+            25.75
+          ],
+          [
+            114.76,
+            25.66
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1945-02-05",
+        "endDate": "1945-02-06",
+        "order": 215,
+        "segmentType": "advance",
+        "name": {
+          "zh": "赣州—南康",
+          "en": "Ganzhou–Nankang"
+        },
+        "description": {
+          "zh": "1945年2月5日赣州失守后，日军西南进犯，2月6日攻占南康。路线为示意简化。",
+          "en": "After Ganzhou fell on 5 February 1945, Japanese forces advanced southwest and captured Nankang on 6 February. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
