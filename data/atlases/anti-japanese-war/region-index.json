@@ -3001,6 +3001,94 @@
     "beiping-surrender-1945-10": [
       "beiping",
       "place-beiping-u5317u5e73"
+    ],
+    "yanggao-fall-1937-09": [
+      "shanxi",
+      "county-shanxi-u9633u9ad8u53bf"
+    ],
+    "tianzhen-fall-1937-09": [
+      "shanxi",
+      "county-shanxi-u5929u9547u53bf"
+    ],
+    "huairen-fall-1937-09": [
+      "shanxi",
+      "county-shanxi-u6000u4ec1u53bf"
+    ],
+    "guangling-fall-1937-09": [
+      "shanxi",
+      "county-shanxi-u5e7fu7075u53bf"
+    ],
+    "zuoyun-fall-1937-09": [
+      "shanxi",
+      "county-shanxi-u5de6u4e91u53bf"
+    ],
+    "shuoxian-fall-1937-09": [
+      "shanxi",
+      "county-shanxi-u6714u53bf"
+    ],
+    "fanshi-fall-1937-09": [
+      "shanxi",
+      "county-shanxi-u7e41u5cd9u53bf"
+    ],
+    "daixian-fall-1937-09": [
+      "shanxi",
+      "county-shanxi-u4ee3u53bf"
+    ],
+    "ningwu-fall-1937-10": [
+      "shanxi",
+      "county-shanxi-u5b81u6b66u53bf"
+    ],
+    "guoxian-fall-1937-10": [
+      "shanxi",
+      "county-shanxi-u5d1eu53bf"
+    ],
+    "yuanping-fall-1937-10": [
+      "shanxi",
+      "county-shanxi-u5d1eu53bf",
+      "place-shanxi-u5d1eu53bfu539fu5e73u9547"
+    ],
+    "pingding-fall-1937-10": [
+      "shanxi",
+      "county-shanxi-u5e73u5b9au53bf"
+    ],
+    "yangquan-fall-1937-10": [
+      "shanxi",
+      "county-shanxi-u5e73u5b9au53bf",
+      "place-shanxi-u5e73u5b9au9633u6cc9u9547"
+    ],
+    "shouyang-fall-1937-11": [
+      "shanxi",
+      "county-shanxi-u5bffu9633u53bf"
+    ],
+    "pingyao-fall-1937-11": [
+      "shanxi",
+      "county-shanxi-u5e73u9065u53bf"
+    ],
+    "changzhi-fall-1938-02": [
+      "shanxi",
+      "county-shanxi-u957fu6cbbu53bf"
+    ],
+    "jincheng-fall-1938-02": [
+      "shanxi",
+      "county-shanxi-u664bu57ceu53bf"
+    ],
+    "linfen-fall-1938-02": [
+      "shanxi",
+      "county-shanxi-u4e34u6c7eu53bf"
+    ],
+    "yuncheng-fall-1938-03": [
+      "shanxi",
+      "county-shanxi-u5b89u9091u53bf",
+      "place-shanxi-u8fd0u57ce"
+    ],
+    "yuanqu-fall-1941-05": [
+      "shanxi",
+      "county-shanxi-u57a3u66f2u53bf"
+    ],
+    "taiyuan-surrender-1945-09": [
+      "shanxi",
+      "county-shanxi-u9633u66f2u53bf",
+      "place-shanxi-u592au539f"
     ]
   },
   "routes": {
@@ -3115,6 +3203,7 @@
     },
     "eighth-route-army:7": {
       "regionIds": [
+        "county-shanxi-u5d1eu53bf",
         "county-shanxi-u5ffbu53bf",
         "hebei",
         "shanxi"
@@ -3412,6 +3501,7 @@
     },
     "japanese-invasion:7": {
       "regionIds": [
+        "county-shanxi-u5d1eu53bf",
         "county-shanxi-u5ffbu53bf",
         "county-shanxi-u9633u66f2u53bf",
         "shanxi"
@@ -3423,6 +3513,7 @@
     "japanese-invasion:8": {
       "regionIds": [
         "county-shanxi-u4ee3u53bf",
+        "county-shanxi-u5d1eu53bf",
         "county-shanxi-u5ffbu53bf",
         "county-shanxi-u9633u66f2u53bf",
         "shanxi"
@@ -3499,6 +3590,7 @@
     },
     "japanese-invasion:15": {
       "regionIds": [
+        "county-shanxi-u5b89u9091u53bf",
         "shanxi"
       ],
       "endpointRegionIds": [
@@ -3667,6 +3759,7 @@
     },
     "japanese-invasion:34": {
       "regionIds": [
+        "county-shanxi-u5b89u9091u53bf",
         "shanxi"
       ],
       "endpointRegionIds": [
@@ -5418,6 +5511,116 @@
         "hebei"
       ]
     },
+    "japanese-invasion:222": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:223": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:224": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:225": {
+      "regionIds": [
+        "county-shanxi-u7075u4e18u53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:226": {
+      "regionIds": [
+        "county-shanxi-u4ee3u53bf",
+        "county-shanxi-u5d1eu53bf",
+        "county-shanxi-u5ffbu53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:227": {
+      "regionIds": [
+        "county-shanxi-u5e73u5b9au53bf",
+        "county-shanxi-u9633u66f2u53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:228": {
+      "regionIds": [
+        "county-shanxi-u9633u66f2u53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:229": {
+      "regionIds": [
+        "county-hebei-u6d89u53bf",
+        "county-shanxi-u6f5eu57ceu53bf",
+        "hebei",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "hebei",
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:230": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:231": {
+      "regionIds": [
+        "county-shanxi-u6d2au6d1eu53bf",
+        "county-shanxi-u9633u66f2u53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:232": {
+      "regionIds": [
+        "county-shanxi-u5b89u9091u53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:233": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
     "kmt-forces:1": {
       "regionIds": [
         "beiping",
@@ -5463,6 +5666,7 @@
     },
     "kmt-forces:5": {
       "regionIds": [
+        "county-shanxi-u5d1eu53bf",
         "county-shanxi-u5ffbu53bf",
         "county-shanxi-u9633u66f2u53bf",
         "shanxi"
@@ -6160,6 +6364,7 @@
     },
     "kmt-group-armies:3": {
       "regionIds": [
+        "county-shanxi-u5d1eu53bf",
         "county-shanxi-u5ffbu53bf",
         "county-shanxi-u9633u66f2u53bf",
         "shanxi"

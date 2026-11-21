@@ -8690,6 +8690,534 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.09,
+            40.42
+          ],
+          [
+            113.9,
+            40.4
+          ],
+          [
+            113.75,
+            40.36
+          ],
+          [
+            113.52,
+            40.22
+          ],
+          [
+            113.3,
+            40.08
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-09-09",
+        "endDate": "1937-09-13",
+        "order": 222,
+        "segmentType": "advance",
+        "name": {
+          "zh": "天镇—阳高—大同",
+          "en": "Tianzhen–Yanggao–Datong"
+        },
+        "description": {
+          "zh": "1937年9月9日阳高失守、12日天镇失守后，日军关东军察哈尔派遣兵团由东向西推进，9月13日占领大同。路线为示意简化。",
+          "en": "After Yanggao fell on 9 September and Tianzhen on the 12th, the Kwantung Army’s Chahar force advanced westward and occupied Datong on 13 September 1937. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.3,
+            40.08
+          ],
+          [
+            113.1,
+            39.83
+          ],
+          [
+            112.9,
+            39.9
+          ],
+          [
+            112.7,
+            40.01
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-09-14",
+        "endDate": "1937-09-19",
+        "order": 223,
+        "segmentType": "advance",
+        "name": {
+          "zh": "大同—怀仁—左云",
+          "en": "Datong–Huairen–Zuoyun"
+        },
+        "description": {
+          "zh": "大同失守后，日军独立混成第15旅团于9月14日占领怀仁，混成第1旅团于9月19日占领左云。路线为示意简化。",
+          "en": "After Datong fell, the Japanese Independent Mixed 15th Brigade occupied Huairen on 14 September and the 1st Mixed Brigade occupied Zuoyun on the 19th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.3,
+            40.08
+          ],
+          [
+            112.9,
+            39.7
+          ],
+          [
+            112.43,
+            39.32
+          ],
+          [
+            112.3,
+            39.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-09-28",
+        "endDate": "1937-10-02",
+        "order": 224,
+        "segmentType": "advance",
+        "name": {
+          "zh": "大同—朔县—宁武",
+          "en": "Datong–Shuoxian–Ningwu"
+        },
+        "description": {
+          "zh": "日军混成第1旅团由大同南下，9月28日攻占朔县并制造朔县屠城，10月2日占领宁武。路线为示意简化。",
+          "en": "The Japanese 1st Mixed Brigade moved south from Datong, took Shuoxian on 28 September and carried out the Shuoxian massacre, then occupied Ningwu on 2 October. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.28,
+            39.76
+          ],
+          [
+            114.2,
+            39.6
+          ],
+          [
+            114.24,
+            39.44
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-09-14",
+        "endDate": "1937-09-20",
+        "order": 225,
+        "segmentType": "advance",
+        "name": {
+          "zh": "广灵—灵丘",
+          "en": "Guangling–Lingqiu"
+        },
+        "description": {
+          "zh": "日军第5师团第21旅团9月14日攻占广灵后西进，9月20日占领灵丘，随后进攻平型关。路线为示意简化。",
+          "en": "After capturing Guangling on 14 September, the Japanese 5th Division’s 21st Brigade moved west and occupied Lingqiu on the 20th before attacking Pingxingguan. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.27,
+            39.19
+          ],
+          [
+            112.96,
+            39.07
+          ],
+          [
+            112.78,
+            38.9
+          ],
+          [
+            112.7,
+            38.73
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-09-29",
+        "endDate": "1937-10-10",
+        "order": 226,
+        "segmentType": "advance",
+        "name": {
+          "zh": "繁峙—代县—崞县—原平",
+          "en": "Fanshi–Daixian–Guoxian–Yuanping"
+        },
+        "description": {
+          "zh": "日军混成第15旅团、第2旅团越过内长城后，9月29日陷繁峙、30日陷代县、10月8日陷崞县、10日占原平，进逼忻口。路线为示意简化。",
+          "en": "After crossing the Inner Great Wall, Japanese mixed brigades took Fanshi on 29 September, Daixian on the 30th, Guoxian on 8 October and Yuanping on the 10th, closing on Xinkou. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.8,
+            37.97
+          ],
+          [
+            113.6,
+            37.8
+          ],
+          [
+            113.58,
+            37.86
+          ],
+          [
+            113.18,
+            37.89
+          ],
+          [
+            112.75,
+            37.7
+          ],
+          [
+            112.55,
+            37.87
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-10-26",
+        "endDate": "1937-11-05",
+        "order": 227,
+        "segmentType": "advance",
+        "name": {
+          "zh": "娘子关—平定—阳泉—寿阳—榆次—太原",
+          "en": "Niangziguan–Pingding–Yangquan–Shouyang–Yuci–Taiyuan"
+        },
+        "description": {
+          "zh": "日军第20师团10月26日攻陷娘子关后沿正太线西追，29日侵占平定，30日占阳泉，11月2日占寿阳，5日进占榆次，进逼太原。路线为示意简化。",
+          "en": "After taking Niangziguan on 26 October, the Japanese 20th Division pursued west along the Zhengding–Taiyuan railway, occupying Pingding on the 29th, Yangquan on the 30th, Shouyang on 2 November and Yuci on the 5th, closing on Taiyuan. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.55,
+            37.87
+          ],
+          [
+            112.75,
+            37.7
+          ],
+          [
+            112.55,
+            37.42
+          ],
+          [
+            112.33,
+            37.36
+          ],
+          [
+            112.18,
+            37.19
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-08",
+        "endDate": "1937-11-09",
+        "order": 228,
+        "segmentType": "advance",
+        "name": {
+          "zh": "太原—榆次—太谷—祁县—平遥",
+          "en": "Taiyuan–Yuci–Taigu–Qixian–Pingyao"
+        },
+        "description": {
+          "zh": "太原失守后，日军第20师团沿同蒲线南下，11月9日侵占平遥。路线为示意简化；太谷、祁县为该线经过的县城。",
+          "en": "After Taiyuan fell, the Japanese 20th Division moved south along the Tongpu railway and occupied Pingyao on 9 November. The route is schematic; Taigu and Qixian lie along it."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.49,
+            36.61
+          ],
+          [
+            113.9,
+            36.6
+          ],
+          [
+            113.67,
+            36.58
+          ],
+          [
+            113.62,
+            36.5
+          ],
+          [
+            113.39,
+            36.5
+          ],
+          [
+            113.22,
+            36.33
+          ],
+          [
+            113.12,
+            36.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-02-17",
+        "endDate": "1938-02-20",
+        "order": 229,
+        "segmentType": "advance",
+        "name": {
+          "zh": "邯郸—东阳关—黎城—潞城—长治",
+          "en": "Handan–Dongyangguan–Licheng–Lucheng–Changzhi"
+        },
+        "description": {
+          "zh": "1938年2月，日军第108师团由平汉线西犯，突破东阳关川军防线，经黎城、潞城，2月20日攻占长治。路线为示意简化。",
+          "en": "In February 1938 the Japanese 108th Division advanced west from the Beiping–Hankou railway, broke the Sichuan defense at Dongyangguan and, via Licheng and Lucheng, captured Changzhi on 20 February. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.12,
+            36.2
+          ],
+          [
+            112.92,
+            35.8
+          ],
+          [
+            112.85,
+            35.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-02-20",
+        "endDate": "1938-02-26",
+        "order": 230,
+        "segmentType": "advance",
+        "name": {
+          "zh": "长治—高平—晋城",
+          "en": "Changzhi–Gaoping–Jincheng"
+        },
+        "description": {
+          "zh": "日军第108师团等部由长治南下，2月26日第一次占领晋城。路线为示意简化。",
+          "en": "The Japanese 108th Division and other units moved south from Changzhi and occupied Jincheng for the first time on 26 February. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.55,
+            37.87
+          ],
+          [
+            112.3,
+            37.5
+          ],
+          [
+            111.92,
+            37.03
+          ],
+          [
+            111.72,
+            36.57
+          ],
+          [
+            111.67,
+            36.25
+          ],
+          [
+            111.52,
+            36.08
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-02-11",
+        "endDate": "1938-02-28",
+        "order": 231,
+        "segmentType": "advance",
+        "name": {
+          "zh": "太原—介休—霍县—洪洞—临汾",
+          "en": "Taiyuan–Jiexiu–Huoxian–Hongtong–Linfen"
+        },
+        "description": {
+          "zh": "1938年2月，日军第1军沿同蒲线南犯晋南，2月28日占领临汾。路线为示意简化。",
+          "en": "In February 1938 the Japanese First Army advanced south along the Tongpu railway into southern Shanxi and occupied Linfen on 28 February. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.52,
+            36.08
+          ],
+          [
+            111.35,
+            35.62
+          ],
+          [
+            111.22,
+            35.35
+          ],
+          [
+            111.0,
+            35.03
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-02-28",
+        "endDate": "1938-03-05",
+        "order": 232,
+        "segmentType": "advance",
+        "name": {
+          "zh": "临汾—侯马—闻喜—运城",
+          "en": "Linfen–Houma–Wenxi–Yuncheng"
+        },
+        "description": {
+          "zh": "临汾失守后，日军继续南犯，3月5日侵占运城，随后进抵黄河风陵渡。路线为示意简化。",
+          "en": "After Linfen fell the Japanese advanced further south, occupying Yuncheng on 5 March and reaching the Fenglingdu crossing on the Yellow River. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.67,
+            35.3
+          ],
+          [
+            111.45,
+            35.05
+          ],
+          [
+            111.21,
+            34.85
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-05-07",
+        "endDate": "1941-05-09",
+        "order": 233,
+        "segmentType": "advance",
+        "name": {
+          "zh": "垣曲—平陆",
+          "en": "Yuanqu–Pinglu"
+        },
+        "description": {
+          "zh": "1941年5月中条山会战，日军以中央突破攻陷垣曲后向西推进，进抵平陆、黄河北岸。路线为示意简化。",
+          "en": "In the May 1941 Zhongtiao Mountains campaign the Japanese broke through the center, took Yuanqu and pushed west toward Pinglu on the north bank of the Yellow River. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

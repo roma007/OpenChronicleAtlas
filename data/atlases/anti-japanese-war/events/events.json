@@ -34974,5 +34974,992 @@
     "extensions": {
       "routeEvent": false
     }
+  },
+  {
+    "id": "yanggao-fall-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "阳高沦陷",
+      "en": "Fall of Yanggao"
+    },
+    "date": "1937-09-09",
+    "location": {
+      "lng": 113.75,
+      "lat": 40.36,
+      "place": {
+        "zh": "山西阳高",
+        "en": "Yanggao, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年9月9日，日军攻占阳高县城。",
+      "en": "On 9 September 1937 Japanese forces captured Yanggao."
+    },
+    "description": {
+      "zh": "9月初，日军关东军察哈尔派遣兵团突破天镇盘山防线，9月8日围攻阳高。守军第61军第414团据城抵抗，9日拂晓日军由东南城墙登城，阳高失守，守军由南门撤退。城破后日军在瓮城屠杀欢迎民众及青壮年五百余人。日期据《山西县城沦陷及光复概况》（阳高县政协稿）与《太原会战》逐日记载。",
+      "en": "In early September the Kwantung Army’s Chahar force broke the Panshan line at Tianzhen and besieged Yanggao on 8 September. The 414th Regiment of the 61st Corps held the town until Japanese troops mounted the southeast wall at dawn on the 9th; Yanggao fell and the defenders withdrew through the south gate. After the capture the Japanese massacred more than 500 people in the barbican. Dates follow the Shanxi county gazetteer compilation and the day-by-day Taoyuan campaign account."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "山西县城沦陷及光复概况",
+        "author": "太原道汇编（各县政协、县志办稿）",
+        "note": "抗日战争纪念网转载，2017-09-12，访问 2026-11-21"
+      },
+      {
+        "title": "太原会战",
+        "author": "抗日战争纪念网",
+        "note": "逐日战事记载，2017-03-30，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "tianzhen-fall-1937-09",
+      "datong-1937"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tianzhen-fall-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "天镇沦陷",
+      "en": "Fall of Tianzhen"
+    },
+    "date": "1937-09-12",
+    "location": {
+      "lng": 114.09,
+      "lat": 40.42,
+      "place": {
+        "zh": "山西天镇",
+        "en": "Tianzhen, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年9月12日，日军攻占天镇县城。",
+      "en": "On 12 September 1937 Japanese forces captured Tianzhen."
+    },
+    "description": {
+      "zh": "日军自9月3日起进攻天镇盘山防线，守军第61军苦战。9月7日守军主力后撤，仅留第399团守城；9月11日夜守军突围，12日天镇县城失守。天镇是晋北门户，失守后日军直趋大同。天镇日期另有9月11日说（《太原会战》逐日条记“九月十一日占领天镇县城”），此处取各县政协稿与同文正文的9月12日。",
+      "en": "Japanese forces attacked the Panshan line at Tianzhen from 3 September. The 61st Corps’ main force withdrew on the 7th, leaving the 399th Regiment in the town; the garrison broke out on the night of the 11th and Tianzhen fell on the 12th, opening the road to Datong. One day-by-day account gives 11 September for the town’s capture; this entry follows the county gazetteer compilation and the same account’s narrative of the 12th."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "山西县城沦陷及光复概况",
+        "author": "太原道汇编（各县政协、县志办稿）",
+        "note": "抗日战争纪念网转载，2017-09-12，访问 2026-11-21"
+      },
+      {
+        "title": "太原会战",
+        "author": "抗日战争纪念网",
+        "note": "逐日战事记载，2017-03-30，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "yanggao-fall-1937-09",
+      "datong-1937"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "huairen-fall-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "怀仁沦陷",
+      "en": "Fall of Huairen"
+    },
+    "date": "1937-09-14",
+    "location": {
+      "lng": 113.1,
+      "lat": 39.83,
+      "place": {
+        "zh": "山西怀仁",
+        "en": "Huairen, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年9月14日，日军未经战斗占领怀仁县城。",
+      "en": "On 14 September 1937 Japanese forces occupied Huairen without a fight."
+    },
+    "description": {
+      "zh": "9月13日大同失守后，怀仁守军与县政府弃城南撤。9月14日，当地士绅出城迎接，日军独立混成第15旅团未发一枪占领怀仁县城。日期据《山西县城沦陷及光复概况》（怀仁县政协稿）与《太原会战》逐日记载。",
+      "en": "After Datong fell on 13 September, the garrison and county government at Huairen withdrew south. On the 14th local gentry went out to welcome the Japanese, and the Independent Mixed 15th Brigade occupied the town without firing a shot. Dates follow the county gazetteer compilation and the day-by-day Taoyuan campaign account."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "山西县城沦陷及光复概况",
+        "author": "太原道汇编（各县政协、县志办稿）",
+        "note": "抗日战争纪念网转载，2017-09-12，访问 2026-11-21"
+      },
+      {
+        "title": "太原会战",
+        "author": "抗日战争纪念网",
+        "note": "逐日战事记载，2017-03-30，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "datong-1937",
+      "zuoyun-fall-1937-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "guangling-fall-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "广灵沦陷",
+      "en": "Fall of Guangling"
+    },
+    "date": "1937-09-14",
+    "location": {
+      "lng": 114.28,
+      "lat": 39.76,
+      "place": {
+        "zh": "山西广灵",
+        "en": "Guangling, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年9月14日，日军第5师团攻占广灵县城。",
+      "en": "On 14 September 1937 the Japanese 5th Division captured Guangling."
+    },
+    "description": {
+      "zh": "9月13日，日军第5师团第21旅团进攻广灵洗马庄一带，中国军队第73师防线被突破，师长刘奉滨负伤。9月14日广灵县城失守，第73师向平型关转进。此后八路军杨成武支队曾在月内四次收复县城，11月初日军再次侵占并长期盘踞。日期据《太原会战》逐日记载与《山西县城沦陷及光复概况》（广灵县政协稿）。",
+      "en": "On 13 September the Japanese 5th Division’s 21st Brigade attacked the Chinese 73rd Division’s line at Ximazhuang and broke it, wounding divisional commander Liu Fengbin. Guangling fell on the 14th and the 73rd Division retired toward Pingxingguan. Yang Chengwu’s detachment retook the town four times within a month before the Japanese reoccupied it in early November. Dates follow the day-by-day campaign account and the county gazetteer compilation."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "山西县城沦陷及光复概况",
+        "author": "太原道汇编（各县政协、县志办稿）",
+        "note": "抗日战争纪念网转载，2017-09-12，访问 2026-11-21"
+      },
+      {
+        "title": "太原会战",
+        "author": "抗日战争纪念网",
+        "note": "逐日战事记载，2017-03-30，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "japanese-pingxingguan-1937-09",
+      "lingqiu-1937"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zuoyun-fall-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "左云沦陷",
+      "en": "Fall of Zuoyun"
+    },
+    "date": "1937-09-19",
+    "location": {
+      "lng": 112.7,
+      "lat": 40.01,
+      "place": {
+        "zh": "山西左云",
+        "en": "Zuoyun, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年9月19日，日军混成第1旅团占领左云县城。",
+      "en": "On 19 September 1937 the Japanese 1st Mixed Brigade occupied Zuoyun."
+    },
+    "description": {
+      "zh": "9月17日，骑兵军孙长胜部数百人入左云守城，当晚日军攻城因雨停止。18日黄昏守军撤走，19日上午日军入城，随即屠杀居民287人。日期取《太原会战》逐日条“九月十九日……侵占左云”；《山西县城沦陷及光复概况》记18日黄昏守军撤走、次日入城，与此一致。",
+      "en": "On 17 September several hundred men of Sun Changsheng’s cavalry entered Zuoyun; the Japanese attack that night was halted by rain. The defenders withdrew at dusk on the 18th and the Japanese entered on the morning of the 19th, then massacred 287 residents. The date follows the day-by-day campaign account, consistent with the county gazetteer compilation’s account of the defenders’ withdrawal on the 18th."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "山西县城沦陷及光复概况",
+        "author": "太原道汇编（各县政协、县志办稿）",
+        "note": "抗日战争纪念网转载，2017-09-12，访问 2026-11-21"
+      },
+      {
+        "title": "太原会战",
+        "author": "抗日战争纪念网",
+        "note": "逐日战事记载，2017-03-30，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "huairen-fall-1937-09",
+      "datong-1937"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "shuoxian-fall-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "朔县沦陷与朔县屠城",
+      "en": "Fall of Shuoxian and the Shuoxian Massacre"
+    },
+    "date": "1937-09-28",
+    "location": {
+      "lng": 112.43,
+      "lat": 39.32,
+      "place": {
+        "zh": "山西朔县",
+        "en": "Shuoxian (Shuozhou), Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "惨案",
+    "summary": {
+      "zh": "1937年9月28日，日军攻破朔县县城，随后屠杀居民约三千人。",
+      "en": "On 28 September 1937 Japanese forces broke into Shuoxian and massacred some 3,000 residents."
+    },
+    "description": {
+      "zh": "9月27日傍晚，日军独立混成第1旅团进入朔县川。守军东北军何柱国部一个连与县长郭同仁、公安局长白生成率军民堵门守城。28日晨日军分两路包围县城，9时许以坦克破门，随即展开屠杀，持续三日，约三千人遇害，县长郭同仁殉难，是为“九二八惨案”。日期据《太原会战》逐日条“九月二十八日……占领朔县”与《山西县城沦陷及光复概况》（朔县政协稿）。",
+      "en": "On the evening of 27 September the Japanese Independent Mixed 1st Brigade entered the Shuoxian basin. A company of He Zhuguo’s Northeast Army, county magistrate Guo Tongren and police chief Bai Shengcheng led civilians in barricading the gates. At dawn on the 28th the Japanese encircled the town and broke in with tanks around 9 a.m., beginning a three-day massacre in which about 3,000 people died and magistrate Guo was killed. Dates follow the day-by-day campaign account and the county gazetteer compilation."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "山西县城沦陷及光复概况",
+        "author": "太原道汇编（各县政协、县志办稿）",
+        "note": "抗日战争纪念网转载，2017-09-12，访问 2026-11-21"
+      },
+      {
+        "title": "太原会战",
+        "author": "抗日战争纪念网",
+        "note": "逐日战事记载，2017-03-30，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "ningwu-fall-1937-10",
+      "datong-1937"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "fanshi-fall-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "繁峙沦陷",
+      "en": "Fall of Fanshi"
+    },
+    "date": "1937-09-29",
+    "location": {
+      "lng": 113.27,
+      "lat": 39.19,
+      "place": {
+        "zh": "山西繁峙",
+        "en": "Fanshi, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年9月29日，日军混成第15旅团占领繁峙县城。",
+      "en": "On 29 September 1937 the Japanese 15th Mixed Brigade occupied Fanshi."
+    },
+    "description": {
+      "zh": "9月28日，日军混成第15旅团攻占茹越口，中国守军第203旅旅长梁鉴堂力战殉国，日军越铁角岭南下。9月29日繁峙县城失守，平型关守军侧后受到威胁，第二战区随即下令全线后撤。日期据《太原会战》逐日记载与《山西县城沦陷及光复概况》（繁峙县政协、县志办稿）。",
+      "en": "On 28 September the Japanese 15th Mixed Brigade took Ruyuekou after killing Brig. Liang Jiantang of the 203rd Brigade, then crossed Tiejiaoling. Fanshi fell on the 29th, threatening the rear of the Pingxingguan defenders and prompting the Second War Zone to order a general withdrawal. Dates follow the day-by-day campaign account and the county gazetteer compilation."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "山西县城沦陷及光复概况",
+        "author": "太原道汇编（各县政协、县志办稿）",
+        "note": "抗日战争纪念网转载，2017-09-12，访问 2026-11-21"
+      },
+      {
+        "title": "太原会战",
+        "author": "抗日战争纪念网",
+        "note": "逐日战事记载，2017-03-30，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "daixian-fall-1937-09",
+      "japanese-pingxingguan-1937-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "daixian-fall-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "代县沦陷",
+      "en": "Fall of Daixian"
+    },
+    "date": "1937-09-30",
+    "location": {
+      "lng": 112.93,
+      "lat": 39.07,
+      "place": {
+        "zh": "山西代县",
+        "en": "Daixian, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年9月30日，日军混成第15旅团占领代县县城。",
+      "en": "On 30 September 1937 the Japanese 15th Mixed Brigade occupied Daixian."
+    },
+    "description": {
+      "zh": "9月30日，日军由繁峙向代县进犯，晋绥军抵抗约半小时即退，日军当晚占领代县城。次日地方商会出面成立“代县治安维持会”。日期据《太原会战》逐日条“九月三十日……占领代县”与《山西县城沦陷及光复概况》（代县政协稿）。",
+      "en": "On 30 September Japanese troops advanced from Fanshi toward Daixian; the Shanxi garrison resisted for about half an hour before withdrawing and the town fell that evening. The local chamber of commerce set up a “maintenance committee” the next day. Dates follow the day-by-day campaign account and the county gazetteer compilation."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "山西县城沦陷及光复概况",
+        "author": "太原道汇编（各县政协、县志办稿）",
+        "note": "抗日战争纪念网转载，2017-09-12，访问 2026-11-21"
+      },
+      {
+        "title": "太原会战",
+        "author": "抗日战争纪念网",
+        "note": "逐日战事记载，2017-03-30，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "fanshi-fall-1937-09",
+      "guoxian-fall-1937-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ningwu-fall-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "宁武沦陷",
+      "en": "Fall of Ningwu"
+    },
+    "date": "1937-10-02",
+    "location": {
+      "lng": 112.3,
+      "lat": 39.0,
+      "place": {
+        "zh": "山西宁武",
+        "en": "Ningwu, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年10月2日，日军混成第1旅团占领宁武县城，随后屠杀居民两千余人。",
+      "en": "On 2 October 1937 the Japanese 1st Mixed Brigade occupied Ningwu and massacred more than 2,000 residents."
+    },
+    "description": {
+      "zh": "10月2日，日军由朔县进攻宁武，晚九时占领县城。日军诱骗外逃群众回城，随后集中屠杀，遇害者两千二百余人。10月13日八路军第120师袭击县城，日军连夜撤离；1938年日军再次入侵。日期据《太原会战》逐日条与《山西县城沦陷及光复概况》（宁武县政协稿）。",
+      "en": "On 2 October Japanese troops advanced from Shuoxian and took Ningwu at 9 p.m. They lured fleeing residents back and then massacred more than 2,200 people. On 13 October the 120th Division attacked the town and the Japanese withdrew overnight; they invaded again in 1938. Dates follow the day-by-day campaign account and the county gazetteer compilation."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "山西县城沦陷及光复概况",
+        "author": "太原道汇编（各县政协、县志办稿）",
+        "note": "抗日战争纪念网转载，2017-09-12，访问 2026-11-21"
+      },
+      {
+        "title": "太原会战",
+        "author": "抗日战争纪念网",
+        "note": "逐日战事记载，2017-03-30，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "shuoxian-fall-1937-09",
+      "guoxian-fall-1937-10"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "guoxian-fall-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "崞县沦陷",
+      "en": "Fall of Guoxian"
+    },
+    "date": "1937-10-08",
+    "location": {
+      "lng": 112.78,
+      "lat": 38.9,
+      "place": {
+        "zh": "山西崞县",
+        "en": "Guoxian (now Guoyang, Yuanping), Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年10月8日，日军混成第2旅团攻占崞县县城。",
+      "en": "On 8 October 1937 the Japanese 2nd Mixed Brigade captured Guoxian."
+    },
+    "description": {
+      "zh": "10月1日起，日军混成第2旅团由代县南下进攻崞县，第19军王靖国部苦战一周。10月8日晨守军撤出，崞县失守，团长刘良相、石成文阵亡，日军入城后屠杀居民与伤兵两千五百余人。崞县即今原平市崞阳镇，与南面的原平镇为忻口以北两处要点。日期据《太原会战》逐日条与《山西县城沦陷及光复概况》（原平县政协稿）。",
+      "en": "From 1 October the Japanese 2nd Mixed Brigade advanced south from Daixian against Guoxian, where Wang Jingguo’s 19th Corps fought for a week. The defenders withdrew on the morning of the 8th; colonels Liu Liangxiang and Shi Chengwen were killed and the Japanese massacred more than 2,500 residents and wounded. Guoxian is today’s Guoyang town in Yuanping. Dates follow the day-by-day campaign account and the county gazetteer compilation."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "山西县城沦陷及光复概况",
+        "author": "太原道汇编（各县政协、县志办稿）",
+        "note": "抗日战争纪念网转载，2017-09-12，访问 2026-11-21"
+      },
+      {
+        "title": "太原会战",
+        "author": "抗日战争纪念网",
+        "note": "逐日战事记载，2017-03-30，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "daixian-fall-1937-09",
+      "yuanping-fall-1937-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yuanping-fall-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "原平沦陷",
+      "en": "Fall of Yuanping"
+    },
+    "date": "1937-10-10",
+    "location": {
+      "lng": 112.7,
+      "lat": 38.73,
+      "place": {
+        "zh": "山西崞县原平镇",
+        "en": "Yuanping, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年10月10日，日军混成第15旅团攻占原平镇，守军第196旅几乎全部殉国。",
+      "en": "On 10 October 1937 the Japanese 15th Mixed Brigade captured Yuanping; the Chinese 196th Brigade was almost annihilated."
+    },
+    "description": {
+      "zh": "10月4日，日军混成第15旅团绕过崞县进攻原平，第34军第196旅旅长姜玉贞率部死守。原平掩护忻口布防，守军完成任务后于10日夜至11日晨突围，姜玉贞中弹殉国，全旅四千余人大部阵亡。日期取《太原会战》逐日条“十月十日……攻占原平”；姜玉贞突围殉国在11日，两说并不矛盾。",
+      "en": "On 4 October the Japanese 15th Mixed Brigade bypassed Guoxian and attacked Yuanping, defended by Brig. Jiang Yuzhen’s 196th Brigade of the 34th Corps. Covering the deployment at Xinkou, the brigade broke out on the night of the 10th; Jiang was mortally wounded and most of his 4,000 men died. The capture date follows the day-by-day campaign account; Jiang’s death during the breakout on the 11th is consistent with it."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "山西县城沦陷及光复概况",
+        "author": "太原道汇编（各县政协、县志办稿）",
+        "note": "抗日战争纪念网转载，2017-09-12，访问 2026-11-21"
+      },
+      {
+        "title": "太原会战",
+        "author": "抗日战争纪念网",
+        "note": "逐日战事记载，2017-03-30，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "guoxian-fall-1937-10",
+      "japanese-xinkou-1937-10"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "pingding-fall-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "平定沦陷",
+      "en": "Fall of Pingding"
+    },
+    "date": "1937-10-29",
+    "location": {
+      "lng": 113.6,
+      "lat": 37.8,
+      "place": {
+        "zh": "山西平定",
+        "en": "Pingding, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年10月29日，日军第20师团侵占平定县城。",
+      "en": "On 29 October 1937 the Japanese 20th Division occupied Pingding."
+    },
+    "description": {
+      "zh": "10月26日娘子关失守后，日军第20师团沿正太线西追。平定县长及公务人员先期弃城，守军炸毁阳泉五渡铁路桥后西撤。10月29日夜十时许日军先头部队进入平定城，翌日大队开进，30日占领阳泉。日期据《太原会战》逐日条“十月二十九日……侵占平定县城”与《山西县城沦陷及光复概况》（平定县政协稿）。",
+      "en": "After Niangziguan fell on 26 October, the Japanese 20th Division pursued west along the Zhengding–Taiyuan railway. The Pingding magistrate and officials had fled and the garrison withdrew after blowing up the Wudu railway bridge at Yangquan. Japanese advance troops entered Pingding around 10 p.m. on the 29th, the main body followed next morning, and Yangquan was occupied on the 30th. Dates follow the day-by-day campaign account and the county gazetteer compilation."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "山西县城沦陷及光复概况",
+        "author": "太原道汇编（各县政协、县志办稿）",
+        "note": "抗日战争纪念网转载，2017-09-12，访问 2026-11-21"
+      },
+      {
+        "title": "太原会战",
+        "author": "抗日战争纪念网",
+        "note": "逐日战事记载，2017-03-30，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "niangziguan-fall-1937-10",
+      "yangquan-fall-1937-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yangquan-fall-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "阳泉沦陷",
+      "en": "Fall of Yangquan"
+    },
+    "date": "1937-10-30",
+    "location": {
+      "lng": 113.58,
+      "lat": 37.86,
+      "place": {
+        "zh": "山西平定阳泉镇",
+        "en": "Yangquan, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年10月30日，日军第20师团占领阳泉镇。",
+      "en": "On 30 October 1937 the Japanese 20th Division occupied Yangquan."
+    },
+    "description": {
+      "zh": "阳泉时为平定县属镇，是正太铁路与煤矿枢纽。娘子关失守后，日军第20师团以两纵队向阳泉平原追击，10月30日占领阳泉，随后西犯寿阳、榆次。日期据《山西县城沦陷及光复概况》（平定县政协稿）与《抗日战争中的阳泉》。",
+      "en": "Yangquan was then a town in Pingding county and a hub of the Zhengding–Taiyuan railway and coal mines. After Niangziguan fell, the Japanese 20th Division pursued in two columns onto the Yangquan plain and occupied the town on 30 October before advancing on Shouyang and Yuci. Dates follow the county gazetteer compilation and the Shanxi war-resistance account of Yangquan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "山西县城沦陷及光复概况",
+        "author": "太原道汇编（各县政协、县志办稿）",
+        "note": "抗日战争纪念网转载，2017-09-12，访问 2026-11-21"
+      },
+      {
+        "title": "抗日战争中的阳泉",
+        "author": "抗日战争纪念网（山西抗战）",
+        "note": "平定 10-29、阳泉 10-30，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "pingding-fall-1937-10",
+      "shouyang-fall-1937-11"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "shouyang-fall-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "寿阳沦陷",
+      "en": "Fall of Shouyang"
+    },
+    "date": "1937-11-02",
+    "location": {
+      "lng": 113.18,
+      "lat": 37.89,
+      "place": {
+        "zh": "山西寿阳",
+        "en": "Shouyang, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年11月2日，日军第20师团占领寿阳县城。",
+      "en": "On 2 November 1937 the Japanese 20th Division occupied Shouyang."
+    },
+    "description": {
+      "zh": "日军第20师团自平定、阳泉西进，击退川军第41军阻击后于11月2日占领寿阳，随即逼近榆次、太原。八路军第115师、第129师先后在广阳伏击日军。寿阳日期取《太原会战》逐日条“十一月二日占寿阳”与《娘子关战役》所记同一日期；《山西县城沦陷及光复概况》寿阳县稿则记10月30日占领县城，异说并存，本条目从多数记载。",
+      "en": "The Japanese 20th Division advanced west from Pingding and Yangquan, brushed aside the Sichuan 41st Corps and took Shouyang on 2 November, closing on Yuci and Taiyuan. The 115th and 129th Divisions ambushed Japanese columns at Guangyang. The date follows the day-by-day campaign account and the Niangziguan campaign account; the county gazetteer compilation gives 30 October as a variant, noted here."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "太原会战",
+        "author": "抗日战争纪念网",
+        "note": "逐日战事记载，2017-03-30，访问 2026-11-21"
+      },
+      {
+        "title": "娘子关战役",
+        "author": "快懂百科",
+        "note": "仅作寿阳日期交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "yangquan-fall-1937-10",
+      "japanese-taiyuan-1937-11"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "pingyao-fall-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "平遥沦陷",
+      "en": "Fall of Pingyao"
+    },
+    "date": "1937-11-09",
+    "location": {
+      "lng": 112.18,
+      "lat": 37.19,
+      "place": {
+        "zh": "山西平遥",
+        "en": "Pingyao, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年11月9日，日军第20师团侵占平遥县城。",
+      "en": "On 9 November 1937 the Japanese 20th Division occupied Pingyao."
+    },
+    "description": {
+      "zh": "太原失守后，日军第20师团沿同蒲线南下，11月9日侵占平遥城，半月后撤回祁县。1938年2月13日日军再犯平遥，第17军高桂滋部骑兵营与自卫队抵抗，营长史殿杰力战自尽，日军入城后杀害伤兵与居民千余人。日期取《山西县城沦陷及光复概况》（平遥县稿）；《太原会战》逐日条记11月10日进占平遥，异说并存。",
+      "en": "After Taiyuan fell the Japanese 20th Division moved south along the Tongpu railway and occupied Pingyao on 9 November, withdrawing to Qixian about a fortnight later. On 13 February 1938 the Japanese attacked again; a cavalry battalion of Gao Guizi’s 17th Corps and local militia resisted, battalion commander Shi Dianjie took his own life, and more than 1,000 wounded soldiers and residents were killed. The date follows the county gazetteer compilation; the campaign chronology gives 10 November as a variant."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "山西县城沦陷及光复概况",
+        "author": "太原道汇编（各县政协、县志办稿）",
+        "note": "抗日战争纪念网转载，2017-09-12，访问 2026-11-21"
+      },
+      {
+        "title": "太原会战",
+        "author": "抗日战争纪念网",
+        "note": "逐日战事记载，2017-03-30，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "japanese-taiyuan-1937-11"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "changzhi-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "长治沦陷",
+      "en": "Fall of Changzhi"
+    },
+    "date": "1938-02-20",
+    "location": {
+      "lng": 113.12,
+      "lat": 36.2,
+      "place": {
+        "zh": "山西长治",
+        "en": "Changzhi, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月20日，日军第108师团攻占长治。",
+      "en": "On 20 February 1938 the Japanese 108th Division captured Changzhi."
+    },
+    "description": {
+      "zh": "1938年2月，日军第1军向晋南、晋西发动攻势。平汉线日军第108师团第104旅团（苫米地旅团）由东阳关突破川军第47军防线，2月20日攻占长治，随后沿临屯公路西进，威胁临汾。日期据《第三军在太行山对日游击作战》与《陈赓大将的这个神来之笔》所引战史，均记2月20日进占长治。",
+      "en": "In February 1938 the Japanese First Army attacked southern and western Shanxi. The 108th Division’s 104th Brigade (Tomekichi brigade) broke through the Sichuan 47th Corps at Dongyangguan and captured Changzhi on 20 February, then advanced west along the Linfen–Tunliu road toward Linfen. Both cited accounts give 20 February for the capture."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "第三军在太行山对日游击作战",
+        "author": "抗日战争纪念网",
+        "note": "1938-02-20 长治失守，访问 2026-11-21"
+      },
+      {
+        "title": "陈赓大将的这个神来之笔，被日军称为八路军的“典型游击战术”",
+        "author": "红色文化网",
+        "note": "1938-02-20 日军进占长治，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "jincheng-fall-1938-02",
+      "linfen-fall-1938-02"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "jincheng-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "晋城沦陷",
+      "en": "Fall of Jincheng"
+    },
+    "date": "1938-02-26",
+    "location": {
+      "lng": 112.85,
+      "lat": 35.5,
+      "place": {
+        "zh": "山西晋城",
+        "en": "Jincheng, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月26日，日军第一次占领晋城。",
+      "en": "On 26 February 1938 Japanese forces occupied Jincheng for the first time."
+    },
+    "description": {
+      "zh": "2月20日日军飞机轰炸高平。日军第108师团等部由长治南下，2月26日第一次占领晋城。八路军与决死队随后发起反九路围攻，4月23日收复晋城。此后日军又四次侵占晋城。日期据《日军先后五次侵占晋城》与《晋东南1938年战役》。",
+      "en": "Japanese aircraft bombed Gaoping on 20 February. The 108th Division and other units moved south from Changzhi and occupied Jincheng for the first time on 26 February. The Eighth Route Army and the Sacrifice League then launched a counter-offensive against the nine-route encirclement and recovered the town on 23 April; the Japanese occupied it four more times. Dates follow the Jincheng occupation account and the 1938 southeastern Shanxi campaign article."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "日军先后五次侵占晋城",
+        "author": "抗日战争纪念网",
+        "note": "访问 2026-11-21"
+      },
+      {
+        "title": "晋东南1938年战役",
+        "author": "维基百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "changzhi-fall-1938-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "linfen-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "临汾沦陷",
+      "en": "Fall of Linfen"
+    },
+    "date": "1938-02-28",
+    "location": {
+      "lng": 111.52,
+      "lat": 36.08,
+      "place": {
+        "zh": "山西临汾",
+        "en": "Linfen, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月28日，日军占领临汾县城。",
+      "en": "On 28 February 1938 Japanese forces captured Linfen."
+    },
+    "description": {
+      "zh": "1938年2月中旬，日军第1军集结兵力向晋南、晋西进犯。2月28日，日军经洪洞曲亭镇进犯临汾县城，守军决死三纵队第九总队退往浮山，临汾失守。第二战区司令长官部此前已由临汾西移。临汾日期另有2月27日说（大同市政府纪念报道），此处取临汾各县沦陷概况与当时照片说明的2月28日。",
+      "en": "In mid-February 1938 the Japanese First Army massed troops for an offensive into southern and western Shanxi. On 28 February Japanese troops advanced on Linfen via Quting in Hongtong; the Sacrifice League’s 9th Regiment withdrew to Fushan and the county town fell. The Second War Zone headquarters had already moved west from Linfen. A Datong municipal account gives 27 February as a variant; this entry follows the Linfen county survey and a contemporary photograph caption."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗战时期，临汾各县沦陷及解放收复概况",
+        "author": "抗日战争纪念网",
+        "note": "访问 2026-11-21"
+      },
+      {
+        "title": "日军杂志美化侵略山西历史",
+        "author": "新浪新闻（1938-02-28 日军进入临汾城照片说明）",
+        "note": "访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "changzhi-fall-1938-02",
+      "yuncheng-fall-1938-03"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "yuncheng-fall-1938-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "运城沦陷",
+      "en": "Fall of Yuncheng"
+    },
+    "date": "1938-03-05",
+    "location": {
+      "lng": 111.0,
+      "lat": 35.03,
+      "place": {
+        "zh": "山西运城",
+        "en": "Yuncheng, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年3月5日，日军侵占运城。",
+      "en": "On 5 March 1938 Japanese forces occupied Yuncheng."
+    },
+    "description": {
+      "zh": "1938年3月初，日军沿同蒲线南下并自豫北入晋，3月5日侵占运城。随后3月6日陷曲沃、禹门口，3月7日侵占永济，3月8日陷芮城，进抵黄河风陵渡，与潼关隔河对峙。运城日军番号有异说：一记第14师团酒井支队，一记第108师团自博爱入晋，本条目只记“日军第1军一部”。日期据《中华民族抗日编年（1938年3月）》与黄力民《旧日本宪兵规制与侵华日军宪兵组织沿革》。",
+      "en": "In early March 1938 Japanese forces advanced south along the Tongpu railway and entered Shanxi from northern Henan, occupying Yuncheng on 5 March. Quwo and Yumenkou fell on the 6th, Yongji on the 7th and Ruicheng on the 8th, bringing the Japanese to the Fenglingdu crossing opposite Tongguan. Sources differ on the unit (the 14th Division’s Sakai detachment or the 108th Division from Bo’ai), so this entry says only “part of the Japanese First Army.” Dates follow the March 1938 chronology and Huang Limin’s study of Japanese military police organization."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中华民族抗日编年（1938年3月）",
+        "author": "抗日战争纪念网",
+        "note": "逐日大事记，访问 2026-11-21"
+      },
+      {
+        "title": "旧日本宪兵规制与侵华日军宪兵组织沿革",
+        "author": "黄力民（爱思想）",
+        "note": "1938-03-05 运城沦陷，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "linfen-fall-1938-02",
+      "japanese-zhongtiao-1938-07"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "yuanqu-fall-1941-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "垣曲沦陷",
+      "en": "Fall of Yuanqu"
+    },
+    "date": "1941-05-08",
+    "location": {
+      "lng": 111.67,
+      "lat": 35.3,
+      "place": {
+        "zh": "山西垣曲",
+        "en": "Yuanqu, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1941年5月8日，日军在中条山会战中攻陷垣曲。",
+      "en": "On 8 May 1941 Japanese forces captured Yuanqu during the Zhongtiao Mountains campaign."
+    },
+    "description": {
+      "zh": "1941年5月7日傍晚，日军华北方面军第1军等部由东、西、北三面以中央突破方式进攻中条山。8日晨突破中国军队正面阵地，直指垣曲，垣曲当日失守。垣曲地处中条山腹地，第5集团军指挥部所在地，失守后中条山守军被分割。日期据《中条山会战》与台湾荣民文化网《晉南會戰過程》。",
+      "en": "At dusk on 7 May 1941 the Japanese First Army attacked the Zhongtiao Mountains from east, west and north with a central breakthrough. On the morning of the 8th it broke the front and drove on Yuanqu, which fell that day. Yuanqu lay in the heart of the mountains and housed the 5th Group Army headquarters; its loss split the Chinese defenders. Dates follow the Zhongtiao campaign article and the Veterans Affairs Council account."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中条山会战",
+        "author": "维基百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      },
+      {
+        "title": "晉南會戰過程",
+        "author": "榮民文化網（台湾退辅会）",
+        "note": "访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "japanese-zhongtiaoshan-1941-05",
+      "zhongtiaoshan-1941-05"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "taiyuan-surrender-1945-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "太原受降",
+      "en": "Japanese Surrender at Taiyuan"
+    },
+    "date": "1945-09-13",
+    "location": {
+      "lng": 112.55,
+      "lat": 37.87,
+      "place": {
+        "zh": "山西太原",
+        "en": "Taiyuan, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "投降",
+    "summary": {
+      "zh": "1945年9月13日，第二战区司令长官阎锡山在太原接受日军投降。",
+      "en": "On 13 September 1945 Yan Xishan, commander of the Second War Zone, accepted the Japanese surrender at Taiyuan."
+    },
+    "description": {
+      "zh": "1945年9月13日，日军第1军司令官澄田赉四郎在太原受领中国第二战区司令长官部第一号命令，开始部署投降事宜。第二战区共接受日军第1军及第114师团、第3、第10、第14独立旅团、第5独立骑兵团等部六万余人投降，并遣返日侨四万人。受降事件不绘制进攻路线。日期据国家档案局《伟大胜利——中国受降档案》与《山西县城沦陷及光复概况》。",
+      "en": "On 13 September 1945 Lt. Gen. Teita Raishiro, commander of the Japanese First Army, received Order No. 1 from the Chinese Second War Zone headquarters at Taiyuan and began arranging the surrender. The Second War Zone accepted over 60,000 Japanese troops of the First Army, the 114th Division and the 3rd, 10th and 14th Independent Brigades and 5th Independent Cavalry Regiment, and repatriated 40,000 Japanese civilians. No advance route is drawn for a surrender event. Dates follow the National Archives’ surrender records and the Shanxi county gazetteer compilation."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "伟大胜利——中国受降档案",
+        "author": "国家档案局",
+        "note": "第二战区太原受降，https://www.saac.gov.cn/zt/2014-09/01/content_64981_2.htm，访问 2026-11-21"
+      },
+      {
+        "title": "山西县城沦陷及光复概况",
+        "author": "太原道汇编（各县政协、县志办稿）",
+        "note": "抗日战争纪念网转载，2017-09-12，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "japanese-taiyuan-1937-11"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
   }
 ]

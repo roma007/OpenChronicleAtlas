@@ -14287,6 +14287,439 @@
         115.15,
         36.28
       ]
+    },
+    {
+      "id": "county-shanxi-u9633u9ad8u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "阳高县"
+      },
+      "shortName": {
+        "zh": "阳高"
+      },
+      "aliases": [
+        "阳高"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.75,
+        40.36
+      ]
+    },
+    {
+      "id": "county-shanxi-u5929u9547u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "天镇县"
+      },
+      "shortName": {
+        "zh": "天镇"
+      },
+      "aliases": [
+        "天镇"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.09,
+        40.42
+      ]
+    },
+    {
+      "id": "county-shanxi-u6000u4ec1u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "怀仁县"
+      },
+      "shortName": {
+        "zh": "怀仁"
+      },
+      "aliases": [
+        "怀仁"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.1,
+        39.83
+      ]
+    },
+    {
+      "id": "county-shanxi-u5e7fu7075u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "广灵县"
+      },
+      "shortName": {
+        "zh": "广灵"
+      },
+      "aliases": [
+        "广灵"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.28,
+        39.76
+      ]
+    },
+    {
+      "id": "county-shanxi-u5de6u4e91u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "左云县"
+      },
+      "shortName": {
+        "zh": "左云"
+      },
+      "aliases": [
+        "左云"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.7,
+        40.01
+      ]
+    },
+    {
+      "id": "county-shanxi-u6714u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "朔县"
+      },
+      "shortName": {
+        "zh": "朔"
+      },
+      "aliases": [
+        "朔"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.43,
+        39.32
+      ]
+    },
+    {
+      "id": "county-shanxi-u7e41u5cd9u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "繁峙县"
+      },
+      "shortName": {
+        "zh": "繁峙"
+      },
+      "aliases": [
+        "繁峙"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.27,
+        39.19
+      ]
+    },
+    {
+      "id": "county-shanxi-u5b81u6b66u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "宁武县"
+      },
+      "shortName": {
+        "zh": "宁武"
+      },
+      "aliases": [
+        "宁武"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.3,
+        39.0
+      ]
+    },
+    {
+      "id": "county-shanxi-u5d1eu53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "崞县"
+      },
+      "shortName": {
+        "zh": "崞"
+      },
+      "aliases": [
+        "崞"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.74,
+        38.815
+      ]
+    },
+    {
+      "id": "place-shanxi-u5d1eu53bfu539fu5e73u9547",
+      "level": "place",
+      "parentId": "county-shanxi-u5d1eu53bf",
+      "name": {
+        "zh": "原平镇"
+      },
+      "shortName": {
+        "zh": "原平镇"
+      },
+      "aliases": [
+        "山西崞县原平镇",
+        "山西崞县原平镇"
+      ],
+      "modernName": {
+        "zh": "山西崞县原平镇"
+      },
+      "point": [
+        112.7,
+        38.73
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西崞县原平镇",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-shanxi-u5e73u5b9au9633u6cc9u9547",
+      "level": "place",
+      "parentId": "county-shanxi-u5e73u5b9au53bf",
+      "name": {
+        "zh": "阳泉镇"
+      },
+      "shortName": {
+        "zh": "阳泉镇"
+      },
+      "aliases": [
+        "山西平定阳泉镇",
+        "山西平定阳泉镇"
+      ],
+      "modernName": {
+        "zh": "山西平定阳泉镇"
+      },
+      "point": [
+        113.58,
+        37.86
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西平定阳泉镇",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-shanxi-u5bffu9633u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "寿阳县"
+      },
+      "shortName": {
+        "zh": "寿阳"
+      },
+      "aliases": [
+        "寿阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.18,
+        37.89
+      ]
+    },
+    {
+      "id": "county-shanxi-u5e73u9065u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "平遥县"
+      },
+      "shortName": {
+        "zh": "平遥"
+      },
+      "aliases": [
+        "平遥"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.18,
+        37.19
+      ]
+    },
+    {
+      "id": "county-shanxi-u957fu6cbbu53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "长治县"
+      },
+      "shortName": {
+        "zh": "长治"
+      },
+      "aliases": [
+        "长治"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.12,
+        36.2
+      ]
+    },
+    {
+      "id": "county-shanxi-u664bu57ceu53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "晋城县"
+      },
+      "shortName": {
+        "zh": "晋城"
+      },
+      "aliases": [
+        "晋城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.85,
+        35.5
+      ]
+    },
+    {
+      "id": "county-shanxi-u4e34u6c7eu53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "临汾县"
+      },
+      "shortName": {
+        "zh": "临汾"
+      },
+      "aliases": [
+        "临汾"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.52,
+        36.08
+      ]
+    },
+    {
+      "id": "county-shanxi-u5b89u9091u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "安邑县"
+      },
+      "shortName": {
+        "zh": "安邑"
+      },
+      "aliases": [
+        "安邑"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.0,
+        35.03
+      ]
+    },
+    {
+      "id": "place-shanxi-u8fd0u57ce",
+      "level": "place",
+      "parentId": "county-shanxi-u5b89u9091u53bf",
+      "name": {
+        "zh": "运城"
+      },
+      "shortName": {
+        "zh": "运城"
+      },
+      "aliases": [
+        "山西运城",
+        "山西运城"
+      ],
+      "modernName": {
+        "zh": "山西运城"
+      },
+      "point": [
+        111.0,
+        35.03
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "山西运城",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-shanxi-u57a3u66f2u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "垣曲县"
+      },
+      "shortName": {
+        "zh": "垣曲"
+      },
+      "aliases": [
+        "垣曲"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.67,
+        35.3
+      ]
     }
   ]
 }
