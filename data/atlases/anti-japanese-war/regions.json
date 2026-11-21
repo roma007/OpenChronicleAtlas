@@ -4887,33 +4887,6 @@
       ]
     },
     {
-      "id": "place-guangxi-u6606u4ed1u5173",
-      "level": "place",
-      "parentId": "guangxi",
-      "name": {
-        "zh": "昆仑关"
-      },
-      "shortName": {
-        "zh": "昆仑关"
-      },
-      "aliases": [
-        "广西昆仑关",
-        "广西昆仑关"
-      ],
-      "modernName": {
-        "zh": "广西昆仑关"
-      },
-      "point": [
-        108.65,
-        23.05
-      ],
-      "extensions": {
-        "frame": "ROC-1937",
-        "sourcePlace": "广西昆仑关",
-        "confidence": "low"
-      }
-    },
-    {
       "id": "county-guangxi-u9095u5b81u53bf",
       "level": "county",
       "parentId": "guangxi",
@@ -4934,6 +4907,33 @@
         108.32,
         22.82
       ]
+    },
+    {
+      "id": "place-guangxi-u6606u4ed1u5173",
+      "level": "place",
+      "parentId": "county-guangxi-u9095u5b81u53bf",
+      "name": {
+        "zh": "昆仑关"
+      },
+      "shortName": {
+        "zh": "昆仑关"
+      },
+      "aliases": [
+        "广西昆仑关",
+        "广西昆仑关"
+      ],
+      "modernName": {
+        "zh": "广西昆仑关"
+      },
+      "point": [
+        108.65,
+        23.05
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广西昆仑关",
+        "confidence": "medium"
+      }
     },
     {
       "id": "place-guangxi-u5357u5b81",
@@ -17118,6 +17118,422 @@
         "sourcePlace": "湖南绥宁武阳",
         "confidence": "medium"
       }
+    },
+    {
+      "id": "county-guangdong-u9632u57ceu53bf",
+      "level": "county",
+      "parentId": "guangdong",
+      "name": {
+        "zh": "防城县"
+      },
+      "shortName": {
+        "zh": "防城"
+      },
+      "aliases": [
+        "防城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        108.35,
+        21.77
+      ]
+    },
+    {
+      "id": "place-guangdong-u94a6u53bfu5c0fu8463",
+      "level": "place",
+      "parentId": "county-guangdong-u94a6u53bf",
+      "name": {
+        "zh": "小董"
+      },
+      "shortName": {
+        "zh": "小董"
+      },
+      "aliases": [
+        "广西钦县小董",
+        "广西钦县小董"
+      ],
+      "modernName": {
+        "zh": "广西钦县小董"
+      },
+      "point": [
+        108.65,
+        22.2
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广西钦县小董",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangxi-u6b66u9e23u53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "武鸣县"
+      },
+      "shortName": {
+        "zh": "武鸣"
+      },
+      "aliases": [
+        "武鸣"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        108.235,
+        23.08
+      ]
+    },
+    {
+      "id": "place-guangxi-u6b66u9e23u9ad8u5cf0u9698",
+      "level": "place",
+      "parentId": "county-guangxi-u6b66u9e23u53bf",
+      "name": {
+        "zh": "高峰隘"
+      },
+      "shortName": {
+        "zh": "高峰隘"
+      },
+      "aliases": [
+        "广西武鸣高峰隘",
+        "广西武鸣高峰隘"
+      ],
+      "modernName": {
+        "zh": "广西武鸣高峰隘"
+      },
+      "point": [
+        108.2,
+        23
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广西武鸣高峰隘",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangxi-u9f99u5ddeu53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "龙州县"
+      },
+      "shortName": {
+        "zh": "龙州"
+      },
+      "aliases": [
+        "龙州"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        106.85,
+        22.34
+      ]
+    },
+    {
+      "id": "county-guangxi-u4e0au6797u53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "上林县"
+      },
+      "shortName": {
+        "zh": "上林"
+      },
+      "aliases": [
+        "上林"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        108.6,
+        23.43
+      ]
+    },
+    {
+      "id": "place-guangxi-u5168u5ddeu9ec4u6c99u6cb3",
+      "level": "place",
+      "parentId": "county-guangxi-u5168u53bf",
+      "name": {
+        "zh": "黄沙河"
+      },
+      "shortName": {
+        "zh": "黄沙河"
+      },
+      "aliases": [
+        "广西全州黄沙河",
+        "广西全州黄沙河"
+      ],
+      "modernName": {
+        "zh": "广西全州黄沙河"
+      },
+      "point": [
+        111.07,
+        26.1
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广西全州黄沙河",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangxi-u82cdu68a7u53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "苍梧县"
+      },
+      "shortName": {
+        "zh": "苍梧"
+      },
+      "aliases": [
+        "苍梧"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.28,
+        23.48
+      ]
+    },
+    {
+      "id": "place-guangxi-u68a7u5dde",
+      "level": "place",
+      "parentId": "county-guangxi-u82cdu68a7u53bf",
+      "name": {
+        "zh": "梧州"
+      },
+      "shortName": {
+        "zh": "梧州"
+      },
+      "aliases": [
+        "广西梧州",
+        "广西梧州"
+      ],
+      "modernName": {
+        "zh": "广西梧州"
+      },
+      "point": [
+        111.28,
+        23.48
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "广西梧州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guangxi-u5174u5b89u53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "兴安县"
+      },
+      "shortName": {
+        "zh": "兴安"
+      },
+      "aliases": [
+        "兴安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        110.67,
+        25.61
+      ]
+    },
+    {
+      "id": "county-guangxi-u5e73u5357u53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "平南县"
+      },
+      "shortName": {
+        "zh": "平南"
+      },
+      "aliases": [
+        "平南"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        110.39,
+        23.54
+      ]
+    },
+    {
+      "id": "county-guangxi-u6842u5e73u53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "桂平县"
+      },
+      "shortName": {
+        "zh": "桂平"
+      },
+      "aliases": [
+        "桂平"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        110.08,
+        23.39
+      ]
+    },
+    {
+      "id": "county-guangxi-u7075u5dddu53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "灵川县"
+      },
+      "shortName": {
+        "zh": "灵川"
+      },
+      "aliases": [
+        "灵川"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        110.32,
+        25.41
+      ]
+    },
+    {
+      "id": "county-guangxi-u5b9cu5c71u53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "宜山县"
+      },
+      "shortName": {
+        "zh": "宜山"
+      },
+      "aliases": [
+        "宜山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        108.65,
+        24.49
+      ]
+    },
+    {
+      "id": "county-guangxi-u5ffbu57ceu53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "忻城县"
+      },
+      "shortName": {
+        "zh": "忻城"
+      },
+      "aliases": [
+        "忻城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        108.66,
+        24.07
+      ]
+    },
+    {
+      "id": "county-guangxi-u6cb3u6c60u53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "河池县"
+      },
+      "shortName": {
+        "zh": "河池"
+      },
+      "aliases": [
+        "河池"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        108.06,
+        24.7
+      ]
+    },
+    {
+      "id": "county-guangxi-u5357u4e39u53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "南丹县"
+      },
+      "shortName": {
+        "zh": "南丹"
+      },
+      "aliases": [
+        "南丹"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        107.54,
+        24.98
+      ]
+    },
+    {
+      "id": "county-guangxi-u51edu7965u53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "凭祥县"
+      },
+      "shortName": {
+        "zh": "凭祥"
+      },
+      "aliases": [
+        "凭祥"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        106.76,
+        22.11
+      ]
     }
   ]
 }

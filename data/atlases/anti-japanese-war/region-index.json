@@ -791,6 +791,7 @@
     ],
     "kmt-16th-group-army-kunlun-1939-12": [
       "guangxi",
+      "county-guangxi-u9095u5b81u53bf",
       "place-guangxi-u6606u4ed1u5173"
     ],
     "kmt-35th-group-army-guinan-1939-12": [
@@ -804,6 +805,7 @@
     ],
     "kmt-38th-group-army-kunlun-1939-12": [
       "guangxi",
+      "county-guangxi-u9095u5b81u53bf",
       "place-guangxi-u6606u4ed1u5173"
     ],
     "kmt-5th-army-kunlun-1939-12": [
@@ -3647,6 +3649,113 @@
     "changsha-surrender-1945-09": [
       "hunan",
       "county-hunan-u957fu6c99u53bf"
+    ],
+    "qinzhou-bay-landing-1939-11": [
+      "guangdong",
+      "county-guangdong-u94a6u53bf",
+      "place-guangdong-u94a6u5ddeu6e7e"
+    ],
+    "fangcheng-fall-1939-11": [
+      "guangdong",
+      "county-guangdong-u9632u57ceu53bf"
+    ],
+    "qinxian-fall-1939-11": [
+      "guangdong",
+      "county-guangdong-u94a6u53bf"
+    ],
+    "xiaodong-fall-1939-11": [
+      "guangdong",
+      "county-guangdong-u94a6u53bf",
+      "place-guangdong-u94a6u53bfu5c0fu8463"
+    ],
+    "gaofengai-fall-1939-12": [
+      "guangxi",
+      "county-guangxi-u6b66u9e23u53bf",
+      "place-guangxi-u6b66u9e23u9ad8u5cf0u9698"
+    ],
+    "kunlun-fall-1939-12": [
+      "guangxi",
+      "county-guangxi-u9095u5b81u53bf",
+      "place-guangxi-u6606u4ed1u5173"
+    ],
+    "longzhou-fall-1939-12": [
+      "guangxi",
+      "county-guangxi-u9f99u5ddeu53bf"
+    ],
+    "binyang-fall-1940-02": [
+      "guangxi",
+      "county-guangxi-u5bbeu9633u53bf"
+    ],
+    "wuming-fall-1940-02": [
+      "guangxi",
+      "county-guangxi-u6b66u9e23u53bf"
+    ],
+    "shanglin-fall-1940-02": [
+      "guangxi",
+      "county-guangxi-u4e0au6797u53bf"
+    ],
+    "huangshahe-fall-1944-09": [
+      "guangxi",
+      "county-guangxi-u5168u53bf",
+      "place-guangxi-u5168u5ddeu9ec4u6c99u6cb3"
+    ],
+    "quanzhou-fall-1944-09": [
+      "guangxi",
+      "county-guangxi-u5168u53bf",
+      "place-guangxi-u5168u5dde"
+    ],
+    "wuzhou-fall-1944-09": [
+      "guangxi",
+      "county-guangxi-u82cdu68a7u53bf",
+      "place-guangxi-u68a7u5dde"
+    ],
+    "xingan-fall-1944-09": [
+      "guangxi",
+      "county-guangxi-u5174u5b89u53bf"
+    ],
+    "pingnan-fall-1944-10": [
+      "guangxi",
+      "county-guangxi-u5e73u5357u53bf"
+    ],
+    "guiping-fall-1944-10": [
+      "guangxi",
+      "county-guangxi-u6842u5e73u53bf"
+    ],
+    "lingchuan-fall-1944-10": [
+      "guangxi",
+      "county-guangxi-u7075u5dddu53bf"
+    ],
+    "yishan-fall-1944-11": [
+      "guangxi",
+      "county-guangxi-u5b9cu5c71u53bf"
+    ],
+    "xincheng-fall-1944-11": [
+      "guangxi",
+      "county-guangxi-u5ffbu57ceu53bf"
+    ],
+    "hechi-fall-1944-11": [
+      "guangxi",
+      "county-guangxi-u6cb3u6c60u53bf"
+    ],
+    "nandan-fall-1944-11": [
+      "guangxi",
+      "county-guangxi-u5357u4e39u53bf"
+    ],
+    "pingxiang-fall-1944-11": [
+      "guangxi",
+      "county-guangxi-u51edu7965u53bf"
+    ],
+    "longzhou-fall-1944-12": [
+      "guangxi",
+      "county-guangxi-u9f99u5ddeu53bf"
+    ],
+    "binyang-fall-1944-11": [
+      "guangxi",
+      "county-guangxi-u5bbeu9633u53bf"
+    ],
+    "wuming-fall-1944-11": [
+      "guangxi",
+      "county-guangxi-u6b66u9e23u53bf"
     ]
   },
   "routes": {
@@ -6694,6 +6803,105 @@
         "hunan"
       ]
     },
+    "japanese-invasion:289": {
+      "regionIds": [
+        "county-guangdong-u94a6u53bf",
+        "county-guangxi-u9095u5b81u53bf",
+        "guangdong",
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:290": {
+      "regionIds": [
+        "county-guangxi-u6b66u9e23u53bf",
+        "county-guangxi-u9095u5b81u53bf",
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:291": {
+      "regionIds": [
+        "county-guangxi-u9095u5b81u53bf",
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:292": {
+      "regionIds": [
+        "county-guangxi-u9095u5b81u53bf",
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:293": {
+      "regionIds": [
+        "county-guangxi-u5168u53bf",
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:294": {
+      "regionIds": [
+        "county-guangxi-u82cdu68a7u53bf",
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:295": {
+      "regionIds": [
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:296": {
+      "regionIds": [
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:297": {
+      "regionIds": [
+        "county-guangxi-u9095u5b81u53bf",
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:298": {
+      "regionIds": [
+        "county-guangxi-u9095u5b81u53bf",
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:299": {
+      "regionIds": [
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
     "kmt-forces:1": {
       "regionIds": [
         "beiping",
@@ -7020,6 +7228,7 @@
     "kmt-forces:33": {
       "regionIds": [
         "county-guangxi-u5168u53bf",
+        "county-guangxi-u9095u5b81u53bf",
         "guangxi"
       ],
       "endpointRegionIds": [
@@ -7028,6 +7237,7 @@
     },
     "kmt-forces:34": {
       "regionIds": [
+        "county-guangxi-u6b66u9e23u53bf",
         "county-guangxi-u9095u5b81u53bf",
         "guangxi",
         "yunnan"
@@ -7146,6 +7356,7 @@
     "kmt-forces:43": {
       "regionIds": [
         "anhui",
+        "county-guangxi-u5168u53bf",
         "county-hunan-u5cb3u9633u53bf",
         "county-hunan-u6e58u9634u53bf",
         "county-jiangsu-u5e38u719fu53bf",
@@ -7623,6 +7834,7 @@
     },
     "kmt-group-armies:21": {
       "regionIds": [
+        "county-guangxi-u9095u5b81u53bf",
         "guangxi"
       ],
       "endpointRegionIds": [

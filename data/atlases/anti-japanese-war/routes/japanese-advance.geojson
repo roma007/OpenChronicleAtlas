@@ -11384,6 +11384,440 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.6,
+            21.85
+          ],
+          [
+            108.35,
+            21.77
+          ],
+          [
+            108.62,
+            21.95
+          ],
+          [
+            108.65,
+            22.2
+          ],
+          [
+            108.32,
+            22.82
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-11-15",
+        "endDate": "1939-11-24",
+        "order": 289,
+        "segmentType": "advance",
+        "name": {
+          "zh": "钦州湾—防城—钦县—小董—南宁",
+          "en": "Qinzhou Bay–Fangcheng–Qin County–Xiaodong–Nanning"
+        },
+        "description": {
+          "zh": "1939年11月15日日军在钦州湾登陆，连陷防城、钦县、小董，24日攻占南宁。路线为示意简化。",
+          "en": "On 15 November 1939 the Japanese landed at Qinzhou Bay, took Fangcheng, Qin County and Xiaodong, and captured Nanning on the 24th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.32,
+            22.82
+          ],
+          [
+            108.2,
+            23
+          ],
+          [
+            108.7,
+            23.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-11-24",
+        "endDate": "1939-12-04",
+        "order": 290,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南宁—高峰隘—昆仑关",
+          "en": "Nanning–Gaofeng Pass–Kunlun Pass"
+        },
+        "description": {
+          "zh": "1939年11月24日日军占南宁，12月1日占高峰隘，4日占昆仑关。路线为示意简化。",
+          "en": "The Japanese took Nanning on 24 November 1939, Gaofeng Pass on 1 December and Kunlun Pass on the 4th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.32,
+            22.82
+          ],
+          [
+            106.85,
+            22.34
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-12-04",
+        "endDate": "1939-12-21",
+        "order": 291,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南宁—龙州",
+          "en": "Nanning–Longzhou"
+        },
+        "description": {
+          "zh": "1939年12月21日日军由南宁西进攻陷龙州，截断桂越交通线。路线为示意简化。",
+          "en": "On 21 December 1939 the Japanese advanced west from Nanning and took Longzhou, cutting the Guangxi–Vietnam route. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.32,
+            22.82
+          ],
+          [
+            108.8,
+            23.22
+          ],
+          [
+            108.27,
+            23.16
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-02-01",
+        "endDate": "1940-02-08",
+        "order": 292,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南宁—宾阳—武鸣（1940）",
+          "en": "Nanning–Binyang–Wuming (1940)"
+        },
+        "description": {
+          "zh": "1940年2月日军反扑，3日占宾阳，8日占武鸣。路线为示意简化。",
+          "en": "In February 1940 the Japanese counterattacked, taking Binyang on the 3rd and Wuming on the 8th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.07,
+            26.1
+          ],
+          [
+            111.07,
+            25.93
+          ],
+          [
+            110.67,
+            25.61
+          ],
+          [
+            110.32,
+            25.41
+          ],
+          [
+            110.29,
+            25.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-09-11",
+        "endDate": "1944-11-10",
+        "order": 293,
+        "segmentType": "advance",
+        "name": {
+          "zh": "黄沙河—全州—兴安—灵川—桂林",
+          "en": "Huangshahe–Quanzhou–Xing’an–Lingchuan–Guilin"
+        },
+        "description": {
+          "zh": "1944年9月11日日军陷黄沙河，14日占全州，30日占兴安，10月27日占灵川，11月10日陷桂林。路线为示意简化。",
+          "en": "In 1944 the Japanese took Huangshahe on 11 September, Quanzhou on the 14th, Xing’an on the 30th, Lingchuan on 27 October and Guilin on 10 November. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.28,
+            23.48
+          ],
+          [
+            110.39,
+            23.54
+          ],
+          [
+            110.08,
+            23.39
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-09-22",
+        "endDate": "1944-10-11",
+        "order": 294,
+        "segmentType": "advance",
+        "name": {
+          "zh": "梧州—平南—桂平",
+          "en": "Wuzhou–Pingnan–Guiping"
+        },
+        "description": {
+          "zh": "1944年9月22日日军陷梧州，10月11日占平南、桂平。路线为示意简化。",
+          "en": "The Japanese took Wuzhou on 22 September 1944, Pingnan and Guiping on 11 October. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.29,
+            25.27
+          ],
+          [
+            109.4,
+            24.3
+          ],
+          [
+            108.65,
+            24.49
+          ],
+          [
+            108.06,
+            24.7
+          ],
+          [
+            107.54,
+            24.98
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-11-10",
+        "endDate": "1944-11-28",
+        "order": 295,
+        "segmentType": "advance",
+        "name": {
+          "zh": "桂林—柳州—宜山—河池—南丹",
+          "en": "Guilin–Liuzhou–Yishan–Hechi–Nandan"
+        },
+        "description": {
+          "zh": "1944年11月10日日军陷桂林、柳州，15日占宜山，22日占河池，28日占南丹。路线为示意简化。",
+          "en": "Guilin and Liuzhou fell on 10 November 1944, Yishan on the 15th, Hechi on the 22nd and Nandan on the 28th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.4,
+            24.3
+          ],
+          [
+            108.66,
+            24.07
+          ],
+          [
+            108.65,
+            24.49
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-11-11",
+        "endDate": "1944-11-17",
+        "order": 296,
+        "segmentType": "advance",
+        "name": {
+          "zh": "柳州—忻城—宜山",
+          "en": "Liuzhou–Xincheng–Yishan"
+        },
+        "description": {
+          "zh": "1944年11月11日日军由柳州西进，17日占忻城，15日占宜山。路线为示意简化。",
+          "en": "From 11 November 1944 the Japanese advanced west from Liuzhou, taking Xincheng on the 17th and Yishan on the 15th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.32,
+            22.82
+          ],
+          [
+            108.8,
+            23.22
+          ],
+          [
+            108.27,
+            23.16
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-11-21",
+        "endDate": "1944-11-23",
+        "order": 297,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南宁—宾阳—武鸣（1944）",
+          "en": "Nanning–Binyang–Wuming (1944)"
+        },
+        "description": {
+          "zh": "1944年11月21日日军占宾阳，23日占武鸣，24日占南宁。路线为示意简化。",
+          "en": "The Japanese took Binyang on 21 November 1944, Wuming on the 23rd and Nanning on the 24th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.32,
+            22.82
+          ],
+          [
+            106.76,
+            22.11
+          ],
+          [
+            106.85,
+            22.34
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-11-24",
+        "endDate": "1944-12-02",
+        "order": 298,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南宁—凭祥—龙州（1944）",
+          "en": "Nanning–Pingxiang–Longzhou (1944)"
+        },
+        "description": {
+          "zh": "1944年11月24日日军占南宁，28日占凭祥，12月2日占龙州。路线为示意简化。",
+          "en": "The Japanese took Nanning on 24 November 1944, Pingxiang on the 28th and Longzhou on 2 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.8,
+            23.22
+          ],
+          [
+            108.6,
+            23.43
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-02-03",
+        "endDate": "1940-02-08",
+        "order": 299,
+        "segmentType": "advance",
+        "name": {
+          "zh": "宾阳—上林",
+          "en": "Binyang–Shanglin"
+        },
+        "description": {
+          "zh": "1940年2月8日日军由宾阳分兵进占上林。路线为示意简化。",
+          "en": "On 8 February 1940 the Japanese detached a force from Binyang to occupy Shanglin. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
