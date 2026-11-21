@@ -9266,12 +9266,12 @@
     {
       "id": "place-guangdong-u5d16u53bfu7530u72ec",
       "level": "place",
-      "parentId": "hainan",
+      "parentId": "county-guangdong-u5d16u53bf",
       "name": {
-        "zh": "崖县田独"
+        "zh": "田独"
       },
       "shortName": {
-        "zh": "崖县田独"
+        "zh": "田独"
       },
       "aliases": [
         "海南崖县田独（今三亚田独）",
@@ -9423,12 +9423,12 @@
     {
       "id": "place-guangdong-u5d16u53bfu5d16u57ce",
       "level": "place",
-      "parentId": "hainan",
+      "parentId": "county-guangdong-u5d16u53bf",
       "name": {
-        "zh": "崖县崖城"
+        "zh": "崖城"
       },
       "shortName": {
-        "zh": "崖县崖城"
+        "zh": "崖城"
       },
       "aliases": [
         "海南崖县崖城（今三亚崖城）",
@@ -9556,14 +9556,36 @@
       }
     },
     {
-      "id": "place-guangdong-u510bu53bfu65b0u5dde",
-      "level": "place",
-      "parentId": "hainan",
+      "id": "county-guangdong-u510bu53bf",
+      "level": "county",
+      "parentId": "guangdong",
       "name": {
-        "zh": "儋县新州"
+        "zh": "儋县"
       },
       "shortName": {
-        "zh": "儋县新州"
+        "zh": "儋"
+      },
+      "aliases": [
+        "儋"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        109.275,
+        19.725
+      ]
+    },
+    {
+      "id": "place-guangdong-u510bu53bfu65b0u5dde",
+      "level": "place",
+      "parentId": "county-guangdong-u510bu53bf",
+      "name": {
+        "zh": "新州"
+      },
+      "shortName": {
+        "zh": "新州"
       },
       "aliases": [
         "海南儋县新州",
@@ -9798,12 +9820,12 @@
     {
       "id": "place-guangdong-u510bu53bfu767du9a6cu4e95",
       "level": "place",
-      "parentId": "hainan",
+      "parentId": "county-guangdong-u510bu53bf",
       "name": {
-        "zh": "儋县白马井"
+        "zh": "白马井"
       },
       "shortName": {
-        "zh": "儋县白马井"
+        "zh": "白马井"
       },
       "aliases": [
         "海南儋县白马井（洋浦港入口北岸）",
@@ -13080,6 +13102,569 @@
         "sourcePlace": "山东淄川马鞍山",
         "confidence": "medium"
       }
+    },
+    {
+      "id": "county-zhejiang-u5609u5174u53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "嘉兴县"
+      },
+      "shortName": {
+        "zh": "嘉兴"
+      },
+      "aliases": [
+        "嘉兴"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        120.75,
+        30.75
+      ]
+    },
+    {
+      "id": "county-zhejiang-u5434u5174u53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "吴兴县"
+      },
+      "shortName": {
+        "zh": "吴兴"
+      },
+      "aliases": [
+        "吴兴"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "county-seat-place"
+      },
+      "point": [
+        120.09,
+        30.89
+      ]
+    },
+    {
+      "id": "place-zhejiang-u6e56u5dde",
+      "level": "place",
+      "parentId": "county-zhejiang-u5434u5174u53bf",
+      "name": {
+        "zh": "湖州"
+      },
+      "shortName": {
+        "zh": "湖州"
+      },
+      "aliases": [
+        "浙江湖州",
+        "浙江湖州"
+      ],
+      "modernName": {
+        "zh": "浙江湖州"
+      },
+      "point": [
+        120.09,
+        30.89
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "浙江湖州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-zhejiang-u957fu5174u53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "长兴县"
+      },
+      "shortName": {
+        "zh": "长兴"
+      },
+      "aliases": [
+        "长兴"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.91,
+        30.99
+      ]
+    },
+    {
+      "id": "place-zhejiang-u676du53bfu4e54u53f8",
+      "level": "place",
+      "parentId": "county-zhejiang-u676du53bf",
+      "name": {
+        "zh": "乔司"
+      },
+      "shortName": {
+        "zh": "乔司"
+      },
+      "aliases": [
+        "浙江杭县乔司",
+        "浙江杭县乔司"
+      ],
+      "modernName": {
+        "zh": "浙江杭县乔司"
+      },
+      "point": [
+        120.28,
+        30.35
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "浙江杭县乔司",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-zhejiang-u5bccu9633u53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "富阳县"
+      },
+      "shortName": {
+        "zh": "富阳"
+      },
+      "aliases": [
+        "富阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.955,
+        30.05
+      ]
+    },
+    {
+      "id": "place-zhejiang-u5bccu9633u5348u671du5e99",
+      "level": "place",
+      "parentId": "county-zhejiang-u5bccu9633u53bf",
+      "name": {
+        "zh": "午朝庙"
+      },
+      "shortName": {
+        "zh": "午朝庙"
+      },
+      "aliases": [
+        "浙江富阳午朝庙",
+        "浙江富阳午朝庙"
+      ],
+      "modernName": {
+        "zh": "浙江富阳午朝庙"
+      },
+      "point": [
+        119.96,
+        30.05
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "浙江富阳午朝庙",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-zhejiang-u5fb7u6e05u53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "德清县"
+      },
+      "shortName": {
+        "zh": "德清"
+      },
+      "aliases": [
+        "德清"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "county-seat-place"
+      },
+      "point": [
+        120.08,
+        30.54
+      ]
+    },
+    {
+      "id": "place-zhejiang-u9f99u6eaa",
+      "level": "place",
+      "parentId": "county-zhejiang-u5fb7u6e05u53bf",
+      "name": {
+        "zh": "龙溪"
+      },
+      "shortName": {
+        "zh": "龙溪"
+      },
+      "aliases": [
+        "浙江龙溪",
+        "浙江龙溪"
+      ],
+      "modernName": {
+        "zh": "浙江龙溪"
+      },
+      "point": [
+        120.08,
+        30.54
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "浙江龙溪",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-zhejiang-u8427u5c71u53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "萧山县"
+      },
+      "shortName": {
+        "zh": "萧山"
+      },
+      "aliases": [
+        "萧山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        120.26,
+        30.18
+      ]
+    },
+    {
+      "id": "county-zhejiang-u6148u6eaau53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "慈溪县"
+      },
+      "shortName": {
+        "zh": "慈溪"
+      },
+      "aliases": [
+        "慈溪"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        121.25,
+        30.17
+      ]
+    },
+    {
+      "id": "county-zhejiang-u5949u5316u53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "奉化县"
+      },
+      "shortName": {
+        "zh": "奉化"
+      },
+      "aliases": [
+        "奉化"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        121.41,
+        29.66
+      ]
+    },
+    {
+      "id": "county-zhejiang-u4f59u59dau53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "余姚县"
+      },
+      "shortName": {
+        "zh": "余姚"
+      },
+      "aliases": [
+        "余姚"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        121.15,
+        30.04
+      ]
+    },
+    {
+      "id": "place-zhejiang-u5927u768e",
+      "level": "place",
+      "parentId": "county-zhejiang-u911eu53bf",
+      "name": {
+        "zh": "大皎"
+      },
+      "shortName": {
+        "zh": "大皎"
+      },
+      "aliases": [
+        "浙江大皎",
+        "浙江大皎"
+      ],
+      "modernName": {
+        "zh": "浙江大皎"
+      },
+      "point": [
+        121.2,
+        29.8
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "浙江大皎",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-zhejiang-u8c61u5c71u53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "象山县"
+      },
+      "shortName": {
+        "zh": "象山"
+      },
+      "aliases": [
+        "象山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        121.8,
+        29.3
+      ]
+    },
+    {
+      "id": "place-zhejiang-u8c61u5c71u8305u6d0b",
+      "level": "place",
+      "parentId": "county-zhejiang-u8c61u5c71u53bf",
+      "name": {
+        "zh": "茅洋"
+      },
+      "shortName": {
+        "zh": "茅洋"
+      },
+      "aliases": [
+        "浙江象山茅洋",
+        "浙江象山茅洋"
+      ],
+      "modernName": {
+        "zh": "浙江象山茅洋"
+      },
+      "point": [
+        121.8,
+        29.3
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "浙江象山茅洋",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-zhejiang-u8bf8u66a8u53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "诸暨县"
+      },
+      "shortName": {
+        "zh": "诸暨"
+      },
+      "aliases": [
+        "诸暨"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        120.24,
+        29.71
+      ]
+    },
+    {
+      "id": "county-zhejiang-u4e1cu9633u53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "东阳县"
+      },
+      "shortName": {
+        "zh": "东阳"
+      },
+      "aliases": [
+        "东阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        120.24,
+        29.28
+      ]
+    },
+    {
+      "id": "county-zhejiang-u4e49u4e4cu53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "义乌县"
+      },
+      "shortName": {
+        "zh": "义乌"
+      },
+      "aliases": [
+        "义乌"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        120.07,
+        29.31
+      ]
+    },
+    {
+      "id": "county-zhejiang-u5170u6eaau53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "兰溪县"
+      },
+      "shortName": {
+        "zh": "兰溪"
+      },
+      "aliases": [
+        "兰溪"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.46,
+        29.21
+      ]
+    },
+    {
+      "id": "county-zhejiang-u4e3du6c34u53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "丽水县"
+      },
+      "shortName": {
+        "zh": "丽水"
+      },
+      "aliases": [
+        "丽水"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.92,
+        28.45
+      ]
+    },
+    {
+      "id": "county-zhejiang-u5d4au53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "嵊县"
+      },
+      "shortName": {
+        "zh": "嵊"
+      },
+      "aliases": [
+        "嵊"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        120.82,
+        29.59
+      ]
+    },
+    {
+      "id": "place-zhejiang-u5bccu9633u5b8bu6bbf",
+      "level": "place",
+      "parentId": "county-zhejiang-u5bccu9633u53bf",
+      "name": {
+        "zh": "宋殿"
+      },
+      "shortName": {
+        "zh": "宋殿"
+      },
+      "aliases": [
+        "浙江富阳宋殿",
+        "浙江富阳宋殿"
+      ],
+      "modernName": {
+        "zh": "浙江富阳宋殿"
+      },
+      "point": [
+        119.95,
+        30.05
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "浙江富阳宋殿",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-zhejiang-u65b0u660cu53bf",
+      "level": "county",
+      "parentId": "zhejiang",
+      "name": {
+        "zh": "新昌县"
+      },
+      "shortName": {
+        "zh": "新昌"
+      },
+      "aliases": [
+        "新昌"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        120.9,
+        29.5
+      ]
     }
   ]
 }

@@ -2004,7 +2004,7 @@
     ],
     "tiandu-iron-mine-1939-07": [
       "guangdong",
-      "hainan",
+      "county-guangdong-u5d16u53bf",
       "place-guangdong-u5d16u53bfu7530u72ec"
     ],
     "shilu-basuo-railway-1942-03": [
@@ -2039,7 +2039,7 @@
     ],
     "yaxian-fall-1939-02": [
       "guangdong",
-      "hainan",
+      "county-guangdong-u5d16u53bf",
       "place-guangdong-u5d16u53bfu5d16u57ce"
     ],
     "dingan-fall-1939-02": [
@@ -2069,7 +2069,7 @@
     ],
     "danxian-fall-1939-04": [
       "guangdong",
-      "hainan",
+      "county-guangdong-u510bu53bf",
       "place-guangdong-u510bu53bfu65b0u5dde"
     ],
     "lingshui-fall-1939-04": [
@@ -2123,7 +2123,7 @@
     ],
     "baimajing-landing-1939-04": [
       "guangdong",
-      "hainan",
+      "county-guangdong-u510bu53bf",
       "place-guangdong-u510bu53bfu767du9a6cu4e95"
     ],
     "qinglan-fall-1939-02": [
@@ -2758,6 +2758,115 @@
       "shandong",
       "county-shandong-u5386u57ceu53bf",
       "place-shandong-u6d4eu5357"
+    ],
+    "jiaxing-fall-1937-11": [
+      "zhejiang",
+      "county-zhejiang-u5609u5174u53bf"
+    ],
+    "huzhou-fall-1937-11": [
+      "zhejiang",
+      "county-zhejiang-u5434u5174u53bf",
+      "place-zhejiang-u6e56u5dde"
+    ],
+    "changxing-fall-1937-11": [
+      "zhejiang",
+      "county-zhejiang-u957fu5174u53bf"
+    ],
+    "qiaosi-massacre-1938-02": [
+      "zhejiang",
+      "county-zhejiang-u676du53bf",
+      "place-zhejiang-u676du53bfu4e54u53f8"
+    ],
+    "fuyang-wuchaomiao-massacre-1938-03": [
+      "zhejiang",
+      "county-zhejiang-u5bccu9633u53bf",
+      "place-zhejiang-u5bccu9633u5348u671du5e99"
+    ],
+    "longxi-massacre-1938-03": [
+      "zhejiang",
+      "county-zhejiang-u5fb7u6e05u53bf",
+      "place-zhejiang-u9f99u6eaa"
+    ],
+    "xiaoshan-fall-1940-01": [
+      "zhejiang",
+      "county-zhejiang-u8427u5c71u53bf"
+    ],
+    "zhenhai-battle-1940-07": [
+      "zhejiang",
+      "county-zhejiang-u9547u6d77u53bf"
+    ],
+    "cixi-fall-1941-04": [
+      "zhejiang",
+      "county-zhejiang-u6148u6eaau53bf"
+    ],
+    "fenghua-fall-1941-04": [
+      "zhejiang",
+      "county-zhejiang-u5949u5316u53bf"
+    ],
+    "yuyao-fall-1941-04": [
+      "zhejiang",
+      "county-zhejiang-u4f59u59dau53bf"
+    ],
+    "dajiao-massacre-1941-05": [
+      "zhejiang",
+      "county-zhejiang-u911eu53bf",
+      "place-zhejiang-u5927u768e"
+    ],
+    "xiangshan-fluorite-1941-05": [
+      "zhejiang",
+      "county-zhejiang-u8c61u5c71u53bf",
+      "place-zhejiang-u8c61u5c71u8305u6d0b"
+    ],
+    "zhuji-fall-1942-05": [
+      "zhejiang",
+      "county-zhejiang-u8bf8u66a8u53bf"
+    ],
+    "dongyang-fall-1942-05": [
+      "zhejiang",
+      "county-zhejiang-u4e1cu9633u53bf"
+    ],
+    "yiwu-fall-1942-05": [
+      "zhejiang",
+      "county-zhejiang-u4e49u4e4cu53bf"
+    ],
+    "jinhua-fall-1942-05": [
+      "zhejiang",
+      "county-zhejiang-u91d1u534eu53bf"
+    ],
+    "lanxi-fall-1942-05": [
+      "zhejiang",
+      "county-zhejiang-u5170u6eaau53bf"
+    ],
+    "lishui-fall-1942-06": [
+      "zhejiang",
+      "county-zhejiang-u4e3du6c34u53bf"
+    ],
+    "shengxian-fall-1942-07": [
+      "zhejiang",
+      "county-zhejiang-u5d4au53bf"
+    ],
+    "lishui-second-fall-1944-08": [
+      "zhejiang",
+      "county-zhejiang-u4e3du6c34u53bf"
+    ],
+    "puppet-zhejiang-government-1938-06": [
+      "zhejiang",
+      "county-zhejiang-u676du53bf",
+      "place-zhejiang-u676du5dde"
+    ],
+    "fuyang-surrender-1945-09": [
+      "zhejiang",
+      "county-zhejiang-u5bccu9633u53bf",
+      "place-zhejiang-u5bccu9633u5b8bu6bbf"
+    ],
+    "hangzhou-disarm-1945-09": [
+      "zhejiang",
+      "county-zhejiang-u676du53bf",
+      "place-zhejiang-u676du5dde"
+    ],
+    "xinchang-fall-1942-07": [
+      "zhejiang",
+      "county-zhejiang-u65b0u660cu53bf"
     ]
   },
   "routes": {
@@ -3484,6 +3593,7 @@
     },
     "japanese-invasion:41": {
       "regionIds": [
+        "county-zhejiang-u5bccu9633u53bf",
         "county-zhejiang-u676du53bf",
         "county-zhejiang-u8862u53bf",
         "jiangxi",
@@ -3984,8 +4094,7 @@
     "japanese-invasion:90": {
       "regionIds": [
         "county-guangdong-u5d16u53bf",
-        "guangdong",
-        "hainan"
+        "guangdong"
       ],
       "endpointRegionIds": [
         "guangdong"
@@ -4012,8 +4121,8 @@
     },
     "japanese-invasion:93": {
       "regionIds": [
-        "guangdong",
-        "hainan"
+        "county-guangdong-u510bu53bf",
+        "guangdong"
       ],
       "endpointRegionIds": [
         "guangdong"
@@ -4021,6 +4130,7 @@
     },
     "japanese-invasion:94": {
       "regionIds": [
+        "county-guangdong-u5d16u53bf",
         "guangdong",
         "hainan"
       ],
@@ -4100,6 +4210,7 @@
     },
     "japanese-invasion:102": {
       "regionIds": [
+        "county-guangdong-u5d16u53bf",
         "guangdong",
         "hainan"
       ],
@@ -4849,6 +4960,149 @@
         "shandong"
       ]
     },
+    "japanese-invasion:186": {
+      "regionIds": [
+        "county-jiangsu-u91d1u5c71u53bf",
+        "jiangsu",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "jiangsu",
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:187": {
+      "regionIds": [
+        "county-zhejiang-u5434u5174u53bf",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:188": {
+      "regionIds": [
+        "county-zhejiang-u5434u5174u53bf",
+        "county-zhejiang-u5fb7u6e05u53bf",
+        "county-zhejiang-u676du53bf",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:189": {
+      "regionIds": [
+        "county-zhejiang-u676du53bf",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:190": {
+      "regionIds": [
+        "county-zhejiang-u676du53bf",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:191": {
+      "regionIds": [
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:192": {
+      "regionIds": [
+        "county-zhejiang-u911eu53bf",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:193": {
+      "regionIds": [
+        "county-zhejiang-u911eu53bf",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:194": {
+      "regionIds": [
+        "county-zhejiang-u911eu53bf",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:195": {
+      "regionIds": [
+        "county-zhejiang-u6c38u5609u53bf",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:196": {
+      "regionIds": [
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:197": {
+      "regionIds": [
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:198": {
+      "regionIds": [
+        "county-zhejiang-u8862u53bf",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:199": {
+      "regionIds": [
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:200": {
+      "regionIds": [
+        "county-zhejiang-u6c38u5609u53bf",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
+    "japanese-invasion:201": {
+      "regionIds": [
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "zhejiang"
+      ]
+    },
     "kmt-forces:1": {
       "regionIds": [
         "beiping",
@@ -5326,6 +5580,7 @@
     "kmt-forces:45": {
       "regionIds": [
         "county-fujian-u95fdu4fafu53bf",
+        "county-zhejiang-u5bccu9633u53bf",
         "county-zhejiang-u676du53bf",
         "fujian",
         "jiangsu",

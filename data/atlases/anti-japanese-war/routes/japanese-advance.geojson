@@ -7306,6 +7306,626 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.34,
+            30.74
+          ],
+          [
+            121.05,
+            30.75
+          ],
+          [
+            120.75,
+            30.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-05",
+        "endDate": "1937-11-19",
+        "order": 186,
+        "segmentType": "advance",
+        "name": {
+          "zh": "金山卫—嘉兴",
+          "en": "Jinshanwei–Jiaxing"
+        },
+        "description": {
+          "zh": "1937年11月5日日军在金山卫登陆后西进，11月19日攻陷嘉兴。路线为示意简化。",
+          "en": "After landing at Jinshanwei on 5 November 1937, Japanese forces advanced west and captured Jiaxing on 19 November. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.75,
+            30.75
+          ],
+          [
+            120.4,
+            30.82
+          ],
+          [
+            120.09,
+            30.89
+          ],
+          [
+            119.91,
+            30.99
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-19",
+        "endDate": "1937-11-25",
+        "order": 187,
+        "segmentType": "advance",
+        "name": {
+          "zh": "嘉兴—湖州—长兴",
+          "en": "Jiaxing–Huzhou–Changxing"
+        },
+        "description": {
+          "zh": "1937年11月19日嘉兴失守后，日军沿太湖南岸西进，11月24日陷湖州，11月25日陷长兴。路线为示意简化。",
+          "en": "After Jiaxing fell on 19 November 1937, Japanese forces advanced west along the southern shore of Taihu, taking Huzhou on 24 November and Changxing on 25 November. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.09,
+            30.89
+          ],
+          [
+            120.05,
+            30.6
+          ],
+          [
+            120.15,
+            30.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-24",
+        "endDate": "1937-12-24",
+        "order": 188,
+        "segmentType": "advance",
+        "name": {
+          "zh": "湖州—杭州",
+          "en": "Huzhou–Hangzhou"
+        },
+        "description": {
+          "zh": "1937年11月24日湖州失守后，日军南下，12月24日分3路侵入杭州。路线为示意简化。",
+          "en": "After Huzhou fell on 24 November 1937, Japanese forces moved south and entered Hangzhou in three columns on 24 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.75,
+            30.75
+          ],
+          [
+            120.55,
+            30.5
+          ],
+          [
+            120.15,
+            30.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-19",
+        "endDate": "1937-12-24",
+        "order": 189,
+        "segmentType": "advance",
+        "name": {
+          "zh": "嘉兴—杭州",
+          "en": "Jiaxing–Hangzhou"
+        },
+        "description": {
+          "zh": "1937年11月19日嘉兴失守后，日军沿沪杭铁路西进，12月24日攻陷杭州。路线为示意简化。",
+          "en": "After Jiaxing fell on 19 November 1937, Japanese forces advanced west along the Shanghai–Hangzhou railway and captured Hangzhou on 24 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.15,
+            30.27
+          ],
+          [
+            120.2,
+            30.22
+          ],
+          [
+            120.26,
+            30.18
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-01-22",
+        "endDate": "1940-01-22",
+        "order": 190,
+        "segmentType": "advance",
+        "name": {
+          "zh": "杭州—萧山",
+          "en": "Hangzhou–Xiaoshan"
+        },
+        "description": {
+          "zh": "1940年1月22日，日军由杭州方向偷渡钱塘江，攻占萧山县城。路线为示意简化。",
+          "en": "On 22 January 1940 Japanese forces crossed the Qiantang River from the Hangzhou direction and captured Xiaoshan. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.26,
+            30.18
+          ],
+          [
+            120.45,
+            30.1
+          ],
+          [
+            120.58,
+            30.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-04-17",
+        "endDate": "1941-04-17",
+        "order": 191,
+        "segmentType": "advance",
+        "name": {
+          "zh": "萧山—绍兴",
+          "en": "Xiaoshan–Shaoxing"
+        },
+        "description": {
+          "zh": "1941年4月17日，日军由萧山方向分3路进犯绍兴，凌晨占领绍兴城。路线为示意简化。",
+          "en": "On 17 April 1941 Japanese forces advanced on Shaoxing from the Xiaoshan direction in three columns and occupied the city before dawn. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.58,
+            30.0
+          ],
+          [
+            120.9,
+            30.05
+          ],
+          [
+            121.15,
+            30.04
+          ],
+          [
+            121.25,
+            30.17
+          ],
+          [
+            121.55,
+            29.87
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-04-17",
+        "endDate": "1941-04-23",
+        "order": 192,
+        "segmentType": "advance",
+        "name": {
+          "zh": "绍兴—宁波",
+          "en": "Shaoxing–Ningbo"
+        },
+        "description": {
+          "zh": "1941年4月17日绍兴失守后，日军经余姚、慈溪东犯，4月20日攻陷宁波；4月22日慈溪、4月23日余姚相继沦陷。路线为示意简化。",
+          "en": "After Shaoxing fell on 17 April 1941, Japanese forces advanced east via Yuyao and Cixi and captured Ningbo on 20 April; Cixi fell on 22 April and Yuyao on 23 April. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.55,
+            29.87
+          ],
+          [
+            121.65,
+            29.92
+          ],
+          [
+            121.72,
+            29.95
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-04-19",
+        "endDate": "1941-04-19",
+        "order": 193,
+        "segmentType": "advance",
+        "name": {
+          "zh": "宁波—镇海",
+          "en": "Ningbo–Zhenhai"
+        },
+        "description": {
+          "zh": "1941年4月19日，日军攻陷镇海。路线为示意简化。",
+          "en": "On 19 April 1941 Japanese forces captured Zhenhai. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.55,
+            29.87
+          ],
+          [
+            121.48,
+            29.75
+          ],
+          [
+            121.41,
+            29.66
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-04-23",
+        "endDate": "1941-04-23",
+        "order": 194,
+        "segmentType": "advance",
+        "name": {
+          "zh": "宁波—奉化",
+          "en": "Ningbo–Fenghua"
+        },
+        "description": {
+          "zh": "1941年4月23日，日军由宁波南下，攻陷奉化。路线为示意简化。",
+          "en": "On 23 April 1941 Japanese forces moved south from Ningbo and captured Fenghua. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.65,
+            27.78
+          ],
+          [
+            120.68,
+            27.9
+          ],
+          [
+            120.7,
+            28.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-04-18",
+        "endDate": "1941-04-19",
+        "order": 195,
+        "segmentType": "advance",
+        "name": {
+          "zh": "瑞安—温州",
+          "en": "Ruian–Wenzhou"
+        },
+        "description": {
+          "zh": "1941年4月18日瑞安失守后，日军次日分兵奔袭温州城区。路线为示意简化。",
+          "en": "After Ruian fell on 18 April 1941, Japanese forces moved on Wenzhou the next day. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.24,
+            29.71
+          ],
+          [
+            120.24,
+            29.28
+          ],
+          [
+            120.07,
+            29.31
+          ],
+          [
+            119.65,
+            29.08
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1942-05-17",
+        "endDate": "1942-05-28",
+        "order": 196,
+        "segmentType": "advance",
+        "name": {
+          "zh": "诸暨—东阳—义乌—金华",
+          "en": "Zhuji–Dongyang–Yiwu–Jinhua"
+        },
+        "description": {
+          "zh": "1942年5月17日诸暨失守后，日军经东阳、义乌西犯，5月28日陷金华。路线为示意简化。",
+          "en": "After Zhuji fell on 17 May 1942, Japanese forces advanced west via Dongyang and Yiwu and took Jinhua on 28 May. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.65,
+            29.08
+          ],
+          [
+            119.55,
+            29.15
+          ],
+          [
+            119.46,
+            29.21
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1942-05-28",
+        "endDate": "1942-05-28",
+        "order": 197,
+        "segmentType": "advance",
+        "name": {
+          "zh": "金华—兰溪",
+          "en": "Jinhua–Lanxi"
+        },
+        "description": {
+          "zh": "1942年5月28日，金华、兰溪同日失陷。路线为示意简化。",
+          "en": "Jinhua and Lanxi fell on the same day, 28 May 1942. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.65,
+            29.08
+          ],
+          [
+            119.3,
+            29.0
+          ],
+          [
+            118.87,
+            28.94
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1942-05-28",
+        "endDate": "1942-06-08",
+        "order": 198,
+        "segmentType": "advance",
+        "name": {
+          "zh": "金华—衢州",
+          "en": "Jinhua–Quzhou"
+        },
+        "description": {
+          "zh": "1942年5月28日金华失守后，日军西犯衢州，6月8日城破。路线为示意简化。",
+          "en": "After Jinhua fell on 28 May 1942, Japanese forces advanced west on Quzhou and broke into the city on 8 June. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.65,
+            29.08
+          ],
+          [
+            119.8,
+            28.75
+          ],
+          [
+            119.92,
+            28.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1942-05-28",
+        "endDate": "1942-06-24",
+        "order": 199,
+        "segmentType": "advance",
+        "name": {
+          "zh": "金华—丽水",
+          "en": "Jinhua–Lishui"
+        },
+        "description": {
+          "zh": "1942年5月28日金华失守后，日军南下，6月24日侵占丽水县城。路线为示意简化。",
+          "en": "After Jinhua fell on 28 May 1942, Japanese forces moved south and occupied Lishui on 24 June. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.92,
+            28.45
+          ],
+          [
+            120.3,
+            28.2
+          ],
+          [
+            120.7,
+            28.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1942-06-24",
+        "endDate": "1942-07-11",
+        "order": 200,
+        "segmentType": "advance",
+        "name": {
+          "zh": "丽水—温州",
+          "en": "Lishui–Wenzhou"
+        },
+        "description": {
+          "zh": "1942年6月24日丽水失守后，日军东进，7月11日温州第二次沦陷。路线为示意简化。",
+          "en": "After Lishui fell on 24 June 1942, Japanese forces moved east and Wenzhou fell for the second time on 11 July. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.82,
+            29.59
+          ],
+          [
+            120.9,
+            29.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1942-07-14",
+        "endDate": "1942-07-14",
+        "order": 201,
+        "segmentType": "advance",
+        "name": {
+          "zh": "嵊县—新昌",
+          "en": "Shengxian–Xinchang"
+        },
+        "description": {
+          "zh": "1942年7月14日，嵊县、新昌同日沦陷。路线为示意简化。",
+          "en": "Shengxian and Xinchang fell on the same day, 14 July 1942. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
