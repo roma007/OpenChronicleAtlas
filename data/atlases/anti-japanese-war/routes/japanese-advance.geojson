@@ -5085,7 +5085,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            121.0,
+            121,
             31.7
           ],
           [
@@ -5284,7 +5284,7 @@
           ],
           [
             119.58,
-            32.0
+            32
           ],
           [
             119.45,
@@ -5478,11 +5478,11 @@
         "coordinates": [
           [
             120.83,
-            32.0
+            32
           ],
           [
             120.85,
-            32.0
+            32
           ],
           [
             120.86,
@@ -6333,7 +6333,7 @@
             33.51
           ],
           [
-            116.0,
+            116,
             33.7
           ],
           [
@@ -6605,7 +6605,7 @@
             36.85
           ],
           [
-            117.0,
+            117,
             36.65
           ]
         ]
@@ -6635,7 +6635,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            117.0,
+            117,
             36.65
           ],
           [
@@ -6841,7 +6841,7 @@
             36.07
           ],
           [
-            120.0,
+            120,
             36.27
           ],
           [
@@ -6929,7 +6929,7 @@
             35.55
           ],
           [
-            117.0,
+            117,
             35.3
           ],
           [
@@ -7085,7 +7085,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            117.0,
+            117,
             36.65
           ],
           [
@@ -7127,7 +7127,7 @@
             37.45
           ],
           [
-            116.0,
+            116,
             37.2
           ],
           [
@@ -7516,7 +7516,7 @@
           ],
           [
             120.58,
-            30.0
+            30
           ]
         ]
       },
@@ -7546,7 +7546,7 @@
         "coordinates": [
           [
             120.58,
-            30.0
+            30
           ],
           [
             120.9,
@@ -7676,7 +7676,7 @@
           ],
           [
             120.7,
-            28.0
+            28
           ]
         ]
       },
@@ -7790,7 +7790,7 @@
           ],
           [
             119.3,
-            29.0
+            29
           ],
           [
             118.87,
@@ -7870,7 +7870,7 @@
           ],
           [
             120.7,
-            28.0
+            28
           ]
         ]
       },
@@ -8541,7 +8541,7 @@
             39.13
           ],
           [
-            117.0,
+            117,
             38.7
           ],
           [
@@ -8798,7 +8798,7 @@
           ],
           [
             112.3,
-            39.0
+            39
           ]
         ]
       },
@@ -9157,7 +9157,7 @@
             35.35
           ],
           [
-            111.0,
+            111,
             35.03
           ]
         ]
@@ -9213,6 +9213,746 @@
         "description": {
           "zh": "1941年5月中条山会战，日军以中央突破攻陷垣曲后向西推进，进抵平陆、黄河北岸。路线为示意简化。",
           "en": "In the May 1941 Zhongtiao Mountains campaign the Japanese broke through the center, took Yuanqu and pushed west toward Pinglu on the north bank of the Yellow River. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.37,
+            36.37
+          ],
+          [
+            114.35,
+            36.1
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-03",
+        "endDate": "1937-11-05",
+        "order": 234,
+        "segmentType": "advance",
+        "name": {
+          "zh": "磁县—安阳",
+          "en": "Cixian–Anyang"
+        },
+        "description": {
+          "zh": "1937年11月3日日军第14师团自磁县强渡漳河，4日攻占安阳车站，5日攻陷安阳城。路线为示意简化。",
+          "en": "On 3 November 1937 the Japanese 14th Division crossed the Zhang River from Cixian, took Anyang station on the 4th and the city on the 5th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.35,
+            36.1
+          ],
+          [
+            114.36,
+            35.92
+          ],
+          [
+            114.2,
+            35.61
+          ],
+          [
+            114.06,
+            35.4
+          ],
+          [
+            113.93,
+            35.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-02-10",
+        "endDate": "1938-02-17",
+        "order": 235,
+        "segmentType": "advance",
+        "name": {
+          "zh": "安阳—汤阴—淇县—汲县—新乡",
+          "en": "Anyang–Tangyin–Qi County–Jixian–Xinxiang"
+        },
+        "description": {
+          "zh": "1938年2月10日日军第14师团主力自安阳沿平汉路南犯，经汤阴、淇县、汲县，17日陷新乡。路线为示意简化。",
+          "en": "From 10 February 1938 the main force of the Japanese 14th Division advanced south from Anyang along the Beiping–Hankou railway through Tangyin, Qi County and Jixian to Xinxiang on the 17th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.15,
+            36.28
+          ],
+          [
+            115.2,
+            36.07
+          ],
+          [
+            115.1,
+            35.89
+          ],
+          [
+            115.03,
+            35.76
+          ],
+          [
+            114.68,
+            35.2
+          ],
+          [
+            114.42,
+            35.04
+          ],
+          [
+            113.93,
+            35.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-02-07",
+        "endDate": "1938-02-17",
+        "order": 236,
+        "segmentType": "advance",
+        "name": {
+          "zh": "大名—南乐—清丰—濮阳—长垣—封丘—新乡",
+          "en": "Daming–Nanle–Qingfeng–Puyang–Changyuan–Fengqiu–Xinxiang"
+        },
+        "description": {
+          "zh": "1938年2月7日日军第14师团馆支队自大名南犯，连陷南乐、清丰、濮阳、长垣、封丘，17日与主力会合于新乡。路线为示意简化。",
+          "en": "From 7 February 1938 the Kaneda detachment of the Japanese 14th Division advanced south from Daming through Nanle, Qingfeng, Puyang, Changyuan and Fengqiu, joining the main force at Xinxiang on the 17th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.93,
+            35.3
+          ],
+          [
+            113.66,
+            35.26
+          ],
+          [
+            113.45,
+            35.22
+          ],
+          [
+            113.24,
+            35.22
+          ],
+          [
+            113.07,
+            35.17
+          ],
+          [
+            112.95,
+            35.09
+          ],
+          [
+            112.79,
+            34.91
+          ],
+          [
+            112.6,
+            35.09
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-02-17",
+        "endDate": "1938-02-25",
+        "order": 237,
+        "segmentType": "advance",
+        "name": {
+          "zh": "新乡—获嘉—修武—焦作—博爱—沁阳—孟县—济源",
+          "en": "Xinxiang–Huojia–Xiuwu–Jiaozuo–Bo’ai–Qinyang–Mengxian–Jiyuan"
+        },
+        "description": {
+          "zh": "1938年2月17日日军自新乡沿道清铁路西犯，经获嘉、修武、焦作、博爱、沁阳、孟县，25日陷济源。路线为示意简化。",
+          "en": "From 17 February 1938 the Japanese advanced west from Xinxiang along the Daoqing railway through Huojia, Xiuwu, Jiaozuo, Bo’ai, Qinyang and Mengxian to Jiyuan on the 25th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.56,
+            33.27
+          ],
+          [
+            116.45,
+            33.93
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-05-12",
+        "endDate": "1938-05-12",
+        "order": 238,
+        "segmentType": "advance",
+        "name": {
+          "zh": "蒙城—永城",
+          "en": "Mengcheng–Yongcheng"
+        },
+        "description": {
+          "zh": "1938年5月12日日军华中派遣军第13师团自蒙城北上占领永城，随后攻夏邑、切断陇海路。路线为示意简化。",
+          "en": "On 12 May 1938 the Japanese 13th Division advanced north from Mengcheng and took Yongcheng, then Xiayi, cutting the Longhai railway. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.35,
+            34.42
+          ],
+          [
+            115.65,
+            34.42
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-05-29",
+        "endDate": "1938-05-29",
+        "order": 239,
+        "segmentType": "advance",
+        "name": {
+          "zh": "砀山—商丘",
+          "en": "Dangshan–Shangqiu"
+        },
+        "description": {
+          "zh": "1938年5月29日日军第16师团自砀山经虞城进占商丘。路线为示意简化。",
+          "en": "On 29 May 1938 the Japanese 16th Division advanced from Dangshan via Yucheng and occupied Shangqiu. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.65,
+            34.42
+          ],
+          [
+            114.78,
+            34.55
+          ],
+          [
+            114.47,
+            34.48
+          ],
+          [
+            114.19,
+            34.41
+          ],
+          [
+            113.98,
+            34.72
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-06-01",
+        "endDate": "1938-06-09",
+        "order": 240,
+        "segmentType": "advance",
+        "name": {
+          "zh": "商丘—杞县—通许—尉氏—中牟",
+          "en": "Shangqiu–Qi County–Tongxu–Weishi–Zhongmou"
+        },
+        "description": {
+          "zh": "1938年6月初日军第16师团自商丘西犯，连陷杞县、通许、尉氏，9日第14师团攻占中牟，直逼郑州。路线为示意简化。",
+          "en": "In early June 1938 the Japanese 16th Division advanced west from Shangqiu through Qi County, Tongxu and Weishi, while the 14th Division took Zhongmou on the 9th and closed on Zhengzhou. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.5,
+            31.75
+          ],
+          [
+            115.66,
+            32.17
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-09-06",
+        "endDate": "1938-09-06",
+        "order": 241,
+        "segmentType": "advance",
+        "name": {
+          "zh": "六安—固始",
+          "en": "Lu’an–Gushi"
+        },
+        "description": {
+          "zh": "1938年9月6日日军第10师团濑谷支队自六安、叶家集北犯占领固始。路线为示意简化。",
+          "en": "On 6 September 1938 the Segu detachment of the Japanese 10th Division advanced north from Lu’an and Yejiaji to take Gushi. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.66,
+            32.17
+          ],
+          [
+            115.05,
+            32.13
+          ],
+          [
+            114.9,
+            32.01
+          ],
+          [
+            114.53,
+            32.2
+          ],
+          [
+            114.09,
+            32.15
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-09-18",
+        "endDate": "1938-10-12",
+        "order": 242,
+        "segmentType": "advance",
+        "name": {
+          "zh": "固始—潢川—光山—罗山—信阳",
+          "en": "Gushi–Huangchuan–Guangshan–Luoshan–Xinyang"
+        },
+        "description": {
+          "zh": "1938年9月至10月日军第10师团自固始西犯，经潢川、光山、罗山，10月12日攻占信阳。路线为示意简化。",
+          "en": "From September to October 1938 the Japanese 10th Division advanced west from Gushi through Huangchuan, Guangshan and Luoshan to Xinyang on 12 October. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.09,
+            32.15
+          ],
+          [
+            114.03,
+            32.8
+          ],
+          [
+            114.02,
+            33.01
+          ],
+          [
+            113.32,
+            32.72
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1941-01-26",
+        "endDate": "1941-01-27",
+        "order": 243,
+        "segmentType": "advance",
+        "name": {
+          "zh": "信阳—确山—驻马店—泌阳",
+          "en": "Xinyang–Queshan–Zhumadian–Biyang"
+        },
+        "description": {
+          "zh": "1941年1月26日至27日日军第11军自信阳北犯，攻占确山、驻马店、泌阳一线。路线为示意简化。",
+          "en": "On 26–27 January 1941 the Japanese 11th Army advanced north from Xinyang, taking the Queshan–Zhumadian–Biyang line. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.98,
+            34.72
+          ],
+          [
+            113.65,
+            34.76
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-04-18",
+        "endDate": "1944-04-23",
+        "order": 244,
+        "segmentType": "advance",
+        "name": {
+          "zh": "中牟—郑州",
+          "en": "Zhongmou–Zhengzhou"
+        },
+        "description": {
+          "zh": "1944年4月18日日军第37师团在中牟强渡新黄河，23日占领郑州。路线为示意简化。",
+          "en": "On 18 April 1944 the Japanese 37th Division crossed the New Yellow River at Zhongmou and occupied Zhengzhou on the 23rd. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.65,
+            34.76
+          ],
+          [
+            113.74,
+            34.4
+          ],
+          [
+            113.77,
+            34.22
+          ],
+          [
+            113.85,
+            34.04
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-04-23",
+        "endDate": "1944-05-01",
+        "order": 245,
+        "segmentType": "advance",
+        "name": {
+          "zh": "郑州—新郑—长葛—许昌",
+          "en": "Zhengzhou–Xinzheng–Changge–Xuchang"
+        },
+        "description": {
+          "zh": "1944年4月23日日军占领郑州后沿平汉铁路南犯，经新郑、长葛，5月1日陷许昌。路线为示意简化。",
+          "en": "After taking Zhengzhou on 23 April 1944 the Japanese advanced south along the Beiping–Hankou railway through Xinzheng and Changge to Xuchang on 1 May. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.85,
+            34.04
+          ],
+          [
+            113.94,
+            33.81
+          ],
+          [
+            114.03,
+            33.58
+          ],
+          [
+            114.02,
+            33.38
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-05-01",
+        "endDate": "1944-05-08",
+        "order": 246,
+        "segmentType": "advance",
+        "name": {
+          "zh": "许昌—临颍—漯河—西平",
+          "en": "Xuchang–Linying–Luohe–Xiping"
+        },
+        "description": {
+          "zh": "1944年5月1日许昌失守后，日军一部沿平汉铁路南下，经临颍、漯河，5月8日与北上的第11军会合于西平。路线为示意简化。",
+          "en": "After Xuchang fell on 1 May 1944 part of the Japanese force drove south along the Beiping–Hankou railway through Linying and Luohe, joining the northward-moving 11th Army at Xiping on 8 May. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.85,
+            34.04
+          ],
+          [
+            113.47,
+            34.16
+          ],
+          [
+            113.21,
+            33.97
+          ],
+          [
+            112.84,
+            34.17
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-05-01",
+        "endDate": "1944-05-04",
+        "order": 247,
+        "segmentType": "advance",
+        "name": {
+          "zh": "许昌—禹县—郏县—临汝",
+          "en": "Xuchang–Yu County–Jiaxian–Linru"
+        },
+        "description": {
+          "zh": "1944年5月1日至4日日军第62师团、战车第3师团自许昌向西迂回，连陷禹县、郏县、临汝。路线为示意简化。",
+          "en": "From 1 to 4 May 1944 the Japanese 62nd Division and 3rd Tank Division swept west from Xuchang through Yu County and Jiaxian to Linru. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.84,
+            34.17
+          ],
+          [
+            113.05,
+            34.46
+          ],
+          [
+            112.98,
+            34.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-05-04",
+        "endDate": "1944-05-09",
+        "order": 248,
+        "segmentType": "advance",
+        "name": {
+          "zh": "临汝—登封—巩县",
+          "en": "Linru–Dengfeng–Gong County"
+        },
+        "description": {
+          "zh": "1944年5月4日临汝失守后，日军经登封东进，9日“菊兵团”攻占巩县，迫近洛阳。路线为示意简化。",
+          "en": "After Linru fell on 4 May 1944 the Japanese advanced via Dengfeng; on the 9th the Kiku detachment took Gong County and closed on Luoyang. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.84,
+            34.17
+          ],
+          [
+            113.05,
+            33.87
+          ],
+          [
+            112.91,
+            33.74
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-05-04",
+        "endDate": "1944-05-07",
+        "order": 249,
+        "segmentType": "advance",
+        "name": {
+          "zh": "临汝—宝丰—鲁山",
+          "en": "Linru–Baofeng–Lushan"
+        },
+        "description": {
+          "zh": "1944年5月4日临汝失守后，日军一部南下，连陷宝丰、鲁山。路线为示意简化。",
+          "en": "After Linru fell on 4 May 1944 part of the Japanese force drove south through Baofeng to Lushan. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.67,
+            35.3
+          ],
+          [
+            111.76,
+            34.77
+          ],
+          [
+            112.13,
+            34.72
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-05-09",
+        "endDate": "1944-05-12",
+        "order": 250,
+        "segmentType": "advance",
+        "name": {
+          "zh": "垣曲—渑池—新安",
+          "en": "Yuanqu–Mianchi–Xin’an"
+        },
+        "description": {
+          "zh": "1944年5月9日日军第69师团自垣曲强渡黄河，12日攻陷渑池、新安，直逼洛阳城西。路线为示意简化。",
+          "en": "On 9 May 1944 the Japanese 69th Division crossed the Yellow River from Yuanqu, took Mianchi and Xin’an on the 12th and closed on Luoyang from the west. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.53,
+            33
+          ],
+          [
+            111.47,
+            33.3
+          ],
+          [
+            111.49,
+            33.14
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1945-03-30",
+        "endDate": "1945-04-01",
+        "order": 251,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南阳—西峡—淅川",
+          "en": "Nanyang–Xixia–Xichuan"
+        },
+        "description": {
+          "zh": "1945年3月30日日军第110师团、战车第3师团自南阳西犯，陷西峡口，4月1日陷淅川。路线为示意简化。",
+          "en": "On 30 March 1945 the Japanese 110th Division and 3rd Tank Division advanced west from Nanyang, took Xixiakou and on 1 April Xichuan. The route is schematic."
         },
         "extensions": {
           "precision": "schematic"

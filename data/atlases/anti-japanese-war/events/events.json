@@ -27442,7 +27442,7 @@
     },
     "date": "1937-11-13",
     "location": {
-      "lng": 121.0,
+      "lng": 121,
       "lat": 31.7,
       "place": {
         "zh": "江苏常熟白茆口",
@@ -27913,7 +27913,7 @@
     "date": "1937-12-02",
     "location": {
       "lng": 119.58,
-      "lat": 32.0,
+      "lat": 32,
       "place": {
         "zh": "江苏丹阳",
         "en": "Danyang, Jiangsu"
@@ -28314,7 +28314,7 @@
     "date": "1938-03-17",
     "location": {
       "lng": 120.83,
-      "lat": 32.0,
+      "lat": 32,
       "place": {
         "zh": "江苏南通姚港",
         "en": "Yaogang, Nantong, Jiangsu"
@@ -32044,7 +32044,7 @@
     },
     "date": "1938-03-05",
     "location": {
-      "lng": 117.0,
+      "lng": 117,
       "lat": 36.65,
       "place": {
         "zh": "山东济南",
@@ -32248,7 +32248,7 @@
     },
     "date": "1945-12-27",
     "location": {
-      "lng": 117.0,
+      "lng": 117,
       "lat": 36.65,
       "place": {
         "zh": "山东济南",
@@ -35361,7 +35361,7 @@
     "date": "1937-10-02",
     "location": {
       "lng": 112.3,
-      "lat": 39.0,
+      "lat": 39,
       "place": {
         "zh": "山西宁武",
         "en": "Ningwu, Shanxi"
@@ -35828,7 +35828,7 @@
     },
     "date": "1938-03-05",
     "location": {
-      "lng": 111.0,
+      "lng": 111,
       "lat": 35.03,
       "place": {
         "zh": "山西运城",
@@ -35956,6 +35956,2216 @@
     ],
     "relatedIds": [
       "japanese-taiyuan-1937-11"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "anyang-fall-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "安阳沦陷",
+      "en": "Fall of Anyang"
+    },
+    "date": "1937-11-05",
+    "location": {
+      "lng": 114.35,
+      "lat": 36.1,
+      "place": {
+        "zh": "河南安阳",
+        "en": "Anyang, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年11月5日，日军第14师团攻占豫北重镇安阳（彰德）。",
+      "en": "On 5 November 1937 the Japanese 14th Division captured Anyang (Zhangde), the key city of northern Henan."
+    },
+    "description": {
+      "zh": "1937年11月3日，日军第14师团强渡漳河；4日凌晨攻占安阳火车站；5日下午2时由小西门突入城内，安阳（彰德）沦陷。日军入城后屠杀居民千余人、烧房两千余间。安阳是河南第一个沦陷的重要城市，此后成为日军进攻晋东南和豫北的出发点。日期据《抗战时期安阳地区大事记》与《河南的抗战历程》，两者均记11月5日城陷。",
+      "en": "On 3 November 1937 the Japanese 14th Division forced the Zhang River; before dawn on the 4th it took Anyang railway station, and at 2 p.m. on the 5th it entered the city through the Small West Gate. Anyang (Zhangde) thus became the first major Henan city to fall, and later served as the Japanese base for operations into southeastern Shanxi and northern Henan. Both cited accounts give 5 November."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗战时期安阳地区大事记",
+        "author": "嘉壹书斋，抗日战争纪念网 2018-09-07",
+        "note": "地方大事记，访问 2026-11-21"
+      },
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      },
+      {
+        "title": "重读抗战·抗战最伟大的省：河南",
+        "author": "凤凰网 2016-05-13",
+        "note": "通史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "anyang-1943",
+      "japanese-taihang-1943-04"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "nanle-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "南乐沦陷",
+      "en": "Fall of Nanle"
+    },
+    "date": "1938-02-07",
+    "location": {
+      "lng": 115.2,
+      "lat": 36.07,
+      "place": {
+        "zh": "河南南乐",
+        "en": "Nanle, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月7日，日军第14师团馆支队自大名南犯，占领南乐。",
+      "en": "On 7 February 1938 the Kaneda detachment of the Japanese 14th Division advanced south from Daming and took Nanle."
+    },
+    "description": {
+      "zh": "1938年2月6日，日军第14师团分两路进犯豫北。馆支队（第27旅团）5个步兵大队、3个炮兵大队自大名南下，7日陷南乐，9日占清丰、内黄，10日攻陷濮阳。南乐仅驻地方保安团，未经激战即溃。日期据《1938年河南历史大事记》与《新乡抗战·惨案》所引地方党史。",
+      "en": "On 6 February 1938 the Japanese 14th Division attacked northern Henan in two columns. The Kaneda (27th Brigade) detachment marched south from Daming, took Nanle on the 7th, Qingfeng and Neihuang on the 9th, and Puyang on the 10th. Nanle was held only by local security regiments, which collapsed without a serious fight."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "新乡抗战·惨案——日军罪恶滔天：新乡直接间接伤亡72万人",
+        "author": "新乡日报 2016-08-26",
+        "note": "地方党史统计，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "qingfeng-fall-1938-02",
+      "puyang-fall-1938-02",
+      "changyuan-fall-1938-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "qingfeng-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "清丰沦陷",
+      "en": "Fall of Qingfeng"
+    },
+    "date": "1938-02-09",
+    "location": {
+      "lng": 115.1,
+      "lat": 35.89,
+      "place": {
+        "zh": "河南清丰",
+        "en": "Qingfeng, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月9日，日军第14师团馆支队占领清丰。",
+      "en": "On 9 February 1938 the Kaneda detachment of the Japanese 14th Division occupied Qingfeng."
+    },
+    "description": {
+      "zh": "1938年2月7日日军陷南乐后继续南犯，9日占清丰、内黄，并围攻濮阳。清丰、南乐一带仅有地方保安团约四千人，接火即溃，日军得以长驱直入。日期据《1938年河南历史大事记》与《新乡抗战·惨案》。",
+      "en": "After taking Nanle on 7 February 1938 the Japanese pushed south, occupying Qingfeng and Neihuang on the 9th and investing Puyang. The area was defended only by about 4,000 local security troops, who broke on contact, allowing the Japanese to advance rapidly. Dates follow the 1938 Henan chronology and the Xinxiang wartime survey."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "新乡抗战·惨案——日军罪恶滔天：新乡直接间接伤亡72万人",
+        "author": "新乡日报 2016-08-26",
+        "note": "地方党史统计，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "nanle-fall-1938-02",
+      "puyang-fall-1938-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "puyang-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "濮阳沦陷",
+      "en": "Fall of Puyang"
+    },
+    "date": "1938-02-10",
+    "location": {
+      "lng": 115.03,
+      "lat": 35.76,
+      "place": {
+        "zh": "河南濮阳",
+        "en": "Puyang, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月10日，日军第14师团馆支队攻陷濮阳。",
+      "en": "On 10 February 1938 the Kaneda detachment of the Japanese 14th Division captured Puyang."
+    },
+    "description": {
+      "zh": "濮阳扼道口、封丘、延津要冲，日军陷南乐、清丰后即围攻濮阳。第一战区急令第77军副军长张凌云率3个旅及骑兵第9师自东明、道口反击，但各部行动迟缓，日军增兵至五千余人，附炮20余门、坦克10余辆，在飞机、重炮掩护下于10日攻陷濮阳。日期据《1938年河南历史大事记》与《新乡抗战·惨案》。",
+      "en": "Puyang commanded the approaches to Daokou, Fengqiu and Yanjin. After taking Nanle and Qingfeng the Japanese invested the city. The First War Zone ordered Zhang Lingyun’s three brigades and the 9th Cavalry Division to counterattack from Dongming and Daokou, but they moved too slowly; reinforced to over 5,000 men with more than 20 guns and 10 tanks, the Japanese took Puyang on the 10th under air and artillery cover."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "新乡抗战·惨案——日军罪恶滔天：新乡直接间接伤亡72万人",
+        "author": "新乡日报 2016-08-26",
+        "note": "地方党史统计，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "nanle-fall-1938-02",
+      "qingfeng-fall-1938-02",
+      "changyuan-fall-1938-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tangyin-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "汤阴沦陷",
+      "en": "Fall of Tangyin"
+    },
+    "date": "1938-02-13",
+    "location": {
+      "lng": 114.36,
+      "lat": 35.92,
+      "place": {
+        "zh": "河南汤阴",
+        "en": "Tangyin, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月13日，日军第14师团进占汤阴。",
+      "en": "On 13 February 1938 the Japanese 14th Division occupied Tangyin."
+    },
+    "description": {
+      "zh": "1938年2月6日起，日军第14师团主力自安阳沿平汉路南犯，在宝莲寺、汤阴附近与万福麟、高树勋部血战四昼夜。11日上午宝莲寺失守，12日晚万福麟以阵地被毁、两翼受围，擅自放弃汤阴退至淇河南岸，13日日军进占汤阴。日期据《1938年河南历史大事记》；《新乡抗战·惨案》亦记2月中旬日军侵占汤阴。",
+      "en": "From 6 February 1938 the main force of the Japanese 14th Division advanced south from Anyang along the Beiping–Hankou railway, fighting Wan Fulin and Gao Shuxun’s troops for four days around Baoliansi and Tangyin. Baoliansi fell on the morning of the 11th; on the night of the 12th Wan abandoned Tangyin and withdrew south of the Qi River, and the Japanese entered the city on the 13th."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "新乡抗战·惨案——日军罪恶滔天：新乡直接间接伤亡72万人",
+        "author": "新乡日报 2016-08-26",
+        "note": "地方党史统计，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "qixian-fall-1938-02",
+      "jixian-fall-1938-02",
+      "xinxiang-fall-1938-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "qixian-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "淇县沦陷",
+      "en": "Fall of Qi County"
+    },
+    "date": "1938-02-13",
+    "location": {
+      "lng": 114.2,
+      "lat": 35.61,
+      "place": {
+        "zh": "河南淇县",
+        "en": "Qi County, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月13日，日军第14师团进占淇县。",
+      "en": "On 13 February 1938 the Japanese 14th Division occupied Qi County."
+    },
+    "description": {
+      "zh": "1938年2月12日日军越过淇河逼近淇县，13日万福麟部退至平汉路西侧，日军轻易占据淇县，直接威胁道清铁路。淇县失守后，日军一部继续南犯汲县，一部转向浚县，制造浚县惨案。日期据《1938年河南历史大事记》与《新乡抗战·惨案》。",
+      "en": "On 12 February 1938 the Japanese crossed the Qi River toward Qi County; on the 13th Wan Fulin’s troops withdrew west of the Beiping–Hankou railway and the Japanese occupied the county town, threatening the Daoqing railway. Part of the force then moved south toward Jixian and part turned on Xunxian, where it carried out the Xunxian massacre."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "新乡抗战·惨案——日军罪恶滔天：新乡直接间接伤亡72万人",
+        "author": "新乡日报 2016-08-26",
+        "note": "地方党史统计，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "tangyin-fall-1938-02",
+      "jixian-fall-1938-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "changyuan-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "长垣沦陷",
+      "en": "Fall of Changyuan"
+    },
+    "date": "1938-02-14",
+    "location": {
+      "lng": 114.68,
+      "lat": 35.2,
+      "place": {
+        "zh": "河南长垣",
+        "en": "Changyuan, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月14日，日军第14师团馆支队攻陷长垣。",
+      "en": "On 14 February 1938 the Kaneda detachment of the Japanese 14th Division captured Changyuan."
+    },
+    "description": {
+      "zh": "濮阳失守后，日军一部迅速南下，14日陷长垣，15日陷封丘，直逼新乡。2月23日日军再陷长垣并制造黉学惨案，屠杀民众1700余人。长垣城陷日期，《1938年河南历史大事记》记2月14日，《新乡抗战·惨案》记2月13日，正文并列。",
+      "en": "After Puyang fell, part of the Japanese force drove south, taking Changyuan on 14 February and Fengqiu on the 15th, closing on Xinxiang. On 23 February the Japanese retook Changyuan and carried out the Hongxue massacre, killing more than 1,700 civilians. The 1938 Henan chronology gives 14 February, while the Xinxiang wartime survey gives 13 February."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "新乡抗战·惨案——日军罪恶滔天：新乡直接间接伤亡72万人",
+        "author": "新乡日报 2016-08-26",
+        "note": "地方党史统计，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "puyang-fall-1938-02",
+      "fengqiu-fall-1938-02",
+      "xinxiang-fall-1938-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fengqiu-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "封丘沦陷",
+      "en": "Fall of Fengqiu"
+    },
+    "date": "1938-02-15",
+    "location": {
+      "lng": 114.42,
+      "lat": 35.04,
+      "place": {
+        "zh": "河南封丘",
+        "en": "Fengqiu, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月15日，日军第14师团馆支队攻陷封丘。",
+      "en": "On 15 February 1938 the Kaneda detachment of the Japanese 14th Division captured Fengqiu."
+    },
+    "description": {
+      "zh": "1938年2月14日长垣失守后，日军馆支队继续南下，15日攻陷封丘，随后直逼新乡。封丘失守使日军从东南方向威胁新乡，与自安阳南下的第14师团主力形成夹击。日期据《1938年河南历史大事记》与《新乡抗战·惨案》，两源一致。",
+      "en": "After Changyuan fell on 14 February 1938, the Kaneda detachment continued south and took Fengqiu on the 15th, then closed on Xinxiang. The loss of Fengqiu threatened Xinxiang from the southeast and allowed the Japanese to converge with the 14th Division’s main force advancing south from Anyang. Both sources agree on the date."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "新乡抗战·惨案——日军罪恶滔天：新乡直接间接伤亡72万人",
+        "author": "新乡日报 2016-08-26",
+        "note": "地方党史统计，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "changyuan-fall-1938-02",
+      "xinxiang-fall-1938-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jixian-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "汲县沦陷",
+      "en": "Fall of Jixian"
+    },
+    "date": "1938-02-15",
+    "location": {
+      "lng": 114.06,
+      "lat": 35.4,
+      "place": {
+        "zh": "河南汲县",
+        "en": "Jixian (Weihui), Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月15日，日军第14师团侵占汲县（今卫辉）。",
+      "en": "On 15 February 1938 the Japanese 14th Division occupied Jixian (present-day Weihui)."
+    },
+    "description": {
+      "zh": "1938年2月14日晚，日军向汲县以北冯治安部阵地猛攻，守军稍作抵抗即退守新乡；宋哲元以“全军为上”下令放弃汲县，沿道清路西撤。15日日军侵占汲县（今卫辉）。日期据《1938年河南历史大事记》与《新乡抗战·惨案》，两源一致。",
+      "en": "On the night of 14 February 1938 the Japanese attacked Feng Zhian’s positions north of Jixian; the defenders offered little resistance and fell back on Xinxiang. Song Zheyuan ordered Jixian abandoned and withdrew west along the Daoqing railway. The Japanese occupied Jixian (modern Weihui) on the 15th."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "新乡抗战·惨案——日军罪恶滔天：新乡直接间接伤亡72万人",
+        "author": "新乡日报 2016-08-26",
+        "note": "地方党史统计，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "qixian-fall-1938-02",
+      "xinxiang-fall-1938-02",
+      "huojia-fall-1938-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xinxiang-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "新乡沦陷",
+      "en": "Fall of Xinxiang"
+    },
+    "date": "1938-02-17",
+    "location": {
+      "lng": 113.93,
+      "lat": 35.3,
+      "place": {
+        "zh": "河南新乡",
+        "en": "Xinxiang, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月17日，日军第14师团攻占豫北重镇新乡。",
+      "en": "On 17 February 1938 the Japanese 14th Division captured Xinxiang, the key city of northern Henan."
+    },
+    "description": {
+      "zh": "1938年2月14日日军沿道清路西追，如入无人之境，17日陷新乡。新乡为豫北重镇和平汉、道清两路交点，失守后黄河以北几乎全部沦陷。新乡城陷日期，《1938年河南历史大事记》与《河南的抗战历程》均记2月17日，《新乡抗战·惨案》记2月16日，正文并列。",
+      "en": "On 14 February 1938 the Japanese pursued west along the Daoqing railway and entered Xinxiang on the 17th. Xinxiang was the key city of northern Henan and the junction of the Beiping–Hankou and Daoqing railways; with its fall almost all of the region north of the Yellow River was lost. The 1938 Henan chronology and the Henan campaign history give 17 February; the Xinxiang wartime survey gives 16 February."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      },
+      {
+        "title": "新乡抗战·惨案——日军罪恶滔天：新乡直接间接伤亡72万人",
+        "author": "新乡日报 2016-08-26",
+        "note": "地方党史统计，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "jixian-fall-1938-02",
+      "huojia-fall-1938-02",
+      "jiaozuo-fall-1938-02"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "huojia-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "获嘉沦陷",
+      "en": "Fall of Huojia"
+    },
+    "date": "1938-02-18",
+    "location": {
+      "lng": 113.66,
+      "lat": 35.26,
+      "place": {
+        "zh": "河南获嘉",
+        "en": "Huojia, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月18日，日军第14师团占领获嘉。",
+      "en": "On 18 February 1938 the Japanese 14th Division occupied Huojia."
+    },
+    "description": {
+      "zh": "新乡失守后，日军沿道清铁路继续西犯，18日占领获嘉，随后陷修武、焦作。获嘉是日军从新乡西进焦作、济源的中间节点。日期据《1938年河南历史大事记》与《新乡抗战·惨案》，两源一致。",
+      "en": "After Xinxiang fell, the Japanese pushed west along the Daoqing railway, occupying Huojia on 18 February before taking Xiuwu and Jiaozuo. Huojia was the intermediate point on the Japanese advance from Xinxiang toward Jiaozuo and Jiyuan. Both sources agree on the date."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "新乡抗战·惨案——日军罪恶滔天：新乡直接间接伤亡72万人",
+        "author": "新乡日报 2016-08-26",
+        "note": "地方党史统计，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "xinxiang-fall-1938-02",
+      "jiaozuo-fall-1938-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jiaozuo-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "焦作沦陷",
+      "en": "Fall of Jiaozuo"
+    },
+    "date": "1938-02-19",
+    "location": {
+      "lng": 113.24,
+      "lat": 35.22,
+      "place": {
+        "zh": "河南焦作",
+        "en": "Jiaozuo, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月19日，日军第14师团占领焦作。",
+      "en": "On 19 February 1938 the Japanese 14th Division occupied Jiaozuo."
+    },
+    "description": {
+      "zh": "1938年2月18日日军陷修武，19日占领焦作。焦作煤矿与道清铁路由此落入日军之手，成为其掠夺煤炭、运输军用物资的基地。此后八路军第129师第386旅、第115师第344旅及道清游击支队在焦作地区六破道清铁路。日期据《1938年河南历史大事记》与《焦作日报》抗战专题。",
+      "en": "The Japanese took Xiuwu on 18 February 1938 and Jiaozuo on the 19th. The Jiaozuo coal mines and the Daoqing railway thus fell into Japanese hands, becoming a base for coal extraction and military transport. The 129th and 115th Divisions and the Daoqing guerrilla detachment subsequently sabotaged the railway six times."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "阻断运输线 困兽进退难——焦作抗战印迹之道清铁路大破袭篇",
+        "author": "焦作日报 2025-08",
+        "note": "地方报刊，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "huojia-fall-1938-02",
+      "jiyuan-fall-1938-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jiyuan-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "济源沦陷",
+      "en": "Fall of Jiyuan"
+    },
+    "date": "1938-02-25",
+    "location": {
+      "lng": 112.6,
+      "lat": 35.09,
+      "place": {
+        "zh": "河南济源",
+        "en": "Jiyuan, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月25日，日军第14师团酒井支队攻陷济源。",
+      "en": "On 25 February 1938 the Sakai detachment of the Japanese 14th Division captured Jiyuan."
+    },
+    "description": {
+      "zh": "1938年2月22日日军突破沁河防线，攻占沁阳、孟县；23日攻击济源，25日济源城陷。万福麟部退往山西晋城、阳城，宋哲元第一集团军总部退入济源王屋山。济源陷落后，豫北几乎全部被日军占领。济源党史记2月21日日军进逼、县长弃城，2月25日城陷，与《1938年河南历史大事记》一致。",
+      "en": "On 22 February 1938 the Japanese broke the Qin River line and took Qinyang and Mengxian; they attacked Jiyuan on the 23rd and took the city on the 25th. Wan Fulin withdrew toward Jincheng and Yangcheng in Shanxi, while Song Zheyuan’s First Group Army headquarters retreated into the Wangwu Mountains. With Jiyuan’s fall almost all of northern Henan was occupied."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "气壮太行的济源敌后抗战",
+        "author": "济源党史",
+        "note": "地方党史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "jiaozuo-fall-1938-02",
+      "japanese-zhongtiao-1938-07"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yongcheng-fall-1938-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "永城沦陷",
+      "en": "Fall of Yongcheng"
+    },
+    "date": "1938-05-12",
+    "location": {
+      "lng": 116.45,
+      "lat": 33.93,
+      "place": {
+        "zh": "河南永城",
+        "en": "Yongcheng, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年5月12日，日军华中派遣军第13师团占领永城。",
+      "en": "On 12 May 1938 the Japanese 13th Division of the Central China Expeditionary Army occupied Yongcheng."
+    },
+    "description": {
+      "zh": "徐州会战期间，日军华中派遣军第9、第13师团沿涡河、北淝河北进，5月9日占蒙城，12日占永城，13日占夏邑。永城、夏邑失守后，第13师团继续北上，经韩道口突袭黄口，切断陇海路，从西面包围徐州。永城城陷日期，《1938年河南历史大事记》记5月12日，《河南的抗战历程》记5月13日，正文并列。",
+      "en": "During the Xuzhou campaign the Japanese 9th and 13th Divisions advanced north along the Guo and Bei Fei rivers, taking Mengcheng on 9 May, Yongcheng on the 12th and Xiayi on the 13th. The 13th Division then drove north via Handao to Huangkou, cut the Longhai railway and closed on Xuzhou from the west. The 1938 Henan chronology gives 12 May; the Henan campaign history gives 13 May."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "shangqiu-fall-1938-05",
+      "lanfeng-1938-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "shangqiu-fall-1938-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "商丘沦陷",
+      "en": "Fall of Shangqiu"
+    },
+    "date": "1938-05-29",
+    "location": {
+      "lng": 115.65,
+      "lat": 34.42,
+      "place": {
+        "zh": "河南商丘",
+        "en": "Shangqiu, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年5月29日，日军第16师团占领商丘（归德）。",
+      "en": "On 29 May 1938 the Japanese 16th Division occupied Shangqiu (Guide)."
+    },
+    "description": {
+      "zh": "1938年5月25日日军第16师团自砀山进逼虞城、商丘，26日虞城失守。第一战区司令长官程潜令黄杰等部死守商丘，黄杰临阵脱逃，29日凌晨商丘“不战自退”，日军占领商丘。商丘失守使兰封附近中国军队侧背受敌，战局逆转。城陷日期，《1938年河南历史大事记》记5月29日，《河南的抗战历程》记5月28日，正文并列。",
+      "en": "On 25 May 1938 the Japanese 16th Division advanced from Dangshan toward Yucheng and Shangqiu; Yucheng fell on the 26th. Cheng Qian ordered Huang Jie to hold Shangqiu to the death, but Huang fled, and the city was abandoned without a fight in the early hours of the 29th. The loss exposed the Chinese forces around Lanfeng and reversed the campaign. The 1938 Henan chronology gives 29 May; the Henan campaign history gives 28 May."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "yongcheng-fall-1938-05",
+      "lanfeng-1938-05",
+      "kaifeng-1938"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "qixian-county-fall-1938-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "杞县沦陷",
+      "en": "Fall of Qi County (Qixian)"
+    },
+    "date": "1938-06-03",
+    "location": {
+      "lng": 114.78,
+      "lat": 34.55,
+      "place": {
+        "zh": "河南杞县",
+        "en": "Qi County (Qixian), Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年6月3日，日军第16师团攻占杞县。",
+      "en": "On 3 June 1938 the Japanese 16th Division captured Qi County (Qixian)."
+    },
+    "description": {
+      "zh": "1938年5月底至6月初，日军第16师团一部连陷民权、宁陵、睢县、杞县，企图由杞县直指开封、郑州。6月3日，杞县、通许、陈留为日军第16师团攻占。日期据《1938年河南历史大事记》；《河南的抗战历程》记6月1日起先后占领杞县、通许、尉氏、太康，未逐日。",
+      "en": "From late May to early June 1938 elements of the Japanese 16th Division took Minquan, Ningling, Suixian and Qixian, aiming from Qixian at Kaifeng and Zhengzhou. On 3 June the 16th Division captured Qixian, Tongxu and Chenliu. The 1938 Henan chronology gives the day; the Henan campaign history says only that Qixian, Tongxu, Weishi and Taikang were taken from 1 June."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "tongxu-fall-1938-06",
+      "weishi-fall-1938-06",
+      "kaifeng-1938"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tongxu-fall-1938-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "通许沦陷",
+      "en": "Fall of Tongxu"
+    },
+    "date": "1938-06-03",
+    "location": {
+      "lng": 114.47,
+      "lat": 34.48,
+      "place": {
+        "zh": "河南通许",
+        "en": "Tongxu, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年6月3日，日军第16师团攻占通许。",
+      "en": "On 3 June 1938 the Japanese 16th Division captured Tongxu."
+    },
+    "description": {
+      "zh": "1938年6月3日，日军第16师团在攻占杞县、陈留的同时攻占通许，打开了由豫东直指开封、郑州的通道。日期据《1938年河南历史大事记》；《河南的抗战历程》记6月1日起先后占领杞县、通许等地。",
+      "en": "On 3 June 1938 the Japanese 16th Division captured Tongxu together with Qixian and Chenliu, opening the route from eastern Henan toward Kaifeng and Zhengzhou. The 1938 Henan chronology gives the day; the Henan campaign history says only that these places were taken from 1 June."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "qixian-county-fall-1938-06",
+      "weishi-fall-1938-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "weishi-fall-1938-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "尉氏沦陷",
+      "en": "Fall of Weishi"
+    },
+    "date": "1938-06-04",
+    "location": {
+      "lng": 114.19,
+      "lat": 34.41,
+      "place": {
+        "zh": "河南尉氏",
+        "en": "Weishi, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年6月4日，日军第16师团一部攻占尉氏。",
+      "en": "On 4 June 1938 a detachment of the Japanese 16th Division captured Weishi."
+    },
+    "description": {
+      "zh": "1938年6月4日，日军第16师团一部攻占尉氏、扶沟，锋镝西指，企图迂回郑州。尉氏失守与同日花园口决堤前的豫东溃败相衔接。日期据《1938年河南历史大事记》；《河南的抗战历程》记6月1日起先后占领尉氏等地。",
+      "en": "On 4 June 1938 a detachment of the Japanese 16th Division captured Weishi and Fugou and turned west in an attempt to outflank Zhengzhou. The loss of Weishi formed part of the collapse in eastern Henan immediately before the Huayuankou levee breach. The 1938 Henan chronology gives the day; the Henan campaign history gives only early June."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "tongxu-fall-1938-06",
+      "zhongmou-fall-1938-06",
+      "huayuankou-breach-1938-06"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhongmou-fall-1938-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "中牟沦陷",
+      "en": "Fall of Zhongmou"
+    },
+    "date": "1938-06-09",
+    "location": {
+      "lng": 113.98,
+      "lat": 34.72,
+      "place": {
+        "zh": "河南中牟",
+        "en": "Zhongmou, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年6月9日，日军第14师团攻占中牟，进逼郑州。",
+      "en": "On 9 June 1938 the Japanese 14th Division captured Zhongmou and closed on Zhengzhou."
+    },
+    "description": {
+      "zh": "开封沦陷后，日军第14师团于6月9日攻占中牟，进逼郑州；同日国民政府扒开花园口黄河大堤，以水代兵阻止日军西进。中牟失守是花园口决堤的直接背景之一。日期据《1938年河南历史大事记》与《河南的抗战历程》。",
+      "en": "After Kaifeng fell, the Japanese 14th Division captured Zhongmou on 9 June 1938 and closed on Zhengzhou. On the same day the Chinese government breached the Yellow River levee at Huayuankou to stop the Japanese advance. The fall of Zhongmou was one of the immediate circumstances behind the breach. Both cited accounts give 9 June."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "weishi-fall-1938-06",
+      "kaifeng-1938",
+      "huayuankou-breach-1938-06"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "gushi-fall-1938-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "固始沦陷",
+      "en": "Fall of Gushi"
+    },
+    "date": "1938-09-06",
+    "location": {
+      "lng": 115.66,
+      "lat": 32.17,
+      "place": {
+        "zh": "河南固始",
+        "en": "Gushi, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年9月6日，日军第10师团濑谷支队占领固始。",
+      "en": "On 6 September 1938 the Segu detachment of the Japanese 10th Division occupied Gushi."
+    },
+    "description": {
+      "zh": "武汉会战期间，日军第10师团濑谷支队自安徽叶家集北犯，9月6日晨与第59军激战，当夜占领固始。固始失守后，日军主力沿固潢公路西犯潢川。固始城陷日期，《1938年河南历史大事记》与潢川新闻网均记9月6日；《河南的抗战历程》把固始列入10月12日一并攻克，与逐日记载不符，正文并列。",
+      "en": "During the Wuhan campaign the Segu detachment of the Japanese 10th Division advanced north from Yejiaji in Anhui, fought the 59th Corps on the morning of 6 September 1938 and occupied Gushi that night. The main force then drove west along the Gushi–Huangchuan road. The 1938 Henan chronology and the Huangchuan county history both give 6 September; the Henan campaign history groups Gushi with the 12 October captures, which conflicts with the daily record."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "红色潢川｜抗战中的潢川",
+        "author": "潢川新闻网",
+        "note": "地方党史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "huangchuan-fall-1938-09",
+      "shangcheng-1938"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "huangchuan-fall-1938-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "潢川沦陷",
+      "en": "Fall of Huangchuan"
+    },
+    "date": "1938-09-18",
+    "location": {
+      "lng": 115.05,
+      "lat": 32.13,
+      "place": {
+        "zh": "河南潢川",
+        "en": "Huangchuan, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年9月18日，日军第10师团攻陷潢川。",
+      "en": "On 18 September 1938 the Japanese 10th Division captured Huangchuan."
+    },
+    "description": {
+      "zh": "1938年9月6日固始失守后，日军第10师团于7日西犯潢川。第五战区第27军团军团长兼第59军军长张自忠亲临阵地，指挥第38师阻击日军，巷战肉搏、迭行逆袭，日军伤亡惨重，但第59军伤亡亦重，18日潢川陷落。日期据《1938年河南历史大事记》与潢川新闻网（记9月7日西犯）。",
+      "en": "After Gushi fell on 6 September 1938 the Japanese 10th Division attacked Huangchuan on the 7th. Zhang Zizhong, commander of the 27th Army and the 59th Corps, directed the 38th Division in street fighting and counterattacks, inflicting heavy losses, but the 59th Corps was also badly mauled and Huangchuan fell on the 18th. The 1938 Henan chronology gives the fall; the Huangchuan county history gives the start of the attack on 7 September."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "红色潢川｜抗战中的潢川",
+        "author": "潢川新闻网",
+        "note": "地方党史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "gushi-fall-1938-09",
+      "guangshan-fall-1938-09",
+      "kmt-2nd-group-army-wuhan-1938-06"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "guangshan-fall-1938-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "光山沦陷",
+      "en": "Fall of Guangshan"
+    },
+    "date": "1938-09-20",
+    "location": {
+      "lng": 114.9,
+      "lat": 32.01,
+      "place": {
+        "zh": "河南光山",
+        "en": "Guangshan, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年9月20日，日军第10师团占领光山。",
+      "en": "On 20 September 1938 the Japanese 10th Division occupied Guangshan."
+    },
+    "description": {
+      "zh": "1938年9月18日潢川失守后，日军第10师团继续西犯，20日光山失守。光山位于潢川与罗山之间，失守后日军打开了沿信潢公路西进信阳的通道。日期据《1938年河南历史大事记》；《河南的抗战历程》把光山列入10月12日一并攻克，正文并列。",
+      "en": "After Huangchuan fell on 18 September 1938 the Japanese 10th Division pushed west and took Guangshan on the 20th. Lying between Huangchuan and Luoshan, Guangshan opened the way along the Xinyang–Huangchuan road toward Xinyang. The 1938 Henan chronology gives 20 September; the Henan campaign history groups Guangshan with the 12 October captures."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "huangchuan-fall-1938-09",
+      "luoshan-fall-1938-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "luoshan-fall-1938-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "罗山沦陷",
+      "en": "Fall of Luoshan"
+    },
+    "date": "1938-09-22",
+    "location": {
+      "lng": 114.53,
+      "lat": 32.2,
+      "place": {
+        "zh": "河南罗山",
+        "en": "Luoshan, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年9月22日，日军第10师团占领罗山。",
+      "en": "On 22 September 1938 the Japanese 10th Division occupied Luoshan."
+    },
+    "description": {
+      "zh": "1938年9月22日，日军第10师团由潢川西犯罗山，经竹竿铺一战占领罗山。罗山是信阳以东最后一座县城，失守后日军直逼信阳。日期据《1938年河南历史大事记》；《河南的抗战历程》把罗山列入10月12日一并攻克，正文并列。",
+      "en": "On 22 September 1938 the Japanese 10th Division advanced west from Huangchuan and took Luoshan after the fight at Zhuganpu. Luoshan was the last county town east of Xinyang; its fall brought the Japanese to the gates of Xinyang. The 1938 Henan chronology gives 22 September; the Henan campaign history groups Luoshan with the 12 October captures."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "guangshan-fall-1938-09",
+      "xinyang-fall-1938-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xinyang-fall-1938-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "信阳沦陷",
+      "en": "Fall of Xinyang"
+    },
+    "date": "1938-10-12",
+    "location": {
+      "lng": 114.09,
+      "lat": 32.15,
+      "place": {
+        "zh": "河南信阳",
+        "en": "Xinyang, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年10月12日，日军第3、第10师团攻占信阳。",
+      "en": "On 12 October 1938 the Japanese 3rd and 10th Divisions captured Xinyang."
+    },
+    "description": {
+      "zh": "1938年10月2日，日军第3、第10师团合攻信阳；11日胡宗南、孙连仲两部在柳林镇附近夹击日军第10师团，歼敌2000余人；12日胡宗南部因伤亡甚重放弃信阳。信阳失守后，日军完全控制豫南，与豫东、皖西连成一片，形成合围武汉之势。日期据《1938年河南历史大事记》与《河南的抗战历程》。",
+      "en": "On 2 October 1938 the Japanese 3rd and 10th Divisions attacked Xinyang. On the 11th Hu Zongnan and Sun Lianzhong’s forces ambushed the 10th Division near Liulin, killing more than 2,000, but on the 12th Hu’s badly mauled troops abandoned Xinyang. Its fall gave the Japanese full control of southern Henan and linked them with eastern Henan and western Anhui in the encirclement of Wuhan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1938年河南历史大事记",
+        "author": "中国历史网—追学网，抗日战争纪念网 2017-11-30 转载",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "luoshan-fall-1938-09",
+      "japanese-yunan-1941-01",
+      "shangcheng-1938"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "queshan-fall-1941-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "确山沦陷",
+      "en": "Fall of Queshan"
+    },
+    "date": "1941-01-26",
+    "location": {
+      "lng": 114.03,
+      "lat": 32.8,
+      "place": {
+        "zh": "河南确山",
+        "en": "Queshan, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1941年1月26日，日军第11军攻占确山。",
+      "en": "On 26 January 1941 the Japanese 11th Army captured Queshan."
+    },
+    "description": {
+      "zh": "1941年1月，日军第11军为打通平汉铁路南段、解除中国军队对信阳日军的威胁，发动豫南会战。日军快速出击，26日攻占确山、邢店、高邑、泌阳一线，27日推进至驻马店、汝南、沙河店、龙王庙一线。日期据维基百科《豫南会战》与央视《抗战史上的今天》。",
+      "en": "In January 1941 the Japanese 11th Army launched the Southern Henan campaign to open the southern Beiping–Hankou railway and remove the threat to its Xinyang garrison. Attacking rapidly, it took the Queshan–Xingdian–Gaoyi–Biyang line on the 26th and reached the Zhumadian–Runan–Shahedian–Longwangmiao line on the 27th."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "豫南会战",
+        "author": "维基百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      },
+      {
+        "title": "抗战史上的今天：1941年1月24日豫南会战开始",
+        "author": "央视新闻/新浪 2015-01-24",
+        "note": "官方媒体，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "zhumadian-fall-1941-01",
+      "biyang-fall-1941-01",
+      "japanese-yunan-1941-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhumadian-fall-1941-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "驻马店沦陷",
+      "en": "Fall of Zhumadian"
+    },
+    "date": "1941-01-27",
+    "location": {
+      "lng": 114.02,
+      "lat": 33.01,
+      "place": {
+        "zh": "河南驻马店",
+        "en": "Zhumadian, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1941年1月27日，日军第11军推进至驻马店。",
+      "en": "On 27 January 1941 the Japanese 11th Army advanced into Zhumadian."
+    },
+    "description": {
+      "zh": "1941年1月27日，日军第11军各路分别进至泌阳、高邑、确山、邢店、沙河店、驻马店和汝南等地。驻马店时为确山县辖镇，是平汉铁路南段重镇。日期据维基百科《豫南会战》与央视《抗战史上的今天》。",
+      "en": "On 27 January 1941 the Japanese 11th Army’s columns reached Biyang, Gaoyi, Queshan, Xingdian, Shahedian, Zhumadian and Runan. Zhumadian was then a town under Queshan county and a key point on the southern Beiping–Hankou railway."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "豫南会战",
+        "author": "维基百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      },
+      {
+        "title": "抗战史上的今天：1941年1月24日豫南会战开始",
+        "author": "央视新闻/新浪 2015-01-24",
+        "note": "官方媒体，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "queshan-fall-1941-01",
+      "biyang-fall-1941-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "biyang-fall-1941-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "泌阳沦陷",
+      "en": "Fall of Biyang"
+    },
+    "date": "1941-01-26",
+    "location": {
+      "lng": 113.32,
+      "lat": 32.72,
+      "place": {
+        "zh": "河南泌阳",
+        "en": "Biyang, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1941年1月26日，日军第11军攻占泌阳。",
+      "en": "On 26 January 1941 the Japanese 11th Army captured Biyang."
+    },
+    "description": {
+      "zh": "1941年1月26日，豫南会战中路日军攻陷确山，右翼攻陷正阳，左翼攻陷泌阳。中国第31集团军以第85军由临泉驰援，在泌阳、舞阳间侧击日军。日期据维基百科《豫南会战》与央视《抗战史上的今天》。",
+      "en": "On 26 January 1941 the Japanese centre took Queshan, the right wing Zhengyang and the left wing Biyang. The Chinese 31st Group Army rushed the 85th Corps from Linquan and struck the Japanese flank between Biyang and Wuyang."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "豫南会战",
+        "author": "维基百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      },
+      {
+        "title": "抗战史上的今天：1941年1月24日豫南会战开始",
+        "author": "央视新闻/新浪 2015-01-24",
+        "note": "官方媒体，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "queshan-fall-1941-01",
+      "wuyang-1941",
+      "japanese-yunan-1941-01"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhongmou-fall-1944-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "中牟沦陷（1944）",
+      "en": "Fall of Zhongmou (1944)"
+    },
+    "date": "1944-04-18",
+    "location": {
+      "lng": 113.98,
+      "lat": 34.72,
+      "place": {
+        "zh": "河南中牟",
+        "en": "Zhongmou, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年4月18日，日军第37师团在中牟强渡新黄河，豫中会战爆发。",
+      "en": "On 18 April 1944 the Japanese 37th Division forced the New Yellow River at Zhongmou, opening the Central Henan campaign."
+    },
+    "description": {
+      "zh": "1944年4月17日夜至18日凌晨，日军第37师团配属独立混成第7旅团在中牟县强渡新黄河，突破暂编第15军阵地，中牟随即失守，豫中会战爆发。日军随后在郑州、新郑、尉氏、洧川等地与第28集团军激战。日期据《豫中会战经过》与《河南的抗战历程》。",
+      "en": "On the night of 17–18 April 1944 the Japanese 37th Division with the 7th Independent Mixed Brigade crossed the New Yellow River at Zhongmou, broke the Provisional 15th Corps and took the town, opening the Central Henan campaign. The Japanese then fought the 28th Group Army at Zhengzhou, Xinzheng, Weishi and Weichuan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "豫中会战经过",
+        "author": "抗日战争纪念网 2017-04-07",
+        "note": "战役逐日，访问 2026-11-21"
+      },
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "japanese-yuzhong-1944-04",
+      "xinzheng-fall-1944-04",
+      "zhengzhou-fall-1944-04"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "xinzheng-fall-1944-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "新郑沦陷",
+      "en": "Fall of Xinzheng"
+    },
+    "date": "1944-04-23",
+    "location": {
+      "lng": 113.74,
+      "lat": 34.4,
+      "place": {
+        "zh": "河南新郑",
+        "en": "Xinzheng, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年4月23日，日军占领新郑。",
+      "en": "On 23 April 1944 the Japanese occupied Xinzheng."
+    },
+    "description": {
+      "zh": "1944年4月23日，日军占领郑州、新郑、广武、尉氏、洧川、鄢陵、密县等县，随后沿平汉铁路南犯，24日占领长葛。《豫中会战经过》则记4月21日新郑、尉氏被日军攻陷，正文并列。日期取《河南的抗战历程》与《重读抗战·河南》。",
+      "en": "On 23 April 1944 the Japanese occupied Zhengzhou, Xinzheng, Guangwu, Weishi, Weichuan, Yanling and Mi counties, then advanced south along the Beiping–Hankou railway and took Changge on the 24th. The campaign narrative gives 21 April for Xinzheng and Weishi; that variant is noted in the text."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      },
+      {
+        "title": "豫中会战经过",
+        "author": "抗日战争纪念网 2017-04-07",
+        "note": "战役逐日，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "zhongmou-fall-1944-04",
+      "changge-fall-1944-04",
+      "zhengzhou-fall-1944-04"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "changge-fall-1944-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "长葛沦陷",
+      "en": "Fall of Changge"
+    },
+    "date": "1944-04-24",
+    "location": {
+      "lng": 113.77,
+      "lat": 34.22,
+      "place": {
+        "zh": "河南长葛",
+        "en": "Changge, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年4月24日，日军占领长葛。",
+      "en": "On 24 April 1944 the Japanese occupied Changge."
+    },
+    "description": {
+      "zh": "1944年4月23日日军占领郑州、新郑等地后沿平汉铁路南犯，24日占领长葛。长葛失守后，日军直逼许昌。日期据《河南的抗战历程》与漯河日报《重温郾城受降历史》，两源一致。",
+      "en": "After taking Zhengzhou and Xinzheng on 23 April 1944 the Japanese advanced south along the Beiping–Hankou railway and occupied Changge on the 24th, closing on Xuchang. Both cited accounts give 24 April."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      },
+      {
+        "title": "重温郾城受降历史",
+        "author": "漯河日报 2019-08-16",
+        "note": "地方报刊，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "xinzheng-fall-1944-04",
+      "xuchang-fall-1944-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "linying-fall-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "临颍沦陷",
+      "en": "Fall of Linying"
+    },
+    "date": "1944-05-02",
+    "location": {
+      "lng": 113.94,
+      "lat": 33.81,
+      "place": {
+        "zh": "河南临颍",
+        "en": "Linying, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年5月2日，日军攻陷临颍。",
+      "en": "On 2 May 1944 the Japanese captured Linying."
+    },
+    "description": {
+      "zh": "1944年5月1日许昌陷落后，日军一部沿平汉铁路南下。5月2日日军攻陷临颍县城，随后进攻郾城、漯河。日期据漯河日报《重温郾城受降历史》与《漯河保卫战》。",
+      "en": "After Xuchang fell on 1 May 1944 part of the Japanese force drove south along the Beiping–Hankou railway. Linying fell on the 2nd, after which the Japanese attacked Yancheng and Luohe. Both cited accounts give 2 May."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "重温郾城受降历史",
+        "author": "漯河日报 2019-08-16",
+        "note": "地方报刊，访问 2026-11-21"
+      },
+      {
+        "title": "漯河保卫战",
+        "author": "百度百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "xuchang-fall-1944-05",
+      "luohe-fall-1944-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "luohe-fall-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "漯河沦陷",
+      "en": "Fall of Luohe"
+    },
+    "date": "1944-05-05",
+    "location": {
+      "lng": 114.03,
+      "lat": 33.58,
+      "place": {
+        "zh": "河南漯河",
+        "en": "Luohe, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年5月5日，日军攻陷郾城、漯河。",
+      "en": "On 5 May 1944 the Japanese captured Yancheng and Luohe."
+    },
+    "description": {
+      "zh": "1944年5月5日，日军攻破五里庙，沙河北岸中国军队阵地崩溃，南撤部队遭日军南北夹击。下午1时日军侵占郾城、突入漯河，守军顾锡九部突围，漯河陷落。漯河时为郾城县辖镇，是平汉铁路南段重镇。日期据《漯河保卫战》与漯河日报。",
+      "en": "On 5 May 1944 the Japanese broke the Wulimiao position and the Chinese line north of the Sha River collapsed, with the withdrawing troops caught in a double envelopment. At 1 p.m. the Japanese took Yancheng and entered Luohe; Gu Xijiu’s force broke out and the town fell. Luohe was then a town under Yancheng county and a key point on the southern Beiping–Hankou railway."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "漯河保卫战",
+        "author": "百度百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      },
+      {
+        "title": "重温郾城受降历史",
+        "author": "漯河日报 2019-08-16",
+        "note": "地方报刊，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "linying-fall-1944-05",
+      "xiping-fall-1944-05",
+      "luohe-surrender-1945-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xiping-fall-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "西平沦陷",
+      "en": "Fall of Xiping"
+    },
+    "date": "1944-05-08",
+    "location": {
+      "lng": 114.02,
+      "lat": 33.38,
+      "place": {
+        "zh": "河南西平",
+        "en": "Xiping, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年5月8日，南北两路日军夹击攻占西平，打通平汉线南段。",
+      "en": "On 8 May 1944 Japanese columns from north and south converged on Xiping, opening the southern Beiping–Hankou railway."
+    },
+    "description": {
+      "zh": "1944年5月8日，沿平汉铁路南下的日军与自信阳北上的日军第11军宫下旅团南北夹击，攻占西平，打通河南境内平汉线。西平失守后，日军集中主力进攻洛阳。日期据《豫中会战经过》《洛阳保卫战》与《民国百年》。",
+      "en": "On 8 May 1944 the Japanese force advancing south along the Beiping–Hankou railway and the Miyashita brigade of the 11th Army moving north from Xinyang converged on Xiping, opening the line through Henan. The Japanese then concentrated on Luoyang."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "豫中会战经过",
+        "author": "抗日战争纪念网 2017-04-07",
+        "note": "战役逐日，访问 2026-11-21"
+      },
+      {
+        "title": "洛阳保卫战",
+        "author": "百度百科",
+        "note": "仅作交叉核对，访问 2026-11-21"
+      },
+      {
+        "title": "民国百年（六）：对日作战的艰苦八年（18）——1944年的大失败",
+        "author": "战史整理",
+        "note": "战史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "luohe-fall-1944-05",
+      "luoyang-fall-1944-05"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "yuxian-fall-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "禹县沦陷",
+      "en": "Fall of Yu County"
+    },
+    "date": "1944-05-03",
+    "location": {
+      "lng": 113.47,
+      "lat": 34.16,
+      "place": {
+        "zh": "河南禹县",
+        "en": "Yu County (Yuzhou), Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年5月3日，日军第62师团攻占禹县。",
+      "en": "On 3 May 1944 the Japanese 62nd Division captured Yu County (Yuzhou)."
+    },
+    "description": {
+      "zh": "1944年5月3日，日军第62师团向禹县发动攻击，击溃守军第29军，禹县、郏县同日沦入敌手。禹县失守后，部分守军退入禹西山区，日军自5月4日起在文殊、方山、神垕、大雄山等地围剿。日期据《中华民族抗日编年（1944年5月）》与《抗日战争中的平顶山》。",
+      "en": "On 3 May 1944 the Japanese 62nd Division attacked Yu County, routed the 29th Corps and took both Yu County and Jiaxian the same day. Part of the Chinese force withdrew into the western hills, where the Japanese hunted them from 4 May around Wenshu, Fangshan, Shenhou and Daxiongshan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中华民族抗日编年（1944年5月）",
+        "author": "抗日战争纪念网",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "抗日战争中的平顶山",
+        "author": "平顶山新闻网 2016-07-01",
+        "note": "地方史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "jiaxian-fall-1944-05",
+      "linru-fall-1944-05",
+      "xuchang-fall-1944-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jiaxian-fall-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "郏县沦陷",
+      "en": "Fall of Jiaxian"
+    },
+    "date": "1944-05-03",
+    "location": {
+      "lng": 113.21,
+      "lat": 33.97,
+      "place": {
+        "zh": "河南郏县",
+        "en": "Jiaxian, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年5月3日，日军第62师团攻占郏县。",
+      "en": "On 3 May 1944 the Japanese 62nd Division captured Jiaxian."
+    },
+    "description": {
+      "zh": "1944年5月3日，日军第62师团在攻占禹县的同时攻占郏县。5月1日至4日，许昌、临颍、郏县、禹县、临汝相继失守。日期据《中华民族抗日编年（1944年5月）》与《豫中会战经过》。",
+      "en": "On 3 May 1944 the Japanese 62nd Division took Jiaxian together with Yu County. Between 1 and 4 May Xuchang, Linying, Jiaxian, Yu County and Linru fell in succession. Both cited accounts support the date."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中华民族抗日编年（1944年5月）",
+        "author": "抗日战争纪念网",
+        "note": "逐日编年，访问 2026-11-21"
+      },
+      {
+        "title": "豫中会战经过",
+        "author": "抗日战争纪念网 2017-04-07",
+        "note": "战役逐日，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "yuxian-fall-1944-05",
+      "linru-fall-1944-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "linru-fall-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "临汝沦陷",
+      "en": "Fall of Linru"
+    },
+    "date": "1944-05-04",
+    "location": {
+      "lng": 112.84,
+      "lat": 34.17,
+      "place": {
+        "zh": "河南临汝",
+        "en": "Linru (Ruzhou), Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年5月4日，日军攻占临汝。",
+      "en": "On 4 May 1944 the Japanese captured Linru."
+    },
+    "description": {
+      "zh": "1944年5月1日至4日，许昌、临颍、郏县、禹县、临汝相继失守。日军战车第3师团向西迂回，席卷襄城、郏县、临汝，一部快速逼近洛阳外围龙门。日期据《豫中会战经过》与《河南的抗战历程》。",
+      "en": "Between 1 and 4 May 1944 Xuchang, Linying, Jiaxian, Yu County and Linru fell in succession. The Japanese 3rd Tank Division swept west through Xiangcheng, Jiaxian and Linru, with part of it driving quickly toward the Longmen approaches to Luoyang."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "豫中会战经过",
+        "author": "抗日战争纪念网 2017-04-07",
+        "note": "战役逐日，访问 2026-11-21"
+      },
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "jiaxian-fall-1944-05",
+      "dengfeng-fall-1944-05",
+      "lushan-fall-1944-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dengfeng-fall-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "登封沦陷",
+      "en": "Fall of Dengfeng"
+    },
+    "date": "1944-05-06",
+    "location": {
+      "lng": 113.05,
+      "lat": 34.46,
+      "place": {
+        "zh": "河南登封",
+        "en": "Dengfeng, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年5月6日，日军攻占登封。",
+      "en": "On 6 May 1944 the Japanese captured Dengfeng."
+    },
+    "description": {
+      "zh": "至1944年5月6日，日军先后攻占许昌、登封、禹县、郏县、襄城、临汝、宝丰、鲁山等地，一部直抵洛阳龙门附近。登封失守后，日军从东南方向逼近洛阳。日期据《豫中会战经过》与《河南的抗战历程》。",
+      "en": "By 6 May 1944 the Japanese had taken Xuchang, Dengfeng, Yu County, Jiaxian, Xiangcheng, Linru, Baofeng and Lushan, with part of their force reaching the vicinity of Longmen. The fall of Dengfeng brought the Japanese toward Luoyang from the southeast."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "豫中会战经过",
+        "author": "抗日战争纪念网 2017-04-07",
+        "note": "战役逐日，访问 2026-11-21"
+      },
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "linru-fall-1944-05",
+      "gongxian-fall-1944-05",
+      "luoyang-fall-1944-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lushan-fall-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "鲁山沦陷",
+      "en": "Fall of Lushan"
+    },
+    "date": "1944-05-07",
+    "location": {
+      "lng": 112.91,
+      "lat": 33.74,
+      "place": {
+        "zh": "河南鲁山",
+        "en": "Lushan, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年5月7日，日军占领鲁山。",
+      "en": "On 7 May 1944 the Japanese occupied Lushan."
+    },
+    "description": {
+      "zh": "1944年5月7日，日军占领鲁山，随后占领第一战区储备基地下汤。鲁山时为河南省政府驻地之一，失守后省政府迁至内乡丹水镇。日期据《抗日战争中的平顶山》与《豫中会战经过》；后者记5月6日，正文并列。",
+      "en": "On 7 May 1944 the Japanese occupied Lushan and then the First War Zone supply base at Xiatang. Lushan was then one of the seats of the Henan provincial government, which moved to Danshui in Neixiang after its fall. The Pingdingshan history gives 7 May; the campaign narrative gives 6 May."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗日战争中的平顶山",
+        "author": "平顶山新闻网 2016-07-01",
+        "note": "地方史，访问 2026-11-21"
+      },
+      {
+        "title": "豫中会战经过",
+        "author": "抗日战争纪念网 2017-04-07",
+        "note": "战役逐日，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "linru-fall-1944-05",
+      "dengfeng-fall-1944-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "gongxian-fall-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "巩县沦陷",
+      "en": "Fall of Gong County"
+    },
+    "date": "1944-05-09",
+    "location": {
+      "lng": 112.98,
+      "lat": 34.75,
+      "place": {
+        "zh": "河南巩县",
+        "en": "Gong County (Gongyi), Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年5月9日，日军“菊兵团”攻占巩县。",
+      "en": "On 9 May 1944 the Japanese Kiku detachment captured Gong County (Gongyi)."
+    },
+    "description": {
+      "zh": "1944年5月9日，自郑州沿陇海铁路西犯的日军“菊兵团”攻占巩县，11日占领偃师，迫近洛阳城东。巩县失守后，日军完成对洛阳东西两面的合围。日期据《河南的抗战历程》与《豫中会战经过》。",
+      "en": "On 9 May 1944 the Japanese Kiku detachment, advancing west from Zhengzhou along the Longhai railway, took Gong County and on the 11th Yanshi, closing on Luoyang from the east. The fall of Gong County completed the Japanese encirclement of Luoyang from east and west."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      },
+      {
+        "title": "豫中会战经过",
+        "author": "抗日战争纪念网 2017-04-07",
+        "note": "战役逐日，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "dengfeng-fall-1944-05",
+      "mianchi-fall-1944-05",
+      "luoyang-fall-1944-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "mianchi-fall-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "渑池沦陷",
+      "en": "Fall of Mianchi"
+    },
+    "date": "1944-05-12",
+    "location": {
+      "lng": 111.76,
+      "lat": 34.77,
+      "place": {
+        "zh": "河南渑池",
+        "en": "Mianchi, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年5月12日，日军第69师团攻陷渑池。",
+      "en": "On 12 May 1944 the Japanese 69th Division captured Mianchi."
+    },
+    "description": {
+      "zh": "1944年5月9日，驻晋南垣曲的日军第69师团主力强渡黄河，向渑池进攻；12日攻陷渑池、新安，直逼洛阳城西。渑池附近第36集团军西移卢氏附近，洛阳守军陷于孤军苦战。日期据《河南的抗战历程》与《豫中会战经过》；后者记9日渡河、13日各路会合。",
+      "en": "On 9 May 1944 the main force of the Japanese 69th Division crossed the Yellow River from Yuanqu in southern Shanxi and attacked Mianchi, taking Mianchi and Xin’an on the 12th and closing on Luoyang from the west. The Chinese 36th Group Army near Mianchi withdrew toward Lushi, leaving Luoyang isolated. The campaign narrative gives 9 May for the crossing and 13 May for the junction of columns."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      },
+      {
+        "title": "豫中会战经过",
+        "author": "抗日战争纪念网 2017-04-07",
+        "note": "战役逐日，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "xinan-fall-1944-05",
+      "luoyang-fall-1944-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xinan-fall-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "新安沦陷",
+      "en": "Fall of Xin’an"
+    },
+    "date": "1944-05-12",
+    "location": {
+      "lng": 112.13,
+      "lat": 34.72,
+      "place": {
+        "zh": "河南新安",
+        "en": "Xin’an, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年5月12日，日军第69师团攻陷新安。",
+      "en": "On 12 May 1944 the Japanese 69th Division captured Xin’an."
+    },
+    "description": {
+      "zh": "1944年5月12日，日军第69师团在攻陷渑池的同时攻陷新安，进抵洛阳以西。新安失守后，陇海铁路洛阳至潼关段被日军控制，第一战区主力向西转移。日期据《河南的抗战历程》与《豫中会战经过》。",
+      "en": "On 12 May 1944 the Japanese 69th Division took Xin’an together with Mianchi and reached the approaches west of Luoyang. With Xin’an lost the Japanese controlled the Longhai railway from Luoyang toward Tongguan, and the First War Zone’s main force shifted west."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      },
+      {
+        "title": "豫中会战经过",
+        "author": "抗日战争纪念网 2017-04-07",
+        "note": "战役逐日，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "mianchi-fall-1944-05",
+      "luoyang-fall-1944-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "nanyang-fall-1945-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "南阳沦陷",
+      "en": "Fall of Nanyang"
+    },
+    "date": "1945-04-01",
+    "location": {
+      "lng": 112.53,
+      "lat": 33,
+      "place": {
+        "zh": "河南南阳",
+        "en": "Nanyang, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1945年4月1日，日军攻占南阳。",
+      "en": "On 1 April 1945 the Japanese captured Nanyang."
+    },
+    "description": {
+      "zh": "1945年3月22日，日军发动豫西鄂北战役，开始进袭南阳。4月1日南阳失守。日军第110师团、战车第3师团等部随后西进，攻击西峡口、淅川。日期据《河南的抗战历程》《豫西鄂北会战》与《抗战最伟大的省——河南》。",
+      "en": "On 22 March 1945 the Japanese launched the Western Henan–Northern Hubei campaign and attacked Nanyang, which fell on 1 April. The Japanese 110th Division and 3rd Tank Division then drove west against Xixiakou and Xichuan. The cited accounts agree on 1 April."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      },
+      {
+        "title": "豫西鄂北会战",
+        "author": "抗日战争纪念网",
+        "note": "战役史，访问 2026-11-21"
+      },
+      {
+        "title": "抗战最伟大的省——河南",
+        "author": "抗日战争纪念网",
+        "note": "通史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "japanese-nanyang-1945-03",
+      "xixia-fall-1945-03",
+      "xichuan-fall-1945-04"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "xixia-fall-1945-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "西峡口沦陷",
+      "en": "Fall of Xixiakou"
+    },
+    "date": "1945-03-30",
+    "location": {
+      "lng": 111.47,
+      "lat": 33.3,
+      "place": {
+        "zh": "河南西峡",
+        "en": "Xixia, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1945年3月30日，日军攻占西峡口。",
+      "en": "On 30 March 1945 the Japanese captured Xixiakou."
+    },
+    "description": {
+      "zh": "1945年3月30日拂晓，日军第110师团、战车第3师团等部向西峡口进犯，西峡口当日沦陷。中国守军退守重阳店，至4月7日击退日军进攻，歼敌四千余人。日期据《豫西鄂北会战》与光明网《西峡口之战》。",
+      "en": "At dawn on 30 March 1945 the Japanese 110th Division and 3rd Tank Division attacked Xixiakou, which fell the same day. The Chinese defenders withdrew to Chongyangdian and by 7 April had beaten off the Japanese attack, killing more than 4,000. Both cited accounts give 30 March."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "豫西鄂北会战",
+        "author": "抗日战争纪念网",
+        "note": "战役史，访问 2026-11-21"
+      },
+      {
+        "title": "西峡口之战，日寇的妄想彻底破灭了",
+        "author": "光明网 2026-01-26",
+        "note": "官方媒体，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "nanyang-fall-1945-04",
+      "xichuan-fall-1945-04"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xichuan-fall-1945-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "淅川沦陷",
+      "en": "Fall of Xichuan"
+    },
+    "date": "1945-04-01",
+    "location": {
+      "lng": 111.49,
+      "lat": 33.14,
+      "place": {
+        "zh": "河南淅川",
+        "en": "Xichuan, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1945年4月1日，日军攻占淅川（老城）。",
+      "en": "On 1 April 1945 the Japanese captured Xichuan (Laocheng)."
+    },
+    "description": {
+      "zh": "1945年3月30日西峡口失守后，日军第110师团继续西进，4月1日陷淅川（今老城镇），即向重阳店方向攻击。另有记载称淅川在1945年2月沦陷，为河南最后沦陷的县城，日期待考，正文并列。日期取《豫西鄂北会战》。",
+      "en": "After Xixiakou fell on 30 March 1945 the Japanese 110th Division drove west and took Xichuan (modern Laocheng) on 1 April, then attacked toward Chongyangdian. Another account places the fall in February 1945 and calls Xichuan the last Henan county to fall; that variant remains unresolved and is noted here. The date follows the Western Henan–Northern Hubei campaign history."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "豫西鄂北会战",
+        "author": "抗日战争纪念网",
+        "note": "战役史，访问 2026-11-21"
+      },
+      {
+        "title": "河南的抗战历程",
+        "author": "铁血网，抗日战争纪念网 2017-10-17 转载",
+        "note": "通史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "xixia-fall-1945-03",
+      "nanyang-fall-1945-04"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhengzhou-surrender-1945-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "郑州受降",
+      "en": "Japanese Surrender at Zhengzhou"
+    },
+    "date": "1945-09-22",
+    "location": {
+      "lng": 113.65,
+      "lat": 34.76,
+      "place": {
+        "zh": "河南郑州",
+        "en": "Zhengzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1945年9月22日，第一战区在郑州接受日军第12军投降。",
+      "en": "On 22 September 1945 the Chinese First War Zone accepted the surrender of the Japanese 12th Army at Zhengzhou."
+    },
+    "description": {
+      "zh": "1945年9月22日，第一战区在郑州前进指挥所举行受降仪式，由战区参谋长李昆岗主持，日军第12军司令官鹰森孝向胡宗南部投降，在郑州投降日军43334人。郑州受降区原定洛阳，后因日军第12军军部驻郑州而改在郑州。受降事件不绘制进攻路线。日期据《日军郑州投降纪实》与《重读抗战·河南》。",
+      "en": "On 22 September 1945 the First War Zone held a surrender ceremony at its Zhengzhou advance headquarters, presided over by Chief of Staff Li Kungang; Lt. Gen. Takamori of the Japanese 12th Army surrendered to Hu Zongnan’s forces, with 43,334 Japanese troops laying down arms at Zhengzhou. The surrender site had originally been Luoyang but was moved to Zhengzhou because the 12th Army headquarters was there. No advance route is drawn for a surrender event."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "日军郑州投降纪实",
+        "author": "抗日战争纪念网 2017-08-04",
+        "note": "受降档案整理，访问 2026-11-21"
+      },
+      {
+        "title": "重读抗战·抗战最伟大的省：河南",
+        "author": "凤凰网 2016-05-13",
+        "note": "通史，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "zhengzhou-fall-1944-04",
+      "luohe-surrender-1945-09"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "luohe-surrender-1945-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "漯河受降",
+      "en": "Japanese Surrender at Luohe"
+    },
+    "date": "1945-09-20",
+    "location": {
+      "lng": 114.03,
+      "lat": 33.58,
+      "place": {
+        "zh": "河南漯河",
+        "en": "Luohe, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1945年9月20日，第五战区在郾城（漯河）接受日军投降。",
+      "en": "On 20 September 1945 the Chinese Fifth War Zone accepted the Japanese surrender at Yancheng (Luohe)."
+    },
+    "description": {
+      "zh": "1945年9月20日，第五战区在郾城（漯河）山西会馆举行受降仪式，司令长官刘峙主持，日军第12军司令官鹰森孝在投降书上签字，在郾城投降日军31560人。漯河为全国16个受降区之一。受降事件不绘制进攻路线。日期据《日军郑州投降纪实》与《受降亭》。",
+      "en": "On 20 September 1945 the Fifth War Zone held a surrender ceremony at the Shanxi Guild Hall in Yancheng (Luohe), presided over by commander Liu Zhi; Lt. Gen. Takamori of the Japanese 12th Army signed the instrument of surrender, and 31,560 Japanese troops surrendered at Yancheng. Luohe was one of the sixteen surrender zones in China. No advance route is drawn for a surrender event."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "日军郑州投降纪实",
+        "author": "抗日战争纪念网 2017-08-04",
+        "note": "受降档案整理，访问 2026-11-21"
+      },
+      {
+        "title": "受降亭",
+        "author": "维基百科；漯河中州抗战纪念馆",
+        "note": "纪念馆资料，访问 2026-11-21"
+      }
+    ],
+    "relatedIds": [
+      "luohe-fall-1944-05",
+      "zhengzhou-surrender-1945-09"
     ],
     "importance": 3,
     "extensions": {

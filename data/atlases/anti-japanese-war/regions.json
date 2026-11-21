@@ -10926,7 +10926,7 @@
         "zh": "江苏常熟白茆口"
       },
       "point": [
-        121.0,
+        121,
         31.7
       ],
       "extensions": {
@@ -11326,7 +11326,7 @@
       },
       "point": [
         120.83,
-        32.0
+        32
       ],
       "extensions": {
         "frame": "ROC-1937",
@@ -14690,7 +14690,7 @@
         "zh": "山西运城"
       },
       "point": [
-        111.0,
+        111,
         35.03
       ],
       "extensions": {
@@ -14719,6 +14719,972 @@
       "point": [
         111.67,
         35.3
+      ]
+    },
+    {
+      "id": "county-henan-u5357u4e50u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "南乐县"
+      },
+      "shortName": {
+        "zh": "南乐"
+      },
+      "aliases": [
+        "南乐"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.2,
+        36.07
+      ]
+    },
+    {
+      "id": "county-henan-u6e05u4e30u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "清丰县"
+      },
+      "shortName": {
+        "zh": "清丰"
+      },
+      "aliases": [
+        "清丰"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.1,
+        35.89
+      ]
+    },
+    {
+      "id": "county-henan-u6feeu9633u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "濮阳县"
+      },
+      "shortName": {
+        "zh": "濮阳"
+      },
+      "aliases": [
+        "濮阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.03,
+        35.76
+      ]
+    },
+    {
+      "id": "county-henan-u6c64u9634u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "汤阴县"
+      },
+      "shortName": {
+        "zh": "汤阴"
+      },
+      "aliases": [
+        "汤阴"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.36,
+        35.92
+      ]
+    },
+    {
+      "id": "county-henan-u6dc7u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "淇县"
+      },
+      "shortName": {
+        "zh": "淇"
+      },
+      "aliases": [
+        "淇"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.2,
+        35.61
+      ]
+    },
+    {
+      "id": "county-henan-u957fu57a3u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "长垣县"
+      },
+      "shortName": {
+        "zh": "长垣"
+      },
+      "aliases": [
+        "长垣"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.68,
+        35.2
+      ]
+    },
+    {
+      "id": "county-henan-u5c01u4e18u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "封丘县"
+      },
+      "shortName": {
+        "zh": "封丘"
+      },
+      "aliases": [
+        "封丘"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.42,
+        35.04
+      ]
+    },
+    {
+      "id": "county-henan-u6c72u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "汲县"
+      },
+      "shortName": {
+        "zh": "汲"
+      },
+      "aliases": [
+        "汲"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.06,
+        35.4
+      ]
+    },
+    {
+      "id": "county-henan-u65b0u4e61u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "新乡县"
+      },
+      "shortName": {
+        "zh": "新乡"
+      },
+      "aliases": [
+        "新乡"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.93,
+        35.3
+      ]
+    },
+    {
+      "id": "county-henan-u83b7u5609u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "获嘉县"
+      },
+      "shortName": {
+        "zh": "获嘉"
+      },
+      "aliases": [
+        "获嘉"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.66,
+        35.26
+      ]
+    },
+    {
+      "id": "county-henan-u4feeu6b66u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "修武县"
+      },
+      "shortName": {
+        "zh": "修武"
+      },
+      "aliases": [
+        "修武"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.24,
+        35.22
+      ]
+    },
+    {
+      "id": "place-henan-u7126u4f5c",
+      "level": "place",
+      "parentId": "county-henan-u4feeu6b66u53bf",
+      "name": {
+        "zh": "焦作"
+      },
+      "shortName": {
+        "zh": "焦作"
+      },
+      "aliases": [
+        "河南焦作",
+        "河南焦作"
+      ],
+      "modernName": {
+        "zh": "河南焦作"
+      },
+      "point": [
+        113.24,
+        35.22
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河南焦作",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-henan-u6d4eu6e90u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "济源县"
+      },
+      "shortName": {
+        "zh": "济源"
+      },
+      "aliases": [
+        "济源"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.6,
+        35.09
+      ]
+    },
+    {
+      "id": "county-henan-u6c38u57ceu53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "永城县"
+      },
+      "shortName": {
+        "zh": "永城"
+      },
+      "aliases": [
+        "永城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.45,
+        33.93
+      ]
+    },
+    {
+      "id": "county-henan-u5546u4e18u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "商丘县"
+      },
+      "shortName": {
+        "zh": "商丘"
+      },
+      "aliases": [
+        "商丘"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.65,
+        34.42
+      ]
+    },
+    {
+      "id": "county-henan-u675eu53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "杞县"
+      },
+      "shortName": {
+        "zh": "杞"
+      },
+      "aliases": [
+        "杞"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.78,
+        34.55
+      ]
+    },
+    {
+      "id": "county-henan-u901au8bb8u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "通许县"
+      },
+      "shortName": {
+        "zh": "通许"
+      },
+      "aliases": [
+        "通许"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.47,
+        34.48
+      ]
+    },
+    {
+      "id": "county-henan-u5c09u6c0fu53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "尉氏县"
+      },
+      "shortName": {
+        "zh": "尉氏"
+      },
+      "aliases": [
+        "尉氏"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.19,
+        34.41
+      ]
+    },
+    {
+      "id": "county-henan-u4e2du725fu53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "中牟县"
+      },
+      "shortName": {
+        "zh": "中牟"
+      },
+      "aliases": [
+        "中牟"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.98,
+        34.72
+      ]
+    },
+    {
+      "id": "county-henan-u56fau59cbu53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "固始县"
+      },
+      "shortName": {
+        "zh": "固始"
+      },
+      "aliases": [
+        "固始"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.66,
+        32.17
+      ]
+    },
+    {
+      "id": "county-henan-u6f62u5dddu53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "潢川县"
+      },
+      "shortName": {
+        "zh": "潢川"
+      },
+      "aliases": [
+        "潢川"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.05,
+        32.13
+      ]
+    },
+    {
+      "id": "county-henan-u5149u5c71u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "光山县"
+      },
+      "shortName": {
+        "zh": "光山"
+      },
+      "aliases": [
+        "光山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.9,
+        32.01
+      ]
+    },
+    {
+      "id": "county-henan-u7f57u5c71u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "罗山县"
+      },
+      "shortName": {
+        "zh": "罗山"
+      },
+      "aliases": [
+        "罗山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.53,
+        32.2
+      ]
+    },
+    {
+      "id": "county-henan-u786eu5c71u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "确山县"
+      },
+      "shortName": {
+        "zh": "确山"
+      },
+      "aliases": [
+        "确山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.025,
+        32.905
+      ]
+    },
+    {
+      "id": "place-henan-u9a7bu9a6cu5e97",
+      "level": "place",
+      "parentId": "county-henan-u786eu5c71u53bf",
+      "name": {
+        "zh": "驻马店"
+      },
+      "shortName": {
+        "zh": "驻马店"
+      },
+      "aliases": [
+        "河南驻马店",
+        "河南驻马店"
+      ],
+      "modernName": {
+        "zh": "河南驻马店"
+      },
+      "point": [
+        114.02,
+        33.01
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河南驻马店",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-henan-u6cccu9633u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "泌阳县"
+      },
+      "shortName": {
+        "zh": "泌阳"
+      },
+      "aliases": [
+        "泌阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.32,
+        32.72
+      ]
+    },
+    {
+      "id": "county-henan-u65b0u90d1u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "新郑县"
+      },
+      "shortName": {
+        "zh": "新郑"
+      },
+      "aliases": [
+        "新郑"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.74,
+        34.4
+      ]
+    },
+    {
+      "id": "county-henan-u957fu845bu53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "长葛县"
+      },
+      "shortName": {
+        "zh": "长葛"
+      },
+      "aliases": [
+        "长葛"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.77,
+        34.22
+      ]
+    },
+    {
+      "id": "county-henan-u4e34u988du53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "临颍县"
+      },
+      "shortName": {
+        "zh": "临颍"
+      },
+      "aliases": [
+        "临颍"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.94,
+        33.81
+      ]
+    },
+    {
+      "id": "county-henan-u90feu57ceu53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "郾城县"
+      },
+      "shortName": {
+        "zh": "郾城"
+      },
+      "aliases": [
+        "郾城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.03,
+        33.58
+      ]
+    },
+    {
+      "id": "place-henan-u6f2fu6cb3",
+      "level": "place",
+      "parentId": "county-henan-u90feu57ceu53bf",
+      "name": {
+        "zh": "漯河"
+      },
+      "shortName": {
+        "zh": "漯河"
+      },
+      "aliases": [
+        "河南漯河",
+        "河南漯河"
+      ],
+      "modernName": {
+        "zh": "河南漯河"
+      },
+      "point": [
+        114.03,
+        33.58
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河南漯河",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-henan-u897fu5e73u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "西平县"
+      },
+      "shortName": {
+        "zh": "西平"
+      },
+      "aliases": [
+        "西平"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.02,
+        33.38
+      ]
+    },
+    {
+      "id": "county-henan-u79b9u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "禹县"
+      },
+      "shortName": {
+        "zh": "禹"
+      },
+      "aliases": [
+        "禹"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.47,
+        34.16
+      ]
+    },
+    {
+      "id": "county-henan-u90cfu53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "郏县"
+      },
+      "shortName": {
+        "zh": "郏"
+      },
+      "aliases": [
+        "郏"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.21,
+        33.97
+      ]
+    },
+    {
+      "id": "county-henan-u4e34u6c5du53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "临汝县"
+      },
+      "shortName": {
+        "zh": "临汝"
+      },
+      "aliases": [
+        "临汝"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.84,
+        34.17
+      ]
+    },
+    {
+      "id": "county-henan-u767bu5c01u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "登封县"
+      },
+      "shortName": {
+        "zh": "登封"
+      },
+      "aliases": [
+        "登封"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.05,
+        34.46
+      ]
+    },
+    {
+      "id": "county-henan-u9c81u5c71u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "鲁山县"
+      },
+      "shortName": {
+        "zh": "鲁山"
+      },
+      "aliases": [
+        "鲁山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.91,
+        33.74
+      ]
+    },
+    {
+      "id": "county-henan-u5de9u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "巩县"
+      },
+      "shortName": {
+        "zh": "巩"
+      },
+      "aliases": [
+        "巩"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.98,
+        34.75
+      ]
+    },
+    {
+      "id": "county-henan-u6e11u6c60u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "渑池县"
+      },
+      "shortName": {
+        "zh": "渑池"
+      },
+      "aliases": [
+        "渑池"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.76,
+        34.77
+      ]
+    },
+    {
+      "id": "county-henan-u65b0u5b89u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "新安县"
+      },
+      "shortName": {
+        "zh": "新安"
+      },
+      "aliases": [
+        "新安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.13,
+        34.72
+      ]
+    },
+    {
+      "id": "county-henan-u5185u4e61u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "内乡县"
+      },
+      "shortName": {
+        "zh": "内乡"
+      },
+      "aliases": [
+        "内乡"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.47,
+        33.3
+      ]
+    },
+    {
+      "id": "place-henan-u897fu5ce1",
+      "level": "place",
+      "parentId": "county-henan-u5185u4e61u53bf",
+      "name": {
+        "zh": "西峡"
+      },
+      "shortName": {
+        "zh": "西峡"
+      },
+      "aliases": [
+        "河南西峡",
+        "河南西峡"
+      ],
+      "modernName": {
+        "zh": "河南西峡"
+      },
+      "point": [
+        111.47,
+        33.3
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河南西峡",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-henan-u6dc5u5dddu53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "淅川县"
+      },
+      "shortName": {
+        "zh": "淅川"
+      },
+      "aliases": [
+        "淅川"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.49,
+        33.14
       ]
     }
   ]
