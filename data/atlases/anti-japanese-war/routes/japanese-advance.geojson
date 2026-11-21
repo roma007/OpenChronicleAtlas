@@ -12144,6 +12144,150 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.54,
+            24.98
+          ],
+          [
+            107.54,
+            25.4
+          ],
+          [
+            107.54,
+            25.83
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-11-28",
+        "endDate": "1944-12-02",
+        "order": 309,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南丹—麻尾—独山",
+          "en": "Nandan–Mawei–Dushan"
+        },
+        "description": {
+          "zh": "1944年11月28日日军占南丹，30日进入贵州麻尾，12月2日攻占独山。路线为示意简化。",
+          "en": "The Japanese took Nandan on 28 November 1944, entered Mawei in Guizhou on the 30th and captured Dushan on 2 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.9,
+            25.3
+          ],
+          [
+            107.88,
+            25.41
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-11-25",
+        "endDate": "1944-12-03",
+        "order": 310,
+        "segmentType": "advance",
+        "name": {
+          "zh": "黎明关—荔波",
+          "en": "Liming Pass–Libo"
+        },
+        "description": {
+          "zh": "1944年11月25日日军进攻黎明关，27日突破，12月3日攻入荔波县城。路线为示意简化。",
+          "en": "On 25 November 1944 the Japanese attacked Liming Pass, broke through on the 27th and entered Libo on 3 December. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.87,
+            25.98
+          ],
+          [
+            107.79,
+            26.2
+          ],
+          [
+            107.52,
+            26.26
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-11-30",
+        "endDate": "1944-12-03",
+        "order": 311,
+        "segmentType": "advance",
+        "name": {
+          "zh": "三都—丹寨—都匀",
+          "en": "Sandu–Danzhai–Duyun"
+        },
+        "description": {
+          "zh": "1944年11月30日日军占三都，12月2日占丹寨，3日进抵都匀以东牛场。路线为示意简化。",
+          "en": "The Japanese took Sandu on 30 November 1944, Danzhai on 2 December and reached Niuchang east of Duyun on the 3rd. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.54,
+            25.83
+          ],
+          [
+            107.52,
+            26.26
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-12-04",
+        "endDate": "1944-12-08",
+        "order": 312,
+        "segmentType": "advance",
+        "name": {
+          "zh": "独山—都匀（日军撤退方向）",
+          "en": "Dushan–Duyun (Japanese Withdrawal Direction)"
+        },
+        "description": {
+          "zh": "1944年12月4日日军由独山反转，沿黔桂公路向都匀方向撤退，8日全部退出独山县境。路线为示意简化。",
+          "en": "On 4 December 1944 the Japanese turned back from Dushan and withdrew along the Guizhou–Guangxi highway toward Duyun, leaving Dushan county by the 8th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

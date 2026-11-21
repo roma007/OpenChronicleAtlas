@@ -44042,5 +44042,837 @@
     "extensions": {
       "routeEvent": false
     }
+  },
+  {
+    "id": "chongqing-bombing-1939-05-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "重庆“五三”大轰炸",
+      "en": "Chongqing Bombing of 3 May 1939"
+    },
+    "date": "1939-05-03",
+    "location": {
+      "lng": 106.55,
+      "lat": 29.56,
+      "place": {
+        "zh": "重庆",
+        "en": "Chongqing"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1939年5月3日，日机36架轰炸重庆市区，投弹166枚。",
+      "en": "On 3 May 1939 thirty-six Japanese aircraft bombed central Chongqing, dropping 166 bombs."
+    },
+    "description": {
+      "zh": "1939年5月3日，日本海军航空队36架飞机分两批空袭重庆市区，在民权路、飞来寺、国府路、学田湾、两路口等地投下爆炸弹83枚、燃烧弹36枚，以中央公园为中心19条街道被焚。据《民国二十八年度四川各地空袭损害统计表》，当日炸死673人、伤350人，损毁房屋1086幢。日期据重庆市档案馆空袭统计表与《重庆大轰炸》。",
+      "en": "On 3 May 1939 thirty-six Japanese naval aircraft attacked central Chongqing in two waves, dropping 83 high-explosive and 36 incendiary bombs around Minquan Road, Feilai Temple, Guofu Road, Xuetianwan and Lianglukou; nineteen streets around Central Park burned. The 1939 Sichuan air-raid statistics record 673 dead, 350 wounded and 1,086 buildings damaged."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1939年5月3日、4日敌机空袭重庆市区情况统计表",
+        "author": "重庆市档案馆 2026-03-23",
+        "note": "档案，访问 2026-11-22"
+      },
+      {
+        "title": "重庆大轰炸",
+        "author": "百度百科",
+        "note": "仅作交叉核对，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "chongqing-bombing-1938-02",
+      "chongqing-bombing-1939-05-04"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "chongqing-bombing-1939-05-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "重庆“五四”大轰炸",
+      "en": "Chongqing Bombing of 4 May 1939"
+    },
+    "date": "1939-05-04",
+    "location": {
+      "lng": 106.55,
+      "lat": 29.56,
+      "place": {
+        "zh": "重庆",
+        "en": "Chongqing"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1939年5月4日，日机27架再炸重庆，死伤5000余人。",
+      "en": "On 4 May 1939 twenty-seven Japanese aircraft bombed Chongqing again, killing or wounding more than 5,000."
+    },
+    "description": {
+      "zh": "1939年5月4日，日机27架再次轰炸重庆，大量投掷燃烧弹，都邮街、小梁子、夫子池、七星岗一带陷入火海。两日合计，市区房屋被毁2000余幢，市民死亡2648人、伤3668人；5月4日死伤5000余人，是大轰炸中伤亡最多的一次。日期据重庆市档案馆空袭统计表与《重庆大轰炸》。",
+      "en": "On 4 May 1939 twenty-seven Japanese aircraft bombed Chongqing again with heavy use of incendiaries, setting Duyou Street, Xiaoliangzi, Fuzichi and Qixinggang ablaze. Over the two days more than 2,000 buildings were destroyed, 2,648 civilians killed and 3,668 wounded; the 4 May raid alone caused over 5,000 casualties, the deadliest of the bombing campaign."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1939年5月3日、4日敌机空袭重庆市区情况统计表",
+        "author": "重庆市档案馆 2026-03-23",
+        "note": "档案，访问 2026-11-22"
+      },
+      {
+        "title": "重庆大轰炸",
+        "author": "百度百科",
+        "note": "仅作交叉核对，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "chongqing-bombing-1939-05-03"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "chongqing-bombing-1940-08-19",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "重庆“八一九”大轰炸",
+      "en": "Chongqing Bombing of 19 August 1940"
+    },
+    "date": "1940-08-19",
+    "location": {
+      "lng": 106.55,
+      "lat": 29.56,
+      "place": {
+        "zh": "重庆",
+        "en": "Chongqing"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1940年8月19日，日机178架次轰炸重庆，投弹500余枚。",
+      "en": "On 19 August 1940 178 Japanese aircraft attacked Chongqing, dropping more than 500 bombs."
+    },
+    "description": {
+      "zh": "1940年8月19日，日军陆海军出动178架次飞机分5次空袭重庆，投弹500余枚，大田湾、两路口、储奇门、较场口等30余处中弹起火，商业区被焚毁殆尽。据重庆防空司令部统计，当日炸死181人、伤132人，毁房786栋1438间。日期据新华网《不应忘却的“重庆大轰炸”》与人民网《影像见证日本对重庆最猛烈轰炸场景》。",
+      "en": "On 19 August 1940 the Japanese army and navy flew 178 sorties in five waves against Chongqing, dropping over 500 bombs. More than thirty places including Datianwan, Lianglukou, Chuqimen and Jiaochangkou were hit and set ablaze, and the commercial district was largely destroyed. The air-defence headquarters recorded 181 dead, 132 wounded and 786 buildings (1,438 rooms) destroyed."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "不应忘却的“重庆大轰炸”",
+        "author": "新华网/解放军报 2017-11-15",
+        "note": "官方媒体，访问 2026-11-22"
+      },
+      {
+        "title": "影像见证日本对重庆最猛烈轰炸场景",
+        "author": "人民网/重庆日报 2015-06-05",
+        "note": "官方媒体，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "chongqing-bombing-1940-08-20",
+      "chongqing-tunnel-1941-06"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "chongqing-bombing-1940-08-20",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "重庆“八二〇”大轰炸",
+      "en": "Chongqing Bombing of 20 August 1940"
+    },
+    "date": "1940-08-20",
+    "location": {
+      "lng": 106.55,
+      "lat": 29.56,
+      "place": {
+        "zh": "重庆",
+        "en": "Chongqing"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1940年8月20日，日机126架次再炸重庆，市区38处起火。",
+      "en": "On 20 August 1940 126 Japanese aircraft bombed Chongqing again, starting fires in 38 places."
+    },
+    "description": {
+      "zh": "1940年8月20日下午，日机126架次分4批轰炸重庆市区及江北、巴县，望龙门、临江门、大梁子、都邮街、小梁子、千厮门等38处起火，繁华街道被烧成焦土。19、20两日日军共出动289架飞机，投弹943枚，炸死烧死342人、重伤332人。日期据新华网与人民网。",
+      "en": "On the afternoon of 20 August 1940 126 Japanese aircraft in four waves bombed Chongqing, Jiangbei and Ba County; fires broke out in thirty-eight places including Wanglongmen, Linjiangmen, Daliangzi, Duyou Street, Xiaoliangzi and Qiansimen. Over the two days the Japanese flew 289 aircraft and dropped 943 bombs, killing 342 and seriously wounding 332."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "不应忘却的“重庆大轰炸”",
+        "author": "新华网/解放军报 2017-11-15",
+        "note": "官方媒体，访问 2026-11-22"
+      },
+      {
+        "title": "影像见证日本对重庆最猛烈轰炸场景",
+        "author": "人民网/重庆日报 2015-06-05",
+        "note": "官方媒体，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "chongqing-bombing-1940-08-19",
+      "chongqing-tunnel-1941-06"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "chongqing-tunnel-1941-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "重庆“六五”大隧道惨案",
+      "en": "Chongqing Tunnel Tragedy of 5 June 1941"
+    },
+    "date": "1941-06-05",
+    "location": {
+      "lng": 106.55,
+      "lat": 29.56,
+      "place": {
+        "zh": "重庆",
+        "en": "Chongqing"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1941年6月5日，日机夜袭重庆，较场口大隧道内大批避难民众窒息、踩踏而死。",
+      "en": "On 5 June 1941 Japanese night raiders triggered mass suffocation and trampling in the Jiaochangkou tunnel, killing hundreds of civilians."
+    },
+    "description": {
+      "zh": "1941年6月5日18时18分，日机24架分3批夜袭重庆，空袭警报持续5小时9分钟。大量市民涌入较场口大隧道，洞内缺氧，人群向洞口拥挤，发生窒息、踩踏。官方审查委员会1941年7月3日公布死亡992人、重伤151人；各方统计从数百到上万人不等。日期据新华网与维基百科《重庆隧道惨案》。",
+      "en": "At 18:18 on 5 June 1941 twenty-four Japanese aircraft attacked Chongqing in three night waves, with the alarm lasting five hours and nine minutes. Crowds packed the Jiaochangkou tunnel; oxygen ran short and people were crushed and suffocated at the entrances. The official review committee announced 992 dead and 151 seriously wounded on 3 July 1941, though estimates range from several hundred to over ten thousand."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "首批重庆“六·五”大隧道窒息惨案遇难者名单公布",
+        "author": "新华网 2015-06-05",
+        "note": "官方媒体，访问 2026-11-22"
+      },
+      {
+        "title": "重庆隧道惨案",
+        "author": "维基百科",
+        "note": "仅作交叉核对，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "chongqing-bombing-1940-08-20"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "chengdu-bombing-1940-07-24",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "成都“七二四”大轰炸",
+      "en": "Chengdu Bombing of 24 July 1940"
+    },
+    "date": "1940-07-24",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1940年7月24日，日机36架空袭成都，投弹135枚。",
+      "en": "On 24 July 1940 thirty-six Japanese aircraft raided Chengdu, dropping 135 bombs."
+    },
+    "description": {
+      "zh": "1940年7月24日午后，日机36架空袭成都，投弹135枚，轰炸城东一带，炸死103人、炸伤114人，房屋被毁3425间。中国空军在空战中击落日机1架。日期据《成都空战》与《成都大轰炸》。",
+      "en": "On the afternoon of 24 July 1940 thirty-six Japanese aircraft raided Chengdu, dropping 135 bombs on the eastern part of the city, killing 103, wounding 114 and destroying 3,425 rooms. Chinese fighters shot down one Japanese aircraft."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "成都空战",
+        "author": "抗日战争纪念网 2018-05-26",
+        "note": "战史，访问 2026-11-22"
+      },
+      {
+        "title": "成都大轰炸",
+        "author": "百度百科",
+        "note": "仅作交叉核对，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "chengdu-bombing-1939-06",
+      "chengdu-bombing-1941-07-27"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "chengdu-bombing-1941-07-27",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "成都“七二七”大轰炸",
+      "en": "Chengdu Bombing of 27 July 1941"
+    },
+    "date": "1941-07-27",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1941年7月27日，日机108架连续轰炸成都，为成都大轰炸最惨重的一次。",
+      "en": "On 27 July 1941 108 Japanese aircraft bombed Chengdu in successive waves, the worst raid on the city."
+    },
+    "description": {
+      "zh": "1941年7月27日上午8时30分，日机108架分4批、每批27架，从运城、汉口机场起飞，连续轰炸成都少城公园、盐市口、春熙路、大慈寺一带，中弹街道82条，投弹358枚，炸死575人、伤632人，毁房3585间。日期据四川省地方志办与《成都空战》。",
+      "en": "From 8:30 a.m. on 27 July 1941, 108 Japanese aircraft in four waves of twenty-seven took off from Yuncheng and Hankou and bombed Chengdu’s Shaocheng Park, Yanshikou, Chunxi Road and Dacisi area. Eighty-two streets were hit, 358 bombs dropped, 575 killed, 632 wounded and 3,585 rooms destroyed."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "书吾所亲历 成诗贡史册——钟树梁先生亲历的成都大轰炸",
+        "author": "四川省地方志办 2020-10-17",
+        "note": "地方志，访问 2026-11-22"
+      },
+      {
+        "title": "成都空战",
+        "author": "抗日战争纪念网 2018-05-26",
+        "note": "战史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "chengdu-bombing-1939-06",
+      "chengdu-bombing-1940-07-24"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "wanxian-bombing-1939-02-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "万县“二四”大轰炸",
+      "en": "Wanxian Bombing of 4 February 1939"
+    },
+    "date": "1939-02-04",
+    "location": {
+      "lng": 108.41,
+      "lat": 30.81,
+      "place": {
+        "zh": "四川万县",
+        "en": "Wanxian, Sichuan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1939年2月4日，日机18架轰炸万县市区，投弹100余枚。",
+      "en": "On 4 February 1939 eighteen Japanese aircraft bombed Wanxian, dropping over 100 bombs."
+    },
+    "description": {
+      "zh": "1939年2月4日，日机18架轰炸万县市区，投弹100余枚，死亡300余人（另说伤亡近千人）。万县为川东门户和长江航运要地，此后至1944年共遭日机58批次轰炸。日期据《抗战大后方侵华日军无差别轰炸重大惨案的时空分布考察》与《抗战时期万县人口伤亡和财产损失巨大》。",
+      "en": "On 4 February 1939 eighteen Japanese aircraft bombed Wanxian, dropping more than 100 bombs and killing over 300 (some accounts give nearly 1,000 casualties). Wanxian was the gateway to eastern Sichuan and a key Yangtze shipping point; by 1944 it suffered fifty-eight raids."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗战大后方侵华日军无差别轰炸重大惨案的时空分布考察",
+        "author": "西南大学学报 2019-01",
+        "note": "学术，访问 2026-11-22"
+      },
+      {
+        "title": "抗战时期万县人口伤亡和财产损失巨大",
+        "author": "抗日战争纪念网 2019-01-25",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "chongqing-bombing-1939-05-03"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "leshan-bombing-1939-08-19",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "乐山“八一九”大轰炸",
+      "en": "Leshan Bombing of 19 August 1939"
+    },
+    "date": "1939-08-19",
+    "location": {
+      "lng": 103.76,
+      "lat": 29.58,
+      "place": {
+        "zh": "四川乐山",
+        "en": "Leshan, Sichuan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1939年8月19日，日机36架轰炸乐山，炸死838人。",
+      "en": "On 19 August 1939 thirty-six Japanese aircraft bombed Leshan, killing 838."
+    },
+    "description": {
+      "zh": "1939年8月19日，日机36架轰炸乐山城区，投弹100余枚，炸毁半个城区，炸死838人、炸伤380余人。乐山为川南文化名城，当时被日军误判为国民政府准备西迁的都城。日期据《乐山日报》与《抗战大后方侵华日军无差别轰炸重大惨案的时空分布考察》。",
+      "en": "On 19 August 1939 thirty-six Japanese aircraft bombed Leshan, dropping over 100 bombs, destroying half the old city and killing 838 people, with more than 380 wounded. The Japanese apparently believed Leshan was a candidate capital for a westward Chinese government move."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "两次大轰炸：古城乐山之殇",
+        "author": "乐山日报 2015-08-16",
+        "note": "地方报刊，访问 2026-11-22"
+      },
+      {
+        "title": "抗战大后方侵华日军无差别轰炸重大惨案的时空分布考察",
+        "author": "西南大学学报 2019-01",
+        "note": "学术，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "chengdu-bombing-1939-06"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "zigong-bombing-1940-08-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "自贡“八一二”大轰炸",
+      "en": "Zigong Bombing of 12 August 1940"
+    },
+    "date": "1940-08-12",
+    "location": {
+      "lng": 104.78,
+      "lat": 29.35,
+      "place": {
+        "zh": "四川自贡",
+        "en": "Zigong, Sichuan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1940年8月12日，日机90架轰炸自贡盐场与市区。",
+      "en": "On 12 August 1940 ninety Japanese aircraft bombed Zigong’s salt works and urban area."
+    },
+    "description": {
+      "zh": "1940年8月12日，日机90架轰炸自贡，投弹267枚，炸死139人、伤258人（另载死亡92人、伤157人）。自贡为川盐生产中心，日军“102号作战”专门轰炸自贡盐场，1939年10月至1941年8月共遭7次16批轰炸。日期据《抗战大后方侵华日军无差别轰炸重大惨案的时空分布考察》与《抗战时期自贡盐业的“增产加运”》。",
+      "en": "On 12 August 1940 ninety Japanese aircraft bombed Zigong, dropping 267 bombs, killing 139 and wounding 258 (another account gives 92 dead and 157 wounded). Zigong was the centre of Sichuan salt production, and Japan’s “Operation 102” specifically targeted its salt works; between October 1939 and August 1941 the city suffered seven raids in sixteen waves."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗战大后方侵华日军无差别轰炸重大惨案的时空分布考察",
+        "author": "西南大学学报 2019-01",
+        "note": "学术，访问 2026-11-22"
+      },
+      {
+        "title": "抗战时期自贡盐业的“增产加运”",
+        "author": "《巴蜀史志》2025年第3期",
+        "note": "地方志，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "luxian-bombing-1939-09-11"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "luxian-bombing-1939-09-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "泸县“九一一”大轰炸",
+      "en": "Luxian Bombing of 11 September 1939"
+    },
+    "date": "1939-09-11",
+    "location": {
+      "lng": 105.44,
+      "lat": 28.87,
+      "place": {
+        "zh": "四川泸县",
+        "en": "Luxian (Luzhou), Sichuan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1939年9月11日，日机36架轰炸泸县县城。",
+      "en": "On 11 September 1939 thirty-six Japanese aircraft bombed Luxian county town."
+    },
+    "description": {
+      "zh": "1939年9月11日，日机36架轰炸泸县县城，投弹10枚，死亡1160余人、伤1145人（另载死亡385人、伤445人）。泸县为长江与沱江交汇处的航运要地，是日军轰炸川南的重点。日期据《抗战大后方侵华日军无差别轰炸重大惨案的时空分布考察》。",
+      "en": "On 11 September 1939 thirty-six Japanese aircraft bombed Luxian, dropping ten bombs and killing over 1,160, with 1,145 wounded (another account gives 385 dead and 445 wounded). Luxian, at the junction of the Yangtze and Tuo rivers, was a key shipping point and a focus of Japanese raids on southern Sichuan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗战大后方侵华日军无差别轰炸重大惨案的时空分布考察",
+        "author": "西南大学学报 2019-01",
+        "note": "学术，访问 2026-11-22"
+      },
+      {
+        "title": "抗战时期万县人口伤亡和财产损失巨大",
+        "author": "抗日战争纪念网 2019-01-25",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "zigong-bombing-1940-08-12"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "guiyang-bombing-1939-02-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "贵阳“二四”大轰炸",
+      "en": "Guiyang Bombing of 4 February 1939"
+    },
+    "date": "1939-02-04",
+    "location": {
+      "lng": 106.63,
+      "lat": 26.65,
+      "place": {
+        "zh": "贵州贵阳",
+        "en": "Guiyang, Guizhou"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1939年2月4日，日机18架轰炸贵阳，炸死597人。",
+      "en": "On 4 February 1939 eighteen Japanese aircraft bombed Guiyang, killing 597."
+    },
+    "description": {
+      "zh": "1939年2月4日中午，日机18架从城东侵入贵阳，轮番轰炸以大十字为中心的繁华商业区，投弹129枚，炸死597人、炸伤1526人，毁房1326幢，2万余人无家可归。贵阳为不设防的后方城市，此次“二四”轰炸是其抗战期间最惨重的一次。日期据人民网与贵州省民政厅。",
+      "en": "At noon on 4 February 1939 eighteen Japanese aircraft entered Guiyang from the east and bombed the commercial district around the Great Cross in successive waves. They dropped 129 bombs, killing 597, wounding 1,526, destroying 1,326 buildings and leaving over 20,000 homeless. Guiyang was an undefended rear city; the “2/4” raid was its worst of the war."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗战期间日军轰炸贵阳：浓烟冲霄 火焰腾起十几丈",
+        "author": "人民网/贵阳日报 2015-02-04",
+        "note": "官方媒体，访问 2026-11-22"
+      },
+      {
+        "title": "贵阳“二四”轰炸的悲壮史实",
+        "author": "贵州省民政厅 2025-07-24",
+        "note": "官方媒体，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "dushan-fall-1944-12"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "limingguan-battle-1944-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "黎明关战斗",
+      "en": "Battle of Liming Pass"
+    },
+    "date": "1944-11-25",
+    "location": {
+      "lng": 107.9,
+      "lat": 25.3,
+      "place": {
+        "zh": "贵州荔波黎明关",
+        "en": "Liming Pass, Libo, Guizhou"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1944年11月25日，日军第3师团第34联队进攻黎明关，贵州境内抗日第一枪打响。",
+      "en": "On 25 November 1944 the Japanese 34th Regiment attacked Liming Pass, opening the fighting in Guizhou."
+    },
+    "description": {
+      "zh": "1944年11月25日，日军第3师团第34联队2000余人由广西思恩进攻荔波黎明关，中国第97军第196师第587团团长周国仲率部阻击，激战三天两夜，打响贵州境内抗日第一枪。日军久攻不下，从小路迂回，27日黎明关失守。日期据贵州政协《抗战时期荔波的贡献与牺牲》与《黔山抗战烽火》。",
+      "en": "On 25 November 1944 more than 2,000 men of the Japanese 3rd Division’s 34th Regiment attacked Liming Pass from Sien in Guangxi. Colonel Zhou Guozhong’s 587th Regiment of the Chinese 97th Corps’ 196th Division held for three days and nights, opening the fighting in Guizhou. Unable to take the pass frontally, the Japanese turned its flank and occupied it on the 27th."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗战时期荔波的贡献与牺牲",
+        "author": "贵州政协报 2018-03-08",
+        "note": "地方史，访问 2026-11-22"
+      },
+      {
+        "title": "黔山抗战烽火——史料中的“黔南事变”",
+        "author": "贵州政协报 2025-09-17",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "libo-fall-1944-12",
+      "sandu-fall-1944-11"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "libo-fall-1944-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "荔波沦陷",
+      "en": "Fall of Libo"
+    },
+    "date": "1944-12-03",
+    "location": {
+      "lng": 107.88,
+      "lat": 25.41,
+      "place": {
+        "zh": "贵州荔波",
+        "en": "Libo, Guizhou"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1944年12月3日，日军攻入荔波县城。",
+      "en": "On 3 December 1944 the Japanese entered Libo."
+    },
+    "description": {
+      "zh": "1944年12月3日，日军第3师团第34联队攻入荔波县城，4日拂晓撤离。日军在荔波境内屠杀群众近2000人、打伤3000多人。日期据贵州政协《抗战时期荔波的贡献与牺牲》与《日军侵华暴行——贵州篇》。",
+      "en": "On 3 December 1944 the Japanese 3rd Division’s 34th Regiment entered Libo and withdrew at dawn on the 4th. In Libo the Japanese killed nearly 2,000 civilians and wounded more than 3,000."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗战时期荔波的贡献与牺牲",
+        "author": "贵州政协报 2018-03-08",
+        "note": "地方史，访问 2026-11-22"
+      },
+      {
+        "title": "日军侵华暴行——贵州篇",
+        "author": "抗日战争纪念网 2017-10-28",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "limingguan-battle-1944-11",
+      "sandu-fall-1944-11"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sandu-fall-1944-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "三都沦陷",
+      "en": "Fall of Sandu"
+    },
+    "date": "1944-11-30",
+    "location": {
+      "lng": 107.87,
+      "lat": 25.98,
+      "place": {
+        "zh": "贵州三都",
+        "en": "Sandu, Guizhou"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1944年11月30日，日军第3师团第6联队攻占三都县城。",
+      "en": "On 30 November 1944 the Japanese 3rd Division’s 6th Regiment captured Sandu."
+    },
+    "description": {
+      "zh": "1944年11月30日下午，日军第3师团第6联队先头部队攻占三都县城，拆毁民房搭浮桥，焚烧上街和老十字一带。12月1日日军由三都取道丹寨北犯都匀，临走时纵火焚城。日期据《日军侵华暴行——贵州篇》与《日军入侵黔南》。",
+      "en": "On the afternoon of 30 November 1944 the advance guard of the Japanese 3rd Division’s 6th Regiment took Sandu, tearing down houses for a pontoon bridge and burning the upper street and Old Cross area. On 1 December the Japanese left Sandu for Danzhai and Duyun, setting the town on fire as they departed."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "日军侵华暴行——贵州篇",
+        "author": "抗日战争纪念网 2017-10-28",
+        "note": "地方史，访问 2026-11-22"
+      },
+      {
+        "title": "日军入侵黔南",
+        "author": "抗日战争纪念网 2017-09-25",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "limingguan-battle-1944-11",
+      "danzhai-fall-1944-12",
+      "duyun-approach-1944-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "danzhai-fall-1944-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "丹寨沦陷",
+      "en": "Fall of Danzhai"
+    },
+    "date": "1944-12-02",
+    "location": {
+      "lng": 107.79,
+      "lat": 26.2,
+      "place": {
+        "zh": "贵州丹寨",
+        "en": "Danzhai, Guizhou"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1944年12月2日，日军第3师团第6联队攻占丹寨（八寨）县城。",
+      "en": "On 2 December 1944 the Japanese 3rd Division’s 6th Regiment captured Danzhai (Bazhai)."
+    },
+    "description": {
+      "zh": "1944年12月2日，日军第3师团第6联队第三大队步骑兵约千余人经三都攻占丹寨（八寨）县城，3日上午放火焚烧丹寨后继续向都匀方向进犯。日期据《日军侵华暴行——贵州篇》与《黔山抗战烽火》。",
+      "en": "On 2 December 1944 about 1,000 infantry and cavalry of the 3rd Battalion, 6th Regiment, 3rd Division took Danzhai (Bazhai) via Sandu. On the morning of the 3rd they burned the town and pushed on toward Duyun."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "日军侵华暴行——贵州篇",
+        "author": "抗日战争纪念网 2017-10-28",
+        "note": "地方史，访问 2026-11-22"
+      },
+      {
+        "title": "黔山抗战烽火——史料中的“黔南事变”",
+        "author": "贵州政协报 2025-09-17",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "sandu-fall-1944-11",
+      "duyun-approach-1944-12"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "duyun-approach-1944-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军进抵都匀牛场",
+      "en": "Japanese Reach Niuchang near Duyun"
+    },
+    "date": "1944-12-03",
+    "location": {
+      "lng": 107.52,
+      "lat": 26.26,
+      "place": {
+        "zh": "贵州都匀",
+        "en": "Duyun, Guizhou"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1944年12月3日，日军前卫进抵都匀以东7公里的牛场，为黔南事变日军最远点。",
+      "en": "On 3 December 1944 the Japanese advance guard reached Niuchang, 7 km east of Duyun, the deepest point of the Qiannan incident."
+    },
+    "description": {
+      "zh": "1944年12月3日13时，日军第3师团第6联队前卫进至都匀以东13公里的龙坪，13时50分接到就地停止、立即反转的命令，此时其前卫已进至都匀东牛场西面，距都匀县城仅7公里。这是黔南事变日军最远点。日期据《黔山抗战烽火》与《日军入侵黔南》。",
+      "en": "At 1 p.m. on 3 December 1944 the advance guard of the Japanese 3rd Division’s 6th Regiment reached Longping, 13 km east of Duyun. At 1:50 p.m. it received orders to halt and turn back; by then it had reached Niuchang west of the town, only 7 km from Duyun. This was the deepest Japanese penetration of the Qiannan incident."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "黔山抗战烽火——史料中的“黔南事变”",
+        "author": "贵州政协报 2025-09-17",
+        "note": "地方史，访问 2026-11-22"
+      },
+      {
+        "title": "日军入侵黔南",
+        "author": "抗日战争纪念网 2017-09-25",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "danzhai-fall-1944-12",
+      "dushan-fall-1944-12"
+    ],
+    "importance": 2
   }
 ]

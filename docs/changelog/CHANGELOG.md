@@ -3,6 +3,35 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.209] - 2026-11-22
+
+### Added
+- **抗日战争 · 贵州、四川、重庆日军战线（M227）**：川渝黔日军事件由 3 条增至 20 条。
+  - 重庆大轰炸（5）：五三、五四、八一九、八二〇、六五隧道惨案。
+  - 成都与四川其他城市（6）：成都七二四、成都七二七、万县二四、乐山八一九、
+    自贡八一二、泸县九一一。
+  - 贵州（6）：贵阳二四、黎明关战斗、荔波、三都、丹寨、都匀牛场。
+  - 路线（4 段，#309—#312）：南丹—麻尾—独山、黎明关—荔波、三都—丹寨—都匀、
+    独山—都匀（日军撤退方向）。
+  - 专题：875 → **892** 事件、487 → **491** 段路线；日军层：627 → **644** 事件、308 → **312** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-guizhou-sichuan.md`、计划
+  `docs/plans/2026-11-22-M227-贵州四川重庆日军战线细化-plan.md`。
+
+### Changed
+- `scripts/build-region-data.py`：增加四川、贵州 1937 年县名映射（万县、乐山县、自贡市、
+  宜宾县、泸县、荔波县、三都县、丹寨县、都匀县等），黎明关并入荔波县、八寨并入丹寨县。
+- `regions.json` / `region-index.json`：地区由 732 → **741** 个，892 个事件全部有省 + 县/地点归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 重庆 1938-02-18、成都 1939-06-11、独山 1944-12-02 等已有事件不重复；
+  重庆 1940-08-09/08-18、奉节、巫山、涪陵、合江、隆昌、南川、阆中、松潘、宜宾等
+  空袭未逐条硬录，留待后续空袭专题。
+
+---
+
 ## [v1.0.208] - 2026-11-21
 
 ### Added

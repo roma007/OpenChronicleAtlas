@@ -3814,6 +3814,75 @@
       "yunnan",
       "county-yunnan-u9f99u9675u53bf",
       "place-yunnan-u9f99u9675u8c61u8fbe"
+    ],
+    "chongqing-bombing-1939-05-03": [
+      "chongqing",
+      "place-chongqing-u91cdu5e86"
+    ],
+    "chongqing-bombing-1939-05-04": [
+      "chongqing",
+      "place-chongqing-u91cdu5e86"
+    ],
+    "chongqing-bombing-1940-08-19": [
+      "chongqing",
+      "place-chongqing-u91cdu5e86"
+    ],
+    "chongqing-bombing-1940-08-20": [
+      "chongqing",
+      "place-chongqing-u91cdu5e86"
+    ],
+    "chongqing-tunnel-1941-06": [
+      "chongqing",
+      "place-chongqing-u91cdu5e86"
+    ],
+    "chengdu-bombing-1940-07-24": [
+      "sichuan",
+      "county-sichuan-u6210u90fdu53bf"
+    ],
+    "chengdu-bombing-1941-07-27": [
+      "sichuan",
+      "county-sichuan-u6210u90fdu53bf"
+    ],
+    "wanxian-bombing-1939-02-04": [
+      "sichuan",
+      "county-sichuan-u4e07u53bf"
+    ],
+    "leshan-bombing-1939-08-19": [
+      "sichuan",
+      "county-sichuan-u4e50u5c71u53bf"
+    ],
+    "zigong-bombing-1940-08-12": [
+      "sichuan",
+      "county-sichuan-u81eau8d21u5e02"
+    ],
+    "luxian-bombing-1939-09-11": [
+      "sichuan",
+      "county-sichuan-u6cf8u53bf"
+    ],
+    "guiyang-bombing-1939-02-04": [
+      "guizhou",
+      "county-guizhou-u8d35u9633u53bf"
+    ],
+    "limingguan-battle-1944-11": [
+      "guizhou",
+      "county-guizhou-u8354u6ce2u53bf",
+      "place-guizhou-u8354u6ce2u9eceu660eu5173"
+    ],
+    "libo-fall-1944-12": [
+      "guizhou",
+      "county-guizhou-u8354u6ce2u53bf"
+    ],
+    "sandu-fall-1944-11": [
+      "guizhou",
+      "county-guizhou-u4e09u90fdu53bf"
+    ],
+    "danzhai-fall-1944-12": [
+      "guizhou",
+      "county-guizhou-u4e39u5be8u53bf"
+    ],
+    "duyun-approach-1944-12": [
+      "guizhou",
+      "county-guizhou-u90fdu5300u53bf"
     ]
   },
   "routes": {
@@ -4954,6 +5023,7 @@
     },
     "japanese-invasion:80": {
       "regionIds": [
+        "county-guizhou-u8354u6ce2u53bf",
         "guangxi",
         "guizhou"
       ],
@@ -7050,6 +7120,41 @@
       ],
       "endpointRegionIds": [
         "yunnan"
+      ]
+    },
+    "japanese-invasion:309": {
+      "regionIds": [
+        "guangxi",
+        "guizhou"
+      ],
+      "endpointRegionIds": [
+        "guangxi",
+        "guizhou"
+      ]
+    },
+    "japanese-invasion:310": {
+      "regionIds": [
+        "county-guizhou-u8354u6ce2u53bf",
+        "guizhou"
+      ],
+      "endpointRegionIds": [
+        "guizhou"
+      ]
+    },
+    "japanese-invasion:311": {
+      "regionIds": [
+        "guizhou"
+      ],
+      "endpointRegionIds": [
+        "guizhou"
+      ]
+    },
+    "japanese-invasion:312": {
+      "regionIds": [
+        "guizhou"
+      ],
+      "endpointRegionIds": [
+        "guizhou"
       ]
     },
     "kmt-forces:1": {

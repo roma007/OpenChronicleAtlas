@@ -17958,6 +17958,209 @@
         "sourcePlace": "云南龙陵象达",
         "confidence": "medium"
       }
+    },
+    {
+      "id": "county-sichuan-u4e07u53bf",
+      "level": "county",
+      "parentId": "sichuan",
+      "name": {
+        "zh": "万县"
+      },
+      "shortName": {
+        "zh": "万"
+      },
+      "aliases": [
+        "万"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        108.41,
+        30.81
+      ]
+    },
+    {
+      "id": "county-sichuan-u4e50u5c71u53bf",
+      "level": "county",
+      "parentId": "sichuan",
+      "name": {
+        "zh": "乐山县"
+      },
+      "shortName": {
+        "zh": "乐山"
+      },
+      "aliases": [
+        "乐山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        103.76,
+        29.58
+      ]
+    },
+    {
+      "id": "county-sichuan-u81eau8d21u5e02",
+      "level": "county",
+      "parentId": "sichuan",
+      "name": {
+        "zh": "自贡市"
+      },
+      "shortName": {
+        "zh": "自贡"
+      },
+      "aliases": [
+        "自贡"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        104.78,
+        29.35
+      ]
+    },
+    {
+      "id": "county-sichuan-u6cf8u53bf",
+      "level": "county",
+      "parentId": "sichuan",
+      "name": {
+        "zh": "泸县"
+      },
+      "shortName": {
+        "zh": "泸"
+      },
+      "aliases": [
+        "泸"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        105.44,
+        28.87
+      ]
+    },
+    {
+      "id": "county-guizhou-u8354u6ce2u53bf",
+      "level": "county",
+      "parentId": "guizhou",
+      "name": {
+        "zh": "荔波县"
+      },
+      "shortName": {
+        "zh": "荔波"
+      },
+      "aliases": [
+        "荔波"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        107.89,
+        25.355
+      ]
+    },
+    {
+      "id": "place-guizhou-u8354u6ce2u9eceu660eu5173",
+      "level": "place",
+      "parentId": "county-guizhou-u8354u6ce2u53bf",
+      "name": {
+        "zh": "黎明关"
+      },
+      "shortName": {
+        "zh": "黎明关"
+      },
+      "aliases": [
+        "贵州荔波黎明关",
+        "贵州荔波黎明关"
+      ],
+      "modernName": {
+        "zh": "贵州荔波黎明关"
+      },
+      "point": [
+        107.9,
+        25.3
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "贵州荔波黎明关",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-guizhou-u4e09u90fdu53bf",
+      "level": "county",
+      "parentId": "guizhou",
+      "name": {
+        "zh": "三都县"
+      },
+      "shortName": {
+        "zh": "三都"
+      },
+      "aliases": [
+        "三都"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        107.87,
+        25.98
+      ]
+    },
+    {
+      "id": "county-guizhou-u4e39u5be8u53bf",
+      "level": "county",
+      "parentId": "guizhou",
+      "name": {
+        "zh": "丹寨县"
+      },
+      "shortName": {
+        "zh": "丹寨"
+      },
+      "aliases": [
+        "丹寨"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        107.79,
+        26.2
+      ]
+    },
+    {
+      "id": "county-guizhou-u90fdu5300u53bf",
+      "level": "county",
+      "parentId": "guizhou",
+      "name": {
+        "zh": "都匀县"
+      },
+      "shortName": {
+        "zh": "都匀"
+      },
+      "aliases": [
+        "都匀"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        107.52,
+        26.26
+      ]
     }
   ]
 }
