@@ -20943,6 +20943,60 @@
         111.64,
         31.06
       ]
+    },
+    {
+      "id": "place-shanghai-u5357u5e02",
+      "level": "place",
+      "parentId": "shanghai",
+      "name": {
+        "zh": "南市"
+      },
+      "shortName": {
+        "zh": "南市"
+      },
+      "aliases": [
+        "上海南市",
+        "上海南市"
+      ],
+      "modernName": {
+        "zh": "上海南市"
+      },
+      "point": [
+        121.49,
+        31.22
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "上海南市",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-tianjin-u82f1u79dfu754c",
+      "level": "place",
+      "parentId": "tianjin",
+      "name": {
+        "zh": "英租界"
+      },
+      "shortName": {
+        "zh": "英租界"
+      },
+      "aliases": [
+        "天津英租界",
+        "天津英租界"
+      ],
+      "modernName": {
+        "zh": "天津英租界"
+      },
+      "point": [
+        117.2,
+        39.12
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "天津英租界",
+        "confidence": "medium"
+      }
     }
   ]
 }

@@ -3,6 +3,27 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.242] - 2026-11-22
+
+### Added
+- **抗日战争 · 租界与国际民间组织第一批（M260）**：新增 2 个实体、5 个事件（均 `routeEvent: false`）。
+  - 新实体：「租界当局」(`concessions`)、「国际民间组织与援华团体」(`international-civil`)；
+    与「国际组织与多边会议」（国联、九国公约会议等政府间机制）分层，租界不写成援助主体。
+  - 事件：南市难民区成立（1937-11-09，饶家驹，963 天约 30 万难民）、
+    日军封锁天津英法租界（1939-06-14，程锡庚案，1940-06 解除）、
+    日军进驻鼓浪屿公共租界（1941-12-08）、保卫中国同盟成立（1938-06-14，宋庆龄）、
+    中国工业合作协会成立（1938-08-05，艾黎/斯诺）。
+  - 已有「南京安全区与国际救援」补挂 `international-civil`。
+  - 事件 1026 → **1031**，地区 862 → **864**，路线 563 不变。
+- 研究笔记 `docs/research/units/anti-japanese-war-concessions-ngos.md`。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes`（0 问题）、`pnpm check:heads`（0 个无来由端点）、
+  `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 沙面英法租界（1941-12-08 被接管）因第二来源不足暂不硬录；孤岛时期留待下一批按时段事件处理。
+
+---
+
 ## [v1.0.241] - 2026-11-22
 
 ### Changed
