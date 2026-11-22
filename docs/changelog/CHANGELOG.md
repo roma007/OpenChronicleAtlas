@@ -3,6 +3,24 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.243] - 2026-11-22
+
+### Added
+- **抗日战争 · 国际民间组织与援华团体第二批（M261）**：新增 4 个事件（均 `routeEvent: false`）。
+  - 苏联航空志愿队奇袭台北松山机场（1938-02-23，两路 40 架 CB，投弹 280 枚、炸毁日机 40 余架）。
+  - 白求恩抵达延安（1938-03-31，4-01 毛泽东会见，5 月赴晋察冀）。
+  - 印度援华医疗队抵广州（1938-09-17，宋庆龄、何香凝迎接，编入红十字会第 15 救护队）。
+  - 上海「无国籍难民指定区」设立（1943-02-18，虹口，5-18 前迁入，通行证制度）。
+  - 事件 1031 → **1035**，地区 864 → **866**，路线 563 不变。
+- 研究笔记 `docs/research/units/anti-japanese-war-ngos-2.md`。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes`（0 问题）、`pnpm check:heads`（0 个无来由端点）、
+  `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 苏联志愿队「南京首战」11-21/11-22 异说、红十字会救护总队成立日、沙面英法租界接管日仍待考。
+
+---
+
 ## [v1.0.242] - 2026-11-22
 
 ### Added

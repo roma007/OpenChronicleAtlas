@@ -20997,6 +20997,60 @@
         "sourcePlace": "天津英租界",
         "confidence": "medium"
       }
+    },
+    {
+      "id": "place-taiwan-u53f0u5317u677eu5c71",
+      "level": "place",
+      "parentId": "county-taiwan-u53f0u5317u5dde",
+      "name": {
+        "zh": "松山"
+      },
+      "shortName": {
+        "zh": "松山"
+      },
+      "aliases": [
+        "台湾台北松山",
+        "台湾台北松山"
+      ],
+      "modernName": {
+        "zh": "台湾台北松山"
+      },
+      "point": [
+        121.55,
+        25.06
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "台湾台北松山",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-shanghai-u8679u53e3",
+      "level": "place",
+      "parentId": "shanghai",
+      "name": {
+        "zh": "虹口"
+      },
+      "shortName": {
+        "zh": "虹口"
+      },
+      "aliases": [
+        "上海虹口",
+        "上海虹口"
+      ],
+      "modernName": {
+        "zh": "上海虹口"
+      },
+      "point": [
+        121.5,
+        31.26
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "上海虹口",
+        "confidence": "medium"
+      }
     }
   ]
 }
