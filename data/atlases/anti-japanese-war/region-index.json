@@ -4737,6 +4737,25 @@
     "sixth-army-1936-01": [
       "heilongjiang",
       "county-heilongjiang-u6c64u539fu53bf"
+    ],
+    "fourth-army-1934-12": [
+      "jilin",
+      "county-jilin-u5bc6u5c71u53bf"
+    ],
+    "tangyuan-conference-1936-01": [
+      "heilongjiang",
+      "county-heilongjiang-u6c64u539fu53bf",
+      "place-heilongjiang-u6c64u539fu5409u5174u6c9f"
+    ],
+    "motianling-battle-1936-07": [
+      "liaoning",
+      "county-liaoning-u672cu6eaau53bf",
+      "place-liaoning-u672cu6eaau6469u5929u5cad"
+    ],
+    "dapandao-battle-1937-01": [
+      "jilin",
+      "county-jilin-u52c3u5229u53bf",
+      "place-jilin-u52c3u5229u5201u7fceu5927u76d8u9053"
     ]
   },
   "routes": {
@@ -8044,6 +8063,7 @@
     },
     "japanese-invasion:316": {
       "regionIds": [
+        "county-liaoning-u672cu6eaau53bf",
         "liaoning"
       ],
       "endpointRegionIds": [

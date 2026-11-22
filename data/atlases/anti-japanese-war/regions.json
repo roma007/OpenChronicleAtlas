@@ -18295,8 +18295,8 @@
         "pointSource": "event-average"
       },
       "point": [
-        123.77,
-        41.3
+        123.76,
+        41.14
       ]
     },
     {
@@ -21376,8 +21376,8 @@
         "pointSource": "event-average"
       },
       "point": [
-        130.1167,
-        46.9767
+        130.05,
+        46.9075
       ]
     },
     {
@@ -21421,7 +21421,7 @@
       },
       "point": [
         129.85,
-        45.52
+        45.485
       ]
     },
     {
@@ -22502,6 +22502,87 @@
       "extensions": {
         "frame": "ROC-1937",
         "sourcePlace": "吉林安图车厂子",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-heilongjiang-u6c64u539fu5409u5174u6c9f",
+      "level": "place",
+      "parentId": "county-heilongjiang-u6c64u539fu53bf",
+      "name": {
+        "zh": "吉兴沟"
+      },
+      "shortName": {
+        "zh": "吉兴沟"
+      },
+      "aliases": [
+        "黑龙江汤原吉兴沟",
+        "黑龙江汤原吉兴沟"
+      ],
+      "modernName": {
+        "zh": "黑龙江汤原吉兴沟"
+      },
+      "point": [
+        129.85,
+        46.7
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "黑龙江汤原吉兴沟",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-liaoning-u672cu6eaau6469u5929u5cad",
+      "level": "place",
+      "parentId": "county-liaoning-u672cu6eaau53bf",
+      "name": {
+        "zh": "摩天岭"
+      },
+      "shortName": {
+        "zh": "摩天岭"
+      },
+      "aliases": [
+        "辽宁本溪摩天岭",
+        "辽宁本溪摩天岭"
+      ],
+      "modernName": {
+        "zh": "辽宁本溪摩天岭"
+      },
+      "point": [
+        123.75,
+        40.98
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "辽宁本溪摩天岭",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-jilin-u52c3u5229u5201u7fceu5927u76d8u9053",
+      "level": "place",
+      "parentId": "county-jilin-u52c3u5229u53bf",
+      "name": {
+        "zh": "刁翎大盘道"
+      },
+      "shortName": {
+        "zh": "刁翎大盘道"
+      },
+      "aliases": [
+        "吉林勃利刁翎（今林口）大盘道",
+        "吉林勃利刁翎大盘道"
+      ],
+      "modernName": {
+        "zh": "吉林勃利刁翎（今林口）大盘道"
+      },
+      "point": [
+        129.85,
+        45.45
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林勃利刁翎（今林口）大盘道",
         "confidence": "medium"
       }
     }
