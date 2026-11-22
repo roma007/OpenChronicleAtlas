@@ -14862,6 +14862,82 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.85,
+            34.03
+          ],
+          [
+            113.68,
+            33.95
+          ],
+          [
+            113.51,
+            33.85
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-05-02",
+        "endDate": "1944-05-04",
+        "order": 385,
+        "segmentType": "advance",
+        "name": {
+          "zh": "许昌—颍桥—襄城",
+          "en": "Xuchang–Yingqiao–Xiangcheng"
+        },
+        "description": {
+          "zh": "1944年5月2日至4日，日军独立混成第7旅团自许昌经颍桥进攻襄城，攻破城墙后占领县城。路线为示意简化。",
+          "en": "From 2 to 4 May 1944 the Japanese 7th Independent Mixed Brigade advanced from Xuchang via Yingqiao against Xiangcheng, breached the wall and took the town. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.21,
+            33.97
+          ],
+          [
+            113.12,
+            33.92
+          ],
+          [
+            113.05,
+            33.87
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-05-04",
+        "endDate": "1944-05-06",
+        "order": 386,
+        "segmentType": "advance",
+        "name": {
+          "zh": "郏县—宝丰",
+          "en": "Jiaxian–Baofeng"
+        },
+        "description": {
+          "zh": "1944年5月4日至6日，日军自郏县西进，攻陷宝丰县城。路线为示意简化。",
+          "en": "From 4 to 6 May 1944 the Japanese advanced west from Jiaxian and took Baofeng. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

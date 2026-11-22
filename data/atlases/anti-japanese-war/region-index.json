@@ -4416,6 +4416,14 @@
     "wenxiang-fall-1944-06": [
       "henan",
       "county-henan-u960cu4e61u53bf"
+    ],
+    "xiangcheng-fall-1944-05": [
+      "henan",
+      "county-henan-u8944u57ceu53bf"
+    ],
+    "baofeng-fall-1944-05": [
+      "henan",
+      "county-henan-u5b9du4e30u53bf"
     ]
   },
   "routes": {
@@ -8293,6 +8301,22 @@
       ]
     },
     "japanese-invasion:384": {
+      "regionIds": [
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "japanese-invasion:385": {
+      "regionIds": [
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "japanese-invasion:386": {
       "regionIds": [
         "henan"
       ],

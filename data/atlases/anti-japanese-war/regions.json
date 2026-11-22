@@ -20833,6 +20833,50 @@
         110.62,
         34.55
       ]
+    },
+    {
+      "id": "county-henan-u8944u57ceu53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "襄城县"
+      },
+      "shortName": {
+        "zh": "襄城"
+      },
+      "aliases": [
+        "襄城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.51,
+        33.85
+      ]
+    },
+    {
+      "id": "county-henan-u5b9du4e30u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "宝丰县"
+      },
+      "shortName": {
+        "zh": "宝丰"
+      },
+      "aliases": [
+        "宝丰"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.05,
+        33.87
+      ]
     }
   ]
 }
