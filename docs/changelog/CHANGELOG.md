@@ -3,6 +3,32 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.223] - 2026-11-22
+
+### Added
+- **抗日战争 · 湖北鄂南嘉鱼/蒲圻/通山/通城补录（M241）**：新增 4 个事件、4 段路线。
+  - 嘉鱼 1938-11-03（异说 11-04）、蒲圻 1938-11-04（赤壁市史志办记 11-05 入城）、
+    通山 1938-11-04（10-31 发起进攻）、通城 1938-11-08。
+  - 路线（4 段，#361—#364）：咸宁—蒲圻（沿粤汉线）、咸宁—嘉鱼、
+    阳新—慈口—大畈—通山、崇阳—大沙坪—通城。
+  - 专题：997 → **1001** 事件、536 → **540** 段路线；日军层：749 → **753** 事件、
+    357 → **361** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-hubei-enan.md`、计划
+  `docs/plans/2026-11-22-M241-湖北鄂南嘉鱼蒲圻通山通城补录-plan.md`。
+
+### Changed
+- `scripts/build-region-data.py`：增加嘉鱼、蒲圻（含赤壁、羊楼洞）、通山、通城、
+  大沙坪映射。
+- `regions.json` / `region-index.json`：地区 835 → **839**，1001 个事件全部有省 + 县归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 县名用 1938 年旧名，蒲圻不写赤壁；钟祥、京山、沙市等仍待考。
+
+---
+
 ## [v1.0.222] - 2026-11-22
 
 ### Added

@@ -13930,6 +13930,170 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3,
+            29.86
+          ],
+          [
+            114.03,
+            29.8
+          ],
+          [
+            113.98,
+            29.78
+          ],
+          [
+            113.95,
+            29.75
+          ],
+          [
+            113.9,
+            29.72
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-29",
+        "endDate": "1938-11-04",
+        "order": 361,
+        "segmentType": "advance",
+        "name": {
+          "zh": "咸宁—蒲圻（沿粤汉线）",
+          "en": "Xianning–Puqi along the Canton–Hankou railway"
+        },
+        "description": {
+          "zh": "1938年10月29日至11月4日，日军第9师团沿粤汉线经汀泗桥、官塘驿、中伙铺南犯蒲圻。路线为示意简化。",
+          "en": "From 29 October to 4 November 1938 the Japanese 9th Division advanced south along the Canton–Hankou railway through Tiansi Bridge, Guantangyi and Zhonghuopu to Puqi. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3,
+            29.86
+          ],
+          [
+            114.1,
+            29.92
+          ],
+          [
+            113.94,
+            29.97
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-11-01",
+        "endDate": "1938-11-03",
+        "order": 362,
+        "segmentType": "advance",
+        "name": {
+          "zh": "咸宁—嘉鱼",
+          "en": "Xianning–Jiayu"
+        },
+        "description": {
+          "zh": "1938年11月1日至3日，日军第9师团一部自咸宁方向进犯嘉鱼。路线为示意简化。",
+          "en": "From 1 to 3 November 1938 a detachment of the Japanese 9th Division advanced from the Xianning direction on Jiayu. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.21,
+            29.84
+          ],
+          [
+            114.95,
+            29.72
+          ],
+          [
+            114.85,
+            29.65
+          ],
+          [
+            114.48,
+            29.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-10-31",
+        "endDate": "1938-11-04",
+        "order": 363,
+        "segmentType": "advance",
+        "name": {
+          "zh": "阳新—慈口—大畈—通山",
+          "en": "Yangxin–Cikou–Dafan–Tongshan"
+        },
+        "description": {
+          "zh": "1938年10月31日至11月4日，日军铃木支队经慈口、大畈南犯通山。路线为示意简化。",
+          "en": "From 31 October to 4 November 1938 the Japanese Suzuki detachment advanced south on Tongshan via Cikou and Dafan. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.04,
+            29.56
+          ],
+          [
+            113.95,
+            29.45
+          ],
+          [
+            113.82,
+            29.25
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-11-07",
+        "endDate": "1938-11-08",
+        "order": 364,
+        "segmentType": "advance",
+        "name": {
+          "zh": "崇阳—大沙坪—通城",
+          "en": "Chongyang–Dashaping–Tongcheng"
+        },
+        "description": {
+          "zh": "1938年11月7日至8日，日军第27师团自崇阳追击，经大沙坪攻占通城。路线为示意简化。",
+          "en": "From 7 to 8 November 1938 the Japanese 27th Division pursued from Chongyang and took Tongcheng via Dashaping. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

@@ -20349,6 +20349,94 @@
         112.48,
         37.56
       ]
+    },
+    {
+      "id": "county-hubei-u5609u9c7cu53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "嘉鱼县"
+      },
+      "shortName": {
+        "zh": "嘉鱼"
+      },
+      "aliases": [
+        "嘉鱼"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.94,
+        29.97
+      ]
+    },
+    {
+      "id": "county-hubei-u84b2u573bu53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "蒲圻县"
+      },
+      "shortName": {
+        "zh": "蒲圻"
+      },
+      "aliases": [
+        "蒲圻"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.9,
+        29.72
+      ]
+    },
+    {
+      "id": "county-hubei-u901au5c71u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "通山县"
+      },
+      "shortName": {
+        "zh": "通山"
+      },
+      "aliases": [
+        "通山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.48,
+        29.6
+      ]
+    },
+    {
+      "id": "county-hubei-u901au57ceu53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "通城县"
+      },
+      "shortName": {
+        "zh": "通城"
+      },
+      "aliases": [
+        "通城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.82,
+        29.25
+      ]
     }
   ]
 }
