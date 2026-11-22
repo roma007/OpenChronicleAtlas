@@ -47467,5 +47467,1006 @@
       "chifeng-fall-1933-03"
     ],
     "importance": 2
+  },
+  {
+    "id": "luxi-bacteriological-1943-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "鲁西细菌战",
+      "en": "Luxi Bacteriological Warfare"
+    },
+    "date": "1943-08-27",
+    "location": {
+      "lng": 115.7,
+      "lat": 36.84,
+      "place": {
+        "zh": "山东临清",
+        "en": "Linqing, Shandong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1943年8月，日军在鲁西卫河流域撒播霍乱菌，造成大规模死亡。",
+      "en": "In August 1943 the Japanese spread cholera bacteria along the Wei River in western Shandong, causing mass deaths."
+    },
+    "description": {
+      "zh": "1943年8月，日军华北方面军实施“十八秋鲁西作战”，由731部队石井四郎指导，利用鲁西暴雨、卫河泛滥之机，掘开卫河、漳河堤坝并飞机撒播霍乱菌，洪水成为传播载体。8月27日起，临清一带霍乱暴发，据战犯笔供，8月下旬至10月下旬有20万以上中国人民死亡。日期据《1943，天灾掩盖惊天人祸》与《1943年日本细菌战致几十万国人命丧霍乱》。",
+      "en": "In August 1943 the Japanese North China Area Army carried out Operation “Autumn 1943 in Luxi”, guided by Ishii Shirō of Unit 731. Exploiting heavy rain and flooding, Japanese troops cut the Wei and Zhang river dikes and sprayed cholera bacteria from aircraft, using the floodwater as the vector. Cholera broke out around Linqing from 27 August; according to Japanese war criminal testimony, more than 200,000 Chinese died between late August and late October."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1943，天灾掩盖惊天人祸——揭秘鲁西细菌战大惨案",
+        "author": "人民网·党史 2013-06-03",
+        "note": "官方党史，访问 2026-11-22"
+      },
+      {
+        "title": "1943年日本细菌战致几十万国人命丧霍乱",
+        "author": "抗日战争纪念网 2015",
+        "note": "战犯笔供整理，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "zhegan-bacteriological-1942-08",
+      "changde-bacteriological-1941-11"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "nongan-bacteriological-1940-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "农安细菌战",
+      "en": "Nong’an Bacteriological Attack"
+    },
+    "date": "1940-06-04",
+    "location": {
+      "lng": 125.18,
+      "lat": 44.43,
+      "place": {
+        "zh": "吉林农安",
+        "en": "Nong’an, Jilin"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1940年6月4日，731部队在农安投撒鼠疫跳蚤，引发鼠疫。",
+      "en": "On 4 June 1940 Unit 731 dropped plague-infected fleas on Nong’an, triggering an outbreak."
+    },
+    "description": {
+      "zh": "1940年6月4日，日军731部队在吉林农安投下鼠疫跳蚤5克，致8人死亡，疫情最终传染607人；6月4日至7日又在农安、大赉投撒鼠疫跳蚤。据731部队军医金子顺一博士论文与战后调查，此次鼠疫系日军细菌战“谋略”所致，并与浙江细菌战同期进行。日期据《1940年农安鼠疫》与《关于731部队实施农安细菌战的考察》。",
+      "en": "On 4 June 1940 Unit 731 dropped five grams of plague-infected fleas on Nong’an in Jilin, killing eight people and eventually infecting 607. From 4 to 7 June further plague fleas were dropped on Nong’an and Dalai. According to the dissertation of Unit 731 medical officer Kaneko Jun’ichi and postwar research, the outbreak was caused by a Japanese bacteriological warfare operation conducted alongside the Zhejiang attacks."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "1940年农安鼠疫",
+        "author": "维基百科",
+        "note": "百科，访问 2026-11-22"
+      },
+      {
+        "title": "关于731部队实施农安细菌战的考察",
+        "author": "中国抗日战争史学会",
+        "note": "学术论文，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "luxi-bacteriological-1943-08",
+      "ningbo-bacteriological-1940-10"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "yichang-chemical-1941-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "宜昌毒气战",
+      "en": "Yichang Chemical Warfare"
+    },
+    "date": "1941-10-06",
+    "location": {
+      "lng": 111.29,
+      "lat": 30.69,
+      "place": {
+        "zh": "湖北宜昌",
+        "en": "Yichang, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1941年10月，日军在宜昌大规模使用毒气，中国军队1600余人中毒、600人死亡。",
+      "en": "In October 1941 the Japanese used poison gas on a large scale at Yichang, gassing over 1,600 Chinese troops and killing 600."
+    },
+    "description": {
+      "zh": "1941年9月底至10月初，中国军队反攻宜昌，一度攻入城区，逼近日军第13师团司令部。日军不顾国际公约，于10月6日、9日、10日大规模使用杀伤性毒化武器，发射毒气炮弹并投掷毒剂炸弹，中国军队1600余人中毒、其中600人死亡。日期据《日军在宜昌使用化学武器》与《日寇在宜昌进行毒气战》。",
+      "en": "In late September and early October 1941 Chinese forces counter-attacked at Yichang and briefly broke into the city, threatening the headquarters of the Japanese 13th Division. In violation of international law the Japanese used large quantities of poison gas on 6, 9 and 10 October, firing gas shells and dropping gas bombs; over 1,600 Chinese troops were gassed and 600 died."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "日军在宜昌使用化学武器",
+        "author": "人民网·党史 2015-07-30",
+        "note": "官方党史，访问 2026-11-22"
+      },
+      {
+        "title": "日寇在宜昌进行毒气战",
+        "author": "抗日战争纪念网",
+        "note": "专题资料，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "yichang-fall-1940-06"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "yangjiazhai-comfort-station-1938-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "上海杨家宅慰安所设立",
+      "en": "Yangjiazhai Comfort Station Established"
+    },
+    "date": "1938-01-13",
+    "location": {
+      "lng": 121.53,
+      "lat": 31.3,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1938年1月13日，日军上海派遣军在上海杨家宅设立军部直营慰安所。",
+      "en": "On 13 January 1938 the Japanese Shanghai Expeditionary Army opened a directly run comfort station at Yangjiazhai in Shanghai."
+    },
+    "description": {
+      "zh": "1938年1月13日，由日军上海派遣军东兵站司令部管理的“杨家宅娱乐所”在上海东北角开业，首批104名日本和朝鲜少女成为慰安妇，此后大量中国等国籍妇女被强征。该所是日军在沪设立较早、规模最大的军部直营慰安所之一，是日军性奴隶制度的直接罪证。日期据《杨家宅慰安所》与《日军慰安所揭秘》。",
+      "en": "On 13 January 1938 the “Yangjiazhai Recreation Ground”, run by the East Depot Command of the Japanese Shanghai Expeditionary Army, opened in north-east Shanghai. Its first group consisted of 104 Japanese and Korean girls, and large numbers of Chinese and other women were later forced into it. It was one of the earliest and largest army-run comfort stations in Shanghai and direct evidence of Japan’s sexual slavery system."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "杨家宅慰安所",
+        "author": "维基百科",
+        "note": "百科，访问 2026-11-22"
+      },
+      {
+        "title": "日军慰安所揭秘：20万中国妇女沦为慰安妇",
+        "author": "抗日战争纪念网",
+        "note": "专题资料，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "nanjing-comfort-station-1937-12",
+      "shanghai-fall-1937-11"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "nanjing-comfort-station-1937-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "南京日军慰安所设立",
+      "en": "Nanjing Comfort Stations Established"
+    },
+    "date": "1937-12-22",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏南京",
+        "en": "Nanjing, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1937年12月22日，日军在南京设立最早的慰安所，利济巷慰安所随后设立。",
+      "en": "On 22 December 1937 the Japanese established the earliest comfort station in Nanjing, followed by the Lijixiang stations."
+    },
+    "description": {
+      "zh": "1937年12月南京沦陷后，日军制定《方面军关于慰安设施的实施意见》《关于设立南京慰安所的方案》，12月22日设立南京有明确时间记录的最早慰安所。利济巷2号、18号随后被改造为“东云慰安所”“故乡楼慰安所”，大量朝鲜和中国妇女在此遭受蹂躏。日期据侵华日军南京大屠杀遇难同胞纪念馆与《南京利济巷慰安所：“慰安妇”的血泪记忆》。",
+      "en": "After Nanjing fell in December 1937 the Japanese army issued plans for comfort facilities and for establishing comfort stations in Nanjing, and on 22 December opened the earliest station with a recorded date. Nos. 2 and 18 Lijixiang were later converted into the “Dongyun” and “Guxianglou” comfort stations, where large numbers of Korean and Chinese women were abused."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "今日大寒｜南京日军慰安所的建立始末",
+        "author": "侵华日军南京大屠杀遇难同胞纪念馆 2024-01-23",
+        "note": "纪念馆，访问 2026-11-22"
+      },
+      {
+        "title": "南京利济巷慰安所：“慰安妇”的血泪记忆",
+        "author": "人民网·党史 2014-06-26",
+        "note": "官方党史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "nanjing-massacre-1937-12",
+      "yangjiazhai-comfort-station-1938-01"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "hanaoka-massacre-1945-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "花冈惨案",
+      "en": "Hanaoka Massacre"
+    },
+    "date": "1945-06-30",
+    "location": {
+      "lng": 140.55,
+      "lat": 40.2,
+      "place": {
+        "zh": "日本秋田花冈",
+        "en": "Hanaoka, Akita, Japan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1945年6月30日，被掳中国劳工在秋田花冈矿山起义，遭日本军警镇压，约400余人死亡。",
+      "en": "On 30 June 1945 Chinese forced labourers rose up at the Hanaoka mine in Akita and were crushed by Japanese police and troops, with over 400 deaths."
+    },
+    "description": {
+      "zh": "1945年6月30日，被掳至日本秋田县花冈矿山的中国劳工900余人因不堪虐待发动起义，遭日本军警镇压。据中日各方调查，419人死亡（另有418人、560人之说）。花冈事件是日本强掳中国劳工罪行的代表性事件。日期据《花冈惨案》与《1945年6月30日花冈惨案发生》。",
+      "en": "On 30 June 1945 more than 900 Chinese labourers deported to the Hanaoka mine in Akita, Japan, rose up against their treatment and were suppressed by Japanese military police. Chinese and Japanese investigations put the death toll at 419, with other accounts giving 418 or 560. The Hanaoka uprising is a representative case of Japan’s forced deportation of Chinese labour."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "花冈惨案",
+        "author": "维基百科",
+        "note": "百科，访问 2026-11-22"
+      },
+      {
+        "title": "1945年6月30日花冈惨案发生",
+        "author": "抗日战争纪念网",
+        "note": "大事记，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "huainan-coal-1939-04",
+      "tiandu-mass-grave-1945-08"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "wuhan-bombing-1938-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "武汉大轰炸",
+      "en": "Great Bombing of Wuhan"
+    },
+    "date": "1938-08-11",
+    "location": {
+      "lng": 114.3,
+      "lat": 30.59,
+      "place": {
+        "zh": "湖北武汉",
+        "en": "Wuhan, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1938年8月11日起，日军连续八次大规模轰炸武汉，民众死伤4700余人。",
+      "en": "From 11 August 1938 the Japanese carried out eight large-scale raids on Wuhan, killing and wounding over 4,700 civilians."
+    },
+    "description": {
+      "zh": "1938年8月11日至9月17日，日军飞机8次对武汉进行大规模轰炸，共投弹1180余枚，致民众死伤4700余人，炸毁、烧毁房屋3200余栋（间）。8月11日大批日机集中轰炸武昌、汉阳，800余名市民死亡，华中大学遭到严重破坏。日期据《武汉大轰炸》与湖北省档案馆《日军轰炸武汉纪实》。",
+      "en": "Between 11 August and 17 September 1938 Japanese aircraft made eight large raids on Wuhan, dropping over 1,180 bombs, killing and wounding more than 4,700 civilians and destroying over 3,200 buildings. On 11 August Japanese aircraft concentrated on Wuchang and Hanyang, killing over 800 civilians and severely damaging Huazhong University."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗日战争时期湖北重大惨案：武汉大轰炸",
+        "author": "抗日战争纪念网",
+        "note": "惨案资料，访问 2026-11-22"
+      },
+      {
+        "title": "日军轰炸武汉纪实",
+        "author": "湖北省档案馆/荆楚网 2014-07",
+        "note": "地方档案，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "wuhan-surrender-1945-09",
+      "chongqing-bombing-1938-02"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "guangzhou-bombing-1938-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "广州“五二八”大轰炸",
+      "en": "Guangzhou Bombing of 28 May"
+    },
+    "date": "1938-05-28",
+    "location": {
+      "lng": 113.26,
+      "lat": 23.13,
+      "place": {
+        "zh": "广东广州",
+        "en": "Guangzhou, Guangdong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1938年5月28日，日机71架狂炸广州，炸死市民600余人、炸伤近千人。",
+      "en": "On 28 May 1938 seventy-one Japanese aircraft bombed Guangzhou, killing over 600 civilians and wounding nearly 1,000."
+    },
+    "description": {
+      "zh": "1938年5月28日，日机71架狂袭广州，投弹150多枚，当场炸死600多人、炸伤近1000人。5月28日至30日，日机先后6批100多架次连续狂炸广州市区，炸死市民1500多人、炸伤1800多人，炸毁房屋900多间。日期据中国新闻网《档案显示日军轰炸广州密度仅次重庆》与《日军在广东的暴行（二）》。",
+      "en": "On 28 May 1938 seventy-one Japanese aircraft raided Guangzhou, dropping over 150 bombs and killing more than 600 people and wounding nearly 1,000 on the spot. From 28 to 30 May six waves of over 100 sorties bombed the city, killing over 1,500 civilians, wounding over 1,800 and destroying more than 900 houses."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "档案显示日军轰炸广州密度仅次重庆 死伤2万余人",
+        "author": "中国新闻网 2012-10-22",
+        "note": "档案报道，访问 2026-11-22"
+      },
+      {
+        "title": "日军在广东的暴行（二）",
+        "author": "抗日战争纪念网",
+        "note": "惨案资料，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "guangzhou-fall-1938-10",
+      "guangzhou-surrender-1945-09"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "xian-bombing-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军首次轰炸西安",
+      "en": "First Japanese Air Raid on Xi’an"
+    },
+    "date": "1937-11-13",
+    "location": {
+      "lng": 108.94,
+      "lat": 34.34,
+      "place": {
+        "zh": "陕西西安",
+        "en": "Xi’an, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1937年11月13日，日机首次轰炸西安，此后持续轰炸至1944年。",
+      "en": "On 13 November 1937 Japanese aircraft bombed Xi’an for the first time, beginning raids that lasted until 1944."
+    },
+    "description": {
+      "zh": "1937年11月13日上午11时，日军轻型轰炸机两架窜入西安上空，中国空军驱逐机起飞迎战，日机匆忙投弹数枚，均落在郊外。此后日军对西安持续战略轰炸至1944年12月4日，西安成为西北大后方受轰炸最严重的城市之一。日期据《西安大轰炸》与《西安大轰炸全记录》。",
+      "en": "At 11 a.m. on 13 November 1937 two Japanese light bombers entered the airspace over Xi’an. Chinese fighters took off and the Japanese dropped several bombs in haste, all falling in the suburbs. Strategic bombing of Xi’an continued until 4 December 1944, making it one of the most heavily bombed cities of China’s north-west rear area."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "西安大轰炸",
+        "author": "维基百科",
+        "note": "百科，访问 2026-11-22"
+      },
+      {
+        "title": "西安大轰炸全记录",
+        "author": "华商报/新浪 2005-08-15",
+        "note": "地方报道，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "yanan-bombing-1938-11",
+      "lanzhou-bombing-1939-02"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "lanzhou-bombing-1939-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "兰州“二二三”大轰炸",
+      "en": "Lanzhou Bombing of 23 February"
+    },
+    "date": "1939-02-23",
+    "location": {
+      "lng": 103.83,
+      "lat": 36.06,
+      "place": {
+        "zh": "甘肃兰州",
+        "en": "Lanzhou, Gansu"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1939年2月23日，日机分批袭兰州，市区与黄河沿一带被炸。",
+      "en": "On 23 February 1939 Japanese aircraft attacked Lanzhou in waves, bombing the city and the Yellow River bank."
+    },
+    "description": {
+      "zh": "1939年2月23日，日机38架分三批袭兰（一说20架），投弹于市区和黄河沿一带，中山市场投弹最多，炸毁民房1000余间、死亡100余人，普照寺等古建筑被毁。中国空军与苏联志愿航空队升空拦截，击落日机多架。日期据《兰州上空共击落日机四十余架》与《抗战时期的兰州空战》。",
+      "en": "On 23 February 1939 Japanese aircraft attacked Lanzhou in three waves (38 aircraft, some accounts say 20), bombing the city and the Yellow River bank. The Zhongshan market was hit hardest; over 1,000 houses were destroyed, more than 100 people died, and historic buildings including Puzhao Temple were ruined. Chinese and Soviet volunteer fighters intercepted and shot down several Japanese aircraft."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "兰州上空共击落日机四十余架",
+        "author": "抗日战争纪念网",
+        "note": "空战资料，访问 2026-11-22"
+      },
+      {
+        "title": "抗战时期的兰州空战",
+        "author": "甘肃新闻/甘肃省档案局 2025-09-03",
+        "note": "地方档案，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "xian-bombing-1937-11",
+      "chongqing-bombing-1939-05-03"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "kunming-bombing-1938-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军首次轰炸昆明",
+      "en": "First Japanese Air Raid on Kunming"
+    },
+    "date": "1938-09-28",
+    "location": {
+      "lng": 102.83,
+      "lat": 24.88,
+      "place": {
+        "zh": "云南昆明",
+        "en": "Kunming, Yunnan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1938年9月28日，日机9架首次空袭昆明，死伤150余人。",
+      "en": "On 28 September 1938 nine Japanese bombers raided Kunming for the first time, killing and wounding over 150 people."
+    },
+    "description": {
+      "zh": "1938年9月28日上午，日机9架经广西闯入云南，空袭昆明，投弹103枚，重点轰炸巫家坝机场及西门外潘家湾、凤翥街一带，死伤150余人。此后日军对昆明持续轰炸，1940年至1941年达到高潮。日期据《日军轰炸昆明，酿造多起惨案》与云南省档案局《日寇对昆明的空袭》。",
+      "en": "On the morning of 28 September 1938 nine Japanese bombers entered Yunnan from Guangxi and raided Kunming, dropping 103 bombs, mainly on Wujiaba airfield and the Panjiawan and Fengzhu Street areas west of the city, killing and wounding over 150 people. Raids continued and peaked in 1940–1941."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "日军轰炸昆明，酿造多起惨案",
+        "author": "抗日战争纪念网",
+        "note": "惨案资料，访问 2026-11-22"
+      },
+      {
+        "title": "日寇对昆明的空袭",
+        "author": "云南省档案局",
+        "note": "地方档案，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "baoshan-bombing-1942-05",
+      "hanoi-surrender-1945-09"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "yanan-bombing-1938-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军首次轰炸延安",
+      "en": "First Japanese Air Raid on Yan’an"
+    },
+    "date": "1938-11-20",
+    "location": {
+      "lng": 109.49,
+      "lat": 36.59,
+      "place": {
+        "zh": "陕西延安",
+        "en": "Yan’an, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1938年11月20日，日机首次轰炸延安，此后至1941年共轰炸17次。",
+      "en": "On 20 November 1938 Japanese aircraft bombed Yan’an for the first time; by 1941 there had been seventeen raids."
+    },
+    "description": {
+      "zh": "1938年11月20日中午，日机7架以梯次队形首次轰炸延安，此后21日再次轰炸。至1941年8月27日，日机先后轰炸延安17次，投弹1690枚，造成400余人死伤、1万余间房屋倒塌。日期据《不倒的宝塔》与《用史料还原日军轰炸延安真相》。",
+      "en": "At midday on 20 November 1938 seven Japanese aircraft bombed Yan’an for the first time, and again on the 21st. By 27 August 1941 there had been seventeen raids, dropping 1,690 bombs, causing over 400 casualties and collapsing more than 10,000 rooms."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "不倒的宝塔",
+        "author": "人民网·党史 2021-01-27",
+        "note": "官方党史，访问 2026-11-22"
+      },
+      {
+        "title": "用史料还原日军轰炸延安真相",
+        "author": "共产党员网 2015-08-16",
+        "note": "史料报道，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "xian-bombing-1937-11",
+      "chongqing-bombing-1938-02"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "yongan-bombing-1943-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "永安“一一·四”大轰炸",
+      "en": "Yong’an Bombing of 4 November"
+    },
+    "date": "1943-11-04",
+    "location": {
+      "lng": 117.36,
+      "lat": 25.94,
+      "place": {
+        "zh": "福建永安",
+        "en": "Yong’an, Fujian"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1943年11月4日，日机16架轰炸福建战时省会永安，死伤400余人。",
+      "en": "On 4 November 1943 sixteen Japanese aircraft bombed Yong’an, the wartime capital of Fujian, causing over 400 casualties."
+    },
+    "description": {
+      "zh": "1943年11月4日下午1时左右，日机16架轰炸福建战时省会永安，投弹135枚，无差别滥投爆炸弹和燃烧弹，死亡209人、受伤186人，流离失所者4022人，烧毁房屋万余间，史称“永安浩劫”。另有死伤600余人之说。日期据《永安浩劫》与福建党史方志网《抗战时期战时省会永安的损失及其影响》。",
+      "en": "At about 1 p.m. on 4 November 1943 sixteen Japanese aircraft bombed Yong’an, the wartime capital of Fujian, dropping 135 high-explosive and incendiary bombs indiscriminately. 209 people were killed, 186 wounded and 4,022 made homeless; over 10,000 rooms burned. The raid is known as the “Yong’an Holocaust”; some accounts give over 600 casualties."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《永安浩劫》，抗战期间永安大轰炸的惨烈史实",
+        "author": "抗日战争纪念网 2018-07-30",
+        "note": "地方史，访问 2026-11-22"
+      },
+      {
+        "title": "抗战时期战时省会永安的损失及其影响",
+        "author": "福建党史方志网 2020-09-03",
+        "note": "地方志，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "xiamen-surrender-1945-09"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "guilin-bombing-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军首次轰炸桂林",
+      "en": "First Japanese Air Raid on Guilin"
+    },
+    "date": "1937-10-15",
+    "location": {
+      "lng": 110.29,
+      "lat": 25.27,
+      "place": {
+        "zh": "广西桂林",
+        "en": "Guilin, Guangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1937年10月15日，日机首次轰炸桂林，死伤500余人。",
+      "en": "On 15 October 1937 Japanese aircraft bombed Guilin for the first time, causing over 500 casualties."
+    },
+    "description": {
+      "zh": "1937年10月15日上午11时35分，日军重轰炸机中队飞抵桂林轰炸，在城郊投弹40余枚、城内落8弹，炸毁民房39所，死市民53人、伤200人，附郊9处被炸，合计死伤500余人（另有700余人之说）。日期据《飞虎队桂林秧塘机场抗战纪事》与《论日军对桂林的轰炸》。",
+      "en": "At 11:35 a.m. on 15 October 1937 a Japanese heavy bomber squadron raided Guilin, dropping over 40 bombs in the suburbs and eight in the city, destroying 39 houses, killing 53 civilians and wounding 200, with nine suburban villages also hit; total casualties exceeded 500 (some accounts say 700)."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "飞虎队桂林秧塘机场抗战纪事",
+        "author": "人民网·党史 2015-11-09",
+        "note": "官方党史，访问 2026-11-22"
+      },
+      {
+        "title": "论日军对桂林的轰炸",
+        "author": "桂林旅游史研究",
+        "note": "地方史研究，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "guilin-bombing-1938-12",
+      "guilin-fall-1944-11"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "guilin-bombing-1938-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "桂林“一二·二”大轰炸",
+      "en": "Guilin Bombing of 2 December"
+    },
+    "date": "1938-12-02",
+    "location": {
+      "lng": 110.29,
+      "lat": 25.27,
+      "place": {
+        "zh": "广西桂林",
+        "en": "Guilin, Guangxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1938年12月2日，日机21架轰炸桂林，市民死伤1000余人。",
+      "en": "On 2 December 1938 twenty-one Japanese aircraft bombed Guilin, causing over 1,000 civilian casualties."
+    },
+    "description": {
+      "zh": "1938年12月2日，日机21架轰炸桂林，投弹70余枚，燃烧半天，市民死伤1000余人。1938年11月30日至12月底，日机四次大空袭桂林，共出动108架次、投弹300多枚，毁房3500多间，炸死炸伤平民近300人，万余人无家可归。日期据《空劫深重的1938年》与《论日军对桂林的轰炸》。",
+      "en": "On 2 December 1938 twenty-one Japanese aircraft bombed Guilin, dropping over 70 bombs; fires burned for half a day and over 1,000 civilians were killed or wounded. Between 30 November and the end of December 1938 four large raids employed 108 sorties and over 300 bombs, destroying more than 3,500 houses, killing or wounding nearly 300 civilians and leaving over 10,000 homeless."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "空劫深重的1938年",
+        "author": "抗日战争纪念网",
+        "note": "广西惨案资料，访问 2026-11-22"
+      },
+      {
+        "title": "论日军对桂林的轰炸",
+        "author": "桂林旅游史研究",
+        "note": "地方史研究，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "guilin-bombing-1937-10",
+      "guilin-fall-1944-11"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "yunnan-indochina-railway-blockade-1940-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日本迫使法国封闭滇越铁路",
+      "en": "Japan Forces Closure of the Yunnan–Indochina Railway"
+    },
+    "date": "1940-06-20",
+    "location": {
+      "lng": 103.94,
+      "lat": 22.51,
+      "place": {
+        "zh": "云南滇越铁路沿线",
+        "en": "Yunnan–Indochina Railway, Yunnan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1940年6月20日，法国屈从日本压力封闭滇越铁路，中国西南国际通道被切断。",
+      "en": "On 20 June 1940 France yielded to Japanese pressure and closed the Yunnan–Indochina Railway, cutting a key supply route into China."
+    },
+    "description": {
+      "zh": "1940年6月，法国在对德战争中失败，贝当政府成立。日本借机要求法国殖民政府停止中越运输。6月20日，法国政府屈从日本要求，突然封闭滇越铁路，禁止物资输入中国，中国经越南的西南国际通道被切断。日期据《法国关闭滇越铁路》与《滇越铁路：抗战中不屈的钢铁脊梁》。",
+      "en": "In June 1940 France was defeated by Germany and the Petain government took power. Japan seized the moment to demand that the French colonial authorities halt transport between China and Vietnam. On 20 June the French government yielded and abruptly closed the Yunnan–Indochina Railway to goods bound for China, cutting China’s south-western supply route through Vietnam."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "法国关闭滇越铁路",
+        "author": "百度百科",
+        "note": "百科，访问 2026-11-22"
+      },
+      {
+        "title": "滇越铁路：抗战中不屈的钢铁脊梁",
+        "author": "中国日报网 2025-08-21",
+        "note": "报道，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "burma-road-blockade-1940-07",
+      "indochina-entry-1940-09"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "burma-road-blockade-1940-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日本胁迫英国封闭滇缅公路",
+      "en": "Japan Presses Britain to Close the Burma Road"
+    },
+    "date": "1940-07-18",
+    "location": {
+      "lng": 98.07,
+      "lat": 24.08,
+      "place": {
+        "zh": "云南滇缅公路沿线",
+        "en": "Burma Road, Yunnan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "暴行",
+    "summary": {
+      "zh": "1940年7月18日，英国屈从日本压力封闭滇缅公路三个月。",
+      "en": "On 18 July 1940 Britain yielded to Japanese pressure and closed the Burma Road for three months."
+    },
+    "description": {
+      "zh": "1940年6月24日，日本向英国提出封锁滇缅公路要求。7月17日英日达成《关于封闭滇缅公路的协定》，规定自7月18日起三个月内禁止通过缅甸向中国运输军械、弹药等物资。滇缅公路被封闭三个月，中国对外通道进一步收窄，10月重新开放。日期据国立政治大学《英国暂时封闭滇缅公路之始末》与光明网《滇缅公路重新开放》。",
+      "en": "On 24 June 1940 Japan demanded that Britain close the Burma Road. On 17 July Britain and Japan concluded an agreement providing that for three months from 18 July no arms, ammunition or other supplies would be carried to China through Burma. The road was closed for three months and reopened in October, further narrowing China’s external supply lines."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "英國暫時封閉滇緬公路之始末",
+        "author": "国立政治大学历史系",
+        "note": "学术论文，访问 2026-11-22"
+      },
+      {
+        "title": "抗日战争史上的今天 10月17日：滇缅公路重新开放",
+        "author": "光明网 2025-10-17",
+        "note": "官方媒体，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "yunnan-indochina-railway-blockade-1940-06",
+      "burma-expedition-1942-02"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "shanghai-surrender-1945-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "上海受降",
+      "en": "Shanghai Surrender Ceremony"
+    },
+    "date": "1945-09-11",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "kmt-forces"
+    ],
+    "category": "投降",
+    "summary": {
+      "zh": "1945年9月11日，汤恩伯主持上海地区日军受降仪式。",
+      "en": "On 11 September 1945 Tang Enbo presided over the Japanese surrender ceremony in Shanghai."
+    },
+    "description": {
+      "zh": "1945年9月11日，第三方面军司令官汤恩伯在上海主持日军受降仪式，日军代表松井久太郎在投降书上签字。上海受降是中国战区16个受降区之一，负责接受上海及周边地区日军缴械。日期据《伟大胜利——中国受降档案》与《中国战区十六场大受降》。",
+      "en": "On 11 September 1945 Tang Enbo, commander of the Third Front Army, presided over the Japanese surrender ceremony in Shanghai, and the Japanese representative Matsui Kyūtarō signed the instrument of surrender. Shanghai was one of the sixteen surrender zones of the China Theater, responsible for disarming Japanese forces in and around the city."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《伟大胜利——中国受降档案》",
+        "author": "人民日报 2014-09-05",
+        "note": "官方档案，访问 2026-11-22"
+      },
+      {
+        "title": "中国战区十六场大受降",
+        "author": "抗日战争纪念网",
+        "note": "专题资料，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "china-theater-surrender-1945-09",
+      "shanghai-fall-1937-11"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "hanoi-surrender-1945-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "河内受降",
+      "en": "Hanoi Surrender Ceremony"
+    },
+    "date": "1945-09-28",
+    "location": {
+      "lng": 105.85,
+      "lat": 21.03,
+      "place": {
+        "zh": "越南河内",
+        "en": "Hanoi, Vietnam"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "kmt-forces"
+    ],
+    "category": "投降",
+    "summary": {
+      "zh": "1945年9月28日，卢汉在河内接受越南北纬16度以北日军投降。",
+      "en": "On 28 September 1945 Lu Han accepted the surrender of Japanese forces north of the 16th parallel in Hanoi."
+    },
+    "description": {
+      "zh": "1945年9月28日上午10时，中国战区越北区受降仪式在越南河内原法国驻越总督府举行，第一方面军司令官卢汉主持，日本第38军司令官土桥勇逸中将签字投降。越南北纬16度以北地区属中国战区16个受降区之一。日期据《抗战胜利后中国军队越南受降》与国家档案局档案。",
+      "en": "At 10 a.m. on 28 September 1945 the surrender ceremony for the northern Indochina zone of the China Theater was held at the former French governor-general’s palace in Hanoi. Lu Han, commander of the First Front Army, presided, and Lieutenant General Tsuchihashi Yuitsu, commander of the Japanese 38th Army, signed the surrender. The area north of the 16th parallel was one of the sixteen surrender zones of the China Theater."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "抗战胜利后中国军队越南受降",
+        "author": "抗日战争纪念网",
+        "note": "专题资料，访问 2026-11-22"
+      },
+      {
+        "title": "1945年9月28日越南北部日军在河内向盟军投降",
+        "author": "国家档案局 2014-08-26",
+        "note": "官方档案，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "china-theater-surrender-1945-09",
+      "indochina-entry-1940-09"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "hongkong-surrender-1945-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "香港受降",
+      "en": "Hong Kong Surrender Ceremony"
+    },
+    "date": "1945-09-16",
+    "location": {
+      "lng": 114.17,
+      "lat": 22.32,
+      "place": {
+        "zh": "香港",
+        "en": "Hong Kong"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "allied-forces"
+    ],
+    "category": "投降",
+    "summary": {
+      "zh": "1945年9月16日，驻港日军在香港总督府向盟军投降。",
+      "en": "On 16 September 1945 the Japanese garrison in Hong Kong surrendered to the Allies at Government House."
+    },
+    "description": {
+      "zh": "1945年9月16日，英国皇家海军夏悫中将在香港总督府代表英国政府和中国战区最高统帅蒋介石接受日军投降，日本陆军冈田梅吉少将、海军藤田类太郎中将在投降书上签字。中国、美国、加拿大代表出席。日期据《香港重光》与《1945.9.16，香港受降仪式照片》。",
+      "en": "On 16 September 1945 Rear Admiral Cecil Harcourt of the Royal Navy accepted the Japanese surrender at Government House in Hong Kong on behalf of the British government and Generalissimo Chiang Kai-shek of the China Theater. Major General Okada Umekichi of the Japanese army and Vice Admiral Fujita Ruitarō of the navy signed; Chinese, American and Canadian representatives attended."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "香港重光",
+        "author": "维基百科",
+        "note": "百科，访问 2026-11-22"
+      },
+      {
+        "title": "1945.9.16，香港受降仪式照片",
+        "author": "抗日战争纪念网",
+        "note": "史料图片，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "hongkong-fall-1941-12",
+      "china-theater-surrender-1945-09"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
   }
 ]

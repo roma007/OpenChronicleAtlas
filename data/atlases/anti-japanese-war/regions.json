@@ -19549,6 +19549,180 @@
         117.76,
         41.94
       ]
+    },
+    {
+      "id": "county-jilin-u519cu5b89u53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "农安县"
+      },
+      "shortName": {
+        "zh": "农安"
+      },
+      "aliases": [
+        "农安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        125.18,
+        44.43
+      ]
+    },
+    {
+      "id": "place-overseas-u79cbu7530u82b1u5188",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "秋田花冈"
+      },
+      "shortName": {
+        "zh": "秋田花冈"
+      },
+      "aliases": [
+        "日本秋田花冈",
+        "日本秋田花冈"
+      ],
+      "modernName": {
+        "zh": "日本秋田花冈"
+      },
+      "point": [
+        140.55,
+        40.2
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "日本秋田花冈",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-gansu-u768bu5170u53bf",
+      "level": "county",
+      "parentId": "gansu",
+      "name": {
+        "zh": "皋兰县"
+      },
+      "shortName": {
+        "zh": "皋兰"
+      },
+      "aliases": [
+        "皋兰"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        103.83,
+        36.06
+      ]
+    },
+    {
+      "id": "place-gansu-u5170u5dde",
+      "level": "place",
+      "parentId": "county-gansu-u768bu5170u53bf",
+      "name": {
+        "zh": "兰州"
+      },
+      "shortName": {
+        "zh": "兰州"
+      },
+      "aliases": [
+        "甘肃兰州",
+        "甘肃兰州"
+      ],
+      "modernName": {
+        "zh": "甘肃兰州"
+      },
+      "point": [
+        103.83,
+        36.06
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "甘肃兰州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-fujian-u6c38u5b89u53bf",
+      "level": "county",
+      "parentId": "fujian",
+      "name": {
+        "zh": "永安县"
+      },
+      "shortName": {
+        "zh": "永安"
+      },
+      "aliases": [
+        "永安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        117.36,
+        25.94
+      ]
+    },
+    {
+      "id": "place-yunnan-u6ec7u8d8au94c1u8defu6cbfu7ebf",
+      "level": "place",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "滇越铁路沿线"
+      },
+      "shortName": {
+        "zh": "滇越铁路沿线"
+      },
+      "aliases": [
+        "云南滇越铁路沿线",
+        "云南滇越铁路沿线"
+      ],
+      "modernName": {
+        "zh": "云南滇越铁路沿线"
+      },
+      "point": [
+        103.94,
+        22.51
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "云南滇越铁路沿线",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-yunnan-u6ec7u7f05u516cu8defu6cbfu7ebf",
+      "level": "place",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "滇缅公路沿线"
+      },
+      "shortName": {
+        "zh": "滇缅公路沿线"
+      },
+      "aliases": [
+        "云南滇缅公路沿线",
+        "云南滇缅公路沿线"
+      ],
+      "modernName": {
+        "zh": "云南滇缅公路沿线"
+      },
+      "point": [
+        98.07,
+        24.08
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "云南滇缅公路沿线",
+        "confidence": "low"
+      }
     }
   ]
 }
