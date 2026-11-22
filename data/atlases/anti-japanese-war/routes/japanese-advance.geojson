@@ -14938,6 +14938,82 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.02,
+            33.38
+          ],
+          [
+            114.01,
+            33.25
+          ],
+          [
+            114,
+            33.15
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-05-08",
+        "endDate": "1944-05-09",
+        "order": 387,
+        "segmentType": "advance",
+        "name": {
+          "zh": "西平—遂平",
+          "en": "Xiping–Suiping"
+        },
+        "description": {
+          "zh": "1944年5月8日至9日，日军第27师团自西平沿平汉线南下，攻陷遂平县城。路线为示意简化。",
+          "en": "From 8 to 9 May 1944 the Japanese 27th Division advanced south from Xiping along the Beiping–Hankou railway and took Suiping. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.09,
+            32.15
+          ],
+          [
+            114.03,
+            32.8
+          ],
+          [
+            114.39,
+            32.61
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-05-04",
+        "endDate": "1944-05-13",
+        "order": 388,
+        "segmentType": "advance",
+        "name": {
+          "zh": "信阳—确山—正阳",
+          "en": "Xinyang–Queshan–Zhengyang"
+        },
+        "description": {
+          "zh": "1944年5月4日至13日，日军独立步兵第11旅团自信阳北上陷确山，再东陷正阳。路线为示意简化。",
+          "en": "From 4 to 13 May 1944 the Japanese 11th Independent Infantry Brigade moved north from Xinyang, took Queshan and then turned east to take Zhengyang. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

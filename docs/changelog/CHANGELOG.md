@@ -3,6 +3,29 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.233] - 2026-11-22
+
+### Added
+- **抗日战争 · 河南遂平/正阳补录（M251）**：新增 2 个事件、2 段路线。
+  - 遂平 1944-05-09（第二次沦陷，第一次为 1941-01-28）、正阳 1944-05-13。
+  - 路线（2 段，#387—#388）：西平—遂平、信阳—确山—正阳。
+  - 专题：1023 → **1025** 事件、562 → **564** 段路线；日军层：775 → **777** 事件、
+    383 → **385** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-henan-suiping-zhengyang.md`、
+  计划 `docs/plans/2026-11-22-M251-河南遂平正阳补录-plan.md`。
+
+### Changed
+- `regions.json` / `region-index.json`：地区 859 → **861**（新增遂平县、正阳县），
+  1025 个事件全部有省 + 县归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 汝南（无确切日期）、确山 1944-05-04（单一来源）、嵩县、偃师、太康、陈留、武陟继续待考。
+
+---
+
 ## [v1.0.232] - 2026-11-22
 
 ### Added

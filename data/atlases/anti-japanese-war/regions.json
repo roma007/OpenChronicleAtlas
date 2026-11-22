@@ -20877,6 +20877,50 @@
         113.05,
         33.87
       ]
+    },
+    {
+      "id": "county-henan-u9042u5e73u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "遂平县"
+      },
+      "shortName": {
+        "zh": "遂平"
+      },
+      "aliases": [
+        "遂平"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.0,
+        33.15
+      ]
+    },
+    {
+      "id": "county-henan-u6b63u9633u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "正阳县"
+      },
+      "shortName": {
+        "zh": "正阳"
+      },
+      "aliases": [
+        "正阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.39,
+        32.61
+      ]
     }
   ]
 }

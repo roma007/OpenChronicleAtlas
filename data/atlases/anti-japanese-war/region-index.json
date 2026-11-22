@@ -4424,6 +4424,14 @@
     "baofeng-fall-1944-05": [
       "henan",
       "county-henan-u5b9du4e30u53bf"
+    ],
+    "suiping-fall-1944-05": [
+      "henan",
+      "county-henan-u9042u5e73u53bf"
+    ],
+    "zhengyang-fall-1944-05": [
+      "henan",
+      "county-henan-u6b63u9633u53bf"
     ]
   },
   "routes": {
@@ -8317,6 +8325,22 @@
       ]
     },
     "japanese-invasion:386": {
+      "regionIds": [
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "japanese-invasion:387": {
+      "regionIds": [
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "japanese-invasion:388": {
       "regionIds": [
         "henan"
       ],
