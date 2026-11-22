@@ -125,14 +125,14 @@ for (const id of ids) {
             const b = ring[index] as [number, number];
             const length = distanceKm(a, b);
             if (length <= 80) continue;
-            // 真实的长直边界（川康界、新疆界等）最长约 165km，且只有一侧是省内；
-            // 跨省直线通常远超这个长度，或在中点两侧 20km 都落在省内。
+            // 判据只看几何，不看长度：真正横跨省域的直线，其中点两侧 20km
+            // 都落在本省环内；而真实长直边界（川康界、新疆—苏联界、
+            // 宁夏—蒙古沙漠界等）总有一侧在本省之外。
             const offsets = perpendicularOffsets(a, b, 20);
             const cutsThrough =
-              length > 170 ||
-              (offsets !== null &&
-                pointInRing(offsets[0], points) &&
-                pointInRing(offsets[1], points));
+              offsets !== null &&
+              pointInRing(offsets[0], points) &&
+              pointInRing(offsets[1], points);
             if (cutsThrough) {
               suspicious.add(`${regionId} ${Math.round(length)}km`);
             }

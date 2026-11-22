@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# DEPRECATED (M257): 省界已改由 ENP-China CC0 数据生成，见 scripts/import-roc-provinces-enp.py；本脚本仅存档。
 """Import ROC provincial outlines from a jiangshan-map GeoJSON export.
 
 Usage:

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# DEPRECATED (M257): 省界已改由 ENP-China CC0 数据生成，见 scripts/import-roc-provinces-enp.py；本脚本仅存档。
 """修复民国省界环里的「跨省直线」。
 
 源数据（江山时序 `region` 图层）把一些边界碎段接在了环的末尾或中间，

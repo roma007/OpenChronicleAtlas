@@ -1576,8 +1576,8 @@
       "place-overseas-u5e7fu5c9b"
     ],
     "soviet-declares-war-1945-08": [
-      "heilongjiang",
-      "place-heilongjiang-u4e2du56fdu4e1cu5317"
+      "jilin",
+      "place-jilin-u4e2du56fdu4e1cu5317"
     ],
     "last-battle-1945-08": [
       "shaanxi",
@@ -4519,8 +4519,7 @@
         "shanxi"
       ],
       "endpointRegionIds": [
-        "shanxi",
-        "hebei"
+        "shanxi"
       ]
     },
     "eighth-route-army:4": {
@@ -4560,7 +4559,6 @@
         "shanxi"
       ],
       "endpointRegionIds": [
-        "hebei",
         "shanxi"
       ]
     },
@@ -4598,8 +4596,7 @@
         "shanxi"
       ],
       "endpointRegionIds": [
-        "shanxi",
-        "hebei"
+        "shanxi"
       ]
     },
     "eighth-route-army:12": {
@@ -4610,7 +4607,6 @@
         "shanxi"
       ],
       "endpointRegionIds": [
-        "hebei",
         "shanxi"
       ]
     },
@@ -4631,9 +4627,11 @@
         "county-hebei-u6dbfu53bf",
         "county-hebei-u826fu4e61u53bf",
         "county-hebei-u901au53bf",
-        "hebei"
+        "hebei",
+        "shanxi"
       ],
       "endpointRegionIds": [
+        "shanxi",
         "hebei"
       ]
     },
@@ -4675,10 +4673,11 @@
     "eighth-route-army:18": {
       "regionIds": [
         "county-hebei-u6d9eu6e90u53bf",
-        "hebei"
+        "hebei",
+        "shanxi"
       ],
       "endpointRegionIds": [
-        "hebei"
+        "shanxi"
       ]
     },
     "eighth-route-army:19": {
@@ -4711,9 +4710,11 @@
       "regionIds": [
         "county-hebei-u6613u53bf",
         "county-hebei-u6d9eu6e90u53bf",
-        "hebei"
+        "hebei",
+        "shanxi"
       ],
       "endpointRegionIds": [
+        "shanxi",
         "hebei"
       ]
     },
@@ -4792,7 +4793,7 @@
       ],
       "endpointRegionIds": [
         "liaoning",
-        "heilongjiang"
+        "jilin"
       ]
     },
     "japanese-invasion:2": {
@@ -4813,7 +4814,8 @@
         "county-hebei-u77f3u95e8u5e02",
         "county-hebei-u826fu4e61u53bf",
         "hebei",
-        "henan"
+        "henan",
+        "shanxi"
       ],
       "endpointRegionIds": [
         "hebei",
@@ -4823,11 +4825,13 @@
     "japanese-invasion:4": {
       "regionIds": [
         "beiping",
+        "chahar",
         "county-hebei-u660cu5e73u53bf",
         "hebei"
       ],
       "endpointRegionIds": [
-        "hebei"
+        "hebei",
+        "chahar"
       ]
     },
     "japanese-invasion:5": {
@@ -4902,7 +4906,8 @@
         "shandong"
       ],
       "endpointRegionIds": [
-        "shandong"
+        "shandong",
+        "jiangsu"
       ]
     },
     "japanese-invasion:12": {
@@ -4920,11 +4925,12 @@
     },
     "japanese-invasion:13": {
       "regionIds": [
+        "hebei",
         "henan",
         "shandong"
       ],
       "endpointRegionIds": [
-        "shandong",
+        "hebei",
         "henan"
       ]
     },
@@ -4945,20 +4951,23 @@
     "japanese-invasion:15": {
       "regionIds": [
         "county-shanxi-u5b89u9091u53bf",
+        "henan",
         "shanxi"
       ],
       "endpointRegionIds": [
-        "shanxi"
+        "shanxi",
+        "henan"
       ]
     },
     "japanese-invasion:16": {
       "regionIds": [
         "anhui",
-        "henan"
+        "henan",
+        "hubei"
       ],
       "endpointRegionIds": [
         "anhui",
-        "henan"
+        "hubei"
       ]
     },
     "japanese-invasion:17": {
@@ -4992,8 +5001,7 @@
         "hubei"
       ],
       "endpointRegionIds": [
-        "hubei",
-        "henan"
+        "hubei"
       ]
     },
     "japanese-invasion:21": {
@@ -5088,7 +5096,8 @@
     },
     "japanese-invasion:32": {
       "regionIds": [
-        "henan"
+        "henan",
+        "hubei"
       ],
       "endpointRegionIds": [
         "henan"
@@ -5181,10 +5190,12 @@
     },
     "japanese-invasion:42": {
       "regionIds": [
-        "henan"
+        "henan",
+        "shanxi"
       ],
       "endpointRegionIds": [
-        "henan"
+        "henan",
+        "shanxi"
       ]
     },
     "japanese-invasion:43": {
@@ -5312,12 +5323,10 @@
     "japanese-invasion:56": {
       "regionIds": [
         "county-liaoning-u9526u53bf",
-        "liaoning",
-        "rehe"
+        "liaoning"
       ],
       "endpointRegionIds": [
-        "liaoning",
-        "rehe"
+        "liaoning"
       ]
     },
     "japanese-invasion:57": {
@@ -5329,7 +5338,7 @@
         "rehe"
       ],
       "endpointRegionIds": [
-        "rehe",
+        "liaoning",
         "hebei"
       ]
     },
@@ -5341,12 +5350,12 @@
         "rehe"
       ],
       "endpointRegionIds": [
+        "liaoning",
         "rehe"
       ]
     },
     "japanese-invasion:59": {
       "regionIds": [
-        "chahar",
         "county-hebei-u5bc6u4e91u53bf",
         "hebei",
         "rehe"
@@ -5360,7 +5369,8 @@
       "regionIds": [
         "county-hebei-u4e34u6986u53bf",
         "county-hebei-u8fc1u5b89u53bf",
-        "hebei"
+        "hebei",
+        "rehe"
       ],
       "endpointRegionIds": [
         "hebei"
@@ -5382,20 +5392,20 @@
       "regionIds": [
         "county-guangdong-u743cu5c71u53bf",
         "guangdong",
-        "hainan",
-        "overseas"
+        "hainan"
       ],
       "endpointRegionIds": [
-        "guangdong",
-        "overseas"
+        "guangdong"
       ]
     },
     "japanese-invasion:63": {
       "regionIds": [
         "county-guangdong-u5d16u53bf",
-        "guangdong"
+        "guangdong",
+        "overseas"
       ],
       "endpointRegionIds": [
+        "overseas",
         "guangdong"
       ]
     },
@@ -5474,9 +5484,11 @@
     "japanese-invasion:71": {
       "regionIds": [
         "county-guangdong-u6c55u5934u5e02",
-        "guangdong"
+        "guangdong",
+        "overseas"
       ],
       "endpointRegionIds": [
+        "overseas",
         "guangdong"
       ]
     },
@@ -5619,7 +5631,7 @@
         "shanxi"
       ],
       "endpointRegionIds": [
-        "hebei",
+        "chahar",
         "shanxi"
       ]
     },
@@ -5631,10 +5643,12 @@
         "county-hebei-u6e05u82d1u53bf",
         "county-hebei-u77f3u95e8u5e02",
         "county-hebei-u826fu4e61u53bf",
-        "hebei"
+        "hebei",
+        "shanxi"
       ],
       "endpointRegionIds": [
-        "hebei"
+        "hebei",
+        "shanxi"
       ]
     },
     "japanese-invasion:88": {
@@ -5646,12 +5660,12 @@
         "shanxi"
       ],
       "endpointRegionIds": [
-        "hebei",
         "shanxi"
       ]
     },
     "japanese-invasion:89": {
       "regionIds": [
+        "chahar",
         "shanxi",
         "suiyuan"
       ],
@@ -5673,7 +5687,8 @@
       "regionIds": [
         "county-guangdong-u5d16u53bf",
         "guangdong",
-        "hainan"
+        "hainan",
+        "overseas"
       ],
       "endpointRegionIds": [
         "guangdong"
@@ -5691,9 +5706,11 @@
     "japanese-invasion:93": {
       "regionIds": [
         "county-guangdong-u510bu53bf",
-        "guangdong"
+        "guangdong",
+        "overseas"
       ],
       "endpointRegionIds": [
+        "overseas",
         "guangdong"
       ]
     },
@@ -5701,31 +5718,29 @@
       "regionIds": [
         "county-guangdong-u5d16u53bf",
         "guangdong",
-        "hainan"
+        "hainan",
+        "overseas"
       ],
       "endpointRegionIds": [
+        "overseas",
         "guangdong"
       ]
     },
     "japanese-invasion:95": {
       "regionIds": [
         "guangdong",
-        "hainan",
-        "overseas"
+        "hainan"
       ],
       "endpointRegionIds": [
-        "overseas",
         "guangdong"
       ]
     },
     "japanese-invasion:96": {
       "regionIds": [
         "guangdong",
-        "hainan",
-        "overseas"
+        "hainan"
       ],
       "endpointRegionIds": [
-        "overseas",
         "guangdong"
       ]
     },
@@ -5928,7 +5943,8 @@
         "overseas"
       ],
       "endpointRegionIds": [
-        "overseas"
+        "overseas",
+        "guangdong"
       ]
     },
     "japanese-invasion:119": {
@@ -6092,6 +6108,7 @@
     },
     "japanese-invasion:136": {
       "regionIds": [
+        "anhui",
         "jiangsu"
       ],
       "endpointRegionIds": [
@@ -6179,6 +6196,7 @@
     },
     "japanese-invasion:146": {
       "regionIds": [
+        "anhui",
         "county-jiangsu-u94dcu5c71u53bf",
         "jiangsu"
       ],
@@ -6302,26 +6320,33 @@
     },
     "japanese-invasion:160": {
       "regionIds": [
-        "anhui"
+        "anhui",
+        "jiangsu"
       ],
       "endpointRegionIds": [
-        "anhui"
+        "anhui",
+        "jiangsu"
       ]
     },
     "japanese-invasion:161": {
       "regionIds": [
-        "anhui"
+        "anhui",
+        "henan",
+        "jiangsu"
       ],
       "endpointRegionIds": [
-        "anhui"
+        "jiangsu",
+        "henan"
       ]
     },
     "japanese-invasion:162": {
       "regionIds": [
-        "anhui"
+        "anhui",
+        "henan"
       ],
       "endpointRegionIds": [
-        "anhui"
+        "anhui",
+        "henan"
       ]
     },
     "japanese-invasion:163": {
@@ -6336,10 +6361,12 @@
     "japanese-invasion:164": {
       "regionIds": [
         "anhui",
-        "county-anhui-u6000u5b81u53bf"
+        "county-anhui-u6000u5b81u53bf",
+        "hubei"
       ],
       "endpointRegionIds": [
-        "anhui"
+        "anhui",
+        "hubei"
       ]
     },
     "japanese-invasion:165": {
@@ -6371,9 +6398,11 @@
       "regionIds": [
         "county-shandong-u5386u57ceu53bf",
         "county-shandong-u5fb7u53bf",
+        "hebei",
         "shandong"
       ],
       "endpointRegionIds": [
+        "hebei",
         "shandong"
       ]
     },
@@ -6435,6 +6464,7 @@
       "regionIds": [
         "county-shandong-u5a01u6d77u536bu884cu653fu533a",
         "county-shandong-u798fu5c71u53bf",
+        "overseas",
         "shandong"
       ],
       "endpointRegionIds": [
@@ -6446,6 +6476,7 @@
         "county-shandong-u5cc4u53bf",
         "county-shandong-u6ecbu9633u53bf",
         "county-shandong-u6ed5u53bf",
+        "jiangsu",
         "shandong"
       ],
       "endpointRegionIds": [
@@ -6472,10 +6503,12 @@
     "japanese-invasion:179": {
       "regionIds": [
         "county-shandong-u9104u57ceu53bf",
+        "hebei",
         "shandong"
       ],
       "endpointRegionIds": [
-        "shandong"
+        "shandong",
+        "hebei"
       ]
     },
     "japanese-invasion:180": {
@@ -6490,9 +6523,11 @@
     "japanese-invasion:181": {
       "regionIds": [
         "county-shandong-u5fb7u53bf",
+        "hebei",
         "shandong"
       ],
       "endpointRegionIds": [
+        "hebei",
         "shandong"
       ]
     },
@@ -6702,7 +6737,6 @@
     },
     "japanese-invasion:207": {
       "regionIds": [
-        "anhui",
         "jiangxi"
       ],
       "endpointRegionIds": [
@@ -6815,27 +6849,33 @@
         "county-hebei-u6e05u82d1u53bf",
         "county-hebei-u77f3u95e8u5e02",
         "county-hebei-u826fu4e61u53bf",
-        "hebei"
+        "hebei",
+        "shanxi"
       ],
       "endpointRegionIds": [
-        "hebei"
+        "hebei",
+        "shanxi"
       ]
     },
     "japanese-invasion:220": {
       "regionIds": [
         "county-hebei-u77f3u95e8u5e02",
-        "hebei"
+        "hebei",
+        "henan",
+        "shanxi"
       ],
       "endpointRegionIds": [
-        "hebei"
+        "shanxi",
+        "henan"
       ]
     },
     "japanese-invasion:221": {
       "regionIds": [
-        "hebei"
+        "hebei",
+        "henan"
       ],
       "endpointRegionIds": [
-        "hebei"
+        "henan"
       ]
     },
     "japanese-invasion:222": {
@@ -6906,10 +6946,11 @@
         "county-hebei-u6d89u53bf",
         "county-shanxi-u6f5eu57ceu53bf",
         "hebei",
+        "henan",
         "shanxi"
       ],
       "endpointRegionIds": [
-        "hebei",
+        "henan",
         "shanxi"
       ]
     },
@@ -6942,10 +6983,12 @@
     },
     "japanese-invasion:233": {
       "regionIds": [
+        "henan",
         "shanxi"
       ],
       "endpointRegionIds": [
-        "shanxi"
+        "shanxi",
+        "henan"
       ]
     },
     "japanese-invasion:234": {
@@ -6954,7 +6997,6 @@
         "henan"
       ],
       "endpointRegionIds": [
-        "hebei",
         "henan"
       ]
     },
@@ -6972,7 +7014,6 @@
         "henan"
       ],
       "endpointRegionIds": [
-        "hebei",
         "henan"
       ]
     },
@@ -7001,7 +7042,6 @@
         "henan"
       ],
       "endpointRegionIds": [
-        "anhui",
         "henan"
       ]
     },
@@ -7104,10 +7144,12 @@
     "japanese-invasion:251": {
       "regionIds": [
         "county-henan-u5185u4e61u53bf",
-        "henan"
+        "henan",
+        "hubei"
       ],
       "endpointRegionIds": [
-        "henan"
+        "henan",
+        "hubei"
       ]
     },
     "japanese-invasion:252": {
@@ -7131,38 +7173,40 @@
     "japanese-invasion:254": {
       "regionIds": [
         "chahar",
-        "county-chahar-u4e07u5168u53bf",
-        "hebei"
+        "county-chahar-u4e07u5168u53bf"
       ],
       "endpointRegionIds": [
-        "chahar",
-        "hebei"
+        "chahar"
       ]
     },
     "japanese-invasion:255": {
       "regionIds": [
+        "chahar",
         "suiyuan"
       ],
       "endpointRegionIds": [
+        "chahar",
         "suiyuan"
       ]
     },
     "japanese-invasion:256": {
       "regionIds": [
+        "chahar",
         "suiyuan"
       ],
       "endpointRegionIds": [
+        "chahar",
         "suiyuan"
       ]
     },
     "japanese-invasion:257": {
       "regionIds": [
         "chahar",
-        "hebei"
+        "shanxi"
       ],
       "endpointRegionIds": [
         "chahar",
-        "hebei"
+        "shanxi"
       ]
     },
     "japanese-invasion:258": {
@@ -7171,8 +7215,7 @@
         "suiyuan"
       ],
       "endpointRegionIds": [
-        "chahar",
-        "suiyuan"
+        "chahar"
       ]
     },
     "japanese-invasion:259": {
@@ -7183,7 +7226,6 @@
         "jiangxi"
       ],
       "endpointRegionIds": [
-        "hubei",
         "jiangxi"
       ]
     },
@@ -7201,10 +7243,11 @@
     "japanese-invasion:261": {
       "regionIds": [
         "county-hubei-u9633u65b0u53bf",
-        "hubei"
+        "hubei",
+        "jiangxi"
       ],
       "endpointRegionIds": [
-        "hubei"
+        "jiangxi"
       ]
     },
     "japanese-invasion:262": {
@@ -7221,9 +7264,11 @@
       "regionIds": [
         "county-hubei-u5927u51b6u53bf",
         "county-hubei-u9633u65b0u53bf",
-        "hubei"
+        "hubei",
+        "jiangxi"
       ],
       "endpointRegionIds": [
+        "jiangxi",
         "hubei"
       ]
     },
@@ -7553,7 +7598,6 @@
         "county-yunnan-u6f5eu897fu8bbeu6cbbu5c40",
         "county-yunnan-u7579u753au9547",
         "county-yunnan-u9f99u9675u53bf",
-        "overseas",
         "yunnan"
       ],
       "endpointRegionIds": [
@@ -7585,6 +7629,7 @@
         "county-yunnan-u6f5eu897fu8bbeu6cbbu5c40",
         "county-yunnan-u76c8u6c5fu8bbeu6cbbu5c40",
         "county-yunnan-u9647u5dddu8bbeu6cbbu5c40",
+        "overseas",
         "yunnan"
       ],
       "endpointRegionIds": [
@@ -7724,32 +7769,28 @@
       "regionIds": [
         "county-liaoning-u9526u53bf",
         "county-liaoning-u9526u897fu53bf",
-        "liaoning",
-        "rehe"
+        "liaoning"
       ],
       "endpointRegionIds": [
-        "rehe"
+        "liaoning"
       ]
     },
     "japanese-invasion:320": {
       "regionIds": [
         "county-liaoning-u9526u53bf",
-        "liaoning",
-        "rehe"
+        "liaoning"
       ],
       "endpointRegionIds": [
-        "rehe",
         "liaoning"
       ]
     },
     "japanese-invasion:321": {
       "regionIds": [
         "county-liaoning-u9526u53bf",
-        "liaoning",
-        "rehe"
+        "liaoning"
       ],
       "endpointRegionIds": [
-        "rehe"
+        "liaoning"
       ]
     },
     "japanese-invasion:322": {
@@ -7763,9 +7804,11 @@
     "japanese-invasion:323": {
       "regionIds": [
         "county-jilin-u68a8u6811u53bf",
-        "jilin"
+        "jilin",
+        "liaoning"
       ],
       "endpointRegionIds": [
+        "liaoning",
         "jilin"
       ]
     },
@@ -7784,7 +7827,7 @@
         "jilin"
       ],
       "endpointRegionIds": [
-        "heilongjiang"
+        "jilin"
       ]
     },
     "japanese-invasion:326": {
@@ -7794,7 +7837,7 @@
         "jilin"
       ],
       "endpointRegionIds": [
-        "heilongjiang"
+        "jilin"
       ]
     },
     "japanese-invasion:327": {
@@ -7803,17 +7846,16 @@
         "jilin"
       ],
       "endpointRegionIds": [
-        "heilongjiang"
+        "jilin"
       ]
     },
     "japanese-invasion:328": {
       "regionIds": [
         "county-jilin-u6866u5dddu53bf",
-        "heilongjiang",
         "jilin"
       ],
       "endpointRegionIds": [
-        "heilongjiang"
+        "jilin"
       ]
     },
     "japanese-invasion:329": {
@@ -7822,6 +7864,7 @@
         "jilin"
       ],
       "endpointRegionIds": [
+        "jilin",
         "heilongjiang"
       ]
     },
@@ -7829,53 +7872,47 @@
       "regionIds": [
         "county-jilin-u4e1cu5b81u53bf",
         "county-jilin-u5b81u5b89u53bf",
-        "heilongjiang",
-        "jilin",
-        "overseas"
+        "jilin"
       ],
       "endpointRegionIds": [
-        "heilongjiang",
-        "overseas"
+        "jilin"
       ]
     },
     "japanese-invasion:331": {
       "regionIds": [
-        "heilongjiang",
-        "jilin",
-        "overseas"
+        "jilin"
       ],
       "endpointRegionIds": [
-        "heilongjiang",
-        "overseas"
+        "jilin"
       ]
     },
     "japanese-invasion:332": {
       "regionIds": [
         "county-jilin-u5b81u5b89u53bf",
-        "heilongjiang",
         "jilin"
       ],
       "endpointRegionIds": [
-        "heilongjiang"
+        "jilin"
       ]
     },
     "japanese-invasion:333": {
       "regionIds": [
         "county-jilin-u6866u5dddu53bf",
-        "heilongjiang",
         "jilin"
       ],
       "endpointRegionIds": [
-        "heilongjiang"
+        "jilin"
       ]
     },
     "japanese-invasion:334": {
       "regionIds": [
         "county-jilin-u68a8u6811u53bf",
         "heilongjiang",
-        "jilin"
+        "jilin",
+        "liaoning"
       ],
       "endpointRegionIds": [
+        "liaoning",
         "jilin"
       ]
     },
@@ -7883,7 +7920,8 @@
       "regionIds": [
         "county-heilongjiang-u547cu4f26u53bf",
         "county-heilongjiang-u80eau6ee8u53bf",
-        "heilongjiang"
+        "heilongjiang",
+        "overseas"
       ],
       "endpointRegionIds": [
         "heilongjiang"
@@ -7897,14 +7935,17 @@
         "rehe"
       ],
       "endpointRegionIds": [
+        "liaoning",
         "rehe"
       ]
     },
     "japanese-invasion:337": {
       "regionIds": [
+        "liaoning",
         "rehe"
       ],
       "endpointRegionIds": [
+        "liaoning",
         "rehe"
       ]
     },
@@ -7973,10 +8014,12 @@
     "japanese-invasion:345": {
       "regionIds": [
         "county-hebei-u77f3u95e8u5e02",
-        "hebei"
+        "hebei",
+        "shanxi"
       ],
       "endpointRegionIds": [
-        "hebei"
+        "hebei",
+        "shanxi"
       ]
     },
     "japanese-invasion:346": {
@@ -8010,7 +8053,6 @@
         "shanxi"
       ],
       "endpointRegionIds": [
-        "hebei",
         "shanxi"
       ]
     },
@@ -8106,10 +8148,12 @@
     },
     "japanese-invasion:361": {
       "regionIds": [
-        "hubei"
+        "hubei",
+        "hunan"
       ],
       "endpointRegionIds": [
-        "hubei"
+        "hubei",
+        "hunan"
       ]
     },
     "japanese-invasion:362": {
@@ -8130,10 +8174,12 @@
     },
     "japanese-invasion:364": {
       "regionIds": [
-        "hubei"
+        "hubei",
+        "hunan"
       ],
       "endpointRegionIds": [
-        "hubei"
+        "hubei",
+        "hunan"
       ]
     },
     "japanese-invasion:365": {
@@ -8235,19 +8281,23 @@
     "japanese-invasion:377": {
       "regionIds": [
         "county-shanxi-u5b89u9091u53bf",
+        "shaanxi",
         "shanxi"
       ],
       "endpointRegionIds": [
-        "shanxi"
+        "shanxi",
+        "shaanxi"
       ]
     },
     "japanese-invasion:378": {
       "regionIds": [
         "county-shanxi-u5b89u9091u53bf",
+        "henan",
         "shanxi"
       ],
       "endpointRegionIds": [
-        "shanxi"
+        "shanxi",
+        "henan"
       ]
     },
     "japanese-invasion:379": {
@@ -8292,10 +8342,12 @@
     },
     "japanese-invasion:384": {
       "regionIds": [
-        "henan"
+        "henan",
+        "shaanxi"
       ],
       "endpointRegionIds": [
-        "henan"
+        "henan",
+        "shaanxi"
       ]
     },
     "japanese-invasion:385": {
@@ -8353,11 +8405,13 @@
     "kmt-forces:2": {
       "regionIds": [
         "beiping",
+        "chahar",
         "county-hebei-u660cu5e73u53bf",
         "hebei"
       ],
       "endpointRegionIds": [
-        "hebei"
+        "hebei",
+        "chahar"
       ]
     },
     "kmt-forces:3": {
@@ -8377,10 +8431,12 @@
         "county-hebei-u5b9au53bf",
         "county-hebei-u6e05u82d1u53bf",
         "county-hebei-u77f3u95e8u5e02",
-        "hebei"
+        "hebei",
+        "shanxi"
       ],
       "endpointRegionIds": [
-        "hebei"
+        "hebei",
+        "shanxi"
       ]
     },
     "kmt-forces:5": {
@@ -8424,8 +8480,7 @@
         "shandong"
       ],
       "endpointRegionIds": [
-        "jiangsu",
-        "shandong"
+        "jiangsu"
       ]
     },
     "kmt-forces:9": {
@@ -8572,11 +8627,13 @@
     },
     "kmt-forces:23": {
       "regionIds": [
+        "chahar",
         "county-suiyuan-u9676u6797u53bf",
         "suiyuan"
       ],
       "endpointRegionIds": [
-        "suiyuan"
+        "suiyuan",
+        "chahar"
       ]
     },
     "kmt-forces:24": {
@@ -8764,7 +8821,6 @@
         "county-jiangsu-u94dcu5c71u53bf",
         "county-shandong-u6ed5u53bf",
         "county-shanxi-u5e73u5b9au53bf",
-        "hebei",
         "henan",
         "jiangsu",
         "shandong",
@@ -8980,12 +9036,10 @@
     },
     "kmt-forces:58": {
       "regionIds": [
-        "overseas",
         "yunnan"
       ],
       "endpointRegionIds": [
-        "yunnan",
-        "overseas"
+        "yunnan"
       ]
     },
     "kmt-forces:59": {
@@ -9121,8 +9175,7 @@
         "shandong"
       ],
       "endpointRegionIds": [
-        "jiangsu",
-        "shandong"
+        "jiangsu"
       ]
     },
     "kmt-group-armies:5": {
@@ -9143,7 +9196,6 @@
         "hubei"
       ],
       "endpointRegionIds": [
-        "henan",
         "hubei"
       ]
     },
@@ -9168,9 +9220,11 @@
     },
     "kmt-group-armies:9": {
       "regionIds": [
+        "henan",
         "shanxi"
       ],
       "endpointRegionIds": [
+        "henan",
         "shanxi"
       ]
     },
@@ -9204,7 +9258,6 @@
         "hubei"
       ],
       "endpointRegionIds": [
-        "henan",
         "hubei"
       ]
     },
@@ -9418,7 +9471,6 @@
         "shanxi"
       ],
       "endpointRegionIds": [
-        "henan",
         "shanxi"
       ]
     },
@@ -9517,7 +9569,8 @@
         "shandong"
       ],
       "endpointRegionIds": [
-        "shandong"
+        "shandong",
+        "jiangsu"
       ]
     },
     "kmt-group-armies:49": {
@@ -9531,7 +9584,7 @@
         "shandong"
       ],
       "endpointRegionIds": [
-        "shandong",
+        "jiangsu",
         "hubei"
       ]
     },
@@ -9739,8 +9792,7 @@
     },
     "south-china-guerrillas:16": {
       "regionIds": [
-        "guangdong",
-        "jiangxi"
+        "guangdong"
       ],
       "endpointRegionIds": [
         "guangdong"

@@ -3,6 +3,36 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.239] - 2026-11-22
+
+### Fixed
+- **抗日战争 · 民国省界换源（M257）**：修两处省界硬伤。
+  - 旧省界来自江山时序（GPL-3.0）手绘层，川康界被简化为 **102.1°E 的直线约 550km**
+    （四川西界 6 段共线竖边，33.14°N–26.27°N），看起来「一条线横穿四川」。
+  - **西康提前建省**：1931/1937/1938 三帧即标「西康省」，实际 1939-01-01 才建省。
+- 改用 **ENP-China「Provinces in Republican China (boundaries)」**（Christian Henriot，
+  **CC0 1.0**，Virtual Shanghai 数据集 198）的 1928—1945 与 1945—1946 两套面：
+  Web Mercator→WGS84 反算、RDP 抽稀 0.008°、分 **1931 / 1937 / 1938 / 1939—1944 / 1945**
+  五帧（146 要素，1006 KB）。西康前三帧标「西康特别行政区」，台湾只出现在 1945 帧。
+- `scripts/check-region-index.ts`：把「边长 >170km 即判跨省直线」改为纯几何判据
+  （边中点两侧各 20km 都在本省环内才算横穿），因新数据含宁夏—蒙古 174km、
+  新疆—苏联 194km 的**真实**长直边界；海南三角形一类真问题仍会被抓。
+
+### Added
+- `scripts/import-roc-provinces-enp.py`（可复现导入脚本）、
+  研究笔记 `docs/research/units/anti-japanese-war-provinces-source.md`。
+- 旧导入/修补脚本 `import-roc-provinces.py`、`repair-roc-provinces.py`、`roc_ring_repair.py`
+  加 DEPRECATED 标注，仅存档。
+
+### Verify
+- 事件 **1026**、路线 **563**、地区 **862** 均不变。
+- 省界互斥性抽样 8979 点，0 点被两省同时包含；拉萨→西藏、昌都/康定→西康、成都/雅安/西昌→四川。
+- `pnpm validate:data`（省界 0 处跨省直线）、`pnpm check:routes`（0 问题）、
+  `pnpm check:heads`（0 个无来由端点）、`pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.238] - 2026-11-22
 
 ### Fixed
