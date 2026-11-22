@@ -3155,6 +3155,7 @@
       }
     },
     "entityIds": [
+      "ccp",
       "eighth-route-army"
     ],
     "category": "政治",
@@ -3191,7 +3192,10 @@
       "eighth-route-army-formed-1937-08",
       "shiguan-conference-1937-11"
     ],
-    "importance": 3
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "kmt-18th-army-luodian-1937-08",
@@ -6314,7 +6318,8 @@
       }
     },
     "entityIds": [
-      "eighth-route-army"
+      "eighth-route-army",
+      "ccp"
     ],
     "category": "政治",
     "summary": {
@@ -6807,7 +6812,8 @@
       }
     },
     "entityIds": [
-      "china-resistance"
+      "china-resistance",
+      "kmt-forces"
     ],
     "category": "军事",
     "summary": {
@@ -14164,7 +14170,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "allied-forces"
     ],
     "category": "战役",
     "summary": {
@@ -14898,6 +14905,7 @@
       }
     },
     "entityIds": [
+      "allied-forces",
       "kmt-forces"
     ],
     "category": "建制",
@@ -14934,7 +14942,10 @@
       "burma-expedition-1942-02",
       "dianxi-1944-05"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "kmt-18th-army-to-shipai-1943-04",
@@ -19712,7 +19723,9 @@
       }
     },
     "entityIds": [
-      "eighth-route-army"
+      "ccp",
+      "eighth-route-army",
+      "new-fourth-army"
     ],
     "category": "政治",
     "summary": {
@@ -19742,7 +19755,10 @@
       "southward-column-1944-11",
       "great-counteroffensive-1945-08"
     ],
-    "importance": 3
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "great-counteroffensive-1945-08",
@@ -23016,7 +23032,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "军事",
     "summary": {
@@ -29402,7 +29419,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "allied-forces"
     ],
     "category": "国际",
     "summary": {
@@ -30960,7 +30978,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "投降",
     "summary": {
@@ -32464,7 +32483,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "投降",
     "summary": {
@@ -33586,7 +33606,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "投降",
     "summary": {
@@ -33637,7 +33658,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "投降",
     "summary": {
@@ -34222,7 +34244,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "投降",
     "summary": {
@@ -35105,7 +35128,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "投降",
     "summary": {
@@ -35155,7 +35179,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "投降",
     "summary": {
@@ -36143,7 +36168,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "投降",
     "summary": {
@@ -40181,7 +40207,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "军事",
     "summary": {
@@ -40209,7 +40236,10 @@
       "suixian-fall-1939-05",
       "japanese-suizao-1939-05"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "xiangyang-fall-1940-06",
@@ -40467,7 +40497,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "军事",
     "summary": {
@@ -40801,7 +40832,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "投降",
     "summary": {
@@ -41752,7 +41784,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "军事",
     "summary": {
@@ -42418,7 +42451,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "军事",
     "summary": {
@@ -42446,7 +42480,10 @@
       "dongkou-fall-1945-04",
       "wugang-battle-1945-04"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "changsha-surrender-1945-09",
@@ -42465,7 +42502,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "投降",
     "summary": {
@@ -42705,7 +42743,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "军事",
     "summary": {
@@ -42733,7 +42772,10 @@
       "nanning-fall-1939-11",
       "kunlun-fall-1939-12"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "kunlun-fall-1939-12",
@@ -48500,7 +48542,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "allied-forces"
     ],
     "category": "暴行",
     "summary": {
@@ -54609,7 +54652,8 @@
       }
     },
     "entityIds": [
-      "northeast-anti-japanese"
+      "northeast-anti-japanese",
+      "ccp"
     ],
     "category": "建制",
     "summary": {

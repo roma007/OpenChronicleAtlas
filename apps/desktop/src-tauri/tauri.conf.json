@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
   "productName": "史迹",
-  "version": "1.0.256",
+  "version": "1.0.257",
   "identifier": "com.openchronicle.atlas.desktop",
   "build": {
     "beforeDevCommand": "pnpm --filter @atlas/web dev --mode desktop",
@@ -45,7 +45,7 @@
     "copyright": "© 2026 OpenChronicle Atlas",
     "macOS": {
       "minimumSystemVersion": "13.0",
-      "bundleVersion": "10256",
+      "bundleVersion": "10257",
       "entitlements": "entitlements.plist"
     },
     "windows": {
