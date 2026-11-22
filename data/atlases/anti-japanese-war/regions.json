@@ -21376,8 +21376,8 @@
         "pointSource": "event-average"
       },
       "point": [
-        130.25,
-        47.115
+        130.1167,
+        46.9767
       ]
     },
     {
@@ -21398,8 +21398,8 @@
         "pointSource": "event-average"
       },
       "point": [
-        127.96,
-        45.21
+        127.855,
+        45.045
       ]
     },
     {
@@ -21955,6 +21955,256 @@
         133.94,
         45.77
       ]
+    },
+    {
+      "id": "county-jilin-u629au677eu53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "抚松县"
+      },
+      "shortName": {
+        "zh": "抚松"
+      },
+      "aliases": [
+        "抚松"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        126.9,
+        42.03
+      ]
+    },
+    {
+      "id": "place-jilin-u629au677eu5c0fu6c64u6cb3",
+      "level": "place",
+      "parentId": "county-jilin-u629au677eu53bf",
+      "name": {
+        "zh": "小汤河"
+      },
+      "shortName": {
+        "zh": "小汤河"
+      },
+      "aliases": [
+        "吉林抚松小汤河（今白山江源）",
+        "吉林抚松小汤河"
+      ],
+      "modernName": {
+        "zh": "吉林抚松小汤河（今白山江源）"
+      },
+      "point": [
+        126.9,
+        42.03
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林抚松小汤河（今白山江源）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-heilongjiang-u6c64u539fu4e01u5927u5343u5c6f",
+      "level": "place",
+      "parentId": "county-heilongjiang-u6c64u539fu53bf",
+      "name": {
+        "zh": "丁大千屯"
+      },
+      "shortName": {
+        "zh": "丁大千屯"
+      },
+      "aliases": [
+        "黑龙江汤原丁大千屯",
+        "黑龙江汤原丁大千屯"
+      ],
+      "modernName": {
+        "zh": "黑龙江汤原丁大千屯"
+      },
+      "point": [
+        129.85,
+        46.7
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "黑龙江汤原丁大千屯",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jilin-u9976u6cb3u53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "饶河县"
+      },
+      "shortName": {
+        "zh": "饶河"
+      },
+      "aliases": [
+        "饶河"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        133.9,
+        46.88
+      ]
+    },
+    {
+      "id": "place-jilin-u9976u6cb3u5c0fu5357u6cb3u5929u6d25u73ed",
+      "level": "place",
+      "parentId": "county-jilin-u9976u6cb3u53bf",
+      "name": {
+        "zh": "小南河天津班"
+      },
+      "shortName": {
+        "zh": "小南河天津班"
+      },
+      "aliases": [
+        "吉林饶河小南河天津班",
+        "吉林饶河小南河天津班"
+      ],
+      "modernName": {
+        "zh": "吉林饶河小南河天津班"
+      },
+      "point": [
+        133.9,
+        46.88
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林饶河小南河天津班",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-heilongjiang-u4f5bu5c71u53bf",
+      "level": "county",
+      "parentId": "heilongjiang",
+      "name": {
+        "zh": "佛山县"
+      },
+      "shortName": {
+        "zh": "佛山"
+      },
+      "aliases": [
+        "佛山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        129.8,
+        48.4
+      ]
+    },
+    {
+      "id": "place-heilongjiang-u4f5bu5c71u53bfu4e4cu62c9u560e",
+      "level": "place",
+      "parentId": "county-heilongjiang-u4f5bu5c71u53bf",
+      "name": {
+        "zh": "乌拉嘎"
+      },
+      "shortName": {
+        "zh": "乌拉嘎"
+      },
+      "aliases": [
+        "黑龙江佛山县乌拉嘎（今嘉荫）",
+        "黑龙江佛山县乌拉嘎"
+      ],
+      "modernName": {
+        "zh": "黑龙江佛山县乌拉嘎（今嘉荫）"
+      },
+      "point": [
+        129.8,
+        48.4
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "黑龙江佛山县乌拉嘎（今嘉荫）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jilin-u4e94u5e38u53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "五常县"
+      },
+      "shortName": {
+        "zh": "五常"
+      },
+      "aliases": [
+        "五常"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        127.3,
+        44.65
+      ]
+    },
+    {
+      "id": "place-jilin-u4e94u5e38u77f3u5934u4eaeu5b50",
+      "level": "place",
+      "parentId": "county-jilin-u4e94u5e38u53bf",
+      "name": {
+        "zh": "石头亮子"
+      },
+      "shortName": {
+        "zh": "石头亮子"
+      },
+      "aliases": [
+        "吉林五常石头亮子",
+        "吉林五常石头亮子"
+      ],
+      "modernName": {
+        "zh": "吉林五常石头亮子"
+      },
+      "point": [
+        127.3,
+        44.65
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林五常石头亮子",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-jilin-u73e0u6cb3u4e00u9762u5761u9519u8349u9876u5b50",
+      "level": "place",
+      "parentId": "county-jilin-u73e0u6cb3u53bf",
+      "name": {
+        "zh": "一面坡错草顶子"
+      },
+      "shortName": {
+        "zh": "一面坡错草顶子"
+      },
+      "aliases": [
+        "吉林珠河一面坡（今尚志）错草顶子",
+        "吉林珠河一面坡错草顶子"
+      ],
+      "modernName": {
+        "zh": "吉林珠河一面坡（今尚志）错草顶子"
+      },
+      "point": [
+        127.75,
+        44.88
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林珠河一面坡（今尚志）错草顶子",
+        "confidence": "medium"
+      }
     }
   ]
 }
