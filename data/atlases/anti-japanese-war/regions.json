@@ -22330,6 +22330,82 @@
         "sourcePlace": "黑龙江庆安青峰岭",
         "confidence": "medium"
       }
+    },
+    {
+      "id": "place-overseas-u83abu65afu79d1",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "莫斯科"
+      },
+      "shortName": {
+        "zh": "莫斯科"
+      },
+      "aliases": [
+        "苏联莫斯科",
+        "苏联莫斯科"
+      ],
+      "modernName": {
+        "zh": "苏联莫斯科"
+      },
+      "point": [
+        37.62,
+        55.75
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "苏联莫斯科",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-jilin-u78d0u77f3u53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "磐石县"
+      },
+      "shortName": {
+        "zh": "磐石"
+      },
+      "aliases": [
+        "磐石"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        126.05,
+        42.95
+      ]
+    },
+    {
+      "id": "place-jilin-u78d0u77f3u73bbu7483u6cb3u5957",
+      "level": "place",
+      "parentId": "county-jilin-u78d0u77f3u53bf",
+      "name": {
+        "zh": "玻璃河套"
+      },
+      "shortName": {
+        "zh": "玻璃河套"
+      },
+      "aliases": [
+        "吉林磐石玻璃河套",
+        "吉林磐石玻璃河套"
+      ],
+      "modernName": {
+        "zh": "吉林磐石玻璃河套"
+      },
+      "point": [
+        126.05,
+        42.95
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林磐石玻璃河套",
+        "confidence": "medium"
+      }
     }
   ]
 }
