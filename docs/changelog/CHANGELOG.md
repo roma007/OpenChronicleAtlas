@@ -3,6 +3,31 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.225] - 2026-11-22
+
+### Added
+- **抗日战争 · 湖南汉寿/临澧/宁乡/湘乡补录（M243）**：新增 4 个事件、5 段路线。
+  - 汉寿 1943-11-22（异说 11-21，11-25 被第197师克复）、临澧 1943-11-18、
+    宁乡 1944-07-29（异说 08-02）、湘乡 1944-06-21。
+  - 路线（5 段，#367—#371）：安乡—汉寿、澧县—临澧、益阳—宁乡、宁乡—湘乡、
+    湘潭—石潭—湘乡。
+  - 专题：1003 → **1007** 事件、542 → **547** 段路线；日军层：755 → **759** 事件、
+    363 → **368** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-hunan-hanshou-linli-ningxiang-xiangxiang.md`、
+  计划 `docs/plans/2026-11-22-M243-湖南汉寿临澧宁乡湘乡补录-plan.md`。
+
+### Changed
+- `scripts/build-region-data.py`：增加汉寿、临澧、宁乡、湘乡映射。
+- `regions.json` / `region-index.json`：地区 841 → **845**，1007 个事件全部有省 + 县归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 醴陵、茶陵、安仁因多次易手、日期异说未清，继续待考。
+
+---
+
 ## [v1.0.224] - 2026-11-22
 
 ### Added

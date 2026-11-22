@@ -4344,6 +4344,22 @@
     "zhongxiang-fall-1939-03": [
       "hubei",
       "county-hubei-u949fu7965u53bf"
+    ],
+    "hanshou-fall-1943-11": [
+      "hunan",
+      "county-hunan-u6c49u5bffu53bf"
+    ],
+    "linli-fall-1943-11": [
+      "hunan",
+      "county-hunan-u4e34u6fa7u53bf"
+    ],
+    "ningxiang-fall-1944-07": [
+      "hunan",
+      "county-hunan-u5b81u4e61u53bf"
+    ],
+    "xiangxiang-fall-1944-06": [
+      "hunan",
+      "county-hunan-u6e58u4e61u53bf"
     ]
   },
   "routes": {
@@ -8081,6 +8097,46 @@
       ],
       "endpointRegionIds": [
         "hubei"
+      ]
+    },
+    "japanese-invasion:367": {
+      "regionIds": [
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "japanese-invasion:368": {
+      "regionIds": [
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "japanese-invasion:369": {
+      "regionIds": [
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "japanese-invasion:370": {
+      "regionIds": [
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "japanese-invasion:371": {
+      "regionIds": [
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
       ]
     },
     "kmt-forces:1": {

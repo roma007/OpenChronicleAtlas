@@ -20481,6 +20481,94 @@
         112.59,
         31.17
       ]
+    },
+    {
+      "id": "county-hunan-u6c49u5bffu53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "汉寿县"
+      },
+      "shortName": {
+        "zh": "汉寿"
+      },
+      "aliases": [
+        "汉寿"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.97,
+        28.9
+      ]
+    },
+    {
+      "id": "county-hunan-u4e34u6fa7u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "临澧县"
+      },
+      "shortName": {
+        "zh": "临澧"
+      },
+      "aliases": [
+        "临澧"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.65,
+        29.44
+      ]
+    },
+    {
+      "id": "county-hunan-u5b81u4e61u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "宁乡县"
+      },
+      "shortName": {
+        "zh": "宁乡"
+      },
+      "aliases": [
+        "宁乡"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.55,
+        28.25
+      ]
+    },
+    {
+      "id": "county-hunan-u6e58u4e61u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "湘乡县"
+      },
+      "shortName": {
+        "zh": "湘乡"
+      },
+      "aliases": [
+        "湘乡"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.53,
+        27.73
+      ]
     }
   ]
 }

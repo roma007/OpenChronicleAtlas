@@ -14174,6 +14174,196 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.17,
+            29.41
+          ],
+          [
+            112.05,
+            29.15
+          ],
+          [
+            111.97,
+            28.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1943-11-07",
+        "endDate": "1943-11-22",
+        "order": 367,
+        "segmentType": "advance",
+        "name": {
+          "zh": "安乡—汉寿（常德会战东路）",
+          "en": "Anxiang–Hanshou (eastern thrust of the Changde campaign)"
+        },
+        "description": {
+          "zh": "1943年11月7日至22日，常德会战东路日军第40师团自安乡南下，沿洞庭湖西岸攻陷汉寿。路线为示意简化。",
+          "en": "From 7 to 22 November 1943 the Japanese 40th Division, on the eastern thrust of the Changde campaign, moved south from Anxiang along the western shore of Dongting Lake and took Hanshou. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.76,
+            29.63
+          ],
+          [
+            111.7,
+            29.53
+          ],
+          [
+            111.65,
+            29.44
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1943-11-17",
+        "endDate": "1943-11-18",
+        "order": 368,
+        "segmentType": "advance",
+        "name": {
+          "zh": "澧县—临澧",
+          "en": "Li County–Linli"
+        },
+        "description": {
+          "zh": "1943年11月17日至18日，日军自澧县南下攻陷临澧县城。路线为示意简化。",
+          "en": "From 17 to 18 November 1943 the Japanese moved south from Li County and took Linli. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.36,
+            28.55
+          ],
+          [
+            112.45,
+            28.4
+          ],
+          [
+            112.55,
+            28.25
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-07-28",
+        "endDate": "1944-07-29",
+        "order": 369,
+        "segmentType": "advance",
+        "name": {
+          "zh": "益阳—宁乡",
+          "en": "Yiyang–Ningxiang"
+        },
+        "description": {
+          "zh": "1944年7月28日至29日，日军自益阳南犯宁乡，攻陷县城。路线为示意简化。",
+          "en": "From 28 to 29 July 1944 the Japanese advanced south from Yiyang against Ningxiang and took the county town. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.55,
+            28.25
+          ],
+          [
+            112.5,
+            28
+          ],
+          [
+            112.53,
+            27.73
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-06-19",
+        "endDate": "1944-06-21",
+        "order": 370,
+        "segmentType": "advance",
+        "name": {
+          "zh": "宁乡—湘乡",
+          "en": "Ningxiang–Xiangxiang"
+        },
+        "description": {
+          "zh": "1944年6月19日至21日，日军第40师团自宁乡沿湘宁大道南犯，攻陷湘乡县城。路线为示意简化。",
+          "en": "From 19 to 21 June 1944 the Japanese 40th Division advanced south from Ningxiang along the Xiangxiang road and took Xiangxiang. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.94,
+            27.83
+          ],
+          [
+            112.75,
+            27.8
+          ],
+          [
+            112.53,
+            27.73
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-06-18",
+        "endDate": "1944-06-21",
+        "order": 371,
+        "segmentType": "advance",
+        "name": {
+          "zh": "湘潭—石潭—湘乡",
+          "en": "Xiangtan–Shitan–Xiangxiang"
+        },
+        "description": {
+          "zh": "1944年6月18日至21日，日军第116师团第133联队自湘潭经石潭西进，与第40师团会攻湘乡。路线为示意简化。",
+          "en": "From 18 to 21 June 1944 the 133rd Regiment of the Japanese 116th Division moved west from Xiangtan via Shitan to converge on Xiangxiang with the 40th Division. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
