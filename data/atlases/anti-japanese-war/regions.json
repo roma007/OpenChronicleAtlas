@@ -20305,6 +20305,50 @@
         113.08,
         34.94
       ]
+    },
+    {
+      "id": "county-shanxi-u76c2u53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "盂县"
+      },
+      "shortName": {
+        "zh": "盂"
+      },
+      "aliases": [
+        "盂"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.41,
+        38.09
+      ]
+    },
+    {
+      "id": "county-shanxi-u5f90u6c9fu53bf",
+      "level": "county",
+      "parentId": "shanxi",
+      "name": {
+        "zh": "徐沟县"
+      },
+      "shortName": {
+        "zh": "徐沟"
+      },
+      "aliases": [
+        "徐沟"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.48,
+        37.56
+      ]
     }
   ]
 }

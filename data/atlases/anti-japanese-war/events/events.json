@@ -49950,5 +49950,150 @@
       "qinyang-fall-1938-02"
     ],
     "importance": 3
+  },
+  {
+    "id": "yuxian-fall-1938-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "盂县沦陷",
+      "en": "Fall of Yuxian"
+    },
+    "date": "1938-01-09",
+    "location": {
+      "lng": 113.41,
+      "lat": 38.09,
+      "place": {
+        "zh": "山西盂县",
+        "en": "Yuxian, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年12月26日日军侵入盂县后退回，1938年1月9日再次占领盂县城。",
+      "en": "The Japanese entered Yuxian on 26 December 1937 and withdrew; on 9 January 1938 they occupied the town again."
+    },
+    "description": {
+      "zh": "1937年12月26日，日军千余人由阳泉侵入盂县城，次日拂晓循原路退回阳泉。1938年1月9日，驻阳泉日军第二次占领盂县城，拼凑维持会，成立伪县公署。盂县抗日民主政府转入乡村，盂县成为晋察冀边区的前线。日期据《山西县城沦陷及光复概况》、盂县人民政府《历史沿革》与《山西：全国抗战的桥头堡》。",
+      "en": "On 26 December 1937 over a thousand Japanese troops entered Yuxian from Yangquan and withdrew at dawn the next day. On 9 January 1938 the Yangquan garrison occupied the town a second time, set up a maintenance committee and established a puppet county office. The Yuxian anti-Japanese government moved to the countryside, and Yuxian became a front line of the Jin-Cha-Ji border region."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "山西县城沦陷及光复概况",
+        "author": "太原道汇编（各县政协、县志办稿）2017-09-12",
+        "note": "地方志汇编，访问 2026-11-22"
+      },
+      {
+        "title": "历史沿革",
+        "author": "山西盂县人民政府",
+        "note": "地方政府，访问 2026-11-22"
+      },
+      {
+        "title": "山西：全国抗战的桥头堡",
+        "author": "抗日战争纪念网 2017-09-14",
+        "note": "战史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "yangquan-fall-1937-10"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xinxian-fall-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "忻县沦陷",
+      "en": "Fall of Xinxian"
+    },
+    "date": "1937-11-03",
+    "location": {
+      "lng": 112.73,
+      "lat": 38.42,
+      "place": {
+        "zh": "山西忻县",
+        "en": "Xinxian, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年11月3日，日军分三路侵入忻县，占领县城。",
+      "en": "On 3 November 1937 the Japanese advanced into Xinxian in three columns and occupied the county town."
+    },
+    "description": {
+      "zh": "1937年11月2日晚，忻口守军主动南撤，忻口战役结束。3日晨，日军兵分三路侵入忻县境内：中路自界河铺、忻口而南，西路自白水、奇村南下，东路自梨梨沟经白村、伏虎庄、高村而来，当日占领忻县城。日期据忻游网《忻州各县城沦陷时间》与《晋绥革命根据地大事记》；《山西县城沦陷及光复概况》记4日入城，异说并存。",
+      "en": "On the night of 2 November 1937 the Chinese defenders at Xinkou withdrew south, ending the battle. At dawn on the 3rd the Japanese advanced into Xinxian in three columns—the centre via Jiehepu and Xinkou, the west via Baishui and Qicun, and the east via Lili Gully, Baicun, Huhuzhuang and Gaocun—and occupied the county town that day. The Shanxi county gazetteer gives 4 November."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "忻州各县城沦陷时间与解放时间及主要战役战斗",
+        "author": "忻游网 2023-08-31",
+        "note": "地方史，访问 2026-11-22"
+      },
+      {
+        "title": "《晋绥革命根据地大事记》1937年11月",
+        "author": "中共山西省委党史研究室/山西省晋绥文化教育发展基金会 2016-10-21",
+        "note": "地方党史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "xinkou-1937-10",
+      "japanese-taiyuan-1937-11"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "xugou-fall-1937-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "徐沟沦陷",
+      "en": "Fall of Xugou"
+    },
+    "date": "1937-11-22",
+    "location": {
+      "lng": 112.48,
+      "lat": 37.56,
+      "place": {
+        "zh": "山西徐沟",
+        "en": "Xugou, Shanxi"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年11月22日，日军进入徐沟县城。",
+      "en": "On 22 November 1937 the Japanese entered Xugou."
+    },
+    "description": {
+      "zh": "1937年11月15日，日军路过徐沟县境；11月22日，日军进入徐沟县城，成立维持会、县公署，常毅夫任县知事。另有11月8日与太原、清源同日沦陷之说，见《抗日堡垒洛池渠》；本批取《山西县城沦陷及光复概况》的11月22日，异说并存。",
+      "en": "On 15 November 1937 Japanese troops passed through Xugou county; on the 22nd they entered the county town, set up a maintenance committee and county office, and appointed Chang Yifu as magistrate. Some accounts give 8 November, the same day as Taiyuan and Qingyuan; this entry follows the Shanxi county gazetteer, with the variant noted."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "山西县城沦陷及光复概况",
+        "author": "太原道汇编（各县政协、县志办稿）2017-09-12",
+        "note": "地方志汇编，访问 2026-11-22"
+      },
+      {
+        "title": "抗日堡垒洛池渠",
+        "author": "抗日战争纪念网",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "yuci-fall-1937-11",
+      "qingyuan-fall-1937-11"
+    ],
+    "importance": 2
   }
 ]

@@ -3,6 +3,30 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.222] - 2026-11-22
+
+### Added
+- **抗日战争 · 山西盂县/忻县/徐沟补录（M240）**：新增 3 个事件、3 段路线。
+  - 盂县 1938-01-09（第二次占领，12-26 曾短暂侵入后退回）、
+    忻县 1937-11-03（异说 11-04）、徐沟 1937-11-22（异说 11-08）。
+  - 路线（3 段，#358—#360）：阳泉—盂县、忻口—忻县、榆次—徐沟。
+  - 专题：994 → **997** 事件、533 → **536** 段路线；日军层：746 → **749** 事件、
+    354 → **357** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-shanxi-deferred2.md`、计划
+  `docs/plans/2026-11-22-M240-山西盂县忻县徐沟补录-plan.md`。
+
+### Changed
+- `scripts/build-region-data.py`：增加盂县、忻县、徐沟县映射。
+- `regions.json` / `region-index.json`：地区 833 → **835**，997 个事件全部有省 + 县归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 盂县 12-16 首次侵入因 12-16/12-26 冲突未单独成事件；武陟仍待考。
+
+---
+
 ## [v1.0.221] - 2026-11-22
 
 ### Added

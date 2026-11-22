@@ -13828,6 +13828,108 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.58,
+            37.86
+          ],
+          [
+            113.41,
+            38.09
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-12-16",
+        "endDate": "1938-01-09",
+        "order": 358,
+        "segmentType": "advance",
+        "name": {
+          "zh": "阳泉—盂县",
+          "en": "Yangquan–Yuxian"
+        },
+        "description": {
+          "zh": "1937年12月26日与1938年1月9日，日军两次自阳泉进犯盂县。路线为示意简化。",
+          "en": "The Japanese advanced from Yangquan against Yuxian twice, on 26 December 1937 and 9 January 1938. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.72,
+            38.55
+          ],
+          [
+            112.73,
+            38.42
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-02",
+        "endDate": "1937-11-03",
+        "order": 359,
+        "segmentType": "advance",
+        "name": {
+          "zh": "忻口—忻县",
+          "en": "Xinkou–Xinxian"
+        },
+        "description": {
+          "zh": "1937年11月2日至3日，日军自忻口南下占领忻县。路线为示意简化。",
+          "en": "From 2 to 3 November 1937 the Japanese advanced south from Xinkou and occupied Xinxian. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.75,
+            37.69
+          ],
+          [
+            112.48,
+            37.56
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-04",
+        "endDate": "1937-11-22",
+        "order": 360,
+        "segmentType": "advance",
+        "name": {
+          "zh": "榆次—徐沟",
+          "en": "Yuci–Xugou"
+        },
+        "description": {
+          "zh": "1937年11月4日至22日，日军自榆次方向进占徐沟。路线为示意简化。",
+          "en": "From 4 to 22 November 1937 the Japanese advanced from the Yuci direction and occupied Xugou. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

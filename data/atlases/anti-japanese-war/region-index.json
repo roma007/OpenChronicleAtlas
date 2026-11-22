@@ -4308,6 +4308,18 @@
     "wenxian-fall-1938-03": [
       "henan",
       "county-henan-u6e29u53bf"
+    ],
+    "yuxian-fall-1938-01": [
+      "shanxi",
+      "county-shanxi-u76c2u53bf"
+    ],
+    "xinxian-fall-1937-11": [
+      "shanxi",
+      "county-shanxi-u5ffbu53bf"
+    ],
+    "xugou-fall-1937-11": [
+      "shanxi",
+      "county-shanxi-u5f90u6c9fu53bf"
     ]
   },
   "routes": {
@@ -7973,6 +7985,30 @@
       ],
       "endpointRegionIds": [
         "henan"
+      ]
+    },
+    "japanese-invasion:358": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:359": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:360": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
       ]
     },
     "kmt-forces:1": {
