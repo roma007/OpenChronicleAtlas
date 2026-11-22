@@ -21952,8 +21952,8 @@
         "pointSource": "event-average"
       },
       "point": [
-        133.94,
-        45.77
+        133.77,
+        45.835
       ]
     },
     {
@@ -22203,6 +22203,131 @@
       "extensions": {
         "frame": "ROC-1937",
         "sourcePlace": "吉林珠河一面坡（今尚志）错草顶子",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-overseas-u4f2fu529b",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "伯力"
+      },
+      "shortName": {
+        "zh": "伯力"
+      },
+      "aliases": [
+        "苏联伯力",
+        "苏联伯力"
+      ],
+      "modernName": {
+        "zh": "苏联伯力"
+      },
+      "point": [
+        135.07,
+        48.48
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "苏联伯力",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-heilongjiang-u6d77u4f26u53bf",
+      "level": "county",
+      "parentId": "heilongjiang",
+      "name": {
+        "zh": "海伦县"
+      },
+      "shortName": {
+        "zh": "海伦"
+      },
+      "aliases": [
+        "海伦"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        126.97,
+        47.46
+      ]
+    },
+    {
+      "id": "place-jilin-u864eu6797u5c0fu6728u6cb3",
+      "level": "place",
+      "parentId": "county-jilin-u864eu6797u53bf",
+      "name": {
+        "zh": "小木河"
+      },
+      "shortName": {
+        "zh": "小木河"
+      },
+      "aliases": [
+        "吉林虎林小木河",
+        "吉林虎林小木河"
+      ],
+      "modernName": {
+        "zh": "吉林虎林小木河"
+      },
+      "point": [
+        133.6,
+        45.9
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林虎林小木河",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-heilongjiang-u5e86u5b89u53bf",
+      "level": "county",
+      "parentId": "heilongjiang",
+      "name": {
+        "zh": "庆安县"
+      },
+      "shortName": {
+        "zh": "庆安"
+      },
+      "aliases": [
+        "庆安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        127.88,
+        46.53
+      ]
+    },
+    {
+      "id": "place-heilongjiang-u5e86u5b89u9752u5cf0u5cad",
+      "level": "place",
+      "parentId": "county-heilongjiang-u5e86u5b89u53bf",
+      "name": {
+        "zh": "青峰岭"
+      },
+      "shortName": {
+        "zh": "青峰岭"
+      },
+      "aliases": [
+        "黑龙江庆安青峰岭",
+        "黑龙江庆安青峰岭"
+      ],
+      "modernName": {
+        "zh": "黑龙江庆安青峰岭"
+      },
+      "point": [
+        127.88,
+        46.53
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "黑龙江庆安青峰岭",
         "confidence": "medium"
       }
     }
