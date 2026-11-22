@@ -14950,6 +14950,44 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.2,
+            31.04
+          ],
+          [
+            111.92,
+            31.05
+          ],
+          [
+            111.64,
+            31.06
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1940-06-06",
+        "endDate": "1940-06-10",
+        "order": 389,
+        "segmentType": "advance",
+        "name": {
+          "zh": "荆门—远安",
+          "en": "Jingmen–Yuan'an"
+        },
+        "description": {
+          "zh": "1940年6月6日至10日，日军第3师团自荆门西进，突破远安防线后攻陷远安。路线为示意简化。",
+          "en": "From 6 to 10 June 1940 the Japanese 3rd Division advanced west from Jingmen, broke the Yuan'an line and took Yuan'an. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

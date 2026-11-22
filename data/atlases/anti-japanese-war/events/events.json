@@ -51582,5 +51582,63 @@
       "xiping-fall-1944-05"
     ],
     "importance": 2
+  },
+  {
+    "id": "yuanan-fall-1940-06",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "远安沦陷",
+      "en": "Fall of Yuan'an"
+    },
+    "date": "1940-06-10",
+    "location": {
+      "lng": 111.64,
+      "lat": 31.06,
+      "place": {
+        "zh": "湖北远安",
+        "en": "Yuan'an, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1940年6月10日，日军第3师团攻抵远安，远安沦陷，次日被中国军队克复。",
+      "en": "On 10 June 1940 the Japanese 3rd Division reached and took Yuan'an, which the Chinese retook the next day."
+    },
+    "description": {
+      "zh": "1940年6月，枣宜会战第二阶段，日军第3师团自襄阳、南漳南下。6月6日荆门失陷后，日军继续西进，6月7日向毛家山、毛家店、石板滩李延年第2军阵地进攻，图攻略远安。6月8日，第3师团自远安以北观音洞一带南攻，当晚突破远安防线；6月10日攻抵远安，远安沦陷。6月11日，中国军队克复远安。远安地处荆山南麓，为当阳、宜昌西北屏障，其失守使宜昌西北门户洞开。日期取《民国军事史》与郭廷以《中华民国史事日志》；《宜昌记忆》《随枣会战之宜昌沦陷》记远安与当阳同日（6 月 9 日）沦陷，异说并存。",
+      "en": "In June 1940, in the second phase of the Zaoyang–Yichang battle, the Japanese 3rd Division advanced south from Xiangyang and Nanzhang. After Jingmen fell on 6 June the Japanese pushed west, attacking Li Yannian's 2nd Army at Maojiashan, Maojiadian and Shibantan on the 7th with the aim of taking Yuan'an. On 8 June the 3rd Division attacked south from the Guanyindong area north of Yuan'an and broke the Yuan'an line that evening; on 10 June it reached and took Yuan'an, which the Chinese recovered on the 11th. Yuan'an lies at the southern foot of the Jing hills and covers the north-western approaches to Dangyang and Yichang, so its loss opened Yichang's north-western gate. The date follows the Republican Military History and Guo Tingyi's chronological record; the Yichang Memoir and the account of the fall of Yichang give 9 June, the same day as Dangyang, and both are recorded."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "民国军事史（第 3 卷）第 36 章",
+        "author": "中华书局版（网络转载，访问 2026-11-22）",
+        "note": "战史，6 日陷荆门、10 日攻抵远安"
+      },
+      {
+        "title": "郭廷以：中华民国史事日志（1940年）",
+        "author": "郭廷以，近代中国网",
+        "note": "史事日志，6 月 10 日陷远安、当阳"
+      },
+      {
+        "title": "《宜昌记忆》：抗日战争 宜昌沦陷日",
+        "author": "三峡广电 王志敏（转抗日战争纪念网 2021-08-21）",
+        "note": "战史，6-08 突破远安防线、6-09 与当阳同日沦陷"
+      },
+      {
+        "title": "抗战史上的今天：6 月 6 日",
+        "author": "观察者网 2025-06-06",
+        "note": "战史，6-07 日军进攻李延年第2军阵地、图攻略远安"
+      }
+    ],
+    "relatedIds": [
+      "jingmen-fall-1940-06",
+      "dangyang-fall-1940-06",
+      "yichang-fall-1940-06"
+    ],
+    "importance": 2
   }
 ]

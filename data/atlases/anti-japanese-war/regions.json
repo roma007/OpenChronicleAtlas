@@ -20921,6 +20921,28 @@
         114.39,
         32.61
       ]
+    },
+    {
+      "id": "county-hubei-u8fdcu5b89u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "远安县"
+      },
+      "shortName": {
+        "zh": "远安"
+      },
+      "aliases": [
+        "远安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        111.64,
+        31.06
+      ]
     }
   ]
 }

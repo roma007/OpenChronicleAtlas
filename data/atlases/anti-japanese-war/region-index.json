@@ -4432,6 +4432,10 @@
     "zhengyang-fall-1944-05": [
       "henan",
       "county-henan-u6b63u9633u53bf"
+    ],
+    "yuanan-fall-1940-06": [
+      "hubei",
+      "county-hubei-u8fdcu5b89u53bf"
     ]
   },
   "routes": {
@@ -8324,6 +8328,14 @@
       ],
       "endpointRegionIds": [
         "henan"
+      ]
+    },
+    "japanese-invasion:389": {
+      "regionIds": [
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
       ]
     },
     "kmt-forces:1": {
