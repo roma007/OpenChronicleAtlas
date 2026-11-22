@@ -3,6 +3,35 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.218] - 2026-11-22
+
+### Added
+- **抗日战争 · 山西待考补录（M236 / M220b 第一批）**：新增 10 个事件、6 段路线。
+  - 雁北（4）：浑源 1937-09-16、山阴 1937-09-18、应县 1937-09-20、右玉 1937-09-20。
+  - 晋东（2）：昔阳 1937-11-02、榆次 1937-11-04（异说 11-06）。
+  - 晋中（2）：太谷 1937-11-07、祁县 1937-11-09（异说 11-10）。
+  - 晋西（2）：清源 1937-11-08、交城 1937-11-13。
+  - 路线（6 段，#346—#351）：大同—浑源、大同—应县、大同—山阴—右玉、
+    井陉—昔阳、榆次—太谷—祁县—平遥、太原—清源—交城。
+  - 专题：972 → **982** 事件、521 → **527** 段路线；日军层：724 → **734** 事件、
+    342 → **348** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-shanxi-deferred.md`、计划
+  `docs/plans/2026-11-22-M236-山西待考补录-plan.md`。
+
+### Changed
+- `scripts/build-region-data.py`：增加浑源、应县、山阴、右玉、昔阳、太谷、祁县、
+  清源、交城映射（榆次已有）。
+- `regions.json` / `region-index.json`：地区 813 → **822**，982 个事件全部有省 + 县归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 盂县 12-16、忻县 11-04、徐沟 11-22 仍缺第二来源或日期冲突，继续待考；
+  灵丘、平遥、太原已有事件不重复。
+
+---
+
 ## [v1.0.217] - 2026-11-22
 
 ### Changed

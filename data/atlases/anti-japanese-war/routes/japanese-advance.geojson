@@ -13400,6 +13400,226 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.3,
+            40.08
+          ],
+          [
+            113.7,
+            39.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-09-13",
+        "endDate": "1937-09-16",
+        "order": 346,
+        "segmentType": "advance",
+        "name": {
+          "zh": "大同—浑源",
+          "en": "Datong–Hunyuan"
+        },
+        "description": {
+          "zh": "1937年9月16日，日军由大同经瓮城口峪进入浑源。路线为示意简化。",
+          "en": "On 16 September 1937 the Japanese advanced from Datong through Wengcheng Pass into Hunyuan. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.3,
+            40.08
+          ],
+          [
+            113.19,
+            39.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-09-13",
+        "endDate": "1937-09-20",
+        "order": 347,
+        "segmentType": "advance",
+        "name": {
+          "zh": "大同—应县",
+          "en": "Datong–Yingxian"
+        },
+        "description": {
+          "zh": "1937年9月20日，日军一部由大同开到应县。路线为示意简化。",
+          "en": "On 20 September 1937 a Japanese force moved from Datong to Yingxian. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.3,
+            40.08
+          ],
+          [
+            112.82,
+            39.53
+          ],
+          [
+            112.47,
+            40
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-09-13",
+        "endDate": "1937-09-20",
+        "order": 348,
+        "segmentType": "advance",
+        "name": {
+          "zh": "大同—山阴—右玉",
+          "en": "Datong–Shanyin–Youyu"
+        },
+        "description": {
+          "zh": "1937年9月18日至20日，日军自大同方向攻占山阴、右玉。路线为示意简化。",
+          "en": "From 18 to 20 September 1937 the Japanese advanced from the Datong direction and took Shanyin and Youyu. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.07,
+            38.08
+          ],
+          [
+            113.71,
+            37.61
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-10-11",
+        "endDate": "1937-11-02",
+        "order": 349,
+        "segmentType": "advance",
+        "name": {
+          "zh": "井陉—昔阳",
+          "en": "Jingxing–Xiyang"
+        },
+        "description": {
+          "zh": "1937年10月30日至11月2日，日军第109师团一部自井陉经九龙关攻占昔阳。路线为示意简化。",
+          "en": "From 30 October to 2 November 1937 a unit of the Japanese 109th Division advanced from Jingxing through Jiulong Pass and took Xiyang. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.75,
+            37.69
+          ],
+          [
+            112.55,
+            37.42
+          ],
+          [
+            112.33,
+            37.36
+          ],
+          [
+            112.18,
+            37.19
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-04",
+        "endDate": "1937-11-09",
+        "order": 350,
+        "segmentType": "advance",
+        "name": {
+          "zh": "榆次—太谷—祁县—平遥",
+          "en": "Yuci–Taigu–Qixian–Pingyao"
+        },
+        "description": {
+          "zh": "1937年11月4日至9日，日军第20师团自榆次南下，连陷太谷、祁县，9日占平遥。路线为示意简化。",
+          "en": "From 4 to 9 November 1937 the Japanese 20th Division advanced south from Yuci, taking Taigu and Qixian in succession and occupying Pingyao on the 9th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.55,
+            37.87
+          ],
+          [
+            112.36,
+            37.61
+          ],
+          [
+            112.16,
+            37.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-11-08",
+        "endDate": "1937-11-13",
+        "order": 351,
+        "segmentType": "advance",
+        "name": {
+          "zh": "太原—清源—交城",
+          "en": "Taiyuan–Qingyuan–Jiaocheng"
+        },
+        "description": {
+          "zh": "1937年11月8日至13日，日军自太原西进，占领清源、交城。路线为示意简化。",
+          "en": "From 8 to 13 November 1937 the Japanese advanced west from Taiyuan and occupied Qingyuan and Jiaocheng. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

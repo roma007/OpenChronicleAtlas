@@ -4219,6 +4219,46 @@
     "jingxing-coal-1937-10": [
       "hebei",
       "county-hebei-u4e95u9649u53bf"
+    ],
+    "hunyuan-fall-1937-09": [
+      "shanxi",
+      "county-shanxi-u6d51u6e90u53bf"
+    ],
+    "yingxian-fall-1937-09": [
+      "shanxi",
+      "county-shanxi-u5e94u53bf"
+    ],
+    "shanyin-fall-1937-09": [
+      "shanxi",
+      "county-shanxi-u5c71u9634u53bf"
+    ],
+    "youyu-fall-1937-09": [
+      "shanxi",
+      "county-shanxi-u53f3u7389u53bf"
+    ],
+    "xiyang-fall-1937-11": [
+      "shanxi",
+      "county-shanxi-u6614u9633u53bf"
+    ],
+    "yuci-fall-1937-11": [
+      "shanxi",
+      "county-shanxi-u6986u6b21u53bf"
+    ],
+    "taigu-fall-1937-11": [
+      "shanxi",
+      "county-shanxi-u592au8c37u53bf"
+    ],
+    "qixian-fall-1937-11": [
+      "shanxi",
+      "county-shanxi-u7941u53bf"
+    ],
+    "qingyuan-fall-1937-11": [
+      "shanxi",
+      "county-shanxi-u6e05u6e90u53bf"
+    ],
+    "jiaocheng-fall-1937-11": [
+      "shanxi",
+      "county-shanxi-u4ea4u57ceu53bf"
     ]
   },
   "routes": {
@@ -7779,6 +7819,58 @@
       ],
       "endpointRegionIds": [
         "hebei"
+      ]
+    },
+    "japanese-invasion:346": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:347": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:348": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:349": {
+      "regionIds": [
+        "county-shanxi-u5e73u5b9au53bf",
+        "hebei",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "hebei",
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:350": {
+      "regionIds": [
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:351": {
+      "regionIds": [
+        "county-shanxi-u9633u66f2u53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
       ]
     },
     "kmt-forces:1": {
