@@ -3,6 +3,30 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.217] - 2026-11-22
+
+### Changed
+- **抗日战争 · 来源字段规范化与待考总表（M235）**：
+  - M232 审计列出 211 条来源缺 `author`。本批按“标题内含作者拆分 / 纯书名补通行编者 /
+    官方文件补颁发方”规范化 208 条，仍缺作者仅 3 条
+    （《马占山与江桥抗战》1 条、《豫中会战经过》2 条）。
+  - 不改任何事件日期、地点、主体与正文；补出的作者来自标题自带信息或通行版本，
+    未逐页核对版权页，后续页码级核对时校正。
+  - 新增 `docs/research/units/anti-japanese-war-source-audit.md`，把 M213—M234
+    遗留的河北、山西、河南、湖北、湖南、广西、云南、川渝、辽宁、吉林/黑龙江、热河
+    待考县城集中成表，逐条写明原因。
+  - 事件 972、路线 521、地区 813 均不变。
+- `docs/research/units/anti-japanese-war-audit-2026-11-22.md` 第 3.2 节同步更新为
+  “211 → 3 条，M235 已处理”。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 每事件来源数仍全部 ≥ 2。
+
+---
+
 ## [v1.0.216] - 2026-11-22
 
 ### Added
