@@ -22585,6 +22585,87 @@
         "sourcePlace": "吉林勃利刁翎（今林口）大盘道",
         "confidence": "medium"
       }
+    },
+    {
+      "id": "place-jiangxi-u745eu91d1",
+      "level": "place",
+      "parentId": "jiangxi",
+      "name": {
+        "zh": "瑞金"
+      },
+      "shortName": {
+        "zh": "瑞金"
+      },
+      "aliases": [
+        "江西瑞金",
+        "江西瑞金"
+      ],
+      "modernName": {
+        "zh": "江西瑞金"
+      },
+      "point": [
+        116.03,
+        25.89
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "江西瑞金",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-shaanxi-u74e6u7a91u5821",
+      "level": "place",
+      "parentId": "shaanxi",
+      "name": {
+        "zh": "瓦窑堡"
+      },
+      "shortName": {
+        "zh": "瓦窑堡"
+      },
+      "aliases": [
+        "陕西瓦窑堡",
+        "陕西瓦窑堡"
+      ],
+      "modernName": {
+        "zh": "陕西瓦窑堡"
+      },
+      "point": [
+        109.67,
+        37.14
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "陕西瓦窑堡",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-shaanxi-u4fddu5b89",
+      "level": "place",
+      "parentId": "shaanxi",
+      "name": {
+        "zh": "保安"
+      },
+      "shortName": {
+        "zh": "保安"
+      },
+      "aliases": [
+        "陕西保安",
+        "陕西保安"
+      ],
+      "modernName": {
+        "zh": "陕西保安"
+      },
+      "point": [
+        108.77,
+        36.82
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "陕西保安",
+        "confidence": "low"
+      }
     }
   ]
 }

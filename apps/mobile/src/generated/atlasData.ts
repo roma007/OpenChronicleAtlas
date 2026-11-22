@@ -12,6 +12,7 @@ export const BUNDLED_TEXT: Record<string, BundledTextLoader> = {
   "anti-japanese-war/regions.json": () => require("../../../../data/atlases/anti-japanese-war/regions.json"),
   "anti-japanese-war/route-endpoints.allow.json": () => require("../../../../data/atlases/anti-japanese-war/route-endpoints.allow.json"),
   "anti-japanese-war/routes/allied-forces.geojson": () => require("../../../../data/atlases/anti-japanese-war/routes/allied-forces.geojson"),
+  "anti-japanese-war/routes/ccp.geojson": () => require("../../../../data/atlases/anti-japanese-war/routes/ccp.geojson"),
   "anti-japanese-war/routes/china-people.geojson": () => require("../../../../data/atlases/anti-japanese-war/routes/china-people.geojson"),
   "anti-japanese-war/routes/eighth-route-army.geojson": () => require("../../../../data/atlases/anti-japanese-war/routes/eighth-route-army.geojson"),
   "anti-japanese-war/routes/japanese-advance.geojson": () => require("../../../../data/atlases/anti-japanese-war/routes/japanese-advance.geojson"),

@@ -1,0 +1,248 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [109.67, 37.14],
+          [109.58, 36.85],
+          [109.49, 36.6]
+        ]
+      },
+      "properties": {
+        "entityId": "ccp",
+        "startDate": "1936-04-07",
+        "endDate": "1936-04-09",
+        "order": 1,
+        "segmentType": "other",
+        "name": { "zh": "瓦窑堡—延安（周恩来与张学良会谈）", "en": "Wayaobao–Yan’an (Zhou Enlai–Zhang Xueliang talks)" },
+        "description": {
+          "zh": "1936 年 4 月 7 日，周恩来、李克农等由瓦窑堡出发，经川口于 4 月 9 日进入肤施（延安）与张学良会谈。路线为示意，不表示实际道路。",
+          "en": "Zhou Enlai and Li Kenong left Wayaobao on 7 April 1936 and reached Fushi (Yan’an) via Chuankou on 9 April for talks with Zhang Xueliang. The line is schematic and does not follow an actual road."
+        },
+        "extensions": { "precision": "schematic" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [108.77, 36.82],
+          [109.49, 36.6],
+          [108.94, 34.34]
+        ]
+      },
+      "properties": {
+        "entityId": "ccp",
+        "startDate": "1936-12-15",
+        "endDate": "1936-12-17",
+        "order": 2,
+        "segmentType": "other",
+        "name": { "zh": "保安—延安—西安（周恩来赴西安调停）", "en": "Bao’an–Yan’an–Xi’an (Zhou Enlai to mediate)" },
+        "description": {
+          "zh": "西安事变后，周恩来等由保安出发，经延安于 12 月 17 日飞抵西安，参与事变和平解决。路线为示意。",
+          "en": "After the Xi’an Incident, Zhou Enlai and others left Bao’an, passed through Yan’an and flew to Xi’an on 17 December to help settle the incident peacefully. The line is schematic."
+        },
+        "extensions": { "precision": "schematic" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [108.77, 36.82],
+          [109.49, 36.6]
+        ]
+      },
+      "properties": {
+        "entityId": "ccp",
+        "startDate": "1937-01-10",
+        "endDate": "1937-01-13",
+        "order": 3,
+        "segmentType": "other",
+        "name": { "zh": "保安—延安（中共中央迁驻延安）", "en": "Bao’an–Yan’an (Central Committee moves to Yan’an)" },
+        "description": {
+          "zh": "1937 年 1 月 13 日，中共中央领导机关由保安迁驻延安。路线为示意。",
+          "en": "On 13 January 1937 the CCP Central Committee moved from Bao’an to Yan’an. The line is schematic."
+        },
+        "extensions": { "precision": "schematic" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [109.49, 36.6],
+          [108.94, 34.34],
+          [121.47, 31.23],
+          [120.15, 30.27]
+        ]
+      },
+      "properties": {
+        "entityId": "ccp",
+        "startDate": "1937-03-22",
+        "endDate": "1937-03-26",
+        "order": 4,
+        "segmentType": "other",
+        "name": { "zh": "延安—上海—杭州（周恩来与蒋介石杭州会谈）", "en": "Yan’an–Shanghai–Hangzhou (Zhou Enlai–Chiang Kai-shek talks)" },
+        "description": {
+          "zh": "1937 年 3 月下旬，周恩来、潘汉年经西安、上海到杭州，3 月 26 日与蒋介石会谈。路线为示意，不表示实际航路。",
+          "en": "In late March 1937 Zhou Enlai and Pan Hannian travelled via Xi’an and Shanghai to Hangzhou and met Chiang Kai-shek on 26 March. The line is schematic and does not show the actual air or rail route."
+        },
+        "extensions": { "precision": "schematic" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [109.49, 36.6],
+          [108.94, 34.34],
+          [118.78, 32.06],
+          [115.98, 29.55]
+        ]
+      },
+      "properties": {
+        "entityId": "ccp",
+        "startDate": "1937-07-13",
+        "endDate": "1937-07-15",
+        "order": 5,
+        "segmentType": "other",
+        "name": { "zh": "延安—南京—庐山（提交国共合作宣言）", "en": "Yan’an–Nanjing–Lushan (submitting the cooperation declaration)" },
+        "description": {
+          "zh": "1937 年 7 月 13 日，周恩来、秦邦宪、林伯渠到达庐山；7 月 15 日向蒋介石提交《中共中央为公布国共合作宣言》。路线为示意。",
+          "en": "Zhou Enlai, Qin Bangxian and Lin Boqu reached Lushan on 13 July 1937 and submitted the CCP declaration on cooperation to Chiang Kai-shek on 15 July. The line is schematic."
+        },
+        "extensions": { "precision": "schematic" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [109.49, 36.6],
+          [108.94, 34.34],
+          [104.07, 30.67],
+          [106.55, 29.56]
+        ]
+      },
+      "properties": {
+        "entityId": "ccp",
+        "startDate": "1938-12-20",
+        "endDate": "1939-01-16",
+        "order": 6,
+        "segmentType": "other",
+        "name": { "zh": "延安—重庆（中共中央南方局成立）", "en": "Yan’an–Chongqing (establishment of the Southern Bureau)" },
+        "description": {
+          "zh": "1938 年底至 1939 年初，周恩来等由延安经西安、成都赴重庆；1939 年 1 月 16 日中共中央南方局在重庆正式成立。路线为示意，日期为行程区间。",
+          "en": "At the end of 1938 and the beginning of 1939 Zhou Enlai and others travelled from Yan’an via Xi’an and Chengdu to Chongqing, where the CCP Southern Bureau was formally established on 16 January 1939. The line is schematic and the dates are the travel window."
+        },
+        "extensions": { "precision": "schematic" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [106.55, 29.56],
+          [108.94, 34.34],
+          [109.49, 36.6]
+        ]
+      },
+      "properties": {
+        "entityId": "ccp",
+        "startDate": "1943-06-28",
+        "endDate": "1943-07-16",
+        "order": 7,
+        "segmentType": "other",
+        "name": { "zh": "重庆—延安（周恩来等回延安）", "en": "Chongqing–Yan’an (Zhou Enlai and others return)" },
+        "description": {
+          "zh": "1943 年 6 月 28 日，周恩来、林彪等由重庆起身返回延安，参加整风与七大筹备。具体到达日期待考，取 7 月中旬。路线为示意。",
+          "en": "On 28 June 1943 Zhou Enlai, Lin Biao and others left Chongqing for Yan’an to take part in rectification and preparations for the Seventh Congress. The exact arrival date is uncertain and mid-July is used. The line is schematic."
+        },
+        "extensions": { "precision": "schematic" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [109.49, 36.6],
+          [108.94, 34.34],
+          [106.55, 29.56]
+        ]
+      },
+      "properties": {
+        "entityId": "ccp",
+        "startDate": "1945-08-28",
+        "endDate": "1945-08-30",
+        "order": 8,
+        "segmentType": "other",
+        "name": { "zh": "延安—重庆（毛泽东赴重庆谈判）", "en": "Yan’an–Chongqing (Mao Zedong to the Chongqing talks)" },
+        "description": {
+          "zh": "1945 年 8 月 28 日，毛泽东、周恩来、王若飞由延安飞抵重庆，开始为期 43 天的谈判。路线为示意。",
+          "en": "On 28 August 1945 Mao Zedong, Zhou Enlai and Wang Ruofei flew from Yan’an to Chongqing, beginning 43 days of negotiations. The line is schematic."
+        },
+        "extensions": { "precision": "schematic" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [109.49, 36.6],
+          [113.0, 38.0],
+          [118.0, 40.0],
+          [123.43, 41.8]
+        ]
+      },
+      "properties": {
+        "entityId": "ccp",
+        "startDate": "1945-09-15",
+        "endDate": "1945-09-18",
+        "order": 9,
+        "segmentType": "other",
+        "name": { "zh": "延安—沈阳（中共中央东北局）", "en": "Yan’an–Shenyang (CCP Northeast Bureau)" },
+        "description": {
+          "zh": "1945 年 9 月，彭真、陈云等由延安赴东北；9 月 18 日到达沈阳，中共中央东北局开始工作。路线为示意，不表示实际行军路线。",
+          "en": "In September 1945 Peng Zhen, Chen Yun and others travelled from Yan’an to the Northeast and reached Shenyang on 18 September, where the CCP Northeast Bureau began work. The line is schematic and does not show an actual march route."
+        },
+        "extensions": { "precision": "schematic" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [106.55, 29.56],
+          [108.94, 34.34],
+          [109.49, 36.6]
+        ]
+      },
+      "properties": {
+        "entityId": "ccp",
+        "startDate": "1945-10-10",
+        "endDate": "1945-10-11",
+        "order": 10,
+        "segmentType": "other",
+        "name": { "zh": "重庆—延安（毛泽东返回延安）", "en": "Chongqing–Yan’an (Mao Zedong returns)" },
+        "description": {
+          "zh": "1945 年 10 月 10 日《双十协定》签署后，毛泽东于 10 月 11 日由重庆飞返延安。路线为示意。",
+          "en": "After the Double Tenth Agreement was signed on 10 October 1945, Mao Zedong flew from Chongqing back to Yan’an on 11 October. The line is schematic."
+        },
+        "extensions": { "precision": "schematic" }
+      }
+    }
+  ]
+}

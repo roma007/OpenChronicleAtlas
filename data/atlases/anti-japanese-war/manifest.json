@@ -34,7 +34,8 @@
     "routes/south-china-guerrillas.geojson",
     "routes/kmt-group-armies.geojson",
     "routes/china-people.geojson",
-    "routes/northeast-volunteers.geojson"
+    "routes/northeast-volunteers.geojson",
+    "routes/ccp.geojson"
   ],
   "events": [
     "events/events.json"
@@ -248,8 +249,8 @@
       },
       "color": "#7a4e7e",
       "description": {
-        "zh": "与东北抗战直接相关的党的决策与组织节点：中共中央与中共驻共产国际代表团（1933《一·二六指示信》、1935《八一宣言》等）、中共满洲省委及其撤销后分设的南满、吉东、北满省委、哈尔滨特委，以及 1942 年成立的东北党组织特别支部局（东北党委员会）。本层只收党的政策文件与组织沿革，不收军队作战与人物牺牲；抗联各军、路军、支队属「东北抗日联军」层。两套层分开，是为了不把党的文件写成军队的文件。",
-        "en": "Party decisions and organisations directly connected with the war in Manchuria: the CCP Central Committee and its delegation to the Comintern (the January 1933 directive, the August 1935 declaration), the Manchurian Provincial Committee and the South, Jidong and North Manchurian committees and Harbin committee that replaced it, and the Northeast Party Committee of 1942. This layer holds party documents and organisational history only, not military operations or the deaths of commanders, which belong to the Northeast Anti-Japanese United Army layer. The two layers are kept separate so that party documents are not filed as army documents."
+        "zh": "中国共产党在全国抗战中的政治主线：中共中央的宣言、决议、指示与重要会议（瓦窑堡会议、六届六中全会、六届七中全会、七大等），国共谈判与中共代表团往返（西安、杭州、庐山、重庆），南方局等派出机关，以及毛泽东《论持久战》《新民主主义论》与延安整风的文献。另收东北党组织沿革（《一·二六指示信》《八一宣言》、满洲省委撤销、东北党委员会）。本层只收党的政策、组织与政治行程，不收军队作战与人物牺牲；八路军、新四军、华南游击队、东北抗联的作战与建制属各自军事层。两套层分开，是为了不把党的文件写成军队的文件，也不把军队的仗写成党的会。",
+        "en": "The CCP’s political main line in the nationwide war: Central Committee declarations, resolutions, directives and major meetings (Wayaobao, the Sixth Plenum, the Seventh Plenum of the Sixth Central Committee, the Seventh Congress), KMT–CCP negotiations and the travels of CCP delegations (Xi’an, Hangzhou, Lushan, Chongqing), organs such as the Southern Bureau, and texts from Mao Zedong’s “On Protracted War” and “On New Democracy” to the Yan’an rectification. It also keeps the organisational history in Manchuria (the January 1933 directive, the August 1935 declaration, the abolition of the Manchurian Provincial Committee and the Northeast Party Committee). The layer holds Party policy, organisation and political travel only, not military operations or the deaths of commanders, which belong to the Eighth Route Army, New Fourth Army, South China guerrilla and Northeast United Army layers. The layers are kept separate so that Party documents are not filed as army documents, and army battles are not filed as Party meetings."
       }
     }
   ],
@@ -260,7 +261,7 @@
     "第二次世界大战"
   ],
   "license": "CC-BY-4.0（事件文本）；省界示意 GPL-3.0（江山时序），详见 data/atlases/ATTRIBUTION.md",
-  "updatedAt": "2026-11-21",
+  "updatedAt": "2026-11-23",
   "coverText": {
     "years": "1931 — 1945",
     "brand": "十四年抗战 · 时空地图",
