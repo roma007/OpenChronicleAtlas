@@ -4360,6 +4360,18 @@
     "xiangxiang-fall-1944-06": [
       "hunan",
       "county-hunan-u6e58u4e61u53bf"
+    ],
+    "liucheng-fall-1944-11": [
+      "guangxi",
+      "county-guangxi-u67f3u57ceu53bf"
+    ],
+    "xiangxian-fall-1944-11": [
+      "guangxi",
+      "county-guangxi-u8c61u53bf"
+    ],
+    "qianjiang-fall-1944-11": [
+      "guangxi",
+      "county-guangxi-u8fc1u6c5fu53bf"
     ]
   },
   "routes": {
@@ -8137,6 +8149,30 @@
       ],
       "endpointRegionIds": [
         "hunan"
+      ]
+    },
+    "japanese-invasion:372": {
+      "regionIds": [
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:373": {
+      "regionIds": [
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:374": {
+      "regionIds": [
+        "guangxi"
+      ],
+      "endpointRegionIds": [
+        "guangxi"
       ]
     },
     "kmt-forces:1": {

@@ -20569,6 +20569,72 @@
         112.53,
         27.73
       ]
+    },
+    {
+      "id": "county-guangxi-u67f3u57ceu53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "柳城县"
+      },
+      "shortName": {
+        "zh": "柳城"
+      },
+      "aliases": [
+        "柳城"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        109.28,
+        24.55
+      ]
+    },
+    {
+      "id": "county-guangxi-u8c61u53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "象县"
+      },
+      "shortName": {
+        "zh": "象"
+      },
+      "aliases": [
+        "象"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        109.68,
+        23.97
+      ]
+    },
+    {
+      "id": "county-guangxi-u8fc1u6c5fu53bf",
+      "level": "county",
+      "parentId": "guangxi",
+      "name": {
+        "zh": "迁江县"
+      },
+      "shortName": {
+        "zh": "迁江"
+      },
+      "aliases": [
+        "迁江"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        108.99,
+        23.62
+      ]
     }
   ]
 }

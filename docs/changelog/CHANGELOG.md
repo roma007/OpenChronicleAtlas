@@ -3,6 +3,31 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.226] - 2026-11-22
+
+### Added
+- **抗日战争 · 广西柳城/象县/迁江补录（M244）**：新增 3 个事件、3 段路线。
+  - 柳城 1944-11-09（11-07 日军入境）、象县 1944-11-05（异说 11-06）、
+    迁江 1944-11-11（异说 11-12）。
+  - 路线（3 段，#372—#374）：柳城—宜山（宜山以北受阻）、象县—穿山—柳州、迁江—忻城。
+  - 专题：1007 → **1010** 事件、547 → **550** 段路线；日军层：759 → **762** 事件、
+    368 → **371** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-guangxi-liucheng-xiangxian-qianjiang.md`、
+  计划 `docs/plans/2026-11-22-M244-广西柳城象县迁江补录-plan.md`。
+
+### Changed
+- `scripts/build-region-data.py`：增加柳城、象县（含象州）、迁江映射。
+- `regions.json` / `region-index.json`：地区 845 → **848**，1010 个事件全部有省 + 县归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 融县长安镇（11-17 与 11-19 冲突）、罗城/天河、思恩/宜北（月份级）、
+  来宾县城（11-08 与 11-09 冲突）继续待考。
+
+---
+
 ## [v1.0.225] - 2026-11-22
 
 ### Added

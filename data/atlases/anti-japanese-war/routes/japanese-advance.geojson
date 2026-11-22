@@ -14364,6 +14364,120 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.28,
+            24.55
+          ],
+          [
+            109.05,
+            24.55
+          ],
+          [
+            108.65,
+            24.49
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-11-09",
+        "endDate": "1944-11-15",
+        "order": 372,
+        "segmentType": "advance",
+        "name": {
+          "zh": "柳城—宜山（宜山以北受阻）",
+          "en": "Liucheng–Yishan (checked north of Yishan)"
+        },
+        "description": {
+          "zh": "1944年11月9日至15日，日军约3000人自柳城向西突进，被第20军拒止于宜山以北。路线为示意简化。",
+          "en": "From 9 to 15 November 1944 about 3,000 Japanese troops pushed west from Liucheng and were stopped north of Yishan by the Chinese 20th Army. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.68,
+            23.97
+          ],
+          [
+            109.45,
+            24.1
+          ],
+          [
+            109.41,
+            24.33
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-11-05",
+        "endDate": "1944-11-11",
+        "order": 373,
+        "segmentType": "advance",
+        "name": {
+          "zh": "象县—穿山—柳州",
+          "en": "Xiang County–Chuanshan–Liuzhou"
+        },
+        "description": {
+          "zh": "1944年11月5日至11日，日军第104师团自象县经石龙、马坪、穿山逼近柳州。路线为示意简化。",
+          "en": "From 5 to 11 November 1944 the Japanese 104th Division advanced from Xiang County via Shilong, Maping and Chuanshan toward Liuzhou. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.99,
+            23.62
+          ],
+          [
+            108.8,
+            23.85
+          ],
+          [
+            108.66,
+            24.07
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-11-11",
+        "endDate": "1944-11-17",
+        "order": 374,
+        "segmentType": "advance",
+        "name": {
+          "zh": "迁江—忻城",
+          "en": "Qianjiang–Xincheng"
+        },
+        "description": {
+          "zh": "1944年11月11日至17日，日军第22师团自迁江北犯忻城。路线为示意简化。",
+          "en": "From 11 to 17 November 1944 the Japanese 22nd Division advanced north from Qianjiang against Xincheng. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
