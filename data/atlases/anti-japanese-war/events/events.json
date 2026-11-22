@@ -53322,5 +53322,342 @@
     "extensions": {
       "routeEvent": false
     }
+  },
+  {
+    "id": "jiangjiatun-battle-1932-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "江家屯大捷（围歼古贺骑兵联队）",
+      "en": "The Jiangjiatun Victory: destruction of the Koga cavalry regiment"
+    },
+    "date": "1932-01-09",
+    "location": {
+      "lng": 120.75,
+      "lat": 40.86,
+      "place": {
+        "zh": "辽宁锦西江家屯（今葫芦岛钢屯）",
+        "en": "Jiangjiatun, Jinxi (modern Gangtun, Huludao), Liaoning"
+      }
+    },
+    "entityIds": [
+      "northeast-volunteers"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "1932年1月9日，锦西民团与绿林武装联合伏击日军古贺骑兵联队，击毙联队长古贺传太郎，18日收复锦西县城。",
+      "en": "On 9 January 1932 Jinxi militia and Green Gang forces ambushed the Japanese Koga cavalry regiment, killing its commander, and recovered the county town on the 18th."
+    },
+    "description": {
+      "zh": "1932 年 1 月 3 日日军占领锦州。5 日，关东军第二十师团派骑兵第二十七联队长古贺传太郎中佐率骑兵 80 余人，会同石野步兵小队与松尾粮秣输送队共 130 余人西进，6 日占领锦西县城江家屯。锦西县公安局长苑凤台会同民团首领周玉桂、刘国璋及绿林首领刘春山、刘存启（报号亮山）等联合，编成义勇军，在县城西上坡子、龙王庙、西园子一带设伏。9 日上午，古贺率 50 余名骑兵和石野步兵小队出城「扫荡」，先后在上坡子、龙王庙遭伏击；回撤至西园子时，被据守炮楼的刘国臣等 11 人击中，午后 3 时毙命；同日松尾运输队在城东钱搭屯岭被千余民众包围，激战至午后全歼。战果各说不一：一说着重击毙古贺中佐、星野大尉、石野中尉等 4 名军官及士兵 40 余人、伤 20 余人；一说日军阵亡 49 人、重伤 22 人（辽宁日报 2025）；锦西地方资料合计「歼敌百余人」。1 月 18 日，日军被迫放弃锦西县城，县公署迁往连山，这是九一八事变后中国民众收复的第一座县城。本事件为民众伏击战，不绘路线。",
+      "en": "The Japanese took Jinzhou on 3 January 1932. On the 5th the 20th Division sent the 27th Cavalry Regiment under Lieutenant-Colonel Koga Dentarō, with the Ishino infantry platoon and the Matsuo supply detachment — some 130 men — westward, and on the 6th they occupied the Jinxi county town of Jiangjiatun. Yuan Fengtai, the county police chief, joined the militia leaders Zhou Yugui and Liu Guozhang and the Green Gang leaders Liu Chunshan and Liu Cunqi (known as Liangshan) to form a volunteer force and lay ambushes at Shangpozi, Longwangmiao and Xiyuanzi west of the town. On the morning of the 9th Koga went out with over fifty cavalry and the Ishino platoon to “sweep” the countryside and was ambushed first at Shangpozi and then at Longwangmiao; withdrawing through Xiyuanzi he was shot by Liu Guochen and eleven men holding a watchtower and died at three in the afternoon. The same day the Matsuo supply train was surrounded by over a thousand villagers at Qianda village east of the town and wiped out. Accounts of the toll differ: one credits the volunteers with killing Koga, Captain Hoshino, Lieutenant Ishino and one other officer plus over forty soldiers and wounding twenty; another gives 49 Japanese dead and 22 seriously wounded (Liaoning Daily, 2025); local Jinxi material speaks of “over a hundred enemy dead” in all. On 18 January the Japanese abandoned the county town and moved the administration to Lianshan — the first county town recovered by Chinese civilians after the Mukden Incident. This was a civilian ambush; no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《义勇军“江家屯大捷”》",
+        "author": "穆景元、张桂芝，《人民政协报》2017-02-09（人民网党史频道）",
+        "note": "1-6 占领、1-9 伏击经过、日方《满洲事变实志》引文、1-18 收复"
+      },
+      {
+        "title": "《大刀土炮镌刻家国大义》",
+        "author": "《辽宁日报》2025-09-11（辽宁省人民政府网转载）",
+        "note": "击毙 49 人、重伤 22 人，纪念碑与战场遗址"
+      },
+      {
+        "title": "《歼灭倭寇古贺骑兵联队纪实》",
+        "author": "抗日战争纪念网（转抗日战争图书馆）2018-12-28",
+        "note": "参战者口述：西园子炮楼、钱搭屯岭两处战斗"
+      },
+      {
+        "title": "《东北抗日联军史大事年表》",
+        "author": "人民网（转抗日战争纪念网 2017-05-05）",
+        "note": "1-9 刘纯启部伏击骑兵第二十七联队"
+      }
+    ],
+    "relatedIds": [
+      "jinxi-fall-1932-01"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "jingpohu-battle-1932-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "镜泊湖连环战",
+      "en": "The Jingpo Lake campaign"
+    },
+    "date": "1932-03-13",
+    "location": {
+      "lng": 129.05,
+      "lat": 44.05,
+      "place": {
+        "zh": "吉林宁安镜泊湖",
+        "en": "Jingpo Lake, Ning’an, Jilin"
+      }
+    },
+    "entityIds": [
+      "northeast-volunteers"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "1932年3月13日至27日，李延禄率救国军补充团在镜泊湖“墙缝”等地连续伏击日军天野部队，战果数字至今争议极大。",
+      "en": "From 13 to 27 March 1932 Li Yanlu’s supplementary regiment ambushed the Japanese Ameno force repeatedly around Jingpo Lake; the scale of the Japanese losses remains fiercely disputed."
+    },
+    "description": {
+      "zh": "1932 年 2 月，王德林率吉林中国国民救国军连克敦化、额穆、蛟河，关东军急调天野第十五旅团等部自敦化南进「讨伐」。救国军参谋长、共产党员李延禄率补充团 700 人，选择牡丹江入镜泊湖处「墙缝」高地设伏——此处是夹在牡丹江与山坡之间的五华里窄道，路边石壁时断时续，形如墙缝。3 月 13 日拂晓，猎户陈文起将日军引入伏击圈，补充团以手榴弹为主激战约十小时；随后又在松乙沟（火烧伏击）、宁安关家小铺、中东铁路高岭子车站连续伏击，至 3 月 27 日结束。战果争议极大，必须并列：李延禄回忆录与周保中《东北人民抗日战争概括》称歼天野部队 7000 人、墙缝一战毙伤 3500 人以上；《中共黑龙江党史大事记》《中共牡丹江市党的历史活动大事记》记「抗击上田支队，歼敌七八十人」；黑龙江省委党史研究室新编抗联史采用「墙缝战歼敌 120 余人，后续再伏击 130 人」；宁安党史资料记毙日军小川松本大尉以下 120 余人。本事件并列两说，不采单一数字。补充团由中共秘密领导，后成为东北抗联第四军的基础。本事件不绘路线。",
+      "en": "In February 1932 Wang Delin’s Jilin National Salvation Army took Dunhua, Emu and Jiaohe in succession, and the Kwantung Army rushed the Ameno 15th Brigade and other units south from Dunhua to suppress it. Li Yanlu, the army’s chief of staff and a Communist, led its 700-strong supplementary regiment to the “wall cracks” (Qiangfeng) heights where the Mudan River enters Jingpo Lake — a five-li defile between the river and a hillside, its rock wall broken into gaps like cracks. At dawn on 13 March the hunter Chen Wenqi led the Japanese into the trap and the regiment fought for about ten hours, mainly with grenades; further ambushes followed at Songyigou (a fire trap), Guanjiaxiaopu near Ning’an and Gaolingzi station on the Chinese Eastern Railway, ending on 27 March. The results are fiercely disputed and are given here side by side: Li Yanlu’s memoirs and Zhou Baozhong’s 1960 survey claim the destruction of the 7,000-strong Ameno force, with over 3,500 killed or wounded at Qiangfeng alone; the Heilongjiang and Mudanjiang party histories record “over seventy or eighty enemy dead”; the Heilongjiang provincial party history office’s newer history gives “over 120 at Qiangfeng and another 130 in the later ambushes”; Ning’an party material gives over 120 including Captain Ogawa Matsumoto. Both versions are stated; no single figure is adopted. The regiment was secretly led by the Communist Party and became the basis of the 4th Route Army. No route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《镜泊湖“墙缝”地区连环战重创日军 83 年不为人知》",
+        "author": "张克、黄强，《光明日报》2015-08-13（中新网转载）",
+        "note": "墙缝地形、3-13 首战、松乙沟与关家小铺、高岭子，四战经过"
+      },
+      {
+        "title": "《被尘封的“抗战第一大捷”？》",
+        "author": "周长庆、张颖、姜明明、孟含琪，新华社《新华每日电讯》2015-05-15（人民网、新华网转载）",
+        "note": "战果争议全记录：3500 人、七八十人、120 余人各说"
+      },
+      {
+        "title": "《东北抗日联军史大事年表》",
+        "author": "人民网（转抗日战争纪念网 2017-05-05）",
+        "note": "1932 年 3 月吉东战事与救国军沿革"
+      }
+    ],
+    "relatedIds": [
+      "harbin-defense-1932-01",
+      "eight-women-wusihun-1938-10"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    },
+    "endDate": "1932-03-27"
+  },
+  {
+    "id": "fenghuangcheng-raid-1931-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "邓铁梅夜袭凤凰城",
+      "en": "Deng Tiemei’s night raid on Fenghuangcheng"
+    },
+    "date": "1931-12-26",
+    "location": {
+      "lng": 124.07,
+      "lat": 40.45,
+      "place": {
+        "zh": "辽宁凤城",
+        "en": "Fengcheng, Liaoning"
+      }
+    },
+    "entityIds": [
+      "northeast-volunteers"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "1931年12月26日夜，邓铁梅率东北民众自卫军袭入凤凰城，毙伤日伪军警50余人，是辽东民众抗日的第一仗。",
+      "en": "On the night of 26 December 1931 Deng Tiemei’s Northeast People’s Self-Defence Army raided Fenghuangcheng, killing or wounding over fifty Japanese and puppet police — the first major action of the Liaodong volunteers."
+    },
+    "description": {
+      "zh": "邓铁梅原任凤城县公安局长，九一八事变后于 1931 年 10 月在凤城小汤沟顾家堡子创建东北民众自卫军，自任司令，至 12 月发展至 1500 余人。凤凰城（今凤城）是安奉铁路重镇，驻有日本铁道独立守备队和伪警察署。12 月 26 日夜 10 时，自卫军冒雪分路进袭：一路切断电话线并阻击安东、连山关方向援敌，一路攻打火车站，主力由邓铁梅亲率攻入县城。自卫军捣毁县衙、公安局与日本特务机关，砸开监狱释放被捕爱国群众，伪警察多系邓铁梅旧部，经喊话后放下武器。战斗持续至 27 日清晨 4 时，日军援兵乘铁甲车赶到，自卫军携战利品撤出。此役毙伤日伪军警 50 余人，缴获步枪 300 余支、轻机枪 3 挺、迫击炮 2 门。日伪《盛京时报》1931-12-27 报道「凤凰城被焚，通讯断绝，形势严重」。本事件不绘路线。",
+      "en": "Deng Tiemei, a former Fenghuangcheng police chief, founded the Northeast People’s Self-Defence Army at Gujiabuzi in Xiaotanggou in October 1931, and by December it had grown to over 1,500 men. Fenghuangcheng was a key town on the Anfeng railway, garrisoned by the Japanese railway guard and a puppet police office. At ten on the night of 26 December the volunteers attacked in several columns through the snow: one cut the telephone lines and blocked relief from Andong and Lianshanguan, one attacked the station, and the main body under Deng entered the town. They wrecked the county office, the police bureau and the Japanese secret service post, broke open the gaol and freed imprisoned patriots; many of the puppet police had served under Deng and laid down their arms after being called on. The fighting lasted until four on the morning of the 27th, when Japanese reinforcements arrived by armoured train and the volunteers withdrew with their booty. More than fifty Japanese and puppet police were killed or wounded, and 300 rifles, three light machine guns, two mortars and ammunition were taken. The Japanese-controlled Shengjing Shibao reported on 27 December that “Fenghuangcheng has been burned, communications cut, the situation serious”. No route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《【抗日战争史上的今天】12 月 26 日：东北民众自卫军邓铁梅率部夜袭凤凰城》",
+        "author": "光明网 2025-12-26",
+        "note": "攻城部署、战斗经过、战果"
+      },
+      {
+        "title": "《【辽宁抗战英雄谱】邓铁梅：为国不惜五尺躯的义勇军名将》",
+        "author": "人民网辽宁频道 2025-08-31",
+        "note": "《盛京时报》1931-12-27 报道、战果与撤出"
+      },
+      {
+        "title": "《邓铁梅率部夜袭凤凰城》",
+        "author": "孟玮，《人民政协报》2022-10-07（抗日战争纪念网转载）",
+        "note": "建制、兵力、两路进袭"
+      }
+    ],
+    "relatedIds": [
+      "fenghuangcheng-fall-1931-09"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "liaoning-volunteers-1932-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "辽宁民众自卫军成立",
+      "en": "Founding of the Liaoning People’s Self-Defence Army"
+    },
+    "date": "1932-04-21",
+    "location": {
+      "lng": 125.36,
+      "lat": 41.27,
+      "place": {
+        "zh": "辽宁桓仁",
+        "en": "Huanren, Liaoning"
+      }
+    },
+    "entityIds": [
+      "northeast-volunteers"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "1932年4月21日，唐聚五在桓仁誓师成立辽宁民众自卫军，编18路军，是辽东最大的一支义勇军。",
+      "en": "On 21 April 1932 Tang Juwu proclaimed the Liaoning People’s Self-Defence Army at Huanren, with 18 route armies — the largest volunteer force in eastern Liaoning."
+    },
+    "description": {
+      "zh": "唐聚五原任东边道镇守使署步兵第一团中校团副，驻防凤城。九一八后赴北平见张学良，受命回东北「召集自卫军，抗日救国」，遂到桓仁收集旧部。1932 年 3 月 21 日，唐聚五等在桓仁召开秘密会议，决定成立辽宁民众救国会与辽宁民众自卫军，推唐聚五为总司令，并定 4 月 21 日起义。4 月 21 日，唐聚五、孙秀岩、张宗周、郭景珊、黄宇宙等在桓仁县师范学校操场举行誓师大会，唐聚五以刀划破手指，血书「杀敌讨逆，救国爱民」，会后通电全国。自卫军编 18 路军，以通化、桓仁、新宾、宽甸、辑安、临江、柳河等 14 县的公安大队、警察队、民团、保甲兵与民众自发组织的大刀会为骨干；8 月扩至 37 路。兵力数字各说不一：《黑龙江日报》记总兵力 4000 余人，《人民政协报》记约 10 余万人，桓仁地方资料记扩至 24 万人——差异在于是否计入不脱产的大刀会与民团，确切数字待考。本事件为建制事件，不绘路线。",
+      "en": "Tang Juwu was deputy colonel of the 1st Regiment of the East Liaoning garrison headquarters at Fengcheng. After the Mukden Incident he went to Beiping, where Zhang Xueliang ordered him back to “raise a self-defence army and resist Japan”, and he gathered his old troops at Huanren. On 21 March 1932 Tang and others held a secret meeting at Huanren, decided to found the Liaoning People’s National Salvation Association and the Liaoning People’s Self-Defence Army with Tang as commander-in-chief, and fixed the uprising for 21 April. On that day Tang, Sun Xiuyan, Zhang Zongzhou, Guo Jingshan and Huang Yuzhou held a oath-taking rally on the school ground at Huanren, where Tang cut his finger and wrote in blood “destroy the rebels, save the country, love the people”, and a national telegram was sent out. The army was organised into 18 route armies, built on the police, militia, baojia units and the popular Big Sword Societies of 14 counties including Tonghua, Huanren, Xinbin, Kuandian, Ji’an, Linjiang and Liuhe; by August it had grown to 37 routes. Troop numbers differ: the Heilongjiang Daily gives just over 4,000; the CPPCC Daily about 100,000; Huanren local material 240,000 — the difference lies in whether part-time Big Sword Society and militia members are counted, and the exact figure remains open. This is an organisational event and no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《唐聚五创立辽宁民众自卫军》",
+        "author": "贾晓明，《人民政协报》2015-09-17（人民网党史频道）",
+        "note": "3-21 秘密会议、4-21 誓师、18 路军与 10 余万人"
+      },
+      {
+        "title": "《抗日民族英雄唐聚五》",
+        "author": "《黑龙江日报》2014-06-19（人民网党史频道）",
+        "note": "誓师细节、血书、18 路军与 4000 余人"
+      },
+      {
+        "title": "《中国抗日战争全史》第一编第三章第二节",
+        "author": "抗日战争纪念网 2017-11-15",
+        "note": "誓师与 18 路军编成"
+      }
+    ],
+    "relatedIds": [
+      "jiangjiatun-battle-1932-01"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "bingtangzi-battle-1937-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "冰趟子战斗",
+      "en": "The Bingtangzi ambush"
+    },
+    "date": "1937-03-07",
+    "location": {
+      "lng": 127.35,
+      "lat": 47.95,
+      "place": {
+        "zh": "黑龙江通北（今北安）冰趟子",
+        "en": "Bingtangzi, Tongbei (modern Bei’an), Heilongjiang"
+      }
+    },
+    "entityIds": [
+      "northeast-anti-japanese"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "1937年3月7日，赵尚志率抗联第三军300余人在通北冰趟子伏击日伪军800余人，毙伤300余人，自己牺牲7人。",
+      "en": "On 7 March 1937 Zhao Shangzhi’s 300 men ambushed over 800 Japanese and puppet troops at Bingtangzi in Tongbei, killing or wounding more than 300 for the loss of seven."
+    },
+    "description": {
+      "zh": "1936 年下半年起，日军对松花江下游抗联大举「讨伐」。1937 年 2 月，抗联第三军军长赵尚志率 300 余人西征，进至海伦、通北交界山区，前有各县讨伐队阻截、后有日伪军追击。赵尚志先在通北东山一处山路狭窄、两侧树林茂密处设伏，毙伤尾追之敌 30 余人；随后转至通北县城东的「冰趟子」。此处有 4 座伐木工人木营，车道北为山泉结成的冰甸子，车道南是长满杂木的小山。3 月 7 日，日军竹内部队守田大尉及伪军 800 余人进入伏击圈，在冰面上站立不稳，队形大乱，连续三次进攻均被击退；一股日军一度占领左侧木营，被少年连夺回。战至夜间气温骤降，日军枪栓冻住、趴卧冰上冻伤严重，撤退时又在沟口被截击。战果：毙伤日伪军 300 余人，其中毙 200 余人（含守田大尉等 7 名军官），抗联牺牲 7 人；另一说毙 200 余人、冻伤 100 余人。此役为抗联第三军成立以来对日作战的最大一次胜利。本事件为伏击战，不绘路线。",
+      "en": "From the second half of 1936 the Japanese mounted a large “punitive campaign” against the United Army in the lower Songhua valley. In February 1937 Zhao Shangzhi, commander of the 3rd Army, led some 300 men west, reaching the mountains between Hailun and Tongbei with county punitive units ahead and Japanese and puppet troops behind. Zhao first ambushed the pursuers in a narrow, wooded defile east of Tongbei, killing or wounding over thirty, then moved to Bingtangzi east of the county town — four timber workers’ cabins, a sheet of spring ice north of the track and a scrub-covered hill to the south. On 7 March more than 800 Japanese under Lieutenant Osada (Hattori’s unit) and puppet troops entered the trap, lost their footing and formation on the ice, and were thrown back three times; a party that briefly took the left-hand cabin was driven out by the Young Soldiers’ Company. As the night temperature fell the Japanese bolts froze and the wounded froze on the ice, and the retreating column was again cut up at the mouth of the gully. More than 300 were killed or wounded, including over 200 dead and seven officers such as Lieutenant Osada, against seven United Army dead; another account gives over 200 dead and 100 frostbitten. It was the 3rd Army’s greatest victory over the Japanese to that date. This was an ambush; no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《赵尚志“冰趟子”伏击破敌》",
+        "author": "杲学军，《人民政协报》2019-11-14（人民网党史频道）",
+        "note": "地形、兵力部署、3-7 战斗经过与战果"
+      },
+      {
+        "title": "《东北抗联以少胜多的“冰趟子”伏击战》",
+        "author": "王恩宝，《学习时报》2022-08-15（人民网、中国军网转载）",
+        "note": "逐日经过、战果与伤亡比"
+      },
+      {
+        "title": "《冰趟子战迹地遗址》",
+        "author": "中共黑龙江省委史志研究室（黑龙江党史网）2018-10-31",
+        "note": "遗址位置、参战兵力 300 余对 800 余、歼敌 300 余人"
+      }
+    ],
+    "relatedIds": [
+      "zhao-shangzhi-1942-02",
+      "united-army-founding-1936-02"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "loushan-battle-1938-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "楼山镇战斗",
+      "en": "The battle of Loushan"
+    },
+    "date": "1938-07-12",
+    "location": {
+      "lng": 127.95,
+      "lat": 45.02,
+      "place": {
+        "zh": "吉林苇河楼山镇（今尚志）",
+        "en": "Loushan, Weihe (modern Shangzhi), Jilin"
+      }
+    },
+    "entityIds": [
+      "northeast-anti-japanese"
+    ],
+    "category": "战斗",
+    "summary": {
+      "zh": "1938年7月12日，抗联第二路军第四、第五军西征部队攻占苇河县楼山镇，随后遭日伪军重兵追击。",
+      "en": "On 12 July 1938 the 4th and 5th Armies of the 2nd Route Army, on their westward expedition, stormed Loushan in Weihe county and were then pursued by strong Japanese forces."
+    },
+    "description": {
+      "zh": "1938 年 5 月，中共吉东省委决定抗联第二路军第四、第五军主力西征，向五常、舒兰一带转移，试图打通与东南满第一路军和关内八路军的联系。7 月 2 日，西征部队 680 余人自刁翎出发，袭击牡丹江岸三道通，越过老爷岭，穿行三百里荒无人烟的深山密林，8 日进入苇河县境。7 月 12 日拂晓，第四军军长李延平、副军长王光宇率部突袭苇河县东北的楼山镇，将守敌分割包围，激战数小时占领该镇，随后召开群众大会宣传抗日。战果各说不一：俘虏伪森林警察中队长以下 40 余人（《中国抗日战争史》）；毙伤俘日伪军 140 余人，缴机枪 2 挺、步枪百余支、子弹万余发（《解放军报》）；俘敌中队长以下六七人，缴机枪 2 挺、步枪近百支、弹药四万发以上（《黑龙江日报》）。楼山镇失守后，日军从中东路沿线及延寿、方正调兵追击。西征部队分兵：第五军一部东返，第四军主力和第五军第一、第二师继续西进，8 月进入五常山区，损失惨重；第五军第一师东返途中于 10 月在乌斯浑河遭袭，即八女投江。本事件不绘路线。",
+      "en": "In May 1938 the Jilin-Dongman party committee ordered the 4th and 5th Armies of the 2nd Route Army to march west toward Wuchang and Shulan, to link up with the 1st Route Army in the south-east and with the Eighth Route Army inside the Great Wall. On 2 July some 680 men set out from Diaoling, attacked SandaoTong on the Mudan River, crossed the Laoye ridge and marched 300 li through uninhabited forest, entering Weihe county on the 8th. At dawn on 12 July Li Yanping, commander of the 4th Army, and his deputy Wang Guangyu stormed Loushan north-east of Weihe, split and surrounded the garrison and took the town after several hours, then held a mass meeting. Results differ: over forty puppet forest police including their squadron commander captured (History of the War of Resistance); 140-odd Japanese and puppet troops killed, wounded or captured with two machine guns and over a hundred rifles (PLA Daily); six or seven captured and about a hundred rifles with 40,000 rounds (Heilongjiang Daily). After the town fell the Japanese brought troops from the Chinese Eastern Railway line and from Yanshou and Fangzheng. The expedition split: part of the 5th Army turned back, while the 4th Army and the 5th Army’s 1st and 2nd Divisions pushed on into the Wuchang mountains in August and suffered heavy losses; the 5th Army’s 1st Division was ambushed at the Wusihun River in October — the eight women. No route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《中国抗日战争史（中）》第二编相关章节",
+        "author": "军事科学院军事历史研究部，解放军出版社",
+        "note": "7-2 出发、7-8 入苇河、7-12 攻楼山镇、俘 40 余人"
+      },
+      {
+        "title": "《经典战例：东北抗日联军第二路军西征》",
+        "author": "《解放军报》2016-12-15（抗日战争纪念网转载）",
+        "note": "毙伤俘 140 余人、缴获数字"
+      },
+      {
+        "title": "《八女投江千古流芳》",
+        "author": "《黑龙江日报》2018-10-22（人民网专题）",
+        "note": "妇女团参战、俘敌六七人、缴枪近百支"
+      },
+      {
+        "title": "《东北抗联大事记·1938 年》",
+        "author": "东北抗联网上纪念馆 2019-04-16",
+        "note": "7-12 攻占苇河县楼山镇"
+      }
+    ],
+    "relatedIds": [
+      "eight-women-wusihun-1938-10"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   }
 ]

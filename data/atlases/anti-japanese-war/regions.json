@@ -18493,8 +18493,8 @@
         "pointSource": "event-average"
       },
       "point": [
-        120.845,
-        40.73
+        120.8133,
+        40.7733
       ]
     },
     {
@@ -18679,8 +18679,8 @@
         "pointSource": "event-average"
       },
       "point": [
-        129.49,
-        44.585
+        129.3433,
+        44.4067
       ]
     },
     {
@@ -21552,6 +21552,180 @@
         "frame": "ROC-1937",
         "sourcePlace": "中国东北（牡丹江方向）",
         "confidence": "low"
+      }
+    },
+    {
+      "id": "place-liaoning-u9526u897fu6c5fu5bb6u5c6f",
+      "level": "place",
+      "parentId": "county-liaoning-u9526u897fu53bf",
+      "name": {
+        "zh": "江家屯"
+      },
+      "shortName": {
+        "zh": "江家屯"
+      },
+      "aliases": [
+        "辽宁锦西江家屯（今葫芦岛钢屯）",
+        "辽宁锦西江家屯"
+      ],
+      "modernName": {
+        "zh": "辽宁锦西江家屯（今葫芦岛钢屯）"
+      },
+      "point": [
+        120.75,
+        40.86
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "辽宁锦西江家屯（今葫芦岛钢屯）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-jilin-u5b81u5b89u955cu6ccau6e56",
+      "level": "place",
+      "parentId": "county-jilin-u5b81u5b89u53bf",
+      "name": {
+        "zh": "镜泊湖"
+      },
+      "shortName": {
+        "zh": "镜泊湖"
+      },
+      "aliases": [
+        "吉林宁安镜泊湖",
+        "吉林宁安镜泊湖"
+      ],
+      "modernName": {
+        "zh": "吉林宁安镜泊湖"
+      },
+      "point": [
+        129.05,
+        44.05
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林宁安镜泊湖",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-liaoning-u6853u4ec1u53bf",
+      "level": "county",
+      "parentId": "liaoning",
+      "name": {
+        "zh": "桓仁县"
+      },
+      "shortName": {
+        "zh": "桓仁"
+      },
+      "aliases": [
+        "桓仁"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        125.36,
+        41.27
+      ]
+    },
+    {
+      "id": "county-heilongjiang-u901au5317u53bf",
+      "level": "county",
+      "parentId": "heilongjiang",
+      "name": {
+        "zh": "通北县"
+      },
+      "shortName": {
+        "zh": "通北"
+      },
+      "aliases": [
+        "通北"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        127.35,
+        47.95
+      ]
+    },
+    {
+      "id": "place-heilongjiang-u901au5317u51b0u8d9fu5b50",
+      "level": "place",
+      "parentId": "county-heilongjiang-u901au5317u53bf",
+      "name": {
+        "zh": "冰趟子"
+      },
+      "shortName": {
+        "zh": "冰趟子"
+      },
+      "aliases": [
+        "黑龙江通北（今北安）冰趟子",
+        "黑龙江通北冰趟子"
+      ],
+      "modernName": {
+        "zh": "黑龙江通北（今北安）冰趟子"
+      },
+      "point": [
+        127.35,
+        47.95
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "黑龙江通北（今北安）冰趟子",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jilin-u82c7u6cb3u53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "苇河县"
+      },
+      "shortName": {
+        "zh": "苇河"
+      },
+      "aliases": [
+        "苇河"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        127.95,
+        45.02
+      ]
+    },
+    {
+      "id": "place-jilin-u82c7u6cb3u697cu5c71u9547",
+      "level": "place",
+      "parentId": "county-jilin-u82c7u6cb3u53bf",
+      "name": {
+        "zh": "楼山镇"
+      },
+      "shortName": {
+        "zh": "楼山镇"
+      },
+      "aliases": [
+        "吉林苇河楼山镇（今尚志）",
+        "吉林苇河楼山镇"
+      ],
+      "modernName": {
+        "zh": "吉林苇河楼山镇（今尚志）"
+      },
+      "point": [
+        127.95,
+        45.02
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林苇河楼山镇（今尚志）",
+        "confidence": "medium"
       }
     }
   ]
