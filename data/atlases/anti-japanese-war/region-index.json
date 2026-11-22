@@ -4802,20 +4802,18 @@
     },
     "japanese-invasion:3": {
       "regionIds": [
-        "anhui",
         "beiping",
-        "county-hebei-u5b89u6b21u53bf",
-        "county-jiangsu-u94dcu5c71u53bf",
-        "county-shandong-u6ed5u53bf",
+        "county-hebei-u5b9au53bf",
+        "county-hebei-u6dbfu53bf",
+        "county-hebei-u6e05u82d1u53bf",
+        "county-hebei-u77f3u95e8u5e02",
+        "county-hebei-u826fu4e61u53bf",
         "hebei",
-        "jiangsu",
-        "nanjing",
-        "shandong",
-        "tianjin"
+        "henan"
       ],
       "endpointRegionIds": [
         "hebei",
-        "jiangsu"
+        "henan"
       ]
     },
     "japanese-invasion:4": {
@@ -5010,17 +5008,6 @@
       ],
       "endpointRegionIds": [
         "hunan"
-      ]
-    },
-    "japanese-invasion:23": {
-      "regionIds": [
-        "county-guangdong-u94a6u53bf",
-        "county-guangxi-u9095u5b81u53bf",
-        "guangdong",
-        "guangxi"
-      ],
-      "endpointRegionIds": [
-        "guangxi"
       ]
     },
     "japanese-invasion:24": {
@@ -5534,15 +5521,6 @@
       ],
       "endpointRegionIds": [
         "zhejiang"
-      ]
-    },
-    "japanese-invasion:77": {
-      "regionIds": [
-        "county-fujian-u95fdu4fafu53bf",
-        "fujian"
-      ],
-      "endpointRegionIds": [
-        "fujian"
       ]
     },
     "japanese-invasion:78": {

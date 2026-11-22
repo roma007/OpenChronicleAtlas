@@ -3,6 +3,32 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.234] - 2026-11-22
+
+### Fixed
+- **抗日战争 · 路线校订第一批（M252）**：质量批次，不新增事件。
+  - **#3 史实纠错**：原「北平—南京」把 1937 年日军画成经徐州直抵南京（徐州 1938-05-19
+    才失守，南京由淞沪方向攻陷），改为「北平—保定—石家庄—邢台—邯郸—安阳（平汉线北段）」，
+    1937-07-07 ~ 11-05，起点前推至卢沟桥。
+  - **#15 运城—平陆**：853 天 → 1938-07-01 ~ 07-31（1938 年 7 月中条山作战）。
+  - **#1 沈阳—哈尔滨**：标为 `precision: campaign`（分期占领总览）。
+  - **#5、#46**：描述校订；#46 明确「战役总览，非单次行动」并列出分段线。
+- 删除重复粗线 **#23 钦州湾—南宁**（≈#289）、**#77 闽江口—福州**（≈#203/#204）。
+
+### Changed
+- 路线：385 → **383** 段；事件 1025、地区 861 不变。
+- `campaign` 总览线 17 段；带「待校订」字样由 48 降至 46 段。
+- 新增审计表 `docs/research/units/anti-japanese-war-route-audit.md`（逐段分类：
+  总览线 17、措辞陈旧 34、长跨度待观察 4）。
+
+### Verify
+- `python3 scripts/build-region-data.py`（删段后必须重建 regionIndex）、
+  `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.233] - 2026-11-22
 
 ### Added

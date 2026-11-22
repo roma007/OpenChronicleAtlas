@@ -35,11 +35,11 @@
           "en": "Shenyang–Harbin"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1931 年 9 月至 1932 年 2 月日军由沈阳北犯、分期占领长春与哈尔滨的总览线，非单次行动；长春 1931-09-19、哈尔滨 1932-02-05，另见 #56（沈阳—锦州）等分段。路线为示意简化。",
+          "en": "Overview line of the Japanese advance north from Shenyang between September 1931 and February 1932, taking Changchun (19 September 1931) and Harbin (5 February 1932); it is not a single action. See also #56. The route is schematic."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "campaign"
         }
       }
     },
@@ -87,32 +87,44 @@
             39.85
           ],
           [
-            117.2,
-            39.13
+            116.4,
+            39.9
           ],
           [
-            117.2,
-            34.2
+            115.48,
+            38.87
           ],
           [
-            118.8,
-            32.06
+            114.5,
+            38.04
+          ],
+          [
+            114.5,
+            37.07
+          ],
+          [
+            114.49,
+            36.61
+          ],
+          [
+            114.35,
+            36.1
           ]
         ]
       },
       "properties": {
         "entityId": "japanese-invasion",
         "startDate": "1937-07-07",
-        "endDate": "1937-12-13",
+        "endDate": "1937-11-05",
         "order": 3,
         "segmentType": "advance",
         "name": {
-          "zh": "北平—南京",
-          "en": "Beiping–Nanjing"
+          "zh": "北平—保定—石家庄—邢台—邯郸—安阳（平汉线北段）",
+          "en": "Beiping–Baoding–Shijiazhuang–Xingtai–Handan–Anyang (northern Beiping–Hankou line)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1937 年 7 月 7 日日军进攻卢沟桥，7 月 29 日北平沦陷，随后沿平汉线南下：9 月 24 日陷保定，10 月 10 日陷石家庄，10 月 15 日陷邢台，10 月 17 日陷邯郸，11 月 5 日陷安阳，此后与中方隔漳河对峙。南京系由淞沪方向攻陷，见 #5，不经本线。路线为示意简化。",
+          "en": "On 7 July 1937 the Japanese attacked Lugouqiao; Beiping fell on 29 July, after which they advanced south along the Beiping–Hankou railway: Baoding on 24 September, Shijiazhuang on 10 October, Xingtai on 15 October, Handan on 17 October and Anyang on 5 November, after which the front stabilised along the Zhang River. Nanjing was taken from the Shanghai direction (see #5), not along this line. The route is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -187,8 +199,8 @@
           "en": "Shanghai–Nanjing"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1937 年 8 月 13 日淞沪会战开始，11 月 12 日上海失守；日军随后沿京沪线西进，12 月 13 日攻陷南京。路线为示意简化。",
+          "en": "The battle of Shanghai opened on 13 August 1937; the city fell on 12 November, after which the Japanese advanced west along the Shanghai–Nanjing railway and took Nanjing on 13 December. The route is schematic."
         },
         "extensions": {
           "precision": "schematic"
@@ -559,16 +571,16 @@
       "properties": {
         "entityId": "japanese-invasion",
         "startDate": "1938-07-01",
-        "endDate": "1940-10-31",
+        "endDate": "1938-07-31",
         "order": 15,
         "segmentType": "advance",
         "name": {
-          "zh": "运城—平陆",
-          "en": "Yuncheng–Pinglu"
+          "zh": "运城—平陆（1938 年 7 月中条山作战）",
+          "en": "Yuncheng–Pinglu (July 1938 Zhongtiao operation)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1938 年 7 月，日军自运城方向进攻中条山西段平陆一带。原路线标为 1938-07 至 1940-10（853 天），时间跨度过大、与单次行动不符，现按该次作战收紧至 1938 年 7 月。示意简化；1939 年 6 月六六战役另见 #378。",
+          "en": "In July 1938 the Japanese attacked the Pinglu area in the western Zhongtiao Shan from the Yuncheng direction. The route had been dated July 1938 to October 1940 (853 days), too long for a single action, and has been tightened to July 1938. Schematic; the June 1939 June 6th battle is drawn separately in #378."
         },
         "extensions": {
           "precision": "schematic"
@@ -834,40 +846,6 @@
         },
         "extensions": {
           "precision": "campaign"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            108.6,
-            21.9
-          ],
-          [
-            108.32,
-            22.82
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "japanese-invasion",
-        "startDate": "1939-11-15",
-        "endDate": "1939-11-24",
-        "order": 23,
-        "segmentType": "advance",
-        "name": {
-          "zh": "钦州湾—南宁",
-          "en": "Qinzhou Bay–Nanning"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
         }
       }
     },
@@ -1793,8 +1771,8 @@
           "en": "Henan–Hunan–Guangxi–Nanning"
         },
         "description": {
-          "zh": "战役路线（据常见战史地图整理，待页码核对）。",
-          "en": "Campaign route based on common historical maps; page-level verification pending."
+          "zh": "1944 年豫湘桂作战总览线（郑州—信阳—武汉—长沙—衡阳—桂林—柳州—南宁），非单次行动；各阶段分段见 #282（湘北）、#284（长沙—湘潭—衡阳）、#293（桂北）、#295（桂柳—宜山—河池）、#297/#298（桂南）。路线为示意简化。",
+          "en": "Overview line of the 1944 Henan–Hunan–Guangxi operation from Zhengzhou via Xinyang, Wuhan, Changsha, Hengyang, Guilin and Liuzhou to Nanning; it is not a single action. The stages are drawn separately in #282, #284, #293, #295, #297 and #298. The route is schematic."
         },
         "extensions": {
           "precision": "campaign"
@@ -2925,48 +2903,6 @@
         "description": {
           "zh": "1941 年 4 月 18 日，日军在瑞安飞云江口登陆，占领瑞安，19 日北犯温州。示意简化路线。",
           "en": "On 18 April 1941 Japanese forces landed at the Feiyun River mouth, occupied Rui’an and advanced north to Wenzhou on 19 April. Schematic simplified route."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            119.6,
-            26.05
-          ],
-          [
-            119.5,
-            26.02
-          ],
-          [
-            119.4,
-            26.05
-          ],
-          [
-            119.3,
-            26.08
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "japanese-invasion",
-        "startDate": "1941-04-19",
-        "endDate": "1941-04-21",
-        "order": 77,
-        "segmentType": "advance",
-        "name": {
-          "zh": "闽江口—福州（第一次福州战役）",
-          "en": "Min River estuary–Fuzhou (first battle for Fuzhou)"
-        },
-        "description": {
-          "zh": "1941 年 4 月 19 日，日军在闽江口两侧登陆，经连江、长乐向福州推进，21 日占领福州。示意简化路线。",
-          "en": "On 19 April 1941 Japanese forces landed on both sides of the Min River estuary, advanced on Fuzhou via Lianjiang and Changle, and occupied the city on 21 April. Schematic simplified route."
         },
         "extensions": {
           "precision": "schematic"
