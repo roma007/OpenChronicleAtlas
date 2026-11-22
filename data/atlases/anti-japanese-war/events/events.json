@@ -53936,5 +53936,295 @@
     "extensions": {
       "routeEvent": false
     }
+  },
+  {
+    "id": "first-route-army-1936-07",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "东北抗联第一路军成立",
+      "en": "Formation of the 1st Route Army"
+    },
+    "date": "1936-07-01",
+    "location": {
+      "lng": 126.05,
+      "lat": 42.55,
+      "place": {
+        "zh": "吉林金川河里（今辉南）",
+        "en": "Heli, Jinchuan (modern Huinan), Jilin"
+      }
+    },
+    "entityIds": [
+      "northeast-anti-japanese"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "1936年7月，杨靖宇、魏拯民在金川河里召开联席会议，将抗联第一、第二军合编为东北抗日联军第一路军。",
+      "en": "In July 1936 Yang Jingyu and Wei Zhengmin met at Heli in Jinchuan and merged the 1st and 2nd Armies into the 1st Route Army."
+    },
+    "description": {
+      "zh": "1936 年 6 月，抗联第二军政委魏拯民率一个连到达金川县河里地区，与第一军军长杨靖宇会师。7 月初，中共南满第二次代表大会在河里密营召开，正式宣布东北人民革命军第一军改编为东北抗日联军第一军，杨靖宇任军长兼政委；接着召开南满、东满特委及第一、第二军领导干部联席会议（「河里会议」），决定将两军合编为东北抗日联军第一路军，成立总司令部：总司令兼政委杨靖宇，副总司令王德泰，总政治部主任魏拯民，参谋长安光勋；下辖第一、第二军共 6 个师，1937 年初统计约 1.5 万人（一说 5000 人）。会议同时决定东、南满两个特委合并为中共南满省委（亦称东南满省委），魏拯民任书记。日期取 7 月初，确切日期待考。本事件为建制事件，不绘路线。",
+      "en": "In June 1936 Wei Zhengmin, political commissar of the 2nd Army, reached the Heli area of Jinchuan county with one company and joined Yang Jingyu, commander of the 1st Army. In early July the second South Manchurian party congress met at the Heli base and formally renamed the 1st Army of the People’s Revolutionary Army as the 1st Army of the United Army, with Yang as commander and commissar; a joint meeting of the South and East Manchurian committees and the two armies’ leaders — the “Heli conference” — then merged them into the 1st Route Army with a general headquarters: Yang Jingyu as commander and commissar, Wang Detai as deputy, Wei Zhengmin as head of the political department and An Guangxun as chief of staff, commanding six divisions in two armies, some 15,000 men by early 1937 (another account says 5,000). The meeting also merged the two committees into the South Manchurian (South-East Manchurian) provincial committee under Wei. The date is given as early July; the exact day is unknown. This is an organisational event and no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗联第一路军》",
+        "author": "吉林省地方志编纂委员会 2018-06-29",
+        "note": "河里会议经过、总司令部编成、1.5 万人"
+      },
+      {
+        "title": "《东北抗联大事记·1936 年》",
+        "author": "东北抗联网上纪念馆（共产党员网 2016-01-15 转载）",
+        "note": "6 月会师、7 月初改编与合编"
+      },
+      {
+        "title": "《中国抗日战争全史》第二编第八章第三节",
+        "author": "抗日战争纪念网 2017-11-17",
+        "note": "河里会议决定、6 个师编成与活动方针"
+      },
+      {
+        "title": "《中共抗战英烈：魏拯民》",
+        "author": "人民网党史频道 2014-03-25",
+        "note": "1936 年 6—7 月一、二军会师与第一路军成立"
+      }
+    ],
+    "relatedIds": [
+      "united-army-founding-1936-02",
+      "yang-jingyu-1940-02"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "second-route-army-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "东北抗联第二路军成立",
+      "en": "Formation of the 2nd Route Army"
+    },
+    "date": "1937-10-10",
+    "location": {
+      "lng": 129.85,
+      "lat": 45.4,
+      "place": {
+        "zh": "吉林依兰四道河子（今林口）",
+        "en": "Sidaohezi, Yilan (modern Linkou), Jilin"
+      }
+    },
+    "entityIds": [
+      "northeast-anti-japanese"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "1937年10月10日，吉东省委在依兰四道河子宣布东北抗日联军第二路军成立，周保中任总指挥。",
+      "en": "On 10 October 1937 the Jilin-Dongman party committee proclaimed the 2nd Route Army at Sidaohezi in Yilan, with Zhou Baozhong as commander."
+    },
+    "description": {
+      "zh": "1937 年 3 月，中共吉东省委在依兰四道河子成立。为统一吉东地区抗联各军的指挥，9 月 29 日周保中在四道河子密营主持召开省委常委工作会议，决定以第四、第五、第七、第八、第十军为基础，联合姚振山部义勇军与王荫武部救世军，成立东北抗日联军第二路军，周保中任总指挥，崔石泉任参谋长，赵尚志任副总指挥。10 月 10 日，以第五军名义发表《通告》，宣布第二路军正式成立，活动区域包括中东路哈绥线两侧、牡丹江流域、方正以下松花江右岸与乌苏里江左岸，共约 20 余县。1938 年 1 月，周保中在饶河主持召开下江特委扩大会议，整顿第七军并调整各师团干部，与 10 月成立事不同，不应混为一谈。本事件为建制事件，不绘路线。",
+      "en": "The Jilin-Dongman provincial committee was formed at Sidaohezi in Yilan in March 1937. To unify command in the east, Zhou Baozhong convened a standing-committee meeting at the Sidaohezi base on 29 September and decided to build the 2nd Route Army on the 4th, 5th, 7th, 8th and 10th Armies together with Yao Zhenshan’s volunteers and Wang Yinwu’s Salvation Army, with Zhou as commander, Cui Shiquan as chief of staff and Zhao Shangzhi as deputy. On 10 October a proclamation issued in the name of the 5th Army announced the army’s formation, covering both sides of the Harbin–Suifenhe railway, the Mudan valley, the right bank of the Songhua below Fangzheng and the left bank of the Ussuri — some twenty counties. In January 1938 Zhou held the lower-Songhua special committee meeting at Raohe to reorganise the 7th Army, a separate affair that should not be confused with the October formation. This is an organisational event and no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《1937 年（民国 26 年）》",
+        "author": "中共黑龙江省委史志研究室《黑龙江史志》（黑龙江史志网）",
+        "note": "9-29 常委会议、10-10 发表成立通告"
+      },
+      {
+        "title": "《周保中与东北抗日联军第二路军的组建》",
+        "author": "《世纪桥》（黑龙江党史网 2022-01-27 转载）",
+        "note": "筹备经过、总指挥部编成与活动区域"
+      },
+      {
+        "title": "《回望刁翎密营里的东北抗联第二路军烽火征程》",
+        "author": "王凤春，《中国国防报》2026-09-22（中国军网）",
+        "note": "9-29 至 10-10 会议、10-10 宣告成立"
+      },
+      {
+        "title": "《东北抗日联军及其抗联精神》",
+        "author": "吉林省地方志编纂委员会 2016-10-28",
+        "note": "第二路军 1937 年 10 月成立、辖 4、5、7、8、10 军"
+      }
+    ],
+    "relatedIds": [
+      "united-army-founding-1936-02",
+      "eight-women-wusihun-1938-10"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "third-route-army-1939-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "东北抗联第三路军成立",
+      "en": "Formation of the 3rd Route Army"
+    },
+    "date": "1939-05-30",
+    "location": {
+      "lng": 126.65,
+      "lat": 48.75,
+      "place": {
+        "zh": "黑龙江德都朝阳山（今五大连池）",
+        "en": "Chaoyang Mountain, Dedu (modern Wudalianchi), Heilongjiang"
+      }
+    },
+    "entityIds": [
+      "northeast-anti-japanese"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "1939年5月30日，东北抗联第三路军总指挥部在德都县朝阳山成立，李兆麟任总指挥。",
+      "en": "On 30 May 1939 the 3rd Route Army headquarters was established at Chaoyang Mountain in Dedu county under Li Zhaolin."
+    },
+    "description": {
+      "zh": "1939 年 3、4 月间，中共北满临时省委召开第二次执行委员会全体会议，决定去掉「临时」二字改称北满省委，并成立东北抗日联军第三路军总指挥部。5 月，北满省委发出《成立东北抗日联军第三路军》通告；5 月 30 日，第三路军总指挥部在德都县朝阳山后方基地正式成立：总指挥李兆麟（张寿篯），总参谋长许亨植，后冯仲云任政治委员；辖第三、第六、第九、第十一军，全军约 700 人（后编为龙南、龙北两个地区指挥部）。朝阳山由此成为北满抗联的指挥中心与后方基地，设有医院、修械所、被服厂、军政干校。本事件为建制事件，不绘路线。",
+      "en": "In March and April 1939 the North Manchurian provisional provincial committee held its second plenary session, dropped “provisional” from its name and decided to form a headquarters for the 3rd Route Army. In May the committee issued its proclamation on the army’s establishment, and on 30 May the headquarters was formally created at the Chaoyang Mountain base in Dedu county: Li Zhaolin (Zhang Shouqian) as commander, Xu Hengzhi as chief of staff and later Feng Zhongyun as political commissar, commanding the 3rd, 6th, 9th and 11th Armies — about 700 men, later organised into the Longnan and Longbei area commands. Chaoyang Mountain became the command centre and rear base of the North Manchurian United Army, with a hospital, armory, clothing workshop and cadet school. This is an organisational event and no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《民族英雄李兆麟与抗联第三路军》",
+        "author": "赵俊清，黑龙江党史网 2016-07-08",
+        "note": "北满省委二次全会、5-30 朝阳山成立、编制与人数"
+      },
+      {
+        "title": "《东北抗联大事记·1939 年》",
+        "author": "东北抗联网上纪念馆（共产党员网 2016-01-18 转载）",
+        "note": "4-12 决定成立、5-30 德都朝阳山正式成立"
+      },
+      {
+        "title": "《朝阳山抗联遗址群：抗日烽火在这里熊熊燃烧》",
+        "author": "东北网 2019-10-22",
+        "note": "朝阳山为北满省委与三路军总指挥部驻地"
+      },
+      {
+        "title": "《抗战大事记·1939 年》",
+        "author": "人民网党史频道 2015-04-29（据《中国抗日战争史》）",
+        "note": "5-30 第三路军成立、李兆麟任总指挥"
+      }
+    ],
+    "relatedIds": [
+      "united-army-founding-1936-02",
+      "zhao-shangzhi-1942-02"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "liduo-soviet-1933-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "李杜等部退入苏联",
+      "en": "Li Du’s forces withdraw into the Soviet Union"
+    },
+    "date": "1933-01-09",
+    "location": {
+      "lng": 133.94,
+      "lat": 45.77,
+      "place": {
+        "zh": "吉林虎林",
+        "en": "Hulin, Jilin"
+      }
+    },
+    "entityIds": [
+      "northeast-volunteers"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1933年1月9日，吉林自卫军总司令李杜等率3000余人自虎林附近退入苏联；13日王德林部亦退入苏境。",
+      "en": "On 9 January 1933 Li Du and other Jilin Self-Defence Army commanders crossed into the Soviet Union near Hulin with some 3,000 men; Wang Delin’s force followed on the 13th."
+    },
+    "description": {
+      "zh": "1932 年底，日军集中兵力围攻吉东抗日各部。1933 年 1 月 5 日绥芬河失守，6 日密山失守，吉林自卫军总司令李杜率部撤至密山一带。1 月 9 日，李杜、邢占清、杨耀钧等率 3000 余人（一说 2000 余人）自虎林附近渡乌苏里江退入苏联境内；1 月 13 日，救国军总司令王德林、副总指挥孔宪荣率 600 余人及伤员、眷属自东宁退入苏境，14 日东宁失守。此后吉林自卫军、救国军余部或留在吉东坚持，或转入中共领导的抗日游击队，李延禄部补充团则于 1 月 4 日在穆棱五河林改编为抗日游击总队，后发展为抗联第四军。本事件为撤退事件，不绘路线（路线涉及越境，且为分散突围，不宜连线）。",
+      "en": "At the end of 1932 the Japanese concentrated their forces against the anti-Japanese armies of eastern Jilin. Suifenhe fell on 5 January 1933 and Mishan on the 6th, and Li Du, commander of the Jilin Self-Defence Army, fell back toward Mishan. On 9 January Li Du, Xing Zhanqing and Yang Yaojun crossed the Ussuri near Hulin into Soviet territory with some 3,000 men (another account says over 2,000); on the 13th Wang Delin and Kong Xianrong of the National Salvation Army crossed from Dongning with over 600 men, the wounded and their families, and Dongning fell on the 14th. The remnants either stayed in eastern Jilin or joined the Communist-led guerrillas; Li Yanlu’s supplementary regiment had already been reorganised at Wuhelin in Muling on 4 January as a guerrilla group that became the 4th Route Army. This was a withdrawal and no route is drawn, since it involved crossing a frontier in dispersed parties."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《1933 年（民国 22 年）》",
+        "author": "中共黑龙江省委史志研究室《黑龙江史志》（黑龙江史志网）",
+        "note": "1-5 绥芬河、1-6 密山、1-9 李杜退苏、1-13 王德林退苏"
+      },
+      {
+        "title": "《东北抗联大事记（1931—1945）》",
+        "author": "央视网科教 2015-12-16（转东北网）",
+        "note": "1-9 李杜、邢占清率部由虎林退入苏联"
+      },
+      {
+        "title": "《无衔将军——铁骨铮铮的东北抗日联军总司令李杜》",
+        "author": "凤凰网历史 2009-12-18",
+        "note": "1-9 李杜、王德林、邢占清、杨耀钧率 2000 余人渡乌苏里江"
+      }
+    ],
+    "relatedIds": [
+      "harbin-defense-1932-01",
+      "jiuguo-army-1932-02"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "wang-delin-1938-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "王德林病逝",
+      "en": "Death of Wang Delin"
+    },
+    "date": "1938-12-20",
+    "location": {
+      "lng": 118.63,
+      "lat": 35.78,
+      "place": {
+        "zh": "山东沂水",
+        "en": "Yishui, Shandong"
+      }
+    },
+    "entityIds": [
+      "northeast-volunteers"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "1938年12月20日，吉林中国国民救国军总司令王德林在山东沂水病逝，年64岁。",
+      "en": "On 20 December 1938 Wang Delin, commander of the Jilin National Salvation Army, died of illness at Yishui in Shandong; he was 64."
+    },
+    "description": {
+      "zh": "王德林 1874 年（一说 1875）生于山东沂水，早年闯关东，1917 年所部编为吉林军第一旅第三营，驻延吉，俗称「老三营」。1932 年 2 月 8 日在延吉小城子成立吉林中国国民救国军，任总司令，提出「不分党派，共同一致对外」；1933 年 1 月 13 日兵败退入苏联，经欧洲回国，奔走于上海、天津、郑州等地继续抗日救亡，并把在关内募得的 8000 元交给东北抗日部队。1937 年七七事变后回到山东沂水，组织地方抗日武装，出任光复军第二路指挥；1938 年 12 月 20 日因病情恶化在沂水去世，年 64 岁。1939 年 2 月 4 日，延安《解放》周刊发表悼念文章，称「丧失这位民族英雄，实乃我中华民族的一个损失」。本事件不绘路线。",
+      "en": "Wang Delin was born at Yishui in Shandong in 1874 (some sources say 1875), went to Manchuria as a young man, and in 1917 his unit became the 3rd Battalion of the 1st Brigade of the Jilin Army, stationed at Yanji and known as the “old 3rd Battalion”. On 8 February 1932 he proclaimed the Jilin National Salvation Army at Xiaochengzi and called for unity across party lines; defeated in January 1933 he crossed into the Soviet Union, returned via Europe, worked for the resistance in Shanghai, Tianjin and Zhengzhou, and sent 8,000 silver dollars raised inside the Great Wall to the forces in the Northeast. After the war began in July 1937 he returned to Yishui in Shandong, raised a local force and commanded the 2nd Route of the Restoration Army; his condition worsened and he died at Yishui on 20 December 1938, aged 64. On 4 February 1939 the Yan’an journal Jiefang published an obituary calling the loss of “this national hero” a loss to the Chinese nation. No route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《王德林》",
+        "author": "中华英烈网 2013-12-24（中国军网转载）",
+        "note": "退苏、回国、1938-12-20 病逝、延安悼念"
+      },
+      {
+        "title": "《王德林（1875～1938）》",
+        "author": "中共黑龙江省委史志研究室《黑龙江史志》（黑龙江史志网）",
+        "note": "生平、退苏、1938-12-20 去世"
+      },
+      {
+        "title": "《吉林省爱国主义教育基地：王德林（1874—1938）》",
+        "author": "中国吉林网 2015-07-07",
+        "note": "生年、沂水病逝、光复军第二路指挥"
+      }
+    ],
+    "relatedIds": [
+      "jiuguo-army-1932-02",
+      "liduo-soviet-1933-01"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   }
 ]

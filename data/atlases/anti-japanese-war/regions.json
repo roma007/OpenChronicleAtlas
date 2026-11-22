@@ -18804,8 +18804,8 @@
         "pointSource": "event-average"
       },
       "point": [
-        129.56,
-        46.32
+        129.705,
+        45.86
       ]
     },
     {
@@ -21808,6 +21808,153 @@
         "sourcePlace": "河北迁安平台山",
         "confidence": "medium"
       }
+    },
+    {
+      "id": "county-jilin-u91d1u5dddu53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "金川县"
+      },
+      "shortName": {
+        "zh": "金川"
+      },
+      "aliases": [
+        "金川"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        126.05,
+        42.55
+      ]
+    },
+    {
+      "id": "place-jilin-u91d1u5dddu6cb3u91cc",
+      "level": "place",
+      "parentId": "county-jilin-u91d1u5dddu53bf",
+      "name": {
+        "zh": "河里"
+      },
+      "shortName": {
+        "zh": "河里"
+      },
+      "aliases": [
+        "吉林金川河里（今辉南）",
+        "吉林金川河里"
+      ],
+      "modernName": {
+        "zh": "吉林金川河里（今辉南）"
+      },
+      "point": [
+        126.05,
+        42.55
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林金川河里（今辉南）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-jilin-u4f9du5170u56dbu9053u6cb3u5b50",
+      "level": "place",
+      "parentId": "county-jilin-u4f9du5170u53bf",
+      "name": {
+        "zh": "四道河子"
+      },
+      "shortName": {
+        "zh": "四道河子"
+      },
+      "aliases": [
+        "吉林依兰四道河子（今林口）",
+        "吉林依兰四道河子"
+      ],
+      "modernName": {
+        "zh": "吉林依兰四道河子（今林口）"
+      },
+      "point": [
+        129.85,
+        45.4
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林依兰四道河子（今林口）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-heilongjiang-u5fb7u90fdu53bf",
+      "level": "county",
+      "parentId": "heilongjiang",
+      "name": {
+        "zh": "德都县"
+      },
+      "shortName": {
+        "zh": "德都"
+      },
+      "aliases": [
+        "德都"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        126.65,
+        48.75
+      ]
+    },
+    {
+      "id": "place-heilongjiang-u5fb7u90fdu671du9633u5c71",
+      "level": "place",
+      "parentId": "county-heilongjiang-u5fb7u90fdu53bf",
+      "name": {
+        "zh": "朝阳山"
+      },
+      "shortName": {
+        "zh": "朝阳山"
+      },
+      "aliases": [
+        "黑龙江德都朝阳山（今五大连池）",
+        "黑龙江德都朝阳山"
+      ],
+      "modernName": {
+        "zh": "黑龙江德都朝阳山（今五大连池）"
+      },
+      "point": [
+        126.65,
+        48.75
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "黑龙江德都朝阳山（今五大连池）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jilin-u864eu6797u53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "虎林县"
+      },
+      "shortName": {
+        "zh": "虎林"
+      },
+      "aliases": [
+        "虎林"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        133.94,
+        45.77
+      ]
     }
   ]
 }
