@@ -3,6 +3,29 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.255] - 2026-11-23
+
+### Added
+- **抗日战争 · 人民革命军各军成立（M273）**：新增 5 个建制事件（均 `routeEvent: false`）。
+  - 东北人民革命军第一军成立（1934-11-07，临江四道岔，杨靖宇兼政委，800 余人）。
+  - 东北人民革命军第三军成立（1935-01-28，珠河，赵尚志）。
+  - 东北反日联合军第五军成立（1935-02-10，宁安，周保中，936 人）。
+  - 东北人民革命军第二军成立（1935-05-30，安图车厂子，王德泰，1200 余人）。
+  - 东北人民革命军第六军成立（1936-01-30，汤原，夏云杰，1000 余人）。
+  - 事件 1089 → **1094**，地区 921 → **925**，路线 564 不变。
+
+### Research
+- 番号按当时名称书写：第一、二、三、六军为「人民革命军」，第五军为「反日联合军」，
+  第四军为「同盟军」（本批未立条），不提前统一为「抗联」。
+- 第六军成立日 1-30（澎湃）与「1 月中旬」（黑龙江省政府）并存，取 1-30 并注明。
+- 研究笔记 `docs/research/units/anti-japanese-war-people-army.md`。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes`（0 问题）、`pnpm check:heads`（0 个无来由端点）、
+  `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.254] - 2026-11-23
 
 ### Added

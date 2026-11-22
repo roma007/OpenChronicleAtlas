@@ -18679,8 +18679,8 @@
         "pointSource": "event-average"
       },
       "point": [
-        129.3433,
-        44.4067
+        129.345,
+        44.3675
       ]
     },
     {
@@ -21398,8 +21398,8 @@
         "pointSource": "event-average"
       },
       "point": [
-        127.855,
-        45.045
+        127.89,
+        45.1
       ]
     },
     {
@@ -22404,6 +22404,104 @@
       "extensions": {
         "frame": "ROC-1937",
         "sourcePlace": "吉林磐石玻璃河套",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jilin-u4e34u6c5fu53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "临江县"
+      },
+      "shortName": {
+        "zh": "临江"
+      },
+      "aliases": [
+        "临江"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        126.9,
+        41.8
+      ]
+    },
+    {
+      "id": "place-jilin-u4e34u6c5fu56dbu9053u5c94",
+      "level": "place",
+      "parentId": "county-jilin-u4e34u6c5fu53bf",
+      "name": {
+        "zh": "四道岔"
+      },
+      "shortName": {
+        "zh": "四道岔"
+      },
+      "aliases": [
+        "吉林临江四道岔",
+        "吉林临江四道岔"
+      ],
+      "modernName": {
+        "zh": "吉林临江四道岔"
+      },
+      "point": [
+        126.9,
+        41.8
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林临江四道岔",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jilin-u5b89u56feu53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "安图县"
+      },
+      "shortName": {
+        "zh": "安图"
+      },
+      "aliases": [
+        "安图"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        128.45,
+        42.85
+      ]
+    },
+    {
+      "id": "place-jilin-u5b89u56feu8f66u5382u5b50",
+      "level": "place",
+      "parentId": "county-jilin-u5b89u56feu53bf",
+      "name": {
+        "zh": "车厂子"
+      },
+      "shortName": {
+        "zh": "车厂子"
+      },
+      "aliases": [
+        "吉林安图车厂子",
+        "吉林安图车厂子"
+      ],
+      "modernName": {
+        "zh": "吉林安图车厂子"
+      },
+      "point": [
+        128.45,
+        42.85
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林安图车厂子",
         "confidence": "medium"
       }
     }
