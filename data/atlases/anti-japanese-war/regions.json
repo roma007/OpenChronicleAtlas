@@ -21105,6 +21105,55 @@
         "sourcePlace": "上海胶州路孤军营",
         "confidence": "low"
       }
+    },
+    {
+      "id": "county-yunnan-u7965u4e91u53bf",
+      "level": "county",
+      "parentId": "yunnan",
+      "name": {
+        "zh": "祥云县"
+      },
+      "shortName": {
+        "zh": "祥云"
+      },
+      "aliases": [
+        "祥云"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        100.68,
+        25.44
+      ]
+    },
+    {
+      "id": "place-yunnan-u7965u4e91u4e91u5357u9a7f",
+      "level": "place",
+      "parentId": "county-yunnan-u7965u4e91u53bf",
+      "name": {
+        "zh": "云南驿"
+      },
+      "shortName": {
+        "zh": "云南驿"
+      },
+      "aliases": [
+        "云南祥云云南驿",
+        "云南祥云云南驿"
+      ],
+      "modernName": {
+        "zh": "云南祥云云南驿"
+      },
+      "point": [
+        100.68,
+        25.44
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "云南祥云云南驿",
+        "confidence": "medium"
+      }
     }
   ]
 }

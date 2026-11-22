@@ -3,6 +3,23 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.245] - 2026-11-22
+
+### Added
+- **抗日战争 · 空袭专题第一批（云南，M263）**：新增 3 个事件（均 `routeEvent: false`）。
+  - 蒙自「四一三」大轰炸（1939-04-13，19 架两批，投弹 164 枚；伤亡两说并列）。
+  - 日机轰炸云南驿机场（1940-12-12，毁教练机 21 架、运输机 3 架）。
+  - 日机大举轰炸云南驿机场（1943-04-26，54 架，民工伤亡 777 人；次日再袭）。
+  - 事件 1038 → **1041**，地区 868 → **870**，路线 563 不变。
+- 研究笔记 `docs/research/units/anti-japanese-war-airraids-1.md`。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes`（0 问题）、`pnpm check:heads`（0 个无来由端点）、
+  `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 个旧同日被炸、云南驿 1943-03 说、川渝 9 县与重庆 1940-08 两日仍待考。
+
+---
+
 ## [v1.0.244] - 2026-11-22
 
 ### Added
