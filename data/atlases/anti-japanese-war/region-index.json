@@ -4198,6 +4198,27 @@
     "hongkong-surrender-1945-09": [
       "hongkong",
       "place-hongkong-u9999u6e2f"
+    ],
+    "yongqing-fall-1937-09": [
+      "hebei",
+      "county-hebei-u6c38u6e05u53bf"
+    ],
+    "gu-an-fall-1937-09": [
+      "hebei",
+      "county-hebei-u56fau5b89u53bf"
+    ],
+    "zhuozhou-fall-1937-09": [
+      "hebei",
+      "county-hebei-u6dbfu53bf",
+      "place-hebei-u6dbfu5dde"
+    ],
+    "zhengding-fall-1937-10": [
+      "hebei",
+      "county-hebei-u6b63u5b9au53bf"
+    ],
+    "jingxing-coal-1937-10": [
+      "hebei",
+      "county-hebei-u4e95u9649u53bf"
     ]
   },
   "routes": {
@@ -4390,6 +4411,7 @@
       "regionIds": [
         "beiping",
         "county-hebei-u6613u53bf",
+        "county-hebei-u6dbfu53bf",
         "county-hebei-u901au53bf",
         "hebei"
       ],
@@ -5410,6 +5432,7 @@
       "regionIds": [
         "beiping",
         "county-hebei-u5b9au53bf",
+        "county-hebei-u6dbfu53bf",
         "county-hebei-u6e05u82d1u53bf",
         "county-hebei-u77f3u95e8u5e02",
         "hebei"
@@ -6592,6 +6615,7 @@
       "regionIds": [
         "beiping",
         "county-hebei-u5b9au53bf",
+        "county-hebei-u6dbfu53bf",
         "county-hebei-u6e05u82d1u53bf",
         "county-hebei-u77f3u95e8u5e02",
         "hebei"
@@ -7720,9 +7744,47 @@
         "rehe"
       ]
     },
+    "japanese-invasion:342": {
+      "regionIds": [
+        "beiping",
+        "county-hebei-u6dbfu53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "japanese-invasion:343": {
+      "regionIds": [
+        "county-hebei-u6dbfu53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "japanese-invasion:344": {
+      "regionIds": [
+        "county-hebei-u77f3u95e8u5e02",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "japanese-invasion:345": {
+      "regionIds": [
+        "county-hebei-u77f3u95e8u5e02",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
     "kmt-forces:1": {
       "regionIds": [
         "beiping",
+        "county-hebei-u6dbfu53bf",
         "county-hebei-u6e05u82d1u53bf",
         "hebei"
       ],

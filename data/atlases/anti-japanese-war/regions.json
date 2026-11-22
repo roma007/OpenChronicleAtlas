@@ -19723,6 +19723,143 @@
         "sourcePlace": "云南滇缅公路沿线",
         "confidence": "low"
       }
+    },
+    {
+      "id": "county-hebei-u6c38u6e05u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "永清县"
+      },
+      "shortName": {
+        "zh": "永清"
+      },
+      "aliases": [
+        "永清"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.5,
+        39.32
+      ]
+    },
+    {
+      "id": "county-hebei-u56fau5b89u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "固安县"
+      },
+      "shortName": {
+        "zh": "固安"
+      },
+      "aliases": [
+        "固安"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.3,
+        39.44
+      ]
+    },
+    {
+      "id": "county-hebei-u6dbfu53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "涿县"
+      },
+      "shortName": {
+        "zh": "涿"
+      },
+      "aliases": [
+        "涿"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.97,
+        39.49
+      ]
+    },
+    {
+      "id": "place-hebei-u6dbfu5dde",
+      "level": "place",
+      "parentId": "county-hebei-u6dbfu53bf",
+      "name": {
+        "zh": "涿州"
+      },
+      "shortName": {
+        "zh": "涿州"
+      },
+      "aliases": [
+        "河北涿州",
+        "河北涿州"
+      ],
+      "modernName": {
+        "zh": "河北涿州"
+      },
+      "point": [
+        115.97,
+        39.49
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北涿州",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-hebei-u6b63u5b9au53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "正定县"
+      },
+      "shortName": {
+        "zh": "正定"
+      },
+      "aliases": [
+        "正定"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.57,
+        38.15
+      ]
+    },
+    {
+      "id": "county-hebei-u4e95u9649u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "井陉县"
+      },
+      "shortName": {
+        "zh": "井陉"
+      },
+      "aliases": [
+        "井陉"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.07,
+        38.08
+      ]
     }
   ]
 }

@@ -13256,6 +13256,150 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            116.14,
+            39.73
+          ],
+          [
+            115.97,
+            39.49
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-09-14",
+        "endDate": "1937-09-18",
+        "order": 342,
+        "segmentType": "advance",
+        "name": {
+          "zh": "北平—良乡—涿州",
+          "en": "Beiping–Liangxiang–Zhuozhou"
+        },
+        "description": {
+          "zh": "1937年9月14日至18日，日军第20师团沿平汉线自北平经良乡进攻涿州。路线为示意简化。",
+          "en": "From 14 to 18 September 1937 the Japanese 20th Division advanced along the Pinghan railway from Beiping through Liangxiang to Zhuozhou. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.5,
+            39.32
+          ],
+          [
+            116.3,
+            39.44
+          ],
+          [
+            115.97,
+            39.49
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-09-15",
+        "endDate": "1937-09-18",
+        "order": 343,
+        "segmentType": "advance",
+        "name": {
+          "zh": "永清—固安—涿州",
+          "en": "Yongqing–Gu’an–Zhuozhou"
+        },
+        "description": {
+          "zh": "1937年9月15日日军第14师团在永清、固安渡过永定河，随后向涿州方向推进。路线为示意简化。",
+          "en": "On 15 September 1937 the Japanese 14th Division crossed the Yongding River at Yongqing and Gu’an and advanced toward Zhuozhou. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.57,
+            38.15
+          ],
+          [
+            114.51,
+            38.04
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-10-08",
+        "endDate": "1937-10-10",
+        "order": 344,
+        "segmentType": "advance",
+        "name": {
+          "zh": "正定—石家庄",
+          "en": "Zhengding–Shijiazhuang"
+        },
+        "description": {
+          "zh": "1937年10月8日日军攻占正定，10日进攻石家庄。路线为示意简化。",
+          "en": "The Japanese took Zhengding on 8 October 1937 and attacked Shijiazhuang on the 10th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.51,
+            38.04
+          ],
+          [
+            114.07,
+            38.08
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-10-10",
+        "endDate": "1937-10-11",
+        "order": 345,
+        "segmentType": "advance",
+        "name": {
+          "zh": "石家庄—井陉",
+          "en": "Shijiazhuang–Jingxing"
+        },
+        "description": {
+          "zh": "1937年10月10日日军攻占石家庄后，11日侵占井陉煤矿。路线为示意简化。",
+          "en": "After taking Shijiazhuang on 10 October 1937, the Japanese seized the Jingxing coal mines on the 11th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

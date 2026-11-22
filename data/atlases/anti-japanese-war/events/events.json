@@ -48459,5 +48459,244 @@
     "extensions": {
       "routeEvent": false
     }
+  },
+  {
+    "id": "yongqing-fall-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "永清沦陷",
+      "en": "Fall of Yongqing"
+    },
+    "date": "1937-09-15",
+    "location": {
+      "lng": 116.5,
+      "lat": 39.32,
+      "place": {
+        "zh": "河北永清",
+        "en": "Yongqing, Hebei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年9月15日，日军第14师团渡过永定河，占领永清。",
+      "en": "On 15 September 1937 the Japanese 14th Division crossed the Yongding River and occupied Yongqing."
+    },
+    "description": {
+      "zh": "1937年9月14日，日军第一军由北平分三路南犯，第14、第6师团分别在永清、固安渡过永定河。15日，日军第14师团渡过永定河，占领固安和永清，向涿县松林店方向推进。永清失守使平汉线北段中国守军右翼暴露。日期据《保定战役》与《第三编 发动全面侵华战争（二）进攻华北，太原作战（3）》。",
+      "en": "On 14 September 1937 the Japanese First Army advanced south from Beiping in three columns, with the 14th and 6th Divisions crossing the Yongding River at Yongqing and Gu’an. On the 15th the 14th Division crossed and occupied Gu’an and Yongqing, then drove toward Songlindian in Zhuo County, exposing the right flank of the Chinese defenders on the northern Pinghan railway."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "保定战役",
+        "author": "百度百科",
+        "note": "百科，访问 2026-11-22"
+      },
+      {
+        "title": "第三编 发动全面侵华战争（二）进攻华北，太原作战（3）",
+        "author": "抗日战争纪念网",
+        "note": "战史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "gu-an-fall-1937-09",
+      "zhuozhou-fall-1937-09"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "gu-an-fall-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "固安沦陷",
+      "en": "Fall of Gu’an"
+    },
+    "date": "1937-09-15",
+    "location": {
+      "lng": 116.3,
+      "lat": 39.44,
+      "place": {
+        "zh": "河北固安",
+        "en": "Gu’an, Hebei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年9月15日，日军渡过永定河占领固安，守军第91师血战后撤退。",
+      "en": "On 15 September 1937 the Japanese crossed the Yongding River and took Gu’an after the 91st Division’s bloody resistance."
+    },
+    "description": {
+      "zh": "1937年9月14日，日军在35架飞机、45辆坦克配合下强渡永定河，进攻固安。冯占海第91师在固安县城及永定河沿岸坚守，数次将日军打回对岸。15日日军第14师团渡过永定河占领固安，固安城巷战至17日陷落，第91师伤亡6000余人。日期取日军渡河占领日，城陷日另有9月17日之说。日期据《保定战役》《血战固安》与《河北固安：浴血抗击牺牲多》。",
+      "en": "On 14 September 1937 the Japanese attacked Gu’an, forcing the Yongding River with 35 aircraft and 45 tanks. Feng Zhanhai’s 91st Division held the county town and the river bank, several times driving the Japanese back. On the 15th the Japanese 14th Division crossed and occupied Gu’an; street fighting continued until the town fell on the 17th, with the 91st Division losing over 6,000 men. The date used here is the crossing and occupation day; some accounts give 17 September for the town’s fall."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "保定战役",
+        "author": "百度百科",
+        "note": "百科，访问 2026-11-22"
+      },
+      {
+        "title": "血战固安",
+        "author": "抗日战争纪念网",
+        "note": "地方史，访问 2026-11-22"
+      },
+      {
+        "title": "河北固安：浴血抗击牺牲多",
+        "author": "人民网·党史 2015-08-08",
+        "note": "官方党史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "yongqing-fall-1937-09",
+      "zhuozhou-fall-1937-09"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "zhuozhou-fall-1937-09",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "涿州沦陷",
+      "en": "Fall of Zhuozhou"
+    },
+    "date": "1937-09-18",
+    "location": {
+      "lng": 115.97,
+      "lat": 39.49,
+      "place": {
+        "zh": "河北涿州",
+        "en": "Zhuozhou, Hebei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年9月18日，日军第20师团攻占涿州。",
+      "en": "On 18 September 1937 the Japanese 20th Division captured Zhuozhou."
+    },
+    "description": {
+      "zh": "1937年9月14日，日军第一军由北平分三路南犯，第20师团由正面向琉璃河、涿县进攻。中国守军第26路军等在房山、良乡、涿县一线坚守近一个月。18日，日军第20师团攻占涿州，中国守军南撤，平汉线北段门户洞开。日期据《保定战役》与《第三编 发动全面侵华战争（二）进攻华北，太原作战（3）》。",
+      "en": "On 14 September 1937 the Japanese First Army advanced south from Beiping in three columns, with the 20th Division attacking Liulihe and Zhuo County frontally. Chinese troops of the 26th Route Army held the Fangshan–Liangxiang–Zhuo County line for nearly a month. On the 18th the 20th Division captured Zhuozhou and the Chinese withdrew, opening the northern Pinghan railway."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "保定战役",
+        "author": "百度百科",
+        "note": "百科，访问 2026-11-22"
+      },
+      {
+        "title": "第三编 发动全面侵华战争（二）进攻华北，太原作战（3）",
+        "author": "抗日战争纪念网",
+        "note": "战史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "gu-an-fall-1937-09",
+      "zhengding-fall-1937-10"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "zhengding-fall-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "正定沦陷",
+      "en": "Fall of Zhengding"
+    },
+    "date": "1937-10-08",
+    "location": {
+      "lng": 114.57,
+      "lat": 38.15,
+      "place": {
+        "zh": "河北正定",
+        "en": "Zhengding, Hebei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年10月8日，日军攻占正定，随后制造正定惨案。",
+      "en": "On 8 October 1937 the Japanese captured Zhengding and then carried out the Zhengding massacre."
+    },
+    "description": {
+      "zh": "1937年10月7日，日军开始进攻正定县城，中国守军顽强抵抗。8日，日军攻占正定城，登上正定北门城楼；入城后屠杀平民，制造正定惨案。正定失守后，日军直逼石家庄。日期据《正定惨案》与当时《朝日新闻》报道。",
+      "en": "On 7 October 1937 the Japanese began attacking Zhengding, meeting stubborn resistance. On the 8th they took the city and raised their flag on the north gate, then massacred civilians in what became known as the Zhengding massacre. The fall of Zhengding opened the way to Shijiazhuang."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "正定惨案",
+        "author": "百度百科",
+        "note": "百科，访问 2026-11-22"
+      },
+      {
+        "title": "日军侵占正定（1937年10月8日）",
+        "author": "《朝日新闻》当时报道/抗战影像档案",
+        "note": "当时报道，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "zhuozhou-fall-1937-09",
+      "jingxing-coal-1937-10"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "jingxing-coal-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "井陉煤矿被日军占领",
+      "en": "Japanese Occupation of Jingxing Coal Mines"
+    },
+    "date": "1937-10-11",
+    "location": {
+      "lng": 114.07,
+      "lat": 38.08,
+      "place": {
+        "zh": "河北井陉",
+        "en": "Jingxing, Hebei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年10月11日，日军侵占井陉煤矿，改设“兴中公司井陉采炭所”。",
+      "en": "On 11 October 1937 the Japanese seized the Jingxing coal mines and renamed them the Xingzhong Company Jingxing colliery."
+    },
+    "description": {
+      "zh": "1937年10月10日日军攻占石家庄后，随即重兵控制井陉煤矿。10月11日，日军侵占井陉煤矿，改名为“兴中公司井陉采炭所”，1938年5月又吞并正丰煤矿。日军在矿区周围挖壕沟、筑碉堡、架电网，残酷压榨矿工，留下南大沟万人坑。日期据石家庄市井陉矿区人民政府《历史沿革》与《井陉矿区南大沟万人坑》。",
+      "en": "After taking Shijiazhuang on 10 October 1937 the Japanese moved troops to control the Jingxing coal mines. On the 11th they seized the mines and renamed them the Xingzhong Company Jingxing colliery; in May 1938 they absorbed the Zhengfeng mine as well. The Japanese dug trenches, built blockhouses and strung electrified wire around the mining area, brutally exploiting the miners and leaving the Nandagou mass grave."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "历史沿革",
+        "author": "石家庄市井陉矿区人民政府 2021-07-07",
+        "note": "地方政府，访问 2026-11-22"
+      },
+      {
+        "title": "井陉矿区南大沟万人坑",
+        "author": "维基百科",
+        "note": "百科，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "zhengding-fall-1937-10"
+    ],
+    "importance": 3
   }
 ]
