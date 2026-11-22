@@ -18728,8 +18728,8 @@
         "pointSource": "event-average"
       },
       "point": [
-        129.47,
-        42.83
+        129.5133,
+        43.2033
       ]
     },
     {
@@ -19088,8 +19088,8 @@
         "pointSource": "event-average"
       },
       "point": [
-        132.2,
-        46.33
+        131.975,
+        46.24
       ]
     },
     {
@@ -21725,6 +21725,87 @@
       "extensions": {
         "frame": "ROC-1937",
         "sourcePlace": "吉林苇河楼山镇（今尚志）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-jilin-u5ef6u5409u5c0fu57ceu5b50",
+      "level": "place",
+      "parentId": "county-jilin-u5ef6u5409u53bf",
+      "name": {
+        "zh": "小城子"
+      },
+      "shortName": {
+        "zh": "小城子"
+      },
+      "aliases": [
+        "吉林延吉小城子（今汪清春阳）",
+        "吉林延吉小城子"
+      ],
+      "modernName": {
+        "zh": "吉林延吉小城子（今汪清春阳）"
+      },
+      "point": [
+        129.6,
+        43.95
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林延吉小城子（今汪清春阳）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-jilin-u5b9du6e05u5c0fu5b64u5c71",
+      "level": "place",
+      "parentId": "county-jilin-u5b9du6e05u53bf",
+      "name": {
+        "zh": "小孤山"
+      },
+      "shortName": {
+        "zh": "小孤山"
+      },
+      "aliases": [
+        "吉林宝清小孤山（今十二烈士山）",
+        "吉林宝清小孤山"
+      ],
+      "modernName": {
+        "zh": "吉林宝清小孤山（今十二烈士山）"
+      },
+      "point": [
+        131.75,
+        46.15
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林宝清小孤山（今十二烈士山）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-hebei-u8fc1u5b89u5e73u53f0u5c71",
+      "level": "place",
+      "parentId": "county-hebei-u8fc1u5b89u53bf",
+      "name": {
+        "zh": "平台山"
+      },
+      "shortName": {
+        "zh": "平台山"
+      },
+      "aliases": [
+        "河北迁安平台山",
+        "河北迁安平台山"
+      ],
+      "modernName": {
+        "zh": "河北迁安平台山"
+      },
+      "point": [
+        118.6,
+        40.15
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北迁安平台山",
         "confidence": "medium"
       }
     }
