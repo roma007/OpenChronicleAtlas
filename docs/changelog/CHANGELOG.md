@@ -3,6 +3,30 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.227] - 2026-11-22
+
+### Added
+- **抗日战争 · 河南密县/郾城补录（M245）**：新增 2 个事件、2 段路线。
+  - 密县 1944-04-24（异说 04-23）、郾城 1944-05-05（与漯河同日）。
+  - 路线（2 段，#375—#376）：新郑—观音堂—密县、临颍—郾城。
+  - 专题：1010 → **1012** 事件、550 → **552** 段路线；日军层：762 → **764** 事件、
+    371 → **373** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-henan-mixin-yancheng.md`、
+  计划 `docs/plans/2026-11-22-M245-河南密县郾城补录-plan.md`。
+
+### Changed
+- `regions.json` / `region-index.json`：地区 848 → **849**（新增密县），
+  1012 个事件全部有省 + 县归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 襄城（05-03 与 05-04 冲突）、遂平/正阳/汝南（月份级）、宝丰/嵩县（得失反复）、
+  偃师/灵宝/阌乡/太康/陈留/武陟继续待考。
+
+---
+
 ## [v1.0.226] - 2026-11-22
 
 ### Added

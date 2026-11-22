@@ -4372,6 +4372,14 @@
     "qianjiang-fall-1944-11": [
       "guangxi",
       "county-guangxi-u8fc1u6c5fu53bf"
+    ],
+    "mixin-fall-1944-04": [
+      "henan",
+      "county-henan-u5bc6u53bf"
+    ],
+    "yancheng-fall-1944-05": [
+      "henan",
+      "county-henan-u90feu57ceu53bf"
     ]
   },
   "routes": {
@@ -5171,7 +5179,6 @@
         "county-guangxi-u9095u5b81u53bf",
         "county-henan-u786eu5c71u53bf",
         "county-henan-u90d1u53bf",
-        "county-henan-u90feu57ceu53bf",
         "county-hunan-u5cb3u9633u53bf",
         "county-hunan-u6e58u9634u53bf",
         "guangxi",
@@ -8173,6 +8180,22 @@
       ],
       "endpointRegionIds": [
         "guangxi"
+      ]
+    },
+    "japanese-invasion:375": {
+      "regionIds": [
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "japanese-invasion:376": {
+      "regionIds": [
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
       ]
     },
     "kmt-forces:1": {

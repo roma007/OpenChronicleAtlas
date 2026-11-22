@@ -15387,8 +15387,8 @@
         "pointSource": "event-average"
       },
       "point": [
-        114.03,
-        33.58
+        114.015,
+        33.585
       ]
     },
     {
@@ -20634,6 +20634,28 @@
       "point": [
         108.99,
         23.62
+      ]
+    },
+    {
+      "id": "county-henan-u5bc6u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "密县"
+      },
+      "shortName": {
+        "zh": "密"
+      },
+      "aliases": [
+        "密"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.39,
+        34.54
       ]
     }
   ]

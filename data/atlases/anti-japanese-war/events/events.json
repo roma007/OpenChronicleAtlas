@@ -50787,5 +50787,111 @@
       "yishan-fall-1944-11"
     ],
     "importance": 2
+  },
+  {
+    "id": "mixin-fall-1944-04",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "密县沦陷",
+      "en": "Fall of Mi County"
+    },
+    "date": "1944-04-24",
+    "location": {
+      "lng": 113.39,
+      "lat": 34.54,
+      "place": {
+        "zh": "河南密县（今新密）",
+        "en": "Mi County (modern Xinmi), Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年4月24日，日军第37师团、第110师团攻陷密县。",
+      "en": "On 24 April 1944 the Japanese 37th and 110th divisions took Mi County after five days of fighting."
+    },
+    "description": {
+      "zh": "1944年4月17日豫中会战开始。日军第37师团第225联队自新郑郭店向密县观音堂进犯，4月19日黄昏与第85军第23师前哨接战，被击退；20日、21日日军增兵再攻观音堂、超化，均被击退。23日第110师团由荥阳南下，威胁五里店阵地侧背，第23师孤军无援，当晚突围转移至密县西南山地。4月24日密县失陷，日军完成第一期作战目标，随后集结兵力南下许昌。日期取《豫中会战经过》与《蒋介石与豫湘桂战役》（引日方战史档案）；另有一说记为4月23日失陷。",
+      "en": "The Japanese offensive in central Henan opened on 17 April 1944. The 225th Regiment of the 37th Division advanced from Guodian in Xinzheng toward the Guanyintang post at Mi County and was thrown back by the outposts of the Chinese 85th Army's 23rd Division at dusk on 19 April; Japanese reinforcements attacked Guanyintang and Chaohua on the 20th and 21st and were also repulsed. On the 23rd the 110th Division came south from Xingyang and threatened the rear of the Wulidian position; the 23rd Division, unsupported, broke out that night into the hills south-west of the county town. Mi County fell on 24 April, completing the Japanese first-phase objective before the main body turned south on Xuchang. The date follows the campaign history and a study drawing on Japanese archival records; one account gives 23 April."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "豫中会战经过",
+        "author": "抗日战争纪念网 2017-04-07",
+        "note": "战史，密县 04-24"
+      },
+      {
+        "title": "蒋介石与豫湘桂战役",
+        "author": "《四川师范大学学报》2021 年第 2 期（引台北“国史馆”、日本防卫省防卫研究所档案）",
+        "note": "论文，密县 04-24"
+      },
+      {
+        "title": "中原会战密县激战五昼夜",
+        "author": "河南省地方史志网《近现代战争》",
+        "note": "地方史志，密县 23 日晚突围"
+      }
+    ],
+    "relatedIds": [
+      "xinzheng-fall-1944-04",
+      "zhengzhou-fall-1944-04",
+      "xuchang-fall-1944-05"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yancheng-fall-1944-05",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "郾城沦陷",
+      "en": "Fall of Yancheng"
+    },
+    "date": "1944-05-05",
+    "location": {
+      "lng": 114,
+      "lat": 33.59,
+      "place": {
+        "zh": "河南郾城",
+        "en": "Yancheng, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1944年5月5日，日军第27师团攻陷郾城，同日突入漯河。",
+      "en": "On 5 May 1944 the Japanese 27th Division took Yancheng and broke into Luohe the same day."
+    },
+    "description": {
+      "zh": "1944年5月2日，日军攻陷临颍后沿平汉线南下，自小商桥分三路进攻漯河、郾城。守军为第89军新编第1师与骑兵第3师。5月2日至4日，日军猛攻五里庙、郾城县城，均被击退；5日拂晓五里庙失守，沙河北岸阵地崩溃，守军渡河南撤，日军随后占领漯河镇外围村庄。5日下午1时，日军侵占郾城并突入漯河，第89军军长顾锡九率部突围。郾城、漯河同日沦陷，日军第91师团随后驻扎漯河。日期取漯河日报地方史与《漯河保卫战》战史。",
+      "en": "After taking Linying on 2 May 1944 the Japanese 27th Division advanced south along the Beiping–Hankou railway and attacked Luohe and Yancheng in three columns from Xiaoshangqiao. The Chinese 89th Army's New 1st Division and the 3rd Cavalry Division held the line. Japanese assaults on Wulimiao and the Yancheng county town were beaten back from 2 to 4 May; before dawn on the 5th Wulimiao fell, the north-bank position collapsed and the defenders withdrew across the Sha River, after which the Japanese occupied the villages around Luohe. At one o'clock in the afternoon of 5 May the Japanese took Yancheng and broke into Luohe; the 89th Army commander Gu Xijiu led his men out. Yancheng and Luohe fell the same day, and the Japanese 91st Division afterwards garrisoned Luohe. The date follows local Luohe historiography and the campaign account of the defence of Luohe."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "沙澧大地燃起抗日烈火",
+        "author": "漯河日报 2021-05-21",
+        "note": "地方史，郾城 05-05"
+      },
+      {
+        "title": "沙澧烽火录：从沦陷苦难到铁血抗战",
+        "author": "漯河日报 2025-08-19",
+        "note": "地方史，郾城 05-05"
+      },
+      {
+        "title": "大抗战：热血中原之漯河保卫战",
+        "author": "抗日战争纪念网 2017-04-25",
+        "note": "战史，郾城 05-05"
+      }
+    ],
+    "relatedIds": [
+      "linying-fall-1944-05",
+      "luohe-fall-1944-05",
+      "xiping-fall-1944-05"
+    ],
+    "importance": 2
   }
 ]

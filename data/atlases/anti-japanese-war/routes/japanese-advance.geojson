@@ -14478,6 +14478,82 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.74,
+            34.4
+          ],
+          [
+            113.55,
+            34.46
+          ],
+          [
+            113.39,
+            34.54
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-04-19",
+        "endDate": "1944-04-24",
+        "order": 375,
+        "segmentType": "advance",
+        "name": {
+          "zh": "新郑—观音堂—密县",
+          "en": "Xinzheng–Guanyintang–Mi County"
+        },
+        "description": {
+          "zh": "1944年4月19日至24日，日军第37师团自新郑经观音堂进攻密县，与第110师团合攻后攻陷县城。路线为示意简化。",
+          "en": "From 19 to 24 April 1944 the Japanese 37th Division advanced from Xinzheng via Guanyintang against Mi County and, joined by the 110th Division, took the town. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.94,
+            33.81
+          ],
+          [
+            113.98,
+            33.7
+          ],
+          [
+            114,
+            33.59
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-05-02",
+        "endDate": "1944-05-05",
+        "order": 376,
+        "segmentType": "advance",
+        "name": {
+          "zh": "临颍—郾城",
+          "en": "Linying–Yancheng"
+        },
+        "description": {
+          "zh": "1944年5月2日至5日，日军第27师团自临颍沿平汉线南下，经小商桥攻陷郾城。路线为示意简化。",
+          "en": "From 2 to 5 May 1944 the Japanese 27th Division advanced south from Linying along the Beiping–Hankou railway and took Yancheng via Xiaoshangqiao. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
