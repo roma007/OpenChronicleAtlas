@@ -3,6 +3,26 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.236] - 2026-11-22
+
+### Changed
+- **抗日战争 · 待考清单收口（M254）**：文档批次，**不改数据**。
+  - M236—M253 逐批销号共补 **54 县**（38 行）。
+  - 剩余县全部结案：史料不足 18 处、冲突未决 7 处、转空袭专题 15 条
+    （云南 4 地、重庆 2 日、川渝 9 县）、不按县城处理 4 处（唐山、秦皇岛、沙市、风陵渡）、
+    不单独立事件 2 处（渔洋关、都镇湾）、仍待补 2 处（陕县、确山 1944-05-04）。
+  - `docs/research/units/anti-japanese-war-source-audit.md` 由「待考表」改为「结案表」，
+    每条写明已查来源、冲突点与结论；此后不再逐县重启网搜。
+- 新增计划 `docs/plans/2026-11-22-M254-待考清单收口-plan.md`。
+
+### Verify
+- 事件 **1026**、路线 **563**、地区 **862** 均不变；缺 `author` 来源仍为 3 条。
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.235] - 2026-11-22
 
 ### Added
