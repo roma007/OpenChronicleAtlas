@@ -4400,6 +4400,14 @@
     "chaling-fall-1944-07": [
       "hunan",
       "county-hunan-u8336u9675u53bf"
+    ],
+    "luanping-fall-1933-03": [
+      "rehe",
+      "county-rehe-u6ee6u5e73u53bf"
+    ],
+    "xinglong-fall-1933-04": [
+      "rehe",
+      "county-rehe-u5174u9686u53bf"
     ]
   },
   "routes": {
@@ -8258,6 +8266,22 @@
       ],
       "endpointRegionIds": [
         "hunan"
+      ]
+    },
+    "japanese-invasion:382": {
+      "regionIds": [
+        "rehe"
+      ],
+      "endpointRegionIds": [
+        "rehe"
+      ]
+    },
+    "japanese-invasion:383": {
+      "regionIds": [
+        "rehe"
+      ],
+      "endpointRegionIds": [
+        "rehe"
       ]
     },
     "kmt-forces:1": {

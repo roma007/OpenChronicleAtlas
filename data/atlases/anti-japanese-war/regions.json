@@ -20745,6 +20745,50 @@
         113.54,
         26.79
       ]
+    },
+    {
+      "id": "county-rehe-u6ee6u5e73u53bf",
+      "level": "county",
+      "parentId": "rehe",
+      "name": {
+        "zh": "滦平县"
+      },
+      "shortName": {
+        "zh": "滦平"
+      },
+      "aliases": [
+        "滦平"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        117.78,
+        40.95
+      ]
+    },
+    {
+      "id": "county-rehe-u5174u9686u53bf",
+      "level": "county",
+      "parentId": "rehe",
+      "name": {
+        "zh": "兴隆县"
+      },
+      "shortName": {
+        "zh": "兴隆"
+      },
+      "aliases": [
+        "兴隆"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        117.5,
+        40.42
+      ]
     }
   ]
 }

@@ -14744,6 +14744,82 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.96,
+            40.99
+          ],
+          [
+            117.85,
+            40.97
+          ],
+          [
+            117.78,
+            40.95
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1933-03-04",
+        "endDate": "1933-03-05",
+        "order": 382,
+        "segmentType": "advance",
+        "name": {
+          "zh": "承德—滦平（趋古北口）",
+          "en": "Chengde–Luanping (toward Gubeikou)"
+        },
+        "description": {
+          "zh": "1933年3月4日至5日，日军占承德后沿平热大道南下，占领滦平县城喀喇河屯。路线为示意简化。",
+          "en": "From 4 to 5 March 1933 the Japanese, having taken Chengde, moved south along the Beiping–Rehe road and occupied the Luanping county town of Karahotun. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.96,
+            40.99
+          ],
+          [
+            117.7,
+            40.7
+          ],
+          [
+            117.5,
+            40.42
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1933-04-19",
+        "endDate": "1933-04-21",
+        "order": 383,
+        "segmentType": "advance",
+        "name": {
+          "zh": "承德—兴隆",
+          "en": "Chengde–Xinglong"
+        },
+        "description": {
+          "zh": "1933年4月，日军自承德方向南下侵占兴隆县城，4月27日被萧之楚部克复。路线为示意简化。",
+          "en": "In April 1933 the Japanese moved south from the Chengde direction and occupied Xinglong, which Xiao Zhichu's division retook on 27 April. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

@@ -3,6 +3,31 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.230] - 2026-11-22
+
+### Added
+- **抗日战争 · 热河滦平/兴隆补录（M248）**：新增 2 个事件、2 段路线。
+  - 滦平 1933-03-05（上午 11 时，同日青石梁阻击战打响）、
+    兴隆 1933-04-21（04-27 克复）。
+  - 路线（2 段，#382—#383）：承德—滦平（趋古北口）、承德—兴隆。
+  - 专题：1017 → **1019** 事件、557 → **559** 段路线；日军层：769 → **771** 事件、
+    378 → **380** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-rehe-luanping-xinglong.md`、
+  计划 `docs/plans/2026-11-22-M248-热河滦平兴隆补录-plan.md`。
+
+### Changed
+- `scripts/build-region-data.py`：增加滦平、兴隆映射。
+- `regions.json` / `region-index.json`：地区 853 → **855**，1019 个事件全部有省 + 县归属。
+- 兴隆 1933 年属河北省，伪满 07-01 划归热河省承德县；事件正文已注明，避免归属错乱。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 青龙（三说冲突）、丰宁（03-27 与 04-02 冲突）继续待考。
+
+---
+
 ## [v1.0.229] - 2026-11-22
 
 ### Added
