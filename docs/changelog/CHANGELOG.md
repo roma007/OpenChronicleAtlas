@@ -3,6 +3,30 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.229] - 2026-11-22
+
+### Added
+- **抗日战争 · 湖南醴陵/安仁/茶陵补录（M247）**：新增 3 个事件、3 段路线。
+  - 醴陵 1944-06-18（07-08 克复、07-10 再陷）、安仁 1944-06-27、
+    茶陵 1944-07-14（城郊争夺 20 天）。
+  - 路线（3 段，#379—#381）：浏阳—醴陵、攸县—安仁、攸县—茶陵。
+  - 专题：1014 → **1017** 事件、554 → **557** 段路线；日军层：766 → **769** 事件、
+    375 → **378** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-hunan-liling-anren-chaling.md`、
+  计划 `docs/plans/2026-11-22-M247-湖南醴陵安仁茶陵补录-plan.md`。
+
+### Changed
+- `scripts/build-region-data.py`：增加醴陵、安仁、茶陵映射。
+- `regions.json` / `region-index.json`：地区 850 → **853**，1017 个事件全部有省 + 县归属。
+- M224 湖南待考项（醴陵、茶陵、安仁）全部清空。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.228] - 2026-11-22
 
 ### Added

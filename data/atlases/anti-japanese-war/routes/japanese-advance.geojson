@@ -14630,6 +14630,120 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.63,
+            28.14
+          ],
+          [
+            113.55,
+            27.9
+          ],
+          [
+            113.5,
+            27.65
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-06-14",
+        "endDate": "1944-06-18",
+        "order": 379,
+        "segmentType": "advance",
+        "name": {
+          "zh": "浏阳—醴陵",
+          "en": "Liuyang–Liling"
+        },
+        "description": {
+          "zh": "1944年6月14日至18日，日军第13师团第65联队自浏阳南部大瑶南下，突破第26军阻击后攻陷醴陵。路线为示意简化。",
+          "en": "From 14 to 18 June 1944 the 65th Regiment of the Japanese 13th Division advanced south from Dayao in southern Liuyang, broke the Chinese 26th Army and took Liling. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.35,
+            27
+          ],
+          [
+            113.3,
+            26.85
+          ],
+          [
+            113.27,
+            26.71
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-06-25",
+        "endDate": "1944-06-27",
+        "order": 380,
+        "segmentType": "advance",
+        "name": {
+          "zh": "攸县—安仁",
+          "en": "You County–Anren"
+        },
+        "description": {
+          "zh": "1944年6月25日至27日，日军自攸县南下攻陷安仁县城。路线为示意简化。",
+          "en": "From 25 to 27 June 1944 the Japanese advanced south from You County and took Anren. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.35,
+            27
+          ],
+          [
+            113.45,
+            26.9
+          ],
+          [
+            113.54,
+            26.79
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-06-25",
+        "endDate": "1944-07-14",
+        "order": 381,
+        "segmentType": "advance",
+        "name": {
+          "zh": "攸县—茶陵",
+          "en": "You County–Chaling"
+        },
+        "description": {
+          "zh": "1944年6月25日至7月14日，日军第3师团自攸县进攻茶陵，经20天城郊争夺后入城。路线为示意简化。",
+          "en": "From 25 June to 14 July 1944 the Japanese 3rd Division advanced from You County against Chaling and entered the town after twenty days of fighting. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

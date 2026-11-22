@@ -4388,6 +4388,18 @@
     "pinglu-fall-1939-06": [
       "shanxi",
       "county-shanxi-u5e73u9646u53bf"
+    ],
+    "liling-fall-1944-06": [
+      "hunan",
+      "county-hunan-u91b4u9675u53bf"
+    ],
+    "anren-fall-1944-06": [
+      "hunan",
+      "county-hunan-u5b89u4ec1u53bf"
+    ],
+    "chaling-fall-1944-07": [
+      "hunan",
+      "county-hunan-u8336u9675u53bf"
     ]
   },
   "routes": {
@@ -8222,6 +8234,30 @@
       ],
       "endpointRegionIds": [
         "shanxi"
+      ]
+    },
+    "japanese-invasion:379": {
+      "regionIds": [
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "japanese-invasion:380": {
+      "regionIds": [
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
+      ]
+    },
+    "japanese-invasion:381": {
+      "regionIds": [
+        "hunan"
+      ],
+      "endpointRegionIds": [
+        "hunan"
       ]
     },
     "kmt-forces:1": {

@@ -20679,6 +20679,72 @@
         110.32,
         34.84
       ]
+    },
+    {
+      "id": "county-hunan-u91b4u9675u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "醴陵县"
+      },
+      "shortName": {
+        "zh": "醴陵"
+      },
+      "aliases": [
+        "醴陵"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.5,
+        27.65
+      ]
+    },
+    {
+      "id": "county-hunan-u5b89u4ec1u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "安仁县"
+      },
+      "shortName": {
+        "zh": "安仁"
+      },
+      "aliases": [
+        "安仁"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.27,
+        26.71
+      ]
+    },
+    {
+      "id": "county-hunan-u8336u9675u53bf",
+      "level": "county",
+      "parentId": "hunan",
+      "name": {
+        "zh": "茶陵县"
+      },
+      "shortName": {
+        "zh": "茶陵"
+      },
+      "aliases": [
+        "茶陵"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.54,
+        26.79
+      ]
     }
   ]
 }
