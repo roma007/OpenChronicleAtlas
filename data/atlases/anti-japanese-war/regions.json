@@ -21308,6 +21308,251 @@
         107.1,
         29.16
       ]
+    },
+    {
+      "id": "county-heilongjiang-u6cf0u6765u53bf",
+      "level": "county",
+      "parentId": "heilongjiang",
+      "name": {
+        "zh": "泰来县"
+      },
+      "shortName": {
+        "zh": "泰来"
+      },
+      "aliases": [
+        "泰来"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        123.36,
+        46.76
+      ]
+    },
+    {
+      "id": "place-heilongjiang-u6cf0u6765u6c5fu6865",
+      "level": "place",
+      "parentId": "county-heilongjiang-u6cf0u6765u53bf",
+      "name": {
+        "zh": "江桥"
+      },
+      "shortName": {
+        "zh": "江桥"
+      },
+      "aliases": [
+        "黑龙江泰来江桥",
+        "黑龙江泰来江桥"
+      ],
+      "modernName": {
+        "zh": "黑龙江泰来江桥"
+      },
+      "point": [
+        123.36,
+        46.76
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "黑龙江泰来江桥",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-heilongjiang-u6c64u539fu53bf",
+      "level": "county",
+      "parentId": "heilongjiang",
+      "name": {
+        "zh": "汤原县"
+      },
+      "shortName": {
+        "zh": "汤原"
+      },
+      "aliases": [
+        "汤原"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        130.25,
+        47.115
+      ]
+    },
+    {
+      "id": "county-jilin-u73e0u6cb3u53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "珠河县"
+      },
+      "shortName": {
+        "zh": "珠河"
+      },
+      "aliases": [
+        "珠河"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        127.96,
+        45.21
+      ]
+    },
+    {
+      "id": "county-jilin-u52c3u5229u53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "勃利县"
+      },
+      "shortName": {
+        "zh": "勃利"
+      },
+      "aliases": [
+        "勃利"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        129.85,
+        45.52
+      ]
+    },
+    {
+      "id": "place-jilin-u52c3u5229u5201u7fceu4e4cu65afu6d51u6cb3",
+      "level": "place",
+      "parentId": "county-jilin-u52c3u5229u53bf",
+      "name": {
+        "zh": "刁翎乌斯浑河"
+      },
+      "shortName": {
+        "zh": "刁翎乌斯浑河"
+      },
+      "aliases": [
+        "吉林勃利刁翎（今黑龙江林口）乌斯浑河",
+        "吉林勃利刁翎乌斯浑河"
+      ],
+      "modernName": {
+        "zh": "吉林勃利刁翎（今黑龙江林口）乌斯浑河"
+      },
+      "point": [
+        129.85,
+        45.52
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "吉林勃利刁翎（今黑龙江林口）乌斯浑河",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-jilin-u6fdbu6c5fu53bf",
+      "level": "county",
+      "parentId": "jilin",
+      "name": {
+        "zh": "濛江县"
+      },
+      "shortName": {
+        "zh": "濛江"
+      },
+      "aliases": [
+        "濛江"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        126.79,
+        42.36
+      ]
+    },
+    {
+      "id": "place-heilongjiang-u6c64u539fu68a7u6850u6cb3",
+      "level": "place",
+      "parentId": "county-heilongjiang-u6c64u539fu53bf",
+      "name": {
+        "zh": "梧桐河"
+      },
+      "shortName": {
+        "zh": "梧桐河"
+      },
+      "aliases": [
+        "黑龙江汤原梧桐河（今萝北）",
+        "黑龙江汤原梧桐河"
+      ],
+      "modernName": {
+        "zh": "黑龙江汤原梧桐河（今萝北）"
+      },
+      "point": [
+        130.6,
+        47.5
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "黑龙江汤原梧桐河（今萝北）",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-overseas-u4f2fu529bu5317u91ceu8425",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "伯力北野营"
+      },
+      "shortName": {
+        "zh": "伯力北野营"
+      },
+      "aliases": [
+        "苏联伯力北野营",
+        "苏联伯力北野营"
+      ],
+      "modernName": {
+        "zh": "苏联伯力北野营"
+      },
+      "point": [
+        135.07,
+        48.48
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "苏联伯力北野营",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-jilin-u4e2du56fdu4e1cu5317-2",
+      "level": "place",
+      "parentId": "jilin",
+      "name": {
+        "zh": "中国东北"
+      },
+      "shortName": {
+        "zh": "中国东北"
+      },
+      "aliases": [
+        "中国东北（牡丹江方向）",
+        "中国东北"
+      ],
+      "modernName": {
+        "zh": "中国东北（牡丹江方向）"
+      },
+      "point": [
+        129.6,
+        44.55
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "中国东北（牡丹江方向）",
+        "confidence": "low"
+      }
     }
   ]
 }

@@ -52830,5 +52830,497 @@
     "extensions": {
       "routeEvent": false
     }
+  },
+  {
+    "id": "jiangqiao-battle-1931-11",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "江桥抗战",
+      "en": "Battle of the Nen River Bridge"
+    },
+    "date": "1931-11-04",
+    "location": {
+      "lng": 123.36,
+      "lat": 46.76,
+      "place": {
+        "zh": "黑龙江泰来江桥",
+        "en": "Jiangqiao, Tailai, Heilongjiang"
+      }
+    },
+    "entityIds": [
+      "northeast-volunteers"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "1931年11月4日至19日，马占山率黑龙江省防军在嫩江江桥抗击日军16天，是九一八事变后中国军队第一次有组织的大规模抵抗。",
+      "en": "From 4 to 19 November 1931 Ma Zhanshan’s Heilongjiang defence troops fought the Japanese at the Nen River bridge for sixteen days — the first organised large-scale resistance after the Mukden Incident."
+    },
+    "description": {
+      "zh": "1931 年 10 月，日军指使投日的洮辽镇守使张海鹏北犯黑龙江，13 日派出 3 个团，16 日在嫩江桥被省防军击溃，守军随即炸毁桥梁两孔。11 月 2 日，日军驻齐齐哈尔特务机关长林义秀送达最后通牒，限中国军队 3 日正午前撤至距桥 10 公里以外；4 日，日军以飞机、装甲车掩护 4000 余人进攻，马占山部还击，江桥抗战爆发。战役分两阶段：4—6 日战于江桥至大兴，6 日晚守军撤至大兴以北的三间房；12 日起日军 7000 余人猛攻大兴至三间房一线，18 日三间房主阵地被突破，守军退向齐齐哈尔，19 日齐齐哈尔沦陷，战役结束，历时 16 天；另有以 10 月 13 日张海鹏部北犯为起点、计 38 天之说。中方战报称第一阶段毙伤日伪军 4000 余人，全线累计毙伤万余人（日军 6000 余人、伪军 5000 余人）；日方战报与部分日军联队史的数字明显低于此，双方统计口径不同，确切数字待考。本事件对应「江桥—大兴—三间房防线」一段路线。",
+      "en": "In October 1931 the Japanese directed the turncoat Taonan commander Zhang Haipeng north into Heilongjiang; three regiments moved on the 13th, were routed at the Nen River bridge on the 16th, and the defenders blew two spans of the bridge. On 2 November the Japanese special-service chief at Qiqihar, Hayashi Yoshio, delivered an ultimatum demanding that Chinese troops withdraw ten kilometres from the bridge by noon on the 3rd; on the 4th more than 4,000 Japanese troops with aircraft and armoured cars attacked, Ma Zhanshan’s men replied, and the battle began. It had two phases: fighting between the bridge and Daxing from the 4th to the 6th, with the defenders falling back to Sanjianfang north of Daxing on the night of the 6th; and from the 12th, when over 7,000 Japanese troops assaulted the Daxing–Sanjianfang line, until the main position at Sanjianfang was broken on the 18th and the defenders retired on Qiqihar, which fell on the 19th, ending the sixteen-day battle; some accounts date it from Zhang Haipeng’s move north on 13 October, making 38 days. Chinese accounts claim over 4,000 Japanese and puppet casualties in the first phase and some 10,000 in all (6,000 Japanese, 5,000 puppet); Japanese unit records give markedly lower figures, as the two sides counted differently, and the exact total remains open. This event corresponds to the route segment “Jiangqiao–Daxing–Sanjianfang defence line”."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《“九·一八”事变后黑龙江人民奋起抗日》",
+        "author": "中共黑龙江省委史志研究室《黑龙江史志》第四章（黑龙江史志网）",
+        "note": "江桥抗战、哈尔滨保卫战经过与日期"
+      },
+      {
+        "title": "《东北抗日联军史大事年表》",
+        "author": "人民网（转抗日战争纪念网 2017-05-05）",
+        "note": "逐日年表：江桥抗战、哈尔滨保卫战、统一建制"
+      },
+      {
+        "title": "《彪炳史册的江桥抗战》",
+        "author": "马志伟，《人民政协报》2015-05-28（人民网党史频道）",
+        "note": "三道防线、逐日战况、伤亡数字"
+      },
+      {
+        "title": "《江桥抗战遗址寻访》",
+        "author": "新华社《新华每日电讯》2022-09-16",
+        "note": "江桥、大兴、三间房三道防线"
+      }
+    ],
+    "relatedIds": [
+      "qiqihar-fall-1931-11"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "harbin-defense-1932-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "哈尔滨保卫战",
+      "en": "Defence of Harbin"
+    },
+    "date": "1932-01-27",
+    "location": {
+      "lng": 126.63,
+      "lat": 45.75,
+      "place": {
+        "zh": "黑龙江哈尔滨",
+        "en": "Harbin, Heilongjiang"
+      }
+    },
+    "entityIds": [
+      "northeast-volunteers"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "1932年1月27日至2月5日，李杜、冯占海等部在哈尔滨抗击日伪军，2月5日哈尔滨陷落。",
+      "en": "From 27 January to 5 February 1932 Li Du, Feng Zhanhai and others defended Harbin against Japanese and puppet forces; the city fell on 5 February."
+    },
+    "description": {
+      "zh": "1931 年 10 月，投日的吉林省代主席熙洽任于琛澂为伪吉林省「剿匪军」司令，率伪军 4 个旅 9000 余人向哈尔滨推进；冯占海部在拉林阻击后退至阿城。1932 年 1 月 25 日，依兰镇守使李杜、吉林省警备司令冯占海率部进入哈尔滨，与丁超、邢占清、赵毅等会商合作抗日。27 日上午，于琛澂伪军在日军飞机、大炮配合下进攻上号（香坊）、三棵树、南岗，李杜、冯占海部还击并向伪军喊话，伪团长田德胜率部反正，伪军傍晚败退；日军 4 架飞机助战，被击落 1 架，飞行员清水大尉毙命。30 日至 31 日，驻双城的第二十二旅赵毅部先袭击双城东十里铺伪军刘宝林旅，俘 700 余人，继于双城堡车站袭击日军天野旅团兵车，毙伤数百人；日军以飞机、坦克反扑，双城于 2 月 1 日（一说 2 日）失守。31 日，吉林自卫军总司令部在哈尔滨成立，李杜任总司令，丁超任护路军总司令，冯占海任副总司令，参战部队约 2 万人。2 月 3 日外围战开始，4 日日军第二师团总攻，顾乡屯、南岗阵地相继被突破，5 日哈尔滨陷落，自卫军撤往巴彦、依兰、延寿一带。本事件为城市防御战，不另绘路线（日军进攻轴线见日军进攻层「双城堡—哈尔滨」段）。",
+      "en": "In October 1931 Xi Qia, the pro-Japanese acting governor of Jilin, made Yu Chencheng commander of a puppet “bandit-suppression” force and sent four puppet brigades (over 9,000 men) toward Harbin; Feng Zhanhai blocked them at Lalin and fell back to Acheng. On 25 January 1932 Li Du, commander at Yilan, and Feng Zhanhai, commander of the Jilin garrison, entered Harbin and agreed with Ding Chao, Xing Zhanqing and Zhao Yi to resist together. On the morning of the 27th Yu’s puppet troops, supported by Japanese aircraft and artillery, attacked Xiangfang, Sanshu and Nangang; Li and Feng counter-attacked and called on the puppet soldiers not to fight their own people, Colonel Tian Desheng defected with his regiment, and the puppet force retreated that evening. Four Japanese aircraft took part, one was shot down and its pilot, Captain Shimizu, was killed. On 30–31 January Zhao Yi’s 22nd Brigade at Shuangcheng first surprised Liu Baolin’s puppet brigade east of the town, capturing over 700 men, then attacked the Japanese Ameno brigade’s troop trains at Shuangcheng station, inflicting several hundred casualties; Japanese aircraft and tanks counter-attacked and Shuangcheng fell on 1 February (some accounts say the 2nd). On the 31st the Jilin Self-Defence Army headquarters was formed at Harbin under Li Du, with Ding Chao over the railway troops and Feng Zhanhai as deputy; some 20,000 men took part. The outer battle began on 3 February, the Japanese 2nd Division attacked on the 4th, the Guxiangtun and Nangang positions were broken in turn, and Harbin fell on the 5th, the defenders withdrawing toward Bayan, Yilan and Yanshou. This was an urban defence and no separate route is drawn; the Japanese axis appears as “Shuangcheng–Harbin” in the Japanese advance layer."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《“九·一八”事变后黑龙江人民奋起抗日》",
+        "author": "中共黑龙江省委史志研究室《黑龙江史志》第四章（黑龙江史志网）",
+        "note": "江桥抗战、哈尔滨保卫战经过与日期"
+      },
+      {
+        "title": "《哈尔滨保卫战》",
+        "author": "黄薇，《人民政协报》2014-09-18（人民网党史频道）",
+        "note": "1-27 首战、双城战斗、2-4 总攻、2-5 陷落"
+      },
+      {
+        "title": "《东北沦陷前最大规模的抗日战斗——哈尔滨保卫战》",
+        "author": "哈尔滨市档案馆《哈尔滨档案信息网》",
+        "note": "1-25 布防、击落日机、参战兵力与序列"
+      },
+      {
+        "title": "《东北抗日联军史大事年表》",
+        "author": "人民网（转抗日战争纪念网 2017-05-05）",
+        "note": "逐日年表：江桥抗战、哈尔滨保卫战、统一建制"
+      }
+    ],
+    "relatedIds": [
+      "harbin-fall-1932-02",
+      "shuangcheng-fall-1932-01"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "united-army-founding-1936-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "东北抗日联军统一建制",
+      "en": "Founding of the Northeast Anti-Japanese United Army"
+    },
+    "date": "1936-02-20",
+    "location": {
+      "lng": 129.9,
+      "lat": 46.73,
+      "place": {
+        "zh": "黑龙江汤原",
+        "en": "Tangyuan, Heilongjiang"
+      }
+    },
+    "entityIds": [
+      "northeast-anti-japanese"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "1936年2月20日，杨靖宇、赵尚志等发表《东北抗日联军统一军队建制宣言》，各抗日武装统一改称东北抗日联军。",
+      "en": "On 20 February 1936 Yang Jingyu, Zhao Shangzhi and others issued the declaration unifying the anti-Japanese forces as the Northeast Anti-Japanese United Army."
+    },
+    "description": {
+      "zh": "九一八事变后，东北抗日武装经历义勇军（1931—1933）、反日游击队与东北人民革命军（1933—1936）两个阶段。1936 年 1 月 28 日，东北反日联合军军政联席会议在黑龙江汤原举行；2 月 20 日，以杨靖宇、王德泰、赵尚志、李延禄、周保中、谢文东及汤原、海伦游击队名义，发表《东北抗日联军统一军队建制宣言》，将东北人民革命军、反日联合军、反日游击队一律改称东北抗日联军。至 1937 年秋编成 11 个军，鼎盛时约 3 万至 4 万人（各说不一）；1936 年 7 月编成第一路军（杨靖宇），1937 年 10 月编成第二路军（周保中），1939 年 5 月编成第三路军（李兆麟）。本事件为建制事件，不绘路线。",
+      "en": "After the Mukden Incident the anti-Japanese forces of the Northeast passed through the volunteer stage (1931–1933) and the guerrilla and People’s Revolutionary Army stage (1933–1936). On 28 January 1936 a joint military-political conference of the anti-Japanese forces met at Tangyuan in Heilongjiang; on 20 February, in the name of Yang Jingyu, Wang Detai, Zhao Shangzhi, Li Yanlu, Zhou Baozhong, Xie Wendong and the Tangyuan and Hailun guerrillas, the declaration unifying the army was issued, renaming the People’s Revolutionary Army, the Anti-Japanese Allied Army and the guerrillas as the Northeast Anti-Japanese United Army. By autumn 1937 it fielded 11 armies and 30,000 to 40,000 men at its height (accounts differ); the 1st Route Army was formed in July 1936 under Yang Jingyu, the 2nd in October 1937 under Zhou Baozhong and the 3rd in May 1939 under Li Zhaolin. This is an organisational event and no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《详解东北抗日联军的 11 个军》",
+        "author": "王作东，人民网党史频道 2013-11-19",
+        "note": "1-28 汤原联席会议、2-20 统一建制宣言、11 个军与人数"
+      },
+      {
+        "title": "《东北抗日联军史大事年表》",
+        "author": "人民网（转抗日战争纪念网 2017-05-05）",
+        "note": "逐日年表：江桥抗战、哈尔滨保卫战、统一建制"
+      },
+      {
+        "title": "《东北抗日联军及其抗联精神》",
+        "author": "吉林省地方志编纂委员会 2016-10-28",
+        "note": "义勇军—人民革命军—抗联三阶段沿革"
+      }
+    ],
+    "relatedIds": [
+      "jiangqiao-battle-1931-11"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "zhao-yiman-1936-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "赵一曼牺牲",
+      "en": "Execution of Zhao Yiman"
+    },
+    "date": "1936-08-02",
+    "location": {
+      "lng": 127.96,
+      "lat": 45.21,
+      "place": {
+        "zh": "吉林珠河（今尚志）",
+        "en": "Zhuhe (modern Shangzhi), Jilin"
+      }
+    },
+    "entityIds": [
+      "northeast-anti-japanese"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "1936年8月2日，东北人民革命军第三军一师二团政委赵一曼在珠河县小北门就义，年31岁。",
+      "en": "On 2 August 1936 Zhao Yiman, political commissar of a regiment of the 3rd Army, was executed at the lesser north gate of Zhuhe; she was 31."
+    },
+    "description": {
+      "zh": "赵一曼原名李坤泰，1905 年生于四川宜宾，1926 年转入中国共产党，曾在黄埔军校武汉分校、莫斯科中山大学学习。九一八事变后被派往东北，任满洲总工会秘书、组织部长、哈尔滨总工会代理书记；1934 年 7 月任中共珠河中心县委委员，1935 年秋兼任东北人民革命军第三军一师二团政治委员。1935 年 11 月，在珠河县第三区春秋岭（一说小西北沟）战斗中为掩护部队突围身负重伤，养伤时被俘；在伪满哈尔滨警察厅受酷刑九月余，1936 年 6 月 28 日在看守董宪勋、护士韩勇义帮助下逃出医院，30 日再度被捕。1936 年 8 月 2 日在珠河县小北门就义，年 31 岁。押解途中给七岁儿子写下遗书：「母亲不用千言万语来教育你，就用实行来教育你。」本事件不绘路线。",
+      "en": "Zhao Yiman, born Li Kuntai in Yibin, Sichuan, in 1905, joined the Communist Party in 1926 and studied at the Wuhan branch of the Whampoa Military Academy and at Sun Yat-sen University in Moscow. After the Mukden Incident she was sent to the Northeast, serving as secretary and organisation chief of the Manchurian trade union council and acting secretary of the Harbin council; in July 1934 she joined the Zhuhe county committee, and in autumn 1935 became political commissar of the 2nd Regiment, 1st Division, 3rd Army of the Northeast People’s Revolutionary Army. In November 1935 she was badly wounded covering a breakout at Chunqiuling (some accounts say Xiaoxibeigou) in the third district of Zhuhe and captured while recovering; tortured for over nine months at the puppet Harbin police headquarters, she escaped on 28 June 1936 with the help of the guard Dong Xianxun and the nurse Han Yongyi, and was retaken on the 30th. She was executed at the lesser north gate of Zhuhe on 2 August 1936, aged 31, having written on the way to her seven-year-old son: “I need not preach to you at length; I teach you by what I do.” No route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《赵一曼简介》",
+        "author": "中共黑龙江省委史志研究室（黑龙江史志网）",
+        "note": "生平、珠河任职、1936-08-02 就义"
+      },
+      {
+        "title": "《赵一曼：舍家卫国的巾帼英雄》",
+        "author": "新华社 2025-06-20",
+        "note": "珠河小西北沟负伤、越狱与就义"
+      },
+      {
+        "title": "《重读抗战家书丨赵一曼致子书（1936年8月2日）》",
+        "author": "中国军网 2020-08-23",
+        "note": "遗书原文、三军一师二团政委"
+      }
+    ],
+    "relatedIds": [
+      "united-army-founding-1936-02"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "eight-women-wusihun-1938-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "八女投江",
+      "en": "Eight Women of the Wusihun River"
+    },
+    "date": "1938-10-20",
+    "location": {
+      "lng": 129.85,
+      "lat": 45.52,
+      "place": {
+        "zh": "吉林勃利刁翎（今黑龙江林口）乌斯浑河",
+        "en": "Wusihun River, Diaoling (modern Linkou), Jilin"
+      }
+    },
+    "entityIds": [
+      "northeast-anti-japanese"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "1938年10月20日，东北抗联第五军妇女团指导员冷云等8名女战士在乌斯浑河畔掩护部队突围，弹尽后投江殉国。",
+      "en": "On 20 October 1938 eight women of the 5th Army’s women’s regiment, led by Leng Yun, covered a breakout by the Wusihun River and drowned themselves when their ammunition ran out."
+    },
+    "description": {
+      "zh": "1938 年夏，东北抗联第四、第五军主力由依兰一带西征，妇女团随第五军第一师行动；8 月在苇河遭日伪军重兵围堵，第一师仅余百余人，被迫折返牡丹江下游刁翎地区。10 月 19 日夜，队伍抵乌斯浑河畔（今林口县刁翎镇三家子村西北），因河水暴涨露营，被特务告密；20 日拂晓，日伪军千余人包围。第五军妇女团政治指导员冷云率班长胡秀芝、杨贵珍，战士郭桂琴、黄桂清、王惠民、李凤善及第四军被服厂厂长安顺福共 8 人，主动从侧后开火吸引敌军，掩护主力突围。战至弹尽，8 人砸毁枪支，互相搀扶涉入乌斯浑河，全部殉国；冷云 23 岁，王惠民 13 岁。日期异说：黑龙江日报据林口县于春芳考证记为 10 月 20 日，新华社 2024 年报道作 10 月上旬，解放军报 2025 年报道作 10 月下旬；本事件取 10 月 20 日。1939 年伪满始设林口县，此前该地属勃利县。本事件不绘路线。",
+      "en": "In the summer of 1938 the main forces of the 4th and 5th Armies set out westward from the Yilan area, with the women’s regiment accompanying the 5th Army’s 1st Division; surrounded by strong Japanese and puppet forces at Weihe in August, the division was reduced to little more than a hundred men and turned back toward the Diaoling area on the lower Mudan River. On the night of 19 October the column reached the Wusihun River (north-west of Sanjiazi village, modern Diaoling, Linkou) and camped because the river was in flood; an informer betrayed them and over a thousand Japanese and puppet troops surrounded the camp at dawn on the 20th. Leng Yun, political instructor of the 5th Army’s women’s regiment, with squad leaders Hu Xiuzhi and Yang Guizhen, the soldiers Guo Guiqin, Huang Guiqing, Wang Huimin and Li Fengshan, and An Shunfu, head of the 4th Army’s clothing workshop — eight women in all — opened fire from the flank to draw the enemy and cover the breakout. When their ammunition ran out they smashed their rifles and, supporting each other, walked into the river and drowned. Leng Yun was 23, the youngest, Wang Huimin, 13. The date is disputed: the Heilongjiang Daily account based on Yu Chunfang’s research gives 20 October, a 2024 Xinhua report gives early October and a 2025 PLA Daily report late October; this entry follows 20 October. Linkou county was only created by the puppet state in 1939; before that the area belonged to Boli county. No route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《八女投江弹尽殉国山河恸》",
+        "author": "《黑龙江日报》2015-08-06（人民网党史频道）",
+        "note": "于春芳考证：10-19 宿营、10-20 拂晓战斗"
+      },
+      {
+        "title": "《八女投江千古流芳》",
+        "author": "《黑龙江日报》2018-10-22（人民网专题）",
+        "note": "西征经过、八人姓名与年龄"
+      },
+      {
+        "title": "《“八女投江”殉难地缅怀英烈》",
+        "author": "新华社 2024-09-25",
+        "note": "殉难地、八人姓名、10 月上旬说"
+      }
+    ],
+    "relatedIds": [
+      "united-army-founding-1936-02"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "yang-jingyu-1940-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "杨靖宇牺牲",
+      "en": "Death of Yang Jingyu"
+    },
+    "date": "1940-02-23",
+    "location": {
+      "lng": 126.79,
+      "lat": 42.36,
+      "place": {
+        "zh": "吉林濛江（今靖宇）",
+        "en": "Mengjiang (modern Jingyu), Jilin"
+      }
+    },
+    "entityIds": [
+      "northeast-anti-japanese"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "1940年2月23日，东北抗联第一路军总司令杨靖宇在濛江县城西南孤身战死，年35岁。",
+      "en": "On 23 February 1940 Yang Jingyu, commander of the United Army’s 1st Route Army, died fighting alone south-west of Mengjiang county town; he was 35."
+    },
+    "description": {
+      "zh": "杨靖宇原名马尚德，1905 年生于河南确山，1929 年赴东北，历任中共哈尔滨市委书记、满洲省委军委代理书记。1933 年任南满游击队政治委员，1934 年 11 月任东北人民革命军第一军军长兼政委，1936 年 7 月任东北抗日联军第一路军总司令兼政委。1939 年 10 月起，日伪以「野副大讨伐」调集数万人「讨伐」东南满，杨靖宇将部队化整为零；至 1940 年 2 月，身边战士相继牺牲，他孤身与敌周旋五昼夜。2 月 23 日 16 时 30 分，在濛江县城西南 5 公里、标高 490 米附近（保安村三道崴子）被日伪军警包围，拒绝诱降，倚树持枪抵抗，身中数弹牺牲，年 35 岁。日军解剖遗体，胃肠中只有草根、树皮与棉絮。1946 年 2 月 14 日，濛江县改名靖宇县。牺牲时间与地点据黑龙江省档案馆 2025 年披露的日伪档案《绥阳国境警察队本队关于杨靖宇被射杀的通报》。本事件不绘路线。",
+      "en": "Yang Jingyu, born Ma Shangde in Queshan, Henan, in 1905, went to the Northeast in 1929 and served as Harbin party secretary and acting head of the Manchurian Provincial Committee’s military department. He became political commissar of the South Manchurian guerrillas in 1933, commander and commissar of the 1st Army of the People’s Revolutionary Army in November 1934, and commander and commissar of the United Army’s 1st Route Army in July 1936. From October 1939 the Japanese “Noshirao punitive campaign” poured tens of thousands of troops into the south-east Manchurian base areas and Yang dispersed his force; by February 1940 his remaining soldiers had died one after another and he fought alone for five days and nights. At 16:30 on 23 February he was surrounded about five kilometres south-west of Mengjiang county town, near elevation marker 490 (Sandaowaizi, Bao’an village); he refused to surrender, fought leaning against a tree and was shot dead, aged 35. The Japanese autopsied him and found only grass, bark and cotton in his stomach. Mengjiang county was renamed Jingyu on 14 February 1946. The time and place follow the puppet police report of 16 March 1940 disclosed by the Heilongjiang Provincial Archives in 2025. No route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《2 月 23 日：抗日民族英雄杨靖宇》",
+        "author": "中华英烈网（侵华日军南京大屠杀遇难同胞纪念馆）2021-02-23",
+        "note": "牺牲经过、解剖所见、改名靖宇县"
+      },
+      {
+        "title": "《杨靖宇将军牺牲确切时间地点得以确认》",
+        "author": "新华社 2025-08-27",
+        "note": "日伪档案：1940-02-23 16:30、县城西南 5 公里标高 490"
+      },
+      {
+        "title": "《民族英雄杨靖宇牺牲后的三次安葬》",
+        "author": "吉林省地方志编纂委员会 2016-07-11",
+        "note": "生平、任职与牺牲地点"
+      }
+    ],
+    "relatedIds": [
+      "united-army-founding-1936-02",
+      "zhao-shangzhi-1942-02"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "zhao-shangzhi-1942-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "赵尚志牺牲",
+      "en": "Death of Zhao Shangzhi"
+    },
+    "date": "1942-02-12",
+    "location": {
+      "lng": 130.6,
+      "lat": 47.5,
+      "place": {
+        "zh": "黑龙江汤原梧桐河（今萝北）",
+        "en": "Wutong River, Tangyuan (modern Luobei), Heilongjiang"
+      }
+    },
+    "entityIds": [
+      "northeast-anti-japanese"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "1942年2月12日，东北抗联创建人之一赵尚志在梧桐河被日特击伤被俘，当日牺牲，年34岁。",
+      "en": "On 12 February 1942 Zhao Shangzhi, a founder of the United Army, was treacherously wounded and captured by the Wutong River and died the same day; he was 34."
+    },
+    "description": {
+      "zh": "赵尚志 1908 年生于热河朝阳，1925 年入党，黄埔军校第四期；1933 年 10 月创建珠河反日游击队，1935 年 1 月任东北人民革命军第三军军长，1936 年 8 月任东北抗日联军第三军军长、北满临时省委执委主席，与杨靖宇并称「南杨北赵」。1938 年赴苏被关押一年半，1939 年任东北抗日联军总司令，1940 年 3 月改任第三路军副总指挥。1941 年秋率 5 人小分队回国，活动于萝北、汤原一带。1942 年 2 月 12 日凌晨，在袭击鹤立县梧桐河伪警察分驻所途中，于吕家菜园子（今鹤北林业局尚志林场）被日特刘德山从背后开枪击伤，昏迷中被俘，当日 7 时牺牲，年 34 岁；另有「伤后 3 小时」「伤后 8 小时」之说（即上午 11 时前后），时刻存异说。日军割下头颅，遗体投入松花江冰窟。1982 年 6 月 8 日中共黑龙江省委为其平反、恢复党籍。牺牲时间据抚顺战犯管理所旧址陈列馆 2025 年披露的日本战犯田井久二郎笔供。本事件不绘路线。",
+      "en": "Zhao Shangzhi, born in Chaoyang, Rehe (modern Liaoning), in 1908, joined the party in 1925 and attended the fourth class of the Whampoa Military Academy; he founded the Zhuhe anti-Japanese guerrillas in October 1933, became commander of the 3rd Army of the People’s Revolutionary Army in January 1935, and in August 1936 commander of the United Army’s 3rd Army and chairman of the North Manchurian provisional provincial committee, known with Yang Jingyu as “South Yang, North Zhao”. Detained in the Soviet Union for eighteen months from 1938, he was named commander-in-chief of the United Army in 1939 and deputy commander of the 3rd Route Army in March 1940. In autumn 1941 he returned with five men to operate around Luobei and Tangyuan. In the early hours of 12 February 1942, on the way to attack the Wutong River police post in Heli county, he was shot from behind by the Japanese agent Liu Deshan at the Lü family vegetable plot (modern Shangzhi forest farm, Hebei forestry bureau), captured unconscious and died at seven that morning, aged 34; other accounts give three or eight hours after the shooting (around eleven in the morning), so the exact time is disputed. The Japanese cut off his head and threw his body into the ice of the Songhua River. The Heilongjiang provincial party committee rehabilitated him on 8 June 1982. The time of death follows the confession of the Japanese war criminal Taii Kyūjirō disclosed in 2025. No route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《生平简介》",
+        "author": "赵尚志纪念馆（赵尚志烈士陵园）",
+        "note": "生平、任职、1942-02-12 牺牲"
+      },
+      {
+        "title": "《赵尚志》",
+        "author": "中共黑龙江省委史志研究室《黑龙江史志·人物传略》（黑龙江史志网）",
+        "note": "刘德山行刺经过、牺牲细节、平反"
+      },
+      {
+        "title": "《赵尚志将军牺牲的确切时间确认》",
+        "author": "新华社 2025-09-18",
+        "note": "田井久二郎笔供：2-12 凌晨 3 时中弹、7 时牺牲"
+      }
+    ],
+    "relatedIds": [
+      "yang-jingyu-1940-02",
+      "united-army-founding-1936-02"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "antl-training-brigade-1942-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "东北抗联教导旅成立",
+      "en": "Formation of the United Army Training Brigade"
+    },
+    "date": "1942-08-01",
+    "location": {
+      "lng": 135.07,
+      "lat": 48.48,
+      "place": {
+        "zh": "苏联伯力北野营",
+        "en": "Northern Camp near Khabarovsk, USSR"
+      }
+    },
+    "entityIds": [
+      "northeast-anti-japanese"
+    ],
+    "category": "建制",
+    "summary": {
+      "zh": "1942年8月1日，东北抗联教导旅在苏联伯力附近的北野营成立，对外番号为苏联远东方面军独立第88步兵旅。",
+      "en": "On 1 August 1942 the United Army training brigade was formed at the northern camp near Khabarovsk, under the cover designation of the Soviet Far Eastern Front’s 88th Independent Infantry Brigade."
+    },
+    "description": {
+      "zh": "1940 年后，东北抗联在日军「三年治安肃正」与反复「大讨伐」下严重减员，主力分批退入苏联境内，在伯力附近的北野营与乌苏里斯克（双城子）附近的南野营整训。1942 年 8 月 1 日，南北野营及仍在东北活动的人员合编为东北抗日联军教导旅，旅长周保中，政治委员（后改政治副旅长）李兆麟，参谋长杨林（沙马尔钦科），副参谋长崔石泉（崔庸健）；辖 4 个步兵教导营与无线电、迫击炮两个直属连。全旅 1000 余人（一说 1500 至 2000 余人，含苏籍与朝鲜籍官兵），对外番号「苏联远东方面军独立第 88 步兵旅」，代号 8461 部队；番号授予时间，一说与成立同日，一说其后正式授予。1942 年 9 月 13 日，教导旅召开全体党员大会，成立中共东北党组织特别支部局（东北党委员会）。本事件为建制事件，不绘路线。",
+      "en": "After 1940, worn down by the Japanese “three-year pacification” and repeated punitive campaigns, the main force of the United Army withdrew in stages into the Soviet Union and trained at the northern camp near Khabarovsk and the southern camp near Ussuriysk (Shuangchengzi). On 1 August 1942 the two camps and the men still operating in Manchuria were merged into the Northeast Anti-Japanese United Army Training Brigade, under Zhou Baozhong as commander, Li Zhaolin as political commissar (later political deputy commander), Yang Lin (Shamarchinko) as chief of staff and Cui Shiquan (Choe Yong-gon) as deputy chief of staff, with four infantry training battalions and separate signals and mortar companies. It numbered just over 1,000 men (some accounts say 1,500 to 2,000, including Soviet and Korean personnel) and bore the cover designation “88th Independent Infantry Brigade, Soviet Far Eastern Front”, code 8461; whether the designation was conferred the same day or later is disputed. On 13 September 1942 a general party meeting established the Special Branch Bureau of the Chinese Communist Party in the Independent Brigade (the Northeast Party Committee). This is an organisational event and no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗联教导旅》",
+        "author": "吉林省地方志编纂委员会 2018-07-20",
+        "note": "1942-08-01 成立、编制、旅营主官、番号"
+      },
+      {
+        "title": "《抗联余辉》",
+        "author": "《北京日报》2014-01-14（人民网党史频道）",
+        "note": "改编经过、教导旅成立与人数"
+      },
+      {
+        "title": "《协助苏联红军作战的东北抗联教导旅（88 旅）》",
+        "author": "抗日战争纪念网 2021-04-14",
+        "note": "南北野营、成立大会、营连编成"
+      }
+    ],
+    "relatedIds": [
+      "united-army-founding-1936-02"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "antl-august-storm-1945-08",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "东北抗联配合苏军反攻东北",
+      "en": "The United Army with the Soviet Offensive, August 1945"
+    },
+    "date": "1945-08-09",
+    "location": {
+      "lng": 129.6,
+      "lat": 44.55,
+      "place": {
+        "zh": "中国东北（牡丹江方向）",
+        "en": "Northeast China (Mudanjiang axis)"
+      }
+    },
+    "entityIds": [
+      "northeast-anti-japanese"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1945年8月9日苏军进攻东北，东北抗联教导旅以向导、翻译和伞降小分队配合，战后分赴东北57个战略要点。",
+      "en": "When the Soviet offensive began on 9 August 1945 the United Army training brigade supplied guides, interpreters and airborne teams, and afterwards took over 57 strategic points in Manchuria."
+    },
+    "description": {
+      "zh": "1945 年 8 月 8 日苏联对日宣战，9 日零时苏军三个方面军进攻东北。抗联教导旅此前已抽调 340 余名指战员分到三个方面军担任向导、翻译，另派 20 余支小分队伞降牡丹江、佳木斯、哈尔滨、齐齐哈尔、长春、沈阳等地侦察。8 月 9 日，教导旅召开誓师大会；8 月 11 日，周保中率部由伯力附近营地登舰过江。日本投降后，抗联 400 余人分成 57 个进驻小组，以苏军卫戍副司令身份进入东北各战略要点，恢复党组织、建立人民武装；9 月改编为东北人民自卫军，周保中任总司令。本事件为配合苏军行动的战略节点，不绘路线（苏军进攻轴线见盟军层）。",
+      "en": "The Soviet Union declared war on Japan on 8 August 1945 and three fronts attacked Manchuria at midnight on the 9th. The United Army training brigade had already assigned over 340 officers and men as guides and interpreters to the three fronts and sent more than twenty small teams by parachute to reconnoitre Mudanjiang, Jiamusi, Harbin, Qiqihar, Changchun and Shenyang. The brigade held a pledge rally on 9 August, and on the 11th Zhou Baozhong led his men aboard ship and crossed the river from the camp near Khabarovsk. After the Japanese surrender more than 400 men formed 57 entry groups and, as deputy Soviet garrison commanders, took over strategic points across the Northeast, restoring party organisations and raising local forces; in September they were renamed the Northeast People’s Self-Defence Army under Zhou Baozhong. This is a strategic node of the Soviet campaign and no route is drawn; Soviet axes appear in the Allied layer."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《抗联教导旅》",
+        "author": "吉林省地方志编纂委员会 2018-07-20",
+        "note": "1945-08 配合苏军、改编东北人民自卫军"
+      },
+      {
+        "title": "《协助苏联红军作战的东北抗联教导旅（88 旅）》",
+        "author": "抗日战争纪念网 2021-04-14",
+        "note": "先遣支队、伞降侦察、57 个战略点"
+      }
+    ],
+    "relatedIds": [
+      "antl-training-brigade-1942-08",
+      "soviet-declares-war-1945-08"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   }
 ]

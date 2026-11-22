@@ -4529,6 +4529,45 @@
     "nanchuan-bombing-1939-10": [
       "sichuan",
       "county-sichuan-u5357u5dddu53bf"
+    ],
+    "jiangqiao-battle-1931-11": [
+      "heilongjiang",
+      "county-heilongjiang-u6cf0u6765u53bf",
+      "place-heilongjiang-u6cf0u6765u6c5fu6865"
+    ],
+    "harbin-defense-1932-01": [
+      "heilongjiang",
+      "county-heilongjiang-u54c8u5c14u6ee8u5e02"
+    ],
+    "united-army-founding-1936-02": [
+      "heilongjiang",
+      "county-heilongjiang-u6c64u539fu53bf"
+    ],
+    "zhao-yiman-1936-08": [
+      "jilin",
+      "county-jilin-u73e0u6cb3u53bf"
+    ],
+    "eight-women-wusihun-1938-10": [
+      "jilin",
+      "county-jilin-u52c3u5229u53bf",
+      "place-jilin-u52c3u5229u5201u7fceu4e4cu65afu6d51u6cb3"
+    ],
+    "yang-jingyu-1940-02": [
+      "jilin",
+      "county-jilin-u6fdbu6c5fu53bf"
+    ],
+    "zhao-shangzhi-1942-02": [
+      "heilongjiang",
+      "county-heilongjiang-u6c64u539fu53bf",
+      "place-heilongjiang-u6c64u539fu68a7u6850u6cb3"
+    ],
+    "antl-training-brigade-1942-08": [
+      "overseas",
+      "place-overseas-u4f2fu529bu5317u91ceu8425"
+    ],
+    "antl-august-storm-1945-08": [
+      "jilin",
+      "place-jilin-u4e2du56fdu4e1cu5317-2"
     ]
   },
   "routes": {
@@ -9746,6 +9785,17 @@
       ],
       "endpointRegionIds": [
         "anhui"
+      ]
+    },
+    "northeast-volunteers:1": {
+      "regionIds": [
+        "county-heilongjiang-u6cf0u6765u53bf",
+        "heilongjiang",
+        "liaoning"
+      ],
+      "endpointRegionIds": [
+        "liaoning",
+        "heilongjiang"
       ]
     },
     "south-china-guerrillas:1": {

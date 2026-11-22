@@ -1,0 +1,43 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            123.36,
+            46.76
+          ],
+          [
+            123.44,
+            46.86
+          ],
+          [
+            123.52,
+            46.98
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "northeast-volunteers",
+        "startDate": "1931-11-04",
+        "endDate": "1931-11-18",
+        "order": 1,
+        "segmentType": "defense",
+        "name": {
+          "zh": "江桥—大兴—三间房防线",
+          "en": "Jiangqiao–Daxing–Sanjianfang defence line"
+        },
+        "description": {
+          "zh": "1931 年 11 月江桥抗战的三道防线：嫩江江桥正面为第一道，大兴阵地为第二道，三间房为第三道。4—6 日战于江桥至大兴，6 日晚退守三间房，18 日三间房主阵地被突破。防线为示意简化，按洮昂铁路沿线三处阵地连线。",
+          "en": "The three defence lines of the Nen River bridge battle in November 1931: the bridge itself, the Daxing position and Sanjianfang. Fighting lasted from the 4th to the 6th between the bridge and Daxing; the defenders fell back to Sanjianfang on the night of the 6th, and the main position there was broken on the 18th. The line is schematic, linking the three positions along the Tao’ang railway."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    }
+  ]
+}

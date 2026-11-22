@@ -3,6 +3,30 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.248] - 2026-11-22
+
+### Added
+- **抗日战争 · 东北抗日义勇军与东北抗日联军（M266）**：新增 2 个实体、9 个事件、1 段路线。
+  - 实体：`northeast-volunteers`（东北抗日义勇军，1931—1933）、`northeast-anti-japanese`（东北抗日联军，前身 1933—1936 东北人民革命军）。
+  - 事件：江桥抗战（1931-11-04～19）、哈尔滨保卫战（1932-01-27）、东北抗联统一建制（1936-02-20）、
+    赵一曼牺牲（1936-08-02）、八女投江（1938-10-20）、杨靖宇牺牲（1940-02-23）、赵尚志牺牲（1942-02-12）、
+    抗联教导旅成立（1942-08-01）、抗联配合苏军反攻（1945-08-09）。
+  - 路线：江桥—大兴—三间房防线（`defense`，`precision: schematic`）。抗联为游击战，其余 8 条全部 `routeEvent: false`。
+  - 事件 1048 → **1057**，地区 877 → **887**，路线 563 → **564**，实体 13 → **15**。
+
+### Fixed
+- 本专题此前东北只有日军进攻层，中国一方无主体（抗联 0 条、义勇军 0 条）；本批填补。
+- 八女投江日期、双城失守日期、江桥伤亡、赵尚志牺牲时刻、教导旅人数与番号授予时间等异说，正文并列，不取单一数字。
+
+### Research
+- 研究笔记 `docs/research/units/anti-japanese-war-northeast.md`（含「事件 → 日期 → 出处 → 主体 → 存疑点」核对表）。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes`（0 问题）、`pnpm check:heads`（0 个无来由端点）、
+  `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.247] - 2026-11-22
 
 ### Added
