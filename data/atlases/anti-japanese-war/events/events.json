@@ -52151,5 +52151,173 @@
     "extensions": {
       "routeEvent": false
     }
+  },
+  {
+    "id": "sihang-warehouse-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "四行仓库保卫战",
+      "en": "Defence of the Sihang Warehouse"
+    },
+    "date": "1937-10-26",
+    "location": {
+      "lng": 121.472,
+      "lat": 31.245,
+      "place": {
+        "zh": "上海四行仓库",
+        "en": "Sihang Warehouse, Shanghai"
+      }
+    },
+    "entityIds": [
+      "kmt-forces",
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年10月26日夜，第88师524团1营420余人进驻四行仓库，孤军坚守四昼夜。",
+      "en": "On the night of 26 October 1937 over 420 men of the 88th Division's 524th Regiment entered the Sihang Warehouse and held it alone for four days and nights."
+    },
+    "description": {
+      "zh": "1937 年 10 月 26 日大场失守，苏州河以北防线瓦解，中国军队主力西撤。为向即将召开的九国公约会议显示抗战决心，第88师师长孙元良决定留一个加强营守闸北，由第262旅524团中校团附谢晋元、营长杨瑞符率 420 余人于 10 月 26 日深夜进驻苏州河北岸的四行仓库；为迷惑日军，对外统一宣称守军 800 人，故称「八百壮士」。10 月 27 日晨日军进攻，孤军依托钢筋混凝土仓库与租界仅一河之隔的位置，日军顾忌炮弹落入公共租界不敢用重炮；激战四昼夜，打退十余次进攻。28 日拂晓，日军偷袭仓库，士兵陈树生身缚手榴弹自五楼跃下与敌同归于尽。29 日清晨，女童子军杨惠敏送来的国旗在仓库楼顶升起。10 月 31 日凌晨，孤军奉命撤入公共租界。本事件为城市据点防御战，不绘路线。",
+      "en": "On 26 October 1937 Dachang fell and the Chinese line north of Suzhou Creek collapsed; the main force withdrew west. To show resolve on the eve of the Nine-Power Conference, the 88th Division commander Sun Yuanliang left one reinforced battalion in Zhabei: more than 420 men of the 262nd Brigade, 524th Regiment, under the regimental executive officer Xie Jinyuan and battalion commander Yang Ruifu, entered the Sihang Warehouse on the north bank of Suzhou Creek late that night. To deceive the Japanese they claimed 800 defenders, hence the “800 Heroes”. The Japanese attacked on the morning of the 27th; holding a reinforced-concrete warehouse separated from the International Settlement only by the creek, the defenders benefited from the Japanese reluctance to use heavy guns across the boundary, and beat off more than ten assaults over four days and nights. At dawn on the 28th, when Japanese troops broke in, Private Chen Shusheng jumped from the fifth floor with grenades strapped to him and died with them. On the morning of the 29th a Chinese flag brought by the girl scout Yang Huimin was raised over the warehouse. Before dawn on 31 October the survivors were ordered to withdraw into the International Settlement. This was an urban strongpoint defence; no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《英雄烈士谱｜谢晋元等“八百壮士”：孤军血战四行》",
+        "author": "新华社 2018-12-22（国防部网转载）",
+        "note": "10-26 进驻、420 余人、四昼夜、10-31 撤离"
+      },
+      {
+        "title": "《四行仓库保卫战》",
+        "author": "《解放日报》2015-06-09（转人民网党史）",
+        "note": "兵力 414 人、战斗经过、撤退交涉"
+      },
+      {
+        "title": "《追忆上海四行仓库保卫战》",
+        "author": "上海四行仓库抗战纪念馆 2024-10-31",
+        "note": "进驻与撤离时间、战斗经过"
+      },
+      {
+        "title": "《为什么是四行仓库？》",
+        "author": "苏智良、胡皓磊，《解放日报》2020-09-08（转中新网）",
+        "note": "人数考订：420 人入、377 人撤、355 人入营"
+      }
+    ],
+    "relatedIds": [
+      "shanghai-fall-1937-11",
+      "jan28-incident-1932-01"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "sihang-withdraw-concession-1937-10",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "八百壮士撤入租界与孤军营",
+      "en": "The “800 Heroes” Withdraw into the Settlement and Are Interned"
+    },
+    "date": "1937-10-31",
+    "location": {
+      "lng": 121.44,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海胶州路孤军营",
+        "en": "Jiaozhou Road camp, Shanghai"
+      }
+    },
+    "entityIds": [
+      "kmt-forces",
+      "concessions"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937年10月31日凌晨，四行孤军撤入公共租界，被缴械羁留胶州路孤军营近四年。",
+      "en": "Before dawn on 31 October 1937 the Sihang defenders withdrew into the International Settlement, were disarmed and interned at Jiaozhou Road for nearly four years."
+    },
+    "description": {
+      "zh": "1937 年 10 月 31 日凌晨，谢晋元率四行孤军 377 人奉命撤出仓库，经新垃圾桥（西藏路桥）进入公共租界，沿途市民夹道迎送。日军指挥官松井石根要求英方缴械并限制其自由，租界当局屈服：英军解除孤军武装，将其羁留于胶州路兵营（孤军营），四周铁丝网，门外由白俄士兵站岗。孤军营内，谢晋元组织官兵出操训练、学习文化、开办肥皂与线袜生产自给。1938 年 8 月 11 日孤军升旗遭租界当局与白俄士兵干涉，4 人死亡、百余人受伤；13 日谢晋元等 16 名军官被强行带离软禁，官兵绝食抗争。1941 年 4 月 24 日，谢晋元被汪伪收买的士兵刺杀，年 37 岁。本事件为租界羁留，不绘路线。",
+      "en": "Before dawn on 31 October 1937 Xie Jinyuan led the 377 survivors out of the warehouse across the Xizang Road Bridge into the International Settlement, cheered by crowds along the way. The Japanese commander Matsui Iwane demanded that the British disarm them and restrict their freedom, and the settlement authorities complied: the men were disarmed and interned in the Jiaozhou Road barracks, surrounded by barbed wire and guarded by White Russian soldiers. Inside, Xie organised drill, schooling and small soap and sock workshops for self-support. On 11 August 1938 a flag-raising was broken up by the settlement authorities and White Russian guards, leaving four dead and over a hundred wounded; on the 13th Xie and 15 other officers were forcibly removed and placed under house arrest, and the men went on hunger strike. On 24 April 1941 Xie was assassinated by soldiers bought by the Wang Jingwei regime; he was 37. This was an internment in the concession; no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《谢晋元：“八百壮士守四行”之抗日英雄》",
+        "author": "中国第二历史档案馆（上海档案信息网转载）",
+        "note": "10-31 撤入租界、缴械、孤军营"
+      },
+      {
+        "title": "《81年前的今天：谢晋元为勇士流泪，也为撤退命令流泪》",
+        "author": "《新民晚报》2018-10-26",
+        "note": "10-31 撤入、胶州路、1938-08-11 升旗冲突"
+      },
+      {
+        "title": "《四行仓库保卫战》",
+        "author": "《解放日报》2015-06-09（转人民网党史）",
+        "note": "缴械与隔离经过、谢晋元遇刺"
+      }
+    ],
+    "relatedIds": [
+      "sihang-warehouse-1937-10",
+      "shanghai-concession-1941-12"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "guying-camp-seized-1941-12",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "日军接管孤军营",
+      "en": "Japanese Take Over the Internment Camp"
+    },
+    "date": "1941-12-28",
+    "location": {
+      "lng": 121.44,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海胶州路孤军营",
+        "en": "Jiaozhou Road camp, Shanghai"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion",
+      "concessions"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1941年12月28日，日军从公共租界当局手中接管孤军营，将孤军官兵分散服苦役。",
+      "en": "On 28 December 1941 the Japanese took over the internment camp from the settlement authorities and dispersed the men to forced labour."
+    },
+    "description": {
+      "zh": "1941 年 12 月 8 日太平洋战争爆发，日军进入上海公共租界。12 月 28 日，日军从公共租界当局手中接管胶州路孤军营，劝降不成后，将孤军官兵分散押往南京孝陵卫、杭州南星桥、安徽芜湖裕溪口等地服苦役，部分被押往巴布亚新几内亚当劳工。至此，自 1937 年 10 月 31 日撤入租界起，四行孤军在租界被羁留四年余。本事件为接管与押送，不绘路线。",
+      "en": "On 8 December 1941 the Pacific War began and Japanese troops entered the Shanghai International Settlement. On 28 December the Japanese took over the Jiaozhou Road camp from the settlement authorities; after the men refused to submit, they were dispersed to forced labour at Xiaolingwei near Nanjing, Nanxingqiao in Hangzhou and Yuxikou in Wuhu, Anhui, with some sent as labourers to Papua New Guinea. The Sihang survivors had thus been held in the settlement for more than four years since 31 October 1937. No route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《81年前的今天：谢晋元为勇士流泪，也为撤退命令流泪》",
+        "author": "《新民晚报》2018-10-26",
+        "note": "1941-12-28 日军接管、押送地点"
+      },
+      {
+        "title": "《谢晋元等“八百壮士”：孤军血战守四行》",
+        "author": "新华社 2018-12-24（人民网党史）",
+        "note": "孤军后续与谢晋元遇刺"
+      }
+    ],
+    "relatedIds": [
+      "sihang-withdraw-concession-1937-10",
+      "shanghai-concession-1941-12"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   }
 ]

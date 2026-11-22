@@ -21051,6 +21051,60 @@
         "sourcePlace": "上海虹口",
         "confidence": "medium"
       }
+    },
+    {
+      "id": "place-shanghai-u56dbu884cu4ed3u5e93",
+      "level": "place",
+      "parentId": "shanghai",
+      "name": {
+        "zh": "四行仓库"
+      },
+      "shortName": {
+        "zh": "四行仓库"
+      },
+      "aliases": [
+        "上海四行仓库",
+        "上海四行仓库"
+      ],
+      "modernName": {
+        "zh": "上海四行仓库"
+      },
+      "point": [
+        121.472,
+        31.245
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "上海四行仓库",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "place-shanghai-u80f6u5ddeu8defu5b64u519bu8425",
+      "level": "place",
+      "parentId": "shanghai",
+      "name": {
+        "zh": "胶州路孤军营"
+      },
+      "shortName": {
+        "zh": "胶州路孤军营"
+      },
+      "aliases": [
+        "上海胶州路孤军营",
+        "上海胶州路孤军营"
+      ],
+      "modernName": {
+        "zh": "上海胶州路孤军营"
+      },
+      "point": [
+        121.44,
+        31.23
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "上海胶州路孤军营",
+        "confidence": "low"
+      }
     }
   ]
 }

@@ -3,6 +3,22 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.244] - 2026-11-22
+
+### Added
+- **抗日战争 · 四行仓库与孤军营（M262）**：新增 3 个事件（均 `routeEvent: false`）。
+  - 四行仓库保卫战（1937-10-26，谢晋元、杨瑞符，420 余人对外称“八百”，四昼夜）。
+  - 八百壮士撤入租界与孤军营（1937-10-31，缴械羁留胶州路；1938-08-11 升旗冲突）。
+  - 日军接管孤军营（1941-12-28，押往南京、杭州、芜湖等地苦役）。
+  - 事件 1035 → **1038**，地区 866 → **868**，路线 563 不变。
+- 研究笔记 `docs/research/units/anti-japanese-war-sihang.md`。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes`（0 问题）、`pnpm check:heads`（0 个无来由端点）、
+  `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.243] - 2026-11-22
 
 ### Added
