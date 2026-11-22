@@ -3,6 +3,29 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.215] - 2026-11-22
+
+### Changed
+- **抗日战争 · 地区索引与文档收口（M233）**：
+  - 967 / 967 个事件都有省 + 县/市归属，329 个另有地点层；
+    0 个只挂省、0 个缺省、0 个悬空父级。
+  - 地区 807 个：39 个一级（省/院辖市/香港/海外）、516 个县市、252 个地点。
+  - 517 段路线全部有 `regionIds` 与 `endpointRegionIds`，0 个空归属。
+  - README 增加“历史省籍口径”：按 1931—1937 年省籍归属，不按今行政区改写；
+    时间覆盖改为 1931-09-18 → 1945-12-27。
+  - 新增地区审计笔记 `docs/research/units/anti-japanese-war-region-audit.md`。
+  - 总体计划 M213—M233 全部收口。
+- `scripts/build-region-data.py` 无需再改；`regions.json` / `region-index.json` 重新生成并校验。
+- 事件 967、路线 517、日军事件 719、日军路线 338、地区 807 均不变。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 遗留：211 条来源缺 `author`、25 条示意边界差异、7 条月级日期，已在审计表标注。
+
+---
+
 ## [v1.0.214] - 2026-11-22
 
 ### Fixed
