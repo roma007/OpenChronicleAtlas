@@ -3,6 +3,24 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.241] - 2026-11-22
+
+### Changed
+- **抗日战争 · 实体更名：中国政府 → 国民政府（M259）**
+  - `china-resistance` 层名由「中国政府」改为「国民政府」（en: National Government of China）。
+  - 依据：1928—1948 年中国的中央政权是**中华民国国民政府**（1927 南京成立，1928 北伐后为全国政府，
+    故称「南京国民政府」；1937 迁渝后称「重庆国民政府」），1948 年 5 月行宪后才改称「中华民国政府」。
+  - 外交文书与外国政府通常径称「中国政府」（1941-12-09 宣战布告、1943《开罗宣言》中的 China），
+    与「国民政府」指同一主体；事件正文中的「中国政府」属泛称，保留不改。
+  - 图层补 description 说明上述沿革与两种称法的关系。
+
+### Verify
+- 事件 **1026**、路线 **563**、地区 **862** 不变。
+- `pnpm validate:data`、`pnpm check:routes`（0 问题）、`pnpm check:heads`（0 个无来由端点）、
+  `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.240] - 2026-11-22
 
 ### Fixed
