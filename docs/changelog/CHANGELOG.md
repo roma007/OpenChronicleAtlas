@@ -3,6 +3,27 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.247] - 2026-11-22
+
+### Added
+- **抗日战争 · 空袭第三批（隆昌、南川，M265）**：新增 2 个事件（均 `routeEvent: false`）。
+  - 隆昌“八二”（1940-08-02，45 架三批、119 弹、死 166 伤 195、毁房 6374；论文与内江新闻网两源数字一致）。
+  - 南川“十一三”（1939-10-13，18 架趁赶场轰炸；投弹与伤亡两说并列）。
+  - 事件 1046 → **1048**，地区 875 → **877**，路线 563 不变。
+
+### Research
+- 查证《四川省防空司令部历年各地空袭损害统计册》：为四川省档案馆纸质档案（民国四川省秘书处档案第 6151 卷），
+  **未在线全文公开**；已出版的《川魂》《抗战时期的四川》《四川省抗日战争时期人口伤亡和财产损失》
+  仅见目录与少量摘录，无合江、阆中逐条数据。
+- 合江、阆中因此仍只有《西南大学学报》统计表一条日级来源，继续待考，并在审计表写明后续查档路径。
+- 研究笔记 `docs/research/units/anti-japanese-war-airraids-3.md`。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes`（0 问题）、`pnpm check:heads`（0 个无来由端点）、
+  `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.246] - 2026-11-22
 
 ### Added
