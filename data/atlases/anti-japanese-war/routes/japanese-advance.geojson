@@ -13654,6 +13654,78 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.88,
+            35.3
+          ],
+          [
+            114.2,
+            35.15
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-02-16",
+        "endDate": "1938-02-16",
+        "order": 353,
+        "segmentType": "advance",
+        "name": {
+          "zh": "新乡—延津",
+          "en": "Xinxiang–Yanjin"
+        },
+        "description": {
+          "zh": "1938年2月16日，日军自新乡方向侵占延津。路线为示意简化。",
+          "en": "On 16 February 1938 the Japanese advanced from the Xinxiang direction and occupied Yanjin. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.2,
+            35.15
+          ],
+          [
+            113.94,
+            35.05
+          ],
+          [
+            113.78,
+            35.05
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-02-16",
+        "endDate": "1938-02-16",
+        "order": 354,
+        "segmentType": "advance",
+        "name": {
+          "zh": "延津—阳武—原武",
+          "en": "Yanjin–Yangwu–Yuanwu"
+        },
+        "description": {
+          "zh": "1938年2月16日，日军自延津西进，侵占阳武、原武。路线为示意简化。",
+          "en": "On 16 February 1938 the Japanese advanced west from Yanjin and occupied Yangwu and Yuanwu. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

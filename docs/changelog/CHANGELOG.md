@@ -3,6 +3,29 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.220] - 2026-11-22
+
+### Added
+- **抗日战争 · 河南延津/原武/阳武补录（M238 / M221b 第二批）**：新增 3 个事件、2 段路线。
+  - 延津 1938-02-16、原武 1938-02-16、阳武 1938-02-16。
+  - 路线（2 段，#353—#354）：新乡—延津、延津—阳武—原武。
+  - 专题：987 → **990** 事件、528 → **530** 段路线；日军层：739 → **742** 事件、
+    349 → **351** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-henan-deferred2.md`、计划
+  `docs/plans/2026-11-22-M238-河南延津原武阳武补录-plan.md`。
+
+### Changed
+- `scripts/build-region-data.py`：增加延津、原武、阳武映射。
+- `regions.json` / `region-index.json`：地区 826 → **829**，990 个事件全部有省 + 县归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 武陟、温县仍只给 2-20—3-5 区间，继续待考。
+
+---
+
 ## [v1.0.219] - 2026-11-22
 
 ### Added

@@ -4279,6 +4279,18 @@
     "huixian-fall-1938-02": [
       "henan",
       "county-henan-u8f89u53bf"
+    ],
+    "yanjin-fall-1938-02": [
+      "henan",
+      "county-henan-u5ef6u6d25u53bf"
+    ],
+    "yuanwu-fall-1938-02": [
+      "henan",
+      "county-henan-u539fu6b66u53bf"
+    ],
+    "yangwu-fall-1938-02": [
+      "henan",
+      "county-henan-u9633u6b66u53bf"
     ]
   },
   "routes": {
@@ -7894,6 +7906,22 @@
       ]
     },
     "japanese-invasion:352": {
+      "regionIds": [
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "japanese-invasion:353": {
+      "regionIds": [
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
+    "japanese-invasion:354": {
       "regionIds": [
         "henan"
       ],

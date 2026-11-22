@@ -49611,5 +49611,156 @@
       "jiaozuo-fall-1938-02"
     ],
     "importance": 2
+  },
+  {
+    "id": "yanjin-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "延津沦陷",
+      "en": "Fall of Yanjin"
+    },
+    "date": "1938-02-16",
+    "location": {
+      "lng": 114.2,
+      "lat": 35.15,
+      "place": {
+        "zh": "河南延津",
+        "en": "Yanjin, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月16日，日军侵占延津，国民党延津县政府溃逃。",
+      "en": "On 16 February 1938 the Japanese occupied Yanjin and the Nationalist county government fled."
+    },
+    "description": {
+      "zh": "1938年2月7日，日军第14师团5个步兵大队、3个炮兵大队从河北大名出发，沿平汉铁路东侧南犯。13日至16日，长垣、封丘、延津、原武、阳武相继沦陷。16日，日军过境延津，国民党延津县政府溃逃，地方士绅贾子和等组织自卫。日期据《新乡抗战·惨案》《新乡沦陷，奋起抗暴》与《贾子和》。",
+      "en": "On 7 February 1938 the Japanese 14th Division, with five infantry and three artillery battalions, advanced south from Daming in Hebei along the eastern side of the Pinghan railway. From 13 to 16 February Changyuan, Fengqiu, Yanjin, Yuanwu and Yangwu fell in succession. On the 16th the Japanese passed through Yanjin, the Nationalist county government fled, and local notable Jia Zihe and others organised self-defence."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "新乡抗战·惨案—日军罪恶滔天：新乡直接间接伤亡72万人",
+        "author": "抗日战争纪念网",
+        "note": "惨案资料，访问 2026-11-22"
+      },
+      {
+        "title": "新乡沦陷，奋起抗暴",
+        "author": "新乡市档案局",
+        "note": "地方档案，访问 2026-11-22"
+      },
+      {
+        "title": "贾子和",
+        "author": "百度百科",
+        "note": "人物资料，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "fengqiu-fall-1938-02",
+      "yuanwu-fall-1938-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yuanwu-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "原武沦陷",
+      "en": "Fall of Yuanwu"
+    },
+    "date": "1938-02-16",
+    "location": {
+      "lng": 113.78,
+      "lat": 35.05,
+      "place": {
+        "zh": "河南原武",
+        "en": "Yuanwu, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月16日，日军侵占原武。",
+      "en": "On 16 February 1938 the Japanese occupied Yuanwu."
+    },
+    "description": {
+      "zh": "1938年2月16日，日军侵占原武。原武、阳武两县随后成为日军屠杀场，原阳一带被害群众2000余人。日期据《新乡抗战·惨案》与《新乡沦陷，奋起抗暴》；后者只记13日至16日“相继沦陷”，未列逐日。",
+      "en": "On 16 February 1938 the Japanese occupied Yuanwu. Yuanwu and Yangwu then became scenes of massacre, with over 2,000 civilians killed in the Yuanyang area. The date follows the Xinxiang atrocity compilation and the Xinxiang municipal archive, the latter giving only a 13–16 February range."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "新乡抗战·惨案—日军罪恶滔天：新乡直接间接伤亡72万人",
+        "author": "抗日战争纪念网",
+        "note": "惨案资料，访问 2026-11-22"
+      },
+      {
+        "title": "新乡沦陷，奋起抗暴",
+        "author": "新乡市档案局",
+        "note": "地方档案，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "yanjin-fall-1938-02",
+      "yangwu-fall-1938-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yangwu-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "阳武沦陷",
+      "en": "Fall of Yangwu"
+    },
+    "date": "1938-02-16",
+    "location": {
+      "lng": 113.94,
+      "lat": 35.05,
+      "place": {
+        "zh": "河南阳武",
+        "en": "Yangwu, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月16日，日军侵占阳武。",
+      "en": "On 16 February 1938 the Japanese occupied Yangwu."
+    },
+    "description": {
+      "zh": "1938年2月16日，日军侵占阳武。阳武城西门外沙丘和城东南奎星楼下成为日军杀人场，日军在此以刺刀、战刀杀害无辜群众。日期据《新乡抗战·惨案》与《新乡沦陷，奋起抗暴》；后者只记13日至16日“相继沦陷”。",
+      "en": "On 16 February 1938 the Japanese occupied Yangwu. The sand dunes west of the city gate and the area below the Kuixing Tower in the south-east became execution grounds where Japanese troops killed civilians with bayonets and swords. The date follows the Xinxiang atrocity compilation and the municipal archive, the latter giving only a 13–16 February range."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "新乡抗战·惨案—日军罪恶滔天：新乡直接间接伤亡72万人",
+        "author": "抗日战争纪念网",
+        "note": "惨案资料，访问 2026-11-22"
+      },
+      {
+        "title": "新乡沦陷，奋起抗暴",
+        "author": "新乡市档案局",
+        "note": "地方档案，访问 2026-11-22"
+      },
+      {
+        "title": "新乡之抗战时期沦陷，不可忘记的历史记录",
+        "author": "抗日战争纪念网",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "yuanwu-fall-1938-02",
+      "yanjin-fall-1938-02"
+    ],
+    "importance": 2
   }
 ]

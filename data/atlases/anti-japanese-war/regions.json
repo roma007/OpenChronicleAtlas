@@ -20146,6 +20146,72 @@
         113.8,
         35.46
       ]
+    },
+    {
+      "id": "county-henan-u5ef6u6d25u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "延津县"
+      },
+      "shortName": {
+        "zh": "延津"
+      },
+      "aliases": [
+        "延津"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        114.2,
+        35.15
+      ]
+    },
+    {
+      "id": "county-henan-u539fu6b66u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "原武县"
+      },
+      "shortName": {
+        "zh": "原武"
+      },
+      "aliases": [
+        "原武"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.78,
+        35.05
+      ]
+    },
+    {
+      "id": "county-henan-u9633u6b66u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "阳武县"
+      },
+      "shortName": {
+        "zh": "阳武"
+      },
+      "aliases": [
+        "阳武"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.94,
+        35.05
+      ]
     }
   ]
 }
