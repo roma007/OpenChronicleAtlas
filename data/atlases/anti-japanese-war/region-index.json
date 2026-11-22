@@ -4336,6 +4336,14 @@
     "tongcheng-fall-1938-11": [
       "hubei",
       "county-hubei-u901au57ceu53bf"
+    ],
+    "jingshan-fall-1939-01": [
+      "hubei",
+      "county-hubei-u4eacu5c71u53bf"
+    ],
+    "zhongxiang-fall-1939-03": [
+      "hubei",
+      "county-hubei-u949fu7965u53bf"
     ]
   },
   "routes": {
@@ -8052,6 +8060,22 @@
       ]
     },
     "japanese-invasion:364": {
+      "regionIds": [
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:365": {
+      "regionIds": [
+        "hubei"
+      ],
+      "endpointRegionIds": [
+        "hubei"
+      ]
+    },
+    "japanese-invasion:366": {
       "regionIds": [
         "hubei"
       ],

@@ -50313,5 +50313,109 @@
       "tongshan-fall-1938-11"
     ],
     "importance": 2
+  },
+  {
+    "id": "jingshan-fall-1939-01",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "京山沦陷",
+      "en": "Fall of Jingshan"
+    },
+    "date": "1939-01-16",
+    "location": {
+      "lng": 113.11,
+      "lat": 31.02,
+      "place": {
+        "zh": "湖北京山",
+        "en": "Jingshan, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1939年1月16日，日军八目联队攻占京山县城。",
+      "en": "On 16 January 1939 the Japanese Bamoku detachment captured Jingshan."
+    },
+    "description": {
+      "zh": "1938年11月4日，日军进占皂市，随后侵占京山罗店、宋河。1939年1月16日，日军八目联队自宋河出发，经天王寺进攻京山县城，中国守军第33集团军第38师樊伦山团力战不支，退往孙桥，京山县城沦陷。同月日军设维持会，袁子和任会长。18日，日军进攻孙桥，被樊团击毙200余人。日期取京山党史县志办调研报告与《京山抗战大事记》；郭廷以《中华民国史事日志》记1月18日陷京山，异说并存。",
+      "en": "On 4 November 1938 the Japanese occupied Zaoshi and then Luodian and Songhe in Jingshan. On 16 January 1939 the Japanese Bamoku detachment advanced from Songhe via Tianwang Temple against the county town; the Chinese 38th Division’s Fan Lunshan regiment under the 33rd Army Group fought until it could no longer hold and fell back to Sunqiao, and Jingshan fell. A maintenance committee under Yuan Zihe was set up that month. On the 18th the Japanese attacked Sunqiao and lost over 200 men to Fan’s regiment. The Jingshan party-history office and the Jingshan chronicle give 16 January; Guo Tingyi’s chronological record gives 18 January."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "湖北京山抗战大事记",
+        "author": "抗日战争纪念网转《京山记忆》2022-11-09",
+        "note": "地方史，访问 2026-11-22"
+      },
+      {
+        "title": "抗战时期京山县人口伤亡和财产损失调研报告",
+        "author": "京山档案（京山县党史县志办）2022-11-08",
+        "note": "地方档案，访问 2026-11-22"
+      },
+      {
+        "title": "郭廷以：中华民国史事日志（1939年）",
+        "author": "郭廷以，近代中国网",
+        "note": "史事日志，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "yingcheng-fall-1938-10",
+      "zhongxiang-fall-1939-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhongxiang-fall-1939-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "钟祥沦陷",
+      "en": "Fall of Zhongxiang"
+    },
+    "date": "1939-03-05",
+    "location": {
+      "lng": 112.59,
+      "lat": 31.17,
+      "place": {
+        "zh": "湖北钟祥",
+        "en": "Zhongxiang, Hubei"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1939年3月5日，日军自京山西南进攻，占领钟祥县城。",
+      "en": "On 5 March 1939 the Japanese attacked from south-west of Jingshan and occupied Zhongxiang."
+    },
+    "description": {
+      "zh": "1939年3月1日，日机3架空袭钟祥县城，炸毁民房20余栋，炸死居民9人。3月3日，日军自京山西南猛扑钟祥。3月5日（农历正月十五），钟祥县城沦陷。日军进城后随即网罗汉奸组织“安陆治安维持总会”。钟祥扼汉水东岸，此后成为日军进攻鄂北、鄂西的前进基地。日期取《钟祥县志》与荆楚网地方党史稿；《1939年抗日战争大事记》记3月6日，异说并存。",
+      "en": "On 1 March 1939 three Japanese aircraft raided Zhongxiang, destroying over 20 houses and killing nine civilians. On 3 March the Japanese struck at Zhongxiang from south-west of Jingshan, and on 5 March (the fifteenth of the first lunar month) the county town fell. The Japanese immediately organised a collaborationist “Anlu public order maintenance association”. Commanding the east bank of the Han River, Zhongxiang thereafter served as a forward base for Japanese operations in northern and western Hubei. The county gazetteer and the Jingchu network party-history account give 5 March; the 1939 chronicle gives 6 March."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "钟祥历史",
+        "author": "钟祥之家（引《钟祥县志》）",
+        "note": "地方志，访问 2026-11-22"
+      },
+      {
+        "title": "钟祥",
+        "author": "荆楚网 2015-08-26",
+        "note": "地方党史，访问 2026-11-22"
+      },
+      {
+        "title": "1939年抗日战争大事记（上）",
+        "author": "抗日战争纪念网 2017-10-14",
+        "note": "大事记，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "jingshan-fall-1939-01",
+      "suixian-fall-1939-05"
+    ],
+    "importance": 3
   }
 ]

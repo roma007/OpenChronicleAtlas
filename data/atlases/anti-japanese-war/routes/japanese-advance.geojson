@@ -14094,6 +14094,86 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.57,
+            30.93
+          ],
+          [
+            113.18,
+            30.87
+          ],
+          [
+            113.28,
+            31.02
+          ],
+          [
+            113.11,
+            31.02
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-11-04",
+        "endDate": "1939-01-16",
+        "order": 365,
+        "segmentType": "advance",
+        "name": {
+          "zh": "应城—皂市—宋河—京山",
+          "en": "Yingcheng–Zaoshi–Songhe–Jingshan"
+        },
+        "description": {
+          "zh": "1938年11月4日至1939年1月16日，日军自应城沿汉宜公路西进，占皂市、罗店、宋河后攻陷京山县城。路线为示意简化。",
+          "en": "From 4 November 1938 to 16 January 1939 the Japanese advanced west from Yingcheng along the Hankou–Yichang highway, taking Zaoshi, Luodian and Songhe before capturing Jingshan. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.11,
+            31.02
+          ],
+          [
+            112.85,
+            31.1
+          ],
+          [
+            112.59,
+            31.17
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-03-03",
+        "endDate": "1939-03-05",
+        "order": 366,
+        "segmentType": "advance",
+        "name": {
+          "zh": "京山—钟祥",
+          "en": "Jingshan–Zhongxiang"
+        },
+        "description": {
+          "zh": "1939年3月3日至5日，日军自京山西南进攻钟祥。路线为示意简化。",
+          "en": "From 3 to 5 March 1939 the Japanese advanced on Zhongxiang from south-west of Jingshan. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

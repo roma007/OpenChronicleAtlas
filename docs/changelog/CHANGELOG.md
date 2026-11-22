@@ -3,6 +3,30 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.224] - 2026-11-22
+
+### Added
+- **抗日战争 · 湖北京山/钟祥补录（M242）**：新增 2 个事件、2 段路线。
+  - 京山 1939-01-16（异说 01-18）、钟祥 1939-03-05（异说 03-06）。
+  - 路线（2 段，#365—#366）：应城—皂市—宋河—京山、京山—钟祥。
+  - 专题：1001 → **1003** 事件、540 → **542** 段路线；日军层：753 → **755** 事件、
+    361 → **363** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-hubei-jingshan.md`、计划
+  `docs/plans/2026-11-22-M242-湖北京山钟祥补录-plan.md`。
+
+### Changed
+- `scripts/build-region-data.py`：增加京山、宋河（并入京山县）、钟祥映射。
+- `regions.json` / `region-index.json`：地区 839 → **841**，1003 个事件全部有省 + 县归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 天门（01-27 与 02-20 冲突）、远安（06-09 与 06-10 冲突）继续待考；
+  沙市并入已有 `jingzhou-fall-1940-06`。
+
+---
+
 ## [v1.0.223] - 2026-11-22
 
 ### Added

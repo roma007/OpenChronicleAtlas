@@ -20437,6 +20437,50 @@
         113.82,
         29.25
       ]
+    },
+    {
+      "id": "county-hubei-u4eacu5c71u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "京山县"
+      },
+      "shortName": {
+        "zh": "京山"
+      },
+      "aliases": [
+        "京山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.11,
+        31.02
+      ]
+    },
+    {
+      "id": "county-hubei-u949fu7965u53bf",
+      "level": "county",
+      "parentId": "hubei",
+      "name": {
+        "zh": "钟祥县"
+      },
+      "shortName": {
+        "zh": "钟祥"
+      },
+      "aliases": [
+        "钟祥"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.59,
+        31.17
+      ]
     }
   ]
 }
