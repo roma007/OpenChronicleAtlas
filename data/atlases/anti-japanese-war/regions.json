@@ -19292,6 +19292,263 @@
         "sourcePlace": "黑龙江满洲里",
         "confidence": "medium"
       }
+    },
+    {
+      "id": "place-rehe-u5317u7968",
+      "level": "place",
+      "parentId": "county-rehe-u671du9633u53bf",
+      "name": {
+        "zh": "北票"
+      },
+      "shortName": {
+        "zh": "北票"
+      },
+      "aliases": [
+        "热河北票",
+        "热河北票"
+      ],
+      "modernName": {
+        "zh": "热河北票"
+      },
+      "point": [
+        120.77,
+        41.8
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "热河北票",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-rehe-u5f00u9c81u53bf",
+      "level": "county",
+      "parentId": "rehe",
+      "name": {
+        "zh": "开鲁县"
+      },
+      "shortName": {
+        "zh": "开鲁"
+      },
+      "aliases": [
+        "开鲁"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        121.3,
+        43.6
+      ]
+    },
+    {
+      "id": "place-rehe-u4e0bu6d3c",
+      "level": "place",
+      "parentId": "rehe",
+      "name": {
+        "zh": "下洼"
+      },
+      "shortName": {
+        "zh": "下洼"
+      },
+      "aliases": [
+        "热河下洼",
+        "热河下洼"
+      ],
+      "modernName": {
+        "zh": "热河下洼"
+      },
+      "point": [
+        120.66,
+        42.42
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "热河下洼",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "county-rehe-u51ccu5357u53bf",
+      "level": "county",
+      "parentId": "rehe",
+      "name": {
+        "zh": "凌南县"
+      },
+      "shortName": {
+        "zh": "凌南"
+      },
+      "aliases": [
+        "凌南"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.8,
+        40.81
+      ]
+    },
+    {
+      "id": "county-rehe-u5efau5e73u53bf",
+      "level": "county",
+      "parentId": "rehe",
+      "name": {
+        "zh": "建平县"
+      },
+      "shortName": {
+        "zh": "建平"
+      },
+      "aliases": [
+        "建平"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.64,
+        41.4
+      ]
+    },
+    {
+      "id": "place-rehe-u53f6u67cfu5bff",
+      "level": "place",
+      "parentId": "county-rehe-u5efau5e73u53bf",
+      "name": {
+        "zh": "叶柏寿"
+      },
+      "shortName": {
+        "zh": "叶柏寿"
+      },
+      "aliases": [
+        "热河叶柏寿",
+        "热河叶柏寿"
+      ],
+      "modernName": {
+        "zh": "热河叶柏寿"
+      },
+      "point": [
+        119.64,
+        41.4
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "热河叶柏寿",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-rehe-u8d64u5cf0u53bf",
+      "level": "county",
+      "parentId": "rehe",
+      "name": {
+        "zh": "赤峰县"
+      },
+      "shortName": {
+        "zh": "赤峰"
+      },
+      "aliases": [
+        "赤峰"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        118.89,
+        42.26
+      ]
+    },
+    {
+      "id": "county-rehe-u51ccu6e90u53bf",
+      "level": "county",
+      "parentId": "rehe",
+      "name": {
+        "zh": "凌源县"
+      },
+      "shortName": {
+        "zh": "凌源"
+      },
+      "aliases": [
+        "凌源"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        119.4,
+        41.24
+      ]
+    },
+    {
+      "id": "county-rehe-u5e73u6cc9u53bf",
+      "level": "county",
+      "parentId": "rehe",
+      "name": {
+        "zh": "平泉县"
+      },
+      "shortName": {
+        "zh": "平泉"
+      },
+      "aliases": [
+        "平泉"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        118.7,
+        41.02
+      ]
+    },
+    {
+      "id": "county-rehe-u6797u897fu53bf",
+      "level": "county",
+      "parentId": "rehe",
+      "name": {
+        "zh": "林西县"
+      },
+      "shortName": {
+        "zh": "林西"
+      },
+      "aliases": [
+        "林西"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        118.05,
+        43.61
+      ]
+    },
+    {
+      "id": "county-rehe-u56f4u573au53bf",
+      "level": "county",
+      "parentId": "rehe",
+      "name": {
+        "zh": "围场县"
+      },
+      "shortName": {
+        "zh": "围场"
+      },
+      "aliases": [
+        "围场"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        117.76,
+        41.94
+      ]
     }
   ]
 }

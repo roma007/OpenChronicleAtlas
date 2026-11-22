@@ -13146,6 +13146,230 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.13,
+            41.1
+          ],
+          [
+            120.77,
+            41.8
+          ],
+          [
+            120.45,
+            41.57
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1933-02-23",
+        "endDate": "1933-02-25",
+        "order": 336,
+        "segmentType": "advance",
+        "name": {
+          "zh": "锦州—北票—朝阳",
+          "en": "Jinzhou–Beipiao–Chaoyang"
+        },
+        "description": {
+          "zh": "1933年2月23日至25日，日军第8师团自锦州沿锦朝线攻占北票、朝阳。路线为示意简化。",
+          "en": "From 23 to 25 February 1933 the Japanese 8th Division advanced from Jinzhou along the Jinchao railway and took Beipiao and Chaoyang. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.3,
+            43.6
+          ],
+          [
+            120.66,
+            42.42
+          ],
+          [
+            118.89,
+            42.26
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1933-02-23",
+        "endDate": "1933-03-02",
+        "order": 337,
+        "segmentType": "advance",
+        "name": {
+          "zh": "开鲁—下洼—赤峰",
+          "en": "Kailu–Xiawa–Chifeng"
+        },
+        "description": {
+          "zh": "1933年2月23日至3月2日，日军第6师团自开鲁经下洼、老哈河方向进攻赤峰。路线为示意简化。",
+          "en": "From 23 February to 2 March 1933 the Japanese 6th Division advanced from Kailu through Xiawa and the Laoha River toward Chifeng. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.8,
+            40.81
+          ],
+          [
+            119.4,
+            41.24
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1933-02-28",
+        "endDate": "1933-03-02",
+        "order": 338,
+        "segmentType": "advance",
+        "name": {
+          "zh": "凌南—凌源",
+          "en": "Lingnan–Lingyuan"
+        },
+        "description": {
+          "zh": "1933年2月28日至3月2日，日军混成第14旅团自凌南向凌源推进。路线为示意简化。",
+          "en": "From 28 February to 2 March 1933 the Japanese 14th Mixed Brigade advanced from Lingnan toward Lingyuan. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.45,
+            41.57
+          ],
+          [
+            119.64,
+            41.4
+          ],
+          [
+            119.4,
+            41.24
+          ],
+          [
+            118.7,
+            41.02
+          ],
+          [
+            117.96,
+            40.99
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1933-03-01",
+        "endDate": "1933-03-04",
+        "order": 339,
+        "segmentType": "advance",
+        "name": {
+          "zh": "朝阳—叶柏寿—凌源—平泉—承德",
+          "en": "Chaoyang–Yebaishou–Lingyuan–Pingquan–Chengde"
+        },
+        "description": {
+          "zh": "1933年3月1日至4日，日军第8师团沿朝阳、凌源、平泉公路推进，4日侵占承德。路线为示意简化。",
+          "en": "From 1 to 4 March 1933 the Japanese 8th Division advanced along the Chaoyang–Lingyuan–Pingquan road and occupied Chengde on the 4th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.89,
+            42.26
+          ],
+          [
+            117.76,
+            41.94
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1933-03-02",
+        "endDate": "1933-03-08",
+        "order": 340,
+        "segmentType": "advance",
+        "name": {
+          "zh": "赤峰—围场",
+          "en": "Chifeng–Weichang"
+        },
+        "description": {
+          "zh": "1933年3月2日至8日，日军自赤峰向围场推进，8日侵占围场。路线为示意简化。",
+          "en": "From 2 to 8 March 1933 the Japanese advanced from Chifeng toward Weichang and occupied it on the 8th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.89,
+            42.26
+          ],
+          [
+            118.05,
+            43.61
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1933-03-02",
+        "endDate": "1933-03-06",
+        "order": 341,
+        "segmentType": "advance",
+        "name": {
+          "zh": "赤峰—林西",
+          "en": "Chifeng–Linxi"
+        },
+        "description": {
+          "zh": "1933年3月2日至6日，日军自赤峰方向进攻林西，6日侵占林西。路线为示意简化。",
+          "en": "From 2 to 6 March 1933 the Japanese advanced from the Chifeng direction and occupied Linxi on the 6th. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

@@ -46951,5 +46951,521 @@
       "zhalantun-fall-1932-11"
     ],
     "importance": 3
+  },
+  {
+    "id": "beipiao-fall-1933-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "北票沦陷",
+      "en": "Fall of Beipiao"
+    },
+    "date": "1933-02-23",
+    "location": {
+      "lng": 120.77,
+      "lat": 41.8,
+      "place": {
+        "zh": "热河北票",
+        "en": "Beipiao, Rehe"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1933年2月23日，日军第8师团先遣队占领北票、南岭。",
+      "en": "On 23 February 1933 the advance force of the Japanese 8th Division took Beipiao and Nanling."
+    },
+    "description": {
+      "zh": "1933年2月21日，日军第8师团先遣队乘火车自锦州至朝阳寺，22日在飞机、铁甲车配合下猛攻南岭，遭守军董福亭旅和义勇军耿继周部抵抗。23日，董旅第58团团长邵本良在前线投敌，北票、南岭相继失守，早川支队占领北票。日期据《热河沦陷 热河抗战》与《日军侵占热河南部朝阳》。",
+      "en": "On 21 February 1933 the advance force of the Japanese 8th Division moved by rail from Jinzhou to Chaoyangsi and on the 22nd attacked Nanling with aircraft and armoured trains, meeting resistance from Dong Futing’s brigade and Geng Jizhou’s volunteers. On the 23rd the 58th Regiment commander Shao Benliang defected at the front, Beipiao and Nanling fell in succession, and the Hayakawa detachment occupied Beipiao."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "热河沦陷 热河抗战",
+        "author": "抗日战争纪念网/抗战图书馆 2018-05-23",
+        "note": "地方史，访问 2026-11-22"
+      },
+      {
+        "title": "日军侵占热河南部朝阳",
+        "author": "抗日战争纪念网 2017-05-11",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "japanese-jehol-1933-02",
+      "chaoyang-fall-1933-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kailu-fall-1933-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "开鲁沦陷",
+      "en": "Fall of Kailu"
+    },
+    "date": "1933-02-23",
+    "location": {
+      "lng": 121.3,
+      "lat": 43.6,
+      "place": {
+        "zh": "热河开鲁",
+        "en": "Kailu, Rehe"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1933年2月23日，日军第6师团与伪军张海鹏部攻占开鲁。",
+      "en": "On 23 February 1933 the Japanese 6th Division and Zhang Haipeng’s puppet troops took Kailu."
+    },
+    "description": {
+      "zh": "1933年2月21日，日军第6师团主力及第11旅团一部配以蒙族骑兵500余人，向热北重镇开鲁进攻。守军热河省军骑兵第17旅崔兴五部不战，22日日军以飞机10余架轮番轰炸，义勇军刘振东、李海青等部苦战后退往赤峰。23日伪军张海鹏部伙同日军进攻，崔兴五率全旅逃往林东，开鲁陷落。开鲁沦陷日期另有2月24日之说，见研究笔记。",
+      "en": "On 21 February 1933 the main force of the Japanese 6th Division and part of the 11th Brigade with over 500 Mongol cavalry attacked Kailu, the key town of northern Rehe. Cui Xingwu’s 17th Cavalry Brigade of the Rehe provincial army offered no resistance; on the 22nd Japanese aircraft bombed the town repeatedly, and Liu Zhendong’s and Li Haiqing’s volunteers fell back toward Chifeng after hard fighting. On the 23rd Zhang Haipeng’s puppet troops joined the attack, Cui Xingwu fled with his brigade to Lindong, and Kailu fell. Some sources give 24 February."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国人民抗日战争——热河",
+        "author": "国防云/抗日战争纪念网 2020-09-12",
+        "note": "战史，访问 2026-11-22"
+      },
+      {
+        "title": "热河沦陷 热河抗战",
+        "author": "抗日战争纪念网/抗战图书馆 2018-05-23",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "japanese-jehol-1933-02",
+      "chifeng-fall-1933-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "chaoyang-fall-1933-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "朝阳沦陷",
+      "en": "Fall of Chaoyang"
+    },
+    "date": "1933-02-25",
+    "location": {
+      "lng": 120.45,
+      "lat": 41.57,
+      "place": {
+        "zh": "热河朝阳",
+        "en": "Chaoyang, Rehe"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1933年2月25日，日军第8师团进占朝阳。",
+      "en": "On 25 February 1933 the Japanese 8th Division entered Chaoyang."
+    },
+    "description": {
+      "zh": "1933年2月24日傍晚，日军第8师团先遣队会同步兵第16旅团主力到达朝阳以东及以北地区。当夜朝阳城内守军大部分撤走，董福亭旅又有一个营叛变引敌深入。25日拂晓日军进攻朝阳，未遇抵抗，中午进占朝阳城，第8师团主力随后集结。日期据《中国人民抗日战争——热河》与《日军侵占热河南部朝阳》。",
+      "en": "On the evening of 24 February 1933 the advance force of the Japanese 8th Division with the main body of the 16th Infantry Brigade reached the approaches to Chaoyang. That night most of the garrison withdrew and another battalion of Dong Futing’s brigade defected, guiding the Japanese in. At dawn on the 25th the Japanese attacked, met no resistance and entered Chaoyang at noon; the main body of the 8th Division then concentrated there."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国人民抗日战争——热河",
+        "author": "国防云/抗日战争纪念网 2020-09-12",
+        "note": "战史，访问 2026-11-22"
+      },
+      {
+        "title": "日军侵占热河南部朝阳",
+        "author": "抗日战争纪念网 2017-05-11",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "beipiao-fall-1933-02",
+      "yebaishou-fall-1933-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xiawa-fall-1933-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "下洼镇沦陷",
+      "en": "Fall of Xiawa"
+    },
+    "date": "1933-02-27",
+    "location": {
+      "lng": 120.66,
+      "lat": 42.42,
+      "place": {
+        "zh": "热河下洼",
+        "en": "Xiawa, Rehe"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1933年2月27日，下洼镇沦陷，热东防线崩溃。",
+      "en": "On 27 February 1933 Xiawa fell and the eastern Rehe defence line collapsed."
+    },
+    "description": {
+      "zh": "1933年2月27日，下洼镇沦陷，日军进抵老哈河畔，热东防线崩溃。孙殿英率第107旅一部驰援赤峰。日军第6师团占开鲁后分兵两路，一路沿西拉木伦河、老哈河经白音套海直攻赤峰，一路经大沁他拉、下洼、新惠攻建平镇。日期据《中国人民抗日战争——热河》与《热河战役》。",
+      "en": "On 27 February 1933 Xiawa fell and the Japanese reached the Laoha River, collapsing the eastern Rehe defence line; Sun Dianying rushed part of the 107th Brigade to Chifeng. After taking Kailu the Japanese 6th Division split, one column moving along the Xar Moron and Laoha rivers via Baiyintaohai toward Chifeng and the other through Daqintala, Xiawa and Xinhui toward Jianping."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国人民抗日战争——热河",
+        "author": "国防云/抗日战争纪念网 2020-09-12",
+        "note": "战史，访问 2026-11-22"
+      },
+      {
+        "title": "热河战役",
+        "author": "抗日战争纪念网 2018-10-01",
+        "note": "战史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "kailu-fall-1933-02",
+      "chifeng-fall-1933-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lingnan-fall-1933-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "凌南沦陷",
+      "en": "Fall of Lingnan"
+    },
+    "date": "1933-02-28",
+    "location": {
+      "lng": 119.8,
+      "lat": 40.81,
+      "place": {
+        "zh": "热河凌南",
+        "en": "Lingnan (modern Jianchang), Rehe"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1933年2月28日，日军混成第14旅团侵占凌南（今建昌）。",
+      "en": "On 28 February 1933 the Japanese 14th Mixed Brigade occupied Lingnan (modern Jianchang)."
+    },
+    "description": {
+      "zh": "1933年2月27日，日军混成第14旅团在绥中白石嘴边门集结，当日侵占凌南（今建昌），28日攻击沙帽山后向凌源乘车前进。凌南失守使日军打开由绥中进入热河南部的通道。日期另有2月27日之说，见研究笔记。",
+      "en": "On 27 February 1933 the Japanese 14th Mixed Brigade concentrated at Baishizui Bianmen in Suizhong and occupied Lingnan (modern Jianchang) that day; on the 28th it attacked Shaomaoshan and moved by truck toward Lingyuan. The fall of Lingnan opened the route from Suizhong into southern Rehe. Some sources give 27 February."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "热河沦陷 热河抗战",
+        "author": "抗日战争纪念网/抗战图书馆 2018-05-23",
+        "note": "地方史，访问 2026-11-22"
+      },
+      {
+        "title": "日军侵占热河南部朝阳",
+        "author": "抗日战争纪念网 2017-05-11",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "lingyuan-fall-1933-03",
+      "japanese-jehol-1933-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yebaishou-fall-1933-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "叶柏寿失守",
+      "en": "Fall of Yebaishou"
+    },
+    "date": "1933-03-01",
+    "location": {
+      "lng": 119.64,
+      "lat": 41.4,
+      "place": {
+        "zh": "热河叶柏寿",
+        "en": "Yebaishou, Rehe"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1933年3月1日，日军第8师团主力猛攻叶柏寿，守军于兆麟旅苦战后撤退。",
+      "en": "On 1 March 1933 the main force of the Japanese 8th Division stormed Yebaishou; Yu Zhaolin’s brigade withdrew after hard fighting."
+    },
+    "description": {
+      "zh": "1933年3月1日，日军第8师团主力约5000余人，在飞机9架、坦克30余辆配合下进攻叶柏寿，守军黑龙江省军于兆麟旅顽强抵抗，激战六七小时，第688团第1连连长以下全部阵亡。日军攻击不下，主力绕道直取凌源。日期据《中国人民抗日战争——热河》与《日军侵占热河南部朝阳》。",
+      "en": "On 1 March 1933 the main force of the Japanese 8th Division, over 5,000 strong with nine aircraft and more than thirty tanks, attacked Yebaishou. Yu Zhaolin’s Heilongjiang brigade resisted stubbornly for six or seven hours; the 1st Company of the 688th Regiment was wiped out. Unable to break through, the Japanese main body bypassed Yebaishou and drove on Lingyuan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国人民抗日战争——热河",
+        "author": "国防云/抗日战争纪念网 2020-09-12",
+        "note": "战史，访问 2026-11-22"
+      },
+      {
+        "title": "日军侵占热河南部朝阳",
+        "author": "抗日战争纪念网 2017-05-11",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "chaoyang-fall-1933-02",
+      "lingyuan-fall-1933-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "chifeng-fall-1933-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "赤峰沦陷",
+      "en": "Fall of Chifeng"
+    },
+    "date": "1933-03-02",
+    "location": {
+      "lng": 118.89,
+      "lat": 42.26,
+      "place": {
+        "zh": "热河赤峰",
+        "en": "Chifeng, Rehe"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1933年3月2日下午5时许，日军攻入赤峰，守军巷战后退出。",
+      "en": "At about 5 p.m. on 2 March 1933 the Japanese broke into Chifeng; the defenders withdrew after street fighting."
+    },
+    "description": {
+      "zh": "1933年2月28日，日军进逼赤峰东郊山水坡，孙殿英部第41军与日军交战。3月1日日军以飞机、重炮轰击城区，孙殿英部在红庙子、山水坡顽强抵抗。2日凌晨日军增援，中午攻抵城下，下午攻破头道街，守军展开巷战。下午5时许日军攻入城内，赤峰沦陷。日期据《热河沦陷 热河抗战》与《中国人民抗日战争——热河》。",
+      "en": "On 28 February 1933 the Japanese closed on Shanshuipo east of Chifeng and engaged Sun Dianying’s 41st Army. On 1 March aircraft and heavy artillery bombarded the city while Sun’s troops held Hongmiaozi and Shanshuipo. Reinforcements arrived before dawn on the 2nd, the Japanese reached the walls at noon and broke into the First Street district in the afternoon; street fighting followed and the city fell at about 5 p.m."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "热河沦陷 热河抗战",
+        "author": "抗日战争纪念网/抗战图书馆 2018-05-23",
+        "note": "地方史，访问 2026-11-22"
+      },
+      {
+        "title": "中国人民抗日战争——热河",
+        "author": "国防云/抗日战争纪念网 2020-09-12",
+        "note": "战史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "kailu-fall-1933-02",
+      "xiawa-fall-1933-02",
+      "linxi-fall-1933-03"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "lingyuan-fall-1933-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "凌源沦陷",
+      "en": "Fall of Lingyuan"
+    },
+    "date": "1933-03-02",
+    "location": {
+      "lng": 119.4,
+      "lat": 41.24,
+      "place": {
+        "zh": "热河凌源",
+        "en": "Lingyuan, Rehe"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1933年3月2日上午，日军攻占凌源。",
+      "en": "On the morning of 2 March 1933 the Japanese captured Lingyuan."
+    },
+    "description": {
+      "zh": "1933年3月2日，日军第8师团川原挺进队到达凌源东侧，与自绥中方向前来的混成第14旅团米山先遣队会合，一同攻击。东北军丁喜春、缪澄流、孙德荃等旅纷纷后退，上午凌源失守，日军主力继续向平泉攻击。义勇军郭景珊部在牛河梁与日军混战一夜，毙伤日伪军百余名后退出。日期据《热河沦陷 热河抗战》与《日军侵占热河南部朝阳》。",
+      "en": "On 2 March 1933 the Kawara drive force of the Japanese 8th Division reached the eastern approaches to Lingyuan and joined the Yoneyama advance force of the 14th Mixed Brigade coming from Suizhong. The Northeastern Army brigades of Ding Xichun, Miao Chengliu and Sun Dechen fell back, Lingyuan fell in the morning and the Japanese main body drove on Pingquan. Guo Jingshan’s volunteers fought all night at Niuheliang, killing or wounding over a hundred Japanese and puppet troops before withdrawing."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "热河沦陷 热河抗战",
+        "author": "抗日战争纪念网/抗战图书馆 2018-05-23",
+        "note": "地方史，访问 2026-11-22"
+      },
+      {
+        "title": "日军侵占热河南部朝阳",
+        "author": "抗日战争纪念网 2017-05-11",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "lingnan-fall-1933-02",
+      "pingquan-fall-1933-03"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "pingquan-fall-1933-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "平泉沦陷",
+      "en": "Fall of Pingquan"
+    },
+    "date": "1933-03-03",
+    "location": {
+      "lng": 118.7,
+      "lat": 41.02,
+      "place": {
+        "zh": "热河平泉",
+        "en": "Pingquan, Rehe"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1933年3月3日，日军占领平泉。",
+      "en": "On 3 March 1933 the Japanese occupied Pingquan."
+    },
+    "description": {
+      "zh": "1933年3月3日，日军占领平泉，承德以东各地相继失守。平泉为朝阳、凌源至承德公路上的要地，失守后日军直逼热河省会承德。日期据《中国人民抗日战争——热河》与《热河战役》。",
+      "en": "On 3 March 1933 the Japanese occupied Pingquan and the positions east of Chengde collapsed in succession. Pingquan was a key point on the Chaoyang–Lingyuan–Chengde road, and its fall brought the Japanese to the approaches of the provincial capital."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国人民抗日战争——热河",
+        "author": "国防云/抗日战争纪念网 2020-09-12",
+        "note": "战史，访问 2026-11-22"
+      },
+      {
+        "title": "热河战役",
+        "author": "抗日战争纪念网 2018-10-01",
+        "note": "战史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "lingyuan-fall-1933-03",
+      "chengde-fall-1933-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "linxi-fall-1933-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "林西失守",
+      "en": "Fall of Linxi"
+    },
+    "date": "1933-03-06",
+    "location": {
+      "lng": 118.05,
+      "lat": 43.61,
+      "place": {
+        "zh": "热河林西",
+        "en": "Linxi, Rehe"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1933年3月6日，日军攻占林西，热北防线崩溃。",
+      "en": "On 6 March 1933 the Japanese took Linxi and the northern Rehe defence line collapsed."
+    },
+    "description": {
+      "zh": "1933年3月2日，日军进攻林东，东北军崔兴五旅投降；6日日军攻占林西，中国守军热北防线全线崩溃。另有3月4日林西被侵占之说，见研究笔记。日期据《中国人民抗日战争——热河》，异说据《热河沦陷 热河抗战》。",
+      "en": "On 2 March 1933 the Japanese attacked Lindong and Cui Xingwu’s Northeastern Army brigade surrendered; on the 6th the Japanese took Linxi and the northern Rehe defence line collapsed. Some sources give 4 March."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "中国人民抗日战争——热河",
+        "author": "国防云/抗日战争纪念网 2020-09-12",
+        "note": "战史，访问 2026-11-22"
+      },
+      {
+        "title": "热河沦陷 热河抗战",
+        "author": "抗日战争纪念网/抗战图书馆 2018-05-23",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "chifeng-fall-1933-03"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "weichang-fall-1933-03",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "围场失守",
+      "en": "Fall of Weichang"
+    },
+    "date": "1933-03-08",
+    "location": {
+      "lng": 117.76,
+      "lat": 41.94,
+      "place": {
+        "zh": "热河围场",
+        "en": "Weichang, Rehe"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1933年3月8日，日军侵占围场。",
+      "en": "On 8 March 1933 the Japanese occupied Weichang."
+    },
+    "description": {
+      "zh": "1933年3月8日，日军侵占围场，同日青龙（包括宽城）亦被侵占。孙殿英部在赤峰二道河子一线抵抗至3月8日下午，防线被日军突破后向围场转移。另有3月10日攻占围场之说，见研究笔记。日期据《热河沦陷 热河抗战》，异说据《热河战役》。",
+      "en": "On 8 March 1933 the Japanese occupied Weichang, and Qinglong (including Kuancheng) fell the same day. Sun Dianying’s troops held the Erdaohezi line near Chifeng until the afternoon of the 8th, when the line was broken and they fell back toward Weichang. Some sources give 10 March."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "热河沦陷 热河抗战",
+        "author": "抗日战争纪念网/抗战图书馆 2018-05-23",
+        "note": "地方史，访问 2026-11-22"
+      },
+      {
+        "title": "热河战役",
+        "author": "抗日战争纪念网 2018-10-01",
+        "note": "战史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "chifeng-fall-1933-03"
+    ],
+    "importance": 2
   }
 ]

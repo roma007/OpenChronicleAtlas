@@ -4070,6 +4070,52 @@
       "heilongjiang",
       "county-heilongjiang-u80eau6ee8u53bf",
       "place-heilongjiang-u6ee1u6d32u91cc"
+    ],
+    "beipiao-fall-1933-02": [
+      "rehe",
+      "county-rehe-u671du9633u53bf",
+      "place-rehe-u5317u7968"
+    ],
+    "kailu-fall-1933-02": [
+      "rehe",
+      "county-rehe-u5f00u9c81u53bf"
+    ],
+    "chaoyang-fall-1933-02": [
+      "rehe",
+      "county-rehe-u671du9633u53bf"
+    ],
+    "xiawa-fall-1933-02": [
+      "rehe",
+      "place-rehe-u4e0bu6d3c"
+    ],
+    "lingnan-fall-1933-02": [
+      "rehe",
+      "county-rehe-u51ccu5357u53bf"
+    ],
+    "yebaishou-fall-1933-03": [
+      "rehe",
+      "county-rehe-u5efau5e73u53bf",
+      "place-rehe-u53f6u67cfu5bff"
+    ],
+    "chifeng-fall-1933-03": [
+      "rehe",
+      "county-rehe-u8d64u5cf0u53bf"
+    ],
+    "lingyuan-fall-1933-03": [
+      "rehe",
+      "county-rehe-u51ccu6e90u53bf"
+    ],
+    "pingquan-fall-1933-03": [
+      "rehe",
+      "county-rehe-u5e73u6cc9u53bf"
+    ],
+    "linxi-fall-1933-03": [
+      "rehe",
+      "county-rehe-u6797u897fu53bf"
+    ],
+    "weichang-fall-1933-03": [
+      "rehe",
+      "county-rehe-u56f4u573au53bf"
     ]
   },
   "routes": {
@@ -4990,6 +5036,7 @@
     "japanese-invasion:58": {
       "regionIds": [
         "county-liaoning-u9526u53bf",
+        "county-rehe-u5efau5e73u53bf",
         "liaoning",
         "rehe"
       ],
@@ -7563,6 +7610,58 @@
       ],
       "endpointRegionIds": [
         "heilongjiang"
+      ]
+    },
+    "japanese-invasion:336": {
+      "regionIds": [
+        "county-liaoning-u9526u53bf",
+        "county-rehe-u671du9633u53bf",
+        "liaoning",
+        "rehe"
+      ],
+      "endpointRegionIds": [
+        "rehe"
+      ]
+    },
+    "japanese-invasion:337": {
+      "regionIds": [
+        "rehe"
+      ],
+      "endpointRegionIds": [
+        "rehe"
+      ]
+    },
+    "japanese-invasion:338": {
+      "regionIds": [
+        "rehe"
+      ],
+      "endpointRegionIds": [
+        "rehe"
+      ]
+    },
+    "japanese-invasion:339": {
+      "regionIds": [
+        "county-rehe-u5efau5e73u53bf",
+        "rehe"
+      ],
+      "endpointRegionIds": [
+        "rehe"
+      ]
+    },
+    "japanese-invasion:340": {
+      "regionIds": [
+        "rehe"
+      ],
+      "endpointRegionIds": [
+        "rehe"
+      ]
+    },
+    "japanese-invasion:341": {
+      "regionIds": [
+        "rehe"
+      ],
+      "endpointRegionIds": [
+        "rehe"
       ]
     },
     "kmt-forces:1": {
