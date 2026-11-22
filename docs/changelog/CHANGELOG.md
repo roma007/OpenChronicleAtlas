@@ -3,6 +3,24 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.238] - 2026-11-22
+
+### Fixed
+- **抗日战争 · 海外事件坐标符号修正（M256）**：两处漏写西经负号。
+  - 「美国租借法案援华」（1941-03-11）`lng` **77.04 → -77.04**。原值落点在新疆喀什—阿图什一带，
+    地图上因此出现一个「美国租借法案」节点；史实上该事件发生在华盛顿，与新疆无关。
+  - 「珍珠港事件」（1941-12-01）`lng` **157.86 → -157.86**，原值落在太平洋中部。
+  - 两条均 `routeEvent: false`，不参与路线端点与距离校验。
+- 新增排查记录 `docs/research/units/anti-japanese-war-coordinate-fix.md`（含全专题扫描方法）。
+
+### Verify
+- 事件 **1026**、路线 **563**、地区 **862** 均不变，仅坐标改变。
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.237] - 2026-11-22
 
 ### Changed
