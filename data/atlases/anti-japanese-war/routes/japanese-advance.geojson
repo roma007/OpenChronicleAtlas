@@ -14554,6 +14554,82 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111,
+            35.03
+          ],
+          [
+            110.6,
+            34.95
+          ],
+          [
+            110.32,
+            34.84
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-08-08",
+        "endDate": "1938-08-17",
+        "order": 377,
+        "segmentType": "advance",
+        "name": {
+          "zh": "运城—永济（永济保卫战）",
+          "en": "Yuncheng–Yongji (battle of Yongji)"
+        },
+        "description": {
+          "zh": "1938年8月8日至17日，日军第20师团自运城分三路进攻永济，攻陷蒲州城。路线为示意简化。",
+          "en": "From 8 to 17 August 1938 the Japanese 20th Division attacked Yongji from Yuncheng in three columns and took the walled town of Puzhou. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111,
+            35.03
+          ],
+          [
+            111.15,
+            34.95
+          ],
+          [
+            111.22,
+            34.83
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1939-06-06",
+        "endDate": "1939-06-08",
+        "order": 378,
+        "segmentType": "advance",
+        "name": {
+          "zh": "运城—张店—平陆",
+          "en": "Yuncheng–Zhangdian–Pinglu"
+        },
+        "description": {
+          "zh": "1939年6月6日至8日，日军第20师团自运城经张店南下，攻陷平陆县城。路线为示意简化。",
+          "en": "From 6 to 8 June 1939 the Japanese 20th Division advanced south from Yuncheng via Zhangdian and took Pinglu. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

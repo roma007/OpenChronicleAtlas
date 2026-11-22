@@ -4380,6 +4380,14 @@
     "yancheng-fall-1944-05": [
       "henan",
       "county-henan-u90feu57ceu53bf"
+    ],
+    "yongji-fall-1938-08": [
+      "shanxi",
+      "county-shanxi-u6c38u6d4eu53bf"
+    ],
+    "pinglu-fall-1939-06": [
+      "shanxi",
+      "county-shanxi-u5e73u9646u53bf"
     ]
   },
   "routes": {
@@ -8196,6 +8204,24 @@
       ],
       "endpointRegionIds": [
         "henan"
+      ]
+    },
+    "japanese-invasion:377": {
+      "regionIds": [
+        "county-shanxi-u5b89u9091u53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
+      ]
+    },
+    "japanese-invasion:378": {
+      "regionIds": [
+        "county-shanxi-u5b89u9091u53bf",
+        "shanxi"
+      ],
+      "endpointRegionIds": [
+        "shanxi"
       ]
     },
     "kmt-forces:1": {

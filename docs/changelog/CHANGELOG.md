@@ -3,6 +3,30 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.228] - 2026-11-22
+
+### Added
+- **抗日战争 · 山西永济/平陆补录（M246）**：新增 2 个事件、2 段路线。
+  - 永济 1938-08-17（永济保卫战；1938-03-06 首次占领作背景）、
+    平陆 1939-06-08（六六战役，06-11 恢复）。
+  - 路线（2 段，#377—#378）：运城—永济、运城—张店—平陆。
+  - 专题：1012 → **1014** 事件、552 → **554** 段路线；日军层：764 → **766** 事件、
+    373 → **375** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-shanxi-yongji-pinglu.md`、
+  计划 `docs/plans/2026-11-22-M246-山西永济平陆补录-plan.md`。
+
+### Changed
+- `scripts/build-region-data.py`：增加永济（含蒲州）映射。
+- `regions.json` / `region-index.json`：地区 849 → **850**，1014 个事件全部有省 + 县归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 芮城、风陵渡（渡口而非县城）、盂县 12-16 首次侵入继续待考。
+
+---
+
 ## [v1.0.227] - 2026-11-22
 
 ### Added
