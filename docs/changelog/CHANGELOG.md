@@ -3,6 +3,25 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.237] - 2026-11-22
+
+### Changed
+- **抗日战争 · 路线描述统一改写（M255）**：质量批次，不改几何、不改日期、不改类型。
+  - 46 段只有「示意简化路线，待史料校订。」占位语的路线，全部改写为
+    「起止日期 + 主要经过（引用本专题已考证事件）+ 示意说明」。
+  - 战役总览线注明「本段为战役总览，非单次行动」；#48 注明防御线、#64 注明运输线。
+  - 带「待史料校订 / 待页码核对」字样的路线 **46 → 0**。
+  - 事件 1026 / 路线 563 / 地区 862 均不变。
+- 新增逐段对照表 `docs/research/units/anti-japanese-war-route-descriptions.md`、
+  计划 `docs/plans/2026-11-22-M255-路线描述统一改写-plan.md`。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.236] - 2026-11-22
 
 ### Changed
