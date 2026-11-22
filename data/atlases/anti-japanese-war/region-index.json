@@ -4259,6 +4259,26 @@
     "jiaocheng-fall-1937-11": [
       "shanxi",
       "county-shanxi-u4ea4u57ceu53bf"
+    ],
+    "xiuwu-fall-1938-02": [
+      "henan",
+      "county-henan-u4feeu6b66u53bf"
+    ],
+    "boai-fall-1938-02": [
+      "henan",
+      "county-henan-u535au7231u53bf"
+    ],
+    "qinyang-fall-1938-02": [
+      "henan",
+      "county-henan-u6c81u9633u53bf"
+    ],
+    "mengxian-fall-1938-02": [
+      "henan",
+      "county-henan-u5b5fu53bf"
+    ],
+    "huixian-fall-1938-02": [
+      "henan",
+      "county-henan-u8f89u53bf"
     ]
   },
   "routes": {
@@ -7871,6 +7891,14 @@
       ],
       "endpointRegionIds": [
         "shanxi"
+      ]
+    },
+    "japanese-invasion:352": {
+      "regionIds": [
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
       ]
     },
     "kmt-forces:1": {

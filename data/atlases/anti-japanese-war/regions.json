@@ -14959,7 +14959,7 @@
         "pointSource": "event-average"
       },
       "point": [
-        113.24,
+        113.345,
         35.22
       ]
     },
@@ -20057,6 +20057,94 @@
       "point": [
         112.16,
         37.55
+      ]
+    },
+    {
+      "id": "county-henan-u535au7231u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "博爱县"
+      },
+      "shortName": {
+        "zh": "博爱"
+      },
+      "aliases": [
+        "博爱"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.07,
+        35.17
+      ]
+    },
+    {
+      "id": "county-henan-u6c81u9633u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "沁阳县"
+      },
+      "shortName": {
+        "zh": "沁阳"
+      },
+      "aliases": [
+        "沁阳"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.95,
+        35.09
+      ]
+    },
+    {
+      "id": "county-henan-u5b5fu53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "孟县"
+      },
+      "shortName": {
+        "zh": "孟"
+      },
+      "aliases": [
+        "孟"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        112.79,
+        34.91
+      ]
+    },
+    {
+      "id": "county-henan-u8f89u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "辉县"
+      },
+      "shortName": {
+        "zh": "辉"
+      },
+      "aliases": [
+        "辉"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.8,
+        35.46
       ]
     }
   ]

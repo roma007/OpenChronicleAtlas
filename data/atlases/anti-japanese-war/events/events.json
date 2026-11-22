@@ -49376,5 +49376,240 @@
       "japanese-taiyuan-1937-11"
     ],
     "importance": 2
+  },
+  {
+    "id": "xiuwu-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "修武沦陷",
+      "en": "Fall of Xiuwu"
+    },
+    "date": "1938-02-18",
+    "location": {
+      "lng": 113.45,
+      "lat": 35.22,
+      "place": {
+        "zh": "河南修武",
+        "en": "Xiuwu, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月18日，日军坂西联队攻陷修武县城。",
+      "en": "On 18 February 1938 the Japanese Sakanishi regiment captured Xiuwu."
+    },
+    "description": {
+      "zh": "1938年2月18日午后八时三十分，日军坂西联队攻陷修武县城，随后与县城以北的酒井部队继续西进，进犯焦作镇。修武失守使道清铁路西段门户洞开。日期据《河南惨案》与《沦陷时期日军对焦作煤矿的霸占掠夺》；郭廷以《中华民国史事日志》记2月19日陷修武，异说并存。",
+      "en": "At about 8:30 p.m. on 18 February 1938 the Japanese Sakanishi regiment captured Xiuwu, then advanced west with the Sakai unit north of the county town toward Jiaozuo. The fall of Xiuwu opened the western Daqing railway. Guo Tingyi’s chronology gives 19 February."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "河南惨案",
+        "author": "抗日战争纪念网",
+        "note": "惨案资料，访问 2026-11-22"
+      },
+      {
+        "title": "沦陷时期日军对焦作煤矿的霸占掠夺",
+        "author": "网易号 2023",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "jiaozuo-fall-1938-02",
+      "boai-fall-1938-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "boai-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "博爱沦陷",
+      "en": "Fall of Bo’ai"
+    },
+    "date": "1938-02-20",
+    "location": {
+      "lng": 113.07,
+      "lat": 35.17,
+      "place": {
+        "zh": "河南博爱",
+        "en": "Bo’ai, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月20日正午，日军占领博爱（清化镇）。",
+      "en": "At noon on 20 February 1938 the Japanese occupied Bo’ai (Qinghua)."
+    },
+    "description": {
+      "zh": "1938年2月20日正午，日军土肥原第14师团远山登步兵第50联队、今田俊夫战车队占领博爱（清化镇）；十四时，石黑、森田、东乡等部相继入城。博爱是道清铁路终点站，失守后日军控制豫北煤炭外运枢纽。日期据《河南惨案》与《日军在博爱（清化镇）实施的三项计划》。",
+      "en": "At noon on 20 February 1938 the Toyama Noboru 50th Infantry Regiment and Imada Toshio tank unit of the Japanese 14th Division under Doihara occupied Bo’ai (Qinghua); by 2 p.m. the Ishiguro, Morita and Tōgō units had also entered. Bo’ai was the terminus of the Daqing railway, and its fall gave Japan the coal-export hub of northern Henan."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "河南惨案",
+        "author": "抗日战争纪念网",
+        "note": "惨案资料，访问 2026-11-22"
+      },
+      {
+        "title": "日军在博爱（清化镇）实施的三项计划，件件用心险恶",
+        "author": "网易号 2023",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "xiuwu-fall-1938-02",
+      "qinyang-fall-1938-02"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "qinyang-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "沁阳沦陷",
+      "en": "Fall of Qinyang"
+    },
+    "date": "1938-02-22",
+    "location": {
+      "lng": 112.95,
+      "lat": 35.09,
+      "place": {
+        "zh": "河南沁阳",
+        "en": "Qinyang, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月22日，日军道清线部队攻陷沁阳。",
+      "en": "On 22 February 1938 the Japanese Daqing railway force captured Qinyang."
+    },
+    "description": {
+      "zh": "1938年2月22日，日军道清线部队攻陷沁阳、孟县。沁阳为豫北重镇，失守后日军继续西犯济源、南犯孟县。日期据郭廷以《中华民国史事日志》与《河南惨案》；后者只记2月20日至3月5日“相继攻陷博爱、沁阳、武陟、孟县、温县”，未列逐日。",
+      "en": "On 22 February 1938 the Japanese force along the Daqing railway captured Qinyang and Mengxian. Qinyang was a key town of northern Henan; after its fall the Japanese continued west toward Jiyuan and south toward Mengxian. The date follows Guo Tingyi’s chronology and the Henan atrocity compilation; the latter gives only a 20 February–5 March range."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郭廷以：中华民国史事日志（1938年）",
+        "author": "郭廷以/近代中国网 2019-05-09",
+        "note": "史事日志，访问 2026-11-22"
+      },
+      {
+        "title": "河南惨案",
+        "author": "抗日战争纪念网",
+        "note": "惨案资料，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "boai-fall-1938-02",
+      "mengxian-fall-1938-02"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "mengxian-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "孟县沦陷",
+      "en": "Fall of Mengxian"
+    },
+    "date": "1938-02-22",
+    "location": {
+      "lng": 112.79,
+      "lat": 34.91,
+      "place": {
+        "zh": "河南孟县",
+        "en": "Mengxian, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月22日，日军攻陷孟县。",
+      "en": "On 22 February 1938 the Japanese captured Mengxian."
+    },
+    "description": {
+      "zh": "1938年2月22日，日军攻陷孟县。孟县位于黄河北岸，失守后日军控制黄河渡口，威胁豫西。日期据郭廷以《中华民国史事日志》与红色文化网《有组织VS没组织》。",
+      "en": "On 22 February 1938 the Japanese captured Mengxian on the north bank of the Yellow River, gaining control of the river crossings and threatening western Henan. The date follows Guo Tingyi’s chronology and the Hongse Wenhua network account."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郭廷以：中华民国史事日志（1938年）",
+        "author": "郭廷以/近代中国网 2019-05-09",
+        "note": "史事日志，访问 2026-11-22"
+      },
+      {
+        "title": "有组织VS没组织：从一场日伪制造屠杀惨案看国共抗日的区别",
+        "author": "红色文化网 2024-03-25",
+        "note": "地方史，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "qinyang-fall-1938-02",
+      "jiaozuo-fall-1938-02"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "huixian-fall-1938-02",
+    "atlasId": "anti-japanese-war",
+    "name": {
+      "zh": "辉县沦陷",
+      "en": "Fall of Huixian"
+    },
+    "date": "1938-02-17",
+    "location": {
+      "lng": 113.8,
+      "lat": 35.46,
+      "place": {
+        "zh": "河南辉县",
+        "en": "Huixian, Henan"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1938年2月17日，日军攻陷辉县。",
+      "en": "On 17 February 1938 the Japanese captured Huixian."
+    },
+    "description": {
+      "zh": "1938年2月17日，日军攻陷辉县，中国军队退往黄河南岸并炸毁黄河铁桥。新乡抗战资料另记2月16日新乡、辉县同日沦陷，异说并存。日期据郭廷以《中华民国史事日志》与《新乡抗战·惨案》。",
+      "en": "On 17 February 1938 the Japanese captured Huixian; Chinese troops withdrew to the south bank of the Yellow River and blew up the railway bridge. Newxiang sources give 16 February for the fall of both Xinxiang and Huixian. The date follows Guo Tingyi’s chronology and the Xinxiang atrocity compilation."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "郭廷以：中华民国史事日志（1938年）",
+        "author": "郭廷以/近代中国网 2019-05-09",
+        "note": "史事日志，访问 2026-11-22"
+      },
+      {
+        "title": "新乡抗战·惨案—日军罪恶滔天：新乡直接间接伤亡72万人",
+        "author": "抗日战争纪念网",
+        "note": "惨案资料，访问 2026-11-22"
+      }
+    ],
+    "relatedIds": [
+      "xinxiang-fall-1938-02",
+      "jiaozuo-fall-1938-02"
+    ],
+    "importance": 2
   }
 ]

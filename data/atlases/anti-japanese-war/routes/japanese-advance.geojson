@@ -13620,6 +13620,40 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.88,
+            35.3
+          ],
+          [
+            113.8,
+            35.46
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-02-16",
+        "endDate": "1938-02-17",
+        "order": 352,
+        "segmentType": "advance",
+        "name": {
+          "zh": "新乡—辉县",
+          "en": "Xinxiang–Huixian"
+        },
+        "description": {
+          "zh": "1938年2月16日至17日，日军自新乡进攻辉县。路线为示意简化。",
+          "en": "From 16 to 17 February 1938 the Japanese advanced from Xinxiang to Huixian. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
