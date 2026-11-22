@@ -13575,8 +13575,8 @@
       "en": "After the Pacific War began, the Chinese government formally declared war on Japan, Germany, and Italy."
     },
     "description": {
-      "zh": "1941 年 12 月 9 日，中国国民政府对日本、德国、意大利正式宣战，并宣布与三国所订一切条约、协定、合同一律废止。中国抗战由此更紧密地融入世界反法西斯同盟。\n\n本事件为政治事件，不绘制路线；日期与表述待史料校订。",
-      "en": "On 9 December 1941, the Chinese National Government formally declared war on Japan, Germany, and Italy and annulled all treaties, agreements, and contracts with them. China’s resistance became more closely integrated into the global anti-fascist alliance.\n\nThis is a political event with no route drawn; dates and wording await historical review."
+      "zh": "1941 年 12 月 9 日，中国国民政府对日本、德国、意大利正式宣战，并宣布与三国所订一切条约、协定、合同一律废止——其中包括 1895 年《马关条约》，从法律上否定日本对台湾、澎湖的占领。中国抗战由此更紧密地融入世界反法西斯同盟。\n\n本事件为政治事件，不绘制路线；日期与表述待史料校订。",
+      "en": "On 9 December 1941 the Chinese National Government declared war on Japan, Germany and Italy and abrogated all treaties, agreements and contracts concluded with them, including the 1895 Treaty of Shimonoseki, thereby denying in law Japan's occupation of Taiwan and the Penghu Islands. China's war effort became part of the wider Allied cause.\n\nThis is a political event with no route drawn; dates and wording await archival review."
     },
     "images": [],
     "sources": [
@@ -13591,6 +13591,11 @@
         "author": "张宪文等",
         "year": 2001,
         "note": "宣战经过参考"
+      },
+      {
+        "title": "《中华民国政府对日宣战布告》",
+        "author": "中华民国国民政府",
+        "note": "1941-12-09，宣布废止中日间一切条约"
       }
     ],
     "relatedIds": [
@@ -23366,8 +23371,8 @@
       "en": "The Taiwan surrender ceremony of the China Theater was held in Taipei, and Taiwan returned to China."
     },
     "description": {
-      "zh": "1945 年 10 月 25 日，中国战区台湾省受降仪式在台北举行，日本台湾总督安藤利吉向中国代表陈仪投降，台湾及澎湖列岛回归中国。日期为通行说法，待页码级核对。本事件为受降事件，不绘路线。",
-      "en": "On 25 October 1945 the China Theater’s Taiwan surrender ceremony was held in Taipei. Japanese governor-general Rikichi Andō surrendered to Chinese representative Chen Yi, and Taiwan and the Penghu Islands returned to China. The date follows conventional accounts and awaits page-level verification. As a surrender event, it is not drawn as a route."
+      "zh": "1945 年 10 月 25 日，中国战区台湾省受降仪式在台北举行，日本台湾总督安藤利吉向中国代表陈仪投降，台湾及澎湖列岛回归中国。\n\n法理链条：1895 年《马关条约》割让台湾、澎湖予日本；1941 年 12 月 9 日中国对日宣战并废止中日间一切条约；1943 年《开罗宣言》规定日本所窃取的中国领土（东北、台湾、澎湖列岛等）必须归还中国；1945 年《波茨坦公告》重申《开罗宣言》条款必须实施。抗战期间台湾虽处于日本殖民统治之下，中国从未放弃主权。\n\n本事件为受降事件，不绘路线。",
+      "en": "On 25 October 1945 the surrender ceremony for Taiwan was held in Taipei: Japanese Governor-General Andō Rikichi surrendered to the Chinese representative Chen Yi, and Taiwan and the Penghu Islands returned to China.\n\nThe legal chain: the Treaty of Shimonoseki ceded Taiwan and the Penghu Islands to Japan in 1895; on 9 December 1941 China declared war on Japan and abrogated all Sino-Japanese treaties; the 1943 Cairo Declaration stipulated that territories Japan had stolen from China, including Manchuria, Taiwan and the Penghu Islands, must be restored; the 1945 Potsdam Proclamation reaffirmed that the Cairo terms must be carried out. Although Taiwan was under Japanese colonial rule during the war, China never renounced sovereignty.\n\nThis is a surrender event with no route drawn."
     },
     "images": [],
     "sources": [
@@ -23382,9 +23387,21 @@
         "author": "中央档案馆等编",
         "year": 1995,
         "note": "事件背景参考，待页码级核对"
+      },
+      {
+        "title": "《开罗宣言》",
+        "author": "中、美、英三国政府",
+        "note": "1943-12-01，规定日本所窃取的中国领土必须归还中国"
+      },
+      {
+        "title": "《波茨坦公告》",
+        "author": "中、美、英三国政府（后苏联加入）",
+        "note": "1945-07-26，第八条重申《开罗宣言》条款必须实施"
       }
     ],
-    "relatedIds": [],
+    "relatedIds": [
+      "china-declares-war-1941-12"
+    ],
     "importance": 3,
     "extensions": {
       "routeEvent": false

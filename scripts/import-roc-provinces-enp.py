@@ -176,6 +176,12 @@ def main() -> None:
         "1928": load_layer(src / "Prov_1928_1945" / "1928_1945.shp", "p_28_45_nz"),
         "1945": load_layer(src / "Prov_1945_1946" / "1945_1946.shp", "p_45_46_nz"),
     }
+    # 1895—1945 台湾处于日本殖民统治，《马关条约》割让；中国从未放弃主权。
+    # 源数据的 1928—1945 层不含台湾，这里用 1945 层的台湾几何补到早期各帧，
+    # 单列标注「日占时期（中国领土）」，避免地图上出现「台湾不属于中国」的误读。
+    if "台灣" in layers["1945"] and "台灣" not in layers["1928"]:
+        layers["1928"]["台灣"] = layers["1945"]["台灣"]
+
     for key, layer in layers.items():
         print(f"{key}: {len(layer)} provinces")
 
@@ -191,7 +197,24 @@ def main() -> None:
                 continue
             region_id, province_zh, label_zh, today = meta
             # 西康 1939-01-01 建省；此前称「西康特别行政区」
-            if region_id == "xikang" and end < "1939-01-01":
+            taiwan_status = ""
+            if region_id == "taiwan":
+                if end <= "1944-12-31":
+                    display_zh = "台湾（日占时期，中国领土）"
+                    status_zh = (
+                        "1895 年《马关条约》割让日本，抗战期间处于日本殖民统治之下；"
+                        "1941-12-09 中国对日宣战并废止中日间一切条约，1943 年《开罗宣言》与 1945 年《波茨坦公告》"
+                        "确认台湾、澎湖归还中国，1945-10-25 台北受降后光复。本帧不表示台湾不属于中国。"
+                    )
+                    taiwan_status = "japanese-occupied"
+                else:
+                    display_zh = "台湾省（1945 光复）"
+                    status_zh = (
+                        "1945 年 10 月 25 日中国战区台湾省受降仪式在台北举行，台湾及澎湖列岛回归中国。"
+                        "依据 1943 年《开罗宣言》与 1945 年《波茨坦公告》，日本所窃取的中国领土必须归还中国。"
+                    )
+                    taiwan_status = "restored"
+            elif region_id == "xikang" and end < "1939-01-01":
                 display_zh = "西康特别行政区"
                 status_zh = "1939-01-01 建省前，时为西康特别行政区"
             else:
@@ -222,7 +245,21 @@ def main() -> None:
                     "today": today,
                 },
             }
-            if status_zh:
+            if taiwan_status:
+                props["extensions"]["status"] = taiwan_status
+            if region_id == "taiwan":
+                props["description"] = {
+                    "zh": status_zh,
+                    "en": (
+                        "Ceded to Japan by the Treaty of Shimonoseki in 1895 and under Japanese colonial rule during the war; "
+                        "China never renounced sovereignty, declared war on Japan on 9 December 1941 and abrogated all Sino-Japanese treaties, "
+                        "and the 1943 Cairo Declaration and 1945 Potsdam Proclamation confirmed the return of Taiwan and the Penghu Islands to China, "
+                        "formally restored at the Taipei surrender ceremony on 25 October 1945. This frame does not imply that Taiwan was not part of China."
+                        if end <= "1944-12-31"
+                        else "Restored to China on 25 October 1945 at the Taipei surrender ceremony, under the Cairo Declaration and Potsdam Proclamation."
+                    ),
+                }
+            elif status_zh:
                 props["description"] = {"zh": status_zh + "。", "en": (
                     "Xikang was a special administrative district until it became a province on 1 January 1939."
                     if end >= "1939-01-01"

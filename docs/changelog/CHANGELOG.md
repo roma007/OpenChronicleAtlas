@@ -3,6 +3,27 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.240] - 2026-11-22
+
+### Fixed
+- **抗日战争 · 台湾法理地位入图（M258）**：源数据 1928—1945 层不含台湾（1895—1945 年日本殖民统治），
+  若照搬会让 1931—1944 四帧的台湾成为空白，容易被误读为「台湾不属于中国」。
+  - 四张早期帧补绘台湾（几何取自 1945 层，岛形未变），标「台湾（日占时期，中国领土）」，
+    `extensions.status = "japanese-occupied"`；1945 帧标「台湾省（1945 光复）」，`status = "restored"`。
+  - 省界要素 146 → **150**（5 帧 × 30 省）。
+- **两条事件的法理表述补强**：
+  - `china-declares-war-1941-12` 增写「废止《马关条约》等一切中日条约，从法律上否定日本对台湾、澎湖的占领」，
+    并补来源《中华民国政府对日宣战布告》。
+  - `taiwan-retrocession-1945-10` 增写法理链（1895《马关条约》→1941 宣战废约→1943《开罗宣言》→
+    1945《波茨坦公告》→1945-10-25 台北受降），补来源《开罗宣言》《波茨坦公告》。
+
+### Verify
+- 事件 **1026**、路线 **563**、地区 **862** 不变。
+- `pnpm validate:data`、`pnpm check:routes`（0 问题）、`pnpm check:heads`（0 个无来由端点）、
+  `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.239] - 2026-11-22
 
 ### Fixed
