@@ -1955,44 +1955,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            98.69,
-            24.59
-          ],
-          [
-            98.6,
-            24.8
-          ],
-          [
-            98.49,
-            25.02
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "japanese-invasion",
-        "startDate": "1944-06-25",
-        "endDate": "1944-09-14",
-        "order": 51,
-        "segmentType": "defense",
-        "name": {
-          "zh": "龙陵—腾冲",
-          "en": "Longling–Tengchong"
-        },
-        "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             110.29,
             25.27
           ],
@@ -7607,44 +7569,6 @@
             29.87
           ],
           [
-            121.65,
-            29.92
-          ],
-          [
-            121.72,
-            29.95
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "japanese-invasion",
-        "startDate": "1941-04-19",
-        "endDate": "1941-04-19",
-        "order": 193,
-        "segmentType": "advance",
-        "name": {
-          "zh": "宁波—镇海",
-          "en": "Ningbo–Zhenhai"
-        },
-        "description": {
-          "zh": "1941年4月19日，日军攻陷镇海。路线为示意简化。",
-          "en": "On 19 April 1941 Japanese forces captured Zhenhai. The route is schematic."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            121.55,
-            29.87
-          ],
-          [
             121.48,
             29.75
           ],
@@ -7667,44 +7591,6 @@
         "description": {
           "zh": "1941年4月23日，日军由宁波南下，攻陷奉化。路线为示意简化。",
           "en": "On 23 April 1941 Japanese forces moved south from Ningbo and captured Fenghua. The route is schematic."
-        },
-        "extensions": {
-          "precision": "schematic"
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            120.65,
-            27.78
-          ],
-          [
-            120.68,
-            27.9
-          ],
-          [
-            120.7,
-            28
-          ]
-        ]
-      },
-      "properties": {
-        "entityId": "japanese-invasion",
-        "startDate": "1941-04-18",
-        "endDate": "1941-04-19",
-        "order": 195,
-        "segmentType": "advance",
-        "name": {
-          "zh": "瑞安—温州",
-          "en": "Ruian–Wenzhou"
-        },
-        "description": {
-          "zh": "1941年4月18日瑞安失守后，日军次日分兵奔袭温州城区。路线为示意简化。",
-          "en": "After Ruian fell on 18 April 1941, Japanese forces moved on Wenzhou the next day. The route is schematic."
         },
         "extensions": {
           "precision": "schematic"

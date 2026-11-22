@@ -3,6 +3,33 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.214] - 2026-11-22
+
+### Fixed
+- **抗日战争 · 全量复核（M232）**：对 967 个事件、338 段日军路线做全量结构审计。
+  - `manifest.timeRange.end` 由 `1945-10-25` 修正为 `1945-12-27`，
+    覆盖山东受降 `shandong-surrender-1945-12`。
+  - 删除 3 段重复路线：#51 龙陵—腾冲（与 #306 反向同线）、
+    #193 宁波—镇海（与 #75 反向同线）、#195 瑞安—温州（与 #76 完全同线）。
+    日军路线 341 → **338**，专题路线 520 → **517**。
+  - 台湾光复、马鞍山保卫战、镇海沦陷与收复、东山保卫战、武冈保卫战 5 条
+    补挂中国一方实体（`kmt-forces` / `eighth-route-army`），并标 `routeEvent:false`。
+  - 清理 5 条同一事件内重复标题的第三来源；桂柳 4 条事件的同名来源加注作者区分。
+- 审计表 `docs/research/units/anti-japanese-war-audit-2026-11-22.md`、计划
+  `docs/plans/2026-11-22-M232-全量日期与主体复核-plan.md`。
+
+### Changed
+- **待考标注，不硬改**：7 条月级日期；211 条来源缺 `author`；25 条历史省籍与
+  1931 年手绘边界不一致；31 处路线 order 年份回跳；121 处端点附近异时事件。
+- 事件总数 967 不变，日军事件 719 不变，地区 807 不变，`routeEvent:false` 203 条。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.213] - 2026-11-22
 
 ### Added

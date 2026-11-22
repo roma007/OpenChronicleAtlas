@@ -22701,10 +22701,6 @@
         "author": "中央档案馆等编",
         "year": 1995,
         "note": "事件背景参考，待页码级核对"
-      },
-      {
-        "title": "《日本帝国主义侵华档案资料选编》",
-        "note": "1942 年浙赣细菌战，待页码级核对"
       }
     ],
     "relatedIds": [],
@@ -22957,10 +22953,6 @@
         "author": "中央档案馆等编",
         "year": 1995,
         "note": "事件背景参考，待页码级核对"
-      },
-      {
-        "title": "《中国抗日战争史》",
-        "note": "1944-06-19 长沙失守，待页码级核对"
       }
     ],
     "relatedIds": [],
@@ -23007,10 +22999,6 @@
         "author": "中央档案馆等编",
         "year": 1995,
         "note": "事件背景参考，待页码级核对"
-      },
-      {
-        "title": "《中国抗日战争史》",
-        "note": "1944-08-08 衡阳失守，待页码级核对"
       }
     ],
     "relatedIds": [],
@@ -23307,10 +23295,6 @@
         "author": "中央档案馆等编",
         "year": 1995,
         "note": "事件背景参考，待页码级核对"
-      },
-      {
-        "title": "《中国抗日战争史》",
-        "note": "1945-04-08 老河口机场失守，待页码级核对"
       }
     ],
     "relatedIds": [],
@@ -23333,7 +23317,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "投降",
     "summary": {
@@ -23357,10 +23342,6 @@
         "author": "中央档案馆等编",
         "year": 1995,
         "note": "事件背景参考，待页码级核对"
-      },
-      {
-        "title": "《中国抗日战争史》",
-        "note": "1945-10-25 台湾省受降与光复，待页码级核对"
       }
     ],
     "relatedIds": [],
@@ -32205,7 +32186,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "eighth-route-army"
     ],
     "category": "战斗",
     "summary": {
@@ -32652,7 +32634,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "军事",
     "summary": {
@@ -33814,7 +33797,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "战斗",
     "summary": {
@@ -33843,7 +33827,10 @@
       }
     ],
     "relatedIds": [],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "dongshan-second-attack-1939-08",
@@ -42153,7 +42140,8 @@
       }
     },
     "entityIds": [
-      "japanese-invasion"
+      "japanese-invasion",
+      "kmt-forces"
     ],
     "category": "军事",
     "summary": {
@@ -42182,7 +42170,10 @@
       "dongkou-fall-1945-04",
       "wuyang-fall-1945-04"
     ],
-    "importance": 3
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "wuyang-fall-1945-04",
@@ -42833,12 +42824,12 @@
     "images": [],
     "sources": [
       {
-        "title": "桂柳会战",
+        "title": "桂柳会战（维基百科）",
         "author": "维基百科",
         "note": "仅作交叉核对，访问 2026-11-21"
       },
       {
-        "title": "桂柳会战",
+        "title": "桂柳会战（桂系网）",
         "author": "桂系网/抗日战争纪念网 2015-06-15",
         "note": "战史，访问 2026-11-21"
       }
@@ -42881,12 +42872,12 @@
     "images": [],
     "sources": [
       {
-        "title": "桂柳会战",
+        "title": "桂柳会战（维基百科）",
         "author": "维基百科",
         "note": "仅作交叉核对，访问 2026-11-21"
       },
       {
-        "title": "桂柳会战",
+        "title": "桂柳会战（桂系网）",
         "author": "桂系网/抗日战争纪念网 2015-06-15",
         "note": "战史，访问 2026-11-21"
       }
@@ -42976,12 +42967,12 @@
     "images": [],
     "sources": [
       {
-        "title": "桂柳会战",
+        "title": "桂柳会战（维基百科）",
         "author": "维基百科",
         "note": "仅作交叉核对，访问 2026-11-21"
       },
       {
-        "title": "桂柳会战",
+        "title": "桂柳会战（桂系网）",
         "author": "桂系网/抗日战争纪念网 2015-06-15",
         "note": "战史，访问 2026-11-21"
       }
@@ -43023,12 +43014,12 @@
     "images": [],
     "sources": [
       {
-        "title": "桂柳会战",
+        "title": "桂柳会战（维基百科）",
         "author": "维基百科",
         "note": "仅作交叉核对，访问 2026-11-21"
       },
       {
-        "title": "桂柳会战",
+        "title": "桂柳会战（桂系网）",
         "author": "桂系网/抗日战争纪念网 2015-06-15",
         "note": "战史，访问 2026-11-21"
       }
