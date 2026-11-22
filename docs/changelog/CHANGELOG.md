@@ -3,6 +3,24 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.246] - 2026-11-22
+
+### Added
+- **抗日战争 · 空袭专题第二批（川东与川西北，M264）**：新增 5 个事件（均 `routeEvent: false`）。
+  - 奉节“六二八”（1939-06-28，27 架、129 弹）、巫山“七一二”（1939-07-12，18 架、61 弹）、
+    涪陵“七三一”（1940-07-31，18 架、161 弹）、松潘“六二三”（1941-06-23，27 架、80 余弹）、
+    宜宾“八一一”（1941-08-11，27 架、100 余弹）。
+  - 其中四条存在两套伤亡数字，正文并列并注明出处，不取单一数字。
+  - 事件 1041 → **1046**，地区 870 → **875**，路线 563 不变。
+- 研究笔记 `docs/research/units/anti-japanese-war-airraids-2.md`。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes`（0 问题）、`pnpm check:heads`（0 个无来由端点）、
+  `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 合江、隆昌、阆中、南川与重庆 8-09/8-18 因第二来源不足或口径未定，留待下一批。
+
+---
+
 ## [v1.0.245] - 2026-11-22
 
 ### Added

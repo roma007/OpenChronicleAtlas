@@ -21154,6 +21154,116 @@
         "sourcePlace": "云南祥云云南驿",
         "confidence": "medium"
       }
+    },
+    {
+      "id": "county-sichuan-u5949u8282u53bf",
+      "level": "county",
+      "parentId": "sichuan",
+      "name": {
+        "zh": "奉节县"
+      },
+      "shortName": {
+        "zh": "奉节"
+      },
+      "aliases": [
+        "奉节"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        109.46,
+        31.02
+      ]
+    },
+    {
+      "id": "county-sichuan-u5debu5c71u53bf",
+      "level": "county",
+      "parentId": "sichuan",
+      "name": {
+        "zh": "巫山县"
+      },
+      "shortName": {
+        "zh": "巫山"
+      },
+      "aliases": [
+        "巫山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        109.88,
+        31.07
+      ]
+    },
+    {
+      "id": "county-sichuan-u6daau9675u53bf",
+      "level": "county",
+      "parentId": "sichuan",
+      "name": {
+        "zh": "涪陵县"
+      },
+      "shortName": {
+        "zh": "涪陵"
+      },
+      "aliases": [
+        "涪陵"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        107.39,
+        29.7
+      ]
+    },
+    {
+      "id": "county-sichuan-u677eu6f58u53bf",
+      "level": "county",
+      "parentId": "sichuan",
+      "name": {
+        "zh": "松潘县"
+      },
+      "shortName": {
+        "zh": "松潘"
+      },
+      "aliases": [
+        "松潘"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        103.6,
+        32.65
+      ]
+    },
+    {
+      "id": "county-sichuan-u5b9cu5bbeu53bf",
+      "level": "county",
+      "parentId": "sichuan",
+      "name": {
+        "zh": "宜宾县"
+      },
+      "shortName": {
+        "zh": "宜宾"
+      },
+      "aliases": [
+        "宜宾"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        104.62,
+        28.77
+      ]
     }
   ]
 }
