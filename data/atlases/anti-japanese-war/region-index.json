@@ -4291,6 +4291,23 @@
     "yangwu-fall-1938-02": [
       "henan",
       "county-henan-u9633u6b66u53bf"
+    ],
+    "fangshan-fall-1937-09": [
+      "hebei",
+      "county-hebei-u623fu5c71u53bf"
+    ],
+    "liangxiang-fall-1937-09": [
+      "hebei",
+      "county-hebei-u826fu4e61u53bf"
+    ],
+    "liulihe-fall-1937-09": [
+      "hebei",
+      "county-hebei-u826fu4e61u53bf",
+      "place-hebei-u7409u7483u6cb3"
+    ],
+    "wenxian-fall-1938-03": [
+      "henan",
+      "county-henan-u6e29u53bf"
     ]
   },
   "routes": {
@@ -4484,6 +4501,7 @@
         "beiping",
         "county-hebei-u6613u53bf",
         "county-hebei-u6dbfu53bf",
+        "county-hebei-u826fu4e61u53bf",
         "county-hebei-u901au53bf",
         "hebei"
       ],
@@ -5507,6 +5525,7 @@
         "county-hebei-u6dbfu53bf",
         "county-hebei-u6e05u82d1u53bf",
         "county-hebei-u77f3u95e8u5e02",
+        "county-hebei-u826fu4e61u53bf",
         "hebei"
       ],
       "endpointRegionIds": [
@@ -6690,6 +6709,7 @@
         "county-hebei-u6dbfu53bf",
         "county-hebei-u6e05u82d1u53bf",
         "county-hebei-u77f3u95e8u5e02",
+        "county-hebei-u826fu4e61u53bf",
         "hebei"
       ],
       "endpointRegionIds": [
@@ -7820,6 +7840,7 @@
       "regionIds": [
         "beiping",
         "county-hebei-u6dbfu53bf",
+        "county-hebei-u826fu4e61u53bf",
         "hebei"
       ],
       "endpointRegionIds": [
@@ -7929,11 +7950,37 @@
         "henan"
       ]
     },
+    "japanese-invasion:355": {
+      "regionIds": [
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "japanese-invasion:356": {
+      "regionIds": [
+        "county-hebei-u826fu4e61u53bf",
+        "hebei"
+      ],
+      "endpointRegionIds": [
+        "hebei"
+      ]
+    },
+    "japanese-invasion:357": {
+      "regionIds": [
+        "henan"
+      ],
+      "endpointRegionIds": [
+        "henan"
+      ]
+    },
     "kmt-forces:1": {
       "regionIds": [
         "beiping",
         "county-hebei-u6dbfu53bf",
         "county-hebei-u6e05u82d1u53bf",
+        "county-hebei-u826fu4e61u53bf",
         "hebei"
       ],
       "endpointRegionIds": [

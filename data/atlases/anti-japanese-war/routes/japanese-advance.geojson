@@ -13726,6 +13726,108 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.14,
+            39.73
+          ],
+          [
+            115.99,
+            39.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-09-16",
+        "endDate": "1937-09-16",
+        "order": 355,
+        "segmentType": "advance",
+        "name": {
+          "zh": "良乡—房山",
+          "en": "Liangxiang–Fangshan"
+        },
+        "description": {
+          "zh": "1937年9月16日，日军同日侵占良乡、房山。路线为示意简化。",
+          "en": "On 16 September 1937 the Japanese occupied Liangxiang and Fangshan on the same day. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.14,
+            39.73
+          ],
+          [
+            116.03,
+            39.61
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1937-09-16",
+        "endDate": "1937-09-17",
+        "order": 356,
+        "segmentType": "advance",
+        "name": {
+          "zh": "良乡—琉璃河",
+          "en": "Liangxiang–Liulihe"
+        },
+        "description": {
+          "zh": "1937年9月16日至17日，日军自良乡方向进攻琉璃河。路线为示意简化。",
+          "en": "From 16 to 17 September 1937 the Japanese advanced from the Liangxiang direction to Liulihe. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.79,
+            34.91
+          ],
+          [
+            113.08,
+            34.94
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1938-02-22",
+        "endDate": "1938-03-05",
+        "order": 357,
+        "segmentType": "advance",
+        "name": {
+          "zh": "孟县—温县",
+          "en": "Mengxian–Wenxian"
+        },
+        "description": {
+          "zh": "1938年2月22日至3月5日，日军自孟县方向进攻温县。路线为示意简化。",
+          "en": "From 22 February to 5 March 1938 the Japanese advanced from the Mengxian direction to Wenxian. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

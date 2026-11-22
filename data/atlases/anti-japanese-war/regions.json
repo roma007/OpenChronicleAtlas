@@ -20212,6 +20212,99 @@
         113.94,
         35.05
       ]
+    },
+    {
+      "id": "county-hebei-u623fu5c71u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "房山县"
+      },
+      "shortName": {
+        "zh": "房山"
+      },
+      "aliases": [
+        "房山"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        115.99,
+        39.7
+      ]
+    },
+    {
+      "id": "county-hebei-u826fu4e61u53bf",
+      "level": "county",
+      "parentId": "hebei",
+      "name": {
+        "zh": "良乡县"
+      },
+      "shortName": {
+        "zh": "良乡"
+      },
+      "aliases": [
+        "良乡"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        116.085,
+        39.67
+      ]
+    },
+    {
+      "id": "place-hebei-u7409u7483u6cb3",
+      "level": "place",
+      "parentId": "county-hebei-u826fu4e61u53bf",
+      "name": {
+        "zh": "琉璃河"
+      },
+      "shortName": {
+        "zh": "琉璃河"
+      },
+      "aliases": [
+        "河北琉璃河",
+        "河北琉璃河"
+      ],
+      "modernName": {
+        "zh": "河北琉璃河"
+      },
+      "point": [
+        116.03,
+        39.61
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "河北琉璃河",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "county-henan-u6e29u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "温县"
+      },
+      "shortName": {
+        "zh": "温"
+      },
+      "aliases": [
+        "温"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        113.08,
+        34.94
+      ]
     }
   ]
 }

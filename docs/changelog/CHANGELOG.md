@@ -3,6 +3,29 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.221] - 2026-11-22
+
+### Added
+- **抗日战争 · 河北房山/良乡/琉璃河与河南温县补录（M239）**：新增 4 个事件、3 段路线。
+  - 房山 1937-09-16、良乡 1937-09-16、琉璃河 1937-09-17、温县 1938-03-05。
+  - 路线（3 段，#355—#357）：良乡—房山、良乡—琉璃河、孟县—温县。
+  - 专题：990 → **994** 事件、530 → **533** 段路线；日军层：742 → **746** 事件、
+    351 → **354** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-hebei-henan-final.md`、计划
+  `docs/plans/2026-11-22-M239-河北房山良乡琉璃河与河南温县补录-plan.md`。
+
+### Changed
+- `scripts/build-region-data.py`：增加房山、良乡、琉璃河、温县映射。
+- `regions.json` / `region-index.json`：地区 829 → **833**，994 个事件全部有省 + 县归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点）、`pnpm typecheck`、
+  `pnpm lint`、`pnpm test`、`pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 武陟仍只给 2-18—3-5 区间，继续待考；房山、良乡按 1937 年旧县名归属。
+
+---
+
 ## [v1.0.220] - 2026-11-22
 
 ### Added
