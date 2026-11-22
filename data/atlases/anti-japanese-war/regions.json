@@ -20789,6 +20789,50 @@
         117.5,
         40.42
       ]
+    },
+    {
+      "id": "county-henan-u7075u5b9du53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "灵宝县"
+      },
+      "shortName": {
+        "zh": "灵宝"
+      },
+      "aliases": [
+        "灵宝"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        110.89,
+        34.52
+      ]
+    },
+    {
+      "id": "county-henan-u960cu4e61u53bf",
+      "level": "county",
+      "parentId": "henan",
+      "name": {
+        "zh": "阌乡县"
+      },
+      "shortName": {
+        "zh": "阌乡"
+      },
+      "aliases": [
+        "阌乡"
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "pointSource": "event-average"
+      },
+      "point": [
+        110.62,
+        34.55
+      ]
     }
   ]
 }

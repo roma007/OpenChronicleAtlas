@@ -14820,6 +14820,48 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.75,
+            34.76
+          ],
+          [
+            111.1,
+            34.7
+          ],
+          [
+            110.89,
+            34.52
+          ],
+          [
+            110.62,
+            34.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "japanese-invasion",
+        "startDate": "1944-05-18",
+        "endDate": "1944-06-11",
+        "order": 384,
+        "segmentType": "advance",
+        "name": {
+          "zh": "渑池—陕县—灵宝—阌乡",
+          "en": "Mianchi–Shanzhou–Lingbao–Wenxiang"
+        },
+        "description": {
+          "zh": "1944年5月18日至6月11日，日军第1军自渑池西进占陕县，6月5日起以战车第3师团突破弘农河，连陷灵宝、阌乡。路线为示意简化。",
+          "en": "From 18 May to 11 June 1944 the Japanese First Army advanced west from Mianchi and took Shanzhou; from 5 June the 3rd Tank Division broke the Hongnong River line and took Lingbao and Wenxiang in succession. The route is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

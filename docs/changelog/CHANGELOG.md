@@ -3,6 +3,31 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.231] - 2026-11-22
+
+### Added
+- **抗日战争 · 河南灵宝/阌乡补录（M249）**：新增 2 个事件、1 段路线。
+  - 灵宝 1944-06-10（06-15 收复）、阌乡 1944-06-11（06-13 收复）。
+  - 路线（1 段，#384）：渑池—陕县—灵宝—阌乡。
+  - 专题：1019 → **1021** 事件、559 → **560** 段路线；日军层：771 → **773** 事件、
+    380 → **381** 段路线。
+- 研究笔记 `docs/research/units/anti-japanese-war-henan-lingbao-wenxiang.md`、
+  计划 `docs/plans/2026-11-22-M249-河南灵宝阌乡补录-plan.md`。
+
+### Changed
+- `regions.json` / `region-index.json`：地区 855 → **857**（新增灵宝县、阌乡县），
+  1021 个事件全部有省 + 县归属。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas anti-japanese-war`（0 问题）、
+  `pnpm check:heads --atlas anti-japanese-war`（0 个无来由端点，初稿自陕县起报 17.5km
+  线头，已前推至渑池）、`pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 襄城、遂平、正阳、汝南、宝丰、嵩县、偃师、太康、陈留、武陟继续待考；
+  陕县 05-18 仅一条来源，只作路线节点。
+
+---
+
 ## [v1.0.230] - 2026-11-22
 
 ### Added
