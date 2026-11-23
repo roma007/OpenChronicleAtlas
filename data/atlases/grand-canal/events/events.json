@@ -2036,5 +2036,917 @@
     "extensions": {
       "routeEvent": false
     }
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "id": "pei-yaoqing-canal-reform-733",
+    "name": {
+      "zh": "裴耀卿改革漕运",
+      "en": "Pei Yaoqing’s reform of grain transport"
+    },
+    "date": "0733-01-01",
+    "location": {
+      "lng": 113.38,
+      "lat": 34.79,
+      "place": {
+        "zh": "河南河阴（今荥阳）",
+        "en": "Heyin (Xingyang), Henan"
+      }
+    },
+    "entityIds": [
+      "sui-tang-canal"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "开元二十一年，裴耀卿改直运为分段转运，置河阴等仓，三年运七百万石。",
+      "en": "In 733 Pei Yaoqing replaced through-shipping with segmented transport and set up granaries, moving seven million shi in three years."
+    },
+    "description": {
+      "zh": "唐玄宗开元二十一年（733），裴耀卿任京兆尹、江淮都转运使，改革漕运。他改直运为分段转运：于河阴置河阴仓，河清置柏崖仓，三门东置集津仓、西置盐仓；江南漕船至河口入仓，官雇舟分入河、洛，避免江南船工不习黄河水性的风险。三年运粮七百万石，省陆运钱三十万缗。日期取 733 年，具体月日待考。",
+      "en": "In 733, the twenty-first year of Kaiyuan, Pei Yaoqing became governor of the capital region and transport commissioner and reformed grain transport. He replaced through-shipping with segmented transport: granaries were set up at Heyin, Baiya, Jijin and the Salt Storehouse at Sanmen; southern boats unloaded at the river mouth and official vessels carried the grain into the Yellow River and Luo. In three years 7,000,000 shi were moved, saving 300,000 strings of cash in overland costs. The date is 733; the exact month and day await verification."
+    },
+    "sources": [
+      {
+        "title": "《新唐书·食货志》",
+        "author": "欧阳修、宋祁",
+        "year": 1060,
+        "note": "开元二十一年裴耀卿分段转运、置仓"
+      },
+      {
+        "title": "《旧唐书·裴耀卿传》",
+        "author": "刘昫等",
+        "year": 945,
+        "note": "裴耀卿漕运改革"
+      },
+      {
+        "title": "《中晚唐时期朝廷对漕运体制的管控与维系》",
+        "author": "苏毅，《人民论坛》2016-06-30",
+        "year": 2016,
+        "note": "裴耀卿三年运七百万石"
+      },
+      {
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "唐代漕运与河阴仓"
+      }
+    ],
+    "relatedIds": [
+      "tang-canal-730",
+      "liu-yan-canal-reform-764"
+    ]
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "id": "hanjiacang-605",
+    "name": {
+      "zh": "含嘉仓营建",
+      "en": "Construction of the Hanjia Granary"
+    },
+    "date": "0605-01-01",
+    "location": {
+      "lng": 112.454,
+      "lat": 34.619,
+      "place": {
+        "zh": "河南洛阳",
+        "en": "Luoyang, Henan"
+      }
+    },
+    "entityIds": [
+      "sui-tang-canal"
+    ],
+    "category": "水利",
+    "summary": {
+      "zh": "隋大业年间营建含嘉仓，唐代沿用，是洛阳运河枢纽的皇家粮仓。",
+      "en": "The Hanjia Granary was built under the Sui and used by the Tang as the imperial store at the Luoyang canal hub."
+    },
+    "description": {
+      "zh": "含嘉仓位于隋唐洛阳城北，隋大业年间营建，唐代继续使用，是隋唐大运河洛阳枢纽的皇家粮仓。遗址发现仓窖数百座，出土铭砖记载储粮来源、数量与入仓时间，可证江淮漕粮经通济渠、汴河转运至洛阳。日期取隋大业年间（605 年起），具体营建年待考。",
+      "en": "The Hanjia Granary lay north of the Sui–Tang city of Luoyang. Built under the Sui and continued in use under the Tang, it was the imperial store of the Luoyang canal hub. Hundreds of granary pits have been excavated, and inscribed bricks record the origin, quantity and date of stored grain, evidence that Jiangnan grain reached Luoyang via the Tongji and Bian canals. The date is the Daye era from 605; the exact year awaits verification."
+    },
+    "sources": [
+      {
+        "title": "《洛阳含嘉仓遗址发掘报告》",
+        "author": "河南省博物馆、洛阳市博物馆",
+        "year": 1972,
+        "note": "含嘉仓仓窖与铭砖"
+      },
+      {
+        "title": "《隋书·食货志》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "隋代仓廪与漕运"
+      },
+      {
+        "title": "《洛阳地方志·文物志》",
+        "author": "洛阳市地方志办公室",
+        "year": 2010,
+        "note": "含嘉仓遗址"
+      },
+      {
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "洛阳枢纽与含嘉仓"
+      }
+    ],
+    "relatedIds": [
+      "tongji-canal-605",
+      "luoyang-canal-800"
+    ]
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "id": "bian-river-annual-grain-1010",
+    "name": {
+      "zh": "汴河岁运六百万石",
+      "en": "Six million shi on the Bian River"
+    },
+    "date": "1010-01-01",
+    "location": {
+      "lng": 114.307,
+      "lat": 34.797,
+      "place": {
+        "zh": "河南开封",
+        "en": "Kaifeng, Henan"
+      }
+    },
+    "entityIds": [
+      "northern-song-bian"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "北宋真宗时，汴河岁运江淮米达六百万石，为北宋漕运最高额之一。",
+      "en": "Under Emperor Zhenzong the Bian River carried up to six million shi of Jiangnan and Huai grain a year, among the highest Northern Song totals."
+    },
+    "description": {
+      "zh": "北宋以汴河为立国之本。真宗大中祥符年间，汴河岁运江淮米达六百万石，为北宋漕运最高额之一。汴河引黄河水，泥沙淤积严重，朝廷每年清淤、狭河、护堤；岁运额与河道维护能力直接相关。日期取 1010 年代表年，具体年份待考。",
+      "en": "The Northern Song regarded the Bian River as the foundation of the state. Under Emperor Zhenzong, in the Dazhong Xiangfu era, the Bian carried up to 6,000,000 shi of grain from the Jiangnan and Huai regions a year, among the highest totals of the dynasty. Because the Bian drew on the silt-laden Yellow River, the court dredged, narrowed and diked it every year; the annual total depended directly on maintenance. The date is a representative year around 1010; the exact year awaits verification."
+    },
+    "sources": [
+      {
+        "title": "《宋史·食货志》",
+        "author": "脱脱等",
+        "year": 1345,
+        "note": "汴河岁运六百万石"
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1183,
+        "note": "真宗朝汴河漕运额"
+      },
+      {
+        "title": "《宋代的运河与整顿》",
+        "author": "陈炯智，台湾师范大学历史文化学习网",
+        "year": 2010,
+        "note": "汴河岁运与河道维护"
+      },
+      {
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "北宋汴河漕运"
+      }
+    ],
+    "relatedIds": [
+      "song-canal-960",
+      "daoluo-tongbian-1079"
+    ]
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "id": "guo-shoujing-survey-1275",
+    "name": {
+      "zh": "郭守敬勘察运河",
+      "en": "Guo Shoujing surveys the canal routes"
+    },
+    "date": "1275-01-01",
+    "location": {
+      "lng": 116.587,
+      "lat": 35.415,
+      "place": {
+        "zh": "山东济宁",
+        "en": "Jining, Shandong"
+      }
+    },
+    "entityIds": [
+      "yuan-canal-works"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "至元十二年，郭守敬勘察汶、泗、卫水道，为元代山东运河与通惠河奠定技术基础。",
+      "en": "In 1275 Guo Shoujing surveyed the Wen, Si and Wei waters, laying the technical basis for the Yuan Shandong canals and Tonghui River."
+    },
+    "description": {
+      "zh": "元至元十二年（1275），元世祖命郭守敬勘察汶、泗、卫相邻地区水道，为开凿济州河、会通河与通惠河作技术准备。郭守敬绘图上报，提出引汶、泗水济运的方案，并测定地形高差，奠定元代山东运河与通惠河工程的基础。日期取 1275 年。",
+      "en": "In 1275, the twelfth year of Zhiyuan, Kublai Khan ordered Guo Shoujing to survey the waterways between the Wen, Si and Wei rivers as technical preparation for the Jizhou, Huitong and Tonghui canals. Guo mapped the terrain, measured heights and proposed diverting the Wen and Si to supply the canal, laying the basis for the Yuan works in Shandong and the Tonghui River. The date is 1275."
+    },
+    "sources": [
+      {
+        "title": "《元史·郭守敬传》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "至元十二年勘察汶泗卫水道"
+      },
+      {
+        "title": "《济宁党史史志·河政河务》",
+        "author": "中共济宁市委党史研究院 2020-10-19",
+        "year": 2020,
+        "note": "郭守敬勘察与济州河规划"
+      },
+      {
+        "title": "《元代运河山东段的开通》",
+        "author": "山东省情资料库",
+        "year": 2019,
+        "note": "郭守敬勘测与山东运河"
+      },
+      {
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "元代运河勘测"
+      }
+    ],
+    "relatedIds": [
+      "jizhou-river-1283",
+      "huitong-canal-1289",
+      "tonghui-canal-1293"
+    ]
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "id": "ma-zhizhen-huitong-1289",
+    "name": {
+      "zh": "马之贞主持会通河",
+      "en": "Ma Zhizhen directs the Huitong River works"
+    },
+    "date": "1289-01-01",
+    "location": {
+      "lng": 116.587,
+      "lat": 35.415,
+      "place": {
+        "zh": "山东济宁",
+        "en": "Jining, Shandong"
+      }
+    },
+    "entityIds": [
+      "yuan-canal-works"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "至元二十六年，马之贞与韩仲晖、边源等主持开凿会通河，建闸三十余座。",
+      "en": "In 1289 Ma Zhizhen, Han Zhonghui and Bian Yuan directed the Huitong River works and built more than thirty locks."
+    },
+    "description": {
+      "zh": "至元二十六年（1289），漕运副使马之贞与寿张尹韩仲晖、太史院令史边源等主持开凿会通河，自安山至临清，长二百五十余里，引汶、泗水济运，沿河建闸三十余座，以时启闭。会通河开通后，京杭大运河全线贯通。日期取 1289 年，具体月日待考。",
+      "en": "In 1289 Ma Zhizhen, transport vice-commissioner, with Han Zhonghui, magistrate of Shouzhang, and Bian Yuan of the Astronomical Bureau, directed the Huitong River works from Anshan to Linqing, over 250 li, diverting the Wen and Si to supply the canal and building more than thirty locks opened and closed according to water levels. With the Huitong open, the Beijing–Hangzhou Grand Canal ran through. The date is 1289; the exact month and day await verification."
+    },
+    "sources": [
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "至元二十六年开会通河、马之贞"
+      },
+      {
+        "title": "《济宁党史史志·河政河务》",
+        "author": "中共济宁市委党史研究院 2020-10-19",
+        "year": 2020,
+        "note": "马之贞主持济州河、会通河"
+      },
+      {
+        "title": "《元代运河山东段的开通》",
+        "author": "山东省情资料库",
+        "year": 2019,
+        "note": "会通河工期、闸座"
+      },
+      {
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "会通河与马之贞"
+      }
+    ],
+    "relatedIds": [
+      "huitong-canal-1289",
+      "jizhou-river-1283",
+      "grand-canal-1293"
+    ]
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "id": "chen-xuan-qingjiangpu-1415",
+    "name": {
+      "zh": "陈瑄开清江浦",
+      "en": "Chen Xuan opens the Qingjiangpu channel"
+    },
+    "date": "1415-01-01",
+    "location": {
+      "lng": 119.015,
+      "lat": 33.61,
+      "place": {
+        "zh": "江苏淮安",
+        "en": "Huai’an, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "yuan-ming-qing-transport"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "永乐十三年，陈瑄开清江浦，使漕船自淮安直达淮河，免陆运过坝。",
+      "en": "In 1415 Chen Xuan opened the Qingjiangpu channel, letting grain boats reach the Huai directly and avoid portage over the dams."
+    },
+    "description": {
+      "zh": "永乐十三年（1415），总督漕运陈瑄开清江浦，自淮安城西管家湖凿渠二十里，导水入淮，使漕船免过仁字坝、车轮坝陆运之劳，直达淮河。清江浦由此成为明清漕运总督驻地与运河重镇。日期取 1415 年。",
+      "en": "In 1415 Chen Xuan, director-general of grain transport, opened the Qingjiangpu channel, cutting a twenty-li canal from Guanjiacu Lake west of Huai’an to lead water into the Huai and allow grain boats to bypass the Renzi and Chelun dams and their portage. Qingjiangpu became the seat of the Ming–Qing grain transport commissioner and a major canal town. The date is 1415."
+    },
+    "sources": [
+      {
+        "title": "《明史·陈瑄传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "永乐十三年开清江浦"
+      },
+      {
+        "title": "《淮安地方志·运河志》",
+        "author": "淮安市地方志办公室",
+        "year": 2015,
+        "note": "清江浦与漕运总督"
+      },
+      {
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "清江浦开凿"
+      },
+      {
+        "title": "《京杭大运河志》",
+        "author": "中国大运河志编纂委员会",
+        "year": 2019,
+        "note": "明清淮安运河"
+      }
+    ],
+    "relatedIds": [
+      "huaian-canal-1450",
+      "ming-canal-1415"
+    ]
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "id": "pan-shuzheng-huitong-1411",
+    "name": {
+      "zh": "潘叔正上书疏浚会通河",
+      "en": "Pan Shuzheng petitions to dredge the Huitong River"
+    },
+    "date": "1411-01-01",
+    "location": {
+      "lng": 116.587,
+      "lat": 35.415,
+      "place": {
+        "zh": "山东济宁",
+        "en": "Jining, Shandong"
+      }
+    },
+    "entityIds": [
+      "yuan-ming-qing-transport"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "永乐九年，济宁州同知潘叔正上书请疏浚会通河，明成祖采纳，命宋礼等兴工。",
+      "en": "In 1411 Pan Shuzheng, sub-prefect of Jining, petitioned to dredge the Huitong River; the Yongle Emperor agreed and ordered Song Li to begin work."
+    },
+    "description": {
+      "zh": "永乐九年（1411），济宁州同知潘叔正上书，言会通河四百五十余里，淤塞者三分之一，请疏浚以通漕运。明成祖采纳，命工部尚书宋礼、刑部侍郎金纯、都督同知周长征民夫十六万余人疏浚会通河；随后宋礼采纳白英建议，建南旺分水枢纽。日期取 1411 年。",
+      "en": "In 1411 Pan Shuzheng, sub-prefect of Jining, petitioned that one third of the 450-li Huitong River was silted and asked for dredging to restore grain transport. The Yongle Emperor agreed and ordered Minister of Works Song Li, Vice Minister of Justice Jin Chun and Commander Zhou Chang to mobilise more than 160,000 labourers. Song Li then adopted Bai Ying’s plan and built the Nanwang water-diversion hub. The date is 1411."
+    },
+    "sources": [
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "永乐九年潘叔正请浚会通河"
+      },
+      {
+        "title": "《汶上南旺分水枢纽工程》",
+        "author": "汶上县人民政府 2026-02-25",
+        "year": 2026,
+        "note": "潘叔正上书与宋礼兴工"
+      },
+      {
+        "title": "《南旺分水枢纽》",
+        "author": "扬州中国大运河博物馆 2021-12-24",
+        "year": 2021,
+        "note": "永乐九年疏浚会通河"
+      },
+      {
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "明初会通河疏浚"
+      }
+    ],
+    "relatedIds": [
+      "nanwang-hub-1411",
+      "ming-canal-1415"
+    ]
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "id": "wan-gong-river-1570",
+    "name": {
+      "zh": "万恭总理河道",
+      "en": "Wan Gong directs river management"
+    },
+    "date": "1570-01-01",
+    "location": {
+      "lng": 116.587,
+      "lat": 35.415,
+      "place": {
+        "zh": "山东济宁",
+        "en": "Jining, Shandong"
+      }
+    },
+    "entityIds": [
+      "yuan-ming-qing-transport"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "隆庆末至万历初，万恭总理河道，主张束水攻沙，治理黄河与运河。",
+      "en": "In the late Longqing and early Wanli reigns Wan Gong directed river management, advocating confined-flow scouring of the Yellow River and canal."
+    },
+    "description": {
+      "zh": "隆庆末至万历初，万恭总理河道，治理黄河与运河。他主张「束水攻沙」，修堤束窄河身、以水刷沙，并在山东、淮扬一带修闸、浚河、筑堤；所著《治水筌蹄》总结其治河经验。日期取 1570 年代表年，具体任职月日待考。",
+      "en": "From the late Longqing into the early Wanli reign Wan Gong directed river management, dealing with both the Yellow River and the canal. He advocated “confining the flow to scour the sand”, narrowing channels with dikes so that water would cut away sediment, and built locks, dredged channels and raised dikes in Shandong and the Huai–Yangzhou region. His Treatise on Water Control (Zhishui Quanti) summarised the experience. The date is a representative year around 1570; exact appointment dates await verification."
+    },
+    "sources": [
+      {
+        "title": "《明史·河渠志》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "万恭总理河道"
+      },
+      {
+        "title": "《治水筌蹄》",
+        "author": "万恭",
+        "year": 1573,
+        "note": "束水攻沙与运河治理"
+      },
+      {
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "明代河工与万恭"
+      },
+      {
+        "title": "《中国水利史》",
+        "author": "水利部水利水电科学研究院",
+        "year": 2010,
+        "note": "明代治河思想"
+      }
+    ],
+    "relatedIds": [
+      "ming-canal-1415",
+      "pan-jixun-river-1578"
+    ]
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "id": "pan-jixun-river-1578",
+    "name": {
+      "zh": "潘季驯治河保运",
+      "en": "Pan Jixun manages the rivers to protect the canal"
+    },
+    "date": "1578-01-01",
+    "location": {
+      "lng": 119.015,
+      "lat": 33.61,
+      "place": {
+        "zh": "江苏淮安",
+        "en": "Huai’an, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "yuan-ming-qing-transport"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "万历六年，潘季驯总理河道，筑高家堰、塞崔镇决口，以束水攻沙保护运河。",
+      "en": "In 1578 Pan Jixun directed river management, building the Gaojiayan dike and closing the Cuizhen breach to protect the canal by confined-flow scouring."
+    },
+    "description": {
+      "zh": "万历六年（1578），潘季驯总理河道，提出「筑堤束水、以水攻沙」，筑高家堰、塞崔镇决口、修清口，保护黄河与运河交汇段。其《河防一览》总结明代治河经验，强调堤防、缕堤、遥堤与减水坝配合，影响清代靳辅等人。日期取 1578 年。",
+      "en": "In 1578 Pan Jixun became director-general of river management. He argued for “building dikes to confine the flow and using water to attack sand”, built the Gaojiayan dike, closed the Cuizhen breach and repaired the Qingkou junction to protect the meeting of the Yellow River and the canal. His Comprehensive Survey of River Defence (Hefang Yilan) summarised Ming practice, stressing the coordination of inner, outer and distant dikes with flood-relief dams, and influenced Qing engineers such as Jin Fu. The date is 1578."
+    },
+    "sources": [
+      {
+        "title": "《明史·潘季驯传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "万历六年总理河道、高家堰"
+      },
+      {
+        "title": "《河防一览》",
+        "author": "潘季驯",
+        "year": 1590,
+        "note": "筑堤束水、以水攻沙"
+      },
+      {
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "明代清口与高家堰"
+      },
+      {
+        "title": "《中国水利史》",
+        "author": "水利部水利水电科学研究院",
+        "year": 2010,
+        "note": "潘季驯治河"
+      }
+    ],
+    "relatedIds": [
+      "wan-gong-river-1570",
+      "jin-fu-chen-huang-1677"
+    ]
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "id": "jin-fu-chen-huang-1677",
+    "name": {
+      "zh": "靳辅、陈潢治河",
+      "en": "Jin Fu and Chen Huang manage the rivers"
+    },
+    "date": "1677-01-01",
+    "location": {
+      "lng": 119.015,
+      "lat": 33.61,
+      "place": {
+        "zh": "江苏淮安",
+        "en": "Huai’an, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "yuan-ming-qing-transport"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "康熙十六年，靳辅任河道总督，陈潢协助，筑高家堰、疏清口、开中河。",
+      "en": "In 1677 Jin Fu became river viceroy and, with Chen Huang, built the Gaojiayan dike, cleared the Qingkou and opened the Middle River."
+    },
+    "description": {
+      "zh": "康熙十六年（1677），靳辅任河道总督，幕僚陈潢协助，提出「因势利导、束水攻沙」，筑高家堰、疏清口、开中河，使运河避开黄河险段。工程保障了康熙年间漕运，但也留下河床抬高、清口淤积等长期问题。日期取 1677 年。",
+      "en": "In 1677 Jin Fu became river viceroy and, with his adviser Chen Huang, pursued “guiding the flow with the terrain and confining water to scour sand”. They rebuilt the Gaojiayan dike, cleared the Qingkou and opened the Middle River so that the canal could avoid the most dangerous stretch of the Yellow River. The works secured grain transport in the Kangxi reign but left long-term problems of raised beds and silting at Qingkou. The date is 1677."
+    },
+    "sources": [
+      {
+        "title": "《清史稿·靳辅传》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "康熙十六年任河道总督、开中河"
+      },
+      {
+        "title": "《治河方略》",
+        "author": "靳辅",
+        "year": 1690,
+        "note": "治河主张与工程"
+      },
+      {
+        "title": "《河防述言》",
+        "author": "陈潢",
+        "year": 1700,
+        "note": "陈潢治河思想"
+      },
+      {
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "清代清口与中河"
+      }
+    ],
+    "relatedIds": [
+      "pan-jixun-river-1578",
+      "zhang-penghe-qingkou-1700"
+    ]
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "id": "zhang-penghe-qingkou-1700",
+    "name": {
+      "zh": "张鹏翮疏清口",
+      "en": "Zhang Penghe clears the Qingkou"
+    },
+    "date": "1700-01-01",
+    "location": {
+      "lng": 119.015,
+      "lat": 33.61,
+      "place": {
+        "zh": "江苏淮安",
+        "en": "Huai’an, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "yuan-ming-qing-transport"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "康熙三十九年，张鹏翮任河道总督，拆拦黄坝、疏清口，继续靳辅治河方针。",
+      "en": "In 1700 Zhang Penghe became river viceroy, removed the Yellow River barrier dam and cleared the Qingkou, continuing Jin Fu’s approach."
+    },
+    "description": {
+      "zh": "康熙三十九年（1700），张鹏翮任河道总督，拆拦黄坝、疏清口、筑高家堰，继续靳辅的治河方针，使黄河回归故道、运河畅通。其《治河全书》记录清代前期河工制度与工程。日期取 1700 年。",
+      "en": "In 1700 Zhang Penghe became river viceroy. He removed the barrier dam across the Yellow River, cleared the Qingkou and strengthened the Gaojiayan dike, continuing Jin Fu’s approach and restoring the Yellow River to its old channel so that the canal could flow. His Complete Book of River Management (Zhihe Quanshu) records early Qing river administration and works. The date is 1700."
+    },
+    "sources": [
+      {
+        "title": "《清史稿·张鹏翮传》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "康熙三十九年任河道总督、拆拦黄坝"
+      },
+      {
+        "title": "《治河全书》",
+        "author": "张鹏翮",
+        "year": 1705,
+        "note": "清代前期河工"
+      },
+      {
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "清代清口治理"
+      },
+      {
+        "title": "《京杭大运河志》",
+        "author": "中国大运河志编纂委员会",
+        "year": 2019,
+        "note": "清代运河河工"
+      }
+    ],
+    "relatedIds": [
+      "jin-fu-chen-huang-1677",
+      "qing-canal-1750"
+    ]
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "id": "tao-shu-sea-transport-1826",
+    "name": {
+      "zh": "陶澍、贺长龄漕粮海运",
+      "en": "Tao Shu and He Changling ship grain by sea"
+    },
+    "date": "1826-01-01",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "yuan-ming-qing-transport"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "道光六年，陶澍、贺长龄主持漕粮海运，自上海雇商船运至天津。",
+      "en": "In 1826 Tao Shu and He Changling organised sea transport of grain from Shanghai to Tianjin using merchant ships."
+    },
+    "description": {
+      "zh": "道光六年（1826），江苏巡抚陶澍、布政使贺长龄主持漕粮海运，雇商船自上海运苏、松、常、镇、太仓漕米至天津，以避运河淤塞。此次海运成功，为近代漕运改革先声；贺长龄辑《海运全案》记其始末。日期取 1826 年。",
+      "en": "In 1826 Tao Shu, governor of Jiangsu, and He Changling, provincial administration commissioner, organised the sea transport of grain. Merchant ships carried the tribute rice of Suzhou, Songjiang, Changzhou, Zhenjiang and Taicang from Shanghai to Tianjin, bypassing the silted canal. The success was a precedent for modern transport reform; He Changling compiled the Complete Record of Sea Transport (Haiyun Quanan). The date is 1826."
+    },
+    "sources": [
+      {
+        "title": "《清史稿·陶澍传》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "道光六年漕粮海运"
+      },
+      {
+        "title": "《海运全案》",
+        "author": "贺长龄辑",
+        "year": 1827,
+        "note": "1826 年海运始末"
+      },
+      {
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "清代漕粮海运"
+      },
+      {
+        "title": "《中国近代交通史》",
+        "author": "交通部交通史编纂委员会",
+        "year": 1935,
+        "note": "漕运向海运、轮船过渡"
+      }
+    ],
+    "relatedIds": [
+      "qing-canal-1750",
+      "china-merchants-steam-1872"
+    ]
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "id": "china-merchants-steam-1872",
+    "name": {
+      "zh": "轮船招商局承运漕粮",
+      "en": "The China Merchants’ Steam Navigation Company carries tribute grain"
+    },
+    "date": "1872-01-01",
+    "location": {
+      "lng": 121.47,
+      "lat": 31.23,
+      "place": {
+        "zh": "上海",
+        "en": "Shanghai"
+      }
+    },
+    "entityIds": [
+      "yuan-ming-qing-transport"
+    ],
+    "category": "人物",
+    "summary": {
+      "zh": "同治十一年，李鸿章创办轮船招商局，以蒸汽轮船承运江浙漕粮。",
+      "en": "In 1872 Li Hongzhang founded the China Merchants’ Steam Navigation Company, which carried Jiangsu–Zhejiang tribute grain by steamship."
+    },
+    "description": {
+      "zh": "同治十一年（1872），李鸿章创办轮船招商局，总局设上海，承运江浙漕粮，兼营客货。招商局以蒸汽轮船取代部分木帆船漕运，标志着运河漕运向近代航运过渡。日期取 1872 年。",
+      "en": "In 1872 Li Hongzhang founded the China Merchants’ Steam Navigation Company, headquartered in Shanghai. It carried tribute grain from Jiangsu and Zhejiang and also operated passenger and freight services. Its steamships replaced part of the wooden-sail grain fleet and marked the transition from canal transport to modern shipping. The date is 1872."
+    },
+    "sources": [
+      {
+        "title": "《清史稿·交通志》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "轮船招商局"
+      },
+      {
+        "title": "《轮船招商局史》",
+        "author": "招商局史编纂委员会",
+        "year": 1988,
+        "note": "创办与漕粮承运"
+      },
+      {
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "漕运向近代航运过渡"
+      },
+      {
+        "title": "《中国近代交通史》",
+        "author": "交通部交通史编纂委员会",
+        "year": 1935,
+        "note": "蒸汽轮船与漕运"
+      }
+    ],
+    "relatedIds": [
+      "tao-shu-sea-transport-1826",
+      "canal-stop-1901"
+    ]
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    },
+    "id": "jining-market-1450",
+    "name": {
+      "zh": "济宁州城与运河商业",
+      "en": "Jining city and its canal trade"
+    },
+    "date": "1450-01-01",
+    "location": {
+      "lng": 116.587,
+      "lat": 35.415,
+      "place": {
+        "zh": "山东济宁",
+        "en": "Jining, Shandong"
+      }
+    },
+    "entityIds": [
+      "canal-towns"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "济宁位于会通河与泗水交汇处，明清时期成为鲁西南漕运与商业枢纽。",
+      "en": "At the meeting of the Huitong River and the Si, Jining became a grain-transport and commercial hub of southwest Shandong under the Ming and Qing."
+    },
+    "description": {
+      "zh": "济宁位于会通河与泗水交汇处，元代开河后成为鲁西南漕运枢纽；明清时期州城内外码头、仓场、商号密集，江淮粮船、货船在此停泊转运。济宁也是河道总督、漕运官员驻节与治河物资集散之地。日期取 1450 年代表年，具体市镇形成时间待考。",
+      "en": "Jining stood where the Huitong River met the Si. After the Yuan canal works it became a grain-transport hub in southwest Shandong; under the Ming and Qing, wharves, granaries and shops clustered inside and outside the city, and grain and merchant boats from the Jiangnan and Huai regions stopped there for transshipment. It was also a seat for river and grain officials and a depot for river-works supplies. The date is a representative year around 1450; the exact period of the town’s growth awaits verification."
+    },
+    "sources": [
+      {
+        "title": "《济宁州志》",
+        "author": "济宁州志编纂委员会",
+        "year": 2012,
+        "note": "明清济宁城池、码头与商业"
+      },
+      {
+        "title": "《济宁运河文化》",
+        "author": "济宁市运河文化研究会",
+        "year": 2015,
+        "note": "济宁漕运枢纽与市镇"
+      },
+      {
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "运河沿线城镇"
+      },
+      {
+        "title": "《山东运河志》",
+        "author": "山东省地方志办公室",
+        "year": 2018,
+        "note": "济宁段运河与商业"
+      }
+    ],
+    "relatedIds": [
+      "jining-canal-1300",
+      "jining-canal-1300"
+    ]
   }
 ]

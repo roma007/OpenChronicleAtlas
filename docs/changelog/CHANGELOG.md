@@ -3,6 +3,32 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.271] - 2026-11-23
+
+### Added
+- **京杭大运河人物与工程补充（M289）**：新增 14 个「人物／工程」事件。
+  - 隋唐：裴耀卿改革漕运（733）、含嘉仓营建（605）。
+  - 北宋：汴河岁运六百万石（1010）。
+  - 元：郭守敬勘察运河（1275）、马之贞主持会通河（1289）。
+  - 明：陈瑄开清江浦（1415）、潘叔正上书疏浚会通河（1411）、
+    万恭总理河道（1570）、潘季驯治河保运（1578）。
+  - 清：靳辅与陈潢治河（1677）、张鹏翮疏清口（1700）、
+    陶澍与贺长龄漕粮海运（1826）。
+  - 近代：轮船招商局承运漕粮（1872）。
+  - 沿线：济宁州城与运河商业（1450）。
+  - 事件 34 → **48**，路线 21 不变；人物事件统一 `routeEvent: false`。
+
+### Research
+- 逐条日期、出处与存疑点见 `docs/research/units/grand-canal-people.md`。
+- 代表年（1010、1450、1570）已在正文注明；不能取到月日的写「待考」。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:heads --atlas grand-canal`（0 个无来由端点）、
+  `pnpm check:routes --atlas grand-canal`（0 问题）、`pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build` 全部通过。
+
+---
+
 ## [v1.0.270] - 2026-11-23
 
 ### Fixed
