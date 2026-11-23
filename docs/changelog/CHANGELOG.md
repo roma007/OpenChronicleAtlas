@@ -3,6 +3,25 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.262] - 2026-11-23
+
+### Changed
+- **长征 · 主体配色（M280）**：按抗日战争专题的阵营色彩语言重排 19 个实体。
+  - 红军系统 7 个实体用不同程度红色：中央红军 `#7F1D1D`、红二方面军 `#991B1B`、
+    红六军团 `#B91C1C`、红四方面军 `#DC2626`、红二十五军 `#E11D48`、
+    红十五军团 `#F43F5E`、陕北红军 `#FB7185`。
+  - 国民党军系统 12 个实体用靛蓝到浅蓝：中央军 `#1E1B4B`、湘军 `#312E81`、
+    粤军 `#3730A3`、桂军 `#4338CA`、黔军 `#4F46E5`、滇军 `#6366F1`、
+    川军 `#1E3A8A`、东北军 `#1E40AF`、西北军 `#1D4ED8`、陕军 `#2563EB`、
+    晋绥军 `#3B82F6`、甘宁青部队 `#60A5FA`。
+  - 事件 / 路线数量不变（249 / 130）。
+
+### Verify
+- `pnpm validate:data`、`pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build:search-index`、`pnpm build:mobile-data` 全部通过。
+
+---
+
 ## [v1.0.261] - 2026-11-23
 
 ### Changed
