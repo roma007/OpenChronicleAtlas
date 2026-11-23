@@ -3,6 +3,29 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.266] - 2026-11-23
+
+### Changed
+- **京杭大运河接入 OSM 航道 GIS（M284）**：现存运河段改用 OpenStreetMap 航道中心线。
+  - 数据源：OSM `waterway=canal` 关系 1112801「京杭大运河」，仅取 142 条 `main_stream` way。
+  - 处理：按关系顺序拼接、反向修正、20km 缺口分块、Douglas-Peucker 0.02° 简化，
+    北京—杭州主线 2,934 个点；按原航段起止点切成 12 段（7—18）。
+  - 隋唐通济渠、永济渠、汴河（1—6）与黄河改道影响段（19）仍为示意折线。
+  - 航道几何 © OpenStreetMap contributors，**ODbL 1.0**；事件文本仍为 CC-BY-4.0，
+    已在 `ATTRIBUTION.md` 与 manifest `license` 字段注明。
+  - 事件 / 路线数量不变（26 / 19）。
+
+### Research
+- 选源与处理流程见 `docs/research/units/grand-canal-osm-geometry.md`。
+- CHGIS 自然地理为 CC-BY-NC-SA，不能用于本项目；Natural Earth 不含大运河。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:heads --atlas grand-canal`（0 个无来由端点）、
+  `pnpm check:routes --atlas grand-canal`（0 问题）、`pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build` 全部通过。
+
+---
+
 ## [v1.0.265] - 2026-11-23
 
 ### Changed
