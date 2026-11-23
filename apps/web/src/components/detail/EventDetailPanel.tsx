@@ -4,6 +4,7 @@ import {
   eventStart,
   formatDate,
   type AtlasEvent,
+  type DatePrecision,
   neighborEvents,
   parseDateString,
   regionPath,
@@ -91,12 +92,18 @@ export function EventDetailPanel() {
 
   if (!event || !dataset) return null;
 
+  const datePrecision =
+    (event.extensions?.datePrecision as DatePrecision | undefined) ??
+    (dataset.manifest.extensions?.datePrecision as DatePrecision | undefined) ??
+    'day';
+
   const dateText = event.endDate
-    ? `${formatDate(parseDateString(event.date), dateLocale)} — ${formatDate(
+    ? `${formatDate(parseDateString(event.date), dateLocale, datePrecision)} — ${formatDate(
         parseDateString(event.endDate),
         dateLocale,
+        datePrecision,
       )}`
-    : formatDate(parseDateString(event.date), dateLocale);
+    : formatDate(parseDateString(event.date), dateLocale, datePrecision);
 
   const entities = event.entityIds
     .map((id) => dataset.entitiesById.get(id))

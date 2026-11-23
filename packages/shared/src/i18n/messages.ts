@@ -180,6 +180,7 @@ const zh = {
   'timeline.zoomOut': '缩小时间轴',
   'timeline.zoomAll': '全',
   'timeline.jumpToDate': '跳转到日期',
+  'timeline.jumpToYear': '跳转到年份',
 
   'detail.title': '事件详情',
   'detail.close': '关闭详情',
@@ -430,6 +431,7 @@ const en: Record<keyof typeof zh, string> = {
   'timeline.zoomOut': 'Zoom out timeline',
   'timeline.zoomAll': 'All',
   'timeline.jumpToDate': 'Jump to date',
+  'timeline.jumpToYear': 'Jump to year',
 
   'detail.title': 'Event details',
   'detail.close': 'Close details',

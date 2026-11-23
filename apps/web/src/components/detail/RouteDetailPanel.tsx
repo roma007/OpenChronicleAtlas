@@ -1,4 +1,11 @@
-import { eventsNearPoint, parseDateString, resolveLocalized, segmentTypeLabel } from '@atlas/shared';
+import {
+  eventsNearPoint,
+  formatDate,
+  parseDateString,
+  resolveLocalized,
+  segmentTypeLabel,
+  type DatePrecision,
+} from '@atlas/shared';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { useI18n } from '../../hooks/useI18n';
 
@@ -13,7 +20,7 @@ export function RouteDetailPanel() {
   const pause = useAtlasStore((state) => state.pause);
   const setRegions = useAtlasStore((state) => state.setRegions);
   const focusRegion = useAtlasStore((state) => state.focusRegion);
-  const { locale, t } = useI18n();
+  const { locale, t, dateLocale } = useI18n();
 
   if (!dataset || !selectedRoute || selectedEventId) return null;
 
@@ -30,7 +37,17 @@ export function RouteDetailPanel() {
     resolveLocalized(entity?.name, locale) ||
     route.properties.entityId;
   const description = resolveLocalized(route.properties.description, locale);
-  const dateText = `${route.properties.startDate} — ${route.properties.endDate}`;
+  const datePrecision =
+    (dataset.manifest.extensions?.datePrecision as DatePrecision | undefined) ?? 'day';
+  const dateText = `${formatDate(
+    parseDateString(route.properties.startDate),
+    dateLocale,
+    datePrecision,
+  )} — ${formatDate(
+    parseDateString(route.properties.endDate),
+    dateLocale,
+    datePrecision,
+  )}`;
   const start = route.geometry.coordinates[0];
   const end = route.geometry.coordinates.at(-1);
   const routeRegions = Array.from(
@@ -157,7 +174,7 @@ export function RouteDetailPanel() {
                   setCurrentTime(parseDateString(event.date));
                   selectEvent(event.id);
                 }}
-                title={`${event.date} · ${distanceKm.toFixed(1)} km`}
+                title={`${formatDate(parseDateString(event.date), dateLocale, datePrecision)} · ${distanceKm.toFixed(1)} km`}
                 className="rounded-full border border-ink/10 px-2 py-0.5 text-[10px] text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
               >
                 {resolveLocalized(event.name, locale)}
@@ -182,7 +199,7 @@ export function RouteDetailPanel() {
                   setCurrentTime(parseDateString(event.date));
                   selectEvent(event.id);
                 }}
-                title={`${event.date} · ${distanceKm.toFixed(1)} km`}
+                title={`${formatDate(parseDateString(event.date), dateLocale, datePrecision)} · ${distanceKm.toFixed(1)} km`}
                 className="rounded-full border border-ink/10 px-2 py-0.5 text-[10px] text-ink-soft transition hover:border-cinnabar/40 hover:text-cinnabar"
               >
                 {resolveLocalized(event.name, locale)}

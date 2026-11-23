@@ -1,6 +1,7 @@
 import {
   categoryLabel,
   collectCategories,
+  formatDate,
   parseDateString,
   resolveLocalized,
   searchEvents,
@@ -33,7 +34,7 @@ export function SearchPage() {
   const loading = useAtlasStore((state) => state.searchLoading);
   const error = useAtlasStore((state) => state.searchError);
   const loadSearchData = useAtlasStore((state) => state.loadSearchData);
-  const { locale, t } = useI18n();
+  const { locale, t, dateLocale } = useI18n();
 
   const [searchParams] = useSearchParams();
   const [query, setQuery] = useState('');
@@ -314,7 +315,11 @@ export function SearchPage() {
                   <Highlight text={resolveLocalized(hit.event.name, locale)} query={debounced} />
                 </span>
                 <span className="shrink-0 text-[11px] tabular-nums text-ink-soft/60">
-                  {hit.event.date.replace(/^0+/, '')}
+                  {formatDate(
+                    parseDateString(hit.event.date),
+                    dateLocale,
+                    hit.event.datePrecision ?? 'day',
+                  )}
                 </span>
               </div>
 

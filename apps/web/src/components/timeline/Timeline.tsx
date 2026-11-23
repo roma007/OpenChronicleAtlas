@@ -13,7 +13,7 @@ import {
   toDateString,
   wgs84ToGcj02,
 } from '@atlas/shared';
-import type { AtlasEvent } from '@atlas/shared';
+import type { AtlasEvent, DatePrecision } from '@atlas/shared';
 import type { KeyboardEvent as ReactKeyboardEvent, PointerEvent as ReactPointerEvent } from 'react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { usePlayback } from '../../hooks/usePlayback';
@@ -177,6 +177,11 @@ export function Timeline() {
 
   const ratio = viewport ? timeToRatio(currentTime, viewport) : 0;
   const dateValue = toDateString(currentTime);
+  const datePrecision =
+    (dataset.manifest.extensions?.datePrecision as DatePrecision | undefined) ?? 'day';
+  const startYear = new Date(timeline.start).getUTCFullYear();
+  const endYear = new Date(timeline.end).getUTCFullYear();
+  const yearValue = new Date(currentTime).getUTCFullYear();
 
   const seekFromClientX = (clientX: number) => {
     const element = trackRef.current;
@@ -324,7 +329,7 @@ export function Timeline() {
                   ratio < 0.06 ? 'opacity-0' : 'opacity-100'
                 }`}
               >
-                {formatDate(viewport?.start ?? timeline.start, dateLocale)}
+                {formatDate(viewport?.start ?? timeline.start, dateLocale, datePrecision)}
               </span>
               {/* 节点名改由地图气泡提示，这里只保留读屏播报，避免重复 */}
               <span className="sr-only" aria-live="polite" aria-atomic="true">
@@ -335,7 +340,7 @@ export function Timeline() {
                   ratio > 0.94 ? 'opacity-0' : 'opacity-100'
                 }`}
               >
-                {formatDate(viewport?.end ?? timeline.end, dateLocale)}
+                {formatDate(viewport?.end ?? timeline.end, dateLocale, datePrecision)}
               </span>
               {/* 游标日期：跟着进度移动，到两端时与起点/终点日期重合 */}
               <span
@@ -343,7 +348,7 @@ export function Timeline() {
                 className="pointer-events-none absolute top-0 z-10 -translate-x-1/2 whitespace-nowrap rounded-full border border-ink/10 bg-parchment px-1.5 py-0.5 text-[10px] font-medium tabular-nums text-ink shadow-sm"
                 style={{ left: `${ratio * 100}%` }}
               >
-                {formatDate(currentTime, dateLocale)}
+                {formatDate(currentTime, dateLocale, datePrecision)}
               </span>
             </div>
 
@@ -381,6 +386,7 @@ export function Timeline() {
                     aria-label={`${resolveLocalized(marker.event.name, locale)}，${formatDate(
                       eventStart(marker.event),
                       dateLocale,
+                      datePrecision,
                     )}`}
                     aria-current={active ? 'true' : undefined}
                     title={resolveLocalized(marker.event.name, locale)}
@@ -410,7 +416,7 @@ export function Timeline() {
               aria-valuemin={viewport?.start ?? timeline.start}
               aria-valuemax={viewport?.end ?? timeline.end}
               aria-valuenow={currentTime}
-              aria-valuetext={formatDate(currentTime, dateLocale)}
+              aria-valuetext={formatDate(currentTime, dateLocale, datePrecision)}
               onPointerDown={handlePointerDown}
               onPointerMove={handlePointerMove}
               onPointerUp={endDrag}
@@ -488,15 +494,38 @@ export function Timeline() {
             ))}
           </div>
 
-          <input
-            type="date"
-            aria-label={t('timeline.jumpToDate')}
-            min={toDateString(timeline.start)}
-            max={toDateString(timeline.end)}
-            value={dateValue}
-            onChange={(event) => handleDateChange(event.target.value)}
-            className="ml-auto hidden rounded-md border border-ink/15 bg-parchment px-2 py-1 text-[11px] text-ink-soft focus:border-cinnabar/50 focus:outline-none md:block"
-          />
+          {datePrecision === 'year' ? (
+            <input
+              type="number"
+              aria-label={t('timeline.jumpToYear')}
+              min={startYear}
+              max={endYear}
+              value={yearValue}
+              onChange={(event) => {
+                const year = Number(event.target.value);
+                if (!Number.isFinite(year)) return;
+                pause();
+                setCurrentTime(
+                  Date.UTC(
+                    Math.min(endYear, Math.max(startYear, Math.trunc(year))),
+                    0,
+                    1,
+                  ),
+                );
+              }}
+              className="ml-auto hidden w-20 rounded-md border border-ink/15 bg-parchment px-2 py-1 text-[11px] text-ink-soft focus:border-cinnabar/50 focus:outline-none md:block"
+            />
+          ) : (
+            <input
+              type="date"
+              aria-label={t('timeline.jumpToDate')}
+              min={toDateString(timeline.start)}
+              max={toDateString(timeline.end)}
+              value={dateValue}
+              onChange={(event) => handleDateChange(event.target.value)}
+              className="ml-auto hidden rounded-md border border-ink/15 bg-parchment px-2 py-1 text-[11px] text-ink-soft focus:border-cinnabar/50 focus:outline-none md:block"
+            />
+          )}
         </div>
       </div>
     </section>

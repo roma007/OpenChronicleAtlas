@@ -1,4 +1,5 @@
 import type { AtlasDataset, AtlasEvent, LocalizedString } from '../types';
+import type { DatePrecision } from '../time/date';
 import { categorySearchText } from '../i18n/categories';
 import type { PinyinProvider } from './pinyin';
 import type { SearchEntry, SearchEvent, SearchIndex } from './types';
@@ -6,8 +7,8 @@ import type { SearchEntry, SearchEvent, SearchIndex } from './types';
 export type { PinyinProvider } from './pinyin';
 export { loadPinyinProvider } from './pinyin';
 
-function toSearchEvent(event: AtlasEvent): SearchEvent {
-  return {
+function toSearchEvent(event: AtlasEvent, datePrecision: DatePrecision): SearchEvent {
+  const result: SearchEvent = {
     id: event.id,
     name: event.name,
     date: event.date,
@@ -18,6 +19,8 @@ function toSearchEvent(event: AtlasEvent): SearchEvent {
     summary: event.summary,
     importance: event.importance,
   };
+  if (datePrecision !== 'day') result.datePrecision = datePrecision;
+  return result;
 }
 
 /** 索引时把所有语言变体拼在一起，保证中英文都能搜到 */
@@ -75,6 +78,8 @@ export function buildSearchIndex(
 
   for (const dataset of datasets) {
     const atlasTitle = dataset.manifest.title;
+    const datePrecision =
+      (dataset.manifest.extensions?.datePrecision as DatePrecision | undefined) ?? 'day';
 
     for (const event of dataset.events) {
       const entities = event.entityIds
@@ -103,7 +108,7 @@ export function buildSearchIndex(
       entries.push({
         atlasId: dataset.manifest.id,
         atlasTitle,
-        event: toSearchEvent(event),
+        event: toSearchEvent(event, datePrecision),
         fields: {
           name,
           place,

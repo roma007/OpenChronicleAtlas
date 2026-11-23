@@ -1,6 +1,7 @@
 import {
   applyEventFilters,
   buildShareUrl,
+  formatDate,
   matchesRegionFilter,
   parseDateString,
   regionName,
@@ -8,6 +9,7 @@ import {
   resolveLocalized,
   segmentTypeLabel,
   type AtlasRegion,
+  type DatePrecision,
 } from '@atlas/shared';
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -40,7 +42,9 @@ export function RegionFilter({ className = '', embedded = false }: RegionFilterP
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const pause = useAtlasStore((state) => state.pause);
-  const { locale, t } = useI18n();
+  const { locale, t, dateLocale } = useI18n();
+  const datePrecision =
+    (dataset?.manifest.extensions?.datePrecision as DatePrecision | undefined) ?? 'day';
   const navigate = useNavigate();
   const [query, setQuery] = useState('');
   const [expandedCounties, setExpandedCounties] = useState<Set<string>>(new Set());
@@ -478,10 +482,10 @@ export function RegionFilter({ className = '', embedded = false }: RegionFilterP
                           selectEvent(event.id);
                         }}
                         className="flex w-full items-center gap-1.5 rounded-md px-1.5 py-1 text-left text-[10px] text-ink-soft transition hover:bg-ink/5 hover:text-ink"
-                        title={`${event.date} · ${resolveLocalized(event.name, locale)}`}
+                        title={`${formatDate(parseDateString(event.date), dateLocale, datePrecision)} · ${resolveLocalized(event.name, locale)}`}
                       >
                         <span className="w-[62px] shrink-0 tabular-nums text-[9px] opacity-55">
-                          {event.date}
+                          {formatDate(parseDateString(event.date), dateLocale, datePrecision)}
                         </span>
                         <span
                           aria-hidden

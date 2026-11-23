@@ -1,4 +1,4 @@
-import { eventStart, formatDate, resolveLocalized } from '@atlas/shared';
+import { eventStart, formatDate, resolveLocalized, type DatePrecision } from '@atlas/shared';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { useI18n } from '../../hooks/useI18n';
 
@@ -16,6 +16,11 @@ export function EventBubble() {
 
   if (!event) return null;
 
+  const datePrecision =
+    (event.extensions?.datePrecision as DatePrecision | undefined) ??
+    (dataset?.manifest.extensions?.datePrecision as DatePrecision | undefined) ??
+    'day';
+
   return (
     <div className="pointer-events-none absolute inset-x-0 bottom-40 z-40 flex justify-center px-4 md:bottom-36">
       <div className="pointer-events-auto flex max-w-md items-center gap-3 rounded-2xl border border-cinnabar/20 bg-parchment/95 px-4 py-2.5 shadow-panel backdrop-blur">
@@ -24,7 +29,7 @@ export function EventBubble() {
             {resolveLocalized(event.name, locale)}
           </p>
           <p className="mt-0.5 text-[10px] tabular-nums text-ink-soft/70">
-            {formatDate(eventStart(event), dateLocale)}
+            {formatDate(eventStart(event), dateLocale, datePrecision)}
           </p>
         </div>
 

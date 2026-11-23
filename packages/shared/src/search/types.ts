@@ -1,10 +1,12 @@
 import type { AtlasDataset, AtlasTime, LocalizedString } from '../types';
+import type { DatePrecision } from '../time/date';
 
 export interface SearchEvent {
   id: string;
   name: LocalizedString;
   date: string;
   endDate?: string;
+  datePrecision?: DatePrecision;
   location: { lng: number; lat: number; place?: LocalizedString; regionIds?: string[] };
   entityIds: string[];
   category: string;

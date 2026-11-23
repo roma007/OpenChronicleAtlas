@@ -3,6 +3,22 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.264] - 2026-11-23
+
+### Fixed
+- **京杭大运河日期显示（M282）**：年精度数据不再显示占位的「1月1日」。
+  - `formatDate` 增加 `year` / `month` / `day` 精度；京杭大运河 manifest 设 `extensions.datePrecision: "year"`。
+  - 时间轴、事件详情、事件气泡、地区事件列表、路线详情、搜索结果均按年显示（如「960年」）。
+  - 年精度专题的日期跳转框改为年份数字输入（605—1901），不再使用日期选择器。
+  - 搜索索引为年精度事件写入 `datePrecision: "year"`；日精度事件不写，避免索引膨胀。
+  - 事件存储日期不变，仍是 `YYYY-MM-DD`，只改显示。
+
+### Verify
+- `pnpm validate:data`、`pnpm typecheck`、`pnpm lint`、`pnpm test`（140 项）、`pnpm build` 全部通过；
+  本地浏览器复核时间轴、事件详情、搜索页均显示年份。
+
+---
+
 ## [v1.0.263] - 2026-11-23
 
 ### Fixed

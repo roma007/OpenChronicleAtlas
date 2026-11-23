@@ -37,17 +37,32 @@ export function diffDays(a: AtlasTime, b: AtlasTime): number {
   return Math.round((a - b) / DAY_MS);
 }
 
-export function formatDate(t: AtlasTime, locale = 'zh-CN'): string {
+export type DatePrecision = 'year' | 'month' | 'day';
+
+export function formatDate(
+  t: AtlasTime,
+  locale = 'zh-CN',
+  precision: DatePrecision = 'day',
+): string {
+  const date = new Date(t);
+
   // Hermes 的 Intl 可能缺少中文 locale 数据，中文走手动格式化保证三端一致
   if (locale.toLowerCase().startsWith('zh')) {
-    const date = new Date(t);
-    return `${date.getUTCFullYear()}年${date.getUTCMonth() + 1}月${date.getUTCDate()}日`;
+    const year = date.getUTCFullYear();
+    if (precision === 'year') return `${year}年`;
+    if (precision === 'month') return `${year}年${date.getUTCMonth() + 1}月`;
+    return `${year}年${date.getUTCMonth() + 1}月${date.getUTCDate()}日`;
   }
 
+  const options: Intl.DateTimeFormatOptions =
+    precision === 'year'
+      ? { year: 'numeric' }
+      : precision === 'month'
+        ? { year: 'numeric', month: 'long' }
+        : { year: 'numeric', month: 'long', day: 'numeric' };
+
   return new Intl.DateTimeFormat(locale, {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
+    ...options,
     timeZone: 'UTC',
   }).format(t);
 }

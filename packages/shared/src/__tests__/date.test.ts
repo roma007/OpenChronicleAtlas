@@ -42,4 +42,11 @@ describe('时间计算', () => {
   it('formatDate 使用 UTC，不受本地时区影响', () => {
     expect(formatDate(parseDateString('1935-01-15'), 'zh-CN')).toContain('1935');
   });
+
+  it('formatDate 支持年 / 月精度', () => {
+    const time = parseDateString('0960-01-01');
+    expect(formatDate(time, 'zh-CN', 'year')).toBe('960年');
+    expect(formatDate(time, 'zh-CN', 'month')).toBe('960年1月');
+    expect(formatDate(time, 'zh-CN', 'day')).toBe('960年1月1日');
+  });
 });
