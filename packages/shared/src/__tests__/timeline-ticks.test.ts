@@ -39,6 +39,16 @@ describe('generateTicks', () => {
     expect(ticks.length).toBeLessThanOrEqual(12);
   });
 
+  it('千年跨度不会退化成日刻度', () => {
+    const timeline = createTimeline({ start: '0605-01-01', end: '1901-12-31' });
+    const ticks = generateTicks(timeline, 1200, { minLabelPx: 72 });
+
+    expect(ticks.length).toBeLessThanOrEqual(12);
+    expect(ticks.every((tick) => tick.unit === 'year')).toBe(true);
+    expect(ticks[0]!.time).toBeGreaterThanOrEqual(timeline.start);
+    expect(ticks.at(-1)!.time).toBeLessThanOrEqual(timeline.end);
+  });
+
   it('刻度时间严格递增且不重复', () => {
     const timeline = createTimeline({ start: '1934-10-10', end: '1936-10-22' });
     const ticks = generateTicks(timeline, 1000);
