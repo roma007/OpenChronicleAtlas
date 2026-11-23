@@ -1986,5 +1986,844 @@
       "sunce-jiangdong-195"
     ],
     "importance": 2
+  },
+  {
+    "id": "ying-xian-di-196",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "曹操迎献帝都许",
+      "en": "Cao Cao welcomes Emperor Xian and moves the capital to Xu"
+    },
+    "date": "0196-08-01",
+    "location": {
+      "lng": 113.85,
+      "lat": 34.03,
+      "place": {
+        "zh": "豫州颍川许县（今河南许昌）",
+        "en": "Xu county, Yingchuan (modern Xuchang, Henan)"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "曹操迎汉献帝自洛阳东迁许县，从此“奉天子以令不臣”，取得政治主动权。",
+      "en": "Cao Cao escorted Emperor Xian from Luoyang to Xu county, gaining the political initiative of acting in the emperor’s name."
+    },
+    "description": {
+      "zh": "建安元年（196）七月，献帝在杨奉、韩暹、董承等护送下还洛阳，宫室残破、百官乏食。曹操采纳荀彧“奉主上以从民望”之议，率军至洛阳，以洛阳残破、漕运艰难为由，于八月庚申（公历 10 月 7 日）奉车驾出轘辕东行，迁都许县；献帝以曹操为大将军，封武平侯。此后曹操以天子名义号令诸侯，在政治上取得对各路势力的优势。迎驾与迁都的具体日程，《三国志》《后汉书》所载略有出入，此处取通行说法。",
+      "en": "In the seventh month of 196 Emperor Xian returned to a ruined Luoyang under the escort of Yang Feng, Han Xian and Dong Cheng. Cao Cao, advised by Xun Yu to support the emperor and win popular support, came to Luoyang. Citing the city’s ruin and supply difficulties, he moved the court east through Huanyuan on the gengshen day of the eighth month (7 October 196) to Xu county. The emperor made him general-in-chief and marquis of Wuping. Cao Cao thereafter acted in the emperor’s name, gaining a political advantage over rival warlords. The Sanguozhi and Hou Hanshu differ in detail; the conventional account is followed here."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·武帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "建安元年迎天子、都许、为大将军"
+      },
+      {
+        "title": "《后汉书·孝献帝纪》",
+        "author": "范晔",
+        "year": 445,
+        "note": "献帝东归洛阳与迁许的月份"
+      },
+      {
+        "title": "《资治通鉴》卷六十二",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安元年八月庚申车驾东出轘辕"
+      }
+    ],
+    "relatedIds": [
+      "guandu-200"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "wancheng-197",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "宛城之战",
+      "en": "Battle of Wancheng"
+    },
+    "date": "0197-01-01",
+    "location": {
+      "lng": 112.53,
+      "lat": 33.0,
+      "place": {
+        "zh": "荆州南阳宛城（今河南南阳）",
+        "en": "Wancheng, Nanyang (modern Nanyang, Henan)"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "曹操南征张绣，张绣先降后叛，夜袭曹营，曹操败走，曹昂、曹安民、典韦战死。",
+      "en": "Cao Cao marched against Zhang Xiu. Zhang Xiu surrendered, then revolted and raided Cao’s camp; Cao fled, losing his son Cao Ang, nephew Cao Anmin and guard Dian Wei."
+    },
+    "description": {
+      "zh": "建安二年（197）正月，曹操率军至淯水，张绣举众投降。曹操纳张济遗孀为妾，张绣愤恨；又闻曹操欲杀己，遂用贾诩之计突袭曹营。曹操仓促应战，败走舞阴，长子曹昂、侄子曹安民、校尉典韦战死，曹操亦中流矢。此战使曹操失去继承人与宿卫大将，张绣则一度据南阳自守；建安四年张绣再降，官渡之战中为曹操所用。日期依《资治通鉴》系于建安二年正月，具体日份待考。",
+      "en": "In the first month of 197 Cao Cao reached the Yu river and Zhang Xiu surrendered. Cao took Zhang Ji’s widow as a concubine, angering Zhang Xiu, who also learned that Cao planned to kill him. On Jia Xu’s advice Zhang Xiu raided Cao’s camp. Cao fled to Wuyin; his eldest son Cao Ang, nephew Cao Anmin and guard commander Dian Wei were killed, and Cao himself was wounded by a stray arrow. The defeat cost Cao his heir and his chief bodyguard, while Zhang Xiu held Nanyang for a time. Zhang surrendered again in 199 and served Cao at Guandu. The date follows the Zizhi Tongjian’s first month of 197; the exact day is uncertain."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·武帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "建安二年春正月征张绣，至淯水，张绣降而复叛"
+      },
+      {
+        "title": "《三国志·魏书·张绣传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "张绣降曹、贾诩献策与再降"
+      },
+      {
+        "title": "《三国志·魏书·典韦传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "典韦守门战死，曹昂、曹安民遇害"
+      },
+      {
+        "title": "《资治通鉴》卷六十二",
+        "author": "司马光",
+        "year": 1084,
+        "note": "系于建安二年正月"
+      }
+    ],
+    "relatedIds": [
+      "guandu-200"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "baima-yanjin-200",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "白马延津之战",
+      "en": "Battles of Baima and Yanjin"
+    },
+    "date": "0200-04-01",
+    "location": {
+      "lng": 114.52,
+      "lat": 35.58,
+      "place": {
+        "zh": "兖州东郡白马（今河南滑县东）",
+        "en": "Baima, Dong commandery (east of modern Hua county, Henan)"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "袁绍遣颜良围白马，曹操声东击西解围，关羽斩颜良；又于延津诱敌斩文丑。",
+      "en": "Yuan Shao sent Yan Liang to besiege Baima. Cao Cao relieved it by a feint, Guan Yu killed Yan Liang, and Cao then lured and killed Wen Chou at Yanjin."
+    },
+    "description": {
+      "zh": "建安五年（200）二月，袁绍遣颜良攻东郡太守刘延于白马。四月，曹操用荀攸之计，佯向延津渡河，诱袁绍分兵，自率轻骑东袭白马；关羽于阵中斩颜良，解白马之围。曹操随即沿河西撤，袁绍渡河追击，曹操于延津南设伏，弃辎重诱敌，大破追兵，斩文丑。此役为官渡之战的前哨，袁绍连失颜良、文丑两员大将。",
+      "en": "In the second month of 200 Yuan Shao sent Yan Liang against Liu Yan at Baima. In the fourth month Cao Cao, on Xun You’s advice, feigned a crossing at Yanjin to split Yuan’s forces, then led light cavalry east to relieve Baima; Guan Yu killed Yan Liang in the field. Cao withdrew along the river. Yuan crossed in pursuit, and Cao set an ambush south of Yanjin, abandoning baggage as bait and routing the pursuers, killing Wen Chou. The battles were the prelude to Guandu and cost Yuan Shao two of his best commanders."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·武帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "建安五年二月至四月白马、延津战事"
+      },
+      {
+        "title": "《三国志·蜀书·关羽传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "关羽于万军中斩颜良"
+      },
+      {
+        "title": "《三国志·魏书·袁绍传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "颜良、文丑之败"
+      },
+      {
+        "title": "《资治通鉴》卷六十三",
+        "author": "司马光",
+        "year": 1084,
+        "note": "荀攸声东击西之计"
+      }
+    ],
+    "relatedIds": [
+      "guandu-200"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "wuchao-200",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "乌巢焚粮",
+      "en": "Burning of Wuchao"
+    },
+    "date": "0200-10-01",
+    "location": {
+      "lng": 114.3,
+      "lat": 35.0,
+      "place": {
+        "zh": "兖州陈留乌巢（今河南延津东南，一说封丘西）",
+        "en": "Wuchao, Chenliu (southeast of modern Yanjin, Henan; some place it west of Fengqiu)"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "许攸降曹献计，曹操夜袭乌巢，焚袁绍粮草，斩淳于琼，官渡战局逆转。",
+      "en": "Xu You defected and advised Cao Cao to raid Wuchao. Cao burned Yuan Shao’s grain, killed Chunyu Qiong and turned the tide at Guandu."
+    },
+    "description": {
+      "zh": "建安五年（200）十月，袁绍谋士许攸因家人犯法获罪，怒而降曹，告以袁绍粮草尽屯乌巢、守备不严。曹操留荀攸、曹洪守营，自率步骑五千，用袁军旗号夜行，直趋乌巢，围屯纵火。袁绍不听张郃救乌巢之议，仅遣轻骑救援，主力攻曹营不下；乌巢粮尽焚，淳于琼等被杀。袁军军心崩溃，张郃、高览降曹，袁绍仅率八百骑北渡。乌巢地望有延津、封丘等说，今取延津东南代表点。",
+      "en": "In the tenth month of 200 Yuan Shao’s adviser Xu You, facing punishment over his family, defected to Cao Cao and revealed that Yuan’s grain was stored at Wuchao under weak guard. Cao left Xun You and Cao Hong to hold camp and led five thousand horse and foot under Yuan colors at night to Wuchao, surrounded the depot and set it ablaze. Yuan rejected Zhang He’s advice to relieve Wuchao, sent only light cavalry, and failed to take Cao’s camp. With the grain gone and Chunyu Qiong killed, Yuan’s army collapsed; Zhang He and Gao Lan surrendered and Yuan fled north with some eight hundred riders. The location of Wuchao is disputed between Yanjin and Fengqiu; a representative point southeast of Yanjin is used."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·武帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "许攸来降、夜袭乌巢、斩淳于琼"
+      },
+      {
+        "title": "《三国志·魏书·荀攸传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "荀攸劝曹操袭乌巢"
+      },
+      {
+        "title": "《三国志·魏书·张辽传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "张辽从征乌巢"
+      },
+      {
+        "title": "《资治通鉴》卷六十三",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安五年十月乌巢之役"
+      }
+    ],
+    "relatedIds": [
+      "guandu-200"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "shuiyan-qijun-219",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "关羽水淹七军",
+      "en": "Guan Yu floods the seven armies"
+    },
+    "date": "0219-08-01",
+    "location": {
+      "lng": 112.13,
+      "lat": 32.03,
+      "place": {
+        "zh": "荆州襄阳樊城（今湖北襄阳樊城）",
+        "en": "Fancheng, Xiangyang (modern Fancheng, Xiangyang, Hubei)"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "关羽围樊城，汉水暴涨，于禁七军皆没，于禁降、庞德被杀，关羽威震华夏。",
+      "en": "Guan Yu besieged Fancheng. The Han river flooded and Yu Jin’s seven armies were destroyed; Yu Jin surrendered, Pang De was killed, and Guan Yu’s prestige peaked."
+    },
+    "description": {
+      "zh": "建安二十四年（219）七月，关羽率荆州军北伐，围曹仁于樊城，曹操遣于禁、庞德率七军救援。八月，汉水暴涨，于禁所部七军被淹，于禁投降，庞德力战被擒杀。关羽乘势围樊城、襄阳，许都以南群盗响应，曹操一度议迁都以避其锋。此役为关羽军事生涯的顶点，也直接促使孙权与曹操联合、吕蒙袭取荆州。",
+      "en": "In the seventh month of 219 Guan Yu led the Jingzhou army north and besieged Cao Ren at Fancheng. Cao Cao sent Yu Jin and Pang De with seven armies to relieve it. In the eighth month the Han river flooded; Yu Jin’s seven armies were submerged, Yu Jin surrendered, and Pang De was captured and killed after a hard fight. Guan Yu pressed the siege of Fancheng and Xiangyang, bandits south of Xuchang responded, and Cao Cao briefly considered moving the capital. The victory was the height of Guan Yu’s career and prompted Sun Quan to ally with Cao Cao and send Lü Meng against Jingzhou."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·蜀书·关羽传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "建安二十四年围樊、水淹七军、威震华夏"
+      },
+      {
+        "title": "《三国志·魏书·于禁传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "于禁七军没于汉水，降关羽"
+      },
+      {
+        "title": "《三国志·魏书·庞德传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "庞德力战被擒，不屈而死"
+      },
+      {
+        "title": "《资治通鉴》卷六十八",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安二十四年八月汉水暴溢"
+      }
+    ],
+    "relatedIds": [
+      "guan-yu-219",
+      "jingzhou-wu-219"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "caocao-death-220",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "曹操去世",
+      "en": "Death of Cao Cao"
+    },
+    "date": "0220-01-01",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "司隶洛阳（今河南洛阳）",
+        "en": "Luoyang (modern Luoyang, Henan)"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "建安二十五年正月庚子，曹操病逝于洛阳，年六十六；曹丕嗣位，汉魏禅代进入倒计时。",
+      "en": "Cao Cao died at Luoyang in the first month of 220 aged sixty-six. Cao Pi succeeded him, and the Han–Wei abdication followed within the year."
+    },
+    "description": {
+      "zh": "建安二十五年（220）正月，曹操自汉中还至洛阳，庚子日（公历 1 月 23 日）病逝，年六十六。遗令薄葬、将士不得离屯。曹丕自邺城嗣魏王位，同年十月受汉献帝禅让，建立魏朝。曹操之死标志着汉末群雄时代的终结与三国鼎立的开端。《三国志》仅记“崩于洛阳”，未载明确死因，后世头风等说均无确证。",
+      "en": "In the first month of 220 Cao Cao returned from Hanzhong to Luoyang and died there on the gengzi day (23 January 220), aged sixty-six. His will ordered a simple burial and forbade troops to leave their posts. Cao Pi succeeded as King of Wei from Ye and in the tenth month accepted Emperor Xian’s abdication, founding Wei. Cao’s death marks the end of the warlord era and the beginning of the Three Kingdoms. The Sanguozhi records only that he “died at Luoyang”; later explanations such as chronic headache are unproven."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·武帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "建安二十五年正月庚子崩于洛阳，年六十六"
+      },
+      {
+        "title": "《资治通鉴》卷六十九",
+        "author": "司马光",
+        "year": 1084,
+        "note": "曹操卒、曹丕嗣位与遗令"
+      }
+    ],
+    "relatedIds": [
+      "caopi-chengdi-220"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "caopi-chengdi-220",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "曹丕称帝",
+      "en": "Cao Pi founds Wei"
+    },
+    "date": "0220-12-01",
+    "location": {
+      "lng": 113.95,
+      "lat": 33.82,
+      "place": {
+        "zh": "豫州颍川繁阳亭（今河南临颍繁城）",
+        "en": "Fanyang Pavilion, Yingchuan (modern Fancheng, Linying, Henan)"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "曹丕在繁阳亭受汉献帝禅让，称帝建魏，改元黄初，定都洛阳，东汉灭亡。",
+      "en": "Cao Pi accepted Emperor Xian’s abdication at Fanyang Pavilion, founded Wei, changed the era to Huangchu and made Luoyang the capital, ending the Eastern Han."
+    },
+    "description": {
+      "zh": "延康元年（220）十月，汉献帝下诏禅位，曹丕三让后于十月辛未（公历 12 月 11 日）在颍川繁阳亭登坛受禅，改元黄初，国号魏，定都洛阳；十二月追尊曹操为武皇帝。汉朝四百余年统治至此结束，三国中的曹魏正式建立。受禅地点有繁阳亭、许昌等说，今从《三国志·文帝纪》裴注所引《献帝传》繁阳亭说。",
+      "en": "In the tenth month of 220 Emperor Xian issued the abdication edict. After three ritual refusals Cao Pi ascended the altar at Fanyang Pavilion in Yingchuan on the xinwei day (11 December 220), changed the era to Huangchu, proclaimed the state of Wei and made Luoyang the capital; in the twelfth month Cao Cao was posthumously honoured as Emperor Wu. Four centuries of Han rule ended and Wei formally began. The site of the abdication is given as Fanyang Pavilion or Xuchang; the Fanyang account in the commentary to the Wendi ji is followed."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·文帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "延康元年十月受禅、改元黄初、定都洛阳"
+      },
+      {
+        "title": "《后汉书·孝献帝纪》",
+        "author": "范晔",
+        "year": 445,
+        "note": "建安二十五年十月禅位于魏"
+      },
+      {
+        "title": "《资治通鉴》卷六十九",
+        "author": "司马光",
+        "year": 1084,
+        "note": "繁阳亭受禅与改元"
+      }
+    ],
+    "relatedIds": [
+      "caocao-death-220",
+      "liubei-chengdi-221"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "liubei-chengdi-221",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "刘备称帝",
+      "en": "Liu Bei proclaims himself emperor"
+    },
+    "date": "0221-05-01",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "益州成都（今四川成都）",
+        "en": "Chengdu (modern Chengdu, Sichuan)"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "刘备在成都武担山之南即皇帝位，国号汉，改元章武，以承汉祚。",
+      "en": "Liu Bei took the imperial throne south of Wudan Hill in Chengdu, proclaimed the state of Han and changed the era to Zhangwu."
+    },
+    "description": {
+      "zh": "章武元年（221）四月丙午（公历 5 月 15 日），刘备在成都武担山之南即皇帝位，国号仍为“汉”，改元章武，以诸葛亮为丞相。此前曹丕代汉，传言献帝遇害，刘备为之发丧，遂以汉室宗亲身份继承汉统，史称蜀汉。即位仪式在成都城内，无军事行军，故不设路线。",
+      "en": "On the bingwu day of the fourth month of 221 (15 May 221) Liu Bei took the throne south of Wudan Hill in Chengdu. He kept the state name Han, changed the era to Zhangwu and made Zhuge Liang chancellor. After Cao Pi replaced the Han and rumours spread that Emperor Xian had been killed, Liu Bei held mourning and claimed the Han succession as a member of the imperial clan; historians call his state Shu Han. The ceremony took place inside Chengdu with no military march, so no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·蜀书·先主传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "章武元年四月丙午即皇帝位于成都武担之南"
+      },
+      {
+        "title": "《资治通鉴》卷六十九",
+        "author": "司马光",
+        "year": 1084,
+        "note": "刘备称帝、改元章武、以诸葛亮为丞相"
+      }
+    ],
+    "relatedIds": [
+      "caopi-chengdi-220",
+      "yiling-shu-221"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "sunquan-chengdi-229",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "孙权称帝",
+      "en": "Sun Quan proclaims himself emperor"
+    },
+    "date": "0229-05-01",
+    "location": {
+      "lng": 114.89,
+      "lat": 30.4,
+      "place": {
+        "zh": "荆州武昌（今湖北鄂州）",
+        "en": "Wuchang (modern Ezhou, Hubei)"
+      }
+    },
+    "entityIds": [
+      "wu"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "孙权在武昌称帝，国号吴，改元黄龙；同年九月迁都建业。",
+      "en": "Sun Quan took the imperial throne at Wuchang, proclaimed the state of Wu and changed the era to Huanglong; in the ninth month he moved the capital to Jianye."
+    },
+    "description": {
+      "zh": "黄龙元年（229）四月丙申（公历 5 月 23 日），孙权在武昌（今湖北鄂州）即皇帝位，国号吴，改元黄龙，追尊孙坚为武烈皇帝、孙策为长沙桓王。此前孙权已据江东、取荆州、破刘备于夷陵，至此正式与魏、汉鼎足。同年秋九月，孙权迁都建业（今江苏南京），以陆逊辅太子孙登留守武昌。称帝后吴、蜀互遣使申盟，共约灭魏分天下。",
+      "en": "On the bingshen day of the fourth month of 229 (23 May 229) Sun Quan took the throne at Wuchang (modern Ezhou, Hubei), proclaimed the state of Wu, changed the era to Huanglong, and posthumously honoured Sun Jian and Sun Ce. Having already held the Lower Yangzi, taken Jingzhou and defeated Liu Bei at Yiling, he now stood as the third sovereign. In the ninth month he moved the capital to Jianye (modern Nanjing), leaving Lu Xun to assist the crown prince Sun Deng at Wuchang. Wu and Shu exchanged envoys and renewed their alliance to divide Wei."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·吴书·吴主传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "黄龙元年四月丙申即帝位于武昌，秋九月迁都建业"
+      },
+      {
+        "title": "《资治通鉴》卷七十一",
+        "author": "司马光",
+        "year": 1084,
+        "note": "孙权称帝、改元黄龙、迁都建业"
+      }
+    ],
+    "relatedIds": [
+      "sunquan-wuchang-221",
+      "yiling-wu-222"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "zhuge-nanzheng-225",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "诸葛亮南征",
+      "en": "Zhuge Liang’s southern campaign"
+    },
+    "date": "0225-03-01",
+    "endDate": "0225-12-31",
+    "location": {
+      "lng": 102.71,
+      "lat": 25.04,
+      "place": {
+        "zh": "益州益州郡滇池（今云南昆明晋宁）",
+        "en": "Dianchi, Yizhou commandery (modern Jinning, Kunming, Yunnan)"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "诸葛亮率军南征，马忠、李恢分道并进，平定南中四郡，稳定蜀汉后方。",
+      "en": "Zhuge Liang campaigned in the south with Ma Zhong and Li Hui on separate axes, pacifying the four southern commanderies and securing Shu Han’s rear."
+    },
+    "description": {
+      "zh": "建兴三年（225）三月，诸葛亮率主力自成都南下，经僰道、越嶲，五月渡泸水（金沙江），深入南中；马忠攻牂牁，李恢攻益州郡，三路并进。诸葛亮采纳马谡“攻心为上”之策，对当地首领孟获七擒七纵（此说出自《华阳国志》《汉晋春秋》，《三国志》本传未载细节），南中四郡平定。战后蜀汉调整郡县、征调南中物资兵员，为随后的北伐提供后方。具体进军路线与“七擒”地点异说较多，本段为示意简化。",
+      "en": "In the third month of 225 Zhuge Liang led the main force south from Chengdu through Bodao and Yuexi, crossed the Lu river (Jinsha) in the fifth month and entered the south. Ma Zhong attacked Zangke and Li Hui Yizhou commandery on separate axes. On Ma Su’s advice to “win hearts rather than cities”, Zhuge is said to have captured and released the local leader Meng Huo seven times—an account found in the Huayang Guozhi and Han Jin Chunqiu but not detailed in the Sanguozhi. The four commanderies were pacified; Shu Han reorganised counties and drew supplies and troops from the south for the northern expeditions. The route and the “seven captures” sites are disputed; this line is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·蜀书·诸葛亮传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "建兴三年春南征，其秋悉平"
+      },
+      {
+        "title": "《华阳国志·南中志》",
+        "author": "常璩",
+        "year": 355,
+        "note": "南中四郡、孟获与七擒七纵"
+      },
+      {
+        "title": "《资治通鉴》卷七十",
+        "author": "司马光",
+        "year": 1084,
+        "note": "三路南征与五月渡泸"
+      },
+      {
+        "title": "《出师表》",
+        "author": "诸葛亮",
+        "year": 227,
+        "note": "“五月渡泸，深入不毛”"
+      }
+    ],
+    "relatedIds": [
+      "qishan-228"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "chencang-228",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "陈仓之战",
+      "en": "Battle of Chencang"
+    },
+    "date": "0228-12-01",
+    "endDate": "0229-01-31",
+    "location": {
+      "lng": 107.14,
+      "lat": 34.36,
+      "place": {
+        "zh": "司隶右扶风陈仓（今陕西宝鸡）",
+        "en": "Chencang, Youfufeng (modern Baoji, Shaanxi)"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "诸葛亮出散关围陈仓，郝昭坚守二十余日，蜀军粮尽退兵，斩魏追将王双。",
+      "en": "Zhuge Liang left Sanguan and besieged Chencang. Hao Zhao held for over twenty days; the Shu army withdrew for lack of food and killed the pursuing Wei general Wang Shuang."
+    },
+    "description": {
+      "zh": "建兴六年（228）冬，诸葛亮趁魏军东下、关中空虚，出散关围攻陈仓。魏将郝昭以千余人拒守，诸葛亮用云梯、冲车、地道等法攻城，郝昭随方拒之，二十余日不克。蜀军粮尽，又闻魏援军将至，遂退兵；魏将王双率骑追击，被诸葛亮回军斩杀。此役显示蜀军攻坚能力不足，也促使诸葛亮此后更重视粮运与陇右。陈仓城址在今陕西宝鸡陈仓区一带，坐标为示意。",
+      "en": "In the winter of 228 Zhuge Liang took advantage of the Wei army’s move east and the weakness of the Guanzhong garrison to leave Sanguan and besiege Chencang. The Wei commander Hao Zhao held with about a thousand men; Zhuge used scaling ladders, battering rams and tunnels, and Hao countered each device. After more than twenty days the Shu army ran short of food and, hearing that relief was coming, withdrew. The Wei general Wang Shuang pursued and was killed when Zhuge turned on him. The siege exposed Shu’s weakness in reducing fortresses and pushed Zhuge to pay more attention to supply and the Longyou region. The site lies in modern Chencang district, Baoji; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·蜀书·诸葛亮传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "冬出散关围陈仓，粮尽而还，斩王双"
+      },
+      {
+        "title": "《三国志·魏书·曹真传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "曹真遣郝昭守陈仓"
+      },
+      {
+        "title": "《资治通鉴》卷七十一",
+        "author": "司马光",
+        "year": 1084,
+        "note": "郝昭拒守与王双追击"
+      }
+    ],
+    "relatedIds": [
+      "qishan-228",
+      "jieting-228"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xingshi-244",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "兴势之战",
+      "en": "Battle of Xingshi"
+    },
+    "date": "0244-04-01",
+    "endDate": "0244-05-31",
+    "location": {
+      "lng": 107.55,
+      "lat": 33.22,
+      "place": {
+        "zh": "益州汉中郡兴势（今陕西洋县北）",
+        "en": "Xingshi, Hanzhong (north of modern Yang county, Shaanxi)"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "曹爽率十余万攻汉中，王平据兴势拒守，费祎率援军断其后，魏军退走。",
+      "en": "Cao Shuang attacked Hanzhong with over 100,000 men. Wang Ping held Xingshi and Fei Yi cut the Wei line of retreat, forcing a withdrawal."
+    },
+    "description": {
+      "zh": "正始五年（244）三月，曹爽不听司马懿劝阻，率十余万人自骆谷攻汉中。蜀汉镇北大将军王平以不满三万之众，采纳护军刘敏之议，先据兴势险要，多张旗帜绵延百余里；曹爽军入谷后补给困难，牛马骡驴多死。费祎又率军自成都东援，进据三岭截断魏军退路，曹爽苦战得脱，死伤甚众。此役是曹爽声望由盛转衰的起点，也巩固了蜀汉汉中防线。",
+      "en": "In the third month of 244 Cao Shuang, ignoring Sima Yi’s objections, led more than 100,000 men through Luo valley against Hanzhong. Wang Ping, with fewer than 30,000, followed the advice of the protector Liu Min and occupied the Xingshi defile first, spreading banners over a hundred li. Once in the valley Cao Shuang’s supply line failed and many transport animals died. Fei Yi brought reinforcements east from Chengdu and seized the Sanling passes, cutting the retreat; Cao Shuang escaped after hard fighting with heavy losses. The battle marked the turning point in Cao Shuang’s fortunes and secured Shu Han’s Hanzhong front."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·蜀书·王平传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "王平据兴势、刘敏多张旗帜拒曹爽"
+      },
+      {
+        "title": "《三国志·魏书·曹爽传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "正始五年率众十余万伐蜀，入骆谷"
+      },
+      {
+        "title": "《三国志·蜀书·费祎传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "费祎率军赴援、进据三岭"
+      },
+      {
+        "title": "《资治通鉴》卷七十四",
+        "author": "司马光",
+        "year": 1084,
+        "note": "兴势之战与魏军退走"
+      }
+    ],
+    "relatedIds": [
+      "hanzhong-shu-219",
+      "gaopingling-249"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yinputoudu-263",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "邓艾偷渡阴平",
+      "en": "Deng Ai crosses the Yinping trail"
+    },
+    "date": "0263-10-01",
+    "endDate": "0263-11-30",
+    "location": {
+      "lng": 104.68,
+      "lat": 32.94,
+      "place": {
+        "zh": "益州阴平（今甘肃文县）",
+        "en": "Yinping (modern Wen county, Gansu)"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "邓艾自阴平道行无人之地七百余里，凿山通道，破江油，直逼成都。",
+      "en": "Deng Ai crossed the Yinping trail through seven hundred li of uninhabited country, cut a road through the mountains, took Jiangyou and threatened Chengdu."
+    },
+    "description": {
+      "zh": "景元四年（263）十月，魏军三路伐蜀，钟会主力攻剑阁，姜维坚守不下。邓艾率偏师自阴平道，行无人之地七百余里，凿山通道、造作桥阁，山高谷深、粮运将匮，濒于危殆；至江油，蜀守将马邈投降。邓艾继续南下，破涪城，与诸葛瞻战于绵竹。此役绕过剑阁天险，是魏灭蜀的关键奇袭。阴平道具体路线异说较多，本段为示意简化。",
+      "en": "In the tenth month of 263 the Wei army advanced in three columns. Zhong Hui’s main force was held at Jiange by Jiang Wei. Deng Ai took a detached force along the Yinping trail, crossing more than seven hundred li of uninhabited country, cutting a road and building bridges and galleries; with mountains high, valleys deep and supplies nearly exhausted, the column came close to disaster. At Jiangyou the Shu commander Ma Miao surrendered. Deng continued south, took Fu and fought Zhuge Zhan at Mianzhu. The march bypassed the Jiange barrier and was the decisive stroke of the conquest of Shu. The exact Yinping route is disputed; this line is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·邓艾传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "自阴平行无人之地七百余里，凿山通道，至江油"
+      },
+      {
+        "title": "《资治通鉴》卷七十八",
+        "author": "司马光",
+        "year": 1084,
+        "note": "景元四年邓艾偷渡阴平"
+      }
+    ],
+    "relatedIds": [
+      "mie-shu-263",
+      "mianzhu-263"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "mianzhu-263",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "绵竹之战",
+      "en": "Battle of Mianzhu"
+    },
+    "date": "0263-11-01",
+    "location": {
+      "lng": 104.2,
+      "lat": 31.35,
+      "place": {
+        "zh": "益州广汉郡绵竹（今四川德阳绵竹）",
+        "en": "Mianzhu, Guanghan (modern Mianzhu, Deyang, Sichuan)"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "邓艾破诸葛瞻于绵竹，诸葛瞻父子战死，成都门户洞开，刘禅出降。",
+      "en": "Deng Ai defeated Zhuge Zhan at Mianzhu; Zhuge Zhan and his son died, Chengdu lay open and Liu Shan surrendered."
+    },
+    "description": {
+      "zh": "景元四年（263）十一月，邓艾自江油南下，破涪城，蜀汉卫将军诸葛瞻率诸军拒于绵竹。诸葛瞻不听黄崇抢占险要之谏，列阵平地；邓艾遣子邓忠与师纂分左右夹击，蜀军大败，诸葛瞻及子诸葛尚、尚书张遵等战死。绵竹失守后，成都无险可守，刘禅采纳谯周之议，遣使向邓艾投降，蜀汉灭亡。绵竹故城在今四川德阳绵竹市一带，坐标为示意。",
+      "en": "In the eleventh month of 263 Deng Ai advanced south from Jiangyou, took Fu, and met the Shu general Zhuge Zhan at Mianzhu. Zhuge Zhan ignored Huang Chong’s advice to seize the high ground and drew up on open ground. Deng sent his son Deng Zhong and Shi Zuan to attack from both wings; the Shu army was routed and Zhuge Zhan, his son Zhuge Shang and the minister Zhang Zun were killed. With Mianzhu lost Chengdu had no defensible line; Liu Shan took Qiao Zhou’s advice, sent envoys to surrender to Deng Ai, and Shu Han ended. The old city lies near modern Mianzhu, Deyang; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·邓艾传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "破诸葛瞻于绵竹，进军成都"
+      },
+      {
+        "title": "《三国志·蜀书·诸葛瞻传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "诸葛瞻拒邓艾于绵竹，战败死"
+      },
+      {
+        "title": "《资治通鉴》卷七十八",
+        "author": "司马光",
+        "year": 1084,
+        "note": "绵竹之战与刘禅出降"
+      }
+    ],
+    "relatedIds": [
+      "yinputoudu-263",
+      "mie-shu-263"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "hefei-xincheng-234",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "合肥新城之战",
+      "en": "Siege of Hefei New City"
+    },
+    "date": "0234-05-01",
+    "endDate": "0234-07-31",
+    "location": {
+      "lng": 117.23,
+      "lat": 31.82,
+      "place": {
+        "zh": "扬州九江郡合肥新城（今安徽合肥）",
+        "en": "Hefei New City, Jiujiang (modern Hefei, Anhui)"
+      }
+    },
+    "entityIds": [
+      "wu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "孙权率十万攻合肥新城，守军拒守，吴军攻城不克、士卒多病而退。",
+      "en": "Sun Quan attacked Hefei New City with 100,000 men; the garrison held out and the Wu army withdrew after failing to take it and losing men to sickness."
+    },
+    "description": {
+      "zh": "青龙二年（234）五月，孙权乘诸葛亮出斜谷、魏军西顾之机，率十万之众攻合肥新城。魏征东将军满宠欲率军赴援，田豫等认为吴军大举而来、意在诱敌，劝其持重；守军据城拒守，吴军攻城二十余日不下，士卒多病，又闻魏明帝亲率大军东来，遂烧攻具退走。此役与同年诸葛亮五丈原之战相呼应，显示魏军两线作战仍能守住淮南。合肥新城为满宠所筑，故城在今合肥西北，坐标为示意。",
+      "en": "In the fifth month of 234 Sun Quan, exploiting Zhuge Liang’s advance through Xie valley and Wei’s focus on the west, attacked Hefei New City with 100,000 men. The Wei general Man Chong wanted to march to its relief, but Tian Yu and others argued that the massive Wu move was a lure and advised caution. The garrison held the city; after more than twenty days the siege failed, sickness spread, and on hearing that Emperor Ming was coming east with the main army Sun burned his siege engines and withdrew. The siege echoed Zhuge Liang’s Wuzhang Plain campaign that year and showed that Wei could hold Huainan while fighting on two fronts. Man Chong built the new city northwest of modern Hefei; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·吴书·吴主传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "青龙二年五月孙权攻合肥新城，不克而还"
+      },
+      {
+        "title": "《三国志·魏书·满宠传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "满宠守合肥新城、设伏拒吴"
+      },
+      {
+        "title": "《资治通鉴》卷七十二",
+        "author": "司马光",
+        "year": 1084,
+        "note": "孙权攻合肥新城与魏明帝东征"
+      }
+    ],
+    "relatedIds": [
+      "hefei-215",
+      "wuzhangyuan-234"
+    ],
+    "importance": 2
   }
 ]

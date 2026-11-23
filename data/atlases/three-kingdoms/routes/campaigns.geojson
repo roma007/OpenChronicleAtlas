@@ -1333,6 +1333,462 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.85,
+            34.03
+          ],
+          [
+            112.45,
+            34.62
+          ],
+          [
+            113.85,
+            34.03
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0196-07-01",
+        "endDate": "0196-09-30",
+        "order": 34,
+        "segmentType": "advance",
+        "name": {
+          "zh": "许—洛阳—许（迎献帝）",
+          "en": "Xu–Luoyang–Xu (escorting Emperor Xian)"
+        },
+        "description": {
+          "zh": "曹操自许县西赴洛阳迎献帝，复奉车驾东还许都。路线为示意，具体道路待考。",
+          "en": "Cao Cao went west from Xu to Luoyang to receive Emperor Xian, then escorted the court back east to Xu. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.85,
+            34.03
+          ],
+          [
+            112.53,
+            33.0
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0197-01-01",
+        "endDate": "0197-03-31",
+        "order": 35,
+        "segmentType": "advance",
+        "name": {
+          "zh": "许—宛（宛城之战）",
+          "en": "Xu–Wancheng (Battle of Wancheng)"
+        },
+        "description": {
+          "zh": "曹操自许县南征张绣至宛城，张绣先降后叛，曹操败还。路线示意。",
+          "en": "Cao Cao marched south from Xu against Zhang Xiu at Wancheng; Zhang surrendered, revolted, and Cao withdrew in defeat. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.85,
+            34.03
+          ],
+          [
+            114.52,
+            35.58
+          ],
+          [
+            114.2,
+            35.25
+          ],
+          [
+            113.95,
+            34.72
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0200-02-01",
+        "endDate": "0200-05-31",
+        "order": 36,
+        "segmentType": "advance",
+        "name": {
+          "zh": "许—白马—延津—官渡（白马延津之战）",
+          "en": "Xu–Baima–Yanjin–Guandu (Baima and Yanjin)"
+        },
+        "description": {
+          "zh": "曹操自许县北上救白马，解围后沿河西撤，于延津诱斩文丑，还军官渡。路线示意。",
+          "en": "Cao Cao marched north from Xu to relieve Baima, withdrew along the river, lured and killed Wen Chou at Yanjin, and returned to Guandu. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.9,
+            29.72
+          ],
+          [
+            112.2,
+            30.35
+          ],
+          [
+            112.14,
+            32.02
+          ],
+          [
+            113.85,
+            34.03
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0208-12-01",
+        "endDate": "0209-01-31",
+        "order": 37,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "赤壁—江陵—襄阳—许（曹操北还）",
+          "en": "Red Cliffs–Jiangling–Xiangyang–Xu (Cao’s retreat)"
+        },
+        "description": {
+          "zh": "赤壁败后，曹操自华容道退至江陵，留曹仁守江陵，自率主力北还襄阳、许县。路线示意。",
+          "en": "After the defeat at Red Cliffs Cao Cao withdrew through Huarong to Jiangling, left Cao Ren to hold the city, and led the main force north through Xiangyang to Xu. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.45,
+            34.62
+          ],
+          [
+            114.4,
+            36.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0220-01-01",
+        "endDate": "0220-02-28",
+        "order": 38,
+        "segmentType": "other",
+        "name": {
+          "zh": "洛阳—邺（归葬高陵）",
+          "en": "Luoyang–Ye (burial at Gaoling)"
+        },
+        "description": {
+          "zh": "曹操卒于洛阳，灵柩运回邺城，葬于高陵（今河南安阳安丰乡一带）。路线示意。",
+          "en": "Cao Cao died at Luoyang; his coffin was carried back to Ye and buried at Gaoling (near modern Anfeng, Anyang, Henan). The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.4,
+            36.3
+          ],
+          [
+            113.85,
+            34.03
+          ],
+          [
+            113.95,
+            33.82
+          ],
+          [
+            112.45,
+            34.62
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0220-10-01",
+        "endDate": "0220-12-31",
+        "order": 39,
+        "segmentType": "other",
+        "name": {
+          "zh": "邺—繁阳亭—洛阳（受禅与定都）",
+          "en": "Ye–Fanyang–Luoyang (abdication and new capital)"
+        },
+        "description": {
+          "zh": "曹丕自邺南下，至颍川繁阳亭受汉献帝禅让，随后定都洛阳。路线示意。",
+          "en": "Cao Pi went south from Ye, accepted Emperor Xian’s abdication at Fanyang Pavilion in Yingchuan, and then made Luoyang the capital. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.68,
+            32.94
+          ],
+          [
+            104.75,
+            31.78
+          ],
+          [
+            104.2,
+            31.35
+          ],
+          [
+            104.07,
+            30.67
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0263-10-01",
+        "endDate": "0263-11-30",
+        "order": 40,
+        "segmentType": "detachment",
+        "name": {
+          "zh": "阴平—江油—绵竹—成都（邓艾偷渡阴平）",
+          "en": "Yinping–Jiangyou–Mianzhu–Chengdu (Deng Ai’s march)"
+        },
+        "description": {
+          "zh": "邓艾率偏师自阴平道行无人之地七百余里，破江油、绵竹，直逼成都。路线为示意，阴平道具体走向待考。",
+          "en": "Deng Ai led a detached force along the Yinping trail through seven hundred li of uninhabited country, took Jiangyou and Mianzhu, and closed on Chengdu. The line is schematic and the exact trail is disputed."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.89,
+            30.4
+          ],
+          [
+            118.8,
+            32.06
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wu",
+        "startDate": "0229-05-01",
+        "endDate": "0229-09-30",
+        "order": 34,
+        "segmentType": "advance",
+        "name": {
+          "zh": "武昌—建业（孙权称帝后还都）",
+          "en": "Wuchang–Jianye (return of the capital)"
+        },
+        "description": {
+          "zh": "孙权在武昌称帝，同年九月迁都建业。路线示意。",
+          "en": "Sun Quan took the throne at Wuchang and moved the capital to Jianye in the ninth month of the same year. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8,
+            32.06
+          ],
+          [
+            117.23,
+            31.82
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wu",
+        "startDate": "0234-05-01",
+        "endDate": "0234-07-31",
+        "order": 35,
+        "segmentType": "advance",
+        "name": {
+          "zh": "建业—合肥新城（合肥新城之战）",
+          "en": "Jianye–Hefei New City (siege of Hefei)"
+        },
+        "description": {
+          "zh": "孙权自建业率十万攻合肥新城，满宠拒守，吴军不克而退。路线示意。",
+          "en": "Sun Quan led 100,000 men from Jianye against Hefei New City; Man Chong held out and the Wu army withdrew. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.07,
+            30.67
+          ],
+          [
+            104.63,
+            28.77
+          ],
+          [
+            102.27,
+            27.9
+          ],
+          [
+            101.7,
+            26.5
+          ],
+          [
+            102.71,
+            25.04
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0225-03-01",
+        "endDate": "0225-12-31",
+        "order": 34,
+        "segmentType": "advance",
+        "name": {
+          "zh": "成都—僰道—越嶲—泸水—滇池（诸葛亮南征）",
+          "en": "Chengdu–Bodao–Yuexi–Lu river–Dianchi (southern campaign)"
+        },
+        "description": {
+          "zh": "诸葛亮率主力自成都南下，经僰道、越嶲，五月渡泸水，深入南中。路线为示意，具体道路与“七擒”地点待考。",
+          "en": "Zhuge Liang led the main force south from Chengdu through Bodao and Yuexi, crossed the Lu river in the fifth month and entered the south. The line is schematic and the exact roads and “seven captures” sites are disputed."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.03,
+            33.07
+          ],
+          [
+            107.14,
+            34.36
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0228-12-01",
+        "endDate": "0229-01-31",
+        "order": 35,
+        "segmentType": "advance",
+        "name": {
+          "zh": "汉中—陈仓（陈仓之战）",
+          "en": "Hanzhong–Chencang (Battle of Chencang)"
+        },
+        "description": {
+          "zh": "诸葛亮自汉中出散关围陈仓，久攻不克，粮尽退兵。路线示意。",
+          "en": "Zhuge Liang left Hanzhong through Sanguan and besieged Chencang; the siege failed and he withdrew for lack of food. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.03,
+            33.07
+          ],
+          [
+            107.55,
+            33.22
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0244-03-01",
+        "endDate": "0244-05-31",
+        "order": 36,
+        "segmentType": "defense",
+        "name": {
+          "zh": "汉中—兴势（兴势之战）",
+          "en": "Hanzhong–Xingshi (Battle of Xingshi)"
+        },
+        "description": {
+          "zh": "王平据兴势险要拒曹爽，费祎自成都率援军。路线示意。",
+          "en": "Wang Ping held the Xingshi defile against Cao Shuang while Fei Yi brought reinforcements from Chengdu. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

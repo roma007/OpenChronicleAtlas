@@ -15,8 +15,8 @@
   },
   "cover": "assets/cover-ae3d77a1.jpg",
   "description": {
-    "zh": "190 年曹操在陈留起兵，此后群雄割据、官渡与赤壁两战奠定南北格局，魏、蜀、吴三国鼎立。263 年魏灭蜀，280 年西晋灭吴，三国时代结束。\n\n> 本数据为 M77 示例初稿：路线为示意简化。2026-11-16 起按 C1 端点核查计划逐条核对线头线尾——官渡战后补仓亭与还许，南征荆州补新野、襄阳，孙策补取会稽，吕蒙袭荆州起点改为寻阳，石亭战前补孙权自武昌进驻皖口，高平陵补曹爽回洛阳；事件日期、地点与表述仍待史料校订。",
-    "en": "In 190 Cao Cao raised troops at Chenliu. Warlords then divided the empire, and the battles of Guandu and Red Cliffs shaped a north-south balance. Wei, Shu, and Wu formed the Three Kingdoms. Wei conquered Shu in 263, and Western Jin conquered Wu in 280, ending the period.\n\n> M77 illustrative draft: routes are simplified. From 16 November 2026 the C1 endpoint review checks each route head and tail: the post-Guandu march now includes Cangting and the return to Xuchang, the Jingzhou campaign includes Xinye and Xiangyang, Sun Ce’s advance includes Kuaiji, Lu Meng’s raid starts at Xunyang, Sun Quan’s move from Wuchang to Wankou precedes Shiting, and Cao Shuang’s return to Luoyang closes the Gaopingling coup. Event dates, places and wording still await historical review."
+    "zh": "190 年曹操在陈留起兵，此后群雄割据、官渡与赤壁两战奠定南北格局，魏、蜀、吴三国鼎立。263 年魏灭蜀，280 年西晋灭吴，三国时代结束。\n\n> 路线为示意简化，端点按 check:heads 逐条核查。2026-11-16 C1 核查补齐官渡战后仓亭与还许、南征荆州新野与襄阳、孙策取会稽、吕蒙袭荆州起点、石亭前皖口、高平陵往返。2026-11-23 M293 增补迎献帝、宛城、白马延津、乌巢、水淹七军、曹氏代汉、蜀吴称帝、南征、陈仓、兴势、偷渡阴平、绵竹、合肥新城等事件与路线；事件日期、地点与表述仍待逐条史料校订。",
+    "en": "In 190 Cao Cao raised troops at Chenliu. Warlords then divided the empire, and the battles of Guandu and Red Cliffs shaped a north-south balance. Wei, Shu, and Wu formed the Three Kingdoms. Wei conquered Shu in 263, and Western Jin conquered Wu in 280, ending the period.\n\n> Routes are schematic. Route heads and tails are checked one by one with check:heads. The C1 review of 16 November 2026 added Cangting and the return to Xuchang after Guandu, Xinye and Xiangyang in the Jingzhou campaign, Sun Ce’s move on Kuaiji, the correct starting point of Lü Meng’s raid, Wankou before Shiting, and Cao Shuang’s return to Luoyang. On 23 November 2026 M293 added the reception of Emperor Xian, Wancheng, Baima–Yanjin, Wuchao, the flooding of the seven armies, the Cao and Liu–Sun accessions, the southern campaign, Chencang, Xingshi, the Yinping crossing, Mianzhu and Hefei New City. Event dates, places and wording still await detailed source review."
   },
   "defaultView": {
     "center": [
@@ -95,7 +95,7 @@
     "战役"
   ],
   "license": "CC-BY-4.0（疆域面含 Seshat Cliopatria 数据，CC BY 4.0；事件与路线为示意初稿）",
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-23",
   "coverText": {
     "enTitle": "THREE KINGDOMS",
     "years": "190—280",

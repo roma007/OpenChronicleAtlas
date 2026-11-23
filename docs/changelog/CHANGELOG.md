@@ -3,6 +3,32 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.275] - 2026-11-23
+
+### Added
+- **三国专题第一批扩充（M293）**：新增 15 个事件、12 段路线，补齐汉末群雄、三国鼎立、
+  中后期对峙与归晋四个阶段的主要空白。
+  - 事件：迎献帝都许、宛城之战、白马延津之战、乌巢焚粮、关羽水淹七军、曹操去世、
+    曹丕称帝、刘备称帝、孙权称帝、诸葛亮南征、陈仓之战、兴势之战、邓艾偷渡阴平、
+    绵竹之战、合肥新城之战。
+  - 路线：许—洛阳—许、许—宛、许—白马—延津—官渡、赤壁—江陵—襄阳—许、
+    洛阳—邺（归葬）、邺—繁阳亭—洛阳（受禅）、阴平—江油—绵竹—成都、
+    武昌—建业、建业—合肥新城、成都—僰道—越嶲—泸水—滇池、汉中—陈仓、汉中—兴势。
+  - 每条事件至少两条独立出处；主体按实际主帅归属，袁绍、公孙瓒、张绣未借用曹魏实体。
+  - 刘备称帝无行军，标 `routeEvent = false`，不画假线；新增端点全部接既有路线或本实体事件，
+    未调阈值、未加豁免。
+  - 史料核对表见 `docs/research/units/three-kingdoms-m293-source-audit.md`，
+    端点记录见 `docs/research/route-endpoints/three-kingdoms.md`。
+
+### Verify
+- `pnpm validate:data`（three-kingdoms 52 事件 / 47 路线段）、
+  `pnpm check:routes --atlas three-kingdoms`（0）、
+  `pnpm check:heads --atlas three-kingdoms`（0 个无来由端点）、
+  `pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.274] - 2026-11-23
 
 ### Fixed
