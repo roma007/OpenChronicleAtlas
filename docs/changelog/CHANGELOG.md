@@ -3,6 +3,40 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.279] - 2026-11-23
+
+### Added
+- `apps/web/index.html` 首屏静态兜底：在 `#root` 内放置站点名、加载提示与 ICP 备案号
+  （React 挂载后整体替换）。目的有二：
+  - 不执行 JS 的抓取/巡检、以及脚本加载失败时，仍能看到备案号（合规）；
+  - 避免纯白屏，首屏就有可读内容。
+- **三国专题群雄实体扩充（M297）**：新增 4 个东汉末群雄实体、12 个事件、10 段路线。
+  - 实体：袁绍（`yuan-shao`）、公孙瓒（`gongsun-zan`）、刘表（`liu-biao`）、
+    公孙氏辽东（`gongsun-liaodong`）。
+  - 事件：界桥之战（袁绍/公孙瓒两侧）、公孙瓒杀刘虞、易京之战（两侧）、
+    官渡之战（袁绍侧）、刘表领荆州、刘表收留刘备、刘表去世、公孙度据辽东、
+    公孙康斩袁尚袁熙、公孙渊守襄平。
+  - 路线：邺—界桥、邺—易京、邺—黎阳—官渡、蓟—界桥、界桥—蓟、蓟—易京、
+    洛阳—襄阳、襄阳—新野、洛阳—襄平、辽水—襄平。
+  - 同一战役按双方分事件，袁绍、公孙瓒的行动不再借用曹魏实体；
+    刘表去世、公孙康斩二袁无行军，标 `routeEvent = false`。
+
+### Docs
+- `docs/conversations/2026-11-23-备案通过与TLS切换准备M296.md` 补记静态兜底
+- M297：`docs/plans/2026-11-23-M297-三国群雄实体扩充-plan.md`、
+  `docs/research/units/three-kingdoms-m297-source-audit.md`、
+  `docs/conversations/2026-11-23-三国群雄实体M297.md`
+
+### Verify
+- `pnpm validate:data`（three-kingdoms 93 事件 / 76 路线段 / 8 实体）、
+  `pnpm check:routes --atlas three-kingdoms`（0）、
+  `pnpm check:heads --atlas three-kingdoms`（0 个无来由端点）、
+  `pnpm check:land --atlas three-kingdoms`（0 处待处理）、
+  `pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.278] - 2026-11-23
 
 ### Added

@@ -10,7 +10,41 @@
     <title>史迹 · 时空地图</title>
   </head>
   <body>
-    <div id="root"></div>
+    <!--
+      首屏静态兜底：React 挂载后会整体替换 #root 的内容。
+      保留一份备案号在静态 HTML 里，是为了让不执行 JS 的抓取/巡检也能看到合规信息，
+      同时脚本加载失败时不至于白屏、连备案号都没有。
+      备案号与 apps/web/src/config/site.ts 保持一致。
+    -->
+    <div id="root">
+      <div
+        style="
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+          padding: 24px;
+          background: #f5efe2;
+          color: #5b5148;
+          font-family: system-ui, -apple-system, 'PingFang SC', sans-serif;
+          font-size: 13px;
+          line-height: 1.8;
+          text-align: center;
+        "
+      >
+        <p style="margin: 0">史迹 · 时空地图</p>
+        <p style="margin: 0">正在加载…</p>
+        <a
+          href="https://beian.miit.gov.cn/"
+          target="_blank"
+          rel="noreferrer noopener"
+          style="color: #8c3b2e; text-decoration: underline; text-underline-offset: 2px"
+          >粤ICP备2026058093号-2</a
+        >
+      </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

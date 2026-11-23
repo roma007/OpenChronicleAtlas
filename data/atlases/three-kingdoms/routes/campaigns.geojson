@@ -2515,6 +2515,362 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.4,
+            36.3
+          ],
+          [
+            115.7,
+            36.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "yuan-shao",
+        "startDate": "0191-12-01",
+        "endDate": "0192-01-31",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "邺—界桥（界桥之战）",
+          "en": "Ye–Jieqiao (Battle of Jieqiao)"
+        },
+        "description": {
+          "zh": "袁绍自邺北上迎战公孙瓒于界桥。路线示意。",
+          "en": "Yuan Shao marched north from Ye to meet Gongsun Zan at Jieqiao. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.4,
+            36.3
+          ],
+          [
+            116.1,
+            39.05
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "yuan-shao",
+        "startDate": "0199-03-01",
+        "endDate": "0199-04-30",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "邺—易京（易京之战）",
+          "en": "Ye–Yijing (Battle of Yijing)"
+        },
+        "description": {
+          "zh": "袁绍自邺北上围公孙瓒于易京。路线示意。",
+          "en": "Yuan Shao marched north from Ye to besiege Gongsun Zan at Yijing. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.4,
+            36.3
+          ],
+          [
+            114.55,
+            35.67
+          ],
+          [
+            113.95,
+            34.72
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "yuan-shao",
+        "startDate": "0200-08-01",
+        "endDate": "0200-10-31",
+        "order": 3,
+        "segmentType": "advance",
+        "name": {
+          "zh": "邺—黎阳—官渡（官渡之战）",
+          "en": "Ye–Liyang–Guandu (Battle of Guandu)"
+        },
+        "description": {
+          "zh": "袁绍自邺南下，经黎阳进临官渡。路线示意。",
+          "en": "Yuan Shao marched south from Ye through Liyang to Guandu. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            115.7,
+            36.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "gongsun-zan",
+        "startDate": "0191-12-01",
+        "endDate": "0192-01-31",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "蓟—界桥（界桥之战）",
+          "en": "Ji–Jieqiao (Battle of Jieqiao)"
+        },
+        "description": {
+          "zh": "公孙瓒自蓟南下攻冀州，与袁绍战于界桥。路线示意。",
+          "en": "Gongsun Zan marched south from Ji into Jizhou and fought Yuan Shao at Jieqiao. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.7,
+            36.9
+          ],
+          [
+            116.4,
+            39.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "gongsun-zan",
+        "startDate": "0193-10-01",
+        "endDate": "0193-12-31",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "界桥—蓟（还幽州）",
+          "en": "Jieqiao–Ji (return to Youzhou)"
+        },
+        "description": {
+          "zh": "公孙瓒自界桥北还幽州，杀刘虞，尽有幽州。路线示意。",
+          "en": "Gongsun Zan returned north from Jieqiao to Youzhou, killed Liu Yu and took the province. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            116.1,
+            39.05
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "gongsun-zan",
+        "startDate": "0199-03-01",
+        "endDate": "0199-04-30",
+        "order": 3,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "蓟—易京（退守易京）",
+          "en": "Ji–Yijing (withdrawal to Yijing)"
+        },
+        "description": {
+          "zh": "公孙瓒自蓟退守易京，为袁绍所围。路线示意。",
+          "en": "Gongsun Zan withdrew from Ji to Yijing, where Yuan Shao besieged him. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.45,
+            34.62
+          ],
+          [
+            112.14,
+            32.02
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "liu-biao",
+        "startDate": "0190-03-01",
+        "endDate": "0190-06-30",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "洛阳—襄阳（领荆州）",
+          "en": "Luoyang–Xiangyang (taking Jingzhou)"
+        },
+        "description": {
+          "zh": "刘表自洛阳赴荆州，单骑入宜城，后徙治襄阳。路线示意。",
+          "en": "Liu Biao went from Luoyang to Jingzhou, entered Yicheng alone and later moved the seat to Xiangyang. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.14,
+            32.02
+          ],
+          [
+            112.36,
+            32.52
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "liu-biao",
+        "startDate": "0201-09-01",
+        "endDate": "0201-12-31",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "襄阳—新野（收留刘备）",
+          "en": "Xiangyang–Xinye (sheltering Liu Bei)"
+        },
+        "description": {
+          "zh": "刘表自襄阳迎刘备，使屯新野。路线示意。",
+          "en": "Liu Biao received Liu Bei at Xiangyang and stationed him at Xinye. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.45,
+            34.62
+          ],
+          [
+            114.4,
+            36.3
+          ],
+          [
+            116.4,
+            39.9
+          ],
+          [
+            119.8,
+            40.8
+          ],
+          [
+            123.17,
+            41.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "gongsun-liaodong",
+        "startDate": "0190-03-01",
+        "endDate": "0190-06-30",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "洛阳—襄平（据辽东）",
+          "en": "Luoyang–Xiangping (taking Liaodong)"
+        },
+        "description": {
+          "zh": "公孙度自洛阳赴辽东任太守，据襄平割据。路线示意。",
+          "en": "Gongsun Du went from Luoyang to Liaodong as governor and made Xiangping his base. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            122.6,
+            41.1
+          ],
+          [
+            123.17,
+            41.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "gongsun-liaodong",
+        "startDate": "0238-06-01",
+        "endDate": "0238-08-31",
+        "order": 2,
+        "segmentType": "defense",
+        "name": {
+          "zh": "辽水—襄平（守襄平）",
+          "en": "Liao river–Xiangping (defence of Xiangping)"
+        },
+        "description": {
+          "zh": "公孙渊退保襄平，依托辽水与城防拒司马懿。路线示意。",
+          "en": "Gongsun Yuan fell back on Xiangping and used the Liao river and city walls to hold off Sima Yi. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

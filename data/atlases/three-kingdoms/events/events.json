@@ -4427,5 +4427,666 @@
       "jianye-280"
     ],
     "importance": 2
+  },
+  {
+    "id": "jieqiao-yuan-191",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "界桥之战（袁绍）",
+      "en": "Battle of Jieqiao (Yuan Shao)"
+    },
+    "date": "0191-12-01",
+    "location": {
+      "lng": 115.7,
+      "lat": 36.9,
+      "place": {
+        "zh": "冀州巨鹿郡界桥（今河北威县东）",
+        "en": "Jieqiao, Julu (east of modern Wei county, Hebei)"
+      }
+    },
+    "entityIds": [
+      "yuan-shao"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "公孙瓒南攻冀州，袁绍以麴义八百先登、强弩千张大破白马义从于界桥。",
+      "en": "Gongsun Zan attacked Jizhou; Yuan Shao’s commander Qu Yi with 800 spearhead troops and massed crossbows shattered the White Horse cavalry at Jieqiao."
+    },
+    "description": {
+      "zh": "初平二年（191）冬，公孙瓒屯兵磐河，南攻冀州。袁绍亲率步兵数万迎战，令麴义以八百先登死士为前驱、强弩千张夹承其后。公孙瓒以白马义从等骑兵冲锋，麴义伏盾不动，待骑接近后同时奋起，强弩齐发，大破公孙瓒军，斩其将严纲。此役是袁绍夺取冀州、进而统一河北的关键一战，也是汉末军阀争夺地盘的第一场大会战。界桥在今河北威县东，坐标为示意。",
+      "en": "In the winter of 191 Gongsun Zan camped at Panhe and attacked Jizhou. Yuan Shao met him with tens of thousands of infantry, placing Qu Yi’s 800 picked spearmen in front with a thousand crossbows behind. Gongsun Zan’s White Horse cavalry charged; Qu Yi’s men held behind their shields until the horsemen were close, then rose and loosed the crossbows, routing Gongsun’s army and killing his commander Yan Gang. The battle was key to Yuan Shao’s seizure of Jizhou and his eventual mastery of Hebei, and the first full-scale warlord battle of the late Han. Jieqiao lies east of modern Wei county, Hebei; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·袁绍传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "麴义八百先登、强弩千张破公孙瓒于界桥"
+      },
+      {
+        "title": "《三国志·魏书·公孙瓒传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "公孙瓒南攻冀州、严纲被斩"
+      },
+      {
+        "title": "《资治通鉴》卷六十",
+        "author": "司马光",
+        "year": 1084,
+        "note": "初平二年界桥之战"
+      }
+    ],
+    "relatedIds": [
+      "jieqiao-gongsun-191",
+      "guandu-yuan-200"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jieqiao-gongsun-191",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "界桥之战（公孙瓒）",
+      "en": "Battle of Jieqiao (Gongsun Zan)"
+    },
+    "date": "0191-12-01",
+    "location": {
+      "lng": 115.7,
+      "lat": 36.9,
+      "place": {
+        "zh": "冀州巨鹿郡界桥（今河北威县东）",
+        "en": "Jieqiao, Julu (east of modern Wei county, Hebei)"
+      }
+    },
+    "entityIds": [
+      "gongsun-zan"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "公孙瓒率白马义从南攻冀州，于界桥为袁绍部麴义以强弩击败。",
+      "en": "Gongsun Zan led his White Horse cavalry south into Jizhou and was beaten at Jieqiao by Yuan Shao’s crossbowmen under Qu Yi."
+    },
+    "description": {
+      "zh": "初平二年（191）冬，公孙瓒以弟公孙越之死归咎袁绍，屯兵磐河，举兵南攻冀州。其精锐“白马义从”在界桥南为袁绍将麴义的八百先登与千张强弩所破，大将严纲被斩，公孙瓒退走。此后双方又经龙凑、巨马水等战，互有胜负，最终由董卓借献帝之名遣使调停。界桥之战使公孙瓒由攻转守，为袁绍统一河北奠定基础。界桥在今河北威县东，坐标为示意。",
+      "en": "In the winter of 191 Gongsun Zan, blaming Yuan Shao for his brother Gongsun Yue’s death, camped at Panhe and marched south into Jizhou. His elite White Horse cavalry was broken south of Jieqiao by Qu Yi’s 800 spearhead troops and a thousand crossbows; his commander Yan Gang was killed and Gongsun withdrew. Further fighting at Longcou and Juma river followed with mixed results until Dong Zhuo, in the emperor’s name, sent envoys to mediate. Jieqiao forced Gongsun onto the defensive and prepared Yuan Shao’s unification of Hebei. Jieqiao lies east of modern Wei county, Hebei; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·公孙瓒传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "公孙瓒南攻冀州、界桥败绩"
+      },
+      {
+        "title": "《三国志·魏书·袁绍传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "袁绍命麴义迎战、斩严纲"
+      },
+      {
+        "title": "《资治通鉴》卷六十",
+        "author": "司马光",
+        "year": 1084,
+        "note": "初平二年界桥之战"
+      }
+    ],
+    "relatedIds": [
+      "jieqiao-yuan-191",
+      "yijing-gongsun-199"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "gongsun-zan-193",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "公孙瓒杀刘虞",
+      "en": "Gongsun Zan kills Liu Yu"
+    },
+    "date": "0193-10-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "幽州广阳郡蓟（今北京）",
+        "en": "Ji, Guangyang (modern Beijing)"
+      }
+    },
+    "entityIds": [
+      "gongsun-zan"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "公孙瓒与幽州牧刘虞冲突，执杀刘虞，尽有幽州。",
+      "en": "Gongsun Zan clashed with Liu Yu, governor of Youzhou, captured and killed him and took control of the province."
+    },
+    "description": {
+      "zh": "初平四年（193）冬，公孙瓒与幽州牧刘虞矛盾激化。刘虞率兵攻瓒，为瓒所败；公孙瓒遂执刘虞，诬以谋反，杀之于蓟。刘虞在幽州颇得人心，其死使公孙瓒失去当地士民支持。此后公孙瓒据幽州，与袁绍长期争战，至 199 年为袁绍所灭。蓟在今北京，坐标为示意。",
+      "en": "In the winter of 193 the conflict between Gongsun Zan and Liu Yu, governor of Youzhou, came to a head. Liu Yu attacked and was defeated; Gongsun Zan then seized him, accused him of treason and killed him at Ji. Liu Yu had been popular in Youzhou, and his death cost Gongsun the support of local gentry and people. Gongsun held Youzhou and fought Yuan Shao for years until his destruction in 199. Ji is modern Beijing; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·公孙瓒传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "公孙瓒执刘虞、诬以谋反杀之"
+      },
+      {
+        "title": "《后汉书·刘虞传》",
+        "author": "范晔",
+        "year": 445,
+        "note": "刘虞与公孙瓒冲突及被杀"
+      },
+      {
+        "title": "《资治通鉴》卷六十一",
+        "author": "司马光",
+        "year": 1084,
+        "note": "初平四年公孙瓒杀刘虞"
+      }
+    ],
+    "relatedIds": [
+      "jieqiao-gongsun-191",
+      "yijing-gongsun-199"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yijing-yuan-199",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "易京之战（袁绍）",
+      "en": "Battle of Yijing (Yuan Shao)"
+    },
+    "date": "0199-03-01",
+    "location": {
+      "lng": 116.1,
+      "lat": 39.05,
+      "place": {
+        "zh": "幽州涿郡易京（今河北雄县西北）",
+        "en": "Yijing, Zhuo (northwest of modern Xiong county, Hebei)"
+      }
+    },
+    "entityIds": [
+      "yuan-shao"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "袁绍围公孙瓒于易京，公孙瓒自焚死，袁绍尽有幽州。",
+      "en": "Yuan Shao besieged Gongsun Zan at Yijing; Gongsun burned himself to death and Yuan took Youzhou."
+    },
+    "description": {
+      "zh": "建安四年（199）春，袁绍率军围攻公孙瓒于易京。公孙瓒筑楼橹、积谷自守，部将或被围或降；袁绍掘地道、焚楼橹，城破，公孙瓒自焚而死。至此袁绍据有冀、青、幽、并四州，成为北方最强势力。易京在今河北雄县西北，坐标为示意。",
+      "en": "In the spring of 199 Yuan Shao besieged Gongsun Zan at Yijing. Gongsun had built towers and stored grain for a long defence, but his commanders were isolated or surrendered; Yuan dug tunnels and burned the towers, the city fell and Gongsun burned himself to death. Yuan Shao now held Ji, Qing, You and Bing, the strongest power in the north. Yijing lies northwest of modern Xiong county, Hebei; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·袁绍传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "袁绍围易京、公孙瓒自焚"
+      },
+      {
+        "title": "《三国志·魏书·公孙瓒传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "易京楼橹、地道与城破"
+      },
+      {
+        "title": "《资治通鉴》卷六十三",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安四年易京之战"
+      }
+    ],
+    "relatedIds": [
+      "yijing-gongsun-199",
+      "guandu-yuan-200"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "yijing-gongsun-199",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "易京之战（公孙瓒）",
+      "en": "Battle of Yijing (Gongsun Zan)"
+    },
+    "date": "0199-03-01",
+    "location": {
+      "lng": 116.1,
+      "lat": 39.05,
+      "place": {
+        "zh": "幽州涿郡易京（今河北雄县西北）",
+        "en": "Yijing, Zhuo (northwest of modern Xiong county, Hebei)"
+      }
+    },
+    "entityIds": [
+      "gongsun-zan"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "公孙瓒退守易京，为袁绍围困，城破自焚。",
+      "en": "Gongsun Zan withdrew to Yijing, was besieged by Yuan Shao and burned himself when the city fell."
+    },
+    "description": {
+      "zh": "建安四年（199）春，袁绍围公孙瓒于易京。公孙瓒曾筑高楼、积谷三百万斛，欲持久自守；但部将陆续被围或投降，袁绍又掘地道、焚楼橹，城破，公孙瓒先杀妻子姊妹，然后自焚。公孙瓒之死标志袁绍统一河北，也为其南下与曹操争锋铺平道路。易京在今河北雄县西北，坐标为示意。",
+      "en": "In the spring of 199 Yuan Shao besieged Gongsun Zan at Yijing. Gongsun had built high towers and stored three million bushels of grain for a long defence, but his commanders were isolated or surrendered; Yuan dug tunnels and burned the towers, and when the city fell Gongsun killed his wife and sisters and then burned himself. His death marked Yuan Shao’s unification of Hebei and cleared the way for his southward clash with Cao Cao. Yijing lies northwest of modern Xiong county, Hebei; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·公孙瓒传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "易京自守、城破自焚"
+      },
+      {
+        "title": "《三国志·魏书·袁绍传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "袁绍掘地道、焚楼橹"
+      },
+      {
+        "title": "《资治通鉴》卷六十三",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安四年易京之战"
+      }
+    ],
+    "relatedIds": [
+      "yijing-yuan-199",
+      "jieqiao-gongsun-191"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "guandu-yuan-200",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "官渡之战（袁绍）",
+      "en": "Battle of Guandu (Yuan Shao)"
+    },
+    "date": "0200-08-01",
+    "location": {
+      "lng": 113.95,
+      "lat": 34.72,
+      "place": {
+        "zh": "兖州中牟官渡（今河南中牟东北）",
+        "en": "Guandu, Zhongmou (northeast of modern Zhongmou, Henan)"
+      }
+    },
+    "entityIds": [
+      "yuan-shao"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "袁绍率十万南下，进临官渡与曹操相持；乌巢粮焚后军溃，袁绍北归。",
+      "en": "Yuan Shao led 100,000 south and faced Cao Cao at Guandu; after his grain at Wuchao was burned his army collapsed and he fled north."
+    },
+    "description": {
+      "zh": "建安五年（200）八月，袁绍率十万之众南下，进临官渡，与曹操相持。袁绍不听沮授、田丰之谏，遣颜良、文丑先后败死；十月，曹操袭乌巢，焚其粮草，袁军军心崩溃，张郃、高览降曹，袁绍仅率八百骑北渡。官渡之战是汉末以少胜多的著名战例，奠定曹操统一北方的基础。官渡在今河南中牟东北，坐标为示意。",
+      "en": "In the eighth month of 200 Yuan Shao led 100,000 men south and faced Cao Cao at Guandu. Ignoring Ju Shou and Tian Feng, he sent Yan Liang and Wen Chou to defeat and death; in the tenth month Cao raided Wuchao and burned his grain. Yuan’s army collapsed, Zhang He and Gao Lan surrendered, and Yuan fled north with only some eight hundred riders. Guandu, a famous victory of the few over the many, laid the basis for Cao Cao’s unification of the north. Guandu lies northeast of modern Zhongmou, Henan; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·袁绍传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "袁绍南下官渡、颜良文丑之败、乌巢粮焚"
+      },
+      {
+        "title": "《三国志·魏书·武帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "曹操与袁绍相持官渡"
+      },
+      {
+        "title": "《资治通鉴》卷六十三",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安五年官渡之战"
+      }
+    ],
+    "relatedIds": [
+      "guandu-200",
+      "jieqiao-yuan-191"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "liubiao-jingzhou-190",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "刘表领荆州",
+      "en": "Liu Biao takes Jingzhou"
+    },
+    "date": "0190-03-01",
+    "location": {
+      "lng": 112.14,
+      "lat": 32.02,
+      "place": {
+        "zh": "荆州南郡襄阳（今湖北襄阳）",
+        "en": "Xiangyang, Nanjun (modern Xiangyang, Hubei)"
+      }
+    },
+    "entityIds": [
+      "liu-biao"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "刘表单骑入宜城，依靠蒯良、蒯越、蔡瑁平定宗贼，据襄阳领荆州。",
+      "en": "Liu Biao entered Jingzhou alone, won over Kuai Liang, Kuai Yue and Cai Mao, suppressed the local strongmen and took Jingzhou from Xiangyang."
+    },
+    "description": {
+      "zh": "初平元年（190），荆州刺史王叡为孙坚所杀，董卓以刘表继任。当时江南宗贼盛，袁术屯鲁阳，刘表无法直接上任，乃匿名单骑入宜城，延请蒯良、蒯越、蔡瑁共谋，诱杀宗贼首领，招降其众，遂据有荆州，徙治襄阳。刘表在荆州近二十年，保境安民，招纳士人，但晚年优柔寡断，未能应对曹操南征。襄阳为荆州治所，坐标为示意。",
+      "en": "In 190 the Jingzhou inspector Wang Rui was killed by Sun Jian and Dong Zhuo appointed Liu Biao in his place. With local strongmen powerful and Yuan Shu holding Luyang, Liu could not take up office openly; he entered Yicheng alone and secretly, enlisted Kuai Liang, Kuai Yue and Cai Mao, had the strongmen’s leaders killed and their followers taken over, and so gained Jingzhou, moving the seat to Xiangyang. For nearly twenty years Liu kept the province peaceful and patronised scholars, but in old age he was indecisive and failed to meet Cao Cao’s invasion. Xiangyang was the seat of Jingzhou; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·刘表传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "刘表单骑入宜城、与蒯越蔡瑁平定宗贼、徙治襄阳"
+      },
+      {
+        "title": "《后汉书·刘表传》",
+        "author": "范晔",
+        "year": 445,
+        "note": "刘表继王叡为荆州刺史"
+      },
+      {
+        "title": "《资治通鉴》卷五十九",
+        "author": "司马光",
+        "year": 1084,
+        "note": "初平元年刘表领荆州"
+      }
+    ],
+    "relatedIds": [
+      "liubiao-liubei-201",
+      "liubiao-death-208"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "liubiao-liubei-201",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "刘表收留刘备",
+      "en": "Liu Biao shelters Liu Bei"
+    },
+    "date": "0201-09-01",
+    "location": {
+      "lng": 112.36,
+      "lat": 32.52,
+      "place": {
+        "zh": "荆州南阳郡新野（今河南新野）",
+        "en": "Xinye, Nanyang (modern Xinye, Henan)"
+      }
+    },
+    "entityIds": [
+      "liu-biao"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "刘备被曹操击败后南投刘表，刘表郊迎，使屯新野。",
+      "en": "After his defeat by Cao Cao, Liu Bei fled south to Liu Biao, who welcomed him and stationed him at Xinye."
+    },
+    "description": {
+      "zh": "建安六年（201），刘备在汝南为曹操所败，南投荆州刘表。刘表亲自郊迎，以上宾之礼待之，使刘备屯新野，为荆州北藩。刘备在新野招纳豪杰、三顾诸葛亮，逐步形成自己的核心集团；刘表则借刘备抵御曹操。此事件为 207 年三顾茅庐与 208 年赤壁之战埋下伏笔。新野在今河南新野，坐标为示意。",
+      "en": "In 201 Liu Bei, defeated by Cao Cao in Runan, fled south to Liu Biao in Jingzhou. Liu Biao welcomed him in person, treated him as an honoured guest and stationed him at Xinye as the northern shield of Jingzhou. There Liu Bei gathered followers and made his three visits to Zhuge Liang, building his own core group, while Liu Biao used him against Cao Cao. The arrangement prepared the way for the Longzhong meeting of 207 and the Red Cliffs campaign of 208. Xinye is modern Xinye, Henan; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·蜀书·先主传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "刘备南投刘表，表郊迎，使屯新野"
+      },
+      {
+        "title": "《三国志·魏书·刘表传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "刘表收留刘备、使屯新野"
+      },
+      {
+        "title": "《资治通鉴》卷六十四",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安六年刘备投刘表"
+      }
+    ],
+    "relatedIds": [
+      "sangu-maolu-207",
+      "liubiao-death-208"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "liubiao-death-208",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "刘表去世",
+      "en": "Death of Liu Biao"
+    },
+    "date": "0208-08-01",
+    "location": {
+      "lng": 112.14,
+      "lat": 32.02,
+      "place": {
+        "zh": "荆州南郡襄阳（今湖北襄阳）",
+        "en": "Xiangyang, Nanjun (modern Xiangyang, Hubei)"
+      }
+    },
+    "entityIds": [
+      "liu-biao"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "建安十三年八月，刘表病逝于襄阳，子刘琮嗣；不久刘琮降曹。",
+      "en": "Liu Biao died at Xiangyang in the eighth month of 208; his son Liu Cong succeeded and soon surrendered to Cao Cao."
+    },
+    "description": {
+      "zh": "建安十三年（208）八月，刘表病逝于襄阳，年六十七。长子刘琦与次子刘琮争嗣，蔡瑁、张允等拥立刘琮。同年九月，曹操南征，刘琮举州投降，刘备南走。刘表经营荆州近二十年，其死标志荆州割据的终结，也为赤壁之战揭开序幕。去世无行军，故不设路线。",
+      "en": "In the eighth month of 208 Liu Biao died at Xiangyang aged sixty-seven. His elder son Liu Qi and younger son Liu Cong contested the succession, and Cai Mao and Zhang Yun backed Liu Cong. In the ninth month Cao Cao invaded and Liu Cong surrendered the province, while Liu Bei fled south. Liu Biao had ruled Jingzhou for nearly twenty years; his death ended its independence and opened the Red Cliffs campaign. There was no military march, so no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·刘表传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "建安十三年八月刘表卒，刘琮嗣"
+      },
+      {
+        "title": "《三国志·蜀书·先主传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "刘琮降曹、刘备南走"
+      },
+      {
+        "title": "《资治通鉴》卷六十五",
+        "author": "司马光",
+        "year": 1084,
+        "note": "刘表卒与刘琮降曹"
+      }
+    ],
+    "relatedIds": [
+      "liubiao-jingzhou-190",
+      "chibi-cao-208"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "gongsun-du-190",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "公孙度据辽东",
+      "en": "Gongsun Du takes Liaodong"
+    },
+    "date": "0190-03-01",
+    "location": {
+      "lng": 123.17,
+      "lat": 41.27,
+      "place": {
+        "zh": "幽州辽东郡襄平（今辽宁辽阳）",
+        "en": "Xiangping, Liaodong (modern Liaoyang, Liaoning)"
+      }
+    },
+    "entityIds": [
+      "gongsun-liaodong"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "公孙度出任辽东太守，厉行威刑，东伐高句丽、西击乌桓，割据辽东。",
+      "en": "Gongsun Du became governor of Liaodong, ruled with severity, campaigned against Goguryeo and the Wuhuan and made the region his own."
+    },
+    "description": {
+      "zh": "初平元年（190），公孙度经同郡徐荣推荐，被董卓任为辽东太守。到任后厉行威刑，诛灭郡中豪强，东伐高句丽，西击乌桓，又渡海取东莱诸县，自立为辽东侯、平州牧。公孙氏据辽东近五十年，历公孙度、公孙康、公孙恭、公孙渊四世，至 238 年为司马懿所灭。襄平在今辽宁辽阳，坐标为示意。",
+      "en": "In 190, on the recommendation of his fellow townsman Xu Rong, Gongsun Du was appointed governor of Liaodong by Dong Zhuo. He ruled severely, destroyed the local magnates, campaigned east against Goguryeo and west against the Wuhuan, crossed the sea to take counties in Donglai, and styled himself Marquis of Liaodong and governor of Pingzhou. The Gongsun held Liaodong for nearly fifty years through Gongsun Du, Gongsun Kang, Gongsun Gong and Gongsun Yuan until Sima Yi destroyed them in 238. Xiangping is modern Liaoyang, Liaoning; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·公孙度传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "公孙度任辽东太守、东伐高句丽、西击乌桓"
+      },
+      {
+        "title": "《资治通鉴》卷五十九",
+        "author": "司马光",
+        "year": 1084,
+        "note": "初平元年公孙度据辽东"
+      }
+    ],
+    "relatedIds": [
+      "gongsun-kang-207",
+      "liaodong-238"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "gongsun-kang-207",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "公孙康斩袁尚、袁熙",
+      "en": "Gongsun Kang kills Yuan Shang and Yuan Xi"
+    },
+    "date": "0207-09-01",
+    "location": {
+      "lng": 123.17,
+      "lat": 41.27,
+      "place": {
+        "zh": "幽州辽东郡襄平（今辽宁辽阳）",
+        "en": "Xiangping, Liaodong (modern Liaoyang, Liaoning)"
+      }
+    },
+    "entityIds": [
+      "gongsun-liaodong"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "袁尚、袁熙奔辽东，公孙康斩之，传首曹操。",
+      "en": "Yuan Shang and Yuan Xi fled to Liaodong; Gongsun Kang killed them and sent their heads to Cao Cao."
+    },
+    "description": {
+      "zh": "建安十二年（207），曹操北征乌桓，白狼山之战后袁尚、袁熙奔辽东投公孙康。公孙康恐曹操来攻，又欲借二袁之首自保，遂设伏斩袁尚、袁熙，传首曹操。曹操因此不战而得辽东名义归附，北方基本统一。此事件无军事行军，故不设路线。襄平在今辽宁辽阳，坐标为示意。",
+      "en": "In 207 Cao Cao campaigned north against the Wuhuan. After the battle of White Wolf Mountain, Yuan Shang and Yuan Xi fled to Liaodong and Gongsun Kang. Fearing Cao’s attack and seeking to protect himself with their heads, Gongsun Kang ambushed and killed the two Yuans and sent their heads to Cao Cao. Cao thus gained Liaodong’s nominal submission without fighting and completed the unification of the north. There was no military march, so no route is drawn. Xiangping is modern Liaoyang, Liaoning; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·公孙度传附公孙康》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "公孙康斩袁尚、袁熙，传首曹操"
+      },
+      {
+        "title": "《三国志·魏书·武帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "白狼山后二袁奔辽东"
+      },
+      {
+        "title": "《资治通鉴》卷六十五",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安十二年公孙康斩二袁"
+      }
+    ],
+    "relatedIds": [
+      "white-wolf-207",
+      "gongsun-du-190"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "liaodong-gongsun-238",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "公孙渊守襄平",
+      "en": "Gongsun Yuan defends Xiangping"
+    },
+    "date": "0238-06-01",
+    "endDate": "0238-08-31",
+    "location": {
+      "lng": 123.17,
+      "lat": 41.27,
+      "place": {
+        "zh": "幽州辽东郡襄平（今辽宁辽阳）",
+        "en": "Xiangping, Liaodong (modern Liaoyang, Liaoning)"
+      }
+    },
+    "entityIds": [
+      "gongsun-liaodong"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "司马懿围襄平，公孙渊坚守；八月城破，公孙渊父子被杀，公孙氏辽东亡。",
+      "en": "Sima Yi besieged Xiangping; Gongsun Yuan held out until the eighth month, when the city fell and he and his son were killed, ending Gongsun rule in Liaodong."
+    },
+    "description": {
+      "zh": "景初二年（238），魏明帝遣司马懿率四万讨公孙渊。公孙渊于 237 年自立燕王，闻魏军来，向吴求援未果，据襄平坚守。司马懿围城，七月大雨、辽水暴涨，双方相持；八月雨止，魏军筑土山、发石车攻城，城中粮尽，公孙渊突围被斩，公孙氏辽东政权灭亡。襄平在今辽宁辽阳，坐标为示意。",
+      "en": "In 238 Emperor Ming of Wei sent Sima Yi with 40,000 men against Gongsun Yuan, who had made himself King of Yan in 237. Gongsun sought help from Wu without success and held Xiangping. Sima Yi besieged the city; in the seventh month heavy rain flooded the Liao and the siege stalled, but when the rain stopped in the eighth month the Wei army built earthworks and stone-throwing engines, the city’s food ran out, Gongsun Yuan was killed trying to break out, and the Gongsun regime in Liaodong ended. Xiangping is modern Liaoyang, Liaoning; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·公孙度传附公孙渊》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "公孙渊自立燕王、襄平城破被杀"
+      },
+      {
+        "title": "《晋书·宣帝纪》",
+        "author": "房玄龄等",
+        "year": 648,
+        "note": "司马懿围襄平、破城斩公孙渊"
+      },
+      {
+        "title": "《资治通鉴》卷七十四",
+        "author": "司马光",
+        "year": 1084,
+        "note": "景初二年辽东之役"
+      }
+    ],
+    "relatedIds": [
+      "liaodong-238",
+      "gongsun-du-190"
+    ],
+    "importance": 2
   }
 ]
