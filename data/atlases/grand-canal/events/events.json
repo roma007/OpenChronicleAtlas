@@ -1650,13 +1650,18 @@
   },
   {
     "atlasId": "grand-canal",
-    "aliases": [],
+    "aliases": [
+      {
+        "zh": "南宋定都临安",
+        "en": "Southern Song capital at Lin’an"
+      }
+    ],
     "images": [],
     "importance": 2,
     "id": "linan-capital-1138",
     "name": {
-      "zh": "南宋定都临安",
-      "en": "The Southern Song establishes its capital at Lin’an"
+      "zh": "南宋以临安为行在",
+      "en": "The Southern Song makes Lin’an its temporary capital"
     },
     "date": "1138-01-01",
     "location": {
@@ -1672,37 +1677,37 @@
     ],
     "category": "政治",
     "summary": {
-      "zh": "绍兴八年，南宋正式定都临安，江南运河成为都城漕运通道。",
-      "en": "In 1138 the Southern Song formally made Lin’an its capital, making the Jiangnan canal the capital’s grain route."
+      "zh": "绍兴八年，南宋以临安为行在（名义首都仍为汴京），江南运河成为行在的漕运通道。",
+      "en": "In 1138 the Southern Song made Lin’an its temporary capital (xingzai) while nominally retaining Bianjing, and the Jiangnan canal became the court’s grain route."
     },
     "description": {
-      "zh": "绍兴八年（1138），南宋正式定都临安（今杭州）。临安位于江南运河南端，经运河可北接镇江、扬州，转入长江与淮河；都城所需的粮米、布帛、木材与日用百货多由江南运河输入。南宋在临安设转运司、仓场与河码头，城北湖墅、江涨桥一带因运河而兴。本事件为政治事件，不绘路线。",
-      "en": "In 1138 the Southern Song formally established Lin’an (present-day Hangzhou) as its capital. At the southern end of the Jiangnan canal, Lin’an was linked north to Zhenjiang and Yangzhou and thence to the Yangtze and Huai. Grain, cloth, timber and daily goods for the capital came largely by the Jiangnan canal. The Southern Song set up transport offices, granaries and wharves, and the city’s northern lakeside and riverine quarters grew around the canal. No route is drawn."
+      "zh": "绍兴八年（1138），南宋正式以临安（今杭州）为行在（皇帝临时驻地），名义上仍以汴京为首都。临安位于江南运河南端，经运河可北接镇江、扬州，转入长江与淮河；行在所需的粮米、布帛、木材与日用百货多由江南运河输入。南宋在临安设转运司、仓场与河码头，城北湖墅、江涨桥一带因运河而兴。严格说，临安是「行在」而非正式首都；「定都临安」是后世的通行简写。本事件为政治事件，不绘路线。",
+      "en": "In 1138 the Southern Song formally made Lin’an (present-day Hangzhou) its xingzai, the emperor’s temporary residence, while Bianjing remained the nominal capital. At the southern end of the Jiangnan canal, Lin’an was linked north to Zhenjiang and Yangzhou and thence to the Yangtze and Huai. Grain, cloth, timber and daily goods for the court came largely by the Jiangnan canal. The Southern Song set up transport offices, granaries and wharves, and the city’s northern lakeside and riverine quarters grew around the canal. Strictly speaking Lin’an was a temporary capital, not the formal capital; “establishing the capital at Lin’an” is a later shorthand. No route is drawn."
     },
     "sources": [
       {
         "title": "《宋史·高宗纪》",
         "author": "脱脱等",
         "year": 1345,
-        "note": "绍兴八年定都临安"
+        "note": "绍兴八年以临安为行在"
       },
       {
         "title": "《咸淳临安志》",
         "author": "潜说友",
         "year": 1274,
-        "note": "南宋临安都城与运河码头"
+        "note": "南宋临安行在与运河码头"
+      },
+      {
+        "title": "《建炎以来系年要录》",
+        "author": "李心传",
+        "year": 1202,
+        "note": "绍兴八年定行在的记载"
       },
       {
         "title": "《杭州运河史话》",
         "author": "杭州市地方志办公室",
         "year": 2014,
         "note": "临安与江南运河"
-      },
-      {
-        "title": "《京杭大运河志》",
-        "author": "中国大运河志编纂委员会",
-        "year": 2019,
-        "note": "南宋江南运河与临安"
       }
     ],
     "relatedIds": [

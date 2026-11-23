@@ -3,6 +3,21 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.270] - 2026-11-23
+
+### Fixed
+- **南宋临安表述修正**：事件「南宋定都临安」改为「南宋以临安为行在」。
+  - 绍兴八年（1138）南宋以临安为行在（皇帝临时驻地），名义首都仍为汴京；
+    「定都临安」是后世通行简写。
+  - 补别名「南宋定都临安」以保留旧检索词；补《建炎以来系年要录》来源。
+  - 事件 id 不变，事件 / 路线数量不变。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes --atlas grand-canal`、`pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build` 全部通过。
+
+---
+
 ## [v1.0.269] - 2026-11-23
 
 ### Added
