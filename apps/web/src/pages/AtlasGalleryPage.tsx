@@ -4,6 +4,7 @@ import { useAtlasStore } from '../stores/useAtlasStore';
 import { AtlasCard } from '../components/atlas/AtlasCard';
 import { LanguageToggle } from '../components/layout/LanguageToggle';
 import { useI18n } from '../hooks/useI18n';
+import { SITE_ICP, SITE_PSB } from '../config/site';
 
 export function AtlasGalleryPage() {
   const { index, loading, error, loadIndex } = useAtlasStore();
@@ -117,6 +118,28 @@ export function AtlasGalleryPage() {
         >
           {t('about.link')}
         </Link>
+        <br />
+        <a
+          href={SITE_ICP.href}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="underline decoration-ink/20 underline-offset-2 hover:text-cinnabar"
+        >
+          {SITE_ICP.number}
+        </a>
+        {SITE_PSB.number ? (
+          <>
+            {' · '}
+            <a
+              href={SITE_PSB.href}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="underline decoration-ink/20 underline-offset-2 hover:text-cinnabar"
+            >
+              {SITE_PSB.number}
+            </a>
+          </>
+        ) : null}
       </footer>
     </div>
   );

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { LanguageToggle } from '../components/layout/LanguageToggle';
 import { clearAppCaches, useCacheInfo } from '../hooks/useCacheInfo';
 import { useI18n } from '../hooks/useI18n';
+import { SITE_ICP } from '../config/site';
 
 function formatBytes(value: number | null): string | null {
   if (value === null) return null;
@@ -53,6 +54,19 @@ export function AboutPage() {
             <div className="flex justify-between gap-4">
               <dt className="text-ink-soft/60">{t('about.version')}</dt>
               <dd className="font-medium text-ink">{__APP_VERSION__}</dd>
+            </div>
+            <div className="flex justify-between gap-4">
+              <dt className="text-ink-soft/60">{t('about.icp')}</dt>
+              <dd className="font-medium text-ink">
+                <a
+                  href={SITE_ICP.href}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="underline decoration-ink/20 underline-offset-2 hover:text-cinnabar"
+                >
+                  {SITE_ICP.number}
+                </a>
+              </dd>
             </div>
             <div className="flex justify-between gap-4">
               <dt className="text-ink-soft/60">{t('about.dataContract')}</dt>

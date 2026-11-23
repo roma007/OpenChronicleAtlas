@@ -3,6 +3,35 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.278] - 2026-11-23
+
+### Added
+- **备案号落地（M296）**：ICP 备案 2026-11-23 通过，备案号 `粤ICP备2026058093号-2`
+  在首页页脚与 About 页展示，链接工信部查询页。
+  - 新增 `apps/web/src/config/site.ts`：`SITE_ICP` / `SITE_PSB` 单点配置，换号只改一处。
+  - 公安联网备案号位置已预留，`SITE_PSB.number` 留空时页脚不渲染。
+  - i18n 新增 `about.icp`。
+
+### Changed
+- `AGENTS.md` §6 由「线上预览与临时访问（备案前）」改为「线上访问与临时通道（备案已通过）」：
+  正式入口 `https://atlas.openapp.asia`、调试口保留 8081、证书放 `/srv/nginx/certs/`（禁放 `conf.d/`）、
+  HSTS 延后 24 小时、**Service Worker 只在 https 注册**（调试口从未真正验证 PWA）。
+- `AGENTS.md` §7.5 红线新增「PWA 改动必须在 https 上验证」；§6 硬性约束补证书与 HSTS 两条。
+- `AGENTS.md` §8 归属表：80/443 归 QuizGo 配置、`/srv/nginx/certs` 挂载归属、
+  `state/exposure.json` 由执行切换方写。
+
+### Ops
+- `/srv/ops/requests/2026-11-23-atlas-to-quizgo-enable-443-tls.md`：TLS 切换请求单（含两份 conf 全文、
+  挂载要求、执行顺序、验收命令、红线）。
+- `/srv/ops/bin/status.sh` 公网自探改为读 `state/exposure.json`（缺失按全部 blocked），
+  判据由 curl 改为 TCP 连接（443 在 TLS 下用 http 探会误判）。
+- `/srv/ops/CONTRACT.md` 同步端口归属、备案状态与 `exposure.json` 写入规则。
+
+### Docs
+- `docs/conversations/2026-11-23-备案通过与TLS切换准备M296.md`
+
+---
+
 ## [v1.0.277] - 2026-11-23
 
 ### Added

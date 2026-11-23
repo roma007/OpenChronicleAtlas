@@ -157,10 +157,11 @@
 - 发布说明：`docs/releases/`
 - 文档与代码同一次提交，不允许事后补文档。
 
-## 6. 线上预览与临时访问（备案前）
+## 6. 线上访问与临时通道（备案已通过）
 
-> **备案通过前，禁止把 nginx 切到 80/443 对外。** 域名解析已指向公网 IP，
-> 一旦在 80/443 上提供服务即属未备案对外，可能被封端口并影响备案审核。
+> **ICP 备案于 2026-11-23 通过**，备案号 `粤ICP备2026058093号-2`（页脚已展示，链接工信部查询页）。
+> 「备案前不得启用 80/443」的红线**已解除**，80/443 转为正式对外端口，走 HTTPS。
+> 切换动作在 QuizGo 侧（容器 + conf 正源），Atlas 提请求：`/srv/ops/requests/2026-11-23-atlas-to-quizgo-enable-443-tls.md`。
 
 ### 环境
 
@@ -172,32 +173,38 @@
 | SSH | `ssh quizgo`（走 Tailscale，**唯一长期通道**）；`ssh quizgo-pub`（走公网，仅 `TCP 22 → 223.73.119.15/32` 临时放行，2026-11-21 复核后删除） |
 | Atlas 部署目录 | `/srv/atlas`（nginx 只读挂载） |
 | nginx 配置 | `/srv/nginx/conf.d/atlas.conf`（仓库 `OpenQuizGo/deploy/nginx/`） |
+| 正式入口 | `https://atlas.openapp.asia`（443）；`http://` 一律 301 |
+| 调试入口 | `http://quizgo-ecs:8081` / `http://100.65.110.80:8081`（tailnet） |
 
-### 访问方式（调试通道，不涉及备案）
+### 访问方式
 
 ```bash
-open http://quizgo-ecs:8081    # 或 http://100.65.110.80:8081
+open https://atlas.openapp.asia     # 正式入口（TLS）
+open http://quizgo-ecs:8081         # tailnet 调试口，无 TLS，仅供排障
 ```
 
-- 访问方需加入同一 tailnet（同账号登录 Tailscale），手机 4G 亦可
-- nginx 只放行 `127.0.0.1` 与 `100.64.0.0/10`，其余 403；安全组也未放行 8081，公网无法直连
+- 正式入口要求证书就位；证书在 `/srv/nginx/certs/`，由 QuizGo 的 web 容器只读挂载
+- **证书不得放进 `conf.d/`**：`--with-nginx` 的 `rsync --delete` 会删掉
+- 调试口只放行 `127.0.0.1` 与 `100.64.0.0/10`，安全组也未放行 8081
 - 深链（`/atlas/*`、`/search`）由 nginx 做 SPA 回退，可直接访问
+- **Service Worker 只在 https 下注册**：`http://100.65.110.80:8081` 不是 secure context，
+  所以 PWA 离线能力在调试口上天然不生效；首次真实启用是在 https 上线后，必须回归测试安装与更新
 
-### 安全组现状（2026-11-14 收口）
-
-入方向只剩 3 条：
+### 安全组现状（2026-11-14 收口，2026-11-23 加回 80/443）
 
 | 规则 | 用途 | 期限 |
 | --- | --- | --- |
+| `TCP 80` / `TCP 443` | 正式对外（备案已通过） | 长期 |
 | `TCP 22 → 223.73.119.15/32` | 临时 SSH | 2026-11-21 复核后删除；删前先实测控制台 VNC 可登 |
 | `UDP 41641` | Tailscale 直连打洞 | 长期 |
 | `ICMP` | 排障 | 长期 |
 
-**80/443 已于 2026-11-14 删除**（原为「放行但无监听」，属误开即违规的隐患）。
-**备案通过当天必须加回**，与 `atlas.conf` 改 `listen 80/443` 一起做；漏了会表现为 80/443 超时。
+**80/443 于 2026-11-14 删除、2026-11-23 备案通过后加回**；两者必须与 `listen 80/443` 同步，
+只加安全组不切配置 = 80 超时，只切配置不加安全组 = 同样超时。
 
 验收用服务器上的自探（`ssh quizgo '/srv/ops/bin/status.sh'` 的「公网暴露自探」段）：
-`28`=已拦（正常），`7`=安全组放行（备案前属异常），其它=非预期。
+判据来自 `/srv/ops/state/exposure.json`（缺失时按全部 `blocked`）。
+备案后期望：`80/443 = allowed`，`8080/8081/8082 = blocked`。
 该探针只测安全组、不测监听；且 22 规则按源限流，从服务器自身发起**测不出**，闭环只能从 `/32` 那一侧或控制台规则列表确认。
 
 ### 本地开发
@@ -238,12 +245,14 @@ curl -s -o /dev/null -w "%{http_code}\n" http://quizgo-ecs:8081/atlas/<任意专
 
 ### 硬性约束
 
-1. 备案通过前，`atlas.conf` 保持 `listen 8081`，不得改成 80/443
+1. `atlas.conf` 的正文在 **OpenQuizGo 仓库**，Atlas 不直接改服务器文件，一律提请求（见第 8 节耦合点）
 2. 不要把任何密钥、`.env`、证书写入仓库
 3. 数据改动仍走 `pnpm validate:data` → `build:search-index` → `build:mobile-data`，生成物一并提交
 4. 服务器上的 `/srv/atlas` 是构建产物，**不要**在服务器上改内容，改动一律走仓库 → 构建 → rsync
 5. 安全组、Tailscale、iptables 属**人工**，AI 不得自行修改；只可读、可提请求、可自探
-6. 备案通过前安全组不得出现 80/443；需要临时对外演示时，只加非标端口 + 对方 IP `/32`，用完立刻删
+6. 除 80/443 外不得新增公网端口；临时对外演示只加非标端口 + 对方 IP `/32`，用完立刻删
+7. 证书放 `/srv/nginx/certs/`（700，文件 600），**不得**放进 `conf.d/`（会被 `rsync --delete` 删掉）
+8. HSTS 需证书稳定运行 24 小时后再开；开启后回滚成本高（浏览器缓存一年）
 
 ## 7. 发布与线上更新（Web 静态站）
 
@@ -334,10 +343,11 @@ ssh quizgo 'sudo rsync -a --delete /srv/atlas.prev/ /srv/atlas/'
 
 ### 7.5 红线
 
-1. 备案通过前，`atlas.conf` 保持 `listen 8081`，**不得**改成 80/443
+1. `atlas.conf` 与 `quiz.conf` 的正源在 OpenQuizGo 仓库；Atlas 改配置一律走 `requests/`，不直接改服务器文件
 2. 不在服务器上构建、不直接修改 `/srv/atlas`
 3. 不把密钥、证书、`.env` 提交进仓库
 4. 数据与生成物必须同一次提交（见第 4 节）
+5. Service Worker 只在 https 生效；改 PWA 相关文件必须在 `https://atlas.openapp.asia` 上验证，调试口验证不算
 
 ## 8. 与 OpenQuizGo 的跨项目协作
 
@@ -359,8 +369,9 @@ Atlas 与 OpenQuizGo 共用一台 ECS、一个 nginx 容器、一份磁盘。协
 2. **改共享面先拿锁**：`/srv/nginx/**` 归两个项目共有，改动前
    `ssh quizgo 'flock /srv/ops/locks/nginx.lock -c "<命令>"'`。拿不到锁说明对方正在动，等。
 3. **nginx 容器归 QuizGo**：`quizgo-web-1` 只读，**不得** restart / recreate。
-   需要重启（例如备案后切 80/443）走 `requests/` 请对方做。
-4. **只写自己的东西**：`state/atlas.json` 只有 Atlas 写，`state/quizgo.json` 只有 QuizGo 写。
+   需要重启（例如改证书、动挂载）走 `requests/` 请对方做。
+4. **只写自己的东西**：`state/atlas.json` 只有 Atlas 写，`state/quizgo.json` 只有 QuizGo 写；
+   `state/exposure.json` 由**执行切换**的一方写（切换公网端口时）。
 5. **发布必登记**：第 7 节第 6 步，写 state + journal，且 `status.sh` 漂移检测全绿才算完成。
 6. **漂移告警不许忽略**：`status.sh` 报 drift 说明有改动没登记，先查 journal 再动手。
 
@@ -394,8 +405,9 @@ Atlas 与 OpenQuizGo 共用一台 ECS、一个 nginx 容器、一份磁盘。协
 | `quizgo-web-1` 容器、`/srv/nginx/nginx.conf`、`conf.d/quiz.conf` | QuizGo |
 | `conf.d/atlas.conf` | **源文件在 OpenQuizGo 仓库**，Atlas 提请求修改（见下） |
 | `/srv/atlas`、`/srv/atlas.prev` | **Atlas** |
-| 端口 8081 / 8082 | Atlas / QuizGo |
-| 端口 80 / 443 | **双方共同决定**，备案前任何一方不得启用 |
+| 端口 8081 / 8082 | Atlas / QuizGo（tailnet 调试口） |
+| 端口 80 / 443 | **QuizGo 配置**（`quizgo-web-1`）；备案已通过，正式对外走 TLS |
+| `/srv/nginx/certs` | QuizGo 容器挂载；证书由用户提供，不进仓库 |
 | `/srv/ops` | 共同（写入规则见 CONTRACT.md 第 4 节） |
 
 > **耦合点**：QuizGo 的 `--with-nginx` 用 `rsync --delete` 同步 `deploy/nginx/conf.d/`，
