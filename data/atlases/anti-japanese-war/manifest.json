@@ -49,10 +49,10 @@
     {
       "id": "japanese-invasion",
       "name": {
-        "zh": "日军进攻",
-        "en": "Japanese Invasion Forces"
+        "zh": "日本",
+        "en": "Japan"
       },
-      "color": "#7a2e2e",
+      "color": "#000000",
       "order": 1,
       "description": {
         "zh": "自 1931 年九一八事变起，日本关东军及后续侵华部队在中国东北、华北、华中、华南的进攻方向与军事行动；并收录日方扶植的伪政权（伪满洲国、汪伪国民政府、华北政务委员会等）、对华外交胁迫（天羽声明、广田三原则、陶德曼调停等）与经济掠夺节点。另收日军自日本本土、澎湖、海南、台湾等基地出航，在中国沿海及东南亚登陆／海上输送的航线；登陆点取滩头或港口，不深入内陆。路线为示意简化。中国一方的主体（国民政府、国民党军、八路军、新四军、民众、抗联等）另立层，不混入本层。",
@@ -65,7 +65,7 @@
         "zh": "国民政府",
         "en": "National Government of China"
       },
-      "color": "#b8863b",
+      "color": "#1E3A8A",
       "order": 2,
       "description": {
         "zh": "中华民国国民政府（1928—1948）。1927 年 4 月在南京成立，1928 年北伐完成后为全国中央政府，故又称「南京国民政府」；1937 年全面抗战爆发后迁驻重庆，习称「重庆国民政府」。本专题时段内它是中国的中央政府，对外代表中国；外交文书与外国政府通常径称「中国政府」（如 1941-12-09 对日宣战布告、1943 年《开罗宣言》中的 China），两者指同一主体。1948 年 5 月「行宪」后改称「中华民国政府」，已不在本专题时段内。",
@@ -78,7 +78,7 @@
         "zh": "国际组织与多边会议",
         "en": "International Organizations and Multilateral Conferences"
       },
-      "color": "#5d6f7a",
+      "color": "#475569",
       "order": 2.2,
       "description": {
         "zh": "国际联盟、九国公约会议等多边组织与会议的调查、调处与决议；行为主体是国际组织或会议，不是中国政府。",
@@ -91,7 +91,7 @@
         "zh": "中国民众",
         "en": "Chinese People"
       },
-      "color": "#8a6f4a",
+      "color": "#FB7185",
       "order": 2.5,
       "description": {
         "zh": "学生、知识分子、社会团体、民众武装、难民与战时救援；不包含政府决策与军队作战。",
@@ -104,7 +104,7 @@
         "zh": "盟军与中国远征军",
         "en": "Allied Forces and Chinese Expeditionary Force"
       },
-      "color": "#3f6b7d",
+      "color": "#0E7490",
       "order": 3,
       "description": {
         "zh": "太平洋战争爆发后，中国与美、英等盟国在中缅印战区协同作战；路线表现中国远征军入缅、撤退与缅北反攻。另收 1945 年美军自提尼安岛对广岛、长崎的原子弹空袭事件与空袭航线，作为太平洋战场的盟军战略打击，不与中国战区地面作战混同。",
@@ -117,7 +117,7 @@
         "zh": "国民党军正面战场",
         "en": "KMT Frontline Forces"
       },
-      "color": "#2f5d8a",
+      "color": "#1D4ED8",
       "order": 4,
       "description": {
         "zh": "国民革命军正面战场部队与作战序列；路线为示意简化，待史料校订。",
@@ -130,7 +130,7 @@
         "zh": "八路军",
         "en": "Eighth Route Army"
       },
-      "color": "#b23a2e",
+      "color": "#B91C1C",
       "order": 5,
       "description": {
         "zh": "国民革命军第八路军及其华北敌后根据地；路线为示意简化，待史料校订。",
@@ -143,7 +143,7 @@
         "zh": "新四军",
         "en": "New Fourth Army"
       },
-      "color": "#3f7a4f",
+      "color": "#DC2626",
       "order": 6,
       "description": {
         "zh": "国民革命军陆军新编第四军及其华中敌后根据地；路线为示意简化，待史料校订。",
@@ -156,7 +156,7 @@
         "zh": "华南抗日游击队",
         "en": "South China Guerrillas"
       },
-      "color": "#6b8e23",
+      "color": "#E11D48",
       "order": 7,
       "description": {
         "zh": "东江纵队、琼崖纵队等华南抗日武装；路线为示意简化，待史料校订。",
@@ -169,7 +169,7 @@
         "zh": "国民党军集团军",
         "en": "KMT Group Armies"
       },
-      "color": "#1f4e79",
+      "color": "#3B82F6",
       "order": 8,
       "description": {
         "zh": "国民革命军集团军层级部队与作战序列；路线为示意简化，待史料校订。",
@@ -182,7 +182,7 @@
         "zh": "民国省界",
         "en": "ROC Provincial Boundaries"
       },
-      "color": "#6b7280",
+      "color": "#9CA3AF",
       "order": 99,
       "description": {
         "zh": "1931—1945 年中华民国省界，五张分期面：1931、1937、1938、1939—1944、1945。数据取自 ENP-China「Provinces in Republican China (boundaries)」1928—1945 与 1945—1946 两套面（CC0 1.0），经 Web Mercator→WGS84 反算与约 0.9km 抽稀。只描边不填充。西康 1939-01-01 建省，此前三帧标「西康特别行政区」。台湾在 1895—1945 年处于日本殖民统治之下，源数据 1928—1945 层不含台湾；为免误读，1931—1944 四帧用 1945 层的台湾几何补绘，标注「台湾（日占时期，中国领土）」，1945 帧标「台湾省（光复）」。中国从未放弃对台湾的主权：1941-12-09 对日宣战并废止《马关条约》等一切中日条约，1943 年《开罗宣言》、1945 年《波茨坦公告》确认归还，1945-10-25 台北受降收复。",
@@ -199,7 +199,7 @@
         "zh": "租界当局",
         "en": "Concession Authorities"
       },
-      "color": "#8a8f98",
+      "color": "#78716C",
       "description": {
         "zh": "上海公共租界与法租界、天津英法租界、鼓浪屿公共租界、广州沙面英法租界等。抗战期间它们既是难民与抗日舆论的庇护空间（上海“孤岛”1937-11 至 1941-12），也在日方压力下让步（1939-06 天津英租界被封锁、1940 年英国一度封闭滇缅公路），1941-12 太平洋战争后被日军接管，1943 年起陆续被汪伪“收回”，1945—1946 年正式交还中国。本层只记录与租界直接相关的节点，不把租界写成援助主体。",
         "en": "The Shanghai International Settlement and French Concession, the British and French concessions in Tianjin, the Gulangyu International Settlement and the Shamian British and French concessions in Guangzhou. During the war they sheltered refugees and anti-Japanese publishing (the Shanghai “isolated island”, November 1937 to December 1941), but also yielded to Japanese pressure (the Tianjin British concession blockade from June 1939, the brief British closure of the Burma Road in 1940). They were taken over by Japan after December 1941, “recovered” by the Wang Jingwei regime from 1943 and formally returned to China in 1945–1946. This layer records concession-related nodes only and does not treat the concessions as aid providers."
@@ -211,7 +211,7 @@
         "zh": "国际民间组织与援华团体",
         "en": "International Civil Organizations and China Aid Groups"
       },
-      "color": "#6f8a6b",
+      "color": "#4D7C0F",
       "description": {
         "zh": "抗战期间在华开展救援、医疗、生产与宣传的国际民间力量：上海南市难民区（饶家驹）、南京安全区国际委员会、保卫中国同盟、中国工业合作协会（工合）、印度援华医疗队、白求恩与国际医疗队、美国医药援华局、美国援华联合会、英国援华会，以及斯诺、史沫特莱、爱泼斯坦等记者与传教士网络。与“国际组织与多边会议”层（国联、九国公约会议等政府间机制）分工：本层为民间团体与个人，不包含政府间组织。",
         "en": "International civil actors that carried out relief, medical, production and publicity work in China during the war: the Nanshi refugee zone (Jacquinot), the Nanjing Safety Zone International Committee, the China Defence League, the Chinese Industrial Cooperatives (Gung Ho), the Indian Medical Mission, Bethune and the international medical teams, the American Bureau for Medical Aid to China, United China Relief and the China Campaign Committee, together with journalists and missionary networks such as Snow, Smedley and Epstein. It is distinct from the “International Organizations and Multilateral Conferences” layer, which covers intergovernmental bodies."
@@ -223,7 +223,7 @@
         "zh": "东北抗日义勇军",
         "en": "Northeast Anti-Japanese Volunteer Armies"
       },
-      "color": "#8b5a2b",
+      "color": "#991B1B",
       "description": {
         "zh": "1931 年九一八事变后东北自发的抗日武装，包括马占山部（江桥抗战）、李杜与冯占海部（哈尔滨保卫战）、邓铁梅、王德林、黄显声等部。1932 年号称 30 万人，但成分复杂、缺乏统一指挥，1932 年底基本溃散，余部或退入关内与苏联，或转入中共领导的抗日游击队。本层为 1931—1933 年；1933—1936 年的东北人民革命军与 1936 年后的东北抗日联军另立「东北抗日联军」层。",
         "en": "Volunteer forces that rose after the Mukden Incident in 1931, including Ma Zhanshan at the Nen River bridge, Li Du and Feng Zhanhai at Harbin, and the units of Deng Tiemei, Wang Delin and Huang Xiansheng. Some 300,000 strong in 1932, they were loosely organised and largely dispersed by the end of that year, with survivors withdrawing inside the Great Wall or to the USSR, or joining the Communist-led guerrillas. This layer covers 1931–1933; the People’s Revolutionary Army (1933–1936) and the United Army (1936 onward) form a separate layer."
@@ -235,7 +235,7 @@
         "zh": "东北抗日联军",
         "en": "Northeast Anti-Japanese United Army"
       },
-      "color": "#9c3b3b",
+      "color": "#F43F5E",
       "description": {
         "zh": "东北抗日联军（简称东北抗联）。前身为 1932 年起的反日游击队与 1933—1936 年的东北人民革命军；1936-02-20 发表《东北抗日联军统一军队建制宣言》，统一改称东北抗日联军，至 1937 年秋编成 11 个军，鼎盛时约 3 万至 4 万人，分第一（1936-07）、第二（1937-10）、第三（1939-05）路军。1940 年后严重减员，主力退入苏联境内整训；1942-08-01 成立东北抗日联军教导旅，对外番号苏联远东方面军独立第 88 步兵旅；1945-08 配合苏军反攻东北，9 月改编为东北人民自卫军。抗联以游击战为主，本层事件多不绘地面进攻路线。",
         "en": "The Northeast Anti-Japanese United Army. Its predecessors were the anti-Japanese guerrillas from 1932 and the Northeast People’s Revolutionary Army of 1933–1936; on 20 February 1936 the declaration unifying the army was issued, and by autumn 1937 it fielded 11 armies and 30,000–40,000 men in three route armies (the 1st in July 1936, the 2nd in October 1937 and the 3rd in May 1939). Heavily reduced after 1940, the main force withdrew into the Soviet Union for training; the training brigade was formed on 1 August 1942 under the Soviet designation of the 88th Independent Infantry Brigade of the Far Eastern Front, fought alongside the Soviet offensive in August 1945, and was renamed the Northeast People’s Self-Defence Army in September 1945. The United Army fought as guerrillas, so most events in this layer carry no ground route."
@@ -247,7 +247,7 @@
         "zh": "中国共产党",
         "en": "Communist Party of China"
       },
-      "color": "#7a4e7e",
+      "color": "#7F1D1D",
       "description": {
         "zh": "中国共产党在全国抗战中的政治主线：中共中央的宣言、决议、指示与重要会议（瓦窑堡会议、六届六中全会、六届七中全会、七大等），国共谈判与中共代表团往返（西安、杭州、庐山、重庆），南方局等派出机关，以及毛泽东《论持久战》《新民主主义论》与延安整风的文献。另收东北党组织沿革（《一·二六指示信》《八一宣言》、满洲省委撤销、东北党委员会）。本层只收党的政策、组织与政治行程，不收军队作战与人物牺牲；八路军、新四军、华南游击队、东北抗联的作战与建制属各自军事层。两套层分开，是为了不把党的文件写成军队的文件，也不把军队的仗写成党的会。",
         "en": "The CCP’s political main line in the nationwide war: Central Committee declarations, resolutions, directives and major meetings (Wayaobao, the Sixth Plenum, the Seventh Plenum of the Sixth Central Committee, the Seventh Congress), KMT–CCP negotiations and the travels of CCP delegations (Xi’an, Hangzhou, Lushan, Chongqing), organs such as the Southern Bureau, and texts from Mao Zedong’s “On Protracted War” and “On New Democracy” to the Yan’an rectification. It also keeps the organisational history in Manchuria (the January 1933 directive, the August 1935 declaration, the abolition of the Manchurian Provincial Committee and the Northeast Party Committee). The layer holds Party policy, organisation and political travel only, not military operations or the deaths of commanders, which belong to the Eighth Route Army, New Fourth Army, South China guerrilla and Northeast United Army layers. The layers are kept separate so that Party documents are not filed as army documents, and army battles are not filed as Party meetings."

@@ -3,6 +3,25 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.261] - 2026-11-23
+
+### Changed
+- **抗日战争 · 主体配色与层名（M279）**：
+  - `japanese-invasion` 显示名由「日军进攻」改为「日本」（英文 `Japan`），实体 id 不变。
+  - 日本用黑色 `#000000`。
+  - 中共与人民力量用不同程度红色：中国共产党 `#7F1D1D`、八路军 `#B91C1C`、新四军 `#DC2626`、
+    东北抗日义勇军 `#991B1B`、东北抗日联军 `#F43F5E`、华南抗日游击队 `#E11D48`、中国民众 `#FB7185`。
+  - 国民政府与盟军用不同蓝色：国民政府 `#1E3A8A`、国民党军正面战场 `#1D4ED8`、
+    国民党军集团军 `#3B82F6`、盟军与中国远征军 `#0E7490`。
+  - 其他主体：国际组织 `#475569`、租界 `#78716C`、国际民间组织 `#4D7C0F`、民国省界 `#9CA3AF`。
+  - 事件 / 路线 / 地区数量不变（1151 / 594 / 941）。
+
+### Verify
+- `pnpm validate:data`、`pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build:search-index`、`pnpm build:mobile-data` 全部通过。
+
+---
+
 ## [v1.0.260] - 2026-11-23
 
 ### Added
