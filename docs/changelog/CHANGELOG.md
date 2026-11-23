@@ -3,6 +3,35 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.277] - 2026-11-23
+
+### Added
+- **三国专题第三批扩充（M295）**：新增 15 个事件、9 段路线，补辽东、淮南一叛与晋灭吴。
+  - 事件：司马懿平辽东、芍陂之战、王凌之乱（淮南一叛）、曹叡去世、姜维围南安、
+    姜维取狄道、高贵乡公之变、王浑出镇扬州、羊祜去世、晋六路伐吴、杜预破江陵、
+    王濬破丹杨与西陵、王濬平武昌、王浑破横江、张悌战死板桥。
+  - 路线：洛阳—邺—幽州—襄平、寿春—芍陂、洛阳—寿春（平王凌）、
+    汉中—祁山—南安、南安—狄道、襄阳—江陵、西陵—江陵—夏口—武昌—建业、
+    寿春—横江、建业—板桥。
+  - 曹叡去世、高贵乡公之变、羊祜去世、王浑出镇扬州无行军，标 `routeEvent = false`。
+
+### Changed
+- **三国专题首次执行航线陆检（M295）**：`check:land --atlas three-kingdoms` 报出 5 条
+  naval 路线共 25 段连续陆地，经核对全部为汉水、长江内河航段。
+  - 新增 `data/atlases/three-kingdoms/land-legs.allow.json`，逐段写明内河航段理由；
+  - 未调大阈值、未删除既有航线；
+  - 登记后 `check:land --atlas three-kingdoms` 为 0 处待处理。
+
+### Verify
+- `pnpm validate:data`（three-kingdoms 81 事件 / 66 路线段）、
+  `pnpm check:routes --atlas three-kingdoms`（0）、
+  `pnpm check:heads --atlas three-kingdoms`（0 个无来由端点）、
+  `pnpm check:land --atlas three-kingdoms`（0 处待处理）、
+  `pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.276] - 2026-11-23
 
 ### Added

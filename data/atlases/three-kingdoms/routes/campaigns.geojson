@@ -2153,6 +2153,368 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.45,
+            34.62
+          ],
+          [
+            114.4,
+            36.3
+          ],
+          [
+            116.4,
+            39.9
+          ],
+          [
+            119.8,
+            40.8
+          ],
+          [
+            123.17,
+            41.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0238-06-01",
+        "endDate": "0238-09-30",
+        "order": 43,
+        "segmentType": "advance",
+        "name": {
+          "zh": "洛阳—邺—幽州—襄平（平辽东）",
+          "en": "Luoyang–Ye–Youzhou–Xiangping (Liaodong campaign)"
+        },
+        "description": {
+          "zh": "司马懿自洛阳经邺、幽州东进辽东，围襄平，平公孙渊。路线示意。",
+          "en": "Sima Yi marched east from Luoyang through Ye and Youzhou to Liaodong and besieged Xiangping, ending Gongsun Yuan. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.27,
+            32.58
+          ],
+          [
+            116.78,
+            32.35
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0241-04-01",
+        "endDate": "0241-05-31",
+        "order": 44,
+        "segmentType": "defense",
+        "name": {
+          "zh": "寿春—芍陂（芍陂之战）",
+          "en": "Shouchun–Shaoqi (Battle of Shaoqi)"
+        },
+        "description": {
+          "zh": "王凌自寿春率援军赴芍陂，与孙礼力战拒全琮。路线示意。",
+          "en": "Wang Ling brought reinforcements from Shouchun to Shaoqi and fought with Sun Li against Quan Cong. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.45,
+            34.62
+          ],
+          [
+            114.3,
+            32.6
+          ],
+          [
+            117.27,
+            32.58
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0251-04-01",
+        "endDate": "0251-06-30",
+        "order": 45,
+        "segmentType": "advance",
+        "name": {
+          "zh": "洛阳—寿春（平王凌）",
+          "en": "Luoyang–Shouchun (suppression of Wang Ling)"
+        },
+        "description": {
+          "zh": "司马懿自洛阳率军东下，平王凌于寿春。路线示意。",
+          "en": "Sima Yi marched east from Luoyang and suppressed Wang Ling at Shouchun. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.03,
+            33.07
+          ],
+          [
+            105.2,
+            34.2
+          ],
+          [
+            104.6,
+            34.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0253-06-01",
+        "endDate": "0253-08-31",
+        "order": 41,
+        "segmentType": "advance",
+        "name": {
+          "zh": "汉中—祁山—南安（围南安）",
+          "en": "Hanzhong–Qishan–Nan’an (siege of Nan’an)"
+        },
+        "description": {
+          "zh": "姜维自汉中出石营、经董亭围南安。路线为示意，石营、董亭位置待考。",
+          "en": "Jiang Wei marched from Hanzhong through Shiying and Dongting to besiege Nan’an. The line is schematic; the exact positions of Shiying and Dongting are uncertain."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.6,
+            34.9
+          ],
+          [
+            103.86,
+            35.38
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0254-06-01",
+        "endDate": "0254-08-31",
+        "order": 42,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南安—狄道（取狄道）",
+          "en": "Nan’an–Didao (taking Didao)"
+        },
+        "description": {
+          "zh": "姜维自南安进兵陇西，狄道守将李简举城降。路线示意。",
+          "en": "Jiang Wei advanced from Nan’an into Longxi and the Didao commander Li Jian surrendered. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.14,
+            32.02
+          ],
+          [
+            112.2,
+            30.35
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "jin",
+        "startDate": "0280-02-01",
+        "endDate": "0280-03-31",
+        "order": 35,
+        "segmentType": "advance",
+        "name": {
+          "zh": "襄阳—江陵（杜预破江陵）",
+          "en": "Xiangyang–Jiangling (Du Yu takes Jiangling)"
+        },
+        "description": {
+          "zh": "杜预自襄阳南下攻江陵，克城斩伍延。路线示意。",
+          "en": "Du Yu marched south from Xiangyang, took Jiangling and killed Wu Yan. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.28,
+            30.7
+          ],
+          [
+            111.45,
+            30.38
+          ],
+          [
+            112.2,
+            30.35
+          ],
+          [
+            112.9,
+            29.82
+          ],
+          [
+            114.3,
+            30.6
+          ],
+          [
+            114.89,
+            30.4
+          ],
+          [
+            115.99,
+            29.71
+          ],
+          [
+            116.98,
+            30.52
+          ],
+          [
+            117.8,
+            30.9
+          ],
+          [
+            118.38,
+            31.33
+          ],
+          [
+            118.8,
+            32.06
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "jin",
+        "startDate": "0280-01-01",
+        "endDate": "0280-03-31",
+        "order": 36,
+        "segmentType": "naval",
+        "name": {
+          "zh": "西陵—江陵—夏口—武昌—建业（王濬顺流）",
+          "en": "Xiling–Jiangling–Xiakou–Wuchang–Jianye (Wang Jun downstream)"
+        },
+        "description": {
+          "zh": "王濬自西陵顺流东下，破夏口、武昌，直趋建业。路线沿长江示意，具体江道待考。",
+          "en": "Wang Jun sailed downstream from Xiling, took Xiakou and Wuchang and headed for Jianye. The line follows the Yangzi schematically; the exact channel is uncertain."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.27,
+            32.58
+          ],
+          [
+            118.35,
+            31.72
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "jin",
+        "startDate": "0280-02-01",
+        "endDate": "0280-03-31",
+        "order": 37,
+        "segmentType": "advance",
+        "name": {
+          "zh": "寿春—横江（王浑出扬州）",
+          "en": "Shouchun–Hengjiang (Wang Hun from Yangzhou)"
+        },
+        "description": {
+          "zh": "王浑自寿春率扬州晋军南下，破横江，逼牛渚。路线示意。",
+          "en": "Wang Hun marched south from Shouchun with the Yangzhou army, broke Hengjiang and pressed on Niuzhu. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8,
+            32.06
+          ],
+          [
+            118.1,
+            31.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wu",
+        "startDate": "0280-03-01",
+        "endDate": "0280-03-31",
+        "order": 39,
+        "segmentType": "advance",
+        "name": {
+          "zh": "建业—板桥（张悌迎战）",
+          "en": "Jianye–Banqiao (Zhang Ti’s sortie)"
+        },
+        "description": {
+          "zh": "张悌自建业督军渡江，迎击王浑，败死板桥。路线示意。",
+          "en": "Zhang Ti led the Wu army from Jianye across the river to meet Wang Hun and died at Banqiao. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

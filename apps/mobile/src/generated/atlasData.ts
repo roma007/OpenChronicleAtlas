@@ -51,6 +51,7 @@ export const BUNDLED_TEXT: Record<string, BundledTextLoader> = {
   "sui-tang/routes/campaigns.geojson": () => require("../../../../data/atlases/sui-tang/routes/campaigns.geojson"),
   "sui-tang/territories/territories.geojson": () => require("../../../../data/atlases/sui-tang/territories/territories.geojson"),
   "three-kingdoms/events/events.json": () => require("../../../../data/atlases/three-kingdoms/events/events.json"),
+  "three-kingdoms/land-legs.allow.json": () => require("../../../../data/atlases/three-kingdoms/land-legs.allow.json"),
   "three-kingdoms/manifest.json": () => require("../../../../data/atlases/three-kingdoms/manifest.json"),
   "three-kingdoms/routes/campaigns.geojson": () => require("../../../../data/atlases/three-kingdoms/routes/campaigns.geojson"),
   "three-kingdoms/territories/territories.geojson": () => require("../../../../data/atlases/three-kingdoms/territories/territories.geojson"),

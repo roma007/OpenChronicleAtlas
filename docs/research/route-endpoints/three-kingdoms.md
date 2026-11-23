@@ -78,8 +78,32 @@
 - 「湘水划界」「曹丕去世」「钟会姜维之乱」无行军，标 `routeEvent = false`。
 - 详细史料核对见 `docs/research/units/three-kingdoms-m294-source-audit.md`。
 
+## M295 新增 9 段路线（2026-11-23）
+
+| # | 路线 | 起点依据 | 终点依据 | 处理 |
+| --- | --- | --- | --- | --- |
+| M295-1 | 洛阳—邺—幽州—襄平 | 洛阳既有节点 | `liaodong-238` 事件点 | 终点落在本实体事件上 |
+| M295-2 | 寿春—芍陂 | 255/257 洛阳—寿春终点 | `shaoqi-241` 事件点 | 防御段，按规则免检 |
+| M295-3 | 洛阳—寿春（平王凌） | 洛阳既有节点 | `wangling-251` 事件点 | 终点接 255 洛阳—寿春终点 |
+| M295-4 | 汉中—祁山—南安 | 汉中既有节点 | `jiangwei-nanan-253` 事件点 | 终点落在本实体事件上 |
+| M295-5 | 南安—狄道 | 253 南安事件点 | `jiangwei-didao-254` 事件点 | 两端均为本实体事件 |
+| M295-6 | 襄阳—江陵（杜预） | 襄阳既有节点 | `duyu-jiangling-280` 事件点 | 终点落在本实体事件上 |
+| M295-7 | 西陵—江陵—夏口—武昌—建业（王濬） | `wangjun-xiling-280` 事件点 | 建业既有节点 | 航线，内河段已登记例外 |
+| M295-8 | 寿春—横江（王浑） | `wanghun-shouchun-277` 事件点 | `wanghun-hengjiang-280` 事件点 | 起点由出镇事件锚定 |
+| M295-9 | 建业—板桥（张悌） | 建业既有节点 | `zhangti-280` 事件点 | 终点落在本实体事件上 |
+
+**本批结论**：
+
+- `check:heads --atlas three-kingdoms` 从 57 段增至 66 段，仍为 0 个无来由端点。
+- `check:land --atlas three-kingdoms` 首次执行，5 条 naval 路线 25 段内河航段全部登记理由，
+  0 处待处理；未调阈值、未删航线。
+- 「曹叡去世」「高贵乡公之变」「羊祜去世」「王浑出镇扬州」无行军，标 `routeEvent = false`。
+- 详细史料核对见 `docs/research/units/three-kingdoms-m295-source-audit.md`。
+
 ## 实施记录
 
+- 2026-11-23 / M295：新增 15 个事件、9 段路线、25 条内河航段例外；
+  `validate:data` 81 事件 / 66 路线段，`check:routes` 0，`check:heads` 0，`check:land` 0 待处理。
 - 2026-11-23 / M294：新增 14 个事件、10 段路线；`validate:data` 66 事件 / 57 路线段，
   `check:routes` 0，`check:heads` 0。
 - 2026-11-23 / M293：新增 15 个事件、12 段路线；`validate:data` 52 事件 / 47 路线段，

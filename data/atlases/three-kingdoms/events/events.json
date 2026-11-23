@@ -3622,5 +3622,810 @@
       "wangjun-fleet-279"
     ],
     "importance": 2
+  },
+  {
+    "id": "liaodong-238",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "司马懿平辽东",
+      "en": "Sima Yi’s campaign in Liaodong"
+    },
+    "date": "0238-06-01",
+    "endDate": "0238-09-30",
+    "location": {
+      "lng": 123.17,
+      "lat": 41.27,
+      "place": {
+        "zh": "幽州辽东郡襄平（今辽宁辽阳）",
+        "en": "Xiangping, Liaodong (modern Liaoyang, Liaoning)"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "司马懿率四万讨公孙渊，围襄平，破城斩公孙渊父子，辽东平定。",
+      "en": "Sima Yi led 40,000 men against Gongsun Yuan, besieged Xiangping, took the city and killed Gongsun Yuan and his son, ending the Liaodong regime."
+    },
+    "description": {
+      "zh": "景初二年（238），魏明帝遣司马懿率四万讨辽东公孙渊。公孙渊于 237 年自立为燕王，置百官、诱鲜卑、侵魏边。司马懿自洛阳经邺、幽州东进，六月至辽东，围襄平；七月大雨，辽水暴涨，魏军与城中相持；八月雨止，司马懿筑土山、发石车攻城，城中粮尽，公孙渊突围被斩，辽东平定。此役消除曹魏东北后患，也显示司马懿的远征能力。襄平故址在今辽宁辽阳，坐标为示意。",
+      "en": "In 238 Emperor Ming of Wei sent Sima Yi with 40,000 men against Gongsun Yuan in Liaodong. Gongsun Yuan had made himself King of Yan in 237, appointed officials, courted the Xianbei and raided Wei’s frontier. Sima Yi marched east from Luoyang through Ye and Youzhou, reached Liaodong in the sixth month and besieged Xiangping. In the seventh month heavy rain flooded the Liao river and the siege stalled; when the rain stopped in the eighth month Sima Yi built earthworks and stone-throwing engines, the city’s food ran out, Gongsun Yuan was killed trying to break out, and Liaodong was pacified. The campaign removed Wei’s northeastern rear threat and showed Sima Yi’s capacity for distant operations. Xiangping is modern Liaoyang, Liaoning; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《晋书·宣帝纪》",
+        "author": "房玄龄等",
+        "year": 648,
+        "note": "景初二年率四万讨公孙渊，围襄平，斩渊父子"
+      },
+      {
+        "title": "《三国志·魏书·公孙度传附公孙渊》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "公孙渊自立燕王与败亡"
+      },
+      {
+        "title": "《资治通鉴》卷七十四",
+        "author": "司马光",
+        "year": 1084,
+        "note": "景初二年辽东之役"
+      }
+    ],
+    "relatedIds": [
+      "gaopingling-249"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "shaoqi-241",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "芍陂之战",
+      "en": "Battle of Shaoqi"
+    },
+    "date": "0241-04-01",
+    "location": {
+      "lng": 116.78,
+      "lat": 32.35,
+      "place": {
+        "zh": "扬州淮南郡芍陂（今安徽寿县南）",
+        "en": "Shaoqi, Huainan (south of modern Shou county, Anhui)"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "吴将全琮率数万攻芍陂，魏将王凌、孙礼力战连日，吴军败退。",
+      "en": "The Wu general Quan Cong attacked Shaoqi with tens of thousands; Wei’s Wang Ling and Sun Li fought for days and drove him back."
+    },
+    "description": {
+      "zh": "正始二年（241）四月，吴将全琮率数万攻魏淮南，决芍陂水，与魏征东将军王凌、扬州刺史孙礼战于芍陂。王凌率援军赶到，力战连日，吴军败退；全琮子全绪、全端反攻掩护撤退。此役是吴魏淮南拉锯的一环，王凌因功封南乡侯、迁车骑将军。芍陂在今安徽寿县南，坐标为示意。",
+      "en": "In the fourth month of 241 the Wu general Quan Cong led tens of thousands against Wei’s Huainan, broke the Shaoqi reservoir and fought the Wei commander Wang Ling and the Yangzhou governor Sun Li at Shaoqi. Wang Ling brought up reinforcements and fought for several days until the Wu army withdrew, covered by a counterattack by Quan Cong’s sons Quan Xu and Quan Duan. The battle was one round in the Wu–Wei contest over Huainan; Wang Ling was ennobled and promoted for the victory. Shaoqi lies south of modern Shou county, Anhui; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·王凌传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "吴大将全琮数万众寇芍陂，凌力战连日"
+      },
+      {
+        "title": "《三国志·吴书·全琮传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "全琮攻芍陂、决水与败退"
+      },
+      {
+        "title": "《资治通鉴》卷七十四",
+        "author": "司马光",
+        "year": 1084,
+        "note": "正始二年芍陂之战"
+      }
+    ],
+    "relatedIds": [
+      "wangling-251",
+      "hefei-215"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "wangling-251",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "王凌之乱（淮南一叛）",
+      "en": "Wang Ling’s revolt (first Huainan revolt)"
+    },
+    "date": "0251-04-01",
+    "location": {
+      "lng": 117.27,
+      "lat": 32.58,
+      "place": {
+        "zh": "扬州淮南郡寿春（今安徽寿县）",
+        "en": "Shouchun, Huainan (modern Shou county, Anhui)"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "王凌与令狐愚谋立楚王曹彪，事泄；司马懿率军东征，王凌出降后饮药死。",
+      "en": "Wang Ling and Linghu Yu plotted to install Cao Biao as emperor; the plot leaked, Sima Yi marched east, and Wang Ling surrendered and took poison."
+    },
+    "description": {
+      "zh": "嘉平三年（251）四月，魏太尉王凌与兖州刺史令狐愚谋立楚王曹彪于许昌，以对抗司马氏。事泄后，司马懿率军自洛阳东下，王凌自缚出降，被押送洛阳，途中饮药死；曹彪亦被赐死。此役是淮南三叛的第一叛，司马氏借此清除淮南亲曹势力，代魏基础更加稳固。寿春故址在今安徽寿县，坐标为示意。",
+      "en": "In the fourth month of 251 the Wei grand commandant Wang Ling and the Yanzhou governor Linghu Yu plotted to install Cao Biao, Prince of Chu, at Xuchang against the Sima family. The plot leaked; Sima Yi marched east from Luoyang, Wang Ling surrendered bound, was sent to Luoyang and took poison on the way; Cao Biao was also forced to die. It was the first of the three Huainan revolts, and the Sima family used it to clear pro-Cao forces in Huainan and strengthen its hold on Wei. Shouchun is modern Shou county, Anhui; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·王凌传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "王凌谋立楚王曹彪、司马懿东征、饮药死"
+      },
+      {
+        "title": "《晋书·宣帝纪》",
+        "author": "房玄龄等",
+        "year": 648,
+        "note": "嘉平三年司马懿东征王凌"
+      },
+      {
+        "title": "《资治通鉴》卷七十五",
+        "author": "司马光",
+        "year": 1084,
+        "note": "王凌之乱与淮南一叛"
+      }
+    ],
+    "relatedIds": [
+      "shaoqi-241",
+      "huainan-255",
+      "zhugedan-257"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "caorui-death-239",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "曹叡去世",
+      "en": "Death of Cao Rui"
+    },
+    "date": "0239-01-01",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "司隶洛阳（今河南洛阳）",
+        "en": "Luoyang (modern Luoyang, Henan)"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "景初三年正月丁亥，曹叡病逝，年三十六；曹芳即位，曹爽、司马懿辅政。",
+      "en": "Cao Rui died in the first month of 239 aged thirty-six. Cao Fang succeeded, with Cao Shuang and Sima Yi as regents."
+    },
+    "description": {
+      "zh": "景初三年（239）正月丁亥（公历 1 月 22 日），魏明帝曹叡病逝于洛阳，年三十六。养子曹芳即位，年八岁；遗诏以曹爽、司马懿辅政。曹叡之死使曹魏进入幼主临朝、宗室与司马氏争权的阶段，为 249 年高平陵之变埋下伏笔。去世无行军，故不设路线。",
+      "en": "On the dinghai day of the first month of 239 (22 January 239) Emperor Ming of Wei, Cao Rui, died at Luoyang aged thirty-six. His adopted son Cao Fang succeeded at the age of eight, with Cao Shuang and Sima Yi as regents by the late emperor’s will. Cao Rui’s death opened a period of child emperors and rivalry between the imperial clan and the Sima family, leading to the Gaopingling coup of 249. There was no military march, so no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·明帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "景初三年正月丁亥崩于洛阳，年三十六"
+      },
+      {
+        "title": "《资治通鉴》卷七十四",
+        "author": "司马光",
+        "year": 1084,
+        "note": "曹叡卒、曹芳即位、曹爽司马懿辅政"
+      }
+    ],
+    "relatedIds": [
+      "caopi-death-226",
+      "gaopingling-249"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "jiangwei-nanan-253",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "姜维围南安",
+      "en": "Jiang Wei besieges Nan’an"
+    },
+    "date": "0253-06-01",
+    "location": {
+      "lng": 104.6,
+      "lat": 34.9,
+      "place": {
+        "zh": "凉州南安郡（今甘肃陇西东南）",
+        "en": "Nan’an commandery (southeast of modern Longxi, Gansu)"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "姜维出石营、经董亭围南安，魏将陈泰解围，姜维粮尽退走。",
+      "en": "Jiang Wei marched through Shiying and Dongting to besiege Nan’an; Wei’s Chen Tai relieved it and Jiang withdrew when supplies ran out."
+    },
+    "description": {
+      "zh": "延熙十六年（253）夏，姜维率数万人出石营，经董亭，围南安。魏雍州刺史陈泰率军救援，进至洛门，姜维粮尽退走。此役是费祎死后姜维首次大规模北伐，虽未克城，但显示其用兵规模较前扩大。南安故址在今甘肃陇西东南，坐标为示意。",
+      "en": "In the summer of 253 Jiang Wei led tens of thousands through Shiying and Dongting and besieged Nan’an. The Wei governor Chen Tai brought relief as far as Luomen, and Jiang Wei withdrew when his supplies ran out. It was Jiang Wei’s first large campaign after Fei Yi’s death; the city held, but the scale of his operations had grown. Nan’an lies southeast of modern Longxi, Gansu; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·蜀书·姜维传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "十六年夏出石营，经董亭，围南安"
+      },
+      {
+        "title": "《三国志·魏书·陈泰传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "陈泰解南安之围，姜维粮尽退"
+      },
+      {
+        "title": "《资治通鉴》卷七十六",
+        "author": "司马光",
+        "year": 1084,
+        "note": "延熙十六年南安之役"
+      }
+    ],
+    "relatedIds": [
+      "jiangwei-didao-254",
+      "duangu-256"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jiangwei-didao-254",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "姜维取狄道",
+      "en": "Jiang Wei takes Didao"
+    },
+    "date": "0254-06-01",
+    "location": {
+      "lng": 103.86,
+      "lat": 35.38,
+      "place": {
+        "zh": "凉州陇西郡狄道（今甘肃临洮）",
+        "en": "Didao, Longxi (modern Lintao, Gansu)"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "姜维出陇西，狄道守将李简举城降；进围襄武，斩魏将徐质，迁三县民入蜀。",
+      "en": "Jiang Wei advanced into Longxi; Li Jian surrendered Didao, and Jiang Wei defeated and killed Xu Zhi at Xiangwu before moving three counties’ people to Shu."
+    },
+    "description": {
+      "zh": "延熙十七年（254），姜维出陇西，狄道守将李简举城降。姜维进围襄武，与魏将徐质交锋，斩徐质、破魏军；又乘胜招降河关、狄道、临洮三县，迁其民入蜀。此役是姜维北伐中少见的攻城斩将之战，但迁徙百姓也削弱了陇西的持续控制。狄道故址在今甘肃临洮，坐标为示意。",
+      "en": "In 254 Jiang Wei advanced into Longxi and the Didao commander Li Jian surrendered the city. Jiang Wei then besieged Xiangwu, defeated the Wei general Xu Zhi and killed him; he also took the surrender of Heguan, Didao and Lintao and moved their people into Shu. It was one of the few northern campaigns in which Jiang Wei took a city and killed a Wei commander, though moving the population weakened lasting control of Longxi. Didao is modern Lintao, Gansu; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·蜀书·姜维传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "李简举城降，进围襄武，斩徐质，迁三县民"
+      },
+      {
+        "title": "《资治通鉴》卷七十六",
+        "author": "司马光",
+        "year": 1084,
+        "note": "延熙十七年姜维出陇西"
+      }
+    ],
+    "relatedIds": [
+      "jiangwei-nanan-253",
+      "jiangwei-taoxi-255"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "gaoguixianggong-260",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "高贵乡公之变",
+      "en": "The death of Cao Mao"
+    },
+    "date": "0260-05-01",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "司隶洛阳（今河南洛阳）",
+        "en": "Luoyang (modern Luoyang, Henan)"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "魏帝曹髦率宿卫攻司马昭，被贾充指使成济弑于车下，司马氏另立曹奂。",
+      "en": "Emperor Cao Mao attacked Sima Zhao with palace guards and was killed by Cheng Ji on Jia Chong’s order; the Sima family installed Cao Huan."
+    },
+    "description": {
+      "zh": "甘露五年（260）五月，魏帝曹髦不甘司马昭专权，召侍中王沈、尚书王经、散骑常侍王业，称“司马昭之心，路人所知”，率宿卫数百人攻司马昭。中护军贾充指使太子舍人成济弑帝于车下。司马昭另立曹奂为帝，改元景元。此事使司马氏代魏的阻力进一步削弱，也让“弑君”成为司马氏难以洗刷的政治包袱。事发洛阳城内，无行军，故不设路线。",
+      "en": "In the fifth month of 260 Emperor Cao Mao, unwilling to accept Sima Zhao’s domination, summoned Wang Shen, Wang Jing and Wang Ye and declared that “Sima Zhao’s heart is known to every passer-by”, then led several hundred palace guards against Sima Zhao. The guards commander Jia Chong ordered Cheng Ji to kill the emperor beside his chariot. Sima Zhao installed Cao Huan as emperor and changed the era to Jingyuan. The murder further weakened resistance to the Sima takeover but left an indelible political stain. The events took place inside Luoyang with no march, so no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·三少帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "甘露五年五月曹髦攻司马昭，被成济所弑"
+      },
+      {
+        "title": "《晋书·文帝纪》",
+        "author": "房玄龄等",
+        "year": 648,
+        "note": "贾充、成济弑君与曹奂即位"
+      },
+      {
+        "title": "《资治通鉴》卷七十七",
+        "author": "司马光",
+        "year": 1084,
+        "note": "甘露五年高贵乡公之变"
+      }
+    ],
+    "relatedIds": [
+      "gaopingling-249",
+      "jin-founded-265"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "wanghun-shouchun-277",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "王浑出镇扬州",
+      "en": "Wang Hun takes command in Yangzhou"
+    },
+    "date": "0277-07-01",
+    "location": {
+      "lng": 117.27,
+      "lat": 32.58,
+      "place": {
+        "zh": "扬州淮南郡寿春（今安徽寿县）",
+        "en": "Shouchun, Huainan (modern Shou county, Anhui)"
+      }
+    },
+    "entityIds": [
+      "jin"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "晋以王浑为安东将军、都督扬州诸军事，镇寿春，经营伐吴东线。",
+      "en": "Jin appointed Wang Hun general of Anton and commander of Yangzhou at Shouchun, building the eastern axis for the conquest of Wu."
+    },
+    "description": {
+      "zh": "咸宁三年（277）七月，晋武帝以王浑为安东将军、都督扬州诸军事，镇寿春。王浑到任后遣扬州刺史应绰攻破吴皖城屯田，焚其积谷、稻苗、船只，又巡视东境、察看地形，为伐吴做准备。279 年晋六路伐吴，王浑即自扬州出兵，破横江、逼牛渚。寿春故址在今安徽寿县，坐标为示意。",
+      "en": "In the seventh month of 277 Emperor Wu appointed Wang Hun general of Anton and commander of Yangzhou at Shouchun. Wang Hun sent the Yangzhou governor Ying Chao to destroy Wu’s farms at Wancheng, burning grain, rice seedlings and ships, and toured the eastern frontier to study the terrain for the coming invasion. In 279, when Jin attacked on six axes, Wang Hun marched from Yangzhou, broke the defence at Hengjiang and pressed on Niuzhu. Shouchun is modern Shou county, Anhui; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《晋书·王浑传》",
+        "author": "房玄龄等",
+        "year": 648,
+        "note": "迁安东将军、都督扬州诸军事，镇寿春"
+      },
+      {
+        "title": "《晋书·武帝纪》",
+        "author": "房玄龄等",
+        "year": 648,
+        "note": "咸宁三年七月以王浑都督扬州诸军事"
+      },
+      {
+        "title": "《资治通鉴》卷八十",
+        "author": "司马光",
+        "year": 1084,
+        "note": "王浑镇寿春与伐吴东线"
+      }
+    ],
+    "relatedIds": [
+      "jin-liulu-279",
+      "wanghun-hengjiang-280"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "yanghu-death-278",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "羊祜去世",
+      "en": "Death of Yang Hu"
+    },
+    "date": "0278-12-01",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "司隶洛阳（今河南洛阳）",
+        "en": "Luoyang (modern Luoyang, Henan)"
+      }
+    },
+    "entityIds": [
+      "jin"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "咸宁四年十一月辛卯，羊祜病逝于洛阳，遗荐杜预自代；两年后晋灭吴。",
+      "en": "Yang Hu died at Luoyang in the eleventh month of 278, recommending Du Yu as his successor; Jin conquered Wu two years later."
+    },
+    "description": {
+      "zh": "咸宁四年（278）十一月辛卯（公历 12 月 27 日），羊祜病逝于洛阳，年五十八。临终前推荐杜预接替自己都督荆州。羊祜镇襄阳十年，屯田积谷、怀柔吴人，为灭吴奠定基础；晋武帝在灭吴庆功时流泪说“此羊太傅之功也”。去世无行军，故不设路线。",
+      "en": "On the xinmao day of the eleventh month of 278 (27 December 278) Yang Hu died at Luoyang aged fifty-eight. On his deathbed he recommended Du Yu to succeed him as commander of Jingzhou. In ten years at Xiangyang Yang Hu had opened military farms, stored grain and won over Wu’s border people, laying the basis for the conquest of Wu; at the victory feast Emperor Wu wept and said, “This is the achievement of Grand Tutor Yang.” There was no military march, so no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《晋书·羊祜传》",
+        "author": "房玄龄等",
+        "year": 648,
+        "note": "咸宁四年十一月卒，遗荐杜预自代"
+      },
+      {
+        "title": "《资治通鉴》卷八十",
+        "author": "司马光",
+        "year": 1084,
+        "note": "羊祜卒与伐吴遗策"
+      }
+    ],
+    "relatedIds": [
+      "yanghu-269",
+      "jin-liulu-279"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "jin-liulu-279",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "晋六路伐吴",
+      "en": "Jin’s six-pronged invasion of Wu"
+    },
+    "date": "0279-11-01",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "司隶洛阳（今河南洛阳）",
+        "en": "Luoyang (modern Luoyang, Henan)"
+      }
+    },
+    "entityIds": [
+      "jin"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "晋武帝发六路大军伐吴：司马伷、王浑、王戎、胡奋、杜预、王濬水陆并进。",
+      "en": "Emperor Wu of Jin launched six columns against Wu under Sima Zhou, Wang Hun, Wang Rong, Hu Fen, Du Yu and Wang Jun."
+    },
+    "description": {
+      "zh": "咸宁五年（279）十一月，晋武帝下诏伐吴，六路并进：镇军将军司马伷出涂中，安东将军王浑出江西，建威将军王戎出武昌，平南将军胡奋出夏口，镇南大将军杜预出江陵，龙骧将军王濬率巴蜀水军顺流东下。贾充为大都督，节制诸军。吴主孙皓荒淫，吴军士气低落；次年正月起，晋军连破丹杨、西陵、江陵、武昌，三月王濬入建业，孙皓降。六路部署见《晋书·武帝纪》，具体进军日期以《通鉴》为准。",
+      "en": "In the eleventh month of 279 Emperor Wu ordered the invasion of Wu on six axes: Sima Zhou from Tuzhong, Wang Hun from the west of the Yangzi, Wang Rong toward Wuchang, Hu Fen toward Xiakou, Du Yu from Jiangling, and Wang Jun with the Sichuan river fleet downstream. Jia Chong was overall commander. Wu’s emperor Sun Hao was dissolute and Wu morale low; from the first month of the next year Jin forces broke Danyang, Xiling, Jiangling and Wuchang, and in the third month Wang Jun entered Jianye and Sun Hao surrendered. The deployment follows the Jin shu, Wudi ji; dates follow the Zizhi Tongjian."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《晋书·武帝纪》",
+        "author": "房玄龄等",
+        "year": 648,
+        "note": "咸宁五年十一月六路伐吴的部署"
+      },
+      {
+        "title": "《晋书·王濬传》",
+        "author": "房玄龄等",
+        "year": 648,
+        "note": "王濬巴蜀水军顺流东下"
+      },
+      {
+        "title": "《资治通鉴》卷八十",
+        "author": "司马光",
+        "year": 1084,
+        "note": "晋六路伐吴与灭吴日程"
+      }
+    ],
+    "relatedIds": [
+      "yanghu-death-278",
+      "duyu-jiangling-280",
+      "wangjun-xiling-280",
+      "wanghun-hengjiang-280"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "duyu-jiangling-280",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "杜预破江陵",
+      "en": "Du Yu takes Jiangling"
+    },
+    "date": "0280-02-01",
+    "location": {
+      "lng": 112.2,
+      "lat": 30.35,
+      "place": {
+        "zh": "荆州南郡江陵（今湖北荆州）",
+        "en": "Jiangling, Nanjun (modern Jingzhou, Hubei)"
+      }
+    },
+    "entityIds": [
+      "jin"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "杜预攻江陵，吴督将伍延伪降，预攻克江陵，斩伍延，荆州诸城望风而降。",
+      "en": "Du Yu attacked Jiangling; the Wu commander Wu Yan feigned surrender, but Du Yu took the city, killed him and received the surrender of Jingzhou’s towns."
+    },
+    "description": {
+      "zh": "太康元年（280）二月，杜预率军自襄阳南下攻江陵。吴督将伍延据城拒守，伪请降以缓兵；杜预识破，督军急攻，克江陵，斩伍延。随后分兵徇江南诸城，沅、湘以南望风归附。杜预与王濬、王浑等会师，为晋灭吴奠定荆州方向的决定性战果。江陵故址在今湖北荆州，坐标为示意。",
+      "en": "In the second month of 280 Du Yu marched south from Xiangyang against Jiangling. The Wu commander Wu Yan held the city and feigned surrender to gain time; Du Yu saw through it, pressed the attack, took Jiangling and killed Wu Yan. He then sent detachments through the towns south of the river, and the region south of the Yuan and Xiang submitted. Du Yu linked up with Wang Jun and Wang Hun, giving Jin the decisive result on the Jingzhou axis. Jiangling is modern Jingzhou, Hubei; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《晋书·杜预传》",
+        "author": "房玄龄等",
+        "year": 648,
+        "note": "攻克江陵，斩伍延，分兵徇江南"
+      },
+      {
+        "title": "《资治通鉴》卷八十",
+        "author": "司马光",
+        "year": 1084,
+        "note": "太康元年杜预破江陵"
+      }
+    ],
+    "relatedIds": [
+      "jin-liulu-279",
+      "mie-wu-279"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "wangjun-xiling-280",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "王濬破丹杨、西陵",
+      "en": "Wang Jun breaks Danyang and Xiling"
+    },
+    "date": "0280-01-01",
+    "endDate": "0280-02-28",
+    "location": {
+      "lng": 111.28,
+      "lat": 30.7,
+      "place": {
+        "zh": "荆州宜都郡西陵（今湖北宜昌）",
+        "en": "Xiling, Yidu (modern Yichang, Hubei)"
+      }
+    },
+    "entityIds": [
+      "jin"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "王濬自成都顺流东下，克丹杨，破吴铁锁铁锥，定西陵。",
+      "en": "Wang Jun sailed east from Chengdu, took Danyang, broke Wu’s iron chains and spikes and secured Xiling."
+    },
+    "description": {
+      "zh": "太康元年（280）正月，王濬率巴蜀水军自成都东下，克吴丹杨（今湖北秭归东南），擒丹杨监盛纪。吴人在江碛要害处以铁锁横截、铁锥暗置江中；王濬作大筏、缚草人先行，除去铁锥，又以火炬烧断铁锁，船舰通行。随后定西陵，破吴军。此役突破吴国长江上游防线，为王濬顺流直下武昌、建业打开通道。西陵故址在今湖北宜昌，坐标为示意。",
+      "en": "In the first month of 280 Wang Jun led the Sichuan river fleet east from Chengdu, took Wu’s Danyang (southeast of modern Zigui, Hubei) and captured its commander Sheng Ji. Wu had stretched iron chains across the river and hidden iron spikes in the water at the narrows; Wang Jun sent large rafts with straw men ahead to clear the spikes, then burned through the chains with torches and the fleet passed. He then secured Xiling and defeated the Wu forces. The breakthrough of Wu’s upper Yangzi defence opened the way downstream to Wuchang and Jianye. Xiling is modern Yichang, Hubei; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《晋书·王濬传》",
+        "author": "房玄龄等",
+        "year": 648,
+        "note": "克丹杨，破铁锁铁锥，定西陵"
+      },
+      {
+        "title": "《资治通鉴》卷八十",
+        "author": "司马光",
+        "year": 1084,
+        "note": "太康元年王濬破丹杨、西陵"
+      }
+    ],
+    "relatedIds": [
+      "jin-liulu-279",
+      "wangjun-wuchang-280"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "wangjun-wuchang-280",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "王濬平武昌",
+      "en": "Wang Jun takes Wuchang"
+    },
+    "date": "0280-02-01",
+    "location": {
+      "lng": 114.89,
+      "lat": 30.4,
+      "place": {
+        "zh": "荆州武昌郡武昌（今湖北鄂州）",
+        "en": "Wuchang (modern Ezhou, Hubei)"
+      }
+    },
+    "entityIds": [
+      "jin"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "王濬顺流破夏口、武昌，吴军望风而降。",
+      "en": "Wang Jun swept downstream, took Xiakou and Wuchang, and the Wu forces surrendered without a fight."
+    },
+    "description": {
+      "zh": "太康元年（280）二月，王濬水军顺流东下，与胡奋、王戎等共平夏口、武昌。吴军在晋军连破西陵、江陵之后士气崩溃，武昌守军望风而降。王濬继续东下，直趋建业。此役使晋军控制长江中游，与王浑、杜预诸路形成合围建业之势。武昌故址在今湖北鄂州，坐标为示意。",
+      "en": "In the second month of 280 Wang Jun’s fleet swept downstream and, with Hu Fen and Wang Rong, took Xiakou and Wuchang. After the fall of Xiling and Jiangling Wu morale collapsed and the Wuchang garrison surrendered without a fight. Wang Jun continued east toward Jianye. The campaign gave Jin control of the middle Yangzi and, with Wang Hun and Du Yu, closed the ring around Jianye. Wuchang is modern Ezhou, Hubei; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《晋书·王濬传》",
+        "author": "房玄龄等",
+        "year": 648,
+        "note": "与胡奋、王戎共平夏口、武昌"
+      },
+      {
+        "title": "《资治通鉴》卷八十",
+        "author": "司马光",
+        "year": 1084,
+        "note": "太康元年王濬平夏口、武昌"
+      }
+    ],
+    "relatedIds": [
+      "wangjun-xiling-280",
+      "jianye-280"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "wanghun-hengjiang-280",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "王浑破横江",
+      "en": "Wang Hun breaks Hengjiang"
+    },
+    "date": "0280-02-01",
+    "location": {
+      "lng": 118.35,
+      "lat": 31.72,
+      "place": {
+        "zh": "扬州淮南郡横江（今安徽和县东南）",
+        "en": "Hengjiang (southeast of modern He county, Anhui)"
+      }
+    },
+    "entityIds": [
+      "jin"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "王浑出扬州，破吴横江守军，进逼牛渚，吴丞相张悌渡江迎战。",
+      "en": "Wang Hun marched from Yangzhou, broke Wu’s Hengjiang defence and pressed on Niuzhu; Wu’s chancellor Zhang Ti crossed the river to meet him."
+    },
+    "description": {
+      "zh": "太康元年（280）二月，王浑率扬州晋军南下，破吴横江守军，进逼牛渚。吴主孙皓命丞相张悌督沈莹、诸葛靓、孙震率三万精兵渡江迎战。张悌围晋将张乔于杨荷，张乔伪降；随后吴军与王浑部战于板桥，大败。此役摧毁吴国最后一支机动精锐，建业门户洞开。横江在今安徽和县东南，坐标为示意。",
+      "en": "In the second month of 280 Wang Hun led the Yangzhou army south, broke Wu’s defence at Hengjiang and pressed on Niuzhu. Sun Hao ordered Chancellor Zhang Ti, with Shen Ying, Zhuge Liang and Sun Zhen, to cross the river with 30,000 picked troops. Zhang Ti surrounded the Jin commander Zhang Qiao at Yanghe; Zhang Qiao feigned surrender, and the Wu army was then routed by Wang Hun’s forces at Banqiao. The battle destroyed Wu’s last mobile elite and left Jianye open. Hengjiang lies southeast of modern He county, Anhui; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《晋书·王浑传》",
+        "author": "房玄龄等",
+        "year": 648,
+        "note": "率师出横江，破吴军，逼牛渚"
+      },
+      {
+        "title": "《三国志·吴书·孙皓传》裴注引《吴录》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "张悌督沈莹、诸葛靓等渡江迎战"
+      },
+      {
+        "title": "《资治通鉴》卷八十",
+        "author": "司马光",
+        "year": 1084,
+        "note": "太康元年横江、板桥之战"
+      }
+    ],
+    "relatedIds": [
+      "wanghun-shouchun-277",
+      "zhangti-280"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "zhangti-280",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "张悌战死板桥",
+      "en": "Zhang Ti dies at Banqiao"
+    },
+    "date": "0280-03-01",
+    "location": {
+      "lng": 118.1,
+      "lat": 31.6,
+      "place": {
+        "zh": "扬州淮南郡板桥（今安徽含山、和县一带）",
+        "en": "Banqiao (modern Hanshan–He county area, Anhui)"
+      }
+    },
+    "entityIds": [
+      "wu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "吴丞相张悌督沈莹、诸葛靓等渡江迎战，大败于板桥，张悌、沈莹、孙震战死。",
+      "en": "Wu’s chancellor Zhang Ti crossed the river with Shen Ying and Zhuge Liang, was routed at Banqiao, and died with Shen Ying and Sun Zhen."
+    },
+    "description": {
+      "zh": "太康元年（280）三月，吴丞相张悌督丹阳太守沈莹、护军孙震、副军师诸葛靓率三万精兵渡江，迎击王浑。吴军围晋将张乔于杨荷，张乔兵少请降；张悌不听诸葛靓退保之计，继续进兵，与晋军战于板桥，大败。沈莹、孙震战死，张悌拒绝逃亡，力战而死，吴军死者七八千。此役后吴国再无可用之兵，王濬随即入建业。板桥地望在今安徽含山、和县一带，坐标为示意。",
+      "en": "In the third month of 280 Wu’s chancellor Zhang Ti crossed the river with the Danyang governor Shen Ying, the guard commander Sun Zhen and the deputy strategist Zhuge Liang at the head of 30,000 picked troops to meet Wang Hun. The Wu army surrounded the Jin commander Zhang Qiao at Yanghe; Zhang Qiao, short of men, asked to surrender. Zhang Ti ignored Zhuge Liang’s advice to fall back, advanced, and was routed at Banqiao. Shen Ying and Sun Zhen were killed; Zhang Ti refused to flee and died fighting, and some seven or eight thousand Wu troops were lost. Wu had no army left, and Wang Jun entered Jianye soon after. Banqiao lies in the modern Hanshan–He county area of Anhui; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·吴书·孙皓传》裴注引《吴录》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "张悌、沈莹、孙震等战死板桥"
+      },
+      {
+        "title": "《晋书·王浑传》",
+        "author": "房玄龄等",
+        "year": 648,
+        "note": "王浑破张悌军于板桥"
+      },
+      {
+        "title": "《资治通鉴》卷八十",
+        "author": "司马光",
+        "year": 1084,
+        "note": "太康元年板桥之战"
+      }
+    ],
+    "relatedIds": [
+      "wanghun-hengjiang-280",
+      "jianye-280"
+    ],
+    "importance": 2
   }
 ]
