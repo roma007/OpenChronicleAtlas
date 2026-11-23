@@ -3,6 +3,41 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.281] - 2026-11-23
+
+### Changed
+- **明清专题疆域面改用 Cliopatria 逐年段切片（M299）**：不再用 1400/1500/1600/1700/1800/1900
+  六个百年快照，改为 99 个源数据切片逐段对齐，补齐 1616—1644 年后金与清入关前的疆域。
+  - 新增实体：后金（`houjin`，1616—1636）、南明（`nanming`，1644—1662）。
+  - 明：1375—1644 共 27 段，首段上溯至 1368 年建国，末段止于 1644-04-30。
+  - 后金：1619—1635 共 5 段，首段上溯至 1616 年，挂 `houjin`。
+  - 清：1636—1644 共 3 段挂 `qing`（源数据仍标 `Later Jin Dynasty`，按史实归入清并加注），
+    1645—1911 共 61 段。
+  - 南明：1645—1658 共 3 段。
+  - 不采用源数据 `Southern Ming` 1662—1672（仅台湾，属明郑）与 1673—1682（实为三藩之乱范围），
+    理由见 `docs/research/units/ming-qing-territories.md`。
+- `scripts/import-cliopatria-territories.py` 新增明清系列的切片生成逻辑与 `--atlas=<id>` 过滤，
+  重跑只影响指定专题。
+- `apps/web/src/components/map/MapCanvas.tsx` 疆域面 `zIndex` 改为 `10 + properties.order`；
+  南明 1653—1658 完全落在清全国面内，抬高一层才可见（其余专题 `order` 缺省为 0，行为不变）。
+
+### Data
+- `data/atlases/ming-qing/territories/territories.geojson`：6 → 99 个疆域面（约 2.3 MB）。
+- `data/atlases/ming-qing/manifest.json`：new entities、description、tags、`updatedAt` 2026-11-23。
+- `data/atlases/index.json` / `data/atlases/search-index.json` 随 `dataVersion` 更新。
+
+### Docs
+- `docs/research/units/ming-qing-territories.md` 新增切片采用表、归属考证与不采用理由。
+- `docs/conversations/2026-11-23-明清疆域细切片M299.md` 记录本轮对话。
+
+### Verify
+- `pnpm validate:data`（ming-qing 154 事件 / 142 路线段；全库 11 专题 / 2036 事件 / 1129 路线段）、
+  `pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm build`、
+  `pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+- 疆域面自检：99 个 `labelPoint` 均在面内，逐实体时段无空档。
+
+---
+
 ## [v1.0.280] - 2026-11-23
 
 ### Added

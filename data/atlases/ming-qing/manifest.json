@@ -15,8 +15,8 @@
   },
   "cover": "assets/cover-fa7cf79f.jpg",
   "description": {
-    "zh": "1368 年朱元璋建立明朝，定都应天；1421 年明成祖迁都北京。1449 年土木堡之变后明朝转入守势，1571 年隆庆和议开放互市。1616 年努尔哈赤建立后金，1644 年清军入关，1683 年统一台湾，1689 年签订尼布楚条约，1755 年平定准噶尔。1840 年鸦片战争后清朝进入近代转型，1911 年辛亥革命爆发，1912 年清帝退位。\\n\\n> 本数据为示例初稿：路线为示意简化。2026-11-16 起按 C4 端点核查计划逐条核对线头线尾——汉城段补明军收复、西安段补大顺建号、盛京段补多尔衮出师、衡州段补吴三桂称帝、瑷珲段补出师、廓尔喀段改为福康安实际进军（拉萨—日喀则—定日—济咙）、兰州段补西征出关、镇江段补江浙联军、泉州段补郑经入泉；事件日期、地点与表述仍待史料校订；疆域面来自 World Empires 快照（基于 Seshat Cliopatria，CC BY 4.0）。",
-    "en": "Zhu Yuanzhang founded the Ming in 1368 with its capital at Yingtian; the Yongle Emperor moved the capital to Beijing in 1421. After the Tumu crisis in 1449 the Ming shifted to defense, and the Longqing peace opened border markets in 1571. Nurhaci founded the Later Jin in 1616; Qing forces entered China in 1644, took Taiwan in 1683, signed the Treaty of Nerchinsk in 1689, and conquered the Dzungars in 1755. After the Opium War in 1840 the Qing entered a period of modern transformation; the 1911 Revolution led to the emperor’s abdication in 1912.\\n\\n> M89 illustrative draft: routes are simplified. From 16 November 2026 the C4 endpoint review checks each head and tail: Hanseong adds the Ming recovery, Xi’an the Dashun proclamation, Shengjing Dorgon’s march, Hengzhou Wu Sangui’s proclamation, Aihun the Qing march, the Nepal campaign follows Fukanggan’s actual advance (Lhasa–Shigatse–Tingri–Gyirong), Lanzhou the western army’s departure, Zhenjiang the Jiangsu–Zhejiang army, and Quanzhou Zheng Jing’s entry. Dates, places and wording still await historical review. Territory polygons come from World Empires snapshots based on Seshat Cliopatria (CC BY 4.0)."
+    "zh": "1368 年朱元璋建立明朝，定都应天；1421 年明成祖迁都北京。1449 年土木堡之变后明朝转入守势，1571 年隆庆和议开放互市。1616 年努尔哈赤建立后金，1644 年清军入关，1683 年统一台湾，1689 年签订尼布楚条约，1755 年平定准噶尔。1840 年鸦片战争后清朝进入近代转型，1911 年辛亥革命爆发，1912 年清帝退位。\\n\\n> 疆域面取自 Seshat Cliopatria 逐年段切片（CC BY 4.0），不再用百年快照：明 1375—1644、后金 1619—1635、清 1636—1911 逐段对齐，南明补 1645—1658。1636 年皇太极已改国号大清，源数据仍标 Later Jin Dynasty，本专题按史实归入清；南明 1662—1672 切片仅台湾（属明郑）、1673—1682 实为三藩之乱范围，均未采用。路线仍为示意简化，事件日期、地点与表述待史料校订。",
+    "en": "Zhu Yuanzhang founded the Ming in 1368 with its capital at Yingtian; the Yongle Emperor moved the capital to Beijing in 1421. After the Tumu crisis in 1449 the Ming shifted to defense, and the Longqing peace opened border markets in 1571. Nurhaci founded the Later Jin in 1616; Qing forces entered China in 1644, took Taiwan in 1683, signed the Treaty of Nerchinsk in 1689, and conquered the Dzungars in 1755. After the Opium War in 1840 the Qing entered a period of modern transformation; the 1911 Revolution led to the emperor’s abdication in 1912.\\n\\n> Territories come from Seshat Cliopatria dated slices (CC BY 4.0) rather than century snapshots: Ming 1375–1644, Later Jin 1619–1635, Qing 1636–1911, plus Southern Ming 1645–1658. The source still labels 1636–1644 as “Later Jin Dynasty” although Hong Taiji had proclaimed the Qing; those slices are assigned to the Qing. The source’s 1662–1672 Southern Ming slice covers Taiwan only (Zheng regime) and 1673–1682 is in fact the Revolt of the Three Feudatories, so neither is used. Routes remain simplified; dates, places and wording await historical review."
   },
   "defaultView": {
     "center": [
@@ -62,13 +62,39 @@
       }
     },
     {
+      "id": "houjin",
+      "name": {
+        "zh": "后金",
+        "en": "Later Jin"
+      },
+      "color": "#a63d40",
+      "order": 3,
+      "description": {
+        "zh": "1616—1636 年努尔哈赤建立的后金政权；1636 年皇太极改国号为大清。",
+        "en": "The Later Jin regime founded by Nurhaci in 1616; Hong Taiji renamed it Qing in 1636."
+      }
+    },
+    {
+      "id": "nanming",
+      "name": {
+        "zh": "南明",
+        "en": "Southern Ming"
+      },
+      "color": "#c99a2e",
+      "order": 4,
+      "description": {
+        "zh": "1644—1662 年明朝宗室在南方相继建立的政权；图中疆域按源数据止于 1658 年永历退守云贵。",
+        "en": "The Ming loyalist regimes in south China, 1644–1662; the territory shown ends in 1658, when the Yongli court withdrew to Yunnan–Guizhou, following the source data."
+      }
+    },
+    {
       "id": "ming-zheng",
       "name": {
         "zh": "明郑",
         "en": "Ming Zheng"
       },
       "color": "#2f855a",
-      "order": 3,
+      "order": 5,
       "description": {
         "zh": "1644—1683 年郑氏在东南沿海与台湾的政权。",
         "en": "The Zheng regime in southeast China and Taiwan, 1644–1683."
@@ -78,12 +104,14 @@
   "tags": [
     "中国历史",
     "明",
+    "后金",
     "清",
+    "南明",
     "北京",
     "海禁"
   ],
   "license": "CC-BY-4.0（疆域面含 Seshat Cliopatria 数据，CC BY 4.0；事件与路线为示意初稿）",
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-23",
   "coverText": {
     "enTitle": "MING–QING",
     "years": "1368—1912",

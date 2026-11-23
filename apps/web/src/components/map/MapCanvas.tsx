@@ -545,7 +545,7 @@ export function MapCanvas() {
           strokeOpacity: 0.55,
           strokeWeight: 1.2,
           bubble: true,
-          zIndex: 10,
+          zIndex: 10 + (feature.properties.order ?? 0),
         });
         polygon.hide();
         map.add(polygon);

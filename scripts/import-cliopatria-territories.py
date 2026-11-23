@@ -140,6 +140,57 @@ RULES = [
     ('song-yuan', 'Kingdom of Dali', 1250, 1259, 'dali', '1250-01-01', '1253-12-31', '大理', 'Dali'),
 ]
 
+# 明清：不用百年快照，直接取 Cliopatria 的逐年段切片。
+# 命名坑：1636 年皇太极已改国号「大清」，源数据仍把 1636—1644 标为 Later Jin Dynasty；
+# 归属按史实挂 qing，并在 sourceFeature.note 里注明。
+# 南明只取 1645—1658：源数据 1662—1672 仅台湾（属明郑）、1673—1682 实为三藩之乱范围，均不采用。
+MING_QING_SERIES = [
+    # (源名称, 起始年, 结束年, entityId, labelZh, labelEn)
+    ('Ming Dynasty', 1375, 1644, 'ming', '明', 'Ming'),
+    ('Later Jin Dynasty', 1619, 1635, 'houjin', '后金', 'Later Jin'),
+    ('Later Jin Dynasty', 1636, 1644, 'qing', '清', 'Qing'),
+    ('Qing Dynasty', 1645, 1911, 'qing', '清', 'Qing'),
+    ('Southern Ming', 1645, 1658, 'nanming', '南明', 'Southern Ming'),
+]
+
+# 首段上溯到政权建立/项目起点，是本项目对 Cliopatria 切片的一贯处理（与隋唐、宋元一致）。
+MING_QING_NOTES = {
+    ('Ming Dynasty', 1375, 1384): '1368—1374 年无独立切片，首段上溯示意',
+    ('Later Jin Dynasty', 1636, 1639): '源数据沿用 Later Jin Dynasty；1636 年皇太极已改国号大清',
+    ('Later Jin Dynasty', 1640, 1641): '源数据沿用 Later Jin Dynasty；1636 年皇太极已改国号大清',
+    ('Later Jin Dynasty', 1642, 1644): '源数据沿用 Later Jin Dynasty；1636 年皇太极已改国号大清',
+    ('Southern Ming', 1653, 1658): '永历帝退守云贵；源数据止于 1658 年',
+}
+
+
+def ming_qing_rules(lookup):
+    """按 MING_QING_SERIES 从源数据生成明清专题的规则行（与 RULES 同构）。"""
+    rules = []
+    for name, low, high, entity, label_zh, label_en in MING_QING_SERIES:
+        slices = sorted(
+            (key for key in lookup if key[0] == name and low <= key[1] and key[2] <= high),
+            key=lambda key: key[1],
+        )
+        for index, (_, from_year, to_year) in enumerate(slices):
+            if entity == 'ming':
+                start = '1368-01-01' if index == 0 else f'{from_year}-01-01'
+                end = '1644-04-30' if to_year >= 1644 else f'{to_year}-12-31'
+            elif entity == 'houjin':
+                start = '1616-01-01' if index == 0 else f'{from_year}-01-01'
+                end = f'{to_year}-12-31'
+            elif entity == 'qing' and to_year < 1645:
+                # 入关前：与明并行，不能等到 1645
+                start = '1636-01-01' if index == 0 else f'{from_year}-01-01'
+                end = f'{to_year}-12-31'
+            elif entity == 'qing':
+                start = f'{from_year}-01-01'
+                end = '1912-02-12' if to_year >= 1911 else f'{to_year}-12-31'
+            else:  # nanming
+                start = '1644-05-01' if index == 0 else f'{from_year}-01-01'
+                end = f'{to_year}-12-31'
+            rules.append(('ming-qing', name, from_year, to_year, entity, start, end, label_zh, label_en))
+    return rules
+
 
 def ring_area(ring):
     area = 0.0
@@ -244,9 +295,16 @@ def label_point(geometry):
 
 
 def main():
-    if len(sys.argv) != 2:
-        raise SystemExit('用法：python3 scripts/import-cliopatria-territories.py <cliopatria.geojson>')
-    source_path = Path(sys.argv[1])
+    positional = [arg for arg in sys.argv[1:] if not arg.startswith('--')]
+    only_atlas = next(
+        (arg.split('=', 1)[1] for arg in sys.argv[1:] if arg.startswith('--atlas=')),
+        None,
+    )
+    if len(positional) != 1:
+        raise SystemExit(
+            '用法：python3 scripts/import-cliopatria-territories.py <cliopatria.geojson> [--atlas=ming-qing]'
+        )
+    source_path = Path(positional[0])
     data = json.loads(source_path.read_text(encoding='utf-8'))
 
     lookup = {}
@@ -255,7 +313,7 @@ def main():
         lookup[(p['Name'], p['FromYear'], p['ToYear'])] = feature
 
     by_atlas = {}
-    for rule in RULES:
+    for rule in [*RULES, *ming_qing_rules(lookup)]:
         atlas, name, from_year, to_year, entity, start, end, label_zh, label_en = rule
         feature = lookup.get((name, from_year, to_year))
         if feature is None:
@@ -290,6 +348,8 @@ def main():
                 'label': {'zh': label_zh, 'en': label_en},
                 'labelPoint': label_point(geom),
                 'opacity': 0.15,
+                # 南明 1653—1658 完全落在清 1653—1658 的全国面内，抬高一层才看得见。
+                **({'order': 1} if entity == 'nanming' else {}),
                 'extensions': {
                     'precision': 'dataset',
                     'source': SOURCE,
@@ -298,6 +358,11 @@ def main():
                         'fromYear': from_year,
                         'toYear': to_year,
                         'wikidata': feature['properties'].get('Wikidata', ''),
+                        **(
+                            {'note': MING_QING_NOTES[(name, from_year, to_year)]}
+                            if (name, from_year, to_year) in MING_QING_NOTES
+                            else {}
+                        ),
                     },
                 },
             },
@@ -319,6 +384,8 @@ def main():
                 by_atlas.setdefault('sui-tang', []).append(feature)
 
     for atlas, features in by_atlas.items():
+        if only_atlas and atlas != only_atlas:
+            continue
         for feature in features:
             geometry = feature['geometry']
             parts = (
