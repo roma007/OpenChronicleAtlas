@@ -3,6 +3,27 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.274] - 2026-11-23
+
+### Fixed
+- **运河城镇恢复双挂载（M292，更正 v1.0.273）**：撤销 v1.0.273 的「城镇只挂城镇层」改动。
+  - 双挂载是本仓库常规机制（抗战 94 条、长征 38 条），各层相加大于事件总数属正常，
+    不能作为拆分的理由。
+  - 城镇是横向类：节点同时挂所属朝代层与「沿线城镇与市场」层，
+    否则只看时段层时开封、湖墅等节点会消失。
+  - 补上 v1.0.273 漏挂的临安湖墅市镇（南宋）、济宁州城（元明清）两条。
+  - 主体计数：北宋 4、南宋 3、元明清 22、城镇 8，8 条双挂，减重复 = 48 事件。
+  - 保留 v1.0.273 的有效改动：6 个城镇事件换成对应史料；类别细分为经济 2、漕运 2、贸易 4。
+  - 规则与错误复盘见 `docs/research/units/grand-canal-entity-scope.md`、
+    `docs/conversations/2026-11-23-运河城镇双挂载M292.md`。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:heads --atlas grand-canal`（0 个无来由端点）、
+  `pnpm check:routes --atlas grand-canal`（0 问题）、`pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build` 全部通过。
+
+---
+
 ## [v1.0.273] - 2026-11-23
 
 ### Changed
