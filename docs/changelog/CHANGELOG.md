@@ -3,6 +3,23 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.272] - 2026-11-23
+
+### Fixed
+- **运河使用期航线不再慢速爬行（M290）**：`routeProgress` 增加 `staticUntilEnd`，
+  只在起止日期内整段显示，不再把「使用期」当成「行进进度」。
+  - 汴河（611—960）、邗沟（605—907）、京杭大运河各段（1293—1901）等使用期航线标 `staticUntilEnd`。
+  - 通济渠、永济渠、江南河、会通河、通惠河、济州河等施工期航线仍保留逐段动画。
+  - 修复「611 年贯通后两条线慢慢走到 955 年」的视觉误读。
+  - 新增 `route-visuals` 测试覆盖 `staticUntilEnd`。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:heads --atlas grand-canal`（0 个无来由端点）、
+  `pnpm check:routes --atlas grand-canal`（0 问题）、`pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build` 全部通过。
+
+---
+
 ## [v1.0.271] - 2026-11-23
 
 ### Added

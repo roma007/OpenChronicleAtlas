@@ -273,7 +273,9 @@
         },
         "extensions": {
           "precision": "schematic",
-          "geometryBasis": "canal-towns"
+          "geometryBasis": "canal-towns",
+          "static": true,
+          "staticUntilEnd": true
         }
       }
     },
@@ -348,7 +350,9 @@
         },
         "extensions": {
           "precision": "schematic",
-          "geometryBasis": "canal-towns"
+          "geometryBasis": "canal-towns",
+          "static": true,
+          "staticUntilEnd": true
         }
       }
     },
@@ -403,7 +407,9 @@
         },
         "extensions": {
           "precision": "schematic",
-          "geometryBasis": "canal-towns"
+          "geometryBasis": "canal-towns",
+          "static": true,
+          "staticUntilEnd": true
         }
       }
     },
@@ -2069,7 +2075,9 @@
           "geometryBasis": "osm-waterway",
           "source": "OpenStreetMap relation 1112801",
           "license": "ODbL-1.0",
-          "simplification": "Douglas-Peucker tolerance 0.02°"
+          "simplification": "Douglas-Peucker tolerance 0.02°",
+          "static": true,
+          "staticUntilEnd": true
         }
       }
     },
@@ -3943,7 +3951,9 @@
           "geometryBasis": "osm-waterway",
           "source": "OpenStreetMap relation 1112801",
           "license": "ODbL-1.0",
-          "simplification": "Douglas-Peucker tolerance 0.02°"
+          "simplification": "Douglas-Peucker tolerance 0.02°",
+          "static": true,
+          "staticUntilEnd": true
         }
       }
     },
@@ -15717,7 +15727,9 @@
           "geometryBasis": "osm-waterway",
           "source": "OpenStreetMap relation 1112801",
           "license": "ODbL-1.0",
-          "simplification": "Douglas-Peucker tolerance 0.02°"
+          "simplification": "Douglas-Peucker tolerance 0.02°",
+          "static": true,
+          "staticUntilEnd": true
         }
       }
     },
@@ -20643,7 +20655,9 @@
           "geometryBasis": "osm-waterway",
           "source": "OpenStreetMap relation 1112801",
           "license": "ODbL-1.0",
-          "simplification": "Douglas-Peucker tolerance 0.02°"
+          "simplification": "Douglas-Peucker tolerance 0.02°",
+          "static": true,
+          "staticUntilEnd": true
         }
       }
     },
@@ -21905,7 +21919,9 @@
           "geometryBasis": "osm-waterway",
           "source": "OpenStreetMap relation 1112801",
           "license": "ODbL-1.0",
-          "simplification": "Douglas-Peucker tolerance 0.02°"
+          "simplification": "Douglas-Peucker tolerance 0.02°",
+          "static": true,
+          "staticUntilEnd": true
         }
       }
     },
@@ -21967,7 +21983,9 @@
           "geometryBasis": "osm-waterway",
           "source": "OpenStreetMap relation 1112801",
           "license": "ODbL-1.0",
-          "simplification": "Douglas-Peucker tolerance 0.02°"
+          "simplification": "Douglas-Peucker tolerance 0.02°",
+          "static": true,
+          "staticUntilEnd": true
         }
       }
     },
@@ -23333,7 +23351,9 @@
           "geometryBasis": "osm-waterway",
           "source": "OpenStreetMap relation 1112801",
           "license": "ODbL-1.0",
-          "simplification": "Douglas-Peucker tolerance 0.02°"
+          "simplification": "Douglas-Peucker tolerance 0.02°",
+          "static": true,
+          "staticUntilEnd": true
         }
       }
     },
@@ -23727,7 +23747,9 @@
           "geometryBasis": "osm-waterway",
           "source": "OpenStreetMap relation 1112801",
           "license": "ODbL-1.0",
-          "simplification": "Douglas-Peucker tolerance 0.02°"
+          "simplification": "Douglas-Peucker tolerance 0.02°",
+          "static": true,
+          "staticUntilEnd": true
         }
       }
     },
@@ -24657,7 +24679,9 @@
           "geometryBasis": "osm-waterway",
           "source": "OpenStreetMap relation 1112801",
           "license": "ODbL-1.0",
-          "simplification": "Douglas-Peucker tolerance 0.02°"
+          "simplification": "Douglas-Peucker tolerance 0.02°",
+          "static": true,
+          "staticUntilEnd": true
         }
       }
     },
@@ -25203,7 +25227,9 @@
           "geometryBasis": "osm-waterway",
           "source": "OpenStreetMap relation 1112801",
           "license": "ODbL-1.0",
-          "simplification": "Douglas-Peucker tolerance 0.02°"
+          "simplification": "Douglas-Peucker tolerance 0.02°",
+          "static": true,
+          "staticUntilEnd": true
         }
       }
     },
@@ -25250,7 +25276,9 @@
         },
         "extensions": {
           "precision": "schematic",
-          "geometryBasis": "canal-towns"
+          "geometryBasis": "canal-towns",
+          "static": true,
+          "staticUntilEnd": true
         }
       }
     },
@@ -25293,7 +25321,9 @@
         },
         "extensions": {
           "precision": "schematic",
-          "geometryBasis": "canal-towns"
+          "geometryBasis": "canal-towns",
+          "static": true,
+          "staticUntilEnd": true
         }
       }
     },

@@ -20,6 +20,9 @@ export function routeProgress(
   const start = parseDateString(feature.properties.startDate);
   const end = parseDateString(feature.properties.endDate);
   if (feature.properties.extensions?.static === true) {
+    if (feature.properties.extensions?.staticUntilEnd === true) {
+      return currentTime >= start && currentTime <= end ? 1 : -1;
+    }
     return currentTime >= start ? 1 : -1;
   }
   if (end === start) {
