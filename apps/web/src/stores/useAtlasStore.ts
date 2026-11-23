@@ -3,6 +3,7 @@ import type {
   AtlasFilters,
   AtlasSummary,
   AtlasTime,
+  DatePrecision,
   Locale,
   SearchIndexFile,
   ShareView,
@@ -18,6 +19,7 @@ import {
   normalizeRegionSelection,
   isRegionDescendant,
   ratioToTime,
+  resolveDatePrecision,
   stepDays as addDays,
 } from '@atlas/shared';
 import { create } from 'zustand';
@@ -52,6 +54,16 @@ function timelineForActiveLayers(
   return createTimeline(range ?? dataset.manifest.timeRange);
 }
 
+function precisionForActiveLayers(
+  dataset: AtlasDataset,
+  timeline: Timeline,
+  activeEntityIds: ReadonlySet<string>,
+): DatePrecision {
+  const base =
+    (dataset.manifest.extensions?.datePrecision as DatePrecision | undefined) ?? 'day';
+  return resolveDatePrecision(base, activeEntityIds.size, timeline.end - timeline.start);
+}
+
 /** 切换图层后把当前时间夹到新的进度范围内。 */
 function clampTimeToTimeline(currentTime: AtlasTime, timeline: Timeline): AtlasTime {
   return Math.min(timeline.end, Math.max(timeline.start, currentTime));
@@ -77,6 +89,8 @@ interface AtlasState {
   showRegionLabels: boolean;
 
   timeline: Timeline | null;
+  /** 当前图层组合下的显示精度；单选短跨度主体时会细化到月/日 */
+  datePrecision: DatePrecision;
   currentTime: AtlasTime;
   playing: boolean;
   /** 正在拖动时间轴：用于让地图临时进入「聚焦当前」的压暗状态 */
@@ -155,6 +169,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
   showRegionLabels: true,
 
   timeline: null,
+  datePrecision: 'day',
   currentTime: 0,
   playing: false,
   scrubbing: false,
@@ -219,6 +234,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
         activeEntityIds,
         preSoloEntityIds: null,
         timeline,
+        datePrecision: precisionForActiveLayers(dataset, timeline, activeEntityIds),
         currentTime: timeline.start,
         playing: false,
       });
@@ -245,6 +261,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
     set({
       activeEntityIds,
       timeline,
+      datePrecision: precisionForActiveLayers(dataset, timeline, activeEntityIds),
       currentTime: clampTimeToTimeline(get().currentTime, timeline),
       preSoloEntityIds: null,
     });
@@ -260,6 +277,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
     set({
       activeEntityIds,
       timeline,
+      datePrecision: precisionForActiveLayers(dataset, timeline, activeEntityIds),
       currentTime: clampTimeToTimeline(get().currentTime, timeline),
       preSoloEntityIds: null,
     });
@@ -276,6 +294,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
       set({
         activeEntityIds: next,
         timeline,
+        datePrecision: precisionForActiveLayers(dataset, timeline, next),
         currentTime: clampTimeToTimeline(get().currentTime, timeline),
         preSoloEntityIds: null,
       });
@@ -287,6 +306,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
       preSoloEntityIds: new Set(activeEntityIds),
       activeEntityIds: next,
       timeline,
+      datePrecision: precisionForActiveLayers(dataset, timeline, next),
       currentTime: clampTimeToTimeline(get().currentTime, timeline),
     });
   },
@@ -301,6 +321,7 @@ export const useAtlasStore = create<AtlasState>((set, get) => ({
     set({
       activeEntityIds,
       timeline,
+      datePrecision: precisionForActiveLayers(dataset, timeline, activeEntityIds),
       currentTime: clampTimeToTimeline(get().currentTime, timeline),
       preSoloEntityIds: null,
     });

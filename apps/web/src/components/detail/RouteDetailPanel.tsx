@@ -4,13 +4,13 @@ import {
   parseDateString,
   resolveLocalized,
   segmentTypeLabel,
-  type DatePrecision,
 } from '@atlas/shared';
 import { useAtlasStore } from '../../stores/useAtlasStore';
 import { useI18n } from '../../hooks/useI18n';
 
 export function RouteDetailPanel() {
   const dataset = useAtlasStore((state) => state.dataset);
+  const storeDatePrecision = useAtlasStore((state) => state.datePrecision);
   const selectedRoute = useAtlasStore((state) => state.selectedRoute);
   const selectedEventId = useAtlasStore((state) => state.selectedEventId);
   const selectRoute = useAtlasStore((state) => state.selectRoute);
@@ -37,8 +37,7 @@ export function RouteDetailPanel() {
     resolveLocalized(entity?.name, locale) ||
     route.properties.entityId;
   const description = resolveLocalized(route.properties.description, locale);
-  const datePrecision =
-    (dataset.manifest.extensions?.datePrecision as DatePrecision | undefined) ?? 'day';
+  const datePrecision = storeDatePrecision;
   const dateText = `${formatDate(
     parseDateString(route.properties.startDate),
     dateLocale,

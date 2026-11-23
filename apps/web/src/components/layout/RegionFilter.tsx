@@ -9,7 +9,6 @@ import {
   resolveLocalized,
   segmentTypeLabel,
   type AtlasRegion,
-  type DatePrecision,
 } from '@atlas/shared';
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -26,6 +25,7 @@ interface RegionFilterProps {
 
 export function RegionFilter({ className = '', embedded = false }: RegionFilterProps) {
   const dataset = useAtlasStore((state) => state.dataset);
+  const storeDatePrecision = useAtlasStore((state) => state.datePrecision);
   const filters = useAtlasStore((state) => state.filters);
   const toggleRegion = useAtlasStore((state) => state.toggleRegion);
   const setRegions = useAtlasStore((state) => state.setRegions);
@@ -43,8 +43,7 @@ export function RegionFilter({ className = '', embedded = false }: RegionFilterP
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const pause = useAtlasStore((state) => state.pause);
   const { locale, t, dateLocale } = useI18n();
-  const datePrecision =
-    (dataset?.manifest.extensions?.datePrecision as DatePrecision | undefined) ?? 'day';
+  const datePrecision = storeDatePrecision;
   const navigate = useNavigate();
   const [query, setQuery] = useState('');
   const [expandedCounties, setExpandedCounties] = useState<Set<string>>(new Set());

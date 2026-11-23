@@ -13,7 +13,7 @@ import {
   toDateString,
   wgs84ToGcj02,
 } from '@atlas/shared';
-import type { AtlasEvent, DatePrecision } from '@atlas/shared';
+import type { AtlasEvent } from '@atlas/shared';
 import type { KeyboardEvent as ReactKeyboardEvent, PointerEvent as ReactPointerEvent } from 'react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { usePlayback } from '../../hooks/usePlayback';
@@ -27,6 +27,7 @@ const BUBBLE_DURATION_MS = 4000;
 export function Timeline() {
   const dataset = useAtlasStore((state) => state.dataset);
   const timeline = useAtlasStore((state) => state.timeline);
+  const datePrecision = useAtlasStore((state) => state.datePrecision);
   const currentTime = useAtlasStore((state) => state.currentTime);
   const playing = useAtlasStore((state) => state.playing);
   const speed = useAtlasStore((state) => state.speed);
@@ -177,8 +178,6 @@ export function Timeline() {
 
   const ratio = viewport ? timeToRatio(currentTime, viewport) : 0;
   const dateValue = toDateString(currentTime);
-  const datePrecision =
-    (dataset.manifest.extensions?.datePrecision as DatePrecision | undefined) ?? 'day';
   const startYear = new Date(timeline.start).getUTCFullYear();
   const endYear = new Date(timeline.end).getUTCFullYear();
   const yearValue = new Date(currentTime).getUTCFullYear();

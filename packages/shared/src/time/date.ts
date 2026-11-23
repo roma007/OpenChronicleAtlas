@@ -39,6 +39,26 @@ export function diffDays(a: AtlasTime, b: AtlasTime): number {
 
 export type DatePrecision = 'year' | 'month' | 'day';
 
+/**
+ * 年精度专题在「只选一个主体」且时间跨度较短时，允许显示更细的日期：
+ * - 跨度 ≤ 10 年：日
+ * - 跨度 ≤ 200 年：月
+ * - 其余：年
+ * 多主体同时显示时仍按专题原始精度，避免把千年跨度写成日。
+ */
+export function resolveDatePrecision(
+  base: DatePrecision,
+  activeEntityCount: number,
+  spanMs: number,
+): DatePrecision {
+  if (base !== 'year') return base;
+  if (activeEntityCount !== 1) return 'year';
+  const years = spanMs / (365.25 * DAY_MS);
+  if (years <= 10) return 'day';
+  if (years <= 200) return 'month';
+  return 'year';
+}
+
 export function formatDate(
   t: AtlasTime,
   locale = 'zh-CN',

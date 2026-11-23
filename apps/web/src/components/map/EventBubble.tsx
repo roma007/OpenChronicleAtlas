@@ -5,6 +5,7 @@ import { useI18n } from '../../hooks/useI18n';
 /** 播放跨过事件时出现的轻量气泡；固定在时间轴上方，避免被地图视口裁切。 */
 export function EventBubble() {
   const dataset = useAtlasStore((state) => state.dataset);
+  const storeDatePrecision = useAtlasStore((state) => state.datePrecision);
   const bubbleEventId = useAtlasStore((state) => state.bubbleEventId);
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const pause = useAtlasStore((state) => state.pause);
@@ -17,9 +18,7 @@ export function EventBubble() {
   if (!event) return null;
 
   const datePrecision =
-    (event.extensions?.datePrecision as DatePrecision | undefined) ??
-    (dataset?.manifest.extensions?.datePrecision as DatePrecision | undefined) ??
-    'day';
+    (event.extensions?.datePrecision as DatePrecision | undefined) ?? storeDatePrecision;
 
   return (
     <div className="pointer-events-none absolute inset-x-0 bottom-40 z-40 flex justify-center px-4 md:bottom-36">

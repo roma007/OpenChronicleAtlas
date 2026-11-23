@@ -21,6 +21,7 @@ const Markdown = lazy(() =>
 
 export function EventDetailPanel() {
   const dataset = useAtlasStore((state) => state.dataset);
+  const storeDatePrecision = useAtlasStore((state) => state.datePrecision);
   const selectedEventId = useAtlasStore((state) => state.selectedEventId);
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const pause = useAtlasStore((state) => state.pause);
@@ -93,9 +94,7 @@ export function EventDetailPanel() {
   if (!event || !dataset) return null;
 
   const datePrecision =
-    (event.extensions?.datePrecision as DatePrecision | undefined) ??
-    (dataset.manifest.extensions?.datePrecision as DatePrecision | undefined) ??
-    'day';
+    (event.extensions?.datePrecision as DatePrecision | undefined) ?? storeDatePrecision;
 
   const dateText = event.endDate
     ? `${formatDate(parseDateString(event.date), dateLocale, datePrecision)} — ${formatDate(

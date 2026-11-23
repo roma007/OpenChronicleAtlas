@@ -4,6 +4,7 @@ import {
   diffDays,
   formatDate,
   parseDateString,
+  resolveDatePrecision,
   toDateString,
 } from '../time/date';
 
@@ -48,5 +49,14 @@ describe('时间计算', () => {
     expect(formatDate(time, 'zh-CN', 'year')).toBe('960年');
     expect(formatDate(time, 'zh-CN', 'month')).toBe('960年1月');
     expect(formatDate(time, 'zh-CN', 'day')).toBe('960年1月1日');
+  });
+
+  it('单选主体时按时间跨度细化年精度', () => {
+    const yearMs = 365.25 * 86_400_000;
+    expect(resolveDatePrecision('year', 1, 4 * yearMs)).toBe('day');
+    expect(resolveDatePrecision('year', 1, 50 * yearMs)).toBe('month');
+    expect(resolveDatePrecision('year', 1, 300 * yearMs)).toBe('year');
+    expect(resolveDatePrecision('year', 2, 4 * yearMs)).toBe('year');
+    expect(resolveDatePrecision('day', 1, 4 * yearMs)).toBe('day');
   });
 });
