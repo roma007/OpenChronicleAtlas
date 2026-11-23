@@ -3,6 +3,27 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.269] - 2026-11-23
+
+### Added
+- **京杭大运河七主体事件与航道补充（M287）**：
+  - 新增 **8 个事件**：刘晏改革漕运（764）、导洛通汴（1079）、南宋定都临安（1138）、
+    济州河开凿（1283）、南旺分水枢纽（1411）、临安湖墅市镇（1200）、隋代邗沟（605）、隋代江都（605）。
+  - 新增 **2 段航道**：淮安—扬州（邗沟，隋唐）、济宁—安山（济州河，元代）。
+  - 修订黄河改道（日期改为 1855-08-01、补铜瓦厢经过）、漕运停止、近代运河衰落 3 条事件的来源。
+  - 专题事件 26 → **34**，路线 19 → **21**；七个主体均有新增节点。
+
+### Research
+- 每条新增事件的日期、出处与存疑点见 `docs/research/units/grand-canal-enrichment.md`。
+- 济州河取 1283 年竣工说；黄河改道取咸丰五年六月（1855-08），具体日待考。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:heads --atlas grand-canal`（0 个无来由端点）、
+  `pnpm check:routes --atlas grand-canal`（0 问题）、`pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build` 全部通过。
+
+---
+
 ## [v1.0.268] - 2026-11-23
 
 ### Changed

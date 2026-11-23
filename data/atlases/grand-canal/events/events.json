@@ -1344,7 +1344,7 @@
       "zh": "黄河改道冲击运河",
       "en": "The Yellow River changes course and damages the canal"
     },
-    "date": "1855-01-01",
+    "date": "1855-08-01",
     "location": {
       "lng": 114.8,
       "lat": 34.8,
@@ -1358,36 +1358,43 @@
     ],
     "category": "水利",
     "summary": {
-      "zh": "黄河在铜瓦厢改道，冲断运河，漕运受阻。",
-      "en": "The Yellow River changed course at Tongwaxiang, breaking the canal and disrupting grain transport."
+      "zh": "咸丰五年，黄河在兰考铜瓦厢决口改道，冲断运河，山东段漕运受阻。",
+      "en": "In 1855 the Yellow River burst its banks at Tongwaxiang in Lankao and changed course, breaking the canal and disrupting grain transport in Shandong."
     },
     "description": {
-      "zh": "1855 年，黄河在河南兰考铜瓦厢改道，冲断运河，山东段漕运受到严重影响。日期与经过为通行说法，待页码级核对。",
-      "en": "In 1855, the Yellow River changed course at Tongwaxiang in Lankao, Henan, breaking the canal and severely disrupting grain transport in Shandong. Dates and details follow conventional accounts and await page-level verification."
+      "zh": "清咸丰五年（1855）六月，黄河在河南兰考铜瓦厢决口，向北改道，经长垣、东明、濮州、范县、寿张、张秋，穿运河后夺大清河入海。改道冲断会通河，山东段运河淤塞，漕运受阻；此后黄河长期夺大清河入海，运河治理更加困难。铜瓦厢改道是京杭大运河由盛转衰的关键自然—工程事件。日期取决口发生的 1855 年 8 月（咸丰五年六月），具体日待考。",
+      "en": "In the sixth month of the fifth year of Xianfeng (August 1855), the Yellow River burst at Tongwaxiang in Lankao, Henan, and shifted north through Changyuan, Dongming, Puzhou, Fanxian, Shouzhang and Zhangqiu, crossing the canal and taking over the Daqing River to the sea. The shift cut the Huitong River, silted the Shandong section and obstructed grain transport; thereafter the Yellow River long followed the Daqing channel, making canal management far harder. The Tongwaxiang shift was the key natural and engineering event in the Grand Canal’s decline. The date is given as August 1855 (sixth month of Xianfeng 5); the exact day awaits verification."
     },
     "images": [],
     "sources": [
       {
-        "title": "《隋书·炀帝纪》",
-        "author": "魏徵等",
-        "year": 636,
-        "note": "运河开凿时间参考，路线为示意简化"
+        "title": "《清史稿·河渠志》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "咸丰五年铜瓦厢改道与运河"
       },
       {
-        "title": "《元史·河渠志》",
-        "author": "宋濂等",
-        "year": 1370,
-        "note": "会通河、通惠河参考"
+        "title": "《黄河与大运河的故事》",
+        "author": "黄河水利委员会 2020-08-18",
+        "year": 2020,
+        "note": "铜瓦厢改道对运河的影响"
       },
       {
-        "title": "《明史·河渠志》",
-        "author": "张廷玉等",
-        "year": 1739,
-        "note": "明清漕运参考"
+        "title": "《中国历史地理概述》",
+        "author": "邹逸麟",
+        "year": 2013,
+        "note": "黄河改道与运河变迁"
+      },
+      {
+        "title": "《兰考县志》",
+        "author": "兰考县地方志办公室",
+        "year": 2010,
+        "note": "铜瓦厢决口与黄河改道"
       }
     ],
     "relatedIds": [
-      "canal-stop-1901"
+      "canal-stop-1901",
+      "canal-decline-1901"
     ],
     "importance": 3
   },
@@ -1422,22 +1429,28 @@
     "images": [],
     "sources": [
       {
-        "title": "《隋书·炀帝纪》",
-        "author": "魏徵等",
-        "year": 636,
-        "note": "运河开凿时间参考，路线为示意简化"
+        "title": "《清史稿·食货志》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清末漕运停止与漕粮改折"
       },
       {
-        "title": "《元史·河渠志》",
-        "author": "宋濂等",
-        "year": 1370,
-        "note": "会通河、通惠河参考"
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "清末漕运废止"
       },
       {
-        "title": "《明史·河渠志》",
-        "author": "张廷玉等",
-        "year": 1739,
-        "note": "明清漕运参考"
+        "title": "《京杭大运河志》",
+        "author": "中国大运河志编纂委员会",
+        "year": 2019,
+        "note": "1901 年漕运停止"
+      },
+      {
+        "title": "《清实录·德宗实录》",
+        "author": "清实录馆",
+        "year": 1930,
+        "note": "光绪末年停漕上谕"
       }
     ],
     "relatedIds": [
@@ -1476,27 +1489,547 @@
     "images": [],
     "sources": [
       {
-        "title": "《隋书·炀帝纪》",
-        "author": "魏徵等",
-        "year": 636,
-        "note": "运河开凿时间参考，路线为示意简化"
+        "title": "《清史稿·河渠志》",
+        "author": "赵尔巽等",
+        "year": 1928,
+        "note": "清末运河失修与淤塞"
       },
       {
-        "title": "《元史·河渠志》",
-        "author": "宋濂等",
-        "year": 1370,
-        "note": "会通河、通惠河参考"
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "近代运河衰落"
       },
       {
-        "title": "《明史·河渠志》",
-        "author": "张廷玉等",
-        "year": 1739,
-        "note": "明清漕运参考"
+        "title": "《京杭大运河志》",
+        "author": "中国大运河志编纂委员会",
+        "year": 2019,
+        "note": "清末至民国运河"
+      },
+      {
+        "title": "《山东运河志》",
+        "author": "山东省地方志办公室",
+        "year": 2018,
+        "note": "山东段运河淤塞"
       }
     ],
     "relatedIds": [
       "canal-stop-1901"
     ],
     "importance": 2
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "liu-yan-canal-reform-764",
+    "name": {
+      "zh": "刘晏改革漕运",
+      "en": "Liu Yan’s reform of grain transport"
+    },
+    "date": "0764-01-01",
+    "location": {
+      "lng": 119.412,
+      "lat": 32.394,
+      "place": {
+        "zh": "江苏扬州",
+        "en": "Yangzhou, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "sui-tang-canal"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "广德二年，刘晏主持疏浚汴渠、造歇艎支江船，改直运为分段转运。",
+      "en": "In 764 Liu Yan dredged the Bian canal and replaced through-shipping with segmented transport."
+    },
+    "description": {
+      "zh": "唐代宗广德二年（764），刘晏领东都、河南、淮西、江南东西转运使，主持漕运改革。他组织疏浚汴渠，在扬州设船场造「歇艎支江船」二千艘，每船受千斛；改直运为分段转运，使江船不入汴、汴船不入河、河船不入渭，沿扬州、汴口、河阴、渭口置仓转输；又用盐利雇募船工，十船为纲，军官押运。改革后江淮漕粮岁运四十万至一百一十万石，损耗大减。本事件为制度事件，不绘路线。",
+      "en": "In 764, the second year of Guangde under Emperor Daizong, Liu Yan took charge of transport for the eastern capital, Henan, Huaixi and the Jiangnan regions and reformed the grain system. He dredged the Bian canal, built 2,000 “Xiehuang Zhijiang” barges at Yangzhou (each carrying 1,000 hu), replaced through-shipping with segmented transport so that river boats did not enter the Bian, Bian boats did not enter the Yellow River and river boats did not enter the Wei, and set up granaries at Yangzhou, the Bian mouth, Heyin and the Wei mouth. He hired crews with salt revenue, grouped ten boats into a convoy and had officers escort them. Annual deliveries rose to 400,000–1,100,000 shi with much less loss. This is an institutional event, so no route is drawn."
+    },
+    "sources": [
+      {
+        "title": "《新唐书·食货志》",
+        "author": "欧阳修、宋祁",
+        "year": 1060,
+        "note": "广德二年刘晏领转运使、歇艎支江船二千艘、分段转运"
+      },
+      {
+        "title": "《旧唐书·刘晏传》",
+        "author": "刘昫等",
+        "year": 945,
+        "note": "刘晏生平与漕运改革"
+      },
+      {
+        "title": "《中晚唐时期朝廷对漕运体制的管控与维系》",
+        "author": "苏毅，《人民论坛》2016-06-30",
+        "year": 2016,
+        "note": "刘晏分段转运、纲船将领与岁运额"
+      },
+      {
+        "title": "《黄河与大运河的故事（上）》",
+        "author": "黄河水利委员会 2020-08-18",
+        "year": 2020,
+        "note": "刘晏疏浚汴渠、江船不入汴"
+      }
+    ],
+    "relatedIds": [
+      "tang-canal-730",
+      "luoyang-canal-800"
+    ],
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "daoluo-tongbian-1079",
+    "name": {
+      "zh": "导洛通汴",
+      "en": "Diverting the Luo River into the Bian Canal"
+    },
+    "date": "1079-06-17",
+    "location": {
+      "lng": 114.307,
+      "lat": 34.797,
+      "place": {
+        "zh": "河南开封",
+        "en": "Kaifeng, Henan"
+      }
+    },
+    "entityIds": [
+      "northern-song-bian"
+    ],
+    "category": "水利",
+    "summary": {
+      "zh": "元丰二年，宋用臣主持引洛水入汴，避开黄河泥沙，改善汴河漕运。",
+      "en": "In 1079 Song Yongchen diverted the Luo into the Bian, avoiding Yellow River silt and improving transport."
+    },
+    "description": {
+      "zh": "北宋汴河原引黄河水，泥沙淤积严重，每年需大量人力清淤。元丰二年（1079）三月，宋神宗命宋用臣提举导洛通汴；四月甲子兴工，自巩县任村沙谷至河阴汴口开河五十余里，引伊、洛水入汴，并闭断黄河汴口。六月戊申完工，历时四十五日。工程使汴河由「黄汴」变为「清汴」，泥沙大减，四时通漕；但洛水夏秋涨落不定，水量有限，仍不能完全解决浅涩问题。本事件为水利工程，不绘路线。",
+      "en": "The Northern Song Bian canal originally drew on the Yellow River and silted heavily, requiring massive annual dredging. In 1079 Emperor Shenzong ordered Song Yongchen to divert the Luo into the Bian. Work began in April, cutting a channel of more than fifty li from Rencun in Gong County to the Bian mouth at Heyin, leading the Yi and Luo rivers into the Bian and closing the Yellow River intake. It was completed in June after forty-five days. The “Yellow Bian” became the “Clear Bian”, silt fell sharply and transport ran in all seasons; but the Luo’s summer-autumn fluctuations and limited flow left shallows unresolved. No route is drawn."
+    },
+    "sources": [
+      {
+        "title": "《宋史·河渠志》",
+        "author": "脱脱等",
+        "year": 1345,
+        "note": "元丰二年导洛通汴、四月兴工六月完工"
+      },
+      {
+        "title": "《续资治通鉴长编》卷297—299",
+        "author": "李焘",
+        "year": 1183,
+        "note": "宋用臣主持导洛通汴、闭汴口"
+      },
+      {
+        "title": "《北宋黄河、汴河基层管理机构及其治水实践》",
+        "author": "王战扬",
+        "year": 2019,
+        "note": "导洛通汴司与工程经过"
+      },
+      {
+        "title": "《宋代的运河与整顿》",
+        "author": "陈炯智，台湾师范大学历史文化学习网",
+        "year": 2010,
+        "note": "导洛清汴与汴河水源"
+      }
+    ],
+    "relatedIds": [
+      "song-canal-960",
+      "kaifeng-canal-1100"
+    ],
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "linan-capital-1138",
+    "name": {
+      "zh": "南宋定都临安",
+      "en": "The Southern Song establishes its capital at Lin’an"
+    },
+    "date": "1138-01-01",
+    "location": {
+      "lng": 120.155,
+      "lat": 30.274,
+      "place": {
+        "zh": "浙江杭州",
+        "en": "Hangzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "southern-song-jiangnan"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "绍兴八年，南宋正式定都临安，江南运河成为都城漕运通道。",
+      "en": "In 1138 the Southern Song formally made Lin’an its capital, making the Jiangnan canal the capital’s grain route."
+    },
+    "description": {
+      "zh": "绍兴八年（1138），南宋正式定都临安（今杭州）。临安位于江南运河南端，经运河可北接镇江、扬州，转入长江与淮河；都城所需的粮米、布帛、木材与日用百货多由江南运河输入。南宋在临安设转运司、仓场与河码头，城北湖墅、江涨桥一带因运河而兴。本事件为政治事件，不绘路线。",
+      "en": "In 1138 the Southern Song formally established Lin’an (present-day Hangzhou) as its capital. At the southern end of the Jiangnan canal, Lin’an was linked north to Zhenjiang and Yangzhou and thence to the Yangtze and Huai. Grain, cloth, timber and daily goods for the capital came largely by the Jiangnan canal. The Southern Song set up transport offices, granaries and wharves, and the city’s northern lakeside and riverine quarters grew around the canal. No route is drawn."
+    },
+    "sources": [
+      {
+        "title": "《宋史·高宗纪》",
+        "author": "脱脱等",
+        "year": 1345,
+        "note": "绍兴八年定都临安"
+      },
+      {
+        "title": "《咸淳临安志》",
+        "author": "潜说友",
+        "year": 1274,
+        "note": "南宋临安都城与运河码头"
+      },
+      {
+        "title": "《杭州运河史话》",
+        "author": "杭州市地方志办公室",
+        "year": 2014,
+        "note": "临安与江南运河"
+      },
+      {
+        "title": "《京杭大运河志》",
+        "author": "中国大运河志编纂委员会",
+        "year": 2019,
+        "note": "南宋江南运河与临安"
+      }
+    ],
+    "relatedIds": [
+      "hangzhou-canal-1200",
+      "jiangnan-canal-610"
+    ],
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "jizhou-river-1283",
+    "name": {
+      "zh": "济州河开凿",
+      "en": "Opening of the Jizhou River"
+    },
+    "date": "1283-08-01",
+    "location": {
+      "lng": 116.587,
+      "lat": 35.415,
+      "place": {
+        "zh": "山东济宁",
+        "en": "Jining, Shandong"
+      }
+    },
+    "entityIds": [
+      "yuan-canal-works"
+    ],
+    "category": "水利",
+    "summary": {
+      "zh": "至元二十年，济州河竣工，自济宁北至安山，接通大清河。",
+      "en": "In 1283 the Jizhou River was completed from Jining north to Anshan, linking to the Daqing River."
+    },
+    "description": {
+      "zh": "元至元十七年（1280），朝廷采纳姚演、马之贞等建议，决定开济州河。工程于至元十九年（1282）十二月正式施工，至次年八月竣工，自济州（今济宁）鲁桥引汶、泗水，北至须城（今东平）安山，全长约一百五十里，接通大清河。济州河使江南漕船可经泗水、济州河北上，但安山以北仍需陆运至临清，或由利津出海；直到 1289 年会通河开通，南北直航才实现。本事件为水利工程，线路见「济宁—安山（济州河）」。",
+      "en": "In 1280 the Yuan court adopted proposals by Yao Yan and Ma Zhizhen to open the Jizhou River. Work began in December 1282 and was completed in August 1283, running from the Luqiao area of Jizhou (Jining) north to Anshan in Xucheng (Dongping), about 150 li, using the Wen and Si rivers and linking to the Daqing River. It allowed grain boats from the south to reach Anshan, but goods still had to go overland to Linqing or by sea from Lijin until the Huitong River opened in 1289. The route is shown as Jining–Anshan."
+    },
+    "sources": [
+      {
+        "title": "《元史·河渠志》",
+        "author": "宋濂等",
+        "year": 1370,
+        "note": "济州河开凿与安山"
+      },
+      {
+        "title": "《济宁党史史志·河政河务》",
+        "author": "中共济宁市委党史研究院 2020-10-19",
+        "year": 2020,
+        "note": "至元二十年新开济州至安山河道"
+      },
+      {
+        "title": "《元代运河山东段的开通》",
+        "author": "山东省情资料库",
+        "year": 2019,
+        "note": "济州河起止与工期"
+      },
+      {
+        "title": "《济州河》",
+        "author": "《元史》卷六十四",
+        "year": 1370,
+        "note": "至元十七年议开、十九年施工"
+      }
+    ],
+    "relatedIds": [
+      "huitong-canal-1289",
+      "grand-canal-1293"
+    ]
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "nanwang-hub-1411",
+    "name": {
+      "zh": "南旺分水枢纽",
+      "en": "The Nanwang water-diversion hub"
+    },
+    "date": "1411-01-01",
+    "location": {
+      "lng": 116.48,
+      "lat": 35.73,
+      "place": {
+        "zh": "山东汶上南旺",
+        "en": "Nanwang, Wenshang, Shandong"
+      }
+    },
+    "entityIds": [
+      "yuan-ming-qing-transport"
+    ],
+    "category": "水利",
+    "summary": {
+      "zh": "永乐九年，宋礼、白英修会通河，引汶水至南旺分水，解决运河「水脊」难题。",
+      "en": "In 1411 Song Li and Bai Ying diverted the Wen River to Nanwang, solving the canal’s summit water problem."
+    },
+    "description": {
+      "zh": "明永乐九年（1411），工部尚书宋礼奉命疏浚会通河，采纳汶上老人白英的建议，在汶河戴村筑坝遏水，开小汶河引汶水至南旺；南旺为运河全线最高点，号称「水脊」。工程在汶、运交汇处筑石护岸，设鱼嘴状「水拨刺」分水南北，并设南旺、蜀山、马踏等水柜蓄水，沿河置闸节流。民间称「七分朝天子，三分下江南」，实际分流比例随水势调整。南旺枢纽使会通河获得稳定水源，保障京杭大运河明清近六百年通航。",
+      "en": "In 1411, the ninth year of Yongle, Minister of Works Song Li was ordered to dredge the Huitong River. On the advice of the Wenshang water expert Bai Ying, he built the Daicun dam across the Wen, cut the Xiao Wen channel and led the Wen to Nanwang, the highest point of the canal, known as the “water ridge”. At the Wen–canal junction the engineers built stone revetments and a fish-mouth divider to split the flow north and south, created reservoirs at Nanwang, Shushan and Mata, and placed locks along the channel. The popular saying “seven parts to the emperor, three to the south” describes the ideal split; actual proportions varied with water levels. The hub gave the Huitong River a stable water supply and kept the Grand Canal navigable for nearly six centuries under the Ming and Qing."
+    },
+    "sources": [
+      {
+        "title": "《明史·宋礼传》",
+        "author": "张廷玉等",
+        "year": 1739,
+        "note": "宋礼用白英策、戴村坝、南旺分水"
+      },
+      {
+        "title": "《汶上南旺分水枢纽工程》",
+        "author": "汶上县人民政府 2026-02-25",
+        "year": 2026,
+        "note": "永乐九年施工、戴村坝与小汶河"
+      },
+      {
+        "title": "《南旺分水枢纽》",
+        "author": "扬州中国大运河博物馆 2021-12-24",
+        "year": 2021,
+        "note": "引、蓄、分、排与闸坝"
+      },
+      {
+        "title": "《南旺分水枢纽：核心工程》",
+        "author": "《中国社会科学报》2018-08-31",
+        "year": 2018,
+        "note": "南旺水脊与工程组成"
+      }
+    ],
+    "relatedIds": [
+      "ming-canal-1415",
+      "huitong-canal-1289"
+    ],
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "hangzhou-hushu-market-1200",
+    "name": {
+      "zh": "临安湖墅市镇",
+      "en": "The Hushu market town at Lin’an"
+    },
+    "date": "1200-01-01",
+    "location": {
+      "lng": 120.14,
+      "lat": 30.3,
+      "place": {
+        "zh": "浙江杭州湖墅",
+        "en": "Hushu, Hangzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "canal-towns"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "南宋临安城北湖墅、江涨桥一带因运河码头形成市镇。",
+      "en": "In the Southern Song the Hushu and Jiangzhangqiao area north of Lin’an grew into a market town around the canal wharves."
+    },
+    "description": {
+      "zh": "南宋临安城北的湖墅、江涨桥一带位于江南运河入城段，是粮船、商船停泊与转运的码头区。据《梦粱录》《咸淳临安志》，此处有米市、鱼行、船行、货栈与仓场，外来商旅在此卸货入城；城北河道与城内河网相连，形成「运河—湖墅—城内」的运输链。湖墅市镇是运河沿线「因运而兴」的典型节点。本事件为城镇经济节点，不绘路线。",
+      "en": "The Hushu and Jiangzhangqiao area north of Southern Song Lin’an lay on the Jiangnan canal’s approach to the city and served as the wharf zone for grain and merchant boats. According to the Mengliang Lu and Xianchun Lin’an Zhi, it had rice markets, fish and boat brokers, warehouses and granaries where travelling merchants unloaded goods for the city; the northern waterways connected with the city’s canal network, forming a “canal–Hushu–city” transport chain. Hushu is a classic canal-generated town. No route is drawn."
+    },
+    "sources": [
+      {
+        "title": "《梦粱录》",
+        "author": "吴自牧",
+        "year": 1274,
+        "note": "南宋临安湖墅、江涨桥与米市"
+      },
+      {
+        "title": "《咸淳临安志》",
+        "author": "潜说友",
+        "year": 1274,
+        "note": "临安城北河道、仓场与市镇"
+      },
+      {
+        "title": "《杭州运河史话》",
+        "author": "杭州市地方志办公室",
+        "year": 2014,
+        "note": "湖墅因运河而兴"
+      },
+      {
+        "title": "《京杭大运河志》",
+        "author": "中国大运河志编纂委员会",
+        "year": 2019,
+        "note": "运河沿线市镇"
+      }
+    ],
+    "relatedIds": [
+      "hangzhou-canal-1200",
+      "linan-capital-1138"
+    ],
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "sui-hangou-605",
+    "name": {
+      "zh": "隋代邗沟",
+      "en": "The Sui Hangou canal"
+    },
+    "date": "0605-01-01",
+    "location": {
+      "lng": 119.015,
+      "lat": 33.61,
+      "place": {
+        "zh": "江苏淮安",
+        "en": "Huai’an, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "sui-tang-canal"
+    ],
+    "category": "水利",
+    "summary": {
+      "zh": "隋代沟通淮安与扬州的邗沟，是隋唐大运河连接淮河与长江的南段。",
+      "en": "The Sui Hangou canal linked Huai’an and Yangzhou, connecting the Huai and the Yangtze in the southern Sui–Tang system."
+    },
+    "description": {
+      "zh": "邗沟始凿于春秋吴王夫差，隋代加以疏浚改线。隋文帝开山阳渎，隋炀帝大业年间复开邗沟，自山阳（今淮安）南至江都（今扬州）入长江，沟通淮河与长江。邗沟是隋唐大运河的南段，也是后来京杭大运河里运河的前身。本事件为运河工程，线路见「淮安—扬州（邗沟）」。",
+      "en": "The Hangou canal was first cut under King Fuchai of Wu and was dredged and realigned in the Sui period. Emperor Wen opened the Shanyang channel and Emperor Yang reopened the Hangou, running from Shanyang (Huai’an) south to Jiangdu (Yangzhou) and the Yangtze, linking the Huai and the Yangtze. It was the southern section of the Sui–Tang Grand Canal and the forerunner of the later Li canal. The route is shown as Huai’an–Yangzhou."
+    },
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "大业年间开邗沟"
+      },
+      {
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "邗沟与山阳渎"
+      },
+      {
+        "title": "《京杭大运河志》",
+        "author": "中国大运河志编纂委员会",
+        "year": 2019,
+        "note": "邗沟至里运河的演变"
+      },
+      {
+        "title": "《淮安运河史》",
+        "author": "淮安市地方志办公室",
+        "year": 2015,
+        "note": "山阳、邗沟与淮安运河"
+      }
+    ],
+    "relatedIds": [
+      "tongji-canal-605",
+      "jiangnan-canal-610"
+    ]
+  },
+  {
+    "atlasId": "grand-canal",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "sui-jiangdu-605",
+    "name": {
+      "zh": "隋代江都",
+      "en": "Sui Jiangdu"
+    },
+    "date": "0605-01-01",
+    "location": {
+      "lng": 119.412,
+      "lat": 32.394,
+      "place": {
+        "zh": "江苏扬州",
+        "en": "Yangzhou, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "sui-tang-canal"
+    ],
+    "category": "漕运",
+    "summary": {
+      "zh": "扬州（江都）是隋代邗沟南端与长江交汇处的运河枢纽。",
+      "en": "Yangzhou (Jiangdu) was the canal hub where the Sui Hangou met the Yangtze."
+    },
+    "description": {
+      "zh": "江都（今扬州）位于邗沟南端、长江北岸，是隋唐大运河连接江南河与淮河的关键节点。隋炀帝开邗沟后，江都成为巡幸、转漕与南北商旅集散之地；唐代继续在此设仓、造船，刘晏漕运改革即以扬州为造船与转输中心。本事件为运河枢纽节点，不绘路线。",
+      "en": "Jiangdu (present-day Yangzhou) stood at the southern end of the Hangou on the north bank of the Yangtze, the key node linking the Jiangnan canal with the Huai system. After Emperor Yang opened the Hangou, Jiangdu became a centre for imperial tours, grain transshipment and north–south trade; the Tang continued to build granaries and ships there, and Liu Yan’s reforms made Yangzhou a shipbuilding and transshipment hub. No route is drawn."
+    },
+    "sources": [
+      {
+        "title": "《隋书·炀帝纪》",
+        "author": "魏徵等",
+        "year": 636,
+        "note": "江都宫与邗沟"
+      },
+      {
+        "title": "《新唐书·食货志》",
+        "author": "欧阳修、宋祁",
+        "year": 1060,
+        "note": "扬州造船与转输"
+      },
+      {
+        "title": "《扬州运河志》",
+        "author": "扬州市地方志办公室",
+        "year": 2016,
+        "note": "江都运河枢纽"
+      },
+      {
+        "title": "《中国运河志》",
+        "author": "邹逸麟主编",
+        "year": 2019,
+        "note": "邗沟南端与江都"
+      }
+    ],
+    "relatedIds": [
+      "sui-hangou-605",
+      "liu-yan-canal-reform-764"
+    ],
+    "extensions": {
+      "routeEvent": false
+    }
   }
 ]

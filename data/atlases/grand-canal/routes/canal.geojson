@@ -25253,6 +25253,92 @@
           "geometryBasis": "canal-towns"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.015,
+            33.61
+          ],
+          [
+            119.36,
+            33.241
+          ],
+          [
+            119.459,
+            32.781
+          ],
+          [
+            119.412,
+            32.394
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "sui-tang-canal",
+        "startDate": "0605-01-01",
+        "endDate": "0907-01-01",
+        "order": 20,
+        "segmentType": "canal",
+        "name": {
+          "zh": "淮安—扬州（邗沟）",
+          "en": "Huai’an–Yangzhou (Hangou)"
+        },
+        "description": {
+          "zh": "隋代邗沟自山阳（淮安）经宝应、高邮至江都（扬州），沟通淮河与长江。按沿线城镇连线，示意简化。",
+          "en": "The Sui Hangou from Shanyang (Huai’an) through Baoying and Gaoyou to Jiangdu (Yangzhou), linking the Huai and the Yangtze. Drawn through the towns along the line and simplified."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.587,
+            35.415
+          ],
+          [
+            116.5,
+            35.58
+          ],
+          [
+            116.45,
+            35.72
+          ],
+          [
+            116.1,
+            35.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "yuan-canal-works",
+        "startDate": "1283-08-01",
+        "endDate": "1289-01-01",
+        "order": 21,
+        "segmentType": "canal",
+        "name": {
+          "zh": "济宁—安山（济州河）",
+          "en": "Jining–Anshan (Jizhou River)"
+        },
+        "description": {
+          "zh": "元至元二十年竣工的济州河，自济宁鲁桥引汶、泗水北至安山，接大清河。按沿线城镇连线，示意简化。",
+          "en": "The Jizhou River, completed in 1283, ran from Luqiao at Jining north to Anshan, using the Wen and Si rivers and linking to the Daqing River. Drawn through the towns along the line and simplified."
+        },
+        "extensions": {
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
+        }
+      }
     }
   ]
 }
