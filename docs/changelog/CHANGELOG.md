@@ -3,6 +3,28 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.273] - 2026-11-23
+
+### Changed
+- **运河城镇节点不再挂进朝代层（M291）**：城镇事件改为只挂「沿线城镇与市场」，
+  按行动主体归类，不再双重挂载。
+  - 开封汴河市镇、德州仓、临清钞关、通州仓、苏州丝米市、扬州盐运由朝代层移出，
+    朝代层用 `relatedIds` 关联（开封 → 宋代开凿、德州仓 → 明代漕运制度等）。
+  - 主体计数回到真实值：北宋汴河 4→3、元明清漕运 21→16；各层相加 = 事件总数 48。
+  - 「沿线城镇与市场」层 8 个节点按性质分注：贸易 4、经济 2、漕运（仓场）2。
+  - 6 个城镇事件替换占位来源（《隋书·炀帝纪》等）为对应史料：
+    《东京梦华录》《宋史·河渠志》《明史·食货志》《明会典》《漕运通志》
+    《清史稿·食货志》《两淮盐法志》及苏州、扬州、临清、通州地方志。
+  - 归属规则见 `docs/research/units/grand-canal-entity-scope.md`。
+  - 济宁会通河枢纽仍留元明清漕运（航道枢纽，非市镇商业）。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:heads --atlas grand-canal`（0 个无来由端点）、
+  `pnpm check:routes --atlas grand-canal`（0 问题）、`pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build` 全部通过。
+
+---
+
 ## [v1.0.272] - 2026-11-23
 
 ### Fixed

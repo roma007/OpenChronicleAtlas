@@ -54,8 +54,8 @@
       "color": "#C08A2E",
       "order": 2,
       "description": {
-        "zh": "北宋以开封为中心，汴河为漕运主干，连接黄河、淮河与江南运河。本层收北宋汴河漕运与开封沿线市镇节点。",
-        "en": "The Northern Song state centred on Kaifeng, with the Bian River as its main grain-transport artery linking the Yellow River, the Huai and the Jiangnan canal. This layer covers Northern Song Bian River transport and the market towns along it."
+        "zh": "北宋以开封为中心，汴河为漕运主干，连接黄河、淮河与江南运河。本层只收北宋朝廷的汴河漕运、岁运与治河节点；开封市镇等城镇经济节点归「沿线城镇与市场」层。",
+        "en": "The Northern Song state centred on Kaifeng, with the Bian River as its main grain-transport artery linking the Yellow River, the Huai and the Jiangnan canal. This layer holds the Northern Song court’s Bian River transport, annual quotas and river works; town and market nodes such as Kaifeng belong to the “canal towns and markets” layer."
       }
     },
     {
@@ -93,8 +93,8 @@
       "color": "#1F4E79",
       "order": 5,
       "description": {
-        "zh": "元、明、清三朝经营京杭大运河的漕运制度与河工：济宁枢纽、天津海漕、明代漕运制度、淮安漕运总督、临清钞关、通州仓、镇江入江口、清代鼎盛与漕运停止。三朝共用同一条航道，因此合为一个运营层，不按朝代复制路线。",
-        "en": "The grain-transport system and river works by which the Yuan, Ming and Qing operated the Beijing–Hangzhou Grand Canal: the Jining hub, Tianjin sea transport, the Ming transport system, the Huai’an grain commissioner, the Linqing customs house, Tongzhou granary, the Zhenjiang river crossing, the Qing peak and the end of grain transport. The three dynasties shared the same channel, so they form one operational layer rather than duplicated routes."
+        "zh": "元、明、清三朝经营京杭大运河的漕运制度与河工：济宁枢纽、天津海漕、明代漕运制度、淮安漕运总督、镇江入江口、南旺分水、清代河工与漕运停止。三朝共用同一条航道，因此合为一个运营层，不按朝代复制路线；沿线钞关、仓场与市镇另归「沿线城镇与市场」层。",
+        "en": "The grain-transport system and river works by which the Yuan, Ming and Qing operated the Beijing–Hangzhou Grand Canal: the Jining hub, Tianjin sea transport, the Ming transport system, the Huai’an grain commissioner, the Zhenjiang river crossing, the Nanwang diversion, Qing river works and the end of grain transport. The three dynasties shared one channel, so they form a single operational layer rather than duplicated routes; customs houses, granaries and towns along the line belong to the “canal towns and markets” layer."
       }
     },
     {
@@ -106,8 +106,8 @@
       "color": "#A0522D",
       "order": 6,
       "description": {
-        "zh": "运河沿线的城镇、仓场、钞关与商人：开封汴河市镇、德州仓、临清钞关、通州仓、苏州丝米市、扬州盐运。这些节点可与北宋、明、清主体重叠，行动主体是地方官府、商人与市场，不是朝廷。",
-        "en": "Towns, granaries, customs houses and merchants along the canal: the Kaifeng market town, Dezhou granary, Linqing customs house, Tongzhou granary, Suzhou silk and rice market and Yangzhou salt trade. These nodes may overlap with the Northern Song, Ming and Qing layers; the actors are local government, merchants and markets, not the court."
+        "zh": "运河沿线的城镇、仓场、钞关与市场：开封汴河市镇、临安湖墅市镇、济宁州城、德州仓、通州仓、临清钞关、苏州丝米市、扬州盐运。行动主体是地方官府、商人与市场，不是朝廷；每个节点只挂本层，朝代层用 relatedIds 关联，不重复计入。",
+        "en": "Towns, granaries, customs houses and markets along the canal: the Kaifeng Bian River town, the Hushu town at Lin’an, Jining, the Dezhou and Tongzhou granaries, the Linqing customs house, Suzhou’s silk and rice markets and Yangzhou’s salt trade. The actors are local government, merchants and markets, not the court; each node belongs to this layer only, and the dynastic layers link to it through relatedIds instead of counting it twice."
       }
     },
     {
