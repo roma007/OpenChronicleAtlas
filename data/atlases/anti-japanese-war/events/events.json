@@ -19621,32 +19621,41 @@
       "en": "The United States dropped an atomic bomb on Hiroshima, accelerating Japan’s surrender."
     },
     "description": {
-      "zh": "1945 年 8 月 6 日，美国在日本广岛投下原子弹，造成大量人员伤亡。8 月 9 日，美国又在长崎投下原子弹。核打击与苏联出兵东北共同加速了日本投降。\n\n本事件为国际事件，不绘制路线；日期与表述待史料校订。",
-      "en": "On 6 August 1945, the United States dropped an atomic bomb on Hiroshima, causing massive casualties. On 9 August, another bomb was dropped on Nagasaki. The nuclear strikes, together with the Soviet entry into the war in the Northeast, accelerated Japan’s surrender.\n\nThis is an international event with no route drawn; dates and wording await historical review."
+      "zh": "1945 年 8 月 6 日凌晨，美军 B-29「埃诺拉·盖伊」号从马里亚纳群岛提尼安岛北机场起飞，飞往广岛；8 时 15 分在广岛上空投下原子弹，造成大量人员伤亡。8 月 9 日，美军又在长崎投下原子弹。核打击与苏联出兵东北共同加速了日本投降。本事件线路见 `allied-forces` 层「提尼安岛—广岛」。",
+      "en": "In the early hours of 6 August 1945 a US B-29, the Enola Gay, took off from North Field on Tinian in the Mariana Islands for Hiroshima and dropped an atomic bomb over the city at 08:15, causing massive casualties. On 9 August the United States dropped a second bomb on Nagasaki. The nuclear strikes, together with the Soviet entry into the war in the Northeast, accelerated Japan’s surrender. The route is shown in the `allied-forces` layer as Tinian–Hiroshima."
     },
     "images": [],
     "sources": [
       {
+        "title": "《广岛和平纪念资料馆常设展解说》",
+        "author": "广岛和平纪念资料馆",
+        "year": 2023,
+        "note": "1945-08-06 广岛原子弹爆炸"
+      },
+      {
+        "title": "《The Atomic Bombings of Hiroshima and Nagasaki》",
+        "author": "US Army Corps of Engineers, Manhattan Engineer District",
+        "year": 1946,
+        "note": "广岛爆炸与伤亡"
+      },
+      {
         "title": "《第二次世界大战史》",
         "author": "军事科学院军事历史研究部",
         "year": 1995,
-        "note": "示意初稿，待史料校订"
+        "note": "原子弹空袭与日本投降"
       },
       {
         "title": "《中国抗日战争史》",
         "author": "张宪文等",
         "year": 2001,
-        "note": "战争结束阶段背景参考"
+        "note": "战争结束阶段背景"
       }
     ],
     "relatedIds": [
       "soviet-declares-war-1945-08",
       "japan-surrender-1945-08"
     ],
-    "importance": 1,
-    "extensions": {
-      "routeEvent": false
-    }
+    "importance": 3
   },
   {
     "id": "soviet-declares-war-1945-08",
@@ -58561,6 +58570,635 @@
       "double-tenth-agreement-1945-10",
       "mao-chongqing-talks-1945-08",
       "northeast-bureau-established-1945-09"
+    ]
+  },
+  {
+    "atlasId": "anti-japanese-war",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "wusong-landing-1937-08",
+    "name": {
+      "zh": "日军在吴淞口、川沙口登陆",
+      "en": "Japanese landings at Wusong and Chuansha"
+    },
+    "date": "1937-08-23",
+    "location": {
+      "lng": 121.5,
+      "lat": 31.4,
+      "place": {
+        "zh": "上海吴淞口",
+        "en": "Wusong, Shanghai"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1937 年 8 月 23 日，日本上海派遣军第 3、第 11 师团在吴淞口、川沙口一带登陆，淞沪会战扩大。",
+      "en": "On 23 August 1937 the Japanese Shanghai Expeditionary Army’s 3rd and 11th divisions landed at Wusong and Chuansha, widening the Battle of Shanghai."
+    },
+    "description": {
+      "zh": "1937 年 8 月 13 日淞沪会战爆发后，日本组建上海派遣军，由松井石根任司令官。8 月 23 日，第 3 师团和第 11 师团在吴淞口、川沙口一带强行登陆，企图迂回中国守军侧后，攻占罗店、宝山，打通通往上海市区的通道。中国第 9 集团军等部在吴淞、宝山、罗店一线顽强抗击，罗店争夺战尤为激烈。日军此后不断增兵，至 11 月 5 日又在金山卫登陆，中国守军侧后受威胁，淞沪会战转入撤退。日期、部队与登陆点取通行说法，具体滩头位置待考。",
+      "en": "After the Battle of Shanghai began on 13 August 1937, Japan formed the Shanghai Expeditionary Army under Matsui Iwane. On 23 August its 3rd and 11th divisions forced landings at Wusong and Chuansha, seeking to turn the Chinese flank, take Luodian and Baoshan and open the way into Shanghai. Chinese 9th Group Army units fought back along the Wusong–Baoshan–Luodian line, with particularly bitter fighting at Luodian. Japan kept reinforcing, and after another landing at Jinshanwei on 5 November the Chinese flank was threatened and the battle turned into a withdrawal. Dates, units and landing points follow conventional accounts; the exact beaches await verification."
+    },
+    "sources": [
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "淞沪会战与日军上海派遣军登陆"
+      },
+      {
+        "title": "《上海通志·军事志》",
+        "author": "上海市地方志办公室",
+        "year": 2005,
+        "note": "吴淞口、川沙口登陆与罗店争夺战"
+      },
+      {
+        "title": "《中国事变陆军作战史》",
+        "author": "日本防卫厅防卫研究所战史室",
+        "year": 1975,
+        "note": "上海派遣军登陆与作战经过"
+      },
+      {
+        "title": "《淞沪会战》",
+        "author": "抗日战争纪念网",
+        "year": 2021,
+        "note": "8 月 23 日登陆与后续作战"
+      }
+    ],
+    "relatedIds": [
+      "battle-shanghai-1937-08",
+      "japanese-shanghai-1937-08",
+      "jinshanwei-landing-1937-11"
+    ]
+  },
+  {
+    "atlasId": "anti-japanese-war",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "haiphong-landing-1940-09",
+    "name": {
+      "zh": "日军在海防登陆",
+      "en": "Japanese landing at Haiphong"
+    },
+    "date": "1940-09-26",
+    "location": {
+      "lng": 106.75,
+      "lat": 20.87,
+      "place": {
+        "zh": "越南海防",
+        "en": "Haiphong, Vietnam"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1940 年 9 月 26 日，日军在越南北部海防登陆，完成对法属印度支那北部的进驻。",
+      "en": "On 26 September 1940 Japanese forces landed at Haiphong, completing the occupation of northern French Indochina."
+    },
+    "description": {
+      "zh": "1940 年 9 月 22 日，日军第 5 师团从广西边境越境进攻谅山，同时海军舰艇进入北部湾。9 月 25 日，日军开始向海防发动登陆作战；9 月 26 日，日军在海防以南东塔登陆，坦克上岸并进入海防港，当天战斗结束。此后日军在海防驻约 900 人、河内驻约 600 人，并控制嘉林、老街等机场，切断滇越铁路。日期有 9 月 25 日、26 日两说，本事件取 26 日；登陆点在海防港区，不画到河内。",
+      "en": "On 22 September 1940 the Japanese 5th Division crossed from Guangxi and attacked Lang Son while naval vessels entered the Gulf of Tonkin. On 25 September Japanese forces began landing operations against Haiphong; on 26 September they came ashore at Dong Tac south of the port, put tanks ashore and entered Haiphong, and fighting ended that day. Japan then stationed about 900 troops at Haiphong and 600 at Hanoi, took control of Gia Lam and Lao Cai airfields, and cut the Yunnan–Vietnam railway. Sources give 25 or 26 September; this entry uses the 26th and stops at the port, not Hanoi."
+    },
+    "sources": [
+      {
+        "title": "《二战期间日本在东南亚地区的侵略暴行》",
+        "author": "陈伟，《学习时报》2025-12-12",
+        "year": 2025,
+        "note": "1940 年 9 月日军占领法属印度支那北部"
+      },
+      {
+        "title": "《英国情报部门对日本入侵法属印度支那后战略方向的判断》",
+        "author": "郭帅帅，《抗日战争研究》2024 年第 4 期",
+        "year": 2024,
+        "note": "日军在海防登陆与进驻河内"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "日军入侵法属印度支那的背景"
+      },
+      {
+        "title": "《Japanese invasion of French Indochina》",
+        "author": "Wikipedia",
+        "year": 2026,
+        "note": "9 月 25—26 日海防登陆与东塔登陆"
+      }
+    ],
+    "relatedIds": [
+      "indochina-entry-1940-09",
+      "indochina-south-entry-1941-07",
+      "japanese-burma-1942-01"
+    ]
+  },
+  {
+    "atlasId": "anti-japanese-war",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "indochina-south-entry-1941-07",
+    "name": {
+      "zh": "日军进驻法属印度支那南部",
+      "en": "Japanese occupation of southern French Indochina"
+    },
+    "date": "1941-07-28",
+    "location": {
+      "lng": 106.7,
+      "lat": 10.75,
+      "place": {
+        "zh": "越南西贡",
+        "en": "Saigon, Vietnam"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1941 年 7 月 28 日，日军在法属印度支那南部登陆，进驻西贡、金兰湾等地。",
+      "en": "On 28 July 1941 Japanese forces landed in southern French Indochina and occupied Saigon and Cam Ranh Bay."
+    },
+    "description": {
+      "zh": "1941 年 7 月 23 日，日本与维希法国签订共同防御法属印度支那的议定书；7 月 28 日，日军第 25 军先头部队在法属印度支那南部登陆，随后约 14 万日军进入，进驻西贡、金兰湾、边和等地，取得空军基地与海军基地。南部印度支那由此成为日军进攻马来亚、菲律宾和荷属东印度的前进基地。这次进驻不是 1940 年 9 月北部进驻的重复，战略方向已从封锁中国转为夺取东南亚。本事件取西贡登陆点，金兰湾另有驻军，不逐一画线。",
+      "en": "On 23 July 1941 Japan and Vichy France signed a protocol on joint defence of French Indochina; on 28 July the leading units of the Japanese 25th Army landed in southern Indochina, followed by some 140,000 troops who occupied Saigon, Cam Ranh Bay and Bien Hoa and acquired air and naval bases. Southern Indochina became the springboard for the invasions of Malaya, the Philippines and the Dutch East Indies. This was not a repetition of the September 1940 occupation of the north: the strategic purpose had shifted from blockading China to seizing Southeast Asia. The entry uses Saigon as the landing point; Cam Ranh Bay is mentioned but not given a separate line."
+    },
+    "sources": [
+      {
+        "title": "《二战期间日本在东南亚地区的侵略暴行》",
+        "author": "陈伟，《学习时报》2025-12-12",
+        "year": 2025,
+        "note": "1941-07-28 日军进入印度支那南部"
+      },
+      {
+        "title": "《英国情报部门对日本入侵法属印度支那后战略方向的判断》",
+        "author": "郭帅帅，《抗日战争研究》2024 年第 4 期",
+        "year": 2024,
+        "note": "南部进驻与西贡、金兰湾基地"
+      },
+      {
+        "title": "《Japanese Forces Advance into Southern French Indochina》",
+        "author": "日本国立公文书馆（JACAR）",
+        "year": 2021,
+        "note": "1941-07-28 进驻南部法属印度支那"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "日军南进与太平洋战争背景"
+      }
+    ],
+    "relatedIds": [
+      "indochina-entry-1940-09",
+      "haiphong-landing-1940-09",
+      "malaya-kota-bharu-landing-1941-12",
+      "philippines-lingayen-landing-1941-12"
+    ]
+  },
+  {
+    "atlasId": "anti-japanese-war",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "malaya-kota-bharu-landing-1941-12",
+    "name": {
+      "zh": "日军登陆哥打巴鲁",
+      "en": "Japanese landing at Kota Bharu"
+    },
+    "date": "1941-12-08",
+    "location": {
+      "lng": 102.25,
+      "lat": 6.12,
+      "place": {
+        "zh": "马来亚哥打巴鲁",
+        "en": "Kota Bharu, Malaya"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1941 年 12 月 8 日，日军第 25 军在马来亚哥打巴鲁登陆，马来亚战役开始。",
+      "en": "On 8 December 1941 the Japanese 25th Army landed at Kota Bharu, beginning the Malayan campaign."
+    },
+    "description": {
+      "zh": "1941 年 12 月 4 日，山下奉文指挥的日军第 25 军主力从中国海南岛三亚港出发，在南海舰队掩护下驶向马来半岛。12 月 8 日凌晨，日军在马来亚哥打巴鲁登陆，同时在泰国宋卡、北大年登陆。哥打巴鲁登陆是太平洋战争最早的地面战斗之一，日军迅速夺取附近机场，随后沿马来半岛东岸南下。1942 年 1 月 31 日占领柔佛巴鲁，2 月 15 日攻占新加坡。本事件只记哥打巴鲁登陆，宋卡、北大年另立一条。",
+      "en": "On 4 December 1941 the main body of Yamashita Tomoyuki’s 25th Army sailed from Sanya on Hainan Island, covered by the South China Sea fleet, towards the Malay Peninsula. In the early hours of 8 December Japanese troops landed at Kota Bharu in Malaya and simultaneously at Singora and Patani in Thailand. The Kota Bharu landing was one of the first ground battles of the Pacific War; the Japanese quickly took nearby airfields and advanced down the east coast of Malaya, taking Johor Bahru on 31 January 1942 and Singapore on 15 February. This entry covers Kota Bharu only; Singora and Patani have a separate entry."
+    },
+    "sources": [
+      {
+        "title": "《Malayan Campaign》",
+        "author": "Singapore Infopedia, National Library Board",
+        "year": 2013,
+        "note": "1941-12-08 哥打巴鲁、宋卡、北大年登陆"
+      },
+      {
+        "title": "《二战期间日本在东南亚地区的侵略暴行》",
+        "author": "陈伟，《学习时报》2025-12-12",
+        "year": 2025,
+        "note": "12-04 从海南三亚出发、12-08 登陆"
+      },
+      {
+        "title": "《马来战役（1941.12—1942.2）》",
+        "author": "中国台湾网（抗日战争纪念网转载）",
+        "year": 2021,
+        "note": "登陆、南下与新加坡陷落"
+      },
+      {
+        "title": "《The Malayan Campaign》",
+        "author": "Malaysia Military History Tourism Association",
+        "year": 2020,
+        "note": "哥打巴鲁登陆与战役进程"
+      }
+    ],
+    "relatedIds": [
+      "malaya-singora-landing-1941-12",
+      "indochina-south-entry-1941-07",
+      "japanese-hongkong-1941-12"
+    ]
+  },
+  {
+    "atlasId": "anti-japanese-war",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "malaya-singora-landing-1941-12",
+    "name": {
+      "zh": "日军登陆宋卡、北大年",
+      "en": "Japanese landings at Singora and Patani"
+    },
+    "date": "1941-12-08",
+    "location": {
+      "lng": 100.6,
+      "lat": 7.2,
+      "place": {
+        "zh": "泰国宋卡",
+        "en": "Songkhla, Thailand"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1941 年 12 月 8 日，日军在泰国宋卡、北大年登陆，越境进入马来亚北部。",
+      "en": "On 8 December 1941 Japanese forces landed at Singora and Patani in Thailand and crossed into northern Malaya."
+    },
+    "description": {
+      "zh": "1941 年 12 月 8 日，日军第 25 军一部在泰国宋卡、北大年登陆。宋卡登陆部队经沙头越境进入马来亚吉打州，北大年登陆部队经勿洞进入霹雳州，与哥打巴鲁登陆部队形成多路进攻。泰国政府在日军压力下允许其过境，随后与日本签订同盟条约。日军沿马来半岛东西两岸南下，1942 年 2 月 15 日攻占新加坡。本事件以宋卡为落点，北大年在同一段行动中提及。",
+      "en": "On 8 December 1941 part of the Japanese 25th Army landed at Singora and Patani in Thailand. The Singora force crossed at Sadao into Kedah, and the Patani force crossed at Betong into Perak, forming a multi-pronged attack with the Kota Bharu landing. Under Japanese pressure Thailand allowed transit and soon signed an alliance with Japan. The Japanese advanced down both coasts of the Malay Peninsula and took Singapore on 15 February 1942. This entry uses Singora as its point; Patani is mentioned as part of the same operation."
+    },
+    "sources": [
+      {
+        "title": "《Malayan Campaign》",
+        "author": "Singapore Infopedia, National Library Board",
+        "year": 2013,
+        "note": "宋卡、北大年登陆与越境路线"
+      },
+      {
+        "title": "《二战期间日本在东南亚地区的侵略暴行》",
+        "author": "陈伟，《学习时报》2025-12-12",
+        "year": 2025,
+        "note": "日军多路进攻马来亚"
+      },
+      {
+        "title": "《马来战役（1941.12—1942.2）》",
+        "author": "中国台湾网（抗日战争纪念网转载）",
+        "year": 2021,
+        "note": "宋卡、北大年登陆与南下"
+      },
+      {
+        "title": "《日本入侵马来亚大事记》",
+        "author": "和平纪念馆（马来西亚）",
+        "year": 2024,
+        "note": "12-08 宋卡、北大年登陆"
+      }
+    ],
+    "relatedIds": [
+      "malaya-kota-bharu-landing-1941-12",
+      "indochina-south-entry-1941-07"
+    ]
+  },
+  {
+    "atlasId": "anti-japanese-war",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "philippines-lingayen-landing-1941-12",
+    "name": {
+      "zh": "日军登陆林加延湾",
+      "en": "Japanese landing at Lingayen Gulf"
+    },
+    "date": "1941-12-22",
+    "location": {
+      "lng": 120.4,
+      "lat": 16.05,
+      "place": {
+        "zh": "菲律宾吕宋岛林加延湾",
+        "en": "Lingayen Gulf, Luzon, Philippines"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1941 年 12 月 22 日，日军第 14 军在菲律宾吕宋岛林加延湾登陆，菲律宾战役扩大。",
+      "en": "On 22 December 1941 the Japanese 14th Army landed at Lingayen Gulf on Luzon, widening the Philippine campaign."
+    },
+    "description": {
+      "zh": "1941 年 12 月 17 日，本间雅晴指挥的日军第 14 军主力从高雄、基隆、马公出发。12 月 22 日，日军在吕宋岛西岸林加延湾登陆，另一部在东南岸拉蒙湾登陆。美军与菲律宾军退守巴丹半岛和科雷吉多要塞，马尼拉于 1942 年 1 月 2 日被日军占领，巴丹于 4 月 9 日陷落，科雷吉多於 5 月 7 日陷落。本事件取林加延湾登陆点，拉蒙湾在同一行动中提及。",
+      "en": "On 17 December 1941 the main body of Homma Masaharu’s 14th Army sailed from Kaohsiung, Keelung and Makung. On 22 December it landed at Lingayen Gulf on the west coast of Luzon, while another force landed at Lamon Bay on the east coast. US and Philippine forces withdrew to Bataan and Corregidor; Manila fell on 2 January 1942, Bataan on 9 April and Corregidor on 7 May. This entry uses Lingayen Gulf; Lamon Bay is mentioned as part of the same operation."
+    },
+    "sources": [
+      {
+        "title": "《二战期间日本在东南亚地区的侵略暴行》",
+        "author": "陈伟，《学习时报》2025-12-12",
+        "year": 2025,
+        "note": "日军第 14 军进攻菲律宾"
+      },
+      {
+        "title": "《太平洋战争大事记》",
+        "author": "凤凰卫视 2007-11-12",
+        "year": 2007,
+        "note": "12-17 出航、12-22 林加延湾与拉蒙湾登陆"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "太平洋战争爆发后的菲律宾战场"
+      },
+      {
+        "title": "《Philippines campaign (1941–1942)》",
+        "author": "Wikipedia",
+        "year": 2026,
+        "note": "林加延湾登陆与巴丹、科雷吉多"
+      }
+    ],
+    "relatedIds": [
+      "indochina-south-entry-1941-07",
+      "malaya-kota-bharu-landing-1941-12"
+    ]
+  },
+  {
+    "atlasId": "anti-japanese-war",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "java-landing-1942-03",
+    "name": {
+      "zh": "日军登陆爪哇",
+      "en": "Japanese landing on Java"
+    },
+    "date": "1942-03-01",
+    "location": {
+      "lng": 106.8,
+      "lat": -6,
+      "place": {
+        "zh": "荷属东印度爪哇",
+        "en": "Java, Dutch East Indies"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1942 年 3 月 1 日，日军第 16 军分三路在爪哇登陆，荷属东印度战役进入最后阶段。",
+      "en": "On 1 March 1942 the Japanese 16th Army landed on Java in three columns, beginning the final phase of the Dutch East Indies campaign."
+    },
+    "description": {
+      "zh": "1942 年 2 月，日军已占领婆罗洲、苏拉威西、苏门答腊南部等地。3 月 1 日，日军第 16 军分三路在爪哇登陆：西路在万丹湾、中路在井里汶、东路在泗水附近。3 月 5 日占领巴达维亚（今雅加达），3 月 9 日荷属东印度荷军投降，3 月 10 日日军占领万隆。爪哇登陆是日军南方作战的重要一环，与马来亚、菲律宾、缅甸战场相互配合。本事件取巴达维亚附近登陆点，三路登陆不逐一画线。",
+      "en": "By February 1942 Japan had taken Borneo, Sulawesi and southern Sumatra. On 1 March the 16th Army landed on Java in three columns: the western force at Banten Bay, the central force at Cirebon and the eastern force near Surabaya. Batavia (now Jakarta) fell on 5 March, the Dutch forces in the East Indies surrendered on 9 March, and Bandung was occupied on 10 March. The Java landing was a key part of Japan’s southern offensive, linked with the Malayan, Philippine and Burma campaigns. The entry uses the Batavia area as its point; the three landing columns are not drawn separately."
+    },
+    "sources": [
+      {
+        "title": "《二战期间日本在东南亚地区的侵略暴行》",
+        "author": "陈伟，《学习时报》2025-12-12",
+        "year": 2025,
+        "note": "1942-03-01 日军三路进攻爪哇"
+      },
+      {
+        "title": "《太平洋战争大事记》",
+        "author": "凤凰卫视 2007-11-12",
+        "year": 2007,
+        "note": "爪哇攻略与荷军投降"
+      },
+      {
+        "title": "《中国抗日战争史》",
+        "author": "张宪文等",
+        "year": 2001,
+        "note": "太平洋战争与东南亚战场"
+      },
+      {
+        "title": "《Dutch East Indies campaign》",
+        "author": "Wikipedia",
+        "year": 2026,
+        "note": "爪哇登陆与荷军投降"
+      }
+    ],
+    "relatedIds": [
+      "philippines-lingayen-landing-1941-12",
+      "malaya-kota-bharu-landing-1941-12"
+    ]
+  },
+  {
+    "atlasId": "anti-japanese-war",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "burma-overland-1942-01",
+    "name": {
+      "zh": "日军第 15 军从泰国侵入缅甸",
+      "en": "Japanese 15th Army enters Burma from Thailand"
+    },
+    "date": "1942-01-20",
+    "location": {
+      "lng": 98.98,
+      "lat": 18.79,
+      "place": {
+        "zh": "泰国清迈",
+        "en": "Chiang Mai, Thailand"
+      }
+    },
+    "entityIds": [
+      "japanese-invasion"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1942 年 1 月，日军第 15 军以泰国为基地越过泰缅边界进攻缅甸，3 月 8 日占领仰光。",
+      "en": "In January 1942 the Japanese 15th Army attacked Burma from Thailand and took Rangoon on 8 March."
+    },
+    "description": {
+      "zh": "1941 年 12 月 8 日，日军第 15 军从法属印度支那侵入泰国。1942 年 1 月，第 15 军以泰国清迈、来兴为基地，越过泰缅边界进攻丹那沙林，随后沿萨尔温江北上，3 月 8 日占领仰光。中国远征军于 1942 年 2 月入缅，与英军并肩作战，5 月撤退。**必须说明：日军进入缅甸是陆路越境，不是海上登陆仰光**；本段画陆路 `advance`，不画 `naval`。",
+      "en": "On 8 December 1941 the Japanese 15th Army entered Thailand from French Indochina. In January 1942, based at Chiang Mai and Tak, it crossed the Thai–Burmese border into Tenasserim, advanced north along the Salween and took Rangoon on 8 March. The Chinese Expeditionary Force entered Burma in February 1942, fought alongside British forces and withdrew in May. **The Japanese entered Burma overland, not by an amphibious landing at Rangoon**; this segment is drawn as a land `advance`, not as `naval`."
+    },
+    "sources": [
+      {
+        "title": "《二战期间日本在东南亚地区的侵略暴行》",
+        "author": "陈伟，《学习时报》2025-12-12",
+        "year": 2025,
+        "note": "日军第 15 军从泰国进攻缅甸、3-08 占仰光"
+      },
+      {
+        "title": "《Japanese invasion of Burma》",
+        "author": "Wikipedia",
+        "year": 2026,
+        "note": "第 15 军从泰国越境、仰光陷落"
+      },
+      {
+        "title": "《中国远征军入缅抗战史料》",
+        "author": "中国第二历史档案馆等",
+        "year": 2005,
+        "note": "中国远征军入缅与撤退"
+      },
+      {
+        "title": "《Burma campaign》",
+        "author": "Wikipedia",
+        "year": 2026,
+        "note": "缅甸战役与中英联军"
+      }
+    ],
+    "relatedIds": [
+      "japanese-burma-1942-01",
+      "burma-expedition-1942-02",
+      "burma-retreat-1942-08"
+    ]
+  },
+  {
+    "atlasId": "anti-japanese-war",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "tinian-atomic-mission-1945-08",
+    "name": {
+      "zh": "美军自提尼安岛出击",
+      "en": "US atomic mission from Tinian"
+    },
+    "date": "1945-08-06",
+    "location": {
+      "lng": 145.62,
+      "lat": 15,
+      "place": {
+        "zh": "马里亚纳群岛提尼安岛",
+        "en": "Tinian, Mariana Islands"
+      }
+    },
+    "entityIds": [
+      "allied-forces"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "1945 年 8 月 6 日与 9 日，美军 B-29 自提尼安岛北机场起飞，分别空袭广岛、长崎。",
+      "en": "On 6 and 9 August 1945 US B-29s took off from North Field on Tinian to bomb Hiroshima and Nagasaki."
+    },
+    "description": {
+      "zh": "1945 年 8 月 6 日凌晨，美国陆军航空军第 509 混合大队的 B-29 轰炸机「埃诺拉·盖伊」号（Enola Gay）从马里亚纳群岛提尼安岛北机场起飞，飞往日本广岛。8 月 9 日，同大队的 B-29「博克斯卡」号（Bockscar）从同一基地起飞，飞往长崎。两次任务均为单机远程空袭，航程约 2,500 公里。提尼安岛是美军在 1944 年夺取的马里亚纳基地，B-29 由此可直接空袭日本本土。本事件为出击节点，具体航线见 `allied-forces` 层「提尼安岛—广岛」「提尼安岛—长崎」。",
+      "en": "In the early hours of 6 August 1945 a B-29 of the US Army Air Forces’ 509th Composite Group, the Enola Gay, took off from North Field on Tinian in the Mariana Islands for Hiroshima. On 9 August another B-29 of the same group, Bockscar, left the same base for Nagasaki. Both were single-aircraft long-range missions of about 2,500 km. Tinian was a Mariana base seized by US forces in 1944, from which B-29s could strike the Japanese home islands directly. This entry records the departure; the routes are in the `allied-forces` layer as Tinian–Hiroshima and Tinian–Nagasaki."
+    },
+    "sources": [
+      {
+        "title": "《The Atomic Bombings of Hiroshima and Nagasaki》",
+        "author": "US Army Corps of Engineers, Manhattan Engineer District",
+        "year": 1946,
+        "note": "1946 年官方报告，提尼安岛出击与航程"
+      },
+      {
+        "title": "《广岛和平纪念资料馆常设展解说》",
+        "author": "广岛和平纪念资料馆",
+        "year": 2023,
+        "note": "8-06 埃诺拉·盖伊号自提尼安岛起飞"
+      },
+      {
+        "title": "《长崎原爆资料馆常设展解说》",
+        "author": "长崎原爆资料馆",
+        "year": 2023,
+        "note": "8-09 博克斯卡号自提尼安岛起飞"
+      },
+      {
+        "title": "《第二次世界大战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1995,
+        "note": "原子弹空袭与日本投降"
+      }
+    ],
+    "relatedIds": [
+      "hiroshima-1945-08",
+      "nagasaki-1945-08",
+      "japan-surrender-1945-08"
+    ]
+  },
+  {
+    "atlasId": "anti-japanese-war",
+    "aliases": [],
+    "images": [],
+    "importance": 2,
+    "id": "nagasaki-1945-08",
+    "name": {
+      "zh": "长崎原子弹爆炸",
+      "en": "Atomic bombing of Nagasaki"
+    },
+    "date": "1945-08-09",
+    "location": {
+      "lng": 129.87,
+      "lat": 32.75,
+      "place": {
+        "zh": "日本长崎",
+        "en": "Nagasaki, Japan"
+      }
+    },
+    "entityIds": [
+      "allied-forces"
+    ],
+    "category": "国际",
+    "summary": {
+      "zh": "1945 年 8 月 9 日，美国在长崎投下原子弹，同日苏联对日宣战。",
+      "en": "On 9 August 1945 the United States dropped an atomic bomb on Nagasaki; the same day the Soviet Union declared war on Japan."
+    },
+    "description": {
+      "zh": "1945 年 8 月 9 日，美军 B-29「博克斯卡」号在长崎投下原子弹，造成大量人员伤亡。同日，苏联对日宣战并出兵中国东北。核打击与苏联出兵共同加速了日本投降；8 月 15 日日本宣布无条件投降，9 月 2 日签署投降书。长崎是继广岛之后第二个遭受原子弹轰炸的城市。本事件为国际事件，线路见 `allied-forces` 层「提尼安岛—长崎」。",
+      "en": "On 9 August 1945 the US B-29 Bockscar dropped an atomic bomb on Nagasaki, causing massive casualties. The same day the Soviet Union declared war on Japan and sent troops into Northeast China. The nuclear strike and the Soviet entry together accelerated Japan’s surrender; Japan announced unconditional surrender on 15 August and signed the instrument of surrender on 2 September. Nagasaki was the second city, after Hiroshima, to be struck by an atomic bomb. The route is shown in the `allied-forces` layer as Tinian–Nagasaki."
+    },
+    "sources": [
+      {
+        "title": "《长崎原爆资料馆常设展解说》",
+        "author": "长崎原爆资料馆",
+        "year": 2023,
+        "note": "1945-08-09 长崎原子弹爆炸"
+      },
+      {
+        "title": "《The Atomic Bombings of Hiroshima and Nagasaki》",
+        "author": "US Army Corps of Engineers, Manhattan Engineer District",
+        "year": 1946,
+        "note": "长崎爆炸与伤亡"
+      },
+      {
+        "title": "《第二次世界大战史》",
+        "author": "军事科学院军事历史研究部",
+        "year": 1995,
+        "note": "原子弹空袭、苏联出兵与日本投降"
+      },
+      {
+        "title": "《日本投降》",
+        "author": "抗日战争纪念网",
+        "year": 2021,
+        "note": "8-15 宣布投降、9-02 签署投降书"
+      }
+    ],
+    "relatedIds": [
+      "hiroshima-1945-08",
+      "tinian-atomic-mission-1945-08",
+      "soviet-declares-war-1945-08",
+      "japan-surrender-1945-08"
     ]
   }
 ]

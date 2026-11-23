@@ -3,6 +3,31 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.260] - 2026-11-23
+
+### Added
+- **抗日战争 · 日本登陆航线与原子弹空袭（M278）**：
+  - `japanese-advance` 新增 **18 段**航线：中国沿海 10 段（吴淞口、金山卫、青岛、厦门、大亚湾、海南、汕头、钦州湾、闽江口、雷州）、
+    东南亚 6 段（海防、西贡、哥打巴鲁、宋卡、林加延湾、爪哇）、陆路 2 段（清迈—仰光、深圳—香港）。
+  - `allied-forces` 新增 **2 段**原子弹空袭航线：提尼安岛—广岛、提尼安岛—长崎。
+  - 新增 **10 个事件**：吴淞口登陆、海防登陆、南部法属印度支那进驻、哥打巴鲁登陆、宋卡／北大年登陆、
+    林加延湾登陆、爪哇登陆、日军第 15 军从泰国侵入缅甸、美军自提尼安岛出击、长崎原子弹爆炸。
+  - 修订广岛原子弹事件，补提尼安岛起飞与空袭航线说明。
+  - 事件 1141 → **1151**，路线 574 → **594**，地区 931 → **941**；`japanese-invasion` 航线 384 → **402**，`allied-forces` 4 → **6**。
+
+### Research
+- 缅甸、香港明确为陆路进攻，不画成海上登陆；东南亚登陆事件正文写明「登陆东南亚」，不与中国战场混同。
+- 海防登陆取 9-26（另有 9-25 说）；西贡河港内段按海路铁律登记 `land-legs.allow.json`，写明原因。
+- 原子弹航线为示意，不按机组实际航路复原；伤亡数字不写具体数。
+- 逐条核对表见 `docs/research/units/anti-japanese-war-landings-atomic.md`。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:routes`（0 问题）、`pnpm check:heads`（0 个无来由端点）、
+  `pnpm check:land`（0 段穿越陆地，1 段已登记）、`pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build:search-index`、`pnpm build:mobile-data` 全部通过。
+
+---
+
 ## [v1.0.259] - 2026-11-23
 
 ### Added

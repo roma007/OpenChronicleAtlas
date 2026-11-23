@@ -22666,6 +22666,276 @@
         "sourcePlace": "陕西保安",
         "confidence": "low"
       }
+    },
+    {
+      "id": "place-shanghai-u5434u6ddeu53e3",
+      "level": "place",
+      "parentId": "shanghai",
+      "name": {
+        "zh": "吴淞口"
+      },
+      "shortName": {
+        "zh": "吴淞口"
+      },
+      "aliases": [
+        "上海吴淞口",
+        "上海吴淞口"
+      ],
+      "modernName": {
+        "zh": "上海吴淞口"
+      },
+      "point": [
+        121.5,
+        31.4
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "上海吴淞口",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-overseas-u6d77u9632",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "海防"
+      },
+      "shortName": {
+        "zh": "海防"
+      },
+      "aliases": [
+        "越南海防",
+        "越南海防"
+      ],
+      "modernName": {
+        "zh": "越南海防"
+      },
+      "point": [
+        106.75,
+        20.87
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "越南海防",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-overseas-u897fu8d21",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "西贡"
+      },
+      "shortName": {
+        "zh": "西贡"
+      },
+      "aliases": [
+        "越南西贡",
+        "越南西贡"
+      ],
+      "modernName": {
+        "zh": "越南西贡"
+      },
+      "point": [
+        106.7,
+        10.75
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "越南西贡",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-overseas-u4e9au54e5u6253u5df4u9c81",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "亚哥打巴鲁"
+      },
+      "shortName": {
+        "zh": "亚哥打巴鲁"
+      },
+      "aliases": [
+        "马来亚哥打巴鲁",
+        "马来亚哥打巴鲁"
+      ],
+      "modernName": {
+        "zh": "马来亚哥打巴鲁"
+      },
+      "point": [
+        102.25,
+        6.12
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "马来亚哥打巴鲁",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-overseas-u5b8bu5361",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "宋卡"
+      },
+      "shortName": {
+        "zh": "宋卡"
+      },
+      "aliases": [
+        "泰国宋卡",
+        "泰国宋卡"
+      ],
+      "modernName": {
+        "zh": "泰国宋卡"
+      },
+      "point": [
+        100.6,
+        7.2
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "泰国宋卡",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-overseas-u5415u5b8bu5c9bu6797u52a0u5ef6u6e7e",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "吕宋岛林加延湾"
+      },
+      "shortName": {
+        "zh": "吕宋岛林加延湾"
+      },
+      "aliases": [
+        "菲律宾吕宋岛林加延湾",
+        "菲律宾吕宋岛林加延湾"
+      ],
+      "modernName": {
+        "zh": "菲律宾吕宋岛林加延湾"
+      },
+      "point": [
+        120.4,
+        16.05
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "菲律宾吕宋岛林加延湾",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-overseas-u8377u5c5eu4e1cu5370u5ea6u722au54c7",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "荷属东印度爪哇"
+      },
+      "shortName": {
+        "zh": "荷属东印度爪哇"
+      },
+      "aliases": [
+        "荷属东印度爪哇",
+        "荷属东印度爪哇"
+      ],
+      "modernName": {
+        "zh": "荷属东印度爪哇"
+      },
+      "point": [
+        106.8,
+        -6
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "荷属东印度爪哇",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-overseas-u6e05u8fc8",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "清迈"
+      },
+      "shortName": {
+        "zh": "清迈"
+      },
+      "aliases": [
+        "泰国清迈",
+        "泰国清迈"
+      ],
+      "modernName": {
+        "zh": "泰国清迈"
+      },
+      "point": [
+        98.98,
+        18.79
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "泰国清迈",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-overseas-u9a6cu91ccu4e9au7eb3u7fa4u5c9bu63d0u5c3cu5b89u5c9b",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "马里亚纳群岛提尼安岛"
+      },
+      "shortName": {
+        "zh": "马里亚纳群岛提尼安岛"
+      },
+      "aliases": [
+        "马里亚纳群岛提尼安岛",
+        "马里亚纳群岛提尼安岛"
+      ],
+      "modernName": {
+        "zh": "马里亚纳群岛提尼安岛"
+      },
+      "point": [
+        145.62,
+        15
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "马里亚纳群岛提尼安岛",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "place-overseas-u957fu5d0e",
+      "level": "place",
+      "parentId": "overseas",
+      "name": {
+        "zh": "长崎"
+      },
+      "shortName": {
+        "zh": "长崎"
+      },
+      "aliases": [
+        "日本长崎",
+        "日本长崎"
+      ],
+      "modernName": {
+        "zh": "日本长崎"
+      },
+      "point": [
+        129.87,
+        32.75
+      ],
+      "extensions": {
+        "frame": "ROC-1937",
+        "sourcePlace": "日本长崎",
+        "confidence": "low"
+      }
     }
   ]
 }

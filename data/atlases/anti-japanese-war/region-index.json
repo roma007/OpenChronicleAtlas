@@ -4958,6 +4958,46 @@
       "shaanxi",
       "county-shaanxi-u80a4u65bdu53bf",
       "place-shaanxi-u5ef6u5b89"
+    ],
+    "wusong-landing-1937-08": [
+      "shanghai",
+      "place-shanghai-u5434u6ddeu53e3"
+    ],
+    "haiphong-landing-1940-09": [
+      "overseas",
+      "place-overseas-u6d77u9632"
+    ],
+    "indochina-south-entry-1941-07": [
+      "overseas",
+      "place-overseas-u897fu8d21"
+    ],
+    "malaya-kota-bharu-landing-1941-12": [
+      "overseas",
+      "place-overseas-u4e9au54e5u6253u5df4u9c81"
+    ],
+    "malaya-singora-landing-1941-12": [
+      "overseas",
+      "place-overseas-u5b8bu5361"
+    ],
+    "philippines-lingayen-landing-1941-12": [
+      "overseas",
+      "place-overseas-u5415u5b8bu5c9bu6797u52a0u5ef6u6e7e"
+    ],
+    "java-landing-1942-03": [
+      "overseas",
+      "place-overseas-u8377u5c5eu4e1cu5370u5ea6u722au54c7"
+    ],
+    "burma-overland-1942-01": [
+      "overseas",
+      "place-overseas-u6e05u8fc8"
+    ],
+    "tinian-atomic-mission-1945-08": [
+      "overseas",
+      "place-overseas-u9a6cu91ccu4e9au7eb3u7fa4u5c9bu63d0u5c3cu5b89u5c9b"
+    ],
+    "nagasaki-1945-08": [
+      "overseas",
+      "place-overseas-u957fu5d0e"
     ]
   },
   "routes": {
@@ -5001,6 +5041,22 @@
       ],
       "endpointRegionIds": [
         "yunnan"
+      ]
+    },
+    "allied-forces:5": {
+      "regionIds": [
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "overseas"
+      ]
+    },
+    "allied-forces:6": {
+      "regionIds": [
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "overseas"
       ]
     },
     "ccp:1": {
@@ -9059,6 +9115,212 @@
       ],
       "endpointRegionIds": [
         "hubei"
+      ]
+    },
+    "japanese-invasion:390": {
+      "regionIds": [
+        "jiangsu",
+        "overseas",
+        "shanghai",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "overseas",
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:391": {
+      "regionIds": [
+        "county-jiangsu-u91d1u5c71u53bf",
+        "jiangsu",
+        "overseas",
+        "zhejiang"
+      ],
+      "endpointRegionIds": [
+        "overseas",
+        "jiangsu"
+      ]
+    },
+    "japanese-invasion:392": {
+      "regionIds": [
+        "liaoning",
+        "overseas",
+        "qingdao",
+        "shandong"
+      ],
+      "endpointRegionIds": [
+        "liaoning",
+        "shandong"
+      ]
+    },
+    "japanese-invasion:393": {
+      "regionIds": [
+        "county-fujian-u53a6u95e8u5e02",
+        "county-fujian-u91d1u95e8u53bf",
+        "fujian",
+        "taiwan"
+      ],
+      "endpointRegionIds": [
+        "taiwan",
+        "fujian"
+      ]
+    },
+    "japanese-invasion:394": {
+      "regionIds": [
+        "county-guangdong-u60e0u9633u53bf",
+        "guangdong",
+        "overseas",
+        "taiwan"
+      ],
+      "endpointRegionIds": [
+        "taiwan",
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:395": {
+      "regionIds": [
+        "county-guangdong-u743cu5c71u53bf",
+        "guangdong",
+        "hainan",
+        "overseas",
+        "taiwan"
+      ],
+      "endpointRegionIds": [
+        "taiwan",
+        "guangdong"
+      ]
+    },
+    "japanese-invasion:396": {
+      "regionIds": [
+        "county-guangdong-u5357u6fb3u53bf",
+        "county-guangdong-u6c55u5934u5e02",
+        "guangdong",
+        "overseas",
+        "taiwan"
+      ],
+      "endpointRegionIds": [
+        "taiwan",
+        "overseas"
+      ]
+    },
+    "japanese-invasion:397": {
+      "regionIds": [
+        "county-guangdong-u94a6u53bf",
+        "guangdong",
+        "guangxi",
+        "hainan",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "guangdong",
+        "guangxi"
+      ]
+    },
+    "japanese-invasion:398": {
+      "regionIds": [
+        "fujian",
+        "taiwan"
+      ],
+      "endpointRegionIds": [
+        "taiwan",
+        "fujian"
+      ]
+    },
+    "japanese-invasion:399": {
+      "regionIds": [
+        "county-guangdong-u6d77u5eb7u53bf",
+        "county-guangdong-u743cu5c71u53bf",
+        "guangdong",
+        "hainan",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "guangdong",
+        "overseas"
+      ]
+    },
+    "japanese-invasion:400": {
+      "regionIds": [
+        "county-guangdong-u5d16u53bf",
+        "guangdong",
+        "hainan",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "guangdong",
+        "overseas"
+      ]
+    },
+    "japanese-invasion:401": {
+      "regionIds": [
+        "county-guangdong-u5d16u53bf",
+        "guangdong",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "guangdong",
+        "overseas"
+      ]
+    },
+    "japanese-invasion:402": {
+      "regionIds": [
+        "county-guangdong-u5d16u53bf",
+        "guangdong",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "guangdong",
+        "overseas"
+      ]
+    },
+    "japanese-invasion:403": {
+      "regionIds": [
+        "county-guangdong-u5d16u53bf",
+        "guangdong",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "guangdong",
+        "overseas"
+      ]
+    },
+    "japanese-invasion:404": {
+      "regionIds": [
+        "overseas",
+        "taiwan"
+      ],
+      "endpointRegionIds": [
+        "taiwan",
+        "overseas"
+      ]
+    },
+    "japanese-invasion:405": {
+      "regionIds": [
+        "county-guangdong-u5d16u53bf",
+        "guangdong",
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "guangdong",
+        "overseas"
+      ]
+    },
+    "japanese-invasion:406": {
+      "regionIds": [
+        "overseas"
+      ],
+      "endpointRegionIds": [
+        "overseas"
+      ]
+    },
+    "japanese-invasion:407": {
+      "regionIds": [
+        "county-guangdong-u5b9du5b89u53bf",
+        "guangdong",
+        "hongkong"
+      ],
+      "endpointRegionIds": [
+        "guangdong"
       ]
     },
     "kmt-forces:1": {

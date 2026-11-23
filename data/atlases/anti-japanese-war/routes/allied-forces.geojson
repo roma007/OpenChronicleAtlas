@@ -168,6 +168,106 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.62,
+            15
+          ],
+          [
+            142.5,
+            20
+          ],
+          [
+            139,
+            26
+          ],
+          [
+            135.5,
+            31
+          ],
+          [
+            133,
+            33.5
+          ],
+          [
+            132.45,
+            34.39
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "allied-forces",
+        "startDate": "1945-08-06",
+        "endDate": "1945-08-07",
+        "order": 5,
+        "segmentType": "other",
+        "name": {
+          "zh": "提尼安岛—广岛（原子弹空袭）",
+          "en": "Tinian–Hiroshima (atomic bombing mission)"
+        },
+        "description": {
+          "zh": "1945 年 8 月 6 日，美军 B-29「埃诺拉·盖伊」号自提尼安岛北机场起飞，飞往广岛投下原子弹。航线为示意，不表示实际飞行航路。",
+          "en": "On 6 August 1945 the US B-29 Enola Gay took off from North Field on Tinian and flew to Hiroshima to drop an atomic bomb. The line is schematic and does not show the actual flight path."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            145.62,
+            15
+          ],
+          [
+            142.5,
+            20
+          ],
+          [
+            139,
+            26
+          ],
+          [
+            134,
+            30.5
+          ],
+          [
+            131,
+            32
+          ],
+          [
+            129.87,
+            32.75
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "allied-forces",
+        "startDate": "1945-08-09",
+        "endDate": "1945-08-10",
+        "order": 6,
+        "segmentType": "other",
+        "name": {
+          "zh": "提尼安岛—长崎（原子弹空袭）",
+          "en": "Tinian–Nagasaki (atomic bombing mission)"
+        },
+        "description": {
+          "zh": "1945 年 8 月 9 日，美军 B-29「博克斯卡」号自提尼安岛北机场起飞，飞往长崎投下原子弹。航线为示意，不表示实际飞行航路。",
+          "en": "On 9 August 1945 the US B-29 Bockscar took off from North Field on Tinian and flew to Nagasaki to drop an atomic bomb. The line is schematic and does not show the actual flight path."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
