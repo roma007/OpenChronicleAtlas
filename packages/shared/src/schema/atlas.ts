@@ -29,6 +29,7 @@ export const routeSegmentTypeSchema = z.enum([
   'naval',
   'detachment',
   'supply',
+  'canal',
   'other',
 ]);
 

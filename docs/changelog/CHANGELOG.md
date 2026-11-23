@@ -3,6 +3,29 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.265] - 2026-11-23
+
+### Changed
+- **京杭大运河航道几何细化（M283）**：19 段航道由「两点一线」改为按沿线城镇连接的多节点折线。
+  - 主航道「北京—杭州」由 8 个点扩到 **30 个点**，经通州、天津、沧州、德州、临清、聊城、济宁、
+    徐州、宿迁、淮安、扬州、镇江、常州、无锡、苏州、嘉兴、杭州。
+  - 通济渠、永济渠、江南河、汴河、会通河、通惠河、南运河等分段补到 3—17 个节点。
+  - 新增 `segmentType: "canal"`，图例显示「运河 / 航道」，不再使用军事性的 `advance`。
+  - 所有航段标注 `geometryBasis: "canal-towns"`，明确为沿线城镇连线，不是实测河道。
+  - 事件 / 路线 / 地区数量不变（26 / 19 / 无变化）。
+
+### Research
+- 航道走向参考《隋书·炀帝纪》、《中国运河志》、《京杭大运河志》、邹逸麟《中国历史地理概述》
+  及沿线地方志；精度为示意，不表示历史河道中心线。
+- 核对表见 `docs/research/units/grand-canal-route-geometry.md`。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:heads --atlas grand-canal`（0 个无来由端点）、
+  `pnpm check:routes --atlas grand-canal`（0 问题）、`pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build` 全部通过。
+
+---
+
 ## [v1.0.264] - 2026-11-23
 
 ### Fixed

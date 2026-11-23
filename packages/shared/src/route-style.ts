@@ -15,6 +15,7 @@ const STYLES: Record<RouteSegmentType, RouteStyle> = {
   naval: { weight: 4, opacity: 0.85, dash: 'dashed' },
   detachment: { weight: 3, opacity: 0.75, dash: 'dotted' },
   supply: { weight: 3, opacity: 0.75, dash: 'dotted' },
+  canal: { weight: 3, opacity: 0.8, dash: 'solid' },
   other: { weight: 3, opacity: 0.75, dash: 'solid' },
 };
 
@@ -27,6 +28,7 @@ const LABELS: Record<Locale, Record<RouteSegmentType, string>> = {
     naval: '航行',
     detachment: '分䑸',
     supply: '补给 / 运输',
+    canal: '运河 / 航道',
     other: '其他',
   },
   en: {
@@ -37,6 +39,7 @@ const LABELS: Record<Locale, Record<RouteSegmentType, string>> = {
     naval: 'Naval',
     detachment: 'Detachment',
     supply: 'Supply',
+    canal: 'Canal',
     other: 'Other',
   },
 };

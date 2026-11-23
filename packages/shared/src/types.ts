@@ -132,6 +132,8 @@ export type RouteSegmentType =
   /** 分䑸：与主队并行的分遣队航线 */
   | 'detachment'
   | 'supply'
+  /** 运河、渠道等内河航道 */
+  | 'canal'
   | 'other';
 
 export interface AtlasRouteProperties {

@@ -7,20 +7,72 @@
         "type": "LineString",
         "coordinates": [
           [
-            112.45,
-            34.62
+            112.454,
+            34.619
           ],
           [
-            114.3,
-            34.8
+            112.789,
+            34.727
           ],
           [
-            116.0,
-            34.0
+            112.982,
+            34.748
           ],
           [
-            119.02,
-            33.6
+            113.383,
+            34.787
+          ],
+          [
+            113.625,
+            34.746
+          ],
+          [
+            114.307,
+            34.797
+          ],
+          [
+            114.783,
+            34.55
+          ],
+          [
+            115.071,
+            34.446
+          ],
+          [
+            115.656,
+            34.414
+          ],
+          [
+            116.131,
+            34.24
+          ],
+          [
+            116.449,
+            33.929
+          ],
+          [
+            116.964,
+            33.646
+          ],
+          [
+            117.552,
+            33.543
+          ],
+          [
+            117.911,
+            33.483
+          ],
+          [
+            118.216,
+            33.459
+          ],
+          [
+            118.544,
+            33.011
+          ],
+          [
+            119.015,
+            33.61
           ]
         ]
       },
@@ -29,17 +81,18 @@
         "startDate": "0605-01-01",
         "endDate": "0611-01-01",
         "order": 1,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "洛阳—淮安（通济渠）",
           "en": "Luoyang–Huai’an (Tongji Canal)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "沿隋通济渠自洛阳经偃师、巩义、郑州、开封、商丘、宿州、泗州至淮安，按沿线城镇连线，示意简化。",
+          "en": "The Sui Tongji Canal from Luoyang through Yanshi, Gongyi, Zhengzhou, Kaifeng, Shangqiu, Suzhou and Sizhou to Huai’an, drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -49,20 +102,52 @@
         "type": "LineString",
         "coordinates": [
           [
-            112.45,
-            34.62
+            112.454,
+            34.619
           ],
           [
-            114.3,
-            34.8
+            112.95,
+            35.089
           ],
           [
-            116.0,
-            37.0
+            113.401,
+            35.099
           ],
           [
-            116.4,
-            39.9
+            113.883,
+            35.303
+          ],
+          [
+            114.393,
+            36.098
+          ],
+          [
+            114.539,
+            36.625
+          ],
+          [
+            114.504,
+            37.071
+          ],
+          [
+            115.67,
+            37.739
+          ],
+          [
+            116.839,
+            38.304
+          ],
+          [
+            117.201,
+            39.084
+          ],
+          [
+            116.656,
+            39.909
+          ],
+          [
+            116.407,
+            39.904
           ]
         ]
       },
@@ -71,17 +156,18 @@
         "startDate": "0608-01-01",
         "endDate": "0611-01-01",
         "order": 2,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "洛阳—涿郡（永济渠）",
           "en": "Luoyang–Zhuojun (Yongji Canal)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "沿隋永济渠自洛阳经沁阳、新乡、安阳、邯郸、邢台、衡水、沧州、天津至涿郡（北京），按沿线城镇连线，示意简化。",
+          "en": "The Sui Yongji Canal from Luoyang through Qinyang, Xinxiang, Anyang, Handan, Xingtai, Hengshui, Cangzhou and Tianjin to Zhuo Commandery (Beijing), drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -91,12 +177,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            119.45,
-            32.2
+            119.425,
+            32.188
           ],
           [
-            120.15,
-            30.27
+            119.575,
+            32
+          ],
+          [
+            119.974,
+            31.811
+          ],
+          [
+            120.312,
+            31.491
+          ],
+          [
+            120.585,
+            31.299
+          ],
+          [
+            120.755,
+            30.746
+          ],
+          [
+            120.155,
+            30.274
           ]
         ]
       },
@@ -105,17 +211,18 @@
         "startDate": "0610-01-01",
         "endDate": "0611-01-01",
         "order": 3,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "京口—余杭（江南河）",
           "en": "Jingkou–Yuhang (Jiangnan Canal)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "沿江南河自京口（镇江）经丹阳、常州、无锡、苏州、嘉兴至余杭（杭州），按沿线城镇连线，示意简化。",
+          "en": "The Jiangnan Canal from Jingkou (Zhenjiang) through Danyang, Changzhou, Wuxi, Suzhou and Jiaxing to Yuhang (Hangzhou), drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -125,12 +232,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            112.45,
-            34.62
+            112.454,
+            34.619
           ],
           [
-            114.3,
-            34.8
+            112.789,
+            34.727
+          ],
+          [
+            112.982,
+            34.748
+          ],
+          [
+            113.383,
+            34.787
+          ],
+          [
+            113.625,
+            34.746
+          ],
+          [
+            114.307,
+            34.797
           ]
         ]
       },
@@ -139,17 +262,18 @@
         "startDate": "0611-01-01",
         "endDate": "0960-01-01",
         "order": 4,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "洛阳—开封（汴河）",
           "en": "Luoyang–Kaifeng (Bian River)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "汴河洛阳至开封段，经偃师、巩义、郑州，按沿线城镇连线，示意简化。",
+          "en": "The Bian River from Luoyang to Kaifeng through Yanshi, Gongyi and Zhengzhou, drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -159,16 +283,52 @@
         "type": "LineString",
         "coordinates": [
           [
-            114.3,
-            34.8
+            114.307,
+            34.797
           ],
           [
-            116.0,
-            34.0
+            114.783,
+            34.55
           ],
           [
-            119.02,
-            33.6
+            115.071,
+            34.446
+          ],
+          [
+            115.656,
+            34.414
+          ],
+          [
+            116.131,
+            34.24
+          ],
+          [
+            116.449,
+            33.929
+          ],
+          [
+            116.964,
+            33.646
+          ],
+          [
+            117.552,
+            33.543
+          ],
+          [
+            117.911,
+            33.483
+          ],
+          [
+            118.216,
+            33.459
+          ],
+          [
+            118.544,
+            33.011
+          ],
+          [
+            119.015,
+            33.61
           ]
         ]
       },
@@ -177,17 +337,18 @@
         "startDate": "0960-01-01",
         "endDate": "1289-01-01",
         "order": 5,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "开封—淮安（汴河）",
           "en": "Kaifeng–Huai’an (Bian River)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "汴河开封至淮安段，经商丘、宿州、泗州，按沿线城镇连线，示意简化。",
+          "en": "The Bian River from Kaifeng to Huai’an through Shangqiu, Suzhou and Sizhou, drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -197,12 +358,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            120.15,
-            30.27
+            120.155,
+            30.274
           ],
           [
-            119.45,
-            32.2
+            120.755,
+            30.746
+          ],
+          [
+            120.585,
+            31.299
+          ],
+          [
+            120.312,
+            31.491
+          ],
+          [
+            119.974,
+            31.811
+          ],
+          [
+            119.575,
+            32
+          ],
+          [
+            119.425,
+            32.188
           ]
         ]
       },
@@ -211,17 +392,18 @@
         "startDate": "0960-01-01",
         "endDate": "1293-01-01",
         "order": 6,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "杭州—镇江（南宋）",
           "en": "Hangzhou–Zhenjiang (Southern Song)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "南宋江南运河自杭州经嘉兴、苏州、无锡、常州、丹阳至镇江，按沿线城镇连线，示意简化。",
+          "en": "The Southern Song Jiangnan Canal from Hangzhou through Jiaxing, Suzhou, Wuxi, Changzhou and Danyang to Zhenjiang, drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -231,12 +413,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            116.59,
-            35.41
+            116.587,
+            35.415
           ],
           [
-            115.7,
-            36.84
+            116.096,
+            35.802
+          ],
+          [
+            116.47,
+            35.937
+          ],
+          [
+            115.985,
+            36.456
+          ],
+          [
+            115.705,
+            36.838
           ]
         ]
       },
@@ -245,17 +439,18 @@
         "startDate": "1289-01-01",
         "endDate": "1293-01-01",
         "order": 7,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "济宁—临清（会通河）",
           "en": "Jining–Linqing (Huitong Canal)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "会通河自济宁经梁山、东平、聊城至临清，按沿线城镇连线，示意简化。",
+          "en": "The Huitong River from Jining through Liangshan, Dongping and Liaocheng to Linqing, drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -265,12 +460,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            116.4,
-            39.9
+            116.407,
+            39.904
           ],
           [
-            116.66,
-            39.9
+            116.5,
+            39.908
+          ],
+          [
+            116.656,
+            39.909
           ]
         ]
       },
@@ -279,17 +478,18 @@
         "startDate": "1293-01-01",
         "endDate": "1293-06-01",
         "order": 8,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "北京—通州（通惠河）",
           "en": "Beijing–Tongzhou (Tonghui Canal)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "通惠河自北京经城区至通州，按沿线城镇连线，示意简化。",
+          "en": "The Tonghui River from Beijing through the city to Tongzhou, drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -299,12 +499,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            115.7,
-            36.84
+            115.705,
+            36.838
           ],
           [
-            116.59,
-            35.41
+            115.985,
+            36.456
+          ],
+          [
+            116.47,
+            35.937
+          ],
+          [
+            116.096,
+            35.802
+          ],
+          [
+            116.587,
+            35.415
           ]
         ]
       },
@@ -313,17 +525,18 @@
         "startDate": "1293-06-01",
         "endDate": "1901-01-01",
         "order": 9,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "临清—济宁",
           "en": "Linqing–Jining"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "临清至济宁，沿会通河南段，经聊城、东平、梁山，示意简化。",
+          "en": "Linqing to Jining along the southern Huitong River through Liaocheng, Dongping and Liangshan, simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -333,12 +546,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            116.4,
-            39.9
+            116.407,
+            39.904
           ],
           [
-            117.2,
-            39.13
+            116.656,
+            39.909
+          ],
+          [
+            116.9,
+            39.7
+          ],
+          [
+            117.044,
+            39.384
+          ],
+          [
+            117.201,
+            39.084
           ]
         ]
       },
@@ -347,17 +572,18 @@
         "startDate": "1293-06-01",
         "endDate": "1901-01-01",
         "order": 10,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "北京—天津",
           "en": "Beijing–Tianjin"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "北运河自北京经通州、武清至天津，按沿线城镇连线，示意简化。",
+          "en": "The North Canal from Beijing through Tongzhou and Wuqing to Tianjin, drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -367,36 +593,124 @@
         "type": "LineString",
         "coordinates": [
           [
-            116.4,
-            39.9
+            116.407,
+            39.904
           ],
           [
-            116.66,
-            39.9
+            116.656,
+            39.909
           ],
           [
-            116.59,
-            35.41
+            117.044,
+            39.384
           ],
           [
-            115.7,
-            36.84
+            117.201,
+            39.084
           ],
           [
-            117.2,
-            34.3
+            116.974,
+            38.947
           ],
           [
-            119.02,
-            33.6
+            116.839,
+            38.304
           ],
           [
-            119.45,
-            32.2
+            116.391,
+            37.627
           ],
           [
-            120.15,
-            30.27
+            116.359,
+            37.436
+          ],
+          [
+            115.966,
+            37.347
+          ],
+          [
+            115.705,
+            36.838
+          ],
+          [
+            115.985,
+            36.456
+          ],
+          [
+            116.47,
+            35.937
+          ],
+          [
+            116.096,
+            35.802
+          ],
+          [
+            116.587,
+            35.415
+          ],
+          [
+            116.65,
+            35
+          ],
+          [
+            116.937,
+            34.721
+          ],
+          [
+            117.184,
+            34.261
+          ],
+          [
+            118.275,
+            33.963
+          ],
+          [
+            119.015,
+            33.61
+          ],
+          [
+            119.36,
+            33.241
+          ],
+          [
+            119.459,
+            32.781
+          ],
+          [
+            119.412,
+            32.394
+          ],
+          [
+            119.5,
+            32.3
+          ],
+          [
+            119.425,
+            32.188
+          ],
+          [
+            119.575,
+            32
+          ],
+          [
+            119.974,
+            31.811
+          ],
+          [
+            120.312,
+            31.491
+          ],
+          [
+            120.585,
+            31.299
+          ],
+          [
+            120.755,
+            30.746
+          ],
+          [
+            120.155,
+            30.274
           ]
         ]
       },
@@ -405,17 +719,18 @@
         "startDate": "1293-06-01",
         "endDate": "1901-01-01",
         "order": 11,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "北京—杭州（京杭大运河）",
           "en": "Beijing–Hangzhou (Grand Canal)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "京杭大运河主航道：北京—通州—天津—沧州—德州—临清—聊城—济宁—徐州—宿迁—淮安—扬州—镇江—常州—无锡—苏州—嘉兴—杭州，按沿线城镇连线，示意简化。",
+          "en": "The main Beijing–Hangzhou Grand Canal: Beijing–Tongzhou–Tianjin–Cangzhou–Dezhou–Linqing–Liaocheng–Jining–Xuzhou–Suqian–Huai’an–Yangzhou–Zhenjiang–Changzhou–Wuxi–Suzhou–Jiaxing–Hangzhou, drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -425,12 +740,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            117.2,
-            39.13
+            117.201,
+            39.084
           ],
           [
-            116.36,
-            37.45
+            116.974,
+            38.947
+          ],
+          [
+            116.839,
+            38.304
+          ],
+          [
+            116.391,
+            37.627
+          ],
+          [
+            116.359,
+            37.436
           ]
         ]
       },
@@ -439,17 +766,18 @@
         "startDate": "1293-06-01",
         "endDate": "1901-01-01",
         "order": 12,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "天津—德州",
           "en": "Tianjin–Dezhou"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "南运河自天津经静海、沧州、吴桥至德州，按沿线城镇连线，示意简化。",
+          "en": "The South Canal from Tianjin through Jinghai, Cangzhou and Wuqiao to Dezhou, drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -459,12 +787,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            116.36,
-            37.45
+            116.359,
+            37.436
           ],
           [
-            115.7,
-            36.84
+            115.966,
+            37.347
+          ],
+          [
+            115.705,
+            36.838
           ]
         ]
       },
@@ -473,17 +805,18 @@
         "startDate": "1293-06-01",
         "endDate": "1901-01-01",
         "order": 13,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "德州—临清",
           "en": "Dezhou–Linqing"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "德州经故城至临清，按沿线城镇连线，示意简化。",
+          "en": "Dezhou through Gucheng to Linqing, drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -493,12 +826,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            119.42,
-            32.39
+            119.412,
+            32.394
           ],
           [
-            119.45,
-            32.2
+            119.5,
+            32.3
+          ],
+          [
+            119.425,
+            32.188
           ]
         ]
       },
@@ -507,17 +844,18 @@
         "startDate": "1293-06-01",
         "endDate": "1901-01-01",
         "order": 14,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "扬州—镇江",
           "en": "Yangzhou–Zhenjiang"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "扬州经瓜洲至镇江，按沿线城镇连线，示意简化。",
+          "en": "Yangzhou through Guazhou to Zhenjiang, drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -527,12 +865,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            116.59,
-            35.41
+            116.587,
+            35.415
           ],
           [
-            119.02,
-            33.6
+            116.65,
+            35
+          ],
+          [
+            116.937,
+            34.721
+          ],
+          [
+            117.184,
+            34.261
+          ],
+          [
+            118.275,
+            33.963
+          ],
+          [
+            119.015,
+            33.61
           ]
         ]
       },
@@ -541,17 +895,18 @@
         "startDate": "1293-06-01",
         "endDate": "1901-01-01",
         "order": 15,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "济宁—淮安",
           "en": "Jining–Huai’an"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "济宁经鱼台、沛县、徐州、宿迁至淮安，按沿线城镇连线，示意简化。",
+          "en": "Jining through Yutai, Peixian, Xuzhou and Suqian to Huai’an, drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -561,12 +916,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            119.02,
-            33.6
+            119.015,
+            33.61
           ],
           [
-            119.42,
-            32.39
+            119.36,
+            33.241
+          ],
+          [
+            119.459,
+            32.781
+          ],
+          [
+            119.412,
+            32.394
           ]
         ]
       },
@@ -575,17 +938,18 @@
         "startDate": "1293-06-01",
         "endDate": "1901-01-01",
         "order": 16,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "淮安—扬州",
           "en": "Huai’an–Yangzhou"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "淮安经宝应、高邮至扬州，按沿线城镇连线，示意简化。",
+          "en": "Huai’an through Baoying and Gaoyou to Yangzhou, drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -595,12 +959,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            120.62,
-            31.3
+            120.585,
+            31.299
           ],
           [
-            120.15,
-            30.27
+            120.755,
+            30.746
+          ],
+          [
+            120.155,
+            30.274
           ]
         ]
       },
@@ -609,17 +977,18 @@
         "startDate": "1293-06-01",
         "endDate": "1901-01-01",
         "order": 17,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "苏州—杭州",
           "en": "Suzhou–Hangzhou"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "苏州经嘉兴至杭州，按沿线城镇连线，示意简化。",
+          "en": "Suzhou through Jiaxing to Hangzhou, drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -629,12 +998,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            119.45,
-            32.2
+            119.425,
+            32.188
           ],
           [
-            120.62,
-            31.3
+            119.575,
+            32
+          ],
+          [
+            119.974,
+            31.811
+          ],
+          [
+            120.312,
+            31.491
+          ],
+          [
+            120.585,
+            31.299
           ]
         ]
       },
@@ -643,17 +1024,18 @@
         "startDate": "1293-06-01",
         "endDate": "1901-01-01",
         "order": 18,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "镇江—苏州",
           "en": "Zhenjiang–Suzhou"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "镇江经丹阳、常州、无锡至苏州，按沿线城镇连线，示意简化。",
+          "en": "Zhenjiang through Danyang, Changzhou and Wuxi to Suzhou, drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     },
@@ -663,16 +1045,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            114.8,
-            34.8
+            114.818,
+            34.822
           ],
           [
-            116.0,
-            35.0
+            115.542,
+            34.826
           ],
           [
-            116.59,
-            35.41
+            115.48,
+            35.233
+          ],
+          [
+            116.096,
+            35.802
+          ],
+          [
+            116.587,
+            35.415
           ]
         ]
       },
@@ -681,17 +1071,18 @@
         "startDate": "1855-01-01",
         "endDate": "1901-12-31",
         "order": 19,
-        "segmentType": "advance",
+        "segmentType": "canal",
         "name": {
           "zh": "兰考—济宁（黄河改道影响）",
           "en": "Lankao–Jining (Yellow River shift)"
         },
         "description": {
-          "zh": "示意简化路线，待史料校订。",
-          "en": "Illustrative simplified route, pending historical review."
+          "zh": "1855 年黄河改道后，兰考经曹县、菏泽、梁山至济宁的运河受影响段，按沿线城镇连线，示意简化。",
+          "en": "The canal section affected by the 1855 Yellow River shift, from Lankao through Caoxian, Heze and Liangshan to Jining, drawn through the towns along the line and simplified."
         },
         "extensions": {
-          "precision": "schematic"
+          "precision": "schematic",
+          "geometryBasis": "canal-towns"
         }
       }
     }
