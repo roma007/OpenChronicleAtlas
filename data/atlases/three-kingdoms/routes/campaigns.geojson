@@ -2871,6 +2871,332 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.53,
+            33.0
+          ],
+          [
+            114.3,
+            32.6
+          ],
+          [
+            117.27,
+            32.58
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "yuan-shu",
+        "startDate": "0193-06-01",
+        "endDate": "0194-01-31",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "南阳—寿春（据淮南）",
+          "en": "Nanyang–Shouchun (taking Huainan)"
+        },
+        "description": {
+          "zh": "袁术自南阳东走淮南，据寿春。路线示意。",
+          "en": "Yuan Shu moved east from Nanyang into Huainan and took Shouchun. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.27,
+            32.58
+          ],
+          [
+            117.0,
+            32.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "yuan-shu",
+        "startDate": "0199-06-01",
+        "endDate": "0199-07-31",
+        "order": 2,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "寿春—江亭（败亡）",
+          "en": "Shouchun–Jiangting (flight and death)"
+        },
+        "description": {
+          "zh": "袁术自寿春退往江亭，途中粮尽而死。路线示意。",
+          "en": "Yuan Shu withdrew from Shouchun toward Jiangting and died on the way when supplies ran out. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.9,
+            34.7
+          ],
+          [
+            117.95,
+            34.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "lv-bu",
+        "startDate": "0196-06-01",
+        "endDate": "0196-07-31",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "小沛—下邳（夺徐州）",
+          "en": "Xiaopei–Xiapi (seizing Xuzhou)"
+        },
+        "description": {
+          "zh": "吕布自小沛袭取下邳，夺刘备徐州。路线示意。",
+          "en": "Lü Bu marched from Xiaopei and seized Xiapi, taking Xuzhou from Liu Bei. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.07,
+            30.67
+          ],
+          [
+            104.75,
+            31.47
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "liu-zhang",
+        "startDate": "0211-12-01",
+        "endDate": "0212-01-31",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "成都—涪城（迎刘备）",
+          "en": "Chengdu–Fucheng (welcoming Liu Bei)"
+        },
+        "description": {
+          "zh": "刘璋自成都赴涪城迎刘备入蜀。路线示意。",
+          "en": "Liu Zhang went from Chengdu to Fucheng to welcome Liu Bei into Shu. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.75,
+            31.47
+          ],
+          [
+            104.07,
+            30.67
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "liu-zhang",
+        "startDate": "0214-05-01",
+        "endDate": "0214-06-30",
+        "order": 2,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "涪城—成都（降刘备）",
+          "en": "Fucheng–Chengdu (surrender)"
+        },
+        "description": {
+          "zh": "刘备围成都，刘璋出降，益州归刘备。路线示意。",
+          "en": "Liu Bei besieged Chengdu, Liu Zhang surrendered and Yizhou passed to Liu Bei. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.3,
+            34.7
+          ],
+          [
+            107.0,
+            34.6
+          ],
+          [
+            110.25,
+            34.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "liangzhou-warlords",
+        "startDate": "0211-05-01",
+        "endDate": "0211-07-31",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "凉州—潼关（起兵）",
+          "en": "Liangzhou–Tongguan (rising against Cao Cao)"
+        },
+        "description": {
+          "zh": "马超、韩遂等关西诸将自凉州东进，屯兵潼关。路线示意。",
+          "en": "Ma Chao, Han Sui and the Guanzhong generals moved east from Liangzhou and massed at Tongguan. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.25,
+            34.55
+          ],
+          [
+            107.0,
+            34.6
+          ],
+          [
+            105.3,
+            34.7
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "liangzhou-warlords",
+        "startDate": "0211-09-01",
+        "endDate": "0211-10-31",
+        "order": 2,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "潼关—凉州（败走）",
+          "en": "Tongguan–Liangzhou (retreat)"
+        },
+        "description": {
+          "zh": "渭南之战后，马超、韩遂退走凉州。路线示意。",
+          "en": "After the battle south of the Wei, Ma Chao and Han Sui withdrew to Liangzhou. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.4,
+            36.3
+          ],
+          [
+            114.55,
+            35.67
+          ],
+          [
+            114.52,
+            35.58
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "yuan-shao",
+        "startDate": "0200-02-01",
+        "endDate": "0200-04-30",
+        "order": 4,
+        "segmentType": "advance",
+        "name": {
+          "zh": "邺—黎阳—白马（白马延津）",
+          "en": "Ye–Liyang–Baima (Baima and Yanjin)"
+        },
+        "description": {
+          "zh": "袁绍自邺南下，经黎阳遣颜良围白马。路线示意。",
+          "en": "Yuan Shao marched south from Ye through Liyang and sent Yan Liang against Baima. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.95,
+            34.72
+          ],
+          [
+            114.55,
+            35.67
+          ],
+          [
+            115.8,
+            36.11
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "yuan-shao",
+        "startDate": "0201-04-01",
+        "endDate": "0201-05-31",
+        "order": 5,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "官渡—仓亭（仓亭之战）",
+          "en": "Guandu–Cangting (Battle of Cangting)"
+        },
+        "description": {
+          "zh": "袁绍自官渡北退，于仓亭再为曹操所破。路线示意。",
+          "en": "Yuan Shao withdrew north from Guandu and was defeated again at Cangting. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }

@@ -122,8 +122,31 @@
 - 界桥、易京、官渡按双方分事件，不把袁绍、公孙瓒的行动挂到曹魏/蜀汉/东吴。
 - 详细史料核对见 `docs/research/units/three-kingdoms-m297-source-audit.md`。
 
+## M298 新增 4 个群雄实体与 9 段路线（2026-11-23）
+
+| # | 路线 | 起点依据 | 终点依据 | 处理 |
+| --- | --- | --- | --- | --- |
+| M298-1 | 南阳—寿春 | 首段起点免检 | `yuanshu-shouchun-194` 事件点 | 首段起点豁免 |
+| M298-2 | 寿春—江亭 | 上一段终点 | `yuanshu-death-199` 事件点 | 两段共用寿春锚点 |
+| M298-3 | 小沛—下邳 | 首段起点免检 | `lvbu-xuzhou-196` 事件点 | 首段起点豁免 |
+| M298-4 | 成都—涪城 | 首段起点免检 | `liuzhang-yingliubei-211` 事件点 | 首段起点豁免 |
+| M298-5 | 涪城—成都 | 上一段终点 | `liuzhang-jiang-214` 事件点 | 两段共用涪城锚点 |
+| M298-6 | 凉州—潼关 | 首段起点免检 | `tongguan-liangzhou-211` 事件点 | 首段起点豁免 |
+| M298-7 | 潼关—凉州 | 上一段终点 | `machao-liangzhou-211` 事件点 | 两段共用潼关锚点 |
+| M298-8 | 邺—黎阳—白马 | 邺（接既有袁绍路线） | `baima-yuan-200` 事件点 | 终点落在本实体事件上 |
+| M298-9 | 官渡—仓亭 | `guandu-yuan-200` 事件点 | `cangting-yuan-201` 事件点 | 两端均为本实体事件 |
+
+**本批结论**：
+
+- 新增 4 个实体：`yuan-shu`、`lv-bu`、`liu-zhang`、`liangzhou-warlords`。
+- `check:heads --atlas three-kingdoms` 从 76 段增至 85 段，仍为 0 个无来由端点。
+- 白马延津、下邳之战与既有 cao-wei 事件分边记录，不串主体。
+- 详细史料核对见 `docs/research/units/three-kingdoms-m298-source-audit.md`。
+
 ## 实施记录
 
+- 2026-11-23 / M298：新增 4 个群雄实体、13 个事件、9 段路线；
+  `validate:data` 106 事件 / 85 路线段 / 12 实体，`check:routes` 0，`check:heads` 0。
 - 2026-11-23 / M297：新增 4 个群雄实体、12 个事件、10 段路线；
   `validate:data` 93 事件 / 76 路线段，`check:routes` 0，`check:heads` 0。
 - 2026-11-23 / M295：新增 15 个事件、9 段路线、25 条内河航段例外；

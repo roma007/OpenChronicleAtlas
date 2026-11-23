@@ -5088,5 +5088,714 @@
       "gongsun-du-190"
     ],
     "importance": 2
+  },
+  {
+    "id": "yuanshu-shouchun-194",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "袁术据寿春",
+      "en": "Yuan Shu holds Shouchun"
+    },
+    "date": "0194-01-01",
+    "location": {
+      "lng": 117.27,
+      "lat": 32.58,
+      "place": {
+        "zh": "扬州九江郡寿春（今安徽寿县）",
+        "en": "Shouchun, Jiujiang (modern Shou county, Anhui)"
+      }
+    },
+    "entityIds": [
+      "yuan-shu"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "袁术被曹操、袁绍击败后东走淮南，据寿春，称雄江淮。",
+      "en": "After defeats by Cao Cao and Yuan Shao, Yuan Shu fled east to Huainan, held Shouchun and dominated the lower Huai region."
+    },
+    "description": {
+      "zh": "初平四年（193）至兴平元年（194），袁术在封丘等地为曹操、袁绍所败，率众东走淮南，据九江郡寿春，自称徐州伯，署置官吏，控制江淮。袁术据寿春后，与孙策、刘备等势力交错，成为淮南最大的割据力量，为其 197 年称帝奠定基础。寿春在今安徽寿县，坐标为示意。",
+      "en": "From 193 to 194 Yuan Shu, defeated by Cao Cao and Yuan Shao at Fengqiu and elsewhere, led his followers east into Huainan and took Shouchun in Jiujiang. He styled himself Earl of Xuzhou, appointed officials and controlled the lower Huai. At Shouchun he stood between Sun Ce and Liu Bei and became the strongest power in Huainan, preparing the ground for his proclamation as emperor in 197. Shouchun is modern Shou county, Anhui; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·袁术传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "袁术为曹操袁绍所败，东走寿春"
+      },
+      {
+        "title": "《后汉书·袁术传》",
+        "author": "范晔",
+        "year": 445,
+        "note": "袁术据淮南、自称徐州伯"
+      },
+      {
+        "title": "《资治通鉴》卷六十一",
+        "author": "司马光",
+        "year": 1084,
+        "note": "初平四年至兴平元年袁术据寿春"
+      }
+    ],
+    "relatedIds": [
+      "yuanshu-chengdi-197",
+      "yuanshu-death-199"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yuanshu-chengdi-197",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "袁术称帝",
+      "en": "Yuan Shu proclaims himself emperor"
+    },
+    "date": "0197-02-01",
+    "location": {
+      "lng": 117.27,
+      "lat": 32.58,
+      "place": {
+        "zh": "扬州九江郡寿春（今安徽寿县）",
+        "en": "Shouchun, Jiujiang (modern Shou county, Anhui)"
+      }
+    },
+    "entityIds": [
+      "yuan-shu"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "袁术在寿春称帝，建号仲氏，置百官，为各方所讨。",
+      "en": "Yuan Shu proclaimed himself emperor at Shouchun as the Zhong dynasty, appointed a court and was attacked by the other powers."
+    },
+    "description": {
+      "zh": "建安二年（197）春，袁术用张炯符命，在寿春称帝，建号“仲氏”，置公卿百官，祠南北郊。此前袁术已据淮南，得孙坚部众与传国玉玺，自以应谶。称帝后孙策、吕布、曹操等相继反对，袁术陷入孤立，两年间屡败，199 年病死于江亭。称帝为政治事件，无行军，故不设路线。",
+      "en": "In the spring of 197 Yuan Shu, using Zhang Jiong’s prophecy, proclaimed himself emperor at Shouchun as the “Zhong” dynasty, appointed a full court and sacrificed to Heaven and Earth. He already held Huainan and the imperial seal from Sun Jian’s followers and believed the omens pointed to him. Sun Ce, Lü Bu and Cao Cao all opposed him; isolated and repeatedly defeated, he died at Jiangting in 199. The proclamation was political with no march, so no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·袁术传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "建安二年在寿春称帝，建号仲氏"
+      },
+      {
+        "title": "《后汉书·袁术传》",
+        "author": "范晔",
+        "year": 445,
+        "note": "袁术称帝、置百官、祠南北郊"
+      },
+      {
+        "title": "《资治通鉴》卷六十二",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安二年袁术称帝"
+      }
+    ],
+    "relatedIds": [
+      "yuanshu-shouchun-194",
+      "yuanshu-death-199"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "yuanshu-death-199",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "袁术败亡",
+      "en": "The fall of Yuan Shu"
+    },
+    "date": "0199-06-01",
+    "location": {
+      "lng": 117.0,
+      "lat": 32.3,
+      "place": {
+        "zh": "扬州九江郡江亭（今安徽寿县南）",
+        "en": "Jiangting, Jiujiang (south of modern Shou county, Anhui)"
+      }
+    },
+    "entityIds": [
+      "yuan-shu"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "袁术众叛亲离，欲北投袁绍，途中被截，退至江亭，呕血而死。",
+      "en": "Abandoned by his followers, Yuan Shu tried to flee north to Yuan Shao, was blocked, retreated to Jiangting and died vomiting blood."
+    },
+    "description": {
+      "zh": "建安四年（199）六月，袁术在曹操、刘备等打击下众叛亲离，欲北投袁绍长子袁谭，途中被刘备、朱灵截断去路，退回寿春，行至江亭，粮尽暑热，呕血而死。仲氏政权灭亡，淮南归曹操。江亭在今安徽寿县南，坐标为示意。",
+      "en": "In the sixth month of 199 Yuan Shu, abandoned by his followers after defeats by Cao Cao and Liu Bei, tried to go north to Yuan Tan, Yuan Shao’s eldest son. Liu Bei and Zhu Ling blocked the road; he turned back toward Shouchun and reached Jiangting, where with no food in the summer heat he vomited blood and died. The Zhong regime ended and Huainan passed to Cao Cao. Jiangting lies south of modern Shou county, Anhui; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·袁术传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "袁术欲北投袁谭，被截，病死江亭"
+      },
+      {
+        "title": "《资治通鉴》卷六十三",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安四年袁术败亡"
+      }
+    ],
+    "relatedIds": [
+      "yuanshu-chengdi-197",
+      "yuanshu-shouchun-194"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lvbu-xuzhou-196",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "吕布夺徐州",
+      "en": "Lü Bu seizes Xuzhou"
+    },
+    "date": "0196-06-01",
+    "location": {
+      "lng": 117.95,
+      "lat": 34.3,
+      "place": {
+        "zh": "徐州下邳国下邳（今江苏睢宁）",
+        "en": "Xiapi, Xiapi kingdom (modern Suining, Jiangsu)"
+      }
+    },
+    "entityIds": [
+      "lv-bu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "吕布乘刘备出征袁术之机，袭取下邳，自称徐州牧。",
+      "en": "While Liu Bei was campaigning against Yuan Shu, Lü Bu seized Xiapi and styled himself governor of Xuzhou."
+    },
+    "description": {
+      "zh": "建安元年（196）六月，刘备率军与袁术相持于淮阴、盱眙，吕布应袁术之约，自小沛袭取下邳，俘虏刘备妻子。刘备回军，吕布反客为主，自称徐州牧，使刘备屯小沛。此事件使刘备失去徐州，也为 198 年曹操围下邳、擒吕布埋下伏笔。下邳在今江苏睢宁，坐标为示意。",
+      "en": "In the sixth month of 196, while Liu Bei faced Yuan Shu around Huaiyin and Xuyi, Lü Bu at Yuan Shu’s urging marched from Xiaopei and seized Xiapi, capturing Liu Bei’s family. Liu Bei returned, but Lü Bu took over as governor of Xuzhou and stationed Liu Bei at Xiaopei. Liu Bei thus lost Xuzhou, and the stage was set for Cao Cao’s siege of Xiapi and capture of Lü Bu in 198. Xiapi is modern Suining, Jiangsu; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·吕布传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "吕布袭下邳，自称徐州牧"
+      },
+      {
+        "title": "《三国志·蜀书·先主传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "刘备与袁术相持，吕布袭下邳"
+      },
+      {
+        "title": "《资治通鉴》卷六十二",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安元年吕布夺徐州"
+      }
+    ],
+    "relatedIds": [
+      "lvbu-death-198",
+      "xiapi-198"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lvbu-death-198",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "吕布败亡",
+      "en": "The fall of Lü Bu"
+    },
+    "date": "0198-12-01",
+    "location": {
+      "lng": 117.95,
+      "lat": 34.3,
+      "place": {
+        "zh": "徐州下邳国下邳（今江苏睢宁）",
+        "en": "Xiapi, Xiapi kingdom (modern Suining, Jiangsu)"
+      }
+    },
+    "entityIds": [
+      "lv-bu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "曹操围下邳，吕布部将叛降，吕布被擒杀。",
+      "en": "Cao Cao besieged Xiapi; Lü Bu’s commanders defected, and Lü Bu was captured and killed."
+    },
+    "description": {
+      "zh": "建安三年（198）十二月，曹操采纳荀攸、郭嘉之计，决泗水、沂水灌下邳。吕布部将侯成、宋宪、魏续叛降，吕布退守白门楼，被擒；曹操将其缢杀。吕布据徐州至此结束。下邳在今江苏睢宁，坐标为示意。",
+      "en": "In the twelfth month of 198 Cao Cao, on Xun You and Guo Jia’s advice, breached the Si and Yi rivers to flood Xiapi. Lü Bu’s commanders Hou Cheng, Song Xian and Wei Xu defected; Lü Bu was taken at the White Gate tower and strangled on Cao Cao’s order. His hold on Xuzhou ended. Xiapi is modern Suining, Jiangsu; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·吕布传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "曹操围下邳、决水灌城、吕布被擒杀"
+      },
+      {
+        "title": "《三国志·魏书·武帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "建安三年东征吕布"
+      },
+      {
+        "title": "《资治通鉴》卷六十三",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安三年下邳之围"
+      }
+    ],
+    "relatedIds": [
+      "lvbu-xuzhou-196",
+      "xiapi-198"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "liuzhang-yizhou-194",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "刘璋领益州",
+      "en": "Liu Zhang takes Yizhou"
+    },
+    "date": "0194-01-01",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "益州蜀郡成都（今四川成都）",
+        "en": "Chengdu, Shu (modern Chengdu, Sichuan)"
+      }
+    },
+    "entityIds": [
+      "liu-zhang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "刘焉卒，刘璋继为益州牧，继续割据益州。",
+      "en": "After Liu Yan’s death, Liu Zhang succeeded as governor of Yizhou and continued the family’s hold on the province."
+    },
+    "description": {
+      "zh": "兴平元年（194），益州牧刘焉病卒，益州官吏赵韪等推举其子刘璋继任，朝廷诏为益州牧。刘璋温仁软弱，先平赵韪之乱，后与张鲁相攻。刘璋统治益州二十年，至 214 年为刘备所取代。继任无行军，故不设路线。",
+      "en": "In 194 the governor of Yizhou, Liu Yan, died. The provincial officials under Zhao Wei put forward his son Liu Zhang, and the court confirmed him as governor. Liu Zhang was mild and weak; he first suppressed Zhao Wei’s revolt and then fought Zhang Lu. He ruled Yizhou for twenty years until Liu Bei replaced him in 214. There was no march, so no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·蜀书·刘二牧传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "刘焉卒，刘璋继为益州牧"
+      },
+      {
+        "title": "《资治通鉴》卷六十一",
+        "author": "司马光",
+        "year": 1084,
+        "note": "兴平元年刘璋领益州"
+      }
+    ],
+    "relatedIds": [
+      "liuzhang-yingliubei-211",
+      "liuzhang-jiang-214"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "liuzhang-yingliubei-211",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "刘璋迎刘备",
+      "en": "Liu Zhang welcomes Liu Bei"
+    },
+    "date": "0211-12-01",
+    "location": {
+      "lng": 104.75,
+      "lat": 31.47,
+      "place": {
+        "zh": "益州梓潼郡涪城（今四川绵阳）",
+        "en": "Fucheng, Zitong (modern Mianyang, Sichuan)"
+      }
+    },
+    "entityIds": [
+      "liu-zhang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "刘璋遣法正迎刘备入蜀，亲迎于涪城，刘备遂留驻益州。",
+      "en": "Liu Zhang sent Fa Zheng to invite Liu Bei into Shu and welcomed him at Fucheng; Liu Bei then stayed in Yizhou."
+    },
+    "description": {
+      "zh": "建安十六年（211）十二月，刘璋听张松、法正之议，遣法正迎刘备入蜀，欲借刘备击张鲁。刘备自荆州入益州，刘璋亲迎于涪城，相会百余日，资给甚厚。刘备北至葭萌后按兵不动，收买人心，为 212 年反攻益州做准备。涪城在今四川绵阳，坐标为示意。",
+      "en": "In the twelfth month of 211 Liu Zhang, on Zhang Song and Fa Zheng’s advice, sent Fa Zheng to invite Liu Bei into Shu to help against Zhang Lu. Liu Bei came from Jingzhou; Liu Zhang welcomed him at Fucheng, feasted him for over a hundred days and supplied him generously. Liu Bei went north to Jiameng but then halted, winning local support and preparing to turn on Liu Zhang in 212. Fucheng is modern Mianyang, Sichuan; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·蜀书·刘二牧传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "刘璋遣法正迎刘备，亲迎于涪城"
+      },
+      {
+        "title": "《三国志·蜀书·先主传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "刘备入蜀、刘璋涪城相迎"
+      },
+      {
+        "title": "《资治通鉴》卷六十六",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安十六年刘备入蜀"
+      }
+    ],
+    "relatedIds": [
+      "liuzhang-yizhou-194",
+      "ru-shu-211"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "liuzhang-jiang-214",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "刘璋降刘备",
+      "en": "Liu Zhang surrenders to Liu Bei"
+    },
+    "date": "0214-06-01",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "益州蜀郡成都（今四川成都）",
+        "en": "Chengdu, Shu (modern Chengdu, Sichuan)"
+      }
+    },
+    "entityIds": [
+      "liu-zhang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "刘备围成都，刘璋出降，益州归刘备。",
+      "en": "Liu Bei besieged Chengdu; Liu Zhang surrendered and Yizhou passed to Liu Bei."
+    },
+    "description": {
+      "zh": "建安十九年（214）夏，刘备围成都数十日，刘璋在简雍劝说下出降，刘备自领益州牧。刘备将刘璋迁往公安，益州自此成为蜀汉基业。成都为益州治所，坐标为示意。",
+      "en": "In the summer of 214 Liu Bei besieged Chengdu for several weeks. Persuaded by Jian Yong, Liu Zhang surrendered, and Liu Bei took the governorship of Yizhou. Liu Zhang was moved to Gong’an, and Yizhou became the base of Shu Han. Chengdu was the provincial seat; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·蜀书·刘二牧传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "刘备围成都，刘璋出降"
+      },
+      {
+        "title": "《三国志·蜀书·先主传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "刘备领益州牧、刘璋迁公安"
+      },
+      {
+        "title": "《资治通鉴》卷六十七",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安十九年刘璋降"
+      }
+    ],
+    "relatedIds": [
+      "liuzhang-yingliubei-211",
+      "chengdu-214"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "tongguan-liangzhou-211",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "马超韩遂起兵",
+      "en": "Ma Chao and Han Sui rise"
+    },
+    "date": "0211-05-01",
+    "location": {
+      "lng": 110.25,
+      "lat": 34.55,
+      "place": {
+        "zh": "司隶弘农郡潼关（今陕西潼关）",
+        "en": "Tongguan, Hongnong (modern Tongguan, Shaanxi)"
+      }
+    },
+    "entityIds": [
+      "liangzhou-warlords"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "马超、韩遂等关西诸将起兵反曹，屯兵潼关，为曹操所破。",
+      "en": "Ma Chao, Han Sui and other Guanzhong generals rose against Cao Cao, massed at Tongguan and were defeated."
+    },
+    "description": {
+      "zh": "建安十六年（211）三月，曹操遣钟繇讨张鲁，关西诸将疑为袭己，马超、韩遂、侯选、程银等举兵反，屯潼关。七月，曹操亲征，八月至潼关，九月渡渭，大破关西联军。马超、韩遂退走凉州。此役是曹操统一关中的关键，也为马超后来投刘备埋下伏笔。潼关在今陕西潼关，坐标为示意。",
+      "en": "In the third month of 211 Cao Cao sent Zhong Yao against Zhang Lu. The Guanzhong generals, suspecting a move against themselves, rose under Ma Chao, Han Sui, Hou Xuan and Cheng Yin and massed at Tongguan. Cao Cao came west in the seventh month, reached Tongguan in the eighth and crossed the Wei in the ninth, routing the allied armies. Ma Chao and Han Sui withdrew to Liangzhou. The campaign secured Guanzhong for Cao Cao and prepared Ma Chao’s later move to Liu Bei. Tongguan is modern Tongguan, Shaanxi; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·蜀书·马超传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "马超与韩遂等起兵、屯潼关"
+      },
+      {
+        "title": "《三国志·魏书·武帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "建安十六年西征关右"
+      },
+      {
+        "title": "《资治通鉴》卷六十六",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安十六年潼关之战"
+      }
+    ],
+    "relatedIds": [
+      "machao-liangzhou-211",
+      "tongguan-211"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "machao-liangzhou-211",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "马超败走凉州",
+      "en": "Ma Chao retreats to Liangzhou"
+    },
+    "date": "0211-09-01",
+    "location": {
+      "lng": 105.3,
+      "lat": 34.7,
+      "place": {
+        "zh": "凉州汉阳郡冀城（今甘肃甘谷）",
+        "en": "Jicheng, Hanyang (modern Gangu, Gansu)"
+      }
+    },
+    "entityIds": [
+      "liangzhou-warlords"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "渭南之战后，马超、韩遂退走凉州，关中归曹操。",
+      "en": "After the battle south of the Wei, Ma Chao and Han Sui withdrew to Liangzhou and Guanzhong passed to Cao Cao."
+    },
+    "description": {
+      "zh": "建安十六年（211）九月，曹操在渭南大破马超、韩遂联军，关中诸将或降或走。马超退走凉州，据冀城，后为夏侯渊所破，最终投奔张鲁、刘备。此役后曹操控制关中，为南下汉中、进攻益州奠定基础。凉州代表点取今甘肃甘谷一带，坐标为示意。",
+      "en": "In the ninth month of 211 Cao Cao routed the allied armies of Ma Chao and Han Sui south of the Wei; the Guanzhong generals surrendered or fled. Ma Chao withdrew to Liangzhou and held Jicheng, later being driven out by Xiahou Yuan and eventually joining Zhang Lu and then Liu Bei. Cao Cao’s control of Guanzhong opened the way south to Hanzhong and Yizhou. A representative point near modern Gangu, Gansu, is used; it is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·蜀书·马超传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "马超败走凉州、据冀城"
+      },
+      {
+        "title": "《三国志·魏书·武帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "渭南之战后关中平定"
+      },
+      {
+        "title": "《资治通鉴》卷六十六",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安十六年马超退凉州"
+      }
+    ],
+    "relatedIds": [
+      "tongguan-liangzhou-211",
+      "tongguan-211"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "baima-yuan-200",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "白马延津之战（袁绍）",
+      "en": "Baima and Yanjin (Yuan Shao)"
+    },
+    "date": "0200-04-01",
+    "location": {
+      "lng": 114.52,
+      "lat": 35.58,
+      "place": {
+        "zh": "兖州东郡白马（今河南滑县东）",
+        "en": "Baima, Dong commandery (east of modern Hua county, Henan)"
+      }
+    },
+    "entityIds": [
+      "yuan-shao"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "袁绍遣颜良围白马，关羽斩颜良；文丑追击，于延津被斩。",
+      "en": "Yuan Shao sent Yan Liang to besiege Baima; Guan Yu killed Yan Liang, and Wen Chou was killed pursuing at Yanjin."
+    },
+    "description": {
+      "zh": "建安五年（200）二月，袁绍遣颜良攻东郡太守刘延于白马。四月，曹操用荀攸声东击西之计，自延津佯渡，轻骑袭白马，关羽斩颜良。袁绍渡河追击，曹操于延津南设伏，弃辎重诱敌，斩文丑。此役是官渡之战的前哨，袁绍连失颜良、文丑两员大将。白马在今河南滑县东，坐标为示意。",
+      "en": "In the second month of 200 Yuan Shao sent Yan Liang against Liu Yan at Baima. In the fourth month Cao Cao feigned a crossing at Yanjin and sent light cavalry to Baima, where Guan Yu killed Yan Liang. Yuan Shao crossed in pursuit; Cao Cao ambushed him south of Yanjin, using abandoned baggage as bait, and killed Wen Chou. The battles were the prelude to Guandu and cost Yuan Shao two of his best commanders. Baima lies east of modern Hua county, Henan; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·袁绍传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "袁绍遣颜良攻白马、文丑追击被斩"
+      },
+      {
+        "title": "《三国志·魏书·武帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "荀攸声东击西、斩颜良文丑"
+      },
+      {
+        "title": "《资治通鉴》卷六十三",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安五年白马延津之战"
+      }
+    ],
+    "relatedIds": [
+      "guandu-yuan-200",
+      "baima-yanjin-200"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "cangting-yuan-201",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "仓亭之战（袁绍）",
+      "en": "Battle of Cangting (Yuan Shao)"
+    },
+    "date": "0201-04-01",
+    "location": {
+      "lng": 115.8,
+      "lat": 36.11,
+      "place": {
+        "zh": "兖州东郡仓亭（今山东阳谷一带）",
+        "en": "Cangting, Dong commandery (modern Yanggu area, Shandong)"
+      }
+    },
+    "entityIds": [
+      "yuan-shao"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "曹操在仓亭击破袁绍军，袁绍退归河北。",
+      "en": "Cao Cao defeated Yuan Shao’s army at Cangting, and Yuan Shao withdrew to Hebei."
+    },
+    "description": {
+      "zh": "建安六年（201）四月，曹操就谷于安民，扬兵河上，击破袁绍仓亭军。袁绍自官渡败后，河北势力动摇，仓亭再败使其无力南下；202 年袁绍病卒，诸子内讧，曹操得以逐步平定河北。仓亭在今山东阳谷一带，坐标为示意。",
+      "en": "In the fourth month of 201 Cao Cao moved his troops to Anmin for supplies, displayed his army on the river and defeated Yuan Shao’s force at Cangting. After Guandu Yuan’s hold on Hebei had weakened; the second defeat left him unable to move south. Yuan Shao died in 202 and his sons fell out, allowing Cao Cao to take Hebei step by step. Cangting lies in the modern Yanggu area, Shandong; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·袁绍传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "曹操击破袁绍仓亭军"
+      },
+      {
+        "title": "《三国志·魏书·武帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "建安六年扬兵河上、击仓亭"
+      },
+      {
+        "title": "《资治通鉴》卷六十四",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安六年仓亭之战"
+      }
+    ],
+    "relatedIds": [
+      "guandu-yuan-200",
+      "yuan-shao-death-202"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yuan-shao-death-202",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "袁绍去世",
+      "en": "Death of Yuan Shao"
+    },
+    "date": "0202-05-01",
+    "location": {
+      "lng": 114.4,
+      "lat": 36.3,
+      "place": {
+        "zh": "冀州魏郡邺（今河北临漳）",
+        "en": "Ye, Wei commandery (modern Linzhang, Hebei)"
+      }
+    },
+    "entityIds": [
+      "yuan-shao"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "建安七年五月，袁绍病卒于邺，诸子争立，河北渐为曹操所并。",
+      "en": "Yuan Shao died at Ye in the fifth month of 202; his sons contested the succession and Hebei gradually fell to Cao Cao."
+    },
+    "description": {
+      "zh": "建安七年（202）五月，袁绍病卒于邺。袁绍据河北四州，官渡败后势力未衰，但其死后长子袁谭、少子袁尚争立，河北分裂；曹操乘机各个击破，至 207 年平定河北。袁绍之死标志河北袁氏集团的转折。去世无行军，故不设路线。",
+      "en": "In the fifth month of 202 Yuan Shao died at Ye. He had held the four provinces of Hebei and remained strong after Guandu, but after his death his eldest son Yuan Tan and youngest son Yuan Shang fought over the succession and Hebei split. Cao Cao exploited the division, defeating them one by one and pacifying Hebei by 207. Yuan Shao’s death marked the turning point of the Yuan clan in Hebei. There was no march, so no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·袁绍传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "建安七年五月袁绍病卒，袁谭袁尚争立"
+      },
+      {
+        "title": "《资治通鉴》卷六十四",
+        "author": "司马光",
+        "year": 1084,
+        "note": "袁绍卒与河北分裂"
+      }
+    ],
+    "relatedIds": [
+      "cangting-yuan-201",
+      "guandu-yuan-200"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
   }
 ]

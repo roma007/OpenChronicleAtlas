@@ -3,6 +3,30 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.280] - 2026-11-23
+
+### Added
+- **三国专题群雄续补（M298）**：新增 4 个群雄实体、13 个事件、9 段路线。
+  - 实体：袁术（`yuan-shu`）、吕布（`lv-bu`）、刘璋（`liu-zhang`）、
+    凉州军阀（`liangzhou-warlords`，含马腾、韩遂、马超）。
+  - 事件：袁术据寿春、袁术称帝、袁术败亡、吕布夺徐州、吕布败亡、
+    刘璋领益州、刘璋迎刘备、刘璋降刘备、马超韩遂起兵、马超败走凉州、
+    白马延津之战（袁绍）、仓亭之战（袁绍）、袁绍去世。
+  - 路线：南阳—寿春、寿春—江亭、小沛—下邳、成都—涪城、涪城—成都、
+    凉州—潼关、潼关—凉州、邺—黎阳—白马、官渡—仓亭。
+  - 下邳之战、白马延津与既有曹魏事件分边记录；袁术称帝、吕布败亡、
+    刘璋领益州、袁绍去世无行军，标 `routeEvent = false`。
+
+### Verify
+- `pnpm validate:data`（three-kingdoms 106 事件 / 85 路线段 / 12 实体）、
+  `pnpm check:routes --atlas three-kingdoms`（0）、
+  `pnpm check:heads --atlas three-kingdoms`（0 个无来由端点）、
+  `pnpm check:land --atlas three-kingdoms`（0 处待处理）、
+  `pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.279] - 2026-11-23
 
 ### Added
