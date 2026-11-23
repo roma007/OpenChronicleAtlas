@@ -15,8 +15,8 @@
   },
   "cover": "assets/cover-9f2268d0.jpg",
   "description": {
-    "zh": "京杭大运河肇始于隋代通济渠、永济渠与江南河，元代开凿会通河、通惠河后形成北京至杭州的南北水运干线，明清两代长期承担漕运，至清末漕运停止后逐渐衰落。\n\n> 本数据为 M75 示例初稿：路线为示意简化，事件日期、地点与表述待史料校订。",
-    "en": "The Grand Canal began with the Sui dynasty’s Tongji, Yongji, and Jiangnan canals. After the Yuan dynasty opened the Huitong and Tonghui canals, it formed a north-south waterway from Beijing to Hangzhou. It carried grain taxes through the Ming and Qing dynasties and declined after the grain transport system ended in the late Qing.\n\n> M75 illustrative draft: routes are simplified; dates, places, and wording await historical review."
+    "zh": "京杭大运河肇始于隋代通济渠、永济渠与江南河，元代开凿会通河、通惠河后形成北京至杭州的南北水运干线，明清两代长期承担漕运，至清末漕运停止后逐渐衰落。\n\n本专题按时间与行动拆为七个主体：隋唐大运河、北宋汴河漕运、南宋江南运河、元代运河工程、元明清漕运、沿线城镇与市场、黄河改道与运河衰落。现存运河段采用 OpenStreetMap 航道中心线，隋唐已湮没段为示意折线；事件日期、地点与表述仍待史料校订。",
+    "en": "The Grand Canal began with the Sui dynasty’s Tongji, Yongji, and Jiangnan canals. After the Yuan dynasty opened the Huitong and Tonghui canals, it formed a north-south waterway from Beijing to Hangzhou. It carried grain taxes through the Ming and Qing dynasties and declined after the grain transport system ended in the late Qing.\n\nThis atlas is divided into seven actors by period and action: the Sui–Tang Grand Canal, Northern Song Bian River transport, the Southern Song Jiangnan canal, Yuan canal works, Yuan–Ming–Qing grain transport, canal towns and markets, and the Yellow River shift and canal decline. Extant sections use OpenStreetMap canal centrelines; lost Sui–Tang sections remain schematic. Dates, places and wording still await historical review."
   },
   "defaultView": {
     "center": [
@@ -33,16 +33,94 @@
   ],
   "entities": [
     {
-      "id": "grand-canal",
+      "id": "sui-tang-canal",
       "name": {
-        "zh": "京杭大运河",
-        "en": "The Grand Canal"
+        "zh": "隋唐大运河",
+        "en": "Sui–Tang Grand Canal"
       },
-      "color": "#2b6cb0",
+      "color": "#8C6D46",
       "order": 1,
       "description": {
-        "zh": "中国古代南北水运干线，连接北京与杭州。",
-        "en": "The ancient north-south waterway connecting Beijing and Hangzhou."
+        "zh": "隋唐朝廷开凿与维护的运河系统：隋炀帝开凿通济渠、永济渠、江南河，以洛阳为中心；唐代继续经营，形成「隋唐大运河」。本层收开凿、贯通与唐代漕运节点，路线含通济渠、永济渠、江南河与汴河。",
+        "en": "The canal system built and maintained by the Sui and Tang courts: Emperor Yang opened the Tongji, Yongji and Jiangnan canals around Luoyang, and the Tang continued to operate them. This layer covers the works, the through-route and Tang grain transport, with routes for the Tongji, Yongji, Jiangnan and Bian canals."
+      }
+    },
+    {
+      "id": "northern-song-bian",
+      "name": {
+        "zh": "北宋汴河漕运",
+        "en": "Northern Song Bian River Transport"
+      },
+      "color": "#C08A2E",
+      "order": 2,
+      "description": {
+        "zh": "北宋以开封为中心，汴河为漕运主干，连接黄河、淮河与江南运河。本层收北宋汴河漕运与开封沿线市镇节点。",
+        "en": "The Northern Song state centred on Kaifeng, with the Bian River as its main grain-transport artery linking the Yellow River, the Huai and the Jiangnan canal. This layer covers Northern Song Bian River transport and the market towns along it."
+      }
+    },
+    {
+      "id": "southern-song-jiangnan",
+      "name": {
+        "zh": "南宋江南运河",
+        "en": "Southern Song Jiangnan Canal"
+      },
+      "color": "#5B8CBF",
+      "order": 3,
+      "description": {
+        "zh": "南宋以临安（杭州）为中心，维持镇江—杭州的江南运河，作为都城与太湖流域的漕运通道。本层收南宋江南运河节点与路线。",
+        "en": "The Southern Song centred on Lin’an (Hangzhou) and maintained the Jiangnan canal from Zhenjiang to Hangzhou as the grain route to the capital and the Taihu region. This layer covers Southern Song Jiangnan canal nodes and routes."
+      }
+    },
+    {
+      "id": "yuan-canal-works",
+      "name": {
+        "zh": "元代运河工程",
+        "en": "Yuan Canal Works"
+      },
+      "color": "#2F6B5F",
+      "order": 4,
+      "description": {
+        "zh": "元世祖时期开凿会通河、通惠河，裁弯取直，形成北京—杭州的京杭大运河。本层只收 1289—1293 年的开凿与贯通工程，不收此后三朝的漕运运营。",
+        "en": "Under Kublai Khan the Yuan opened the Huitong and Tonghui canals, cutting the route straight and creating the Beijing–Hangzhou Grand Canal. This layer covers only the 1289–1293 works and through-route, not the later operation under the Yuan, Ming and Qing."
+      }
+    },
+    {
+      "id": "yuan-ming-qing-transport",
+      "name": {
+        "zh": "元明清漕运",
+        "en": "Yuan–Ming–Qing Grain Transport"
+      },
+      "color": "#1F4E79",
+      "order": 5,
+      "description": {
+        "zh": "元、明、清三朝经营京杭大运河的漕运制度与河工：济宁枢纽、天津海漕、明代漕运制度、淮安漕运总督、临清钞关、通州仓、镇江入江口、清代鼎盛与漕运停止。三朝共用同一条航道，因此合为一个运营层，不按朝代复制路线。",
+        "en": "The grain-transport system and river works by which the Yuan, Ming and Qing operated the Beijing–Hangzhou Grand Canal: the Jining hub, Tianjin sea transport, the Ming transport system, the Huai’an grain commissioner, the Linqing customs house, Tongzhou granary, the Zhenjiang river crossing, the Qing peak and the end of grain transport. The three dynasties shared the same channel, so they form one operational layer rather than duplicated routes."
+      }
+    },
+    {
+      "id": "canal-towns",
+      "name": {
+        "zh": "沿线城镇与市场",
+        "en": "Canal Towns and Markets"
+      },
+      "color": "#A0522D",
+      "order": 6,
+      "description": {
+        "zh": "运河沿线的城镇、仓场、钞关与商人：开封汴河市镇、德州仓、临清钞关、通州仓、苏州丝米市、扬州盐运。这些节点可与北宋、明、清主体重叠，行动主体是地方官府、商人与市场，不是朝廷。",
+        "en": "Towns, granaries, customs houses and merchants along the canal: the Kaifeng market town, Dezhou granary, Linqing customs house, Tongzhou granary, Suzhou silk and rice market and Yangzhou salt trade. These nodes may overlap with the Northern Song, Ming and Qing layers; the actors are local government, merchants and markets, not the court."
+      }
+    },
+    {
+      "id": "yellow-river-decline",
+      "name": {
+        "zh": "黄河改道与运河衰落",
+        "en": "Yellow River Shift and Canal Decline"
+      },
+      "color": "#7A6A58",
+      "order": 7,
+      "description": {
+        "zh": "1855 年黄河改道对运河的冲击、1901 年漕运停止与近代运河衰落。行动主体是黄河、近代交通与漕运废止，不是某一朝漕运衙门。",
+        "en": "The impact of the 1855 Yellow River shift on the canal, the ending of grain transport in 1901 and the modern decline of the canal. The actors are the river, modern transport and the abolition of the grain system, not a dynastic transport bureau."
       }
     }
   ],

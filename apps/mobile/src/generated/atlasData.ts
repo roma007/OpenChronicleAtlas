@@ -25,6 +25,7 @@ export const BUNDLED_TEXT: Record<string, BundledTextLoader> = {
   "anti-japanese-war/territories/roc-provinces.geojson": () => require("../../../../data/atlases/anti-japanese-war/territories/roc-provinces.geojson"),
   "grand-canal/events/events.json": () => require("../../../../data/atlases/grand-canal/events/events.json"),
   "grand-canal/manifest.json": () => require("../../../../data/atlases/grand-canal/manifest.json"),
+  "grand-canal/route-endpoints.allow.json": () => require("../../../../data/atlases/grand-canal/route-endpoints.allow.json"),
   "grand-canal/routes/canal.geojson": () => require("../../../../data/atlases/grand-canal/routes/canal.geojson"),
   "index.json": () => require("../../../../data/atlases/index.json"),
   "long-march/events/events.json": () => require("../../../../data/atlases/long-march/events/events.json"),

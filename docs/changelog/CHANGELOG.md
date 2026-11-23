@@ -3,6 +3,31 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.267] - 2026-11-23
+
+### Changed
+- **京杭大运河按七个主体拆分（M285）**：原来的单一 `grand-canal` 实体拆为：
+  - `sui-tang-canal` 隋唐大运河（605–907，6 事件 / 路线 1–4）
+  - `northern-song-bian` 北宋汴河漕运（960–1127，2 事件 / 路线 5）
+  - `southern-song-jiangnan` 南宋江南运河（1127–1279，1 事件 / 路线 6）
+  - `yuan-canal-works` 元代运河工程（1289–1293，3 事件 / 路线 7–8）
+  - `yuan-ming-qing-transport` 元明清漕运（1293–1901，12 事件 / 路线 9–18）
+  - `canal-towns` 沿线城镇与市场（960–1901，6 事件，无路线）
+  - `yellow-river-decline` 黄河改道与运河衰落（1855–1901，2 事件 / 路线 19）
+  - 事件 / 路线 / 地区数量不变（26 / 19 / 无变化）。
+  - 沿线城镇 6 条事件标 `routeEvent: false`；拆分后 4 个史实终点登记 `route-endpoints.allow.json`。
+
+### Research
+- 拆分依据、事件与路线归属见 `docs/conversations/2026-11-23-京杭大运河七主体拆分M285.md`。
+- 元明清共用同一条航道，合为一个运营层，不按朝代复制路线。
+
+### Verify
+- `pnpm validate:data`、`pnpm check:heads --atlas grand-canal`（0 个无来由端点）、
+  `pnpm check:routes --atlas grand-canal`（0 问题）、`pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build` 全部通过。
+
+---
+
 ## [v1.0.266] - 2026-11-23
 
 ### Changed

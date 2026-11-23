@@ -16,7 +16,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "sui-tang-canal"
     ],
     "category": "水利",
     "summary": {
@@ -70,7 +70,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "sui-tang-canal"
     ],
     "category": "水利",
     "summary": {
@@ -124,7 +124,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "sui-tang-canal"
     ],
     "category": "水利",
     "summary": {
@@ -178,7 +178,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "sui-tang-canal"
     ],
     "category": "水利",
     "summary": {
@@ -232,7 +232,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "sui-tang-canal"
     ],
     "category": "漕运",
     "summary": {
@@ -286,7 +286,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "sui-tang-canal"
     ],
     "category": "漕运",
     "summary": {
@@ -346,7 +346,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "northern-song-bian"
     ],
     "category": "漕运",
     "summary": {
@@ -400,7 +400,8 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "northern-song-bian",
+      "canal-towns"
     ],
     "category": "漕运",
     "summary": {
@@ -441,7 +442,10 @@
     "relatedIds": [
       "song-canal-960"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "hangzhou-canal-1200",
@@ -460,7 +464,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "southern-song-jiangnan"
     ],
     "category": "漕运",
     "summary": {
@@ -520,7 +524,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "yuan-canal-works"
     ],
     "category": "水利",
     "summary": {
@@ -574,7 +578,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "yuan-canal-works"
     ],
     "category": "水利",
     "summary": {
@@ -628,7 +632,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "yuan-canal-works"
     ],
     "category": "水利",
     "summary": {
@@ -682,7 +686,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "yuan-ming-qing-transport"
     ],
     "category": "水利",
     "summary": {
@@ -742,7 +746,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "yuan-ming-qing-transport"
     ],
     "category": "漕运",
     "summary": {
@@ -802,7 +806,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "yuan-ming-qing-transport"
     ],
     "category": "漕运",
     "summary": {
@@ -856,7 +860,8 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "yuan-ming-qing-transport",
+      "canal-towns"
     ],
     "category": "漕运",
     "summary": {
@@ -897,7 +902,10 @@
     "relatedIds": [
       "ming-canal-1415"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "huaian-canal-1450",
@@ -916,7 +924,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "yuan-ming-qing-transport"
     ],
     "category": "漕运",
     "summary": {
@@ -976,7 +984,8 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "yuan-ming-qing-transport",
+      "canal-towns"
     ],
     "category": "漕运",
     "summary": {
@@ -1017,7 +1026,10 @@
     "relatedIds": [
       "ming-canal-1415"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "tongzhou-canal-1450",
@@ -1036,7 +1048,8 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "yuan-ming-qing-transport",
+      "canal-towns"
     ],
     "category": "漕运",
     "summary": {
@@ -1077,7 +1090,10 @@
     "relatedIds": [
       "ming-canal-1415"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "zhenjiang-canal-1450",
@@ -1096,7 +1112,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "yuan-ming-qing-transport"
     ],
     "category": "水利",
     "summary": {
@@ -1156,7 +1172,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "yuan-ming-qing-transport"
     ],
     "category": "漕运",
     "summary": {
@@ -1210,7 +1226,8 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "yuan-ming-qing-transport",
+      "canal-towns"
     ],
     "category": "漕运",
     "summary": {
@@ -1251,7 +1268,10 @@
     "relatedIds": [
       "qing-canal-1750"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "yangzhou-canal-1750",
@@ -1270,7 +1290,8 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "yuan-ming-qing-transport",
+      "canal-towns"
     ],
     "category": "漕运",
     "summary": {
@@ -1311,7 +1332,10 @@
     "relatedIds": [
       "qing-canal-1750"
     ],
-    "importance": 2
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
   },
   {
     "id": "yellow-river-1855",
@@ -1330,7 +1354,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "yellow-river-decline"
     ],
     "category": "水利",
     "summary": {
@@ -1384,7 +1408,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "yuan-ming-qing-transport"
     ],
     "category": "漕运",
     "summary": {
@@ -1438,7 +1462,7 @@
       }
     },
     "entityIds": [
-      "grand-canal"
+      "yellow-river-decline"
     ],
     "category": "水利",
     "summary": {
