@@ -2825,5 +2825,802 @@
       "wuzhangyuan-234"
     ],
     "importance": 2
+  },
+  {
+    "id": "ruxukou-213",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "濡须口之战",
+      "en": "Battle of Ruxukou"
+    },
+    "date": "0213-01-01",
+    "location": {
+      "lng": 117.95,
+      "lat": 31.35,
+      "place": {
+        "zh": "扬州九江郡濡须口（今安徽无为东北）",
+        "en": "Ruxukou, Jiujiang (northeast of modern Wuwei, Anhui)"
+      }
+    },
+    "entityIds": [
+      "wu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "曹操率大军攻濡须口，孙权以舟师拒守，相持月余，曹操叹“生子当如孙仲谋”而退。",
+      "en": "Cao Cao attacked Ruxukou with a large army; Sun Quan held with his river fleet. After more than a month Cao withdrew, praising Sun as the kind of son one would want."
+    },
+    "description": {
+      "zh": "建安十八年（213）正月，曹操率步骑号四十万攻濡须口，攻破孙权江西营，俘都督公孙阳。孙权率七万拒之，以甘宁、吕蒙等分守要津，吴军舟船器仗整肃；相持月余，曹操见吴军严整，叹“生子当如孙仲谋”（见《吴主传》裴注引《吴历》），引军还。此役确立濡须坞为吴国长江北岸屏障，此后吴魏多次在此拉锯。濡须口地望在今安徽无为东北，坐标为示意。",
+      "en": "In the first month of 213 Cao Cao attacked Ruxukou with a force claimed at 400,000 horse and foot, broke Sun Quan’s camp on the west bank of the river and captured the commander Gongsun Yang. Sun Quan held with 70,000 men, posting Gan Ning, Lü Meng and others at the crossings; his ships and arms were in good order. After more than a month Cao saw the discipline of the Wu army, remarked that one would want a son like Sun Quan (recorded in the Wu li cited in the commentary to the Wu zhu), and withdrew. The battle established Ruxukou as Wu’s shield north of the Yangzi and the two states contested it repeatedly. The site is northeast of modern Wuwei, Anhui; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·吴书·吴主传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "建安十八年正月曹操攻濡须，权与相拒月余"
+      },
+      {
+        "title": "《三国志·魏书·武帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "进军濡须口，破权江西营，获公孙阳"
+      },
+      {
+        "title": "《资治通鉴》卷六十六",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安十八年濡须口相持"
+      }
+    ],
+    "relatedIds": [
+      "chibi-wu-208",
+      "hefei-215"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "wancheng-214",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "皖城之战",
+      "en": "Battle of Wancheng"
+    },
+    "date": "0214-05-01",
+    "location": {
+      "lng": 116.58,
+      "lat": 30.63,
+      "place": {
+        "zh": "扬州庐江郡皖城（今安徽潜山）",
+        "en": "Wancheng, Lujiang (modern Qianshan, Anhui)"
+      }
+    },
+    "entityIds": [
+      "wu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "孙权攻皖城，吕蒙荐甘宁为升城督，拂晓破城，俘魏将朱光。",
+      "en": "Sun Quan attacked Wancheng. On Lü Meng’s recommendation Gan Ning led the escalade, the city fell at dawn, and the Wei commander Zhu Guang was captured."
+    },
+    "description": {
+      "zh": "建安十九年（214）五月，孙权攻皖城。魏将朱光屯皖，大开稻田、招诱鄱阳贼帅为内应。吕蒙认为皖城肥沃，若稻熟则魏军势盛，劝孙权速攻；又荐甘宁为升城督，吕蒙以精锐继之。拂晓进攻，甘宁率先登城，吕蒙督兵继进，食时破城，俘朱光及男女数万。此役拔除魏军在江北的重要据点，与濡须坞共同构成吴国江淮防线。皖城故址在今安徽潜山，坐标为示意。",
+      "en": "In the fifth month of 214 Sun Quan attacked Wancheng. The Wei commander Zhu Guang held the town, opened extensive rice fields and tried to win over bandit leaders of Poyang as internal allies. Lü Meng argued that Wancheng was fertile and that if the rice ripened Wei’s position would strengthen, so he urged a quick assault and recommended Gan Ning to lead the escalade with picked troops behind him. At dawn Gan Ning was first on the wall; Lü Meng followed and the city fell by breakfast time, with Zhu Guang and tens of thousands of people captured. The victory removed an important Wei foothold north of the river and, with Ruxukou, formed Wu’s Huai–Yangzi defence. The site is modern Qianshan, Anhui; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·吴书·吴主传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "建安十九年五月克皖城，获朱光"
+      },
+      {
+        "title": "《三国志·吴书·吕蒙传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "吕蒙劝速攻皖城、荐甘宁为升城督"
+      },
+      {
+        "title": "《三国志·吴书·甘宁传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "甘宁率先登城"
+      },
+      {
+        "title": "《资治通鉴》卷六十七",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安十九年皖城之役"
+      }
+    ],
+    "relatedIds": [
+      "ruxukou-213",
+      "hefei-215"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jingzhou-sanjun-215",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "荆州三郡之争",
+      "en": "Dispute over the three Jingzhou commanderies"
+    },
+    "date": "0215-05-01",
+    "location": {
+      "lng": 112.35,
+      "lat": 28.55,
+      "place": {
+        "zh": "荆州长沙郡益阳（今湖南益阳）",
+        "en": "Yiyang, Changsha (modern Yiyang, Hunan)"
+      }
+    },
+    "entityIds": [
+      "wu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "孙权遣吕蒙取长沙、零陵、桂阳三郡，刘备引兵公安、关羽入益阳相争，后以湘水划界。",
+      "en": "Sun Quan sent Lü Meng to take Changsha, Lingling and Guiyang. Liu Bei moved to Gong’an and Guan Yu to Yiyang; the crisis ended with the Xiang river partition."
+    },
+    "description": {
+      "zh": "建安二十年（215），孙权以刘备已得益州为由，遣诸葛瑾索还荆州三郡，刘备不许。孙权遂遣吕蒙率军二万取长沙、零陵、桂阳，长沙、桂阳望风归服，零陵太守郝普坚守；刘备自成都引兵五万至公安，遣关羽入益阳，与吴军对峙。适曹操取汉中，刘备恐益州有失，遣使与孙权议和。此役未演成大战，但孙刘联盟出现裂痕，为 219 年吕蒙袭荆州埋下伏笔。益阳地望在今湖南益阳，坐标为示意。",
+      "en": "In 215 Sun Quan, arguing that Liu Bei already held Yizhou, sent Zhuge Jin to demand the return of three Jingzhou commanderies; Liu refused. Sun then sent Lü Meng with 20,000 men against Changsha, Lingling and Guiyang. Changsha and Guiyang submitted; the Lingling governor Hao Pu held out. Liu Bei brought 50,000 men from Chengdu to Gong’an and sent Guan Yu to Yiyang, facing the Wu army. When Cao Cao took Hanzhong, Liu Bei, fearing for Yizhou, sued for peace. No great battle followed, but the alliance was strained and the way was prepared for Lü Meng’s raid on Jingzhou in 219. Yiyang is modern Yiyang, Hunan; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·吴书·吴主传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "建安二十年遣吕蒙取长沙、零陵、桂阳"
+      },
+      {
+        "title": "《三国志·吴书·吕蒙传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "吕蒙传檄取三郡、郝普坚守零陵"
+      },
+      {
+        "title": "《三国志·蜀书·先主传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "刘备引兵公安、关羽入益阳"
+      },
+      {
+        "title": "《资治通鉴》卷六十七",
+        "author": "司马光",
+        "year": 1084,
+        "note": "建安二十年荆州三郡之争"
+      }
+    ],
+    "relatedIds": [
+      "xiangshui-215",
+      "jingzhou-wu-219"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "xiangshui-215",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "湘水划界",
+      "en": "Partition at the Xiang river"
+    },
+    "date": "0215-07-01",
+    "location": {
+      "lng": 112.35,
+      "lat": 28.55,
+      "place": {
+        "zh": "荆州长沙郡益阳（今湖南益阳）",
+        "en": "Yiyang, Changsha (modern Yiyang, Hunan)"
+      }
+    },
+    "entityIds": [
+      "wu",
+      "shu-han"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "孙刘以湘水为界平分荆州：江夏、长沙、桂阳属孙权，南郡、零陵、武陵属刘备。",
+      "en": "Sun and Liu divided Jingzhou at the Xiang river: Jiangxia, Changsha and Guiyang to Sun Quan; Nanjun, Lingling and Wuling to Liu Bei."
+    },
+    "description": {
+      "zh": "建安二十年（215），刘备因曹操取汉中、益州告急，遣使与孙权讲和。双方以湘水为界：江夏、长沙、桂阳三郡属孙权，南郡、零陵、武陵三郡属刘备。此约暂时缓和孙刘冲突，但联盟互信已损；孙权仍视荆州为必争之地，建安二十四年（219）吕蒙袭取荆州即在此背景之下。划界为政治协议，无军事行军，故不设路线；具体月份待考。",
+      "en": "In 215, with Cao Cao in Hanzhong and Yizhou threatened, Liu Bei sued for peace. The two sides divided Jingzhou at the Xiang river: Jiangxia, Changsha and Guiyang went to Sun Quan; Nanjun, Lingling and Wuling to Liu Bei. The agreement eased the immediate crisis but damaged trust; Sun Quan still regarded Jingzhou as vital, and Lü Meng’s seizure of it in 219 followed from this. The partition was a political agreement with no military march, so no route is drawn; the exact month is uncertain."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·吴书·吴主传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "遂分荆州，以湘水为界"
+      },
+      {
+        "title": "《三国志·蜀书·先主传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "刘备闻曹公取汉中，与孙权连和"
+      },
+      {
+        "title": "《资治通鉴》卷六十七",
+        "author": "司马光",
+        "year": 1084,
+        "note": "湘水划界与荆州分属"
+      }
+    ],
+    "relatedIds": [
+      "jingzhou-sanjun-215",
+      "jingzhou-wu-219"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "guangling-224",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "曹丕伐吴（广陵）",
+      "en": "Cao Pi’s campaign to Guangling"
+    },
+    "date": "0224-08-01",
+    "location": {
+      "lng": 119.42,
+      "lat": 32.39,
+      "place": {
+        "zh": "徐州广陵郡广陵（今江苏扬州）",
+        "en": "Guangling (modern Yangzhou, Jiangsu)"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "曹丕率军至广陵，临江观兵，见江水盛涨、吴军严备，叹“吾骑万队，何所用之”，引军还。",
+      "en": "Cao Pi reached Guangling and reviewed his army by the Yangzi. Seeing the swollen river and Wu’s defences, he lamented that even ten thousand cavalry were useless and withdrew."
+    },
+    "description": {
+      "zh": "黄初五年（224）八月，曹丕率军东巡至广陵，临长江观兵，欲伐吴。吴军沿江严兵固守，舟船列于江上；时江水盛涨，曹丕见天险难越，叹“吾骑万队，何所用之”，遂引军还。此役未发生大规模接战，却显示曹魏在江淮水网地带难以发挥骑兵优势，也促使曹丕此后转向内政。广陵故址在今江苏扬州，坐标为示意。",
+      "en": "In the eighth month of 224 Cao Pi toured east to Guangling and reviewed his army on the Yangzi, intending to attack Wu. Wu forces held the bank in strength with ships deployed on the river. The river was in flood; seeing that the natural barrier could not be crossed, Cao Pi remarked that even ten thousand cavalry would be of no use and withdrew. There was no large-scale fighting, but the episode showed that Wei’s cavalry could not be used to advantage in the Huai–Yangzi water country and pushed Cao Pi back toward domestic affairs. Guangling is modern Yangzhou, Jiangsu; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·文帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "黄初五年八月东巡，至广陵，临江观兵"
+      },
+      {
+        "title": "《三国志·吴书·吴主传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "吴军沿江拒守"
+      },
+      {
+        "title": "《资治通鉴》卷七十",
+        "author": "司马光",
+        "year": 1084,
+        "note": "曹丕广陵临江而还"
+      }
+    ],
+    "relatedIds": [
+      "chibi-cao-208",
+      "hefei-215"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "caopi-death-226",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "曹丕去世",
+      "en": "Death of Cao Pi"
+    },
+    "date": "0226-05-01",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "司隶洛阳（今河南洛阳）",
+        "en": "Luoyang (modern Luoyang, Henan)"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "黄初七年五月丁巳，曹丕病逝于洛阳，年四十；太子曹叡即位，曹真、曹休、陈群、司马懿辅政。",
+      "en": "Cao Pi died at Luoyang in the fifth month of 226 aged forty. Crown prince Cao Rui succeeded, with Cao Zhen, Cao Xiu, Chen Qun and Sima Yi as regents."
+    },
+    "description": {
+      "zh": "黄初七年（226）五月丁巳（公历 6 月 29 日），曹丕病逝于洛阳，年四十。太子曹叡即位，是为魏明帝；遗诏以曹真、曹休、陈群、司马懿为辅政大臣。曹丕在位期间完成汉魏禅代、定都洛阳、推行九品中正制，奠定曹魏制度基础。其去世后，曹魏进入曹叡与宗室、司马氏势力消长的阶段。去世无军事行军，故不设路线。",
+      "en": "On the dingsi day of the fifth month of 226 (29 June 226) Cao Pi died at Luoyang aged forty. Crown prince Cao Rui succeeded as Emperor Ming; the will named Cao Zhen, Cao Xiu, Chen Qun and Sima Yi as regents. Cao Pi had completed the Han–Wei abdication, fixed the capital at Luoyang and promoted the nine-rank system, laying the institutional basis of Wei. After his death Wei entered a period of shifting power among Cao Rui, the imperial clan and the Sima family. There was no military march, so no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·文帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "黄初七年五月丁巳崩于洛阳，年四十"
+      },
+      {
+        "title": "《三国志·魏书·明帝纪》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "曹叡即位与辅政大臣"
+      },
+      {
+        "title": "《资治通鉴》卷七十",
+        "author": "司马光",
+        "year": 1084,
+        "note": "曹丕卒、曹叡即位"
+      }
+    ],
+    "relatedIds": [
+      "caopi-chengdi-220",
+      "gaopingling-249"
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "jiangwei-taoxi-255",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "姜维洮西之战",
+      "en": "Jiang Wei’s victory at Taoxi"
+    },
+    "date": "0255-08-01",
+    "endDate": "0255-09-30",
+    "location": {
+      "lng": 103.86,
+      "lat": 35.38,
+      "place": {
+        "zh": "凉州陇西郡狄道（今甘肃临洮）",
+        "en": "Didao, Longxi (modern Lintao, Gansu)"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "姜维乘淮南二叛之机出陇西，大破魏将王经于洮西，进围狄道，陈泰、邓艾来救而退。",
+      "en": "Jiang Wei exploited the Huainan revolt to strike into Longxi, crushed Wang Jing at Taoxi and besieged Didao until Chen Tai and Deng Ai relieved it."
+    },
+    "description": {
+      "zh": "正元二年（255）八月，姜维乘魏淮南二叛、关中空虚之机，率军出陇西，直指狄道。魏雍州刺史王经率军迎战，姜维于洮西大破之，魏军死者数万，王经退保狄道。姜维乘胜围城，魏征西将军陈泰与邓艾率军救援，姜维粮尽退走。此役是姜维北伐中战果最大的一战，但未能拔除狄道，蜀军也消耗甚大。狄道故址在今甘肃临洮，坐标为示意。",
+      "en": "In the eighth month of 255 Jiang Wei, exploiting the Huainan revolt and the weakened Guanzhong garrison, led his army into Longxi toward Didao. The Wei governor Wang Jing engaged him and was crushed at Taoxi; tens of thousands of Wei troops died and Wang Jing fell back on Didao. Jiang Wei besieged the city, but the Wei generals Chen Tai and Deng Ai came to its relief and Jiang withdrew when his supplies ran out. It was the greatest success of Jiang Wei’s northern campaigns, but Didao held and Shu’s forces were badly depleted. Didao is modern Lintao, Gansu; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·蜀书·姜维传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "十八年出狄道，大破王经于洮西"
+      },
+      {
+        "title": "《三国志·魏书·陈泰传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "陈泰救狄道、姜维退走"
+      },
+      {
+        "title": "《三国志·魏书·邓艾传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "邓艾与陈泰并力解狄道之围"
+      },
+      {
+        "title": "《资治通鉴》卷七十六",
+        "author": "司马光",
+        "year": 1084,
+        "note": "正元二年洮西之战"
+      }
+    ],
+    "relatedIds": [
+      "huainan-255",
+      "duangu-256"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "duangu-256",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "段谷之战",
+      "en": "Battle of Duangu"
+    },
+    "date": "0256-08-01",
+    "location": {
+      "lng": 105.8,
+      "lat": 34.5,
+      "place": {
+        "zh": "凉州天水郡段谷（今甘肃天水东南）",
+        "en": "Duangu, Tianshui (southeast of modern Tianshui, Gansu)"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "姜维出祁山，闻邓艾有备而退，邓艾追及于段谷，蜀军大败。",
+      "en": "Jiang Wei marched from Qishan but found Deng Ai prepared and withdrew; Deng Ai caught him at Duangu and routed the Shu army."
+    },
+    "description": {
+      "zh": "甘露元年（256）八月，姜维率军出祁山，闻邓艾已有防备，乃回军。邓艾先据武城山，又抢占段谷险要，邀击蜀军；姜维与邓艾战于段谷，大败，士卒星散，死者甚众。此役使姜维声望受损，蜀汉内部对其北伐的反对声增大。段谷地望在今甘肃天水东南，坐标为示意。",
+      "en": "In the eighth month of 256 Jiang Wei marched from Qishan but learned that Deng Ai was prepared and turned back. Deng Ai first occupied Wucheng mountain and then seized the Duangu defile and ambushed the Shu army. Jiang Wei was heavily defeated at Duangu; his troops scattered and many died. The defeat damaged Jiang Wei’s reputation and strengthened opposition to his campaigns within Shu. Duangu lies southeast of modern Tianshui, Gansu; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·蜀书·姜维传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "为邓艾所破于段谷，星散流离"
+      },
+      {
+        "title": "《三国志·魏书·邓艾传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "邓艾据武城山、抢占段谷"
+      },
+      {
+        "title": "《资治通鉴》卷七十七",
+        "author": "司马光",
+        "year": 1084,
+        "note": "甘露元年段谷之战"
+      }
+    ],
+    "relatedIds": [
+      "jiangwei-taoxi-255",
+      "houhe-262"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhugedan-257",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "淮南三叛（诸葛诞）",
+      "en": "Third Huainan revolt (Zhuge Dan)"
+    },
+    "date": "0257-05-01",
+    "endDate": "0258-02-28",
+    "location": {
+      "lng": 117.27,
+      "lat": 32.58,
+      "place": {
+        "zh": "扬州淮南郡寿春（今安徽寿县）",
+        "en": "Shouchun, Huainan (modern Shou county, Anhui)"
+      }
+    },
+    "entityIds": [
+      "cao-wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "诸葛诞据寿春反司马昭，遣子入吴求援；司马昭率大军围城，吴援不能入，城破，诸葛诞被杀。",
+      "en": "Zhuge Dan rose at Shouchun against Sima Zhao and sent his son to Wu for aid. Sima Zhao besieged the city, the Wu relief failed, and Zhuge Dan was killed when it fell."
+    },
+    "description": {
+      "zh": "甘露二年（257）五月，魏征东大将军诸葛诞据寿春反司马昭，杀扬州刺史乐綝，遣子诸葛靓入吴为质求援。司马昭挟魏帝曹髦、太后东征，率二十六万围寿春；吴遣朱异、丁奉等救援，被魏军击退。甘露三年（258）二月，寿春城破，诸葛诞突围被杀，淮南三叛至此平定。此役后司马氏清除淮南亲曹势力，代魏基础更加稳固。寿春故址在今安徽寿县，坐标为示意。",
+      "en": "In the fifth month of 257 the Wei general Zhuge Dan rose at Shouchun against Sima Zhao, killed the Yangzhou governor Yue Lin and sent his son Zhuge Jing to Wu as a hostage for aid. Sima Zhao took Emperor Cao Mao and the empress dowager east and besieged Shouchun with 260,000 men; Wu sent Zhu Yi, Ding Feng and others, but their relief was driven off. In the second month of 258 the city fell; Zhuge Dan was killed trying to break out, ending the third Huainan revolt. The Sima family thus removed the pro-Cao forces in Huainan and strengthened its hold on Wei. Shouchun is modern Shou county, Anhui; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·诸葛诞传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "诸葛诞据寿春反、遣子入吴为质"
+      },
+      {
+        "title": "《晋书·文帝纪》",
+        "author": "房玄龄等",
+        "year": 648,
+        "note": "司马昭率二十六万围寿春"
+      },
+      {
+        "title": "《资治通鉴》卷七十七",
+        "author": "司马光",
+        "year": 1084,
+        "note": "甘露二年至三年寿春之围"
+      }
+    ],
+    "relatedIds": [
+      "huainan-255",
+      "gaopingling-249"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "houhe-262",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "侯和之战",
+      "en": "Battle of Houhe"
+    },
+    "date": "0262-05-01",
+    "location": {
+      "lng": 103.35,
+      "lat": 34.65,
+      "place": {
+        "zh": "凉州陇西郡侯和（今甘肃卓尼、临潭一带）",
+        "en": "Houhe, Longxi (modern Zhuoni–Lintan area, Gansu)"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "姜维出汉、侯和攻魏，为邓艾所破，退屯沓中。",
+      "en": "Jiang Wei advanced through Han and Houhe against Wei but was defeated by Deng Ai and withdrew to Tazhong."
+    },
+    "description": {
+      "zh": "景耀五年（262），姜维率军出汉、侯和，攻魏陇西。魏征西将军邓艾据险拒守，大破蜀军；姜维退还沓中屯田，不敢再还成都。此役是姜维最后一次大规模北伐，蜀汉国力已疲，汉中防务亦因姜维改变“错守诸围”策略而削弱。侯和地望在今甘肃卓尼、临潭一带，坐标为示意。",
+      "en": "In 262 Jiang Wei advanced through Han and Houhe against Wei’s Longxi. The Wei general Deng Ai held the strong points and routed the Shu army; Jiang Wei withdrew to Tazhong to farm and did not return to Chengdu. It was his last large northern campaign. Shu was exhausted, and the defence of Hanzhong had been weakened by Jiang Wei’s abandonment of the old forward-pasture strategy. Houhe lies in the modern Zhuoni–Lintan area of Gansu; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·蜀书·姜维传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "五年出汉、侯和，为邓艾所破，还住沓中"
+      },
+      {
+        "title": "《三国志·魏书·邓艾传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "邓艾拒破姜维于侯和"
+      },
+      {
+        "title": "《资治通鉴》卷七十八",
+        "author": "司马光",
+        "year": 1084,
+        "note": "景耀五年侯和之战"
+      }
+    ],
+    "relatedIds": [
+      "duangu-256",
+      "jiangwei-tuntian-262"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jiangwei-tuntian-262",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "姜维退屯沓中",
+      "en": "Jiang Wei withdraws to Tazhong"
+    },
+    "date": "0262-08-01",
+    "location": {
+      "lng": 104.0,
+      "lat": 33.8,
+      "place": {
+        "zh": "凉州沓中（今甘肃舟曲西）",
+        "en": "Tazhong (west of modern Zhouqu, Gansu)"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "姜维败于侯和后退屯沓中，种麦屯田，蜀汉汉中防务转弱。",
+      "en": "After his defeat at Houhe Jiang Wei withdrew to Tazhong to farm; Shu’s Hanzhong defences were left weaker."
+    },
+    "description": {
+      "zh": "景耀五年（262），姜维败于侯和，退屯沓中（今甘肃舟曲西），种麦屯田，不再回成都。姜维改变魏延、王平以来“错守诸围”的汉中防御策略，主张敛兵聚谷、诱敌深入，导致汉中外围要点空虚。这一调整在 263 年魏军大举伐蜀时暴露出弱点。沓中地望在今甘肃舟曲一带，坐标为示意。",
+      "en": "In 262, defeated at Houhe, Jiang Wei withdrew to Tazhong (west of modern Zhouqu, Gansu), grew wheat and did not return to Chengdu. He abandoned the forward-pasture defence of Hanzhong used since Wei Yan and Wang Ping in favour of concentrating troops and luring the enemy in, leaving the outer strongpoints thin. The change exposed Shu when Wei invaded in 263. Tazhong lies near modern Zhouqu, Gansu; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·蜀书·姜维传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "还住沓中，种麦屯田"
+      },
+      {
+        "title": "《资治通鉴》卷七十八",
+        "author": "司马光",
+        "year": 1084,
+        "note": "姜维退屯沓中与汉中防务"
+      }
+    ],
+    "relatedIds": [
+      "houhe-262",
+      "zhonghui-jiange-263"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhonghui-jiange-263",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "姜维退守剑阁",
+      "en": "Jiang Wei holds Jiange"
+    },
+    "date": "0263-09-01",
+    "endDate": "0263-11-30",
+    "location": {
+      "lng": 105.55,
+      "lat": 32.2,
+      "place": {
+        "zh": "益州剑阁（今四川剑阁）",
+        "en": "Jiange (modern Jiange, Sichuan)"
+      }
+    },
+    "entityIds": [
+      "shu-han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "钟会率魏军主力攻汉中，姜维自沓中回军，退守剑阁，钟会攻之不克。",
+      "en": "Zhong Hui led the Wei main force against Hanzhong. Jiang Wei returned from Tazhong and held Jiange, which Zhong Hui could not take."
+    },
+    "description": {
+      "zh": "景元四年（263）九月，钟会率十余万魏军分道攻汉中，阳安关守将蒋舒投降，汉中失守。姜维自沓中回军，与廖化、张翼等合兵，退守剑阁天险；钟会大军攻剑阁，姜维拒守，魏军不能进。剑阁对峙使邓艾得以从阴平绕道，直接威胁成都。剑阁在今四川剑阁东北，坐标为示意。",
+      "en": "In the ninth month of 263 Zhong Hui led more than 100,000 Wei troops in several columns against Hanzhong; the Yang’an pass commander Jiang Shu surrendered and Hanzhong fell. Jiang Wei returned from Tazhong, joined Liao Hua and Zhang Yi, and held the Jiange pass. Zhong Hui’s main army attacked but could not break through. The standoff at Jiange allowed Deng Ai to bypass it through Yinping and threaten Chengdu directly. Jiange lies northeast of modern Jiange, Sichuan; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·钟会传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "钟会率十余万众分道攻汉中"
+      },
+      {
+        "title": "《三国志·蜀书·姜维传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "姜维自沓中还，与廖化、张翼合，守剑阁"
+      },
+      {
+        "title": "《资治通鉴》卷七十八",
+        "author": "司马光",
+        "year": 1084,
+        "note": "景元四年钟会攻剑阁"
+      }
+    ],
+    "relatedIds": [
+      "jiangwei-tuntian-262",
+      "yinputoudu-263",
+      "mie-shu-263"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "zhonghui-luan-264",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "钟会姜维之乱",
+      "en": "Zhong Hui and Jiang Wei’s revolt"
+    },
+    "date": "0264-01-01",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "益州成都（今四川成都）",
+        "en": "Chengdu (modern Chengdu, Sichuan)"
+      }
+    },
+    "entityIds": [
+      "cao-wei",
+      "shu-han"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "钟会诬邓艾谋反，与姜维谋据蜀反司马昭；事泄，魏军攻杀钟会、姜维，邓艾亦被杀。",
+      "en": "Zhong Hui accused Deng Ai of treason and plotted with Jiang Wei to hold Shu against Sima Zhao. The plot leaked; Wei troops killed Zhong Hui and Jiang Wei, and Deng Ai was also killed."
+    },
+    "description": {
+      "zh": "咸熙元年（264）正月，钟会入成都，诬邓艾谋反，用囚车押送洛阳。钟会自恃功高，与姜维密谋据蜀自立；姜维劝其尽杀魏军将领，再寻机复蜀。消息泄露，魏军将士哗变，攻杀钟会与姜维，邓艾父子亦在途中被杀。此乱虽平，但灭蜀三将俱亡，司马昭借机彻底控制伐蜀军权。事发成都城内，无行军，故不设路线。",
+      "en": "In the first month of 264 Zhong Hui entered Chengdu, accused Deng Ai of treason and sent him to Luoyang in a prison cart. Proud of his achievement, Zhong plotted with Jiang Wei to hold Shu and declare independence; Jiang urged him to kill the Wei commanders and then look for a chance to restore Shu. The plot leaked, Wei troops mutinied, killed Zhong Hui and Jiang Wei, and Deng Ai and his son were killed on the road. The three conquerors of Shu were all dead, and Sima Zhao took full control of the army. The events took place inside Chengdu with no march, so no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《三国志·魏书·钟会传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "钟会诬邓艾、谋据蜀，事泄被杀"
+      },
+      {
+        "title": "《三国志·蜀书·姜维传》",
+        "author": "陈寿",
+        "year": 289,
+        "note": "姜维劝钟会尽杀魏将、寻机复蜀"
+      },
+      {
+        "title": "《晋书·文帝纪》",
+        "author": "房玄龄等",
+        "year": 648,
+        "note": "邓艾、钟会之死与伐蜀军权"
+      },
+      {
+        "title": "《资治通鉴》卷七十八",
+        "author": "司马光",
+        "year": 1084,
+        "note": "咸熙元年成都之乱"
+      }
+    ],
+    "relatedIds": [
+      "zhonghui-jiange-263",
+      "mie-shu-263"
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "yanghu-269",
+    "atlasId": "three-kingdoms",
+    "name": {
+      "zh": "羊祜镇襄阳",
+      "en": "Yang Hu takes charge at Xiangyang"
+    },
+    "date": "0269-10-01",
+    "location": {
+      "lng": 112.14,
+      "lat": 32.02,
+      "place": {
+        "zh": "荆州襄阳（今湖北襄阳）",
+        "en": "Xiangyang (modern Xiangyang, Hubei)"
+      }
+    },
+    "entityIds": [
+      "jin"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "晋以羊祜都督荆州诸军事，镇襄阳；羊祜屯田积谷、绥怀吴人，与陆抗对峙。",
+      "en": "Jin appointed Yang Hu commander of Jingzhou at Xiangyang. He opened farms, stored grain, won over Wu border people and faced Lu Kang across the front."
+    },
+    "description": {
+      "zh": "泰始五年（269）十月，晋武帝以羊祜都督荆州诸军事，镇襄阳。羊祜减轻赋役、开屯田八百余顷，积蓄军粮；对吴边民以德怀之，降者不绝。吴将陆抗镇乐乡，与羊祜对峙，互有使节往来。羊祜的经营为日后晋灭吴奠定荆州方向的基础；他于 278 年去世，遗荐杜预自代。襄阳为晋吴荆州前线，坐标为示意。",
+      "en": "In the tenth month of 269 Emperor Wu of Jin appointed Yang Hu commander of Jingzhou and stationed him at Xiangyang. Yang reduced taxes and corvée, opened more than eight hundred qing of military farms and stored grain; he treated Wu border people generously and defectors came steadily. The Wu general Lu Kang held Lexiang opposite him, and the two exchanged envoys. Yang’s work prepared the Jingzhou axis for the conquest of Wu; he died in 278 and recommended Du Yu as his successor. Xiangyang was the Jin–Wu front in Jingzhou; the point is schematic."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《晋书·羊祜传》",
+        "author": "房玄龄等",
+        "year": 648,
+        "note": "泰始五年都督荆州诸军事，镇襄阳，屯田积谷"
+      },
+      {
+        "title": "《资治通鉴》卷七十九",
+        "author": "司马光",
+        "year": 1084,
+        "note": "羊祜镇襄阳与陆抗对峙"
+      }
+    ],
+    "relatedIds": [
+      "mie-wu-279",
+      "wangjun-fleet-279"
+    ],
+    "importance": 2
   }
 ]

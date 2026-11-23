@@ -3,6 +3,29 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.276] - 2026-11-23
+
+### Added
+- **三国专题第二批扩充（M294）**：新增 14 个事件、10 段路线，补三国中期江淮/荆州拉锯
+  与姜维北伐、灭蜀收尾。
+  - 事件：濡须口之战、皖城之战、荆州三郡之争、湘水划界、曹丕伐吴（广陵）、
+    曹丕去世、姜维洮西之战、段谷之战、淮南三叛（诸葛诞）、侯和之战、
+    姜维退屯沓中、姜维退守剑阁、钟会姜维之乱、羊祜镇襄阳。
+  - 路线：建业—濡须口、濡须口—皖城、寻阳—长沙—益阳、洛阳—谯—广陵、
+    汉中—阴平—狄道、祁山—段谷、洛阳—寿春、侯和—沓中、沓中—剑阁、洛阳—襄阳。
+  - 湘水划界、曹丕去世、钟会姜维之乱无行军，标 `routeEvent = false`；
+    新增端点全部接既有路线或本实体事件，未调阈值、未加豁免。
+  - 史料核对见 `docs/research/units/three-kingdoms-m294-source-audit.md`。
+
+### Verify
+- `pnpm validate:data`（three-kingdoms 66 事件 / 57 路线段）、
+  `pnpm check:routes --atlas three-kingdoms`（0）、
+  `pnpm check:heads --atlas three-kingdoms`（0 个无来由端点）、
+  `pnpm typecheck`、`pnpm lint`、`pnpm test`、
+  `pnpm build:search-index`、`pnpm build:mobile-data --check` 全部通过。
+
+---
+
 ## [v1.0.275] - 2026-11-23
 
 ### Added

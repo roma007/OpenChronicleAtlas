@@ -56,8 +56,32 @@
 - 「刘备称帝」无行军，标 `routeEvent = false`，不画假线。
 - 详细史料核对见 `docs/research/units/three-kingdoms-m293-source-audit.md`。
 
+## M294 新增 10 段路线（2026-11-23）
+
+| # | 路线 | 起点依据 | 终点依据 | 处理 |
+| --- | --- | --- | --- | --- |
+| M294-1 | 建业—濡须口 | 建业既有节点 | `ruxukou-213` 事件点 | 终点落在本实体事件上 |
+| M294-2 | 濡须口—皖城 | 上一段终点 | `wancheng-214` 事件点 | 两段共用濡须口锚点 |
+| M294-3 | 寻阳—长沙—益阳 | 219 吕蒙路线起点 | `jingzhou-sanjun-215` 事件点 | 起点接既有路线 |
+| M294-4 | 洛阳—谯—广陵 | 洛阳既有节点 | `guangling-224` 事件点 | 终点落在本实体事件上 |
+| M294-5 | 汉中—阴平—狄道 | 汉中既有节点 | `jiangwei-taoxi-255` 事件点 | 终点落在本实体事件上 |
+| M294-6 | 祁山—段谷 | 228 祁山路线 | `duangu-256` 事件点 | 起点接既有路线 |
+| M294-7 | 洛阳—寿春 | 洛阳既有节点 | `zhugedan-257` 事件点 | 终点接 255 洛阳—寿春终点 |
+| M294-8 | 侯和—沓中 | `houhe-262` 事件点 | `jiangwei-tuntian-262` 事件点 | 两端均为本实体事件 |
+| M294-9 | 沓中—剑阁 | `jiangwei-tuntian-262` 事件点 | `zhonghui-jiange-263` 事件点 | 两端均为本实体事件 |
+| M294-10 | 洛阳—襄阳 | 洛阳既有节点 | `yanghu-269` 事件点 | 终点接 279 晋灭吴路线襄阳节点 |
+
+**本批结论**：
+
+- `check:heads --atlas three-kingdoms` 从 47 段增至 57 段，仍为 0 个无来由端点。
+- 未新增阈值豁免，未修改 `route-endpoints.allow.json`。
+- 「湘水划界」「曹丕去世」「钟会姜维之乱」无行军，标 `routeEvent = false`。
+- 详细史料核对见 `docs/research/units/three-kingdoms-m294-source-audit.md`。
+
 ## 实施记录
 
+- 2026-11-23 / M294：新增 14 个事件、10 段路线；`validate:data` 66 事件 / 57 路线段，
+  `check:routes` 0，`check:heads` 0。
 - 2026-11-23 / M293：新增 15 个事件、12 段路线；`validate:data` 52 事件 / 47 路线段，
   `check:routes` 0，`check:heads` 0。
 - 2026-11-16 / `1.0.63`：

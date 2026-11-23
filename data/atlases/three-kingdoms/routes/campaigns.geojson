@@ -1789,6 +1789,370 @@
           "precision": "schematic"
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.8,
+            32.06
+          ],
+          [
+            117.95,
+            31.35
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wu",
+        "startDate": "0213-01-01",
+        "endDate": "0213-03-31",
+        "order": 36,
+        "segmentType": "advance",
+        "name": {
+          "zh": "建业—濡须口（濡须口之战）",
+          "en": "Jianye–Ruxukou (Battle of Ruxukou)"
+        },
+        "description": {
+          "zh": "孙权自建业率舟师赴濡须口拒曹操。路线示意。",
+          "en": "Sun Quan led his fleet from Jianye to hold Ruxukou against Cao Cao. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            117.95,
+            31.35
+          ],
+          [
+            116.58,
+            30.63
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wu",
+        "startDate": "0214-05-01",
+        "endDate": "0214-07-31",
+        "order": 37,
+        "segmentType": "advance",
+        "name": {
+          "zh": "濡须口—皖城（皖城之战）",
+          "en": "Ruxukou–Wancheng (Battle of Wancheng)"
+        },
+        "description": {
+          "zh": "孙权自濡须口进攻皖城，吕蒙、甘宁破城。路线示意。",
+          "en": "Sun Quan advanced from Ruxukou against Wancheng, which Lü Meng and Gan Ning took. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.99,
+            29.71
+          ],
+          [
+            112.98,
+            28.19
+          ],
+          [
+            112.35,
+            28.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wu",
+        "startDate": "0215-05-01",
+        "endDate": "0215-07-31",
+        "order": 38,
+        "segmentType": "advance",
+        "name": {
+          "zh": "寻阳—长沙—益阳（争荆州三郡）",
+          "en": "Xunyang–Changsha–Yiyang (three commanderies)"
+        },
+        "description": {
+          "zh": "吕蒙自寻阳率军取长沙、零陵、桂阳，关羽入益阳对峙。路线为示意，零陵、桂阳未逐一画出。",
+          "en": "Lü Meng marched from Xunyang to take Changsha, Lingling and Guiyang while Guan Yu moved to Yiyang. The line is schematic; Lingling and Guiyang are not drawn separately."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.45,
+            34.62
+          ],
+          [
+            113.85,
+            34.03
+          ],
+          [
+            115.78,
+            33.85
+          ],
+          [
+            119.42,
+            32.39
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0224-08-01",
+        "endDate": "0224-10-31",
+        "order": 41,
+        "segmentType": "advance",
+        "name": {
+          "zh": "洛阳—谯—广陵（曹丕伐吴）",
+          "en": "Luoyang–Qiao–Guangling (Cao Pi’s campaign)"
+        },
+        "description": {
+          "zh": "曹丕自洛阳东巡至广陵，临江观兵而还。路线示意。",
+          "en": "Cao Pi toured east from Luoyang to Guangling, reviewed his army by the Yangzi and withdrew. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.03,
+            33.07
+          ],
+          [
+            104.68,
+            32.94
+          ],
+          [
+            103.86,
+            35.38
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0255-08-01",
+        "endDate": "0255-09-30",
+        "order": 37,
+        "segmentType": "advance",
+        "name": {
+          "zh": "汉中—阴平—狄道（洮西之战）",
+          "en": "Hanzhong–Yinping–Didao (Taoxi campaign)"
+        },
+        "description": {
+          "zh": "姜维自汉中经阴平出陇西，大破王经于洮西，进围狄道。路线为示意，具体进军道路待考。",
+          "en": "Jiang Wei marched from Hanzhong through Yinping into Longxi, crushed Wang Jing at Taoxi and besieged Didao. The line is schematic and the exact roads are uncertain."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.2,
+            34.2
+          ],
+          [
+            105.8,
+            34.5
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0256-08-01",
+        "endDate": "0256-09-30",
+        "order": 38,
+        "segmentType": "advance",
+        "name": {
+          "zh": "祁山—段谷（段谷之战）",
+          "en": "Qishan–Duangu (Battle of Duangu)"
+        },
+        "description": {
+          "zh": "姜维出祁山，退军时于段谷为邓艾所破。路线示意。",
+          "en": "Jiang Wei marched from Qishan and was defeated by Deng Ai at Duangu while withdrawing. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.45,
+            34.62
+          ],
+          [
+            114.3,
+            32.6
+          ],
+          [
+            117.27,
+            32.58
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "cao-wei",
+        "startDate": "0257-05-01",
+        "endDate": "0257-08-31",
+        "order": 42,
+        "segmentType": "advance",
+        "name": {
+          "zh": "洛阳—寿春（围诸葛诞）",
+          "en": "Luoyang–Shouchun (siege of Zhuge Dan)"
+        },
+        "description": {
+          "zh": "司马昭率大军自洛阳东下，围诸葛诞于寿春。路线示意。",
+          "en": "Sima Zhao led the main army east from Luoyang and besieged Zhuge Dan at Shouchun. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.35,
+            34.65
+          ],
+          [
+            104.0,
+            33.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0262-05-01",
+        "endDate": "0262-08-31",
+        "order": 39,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "侯和—沓中（姜维退屯）",
+          "en": "Houhe–Tazhong (Jiang Wei’s withdrawal)"
+        },
+        "description": {
+          "zh": "姜维败于侯和，退屯沓中屯田。路线示意。",
+          "en": "Defeated at Houhe, Jiang Wei withdrew to Tazhong to farm. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.0,
+            33.8
+          ],
+          [
+            104.68,
+            32.94
+          ],
+          [
+            105.55,
+            32.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "shu-han",
+        "startDate": "0263-09-01",
+        "endDate": "0263-10-31",
+        "order": 40,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "沓中—剑阁（姜维退守剑阁）",
+          "en": "Tazhong–Jiange (Jiang Wei holds the pass)"
+        },
+        "description": {
+          "zh": "姜维自沓中回军，退守剑阁，阻挡钟会主力。路线示意。",
+          "en": "Jiang Wei returned from Tazhong and held Jiange against Zhong Hui’s main force. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.45,
+            34.62
+          ],
+          [
+            112.14,
+            32.02
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "jin",
+        "startDate": "0269-10-01",
+        "endDate": "0269-12-31",
+        "order": 34,
+        "segmentType": "advance",
+        "name": {
+          "zh": "洛阳—襄阳（羊祜出镇）",
+          "en": "Luoyang–Xiangyang (Yang Hu takes command)"
+        },
+        "description": {
+          "zh": "羊祜自洛阳出镇襄阳，经营荆州方向。路线示意。",
+          "en": "Yang Hu went from Luoyang to take command at Xiangyang and build up the Jingzhou front. The line is schematic."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
     }
   ]
 }
