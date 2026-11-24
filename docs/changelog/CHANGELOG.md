@@ -3,6 +3,18 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.284] - 2026-11-24
+
+### Changed
+- **`status.sh` 的公网暴露自探加入 `TCP 22`**（期望 `blocked`）。SSH 临时放行规则最容易忘删，
+  忘删就是一个面向全网的入口；现在它一旦被重新打开，就会亮 ⚠️ 并让 `pnpm release` 硬拦。
+  该端口不写进 `exposure.json`，按默认 `blocked` 判。
+
+### Verified
+- 用户已删除过期的 `TCP 22 → 223.73.119.15/32`。复核：控制台入方向仅 4 条
+  （`sg-7xvby4p7bmn6kx1cq9sg`）；从本机与服务器两侧探测，公网 22 均超时不可达；
+  `ssh quizgo`（Tailscale）正常。80/443 仍开，8080/8081/8082 仍拦。
+
 ## [v1.0.283] - 2026-11-24
 
 ### Docs
