@@ -187,9 +187,10 @@ open http://quizgo-ecs:8081         # tailnet 调试口，无 TLS，仅供排障
 
 - 正式入口要求证书就位；证书在 `/srv/nginx/certs/`，由 QuizGo 的 web 容器只读挂载
 - **证书不得放进 `conf.d/`**：`--with-nginx` 的 `rsync --delete` 会删掉
-- 证书 SAN 含 `www.atlas.openapp.asia` / `www.quiz.openapp.asia`，`server_name` 已写成两条；
-  但 **`www.*` 的 A 记录尚未添加**（2026-11-24 实测 `dig` 为空），所以 `https://www.atlas…` 目前解析失败。
-  要么在云解析加一条 A → `8.163.122.39`，要么一直按「证书含 SAN、DNS 未启用」理解，不要误判成配置错误
+- 证书 SAN 含 `www.atlas.openapp.asia` / `www.quiz.openapp.asia`，`server_name` 也写了两条；
+  但 **`www.*` 没有 A 记录**（2026-11-24 实测 `dig` 为空），`https://www.atlas…` 解析失败。
+  **用户决定于 2026-11-24 明确不加解析**（主域名够用），所以这是既知且接受的状态，
+  不要误判成配置错误，也不要「顺手补一条记录」。真要启用时：云解析加 A → `8.163.122.39` 即可，证书与 conf 都已就绪
 - 调试口只放行 `127.0.0.1` 与 `100.64.0.0/10`，安全组也未放行 8081
 - 深链（`/atlas/*`、`/search`）由 nginx 做 SPA 回退，可直接访问
 - **Service Worker 只在 https 下注册**（`http://100.65.110.80:8081` 不是 secure context）。

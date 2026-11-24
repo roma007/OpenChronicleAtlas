@@ -3,6 +3,12 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.283] - 2026-11-24
+
+### Docs
+- 记录用户对 `www.*` 的决定：**不加 A 记录**（主域名够用）。证书 SAN 与 `server_name` 都已含 www，
+  但解析不存在，属既知且接受的状态——写进 `AGENTS.md` 第 6 节，避免以后被当成配置错误「顺手补一条」。
+
 ## [v1.0.282] - 2026-11-24
 
 > 站点正式切换到 `https://atlas.openapp.asia`（备案通过、TLS 上线）。本轮只改工程与文档，
