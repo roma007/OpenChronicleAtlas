@@ -175,6 +175,8 @@
 | nginx 配置 | `/srv/nginx/conf.d/atlas.conf`（仓库 `OpenQuizGo/deploy/nginx/`） |
 | 正式入口 | `https://atlas.openapp.asia`（443）；`http://` 一律 301 |
 | 调试入口 | `http://quizgo-ecs:8081` / `http://100.65.110.80:8081`（tailnet） |
+| TLS 证书 | `/srv/nginx/certs/{atlas,quiz}.openapp.asia.{pem,key}`，DigiCert DV，**到期 2027-02-21 07:59 CST** |
+| 备案 | ICP `粤ICP备2026058093号-2`（已上线）；公安联网备案 2026-11-24 已提交，出号后 30 日内挂页脚 |
 
 ### 访问方式
 
@@ -185,10 +187,14 @@ open http://quizgo-ecs:8081         # tailnet 调试口，无 TLS，仅供排障
 
 - 正式入口要求证书就位；证书在 `/srv/nginx/certs/`，由 QuizGo 的 web 容器只读挂载
 - **证书不得放进 `conf.d/`**：`--with-nginx` 的 `rsync --delete` 会删掉
+- 证书 SAN 含 `www.atlas.openapp.asia` / `www.quiz.openapp.asia`，`server_name` 已写成两条；
+  但 **`www.*` 的 A 记录尚未添加**（2026-11-24 实测 `dig` 为空），所以 `https://www.atlas…` 目前解析失败。
+  要么在云解析加一条 A → `8.163.122.39`，要么一直按「证书含 SAN、DNS 未启用」理解，不要误判成配置错误
 - 调试口只放行 `127.0.0.1` 与 `100.64.0.0/10`，安全组也未放行 8081
 - 深链（`/atlas/*`、`/search`）由 nginx 做 SPA 回退，可直接访问
-- **Service Worker 只在 https 下注册**：`http://100.65.110.80:8081` 不是 secure context，
-  所以 PWA 离线能力在调试口上天然不生效；首次真实启用是在 https 上线后，必须回归测试安装与更新
+- **Service Worker 只在 https 下注册**（`http://100.65.110.80:8081` 不是 secure context）。
+  2026-11-24 已在正式站实测：SW `activated` 且正在控制页面，
+  `workbox-precache-v2` / `atlas-data` / `atlas-images` 三个缓存均已建立，控制台无报错
 
 ### 安全组现状（2026-11-14 收口，2026-11-23 加回 80/443）
 
@@ -199,13 +205,32 @@ open http://quizgo-ecs:8081         # tailnet 调试口，无 TLS，仅供排障
 | `UDP 41641` | Tailscale 直连打洞 | 长期 |
 | `ICMP` | 排障 | 长期 |
 
-**80/443 于 2026-11-14 删除、2026-11-23 备案通过后加回**；两者必须与 `listen 80/443` 同步，
-只加安全组不切配置 = 80 超时，只切配置不加安全组 = 同样超时。
+**80/443 于 2026-11-14 删除、2026-11-23 备案通过后加回、2026-11-24 实测公网可通**；
+两者必须与 `listen 80/443` 同步，只加安全组不切配置 = 80 超时，只切配置不加安全组 = 同样超时。
 
 验收用服务器上的自探（`ssh quizgo '/srv/ops/bin/status.sh'` 的「公网暴露自探」段）：
 判据来自 `/srv/ops/state/exposure.json`（缺失时按全部 `blocked`）。
-备案后期望：`80/443 = allowed`，`8080/8081/8082 = blocked`。
+现状（2026-11-24 切 TLS 时由 QuizGo 写入）：`80/443 = allowed`，`8080/8081/8082 = blocked`。
 该探针只测安全组、不测监听；且 22 规则按源限流，从服务器自身发起**测不出**，闭环只能从 `/32` 那一侧或控制台规则列表确认。
+
+### 证书续期（90 天，必须写进日历）
+
+免费 DV 证书只有 90 天，**一年要换 4 次**。这是最容易漏、漏了就是整站白屏的一项。
+
+| 项 | 值 |
+| --- | --- |
+| 当前证书 | DigiCert DV 单域名 ×2（`atlas` / `quiz`），SAN 各含自己的 `www` |
+| 到期 | **2027-02-21 07:59 CST**（`notAfter` Feb 20 23:59:59 GMT） |
+| 监控 | `status.sh` 的「TLS 证书」段：剩 <14 天显示 ⏳，过期显示 ❌ |
+| 重签动作 | 阿里云 → 数字证书管理服务 → 个人测试证书（免费版）→ 申请 → 自动 DNS 验证 → 签发后下载 Nginx 格式 |
+| 落地 | 覆盖 `/srv/nginx/certs/<域名>.pem|.key`（`600`，属主 `ecs-user`，目录 `700`） |
+| 生效 | 通知 QuizGo：`docker exec quizgo-web-1 nginx -t && docker exec quizgo-web-1 nginx -s reload` |
+| 额度 | 免费额度 20 张/年，两个域名一年 8 张，够用 |
+
+- **建议提前 30 天**（2027-01-22 前）申请；不要等到剩几天，CA 审核与 DNS 传播都有不确定性。
+- 证书**归 Atlas**（申请、下载、上传、校验），QuizGo 只负责 `nginx -t` + `reload`。
+- 改名或换路径必须提前提请求——`ssl_certificate` 在共享 conf 里，路径写错 443 直接起不来。
+- 想改成 acme.sh 自动续期时另立议题（需改共享 nginx 的证书路径与 reload 钩子），不要临时起意。
 
 ### 本地开发
 
@@ -228,20 +253,29 @@ pnpm build
 rsync -az --delete apps/web/dist/ quizgo:/srv/atlas/
 ```
 
-部署后自检：
+部署后自检（`pnpm release` 的第 7 步已包含，手工排查时用）：
 
 ```bash
-curl -s -o /dev/null -w "%{http_code}\n" http://quizgo-ecs:8081/
-curl -s -o /dev/null -w "%{http_code}\n" http://quizgo-ecs:8081/atlas/<任意专题>
+curl -s -o /dev/null -w "首页 %{http_code}\n" https://atlas.openapp.asia/
+curl -s -o /dev/null -w "深链 %{http_code}\n" https://atlas.openapp.asia/search
+curl -s -o /dev/null -w "专题 %{http_code}\n" https://atlas.openapp.asia/atlas/three-kingdoms
+curl -s -o /dev/null -w "http→https %{http_code}\n" http://atlas.openapp.asia/     # 期望 301
+curl -sI https://atlas.openapp.asia/sw.js | grep -i cache-control                # 应为 no-cache
 ```
 
-### 给非 tailnet 用户临时看效果
+> 2026-11-24 起自检一律走 https 正式入口。`http://quizgo-ecs:8081` 只用于排障：
+> 它不校验证书、也没有 Service Worker，不能作为「发布成功」的判据。
 
-| 方式 | 做法 | 说明 |
-| --- | --- | --- |
-| Tailscale 共享节点（推荐） | Tailscale 后台 → Machines → Share | 只共享 `quizgo-ecs` 一个节点 |
-| 临时放开非标端口 | 安全组加 `TCP 8081 → 对方 IP/32` | 非 80/443，一般不涉及备案；用完立即删除 |
-| 公网隧道（ngrok / Cloudflare Tunnel） | — | ⚠️ 不推荐，有合规风险 |
+### 给外部看效果
+
+**2026-11-24 起站点已公网可访问**（`https://atlas.openapp.asia`），直接把链接发给对方即可，
+不再需要 Tailscale 共享节点或临时放开 8081。
+
+| 场景 | 做法 |
+| --- | --- |
+| 普通分享 | 直接给 `https://atlas.openapp.asia` |
+| 未上线前的预览 | tailnet 的 `http://quizgo-ecs:8081`（仅限已在 tailnet 内的设备） |
+| 公网隧道（ngrok / Cloudflare Tunnel） | ⚠️ 不推荐，有合规风险；既已备案上线，没有理由再用 |
 
 ### 硬性约束
 
@@ -252,7 +286,9 @@ curl -s -o /dev/null -w "%{http_code}\n" http://quizgo-ecs:8081/atlas/<任意专
 5. 安全组、Tailscale、iptables 属**人工**，AI 不得自行修改；只可读、可提请求、可自探
 6. 除 80/443 外不得新增公网端口；临时对外演示只加非标端口 + 对方 IP `/32`，用完立刻删
 7. 证书放 `/srv/nginx/certs/`（700，文件 600），**不得**放进 `conf.d/`（会被 `rsync --delete` 删掉）
-8. HSTS 需证书稳定运行 24 小时后再开；开启后回滚成本高（浏览器缓存一年）
+8. HSTS **已于 2026-11-24 开启**（`max-age=31536000`，未含 `preload`）。回滚成本高（浏览器缓存一年），
+   彻底放弃 TLS 前先想清楚：降级只能靠同域 https 继续可用，改回 http 不再可行
+9. TLS 只覆盖 `openapp.asia` 的两个子域；新增域名要重签证书 + 改共享 conf，两者都得走请求
 
 ## 7. 发布与线上更新（Web 静态站）
 
@@ -325,13 +361,16 @@ ssh quizgo '/srv/ops/bin/status.sh'   # 漂移检测必须全绿
 ### 7.3 发布后自检
 
 ```bash
-curl -s -o /dev/null -w "首页 %{http_code}\n" http://quizgo-ecs:8081/
-curl -s -o /dev/null -w "深链 %{http_code}\n" http://quizgo-ecs:8081/search
-curl -s -o /dev/null -w "专题 %{http_code}\n" http://quizgo-ecs:8081/atlas/three-kingdoms
-curl -sI http://quizgo-ecs:8081/sw.js | grep -i cache-control   # 应为 no-cache
+curl -s -o /dev/null -w "首页 %{http_code}\n" https://atlas.openapp.asia/
+curl -s -o /dev/null -w "深链 %{http_code}\n" https://atlas.openapp.asia/search
+curl -s -o /dev/null -w "专题 %{http_code}\n" https://atlas.openapp.asia/atlas/three-kingdoms
+curl -s -o /dev/null -w "http→https %{http_code}\n" http://atlas.openapp.asia/    # 期望 301
+curl -sI https://atlas.openapp.asia/sw.js | grep -i cache-control               # 应为 no-cache
+curl -s https://atlas.openapp.asia/ | grep -c '粤ICP备2026058093号-2'            # 页脚备案号，应 ≥1
 ```
 
-四条全过才算发布成功。PWA 用户刷新即更新（`sw.js` 不缓存），无需额外操作。
+六条全过才算发布成功，`pnpm release` 第 7 步会逐条跑并打印。
+PWA 用户刷新即更新（`sw.js` 不缓存），无需额外操作。
 
 ### 7.4 回滚
 

@@ -3,6 +3,34 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.282] - 2026-11-24
+
+> 站点正式切换到 `https://atlas.openapp.asia`（备案通过、TLS 上线）。本轮只改工程与文档，
+> 不改任何史料数据；`nginx` 侧的切换由 OpenQuizGo 按其 086 计划执行，本仓库只跟随。
+
+### Changed
+- **发布自检改走 https 正式入口**：`scripts/deploy.sh` 第 7 步不再用 tailnet 的
+  `http://quizgo-ecs:8081` 当判据（它不校验证书、也没有 Service Worker），改为
+  `https://atlas.openapp.asia`；新增两条硬检查——`http://` 必须 301、页脚必须含 ICP 备案号。
+  站点地址抽成 `SITE` 变量（`ATLAS_SITE` 可覆盖），换域名只改一处。
+- **公安备案号改为「只填 code」**：`apps/web/src/config/site.ts` 的 `SITE_PSB` 由
+  `number` + `href` 两处手填改为单一 `PSB_CODE` 派生，避免号与查询串写歪一处。
+- `AGENTS.md` 第 6 节：新增「证书续期（90 天，必须写进日历）」整节（到期 2027-02-21、
+  提前 30 天申请、Atlas 申请上传 / QuizGo 只 `nginx -t` + `reload`）；记录 `www.*` 无 A 记录的现状；
+  HSTS 由「需观察 24h 后再开」改为「已于 2026-11-24 开启（`max-age=31536000`，未含 preload）」；
+  「给非 tailnet 用户临时看效果」改为「直接把公网链接发出去」。
+- `AGENTS.md` 第 7.3 节自检命令全部切到 https，并补 `301` 与备案号两条。
+
+### Verified
+- `https://atlas.openapp.asia/` 200、`/search` 200、`/atlas/long-march` 200；`http://` 301。
+- 证书 `CN=atlas.openapp.asia`（SAN 含 `www`），到期 2027-02-21 07:59 CST；`sw.js` `no-cache`。
+- **Service Worker 首次真实生效**：https 下 `activated` 且正在控制页面，
+  `workbox-precache-v2` / `atlas-data` / `atlas-images` 三个缓存均已建立，控制台无报错。
+- 底图合规：高德版权控件可见 `© 2026 AutoNavi - GS(2025)5996号`（未用 CSS 隐藏）。
+
+### Docs
+- `docs/conversations/2026-11-24-TLS上线与公安备案回执M300.md`：本轮记录与待办。
+
 ## [v1.0.281] - 2026-11-23
 
 ### Changed

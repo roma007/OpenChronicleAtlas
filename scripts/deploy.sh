@@ -12,6 +12,8 @@ set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
 
 HOST="${OPS_SSH_HOST:-quizgo}"
+# 正式入口（2026-11-24 起 https）。改域名时同步 AGENTS.md 第 6 节与 site.ts。
+SITE="${ATLAS_SITE:-https://atlas.openapp.asia}"
 DRY=0
 ACK_OPEN=0
 SKIP_CHECKS=0
@@ -105,14 +107,24 @@ if [ "$DRY" = 1 ]; then
   echo "  [dry-run] 跳过"
 else
   ok=1
+  # 2026-11-24 起正式入口走 https（备案通过、TLS 上线）。tailnet 的 8081 只作排障，
+  # 不作发布判据：它不校验证书、也不是用户看到的那个站。
   for path in "/" "/search" "/atlas/three-kingdoms"; do
-    code="$(curl -s -o /dev/null -w '%{http_code}' "http://quizgo-ecs:8081$path" || echo 000)"
+    code="$(curl -s -o /dev/null -w '%{http_code}' "$SITE$path" || echo 000)"
     printf '  %-24s %s\n' "$path" "$code"
     [ "$code" = "200" ] || ok=0
   done
-  cc="$(curl -sI http://quizgo-ecs:8081/sw.js | grep -i '^cache-control' | tr -d '\r' || true)"
+  cc="$(curl -sI "$SITE/sw.js" | grep -i '^cache-control' | tr -d '\r' || true)"
   printf '  %-24s %s\n' "/sw.js" "${cc:-<无>}"
   printf '%s' "$cc" | grep -qi 'no-cache' || ok=0
+  # http 必须 301 到 https，否则搜索外链与老用户会停在明文
+  rc="$(curl -s -o /dev/null -w '%{http_code}' "http://atlas.openapp.asia/" || echo 000)"
+  printf '  %-24s %s\n' "http→https" "$rc"
+  [ "$rc" = "301" ] || ok=0
+  # 备案号必须在页脚可见（合规项，漏了会被通报）
+  icp="$(curl -s "$SITE/" | grep -c '粤ICP备2026058093号-2' || true)"
+  printf '  %-24s %s\n' "ICP 备案号" "$([ "${icp:-0}" -gt 0 ] && echo 可见 || echo 缺失)"
+  [ "${icp:-0}" -gt 0 ] || ok=0
   [ "$ok" = 1 ] || fail "自检未通过。回滚：ssh $HOST 'sudo rsync -a --delete /srv/atlas.prev/ /srv/atlas/'"
 fi
 
