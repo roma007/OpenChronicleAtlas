@@ -3,6 +3,16 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.288] - 2026-11-24
+
+### Fixed
+- **战国专题 11 处事件关联指向不存在的 id**：新增事件里的 `relatedIds` 误用了 `yi-que-293`、
+  `changping-262`、`lv-buwei-xiang-qin-249`、`jing-ke-227`、`xuzhou-xiangwang-334`、
+  `wu-guo-xiangwang-323`、`dan-yang-312` 等写法，`validate:data` 逐条报警。
+  已按实际 id 修正（`yique-293`、`changping-260`、`lv-bu-wei-xiang-qin-249`、
+  `jing-ke-ci-qin-227`、`xuzhou-xiang-wang-334`、`wu-guo-xiang-wang-323`、`danyang-312`），
+  并移除指向未建事件 `xiu-yu-317` 的引用（修鱼之战未录入，仅在五国伐秦正文提及）。
+
 ## [v1.0.287] - 2026-11-24
 
 ### Fixed
