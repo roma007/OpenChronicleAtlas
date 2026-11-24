@@ -1,6 +1,6 @@
 import type { DateString } from '../types';
 import type { Locale } from '../i18n/locale';
-import { parseDateString } from '../time/date';
+import { compareDateStrings, isValidDateString } from '../time/date';
 
 export interface ShareView {
   lng: number;
@@ -25,7 +25,6 @@ export interface ShareState {
   to?: DateString;
 }
 
-const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const ID_RE = /^[a-z0-9][a-z0-9-]*$/;
 
 export function encodeShareState(state: ShareState): URLSearchParams {
@@ -67,14 +66,7 @@ export function decodeShareState(params: URLSearchParams): ShareState | null {
   const toRaw = params.get('to');
 
   let time: DateString | undefined;
-  if (timeRaw && DATE_RE.test(timeRaw)) {
-    try {
-      parseDateString(timeRaw);
-      time = timeRaw;
-    } catch {
-      time = undefined;
-    }
-  }
+  if (timeRaw && isValidDateString(timeRaw)) time = timeRaw;
 
   const eventId = eventRaw && ID_RE.test(eventRaw) ? eventRaw : undefined;
   const locale: Locale | undefined =
@@ -126,25 +118,11 @@ export function decodeShareState(params: URLSearchParams): ShareState | null {
   }
 
   let from: DateString | undefined;
-  if (fromRaw && DATE_RE.test(fromRaw)) {
-    try {
-      parseDateString(fromRaw);
-      from = fromRaw;
-    } catch {
-      from = undefined;
-    }
-  }
+  if (fromRaw && isValidDateString(fromRaw)) from = fromRaw;
 
   let to: DateString | undefined;
-  if (toRaw && DATE_RE.test(toRaw)) {
-    try {
-      parseDateString(toRaw);
-      to = toRaw;
-    } catch {
-      to = undefined;
-    }
-  }
-  if (from && to && to < from) to = undefined;
+  if (toRaw && isValidDateString(toRaw)) to = toRaw;
+  if (from && to && compareDateStrings(to, from) < 0) to = undefined;
 
   let view: ShareView | undefined;
   if (viewRaw) {

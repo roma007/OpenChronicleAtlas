@@ -1,8 +1,10 @@
 import { describe, expect, it } from 'vitest';
 import {
   clampTime,
+  compareDateStrings,
   diffDays,
   formatDate,
+  isValidDateString,
   parseDateString,
   resolveDatePrecision,
   toDateString,
@@ -25,6 +27,41 @@ describe('parseDateString', () => {
 
   it('往返转换保持日期不变', () => {
     expect(toDateString(parseDateString('1934-10-10'))).toBe('1934-10-10');
+  });
+
+  it('支持公元前年份并往返一致', () => {
+    const time = parseDateString('-0475-06-01');
+    expect(toDateString(time)).toBe('-0475-06-01');
+    // 前 475 年 6 月 1 日早于公元 1 年
+    expect(time).toBeLessThan(parseDateString('0001-01-01'));
+  });
+
+  it('不存在公元 0 年', () => {
+    expect(() => parseDateString('0000-01-01')).toThrow('不存在公元 0 年');
+    expect(() => parseDateString('-0000-01-01')).toThrow('不存在公元 0 年');
+  });
+
+  it('支持 1—99 年，不会被当成 19xx 年', () => {
+    const time = parseDateString('0050-06-01');
+    expect(toDateString(time)).toBe('0050-06-01');
+    expect(formatDate(time, 'zh-CN', 'year')).toBe('50年');
+  });
+
+  it('isValidDateString 同时接受公元前后并拒绝非法值', () => {
+    expect(isValidDateString('-0260-07-15')).toBe(true);
+    expect(isValidDateString('1935-01-15')).toBe(true);
+    expect(isValidDateString('-0260-02-30')).toBe(false);
+    expect(isValidDateString('1935-1-15')).toBe(false);
+    expect(isValidDateString(1234)).toBe(false);
+  });
+});
+
+describe('compareDateStrings', () => {
+  it('按时间戳比较，公元前不被字符串序反转', () => {
+    expect(compareDateStrings('-0475-01-01', '-0300-01-01')).toBeLessThan(0);
+    expect(compareDateStrings('-0221-01-01', '-0475-12-31')).toBeGreaterThan(0);
+    expect(compareDateStrings('-0475-01-01', '0190-02-01')).toBeLessThan(0);
+    expect(compareDateStrings('1935-01-15', '1935-01-15')).toBe(0);
   });
 });
 
@@ -49,6 +86,15 @@ describe('时间计算', () => {
     expect(formatDate(time, 'zh-CN', 'year')).toBe('960年');
     expect(formatDate(time, 'zh-CN', 'month')).toBe('960年1月');
     expect(formatDate(time, 'zh-CN', 'day')).toBe('960年1月1日');
+  });
+
+  it('formatDate 公元前中英文输出', () => {
+    const time = parseDateString('-0475-06-01');
+    expect(formatDate(time, 'zh-CN', 'year')).toBe('前475年');
+    expect(formatDate(time, 'zh-CN', 'month')).toBe('前475年6月');
+    expect(formatDate(time, 'zh-CN', 'day')).toBe('前475年6月1日');
+    expect(formatDate(time, 'en', 'year')).toBe('475 BCE');
+    expect(formatDate(time, 'en', 'day')).toBe('1 June 475 BCE');
   });
 
   it('单选主体时按时间跨度细化年精度', () => {

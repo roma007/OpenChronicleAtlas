@@ -7,6 +7,7 @@ import {
   regionName,
   resolveLocalized,
   segmentTypeLabel,
+  toDateString,
   type AtlasRegion,
 } from '@atlas/shared';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -39,6 +40,7 @@ export function RegionFilter({ onNavigate }: RegionFilterProps) {
   const selectedRoute = useAtlasStore((state) => state.selectedRoute);
   const showRegionLabels = useAtlasStore((state) => state.showRegionLabels);
   const showAdminBoundaries = useAtlasStore((state) => state.showAdminBoundaries);
+  const showTerritories = useAtlasStore((state) => state.showTerritories);
   const selectEvent = useAtlasStore((state) => state.selectEvent);
   const setCurrentTime = useAtlasStore((state) => state.setCurrentTime);
   const pause = useAtlasStore((state) => state.pause);
@@ -220,11 +222,12 @@ export function RegionFilter({ onNavigate }: RegionFilterProps) {
                   categories: filters.categories,
                   from: filters.from,
                   to: filters.to,
-                  time: new Date(currentTime).toISOString().slice(0, 10),
+                  time: toDateString(currentTime),
                   eventId: selectedEventId ?? undefined,
                   route: selectedRoute ?? undefined,
                   regionLabels: showRegionLabels,
                   adminBoundaries: showAdminBoundaries,
+                  territories: showTerritories,
                   view: mapView ?? undefined,
                 });
                 void Share.share({ message: url, url });

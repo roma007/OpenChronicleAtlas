@@ -104,8 +104,9 @@ export function Timeline() {
     const width = trackWidth || 800;
     return generateTicks(viewport, width, {
       minLabelPx: width < 640 ? 56 : 72,
+      locale: dateLocale,
     });
-  }, [viewport, trackWidth]);
+  }, [viewport, trackWidth, dateLocale]);
 
   const currentEvent = useMemo(() => {
     if (!dataset) return undefined;

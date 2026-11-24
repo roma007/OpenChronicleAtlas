@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { isValidDateString } from '../time/date';
 
 export const localizedStringSchema = z.union([
   z.string().min(1),
@@ -7,15 +8,8 @@ export const localizedStringSchema = z.union([
 
 export const dateStringSchema = z
   .string()
-  .regex(/^\d{4}-\d{2}-\d{2}$/, '日期格式应为 YYYY-MM-DD')
-  .refine((s) => {
-    const [y, m, d] = s.split('-').map(Number);
-    const t = Date.UTC(y!, m! - 1, d!);
-    const check = new Date(t);
-    return (
-      check.getUTCFullYear() === y && check.getUTCMonth() === m! - 1 && check.getUTCDate() === d
-    );
-  }, '日期不存在');
+  .regex(/^-?\d{4}-\d{2}-\d{2}$/, '日期格式应为 YYYY-MM-DD 或 -YYYY-MM-DD（公元前）')
+  .refine((s) => isValidDateString(s), '日期不存在');
 
 export const hexColorSchema = z
   .string()

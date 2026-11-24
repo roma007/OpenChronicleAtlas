@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {
   AtlasDataError,
+  compareDateStrings,
   distancePointToRouteKm,
   loadAtlas,
   resolveLocalized,
@@ -182,7 +183,7 @@ for (const id of ids) {
       if (isExemptEntity(entityId)) continue;
       routes.sort(
         (a, b) =>
-          a.properties.startDate.localeCompare(b.properties.startDate) ||
+          compareDateStrings(a.properties.startDate, b.properties.startDate) ||
           a.properties.order - b.properties.order,
       );
       const events = dataset.events.filter((event) => event.entityIds.includes(entityId));

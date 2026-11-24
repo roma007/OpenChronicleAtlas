@@ -19,6 +19,7 @@ import {
   territoryFileSchema,
 } from '../schema/atlas';
 import { validateCrossFile } from '../schema/validate';
+import { compareDateStrings } from '../time/date';
 import type { SearchIndexFile } from '../search/types';
 import { HttpDataSource, AtlasDataError, type DataSource } from './source';
 
@@ -202,7 +203,7 @@ export async function loadAtlas(
   const warnings = issues.filter((issue) => issue.level === 'warning');
   warnings.forEach((issue) => options.onWarning?.(issue));
 
-  events.sort((a, b) => a.date.localeCompare(b.date));
+  events.sort((a, b) => compareDateStrings(a.date, b.date));
 
   const eventsById = new Map(events.map((event) => [event.id, event]));
   const entitiesById = new Map(manifest.entities.map((entity) => [entity.id, entity]));
@@ -217,7 +218,7 @@ export async function loadAtlas(
     }
   }
   for (const list of eventsByEntity.values()) {
-    list.sort((a, b) => a.date.localeCompare(b.date));
+    list.sort((a, b) => compareDateStrings(a.date, b.date));
   }
 
   return {

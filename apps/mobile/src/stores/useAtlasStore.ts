@@ -51,6 +51,7 @@ interface MobileAtlasState {
 
   activeEntityIds: Set<string>;
   filters: AtlasFilters;
+  showTerritories: boolean;
   showAdminBoundaries: boolean;
   showRegionLabels: boolean;
   locale: Locale;
@@ -81,9 +82,11 @@ interface MobileAtlasState {
   toggleRegion(regionId: string): void;
   setRegions(regionIds: string[]): void;
   toggleAdminBoundaries(): void;
+  toggleTerritories(): void;
   toggleRegionLabels(): void;
   setShowRegionLabels(value: boolean): void;
   setShowAdminBoundaries(value: boolean): void;
+  setShowTerritories(value: boolean): void;
   resetFilters(): void;
   setCurrentTime(time: AtlasTime): void;
   seekRatio(ratio: number): void;
@@ -138,6 +141,7 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
 
   activeEntityIds: new Set(),
   filters: EMPTY_FILTERS,
+  showTerritories: true,
   showAdminBoundaries: true,
   showRegionLabels: true,
   locale: 'zh',
@@ -186,6 +190,7 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
       routeFocus: null,
       selectedRoute: null,
       fromCache: false,
+      showTerritories: true,
       showAdminBoundaries: true,
       showRegionLabels: true,
     });
@@ -318,6 +323,10 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
     set({ showAdminBoundaries: !get().showAdminBoundaries });
   },
 
+  toggleTerritories() {
+    set({ showTerritories: !get().showTerritories });
+  },
+
   toggleRegionLabels() {
     set({ showRegionLabels: !get().showRegionLabels });
   },
@@ -328,6 +337,10 @@ export const useAtlasStore = create<MobileAtlasState>((set, get) => ({
 
   setShowAdminBoundaries(value) {
     set({ showAdminBoundaries: value });
+  },
+
+  setShowTerritories(value) {
+    set({ showTerritories: value });
   },
 
   resetFilters() {

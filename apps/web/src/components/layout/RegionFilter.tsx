@@ -8,6 +8,7 @@ import {
   regionAncestors,
   resolveLocalized,
   segmentTypeLabel,
+  toDateString,
   type AtlasRegion,
 } from '@atlas/shared';
 import { useEffect, useMemo, useState } from 'react';
@@ -229,7 +230,7 @@ export function RegionFilter({ className = '', embedded = false }: RegionFilterP
                   categories: filters.categories,
                   from: filters.from,
                   to: filters.to,
-                  time: new Date(currentTime).toISOString().slice(0, 10),
+                  time: toDateString(currentTime),
                   eventId: selectedEventId ?? undefined,
                   route: selectedRoute ?? undefined,
                   regionLabels: showRegionLabels,

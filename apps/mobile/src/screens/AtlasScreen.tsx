@@ -39,6 +39,7 @@ export function AtlasScreen({ route, navigation }: Props) {
   const selectRoute = useAtlasStore((state) => state.selectRoute);
   const setShowRegionLabels = useAtlasStore((state) => state.setShowRegionLabels);
   const setShowAdminBoundaries = useAtlasStore((state) => state.setShowAdminBoundaries);
+  const setShowTerritories = useAtlasStore((state) => state.setShowTerritories);
   const setFilters = useAtlasStore((state) => state.setFilters);
   const { locale, t } = useI18n();
 
@@ -61,6 +62,7 @@ export function AtlasScreen({ route, navigation }: Props) {
     if (share?.locale) setLocale(share.locale);
     if (share?.regionLabels !== undefined) setShowRegionLabels(share.regionLabels);
     if (share?.adminBoundaries !== undefined) setShowAdminBoundaries(share.adminBoundaries);
+    if (share?.territories !== undefined) setShowTerritories(share.territories);
     if (share?.entities) setActiveEntities(share.entities);
     if (share?.categories || share?.regions || share?.from || share?.to) {
       setFilters({

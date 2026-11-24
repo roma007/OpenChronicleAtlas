@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "1.2.0",
+  "id": "warring-states",
+  "title": {
+    "zh": "战国",
+    "en": "Warring States"
+  },
+  "subtitle": {
+    "zh": "前475—前221",
+    "en": "475–221 BCE"
+  },
+  "timeRange": {
+    "start": "-0475-01-01",
+    "end": "-0221-12-31"
+  },
+  "description": {
+    "zh": "战国起于前 475 年（《史记·六国年表》系年，另有前 468、前 453、前 403 等异说），至前 221 年秦灭齐止。三家分晋、田氏代齐重塑格局，各国相继变法；桂陵、马陵、伊阙、长平诸战决定强弱，秦最终以十年时间灭六国。本专题按「变法—兼并—统一」主线组织，事件与地点为通行说法，异说在正文注明。\n\n> 疆域面取自 Seshat Cliopatria v0.2.1（CC BY 4.0），为学术估算的世纪切片，非精确国界；匈奴、东胡、林胡、楼烦、义渠等部族范围依史料手绘示意（虚线），表示活动区域，不是国界；路线为示意，事件日期与表述待逐条史料校订。",
+    "en": "The Warring States period runs from 475 BCE (the date used in the Shiji’s chronological table; 468, 453 and 403 BCE are also proposed) to Qin’s conquest of Qi in 221 BCE. The partition of Jin and the Tian family’s takeover of Qi reshaped the map; the states reformed one after another, and the battles of Guiling, Maling, Yique and Changping decided the balance before Qin destroyed the six states within a decade. The atlas follows a reform–annexation–unification arc. Dates and places follow conventional accounts, with variants noted.\n\n> Territory polygons for the seven states come from Seshat Cliopatria v0.2.1 (CC BY 4.0), century-scale scholarly estimates rather than precise borders. Ranges for the Xiongnu, Donghu, Linhu, Loufan and Yiqu are hand-drawn schematic areas (dashed) showing where these peoples were active, not borders. Routes are schematic and dates await source-by-source review."
+  },
+  "defaultView": {
+    "center": [
+      112.5,
+      34.5
+    ],
+    "zoom": 3.4
+  },
+  "routes": [
+    "routes/campaigns.geojson"
+  ],
+  "events": [
+    "events/events.json"
+  ],
+  "territories": [
+    "territories/territories.geojson"
+  ],
+  "entities": [
+    {
+      "id": "yan",
+      "name": {
+        "zh": "燕",
+        "en": "Yan"
+      },
+      "color": "#2c7a7b",
+      "order": 1,
+      "description": {
+        "zh": "据今北京、河北北部与辽东，都蓟；昭王时以乐毅破齐，后为秦所灭。",
+        "en": "Held the area of modern Beijing, northern Hebei and Liaodong, with its capital at Ji; under King Zhao it crushed Qi with Yue Yi, and was later destroyed by Qin."
+      }
+    },
+    {
+      "id": "zhao",
+      "name": {
+        "zh": "赵",
+        "en": "Zhao"
+      },
+      "color": "#6b46c1",
+      "order": 2,
+      "description": {
+        "zh": "三家分晋后立国，都邯郸；武灵王胡服骑射而强，长平之战后一蹶不振。",
+        "en": "Founded in the partition of Jin with its capital at Handan; strengthened by King Wuling’s nomadic-style cavalry reforms and never recovered from Changping."
+      }
+    },
+    {
+      "id": "qi",
+      "name": {
+        "zh": "齐",
+        "en": "Qi"
+      },
+      "color": "#2f855a",
+      "order": 3,
+      "description": {
+        "zh": "据今山东大部，都临淄；威王、宣王时称雄东方，五国伐齐后经田单复国。",
+        "en": "Held most of modern Shandong with its capital at Linzi; dominant in the east under Kings Wei and Xuan, and restored by Tian Dan after the five-state invasion."
+      }
+    },
+    {
+      "id": "wei",
+      "name": {
+        "zh": "魏",
+        "en": "Wei"
+      },
+      "color": "#2b6cb0",
+      "order": 4,
+      "description": {
+        "zh": "三家分晋后立国，初都安邑、后迁大梁；李悝变法最先富强，桂陵、马陵之后转衰。",
+        "en": "Founded in the partition of Jin, first at Anyi and later at Daliang; the earliest state to prosper through Li Kui’s reforms, it declined after Guiling and Maling."
+      }
+    },
+    {
+      "id": "han",
+      "name": {
+        "zh": "韩",
+        "en": "Han"
+      },
+      "color": "#b7791f",
+      "order": 5,
+      "description": {
+        "zh": "七雄中国土最小，都新郑；申不害相韩而治，前 230 年最先为秦所灭。",
+        "en": "The smallest of the seven, with its capital at Xinzheng; well governed under Shen Buhai and the first state destroyed by Qin in 230 BCE."
+      }
+    },
+    {
+      "id": "qin",
+      "name": {
+        "zh": "秦",
+        "en": "Qin"
+      },
+      "color": "#9b2c2c",
+      "order": 6,
+      "description": {
+        "zh": "据关中，都咸阳；商鞅变法后国力最强，前 230—前 221 年依次灭六国。",
+        "en": "Held the Guanzhong plain with its capital at Xianyang; strongest after Shang Yang’s reforms and destroyed the six states between 230 and 221 BCE."
+      }
+    },
+    {
+      "id": "chu",
+      "name": {
+        "zh": "楚",
+        "en": "Chu"
+      },
+      "color": "#c53030",
+      "order": 7,
+      "description": {
+        "zh": "据长江中游，都郢、后迁陈与寿春；地方五千里，带甲百万，终为秦所灭。",
+        "en": "Held the middle Yangtze with its capital at Ying and later Chen and Shouchun; vast in territory and manpower, it was nonetheless destroyed by Qin."
+      }
+    },
+    {
+      "id": "xiongnu",
+      "name": {
+        "zh": "匈奴",
+        "en": "Xiongnu"
+      },
+      "color": "#4a5568",
+      "order": 8,
+      "description": {
+        "zh": "约前 4 世纪起见于记载，活动于阴山南北，以游牧为业；赵武灵王、李牧皆与之交战。前 3 世纪末冒顿统一诸部，汉初遂为北方强敌。图中范围为示意，非国界。",
+        "en": "Recorded from about the 4th century BCE and living by pastoralism north and south of the Yinshan; fought by King Wuling of Zhao and by Li Mu. At the end of the 3rd century Modu united the tribes and made them a great northern power. The range shown is schematic, not a border."
+      }
+    },
+    {
+      "id": "donghu",
+      "name": {
+        "zh": "东胡",
+        "en": "Donghu"
+      },
+      "color": "#7a5c3e",
+      "order": 9,
+      "description": {
+        "zh": "活动于西拉木伦河、老哈河流域，约前 300 年为燕将秦开所破，燕因筑长城、置上谷至辽东五郡；后为匈奴所灭。图中范围为示意，非国界。",
+        "en": "Active around the Xar Moron and Laoha rivers; driven back around 300 BCE by the Yan general Qin Kai, after which Yan built its wall and set up five commanderies from Shanggu to Liaodong. Later destroyed by the Xiongnu. The range shown is schematic, not a border."
+      }
+    },
+    {
+      "id": "linhu",
+      "name": {
+        "zh": "林胡",
+        "en": "Linhu"
+      },
+      "color": "#8a7350",
+      "order": 10,
+      "description": {
+        "zh": "活动于今晋西北至河套以东，前 307 年前后为赵武灵王所破，后渐并入匈奴。图中范围为示意，非国界。",
+        "en": "Active from northwestern Shanxi to east of the Ordos loop; broken by King Wuling of Zhao around 307 BCE and later absorbed by the Xiongnu. The range shown is schematic, not a border."
+      }
+    },
+    {
+      "id": "loufan",
+      "name": {
+        "zh": "楼烦",
+        "en": "Loufan"
+      },
+      "color": "#6f5b7d",
+      "order": 11,
+      "description": {
+        "zh": "活动于今晋西北、陕北一带，赵武灵王北破林胡、楼烦，部分部众南迁。图中范围为示意，非国界。",
+        "en": "Active in northwestern Shanxi and northern Shaanxi; defeated by King Wuling of Zhao together with the Linhu, after which part of the people moved south. The range shown is schematic, not a border."
+      }
+    },
+    {
+      "id": "yiqu",
+      "name": {
+        "zh": "义渠",
+        "en": "Yiqu"
+      },
+      "color": "#8a4b3c",
+      "order": 12,
+      "description": {
+        "zh": "陇东戎人政权，与秦长期和战；前 272 年宣太后诱杀义渠王，秦因灭之，置陇西、北地、上郡。图中范围为示意，非国界。",
+        "en": "A Rong polity in eastern Gansu that long warred and negotiated with Qin; in 272 BCE Queen Dowager Xuan lured its king to his death and Qin destroyed it, setting up the Longxi, Beidi and Shangjun commanderies. The range shown is schematic, not a border."
+      }
+    }
+  ],
+  "tags": [
+    "中国历史",
+    "先秦",
+    "战国",
+    "军事"
+  ],
+  "license": "CC-BY-4.0；七雄疆域面取自 Seshat Cliopatria v0.2.1（CC BY 4.0），部族范围为依史料手绘示意，事件与路线为示意初稿，待逐条史料校订",
+  "updatedAt": "2026-11-24",
+  "coverText": {
+    "years": "前 475 — 前 221",
+    "brand": "史迹 · 时空地图",
+    "note": "示意图 · 数据待史料校订",
+    "noteEn": "Schematic · data pending review"
+  }
+}

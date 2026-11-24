@@ -1,0 +1,3877 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.35,
+            36.86
+          ],
+          [
+            116.3,
+            35.9
+          ],
+          [
+            114.31,
+            34.8
+          ],
+          [
+            114.55,
+            35.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qi",
+        "startDate": "-0353-01-01",
+        "endDate": "-0353-12-31",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "齐军救赵趋大梁",
+          "en": "Qi marches to Daliang to relieve Zhao"
+        },
+        "description": {
+          "zh": "田忌、孙膑自临淄西进，直趋魏都大梁，于桂陵截击回师之魏军。示意简化路线，待史料校订。",
+          "en": "Tian Ji and Sun Bin marched west from Linzi toward Daliang and struck the returning Wei army at Guiling. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.35,
+            36.86
+          ],
+          [
+            116.3,
+            35.9
+          ],
+          [
+            115.67,
+            36.02
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qi",
+        "startDate": "-0341-01-01",
+        "endDate": "-0341-12-31",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "齐军救韩至马陵",
+          "en": "Qi marches to Maling to relieve Han"
+        },
+        "description": {
+          "zh": "齐以田忌、田盼为将救韩，孙膑用减灶之计诱魏军，战于马陵。马陵地望有异说。示意简化路线，待史料校订。",
+          "en": "Qi sent Tian Ji and Tian Pan to aid Han; Sun Bin lured the Wei army with the decreasing-stove ruse and fought at Maling, whose location is disputed. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.05,
+            36.72
+          ],
+          [
+            119.2,
+            36.8
+          ],
+          [
+            118.35,
+            36.86
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qi",
+        "startDate": "-0279-01-01",
+        "endDate": "-0279-12-31",
+        "order": 4,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "田单自即墨反攻",
+          "en": "Tian Dan counterattacks from Jimo"
+        },
+        "description": {
+          "zh": "田单以火牛阵破燕军后，自即墨反攻，收复齐地，迎齐襄王入临淄。示意简化路线，待史料校订。",
+          "en": "After the fire-oxen charge broke the Yan army, Tian Dan counterattacked from Jimo, recovered Qi and restored King Xiang at Linzi. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.35,
+            36.86
+          ],
+          [
+            118.42,
+            36.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qi",
+        "startDate": "-0221-01-01",
+        "endDate": "-0221-12-31",
+        "order": 5,
+        "segmentType": "defense",
+        "name": {
+          "zh": "齐王建守临淄",
+          "en": "King Jian of Qi holds Linzi"
+        },
+        "description": {
+          "zh": "王贲自燕南下突袭，齐王建不战而降，齐亡。此处仅示齐都临淄的守御态势，示意简化，待史料校订。",
+          "en": "Wang Ben struck south from Yan; King Jian of Qi surrendered without fighting and Qi fell. This segment only marks the defensive posture at Linzi. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            117.2,
+            38.2
+          ],
+          [
+            115.98,
+            36.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "yan",
+        "startDate": "-0284-01-01",
+        "endDate": "-0284-12-31",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "乐毅率五国之师南下",
+          "en": "Yue Yi leads the allied army south"
+        },
+        "description": {
+          "zh": "燕昭王以乐毅为上将军，合燕、秦、赵、魏、韩之师自蓟南下，破齐于济西。示意简化路线，待史料校订。",
+          "en": "King Zhao of Yan made Yue Yi commander of the Yan, Qin, Zhao, Wei and Han forces, which marched south from Ji and defeated Qi west of the Ji River. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.98,
+            36.45
+          ],
+          [
+            117.2,
+            38.2
+          ],
+          [
+            118.35,
+            36.86
+          ],
+          [
+            120.05,
+            36.72
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "yan",
+        "startDate": "-0279-01-01",
+        "endDate": "-0279-12-31",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "燕军下齐围即墨",
+          "en": "Yan overruns Qi and besieges Jimo"
+        },
+        "description": {
+          "zh": "济西之后乐毅长驱下齐七十余城，入临淄，唯莒与即墨未下，围即墨。示意简化路线，待史料校订。",
+          "en": "After the Ji River victory Yue Yi overran more than seventy Qi cities and entered Linzi; only Ju and Jimo held out, and he besieged Jimo. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            119,
+            40.8
+          ],
+          [
+            123.17,
+            41.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "yan",
+        "startDate": "-0226-01-01",
+        "endDate": "-0222-12-31",
+        "order": 3,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "燕王喜退保辽东",
+          "en": "King Xi of Yan retreats to Liaodong"
+        },
+        "description": {
+          "zh": "前 226 年蓟陷，燕王喜与太子丹走保辽东；前 222 年秦拔辽东，燕亡。示意简化路线，待史料校订。",
+          "en": "After Ji fell in 226 BCE, King Xi and Crown Prince Dan fled to Liaodong; Qin took Liaodong and ended Yan in 222. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            109.94,
+            33.87
+          ],
+          [
+            110.6,
+            33.6
+          ],
+          [
+            111.49,
+            33.14
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0312-01-01",
+        "endDate": "-0312-12-31",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "秦军出武关攻楚",
+          "en": "Qin marches through Wu Pass against Chu"
+        },
+        "description": {
+          "zh": "秦自咸阳经武关南下，大败楚师于丹阳，取汉中。示意简化路线，待史料校订。",
+          "en": "Qin marched south from Xianyang through Wu Pass, defeated Chu at Danyang and took Hanzhong. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            110.92,
+            34.62
+          ],
+          [
+            112.45,
+            34.62
+          ],
+          [
+            112.47,
+            34.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0293-01-01",
+        "endDate": "-0293-12-31",
+        "order": 3,
+        "segmentType": "advance",
+        "name": {
+          "zh": "白起东出伊阙",
+          "en": "Bai Qi advances to Yique"
+        },
+        "description": {
+          "zh": "白起自咸阳东出函谷关，经洛阳至伊阙，破韩魏联军。示意简化路线，待史料校订。",
+          "en": "Bai Qi marched east from Xianyang through Hangu Pass and Luoyang to Yique, where he destroyed the Han–Wei army. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            110.92,
+            34.62
+          ],
+          [
+            112.45,
+            34.62
+          ],
+          [
+            113.6,
+            36.2
+          ],
+          [
+            115.98,
+            36.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0284-01-01",
+        "endDate": "-0284-12-31",
+        "order": 4,
+        "segmentType": "advance",
+        "name": {
+          "zh": "秦师会伐齐",
+          "en": "Qin joins the coalition against Qi"
+        },
+        "description": {
+          "zh": "秦以五国伐齐之役出兵，自关中经洛阳、邯郸东会诸侯之师于济西。示意简化路线，待史料校订。",
+          "en": "Qin joined the five-state coalition, marching from Guanzhong via Luoyang and Handan to join the allied forces west of the Ji River. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            110.6,
+            33.6
+          ],
+          [
+            112.53,
+            33
+          ],
+          [
+            112.09,
+            32.68
+          ],
+          [
+            112.26,
+            31.72
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0279-01-01",
+        "endDate": "-0278-12-31",
+        "order": 5,
+        "segmentType": "advance",
+        "name": {
+          "zh": "白起南下拔鄢",
+          "en": "Bai Qi marches south to Yan"
+        },
+        "description": {
+          "zh": "白起自咸阳经南阳、邓南下，引鄢水灌城拔鄢，次年拔郢。示意简化路线，待史料校订。",
+          "en": "Bai Qi moved south from Xianyang via Nanyang and Deng, flooded and took Yan, then captured Ying the next year. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            110.92,
+            34.62
+          ],
+          [
+            111.58,
+            35.1
+          ],
+          [
+            112.92,
+            35.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0262-04-01",
+        "endDate": "-0260-10-01",
+        "order": 6,
+        "segmentType": "advance",
+        "name": {
+          "zh": "秦军东进长平",
+          "en": "Qin advances to Changping"
+        },
+        "description": {
+          "zh": "秦自咸阳经河东东进上党，与赵军对峙长平。示意简化路线，待史料校订。",
+          "en": "Qin advanced east from Xianyang through Hedong into Shangdang and faced Zhao at Changping. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.92,
+            35.8
+          ],
+          [
+            113.6,
+            36.2
+          ],
+          [
+            114.49,
+            36.61
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0259-09-01",
+        "endDate": "-0257-01-01",
+        "order": 7,
+        "segmentType": "advance",
+        "name": {
+          "zh": "秦军围邯郸",
+          "en": "Qin besieges Handan"
+        },
+        "description": {
+          "zh": "长平之后秦军自上党东进，围赵都邯郸；前 257 年解围而退。示意简化路线，待史料校订。",
+          "en": "After Changping the Qin army moved east from Shangdang and besieged Handan; it withdrew in 257 BCE. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            110.92,
+            34.62
+          ],
+          [
+            112.45,
+            34.62
+          ],
+          [
+            113.74,
+            34.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0230-01-01",
+        "endDate": "-0230-12-31",
+        "order": 8,
+        "segmentType": "advance",
+        "name": {
+          "zh": "内史腾灭韩",
+          "en": "Neishi Teng destroys Han"
+        },
+        "description": {
+          "zh": "内史腾自咸阳东出，经洛阳攻新郑，虏韩王安。示意简化路线，待史料校订。",
+          "en": "Neishi Teng marched east from Xianyang via Luoyang to Xinzheng and captured King An of Han. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            110.92,
+            34.62
+          ],
+          [
+            112.45,
+            34.62
+          ],
+          [
+            113.6,
+            36.2
+          ],
+          [
+            114.49,
+            36.61
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0228-01-01",
+        "endDate": "-0228-12-31",
+        "order": 9,
+        "segmentType": "advance",
+        "name": {
+          "zh": "王翦灭赵",
+          "en": "Wang Jian destroys Zhao"
+        },
+        "description": {
+          "zh": "王翦北上攻赵，破邯郸，虏赵王迁。示意简化路线，待史料校订。",
+          "en": "Wang Jian marched north, took Handan and captured King Qian of Zhao. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            112.45,
+            34.62
+          ],
+          [
+            114.31,
+            34.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0225-01-01",
+        "endDate": "-0225-12-31",
+        "order": 10,
+        "segmentType": "advance",
+        "name": {
+          "zh": "王贲灭魏",
+          "en": "Wang Ben destroys Wei"
+        },
+        "description": {
+          "zh": "王贲自关中经洛阳东进，引河沟之水灌大梁，魏亡。示意简化路线，待史料校订。",
+          "en": "Wang Ben advanced from Guanzhong via Luoyang, flooded Daliang with river water, and destroyed Wei. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            112.53,
+            33
+          ],
+          [
+            114.88,
+            33.73
+          ],
+          [
+            116.79,
+            32.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0223-01-01",
+        "endDate": "-0223-12-31",
+        "order": 11,
+        "segmentType": "advance",
+        "name": {
+          "zh": "王翦灭楚",
+          "en": "Wang Jian destroys Chu"
+        },
+        "description": {
+          "zh": "王翦率六十万自咸阳经南阳、陈南下，破楚军于蕲，虏楚王负刍。示意简化路线，待史料校订。",
+          "en": "Wang Jian led 600,000 men south from Xianyang via Nanyang and Chen, defeated Chu at Qi and captured King Fuchu. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            114.49,
+            36.61
+          ],
+          [
+            116.4,
+            39.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0222-01-01",
+        "endDate": "-0222-12-31",
+        "order": 12,
+        "segmentType": "advance",
+        "name": {
+          "zh": "王贲灭燕",
+          "en": "Wang Ben destroys Yan"
+        },
+        "description": {
+          "zh": "王贲自关中北上，经邯郸攻辽东，虏燕王喜。示意简化路线，待史料校订。",
+          "en": "Wang Ben marched north from Guanzhong through Handan into Liaodong and captured King Xi of Yan. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            117.2,
+            38.2
+          ],
+          [
+            118.35,
+            36.86
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0221-01-01",
+        "endDate": "-0221-12-31",
+        "order": 13,
+        "segmentType": "advance",
+        "name": {
+          "zh": "王贲自燕灭齐",
+          "en": "Wang Ben destroys Qi from Yan"
+        },
+        "description": {
+          "zh": "王贲自燕地南下，突袭临淄，齐王建不战而降，秦统一天下。示意简化路线，待史料校订。",
+          "en": "Wang Ben marched south from Yan, struck Linzi, and King Jian of Qi surrendered without a battle, completing unification. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.19,
+            30.35
+          ],
+          [
+            111.94,
+            31.9
+          ],
+          [
+            111.49,
+            33.14
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "chu",
+        "startDate": "-0312-01-01",
+        "endDate": "-0312-12-31",
+        "order": 1,
+        "segmentType": "defense",
+        "name": {
+          "zh": "楚师迎战丹阳",
+          "en": "Chu meets Qin at Danyang"
+        },
+        "description": {
+          "zh": "楚将屈匄率师北上迎击秦军，大败于丹阳，汉中失守。示意简化路线，待史料校订。",
+          "en": "General Qu Gai led the Chu army north against Qin and was crushed at Danyang, losing Hanzhong. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.19,
+            30.35
+          ],
+          [
+            112.22,
+            31.1
+          ],
+          [
+            112.26,
+            31.72
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "chu",
+        "startDate": "-0279-01-01",
+        "endDate": "-0278-12-31",
+        "order": 3,
+        "segmentType": "defense",
+        "name": {
+          "zh": "楚守鄢郢",
+          "en": "Chu defends Yan and Ying"
+        },
+        "description": {
+          "zh": "白起南下，楚军退守鄢、郢；鄢城破后郢都失陷，楚东迁陈。示意简化路线，待史料校订。",
+          "en": "As Bai Qi advanced south, Chu withdrew to defend Yan and Ying; after Yan fell, the capital Ying was lost and Chu moved east to Chen. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.79,
+            32.6
+          ],
+          [
+            116.85,
+            32.65
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "chu",
+        "startDate": "-0223-01-01",
+        "endDate": "-0223-12-31",
+        "order": 4,
+        "segmentType": "defense",
+        "name": {
+          "zh": "楚守寿春",
+          "en": "Chu holds Shouchun"
+        },
+        "description": {
+          "zh": "楚迁都寿春后，王翦破楚军，虏楚王负刍，楚亡。此处仅示寿春守御态势。示意简化，待史料校订。",
+          "en": "After Chu moved its capital to Shouchun, Wang Jian defeated its army and captured King Fuchu, ending Chu. This segment only marks the defense of Shouchun. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.74,
+            34.4
+          ],
+          [
+            113.1,
+            34.5
+          ],
+          [
+            112.47,
+            34.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "han",
+        "startDate": "-0293-01-01",
+        "endDate": "-0293-12-31",
+        "order": 1,
+        "segmentType": "defense",
+        "name": {
+          "zh": "韩师守伊阙",
+          "en": "Han holds Yique"
+        },
+        "description": {
+          "zh": "韩、魏联军守伊阙以拒秦，为白起所破。示意简化路线，待史料校订。",
+          "en": "Han and Wei forces held Yique against Qin but were destroyed by Bai Qi. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.74,
+            34.4
+          ],
+          [
+            114.31,
+            34.8
+          ],
+          [
+            115.98,
+            36.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "han",
+        "startDate": "-0284-01-01",
+        "endDate": "-0284-12-31",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "韩师会伐齐",
+          "en": "Han joins the coalition against Qi"
+        },
+        "description": {
+          "zh": "韩以五国伐齐之役出兵，自新郑经大梁东会诸侯之师于济西。示意简化路线，待史料校订。",
+          "en": "Han joined the five-state coalition, marching from Xinzheng via Daliang to join the allies west of the Ji River. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.74,
+            34.4
+          ],
+          [
+            113.8,
+            34.46
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "han",
+        "startDate": "-0230-01-01",
+        "endDate": "-0230-12-31",
+        "order": 3,
+        "segmentType": "defense",
+        "name": {
+          "zh": "韩守新郑",
+          "en": "Han holds Xinzheng"
+        },
+        "description": {
+          "zh": "内史腾攻新郑，虏韩王安，韩亡。此处仅示韩都新郑的守御态势。示意简化，待史料校订。",
+          "en": "Neishi Teng took Xinzheng and captured King An, ending Han. This segment only marks the defense of the Han capital Xinzheng. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.49,
+            36.61
+          ],
+          [
+            115.2,
+            36.5
+          ],
+          [
+            115.98,
+            36.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "zhao",
+        "startDate": "-0284-01-01",
+        "endDate": "-0284-12-31",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "赵师会伐齐",
+          "en": "Zhao joins the coalition against Qi"
+        },
+        "description": {
+          "zh": "赵以五国伐齐之役出兵，自邯郸东会诸侯之师于济西。示意简化路线，待史料校订。",
+          "en": "Zhao joined the five-state coalition, marching east from Handan to join the allies west of the Ji River. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.49,
+            36.61
+          ],
+          [
+            113.8,
+            36.3
+          ],
+          [
+            112.92,
+            35.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "zhao",
+        "startDate": "-0262-04-01",
+        "endDate": "-0260-10-01",
+        "order": 3,
+        "segmentType": "advance",
+        "name": {
+          "zh": "赵军赴长平",
+          "en": "Zhao marches to Changping"
+        },
+        "description": {
+          "zh": "赵自邯郸西进上党，廉颇筑垒拒秦，后赵括代将而败。示意简化路线，待史料校订。",
+          "en": "Zhao moved west from Handan into Shangdang; Lian Po fortified his position against Qin until Zhao Kuo replaced him and was defeated. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.49,
+            36.61
+          ],
+          [
+            114.43,
+            36.68
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "zhao",
+        "startDate": "-0259-09-01",
+        "endDate": "-0257-01-01",
+        "order": 4,
+        "segmentType": "defense",
+        "name": {
+          "zh": "赵守邯郸",
+          "en": "Zhao holds Handan"
+        },
+        "description": {
+          "zh": "秦围邯郸，赵人坚守，终得魏、楚救援而解围。此处仅示邯郸守御态势。示意简化，待史料校订。",
+          "en": "Qin besieged Handan; the Zhao held out until Wei and Chu relief lifted the siege. This segment only marks the defense of Handan. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.49,
+            36.61
+          ],
+          [
+            114.55,
+            36.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "zhao",
+        "startDate": "-0228-01-01",
+        "endDate": "-0228-12-31",
+        "order": 6,
+        "segmentType": "defense",
+        "name": {
+          "zh": "赵守邯郸（亡国）",
+          "en": "Zhao holds Handan (fall of Zhao)"
+        },
+        "description": {
+          "zh": "王翦破邯郸，虏赵王迁，赵亡。此处仅示邯郸守御态势。示意简化，待史料校订。",
+          "en": "Wang Jian took Handan and captured King Qian, ending Zhao. This segment only marks the defense of Handan. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.49,
+            36.61
+          ],
+          [
+            114.55,
+            35.9
+          ],
+          [
+            114.55,
+            35.2
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wei",
+        "startDate": "-0353-01-01",
+        "endDate": "-0353-12-31",
+        "order": 1,
+        "segmentType": "retreat",
+        "name": {
+          "zh": "魏军自邯郸回师桂陵",
+          "en": "Wei returns from Handan to Guiling"
+        },
+        "description": {
+          "zh": "魏军围邯郸，闻齐师趋大梁，回师自救，于桂陵为齐所败。示意简化路线，待史料校订。",
+          "en": "Wei besieged Handan, then turned back to save Daliang and was defeated by Qi at Guiling. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.31,
+            34.8
+          ],
+          [
+            115,
+            35.5
+          ],
+          [
+            115.67,
+            36.02
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wei",
+        "startDate": "-0341-01-01",
+        "endDate": "-0341-12-31",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "魏军追击齐师至马陵",
+          "en": "Wei pursues Qi to Maling"
+        },
+        "description": {
+          "zh": "魏将庞涓率师追击齐军，中孙膑减灶之计，覆没于马陵。示意简化路线，待史料校订。",
+          "en": "General Pang Juan pursued the Qi army, fell for Sun Bin's decreasing-stove ruse and was destroyed at Maling. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.31,
+            34.8
+          ],
+          [
+            113.3,
+            34.68
+          ],
+          [
+            112.47,
+            34.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wei",
+        "startDate": "-0293-01-01",
+        "endDate": "-0293-12-31",
+        "order": 3,
+        "segmentType": "defense",
+        "name": {
+          "zh": "魏师守伊阙",
+          "en": "Wei holds Yique"
+        },
+        "description": {
+          "zh": "韩、魏联军守伊阙以拒秦，为白起所破。示意简化路线，待史料校订。",
+          "en": "Han and Wei forces held Yique against Qin but were destroyed by Bai Qi. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.31,
+            34.8
+          ],
+          [
+            115,
+            35.6
+          ],
+          [
+            115.98,
+            36.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wei",
+        "startDate": "-0284-01-01",
+        "endDate": "-0284-12-31",
+        "order": 4,
+        "segmentType": "advance",
+        "name": {
+          "zh": "魏师会伐齐",
+          "en": "Wei joins the coalition against Qi"
+        },
+        "description": {
+          "zh": "魏以五国伐齐之役出兵，自大梁东会诸侯之师于济西。示意简化路线，待史料校订。",
+          "en": "Wei joined the five-state coalition, marching east from Daliang to join the allies west of the Ji River. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.31,
+            34.8
+          ],
+          [
+            114.4,
+            35.7
+          ],
+          [
+            114.49,
+            36.61
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wei",
+        "startDate": "-0259-09-01",
+        "endDate": "-0257-01-01",
+        "order": 5,
+        "segmentType": "advance",
+        "name": {
+          "zh": "信陵君救赵",
+          "en": "Lord Xinling relieves Zhao"
+        },
+        "description": {
+          "zh": "魏安釐王遣晋鄙救赵，信陵君窃符夺军，进至邯郸，与楚师共解邯郸之围。示意简化路线，待史料校订。",
+          "en": "Lord Xinling seized command from Jin Bi by stealing the tally, advanced to Handan and, with Chu forces, lifted the siege of Handan. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.31,
+            34.8
+          ],
+          [
+            114.38,
+            34.86
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wei",
+        "startDate": "-0225-01-01",
+        "endDate": "-0225-12-31",
+        "order": 6,
+        "segmentType": "defense",
+        "name": {
+          "zh": "魏守大梁",
+          "en": "Wei holds Daliang"
+        },
+        "description": {
+          "zh": "王贲引河沟之水灌大梁，魏王假降，魏亡。此处仅示大梁守御态势。示意简化，待史料校订。",
+          "en": "Wang Ben flooded Daliang with river water; King Jia of Wei surrendered and Wei fell. This segment only marks the defense of Daliang. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            107.03,
+            33.07
+          ],
+          [
+            104.07,
+            30.67
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0316-01-01",
+        "endDate": "-0316-12-31",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "秦军取巴蜀",
+          "en": "Qin conquers Ba and Shu"
+        },
+        "description": {
+          "zh": "司马错自咸阳南下，经汉中入蜀，灭蜀取巴，秦得巴蜀之饶。示意简化路线，待史料校订。",
+          "en": "Sima Cuo marched south from Xianyang via Hanzhong into Shu, destroyed Shu and took Ba, gaining the rich Ba-Shu basin. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.49,
+            36.61
+          ],
+          [
+            114,
+            37.5
+          ],
+          [
+            114.4,
+            38.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "zhao",
+        "startDate": "-0296-01-01",
+        "endDate": "-0296-12-31",
+        "order": 1,
+        "segmentType": "advance",
+        "name": {
+          "zh": "赵攻灭中山",
+          "en": "Zhao destroys Zhongshan"
+        },
+        "description": {
+          "zh": "赵武灵王胡服骑射后连年攻中山，前 296 年灭之，迁其王于肤施。示意简化路线，待史料校订。",
+          "en": "After adopting nomadic dress and cavalry, King Wuling of Zhao attacked Zhongshan repeatedly and destroyed it in 296 BCE, relocating its king to Fushi. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.19,
+            30.35
+          ],
+          [
+            116,
+            30.5
+          ],
+          [
+            120.6,
+            31.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "chu",
+        "startDate": "-0306-01-01",
+        "endDate": "-0306-12-31",
+        "order": 2,
+        "segmentType": "advance",
+        "name": {
+          "zh": "楚伐越取吴",
+          "en": "Chu conquers Yue and takes Wu"
+        },
+        "description": {
+          "zh": "楚乘越内乱伐之，杀越王无疆，尽取吴故地，越自此散亡。示意简化路线，待史料校订。",
+          "en": "Chu exploited Yue's internal strife, killed King Wujiang of Yue and took the old Wu lands, after which Yue dispersed. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.35,
+            36.86
+          ],
+          [
+            117.2,
+            38.2
+          ],
+          [
+            116.4,
+            39.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qi",
+        "startDate": "-0314-01-01",
+        "endDate": "-0314-12-31",
+        "order": 3,
+        "segmentType": "advance",
+        "name": {
+          "zh": "齐破燕入蓟",
+          "en": "Qi breaks Yan and enters Ji"
+        },
+        "description": {
+          "zh": "燕王哙让位子之，国乱；齐宣王令匡章伐燕，五旬破燕都蓟。示意简化路线，待史料校订。",
+          "en": "After King Kuai of Yan abdicated to Zizhi and the state fell into disorder, King Xuan of Qi sent Kuang Zhang against Yan and took its capital Ji within fifty days. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.49,
+            36.61
+          ],
+          [
+            113.5,
+            38.2
+          ],
+          [
+            112.43,
+            39
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "zhao",
+        "startDate": "-0244-01-01",
+        "endDate": "-0244-12-31",
+        "order": 5,
+        "segmentType": "advance",
+        "name": {
+          "zh": "李牧北破匈奴",
+          "en": "Li Mu defeats the Xiongnu"
+        },
+        "description": {
+          "zh": "李牧守代、雁门，坚壁养士，设奇阵大破匈奴十余万骑。示意简化路线，待史料校订。",
+          "en": "Li Mu held Dai and Yanmen, husbanded his strength and then destroyed more than 100,000 Xiongnu cavalry with a trap. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            109.6,
+            34.6
+          ],
+          [
+            109.95,
+            34.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0340-01-01",
+        "endDate": "-0340-12-31",
+        "order": 14,
+        "segmentType": "advance",
+        "name": {
+          "zh": "商鞅东出取河西",
+          "en": "Shang Yang marches east to Hexi"
+        },
+        "description": {
+          "zh": "商鞅自咸阳东出，诱擒魏将公子卬，破魏军于河西。示意简化路线，待史料校订。",
+          "en": "Shang Yang marched east from Xianyang, seized the Wei general Gongzi Ang and defeated the Wei army in Hexi. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.22,
+            35.14
+          ],
+          [
+            110.4,
+            35.35
+          ],
+          [
+            109.95,
+            34.8
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wei",
+        "startDate": "-0340-01-01",
+        "endDate": "-0340-12-31",
+        "order": 7,
+        "segmentType": "defense",
+        "name": {
+          "zh": "魏军守河西",
+          "en": "Wei defends Hexi"
+        },
+        "description": {
+          "zh": "魏军自安邑西渡，守河西之地，为秦所破。防线示意，不参与端点校验。",
+          "en": "Wei troops moved west from Anyi to hold the Hexi lands and were defeated by Qin. Schematic defensive line."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.35,
+            36.86
+          ],
+          [
+            116.6,
+            35.6
+          ],
+          [
+            115.65,
+            34.44
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qi",
+        "startDate": "-0286-01-01",
+        "endDate": "-0286-12-31",
+        "order": 6,
+        "segmentType": "advance",
+        "name": {
+          "zh": "齐军灭宋",
+          "en": "Qi conquers Song"
+        },
+        "description": {
+          "zh": "齐湣王自临淄发兵南下，灭宋而取其地。示意简化路线，待史料校订。",
+          "en": "King Min of Qi marched south from Linzi and annexed Song. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            107.9,
+            35
+          ],
+          [
+            107.64,
+            35.73
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0272-01-01",
+        "endDate": "-0272-12-31",
+        "order": 15,
+        "segmentType": "advance",
+        "name": {
+          "zh": "秦军灭义渠",
+          "en": "Qin destroys Yiqu"
+        },
+        "description": {
+          "zh": "秦自咸阳西北出，攻灭义渠戎，置陇西、北地、上郡。示意简化路线，待史料校订。",
+          "en": "Qin marched northwest from Xianyang, destroyed the Yiqu and set up the Longxi, Beidi and Shangjun commanderies. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.43,
+            39
+          ],
+          [
+            113.6,
+            38.6
+          ],
+          [
+            114.9,
+            38
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "zhao",
+        "startDate": "-0233-01-01",
+        "endDate": "-0233-12-31",
+        "order": 7,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "李牧自雁门救宜安",
+          "en": "Li Mu relieves Yi’an from Yanmen"
+        },
+        "description": {
+          "zh": "李牧自雁门南下，反击秦军于宜安，大破之。示意简化路线，待史料校订。",
+          "en": "Li Mu marched south from Yanmen and counter-attacked the Qin army at Yi’an, routing it. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.6,
+            36.2
+          ],
+          [
+            114.2,
+            37.3
+          ],
+          [
+            114.9,
+            38
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0233-01-01",
+        "endDate": "-0233-12-31",
+        "order": 16,
+        "segmentType": "advance",
+        "name": {
+          "zh": "秦军攻宜安",
+          "en": "Qin attacks Yi’an"
+        },
+        "description": {
+          "zh": "秦将桓齮自邺北上，攻取赤丽、宜安，进逼邯郸，为李牧所破。示意简化路线，待史料校订。",
+          "en": "Qin general Huan Yi marched north from Ye, took Chili and Yi’an and threatened Handan before being routed by Li Mu. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            115.5,
+            38.6
+          ],
+          [
+            114.68,
+            37.48
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "yan",
+        "startDate": "-0251-01-01",
+        "endDate": "-0251-12-31",
+        "order": 4,
+        "segmentType": "advance",
+        "name": {
+          "zh": "燕军南下攻鄗",
+          "en": "Yan marches on Hao"
+        },
+        "description": {
+          "zh": "燕王喜发兵自蓟南下攻赵，战于鄗，大败。示意简化路线，待史料校订。",
+          "en": "King Xi of Yan marched south from Ji against Zhao and was routed at Hao. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.49,
+            36.61
+          ],
+          [
+            114.6,
+            37
+          ],
+          [
+            114.68,
+            37.48
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "zhao",
+        "startDate": "-0251-01-01",
+        "endDate": "-0251-12-31",
+        "order": 8,
+        "segmentType": "counterattack",
+        "name": {
+          "zh": "廉颇破燕于鄗",
+          "en": "Lian Po defeats Yan at Hao"
+        },
+        "description": {
+          "zh": "廉颇自邯郸北上迎击燕军，破之于鄗，追北至燕都。示意简化路线，待史料校订。",
+          "en": "Lian Po marched north from Handan, crushed the Yan army at Hao and pursued it to the Yan capital. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            119,
+            40.8
+          ],
+          [
+            123.17,
+            41.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "yan",
+        "startDate": "-0300-01-01",
+        "endDate": "-0300-12-31",
+        "order": 5,
+        "segmentType": "advance",
+        "name": {
+          "zh": "秦开破东胡拓辽东",
+          "en": "Qin Kai drives back the Donghu"
+        },
+        "description": {
+          "zh": "燕将秦开自蓟东北出，袭破东胡，拓地至襄平，置五郡。示意简化路线，待史料校订。",
+          "en": "Yan general Qin Kai marched northeast from Ji, broke the Donghu and extended Yan’s territory to Xiangping, setting up five commanderies. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.79,
+            32.6
+          ],
+          [
+            117.4,
+            34.2
+          ],
+          [
+            116.99,
+            35.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "chu",
+        "startDate": "-0256-01-01",
+        "endDate": "-0256-12-31",
+        "order": 5,
+        "segmentType": "advance",
+        "name": {
+          "zh": "楚军灭鲁",
+          "en": "Chu conquers Lu"
+        },
+        "description": {
+          "zh": "楚考烈王自寿春北上，伐灭鲁国，迁鲁君于莒。示意简化路线，待史料校订。",
+          "en": "King Kaolie of Chu marched north from Shouchun, destroyed Lu and exiled its ruler to Ju. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.49,
+            36.61
+          ],
+          [
+            113.4,
+            38
+          ],
+          [
+            112.43,
+            39
+          ],
+          [
+            111.5,
+            40.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "zhao",
+        "startDate": "-0307-01-01",
+        "endDate": "-0307-12-31",
+        "order": 9,
+        "segmentType": "advance",
+        "name": {
+          "zh": "赵武灵王北略林胡楼烦",
+          "en": "King Wuling of Zhao campaigns north"
+        },
+        "description": {
+          "zh": "赵自邯郸北上，经雁门至云中，破林胡、楼烦。示意简化路线，待史料校订。",
+          "en": "Zhao marched north from Handan via Yanmen to Yunzhong and defeated the Linhu and Loufan. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.19,
+            30.35
+          ],
+          [
+            114,
+            31.5
+          ],
+          [
+            116.72,
+            32.71
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "chu",
+        "startDate": "-0447-01-01",
+        "endDate": "-0447-12-31",
+        "order": 6,
+        "segmentType": "advance",
+        "name": {
+          "zh": "楚师东进灭蔡",
+          "en": "Chu marches east against Cai"
+        },
+        "description": {
+          "zh": "楚自郢东出，经淮水上游至下蔡，灭蔡国。示意简化路线，待史料校订。",
+          "en": "Chu marched east from Ying via the upper Huai to Xiacai and destroyed Cai. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.19,
+            30.35
+          ],
+          [
+            115,
+            32
+          ],
+          [
+            117.5,
+            34
+          ],
+          [
+            118.84,
+            35.58
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "chu",
+        "startDate": "-0431-01-01",
+        "endDate": "-0431-12-31",
+        "order": 7,
+        "segmentType": "advance",
+        "name": {
+          "zh": "楚师北伐灭莒",
+          "en": "Chu marches north against Ju"
+        },
+        "description": {
+          "zh": "楚自郢北上，经泗水流域至莒，灭莒国。示意简化路线，待史料校订。",
+          "en": "Chu marched north from Ying through the Si River region to Ju and destroyed it. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.47,
+            34.15
+          ],
+          [
+            113.74,
+            34.4
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "han",
+        "startDate": "-0375-01-01",
+        "endDate": "-0375-12-31",
+        "order": 4,
+        "segmentType": "advance",
+        "name": {
+          "zh": "韩自阳翟灭郑",
+          "en": "Han takes Zheng from Yangzhai"
+        },
+        "description": {
+          "zh": "韩自阳翟东进，灭郑，徙都新郑。示意简化路线，待史料校订。",
+          "en": "Han marched east from Yangzhai, destroyed Zheng and moved its capital to Xinzheng. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.22,
+            35.14
+          ],
+          [
+            110.6,
+            34.9
+          ],
+          [
+            110.09,
+            34.57
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wei",
+        "startDate": "-0389-01-01",
+        "endDate": "-0389-12-31",
+        "order": 8,
+        "segmentType": "advance",
+        "name": {
+          "zh": "吴起西攻阴晋",
+          "en": "Wu Qi advances on Yinjin"
+        },
+        "description": {
+          "zh": "魏自安邑西渡河，攻秦至阴晋，大破秦军。示意简化路线，待史料校订。",
+          "en": "Wei crossed the river west from Anyi and attacked Qin at Yinjin, routing it. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            109.4,
+            34.5
+          ],
+          [
+            110.09,
+            34.57
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0389-01-01",
+        "endDate": "-0389-12-31",
+        "order": 17,
+        "segmentType": "defense",
+        "name": {
+          "zh": "秦军守阴晋",
+          "en": "Qin defends Yinjin"
+        },
+        "description": {
+          "zh": "秦自咸阳东出，迎战魏军于阴晋，大败。防线示意，不参与端点校验。",
+          "en": "Qin marched east from Xianyang to meet Wei at Yinjin and was routed. Schematic defensive line."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            109.8,
+            34.6
+          ],
+          [
+            110.95,
+            34.85
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0364-01-01",
+        "endDate": "-0364-12-31",
+        "order": 18,
+        "segmentType": "advance",
+        "name": {
+          "zh": "秦献公东出石门",
+          "en": "Duke Xian of Qin marches to Shimen"
+        },
+        "description": {
+          "zh": "秦自咸阳东出，败三晋之师于石门。示意简化路线，待史料校订。",
+          "en": "Qin marched east from Xianyang and defeated the three Jin armies at Shimen. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.22,
+            35.14
+          ],
+          [
+            111,
+            35
+          ],
+          [
+            110.95,
+            34.85
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wei",
+        "startDate": "-0364-01-01",
+        "endDate": "-0364-12-31",
+        "order": 9,
+        "segmentType": "defense",
+        "name": {
+          "zh": "魏师守石门",
+          "en": "Wei holds Shimen"
+        },
+        "description": {
+          "zh": "魏自安邑南下，与秦战于石门，大败。防线示意，不参与端点校验。",
+          "en": "Wei moved south from Anyi and fought Qin at Shimen, suffering a heavy defeat. Schematic defensive line."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            109.8,
+            35
+          ],
+          [
+            110.44,
+            35.47
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0362-01-01",
+        "endDate": "-0362-12-31",
+        "order": 19,
+        "segmentType": "advance",
+        "name": {
+          "zh": "秦献公取少梁",
+          "en": "Duke Xian of Qin takes Shaoliang"
+        },
+        "description": {
+          "zh": "秦自咸阳东北出，败魏军于少梁，虏公叔痤。示意简化路线，待史料校订。",
+          "en": "Qin marched northeast from Xianyang, defeated Wei at Shaoliang and captured Gongsun Cuo. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.22,
+            35.14
+          ],
+          [
+            110.8,
+            35.35
+          ],
+          [
+            110.44,
+            35.47
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wei",
+        "startDate": "-0362-01-01",
+        "endDate": "-0362-12-31",
+        "order": 10,
+        "segmentType": "defense",
+        "name": {
+          "zh": "魏师守少梁",
+          "en": "Wei holds Shaoliang"
+        },
+        "description": {
+          "zh": "魏自安邑北渡，守少梁，为秦所败。防线示意，不参与端点校验。",
+          "en": "Wei crossed north from Anyi to hold Shaoliang and was defeated by Qin. Schematic defensive line."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.31,
+            34.8
+          ],
+          [
+            114.8,
+            35.6
+          ],
+          [
+            114.49,
+            36.61
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wei",
+        "startDate": "-0354-01-01",
+        "endDate": "-0353-12-31",
+        "order": 11,
+        "segmentType": "advance",
+        "name": {
+          "zh": "魏师围邯郸",
+          "en": "Wei besieges Handan"
+        },
+        "description": {
+          "zh": "魏自大梁北上，围赵都邯郸，次年拔之。示意简化路线，待史料校订。",
+          "en": "Wei marched north from Daliang, besieged Handan and took it the next year. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.49,
+            36.61
+          ],
+          [
+            114.55,
+            36.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "zhao",
+        "startDate": "-0354-01-01",
+        "endDate": "-0353-12-31",
+        "order": 10,
+        "segmentType": "defense",
+        "name": {
+          "zh": "赵守邯郸",
+          "en": "Zhao holds Handan"
+        },
+        "description": {
+          "zh": "赵军守邯郸，被围经年，赖齐救而解。防线示意，不参与端点校验。",
+          "en": "Zhao held Handan through a year-long siege until Qi’s relief. Schematic defensive line."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.31,
+            34.8
+          ],
+          [
+            113,
+            34.7
+          ],
+          [
+            111.8,
+            34.6
+          ],
+          [
+            110.87,
+            34.52
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wei",
+        "startDate": "-0318-01-01",
+        "endDate": "-0318-12-31",
+        "order": 12,
+        "segmentType": "advance",
+        "name": {
+          "zh": "魏师会攻函谷",
+          "en": "Wei joins the attack on Hangu"
+        },
+        "description": {
+          "zh": "魏自大梁西进，会五国之师于函谷关。示意简化路线，待史料校订。",
+          "en": "Wei marched west from Daliang to join the coalition at Hangu Pass. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.49,
+            36.61
+          ],
+          [
+            113.4,
+            35.6
+          ],
+          [
+            112.2,
+            34.9
+          ],
+          [
+            110.87,
+            34.52
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "zhao",
+        "startDate": "-0318-01-01",
+        "endDate": "-0318-12-31",
+        "order": 11,
+        "segmentType": "advance",
+        "name": {
+          "zh": "赵师会攻函谷",
+          "en": "Zhao joins the attack on Hangu"
+        },
+        "description": {
+          "zh": "赵自邯郸南下，经上党、河东至函谷关。示意简化路线，待史料校订。",
+          "en": "Zhao marched south from Handan via Shangdang and Hedong to Hangu Pass. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.74,
+            34.4
+          ],
+          [
+            112.8,
+            34.5
+          ],
+          [
+            111.8,
+            34.55
+          ],
+          [
+            110.87,
+            34.52
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "han",
+        "startDate": "-0318-01-01",
+        "endDate": "-0318-12-31",
+        "order": 5,
+        "segmentType": "advance",
+        "name": {
+          "zh": "韩师会攻函谷",
+          "en": "Han joins the attack on Hangu"
+        },
+        "description": {
+          "zh": "韩自新郑西进，会五国之师于函谷关。示意简化路线，待史料校订。",
+          "en": "Han marched west from Xinzheng to join the coalition at Hangu Pass. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            115.2,
+            37.8
+          ],
+          [
+            114.3,
+            36
+          ],
+          [
+            112.5,
+            34.9
+          ],
+          [
+            110.87,
+            34.52
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "yan",
+        "startDate": "-0318-01-01",
+        "endDate": "-0318-12-31",
+        "order": 6,
+        "segmentType": "advance",
+        "name": {
+          "zh": "燕师会攻函谷",
+          "en": "Yan joins the attack on Hangu"
+        },
+        "description": {
+          "zh": "燕自蓟南下，经赵、魏之境至函谷关。示意简化路线，待史料校订。",
+          "en": "Yan marched south from Ji through Zhao and Wei territory to Hangu Pass. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.19,
+            30.35
+          ],
+          [
+            112.3,
+            32
+          ],
+          [
+            112.4,
+            33.6
+          ],
+          [
+            111.8,
+            34.3
+          ],
+          [
+            110.87,
+            34.52
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "chu",
+        "startDate": "-0318-01-01",
+        "endDate": "-0318-12-31",
+        "order": 8,
+        "segmentType": "advance",
+        "name": {
+          "zh": "楚师为纵长会攻函谷",
+          "en": "Chu leads the coalition to Hangu"
+        },
+        "description": {
+          "zh": "楚怀王为纵长，自郢北上，经宛、洛至函谷关。示意简化路线，待史料校订。",
+          "en": "King Huai of Chu led the coalition north from Ying via Wan and Luo to Hangu Pass. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            108,
+            35
+          ],
+          [
+            107.64,
+            35.73
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0314-01-01",
+        "endDate": "-0314-12-31",
+        "order": 20,
+        "segmentType": "advance",
+        "name": {
+          "zh": "秦军伐义渠",
+          "en": "Qin campaigns against Yiqu"
+        },
+        "description": {
+          "zh": "秦自咸阳西北出，伐义渠，取二十五城。示意简化路线，待史料校订。",
+          "en": "Qin marched northwest from Xianyang, attacked Yiqu and took twenty-five towns. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.7,
+            35.85
+          ],
+          [
+            107.64,
+            35.73
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "yiqu",
+        "startDate": "-0314-01-01",
+        "endDate": "-0314-12-31",
+        "order": 1,
+        "segmentType": "defense",
+        "name": {
+          "zh": "义渠守城",
+          "en": "Yiqu defends its towns"
+        },
+        "description": {
+          "zh": "义渠军守陇东城邑，为秦所取。防线示意，不参与端点校验。",
+          "en": "Yiqu held its towns in eastern Gansu against Qin. Schematic defensive line."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            110.87,
+            34.52
+          ],
+          [
+            111.6,
+            34.55
+          ],
+          [
+            112.18,
+            34.52
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0307-01-01",
+        "endDate": "-0307-12-31",
+        "order": 21,
+        "segmentType": "advance",
+        "name": {
+          "zh": "甘茂攻宜阳",
+          "en": "Gan Mao attacks Yiyang"
+        },
+        "description": {
+          "zh": "秦自咸阳东出，经函谷、陕至宜阳，五月而拔。示意简化路线，待史料校订。",
+          "en": "Qin marched east from Xianyang through Hangu and Shan to Yiyang, taking it after five months. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.74,
+            34.4
+          ],
+          [
+            113,
+            34.45
+          ],
+          [
+            112.18,
+            34.52
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "han",
+        "startDate": "-0307-01-01",
+        "endDate": "-0307-12-31",
+        "order": 6,
+        "segmentType": "defense",
+        "name": {
+          "zh": "韩师守宜阳",
+          "en": "Han holds Yiyang"
+        },
+        "description": {
+          "zh": "韩自新郑西进，守宜阳，为秦所拔。防线示意，不参与端点校验。",
+          "en": "Han moved west from Xinzheng to hold Yiyang, which fell to Qin. Schematic defensive line."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.35,
+            36.86
+          ],
+          [
+            117,
+            35.2
+          ],
+          [
+            115.5,
+            33.6
+          ],
+          [
+            113.8,
+            32.9
+          ],
+          [
+            112.6,
+            32.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qi",
+        "startDate": "-0301-01-01",
+        "endDate": "-0301-12-31",
+        "order": 7,
+        "segmentType": "advance",
+        "name": {
+          "zh": "匡章率齐师攻楚",
+          "en": "Kuang Zhang leads Qi against Chu"
+        },
+        "description": {
+          "zh": "齐自临淄南下，经宋、魏之境至垂沙。示意简化路线，待史料校订。",
+          "en": "Qi marched south from Linzi through Song and Wei territory to Chuisha. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.31,
+            34.8
+          ],
+          [
+            113.6,
+            33.8
+          ],
+          [
+            112.6,
+            32.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wei",
+        "startDate": "-0301-01-01",
+        "endDate": "-0301-12-31",
+        "order": 13,
+        "segmentType": "advance",
+        "name": {
+          "zh": "魏师会攻垂沙",
+          "en": "Wei joins the attack at Chuisha"
+        },
+        "description": {
+          "zh": "魏自大梁南下，会齐、韩之师于垂沙。示意简化路线，待史料校订。",
+          "en": "Wei marched south from Daliang to join Qi and Han at Chuisha. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.74,
+            34.4
+          ],
+          [
+            113.2,
+            33.5
+          ],
+          [
+            112.6,
+            32.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "han",
+        "startDate": "-0301-01-01",
+        "endDate": "-0301-12-31",
+        "order": 7,
+        "segmentType": "advance",
+        "name": {
+          "zh": "韩师会攻垂沙",
+          "en": "Han joins the attack at Chuisha"
+        },
+        "description": {
+          "zh": "韩自新郑南下，会齐、魏之师于垂沙。示意简化路线，待史料校订。",
+          "en": "Han marched south from Xinzheng to join Qi and Wei at Chuisha. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.19,
+            30.35
+          ],
+          [
+            112.4,
+            31.4
+          ],
+          [
+            112.6,
+            32.45
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "chu",
+        "startDate": "-0301-01-01",
+        "endDate": "-0301-12-31",
+        "order": 9,
+        "segmentType": "defense",
+        "name": {
+          "zh": "楚师迎战垂沙",
+          "en": "Chu meets the allies at Chuisha"
+        },
+        "description": {
+          "zh": "楚自郢北上，迎战齐、魏、韩联军于垂沙，大败。防线示意，不参与端点校验。",
+          "en": "Chu marched north from Ying and was routed by the allies at Chuisha. Schematic defensive line."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.35,
+            36.86
+          ],
+          [
+            116.5,
+            35.6
+          ],
+          [
+            114.9,
+            34.9
+          ],
+          [
+            113,
+            34.7
+          ],
+          [
+            110.87,
+            34.52
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qi",
+        "startDate": "-0298-01-01",
+        "endDate": "-0296-12-31",
+        "order": 8,
+        "segmentType": "advance",
+        "name": {
+          "zh": "匡章攻函谷关",
+          "en": "Kuang Zhang attacks Hangu Pass"
+        },
+        "description": {
+          "zh": "齐自临淄西进，经宋、魏至函谷关，三年而破关。示意简化路线，待史料校订。",
+          "en": "Qi marched west from Linzi through Song and Wei to Hangu Pass, forcing it after three years. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.31,
+            34.8
+          ],
+          [
+            113,
+            34.7
+          ],
+          [
+            111.8,
+            34.6
+          ],
+          [
+            110.87,
+            34.52
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wei",
+        "startDate": "-0298-01-01",
+        "endDate": "-0296-12-31",
+        "order": 14,
+        "segmentType": "advance",
+        "name": {
+          "zh": "魏师会攻函谷",
+          "en": "Wei joins the attack on Hangu"
+        },
+        "description": {
+          "zh": "魏自大梁西进，会齐、韩之师攻函谷关。示意简化路线，待史料校订。",
+          "en": "Wei marched west from Daliang to join Qi and Han against Hangu Pass. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.74,
+            34.4
+          ],
+          [
+            112.8,
+            34.5
+          ],
+          [
+            111.8,
+            34.55
+          ],
+          [
+            110.87,
+            34.52
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "han",
+        "startDate": "-0298-01-01",
+        "endDate": "-0296-12-31",
+        "order": 8,
+        "segmentType": "advance",
+        "name": {
+          "zh": "韩师会攻函谷",
+          "en": "Han joins the attack on Hangu"
+        },
+        "description": {
+          "zh": "韩自新郑西进，会齐、魏之师攻函谷关。示意简化路线，待史料校订。",
+          "en": "Han marched west from Xinzheng to join Qi and Wei against Hangu Pass. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            110.87,
+            34.52
+          ],
+          [
+            112.45,
+            34.62
+          ],
+          [
+            113.72,
+            34.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0273-01-01",
+        "endDate": "-0273-12-31",
+        "order": 22,
+        "segmentType": "advance",
+        "name": {
+          "zh": "白起东出华阳",
+          "en": "Bai Qi marches to Huayang"
+        },
+        "description": {
+          "zh": "秦自咸阳东出，经函谷、洛阳至华阳，破魏赵联军。示意简化路线，待史料校订。",
+          "en": "Qin marched east from Xianyang through Hangu and Luoyang to Huayang, routing the Wei and Zhao armies. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.31,
+            34.8
+          ],
+          [
+            113.9,
+            34.65
+          ],
+          [
+            113.72,
+            34.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wei",
+        "startDate": "-0273-01-01",
+        "endDate": "-0273-12-31",
+        "order": 15,
+        "segmentType": "advance",
+        "name": {
+          "zh": "魏师迎战华阳",
+          "en": "Wei meets Qin at Huayang"
+        },
+        "description": {
+          "zh": "魏自大梁西进，会韩、赵之师迎战秦军于华阳，大败。示意简化路线，待史料校订。",
+          "en": "Wei marched west from Daliang to join Han and Zhao against Qin at Huayang and was routed. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.49,
+            36.61
+          ],
+          [
+            114.35,
+            36.1
+          ],
+          [
+            114,
+            35.2
+          ],
+          [
+            113.72,
+            34.55
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "zhao",
+        "startDate": "-0273-01-01",
+        "endDate": "-0273-12-31",
+        "order": 12,
+        "segmentType": "advance",
+        "name": {
+          "zh": "赵师救魏至华阳",
+          "en": "Zhao relieves Wei at Huayang"
+        },
+        "description": {
+          "zh": "赵自邯郸南下，救魏，与秦战于华阳，大败。示意简化路线，待史料校订。",
+          "en": "Zhao marched south from Handan to aid Wei and was defeated by Qin at Huayang. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.49,
+            36.61
+          ],
+          [
+            114.1,
+            36.95
+          ],
+          [
+            113.57,
+            37.33
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "zhao",
+        "startDate": "-0270-01-01",
+        "endDate": "-0270-12-31",
+        "order": 13,
+        "segmentType": "advance",
+        "name": {
+          "zh": "赵奢急趋阏与",
+          "en": "Zhao She races to Eyu"
+        },
+        "description": {
+          "zh": "赵奢自邯郸西出，卷甲急趋阏与，据北山破秦军。示意简化路线，待史料校订。",
+          "en": "Zhao She marched west from Handan and raced to Eyu, seizing the northern heights and routing Qin. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            110.6,
+            34.9
+          ],
+          [
+            111.9,
+            35.6
+          ],
+          [
+            112.9,
+            36.4
+          ],
+          [
+            113.57,
+            37.33
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0270-01-01",
+        "endDate": "-0270-12-31",
+        "order": 23,
+        "segmentType": "advance",
+        "name": {
+          "zh": "秦军围阏与",
+          "en": "Qin besieges Eyu"
+        },
+        "description": {
+          "zh": "秦自咸阳东出，经河东、上党围韩之阏与，为赵奢所破。示意简化路线，待史料校订。",
+          "en": "Qin marched east from Xianyang via Hedong and Shangdang to besiege the Han town of Eyu, where Zhao She defeated it. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.49,
+            36.61
+          ],
+          [
+            113.4,
+            35.9
+          ],
+          [
+            112.2,
+            35.1
+          ],
+          [
+            110.87,
+            34.52
+          ],
+          [
+            109.3,
+            34.42
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "zhao",
+        "startDate": "-0241-01-01",
+        "endDate": "-0241-12-31",
+        "order": 14,
+        "segmentType": "advance",
+        "name": {
+          "zh": "庞煖率五国之师攻蕞",
+          "en": "Pang Nuan leads the allies to Zui"
+        },
+        "description": {
+          "zh": "赵自邯郸西进，率五国之师攻秦至蕞，不克而还。示意简化路线，待史料校订。",
+          "en": "Zhao marched west from Handan, leading the allied armies to Zui; the attack failed and they withdrew. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.79,
+            32.6
+          ],
+          [
+            115.2,
+            33.3
+          ],
+          [
+            113.6,
+            34
+          ],
+          [
+            111.8,
+            34.4
+          ],
+          [
+            109.3,
+            34.42
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "chu",
+        "startDate": "-0241-01-01",
+        "endDate": "-0241-12-31",
+        "order": 10,
+        "segmentType": "advance",
+        "name": {
+          "zh": "楚师会攻蕞",
+          "en": "Chu joins the attack on Zui"
+        },
+        "description": {
+          "zh": "楚自寿春西进，会五国之师攻秦至蕞。示意简化路线，待史料校订。",
+          "en": "Chu marched west from Shouchun to join the coalition at Zui. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.31,
+            34.8
+          ],
+          [
+            113,
+            34.7
+          ],
+          [
+            111.8,
+            34.6
+          ],
+          [
+            110.87,
+            34.52
+          ],
+          [
+            109.3,
+            34.42
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "wei",
+        "startDate": "-0241-01-01",
+        "endDate": "-0241-12-31",
+        "order": 16,
+        "segmentType": "advance",
+        "name": {
+          "zh": "魏师会攻蕞",
+          "en": "Wei joins the attack on Zui"
+        },
+        "description": {
+          "zh": "魏自大梁西进，会五国之师攻秦至蕞。示意简化路线，待史料校订。",
+          "en": "Wei marched west from Daliang to join the coalition at Zui. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.74,
+            34.4
+          ],
+          [
+            112.6,
+            34.5
+          ],
+          [
+            111.4,
+            34.55
+          ],
+          [
+            110.87,
+            34.52
+          ],
+          [
+            109.3,
+            34.42
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "han",
+        "startDate": "-0241-01-01",
+        "endDate": "-0241-12-31",
+        "order": 9,
+        "segmentType": "advance",
+        "name": {
+          "zh": "韩师会攻蕞",
+          "en": "Han joins the attack on Zui"
+        },
+        "description": {
+          "zh": "韩自新郑西进，会五国之师攻秦至蕞。示意简化路线，待史料校订。",
+          "en": "Han marched west from Xinzheng to join the coalition at Zui. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.4,
+            39.9
+          ],
+          [
+            115.2,
+            37.8
+          ],
+          [
+            114.3,
+            36
+          ],
+          [
+            112.5,
+            34.9
+          ],
+          [
+            109.3,
+            34.42
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "yan",
+        "startDate": "-0241-01-01",
+        "endDate": "-0241-12-31",
+        "order": 7,
+        "segmentType": "advance",
+        "name": {
+          "zh": "燕师会攻蕞",
+          "en": "Yan joins the attack on Zui"
+        },
+        "description": {
+          "zh": "燕自蓟南下，经赵、魏之境至蕞。示意简化路线，待史料校订。",
+          "en": "Yan marched south from Ji through Zhao and Wei to Zui. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.6,
+            36.2
+          ],
+          [
+            114.1,
+            36.3
+          ],
+          [
+            114.55,
+            36.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0234-01-01",
+        "endDate": "-0234-12-31",
+        "order": 24,
+        "segmentType": "advance",
+        "name": {
+          "zh": "桓齮攻平阳",
+          "en": "Huan Yi attacks Pingyang"
+        },
+        "description": {
+          "zh": "秦自河东、上党东出，攻赵平阳。示意简化路线，待史料校订。",
+          "en": "Qin marched east from Hedong and Shangdang against Zhao’s Pingyang. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.49,
+            36.61
+          ],
+          [
+            114.55,
+            36.45
+          ],
+          [
+            114.55,
+            36.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "zhao",
+        "startDate": "-0234-01-01",
+        "endDate": "-0234-12-31",
+        "order": 15,
+        "segmentType": "defense",
+        "name": {
+          "zh": "扈辄救平阳",
+          "en": "Hu Zhe relieves Pingyang"
+        },
+        "description": {
+          "zh": "赵自邯郸南出，救平阳，军败将死。防线示意，不参与端点校验。",
+          "en": "Zhao marched south from Handan to relieve Pingyang and was defeated, its general killed. Schematic defensive line."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            111,
+            35.2
+          ],
+          [
+            113.4,
+            36.5
+          ],
+          [
+            115,
+            38.5
+          ],
+          [
+            116.4,
+            39.9
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0226-01-01",
+        "endDate": "-0226-12-31",
+        "order": 25,
+        "segmentType": "advance",
+        "name": {
+          "zh": "王翦破燕取蓟",
+          "en": "Wang Jian takes Ji"
+        },
+        "description": {
+          "zh": "秦自咸阳东北出，经易水破燕军，取蓟。示意简化路线，待史料校订。",
+          "en": "Qin marched northeast from Xianyang, defeated Yan at the Yi River and took Ji. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.71,
+            34.33
+          ],
+          [
+            111.5,
+            33.8
+          ],
+          [
+            113.5,
+            33.6
+          ],
+          [
+            115,
+            33.6
+          ],
+          [
+            115.85,
+            33.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "qin",
+        "startDate": "-0225-01-01",
+        "endDate": "-0224-12-31",
+        "order": 26,
+        "segmentType": "advance",
+        "name": {
+          "zh": "李信伐楚至城父",
+          "en": "Li Xin advances to Chengfu"
+        },
+        "description": {
+          "zh": "秦自咸阳东南出，经陈、平舆至城父，为楚军所破。示意简化路线，待史料校订。",
+          "en": "Qin marched southeast from Xianyang via Chen and Pingyu to Chengfu, where it was routed by Chu. Illustrative simplified route, pending historical review."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.79,
+            32.6
+          ],
+          [
+            116.3,
+            33.1
+          ],
+          [
+            115.85,
+            33.6
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "chu",
+        "startDate": "-0225-01-01",
+        "endDate": "-0224-12-31",
+        "order": 11,
+        "segmentType": "defense",
+        "name": {
+          "zh": "项燕反击城父",
+          "en": "Xiang Yan counterattacks at Chengfu"
+        },
+        "description": {
+          "zh": "楚自寿春东出，尾随秦军三日三夜，大破李信于城父。防线示意，不参与端点校验。",
+          "en": "Chu marched east from Shouchun, trailed the Qin army for three days and nights and crushed Li Xin at Chengfu. Schematic defensive line."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.5,
+            40.5
+          ],
+          [
+            111.9,
+            39.8
+          ],
+          [
+            112.43,
+            39
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "xiongnu",
+        "startDate": "-0244-01-01",
+        "endDate": "-0244-12-31",
+        "order": 1,
+        "segmentType": "defense",
+        "name": {
+          "zh": "匈奴北退",
+          "en": "The Xiongnu fall back"
+        },
+        "description": {
+          "zh": "李牧破匈奴，匈奴退走十余年不敢近赵边。防线示意，不参与端点校验。",
+          "en": "After Li Mu’s victory the Xiongnu withdrew and avoided the Zhao frontier for over a decade. Schematic defensive line."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            122.8,
+            41.7
+          ],
+          [
+            123,
+            41.5
+          ],
+          [
+            123.17,
+            41.27
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "donghu",
+        "startDate": "-0300-01-01",
+        "endDate": "-0300-12-31",
+        "order": 1,
+        "segmentType": "defense",
+        "name": {
+          "zh": "东胡北却",
+          "en": "The Donghu withdraw north"
+        },
+        "description": {
+          "zh": "秦开破东胡，东胡却千余里。防线示意，不参与端点校验。",
+          "en": "Qin Kai defeated the Donghu, who withdrew more than a thousand li. Schematic defensive line."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.85,
+            40.95
+          ],
+          [
+            111.6,
+            40.55
+          ],
+          [
+            111.5,
+            40.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "linhu",
+        "startDate": "-0307-01-01",
+        "endDate": "-0307-12-31",
+        "order": 1,
+        "segmentType": "defense",
+        "name": {
+          "zh": "林胡退走",
+          "en": "The Linhu withdraw"
+        },
+        "description": {
+          "zh": "赵武灵王北破林胡，林胡退走，赵置云中、雁门、代郡。防线示意，不参与端点校验。",
+          "en": "King Wuling of Zhao defeated the Linhu, who withdrew; Zhao set up Yunzhong, Yanmen and Dai commanderies. Schematic defensive line."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111,
+            40.65
+          ],
+          [
+            111.3,
+            40.4
+          ],
+          [
+            111.5,
+            40.3
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "loufan",
+        "startDate": "-0307-01-01",
+        "endDate": "-0307-12-31",
+        "order": 1,
+        "segmentType": "defense",
+        "name": {
+          "zh": "楼烦退走",
+          "en": "The Loufan withdraw"
+        },
+        "description": {
+          "zh": "赵武灵王北破楼烦，取其地置郡。防线示意，不参与端点校验。",
+          "en": "King Wuling of Zhao defeated the Loufan and took their land for commanderies. Schematic defensive line."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.8,
+            35.95
+          ],
+          [
+            107.64,
+            35.73
+          ]
+        ]
+      },
+      "properties": {
+        "entityId": "yiqu",
+        "startDate": "-0272-01-01",
+        "endDate": "-0272-12-31",
+        "order": 2,
+        "segmentType": "defense",
+        "name": {
+          "zh": "义渠残部退守",
+          "en": "Remnant Yiqu make a last stand"
+        },
+        "description": {
+          "zh": "秦宣太后诱杀义渠王，秦起兵灭义渠，置北地郡；残部退守。防线示意，不参与端点校验。",
+          "en": "Queen Dowager Xuan lured the Yiqu king to his death; Qin destroyed Yiqu and set up Beidi commandery, while remnants fell back. Schematic defensive line."
+        },
+        "extensions": {
+          "precision": "schematic"
+        }
+      }
+    }
+  ]
+}

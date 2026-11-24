@@ -86,8 +86,8 @@ export function Timeline() {
 
   const ticks = useMemo(() => {
     if (!viewport) return [];
-    return generateTicks(viewport, width || 340, { minLabelPx: 56 });
-  }, [viewport, width]);
+    return generateTicks(viewport, width || 340, { minLabelPx: 56, locale: dateLocale });
+  }, [viewport, width, dateLocale]);
 
   const currentEvent = useMemo(() => {
     if (!dataset) return undefined;

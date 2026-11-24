@@ -26,6 +26,14 @@ function toGcj(lng: number, lat: number) {
   return { latitude: point.lat, longitude: point.lng };
 }
 
+/** 实体的十六进制色 + 透明度转成 rgba，高德多边形只认一个 fillColor。 */
+function withAlpha(hex: string, alpha: number) {
+  const match = /^#([0-9a-f]{6})$/i.exec(hex.trim());
+  if (!match) return hex;
+  const value = Number.parseInt(match[1]!, 16);
+  return `rgba(${(value >> 16) & 255},${(value >> 8) & 255},${value & 255},${alpha})`;
+}
+
 export function AtlasMap() {
   const mapRef = useRef<MapViewRef>(null);
   const [mapReady, setMapReady] = useState(false);
@@ -39,6 +47,7 @@ export function AtlasMap() {
   const pause = useAtlasStore((state) => state.pause);
   const setMapView = useAtlasStore((state) => state.setMapView);
   const mapView = useAtlasStore((state) => state.mapView);
+  const showTerritories = useAtlasStore((state) => state.showTerritories);
   const showAdminBoundaries = useAtlasStore((state) => state.showAdminBoundaries);
   const showRegionLabels = useAtlasStore((state) => state.showRegionLabels);
   const regionFocus = useAtlasStore((state) => state.regionFocus);
@@ -67,6 +76,54 @@ export function AtlasMap() {
         : currentTime < parseDateString('1945-01-01')
           ? '1938'
           : '1945';
+
+  // 时代疆域：除历史省界外的所有疆域面，按实体配色半透明铺底。
+  // 时间区间 + 实体筛选与 Web 端 applyTerritoryVisibility 保持一致：
+  // 有路线/事件的实体参与图例筛选，纯疆域实体始终跟随开关显示。
+  const territoryPolygons = useMemo(() => {
+    if (!dataset || !showTerritories) return [];
+    const entitiesWithData = new Set([
+      ...dataset.routes.map((route) => route.properties.entityId),
+      ...dataset.events.flatMap((event) => event.entityIds),
+    ]);
+    const result: Array<{
+      key: string;
+      points: Array<{ latitude: number; longitude: number }>;
+      fillColor: string;
+      strokeColor: string;
+      strokeWidth: number;
+      dashed?: boolean;
+    }> = [];
+    for (const [index, feature] of dataset.territories.entries()) {
+      if (feature.properties.extensions?.kind === 'admin-boundary') continue;
+      const entityId = feature.properties.entityId;
+      if (entitiesWithData.has(entityId) && !activeEntityIds.has(entityId)) continue;
+      const start = parseDateString(feature.properties.startDate);
+      const end = parseDateString(feature.properties.endDate);
+      if (currentTime < start || currentTime > end) continue;
+      const entity = dataset.entitiesById.get(entityId);
+      const color = entity?.color ?? colors.moss;
+      const opacity = feature.properties.opacity ?? 0.16;
+      const parts =
+        feature.geometry.type === 'Polygon'
+          ? [feature.geometry.coordinates]
+          : feature.geometry.coordinates;
+      for (const [partIndex, rings] of parts.entries()) {
+        const outer = rings[0];
+        if (!outer || outer.length < 3) continue;
+        const dashed = feature.properties.extensions?.dashed === true;
+        result.push({
+          key: `territory:${entityId}:${index}:${partIndex}`,
+          points: outer.map(([lng, lat]) => toGcj(lng, lat)),
+          fillColor: withAlpha(color, opacity),
+          strokeColor: withAlpha(color, dashed ? 0 : 0.55),
+          strokeWidth: 1.2,
+          dashed,
+        });
+      }
+    }
+    return result;
+  }, [dataset, showTerritories, activeEntityIds, currentTime]);
 
   const adminPolygons = useMemo(() => {
     if (!dataset || !showAdminBoundaries) return [];
@@ -453,6 +510,30 @@ export function AtlasMap() {
           });
         }}
       >
+        {territoryPolygons.map((polygon) => (
+          <Polygon
+            key={polygon.key}
+            points={polygon.points}
+            fillColor={polygon.fillColor}
+            strokeColor={polygon.strokeColor}
+            strokeWidth={polygon.strokeWidth}
+            zIndex={8}
+          />
+        ))}
+
+        {territoryPolygons
+          .filter((polygon) => polygon.dashed)
+          .map((polygon) => (
+            <Polyline
+              key={`territory-outline:${polygon.key}`}
+              points={[...polygon.points, polygon.points[0]]}
+              strokeColor="rgba(80, 70, 55, 0.75)"
+              strokeWidth={1.4}
+              dotted
+              zIndex={9}
+            />
+          ))}
+
         {adminPolygons.map((polygon) => (
           <Polygon
             key={polygon.key}

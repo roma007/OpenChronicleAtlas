@@ -1,0 +1,4167 @@
+[
+  {
+    "id": "san-jia-fen-jin-403",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "三家分晋",
+      "en": "Partition of Jin"
+    },
+    "date": "-0403-01-01",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "周王城洛邑",
+        "en": "Luoyi, royal capital of Zhou"
+      }
+    },
+    "entityIds": [
+      "han",
+      "zhao",
+      "wei"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "周威烈王命韩、赵、魏为诸侯，三家分晋终获承认。",
+      "en": "King Weilie of Zhou recognized Han, Zhao and Wei as feudal lords, formalizing the partition of Jin."
+    },
+    "description": {
+      "zh": "前 403 年，周威烈王二十三年，命晋大夫魏斯、赵籍、韩虔为诸侯。《资治通鉴》即以此年为开篇。此前三家已实际瓜分晋地，此后列国格局定型。战国起始年代另有前 475 年（《史记·六国年表》）、前 468 年、前 453 年等异说，本专题取前 475 年为时间轴起点。",
+      "en": "In 403 BCE, the 23rd year of King Weilie of Zhou, Wei Si, Zhao Ji and Han Qian were recognized as feudal lords; the Zizhi Tongjian opens with this year. The three houses had already divided Jin’s territory, and the recognition fixed the new interstate order. Other starting dates for the period (475 BCE in the Shiji’s chronological table, 468 or 453 BCE) also circulate; this atlas uses 475 BCE as the axis start."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《资治通鉴》卷一",
+        "author": "司马光",
+        "note": "周威烈王二十三年，初命晋大夫魏斯、赵籍、韩虔为诸侯"
+      },
+      {
+        "title": "《史记·晋世家》",
+        "author": "司马迁",
+        "note": "三家灭智伯而分其地"
+      },
+      {
+        "title": "杨宽《战国史》",
+        "author": "杨宽",
+        "note": "战国起始年代异说综述"
+      }
+    ],
+    "relatedIds": [
+      "tian-shi-dai-qi-386"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "li-kui-reform-400",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "李悝变法",
+      "en": "Li Kui’s reforms in Wei"
+    },
+    "date": "-0400-01-01",
+    "location": {
+      "lng": 111.22,
+      "lat": 35.14,
+      "place": {
+        "zh": "魏都安邑",
+        "en": "Anyi, capital of Wei"
+      }
+    },
+    "entityIds": [
+      "wei"
+    ],
+    "category": "变法",
+    "summary": {
+      "zh": "魏文侯用李悝尽地力、行平籴、著《法经》，魏国最先富强。",
+      "en": "Marquis Wen of Wei employed Li Kui to maximize land yield, stabilize grain prices and compile the Fa Jing, making Wei the first state to grow strong."
+    },
+    "description": {
+      "zh": "李悝相魏，推行「尽地力之教」与「平籴法」，并撰《法经》六篇。变法年代约在前 400 年前后，具体年份史无明文，此处取约数。",
+      "en": "As chancellor of Wei, Li Kui promoted intensive farming, a grain price stabilization scheme and a six-part legal code. The reforms are usually dated to around 400 BCE; no exact year is recorded, so the date here is approximate."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《汉书·食货志》",
+        "author": "班固",
+        "note": "李悝尽地力之教与平籴法"
+      },
+      {
+        "title": "《晋书·刑法志》",
+        "author": "房玄龄等",
+        "note": "李悝撰《法经》六篇"
+      },
+      {
+        "title": "杨宽《战国史》",
+        "author": "杨宽",
+        "note": "魏国变法年代考订"
+      }
+    ],
+    "relatedIds": [
+      "shang-yang-reform-356"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tian-shi-dai-qi-386",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "田氏代齐",
+      "en": "Tian family takes over Qi"
+    },
+    "date": "-0386-01-01",
+    "location": {
+      "lng": 118.35,
+      "lat": 36.86,
+      "place": {
+        "zh": "齐都临淄",
+        "en": "Linzi, capital of Qi"
+      }
+    },
+    "entityIds": [
+      "qi"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "周天子承认田和为诸侯，姜姓齐国转为田氏齐国。",
+      "en": "The Zhou king recognized Tian He as a feudal lord, replacing the Jiang clan with the Tian clan in Qi."
+    },
+    "description": {
+      "zh": "田氏自陈完奔齐后世代经营，以公田、借贷收揽民心，逐步取代姜姓公室。前 386 年田和被列为诸侯，姜齐正式终结。",
+      "en": "The Tian lineage, descended from Chen Wan who fled to Qi, steadily displaced the ruling Jiang house through control of land and credit. In 386 BCE Tian He was recognized as a feudal lord, formally ending Jiang rule in Qi."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·田敬仲完世家》",
+        "author": "司马迁",
+        "note": "田和列为诸侯"
+      },
+      {
+        "title": "《资治通鉴》卷一",
+        "author": "司马光",
+        "note": "周安王十六年，初命齐大夫田和为诸侯"
+      }
+    ],
+    "relatedIds": [
+      "san-jia-fen-jin-403"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "wu-qi-reform-386",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "吴起变法",
+      "en": "Wu Qi’s reforms in Chu"
+    },
+    "date": "-0386-01-01",
+    "endDate": "-0381-12-31",
+    "location": {
+      "lng": 112.19,
+      "lat": 30.35,
+      "place": {
+        "zh": "楚都郢",
+        "en": "Ying, capital of Chu"
+      }
+    },
+    "entityIds": [
+      "chu"
+    ],
+    "category": "变法",
+    "summary": {
+      "zh": "楚悼王用吴起明法审令、废公族疏远者，楚国南平百越、北并陈蔡。",
+      "en": "King Dao of Chu employed Wu Qi to tighten law and cut distant noble privileges; Chu expanded against Baiyue to the south and Chen and Cai to the north."
+    },
+    "description": {
+      "zh": "吴起自魏奔楚，相悼王变法：损不急之官、废公族疏远者、抚养战斗之士。前 381 年悼王卒，旧贵族攻杀吴起，变法多废。",
+      "en": "Wu Qi left Wei for Chu and reformed the state under King Dao: trimming redundant offices, stripping privileges from distant royal clansmen and rewarding combat troops. When the king died in 381 BCE the old nobility killed Wu Qi and most reforms lapsed."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·孙子吴起列传》",
+        "author": "司马迁",
+        "note": "吴起相楚变法及被杀经过"
+      },
+      {
+        "title": "《韩非子·和氏》",
+        "author": "韩非",
+        "note": "吴起教悼王变法"
+      },
+      {
+        "title": "《资治通鉴》卷一",
+        "author": "司马光",
+        "note": "楚悼王卒、贵族攻吴起"
+      }
+    ],
+    "relatedIds": [
+      "yan-ying-279"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "wu-qi-zhi-si-381",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "吴起之死",
+      "en": "The death of Wu Qi"
+    },
+    "date": "-0381-01-01",
+    "location": {
+      "lng": 112.19,
+      "lat": 30.35,
+      "place": {
+        "zh": "郢（楚都）",
+        "en": "Ying, capital of Chu"
+      }
+    },
+    "entityIds": [
+      "chu"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "楚悼王卒，旧贵族作乱攻吴起，吴起伏王尸而死。",
+      "en": "After King Dao of Chu died, nobles rose against Wu Qi, who died clinging to the king's body."
+    },
+    "description": {
+      "zh": "前 381 年楚悼王卒，宗室大臣作乱攻吴起，吴起伏于悼王尸上，被射杀；太子臧即位后以「丽兵于王尸」罪诛七十余家。据《史记·孙子吴起列传》，待考。",
+      "en": "In 381 BCE King Dao of Chu died and the noble clans rose against Wu Qi, who was shot while clinging to the king's corpse; the new king Zang then executed more than seventy families for desecrating the royal body with weapons. Based on the Shiji, awaiting verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·孙子吴起列传》",
+        "author": "司马迁",
+        "note": "吴起之死参考"
+      },
+      {
+        "title": "《战国策·楚策》",
+        "author": "刘向编",
+        "note": "楚国政局参考"
+      },
+      {
+        "title": "《战国史》",
+        "author": "杨宽",
+        "note": "系年参考"
+      }
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "ji-xia-xue-gong-374",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "稷下学宫",
+      "en": "The Jixia Academy"
+    },
+    "date": "-0374-01-01",
+    "location": {
+      "lng": 118.35,
+      "lat": 36.86,
+      "place": {
+        "zh": "临淄",
+        "en": "Linzi"
+      }
+    },
+    "entityIds": [
+      "qi"
+    ],
+    "category": "文化",
+    "summary": {
+      "zh": "田齐桓公设稷下学宫，宣王时百家云集。",
+      "en": "Duke Huan of Tian Qi founded the Jixia Academy, which flourished under King Xuan."
+    },
+    "description": {
+      "zh": "田齐桓公午设稷下学宫于临淄，齐宣王时「稷下先生」千余人，淳于髡、孟子、荀子等先后讲学，为战国学术中心。始建年代有异说，本文取通行系年，待考。",
+      "en": "Duke Huan of Tian Qi established the Jixia Academy at Linzi; under King Xuan more than a thousand 'Jixia masters' gathered, and Chunyu Kun, Mencius and Xunzi taught there, making it the intellectual centre of the Warring States. The founding date is disputed; this entry follows the conventional chronology."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·田敬仲完世家》",
+        "author": "司马迁",
+        "note": "稷下设置参考"
+      },
+      {
+        "title": "《史记·孟子荀卿列传》",
+        "author": "司马迁",
+        "note": "稷下学者参考"
+      },
+      {
+        "title": "《战国史》",
+        "author": "杨宽",
+        "note": "学术背景参考"
+      }
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "shang-yang-reform-356",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "商鞅第一次变法",
+      "en": "Shang Yang’s first reforms"
+    },
+    "date": "-0356-01-01",
+    "location": {
+      "lng": 108.71,
+      "lat": 34.33,
+      "place": {
+        "zh": "秦都咸阳",
+        "en": "Xianyang, capital of Qin"
+      }
+    },
+    "entityIds": [
+      "qin"
+    ],
+    "category": "变法",
+    "summary": {
+      "zh": "秦孝公用商鞅，行连坐、军功爵、重农抑商，秦国开始转强。",
+      "en": "Duke Xiao of Qin adopted Shang Yang’s program of collective liability, military ranks for merit, and agriculture-first policy, beginning Qin’s rise."
+    },
+    "description": {
+      "zh": "前 356 年，商鞅任左庶长，颁什伍连坐、奖励军功、抑商重农、焚烧儒家经典等令；「徙木立信」即此前后事。变法使秦「道不拾遗，山无盗贼，家给人足」。",
+      "en": "In 356 BCE Shang Yang, as Left Chief of Staff, introduced five-and-ten household mutual liability, merit-based military ranks, restrictions on merchants and rewards for farming. The episode of moving the pole to win public trust belongs to this period. Qin was later described as orderly and prosperous."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·商君列传》",
+        "author": "司马迁",
+        "note": "卷六十八，变法条令与徙木立信"
+      },
+      {
+        "title": "《资治通鉴》卷二",
+        "author": "司马光",
+        "note": "周显王十三年，卫鞅变法"
+      },
+      {
+        "title": "《商君书》",
+        "author": "商鞅及其后学",
+        "note": "农战、垦令等篇反映变法内容"
+      }
+    ],
+    "relatedIds": [
+      "shang-yang-reform-350",
+      "li-kui-reform-400"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "guiling-353",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "桂陵之战",
+      "en": "Battle of Guiling"
+    },
+    "date": "-0353-01-01",
+    "location": {
+      "lng": 114.55,
+      "lat": 35.2,
+      "place": {
+        "zh": "魏地桂陵（今河南长垣一带）",
+        "en": "Guiling in Wei territory (near modern Changyuan, Henan)"
+      }
+    },
+    "entityIds": [
+      "qi",
+      "wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "魏围邯郸，齐以田忌、孙膑救赵，直趋大梁，于桂陵大败魏军。",
+      "en": "While Wei besieged Handan, Qi sent Tian Ji and Sun Bin to strike at Daliang, defeating the Wei army at Guiling."
+    },
+    "description": {
+      "zh": "前 354 年魏围赵都邯郸，赵求救于齐；前 353 年齐师以「批亢捣虚」直趋魏都大梁，魏军回救，战于桂陵，魏师大败。此即「围魏救赵」出处。邯郸最终仍为魏所拔。",
+      "en": "Wei besieged Handan in 354 BCE; Qi came to Zhao’s aid. In 353 BCE the Qi army marched on Daliang to force Wei to turn back, then defeated it at Guiling — the origin of the “besiege Wei to rescue Zhao” stratagem. Handan nevertheless fell to Wei."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·孙子吴起列传》",
+        "author": "司马迁",
+        "note": "批亢捣虚，大破梁军于桂陵"
+      },
+      {
+        "title": "《资治通鉴》卷二",
+        "author": "司马光",
+        "note": "周显王十六年，齐败魏师于桂陵"
+      },
+      {
+        "title": "《孙膑兵法·擒庞涓》",
+        "author": "孙膑（银雀山汉简）",
+        "note": "桂陵之役作战部署"
+      }
+    ],
+    "relatedIds": [
+      "maling-341"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "shen-bu-hai-351",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "申不害相韩",
+      "en": "Shen Buhai governs Han"
+    },
+    "date": "-0351-01-01",
+    "location": {
+      "lng": 113.74,
+      "lat": 34.4,
+      "place": {
+        "zh": "韩都新郑",
+        "en": "Xinzheng, capital of Han"
+      }
+    },
+    "entityIds": [
+      "han"
+    ],
+    "category": "变法",
+    "summary": {
+      "zh": "韩昭侯用申不害为相，行「术」治吏，国治兵强，诸侯不敢侵韩。",
+      "en": "Marquis Zhao of Han made Shen Buhai chancellor; his administrative method strengthened Han so that other states did not attack it."
+    },
+    "description": {
+      "zh": "申不害相韩十五年，内修政教、外应诸侯，以「术」即考核臣下之法著称，与商鞅之「法」、慎到之「势」并称。",
+      "en": "Shen Buhai served as chancellor for fifteen years, emphasizing administrative technique (shu) — the scrutiny of officials — alongside Shang Yang’s law (fa) and Shen Dao’s position (shi) in later accounts of Legalist thought."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·老子韩非列传》",
+        "author": "司马迁",
+        "note": "申不害相韩，国治兵强"
+      },
+      {
+        "title": "《韩非子·定法》",
+        "author": "韩非",
+        "note": "申不害之术与商鞅之法对比"
+      }
+    ],
+    "relatedIds": [
+      "shang-yang-reform-356"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "shang-yang-reform-350",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "商鞅第二次变法",
+      "en": "Shang Yang’s second reforms"
+    },
+    "date": "-0350-01-01",
+    "location": {
+      "lng": 108.71,
+      "lat": 34.33,
+      "place": {
+        "zh": "秦都咸阳",
+        "en": "Xianyang, capital of Qin"
+      }
+    },
+    "entityIds": [
+      "qin"
+    ],
+    "category": "变法",
+    "summary": {
+      "zh": "迁都咸阳，普遍推行县制，废井田、开阡陌，统一度量衡。",
+      "en": "The capital moved to Xianyang, counties were extended, old field boundaries abolished and weights and measures standardized."
+    },
+    "description": {
+      "zh": "前 350 年，秦迁都咸阳；令民父子兄弟同室内息者为禁，并诸小乡聚集为大县，置令、丞，凡三十一县；废井田、开阡陌；统一斗、桶、权、衡、丈、尺。",
+      "en": "In 350 BCE Qin moved its capital to Xianyang, banned multiple adult generations living in one household, consolidated small townships into counties with magistrates, abolished the old well-field boundaries, and standardized measures."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·商君列传》",
+        "author": "司马迁",
+        "note": "居三年，作为筑冀阙宫庭于咸阳，秦自雍徙都之"
+      },
+      {
+        "title": "《史记·秦本纪》",
+        "author": "司马迁",
+        "note": "并诸小乡聚集为大县，凡三十一县"
+      },
+      {
+        "title": "杨宽《战国史》",
+        "author": "杨宽",
+        "note": "第二次变法条令考订"
+      }
+    ],
+    "relatedIds": [
+      "shang-yang-reform-356"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "maling-341",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "马陵之战",
+      "en": "Battle of Maling"
+    },
+    "date": "-0341-01-01",
+    "location": {
+      "lng": 115.67,
+      "lat": 36.02,
+      "place": {
+        "zh": "马陵（今山东莘县一带，另有郯城等说）",
+        "en": "Maling (near modern Shenxian, Shandong; Tancheng also proposed)"
+      }
+    },
+    "entityIds": [
+      "qi",
+      "wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "齐以减灶诱敌之计大破魏军于马陵，庞涓死，魏国由盛转衰。",
+      "en": "Qi used the decreasing-stove ruse to destroy the Wei army at Maling; Pang Juan died and Wei’s dominance ended."
+    },
+    "description": {
+      "zh": "前 342 年魏攻韩，齐救韩；前 341 年孙膑以「减灶」示弱，诱庞涓轻进，伏兵于马陵，魏军大败，太子申被俘、庞涓自刎。马陵地望有莘县、郯城、濮州等异说，本专题取莘县说。",
+      "en": "Wei attacked Han in 342 BCE and Qi intervened. In 341 BCE Sun Bin feigned weakness by reducing cooking stoves, lured Pang Juan into a narrow pass at Maling, and destroyed the Wei army; the crown prince was captured and Pang Juan took his own life. The site is disputed (Shenxian, Tancheng, Puzhou); this atlas follows Shenxian."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·孙子吴起列传》",
+        "author": "司马迁",
+        "note": "马陵道狭，庞涓自知智穷兵败，乃自刭"
+      },
+      {
+        "title": "《资治通鉴》卷二",
+        "author": "司马光",
+        "note": "周显王二十八年，齐败魏于马陵"
+      },
+      {
+        "title": "杨宽《战国史》",
+        "author": "杨宽",
+        "note": "马陵地望异说辨析"
+      }
+    ],
+    "relatedIds": [
+      "guiling-353"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "shang-yang-che-lie-338",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "商鞅车裂",
+      "en": "Shang Yang is executed"
+    },
+    "date": "-0338-01-01",
+    "location": {
+      "lng": 109.9,
+      "lat": 33.8,
+      "place": {
+        "zh": "商於",
+        "en": "Shangyu"
+      }
+    },
+    "entityIds": [
+      "qin"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "秦孝公卒，商鞅被诬谋反，战败被杀，车裂其尸。",
+      "en": "After Duke Xiao died, Shang Yang was accused of treason, killed in battle and his corpse torn apart by chariots."
+    },
+    "description": {
+      "zh": "前 338 年秦孝公卒，太子驷即位（惠文王），公子虔等告商鞅谋反，商鞅出走失败，战死于彤，尸车裂，然其法不废。据《史记·商君列传》，待考。",
+      "en": "In 338 BCE Duke Xiao of Qin died and Prince Si succeeded as King Huiwen; Prince Qian and others accused Shang Yang of treason. He fled, was killed at Tong and his corpse was torn apart by chariots, yet his laws remained. Based on the Shiji, awaiting verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·商君列传》",
+        "author": "司马迁",
+        "note": "商鞅之死参考"
+      },
+      {
+        "title": "《商君书》",
+        "author": "商鞅及其后学",
+        "note": "变法内容参考"
+      },
+      {
+        "title": "《战国史》",
+        "author": "杨宽",
+        "note": "系年参考"
+      }
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "xuzhou-xiang-wang-334",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "徐州相王",
+      "en": "Mutual royal recognition at Xuzhou"
+    },
+    "date": "-0334-01-01",
+    "location": {
+      "lng": 117.17,
+      "lat": 34.81,
+      "place": {
+        "zh": "徐州（今山东薛城一带）",
+        "en": "Xuzhou (near modern Xuecheng, Shandong)"
+      }
+    },
+    "entityIds": [
+      "qi",
+      "wei"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "魏惠王与齐威王会于徐州，互尊为王，诸侯相继称王。",
+      "en": "King Hui of Wei and King Wei of Qi met at Xuzhou and recognized each other as kings, prompting other rulers to take the title."
+    },
+    "description": {
+      "zh": "马陵之后魏势衰，魏惠王改用合纵策略，与齐威王会于徐州互尊为王；此后秦、韩、赵、燕、中山等相继称王，周天子名义上的独尊彻底瓦解。",
+      "en": "After Maling, Wei’s power waned and King Hui shifted to alliance politics; he and King Wei of Qi recognized one another as kings at Xuzhou. Qin, Han, Zhao, Yan and Zhongshan soon followed, ending the Zhou king’s nominal supremacy."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·魏世家》",
+        "author": "司马迁",
+        "note": "魏惠王与齐威王会徐州，相王"
+      },
+      {
+        "title": "《资治通鉴》卷二",
+        "author": "司马光",
+        "note": "周显王三十五年，魏齐会于徐州，相王"
+      }
+    ],
+    "relatedIds": [
+      "maling-341"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "su-qin-he-zong-333",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "苏秦合纵",
+      "en": "Su Qin's vertical alliance"
+    },
+    "date": "-0333-01-01",
+    "location": {
+      "lng": 114.49,
+      "lat": 36.61,
+      "place": {
+        "zh": "邯郸（赵都）",
+        "en": "Handan, capital of Zhao"
+      }
+    },
+    "entityIds": [
+      "zhao"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "苏秦游说六国合纵，约以抗秦。",
+      "en": "Su Qin urged the six states to ally vertically against Qin."
+    },
+    "description": {
+      "zh": "苏秦（一说苏代）游说燕、赵、韩、魏、齐、楚合纵抗秦，赵肃侯礼之，约诸侯于洹水。其事《史记·苏秦列传》与《战国策》互有出入，系年亦有异说，本文取通行说法，待考。",
+      "en": "Su Qin (some scholars say Su Dai) persuaded Yan, Zhao, Han, Wei, Qi and Chu to form a vertical alliance against Qin; Marquis Su of Zhao honoured him and the states swore an oath at the Huan River. The Shiji and the Zhanguoce differ on details and dating; this entry follows the conventional account and awaits verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·苏秦列传》",
+        "author": "司马迁",
+        "note": "合纵经过参考"
+      },
+      {
+        "title": "《战国策》",
+        "author": "刘向编",
+        "note": "游说辞参考"
+      },
+      {
+        "title": "《战国史》",
+        "author": "杨宽",
+        "note": "系年与异说参考"
+      }
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "zhang-yi-xiang-qin-328",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "张仪相秦",
+      "en": "Zhang Yi becomes Qin's chancellor"
+    },
+    "date": "-0328-01-01",
+    "location": {
+      "lng": 108.71,
+      "lat": 34.33,
+      "place": {
+        "zh": "咸阳",
+        "en": "Xianyang"
+      }
+    },
+    "entityIds": [
+      "qin"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "张仪入秦为相，倡连横破合纵。",
+      "en": "Zhang Yi became Qin's chancellor and promoted horizontal alliances to break the vertical one."
+    },
+    "description": {
+      "zh": "前 328 年张仪相秦，以连横之策分化六国；前 313 年又以商於六百里之地欺楚，楚怀王绝齐。年份据《史记·张仪列传》，待考。",
+      "en": "In 328 BCE Zhang Yi became chancellor of Qin and used horizontal alliances to divide the six states; in 313 BCE he deceived King Huai of Chu with a promise of six hundred li of Shangyu, prompting Chu to break with Qi. Dates follow the Shiji and await verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·张仪列传》",
+        "author": "司马迁",
+        "note": "连横与欺楚参考"
+      },
+      {
+        "title": "《战国策·秦策》",
+        "author": "刘向编",
+        "note": "游说辞参考"
+      },
+      {
+        "title": "《战国史》",
+        "author": "杨宽",
+        "note": "系年参考"
+      }
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "wu-guo-xiang-wang-323",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "五国相王",
+      "en": "Five states claim kingship"
+    },
+    "date": "-0323-01-01",
+    "location": {
+      "lng": 114.31,
+      "lat": 34.8,
+      "place": {
+        "zh": "大梁（魏都）",
+        "en": "Daliang, capital of Wei"
+      }
+    },
+    "entityIds": [
+      "wei",
+      "han",
+      "zhao",
+      "yan"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "魏、韩、赵、燕、中山五国相王，互尊为王。",
+      "en": "Wei, Han, Zhao, Yan and Zhongshan mutually recognized one another as kings."
+    },
+    "description": {
+      "zh": "前 323 年，魏将公孙衍发起魏、韩、赵、燕、中山「五国相王」，以合纵抗秦、齐、楚。中山称王引起齐不满。据《战国策·中山策》与《史记》，待考。",
+      "en": "In 323 BCE Gongsun Yan of Wei initiated the mutual recognition of Wei, Han, Zhao, Yan and Zhongshan as kings, aimed at a vertical alliance against Qin, Qi and Chu; Zhongshan's kingship angered Qi. Based on the Zhanguoce and the Shiji, awaiting verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《战国策·中山策》",
+        "author": "刘向编",
+        "note": "五国相王经过参考"
+      },
+      {
+        "title": "《史记·魏世家》",
+        "author": "司马迁",
+        "note": "系年参考"
+      },
+      {
+        "title": "《战国史》",
+        "author": "杨宽",
+        "note": "背景参考"
+      }
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "qin-mie-ba-shu-316",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "秦取巴蜀",
+      "en": "Qin conquers Ba and Shu"
+    },
+    "date": "-0316-01-01",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "成都（蜀都）",
+        "en": "Chengdu, capital of Shu"
+      }
+    },
+    "entityIds": [
+      "qin"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "秦惠文王用司马错之议伐蜀，灭蜀取巴。",
+      "en": "King Huiwen of Qin adopted Sima Cuo's plan, destroyed Shu and took Ba."
+    },
+    "description": {
+      "zh": "前 316 年，秦惠文王从司马错之议起兵伐蜀，灭蜀国，继而取巴，置巴、蜀二郡，秦得成都平原之粮赋，为东进奠基。年份与经过据《史记·秦本纪》《张仪列传》，路线为示意简化，待页码级核对。",
+      "en": "In 316 BCE King Huiwen of Qin, following Sima Cuo's advice, attacked Shu, destroyed it and went on to take Ba, establishing the Ba and Shu commanderies whose grain underpinned Qin's eastward expansion. Dates follow the Shiji; the route is schematic and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·秦本纪》",
+        "author": "司马迁",
+        "note": "伐蜀经过参考"
+      },
+      {
+        "title": "《史记·张仪列传》",
+        "author": "司马迁",
+        "note": "司马错与张仪争议参考"
+      },
+      {
+        "title": "《战国史》",
+        "author": "杨宽",
+        "note": "系年与背景参考"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "qi-po-yan-314",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "齐破燕",
+      "en": "Qi breaks Yan"
+    },
+    "date": "-0314-01-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "蓟（燕都）",
+        "en": "Ji, capital of Yan"
+      }
+    },
+    "entityIds": [
+      "qi"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "燕王哙让位子之，国乱；齐宣王伐燕，破蓟。",
+      "en": "King Kuai of Yan abdicated to Zizhi; King Xuan of Qi invaded and took Ji."
+    },
+    "description": {
+      "zh": "前 316 年燕王哙让位于子之，燕国内乱；前 314 年齐宣王令匡章伐燕，五旬破燕都蓟，子之、燕王哙死。后诸侯谋救，齐军退。年份据《史记·燕召公世家》，路线示意简化，待页码级核对。",
+      "en": "In 316 BCE King Kuai of Yan abdicated in favour of Zizhi, plunging Yan into disorder; in 314 BCE King Xuan of Qi sent Kuang Zhang, who took the Yan capital Ji within fifty days and killed Zizhi and King Kuai, before the other states forced Qi to withdraw. Dates follow the Shiji; the route is schematic and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·燕召公世家》",
+        "author": "司马迁",
+        "note": "破燕经过参考"
+      },
+      {
+        "title": "《战国策·燕策》",
+        "author": "刘向编",
+        "note": "燕国内乱与齐伐燕参考"
+      },
+      {
+        "title": "《战国史》",
+        "author": "杨宽",
+        "note": "系年参考"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "danyang-312",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "丹阳之战",
+      "en": "Battle of Danyang"
+    },
+    "date": "-0312-01-01",
+    "location": {
+      "lng": 111.49,
+      "lat": 33.14,
+      "place": {
+        "zh": "丹阳（今河南淅川一带）",
+        "en": "Danyang (near modern Xichuan, Henan)"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "chu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "秦败楚于丹阳，斩甲士八万，取汉中地。",
+      "en": "Qin defeated Chu at Danyang, killed 80,000 armored troops and seized Hanzhong."
+    },
+    "description": {
+      "zh": "前 312 年，秦因楚背盟伐秦，起兵击楚，大败楚师于丹阳，虏屈匄，取汉中郡；楚复悉发兵袭秦，又败于蓝田。汉中入秦，秦对楚形成上游压制。",
+      "en": "In 312 BCE Qin attacked Chu for breaking their alliance and won a decisive victory at Danyang, capturing the Chu general Qu Gai and annexing Hanzhong; Chu’s counterattack was again defeated at Lantian. Hanzhong gave Qin strategic dominance upstream of Chu."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·楚世家》",
+        "author": "司马迁",
+        "note": "秦大败楚师于丹阳，斩甲士八万"
+      },
+      {
+        "title": "《史记·秦本纪》",
+        "author": "司马迁",
+        "note": "庶长章击楚于丹阳，虏其将屈匄"
+      },
+      {
+        "title": "《资治通鉴》卷三",
+        "author": "司马光",
+        "note": "周赧王三年，秦败楚师于丹阳"
+      }
+    ],
+    "relatedIds": [
+      "yique-293"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yan-zhao-wang-zhao-xian-311",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "燕昭王招贤",
+      "en": "King Zhao of Yan recruits talent"
+    },
+    "date": "-0311-01-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "蓟（燕都）",
+        "en": "Ji, capital of Yan"
+      }
+    },
+    "entityIds": [
+      "yan"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "燕昭王筑台招贤，乐毅、邹衍、剧辛归燕。",
+      "en": "King Zhao of Yan built a platform to recruit talent; Yue Yi, Zou Yan and Ju Xin came to Yan."
+    },
+    "description": {
+      "zh": "燕昭王于破燕之后即位，卑身厚币招贤，筑台置金（后世称黄金台），乐毅自魏往，邹衍自齐往，剧辛自赵往，燕以富强。据《史记·燕召公世家》《战国策·燕策》，待考。",
+      "en": "After Yan's defeat King Zhao ascended the throne, humbled himself and used rich gifts to attract talent, building a platform with gold (later called the Golden Terrace); Yue Yi came from Wei, Zou Yan from Qi and Ju Xin from Zhao, and Yan grew strong. Based on the Shiji and the Zhanguoce, awaiting verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·燕召公世家》",
+        "author": "司马迁",
+        "note": "招贤参考"
+      },
+      {
+        "title": "《战国策·燕策》",
+        "author": "刘向编",
+        "note": "郭隗说昭王参考"
+      },
+      {
+        "title": "《战国史》",
+        "author": "杨宽",
+        "note": "背景参考"
+      }
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "hu-fu-qi-she-307",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "赵武灵王胡服骑射",
+      "en": "King Wuling adopts nomadic dress and cavalry"
+    },
+    "date": "-0307-01-01",
+    "location": {
+      "lng": 114.49,
+      "lat": 36.61,
+      "place": {
+        "zh": "赵都邯郸",
+        "en": "Handan, capital of Zhao"
+      }
+    },
+    "entityIds": [
+      "zhao"
+    ],
+    "category": "变法",
+    "summary": {
+      "zh": "赵武灵王令国人胡服骑射，组建骑兵，北破林胡、楼烦，拓地至云中、九原。",
+      "en": "King Wuling ordered his people to adopt nomadic dress and mounted archery, creating a cavalry force that defeated the Linhu and Loufan and opened lands to Yunzhong and Jiuyuan."
+    },
+    "description": {
+      "zh": "前 307 年，赵武灵王十九年，赵开始胡服骑射。此举打破华夏车战传统，赵因此成为唯一能与秦正面抗衡的北方强国。",
+      "en": "In 307 BCE, the nineteenth year of King Wuling, Zhao adopted nomadic dress and cavalry tactics. The reform broke with chariot warfare and made Zhao the only northern state able to confront Qin directly."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·赵世家》",
+        "author": "司马迁",
+        "note": "十九年春正月，大朝信宫，召肥义与议天下，遂胡服"
+      },
+      {
+        "title": "《战国策·赵策二》",
+        "author": "刘向辑",
+        "note": "武灵王胡服骑射之议"
+      },
+      {
+        "title": "《资治通鉴》卷三",
+        "author": "司马光",
+        "note": "赵武灵王胡服"
+      }
+    ],
+    "relatedIds": [
+      "changping-260"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "chu-mie-yue-306",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "楚灭越",
+      "en": "Chu destroys Yue"
+    },
+    "date": "-0306-01-01",
+    "location": {
+      "lng": 120.6,
+      "lat": 31.3,
+      "place": {
+        "zh": "吴（今苏州一带）",
+        "en": "Wu (modern Suzhou)"
+      }
+    },
+    "entityIds": [
+      "chu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "楚乘越内乱伐之，杀越王无疆，取吴故地。",
+      "en": "Chu exploited Yue's turmoil, killed King Wujiang and took the old Wu lands."
+    },
+    "description": {
+      "zh": "前 306 年前后，楚乘越内乱伐之，杀越王无疆，尽取吴故地，越自此散亡。年份有异说，本文取通行系年。路线示意简化，待页码级核对。",
+      "en": "Around 306 BCE Chu attacked Yue amid its internal strife, killed King Wujiang and took the old Wu territories, after which Yue dispersed. The date is disputed; this atlas follows the conventional chronology. The route is schematic and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·越王勾践世家》",
+        "author": "司马迁",
+        "note": "越亡经过参考"
+      },
+      {
+        "title": "《战国史》",
+        "author": "杨宽",
+        "note": "系年与异说参考"
+      },
+      {
+        "title": "《资治通鉴》周纪",
+        "author": "司马光",
+        "note": "时间线参考"
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "huai-wang-ru-qin-299",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "楚怀王入秦",
+      "en": "King Huai of Chu goes to Qin"
+    },
+    "date": "-0299-01-01",
+    "location": {
+      "lng": 108.71,
+      "lat": 34.33,
+      "place": {
+        "zh": "咸阳",
+        "en": "Xianyang"
+      }
+    },
+    "entityIds": [
+      "chu",
+      "qin"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "秦诱楚怀王会武关，执之，楚另立顷襄王。",
+      "en": "Qin lured King Huai of Chu to Wu Pass, seized him, and Chu enthroned King Qingxiang."
+    },
+    "description": {
+      "zh": "前 299 年秦昭王约楚怀王会武关，怀王入秦被扣，三年后死于秦；楚人立太子横为顷襄王。据《史记·楚世家》，待考。",
+      "en": "In 299 BCE King Zhao of Qin invited King Huai of Chu to a meeting at Wu Pass; Huai was detained and died in Qin three years later, while Chu enthroned Prince Heng as King Qingxiang. Based on the Shiji, awaiting verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·楚世家》",
+        "author": "司马迁",
+        "note": "怀王入秦参考"
+      },
+      {
+        "title": "《战国策·楚策》",
+        "author": "刘向编",
+        "note": "外交背景参考"
+      },
+      {
+        "title": "《战国史》",
+        "author": "杨宽",
+        "note": "系年参考"
+      }
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "zhao-mie-zhongshan-296",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "赵灭中山",
+      "en": "Zhao destroys Zhongshan"
+    },
+    "date": "-0296-01-01",
+    "location": {
+      "lng": 114.4,
+      "lat": 38.3,
+      "place": {
+        "zh": "灵寿（中山都）",
+        "en": "Lingshou, capital of Zhongshan"
+      }
+    },
+    "entityIds": [
+      "zhao"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "赵武灵王胡服骑射后屡伐中山，前 296 年灭之。",
+      "en": "After the cavalry reform, King Wuling of Zhao repeatedly attacked Zhongshan and destroyed it in 296 BCE."
+    },
+    "description": {
+      "zh": "前 307 年赵武灵王胡服骑射，其后连年攻中山；前 296 年灭中山，迁其王于肤施。年份据《史记·赵世家》，路线示意简化，待页码级核对。",
+      "en": "In 307 BCE King Wuling of Zhao adopted nomad dress and cavalry; he then attacked Zhongshan year after year and destroyed it in 296 BCE, relocating its king to Fushi. Dates follow the Shiji; the route is schematic and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·赵世家》",
+        "author": "司马迁",
+        "note": "灭中山经过参考"
+      },
+      {
+        "title": "《战国史》",
+        "author": "杨宽",
+        "note": "系年参考"
+      },
+      {
+        "title": "《资治通鉴》周纪",
+        "author": "司马光",
+        "note": "时间线参考"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "sha-qiu-zhi-luan-295",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "沙丘之乱",
+      "en": "The Shaqiu Incident"
+    },
+    "date": "-0295-01-01",
+    "location": {
+      "lng": 114.9,
+      "lat": 37.1,
+      "place": {
+        "zh": "沙丘（今河北广宗）",
+        "en": "Shaqiu (modern Guangzong, Hebei)"
+      }
+    },
+    "entityIds": [
+      "zhao"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "赵武灵王传位幼子，长子作乱，武灵王被困沙丘饿死。",
+      "en": "King Wuling of Zhao abdicated to his younger son; the elder son rebelled and the retired king starved at Shaqiu."
+    },
+    "description": {
+      "zh": "前 299 年赵武灵王传位少子何（惠文王），自称主父；前 295 年长子章与田不礼作乱，败奔主父，公子成、李兑围沙丘宫，主父饿死。据《史记·赵世家》，待考。",
+      "en": "In 299 BCE King Wuling of Zhao abdicated in favour of his younger son He (King Huiwen) and styled himself Lord Father; in 295 BCE the elder son Zhang rebelled with Tian Buli, fled to his father, and lords Cheng and Yue besieged the Shaqiu palace until the retired king starved. Based on the Shiji, awaiting verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·赵世家》",
+        "author": "司马迁",
+        "note": "沙丘之乱参考"
+      },
+      {
+        "title": "《资治通鉴》周纪",
+        "author": "司马光",
+        "note": "时间线参考"
+      },
+      {
+        "title": "《战国史》",
+        "author": "杨宽",
+        "note": "系年参考"
+      }
+    ],
+    "importance": 2,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "yique-293",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "伊阙之战",
+      "en": "Battle of Yique"
+    },
+    "date": "-0293-01-01",
+    "location": {
+      "lng": 112.47,
+      "lat": 34.55,
+      "place": {
+        "zh": "伊阙（今河南洛阳龙门）",
+        "en": "Yique (modern Longmen, Luoyang, Henan)"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "han",
+      "wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "白起破韩魏联军于伊阙，斩首二十四万，韩魏元气大伤。",
+      "en": "Bai Qi destroyed the allied Han and Wei armies at Yique, killing 240,000 and crippling both states."
+    },
+    "description": {
+      "zh": "前 293 年，韩僖王以公孙喜率周、魏联军二十四万攻秦，秦左更白起于伊阙大破之，虏公孙喜，拔五城。此战白起成名，秦东出洛阳通道洞开。",
+      "en": "In 293 BCE Han, with Zhou and Wei allies, fielded 240,000 men against Qin; Bai Qi crushed them at Yique, captured Gongsun Xi and took five cities. The victory opened Qin’s road east through Luoyang."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·白起王翦列传》",
+        "author": "司马迁",
+        "note": "白起攻韩魏于伊阙，斩首二十四万"
+      },
+      {
+        "title": "《史记·韩世家》",
+        "author": "司马迁",
+        "note": "秦败我军于伊阙"
+      },
+      {
+        "title": "《资治通鉴》卷四",
+        "author": "司马光",
+        "note": "周赧王二十二年，秦大破韩魏之师于伊阙"
+      }
+    ],
+    "relatedIds": [
+      "yan-ying-279",
+      "changping-260"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "wu-guo-fa-qi-284",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "五国伐齐",
+      "en": "Five-state invasion of Qi"
+    },
+    "date": "-0284-01-01",
+    "location": {
+      "lng": 115.98,
+      "lat": 36.45,
+      "place": {
+        "zh": "济西（今山东聊城一带）",
+        "en": "West of the Ji River (near modern Liaocheng, Shandong)"
+      }
+    },
+    "entityIds": [
+      "yan",
+      "qin",
+      "zhao",
+      "wei",
+      "han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "燕昭王以乐毅为上将军，联合五国之师破齐于济西，下齐七十余城。",
+      "en": "King Zhao of Yan sent Yue Yi with a five-state army to crush Qi west of the Ji River and took more than seventy cities."
+    },
+    "description": {
+      "zh": "前 284 年，燕昭王与乐毅谋，合燕、秦、赵、魏、韩五国之师伐齐，败齐于济西；乐毅长驱入临淄，齐湣王出走被杀，齐仅余莒、即墨二城。",
+      "en": "In 284 BCE Yan, Qin, Zhao, Wei and Han joined forces, defeated Qi west of the Ji River and drove on Linzi. King Min fled and was killed, leaving Qi with only Ju and Jimo."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·乐毅列传》",
+        "author": "司马迁",
+        "note": "乐毅为上将军，并护赵楚韩魏燕之兵以伐齐，破之济西"
+      },
+      {
+        "title": "《史记·田单列传》",
+        "author": "司马迁",
+        "note": "燕既尽降齐城，唯独莒、即墨不下"
+      },
+      {
+        "title": "《资治通鉴》卷四",
+        "author": "司马光",
+        "note": "周赧王三十一年，燕乐毅伐齐"
+      }
+    ],
+    "relatedIds": [
+      "jimo-279"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "jimo-279",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "即墨之战与田单复国",
+      "en": "Jimo and Tian Dan’s restoration of Qi"
+    },
+    "date": "-0279-01-01",
+    "location": {
+      "lng": 120.05,
+      "lat": 36.72,
+      "place": {
+        "zh": "即墨（今山东平度东南）",
+        "en": "Jimo (southeast of modern Pingdu, Shandong)"
+      }
+    },
+    "entityIds": [
+      "qi",
+      "yan"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "田单坚守即墨，以火牛阵破燕军，尽复齐国七十余城。",
+      "en": "Tian Dan held Jimo and destroyed the Yan army with fire-oxen, recovering Qi’s seventy-plus cities."
+    },
+    "description": {
+      "zh": "燕惠王疑乐毅，以骑劫代之；田单在即墨用反间、诈降与火牛阵，前 279 年大破燕军，杀骑劫，乘胜尽复齐地，迎齐襄王入临淄。",
+      "en": "King Hui of Yan replaced Yue Yi with Qi Jie. Tian Dan used counter-espionage, a feigned surrender and a fire-oxen charge to rout the Yan army in 279 BCE, killing Qi Jie and recovering Qi’s territory before escorting King Xiang back to Linzi."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·田单列传》",
+        "author": "司马迁",
+        "note": "火牛阵破燕军，尽复齐国"
+      },
+      {
+        "title": "《战国策·齐策六》",
+        "author": "刘向辑",
+        "note": "田单复国经过"
+      },
+      {
+        "title": "《资治通鉴》卷四",
+        "author": "司马光",
+        "note": "周赧王三十六年，田单破燕军"
+      }
+    ],
+    "relatedIds": [
+      "wu-guo-fa-qi-284"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yan-ying-279",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "鄢郢之战",
+      "en": "Battles of Yan and Ying"
+    },
+    "date": "-0279-01-01",
+    "endDate": "-0278-12-31",
+    "location": {
+      "lng": 112.26,
+      "lat": 31.72,
+      "place": {
+        "zh": "鄢（今湖北宜城）",
+        "en": "Yan (modern Yicheng, Hubei)"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "chu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "白起拔鄢、郢，楚迁都于陈，江汉腹地尽入于秦。",
+      "en": "Bai Qi took Yan and Ying; Chu moved its capital to Chen and lost the middle Yangtze heartland to Qin."
+    },
+    "description": {
+      "zh": "前 279 年白起攻楚，引鄢水灌城，拔鄢；前 278 年再拔郢，烧夷陵，楚顷襄王东迁于陈。秦以郢为南郡。",
+      "en": "In 279 BCE Bai Qi diverted the Yan River to flood and take Yan; in 278 BCE he captured Ying, burned the royal tombs at Yiling, and King Qingxiang moved the capital east to Chen. Qin established Nan Commandery there."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·白起王翦列传》",
+        "author": "司马迁",
+        "note": "攻楚，拔鄢、邓五城；其明年，攻楚，拔郢"
+      },
+      {
+        "title": "《史记·楚世家》",
+        "author": "司马迁",
+        "note": "楚顷襄王徙都于陈"
+      },
+      {
+        "title": "《资治通鉴》卷四",
+        "author": "司马光",
+        "note": "周赧王三十七年，秦拔楚郢"
+      }
+    ],
+    "relatedIds": [
+      "danyang-312"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "changping-260",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "长平之战",
+      "en": "Battle of Changping"
+    },
+    "date": "-0262-04-01",
+    "endDate": "-0260-10-01",
+    "location": {
+      "lng": 112.92,
+      "lat": 35.8,
+      "place": {
+        "zh": "长平（今山西高平）",
+        "en": "Changping (modern Gaoping, Shanxi)"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "zhao"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "秦赵对峙长平三年，白起围歼赵军，赵卒四十余万降而被坑，赵国从此不振。",
+      "en": "After three years of confrontation at Changping, Bai Qi encircled and destroyed the Zhao army; the surrender of over 400,000 men and their mass burial broke Zhao’s power."
+    },
+    "description": {
+      "zh": "前 262 年秦攻韩上党，上党降赵，秦赵战于长平。赵初以廉颇坚壁不出，后中秦反间以赵括代将；秦密遣白起，前 260 年围赵军四十六日，赵括战死，降卒四十余万被坑杀。坑杀人数据《史记》记载，考古与学界有不同讨论。",
+      "en": "In 262 BCE Qin attacked Shangdang, which surrendered to Zhao, opening war at Changping. Zhao first held firm under Lian Po but replaced him with Zhao Kuo after Qin’s disinformation; Qin secretly sent Bai Qi, who encircled the Zhao army for 46 days in 260 BCE. Zhao Kuo died and the surrendered troops were buried alive. The figure of over 400,000 comes from the Shiji and remains debated."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·白起王翦列传》",
+        "author": "司马迁",
+        "note": "长平之战经过与坑卒数目"
+      },
+      {
+        "title": "《史记·廉颇蔺相如列传》",
+        "author": "司马迁",
+        "note": "赵括代廉颇，纸上谈兵"
+      },
+      {
+        "title": "《资治通鉴》卷五",
+        "author": "司马光",
+        "note": "周赧王五十三年至五十五年，长平之役"
+      }
+    ],
+    "relatedIds": [
+      "handan-259",
+      "mie-zhao-228"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "handan-259",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "邯郸之战",
+      "en": "Siege of Handan"
+    },
+    "date": "-0259-09-01",
+    "endDate": "-0257-01-01",
+    "location": {
+      "lng": 114.49,
+      "lat": 36.61,
+      "place": {
+        "zh": "赵都邯郸",
+        "en": "Handan, capital of Zhao"
+      }
+    },
+    "entityIds": [
+      "zhao",
+      "qin",
+      "wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "秦围邯郸，赵赖平原君、毛遂与信陵君窃符救赵，秦军大败而退。",
+      "en": "Qin besieged Handan; Zhao survived through Lord Pingyuan, Mao Sui and Lord Xinling’s seizure of the Wei army tally, and Qin withdrew in defeat."
+    },
+    "description": {
+      "zh": "长平之后秦欲一举灭赵，前 259 年围邯郸。赵使平原君求救于楚、魏，毛遂自荐，楚王许盟；魏将晋鄙屯兵不进，信陵君窃符夺军救赵。前 257 年秦军解围而退。",
+      "en": "After Changping Qin tried to finish Zhao and besieged Handan in 259 BCE. Lord Pingyuan sought help in Chu and Wei — Mao Sui’s self-recommendation won the Chu alliance — while Lord Xinling seized the Wei army tally to relieve the city. Qin lifted the siege in 257 BCE."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·平原君虞卿列传》",
+        "author": "司马迁",
+        "note": "毛遂自荐，楚王歃血为盟"
+      },
+      {
+        "title": "《史记·魏公子列传》",
+        "author": "司马迁",
+        "note": "信陵君窃符救赵"
+      },
+      {
+        "title": "《资治通鉴》卷五",
+        "author": "司马光",
+        "note": "周赧王五十七年至五十八年，邯郸之围"
+      }
+    ],
+    "relatedIds": [
+      "changping-260"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "du-jiang-yan-256",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "都江堰建成",
+      "en": "Completion of Dujiangyan"
+    },
+    "date": "-0256-01-01",
+    "location": {
+      "lng": 103.61,
+      "lat": 31,
+      "place": {
+        "zh": "蜀郡都江堰",
+        "en": "Dujiangyan, Shu Commandery"
+      }
+    },
+    "entityIds": [
+      "qin"
+    ],
+    "category": "工程",
+    "summary": {
+      "zh": "秦蜀守李冰主持修建都江堰，成都平原自此水旱从人。",
+      "en": "Li Bing, Qin’s governor of Shu, built Dujiangyan, freeing the Chengdu plain from floods and drought."
+    },
+    "description": {
+      "zh": "约前 256 年，秦昭王时蜀守李冰在岷江出山口筑鱼嘴、飞沙堰、宝瓶口，分洪排沙、自流灌溉，使蜀成为秦统一战争的粮仓。具体始建年份史无明文，此取通行说法。",
+      "en": "Around 256 BCE Li Bing built the Fish Mouth levee, Flying Sand Weir and Bottle-Neck Channel on the Min River, controlling floods and enabling gravity irrigation; Shu became Qin’s granary. The exact start year is unrecorded, so the conventional date is used."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·河渠书》",
+        "author": "司马迁",
+        "note": "蜀守冰凿离碓，辟沫水之害，穿二江成都之中"
+      },
+      {
+        "title": "《华阳国志·蜀志》",
+        "author": "常璩",
+        "note": "冰乃壅江作堋，穿郫江、检江"
+      }
+    ],
+    "relatedIds": [
+      "zheng-guo-qu-246"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "mie-zhou-256",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "秦灭西周",
+      "en": "Qin destroys Western Zhou"
+    },
+    "date": "-0256-01-01",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "洛邑",
+        "en": "Luoyi"
+      }
+    },
+    "entityIds": [
+      "qin"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "秦取洛邑，周赧王卒，东西二周相继灭亡，周祀断绝。",
+      "en": "Qin took Luoyi; King Nan of Zhou died and the Zhou sacrifices ended as both Western and Eastern Zhou fell."
+    },
+    "description": {
+      "zh": "前 256 年，秦将军摎伐韩取阳城、负黍，又攻西周；西周君奔秦顿首受罪，尽献其邑三十六、口三万。同年周赧王卒，周室不再有天子。",
+      "en": "In 256 BCE Qin general Jiu took Yangcheng and Fushu from Han and then attacked Western Zhou; its lord submitted, surrendering 36 towns and 30,000 people. King Nan died the same year, leaving Zhou without a king."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·周本纪》",
+        "author": "司马迁",
+        "note": "西周君尽献其邑三十六，口三万"
+      },
+      {
+        "title": "《资治通鉴》卷五",
+        "author": "司马光",
+        "note": "周赧王五十九年，秦取西周"
+      }
+    ],
+    "relatedIds": [
+      "san-jia-fen-jin-403"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zheng-guo-qu-246",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "郑国渠开凿",
+      "en": "Zheng Guo Canal"
+    },
+    "date": "-0246-01-01",
+    "location": {
+      "lng": 108.84,
+      "lat": 34.53,
+      "place": {
+        "zh": "泾阳（今陕西泾阳）",
+        "en": "Jingyang (modern Jingyang, Shaanxi)"
+      }
+    },
+    "entityIds": [
+      "qin"
+    ],
+    "category": "工程",
+    "summary": {
+      "zh": "韩国水工郑国为秦开渠引泾，灌溉关中四万余顷，秦更富强。",
+      "en": "The Han engineer Zheng Guo built a canal from the Jing River, irrigating over 40,000 qing in Guanzhong and enriching Qin further."
+    },
+    "description": {
+      "zh": "前 246 年，韩国欲以大型工程消耗秦国力，遣水工郑国入秦游说开渠。渠成，引泾水注洛，溉泽卤之地四万余顷，关中为沃野，秦以富强，卒并诸侯。",
+      "en": "In 246 BCE Han sent the engineer Zheng Guo to Qin to propose a great canal, hoping to drain Qin’s resources; the finished canal watered over 40,000 qing of saline land, turning Guanzhong into fertile fields and strengthening Qin for unification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·河渠书》",
+        "author": "司马迁",
+        "note": "郑国间说秦，令凿泾水自中山西邸瓠口为渠"
+      },
+      {
+        "title": "《汉书·沟洫志》",
+        "author": "班固",
+        "note": "郑国渠溉泽卤之地四万余顷"
+      }
+    ],
+    "relatedIds": [
+      "du-jiang-yan-256"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "li-mu-po-xiongnu-244",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "李牧破匈奴",
+      "en": "Li Mu defeats the Xiongnu"
+    },
+    "date": "-0244-01-01",
+    "location": {
+      "lng": 112.43,
+      "lat": 39,
+      "place": {
+        "zh": "雁门、代",
+        "en": "Yanmen and Dai"
+      }
+    },
+    "entityIds": [
+      "zhao",
+      "xiongnu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "赵将李牧守雁门，诱歼匈奴十余万骑。",
+      "en": "Zhao's general Li Mu held Yanmen and destroyed over 100,000 Xiongnu cavalry."
+    },
+    "description": {
+      "zh": "李牧长期守代、雁门，坚壁不出，养士练兵；前 244 年前后设奇阵，大破匈奴十余万骑，灭襜褴、破东胡、降林胡。年份据《史记·廉颇蔺相如列传》附李牧传，路线示意简化，待页码级核对。",
+      "en": "Li Mu long held Dai and Yanmen, refusing battle while training his men; around 244 BCE he sprang a trap that destroyed more than 100,000 Xiongnu cavalry, wiped out the Chanlan, broke the Donghu and received the surrender of the Linhu. Dates follow the Shiji; the route is schematic and awaits page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·廉颇蔺相如列传》",
+        "author": "司马迁",
+        "note": "李牧传参考"
+      },
+      {
+        "title": "《战国史》",
+        "author": "杨宽",
+        "note": "系年参考"
+      },
+      {
+        "title": "《资治通鉴》周纪",
+        "author": "司马光",
+        "note": "时间线参考"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "mie-han-230",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "秦灭韩",
+      "en": "Qin destroys Han"
+    },
+    "date": "-0230-01-01",
+    "location": {
+      "lng": 113.74,
+      "lat": 34.4,
+      "place": {
+        "zh": "韩都新郑",
+        "en": "Xinzheng, capital of Han"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "内史腾攻韩，虏韩王安，以其地置颍川郡，六国灭亡自此始。",
+      "en": "Qin’s Neishi Teng captured King An of Han and made his land Yingchuan Commandery, beginning the destruction of the six states."
+    },
+    "description": {
+      "zh": "前 230 年，秦使内史腾攻韩，虏韩王安，尽纳其地，置颍川郡。韩为六国中最先亡者。",
+      "en": "In 230 BCE Qin sent Neishi Teng against Han, captured King An and annexed the state as Yingchuan Commandery — the first of the six states to fall."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·秦始皇本纪》",
+        "author": "司马迁",
+        "note": "十七年，内史腾攻韩，得韩王安，尽纳其地"
+      },
+      {
+        "title": "《史记·韩世家》",
+        "author": "司马迁",
+        "note": "秦虏韩王安，以其地置颍川郡"
+      },
+      {
+        "title": "《资治通鉴》卷六",
+        "author": "司马光",
+        "note": "秦王政十七年，秦灭韩"
+      }
+    ],
+    "relatedIds": [
+      "mie-zhao-228"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "mie-zhao-228",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "秦灭赵",
+      "en": "Qin destroys Zhao"
+    },
+    "date": "-0228-01-01",
+    "location": {
+      "lng": 114.49,
+      "lat": 36.61,
+      "place": {
+        "zh": "赵都邯郸",
+        "en": "Handan, capital of Zhao"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "zhao"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "王翦破赵，虏赵王迁；公子嘉自立为代王，六年后亦亡。",
+      "en": "Wang Jian took Handan and captured King Qian of Zhao; Prince Jia held out as King of Dai for six more years."
+    },
+    "description": {
+      "zh": "前 229 年秦使王翦攻赵，赵将李牧抵御；秦以反间计使赵杀李牧。前 228 年王翦破邯郸，虏赵王迁。赵公子嘉奔代自立，前 222 年为秦所灭。",
+      "en": "Qin sent Wang Jian against Zhao in 229 BCE, where general Li Mu held out until Qin’s disinformation campaign led Zhao to execute him. In 228 BCE Wang Jian took Handan and captured King Qian; Prince Jia fled to Dai and was destroyed in 222 BCE."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·秦始皇本纪》",
+        "author": "司马迁",
+        "note": "十八年，大兴兵攻赵；十九年，王翦尽定取赵地"
+      },
+      {
+        "title": "《史记·廉颇蔺相如列传》",
+        "author": "司马迁",
+        "note": "李牧被诛，赵遂亡"
+      },
+      {
+        "title": "《资治通鉴》卷六",
+        "author": "司马光",
+        "note": "秦王政十八年至十九年，秦灭赵"
+      }
+    ],
+    "relatedIds": [
+      "changping-260",
+      "mie-yan-222"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "jing-ke-ci-qin-227",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "荆轲刺秦王",
+      "en": "Jing Ke's attempt on the King of Qin"
+    },
+    "date": "-0227-01-01",
+    "location": {
+      "lng": 108.71,
+      "lat": 34.33,
+      "place": {
+        "zh": "咸阳",
+        "en": "Xianyang"
+      }
+    },
+    "entityIds": [
+      "yan",
+      "qin"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "燕太子丹遣荆轲献图刺秦王，事败。",
+      "en": "Prince Dan of Yan sent Jing Ke with a map to assassinate the King of Qin; the attempt failed."
+    },
+    "description": {
+      "zh": "前 227 年，燕太子丹遣荆轲携樊於期首级与督亢地图入秦，图穷匕见，刺秦王不中，荆轲被杀。据《史记·刺客列传》，待页码级核对。",
+      "en": "In 227 BCE Prince Dan of Yan sent Jing Ke to Qin with the head of Fan Yuqi and the map of Dukang; when the map was unrolled the dagger appeared, the King of Qin escaped and Jing Ke was killed. Based on the Shiji, awaiting page-level verification."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·刺客列传》",
+        "author": "司马迁",
+        "note": "荆轲刺秦参考"
+      },
+      {
+        "title": "《战国策·燕策》",
+        "author": "刘向编",
+        "note": "燕太子丹谋刺参考"
+      },
+      {
+        "title": "《战国史》",
+        "author": "杨宽",
+        "note": "系年参考"
+      }
+    ],
+    "importance": 3,
+    "extensions": {
+      "routeEvent": false
+    }
+  },
+  {
+    "id": "mie-wei-225",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "秦灭魏",
+      "en": "Qin destroys Wei"
+    },
+    "date": "-0225-01-01",
+    "location": {
+      "lng": 114.31,
+      "lat": 34.8,
+      "place": {
+        "zh": "魏都大梁",
+        "en": "Daliang, capital of Wei"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "王贲引黄河、鸿沟之水灌大梁，三月城坏，魏王假降，魏亡。",
+      "en": "Wang Ben diverted the Yellow River and Hong Canal to flood Daliang; the city fell after three months and King Jia surrendered."
+    },
+    "description": {
+      "zh": "前 225 年，秦将王贲攻魏，引河沟灌大梁，三月城坏，魏王假出降，魏亡，秦以其地为郡。",
+      "en": "In 225 BCE Wang Ben attacked Wei, flooding Daliang with water from the Yellow River and the Hong Canal. The walls collapsed after three months, King Jia surrendered, and Wei became Qin commanderies."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·秦始皇本纪》",
+        "author": "司马迁",
+        "note": "二十二年，王贲攻魏，引河沟灌大梁"
+      },
+      {
+        "title": "《史记·魏世家》",
+        "author": "司马迁",
+        "note": "秦灌大梁，虏王假，遂灭魏"
+      },
+      {
+        "title": "《资治通鉴》卷七",
+        "author": "司马光",
+        "note": "秦王政二十二年，秦灭魏"
+      }
+    ],
+    "relatedIds": [
+      "mie-chu-223"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "mie-chu-223",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "秦灭楚",
+      "en": "Qin destroys Chu"
+    },
+    "date": "-0223-01-01",
+    "location": {
+      "lng": 116.79,
+      "lat": 32.6,
+      "place": {
+        "zh": "楚都寿春",
+        "en": "Shouchun, capital of Chu"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "chu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "王翦、蒙武大破楚军，虏楚王负刍，项燕自杀，楚亡。",
+      "en": "Wang Jian and Meng Wu destroyed the Chu army, captured King Fuchu and drove Xiang Yan to suicide."
+    },
+    "description": {
+      "zh": "前 225 年李信伐楚失利；前 224 年秦王政改用王翦，起兵六十万。前 223 年王翦、蒙武破楚于蕲，虏楚王负刍，项燕自杀，楚亡。",
+      "en": "Li Xin’s invasion failed in 225 BCE; Qin then gave Wang Jian 600,000 men. In 223 BCE Wang Jian and Meng Wu defeated Chu at Qi, captured King Fuchu, and Xiang Yan took his own life."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·白起王翦列传》",
+        "author": "司马迁",
+        "note": "王翦果代李信击荆，大破荆军"
+      },
+      {
+        "title": "《史记·秦始皇本纪》",
+        "author": "司马迁",
+        "note": "二十四年，王翦、蒙武攻荆，虏荆王"
+      },
+      {
+        "title": "《资治通鉴》卷七",
+        "author": "司马光",
+        "note": "秦王政二十四年，秦灭楚"
+      }
+    ],
+    "relatedIds": [
+      "yan-ying-279"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "mie-yan-222",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "秦灭燕",
+      "en": "Qin destroys Yan"
+    },
+    "date": "-0222-01-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "燕都蓟（今北京）",
+        "en": "Ji, capital of Yan (modern Beijing)"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "yan"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "荆轲刺秦失败后秦攻燕，蓟城陷落，燕王喜走辽东，前 222 年被虏。",
+      "en": "After Jing Ke’s failed assassination, Qin took Ji; King Xi fled to Liaodong and was captured in 222 BCE."
+    },
+    "description": {
+      "zh": "前 227 年荆轲刺秦王失败，秦大发兵伐燕，前 226 年破燕，蓟城陷，燕王喜奔辽东，斩太子丹以献。前 222 年王贲攻辽东，虏燕王喜，燕亡。",
+      "en": "After Jing Ke’s failed attempt in 227 BCE, Qin attacked Yan and took Ji in 226 BCE; King Xi fled to Liaodong and killed Prince Dan to appease Qin. In 222 BCE Wang Ben took Liaodong and captured King Xi."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·刺客列传》",
+        "author": "司马迁",
+        "note": "荆轲刺秦王"
+      },
+      {
+        "title": "《史记·秦始皇本纪》",
+        "author": "司马迁",
+        "note": "二十五年，王贲攻燕辽东，得燕王喜"
+      },
+      {
+        "title": "《资治通鉴》卷七",
+        "author": "司马光",
+        "note": "秦王政二十五年，秦灭燕"
+      }
+    ],
+    "relatedIds": [
+      "mie-zhao-228",
+      "mie-qi-221"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "mie-qi-221",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "秦灭齐",
+      "en": "Qin destroys Qi"
+    },
+    "date": "-0221-01-01",
+    "location": {
+      "lng": 118.35,
+      "lat": 36.86,
+      "place": {
+        "zh": "齐都临淄",
+        "en": "Linzi, capital of Qi"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "qi"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "王贲自燕南下袭齐，齐王建不战而降，六国尽亡，秦统一天下。",
+      "en": "Wang Ben marched south from Yan; King Jian of Qi surrendered without a fight, completing Qin’s unification."
+    },
+    "description": {
+      "zh": "前 221 年，王贲自燕地南下攻齐，齐相后胜受秦贿赂不设备，齐王建不战而降，齐亡。秦遂并天下，分天下为三十六郡。",
+      "en": "In 221 BCE Wang Ben moved south from Yan; Qi’s chancellor Hou Sheng, bribed by Qin, had left the state unprepared, and King Jian surrendered without battle. Qin then unified the realm into thirty-six commanderies."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·秦始皇本纪》",
+        "author": "司马迁",
+        "note": "二十六年，齐王建与其相后胜发兵守其西界，不通秦"
+      },
+      {
+        "title": "《史记·田敬仲完世家》",
+        "author": "司马迁",
+        "note": "秦虏齐王建，迁之共，遂灭齐为郡"
+      },
+      {
+        "title": "《资治通鉴》卷七",
+        "author": "司马光",
+        "note": "秦王政二十六年，秦灭齐"
+      }
+    ],
+    "relatedIds": [
+      "mie-yan-222"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "shang-yang-qu-hexi-340",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "商鞅破魏取河西",
+      "en": "Shang Yang takes Hexi from Wei"
+    },
+    "date": "-0340-01-01",
+    "location": {
+      "lng": 109.95,
+      "lat": 34.8,
+      "place": {
+        "zh": "河西（今陕西大荔一带）",
+        "en": "Hexi, west of the Yellow River"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "商鞅伐魏，诱擒魏将公子卬，大破魏军，魏献河西之地以和。",
+      "en": "Shang Yang invaded Wei, captured the Wei general Gongzi Ang by stratagem and crushed the Wei army, forcing Wei to cede the Hexi lands."
+    },
+    "description": {
+      "zh": "前 340 年（秦孝公二十二年、魏惠王三十年），商鞅率师伐魏，诈邀魏将公子卬会盟而虏之，因袭破魏军。魏惠王恐，遣使割河西之地献秦以和，并自安邑徙都大梁。秦尽有河西，东出函谷之势遂成。割地系年另有次年之说，细节待考。",
+      "en": "In 340 BCE Shang Yang invaded Wei, lured the Wei general Gongzi Ang to a meeting and seized him, then routed the Wei army. King Hui of Wei ceded the Hexi territory and moved his capital from Anyi to Daliang. Qin thereby gained the west bank of the Yellow River and an open road east through the Hangu Pass. Some accounts place the cession a year later."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·商君列传》",
+        "author": "司马迁",
+        "note": "虏魏公子卬。魏惠王兵数破于齐秦……乃使使割河西之地献于秦以和"
+      },
+      {
+        "title": "《史记·魏世家》",
+        "author": "司马迁",
+        "note": "秦将商君诈我公子卬而袭夺其军，破之"
+      },
+      {
+        "title": "杨宽《战国史》",
+        "author": "杨宽",
+        "note": "商鞅变法与秦取河西"
+      }
+    ],
+    "relatedIds": [
+      "shang-yang-reform-350",
+      "shang-yang-che-lie-338"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "qi-mie-song-286",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "齐灭宋",
+      "en": "Qi destroys Song"
+    },
+    "date": "-0286-01-01",
+    "location": {
+      "lng": 115.65,
+      "lat": 34.44,
+      "place": {
+        "zh": "宋都商丘",
+        "en": "Shangqiu, capital of Song"
+      }
+    },
+    "entityIds": [
+      "qi"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "齐湣王发兵灭宋，尽取其地，诸侯震恐，遂有合纵伐齐之举。",
+      "en": "King Min of Qi destroyed Song and annexed its territory; the other states, alarmed, soon formed a coalition against Qi."
+    },
+    "description": {
+      "zh": "前 286 年，齐湣王举兵灭宋，宋王偃出奔，死于温，齐尽有宋地，南割楚之淮北，西侵三晋，声势极盛。此举打破列国均势，直接招致前 284 年五国合纵伐齐。灭宋年代另有前 285 年说，此处取通行系年。",
+      "en": "In 286 BCE King Min of Qi conquered Song; King Yan of Song fled and died at Wen, and Qi took all Song territory, seizing the Huai region from Chu and pressing the three Jin states. The annexation upset the balance of power and provoked the five-state coalition that crushed Qi in 284 BCE. Some sources date the conquest to 285 BCE."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·田敬仲完世家》",
+        "author": "司马迁",
+        "note": "（齐湣王）三十八年，伐宋，宋王出亡，死于温"
+      },
+      {
+        "title": "《史记·宋微子世家》",
+        "author": "司马迁",
+        "note": "齐湣王与魏楚伐宋，灭之"
+      },
+      {
+        "title": "《资治通鉴》卷四",
+        "author": "司马光",
+        "note": "齐湣王灭宋而骄"
+      }
+    ],
+    "relatedIds": [
+      "wu-guo-fa-qi-284"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "qin-mie-yiqu-272",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "秦灭义渠",
+      "en": "Qin destroys Yiqu"
+    },
+    "date": "-0272-01-01",
+    "location": {
+      "lng": 107.64,
+      "lat": 35.73,
+      "place": {
+        "zh": "义渠（今甘肃庆阳一带）",
+        "en": "Yiqu, in modern eastern Gansu"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "yiqu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "宣太后诱杀义渠王，秦因起兵灭义渠，置陇西、北地、上郡。",
+      "en": "Queen Dowager Xuan had the Yiqu king killed; Qin then destroyed Yiqu and set up Longxi, Beidi and Shangjun commanderies."
+    },
+    "description": {
+      "zh": "前 272 年（秦昭王三十五年），宣太后诱义渠王入甘泉宫而杀之，秦因起兵攻灭义渠，遂有陇西、北地、上郡，并筑长城以拒胡。义渠为秦西陲劲敌，灭之则东向兼并无后顾之忧。",
+      "en": "In 272 BCE Queen Dowager Xuan lured the Yiqu king to the Ganquan Palace and had him killed; Qin then destroyed Yiqu, gained the Longxi, Beidi and Shangjun regions, and built walls against the nomads. Removing this western rival freed Qin for its eastern conquests."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·匈奴列传》",
+        "author": "司马迁",
+        "note": "宣太后诈而杀义渠戎王于甘泉，遂起兵伐残义渠"
+      },
+      {
+        "title": "《后汉书·西羌传》",
+        "author": "范晔",
+        "note": "秦昭王灭义渠，始置陇西、北地、上郡"
+      },
+      {
+        "title": "杨宽《战国史》",
+        "author": "杨宽",
+        "note": "秦灭义渠与西北边郡"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 2
+  },
+  {
+    "id": "li-mu-yian-233",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "李牧破秦于宜安",
+      "en": "Li Mu defeats Qin at Yi’an"
+    },
+    "date": "-0233-01-01",
+    "location": {
+      "lng": 114.9,
+      "lat": 38,
+      "place": {
+        "zh": "宜安（今河北藁城西南）",
+        "en": "Yi’an, southwest of modern Gaocheng, Hebei"
+      }
+    },
+    "entityIds": [
+      "zhao",
+      "qin"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "秦将桓齮攻赵，李牧大破之于宜安，因功封武安君。",
+      "en": "Qin general Huan Yi invaded Zhao; Li Mu crushed him at Yi’an and was enfeoffed Lord Wu’an."
+    },
+    "description": {
+      "zh": "前 233 年，秦将桓齮攻赵，取赤丽、宜安，进逼邯郸。赵以李牧为大将军迎击，大破秦军于宜安，桓齮败走。李牧因功封武安君。次年（前 232）李牧又破秦军于番吾，秦之灭赵因此推迟数年。",
+      "en": "In 233 BCE Qin general Huan Yi took Chili and Yi’an and threatened Handan. Zhao made Li Mu grand general; he routed the Qin army at Yi’an and Huan Yi fled. Li Mu was enfeoffed Lord Wu’an, and the next year he again defeated Qin at Fanwu, delaying Zhao’s fall by several years."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·廉颇蔺相如列传》",
+        "author": "司马迁",
+        "note": "赵乃以李牧为大将军，击秦军于宜安，大破秦军，走秦将桓齮。封李牧为武安君"
+      },
+      {
+        "title": "《史记·赵世家》",
+        "author": "司马迁",
+        "note": "（赵王迁三年）秦攻赤丽、宜安，李牧率师与战于宜安，大破之"
+      },
+      {
+        "title": "《资治通鉴》卷六",
+        "author": "司马光",
+        "note": "秦伐赵，李牧击破之"
+      }
+    ],
+    "relatedIds": [
+      "li-mu-po-xiongnu-244",
+      "mie-zhao-228"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yan-zhao-hao-dai-251",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "燕赵鄗代之战",
+      "en": "Battle of Hao and Dai"
+    },
+    "date": "-0251-01-01",
+    "location": {
+      "lng": 114.68,
+      "lat": 37.48,
+      "place": {
+        "zh": "鄗（今河北柏乡北）",
+        "en": "Hao, north of modern Baixiang, Hebei"
+      }
+    },
+    "entityIds": [
+      "yan",
+      "zhao"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "燕王喜乘赵长平之败伐赵，赵将廉颇大破燕军于鄗，燕割五城请和。",
+      "en": "King Xi of Yan attacked Zhao after Changping; Zhao general Lian Po routed the Yan army at Hao, and Yan ceded five cities for peace."
+    },
+    "description": {
+      "zh": "前 251 年（燕王喜四年），燕相栗腹以赵壮者尽死于长平、可乘其弊，劝燕王伐赵。燕发大军攻赵，赵使廉颇将，逆击于鄗，大破之，追北至燕，围其都；燕割五城以和。此后燕赵相攻不已，两败俱伤，秦得坐收其利。",
+      "en": "In 251 BCE Yan’s chancellor Li Fu argued that Zhao’s able men had died at Changping and urged an attack. Yan raised a great army; Zhao sent Lian Po, who crushed it at Hao, pursued to the Yan capital and forced Yan to cede five cities. The mutual exhaustion of Yan and Zhao left Qin the beneficiary."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·燕召公世家》",
+        "author": "司马迁",
+        "note": "（燕王喜）四年，栗腹……伐赵。赵使廉颇击之，大破栗腹之军于鄗"
+      },
+      {
+        "title": "《史记·廉颇蔺相如列传》",
+        "author": "司马迁",
+        "note": "赵使廉颇将，攻燕，遂围其城。燕割五城请和"
+      },
+      {
+        "title": "《资治通鉴》卷六",
+        "author": "司马光",
+        "note": "燕伐赵，廉颇破之"
+      }
+    ],
+    "relatedIds": [
+      "changping-260",
+      "mie-zhao-228"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fan-ju-yuan-jiao-270",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "范雎献远交近攻",
+      "en": "Fan Ju proposes “befriend the far, attack the near”"
+    },
+    "date": "-0270-01-01",
+    "location": {
+      "lng": 108.71,
+      "lat": 34.33,
+      "place": {
+        "zh": "秦都咸阳",
+        "en": "Xianyang, capital of Qin"
+      }
+    },
+    "entityIds": [
+      "qin"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "范雎说秦昭王「远交近攻」，秦遂定先取三晋、后图齐楚之策。",
+      "en": "Fan Ju advised King Zhao to befriend distant states and attack neighbouring ones, fixing Qin’s order of conquest."
+    },
+    "description": {
+      "zh": "前 270 年，魏人范雎入秦，说昭王以「远交近攻」：得寸则王之寸，得尺亦王之尺，先收韩魏以威楚赵，楚赵附则齐附。昭王用其谋，废穰侯魏冉，收权于王室。秦此后兼并次第，大致循此方略。非行军事件，不绘路线。",
+      "en": "In 270 BCE the Wei exile Fan Ju reached Qin and urged King Zhao to befriend distant states while attacking adjacent ones: every inch gained would be the king’s own. Qin should first take Han and Wei, overawe Chu and Zhao, and only then deal with Qi. King Zhao adopted the plan and stripped the chancellor Wei Ran of power. This political event involves no march and is not drawn as a route."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·范雎蔡泽列传》",
+        "author": "司马迁",
+        "note": "王不如远交而近攻，得寸则王之寸也，得尺亦王之尺也"
+      },
+      {
+        "title": "《战国策·秦策三》",
+        "author": "刘向 编",
+        "note": "范子因王稽入秦，献书昭王"
+      },
+      {
+        "title": "杨宽《战国史》",
+        "author": "杨宽",
+        "note": "秦昭王前期政局与远交近攻"
+      }
+    ],
+    "relatedIds": [
+      "yique-293",
+      "mie-han-230"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lv-bu-wei-xiang-qin-249",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "吕不韦相秦",
+      "en": "Lü Buwei becomes chancellor of Qin"
+    },
+    "date": "-0249-01-01",
+    "location": {
+      "lng": 108.71,
+      "lat": 34.33,
+      "place": {
+        "zh": "秦都咸阳",
+        "en": "Xianyang, capital of Qin"
+      }
+    },
+    "entityIds": [
+      "qin"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "秦庄襄王以吕不韦为丞相，招致宾客，著《吕氏春秋》。",
+      "en": "King Zhuangxiang made Lü Buwei chancellor; he gathered scholars and compiled the Lüshi Chunqiu."
+    },
+    "description": {
+      "zh": "前 249 年，秦庄襄王以吕不韦为丞相，封文信侯，食邑十万户。吕不韦招致天下宾客三千，使各著所闻，编为《吕氏春秋》。其执政延续东出兼并之策，又灭东周，为始皇统一奠基。非行军事件，不绘路线。",
+      "en": "In 249 BCE King Zhuangxiang of Qin appointed Lü Buwei chancellor, enfeoffed him as Marquis Wenxin and granted him a hundred thousand households. Lü gathered three thousand retainers and compiled the Lüshi Chunqiu. His administration continued the policy of eastern conquest and extinguished the Eastern Zhou, preparing the ground for the First Emperor. No march is involved, so no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·吕不韦列传》",
+        "author": "司马迁",
+        "note": "庄襄王元年，以吕不韦为丞相，封为文信侯，食河南洛阳十万户"
+      },
+      {
+        "title": "《史记·秦本纪》",
+        "author": "司马迁",
+        "note": "庄襄王元年，大赦罪人，修先王功臣……东周君与诸侯谋秦"
+      },
+      {
+        "title": "《资治通鉴》卷六",
+        "author": "司马光",
+        "note": "吕不韦为相国"
+      }
+    ],
+    "relatedIds": [
+      "mie-zhou-256",
+      "jing-ke-ci-qin-227"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "si-gongzi-yang-shi-270",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "战国四公子养士",
+      "en": "The four lords and their retainers"
+    },
+    "date": "-0270-01-01",
+    "location": {
+      "lng": 114.31,
+      "lat": 34.8,
+      "place": {
+        "zh": "魏都大梁",
+        "en": "Daliang, capital of Wei"
+      }
+    },
+    "entityIds": [
+      "qi",
+      "zhao",
+      "wei",
+      "chu"
+    ],
+    "category": "文化",
+    "summary": {
+      "zh": "孟尝、平原、信陵、春申四公子竞相养士，食客常数千。",
+      "en": "The lords Mengchang, Pingyuan, Xinling and Chunshen vied in supporting thousands of retainers."
+    },
+    "description": {
+      "zh": "战国晚期，齐孟尝君田文、赵平原君赵胜、魏信陵君魏无忌、楚春申君黄歇皆以养士闻名，宾客多至数千。四公子活动前后相继，非单一事件，此处取约前 270 年为代表年份。养士之风与合纵连横、卿大夫专权相表里。",
+      "en": "In the late Warring States period Tian Wen, Lord Mengchang of Qi; Zhao Sheng, Lord Pingyuan of Zhao; Wei Wuji, Lord Xinling of Wei; and Huang Xie, Lord Chunshen of Chu, were famous for keeping thousands of retainers. Their careers overlapped rather than forming a single event, so c. 270 BCE is used as a representative date. The fashion for retainers was bound up with alliance politics and the power of great ministers."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·孟尝君列传》",
+        "author": "司马迁",
+        "note": "孟尝君在薛，招致诸侯宾客及亡人有罪者，食客数千人"
+      },
+      {
+        "title": "《史记·平原君虞卿列传》",
+        "author": "司马迁",
+        "note": "喜宾客，宾客盖至者数千人"
+      },
+      {
+        "title": "《史记·魏公子列传》",
+        "author": "司马迁",
+        "note": "公子为人仁而下士……致食客三千人"
+      },
+      {
+        "title": "《史记·春申君列传》",
+        "author": "司马迁",
+        "note": "春申君客三千余人，其上客皆蹑珠履"
+      }
+    ],
+    "relatedIds": [
+      "handan-259",
+      "su-qin-he-zong-333"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "qu-yuan-chen-jiang-278",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "屈原沉江",
+      "en": "Qu Yuan drowns himself"
+    },
+    "date": "-0278-01-01",
+    "location": {
+      "lng": 113.08,
+      "lat": 28.82,
+      "place": {
+        "zh": "汨罗江（今湖南汨罗）",
+        "en": "Miluo River, modern Hunan"
+      }
+    },
+    "entityIds": [
+      "chu"
+    ],
+    "category": "文化",
+    "summary": {
+      "zh": "秦拔郢，屈原自沉汨罗，其《离骚》《九章》开楚辞一体。",
+      "en": "After Qin took Ying, Qu Yuan drowned himself in the Miluo; his Li Sao and Jiu Zhang founded the Chu ci tradition."
+    },
+    "description": {
+      "zh": "前 278 年秦将白起拔郢，楚迁都于陈。屈原时已放逐江南，闻郢都沦陷，自沉汨罗江。其《离骚》《九章》《天问》等以楚地歌谣为体，开「楚辞」一派。沉江月日史无确载，通行系于顷襄王二十一年（前 278）前后，后世端午竞渡之说起于纪念之说。",
+      "en": "In 278 BCE Qin general Bai Qi captured Ying and Chu moved its capital to Chen. Qu Yuan, already exiled south of the Yangtze, drowned himself in the Miluo on hearing of Ying’s fall. His Li Sao, Jiu Zhang and Tian Wen, rooted in Chu song, founded the Chu ci tradition. The exact month is unrecorded; the conventional date is around the 21st year of King Qingxiang (278 BCE), and the later Dragon Boat festival was linked to his memory."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·屈原贾生列传》",
+        "author": "司马迁",
+        "note": "于是怀石遂自沉汨罗以死"
+      },
+      {
+        "title": "《楚辞·九章》",
+        "author": "屈原（传）",
+        "note": "《哀郢》伤郢都之陷"
+      },
+      {
+        "title": "袁行霈主编《中国文学史》",
+        "author": "袁行霈",
+        "note": "屈原与楚辞的年代与背景"
+      }
+    ],
+    "relatedIds": [
+      "yan-ying-279"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "qin-kai-po-donghu-300",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "秦开破东胡",
+      "en": "Qin Kai drives back the Donghu"
+    },
+    "date": "-0300-01-01",
+    "location": {
+      "lng": 123.17,
+      "lat": 41.27,
+      "place": {
+        "zh": "襄平（今辽宁辽阳）",
+        "en": "Xiangping, modern Liaoyang, Liaoning"
+      }
+    },
+    "entityIds": [
+      "yan",
+      "donghu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "燕将秦开袭破东胡，却地千余里，燕置上谷至辽东五郡。",
+      "en": "Yan general Qin Kai crushed the Donghu and pushed them back a thousand li, after which Yan set up five commanderies from Shanggu to Liaodong."
+    },
+    "description": {
+      "zh": "燕昭王时，曾为质于东胡的燕将秦开归国，率军袭破东胡，东胡却千余里。燕因筑长城，自造阳至襄平，置上谷、渔阳、右北平、辽西、辽东五郡以拒胡。此事史无确年，通行系于燕昭王在位期间（前 311—前 279），此处取约前 300 年。",
+      "en": "Under King Zhao of Yan, the general Qin Kai—once a hostage among the Donghu—returned and attacked them, driving them back more than a thousand li. Yan then built a wall from Zaoyang to Xiangping and established the commanderies of Shanggu, Yuyang, Youbeiping, Liaoxi and Liaodong. No exact year is recorded; the event is conventionally placed in King Zhao’s reign (311–279 BCE), and c. 300 BCE is used here."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·匈奴列传》",
+        "author": "司马迁",
+        "note": "燕有贤将秦开……归而袭破走东胡，东胡却千余里……置上谷、渔阳、右北平、辽西、辽东郡以拒胡"
+      },
+      {
+        "title": "《三国志·乌丸鲜卑东夷传》裴松之注引《魏略》",
+        "author": "鱼豢",
+        "note": "秦开为燕将，破东胡"
+      },
+      {
+        "title": "杨宽《战国史》",
+        "author": "杨宽",
+        "note": "燕开拓辽东与五郡"
+      }
+    ],
+    "relatedIds": [
+      "yan-zhao-wang-zhao-xian-311",
+      "mie-yan-222"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "chu-mie-lu-256",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "楚灭鲁",
+      "en": "Chu destroys Lu"
+    },
+    "date": "-0256-01-01",
+    "location": {
+      "lng": 116.99,
+      "lat": 35.6,
+      "place": {
+        "zh": "鲁都曲阜",
+        "en": "Qufu, capital of Lu"
+      }
+    },
+    "entityIds": [
+      "chu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "楚考烈王伐灭鲁，迁鲁君于莒，鲁祀遂绝。",
+      "en": "King Kaolie of Chu conquered Lu and exiled its ruler to Ju, ending the sacrifices of Lu."
+    },
+    "description": {
+      "zh": "前 256 年（楚考烈王十年），楚伐鲁，灭之，迁鲁顷公于莒，鲁祀遂绝。鲁为周公之后，至此亡国。灭鲁年代另有前 255、前 249 等说，此处取通行系年。",
+      "en": "In 256 BCE King Kaolie of Chu attacked and destroyed Lu, moving Duke Qing of Lu to Ju and ending the state’s sacrifices. Lu, descended from the Duke of Zhou, thus came to an end. Other sources date the conquest to 255 or 249 BCE."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·鲁周公世家》",
+        "author": "司马迁",
+        "note": "（鲁顷公）二十四年，楚考烈王伐灭鲁。顷公亡，迁于下邑，为家人，鲁绝祀"
+      },
+      {
+        "title": "《史记·六国年表》",
+        "author": "司马迁",
+        "note": "楚考烈王十年，取鲁"
+      },
+      {
+        "title": "《资治通鉴》卷六",
+        "author": "司马光",
+        "note": "楚灭鲁"
+      }
+    ],
+    "relatedIds": [],
+    "importance": 1
+  },
+  {
+    "id": "zhao-wuling-po-linhu-307",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "赵武灵王北破林胡楼烦",
+      "en": "King Wuling of Zhao defeats the Linhu and Loufan"
+    },
+    "date": "-0307-01-01",
+    "location": {
+      "lng": 111.5,
+      "lat": 40.3,
+      "place": {
+        "zh": "云中（今内蒙古托克托一带）",
+        "en": "Yunzhong, near modern Togtoh, Inner Mongolia"
+      }
+    },
+    "entityIds": [
+      "zhao",
+      "linhu",
+      "loufan"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "赵武灵王胡服骑射，北破林胡、楼烦，置云中、雁门、代郡，筑长城。",
+      "en": "After adopting nomadic dress and cavalry tactics, King Wuling of Zhao defeated the Linhu and Loufan, set up Yunzhong, Yanmen and Dai commanderies, and built a wall."
+    },
+    "description": {
+      "zh": "前 307 年前后，赵武灵王推行胡服骑射，北破林胡、楼烦，攘地北至燕、代，西至云中、九原，置云中、雁门、代郡，并筑长城自代沿阴山下至高阙为塞。此举使赵兼有农牧之地，骑兵成为战国新兵种。年代为约数，筑城与置郡非一年之事。",
+      "en": "Around 307 BCE King Wuling of Zhao adopted nomadic dress and cavalry archery, defeated the Linhu and Loufan, and extended Zhao’s power north to Yan and Dai and west to Yunzhong and Jiuyuan. He set up the Yunzhong, Yanmen and Dai commanderies and built a wall from Dai along the Yinshan to Gaoque. Zhao thus combined farming and pastoral lands, and cavalry became a new arm in Warring States warfare. The date is approximate; the wall and commanderies were not completed in a single year."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·赵世家》",
+        "author": "司马迁",
+        "note": "北破林胡、楼烦。筑长城，自代并阴山下，至高阙为塞。而置云中、雁门、代郡"
+      },
+      {
+        "title": "《史记·匈奴列传》",
+        "author": "司马迁",
+        "note": "赵武灵王亦变俗胡服，习骑射，北破林胡、楼烦"
+      },
+      {
+        "title": "《资治通鉴》卷三",
+        "author": "司马光",
+        "note": "赵武灵王胡服骑射，北略中山、林胡、楼烦"
+      }
+    ],
+    "relatedIds": [
+      "hu-fu-qi-she-307",
+      "zhao-mie-zhongshan-296"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "qin-zhu-changcheng-270",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "秦昭王筑长城",
+      "en": "King Zhao of Qin builds a frontier wall"
+    },
+    "date": "-0270-01-01",
+    "location": {
+      "lng": 103.86,
+      "lat": 35.38,
+      "place": {
+        "zh": "临洮（今甘肃岷县一带）",
+        "en": "Lintao, in modern Minxian, Gansu"
+      }
+    },
+    "entityIds": [
+      "qin"
+    ],
+    "category": "工程",
+    "summary": {
+      "zh": "秦灭义渠后筑长城，自临洮经陇西、北地至上郡，以拒胡。",
+      "en": "After destroying Yiqu, Qin built a wall from Lintao through Longxi and Beidi to Shangjun to keep out the northern peoples."
+    },
+    "description": {
+      "zh": "秦昭王灭义渠、置陇西、北地、上郡之后，筑长城以拒胡。长城西起临洮，经陇西、北地，东至上郡，是利用山川险要连缀的防御工程，与后来秦始皇所筑长城并非同一道。年代约在前 272 年灭义渠之后，此处取约前 270 年。非行军事件，不绘路线。",
+      "en": "After destroying Yiqu and setting up the Longxi, Beidi and Shangjun commanderies, King Zhao of Qin built a wall against the northern peoples. It ran from Lintao through Longxi and Beidi to Shangjun, linking natural barriers; it is not the same wall later built by the First Emperor. The date is after the fall of Yiqu in 272 BCE and c. 270 BCE is used here. No march is involved, so no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·匈奴列传》",
+        "author": "司马迁",
+        "note": "秦有陇西、北地、上郡，筑长城以拒胡"
+      },
+      {
+        "title": "杨宽《战国史》",
+        "author": "杨宽",
+        "note": "秦昭王长城与西北边郡"
+      },
+      {
+        "title": "史念海《黄河中游战国及秦时诸长城遗迹的探索》",
+        "author": "史念海",
+        "note": "秦昭王长城走向的实地考察"
+      }
+    ],
+    "relatedIds": [
+      "qin-mie-yiqu-272"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "chu-mie-cai-447",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "楚灭蔡",
+      "en": "Chu destroys Cai"
+    },
+    "date": "-0447-01-01",
+    "location": {
+      "lng": 116.72,
+      "lat": 32.71,
+      "place": {
+        "zh": "下蔡（今安徽凤台）",
+        "en": "Xiacai, modern Fengtai, Anhui"
+      }
+    },
+    "entityIds": [
+      "chu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "楚惠王伐蔡，虏蔡侯齐，蔡国亡。",
+      "en": "King Hui of Chu conquered Cai, captured its lord and ended the state."
+    },
+    "description": {
+      "zh": "前 447 年（楚惠王四十二年），楚伐蔡，蔡侯齐出亡，蔡国遂灭。蔡自前 493 年迁州来（下蔡），至此为楚所并，楚势力深入淮北。",
+      "en": "In 447 BCE, the 42nd year of King Hui of Chu, Chu attacked Cai; its lord fled and the state came to an end. Cai had moved to Zhoulai (Xiacai) in 493 BCE, and its annexation carried Chu’s power deeper into the Huai region."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·楚世家》",
+        "author": "司马迁",
+        "note": "（楚惠王）四十二年，楚灭蔡"
+      },
+      {
+        "title": "《史记·管蔡世家》",
+        "author": "司马迁",
+        "note": "（蔡侯齐）四年，楚惠王灭蔡，蔡侯齐亡"
+      },
+      {
+        "title": "杨宽《战国史》",
+        "author": "杨宽",
+        "note": "楚灭蔡、莒与江淮扩张"
+      }
+    ],
+    "relatedIds": [
+      "chu-mie-ju-431"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "chu-mie-ju-431",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "楚灭莒",
+      "en": "Chu destroys Ju"
+    },
+    "date": "-0431-01-01",
+    "location": {
+      "lng": 118.84,
+      "lat": 35.58,
+      "place": {
+        "zh": "莒（今山东莒县）",
+        "en": "Ju, modern Juxian, Shandong"
+      }
+    },
+    "entityIds": [
+      "chu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "楚简王北伐灭莒，楚疆东抵沂水上游。",
+      "en": "King Jian of Chu campaigned north and destroyed Ju, extending Chu to the upper Yi River."
+    },
+    "description": {
+      "zh": "前 431 年（楚简王元年），楚北伐灭莒。莒为山东旧国，灭莒使楚势力越过淮水、伸入沂水上游。清华简《系年》亦记楚简王灭莒，可与《史记》互证。",
+      "en": "In 431 BCE, the first year of King Jian of Chu, Chu campaigned north and destroyed Ju. Ju was an old state in Shandong; its fall carried Chu’s power across the Huai and into the upper Yi River. The Tsinghua bamboo manuscript Xinian also records the conquest, corroborating the Shiji."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·楚世家》",
+        "author": "司马迁",
+        "note": "（楚简王）元年，北伐灭莒"
+      },
+      {
+        "title": "《清华大学藏战国竹简·系年》",
+        "author": "清华大学出版社整理",
+        "note": "楚简王灭莒"
+      },
+      {
+        "title": "杨宽《战国史》",
+        "author": "杨宽",
+        "note": "战国初年楚的扩张"
+      }
+    ],
+    "relatedIds": [
+      "chu-mie-cai-447"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "han-mie-zheng-375",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "韩灭郑",
+      "en": "Han destroys Zheng"
+    },
+    "date": "-0375-01-01",
+    "location": {
+      "lng": 113.74,
+      "lat": 34.4,
+      "place": {
+        "zh": "郑都新郑",
+        "en": "Xinzheng, capital of Zheng"
+      }
+    },
+    "entityIds": [
+      "han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "韩哀侯灭郑，并其国，徙都新郑。",
+      "en": "Marquis Ai of Han annexed Zheng and moved his capital to Xinzheng."
+    },
+    "description": {
+      "zh": "前 375 年（韩哀侯二年），韩灭郑，并其国，因徙都新郑。韩据中原腹心，为七雄中国土最小而位置最要者。灭郑年代《史记》诸表互有出入，此处取韩世家系年。",
+      "en": "In 375 BCE, the second year of Marquis Ai, Han destroyed Zheng, absorbed its territory and moved its capital to Xinzheng. Han thus held the heart of the Central Plains, the smallest of the seven states but strategically placed. The Shiji’s tables differ slightly on the year; the Han genealogy is followed here."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·韩世家》",
+        "author": "司马迁",
+        "note": "（哀侯）二年，灭郑，因徙都郑"
+      },
+      {
+        "title": "《史记·郑世家》",
+        "author": "司马迁",
+        "note": "（郑君乙）二十一年，韩哀侯灭郑，并其国"
+      },
+      {
+        "title": "《资治通鉴》卷一",
+        "author": "司马光",
+        "note": "韩灭郑，徙都新郑"
+      }
+    ],
+    "relatedIds": [
+      "shen-bu-hai-351",
+      "mie-han-230"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yin-jin-389",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "阴晋之战",
+      "en": "Battle of Yinjin"
+    },
+    "date": "-0389-01-01",
+    "location": {
+      "lng": 110.09,
+      "lat": 34.57,
+      "place": {
+        "zh": "阴晋（今陕西华阴东）",
+        "en": "Yinjin, east of modern Huayin, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "wei",
+      "qin"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "吴起率魏武卒大破秦军于阴晋，秦不敢东向。",
+      "en": "Wu Qi led the Wei “martial soldiers” to a great victory over Qin at Yinjin, checking Qin’s eastward advance."
+    },
+    "description": {
+      "zh": "前 389 年前后，魏以吴起为将，攻秦至阴晋，大破秦军，秦退守洛水以西。吴起镇西河二十余年，秦不敢东向。此役规模《吴子·励士》所记「五万破五十万」显有夸饰，具体斩获待考。",
+      "en": "Around 389 BCE Wei, with Wu Qi as general, attacked Qin at Yinjin and routed it, driving Qin back west of the Luo River. Wu Qi held the Xihe region for over twenty years and kept Qin from moving east. The claim in the Wuzi that fifty thousand men defeated five hundred thousand is clearly exaggerated; the actual losses are uncertain."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《吴子·励士》",
+        "author": "吴起（传）",
+        "note": "（魏武侯）与秦战于阴晋，大破之"
+      },
+      {
+        "title": "《史记·孙子吴起列传》",
+        "author": "司马迁",
+        "note": "吴起为西河守，秦兵不敢东向"
+      },
+      {
+        "title": "杨宽《战国史》",
+        "author": "杨宽",
+        "note": "魏国西河之守与阴晋之战"
+      }
+    ],
+    "relatedIds": [
+      "wu-qi-reform-386",
+      "shang-yang-qu-hexi-340"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "shi-men-364",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "石门之战",
+      "en": "Battle of Shimen"
+    },
+    "date": "-0364-01-01",
+    "location": {
+      "lng": 110.95,
+      "lat": 34.85,
+      "place": {
+        "zh": "石门（今山西运城西南，地望有异说）",
+        "en": "Shimen, southwest of modern Yuncheng, Shanxi (location disputed)"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "秦献公大破三晋之师于石门，斩首六万，周天子贺之。",
+      "en": "Duke Xian of Qin routed the three Jin armies at Shimen, beheading sixty thousand; the Zhou king sent congratulations."
+    },
+    "description": {
+      "zh": "前 364 年（秦献公二十一年），秦与三晋战于石门，大破之，斩首六万，周显王贺以黼黻。此为商鞅变法前秦少有的大胜，显示献公东进之势。石门地望有陕西旬邑与山西运城两说，此处取后者并标异说。",
+      "en": "In 364 BCE Qin defeated the three Jin states at Shimen and beheaded sixty thousand men; King Xian of Zhou sent congratulatory gifts. This was one of Qin’s few great victories before Shang Yang’s reforms and shows Duke Xian’s eastward push. Shimen is variously located in Xunyi, Shaanxi, or Yuncheng, Shanxi; the latter is used here with the variant noted."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·秦本纪》",
+        "author": "司马迁",
+        "note": "（献公）二十一年，与晋战于石门，斩首六万，天子贺以黼黻"
+      },
+      {
+        "title": "《史记·六国年表》",
+        "author": "司马迁",
+        "note": "秦献公二十一年，败三晋于石门"
+      },
+      {
+        "title": "《资治通鉴》卷一",
+        "author": "司马光",
+        "note": "秦败三晋之师于石门"
+      }
+    ],
+    "relatedIds": [
+      "shao-liang-362",
+      "shang-yang-reform-356"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "shao-liang-362",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "少梁之战",
+      "en": "Battle of Shaoliang"
+    },
+    "date": "-0362-01-01",
+    "location": {
+      "lng": 110.44,
+      "lat": 35.47,
+      "place": {
+        "zh": "少梁（今陕西韩城）",
+        "en": "Shaoliang, modern Hancheng, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "wei"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "秦献公败魏于少梁，虏魏将公叔痤。",
+      "en": "Duke Xian of Qin defeated Wei at Shaoliang and captured the Wei general Gongsun Cuo."
+    },
+    "description": {
+      "zh": "前 362 年（秦献公二十三年），秦与魏战于少梁，败魏军，虏魏将公叔痤（一作公孙痤），取庞。少梁为河西要地，秦得之则扼黄河渡口，为日后商鞅取河西张本。",
+      "en": "In 362 BCE Qin fought Wei at Shaoliang, defeated it, captured the Wei general Gongsun Cuo and took Pang. Shaoliang commanded a key Yellow River crossing; its loss set the stage for Shang Yang’s later conquest of Hexi."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·秦本纪》",
+        "author": "司马迁",
+        "note": "（献公）二十三年，与魏晋战少梁，虏其将公孙痤"
+      },
+      {
+        "title": "《史记·魏世家》",
+        "author": "司马迁",
+        "note": "（惠王）九年，与秦战少梁，虏我将公孙痤，取庞"
+      },
+      {
+        "title": "《资治通鉴》卷二",
+        "author": "司马光",
+        "note": "秦败魏师于少梁"
+      }
+    ],
+    "relatedIds": [
+      "shi-men-364",
+      "shang-yang-qu-hexi-340"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "wei-wei-handan-354",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "魏围邯郸",
+      "en": "Wei besieges Handan"
+    },
+    "date": "-0354-01-01",
+    "endDate": "-0353-12-31",
+    "location": {
+      "lng": 114.49,
+      "lat": 36.61,
+      "place": {
+        "zh": "赵都邯郸",
+        "en": "Handan, capital of Zhao"
+      }
+    },
+    "entityIds": [
+      "wei",
+      "zhao"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "魏惠王使庞涓伐赵，围邯郸，次年拔之，齐因救赵而有桂陵之战。",
+      "en": "King Hui of Wei sent Pang Juan against Zhao and besieged Handan, taking it the next year; Qi’s relief led to the battle of Guiling."
+    },
+    "description": {
+      "zh": "前 354 年，魏惠王使庞涓率师伐赵，围其都邯郸；前 353 年拔邯郸。赵求救于齐，齐威王以田忌为将、孙膑为师，直趋大梁，遂有桂陵之役。此役是魏国霸权由盛转衰的转折点，与桂陵、马陵构成完整链条。",
+      "en": "In 354 BCE King Hui of Wei sent Pang Juan against Zhao and besieged its capital Handan, which fell in 353. Zhao appealed to Qi; King Wei of Qi sent Tian Ji with Sun Bin as strategist straight at Daliang, leading to Guiling. The campaign marks the turning point of Wei’s hegemony and links directly to Guiling and Maling."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·魏世家》",
+        "author": "司马迁",
+        "note": "（惠王）十七年，围赵邯郸。十八年，拔邯郸"
+      },
+      {
+        "title": "《史记·田敬仲完世家》",
+        "author": "司马迁",
+        "note": "魏伐赵，赵请救于齐"
+      },
+      {
+        "title": "《资治通鉴》卷二",
+        "author": "司马光",
+        "note": "魏庞涓伐赵，围邯郸"
+      }
+    ],
+    "relatedIds": [
+      "guiling-353",
+      "maling-341"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "qin-chengwang-325",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "秦惠文王称王",
+      "en": "King Huiwen of Qin takes the royal title"
+    },
+    "date": "-0325-01-01",
+    "location": {
+      "lng": 108.71,
+      "lat": 34.33,
+      "place": {
+        "zh": "秦都咸阳",
+        "en": "Xianyang, capital of Qin"
+      }
+    },
+    "entityIds": [
+      "qin"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "秦惠文君称王，秦自此以「王」号与六国并列。",
+      "en": "The ruler of Qin took the title of king, placing Qin on equal footing with the six states."
+    },
+    "description": {
+      "zh": "前 325 年，秦惠文君称王（一说在击败魏、韩之后），秦自此前去「公伯」之号，与魏、齐、楚、燕、赵、韩并列称王。此前前 334 年徐州相王、前 323 年五国相王，称王已成列国常态。非行军事件，不绘路线。",
+      "en": "In 325 BCE the ruler of Qin adopted the royal title, dropping the older ducal style and joining Wei, Qi, Chu, Yan, Zhao and Han as a kingdom. The rulers of Wei and Qi had already recognized each other as kings in 334 BCE, and five states followed in 323; the royal title had become the norm. No march is involved, so no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·秦本纪》",
+        "author": "司马迁",
+        "note": "（惠文君）十三年，韩亦为王，秦称王"
+      },
+      {
+        "title": "《史记·六国年表》",
+        "author": "司马迁",
+        "note": "秦惠文王元年，称王"
+      },
+      {
+        "title": "杨宽《战国史》",
+        "author": "杨宽",
+        "note": "战国诸侯称王与相王"
+      }
+    ],
+    "relatedIds": [
+      "xuzhou-xiangwang-334",
+      "wu-guo-xiangwang-323"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "wu-guo-fa-qin-318",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "五国伐秦",
+      "en": "Five states attack Qin"
+    },
+    "date": "-0318-01-01",
+    "endDate": "-0318-12-31",
+    "location": {
+      "lng": 110.87,
+      "lat": 34.52,
+      "place": {
+        "zh": "函谷关（今河南灵宝）",
+        "en": "Hangu Pass, modern Lingbao, Henan"
+      }
+    },
+    "entityIds": [
+      "wei",
+      "zhao",
+      "han",
+      "yan",
+      "chu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "魏、赵、韩、燕、楚合纵攻秦，楚怀王为纵长，至函谷关而还。",
+      "en": "Wei, Zhao, Han, Yan and Chu formed a coalition under King Huai of Chu, marched to Hangu Pass and withdrew."
+    },
+    "description": {
+      "zh": "前 318 年，魏相公孙衍倡合纵，魏、赵、韩、燕、楚五国攻秦，楚怀王为纵长。联军至函谷关，秦出兵拒之，五国之师皆引而归，无功而返。齐是否与役有异说：《史记·秦本纪》另载韩、赵、魏、燕、齐帅匈奴攻秦，秦败之于修鱼（前 317），与《楚世家》所记不完全一致。次年秦败韩赵于修鱼，合纵随即瓦解。",
+      "en": "In 318 BCE, at the urging of the Wei chancellor Gongsun Yan, Wei, Zhao, Han, Yan and Chu attacked Qin with King Huai of Chu as coalition leader. The armies reached Hangu Pass, Qin came out to meet them, and the five states withdrew without result. Whether Qi joined is disputed: the Qin annals record Han, Zhao, Wei, Yan and Qi with the Xiongnu attacking Qin and being defeated at Xiuyu in 317 BCE, which does not fully agree with the Chu genealogy. The next year Qin defeated Han and Zhao at Xiuyu and the alliance collapsed."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·楚世家》",
+        "author": "司马迁",
+        "note": "（怀王）十一年，苏秦约从山东六国共攻秦，楚怀王为从长。至函谷关，秦出兵击六国，六国兵皆引而归"
+      },
+      {
+        "title": "《史记·秦本纪》",
+        "author": "司马迁",
+        "note": "（惠文王）七年，韩、赵、魏、燕、齐帅匈奴共攻秦"
+      },
+      {
+        "title": "杨宽《战国史》",
+        "author": "杨宽",
+        "note": "五国伐秦与修鱼之战"
+      }
+    ],
+    "relatedIds": [
+      "yiqu-bai-qin-318",
+      "xiu-yu-317"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yiqu-bai-qin-318",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "义渠败秦于李帛",
+      "en": "Yiqu defeats Qin at Libo"
+    },
+    "date": "-0318-01-01",
+    "location": {
+      "lng": 105.72,
+      "lat": 34.58,
+      "place": {
+        "zh": "李帛（地望待考，约在今甘肃天水一带）",
+        "en": "Libo (location uncertain, probably near modern Tianshui, Gansu)"
+      }
+    },
+    "entityIds": [
+      "yiqu",
+      "qin"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "义渠乘五国伐秦之机袭秦，大败秦人于李帛。",
+      "en": "Yiqu took advantage of the five-state attack on Qin and routed Qin forces at Libo."
+    },
+    "description": {
+      "zh": "前 318 年五国伐秦，秦以文绣千匹、美女百人赂义渠君，义渠君不受，起兵袭秦，大败秦人于李帛之下。李帛地望史无确指，一说在今甘肃天水一带，故本事件标 `routeEvent: false`，不绘路线，待考。",
+      "en": "When the five states attacked Qin in 318 BCE, Qin tried to buy off the Yiqu ruler with silk and women; he refused, raised troops and routed Qin at Libo. The location of Libo is not firmly identified and is often placed near modern Tianshui, Gansu, so no route is drawn for this event pending further research."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·张仪列传》附《犀首传》",
+        "author": "司马迁",
+        "note": "义渠君…因起兵袭秦，大败秦人于李帛之下"
+      },
+      {
+        "title": "《战国策·秦策二》",
+        "author": "刘向编",
+        "note": "义渠君之魏，闻五国伐秦"
+      },
+      {
+        "title": "杨宽《战国史》",
+        "author": "杨宽",
+        "note": "义渠与秦的和战"
+      }
+    ],
+    "relatedIds": [
+      "wu-guo-fa-qin-318",
+      "qin-qu-yiqu-314"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "qin-qu-yiqu-314",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "秦取义渠二十五城",
+      "en": "Qin takes twenty-five Yiqu towns"
+    },
+    "date": "-0314-01-01",
+    "location": {
+      "lng": 107.64,
+      "lat": 35.73,
+      "place": {
+        "zh": "义渠（今甘肃宁县、庆阳一带）",
+        "en": "Yiqu, around modern Ningxian and Qingyang, Gansu"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "yiqu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "秦伐义渠，取其二十五城，义渠君称臣。",
+      "en": "Qin attacked Yiqu, took twenty-five of its towns and reduced its ruler to vassalage."
+    },
+    "description": {
+      "zh": "前 314 年，秦惠文王遣军伐义渠，取二十五城，义渠君称臣。义渠自此附秦，至前 272 年宣太后诱杀义渠王，秦始灭其国、置北地郡。",
+      "en": "In 314 BCE King Huiwen of Qin sent an army against Yiqu, took twenty-five towns and forced its ruler to submit. Yiqu remained a Qin dependency until 272 BCE, when Queen Dowager Xuan lured its king to his death, Qin destroyed the state and set up Beidi commandery."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·秦本纪》",
+        "author": "司马迁",
+        "note": "（惠文王）十一年，县义渠…义渠君为臣"
+      },
+      {
+        "title": "《后汉书·西羌传》",
+        "author": "范晔",
+        "note": "秦伐义渠，取二十五城"
+      },
+      {
+        "title": "杨宽《战国史》",
+        "author": "杨宽",
+        "note": "秦与义渠的关系"
+      }
+    ],
+    "relatedIds": [
+      "yiqu-bai-qin-318",
+      "qin-mie-yiqu-272"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "qin-ba-yiyang-307",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "秦拔宜阳",
+      "en": "Qin takes Yiyang"
+    },
+    "date": "-0307-01-01",
+    "location": {
+      "lng": 112.18,
+      "lat": 34.52,
+      "place": {
+        "zh": "宜阳（今河南宜阳西）",
+        "en": "Yiyang, west of modern Yiyang, Henan"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "甘茂攻拔韩之宜阳，斩首六万，秦通三川之路遂开。",
+      "en": "Gan Mao took the Han city of Yiyang, beheading sixty thousand and opening Qin’s route through Sanchuan."
+    },
+    "description": {
+      "zh": "前 307 年，秦武王使甘茂攻韩宜阳，五月不拔，甘茂以「息壤之盟」坚武王之志，终于拔之，斩首六万。宜阳为韩西部门户，既失则三川通道洞开，秦兵可直抵周室。韩以武遂与秦。",
+      "en": "In 307 BCE King Wu of Qin sent Gan Mao against the Han city of Yiyang. The siege lasted five months; Gan Mao held the king to his pledge and finally took the city, beheading sixty thousand. Yiyang was Han’s western gate, and its fall opened the Sanchuan corridor to the Zhou capital. Han ceded Wusui to Qin."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·秦本纪》",
+        "author": "司马迁",
+        "note": "（武王）四年，拔宜阳，斩首六万"
+      },
+      {
+        "title": "《史记·樗里子甘茂列传》",
+        "author": "司马迁",
+        "note": "甘茂攻宜阳，五月而不拔…卒拔之"
+      },
+      {
+        "title": "《资治通鉴》卷三",
+        "author": "司马光",
+        "note": "秦拔宜阳"
+      }
+    ],
+    "relatedIds": [
+      "wu-guo-fa-qin-318",
+      "yi-que-293"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "qi-qin-hudi-288",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "齐秦互帝",
+      "en": "Qi and Qin briefly take the title of emperor"
+    },
+    "date": "-0288-01-01",
+    "location": {
+      "lng": 118.35,
+      "lat": 36.86,
+      "place": {
+        "zh": "齐都临淄",
+        "en": "Linzi, capital of Qi"
+      }
+    },
+    "entityIds": [
+      "qi",
+      "qin"
+    ],
+    "category": "外交",
+    "summary": {
+      "zh": "秦昭王称西帝、齐湣王称东帝，旋因苏代劝说皆去帝号。",
+      "en": "King Zhao of Qin took the title of Western Emperor and King Min of Qi that of Eastern Emperor; both soon renounced the titles on Su Dai’s advice."
+    },
+    "description": {
+      "zh": "前 288 年，秦昭王约齐湣王并称帝，秦为西帝、齐为东帝。苏代劝齐王去帝号以收天下人心，齐去帝，秦亦随之去帝，称帝仅数月。此为合纵连横的高潮一幕，非行军事件，不绘路线。",
+      "en": "In 288 BCE King Zhao of Qin proposed that he and King Min of Qi both take imperial titles, as Western and Eastern Emperor. Su Dai persuaded the king of Qi to renounce his title to win the support of the other states; Qin followed suit, and the titles lasted only months. This is a high point of the alliance politics of the period; no march is involved, so no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·田敬仲完世家》",
+        "author": "司马迁",
+        "note": "（湣王）三十六年，王为东帝，秦昭王为西帝…苏代…于是齐去帝复为王"
+      },
+      {
+        "title": "《史记·秦本纪》",
+        "author": "司马迁",
+        "note": "（昭王）十九年，王为西帝"
+      },
+      {
+        "title": "《战国策·齐策四》",
+        "author": "刘向编",
+        "note": "苏代劝齐王去帝"
+      }
+    ],
+    "relatedIds": [
+      "qi-mie-song-286",
+      "wu-guo-fa-qi-284"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "chuisha-301",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "垂沙之战",
+      "en": "Battle of Chuisha"
+    },
+    "date": "-0301-01-01",
+    "location": {
+      "lng": 112.6,
+      "lat": 32.45,
+      "place": {
+        "zh": "垂沙（今河南唐河西南，地望有异说）",
+        "en": "Chuisha, southwest of modern Tanghe, Henan (location disputed)"
+      }
+    },
+    "entityIds": [
+      "qi",
+      "wei",
+      "han",
+      "chu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "齐、魏、韩共攻楚，大破楚师于垂沙，杀楚将唐眜。",
+      "en": "Qi, Wei and Han attacked Chu, routed its army at Chuisha and killed the Chu general Tang Mo."
+    },
+    "description": {
+      "zh": "前 301 年，齐以匡章为将，魏、韩佐之，共攻楚，大破楚师于垂沙（一作沘水），杀楚将唐眜。楚宛、叶以北之地入韩、魏。此役使楚失去汉水以北屏障，为日后白起拔鄢郢张本。垂沙地望有唐河、泌阳等说，此处取唐河西南。",
+      "en": "In 301 BCE Qi under Kuang Zhang, joined by Wei and Han, attacked Chu and routed its army at Chuisha (also written Bishui), killing the general Tang Mo. Chu lost the land north of Wan and Ye to Han and Wei. The defeat stripped Chu of its shield north of the Han River and prepared the way for Bai Qi’s later capture of Yan and Ying. Chuisha is variously located, including Tanghe and Biyang; the area southwest of Tanghe is used here."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·楚世家》",
+        "author": "司马迁",
+        "note": "（怀王）二十八年，秦与齐、韩、魏共攻楚，杀楚将唐眜"
+      },
+      {
+        "title": "《史记·田敬仲完世家》",
+        "author": "司马迁",
+        "note": "（湣王）二十三年，与秦击败楚于重丘"
+      },
+      {
+        "title": "杨宽《战国史》",
+        "author": "杨宽",
+        "note": "垂沙之战与楚的衰落"
+      }
+    ],
+    "relatedIds": [
+      "dan-yang-312",
+      "yan-ying-279"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kuangzhang-hangu-298",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "匡章破函谷",
+      "en": "Kuang Zhang breaks into Hangu Pass"
+    },
+    "date": "-0298-01-01",
+    "endDate": "-0296-12-31",
+    "location": {
+      "lng": 110.87,
+      "lat": 34.52,
+      "place": {
+        "zh": "函谷关（今河南灵宝）",
+        "en": "Hangu Pass, modern Lingbao, Henan"
+      }
+    },
+    "entityIds": [
+      "qi",
+      "wei",
+      "han"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "齐、魏、韩攻秦，匡章破函谷关，秦割河东以和。",
+      "en": "Qi, Wei and Han attacked Qin; Kuang Zhang forced Hangu Pass and Qin ceded territory east of the Yellow River for peace."
+    },
+    "description": {
+      "zh": "前 298 年，齐、魏、韩三国共攻秦，齐将匡章率师攻函谷关，历时三年，前 296 年破关而入，秦昭王割河东之地以和，三国乃退。此为战国合纵攻秦最深入的一次，函谷关破而咸阳震动。",
+      "en": "In 298 BCE Qi, Wei and Han attacked Qin. The Qi general Kuang Zhang pressed Hangu Pass for three years and forced it in 296 BCE; King Zhao of Qin ceded territory east of the Yellow River for peace and the allies withdrew. This was the deepest success of any anti-Qin coalition, and the fall of Hangu shook Xianyang."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·田敬仲完世家》",
+        "author": "司马迁",
+        "note": "（湣王）二十六年，齐与魏、韩共攻秦，至函谷"
+      },
+      {
+        "title": "《史记·秦本纪》",
+        "author": "司马迁",
+        "note": "（昭王）十一年，齐、魏、韩共攻秦，秦与韩、魏河北及封陵以和"
+      },
+      {
+        "title": "《资治通鉴》卷四",
+        "author": "司马光",
+        "note": "匡章攻秦，入函谷关"
+      }
+    ],
+    "relatedIds": [
+      "wu-guo-fa-qin-318",
+      "yi-que-293"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hua-yang-273",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "华阳之战",
+      "en": "Battle of Huayang"
+    },
+    "date": "-0273-01-01",
+    "location": {
+      "lng": 113.72,
+      "lat": 34.55,
+      "place": {
+        "zh": "华阳（今河南新郑北）",
+        "en": "Huayang, north of modern Xinzheng, Henan"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "wei",
+      "zhao"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "白起破魏、赵联军于华阳，斩首十五万，魏割南阳以和。",
+      "en": "Bai Qi routed the Wei and Zhao armies at Huayang, beheading a hundred and fifty thousand; Wei ceded Nanyang for peace."
+    },
+    "description": {
+      "zh": "前 273 年，秦昭王遣白起攻魏，韩、赵救之，战于华阳。白起大破三晋之师，走魏将芒卯，斩首十五万（《白起列传》作十三万，另有沉赵卒二万于河之说），魏割南阳以和。此役使魏彻底失去与秦抗衡之力，也填补了伊阙到长平之间的空白。",
+      "en": "In 273 BCE King Zhao of Qin sent Bai Qi against Wei; Han and Zhao came to its aid and battle was joined at Huayang. Bai Qi routed the three Jin armies, put the Wei general Mang Mao to flight and beheaded a hundred and fifty thousand (the biography of Bai Qi says a hundred and thirty thousand, with twenty thousand Zhao troops drowned in the river). Wei ceded Nanyang for peace. The defeat ended Wei’s ability to contest Qin and fills the gap between Yique and Changping."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·白起王翦列传》",
+        "author": "司马迁",
+        "note": "（昭王）三十四年，白起攻魏，拔华阳，走芒卯…斩首十三万"
+      },
+      {
+        "title": "《史记·魏世家》",
+        "author": "司马迁",
+        "note": "（安釐王）四年，秦破我及韩、赵，杀十五万人，走我将芒卯"
+      },
+      {
+        "title": "《资治通鉴》卷四",
+        "author": "司马光",
+        "note": "秦白起伐魏，拔华阳"
+      }
+    ],
+    "relatedIds": [
+      "yi-que-293",
+      "changping-262"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "e-yu-270",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "阏与之战",
+      "en": "Battle of Eyu"
+    },
+    "date": "-0270-01-01",
+    "location": {
+      "lng": 113.57,
+      "lat": 37.33,
+      "place": {
+        "zh": "阏与（今山西和顺）",
+        "en": "Eyu, modern Heshun, Shanxi"
+      }
+    },
+    "entityIds": [
+      "zhao",
+      "qin"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "赵奢急趋阏与，大破秦军，解阏与之围。",
+      "en": "Zhao She marched swiftly to Eyu, routed Qin and raised the siege."
+    },
+    "description": {
+      "zh": "前 270 年（一说前 269 年），秦围韩之阏与，赵使赵奢救之。赵奢出邯郸三十里而止，示弱怠敌，继而卷甲急趋，二日一夜至阏与，据北山，大破秦军，解其围。此为赵国在长平之前对秦最漂亮的一胜，赵奢因封马服君。",
+      "en": "In 270 BCE (some say 269), Qin besieged the Han town of Eyu and Zhao sent Zhao She to relieve it. He halted thirty li from Handan to feign weakness, then forced a rapid march, covering the distance in two days and a night, seized the northern heights and routed Qin, raising the siege. It was Zhao’s finest victory over Qin before Changping, and Zhao She was enfeoffed as Lord Mafu."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·廉颇蔺相如列传》",
+        "author": "司马迁",
+        "note": "秦伐韩，军于阏与…赵奢…大破秦军，秦军解而走"
+      },
+      {
+        "title": "《史记·赵世家》",
+        "author": "司马迁",
+        "note": "（惠文王）二十九年，秦韩相攻，而围阏与。赵使赵奢将，击秦，大破秦军阏与下"
+      },
+      {
+        "title": "《资治通鉴》卷五",
+        "author": "司马光",
+        "note": "赵奢救阏与，大破秦师"
+      }
+    ],
+    "relatedIds": [
+      "changping-262",
+      "hua-yang-273"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "shangdang-jiang-zhao-262",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "上党降赵",
+      "en": "Shangdang submits to Zhao"
+    },
+    "date": "-0262-01-01",
+    "location": {
+      "lng": 112.88,
+      "lat": 36.12,
+      "place": {
+        "zh": "上党郡（今山西长子一带）",
+        "en": "Shangdang commandery, around modern Changzi, Shanxi"
+      }
+    },
+    "entityIds": [
+      "han",
+      "zhao"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "秦取韩野王，上党道绝；守冯亭以郡入赵，赵受之，遂启长平之战。",
+      "en": "Qin took Yewang and cut Shangdang off; its governor Feng Ting offered the commandery to Zhao, whose acceptance led straight to Changping."
+    },
+    "description": {
+      "zh": "前 262 年，秦伐韩，取野王，上党与韩本土隔绝。韩上党守冯亭不愿降秦，与民谋以上党十七县入赵。赵孝成王纳平原君之议受之，封冯亭为华阳君，遣廉颇军长平。秦遂伐赵，长平之战由此爆发。此为政治事件，不绘路线（廉颇赴长平已由长平之战路线覆盖）。",
+      "en": "In 262 BCE Qin attacked Han, took Yewang and cut Shangdang off from the Han heartland. Feng Ting, its governor, refused to surrender to Qin and offered the commandery’s seventeen counties to Zhao. King Xiaocheng of Zhao, on Lord Pingyuan’s advice, accepted, enfeoffed Feng Ting and sent Lian Po to Changping. Qin then attacked Zhao, and the battle of Changping followed. This is a political event, so no route is drawn; Lian Po’s march is covered by the Changping routes."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·白起王翦列传》",
+        "author": "司马迁",
+        "note": "韩不能守上党，其守冯亭与民谋…以上党归赵"
+      },
+      {
+        "title": "《史记·赵世家》",
+        "author": "司马迁",
+        "note": "（孝成王）四年…韩氏上党守冯亭…以城邑卖赵"
+      },
+      {
+        "title": "《资治通鉴》卷五",
+        "author": "司马光",
+        "note": "冯亭以上党入赵，赵使廉颇军长平"
+      }
+    ],
+    "relatedIds": [
+      "changping-262",
+      "qin-ba-yiyang-307"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "wu-guo-fa-qin-241",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "五国伐秦（蕞之战）",
+      "en": "Five states attack Qin at Zui"
+    },
+    "date": "-0241-01-01",
+    "endDate": "-0241-12-31",
+    "location": {
+      "lng": 109.3,
+      "lat": 34.42,
+      "place": {
+        "zh": "蕞（今陕西临潼东北）",
+        "en": "Zui, northeast of modern Lintong, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "zhao",
+      "chu",
+      "wei",
+      "han",
+      "yan"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "赵将庞煖率五国之师攻秦至蕞，不克而还。",
+      "en": "Pang Nuan of Zhao led a five-state army against Qin as far as Zui; the attack failed and the allies withdrew."
+    },
+    "description": {
+      "zh": "前 241 年，诸侯患秦攻伐不已，复合纵。赵将庞煖率赵、楚、魏、韩、燕之锐师攻秦，进至蕞（今陕西临潼东北），不能拔，引兵而退，此为战国最后一次大规模合纵。《秦始皇本纪》记作「韩、魏、赵、卫、楚共击秦，取寿陵」，与《赵世家》所载参与国与战地略有出入，附此备考。",
+      "en": "In 241 BCE the states, alarmed by Qin’s relentless attacks, formed a final great alliance. Pang Nuan of Zhao led the picked troops of Zhao, Chu, Wei, Han and Yan against Qin, advanced to Zui (northeast of modern Lintong) and withdrew when the place could not be taken. It was the last large-scale coalition of the period. The Qin annals instead list Han, Wei, Zhao, Wei (卫) and Chu, and speak of taking Shouling; the discrepancy is noted here."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·赵世家》",
+        "author": "司马迁",
+        "note": "（悼襄王）四年，庞煖将赵、楚、魏、燕之锐师，攻秦蕞，不拔"
+      },
+      {
+        "title": "《史记·春申君列传》",
+        "author": "司马迁",
+        "note": "诸侯…相与合从，西伐秦，而楚王为从长…至函谷关，秦出兵攻，诸侯兵皆败走"
+      },
+      {
+        "title": "《史记·秦始皇本纪》",
+        "author": "司马迁",
+        "note": "（政）六年，韩、魏、赵、卫、楚共击秦，取寿陵"
+      }
+    ],
+    "relatedIds": [
+      "kuangzhang-hangu-298",
+      "mie-zhao-228"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lao-ai-zhi-luan-238",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "嫪毐之乱",
+      "en": "Lao Ai’s revolt"
+    },
+    "date": "-0238-01-01",
+    "location": {
+      "lng": 108.71,
+      "lat": 34.33,
+      "place": {
+        "zh": "秦都咸阳",
+        "en": "Xianyang, capital of Qin"
+      }
+    },
+    "entityIds": [
+      "qin"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "嫪毐矫太后玺发兵作乱，秦王政平之，次年免吕不韦。",
+      "en": "Lao Ai raised a revolt with the queen dowager’s seal; King Zheng crushed it and dismissed Lü Buwei the next year."
+    },
+    "description": {
+      "zh": "前 238 年（秦王政九年），长信侯嫪毐矫太后玺发县卒、卫卒作乱于咸阳，秦王政令相国昌平君、昌文君发卒攻之，战于咸阳，嫪毐败走，车裂以徇，夷三族，太后迁雍。次年秦王免相国吕不韦，秦政始专于王。此为内政事件，不绘路线。",
+      "en": "In 238 BCE, the ninth year of King Zheng, the marquis Lao Ai forged the queen dowager’s seal and raised troops in Xianyang. The king sent the chancellors Changping and Changwen against him; Lao Ai was defeated, executed by having his limbs torn off, and his kin wiped out, while the queen dowager was moved to Yong. The next year the king dismissed the chancellor Lü Buwei, and power was concentrated in his own hands. As an internal affair, no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·秦始皇本纪》",
+        "author": "司马迁",
+        "note": "（政）九年…长信侯毐作乱而觉，矫王御玺及太后玺以发县卒…战咸阳"
+      },
+      {
+        "title": "《史记·吕不韦列传》",
+        "author": "司马迁",
+        "note": "嫪毐…矫太后玺…败走"
+      },
+      {
+        "title": "《资治通鉴》卷六",
+        "author": "司马光",
+        "note": "秦王政九年，嫪毐作乱伏诛"
+      }
+    ],
+    "relatedIds": [
+      "lv-buwei-xiang-qin-249",
+      "mie-han-230"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "ping-yang-234",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "平阳之战",
+      "en": "Battle of Pingyang"
+    },
+    "date": "-0234-01-01",
+    "location": {
+      "lng": 114.55,
+      "lat": 36.3,
+      "place": {
+        "zh": "平阳（今河北临漳西）",
+        "en": "Pingyang, west of modern Linzhang, Hebei"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "zhao"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "秦将桓齮破赵军于平阳，杀赵将扈辄，斩首十万。",
+      "en": "The Qin general Huan Yi routed the Zhao army at Pingyang, killed the Zhao general Hu Zhe and beheaded a hundred thousand."
+    },
+    "description": {
+      "zh": "前 234 年，秦将桓齮攻赵，战于平阳，杀赵将扈辄，斩首十万。赵以李牧为大将军，次年在宜安、肥下大破秦军，暂时稳住局面。《赵世家》系此役于武城，与《秦始皇本纪》所记平阳略有出入。",
+      "en": "In 234 BCE the Qin general Huan Yi attacked Zhao, defeated it at Pingyang, killed the Zhao general Hu Zhe and beheaded a hundred thousand. Zhao then made Li Mu grand general; the next year he routed Qin at Yi’an and Fei, steadying the state briefly. The Zhao genealogy places the battle at Wucheng, slightly at odds with the Pingyang of the Qin annals."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·秦始皇本纪》",
+        "author": "司马迁",
+        "note": "（政）十三年，桓齮攻赵平阳，杀赵将扈辄，斩首十万"
+      },
+      {
+        "title": "《史记·赵世家》",
+        "author": "司马迁",
+        "note": "（幽缪王）二年，秦攻武城，扈辄率师救之，军败，死焉"
+      },
+      {
+        "title": "《资治通鉴》卷六",
+        "author": "司马光",
+        "note": "秦桓齮伐赵，败赵军于平阳"
+      }
+    ],
+    "relatedIds": [
+      "li-mu-yian-233",
+      "mie-zhao-228"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "li-mu-zhi-si-229",
+    "extensions": {
+      "routeEvent": false
+    },
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "李牧之死",
+      "en": "The death of Li Mu"
+    },
+    "date": "-0229-01-01",
+    "location": {
+      "lng": 114.49,
+      "lat": 36.61,
+      "place": {
+        "zh": "赵都邯郸",
+        "en": "Handan, capital of Zhao"
+      }
+    },
+    "entityIds": [
+      "zhao"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "赵王迁听郭开之谗，杀李牧，次年邯郸陷，赵亡。",
+      "en": "King Qian of Zhao, swayed by Guo Kai’s slander, had Li Mu killed; Handan fell the next year and Zhao was destroyed."
+    },
+    "description": {
+      "zh": "前 229 年，秦使王翦攻赵，赵将李牧、司马尚御之，秦不能拔。秦以重金赂赵王宠臣郭开，使进谗，赵王迁杀李牧，废司马尚，以赵葱、颜聚代之。前 228 年王翦破赵，虏赵王迁。李牧之死为赵亡的直接原因，属内政事件，不绘路线。",
+      "en": "In 229 BCE Qin sent Wang Jian against Zhao; the Zhao generals Li Mu and Sima Shang held him off. Qin bribed the king’s favorite Guo Kai to slander them, and King Qian had Li Mu killed, dismissed Sima Shang and replaced them with Zhao Cong and Yan Ju. In 228 BCE Wang Jian broke Zhao and captured the king. Li Mu’s death directly caused the fall of Zhao; as an internal affair, no route is drawn."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·廉颇蔺相如列传》附《李牧传》",
+        "author": "司马迁",
+        "note": "赵王迁…使赵葱及齐将颜聚代李牧。李牧不受命，赵使人微捕得李牧，斩之"
+      },
+      {
+        "title": "《史记·赵世家》",
+        "author": "司马迁",
+        "note": "（幽缪王）七年，秦人攻赵…赵王迁降"
+      },
+      {
+        "title": "《战国策·赵策四》",
+        "author": "刘向编",
+        "note": "郭开受贿谗李牧"
+      }
+    ],
+    "relatedIds": [
+      "li-mu-yian-233",
+      "mie-zhao-228"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "qin-po-ji-226",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "秦破燕蓟",
+      "en": "Qin takes the Yan capital Ji"
+    },
+    "date": "-0226-01-01",
+    "location": {
+      "lng": 116.4,
+      "lat": 39.9,
+      "place": {
+        "zh": "燕都蓟（今北京）",
+        "en": "Ji, capital of Yan, modern Beijing"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "yan"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "王翦破燕军于易水，取蓟，燕王喜走辽东，斩太子丹以献。",
+      "en": "Wang Jian defeated the Yan army at the Yi River and took Ji; King Xi fled to Liaodong and had Crown Prince Dan killed to appease Qin."
+    },
+    "description": {
+      "zh": "前 227 年荆轲刺秦王失败，秦大兴兵伐燕。前 226 年王翦破燕军于易水之西，取燕都蓟，燕王喜与太子丹率残部走保辽东，秦将李信追击，燕王斩太子丹以献。燕虽未即亡，蓟之失使其退处辽东一隅。",
+      "en": "After Jing Ke’s failed attempt on the king of Qin in 227 BCE, Qin raised a great army against Yan. In 226 BCE Wang Jian defeated the Yan forces west of the Yi River and took the capital Ji; King Xi and Crown Prince Dan fled to Liaodong with the remnants, and when Li Xin pursued, the king had the crown prince killed and sent his head to Qin. Yan survived but was reduced to a corner in Liaodong."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·燕召公世家》",
+        "author": "司马迁",
+        "note": "（王喜）二十五年，秦…攻燕，拔蓟。燕王喜…走辽东"
+      },
+      {
+        "title": "《史记·刺客列传》",
+        "author": "司马迁",
+        "note": "秦…大兴兵伐燕…拔蓟"
+      },
+      {
+        "title": "《资治通鉴》卷六",
+        "author": "司马光",
+        "note": "王翦拔蓟，燕王走辽东"
+      }
+    ],
+    "relatedIds": [
+      "jing-ke-227",
+      "mie-yan-222"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "li-xin-fa-chu-225",
+    "atlasId": "warring-states",
+    "name": {
+      "zh": "李信伐楚",
+      "en": "Li Xin’s campaign against Chu"
+    },
+    "date": "-0225-01-01",
+    "endDate": "-0224-12-31",
+    "location": {
+      "lng": 115.85,
+      "lat": 33.6,
+      "place": {
+        "zh": "城父（今安徽亳州东南）",
+        "en": "Chengfu, southeast of modern Bozhou, Anhui"
+      }
+    },
+    "entityIds": [
+      "qin",
+      "chu"
+    ],
+    "category": "战役",
+    "summary": {
+      "zh": "李信率二十万伐楚，初胜而后为项燕所破，秦改命王翦。",
+      "en": "Li Xin invaded Chu with two hundred thousand men, won at first and was then routed by Xiang Yan; Qin replaced him with Wang Jian."
+    },
+    "description": {
+      "zh": "前 225 年，秦王政问伐楚之策，李信言二十万足矣，王翦言非六十万不可。王以李信、蒙恬率二十万伐楚，初破楚军，攻平舆、寝、鄢郢，引兵西会于城父。楚将项燕随之三日三夜不顿舍，大破李信军，亡七都尉，李信败还。秦王乃强起王翦，率六十万再伐楚，前 223 年灭楚。",
+      "en": "In 225 BCE King Zheng asked how many troops were needed against Chu; Li Xin said two hundred thousand, Wang Jian insisted on six hundred thousand. The king sent Li Xin and Meng Tian with two hundred thousand, who defeated Chu forces at Pingyu, Qin and Yanying and moved west to join forces at Chengfu. The Chu general Xiang Yan pursued for three days and nights without halting and crushed Li Xin’s army, killing seven commandants; Li Xin fell back. The king then persuaded Wang Jian to take command with six hundred thousand men, and Chu was destroyed in 223 BCE."
+    },
+    "images": [],
+    "sources": [
+      {
+        "title": "《史记·白起王翦列传》",
+        "author": "司马迁",
+        "note": "李信…信又攻鄢郢，破之，于是引兵而西，与蒙恬会城父。楚人因随之，三日三夜不顿舍，大破李信军"
+      },
+      {
+        "title": "《史记·楚世家》",
+        "author": "司马迁",
+        "note": "（负刍）二年，秦将李信攻楚，楚将项燕大破之"
+      },
+      {
+        "title": "《资治通鉴》卷六",
+        "author": "司马光",
+        "note": "李信伐楚，败于城父"
+      }
+    ],
+    "relatedIds": [
+      "mie-chu-223",
+      "mie-zhao-228"
+    ],
+    "importance": 2
+  }
+]

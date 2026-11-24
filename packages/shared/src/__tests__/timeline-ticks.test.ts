@@ -56,4 +56,27 @@ describe('generateTicks', () => {
     expect(new Set(times).size).toBe(times.length);
     expect([...times].sort((a, b) => a - b)).toEqual(times);
   });
+
+  it('公元前跨度按年刻度并显示「前 N」', () => {
+    const timeline = createTimeline({ start: '-0475-01-01', end: '-0221-12-31' });
+    const ticks = generateTicks(timeline, 1200, { minLabelPx: 72 });
+
+    expect(ticks.every((tick) => tick.unit === 'year')).toBe(true);
+    expect(ticks[0]!.label.startsWith('前')).toBe(true);
+    expect(ticks.length).toBeLessThanOrEqual(12);
+    expect(ticks[0]!.time).toBeGreaterThanOrEqual(timeline.start);
+    expect(ticks.at(-1)!.time).toBeLessThanOrEqual(timeline.end);
+  });
+
+  it('跨公元前后不会被 1900 偏移带错', () => {
+    const timeline = createTimeline({ start: '-0100-01-01', end: '0100-12-31' });
+    const ticks = generateTicks(timeline, 1200, { minLabelPx: 72 });
+    const labels = ticks.map((tick) => tick.label);
+
+    expect(labels).toContain('前100');
+    expect(labels.some((label) => label === '0')).toBe(false);
+    // Date.UTC 的 0—99 年偏移会造出 1900/1950 这类错标
+    expect(labels.some((label) => label.startsWith('19'))).toBe(false);
+    expect(labels.some((label) => !label.startsWith('前'))).toBe(true);
+  });
 });

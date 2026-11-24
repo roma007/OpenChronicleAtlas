@@ -1,5 +1,5 @@
 import type { AtlasEvent, AtlasRouteFeature, AtlasTime, DateString } from '../types';
-import { DAY_MS, parseDateString, toDateString } from '../time/date';
+import { DAY_MS, compareDateStrings, parseDateString, toDateString, utcFromParts } from '../time/date';
 import type { Timeline } from './types';
 
 export function createTimeline(range: { start: DateString; end: DateString }): Timeline {
@@ -29,8 +29,8 @@ export function routeDateRange(
     if (!isIncluded(route.properties.entityId)) continue;
     const routeStart = route.properties.startDate;
     const routeEnd = route.properties.endDate;
-    if (start === null || routeStart < start) start = routeStart;
-    if (end === null || routeEnd > end) end = routeEnd;
+    if (start === null || compareDateStrings(routeStart, start) < 0) start = routeStart;
+    if (end === null || compareDateStrings(routeEnd, end) > 0) end = routeEnd;
   }
   return start === null || end === null ? null : { start, end };
 }
@@ -48,8 +48,8 @@ export function datasetDateRange(
   let start: DateString | null = null;
   let end: DateString | null = null;
   const consider = (date: DateString) => {
-    if (start === null || date < start) start = date;
-    if (end === null || date > end) end = date;
+    if (start === null || compareDateStrings(date, start) < 0) start = date;
+    if (end === null || compareDateStrings(date, end) > 0) end = date;
   };
 
   for (const route of routes) {
@@ -73,7 +73,7 @@ export function timeToRatio(time: AtlasTime, timeline: Timeline): number {
 
 export function snapToDay(time: AtlasTime): AtlasTime {
   const date = new Date(time);
-  return Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate());
+  return utcFromParts(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate());
 }
 
 export function ratioToTime(ratio: number, timeline: Timeline): AtlasTime {

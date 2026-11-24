@@ -1,5 +1,6 @@
 import { eventStart } from '../timeline/events';
 import { normalizeText } from './index';
+import { compareDateStrings } from '../time/date';
 import type { SearchEntry, SearchHit, SearchIndex, SearchOptions } from './types';
 
 const FIELD_BASE: Record<keyof SearchEntry['fields'], number> = {
@@ -104,6 +105,6 @@ export function searchEvents(
   }
 
   return hits
-    .sort((a, b) => b.score - a.score || b.event.date.localeCompare(a.event.date))
+    .sort((a, b) => b.score - a.score || compareDateStrings(b.event.date, a.event.date))
     .slice(0, options.limit ?? 50);
 }

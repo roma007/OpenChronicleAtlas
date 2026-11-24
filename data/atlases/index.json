@@ -176,6 +176,34 @@
       }
     },
     {
+      "id": "warring-states",
+      "title": {
+        "zh": "战国",
+        "en": "Warring States"
+      },
+      "subtitle": {
+        "zh": "前475—前221",
+        "en": "475–221 BCE"
+      },
+      "timeRange": {
+        "start": "-0475-01-01",
+        "end": "-0221-12-31"
+      },
+      "tags": [
+        "中国历史",
+        "先秦",
+        "战国",
+        "军事"
+      ],
+      "path": "warring-states/manifest.json",
+      "coverText": {
+        "years": "前 475 — 前 221",
+        "brand": "史迹 · 时空地图",
+        "note": "示意图 · 数据待史料校订",
+        "noteEn": "Schematic · data pending review"
+      }
+    },
+    {
       "id": "three-kingdoms",
       "title": {
         "zh": "三国",
@@ -324,5 +352,5 @@
       }
     }
   ],
-  "dataVersion": "2026-11-23-872574d1aea3"
+  "dataVersion": "2026-11-24-9ca6d25b60d6"
 }

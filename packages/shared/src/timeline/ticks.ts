@@ -1,4 +1,5 @@
 import type { AtlasTime } from '../types';
+import { formatTickYear, utcFromParts } from '../time/date';
 import { timeToRatio } from './core';
 import type { Tick, TickUnit, Timeline } from './types';
 
@@ -16,12 +17,12 @@ function pad(value: number): string {
 
 function startOfMonth(time: AtlasTime): AtlasTime {
   const date = new Date(time);
-  return Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), 1);
+  return utcFromParts(date.getUTCFullYear(), date.getUTCMonth(), 1);
 }
 
 function addMonths(time: AtlasTime, months: number): AtlasTime {
   const date = new Date(time);
-  return Date.UTC(date.getUTCFullYear(), date.getUTCMonth() + months, 1);
+  return utcFromParts(date.getUTCFullYear(), date.getUTCMonth() + months, 1);
 }
 
 function boundaries(
@@ -37,7 +38,7 @@ function boundaries(
     const startYear = new Date(timeline.start).getUTCFullYear();
     const endYear = new Date(timeline.end).getUTCFullYear();
     for (let year = startYear; year <= endYear; year += step) {
-      const time = Date.UTC(year, 0, 1);
+      const time = utcFromParts(year, 0, 1);
       if (time >= timeline.start && time <= timeline.end) result.push(time);
       if (overLimit()) break;
     }
@@ -64,18 +65,20 @@ function boundaries(
   return result;
 }
 
-function labelFor(time: AtlasTime, unit: TickUnit, timeline: Timeline): string {
+function labelFor(time: AtlasTime, unit: TickUnit, timeline: Timeline, locale: string): string {
   const date = new Date(time);
-  const year = date.getUTCFullYear();
+  const yearLabel = formatTickYear(time, locale);
   const month = date.getUTCMonth() + 1;
   const day = date.getUTCDate();
 
-  if (unit === 'year') return String(year);
-  if (unit === 'month') return `${year}-${pad(month)}`;
+  if (unit === 'year') return yearLabel;
+  if (unit === 'month') return `${yearLabel}-${pad(month)}`;
 
   const spansYears =
     new Date(timeline.start).getUTCFullYear() !== new Date(timeline.end).getUTCFullYear();
-  return spansYears ? `${year}-${pad(month)}-${pad(day)}` : `${pad(month)}-${pad(day)}`;
+  return spansYears
+    ? `${yearLabel}-${pad(month)}-${pad(day)}`
+    : `${pad(month)}-${pad(day)}`;
 }
 
 interface Candidate {
@@ -89,6 +92,8 @@ export interface GenerateTicksOptions {
   minLabelPx?: number;
   /** 目标刻度数上限，默认 12 */
   maxTicks?: number;
+  /** 刻度标签语言，默认 zh-CN（公元前显示「前 475」） */
+  locale?: string;
 }
 
 /**
@@ -102,6 +107,7 @@ export function generateTicks(
 ): Tick[] {
   const minLabelPx = options.minLabelPx ?? 72;
   const maxTicks = options.maxTicks ?? 12;
+  const locale = options.locale ?? 'zh-CN';
   const target = Math.max(2, Math.min(maxTicks, Math.floor(widthPx / minLabelPx) || 2));
 
   const units: TickUnit[] = ['year', 'month', 'day'];
@@ -149,7 +155,7 @@ export function generateTicks(
   return chosen.times.map((time, index) => ({
     time,
     ratio: timeToRatio(time, timeline),
-    label: labelFor(time, chosen.unit, timeline),
+    label: labelFor(time, chosen.unit, timeline, locale),
     unit: chosen.unit,
     major: index % majorEvery === 0,
   }));

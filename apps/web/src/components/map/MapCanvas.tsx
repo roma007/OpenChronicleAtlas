@@ -536,14 +536,17 @@ export function MapCanvas() {
           ? [feature.geometry.coordinates]
           : feature.geometry.coordinates;
 
+      const dashed = ext.dashed === true;
       const polygons = parts.map((rings) => {
         const polygon = new AMap.Polygon({
           path: rings.map((ring) => ring.map(toGcjPoint)),
           fillColor: entity.color,
           fillOpacity: feature.properties.opacity ?? 0.16,
           strokeColor: entity.color,
-          strokeOpacity: 0.55,
-          strokeWeight: 1.2,
+          strokeOpacity: dashed ? 0.75 : 0.55,
+          strokeWeight: dashed ? 1.4 : 1.2,
+          strokeStyle: dashed ? 'dashed' : 'solid',
+          strokeDasharray: dashed ? [6, 4] : undefined,
           bubble: true,
           zIndex: 10 + (feature.properties.order ?? 0),
         });

@@ -2,6 +2,7 @@ import {
   applyEventFilters,
   categoryLabel,
   collectCategories,
+  isValidDateString,
   resolveLocalized,
   routeStyleForSegmentType,
   segmentTypeLabel,
@@ -36,6 +37,8 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
   const setFilters = useAtlasStore((state) => state.setFilters);
   const toggleCategory = useAtlasStore((state) => state.toggleCategory);
   const resetFilters = useAtlasStore((state) => state.resetFilters);
+  const showTerritories = useAtlasStore((state) => state.showTerritories);
+  const toggleTerritories = useAtlasStore((state) => state.toggleTerritories);
   const showAdminBoundaries = useAtlasStore((state) => state.showAdminBoundaries);
   const toggleAdminBoundaries = useAtlasStore((state) => state.toggleAdminBoundaries);
   const showRegionLabels = useAtlasStore((state) => state.showRegionLabels);
@@ -86,8 +89,8 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
   const applyDates = () => {
     setFilters({
       ...filters,
-      from: /^\d{4}-\d{2}-\d{2}$/.test(fromDraft) ? fromDraft : undefined,
-      to: /^\d{4}-\d{2}-\d{2}$/.test(toDraft) ? toDraft : undefined,
+      from: isValidDateString(fromDraft) ? fromDraft : undefined,
+      to: isValidDateString(toDraft) ? toDraft : undefined,
     });
   };
 
@@ -145,6 +148,21 @@ export function FilterSheet({ visible, onClose }: FilterSheetProps) {
           <View style={styles.divider} />
 
           <RegionFilter onNavigate={onClose} />
+
+          {dataset.territories.some(
+            (feature) => feature.properties.extensions?.kind !== 'admin-boundary',
+          ) ? (
+            <Pressable
+              style={styles.adminToggle}
+              onPress={toggleTerritories}
+              accessibilityRole="button"
+              accessibilityState={{ selected: showTerritories }}
+            >
+              <Text style={[styles.adminToggleText, showTerritories && styles.adminToggleActive]}>
+                {t('legend.territories')} · {t(showTerritories ? 'legend.on' : 'legend.off')}
+              </Text>
+            </Pressable>
+          ) : null}
 
           {dataset.territories.some(
             (feature) => feature.properties.extensions?.kind === 'admin-boundary',
