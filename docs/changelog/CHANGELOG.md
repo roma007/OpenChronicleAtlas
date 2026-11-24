@@ -3,6 +3,13 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.287] - 2026-11-24
+
+### Fixed
+- **发布脚本在中文提示处崩溃**：`scripts/deploy.sh` 第 53/69 行的 `$HOST，` 被 bash 当成变量名的一部分
+  （`HOST，: unbound variable`），导致 `pnpm release` 在第 1 步就退出。改为 `${HOST}，`，
+  两处一并修正；发布流程本身未变。
+
 ## [v1.0.286] - 2026-11-24
 
 ### Added

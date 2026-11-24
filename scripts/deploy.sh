@@ -52,7 +52,7 @@ echo
 echo "== 1. /srv/ops 待办 =="
 inbox="$(ssh -o BatchMode=yes -o ConnectTimeout=5 "$HOST" "/srv/ops/bin/inbox.sh atlas" 2>/dev/null || true)"
 if [ -z "$inbox" ]; then
-  echo "  （连不上 $HOST，跳过）"
+  echo "  （连不上 ${HOST}，跳过）"
 else
   printf '%s\n' "$inbox" | sed 's/^/  /'
   if printf '%s' "$inbox" | grep -q '⬜'; then
@@ -68,7 +68,7 @@ echo
 echo "== 2. 共享面漂移 =="
 status="$(ssh -o BatchMode=yes -o ConnectTimeout=5 "$HOST" "/srv/ops/bin/status.sh" 2>/dev/null || true)"
 if [ -z "$status" ]; then
-  echo "  （连不上 $HOST，跳过）"
+  echo "  （连不上 ${HOST}，跳过）"
 else
   printf '%s\n' "$status" | sed -n '/漂移检测/,/待处理请求/p' | sed '$d' | sed 's/^/  /'
   if printf '%s' "$status" | grep -q '⚠️'; then
