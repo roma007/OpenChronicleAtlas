@@ -197,6 +197,35 @@ open http://quizgo-ecs:8081         # tailnet 调试口，无 TLS，仅供排障
   2026-11-24 已在正式站实测：SW `activated` 且正在控制页面，
   `workbox-precache-v2` / `atlas-data` / `atlas-images` 三个缓存均已建立，控制台无报错
 
+### Tailscale 还要不要（2026-11-24 复核结论：**要，且是刚需**）
+
+站点本身与 Tailscale 无关——访客走公网 https。但**运维面完全依赖它**：
+
+| 用途 | 为什么离不开 |
+| --- | --- |
+| `ssh quizgo` | 公网 22 已于 2026-11-24 永久关闭，这是**唯一**的 SSH 通道 |
+| `pnpm release` | 备份 + `rsync` 同步 `/srv/atlas` 全走这条 SSH；断开就发不了版 |
+| 排障回环 | `http://quizgo-ecs:8081`（origin 直连，绕开 TLS/HSTS）、QuizGo 的 8082 |
+| 应急 | TLS 出问题时，**上了 HSTS 就没法「关掉 https 看一眼」**，只能从 tailnet 进源站 |
+
+也就是说：删掉 Tailscale 就必须重新开放公网 22 才能发布，那是用更差的安全换更少的依赖，不划算。
+
+**它不是单点**（break-glass 路径，2026-11-24 实测 `aliyun.service` 为 `active`）：
+
+1. 阿里云控制台 → ECS → 实例 → **远程连接 / Workbench**（走云助手，不需要任何入方向端口）；
+2. 云助手「发送命令」可在实例内跑 shell，适合 `systemctl`、`nginx -t`、看日志这类只读排障；
+3. 真要发布而 Tailscale 挂了：安全组临时加 `TCP 22 → 自己当前公网 IP/32`，发完**立刻删**。
+   注意 `status.sh` 的 22 探针会亮 ⚠️，而 `pnpm release` 第 9 步把 ⚠️ 当失败——
+   也就是说带着这条临时规则发布，会在同步完成之后被判「发布失败」（线上其实已更新）。这是设计如此：
+   宁可误报，也不让公网 22 悄悄留着。做法是**发完立刻删规则，再跑一次 `status.sh` 确认全绿**。
+
+**不要做的事**：重新长期开放 22、把 8081/8082 暴露到公网、或为了「少装一个软件」改成公网 SSH。
+
+```bash
+ssh quizgo 'tailscale status'   # 节点在线、直连还是中继
+ssh quizgo 'systemctl is-active aliyun.service'   # break-glass 是否可用
+```
+
 ### 安全组现状（2026-11-24 复核：入方向共 4 条）
 
 | 规则 | 用途 | 期限 |

@@ -3,6 +3,14 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.285] - 2026-11-24
+
+### Docs
+- `AGENTS.md` 第 6 节新增「Tailscale 还要不要」小节：**结论是刚需**（公网 22 已关闭后它是唯一 SSH 通道，
+  `pnpm release` 的备份与 rsync 全走它）。同时写明 break-glass：控制台 Workbench / 云助手
+  （实测 `aliyun.service` 为 `active`，不需要任何入方向端口），以及「临时开 22 会让 `pnpm release`
+  第 9 步把 ⚠️ 判成失败（此时线上其实已更新）」的处置顺序——先删规则再复跑 `status.sh`。
+
 ## [v1.0.284] - 2026-11-24
 
 ### Changed
