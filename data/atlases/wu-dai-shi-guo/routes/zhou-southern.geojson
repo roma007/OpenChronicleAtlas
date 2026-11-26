@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [114.34, 34.80],
+          [116.00, 33.50],
+          [116.79, 33.50]
+        ]
+      },
+      "properties": {
+        "entityId": "zhou",
+        "startDate": "0956-02-01",
+        "endDate": "0956-04-30",
+        "order": 1,
+        "name": { "zh": "后周征淮南：第 1 阶段（956）", "en": "Phase 1 (956)" },
+        "segmentType": "advance",
+        "label": { "zh": "征淮南 · 一", "en": "Huainan · 1" },
+        "description": { "zh": "柴荣首次亲征，取寿州周边。", "en": "Chai Rong's first campaign." }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [116.79, 33.50],
+          [117.60, 32.30],
+          [117.06, 32.98]
+        ]
+      },
+      "properties": {
+        "entityId": "zhou",
+        "startDate": "0957-01-01",
+        "endDate": "0957-12-31",
+        "order": 2,
+        "name": { "zh": "后周征淮南：第 2 阶段（957）", "en": "Phase 2 (957)" },
+        "segmentType": "advance",
+        "label": { "zh": "征淮南 · 二", "en": "Huainan · 2" },
+        "description": { "zh": "再战淮南，连克州郡，回师寿州。", "en": "Return campaign, then back to Shouzhou." }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.06, 32.98],
+          [117.60, 32.30],
+          [118.00, 31.80]
+        ]
+      },
+      "properties": {
+        "entityId": "zhou",
+        "startDate": "0958-03-01",
+        "endDate": "0958-05-01",
+        "order": 3,
+        "name": { "zh": "后周征淮南：第 3 阶段（958）", "en": "Phase 3 (958)" },
+        "segmentType": "advance",
+        "label": { "zh": "征淮南 · 三", "en": "Huainan · 3" },
+        "description": { "zh": "后周兵临长江北岸，南唐去帝号称臣。", "en": "Reached the Yangtze; Southern Tang submitted." }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [118.00, 31.80],
+          [116.79, 33.50],
+          [114.34, 34.80]
+        ]
+      },
+      "properties": {
+        "entityId": "zhou",
+        "startDate": "0958-06-01",
+        "endDate": "0958-07-01",
+        "order": 4,
+        "name": { "zh": "后周征淮南：班师回汴", "en": "Return to Bianzhou" },
+        "segmentType": "retreat",
+        "label": { "zh": "班师", "en": "Return" },
+        "description": { "zh": "淮南平定后班师回汴州。", "en": "Returned to Bianzhou after pacifying Huainan." }
+      }
+    }
+  ]
+}

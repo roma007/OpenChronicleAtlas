@@ -15,7 +15,7 @@ export const SITE_ICP = {
  * number 与查询链接都由它派生——三处各写一遍必然会写歪一处。
  * 空字符串时页脚不显示。
  */
-const PSB_CODE = '';
+const PSB_CODE = '44011302006250';
 
 export const SITE_PSB = {
   code: PSB_CODE,

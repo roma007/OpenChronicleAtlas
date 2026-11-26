@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [118.78, 32.06],
+          [117.00, 30.50],
+          [115.89, 28.68]
+        ]
+      },
+      "properties": {
+        "entityId": "nan-tang",
+        "startDate": "0945-02-01",
+        "endDate": "0945-02-10",
+        "order": 1,
+        "name": {
+          "zh": "出师闽地：金陵→洪州",
+          "en": "March to Min: Jinling → Hongzhou"
+        },
+        "segmentType": "advance",
+        "description": {
+          "zh": "南唐元宗趁闽国曦、羲兄弟相残，派查文益、魏岑率军自金陵南下，沿赣江直抵洪州。",
+          "en": "Southern Tang exploited Min's civil strife; forces marched from Jinling down to Hongzhou on Gan River."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [115.89, 28.68],
+          [115.50, 28.00],
+          [114.99, 27.11],
+          [116.36, 27.95],
+          [116.37, 25.84]
+        ]
+      },
+      "properties": {
+        "entityId": "nan-tang",
+        "startDate": "0945-02-11",
+        "endDate": "0945-02-20",
+        "order": 2,
+        "name": {
+          "zh": "赣江入闽：洪州→汀州",
+          "en": "Gan River into Min: Hongzhou → Tingzhou"
+        },
+        "segmentType": "advance",
+        "description": {
+          "zh": "唐军主力顺赣江南下经吉州、抚州至汀州，突入闽西。",
+          "en": "Main Tang force continued down Gan River through Jizhou and Fuzhou (Jiangxi) to Tingzhou."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [116.37, 25.84],
+          [118.32, 26.93]
+        ]
+      },
+      "properties": {
+        "entityId": "nan-tang",
+        "startDate": "0945-02-21",
+        "endDate": "0945-02-25",
+        "order": 3,
+        "name": {
+          "zh": "取建州：汀州→建州",
+          "en": "Capture Jianzhou: Tingzhou → Jianzhou"
+        },
+        "segmentType": "advance",
+        "description": {
+          "zh": "唐军取建州，闽帝王延曦出奔被俘。",
+          "en": "Tang forces seized Jianzhou; Min emperor Wang Yanxi fled and was captured."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [118.32, 26.93],
+          [119.00, 26.40],
+          [119.30, 26.08]
+        ]
+      },
+      "properties": {
+        "entityId": "nan-tang",
+        "startDate": "0945-02-26",
+        "endDate": "0945-03-01",
+        "order": 4,
+        "name": {
+          "zh": "破福州：建州→福州",
+          "en": "Breach Fuzhou: Jianzhou → Fuzhou"
+        },
+        "segmentType": "advance",
+        "description": {
+          "zh": "唐军追击入闽东，攻破福州。闽国灭亡，闽地大部归南唐。",
+          "en": "Tang forces pursued into eastern Min, took Fuzhou; Min kingdom fell."
+        }
+      }
+    }
+  ]
+}

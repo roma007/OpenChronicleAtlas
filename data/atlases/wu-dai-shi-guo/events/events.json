@@ -1,0 +1,3415 @@
+[
+  {
+    "id": "liang-founded-907",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "朱温建后梁",
+      "en": "Zhu Wen founds the Later Liang"
+    },
+    "date": "0907-06-01",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "liang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "朱温废唐哀帝，自立为帝，国号梁，都汴州。唐朝正式灭亡，五代十国开始。",
+      "en": "Zhu Wen deposed Emperor Ai of Tang and crowned himself Emperor of Liang, capital Bianzhou. The Tang dynasty fell, beginning the Five Dynasties period."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·梁书·太祖纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百六十六·后梁太祖开平元年"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "qian-shu-founded-907",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "王建建前蜀",
+      "en": "Wang Jian founds the Former Shu"
+    },
+    "date": "0907-09-01",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "qian-shu"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "王建据西川称帝，国号蜀，史称前蜀。",
+      "en": "Wang Jian crowned himself Emperor of Shu in western Sichuan; known as the Former Shu."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·僭伪列传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·蜀一》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "liang-destroyed-tang-923",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "后唐灭后梁",
+      "en": "Later Tang destroys Later Liang"
+    },
+    "date": "0923-10-19",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "liang",
+      "tang"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "后唐庄宗李存勖率军奇袭汴州，后梁末帝朱友贞自杀，后梁灭亡。后唐迁都洛阳。",
+      "en": "Li Cunxu of Later Tang raided Bianzhou; Later Liang's final emperor Zhu Youzhen committed suicide. Later Tang moved capital to Luoyang."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·梁书·末帝纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《新五代史·后梁本纪》",
+        "author": "欧阳修",
+        "year": 1053
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "tang-destroyed-qian-shu-925",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "后唐灭前蜀",
+      "en": "Later Tang destroys Former Shu"
+    },
+    "date": "0925-11-15",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "tang",
+      "qian-shu"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "后唐命郭崇韬、李岌率军伐蜀，前蜀后主王衍出降，前蜀立国 18 年而亡。",
+      "en": "Later Tang sent Guo Chongtao and Li Ji to conquer Shu; Former Shu's final ruler Wang Yan surrendered."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·世袭列传·李茂贞传》附",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百七十四·后唐同光三年"
+      }
+    ]
+  },
+  {
+    "id": "jin-founded-936",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "石敬瑭建后晋",
+      "en": "Shi Jingtang founds the Later Jin"
+    },
+    "date": "0936-11-28",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "jin",
+      "liao",
+      "tang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "后唐河东节度使石敬瑭以燕云十六州割让辽（契丹），借兵灭后唐，自立为帝，建后晋，都汴州。",
+      "en": "Shi Jingtang, Hedong military commissioner of Later Tang, ceded the Sixteen Prefectures of Yan-Yun to the Liao and enlisted Khitan aid to overthrow Later Tang; founded Later Jin at Bianzhou."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·晋书·高祖纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《新五代史·晋本纪》",
+        "author": "欧阳修",
+        "year": 1053
+      },
+      {
+        "title": "《辽史·太宗本纪》",
+        "author": "脱脱等",
+        "year": 1344
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "nan-tang-founded-937",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "李昪建南唐",
+      "en": "Li Bian founds Southern Tang"
+    },
+    "date": "0937-11-10",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏金陵",
+        "en": "Jinling, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "nan-tang",
+      "wu-yang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "杨吴权臣徐知诰（后改名李昪）废吴帝杨溥自立，国号齐，都金陵。次年改国号唐，史称南唐。",
+      "en": "Yang Wu's regent Xu Zhigao (later Li Bian) deposed Emperor Yang Pu and founded a new state at Jinling, initially named Qi, renamed Tang the next year."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·僭伪列传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·南唐一》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "nan-tang-destroyed-min-945",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "南唐灭闽",
+      "en": "Southern Tang destroys Min"
+    },
+    "date": "0945-08-01",
+    "location": {
+      "lng": 119.3,
+      "lat": 26.08,
+      "place": {
+        "zh": "福建福州",
+        "en": "Fuzhou, Fujian"
+      }
+    },
+    "entityIds": [
+      "nan-tang",
+      "min"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "南唐趁闽内乱派兵南下，闽亡。南唐疆域达于福建。",
+      "en": "Southern Tang exploited civil war in Min to invade; Min fell. Southern Tang's territory extended into Fujian."
+    },
+    "sources": [
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百八十五·后晋开运二年"
+      },
+      {
+        "title": "《十国春秋·闽》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "liao-enters-bianzhou-947",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "辽入汴州",
+      "en": "Liao enters Bianzhou"
+    },
+    "date": "0947-02-11",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "liao",
+      "jin"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "辽太宗耶律德光率军南下灭后晋，一度占据汴州，改国号为辽（936 年已从契丹改辽）。中原大乱。",
+      "en": "Liao Emperor Taizong Yelü Deguang invaded, destroyed Later Jin, and briefly occupied Bianzhou."
+    },
+    "sources": [
+      {
+        "title": "《辽史·太宗本纪》",
+        "author": "脱脱等",
+        "year": 1344
+      },
+      {
+        "title": "《新五代史·晋本纪》",
+        "author": "欧阳修",
+        "year": 1053
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百八十六"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "han-founded-947",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "刘知远建后汉",
+      "en": "Liu Zhiyuan founds the Later Han"
+    },
+    "date": "0947-03-01",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "han"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "辽军北撤后，后晋河东节度使刘知远入汴州称帝，建后汉，五代中最短的王朝。",
+      "en": "After Liao forces withdrew north, Later Jin's Hedong commissioner Liu Zhiyuan entered Bianzhou and crowned himself founding emperor of Later Han."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·汉书·高祖纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《新五代史·汉本纪》",
+        "author": "欧阳修",
+        "year": 1053
+      }
+    ]
+  },
+  {
+    "id": "zhou-founded-951",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "郭威建后周",
+      "en": "Guo Wei founds the Later Zhou"
+    },
+    "date": "0951-02-13",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "zhou",
+      "han"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "后汉枢密使郭威入京，废后汉隐帝，自立为帝，国号周，都汴州。五代更替至此收束。",
+      "en": "Later Han's privy councilor Guo Wei entered Bianzhou, deposed Emperor Yin, and founded Later Zhou."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·周书·太祖纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《新五代史·周本纪》",
+        "author": "欧阳修",
+        "year": 1053
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "bei-han-founded-951",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "刘崇建北汉",
+      "en": "Liu Chong founds Northern Han"
+    },
+    "date": "0951-02-24",
+    "location": {
+      "lng": 112.55,
+      "lat": 37.87,
+      "place": {
+        "zh": "山西太原",
+        "en": "Taiyuan, Shanxi"
+      }
+    },
+    "entityIds": [
+      "bei-han",
+      "liao"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "后汉高祖刘知远弟刘崇据太原称帝，国号汉，史称北汉，依附辽对抗后周。",
+      "en": "Liu Chong, brother of Later Han's founding emperor, crowned himself Emperor of Northern Han at Taiyuan with Liao backing."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·僭伪列传·刘崇传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·北汉》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "chai-rong-ascends-954",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "柴荣继位",
+      "en": "Chai Rong ascends the throne"
+    },
+    "date": "0954-02-26",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "zhou"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "后周太祖郭威养子柴荣继位，是为后周世宗，五代最有为的君主。",
+      "en": "Chai Rong, adopted son of Later Zhou's founding emperor Guo Wei, ascended the throne as Emperor Shizong."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·周书·世宗纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百九十一"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "gaoping-battle-954",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "高平之战",
+      "en": "Battle of Gaoping"
+    },
+    "date": "0954-03-15",
+    "location": {
+      "lng": 112.93,
+      "lat": 35.87,
+      "place": {
+        "zh": "山西高平",
+        "en": "Gaoping, Shanxi"
+      }
+    },
+    "entityIds": [
+      "zhou",
+      "bei-han",
+      "liao"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "北汉联合辽南下犯后周，柴荣亲征，在高平大败北汉与辽联军，奠定后周威信。",
+      "en": "Northern Han and Liao invaded Later Zhou; Chai Rong personally led troops and defeated the allied forces at Gaoping."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·周书·世宗纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《新五代史·周本纪》",
+        "author": "欧阳修",
+        "year": 1053
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百九十一·后周显德元年"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "zhou-destroyed-hou-shu-956",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "后周灭后蜀",
+      "en": "Later Zhou destroys Later Shu"
+    },
+    "date": "0956-04-13",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "zhou",
+      "hou-shu"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "柴荣命王景、向训率军灭后蜀，收复秦、凤、阶、成四州。",
+      "en": "Chai Rong sent Wang Jing and Xiang Xun to conquer Later Shu, recovering four prefectures."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·周书·世宗纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·后蜀》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "zhou-campaign-southern-tang-956-958",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "后周征南唐",
+      "en": "Later Zhou campaigns against Southern Tang"
+    },
+    "date": "0956-02-01",
+    "endDate": "0958-05-01",
+    "location": {
+      "lng": 117.0,
+      "lat": 32.0,
+      "place": {
+        "zh": "淮南",
+        "en": "Huainan"
+      }
+    },
+    "entityIds": [
+      "zhou",
+      "nan-tang"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "柴荣三次亲征淮南，拉锯两年，后周取淮南十四州，南唐去帝号，自称\"江南国主\"。",
+      "en": "Chai Rong personally led three campaigns in Huainan over two years; Later Zhou took fourteen prefectures, and Southern Tang's emperor demoted himself to \"Lord of Jiangnan\"."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·周书·世宗纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·南唐》",
+        "author": "吴任臣",
+        "year": 1678
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百九十二至二百九十四"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "zhou-northern-expedition-959",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "柴荣北伐",
+      "en": "Chai Rong's northern expedition"
+    },
+    "date": "0959-04-01",
+    "endDate": "0959-05-30",
+    "location": {
+      "lng": 116.0,
+      "lat": 39.8,
+      "place": {
+        "zh": "关南",
+        "en": "Guan'nan"
+      }
+    },
+    "entityIds": [
+      "zhou",
+      "liao"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "柴荣率军北伐辽，连克瓦桥、益津、淤口三关，取关南之地。柴荣病逝于军中，班师。",
+      "en": "Chai Rong's northern expedition against the Liao took three passes; he fell ill and died during the campaign."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·周书·世宗纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《新五代史·周本纪》",
+        "author": "欧阳修",
+        "year": 1053
+      },
+      {
+        "title": "《辽史·穆宗本纪》",
+        "author": "脱脱等",
+        "year": 1344
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "chenqiao-mutiny-960",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "陈桥兵变",
+      "en": "Chenqiao Mutiny"
+    },
+    "date": "0960-02-04",
+    "location": {
+      "lng": 113.85,
+      "lat": 34.78,
+      "place": {
+        "zh": "河南陈桥驿",
+        "en": "Chenqiao, Henan"
+      }
+    },
+    "entityIds": [
+      "zhou",
+      "song"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "后周殿前都点检赵匡胤北上抵御辽兵，途经陈桥驿，被部下黄袍加身，回师汴州，建北宋，后周恭帝禅让。",
+      "en": "Zhao Kuangyin, commander of Later Zhou's imperial guard, was proclaimed emperor by his troops at Chenqiao on the way north; he returned to Bianzhou and founded the Northern Song."
+    },
+    "sources": [
+      {
+        "title": "《宋史·太祖本纪》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《旧五代史·周书·恭帝纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷一"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "song-feigned-invasion-963",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "假途灭虢（荆南+马楚）",
+      "en": "Feigned invasion: Jingnan and Ma Chu"
+    },
+    "date": "0963-02-01",
+    "location": {
+      "lng": 112.18,
+      "lat": 30.35,
+      "place": {
+        "zh": "湖北江陵 / 湖南长沙",
+        "en": "Jiangling, Hubei / Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "song",
+      "jing-nan",
+      "chu-ma"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "北宋以讨伐张文表为名借道荆南（南平），顺道灭荆南，南下灭马楚（湖南），兵不血刃得荆南，一战灭马楚。",
+      "en": "Northern Song used a revolt as pretext to borrow passage through Jingnan, then conquered both Jingnan and Ma Chu."
+    },
+    "sources": [
+      {
+        "title": "《宋史·太祖本纪》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷三"
+      },
+      {
+        "title": "《十国春秋·荆南》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "song-destroyed-hou-shu-965",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "北宋灭后蜀",
+      "en": "Northern Song destroys Later Shu"
+    },
+    "date": "0965-02-14",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "song",
+      "hou-shu"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "北宋命王全斌、崔彦进率军从北路入蜀，刘光义从东路，两路夹击，后蜀孟昶出降。",
+      "en": "Northern Song sent Wang Quanbin via the north and Liu Guangyi via the east in a two-pronged invasion of Later Shu; Meng Chang surrendered."
+    },
+    "sources": [
+      {
+        "title": "《宋史·太祖本纪》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷五"
+      },
+      {
+        "title": "《十国春秋·后蜀》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "song-destroyed-nan-han-970",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "北宋灭南汉",
+      "en": "Northern Song destroys Southern Han"
+    },
+    "date": "0970-03-01",
+    "location": {
+      "lng": 113.26,
+      "lat": 23.13,
+      "place": {
+        "zh": "广东广州",
+        "en": "Guangzhou, Guangdong"
+      }
+    },
+    "entityIds": [
+      "song",
+      "nan-han"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "北宋命潘美率军南下，水陆并进，攻破广州，南汉后主刘鋹出降。",
+      "en": "Northern Song sent Pan Mei south with a combined land and water force; Guangzhou fell and Southern Han's final ruler Liu Chang surrendered."
+    },
+    "sources": [
+      {
+        "title": "《宋史·潘美传》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷十一"
+      },
+      {
+        "title": "《十国春秋·南汉》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "song-destroyed-nan-tang-975",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "北宋灭南唐",
+      "en": "Northern Song destroys Southern Tang"
+    },
+    "date": "0975-11-27",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏金陵",
+        "en": "Jinling, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "song",
+      "nan-tang"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "北宋命曹彬、潘美率军围金陵，开宝八年十一月城破，南唐后主李煜出降，被俘至汴州。",
+      "en": "Northern Song's Cao Bin and Pan Mei besieged Jinling; the city fell in winter 975, and Southern Tang's final ruler Li Yu surrendered."
+    },
+    "sources": [
+      {
+        "title": "《宋史·曹彬传》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷十六"
+      },
+      {
+        "title": "《南唐拾遗记》",
+        "author": "史虚白",
+        "note": "李煜被俘经过"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "wu-yue-surrenders-978",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "吴越纳土归宋",
+      "en": "Wuyue surrenders to Northern Song"
+    },
+    "date": "0978-05-01",
+    "location": {
+      "lng": 120.15,
+      "lat": 30.28,
+      "place": {
+        "zh": "浙江杭州",
+        "en": "Hangzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "song",
+      "wu-yue"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "吴越国王钱俶见南唐已亡，大势已去，纳土归宋，兵不血刃，两浙和平统一。",
+      "en": "Seeing Southern Tang destroyed, King Qian Chu of Wuyue surrendered peacefully; Zhejiang was reunited without fighting."
+    },
+    "sources": [
+      {
+        "title": "《宋史·吴越世家》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷十九"
+      },
+      {
+        "title": "《十国春秋·吴越》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "song-destroyed-bei-han-979",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "北宋灭北汉",
+      "en": "Northern Song destroys Northern Han"
+    },
+    "date": "0979-06-03",
+    "location": {
+      "lng": 112.55,
+      "lat": 37.87,
+      "place": {
+        "zh": "山西太原",
+        "en": "Taiyuan, Shanxi"
+      }
+    },
+    "entityIds": [
+      "song",
+      "bei-han",
+      "liao"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "宋太宗赵光义亲征太原，先败辽援军，后破太原城。北汉末帝刘继元出降，五代十国终结。",
+      "en": "Emperor Taizong Zhao Guangyi of Northern Song conquered Taiyuan, defeated Liao reinforcements, and Northern Han's final ruler surrendered. The Five Dynasties and Ten Kingdoms period ended."
+    },
+    "sources": [
+      {
+        "title": "《宋史·太宗本纪》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《辽史·景宗本纪》",
+        "author": "脱脱等",
+        "year": 1344
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷二十"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "wu-yue-founded-893",
+    "name": {
+      "zh": "钱镠据两浙",
+      "en": "Qian Liu controls Zhejiang"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0893-01-01",
+    "location": {
+      "lng": 120.15,
+      "lat": 30.28,
+      "place": {
+        "zh": "浙江杭州",
+        "en": "Hangzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "wu-yue"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "唐景福二年（893），钱镠任浙江节度使，据两浙，为吴越建国奠定基础。",
+      "en": "Qian Liu was appointed Zhejiang military commissioner, beginning Wuyue rule."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·世袭列传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·吴越》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ],
+    "importance": 1
+  },
+  {
+    "id": "wu-yang-founded-902",
+    "name": {
+      "zh": "杨行密封吴王",
+      "en": "Yang Xingmi enfeoffed as Prince of Wu"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0902-05-01",
+    "location": {
+      "lng": 117.28,
+      "lat": 32.3,
+      "place": {
+        "zh": "江苏扬州",
+        "en": "Yangzhou, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "wu-yang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "唐天复二年（902），杨行密受封吴王，据江淮。",
+      "en": "Yang Xingmi was enfeoffed as Prince of Wu, establishing Yang Wu."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·僭伪列传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百六十三"
+      }
+    ]
+  },
+  {
+    "id": "min-founded-909",
+    "name": {
+      "zh": "王审知建闽",
+      "en": "Wang Shenzhi founds Min"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0909-09-01",
+    "location": {
+      "lng": 119.3,
+      "lat": 26.08,
+      "place": {
+        "zh": "福建福州",
+        "en": "Fuzhou, Fujian"
+      }
+    },
+    "entityIds": [
+      "min"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "后梁开平三年（909），王审知受封闽王，据福建。",
+      "en": "Wang Shenzhi was enfeoffed as King of Min, controlling Fujian."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·世袭列传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·闽》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "nan-han-founded-917",
+    "name": {
+      "zh": "刘龑建南汉",
+      "en": "Liu Yan founds Southern Han"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0917-08-01",
+    "location": {
+      "lng": 113.26,
+      "lat": 23.13,
+      "place": {
+        "zh": "广东广州",
+        "en": "Guangzhou, Guangdong"
+      }
+    },
+    "entityIds": [
+      "nan-han"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "后梁贞明三年（917），刘龑称帝，国号汉，都广州。",
+      "en": "Liu Yan crowned himself Emperor of Han at Guangzhou."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·僭伪列传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·南汉》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "wu-yue-emperor-923",
+    "name": {
+      "zh": "钱镠称吴越王",
+      "en": "Qian Liu declares King of Wuyue"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0923-01-01",
+    "location": {
+      "lng": 120.15,
+      "lat": 30.28,
+      "place": {
+        "zh": "浙江杭州",
+        "en": "Hangzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "wu-yue"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "后唐同光元年（923），钱镠受封吴越国王。",
+      "en": "Qian Liu was enfeoffed as King of Wuyue."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·世袭列传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·吴越》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "jing-nan-founded-924",
+    "name": {
+      "zh": "高季兴建荆南",
+      "en": "Gao Jixing founds Jingnan"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0924-01-01",
+    "location": {
+      "lng": 112.18,
+      "lat": 30.35,
+      "place": {
+        "zh": "湖北江陵",
+        "en": "Jiangling, Hubei"
+      }
+    },
+    "entityIds": [
+      "jing-nan"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "后唐同光二年（924），高季兴受封南平王，都江陵。",
+      "en": "Gao Jixing was enfeoffed as King of Nanping at Jiangling."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·世袭列传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·荆南》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "chu-ma-founded-927",
+    "name": {
+      "zh": "马殷建马楚",
+      "en": "Ma Yin founds Ma Chu"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0927-06-01",
+    "location": {
+      "lng": 112.94,
+      "lat": 28.23,
+      "place": {
+        "zh": "湖南长沙",
+        "en": "Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "chu-ma"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "后唐天成二年（927），马殷受封楚王，都长沙。",
+      "en": "Ma Yin was enfeoffed as King of Chu at Changsha."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·世袭列传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·马楚》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "tang-mutiny-926",
+    "name": {
+      "zh": "后唐兴教门之变",
+      "en": "Xingjiaomen Mutiny"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0926-04-15",
+    "location": {
+      "lng": 112.45,
+      "lat": 34.62,
+      "place": {
+        "zh": "河南洛阳",
+        "en": "Luoyang, Henan"
+      }
+    },
+    "entityIds": [
+      "tang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "后唐庄宗李存勖为乱兵所杀，李嗣源继位。",
+      "en": "Later Tang Emperor Zhuangzong was killed in a mutiny; Li Siyuan took the throne."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·唐书·庄宗纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《新五代史·唐本纪》",
+        "author": "欧阳修",
+        "year": 1053
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jin-xiongzhou-cession-936",
+    "name": {
+      "zh": "石敬瑭割燕云十六州",
+      "en": "Shi Jingtang cedes Sixteen Prefectures"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0936-11-01",
+    "location": {
+      "lng": 116.0,
+      "lat": 40.0,
+      "place": {
+        "zh": "燕云十六州",
+        "en": "Sixteen Prefectures of Yan-Yun"
+      }
+    },
+    "entityIds": [
+      "jin",
+      "liao"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "石敬瑭为换辽支持灭后唐，割让燕云十六州，中原失去长城屏障。",
+      "en": "Shi Jingtang ceded Sixteen Prefectures to the Liao, removing the Great Wall defense."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·晋书·高祖纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《辽史·太宗本纪》",
+        "author": "脱脱等",
+        "year": 1344
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百八十"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "liao-retreat-947",
+    "name": {
+      "zh": "辽太宗北撤途中病逝",
+      "en": "Liao Emperor Taizong dies on retreat"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0947-04-01",
+    "location": {
+      "lng": 115.0,
+      "lat": 41.0,
+      "place": {
+        "zh": "河北杀胡林",
+        "en": "Shahulin, Hebei"
+      }
+    },
+    "entityIds": [
+      "liao"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "耶律德光北撤途中病逝于杀胡林，辽内斗，未能再入中原。",
+      "en": "Yelü Deguang died at Shahulin on his retreat; Liao succession struggles followed."
+    },
+    "sources": [
+      {
+        "title": "《辽史·太宗本纪》",
+        "author": "脱脱等",
+        "year": 1344
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百八十六"
+      }
+    ]
+  },
+  {
+    "id": "han-guo-wei-suppression-950",
+    "name": {
+      "zh": "后汉隐帝诛郭威家眷",
+      "en": "Later Yin of Han executes Guo Wei's family"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0950-12-01",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "han",
+      "zhou"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "后汉隐帝诛枢密使郭威家眷，郭威起兵反汉。",
+      "en": "Later Han Emperor Yin executed Guo Wei's family; Guo Wei rebelled."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·汉书·隐帝纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《新五代史·汉本纪》",
+        "author": "欧阳修",
+        "year": 1053
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhou-guo-wei-reform-951",
+    "name": {
+      "zh": "郭威减免赋税",
+      "en": "Guo Wei reduces taxes"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0951-03-01",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "zhou"
+    ],
+    "category": "改革",
+    "summary": {
+      "zh": "后周太祖郭威颁令减免赋税、整顿吏治、抑佛。",
+      "en": "Guo Wei reduced taxes, improved administration, and suppressed excessive Buddhist establishments."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·周书·太祖纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百九十"
+      }
+    ]
+  },
+  {
+    "id": "zhou-chai-rong-reform-955",
+    "name": {
+      "zh": "柴荣扩禁军·先南后北",
+      "en": "Chai Rong expands guard, south-first strategy"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0955-08-01",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "zhou"
+    ],
+    "category": "改革",
+    "summary": {
+      "zh": "柴荣选天下精锐充实\"殿前诸班\"，并制定先南后北统一方针。",
+      "en": "Chai Rong selected elite troops for the imperial guard and established a \"south first, north later\" unification strategy."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·周书·世宗纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷一"
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhou-chai-rong-supress-buddhism-955",
+    "name": {
+      "zh": "柴荣抑佛",
+      "en": "Chai Rong suppresses Buddhist temples"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0955-07-01",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "zhou"
+    ],
+    "category": "改革",
+    "summary": {
+      "zh": "柴荣颁《抑佛诏》，停无名僧尼、毁私建佛寺、收铜铸钱。",
+      "en": "Chai Rong's edict restricted unregulated clergy and seized copper for coinage."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·周书·世宗纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《佛祖统纪》",
+        "author": "志磐",
+        "year": 1265,
+        "note": "卷四十二"
+      }
+    ]
+  },
+  {
+    "id": "zhou-shouzhou-siege-956",
+    "name": {
+      "zh": "后周围寿州·刘仁赡",
+      "en": "Zhou siege of Shouzhou; Liu Ranshan"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0956-02-01",
+    "endDate": "0957-03-01",
+    "location": {
+      "lng": 116.79,
+      "lat": 32.65,
+      "place": {
+        "zh": "安徽寿州",
+        "en": "Shouzhou, Anhui"
+      }
+    },
+    "entityIds": [
+      "zhou",
+      "nan-tang"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "柴荣首次征淮南围寿州，南唐刘仁赡守城近一年，城破后不食而死。",
+      "en": "Chai Rong's first Huainan campaign besieged Shouzhou; Liu Ranshan held out nearly a year and died after the city fell."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·周书·世宗纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·南唐·刘仁赡传》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhou-qingliu-956",
+    "name": {
+      "zh": "清流关之战·赵匡胤崭露头角",
+      "en": "Battle of Qingliu Pass; Zhao Kuangyin rises"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0956-04-01",
+    "location": {
+      "lng": 117.23,
+      "lat": 32.28,
+      "place": {
+        "zh": "安徽清流关",
+        "en": "Qingliu Pass, Anhui"
+      }
+    },
+    "entityIds": [
+      "zhou",
+      "nan-tang"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "后周殿前都虞候赵匡胤率奇兵夜袭清流关，斩南唐大将皇甫晖，一战成名。",
+      "en": "Zhao Kuangyin led a surprise night attack, killing Huangfu Hui and rising to fame."
+    },
+    "sources": [
+      {
+        "title": "《宋史·太祖本纪》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百九十二"
+      }
+    ]
+  },
+  {
+    "id": "zhou-fenglin-957",
+    "name": {
+      "zh": "后周取凤州·后蜀失秦岭",
+      "en": "Later Zhou takes Fengzhou"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0957-03-01",
+    "location": {
+      "lng": 107.39,
+      "lat": 33.03,
+      "place": {
+        "zh": "陕西凤州",
+        "en": "Fengzhou, Shaanxi"
+      }
+    },
+    "entityIds": [
+      "zhou",
+      "hou-shu"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "后周取凤州、文州，后蜀失去秦岭要地。",
+      "en": "Zhou took Fengzhou and Wenzhou; Later Shu lost strategic passes in the Qinling."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·周书·世宗纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·后蜀》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "nan-tang-culture",
+    "name": {
+      "zh": "南唐文化繁盛",
+      "en": "Southern Tang cultural flourishing"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0943-08-01",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏金陵",
+        "en": "Jinling, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "nan-tang"
+    ],
+    "category": "文化",
+    "summary": {
+      "zh": "李璟继位后，南唐文化达鼎盛，为十国之冠。",
+      "en": "Under Li Jing, Southern Tang became the cultural center of the Ten Kingdoms."
+    },
+    "sources": [
+      {
+        "title": "《十国春秋·南唐》",
+        "author": "吴任臣",
+        "year": 1678
+      },
+      {
+        "title": "《词林纪事》",
+        "author": "张宗橚",
+        "year": 1773
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "chenqiao-planning-959",
+    "name": {
+      "zh": "柴荣病逝·幼帝继位",
+      "en": "Chai Rong dies; young emperor ascends"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0959-06-19",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "zhou"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "柴荣病逝，年仅三十九岁，七岁幼帝柴宗训继位，孤儿寡母，兵权落于赵匡胤。",
+      "en": "Chai Rong died aged 39; his 7-year-old son succeeded. Zhao Kuangyin controlled the military."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·周书·世宗纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《宋史·太祖本纪》",
+        "author": "脱脱等",
+        "year": 1343
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "song-yellow-robe",
+    "name": {
+      "zh": "陈桥兵变·黄袍加身（通行说法）",
+      "en": "Yellow robe put on (received account)"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0960-02-04",
+    "location": {
+      "lng": 113.85,
+      "lat": 34.78,
+      "place": {
+        "zh": "河南陈桥驿",
+        "en": "Chenqiao, Henan"
+      }
+    },
+    "entityIds": [
+      "song",
+      "zhou"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "通行说法：殿前都点检赵匡胤北上抵御辽兵，途经陈桥驿被部下黄袍加身。另有异说：兵变乃赵匡胤自编自演。",
+      "en": "Received account: Zhao proclaimed emperor by troops. Alternative: mutiny was staged."
+    },
+    "sources": [
+      {
+        "title": "《宋史·太祖本纪》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷一"
+      },
+      {
+        "title": "《涑水记闻》",
+        "author": "司马光",
+        "note": "兵变细节另说"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "song-zhao-pu-strategy",
+    "name": {
+      "zh": "赵普献先南后北策",
+      "en": "Zhao Pu presents south-first strategy"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0960-07-01",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "song"
+    ],
+    "category": "战略",
+    "summary": {
+      "zh": "宰相赵普献\"先南后北、先易后难\"统一方略。",
+      "en": "Chancellor Zhao Pu advised \"south first, north later; easy first, hard later.\""
+    },
+    "sources": [
+      {
+        "title": "《宋史·赵普传》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷一"
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "song-cafang-harmony",
+    "name": {
+      "zh": "杯酒释兵权",
+      "en": "Releasing military power over wine"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0961-08-01",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "song"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "赵匡胤设晚宴解除将领兵权，加强中央集权。（史实存疑，通行说法）",
+      "en": "Zhao Kuangyin's famous banquet released generals from command. (Received account.)"
+    },
+    "sources": [
+      {
+        "title": "《宋史·太祖本纪》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《涑水记闻》",
+        "author": "司马光"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "song-hou-shu-mengchang",
+    "name": {
+      "zh": "后蜀孟昶降宋",
+      "en": "Meng Chang of Later Shu surrenders"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0965-02-14",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "song",
+      "hou-shu"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "后蜀后主孟昶出降，被俘至汴州，次年病逝（疑为赵匡胤毒杀）。",
+      "en": "Meng Chang surrendered and was taken to Bianzhou."
+    },
+    "sources": [
+      {
+        "title": "《宋史·太祖本纪》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《十国春秋·后蜀》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "song-nan-tang-pontoon",
+    "name": {
+      "zh": "北宋灭南唐·长江浮桥",
+      "en": "Yangtze pontoon bridge at Caishiji"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0974-11-01",
+    "location": {
+      "lng": 116.2,
+      "lat": 30.4,
+      "place": {
+        "zh": "安徽采石矶",
+        "en": "Caishiji, Anhui"
+      }
+    },
+    "entityIds": [
+      "song",
+      "nan-tang"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "北宋在采石矶架长江浮桥，大军渡江直逼金陵。",
+      "en": "Northern Song built a pontoon bridge at Caishiji to cross the Yangtze."
+    },
+    "sources": [
+      {
+        "title": "《宋史·曹彬传》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷十五"
+      }
+    ]
+  },
+  {
+    "id": "song-liyu-bianzhou",
+    "name": {
+      "zh": "李煜被俘·虞美人绝唱",
+      "en": "Li Yu captured, later poisoned"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0975-12-01",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "song",
+      "nan-tang"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "李煜被俘至汴州，封\"违命侯\"。三年后因唱《虞美人》为宋太宗毒杀。",
+      "en": "Li Yu titled \"Lord of Disobedience\" and was later poisoned for singing \"Yu Meiren.\""
+    },
+    "sources": [
+      {
+        "title": "《宋史·太宗本纪》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷十九"
+      }
+    ]
+  },
+  {
+    "id": "song-liao-gaolianghe",
+    "name": {
+      "zh": "高梁河之战·宋辽对峙",
+      "en": "Battle of Gaoliang River, Song-Liao standoff"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0979-06-15",
+    "location": {
+      "lng": 116.2,
+      "lat": 39.95,
+      "place": {
+        "zh": "北京高梁河",
+        "en": "Gaoliang River, Beijing"
+      }
+    },
+    "entityIds": [
+      "song",
+      "liao"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "灭北汉后赵光义北伐辽收复燕云，高梁河惨败，乘驴车南逃。此后二十五年宋辽对峙。",
+      "en": "Zhao Guangyi invaded Liao after Northern Han; defeated at Gaoliang River, fled in a donkey cart. 25-year standoff ensued."
+    },
+    "sources": [
+      {
+        "title": "《宋史·太宗本纪》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《辽史·景宗本纪》",
+        "author": "脱脱等",
+        "year": 1344
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷二十"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "liang-chengde-915",
+    "name": {
+      "zh": "后梁与晋相争潞州",
+      "en": "Later Liang vs. Jin at Luzhou"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0915-01-01",
+    "location": {
+      "lng": 113.12,
+      "lat": 36.19,
+      "place": {
+        "zh": "山西潞州",
+        "en": "Luzhou, Shanxi"
+      }
+    },
+    "entityIds": [
+      "liang",
+      "tang"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "后梁与李存勖晋军在潞州相持数年，为后唐灭后梁埋下伏笔。",
+      "en": "Years of standoff between Later Liang and Li Cunxu's Jin at Luzhou."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·梁书·末帝纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百六十八"
+      }
+    ]
+  },
+  {
+    "id": "tang-gulang-hu",
+    "name": {
+      "zh": "后唐灭后梁·胡柳陂之战",
+      "en": "Battle of Huliu Slope"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0923-05-01",
+    "location": {
+      "lng": 113.85,
+      "lat": 34.3,
+      "place": {
+        "zh": "河南胡柳陂",
+        "en": "Huliu Slope, Henan"
+      }
+    },
+    "entityIds": [
+      "tang",
+      "liang"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "李存勖与后梁军激战胡柳陂，虽胜但损失惨重，是灭梁前的关键一战。",
+      "en": "Li Cunxu defeated Later Liang at Huliu Slope, a costly but decisive victory."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·唐书·庄宗纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《新五代史·唐本纪》",
+        "author": "欧阳修",
+        "year": 1053
+      }
+    ]
+  },
+  {
+    "id": "qian-shu-wangyan-corruption",
+    "name": {
+      "zh": "前蜀后主王衍荒淫",
+      "en": "Former Shu's last ruler Wang Yan"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0924-01-01",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "qian-shu"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "王建死后，子王衍继位，荒淫无度，前蜀迅速衰落。",
+      "en": "After Wang Jian's death, Wang Yan ruled extravagantly; Former Shu declined rapidly."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·僭伪列传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·蜀》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ],
+    "importance": 1
+  },
+  {
+    "id": "jin-liao-relations",
+    "name": {
+      "zh": "后晋与辽维持和平",
+      "en": "Later Jin maintains peace with Liao"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0941-01-01",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "jin",
+      "liao"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "石敬瑭死后，后晋新帝石重贵与辽关系恶化，辽太宗决意南侵。",
+      "en": "After Shi Jingtang's death, Later Jin relations with Liao deteriorated."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·晋书·出帝纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《辽史·太宗本纪》",
+        "author": "脱脱等",
+        "year": 1344
+      }
+    ]
+  },
+  {
+    "id": "liao-attack-944",
+    "name": {
+      "zh": "辽大举南侵·澶州之战",
+      "en": "Liao invades south; Battle of Chanzhou"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0944-12-01",
+    "location": {
+      "lng": 114.91,
+      "lat": 35.96,
+      "place": {
+        "zh": "河南澶州",
+        "en": "Chanzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "liao",
+      "jin"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "辽太宗耶律德光第一次大举南侵，后晋抵抗有功，但国力耗尽。",
+      "en": "Yelü Deguang's first major invasion of Later Jin."
+    },
+    "sources": [
+      {
+        "title": "《辽史·太宗本纪》",
+        "author": "脱脱等",
+        "year": 1344
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百八十五"
+      }
+    ]
+  },
+  {
+    "id": "wu-yue-waterworks",
+    "name": {
+      "zh": "吴越钱氏兴水利",
+      "en": "Wuyue Qian family builds waterworks"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0945-01-01",
+    "location": {
+      "lng": 120.15,
+      "lat": 30.28,
+      "place": {
+        "zh": "浙江杭州",
+        "en": "Hangzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "wu-yue"
+    ],
+    "category": "经济",
+    "summary": {
+      "zh": "吴越钱氏世代兴修水利、治理太湖水系、修筑海塘，两浙富庶。",
+      "en": "The Qian family built irrigation networks and sea walls, making Wuyue prosperous."
+    },
+    "sources": [
+      {
+        "title": "《十国春秋·吴越》",
+        "author": "吴任臣",
+        "year": 1678
+      },
+      {
+        "title": "《宋史·河渠志》",
+        "author": "脱脱等",
+        "year": 1343
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hou-shu-mengzhixiang",
+    "name": {
+      "zh": "孟知祥建后蜀",
+      "en": "Meng Zhixiang founds Later Shu"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0934-01-01",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "hou-shu"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "后唐西川节度使孟知祥据蜀称帝，国号蜀，史称后蜀。",
+      "en": "Meng Zhixiang declared emperor of Shu in Sichuan; known as Later Shu."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·世袭列传·孟知祥传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·后蜀》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "nan-tang-lijing-ascends",
+    "name": {
+      "zh": "南唐元宗李璟继位",
+      "en": "Li Jing ascends Southern Tang throne"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0943-08-01",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏金陵",
+        "en": "Jinling, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "nan-tang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "南唐烈祖李昪卒，子李璟继位，是为元宗。南唐文化达于鼎盛，但军事转弱。",
+      "en": "Li Bian died; his son Li Jing succeeded. Culture flourished but military weakened."
+    },
+    "sources": [
+      {
+        "title": "《十国春秋·南唐》",
+        "author": "吴任臣",
+        "year": 1678
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百八十三"
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zhou-caidiao-954",
+    "name": {
+      "zh": "柴荣整顿财政·宽减赋税",
+      "en": "Chai Rong reforms finance"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0954-06-01",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "zhou"
+    ],
+    "category": "改革",
+    "summary": {
+      "zh": "柴荣颁《均田图》与《定租赋诏》，平均田赋，减轻农民负担。",
+      "en": "Chai Rong issued land equalization edicts, reducing peasant burdens."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·周书·世宗纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百九十一"
+      }
+    ]
+  },
+  {
+    "id": "zhou-kaideng-959",
+    "name": {
+      "zh": "柴荣北伐·三关",
+      "en": "Chai Rong's northern expedition: three passes"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0959-04-28",
+    "location": {
+      "lng": 116.5,
+      "lat": 39.2,
+      "place": {
+        "zh": "河北三关",
+        "en": "Three Passes, Hebei"
+      }
+    },
+    "entityIds": [
+      "zhou",
+      "liao"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "柴荣北伐，连克瓦桥、益津、淤口三关，辽军不战而退，关南尽归后周。",
+      "en": "Chai Rong took three passes without major battle; all of Guan'nan returned to Zhou."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·周书·世宗纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《辽史·穆宗本纪》",
+        "author": "脱脱等",
+        "year": 1344
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "song-bingquan",
+    "name": {
+      "zh": "北宋设枢密院·二府三司",
+      "en": "Northern Song establishes civil-military split"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0961-01-01",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "song"
+    ],
+    "category": "改革",
+    "summary": {
+      "zh": "北宋确立枢密院掌兵、中书门下掌政的二府制，加强中央集权，防止唐末藩镇重演。",
+      "en": "Northern Song established dual-track governance: Privy Council for military, Secretariat for civil."
+    },
+    "sources": [
+      {
+        "title": "《宋史·职官志》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷二"
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "song-nan-han-tongguan",
+    "name": {
+      "zh": "北宋灭南汉·汉主出降",
+      "en": "Liu Chang of Southern Han surrenders"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0970-03-01",
+    "location": {
+      "lng": 113.26,
+      "lat": 23.13,
+      "place": {
+        "zh": "广东广州",
+        "en": "Guangzhou, Guangdong"
+      }
+    },
+    "entityIds": [
+      "song",
+      "nan-han"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "潘美率军南下，水陆并进，攻破广州。南汉后主刘鋹出降，被封为\"恩赦侯\"。",
+      "en": "Pan Mei conquered Guangzhou; Liu Chang surrendered and was titled \"Lord of Grace.\""
+    },
+    "sources": [
+      {
+        "title": "《宋史·太祖本纪》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《宋史·潘美传》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《十国春秋·南汉》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "song-jiangling-jingnan",
+    "name": {
+      "zh": "北宋灭荆南·江陵兵不血刃",
+      "en": "Jingnan falls without battle"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0963-02-22",
+    "location": {
+      "lng": 112.18,
+      "lat": 30.35,
+      "place": {
+        "zh": "湖北江陵",
+        "en": "Jiangling, Hubei"
+      }
+    },
+    "entityIds": [
+      "song",
+      "jing-nan"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "宋军借道荆南之际，高继冲主动纳土归宋，荆南兵不血刃而亡。",
+      "en": "Gao Jichong surrendered Jingnan peacefully when Song forces passed through."
+    },
+    "sources": [
+      {
+        "title": "《宋史·太祖本纪》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷三"
+      },
+      {
+        "title": "《十国春秋·荆南》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "song-chu-ma-changsha",
+    "name": {
+      "zh": "北宋灭马楚·长沙之战",
+      "en": "Song conquers Ma Chu at Changsha"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0963-03-15",
+    "location": {
+      "lng": 112.94,
+      "lat": 28.23,
+      "place": {
+        "zh": "湖南长沙",
+        "en": "Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "song",
+      "chu-ma"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "宋军平定荆南后南下灭马楚，俘马楚主马崇赞。",
+      "en": "After Jingnan, Song advanced south and conquered Ma Chu."
+    },
+    "sources": [
+      {
+        "title": "《宋史·太祖本纪》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《十国春秋·马楚》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "song-cao-bin-jinling",
+    "name": {
+      "zh": "曹彬围金陵·水陆军合围",
+      "en": "Cao Bin besieges Jinling"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0974-11-01",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏金陵",
+        "en": "Jinling, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "song",
+      "nan-tang"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "北宋曹彬为帅，水陆两路合围金陵，李煜坚守一年。",
+      "en": "Cao Bin's Song forces besieged Jinling by land and water for a year."
+    },
+    "sources": [
+      {
+        "title": "《宋史·曹彬传》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷十五至十六"
+      }
+    ]
+  },
+  {
+    "id": "song-wuyue-qianshu",
+    "name": {
+      "zh": "吴越钱俶纳土·归宋",
+      "en": "Qian Chu of Wuyue surrenders"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0978-05-01",
+    "location": {
+      "lng": 120.15,
+      "lat": 30.28,
+      "place": {
+        "zh": "浙江杭州",
+        "en": "Hangzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "song",
+      "wu-yue"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "南唐亡后，吴越国王钱俶见大势已去，纳土归宋，两浙和平统一。",
+      "en": "After Southern Tang fell, Qian Chu surrendered Wuyue peacefully."
+    },
+    "sources": [
+      {
+        "title": "《宋史·吴越世家》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷十九"
+      }
+    ]
+  },
+  {
+    "id": "song-beihan-taiyuan",
+    "name": {
+      "zh": "北宋灭北汉·太原之战",
+      "en": "Northern Han destroyed at Taiyuan"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0979-06-03",
+    "location": {
+      "lng": 112.55,
+      "lat": 37.87,
+      "place": {
+        "zh": "山西太原",
+        "en": "Taiyuan, Shanxi"
+      }
+    },
+    "entityIds": [
+      "song",
+      "bei-han",
+      "liao"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "宋太宗赵光义亲征太原，败辽援军，城破，北汉末帝刘继元出降。",
+      "en": "Emperor Taizong conquered Taiyuan, defeated Liao reinforcements; Liu Jiyuan surrendered."
+    },
+    "sources": [
+      {
+        "title": "《宋史·太宗本纪》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《辽史·景宗本纪》",
+        "author": "脱脱等",
+        "year": 1344
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "卷二十"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "wu-yang-xuwenbie-ascend",
+    "name": {
+      "zh": "杨行密奠基江淮",
+      "en": "Yang Xingmi founds Yang Wu"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0902-05-01",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏广陵",
+        "en": "Guangling, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "wu-yang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "杨行密据江淮，受封吴王，奠定杨吴国基。",
+      "en": "Yang Xingmi took control of Jianghuai and was enfeoffed as Prince of Wu."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·世袭列传·杨行密传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·吴》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "wu-yang-xuzhi-become-nan-tang",
+    "name": {
+      "zh": "杨吴禅让·徐知诰代吴",
+      "en": "Xu Zhigao replaces Yang Wu"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0937-10-24",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏金陵",
+        "en": "Jinling, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "wu-yang",
+      "nan-tang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "杨吴权臣徐知诰（后改名李昪）废吴帝杨溥，建立南唐。",
+      "en": "Xu Zhigao (later Li Bian) replaced Yang Wu and founded Southern Tang."
+    },
+    "sources": [
+      {
+        "title": "《新五代史·南唐世家》",
+        "author": "欧阳修",
+        "year": 1053
+      },
+      {
+        "title": "《十国春秋·南唐》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "wu-yue-qianchuan-ascend",
+    "name": {
+      "zh": "钱镠建吴越",
+      "en": "Qian Liu founds Wuyue"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0907-06-01",
+    "location": {
+      "lng": 120.15,
+      "lat": 30.28,
+      "place": {
+        "zh": "浙江杭州",
+        "en": "Hangzhou, Zhejiang"
+      }
+    },
+    "entityIds": [
+      "wu-yue"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "钱镠受后梁封吴越王，建国两浙。",
+      "en": "Qian Liu was enfeoffed as Prince of Wuyue by Later Liang."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·世袭列传·钱镠传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·吴越》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "min-wangshenzhi-ascend",
+    "name": {
+      "zh": "王审知建闽",
+      "en": "Wang Shenzhi founds Min"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0909-09-01",
+    "location": {
+      "lng": 119.3,
+      "lat": 26.08,
+      "place": {
+        "zh": "福建福州",
+        "en": "Fuzhou, Fujian"
+      }
+    },
+    "entityIds": [
+      "min"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "王审知据福建，受后梁封闽王，发展海外贸易。",
+      "en": "Wang Shenzhi ruled Fujian, promoted overseas trade."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·世袭列传·王审知传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·闽》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "nan-han-liuyan-ascend",
+    "name": {
+      "zh": "刘龑建南汉",
+      "en": "Liu Yan founds Southern Han"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0917-07-01",
+    "location": {
+      "lng": 113.26,
+      "lat": 23.13,
+      "place": {
+        "zh": "广东广州",
+        "en": "Guangzhou, Guangdong"
+      }
+    },
+    "entityIds": [
+      "nan-han"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "刘龑（后改名刘䶮）在广州称帝，国号汉，史称南汉。",
+      "en": "Liu Yan (later Liu Ang) declared emperor in Guangzhou; known as Southern Han."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·僭伪列传·刘龑传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·南汉》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "chu-ma-mayin-ascend",
+    "name": {
+      "zh": "马殷建马楚",
+      "en": "Ma Yin founds Ma Chu"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0927-06-01",
+    "location": {
+      "lng": 112.94,
+      "lat": 28.23,
+      "place": {
+        "zh": "湖南长沙",
+        "en": "Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "chu-ma"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "马殷据湖南，受后唐封楚国王，以茶马贸易致富。",
+      "en": "Ma Yin ruled Hunan, famous for horse-tea trade."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·世袭列传·马殷传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·楚》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "jing-nan-gaojixing-ascend",
+    "name": {
+      "zh": "高季兴建荆南",
+      "en": "Gao Jixing founds Jingnan"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0924-03-01",
+    "location": {
+      "lng": 112.18,
+      "lat": 30.35,
+      "place": {
+        "zh": "湖北江陵",
+        "en": "Jiangling, Hubei"
+      }
+    },
+    "entityIds": [
+      "jing-nan"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "高季兴受后唐封南平王，据江陵，以劫掠过路商队闻名，被称为\"高赖子\"。",
+      "en": "Gao Jixing known as \"Gao the Scoundrel\" for robbing passing caravans."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·世袭列传·高季兴传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·荆南》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "qian-shu-wangjian-ascend",
+    "name": {
+      "zh": "王建建前蜀",
+      "en": "Wang Jian founds Former Shu"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0907-09-01",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "qian-shu"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "王建据蜀称帝，国号蜀，史称前蜀，励精图治。",
+      "en": "Wang Jian declared emperor in Sichuan; Former Shu was initially well-governed."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·僭伪列传·王建传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·蜀》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "hou-shu-mengyanchang-ascend",
+    "name": {
+      "zh": "孟昶继后蜀",
+      "en": "Meng Chang succeeds Later Shu"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0934-08-01",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "hou-shu"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "孟知祥卒，子孟昶继位，前期勤政，后期奢靡。",
+      "en": "Meng Zhixiang died; his son Meng Chang ruled Later Shu for 31 years."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·世袭列传·孟知祥传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·后蜀》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "bei-han-liuyun-ascend",
+    "name": {
+      "zh": "刘崇建北汉",
+      "en": "Liu Chong founds Northern Han"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0951-01-01",
+    "location": {
+      "lng": 112.55,
+      "lat": 37.87,
+      "place": {
+        "zh": "山西太原",
+        "en": "Taiyuan, Shanxi"
+      }
+    },
+    "entityIds": [
+      "bei-han",
+      "han"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "后汉亡，刘崇据太原称帝，国号汉，史称北汉，结辽抗周抗宋。",
+      "en": "After Later Han fell, Liu Chong declared emperor at Taiyuan; Northern Han allied with Liao."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·僭伪列传·刘崇传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·北汉》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ]
+  },
+  {
+    "id": "nan-tang-libiansheng",
+    "name": {
+      "zh": "南唐烈祖李昪治国",
+      "en": "Li Bian's Southern Tang governance"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0937-01-01",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏金陵",
+        "en": "Jinling, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "nan-tang"
+    ],
+    "category": "改革",
+    "summary": {
+      "zh": "李昪在位期间减税安民、兴水利、开科取士，南唐成为十国中最富庶者。",
+      "en": "Li Bian reduced taxes, built waterworks; Southern Tang became richest of the Ten Kingdoms."
+    },
+    "sources": [
+      {
+        "title": "《十国春秋·南唐》",
+        "author": "吴任臣",
+        "year": 1678
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百八十五至二百九十一"
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "nan-tang-wenxue",
+    "name": {
+      "zh": "南唐词学鼎盛",
+      "en": "Southern Tang lyric poetry flourishes"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0950-01-01",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏金陵",
+        "en": "Jinling, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "nan-tang"
+    ],
+    "category": "文化",
+    "summary": {
+      "zh": "李璟、李煜父子与冯延巳等开创南唐词派，\"春花秋月何时了\"成千古绝唱。",
+      "en": "Li Jing, Li Yu and Feng Yansi founded the Southern Tang lyric school."
+    },
+    "sources": [
+      {
+        "title": "《十国春秋·南唐·李煜传》",
+        "author": "吴任臣",
+        "year": 1678
+      },
+      {
+        "title": "《宋史·南唐世家》",
+        "author": "脱脱等",
+        "year": 1343
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "min-nan-tang-conquer-min",
+    "name": {
+      "zh": "南唐灭闽",
+      "en": "Southern Tang conquers Min"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0945-02-01",
+    "location": {
+      "lng": 119.3,
+      "lat": 26.08,
+      "place": {
+        "zh": "福建福州",
+        "en": "Fuzhou, Fujian"
+      }
+    },
+    "entityIds": [
+      "nan-tang",
+      "min"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "南唐趁闽国内乱出兵，攻破福州，闽亡。但闽地旋即被吴越抢占。",
+      "en": "Southern Tang conquered Min during its civil war."
+    },
+    "sources": [
+      {
+        "title": "《十国春秋·闽》",
+        "author": "吴任臣",
+        "year": 1678
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百八十五"
+      }
+    ]
+  },
+  {
+    "id": "chu-ma-civil-war",
+    "name": {
+      "zh": "马楚诸子争位",
+      "en": "Ma Chu succession struggle"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0947-01-01",
+    "location": {
+      "lng": 112.94,
+      "lat": 28.23,
+      "place": {
+        "zh": "湖南长沙",
+        "en": "Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "chu-ma"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "马殷死后诸子争位，马楚由盛转衰，被南唐所灭。",
+      "en": "After Ma Yin's death, succession struggles weakened Ma Chu."
+    },
+    "sources": [
+      {
+        "title": "《十国春秋·楚》",
+        "author": "吴任臣",
+        "year": 1678
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百八十八"
+      }
+    ]
+  },
+  {
+    "id": "tang-conquer-qian-shu",
+    "name": {
+      "zh": "后唐灭前蜀·郭崇韬伐蜀",
+      "en": "Guo Chongtao conquers Former Shu"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0925-11-28",
+    "location": {
+      "lng": 104.07,
+      "lat": 30.67,
+      "place": {
+        "zh": "四川成都",
+        "en": "Chengdu, Sichuan"
+      }
+    },
+    "entityIds": [
+      "tang",
+      "qian-shu"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "后唐郭崇韬率军伐蜀，仅用七十日攻破成都，前蜀亡。",
+      "en": "Guo Chongtao conquered Former Shu in only 70 days."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·唐书·郭崇韬传》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《新五代史·后蜀世家》",
+        "author": "欧阳修",
+        "year": 1053
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "liang-zhugewen",
+    "name": {
+      "zh": "朱温篡唐建后梁",
+      "en": "Zhu Wen founds Later Liang"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0907-06-01",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "liang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "朱温废唐哀帝自立，国号梁，史称后梁。延续三百年的大唐正式灭亡。",
+      "en": "Zhu Wen deposed the last Tang emperor; Tang dynasty ended."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·梁书·太祖纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百六十六"
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "tang-xitai-936",
+    "name": {
+      "zh": "石敬瑭反后唐·潞王自焚",
+      "en": "Shi Jingtang rebels; Later Tang falls"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0936-11-01",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "tang",
+      "jin",
+      "liao"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "石敬瑭结辽反唐，后唐末帝李从珂自焚，后唐亡。",
+      "en": "Shi Jingtang allied with Liao to overthrow Later Tang."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·唐书·末帝纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《辽史·太宗本纪》",
+        "author": "脱脱等",
+        "year": 1344
+      }
+    ]
+  },
+  {
+    "id": "liang-sunluo-907",
+    "name": {
+      "zh": "后梁封臣大分封",
+      "en": "Later Liang enfeoffments"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0907-06-14",
+    "location": {
+      "lng": 114.34,
+      "lat": 34.8,
+      "place": {
+        "zh": "河南汴州",
+        "en": "Bianzhou, Henan"
+      }
+    },
+    "entityIds": [
+      "liang",
+      "wu-yue",
+      "wu-yang",
+      "qian-shu",
+      "chu-ma",
+      "nan-han",
+      "min"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "朱温称帝后册封各地军阀为郡王，吴越、杨吴、前蜀、马楚、南汉、闽等皆受封，十国格局初定。",
+      "en": "Zhu Wen enfeoffed regional warlords; pattern of Ten Kingdoms set."
+    },
+    "sources": [
+      {
+        "title": "《旧五代史·梁书·太祖纪》",
+        "author": "薛居正等",
+        "year": 974
+      },
+      {
+        "title": "《十国春秋·吴》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "song-caobin-jinling-breach",
+    "name": {
+      "zh": "宋军破金陵·李煜出降",
+      "en": "Song forces breach Jinling; Li Yu surrenders"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0975-11-27",
+    "location": {
+      "lng": 118.78,
+      "lat": 32.06,
+      "place": {
+        "zh": "江苏金陵",
+        "en": "Jinling, Jiangsu"
+      }
+    },
+    "entityIds": [
+      "song",
+      "nan-tang"
+    ],
+    "category": "军事",
+    "summary": {
+      "zh": "宋军围城一年余，金陵城破，南唐后主李煜肉袒出降，被封\"违命侯\"。",
+      "en": "Jinling fell after a year's siege; Li Yu surrendered."
+    },
+    "sources": [
+      {
+        "title": "《宋史·曹彬传》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《十国春秋·南唐·李煜传》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ],
+    "importance": 3
+  },
+  {
+    "id": "liao-nvzhen-submit",
+    "name": {
+      "zh": "辽辖女真各部",
+      "en": "Liao rules Jurchen tribes"
+    },
+    "atlasId": "wu-dai-shi-guo",
+    "date": "0950-01-01",
+    "location": {
+      "lng": 122.0,
+      "lat": 49.0,
+      "place": {
+        "zh": "黑龙江流域",
+        "en": "Amur River Basin"
+      }
+    },
+    "entityIds": [
+      "liao"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "辽朝疆域东至渤海、西至阿尔泰山，女真各部皆臣属。",
+      "en": "Liao controlled vast steppe; Jurchen tribes were vassals."
+    },
+    "sources": [
+      {
+        "title": "《辽史·太祖本纪》",
+        "author": "脱脱等",
+        "year": 1344
+      },
+      {
+        "title": "《辽史·地理志》",
+        "author": "脱脱等",
+        "year": 1344
+      }
+    ]
+  }
+]

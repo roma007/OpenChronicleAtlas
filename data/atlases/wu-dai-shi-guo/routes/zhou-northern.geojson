@@ -1,0 +1,67 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [114.34, 34.80],
+          [116.25, 38.00],
+          [115.77, 39.02]
+        ]
+      },
+      "properties": {
+        "entityId": "zhou",
+        "startDate": "0959-04-01",
+        "endDate": "0959-05-15",
+        "order": 5,
+        "name": { "zh": "柴荣北伐：汴州→瓦桥关", "en": "Bianzhou → Waqiao Pass" },
+        "segmentType": "advance",
+        "label": { "zh": "北伐", "en": "Northern" },
+        "description": { "zh": "柴荣率军北上，连克三关。", "en": "Chai Rong advanced north." }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [115.77, 39.02],
+          [116.39, 39.13],
+          [116.83, 39.37]
+        ]
+      },
+      "properties": {
+        "entityId": "zhou",
+        "startDate": "0959-05-16",
+        "endDate": "0959-05-30",
+        "order": 6,
+        "name": { "zh": "柴荣北伐：瓦桥→益津→淤口三关", "en": "Three passes" },
+        "segmentType": "advance",
+        "label": { "zh": "三关", "en": "3 Passes" },
+        "description": { "zh": "连取瓦桥、益津、淤口三关。", "en": "Took three passes." }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [116.83, 39.37],
+          [114.34, 34.80]
+        ]
+      },
+      "properties": {
+        "entityId": "zhou",
+        "startDate": "0959-06-01",
+        "endDate": "0959-06-20",
+        "order": 7,
+        "name": { "zh": "柴荣班师回汴", "en": "Return to Bianzhou" },
+        "segmentType": "retreat",
+        "label": { "zh": "班师", "en": "Return" },
+        "description": { "zh": "柴荣病逝于军中，后周班师。", "en": "Chai Rong fell ill; army returned." }
+      }
+    }
+  ]
+}

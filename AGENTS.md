@@ -76,7 +76,7 @@
 ## 4. 数据铁律
 
 `data/atlases/**` 是唯一数据源：Web、移动端与桌面端共享同一份数据，**禁止在客户端维护副本或独立数据库**。
-移动端「内置数据」只是构建时生成的 `require` 清单，不是第二份数据。
+移动端自 2026-11-25 起只读远端 `https://atlas.openapp.asia/data/atlases`（AsyncStorage 缓存 + 离线回退），不再打包内置副本；`build:mobile-data` 仅作管道占位。
 
 1. 任何数据变更（事件、路线、专题、封面、索引）后必须依次执行：
 
@@ -87,10 +87,10 @@
    ```
 
 2. `pnpm build:search-index` 生成的 `data/atlases/search-index.json`，以及它回写的 `data/atlases/index.json` 中 `dataVersion`，必须一并提交，禁止手改。
-3. `pnpm build:mobile-data` 生成的 `apps/mobile/src/generated/atlasData.ts` 必须一并提交，禁止手改；新增或删除文件（`.json` / `.geojson` / `.jpg` / `.png` / `.webp` 封面）时绝不能漏，否则 App 会报「内置数据缺少文件」。
+3. 移动端已改为「仅远端数据」，不再生成 `apps/mobile/src/generated/atlasData.ts`；`pnpm build:mobile-data` 为空操作，仅保留管道位置。禁止在客户端新增数据副本。
 4. 修改专题内容必须同步该专题 `manifest.json` 的 `updatedAt`（`YYYY-MM-DD`，取实际改动日期），否则 `dataVersion` 与客户端数据更新提示不会变化。
-5. 封面使用 `1600×900` 位图（`png` 优先）；`.svg` 封面不会进入移动端内置映射，界面会退化为字母占位。
-6. 提交前 `pnpm build:mobile-data --check` 必须输出 `✅ 移动端内置数据映射已是最新`。
+5. 封面使用 `1600×900` 位图（`png` 优先）；`.svg` 封面移动端 Image 不能直接渲染，界面会退化为字母占位。
+6. 提交前 `pnpm build:mobile-data --check` 必须输出 `✅ 移动端已切远端模式，无需校验内置数据映射`。
 7. 数据与生成物必须同一次提交，禁止「先提数据、后补索引」。
 8. **路线端点铁律：不准出现无来由的线头，也不准出现无后续的线尾。**
    - 每段路线的**起点**必须满足其一：落在同实体另一段路线上（默认 10km 内）、落在同实体事件上（10km 内）、或是该实体按日期排序的第一条路线（根据地 / 出发地）。
@@ -322,7 +322,7 @@ curl -sI https://atlas.openapp.asia/sw.js | grep -i cache-control               
 
 1. `atlas.conf` 的正文在 **OpenQuizGo 仓库**，Atlas 不直接改服务器文件，一律提请求（见第 8 节耦合点）
 2. 不要把任何密钥、`.env`、证书写入仓库
-3. 数据改动仍走 `pnpm validate:data` → `build:search-index` → `build:mobile-data`，生成物一并提交
+3. 数据改动仍走 `pnpm validate:data` → `build:search-index`（移动端走远端，`build:mobile-data` 已为空操作）
 4. 服务器上的 `/srv/atlas` 是构建产物，**不要**在服务器上改内容，改动一律走仓库 → 构建 → rsync
 5. 安全组、Tailscale、iptables 属**人工**，AI 不得自行修改；只可读、可提请求、可自探
 6. 除 80/443 外不得新增公网端口；临时对外演示只加非标端口 + 对方 IP `/32`，用完立刻删

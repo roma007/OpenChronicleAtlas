@@ -1,0 +1,280 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "wu-dai-shi-guo",
+  "title": {
+    "zh": "五代十国",
+    "en": "Five Dynasties and Ten Kingdoms"
+  },
+  "subtitle": {
+    "zh": "907—979",
+    "en": "907–979"
+  },
+  "timeRange": {
+    "start": "0893-01-01",
+    "end": "0979-06-30"
+  },
+  "cover": "assets/cover-dad97c5a.jpg",
+  "description": {
+    "zh": "907 年朱温灭唐建后梁，中原进入五代更迭期：后梁（907–923）、后唐（923–936）、后晋（936–947）、后汉（947–951）、后周（951–960）轮番登场。南方则并存十余个割据政权，以杨吴—南唐、吴越、前后蜀、南汉为著。954 年后周世宗柴荣即位，改革图强，南征北伐，为统一奠定基础。960 年赵匡胤陈桥兵变建北宋，随后先南后北：963 假途灭虢、965 灭后蜀、970 灭南汉、975 灭南唐、978 吴越纳土，979 赵光义灭北汉，五代十国终结。\n\n> 分期：① 中原更替（907–936）后梁→后唐；② 辽晋汉（936–951）后晋借契丹之兵、辽一度入汴；③ 后周改革与南征北伐（951–960）柴荣主政；④ 北宋统一（960–979）先南后北。路线与疆域为示意简化，事件日期与表述仍待逐条史料校订。",
+    "en": "In 907 Zhu Wen ended the Tang and founded the Later Liang, beginning the Five Dynasties period of rapid turnover in the Central Plains: Later Liang (907–923), Later Tang (923–936), Later Jin (936–947), Later Han (947–951), Later Zhou (951–960). The south meanwhile saw more than ten independent regimes, most notably Yang Wu–Southern Tang, Wuyue, the Former and Later Shu, and Southern Han. In 954 Later Zhou Shizong Chai Rong ascended the throne, reformed the state, and campaigned south and north, laying the groundwork for unification. In 960 Zhao Kuangyin seized power at Chenqiao and founded the Northern Song, then followed a \"south first, north later\" strategy: 963 conquered Jingnan and Ma Chu via a feigned invasion, 965 Later Shu, 970 Southern Han, 975 Southern Tang, 978 Wuyue surrendered peacefully, and in 979 Zhao Guangyi conquered Northern Han, ending the period.\n\n> Periodization: ① Central Plains turnover (907–936) Liang → Tang; ② Liao–Jin–Han (936–951); ③ Later Zhou reform and campaigns (951–960) under Chai Rong; ④ Northern Song unification (960–979). Routes and territories are schematic. Dates and wording await source review."
+  },
+  "defaultView": {
+    "center": [
+      114,
+      33
+    ],
+    "zoom": 3
+  },
+  "routes": [
+    "routes/campaigns.geojson",
+    "routes/zhou-southern.geojson",
+    "routes/zhou-northern.geojson",
+    "routes/tang-nan-tang.geojson",
+    "routes/liao-invasion.geojson",
+    "routes/nan-tang-min.geojson",
+    "routes/chu-ma-civil.geojson"
+  ],
+  "events": [
+    "events/events.json"
+  ],
+  "territories": [
+    "territories/territories.geojson"
+  ],
+  "entities": [
+    {
+      "id": "liang",
+      "name": {
+        "zh": "后梁",
+        "en": "Later Liang"
+      },
+      "color": "#6b46c1",
+      "order": 1,
+      "description": {
+        "zh": "907—923 年，朱温灭唐建立的中原王朝，都汴州，923 年为后唐所灭。",
+        "en": "907–923, founded by Zhu Wen after ending the Tang; capital Bianzhou; destroyed by Later Tang in 923."
+      }
+    },
+    {
+      "id": "tang",
+      "name": {
+        "zh": "后唐",
+        "en": "Later Tang"
+      },
+      "color": "#b83232",
+      "order": 2,
+      "description": {
+        "zh": "923—936 年，沙陀李存勖灭后梁建立，都洛阳，自称唐朝后裔。",
+        "en": "923–936, founded by Li Cunxu of the Shatuo Turks after destroying Later Liang; capital Luoyang."
+      }
+    },
+    {
+      "id": "jin",
+      "name": {
+        "zh": "后晋",
+        "en": "Later Jin"
+      },
+      "color": "#2c5282",
+      "order": 3,
+      "description": {
+        "zh": "936—947 年，石敬瑭借契丹之兵灭后唐建立，割燕云十六州于辽。",
+        "en": "936–947, founded by Shi Jingtang with Khitan aid after destroying Later Tang; ceded the Sixteen Prefectures of Yan-Yun to the Liao."
+      }
+    },
+    {
+      "id": "han",
+      "name": {
+        "zh": "后汉",
+        "en": "Later Han"
+      },
+      "color": "#2f855a",
+      "order": 4,
+      "description": {
+        "zh": "947—951 年，刘知远趁辽退入汴建立，五代中最短的王朝之一。",
+        "en": "947–951, founded by Liu Zhiyuan after the Liao withdrew; the shortest of the Five Dynasties."
+      }
+    },
+    {
+      "id": "zhou",
+      "name": {
+        "zh": "后周",
+        "en": "Later Zhou"
+      },
+      "color": "#c53030",
+      "order": 5,
+      "description": {
+        "zh": "951—960 年，郭威灭后汉建立；954 年柴荣继位，改革图强，南征北伐。",
+        "en": "951–960, founded by Guo Wei after destroying Later Han; Chai Rong (r. 954–959) reformed the state and campaigned south and north."
+      }
+    },
+    {
+      "id": "song",
+      "name": {
+        "zh": "北宋",
+        "en": "Northern Song"
+      },
+      "color": "#2b6cb0",
+      "order": 6,
+      "description": {
+        "zh": "960—1127 年，赵匡胤陈桥兵变建立，979 年灭北汉完成中原统一。",
+        "en": "960–1127, founded by Zhao Kuangyin at Chenqiao; unified the Central Plains by 979."
+      }
+    },
+    {
+      "id": "wu-yang",
+      "name": {
+        "zh": "杨吴",
+        "en": "Yang Wu"
+      },
+      "color": "#319795",
+      "order": 7,
+      "description": {
+        "zh": "902—937 年，杨行密子孙据江淮，937 年被权臣李昪取代建南唐。",
+        "en": "902–937, the Yang family held the Huai–Yangtze region; replaced in 937 by regent Li Bian who founded Southern Tang."
+      }
+    },
+    {
+      "id": "nan-tang",
+      "name": {
+        "zh": "南唐",
+        "en": "Southern Tang"
+      },
+      "color": "#48bb78",
+      "order": 8,
+      "description": {
+        "zh": "937—975 年，十国中文化最盛、疆域最广者，先灭闽（945），后为后周所迫失淮南十四州（958），975 年亡于北宋。",
+        "en": "937–975, the most cultured and territorially largest of the Ten Kingdoms; conquered Min in 945, lost fourteen Huainan prefectures to Later Zhou in 958, destroyed by Northern Song in 975."
+      }
+    },
+    {
+      "id": "wu-yue",
+      "name": {
+        "zh": "吴越",
+        "en": "Wuyue"
+      },
+      "color": "#38a169",
+      "order": 9,
+      "description": {
+        "zh": "893—978 年，钱镠据两浙，兴水利，978 年钱俶纳土归宋，兵不血刃。",
+        "en": "893–978, the Qian family held Zhejiang; known for hydraulic works; Qian Chu surrendered peacefully in 978."
+      }
+    },
+    {
+      "id": "min",
+      "name": {
+        "zh": "闽",
+        "en": "Min"
+      },
+      "color": "#d69e2e",
+      "order": 10,
+      "description": {
+        "zh": "909—945 年，王审知子孙据福建，945 年亡于南唐。",
+        "en": "909–945, the Wang family held Fujian; destroyed by Southern Tang in 945."
+      }
+    },
+    {
+      "id": "chu-ma",
+      "name": {
+        "zh": "马楚",
+        "en": "Ma Chu"
+      },
+      "color": "#b7791f",
+      "order": 11,
+      "description": {
+        "zh": "927—951 年，马殷据湖南，951 年为南唐所灭，963 年北宋假途南下。",
+        "en": "927–951, the Ma family held Hunan; destroyed by Southern Tang in 951; invaded by Northern Song in 963 via Jingnan."
+      }
+    },
+    {
+      "id": "nan-han",
+      "name": {
+        "zh": "南汉",
+        "en": "Southern Han"
+      },
+      "color": "#c05621",
+      "order": 12,
+      "description": {
+        "zh": "917—970 年，刘龑据岭南，暴政著称，970 年为北宋潘美所灭。",
+        "en": "917–970, the Liu family held Lingnan; known for tyranny; destroyed by Pan Mei of Northern Song in 970."
+      }
+    },
+    {
+      "id": "jing-nan",
+      "name": {
+        "zh": "荆南（南平）",
+        "en": "Jingnan"
+      },
+      "color": "#718096",
+      "order": 13,
+      "description": {
+        "zh": "924—963 年，高季兴据江陵，地小力弱，周旋于大国之间，963 年为北宋所灭。",
+        "en": "924–963, the Gao family held Jiangling; small and weak, it maneuvered among larger states; destroyed by Northern Song in 963."
+      }
+    },
+    {
+      "id": "qian-shu",
+      "name": {
+        "zh": "前蜀",
+        "en": "Former Shu"
+      },
+      "color": "#9f7aea",
+      "order": 14,
+      "description": {
+        "zh": "907—925 年，王建据西川称帝，925 年为后唐所灭。",
+        "en": "907–925, Wang Jian ruled Sichuan as emperor; destroyed by Later Tang in 925."
+      }
+    },
+    {
+      "id": "hou-shu",
+      "name": {
+        "zh": "后蜀",
+        "en": "Later Shu"
+      },
+      "color": "#805ad5",
+      "order": 15,
+      "description": {
+        "zh": "934—965 年，孟知祥据西川重建蜀，965 年为北宋王全斌所灭。",
+        "en": "934–965, Meng Zhixiang re-established Shu in Sichuan; destroyed by Wang Quanbin of Northern Song in 965."
+      }
+    },
+    {
+      "id": "bei-han",
+      "name": {
+        "zh": "北汉",
+        "en": "Northern Han"
+      },
+      "color": "#553c9a",
+      "order": 16,
+      "description": {
+        "zh": "951—979 年，十国中唯一的北方政权，刘崇据太原，依附辽对抗后周与北宋，979 年为赵光义所灭。",
+        "en": "951–979, the only northern regime among the Ten Kingdoms; Liu Chong held Taiyuan with Liao aid against Later Zhou and Northern Song; destroyed by Zhao Guangyi in 979."
+      }
+    },
+    {
+      "id": "liao",
+      "name": {
+        "zh": "辽（契丹）",
+        "en": "Liao (Khitan)"
+      },
+      "color": "#4a5568",
+      "order": 17,
+      "description": {
+        "zh": "916—1125 年，耶律阿保机建立的草原帝国，多次介入中原政权更迭，947 年一度入主汴州。",
+        "en": "916–1125, founded by Yelü Abaoji; intervened repeatedly in Central Plains politics and briefly occupied Bianzhou in 947."
+      }
+    }
+  ],
+  "tags": [
+    "中国历史",
+    "五代十国",
+    "军事",
+    "分裂"
+  ],
+  "license": "CC-BY-4.0（疆域面含 Seshat Cliopatria 数据，CC BY 4.0；事件与路线为示意初稿）",
+  "updatedAt": "2026-11-25",
+  "coverText": {
+    "enTitle": "WU-DAI · SHI-GUO",
+    "years": "907—979",
+    "keywords": "汴州 · 金陵 · 陈桥 · 先南后北",
+    "keywordsEn": "Bianzhou · Jinling · Chenqiao · South First"
+  }
+}

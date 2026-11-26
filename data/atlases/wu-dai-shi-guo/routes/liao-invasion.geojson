@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [116.83, 43.37],
+          [118.50, 41.00],
+          [117.00, 38.00],
+          [114.34, 34.80]
+        ]
+      },
+      "properties": {
+        "entityId": "liao",
+        "startDate": "0946-12-01",
+        "endDate": "0947-02-11",
+        "order": 1,
+        "name": { "zh": "辽太宗入汴：契丹南下灭后晋", "en": "Liao Emperor Taizong enters Bianzhou" },
+        "segmentType": "advance",
+        "label": { "zh": "辽入汴", "en": "Liao invades" },
+        "description": { "zh": "辽太宗耶律德光率军南下，灭后晋，一度据汴州，改国号辽。", "en": "Yelü Deguang invaded south, destroyed Later Jin, and occupied Bianzhou." }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [114.34, 34.80],
+          [117.00, 38.00],
+          [118.50, 41.00],
+          [116.83, 43.37]
+        ]
+      },
+      "properties": {
+        "entityId": "liao",
+        "startDate": "0947-03-01",
+        "endDate": "0947-04-15",
+        "order": 2,
+        "name": { "zh": "辽军北撤", "en": "Liao retreats north" },
+        "segmentType": "retreat",
+        "label": { "zh": "北撤", "en": "Retreat" },
+        "description": { "zh": "耶律德光北撤途中病逝，辽军退回草原。", "en": "Yelü Deguang died on the retreat; Liao forces returned to the steppe." }
+      }
+    }
+  ]
+}

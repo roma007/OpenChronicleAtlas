@@ -293,6 +293,35 @@
       }
     },
     {
+      "id": "wu-dai-shi-guo",
+      "title": {
+        "zh": "五代十国",
+        "en": "Five Dynasties and Ten Kingdoms"
+      },
+      "subtitle": {
+        "zh": "907—979",
+        "en": "907–979"
+      },
+      "timeRange": {
+        "start": "0907-01-01",
+        "end": "0979-06-01"
+      },
+      "tags": [
+        "中国历史",
+        "五代十国",
+        "军事",
+        "分裂"
+      ],
+      "path": "wu-dai-shi-guo/manifest.json",
+      "cover": "wu-dai-shi-guo/assets/cover-dad97c5a.jpg",
+      "coverText": {
+        "enTitle": "WU-DAI · SHI-GUO",
+        "years": "907—979",
+        "keywords": "汴州 · 金陵 · 陈桥 · 先南后北",
+        "keywordsEn": "Bianzhou · Jinling · Chenqiao · South First"
+      }
+    },
+    {
       "id": "ming-qing",
       "title": {
         "zh": "明清",
@@ -352,5 +381,5 @@
       }
     }
   ],
-  "dataVersion": "2026-11-24-3a6dfa726cdb"
+  "dataVersion": "2026-11-25-afe12041f2ab"
 }

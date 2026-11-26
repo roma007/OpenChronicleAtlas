@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { LanguageToggle } from '../components/layout/LanguageToggle';
 import { clearAppCaches, useCacheInfo } from '../hooks/useCacheInfo';
 import { useI18n } from '../hooks/useI18n';
-import { SITE_ICP } from '../config/site';
+import { SITE_ICP, SITE_PSB } from '../config/site';
 
 function formatBytes(value: number | null): string | null {
   if (value === null) return null;
@@ -66,6 +66,19 @@ export function AboutPage() {
                 >
                   {SITE_ICP.number}
                 </a>
+                {SITE_PSB.number ? (
+                  <>
+                    <br />
+                    <a
+                      href={SITE_PSB.href}
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="underline decoration-ink/20 underline-offset-2 hover:text-cinnabar"
+                    >
+                      {SITE_PSB.number}
+                    </a>
+                  </>
+                ) : null}
               </dd>
             </div>
             <div className="flex justify-between gap-4">

@@ -1,0 +1,129 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [114.34, 34.80],
+          [112.18, 30.35],
+          [112.94, 28.23],
+          [113.13, 28.23]
+        ]
+      },
+      "properties": {
+        "entityId": "song",
+        "startDate": "0963-02-01",
+        "endDate": "0963-03-15",
+        "order": 1,
+        "name": { "zh": "假途灭虢：汴州→江陵→长沙", "en": "Feigned invasion: Bianzhou → Jiangling → Changsha" },
+        "segmentType": "advance",
+        "description": { "zh": "宋军南下经荆南假道，先灭荆南江陵，再南进灭马楚长沙。", "en": "Song forces borrowed passage through Jingnan, seized Jiangling, then advanced south to conquer Ma Chu at Changsha." }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [114.34, 34.80],
+          [111.75, 33.00],
+          [108.00, 32.00],
+          [104.07, 30.67]
+        ]
+      },
+      "properties": {
+        "entityId": "song",
+        "startDate": "0964-12-01",
+        "endDate": "0965-02-14",
+        "order": 2,
+        "name": { "zh": "灭后蜀：北线汴州→成都", "en": "Conquest of Later Shu: northern route Bianzhou → Chengdu" },
+        "segmentType": "advance",
+        "description": { "zh": "王全斌军从北路入蜀，经兴州、利州南下成都。", "en": "Wang Quanbin's army entered Shu from the north, through Xingzhou and Lizhou." }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [114.34, 34.80],
+          [113.30, 30.55],
+          [110.30, 30.30],
+          [107.00, 30.70],
+          [104.07, 30.67]
+        ]
+      },
+      "properties": {
+        "entityId": "song",
+        "startDate": "0964-12-01",
+        "endDate": "0965-02-14",
+        "order": 3,
+        "name": { "zh": "灭后蜀：东线汴州→夔州→成都", "en": "Conquest of Later Shu: eastern route Bianzhou → Kuizhou → Chengdu" },
+        "segmentType": "advance",
+        "description": { "zh": "刘光义军自汴州南下，经夔州入蜀；示意图为陆路推进，未按长江水道逐段绘制。", "en": "Liu Guangyi's army moved south from Bianzhou and entered Shu via Kuizhou; this schematic shows an overland advance rather than the Yangtze channel." }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [114.34, 34.80],
+          [113.13, 28.23],
+          [114.07, 24.80],
+          [113.26, 23.13]
+        ]
+      },
+      "properties": {
+        "entityId": "song",
+        "startDate": "0970-03-01",
+        "endDate": "0970-11-01",
+        "order": 4,
+        "name": { "zh": "灭南汉：汴州→广州", "en": "Conquest of Southern Han: Bianzhou → Guangzhou" },
+        "segmentType": "advance",
+        "description": { "zh": "潘美军南下经衡州、贺州，水陆并进至广州。", "en": "Pan Mei advanced through Hengzhou and Hezhou with combined land and water forces." }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [114.34, 34.80],
+          [118.00, 32.00],
+          [118.78, 32.06]
+        ]
+      },
+      "properties": {
+        "entityId": "song",
+        "startDate": "0974-10-01",
+        "endDate": "0975-11-27",
+        "order": 5,
+        "name": { "zh": "灭南唐：汴州→金陵", "en": "Conquest of Southern Tang: Bianzhou → Jinling" },
+        "segmentType": "advance",
+        "description": { "zh": "曹彬军南下，沿淮河、长江东进，围金陵。", "en": "Cao Bin's army advanced east along the Huai and Yangtze rivers to besiege Jinling." }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [114.34, 34.80],
+          [112.55, 37.87]
+        ]
+      },
+      "properties": {
+        "entityId": "song",
+        "startDate": "0979-02-01",
+        "endDate": "0979-06-03",
+        "order": 6,
+        "name": { "zh": "灭北汉：汴州→太原", "en": "Conquest of Northern Han: Bianzhou → Taiyuan" },
+        "segmentType": "advance",
+        "description": { "zh": "宋太宗赵光义亲征太原，先败辽援军，后破城。", "en": "Emperor Taizong personally led the campaign against Taiyuan, defeated Liao reinforcements, and conquered the city." }
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [111.69, 29.05],
+          [112.36, 28.55],
+          [112.94, 28.23]
+        ]
+      },
+      "properties": {
+        "entityId": "chu-ma",
+        "startDate": "0947-06-01",
+        "endDate": "0947-06-15",
+        "order": 1,
+        "name": {
+          "zh": "马希萼南下：朗州→益阳→长沙",
+          "en": "Ma Xi'e marches south: Langzhou → Yiyang → Changsha"
+        },
+        "segmentType": "advance",
+        "description": {
+          "zh": "马殷诸子争位。朗州节度使马希萼起兵南下攻长沙，与弟马希广交战于益阳。",
+          "en": "Succession struggle: Ma Xi'e of Langzhou marched south against Ma Xiguang at Changsha."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [112.94, 28.23],
+          [112.91, 27.83],
+          [112.61, 26.89]
+        ]
+      },
+      "properties": {
+        "entityId": "chu-ma",
+        "startDate": "0947-07-01",
+        "endDate": "0947-07-10",
+        "order": 2,
+        "name": {
+          "zh": "马希广反击：长沙→湘潭→衡州",
+          "en": "Ma Xiguang counters: Changsha → Xiangtan → Hengzhou"
+        },
+        "segmentType": "advance",
+        "description": {
+          "zh": "马希广自长沙南反击，经湘潭追至衡州，一度击退马希萼。",
+          "en": "Ma Xiguang counterattacked south through Xiangtan to Hengzhou."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [112.61, 26.89],
+          [112.91, 27.83],
+          [112.94, 28.23],
+          [112.36, 28.55],
+          [111.69, 29.05]
+        ]
+      },
+      "properties": {
+        "entityId": "chu-ma",
+        "startDate": "0947-07-20",
+        "endDate": "0947-08-05",
+        "order": 3,
+        "name": {
+          "zh": "马希萼回师：衡州→长沙→朗州",
+          "en": "Ma Xi'e retreats: Hengzhou → Changsha → Langzhou"
+        },
+        "segmentType": "advance",
+        "description": {
+          "zh": "马希萼败退后撤回朗州，两兄弟暂时议和，但马楚元气已伤。",
+          "en": "Ma Xi'e retreated to Langzhou; the brothers made peace but Chu was weakened."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [111.69, 29.05],
+          [112.36, 28.55],
+          [112.94, 28.23]
+        ]
+      },
+      "properties": {
+        "entityId": "chu-ma",
+        "startDate": "0950-12-01",
+        "endDate": "0950-12-20",
+        "order": 4,
+        "name": {
+          "zh": "马希萼再围长沙：朗州→益阳→长沙",
+          "en": "Ma Xi'e besieges Changsha again"
+        },
+        "segmentType": "advance",
+        "description": {
+          "zh": "马希萼得南唐暗助，再次南下围困长沙，城破后马希广被杀。",
+          "en": "With Southern Tang backing, Ma Xi'e took Changsha; Ma Xiguang was killed."
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [115.89, 28.68],
+          [113.89, 28.22],
+          [112.94, 28.23]
+        ]
+      },
+      "properties": {
+        "entityId": "nan-tang",
+        "startDate": "0951-08-01",
+        "endDate": "0951-08-20",
+        "order": 5,
+        "name": {
+          "zh": "南唐灭马楚：洪州→长沙",
+          "en": "Southern Tang conquers Ma Chu: Hongzhou → Changsha"
+        },
+        "segmentType": "advance",
+        "description": {
+          "zh": "南唐乘马楚内乱，边镐率军自洪州西进，直取长沙，马楚亡。",
+          "en": "Southern Tang general Bian Hao marched from Hongzhou, seized Changsha; Ma Chu fell."
+        }
+      }
+    }
+  ]
+}

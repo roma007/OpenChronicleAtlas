@@ -3,6 +3,25 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.289] - 2026-11-26
+
+### Added
+- **新专题「五代十国」**（`wu-dai-shi-guo`，907—979）：86 条事件、25 段路线、疆域与 AIGC 标识封面；
+  覆盖后梁至北汉的五代更迭、南方十国与北宋「先南后北」统一。
+- **页脚公安备案号**：`粤公网安备44011302006250号`（公安联网备案 2026-11-26 通过），
+  与 ICP 号并排，带官方图标并链接 `beian.mps.gov.cn` 查询页；同步 React 页脚、About 页与
+  `index.html` 静态兜底三处。
+
+### Changed
+- **移动端改为「仅远端数据」**：移除 `bundled.ts` 与打包映射 `atlasData.ts`，
+  统一读取 `https://atlas.openapp.asia/data/atlases`（AsyncStorage 缓存 + 离线回退）；
+  `EXPO_PUBLIC_DATA_BASE_URL` 变为必填，`build:mobile-data` 保留为空操作。
+  同步更新 `AGENTS.md` 第 4 节数据铁律。
+
+### Fixed
+- **五代十国「灭后蜀东线」误标为航线**：该段示意图为陆路推进，`segmentType` 改为 `advance`，
+  `check:land` 由 4 段穿越陆地降为 0。
+
 ## [v1.0.288] - 2026-11-24
 
 ### Fixed

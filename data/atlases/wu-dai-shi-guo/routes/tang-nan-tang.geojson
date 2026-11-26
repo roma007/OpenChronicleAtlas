@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [112.45, 34.62],
+          [110.50, 34.00],
+          [107.50, 33.50],
+          [104.07, 30.67]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0925-09-01",
+        "endDate": "0925-11-15",
+        "order": 1,
+        "name": { "zh": "后唐灭前蜀：洛阳→成都", "en": "Later Tang destroys Former Shu: Luoyang → Chengdu" },
+        "segmentType": "advance",
+        "label": { "zh": "灭前蜀", "en": "Destroy Shu" },
+        "description": { "zh": "后唐庄宗派郭崇韬、李岌率军伐蜀，经兴州、利州南下成都。", "en": "Later Tang sent Guo Chongtao and Li Ji through Xingzhou and Lizhou to Chengdu." }
+      }
+    }
+  ]
+}

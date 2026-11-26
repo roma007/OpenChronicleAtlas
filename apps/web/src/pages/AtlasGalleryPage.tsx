@@ -136,6 +136,13 @@ export function AtlasGalleryPage() {
               rel="noreferrer noopener"
               className="underline decoration-ink/20 underline-offset-2 hover:text-cinnabar"
             >
+              <img
+                src="/beian.png"
+                alt=""
+                width={15}
+                height={17}
+                className="mr-1 inline-block h-4 w-auto align-[-2px]"
+              />
               {SITE_PSB.number}
             </a>
           </>
