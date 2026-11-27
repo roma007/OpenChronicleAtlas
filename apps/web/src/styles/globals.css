@@ -20,6 +20,7 @@
 
 @layer components {
   .atlas-marker {
+    position: relative;
     display: block;
     width: 20px;
     height: 20px;
@@ -45,47 +46,29 @@
       box-shadow 120ms ease;
   }
 
+  .atlas-marker__label {
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    transform: translateX(-50%);
+    max-width: 180px;
+    padding: 2px 7px;
+    border-radius: 9999px;
+    background: rgba(243, 234, 217, 0.72);
+    color: rgba(58, 47, 38, 0.62);
+    font-size: 11px;
+    line-height: 1.35;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-shadow: 0 1px 4px rgba(35, 28, 21, 0.18);
+    pointer-events: none;
+  }
+
   .atlas-marker:hover .atlas-marker__dot,
   .atlas-marker:focus-visible .atlas-marker__dot {
     transform: scale(1.3);
     box-shadow: 0 4px 14px rgba(35, 28, 21, 0.55);
-  }
-
-  .atlas-marker--cluster {
-    width: 32px;
-    height: 32px;
-    transform: translateY(-6px);
-  }
-
-  .atlas-marker__count {
-    display: grid;
-    place-items: center;
-    width: 32px;
-    height: 32px;
-    border-radius: 9999px;
-    border: 2px solid #f3ead9;
-    background: var(--marker-color, #8c2f24);
-    color: #f3ead9;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 1;
-    box-shadow: 0 3px 12px rgba(35, 28, 21, 0.5);
-    pointer-events: none;
-    transition:
-      transform 120ms ease,
-      box-shadow 120ms ease;
-  }
-
-  .atlas-marker--cluster:hover .atlas-marker__count,
-  .atlas-marker--cluster:focus-visible .atlas-marker__count {
-    transform: scale(1.12);
-    box-shadow: 0 5px 16px rgba(35, 28, 21, 0.58);
-  }
-
-  .atlas-marker--cluster.atlas-marker--active .atlas-marker__count {
-    box-shadow:
-      0 0 0 6px rgba(140, 47, 36, 0.18),
-      0 4px 14px rgba(35, 28, 21, 0.5);
   }
 
   .atlas-marker:focus-visible {
@@ -100,6 +83,13 @@
       0 0 0 6px rgba(140, 47, 36, 0.18),
       0 4px 14px rgba(35, 28, 21, 0.5);
     animation: atlas-pulse 1.8s ease-out infinite;
+  }
+
+  .atlas-marker--active .atlas-marker__label {
+    background: #8c2f24;
+    color: #f3ead9;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(35, 28, 21, 0.35);
   }
 
   .atlas-strongpoint {

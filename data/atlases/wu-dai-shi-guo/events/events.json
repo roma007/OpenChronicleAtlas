@@ -698,8 +698,8 @@
     "id": "song-feigned-invasion-963",
     "atlasId": "wu-dai-shi-guo",
     "name": {
-      "zh": "假途灭虢（荆南+马楚）",
-      "en": "Feigned invasion: Jingnan and Ma Chu"
+      "zh": "假途灭虢（荆南+武平）",
+      "en": "Feigned passage: Jingnan and Wuping"
     },
     "date": "0963-02-01",
     "location": {
@@ -713,12 +713,12 @@
     "entityIds": [
       "song",
       "jing-nan",
-      "chu-ma"
+      "wu-ping"
     ],
     "category": "军事",
     "summary": {
-      "zh": "北宋以讨伐张文表为名借道荆南（南平），顺道灭荆南，南下灭马楚（湖南），兵不血刃得荆南，一战灭马楚。",
-      "en": "Northern Song used a revolt as pretext to borrow passage through Jingnan, then conquered both Jingnan and Ma Chu."
+      "zh": "北宋以讨伐张文表为名借道荆南（南平），先取荆南，再南下湖南；所灭为据湖南的武平政权。马楚已于 951 年为南唐所灭。",
+      "en": "Northern Song used the Zhang Wenbiao revolt as a pretext to march through Jingnan, took Jingnan, then moved into Hunan against the Wuping regime (Ma Chu had already fallen to Southern Tang in 951)."
     },
     "sources": [
       {
@@ -969,8 +969,8 @@
   {
     "id": "wu-yue-founded-893",
     "name": {
-      "zh": "钱镠据两浙",
-      "en": "Qian Liu controls Zhejiang"
+      "zh": "钱镠任镇海军节度使",
+      "en": "Qian Liu appointed Zhenhai jiedushi"
     },
     "atlasId": "wu-dai-shi-guo",
     "date": "0893-01-01",
@@ -987,17 +987,22 @@
     ],
     "category": "政治",
     "summary": {
-      "zh": "唐景福二年（893），钱镠任浙江节度使，据两浙，为吴越建国奠定基础。",
-      "en": "Qian Liu was appointed Zhejiang military commissioner, beginning Wuyue rule."
+      "zh": "唐景福二年（893），钱镠被任为镇海军节度使、润州刺史，唐廷承认其对浙江西道的统治；浙东仍属董昌，两浙尚未合一。",
+      "en": "In 893 the Tang court appointed Qian Liu Zhenhai jiedushi and governor of Runzhou, recognizing his control of western Zhejiang; eastern Zhejiang remained under Dong Chang."
     },
     "sources": [
       {
-        "title": "《旧五代史·世袭列传》",
+        "title": "《新五代史》卷六十七《吴越世家》",
+        "author": "欧阳修",
+        "year": 1073
+      },
+      {
+        "title": "《旧五代史》卷一百三十三《世袭列传二·钱镠》",
         "author": "薛居正等",
         "year": 974
       },
       {
-        "title": "《十国春秋·吴越》",
+        "title": "《十国春秋》卷七十七《吴越一·武肃王》",
         "author": "吴任臣",
         "year": 1678
       }
@@ -2490,8 +2495,8 @@
   {
     "id": "song-chu-ma-changsha",
     "name": {
-      "zh": "北宋灭马楚·长沙之战",
-      "en": "Song conquers Ma Chu at Changsha"
+      "zh": "北宋平湖南·执周保权",
+      "en": "Song annexes Hunan and captures Zhou Baoquan"
     },
     "atlasId": "wu-dai-shi-guo",
     "date": "0963-03-15",
@@ -2505,12 +2510,12 @@
     },
     "entityIds": [
       "song",
-      "chu-ma"
+      "wu-ping"
     ],
     "category": "军事",
     "summary": {
-      "zh": "宋军平定荆南后南下灭马楚，俘马楚主马崇赞。",
-      "en": "After Jingnan, Song advanced south and conquered Ma Chu."
+      "zh": "宋军平定荆南后南下，武平内乱（张文表之乱）为宋所乘，宋执武平主周保权，湖南入宋。马楚已于 951 年为南唐所灭，此役所灭为武平。",
+      "en": "After Jingnan, Song moved south, exploited Wuping’s internal revolt, captured Zhou Baoquan and annexed Hunan. Ma Chu had already fallen in 951; the regime conquered here was Wuping."
     },
     "sources": [
       {
@@ -2519,9 +2524,9 @@
         "year": 1343
       },
       {
-        "title": "《十国春秋·马楚》",
-        "author": "吴任臣",
-        "year": 1678
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163
       }
     ]
   },
@@ -3411,5 +3416,206 @@
         "year": 1344
       }
     ]
+  },
+  {
+    "id": "wu-ping-952",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "刘言复湖南·武平据楚地",
+      "en": "Liu Yan retakes Hunan: the Wuping regime"
+    },
+    "date": "0952-10-01",
+    "location": {
+      "lng": 112.94,
+      "lat": 28.23,
+      "place": {
+        "zh": "湖南长沙",
+        "en": "Changsha, Hunan"
+      }
+    },
+    "entityIds": [
+      "wu-ping",
+      "nan-tang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "南唐灭楚后以边镐镇长沙，楚地将领不服。952 年朗州将刘言遣王逵、周行逢等攻长沙，边镐弃城走，湖南复归本地军将，此后周行逢据之，史称武平。",
+      "en": "After conquering Chu, Southern Tang garrisoned Changsha under Bian Gao, but local commanders refused allegiance. In 952 Liu Yan of Langzhou sent Wang Kui and Zhou Xingfeng against Changsha; Bian Gao abandoned the city and Hunan returned to local commanders, later held by Zhou Xingfeng — the Wuping regime."
+    },
+    "sources": [
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百九十"
+      },
+      {
+        "title": "《新五代史·楚世家》",
+        "author": "欧阳修",
+        "year": 1053
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "liu-congxiao-945",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "留从效据泉漳·清源军自立",
+      "en": "Liu Congxiao takes Quanzhou and Zhangzhou"
+    },
+    "date": "0945-09-01",
+    "location": {
+      "lng": 118.68,
+      "lat": 24.87,
+      "place": {
+        "zh": "福建泉州",
+        "en": "Quanzhou, Fujian"
+      }
+    },
+    "entityIds": [
+      "qing-yuan",
+      "nan-tang"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "闽亡后，泉州将留从效逐南唐所署官员，据泉、漳二州，受南唐节度名义而实自专，是为清源军。",
+      "en": "After Min’s fall, the Quanzhou commander Liu Congxiao expelled Southern Tang officials and held Quanzhou and Zhangzhou under nominal Southern Tang suzerainty — the Qingyuan regime."
+    },
+    "sources": [
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百八十五"
+      },
+      {
+        "title": "《新五代史·闽世家》",
+        "author": "欧阳修",
+        "year": 1053
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fuzhou-946",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "南唐攻福州·吴越援李仁达",
+      "en": "Southern Tang attacks Fuzhou; Wuyue intervenes"
+    },
+    "date": "0946-01-01",
+    "location": {
+      "lng": 119.3,
+      "lat": 26.08,
+      "place": {
+        "zh": "福建福州",
+        "en": "Fuzhou, Fujian"
+      }
+    },
+    "entityIds": [
+      "fu-zhou",
+      "nan-tang",
+      "wu-yue"
+    ],
+    "category": "战争",
+    "summary": {
+      "zh": "南唐遣军攻福州，李仁达求援于吴越；吴越泛海赴援，南唐军大败，福州得以继续自立。",
+      "en": "Southern Tang attacked Fuzhou; Li Renda appealed to Wuyue, whose forces crossed the sea and defeated the Southern Tang army, leaving Fuzhou independent for the time being."
+    },
+    "sources": [
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百八十五"
+      },
+      {
+        "title": "《十国春秋·吴越世家》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "wuyue-fuzhou-947",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "李仁达归附吴越·福州入吴越",
+      "en": "Fuzhou submits to Wuyue"
+    },
+    "date": "0947-03-01",
+    "location": {
+      "lng": 119.3,
+      "lat": 26.08,
+      "place": {
+        "zh": "福建福州",
+        "en": "Fuzhou, Fujian"
+      }
+    },
+    "entityIds": [
+      "wu-yue",
+      "fu-zhou"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "947 年李仁达归附吴越，吴越遣张筠等接管福州，福州自此属吴越，直至 978 年纳土归宋。",
+      "en": "In 947 Li Renda submitted to Wuyue, which sent Zhang Yun to take over Fuzhou; the city remained Wuyue’s until 978."
+    },
+    "sources": [
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百八十六"
+      },
+      {
+        "title": "《十国春秋·吴越世家》",
+        "author": "吴任臣",
+        "year": 1678
+      }
+    ],
+    "importance": 2
+  },
+  {
+    "id": "chen-hongjin-978",
+    "atlasId": "wu-dai-shi-guo",
+    "name": {
+      "zh": "陈洪进纳土·泉漳归宋",
+      "en": "Chen Hongjin submits Quanzhou and Zhangzhou to Song"
+    },
+    "date": "0978-05-01",
+    "location": {
+      "lng": 118.68,
+      "lat": 24.87,
+      "place": {
+        "zh": "福建泉州",
+        "en": "Quanzhou, Fujian"
+      }
+    },
+    "entityIds": [
+      "song",
+      "qing-yuan"
+    ],
+    "category": "政治",
+    "summary": {
+      "zh": "978 年清源军节度使陈洪进纳土，泉、漳二州归宋；同年吴越钱俶亦纳土，南方割据至此基本结束。",
+      "en": "In 978 Chen Hongjin submitted Quanzhou and Zhangzhou to Song; Wuyue’s Qian Chu submitted the same year, ending the southern separatist regimes."
+    },
+    "sources": [
+      {
+        "title": "《宋史·太宗本纪》",
+        "author": "脱脱等",
+        "year": 1343
+      },
+      {
+        "title": "《续资治通鉴长编》",
+        "author": "李焘",
+        "year": 1163,
+        "note": "太平兴国三年"
+      }
+    ],
+    "importance": 2
   }
 ]

@@ -13,10 +13,10 @@
     "start": "0893-01-01",
     "end": "0979-06-30"
   },
-  "cover": "assets/cover-dad97c5a.jpg",
+  "cover": "assets/cover-59672fda.jpg",
   "description": {
-    "zh": "907 年朱温灭唐建后梁，中原进入五代更迭期：后梁（907–923）、后唐（923–936）、后晋（936–947）、后汉（947–951）、后周（951–960）轮番登场。南方则并存十余个割据政权，以杨吴—南唐、吴越、前后蜀、南汉为著。954 年后周世宗柴荣即位，改革图强，南征北伐，为统一奠定基础。960 年赵匡胤陈桥兵变建北宋，随后先南后北：963 假途灭虢、965 灭后蜀、970 灭南汉、975 灭南唐、978 吴越纳土，979 赵光义灭北汉，五代十国终结。\n\n> 分期：① 中原更替（907–936）后梁→后唐；② 辽晋汉（936–951）后晋借契丹之兵、辽一度入汴；③ 后周改革与南征北伐（951–960）柴荣主政；④ 北宋统一（960–979）先南后北。路线与疆域为示意简化，事件日期与表述仍待逐条史料校订。",
-    "en": "In 907 Zhu Wen ended the Tang and founded the Later Liang, beginning the Five Dynasties period of rapid turnover in the Central Plains: Later Liang (907–923), Later Tang (923–936), Later Jin (936–947), Later Han (947–951), Later Zhou (951–960). The south meanwhile saw more than ten independent regimes, most notably Yang Wu–Southern Tang, Wuyue, the Former and Later Shu, and Southern Han. In 954 Later Zhou Shizong Chai Rong ascended the throne, reformed the state, and campaigned south and north, laying the groundwork for unification. In 960 Zhao Kuangyin seized power at Chenqiao and founded the Northern Song, then followed a \"south first, north later\" strategy: 963 conquered Jingnan and Ma Chu via a feigned invasion, 965 Later Shu, 970 Southern Han, 975 Southern Tang, 978 Wuyue surrendered peacefully, and in 979 Zhao Guangyi conquered Northern Han, ending the period.\n\n> Periodization: ① Central Plains turnover (907–936) Liang → Tang; ② Liao–Jin–Han (936–951); ③ Later Zhou reform and campaigns (951–960) under Chai Rong; ④ Northern Song unification (960–979). Routes and territories are schematic. Dates and wording await source review."
+    "zh": "专题时间轴上溯至 893 年（钱镠任镇海军节度使、唐朝仍在），作为五代十国的前史。907 年朱温灭唐建后梁，中原进入五代更迭期：后梁（907–923）、后唐（923–936）、后晋（936–947）、后汉（947–951）、后周（951–960）轮番登场。南方则并存十余个割据政权，以杨吴—南唐、吴越、前后蜀、南汉为著。954 年后周世宗柴荣即位，改革图强，南征北伐，为统一奠定基础。960 年赵匡胤陈桥兵变建北宋，随后先南后北：963 假途灭虢、965 灭后蜀、970 灭南汉、975 灭南唐、978 吴越纳土，979 赵光义灭北汉，五代十国终结。\n\n> 分期：① 唐末前史（893–907）唐廷名存实亡、藩镇割据；② 中原更替（907–936）后梁→后唐；③ 辽晋汉（936–951）后晋借契丹之兵、辽一度入汴；④ 后周改革与南征北伐（951–960）柴荣主政；⑤ 北宋统一（960–979）先南后北。路线与疆域为示意简化，事件日期与表述仍待逐条史料校订。",
+    "en": "The atlas timeline begins in 893, when Qian Liu became Zhenhai jiedushi while the Tang still ruled, as background to the Five Dynasties and Ten Kingdoms. In 907 Zhu Wen ended the Tang and founded the Later Liang, beginning the Five Dynasties period of rapid turnover in the Central Plains: Later Liang (907–923), Later Tang (923–936), Later Jin (936–947), Later Han (947–951), Later Zhou (951–960). The south meanwhile saw more than ten independent regimes, most notably Yang Wu–Southern Tang, Wuyue, the Former and Later Shu, and Southern Han. In 954 Later Zhou Shizong Chai Rong ascended the throne, reformed the state, and campaigned south and north, laying the groundwork for unification. In 960 Zhao Kuangyin seized power at Chenqiao and founded the Northern Song, then followed a \"south first, north later\" strategy: 963 conquered Jingnan and Ma Chu via a feigned invasion, 965 Later Shu, 970 Southern Han, 975 Southern Tang, 978 Wuyue surrendered peacefully, and in 979 Zhao Guangyi conquered Northern Han, ending the period.\n\n> Periodization: ① Late Tang prelude (893–907); ② Central Plains turnover (907–936) Liang → Tang; ③ Liao–Jin–Han (936–951); ④ Later Zhou reform and campaigns (951–960) under Chai Rong; ⑤ Northern Song unification (960–979). Routes and territories are schematic. Dates and wording await source review."
   },
   "defaultView": {
     "center": [
@@ -41,6 +41,19 @@
     "territories/territories.geojson"
   ],
   "entities": [
+    {
+      "id": "tang-chao",
+      "name": {
+        "zh": "唐（唐朝）",
+        "en": "Tang (Empire)"
+      },
+      "color": "#8b1e3f",
+      "order": 0,
+      "description": {
+        "zh": "618—907 年，李唐王朝。本专题起点 893 年时唐朝仍在，但藩镇林立、唐廷仅存名分；907 年朱温篡唐，五代开始。",
+        "en": "618–907, the Li Tang dynasty. At this atlas's starting point in 893 the Tang still existed, but warlords dominated and the court held little real power; Zhu Wen usurped the throne in 907, beginning the Five Dynasties."
+      }
+    },
     {
       "id": "liang",
       "name": {
@@ -154,8 +167,8 @@
       "color": "#38a169",
       "order": 9,
       "description": {
-        "zh": "893—978 年，钱镠据两浙，兴水利，978 年钱俶纳土归宋，兵不血刃。",
-        "en": "893–978, the Qian family held Zhejiang; known for hydraulic works; Qian Chu surrendered peacefully in 978."
+        "zh": "893 年钱镠任镇海军节度使，据浙西；896 年兼镇东军，尽有两浙；978 年钱俶纳土归宋，兵不血刃。",
+        "en": "Qian Liu became Zhenhai jiedushi in 893 (western Zhejiang), added Zhendong in 896 to hold both Zhejiangs; Qian Chu surrendered peacefully in 978."
       }
     },
     {
@@ -261,6 +274,45 @@
         "zh": "916—1125 年，耶律阿保机建立的草原帝国，多次介入中原政权更迭，947 年一度入主汴州。",
         "en": "916–1125, founded by Yelü Abaoji; intervened repeatedly in Central Plains politics and briefly occupied Bianzhou in 947."
       }
+    },
+    {
+      "id": "wu-ping",
+      "name": {
+        "zh": "武平",
+        "en": "Wuping"
+      },
+      "color": "#975a16",
+      "order": 18,
+      "description": {
+        "zh": "952—963 年据湖南的武平节度使政权，刘言、王逵、周行逢相继主政，名义上仍奉中原正朔，963 年为北宋假途灭虢所并。",
+        "en": "The Wuping jiedushi regime held Hunan 952–963 under Liu Yan, Wang Kui and Zhou Xingfeng; annexed by Northern Song in 963."
+      }
+    },
+    {
+      "id": "qing-yuan",
+      "name": {
+        "zh": "清源军",
+        "en": "Qingyuan"
+      },
+      "color": "#6b7c3a",
+      "order": 19,
+      "description": {
+        "zh": "945 年闽亡后据泉州、漳州的地方政权，留从效开创，962 年陈洪进继任，978 年纳土归宋；名义上先后奉南唐、宋正朔。",
+        "en": "A regional regime in Quanzhou and Zhangzhou after Min fell in 945, founded by Liu Congxiao, succeeded by Chen Hongjin in 962, submitted to Song in 978."
+      }
+    },
+    {
+      "id": "fu-zhou",
+      "name": {
+        "zh": "福州",
+        "en": "Fuzhou"
+      },
+      "color": "#7b341e",
+      "order": 20,
+      "description": {
+        "zh": "945—947 年李仁达（李弘义）据福州自立，南唐来攻不克，947 年归附吴越，福州并入吴越。",
+        "en": "Li Renda held Fuzhou independently in 945–947, repelled Southern Tang, and submitted to Wuyue in 947."
+      }
     }
   ],
   "tags": [
@@ -269,8 +321,8 @@
     "军事",
     "分裂"
   ],
-  "license": "CC-BY-4.0（疆域面含 Seshat Cliopatria 数据，CC BY 4.0；事件与路线为示意初稿）",
-  "updatedAt": "2026-11-25",
+  "license": "CC-BY-4.0（疆域面含 Seshat Cliopatria 数据，CC BY 4.0；福州、秦凤四州为现代行政边界近似；事件与路线为示意初稿）",
+  "updatedAt": "2026-11-27",
   "coverText": {
     "enTitle": "WU-DAI · SHI-GUO",
     "years": "907—979",

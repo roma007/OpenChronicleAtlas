@@ -201,7 +201,8 @@
         "brand": "史迹 · 时空地图",
         "note": "示意图 · 数据待史料校订",
         "noteEn": "Schematic · data pending review"
-      }
+      },
+      "cover": "warring-states/assets/cover-b12ab278.jpg"
     },
     {
       "id": "three-kingdoms",
@@ -303,8 +304,8 @@
         "en": "907–979"
       },
       "timeRange": {
-        "start": "0907-01-01",
-        "end": "0979-06-01"
+        "start": "0893-01-01",
+        "end": "0979-06-30"
       },
       "tags": [
         "中国历史",
@@ -313,7 +314,7 @@
         "分裂"
       ],
       "path": "wu-dai-shi-guo/manifest.json",
-      "cover": "wu-dai-shi-guo/assets/cover-dad97c5a.jpg",
+      "cover": "wu-dai-shi-guo/assets/cover-59672fda.jpg",
       "coverText": {
         "enTitle": "WU-DAI · SHI-GUO",
         "years": "907—979",
@@ -381,5 +382,5 @@
       }
     }
   ],
-  "dataVersion": "2026-11-25-afe12041f2ab"
+  "dataVersion": "2026-11-27-9c14ffb8c525"
 }

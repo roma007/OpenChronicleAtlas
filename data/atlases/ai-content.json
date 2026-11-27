@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "updatedAt": "2026-11-25",
+  "updatedAt": "2026-11-27",
   "policy": "《人工智能生成合成内容标识办法》（2025-09-01 施行）与 GB 45438-2025",
   "contentProducer": "豆包（字节跳动）",
   "contentPropagator": "史迹 · 时空地图（OpenChronicle Atlas）",
@@ -107,12 +107,21 @@
     },
     {
       "atlasId": "wu-dai-shi-guo",
-      "file": "wu-dai-shi-guo/assets/cover-dad97c5a.jpg",
+      "file": "wu-dai-shi-guo/assets/cover-59672fda.jpg",
       "tool": "占位·待 M7 替换正式封面",
       "generatedAt": "2026-11-25",
       "watermark": "豆包 AI 生成",
       "watermarkRetained": true,
       "implicitLabel": ""
+    },
+    {
+      "atlasId": "warring-states",
+      "file": "warring-states/assets/cover-b12ab278.jpg",
+      "tool": "豆包 AI",
+      "generatedAt": "2026-11-27",
+      "watermark": "豆包 AI 生成",
+      "watermarkRetained": true,
+      "implicitLabel": "TC260:AIGC"
     }
   ],
   "figures": [

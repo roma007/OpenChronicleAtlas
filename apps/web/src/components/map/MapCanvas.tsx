@@ -5,13 +5,14 @@ import type {
   AtlasRegion,
   AtlasRouteFeature,
   AtlasTerritoryFeature,
+  Locale,
+  MessageKey,
   RouteGeometry,
 } from '@atlas/shared';
 import {
   applyEventFilters,
   buildRouteGeometry,
   clusterEvents,
-  eventStart,
   latestEventAt,
   matchesRegionFilter,
   isRegionDescendant,
@@ -53,9 +54,8 @@ const ARRIVAL_MAX_ACTIVE = 6;
 const ARRIVAL_MIN_GAP_MS = 90;
 /** 未尽之路（淡墨预告线）最低缩放 */
 const ROUTE_GHOST_MIN_ZOOM = 5;
-/** 到达该缩放级别后，同一格内的多个事件改为散点显示，避免聚合点无法展开 */
-const MARKER_SPIDERFY_ZOOM = 12;
-const MARKER_SPIDERFY_RADIUS_PX = 22;
+/** 到达该缩放级别后按精确坐标拆分圆点，不同地点各有自己的点 */
+const MARKER_SPLIT_ZOOM = 12;
 
 interface LineEntry {
   feature: AtlasRouteFeature;
@@ -101,14 +101,17 @@ interface MarkerEntry {
   events: AtlasEvent[];
   marker: any;
   element: HTMLButtonElement;
-  countEl: HTMLSpanElement | null;
+  labelEl: HTMLSpanElement;
+  /** 当前呈现的事件 id，用于避免播放时每帧重设位置与文案 */
+  displayedId: string | null;
+  /** 是否为最新的高亮事件，用于抬高层级避免标题被其他事件遮挡 */
+  active: boolean;
 }
 
 interface MarkerGroup {
   key: string;
   events: AtlasEvent[];
   center: [number, number];
-  offset: { x: number; y: number } | null;
 }
 
 interface TerritoryEntry {
@@ -139,6 +142,48 @@ function ringCenter(rings: [number, number][][]): [number, number] {
 function toGcjPoint(coordinate: [number, number]): [number, number] {
   const point = wgs84ToGcj02(coordinate[0], coordinate[1]);
   return [point.lng, point.lat];
+}
+
+/**
+ * 每个圆点只呈现当前时间最新的事件：
+ * 时间推进到同一地点的新事件后，旧事件即被覆盖隐藏，标题也随之换成新事件。
+ */
+function applyEventMarkerState(
+  entry: MarkerEntry,
+  time: number,
+  latestId: string | undefined,
+  entitiesById: AtlasDataset['entitiesById'],
+  locale: Locale,
+  t: (key: MessageKey, params?: Record<string, string | number>) => string,
+): void {
+  const event = latestEventAt(entry.events, time);
+  if (!event) {
+    entry.displayedId = null;
+    entry.marker.hide();
+    return;
+  }
+
+  if (entry.displayedId !== event.id) {
+    const entityId = event.entityIds[0];
+    const entity = entityId ? entitiesById.get(entityId) : undefined;
+    const point = wgs84ToGcj02(event.location.lng, event.location.lat);
+    const name = resolveLocalized(event.name, locale);
+
+    entry.displayedId = event.id;
+    entry.marker.show();
+    entry.marker.setPosition([point.lng, point.lat]);
+    entry.element.style.setProperty('--marker-color', entity?.color ?? '#8c2f24');
+    entry.labelEl.textContent = name;
+    entry.element.setAttribute('aria-label', t('map.eventLabel', { name }));
+  }
+
+  const active = event.id === latestId;
+  if (entry.active !== active) {
+    entry.active = active;
+    // 高亮事件的标题必须压在其它圆点与标题之上，避免被遮挡
+    entry.marker.setzIndex(active ? 130 : 100);
+  }
+  entry.element.classList.toggle('atlas-marker--active', active);
 }
 
 interface TerritoryVisibilityState {
@@ -1104,14 +1149,12 @@ export function MapCanvas() {
     const clusters = clusterEvents(filteredEvents, zoom);
     const latest = latestEventAt(filteredEvents, currentTime);
 
-    // 高缩放级别下把共址事件散开，让每个事件都有自己的圆点
+    // 低缩放按网格聚合为一个圆点；高缩放按精确坐标拆分，让不同地点各有自己的点。
+    // 每个圆点只显示当前时间最新的事件，旧事件被同点的新事件覆盖后隐藏。
     const markerGroups = clusters.flatMap((cluster): MarkerGroup[] => {
-      if (zoom < MARKER_SPIDERFY_ZOOM || cluster.events.length < 2) {
-        return [
-          { key: cluster.id, events: cluster.events, center: cluster.center, offset: null },
-        ];
+      if (zoom < MARKER_SPLIT_ZOOM) {
+        return [{ key: cluster.id, events: cluster.events, center: cluster.center }];
       }
-      // 只把真正贴在一起（约 100m 内）的事件拆成环，位置本就分开的保持原位
       const buckets = new Map<string, AtlasEvent[]>();
       for (const event of cluster.events) {
         const bucketKey = `${Math.round(event.location.lng * 1000)}:${Math.round(event.location.lat * 1000)}`;
@@ -1119,111 +1162,52 @@ export function MapCanvas() {
         if (bucket) bucket.push(event);
         else buckets.set(bucketKey, [event]);
       }
-      return [...buckets.entries()].flatMap(([bucketKey, events]): MarkerGroup[] => {
-        if (events.length === 1) {
-          const event = events[0]!;
-          return [
-            {
-              key: `${cluster.id}:${bucketKey}`,
-              events,
-              center: [event.location.lng, event.location.lat],
-              offset: null,
-            },
-          ];
-        }
-        return events.map((event, index) => {
-          const angle = (index / events.length) * Math.PI * 2 - Math.PI / 2;
-          return {
-            key: `${cluster.id}:${bucketKey}:${event.id}`,
-            events: [event],
-            center: [event.location.lng, event.location.lat] as [number, number],
-            offset: {
-              x: Math.cos(angle) * MARKER_SPIDERFY_RADIUS_PX,
-              y: Math.sin(angle) * MARKER_SPIDERFY_RADIUS_PX,
-            },
-          };
-        });
-      });
+      return [...buckets.entries()].map(([bucketKey, events]) => ({
+        key: `${cluster.id}:${bucketKey}`,
+        events,
+        center: [events[0]!.location.lng, events[0]!.location.lat] as [number, number],
+      }));
     });
 
     for (const group of markerGroups) {
-      const primaryEntityId = group.events[0]?.entityIds[0];
-      const entity = primaryEntityId ? dataset.entitiesById.get(primaryEntityId) : undefined;
-      const color = entity?.color ?? '#8c2f24';
       const point = wgs84ToGcj02(group.center[0], group.center[1]);
-      const isCluster = group.events.length > 1;
 
       const element = document.createElement('button');
       element.type = 'button';
-      element.className = isCluster ? 'atlas-marker atlas-marker--cluster' : 'atlas-marker';
-      element.style.setProperty('--marker-color', color);
-      element.innerHTML = isCluster
-        ? `<span class="atlas-marker__count">${group.events.length}</span>`
-        : '<span class="atlas-marker__dot"></span>';
-      element.setAttribute(
-        'aria-label',
-        isCluster
-          ? t('map.clusterLabel', { count: group.events.length })
-          : t('map.eventLabel', { name: resolveLocalized(group.events[0]!.name, locale) }),
-      );
-
-      const countEl = isCluster
-        ? element.querySelector<HTMLSpanElement>('.atlas-marker__count')
-        : null;
+      element.className = 'atlas-marker';
+      element.innerHTML =
+        '<span class="atlas-marker__label"></span><span class="atlas-marker__dot"></span>';
 
       element.addEventListener('click', (clickEvent) => {
         clickEvent.stopPropagation();
         const state = useAtlasStore.getState();
-        const visibleEvents = group.events.filter(
-          (event) => eventStart(event) <= state.currentTime,
-        );
-        if (visibleEvents.length === 1) {
-          state.pause();
-          state.selectEvent(visibleEvents[0]!.id);
-          clearBubble();
-          return;
-        }
-        if (visibleEvents.length === 0) return;
-        const currentMap = mapRef.current;
-        if (!currentMap) return;
-        const target = wgs84ToGcj02(group.center[0], group.center[1]);
-        currentMap.setZoomAndCenter(
-          Math.min(currentMap.getZoom() + 2, MARKER_SPIDERFY_ZOOM),
-          [target.lng, target.lat],
-          true,
-        );
+        const event = latestEventAt(group.events, state.currentTime);
+        if (!event) return;
+        state.pause();
+        state.selectEvent(event.id);
+        clearBubble();
       });
 
       const marker = new AMap.Marker({
         position: [point.lng, point.lat],
         content: element,
-        anchor: group.offset ? 'center' : 'bottom-center',
-        zIndex: isCluster ? 110 : 100,
-        ...(group.offset
-          ? { offset: new AMap.Pixel(group.offset.x, group.offset.y) }
-          : {}),
+        anchor: 'bottom-center',
+        zIndex: 100,
       });
 
-      const visibleEvents = group.events.filter((event) => eventStart(event) <= currentTime);
-      if (visibleEvents.length === 0) {
-        marker.hide();
-      } else {
-        marker.show();
-        element.classList.toggle(
-          'atlas-marker--active',
-          visibleEvents.some((event) => event.id === latest?.id),
-        );
-      }
-      map.add(marker);
-
-      markerEntriesRef.current.set(group.key, {
+      const entry: MarkerEntry = {
         events: group.events,
         marker,
         element,
-        countEl,
-      });
+        labelEl: element.querySelector<HTMLSpanElement>('.atlas-marker__label')!,
+        displayedId: null,
+        active: false,
+      };
+      applyEventMarkerState(entry, currentTime, latest?.id, dataset.entitiesById, locale, t);
+      map.add(marker);
+      markerEntriesRef.current.set(group.key, entry);
     }
-  }, [dataset, activeEntityIds, filters, ready, zoom, locale]);
+  }, [dataset, activeEntityIds, filters, ready, zoom, locale, t]);
 
   // 时间变化：更新路线截断与 Marker 可见性
   useEffect(() => {
@@ -1412,22 +1396,9 @@ export function MapCanvas() {
     const latest = latestEventAt(activeEvents, currentTime);
 
     for (const entry of markerEntriesRef.current.values()) {
-      const visibleEvents = entry.events.filter(
-        (event) => eventStart(event) <= currentTime,
-      );
-      const visible = visibleEvents.length > 0;
-      entry.marker[visible ? 'show' : 'hide']();
-      if (!visible) continue;
-
-      if (entry.countEl) {
-        entry.countEl.textContent = String(visibleEvents.length);
-      }
-      entry.element.classList.toggle(
-        'atlas-marker--active',
-        visibleEvents.some((event) => event.id === latest?.id),
-      );
+      applyEventMarkerState(entry, currentTime, latest?.id, dataset.entitiesById, locale, t);
     }
-  }, [currentTime, dataset, activeEntityIds, filters, ready, showTerritories, showAdminBoundaries, showRegionLabels, selectedRoute, locale, zoom, playing, scrubbing]);
+  }, [currentTime, dataset, activeEntityIds, filters, ready, showTerritories, showAdminBoundaries, showRegionLabels, selectedRoute, locale, zoom, playing, scrubbing, t]);
 
   // 播放、拖动或时间跳转跨过事件时弹出气泡（固定 UI，避免 InfoWindow 被视口裁切）
   useEffect(() => {
