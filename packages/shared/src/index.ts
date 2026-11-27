@@ -8,6 +8,7 @@ export * from './time/date';
 export * from './timeline';
 export * from './qa/routes';
 export * from './route-style';
+export * from './territory-style';
 export * from './geo/coordinate';
 export * from './geo/cluster';
 export * from './geo/nearby';

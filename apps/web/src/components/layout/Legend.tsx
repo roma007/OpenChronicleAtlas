@@ -5,6 +5,7 @@ import {
   resolveLocalized,
   routeStyleForSegmentType,
   segmentTypeLabel,
+  territoryPolityStatus,
 } from '@atlas/shared';
 import { useId, useRef, useState } from 'react';
 import { useAtlasStore } from '../../stores/useAtlasStore';
@@ -58,6 +59,12 @@ export function Legend({ className = '' }: LegendProps) {
   const notes = Array.isArray(dataset.manifest.extensions?.notes)
     ? (dataset.manifest.extensions.notes as Array<{ zh: string; en?: string }>)
     : [];
+  const territoryFeatures = dataset.territories.filter(
+    (feature) => feature.properties.extensions?.kind !== 'admin-boundary',
+  );
+  const territoryStatuses = new Set(territoryFeatures.map(territoryPolityStatus));
+  const hasNonStateTerritory =
+    territoryStatuses.has('regime') || territoryStatuses.has('tribal');
   const categories = collectCategories(dataset.events);
   const segmentTypes = [
     ...new Set(
@@ -182,6 +189,42 @@ export function Legend({ className = '' }: LegendProps) {
             {t(showTerritories ? 'legend.on' : 'legend.off')}
           </span>
         </button>
+      ) : null}
+
+      {showTerritories && hasNonStateTerritory ? (
+        <div className="mt-2 rounded-lg bg-ink/[0.03] px-2.5 py-2">
+          <p className="text-[9px] tracking-[0.18em] text-ink-soft/60">
+            {t('legend.polityStatus.title')}
+          </p>
+          <ul className="mt-1.5 space-y-1 text-[10px] leading-4 text-ink-soft/75">
+            <li className="flex items-center gap-2">
+              <span
+                aria-hidden
+                className="h-2.5 w-5 shrink-0 rounded-[2px] border border-current"
+                style={{ backgroundColor: 'currentColor', opacity: 0.3 }}
+              />
+              <span>{t('legend.polityStatus.state')}</span>
+            </li>
+            {territoryStatuses.has('regime') ? (
+              <li className="flex items-center gap-2">
+                <span
+                  aria-hidden
+                  className="h-2.5 w-5 shrink-0 rounded-[2px] border border-dashed border-current"
+                />
+                <span>{t('legend.polityStatus.regime')}</span>
+              </li>
+            ) : null}
+            {territoryStatuses.has('tribal') ? (
+              <li className="flex items-center gap-2">
+                <span
+                  aria-hidden
+                  className="h-2.5 w-5 shrink-0 rounded-[2px] border border-dotted border-current opacity-50"
+                />
+                <span>{t('legend.polityStatus.tribal')}</span>
+              </li>
+            ) : null}
+          </ul>
+        </div>
       ) : null}
 
       {dataset.territories.some(

@@ -167,8 +167,8 @@
       "color": "#38a169",
       "order": 9,
       "description": {
-        "zh": "893 年钱镠任镇海军节度使，据浙西；896 年兼镇东军，尽有两浙；978 年钱俶纳土归宋，兵不血刃。",
-        "en": "Qian Liu became Zhenhai jiedushi in 893 (western Zhejiang), added Zhendong in 896 to hold both Zhejiangs; Qian Chu surrendered peacefully in 978."
+        "zh": "893 年钱镠任镇海军节度使，据浙西；896 年兼镇东军，尽有两浙；907 年后梁封吴越王立国；978 年钱俶纳土归宋，兵不血刃。",
+        "en": "Qian Liu became Zhenhai jiedushi in 893 (western Zhejiang), added Zhendong in 896 to hold both Zhejiangs, and was enfeoffed King of Wuyue in 907 (the founding); Qian Chu surrendered peacefully in 978."
       }
     },
     {
@@ -180,8 +180,8 @@
       "color": "#d69e2e",
       "order": 10,
       "description": {
-        "zh": "909—945 年，王审知子孙据福建，945 年亡于南唐。",
-        "en": "909–945, the Wang family held Fujian; destroyed by Southern Tang in 945."
+        "zh": "893 年王潮取福州据福建，909 年后梁封王审知闽王立国，945 年亡于南唐。",
+        "en": "Wang Chao held Fujian from 893; Wang Shenzhi was enfeoffed King of Min in 909 (the founding); destroyed by Southern Tang in 945."
       }
     },
     {
@@ -193,8 +193,8 @@
       "color": "#b7791f",
       "order": 11,
       "description": {
-        "zh": "927—951 年，马殷据湖南，951 年为南唐所灭，963 年北宋假途南下。",
-        "en": "927–951, the Ma family held Hunan; destroyed by Southern Tang in 951; invaded by Northern Song in 963 via Jingnan."
+        "zh": "896 年马殷任武安军节度使据湖南，907 年后梁封楚王立国，927 年进封楚国王；951 年为南唐所灭，963 年北宋假途南下。",
+        "en": "Ma Yin held Hunan from 896, was enfeoffed King of Chu in 907 (the founding) and raised in 927; destroyed by Southern Tang in 951; Northern Song passed through in 963."
       }
     },
     {
@@ -206,8 +206,8 @@
       "color": "#c05621",
       "order": 12,
       "description": {
-        "zh": "917—970 年，刘龑据岭南，暴政著称，970 年为北宋潘美所灭。",
-        "en": "917–970, the Liu family held Lingnan; known for tyranny; destroyed by Pan Mei of Northern Song in 970."
+        "zh": "905 年刘隐任清海军节度使据岭南，917 年刘龑称帝立国，暴政著称，970 年为北宋潘美所灭。",
+        "en": "Liu Yin held Lingnan from 905; Liu Yan declared himself emperor in 917 (the founding); known for tyranny; destroyed by Pan Mei of Northern Song in 970."
       }
     },
     {
@@ -219,8 +219,8 @@
       "color": "#718096",
       "order": 13,
       "description": {
-        "zh": "924—963 年，高季兴据江陵，地小力弱，周旋于大国之间，963 年为北宋所灭。",
-        "en": "924–963, the Gao family held Jiangling; small and weak, it maneuvered among larger states; destroyed by Northern Song in 963."
+        "zh": "907 年高季兴任荆南节度使据江陵，924 年后唐封南平王立国，地小力弱，周旋于大国之间，963 年为北宋所灭。",
+        "en": "Gao Jixing held Jiangling from 907 and was enfeoffed Prince of Nanping in 924 (the founding); small and weak, it maneuvered among larger states; destroyed by Northern Song in 963."
       }
     },
     {
@@ -232,8 +232,8 @@
       "color": "#9f7aea",
       "order": 14,
       "description": {
-        "zh": "907—925 年，王建据西川称帝，925 年为后唐所灭。",
-        "en": "907–925, Wang Jian ruled Sichuan as emperor; destroyed by Later Tang in 925."
+        "zh": "891 年王建入成都据西川（本专题自 893 画起），903 年唐封蜀王，907 年称帝立国，925 年为后唐所灭。",
+        "en": "Wang Jian held western Sichuan from 891 (drawn from 893 here), was enfeoffed Prince of Shu in 903 and declared emperor in 907 (the founding); destroyed by Later Tang in 925."
       }
     },
     {
@@ -312,6 +312,227 @@
       "description": {
         "zh": "945—947 年李仁达（李弘义）据福州自立，南唐来攻不克，947 年归附吴越，福州并入吴越。",
         "en": "Li Renda held Fuzhou independently in 945–947, repelled Southern Tang, and submitted to Wuyue in 947."
+      }
+    },
+    {
+      "id": "qi",
+      "name": {
+        "zh": "岐（李茂贞）",
+        "en": "Qi (Li Maozhen)"
+      },
+      "color": "#8b5e3c",
+      "order": 21,
+      "description": {
+        "zh": "887 年李茂贞据凤翔，901 年封岐王。唐亡后仍奉天祐年号、开岐王府，保有凤翔、泾原、秦陇，与后梁对峙；923 年称臣后唐，924 年李茂贞卒，岐国除。",
+        "en": "Li Maozhen held Fengxiang from 887 and was created Prince of Qi in 901. After the Tang fell he kept the Tang reign title and his own court, holding Fengxiang, Jingyuan and the Qin-Long region against Later Liang; he submitted to Later Tang in 923 and died in 924."
+      }
+    },
+    {
+      "id": "he-dong",
+      "name": {
+        "zh": "晋（河东）",
+        "en": "Jin (Hedong)"
+      },
+      "color": "#34506b",
+      "order": 22,
+      "description": {
+        "zh": "李克用、李存勖父子以河东节度使、晋王身份据太原，895 年封晋王，沿用唐天祐年号；923 年李存勖称帝，建后唐。",
+        "en": "Li Keyong and his son Li Cunxu held Taiyuan as military governors and Princes of Jin from 895, keeping the Tang Tianyou reign title; in 923 Li Cunxu proclaimed the Later Tang."
+      }
+    },
+    {
+      "id": "yan",
+      "name": {
+        "zh": "燕（刘守光）",
+        "en": "Yan (Liu Shouguang)"
+      },
+      "color": "#7a3b3b",
+      "order": 23,
+      "description": {
+        "zh": "895 年刘仁恭据幽州，907 年其子刘守光囚父自立，909 年受后梁封燕王，911 年称大燕皇帝，913 年为晋所灭。",
+        "en": "Liu Rengong held Youzhou from 895; his son Liu Shouguang seized it in 907, was enfeoffed Prince of Yan in 909, proclaimed himself emperor of Great Yan in 911, and was destroyed by Jin in 913."
+      }
+    },
+    {
+      "id": "ding-nan",
+      "name": {
+        "zh": "定难军",
+        "en": "Dingnan Army"
+      },
+      "color": "#4f6b3a",
+      "order": 24,
+      "description": {
+        "zh": "党项拓跋氏世袭夏州定难军节度使，881 年拓跋思恭封夏国公；五代相继臣属梁、唐、晋、汉、周而实自专，北宋初李继迁起兵，1038 年建西夏。",
+        "en": "The Tangut Tuoba clan held the Dingnan army of Xiazhou hereditarily; Tuoba Sigong was created Duke of Xia in 881. The regime submitted nominally to the successive Five Dynasties while ruling itself; its descendants founded Western Xia in 1038."
+      }
+    },
+    {
+      "id": "shuo-fang",
+      "name": {
+        "zh": "朔方军",
+        "en": "Shuofang Army"
+      },
+      "color": "#8a6a2f",
+      "order": 25,
+      "description": {
+        "zh": "韩逊据灵州，唐末为朔方节度使，后梁、后唐因之；韩氏世袭至后唐末，灵州后为党项所并。",
+        "en": "Han Xun held Lingzhou as Shuofang military governor from the late Tang; the Han family kept the post under Later Liang and Later Tang until the region was absorbed by the Tanguts."
+      }
+    },
+    {
+      "id": "gui-yi",
+      "name": {
+        "zh": "归义军",
+        "en": "Guiyi Army"
+      },
+      "color": "#6b4c7a",
+      "order": 26,
+      "description": {
+        "zh": "张议潮 848 年复沙州，唐置归义军；五代时张氏、曹氏相继，据沙、瓜二州，奉中原正朔。910—914 年张承奉一度建西汉金山国。",
+        "en": "After Zhang Yichao recovered Shazhou in 848 the Tang established the Guiyi army; the Zhang and then Cao families held Sha and Gua prefectures through the Five Dynasties, nominally loyal to the Central Plains. In 910–914 Zhang Chengfeng briefly proclaimed the Western Han Jinshan kingdom."
+      }
+    },
+    {
+      "id": "gan-zhou",
+      "name": {
+        "zh": "甘州回鹘",
+        "en": "Ganzhou Uyghurs"
+      },
+      "color": "#3f7a6a",
+      "order": 27,
+      "description": {
+        "zh": "回鹘西迁后据甘州，牙帐设于张掖，控甘、肃诸州，与归义军、党项争衡，1028 年为西夏所灭。",
+        "en": "After the Uyghur migration the Ganzhou Uyghurs established their court at Zhangye, controlling Gan and Su prefectures and contending with Guiyi and the Tanguts; they were destroyed by Western Xia in 1028."
+      }
+    },
+    {
+      "id": "tu-bo",
+      "name": {
+        "zh": "吐蕃诸部",
+        "en": "Tibetan groups"
+      },
+      "color": "#8a8378",
+      "order": 28,
+      "description": {
+        "zh": "吐蕃王朝 842 年崩溃后，河西、河湟诸部林立：凉州嗢末、青唐吐蕃等。本面为示意，非统一政权。",
+        "en": "After the Tibetan empire collapsed in 842, several groups held the Hexi and Hehuang regions, including the Wamo of Liangzhou and the Qingtang Tibetans. This is a schematic grouping, not a single polity."
+      }
+    },
+    {
+      "id": "jing-hai",
+      "name": {
+        "zh": "静海军",
+        "en": "Jinghai Army"
+      },
+      "color": "#3f6f6f",
+      "order": 29,
+      "description": {
+        "zh": "唐安南都护府。905 年曲承裕自称静海军节度使，曲氏、杨氏相继，名义臣属后梁、南汉而实自专。",
+        "en": "The Tang protectorate of Annam. Qu Chengyu styled himself Jinghai military governor in 905; the Qu and Duong families ruled in fact while nominally submitting to Later Liang and Southern Han."
+      }
+    },
+    {
+      "id": "jiao-zhi",
+      "name": {
+        "zh": "交趾（吴朝—前黎朝）",
+        "en": "Jiaozhi (Ngo to Early Le)"
+      },
+      "color": "#5a6f4a",
+      "order": 30,
+      "description": {
+        "zh": "939 年吴权白藤江败南汉后自立，交趾脱离中原；其后十二使君割据，968 年丁部领建大瞿越，980 年黎桓代丁。本面沿用静海军旧壤示意。",
+        "en": "After Ngo Quyen defeated the Southern Han at Bach Dang in 939, Jiaozhi broke away; the Twelve Warlords followed, Dinh Bo Linh founded Dai Co Viet in 968, and Le Hoan replaced the Dinh in 980. The face reuses the old Jinghai extent schematically."
+      }
+    },
+    {
+      "id": "nan-zhao",
+      "name": {
+        "zh": "南诏",
+        "en": "Nanzhao"
+      },
+      "color": "#a0522d",
+      "order": 31,
+      "description": {
+        "zh": "南诏以羊苴咩城为都，据云南；902 年为郑买嗣所篡。",
+        "en": "Nanzhao ruled Yunnan from Yangjumie; it was usurped by Zheng Maisi in 902."
+      }
+    },
+    {
+      "id": "da-chang-he",
+      "name": {
+        "zh": "大长和",
+        "en": "Da Changhe"
+      },
+      "color": "#b06a3b",
+      "order": 32,
+      "description": {
+        "zh": "902 年郑买嗣灭南诏，建大长和国，928 年为杨干贞所灭。",
+        "en": "Zheng Maisi overthrew Nanzhao in 902 and founded Da Changhe; it fell to Yang Ganzhen in 928."
+      }
+    },
+    {
+      "id": "da-tian-xing",
+      "name": {
+        "zh": "大天兴",
+        "en": "Da Tianxing"
+      },
+      "color": "#c2804a",
+      "order": 33,
+      "description": {
+        "zh": "928 年赵善政立大天兴国，次年即为杨干贞所废。",
+        "en": "Zhao Shanzheng founded Da Tianxing in 928; Yang Ganzhen deposed him the next year."
+      }
+    },
+    {
+      "id": "da-yi-ning",
+      "name": {
+        "zh": "大义宁",
+        "en": "Da Yining"
+      },
+      "color": "#8f5a34",
+      "order": 34,
+      "description": {
+        "zh": "929 年杨干贞建大义宁国，937 年为段思平所灭。",
+        "en": "Yang Ganzhen founded Da Yining in 929; Duan Siping overthrew it in 937."
+      }
+    },
+    {
+      "id": "dali",
+      "name": {
+        "zh": "大理",
+        "en": "Dali"
+      },
+      "color": "#b8860b",
+      "order": 35,
+      "description": {
+        "zh": "937 年段思平建大理国，都羊苴咩城，1253 年为蒙古所灭。",
+        "en": "Duan Siping founded the Dali kingdom in 937 with its capital at Yangjumie; it fell to the Mongols in 1253."
+      }
+    },
+    {
+      "id": "bo-zhou",
+      "name": {
+        "zh": "播州（杨氏）",
+        "en": "Bozhou (Yang clan)"
+      },
+      "color": "#6b7f4a",
+      "order": 36,
+      "description": {
+        "zh": "876 年杨端入播州，杨氏世袭，历五代、宋、元至明万历年间，为西南著名土司。",
+        "en": "Yang Duan entered Bozhou in 876; his descendants ruled it hereditarily through the Five Dynasties, Song and Yuan until the Ming, one of the best-known southwestern native chieftaincies."
+      }
+    },
+    {
+      "id": "zang-ke",
+      "name": {
+        "zh": "牂牁诸部",
+        "en": "Zangke groups"
+      },
+      "color": "#7d7a6a",
+      "order": 37,
+      "description": {
+        "zh": "牂牁、罗殿、谢氏、宋氏等部族分据黔中，无统一政权；本面为示意。",
+        "en": "Zangke, Luodian and the Xie and Song clans held parts of central Guizhou with no unified polity; this face is schematic."
       }
     }
   ],

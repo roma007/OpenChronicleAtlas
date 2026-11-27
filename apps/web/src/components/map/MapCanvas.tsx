@@ -23,6 +23,7 @@ import {
   resolveLocalized,
   routeStyleForSegmentType,
   segmentTypeLabel,
+  territoryVisualStyle,
   wgs84ToGcj02,
 } from '@atlas/shared';
 import { useEffect, useRef, useState } from 'react';
@@ -247,8 +248,11 @@ function applyTerritoryVisibility(
         });
       }
     }
+    const minLabelZoom =
+      typeof ext.minLabelZoom === 'number' ? ext.minLabelZoom : 0;
     entry.label[
-      visible && (!isAdmin || state.zoom >= 6 || selected || ancestorSelected)
+      visible && state.zoom >= minLabelZoom &&
+      (!isAdmin || state.zoom >= 6 || selected || ancestorSelected)
         ? 'show'
         : 'hide'
     ]();
@@ -581,14 +585,19 @@ export function MapCanvas() {
           ? [feature.geometry.coordinates]
           : feature.geometry.coordinates;
 
-      const dashed = ext.dashed === true;
+      const territoryStyle = territoryVisualStyle(
+        feature,
+        feature.properties.opacity ?? 0.16,
+      );
+      const dashed = territoryStyle.dashed;
+      const strokeColor = territoryStyle.neutralStroke ? '#6b7280' : entity.color;
       const polygons = parts.map((rings) => {
         const polygon = new AMap.Polygon({
           path: rings.map((ring) => ring.map(toGcjPoint)),
           fillColor: entity.color,
-          fillOpacity: feature.properties.opacity ?? 0.16,
-          strokeColor: entity.color,
-          strokeOpacity: dashed ? 0.75 : 0.55,
+          fillOpacity: territoryStyle.fillOpacity,
+          strokeColor,
+          strokeOpacity: territoryStyle.strokeOpacity,
           strokeWeight: dashed ? 1.4 : 1.2,
           strokeStyle: dashed ? 'dashed' : 'solid',
           strokeDasharray: dashed ? [6, 4] : undefined,
@@ -612,9 +621,10 @@ export function MapCanvas() {
           'font-size': '12px',
           'font-family': '"Songti SC", "STSong", serif',
           'font-weight': '600',
-          color: entity.color,
+          'font-style': territoryStyle.italic ? 'italic' : 'normal',
+          color: territoryStyle.neutralStroke ? '#6b7280' : entity.color,
           'background-color': 'rgba(247, 241, 229, 0.78)',
-          border: `1px solid ${entity.color}55`,
+          border: `1px solid ${territoryStyle.neutralStroke ? '#6b7280' : entity.color}55`,
           'border-radius': '999px',
           padding: '1px 6px',
           'white-space': 'nowrap',

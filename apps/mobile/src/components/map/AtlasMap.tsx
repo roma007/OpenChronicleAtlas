@@ -12,6 +12,7 @@ import {
   regionShortName,
   resolveLocalized,
   routeStyleForSegmentType,
+  territoryVisualStyle,
   wgs84ToGcj02,
 } from '@atlas/shared';
 import { MapView, Marker, Polygon, Polyline, type MapViewRef } from 'expo-gaode-map';
@@ -92,6 +93,7 @@ export function AtlasMap() {
       fillColor: string;
       strokeColor: string;
       strokeWidth: number;
+      outlineColor: string;
       dashed?: boolean;
     }> = [];
     for (const [index, feature] of dataset.territories.entries()) {
@@ -103,7 +105,11 @@ export function AtlasMap() {
       if (currentTime < start || currentTime > end) continue;
       const entity = dataset.entitiesById.get(entityId);
       const color = entity?.color ?? colors.moss;
-      const opacity = feature.properties.opacity ?? 0.16;
+      const style = territoryVisualStyle(feature, feature.properties.opacity ?? 0.16);
+      const outlineColor = withAlpha(
+        style.neutralStroke ? '#6b7280' : color,
+        style.strokeOpacity,
+      );
       const parts =
         feature.geometry.type === 'Polygon'
           ? [feature.geometry.coordinates]
@@ -111,13 +117,14 @@ export function AtlasMap() {
       for (const [partIndex, rings] of parts.entries()) {
         const outer = rings[0];
         if (!outer || outer.length < 3) continue;
-        const dashed = feature.properties.extensions?.dashed === true;
+        const dashed = style.dashed;
         result.push({
           key: `territory:${entityId}:${index}:${partIndex}`,
           points: outer.map(([lng, lat]) => toGcj(lng, lat)),
-          fillColor: withAlpha(color, opacity),
-          strokeColor: withAlpha(color, dashed ? 0 : 0.55),
+          fillColor: withAlpha(color, style.fillOpacity),
+          strokeColor: withAlpha(color, dashed ? 0 : style.strokeOpacity),
           strokeWidth: 1.2,
+          outlineColor,
           dashed,
         });
       }
@@ -527,7 +534,7 @@ export function AtlasMap() {
             <Polyline
               key={`territory-outline:${polygon.key}`}
               points={[...polygon.points, polygon.points[0]]}
-              strokeColor="rgba(80, 70, 55, 0.75)"
+              strokeColor={polygon.outlineColor}
               strokeWidth={1.4}
               dotted
               zIndex={9}

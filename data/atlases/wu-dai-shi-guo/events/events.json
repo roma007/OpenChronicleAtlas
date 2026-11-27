@@ -1198,8 +1198,8 @@
   {
     "id": "chu-ma-founded-927",
     "name": {
-      "zh": "马殷建马楚",
-      "en": "Ma Yin founds Ma Chu"
+      "zh": "马殷进封楚国王",
+      "en": "Ma Yin raised to King of Chu"
     },
     "atlasId": "wu-dai-shi-guo",
     "date": "0927-06-01",
@@ -1216,14 +1216,20 @@
     ],
     "category": "政治",
     "summary": {
-      "zh": "后唐天成二年（927），马殷受封楚王，都长沙。",
-      "en": "Ma Yin was enfeoffed as King of Chu at Changsha."
+      "zh": "后唐天成二年（927），马殷由楚王进封楚国王，都长沙。907 年后梁已封其为楚王，本专题以 907 年为楚国始，927 年为进封。",
+      "en": "In 927 the Later Tang raised Ma Yin from Prince of Chu to King of Chu at Changsha. Later Liang had already enfeoffed him in 907, which this atlas treats as the founding of Chu."
     },
     "sources": [
       {
         "title": "《旧五代史·世袭列传》",
         "author": "薛居正等",
         "year": 974
+      },
+      {
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百七十五，天成二年"
       },
       {
         "title": "《十国春秋·马楚》",
@@ -2841,13 +2847,13 @@
     ]
   },
   {
-    "id": "chu-ma-mayin-ascend",
+    "id": "chu-ma-mayin-hunan-896",
     "name": {
-      "zh": "马殷建马楚",
-      "en": "Ma Yin founds Ma Chu"
+      "zh": "马殷据湖南",
+      "en": "Ma Yin takes Hunan"
     },
     "atlasId": "wu-dai-shi-guo",
-    "date": "0927-06-01",
+    "date": "0896-01-01",
     "location": {
       "lng": 112.94,
       "lat": 28.23,
@@ -2861,19 +2867,20 @@
     ],
     "category": "政治",
     "summary": {
-      "zh": "马殷据湖南，受后唐封楚国王，以茶马贸易致富。",
-      "en": "Ma Yin ruled Hunan, famous for horse-tea trade."
+      "zh": "乾宁三年（896），马殷继刘建锋为武安军节度使，据潭州。此时尚未封王，属藩镇据地；907 年后梁封楚王，方为立国。",
+      "en": "In 896 Ma Yin succeeded Liu Jianfeng as military governor of Wu'an and held Tanzhou. He was not yet a king: this was a warlord holding, and only the Later Liang enfeoffment of 907 made Chu a state."
     },
     "sources": [
       {
-        "title": "《旧五代史·世袭列传·马殷传》",
-        "author": "薛居正等",
-        "year": 974
+        "title": "《资治通鉴》",
+        "author": "司马光",
+        "year": 1084,
+        "note": "卷二百六十，乾宁三年"
       },
       {
-        "title": "《十国春秋·楚》",
-        "author": "吴任臣",
-        "year": 1678
+        "title": "《新五代史·楚世家》",
+        "author": "欧阳修",
+        "year": 1053
       }
     ]
   },
