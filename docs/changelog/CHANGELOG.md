@@ -3,6 +3,19 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 结构与 [语义化版本](https://semver.org/lang/zh-CN/)。
 版本号与里程碑 tag 对应：`v0.1.0-m1`、`v0.2.0-m2` ……
 
+## [v1.0.292] - 2026-11-28
+
+### Changed
+- **五代十国：56 个纯政治事件标注 `extensions.routeEvent: false`**：即位、建号、受封、进封、禅让、纳土、
+  割地、官制税制改革、文化水利、诸子争位等没有军队位移的事件不再被 `check:routes` 误判为「路线缺失」。
+  `pnpm check:routes --atlas wu-dai-shi-guo` 的问题由 140 条降至 58 条。
+- **保留 34 个军事事件的缺线告警**：后唐灭后梁、后唐灭前蜀、辽澶州之战、南唐灭闽、高平之战、
+  后周征南唐、北宋灭后蜀/南汉/南唐/北汉、高梁河之战等，攻方缺线或守方缺防御线的情况一律不用
+  `routeEvent: false` 掩盖，列为下一轮补线任务。
+
+### Docs
+- `docs/research/wu-dai-territory-slices.md` 增「第六轮：纯政治事件标注」，写明判定口径与剩余缺线分类。
+
 ## [v1.0.291] - 2026-11-27
 
 ### Added
