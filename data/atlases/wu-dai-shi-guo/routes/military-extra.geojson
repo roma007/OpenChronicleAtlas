@@ -1,0 +1,754 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [114.34, 34.80],
+          [112.45, 34.62],
+          [113.24, 35.22],
+          [113.12, 36.19]
+        ]
+      },
+      "properties": {
+        "entityId": "liang",
+        "startDate": "0914-06-01",
+        "endDate": "0916-12-31",
+        "order": 1,
+        "segmentType": "advance",
+        "name": { "zh": "后梁援潞州：汴州→洛阳→潞州", "en": "Later Liang to Luzhou: Bianzhou → Luoyang → Luzhou" },
+        "description": { "zh": "后梁与晋争夺潞州，梁军自汴州经洛阳北上潞州，相持数年。", "en": "Later Liang and Jin contested Luzhou for years; Liang forces marched north via Luoyang." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [112.55, 37.87],
+          [113.12, 36.19]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0914-06-01",
+        "endDate": "0916-12-31",
+        "order": 2,
+        "segmentType": "defense",
+        "name": { "zh": "晋军潞州防御：太原→潞州", "en": "Jin defense of Luzhou: Taiyuan → Luzhou" },
+        "description": { "zh": "李存勖自太原南下救援潞州，与梁军相持。", "en": "Li Cunxu marched south from Taiyuan to relieve Luzhou." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [112.55, 37.87],
+          [113.12, 36.19],
+          [116.47, 35.90],
+          [114.34, 34.80]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0923-10-01",
+        "endDate": "0923-11-30",
+        "order": 3,
+        "segmentType": "advance",
+        "name": { "zh": "后唐奇袭汴州：太原→郓州→汴州", "en": "Later Tang dash to Bianzhou: Taiyuan → Yunzhou → Bianzhou" },
+        "description": { "zh": "李存勖自太原南下，经郓州奇袭汴州，后梁亡。", "en": "Li Cunxu marched south via Yunzhou and took Bianzhou by surprise, ending Later Liang." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [113.98, 34.72],
+          [114.34, 34.80],
+          [114.62, 34.67]
+        ]
+      },
+      "properties": {
+        "entityId": "liang",
+        "startDate": "0923-10-01",
+        "endDate": "0923-11-30",
+        "order": 2,
+        "segmentType": "defense",
+        "name": { "zh": "后梁汴州防御：中牟—汴州—陈留", "en": "Later Liang defense of Bianzhou: Zhongmu–Bianzhou–Chenliu" },
+        "description": { "zh": "后梁末帝困守汴州，沿汴州东西布防。", "en": "Emperor Mo of Later Liang held Bianzhou, deploying forces east and west of the capital." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [112.55, 37.87],
+          [113.12, 36.19],
+          [113.85, 34.30]
+        ]
+      },
+      "properties": {
+        "entityId": "tang",
+        "startDate": "0923-04-01",
+        "endDate": "0923-05-31",
+        "order": 4,
+        "segmentType": "advance",
+        "name": { "zh": "后唐南下胡柳陂：太原→潞州→胡柳陂", "en": "Later Tang to Hulangpi: Taiyuan → Luzhou → Hulangpi" },
+        "description": { "zh": "李存勖自太原南下，与后梁军战于胡柳陂。", "en": "Li Cunxu marched south and fought the Later Liang army at Hulangpi." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [114.34, 34.80],
+          [113.85, 34.30],
+          [113.85, 34.03]
+        ]
+      },
+      "properties": {
+        "entityId": "liang",
+        "startDate": "0923-04-01",
+        "endDate": "0923-05-31",
+        "order": 3,
+        "segmentType": "defense",
+        "name": { "zh": "后梁胡柳陂防线：汴州—胡柳陂—许州", "en": "Later Liang line at Hulangpi: Bianzhou–Hulangpi–Xuzhou" },
+        "description": { "zh": "后梁军在汴州以南迎击晋军。", "en": "Later Liang forces met the Jin army south of Bianzhou." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [105.55, 32.20],
+          [104.68, 31.47],
+          [104.07, 30.67]
+        ]
+      },
+      "properties": {
+        "entityId": "qian-shu",
+        "startDate": "0925-09-01",
+        "endDate": "0925-12-31",
+        "order": 1,
+        "segmentType": "defense",
+        "name": { "zh": "前蜀剑门防御：剑门—绵州—成都", "en": "Former Shu defense: Jianmen–Mianzhou–Chengdu" },
+        "description": { "zh": "前蜀以剑门为屏障，退守绵州、成都，王衍出降。", "en": "Former Shu held Jianmen, fell back to Mianzhou and Chengdu, and Wang Yan surrendered." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [118.32, 27.03],
+          [118.74, 26.58],
+          [119.30, 26.08]
+        ]
+      },
+      "properties": {
+        "entityId": "min",
+        "startDate": "0945-02-01",
+        "endDate": "0945-09-30",
+        "order": 1,
+        "segmentType": "defense",
+        "name": { "zh": "闽军建州—福州防御", "en": "Min defense: Jianzhou–Fuzhou" },
+        "description": { "zh": "闽国内乱，建州、福州相继失守。", "en": "Min, torn by internal strife, lost Jianzhou and then Fuzhou." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [114.91, 35.96],
+          [114.52, 35.58],
+          [114.34, 34.80]
+        ]
+      },
+      "properties": {
+        "entityId": "jin",
+        "startDate": "0947-01-01",
+        "endDate": "0947-02-28",
+        "order": 1,
+        "segmentType": "defense",
+        "name": { "zh": "后晋澶州—汴州防线", "en": "Later Jin line: Chanzhou–Bianzhou" },
+        "description": { "zh": "辽军南下，后晋沿澶州、滑州节节抵抗，汴州失守。", "en": "Later Jin resisted along Chanzhou and Huazhou as the Liao army advanced; Bianzhou fell." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [114.34, 34.80],
+          [113.24, 35.22],
+          [112.85, 35.50],
+          [112.93, 35.87]
+        ]
+      },
+      "properties": {
+        "entityId": "zhou",
+        "startDate": "0954-03-01",
+        "endDate": "0954-03-31",
+        "order": 8,
+        "segmentType": "advance",
+        "name": { "zh": "后周亲征高平：汴州→泽州→高平", "en": "Later Zhou to Gaoping: Bianzhou → Zezhou → Gaoping" },
+        "description": { "zh": "柴荣自汴州北上，经泽州至高平迎战北汉、辽联军。", "en": "Chai Rong marched north via Zezhou to Gaoping against the Northern Han–Liao army." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [112.55, 37.87],
+          [113.12, 36.19],
+          [112.93, 35.87]
+        ]
+      },
+      "properties": {
+        "entityId": "bei-han",
+        "startDate": "0954-03-01",
+        "endDate": "0954-03-31",
+        "order": 1,
+        "segmentType": "advance",
+        "name": { "zh": "北汉南下高平：太原→潞州→高平", "en": "Northern Han to Gaoping: Taiyuan → Luzhou → Gaoping" },
+        "description": { "zh": "刘崇自太原南下，联合辽军进攻后周。", "en": "Liu Chong marched south from Taiyuan with Liao support against Later Zhou." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [116.40, 39.90],
+          [114.99, 38.52],
+          [114.50, 37.07],
+          [113.12, 36.19],
+          [112.93, 35.87]
+        ]
+      },
+      "properties": {
+        "entityId": "liao",
+        "startDate": "0954-03-01",
+        "endDate": "0954-03-31",
+        "order": 3,
+        "segmentType": "advance",
+        "name": { "zh": "辽军援北汉：幽州→定州→高平", "en": "Liao relief to Gaoping: Youzhou → Dingzhou → Gaoping" },
+        "description": { "zh": "辽军自幽州南下，与北汉会师高平。", "en": "Liao forces marched south from Youzhou and joined Northern Han at Gaoping." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [105.72, 34.58],
+          [106.62, 33.87],
+          [107.02, 33.07],
+          [105.55, 32.20],
+          [104.68, 31.47],
+          [104.07, 30.67]
+        ]
+      },
+      "properties": {
+        "entityId": "hou-shu",
+        "startDate": "0955-05-01",
+        "endDate": "0956-01-31",
+        "order": 1,
+        "segmentType": "retreat",
+        "name": { "zh": "后蜀秦凤防线：秦州→凤州→兴元→剑门→成都", "en": "Later Shu Qin–Feng line: Qinzhou → Fengzhou → Xingyuan → Jianmen → Chengdu" },
+        "description": { "zh": "后周攻秦凤，后蜀自秦州、凤州退守兴元、剑门、成都。", "en": "Under Later Zhou attack, Later Shu fell back from Qinzhou and Fengzhou to Xingyuan, Jianmen and Chengdu." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [116.79, 32.65],
+          [117.27, 31.86],
+          [118.32, 32.30]
+        ]
+      },
+      "properties": {
+        "entityId": "nan-tang",
+        "startDate": "0956-02-01",
+        "endDate": "0958-05-31",
+        "order": 7,
+        "segmentType": "defense",
+        "name": { "zh": "南唐淮南防线：寿州—庐州—滁州", "en": "Southern Tang Huainan line: Shouzhou–Luzhou–Chuzhou" },
+        "description": { "zh": "后周三征淮南，南唐沿寿州、庐州、滁州设防，终失淮南十四州。", "en": "Southern Tang defended Shouzhou, Luzhou and Chuzhou through three Later Zhou campaigns, ultimately losing fourteen prefectures." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [117.23, 32.28],
+          [118.32, 32.30]
+        ]
+      },
+      "properties": {
+        "entityId": "nan-tang",
+        "startDate": "0956-03-01",
+        "endDate": "0956-05-01",
+        "order": 8,
+        "segmentType": "defense",
+        "name": { "zh": "南唐清流关防线：清流关—滁州", "en": "Southern Tang line at Qingliu Pass: Qingliuguan–Chuzhou" },
+        "description": { "zh": "南唐守清流关，赵匡胤夜袭破关。", "en": "Southern Tang held Qingliu Pass until Zhao Kuangyin stormed it by night." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [116.40, 39.90],
+          [115.97, 39.49],
+          [116.40, 39.10],
+          [116.00, 38.98]
+        ]
+      },
+      "properties": {
+        "entityId": "liao",
+        "startDate": "0959-04-01",
+        "endDate": "0959-05-31",
+        "order": 4,
+        "segmentType": "defense",
+        "name": { "zh": "辽南京防线：幽州—涿州—三关", "en": "Liao southern line: Youzhou–Zhuozhou–Three Passes" },
+        "description": { "zh": "柴荣北伐，辽军自幽州、涿州退守瓦桥、益津、淤口三关。", "en": "Under Chai Rong’s northern campaign, Liao forces fell back from Youzhou and Zhuozhou to the three passes." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [112.20, 31.03],
+          [112.18, 30.35]
+        ]
+      },
+      "properties": {
+        "entityId": "jing-nan",
+        "startDate": "0963-02-01",
+        "endDate": "0963-03-31",
+        "order": 1,
+        "segmentType": "defense",
+        "name": { "zh": "荆南江陵防御：荆门—江陵", "en": "Jingnan defense: Jingmen–Jiangling" },
+        "description": { "zh": "宋军借道南下，高继冲在江陵纳土。", "en": "Song forces passed through; Gao Jichong submitted at Jiangling." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [111.70, 29.03],
+          [112.36, 28.55],
+          [112.94, 28.23]
+        ]
+      },
+      "properties": {
+        "entityId": "wu-ping",
+        "startDate": "0963-03-01",
+        "endDate": "0963-04-30",
+        "order": 1,
+        "segmentType": "defense",
+        "name": { "zh": "武平朗州—长沙防线", "en": "Wuping line: Langzhou–Changsha" },
+        "description": { "zh": "武平内乱，宋军自江陵南下，周保权被执。", "en": "Wuping, weakened by internal strife, was overrun by Song forces advancing from Jiangling." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [105.55, 32.20],
+          [104.68, 31.47],
+          [104.07, 30.67]
+        ]
+      },
+      "properties": {
+        "entityId": "hou-shu",
+        "startDate": "0964-12-01",
+        "endDate": "0965-03-31",
+        "order": 3,
+        "segmentType": "defense",
+        "name": { "zh": "后蜀剑门—成都防御", "en": "Later Shu defense: Jianmen–Chengdu" },
+        "description": { "zh": "宋军两路入蜀，后蜀守剑门、成都，孟昶出降。", "en": "Song armies invaded on two routes; Later Shu held Jianmen and Chengdu until Meng Chang surrendered." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [113.60, 24.80],
+          [113.40, 24.20],
+          [113.26, 23.13]
+        ]
+      },
+      "properties": {
+        "entityId": "nan-han",
+        "startDate": "0969-12-01",
+        "endDate": "0970-04-30",
+        "order": 1,
+        "segmentType": "defense",
+        "name": { "zh": "南汉韶州—广州防御", "en": "Southern Han defense: Shaozhou–Guangzhou" },
+        "description": { "zh": "宋军南下，南汉失韶州，退守广州，刘鋹出降。", "en": "Song forces took Shaozhou; Southern Han fell back on Guangzhou and Liu Chang surrendered." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [118.47, 31.66],
+          [118.50, 31.55],
+          [118.78, 32.06]
+        ]
+      },
+      "properties": {
+        "entityId": "nan-tang",
+        "startDate": "0974-10-01",
+        "endDate": "0975-12-31",
+        "order": 9,
+        "segmentType": "defense",
+        "name": { "zh": "南唐长江防线：采石—当涂—金陵", "en": "Southern Tang Yangtze line: Caishi–Dangtu–Jinling" },
+        "description": { "zh": "宋军架浮桥渡江，南唐沿采石、当涂、金陵设防，金陵城破。", "en": "Song forces bridged the Yangtze; Southern Tang defended Caishi, Dangtu and Jinling until the capital fell." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [112.96, 39.07],
+          [112.73, 38.42],
+          [112.55, 37.87]
+        ]
+      },
+      "properties": {
+        "entityId": "bei-han",
+        "startDate": "0979-05-01",
+        "endDate": "0979-07-01",
+        "order": 2,
+        "segmentType": "defense",
+        "name": { "zh": "北汉代州—太原防御", "en": "Northern Han defense: Daizhou–Taiyuan" },
+        "description": { "zh": "宋军围太原，北汉以代州、忻州为外围，城破出降。", "en": "Song forces besieged Taiyuan; Northern Han held Daizhou and Xinzhou as outer defenses before surrendering." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [116.40, 39.90],
+          [114.58, 39.84],
+          [112.96, 39.07],
+          [112.73, 38.42],
+          [112.55, 37.87]
+        ]
+      },
+      "properties": {
+        "entityId": "liao",
+        "startDate": "0979-05-15",
+        "endDate": "0979-07-01",
+        "order": 5,
+        "segmentType": "advance",
+        "name": { "zh": "辽军援北汉：幽州→蔚州→太原", "en": "Liao relief to Taiyuan: Youzhou → Yuzhou → Taiyuan" },
+        "description": { "zh": "辽军自幽州西援北汉，被宋军阻于石岭关外。", "en": "Liao forces marched west to relieve Northern Han but were checked outside Shiling Pass." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [112.55, 37.87],
+          [114.57, 38.14],
+          [116.40, 39.90]
+        ]
+      },
+      "properties": {
+        "entityId": "song",
+        "startDate": "0979-06-04",
+        "endDate": "0979-07-31",
+        "order": 7,
+        "segmentType": "advance",
+        "name": { "zh": "宋军北伐幽州：太原→镇州→幽州", "en": "Song northern march: Taiyuan → Zhenzhou → Youzhou" },
+        "description": { "zh": "灭北汉后，赵光义乘胜自太原东出，经镇州北上幽州。", "en": "After destroying Northern Han, Zhao Guangyi marched east from Taiyuan via Zhenzhou toward Youzhou." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [116.40, 39.90],
+          [116.30, 39.95],
+          [115.97, 39.49]
+        ]
+      },
+      "properties": {
+        "entityId": "liao",
+        "startDate": "0979-06-10",
+        "endDate": "0979-07-31",
+        "order": 6,
+        "segmentType": "counterattack",
+        "name": { "zh": "辽军高梁河反击：幽州—高梁河—涿州", "en": "Liao counterattack at Gaoliang River: Youzhou–Gaolianghe–Zhuozhou" },
+        "description": { "zh": "辽军自幽州出击，在高梁河大败宋军。", "en": "Liao forces sortied from Youzhou and routed the Song army at the Gaoliang River." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [111.70, 29.03],
+          [112.36, 28.55],
+          [112.94, 28.23]
+        ]
+      },
+      "properties": {
+        "entityId": "wu-ping",
+        "startDate": "0952-10-01",
+        "endDate": "0952-12-31",
+        "order": 2,
+        "segmentType": "advance",
+        "name": { "zh": "武平复湖南：朗州→益阳→长沙", "en": "Wuping retakes Hunan: Langzhou → Yiyang → Changsha" },
+        "description": { "zh": "刘言遣王逵、周行逢自朗州南下，逐南唐边镐，复取长沙。", "en": "Liu Yan sent Wang Kui and Zhou Xingfeng south from Langzhou, expelling the Southern Tang governor and retaking Changsha." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [112.94, 28.23],
+          [112.36, 28.55]
+        ]
+      },
+      "properties": {
+        "entityId": "nan-tang",
+        "startDate": "0952-10-01",
+        "endDate": "0952-12-31",
+        "order": 10,
+        "segmentType": "defense",
+        "name": { "zh": "南唐长沙防御：长沙—益阳", "en": "Southern Tang defense of Changsha: Changsha–Yiyang" },
+        "description": { "zh": "南唐边镐镇长沙，武平军自朗州来攻，边镐弃城走。", "en": "Southern Tang’s Bian Gao held Changsha; attacked from Langzhou, he abandoned the city." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [118.32, 27.03],
+          [119.30, 26.08]
+        ]
+      },
+      "properties": {
+        "entityId": "nan-tang",
+        "startDate": "0946-01-01",
+        "endDate": "0946-12-31",
+        "order": 11,
+        "segmentType": "advance",
+        "name": { "zh": "南唐攻福州：建州→福州", "en": "Southern Tang attacks Fuzhou: Jianzhou → Fuzhou" },
+        "description": { "zh": "南唐自建州出兵攻福州，李仁达求救于吴越。", "en": "Southern Tang marched from Jianzhou against Fuzhou; Li Renda appealed to Wuyue." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [118.74, 26.58],
+          [119.30, 26.08]
+        ]
+      },
+      "properties": {
+        "entityId": "fu-zhou",
+        "startDate": "0946-01-01",
+        "endDate": "0946-12-31",
+        "order": 1,
+        "segmentType": "defense",
+        "name": { "zh": "福州防御：古田—福州", "en": "Fuzhou defense: Gutian–Fuzhou" },
+        "description": { "zh": "李仁达据福州，依托古田、福州城拒南唐。", "en": "Li Renda held Fuzhou, defending the Gutian approach and the city against Southern Tang." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [120.15, 30.27],
+          [120.55, 30.32],
+          [121.00, 30.45],
+          [121.80, 30.35],
+          [122.35, 29.80],
+          [122.30, 28.90],
+          [121.90, 28.10],
+          [121.40, 27.30],
+          [120.60, 26.60],
+          [119.90, 26.10],
+          [119.30, 26.08]
+        ]
+      },
+      "properties": {
+        "entityId": "wu-yue",
+        "startDate": "0946-01-01",
+        "endDate": "0946-12-31",
+        "order": 1,
+        "segmentType": "naval",
+        "name": { "zh": "吴越泛海援福州：杭州→宁波→温州→福州", "en": "Wuyue sea relief to Fuzhou: Hangzhou → Ningbo → Wenzhou → Fuzhou" },
+        "description": { "zh": "吴越遣张筠等自杭州泛海南下，援福州，败南唐军。", "en": "Wuyue sent Zhang Yun by sea from Hangzhou to relieve Fuzhou and defeated the Southern Tang army." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [116.40, 39.90],
+          [114.99, 38.52],
+          [114.50, 37.07],
+          [114.91, 35.96]
+        ]
+      },
+      "properties": {
+        "entityId": "liao",
+        "startDate": "0944-11-01",
+        "endDate": "0945-01-31",
+        "order": 7,
+        "segmentType": "advance",
+        "name": { "zh": "辽军南侵澶州：幽州→定州→邢州→澶州", "en": "Liao invasion to Chanzhou: Youzhou → Dingzhou → Xingzhou → Chanzhou" },
+        "description": { "zh": "辽太宗第一次大举南侵，经定州、邢州至澶州，后晋拒之。", "en": "In the first great Liao invasion, Emperor Taizong marched via Dingzhou and Xingzhou to Chanzhou, where Later Jin held." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [114.91, 35.96],
+          [114.52, 35.58],
+          [114.34, 34.80]
+        ]
+      },
+      "properties": {
+        "entityId": "jin",
+        "startDate": "0944-11-01",
+        "endDate": "0945-01-31",
+        "order": 2,
+        "segmentType": "defense",
+        "name": { "zh": "后晋澶州防御：澶州—滑州—汴州", "en": "Later Jin defense: Chanzhou–Huazhou–Bianzhou" },
+        "description": { "zh": "后晋在澶州、滑州一线阻击辽军，保住汴州。", "en": "Later Jin blocked the Liao army along Chanzhou and Huazhou, holding Bianzhou." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [114.34, 34.80],
+          [112.45, 34.62],
+          [108.94, 34.34],
+          [106.90, 34.20],
+          [105.72, 34.58]
+        ]
+      },
+      "properties": {
+        "entityId": "zhou",
+        "startDate": "0955-05-01",
+        "endDate": "0955-12-31",
+        "order": 9,
+        "segmentType": "advance",
+        "name": { "zh": "后周攻秦凤：汴州→长安→大散关→秦州", "en": "Later Zhou to Qinzhou: Bianzhou → Chang’an → Dasanguan → Qinzhou" },
+        "description": { "zh": "后周王景、向训自汴州经长安、大散关西进，攻后蜀秦州。", "en": "Wang Jing and Xiang Xun marched west via Chang’an and Dasanguan against Later Shu’s Qinzhou." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [105.72, 34.58],
+          [106.62, 33.87]
+        ]
+      },
+      "properties": {
+        "entityId": "zhou",
+        "startDate": "0955-12-01",
+        "endDate": "0956-01-31",
+        "order": 10,
+        "segmentType": "advance",
+        "name": { "zh": "后周取凤州：秦州→凤州", "en": "Later Zhou takes Fengzhou: Qinzhou → Fengzhou" },
+        "description": { "zh": "后周自秦州南下，攻取凤州，后蜀失秦岭要地。", "en": "Later Zhou moved south from Qinzhou and took Fengzhou, stripping Later Shu of its Qinling strongholds." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [116.79, 32.65],
+          [117.23, 32.28]
+        ]
+      },
+      "properties": {
+        "entityId": "zhou",
+        "startDate": "0956-03-01",
+        "endDate": "0956-04-30",
+        "order": 11,
+        "segmentType": "detachment",
+        "name": { "zh": "赵匡胤奇袭清流关：寿州→清流关", "en": "Zhao Kuangyin storms Qingliu Pass: Shouzhou → Qingliuguan" },
+        "description": { "zh": "后周殿前都虞候赵匡胤自寿州东进，夜袭清流关，斩南唐大将皇甫晖。", "en": "Zhao Kuangyin marched east from Shouzhou and stormed Qingliu Pass by night, killing Southern Tang general Huangfu Hui." },
+        "extensions": { "precision": "schematic", "note": "依史实地名与进军方向连点示意，非实测路线。" }
+      }
+    }
+  ]
+}

@@ -29,20 +29,22 @@
         "type": "LineString",
         "coordinates": [
           [114.34, 34.80],
-          [117.00, 38.00],
-          [118.50, 41.00],
+          [114.50, 37.07],
+          [114.65, 37.90],
+          [114.99, 38.52],
+          [116.40, 39.90],
           [116.83, 43.37]
         ]
       },
       "properties": {
         "entityId": "liao",
         "startDate": "0947-03-01",
-        "endDate": "0947-04-15",
+        "endDate": "0947-05-31",
         "order": 2,
-        "name": { "zh": "辽军北撤", "en": "Liao retreats north" },
+        "name": { "zh": "辽军北撤：汴州→栾城→幽州→临潢", "en": "Liao retreat: Bianzhou → Luancheng → Youzhou → Linhuang" },
         "segmentType": "retreat",
         "label": { "zh": "北撤", "en": "Retreat" },
-        "description": { "zh": "耶律德光北撤途中病逝，辽军退回草原。", "en": "Yelü Deguang died on the retreat; Liao forces returned to the steppe." }
+        "description": { "zh": "辽太宗北撤，经邢州、栾城杀胡林病逝，余部经幽州退回临潢。", "en": "Emperor Taizong retreated north, fell ill and died at Shahulin in Luancheng; the army returned via Youzhou to Linhuang." }
       }
     }
   ]

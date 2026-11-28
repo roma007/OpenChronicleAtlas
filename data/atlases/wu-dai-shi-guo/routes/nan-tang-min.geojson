@@ -61,7 +61,7 @@
         "type": "LineString",
         "coordinates": [
           [116.37, 25.84],
-          [118.32, 26.93]
+          [118.32, 27.03]
         ]
       },
       "properties": {
@@ -85,24 +85,23 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [118.32, 26.93],
-          [119.00, 26.40],
-          [119.30, 26.08]
+          [118.32, 27.03],
+          [118.26, 27.09]
         ]
       },
       "properties": {
         "entityId": "nan-tang",
         "startDate": "0945-02-26",
-        "endDate": "0945-03-01",
+        "endDate": "0945-08-31",
         "order": 4,
         "name": {
-          "zh": "破福州：建州→福州",
-          "en": "Breach Fuzhou: Jianzhou → Fuzhou"
+          "zh": "围建州：城下合围",
+          "en": "Siege of Jianzhou"
         },
-        "segmentType": "advance",
+        "segmentType": "other",
         "description": {
-          "zh": "唐军追击入闽东，攻破福州。闽国灭亡，闽地大部归南唐。",
-          "en": "Tang forces pursued into eastern Min, took Fuzhou; Min kingdom fell."
+          "zh": "南唐军围建州，八月城破，王延政降。",
+          "en": "Southern Tang besieged Jianzhou; the city fell in the eighth month and Wang Yanzheng surrendered."
         }
       }
     }

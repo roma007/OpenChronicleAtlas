@@ -258,11 +258,11 @@
     },
     "date": "0945-08-01",
     "location": {
-      "lng": 119.3,
-      "lat": 26.08,
+      "lng": 118.32,
+      "lat": 27.03,
       "place": {
-        "zh": "福建福州",
-        "en": "Fuzhou, Fujian"
+        "zh": "福建建州",
+        "en": "Jianzhou, Fujian"
       }
     },
     "entityIds": [
@@ -271,8 +271,8 @@
     ],
     "category": "军事",
     "summary": {
-      "zh": "南唐趁闽内乱派兵南下，闽亡。南唐疆域达于福建。",
-      "en": "Southern Tang exploited civil war in Min to invade; Min fell. Southern Tang's territory extended into Fujian."
+      "zh": "建州城破，闽主王延政降，闽亡。南唐疆域达于福建，但福州仍为李仁达所据，泉漳亦渐自立。",
+      "en": "Jianzhou fell and Min’s ruler Wang Yanzheng surrendered, ending Min. Southern Tang reached Fujian, though Fuzhou stayed with Li Renda and Quan-Zhang drifted toward local autonomy."
     },
     "sources": [
       {
@@ -545,19 +545,20 @@
     "importance": 3
   },
   {
-    "id": "zhou-destroyed-hou-shu-956",
+    "id": "zhou-qinfeng-campaign-955",
     "atlasId": "wu-dai-shi-guo",
     "name": {
-      "zh": "后周灭后蜀",
-      "en": "Later Zhou destroys Later Shu"
+      "zh": "后周攻后蜀·秦凤之战",
+      "en": "Later Zhou campaign against Later Shu: Qin–Feng"
     },
-    "date": "0956-04-13",
+    "date": "0955-05-01",
+    "endDate": "0956-01-31",
     "location": {
-      "lng": 104.07,
-      "lat": 30.67,
+      "lng": 105.72,
+      "lat": 34.58,
       "place": {
-        "zh": "四川成都",
-        "en": "Chengdu, Sichuan"
+        "zh": "甘肃秦州",
+        "en": "Qinzhou, Gansu"
       }
     },
     "entityIds": [
@@ -566,8 +567,8 @@
     ],
     "category": "军事",
     "summary": {
-      "zh": "柴荣命王景、向训率军灭后蜀，收复秦、凤、阶、成四州。",
-      "en": "Chai Rong sent Wang Jing and Xiang Xun to conquer Later Shu, recovering four prefectures."
+      "zh": "柴荣命王景、向训攻后蜀，历时数月，夺取秦、凤、阶、成四州，将后蜀逐出秦岭以北。",
+      "en": "Chai Rong sent Wang Jing and Xiang Xun against Later Shu; over several months Later Zhou took Qin, Feng, Jie and Cheng prefectures, pushing Later Shu south of the Qinling."
     },
     "sources": [
       {
@@ -592,11 +593,11 @@
     "date": "0956-02-01",
     "endDate": "0958-05-01",
     "location": {
-      "lng": 117.0,
-      "lat": 32.0,
+      "lng": 116.79,
+      "lat": 32.65,
       "place": {
-        "zh": "淮南",
-        "en": "Huainan"
+        "zh": "安徽寿州",
+        "en": "Shouzhou, Anhui"
       }
     },
     "entityIds": [
@@ -639,7 +640,7 @@
     "endDate": "0959-05-30",
     "location": {
       "lng": 116.0,
-      "lat": 39.8,
+      "lat": 38.9,
       "place": {
         "zh": "关南",
         "en": "Guan'nan"
@@ -725,8 +726,8 @@
     "id": "song-feigned-invasion-963",
     "atlasId": "wu-dai-shi-guo",
     "name": {
-      "zh": "假途灭虢（荆南+武平）",
-      "en": "Feigned passage: Jingnan and Wuping"
+      "zh": "假途灭虢·取荆南",
+      "en": "Feigned passage: taking Jingnan"
     },
     "date": "0963-02-01",
     "location": {
@@ -739,13 +740,12 @@
     },
     "entityIds": [
       "song",
-      "jing-nan",
-      "wu-ping"
+      "jing-nan"
     ],
     "category": "军事",
     "summary": {
-      "zh": "北宋以讨伐张文表为名借道荆南（南平），先取荆南，再南下湖南；所灭为据湖南的武平政权。马楚已于 951 年为南唐所灭。",
-      "en": "Northern Song used the Zhang Wenbiao revolt as a pretext to march through Jingnan, took Jingnan, then moved into Hunan against the Wuping regime (Ma Chu had already fallen to Southern Tang in 951)."
+      "zh": "北宋以讨伐张文表为名借道荆南，高继冲纳土，江陵入手；随后南下平武平（见 963 年 3 月长沙事件）。",
+      "en": "Northern Song borrowed passage through Jingnan under pretext of suppressing Zhang Wenbiao; Gao Jichong submitted and Jiangling fell. The campaign against Wuping follows in the March 963 Changsha event."
     },
     "sources": [
       {
@@ -1385,13 +1385,13 @@
       "en": "Liao Emperor Taizong dies on retreat"
     },
     "atlasId": "wu-dai-shi-guo",
-    "date": "0947-04-01",
+    "date": "0947-05-15",
     "location": {
-      "lng": 115.0,
-      "lat": 41.0,
+      "lng": 114.65,
+      "lat": 37.9,
       "place": {
-        "zh": "河北杀胡林",
-        "en": "Shahulin, Hebei"
+        "zh": "河北栾城杀胡林",
+        "en": "Shahulin, Luancheng, Hebei"
       }
     },
     "entityIds": [
@@ -1399,8 +1399,8 @@
     ],
     "category": "政治",
     "summary": {
-      "zh": "耶律德光北撤途中病逝于杀胡林，辽内斗，未能再入中原。",
-      "en": "Yelü Deguang died at Shahulin on his retreat; Liao succession struggles followed."
+      "zh": "耶律德光北撤至栾城杀胡林病逝（947 年 5 月），辽廷内斗，未能再入中原。",
+      "en": "Yelü Deguang died of illness at Shahulin in Luancheng during the northern retreat (May 947); Liao fell into succession strife and never re-entered the Central Plains."
     },
     "sources": [
       {
@@ -1662,16 +1662,16 @@
     ]
   },
   {
-    "id": "zhou-fenglin-957",
+    "id": "zhou-fenglin-956",
     "name": {
       "zh": "后周取凤州·后蜀失秦岭",
       "en": "Later Zhou takes Fengzhou"
     },
     "atlasId": "wu-dai-shi-guo",
-    "date": "0957-03-01",
+    "date": "0956-01-31",
     "location": {
-      "lng": 107.39,
-      "lat": 33.03,
+      "lng": 106.62,
+      "lat": 33.87,
       "place": {
         "zh": "陕西凤州",
         "en": "Fengzhou, Shaanxi"
@@ -1683,8 +1683,8 @@
     ],
     "category": "军事",
     "summary": {
-      "zh": "后周取凤州、文州，后蜀失去秦岭要地。",
-      "en": "Zhou took Fengzhou and Wenzhou; Later Shu lost strategic passes in the Qinling."
+      "zh": "显德三年正月（956 年初），后周取凤州、文州，后蜀失去秦岭要地。",
+      "en": "In early 956 Later Zhou took Fengzhou and Wenzhou, stripping Later Shu of its Qinling strongholds."
     },
     "sources": [
       {
@@ -1956,8 +1956,8 @@
     "atlasId": "wu-dai-shi-guo",
     "date": "0974-11-01",
     "location": {
-      "lng": 116.2,
-      "lat": 30.4,
+      "lng": 118.47,
+      "lat": 31.66,
       "place": {
         "zh": "安徽采石矶",
         "en": "Caishiji, Anhui"
@@ -2442,7 +2442,7 @@
       "en": "Chai Rong's northern expedition: three passes"
     },
     "atlasId": "wu-dai-shi-guo",
-    "date": "0959-04-28",
+    "date": "0959-05-19",
     "location": {
       "lng": 116.5,
       "lat": 39.2,
@@ -3257,17 +3257,18 @@
   {
     "id": "min-nan-tang-conquer-min",
     "name": {
-      "zh": "南唐灭闽",
-      "en": "Southern Tang conquers Min"
+      "zh": "南唐攻闽·建州之役",
+      "en": "Southern Tang campaign against Min: the Jianzhou siege"
     },
     "atlasId": "wu-dai-shi-guo",
     "date": "0945-02-01",
+    "endDate": "0945-08-31",
     "location": {
-      "lng": 119.3,
-      "lat": 26.08,
+      "lng": 118.32,
+      "lat": 27.03,
       "place": {
-        "zh": "福建福州",
-        "en": "Fuzhou, Fujian"
+        "zh": "福建建州",
+        "en": "Jianzhou, Fujian"
       }
     },
     "entityIds": [
@@ -3276,8 +3277,8 @@
     ],
     "category": "军事",
     "summary": {
-      "zh": "南唐趁闽国内乱出兵，攻破福州，闽亡。但闽地旋即被吴越抢占。",
-      "en": "Southern Tang conquered Min during its civil war."
+      "zh": "南唐乘闽国内乱出兵，自洪州、汀州进攻建州；八月建州城破，王延政降，闽亡。福州仍为李仁达所据。",
+      "en": "Southern Tang exploited Min’s civil war, marching from Hongzhou and Tingzhou against Jianzhou; the city fell in the eighth month and Wang Yanzheng surrendered, ending Min. Fuzhou remained under Li Renda."
     },
     "sources": [
       {

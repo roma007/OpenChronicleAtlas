@@ -8,7 +8,7 @@
         "coordinates": [
           [114.34, 34.80],
           [116.00, 33.50],
-          [116.79, 33.50]
+          [116.79, 32.65]
         ]
       },
       "properties": {
@@ -19,7 +19,7 @@
         "name": { "zh": "后周征淮南：第 1 阶段（956）", "en": "Phase 1 (956)" },
         "segmentType": "advance",
         "label": { "zh": "征淮南 · 一", "en": "Huainan · 1" },
-        "description": { "zh": "柴荣首次亲征，取寿州周边。", "en": "Chai Rong's first campaign." }
+        "description": { "zh": "柴荣首次亲征，围寿州。", "en": "Chai Rong's first campaign." }
       }
     },
     {
@@ -27,9 +27,9 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [116.79, 33.50],
-          [117.60, 32.30],
-          [117.06, 32.98]
+          [116.79, 32.65],
+          [117.06, 32.98],
+          [117.60, 32.30]
         ]
       },
       "properties": {
@@ -48,7 +48,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [117.06, 32.98],
           [117.60, 32.30],
           [118.00, 31.80]
         ]
@@ -70,7 +69,7 @@
         "type": "LineString",
         "coordinates": [
           [118.00, 31.80],
-          [116.79, 33.50],
+          [116.79, 32.65],
           [114.34, 34.80]
         ]
       },

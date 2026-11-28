@@ -32,7 +32,8 @@
     "routes/tang-nan-tang.geojson",
     "routes/liao-invasion.geojson",
     "routes/nan-tang-min.geojson",
-    "routes/chu-ma-civil.geojson"
+    "routes/chu-ma-civil.geojson",
+    "routes/military-extra.geojson"
   ],
   "events": [
     "events/events.json"
@@ -543,7 +544,7 @@
     "分裂"
   ],
   "license": "CC-BY-4.0（疆域面含 Seshat Cliopatria 数据，CC BY 4.0；福州、秦凤四州为现代行政边界近似；事件与路线为示意初稿）",
-  "updatedAt": "2026-11-27",
+  "updatedAt": "2026-11-28",
   "coverText": {
     "enTitle": "WU-DAI · SHI-GUO",
     "years": "907—979",
