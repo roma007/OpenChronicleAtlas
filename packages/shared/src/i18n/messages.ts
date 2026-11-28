@@ -128,6 +128,7 @@ const zh = {
   'legend.polityStatus.state': '实线：已立国（王朝 / 王国 / 帝国）',
   'legend.polityStatus.regime': '虚线：藩镇军镇据地（未立国）',
   'legend.polityStatus.tribal': '点线浅色：部族 / 羁縻（无国号）',
+  'legend.polityStatus.hint': '虚实线含义见「说明」',
   'legend.adminBoundaryPeriod': '当前显示 {period} 年省界示意',
   'legend.regionLabels': '地区标注',
   'legend.regionLabelHint': '◎ 县治 / · 地点；≈ 表示县治点位为事件平均',
@@ -384,6 +385,7 @@ const en: Record<keyof typeof zh, string> = {
     'Dashed: warlord or military governorship holding territory (not yet a state)',
   'legend.polityStatus.tribal':
     'Dotted, pale: tribes / indirect rule (no dynastic name)',
+  'legend.polityStatus.hint': 'See Notes for fill and border styles',
   'legend.adminBoundaryPeriod': 'Showing {period} provincial outlines (schematic)',
   'legend.regionLabels': 'Region labels',
   'legend.regionLabelHint': '◎ county seat / · place; ≈ means the point is an event average',

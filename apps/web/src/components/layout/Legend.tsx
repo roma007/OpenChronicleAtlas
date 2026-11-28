@@ -192,39 +192,9 @@ export function Legend({ className = '' }: LegendProps) {
       ) : null}
 
       {showTerritories && hasNonStateTerritory ? (
-        <div className="mt-2 rounded-lg bg-ink/[0.03] px-2.5 py-2">
-          <p className="text-[9px] tracking-[0.18em] text-ink-soft/60">
-            {t('legend.polityStatus.title')}
-          </p>
-          <ul className="mt-1.5 space-y-1 text-[10px] leading-4 text-ink-soft/75">
-            <li className="flex items-center gap-2">
-              <span
-                aria-hidden
-                className="h-2.5 w-5 shrink-0 rounded-[2px] border border-current"
-                style={{ backgroundColor: 'currentColor', opacity: 0.3 }}
-              />
-              <span>{t('legend.polityStatus.state')}</span>
-            </li>
-            {territoryStatuses.has('regime') ? (
-              <li className="flex items-center gap-2">
-                <span
-                  aria-hidden
-                  className="h-2.5 w-5 shrink-0 rounded-[2px] border border-dashed border-current"
-                />
-                <span>{t('legend.polityStatus.regime')}</span>
-              </li>
-            ) : null}
-            {territoryStatuses.has('tribal') ? (
-              <li className="flex items-center gap-2">
-                <span
-                  aria-hidden
-                  className="h-2.5 w-5 shrink-0 rounded-[2px] border border-dotted border-current opacity-50"
-                />
-                <span>{t('legend.polityStatus.tribal')}</span>
-              </li>
-            ) : null}
-          </ul>
-        </div>
+        <p className="mt-1 px-1 text-[9px] text-ink-soft/50">
+          {t('legend.polityStatus.hint')}
+        </p>
       ) : null}
 
       {dataset.territories.some(
@@ -486,6 +456,41 @@ export function Legend({ className = '' }: LegendProps) {
         aria-labelledby={`${uid}-legend-tab-notes`}
         hidden={tab !== 'notes'}
       >
+      {hasNonStateTerritory ? (
+        <div className={segmentTypes.length > 0 ? 'border-b border-ink/10 pb-3' : ''}>
+          <h2 className="font-serif text-sm tracking-[0.2em] text-ink">
+            {t('legend.polityStatus.title')}
+          </h2>
+          <ul className="mt-2 space-y-1.5 text-[11px] text-ink-soft">
+            <li className="flex items-center gap-2.5">
+              <span
+                aria-hidden
+                className="h-3 w-6 shrink-0 rounded-[2px] border border-current"
+                style={{ backgroundColor: 'currentColor', opacity: 0.3 }}
+              />
+              <span>{t('legend.polityStatus.state')}</span>
+            </li>
+            {territoryStatuses.has('regime') ? (
+              <li className="flex items-center gap-2.5">
+                <span
+                  aria-hidden
+                  className="h-3 w-6 shrink-0 rounded-[2px] border border-dashed border-current"
+                />
+                <span>{t('legend.polityStatus.regime')}</span>
+              </li>
+            ) : null}
+            {territoryStatuses.has('tribal') ? (
+              <li className="flex items-center gap-2.5">
+                <span
+                  aria-hidden
+                  className="h-3 w-6 shrink-0 rounded-[2px] border border-dotted border-current opacity-50"
+                />
+                <span>{t('legend.polityStatus.tribal')}</span>
+              </li>
+            ) : null}
+          </ul>
+        </div>
+      ) : null}
       {segmentTypes.length > 0 ? (
         <div>
           <h2 className="font-serif text-sm tracking-[0.2em] text-ink">
